@@ -26,6 +26,27 @@ jobs:
     env:
       NEXT_PUBLIC_DEPLOY_VERSION: ${{ github.sha }}
     steps:
+      - name: Validate configuration
+        run: |
+          missing=0
+          if [ -z "${{ vars.CLOUDFLARE_PAGES_PROJECT }}" ]; then
+            echo "::error::Missing repository variable CLOUDFLARE_PAGES_PROJECT"
+            missing=1
+          fi
+          if [ -z "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ]; then
+            echo "::error::Missing secret CLOUDFLARE_ACCOUNT_ID"
+            missing=1
+          fi
+          if [ -z "${{ secrets.CLOUDFLARE_API_TOKEN }}" ]; then
+            echo "::error::Missing secret CLOUDFLARE_API_TOKEN"
+            missing=1
+          fi
+          if [ "$missing" -eq 1 ]; then
+            echo "::error::Set missing values at https://github.com/${{ github.repository }}/settings"
+            exit 1
+          fi
+          echo "✓ All Cloudflare configuration present"
+
       - name: Checkout
         uses: actions/checkout@v4
 
