@@ -131,7 +131,7 @@ def main():
     # Find the MDX file
     script_dir = Path(__file__).parent
     repo_root = script_dir.parent
-    mdx_path = repo_root / 'embuild-analyses' / 'analyses' / args.analysis_slug / 'content.mdx'
+    mdx_path = repo_root / 'apps' / args.analysis_slug / 'content.mdx'
 
     if not mdx_path.exists():
         print(f"MDX file not found: {mdx_path}")

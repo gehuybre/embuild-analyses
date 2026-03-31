@@ -25,8 +25,8 @@ DUTCH_MONTHS = {
 
 def main() -> int:
     repo_root = Path(__file__).resolve().parent.parent
-    content_path = repo_root / "embuild-analyses" / "analyses" / "vergunningen-goedkeuringen" / "content.mdx"
-    data_path = repo_root / "embuild-analyses" / "analyses" / "vergunningen-goedkeuringen" / "results" / "data_monthly.json"
+    content_path = repo_root / "apps" / "vergunningen-goedkeuringen" / "content.mdx"
+    data_path = repo_root / "apps" / "vergunningen-goedkeuringen" / "public" / "data" / "data_monthly.json"
 
     if not content_path.exists():
         raise SystemExit(f"Content file not found: {content_path}")

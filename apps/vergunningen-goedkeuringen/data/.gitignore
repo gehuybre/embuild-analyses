@@ -1,0 +1,5 @@
+# Raw downloads (large ZIP/CSV files) — not tracked
+*
+# But keep metadata and this gitignore
+!.gitignore
+!.remote_metadata.json
