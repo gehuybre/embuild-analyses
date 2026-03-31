@@ -25,6 +25,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NEXT_PUBLIC_DEPLOY_VERSION: ${{ github.sha }}
+      NODE_OPTIONS: "--max-old-space-size=6144"
     steps:
       - name: Validate configuration
         run: |
@@ -63,7 +64,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Build all apps
-        run: pnpm turbo build
+        run: pnpm turbo build --concurrency=2
 
       - name: Merge outputs
         run: node scripts/merge-outputs.mjs
