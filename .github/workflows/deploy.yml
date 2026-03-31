@@ -57,6 +57,10 @@ jobs:
       - name: Merge outputs
         run: node scripts/merge-outputs.mjs
 
+      - name: Remove files exceeding CF Pages 25MB limit
+        run: |
+          find dist -size +25M -print -delete
+
       - name: Upload dist
         uses: actions/upload-artifact@v4
         with:
