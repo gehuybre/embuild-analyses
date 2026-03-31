@@ -21,33 +21,12 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     env:
       NEXT_PUBLIC_DEPLOY_VERSION: ${{ github.sha }}
       NODE_OPTIONS: "--max-old-space-size=6144"
     steps:
-      - name: Validate configuration
-        run: |
-          missing=0
-          if [ -z "${{ vars.CLOUDFLARE_PAGES_PROJECT }}" ]; then
-            echo "::error::Missing repository variable CLOUDFLARE_PAGES_PROJECT"
-            missing=1
-          fi
-          if [ -z "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ]; then
-            echo "::error::Missing secret CLOUDFLARE_ACCOUNT_ID"
-            missing=1
-          fi
-          if [ -z "${{ secrets.CLOUDFLARE_API_TOKEN }}" ]; then
-            echo "::error::Missing secret CLOUDFLARE_API_TOKEN"
-            missing=1
-          fi
-          if [ "$missing" -eq 1 ]; then
-            echo "::error::Set missing values at https://github.com/${{ github.repository }}/settings"
-            exit 1
-          fi
-          echo "✓ All Cloudflare configuration present"
-
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -77,6 +56,44 @@ jobs:
 
       - name: Merge outputs
         run: node scripts/merge-outputs.mjs
+
+      - name: Upload dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate configuration
+        run: |
+          missing=0
+          if [ -z "${{ vars.CLOUDFLARE_PAGES_PROJECT }}" ]; then
+            echo "::error::Missing repository variable CLOUDFLARE_PAGES_PROJECT"
+            missing=1
+          fi
+          if [ -z "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ]; then
+            echo "::error::Missing secret CLOUDFLARE_ACCOUNT_ID"
+            missing=1
+          fi
+          if [ -z "${{ secrets.CLOUDFLARE_API_TOKEN }}" ]; then
+            echo "::error::Missing secret CLOUDFLARE_API_TOKEN"
+            missing=1
+          fi
+          if [ "$missing" -eq 1 ]; then
+            echo "::error::Set missing values at https://github.com/${{ github.repository }}/settings"
+            exit 1
+          fi
+          echo "✓ All Cloudflare configuration present"
+
+      - name: Download dist
+        uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
 
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
