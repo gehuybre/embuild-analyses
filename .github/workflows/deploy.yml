@@ -17,7 +17,7 @@ permissions:
   deployments: write
 
 concurrency:
-  group: cloudflare-deploy
+  group: cloudflare-deploy-v2
   cancel-in-progress: true
 
 jobs:
