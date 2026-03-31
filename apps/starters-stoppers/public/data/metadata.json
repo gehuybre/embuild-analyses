@@ -1,0 +1,188 @@
+[
+  {
+    "Naam/Nom/Name": "CD_YEAR",
+    "Beschrijving": "Referentiejaar",
+    "Description": "Année de référence",
+    "Description EN": "Reference Year"
+  },
+  {
+    "Naam/Nom/Name": "CD_LGL_CO_TYP",
+    "Beschrijving": "Code met betrekking tot het type onderneming",
+    "Description": "Code relatif au type d'entreprise",
+    "Description EN": "Code related to the type of company"
+  },
+  {
+    "Naam/Nom/Name": "TX_LGL_CO_TYP_FR",
+    "Beschrijving": "Beschrijving van de code met betrekking tot het type onderneming (FR)",
+    "Description": "Description du code relatif au type d'entreprise (FR)",
+    "Description EN": "Description of the code related to the type of company (FR)"
+  },
+  {
+    "Naam/Nom/Name": "TX_LGL_CO_TYP_NL",
+    "Beschrijving": "Beschrijving van de code met betrekking tot het type onderneming (NL)",
+    "Description": "Description du code relatif au type d'entreprise (NL)",
+    "Description EN": "Description of the code related to the type of company (NL)"
+  },
+  {
+    "Naam/Nom/Name": "TX_LGL_CO_TYP_EN",
+    "Beschrijving": "Beschrijving van de code met betrekking tot het type onderneming (EN)",
+    "Description": "Description du code relatif au type d'entreprise (EN)",
+    "Description EN": "Description of the code related to the type of company (EN)"
+  },
+  {
+    "Naam/Nom/Name": "CD_RGN_REFNIS",
+    "Beschrijving": "Beschrijving van het type onderneming (EN)",
+    "Description": "Description du type d'entreprise (EN)",
+    "Description EN": "Description of the type of company (EN)"
+  },
+  {
+    "Naam/Nom/Name": "TX_RGN_DESCR_FR",
+    "Beschrijving": "NIS-code van de regio",
+    "Description": "Code NIS de la Région",
+    "Description EN": "NIS Code of the Region"
+  },
+  {
+    "Naam/Nom/Name": "TX_RGN_DESCR_NL",
+    "Beschrijving": "Beschrijving van de regiocode (FR)",
+    "Description": "Description du code région (FR)",
+    "Description EN": "Description of the region code (FR)"
+  },
+  {
+    "Naam/Nom/Name": "TX_RGN_DESCR_EN",
+    "Beschrijving": "Beschrijving van de regiocode (NL)",
+    "Description": "Description du code région (NL)",
+    "Description EN": "Description of the region code (NL)"
+  },
+  {
+    "Naam/Nom/Name": "CD_PROV_REFNIS",
+    "Beschrijving": "Beschrijving van de regiocode (EN)",
+    "Description": "Description du code région (EN)",
+    "Description EN": "Description of the region code (EN)"
+  },
+  {
+    "Naam/Nom/Name": "TX_PROV_DESCR_FR",
+    "Beschrijving": "NIS-code van de provincie",
+    "Description": "Code NIS de la Province",
+    "Description EN": "NIS Code of the Province"
+  },
+  {
+    "Naam/Nom/Name": "TX_PROV_DESCR_NL",
+    "Beschrijving": "Beschrijving van de NIS-code provincie (FR)",
+    "Description": "Description du Code NIS Province (FR)",
+    "Description EN": "Description of the NIS code province (FR)"
+  },
+  {
+    "Naam/Nom/Name": "TX_PROV_DESCR_EN",
+    "Beschrijving": "Beschrijving van de NIS-code provincie (NL)",
+    "Description": "Description du Code NIS Province (NL)",
+    "Description EN": "Description of the NIS code province (NL)"
+  },
+  {
+    "Naam/Nom/Name": "CD_CLS_WRKR",
+    "Beschrijving": "Beschrijving van de NIS-code provincie (EN)",
+    "Description": "Description du Code NIS Province (EN)",
+    "Description EN": "Description of the NIS code province (EN)"
+  },
+  {
+    "Naam/Nom/Name": "TX_CLS_WRKR_FR",
+    "Beschrijving": "Werkgelegenheidsklassecode",
+    "Description": "Code de classe emploi",
+    "Description EN": "Employment class code"
+  },
+  {
+    "Naam/Nom/Name": "TX_CLS_WRKR_NL",
+    "Beschrijving": "Beschrijving van de werkgelegenheidsklasse (FR)",
+    "Description": "Description de la classe emploi (FR)",
+    "Description EN": "Description of the employment class (FR)"
+  },
+  {
+    "Naam/Nom/Name": "TX_CLS_WRKR_EN",
+    "Beschrijving": "Beschrijving van de werkgelegenheidsklasse (NL)",
+    "Description": "Description de la classe emploi (NL)",
+    "Description EN": "Description of the employment class (NL)"
+  },
+  {
+    "Naam/Nom/Name": "CD_NACE_LVL1",
+    "Beschrijving": "Nace-sectiecode",
+    "Description": "Code de la Section Nace",
+    "Description EN": "NACE Section Code"
+  },
+  {
+    "Naam/Nom/Name": "TX_NACE_LVL1_DESCR_FR",
+    "Beschrijving": "Beschrijving van de Nace-sectiecode (FR)",
+    "Description": "Description du code de la section Nace (FR)",
+    "Description EN": "Description of the NACE section code (FR)"
+  },
+  {
+    "Naam/Nom/Name": "TX_NACE_LVL1_DESCR_NL",
+    "Beschrijving": "Beschrijving van de Nace-sectiecode (NL)",
+    "Description": "Description du code de la section Nace (NL)",
+    "Description EN": "Description of the NACE section code (NL)"
+  },
+  {
+    "Naam/Nom/Name": "TX_NACE_LVL1_DESCR_EN",
+    "Beschrijving": "Beschrijving van de Nace-sectiecode (EN)",
+    "Description": "Description du code de la section Nace (EN)",
+    "Description EN": "Description of the NACE section code (EN)"
+  },
+  {
+    "Naam/Nom/Name": "CD_NACE_LVL2",
+    "Beschrijving": "Nace-klassen code",
+    "Description": "Code de la classe Nace",
+    "Description EN": "NACE Class Code"
+  },
+  {
+    "Naam/Nom/Name": "TX_NACE_LVL2_DESCR_FR",
+    "Beschrijving": "Beschrijving van de activiteitsklassecode (FR)",
+    "Description": "Description du code de la classe d'activité (FR)",
+    "Description EN": "Description of the activity class code (FR)"
+  },
+  {
+    "Naam/Nom/Name": "TX_NACE_LVL2_DESCR_NL",
+    "Beschrijving": "Beschrijving van de activiteitsklassecode (NL)",
+    "Description": "Description du code de la classe d'activité (NL)",
+    "Description EN": "Description of the activity class code (NL)"
+  },
+  {
+    "Naam/Nom/Name": "TX_NACE_LVL2_DESCR_EN",
+    "Beschrijving": "Beschrijving van de activiteitsklassecode (EN)",
+    "Description": "Description du code de la classe d'activité (EN)",
+    "Description EN": "Description of the activity class code (EN)"
+  },
+  {
+    "Naam/Nom/Name": "MS_CNT_FIRST_REGISTRATIONS",
+    "Beschrijving": "Aantal eerste registraties",
+    "Description": "Nombre de primo-assujettissements",
+    "Description EN": "Number of first registrations"
+  },
+  {
+    "Naam/Nom/Name": "MS_CNT_SURV_YEAR_1",
+    "Beschrijving": "Aantal overlevingen na 1 jaar",
+    "Description": "Nombre de survies à 1 an",
+    "Description EN": "Number of survivals at 1 year"
+  },
+  {
+    "Naam/Nom/Name": "MS_CNT_SURV_YEAR_2",
+    "Beschrijving": "Aantal overlevingen na 2 jaar",
+    "Description": "Nombre de survies à 2 ans",
+    "Description EN": "Number of survivals at 2 years"
+  },
+  {
+    "Naam/Nom/Name": "MS_CNT_SURV_YEAR_3",
+    "Beschrijving": "Aantal overlevingen na 3 jaar",
+    "Description": "Nombre de survies à 3 ans",
+    "Description EN": "Number of survivals at 3 years"
+  },
+  {
+    "Naam/Nom/Name": "MS_CNT_SURV_YEAR_4",
+    "Beschrijving": "Aantal overlevingen na 4 jaar",
+    "Description": "Nombre de survies à 4 ans",
+    "Description EN": "Number of survivals at 4 years"
+  },
+  {
+    "Naam/Nom/Name": "MS_CNT_SURV_YEAR_5",
+    "Beschrijving": "Aantal overlevingen na 5 jaar",
+    "Description": "Nombre de survies à 5 ans",
+    "Description EN": "Number of survivals at 5 years"
+  }
+]

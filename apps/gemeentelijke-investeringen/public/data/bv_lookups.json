@@ -1,0 +1,1121 @@
+{
+  "domains": [
+    {
+      "BV_domein": "0 Algemene financiering"
+    },
+    {
+      "BV_domein": "1 Algemeen bestuur"
+    },
+    {
+      "BV_domein": "2 Zich verplaatsen en mobiliteit"
+    },
+    {
+      "BV_domein": "3 Natuur en milieubeheer"
+    },
+    {
+      "BV_domein": "4 Veiligheidszorg"
+    },
+    {
+      "BV_domein": "5 Ondernemen en werken"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening"
+    },
+    {
+      "BV_domein": "7 Cultuur en vrije tijd"
+    },
+    {
+      "BV_domein": "8 Leren en onderwijs"
+    },
+    {
+      "BV_domein": "9 Zorg en opvang"
+    }
+  ],
+  "subdomeins": [
+    {
+      "BV_domein": "0 Algemene financiering",
+      "BV_subdomein": "00 Algemene financiering"
+    },
+    {
+      "BV_domein": "1 Algemeen bestuur",
+      "BV_subdomein": "010 Politieke organen"
+    },
+    {
+      "BV_domein": "1 Algemeen bestuur",
+      "BV_subdomein": "011 Algemene diensten"
+    },
+    {
+      "BV_domein": "1 Algemeen bestuur",
+      "BV_subdomein": "013 Administratieve dienstverlening"
+    },
+    {
+      "BV_domein": "1 Algemeen bestuur",
+      "BV_subdomein": "015 Internationale samenwerking"
+    },
+    {
+      "BV_domein": "1 Algemeen bestuur",
+      "BV_subdomein": "016 Hulp aan het buitenland"
+    },
+    {
+      "BV_domein": "1 Algemeen bestuur",
+      "BV_subdomein": "017 Binnengemeentelijke decentralisatie"
+    },
+    {
+      "BV_domein": "1 Algemeen bestuur",
+      "BV_subdomein": "019 Overig algemeen bestuur"
+    },
+    {
+      "BV_domein": "2 Zich verplaatsen en mobiliteit",
+      "BV_subdomein": "02 Zich verplaatsen en mobiliteit"
+    },
+    {
+      "BV_domein": "3 Natuur en milieubeheer",
+      "BV_subdomein": "030 Afval- en materialenbeheer"
+    },
+    {
+      "BV_domein": "3 Natuur en milieubeheer",
+      "BV_subdomein": "031 Waterbeheer"
+    },
+    {
+      "BV_domein": "3 Natuur en milieubeheer",
+      "BV_subdomein": "032 Vermindering van de milieuverontreiniging"
+    },
+    {
+      "BV_domein": "3 Natuur en milieubeheer",
+      "BV_subdomein": "034 Bescherming van biodiversiteit, landschappen en bodem"
+    },
+    {
+      "BV_domein": "3 Natuur en milieubeheer",
+      "BV_subdomein": "035 Klimaat en energie"
+    },
+    {
+      "BV_domein": "3 Natuur en milieubeheer",
+      "BV_subdomein": "038/9 Overige milieubescherming"
+    },
+    {
+      "BV_domein": "4 Veiligheidszorg",
+      "BV_subdomein": "040 Politiediensten"
+    },
+    {
+      "BV_domein": "4 Veiligheidszorg",
+      "BV_subdomein": "041 Brandweer"
+    },
+    {
+      "BV_domein": "4 Veiligheidszorg",
+      "BV_subdomein": "042/4 Overige hulpdiensten"
+    },
+    {
+      "BV_domein": "4 Veiligheidszorg",
+      "BV_subdomein": "045/9 Overige elementen van openbare orde en veiligheid"
+    },
+    {
+      "BV_domein": "5 Ondernemen en werken",
+      "BV_subdomein": "050 Handel en middenstand"
+    },
+    {
+      "BV_domein": "5 Ondernemen en werken",
+      "BV_subdomein": "051 Nijverheid"
+    },
+    {
+      "BV_domein": "5 Ondernemen en werken",
+      "BV_subdomein": "052 Toerisme"
+    },
+    {
+      "BV_domein": "5 Ondernemen en werken",
+      "BV_subdomein": "053 Land-, tuin- en bosbouw"
+    },
+    {
+      "BV_domein": "5 Ondernemen en werken",
+      "BV_subdomein": "054 Visvangst"
+    },
+    {
+      "BV_domein": "5 Ondernemen en werken",
+      "BV_subdomein": "055 Werkgelegenheid"
+    },
+    {
+      "BV_domein": "5 Ondernemen en werken",
+      "BV_subdomein": "059 Overige economische zaken"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening",
+      "BV_subdomein": "060 Ruimtelijke planning"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening",
+      "BV_subdomein": "061 Gebiedsontwikkeling"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening",
+      "BV_subdomein": "062 Woonbeleid"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening",
+      "BV_subdomein": "063 Watervoorziening"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening",
+      "BV_subdomein": "064 Elektriciteitsvoorziening"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening",
+      "BV_subdomein": "065 Gasvoorziening"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening",
+      "BV_subdomein": "066 Communicatievoorzieningen"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening",
+      "BV_subdomein": "067 Straatverlichting"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening",
+      "BV_subdomein": "068 Groene ruimte"
+    },
+    {
+      "BV_domein": "6 Wonen en ruimtelijke ordening",
+      "BV_subdomein": "069 Overige nutsvoorzieningen"
+    },
+    {
+      "BV_domein": "7 Cultuur en vrije tijd",
+      "BV_subdomein": "070 Culturele instellingen"
+    },
+    {
+      "BV_domein": "7 Cultuur en vrije tijd",
+      "BV_subdomein": "071 Evenementen"
+    },
+    {
+      "BV_domein": "7 Cultuur en vrije tijd",
+      "BV_subdomein": "072 Erfgoed"
+    },
+    {
+      "BV_domein": "7 Cultuur en vrije tijd",
+      "BV_subdomein": "073 Overig kunst- en cultuurbeleid"
+    },
+    {
+      "BV_domein": "7 Cultuur en vrije tijd",
+      "BV_subdomein": "074 Sport"
+    },
+    {
+      "BV_domein": "7 Cultuur en vrije tijd",
+      "BV_subdomein": "075 Jeugd"
+    },
+    {
+      "BV_domein": "7 Cultuur en vrije tijd",
+      "BV_subdomein": "079 Erediensten  en niet-confessionele levensbeschouwelijke gemeenschappen"
+    },
+    {
+      "BV_domein": "8 Leren en onderwijs",
+      "BV_subdomein": "080 Basisonderwijs"
+    },
+    {
+      "BV_domein": "8 Leren en onderwijs",
+      "BV_subdomein": "081 Secundair onderwijs"
+    },
+    {
+      "BV_domein": "8 Leren en onderwijs",
+      "BV_subdomein": "082 Deeltijds kunstonderwijs"
+    },
+    {
+      "BV_domein": "8 Leren en onderwijs",
+      "BV_subdomein": "083 Hoger en Volwassenenonderwijs"
+    },
+    {
+      "BV_domein": "8 Leren en onderwijs",
+      "BV_subdomein": "086 Ondersteunende diensten voor het onderwijs"
+    },
+    {
+      "BV_domein": "8 Leren en onderwijs",
+      "BV_subdomein": "087/8 Algemeen onderwijsbeleid"
+    },
+    {
+      "BV_domein": "9 Zorg en opvang",
+      "BV_subdomein": "090 Sociaal beleid"
+    },
+    {
+      "BV_domein": "9 Zorg en opvang",
+      "BV_subdomein": "091 Ziekte- en invaliditeit"
+    },
+    {
+      "BV_domein": "9 Zorg en opvang",
+      "BV_subdomein": "092 Werkloosheid"
+    },
+    {
+      "BV_domein": "9 Zorg en opvang",
+      "BV_subdomein": "093 Sociale huisvesting"
+    },
+    {
+      "BV_domein": "9 Zorg en opvang",
+      "BV_subdomein": "094 Gezin en kinderen"
+    },
+    {
+      "BV_domein": "9 Zorg en opvang",
+      "BV_subdomein": "095 Ouderen"
+    },
+    {
+      "BV_domein": "9 Zorg en opvang",
+      "BV_subdomein": "098 Dienstverlening inzake volksgezondheid"
+    },
+    {
+      "BV_domein": "9 Zorg en opvang",
+      "BV_subdomein": "099 Begraafplaatsen, crematoria en lijkbezorging"
+    }
+  ],
+  "beleidsvelds": [
+    {
+      "BV_subdomein": "00 Algemene financiering",
+      "Beleidsveld": "0010 Algemene overdrachten tussen de verschillende bestuurlijke niveaus"
+    },
+    {
+      "BV_subdomein": "00 Algemene financiering",
+      "Beleidsveld": "0020 Fiscale aangelegenheden"
+    },
+    {
+      "BV_subdomein": "00 Algemene financiering",
+      "Beleidsveld": "0030 Financiële aangelegenheden"
+    },
+    {
+      "BV_subdomein": "00 Algemene financiering",
+      "Beleidsveld": "0040 Transacties in verband met de openbare schuld"
+    },
+    {
+      "BV_subdomein": "00 Algemene financiering",
+      "Beleidsveld": "0050 Patrimonium zonder maatschappelijk doel"
+    },
+    {
+      "BV_subdomein": "00 Algemene financiering",
+      "Beleidsveld": "0090 Overige algemene financiering"
+    },
+    {
+      "BV_subdomein": "010 Politieke organen",
+      "Beleidsveld": "0100 Politieke organen"
+    },
+    {
+      "BV_subdomein": "010 Politieke organen",
+      "Beleidsveld": "0101 Officieel ceremonieel"
+    },
+    {
+      "BV_subdomein": "011 Algemene diensten",
+      "Beleidsveld": "0110 Secretariaat"
+    },
+    {
+      "BV_subdomein": "011 Algemene diensten",
+      "Beleidsveld": "0111 Fiscale en financiële diensten"
+    },
+    {
+      "BV_subdomein": "011 Algemene diensten",
+      "Beleidsveld": "0112 Personeelsdienst en vorming"
+    },
+    {
+      "BV_subdomein": "011 Algemene diensten",
+      "Beleidsveld": "0113 Archief"
+    },
+    {
+      "BV_subdomein": "011 Algemene diensten",
+      "Beleidsveld": "0114 Organisatiebeheersing"
+    },
+    {
+      "BV_subdomein": "011 Algemene diensten",
+      "Beleidsveld": "0115 Welzijn op het werk"
+    },
+    {
+      "BV_subdomein": "011 Algemene diensten",
+      "Beleidsveld": "0119 Overige algemene diensten"
+    },
+    {
+      "BV_subdomein": "013 Administratieve dienstverlening",
+      "Beleidsveld": "0130 Administratieve dienstverlening"
+    },
+    {
+      "BV_subdomein": "015 Internationale samenwerking",
+      "Beleidsveld": "0150 Internationale relaties"
+    },
+    {
+      "BV_subdomein": "016 Hulp aan het buitenland",
+      "Beleidsveld": "0160 Hulp aan het buitenland"
+    },
+    {
+      "BV_subdomein": "017 Binnengemeentelijke decentralisatie",
+      "Beleidsveld": "0170 Binnengemeentelijke decentralisatie"
+    },
+    {
+      "BV_subdomein": "017 Binnengemeentelijke decentralisatie",
+      "Beleidsveld": "0171 Gemeentelijk/stedelijk wijkoverleg"
+    },
+    {
+      "BV_subdomein": "019 Overig algemeen bestuur",
+      "Beleidsveld": "0190 Overig algemeen bestuur"
+    },
+    {
+      "BV_subdomein": "02 Zich verplaatsen en mobiliteit",
+      "Beleidsveld": "0200 Wegen"
+    },
+    {
+      "BV_subdomein": "02 Zich verplaatsen en mobiliteit",
+      "Beleidsveld": "0210 Openbaar vervoer"
+    },
+    {
+      "BV_subdomein": "02 Zich verplaatsen en mobiliteit",
+      "Beleidsveld": "0220 Parkeren"
+    },
+    {
+      "BV_subdomein": "02 Zich verplaatsen en mobiliteit",
+      "Beleidsveld": "0290 Overige mobiliteit en verkeer"
+    },
+    {
+      "BV_subdomein": "030 Afval- en materialenbeheer",
+      "Beleidsveld": "0300 Ophalen en verwerken van huishoudelijk afval"
+    },
+    {
+      "BV_subdomein": "030 Afval- en materialenbeheer",
+      "Beleidsveld": "0309 Overig afval- en materialenbeheer"
+    },
+    {
+      "BV_subdomein": "031 Waterbeheer",
+      "Beleidsveld": "0310 Beheer van regen- en afvalwater"
+    },
+    {
+      "BV_subdomein": "031 Waterbeheer",
+      "Beleidsveld": "0319 Overig waterbeheer"
+    },
+    {
+      "BV_subdomein": "032 Vermindering van de milieuverontreiniging",
+      "Beleidsveld": "0320 Sanering van bodemverontreiniging"
+    },
+    {
+      "BV_subdomein": "032 Vermindering van de milieuverontreiniging",
+      "Beleidsveld": "0329 Overige vermindering van milieuverontreiniging"
+    },
+    {
+      "BV_subdomein": "034 Bescherming van biodiversiteit, landschappen en bodem",
+      "Beleidsveld": "0340 Aankoop, inrichting en beheer van natuur, groen en bos"
+    },
+    {
+      "BV_subdomein": "034 Bescherming van biodiversiteit, landschappen en bodem",
+      "Beleidsveld": "0341 Erosiebestrijding"
+    },
+    {
+      "BV_subdomein": "034 Bescherming van biodiversiteit, landschappen en bodem",
+      "Beleidsveld": "0349 Overige bescherming van biodiversiteit, landschappen en bodem"
+    },
+    {
+      "BV_subdomein": "035 Klimaat en energie",
+      "Beleidsveld": "0350 Klimaat en energie"
+    },
+    {
+      "BV_subdomein": "038/9 Overige milieubescherming",
+      "Beleidsveld": "0380 Participatie en sensibilisatie"
+    },
+    {
+      "BV_subdomein": "038/9 Overige milieubescherming",
+      "Beleidsveld": "0381 Geïntegreerde milieuprojecten"
+    },
+    {
+      "BV_subdomein": "038/9 Overige milieubescherming",
+      "Beleidsveld": "0390 Overige milieubescherming"
+    },
+    {
+      "BV_subdomein": "040 Politiediensten",
+      "Beleidsveld": "0400 Politiediensten"
+    },
+    {
+      "BV_subdomein": "041 Brandweer",
+      "Beleidsveld": "0410 Brandweer"
+    },
+    {
+      "BV_subdomein": "042/4 Overige hulpdiensten",
+      "Beleidsveld": "0420 Dienst 100"
+    },
+    {
+      "BV_subdomein": "042/4 Overige hulpdiensten",
+      "Beleidsveld": "0430 Civiele bescherming"
+    },
+    {
+      "BV_subdomein": "042/4 Overige hulpdiensten",
+      "Beleidsveld": "0440 Overige hulpdiensten"
+    },
+    {
+      "BV_subdomein": "045/9 Overige elementen van openbare orde en veiligheid",
+      "Beleidsveld": "0450 Rechtspleging"
+    },
+    {
+      "BV_subdomein": "045/9 Overige elementen van openbare orde en veiligheid",
+      "Beleidsveld": "0470 Dierenbescherming"
+    },
+    {
+      "BV_subdomein": "045/9 Overige elementen van openbare orde en veiligheid",
+      "Beleidsveld": "0480 Bestuurlijke preventie (incl. GAS)"
+    },
+    {
+      "BV_subdomein": "045/9 Overige elementen van openbare orde en veiligheid",
+      "Beleidsveld": "0490 Overige elementen van openbare orde en veiligheid"
+    },
+    {
+      "BV_subdomein": "050 Handel en middenstand",
+      "Beleidsveld": "0500 Handel en middenstand"
+    },
+    {
+      "BV_subdomein": "051 Nijverheid",
+      "Beleidsveld": "0510 Nijverheid"
+    },
+    {
+      "BV_subdomein": "052 Toerisme",
+      "Beleidsveld": "0520 Toerisme - Onthaal en promotie"
+    },
+    {
+      "BV_subdomein": "052 Toerisme",
+      "Beleidsveld": "0521 Toerisme - Sectorondersteuning"
+    },
+    {
+      "BV_subdomein": "052 Toerisme",
+      "Beleidsveld": "0522 Toerisme - Infrastructuur"
+    },
+    {
+      "BV_subdomein": "052 Toerisme",
+      "Beleidsveld": "0529 Overige activiteiten inzake toerisme"
+    },
+    {
+      "BV_subdomein": "053 Land-, tuin- en bosbouw",
+      "Beleidsveld": "0530 Land-, tuin- en bosbouw"
+    },
+    {
+      "BV_subdomein": "054 Visvangst",
+      "Beleidsveld": "0540 Visvangst"
+    },
+    {
+      "BV_subdomein": "055 Werkgelegenheid",
+      "Beleidsveld": "0550 Tewerkstelling en activering"
+    },
+    {
+      "BV_subdomein": "059 Overige economische zaken",
+      "Beleidsveld": "0590 Overige economische zaken"
+    },
+    {
+      "BV_subdomein": "060 Ruimtelijke planning",
+      "Beleidsveld": "0600 Ruimtelijke planning"
+    },
+    {
+      "BV_subdomein": "061 Gebiedsontwikkeling",
+      "Beleidsveld": "0610 Gebiedsontwikkeling"
+    },
+    {
+      "BV_subdomein": "062 Woonbeleid",
+      "Beleidsveld": "0620 Grondbeleid voor wonen"
+    },
+    {
+      "BV_subdomein": "062 Woonbeleid",
+      "Beleidsveld": "0621 Bestrijding van krotwoningen"
+    },
+    {
+      "BV_subdomein": "062 Woonbeleid",
+      "Beleidsveld": "0622 Woonwagenterreinen"
+    },
+    {
+      "BV_subdomein": "062 Woonbeleid",
+      "Beleidsveld": "0629 Overig woonbeleid"
+    },
+    {
+      "BV_subdomein": "063 Watervoorziening",
+      "Beleidsveld": "0630 Watervoorziening"
+    },
+    {
+      "BV_subdomein": "064 Elektriciteitsvoorziening",
+      "Beleidsveld": "0640 Elektriciteitsvoorziening"
+    },
+    {
+      "BV_subdomein": "065 Gasvoorziening",
+      "Beleidsveld": "0650 Gasvoorziening"
+    },
+    {
+      "BV_subdomein": "066 Communicatievoorzieningen",
+      "Beleidsveld": "0660 Communicatievoorzieningen"
+    },
+    {
+      "BV_subdomein": "067 Straatverlichting",
+      "Beleidsveld": "0670 Straatverlichting"
+    },
+    {
+      "BV_subdomein": "068 Groene ruimte",
+      "Beleidsveld": "0680 Groene ruimte"
+    },
+    {
+      "BV_subdomein": "069 Overige nutsvoorzieningen",
+      "Beleidsveld": "0690 Overige nutsvoorzieningen"
+    },
+    {
+      "BV_subdomein": "070 Culturele instellingen",
+      "Beleidsveld": "0700 Musea"
+    },
+    {
+      "BV_subdomein": "070 Culturele instellingen",
+      "Beleidsveld": "0701 Cultuurcentrum"
+    },
+    {
+      "BV_subdomein": "070 Culturele instellingen",
+      "Beleidsveld": "0702 Schouwburg, concertgebouw, opera"
+    },
+    {
+      "BV_subdomein": "070 Culturele instellingen",
+      "Beleidsveld": "0703 Openbare bibliotheken"
+    },
+    {
+      "BV_subdomein": "070 Culturele instellingen",
+      "Beleidsveld": "0705 Gemeenschapscentrum"
+    },
+    {
+      "BV_subdomein": "070 Culturele instellingen",
+      "Beleidsveld": "0709 Overige culturele instellingen"
+    },
+    {
+      "BV_subdomein": "071 Evenementen",
+      "Beleidsveld": "0710 Feesten en plechtigheden"
+    },
+    {
+      "BV_subdomein": "071 Evenementen",
+      "Beleidsveld": "0711 Openluchtrecreatie"
+    },
+    {
+      "BV_subdomein": "071 Evenementen",
+      "Beleidsveld": "0712 Festivals"
+    },
+    {
+      "BV_subdomein": "071 Evenementen",
+      "Beleidsveld": "0719 Overige evenementen"
+    },
+    {
+      "BV_subdomein": "072 Erfgoed",
+      "Beleidsveld": "0720 Monumentenzorg"
+    },
+    {
+      "BV_subdomein": "072 Erfgoed",
+      "Beleidsveld": "0721 Archeologie"
+    },
+    {
+      "BV_subdomein": "072 Erfgoed",
+      "Beleidsveld": "0729 Overig beleid inzake het erfgoed"
+    },
+    {
+      "BV_subdomein": "073 Overig kunst- en cultuurbeleid",
+      "Beleidsveld": "0739 Overig kunst- en cultuurbeleid"
+    },
+    {
+      "BV_subdomein": "074 Sport",
+      "Beleidsveld": "0740 Sportsector- en verenigingsondersteuning"
+    },
+    {
+      "BV_subdomein": "074 Sport",
+      "Beleidsveld": "0741 Sportpromotie en -evenementen"
+    },
+    {
+      "BV_subdomein": "074 Sport",
+      "Beleidsveld": "0742 Sportinfrastructuur"
+    },
+    {
+      "BV_subdomein": "074 Sport",
+      "Beleidsveld": "0749 Overig sportbeleid"
+    },
+    {
+      "BV_subdomein": "075 Jeugd",
+      "Beleidsveld": "0750 Jeugdsector- en verenigingsondersteuning"
+    },
+    {
+      "BV_subdomein": "075 Jeugd",
+      "Beleidsveld": "0751 Gemeentelijke dienstverlening gericht op kinderen & jongeren"
+    },
+    {
+      "BV_subdomein": "075 Jeugd",
+      "Beleidsveld": "0752 Infrastructuur en faciliteiten ten behoeve van kinderen en jongeren"
+    },
+    {
+      "BV_subdomein": "075 Jeugd",
+      "Beleidsveld": "0759 Overige activiteiten met betrekking tot jeugd"
+    },
+    {
+      "BV_subdomein": "079 Erediensten  en niet-confessionele levensbeschouwelijke gemeenschappen",
+      "Beleidsveld": "0790 Erediensten"
+    },
+    {
+      "BV_subdomein": "079 Erediensten  en niet-confessionele levensbeschouwelijke gemeenschappen",
+      "Beleidsveld": "0791 Niet-confessionele levensbeschouwelijke gemeenschappen"
+    },
+    {
+      "BV_subdomein": "080 Basisonderwijs",
+      "Beleidsveld": "0800 Gewoon basisonderwijs"
+    },
+    {
+      "BV_subdomein": "080 Basisonderwijs",
+      "Beleidsveld": "0801 Buitengewoon basisonderwijs"
+    },
+    {
+      "BV_subdomein": "081 Secundair onderwijs",
+      "Beleidsveld": "0810 Gewoon secundair onderwijs"
+    },
+    {
+      "BV_subdomein": "081 Secundair onderwijs",
+      "Beleidsveld": "0814 Leren en werken"
+    },
+    {
+      "BV_subdomein": "081 Secundair onderwijs",
+      "Beleidsveld": "0815 Buitengewoon secundair onderwijs"
+    },
+    {
+      "BV_subdomein": "082 Deeltijds kunstonderwijs",
+      "Beleidsveld": "0820 Deeltijds kunstonderwijs"
+    },
+    {
+      "BV_subdomein": "083 Hoger en Volwassenenonderwijs",
+      "Beleidsveld": "0830 Centra voor volwassenenonderwijs"
+    },
+    {
+      "BV_subdomein": "083 Hoger en Volwassenenonderwijs",
+      "Beleidsveld": "0835 Hoger onderwijs"
+    },
+    {
+      "BV_subdomein": "086 Ondersteunende diensten voor het onderwijs",
+      "Beleidsveld": "0860 Centra voor leerlingenbegeleiding"
+    },
+    {
+      "BV_subdomein": "086 Ondersteunende diensten voor het onderwijs",
+      "Beleidsveld": "0862 Huisvesting voor schoolgaanden"
+    },
+    {
+      "BV_subdomein": "086 Ondersteunende diensten voor het onderwijs",
+      "Beleidsveld": "0869 Overige ondersteunende diensten voor het onderwijs"
+    },
+    {
+      "BV_subdomein": "087/8 Algemeen onderwijsbeleid",
+      "Beleidsveld": "0870 Sociale voordelen"
+    },
+    {
+      "BV_subdomein": "087/8 Algemeen onderwijsbeleid",
+      "Beleidsveld": "0879 Andere voordelen"
+    },
+    {
+      "BV_subdomein": "087/8 Algemeen onderwijsbeleid",
+      "Beleidsveld": "0889 Ondersteunende diensten voor het algemeen onderwijsbeleid"
+    },
+    {
+      "BV_subdomein": "090 Sociaal beleid",
+      "Beleidsveld": "0900 Sociale bijstand"
+    },
+    {
+      "BV_subdomein": "090 Sociaal beleid",
+      "Beleidsveld": "0902 Integratie van personen met vreemde herkomst"
+    },
+    {
+      "BV_subdomein": "090 Sociaal beleid",
+      "Beleidsveld": "0903 Lokale opvanginitiatieven voor asielzoekers"
+    },
+    {
+      "BV_subdomein": "090 Sociaal beleid",
+      "Beleidsveld": "0905 Dienst voor juridische informatie en advies"
+    },
+    {
+      "BV_subdomein": "090 Sociaal beleid",
+      "Beleidsveld": "0909 Overige verrichtingen inzake sociaal beleid"
+    },
+    {
+      "BV_subdomein": "091 Ziekte- en invaliditeit",
+      "Beleidsveld": "0910 Woningen voor personen met een handicap"
+    },
+    {
+      "BV_subdomein": "091 Ziekte- en invaliditeit",
+      "Beleidsveld": "0911 Diensten en voorzieningen voor personen met een handicap"
+    },
+    {
+      "BV_subdomein": "091 Ziekte- en invaliditeit",
+      "Beleidsveld": "0919 Overige activiteiten inzake ziekte en invaliditeit"
+    },
+    {
+      "BV_subdomein": "092 Werkloosheid",
+      "Beleidsveld": "0920 Werkloosheid"
+    },
+    {
+      "BV_subdomein": "093 Sociale huisvesting",
+      "Beleidsveld": "0930 Sociale huisvesting"
+    },
+    {
+      "BV_subdomein": "094 Gezin en kinderen",
+      "Beleidsveld": "0940 Jeugdvoorzieningen"
+    },
+    {
+      "BV_subdomein": "094 Gezin en kinderen",
+      "Beleidsveld": "0941 Gezinsvervangende tehuizen"
+    },
+    {
+      "BV_subdomein": "094 Gezin en kinderen",
+      "Beleidsveld": "0943 Gezinshulp"
+    },
+    {
+      "BV_subdomein": "094 Gezin en kinderen",
+      "Beleidsveld": "0944 Preventieve gezinsondersteuning"
+    },
+    {
+      "BV_subdomein": "094 Gezin en kinderen",
+      "Beleidsveld": "0945 Kinderopvang"
+    },
+    {
+      "BV_subdomein": "094 Gezin en kinderen",
+      "Beleidsveld": "0946 Thuisbezorgde maaltijden"
+    },
+    {
+      "BV_subdomein": "094 Gezin en kinderen",
+      "Beleidsveld": "0947 Klusjesdienst"
+    },
+    {
+      "BV_subdomein": "094 Gezin en kinderen",
+      "Beleidsveld": "0949 Overige gezinshulp"
+    },
+    {
+      "BV_subdomein": "095 Ouderen",
+      "Beleidsveld": "0950 Ouderenwoningen"
+    },
+    {
+      "BV_subdomein": "095 Ouderen",
+      "Beleidsveld": "0951 Dienstencentra"
+    },
+    {
+      "BV_subdomein": "095 Ouderen",
+      "Beleidsveld": "0952 Assistentiewoningen"
+    },
+    {
+      "BV_subdomein": "095 Ouderen",
+      "Beleidsveld": "0953 Woon- en zorgcentra"
+    },
+    {
+      "BV_subdomein": "095 Ouderen",
+      "Beleidsveld": "0954 Dagzorgcentra"
+    },
+    {
+      "BV_subdomein": "095 Ouderen",
+      "Beleidsveld": "0959 Overige verrichtingen betreffende ouderen"
+    },
+    {
+      "BV_subdomein": "098 Dienstverlening inzake volksgezondheid",
+      "Beleidsveld": "0980 Sociale geneeskunde"
+    },
+    {
+      "BV_subdomein": "098 Dienstverlening inzake volksgezondheid",
+      "Beleidsveld": "0982 Ziekenhuizen"
+    },
+    {
+      "BV_subdomein": "098 Dienstverlening inzake volksgezondheid",
+      "Beleidsveld": "0983 Andere verpleeg- en verzorgingsinrichtingen"
+    },
+    {
+      "BV_subdomein": "098 Dienstverlening inzake volksgezondheid",
+      "Beleidsveld": "0984 Ontsmetting en openbare reiniging"
+    },
+    {
+      "BV_subdomein": "098 Dienstverlening inzake volksgezondheid",
+      "Beleidsveld": "0985 Gezondheidspromotie en ziektepreventie"
+    },
+    {
+      "BV_subdomein": "098 Dienstverlening inzake volksgezondheid",
+      "Beleidsveld": "0986 Eerstelijnsgezondheidszorg"
+    },
+    {
+      "BV_subdomein": "098 Dienstverlening inzake volksgezondheid",
+      "Beleidsveld": "0989 Overige dienstverlening inzake volksgezondheid"
+    },
+    {
+      "BV_subdomein": "099 Begraafplaatsen, crematoria en lijkbezorging",
+      "Beleidsveld": "0990 Begraafplaatsen"
+    },
+    {
+      "BV_subdomein": "099 Begraafplaatsen, crematoria en lijkbezorging",
+      "Beleidsveld": "0991 Crematoria"
+    },
+    {
+      "BV_subdomein": "099 Begraafplaatsen, crematoria en lijkbezorging",
+      "Beleidsveld": "0992 Lijkbezorging"
+    }
+  ],
+  "municipalities": {
+    "41002": "Aalst",
+    "44084": "Aalter",
+    "24001": "Aarschot",
+    "11001": "Aartselaar",
+    "23105": "Affligem",
+    "73001": "Alken",
+    "38002": "Alveringem",
+    "11002": "Antwerpen",
+    "34002": "Anzegem",
+    "37020": "Ardooie",
+    "13001": "Arendonk",
+    "71002": "As",
+    "23002": "Asse",
+    "43002": "Assenede",
+    "34003": "Avelgem",
+    "13002": "Baarle-Hertog",
+    "13003": "Balen",
+    "31003": "Beernem",
+    "13004": "Beerse",
+    "23003": "Beersel",
+    "24007": "Begijnendijk",
+    "24008": "Bekkevoort",
+    "71004": "Beringen",
+    "12002": "Berlaar",
+    "42003": "Berlare",
+    "24009": "Bertem",
+    "23009": "Bever",
+    "46030": "Beveren-Kruibeke-Zwijndrecht",
+    "24011": "Bierbeek",
+    "73110": "Bilzen-Hoeselt",
+    "31004": "Blankenberge",
+    "72003": "Bocholt",
+    "11004": "Boechout",
+    "12005": "Bonheiden",
+    "11005": "Boom",
+    "24014": "Boortmeerbeek",
+    "12007": "Bornem",
+    "24016": "Boutersem",
+    "45059": "Brakel",
+    "11008": "Brasschaat",
+    "11009": "Brecht",
+    "35002": "Bredene",
+    "72004": "Bree",
+    "31005": "Brugge",
+    "42004": "Buggenhout",
+    "31006": "Damme",
+    "35029": "De Haan",
+    "38008": "De Panne",
+    "34009": "Deerlijk",
+    "44083": "Deinze",
+    "41011": "Denderleeuw",
+    "42006": "Dendermonde",
+    "37002": "Dentergem",
+    "13006": "Dessel",
+    "44013": "Destelbergen",
+    "71011": "Diepenbeek",
+    "24020": "Diest",
+    "32003": "Diksmuide",
+    "23016": "Dilbeek",
+    "72041": "Dilsen-Stokkem",
+    "23098": "Drogenbos",
+    "12009": "Duffel",
+    "11013": "Edegem",
+    "43005": "Eeklo",
+    "41082": "Erpe-Mere",
+    "11016": "Essen",
+    "44019": "Evergem",
+    "44020": "Gavere",
+    "13008": "Geel",
+    "24028": "Geetbets",
+    "71016": "Genk",
+    "44021": "Gent",
+    "41018": "Geraardsbergen",
+    "71017": "Gingelom",
+    "35005": "Gistel",
+    "24137": "Glabbeek",
+    "23025": "Grimbergen",
+    "13010": "Grobbendonk",
+    "24033": "Haacht",
+    "41024": "Haaltert",
+    "71020": "Halen",
+    "23027": "Halle",
+    "42008": "Hamme",
+    "72037": "Hamont-Achel",
+    "34013": "Harelbeke",
+    "71072": "Hasselt",
+    "72038": "Hechtel-Eksel",
+    "73022": "Heers",
+    "12014": "Heist-op-den-Berg",
+    "11018": "Hemiksem",
+    "24038": "Herent",
+    "13011": "Herentals",
+    "13012": "Herenthout",
+    "71024": "Herk-de-Stad",
+    "13013": "Herselt",
+    "73028": "Herstappe",
+    "41027": "Herzele",
+    "71070": "Heusden-Zolder",
+    "33039": "Heuvelland",
+    "24041": "Hoegaarden",
+    "23033": "Hoeilaart",
+    "24043": "Holsbeek",
+    "36006": "Hooglede",
+    "13014": "Hoogstraten",
+    "45062": "Horebeke",
+    "72039": "Houthalen-Helchteren",
+    "32006": "Houthulst",
+    "11021": "Hove",
+    "24045": "Huldenberg",
+    "13016": "Hulshout",
+    "35006": "Ichtegem",
+    "33011": "Ieper",
+    "36007": "Ingelmunster",
+    "36008": "Izegem",
+    "31012": "Jabbeke",
+    "11022": "Kalmthout",
+    "23038": "Kampenhout",
+    "23039": "Kapelle-op-den-Bos",
+    "11023": "Kapellen",
+    "43007": "Kaprijke",
+    "13017": "Kasterlee",
+    "24048": "Keerbergen",
+    "72018": "Kinrooi",
+    "45060": "Kluisbergen",
+    "31043": "Knokke-Heist",
+    "32010": "Koekelare",
+    "38014": "Koksijde",
+    "11024": "Kontich",
+    "32011": "Kortemark",
+    "24054": "Kortenaken",
+    "24055": "Kortenberg",
+    "34022": "Kortrijk",
+    "23099": "Kraainem",
+    "45068": "Kruisem",
+    "34023": "Kuurne",
+    "13053": "Laakdal",
+    "42010": "Laarne",
+    "73042": "Lanaken",
+    "24059": "Landen",
+    "33040": "Langemark-Poelkapelle",
+    "42011": "Lebbeke",
+    "41034": "Lede",
+    "36010": "Ledegem",
+    "34025": "Lendelede",
+    "23104": "Lennik",
+    "71034": "Leopoldsburg",
+    "24062": "Leuven",
+    "36011": "Lichtervelde",
+    "23044": "Liedekerke",
+    "12021": "Lier",
+    "45063": "Lierde",
+    "44085": "Lievegem",
+    "13019": "Lille",
+    "23100": "Linkebeek",
+    "11025": "Lint",
+    "24133": "Linter",
+    "32030": "Lo-Reninge",
+    "44087": "Lochristi",
+    "46029": "Lokeren",
+    "72020": "Lommel",
+    "23045": "Londerzeel",
+    "24066": "Lubbeek",
+    "71037": "Lummen",
+    "45064": "Maarkedal",
+    "72021": "Maaseik",
+    "73107": "Maasmechelen",
+    "23047": "Machelen",
+    "43010": "Maldegem",
+    "11057": "Malle",
+    "12025": "Mechelen",
+    "13021": "Meerhout",
+    "23050": "Meise",
+    "34027": "Menen",
+    "23052": "Merchtem",
+    "44088": "Merelbeke-Melle",
+    "13023": "Merksplas",
+    "33016": "Mesen",
+    "35011": "Middelkerke",
+    "13025": "Mol",
+    "36012": "Moorslede",
+    "11029": "Mortsel",
+    "44086": "Nazareth-De Pinte",
+    "11030": "Niel",
+    "71045": "Nieuwerkerken",
+    "38016": "Nieuwpoort",
+    "12026": "Nijlen",
+    "41048": "Ninove",
+    "13029": "Olen",
+    "35013": "Oostende",
+    "44052": "Oosterzele",
+    "31022": "Oostkamp",
+    "37010": "Oostrozebeke",
+    "23060": "Opwijk",
+    "24086": "Oud-Heverlee",
+    "13031": "Oud-Turnhout",
+    "45035": "Oudenaarde",
+    "35014": "Oudenburg",
+    "72042": "Oudsbergen",
+    "23062": "Overijse",
+    "23106": "Pajottegem",
+    "72030": "Peer",
+    "72043": "Pelt",
+    "23064": "Pepingen",
+    "37011": "Pittem",
+    "33021": "Poperinge",
+    "12029": "Putte",
+    "12041": "Puurs-Sint-Amands",
+    "11035": "Ranst",
+    "13035": "Ravels",
+    "13036": "Retie",
+    "73066": "Riemst",
+    "13037": "Rijkevorsel",
+    "36015": "Roeselare",
+    "45041": "Ronse",
+    "23097": "Roosdaal",
+    "24094": "Rotselaar",
+    "11037": "Rumst",
+    "11038": "Schelle",
+    "24134": "Scherpenheuvel-Zichem",
+    "11039": "Schilde",
+    "11040": "Schoten",
+    "23101": "Sint-Genesius-Rode",
+    "46020": "Sint-Gillis-Waas",
+    "12035": "Sint-Katelijne-Waver",
+    "43014": "Sint-Laureins",
+    "41063": "Sint-Lievens-Houtem",
+    "44064": "Sint-Martens-Latem",
+    "46021": "Sint-Niklaas",
+    "23077": "Sint-Pieters-Leeuw",
+    "71053": "Sint-Truiden",
+    "34043": "Spiere-Helkijn",
+    "11044": "Stabroek",
+    "36019": "Staden",
+    "23081": "Steenokkerzeel",
+    "46024": "Stekene",
+    "46025": "Temse",
+    "23086": "Ternat",
+    "24104": "Tervuren",
+    "71071": "Tessenderlo-Ham",
+    "37022": "Tielt",
+    "24135": "Tielt-Winge",
+    "24107": "Tienen",
+    "73111": "Tongeren-Borgloon",
+    "31033": "Torhout",
+    "24109": "Tremelo",
+    "13040": "Turnhout",
+    "38025": "Veurne",
+    "23088": "Vilvoorde",
+    "33041": "Vleteren",
+    "73109": "Voeren",
+    "13044": "Vorselaar",
+    "13046": "Vosselaar",
+    "42023": "Waasmunster",
+    "34040": "Waregem",
+    "73098": "Wellen",
+    "23102": "Wemmel",
+    "33029": "Wervik",
+    "13049": "Westerlo",
+    "42025": "Wetteren",
+    "34041": "Wevelgem",
+    "23103": "Wezembeek-Oppem",
+    "42026": "Wichelen",
+    "37017": "Wielsbeke",
+    "11050": "Wijnegem",
+    "12040": "Willebroek",
+    "37021": "Wingene",
+    "11052": "Wommelgem",
+    "45061": "Wortegem-Petegem",
+    "11053": "Wuustwezel",
+    "11054": "Zandhoven",
+    "23094": "Zaventem",
+    "31040": "Zedelgem",
+    "42028": "Zele",
+    "43018": "Zelzate",
+    "23096": "Zemst",
+    "11055": "Zoersel",
+    "71066": "Zonhoven",
+    "33037": "Zonnebeke",
+    "41081": "Zottegem",
+    "24130": "Zoutleeuw",
+    "31042": "Zuienkerke",
+    "44081": "Zulte",
+    "71067": "Zutendaal",
+    "45065": "Zwalm",
+    "34042": "Zwevegem"
+  }
+}

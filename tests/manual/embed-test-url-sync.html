@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faillissementen Embed Test - URL Sync (Phase 1)</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      background: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+      border-bottom: 3px solid #0066cc;
+      padding-bottom: 10px;
+    }
+    h2 {
+      color: #666;
+      margin-top: 40px;
+      border-left: 4px solid #0066cc;
+      padding-left: 12px;
+    }
+    .test-description {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+    }
+    .test-description code {
+      background: #f0f0f0;
+      padding: 2px 6px;
+      border-radius: 3px;
+      font-family: 'Courier New', monospace;
+      font-size: 0.9em;
+    }
+    .test-description strong {
+      color: #0066cc;
+    }
+    iframe {
+      border: 2px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      margin-bottom: 40px;
+    }
+    .success-criteria {
+      background: #e8f5e9;
+      border: 1px solid #4caf50;
+      border-radius: 8px;
+      padding: 15px;
+      margin: 20px 0;
+    }
+    .success-criteria h3 {
+      margin-top: 0;
+      color: #2e7d32;
+    }
+    .success-criteria ul {
+      margin: 10px 0;
+    }
+    .success-criteria li {
+      margin: 5px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>🚀 Faillissementen Embed Test - URL-Synced State (Phase 1)</h1>
+
+  <div class="test-description">
+    <p>
+      <strong>Test Doel:</strong> Verifiëren dat de URL-synced state management correct werkt voor embeds.
+      Alle filters moeten automatisch uit de URL worden geladen zonder handmatige <code>embedParams</code>.
+    </p>
+    <p>
+      <strong>Implementatie:</strong> Zustand store met automatische URL synchronisatie via <code>embed-filters-store.ts</code>
+    </p>
+  </div>
+
+  <div class="success-criteria">
+    <h3>✅ Success Criteria</h3>
+    <ul>
+      <li>Embeds laden met correcte filters uit URL parameters</li>
+      <li>Geen handmatige <code>embedParams</code> nodig in code</li>
+      <li>Browser refresh behoudt filter state</li>
+      <li>URL updates automatisch bij filter wijzigingen</li>
+      <li>Meerdere embeds op dezelfde pagina beïnvloeden elkaar niet</li>
+    </ul>
+  </div>
+
+  <h2>1. Default View (geen filters)</h2>
+  <div class="test-description">
+    <strong>Verwacht gedrag:</strong> Standaard weergave (bouwsector "F", maandelijks, grafiek)
+    <br><strong>URL:</strong> <code>?view=chart</code>
+  </div>
+  <iframe
+    src="http://localhost:3000/embed/faillissementen/evolutie/?view=chart"
+    data-data-blog-embed="true"
+    width="100%"
+    height="600"
+    title="Faillissementen - Default"
+  ></iframe>
+
+  <h2>2. Filtered: 2024, Bouwsector (F), Provincie Antwerpen</h2>
+  <div class="test-description">
+    <strong>Verwacht gedrag:</strong> Gefilterde data voor 2024, bouwsector F, provincie Antwerpen
+    <br><strong>URL:</strong> <code>?view=chart&year=2024&sector=F&province=10000</code>
+    <br><strong>Test:</strong> Data moet overeenkomen met deze specifieke filters
+  </div>
+  <iframe
+    src="http://localhost:3000/embed/faillissementen/evolutie/?view=chart&sector=F&province=10000"
+    data-data-blog-embed="true"
+    width="100%"
+    height="600"
+    title="Faillissementen - Filtered (2024, F, Antwerpen)"
+  ></iframe>
+
+  <h2>3. Jaarlijks, Alle Sectoren</h2>
+  <div class="test-description">
+    <strong>Verwacht gedrag:</strong> Jaarlijkse data voor alle sectoren
+    <br><strong>URL:</strong> <code>?view=chart&range=yearly&sector=ALL</code>
+    <br><strong>Test:</strong> X-as moet jaren tonen (niet maanden)
+  </div>
+  <iframe
+    src="http://localhost:3000/embed/faillissementen/evolutie/?view=chart&range=yearly&sector=ALL"
+    data-data-blog-embed="true"
+    width="100%"
+    height="600"
+    title="Faillissementen - Yearly All Sectors"
+  ></iframe>
+
+  <h2>4. Tabel View, Maandelijks, Vlaanderen</h2>
+  <div class="test-description">
+    <strong>Verwacht gedrag:</strong> Tabelweergave met maandelijkse data voor Vlaanderen
+    <br><strong>URL:</strong> <code>?view=table&range=monthly&region=2000</code>
+    <br><strong>Test:</strong> Moet tabel tonen (niet grafiek)
+  </div>
+  <iframe
+    src="http://localhost:3000/embed/faillissementen/evolutie/?view=table&range=monthly&region=2000"
+    data-data-blog-embed="true"
+    width="100%"
+    height="600"
+    title="Faillissementen - Table View"
+  ></iframe>
+
+  <h2>5. Complex Filter Combinatie</h2>
+  <div class="test-description">
+    <strong>Verwacht gedrag:</strong> Meerdere filters gecombineerd
+    <br><strong>URL:</strong> <code>?view=chart&range=yearly&sector=F&province=20001&year=2023</code>
+    <br><strong>Test:</strong> Alle filters moeten correct worden toegepast
+  </div>
+  <iframe
+    src="http://localhost:3000/embed/faillissementen/evolutie/?view=chart&range=yearly&sector=F&province=20001"
+    data-data-blog-embed="true"
+    width="100%"
+    height="600"
+    title="Faillissementen - Complex Filters"
+  ></iframe>
+
+  <div class="success-criteria" style="margin-top: 60px; background: #fff3e0; border-color: #ff9800;">
+    <h3>🧪 Manual Test Checklist</h3>
+    <ul>
+      <li>[ ] Alle 5 embeds laden zonder errors</li>
+      <li>[ ] Filters uit URL worden correct toegepast</li>
+      <li>[ ] Embed 2 toont alleen data voor Antwerpen</li>
+      <li>[ ] Embed 3 toont jaarlijkse data (geen maanden)</li>
+      <li>[ ] Embed 4 toont tabel (niet grafiek)</li>
+      <li>[ ] Verander filter in embed → URL update werkt</li>
+      <li>[ ] Refresh pagina → filters blijven behouden</li>
+      <li>[ ] Open browser DevTools → geen console errors</li>
+      <li>[ ] Redux DevTools (als geïnstalleerd) → "EmbedFilters" store zichtbaar</li>
+    </ul>
+  </div>
+
+  <div class="success-criteria" style="margin-top: 20px; background: #e3f2fd; border-color: #2196f3;">
+    <h3>🔍 Next Steps After Successful Test</h3>
+    <ul>
+      <li>Open hoofdpagina: <code>http://localhost:3000/analyses/faillissementen/</code></li>
+      <li>Verander filters (jaar, sector, provincie, view)</li>
+      <li>Kijk naar URL → moet automatisch updaten</li>
+      <li>Klik "Embed" knop → gegenereerde code moet alle filters bevatten</li>
+      <li>Kopieer embed code → plak in deze HTML → moet exact dezelfde view tonen</li>
+    </ul>
+  </div>
+
+  <!-- Embed resizer script -->
+  <script>
+    (function () {
+      if (window.__DATA_BLOG_EMBED_RESIZER__) return;
+      window.__DATA_BLOG_EMBED_RESIZER__ = true;
+
+      window.addEventListener("message", function (event) {
+        var data = event.data;
+        if (!data || data.type !== "data-blog-embed:resize") return;
+        var height = Number(data.height);
+        if (!isFinite(height) || height <= 0) return;
+
+        var iframes = document.querySelectorAll('iframe[data-data-blog-embed="true"]');
+        for (var i = 0; i < iframes.length; i++) {
+          var iframe = iframes[i];
+          if (iframe.contentWindow === event.source) {
+            iframe.style.height = Math.ceil(height) + "px";
+            console.log("✅ Embed resized to " + Math.ceil(height) + "px");
+            return;
+          }
+        }
+      });
+
+      console.log("✅ Embed resizer script loaded");
+    })();
+  </script>
+</body>
+</html>

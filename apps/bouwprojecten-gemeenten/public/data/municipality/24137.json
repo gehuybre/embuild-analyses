@@ -1,0 +1,70 @@
+[
+  {
+    "municipality": "Glabbeek",
+    "nis_code": "24137",
+    "bd_code": "BD",
+    "bd_short": "Voeren van een duurzaam patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: Het patrimonium verder duurzaam, toegankelijk, energieneutraal maken",
+    "ap_code": "AP",
+    "ap_short": "Investeren in energiezuinige gebouwen",
+    "ap_long": "Commentaar:",
+    "ac_code": "A",
+    "ac_short": "Vernieuwing en uitbreiding HVAC en elektriciteit en zonnenpanelen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 16163753.0,
+    "amount_per_capita": 3047.43,
+    "yearly_amounts": {
+      "2026": 9222458.0,
+      "2027": 1451000.0,
+      "2028": 1994295.0,
+      "2029": 2494350.0,
+      "2030": 966650.0,
+      "2031": 35000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1738.75,
+      "2027": 273.56,
+      "2028": 375.99,
+      "2029": 470.27,
+      "2030": 182.25,
+      "2031": 6.6
+    }
+  },
+  {
+    "municipality": "Glabbeek",
+    "nis_code": "24137",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB",
+    "ac_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 794270.0,
+    "amount_per_capita": 149.75,
+    "yearly_amounts": {
+      "2026": 187014.0,
+      "2027": 163282.0,
+      "2028": 161665.0,
+      "2029": 74817.0,
+      "2030": 76107.0,
+      "2031": 131385.0
+    },
+    "yearly_per_capita": {
+      "2026": 35.26,
+      "2027": 30.78,
+      "2028": 30.48,
+      "2029": 14.11,
+      "2030": 14.35,
+      "2031": 24.77
+    }
+  }
+]

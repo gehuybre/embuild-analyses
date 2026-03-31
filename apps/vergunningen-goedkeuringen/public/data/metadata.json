@@ -1,0 +1,142 @@
+[
+  {
+    "Naam/Nom/Name": "REFNIS",
+    "Beschrijving": "Refnis-code",
+    "Description": "Code Refnis",
+    "Description EN": "Refnis code",
+    "Umschreibung DE": "Refnis-Code"
+  },
+  {
+    "Naam/Nom/Name": "REFNIS_NL",
+    "Beschrijving": "Omschrijving NL Refnis-code",
+    "Description": "Description Refnis NL",
+    "Description EN": "Description NL Refnis code",
+    "Umschreibung DE": "Beschreibung NL Refnis-code"
+  },
+  {
+    "Naam/Nom/Name": "REFNIS_FR",
+    "Beschrijving": "Omschrijving FR Refnis-code",
+    "Description": "Description Refnis FR",
+    "Description EN": "Description FR Refnis code",
+    "Umschreibung DE": "Beschreibung FR Refnis-code"
+  },
+  {
+    "Naam/Nom/Name": "CD_YEAR",
+    "Beschrijving": "Jaar",
+    "Description": "Année",
+    "Description EN": "Year",
+    "Umschreibung DE": "Jahr"
+  },
+  {
+    "Naam/Nom/Name": "CD_PERIOD",
+    "Beschrijving": "Maand",
+    "Description": "Mois",
+    "Description EN": "Month",
+    "Umschreibung DE": "Monat"
+  },
+  {
+    "Naam/Nom/Name": "MS_BUILDING_RES_NEW",
+    "Beschrijving": "Aantal gebouwen - Residentieel - Nieuwbouw",
+    "Description": "Nombre de bâtiments - Résidentiel - Nouvelles constructions",
+    "Description EN": "Number of buildings - Residential - New constructions",
+    "Umschreibung DE": "Anzahl der Gebäude - Wohngebäude - Neubau"
+  },
+  {
+    "Naam/Nom/Name": "MS_DWELLING_RES_NEW",
+    "Beschrijving": "Aantal woningen - Residentieel - Nieuwbouw",
+    "Description": "Nombre de logements - Résidentiel - Nouvelles constructions",
+    "Description EN": "Number of dwellings - Residential - New constructions",
+    "Umschreibung DE": "Anzahl der Wohnungen - Wohngebäude - Neubau"
+  },
+  {
+    "Naam/Nom/Name": "MS_APARTMENT_RES_NEW",
+    "Beschrijving": "Aantal flats - Residentieel - Nieuwbouw",
+    "Description": "Nombre d'appartements - Résidentiel - Nouvelles constructions",
+    "Description EN": "Number of apartments - Residential - New constructions",
+    "Umschreibung DE": "Anzahl der Appartements - Wohngebäude - Neubau"
+  },
+  {
+    "Naam/Nom/Name": "MS_SINGLE_HOUSE_RES_NEW",
+    "Beschrijving": "Aantal gebouwen met één woning - Residentieel - Nieuwbouw",
+    "Description": "Nombre de bâtiments avec un seul logement - Résidentiel - Nouvelles constructions",
+    "Description EN": "Number of one-dwelling buildings - Residential - New constructions",
+    "Umschreibung DE": "Anzahl der Gebäude mit einer Wohnung - Wohngebäude - Neubau"
+  },
+  {
+    "Naam/Nom/Name": "MS_TOTAL_SURFACE_RES_NEW",
+    "Beschrijving": "Totale oppervlakte (m²) - Residentieel - Nieuwbouw",
+    "Description": "Surface totale (m²) - Résidentiel - Nouvelles constructions",
+    "Description EN": "Total surface area (m²) - Residential - New constructions",
+    "Umschreibung DE": "Gesamtfläche (m²) - Wohngebäude - Neubau"
+  },
+  {
+    "Naam/Nom/Name": "MS_BUILDING_RES_RENOVATION",
+    "Beschrijving": "Aantal gebouwen - Residentieel - Renovatie",
+    "Description": "Nombre de bâtiments - Résidentiel - Rénovations",
+    "Description EN": "Number of buildings - Residential - Renovations",
+    "Umschreibung DE": "Anzahl der Gebäude - Wohngebäude - Renoverung"
+  },
+  {
+    "Naam/Nom/Name": "MS_BUILDING_NONRES_NEW",
+    "Beschrijving": "Aantal gebouwen - Niet-Residentieel - Nieuwbouw",
+    "Description": "Nombre de bâtiments - Non-Résidentiel - Nouvelles constructions",
+    "Description EN": "Number of buildings - Non-Residential - New constructions",
+    "Umschreibung DE": "Anzahl der Gebäude - Nichtwohngebäude - Neubau"
+  },
+  {
+    "Naam/Nom/Name": "MS_VOLUME_NONRES_NEW",
+    "Beschrijving": "Volume (m³) - Niet-Residentieel - Nieuwbouw",
+    "Description": "Volume(m³) - Non-Résidentiel - Nouvelles constructions",
+    "Description EN": "Volume(m³) - Non-Residential - New constructions",
+    "Umschreibung DE": "Volumen(m³) - Nichtwohngebäude - Neubau"
+  },
+  {
+    "Naam/Nom/Name": "MS_BUILDING_NONRES_RENOVATION",
+    "Beschrijving": "Aantal gebouwen - Niet-Residentieel - Renovatie",
+    "Description": "Nombre de bâtiments - Non-Résidentiel - Rénovations",
+    "Description EN": "Number of buildings - Non-Residential - Renovations",
+    "Umschreibung DE": "Anzahl der Gebäude - Nichtwohngebäude - Renoverung"
+  },
+  {
+    "Naam/Nom/Name": "CD_REFNIS_NATION",
+    "Beschrijving": "Refnis-code Land",
+    "Description": "Code Refnis Pays",
+    "Description EN": "Refnis code Country",
+    "Umschreibung DE": "Refnis-Code Land"
+  },
+  {
+    "Naam/Nom/Name": "CD_REFNIS_REGION",
+    "Beschrijving": "Refnis-code Gewest",
+    "Description": "Code Refnis Région",
+    "Description EN": "Refnis code Region",
+    "Umschreibung DE": "Refnis-Code Region"
+  },
+  {
+    "Naam/Nom/Name": "CD_REFNIS_PROVINCE",
+    "Beschrijving": "Refnis-code Provincie",
+    "Description": "Code Refnis Province",
+    "Description EN": "Refnis code Province",
+    "Umschreibung DE": "Refnis-Code Provinz"
+  },
+  {
+    "Naam/Nom/Name": "CD_REFNIS_DISTRICT",
+    "Beschrijving": "Refnis-code Arrondissement",
+    "Description": "Code Refnis Arrondissement",
+    "Description EN": "Refnis code District",
+    "Umschreibung DE": "Refnis-Code Bezirk"
+  },
+  {
+    "Naam/Nom/Name": "CD_REFNIS_MUNICIPALITY",
+    "Beschrijving": "Refnis-code Gemeente",
+    "Description": "Code Refnis Commune",
+    "Description EN": "Refnis code Municipality",
+    "Umschreibung DE": "Refnis-Code Gemeinde"
+  },
+  {
+    "Naam/Nom/Name": "CD_REFNIS_LEVEL",
+    "Beschrijving": "Niveau Refnis-code",
+    "Description": "Niveau Code Refnis",
+    "Description EN": "Level Refnis code",
+    "Umschreibung DE": "Level Refnis-Code"
+  }
+]

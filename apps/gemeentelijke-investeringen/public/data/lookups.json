@@ -1,0 +1,1412 @@
+{
+  "domains": [
+    {
+      "domain_code": "0",
+      "domain_name": "Algemene financiering"
+    },
+    {
+      "domain_code": "1",
+      "domain_name": "Algemeen bestuur"
+    },
+    {
+      "domain_code": "2",
+      "domain_name": "Zich verplaatsen en mobiliteit"
+    },
+    {
+      "domain_code": "3",
+      "domain_name": "Natuur en milieubeheer"
+    },
+    {
+      "domain_code": "4",
+      "domain_name": "Veiligheidszorg"
+    },
+    {
+      "domain_code": "5",
+      "domain_name": "Ondernemen en werken"
+    },
+    {
+      "domain_code": "6",
+      "domain_name": "Wonen en ruimtelijke ordening"
+    },
+    {
+      "domain_code": "7",
+      "domain_name": "Cultuur en vrije tijd"
+    },
+    {
+      "domain_code": "8",
+      "domain_name": "Leren en onderwijs"
+    },
+    {
+      "domain_code": "9",
+      "domain_name": "Zorg en opvang"
+    }
+  ],
+  "subdomeinen": [
+    {
+      "subdomein_code": "00",
+      "subdomein_name": "Algemene financiering"
+    },
+    {
+      "subdomein_code": "010",
+      "subdomein_name": "Politieke organen"
+    },
+    {
+      "subdomein_code": "011",
+      "subdomein_name": "Algemene diensten"
+    },
+    {
+      "subdomein_code": "013",
+      "subdomein_name": "Administratieve dienstverlening"
+    },
+    {
+      "subdomein_code": "015",
+      "subdomein_name": "Internationale samenwerking"
+    },
+    {
+      "subdomein_code": "016",
+      "subdomein_name": "Hulp aan het buitenland"
+    },
+    {
+      "subdomein_code": "017",
+      "subdomein_name": "Binnengemeentelijke decentralisatie"
+    },
+    {
+      "subdomein_code": "019",
+      "subdomein_name": "Overig algemeen bestuur"
+    },
+    {
+      "subdomein_code": "02",
+      "subdomein_name": "Zich verplaatsen en mobiliteit"
+    },
+    {
+      "subdomein_code": "030",
+      "subdomein_name": "Afval- en materialenbeheer"
+    },
+    {
+      "subdomein_code": "031",
+      "subdomein_name": "Waterbeheer"
+    },
+    {
+      "subdomein_code": "032",
+      "subdomein_name": "Vermindering van de milieuverontreiniging"
+    },
+    {
+      "subdomein_code": "034",
+      "subdomein_name": "Bescherming van biodiversiteit, landschappen en bodem"
+    },
+    {
+      "subdomein_code": "035",
+      "subdomein_name": "Klimaat en energie"
+    },
+    {
+      "subdomein_code": "038/9",
+      "subdomein_name": "Overige milieubescherming"
+    },
+    {
+      "subdomein_code": "040",
+      "subdomein_name": "Politiediensten"
+    },
+    {
+      "subdomein_code": "041",
+      "subdomein_name": "Brandweer"
+    },
+    {
+      "subdomein_code": "042/4",
+      "subdomein_name": "Overige hulpdiensten"
+    },
+    {
+      "subdomein_code": "045/9",
+      "subdomein_name": "Overige elementen van openbare orde en veiligheid"
+    },
+    {
+      "subdomein_code": "050",
+      "subdomein_name": "Handel en middenstand"
+    },
+    {
+      "subdomein_code": "051",
+      "subdomein_name": "Nijverheid"
+    },
+    {
+      "subdomein_code": "052",
+      "subdomein_name": "Toerisme"
+    },
+    {
+      "subdomein_code": "053",
+      "subdomein_name": "Land-, tuin- en bosbouw"
+    },
+    {
+      "subdomein_code": "054",
+      "subdomein_name": "Visvangst"
+    },
+    {
+      "subdomein_code": "055",
+      "subdomein_name": "Werkgelegenheid"
+    },
+    {
+      "subdomein_code": "059",
+      "subdomein_name": "Overige economische zaken"
+    },
+    {
+      "subdomein_code": "060",
+      "subdomein_name": "Ruimtelijke planning"
+    },
+    {
+      "subdomein_code": "061",
+      "subdomein_name": "Gebiedsontwikkeling"
+    },
+    {
+      "subdomein_code": "062",
+      "subdomein_name": "Woonbeleid"
+    },
+    {
+      "subdomein_code": "063",
+      "subdomein_name": "Watervoorziening"
+    },
+    {
+      "subdomein_code": "064",
+      "subdomein_name": "Elektriciteitsvoorziening"
+    },
+    {
+      "subdomein_code": "065",
+      "subdomein_name": "Gasvoorziening"
+    },
+    {
+      "subdomein_code": "066",
+      "subdomein_name": "Communicatievoorzieningen"
+    },
+    {
+      "subdomein_code": "067",
+      "subdomein_name": "Straatverlichting"
+    },
+    {
+      "subdomein_code": "068",
+      "subdomein_name": "Groene ruimte"
+    },
+    {
+      "subdomein_code": "069",
+      "subdomein_name": "Overige nutsvoorzieningen"
+    },
+    {
+      "subdomein_code": "070",
+      "subdomein_name": "Culturele instellingen"
+    },
+    {
+      "subdomein_code": "071",
+      "subdomein_name": "Evenementen"
+    },
+    {
+      "subdomein_code": "072",
+      "subdomein_name": "Erfgoed"
+    },
+    {
+      "subdomein_code": "073",
+      "subdomein_name": "Overig kunst- en cultuurbeleid"
+    },
+    {
+      "subdomein_code": "074",
+      "subdomein_name": "Sport"
+    },
+    {
+      "subdomein_code": "075",
+      "subdomein_name": "Jeugd"
+    },
+    {
+      "subdomein_code": "079",
+      "subdomein_name": "Erediensten  en niet-confessionele levensbeschouwelijke gemeenschappen"
+    },
+    {
+      "subdomein_code": "080",
+      "subdomein_name": "Basisonderwijs"
+    },
+    {
+      "subdomein_code": "081",
+      "subdomein_name": "Secundair onderwijs"
+    },
+    {
+      "subdomein_code": "082",
+      "subdomein_name": "Deeltijds kunstonderwijs"
+    },
+    {
+      "subdomein_code": "083",
+      "subdomein_name": "Hoger en Volwassenenonderwijs"
+    },
+    {
+      "subdomein_code": "086",
+      "subdomein_name": "Ondersteunende diensten voor het onderwijs"
+    },
+    {
+      "subdomein_code": "087/8",
+      "subdomein_name": "Algemeen onderwijsbeleid"
+    },
+    {
+      "subdomein_code": "090",
+      "subdomein_name": "Sociaal beleid"
+    },
+    {
+      "subdomein_code": "091",
+      "subdomein_name": "Ziekte- en invaliditeit"
+    },
+    {
+      "subdomein_code": "092",
+      "subdomein_name": "Werkloosheid"
+    },
+    {
+      "subdomein_code": "093",
+      "subdomein_name": "Sociale huisvesting"
+    },
+    {
+      "subdomein_code": "094",
+      "subdomein_name": "Gezin en kinderen"
+    },
+    {
+      "subdomein_code": "095",
+      "subdomein_name": "Ouderen"
+    },
+    {
+      "subdomein_code": "098",
+      "subdomein_name": "Dienstverlening inzake volksgezondheid"
+    },
+    {
+      "subdomein_code": "099",
+      "subdomein_name": "Begraafplaatsen, crematoria en lijkbezorging"
+    }
+  ],
+  "municipalities": [
+    {
+      "municipality": "Aalst",
+      "nis_code": "41002"
+    },
+    {
+      "municipality": "Aalter",
+      "nis_code": "44084"
+    },
+    {
+      "municipality": "Aarschot",
+      "nis_code": "24001"
+    },
+    {
+      "municipality": "Aartselaar",
+      "nis_code": "11001"
+    },
+    {
+      "municipality": "Affligem",
+      "nis_code": "23105"
+    },
+    {
+      "municipality": "Alken",
+      "nis_code": "73001"
+    },
+    {
+      "municipality": "Alveringem",
+      "nis_code": "38002"
+    },
+    {
+      "municipality": "Anzegem",
+      "nis_code": "34002"
+    },
+    {
+      "municipality": "Ardooie",
+      "nis_code": "37020"
+    },
+    {
+      "municipality": "Arendonk",
+      "nis_code": "13001"
+    },
+    {
+      "municipality": "As",
+      "nis_code": "71002"
+    },
+    {
+      "municipality": "Asse",
+      "nis_code": "23002"
+    },
+    {
+      "municipality": "Assenede",
+      "nis_code": "43002"
+    },
+    {
+      "municipality": "Avelgem",
+      "nis_code": "34003"
+    },
+    {
+      "municipality": "Baarle-Hertog",
+      "nis_code": "13002"
+    },
+    {
+      "municipality": "Balen",
+      "nis_code": "13003"
+    },
+    {
+      "municipality": "Beernem",
+      "nis_code": "31003"
+    },
+    {
+      "municipality": "Beerse",
+      "nis_code": "13004"
+    },
+    {
+      "municipality": "Beersel",
+      "nis_code": "23003"
+    },
+    {
+      "municipality": "Begijnendijk",
+      "nis_code": "24007"
+    },
+    {
+      "municipality": "Bekkevoort",
+      "nis_code": "24008"
+    },
+    {
+      "municipality": "Beringen",
+      "nis_code": "71004"
+    },
+    {
+      "municipality": "Berlaar",
+      "nis_code": "12002"
+    },
+    {
+      "municipality": "Berlare",
+      "nis_code": "42003"
+    },
+    {
+      "municipality": "Bertem",
+      "nis_code": "24009"
+    },
+    {
+      "municipality": "Bever",
+      "nis_code": "23009"
+    },
+    {
+      "municipality": "Beveren-Kruibeke-Zwijndrecht",
+      "nis_code": null
+    },
+    {
+      "municipality": "Bierbeek",
+      "nis_code": "24011"
+    },
+    {
+      "municipality": "Bilzen-Hoeselt",
+      "nis_code": null
+    },
+    {
+      "municipality": "Blankenberge",
+      "nis_code": "31004"
+    },
+    {
+      "municipality": "Bocholt",
+      "nis_code": "72003"
+    },
+    {
+      "municipality": "Boechout",
+      "nis_code": "11004"
+    },
+    {
+      "municipality": "Bonheiden",
+      "nis_code": "12005"
+    },
+    {
+      "municipality": "Boom",
+      "nis_code": "11005"
+    },
+    {
+      "municipality": "Boortmeerbeek",
+      "nis_code": "24014"
+    },
+    {
+      "municipality": "Bornem",
+      "nis_code": "12007"
+    },
+    {
+      "municipality": "Boutersem",
+      "nis_code": "24016"
+    },
+    {
+      "municipality": "Brakel",
+      "nis_code": "45059"
+    },
+    {
+      "municipality": "Brasschaat",
+      "nis_code": "11008"
+    },
+    {
+      "municipality": "Brecht",
+      "nis_code": "11009"
+    },
+    {
+      "municipality": "Bredene",
+      "nis_code": "35002"
+    },
+    {
+      "municipality": "Bree",
+      "nis_code": "72004"
+    },
+    {
+      "municipality": "Brugge",
+      "nis_code": "31005"
+    },
+    {
+      "municipality": "Buggenhout",
+      "nis_code": "42004"
+    },
+    {
+      "municipality": "Damme",
+      "nis_code": "31006"
+    },
+    {
+      "municipality": "De Haan",
+      "nis_code": "35029"
+    },
+    {
+      "municipality": "De Panne",
+      "nis_code": "38008"
+    },
+    {
+      "municipality": "Deerlijk",
+      "nis_code": "34009"
+    },
+    {
+      "municipality": "Deinze",
+      "nis_code": "44083"
+    },
+    {
+      "municipality": "Denderleeuw",
+      "nis_code": "41011"
+    },
+    {
+      "municipality": "Dendermonde",
+      "nis_code": "42006"
+    },
+    {
+      "municipality": "Dentergem",
+      "nis_code": "37002"
+    },
+    {
+      "municipality": "Dessel",
+      "nis_code": "13006"
+    },
+    {
+      "municipality": "Destelbergen",
+      "nis_code": "44013"
+    },
+    {
+      "municipality": "Diepenbeek",
+      "nis_code": "71011"
+    },
+    {
+      "municipality": "Diest",
+      "nis_code": "24020"
+    },
+    {
+      "municipality": "Diksmuide",
+      "nis_code": "32003"
+    },
+    {
+      "municipality": "Dilbeek",
+      "nis_code": "23016"
+    },
+    {
+      "municipality": "Dilsen-Stokkem",
+      "nis_code": "72041"
+    },
+    {
+      "municipality": "Drogenbos",
+      "nis_code": "23098"
+    },
+    {
+      "municipality": "Duffel",
+      "nis_code": "12009"
+    },
+    {
+      "municipality": "Edegem",
+      "nis_code": "11013"
+    },
+    {
+      "municipality": "Eeklo",
+      "nis_code": "43005"
+    },
+    {
+      "municipality": "Erpe-Mere",
+      "nis_code": "41082"
+    },
+    {
+      "municipality": "Essen",
+      "nis_code": "11016"
+    },
+    {
+      "municipality": "Evergem",
+      "nis_code": "44019"
+    },
+    {
+      "municipality": "Gavere",
+      "nis_code": "44020"
+    },
+    {
+      "municipality": "Geel",
+      "nis_code": "13008"
+    },
+    {
+      "municipality": "Geetbets",
+      "nis_code": "24028"
+    },
+    {
+      "municipality": "Genk",
+      "nis_code": "71016"
+    },
+    {
+      "municipality": "Gent",
+      "nis_code": "44021"
+    },
+    {
+      "municipality": "Geraardsbergen",
+      "nis_code": "41018"
+    },
+    {
+      "municipality": "Gingelom",
+      "nis_code": "71017"
+    },
+    {
+      "municipality": "Gistel",
+      "nis_code": "35005"
+    },
+    {
+      "municipality": "Glabbeek",
+      "nis_code": "24137"
+    },
+    {
+      "municipality": "Grimbergen",
+      "nis_code": "23025"
+    },
+    {
+      "municipality": "Grobbendonk",
+      "nis_code": "13010"
+    },
+    {
+      "municipality": "Haacht",
+      "nis_code": "24033"
+    },
+    {
+      "municipality": "Haaltert",
+      "nis_code": "41024"
+    },
+    {
+      "municipality": "Halen",
+      "nis_code": "71020"
+    },
+    {
+      "municipality": "Halle",
+      "nis_code": "23027"
+    },
+    {
+      "municipality": "Hamme",
+      "nis_code": "42008"
+    },
+    {
+      "municipality": "Hamont-Achel",
+      "nis_code": "72037"
+    },
+    {
+      "municipality": "Harelbeke",
+      "nis_code": "34013"
+    },
+    {
+      "municipality": "Hasselt",
+      "nis_code": "71022"
+    },
+    {
+      "municipality": "Hechtel-Eksel",
+      "nis_code": "72038"
+    },
+    {
+      "municipality": "Heers",
+      "nis_code": "73022"
+    },
+    {
+      "municipality": "Heist-op-den-Berg",
+      "nis_code": "12014"
+    },
+    {
+      "municipality": "Hemiksem",
+      "nis_code": "11018"
+    },
+    {
+      "municipality": "Herent",
+      "nis_code": "24038"
+    },
+    {
+      "municipality": "Herentals",
+      "nis_code": "13011"
+    },
+    {
+      "municipality": "Herenthout",
+      "nis_code": "13012"
+    },
+    {
+      "municipality": "Herk-de-Stad",
+      "nis_code": "71024"
+    },
+    {
+      "municipality": "Herselt",
+      "nis_code": "13013"
+    },
+    {
+      "municipality": "Herstappe",
+      "nis_code": "73028"
+    },
+    {
+      "municipality": "Herzele",
+      "nis_code": "41027"
+    },
+    {
+      "municipality": "Heusden-Zolder",
+      "nis_code": "71070"
+    },
+    {
+      "municipality": "Heuvelland",
+      "nis_code": "33039"
+    },
+    {
+      "municipality": "Hoegaarden",
+      "nis_code": "24041"
+    },
+    {
+      "municipality": "Hoeilaart",
+      "nis_code": "23033"
+    },
+    {
+      "municipality": "Holsbeek",
+      "nis_code": "24043"
+    },
+    {
+      "municipality": "Hooglede",
+      "nis_code": "36006"
+    },
+    {
+      "municipality": "Hoogstraten",
+      "nis_code": "13014"
+    },
+    {
+      "municipality": "Horebeke",
+      "nis_code": "45062"
+    },
+    {
+      "municipality": "Houthalen-Helchteren",
+      "nis_code": "72039"
+    },
+    {
+      "municipality": "Houthulst",
+      "nis_code": "32006"
+    },
+    {
+      "municipality": "Hove",
+      "nis_code": "11021"
+    },
+    {
+      "municipality": "Huldenberg",
+      "nis_code": "24045"
+    },
+    {
+      "municipality": "Hulshout",
+      "nis_code": "13016"
+    },
+    {
+      "municipality": "Ichtegem",
+      "nis_code": "35006"
+    },
+    {
+      "municipality": "Ieper",
+      "nis_code": "33011"
+    },
+    {
+      "municipality": "Ingelmunster",
+      "nis_code": "36007"
+    },
+    {
+      "municipality": "Izegem",
+      "nis_code": "36008"
+    },
+    {
+      "municipality": "Jabbeke",
+      "nis_code": "31012"
+    },
+    {
+      "municipality": "Kalmthout",
+      "nis_code": "11022"
+    },
+    {
+      "municipality": "Kampenhout",
+      "nis_code": "23038"
+    },
+    {
+      "municipality": "Kapelle-op-den-Bos",
+      "nis_code": "23039"
+    },
+    {
+      "municipality": "Kapellen",
+      "nis_code": "11023"
+    },
+    {
+      "municipality": "Kaprijke",
+      "nis_code": "43007"
+    },
+    {
+      "municipality": "Kasterlee",
+      "nis_code": "13017"
+    },
+    {
+      "municipality": "Keerbergen",
+      "nis_code": "24048"
+    },
+    {
+      "municipality": "Kinrooi",
+      "nis_code": "72018"
+    },
+    {
+      "municipality": "Kluisbergen",
+      "nis_code": "45060"
+    },
+    {
+      "municipality": "Knokke-Heist",
+      "nis_code": "31043"
+    },
+    {
+      "municipality": "Koekelare",
+      "nis_code": "32010"
+    },
+    {
+      "municipality": "Koksijde",
+      "nis_code": "38014"
+    },
+    {
+      "municipality": "Kontich",
+      "nis_code": "11024"
+    },
+    {
+      "municipality": "Kortemark",
+      "nis_code": "32011"
+    },
+    {
+      "municipality": "Kortenaken",
+      "nis_code": "24054"
+    },
+    {
+      "municipality": "Kortenberg",
+      "nis_code": "24055"
+    },
+    {
+      "municipality": "Kortrijk",
+      "nis_code": "34022"
+    },
+    {
+      "municipality": "Kraainem",
+      "nis_code": "23099"
+    },
+    {
+      "municipality": "Kruisem",
+      "nis_code": "45068"
+    },
+    {
+      "municipality": "Kuurne",
+      "nis_code": "34023"
+    },
+    {
+      "municipality": "Laakdal",
+      "nis_code": "13053"
+    },
+    {
+      "municipality": "Laarne",
+      "nis_code": "42010"
+    },
+    {
+      "municipality": "Lanaken",
+      "nis_code": "73042"
+    },
+    {
+      "municipality": "Landen",
+      "nis_code": "24059"
+    },
+    {
+      "municipality": "Langemark-Poelkapelle",
+      "nis_code": "33040"
+    },
+    {
+      "municipality": "Lebbeke",
+      "nis_code": "42011"
+    },
+    {
+      "municipality": "Lede",
+      "nis_code": "41034"
+    },
+    {
+      "municipality": "Ledegem",
+      "nis_code": "36010"
+    },
+    {
+      "municipality": "Lendelede",
+      "nis_code": "34025"
+    },
+    {
+      "municipality": "Lennik",
+      "nis_code": "23104"
+    },
+    {
+      "municipality": "Leopoldsburg",
+      "nis_code": "71034"
+    },
+    {
+      "municipality": "Leuven",
+      "nis_code": "24062"
+    },
+    {
+      "municipality": "Lichtervelde",
+      "nis_code": "36011"
+    },
+    {
+      "municipality": "Liedekerke",
+      "nis_code": "23044"
+    },
+    {
+      "municipality": "Lier",
+      "nis_code": "12021"
+    },
+    {
+      "municipality": "Lierde",
+      "nis_code": "45063"
+    },
+    {
+      "municipality": "Lievegem",
+      "nis_code": "44085"
+    },
+    {
+      "municipality": "Lille",
+      "nis_code": "13019"
+    },
+    {
+      "municipality": "Linkebeek",
+      "nis_code": "23100"
+    },
+    {
+      "municipality": "Lint",
+      "nis_code": "11025"
+    },
+    {
+      "municipality": "Linter",
+      "nis_code": "24133"
+    },
+    {
+      "municipality": "Lo-Reninge",
+      "nis_code": "32030"
+    },
+    {
+      "municipality": "Lochristi",
+      "nis_code": "44034"
+    },
+    {
+      "municipality": "Lokeren",
+      "nis_code": "46014"
+    },
+    {
+      "municipality": "Lommel",
+      "nis_code": "72020"
+    },
+    {
+      "municipality": "Londerzeel",
+      "nis_code": "23045"
+    },
+    {
+      "municipality": "Lubbeek",
+      "nis_code": "24066"
+    },
+    {
+      "municipality": "Lummen",
+      "nis_code": "71037"
+    },
+    {
+      "municipality": "Maarkedal",
+      "nis_code": "45064"
+    },
+    {
+      "municipality": "Maaseik",
+      "nis_code": "72021"
+    },
+    {
+      "municipality": "Maasmechelen",
+      "nis_code": "73107"
+    },
+    {
+      "municipality": "Machelen",
+      "nis_code": "23047"
+    },
+    {
+      "municipality": "Maldegem",
+      "nis_code": "43010"
+    },
+    {
+      "municipality": "Malle",
+      "nis_code": "11057"
+    },
+    {
+      "municipality": "Mechelen",
+      "nis_code": "12025"
+    },
+    {
+      "municipality": "Meerhout",
+      "nis_code": "13021"
+    },
+    {
+      "municipality": "Meise",
+      "nis_code": "23050"
+    },
+    {
+      "municipality": "Menen",
+      "nis_code": "34027"
+    },
+    {
+      "municipality": "Merchtem",
+      "nis_code": "23052"
+    },
+    {
+      "municipality": "Merelbeke-Melle",
+      "nis_code": null
+    },
+    {
+      "municipality": "Merksplas",
+      "nis_code": "13023"
+    },
+    {
+      "municipality": "Mesen",
+      "nis_code": "33016"
+    },
+    {
+      "municipality": "Middelkerke",
+      "nis_code": "35011"
+    },
+    {
+      "municipality": "Mol",
+      "nis_code": "13025"
+    },
+    {
+      "municipality": "Moorslede",
+      "nis_code": "36012"
+    },
+    {
+      "municipality": "Mortsel",
+      "nis_code": "11029"
+    },
+    {
+      "municipality": "Nazareth-De Pinte",
+      "nis_code": null
+    },
+    {
+      "municipality": "Niel",
+      "nis_code": "11030"
+    },
+    {
+      "municipality": "Nieuwerkerken",
+      "nis_code": "71045"
+    },
+    {
+      "municipality": "Nieuwpoort",
+      "nis_code": "38016"
+    },
+    {
+      "municipality": "Nijlen",
+      "nis_code": "12026"
+    },
+    {
+      "municipality": "Ninove",
+      "nis_code": "41048"
+    },
+    {
+      "municipality": "Olen",
+      "nis_code": "13029"
+    },
+    {
+      "municipality": "Oostende",
+      "nis_code": "35013"
+    },
+    {
+      "municipality": "Oosterzele",
+      "nis_code": "44052"
+    },
+    {
+      "municipality": "Oostkamp",
+      "nis_code": "31022"
+    },
+    {
+      "municipality": "Oostrozebeke",
+      "nis_code": "37010"
+    },
+    {
+      "municipality": "Opwijk",
+      "nis_code": "23060"
+    },
+    {
+      "municipality": "Oud-Heverlee",
+      "nis_code": "24086"
+    },
+    {
+      "municipality": "Oud-Turnhout",
+      "nis_code": "13031"
+    },
+    {
+      "municipality": "Oudenaarde",
+      "nis_code": "45035"
+    },
+    {
+      "municipality": "Oudenburg",
+      "nis_code": "35014"
+    },
+    {
+      "municipality": "Oudsbergen",
+      "nis_code": "72042"
+    },
+    {
+      "municipality": "Overijse",
+      "nis_code": "23062"
+    },
+    {
+      "municipality": "Pajottegem",
+      "nis_code": null
+    },
+    {
+      "municipality": "Peer",
+      "nis_code": "72030"
+    },
+    {
+      "municipality": "Pelt",
+      "nis_code": "72043"
+    },
+    {
+      "municipality": "Pepingen",
+      "nis_code": "23064"
+    },
+    {
+      "municipality": "Pittem",
+      "nis_code": "37011"
+    },
+    {
+      "municipality": "Poperinge",
+      "nis_code": "33021"
+    },
+    {
+      "municipality": "Putte",
+      "nis_code": "12029"
+    },
+    {
+      "municipality": "Puurs-Sint-Amands",
+      "nis_code": "12041"
+    },
+    {
+      "municipality": "Ranst",
+      "nis_code": "11035"
+    },
+    {
+      "municipality": "Ravels",
+      "nis_code": "13035"
+    },
+    {
+      "municipality": "Retie",
+      "nis_code": "13036"
+    },
+    {
+      "municipality": "Riemst",
+      "nis_code": "73066"
+    },
+    {
+      "municipality": "Rijkevorsel",
+      "nis_code": "13037"
+    },
+    {
+      "municipality": "Roeselare",
+      "nis_code": "36015"
+    },
+    {
+      "municipality": "Ronse",
+      "nis_code": "45041"
+    },
+    {
+      "municipality": "Roosdaal",
+      "nis_code": "23097"
+    },
+    {
+      "municipality": "Rotselaar",
+      "nis_code": "24094"
+    },
+    {
+      "municipality": "Rumst",
+      "nis_code": "11037"
+    },
+    {
+      "municipality": "Schelle",
+      "nis_code": "11038"
+    },
+    {
+      "municipality": "Scherpenheuvel-Zichem",
+      "nis_code": "24134"
+    },
+    {
+      "municipality": "Schilde",
+      "nis_code": "11039"
+    },
+    {
+      "municipality": "Schoten",
+      "nis_code": "11040"
+    },
+    {
+      "municipality": "Sint-Genesius-Rode",
+      "nis_code": "23101"
+    },
+    {
+      "municipality": "Sint-Gillis-Waas",
+      "nis_code": "46020"
+    },
+    {
+      "municipality": "Sint-Katelijne-Waver",
+      "nis_code": "12035"
+    },
+    {
+      "municipality": "Sint-Laureins",
+      "nis_code": "43014"
+    },
+    {
+      "municipality": "Sint-Lievens-Houtem",
+      "nis_code": "41063"
+    },
+    {
+      "municipality": "Sint-Martens-Latem",
+      "nis_code": "44064"
+    },
+    {
+      "municipality": "Sint-Niklaas",
+      "nis_code": "46021"
+    },
+    {
+      "municipality": "Sint-Pieters-Leeuw",
+      "nis_code": "23077"
+    },
+    {
+      "municipality": "Sint-Truiden",
+      "nis_code": "71053"
+    },
+    {
+      "municipality": "Spiere-Helkijn",
+      "nis_code": "34043"
+    },
+    {
+      "municipality": "Stabroek",
+      "nis_code": "11044"
+    },
+    {
+      "municipality": "Staden",
+      "nis_code": "36019"
+    },
+    {
+      "municipality": "Steenokkerzeel",
+      "nis_code": "23081"
+    },
+    {
+      "municipality": "Stekene",
+      "nis_code": "46024"
+    },
+    {
+      "municipality": "Temse",
+      "nis_code": "46025"
+    },
+    {
+      "municipality": "Ternat",
+      "nis_code": "23086"
+    },
+    {
+      "municipality": "Tervuren",
+      "nis_code": "24104"
+    },
+    {
+      "municipality": "Tessenderlo-Ham",
+      "nis_code": null
+    },
+    {
+      "municipality": "Tielt",
+      "nis_code": "37015"
+    },
+    {
+      "municipality": "Tielt-Winge",
+      "nis_code": "24135"
+    },
+    {
+      "municipality": "Tienen",
+      "nis_code": "24107"
+    },
+    {
+      "municipality": "Tongeren-Borgloon",
+      "nis_code": null
+    },
+    {
+      "municipality": "Torhout",
+      "nis_code": "31033"
+    },
+    {
+      "municipality": "Tremelo",
+      "nis_code": "24109"
+    },
+    {
+      "municipality": "Turnhout",
+      "nis_code": "13040"
+    },
+    {
+      "municipality": "Veurne",
+      "nis_code": "38025"
+    },
+    {
+      "municipality": "Vilvoorde",
+      "nis_code": "23088"
+    },
+    {
+      "municipality": "Vleteren",
+      "nis_code": "33041"
+    },
+    {
+      "municipality": "Voeren",
+      "nis_code": "73109"
+    },
+    {
+      "municipality": "Vorselaar",
+      "nis_code": "13044"
+    },
+    {
+      "municipality": "Vosselaar",
+      "nis_code": "13046"
+    },
+    {
+      "municipality": "Waasmunster",
+      "nis_code": "42023"
+    },
+    {
+      "municipality": "Waregem",
+      "nis_code": "34040"
+    },
+    {
+      "municipality": "Wellen",
+      "nis_code": "73098"
+    },
+    {
+      "municipality": "Wemmel",
+      "nis_code": "23102"
+    },
+    {
+      "municipality": "Wervik",
+      "nis_code": "33029"
+    },
+    {
+      "municipality": "Westerlo",
+      "nis_code": "13049"
+    },
+    {
+      "municipality": "Wetteren",
+      "nis_code": "42025"
+    },
+    {
+      "municipality": "Wevelgem",
+      "nis_code": "34041"
+    },
+    {
+      "municipality": "Wezembeek-Oppem",
+      "nis_code": "23103"
+    },
+    {
+      "municipality": "Wichelen",
+      "nis_code": "42026"
+    },
+    {
+      "municipality": "Wielsbeke",
+      "nis_code": "37017"
+    },
+    {
+      "municipality": "Wijnegem",
+      "nis_code": "11050"
+    },
+    {
+      "municipality": "Willebroek",
+      "nis_code": "12040"
+    },
+    {
+      "municipality": "Wingene",
+      "nis_code": "37018"
+    },
+    {
+      "municipality": "Wommelgem",
+      "nis_code": "11052"
+    },
+    {
+      "municipality": "Wortegem-Petegem",
+      "nis_code": "45061"
+    },
+    {
+      "municipality": "Wuustwezel",
+      "nis_code": "11053"
+    },
+    {
+      "municipality": "Zandhoven",
+      "nis_code": "11054"
+    },
+    {
+      "municipality": "Zaventem",
+      "nis_code": "23094"
+    },
+    {
+      "municipality": "Zedelgem",
+      "nis_code": "31040"
+    },
+    {
+      "municipality": "Zele",
+      "nis_code": "42028"
+    },
+    {
+      "municipality": "Zelzate",
+      "nis_code": "43018"
+    },
+    {
+      "municipality": "Zemst",
+      "nis_code": "23096"
+    },
+    {
+      "municipality": "Zoersel",
+      "nis_code": "11055"
+    },
+    {
+      "municipality": "Zonhoven",
+      "nis_code": "71066"
+    },
+    {
+      "municipality": "Zonnebeke",
+      "nis_code": "33037"
+    },
+    {
+      "municipality": "Zottegem",
+      "nis_code": "41081"
+    },
+    {
+      "municipality": "Zoutleeuw",
+      "nis_code": "24130"
+    },
+    {
+      "municipality": "Zuienkerke",
+      "nis_code": "31042"
+    },
+    {
+      "municipality": "Zulte",
+      "nis_code": "44081"
+    },
+    {
+      "municipality": "Zutendaal",
+      "nis_code": "71067"
+    },
+    {
+      "municipality": "Zwalm",
+      "nis_code": "45065"
+    },
+    {
+      "municipality": "Zwevegem",
+      "nis_code": "34042"
+    }
+  ]
+}

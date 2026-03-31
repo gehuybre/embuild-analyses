@@ -1,0 +1,4728 @@
+[
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20117",
+    "ap_short": "Algemene financiering",
+    "ap_long": "OD.Robuuster maken van de financiële gezondheid en structuur van Stad en OCMW",
+    "ac_code": "AC35788",
+    "ac_short": "portfolio Stad",
+    "ac_long": "AC.Portfoliobudget Stad",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 194427178.0,
+    "amount_per_capita": 698.84,
+    "yearly_amounts": {
+      "2026": 34136445.0,
+      "2027": 50705837.0,
+      "2028": 34641101.0,
+      "2029": 22842136.0,
+      "2030": 32318009.0,
+      "2031": 19783650.0
+    },
+    "yearly_per_capita": {
+      "2026": 122.7,
+      "2027": 182.25,
+      "2028": 124.51,
+      "2029": 82.1,
+      "2030": 116.16,
+      "2031": 71.11
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20029",
+    "ap_short": "Vastgoed sport",
+    "ap_long": "OD.Bouwen aan een diverse, kwalitatieve en toekomstbestendige sportinfrastructuur",
+    "ac_code": "AC35413",
+    "ac_short": "Samenwerking sport Farys",
+    "ac_long": "AC.Realiseren van toegankelijke sportinfrastructuur in Samenwerkingen met partner Farys/TMVW",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 85503955.0,
+    "amount_per_capita": 307.33,
+    "yearly_amounts": {
+      "2026": 3202294.0,
+      "2027": 11376403.0,
+      "2028": 18050198.0,
+      "2029": 17503429.0,
+      "2030": 17632504.0,
+      "2031": 17739127.0
+    },
+    "yearly_per_capita": {
+      "2026": 11.51,
+      "2027": 40.89,
+      "2028": 64.88,
+      "2029": 62.91,
+      "2030": 63.38,
+      "2031": 63.76
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20111",
+    "ap_short": "Onderhouden wegen bruggen en waterlopen",
+    "ap_long": "OD.Onderhouden van wegen, bruggen en waterlopen",
+    "ac_code": "AC35132",
+    "ac_short": "Beheer van regen- en afvalwater",
+    "ac_long": "AC.Financiële stromen naar en van Farys - Divisie Zuivering (Beheer van regen- en afvalwater)",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 83535016.0,
+    "amount_per_capita": 300.25,
+    "yearly_amounts": {
+      "2026": 1597081.0,
+      "2027": 12270945.0,
+      "2028": 15046193.0,
+      "2029": 17766933.0,
+      "2030": 17625852.0,
+      "2031": 19228012.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.74,
+      "2027": 44.11,
+      "2028": 54.08,
+      "2029": 63.86,
+      "2030": 63.35,
+      "2031": 69.11
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20111",
+    "ap_short": "Onderhouden wegen bruggen en waterlopen",
+    "ap_long": "OD.Onderhouden van wegen, bruggen en waterlopen",
+    "ac_code": "AC35685",
+    "ac_short": "Onderhoud en Toezicht Aannemers WBW",
+    "ac_long": "AC.Organiseren van en toezien op onderhouds- en vernieuwingswerken door aannemers",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 72774194.0,
+    "amount_per_capita": 261.58,
+    "yearly_amounts": {
+      "2026": 11011625.0,
+      "2027": 11898000.0,
+      "2028": 11829128.0,
+      "2029": 12254977.0,
+      "2030": 12671646.0,
+      "2031": 13108818.0
+    },
+    "yearly_per_capita": {
+      "2026": 39.58,
+      "2027": 42.77,
+      "2028": 42.52,
+      "2029": 44.05,
+      "2030": 45.55,
+      "2031": 47.12
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20086",
+    "ap_short": "Vastgoed",
+    "ap_long": "OD.Bouwen aan kwalitatief en toekomstbestendig vastgoed",
+    "ac_code": "AC35124",
+    "ac_short": "onderhoud MOK/niet-MOK FM Themagebouwen",
+    "ac_long": "AC.Uitvoeren van onderhoud gebouwen en operationeel beheer gebouwen Dienst FM Themagebouwen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 66881955.0,
+    "amount_per_capita": 240.4,
+    "yearly_amounts": {
+      "2026": 9233278.0,
+      "2027": 10050688.0,
+      "2028": 10686542.0,
+      "2029": 11481271.0,
+      "2030": 12303816.0,
+      "2031": 13126360.0
+    },
+    "yearly_per_capita": {
+      "2026": 33.19,
+      "2027": 36.13,
+      "2028": 38.41,
+      "2029": 41.27,
+      "2030": 44.22,
+      "2031": 47.18
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "PO20041",
+    "ap_short": "Opera",
+    "ap_long": "PO.Masterproject Opera",
+    "ac_code": "PR40702",
+    "ac_short": "OPBAVL",
+    "ac_long": "PR.OPBAVL - Opera Ballet Vlaanderen",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 64318424.0,
+    "amount_per_capita": 231.18,
+    "yearly_amounts": {
+      "2026": 4811450.0,
+      "2027": 3844013.0,
+      "2028": 2327962.0,
+      "2029": 15206215.0,
+      "2030": 19384555.0,
+      "2031": 18744229.0
+    },
+    "yearly_per_capita": {
+      "2026": 17.29,
+      "2027": 13.82,
+      "2028": 8.37,
+      "2029": 54.66,
+      "2030": 69.67,
+      "2031": 67.37
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20086",
+    "ap_short": "Vastgoed",
+    "ap_long": "OD.Bouwen aan kwalitatief en toekomstbestendig vastgoed",
+    "ac_code": "AC35787",
+    "ac_short": "MAKET",
+    "ac_long": "AC.Uitvoeren wettelijke verplichtingen gebouwen (MAKET)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 58000000.0,
+    "amount_per_capita": 208.47,
+    "yearly_amounts": {
+      "2026": 5083125.0,
+      "2027": 7014712.0,
+      "2028": 10890341.0,
+      "2029": 11271502.0,
+      "2030": 11666005.0,
+      "2031": 12074315.0
+    },
+    "yearly_per_capita": {
+      "2026": 18.27,
+      "2027": 25.21,
+      "2028": 39.14,
+      "2029": 40.51,
+      "2030": 41.93,
+      "2031": 43.4
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20024",
+    "ap_short": "Vernieuwen wegen bruggen en waterlopen",
+    "ap_long": "OD.Vernieuwen van wegen, bruggen en waterlopen",
+    "ac_code": "AC35686",
+    "ac_short": "Projectleiders WBW",
+    "ac_long": "AC.Plannen, ontwerpen, coördineren, leiden en/of opvolgen van projecten",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 56162085.0,
+    "amount_per_capita": 201.87,
+    "yearly_amounts": {
+      "2026": 9129865.0,
+      "2027": 8999232.0,
+      "2028": 9030159.0,
+      "2029": 9348607.0,
+      "2030": 9660352.0,
+      "2031": 9993870.0
+    },
+    "yearly_per_capita": {
+      "2026": 32.82,
+      "2027": 32.35,
+      "2028": 32.46,
+      "2029": 33.6,
+      "2030": 34.72,
+      "2031": 35.92
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20086",
+    "ap_short": "Vastgoed",
+    "ap_long": "OD.Bouwen aan kwalitatief en toekomstbestendig vastgoed",
+    "ac_code": "AC35123",
+    "ac_short": "Onderhoud MOK/niet-MOK FM Onderwijs",
+    "ac_long": "AC.Uitvoeren van onderhoud gebouwen en operationeel beheer gebouwen Dienst FM Onderwijs",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 54116566.0,
+    "amount_per_capita": 194.51,
+    "yearly_amounts": {
+      "2026": 9316566.0,
+      "2027": 8960000.0,
+      "2028": 8960000.0,
+      "2029": 8960000.0,
+      "2030": 8960000.0,
+      "2031": 8960000.0
+    },
+    "yearly_per_capita": {
+      "2026": 33.49,
+      "2027": 32.21,
+      "2028": 32.21,
+      "2029": 32.21,
+      "2030": 32.21,
+      "2031": 32.21
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20012",
+    "bd_short": "SD Veiligheid",
+    "bd_long": "SD.Veiligheid, preventie en netheid",
+    "ap_code": "OD20019",
+    "ap_short": "Netheid",
+    "ap_long": "OD.Verhogen van de netheid van de stad",
+    "ac_code": "AC34780",
+    "ac_short": "Ivago - Ophalen en verwerken van huishou",
+    "ac_long": "AC.Ivago - Ophalen en verwerken van huishoudelijk afval",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 47750000.0,
+    "amount_per_capita": 171.63,
+    "yearly_amounts": {
+      "2026": 9385000.0,
+      "2027": 8270000.0,
+      "2028": 6400000.0,
+      "2029": 6030000.0,
+      "2030": 8990000.0,
+      "2031": 8675000.0
+    },
+    "yearly_per_capita": {
+      "2026": 33.73,
+      "2027": 29.73,
+      "2028": 23.0,
+      "2029": 21.67,
+      "2030": 32.31,
+      "2031": 31.18
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "OD20002",
+    "ap_short": "Vraag en aanbod woningen",
+    "ap_long": "OD.Afstemmen van vraag en aanbod voor diverse woningen met focus op Gentenaars met een laag inkomen, grote gezinnen en de huurmarkt",
+    "ac_code": "AC35735",
+    "ac_short": "voldoende betaalbare woningen",
+    "ac_long": "AC.Beleid voeren voor voldoende, betaalbare, gezinsvriendelijke en diverse woningen",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 30929432.0,
+    "amount_per_capita": 111.17,
+    "yearly_amounts": {
+      "2026": 10591886.0,
+      "2027": 9762130.0,
+      "2028": 4719978.0,
+      "2029": 2145426.0,
+      "2030": 2424706.0,
+      "2031": 1285306.0
+    },
+    "yearly_per_capita": {
+      "2026": 38.07,
+      "2027": 35.09,
+      "2028": 16.97,
+      "2029": 7.71,
+      "2030": 8.72,
+      "2031": 4.62
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20117",
+    "ap_short": "Algemene financiering",
+    "ap_long": "OD.Robuuster maken van de financiële gezondheid en structuur van Stad en OCMW",
+    "ac_code": "ACZ1401",
+    "ac_short": "portfolio OCMW",
+    "ac_long": "AC.Portfoliobudget OCMW",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 25058635.0,
+    "amount_per_capita": 90.07,
+    "yearly_amounts": {
+      "2026": 2676917.0,
+      "2027": 4555097.0,
+      "2028": 7388621.0,
+      "2029": 7655871.0,
+      "2030": 2762163.0,
+      "2031": 19966.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.62,
+      "2027": 16.37,
+      "2028": 26.56,
+      "2029": 27.52,
+      "2030": 9.93,
+      "2031": 0.07
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20013",
+    "bd_short": "SD Dienstverlening",
+    "bd_long": "SD.Dienstverlening",
+    "ap_code": "OD20076",
+    "ap_short": "Digitaal beleid",
+    "ap_long": "OD.Voeren van een actief beleid gericht op een innovatieve, inclusieve, datagedreven en veilige digitale dienstverlening",
+    "ac_code": "AC34776",
+    "ac_short": "District09 Stedenfonds exploitatie",
+    "ac_long": "AC.Beheren financiële stromen naar en van District 09",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 24481550.0,
+    "amount_per_capita": 88.0,
+    "yearly_amounts": {
+      "2026": 4521570.0,
+      "2027": 3992365.0,
+      "2028": 3991593.0,
+      "2029": 3991618.0,
+      "2030": 3992202.0,
+      "2031": 3992202.0
+    },
+    "yearly_per_capita": {
+      "2026": 16.25,
+      "2027": 14.35,
+      "2028": 14.35,
+      "2029": 14.35,
+      "2030": 14.35,
+      "2031": 14.35
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20012",
+    "bd_short": "SD Veiligheid",
+    "bd_long": "SD.Veiligheid, preventie en netheid",
+    "ap_code": "OD20070",
+    "ap_short": "Veiligheidszorg",
+    "ap_long": "OD.Opvolgen van de veiligheids- en hulpverleningsdiensten",
+    "ac_code": "AC35136",
+    "ac_short": "Brandweerzone centrum",
+    "ac_long": "AC.Financiële stromen naar en van Brandweerzone centrum",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 22944774.0,
+    "amount_per_capita": 82.47,
+    "yearly_amounts": {
+      "2026": 4224870.0,
+      "2027": 3692029.0,
+      "2028": 3744077.0,
+      "2029": 3748435.0,
+      "2030": 3768045.0,
+      "2031": 3767318.0
+    },
+    "yearly_per_capita": {
+      "2026": 15.19,
+      "2027": 13.27,
+      "2028": 13.46,
+      "2029": 13.47,
+      "2030": 13.54,
+      "2031": 13.54
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20087",
+    "ap_short": "Soft facilities",
+    "ap_long": "OD.Aanbieden van soft facilities",
+    "ac_code": "AC35127",
+    "ac_short": "A&L - Aankoop wagens en fietsen",
+    "ac_long": "AC.Onderhouden, optimaliseren en verduurzamen van de vloot en fiets - investeringsenveloppe",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15000000.0,
+    "amount_per_capita": 53.92,
+    "yearly_amounts": {
+      "2026": 2500000.0,
+      "2027": 2500000.0,
+      "2028": 2500000.0,
+      "2029": 2500000.0,
+      "2030": 2500000.0,
+      "2031": 2500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.99,
+      "2027": 8.99,
+      "2028": 8.99,
+      "2029": 8.99,
+      "2030": 8.99,
+      "2031": 8.99
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20030",
+    "ap_short": "Vastgoed cultuur",
+    "ap_long": "OD.Bouwen aan een kwalitatief en toekomstbestendig vastgoed voor cultuur",
+    "ac_code": "AC34110",
+    "ac_short": "Infrastructuur cultuur",
+    "ac_long": "AC.Optimaliseren culturele infrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 13489040.0,
+    "amount_per_capita": 48.48,
+    "yearly_amounts": {
+      "2026": 3973745.0,
+      "2027": 1968259.0,
+      "2028": 1968259.0,
+      "2029": 1968259.0,
+      "2030": 1968259.0,
+      "2031": 1642259.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.28,
+      "2027": 7.07,
+      "2028": 7.07,
+      "2029": 7.07,
+      "2030": 7.07,
+      "2031": 5.9
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20086",
+    "ap_short": "Vastgoed",
+    "ap_long": "OD.Bouwen aan kwalitatief en toekomstbestendig vastgoed",
+    "ac_code": "ACO1100",
+    "ac_short": "Interne werking FM Welzijn",
+    "ac_long": "AC.Organiseren interne werking Dienst FM Welzijn",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 13470000.0,
+    "amount_per_capita": 48.42,
+    "yearly_amounts": {
+      "2026": 2245000.0,
+      "2027": 2245000.0,
+      "2028": 2245000.0,
+      "2029": 2245000.0,
+      "2030": 2245000.0,
+      "2031": 2245000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.07,
+      "2027": 8.07,
+      "2028": 8.07,
+      "2029": 8.07,
+      "2030": 8.07,
+      "2031": 8.07
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20028",
+    "ap_short": "Vastgoed opgroeien, opvoeden en leren",
+    "ap_long": "OD.Bouwen aan kwalitatieve en toekomstbestendige ruimte voor opgroeien, opvoeden en leren",
+    "ac_code": "PR40625",
+    "ac_short": "Realiseren DBFM Fabiolaan",
+    "ac_long": "PR.Realiseren DBFM Fabiolalaan - Nieuwbouw voor Basisonderwijs, Kinderopvang, Jeugd en de buurt",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 12624225.0,
+    "amount_per_capita": 45.38,
+    "yearly_amounts": {
+      "2026": 49574.0,
+      "2027": 0,
+      "2028": 12574651.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.18,
+      "2027": 0,
+      "2028": 45.2,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20013",
+    "ap_short": "Openbaar groen",
+    "ap_long": "OD.Beheren, onderhouden en vernieuwen van openbaar groen",
+    "ac_code": "AC35726",
+    "ac_short": "onderhouden openbaar groen",
+    "ac_long": "AC.Onderhouden openbaar groen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 9277000.0,
+    "amount_per_capita": 33.34,
+    "yearly_amounts": {
+      "2026": 1380000.0,
+      "2027": 1480000.0,
+      "2028": 1540000.0,
+      "2029": 1577000.0,
+      "2030": 1650000.0,
+      "2031": 1650000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.96,
+      "2027": 5.32,
+      "2028": 5.54,
+      "2029": 5.67,
+      "2030": 5.93,
+      "2031": 5.93
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20117",
+    "ap_short": "Algemene financiering",
+    "ap_long": "OD.Robuuster maken van de financiële gezondheid en structuur van Stad en OCMW",
+    "ac_code": "AC34781",
+    "ac_short": "Tussenkomsten in tekorten kerken",
+    "ac_long": "AC.Tussenkomsten in tekorten kerken",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 8496667.0,
+    "amount_per_capita": 30.54,
+    "yearly_amounts": {
+      "2026": 1416667.0,
+      "2027": 1416000.0,
+      "2028": 1416000.0,
+      "2029": 1416000.0,
+      "2030": 1416000.0,
+      "2031": 1416000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.09,
+      "2027": 5.09,
+      "2028": 5.09,
+      "2029": 5.09,
+      "2030": 5.09,
+      "2031": 5.09
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20117",
+    "ap_short": "Algemene financiering",
+    "ap_long": "OD.Robuuster maken van de financiële gezondheid en structuur van Stad en OCMW",
+    "ac_code": "AC35789",
+    "ac_short": "portfolio IVA MOBB",
+    "ac_long": "AC.Portfoliobudget IVA Mobiliteitsbedrijf",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 8302305.0,
+    "amount_per_capita": 29.84,
+    "yearly_amounts": {
+      "2026": 6902305.0,
+      "2027": 700000.0,
+      "2028": 700000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 24.81,
+      "2027": 2.52,
+      "2028": 2.52,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "OD20001",
+    "ap_short": "Woonkwaliteit en duurzaamheid",
+    "ap_long": "OD.Verhogen van de woningkwaliteit en duurzaamheid van woningen",
+    "ac_code": "AC34251",
+    "ac_short": "ondersteunen REGent",
+    "ac_long": "AC.Ondersteunen van het energiehuis EVA vzw REGent",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 8000812.0,
+    "amount_per_capita": 28.76,
+    "yearly_amounts": {
+      "2026": 1346802.0,
+      "2027": 1351802.0,
+      "2028": 1381802.0,
+      "2029": 1306802.0,
+      "2030": 1306802.0,
+      "2031": 1306802.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.84,
+      "2027": 4.86,
+      "2028": 4.97,
+      "2029": 4.7,
+      "2030": 4.7,
+      "2031": 4.7
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20013",
+    "bd_short": "SD Dienstverlening",
+    "bd_long": "SD.Dienstverlening",
+    "ap_code": "OD20076",
+    "ap_short": "Digitaal beleid",
+    "ap_long": "OD.Voeren van een actief beleid gericht op een innovatieve, inclusieve, datagedreven en veilige digitale dienstverlening",
+    "ac_code": "ACQ1213",
+    "ac_short": "District09",
+    "ac_long": "AC.District09",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 7911061.0,
+    "amount_per_capita": 28.44,
+    "yearly_amounts": {
+      "2026": 1239664.0,
+      "2027": 1326509.0,
+      "2028": 1336533.0,
+      "2029": 1336507.0,
+      "2030": 1335924.0,
+      "2031": 1335924.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.46,
+      "2027": 4.77,
+      "2028": 4.8,
+      "2029": 4.8,
+      "2030": 4.8,
+      "2031": 4.8
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20003",
+    "bd_short": "SD Mobiliteit",
+    "bd_long": "SD.Mobiliteit",
+    "ap_code": "OD20109",
+    "ap_short": "Mobiliteit aangename buurten",
+    "ap_long": "OD.Mobiliteitskeuzes dragen bij aan aangename Gentse buurten",
+    "ac_code": "AC35641",
+    "ac_short": "Beheren van Off-street parkeerinfra",
+    "ac_long": "AC.Beheren van off-street parkeerinfrastructuur",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7890302.0,
+    "amount_per_capita": 28.36,
+    "yearly_amounts": {
+      "2026": 1065000.0,
+      "2027": 2096500.0,
+      "2028": 1129103.0,
+      "2029": 1162846.0,
+      "2030": 1197771.0,
+      "2031": 1239082.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.83,
+      "2027": 7.54,
+      "2028": 4.06,
+      "2029": 4.18,
+      "2030": 4.31,
+      "2031": 4.45
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20086",
+    "ap_short": "Vastgoed",
+    "ap_long": "OD.Bouwen aan kwalitatief en toekomstbestendig vastgoed",
+    "ac_code": "AC94211",
+    "ac_short": "OVEFAC",
+    "ac_long": "AC.Beheer van eigen vastgoed",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 7854689.0,
+    "amount_per_capita": 28.23,
+    "yearly_amounts": {
+      "2026": 1134011.0,
+      "2027": 1528248.0,
+      "2028": 1107623.0,
+      "2029": 2086254.0,
+      "2030": 1851558.0,
+      "2031": 146995.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.08,
+      "2027": 5.49,
+      "2028": 3.98,
+      "2029": 7.5,
+      "2030": 6.66,
+      "2031": 0.53
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20111",
+    "ap_short": "Onderhouden wegen bruggen en waterlopen",
+    "ap_long": "OD.Onderhouden van wegen, bruggen en waterlopen",
+    "ac_code": "AC35682",
+    "ac_short": "verkeerstechniek",
+    "ac_long": "AC.Plaatsen, beheren en onderhouden van verkeerssignalisatie",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7744749.0,
+    "amount_per_capita": 27.84,
+    "yearly_amounts": {
+      "2026": 1150000.0,
+      "2027": 1260400.0,
+      "2028": 1265442.0,
+      "2029": 1310997.0,
+      "2030": 1355571.0,
+      "2031": 1402339.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.13,
+      "2027": 4.53,
+      "2028": 4.55,
+      "2029": 4.71,
+      "2030": 4.87,
+      "2031": 5.04
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20080",
+    "ap_short": "Continu verbeteren",
+    "ap_long": "OD.Versterken van het continu verbeteren van de organisatie",
+    "ac_code": "AC35128",
+    "ac_short": "niet verdeeld BD 106",
+    "ac_long": "AC.Niet verdeelde kredieten",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 7060412.0,
+    "amount_per_capita": 25.38,
+    "yearly_amounts": {
+      "2026": 1073266.0,
+      "2027": 1000000.0,
+      "2028": 1210000.0,
+      "2029": 1234200.0,
+      "2030": 1258884.0,
+      "2031": 1284062.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.86,
+      "2027": 3.59,
+      "2028": 4.35,
+      "2029": 4.44,
+      "2030": 4.52,
+      "2031": 4.62
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20003",
+    "bd_short": "SD Mobiliteit",
+    "bd_long": "SD.Mobiliteit",
+    "ap_code": "OD20109",
+    "ap_short": "Mobiliteit aangename buurten",
+    "ap_long": "OD.Mobiliteitskeuzes dragen bij aan aangename Gentse buurten",
+    "ac_code": "AC35639",
+    "ac_short": "Straatparkeerrechten en -infrastructuur",
+    "ac_long": "AC.Beheren van straatparkeerrechten en -infrastructuur",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 6000000.0,
+    "amount_per_capita": 21.57,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2000000.0,
+      "2029": 4000000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 7.19,
+      "2029": 14.38,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "OD20001",
+    "ap_short": "Woonkwaliteit en duurzaamheid",
+    "ap_long": "OD.Verhogen van de woningkwaliteit en duurzaamheid van woningen",
+    "ac_code": "AC35479",
+    "ac_short": "Duurzame en kwalitatieve woningen",
+    "ac_long": "AC.Bijdragen aan een toename van duurzame en kwalitatieve woningen",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 4491083.0,
+    "amount_per_capita": 16.14,
+    "yearly_amounts": {
+      "2026": 715000.0,
+      "2027": 728082.0,
+      "2028": 741403.0,
+      "2029": 754968.0,
+      "2030": 768782.0,
+      "2031": 782848.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.57,
+      "2027": 2.62,
+      "2028": 2.66,
+      "2029": 2.71,
+      "2030": 2.76,
+      "2031": 2.81
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20060",
+    "ap_short": "Jeugd(werk)initiatieven",
+    "ap_long": "OD.Versterken van de kwaliteit en toegankelijkheid van jeugd(werk)initiatieven",
+    "ac_code": "AC34063",
+    "ac_short": "ondersteunen jeugd(welzijns-)werk",
+    "ac_long": "AC.Ondersteunen jeugdwerk",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3927446.0,
+    "amount_per_capita": 14.12,
+    "yearly_amounts": {
+      "2026": 598359.0,
+      "2027": 654087.0,
+      "2028": 659087.0,
+      "2029": 664125.0,
+      "2030": 669202.0,
+      "2031": 682586.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.15,
+      "2027": 2.35,
+      "2028": 2.37,
+      "2029": 2.39,
+      "2030": 2.41,
+      "2031": 2.45
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20086",
+    "ap_short": "Vastgoed",
+    "ap_long": "OD.Bouwen aan kwalitatief en toekomstbestendig vastgoed",
+    "ac_code": "PR40479",
+    "ac_short": "Restauratie Groot Vleeshuis",
+    "ac_long": "PR.Restauratie Groot Vleeshuis en realisatie Fietsonthaalpunt",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3421786.0,
+    "amount_per_capita": 12.3,
+    "yearly_amounts": {
+      "2026": 2571170.0,
+      "2027": 850616.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.24,
+      "2027": 3.06,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20011",
+    "ap_short": "Beheren publieke ruimte",
+    "ap_long": "OD.Beheren van de publieke ruimte",
+    "ac_code": "AC35677",
+    "ac_short": "Dossierbeheer en -advisering bij IPR",
+    "ac_long": "AC.Vergunnen en behandelen van innames publieke ruimte door particulieren en bedrijven",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3134097.0,
+    "amount_per_capita": 11.27,
+    "yearly_amounts": {
+      "2026": 465375.0,
+      "2027": 510051.0,
+      "2028": 512091.0,
+      "2029": 530526.0,
+      "2030": 548564.0,
+      "2031": 567490.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.67,
+      "2027": 1.83,
+      "2028": 1.84,
+      "2029": 1.91,
+      "2030": 1.97,
+      "2031": 2.04
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20061",
+    "ap_short": "Musea",
+    "ap_long": "OD.Versterken van de beleving in de musea en historische huizen en verhogen van de toegankelijkheid en participatie",
+    "ac_code": "AC34898",
+    "ac_short": "Ondersteunen AGB Kunsten en Erfgoed",
+    "ac_long": "AC.Ondersteunen van autonoom gemeentebedrijf Kunsten en Erfgoed Gent",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2906917.0,
+    "amount_per_capita": 10.45,
+    "yearly_amounts": {
+      "2026": 484486.0,
+      "2027": 484486.0,
+      "2028": 484486.0,
+      "2029": 484486.0,
+      "2030": 484486.0,
+      "2031": 484487.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.74,
+      "2027": 1.74,
+      "2028": 1.74,
+      "2029": 1.74,
+      "2030": 1.74,
+      "2031": 1.74
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20013",
+    "ap_short": "Openbaar groen",
+    "ap_long": "OD.Beheren, onderhouden en vernieuwen van openbaar groen",
+    "ac_code": "AC35725",
+    "ac_short": "Beheren openbaar groen",
+    "ac_long": "AC.Beheren openbaar groen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2570000.0,
+    "amount_per_capita": 9.24,
+    "yearly_amounts": {
+      "2026": 460000.0,
+      "2027": 410000.0,
+      "2028": 410000.0,
+      "2029": 410000.0,
+      "2030": 410000.0,
+      "2031": 470000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.65,
+      "2027": 1.47,
+      "2028": 1.47,
+      "2029": 1.47,
+      "2030": 1.47,
+      "2031": 1.69
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20006",
+    "bd_short": "SD Welzijn, gezondheid en zorg",
+    "bd_long": "SD.Welzijn, gezondheid en zorg",
+    "ap_code": "OD20052",
+    "ap_short": "Zorg- en welzijnsvoorzieningen",
+    "ap_long": "OD.Verhogen van toegang tot kwaliteitsvolle zorg- en welzijnsvoorzieningen",
+    "ac_code": "ACI1010",
+    "ac_short": "Beleidsondersteuning Gezondheid en Zorg",
+    "ac_long": "AC.Bieden van beleidsondersteuning voor gezondheid en zorg",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 2288446.0,
+    "amount_per_capita": 8.23,
+    "yearly_amounts": {
+      "2026": 214741.0,
+      "2027": 414741.0,
+      "2028": 414741.0,
+      "2029": 414741.0,
+      "2030": 414741.0,
+      "2031": 414741.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.77,
+      "2027": 1.49,
+      "2028": 1.49,
+      "2029": 1.49,
+      "2030": 1.49,
+      "2031": 1.49
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20058",
+    "ap_short": "Sport en bewegen",
+    "ap_long": "OD.Realiseren van een inclusief en nabij sport- en beweegaanbod",
+    "ac_code": "AC34474",
+    "ac_short": "Infrastructuur sport",
+    "ac_long": "AC.Optimaliseren en uitbreiden aanbod en gebruik sportinfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2236705.0,
+    "amount_per_capita": 8.04,
+    "yearly_amounts": {
+      "2026": 47341.0,
+      "2027": 47341.0,
+      "2028": 2047341.0,
+      "2029": 47341.0,
+      "2030": 47341.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.17,
+      "2027": 0.17,
+      "2028": 7.36,
+      "2029": 0.17,
+      "2030": 0.17,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20014",
+    "ap_short": "Begraafplaatsen",
+    "ap_long": "OD.Versterken van begraafplaatsen als plaatsen voor rouw, rust, erfgoed en natuur",
+    "ac_code": "AC35729",
+    "ac_short": "erfgoed en natuur beschermen",
+    "ac_long": "AC.Unieke erfgoed- en natuurwaarden beschermen en bewaren.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 2120000.0,
+    "amount_per_capita": 7.62,
+    "yearly_amounts": {
+      "2026": 380000.0,
+      "2027": 150000.0,
+      "2028": 730000.0,
+      "2029": 800000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.37,
+      "2027": 0.54,
+      "2028": 2.62,
+      "2029": 2.88,
+      "2030": 0.11,
+      "2031": 0.11
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "PO20036",
+    "ap_short": "Citadelpark +",
+    "ap_long": "PO.Masterproject Citadelpark+.",
+    "ac_code": "PR40603",
+    "ac_short": "ICC/Floralienhall - fase 2",
+    "ac_long": "PR.Renovatie en Restauratie Floraliënhal",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 2075501.0,
+    "amount_per_capita": 7.46,
+    "yearly_amounts": {
+      "2026": 642570.0,
+      "2027": 621844.0,
+      "2028": 675917.0,
+      "2029": 135170.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.31,
+      "2027": 2.24,
+      "2028": 2.43,
+      "2029": 0.49,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20043",
+    "ap_short": "Stedelijk Onderwijs Gent",
+    "ap_long": "OD.Versterken van het Stedelijk Onderwijs Gent",
+    "ac_code": "AC34402",
+    "ac_short": "ICT-ondersteuning en innovatie",
+    "ac_long": "AC.Organiseren ICT-ondersteuning en innovatie",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 2055448.0,
+    "amount_per_capita": 7.39,
+    "yearly_amounts": {
+      "2026": 327271.0,
+      "2027": 333687.0,
+      "2028": 340226.0,
+      "2029": 346892.0,
+      "2030": 353686.0,
+      "2031": 353686.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.18,
+      "2027": 1.2,
+      "2028": 1.22,
+      "2029": 1.25,
+      "2030": 1.27,
+      "2031": 1.27
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20003",
+    "bd_short": "SD Mobiliteit",
+    "bd_long": "SD.Mobiliteit",
+    "ap_code": "OD20109",
+    "ap_short": "Mobiliteit aangename buurten",
+    "ap_long": "OD.Mobiliteitskeuzes dragen bij aan aangename Gentse buurten",
+    "ac_code": "AC35637",
+    "ac_short": "Verbeteren van de verkeersleefbaarheid",
+    "ac_long": "AC.Verbeteren van de verkeersleefbaarheid",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2034758.0,
+    "amount_per_capita": 7.31,
+    "yearly_amounts": {
+      "2026": 44000.0,
+      "2027": 621614.0,
+      "2028": 689572.0,
+      "2029": 679572.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.16,
+      "2027": 2.23,
+      "2028": 2.48,
+      "2029": 2.44,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20112",
+    "ap_short": "Ondersteuning dept",
+    "ap_long": "OD.Organiseren van managementondersteunende processen in het Departement Stedelijke Ontwikkeling",
+    "ac_code": "AC35652",
+    "ac_short": "Ondersteuning werking Mobiliteitsbedrijf",
+    "ac_long": "AC.Strategisch en operationeel ondersteunen van het Mobiliteitsbedrijf",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1957065.0,
+    "amount_per_capita": 7.03,
+    "yearly_amounts": {
+      "2026": 376987.0,
+      "2027": 286087.0,
+      "2028": 325641.0,
+      "2029": 305673.0,
+      "2030": 346207.0,
+      "2031": 316470.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.36,
+      "2027": 1.03,
+      "2028": 1.17,
+      "2029": 1.1,
+      "2030": 1.24,
+      "2031": 1.14
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "AC35723",
+    "ac_short": "Realiseren openbaar groen, bos en natuur",
+    "ac_long": "AC.Realiseren nieuw openbaar groen, bos en natuur.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 1920000.0,
+    "amount_per_capita": 6.9,
+    "yearly_amounts": {
+      "2026": 320000.0,
+      "2027": 320000.0,
+      "2028": 320000.0,
+      "2029": 320000.0,
+      "2030": 320000.0,
+      "2031": 320000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.15,
+      "2027": 1.15,
+      "2028": 1.15,
+      "2029": 1.15,
+      "2030": 1.15,
+      "2031": 1.15
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20024",
+    "ap_short": "Vernieuwen wegen bruggen en waterlopen",
+    "ap_long": "OD.Vernieuwen van wegen, bruggen en waterlopen",
+    "ac_code": "PR40620",
+    "ac_short": "Nieuwescheldestraat",
+    "ac_long": "PR.Nieuwescheldestraat aanleggen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1745712.0,
+    "amount_per_capita": 6.27,
+    "yearly_amounts": {
+      "2026": 1745712.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20014",
+    "ap_short": "Begraafplaatsen",
+    "ap_long": "OD.Versterken van begraafplaatsen als plaatsen voor rouw, rust, erfgoed en natuur",
+    "ac_code": "AC35728",
+    "ac_short": "ruimte voor begraven en herdenken",
+    "ac_long": "AC.Begraven en herdenken.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1714080.0,
+    "amount_per_capita": 6.16,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 301033.0,
+      "2028": 300419.0,
+      "2029": 270758.0,
+      "2030": 270155.0,
+      "2031": 271715.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.08,
+      "2027": 1.08,
+      "2028": 1.08,
+      "2029": 0.97,
+      "2030": 0.97,
+      "2031": 0.98
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20013",
+    "ap_short": "Openbaar groen",
+    "ap_long": "OD.Beheren, onderhouden en vernieuwen van openbaar groen",
+    "ac_code": "AC35727",
+    "ac_short": "herinrichten en vergroenen OD",
+    "ac_long": "AC.Herinrichten van bestaand openbaar groen en vergroenen bestaand openbaar domein.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 1682500.0,
+    "amount_per_capita": 6.05,
+    "yearly_amounts": {
+      "2026": 208250.0,
+      "2027": 276250.0,
+      "2028": 245000.0,
+      "2029": 295000.0,
+      "2030": 313000.0,
+      "2031": 345000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.75,
+      "2027": 0.99,
+      "2028": 0.88,
+      "2029": 1.06,
+      "2030": 1.13,
+      "2031": 1.24
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20028",
+    "ap_short": "Vastgoed opgroeien, opvoeden en leren",
+    "ap_long": "OD.Bouwen aan kwalitatieve en toekomstbestendige ruimte voor opgroeien, opvoeden en leren",
+    "ac_code": "PR40531",
+    "ac_short": "Uitbreiden KDV Kereltjes/BS De Kleurdoos",
+    "ac_long": "PR.Uitbreiden KDV De Kereltjes / BS en Stibo De Kleurdoos - fase 1",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 1631111.0,
+    "amount_per_capita": 5.86,
+    "yearly_amounts": {
+      "2026": 1631111.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.86,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20003",
+    "bd_short": "SD Mobiliteit",
+    "bd_long": "SD.Mobiliteit",
+    "ap_code": "OD20109",
+    "ap_short": "Mobiliteit aangename buurten",
+    "ap_long": "OD.Mobiliteitskeuzes dragen bij aan aangename Gentse buurten",
+    "ac_code": "AC35638",
+    "ac_short": "Organiseren van parkeren",
+    "ac_long": "AC.Organiseren van parkeren voor een leefbare stad",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1500000.0,
+    "amount_per_capita": 5.39,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 250000.0,
+      "2028": 250000.0,
+      "2029": 250000.0,
+      "2030": 250000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.9,
+      "2027": 0.9,
+      "2028": 0.9,
+      "2029": 0.9,
+      "2030": 0.9,
+      "2031": 0.9
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "OD20003",
+    "ap_short": "Dienstverlening wonen",
+    "ap_long": "OD.Helpen van Gentenaars met het verhogen van woonstbehoud, woonzekerheid en woningkwaliteit en bevorderen van betaalbaarheid",
+    "ac_code": "AC35737",
+    "ac_short": "geïnformeerde en geholpen GGG",
+    "ac_long": "AC.Instaan voor goed geïnformeerde en geholpen Gentenaars, Gentmakers en Gentgebruikers",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1500000.0,
+    "amount_per_capita": 5.39,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 250000.0,
+      "2028": 250000.0,
+      "2029": 250000.0,
+      "2030": 250000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.9,
+      "2027": 0.9,
+      "2028": 0.9,
+      "2029": 0.9,
+      "2030": 0.9,
+      "2031": 0.9
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20009",
+    "bd_short": "SD Wijk en burger",
+    "bd_long": "SD.Wijk en burger",
+    "ap_code": "PO20027",
+    "ap_short": "Sluizeken Tolhuis Ham",
+    "ap_long": "PO.Programma Verhogen leefkwaliteit in Sluizeken Tolhuis Ham",
+    "ac_code": "PR40696",
+    "ac_short": "IMEWO site Bomastraat",
+    "ac_long": "PR.Coördinatie aankoop IMEWO-site Bomastraat",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1370000.0,
+    "amount_per_capita": 4.92,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 1370000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 4.92,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20027",
+    "ap_short": "Meerwaarde vastgoed",
+    "ap_long": "OD.Maximaal maatschappelijk bestemmen en gebruiken van vastgoed",
+    "ac_code": "PR40380",
+    "ac_short": "Herhuisvesting Site Zuid",
+    "ac_long": "PR.Bouw Site Zuid",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1244798.0,
+    "amount_per_capita": 4.47,
+    "yearly_amounts": {
+      "2026": 1244798.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.47,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "OD20002",
+    "ap_short": "Vraag en aanbod woningen",
+    "ap_long": "OD.Afstemmen van vraag en aanbod voor diverse woningen met focus op Gentenaars met een laag inkomen, grote gezinnen en de huurmarkt",
+    "ac_code": "PR40809",
+    "ac_short": "Uitbreiden transitwoningen",
+    "ac_long": "PR.Uitbreiding transitwoningen: Alfons Braeckmanlaan 156",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1218458.0,
+    "amount_per_capita": 4.38,
+    "yearly_amounts": {
+      "2026": 1206978.0,
+      "2027": 0,
+      "2028": 11480.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.34,
+      "2027": 0,
+      "2028": 0.04,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20006",
+    "bd_short": "SD Welzijn, gezondheid en zorg",
+    "bd_long": "SD.Welzijn, gezondheid en zorg",
+    "ap_code": "OD20053",
+    "ap_short": "Gezondheid",
+    "ap_long": "OD.Bevorderen, beschermen en behouden van de fysieke, psychische en sociale gezondheid van elke Gentenaar",
+    "ac_code": "ACJ0000",
+    "ac_short": "Coördinatie LDC",
+    "ac_long": "AC.Coördineren lokale dienstencentra",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1200000.0,
+    "amount_per_capita": 4.31,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 200000.0,
+      "2028": 200000.0,
+      "2029": 200000.0,
+      "2030": 200000.0,
+      "2031": 200000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.72,
+      "2027": 0.72,
+      "2028": 0.72,
+      "2029": 0.72,
+      "2030": 0.72,
+      "2031": 0.72
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20080",
+    "ap_short": "Continu verbeteren",
+    "ap_long": "OD.Versterken van het continu verbeteren van de organisatie",
+    "ac_code": "ACZ1414",
+    "ac_short": "niet verdeeld BD 106",
+    "ac_long": "AC.Niet verdeelde kredieten",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 3.59,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.8,
+      "2027": 1.8,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20015",
+    "ap_short": "Beperken milieuverontreiniging",
+    "ap_long": "OD.Beperken van milieuverontreiniging om een gezonde stad te realiseren",
+    "ac_code": "AC34253",
+    "ac_short": "bodemonderzoeken en saneringen",
+    "ac_long": "AC.Uitvoeren en adviseren van bodemonderzoeken en saneringen en werken aan een integrale bodemzorg.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 978487.0,
+    "amount_per_capita": 3.52,
+    "yearly_amounts": {
+      "2026": 160000.0,
+      "2027": 161200.0,
+      "2028": 162424.0,
+      "2029": 163672.0,
+      "2030": 164946.0,
+      "2031": 166245.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.58,
+      "2027": 0.58,
+      "2028": 0.58,
+      "2029": 0.59,
+      "2030": 0.59,
+      "2031": 0.6
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20066",
+    "ap_short": "Event markten en foren",
+    "ap_long": "OD.Versterken van de rijkdom en diversiteit van het leven in de stad door het organiseren en ondersteunen van kwaliteitsvolle evenementen, markten en foren in de publieke ruimte",
+    "ac_code": "AC34460",
+    "ac_short": "Uitleenpunt en logistiek",
+    "ac_long": "AC.Beheren van het Uitleenpunt",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 3.23,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 150000.0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.54,
+      "2027": 0.54,
+      "2028": 0.54,
+      "2029": 0.54,
+      "2030": 0.54,
+      "2031": 0.54
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20008",
+    "ap_short": "Klimaatneutrale stad - sociaal",
+    "ap_long": "OD.Realiseren van een klimaatneutrale stad met een sociaal rechtvaardige energietransitie",
+    "ac_code": "AC35342",
+    "ac_short": "Energietransitie",
+    "ac_long": "AC.Coördineren en faciliteren van een sociaal-rechtvaardige energietransitie in de Gentse wijken.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 3.23,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 150000.0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.54,
+      "2027": 0.54,
+      "2028": 0.54,
+      "2029": 0.54,
+      "2030": 0.54,
+      "2031": 0.54
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20010",
+    "ap_short": "Klimaatrobuuste stad - watersysteem",
+    "ap_long": "OD.Realiseren van een klimaatrobuuste stad met een weerbaar watersysteem",
+    "ac_code": "AC35495",
+    "ac_short": "Klimaatadaptatie communicatie",
+    "ac_long": "AC.Activeren tot ontharden en vergroenen op privaat domein.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 3.23,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 150000.0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.54,
+      "2027": 0.54,
+      "2028": 0.54,
+      "2029": 0.54,
+      "2030": 0.54,
+      "2031": 0.54
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20111",
+    "ap_short": "Onderhouden wegen bruggen en waterlopen",
+    "ap_long": "OD.Onderhouden van wegen, bruggen en waterlopen",
+    "ac_code": "AC35684",
+    "ac_short": "Ondersteuning DWBW",
+    "ac_long": "AC.Beheren van magazijn en voorraad, behandelen van meldingen en onthaal",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 875494.0,
+    "amount_per_capita": 3.15,
+    "yearly_amounts": {
+      "2026": 130000.0,
+      "2027": 142480.0,
+      "2028": 143050.0,
+      "2029": 148200.0,
+      "2030": 153239.0,
+      "2031": 158525.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.47,
+      "2027": 0.51,
+      "2028": 0.51,
+      "2029": 0.53,
+      "2030": 0.55,
+      "2031": 0.57
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20003",
+    "bd_short": "SD Mobiliteit",
+    "bd_long": "SD.Mobiliteit",
+    "ap_code": "OD20109",
+    "ap_short": "Mobiliteit aangename buurten",
+    "ap_long": "OD.Mobiliteitskeuzes dragen bij aan aangename Gentse buurten",
+    "ac_code": "AC35642",
+    "ac_short": "Beheren van fietsparkeerinfrastructuur",
+    "ac_long": "AC.Beheren van fietsparkeerinfrastructuur i.s.m. De Fietsambassade",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 855626.0,
+    "amount_per_capita": 3.08,
+    "yearly_amounts": {
+      "2026": 133640.0,
+      "2027": 136820.0,
+      "2028": 140064.0,
+      "2029": 143372.0,
+      "2030": 147159.0,
+      "2031": 154571.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.48,
+      "2027": 0.49,
+      "2028": 0.5,
+      "2029": 0.52,
+      "2030": 0.53,
+      "2031": 0.56
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "PR40218",
+    "ac_short": "Natuurcompensatie Volvo Moervaart",
+    "ac_long": "PR.Natuurcompensatie Moervaartvallei",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 840821.0,
+    "amount_per_capita": 3.02,
+    "yearly_amounts": {
+      "2026": 4832.0,
+      "2027": 673026.0,
+      "2028": 0,
+      "2029": 34739.0,
+      "2030": 113167.0,
+      "2031": 15057.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.02,
+      "2027": 2.42,
+      "2028": 0,
+      "2029": 0.12,
+      "2030": 0.41,
+      "2031": 0.05
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "AC35722",
+    "ac_short": "groenstructuurplan",
+    "ac_long": "AC.Realiseren van een leefbare, biodiverse en klimaatrobuuste stad op basis van het Groenstructuurplan.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 840000.0,
+    "amount_per_capita": 3.02,
+    "yearly_amounts": {
+      "2026": 140000.0,
+      "2027": 140000.0,
+      "2028": 140000.0,
+      "2029": 140000.0,
+      "2030": 140000.0,
+      "2031": 140000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.5,
+      "2027": 0.5,
+      "2028": 0.5,
+      "2029": 0.5,
+      "2030": 0.5,
+      "2031": 0.5
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20009",
+    "bd_short": "SD Wijk en burger",
+    "bd_long": "SD.Wijk en burger",
+    "ap_code": "PO20008",
+    "ap_short": "En Route",
+    "ap_long": "PO.Programma En Route",
+    "ac_code": "PR40963",
+    "ac_short": "Renovatie directeurswoning Wolterspark",
+    "ac_long": "PR.Renovatie directeurswoning Wolterspark",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 762382.0,
+    "amount_per_capita": 2.74,
+    "yearly_amounts": {
+      "2026": 760560.0,
+      "2027": 1822.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.73,
+      "2027": 0.01,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "PO20036",
+    "ap_short": "Citadelpark +",
+    "ap_long": "PO.Masterproject Citadelpark+.",
+    "ac_code": "PR40604",
+    "ac_short": "ICC/Floralienhall - fase 3",
+    "ac_long": "PR.Bouwen logistieke ondergrond gebouwencluster Citadelpark",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 753559.0,
+    "amount_per_capita": 2.71,
+    "yearly_amounts": {
+      "2026": 183007.0,
+      "2027": 247598.0,
+      "2028": 269128.0,
+      "2029": 53826.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.66,
+      "2027": 0.89,
+      "2028": 0.97,
+      "2029": 0.19,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20043",
+    "ap_short": "Stedelijk Onderwijs Gent",
+    "ap_long": "OD.Versterken van het Stedelijk Onderwijs Gent",
+    "ac_code": "AC34439",
+    "ac_short": "Inrichten van basisonderwijs",
+    "ac_long": "AC.Versterken van de schoolteams in het basisonderwijs (kleuter + lager)",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 642177.0,
+    "amount_per_capita": 2.31,
+    "yearly_amounts": {
+      "2026": 98867.0,
+      "2027": 104924.0,
+      "2028": 107023.0,
+      "2029": 109163.0,
+      "2030": 110000.0,
+      "2031": 112200.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.36,
+      "2027": 0.38,
+      "2028": 0.38,
+      "2029": 0.39,
+      "2030": 0.4,
+      "2031": 0.4
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20029",
+    "ap_short": "Vastgoed sport",
+    "ap_long": "OD.Bouwen aan een diverse, kwalitatieve en toekomstbestendige sportinfrastructuur",
+    "ac_code": "PR40834",
+    "ac_short": "Opwaarderen Watersportbaan",
+    "ac_long": "PR.Opwaarderen Watersportbaan",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 1.8,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20022",
+    "ap_short": "Ruimtelijke beleid",
+    "ap_long": "OD.Vormgeven van een toekomstbestendige leefomgeving met ruimtelijke visievorming en het stedenbouwkundig instrumentarium",
+    "ac_code": "AC35786",
+    "ac_short": "Stedenbouwkundig instrumentarium",
+    "ac_long": "AC.Uitwerken Slim Ruimtelijk Plannen en 3D-ruimtelijke planning",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 1.8,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20024",
+    "ap_short": "Vernieuwen wegen bruggen en waterlopen",
+    "ap_long": "OD.Vernieuwen van wegen, bruggen en waterlopen",
+    "ac_code": "PR40917",
+    "ac_short": "Brug Noord Schelde meander",
+    "ac_long": "PR.Noordelijke brug Schelde-meander",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 493150.0,
+    "amount_per_capita": 1.77,
+    "yearly_amounts": {
+      "2026": 493150.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.77,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD10214",
+    "ap_short": "4GE zakelijke werking",
+    "ap_long": "OD.Het zakelijk team versterkt de musea en historische huizen zodat deze zich maximaal kunnen focussen op het uitvoeren van de basisfuncties en eventuele dienstverlenende rol.",
+    "ac_code": "AC35099",
+    "ac_short": "4GE kern",
+    "ac_long": "AC.Kern van de zakelijke werking.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 492780.0,
+    "amount_per_capita": 1.77,
+    "yearly_amounts": {
+      "2026": 82130.0,
+      "2027": 82130.0,
+      "2028": 82130.0,
+      "2029": 82130.0,
+      "2030": 82130.0,
+      "2031": 82130.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.3,
+      "2027": 0.3,
+      "2028": 0.3,
+      "2029": 0.3,
+      "2030": 0.3,
+      "2031": 0.3
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20011",
+    "bd_short": "SD Economie en werk",
+    "bd_long": "SD.Economie en werk",
+    "ap_code": "OD20004",
+    "ap_short": "Ondernemersklimaat",
+    "ap_long": "OD.Uitbouwen van een aantrekkelijk ondernemersklimaat",
+    "ac_code": "AC35720",
+    "ac_short": "Begeleiden ondernemers",
+    "ac_long": "AC.Informeren, begeleiden en faciliteren van ondernemers",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 491011.0,
+    "amount_per_capita": 1.76,
+    "yearly_amounts": {
+      "2026": 180000.0,
+      "2027": 165069.0,
+      "2028": 120942.0,
+      "2029": 0,
+      "2030": 25000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.65,
+      "2027": 0.59,
+      "2028": 0.43,
+      "2029": 0,
+      "2030": 0.09,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "PR40965",
+    "ac_short": "Koppelingsgebied Oostakker-Noord",
+    "ac_long": "PR.Inrichting koppelingsgebied Oostakker-Noord",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 486341.0,
+    "amount_per_capita": 1.75,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 258513.0,
+      "2028": 115828.0,
+      "2029": 80000.0,
+      "2030": 16000.0,
+      "2031": 16000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.93,
+      "2028": 0.42,
+      "2029": 0.29,
+      "2030": 0.06,
+      "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20006",
+    "bd_short": "SD Welzijn, gezondheid en zorg",
+    "bd_long": "SD.Welzijn, gezondheid en zorg",
+    "ap_code": "OD20052",
+    "ap_short": "Zorg- en welzijnsvoorzieningen",
+    "ap_long": "OD.Verhogen van toegang tot kwaliteitsvolle zorg- en welzijnsvoorzieningen",
+    "ac_code": "ACW1010",
+    "ac_short": "WZC Het Heiveld",
+    "ac_long": "AC.Aanbieden woonomgeving met hedendaagse zorg - woonzorgcentrum Het Heiveld",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 462700.0,
+    "amount_per_capita": 1.66,
+    "yearly_amounts": {
+      "2026": 462700.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.66,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20028",
+    "ap_short": "Vastgoed opgroeien, opvoeden en leren",
+    "ap_long": "OD.Bouwen aan kwalitatieve en toekomstbestendige ruimte voor opgroeien, opvoeden en leren",
+    "ac_code": "PR40799",
+    "ac_short": "Optimaliseren De Piramide fase 3",
+    "ac_long": "PR.Optimaliseren BS en STIBO De Piramide (fase 3)",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 462507.0,
+    "amount_per_capita": 1.66,
+    "yearly_amounts": {
+      "2026": 462507.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.66,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20009",
+    "bd_short": "SD Wijk en burger",
+    "bd_long": "SD.Wijk en burger",
+    "ap_code": "PO20009",
+    "ap_short": "Muide Meulestede Morgen",
+    "ap_long": "PO.Programma Muide Meulestede Morgen",
+    "ac_code": "PR40597",
+    "ac_short": "MMM :  zone ex-LDC",
+    "ac_long": "PR.Muide Meulestede Morgen: Ontwikkelen zone ex-lokaal dienstencentrum",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 415000.0,
+    "amount_per_capita": 1.49,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 415000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.49,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20044",
+    "ap_short": "Kwaliteitsvolle kinddag",
+    "ap_long": "OD.Organiseren van een kwaliteitsvolle kinddag",
+    "ac_code": "AC35416",
+    "ac_short": "Regisseren buitensch opvang & activiteit",
+    "ac_long": "AC.Regisseren, ondersteunen, erkennen en handhaven van de buitenschoolse opvang en activiteiten in Gent",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 1.44,
+    "yearly_amounts": {
+      "2026": 400000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20042",
+    "ap_short": "Kinderopvang tot 3j",
+    "ap_long": "OD.Versterken van de kwalitatieve en toegankelijke kinderopvang tot 3 jaar",
+    "ac_code": "AC34417",
+    "ac_short": "Regisseren aanvragen kinderopvang",
+    "ac_long": "AC.Organiseren van Kinderopvangpunt Gent, als partner van het Groeiteam en ondersteuning van Gentse Kinderopvanginitiatieven",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 321000.0,
+    "amount_per_capita": 1.15,
+    "yearly_amounts": {
+      "2026": 53500.0,
+      "2027": 53500.0,
+      "2028": 53500.0,
+      "2029": 53500.0,
+      "2030": 53500.0,
+      "2031": 53500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.19,
+      "2027": 0.19,
+      "2028": 0.19,
+      "2029": 0.19,
+      "2030": 0.19,
+      "2031": 0.19
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20023",
+    "ap_short": "Kwaliteit (on)bebouwde, publieke ruimte",
+    "ap_long": "OD.Werken aan ruimtelijke en erfgoedkwaliteit in de (on)bebouwde en publieke ruimte",
+    "ac_code": "AC35688",
+    "ac_short": "Adviseren erfgoedkwaliteit",
+    "ac_long": "AC.Adviseren over erfgoedkwaliteit in Architectuur en Gentse Stadsbeelden",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 301018.0,
+    "amount_per_capita": 1.08,
+    "yearly_amounts": {
+      "2026": 246003.0,
+      "2027": 11003.0,
+      "2028": 11003.0,
+      "2029": 11003.0,
+      "2030": 11003.0,
+      "2031": 11003.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.88,
+      "2027": 0.04,
+      "2028": 0.04,
+      "2029": 0.04,
+      "2030": 0.04,
+      "2031": 0.04
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "OD20002",
+    "ap_short": "Vraag en aanbod woningen",
+    "ap_long": "OD.Afstemmen van vraag en aanbod voor diverse woningen met focus op Gentenaars met een laag inkomen, grote gezinnen en de huurmarkt",
+    "ac_code": "PR40827",
+    "ac_short": "Sociaal woonproject - Nieuw Gent",
+    "ac_long": "PR.Financieren van sogent voor realisatie sociaal woonproject voor SHM in Nieuw Gent (BSO)",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 301004.0,
+    "amount_per_capita": 1.08,
+    "yearly_amounts": {
+      "2026": 285624.0,
+      "2027": 8018.0,
+      "2028": 4667.0,
+      "2029": 2695.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.03,
+      "2027": 0.03,
+      "2028": 0.02,
+      "2029": 0.01,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20028",
+    "ap_short": "Vastgoed opgroeien, opvoeden en leren",
+    "ap_long": "OD.Bouwen aan kwalitatieve en toekomstbestendige ruimte voor opgroeien, opvoeden en leren",
+    "ac_code": "PR40835",
+    "ac_short": "KDV en STIBO Domino",
+    "ac_long": "PR.Optimaliseren KDV en STIBO Domino  - stopzetting, financiële afhandeling",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 252827.0,
+    "amount_per_capita": 0.91,
+    "yearly_amounts": {
+      "2026": 22984.0,
+      "2027": 68953.0,
+      "2028": 68953.0,
+      "2029": 91937.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.08,
+      "2027": 0.25,
+      "2028": 0.25,
+      "2029": 0.33,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20028",
+    "ap_short": "Vastgoed opgroeien, opvoeden en leren",
+    "ap_long": "OD.Bouwen aan kwalitatieve en toekomstbestendige ruimte voor opgroeien, opvoeden en leren",
+    "ac_code": "PR40861",
+    "ac_short": "KDV Dampoort",
+    "ac_long": "PR.Opstarten KDV Dampoort",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 250451.0,
+    "amount_per_capita": 0.9,
+    "yearly_amounts": {
+      "2026": 118422.0,
+      "2027": 118422.0,
+      "2028": 13607.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.43,
+      "2027": 0.43,
+      "2028": 0.05,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "PO20051",
+    "ap_short": "Sociale Huisvestingsprojecten",
+    "ap_long": "PO.Masterproject Openbaar Domein Sociale Huisvestingsprojecten.",
+    "ac_code": "PR40792",
+    "ac_short": "Ferrerlaan openbaar domein",
+    "ac_long": "PR.Omgeving sociaal huisvestingsproject Ferrerlaan - aanleg openbaar domein",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 245261.0,
+    "amount_per_capita": 0.88,
+    "yearly_amounts": {
+      "2026": 95941.0,
+      "2027": 149320.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.34,
+      "2027": 0.54,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20028",
+    "ap_short": "Vastgoed opgroeien, opvoeden en leren",
+    "ap_long": "OD.Bouwen aan kwalitatieve en toekomstbestendige ruimte voor opgroeien, opvoeden en leren",
+    "ac_code": "PR40910",
+    "ac_short": "Jeugdontmoetingsruimte Dok-Zuid",
+    "ac_long": "PR.Jeugdontmoetingsruimte Dok-Zuid - stopzetting, financiële afhandeling",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 230000.0,
+    "amount_per_capita": 0.83,
+    "yearly_amounts": {
+      "2026": 230000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20009",
+    "bd_short": "SD Wijk en burger",
+    "bd_long": "SD.Wijk en burger",
+    "ap_code": "OD20073",
+    "ap_short": "Uitdagingen wijken",
+    "ap_long": "OD.Geïntegreerd aanpakken van maatschappelijke uitdagingen in de wijken met alle partners",
+    "ac_code": "AC35744",
+    "ac_short": "Wijkbarometer: wijktraject",
+    "ac_long": "AC.Wijkbarometer: wijktraject",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 0.72,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.14,
+      "2028": 0.14,
+      "2029": 0.14,
+      "2030": 0.14,
+      "2031": 0.14
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20086",
+    "ap_short": "Vastgoed",
+    "ap_long": "OD.Bouwen aan kwalitatief en toekomstbestendig vastgoed",
+    "ac_code": "PR40937",
+    "ac_short": "Conventiegevels finale fase restauratie",
+    "ac_long": "PR.Restauratie conventiegevels: finale fase",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 181014.0,
+    "amount_per_capita": 0.65,
+    "yearly_amounts": {
+      "2026": 22338.0,
+      "2027": 140498.0,
+      "2028": 18178.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.08,
+      "2027": 0.5,
+      "2028": 0.07,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20043",
+    "ap_short": "Stedelijk Onderwijs Gent",
+    "ap_long": "OD.Versterken van het Stedelijk Onderwijs Gent",
+    "ac_code": "AC34433",
+    "ac_short": "Inrichten van secundair onderwijs",
+    "ac_long": "AC.Versterken van de schoolteams in het secundair onderwijs",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 0.65,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.11,
+      "2027": 0.11,
+      "2028": 0.11,
+      "2029": 0.11,
+      "2030": 0.11,
+      "2031": 0.11
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "PO20053",
+    "ap_short": "Logistieke huisvesting",
+    "ap_long": "PO.Masterproject Logistieke huisvesting",
+    "ac_code": "PR40894",
+    "ac_short": "Logistieke hub Westerbegraafplaats",
+    "ac_long": "PR.Realiseren van een logistieke hub – Westerbegraafplaats",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 177000.0,
+    "amount_per_capita": 0.64,
+    "yearly_amounts": {
+      "2026": 177000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20011",
+    "bd_short": "SD Economie en werk",
+    "bd_long": "SD.Economie en werk",
+    "ap_code": "OD20041",
+    "ap_short": "Sociale economie",
+    "ap_long": "OD.Versterken van de sociale economie en inclusief werkgeverschap, in partnerschap met lokale werkgevers",
+    "ac_code": "ACD3700",
+    "ac_short": "Ondersteuning",
+    "ac_long": "AC.Realiseren van interne werking en werkervaring in ondersteuning",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 167709.0,
+    "amount_per_capita": 0.6,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 53873.0,
+      "2028": 12029.0,
+      "2029": 21641.0,
+      "2030": 56174.0,
+      "2031": 23992.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.19,
+      "2028": 0.04,
+      "2029": 0.08,
+      "2030": 0.2,
+      "2031": 0.09
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "OD20002",
+    "ap_short": "Vraag en aanbod woningen",
+    "ap_long": "OD.Afstemmen van vraag en aanbod voor diverse woningen met focus op Gentenaars met een laag inkomen, grote gezinnen en de huurmarkt",
+    "ac_code": "PR40964",
+    "ac_short": "Renovatie stadswoningen",
+    "ac_long": "PR.Renovatie resterende stadswoningen",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 166134.0,
+    "amount_per_capita": 0.6,
+    "yearly_amounts": {
+      "2026": 166134.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20011",
+    "bd_short": "SD Economie en werk",
+    "bd_long": "SD.Economie en werk",
+    "ap_code": "OD20004",
+    "ap_short": "Ondernemersklimaat",
+    "ap_long": "OD.Uitbouwen van een aantrekkelijk ondernemersklimaat",
+    "ac_code": "AC35408",
+    "ac_short": "Economie ecosystemen",
+    "ac_long": "AC.Opschalen economie van de toekomst door uitbouw van ecosystemen samen met partners",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 165996.0,
+    "amount_per_capita": 0.6,
+    "yearly_amounts": {
+      "2026": 27666.0,
+      "2027": 27666.0,
+      "2028": 27666.0,
+      "2029": 27666.0,
+      "2030": 27666.0,
+      "2031": 27666.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
+      "2027": 0.1,
+      "2028": 0.1,
+      "2029": 0.1,
+      "2030": 0.1,
+      "2031": 0.1
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20003",
+    "bd_short": "SD Mobiliteit",
+    "bd_long": "SD.Mobiliteit",
+    "ap_code": "OD20107",
+    "ap_short": "Vervoer gebundeld, duurzaam en toegankel",
+    "ap_long": "OD.Bundelen, verduurzamen en toegankelijk maken van het vervoer van mensen en goederen",
+    "ac_code": "AC35647",
+    "ac_short": "Toegankelijke mobiliteitskeuzes",
+    "ac_long": "AC.Wegwerken van drempels zodat elke Gentenaar eigen mobiliteitskeuzes kan maken",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 152160.0,
+    "amount_per_capita": 0.55,
+    "yearly_amounts": {
+      "2026": 25360.0,
+      "2027": 25360.0,
+      "2028": 25360.0,
+      "2029": 25360.0,
+      "2030": 25360.0,
+      "2031": 25360.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.09,
+      "2027": 0.09,
+      "2028": 0.09,
+      "2029": 0.09,
+      "2030": 0.09,
+      "2031": 0.09
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20030",
+    "ap_short": "Vastgoed cultuur",
+    "ap_long": "OD.Bouwen aan een kwalitatief en toekomstbestendig vastgoed voor cultuur",
+    "ac_code": "PR41004",
+    "ac_short": "CINREX",
+    "ac_long": "PR.CINREX - Cinema Rex",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 149072.0,
+    "amount_per_capita": 0.54,
+    "yearly_amounts": {
+      "2026": 125072.0,
+      "2027": 8000.0,
+      "2028": 8000.0,
+      "2029": 8000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.45,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "OD20002",
+    "ap_short": "Vraag en aanbod woningen",
+    "ap_long": "OD.Afstemmen van vraag en aanbod voor diverse woningen met focus op Gentenaars met een laag inkomen, grote gezinnen en de huurmarkt",
+    "ac_code": "PR40886",
+    "ac_short": "Piloot woonmodel SVK-woningen",
+    "ac_long": "PR.Piloot woonmodel: realiseren van svk-woningen via erfpacht of opstal via Stad Gent",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 148419.0,
+    "amount_per_capita": 0.53,
+    "yearly_amounts": {
+      "2026": 101065.0,
+      "2027": 20065.0,
+      "2028": 27289.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.36,
+      "2027": 0.07,
+      "2028": 0.1,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20027",
+    "ap_short": "Meerwaarde vastgoed",
+    "ap_long": "OD.Maximaal maatschappelijk bestemmen en gebruiken van vastgoed",
+    "ac_code": "PR40617",
+    "ac_short": "DC Gentbrugge",
+    "ac_long": "PR.Herontwikkeling site dienstencentrum Gentbrugge",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 142879.0,
+    "amount_per_capita": 0.51,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 142879.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.51,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20024",
+    "ap_short": "Vernieuwen wegen bruggen en waterlopen",
+    "ap_long": "OD.Vernieuwen van wegen, bruggen en waterlopen",
+    "ac_code": "PR40612",
+    "ac_short": "Koophandelsplein cluster",
+    "ac_long": "PR.Heraanleg Petercelle-as (Koophandelsplein en omgeving)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 140944.0,
+    "amount_per_capita": 0.51,
+    "yearly_amounts": {
+      "2026": 24486.0,
+      "2027": 35359.0,
+      "2028": 52718.0,
+      "2029": 28381.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.09,
+      "2027": 0.13,
+      "2028": 0.19,
+      "2029": 0.1,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20009",
+    "bd_short": "SD Wijk en burger",
+    "bd_long": "SD.Wijk en burger",
+    "ap_code": "OD20072",
+    "ap_short": "participatie",
+    "ap_long": "OD.Verstevigen van de lokale stadsbrede participatieve praktijk voor alle Gentenaars",
+    "ac_code": "AC35444",
+    "ac_short": "burgerbegroting op maat van de wijk",
+    "ac_long": "AC.Burgerbegroting op maat van de wijk",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 140000.0,
+    "amount_per_capita": 0.5,
+    "yearly_amounts": {
+      "2026": 140000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20024",
+    "ap_short": "Vernieuwen wegen bruggen en waterlopen",
+    "ap_long": "OD.Vernieuwen van wegen, bruggen en waterlopen",
+    "ac_code": "PR40856",
+    "ac_short": "Realisatie Theresianenbrug",
+    "ac_long": "PR.Realisatie nieuwe Theresianenbrug",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 132208.0,
+    "amount_per_capita": 0.48,
+    "yearly_amounts": {
+      "2026": 34988.0,
+      "2027": 56110.0,
+      "2028": 31110.0,
+      "2029": 10000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.13,
+      "2027": 0.2,
+      "2028": 0.11,
+      "2029": 0.04,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20012",
+    "bd_short": "SD Veiligheid",
+    "bd_long": "SD.Veiligheid, preventie en netheid",
+    "ap_code": "OD20019",
+    "ap_short": "Netheid",
+    "ap_long": "OD.Verhogen van de netheid van de stad",
+    "ac_code": "AC34219",
+    "ac_short": "visuele netheid openbaar terrein",
+    "ac_long": "AC.Zorgen voor visuele netheid op het openbaar terrein.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 130000.0,
+    "amount_per_capita": 0.47,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 65000.0,
+      "2028": 65000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.23,
+      "2028": 0.23,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20080",
+    "ap_short": "Continu verbeteren",
+    "ap_long": "OD.Versterken van het continu verbeteren van de organisatie",
+    "ac_code": "AC94034",
+    "ac_short": "Interne werking",
+    "ac_long": "AC.Ontwikkelen organisatiestructuur sogent",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 125344.0,
+    "amount_per_capita": 0.45,
+    "yearly_amounts": {
+      "2026": 49254.0,
+      "2027": 22584.0,
+      "2028": 12956.0,
+      "2029": 15668.0,
+      "2030": 12519.0,
+      "2031": 12363.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.18,
+      "2027": 0.08,
+      "2028": 0.05,
+      "2029": 0.06,
+      "2030": 0.04,
+      "2031": 0.04
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20063",
+    "ap_short": "Cultuur",
+    "ap_long": "OD.Gentenaars en bezoekers verwonderen en verbinden met cultuur in partnerschap met een optimaal ondersteunde cultuur-, kunst- en erfgoedsector",
+    "ac_code": "AC34109",
+    "ac_short": "Kunst in Publieke Ruimte",
+    "ac_long": "AC.Fonds Kunst in Publieke Ruimte (uitbetaling saldi 2025)",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 123000.0,
+    "amount_per_capita": 0.44,
+    "yearly_amounts": {
+      "2026": 123000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "PO20036",
+    "ap_short": "Citadelpark +",
+    "ap_long": "PO.Masterproject Citadelpark+.",
+    "ac_code": "PR40391",
+    "ac_short": "Studie pilootproject Citadelpark+: Circu",
+    "ac_long": "PR.Pilootproject Citadelpark+: Circuit-walk fase 1",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 121684.0,
+    "amount_per_capita": 0.44,
+    "yearly_amounts": {
+      "2026": 36754.0,
+      "2027": 24956.0,
+      "2028": 29987.0,
+      "2029": 29987.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.13,
+      "2027": 0.09,
+      "2028": 0.11,
+      "2029": 0.11,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20043",
+    "ap_short": "Stedelijk Onderwijs Gent",
+    "ap_long": "OD.Versterken van het Stedelijk Onderwijs Gent",
+    "ac_code": "AC34989",
+    "ac_short": "Interne werking Stedelijk Onderwijs",
+    "ac_long": "AC.Organiseren interne werking Stedelijk Onderwijs Gent",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 0.43,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.07,
+      "2027": 0.07,
+      "2028": 0.07,
+      "2029": 0.07,
+      "2030": 0.07,
+      "2031": 0.07
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20012",
+    "bd_short": "SD Veiligheid",
+    "bd_long": "SD.Veiligheid, preventie en netheid",
+    "ap_code": "OD20070",
+    "ap_short": "Veiligheidszorg",
+    "ap_long": "OD.Opvolgen van de veiligheids- en hulpverleningsdiensten",
+    "ac_code": "AC34778",
+    "ac_short": "Politie",
+    "ac_long": "AC.Financiële stromen naar en van Politiezone Gent",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 116850.0,
+    "amount_per_capita": 0.42,
+    "yearly_amounts": {
+      "2026": 19475.0,
+      "2027": 19475.0,
+      "2028": 19475.0,
+      "2029": 19475.0,
+      "2030": 19475.0,
+      "2031": 19475.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.07,
+      "2027": 0.07,
+      "2028": 0.07,
+      "2029": 0.07,
+      "2030": 0.07,
+      "2031": 0.07
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20013",
+    "ap_short": "Openbaar groen",
+    "ap_long": "OD.Beheren, onderhouden en vernieuwen van openbaar groen",
+    "ac_code": "PR40869",
+    "ac_short": "Park Wasstraat",
+    "ac_long": "PR.Herinrichting park Wasstraat",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 106760.0,
+    "amount_per_capita": 0.38,
+    "yearly_amounts": {
+      "2026": 106760.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.38,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "PR40263",
+    "ac_short": "IP Rieme-Oost",
+    "ac_long": "PR.Opstellen inrichtingsplan Rieme-Oost",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 105139.0,
+    "amount_per_capita": 0.38,
+    "yearly_amounts": {
+      "2026": 82609.0,
+      "2027": 22530.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.3,
+      "2027": 0.08,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20030",
+    "ap_short": "Vastgoed cultuur",
+    "ap_long": "OD.Bouwen aan een kwalitatief en toekomstbestendig vastgoed voor cultuur",
+    "ac_code": "PR40547",
+    "ac_short": "DMG - ontwerp en bouw Designcenter",
+    "ac_long": "PR.Design museum Gent – ontwerp en bouw Designcenter / vleugel Drabstraat",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 99698.0,
+    "amount_per_capita": 0.36,
+    "yearly_amounts": {
+      "2026": 99698.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20009",
+    "bd_short": "SD Wijk en burger",
+    "bd_long": "SD.Wijk en burger",
+    "ap_code": "PO20012",
+    "ap_short": "Nieuw Gent Vernieuwt",
+    "ap_long": "PO.Programma Nieuw Gent Vernieuwt",
+    "ac_code": "PR40478",
+    "ac_short": "Nieuw Gent: Onderzoek en communicatie",
+    "ac_long": "PR.Nieuw Gent: Onderzoek doen naar en communiceren over Nieuw Gent Vernieuwt",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 96230.0,
+    "amount_per_capita": 0.35,
+    "yearly_amounts": {
+      "2026": 38014.0,
+      "2027": 0,
+      "2028": 25727.0,
+      "2029": 31883.0,
+      "2030": 606.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.14,
+      "2027": 0,
+      "2028": 0.09,
+      "2029": 0.11,
+      "2030": 0.0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "PO20051",
+    "ap_short": "Sociale Huisvestingsprojecten",
+    "ap_long": "PO.Masterproject Openbaar Domein Sociale Huisvestingsprojecten.",
+    "ac_code": "PR40877",
+    "ac_short": "Tuinwijk Sint-Bernadette",
+    "ac_long": "PR.Samen bouwen aan de nieuwe tuinwijk Sint-Bernadette",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 87728.0,
+    "amount_per_capita": 0.32,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 87728.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.32,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "PR40219",
+    "ac_short": "Stedelijke groenprojecten Parkbos",
+    "ac_long": "PR.Realiseren stedelijke groenprojecten groenpool Parkbos",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 83765.0,
+    "amount_per_capita": 0.3,
+    "yearly_amounts": {
+      "2026": 83765.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.3,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "OD20003",
+    "ap_short": "Dienstverlening wonen",
+    "ap_long": "OD.Helpen van Gentenaars met het verhogen van woonstbehoud, woonzekerheid en woningkwaliteit en bevorderen van betaalbaarheid",
+    "ac_code": "AC35035",
+    "ac_short": "Woningmaatschappijen",
+    "ac_long": "AC.Financiële stromen naar en van de woningmaatschappij",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 80028.0,
+    "amount_per_capita": 0.29,
+    "yearly_amounts": {
+      "2026": 22954.0,
+      "2027": 22954.0,
+      "2028": 8530.0,
+      "2029": 8530.0,
+      "2030": 8530.0,
+      "2031": 8530.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.08,
+      "2027": 0.08,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20011",
+    "bd_short": "SD Economie en werk",
+    "bd_long": "SD.Economie en werk",
+    "ap_code": "OD20006",
+    "ap_short": "Belevingsstad",
+    "ap_long": "OD.Stimuleren en uitbouwen van Gent als aantrekkelijke bestemming en belevingsstad",
+    "ac_code": "AC35411",
+    "ac_short": "handel, horeca- en toerismebeleid",
+    "ac_long": "AC.Uitwerken van een gedragen en toekomstgericht handel- en horecabeleid",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 0.29,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.29,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20086",
+    "ap_short": "Vastgoed",
+    "ap_long": "OD.Bouwen aan kwalitatief en toekomstbestendig vastgoed",
+    "ac_code": "AC35207",
+    "ac_short": "Onderhoud MOK/niet-MOK FM Welzijn",
+    "ac_long": "AC.Uitvoeren van onderhoud gebouwen en operationeel beheer gebouwen Dienst FM Welzijn",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 75522.0,
+    "amount_per_capita": 0.27,
+    "yearly_amounts": {
+      "2026": 75522.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20030",
+    "ap_short": "Vastgoed cultuur",
+    "ap_long": "OD.Bouwen aan een kwalitatief en toekomstbestendig vastgoed voor cultuur",
+    "ac_code": "PR40875",
+    "ac_short": "Renovatie Materniteit",
+    "ac_long": "PR.Renovatie en uitbouw Materniteit (Bijlokekaai)",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 74485.0,
+    "amount_per_capita": 0.27,
+    "yearly_amounts": {
+      "2026": 74485.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "PR40224",
+    "ac_short": "Omgeving Vinderhoutse Bossen",
+    "ac_long": "PR.Aanleggen omgeving Vinderhoutse Bossen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 70608.0,
+    "amount_per_capita": 0.25,
+    "yearly_amounts": {
+      "2026": 70608.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20030",
+    "ap_short": "Vastgoed cultuur",
+    "ap_long": "OD.Bouwen aan een kwalitatief en toekomstbestendig vastgoed voor cultuur",
+    "ac_code": "PR40568",
+    "ac_short": "Time Castle Gravensteen Hefboomproject",
+    "ac_long": "PR.Time Castle - hefboomproject 2015 voor Gravensteen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 65727.0,
+    "amount_per_capita": 0.24,
+    "yearly_amounts": {
+      "2026": 65163.0,
+      "2027": 564.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.23,
+      "2027": 0.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20063",
+    "ap_short": "Cultuur",
+    "ap_long": "OD.Gentenaars en bezoekers verwonderen en verbinden met cultuur in partnerschap met een optimaal ondersteunde cultuur-, kunst- en erfgoedsector",
+    "ac_code": "AC34119",
+    "ac_short": "Ondersteunen Muziekcentrum De Bijloke",
+    "ac_long": "AC.EVA Muziekcentrum De Bijloke Gent",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 64632.0,
+    "amount_per_capita": 0.23,
+    "yearly_amounts": {
+      "2026": 10772.0,
+      "2027": 10772.0,
+      "2028": 10772.0,
+      "2029": 10772.0,
+      "2030": 10772.0,
+      "2031": 10772.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.04,
+      "2027": 0.04,
+      "2028": 0.04,
+      "2029": 0.04,
+      "2030": 0.04,
+      "2031": 0.04
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20013",
+    "bd_short": "SD Dienstverlening",
+    "bd_long": "SD.Dienstverlening",
+    "ap_code": "OD20077",
+    "ap_short": "Burgerzaken",
+    "ap_long": "OD.Verzekeren van een kwalitatieve en proactieve dienstverlening van burgerzaken",
+    "ac_code": "AC35010",
+    "ac_short": "Burgerzaken interne werking",
+    "ac_long": "AC.Organiseren overkoepelende expertise en ondersteuning Burgerzaken",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 0.22,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.22,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20023",
+    "ap_short": "Kwaliteit (on)bebouwde, publieke ruimte",
+    "ap_long": "OD.Werken aan ruimtelijke en erfgoedkwaliteit in de (on)bebouwde en publieke ruimte",
+    "ac_code": "AC34775",
+    "ac_short": "sogent - gebiedsontwikkeling",
+    "ac_long": "AC.Financiële stromen naar en van sogent - gebiedsontwikkeling",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 57756.0,
+    "amount_per_capita": 0.21,
+    "yearly_amounts": {
+      "2026": 9626.0,
+      "2027": 9626.0,
+      "2028": 9626.0,
+      "2029": 9626.0,
+      "2030": 9626.0,
+      "2031": 9626.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20024",
+    "ap_short": "Vernieuwen wegen bruggen en waterlopen",
+    "ap_long": "OD.Vernieuwen van wegen, bruggen en waterlopen",
+    "ac_code": "PR40851",
+    "ac_short": "Fietsbrug Eiland Zwijnaarde Merelbeke",
+    "ac_long": "PR.Realiseren fietsbrug tussen Eiland Zwijnaarde en Merelbeke",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 57000.0,
+    "amount_per_capita": 0.2,
+    "yearly_amounts": {
+      "2026": 57000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.2,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "PO20053",
+    "ap_short": "Logistieke huisvesting",
+    "ap_long": "PO.Masterproject Logistieke huisvesting",
+    "ac_code": "PR40871",
+    "ac_short": "Logistieke site Lourdeshoek",
+    "ac_long": "PR.Logistieke site Lourdeshoek",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 56023.0,
+    "amount_per_capita": 0.2,
+    "yearly_amounts": {
+      "2026": 20008.0,
+      "2027": 36015.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.07,
+      "2027": 0.13,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "OD20082",
+    "ap_short": "HR-beleid",
+    "ap_long": "OD.Verankeren van een toekomstgericht HR-beleid en performante HR-dienstverlening",
+    "ac_code": "AC34606",
+    "ac_short": "Organiseren van sociale dienstverlening",
+    "ac_long": "AC.Organiseren van sociale dienstverlening voor de actieve en gepensioneerde leden",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50808.0,
+    "amount_per_capita": 0.18,
+    "yearly_amounts": {
+      "2026": 8468.0,
+      "2027": 8468.0,
+      "2028": 8468.0,
+      "2029": 8468.0,
+      "2030": 8468.0,
+      "2031": 8468.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "PR40155",
+    "ac_short": "Wijkpark Handelsdok-Oost (omgeving beton",
+    "ac_long": "PR.Aanleggen wijkpark Handelsdok-Oost (omgeving betoncentrale)  - stopzetting, financiële afhandeling",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 45012.0,
+    "amount_per_capita": 0.16,
+    "yearly_amounts": {
+      "2026": 3025.0,
+      "2027": 39567.0,
+      "2028": 2420.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.01,
+      "2027": 0.14,
+      "2028": 0.01,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20009",
+    "bd_short": "SD Wijk en burger",
+    "bd_long": "SD.Wijk en burger",
+    "ap_code": "PO20026",
+    "ap_short": "Brugse Poort 2.0",
+    "ap_long": "PO.Programma Brugse Poort 2.0",
+    "ac_code": "PR40271",
+    "ac_short": "Zuurstof voor de Brugse Poort - Meibloem",
+    "ac_long": "PR.Verwerving en tijdelijke inrichting binnengebied Meibloemsite",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 36000.0,
+    "amount_per_capita": 0.13,
+    "yearly_amounts": {
+      "2026": 36000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.13,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20009",
+    "bd_short": "SD Wijk en burger",
+    "bd_long": "SD.Wijk en burger",
+    "ap_code": "PO20026",
+    "ap_short": "Brugse Poort 2.0",
+    "ap_long": "PO.Programma Brugse Poort 2.0",
+    "ac_code": "PR40853",
+    "ac_short": "Malem: ontmoeting en jeugd",
+    "ac_long": "PR.Malem: Bouwen van een nieuwe plek voor ontmoeting en jeugd",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 33219.0,
+    "amount_per_capita": 0.12,
+    "yearly_amounts": {
+      "2026": 33219.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20030",
+    "ap_short": "Vastgoed cultuur",
+    "ap_long": "OD.Bouwen aan een kwalitatief en toekomstbestendig vastgoed voor cultuur",
+    "ac_code": "PR40098",
+    "ac_short": "Sint-Niklaaskerk restauratie",
+    "ac_long": "PR.Sint-Niklaaskerk: Coördinatie restauratie",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 27351.0,
+    "amount_per_capita": 0.1,
+    "yearly_amounts": {
+      "2026": 27351.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "PO20013",
+    "ap_short": "Gent Sint-Pieters",
+    "ap_long": "PO.Gebiedsontwikkeling stationsomgeving Gent Sint-Pieters.",
+    "ac_code": "PR40122",
+    "ac_short": "Gent St-Pieters - project algemeen",
+    "ac_long": "PR.Coördinatie POD project Gent Sint-Pieters",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 25313.0,
+    "amount_per_capita": 0.09,
+    "yearly_amounts": {
+      "2026": 20250.0,
+      "2027": 5063.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.07,
+      "2027": 0.02,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20010",
+    "bd_short": "SD Sport, cultuur en vrije tijd",
+    "bd_long": "SD.Cultuur, sport en vrije tijd",
+    "ap_code": "OD20030",
+    "ap_short": "Vastgoed cultuur",
+    "ap_long": "OD.Bouwen aan een kwalitatief en toekomstbestendig vastgoed voor cultuur",
+    "ac_code": "PR40843",
+    "ac_short": "Gevel Industriemuseum",
+    "ac_long": "PR.Gevelwerken Industriemuseum: Herstellen van de gevels",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 24098.0,
+    "amount_per_capita": 0.09,
+    "yearly_amounts": {
+      "2026": 24098.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20024",
+    "ap_short": "Vernieuwen wegen bruggen en waterlopen",
+    "ap_long": "OD.Vernieuwen van wegen, bruggen en waterlopen",
+    "ac_code": "PR40987",
+    "ac_short": "Conceptstudie herintroductie Lievegang",
+    "ac_long": "PR.Conceptstudie voor de herintroductie van de historische Lievegang in Kolveniersgang en Blaisantvest",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.07,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.07,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20002",
+    "bd_short": "SD Ruimte",
+    "bd_long": "SD.Ruimte",
+    "ap_code": "OD20024",
+    "ap_short": "Vernieuwen wegen bruggen en waterlopen",
+    "ap_long": "OD.Vernieuwen van wegen, bruggen en waterlopen",
+    "ac_code": "PR40507",
+    "ac_short": "Brug Watersportbaan",
+    "ac_long": "PR.Realisatie brug Watersportbaan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 16668.0,
+    "amount_per_capita": 0.06,
+    "yearly_amounts": {
+      "2026": 16668.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20007",
+    "bd_short": "SD Leren en groeien",
+    "bd_long": "SD.Leren en groeien",
+    "ap_code": "OD20028",
+    "ap_short": "Vastgoed opgroeien, opvoeden en leren",
+    "ap_long": "OD.Bouwen aan kwalitatieve en toekomstbestendige ruimte voor opgroeien, opvoeden en leren",
+    "ac_code": "PR40626",
+    "ac_short": "Realiseren DBFM Steenakker",
+    "ac_long": "PR.Realiseren DBFM Steenakker - Nieuwbouw voor Stedelijk Internaat & Basisschool voor Buitengewoon Onderwijs",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 14617.0,
+    "amount_per_capita": 0.05,
+    "yearly_amounts": {
+      "2026": 14617.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "PO20051",
+    "ap_short": "Sociale Huisvestingsprojecten",
+    "ap_long": "PO.Masterproject Openbaar Domein Sociale Huisvestingsprojecten.",
+    "ac_code": "PR40784",
+    "ac_short": "Witte Kaproenenplein openbaar domein",
+    "ac_long": "PR.Omgeving sociaal huisvestingsproject Witte Kaproenenplein - aanleg openbaar domein",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 13384.0,
+    "amount_per_capita": 0.05,
+    "yearly_amounts": {
+      "2026": 13384.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "PO20051",
+    "ap_short": "Sociale Huisvestingsprojecten",
+    "ap_long": "PO.Masterproject Openbaar Domein Sociale Huisvestingsprojecten.",
+    "ac_code": "PR40970",
+    "ac_short": "Omgeving Vogelhoekwijk soc woonproject",
+    "ac_long": "PR.Omgeving sociaal woonproject Vogelhoekwijk - aanleg openbaar domein",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 11700.0,
+    "amount_per_capita": 0.04,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 6500.0,
+      "2028": 1300.0,
+      "2029": 1300.0,
+      "2030": 1300.0,
+      "2031": 1300.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.02,
+      "2028": 0.0,
+      "2029": 0.0,
+      "2030": 0.0,
+      "2031": 0.0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "PO20053",
+    "ap_short": "Logistieke huisvesting",
+    "ap_long": "PO.Masterproject Logistieke huisvesting",
+    "ac_code": "PR40897",
+    "ac_short": "Stadsdepot Proeftuinstraat",
+    "ac_long": "PR.Realiseren van een stadsdepot – Proeftuinstraat",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 11018.0,
+    "amount_per_capita": 0.04,
+    "yearly_amounts": {
+      "2026": 11018.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.04,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20014",
+    "bd_short": "SD Organisatie",
+    "bd_long": "SD.Organisatie",
+    "ap_code": "PO20053",
+    "ap_short": "Logistieke huisvesting",
+    "ap_long": "PO.Masterproject Logistieke huisvesting",
+    "ac_code": "PR40898",
+    "ac_short": "Logistieke hub NMBC/Oefenpleinstraat",
+    "ac_long": "PR.Realiseren van een stadsdepot - Farmanstraat",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 9087.0,
+    "amount_per_capita": 0.03,
+    "yearly_amounts": {
+      "2026": 9087.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "PO20051",
+    "ap_short": "Sociale Huisvestingsprojecten",
+    "ap_long": "PO.Masterproject Openbaar Domein Sociale Huisvestingsprojecten.",
+    "ac_code": "PR40968",
+    "ac_short": "Omgeving Groeningestraat soc woonproject",
+    "ac_long": "PR.Omgeving sociaal woonproject Groeningestraat - aanleg openbaar domein",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 9000.0,
+    "amount_per_capita": 0.03,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 5000.0,
+      "2028": 1000.0,
+      "2029": 1000.0,
+      "2030": 2000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.02,
+      "2028": 0.0,
+      "2029": 0.0,
+      "2030": 0.01,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "PR40223",
+    "ac_short": "Portaal De Campagne",
+    "ac_long": "PR.Inrichten Portaal De Campagne -  stopzetting, financiële afhandeling",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 6133.0,
+    "amount_per_capita": 0.02,
+    "yearly_amounts": {
+      "2026": 6133.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20009",
+    "bd_short": "SD Wijk en burger",
+    "bd_long": "SD.Wijk en burger",
+    "ap_code": "OD20073",
+    "ap_short": "Uitdagingen wijken",
+    "ap_long": "OD.Geïntegreerd aanpakken van maatschappelijke uitdagingen in de wijken met alle partners",
+    "ac_code": "PR40770",
+    "ac_short": "Buurthuis Watersportbaan",
+    "ac_long": "PR.Bouwen van een buurthuis Watersportbaan",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 4073.0,
+    "amount_per_capita": 0.01,
+    "yearly_amounts": {
+      "2026": 4073.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.01,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20008",
+    "bd_short": "SD Toegankelijkheid en diversiteit",
+    "bd_long": "SD.Inclusie",
+    "ap_code": "OD20056",
+    "ap_short": "Gelijke kansen",
+    "ap_long": "OD.Bevorderen van gelijke kansen voor elke Gentenaar en Gent-gebruiker",
+    "ac_code": "PR40918",
+    "ac_short": "Duurzame klasunit doortrekkersterrein",
+    "ac_long": "PR.Ontwikkeling van een duurzame klasunit op het doortrekkersterrein",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3694.0,
+    "amount_per_capita": 0.01,
+    "yearly_amounts": {
+      "2026": 3694.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.01,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20001",
+    "bd_short": "SD Wonen",
+    "bd_long": "SD.Wonen",
+    "ap_code": "PO20051",
+    "ap_short": "Sociale Huisvestingsprojecten",
+    "ap_long": "PO.Masterproject Openbaar Domein Sociale Huisvestingsprojecten.",
+    "ac_code": "PR40788",
+    "ac_short": "New Orleansstraat SAW openbaar domein",
+    "ac_long": "PR.Omgeving sociaal huisvestingsproject New Orleansstraat (SAW) - aanleg openbaar domein",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.01,
+    "yearly_amounts": {
+      "2026": 1250.0,
+      "2027": 1250.0,
+      "2028": 500.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.0,
+      "2027": 0.0,
+      "2028": 0.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "PR40204",
+    "ac_short": "Bloemekenspark 3de fase",
+    "ac_long": "PR.Aanleggen Bloemekenspark 3de fase",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 2365.0,
+    "amount_per_capita": 0.01,
+    "yearly_amounts": {
+      "2026": 2365.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.01,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gent",
+    "nis_code": "44021",
+    "bd_code": "SD20004",
+    "bd_short": "SD Klimaat en natuur",
+    "bd_long": "SD.Klimaat en natuur",
+    "ap_code": "OD20012",
+    "ap_short": "Groenstructuur",
+    "ap_long": "OD.Realiseren van een groene en biodiverse stad",
+    "ac_code": "PR40262",
+    "ac_short": "IP Langerbrugge-zuid",
+    "ac_long": "PR.Opstellen Inrichtingsplan Langerbrugge-zuid",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1171.0,
+    "amount_per_capita": 0.0,
+    "yearly_amounts": {
+      "2026": 1171.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  }
+]

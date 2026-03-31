@@ -1,0 +1,962 @@
+[
+  {
+    "year": 2017,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 34987
+  },
+  {
+    "year": 2017,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1400
+  },
+  {
+    "year": 2017,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 34911
+  },
+  {
+    "year": 2017,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 15744
+  },
+  {
+    "year": 2017,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1336
+  },
+  {
+    "year": 2017,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 14291
+  },
+  {
+    "year": 2017,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 28908
+  },
+  {
+    "year": 2017,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1730
+  },
+  {
+    "year": 2017,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 34487
+  },
+  {
+    "year": 2017,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 18287
+  },
+  {
+    "year": 2017,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 685
+  },
+  {
+    "year": 2017,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 28365
+  },
+  {
+    "year": 2017,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 21786
+  },
+  {
+    "year": 2017,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1743
+  },
+  {
+    "year": 2017,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 19836
+  },
+  {
+    "year": 2018,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 35571
+  },
+  {
+    "year": 2018,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1341
+  },
+  {
+    "year": 2018,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 35548
+  },
+  {
+    "year": 2018,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 15519
+  },
+  {
+    "year": 2018,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1150
+  },
+  {
+    "year": 2018,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 14666
+  },
+  {
+    "year": 2018,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 29303
+  },
+  {
+    "year": 2018,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1674
+  },
+  {
+    "year": 2018,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 34711
+  },
+  {
+    "year": 2018,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 18515
+  },
+  {
+    "year": 2018,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 666
+  },
+  {
+    "year": 2018,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 29060
+  },
+  {
+    "year": 2018,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 21917
+  },
+  {
+    "year": 2018,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1727
+  },
+  {
+    "year": 2018,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 19829
+  },
+  {
+    "year": 2019,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 35365
+  },
+  {
+    "year": 2019,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1380
+  },
+  {
+    "year": 2019,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 36126
+  },
+  {
+    "year": 2019,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 15259
+  },
+  {
+    "year": 2019,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 971
+  },
+  {
+    "year": 2019,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 14587
+  },
+  {
+    "year": 2019,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 29180
+  },
+  {
+    "year": 2019,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1745
+  },
+  {
+    "year": 2019,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 36081
+  },
+  {
+    "year": 2019,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 18026
+  },
+  {
+    "year": 2019,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 660
+  },
+  {
+    "year": 2019,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 29693
+  },
+  {
+    "year": 2019,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 21263
+  },
+  {
+    "year": 2019,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1679
+  },
+  {
+    "year": 2019,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 19925
+  },
+  {
+    "year": 2020,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 40543
+  },
+  {
+    "year": 2020,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1351
+  },
+  {
+    "year": 2020,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 36943
+  },
+  {
+    "year": 2020,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 17937
+  },
+  {
+    "year": 2020,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 934
+  },
+  {
+    "year": 2020,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 14722
+  },
+  {
+    "year": 2020,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 33006
+  },
+  {
+    "year": 2020,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1778
+  },
+  {
+    "year": 2020,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 37280
+  },
+  {
+    "year": 2020,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 19954
+  },
+  {
+    "year": 2020,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 670
+  },
+  {
+    "year": 2020,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 31115
+  },
+  {
+    "year": 2020,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 24382
+  },
+  {
+    "year": 2020,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1545
+  },
+  {
+    "year": 2020,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 20125
+  },
+  {
+    "year": 2021,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 42016
+  },
+  {
+    "year": 2021,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1730
+  },
+  {
+    "year": 2021,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 38255
+  },
+  {
+    "year": 2021,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 18777
+  },
+  {
+    "year": 2021,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1023
+  },
+  {
+    "year": 2021,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 15136
+  },
+  {
+    "year": 2021,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 34298
+  },
+  {
+    "year": 2021,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1855
+  },
+  {
+    "year": 2021,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 38769
+  },
+  {
+    "year": 2021,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 21131
+  },
+  {
+    "year": 2021,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 725
+  },
+  {
+    "year": 2021,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 32576
+  },
+  {
+    "year": 2021,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 25180
+  },
+  {
+    "year": 2021,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1601
+  },
+  {
+    "year": 2021,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 20474
+  },
+  {
+    "year": 2022,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 42014
+  },
+  {
+    "year": 2022,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1506
+  },
+  {
+    "year": 2022,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 39131
+  },
+  {
+    "year": 2022,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 18604
+  },
+  {
+    "year": 2022,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 975
+  },
+  {
+    "year": 2022,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 15554
+  },
+  {
+    "year": 2022,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 34410
+  },
+  {
+    "year": 2022,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1720
+  },
+  {
+    "year": 2022,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 39481
+  },
+  {
+    "year": 2022,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 21087
+  },
+  {
+    "year": 2022,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 712
+  },
+  {
+    "year": 2022,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 33511
+  },
+  {
+    "year": 2022,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 25314
+  },
+  {
+    "year": 2022,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1469
+  },
+  {
+    "year": 2022,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 20644
+  },
+  {
+    "year": 2023,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 42554
+  },
+  {
+    "year": 2023,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1433
+  },
+  {
+    "year": 2023,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 39235
+  },
+  {
+    "year": 2023,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 18182
+  },
+  {
+    "year": 2023,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 924
+  },
+  {
+    "year": 2023,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 15524
+  },
+  {
+    "year": 2023,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 34663
+  },
+  {
+    "year": 2023,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1672
+  },
+  {
+    "year": 2023,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 40467
+  },
+  {
+    "year": 2023,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 21205
+  },
+  {
+    "year": 2023,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 676
+  },
+  {
+    "year": 2023,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 34030
+  },
+  {
+    "year": 2023,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 25395
+  },
+  {
+    "year": 2023,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1408
+  },
+  {
+    "year": 2023,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 20639
+  },
+  {
+    "year": 2024,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 43809
+  },
+  {
+    "year": 2024,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1346
+  },
+  {
+    "year": 2024,
+    "province_code": "10000",
+    "province_name": "Antwerpen (Prov.)",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 39182
+  },
+  {
+    "year": 2024,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 18679
+  },
+  {
+    "year": 2024,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 836
+  },
+  {
+    "year": 2024,
+    "province_code": "70000",
+    "province_name": "Limburg",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 15617
+  },
+  {
+    "year": 2024,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 36128
+  },
+  {
+    "year": 2024,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1456
+  },
+  {
+    "year": 2024,
+    "province_code": "40000",
+    "province_name": "Oost-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 40347
+  },
+  {
+    "year": 2024,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 22038
+  },
+  {
+    "year": 2024,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 633
+  },
+  {
+    "year": 2024,
+    "province_code": "20001",
+    "province_name": "Vlaams-Brabant",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 34316
+  },
+  {
+    "year": 2024,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_411",
+    "type_onderwijsinstelling_name": "hogeschool",
+    "value": 26556
+  },
+  {
+    "year": 2024,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_311",
+    "type_onderwijsinstelling_name": "secundair onderwijs",
+    "value": 1296
+  },
+  {
+    "year": 2024,
+    "province_code": "30000",
+    "province_name": "West-Vlaanderen",
+    "type_onderwijsinstelling_code": "v2311_hoofdstructuur_511",
+    "type_onderwijsinstelling_name": "universiteit",
+    "value": 20193
+  }
+]

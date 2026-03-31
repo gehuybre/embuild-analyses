@@ -1,0 +1,194 @@
+name: Update vergunningen-goedkeuringen data
+
+concurrency:
+  group: update-vergunningen-goedkeuringen-data
+  cancel-in-progress: true
+
+on:
+  schedule:
+    # Official Statbel 2026 release dates for "Bouwvergunningen".
+    # Statbel publishes dates but no hour, so we check hourly on each release day.
+    - cron: '0 * 31 3 *'
+    - cron: '0 * 30 4 *'
+    - cron: '0 * 29 5 *'
+    - cron: '0 * 30 6 *'
+    - cron: '0 * 31 7 *'
+    - cron: '0 * 8 9 *'
+    - cron: '0 * 30 9 *'
+    - cron: '0 * 30 10 *'
+    - cron: '0 * 30 11 *'
+  workflow_dispatch: {}
+
+env:
+  DATA_REPOSITORY: gehuybre/data-backup-2026-03-31
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    env:
+      ANALYSIS_SLUG: vergunningen-goedkeuringen
+      ANALYSIS_ROOT: embuild-analyses/analyses/vergunningen-goedkeuringen
+      INPUT_URL: https://statbel.fgov.be/sites/default/files/files/opendata/Building%20permits/TF_BUILDING_PERMITS.zip
+      META_FILE: embuild-analyses/analyses/vergunningen-goedkeuringen/data/.remote_metadata.json
+      PUBLICATION_PAGE_URL: https://statbel.fgov.be/nl/themas/bouwen-wonen/bouwvergunningen
+    steps:
+      - name: Checkout analyses repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          lfs: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests
+
+      - name: Check remote metadata and local outputs
+        # Generated results are not tracked in the analyses repo, so manual runs should force processing.
+        id: check_remote
+        run: |
+          set -euo pipefail
+
+          if [ "${GITHUB_EVENT_NAME}" = "workflow_dispatch" ]; then
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
+            echo "Manual dispatch forces a fresh download and publish."
+            exit 0
+          fi
+
+          mkdir -p "$(dirname "${META_FILE}")"
+          headers="$(curl -sI "${INPUT_URL}" || true)"
+          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk -F': ' '/^ETag:/ {print $2}' | tr -d '\r"')"
+          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk -F': ' '/^Last-Modified:/ {print substr($0,index($0,$2)) }' | tr -d '\r')"
+
+          set +e
+          python scripts/check_remote_metadata.py
+          rc=$?
+          set -e
+
+          if [ "${rc}" -eq 2 ]; then
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+            echo "No remote change detected; skipping."
+            exit 0
+          fi
+
+          if [ "${rc}" -ne 0 ] && [ "${rc}" -ne 2 ]; then
+            exit "${rc}"
+          fi
+
+          echo "changed=true" >> "${GITHUB_OUTPUT}"
+
+      - name: Download and process data
+        if: steps.check_remote.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          python "${ANALYSIS_ROOT}/src/process_data.py"
+
+      - name: Verify generated outputs
+        if: steps.check_remote.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+
+          required_files=(
+            "${ANALYSIS_ROOT}/results/data_quarterly.json"
+            "${ANALYSIS_ROOT}/results/data_monthly.json"
+            "${ANALYSIS_ROOT}/results/municipalities.json"
+            "${ANALYSIS_ROOT}/results/yearly_index.json"
+            "${ANALYSIS_ROOT}/results/municipality_index.json"
+            "embuild-analyses/public/data/vergunningen-goedkeuringen/data_quarterly.json"
+            "embuild-analyses/public/data/vergunningen-goedkeuringen/data_monthly.json"
+            "embuild-analyses/public/data/vergunningen-goedkeuringen/municipalities.json"
+            "embuild-analyses/public/data/vergunningen-goedkeuringen/yearly_index.json"
+            "embuild-analyses/public/data/vergunningen-goedkeuringen/municipality_index.json"
+          )
+
+          for path in "${required_files[@]}"; do
+            test -f "${path}"
+          done
+
+          test -n "$(find "${ANALYSIS_ROOT}/results/yearly" -mindepth 1 -type f -print -quit)"
+          test -n "$(find "${ANALYSIS_ROOT}/results/municipality" -mindepth 1 -type f -print -quit)"
+          test -n "$(find "embuild-analyses/public/data/vergunningen-goedkeuringen/yearly" -mindepth 1 -type f -print -quit)"
+          test -n "$(find "embuild-analyses/public/data/vergunningen-goedkeuringen/municipality" -mindepth 1 -type f -print -quit)"
+
+      - name: Update remote metadata and checksum
+        if: steps.check_remote.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          headers="$(curl -sI "${INPUT_URL}" || true)"
+          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk -F': ' '/^ETag:/ {print $2}' | tr -d '\r"')"
+          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk -F': ' '/^Last-Modified:/ {print substr($0,index($0,$2)) }' | tr -d '\r')"
+
+          download_path="${ANALYSIS_ROOT}/data/$(basename "${INPUT_URL}")"
+          if [ -f "${download_path}" ]; then
+            export sha="$(sha256sum "${download_path}" | awk '{print $1}')"
+          else
+            export sha=""
+          fi
+
+          python scripts/save_remote_metadata.py
+
+      - name: Update source publication date
+        if: steps.check_remote.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          python scripts/update_publication_date.py "${ANALYSIS_SLUG}" "${PUBLICATION_PAGE_URL}" --sync-date-field
+          python scripts/update_vergunningen_goedkeuringen_content.py
+
+      - name: Commit and push analyses changes
+        if: steps.check_remote.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add "${ANALYSIS_ROOT}/data/.remote_metadata.json"
+          git add "${ANALYSIS_ROOT}/content.mdx"
+
+          if git diff --staged --quiet; then
+            echo "No analyses changes to commit"
+          else
+            git commit -m "chore(data): update vergunningen-goedkeuringen results (auto)"
+            git push origin HEAD:main
+          fi
+
+      - name: Checkout data repo
+        if: steps.check_remote.outputs.changed == 'true'
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.DATA_REPOSITORY }}
+          path: data-repo
+          token: ${{ secrets.DATA_REPO_TOKEN }}
+
+      - name: Export split-repo data payload
+        if: steps.check_remote.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          python scripts/export_data_repo.py \
+            --source-root embuild-analyses \
+            --data-repo data-repo \
+            --clean
+
+      - name: Commit and push data repo
+        if: steps.check_remote.outputs.changed == 'true'
+        working-directory: data-repo
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add -A
+
+          if git diff --staged --quiet; then
+            echo "No data repo changes to commit"
+          else
+            git commit -m "chore(data): publish vergunningen-goedkeuringen data (auto)"
+            git push origin HEAD:main
+          fi

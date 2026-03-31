@@ -1,0 +1,21 @@
+{
+  "name": "embuild-monorepo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "build:merge": "node scripts/merge-outputs.mjs",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "test:unit": "turbo run test:unit",
+    "typecheck": "turbo run typecheck",
+    "deploy": "turbo run build && node scripts/merge-outputs.mjs",
+    "docs": "node scripts/generate-docs.mjs",
+    "docs:check": "node scripts/generate-docs.mjs --check"
+  },
+  "devDependencies": {
+    "turbo": "^2"
+  },
+  "packageManager": "pnpm@10.33.0"
+}

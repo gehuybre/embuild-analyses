@@ -1,0 +1,580 @@
+[
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD1 Bruisend vrijetijdsleven als gemeenschapsvormend",
+    "bd_long": "BD1 Essen versterkt het bruisende en toegankelijke vrijetijdsleven dat gemeenschapsvormend werkt.",
+    "ap_code": "BD1AP2",
+    "ap_short": "Vrijetijdsinfrastructuur",
+    "ap_long": "Essen investeert in kwalitatieve en duurzame eigen infrastructuur voor vrije tijd in functie van de nood.",
+    "ac_code": "BD1AP2",
+    "ac_short": "Essen zorgt voor de opstart en de werking van het nieuwe vrijetijdscentrum.",
+    "ac_long": "Essen zorgt voor de opstart en de werking van het nieuwe vrijetijdscentrum.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 10450000.0,
+    "amount_per_capita": 521.57,
+    "yearly_amounts": {
+      "2026": 4897500.0,
+      "2027": 5467500.0,
+      "2028": 40000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 244.44,
+      "2027": 272.89,
+      "2028": 2.0,
+      "2029": 0.75,
+      "2030": 0.75,
+      "2031": 0.75
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "",
+    "ap_short": "",
+    "ap_long": "",
+    "ac_code": "",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 6211053.0,
+    "amount_per_capita": 310.0,
+    "yearly_amounts": {
+      "2026": 2300640.0,
+      "2027": 923386.0,
+      "2028": 1005984.0,
+      "2029": 1171888.0,
+      "2030": 363876.0,
+      "2031": 445279.0
+    },
+    "yearly_per_capita": {
+      "2026": 114.83,
+      "2027": 46.09,
+      "2028": 50.21,
+      "2029": 58.49,
+      "2030": 18.16,
+      "2031": 22.22
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD4 Groen en levendig Essen",
+    "bd_long": "BD4 We maken van Essen een groene en levendige gemeente waar het aangenaam wonen is.",
+    "ap_code": "BD4AP5",
+    "ap_short": "Woonbos en recreatiegebied Horendonk",
+    "ap_long": "Essen werkt een gecoördineerd plan uit voor het woonbos en recreatiegebied Horendonk.",
+    "ac_code": "BD4AP5",
+    "ac_short": "Essen neemt de rol als voortrekker op om samen met alle partners tot een structurele oplossing te ko",
+    "ac_long": "Essen neemt de rol als voortrekker op om samen met alle partners tot een structurele oplossing te komen voor het woonbos.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 5100000.0,
+    "amount_per_capita": 254.55,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 9000.0,
+      "2028": 1509000.0,
+      "2029": 1009000.0,
+      "2030": 1009000.0,
+      "2031": 1489000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.74,
+      "2027": 0.45,
+      "2028": 75.32,
+      "2029": 50.36,
+      "2030": 50.36,
+      "2031": 74.32
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD4 Groen en levendig Essen",
+    "bd_long": "BD4 We maken van Essen een groene en levendige gemeente waar het aangenaam wonen is.",
+    "ap_code": "BD4AP3",
+    "ap_short": "STOP-principe i.k.v. mobiliteit",
+    "ap_long": "Essen werkt een duurzaam mobiliteitbeleid uit aan de hand van het STOP-principe en stimuleert de modal shift.",
+    "ac_code": "BD4AP3",
+    "ac_short": "Essen maakt een nieuw mobiliteitsplan op, rolt uit en richt een mobiliteitsraad op.",
+    "ac_long": "Essen maakt een nieuw mobiliteitsplan op, rolt uit en richt een mobiliteitsraad op.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3890000.0,
+    "amount_per_capita": 194.15,
+    "yearly_amounts": {
+      "2026": 890000.0,
+      "2027": 700000.0,
+      "2028": 660000.0,
+      "2029": 800000.0,
+      "2030": 420000.0,
+      "2031": 420000.0
+    },
+    "yearly_per_capita": {
+      "2026": 44.42,
+      "2027": 34.94,
+      "2028": 32.94,
+      "2029": 39.93,
+      "2030": 20.96,
+      "2031": 20.96
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD4 Groen en levendig Essen",
+    "bd_long": "BD4 We maken van Essen een groene en levendige gemeente waar het aangenaam wonen is.",
+    "ap_code": "BD4AP1",
+    "ap_short": "Aangename en groene openbare ruimte",
+    "ap_long": "Essen creëert een aangename en groene openbare ruimte en waardeert en versterkt de dorpskernen.",
+    "ac_code": "BD4AP1",
+    "ac_short": "Essen waardeert en versterkt dorpskernen en maakt werk van de herinrichting van de Kapelstraat en he",
+    "ac_long": "Essen waardeert en versterkt dorpskernen en maakt werk van de herinrichting van de Kapelstraat en het Heuvelpein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2895000.0,
+    "amount_per_capita": 144.49,
+    "yearly_amounts": {
+      "2026": 795000.0,
+      "2027": 520000.0,
+      "2028": 1520000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 39.68,
+      "2027": 25.95,
+      "2028": 75.86,
+      "2029": 1.0,
+      "2030": 1.0,
+      "2031": 1.0
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD3 Zorg voor inwoners van jong tot oud",
+    "bd_long": "BD3 Essen zorgt voor haar inwoners en investeert in nabije opvang, flankerend onderwijs en (ouderen)zorg.",
+    "ap_code": "BD3AP3",
+    "ap_short": "Assistentiewoningen",
+    "ap_long": "Essen ontwikkelt een visie op assistentiewoningen tegen 31/12/2026 en faciliteert kwalitatieve huisvesting voor ouderen al dan niet in samenwerking met partners.",
+    "ac_code": "BD3AP3",
+    "ac_short": "Essen onderzoekt de best mogelijke oplossing voor het beheer van haar serviceflats met bijzondere aa",
+    "ac_long": "Essen onderzoekt de best mogelijke oplossing voor het beheer van haar serviceflats met bijzondere aandacht voor het behoud van dit zorgaanbod op haar grondgebied.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 2430000.0,
+    "amount_per_capita": 121.28,
+    "yearly_amounts": {
+      "2026": 240000.0,
+      "2027": 1590000.0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 11.98,
+      "2027": 79.36,
+      "2028": 7.49,
+      "2029": 7.49,
+      "2030": 7.49,
+      "2031": 7.49
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD4 Groen en levendig Essen",
+    "bd_long": "BD4 We maken van Essen een groene en levendige gemeente waar het aangenaam wonen is.",
+    "ap_code": "BD4AP2",
+    "ap_short": "Bescherming groene en open ruimte",
+    "ap_long": "Essen beschermt het groene karakter en de open ruimte.",
+    "ac_code": "BD4AP2",
+    "ac_short": "Essen voert acties die gekoppeld zijn aan het Beleidsplan Ruimte Essen uit met 2040 als horizon.",
+    "ac_long": "Essen voert acties die gekoppeld zijn aan het Beleidsplan Ruimte Essen uit met 2040 als horizon.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1985000.0,
+    "amount_per_capita": 99.07,
+    "yearly_amounts": {
+      "2026": 1820000.0,
+      "2027": 85000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 90.84,
+      "2027": 4.24,
+      "2028": 1.0,
+      "2029": 1.0,
+      "2030": 1.0,
+      "2031": 1.0
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD2 Performante dienstverlening en gedragen beleid",
+    "bd_long": "BD2 Essen levert performante en nabije dienstverlening en voert samen met partners eninwoners een kwalitatief gedragen beleid.",
+    "ap_code": "BD2AP4",
+    "ap_short": "Veilige leefomgeving",
+    "ap_long": "Essen garandeert een aangename en veilige leefomgeving voor alle inwoners.",
+    "ac_code": "BD2AP4",
+    "ac_short": "Essen zet de samenwerking met de Hulpverleningszone (Brandweer, politie,) en andere partners verder",
+    "ac_long": "Essen zet de samenwerking met de Hulpverleningszone (Brandweer, politie,) en andere partners verder.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1963811.0,
+    "amount_per_capita": 98.02,
+    "yearly_amounts": {
+      "2026": 320488.0,
+      "2027": 323649.0,
+      "2028": 325531.0,
+      "2029": 329371.0,
+      "2030": 331367.0,
+      "2031": 333405.0
+    },
+    "yearly_per_capita": {
+      "2026": 16.0,
+      "2027": 16.15,
+      "2028": 16.25,
+      "2029": 16.44,
+      "2030": 16.54,
+      "2031": 16.64
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD2 Performante dienstverlening en gedragen beleid",
+    "bd_long": "BD2 Essen levert performante en nabije dienstverlening en voert samen met partners eninwoners een kwalitatief gedragen beleid.",
+    "ap_code": "BD2AP3",
+    "ap_short": "Organisatiebeheersing",
+    "ap_long": "Essen werkt aan de optimalisatie van haar interne werking volgens het principe van het organisatiebeheersingssyteem.",
+    "ac_code": "BD2AP3",
+    "ac_short": "Essen maakt een inhaalbeweging voor een modern en veilig ICT -en informatiebeleid.",
+    "ac_long": "Essen maakt een inhaalbeweging voor een modern en veilig ICT -en informatiebeleid.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 845000.0,
+    "amount_per_capita": 42.17,
+    "yearly_amounts": {
+      "2026": 125000.0,
+      "2027": 130000.0,
+      "2028": 140000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.24,
+      "2027": 6.49,
+      "2028": 6.99,
+      "2029": 7.49,
+      "2030": 7.49,
+      "2031": 7.49
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD1 Bruisend vrijetijdsleven als gemeenschapsvormend",
+    "bd_long": "BD1 Essen versterkt het bruisende en toegankelijke vrijetijdsleven dat gemeenschapsvormend werkt.",
+    "ap_code": "BD1AP4",
+    "ap_short": "Gemeenschapsvorming en buitenspelen",
+    "ap_long": "Essen bevordert gemeenschapsvorming door het creëren van voorwaarden die spontane en laagdrempelige ontmoetingen mogelijk maken en erkent daarbij buitenspelen als essentieel voor de ontwikkeling van kinderen en het versterken van sociale verbondenheid in de buurt.",
+    "ac_code": "BD1AP4",
+    "ac_short": "Essen investeert in het onderhoud en de vernieuwing van speelpleintjes in participatie met omwonende",
+    "ac_long": "Essen investeert in het onderhoud en de vernieuwing van speelpleintjes in participatie met omwonenden.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 690000.0,
+    "amount_per_capita": 34.44,
+    "yearly_amounts": {
+      "2026": 115000.0,
+      "2027": 115000.0,
+      "2028": 115000.0,
+      "2029": 115000.0,
+      "2030": 115000.0,
+      "2031": 115000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.74,
+      "2027": 5.74,
+      "2028": 5.74,
+      "2029": 5.74,
+      "2030": 5.74,
+      "2031": 5.74
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD3 Zorg voor inwoners van jong tot oud",
+    "bd_long": "BD3 Essen zorgt voor haar inwoners en investeert in nabije opvang, flankerend onderwijs en (ouderen)zorg.",
+    "ap_code": "BD3AP1",
+    "ap_short": "Inclusieve en toegankelijke hulpverlening",
+    "ap_long": "Essen bevordert een toegankelijke en inclusieve hulpverlening.",
+    "ac_code": "BD3AP1",
+    "ac_short": "Essen verwezenlijkt tegen 31/12/2029 minstens één antennepunt van het LDC of een dorpshuis in een an",
+    "ac_long": "Essen verwezenlijkt tegen 31/12/2029 minstens één antennepunt van het LDC of een dorpshuis in een andere Essense wijk.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 645000.0,
+    "amount_per_capita": 32.19,
+    "yearly_amounts": {
+      "2026": 645000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 32.19,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD5 Werken, ondernemen, winkelen en toerisme",
+    "bd_long": "BD5 Essen stimuleert werken, ondernemen en winkelen in eigen buurt en zet in op haar toeristische troeven.",
+    "ap_code": "BD5AP3",
+    "ap_short": "Toersime",
+    "ap_long": "Essen speelt haar toeristische troeven uit en doet dat in nauwe samenwerking met partners.",
+    "ac_code": "BD5AP3",
+    "ac_short": "Essen crëert een nieuwe visie rond de erfgoedsite.",
+    "ac_long": "Essen crëert een nieuwe visie rond de erfgoedsite.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 375000.0,
+    "amount_per_capita": 18.72,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 125000.0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.99,
+      "2027": 4.99,
+      "2028": 6.24,
+      "2029": 2.5,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD6 Klimaatneutraal",
+    "bd_long": "BD6 Essen investeert om klimaatneutraal te zijn tegen 2045 en motiveert haar inwoners hetzelfde na te streven",
+    "ap_code": "BD6AP1",
+    "ap_short": "Klimaatacties",
+    "ap_long": "Essen werkt transversaal samen aan de realisatie van haar klimaatambities.",
+    "ac_code": "BD6AP1",
+    "ac_short": "Essen actualiseert en realiseert de doelstellingen en acties uit haar klimaat-, hemelwater- en droog",
+    "ac_long": "Essen actualiseert en realiseert de doelstellingen en acties uit haar klimaat-, hemelwater- en droogteplan.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 360000.0,
+    "amount_per_capita": 17.97,
+    "yearly_amounts": {
+      "2026": 160000.0,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 160000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.99,
+      "2027": 2.0,
+      "2028": 0,
+      "2029": 7.99,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD3 Zorg voor inwoners van jong tot oud",
+    "bd_long": "BD3 Essen zorgt voor haar inwoners en investeert in nabije opvang, flankerend onderwijs en (ouderen)zorg.",
+    "ap_code": "BD3AP2",
+    "ap_short": "Kinderopvang en buitenschoolse activiteiten",
+    "ap_long": "Essen breidt het geïntegreerd aanbod van kindereopvang en buitenschoolse activiteiten uit.",
+    "ac_code": "BD3AP2",
+    "ac_short": "Essen staat voor kwaliteitsvol onderwijs met gelijke kansen voor elk kind.",
+    "ac_long": "Essen staat voor kwaliteitsvol onderwijs met gelijke kansen voor elk kind.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 360000.0,
+    "amount_per_capita": 17.97,
+    "yearly_amounts": {
+      "2026": 113000.0,
+      "2027": 63000.0,
+      "2028": 49000.0,
+      "2029": 45000.0,
+      "2030": 45000.0,
+      "2031": 45000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.64,
+      "2027": 3.14,
+      "2028": 2.45,
+      "2029": 2.25,
+      "2030": 2.25,
+      "2031": 2.25
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD2 Performante dienstverlening en gedragen beleid",
+    "bd_long": "BD2 Essen levert performante en nabije dienstverlening en voert samen met partners eninwoners een kwalitatief gedragen beleid.",
+    "ap_code": "BD2AP1",
+    "ap_short": "Kwalitatieve dienstverlening en communicatie",
+    "ap_long": "Essen biedt zowel fysiek als digitaal, kwalitatieve en nabije dienstverlening op maat van de burger en investeert in haar digitale communicatiekanalen.",
+    "ac_code": "BD2AP1",
+    "ac_short": "Essen biedt vanuit de bibliotheek initiatieven aan voor iedereen om kennis en cultuur te ontsluiten",
+    "ac_long": "Essen biedt vanuit de bibliotheek initiatieven aan voor iedereen om kennis en cultuur te ontsluiten en zet in het bijzonder in op digitale vaardigheden.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 329000.0,
+    "amount_per_capita": 16.42,
+    "yearly_amounts": {
+      "2026": 32000.0,
+      "2027": 59000.0,
+      "2028": 47000.0,
+      "2029": 97000.0,
+      "2030": 47000.0,
+      "2031": 47000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.6,
+      "2027": 2.94,
+      "2028": 2.35,
+      "2029": 4.84,
+      "2030": 2.35,
+      "2031": 2.35
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD1 Bruisend vrijetijdsleven als gemeenschapsvormend",
+    "bd_long": "BD1 Essen versterkt het bruisende en toegankelijke vrijetijdsleven dat gemeenschapsvormend werkt.",
+    "ap_code": "BD1AP1",
+    "ap_short": "Ondersteuning verenigingen en organisatie evenementen",
+    "ap_long": "Essen ondersteunt verenigingen en evenementen en implementeert een vrijwilligersbeleid.",
+    "ac_code": "BD1AP1",
+    "ac_short": "Essen optimaliseert haar logistieke ondersteuning voor verenigingen en buurtinitiatieven.",
+    "ac_long": "Essen optimaliseert haar logistieke ondersteuning voor verenigingen en buurtinitiatieven.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 145000.0,
+    "amount_per_capita": 7.24,
+    "yearly_amounts": {
+      "2026": 17500.0,
+      "2027": 57500.0,
+      "2028": 17500.0,
+      "2029": 17500.0,
+      "2030": 17500.0,
+      "2031": 17500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.87,
+      "2027": 2.87,
+      "2028": 0.87,
+      "2029": 0.87,
+      "2030": 0.87,
+      "2031": 0.87
+    }
+  },
+  {
+    "municipality": "Essen",
+    "nis_code": "11016",
+    "bd_code": "BDS",
+    "bd_short": "BD1 Bruisend vrijetijdsleven als gemeenschapsvormend",
+    "bd_long": "BD1 Essen versterkt het bruisende en toegankelijke vrijetijdsleven dat gemeenschapsvormend werkt.",
+    "ap_code": "BD1AP3",
+    "ap_short": "Inclusief en betrokken vrijetijdsleven",
+    "ap_long": "Essen faciliteert een afgestemd vrijetijdsaanbod en communiceert doelgericht, toegankelijk en inclusief, zodat iedereen zich betrokken voelt en kan deelnemen.",
+    "ac_code": "BD1AP3",
+    "ac_short": "Essen zorgt ervoor dat het vrijetijdsaanbod laagdrempelig en toegankelijk is voor iedereen.",
+    "ac_long": "Essen zorgt ervoor dat het vrijetijdsaanbod laagdrempelig en toegankelijk is voor iedereen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 26500.0,
+    "amount_per_capita": 1.32,
+    "yearly_amounts": {
+      "2026": 26500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.32,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  }
+]

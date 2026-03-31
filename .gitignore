@@ -1,0 +1,21 @@
+.DS_Store
+.venv/
+**/__pycache__/
+*.pyc
+*.pyo
+*.log
+*.log.gz
+/logs/
+.wrangler/
+/.pytest_cache/
+/.ruff_cache/
+node_modules/
+
+# Turborepo
+.turbo/
+
+# Build outputs
+dist/
+**/out/
+**/.next/
+**/.contentlayer/

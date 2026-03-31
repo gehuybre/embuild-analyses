@@ -1,0 +1,96 @@
+name: Update nbb-rente data
+
+concurrency:
+  group: update-nbb-rente-data
+  cancel-in-progress: true
+
+on:
+  schedule:
+    - cron: "15 4 * * 1"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - embuild-analyses/analyses/nbb-rente/**
+      - embuild-analyses/src/components/analyses/nbb-rente/**
+      - embuild-analyses/src/lib/path-utils.ts
+      - embuild-analyses/src/lib/embed-config.ts
+      - embuild-analyses/src/app/embed/[slug]/[section]/EmbedClient.tsx
+
+env:
+  DATA_REPOSITORY: gehuybre/data-backup-2026-03-31
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Refresh NBB rente data
+        run: python3 embuild-analyses/analyses/nbb-rente/src/process_data.py
+
+      - name: Verify expected output files
+        run: |
+          set -e
+          test -f embuild-analyses/analyses/nbb-rente/results/interest_rates.json
+          test -f embuild-analyses/analyses/nbb-rente/results/interest_rates.csv
+          test -f embuild-analyses/analyses/nbb-rente/results/metadata.json
+          test -f embuild-analyses/public/data/nbb-rente/interest_rates.json
+          test -f embuild-analyses/public/data/nbb-rente/metadata.json
+
+      - name: Commit and push changes to analyses repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f embuild-analyses/analyses/nbb-rente/results
+          git add -f embuild-analyses/analyses/nbb-rente/data/.remote_metadata.json
+          git add embuild-analyses/analyses/nbb-rente/content.mdx
+          git add -f embuild-analyses/public/data/nbb-rente
+
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(data): update nbb-rente results (auto)"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit in analyses repo"
+          fi
+
+      - name: Checkout data repo
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ env.DATA_REPOSITORY }}
+          path: data-repo
+          token: ${{ secrets.DATA_REPO_TOKEN }}
+
+      - name: Export updated NBB rente data to data repo
+        run: |
+          set -e
+          mkdir -p data-repo/data/nbb-rente
+          mkdir -p data-repo/analyses/nbb-rente/results
+
+          cp embuild-analyses/public/data/nbb-rente/*.json data-repo/data/nbb-rente/
+          cp embuild-analyses/analyses/nbb-rente/results/* data-repo/analyses/nbb-rente/results/
+
+      - name: Commit and push data repo
+        working-directory: data-repo
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/nbb-rente
+          git add analyses/nbb-rente/results
+
+          if ! git diff --staged --quiet; then
+            git commit -m "chore(data): update nbb-rente data (auto)"
+            git push origin HEAD:main
+          else
+            echo "No changes to commit in data repo"
+          fi

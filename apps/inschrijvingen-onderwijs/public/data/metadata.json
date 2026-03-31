@@ -1,0 +1,35 @@
+{
+  "generated_at_utc": "2026-03-09T13:58:32.638919+00:00",
+  "api_base_url": "https://provincies.incijfers.be/jiveservices/odata/",
+  "variable_code": "kubus2311_ho_wp",
+  "variable_name": "inschrijvingen in het hoger onderwijs naar type onderwijsinstelling, opleiding en studiegebied - WP",
+  "variable_description": "[aantal] inschrijvingen in het hoger onderwijs naar type onderwijsinstelling, opleiding en studiegebied naar woonplaats",
+  "variable_unit": "aantal",
+  "variable_source": "Onderwijs Vlaanderen - Hoger onderwijs | provincies.incijfers.be",
+  "variable_last_update": "2025-06-02T14:23:11.0000000",
+  "data_source_name": "Onderwijs Vlaanderen - Hoger onderwijs | provincies.incijfers.be",
+  "data_source_owner": "Onderwijs Vlaanderen",
+  "data_source_frequency": "Jaarlijks",
+  "data_source_reference_date": "Momentopname: Hoger onderwijs: 01/01 van het referentiejaar (2017 verwijst dus naar het schooljaar 2016-2017); HBO5: 1 februari van het referentiejaar (2017 verwijst dus naar het schooljaar 2016-2017)",
+  "data_source_time_comparability": "<ul><li>Vanaf het academiejaar 2019-2020 zien we voor het eerst inschrijvingen in de <b>graduaatsopleidingen</b>. Deze opleidingen kwamen over van de centra voor volwassenenonderwijs naar de hogescholen. Ze vormen zo, naast de professionele en academische bacheloropleidingen, de derde toegangspoort tot het hoger onderwijs. Voordien konden deze opleidingen aan de centra voor volwassenenonderwijs gevolgd worden. Een uitzondering hierop is de HBO5-opleiding Verpleegkunde die nog steeds georganiseerd wordt door scholen secundair onderwijs. Naast de graduaatsopleidingen bieden de hogescholen ook nog de HBO5-opleidingen in afbouw aan voor studenten die deze opleiding al eerder gestart waren aan een centrum voor volwassenenonderwijs.</li><li>Vanaf het academiejaar 2019-2020 zijn de <b>lerarenopleidingen</b> in Vlaanderen hervormd. De specifieke lerarenopleidingen (hetzij na professionele bachelor, na master, uit volwassenenonderwijs) worden vanaf 2019-2020 enkel nog in afbouw aangeboden. De specifieke lerarenopleiding van het volwassenenonderwijs werd overgedragen naar het hoger onderwijs voor studenten die deze opleiding al eerder gestart waren aan een centrum voor volwassenenonderwijs.</li><li>Vanaf september 2019 zijn er 6 lerarenopleidingen (graduaat in secundair onderwijs voor leraren technische en praktische vakken, bachelor in kleuteronderwijs, bachelor in lager onderwijs, bachelor in secundair onderwijs, master in secundair onderwijs en master in de kunsten).</li></ul>",
+  "data_source_limitations": "De statistieken hebben enkel betrekking op studenten van het hoger onderwijs gefinancierd of gesubsidieerd door de Vlaamse Gemeenschap. Bij de gegevens naar woonplaats worden enkel de studenten die in het Vlaams of Brussels Hoofdstedelijk Gewest wonen meegenomen in de cijfers. De gegevens naar vestigingsplaats omvatten alle studenten, dus ook deze met een woonplaats in Wallonië of het buitenland. De totalen geteld naar woonplaats dan wel vestigingsplaats zijn dus niet gelijk. In de stroomgegevens zitten deze studenten in de categorie: &#8216;niet te lokaliseren&#8217;.",
+  "data_source_last_update": "2025-07-28T11:41:07.0000000",
+  "period_start": 2017,
+  "period_end": 2024,
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "latest_year": 2024,
+  "notes": [
+    "Dataset: woonplaats (WP), enkel Vlaams Gewest en Vlaamse provincies/gemeenten in outputs.",
+    "Niet-lokaliseerbare en buiten-Vlaanderen codes zijn uitgesloten van provinciale en gemeentelijke outputs.",
+    "Totalen en dimensie-uitsplitsingen zijn rechtstreeks opgehaald uit PinC OData."
+  ]
+}

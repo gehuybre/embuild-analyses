@@ -1,0 +1,33 @@
+{
+  "processed_at": "2025-12-28T02:04:32.040659",
+  "year_range": {
+    "min": 2008,
+    "max": 2024
+  },
+  "measures_count": 16,
+  "measures": [
+    "Totaal",
+    "Asbest en zonnepanelen",
+    "Condensatieketel",
+    "Dakisolatie",
+    "E-peil",
+    "EPC-Labelpremie",
+    "Hoogrendementsglas",
+    "Muurisolatie",
+    "Overige",
+    "Sturing elektrische warmte",
+    "Totaalrenovatiebonus",
+    "Vloerisolatie",
+    "Warmtepomp",
+    "Warmtepompboiler",
+    "Zonneboiler",
+    "Zonnepanelen"
+  ],
+  "total_records": 272,
+  "totals": {
+    "aantal_total": 2529576,
+    "bedrag_total": 1684255610.0,
+    "aantal_beschermd_total": 69320,
+    "bedrag_beschermd_total": 75966475.0
+  }
+}

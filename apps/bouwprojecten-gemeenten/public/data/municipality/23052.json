@@ -1,0 +1,70 @@
+[
+  {
+    "municipality": "Merchtem",
+    "nis_code": "23052",
+    "bd_code": "BD",
+    "bd_short": "MERCHTEM mobieler",
+    "bd_long": "Kwalitatieve omschrijving: Een ligging in de rand van Brussel kan vele voordelen bieden aan een gemeente, maar er is zeker één nadeel: de verkeersdrukte. In het centrum van Merchtem komen twee gewestwegen samen, en dat zorgt voor problemen inzake de mobiliteit. Om die mobiliteit toch beheersbaar te houden wordt er geïnvesteerd in handhaving (AP-18), in fietsers en voetgangers (AP-19) en in een vlottere doorstroming (AP-20).\nEr wordt een parkeerbeleid uitgewerkt (AP-21) en we investeren in openbaar vervoer en nieuwe mobiliteit en zetten technologie in (AP-22)",
+    "ap_code": "AP",
+    "ap_short": "Investeren in fietsers en voetgangers",
+    "ap_long": "Het bestuur wil woon-werkverplaatsingen van het personeel per fiets en te voet zoveel mogelijk faciliteren (ACT-63). Investeringen in voet- en fietspaden worden meegenomen in ACT-68. Schoolomgevingen en schoolroutes worden veiliger gemaakt (ACT-64 en 128)",
+    "ac_code": "ACT",
+    "ac_short": "fietssnelweg OMA-route en Leirekensroute",
+    "ac_long": "Realisatie van fietssnelweg F221",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 36473411.0,
+    "amount_per_capita": 2002.72,
+    "yearly_amounts": {
+      "2026": 8160285.0,
+      "2027": 11861252.0,
+      "2028": 10256162.0,
+      "2029": 5045212.0,
+      "2030": 553000.0,
+      "2031": 597500.0
+    },
+    "yearly_per_capita": {
+      "2026": 448.07,
+      "2027": 651.29,
+      "2028": 563.16,
+      "2029": 277.03,
+      "2030": 30.36,
+      "2031": 32.81
+    }
+  },
+  {
+    "municipality": "Merchtem",
+    "nis_code": "23052",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB",
+    "ac_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 2767859.0,
+    "amount_per_capita": 151.98,
+    "yearly_amounts": {
+      "2026": 520009.0,
+      "2027": 512973.0,
+      "2028": 517946.0,
+      "2029": 348856.0,
+      "2030": 359345.0,
+      "2031": 508730.0
+    },
+    "yearly_per_capita": {
+      "2026": 28.55,
+      "2027": 28.17,
+      "2028": 28.44,
+      "2029": 19.16,
+      "2030": 19.73,
+      "2031": 27.93
+    }
+  }
+]

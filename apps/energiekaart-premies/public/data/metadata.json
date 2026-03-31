@@ -1,0 +1,52 @@
+{
+  "source_url": "https://apps.energiesparen.be/energiekaart/vlaanderen/premies-res-tijdreeks-algemeen",
+  "fetched_at": "2025-12-28T00:29:45.784Z",
+  "powerbi_bookmarks": [],
+  "powerbi_variants": [
+    "default"
+  ],
+  "powerbi_pages": [
+    {
+      "name": "ReportSectionbdb6a1d03d0652d8362e",
+      "displayName": "Algemene Totalen"
+    },
+    {
+      "name": "ReportSection6ff0532607e9124d2748",
+      "displayName": "Totalen Beschermde Afnemers"
+    }
+  ],
+  "files": [
+    {
+      "variant": "default",
+      "page": "Algemene Totalen",
+      "title": "Matrix",
+      "type": "pivottable",
+      "filename": "premies-res-tijdreeks-algemeen__default__Algemene Totalen__pivottable__Matrix__Aantal.csv",
+      "sha256": "4b664e416d1bbdfb6499f42ac35e006c0205b6b94e8b6efca1098ebc57345738"
+    },
+    {
+      "variant": "default",
+      "page": "Algemene Totalen",
+      "title": "Matrix",
+      "type": "pivottable",
+      "filename": "premies-res-tijdreeks-algemeen__default__Algemene Totalen__pivottable__Matrix__Totaal bedrag.csv",
+      "sha256": "08bb3571f99be1805b06204c31bf9c52b3c597016abdfc10b8adeb82331edcb3"
+    },
+    {
+      "variant": "default",
+      "page": "Totalen Beschermde Afnemers",
+      "title": "Matrix",
+      "type": "pivottable",
+      "filename": "premies-res-tijdreeks-algemeen__default__Totalen Beschermde Afnemers__pivottable__Matrix__Aantal.csv",
+      "sha256": "6fceed0216a9fe763c6290b87c2c306c93934aff9cb3e04372cb73f17e4e60fd"
+    },
+    {
+      "variant": "default",
+      "page": "Totalen Beschermde Afnemers",
+      "title": "Matrix",
+      "type": "pivottable",
+      "filename": "premies-res-tijdreeks-algemeen__default__Totalen Beschermde Afnemers__pivottable__Matrix__Totaal bedrag.csv",
+      "sha256": "101e57eb2a62ff71a5929df3b49bd504a35321754b2627f123c187c908518895"
+    }
+  ]
+}

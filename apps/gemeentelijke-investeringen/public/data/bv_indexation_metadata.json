@@ -1,0 +1,39 @@
+{
+  "source": "Statbel CPI All base years",
+  "source_file": "CPI All base years.txt",
+  "source_url": "https://statbel.fgov.be/sites/default/files/files/opendata/Consumptieprijsindex%20en%20gezondheidsindex/CPI%20All%20base%20years.zip",
+  "cpi_base_year": 2025,
+  "price_level_period": "2026-02",
+  "price_level_label": "februari 2026",
+  "reference_cpi": 101.72,
+  "midpoint_note": "Omdat elke legislatuur zes jaar telt en dus geen unieke middenmaand heeft, gebruiken we de eerste maand na het halfwegpunt: januari 2017 voor 2014-2019 en januari 2023 voor 2020-2025.",
+  "periods": {
+    "2014": {
+      "source_period": "2017-01",
+      "source_label": "januari 2017",
+      "source_cpi": 77.07,
+      "reference_period": "2026-02",
+      "reference_label": "februari 2026",
+      "reference_cpi": 101.72,
+      "factor": 1.3198391073050475
+    },
+    "2020": {
+      "source_period": "2023-01",
+      "source_label": "januari 2023",
+      "source_cpi": 94.49,
+      "reference_period": "2026-02",
+      "reference_label": "februari 2026",
+      "reference_cpi": 101.72,
+      "factor": 1.0765160334426924
+    },
+    "2026": {
+      "source_period": "2026-02",
+      "source_label": "februari 2026",
+      "source_cpi": 101.72,
+      "reference_period": "2026-02",
+      "reference_label": "februari 2026",
+      "reference_cpi": 101.72,
+      "factor": 1.0
+    }
+  }
+}

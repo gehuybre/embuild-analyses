@@ -1,0 +1,478 @@
+[
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "",
+    "ap_short": "",
+    "ap_long": "",
+    "ac_code": "",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 19866025.0,
+    "amount_per_capita": 620.17,
+    "yearly_amounts": {
+      "2026": 7349300.0,
+      "2027": 3022111.0,
+      "2028": 3140981.0,
+      "2029": 2453429.0,
+      "2030": 1855456.0,
+      "2031": 2044748.0
+    },
+    "yearly_per_capita": {
+      "2026": 229.43,
+      "2027": 94.34,
+      "2028": 98.05,
+      "2029": 76.59,
+      "2030": 57.92,
+      "2031": 63.83
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S1B3 Meer leefkwaliteit door slimme ruimtelijke planning",
+    "bd_long": "We versterken de leefkwaliteit van onze inwoners via doordachte ruimtelijke planning en inrichting van de publieke ruimte.",
+    "ap_code": "S1B3PUBRUIM",
+    "ap_short": "Kwaliteitsvolle publieke ruimte",
+    "ap_long": "We zetten in op de kwaliteit en het beheer van de publieke ruimte.",
+    "ac_code": "S1B3PUBRUIM",
+    "ac_short": "Woning Leie 35 slopen",
+    "ac_long": "We verfraaien het openbaar domein door de woning Leie 35 te slopen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1847650.0,
+    "amount_per_capita": 57.68,
+    "yearly_amounts": {
+      "2026": 352000.0,
+      "2027": 799000.0,
+      "2028": 579000.0,
+      "2029": 117650.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.99,
+      "2027": 24.94,
+      "2028": 18.07,
+      "2029": 3.67,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S3B1 Toegankelijker en kwalitatiever vrijetijdsbeleid",
+    "bd_long": "We versterken de toegankelijkheid en kwaliteit van ons vrijetijdsbeleid door te investeren in aangepaste infrastructuur en klantgerichte dienstverlening.",
+    "ap_code": "S3B1BVRINFRA",
+    "ap_short": "Bestaande vrijetijdsinfrastructuur verduurzamen",
+    "ap_long": "We versterken en verduurzamen de bestaande vrijetijdsinfrastructuur.",
+    "ac_code": "S3B1BVRINFRA",
+    "ac_short": "Multifunctioneel gebruik infrastructuur vrijetijdssite",
+    "ac_long": "We zorgen voor een multifunctioneel gebruik van de infrastructuur op de vrijetijdssite (Schoolstraat-Hoogkamerstraat).",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 1360000.0,
+    "amount_per_capita": 42.46,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 110000.0,
+      "2028": 650000.0,
+      "2029": 350000.0,
+      "2030": 0,
+      "2031": 210000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.25,
+      "2027": 3.43,
+      "2028": 20.29,
+      "2029": 10.93,
+      "2030": 0,
+      "2031": 6.56
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S2B1 Toegankelijker en kwalitatiever welzijnsbeleid",
+    "bd_long": "We versterken de toegankelijkheid en de kwaliteit van ons welzijnsbeleid door te investeren in aangepaste infrastructuur en klantgerichte dienstverlening.",
+    "ap_code": "S2B1BESTEM",
+    "ap_short": "Visie ontwikkelen en welzijnssites herbestemmen",
+    "ap_long": "We ontwikkelen een visie en herbestemmen onze welzijnssites met het oog op een laagdrempelige toegang tot zorg en welzijn.",
+    "ac_code": "S2B1BESTEM",
+    "ac_short": "AC De Zaat omvormen tot huis voor de Temsenaar",
+    "ac_long": "We maken van AC De Zaat een geïntegreerd huis voor de Temsenaar.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1300000.0,
+    "amount_per_capita": 40.58,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 1000000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.37,
+      "2027": 31.22,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S1B1 Betere bereikbaarheid en hogere verkeersveiligheid",
+    "bd_long": "We versterken de bereikbaarheid en verkeersveiligheid via een toekomstgericht, inclusief mobiliteitsbeleid.",
+    "ap_code": "S1B1VERPLAAT",
+    "ap_short": "Investeren in duurzame, veilige, inclusieve verplaatsingen",
+    "ap_long": "We investeren in duurzame, veilige, inclusieve verplaatsingen.",
+    "ac_code": "S1B1VERPLAAT",
+    "ac_short": "Veilige schoolomgevingen en schoolroutes creëren",
+    "ac_long": "We creëren veilige schoolomgevingen en schoolroutes.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1230000.0,
+    "amount_per_capita": 38.4,
+    "yearly_amounts": {
+      "2026": 205000.0,
+      "2027": 205000.0,
+      "2028": 205000.0,
+      "2029": 205000.0,
+      "2030": 205000.0,
+      "2031": 205000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.4,
+      "2027": 6.4,
+      "2028": 6.4,
+      "2029": 6.4,
+      "2030": 6.4,
+      "2031": 6.4
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S3B1 Toegankelijker en kwalitatiever vrijetijdsbeleid",
+    "bd_long": "We versterken de toegankelijkheid en kwaliteit van ons vrijetijdsbeleid door te investeren in aangepaste infrastructuur en klantgerichte dienstverlening.",
+    "ap_code": "S3B1NVRINFRA",
+    "ap_short": "Nieuwe vrijetijdsinfrastructuur plannen",
+    "ap_long": "We plannen nieuwe vrijetijdsinfrastructuur als ontmoetingsplek voor sport, cultuur, spel en ontmoeting.",
+    "ac_code": "S3B1NVRINFRA",
+    "ac_short": "Vrijetijdsantennes binnen onze deelkernen ontwikkelen",
+    "ac_long": "We zetten in op de ontwikkeling van vrijetijdsantennes binnen onze deelkernen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 31.22,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.61,
+      "2027": 15.61,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S1B1 Toegankelijker en kwalitatiever vrijetijdsbeleid",
+    "bd_long": "We versterken de toegankelijkheid en kwaliteit van ons vrijetijdsbeleid door te investeren in aangepaste infrastructuur en klantgerichte dienstverlening.",
+    "ap_code": "S1B1BVRINFRA",
+    "ap_short": "Bestaande vrijetijdsinfrastructuur verduurzamen",
+    "ap_long": "We versterken en verduurzamen de bestaande vrijetijdsinfrastructuur.",
+    "ac_code": "S1B1BVRINFRA",
+    "ac_short": "Dak van de Emiel Naudtszaal renoveren",
+    "ac_long": "We renoveren het dak van de Emiel Naudtszaal.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 12.49,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15000.0,
+      "2028": 325000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.47,
+      "2027": 0.47,
+      "2028": 10.15,
+      "2029": 0.47,
+      "2030": 0.47,
+      "2031": 0.47
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S1B3 Meer leefkwaliteit door slimme ruimtelijke planning",
+    "bd_long": "We versterken de leefkwaliteit van onze inwoners via doordachte ruimtelijke planning en inrichting van de publieke ruimte.",
+    "ap_code": "S1B3RUIMONTW",
+    "ap_short": "Duurzame ruimtelijke ontwikkeling",
+    "ap_long": "We zetten in op duurzame ruimtelijke ontwikkeling.",
+    "ac_code": "S1B3RUIMONTW",
+    "ac_short": "Groene ring rond kern van Temse inrichten",
+    "ac_long": "We richten een groene ring in rond de kern van Temse.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 350000.0,
+    "amount_per_capita": 10.93,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.24,
+      "2027": 1.56,
+      "2028": 1.56,
+      "2029": 1.56,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S2B2 Sterkere sociale cohesie en gelijke kansen",
+    "bd_long": "We versterken sociale cohesie en gelijke kansen voor alle inwoners.",
+    "ap_code": "S2B2KANSEN",
+    "ap_short": "Meer kansen voor kinderen, gezinnen en ouderen",
+    "ap_long": "We versterken kansen van kinderen, gezinnen en ouderen.",
+    "ac_code": "S2B2KANSEN",
+    "ac_short": "Kwalitatieve kinderopvang stimuleren en plaatsen uitbreiden",
+    "ac_long": "We stimuleren initiatieven voor kwalitatieve kinderopvang en breiden het aantal plaatsen uit.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 318333.0,
+    "amount_per_capita": 9.94,
+    "yearly_amounts": {
+      "2026": 318333.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.94,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S1B1 Betere bereikbaarheid en hogere verkeersveiligheid",
+    "bd_long": "We versterken de bereikbaarheid en verkeersveiligheid via een toekomstgericht, inclusief mobiliteitsbeleid.",
+    "ap_code": "S1B1COMBIMOB",
+    "ap_short": "Netwerk voor combimobiliteit verder uitbouwen",
+    "ap_long": "We bouwen het netwerk voor combimobiliteit verder uit.",
+    "ac_code": "S1B1COMBIMOB",
+    "ac_short": "Hoppinpunten uitbreiden met aandacht voor deelmobiliteit",
+    "ac_long": "We breiden de Hoppinpunten uit met aandacht voor bereikbaarheid, overstapmogelijkheden en deelsystemen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 4.68,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.56,
+      "2027": 1.56,
+      "2028": 1.56,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S2B2 Sterkere sociale cohesie en gelijke kansen",
+    "bd_long": "We versterken sociale cohesie en gelijke kansen voor alle inwoners.",
+    "ap_code": "S2B2BOA",
+    "ap_short": "Regierol in buitenschoolse opvang en activiteiten opnemen",
+    "ap_long": "We nemen de regie van de buitenschoolse opvang en activiteiten in handen.",
+    "ac_code": "S2B2BOA",
+    "ac_short": "Kleuteropvang financieren volgens ons eigen erkenningskader",
+    "ac_long": "We financieren kleuteropvang volgens ons eigen erkenningskader.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 3.12,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S1B4 Gezonde, propere en veilige woonomgevingen",
+    "bd_long": "We zettend blijvend in op een gezonde, propere en veilige woonomgeving.",
+    "ap_code": "S1B4BUURTEN",
+    "ap_short": "Gezonde, propere en veilige buurten creëren",
+    "ap_long": "We zorgen voor gezonde, propere en veilige buurten.",
+    "ac_code": "S1B4BUURTEN",
+    "ac_short": "Propere wijken",
+    "ac_long": "We zetten verder in op propere wijken.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 1.87,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 2000.0,
+      "2028": 2000.0,
+      "2029": 2000.0,
+      "2030": 2000.0,
+      "2031": 2000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.56,
+      "2027": 0.06,
+      "2028": 0.06,
+      "2029": 0.06,
+      "2030": 0.06,
+      "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S1B1 Betere bereikbaarheid en hogere verkeersveiligheid",
+    "bd_long": "We versterken de bereikbaarheid en verkeersveiligheid via een toekomstgericht, inclusief mobiliteitsbeleid.",
+    "ap_code": "S1B1PARKEER",
+    "ap_short": "Parkeerbeleid optimaliseren",
+    "ap_long": "We optimaliseren het parkeerbeleid met slimme en gedeelde oplossingen.",
+    "ac_code": "S1B1PARKEER",
+    "ac_short": "Buurtparkeren stimuleren met buurtpartners",
+    "ac_long": "We stimuleren buurtparkeren in samenwerking met private partners.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.31,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.31,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Temse",
+    "nis_code": "46025",
+    "bd_code": "BDS",
+    "bd_short": "S2B3 Heldere, inclusieve en verbindende communicatie",
+    "bd_long": "We communiceren helder, inclusief en verbindend met onze inwoners.",
+    "ap_code": "S2B3ONTHAAL",
+    "ap_short": "Onthaalmomenten en verbindende initiatieven organiseren",
+    "ap_long": "We organiseren warme onthaalmomenten en initiatieven die verbinden.",
+    "ac_code": "S2B3ONTHAAL",
+    "ac_short": "Landmark plaatsen om Temse te promoten",
+    "ac_long": "We plaatsen een landmark om Temse te promoten en in beeld te brengen.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 8600.0,
+    "amount_per_capita": 0.27,
+    "yearly_amounts": {
+      "2026": 5600.0,
+      "2027": 600.0,
+      "2028": 600.0,
+      "2029": 600.0,
+      "2030": 600.0,
+      "2031": 600.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.17,
+      "2027": 0.02,
+      "2028": 0.02,
+      "2029": 0.02,
+      "2030": 0.02,
+      "2031": 0.02
+    }
+  }
+]

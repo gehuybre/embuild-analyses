@@ -1,0 +1,70 @@
+[
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD",
+    "bd_short": "Een sociale,  activerende en veilige gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP",
+    "ap_short": "Opvang voor onze kinderen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT",
+    "ac_short": "Integratie van BOA middelen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 19346222.0,
+    "amount_per_capita": 1244.79,
+    "yearly_amounts": {
+      "2026": 1486751.0,
+      "2027": 1231803.0,
+      "2028": 4966480.0,
+      "2029": 10649995.0,
+      "2030": 466971.0,
+      "2031": 544222.0
+    },
+    "yearly_per_capita": {
+      "2026": 95.66,
+      "2027": 79.26,
+      "2028": 319.56,
+      "2029": 685.25,
+      "2030": 30.05,
+      "2031": 35.02
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB",
+    "ac_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 9209260.0,
+    "amount_per_capita": 592.55,
+    "yearly_amounts": {
+      "2026": 1338132.0,
+      "2027": 2164072.0,
+      "2028": 1302686.0,
+      "2029": 2492637.0,
+      "2030": 1387576.0,
+      "2031": 524157.0
+    },
+    "yearly_per_capita": {
+      "2026": 86.1,
+      "2027": 139.24,
+      "2028": 83.82,
+      "2029": 160.38,
+      "2030": 89.28,
+      "2031": 33.73
+    }
+  }
+]

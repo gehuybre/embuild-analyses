@@ -1,0 +1,70 @@
+[
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB",
+    "ac_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15953841.0,
+    "amount_per_capita": 757.97,
+    "yearly_amounts": {
+      "2026": 4237694.0,
+      "2027": 4970440.0,
+      "2028": 1649802.0,
+      "2029": 1816356.0,
+      "2030": 2154252.0,
+      "2031": 1125297.0
+    },
+    "yearly_per_capita": {
+      "2026": 201.33,
+      "2027": 236.15,
+      "2028": 78.38,
+      "2029": 86.3,
+      "2030": 102.35,
+      "2031": 53.46
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD",
+    "bd_short": "Inzetten op een flankerend onderwijsbeleid",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP",
+    "ap_short": "Optimaliseren van het ondersteunend onderwijsbeleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT",
+    "ac_short": "De werking van de kunstacademie ondersteunen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 7807862.0,
+    "amount_per_capita": 370.95,
+    "yearly_amounts": {
+      "2026": 1772138.0,
+      "2027": 3563224.0,
+      "2028": 700500.0,
+      "2029": 747000.0,
+      "2030": 543000.0,
+      "2031": 482000.0
+    },
+    "yearly_per_capita": {
+      "2026": 84.19,
+      "2027": 169.29,
+      "2028": 33.28,
+      "2029": 35.49,
+      "2030": 25.8,
+      "2031": 22.9
+    }
+  }
+]

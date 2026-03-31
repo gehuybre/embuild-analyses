@@ -1,0 +1,242 @@
+{
+  "sectors": [
+    {
+      "code": "?",
+      "nl": "Onbekend"
+    },
+    {
+      "code": "A",
+      "nl": "Landbouw, bosbouw en visserij"
+    },
+    {
+      "code": "B",
+      "nl": "Winning van delfstoffen"
+    },
+    {
+      "code": "C",
+      "nl": "Industrie"
+    },
+    {
+      "code": "D",
+      "nl": "Productie en distributie van elektriciteit, gas, stoom"
+    },
+    {
+      "code": "E",
+      "nl": "Distributie van water; afval- en afvalwaterbeheer"
+    },
+    {
+      "code": "F",
+      "nl": "Bouwnijverheid"
+    },
+    {
+      "code": "G",
+      "nl": "Groot- en detailhandel; reparatie van auto's"
+    },
+    {
+      "code": "H",
+      "nl": "Vervoer en opslag"
+    },
+    {
+      "code": "I",
+      "nl": "Verschaffen van accommodatie en maaltijden"
+    },
+    {
+      "code": "J",
+      "nl": "Informatie en communicatie"
+    },
+    {
+      "code": "K",
+      "nl": "Financiële activiteiten en verzekeringen"
+    },
+    {
+      "code": "L",
+      "nl": "Exploitatie van en handel in onroerend goed"
+    },
+    {
+      "code": "M",
+      "nl": "Vrije beroepen en wetenschappelijke activiteiten"
+    },
+    {
+      "code": "N",
+      "nl": "Administratieve en ondersteunende diensten"
+    },
+    {
+      "code": "O",
+      "nl": "Openbaar bestuur en defensie"
+    },
+    {
+      "code": "P",
+      "nl": "Onderwijs"
+    },
+    {
+      "code": "Q",
+      "nl": "Menselijke gezondheidszorg en maatschappelijke dienstverlening"
+    },
+    {
+      "code": "R",
+      "nl": "Kunst, amusement en recreatie"
+    },
+    {
+      "code": "S",
+      "nl": "Overige diensten"
+    },
+    {
+      "code": "T",
+      "nl": "Huishoudens als werkgever"
+    },
+    {
+      "code": "U",
+      "nl": "Extraterritoriale organisaties"
+    }
+  ],
+  "provinces": [
+    {
+      "code": "10000",
+      "name": "Antwerpen"
+    },
+    {
+      "code": "21000",
+      "name": "Brussel"
+    },
+    {
+      "code": "50000",
+      "name": "Henegouwen"
+    },
+    {
+      "code": "70000",
+      "name": "Limburg"
+    },
+    {
+      "code": "60000",
+      "name": "Luik"
+    },
+    {
+      "code": "80000",
+      "name": "Luxemburg"
+    },
+    {
+      "code": "90000",
+      "name": "Namen"
+    },
+    {
+      "code": "40000",
+      "name": "Oost-Vlaanderen"
+    },
+    {
+      "code": "20001",
+      "name": "Vlaams-Brabant"
+    },
+    {
+      "code": "20002",
+      "name": "Waals-Brabant"
+    },
+    {
+      "code": "30000",
+      "name": "West-Vlaanderen"
+    }
+  ],
+  "years": [
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "construction_sector": "F",
+  "durations": [
+    {
+      "code": "Minder dan 1 jaar",
+      "short": "<1 jaar"
+    },
+    {
+      "code": "Van 1 jaar tot minder dan 2 jaar",
+      "short": "1-2 jaar"
+    },
+    {
+      "code": "Van 2 jaar tot minder dan 3 jaar",
+      "short": "2-3 jaar"
+    },
+    {
+      "code": "Van 3 jaar tot minder dan 4 jaar",
+      "short": "3-4 jaar"
+    },
+    {
+      "code": "Van 4 jaar tot minder dan 5 jaar",
+      "short": "4-5 jaar"
+    },
+    {
+      "code": "Van 5 jaar tot minder dan 10 jaar",
+      "short": "5-10 jaar"
+    },
+    {
+      "code": "Van 10 jaar tot minder dan 15 jaar",
+      "short": "10-15 jaar"
+    },
+    {
+      "code": "Van 15 jaar tot minder dan 20 jaar",
+      "short": "15-20 jaar"
+    },
+    {
+      "code": "20 jaar of meer",
+      "short": "20+ jaar"
+    }
+  ],
+  "worker_classes": [
+    {
+      "code": "0 - 4 werknemers",
+      "name": "0 - 4 werknemers"
+    },
+    {
+      "code": "10 - 19 werknemers",
+      "name": "10 - 19 werknemers"
+    },
+    {
+      "code": "100 - 199 werknemers",
+      "name": "100 - 199 werknemers"
+    },
+    {
+      "code": "1000 werknemers en meer",
+      "name": "1000 werknemers en meer"
+    },
+    {
+      "code": "20 - 49 werknemers",
+      "name": "20 - 49 werknemers"
+    },
+    {
+      "code": "200 - 249 werknemers",
+      "name": "200 - 249 werknemers"
+    },
+    {
+      "code": "250 - 499 werknemers",
+      "name": "250 - 499 werknemers"
+    },
+    {
+      "code": "5 - 9 werknemers",
+      "name": "5 - 9 werknemers"
+    },
+    {
+      "code": "50 - 99 werknemers",
+      "name": "50 - 99 werknemers"
+    },
+    {
+      "code": "500 - 999 werknemers",
+      "name": "500 - 999 werknemers"
+    }
+  ]
+}

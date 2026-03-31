@@ -1,0 +1,70 @@
+[
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD",
+    "bd_short": "Het gemeentelijk patrimonium duurzaam beheren en vernieuwen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP",
+    "ap_short": "Onderhoud en renovatie van gebouwen versnellen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT",
+    "ac_short": "Optimaliseren en vergroenen technische installaties.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 7760500.0,
+    "amount_per_capita": 1544.34,
+    "yearly_amounts": {
+      "2026": 3429000.0,
+      "2027": 2407250.0,
+      "2028": 1090250.0,
+      "2029": 586500.0,
+      "2030": 108500.0,
+      "2031": 139000.0
+    },
+    "yearly_per_capita": {
+      "2026": 682.37,
+      "2027": 479.04,
+      "2028": 216.96,
+      "2029": 116.71,
+      "2030": 21.59,
+      "2031": 27.66
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB",
+    "ac_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 4953181.0,
+    "amount_per_capita": 985.68,
+    "yearly_amounts": {
+      "2026": 1478637.0,
+      "2027": 1514920.0,
+      "2028": 390257.0,
+      "2029": 384834.0,
+      "2030": 549596.0,
+      "2031": 634937.0
+    },
+    "yearly_per_capita": {
+      "2026": 294.25,
+      "2027": 301.47,
+      "2028": 77.66,
+      "2029": 76.58,
+      "2030": 109.37,
+      "2031": 126.35
+    }
+  }
+]

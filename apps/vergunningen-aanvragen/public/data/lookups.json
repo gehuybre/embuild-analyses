@@ -1,0 +1,66 @@
+{
+  "types": [
+    {
+      "code": "eengezins",
+      "nl": "Eengezinswoning"
+    },
+    {
+      "code": "meergezins",
+      "nl": "Meergezinswoning"
+    },
+    {
+      "code": "kamer",
+      "nl": "Kamerwoning"
+    }
+  ],
+  "besluit_types": [
+    {
+      "code": "Gemeente",
+      "nl": "Gemeente"
+    },
+    {
+      "code": "Provincie",
+      "nl": "Provincie"
+    },
+    {
+      "code": "Vlaamse Overheid",
+      "nl": "Vlaamse Overheid"
+    },
+    {
+      "code": "RVVB",
+      "nl": "RVVB"
+    },
+    {
+      "code": "Onbekend",
+      "nl": "Onbekend"
+    }
+  ],
+  "handelingen": [
+    {
+      "code": "nieuwbouw",
+      "nl": "Nieuwbouw"
+    },
+    {
+      "code": "verbouw",
+      "nl": "Verbouwen"
+    },
+    {
+      "code": "sloop",
+      "nl": "Sloop"
+    }
+  ],
+  "aanvrager_types": [
+    {
+      "code": "natuurlijk_persoon",
+      "nl": "Natuurlijk persoon"
+    },
+    {
+      "code": "overheid_rechtspersoon",
+      "nl": "Overheid / rechtspersoon"
+    },
+    {
+      "code": "andere",
+      "nl": "Andere / onbekend"
+    }
+  ]
+}

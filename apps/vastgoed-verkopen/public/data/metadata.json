@@ -1,0 +1,73 @@
+{
+  "source_url": "https://statbel.fgov.be/sites/default/files/files/opendata/immo/vastgoed_2010_9999.xlsx",
+  "source_page_url": "https://statbel.fgov.be/nl/themas/bouwen-wonen/vastgoedprijzen",
+  "source_open_data_url": "https://statbel.fgov.be/sites/default/files/files/opendata/immo/vastgoed_2010_9999.xlsx",
+  "source_direct_municipality_url": "https://statbel.fgov.be/sites/default/files/files/documents/Bouwen%20%26%20wonen/2.1%20Vastgoedprijzen/NM/NL_immo_statbel_kwartaal_per_gemeente.xlsx",
+  "open_data_page_url": "https://statbel.fgov.be/nl/open-data/verkopen-vastgoed-volgens-aard-de-verkoopsakte-belgie",
+  "latest_year": 2024,
+  "latest_date": "2025-09-30",
+  "property_types": [
+    "huizen_23",
+    "huizen_4plus",
+    "alle_huizen",
+    "appartementen"
+  ],
+  "years": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "quarterly_chunks": 6,
+  "total_records": 145908,
+  "records_per_chunk": 25953,
+  "chunks": [
+    {
+      "index": 0,
+      "filename": "quarterly_chunk_0.json",
+      "records": 25953,
+      "size_mb": 2.9961233139038086
+    },
+    {
+      "index": 1,
+      "filename": "quarterly_chunk_1.json",
+      "records": 25953,
+      "size_mb": 2.9934377670288086
+    },
+    {
+      "index": 2,
+      "filename": "quarterly_chunk_2.json",
+      "records": 25953,
+      "size_mb": 2.997694969177246
+    },
+    {
+      "index": 3,
+      "filename": "quarterly_chunk_3.json",
+      "records": 25953,
+      "size_mb": 3.00360107421875
+    },
+    {
+      "index": 4,
+      "filename": "quarterly_chunk_4.json",
+      "records": 25953,
+      "size_mb": 3.007343292236328
+    },
+    {
+      "index": 5,
+      "filename": "quarterly_chunk_5.json",
+      "records": 16143,
+      "size_mb": 1.867746353149414
+    }
+  ]
+}

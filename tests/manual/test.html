@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vergunningen-goedkeuringen embeds</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 24px;
+        background: #f8fafc;
+        color: #0f172a;
+      }
+      h1 {
+        margin-bottom: 8px;
+      }
+      h2 {
+        margin-top: 32px;
+        margin-bottom: 12px;
+      }
+      .embed-grid {
+        display: grid;
+        gap: 16px;
+      }
+      .embed-card {
+        background: #ffffff;
+        border: 1px solid #e2e8f0;
+        border-radius: 10px;
+        padding: 12px;
+        box-shadow: 0 1px 2px rgba(15, 23, 42, 0.06);
+      }
+      .embed-card h3 {
+        margin: 0 0 8px 0;
+        font-size: 16px;
+      }
+      iframe {
+        width: 100%;
+        border: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Vergunningen-goedkeuringen embeds</h1>
+    <p>Gebruik dit bestand om alle embeds van vergunningen-goedkeuringen lokaal te testen.</p>
+
+    <h2>Standaard embeds</h2>
+    <div class="embed-grid">
+      <div class="embed-card">
+        <h3>Renovatie (gebouwen) - chart</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/renovatie/?view=chart"
+          data-data-blog-embed="true"
+          height="500"
+          title="Renovatie (gebouwen) - chart"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="embed-card">
+        <h3>Renovatie (gebouwen) - map</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/renovatie/?view=map"
+          data-data-blog-embed="true"
+          height="500"
+          title="Renovatie (gebouwen) - map"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div class="embed-card">
+        <h3>Nieuwbouw (woningen totaal) - chart</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw-dwell/?view=chart"
+          data-data-blog-embed="true"
+          height="500"
+          title="Nieuwbouw (woningen totaal) - chart"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="embed-card">
+        <h3>Nieuwbouw (woningen totaal) - map</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw-dwell/?view=map"
+          data-data-blog-embed="true"
+          height="500"
+          title="Nieuwbouw (woningen totaal) - map"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div class="embed-card">
+        <h3>Nieuwbouw (appartementen) - chart</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw-apt/?view=chart"
+          data-data-blog-embed="true"
+          height="500"
+          title="Nieuwbouw (appartementen) - chart"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="embed-card">
+        <h3>Nieuwbouw (appartementen) - map</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw-apt/?view=map"
+          data-data-blog-embed="true"
+          height="500"
+          title="Nieuwbouw (appartementen) - map"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div class="embed-card">
+        <h3>Nieuwbouw (eengezinswoningen) - chart</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw-house/?view=chart"
+          data-data-blog-embed="true"
+          height="500"
+          title="Nieuwbouw (eengezinswoningen) - chart"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="embed-card">
+        <h3>Nieuwbouw (eengezinswoningen) - map</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw-house/?view=map"
+          data-data-blog-embed="true"
+          height="500"
+          title="Nieuwbouw (eengezinswoningen) - map"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div class="embed-card">
+        <h3>Nieuwbouw (legacy) - chart</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw/?view=chart"
+          data-data-blog-embed="true"
+          height="500"
+          title="Nieuwbouw (legacy) - chart"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="embed-card">
+        <h3>Nieuwbouw (legacy) - map</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw/?view=map"
+          data-data-blog-embed="true"
+          height="500"
+          title="Nieuwbouw (legacy) - map"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+
+    <h2>Periodevergelijking embeds</h2>
+    <div class="embed-grid">
+      <div class="embed-card">
+        <h3>Renovatie - vergelijking (volledig)</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/renovatie-vergelijking/?view=chart"
+          data-data-blog-embed="true"
+          height="700"
+          title="Renovatie - vergelijking (volledig)"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="embed-card">
+        <h3>Renovatie - vergelijking (aantallen)</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/renovatie-vergelijking-aantallen/?view=chart"
+          data-data-blog-embed="true"
+          height="520"
+          title="Renovatie - vergelijking (aantallen)"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="embed-card">
+        <h3>Renovatie - vergelijking (% verandering)</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/renovatie-vergelijking-percentage/?view=chart"
+          data-data-blog-embed="true"
+          height="520"
+          title="Renovatie - vergelijking (% verandering)"
+          loading="lazy"
+        ></iframe>
+      </div>
+
+      <div class="embed-card">
+        <h3>Nieuwbouw - vergelijking (volledig)</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw-vergelijking/?view=chart"
+          data-data-blog-embed="true"
+          height="700"
+          title="Nieuwbouw - vergelijking (volledig)"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="embed-card">
+        <h3>Nieuwbouw - vergelijking (aantallen)</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw-vergelijking-aantallen/?view=chart"
+          data-data-blog-embed="true"
+          height="520"
+          title="Nieuwbouw - vergelijking (aantallen)"
+          loading="lazy"
+        ></iframe>
+      </div>
+      <div class="embed-card">
+        <h3>Nieuwbouw - vergelijking (% verandering)</h3>
+        <iframe
+          src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw-vergelijking-percentage/?view=chart"
+          data-data-blog-embed="true"
+          height="520"
+          title="Nieuwbouw - vergelijking (% verandering)"
+          loading="lazy"
+        ></iframe>
+      </div>
+    </div>
+
+    <script>
+      (function () {
+        if (window.__DATA_BLOG_EMBED_RESIZER__) return;
+        window.__DATA_BLOG_EMBED_RESIZER__ = true;
+
+        window.addEventListener("message", function (event) {
+          var data = event.data;
+          if (!data || data.type !== "data-blog-embed:resize") return;
+          var height = Number(data.height);
+          if (!isFinite(height) || height <= 0) return;
+
+          var iframes = document.querySelectorAll('iframe[data-data-blog-embed="true"]');
+          for (var i = 0; i < iframes.length; i++) {
+            var iframe = iframes[i];
+            if (iframe.contentWindow === event.source) {
+              iframe.style.height = Math.ceil(height) + "px";
+              return;
+            }
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>

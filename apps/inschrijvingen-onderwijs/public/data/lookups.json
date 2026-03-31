@@ -1,0 +1,270 @@
+{
+  "years": [
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "latest_year": 2024,
+  "province_codes_flanders": [
+    "10000",
+    "20001",
+    "30000",
+    "40000",
+    "70000"
+  ],
+  "provinces": [
+    {
+      "code": "10000",
+      "name": "Antwerpen (Prov.)"
+    },
+    {
+      "code": "70000",
+      "name": "Limburg"
+    },
+    {
+      "code": "40000",
+      "name": "Oost-Vlaanderen"
+    },
+    {
+      "code": "20001",
+      "name": "Vlaams-Brabant"
+    },
+    {
+      "code": "30000",
+      "name": "West-Vlaanderen"
+    }
+  ],
+  "dimensions": {
+    "type_onderwijsinstelling": [
+      {
+        "code": "v2311_hoofdstructuur_311",
+        "name": "secundair onderwijs"
+      },
+      {
+        "code": "v2311_hoofdstructuur_411",
+        "name": "hogeschool"
+      },
+      {
+        "code": "v2311_hoofdstructuur_511",
+        "name": "universiteit"
+      }
+    ],
+    "opleiding": [
+      {
+        "code": "v2311_opleiding_1",
+        "name": "professioneel gerichte bachelor"
+      },
+      {
+        "code": "v2311_opleiding_10",
+        "name": "specifieke lerarenopleiding na master"
+      },
+      {
+        "code": "v2311_opleiding_11",
+        "name": "specifieke lerarenopleiding na professioneel gerichte bachelor"
+      },
+      {
+        "code": "v2311_opleiding_12",
+        "name": "postgraduaat"
+      },
+      {
+        "code": "v2311_opleiding_13",
+        "name": "academische graad van doctor"
+      },
+      {
+        "code": "v2311_opleiding_14",
+        "name": "doctoraatsopleiding"
+      },
+      {
+        "code": "v2311_opleiding_15",
+        "name": "graduaatsopleiding"
+      },
+      {
+        "code": "v2311_opleiding_2",
+        "name": "academisch gerichte bachelor"
+      },
+      {
+        "code": "v2311_opleiding_29",
+        "name": "bij- en nascholing"
+      },
+      {
+        "code": "v2311_opleiding_3",
+        "name": "master"
+      },
+      {
+        "code": "v2311_opleiding_30",
+        "name": "HBO5"
+      },
+      {
+        "code": "v2311_opleiding_31",
+        "name": "specifieke lerarenopleiding uit het volwassenenonderwijs"
+      },
+      {
+        "code": "v2311_opleiding_4",
+        "name": "master na master"
+      },
+      {
+        "code": "v2311_opleiding_5",
+        "name": "master na professioneel gerichte bachelor"
+      },
+      {
+        "code": "v2311_opleiding_6",
+        "name": "bachelor na bachelor"
+      },
+      {
+        "code": "v2311_opleiding_7",
+        "name": "schakelprogramma"
+      },
+      {
+        "code": "v2311_opleiding_8",
+        "name": "voorbereidingsprogramma"
+      }
+    ],
+    "studiegebied": [
+      {
+        "code": "v2311_studiegebied_101",
+        "name": "wijsbegeerte en moraalwetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_102",
+        "name": "godgeleerdheid, godsdienstwetenschappen en kerkelijk recht"
+      },
+      {
+        "code": "v2311_studiegebied_103",
+        "name": "taal- en letterkunde"
+      },
+      {
+        "code": "v2311_studiegebied_104",
+        "name": "geschiedenis"
+      },
+      {
+        "code": "v2311_studiegebied_105",
+        "name": "archeologie en kunstwetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_106",
+        "name": "rechten, notariaat en criminologische wetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_107",
+        "name": "psychologie en pedagogische wetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_108",
+        "name": "economische en toegepaste economische wetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_109",
+        "name": "politieke en sociale wetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_110",
+        "name": "sociale gezondheidswetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_111",
+        "name": "bewegings- en revalidatiewetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_112",
+        "name": "wetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_113",
+        "name": "toegepaste wetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_114",
+        "name": "toegepaste biologische wetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_115",
+        "name": "geneeskunde"
+      },
+      {
+        "code": "v2311_studiegebied_116",
+        "name": "tandheelkunde"
+      },
+      {
+        "code": "v2311_studiegebied_117",
+        "name": "diergeneeskunde"
+      },
+      {
+        "code": "v2311_studiegebied_118",
+        "name": "farmaceutische wetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_119",
+        "name": "onderwijs"
+      },
+      {
+        "code": "v2311_studiegebied_120",
+        "name": "biomedische wetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_121",
+        "name": "verkeerskunde"
+      },
+      {
+        "code": "v2311_studiegebied_122",
+        "name": "sociaal-agogisch werk"
+      },
+      {
+        "code": "v2311_studiegebied_123",
+        "name": "architectuur"
+      },
+      {
+        "code": "v2311_studiegebied_124",
+        "name": "gezondheidszorg"
+      },
+      {
+        "code": "v2311_studiegebied_125",
+        "name": "industriële wetenschappen en technologie"
+      },
+      {
+        "code": "v2311_studiegebied_126",
+        "name": "biotechniek"
+      },
+      {
+        "code": "v2311_studiegebied_127",
+        "name": "productontwikkeling"
+      },
+      {
+        "code": "v2311_studiegebied_128",
+        "name": "toegepaste taalkunde"
+      },
+      {
+        "code": "v2311_studiegebied_129",
+        "name": "handelswetenschappen en bedrijfskunde"
+      },
+      {
+        "code": "v2311_studiegebied_130",
+        "name": "audiovisuele en beeldende kunst"
+      },
+      {
+        "code": "v2311_studiegebied_131",
+        "name": "muziek en podiumkunsten"
+      },
+      {
+        "code": "v2311_studiegebied_132",
+        "name": "nautische wetenschappen"
+      },
+      {
+        "code": "v2311_studiegebied_134",
+        "name": "conservatie-restauratie"
+      },
+      {
+        "code": "v2311_studiegebied_998",
+        "name": "combinatie van studiegebieden"
+      },
+      {
+        "code": "v2311_studiegebied_999",
+        "name": "niet van toepassing"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "municipality": "Maldegem",
+    "nis_code": "43010",
+    "bd_code": "M",
+    "bd_short": "Bruisend Maldegem",
+    "bd_long": "Commentaar:",
+    "ap_code": "M",
+    "ap_short": "Investeren in sport en spel",
+    "ap_long": "Commentaar:",
+    "ac_code": "M",
+    "ac_short": "Investeren in sport- en jeugdinfrastructuur",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 93928552.0,
+    "amount_per_capita": 3745.02,
+    "yearly_amounts": {
+      "2026": 15256470.0,
+      "2027": 19786588.0,
+      "2028": 19150893.0,
+      "2029": 16834464.0,
+      "2030": 17497514.0,
+      "2031": 5402623.0
+    },
+    "yearly_per_capita": {
+      "2026": 608.29,
+      "2027": 788.91,
+      "2028": 763.56,
+      "2029": 671.21,
+      "2030": 697.64,
+      "2031": 215.41
+    }
+  },
+  {
+    "municipality": "Maldegem",
+    "nis_code": "43010",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB",
+    "ac_short": "GBB algemeen directeur",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3844832.0,
+    "amount_per_capita": 153.3,
+    "yearly_amounts": {
+      "2026": 1196224.0,
+      "2027": 1219558.0,
+      "2028": 352232.0,
+      "2029": 353897.0,
+      "2030": 365595.0,
+      "2031": 357326.0
+    },
+    "yearly_per_capita": {
+      "2026": 47.69,
+      "2027": 48.62,
+      "2028": 14.04,
+      "2029": 14.11,
+      "2030": 14.58,
+      "2031": 14.25
+    }
+  }
+]

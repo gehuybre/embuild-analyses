@@ -1,0 +1,70 @@
+[
+  {
+    "municipality": "Zedelgem",
+    "nis_code": "31040",
+    "bd_code": "BDS",
+    "bd_short": "BD 13.13",
+    "bd_long": "Zedelgem zet verder in op maximale sociale en maatschappelijke participatie van alle inwoners.",
+    "ap_code": "AP",
+    "ap_short": "AP 13.13.2",
+    "ap_long": "Streven naar een kwalitatieve en inclusieve inrichting van de publieke ruimte, waarbij actieve verplaatsing, sociale interactie en beleving voor alle doelgroepen centraal staan",
+    "ac_code": "AP",
+    "ac_short": "Neen",
+    "ac_long": "Voorzien van een speeltoestel in elke dorpskern dat specifiek toegankelijk en bruikbaar is voor kinderen en/of volwassenen met een zorg- of ondersteuningsnood.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30146594.0,
+    "amount_per_capita": 1250.86,
+    "yearly_amounts": {
+      "2026": 3305934.0,
+      "2027": 8758960.0,
+      "2028": 13086950.0,
+      "2029": 2835250.0,
+      "2030": 1935750.0,
+      "2031": 223750.0
+    },
+    "yearly_per_capita": {
+      "2026": 137.17,
+      "2027": 363.43,
+      "2028": 543.01,
+      "2029": 117.64,
+      "2030": 80.32,
+      "2031": 9.28
+    }
+  },
+  {
+    "municipality": "Zedelgem",
+    "nis_code": "31040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "",
+    "ap_short": "",
+    "ap_long": "",
+    "ac_code": "",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 29363048.0,
+    "amount_per_capita": 1218.34,
+    "yearly_amounts": {
+      "2026": 9132987.0,
+      "2027": 6153156.0,
+      "2028": 4122637.0,
+      "2029": 3079174.0,
+      "2030": 3946748.0,
+      "2031": 2928346.0
+    },
+    "yearly_per_capita": {
+      "2026": 378.95,
+      "2027": 255.31,
+      "2028": 171.06,
+      "2029": 127.76,
+      "2030": 163.76,
+      "2031": 121.5
+    }
+  }
+]

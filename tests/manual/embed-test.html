@@ -1,0 +1,31 @@
+<iframe
+  src="http://localhost:3000/embed/vergunningen-goedkeuringen/nieuwbouw-vergelijking/?view=map"
+  data-data-blog-embed="true"
+  width="100%"
+  height="700"
+  style="border: 0;"
+  title="Nieuwbouw - vergelijking 2019-2021 vs 2022-2025"
+  loading="lazy"
+></iframe>
+<script>
+(function () {
+  if (window.__DATA_BLOG_EMBED_RESIZER__) return;
+  window.__DATA_BLOG_EMBED_RESIZER__ = true;
+
+  window.addEventListener("message", function (event) {
+    var data = event.data;
+    if (!data || data.type !== "data-blog-embed:resize") return;
+    var height = Number(data.height);
+    if (!isFinite(height) || height <= 0) return;
+
+    var iframes = document.querySelectorAll('iframe[data-data-blog-embed="true"]');
+    for (var i = 0; i < iframes.length; i++) {
+      var iframe = iframes[i];
+      if (iframe.contentWindow === event.source) {
+        iframe.style.height = Math.ceil(height) + "px";
+        return;
+      }
+    }
+  });
+})();
+</script>

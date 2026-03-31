@@ -1,0 +1,36 @@
+[
+  {
+    "municipality": "Berlare",
+    "nis_code": "42003",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "",
+    "ap_short": "overigBeleid",
+    "ap_long": "overigBeleid",
+    "ac_code": "",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 29916890.0,
+    "amount_per_capita": 1883.53,
+    "yearly_amounts": {
+      "2026": 5963467.0,
+      "2027": 7221199.0,
+      "2028": 6869752.0,
+      "2029": 4670217.0,
+      "2030": 2869400.0,
+      "2031": 2322855.0
+    },
+    "yearly_per_capita": {
+      "2026": 375.45,
+      "2027": 454.64,
+      "2028": 432.51,
+      "2029": 294.03,
+      "2030": 180.65,
+      "2031": 146.24
+    }
+  }
+]

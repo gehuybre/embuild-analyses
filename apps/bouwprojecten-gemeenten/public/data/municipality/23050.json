@@ -1,0 +1,70 @@
+[
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS",
+    "bd_short": "BD6  Financieel gezond, klantgericht, efficiënt",
+    "bd_long": "Meise werkt als een wendbare, klantgerichte en financieel gezonde organisatie aan de toekomst",
+    "ap_code": "AP",
+    "ap_short": "Slim organiseren",
+    "ap_long": "We organiseren onze gemeente slim en hanteren een gezond financiëel beheer",
+    "ac_code": "AP",
+    "ac_short": "Kerkenbeleidsplan",
+    "ac_long": "We rollen het kerkenbeleidsplan uit en zetten in op een intensieve valorisatie  in de vorm van een nevenbestemming van alle kerkgebouwen met een gemeenschaps- of verenigingsdoel",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 38354701.0,
+    "amount_per_capita": 1832.62,
+    "yearly_amounts": {
+      "2026": 5900885.0,
+      "2027": 10757021.0,
+      "2028": 8212015.0,
+      "2029": 6860460.0,
+      "2030": 5504320.0,
+      "2031": 1120000.0
+    },
+    "yearly_per_capita": {
+      "2026": 281.95,
+      "2027": 513.98,
+      "2028": 392.38,
+      "2029": 327.8,
+      "2030": 263.0,
+      "2031": 53.51
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "",
+    "ap_short": "overigBeleid",
+    "ap_long": "overigBeleid",
+    "ac_code": "",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 12958630.0,
+    "amount_per_capita": 619.18,
+    "yearly_amounts": {
+      "2026": 6533304.0,
+      "2027": 3552388.0,
+      "2028": 821817.0,
+      "2029": 547304.0,
+      "2030": 1000353.0,
+      "2031": 503464.0
+    },
+    "yearly_per_capita": {
+      "2026": 312.17,
+      "2027": 169.74,
+      "2028": 39.27,
+      "2029": 26.15,
+      "2030": 47.8,
+      "2031": 24.06
+    }
+  }
+]

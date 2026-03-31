@@ -1,0 +1,70 @@
+[
+  {
+    "municipality": "Blankenberge",
+    "nis_code": "31004",
+    "bd_code": "D",
+    "bd_short": "Financieel gezond",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP",
+    "ap_short": "Actief zoeken naar opbrengstenoptimalisatie en kostenreductie",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT",
+    "ac_short": "SJ_Jaarlijkse vervangingsinvesteringen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 48114089.0,
+    "amount_per_capita": 2298.81,
+    "yearly_amounts": {
+      "2026": 13322448.0,
+      "2027": 18789923.0,
+      "2028": 6888059.0,
+      "2029": 894288.0,
+      "2030": 861174.0,
+      "2031": 7358197.0
+    },
+    "yearly_per_capita": {
+      "2026": 636.52,
+      "2027": 897.75,
+      "2028": 329.1,
+      "2029": 42.73,
+      "2030": 41.15,
+      "2031": 351.56
+    }
+  },
+  {
+    "municipality": "Blankenberge",
+    "nis_code": "31004",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Gelijkblijvend beleid Archief",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB",
+    "ac_short": "Gelijkblijvend beleid Archief",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 37286705.0,
+    "amount_per_capita": 1781.5,
+    "yearly_amounts": {
+      "2026": 7297071.0,
+      "2027": 5937980.0,
+      "2028": 8999503.0,
+      "2029": 6892472.0,
+      "2030": 5021921.0,
+      "2031": 3137758.0
+    },
+    "yearly_per_capita": {
+      "2026": 348.64,
+      "2027": 283.71,
+      "2028": 429.98,
+      "2029": 329.31,
+      "2030": 239.94,
+      "2031": 149.92
+    }
+  }
+]
