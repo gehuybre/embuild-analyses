@@ -1,12 +1,12 @@
 {
   "$schema": "https://turbo.build/schema.json",
+  "globalPassThroughEnv": ["NEXT_PUBLIC_DEPLOY_VERSION"],
   "tasks": {
     "build": {
       "dependsOn": ["^build"],
       "outputs": ["out/**", ".next/**"],
       "env": [
-        "NEXT_PUBLIC_BASE_PATH",
-        "NEXT_PUBLIC_DEPLOY_VERSION"
+        "NEXT_PUBLIC_BASE_PATH"
       ]
     },
     "dev": {

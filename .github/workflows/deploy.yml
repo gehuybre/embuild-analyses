@@ -42,7 +42,7 @@ jobs:
       - name: Cache Turborepo
         uses: actions/cache@v4
         with:
-          path: node_modules/.cache/turbo
+          path: .turbo/cache
           key: turbo-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ github.sha }}
           restore-keys: |
             turbo-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}-
