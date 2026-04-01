@@ -73,9 +73,3 @@ jobs:
             git push origin HEAD:main
             echo "changed=true" >> "${GITHUB_OUTPUT}"
           fi
-
-      - name: Trigger deploy
-        if: steps.commit_changes.outputs.changed == 'true'
-        run: gh workflow run deploy.yml
-        env:
-          GH_TOKEN: ${{ github.token }}
