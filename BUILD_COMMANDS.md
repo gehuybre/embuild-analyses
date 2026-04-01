@@ -17,6 +17,22 @@ pnpm --filter portal build
 pnpm --filter arbeiders-bedienden build
 ```
 
+## Rebuild + merge one app
+
+```bash
+pnpm build:single-preview -- <app-slug>
+```
+
+Examples:
+
+```bash
+pnpm build:single-preview -- vergunningen-goedkeuringen
+pnpm build:single-preview -- nbb-rente
+```
+
+`merge-outputs` now auto-refreshes portal metadata and rebuilds `portal` when an app metadata change would otherwise leave the homepage out of sync.
+For supported data-driven apps, each app `prebuild` also syncs the visible blog date and `Data beschikbaar tot en met …` label from the latest local dataset before the build starts.
+
 ## Rebuild everything with merge in one line
 
 ```bash

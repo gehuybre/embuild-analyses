@@ -28,7 +28,7 @@ export default function Home() {
               <CardHeader>
                 <CardTitle>{analysis.title}</CardTitle>
                 <CardDescription>
-                  {format(parseISO(analysis.sourcePublicationDate || analysis.date), "d MMMM yyyy", { locale: nl })}
+                  {format(parseISO(analysis.date), "d MMMM yyyy", { locale: nl })}
                 </CardDescription>
               </CardHeader>
               <CardContent>

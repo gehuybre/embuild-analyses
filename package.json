@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
+    "build:single-preview": "node scripts/build-single-app-preview.mjs",
     "build:merge": "node scripts/merge-outputs.mjs",
     "dev": "turbo run dev",
     "lint": "turbo run lint",

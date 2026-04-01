@@ -74,5 +74,12 @@ for (const slug of readdirSync(APPS_DIR).sort()) {
 // Sort by date descending (newest first)
 entries.sort((a, b) => b.date.localeCompare(a.date))
 
-writeFileSync(OUTPUT, JSON.stringify(entries, null, 2) + "\n")
-console.log(`✓ Generated analyses.json with ${entries.length} entries`)
+const nextOutput = JSON.stringify(entries, null, 2) + "\n"
+const currentOutput = existsSync(OUTPUT) ? readFileSync(OUTPUT, "utf-8") : null
+
+if (currentOutput === nextOutput) {
+  console.log(`✓ analyses.json already up to date with ${entries.length} entries`)
+} else {
+  writeFileSync(OUTPUT, nextOutput)
+  console.log(`✓ Generated analyses.json with ${entries.length} entries`)
+}

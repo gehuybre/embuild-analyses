@@ -19,6 +19,7 @@ export function AnalysisLayout({
   title,
   date,
   summary,
+  dataAvailabilityLabel,
   tags,
   source,
   hideBackLink,
@@ -27,6 +28,7 @@ export function AnalysisLayout({
   title: string
   date: string
   summary?: string
+  dataAvailabilityLabel?: string
   tags?: string[]
   source?: SourceInfo
   hideBackLink?: boolean
@@ -55,6 +57,11 @@ export function AnalysisLayout({
         </time>
 
         {summary && <p className="mt-4 text-muted-foreground">{summary}</p>}
+        {dataAvailabilityLabel && (
+          <p className="mt-2 text-sm text-muted-foreground">
+            Data beschikbaar tot en met {dataAvailabilityLabel}.
+          </p>
+        )}
 
         {!!tags?.length && (
           <div className="mt-5 flex flex-wrap justify-center gap-2">

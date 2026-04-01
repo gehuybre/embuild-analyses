@@ -24,11 +24,54 @@
  */
 
 import { readdirSync, cpSync, existsSync, rmSync, mkdirSync, statSync } from "node:fs"
-import { join, relative } from "node:path"
+import { spawnSync } from "node:child_process"
+import { join } from "node:path"
 
 const ROOT = join(import.meta.dirname, "..")
 const APPS_DIR = join(ROOT, "apps")
 const DIST = join(ROOT, "dist")
+const PORTAL_DIR = join(APPS_DIR, "portal")
+const PORTAL_OUT = join(PORTAL_DIR, "out")
+const PORTAL_OUT_INDEX = join(PORTAL_OUT, "index.html")
+const PORTAL_ANALYSES_JSON = join(PORTAL_DIR, "public", "analyses.json")
+const PORTAL_INPUTS = [
+  PORTAL_ANALYSES_JSON,
+  join(PORTAL_DIR, "src", "app", "page.tsx"),
+  join(PORTAL_DIR, "src", "app", "layout.tsx"),
+]
+
+function run(command, args) {
+  const result = spawnSync(command, args, {
+    cwd: ROOT,
+    stdio: "inherit",
+  })
+
+  if (result.status !== 0) {
+    process.exit(result.status ?? 1)
+  }
+}
+
+function ensurePortalOutputUpToDate() {
+  run("node", ["scripts/generate-portal-data.mjs"])
+
+  if (!existsSync(PORTAL_OUT_INDEX)) {
+    console.log("↻ Portal output missing; rebuilding portal.")
+    run("pnpm", ["--filter", "portal", "build"])
+    return
+  }
+
+  const portalIndexMtime = statSync(PORTAL_OUT_INDEX).mtimeMs
+  const latestInputMtime = PORTAL_INPUTS
+    .filter((path) => existsSync(path))
+    .reduce((latest, path) => Math.max(latest, statSync(path).mtimeMs), 0)
+
+  if (latestInputMtime > portalIndexMtime) {
+    console.log("↻ Portal inputs changed; rebuilding portal to keep the homepage in sync.")
+    run("pnpm", ["--filter", "portal", "build"])
+  }
+}
+
+ensurePortalOutputUpToDate()
 
 // Clean dist
 if (existsSync(DIST)) {
@@ -37,9 +80,8 @@ if (existsSync(DIST)) {
 mkdirSync(DIST, { recursive: true })
 
 // 1. Copy portal output → dist/
-const portalOut = join(APPS_DIR, "portal", "out")
-if (existsSync(portalOut)) {
-  cpSync(portalOut, DIST, { recursive: true })
+if (existsSync(PORTAL_OUT)) {
+  cpSync(PORTAL_OUT, DIST, { recursive: true })
   console.log("✓ Portal → dist/")
 } else {
   console.warn("⚠ Portal has no out/ directory — skipping")

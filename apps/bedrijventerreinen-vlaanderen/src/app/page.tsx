@@ -5,6 +5,7 @@ const metadata = {
   title: "Bezettingsgraad van bedrijventerreinen in Vlaanderen",
   date: "2025-01-28",
   summary: "Analyse van de bezettingsgraad van bedrijventerreinen in Vlaanderen tussen 2014 en 2025, met geografische verdeling per gemeente.",
+  dataAvailabilityLabel: "2025",
   tags: ["economie","ruimtelijke ordening","bedrijventerreinen"],
   source: {
     provider: "Vlaanderen - Gemeente- en Stadsmonitor",

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Scrape publication date from Statbel pages and update MDX frontmatter."""
+"""Scrape publication date from Statbel pages and update analysis metadata files."""
 
 import argparse
 import re
@@ -17,6 +17,8 @@ DUTCH_MONTHS = {
 }
 
 FRONTMATTER_RE = re.compile(r'^---\n(.*?)\n---\n?', re.DOTALL)
+PAGE_DATE_RE = re.compile(r'^(\s*date:\s*)"([^"]+)"', re.MULTILINE)
+PAGE_PUBLICATION_DATE_RE = re.compile(r'^(\s*publicationDate:\s*)"([^"]+)"', re.MULTILINE)
 
 
 def fetch_publication_date(url: str) -> str | None:
@@ -117,6 +119,45 @@ def update_mdx_frontmatter(mdx_path: Path, publication_date: str, sync_date_fiel
     return True
 
 
+def update_first_quoted_field(content: str, pattern: re.Pattern[str], value: str) -> tuple[str, bool]:
+    match = pattern.search(content)
+    if not match:
+        return content, False
+
+    existing_value = match.group(2)
+    if existing_value == value:
+        return content, False
+
+    updated_content, count = pattern.subn(rf'\1"{value}"', content, count=1)
+    return updated_content, count > 0
+
+
+def update_page_metadata(page_path: Path, publication_date: str, sync_date_field: bool = False) -> bool:
+    """
+    Update the visible analysis metadata in src/app/page.tsx.
+
+    Returns True if the file was modified, False otherwise.
+    """
+    content = page_path.read_text(encoding='utf-8')
+    updated_content = content
+    modified = False
+
+    updated_content, changed = update_first_quoted_field(updated_content, PAGE_PUBLICATION_DATE_RE, publication_date)
+    modified = modified or changed
+
+    if sync_date_field:
+        updated_content, changed = update_first_quoted_field(updated_content, PAGE_DATE_RE, publication_date)
+        modified = modified or changed
+
+    if not modified:
+        print(f"Page metadata already up to date in {page_path}")
+        return False
+
+    page_path.write_text(updated_content, encoding='utf-8')
+    print(f"Updated {page_path} with publication date {publication_date}")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('analysis_slug')
@@ -128,13 +169,14 @@ def main():
     )
     args = parser.parse_args()
 
-    # Find the MDX file
+    # Find metadata files
     script_dir = Path(__file__).parent
     repo_root = script_dir.parent
     mdx_path = repo_root / 'apps' / args.analysis_slug / 'content.mdx'
+    page_path = repo_root / 'apps' / args.analysis_slug / 'src' / 'app' / 'page.tsx'
 
-    if not mdx_path.exists():
-        print(f"MDX file not found: {mdx_path}")
+    if not mdx_path.exists() and not page_path.exists():
+        print(f"No metadata files found for {args.analysis_slug}")
         sys.exit(1)
 
     # Fetch publication date
@@ -143,8 +185,17 @@ def main():
         print("Could not fetch publication date, exiting")
         sys.exit(0)  # Don't fail the workflow, just skip
 
-    # Update MDX
-    modified = update_mdx_frontmatter(mdx_path, pub_date, sync_date_field=args.sync_date_field)
+    modified = False
+
+    if mdx_path.exists():
+        modified = update_mdx_frontmatter(mdx_path, pub_date, sync_date_field=args.sync_date_field) or modified
+    else:
+        print(f"MDX file not found: {mdx_path} — skipping")
+
+    if page_path.exists():
+        modified = update_page_metadata(page_path, pub_date, sync_date_field=args.sync_date_field) or modified
+    else:
+        print(f"Page file not found: {page_path} — skipping")
 
     if modified:
         print(f"Successfully updated {args.analysis_slug} with publication date {pub_date}")

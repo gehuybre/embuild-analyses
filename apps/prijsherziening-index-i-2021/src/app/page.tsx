@@ -5,6 +5,7 @@ const metadata = {
   title: "Prijsherzieningsindex I 2021",
   date: "2024-12-28",
   summary: "Maandelijkse evolutie van de prijsherzieningsindex I 2021 voor de bouwsector, met calculator voor prijsherziening.",
+  dataAvailabilityLabel: "november 2025",
   tags: ["bouw","prijzen","indexen","prijsherziening"],
   source: {
     provider: "FOD Economie",

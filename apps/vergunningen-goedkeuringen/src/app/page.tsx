@@ -4,14 +4,15 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 
 const metadata = {
   title: "Vergunningen goedkeuringen",
-  date: "2026-02-27",
+  date: "2026-04-01",
   summary: "Analyse van de goedgekeurde bouwvergunningen.",
+  dataAvailabilityLabel: "december 2025",
   tags: ["vergunningen","bouw"],
   source: {
     provider: "Statbel",
     title: "Bouwvergunningen per gemeente",
     url: "https://statbel.fgov.be/nl/themas/bouwen-wonen/bouwvergunningen",
-    publicationDate: "2026-02-27",
+    publicationDate: "2026-04-01",
   },
 }
 

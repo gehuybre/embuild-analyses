@@ -10,6 +10,8 @@ node scripts/merge-outputs.mjs # assemble dist/
 npx serve dist -p 5000         # local preview
 ```
 
+`merge-outputs.mjs` automatically refreshes portal metadata and rebuilds `portal` when an analysis metadata change would otherwise leave the homepage stale. Supported data-driven apps also run a `prebuild` sync that updates the visible blog date and `dataAvailabilityLabel` from the latest local dataset before each build.
+
 See [BUILD_COMMANDS.md](BUILD_COMMANDS.md) for more commands.
 
 ## Apps
@@ -73,7 +75,8 @@ See [BUILD_COMMANDS.md](BUILD_COMMANDS.md) for more commands.
 | `reclassify_bouwprojects.py` |  |
 | `reclassify_write_results.py` |  |
 | `save_remote_metadata.py` | Save remote metadata (URL, ETag, Last-Modified, SHA256) to a JSON file. |
-| `update_publication_date.py` | Scrape publication date from Statbel pages and update MDX frontmatter. |
+| `update_analysis_data_status.py` | Sync visible blog metadata with the latest available dataset period and bump the blog date when the data period changes. |
+| `update_publication_date.py` | Scrape publication date from Statbel pages and update analysis metadata files. |
 | `update_publication_dates_from_calendar.py` | Update Statbel analysis frontmatter using the Statbel publication calendar. |
 | `update_vergunningen_goedkeuringen_content.py` | Sync vergunningen-goedkeuringen MDX copy with the latest generated dataset period. |
 | `validate_component_usage.py` | Compatibility shim that delegates to the canonical validation script kept under |

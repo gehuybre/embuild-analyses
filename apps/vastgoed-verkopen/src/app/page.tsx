@@ -5,6 +5,7 @@ const metadata = {
   title: "Verkoop van vastgoed in België",
   date: "2025-09-30",
   summary: "Analyse van vastgoedtransacties en prijzen per type woning, regio en provincie.",
+  dataAvailabilityLabel: "2024",
   tags: ["vastgoed","woningmarkt","prijzen"],
   source: {
     provider: "Statbel",

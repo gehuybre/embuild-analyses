@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "prebuild": "python3 ../../scripts/update_analysis_data_status.py nbb-rente",
     "dev": "next dev --port 3082",
     "build": "next build",
     "start": "next start",

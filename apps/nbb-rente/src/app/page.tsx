@@ -5,6 +5,7 @@ const metadata = {
   title: "Hypothecaire rente in België",
   date: "2026-03-25",
   summary: "Evolutie van de Belgische hypothecaire rente op nieuwe contracten met een initiële rentevaste periode van meer dan 10 jaar, op basis van de NBB MIR-statistiek sinds 2015.",
+  dataAvailabilityLabel: "januari 2026",
   tags: ["rente","hypotheken","nbb","woningmarkt"],
   source: {
     provider: "Nationale Bank van België (NBB)",

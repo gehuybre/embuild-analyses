@@ -5,6 +5,7 @@ const metadata = {
   title: "Gemeentelijke investeringen in Vlaanderen",
   date: "2026-01-07",
   summary: "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033).",
+  dataAvailabilityLabel: "2026",
   tags: ["gemeente","investeringen","financiën","beleidsdomein","meerjarenplan"],
   source: {
     provider: "Agentschap Binnenlands Bestuur",

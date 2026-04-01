@@ -5,6 +5,7 @@ const metadata = {
   title: "Energiepremies Vlaanderen",
   date: "2025-12-27",
   summary: "Analyse van energiepremies voor residentiële gebouwen in Vlaanderen op basis van de Energiekaart PowerBI dashboard.",
+  dataAvailabilityLabel: "2024",
   tags: ["energie","premies","renovatie","vlaanderen"],
   source: {
     provider: "Vlaams Energieagentschap",

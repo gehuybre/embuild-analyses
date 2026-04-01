@@ -5,6 +5,7 @@ const metadata = {
   title: "Huishoudensgroei per gemeente",
   date: "2024-05-21",
   summary: "Analyse van de huishoudensvooruitzichten in Vlaanderen per gemeente, met projecties tot 2040.",
+  dataAvailabilityLabel: "2040",
   tags: ["bevolking","demografie","huishoudens"],
   source: {
     provider: "Statistiek Vlaanderen",

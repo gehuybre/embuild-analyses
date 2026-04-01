@@ -6,6 +6,7 @@ const metadata = {
   title: "Faillissementen in de bouwsector",
   date: "2023-11-01",
   summary: "Maandelijkse evolutie van faillissementen in de Belgische bouwsector, met vergelijking met andere sectoren en regionale spreiding.",
+  dataAvailabilityLabel: "december 2025",
   tags: ["economie","bedrijven","bouw","faillissementen"],
   source: {
     provider: "Statbel",

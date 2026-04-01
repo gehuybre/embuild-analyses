@@ -117,7 +117,8 @@ jobs:
         if: steps.check_remote.outputs.changed == 'true'
         run: |
           set -euo pipefail
-          python scripts/update_publication_date.py "${ANALYSIS_SLUG}" "${PUBLICATION_PAGE_URL}" --sync-date-field
+          python scripts/update_publication_date.py "${ANALYSIS_SLUG}" "${PUBLICATION_PAGE_URL}"
+          python scripts/update_analysis_data_status.py "${ANALYSIS_SLUG}"
           python scripts/update_vergunningen_goedkeuringen_content.py
 
       - name: Commit and push
@@ -127,9 +128,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Stage metadata, content, and generated data files
+          # Stage metadata, visible page copy, and generated data files
           git add "${APP_ROOT}/data/.remote_metadata.json"
           git add "${APP_ROOT}/content.mdx"
+          git add "${APP_ROOT}/src/app/page.tsx"
           git add "${APP_ROOT}/public/data/"
 
           if git diff --staged --quiet; then

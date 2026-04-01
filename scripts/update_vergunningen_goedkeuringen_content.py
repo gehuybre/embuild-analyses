@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import calendar
 import re
 from pathlib import Path
 
@@ -35,10 +36,19 @@ def main() -> int:
 
     data = json.loads(data_path.read_text(encoding="utf-8"))
     latest = max(data, key=lambda row: (row["y"], row["mo"]))
-    latest_label = f"{DUTCH_MONTHS[int(latest['mo'])]} {int(latest['y'])}"
+    latest_year = int(latest["y"])
+    latest_month = int(latest["mo"])
+    latest_label = f"{DUTCH_MONTHS[latest_month]} {latest_year}"
+    latest_day = calendar.monthrange(latest_year, latest_month)[1]
+    latest_end_date = f"{latest_day:02d}/{latest_month:02d}/{latest_year}"
 
     content = content_path.read_text(encoding="utf-8")
-    updated_content = re.sub(r"\(data:\s*[^)]+\)", f"(data: {latest_label})", content, count=1)
+    updated_content = re.sub(
+        r"\(data:\s*[^)]+\)",
+        f"(data: {latest_label}; data beschikbaar tot en met {latest_end_date})",
+        content,
+        count=1,
+    )
 
     if updated_content == content:
         print(f"No content text change needed; latest dataset period already is {latest_label}.")
