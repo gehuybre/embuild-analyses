@@ -1,0 +1,24 @@
+{
+  "apps": {
+    "arbeiders-bedienden": {
+      "limit": 6,
+      "query": "bouw vacatures arbeiders|bedienden|tewerkstelling|arbeidsmarkt|arbeidskrachten"
+    },
+    "betaalbaar-arr": {
+      "limit": 10,
+      "query": "woning vergunning betaalbaar|woonlasten|wooncrisis|woningmarkt"
+    },
+    "faillissementen": {
+      "limit": 5,
+      "query": "faillissementen"
+    },
+    "vergunningen-aanvragen": {
+      "limit": 5,
+      "query": "vergunning|vergunningen"
+    },
+    "vergunningen-goedkeuringen": {
+      "limit": 5,
+      "query": "vergunning|vergunningen"
+    }
+  }
+}

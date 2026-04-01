@@ -1,0 +1,73 @@
+name: Update press references
+
+concurrency:
+  group: update-press-references
+  cancel-in-progress: true
+
+on:
+  schedule:
+    - cron: "25 5 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-press-references:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout analyses repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Validate emv-pers access
+        run: |
+          if [ -z "${{ secrets.EMV_PERS_REPO_TOKEN }}" ]; then
+            echo "::error::Missing repository secret EMV_PERS_REPO_TOKEN"
+            exit 1
+          fi
+
+      - name: Checkout emv-pers source
+        uses: actions/checkout@v4
+        with:
+          repository: gehuybre/emv-pers
+          path: .cache/emv-pers
+          token: ${{ secrets.EMV_PERS_REPO_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Refresh press references
+        run: |
+          set -euo pipefail
+          python scripts/update_press_references.py \
+            --source-file .cache/emv-pers/press.ndjson \
+            --verbose
+
+      - name: Commit and push changes
+        id: commit_changes
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add apps/*/public/press-references/*.json
+          git add apps/*/public/data/press_references.json
+
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+            echo "No press reference changes to commit"
+          else
+            git commit -m "chore(data): refresh press references (auto)"
+            git push origin HEAD:main
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
+          fi
+
+      - name: Trigger deploy
+        if: steps.commit_changes.outputs.changed == 'true'
+        run: gh workflow run deploy.yml
+        env:
+          GH_TOKEN: ${{ github.token }}

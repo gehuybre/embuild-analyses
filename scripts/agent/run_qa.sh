@@ -56,7 +56,7 @@ run_check "check_embed_config" "python3 scripts/agent/check_embed_config.py --sl
 run_check "validate_component_usage" "python3 .github/skills/blog-post-creator/scripts/validate_component_usage.py"
 run_check "validate_mdx" "python3 .github/skills/blog-post-creator/scripts/validate_mdx.py"
 run_check "validate_embed_consistency" "node .github/skills/blog-post-creator/scripts/validate_embed_consistency.js"
-run_check "press_publish_existing" "python3 .github/press-format/scripts/format_press.py --publish-existing"
+run_check "press_references" "python3 scripts/update_press_references.py --slug $slug --check"
 
 echo "QA Report - $slug - $today"
 echo ""

@@ -61,7 +61,7 @@ export function PressReferences({
       .then((res) => {
         if (!res.ok) {
           console.warn(
-            `Press references not found for slug "${slug}" at ${url}. Run: python3 .github/press-format/scripts/format_press.py --query "your query" --slug "${slug}"`
+            `Press references not found for slug "${slug}" at ${url}. Run: python3 scripts/update_press_references.py --slug "${slug}"`
           )
           return null
         }
