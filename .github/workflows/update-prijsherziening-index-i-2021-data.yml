@@ -1,0 +1,81 @@
+name: Update prijsherziening-index-i-2021 data
+
+concurrency:
+  group: update-prijsherziening-index-i-2021-data
+  cancel-in-progress: true
+
+on:
+  schedule:
+    - cron: "5 4 1 * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    env:
+      ANALYSIS_SLUG: prijsherziening-index-i-2021
+      APP_ROOT: apps/prijsherziening-index-i-2021
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests openpyxl
+
+      - name: Refresh prijsherziening data
+        run: python "${APP_ROOT}/scripts/process_prijsherziening.py"
+
+      - name: Verify expected output files
+        run: |
+          set -euo pipefail
+          test -f "${APP_ROOT}/public/data/components.json"
+          test -f "${APP_ROOT}/public/data/metadata.json"
+          test -f "${APP_ROOT}/public/data/monthly_indices.json"
+          test -f "${APP_ROOT}/public/data/prijsherziening_data.csv"
+
+      - name: Sync visible metadata
+        run: python scripts/update_analysis_data_status.py "${ANALYSIS_SLUG}"
+
+      - name: Commit and push changes
+        id: commit_changes
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add "${APP_ROOT}/public/data/"
+
+          if [ -f "${APP_ROOT}/src/app/page.tsx" ]; then
+            git add "${APP_ROOT}/src/app/page.tsx"
+          fi
+
+          if [ -f "${APP_ROOT}/content.mdx" ]; then
+            git add "${APP_ROOT}/content.mdx"
+          fi
+
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+            echo "No changes to commit"
+          else
+            git commit -m "chore(data): update prijsherziening-index-i-2021 data (auto)"
+            git push origin HEAD:main
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
+          fi
+
+      - name: Trigger deploy
+        if: steps.commit_changes.outputs.changed == 'true'
+        run: gh workflow run deploy.yml
+        env:
+          GH_TOKEN: ${{ github.token }}
