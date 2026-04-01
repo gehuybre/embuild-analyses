@@ -135,38 +135,33 @@ def process_data(excel_path: str) -> None:
     month_cols = [month_col_map.get(c) for c in month_cols_raw]
     month_cols = [c for c in month_cols if c is not None]
 
-    # Melt to long format: one row per component per month
-    df_long = df.melt(
-        id_vars=["code", "description", "weight"],
-        value_vars=month_cols,
-        var_name="date",
-        value_name="value",
-    )
-    df_long = df_long.dropna(subset=["value", "date"])
-
     monthly_data: list[dict] = []
-    for _, row in df_long.iterrows():
-        code = _normalize_code(row["code"])
-        description = None if pd.isna(row["description"]) else str(row["description"]).strip()
-        component_id = _simplify_component_id(code, description)
-        if not component_id:
-            continue
+    for month_col in month_cols:
+        date = pd.Timestamp(month_col)
+        subset = df.loc[df[month_col].notna(), ["code", "description", month_col]]
 
-        date = pd.Timestamp(row["date"])
-        try:
-            value = float(row["value"])
-        except (ValueError, TypeError):
-            continue
+        for row in subset.itertuples(index=False, name=None):
+            raw_code, raw_description, raw_value = row
+            code = _normalize_code(raw_code)
+            description = None if pd.isna(raw_description) else str(raw_description).strip()
+            component_id = _simplify_component_id(code, description)
+            if not component_id:
+                continue
 
-        monthly_data.append(
-            {
-                "year": int(date.year),
-                "month": int(date.month),
-                "component": component_id,
-                "component_orig": description or code or component_id,
-                "value": value,
-            }
-        )
+            try:
+                value = float(raw_value)
+            except (ValueError, TypeError):
+                continue
+
+            monthly_data.append(
+                {
+                    "year": int(date.year),
+                    "month": int(date.month),
+                    "component": component_id,
+                    "component_orig": description or code or component_id,
+                    "value": value,
+                }
+            )
 
     # Save monthly indices
     with open(RESULTS_DIR / "monthly_indices.json", "w") as f:
