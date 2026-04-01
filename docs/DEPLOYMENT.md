@@ -2,7 +2,7 @@
 
 ## Overview
 
-The site deploys to **Cloudflare Pages** via **Wrangler Direct Upload** (not Git integration). GitHub Actions builds all 21 apps with Turborepo, merges them into `dist/`, and uploads directly.
+The site deploys to **Cloudflare Pages** via **Wrangler Direct Upload** (not Git integration). GitHub Actions restores cached app outputs, rebuilds only the apps affected by the pushed changes, merges them into `dist/`, and uploads directly.
 
 **Important:** This repo (`gehuybre/embuild-analyses`) uses a **separate** Cloudflare Pages project from the old backup repo (`gehuybre/analyses-backup-2026-03-31`). Set `CLOUDFLARE_PAGES_PROJECT` to a new project name to avoid overwriting the existing site.
 
@@ -38,9 +38,11 @@ Steps:
 1. Checkout
 2. Setup pnpm + Node 20
 3. `pnpm install --frozen-lockfile`
-4. `pnpm turbo build` (builds all 21 apps)
-5. `node scripts/merge-outputs.mjs` (assembles `dist/`)
-6. Wrangler uploads `dist/` to Cloudflare Pages
+4. Detect which apps changed in the pushed commit range
+5. Restore cached `apps/*/out` build outputs from the previous successful deploy
+6. Build only the changed apps, then backfill any missing outputs on a cold cache
+7. `node scripts/merge-outputs.mjs` (assembles `dist/`)
+8. Wrangler uploads `dist/` to Cloudflare Pages
 
 ## Data update workflows
 
@@ -48,12 +50,18 @@ Four workflows auto-update analysis data on a schedule:
 
 | Workflow | Schedule | Analysis |
 | --- | --- | --- |
-| `update-nbb-rente-data.yml` | Monday 04:15 UTC | NBB interest rates |
-| `update-vergunningen-aanvragen-data.yml` | Scheduled | Building permits |
-| `update-vergunningen-goedkeuringen-data.yml` | Scheduled | Permit approvals |
-| `update-gemeentelijke-investeringen-data.yml` | Scheduled | Municipal investments |
+| `update-nbb-rente-data.yml` | Monthly | NBB interest rates |
+| `update-vergunningen-aanvragen-data.yml` | Monthly + push on source changes | Building permits |
+| `update-vergunningen-goedkeuringen-data.yml` | Statbel release schedule | Permit approvals |
+| `update-gemeentelijke-investeringen-data.yml` | Monthly + push on source changes | Municipal investments |
 
-> **Note:** These workflows still reference old `embuild-analyses/` paths and need updating for the Turborepo layout.
+Each workflow should treat the app directory as the unit of ownership:
+
+- `apps/{slug}/data/` for raw inputs and refresh metadata
+- `apps/{slug}/scripts/` for ETL code
+- `apps/{slug}/public/data/` for published frontend assets
+
+The workflow file in `.github/workflows/` should stay thin and only orchestrate the app-local script plus commit/deploy steps.
 
 ## First production rollout
 

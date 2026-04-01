@@ -7,6 +7,12 @@ on:
     paths:
       - "apps/**"
       - "packages/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - "turbo.json"
+      - "scripts/build-apps.mjs"
+      - "scripts/detect-changed-apps.mjs"
       - "scripts/merge-outputs.mjs"
       - "scripts/generate-portal-data.mjs"
       - ".github/workflows/deploy.yml"
@@ -21,7 +27,30 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      all_apps: ${{ steps.detect.outputs.all_apps }}
+      changed_apps: ${{ steps.detect.outputs.changed_apps }}
+      changed_count: ${{ steps.detect.outputs.changed_count }}
+      reason: ${{ steps.detect.outputs.reason }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Detect apps that need a rebuild
+        id: detect
+        run: |
+          node scripts/detect-changed-apps.mjs \
+            --event-name "${{ github.event_name }}" \
+            --base "${{ github.event.before }}" \
+            --head "${{ github.sha }}" \
+            --output "$GITHUB_OUTPUT"
+
   build:
+    needs: detect
     runs-on: ubuntu-latest
     env:
       NEXT_PUBLIC_DEPLOY_VERSION: ${{ github.sha }}
@@ -39,8 +68,8 @@ jobs:
           node-version: "20"
           cache: pnpm
 
-      - name: Cache Turborepo
-        uses: actions/cache@v4
+      - name: Restore Turborepo cache
+        uses: actions/cache/restore@v4
         with:
           path: .turbo/cache
           key: turbo-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ github.sha }}
@@ -48,11 +77,28 @@ jobs:
             turbo-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}-
             turbo-${{ runner.os }}-
 
+      - name: Restore cached app outputs
+        uses: actions/cache/restore@v4
+        with:
+          path: apps/**/out
+          key: app-outs-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: |
+            app-outs-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-
+            app-outs-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-
+
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build all apps
-        run: pnpm turbo build --concurrency=2
+      - name: Log rebuild plan
+        run: |
+          echo "${{ needs.detect.outputs.reason }}"
+          echo "Changed apps: ${{ needs.detect.outputs.changed_apps }}"
+
+      - name: Build changed apps only
+        run: node scripts/build-apps.mjs --apps-json '${{ needs.detect.outputs.changed_apps }}'
+
+      - name: Backfill missing app outputs from a cold cache
+        run: node scripts/build-apps.mjs --apps-json '${{ needs.detect.outputs.all_apps }}' --missing-out-only
 
       - name: Merge outputs
         run: node scripts/merge-outputs.mjs
@@ -60,6 +106,20 @@ jobs:
       - name: Remove files exceeding CF Pages 25MB limit
         run: |
           find dist -size +25M -print -delete
+
+      - name: Save updated app outputs cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: apps/**/out
+          key: app-outs-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-${{ github.sha }}
+
+      - name: Save Turborepo cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: .turbo/cache
+          key: turbo-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ github.sha }}
 
       - name: Upload dist
         uses: actions/upload-artifact@v4
