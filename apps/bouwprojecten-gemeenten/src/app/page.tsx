@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { ProjectBrowser } from "@/components/ProjectBrowser"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Gemeentelijke bouwprojecten Vlaanderen 2026-2031",
@@ -18,6 +19,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <ProjectBrowser />
+      <PressReferences slug="bouwprojecten-gemeenten" />
     </AnalysisLayout>
   )
 }

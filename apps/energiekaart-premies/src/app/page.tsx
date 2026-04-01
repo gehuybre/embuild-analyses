@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { EnergiekaartDashboard } from "@/components/EnergiekaartDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Energiepremies Vlaanderen",
@@ -19,7 +20,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <EnergiekaartDashboard />
-
+      <PressReferences slug="energiekaart-premies" />
     </AnalysisLayout>
   )
 }

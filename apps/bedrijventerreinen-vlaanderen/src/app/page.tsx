@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { BedrijventerreinenDashboard } from "@/components/BedrijventerreinenDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Bezettingsgraad van bedrijventerreinen in Vlaanderen",
@@ -19,7 +20,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <BedrijventerreinenDashboard />
-
+      <PressReferences slug="bedrijventerreinen-vlaanderen" />
     </AnalysisLayout>
   )
 }

@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { InschrijvingenOnderwijsDashboard } from "@/components/InschrijvingenOnderwijsDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Inschrijvingen in het hoger onderwijs in Vlaanderen",
@@ -19,7 +20,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <InschrijvingenOnderwijsDashboard />
-
+      <PressReferences slug="inschrijvingen-onderwijs" />
     </AnalysisLayout>
   )
 }

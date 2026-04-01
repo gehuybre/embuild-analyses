@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { BouwondernemersDashboard } from "@/components/BouwondernemersDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Bouwondernemers",
@@ -18,7 +19,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <BouwondernemersDashboard />
-
+      <PressReferences slug="bouwondernemers" />
     </AnalysisLayout>
   )
 }

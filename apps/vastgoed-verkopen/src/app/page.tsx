@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { VastgoedDashboard } from "@/components/VastgoedDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Verkoop van vastgoed in België",
@@ -19,7 +20,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <VastgoedDashboard />
-
+      <PressReferences slug="vastgoed-verkopen" />
     </AnalysisLayout>
   )
 }

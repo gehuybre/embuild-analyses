@@ -23,6 +23,7 @@ interface PressReferencesProps {
   title?: string
   showYear?: boolean
   maxExcerptLength?: number
+  emptyMessage?: string
 }
 
 /**
@@ -32,6 +33,7 @@ interface PressReferencesProps {
  * @param title - Section title (default: "Gerelateerde persberichten")
  * @param showYear - Group references by year (default: false)
  * @param maxExcerptLength - Maximum excerpt length (default: 200)
+ * @param emptyMessage - Fallback text when no press references are available
  *
  * @example
  * <PressReferences slug="vergunningen-aanvragen" />
@@ -49,6 +51,7 @@ export function PressReferences({
   title = "Gerelateerde persberichten",
   showYear = false,
   maxExcerptLength = 200,
+  emptyMessage = "Nog geen gerelateerde persberichten beschikbaar.",
 }: PressReferencesProps) {
   // Load press references data via client-side fetch from `public/`
   const [data, setData] = useState<PressReferencesData | null>(null)
@@ -60,9 +63,9 @@ export function PressReferences({
     fetch(url)
       .then((res) => {
         if (!res.ok) {
-          console.warn(
-            `Press references not found for slug "${slug}" at ${url}. Run: python3 scripts/update_press_references.py --slug "${slug}"`
-          )
+          if (res.status !== 404) {
+            console.warn(`Error loading press references for slug "${slug}" at ${url}: ${res.status}`)
+          }
           return null
         }
         return res.json()
@@ -76,9 +79,21 @@ export function PressReferences({
       .finally(() => setLoaded(true))
   }, [slug])
 
-  // Check if we have any references
-  if (!loaded || !data || !data.references || data.references.length === 0) {
+  if (!loaded) {
     return null
+  }
+
+  if (!data || !data.references || data.references.length === 0) {
+    return (
+      <Card>
+        <CardHeader>
+          <CardTitle>{title}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="text-sm text-muted-foreground">{emptyMessage}</p>
+        </CardContent>
+      </Card>
+    )
   }
 
   // Render with year grouping

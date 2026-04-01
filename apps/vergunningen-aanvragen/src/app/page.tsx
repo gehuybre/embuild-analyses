@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { VergunningenDashboard } from "@/components/VergunningenDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Vergunningen voor woningen",
@@ -19,7 +20,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <VergunningenDashboard />
-
+      <PressReferences slug="vergunningen-aanvragen" />
     </AnalysisLayout>
   )
 }

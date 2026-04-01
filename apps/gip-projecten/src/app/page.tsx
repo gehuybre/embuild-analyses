@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { GIPDashboard } from "@/components/GIPDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Geïntegreerd Investeringsprogramma 2025-2029",
@@ -18,7 +19,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <GIPDashboard />
-
+      <PressReferences slug="gip-projecten" />
     </AnalysisLayout>
   )
 }

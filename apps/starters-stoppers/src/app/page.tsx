@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { StartersStoppersDashboard } from "@/components/StartersStoppersDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Starters en stoppers",
@@ -18,7 +19,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <StartersStoppersDashboard />
-
+      <PressReferences slug="starters-stoppers" />
     </AnalysisLayout>
   )
 }

@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { NbbRenteDashboard } from "@/components/NbbRenteDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Hypothecaire rente in België",
@@ -19,7 +20,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <NbbRenteDashboard />
-
+      <PressReferences slug="nbb-rente" />
     </AnalysisLayout>
   )
 }

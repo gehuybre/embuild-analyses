@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { EpcLabelverdelingDashboard } from "@/components/EpcLabelverdelingDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "EPC-labelverdeling in Vlaanderen",
@@ -18,7 +19,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <EpcLabelverdelingDashboard />
-
+      <PressReferences slug="epc-labelverdeling" />
     </AnalysisLayout>
   )
 }

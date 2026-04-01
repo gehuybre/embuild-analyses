@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { GebouwenDashboard } from "@/components/GebouwenDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Gebouwenpark 2025",
@@ -18,7 +19,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <GebouwenDashboard />
-
+      <PressReferences slug="gebouwenpark" />
     </AnalysisLayout>
   )
 }

@@ -1,11 +1,12 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { PrijsherzieningDashboard } from "@/components/PrijsherzieningDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Prijsherzieningsindex I 2021",
-  date: "2024-12-28",
+  date: "2026-04-01",
   summary: "Maandelijkse evolutie van de prijsherzieningsindex I 2021 voor de bouwsector, met calculator voor prijsherziening.",
-  dataAvailabilityLabel: "november 2025",
+  dataAvailabilityLabel: "februari 2026",
   tags: ["bouw","prijzen","indexen","prijsherziening"],
   source: {
     provider: "FOD Economie",
@@ -19,7 +20,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <PrijsherzieningDashboard />
-
+      <PressReferences slug="prijsherziening-index-i-2021" />
     </AnalysisLayout>
   )
 }

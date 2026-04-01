@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { InvesteringenDashboard } from "@/components/InvesteringenDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Gemeentelijke investeringen in Vlaanderen",
@@ -19,7 +20,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <InvesteringenDashboard />
-
+      <PressReferences slug="gemeentelijke-investeringen" />
     </AnalysisLayout>
   )
 }

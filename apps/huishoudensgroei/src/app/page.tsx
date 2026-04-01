@@ -1,5 +1,6 @@
 import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout"
 import { HuishoudensDashboard } from "@/components/HuishoudensDashboard"
+import { PressReferences } from "@embuild/shared/components/shared/PressReferences"
 
 const metadata = {
   title: "Huishoudensgroei per gemeente",
@@ -19,7 +20,7 @@ export default function Page() {
   return (
     <AnalysisLayout {...metadata}>
       <HuishoudensDashboard />
-
+      <PressReferences slug="huishoudensgroei" />
     </AnalysisLayout>
   )
 }
