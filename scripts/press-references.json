@@ -12,6 +12,10 @@
       "limit": 5,
       "query": "faillissementen"
     },
+    "inschrijvingen-onderwijs": {
+      "limit": 5,
+      "query": "studenten hoger onderwijs hogeschool universiteit bouwopleidingen ingenieur"
+    },
     "vergunningen-aanvragen": {
       "limit": 5,
       "query": "vergunning|vergunningen"

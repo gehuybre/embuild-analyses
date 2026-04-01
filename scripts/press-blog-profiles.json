@@ -1,0 +1,100 @@
+{
+  "apps": {
+    "arbeiders-bedienden": {
+      "title": "Arbeiders en bedienden in de bouw",
+      "summary": "Evolutie van arbeiders en bedienden in de Belgische bouwsector. Focus op tewerkstelling, arbeidsmarkt, vacatures en arbeidskrapte.",
+      "tags": ["bouw", "tewerkstelling", "arbeidsmarkt"],
+      "keywords": [
+        "arbeiders",
+        "bedienden",
+        "tewerkstelling",
+        "arbeidsmarkt",
+        "vacatures",
+        "arbeidskrachten",
+        "werknemers",
+        "jobs",
+        "personeel",
+        "knelpuntberoepen",
+        "bouwonderwijs"
+      ]
+    },
+    "betaalbaar-arr": {
+      "title": "Betaalbaar wonen per arrondissement",
+      "summary": "Analyse van woningbehoefte en aanbod per arrondissement, met focus op betaalbaar wonen, woningmarkt, vergunningen en huishoudensgroei.",
+      "tags": ["huisvesting", "betaalbaarheid", "arrondissement", "demografie", "bouwvergunningen"],
+      "keywords": [
+        "betaalbaar wonen",
+        "woonlasten",
+        "woningmarkt",
+        "wooncrisis",
+        "woningaanbod",
+        "woningnood",
+        "vergunning",
+        "vergunningsaanvragen",
+        "nieuwbouw",
+        "huishoudens",
+        "arrondissement"
+      ]
+    },
+    "faillissementen": {
+      "title": "Faillissementen in de bouwsector",
+      "summary": "Maandelijkse evolutie van faillissementen in de Belgische bouwsector, met regionale spreiding en vergelijking met andere sectoren.",
+      "tags": ["economie", "bedrijven", "bouw", "faillissementen"],
+      "keywords": [
+        "faillissement",
+        "faillissementen",
+        "insolventie",
+        "starters",
+        "bedrijfsstopzetting",
+        "bouwbedrijven"
+      ]
+    },
+    "inschrijvingen-onderwijs": {
+      "title": "Inschrijvingen in het hoger onderwijs in Vlaanderen",
+      "summary": "Evolutie van inschrijvingen in het hoger onderwijs naar type onderwijsinstelling, opleiding en studiegebied op basis van PinC-data.",
+      "tags": ["onderwijs", "hoger-onderwijs", "studenten", "inschrijvingen"],
+      "keywords": [
+        "hoger onderwijs",
+        "hogeschool",
+        "universiteit",
+        "student",
+        "studenten",
+        "inschrijvingen",
+        "opleiding",
+        "opleidingen",
+        "bouwopleidingen",
+        "ingenieur"
+      ]
+    },
+    "vergunningen-aanvragen": {
+      "title": "Vergunningen voor woningen",
+      "summary": "Analyse van aanvragen voor vergunningen voor het bouwen, verbouwen of slopen van woningen in Vlaanderen.",
+      "tags": ["vergunningen", "bouw", "woningen", "nieuwbouw", "renovatie", "sloop"],
+      "keywords": [
+        "vergunningsaanvragen",
+        "vergunningen",
+        "aanvraag",
+        "omgevingsloket",
+        "nieuwbouw",
+        "renovatie",
+        "sloop",
+        "woning"
+      ]
+    },
+    "vergunningen-goedkeuringen": {
+      "title": "Vergunningen goedkeuringen",
+      "summary": "Analyse van goedgekeurde bouwvergunningen en de evolutie van goedkeuringen.",
+      "tags": ["vergunningen", "bouw"],
+      "keywords": [
+        "goedgekeurde vergunningen",
+        "bouwvergunningen",
+        "vergunningen",
+        "goedkeuring",
+        "goedkeuringen",
+        "woning",
+        "nieuwbouw",
+        "renovatie"
+      ]
+    }
+  }
+}
