@@ -47,6 +47,11 @@ jobs:
             --source-file .cache/emv-pers/press.ndjson \
             --verbose
 
+      - name: Validate reviewed press references
+        run: |
+          set -euo pipefail
+          python scripts/check_reviewed_press_references.py
+
       - name: Commit and push changes
         id: commit_changes
         run: |

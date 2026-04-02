@@ -16,6 +16,7 @@ from urllib.error import URLError
 from urllib.request import urlopen
 
 DEFAULT_CONFIG = Path(__file__).with_name("press-references.json")
+DEFAULT_REVIEWED_LINKS = Path(__file__).with_name("press-reviewed-links.json")
 SENT_SPLIT_RE = re.compile(r"(?<=[\.\!\?])\s+")
 
 
@@ -323,6 +324,63 @@ def build_payload(config: PressConfig, references: list[dict]) -> dict:
     }
 
 
+def merge_references(primary: list[dict], secondary: list[dict], limit: int) -> list[dict]:
+    merged: list[dict] = []
+    seen: set[str] = set()
+
+    def ref_key(item: dict) -> str:
+        return str(item.get("id") or item.get("url") or "").strip()
+
+    for source in (primary, secondary):
+        for item in source:
+            key = ref_key(item)
+            if not key or key in seen:
+                continue
+            seen.add(key)
+            merged.append(item)
+            if len(merged) >= limit:
+                return merged
+
+    return merged
+
+
+def load_reviewed_links(path: Path) -> dict[str, list[dict]]:
+    if not path.exists():
+        return {}
+
+    with path.open("r", encoding="utf-8") as handle:
+        raw = json.load(handle)
+
+    articles = raw.get("articles", [])
+    if not isinstance(articles, list):
+        raise SystemExit(f"Invalid reviewed links file: {path}")
+
+    by_slug: dict[str, list[dict]] = {}
+    for item in articles:
+        if not isinstance(item, dict):
+            continue
+        matched_slugs = item.get("matched_slugs", [])
+        if not isinstance(matched_slugs, list):
+            continue
+        reference = {
+            "id": str(item.get("id") or ""),
+            "title": str(item.get("title") or ""),
+            "date": str(item.get("date") or ""),
+            "url": str(item.get("url") or ""),
+            "excerpt": str(item.get("excerpt") or ""),
+        }
+        for slug in matched_slugs:
+            cleaned = str(slug).strip()
+            if not cleaned:
+                continue
+            by_slug.setdefault(cleaned, []).append(reference)
+
+    for references in by_slug.values():
+        references.sort(key=lambda item: (item["date"], item["title"].lower()), reverse=True)
+
+    return by_slug
+
+
 def payload_signature(payload: dict) -> dict:
     return {
         "query": payload.get("query"),
@@ -369,12 +427,16 @@ def generate_for_configs(
     source_url: str | None,
     check_only: bool,
     verbose: bool,
+    reviewed_links_by_slug: dict[str, list[dict]] | None = None,
 ) -> int:
     raw_lines = list(iter_source_lines(source_file, source_url))
     changed_paths = 0
+    reviewed_links_by_slug = reviewed_links_by_slug or {}
 
     for config in configs:
-        references = search_documents(raw_lines, config)
+        query_references = search_documents(raw_lines, config)
+        reviewed_references = reviewed_links_by_slug.get(config.slug, [])
+        references = merge_references(reviewed_references, query_references, config.limit)
         payload = build_payload(config, references)
         stale = False
 
@@ -386,7 +448,9 @@ def generate_for_configs(
         if verbose:
             state = "stale" if stale else "unchanged"
             print(
-                f"{config.slug}: {len(references)} references, query={config.query!r}, {state}"
+                f"{config.slug}: {len(references)} references "
+                f"({len(reviewed_references)} reviewed, {len(query_references)} query), "
+                f"query={config.query!r}, {state}"
             )
 
     return changed_paths
@@ -403,12 +467,14 @@ def main() -> int:
         source_file = resolve_default_source_file()
 
     configs = load_config(config_path, args.slugs)
+    reviewed_links_by_slug = load_reviewed_links(DEFAULT_REVIEWED_LINKS)
     changed_paths = generate_for_configs(
         configs=configs,
         source_file=source_file,
         source_url=args.source_url,
         check_only=args.check,
         verbose=args.verbose,
+        reviewed_links_by_slug=reviewed_links_by_slug,
     )
 
     if args.check:
