@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect, useMemo, useState } from "react"
+import { useEffect, useMemo, useRef, useState } from "react"
 import {
   MunicipalityIndexEntry,
   ProjectFilters,
@@ -53,10 +53,21 @@ export function ProjectFiltersComponent({
 }: ProjectFiltersComponentProps) {
   const [searchInput, setSearchInput] = useState(filters.searchQuery || "")
   const [muniOpen, setMuniOpen] = useState(false)
+  const municipalityInputRef = useRef<HTMLInputElement>(null)
 
   useEffect(() => {
     setSearchInput(filters.searchQuery || "")
   }, [filters.searchQuery])
+
+  useEffect(() => {
+    if (!muniOpen) return
+
+    const frame = window.requestAnimationFrame(() => {
+      municipalityInputRef.current?.focus({ preventScroll: true })
+    })
+
+    return () => window.cancelAnimationFrame(frame)
+  }, [muniOpen])
 
   const sortedMunicipalities = useMemo(
     () => [...municipalities].sort((a, b) => a.municipality.localeCompare(b.municipality)),
@@ -148,13 +159,18 @@ export function ProjectFiltersComponent({
                 <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
               </Button>
             </PopoverTrigger>
-            <PopoverContent className="w-[var(--radix-popover-trigger-width)] p-0" align="start">
+            <PopoverContent
+              className="w-[var(--radix-popover-trigger-width)] p-0"
+              align="start"
+              onOpenAutoFocus={(event) => event.preventDefault()}
+              onCloseAutoFocus={(event) => event.preventDefault()}
+            >
               <Command
                 filter={(value, search) => (
                   value.toLowerCase().includes(search.toLowerCase()) ? 1 : 0
                 )}
               >
-                <CommandInput placeholder="Zoek gemeente..." />
+                <CommandInput ref={municipalityInputRef} placeholder="Zoek gemeente..." />
                 <CommandList>
                   <CommandEmpty>geen gemeente gevonden.</CommandEmpty>
                   <CommandGroup>

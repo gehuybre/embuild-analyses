@@ -9,6 +9,7 @@ import { formatNumber } from "@embuild/shared/lib/number-formatters"
 interface ProjectCardProps {
   project: Project
   onClick: () => void
+  isExpanded?: boolean
 }
 
 const CATEGORY_LABELS: Record<string, string> = {
@@ -36,7 +37,7 @@ const CATEGORY_LABELS: Record<string, string> = {
   "zorg": "zorg"
 }
 
-export function ProjectCard({ project, onClick }: ProjectCardProps) {
+export function ProjectCard({ project, onClick, isExpanded = false }: ProjectCardProps) {
   // Find the peak year (year with highest amount)
   const peakYear = Object.entries(project.yearly_amounts)
     .reduce((max, [year, amount]) => {
@@ -50,7 +51,11 @@ export function ProjectCard({ project, onClick }: ProjectCardProps) {
 
   return (
     <div
-      className="rounded-lg border bg-card hover:bg-accent transition-colors cursor-pointer group"
+      className={`rounded-lg border transition-colors cursor-pointer group ${
+        isExpanded
+          ? "border-primary/40 bg-primary/5 shadow-sm"
+          : "bg-card hover:bg-accent"
+      }`}
       onClick={onClick}
     >
       <div className="p-4">
@@ -61,11 +66,19 @@ export function ProjectCard({ project, onClick }: ProjectCardProps) {
               <MapPin className="h-4 w-4 text-muted-foreground flex-shrink-0" />
               <span className="font-semibold text-sm">{project.municipality}</span>
             </div>
-            <h3 className="font-semibold text-lg leading-tight group-hover:text-primary transition-colors">
+            <h3 className={`font-semibold text-lg leading-tight transition-colors ${
+              isExpanded ? "text-primary" : "group-hover:text-primary"
+            }`}>
               {project.ac_short}
             </h3>
           </div>
-          <ChevronRight className="h-5 w-5 text-muted-foreground flex-shrink-0 group-hover:text-primary transition-colors" />
+          <ChevronRight
+            className={`h-5 w-5 flex-shrink-0 transition-all ${
+              isExpanded
+                ? "text-primary rotate-90"
+                : "text-muted-foreground group-hover:text-primary"
+            }`}
+          />
         </div>
 
         {/* Categories */}
@@ -104,12 +117,14 @@ export function ProjectCard({ project, onClick }: ProjectCardProps) {
         {/* Footer */}
         <div className="mt-3 pt-3 border-t">
           <Button
-            variant="ghost"
+            variant={isExpanded ? "secondary" : "ghost"}
             size="sm"
-            className="w-full justify-between group-hover:bg-primary/10"
+            className={`w-full justify-between ${
+              isExpanded ? "bg-primary/10 text-primary hover:bg-primary/15" : "group-hover:bg-primary/10"
+            }`}
           >
-            <span>Details bekijken</span>
-            <ChevronRight className="h-4 w-4" />
+            <span>{isExpanded ? "Details verbergen" : "Details bekijken"}</span>
+            <ChevronRight className={`h-4 w-4 transition-transform ${isExpanded ? "rotate-90" : ""}`} />
           </Button>
         </div>
       </div>

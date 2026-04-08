@@ -221,7 +221,14 @@ export function ExportButtons({
     for (var i = 0; i < iframes.length; i++) {
       var iframe = iframes[i];
       if (iframe.contentWindow === event.source) {
+        var previousScrollY = window.scrollY || window.pageYOffset || 0;
+        var previousTop = iframe.getBoundingClientRect().top;
         iframe.style.height = Math.ceil(height) + "px";
+        var nextTop = iframe.getBoundingClientRect().top;
+        var scrollDelta = nextTop - previousTop;
+        if (Math.abs(scrollDelta) > 1) {
+          window.scrollTo(0, previousScrollY + scrollDelta);
+        }
         return;
       }
     }

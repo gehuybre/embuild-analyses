@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Button } from "../ui/button"
 import { Check, ChevronsUpDown } from 'lucide-react'
 import {
@@ -30,7 +30,18 @@ export function HierarchicalFilter({
   minWidth = 200,
 }: HierarchicalFilterProps) {
   const [open, setOpen] = useState(false)
+  const inputRef = useRef<HTMLInputElement>(null)
   const selectedLabel = value || placeholder
+
+  useEffect(() => {
+    if (!open) return
+
+    const frame = window.requestAnimationFrame(() => {
+      inputRef.current?.focus({ preventScroll: true })
+    })
+
+    return () => window.cancelAnimationFrame(frame)
+  }, [open])
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
@@ -49,9 +60,17 @@ export function HierarchicalFilter({
           <ChevronsUpDown className="h-3.5 w-3.5 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[400px] p-0" align="start">
+      <PopoverContent
+        className="w-[400px] p-0"
+        align="start"
+        onOpenAutoFocus={(event) => event.preventDefault()}
+        onCloseAutoFocus={(event) => event.preventDefault()}
+      >
         <Command>
-          <CommandInput placeholder={`Zoek ${placeholder.toLowerCase()}...`} />
+          <CommandInput
+            ref={inputRef}
+            placeholder={`Zoek ${placeholder.toLowerCase()}...`}
+          />
           <CommandList>
             <CommandEmpty>Geen resultaat.</CommandEmpty>
             <CommandGroup>

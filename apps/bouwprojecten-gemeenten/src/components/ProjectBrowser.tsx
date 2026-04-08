@@ -485,7 +485,14 @@ export function ProjectBrowser() {
     for (var i = 0; i < iframes.length; i++) {
       var iframe = iframes[i];
       if (iframe.contentWindow === event.source) {
+        var previousScrollY = window.scrollY || window.pageYOffset || 0;
+        var previousTop = iframe.getBoundingClientRect().top;
         iframe.style.height = Math.ceil(height) + "px";
+        var nextTop = iframe.getBoundingClientRect().top;
+        var scrollDelta = nextTop - previousTop;
+        if (Math.abs(scrollDelta) > 1) {
+          window.scrollTo(0, previousScrollY + scrollDelta);
+        }
         return;
       }
     }
@@ -562,6 +569,16 @@ export function ProjectBrowser() {
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
+  }
+
+  const handleProjectClick = (project: Project) => {
+    setSelectedProject((current) => {
+      if (current && getProjectKey(current) === getProjectKey(project)) {
+        return null
+      }
+
+      return project
+    })
   }
 
   const showCriticalError = error && !metadata
@@ -726,7 +743,7 @@ export function ProjectBrowser() {
 
           <ProjectList
             projects={filteredAndSortedProjects}
-            onProjectClick={setSelectedProject}
+            onProjectClick={handleProjectClick}
             loading={loading}
             selectedProject={isEmbeddedInIframe ? selectedProject : null}
             expandedContent={

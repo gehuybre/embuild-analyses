@@ -21,7 +21,16 @@ export function EmbedParentResizeListener() {
       const iframe = iframes.find((el) => el.contentWindow === event.source)
       if (!iframe) return
 
+      const previousScrollY = window.scrollY || window.pageYOffset
+      const previousTop = iframe.getBoundingClientRect().top
       iframe.style.height = `${Math.ceil(height)}px`
+
+      const nextTop = iframe.getBoundingClientRect().top
+      const scrollDelta = nextTop - previousTop
+
+      if (Math.abs(scrollDelta) > 1) {
+        window.scrollTo(0, previousScrollY + scrollDelta)
+      }
     }
 
     window.addEventListener("message", onMessage)
@@ -30,4 +39,3 @@ export function EmbedParentResizeListener() {
 
   return null
 }
-

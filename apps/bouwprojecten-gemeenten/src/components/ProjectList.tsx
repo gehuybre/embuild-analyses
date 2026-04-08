@@ -71,6 +71,7 @@ export function ProjectList({
               <ProjectCard
                 project={project}
                 onClick={() => onProjectClick(project)}
+                isExpanded={isExpanded}
               />
 
               {isExpanded && expandedContent && (
