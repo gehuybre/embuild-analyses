@@ -131,9 +131,15 @@ jobs:
 
           # Stage metadata, visible page copy, and generated data files
           git add "${APP_ROOT}/data/.remote_metadata.json"
-          git add "${APP_ROOT}/content.mdx"
-          git add "${APP_ROOT}/src/app/page.tsx"
           git add "${APP_ROOT}/public/data/"
+
+          if [ -f "${APP_ROOT}/content.mdx" ]; then
+            git add "${APP_ROOT}/content.mdx"
+          fi
+
+          if [ -f "${APP_ROOT}/src/app/page.tsx" ]; then
+            git add "${APP_ROOT}/src/app/page.tsx"
+          fi
 
           if git diff --staged --quiet; then
             echo "changed=false" >> "${GITHUB_OUTPUT}"
