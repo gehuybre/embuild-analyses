@@ -1,0 +1,190 @@
+name: Update faillissementen data
+
+concurrency:
+  group: update-faillissementen-data
+  cancel-in-progress: true
+
+on:
+  schedule:
+    - cron: "25 4 * * *"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - apps/faillissementen/data/**
+      - apps/faillissementen/scripts/**
+      - scripts/check_remote_metadata.py
+      - scripts/save_remote_metadata.py
+      - scripts/update_analysis_data_status.py
+      - scripts/update_publication_date.py
+      - scripts/resolve_statbel_bankruptcies_url.py
+      - .github/workflows/update-faillissementen-data.yml
+
+permissions:
+  actions: write
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    env:
+      ANALYSIS_SLUG: faillissementen
+      APP_ROOT: apps/faillissementen
+      META_FILE: apps/faillissementen/data/.remote_metadata.json
+      PUBLICATION_PAGE_URL: https://statbel.fgov.be/nl/themas/ondernemingen/faillissementen/maandelijkse-faillissementen
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pandas requests openpyxl
+
+      - name: Resolve current Statbel source URL
+        id: resolve_source
+        run: |
+          set -euo pipefail
+          input_url="$(python scripts/resolve_statbel_bankruptcies_url.py --meta-file "${META_FILE}")"
+          echo "input_url=${input_url}" >> "${GITHUB_OUTPUT}"
+          echo "Resolved dataset URL: ${input_url}"
+
+      - name: Check remote metadata
+        id: check_remote
+        env:
+          INPUT_URL: ${{ steps.resolve_source.outputs.input_url }}
+        run: |
+          set -euo pipefail
+
+          if [ "${GITHUB_EVENT_NAME}" != "schedule" ]; then
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
+            echo "Event ${GITHUB_EVENT_NAME}: forcing refresh."
+            exit 0
+          fi
+
+          mkdir -p "$(dirname "${META_FILE}")"
+          headers="$(curl -sI "${INPUT_URL}" || true)"
+          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk -F': ' '/^ETag:/ {print $2}' | tr -d '\r"')"
+          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk -F': ' '/^Last-Modified:/ {print substr($0,index($0,$2)) }' | tr -d '\r')"
+
+          set +e
+          python scripts/check_remote_metadata.py
+          rc=$?
+          set -e
+
+          if [ "${rc}" -eq 2 ]; then
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+            echo "No remote change detected; skipping."
+            exit 0
+          fi
+
+          if [ "${rc}" -ne 0 ] && [ "${rc}" -ne 2 ]; then
+            exit "${rc}"
+          fi
+
+          echo "changed=true" >> "${GITHUB_OUTPUT}"
+
+      - name: Refresh faillissementen data
+        if: steps.check_remote.outputs.changed == 'true'
+        env:
+          INPUT_URL: ${{ steps.resolve_source.outputs.input_url }}
+        run: python "${APP_ROOT}/scripts/process_faillissementen.py"
+
+      - name: Verify generated outputs
+        if: steps.check_remote.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          for f in \
+            lookups.json \
+            metadata.json \
+            monthly_by_sector.json \
+            monthly_by_sector_province.json \
+            monthly_construction.json \
+            monthly_provinces.json \
+            monthly_provinces_construction.json \
+            monthly_totals.json \
+            provinces.json \
+            provinces_construction.json \
+            yearly_by_duration.json \
+            yearly_by_duration_construction.json \
+            yearly_by_duration_province.json \
+            yearly_by_duration_province_construction.json \
+            yearly_by_duration_sector.json \
+            yearly_by_sector.json \
+            yearly_by_sector_province.json \
+            yearly_by_workers.json \
+            yearly_by_workers_construction.json \
+            yearly_by_workers_province.json \
+            yearly_by_workers_province_construction.json \
+            yearly_by_workers_sector.json \
+            yearly_construction.json \
+            yearly_totals.json
+          do
+            test -f "${APP_ROOT}/public/data/${f}" || { echo "Missing ${f}"; exit 1; }
+          done
+
+      - name: Update remote metadata
+        if: steps.check_remote.outputs.changed == 'true'
+        env:
+          INPUT_URL: ${{ steps.resolve_source.outputs.input_url }}
+        run: |
+          set -euo pipefail
+          headers="$(curl -sI "${INPUT_URL}" || true)"
+          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk -F': ' '/^ETag:/ {print $2}' | tr -d '\r"')"
+          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk -F': ' '/^Last-Modified:/ {print substr($0,index($0,$2)) }' | tr -d '\r')"
+
+          download_path="${APP_ROOT}/data/$(basename "${INPUT_URL}")"
+          if [ -f "${download_path}" ]; then
+            export sha="$(sha256sum "${download_path}" | awk '{print $1}')"
+          else
+            export sha=""
+          fi
+
+          python scripts/save_remote_metadata.py
+
+      - name: Sync visible metadata
+        if: steps.check_remote.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          python scripts/update_analysis_data_status.py "${ANALYSIS_SLUG}"
+          python scripts/update_publication_date.py "${ANALYSIS_SLUG}" "${PUBLICATION_PAGE_URL}"
+
+      - name: Commit and push changes
+        id: commit_changes
+        if: steps.check_remote.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add "${META_FILE}"
+          git add "${APP_ROOT}/public/data/"
+
+          if [ -f "${APP_ROOT}/src/app/page.tsx" ]; then
+            git add "${APP_ROOT}/src/app/page.tsx"
+          fi
+
+          if [ -f "${APP_ROOT}/content.mdx" ]; then
+            git add "${APP_ROOT}/content.mdx"
+          fi
+
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+            echo "No changes to commit"
+          else
+            git commit -m "chore(data): update faillissementen data (auto)"
+            git push origin HEAD:main
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
+          fi
+
+      - name: Trigger deploy
+        if: steps.commit_changes.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}" -f apps="${ANALYSIS_SLUG}"
+        env:
+          GH_TOKEN: ${{ github.token }}
