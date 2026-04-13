@@ -46,10 +46,11 @@ Steps:
 
 ## Data update workflows
 
-Four workflows auto-update analysis data on a schedule:
+Five workflows auto-update analysis data on a schedule:
 
 | Workflow | Schedule | Analysis |
 | --- | --- | --- |
+| `update-faillissementen-data.yml` | Daily + push on source changes | Bankruptcies |
 | `update-nbb-rente-data.yml` | Monthly | NBB interest rates |
 | `update-vergunningen-aanvragen-data.yml` | Monthly + push on source changes | Building permits |
 | `update-vergunningen-goedkeuringen-data.yml` | Statbel release schedule | Permit approvals |
