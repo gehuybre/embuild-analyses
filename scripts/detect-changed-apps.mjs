@@ -21,7 +21,8 @@ function parseArgs(argv) {
     if (!current.startsWith("--")) continue
     const key = current.slice(2)
     const next = argv[index + 1]
-    if (!next || next.startsWith("--")) {
+    const hasNext = index + 1 < argv.length
+    if (!hasNext || next.startsWith("--")) {
       args[key] = "true"
       continue
     }
