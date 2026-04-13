@@ -15,6 +15,7 @@ on:
       - scripts/update_analysis_data_status.py
 
 permissions:
+  actions: write
   contents: write
 
 jobs:
