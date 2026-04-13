@@ -1,4 +1,4 @@
-name: Update vergunningen-aanvragen data (manual upload)
+name: Update vergunningen-aanvragen data
 
 concurrency:
   group: update-vergunningen-aanvragen-data
@@ -6,17 +6,13 @@ concurrency:
 
 on:
   schedule:
-    # Monthly on day-of-month 1 (UTC)
-    - cron: '10 1 1 * *'
+    - cron: "10 1 1 * *"
   workflow_dispatch: {}
   push:
     paths:
-      - embuild-analyses/analyses/vergunningen-aanvragen/data/**
-      - embuild-analyses/analyses/vergunningen-aanvragen/src/**
-      - embuild-analyses/analyses/vergunningen-aanvragen/content.mdx
-
-env:
-  DATA_REPOSITORY: gehuybre/data-backup-2026-03-31
+      - apps/vergunningen-aanvragen/data/**
+      - apps/vergunningen-aanvragen/scripts/**
+      - scripts/update_analysis_data_status.py
 
 permissions:
   contents: write
@@ -24,100 +20,78 @@ permissions:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    env:
+      ANALYSIS_SLUG: vergunningen-aanvragen
+      APP_ROOT: apps/vergunningen-aanvragen
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          lfs: false
           fetch-depth: 0
 
-      - name: Configure Git LFS (no download)
-        working-directory: .
-        run: git lfs install --local
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.11"
 
-      - name: Install Python dependencies (minimal)
+      - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
           pip install pandas
 
+      - name: Verify source files
+        run: |
+          set -euo pipefail
+          test -f "${APP_ROOT}/data/bouwen_of_verbouwen_van_woningen.csv"
+          test -f "${APP_ROOT}/data/Kopie van bouwstatistieken_met type aanvrager_2026.csv"
+
       - name: Run data processor
-        run: |
-          set -e
-          python embuild-analyses/analyses/vergunningen-aanvragen/src/process_vergunningen.py
+        run: python "${APP_ROOT}/scripts/process_data.py"
 
-      - name: Copy results to public directory
+      - name: Verify generated outputs
         run: |
-          mkdir -p embuild-analyses/public/data/vergunningen-aanvragen
-          cp embuild-analyses/analyses/vergunningen-aanvragen/results/*.json embuild-analyses/public/data/vergunningen-aanvragen/
+          set -euo pipefail
+          for f in \
+            nieuwbouw_quarterly.json \
+            nieuwbouw_yearly.json \
+            nieuwbouw_by_type.json \
+            verbouw_quarterly.json \
+            verbouw_yearly.json \
+            verbouw_by_type.json \
+            sloop_quarterly.json \
+            sloop_yearly.json \
+            sloop_by_besluit.json \
+            aanvrager_yearly.json \
+            lookups.json
+          do
+            test -f "${APP_ROOT}/public/data/${f}" || { echo "Missing ${f}"; exit 1; }
+          done
 
-      - name: Commit and push changes to analyses repo
+      - name: Sync visible metadata
+        run: python scripts/update_analysis_data_status.py "${ANALYSIS_SLUG}"
+
+      - name: Commit and push changes
+        id: commit_changes
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add embuild-analyses/analyses/vergunningen-aanvragen/results
-          git add embuild-analyses/analyses/vergunningen-aanvragen/content.mdx || true
-          if ! git diff --staged --quiet; then
-            git commit -m "chore(data): update vergunningen-aanvragen results (auto)"
-            git push origin HEAD:main
-          else
+
+          git add "${APP_ROOT}/content.mdx"
+          git add "${APP_ROOT}/src/app/page.tsx"
+          git add "${APP_ROOT}/public/data/"
+
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
             echo "No changes to commit"
-          fi
-
-      - name: Check data repo token
-        id: data_repo_token
-        env:
-          DATA_REPO_TOKEN: ${{ secrets.DATA_REPO_TOKEN }}
-        run: |
-          if [ -n "${DATA_REPO_TOKEN}" ]; then
-            echo "available=true" >> "${GITHUB_OUTPUT}"
           else
-            echo "::warning::DATA_REPO_TOKEN not configured; skipping publish to ${DATA_REPOSITORY}."
-            echo "available=false" >> "${GITHUB_OUTPUT}"
-          fi
-
-      - name: Checkout data repo
-        if: steps.data_repo_token.outputs.available == 'true'
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ env.DATA_REPOSITORY }}
-          path: data-repo
-          token: ${{ secrets.DATA_REPO_TOKEN }}
-
-      - name: Export data to data repository
-        if: steps.data_repo_token.outputs.available == 'true'
-        run: |
-          set -euo pipefail
-
-          mkdir -p data-repo/data/vergunningen-aanvragen
-          mkdir -p data-repo/docs/data/vergunningen-aanvragen
-          mkdir -p data-repo/analyses/vergunningen-aanvragen/results
-          mkdir -p data-repo/docs/analyses/vergunningen-aanvragen/results
-
-          cp embuild-analyses/public/data/vergunningen-aanvragen/*.json data-repo/data/vergunningen-aanvragen/
-          cp embuild-analyses/public/data/vergunningen-aanvragen/*.json data-repo/docs/data/vergunningen-aanvragen/
-          cp embuild-analyses/analyses/vergunningen-aanvragen/results/*.json data-repo/analyses/vergunningen-aanvragen/results/
-          cp embuild-analyses/analyses/vergunningen-aanvragen/results/*.json data-repo/docs/analyses/vergunningen-aanvragen/results/
-
-      - name: Commit and push data repo changes
-        if: steps.data_repo_token.outputs.available == 'true'
-        working-directory: data-repo
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/vergunningen-aanvragen/
-          git add docs/data/vergunningen-aanvragen/
-          git add analyses/vergunningen-aanvragen/results/
-          git add docs/analyses/vergunningen-aanvragen/results/
-
-          if ! git diff --staged --quiet; then
             git commit -m "chore(data): update vergunningen-aanvragen data (auto)"
             git push origin HEAD:main
-          else
-            echo "No changes to commit in data repo"
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
           fi
 
+      - name: Trigger deploy
+        if: steps.commit_changes.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}" -f apps="${ANALYSIS_SLUG}"
+        env:
+          GH_TOKEN: ${{ github.token }}

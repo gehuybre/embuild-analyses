@@ -66,6 +66,13 @@ jobs:
             echo "changed=false" >> "${GITHUB_OUTPUT}"
             echo "No press reference changes to commit"
           else
+            changed_apps="$(
+              git diff --staged --name-only \
+                | awk -F/ '/^apps\/[^/]+\/public\/(press-references\/[^/]+\.json|data\/press_references\.json)$/ {print $2}' \
+                | sort -u \
+                | paste -sd, -
+            )"
+            echo "changed_apps=${changed_apps}" >> "${GITHUB_OUTPUT}"
             git commit -m "chore(data): refresh press references (auto)"
             git push origin HEAD:main
             echo "changed=true" >> "${GITHUB_OUTPUT}"
@@ -73,6 +80,6 @@ jobs:
 
       - name: Trigger deploy
         if: steps.commit_changes.outputs.changed == 'true'
-        run: gh workflow run deploy.yml
+        run: gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}" -f apps="${{ steps.commit_changes.outputs.changed_apps }}"
         env:
           GH_TOKEN: ${{ github.token }}

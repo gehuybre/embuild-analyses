@@ -6,18 +6,8 @@ concurrency:
 
 on:
   schedule:
-    - cron: "15 4 * * 1"
+    - cron: "15 4 20 * *"
   workflow_dispatch: {}
-  push:
-    paths:
-      - embuild-analyses/analyses/nbb-rente/**
-      - embuild-analyses/src/components/analyses/nbb-rente/**
-      - embuild-analyses/src/lib/path-utils.ts
-      - embuild-analyses/src/lib/embed-config.ts
-      - embuild-analyses/src/app/embed/[slug]/[section]/EmbedClient.tsx
-
-env:
-  DATA_REPOSITORY: gehuybre/data-backup-2026-03-31
 
 permissions:
   contents: write
@@ -25,6 +15,9 @@ permissions:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    env:
+      ANALYSIS_SLUG: nbb-rente
+      APP_ROOT: apps/nbb-rente
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -37,60 +30,42 @@ jobs:
           python-version: "3.11"
 
       - name: Refresh NBB rente data
-        run: python3 embuild-analyses/analyses/nbb-rente/src/process_data.py
+        run: python "${APP_ROOT}/scripts/process_data.py"
 
       - name: Verify expected output files
         run: |
-          set -e
-          test -f embuild-analyses/analyses/nbb-rente/results/interest_rates.json
-          test -f embuild-analyses/analyses/nbb-rente/results/interest_rates.csv
-          test -f embuild-analyses/analyses/nbb-rente/results/metadata.json
-          test -f embuild-analyses/public/data/nbb-rente/interest_rates.json
-          test -f embuild-analyses/public/data/nbb-rente/metadata.json
+          set -euo pipefail
+          test -f "${APP_ROOT}/public/data/interest_rates.json"
+          test -f "${APP_ROOT}/public/data/interest_rates.csv"
+          test -f "${APP_ROOT}/public/data/metadata.json"
+          test -f "${APP_ROOT}/data/.remote_metadata.json"
 
-      - name: Commit and push changes to analyses repo
+      - name: Sync visible metadata
+        run: python scripts/update_analysis_data_status.py "${ANALYSIS_SLUG}"
+
+      - name: Commit and push changes
+        id: commit_changes
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f embuild-analyses/analyses/nbb-rente/results
-          git add -f embuild-analyses/analyses/nbb-rente/data/.remote_metadata.json
-          git add embuild-analyses/analyses/nbb-rente/content.mdx
-          git add -f embuild-analyses/public/data/nbb-rente
 
-          if ! git diff --staged --quiet; then
-            git commit -m "chore(data): update nbb-rente results (auto)"
-            git push origin HEAD:main
+          git add "${APP_ROOT}/data/.remote_metadata.json"
+          git add "${APP_ROOT}/content.mdx"
+          git add "${APP_ROOT}/src/app/page.tsx"
+          git add "${APP_ROOT}/public/data/"
+
+          if git diff --staged --quiet; then
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
+            echo "No changes to commit"
           else
-            echo "No changes to commit in analyses repo"
-          fi
-
-      - name: Checkout data repo
-        uses: actions/checkout@v4
-        with:
-          repository: ${{ env.DATA_REPOSITORY }}
-          path: data-repo
-          token: ${{ secrets.DATA_REPO_TOKEN }}
-
-      - name: Export updated NBB rente data to data repo
-        run: |
-          set -e
-          mkdir -p data-repo/data/nbb-rente
-          mkdir -p data-repo/analyses/nbb-rente/results
-
-          cp embuild-analyses/public/data/nbb-rente/*.json data-repo/data/nbb-rente/
-          cp embuild-analyses/analyses/nbb-rente/results/* data-repo/analyses/nbb-rente/results/
-
-      - name: Commit and push data repo
-        working-directory: data-repo
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/nbb-rente
-          git add analyses/nbb-rente/results
-
-          if ! git diff --staged --quiet; then
             git commit -m "chore(data): update nbb-rente data (auto)"
             git push origin HEAD:main
-          else
-            echo "No changes to commit in data repo"
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
           fi
+
+      - name: Trigger deploy
+        if: steps.commit_changes.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}" -f apps="${ANALYSIS_SLUG}"
+        env:
+          GH_TOKEN: ${{ github.token }}

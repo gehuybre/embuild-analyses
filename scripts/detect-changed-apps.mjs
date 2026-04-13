@@ -37,6 +37,37 @@ function discoverApps() {
     .sort()
 }
 
+function parseRequestedApps(rawValue, allApps) {
+  if (!rawValue) return []
+
+  const trimmed = rawValue.trim()
+  if (!trimmed) return []
+
+  let requested = []
+
+  if (trimmed.startsWith("[")) {
+    const parsed = JSON.parse(trimmed)
+    if (!Array.isArray(parsed)) {
+      throw new Error("--apps JSON input must be an array")
+    }
+    requested = parsed
+  } else {
+    requested = trimmed
+      .split(",")
+      .map((value) => value.trim())
+      .filter(Boolean)
+  }
+
+  const uniqueRequested = [...new Set(requested)]
+  const invalid = uniqueRequested.filter((slug) => !allApps.includes(slug))
+
+  if (invalid.length) {
+    throw new Error(`Unknown app slug(s): ${invalid.join(", ")}`)
+  }
+
+  return uniqueRequested
+}
+
 function runGit(args) {
   const result = spawnSync("git", args, {
     cwd: ROOT,
@@ -71,6 +102,7 @@ function main() {
   const eventName = args["event-name"]?.trim() || ""
   const outputPath = args.output?.trim()
   const allApps = discoverApps()
+  const requestedApps = parseRequestedApps(args.apps, allApps)
   const changedApps = new Set()
   let changedFiles = []
   let reason = ""
@@ -87,7 +119,12 @@ function main() {
     }
   }
 
-  if (eventName === "workflow_dispatch") {
+  if (requestedApps.length) {
+    reason = `Explicit app selection requested: ${requestedApps.join(", ")}.`
+    for (const slug of requestedApps) {
+      changedApps.add(slug)
+    }
+  } else if (eventName === "workflow_dispatch") {
     reason = "Manual dispatch rebuilds all apps."
     markAllApps()
   } else if (!base || base === ZERO_SHA || !commitExists(base) || !commitExists(head)) {

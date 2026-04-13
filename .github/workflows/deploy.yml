@@ -16,7 +16,12 @@ on:
       - "scripts/merge-outputs.mjs"
       - "scripts/generate-portal-data.mjs"
       - ".github/workflows/deploy.yml"
-  workflow_dispatch: {}
+  workflow_dispatch:
+    inputs:
+      apps:
+        description: "Optional app slug, comma-separated slugs, or JSON array to rebuild"
+        required: false
+        type: string
 
 permissions:
   contents: read
@@ -45,6 +50,7 @@ jobs:
         run: |
           node scripts/detect-changed-apps.mjs \
             --event-name "${{ github.event_name }}" \
+            --apps '${{ github.event.inputs.apps }}' \
             --base "${{ github.event.before }}" \
             --head "${{ github.sha }}" \
             --output "$GITHUB_OUTPUT"

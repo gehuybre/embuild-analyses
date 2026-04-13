@@ -1,7 +1,18 @@
 name: Update gemeentelijke-investeringen data
 
+concurrency:
+  group: update-gemeentelijke-investeringen-data
+  cancel-in-progress: true
+
 on:
-  workflow_dispatch:
+  schedule:
+    - cron: "20 1 1 * *"
+  workflow_dispatch: {}
+  push:
+    paths:
+      - apps/gemeentelijke-investeringen/data/**
+      - apps/gemeentelijke-investeringen/scripts/**
+      - scripts/update_analysis_data_status.py
 
 permissions:
   contents: write
@@ -9,117 +20,125 @@ permissions:
 jobs:
   update-data:
     runs-on: ubuntu-latest
+    env:
+      ANALYSIS_SLUG: gemeentelijke-investeringen
+      APP_ROOT: apps/gemeentelijke-investeringen
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          lfs: false
           fetch-depth: 0
 
-      - name: Configure Git LFS (no download)
-        working-directory: .
-        run: git lfs install --local
-
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.11"
 
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install pandas numpy pyarrow
 
-      - name: Check required input files exist
-        id: check_files
+      - name: Check raw input availability
+        id: raw_inputs
         run: |
-          set -e
-          missing_files=false
-          required_files=(
-            "embuild-analyses/analyses/gemeentelijke-investeringen/data/mjp 2014 bv.csv"
-            "embuild-analyses/analyses/gemeentelijke-investeringen/data/mjp 2020 bv.csv"
-            "embuild-analyses/analyses/gemeentelijke-investeringen/data/mjp bv 26.csv"
-            "embuild-analyses/analyses/gemeentelijke-investeringen/data/mjp rek 2014.csv"
-            "embuild-analyses/analyses/gemeentelijke-investeringen/data/mjp rek 2020.csv"
-            "embuild-analyses/analyses/gemeentelijke-investeringen/data/mjp rek 2026.csv"
-          )
-          for f in "${required_files[@]}"; do
-            if [ ! -f "$f" ]; then
-              echo "Missing required input file: $f"
-              missing_files=true
+          set -euo pipefail
+          missing=0
+          for f in \
+            "MJP BV 2014 MVA.csv" \
+            "MJP BV 2020 MVA.csv" \
+            "MJP BV 2026 MVA.csv" \
+            "mjp rek 2014.csv" \
+            "mjp rek 2020.csv" \
+            "mjp rek 2026.csv"
+          do
+            if [ ! -f "${APP_ROOT}/data/${f}" ]; then
+              echo "::notice::Missing raw input: ${APP_ROOT}/data/${f}"
+              missing=1
             fi
           done
 
-          if [ "$missing_files" = "true" ]; then
-            echo "ERROR: Some required input files are missing. Please ensure all CSV files are committed."
-            echo "files_exist=false" >> "$GITHUB_OUTPUT"
-            exit 1
+          if [ "${missing}" -eq 0 ]; then
+            echo "raw_ready=true" >> "${GITHUB_OUTPUT}"
           else
-            echo "All required input files found."
-            echo "files_exist=true" >> "$GITHUB_OUTPUT"
+            echo "raw_ready=false" >> "${GITHUB_OUTPUT}"
           fi
 
-      - name: Process investment data (REK and BV)
-        if: steps.check_files.outputs.files_exist == 'true'
-        run: |
-          set -e
-          echo "Processing investment data..."
-          python embuild-analyses/analyses/gemeentelijke-investeringen/src/process_investments.py
+      - name: Rebuild parquet intermediates from raw files
+        if: steps.raw_inputs.outputs.raw_ready == 'true'
+        run: python "${APP_ROOT}/scripts/process_investments.py"
 
-      - name: Prepare visualization data
-        if: steps.check_files.outputs.files_exist == 'true'
+      - name: Verify parquet inputs
         run: |
-          set -e
-          echo "Preparing visualization data..."
-          python embuild-analyses/analyses/gemeentelijke-investeringen/src/prepare_visualizations.py
-
-      - name: Verify output files
-        if: steps.check_files.outputs.files_exist == 'true'
-        run: |
-          set -e
-          missing_output=false
-          required_output=(
-            "embuild-analyses/public/data/gemeentelijke-investeringen/bv_lookups.json"
-            "embuild-analyses/public/data/gemeentelijke-investeringen/bv_vlaanderen_data.json"
-            "embuild-analyses/public/data/gemeentelijke-investeringen/bv_indexed_municipality_totals.json"
-            "embuild-analyses/public/data/gemeentelijke-investeringen/bv_indexed_vlaanderen_totals.json"
-            "embuild-analyses/public/data/gemeentelijke-investeringen/bv_indexation_metadata.json"
-            "embuild-analyses/public/data/gemeentelijke-investeringen/rek_lookups.json"
-            "embuild-analyses/public/data/gemeentelijke-investeringen/rek_vlaanderen_data.json"
-            "embuild-analyses/public/data/gemeentelijke-investeringen/metadata.json"
-          )
-          for f in "${required_output[@]}"; do
-            if [ ! -f "$f" ]; then
-              echo "Missing expected output file: $f"
-              missing_output=true
+          set -euo pipefail
+          for f in investments_bv.parquet investments_rek.parquet; do
+            if [ -f "${APP_ROOT}/results/${f}" ] || [ -f "${APP_ROOT}/public/data/${f}" ]; then
+              continue
             fi
+            echo "Missing parquet input: ${f}"
+            exit 1
           done
 
-          if [ "$missing_output" = "true" ]; then
-            echo "ERROR: Some expected output files are missing."
+      - name: Generate frontend datasets
+        run: python "${APP_ROOT}/scripts/prepare_visualizations.py"
+
+      - name: Verify generated outputs
+        run: |
+          set -euo pipefail
+          for f in \
+            bv_lookups.json \
+            bv_domain_all_summary.json \
+            bv_domain_municipality_summary.json \
+            bv_top_fields_summary.json \
+            bv_indexed_municipality_totals.json \
+            bv_indexed_vlaanderen_totals.json \
+            bv_indexation_metadata.json \
+            bv_vlaanderen_data.json \
+            rek_lookups.json \
+            rek_all_summary.json \
+            rek_niveau3_summary.json \
+            rek_category_top_totaal.json \
+            rek_category_top_per_inwoner.json \
+            rek_vlaanderen_data.json \
+            metadata.json
+          do
+            test -f "${APP_ROOT}/public/data/${f}" || { echo "Missing ${f}"; exit 1; }
+          done
+
+          test -n "$(find "${APP_ROOT}/public/data/bv_domain_municipality" -mindepth 1 -type f -print -quit)" || {
+            echo "Missing bv_domain_municipality outputs"
             exit 1
-          else
-            echo "All expected output files generated successfully."
-          fi
+          }
+          test -n "$(find "${APP_ROOT}/public/data/rek_niveau3" -mindepth 1 -type f -print -quit)" || {
+            echo "Missing rek_niveau3 outputs"
+            exit 1
+          }
+
+      - name: Sync visible metadata
+        run: python scripts/update_analysis_data_status.py "${ANALYSIS_SLUG}"
 
       - name: Commit and push changes
-        if: steps.check_files.outputs.files_exist == 'true'
+        id: commit_changes
         run: |
-          set -e
+          set -euo pipefail
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add embuild-analyses/analyses/gemeentelijke-investeringen/results/
-          git add embuild-analyses/public/data/gemeentelijke-investeringen/
+          git add "${APP_ROOT}/content.mdx"
+          git add "${APP_ROOT}/src/app/page.tsx"
+          git add "${APP_ROOT}/public/data/"
 
           if git diff --staged --quiet; then
+            echo "changed=false" >> "${GITHUB_OUTPUT}"
             echo "No changes to commit"
           else
-            git commit -m "chore(data): update gemeentelijke-investeringen visualization data
-
-            Generated from latest BBC-DR data export
-            - Processed BV (beleidsdomein) data for rapportjaren: 2014, 2020, 2026
-            - Processed REK (economische rekening) data for rapportjaren: 2014, 2020, 2026
-            - Updated municipality aggregations and lookups"
-            git push
+            git commit -m "chore(data): update gemeentelijke-investeringen data (auto)"
+            git push origin HEAD:main
+            echo "changed=true" >> "${GITHUB_OUTPUT}"
           fi
+
+      - name: Trigger deploy
+        if: steps.commit_changes.outputs.changed == 'true'
+        run: gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}" -f apps="${ANALYSIS_SLUG}"
+        env:
+          GH_TOKEN: ${{ github.token }}
