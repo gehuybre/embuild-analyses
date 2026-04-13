@@ -1,17 +1,25 @@
 "use client"
 
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
+import { NbbInflatieSection } from "./NbbInflatieSection"
 import { NbbRenteSection } from "./NbbRenteSection"
-import type { NbbRenteMetadata, NbbRentePoint } from "./types"
+import type {
+  InflationForecast,
+  InflationForecastMetadata,
+  NbbRenteMetadata,
+  NbbRentePoint,
+} from "./types"
 
 interface NbbRenteEmbedProps {
-  section: "hypothecaire-rente"
+  section: "hypothecaire-rente" | "inflatieprognoses"
   viewType?: "chart" | "table"
 }
 
 const DATA_PATHS = {
-  series: "/data/interest_rates.json",
-  metadata: "/data/metadata.json",
+  interestSeries: "/data/interest_rates.json",
+  interestMetadata: "/data/metadata.json",
+  inflationForecasts: "/data/inflation_forecasts.json",
+  inflationMetadata: "/data/inflation_forecasts_metadata.json",
 } as const
 
 export function NbbRenteEmbed({
@@ -19,8 +27,10 @@ export function NbbRenteEmbed({
   viewType = "chart",
 }: NbbRenteEmbedProps) {
   const { data: bundle, loading, error } = useJsonBundle<{
-    series: NbbRentePoint[]
-    metadata: NbbRenteMetadata
+    interestSeries: NbbRentePoint[]
+    interestMetadata: NbbRenteMetadata
+    inflationForecasts: InflationForecast[]
+    inflationMetadata: InflationForecastMetadata
   }>(DATA_PATHS)
 
   if (loading) {
@@ -37,14 +47,25 @@ export function NbbRenteEmbed({
 
   return (
     <div className="p-4">
-      <NbbRenteSection
-        data={bundle.series}
-        metadata={bundle.metadata}
-        slug="nbb-rente"
-        sectionId={section}
-        title="Hypothecaire rente bij nieuwe contracten (> 10 jaar rentevast)"
-        defaultView={viewType}
-      />
+      {section === "inflatieprognoses" ? (
+        <NbbInflatieSection
+          forecasts={bundle.inflationForecasts}
+          metadata={bundle.inflationMetadata}
+          slug="nbb-rente"
+          sectionId={section}
+          title="Inflatieprognoses van het Federaal Planbureau"
+          defaultView={viewType}
+        />
+      ) : (
+        <NbbRenteSection
+          data={bundle.interestSeries}
+          metadata={bundle.interestMetadata}
+          slug="nbb-rente"
+          sectionId={section}
+          title="Hypothecaire rente bij nieuwe contracten (> 10 jaar rentevast)"
+          defaultView={viewType}
+        />
+      )}
     </div>
   )
 }

@@ -1,18 +1,28 @@
 "use client"
 
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
+import { NbbInflatieSection } from "./NbbInflatieSection"
 import { NbbRenteSection } from "./NbbRenteSection"
-import type { NbbRenteMetadata, NbbRentePoint } from "./types"
+import type {
+  InflationForecast,
+  InflationForecastMetadata,
+  NbbRenteMetadata,
+  NbbRentePoint,
+} from "./types"
 
 const DATA_PATHS = {
-  series: "/data/interest_rates.json",
-  metadata: "/data/metadata.json",
+  interestSeries: "/data/interest_rates.json",
+  interestMetadata: "/data/metadata.json",
+  inflationForecasts: "/data/inflation_forecasts.json",
+  inflationMetadata: "/data/inflation_forecasts_metadata.json",
 } as const
 
 export function NbbRenteDashboard() {
   const { data: bundle, loading, error } = useJsonBundle<{
-    series: NbbRentePoint[]
-    metadata: NbbRenteMetadata
+    interestSeries: NbbRentePoint[]
+    interestMetadata: NbbRenteMetadata
+    inflationForecasts: InflationForecast[]
+    inflationMetadata: InflationForecastMetadata
   }>(DATA_PATHS)
 
   if (loading) {
@@ -28,12 +38,22 @@ export function NbbRenteDashboard() {
   }
 
   return (
-    <NbbRenteSection
-      data={bundle.series}
-      metadata={bundle.metadata}
-      slug="nbb-rente"
-      sectionId="hypothecaire-rente"
-      title="Hypothecaire rente bij nieuwe contracten (> 10 jaar rentevast)"
-    />
+    <div className="space-y-12">
+      <NbbRenteSection
+        data={bundle.interestSeries}
+        metadata={bundle.interestMetadata}
+        slug="nbb-rente"
+        sectionId="hypothecaire-rente"
+        title="Hypothecaire rente bij nieuwe contracten (> 10 jaar rentevast)"
+      />
+
+      <NbbInflatieSection
+        forecasts={bundle.inflationForecasts}
+        metadata={bundle.inflationMetadata}
+        slug="nbb-rente"
+        sectionId="inflatieprognoses"
+        title="Inflatieprognoses van het Federaal Planbureau"
+      />
+    </div>
   )
 }

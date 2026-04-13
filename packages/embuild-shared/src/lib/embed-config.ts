@@ -319,6 +319,12 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         component: "NbbRenteEmbed",
         height: 720,
       },
+      "inflatieprognoses": {
+        type: "custom",
+        title: "Inflatieprognoses van het Federaal Planbureau",
+        component: "NbbRenteEmbed",
+        height: 760,
+      },
     },
   },
   {

@@ -1,9 +1,21 @@
 {
-  "url": "https://nsidisseminate-stat.nbb.be/rest/data/BE2,DF_MIR,1.0/M.R_N.2250.A2C.A_P.Z.Z?startPeriod=2015-01&dimensionAtObservation=AllDimensions",
-  "latest_period": "2026-02",
-  "source_publication_date": "2026-02-28",
-  "latest_rate": 3.35,
-  "response_sha256": "22884696b61708dd6ac655132066d13cf79c32d6daaa7dfdf62997f97b704adb",
-  "fetched_at": "2026-04-13T09:38:50Z",
-  "observation_count": 134
+  "nbb": {
+    "url": "https://nsidisseminate-stat.nbb.be/rest/data/BE2,DF_MIR,1.0/M.R_N.2250.A2C.A_P.Z.Z?startPeriod=2015-01&dimensionAtObservation=AllDimensions",
+    "latest_period": "2026-02",
+    "source_publication_date": "2026-02-28",
+    "latest_rate": 3.35,
+    "response_sha256": "e530d587414f8b1f43483d84c2db35b928c61aeb251af0d3058dbff2b09b4cf5",
+    "fetched_at": "2026-04-13T10:10:17Z",
+    "observation_count": 134
+  },
+  "inflation_forecasts": {
+    "landing_url": "https://www.plan.be/en/data/consumer-price-index-inflation-forecasts",
+    "download_url": "https://www.plan.be/sites/default/files/documents/DATA_FOR_InflationHistory.xlsx",
+    "workbook_last_modified": "Tue, 07 Apr 2026 11:41:26 GMT",
+    "latest_forecast_month": "2026-04",
+    "latest_source_publication_date": "2026-04-07",
+    "response_sha256": "b232acc6d1758e1658616c97e0bbc36be54d284d363445afe8450f6b0ce31d48",
+    "fetched_at": "2026-04-13T10:10:17Z",
+    "forecast_count": 12
+  }
 }
