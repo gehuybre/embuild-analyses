@@ -179,6 +179,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore(data): update faillissementen data (auto)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin HEAD:main
             echo "changed=true" >> "${GITHUB_OUTPUT}"
           fi
