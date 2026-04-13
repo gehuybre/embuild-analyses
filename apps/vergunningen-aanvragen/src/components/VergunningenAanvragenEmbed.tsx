@@ -13,10 +13,12 @@ type SloopYearlyRow = { y: number; p: number; g: number; m2: number; m3: number 
 type SloopBesluitRow = { y: number; b: string; p: number; g: number; m2: number; m3: number }
 type HandelingCode = "nieuwbouw" | "verbouw" | "sloop"
 type ApplicantCode = "natuurlijk_persoon" | "overheid_rechtspersoon" | "andere"
+type ApplicantFunctionCode = "alle" | "eengezins" | "meergezins" | "kamer"
 type ApplicantMetricCode = MetricCode | "dm2" | "m3"
 type ApplicantRow = {
   y: number
   h: HandelingCode
+  f: Exclude<ApplicantFunctionCode, "alle">
   a: ApplicantCode
   p: number
   g: number
@@ -86,6 +88,13 @@ const APPLICANT_LABELS: Record<ApplicantCode, string> = {
   natuurlijk_persoon: "Natuurlijk persoon",
   overheid_rechtspersoon: "Overheid / rechtspersoon",
   andere: "Andere / onbekend",
+}
+
+const APPLICANT_FUNCTION_LABELS: Record<ApplicantFunctionCode, string> = {
+  alle: "Alle woningtypes",
+  eengezins: "Eengezinswoning",
+  meergezins: "Meergezinswoning",
+  kamer: "Kamerwoning",
 }
 
 type ChartPoint = {
@@ -242,9 +251,12 @@ function getSloopData(
 function getAanvragerData(
   metric: ApplicantMetricCode,
   handeling: HandelingCode,
+  functie: ApplicantFunctionCode,
   subView: SubView
 ): ChartPoint[] {
-  const rows = (aanvragerYearly as ApplicantRow[]).filter((row) => row.h === handeling)
+  const rows = (aanvragerYearly as ApplicantRow[]).filter(
+    (row) => row.h === handeling && (functie === "alle" || row.f === functie)
+  )
   const years = [...new Set(rows.map((row) => row.y))].sort((a, b) => a - b)
 
   if (subView === "share") {
@@ -288,6 +300,7 @@ interface VergunningenAanvragenEmbedProps {
   timeRange?: TimeRange
   subView?: SubView
   handeling?: HandelingCode
+  functie?: ApplicantFunctionCode
 }
 
 export function VergunningenAanvragenEmbed({
@@ -297,6 +310,7 @@ export function VergunningenAanvragenEmbed({
   timeRange = "yearly",
   subView = "total",
   handeling = "nieuwbouw",
+  functie = "alle",
 }: VergunningenAanvragenEmbedProps) {
   const { data: bundle, loading, error } = useJsonBundle<{
     nieuwbouwQuarterly: QuarterlyRow[]
@@ -345,9 +359,9 @@ export function VergunningenAanvragenEmbed({
       case "sloop":
         return getSloopData(metric as SloopMetricCode, timeRange, subView)
       case "aanvrager":
-        return getAanvragerData(metric as ApplicantMetricCode, handeling, subView)
+        return getAanvragerData(metric as ApplicantMetricCode, handeling, functie, subView)
     }
-  }, [bundle, section, metric, timeRange, subView, handeling])
+  }, [bundle, section, metric, timeRange, subView, handeling, functie])
 
   const title = useMemo(() => {
     const sectionName =
@@ -361,20 +375,21 @@ export function VergunningenAanvragenEmbed({
     const metricLabel =
       section === "sloop"
         ? SLOOP_METRIC_LABELS[metric as SloopMetricCode]
-        : section === "aanvrager"
-          ? handeling === "sloop"
-            ? APPLICANT_SLOOP_METRIC_LABELS[metric as keyof typeof APPLICANT_SLOOP_METRIC_LABELS] ?? "Waarde"
-            : APPLICANT_NON_SLOOP_METRIC_LABELS[metric as keyof typeof APPLICANT_NON_SLOOP_METRIC_LABELS] ?? "Waarde"
+          : section === "aanvrager"
+            ? handeling === "sloop"
+              ? APPLICANT_SLOOP_METRIC_LABELS[metric as keyof typeof APPLICANT_SLOOP_METRIC_LABELS] ?? "Waarde"
+              : APPLICANT_NON_SLOOP_METRIC_LABELS[metric as keyof typeof APPLICANT_NON_SLOOP_METRIC_LABELS] ?? "Waarde"
           : METRIC_LABELS[metric as MetricCode]
+    const functieSuffix = section === "aanvrager" && functie !== "alle" ? ` - ${APPLICANT_FUNCTION_LABELS[functie]}` : ""
 
     if (subView === "type") return `${sectionName} per woningtype - ${metricLabel}`
     if (subView === "besluit") return `${sectionName} per besluitniveau - ${metricLabel}`
-    if (subView === "aanvrager") return `${sectionName} - ${HANDELING_LABELS[handeling]} - ${metricLabel}`
-    if (subView === "share") return `${sectionName} - ${HANDELING_LABELS[handeling]} - Aandeel (%)`
+    if (subView === "aanvrager") return `${sectionName} - ${HANDELING_LABELS[handeling]}${functieSuffix} - ${metricLabel}`
+    if (subView === "share") return `${sectionName} - ${HANDELING_LABELS[handeling]}${functieSuffix} - Aandeel (%)`
 
     const timeRangeLabel = timeRange === "yearly" ? "jaarlijks" : "per kwartaal"
     return `${sectionName} ${timeRangeLabel} - ${metricLabel}`
-  }, [section, metric, timeRange, subView, handeling])
+  }, [section, metric, timeRange, subView, handeling, functie])
 
   const periodHeaders = useMemo(() => {
     if (subView === "type") return ["Jaar", "Type"]

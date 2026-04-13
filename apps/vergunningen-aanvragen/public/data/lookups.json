@@ -62,5 +62,19 @@
       "code": "andere",
       "nl": "Andere / onbekend"
     }
+  ],
+  "gebouw_functies_kort": [
+    {
+      "code": "eengezins",
+      "nl": "Eengezinswoning"
+    },
+    {
+      "code": "meergezins",
+      "nl": "Meergezinswoning"
+    },
+    {
+      "code": "kamer",
+      "nl": "Kamerwoning"
+    }
   ]
 }

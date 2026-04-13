@@ -48,10 +48,12 @@ type SloopYearlyRow = { y: number; p: number; g: number; m2: number; m3: number 
 type SloopBesluitRow = { y: number; b: string; p: number; g: number; m2: number; m3: number }
 type HandelingCode = "nieuwbouw" | "verbouw" | "sloop"
 type ApplicantCode = "natuurlijk_persoon" | "overheid_rechtspersoon" | "andere"
+type ApplicantFunctionCode = "alle" | "eengezins" | "meergezins" | "kamer"
 type ApplicantMetricCode = MetricCode | "dm2" | "m3"
 type ApplicantRow = {
   y: number
   h: HandelingCode
+  f: Exclude<ApplicantFunctionCode, "alle">
   a: ApplicantCode
   p: number
   g: number
@@ -135,6 +137,13 @@ const APPLICANT_LABELS: Record<ApplicantCode, string> = {
   andere: "Andere / onbekend",
 }
 
+const APPLICANT_FUNCTION_LABELS: Record<ApplicantFunctionCode, string> = {
+  alle: "Alle woningtypes",
+  eengezins: "Eengezinswoning",
+  meergezins: "Meergezinswoning",
+  kamer: "Kamerwoning",
+}
+
 function formatInt(n: number) {
   return new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 0 }).format(n)
 }
@@ -146,6 +155,14 @@ function formatPct(n: number) {
 
 function formatShare(n: number) {
   return `${n.toFixed(1)}%`
+}
+
+function filterApplicantRows(
+  rows: ApplicantRow[],
+  handeling: HandelingCode,
+  functie: ApplicantFunctionCode
+) {
+  return rows.filter((row) => row.h === handeling && (functie === "alle" || row.f === functie))
 }
 
 // Metric selector component
@@ -923,10 +940,11 @@ function VerbouwSection() {
 function AanvragerSection() {
   const [handeling, setHandeling] = React.useState<keyof typeof AANVRAGER_HANDELING_LABELS>("nieuwbouw")
   const [metric, setMetric] = React.useState<ApplicantMetricCode>("w")
+  const [functie, setFunctie] = React.useState<ApplicantFunctionCode>("alle")
 
   const rows = React.useMemo(
-    () => (aanvragerYearly as ApplicantRow[]).filter((row) => row.h === handeling),
-    [handeling]
+    () => filterApplicantRows(aanvragerYearly as ApplicantRow[], handeling, functie),
+    [handeling, functie]
   )
   const visibleRows = React.useMemo(
     () => rows.filter((row) => VISIBLE_APPLICANT_ORDER.includes(row.a)),
@@ -957,6 +975,8 @@ function AanvragerSection() {
   const valueLabel = React.useMemo(() => {
     return APPLICANT_NON_SLOOP_METRIC_LABELS[metric as keyof typeof APPLICANT_NON_SLOOP_METRIC_LABELS] ?? "Waarde"
   }, [metric])
+  const functieLabel = APPLICANT_FUNCTION_LABELS[functie]
+  const titleSuffix = functie === "alle" ? "" : ` - ${functieLabel}`
 
   const yearlyData = React.useMemo(() => {
     return years.map((year) => {
@@ -1078,6 +1098,7 @@ function AanvragerSection() {
       rightControls={
         <>
           <MetricSelector selected={handeling} onChange={setHandeling} labels={AANVRAGER_HANDELING_LABELS} />
+          <MetricSelector selected={functie} onChange={setFunctie} labels={APPLICANT_FUNCTION_LABELS} />
           <MetricSelector
             selected={metric as keyof typeof APPLICANT_NON_SLOOP_METRIC_LABELS}
             onChange={(value) => setMetric(value as ApplicantMetricCode)}
@@ -1094,11 +1115,11 @@ function AanvragerSection() {
             viewType: "chart",
             periodHeaders: ["Jaar", "Aanvrager"],
             valueLabel,
-            embedParams: { handeling, metric, timeRange: "yearly", subView: "aanvrager" },
+            embedParams: { handeling, functie, metric, timeRange: "yearly", subView: "aanvrager" },
           },
           content: (
             <Card>
-              <CardHeader><CardTitle>{HANDELING_LABELS[handeling]} per project aanvrager type</CardTitle></CardHeader>
+              <CardHeader><CardTitle>{HANDELING_LABELS[handeling]} per project aanvrager type{titleSuffix}</CardTitle></CardHeader>
               <CardContent>
                 <div className="text-sm font-medium ml-16 mb-1">
                   {yearlyYAxis.label.text}
@@ -1135,11 +1156,11 @@ function AanvragerSection() {
             viewType: "chart",
             periodHeaders: ["Jaar", "Aanvrager"],
             valueLabel: "Aandeel (%)",
-            embedParams: { handeling, metric, timeRange: "yearly", subView: "share" },
+            embedParams: { handeling, functie, metric, timeRange: "yearly", subView: "share" },
           },
           content: (
             <Card>
-              <CardHeader><CardTitle>Aandeel per project aanvrager type</CardTitle></CardHeader>
+              <CardHeader><CardTitle>Aandeel per project aanvrager type{titleSuffix}</CardTitle></CardHeader>
               <CardContent>
                 <div className="text-sm font-medium ml-16 mb-1">Aandeel <span className="font-bold">(%)</span></div>
                 <ResponsiveContainer width="100%" height={300}>
@@ -1179,11 +1200,11 @@ function AanvragerSection() {
             viewType: "table",
             periodHeaders: ["Jaar", "Aanvrager"],
             valueLabel,
-            embedParams: { handeling, metric, timeRange: "yearly", subView: "aanvrager" },
+            embedParams: { handeling, functie, metric, timeRange: "yearly", subView: "aanvrager" },
           },
           content: (
             <Card>
-              <CardHeader><CardTitle>{HANDELING_LABELS[handeling]} per aanvragertype</CardTitle></CardHeader>
+              <CardHeader><CardTitle>{HANDELING_LABELS[handeling]} per aanvragertype{titleSuffix}</CardTitle></CardHeader>
               <CardContent>
                 <div className="space-y-6">
                   <div>
