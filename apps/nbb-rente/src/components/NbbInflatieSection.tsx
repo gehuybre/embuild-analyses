@@ -5,7 +5,6 @@ import { format, parseISO } from "date-fns"
 import { nl } from "date-fns/locale"
 import {
   CartesianGrid,
-  Legend,
   Line,
   LineChart,
   ResponsiveContainer,
@@ -13,11 +12,15 @@ import {
   XAxis,
   YAxis,
 } from "recharts"
-import { Card, CardContent } from "@embuild/shared/components/ui/card"
+import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@embuild/shared/components/ui/table"
 import { TimeSeriesSection } from "@embuild/shared/components/shared/TimeSeriesSection"
 import { CHART_SERIES_COLORS, CHART_THEME } from "@embuild/shared/lib/chart-theme"
+import { createYAxisLabel } from "@embuild/shared/lib/number-formatters"
 import type { InflationForecast, InflationForecastMetadata } from "./types"
+
+const INVESTMENT_AMOUNT = 1_000_000
+const INVESTMENT_START_PERIOD = "2026-01"
 
 function formatPeriod(period: string, pattern: string) {
   return format(parseISO(`${period}-01`), pattern, { locale: nl })
@@ -45,6 +48,27 @@ function formatGrowthRate(value: number | null) {
   }).format(value)}%`
 }
 
+function formatAxisIndex(value: number) {
+  return new Intl.NumberFormat("nl-BE", {
+    maximumFractionDigits: 0,
+  }).format(value)
+}
+
+function formatCurrency(value: number) {
+  return new Intl.NumberFormat("nl-BE", {
+    style: "currency",
+    currency: "EUR",
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  }).format(value)
+}
+
+function formatCurrencyAxis(value: number) {
+  return new Intl.NumberFormat("nl-BE", {
+    maximumFractionDigits: 0,
+  }).format(value)
+}
+
 function joinLabels(labels: string[]) {
   if (labels.length <= 1) {
     return labels[0] ?? ""
@@ -55,6 +79,27 @@ function joinLabels(labels: string[]) {
   }
 
   return `${labels.slice(0, -1).join(", ")} en ${labels[labels.length - 1]}`
+}
+
+function ForecastLegend({
+  forecasts,
+}: {
+  forecasts: InflationForecast[]
+}) {
+  return (
+    <div className="mb-3 flex flex-wrap gap-x-4 gap-y-2 text-sm">
+      {forecasts.map((forecast, index) => (
+        <div key={forecast.forecastMonth} className="flex items-center gap-2">
+          <span
+            aria-hidden="true"
+            className="inline-block h-2.5 w-2.5 rounded-full"
+            style={{ backgroundColor: CHART_SERIES_COLORS[index % CHART_SERIES_COLORS.length] }}
+          />
+          <span>{forecast.forecastLabel}</span>
+        </div>
+      ))}
+    </div>
+  )
 }
 
 export function NbbInflatieSection({
@@ -128,6 +173,49 @@ export function NbbInflatieSection({
 
     return [...rows.values()].sort((left, right) => left.sortValue - right.sortValue)
   }, [comparisonForecasts])
+
+  const realValueChartData = useMemo(() => {
+    const rows = new Map<
+      string,
+      {
+        label: string
+        period: string
+        sortValue: number
+        [key: string]: number | string | null
+      }
+    >()
+
+    comparisonForecasts.forEach((forecast) => {
+      const basePoint = forecast.monthlyPoints.find((point) => point.period === INVESTMENT_START_PERIOD)
+      const baseIndex = basePoint?.cpiIndex ?? null
+
+      forecast.monthlyPoints.forEach((point) => {
+        const existing = rows.get(point.period)
+        const row =
+          existing ??
+          {
+            label: formatPeriod(point.period, "LLL/yy"),
+            period: point.period,
+            sortValue: point.sortValue,
+          }
+
+        row[forecast.forecastLabel] =
+          typeof baseIndex === "number" && typeof point.cpiIndex === "number"
+            ? (INVESTMENT_AMOUNT * baseIndex) / point.cpiIndex
+            : null
+        rows.set(point.period, row)
+      })
+    })
+
+    return [...rows.values()].sort((left, right) => left.sortValue - right.sortValue)
+  }, [comparisonForecasts])
+
+  const realValueYAxis = useMemo(() => {
+    return {
+      formatter: formatCurrencyAxis,
+      label: createYAxisLabel("Reële waarde van 1 miljoen", "", true),
+    }
+  }, [])
 
   const exportData = useMemo(() => {
     return chartData.map((row) => {
@@ -229,58 +317,141 @@ export function NbbInflatieSection({
             valueLabel: metadata.comparableBaseIndexLabel,
           },
           content: (
-            <Card>
-              <CardContent className="pt-6">
-                <div className="space-y-1">
-                  <div className="text-sm font-medium ml-16 mb-1">{metadata.comparableBaseIndexLabel}</div>
-                  <div className="h-[360px]">
-                    <ResponsiveContainer width="100%" height="100%">
-                      <LineChart data={chartData} margin={CHART_THEME.margin}>
-                        <CartesianGrid strokeDasharray="3 3" stroke={CHART_THEME.gridStroke} vertical={false} />
-                        <XAxis
-                          dataKey="label"
-                          angle={-45}
-                          textAnchor="end"
-                          height={72}
-                          interval="preserveStartEnd"
-                          fontSize={CHART_THEME.fontSize}
-                          tickLine={false}
-                          axisLine={false}
-                        />
-                        <YAxis
-                          tickFormatter={(value) => formatIndex(Number(value))}
-                          fontSize={CHART_THEME.fontSize}
-                          tickLine={false}
-                          axisLine={false}
-                        />
-                        <Tooltip
-                          contentStyle={CHART_THEME.tooltip}
-                          cursor={{ stroke: "var(--muted)", strokeWidth: 1 }}
-                          formatter={(value, name) => [formatIndex(Number(value ?? 0)), String(name)]}
-                          labelFormatter={(_, payload) => {
-                            const period = payload?.[0]?.payload?.period as string | undefined
-                            return period ? formatPeriod(period, "MMMM yyyy") : ""
-                          }}
-                        />
-                        {comparisonForecasts.length > 1 ? <Legend iconType="circle" /> : null}
-                        {comparisonForecasts.map((forecast, index) => (
-                          <Line
-                            key={forecast.forecastMonth}
-                            type="monotone"
-                            dataKey={forecast.forecastLabel}
-                            name={forecast.forecastLabel}
-                            stroke={CHART_SERIES_COLORS[index % CHART_SERIES_COLORS.length]}
-                            strokeWidth={2}
-                            dot={false}
-                            activeDot={{ r: 4 }}
+            <div className="space-y-6">
+              <Card>
+                <CardHeader>
+                  <CardTitle>Consumptieprijsindex per prognose</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-1">
+                    <div className="text-sm font-medium ml-16 mb-1">{metadata.comparableBaseIndexLabel}</div>
+                    <ForecastLegend forecasts={comparisonForecasts} />
+                    <div className="h-[360px]">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <LineChart data={chartData} margin={CHART_THEME.margin}>
+                          <CartesianGrid strokeDasharray="3 3" stroke={CHART_THEME.gridStroke} vertical={false} />
+                          <XAxis
+                            dataKey="label"
+                            angle={-45}
+                            textAnchor="end"
+                            height={72}
+                            interval="preserveStartEnd"
+                            fontSize={CHART_THEME.fontSize}
+                            tickLine={false}
+                            axisLine={false}
                           />
-                        ))}
-                      </LineChart>
-                    </ResponsiveContainer>
+                          <YAxis
+                            domain={[100, 110]}
+                            tickFormatter={(value) => formatAxisIndex(Number(value))}
+                            fontSize={CHART_THEME.fontSize}
+                            tickLine={false}
+                            axisLine={false}
+                          />
+                          <Tooltip
+                            contentStyle={CHART_THEME.tooltip}
+                            cursor={{ stroke: "var(--muted)", strokeWidth: 1 }}
+                            formatter={(value, name) => [formatIndex(Number(value ?? 0)), String(name)]}
+                            labelFormatter={(_, payload) => {
+                              const period = payload?.[0]?.payload?.period as string | undefined
+                              return period ? formatPeriod(period, "MMMM yyyy") : ""
+                            }}
+                          />
+                          {comparisonForecasts.map((forecast, index) => (
+                            <Line
+                              key={forecast.forecastMonth}
+                              type="monotone"
+                              dataKey={forecast.forecastLabel}
+                              name={forecast.forecastLabel}
+                              stroke={CHART_SERIES_COLORS[index % CHART_SERIES_COLORS.length]}
+                              strokeWidth={2}
+                              dot={false}
+                              activeDot={{ r: 4 }}
+                            />
+                          ))}
+                        </LineChart>
+                      </ResponsiveContainer>
+                    </div>
                   </div>
-                </div>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+
+              <Card>
+                <CardHeader>
+                  <CardTitle>Reële koopkracht van 1 miljoen euro uit januari 2026</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="mb-4 text-sm text-muted-foreground">
+                    Deze simulatie houdt een investering van {formatCurrency(INVESTMENT_AMOUNT)} in{" "}
+                    {formatPeriod(INVESTMENT_START_PERIOD, "MMMM yyyy")} nominaal constant, en drukt die uit in euro
+                    van {formatPeriod(INVESTMENT_START_PERIOD, "MMMM yyyy")}. Hogere inflatieprognoses doen de reële
+                    waarde dus sneller dalen.
+                  </p>
+                  <div className="space-y-1">
+                    <div className="text-sm font-medium ml-16 mb-1">
+                      {realValueYAxis.label.text}
+                      <span className="font-bold">{realValueYAxis.label.boldText}</span>
+                    </div>
+                    <ForecastLegend forecasts={comparisonForecasts} />
+                    <div className="h-[360px]">
+                      <ResponsiveContainer width="100%" height="100%">
+                        <LineChart
+                          data={realValueChartData}
+                          margin={{ ...CHART_THEME.margin, left: 16 }}
+                        >
+                          <CartesianGrid strokeDasharray="3 3" stroke={CHART_THEME.gridStroke} vertical={false} />
+                          <XAxis
+                            dataKey="label"
+                            angle={-45}
+                            textAnchor="end"
+                            height={72}
+                            interval="preserveStartEnd"
+                            fontSize={CHART_THEME.fontSize}
+                            tickLine={false}
+                            axisLine={false}
+                          />
+                          <YAxis
+                            domain={[920_000, 1_000_000]}
+                            tickFormatter={realValueYAxis.formatter}
+                            ticks={[920_000, 940_000, 960_000, 980_000, 1_000_000]}
+                            width={72}
+                            fontSize={CHART_THEME.fontSize}
+                            tickLine={false}
+                            axisLine={false}
+                          />
+                          <Tooltip
+                            contentStyle={CHART_THEME.tooltip}
+                            cursor={{ stroke: "var(--muted)", strokeWidth: 1 }}
+                            formatter={(value, name) => {
+                              const numericValue = Number(value ?? 0)
+                              return [
+                                formatCurrency(numericValue),
+                                String(name),
+                              ]
+                            }}
+                            labelFormatter={(_, payload) => {
+                              const period = payload?.[0]?.payload?.period as string | undefined
+                              return period ? formatPeriod(period, "MMMM yyyy") : ""
+                            }}
+                          />
+                          {comparisonForecasts.map((forecast, index) => (
+                            <Line
+                              key={forecast.forecastMonth}
+                              type="monotone"
+                              dataKey={forecast.forecastLabel}
+                              name={forecast.forecastLabel}
+                              stroke={CHART_SERIES_COLORS[index % CHART_SERIES_COLORS.length]}
+                              strokeWidth={2}
+                              dot={false}
+                              activeDot={{ r: 4 }}
+                            />
+                          ))}
+                        </LineChart>
+                      </ResponsiveContainer>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
+            </div>
           ),
         },
         {
