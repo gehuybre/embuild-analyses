@@ -62,11 +62,17 @@ def parse_last_modified(value: str | None) -> float:
 def probe_url(url: str) -> Candidate | None:
     try:
         result = subprocess.run(
-            ["curl", "-sI", "-L", "--fail", "--connect-timeout", "5", "--max-time", "8", url],
+            [
+                "curl", "-sSI", "-L", "--fail",
+                "--connect-timeout", "10", "--max-time", "15",
+                "--retry", "2", "--retry-delay", "3",
+                "-A", "Mozilla/5.0 (compatible; data-blog-u/1.0)",
+                url,
+            ],
             check=True,
             capture_output=True,
             text=True,
-            timeout=12,
+            timeout=60,
         )
     except subprocess.CalledProcessError as exc:
         stderr = exc.stderr.strip()

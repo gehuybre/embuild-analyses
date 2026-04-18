@@ -54,7 +54,7 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add "${APP_ROOT}/data/.remote_metadata.json"
-          git add "${APP_ROOT}/content.mdx"
+          git add --ignore-unmatch "${APP_ROOT}/content.mdx"
           git add "${APP_ROOT}/src/app/page.tsx"
           git add "${APP_ROOT}/public/data/"
 
