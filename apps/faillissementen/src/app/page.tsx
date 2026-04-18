@@ -4,15 +4,15 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 
 const metadata = {
   title: "Faillissementen in de bouwsector",
-  date: "2026-04-13",
+  date: "2026-04-18",
   summary: "Maandelijkse evolutie van faillissementen in de Belgische bouwsector, met vergelijking met andere sectoren en regionale spreiding.",
-  dataAvailabilityLabel: "februari 2026",
+  dataAvailabilityLabel: "maart 2026",
   tags: ["economie","bedrijven","bouw","faillissementen"],
   source: {
     provider: "Statbel",
     title: "Maandelijkse faillissementen per activiteitssector",
     url: "https://statbel.fgov.be/nl/themas/ondernemingen/faillissementen/maandelijkse-faillissementen",
-    publicationDate: "2026-03-13",
+    publicationDate: "2026-04-17",
   },
 }
 
