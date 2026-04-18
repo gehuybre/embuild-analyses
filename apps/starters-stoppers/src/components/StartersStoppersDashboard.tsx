@@ -2,9 +2,8 @@
 
 import * as React from "react"
 import { Check, ChevronsUpDown } from "lucide-react"
-import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
 import { Button } from "@embuild/shared/components/ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import {
   Command,
   CommandEmpty,
@@ -15,13 +14,51 @@ import {
   CommandSeparator,
 } from "@embuild/shared/components/ui/command"
 import { Popover, PopoverContent, PopoverTrigger } from "@embuild/shared/components/ui/popover"
-import { cn } from "@embuild/shared/lib/utils"
-import { PROVINCES, ProvinceCode, REGIONS, RegionCode } from "@embuild/shared/lib/geo-utils"
-import { GeoProvider, useGeo } from "@embuild/shared/components/shared/GeoContext"
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
+import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
 import { FilterableChart } from "@embuild/shared/components/shared/FilterableChart"
 import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
-import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
+import { GeoProvider, useGeo } from "@embuild/shared/components/shared/GeoContext"
+import { PROVINCES, ProvinceCode, REGIONS, RegionCode } from "@embuild/shared/lib/geo-utils"
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
+import { cn } from "@embuild/shared/lib/utils"
+
+type MonthlyFlowRow = {
+  y: number
+  q: number
+  mo: number
+  period: string
+  n1: string
+  fr: number
+  st: number
+}
+
+type RegionalMonthlyFlowRow = MonthlyFlowRow & {
+  g: RegionCode
+}
+
+type MonthlyLookups = {
+  sectors: Array<{ code: string; nl: string }>
+  years: number[]
+  latestPeriod: string
+}
+
+type MonthlySummary = {
+  latestPeriod: string
+  monthlyMinYear: number
+  monthlyMaxYear: number
+  yearlyMinYear: number
+  yearlyMaxYear: number
+  notes?: string[]
+}
+
+type AnnualFlowRow = {
+  y: number
+  g: RegionCode
+  n1: string
+  fr: number
+  st: number
+}
 
 type VatSurvivalRow = {
   y: number | null
@@ -36,43 +73,246 @@ type VatSurvivalRow = {
   s5: number | null
 }
 
-type YearPoint = {
+type TimeRange = "yearly" | "quarterly" | "monthly"
+type StopHorizon = 1 | 2 | 3 | 4 | 5
+type SurvivalKey = "s1" | "s2" | "s3" | "s4" | "s5"
+
+type ChartPoint = {
   sortValue: number
   periodCells: Array<string | number>
   value: number
+  label: string
 }
 
-type RegionPoint = {
-  r: RegionCode
-  y: number
-  value: number
+const MONTH_NAMES_SHORT = ["jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"]
+const MONTH_NAMES_FULL = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"]
+const ANNUAL_SOURCE_URL = "https://statbel.fgov.be/nl/cijfers/evolutie-van-het-aantal-oprichtingen-en-stopzettingen-van-btw-plichtige-ondernemingen-0"
+const MONTHLY_SOURCE_URL = "https://statbel.fgov.be/nl/themas/ondernemingen/btw-plichtige-ondernemingen/maandevolutie-van-de-btw-plichtige-ondernemingen"
+const MONTHLY_REGION_OPTIONS: Array<{ code: RegionCode; label: string }> = [
+  { code: "1000", label: "België" },
+  { code: "2000", label: "Vlaanderen" },
+  { code: "3000", label: "Wallonië" },
+  { code: "4000", label: "Brussel" },
+]
+
+function formatInt(value: number) {
+  return new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 0 }).format(value)
 }
 
-type ProvincePoint = {
-  p: ProvinceCode
-  y: number
-  value: number
+function formatPct(value: number) {
+  return new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 1 }).format(value) + "%"
 }
 
-function formatInt(n: number) {
-  return new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 0 }).format(n)
+function formatLatestPeriod(period: string | undefined) {
+  if (!period) return null
+  const match = /^(\d{4})-(\d{2})$/.exec(period)
+  if (!match) return period
+  return `${MONTH_NAMES_FULL[Number(match[2]) - 1]} ${match[1]}`
 }
 
-function formatPct(n: number) {
-  return new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 1 }).format(n) + "%"
+function buildMonthlySectorOptions(lookups: MonthlyLookups | null) {
+  const items = (lookups?.sectors ?? []).map((sector) => ({
+    code: sector.code,
+    label: `${sector.code} — ${sector.nl}`,
+  }))
+  items.sort((a, b) => a.label.localeCompare(b.label, "nl"))
+  return items
 }
 
-function getNaceMainOptions(lookupsData: any | null) {
+function buildSurvivalSectorOptions(lookupsData: any | null) {
   const items: Array<{ code: string; label: string }> =
-    lookupsData?.nace_lvl1?.map((d: any) => ({
-      code: String(d.code),
-      label: `${String(d.code)} — ${d.nl ?? d.en ?? ""}`.trim(),
+    lookupsData?.nace_lvl1?.map((row: any) => ({
+      code: String(row.code),
+      label: `${String(row.code)} — ${row.nl ?? row.en ?? ""}`.trim(),
     })) ?? []
   items.sort((a, b) => a.label.localeCompare(b.label, "nl"))
   return items
 }
 
-// Compact inline geo filter for section-level use
+function filterMonthlyRows(rows: MonthlyFlowRow[], selectedSector: string | null) {
+  const code = selectedSector ?? "ALL"
+  return rows.filter((row) => row.n1 === code)
+}
+
+function filterRegionalMonthlyRows(rows: RegionalMonthlyFlowRow[], selectedSector: string | null, selectedRegion: RegionCode) {
+  const code = selectedSector ?? "ALL"
+  return rows.filter((row) => row.g === selectedRegion && row.n1 === code)
+}
+
+function filterAnnualRows(rows: AnnualFlowRow[], selectedSector: string | null, selectedRegion: RegionCode) {
+  const code = selectedSector ?? "ALL"
+  return rows.filter((row) => row.g === selectedRegion && row.n1 === code)
+}
+
+function aggregateMonthlyMetric(rows: MonthlyFlowRow[], metric: "fr" | "st", timeRange: TimeRange): ChartPoint[] {
+  const grouped = new Map<string, ChartPoint>()
+
+  for (const row of rows) {
+    let key: string
+    let label: string
+    let sortValue: number
+
+    if (timeRange === "yearly") {
+      key = String(row.y)
+      label = String(row.y)
+      sortValue = row.y
+    } else if (timeRange === "quarterly") {
+      key = `${row.y}-K${row.q}`
+      label = `K${row.q} ${row.y}`
+      sortValue = row.y * 10 + row.q
+    } else {
+      key = row.period
+      label = `${MONTH_NAMES_SHORT[row.mo - 1]} ${row.y}`
+      sortValue = row.y * 100 + row.mo
+    }
+
+    const existing = grouped.get(key)
+    if (existing) {
+      existing.value += row[metric]
+      continue
+    }
+
+    grouped.set(key, {
+      sortValue,
+      periodCells: [label],
+      value: row[metric],
+      label,
+    })
+  }
+
+  return Array.from(grouped.values()).sort((a, b) => a.sortValue - b.sortValue)
+}
+
+function aggregateAnnualMetric(rows: AnnualFlowRow[], metric: "fr" | "st"): ChartPoint[] {
+  return rows
+    .map((row) => ({
+      sortValue: row.y,
+      periodCells: [row.y],
+      value: row[metric],
+      label: String(row.y),
+    }))
+    .sort((a, b) => a.sortValue - b.sortValue)
+}
+
+function mergeChartSeries(...seriesGroups: ChartPoint[][]) {
+  const merged = new Map<number, ChartPoint>()
+  for (const series of seriesGroups) {
+    for (const point of series) {
+      merged.set(point.sortValue, point)
+    }
+  }
+  return Array.from(merged.values()).sort((a, b) => a.sortValue - b.sortValue)
+}
+
+function formatMonthlyRegionLabel(regionCode: RegionCode) {
+  return MONTHLY_REGION_OPTIONS.find((option) => option.code === regionCode)?.label ?? "België"
+}
+
+function survivalKeyForHorizon(horizon: StopHorizon): SurvivalKey {
+  return `s${horizon}` as SurvivalKey
+}
+
+function filterSurvivalRowsByGeo(rows: VatSurvivalRow[], level: string, selectedRegion: RegionCode, selectedProvince: ProvinceCode | null) {
+  if (level === "province" && selectedProvince) {
+    return rows.filter((row) => row.p && String(row.p) === String(selectedProvince))
+  }
+  if (level === "region" && selectedRegion !== "1000") {
+    return rows.filter((row) => row.r && String(row.r) === String(selectedRegion))
+  }
+  return rows
+}
+
+function filterSurvivalRowsBySector(rows: VatSurvivalRow[], nace1: string | null) {
+  if (!nace1) return rows
+  return rows.filter((row) => row.n1 === nace1)
+}
+
+function aggregateSurvivalRateByYear(rows: VatSurvivalRow[], key: SurvivalKey): ChartPoint[] {
+  const grouped = new Map<number, { fr: number; surv: number }>()
+
+  for (const row of rows) {
+    const survived = (row as Record<string, unknown>)[key] as number | null
+    if (typeof row.y !== "number" || typeof row.fr !== "number" || typeof survived !== "number") {
+      continue
+    }
+
+    const current = grouped.get(row.y) ?? { fr: 0, surv: 0 }
+    current.fr += row.fr
+    current.surv += survived
+    grouped.set(row.y, current)
+  }
+
+  return Array.from(grouped.entries())
+    .map(([year, values]) => ({
+      sortValue: year,
+      periodCells: [year],
+      value: values.fr > 0 ? Math.round((values.surv / values.fr) * 1000) / 10 : 0,
+      label: String(year),
+    }))
+    .sort((a, b) => a.sortValue - b.sortValue)
+}
+
+function TimeRangeTabs({
+  value,
+  onChange,
+}: {
+  value: TimeRange
+  onChange: (value: TimeRange) => void
+}) {
+  return (
+    <Tabs value={value} onValueChange={(next) => onChange(next as TimeRange)}>
+      <TabsList className="h-9">
+        <TabsTrigger value="yearly" className="text-xs px-2">Jaar</TabsTrigger>
+        <TabsTrigger value="quarterly" className="text-xs px-2">Kwartaal</TabsTrigger>
+        <TabsTrigger value="monthly" className="text-xs px-2">Maand</TabsTrigger>
+      </TabsList>
+    </Tabs>
+  )
+}
+
+function RegionFilterInline({
+  selected,
+  onChange,
+}: {
+  selected: RegionCode
+  onChange: (value: RegionCode) => void
+}) {
+  const [open, setOpen] = React.useState(false)
+  const currentLabel = React.useMemo(() => formatMonthlyRegionLabel(selected), [selected])
+
+  return (
+    <Popover open={open} onOpenChange={setOpen}>
+      <PopoverTrigger asChild>
+        <Button variant="outline" size="sm" role="combobox" aria-expanded={open} className="h-9 gap-1 min-w-[130px]">
+          <span className="truncate max-w-[110px]">{currentLabel}</span>
+          <ChevronsUpDown className="h-3.5 w-3.5 shrink-0 opacity-50" />
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent className="w-[220px] p-0" align="start">
+        <Command>
+          <CommandList>
+            <CommandGroup heading="Gewest">
+              {MONTHLY_REGION_OPTIONS.map((option) => (
+                <CommandItem
+                  key={option.code}
+                  value={option.label}
+                  onSelect={() => {
+                    onChange(option.code)
+                    setOpen(false)
+                  }}
+                >
+                  <Check className={cn("mr-2 h-4 w-4", selected === option.code ? "opacity-100" : "opacity-0")} />
+                  {option.label}
+                </CommandItem>
+              ))}
+            </CommandGroup>
+          </CommandList>
+        </Command>
+      </PopoverContent>
+    </Popover>
+  )
+}
+
 function GeoFilterInline({
   selectedRegion,
   selectedProvince,
@@ -86,19 +326,20 @@ function GeoFilterInline({
 }) {
   const [open, setOpen] = React.useState(false)
 
-  const sortedProvinces = React.useMemo(() => {
-    return [...PROVINCES].sort((a, b) => a.name.localeCompare(b.name))
-  }, [])
-
   const currentLabel = React.useMemo(() => {
     if (selectedProvince) {
-      return PROVINCES.find((p) => String(p.code) === String(selectedProvince))?.name ?? "Provincie"
+      return PROVINCES.find((province) => String(province.code) === String(selectedProvince))?.name ?? "Provincie"
     }
     if (selectedRegion !== "1000") {
-      return REGIONS.find((r) => r.code === selectedRegion)?.name ?? "Regio"
+      return REGIONS.find((region) => region.code === selectedRegion)?.name ?? "Regio"
     }
     return "België"
-  }, [selectedRegion, selectedProvince])
+  }, [selectedProvince, selectedRegion])
+
+  const sortedProvinces = React.useMemo(
+    () => [...PROVINCES].sort((a, b) => a.name.localeCompare(b.name)),
+    []
+  )
 
   function selectBelgium() {
     onSelectRegion("1000")
@@ -114,8 +355,8 @@ function GeoFilterInline({
 
   function selectProvince(code: ProvinceCode) {
     onSelectProvince(code)
-    const prov = PROVINCES.find((p) => String(p.code) === String(code))
-    if (prov) onSelectRegion(prov.regionCode)
+    const province = PROVINCES.find((item) => String(item.code) === String(code))
+    if (province) onSelectRegion(province.regionCode)
     setOpen(false)
   }
 
@@ -140,19 +381,19 @@ function GeoFilterInline({
             </CommandGroup>
             <CommandSeparator />
             <CommandGroup heading="Regio">
-              {REGIONS.filter((r) => r.code !== "1000").map((r) => (
-                <CommandItem key={r.code} value={r.name} onSelect={() => selectRegion(r.code)}>
-                  <Check className={cn("mr-2 h-4 w-4", !selectedProvince && selectedRegion === r.code ? "opacity-100" : "opacity-0")} />
-                  {r.name}
+              {REGIONS.filter((region) => region.code !== "1000").map((region) => (
+                <CommandItem key={region.code} value={region.name} onSelect={() => selectRegion(region.code)}>
+                  <Check className={cn("mr-2 h-4 w-4", !selectedProvince && selectedRegion === region.code ? "opacity-100" : "opacity-0")} />
+                  {region.name}
                 </CommandItem>
               ))}
             </CommandGroup>
             <CommandSeparator />
             <CommandGroup heading="Provincie">
-              {sortedProvinces.map((p) => (
-                <CommandItem key={p.code} value={p.name} onSelect={() => selectProvince(p.code)}>
-                  <Check className={cn("mr-2 h-4 w-4", String(selectedProvince) === String(p.code) ? "opacity-100" : "opacity-0")} />
-                  {p.name}
+              {sortedProvinces.map((province) => (
+                <CommandItem key={province.code} value={province.name} onSelect={() => selectProvince(province.code)}>
+                  <Check className={cn("mr-2 h-4 w-4", String(selectedProvince) === String(province.code) ? "opacity-100" : "opacity-0")} />
+                  {province.name}
                 </CommandItem>
               ))}
             </CommandGroup>
@@ -163,33 +404,31 @@ function GeoFilterInline({
   )
 }
 
-// Compact inline sector filter for section-level use
 function SectorFilterInline({
   selected,
   onChange,
   options,
 }: {
   selected: string | null
-  onChange: (code: string | null) => void
+  onChange: (value: string | null) => void
   options: Array<{ code: string; label: string }>
 }) {
   const [open, setOpen] = React.useState(false)
 
-  const selectedLabel = React.useMemo(() => {
+  const currentLabel = React.useMemo(() => {
     if (!selected) return "Alle sectoren"
-    const opt = options.find((o) => o.code === selected)
-    return opt ? `${opt.code}` : selected
-  }, [selected, options])
+    return options.find((option) => option.code === selected)?.label ?? selected
+  }, [options, selected])
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
       <PopoverTrigger asChild>
-        <Button variant="outline" size="sm" role="combobox" aria-expanded={open} className="h-9 gap-1 min-w-[120px]">
-          <span className="truncate max-w-[100px]">{selectedLabel}</span>
+        <Button variant="outline" size="sm" role="combobox" aria-expanded={open} className="h-9 gap-1 min-w-[150px]">
+          <span className="truncate max-w-[150px]">{currentLabel}</span>
           <ChevronsUpDown className="h-3.5 w-3.5 shrink-0 opacity-50" />
         </Button>
       </PopoverTrigger>
-      <PopoverContent className="w-[300px] p-0" align="start">
+      <PopoverContent className="w-[320px] p-0" align="start">
         <Command>
           <CommandInput placeholder="Zoek sector..." />
           <CommandList>
@@ -208,17 +447,17 @@ function SectorFilterInline({
             </CommandGroup>
             <CommandSeparator />
             <CommandGroup heading="NACE">
-              {options.map((o) => (
+              {options.map((option) => (
                 <CommandItem
-                  key={o.code}
-                  value={o.label}
+                  key={option.code}
+                  value={option.label}
                   onSelect={() => {
-                    onChange(o.code)
+                    onChange(option.code)
                     setOpen(false)
                   }}
                 >
-                  <Check className={cn("mr-2 h-4 w-4", selected === o.code ? "opacity-100" : "opacity-0")} />
-                  {o.label}
+                  <Check className={cn("mr-2 h-4 w-4", selected === option.code ? "opacity-100" : "opacity-0")} />
+                  {option.label}
                 </CommandItem>
               ))}
             </CommandGroup>
@@ -229,269 +468,91 @@ function SectorFilterInline({
   )
 }
 
-function filterRowsByGeo(rows: VatSurvivalRow[], level: string, selectedRegion: RegionCode, selectedProvince: ProvinceCode | null) {
-  if (level === "province" && selectedProvince) {
-    return rows.filter((r) => r.p && String(r.p) === String(selectedProvince))
-  }
-  if (level === "region" && selectedRegion !== "1000") {
-    return rows.filter((r) => r.r && String(r.r) === String(selectedRegion))
-  }
-  return rows
-}
-
-function filterRowsBySector(rows: VatSurvivalRow[], nace1: string | null) {
-  if (!nace1) return rows
-  return rows.filter((r) => r.n1 === nace1)
-}
-
-function aggregateStartersByYear(rows: VatSurvivalRow[]): YearPoint[] {
-  const agg = new Map<number, number>()
-  for (const r of rows) {
-    if (typeof r.y !== "number" || typeof r.fr !== "number") continue
-    agg.set(r.y, (agg.get(r.y) ?? 0) + r.fr)
-  }
-  return Array.from(agg.entries())
-    .map(([y, v]) => ({ sortValue: y, periodCells: [y], value: v }))
-    .sort((a, b) => a.sortValue - b.sortValue)
-}
-
-type StopHorizon = 1 | 2 | 3 | 4 | 5
-type SurvivalKey = "s1" | "s2" | "s3" | "s4" | "s5"
-
-function survivalKeyForHorizon(h: StopHorizon): SurvivalKey {
-  return `s${h}` as SurvivalKey
-}
-
-function aggregateStoppersByYear(rows: VatSurvivalRow[], horizon: StopHorizon): YearPoint[] {
-  const key = survivalKeyForHorizon(horizon)
-  const agg = new Map<number, { fr: number; surv: number }>()
-  for (const r of rows) {
-    const surv = (r as any)[key]
-    if (typeof r.y !== "number" || typeof r.fr !== "number" || typeof surv !== "number") continue
-    const prev = agg.get(r.y) ?? { fr: 0, surv: 0 }
-    prev.fr += r.fr
-    prev.surv += surv
-    agg.set(r.y, prev)
-  }
-  return Array.from(agg.entries())
-    .map(([y, v]) => ({ sortValue: y, periodCells: [y], value: Math.max(0, v.fr - v.surv) }))
-    .sort((a, b) => a.sortValue - b.sortValue)
-}
-
-function aggregateSurvivalRateByYear(rows: VatSurvivalRow[], yearKey: "s1" | "s2" | "s3" | "s4" | "s5"): YearPoint[] {
-  const agg = new Map<number, { fr: number; surv: number }>()
-  for (const r of rows) {
-    const surv = (r as any)[yearKey]
-    if (typeof r.y !== "number" || typeof r.fr !== "number" || typeof surv !== "number") continue
-    const prev = agg.get(r.y) ?? { fr: 0, surv: 0 }
-    prev.fr += r.fr
-    prev.surv += surv
-    agg.set(r.y, prev)
-  }
-  return Array.from(agg.entries())
-    .map(([y, v]) => ({
-      sortValue: y,
-      periodCells: [y],
-      value: v.fr > 0 ? Math.round(((v.surv / v.fr) * 100) * 10) / 10 : 0,
-    }))
-    .sort((a, b) => a.sortValue - b.sortValue)
-}
-
-function aggregateByRegionAllYears(rows: VatSurvivalRow[], valueFn: (r: VatSurvivalRow) => number | null): RegionPoint[] {
-  const agg = new Map<string, number>() // key: "year-region"
-  for (const r of rows) {
-    if (typeof r.y !== "number" || !r.r) continue
-    const code = String(r.r) as RegionCode
-    const key = `${r.y}-${code}`
-    const v = valueFn(r)
-    if (typeof v !== "number" || !Number.isFinite(v)) continue
-    agg.set(key, (agg.get(key) ?? 0) + v)
-  }
-  return Array.from(agg.entries())
-    .map(([key, value]) => {
-      const [y, r] = key.split("-")
-      return { r: r as RegionCode, y: Number(y), value }
-    })
-    .sort((a, b) => a.y - b.y || a.r.localeCompare(b.r))
-}
-
-function aggregateByProvinceAllYears(
-  rows: VatSurvivalRow[],
-  valueFn: (r: VatSurvivalRow) => number | null
-): ProvincePoint[] {
-  const agg = new Map<string, number>() // key: "year-province"
-  for (const r of rows) {
-    if (typeof r.y !== "number" || !r.p) continue
-    const code = String(r.p)
-    const key = `${r.y}-${code}`
-    const v = valueFn(r)
-    if (typeof v !== "number" || !Number.isFinite(v)) continue
-    agg.set(key, (agg.get(key) ?? 0) + v)
-  }
-  return Array.from(agg.entries())
-    .map(([key, value]) => {
-      const [y, p] = key.split("-")
-      return { p, y: Number(y), value }
-    })
-    .sort((a, b) => a.y - b.y || a.p.localeCompare(b.p))
-}
-
-function survivalRateByRegionAllYears(rows: VatSurvivalRow[], key: SurvivalKey): RegionPoint[] {
-  const agg = new Map<string, { fr: number; surv: number }>() // key: "year-region"
-  for (const r of rows) {
-    if (typeof r.y !== "number" || !r.r) continue
-    const surv = (r as any)[key]
-    if (typeof r.fr !== "number" || typeof surv !== "number") continue
-    const code = String(r.r) as RegionCode
-    const mapKey = `${r.y}-${code}`
-    const prev = agg.get(mapKey) ?? { fr: 0, surv: 0 }
-    prev.fr += r.fr
-    prev.surv += surv
-    agg.set(mapKey, prev)
-  }
-  return Array.from(agg.entries()).map(([mapKey, v]) => {
-    const [y, r] = mapKey.split("-")
-    return {
-      r: r as RegionCode,
-      y: Number(y),
-      value: v.fr > 0 ? Math.round(((v.surv / v.fr) * 100) * 10) / 10 : 0,
-    }
-  })
-}
-
-function survivalRateByProvinceAllYears(rows: VatSurvivalRow[], key: SurvivalKey): ProvincePoint[] {
-  const agg = new Map<string, { fr: number; surv: number }>() // key: "year-province"
-  for (const r of rows) {
-    if (typeof r.y !== "number" || !r.p) continue
-    const surv = (r as any)[key]
-    if (typeof r.fr !== "number" || typeof surv !== "number") continue
-    const code = String(r.p)
-    const mapKey = `${r.y}-${code}`
-    const prev = agg.get(mapKey) ?? { fr: 0, surv: 0 }
-    prev.fr += r.fr
-    prev.surv += surv
-    agg.set(mapKey, prev)
-  }
-  return Array.from(agg.entries()).map(([mapKey, v]) => {
-    const [y, p] = mapKey.split("-")
-    return {
-      p,
-      y: Number(y),
-      value: v.fr > 0 ? Math.round(((v.surv / v.fr) * 100) * 10) / 10 : 0,
-    }
-  })
-}
-
-function MetricSection({
+function MonthlyMetricSection({
   title,
   label,
-  yearSeries,
-  mapData,
-  years,
-  mapLevel,
-  formatValue,
+  data,
+  timeRange,
+  onTimeRangeChange,
   selectedRegion,
-  selectedProvince,
-  selectedSector,
-  sectorOptions,
   onSelectRegion,
-  onSelectProvince,
+  selectedSector,
   onSelectSector,
-  stopHorizon,
-  onStopHorizonChange,
+  sectorOptions,
+  coverageNote,
   slug,
   sectionId,
-  dataSource,
-  dataSourceUrl,
-  embedParams,
 }: {
   title: string
   label: string
-  yearSeries: YearPoint[]
-  mapData: RegionPoint[] | ProvincePoint[]
-  years: number[]
-  mapLevel: "region" | "province"
-  formatValue: (v: number) => string
+  data: ChartPoint[]
+  timeRange: TimeRange
+  onTimeRangeChange: (value: TimeRange) => void
   selectedRegion: RegionCode
-  selectedProvince: ProvinceCode | null
+  onSelectRegion: (value: RegionCode) => void
   selectedSector: string | null
+  onSelectSector: (value: string | null) => void
   sectorOptions: Array<{ code: string; label: string }>
-  onSelectRegion: (code: RegionCode) => void
-  onSelectProvince: (code: ProvinceCode | null) => void
-  onSelectSector: (code: string | null) => void
-  stopHorizon?: StopHorizon
-  onStopHorizonChange?: (h: StopHorizon) => void
-  slug?: string
-  sectionId?: string
-  dataSource?: string
-  dataSourceUrl?: string
-  embedParams?: Record<string, string | number | null | undefined>
+  coverageNote: string
+  slug: string
+  sectionId: string
 }) {
-  const [currentView, setCurrentView] = React.useState<"chart" | "table" | "map">("chart")
+  const [currentView, setCurrentView] = React.useState<"chart" | "table">("chart")
+  const locationLabel = React.useMemo(() => formatMonthlyRegionLabel(selectedRegion), [selectedRegion])
+  const exportTitle = title + (selectedRegion !== "1000" ? ` - ${locationLabel}` : "")
+  const periodHeader = timeRange === "yearly" ? "Jaar" : "Periode"
+  const exportSource = timeRange === "yearly"
+    ? {
+        title: "Statbel - Jaarlijkse evolutie van de btw-plichtige ondernemingen",
+        url: ANNUAL_SOURCE_URL,
+      }
+    : {
+        title: "Statbel - Maandevolutie van de btw-plichtige ondernemingen",
+        url: MONTHLY_SOURCE_URL,
+      }
 
-  // Transform yearSeries to the format ExportButtons expects
-  const exportData = React.useMemo(() =>
-    yearSeries.map(d => ({
-      label: String(d.sortValue),
-      value: d.value,
-      periodCells: d.periodCells,
-    })),
-    [yearSeries]
+  const exportData = React.useMemo(
+    () => data.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells })),
+    [data]
   )
 
   return (
     <div className="space-y-4">
-      <div className="flex items-center justify-between">
-        <h2 className="text-2xl font-bold">{title}</h2>
-        {slug && sectionId && (
-          <ExportButtons
-            data={exportData}
-            title={title}
-            slug={slug}
-            sectionId={sectionId}
-            viewType={currentView}
-            periodHeaders={["Jaar"]}
-            valueLabel={label}
-            dataSource={dataSource}
-            dataSourceUrl={dataSourceUrl}
-            embedParams={embedParams}
-          />
-        )}
+      <div className="flex items-center justify-between gap-3">
+        <h2 className="text-2xl font-bold">{exportTitle}</h2>
+        <ExportButtons
+          data={exportData}
+          title={exportTitle}
+          slug={slug}
+          sectionId={sectionId}
+          viewType={currentView}
+          periodHeaders={[periodHeader]}
+          valueLabel={label}
+          dataSource={exportSource.title}
+          dataSourceUrl={exportSource.url}
+          embedParams={{
+            timeRange,
+            region: selectedRegion !== "1000" ? selectedRegion : null,
+            sector: selectedSector,
+          }}
+        />
       </div>
-      <Tabs defaultValue="chart" onValueChange={(v) => setCurrentView(v as "chart" | "table")}>
-        <div className="flex flex-wrap items-center justify-between gap-3 mb-4">
+
+      <Tabs defaultValue="chart" onValueChange={(value) => setCurrentView(value as "chart" | "table")}>
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
           <TabsList>
             <TabsTrigger value="chart">Grafiek</TabsTrigger>
             <TabsTrigger value="table">Tabel</TabsTrigger>
           </TabsList>
-          <div className="flex items-center gap-2">
-            <GeoFilterInline
-              selectedRegion={selectedRegion}
-              selectedProvince={selectedProvince}
-              onSelectRegion={onSelectRegion}
-              onSelectProvince={onSelectProvince}
-            />
-            <SectorFilterInline
-              selected={selectedSector}
-              onChange={onSelectSector}
-              options={sectorOptions}
-            />
-            {stopHorizon !== undefined && onStopHorizonChange && (
-              <Tabs
-                value={String(stopHorizon)}
-                onValueChange={(v) => onStopHorizonChange(Number(v) as StopHorizon)}
-              >
-                <TabsList className="h-9">
-                  <TabsTrigger value="1" className="text-xs px-2">1j</TabsTrigger>
-                  <TabsTrigger value="2" className="text-xs px-2">2j</TabsTrigger>
-                  <TabsTrigger value="3" className="text-xs px-2">3j</TabsTrigger>
-                  <TabsTrigger value="4" className="text-xs px-2">4j</TabsTrigger>
-                  <TabsTrigger value="5" className="text-xs px-2">5j</TabsTrigger>
-                </TabsList>
-              </Tabs>
-            )}
+          <div className="flex flex-wrap items-center gap-2">
+            <RegionFilterInline selected={selectedRegion} onChange={onSelectRegion} />
+            <SectorFilterInline selected={selectedSector} onChange={onSelectSector} options={sectorOptions} />
+            <TimeRangeTabs value={timeRange} onChange={onTimeRangeChange} />
           </div>
         </div>
+
+        <p className="mb-4 text-sm text-muted-foreground">{coverageNote}</p>
+
         <TabsContent value="chart">
           <Card>
             <CardHeader>
@@ -499,21 +560,132 @@ function MetricSection({
             </CardHeader>
             <CardContent>
               <FilterableChart
-                data={yearSeries}
-                getLabel={(d) => String((d as any).sortValue)}
-                getValue={(d) => (d as any).value}
-                getSortValue={(d) => (d as any).sortValue}
+                data={data}
+                getLabel={(point) => (point as ChartPoint).label}
+                getValue={(point) => (point as ChartPoint).value}
+                getSortValue={(point) => (point as ChartPoint).sortValue}
               />
             </CardContent>
           </Card>
         </TabsContent>
+
         <TabsContent value="table">
           <Card>
             <CardHeader>
               <CardTitle>Data</CardTitle>
             </CardHeader>
             <CardContent>
-              <FilterableTable data={yearSeries} label={label} periodHeaders={["Jaar"]} />
+              <FilterableTable data={data} label={label} periodHeaders={[periodHeader]} />
+            </CardContent>
+          </Card>
+        </TabsContent>
+      </Tabs>
+    </div>
+  )
+}
+
+function SurvivalSection({
+  data,
+  selectedRegion,
+  selectedProvince,
+  onSelectRegion,
+  onSelectProvince,
+  selectedSector,
+  onSelectSector,
+  sectorOptions,
+  stopHorizon,
+  onStopHorizonChange,
+}: {
+  data: ChartPoint[]
+  selectedRegion: RegionCode
+  selectedProvince: ProvinceCode | null
+  onSelectRegion: (value: RegionCode) => void
+  onSelectProvince: (value: ProvinceCode | null) => void
+  selectedSector: string | null
+  onSelectSector: (value: string | null) => void
+  sectorOptions: Array<{ code: string; label: string }>
+  stopHorizon: StopHorizon
+  onStopHorizonChange: (value: StopHorizon) => void
+}) {
+  const [currentView, setCurrentView] = React.useState<"chart" | "table">("chart")
+
+  const exportData = React.useMemo(
+    () => data.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells })),
+    [data]
+  )
+
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between gap-3">
+        <h2 className="text-2xl font-bold">{`Overlevingskans na ${stopHorizon} jaar`}</h2>
+        <ExportButtons
+          data={exportData}
+          title={`Overlevingskans na ${stopHorizon} jaar`}
+          slug="starters-stoppers"
+          sectionId="survival"
+          viewType={currentView}
+          periodHeaders={["Jaar"]}
+          valueLabel="Overlevingskans"
+          dataSource="Statbel - Overlevingsgraad van btw-plichtigen"
+          dataSourceUrl="https://statbel.fgov.be/nl/themas/ondernemingen/overlevingsgraad-van-btw-plichtigen"
+          embedParams={{
+            horizon: stopHorizon,
+            region: selectedRegion !== "1000" ? selectedRegion : null,
+            province: selectedProvince,
+            sector: selectedSector,
+          }}
+        />
+      </div>
+
+      <Tabs defaultValue="chart" onValueChange={(value) => setCurrentView(value as "chart" | "table")}>
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+          <TabsList>
+            <TabsTrigger value="chart">Grafiek</TabsTrigger>
+            <TabsTrigger value="table">Tabel</TabsTrigger>
+          </TabsList>
+          <div className="flex flex-wrap items-center gap-2">
+            <GeoFilterInline
+              selectedRegion={selectedRegion}
+              selectedProvince={selectedProvince}
+              onSelectRegion={onSelectRegion}
+              onSelectProvince={onSelectProvince}
+            />
+            <SectorFilterInline selected={selectedSector} onChange={onSelectSector} options={sectorOptions} />
+            <Tabs value={String(stopHorizon)} onValueChange={(value) => onStopHorizonChange(Number(value) as StopHorizon)}>
+              <TabsList className="h-9">
+                <TabsTrigger value="1" className="text-xs px-2">1j</TabsTrigger>
+                <TabsTrigger value="2" className="text-xs px-2">2j</TabsTrigger>
+                <TabsTrigger value="3" className="text-xs px-2">3j</TabsTrigger>
+                <TabsTrigger value="4" className="text-xs px-2">4j</TabsTrigger>
+                <TabsTrigger value="5" className="text-xs px-2">5j</TabsTrigger>
+              </TabsList>
+            </Tabs>
+          </div>
+        </div>
+
+        <TabsContent value="chart">
+          <Card>
+            <CardHeader>
+              <CardTitle>Evolutie</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <FilterableChart
+                data={data}
+                getLabel={(point) => (point as ChartPoint).label}
+                getValue={(point) => (point as ChartPoint).value}
+                getSortValue={(point) => (point as ChartPoint).sortValue}
+              />
+            </CardContent>
+          </Card>
+        </TabsContent>
+
+        <TabsContent value="table">
+          <Card>
+            <CardHeader>
+              <CardTitle>Data</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <FilterableTable data={data} label="Overlevingskans" periodHeaders={["Jaar"]} />
             </CardContent>
           </Card>
         </TabsContent>
@@ -523,77 +695,88 @@ function MetricSection({
 }
 
 function InnerDashboard() {
-  const { level, selectedRegion, setSelectedRegion, selectedProvince, setSelectedProvince, setSelectedMunicipality, setLevel } = useGeo()
-
-  const [selectedNace1, setSelectedNace1] = React.useState<string | null>(null)
+  const { selectedRegion, setSelectedRegion, selectedProvince, setSelectedProvince, setSelectedMunicipality, setLevel } = useGeo()
+  const [monthlyRegion, setMonthlyRegion] = React.useState<RegionCode>("1000")
+  const [monthlySector, setMonthlySector] = React.useState<string | null>(null)
+  const [monthlyTimeRange, setMonthlyTimeRange] = React.useState<TimeRange>("yearly")
+  const [survivalSector, setSurvivalSector] = React.useState<string | null>(null)
   const [stopHorizon, setStopHorizon] = React.useState<StopHorizon>(1)
 
   const { data: bundle, loading, error } = useJsonBundle<{
-    raw: VatSurvivalRow[]
-    lookups: any
+    monthlyRaw: MonthlyFlowRow[]
+    monthlyRegionalRaw: RegionalMonthlyFlowRow[]
+    monthlyLookups: MonthlyLookups
+    monthlySummary: MonthlySummary
+    yearlyRaw: AnnualFlowRow[]
+    survivalRaw: VatSurvivalRow[]
+    survivalLookups: any
   }>({
-    raw: "/data/vat_survivals.json",
-    lookups: "/data/lookups.json",
+    monthlyRaw: "/data/vat_monthly_flows.json",
+    monthlyRegionalRaw: "/data/vat_monthly_flows_regions.json",
+    monthlyLookups: "/data/vat_monthly_lookups.json",
+    monthlySummary: "/data/summary.json",
+    yearlyRaw: "/data/vat_yearly_flows.json",
+    survivalRaw: "/data/vat_survivals.json",
+    survivalLookups: "/data/lookups.json",
   })
 
-  const naceMainOptions = React.useMemo(
-    () => getNaceMainOptions(bundle?.lookups ?? null),
-    [bundle]
+  const monthlyRows = React.useMemo(() => bundle?.monthlyRaw ?? [], [bundle])
+  const monthlyRegionalRows = React.useMemo(() => bundle?.monthlyRegionalRaw ?? [], [bundle])
+  const yearlyRows = React.useMemo(() => bundle?.yearlyRaw ?? [], [bundle])
+  const survivalRows = React.useMemo(() => bundle?.survivalRaw ?? [], [bundle])
+  const monthlySectorOptions = React.useMemo(() => buildMonthlySectorOptions(bundle?.monthlyLookups ?? null), [bundle])
+  const survivalSectorOptions = React.useMemo(() => buildSurvivalSectorOptions(bundle?.survivalLookups ?? null), [bundle])
+  const latestMonthlyLabel = React.useMemo(() => formatLatestPeriod(bundle?.monthlySummary?.latestPeriod), [bundle])
+
+  const filteredMonthlyRows = React.useMemo(() => {
+    if (monthlyRegion === "1000") {
+      return filterMonthlyRows(monthlyRows, monthlySector)
+    }
+    return filterRegionalMonthlyRows(monthlyRegionalRows, monthlySector, monthlyRegion)
+  }, [monthlyRegion, monthlyRegionalRows, monthlyRows, monthlySector])
+
+  const filteredYearlyRows = React.useMemo(
+    () => filterAnnualRows(yearlyRows, monthlySector, monthlyRegion),
+    [monthlyRegion, monthlySector, yearlyRows]
   )
 
-  const allRows = (bundle?.raw ?? []) as VatSurvivalRow[]
+  const startersSeries = React.useMemo(
+    () =>
+      monthlyTimeRange === "yearly"
+        ? aggregateAnnualMetric(filteredYearlyRows, "fr")
+        : aggregateMonthlyMetric(filteredMonthlyRows, "fr", monthlyTimeRange),
+    [filteredMonthlyRows, filteredYearlyRows, monthlyTimeRange]
+  )
 
-  const filteredRows = React.useMemo(() => {
-    const bySector = filterRowsBySector(allRows, selectedNace1)
-    return filterRowsByGeo(bySector, level, selectedRegion, selectedProvince)
-  }, [allRows, selectedNace1, level, selectedRegion, selectedProvince])
+  const stoppersSeries = React.useMemo(
+    () =>
+      monthlyTimeRange === "yearly"
+        ? aggregateAnnualMetric(filteredYearlyRows, "st")
+        : aggregateMonthlyMetric(filteredMonthlyRows, "st", monthlyTimeRange),
+    [filteredMonthlyRows, filteredYearlyRows, monthlyTimeRange]
+  )
 
-  const startersSeries = React.useMemo(() => aggregateStartersByYear(filteredRows), [filteredRows])
-  const stoppersSeries = React.useMemo(() => aggregateStoppersByYear(filteredRows, stopHorizon), [filteredRows, stopHorizon])
+  const monthlyCoverageNote = React.useMemo(() => {
+    const monthlyMinYear = bundle?.monthlySummary?.monthlyMinYear ?? 2019
+    const yearlyMinYear = bundle?.monthlySummary?.yearlyMinYear ?? 2008
+    const yearlyMaxYear = bundle?.monthlySummary?.yearlyMaxYear ?? yearlyMinYear
+
+    if (monthlyTimeRange === "yearly") {
+      return `Jaarcijfers per sector en gewest lopen van ${yearlyMinYear} tot en met ${yearlyMaxYear}. Deze jaarlijkse starters en stoppers zijn Statbel-jaarfoto's op 31 december en verschillen dus van de som van maandcijfers.`
+    }
+
+    return `Kwartaal- en maanddata starten in ${monthlyMinYear}. Voor die fijnere uitsplitsing gebruikt de app de maandelijkse Statbel-reeks.`
+  }, [bundle, monthlyTimeRange])
+
+  const filteredSurvivalRows = React.useMemo(() => {
+    const bySector = filterSurvivalRowsBySector(survivalRows, survivalSector)
+    return filterSurvivalRowsByGeo(bySector, selectedProvince ? "province" : "region", selectedRegion, selectedProvince)
+  }, [selectedProvince, selectedRegion, survivalRows, survivalSector])
+
   const survivalSeries = React.useMemo(
-    () => aggregateSurvivalRateByYear(filteredRows, survivalKeyForHorizon(stopHorizon)),
-    [filteredRows, stopHorizon]
+    () => aggregateSurvivalRateByYear(filteredSurvivalRows, survivalKeyForHorizon(stopHorizon)),
+    [filteredSurvivalRows, stopHorizon]
   )
-
-  const mapRows = React.useMemo(() => filterRowsBySector(allRows, selectedNace1), [allRows, selectedNace1])
-
-  // Extract all years from the data
-  const years = React.useMemo(() => {
-    const yearSet = new Set<number>()
-    for (const r of allRows) {
-      if (typeof r.y === "number") yearSet.add(r.y)
-    }
-    return Array.from(yearSet).sort((a, b) => a - b)
-  }, [allRows])
-
-  // Map level logic: At Belgium level, show regions. At region level, show provinces.
-  // Province level doesn't need a map (already drilled down to single province).
-  const mapLevel = level === "region" && selectedRegion !== "1000" ? "province" : "region"
-
-  const startersMap = React.useMemo(() => {
-    const val = (r: VatSurvivalRow) => (typeof r.fr === "number" ? r.fr : null)
-    return mapLevel === "province"
-      ? aggregateByProvinceAllYears(mapRows, val)
-      : aggregateByRegionAllYears(mapRows, val)
-  }, [mapRows, mapLevel])
-
-  const stoppersMap = React.useMemo(() => {
-    const key = survivalKeyForHorizon(stopHorizon)
-    const val = (r: VatSurvivalRow) => {
-      const surv = (r as any)[key]
-      return typeof r.fr === "number" && typeof surv === "number" ? Math.max(0, r.fr - surv) : null
-    }
-    return mapLevel === "province"
-      ? aggregateByProvinceAllYears(mapRows, val)
-      : aggregateByRegionAllYears(mapRows, val)
-  }, [mapRows, stopHorizon, mapLevel])
-
-  const survivalMap: RegionPoint[] | ProvincePoint[] = React.useMemo(() => {
-    const key = survivalKeyForHorizon(stopHorizon)
-    return mapLevel === "province"
-      ? survivalRateByProvinceAllYears(mapRows, key)
-      : survivalRateByRegionAllYears(mapRows, key)
-  }, [mapRows, stopHorizon, mapLevel])
 
   function selectRegion(code: RegionCode) {
     setSelectedRegion(code)
@@ -606,12 +789,14 @@ function InnerDashboard() {
     if (code === null) {
       setSelectedProvince(null)
       setSelectedMunicipality(null)
+      setLevel("region")
       return
     }
+
     setSelectedProvince(code)
     setSelectedMunicipality(null)
-    const prov = PROVINCES.find((p) => String(p.code) === String(code))
-    if (prov) setSelectedRegion(prov.regionCode)
+    const province = PROVINCES.find((item) => String(item.code) === String(code))
+    if (province) setSelectedRegion(province.regionCode)
     setLevel("province")
   }
 
@@ -631,93 +816,57 @@ function InnerDashboard() {
     <div className="space-y-10">
       <div className="rounded-lg border bg-muted/30 p-4 text-sm text-muted-foreground">
         <p>
-          We tonen hier het aantal starters (eerste inschrijvingen), het aantal stoppers (starters die na N jaar niet meer actief zijn),
-          en de overlevingskans na N jaar. Gebruik de toggle om N (1–5 jaar) te kiezen. Gebruik de filters per sectie om de data te filteren.
+          De secties <strong>starters</strong> en <strong>stoppers</strong> combineren nu twee Statbel-reeksen: een jaarlijkse reeks per sector en gewest vanaf 2008, en een maandelijkse reeks vanaf 2019.
+          Meest recente maand: {latestMonthlyLabel ?? "onbekend"}. Per sectie kun je wisselen tussen België en gewest, en tussen jaar-, kwartaal- of maandniveau.
+        </p>
+        <p className="mt-2">
+          De jaarreeks loopt momenteel tot en met {bundle.monthlySummary.yearlyMaxYear}. Voor 2019-2020 gebruikt Statbel in de maandreeks een DataLab-bron op T+30; vanaf 2021 is dit de offici&euml;le maandreeks op T+45. De overlevingskans hieronder blijft de jaarlijkse survivalreeks.
         </p>
       </div>
 
-      <MetricSection
+      <MonthlyMetricSection
         title="Aantal starters"
         label="Aantal"
-        yearSeries={startersSeries}
-        mapData={startersMap}
-        years={years}
-        mapLevel={mapLevel}
-        formatValue={formatInt}
-        selectedRegion={selectedRegion}
-        selectedProvince={selectedProvince}
-        selectedSector={selectedNace1}
-        sectorOptions={naceMainOptions}
-        onSelectRegion={selectRegion}
-        onSelectProvince={selectProvince}
-        onSelectSector={setSelectedNace1}
+        data={startersSeries}
+        timeRange={monthlyTimeRange}
+        onTimeRangeChange={setMonthlyTimeRange}
+        selectedRegion={monthlyRegion}
+        onSelectRegion={setMonthlyRegion}
+        selectedSector={monthlySector}
+        onSelectSector={setMonthlySector}
+        sectorOptions={monthlySectorOptions}
+        coverageNote={monthlyCoverageNote}
         slug="starters-stoppers"
         sectionId="starters"
-        dataSource="Statbel - Overlevingsgraad van btw-plichtigen"
-        dataSourceUrl="https://statbel.fgov.be/nl/themas/ondernemingen/overlevingsgraad-van-btw-plichtigen"
-        embedParams={{
-          region: selectedRegion !== "1000" ? selectedRegion : null,
-          province: selectedProvince,
-          sector: selectedNace1,
-        }}
       />
 
-      <MetricSection
-        title={`Aantal stoppers (na ${stopHorizon} jaar)`}
+      <MonthlyMetricSection
+        title="Aantal stoppers"
         label="Aantal"
-        yearSeries={stoppersSeries}
-        mapData={stoppersMap}
-        years={years}
-        mapLevel={mapLevel}
-        formatValue={formatInt}
-        selectedRegion={selectedRegion}
-        selectedProvince={selectedProvince}
-        selectedSector={selectedNace1}
-        sectorOptions={naceMainOptions}
-        onSelectRegion={selectRegion}
-        onSelectProvince={selectProvince}
-        onSelectSector={setSelectedNace1}
-        stopHorizon={stopHorizon}
-        onStopHorizonChange={setStopHorizon}
+        data={stoppersSeries}
+        timeRange={monthlyTimeRange}
+        onTimeRangeChange={setMonthlyTimeRange}
+        selectedRegion={monthlyRegion}
+        onSelectRegion={setMonthlyRegion}
+        selectedSector={monthlySector}
+        onSelectSector={setMonthlySector}
+        sectorOptions={monthlySectorOptions}
+        coverageNote={monthlyCoverageNote}
         slug="starters-stoppers"
         sectionId="stoppers"
-        dataSource="Statbel - Overlevingsgraad van btw-plichtigen"
-        dataSourceUrl="https://statbel.fgov.be/nl/themas/ondernemingen/overlevingsgraad-van-btw-plichtigen"
-        embedParams={{
-          horizon: stopHorizon,
-          region: selectedRegion !== "1000" ? selectedRegion : null,
-          province: selectedProvince,
-          sector: selectedNace1,
-        }}
       />
 
-      <MetricSection
-        title={`Overlevingskans na ${stopHorizon} jaar`}
-        label="Overlevingskans"
-        yearSeries={survivalSeries}
-        mapData={survivalMap}
-        years={years}
-        mapLevel={mapLevel}
-        formatValue={formatPct}
+      <SurvivalSection
+        data={survivalSeries}
         selectedRegion={selectedRegion}
         selectedProvince={selectedProvince}
-        selectedSector={selectedNace1}
-        sectorOptions={naceMainOptions}
         onSelectRegion={selectRegion}
         onSelectProvince={selectProvince}
-        onSelectSector={setSelectedNace1}
+        selectedSector={survivalSector}
+        onSelectSector={setSurvivalSector}
+        sectorOptions={survivalSectorOptions}
         stopHorizon={stopHorizon}
         onStopHorizonChange={setStopHorizon}
-        slug="starters-stoppers"
-        sectionId="survival"
-        dataSource="Statbel - Overlevingsgraad van btw-plichtigen"
-        dataSourceUrl="https://statbel.fgov.be/nl/themas/ondernemingen/overlevingsgraad-van-btw-plichtigen"
-        embedParams={{
-          horizon: stopHorizon,
-          region: selectedRegion !== "1000" ? selectedRegion : null,
-          province: selectedProvince,
-          sector: selectedNace1,
-        }}
       />
     </div>
   )

@@ -4,14 +4,15 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 
 const metadata = {
   title: "Starters en stoppers",
-  date: "2023-12-31",
-  summary: "Analyse van startende en stoppende ondernemingen.",
+  date: "2026-03-24",
+  summary: "Analyse van starters, stoppers en overlevingskansen van btw-plichtige ondernemingen, met jaarreeksen per sector en gewest vanaf 2008 en maandreeksen vanaf 2019.",
+  dataAvailabilityLabel: "januari 2026",
   tags: ["economie","ondernemerschap"],
   source: {
     provider: "Statbel",
-    title: "Starters en stoppers per gemeente",
-    url: "https://statbel.fgov.be/nl/themas/ondernemingen/starters-en-stoppers",
-    publicationDate: "2025-10-16",
+    title: "Jaar- en maandevolutie van de btw-plichtige ondernemingen",
+    url: "https://statbel.fgov.be/nl/themas/ondernemingen/btw-plichtige-ondernemingen/maandevolutie-van-de-btw-plichtige-ondernemingen",
+    publicationDate: "2026-03-24",
   },
 }
 

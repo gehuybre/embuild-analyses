@@ -1,0 +1,30 @@
+{
+  "updated_at": "2026-04-18T07:58:06.335050+00:00",
+  "latest_period": "2026-01",
+  "sources": [
+    {
+      "key": "datalab_2019_2020",
+      "url": "https://statbel.fgov.be/sites/default/files/files/documents/DataLab/TF_STARTERS_30.xlsx"
+    },
+    {
+      "key": "nace_2008_2021_2025",
+      "url": "https://statbel.fgov.be/sites/default/files/files/documents/Ondernemingen/7.4%20BTW-plichtige%20ondernemers/7.4.2%20Maandevolutie/Ent_nace_2008_45_nl.xls"
+    },
+    {
+      "key": "nace_2025_2025_2026",
+      "url": "https://statbel.fgov.be/sites/default/files/files/documents/Ondernemingen/7.4%20BTW-plichtige%20ondernemers/7.4.2%20Maandevolutie/Ent_nace_2025_45_nl.xlsx"
+    }
+  ],
+  "annual_flows_source": {
+    "startersView": {
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "viewId": "800863d8-d5ec-40ff-9add-c42fb4cca782"
+    },
+    "stoppersView": {
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "viewId": "85c773d0-06ed-4e02-9e91-87124e2684d6"
+    },
+    "latestYear": 2024
+  },
+  "annual_latest_year": 2024
+}

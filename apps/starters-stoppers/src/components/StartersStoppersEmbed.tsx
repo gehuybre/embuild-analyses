@@ -6,6 +6,38 @@ import { FilterableTable } from "@embuild/shared/components/shared/FilterableTab
 import { PROVINCES, ProvinceCode, REGIONS, RegionCode } from "@embuild/shared/lib/geo-utils"
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
 
+type SectionType = "starters" | "stoppers" | "survival"
+type ViewType = "chart" | "table"
+type TimeRange = "yearly" | "quarterly" | "monthly"
+type StopHorizon = 1 | 2 | 3 | 4 | 5
+type SurvivalKey = "s1" | "s2" | "s3" | "s4" | "s5"
+
+type MonthlyFlowRow = {
+  y: number
+  q: number
+  mo: number
+  period: string
+  n1: string
+  fr: number
+  st: number
+}
+
+type RegionalMonthlyFlowRow = MonthlyFlowRow & {
+  g: RegionCode
+}
+
+type AnnualFlowRow = {
+  y: number
+  g: RegionCode
+  n1: string
+  fr: number
+  st: number
+}
+
+type MonthlySummary = {
+  yearlyMaxYear: number
+}
+
 type VatSurvivalRow = {
   y: number | null
   r: string | null
@@ -19,95 +51,130 @@ type VatSurvivalRow = {
   s5: number | null
 }
 
-type YearPoint = {
+type ChartPoint = {
   sortValue: number
   periodCells: Array<string | number>
   value: number
-  label?: string
+  label: string
 }
 
-type StopHorizon = 1 | 2 | 3 | 4 | 5
-type SurvivalKey = "s1" | "s2" | "s3" | "s4" | "s5"
-type SectionType = "starters" | "stoppers" | "survival"
-type ViewType = "chart" | "table"
+const MONTH_NAMES_SHORT = ["jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"]
+const MONTHLY_REGION_OPTIONS: Array<{ code: RegionCode; label: string }> = [
+  { code: "1000", label: "België" },
+  { code: "2000", label: "Vlaanderen" },
+  { code: "3000", label: "Wallonië" },
+  { code: "4000", label: "Brussel" },
+]
 
-function survivalKeyForHorizon(h: StopHorizon): SurvivalKey {
-  return `s${h}` as SurvivalKey
+function survivalKeyForHorizon(horizon: StopHorizon): SurvivalKey {
+  return `s${horizon}` as SurvivalKey
 }
 
-function filterRowsByGeo(
-  rows: VatSurvivalRow[],
-  region: RegionCode | null,
-  province: ProvinceCode | null
-): VatSurvivalRow[] {
-  if (province) {
-    return rows.filter((r) => r.p && String(r.p) === String(province))
+function filterMonthlyRows(rows: MonthlyFlowRow[], sector: string | null) {
+  const code = sector ?? "ALL"
+  return rows.filter((row) => row.n1 === code)
+}
+
+function filterRegionalMonthlyRows(rows: RegionalMonthlyFlowRow[], sector: string | null, region: RegionCode) {
+  const code = sector ?? "ALL"
+  return rows.filter((row) => row.g === region && row.n1 === code)
+}
+
+function filterAnnualRows(rows: AnnualFlowRow[], sector: string | null, region: RegionCode) {
+  const code = sector ?? "ALL"
+  return rows.filter((row) => row.g === region && row.n1 === code)
+}
+
+function aggregateMonthlyMetric(rows: MonthlyFlowRow[], metric: "fr" | "st", timeRange: TimeRange): ChartPoint[] {
+  const grouped = new Map<string, ChartPoint>()
+
+  for (const row of rows) {
+    let key: string
+    let label: string
+    let sortValue: number
+
+    if (timeRange === "yearly") {
+      key = String(row.y)
+      label = String(row.y)
+      sortValue = row.y
+    } else if (timeRange === "quarterly") {
+      key = `${row.y}-K${row.q}`
+      label = `K${row.q} ${row.y}`
+      sortValue = row.y * 10 + row.q
+    } else {
+      key = row.period
+      label = `${MONTH_NAMES_SHORT[row.mo - 1]} ${row.y}`
+      sortValue = row.y * 100 + row.mo
+    }
+
+    const existing = grouped.get(key)
+    if (existing) {
+      existing.value += row[metric]
+      continue
+    }
+
+    grouped.set(key, {
+      sortValue,
+      periodCells: [label],
+      value: row[metric],
+      label,
+    })
   }
-  if (region && region !== "1000") {
-    return rows.filter((r) => r.r && String(r.r) === String(region))
-  }
+
+  return Array.from(grouped.values()).sort((a, b) => a.sortValue - b.sortValue)
+}
+
+function aggregateAnnualMetric(rows: AnnualFlowRow[], metric: "fr" | "st"): ChartPoint[] {
   return rows
-}
-
-function filterRowsBySector(rows: VatSurvivalRow[], nace1: string | null): VatSurvivalRow[] {
-  if (!nace1) return rows
-  return rows.filter((r) => r.n1 === nace1)
-}
-
-function aggregateStartersByYear(rows: VatSurvivalRow[]): YearPoint[] {
-  const agg = new Map<number, number>()
-  for (const r of rows) {
-    if (typeof r.y !== "number" || typeof r.fr !== "number") continue
-    agg.set(r.y, (agg.get(r.y) ?? 0) + r.fr)
-  }
-  return Array.from(agg.entries())
-    .map(([y, v]) => ({ sortValue: y, periodCells: [y], value: v, label: String(y) }))
-    .sort((a, b) => a.sortValue - b.sortValue)
-}
-
-function aggregateStoppersByYear(rows: VatSurvivalRow[], horizon: StopHorizon): YearPoint[] {
-  const key = survivalKeyForHorizon(horizon)
-  const agg = new Map<number, { fr: number; surv: number }>()
-  for (const r of rows) {
-    const surv = (r as Record<string, unknown>)[key] as number | null
-    if (typeof r.y !== "number" || typeof r.fr !== "number" || typeof surv !== "number") continue
-    const prev = agg.get(r.y) ?? { fr: 0, surv: 0 }
-    prev.fr += r.fr
-    prev.surv += surv
-    agg.set(r.y, prev)
-  }
-  return Array.from(agg.entries())
-    .map(([y, v]) => ({ sortValue: y, periodCells: [y], value: Math.max(0, v.fr - v.surv), label: String(y) }))
-    .sort((a, b) => a.sortValue - b.sortValue)
-}
-
-function aggregateSurvivalRateByYear(rows: VatSurvivalRow[], horizon: StopHorizon): YearPoint[] {
-  const key = survivalKeyForHorizon(horizon)
-  const agg = new Map<number, { fr: number; surv: number }>()
-  for (const r of rows) {
-    const surv = (r as Record<string, unknown>)[key] as number | null
-    if (typeof r.y !== "number" || typeof r.fr !== "number" || typeof surv !== "number") continue
-    const prev = agg.get(r.y) ?? { fr: 0, surv: 0 }
-    prev.fr += r.fr
-    prev.surv += surv
-    agg.set(r.y, prev)
-  }
-  return Array.from(agg.entries())
-    .map(([y, v]) => ({
-      sortValue: y,
-      periodCells: [y],
-      value: v.fr > 0 ? Math.round(((v.surv / v.fr) * 100) * 10) / 10 : 0,
-      label: String(y),
+    .map((row) => ({
+      sortValue: row.y,
+      periodCells: [row.y],
+      value: row[metric],
+      label: String(row.y),
     }))
     .sort((a, b) => a.sortValue - b.sortValue)
 }
 
-function formatInt(n: number) {
-  return new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 0 }).format(n)
+function formatMonthlyRegionLabel(regionCode: RegionCode) {
+  return MONTHLY_REGION_OPTIONS.find((option) => option.code === regionCode)?.label ?? "België"
 }
 
-function formatPct(n: number) {
-  return new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 1 }).format(n) + "%"
+function filterSurvivalRowsByGeo(rows: VatSurvivalRow[], region: RegionCode | null, province: ProvinceCode | null) {
+  if (province) {
+    return rows.filter((row) => row.p && String(row.p) === String(province))
+  }
+  if (region && region !== "1000") {
+    return rows.filter((row) => row.r && String(row.r) === String(region))
+  }
+  return rows
+}
+
+function filterSurvivalRowsBySector(rows: VatSurvivalRow[], sector: string | null) {
+  if (!sector) return rows
+  return rows.filter((row) => row.n1 === sector)
+}
+
+function aggregateSurvivalRateByYear(rows: VatSurvivalRow[], horizon: StopHorizon): ChartPoint[] {
+  const key = survivalKeyForHorizon(horizon)
+  const grouped = new Map<number, { fr: number; surv: number }>()
+
+  for (const row of rows) {
+    const survived = (row as Record<string, unknown>)[key] as number | null
+    if (typeof row.y !== "number" || typeof row.fr !== "number" || typeof survived !== "number") continue
+    const current = grouped.get(row.y) ?? { fr: 0, surv: 0 }
+    current.fr += row.fr
+    current.surv += survived
+    grouped.set(row.y, current)
+  }
+
+  return Array.from(grouped.entries())
+    .map(([year, values]) => ({
+      sortValue: year,
+      periodCells: [year],
+      value: values.fr > 0 ? Math.round((values.surv / values.fr) * 1000) / 10 : 0,
+      label: String(year),
+    }))
+    .sort((a, b) => a.sortValue - b.sortValue)
 }
 
 interface StartersStoppersEmbedProps {
@@ -117,6 +184,7 @@ interface StartersStoppersEmbedProps {
   region?: RegionCode | null
   province?: ProvinceCode | null
   sector?: string | null
+  timeRange?: TimeRange
 }
 
 export function StartersStoppersEmbed({
@@ -126,55 +194,79 @@ export function StartersStoppersEmbed({
   region = null,
   province = null,
   sector = null,
+  timeRange = "yearly",
 }: StartersStoppersEmbedProps) {
   const { data: bundle, loading, error } = useJsonBundle<{
-    raw: VatSurvivalRow[]
+    monthlyRaw: MonthlyFlowRow[]
+    monthlyRegionalRaw: RegionalMonthlyFlowRow[]
+    yearlyRaw: AnnualFlowRow[]
+    monthlySummary: MonthlySummary
+    survivalRaw: VatSurvivalRow[]
   }>({
-    raw: "/data/vat_survivals.json",
+    monthlyRaw: "/data/vat_monthly_flows.json",
+    monthlyRegionalRaw: "/data/vat_monthly_flows_regions.json",
+    yearlyRaw: "/data/vat_yearly_flows.json",
+    monthlySummary: "/data/summary.json",
+    survivalRaw: "/data/vat_survivals.json",
   })
 
-  const allRows = useMemo(() => (bundle?.raw ?? []) as VatSurvivalRow[], [bundle])
+  const monthlyRows = useMemo(() => bundle?.monthlyRaw ?? [], [bundle])
+  const monthlyRegionalRows = useMemo(() => bundle?.monthlyRegionalRaw ?? [], [bundle])
+  const yearlyRows = useMemo(() => bundle?.yearlyRaw ?? [], [bundle])
+  const survivalRows = useMemo(() => bundle?.survivalRaw ?? [], [bundle])
+  const selectedRegion = region ?? "1000"
 
-  const filteredRows = useMemo(() => {
-    const bySector = filterRowsBySector(allRows, sector)
-    return filterRowsByGeo(bySector, region, province)
-  }, [allRows, sector, region, province])
-
-  // Compute the appropriate data series based on section
-  const yearSeries = useMemo(() => {
-    switch (section) {
-      case "starters":
-        return aggregateStartersByYear(filteredRows)
-      case "stoppers":
-        return aggregateStoppersByYear(filteredRows, horizon)
-      case "survival":
-        return aggregateSurvivalRateByYear(filteredRows, horizon)
+  const data = useMemo(() => {
+    if (section === "starters") {
+      if (timeRange === "yearly") {
+        return aggregateAnnualMetric(filterAnnualRows(yearlyRows, sector, selectedRegion), "fr")
+      }
+      return aggregateMonthlyMetric(
+        selectedRegion === "1000"
+          ? filterMonthlyRows(monthlyRows, sector)
+          : filterRegionalMonthlyRows(monthlyRegionalRows, sector, selectedRegion),
+        "fr",
+        timeRange
+      )
     }
-  }, [section, filteredRows, horizon])
+    if (section === "stoppers") {
+      if (timeRange === "yearly") {
+        return aggregateAnnualMetric(filterAnnualRows(yearlyRows, sector, selectedRegion), "st")
+      }
+      return aggregateMonthlyMetric(
+        selectedRegion === "1000"
+          ? filterMonthlyRows(monthlyRows, sector)
+          : filterRegionalMonthlyRows(monthlyRegionalRows, sector, selectedRegion),
+        "st",
+        timeRange
+      )
+    }
+    return aggregateSurvivalRateByYear(
+      filterSurvivalRowsByGeo(filterSurvivalRowsBySector(survivalRows, sector), region, province),
+      horizon
+    )
+  }, [horizon, monthlyRegionalRows, monthlyRows, province, region, sector, section, selectedRegion, survivalRows, timeRange, yearlyRows])
 
-
-  // Build title
   const title = useMemo(() => {
-    const sectionTitle = section === "starters"
-      ? "Aantal starters"
-      : section === "stoppers"
-        ? `Aantal stoppers (na ${horizon} jaar)`
-        : `Overlevingskans na ${horizon} jaar`
+    if (section === "starters") {
+      return selectedRegion !== "1000" ? `Aantal starters - ${formatMonthlyRegionLabel(selectedRegion)}` : "Aantal starters"
+    }
+    if (section === "stoppers") {
+      return selectedRegion !== "1000" ? `Aantal stoppers - ${formatMonthlyRegionLabel(selectedRegion)}` : "Aantal stoppers"
+    }
 
     const locationParts: string[] = []
     if (province) {
-      const prov = PROVINCES.find((p) => String(p.code) === String(province))
-      if (prov) locationParts.push(prov.name)
+      const provinceMatch = PROVINCES.find((item) => String(item.code) === String(province))
+      if (provinceMatch) locationParts.push(provinceMatch.name)
     } else if (region && region !== "1000") {
-      const reg = REGIONS.find((r) => String(r.code) === String(region))
-      if (reg) locationParts.push(reg.name)
+      const regionMatch = REGIONS.find((item) => item.code === region)
+      if (regionMatch) locationParts.push(regionMatch.name)
     }
 
-    if (locationParts.length > 0) {
-      return `${sectionTitle} - ${locationParts.join(", ")}`
-    }
-    return sectionTitle
-  }, [section, horizon, province, region])
+    const baseTitle = `Overlevingskans na ${horizon} jaar`
+    return locationParts.length > 0 ? `${baseTitle} - ${locationParts.join(", ")}` : baseTitle
+  }, [horizon, province, region, section, selectedRegion])
 
   if (loading) {
     return <div className="p-4">Data laden...</div>
@@ -189,26 +281,30 @@ export function StartersStoppersEmbed({
   }
 
   const label = section === "survival" ? "Overlevingskans" : "Aantal"
-  const formatValue = section === "survival" ? formatPct : formatInt
+  const periodHeader = section === "survival" ? "Jaar" : timeRange === "yearly" ? "Jaar" : "Periode"
 
   return (
     <div className="p-4">
-      <h2 className="text-lg font-semibold mb-4">{title}</h2>
+      <h2 className="mb-4 text-lg font-semibold">{title}</h2>
 
       {viewType === "chart" && (
         <FilterableChart
-          data={yearSeries}
-          getLabel={(d) => String((d as YearPoint).sortValue)}
-          getValue={(d) => (d as YearPoint).value}
-          getSortValue={(d) => (d as YearPoint).sortValue}
+          data={data}
+          getLabel={(point) => (point as ChartPoint).label}
+          getValue={(point) => (point as ChartPoint).value}
+          getSortValue={(point) => (point as ChartPoint).sortValue}
         />
       )}
 
       {viewType === "table" && (
-        <FilterableTable data={yearSeries} label={label} periodHeaders={["Jaar"]} />
+        <FilterableTable
+          data={data}
+          label={label}
+          periodHeaders={[periodHeader]}
+        />
       )}
 
-      <div className="mt-4 text-xs text-muted-foreground text-center">
+      <div className="mt-4 text-center text-xs text-muted-foreground">
         <span>Bron: Statbel</span>
       </div>
     </div>
