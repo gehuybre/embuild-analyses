@@ -6,7 +6,7 @@ import { FilterableTable } from "@embuild/shared/components/shared/FilterableTab
 import { PROVINCES, ProvinceCode, REGIONS, RegionCode } from "@embuild/shared/lib/geo-utils"
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
 
-type SectionType = "starters" | "stoppers" | "survival"
+type SectionType = "starters" | "stoppers" | "survival" | "enterprises"
 type ViewType = "chart" | "table"
 type TimeRange = "yearly" | "quarterly" | "monthly"
 type StopHorizon = 1 | 2 | 3 | 4 | 5
@@ -36,6 +36,24 @@ type AnnualFlowRow = {
 
 type MonthlySummary = {
   yearlyMaxYear: number
+  enterpriseCounts?: {
+    latestYear: number
+    availableYears?: number[]
+  }
+}
+
+type EnterpriseWorkerClassRow = {
+  y: number
+  g: RegionCode
+  n1: string
+  w: string
+  vat: number
+}
+
+type EnterpriseLookups = {
+  latestYear: number
+  years: number[]
+  workerClasses: Array<{ code: string; nl: string }>
 }
 
 type VatSurvivalRow = {
@@ -65,6 +83,28 @@ const MONTHLY_REGION_OPTIONS: Array<{ code: RegionCode; label: string }> = [
   { code: "3000", label: "Wallonië" },
   { code: "4000", label: "Brussel" },
 ]
+
+function formatYearRanges(years: number[]) {
+  if (years.length === 0) return ""
+  const sorted = [...years].sort((a, b) => a - b)
+  const ranges: string[] = []
+  let start = sorted[0]
+  let previous = sorted[0]
+
+  for (let index = 1; index < sorted.length; index += 1) {
+    const year = sorted[index]
+    if (year === previous + 1) {
+      previous = year
+      continue
+    }
+    ranges.push(start === previous ? String(start) : `${start}-${previous}`)
+    start = year
+    previous = year
+  }
+
+  ranges.push(start === previous ? String(start) : `${start}-${previous}`)
+  return ranges.join(", ")
+}
 
 function survivalKeyForHorizon(horizon: StopHorizon): SurvivalKey {
   return `s${horizon}` as SurvivalKey
@@ -135,6 +175,28 @@ function aggregateAnnualMetric(rows: AnnualFlowRow[], metric: "fr" | "st"): Char
     .sort((a, b) => a.sortValue - b.sortValue)
 }
 
+function filterEnterpriseRows(rows: EnterpriseWorkerClassRow[], sector: string | null, region: RegionCode, workerClass: string | null) {
+  const code = sector ?? "ALL"
+  return rows.filter((row) => row.g === region && row.n1 === code && (!workerClass || row.w === workerClass))
+}
+
+function aggregateEnterpriseCountsByYear(rows: EnterpriseWorkerClassRow[]): ChartPoint[] {
+  const grouped = new Map<number, number>()
+
+  for (const row of rows) {
+    grouped.set(row.y, (grouped.get(row.y) ?? 0) + row.vat)
+  }
+
+  return Array.from(grouped.entries())
+    .map(([year, value]) => ({
+      sortValue: year,
+      periodCells: [year],
+      value,
+      label: String(year),
+    }))
+    .sort((a, b) => a.sortValue - b.sortValue)
+}
+
 function formatMonthlyRegionLabel(regionCode: RegionCode) {
   return MONTHLY_REGION_OPTIONS.find((option) => option.code === regionCode)?.label ?? "België"
 }
@@ -184,6 +246,7 @@ interface StartersStoppersEmbedProps {
   region?: RegionCode | null
   province?: ProvinceCode | null
   sector?: string | null
+  workerClass?: string | null
   timeRange?: TimeRange
 }
 
@@ -194,6 +257,7 @@ export function StartersStoppersEmbed({
   region = null,
   province = null,
   sector = null,
+  workerClass = null,
   timeRange = "yearly",
 }: StartersStoppersEmbedProps) {
   const { data: bundle, loading, error } = useJsonBundle<{
@@ -201,20 +265,27 @@ export function StartersStoppersEmbed({
     monthlyRegionalRaw: RegionalMonthlyFlowRow[]
     yearlyRaw: AnnualFlowRow[]
     monthlySummary: MonthlySummary
+    enterpriseRaw: EnterpriseWorkerClassRow[]
+    enterpriseLookups: EnterpriseLookups
     survivalRaw: VatSurvivalRow[]
   }>({
     monthlyRaw: "/data/vat_monthly_flows.json",
     monthlyRegionalRaw: "/data/vat_monthly_flows_regions.json",
     yearlyRaw: "/data/vat_yearly_flows.json",
     monthlySummary: "/data/summary.json",
+    enterpriseRaw: "/data/vat_enterprises_worker_class.json",
+    enterpriseLookups: "/data/vat_enterprises_lookups.json",
     survivalRaw: "/data/vat_survivals.json",
   })
 
   const monthlyRows = useMemo(() => bundle?.monthlyRaw ?? [], [bundle])
   const monthlyRegionalRows = useMemo(() => bundle?.monthlyRegionalRaw ?? [], [bundle])
   const yearlyRows = useMemo(() => bundle?.yearlyRaw ?? [], [bundle])
+  const enterpriseRows = useMemo(() => bundle?.enterpriseRaw ?? [], [bundle])
   const survivalRows = useMemo(() => bundle?.survivalRaw ?? [], [bundle])
   const selectedRegion = region ?? "1000"
+  const enterpriseAvailableYears = bundle?.monthlySummary?.enterpriseCounts?.availableYears ?? bundle?.enterpriseLookups?.years ?? []
+  const workerClassLabels = useMemo(() => new Map((bundle?.enterpriseLookups?.workerClasses ?? []).map((row) => [row.code, row.nl])), [bundle])
 
   const data = useMemo(() => {
     if (section === "starters") {
@@ -241,11 +312,14 @@ export function StartersStoppersEmbed({
         timeRange
       )
     }
+    if (section === "enterprises") {
+      return aggregateEnterpriseCountsByYear(filterEnterpriseRows(enterpriseRows, sector, selectedRegion, workerClass))
+    }
     return aggregateSurvivalRateByYear(
       filterSurvivalRowsByGeo(filterSurvivalRowsBySector(survivalRows, sector), region, province),
       horizon
     )
-  }, [horizon, monthlyRegionalRows, monthlyRows, province, region, sector, section, selectedRegion, survivalRows, timeRange, yearlyRows])
+  }, [enterpriseRows, horizon, monthlyRegionalRows, monthlyRows, province, region, sector, section, selectedRegion, survivalRows, timeRange, workerClass, yearlyRows])
 
   const title = useMemo(() => {
     if (section === "starters") {
@@ -253,6 +327,12 @@ export function StartersStoppersEmbed({
     }
     if (section === "stoppers") {
       return selectedRegion !== "1000" ? `Aantal stoppers - ${formatMonthlyRegionLabel(selectedRegion)}` : "Aantal stoppers"
+    }
+    if (section === "enterprises") {
+      const yearSuffix = enterpriseAvailableYears.length > 0 ? ` (${formatYearRanges(enterpriseAvailableYears)})` : ""
+      const workerClassSuffix = workerClass ? ` - ${workerClassLabels.get(workerClass) ?? workerClass}` : ""
+      const baseTitle = `Aantal ondernemingen${yearSuffix}${workerClassSuffix}`
+      return selectedRegion !== "1000" ? `${baseTitle} - ${formatMonthlyRegionLabel(selectedRegion)}` : baseTitle
     }
 
     const locationParts: string[] = []
@@ -266,7 +346,7 @@ export function StartersStoppersEmbed({
 
     const baseTitle = `Overlevingskans na ${horizon} jaar`
     return locationParts.length > 0 ? `${baseTitle} - ${locationParts.join(", ")}` : baseTitle
-  }, [horizon, province, region, section, selectedRegion])
+  }, [enterpriseAvailableYears, horizon, province, region, section, selectedRegion, workerClass, workerClassLabels])
 
   if (loading) {
     return <div className="p-4">Data laden...</div>
@@ -280,8 +360,8 @@ export function StartersStoppersEmbed({
     )
   }
 
-  const label = section === "survival" ? "Overlevingskans" : "Aantal"
-  const periodHeader = section === "survival" ? "Jaar" : timeRange === "yearly" ? "Jaar" : "Periode"
+  const label = section === "survival" ? "Overlevingskans" : section === "enterprises" ? "Aantal ondernemingen" : "Aantal"
+  const periodHeader = section === "survival" ? "Jaar" : timeRange === "yearly" || section === "enterprises" ? "Jaar" : "Periode"
 
   return (
     <div className="p-4">
@@ -290,6 +370,9 @@ export function StartersStoppersEmbed({
       {viewType === "chart" && (
         <FilterableChart
           data={data}
+          chartType={section === "enterprises" ? "line" : undefined}
+          showMovingAverage={section === "enterprises" ? false : undefined}
+          yAxisLabelAbove={section === "enterprises" ? "Aantal ondernemingen" : undefined}
           getLabel={(point) => (point as ChartPoint).label}
           getValue={(point) => (point as ChartPoint).value}
           getSortValue={(point) => (point as ChartPoint).sortValue}

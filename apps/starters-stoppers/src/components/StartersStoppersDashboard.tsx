@@ -49,6 +49,13 @@ type MonthlySummary = {
   monthlyMaxYear: number
   yearlyMinYear: number
   yearlyMaxYear: number
+  enterpriseCounts?: {
+    latestYear: number
+    availableYears?: number[]
+    sourceUrl?: string
+    sourceUrls?: string[]
+    updatedAt?: string
+  }
   notes?: string[]
 }
 
@@ -58,6 +65,23 @@ type AnnualFlowRow = {
   n1: string
   fr: number
   st: number
+}
+
+type EnterpriseWorkerClassRow = {
+  y: number
+  g: RegionCode
+  n1: string
+  w: string
+  vat: number
+}
+
+type EnterpriseLookups = {
+  latestYear: number
+  years: number[]
+  sourceUrl?: string
+  sourceUrls?: string[]
+  sectors: Array<{ code: string; nl: string }>
+  workerClasses: Array<{ code: string; nl: string }>
 }
 
 type VatSurvivalRow = {
@@ -110,12 +134,43 @@ function formatLatestPeriod(period: string | undefined) {
   return `${MONTH_NAMES_FULL[Number(match[2]) - 1]} ${match[1]}`
 }
 
+function formatYearRanges(years: number[]) {
+  if (years.length === 0) return ""
+  const sorted = [...years].sort((a, b) => a - b)
+  const ranges: string[] = []
+  let start = sorted[0]
+  let previous = sorted[0]
+
+  for (let index = 1; index < sorted.length; index += 1) {
+    const year = sorted[index]
+    if (year === previous + 1) {
+      previous = year
+      continue
+    }
+    ranges.push(start === previous ? String(start) : `${start}-${previous}`)
+    start = year
+    previous = year
+  }
+
+  ranges.push(start === previous ? String(start) : `${start}-${previous}`)
+  return ranges.join(", ")
+}
+
 function buildMonthlySectorOptions(lookups: MonthlyLookups | null) {
   const items = (lookups?.sectors ?? []).map((sector) => ({
     code: sector.code,
     label: `${sector.code} — ${sector.nl}`,
   }))
   items.sort((a, b) => a.label.localeCompare(b.label, "nl"))
+  return items
+}
+
+function buildWorkerClassOptions(lookups: EnterpriseLookups | null) {
+  const items = (lookups?.workerClasses ?? []).map((workerClass) => ({
+    code: workerClass.code,
+    label: workerClass.nl,
+  }))
+  items.sort((a, b) => Number(a.code) - Number(b.code))
   return items
 }
 
@@ -190,6 +245,52 @@ function aggregateAnnualMetric(rows: AnnualFlowRow[], metric: "fr" | "st"): Char
       periodCells: [row.y],
       value: row[metric],
       label: String(row.y),
+    }))
+    .sort((a, b) => a.sortValue - b.sortValue)
+}
+
+function filterEnterpriseRowsByContext(rows: EnterpriseWorkerClassRow[], selectedSector: string | null, selectedRegion: RegionCode) {
+  const code = selectedSector ?? "ALL"
+  return rows.filter((row) => row.g === selectedRegion && row.n1 === code)
+}
+
+function filterEnterpriseRows(rows: EnterpriseWorkerClassRow[], selectedSector: string | null, selectedRegion: RegionCode, selectedWorkerClass: string | null) {
+  return filterEnterpriseRowsByContext(rows, selectedSector, selectedRegion).filter((row) => !selectedWorkerClass || row.w === selectedWorkerClass)
+}
+
+function aggregateEnterpriseCountsByYear(rows: EnterpriseWorkerClassRow[]): ChartPoint[] {
+  const grouped = new Map<number, number>()
+
+  for (const row of rows) {
+    grouped.set(row.y, (grouped.get(row.y) ?? 0) + row.vat)
+  }
+
+  return Array.from(grouped.entries())
+    .map(([year, value]) => ({
+      sortValue: year,
+      periodCells: [year],
+      value,
+      label: String(year),
+    }))
+    .sort((a, b) => a.sortValue - b.sortValue)
+}
+
+function aggregateEnterpriseNoEmployeeShareByYear(rows: EnterpriseWorkerClassRow[]): ChartPoint[] {
+  const grouped = new Map<number, { total: number; noEmployees: number }>()
+
+  for (const row of rows) {
+    const current = grouped.get(row.y) ?? { total: 0, noEmployees: 0 }
+    current.total += row.vat
+    if (row.w === "00") current.noEmployees += row.vat
+    grouped.set(row.y, current)
+  }
+
+  return Array.from(grouped.entries())
+    .map(([year, values]) => ({
+      sortValue: year,
+      periodCells: [year],
+      value: values.total > 0 ? Math.round((values.noEmployees / values.total) * 1000) / 10 : 0,
+      label: String(year),
     }))
     .sort((a, b) => a.sortValue - b.sortValue)
 }
@@ -468,6 +569,70 @@ function SectorFilterInline({
   )
 }
 
+function WorkerClassFilterInline({
+  selected,
+  onChange,
+  options,
+}: {
+  selected: string | null
+  onChange: (value: string | null) => void
+  options: Array<{ code: string; label: string }>
+}) {
+  const [open, setOpen] = React.useState(false)
+
+  const currentLabel = React.useMemo(() => {
+    if (!selected) return "Alle grootteklassen"
+    return options.find((option) => option.code === selected)?.label ?? selected
+  }, [options, selected])
+
+  return (
+    <Popover open={open} onOpenChange={setOpen}>
+      <PopoverTrigger asChild>
+        <Button variant="outline" size="sm" role="combobox" aria-expanded={open} className="h-9 gap-1 min-w-[170px]">
+          <span className="truncate max-w-[170px]">{currentLabel}</span>
+          <ChevronsUpDown className="h-3.5 w-3.5 shrink-0 opacity-50" />
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent className="w-[320px] p-0" align="start">
+        <Command>
+          <CommandInput placeholder="Zoek grootteklasse..." />
+          <CommandList>
+            <CommandEmpty>Geen resultaat.</CommandEmpty>
+            <CommandGroup heading="Werknemersklasse">
+              <CommandItem
+                value="Alle grootteklassen"
+                onSelect={() => {
+                  onChange(null)
+                  setOpen(false)
+                }}
+              >
+                <Check className={cn("mr-2 h-4 w-4", !selected ? "opacity-100" : "opacity-0")} />
+                Alle grootteklassen
+              </CommandItem>
+            </CommandGroup>
+            <CommandSeparator />
+            <CommandGroup heading="Klasse">
+              {options.map((option) => (
+                <CommandItem
+                  key={option.code}
+                  value={option.label}
+                  onSelect={() => {
+                    onChange(option.code)
+                    setOpen(false)
+                  }}
+                >
+                  <Check className={cn("mr-2 h-4 w-4", selected === option.code ? "opacity-100" : "opacity-0")} />
+                  {option.label}
+                </CommandItem>
+              ))}
+            </CommandGroup>
+          </CommandList>
+        </Command>
+      </PopoverContent>
+    </Popover>
+  )
+}
+
 function MonthlyMetricSection({
   title,
   label,
@@ -576,6 +741,130 @@ function MonthlyMetricSection({
             </CardHeader>
             <CardContent>
               <FilterableTable data={data} label={label} periodHeaders={[periodHeader]} />
+            </CardContent>
+          </Card>
+        </TabsContent>
+      </Tabs>
+    </div>
+  )
+}
+
+function EnterpriseCountSection({
+  data,
+  noEmployeeShareData,
+  selectedRegion,
+  onSelectRegion,
+  selectedSector,
+  onSelectSector,
+  selectedWorkerClass,
+  onSelectWorkerClass,
+  sectorOptions,
+  workerClassOptions,
+  sourceUrl,
+}: {
+  data: ChartPoint[]
+  noEmployeeShareData: ChartPoint[]
+  selectedRegion: RegionCode
+  onSelectRegion: (value: RegionCode) => void
+  selectedSector: string | null
+  onSelectSector: (value: string | null) => void
+  selectedWorkerClass: string | null
+  onSelectWorkerClass: (value: string | null) => void
+  sectorOptions: Array<{ code: string; label: string }>
+  workerClassOptions: Array<{ code: string; label: string }>
+  sourceUrl?: string
+}) {
+  const [currentView, setCurrentView] = React.useState<"chart" | "table">("chart")
+  const locationLabel = React.useMemo(() => formatMonthlyRegionLabel(selectedRegion), [selectedRegion])
+  const title = "Aantal ondernemingen"
+  const exportTitle = title + (selectedRegion !== "1000" ? ` - ${locationLabel}` : "")
+  const exportData = React.useMemo(
+    () => data.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells })),
+    [data]
+  )
+
+  return (
+    <div className="space-y-4">
+      <div className="flex items-center justify-between gap-3">
+        <h2 className="text-2xl font-bold">{exportTitle}</h2>
+        <ExportButtons
+          data={exportData}
+          title={exportTitle}
+          slug="starters-stoppers"
+          sectionId="enterprises"
+          viewType={currentView}
+          periodHeaders={["Jaar"]}
+          valueLabel="Aantal ondernemingen"
+          dataSource="Statbel - Ondernemingen volgens werknemersklasse"
+          dataSourceUrl={sourceUrl}
+          embedParams={{
+            region: selectedRegion !== "1000" ? selectedRegion : null,
+            sector: selectedSector,
+            workerClass: selectedWorkerClass,
+          }}
+        />
+      </div>
+
+      <Tabs defaultValue="chart" onValueChange={(value) => setCurrentView(value as "chart" | "table")}>
+        <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
+          <TabsList>
+            <TabsTrigger value="chart">Grafiek</TabsTrigger>
+            <TabsTrigger value="table">Tabel</TabsTrigger>
+          </TabsList>
+          <div className="flex flex-wrap items-center gap-2">
+            <RegionFilterInline selected={selectedRegion} onChange={onSelectRegion} />
+            <SectorFilterInline selected={selectedSector} onChange={onSelectSector} options={sectorOptions} />
+            <WorkerClassFilterInline selected={selectedWorkerClass} onChange={onSelectWorkerClass} options={workerClassOptions} />
+          </div>
+        </div>
+
+        <TabsContent value="chart">
+          <div className="space-y-4">
+            <Card>
+              <CardHeader>
+                <CardTitle>Jaarlijkse evolutie</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <FilterableChart
+                  data={data}
+                  chartType="line"
+                  showMovingAverage={false}
+                  yAxisLabelAbove="Aantal ondernemingen"
+                  getLabel={(point) => (point as ChartPoint).label}
+                  getValue={(point) => (point as ChartPoint).value}
+                  getSortValue={(point) => (point as ChartPoint).sortValue}
+                />
+              </CardContent>
+            </Card>
+
+            <Card>
+              <CardHeader>
+                <CardTitle>Aandeel ondernemingen zonder personeel</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <FilterableChart
+                  data={noEmployeeShareData}
+                  chartType="line"
+                  showMovingAverage={false}
+                  yAxisLabelAbove="Aandeel zonder personeel"
+                  yAxisFormatter={formatPct}
+                  tooltipUsesYAxisFormatter
+                  getLabel={(point) => (point as ChartPoint).label}
+                  getValue={(point) => (point as ChartPoint).value}
+                  getSortValue={(point) => (point as ChartPoint).sortValue}
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </TabsContent>
+
+        <TabsContent value="table">
+          <Card>
+            <CardHeader>
+              <CardTitle>Data</CardTitle>
+            </CardHeader>
+            <CardContent>
+              <FilterableTable data={data} label="Aantal ondernemingen" periodHeaders={["Jaar"]} />
             </CardContent>
           </Card>
         </TabsContent>
@@ -699,6 +988,7 @@ function InnerDashboard() {
   const [monthlyRegion, setMonthlyRegion] = React.useState<RegionCode>("1000")
   const [monthlySector, setMonthlySector] = React.useState<string | null>(null)
   const [monthlyTimeRange, setMonthlyTimeRange] = React.useState<TimeRange>("yearly")
+  const [enterpriseWorkerClass, setEnterpriseWorkerClass] = React.useState<string | null>(null)
   const [survivalSector, setSurvivalSector] = React.useState<string | null>(null)
   const [stopHorizon, setStopHorizon] = React.useState<StopHorizon>(1)
 
@@ -708,6 +998,8 @@ function InnerDashboard() {
     monthlyLookups: MonthlyLookups
     monthlySummary: MonthlySummary
     yearlyRaw: AnnualFlowRow[]
+    enterpriseRaw: EnterpriseWorkerClassRow[]
+    enterpriseLookups: EnterpriseLookups
     survivalRaw: VatSurvivalRow[]
     survivalLookups: any
   }>({
@@ -716,6 +1008,8 @@ function InnerDashboard() {
     monthlyLookups: "/data/vat_monthly_lookups.json",
     monthlySummary: "/data/summary.json",
     yearlyRaw: "/data/vat_yearly_flows.json",
+    enterpriseRaw: "/data/vat_enterprises_worker_class.json",
+    enterpriseLookups: "/data/vat_enterprises_lookups.json",
     survivalRaw: "/data/vat_survivals.json",
     survivalLookups: "/data/lookups.json",
   })
@@ -723,10 +1017,14 @@ function InnerDashboard() {
   const monthlyRows = React.useMemo(() => bundle?.monthlyRaw ?? [], [bundle])
   const monthlyRegionalRows = React.useMemo(() => bundle?.monthlyRegionalRaw ?? [], [bundle])
   const yearlyRows = React.useMemo(() => bundle?.yearlyRaw ?? [], [bundle])
+  const enterpriseRows = React.useMemo(() => bundle?.enterpriseRaw ?? [], [bundle])
   const survivalRows = React.useMemo(() => bundle?.survivalRaw ?? [], [bundle])
   const monthlySectorOptions = React.useMemo(() => buildMonthlySectorOptions(bundle?.monthlyLookups ?? null), [bundle])
+  const enterpriseWorkerClassOptions = React.useMemo(() => buildWorkerClassOptions(bundle?.enterpriseLookups ?? null), [bundle])
   const survivalSectorOptions = React.useMemo(() => buildSurvivalSectorOptions(bundle?.survivalLookups ?? null), [bundle])
   const latestMonthlyLabel = React.useMemo(() => formatLatestPeriod(bundle?.monthlySummary?.latestPeriod), [bundle])
+  const enterpriseAvailableYears = bundle?.monthlySummary?.enterpriseCounts?.availableYears ?? bundle?.enterpriseLookups?.years ?? []
+  const enterpriseSourceUrl = bundle?.monthlySummary?.enterpriseCounts?.sourceUrl ?? bundle?.enterpriseLookups?.sourceUrl
 
   const filteredMonthlyRows = React.useMemo(() => {
     if (monthlyRegion === "1000") {
@@ -754,6 +1052,26 @@ function InnerDashboard() {
         ? aggregateAnnualMetric(filteredYearlyRows, "st")
         : aggregateMonthlyMetric(filteredMonthlyRows, "st", monthlyTimeRange),
     [filteredMonthlyRows, filteredYearlyRows, monthlyTimeRange]
+  )
+
+  const filteredEnterpriseRows = React.useMemo(
+    () => filterEnterpriseRows(enterpriseRows, monthlySector, monthlyRegion, enterpriseWorkerClass),
+    [enterpriseRows, enterpriseWorkerClass, monthlyRegion, monthlySector]
+  )
+
+  const enterpriseContextRows = React.useMemo(
+    () => filterEnterpriseRowsByContext(enterpriseRows, monthlySector, monthlyRegion),
+    [enterpriseRows, monthlyRegion, monthlySector]
+  )
+
+  const enterpriseSeries = React.useMemo(
+    () => aggregateEnterpriseCountsByYear(filteredEnterpriseRows),
+    [filteredEnterpriseRows]
+  )
+
+  const enterpriseNoEmployeeShareSeries = React.useMemo(
+    () => aggregateEnterpriseNoEmployeeShareByYear(enterpriseContextRows),
+    [enterpriseContextRows]
   )
 
   const monthlyCoverageNote = React.useMemo(() => {
@@ -820,7 +1138,8 @@ function InnerDashboard() {
           Meest recente maand: {latestMonthlyLabel ?? "onbekend"}. Per sectie kun je wisselen tussen België en gewest, en tussen jaar-, kwartaal- of maandniveau.
         </p>
         <p className="mt-2">
-          De jaarreeks loopt momenteel tot en met {bundle.monthlySummary.yearlyMaxYear}. Voor 2019-2020 gebruikt Statbel in de maandreeks een DataLab-bron op T+30; vanaf 2021 is dit de offici&euml;le maandreeks op T+45. De overlevingskans hieronder blijft de jaarlijkse survivalreeks.
+          De jaarreeks loopt momenteel tot en met {bundle.monthlySummary.yearlyMaxYear}. Voor 2019-2020 gebruikt Statbel in de maandreeks een DataLab-bron op T+30; vanaf 2021 is dit de offici&euml;le maandreeks op T+45.
+          De sectie <strong>aantal ondernemingen</strong> toont een jaarreeks voor de beschikbare Statbel-jaren ({enterpriseAvailableYears.length > 0 ? formatYearRanges(enterpriseAvailableYears) : "geen data"}), plus een extra grafiek voor het aandeel ondernemingen zonder personeel. De overlevingskans hieronder blijft de jaarlijkse survivalreeks.
         </p>
       </div>
 
@@ -854,6 +1173,20 @@ function InnerDashboard() {
         coverageNote={monthlyCoverageNote}
         slug="starters-stoppers"
         sectionId="stoppers"
+      />
+
+      <EnterpriseCountSection
+        data={enterpriseSeries}
+        noEmployeeShareData={enterpriseNoEmployeeShareSeries}
+        selectedRegion={monthlyRegion}
+        onSelectRegion={setMonthlyRegion}
+        selectedSector={monthlySector}
+        onSelectSector={setMonthlySector}
+        selectedWorkerClass={enterpriseWorkerClass}
+        onSelectWorkerClass={setEnterpriseWorkerClass}
+        sectorOptions={monthlySectorOptions}
+        workerClassOptions={enterpriseWorkerClassOptions}
+        sourceUrl={enterpriseSourceUrl}
       />
 
       <SurvivalSection

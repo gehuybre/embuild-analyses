@@ -5,7 +5,7 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 const metadata = {
   title: "Starters en stoppers",
   date: "2026-03-24",
-  summary: "Analyse van starters, stoppers en overlevingskansen van btw-plichtige ondernemingen, met jaarreeksen per sector en gewest vanaf 2008 en maandreeksen vanaf 2019.",
+  summary: "Analyse van starters, stoppers, aantal ondernemingen en overlevingskansen van btw-plichtige ondernemingen, met jaarreeksen per sector en gewest vanaf 2008 en maandreeksen vanaf 2019.",
   dataAvailabilityLabel: "januari 2026",
   tags: ["economie","ondernemerschap"],
   source: {

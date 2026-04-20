@@ -141,6 +141,12 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         title: "Aantal stoppers",
         component: "StartersStoppersEmbed",
       },
+      enterprises: {
+        type: "custom",
+        title: "Aantal ondernemingen",
+        component: "StartersStoppersEmbed",
+        height: 720,
+      },
       survival: {
         type: "custom",
         title: "Overlevingskans",
