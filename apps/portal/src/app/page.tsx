@@ -11,7 +11,7 @@ interface Analysis {
   date: string
   summary: string
   tags: string[]
-  sourcePublicationDate: string
+  sourcePublicationDate?: string
   url: string
 }
 
