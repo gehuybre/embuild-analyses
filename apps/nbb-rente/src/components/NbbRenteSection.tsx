@@ -81,6 +81,11 @@ export function NbbRenteSection({
       periodCells: [formatPeriod(point.period, "MMMM yyyy")],
     }))
   }, [data])
+  const latestPeriodLabel =
+    metadata.latestPeriodLabel || stats.latestLabel || formatPeriod(metadata.latestPeriod, "MMMM yyyy")
+  const description =
+    metadata.description ||
+    `Reeks voor huishoudens, nieuwe contracten, woningkredieten en een initiële rentevaste periode van meer dan 10 jaar. Meest recente observatie: ${latestPeriodLabel}.`
 
   return (
     <TimeSeriesSection
@@ -92,10 +97,7 @@ export function NbbRenteSection({
       defaultView={defaultView}
       headerContent={
         <div className="space-y-4">
-          <p className="text-sm text-muted-foreground">
-            Reeks voor huishoudens, nieuwe contracten, woningkredieten en een initiële rentevaste periode van meer dan 10 jaar.
-            Meest recente observatie: {stats.latestLabel || formatPeriod(metadata.latestPeriod, "MMMM yyyy")}.
-          </p>
+          <p className="text-sm text-muted-foreground">{description}</p>
 
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             <Card>

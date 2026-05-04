@@ -10,12 +10,14 @@ export interface NbbRenteMetadata {
   sourceUrl: string
   sourcePublicationDate: string
   latestPeriod: string
+  latestPeriodLabel?: string
   latestRate: number
   minRate: number
   maxRate: number
   observationCount: number
   fetchedAt: string
   responseSha256: string
+  description?: string
   series: {
     frequency: string
     item: string
@@ -75,8 +77,10 @@ export interface InflationForecastMetadata {
   comparableForecastMonths: string[]
   comparableForecastLabels: string[]
   comparableForecastCount: number
+  excludedForecastLabels?: string[]
   comparisonPeriodStart: string | null
   comparisonPeriodEnd: string | null
   fetchedAt: string
   responseSha256: string
+  description?: string
 }

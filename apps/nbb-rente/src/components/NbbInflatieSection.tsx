@@ -257,6 +257,17 @@ export function NbbInflatieSection({
   const comparisonLabelText = useMemo(() => {
     return joinLabels(comparisonForecasts.map((forecast) => forecast.forecastLabel))
   }, [comparisonForecasts])
+  const description =
+    metadata.description ||
+    `Het Federaal Planbureau publiceert elke maand een nieuwe inflatieprognose. Deze vergelijking toont ${
+      comparisonLabelText || metadata.latestForecastLabel
+    } op basis van ${metadata.comparableBaseIndexLabel.toLowerCase()}.${
+      latestForecast ? ` Laatste update: ${formatDate(latestForecast.sourcePublicationDate)}.` : ""
+    }${
+      excludedForecasts.length > 0
+        ? ` Prognoses met een andere indexbasis, zoals ${joinLabels(excludedForecasts.map((forecast) => forecast.forecastLabel))}, worden niet meegetoond.`
+        : ""
+    }`
 
   return (
     <TimeSeriesSection
@@ -268,15 +279,7 @@ export function NbbInflatieSection({
       defaultView={defaultView}
       headerContent={
         <div className="space-y-4">
-          <p className="text-sm text-muted-foreground">
-            Het Federaal Planbureau publiceert elke maand een nieuwe inflatieprognose. Deze vergelijking toont{" "}
-            {comparisonLabelText || metadata.latestForecastLabel} op basis van{" "}
-            {metadata.comparableBaseIndexLabel.toLowerCase()}.
-            {latestForecast ? ` Laatste update: ${formatDate(latestForecast.sourcePublicationDate)}.` : ""}
-            {excludedForecasts.length > 0
-              ? ` Prognoses met een andere indexbasis, zoals ${joinLabels(excludedForecasts.map((forecast) => forecast.forecastLabel))}, worden niet meegetoond.`
-              : ""}
-          </p>
+          <p className="text-sm text-muted-foreground">{description}</p>
 
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             <Card>

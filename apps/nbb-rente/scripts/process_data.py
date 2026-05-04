@@ -349,6 +349,26 @@ def format_month_year_label(year: int, month: int) -> str:
     return f"{DUTCH_MONTHS[month]} {year}"
 
 
+def format_period_label(period: str) -> str:
+    year, month = (int(part) for part in period.split("-", 1))
+    return format_month_year_label(year, month)
+
+
+def format_dutch_date(iso_date: str) -> str:
+    year, month, day = (int(part) for part in iso_date.split("-", 2))
+    return f"{day} {DUTCH_MONTHS[month]} {year}"
+
+
+def join_dutch_labels(labels: list[str]) -> str:
+    if len(labels) <= 1:
+        return labels[0] if labels else ""
+
+    if len(labels) == 2:
+        return f"{labels[0]} en {labels[1]}"
+
+    return f"{', '.join(labels[:-1])} en {labels[-1]}"
+
+
 def extract_square_bracket_date(title: str) -> str | None:
     match = re.search(r"\[(\d{2})/(\d{2})/(\d{4})\]", title)
     if not match:
@@ -444,6 +464,7 @@ def parse_inflation_workbook(
     latest_forecast_month = str(latest_forecast["forecastMonth"])
     latest_forecast_year = int(latest_forecast["forecastYear"])
     latest_base_label = str(latest_forecast["cpiIndexLabel"])
+    latest_source_publication_date = str(latest_forecast["sourcePublicationDate"])
 
     comparable_forecasts = [
         forecast
@@ -462,6 +483,29 @@ def parse_inflation_workbook(
             if point.get("period")
         }
     )
+    comparable_labels = [
+        str(forecast["forecastLabel"]) for forecast in comparable_forecasts
+    ]
+    excluded_labels = [
+        str(forecast["forecastLabel"])
+        for forecast in forecasts
+        if (
+            int(forecast["forecastYear"]) == latest_forecast_year
+            and str(forecast["cpiIndexLabel"]) != latest_base_label
+        )
+    ]
+
+    description = (
+        "Het Federaal Planbureau publiceert elke maand een nieuwe inflatieprognose. "
+        f"Deze vergelijking toont {join_dutch_labels(comparable_labels)} op basis van "
+        f"{latest_base_label.lower()}. Laatste update: "
+        f"{format_dutch_date(latest_source_publication_date)}."
+    )
+    if excluded_labels:
+        description = (
+            f"{description} Prognoses met een andere indexbasis, zoals "
+            f"{join_dutch_labels(excluded_labels)}, worden niet meegetoond."
+        )
 
     metadata = {
         "sourceProvider": "Federaal Planbureau",
@@ -471,18 +515,18 @@ def parse_inflation_workbook(
         "workbookLastModified": response_headers.get("last-modified"),
         "latestForecastMonth": latest_forecast_month,
         "latestForecastLabel": latest_forecast["forecastLabel"],
-        "latestSourcePublicationDate": latest_forecast["sourcePublicationDate"],
+        "latestSourcePublicationDate": latest_source_publication_date,
         "forecastCount": len(forecasts),
         "comparableBaseIndexLabel": latest_base_label,
         "comparableForecastMonths": [
             forecast["forecastMonth"] for forecast in comparable_forecasts
         ],
-        "comparableForecastLabels": [
-            forecast["forecastLabel"] for forecast in comparable_forecasts
-        ],
+        "comparableForecastLabels": comparable_labels,
         "comparableForecastCount": len(comparable_forecasts),
+        "excludedForecastLabels": excluded_labels,
         "comparisonPeriodStart": comparable_periods[0] if comparable_periods else None,
         "comparisonPeriodEnd": comparable_periods[-1] if comparable_periods else None,
+        "description": description,
     }
 
     return forecasts, metadata
@@ -566,9 +610,15 @@ def build_nbb_metadata(
 
     latest_point = points[-1]
     latest_period = str(latest_point["period"])
+    latest_period_label = format_period_label(latest_period)
     latest_rate = float(latest_point["rate"])
     publication_date = month_end_iso(latest_period)
     rates = [float(point["rate"]) for point in points]
+    description = (
+        "Reeks voor huishoudens, nieuwe contracten, woningkredieten en een "
+        "initiële rentevaste periode van meer dan 10 jaar. "
+        f"Meest recente observatie: {latest_period_label}."
+    )
 
     metadata = {
         "sourceProvider": "Nationale Bank van België (NBB)",
@@ -576,12 +626,14 @@ def build_nbb_metadata(
         "sourceUrl": SERIES_URL,
         "sourcePublicationDate": publication_date,
         "latestPeriod": latest_period,
+        "latestPeriodLabel": latest_period_label,
         "latestRate": latest_rate,
         "minRate": min(rates),
         "maxRate": max(rates),
         "observationCount": len(points),
         "fetchedAt": fetched_at,
         "responseSha256": response_sha256,
+        "description": description,
         "series": {
             "frequency": "M",
             "item": "R_N",
