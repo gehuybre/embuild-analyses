@@ -6,6 +6,7 @@ from __future__ import annotations
 import calendar
 import csv
 import hashlib
+import html
 import json
 import os
 import re
@@ -15,6 +16,7 @@ import sys
 import tempfile
 import zipfile
 from datetime import UTC, date, datetime, timedelta
+from html.parser import HTMLParser
 from io import BytesIO
 from pathlib import Path
 from urllib.error import HTTPError, URLError
@@ -51,7 +53,7 @@ SERIES_URL = (
     f"?startPeriod={START_PERIOD}&dimensionAtObservation=AllDimensions"
 )
 
-INFLATION_SOURCE_URL = "https://www.plan.be/en/data/consumer-price-index-inflation-forecasts"
+INFLATION_SOURCE_URL = "https://www.plan.be/nl/data/indexcijfer-der-consumptieprijzen"
 INFLATION_WORKBOOK_URL = "https://www.plan.be/sites/default/files/documents/DATA_FOR_InflationHistory.xlsx"
 
 NS = {
@@ -170,6 +172,14 @@ def fetch_inflation_workbook() -> tuple[bytes, dict[str, str]]:
     return fetch_bytes(
         INFLATION_WORKBOOK_URL,
         accept="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/octet-stream;q=0.9",
+        user_agent="data-blog-inflation-forecast/1.0",
+    )
+
+
+def fetch_inflation_source_page() -> tuple[bytes, dict[str, str]]:
+    return fetch_bytes(
+        INFLATION_SOURCE_URL,
+        accept="text/html, application/xhtml+xml;q=0.9",
         user_agent="data-blog-inflation-forecast/1.0",
     )
 
@@ -367,6 +377,86 @@ def join_dutch_labels(labels: list[str]) -> str:
         return f"{labels[0]} en {labels[1]}"
 
     return f"{', '.join(labels[:-1])} en {labels[-1]}"
+
+
+class BlockTextParser(HTMLParser):
+    BLOCK_TAGS = {"h1", "h2", "p", "li"}
+
+    def __init__(self) -> None:
+        super().__init__()
+        self.blocks: list[tuple[str, str]] = []
+        self.current_tag: str | None = None
+        self.current_parts: list[str] = []
+
+    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
+        if tag in self.BLOCK_TAGS and self.current_tag is None:
+            self.current_tag = tag
+            self.current_parts = []
+        elif tag == "br" and self.current_tag is not None:
+            self.current_parts.append(" ")
+
+    def handle_data(self, data: str) -> None:
+        if self.current_tag is not None:
+            self.current_parts.append(data)
+
+    def handle_endtag(self, tag: str) -> None:
+        if tag != self.current_tag:
+            return
+
+        text = normalize_text("".join(self.current_parts))
+        if text:
+            self.blocks.append((tag, text))
+        self.current_tag = None
+        self.current_parts = []
+
+
+def normalize_text(value: str) -> str:
+    return " ".join(html.unescape(value).split())
+
+
+def collect_section_items(blocks: list[tuple[str, str]], heading: str) -> list[str]:
+    start_index = next(
+        (
+            index
+            for index, (tag, text) in enumerate(blocks)
+            if tag == "h2" and text.lower() == heading.lower()
+        ),
+        None,
+    )
+    if start_index is None:
+        return []
+
+    items: list[str] = []
+    for tag, text in blocks[start_index + 1 :]:
+        if tag == "h2":
+            break
+        if tag in {"p", "li"}:
+            items.append(text)
+
+    return items
+
+
+def parse_inflation_source_page(page_bytes: bytes) -> dict[str, object]:
+    parser = BlockTextParser()
+    parser.feed(page_bytes.decode("utf-8", errors="replace"))
+
+    title = next(
+        (
+            text
+            for tag, text in parser.blocks
+            if tag == "h1" and "Inflatievooruitzichten" in text
+        ),
+        None,
+    )
+
+    next_update_items = collect_section_items(parser.blocks, "Volgende update")
+    return {
+        "title": title,
+        "publicationDate": extract_square_bracket_date(title or ""),
+        "inflationOutlook": collect_section_items(parser.blocks, "Inflatievooruitzichten"),
+        "pivotalIndex": collect_section_items(parser.blocks, "Spilindex"),
+        "nextUpdate": next_update_items[0] if next_update_items else None,
+    }
 
 
 def extract_square_bracket_date(title: str) -> str | None:
@@ -663,20 +753,28 @@ def build_inflation_metadata(
     metadata: dict[str, object],
     workbook_bytes: bytes,
     response_headers: dict[str, str],
+    source_page_bytes: bytes,
+    source_page_headers: dict[str, str],
+    source_page_summary: dict[str, object],
 ) -> tuple[dict[str, object], dict[str, object]]:
     response_sha256 = hashlib.sha256(workbook_bytes).hexdigest()
+    source_page_sha256 = hashlib.sha256(source_page_bytes).hexdigest()
     fetched_at = datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     metadata_payload = {
         **metadata,
+        "sourcePage": source_page_summary,
         "fetchedAt": fetched_at,
         "responseSha256": response_sha256,
+        "sourcePageSha256": source_page_sha256,
     }
 
     latest_forecast = forecasts[-1]
     remote_metadata = {
         "landing_url": INFLATION_SOURCE_URL,
         "download_url": INFLATION_WORKBOOK_URL,
+        "landing_last_modified": source_page_headers.get("last-modified"),
+        "landing_response_sha256": source_page_sha256,
         "workbook_last_modified": response_headers.get("last-modified"),
         "latest_forecast_month": latest_forecast["forecastMonth"],
         "latest_source_publication_date": latest_forecast["sourcePublicationDate"],
@@ -722,6 +820,7 @@ def main() -> int:
     try:
         xml_bytes = fetch_xml(SERIES_URL)
         inflation_workbook_bytes, inflation_headers = fetch_inflation_workbook()
+        inflation_source_page_bytes, inflation_source_page_headers = fetch_inflation_source_page()
     except (HTTPError, URLError, TimeoutError, OSError, subprocess.CalledProcessError) as exc:
         print(f"Failed to fetch remote data: {exc}", file=sys.stderr)
         return 1
@@ -739,6 +838,7 @@ def main() -> int:
     except (ValueError, KeyError, zipfile.BadZipFile, ET.ParseError) as exc:
         print(f"Failed to parse inflation workbook: {exc}", file=sys.stderr)
         return 1
+    inflation_source_page_summary = parse_inflation_source_page(inflation_source_page_bytes)
 
     nbb_metadata, nbb_remote_metadata = build_nbb_metadata(nbb_points, xml_bytes)
     inflation_metadata, inflation_remote_metadata = build_inflation_metadata(
@@ -746,6 +846,9 @@ def main() -> int:
         inflation_metadata_base,
         inflation_workbook_bytes,
         inflation_headers,
+        inflation_source_page_bytes,
+        inflation_source_page_headers,
+        inflation_source_page_summary,
     )
 
     write_json(SERIES_FILE, nbb_points)

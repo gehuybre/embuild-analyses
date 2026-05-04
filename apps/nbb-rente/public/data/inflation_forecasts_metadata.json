@@ -1,7 +1,7 @@
 {
   "sourceProvider": "Federaal Planbureau",
   "sourceTitle": "Consumptieprijsindex - inflatievooruitzichten",
-  "sourceUrl": "https://www.plan.be/en/data/consumer-price-index-inflation-forecasts",
+  "sourceUrl": "https://www.plan.be/nl/data/indexcijfer-der-consumptieprijzen",
   "sourceDownloadUrl": "https://www.plan.be/sites/default/files/documents/DATA_FOR_InflationHistory.xlsx",
   "workbookLastModified": "Tue, 07 Apr 2026 11:41:26 GMT",
   "latestForecastMonth": "2026-04",
@@ -26,6 +26,20 @@
   "comparisonPeriodStart": "2026-01",
   "comparisonPeriodEnd": "2027-12",
   "description": "Het Federaal Planbureau publiceert elke maand een nieuwe inflatieprognose. Deze vergelijking toont februari 2026, maart 2026 en april 2026 op basis van index (2025=100). Laatste update: 7 april 2026. Prognoses met een andere indexbasis, zoals januari 2026, worden niet meegetoond.",
-  "fetchedAt": "2026-05-04T21:43:42Z",
-  "responseSha256": "b232acc6d1758e1658616c97e0bbc36be54d284d363445afe8450f6b0ce31d48"
+  "sourcePage": {
+    "title": "Indexcijfer der consumptieprijzen - Inflatievooruitzichten [07/04/2026]",
+    "publicationDate": "2026-04-07",
+    "inflationOutlook": [
+      "Inflatie: gemiddeld 3.2% in 2026 en 2.9% in 2027, tegenover 2,47% in 2025 en 3,14% in 2024.",
+      "Groei van de gezondheidsindex: gemiddeld 3.0% in 2026 en 3.1% in 2027, tegenover 2,63% in 2025 en 3,28% in 2024."
+    ],
+    "pivotalIndex": [
+      "De volgende overschrijding van de spilindex (100,28, basisjaar 2025) zou plaatsvinden in juli 2026. Als gevolg daarvan zouden de sociale uitkeringen en de wedden van het overheidspersoneel in oktober 2026 geïndexeerd worden. Aangezien die indexering zal worden berekend overeenkomstig de modaliteiten van de maatregel 'centenindex', zal het indexeringspercentage van 2% slechts toegepast worden op de schijf tot 2000 euro bruto per maand voor de sociale uitkeringen en op de schijf tot 4000 euro bruto per maand voor de overheidswedden.",
+      "De daaropvolgende spilindexen (102,29 en 104,34, basisjaar 2025) worden respectievelijk overschreden in december 2026 en november 2027."
+    ],
+    "nextUpdate": "5 mei 2026 om 14u."
+  },
+  "fetchedAt": "2026-05-04T21:55:02Z",
+  "responseSha256": "b232acc6d1758e1658616c97e0bbc36be54d284d363445afe8450f6b0ce31d48",
+  "sourcePageSha256": "273129bae5f2887c3695a8eafe91eb26a16118ae5f76712a7e28352b5597e50b"
 }

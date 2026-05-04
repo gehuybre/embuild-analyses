@@ -4,18 +4,20 @@
     "latest_period": "2026-02",
     "source_publication_date": "2026-02-28",
     "latest_rate": 3.35,
-    "response_sha256": "debd9673c33fca62389c83c4b4e3d5e92f55eb97a25b872070c19ac5c48a70be",
-    "fetched_at": "2026-05-04T21:43:42Z",
+    "response_sha256": "94bd5485309ff5933d7b471cab6dd8aee8d6c3ff6e41365385d9e446ac28e819",
+    "fetched_at": "2026-05-04T21:55:02Z",
     "observation_count": 134
   },
   "inflation_forecasts": {
-    "landing_url": "https://www.plan.be/en/data/consumer-price-index-inflation-forecasts",
+    "landing_url": "https://www.plan.be/nl/data/indexcijfer-der-consumptieprijzen",
     "download_url": "https://www.plan.be/sites/default/files/documents/DATA_FOR_InflationHistory.xlsx",
+    "landing_last_modified": "Mon, 04 May 2026 09:22:13 GMT",
+    "landing_response_sha256": "273129bae5f2887c3695a8eafe91eb26a16118ae5f76712a7e28352b5597e50b",
     "workbook_last_modified": "Tue, 07 Apr 2026 11:41:26 GMT",
     "latest_forecast_month": "2026-04",
     "latest_source_publication_date": "2026-04-07",
     "response_sha256": "b232acc6d1758e1658616c97e0bbc36be54d284d363445afe8450f6b0ce31d48",
-    "fetched_at": "2026-05-04T21:43:42Z",
+    "fetched_at": "2026-05-04T21:55:02Z",
     "forecast_count": 12
   }
 }

@@ -102,6 +102,29 @@ function ForecastLegend({
   )
 }
 
+function SourcePageSummary({
+  title,
+  items,
+}: {
+  title: string
+  items: string[]
+}) {
+  if (items.length === 0) {
+    return null
+  }
+
+  return (
+    <div className="space-y-2">
+      <h3 className="text-sm font-semibold">{title}</h3>
+      <ul className="space-y-2 text-sm text-muted-foreground">
+        {items.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
+    </div>
+  )
+}
+
 export function NbbInflatieSection({
   forecasts,
   metadata,
@@ -280,6 +303,21 @@ export function NbbInflatieSection({
       headerContent={
         <div className="space-y-4">
           <p className="text-sm text-muted-foreground">{description}</p>
+
+          {metadata.sourcePage ? (
+            <div className="rounded-md border bg-muted/20 p-4">
+              <div className="grid gap-4 lg:grid-cols-3">
+                <SourcePageSummary title="Inflatievooruitzichten" items={metadata.sourcePage.inflationOutlook} />
+                <SourcePageSummary title="Spilindex" items={metadata.sourcePage.pivotalIndex} />
+                {metadata.sourcePage.nextUpdate ? (
+                  <div className="space-y-2">
+                    <h3 className="text-sm font-semibold">Volgende update</h3>
+                    <p className="text-sm text-muted-foreground">{metadata.sourcePage.nextUpdate}</p>
+                  </div>
+                ) : null}
+              </div>
+            </div>
+          ) : null}
 
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             <Card>

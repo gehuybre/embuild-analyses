@@ -63,6 +63,14 @@ export interface InflationForecast {
   annualPoints: InflationForecastAnnualPoint[]
 }
 
+export interface InflationSourcePage {
+  title: string | null
+  publicationDate: string | null
+  inflationOutlook: string[]
+  pivotalIndex: string[]
+  nextUpdate: string | null
+}
+
 export interface InflationForecastMetadata {
   sourceProvider: string
   sourceTitle: string
@@ -82,5 +90,7 @@ export interface InflationForecastMetadata {
   comparisonPeriodEnd: string | null
   fetchedAt: string
   responseSha256: string
+  sourcePageSha256?: string
   description?: string
+  sourcePage?: InflationSourcePage
 }
