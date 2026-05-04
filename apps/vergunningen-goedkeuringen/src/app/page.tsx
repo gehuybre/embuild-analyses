@@ -12,7 +12,7 @@ const metadata = {
     provider: "Statbel",
     title: "Bouwvergunningen per gemeente",
     url: "https://statbel.fgov.be/nl/themas/bouwen-wonen/bouwvergunningen",
-    publicationDate: "2026-04-01",
+    publicationDate: "2026-04-30",
   },
 }
 

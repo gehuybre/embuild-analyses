@@ -5,6 +5,7 @@ Outputs JSON files to public/data/ for the Next.js frontend.
 """
 
 import json
+import hashlib
 import os
 import shutil
 import subprocess
@@ -20,6 +21,18 @@ DATA_DIR = APP_DIR / "data"
 OUTPUT_DIR = APP_DIR / "public" / "data"
 
 INPUT_URL = os.environ.get("INPUT_URL") or os.environ.get("BV_DATA_URL")
+REMOTE_METADATA_PATH = DATA_DIR / ".remote_metadata.json"
+
+
+def write_remote_metadata(url: str, headers: dict, sha: str) -> None:
+    DATA_DIR.mkdir(parents=True, exist_ok=True)
+    metadata = {
+        "url": url,
+        "etag": headers.get("etag") or headers.get("ETag"),
+        "last_modified": headers.get("last-modified") or headers.get("Last-Modified"),
+        "sha256": sha,
+    }
+    REMOTE_METADATA_PATH.write_text(json.dumps(metadata, indent=2), encoding="utf-8")
 
 
 def reset_dir(path: Path) -> None:
@@ -63,10 +76,13 @@ def download_file(url: str, dest: Path) -> None:
                 ct = r.headers.get("content-type", "")
                 if "text/html" in ct:
                     raise ValueError(f"Server returned HTML (content-type: {ct})")
+                digest = hashlib.sha256()
                 with open(dest, "wb") as f:
                     for chunk in r.iter_content(chunk_size=8192):
                         if chunk:
                             f.write(chunk)
+                            digest.update(chunk)
+                write_remote_metadata(url, r.headers, digest.hexdigest())
             return
         except (requests.RequestException, IOError, ValueError) as e:
             print(f"Attempt {attempt} failed: {e}")
@@ -82,6 +98,8 @@ def download_file(url: str, dest: Path) -> None:
     )
     if result.returncode != 0:
         raise RuntimeError(f"All download methods failed. curl: {result.stderr}")
+    digest = hashlib.sha256(dest.read_bytes()).hexdigest()
+    write_remote_metadata(url, {}, digest)
 
 
 def validate_download(path: Path) -> None:

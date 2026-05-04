@@ -58,9 +58,9 @@ jobs:
           fi
 
           mkdir -p "$(dirname "${META_FILE}")"
-          headers="$(curl -sI "${INPUT_URL}" || true)"
-          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk -F': ' '/^ETag:/ {print $2}' | tr -d '\r"')"
-          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk -F': ' '/^Last-Modified:/ {print substr($0,index($0,$2)) }' | tr -d '\r')"
+          headers="$(curl -fsSLI --retry 3 --retry-delay 5 "${INPUT_URL}" || true)"
+          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk -F': ' 'tolower($1)=="etag" {print $2}' | tail -n1 | tr -d '\r"')"
+          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk -F': ' 'tolower($1)=="last-modified" {print substr($0,index($0,$2)) }' | tail -n1 | tr -d '\r')"
 
           set +e
           python scripts/check_remote_metadata.py
@@ -96,23 +96,6 @@ jobs:
           test -n "$(find "${data_dir}/yearly" -mindepth 1 -type f -print -quit)" || { echo "No yearly files"; exit 1; }
           test -n "$(find "${data_dir}/municipality" -mindepth 1 -type f -print -quit)" || { echo "No municipality files"; exit 1; }
           echo "✓ All outputs verified"
-
-      - name: Update remote metadata
-        if: steps.check_remote.outputs.changed == 'true'
-        run: |
-          set -euo pipefail
-          headers="$(curl -sI "${INPUT_URL}" || true)"
-          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk -F': ' '/^ETag:/ {print $2}' | tr -d '\r"')"
-          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk -F': ' '/^Last-Modified:/ {print substr($0,index($0,$2)) }' | tr -d '\r')"
-
-          download_path="${APP_ROOT}/data/$(basename "${INPUT_URL}")"
-          if [ -f "${download_path}" ]; then
-            export sha="$(sha256sum "${download_path}" | awk '{print $1}')"
-          else
-            export sha=""
-          fi
-
-          python scripts/save_remote_metadata.py
 
       - name: Update source publication date
         if: steps.check_remote.outputs.changed == 'true'

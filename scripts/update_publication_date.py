@@ -19,6 +19,13 @@ DUTCH_MONTHS = {
 FRONTMATTER_RE = re.compile(r'^---\n(.*?)\n---\n?', re.DOTALL)
 PAGE_DATE_RE = re.compile(r'^(\s*date:\s*)"([^"]+)"', re.MULTILINE)
 PAGE_PUBLICATION_DATE_RE = re.compile(r'^(\s*publicationDate:\s*)"([^"]+)"', re.MULTILINE)
+REQUEST_HEADERS = {
+    'User-Agent': (
+        'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) '
+        'AppleWebKit/537.36 (KHTML, like Gecko) '
+        'Chrome/122.0.0.0 Safari/537.36'
+    )
+}
 
 
 def fetch_publication_date(url: str) -> str | None:
@@ -29,15 +36,16 @@ def fetch_publication_date(url: str) -> str | None:
     Returns date in ISO format (YYYY-MM-DD) or None if not found.
     """
     try:
-        response = requests.get(url, timeout=30)
+        response = requests.get(url, headers=REQUEST_HEADERS, timeout=30)
         response.raise_for_status()
         html = response.text
+        text = re.sub(r'<[^>]+>', ' ', html)
 
         # Pattern for Dutch date format: "1 december 2025" or "16 oktober 2025"
         # Look for dates in article headers, news items, or metadata
         date_pattern = r'(\d{1,2})\s+(januari|februari|maart|april|mei|juni|juli|augustus|september|oktober|november|december)\s+(\d{4})'
 
-        matches = re.findall(date_pattern, html, re.IGNORECASE)
+        matches = re.findall(date_pattern, text, re.IGNORECASE)
 
         if not matches:
             print(f"No publication date found on {url}")
