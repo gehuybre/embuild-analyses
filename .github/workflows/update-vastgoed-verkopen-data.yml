@@ -8,14 +8,6 @@ on:
   schedule:
     - cron: "30 4 3 * *"
   workflow_dispatch: {}
-  push:
-    paths:
-      - apps/vastgoed-verkopen/data/**
-      - apps/vastgoed-verkopen/scripts/**
-      - scripts/check_remote_metadata.py
-      - scripts/update_analysis_data_status.py
-      - scripts/update_publication_date.py
-      - .github/workflows/update-vastgoed-verkopen-data.yml
 
 permissions:
   actions: write
