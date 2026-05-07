@@ -17,13 +17,13 @@ import math
 import os
 import re
 import shutil
+import subprocess
 import zipfile
 from pathlib import Path
 from typing import Iterable
 from urllib.parse import unquote, urlparse
 
 import pandas as pd
-import requests
 
 SCRIPT_DIR = Path(__file__).resolve().parent
 BASE_DIR = SCRIPT_DIR.parent
@@ -60,6 +60,11 @@ DEFAULT_INPUT_FILENAME = Path(DEFAULT_INPUT_URL).name
 
 TARGET_CHUNK_SIZE_MB = 3
 BYTES_PER_MB = 1024 * 1024
+USER_AGENT = (
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
+    "AppleWebKit/537.36 (KHTML, like Gecko) "
+    "Chrome/122.0.0.0 Safari/537.36"
+)
 
 # Property types mapping (short codes)
 PROPERTY_TYPES = {
@@ -219,12 +224,46 @@ def reset_generated_dir(path: Path) -> None:
     path.mkdir(parents=True, exist_ok=True)
 
 
-def write_remote_metadata(url: str, response: requests.Response, content: bytes) -> None:
+def fetch_remote_headers(url: str) -> dict[str, str]:
+    result = subprocess.run(
+        [
+            "curl",
+            "-sSIL",
+            "--fail",
+            "--connect-timeout",
+            "20",
+            "--max-time",
+            "60",
+            "--retry",
+            "3",
+            "--retry-delay",
+            "3",
+            "-A",
+            USER_AGENT,
+            url,
+        ],
+        check=True,
+        capture_output=True,
+        text=True,
+        timeout=120,
+    )
+    headers: dict[str, str] = {}
+    for line in result.stdout.splitlines():
+        if ":" not in line:
+            continue
+        key, value = line.split(":", 1)
+        key = key.strip().lower()
+        if key in {"etag", "last-modified"}:
+            headers[key] = value.strip()
+    return headers
+
+
+def write_remote_metadata(url: str, headers: dict[str, str], content: bytes) -> None:
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     payload = {
         "url": url,
-        "etag": response.headers.get("etag"),
-        "last_modified": response.headers.get("last-modified"),
+        "etag": headers.get("etag"),
+        "last_modified": headers.get("last-modified"),
         "sha256": hashlib.sha256(content).hexdigest(),
     }
     REMOTE_METADATA_FILE.write_text(json.dumps(payload, indent=2), encoding="utf-8")
@@ -233,24 +272,36 @@ def write_remote_metadata(url: str, response: requests.Response, content: bytes)
 def download_input_file(url: str, dest: Path, *, update_metadata: bool = True) -> Path:
     """Download an input file from the given URL."""
     dest.parent.mkdir(parents=True, exist_ok=True)
-    headers = {
-        "User-Agent": (
-            "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/122.0.0.0 Safari/537.36"
-        )
-    }
-    with requests.get(url, headers=headers, stream=True, timeout=180) as response:
-        response.raise_for_status()
-        chunks: list[bytes] = []
-        with open(dest, "wb") as file_handle:
-            for chunk in response.iter_content(chunk_size=8192):
-                if not chunk:
-                    continue
-                file_handle.write(chunk)
-                chunks.append(chunk)
-        if update_metadata:
-            write_remote_metadata(url, response, b"".join(chunks))
+    subprocess.run(
+        [
+            "curl",
+            "-sSL",
+            "--fail",
+            "--connect-timeout",
+            "20",
+            "--max-time",
+            "180",
+            "--retry",
+            "3",
+            "--retry-delay",
+            "3",
+            "-A",
+            USER_AGENT,
+            "-o",
+            str(dest),
+            url,
+        ],
+        check=True,
+        timeout=240,
+    )
+    content = dest.read_bytes()
+    if not content:
+        raise RuntimeError(f"Downloaded empty source file: {url}")
+    if dest.suffix.lower() == ".xlsx" and not content.startswith(b"PK"):
+        sample = content[:120].decode("utf-8", errors="replace")
+        raise RuntimeError(f"Downloaded source is not an XLSX file: {url} ({sample!r})")
+    if update_metadata:
+        write_remote_metadata(url, fetch_remote_headers(url), content)
     return dest
 
 
