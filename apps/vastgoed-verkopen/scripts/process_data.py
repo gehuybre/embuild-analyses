@@ -275,7 +275,7 @@ def download_input_file(url: str, dest: Path, *, update_metadata: bool = True) -
     """Download an input file from the given URL."""
     dest.parent.mkdir(parents=True, exist_ok=True)
     cookie_file = dest.parent / ".statbel_cookies.txt"
-    subprocess.run(
+    preflight = subprocess.run(
         [
             "curl",
             "-sSIL",
@@ -296,11 +296,13 @@ def download_input_file(url: str, dest: Path, *, update_metadata: bool = True) -
             str(cookie_file),
             url,
         ],
-        check=True,
+        check=False,
         capture_output=True,
         text=True,
         timeout=120,
     )
+    if preflight.returncode != 0:
+        print(f"Warning: Statbel preflight failed for {url}; trying direct download.")
     subprocess.run(
         [
             "curl",
