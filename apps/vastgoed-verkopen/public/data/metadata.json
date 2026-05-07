@@ -1,11 +1,18 @@
 {
-  "source_url": "https://statbel.fgov.be/sites/default/files/files/opendata/immo/vastgoed_2010_9999.xlsx",
+  "source_url": "https://statbel.fgov.be/sites/default/files/files/documents/Bouwen%20%26%20wonen/2.1%20Vastgoedprijzen/NM/NL_immo_statbel_kwartaal_per_gemeente.xlsx",
   "source_page_url": "https://statbel.fgov.be/nl/themas/bouwen-wonen/vastgoedprijzen",
   "source_open_data_url": "https://statbel.fgov.be/sites/default/files/files/opendata/immo/vastgoed_2010_9999.xlsx",
   "source_direct_municipality_url": "https://statbel.fgov.be/sites/default/files/files/documents/Bouwen%20%26%20wonen/2.1%20Vastgoedprijzen/NM/NL_immo_statbel_kwartaal_per_gemeente.xlsx",
+  "source_document_export_urls": [
+    "https://statbel.fgov.be/sites/default/files/files/documents/Bouwen%20%26%20wonen/2.1%20Vastgoedprijzen/NM/NL_immo_statbel_jaar.xlsx",
+    "https://statbel.fgov.be/sites/default/files/files/documents/Bouwen%20%26%20wonen/2.1%20Vastgoedprijzen/NM/NL_immo_statbel_kwartaal_Belgie.xlsx",
+    "https://statbel.fgov.be/sites/default/files/files/documents/Bouwen%20%26%20wonen/2.1%20Vastgoedprijzen/NM/NL_immo_statbel_kwartaal_per_gewest.xlsx",
+    "https://statbel.fgov.be/sites/default/files/files/documents/Bouwen%20%26%20wonen/2.1%20Vastgoedprijzen/NM/NL_immo_statbel_kwartaal_per_provincie.xlsx",
+    "https://statbel.fgov.be/sites/default/files/files/documents/Bouwen%20%26%20wonen/2.1%20Vastgoedprijzen/NM/NL_immo_statbel_kwartaal_per_gemeente.xlsx"
+  ],
   "open_data_page_url": "https://statbel.fgov.be/nl/open-data/verkopen-vastgoed-volgens-aard-de-verkoopsakte-belgie",
-  "latest_year": 2024,
-  "latest_date": "2025-09-30",
+  "latest_year": 2025,
+  "latest_date": "2025-12-31",
   "property_types": [
     "huizen_23",
     "huizen_4plus",
@@ -27,47 +34,48 @@
     2021,
     2022,
     2023,
-    2024
+    2024,
+    2025
   ],
   "quarterly_chunks": 6,
-  "total_records": 145908,
-  "records_per_chunk": 25953,
+  "total_records": 148224,
+  "records_per_chunk": 25950,
   "chunks": [
     {
       "index": 0,
       "filename": "quarterly_chunk_0.json",
-      "records": 25953,
-      "size_mb": 2.9961233139038086
+      "records": 25950,
+      "size_mb": 2.9957714080810547
     },
     {
       "index": 1,
       "filename": "quarterly_chunk_1.json",
-      "records": 25953,
-      "size_mb": 2.9934377670288086
+      "records": 25950,
+      "size_mb": 2.9931068420410156
     },
     {
       "index": 2,
       "filename": "quarterly_chunk_2.json",
-      "records": 25953,
-      "size_mb": 2.997694969177246
+      "records": 25950,
+      "size_mb": 2.9973535537719727
     },
     {
       "index": 3,
       "filename": "quarterly_chunk_3.json",
-      "records": 25953,
-      "size_mb": 3.00360107421875
+      "records": 25950,
+      "size_mb": 3.0031967163085938
     },
     {
       "index": 4,
       "filename": "quarterly_chunk_4.json",
-      "records": 25953,
-      "size_mb": 3.007343292236328
+      "records": 25950,
+      "size_mb": 3.0070085525512695
     },
     {
       "index": 5,
       "filename": "quarterly_chunk_5.json",
-      "records": 16143,
-      "size_mb": 1.867746353149414
+      "records": 18474,
+      "size_mb": 2.138644218444824
     }
   ]
 }
