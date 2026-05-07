@@ -272,11 +272,37 @@ def write_remote_metadata(url: str, headers: dict[str, str], content: bytes) -> 
 def download_input_file(url: str, dest: Path, *, update_metadata: bool = True) -> Path:
     """Download an input file from the given URL."""
     dest.parent.mkdir(parents=True, exist_ok=True)
+    cookie_file = dest.parent / ".statbel_cookies.txt"
+    subprocess.run(
+        [
+            "curl",
+            "-sSIL",
+            "--fail",
+            "--connect-timeout",
+            "20",
+            "--max-time",
+            "60",
+            "--retry",
+            "3",
+            "--retry-delay",
+            "3",
+            "-A",
+            USER_AGENT,
+            "-c",
+            str(cookie_file),
+            url,
+        ],
+        check=True,
+        capture_output=True,
+        text=True,
+        timeout=120,
+    )
     subprocess.run(
         [
             "curl",
             "-sSL",
             "--fail",
+            "--compressed",
             "--connect-timeout",
             "20",
             "--max-time",
@@ -287,6 +313,12 @@ def download_input_file(url: str, dest: Path, *, update_metadata: bool = True) -
             "3",
             "-A",
             USER_AGENT,
+            "-H",
+            "Accept: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,*/*",
+            "-b",
+            str(cookie_file),
+            "-c",
+            str(cookie_file),
             "-o",
             str(dest),
             url,
