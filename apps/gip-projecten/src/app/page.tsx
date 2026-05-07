@@ -5,7 +5,7 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 const metadata = {
   title: "Geïntegreerd Investeringsprogramma 2025-2029",
   date: "2025-07-14",
-  summary: "€7,4 miljard investeringen in Vlaamse infrastructuur verdeeld over 774 projecten in mobiliteit, openbare werken, asset management en waterbeheersing.",
+  summary: "€7,51 miljard investeringen voor 2025-2027 uit het Vlaamse GIP, verdeeld over 777 (deel)projecten in mobiliteit, openbare werken, asset management en waterbeheersing.",
   tags: ["infrastructuur","mobiliteit","gip","investering"],
   source: {
     provider: "Vlaamse Regering",

@@ -17,7 +17,7 @@ const geistMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "Geïntegreerd Investeringsprogramma 2025-2029",
-  description: "€7,4 miljard investeringen in Vlaamse infrastructuur verdeeld over 774 projecten in mobiliteit, openbare werken, asset management en waterbeheersing.",
+  description: "€7,51 miljard investeringen voor 2025-2027 uit het Vlaamse GIP, verdeeld over 777 (deel)projecten in mobiliteit, openbare werken, asset management en waterbeheersing.",
 };
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
