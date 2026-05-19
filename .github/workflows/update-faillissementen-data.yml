@@ -6,18 +6,8 @@ concurrency:
 
 on:
   schedule:
-    - cron: "25 4 * * *"
+    - cron: "25 4 1 * *"
   workflow_dispatch: {}
-  push:
-    paths:
-      - apps/faillissementen/data/**
-      - apps/faillissementen/scripts/**
-      - scripts/check_remote_metadata.py
-      - scripts/save_remote_metadata.py
-      - scripts/update_analysis_data_status.py
-      - scripts/update_publication_date.py
-      - scripts/resolve_statbel_bankruptcies_url.py
-      - .github/workflows/update-faillissementen-data.yml
 
 permissions:
   actions: write

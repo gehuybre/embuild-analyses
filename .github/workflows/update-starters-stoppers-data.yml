@@ -8,14 +8,6 @@ on:
   schedule:
     - cron: "35 5 25 * *"
   workflow_dispatch: {}
-  push:
-    paths:
-      - apps/starters-stoppers/data/**
-      - apps/starters-stoppers/scripts/**
-      - apps/starters-stoppers/src/app/page.tsx
-      - .github/workflows/update-starters-stoppers-data.yml
-      - scripts/update_analysis_data_status.py
-      - scripts/update_publication_date.py
 
 permissions:
   actions: write

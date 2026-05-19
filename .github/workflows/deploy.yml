@@ -76,33 +76,6 @@ jobs:
           node-version: "20"
           cache: pnpm
 
-      - name: Restore Turborepo cache
-        uses: actions/cache/restore@v4
-        with:
-          path: .turbo/cache
-          key: turbo-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ github.sha }}
-          restore-keys: |
-            turbo-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}-
-            turbo-${{ runner.os }}-
-
-      - name: Restore cached app outputs
-        uses: actions/cache/restore@v4
-        with:
-          path: apps/**/out
-          key: app-outs-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-${{ github.sha }}
-          restore-keys: |
-            app-outs-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-
-            app-outs-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-
-
-      - name: Restore Next.js build cache
-        uses: actions/cache/restore@v4
-        with:
-          path: apps/**/.next/cache
-          key: next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-${{ github.sha }}
-          restore-keys: |
-            next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-
-            next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-
-
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
@@ -123,27 +96,6 @@ jobs:
       - name: Remove files exceeding CF Pages 25MB limit
         run: |
           find dist -size +25M -print -delete
-
-      - name: Save updated app outputs cache
-        uses: actions/cache/save@v4
-        if: always()
-        with:
-          path: apps/**/out
-          key: app-outs-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-${{ github.sha }}
-
-      - name: Save Next.js build cache
-        uses: actions/cache/save@v4
-        if: always()
-        with:
-          path: apps/**/.next/cache
-          key: next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-${{ github.sha }}
-
-      - name: Save Turborepo cache
-        uses: actions/cache/save@v4
-        if: always()
-        with:
-          path: .turbo/cache
-          key: turbo-${{ runner.os }}-${{ hashFiles('**/pnpm-lock.yaml') }}-${{ github.sha }}
 
       - name: Upload dist
         uses: actions/upload-artifact@v4

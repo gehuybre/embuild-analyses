@@ -6,17 +6,9 @@ concurrency:
 
 on:
   schedule:
-    # Official Statbel 2026 release dates for "Bouwvergunningen".
-    # Statbel publishes dates but no hour, so we check hourly on each release day.
-    - cron: '0 * 31 3 *'
-    - cron: '0 * 30 4 *'
-    - cron: '0 * 29 5 *'
-    - cron: '0 * 30 6 *'
-    - cron: '0 * 31 7 *'
-    - cron: '0 * 8 9 *'
-    - cron: '0 * 30 9 *'
-    - cron: '0 * 30 10 *'
-    - cron: '0 * 30 11 *'
+    # Reduced to a single monthly automated run to limit Actions storage churn.
+    # Additional release-day refreshes can be triggered manually via workflow_dispatch.
+    - cron: "0 6 1 * *"
   workflow_dispatch: {}
 
 permissions:
