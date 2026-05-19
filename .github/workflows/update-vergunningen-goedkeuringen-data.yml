@@ -6,6 +6,8 @@ concurrency:
 
 on:
   schedule:
+    # Reduced to a single monthly automated run to limit Actions storage churn.
+    # Additional release-day refreshes can be triggered manually via workflow_dispatch.
     - cron: "0 6 1 * *"
   workflow_dispatch: {}
 
