@@ -8,11 +8,6 @@ on:
   schedule:
     - cron: "10 1 1 * *"
   workflow_dispatch: {}
-  push:
-    paths:
-      - apps/vergunningen-aanvragen/data/**
-      - apps/vergunningen-aanvragen/scripts/**
-      - scripts/update_analysis_data_status.py
 
 permissions:
   actions: write
