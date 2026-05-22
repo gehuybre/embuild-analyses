@@ -59,9 +59,9 @@ jobs:
           fi
 
           mkdir -p "$(dirname "${META_FILE}")"
-          headers="$(curl -sI "${INPUT_URL}" || true)"
-          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk -F': ' '/^ETag:/ {print $2}' | tr -d '\r"')"
-          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk -F': ' '/^Last-Modified:/ {print substr($0,index($0,$2)) }' | tr -d '\r')"
+          headers="$(curl -sSI -L --fail -A "Mozilla/5.0 (compatible; data-blog-u/1.0)" "${INPUT_URL}" || true)"
+          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk 'tolower($1) == "etag:" {sub(/^[^:]+:[[:space:]]*/, ""); gsub(/\r|"/, ""); print; exit}')"
+          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk 'tolower($1) == "last-modified:" {sub(/^[^:]+:[[:space:]]*/, ""); gsub(/\r/, ""); print; exit}')"
 
           set +e
           python scripts/check_remote_metadata.py
@@ -125,9 +125,9 @@ jobs:
           INPUT_URL: ${{ steps.resolve_source.outputs.input_url }}
         run: |
           set -euo pipefail
-          headers="$(curl -sI "${INPUT_URL}" || true)"
-          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk -F': ' '/^ETag:/ {print $2}' | tr -d '\r"')"
-          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk -F': ' '/^Last-Modified:/ {print substr($0,index($0,$2)) }' | tr -d '\r')"
+          headers="$(curl -sSI -L --fail -A "Mozilla/5.0 (compatible; data-blog-u/1.0)" "${INPUT_URL}" || true)"
+          export REMOTE_ETAG="$(printf '%s\n' "${headers}" | awk 'tolower($1) == "etag:" {sub(/^[^:]+:[[:space:]]*/, ""); gsub(/\r|"/, ""); print; exit}')"
+          export REMOTE_LASTMOD="$(printf '%s\n' "${headers}" | awk 'tolower($1) == "last-modified:" {sub(/^[^:]+:[[:space:]]*/, ""); gsub(/\r/, ""); print; exit}')"
 
           download_path="${APP_ROOT}/data/$(basename "${INPUT_URL}")"
           if [ -f "${download_path}" ]; then
