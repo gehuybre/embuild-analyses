@@ -28,6 +28,10 @@ RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # Statbel URL pattern
 BASE_URL = "https://statbel.fgov.be/sites/default/files/files/opendata/BRI_Nace"
+REQUEST_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (compatible; data-blog-u/1.0)",
+    "Accept": "application/zip,application/octet-stream,*/*;q=0.8",
+}
 
 # NACE sector mapping (section code -> Dutch name)
 SECTOR_NAMES = {
@@ -81,96 +85,111 @@ def _load_remote_metadata_url():
     return None
 
 
+def _build_download_urls(input_url: str | None, metadata_url: str | None) -> list[str]:
+    urls: list[str] = []
+    seen: set[str] = set()
+
+    def add(url: str | None) -> None:
+        if not url or url in seen:
+            return
+        seen.add(url)
+        urls.append(url)
+
+    if input_url:
+        print(f"Using INPUT_URL: {input_url}")
+        add(input_url)
+
+    if metadata_url:
+        print(f"Using metadata URL: {metadata_url}")
+        add(metadata_url)
+
+    add(f"{BASE_URL}/TF_BANKRUPTCIES.zip")
+    return urls
+
+
 def download_data() -> pd.DataFrame:
     """Download bankruptcy data from Statbel.
 
-    Tries configured URL, then falls back to the static dataset URL.
+    Tries configured URL, metadata URL, then the static dataset URL.
     Returns DataFrame with all bankruptcy records.
     """
     input_url = os.environ.get("INPUT_URL")
     metadata_url = _load_remote_metadata_url()
-
-    if input_url:
-        # Use provided URL from environment
-        print(f"Using INPUT_URL: {input_url}")
-        urls_to_try = [input_url]
-    else:
-        urls_to_try = []
-        if metadata_url:
-            print(f"Using metadata URL: {metadata_url}")
-            urls_to_try.append(metadata_url)
-        # Use the static Statbel URL (no year parameter needed)
-        urls_to_try.append(f"{BASE_URL}/TF_BANKRUPTCIES.zip")
+    urls_to_try = _build_download_urls(input_url, metadata_url)
 
     for url in urls_to_try:
         print(f"Trying URL: {url}")
         try:
-            response = requests.get(url, timeout=120)
-            if response.status_code == 200:
-                print(f"Successfully downloaded from: {url}")
+            response = requests.get(url, headers=REQUEST_HEADERS, timeout=120)
+            response.raise_for_status()
+            if not zipfile.is_zipfile(io.BytesIO(response.content)):
+                content_type = response.headers.get("content-type", "unknown")
+                raise ValueError(
+                    f"Downloaded file is not a valid zip archive "
+                    f"(content-type: {content_type}, bytes: {len(response.content)})"
+                )
 
-                # Save zip to data directory for reference
-                from pathlib import Path as PathLib
-                zip_filename = PathLib(url).name or "TF_BANKRUPTCIES.zip"
-                zip_path = DATA_DIR / zip_filename
-                with open(zip_path, "wb") as f:
-                    f.write(response.content)
+            print(f"Successfully downloaded from: {url}")
 
-                # Extract and read data file (xlsx or txt)
-                if not zipfile.is_zipfile(io.BytesIO(response.content)):
-                    raise ValueError("Downloaded file is not a valid zip archive")
+            # Save zip to data directory for reference
+            from pathlib import Path as PathLib
+            zip_filename = PathLib(url).name or "TF_BANKRUPTCIES.zip"
+            zip_path = DATA_DIR / zip_filename
+            with open(zip_path, "wb") as f:
+                f.write(response.content)
 
-                with zipfile.ZipFile(io.BytesIO(response.content)) as zf:
-                    names = zf.namelist()
-                    file_names = [
-                        n for n in names
-                        if n and not n.endswith("/") and not n.endswith("\\")
-                    ]
-                    excel_names = [
-                        n for n in file_names
-                        if Path(n).suffix.lower() in {".xlsx", ".xls"}
-                    ]
-                    text_names = [
-                        n for n in file_names
-                        if Path(n).suffix.lower() in {".txt", ".csv"}
-                    ]
+            # Extract and read data file (xlsx or txt)
+            with zipfile.ZipFile(io.BytesIO(response.content)) as zf:
+                names = zf.namelist()
+                file_names = [
+                    n for n in names
+                    if n and not n.endswith("/") and not n.endswith("\\")
+                ]
+                excel_names = [
+                    n for n in file_names
+                    if Path(n).suffix.lower() in {".xlsx", ".xls"}
+                ]
+                text_names = [
+                    n for n in file_names
+                    if Path(n).suffix.lower() in {".txt", ".csv"}
+                ]
 
-                    if excel_names:
-                        excel_name = excel_names[0]
-                        with zf.open(excel_name) as excel_file:
-                            df = pd.read_excel(excel_file)
-                            print(f"Loaded {len(df)} records from {excel_name}")
-                            return df
+                if excel_names:
+                    excel_name = excel_names[0]
+                    with zf.open(excel_name) as excel_file:
+                        df = pd.read_excel(excel_file)
+                        print(f"Loaded {len(df)} records from {excel_name}")
+                        return df
 
-                    if text_names:
-                        text_name = text_names[0]
-                        with zf.open(text_name) as text_file:
-                            # Read first line to detect delimiter
-                            first_line = text_file.readline().decode("utf-8-sig")
-                            text_file.seek(0)
+                if text_names:
+                    text_name = text_names[0]
+                    with zf.open(text_name) as text_file:
+                        # Read first line to detect delimiter
+                        first_line = text_file.readline().decode("utf-8-sig")
+                        text_file.seek(0)
 
-                            # Detect delimiter (pipe, semicolon, comma, or tab)
-                            delimiter = "|"
-                            if ";" in first_line and first_line.count(";") > first_line.count("|"):
-                                delimiter = ";"
-                            elif "," in first_line and first_line.count(",") > first_line.count("|"):
-                                delimiter = ","
-                            elif "\t" in first_line:
-                                delimiter = "\t"
+                        # Detect delimiter (pipe, semicolon, comma, or tab)
+                        delimiter = "|"
+                        if ";" in first_line and first_line.count(";") > first_line.count("|"):
+                            delimiter = ";"
+                        elif "," in first_line and first_line.count(",") > first_line.count("|"):
+                            delimiter = ","
+                        elif "\t" in first_line:
+                            delimiter = "\t"
 
-                            print(f"Detected delimiter: {repr(delimiter)}")
-                            df = pd.read_csv(
-                                text_file,
-                                sep=delimiter,
-                                encoding="utf-8-sig",
-                                low_memory=False,
-                            )
-                            print(f"Loaded {len(df)} records from {text_name}")
-                            return df
+                        print(f"Detected delimiter: {repr(delimiter)}")
+                        df = pd.read_csv(
+                            text_file,
+                            sep=delimiter,
+                            encoding="utf-8-sig",
+                            low_memory=False,
+                        )
+                        print(f"Loaded {len(df)} records from {text_name}")
+                        return df
 
-                    raise ValueError(
-                        f"No supported data files found in zip. Entries: {names}"
-                    )
+                raise ValueError(
+                    f"No supported data files found in zip. Entries: {names}"
+                )
         except Exception as e:
             print(f"Failed to download from {url}: {e}")
             continue
