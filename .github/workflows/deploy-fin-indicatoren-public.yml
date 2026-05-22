@@ -19,6 +19,9 @@ permissions:
   contents: read
   deployments: write
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 concurrency:
   group: cloudflare-deploy-fin-indicatoren-public
   cancel-in-progress: true
@@ -77,12 +80,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Validate configuration
+        id: config
         run: |
-          missing=0
           if [ -z "${{ vars.CLOUDFLARE_PAGES_PROJECT_FIN_INDICATOREN }}" ]; then
-            echo "::error::Missing repository variable CLOUDFLARE_PAGES_PROJECT_FIN_INDICATOREN"
-            missing=1
+            echo "::notice::Skipping standalone fin-indicatoren deploy because repository variable CLOUDFLARE_PAGES_PROJECT_FIN_INDICATOREN is not set"
+            echo "deploy_enabled=false" >> "$GITHUB_OUTPUT"
+            exit 0
           fi
+
+          missing=0
           if [ -z "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ]; then
             echo "::error::Missing secret CLOUDFLARE_ACCOUNT_ID"
             missing=1
@@ -95,15 +101,18 @@ jobs:
             echo "::error::Set missing values at https://github.com/${{ github.repository }}/settings"
             exit 1
           fi
+          echo "deploy_enabled=true" >> "$GITHUB_OUTPUT"
           echo "✓ All Cloudflare configuration present"
 
       - name: Download standalone dist
+        if: steps.config.outputs.deploy_enabled == 'true'
         uses: actions/download-artifact@v4
         with:
           name: dist-standalone-fin-indicatoren
           path: dist-standalone/fin-indicatoren/
 
       - name: Deploy to Cloudflare Pages
+        if: steps.config.outputs.deploy_enabled == 'true'
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
