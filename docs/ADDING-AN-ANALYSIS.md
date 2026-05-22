@@ -46,9 +46,15 @@ const metadata = {
 }
 ```
 
-## 5. Add data
+## 5. Add data and processing
 
-Put JSON data files in `public/data/`. Access them in components via:
+Keep all analysis-specific assets inside the app directory:
+
+- `apps/{slug}/data/` for raw source files, manual uploads, and `.remote_metadata.json`
+- `apps/{slug}/scripts/` for ETL or refresh scripts such as `process_data.py`
+- `apps/{slug}/public/data/` for generated JSON/CSV/parquet files served by the frontend
+
+Access generated files in components via:
 
 ```tsx
 import { getDataPath } from "@embuild/shared/lib/path-utils"
@@ -69,7 +75,7 @@ The portal listing updates automatically — `generate-portal-data.mjs` runs dur
 
 ## 7. (Optional) Add a data-update workflow
 
-If the analysis has a `process_data.py` or similar script that refreshes data, add a GitHub Actions workflow in `.github/workflows/update-my-new-analysis-data.yml`. See existing workflows (e.g. `update-nbb-rente-data.yml`) as templates.
+If the analysis has a refresh script, add a thin GitHub Actions workflow in `.github/workflows/update-my-new-analysis-data.yml` that calls `apps/{slug}/scripts/...` and commits files from `apps/{slug}/public/data/`. See the existing app-local workflows as templates.
 
 ## Checklist
 

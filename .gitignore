@@ -9,6 +9,7 @@
 .wrangler/
 /.pytest_cache/
 /.ruff_cache/
+.cache/
 node_modules/
 
 # Turborepo
@@ -16,6 +17,8 @@ node_modules/
 
 # Build outputs
 dist/
+dist-standalone/
 **/out/
 **/.next/
 **/.contentlayer/
+*.tsbuildinfo

@@ -55,7 +55,7 @@ run_check "check_nis_codes" "python3 scripts/agent/check_nis_codes.py --slug $sl
 run_check "check_embed_config" "python3 scripts/agent/check_embed_config.py --slug $slug"
 run_check "validate_component_usage" "python3 .github/skills/blog-post-creator/scripts/validate_component_usage.py"
 run_check "validate_mdx" "python3 .github/skills/blog-post-creator/scripts/validate_mdx.py"
-run_check "validate_embed_consistency" "node .github/skills/blog-post-creator/scripts/validate_embed_consistency.js"
+run_check "validate_embed_consistency" "node scripts/validate_embed_consistency.js --slug $slug"
 run_check "press_references" "python3 scripts/update_press_references.py --slug $slug --check"
 
 echo "QA Report - $slug - $today"

@@ -1,5 +1,24 @@
-import pytest
-pytest.skip("Moved to skill scripts (.github/skills/blog-post-creator/scripts). Run them manually if needed.", allow_module_level=True)
+import os
+import subprocess
+from pathlib import Path
 
-# If you want to run this check manually:
-# node .github/skills/blog-post-creator/scripts/validate_embed_consistency.js
+import pytest
+
+SCRIPT = Path(__file__).resolve().parents[1] / "scripts" / "validate_embed_consistency.js"
+
+
+@pytest.mark.skipif(os.environ.get("EMBED_CONSISTENCY_STRICT") != "1", reason="Enable by setting EMBED_CONSISTENCY_STRICT=1")
+def test_embed_consistency():
+    repo_root = Path(__file__).resolve().parents[1]
+    proc = subprocess.run(
+        ["node", str(SCRIPT)],
+        cwd=str(repo_root),
+        capture_output=True,
+        text=True,
+    )
+    if proc.returncode == 0:
+        assert proc.returncode == 0
+    else:
+        print(proc.stdout)
+        print(proc.stderr)
+        pytest.fail("Embed consistency check failed")

@@ -1,4 +1,7 @@
 # Build Commands
+cd /Users/gerthuybrechts/pyprojects/data-blog-u/analyses
+npx serve dist -p 5000
+
 
 Run these from the repository root: `/Users/gerthuybrechts/pyprojects/data-blog-u/analyses`
 
@@ -43,6 +46,14 @@ pnpm turbo build && node scripts/merge-outputs.mjs
 
 ```bash
 npx serve dist -p 5000
+```
+
+## Validate embed routes
+
+```bash
+node scripts/validate_embed_consistency.js
+node scripts/validate_embed_consistency.js --slug bouwprojecten-gemeenten
+node scripts/validate_embed_consistency.js --built
 ```
 
 ## Stop a server on port 5000

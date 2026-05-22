@@ -33,7 +33,7 @@ jobs:
       - name: Export data into data repo
         run: |
           python scripts/export_data_repo.py \
-            --source-root embuild-analyses \
+            --source-root . \
             --data-repo data-repo \
             --clean
 

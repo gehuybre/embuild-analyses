@@ -12,40 +12,49 @@ def iter_files(root: Path) -> list[Path]:
     return [p for p in root.rglob("*") if p.is_file()]
 
 
+def iter_app_dirs(source_root: Path) -> list[Path]:
+    apps_root = source_root / "apps"
+    if not apps_root.exists():
+        return []
+    return sorted([path for path in apps_root.iterdir() if path.is_dir()])
+
+
 def collect_public_assets(source_root: Path) -> list[tuple[Path, Path, str]]:
     items: list[tuple[Path, Path, str]] = []
-    public_data = source_root / "public" / "data"
-    public_maps = source_root / "public" / "maps"
-    public_press = source_root / "public" / "press-references"
 
-    for src in iter_files(public_data):
-        rel = src.relative_to(public_data)
-        items.append((src, rel, "data"))
-        items.append((src, rel, "docs/data"))
+    for app_dir in iter_app_dirs(source_root):
+        slug = app_dir.name
+        public_root = app_dir / "public"
+        public_data = public_root / "data"
+        public_maps = public_root / "maps"
+        public_press = public_root / "press-references"
 
-    for src in iter_files(public_maps):
-        rel = src.relative_to(public_maps)
-        items.append((src, rel, "maps"))
-        items.append((src, rel, "docs/maps"))
+        for src in iter_files(public_data):
+            rel = Path(slug) / src.relative_to(public_data)
+            items.append((src, rel, "data"))
+            items.append((src, rel, "docs/data"))
 
-    for src in iter_files(public_press):
-        rel = src.relative_to(public_press)
-        items.append((src, rel, "press-references"))
-        items.append((src, rel, "docs/press-references"))
+        for src in iter_files(public_maps):
+            rel = src.relative_to(public_maps) if slug == "portal" else Path(slug) / src.relative_to(public_maps)
+            items.append((src, rel, "maps"))
+            items.append((src, rel, "docs/maps"))
+
+        for src in iter_files(public_press):
+            rel = Path(slug) / src.relative_to(public_press)
+            items.append((src, rel, "press-references"))
+            items.append((src, rel, "docs/press-references"))
 
     return items
 
 
 def collect_analysis_results(source_root: Path) -> list[tuple[Path, Path, str]]:
     items: list[tuple[Path, Path, str]] = []
-    analyses_root = source_root / "analyses"
-    for src in iter_files(analyses_root):
-        parts = src.relative_to(analyses_root).parts
-        if "results" not in parts:
-            continue
-        rel = src.relative_to(analyses_root)
-        items.append((src, rel, "analyses"))
-        items.append((src, rel, "docs/analyses"))
+    for app_dir in iter_app_dirs(source_root):
+        results_dir = app_dir / "results"
+        for src in iter_files(results_dir):
+            rel = Path(app_dir.name) / "results" / src.relative_to(results_dir)
+            items.append((src, rel, "analyses"))
+            items.append((src, rel, "docs/analyses"))
     return items
 
 
@@ -86,8 +95,8 @@ def main() -> int:
     )
     parser.add_argument(
         "--source-root",
-        default="embuild-analyses",
-        help="Path to the analyses project root containing public/ and analyses/ (default: embuild-analyses)",
+        default=".",
+        help="Path to the monorepo root containing apps/ (default: current directory)",
     )
     parser.add_argument(
         "--data-repo",
