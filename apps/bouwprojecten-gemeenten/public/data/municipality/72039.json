@@ -14,10 +14,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 5864143.0,
-    "amount_per_capita": 187.7,
+    "total_amount": 7641427.0,
+    "amount_per_capita": 244.75,
     "yearly_amounts": {
-      "2026": 1725520.0,
+      "2026": 3502804.0,
       "2027": 1189616.0,
       "2028": 1166543.0,
       "2029": 714398.0,
@@ -25,12 +25,12 @@
       "2031": 329237.0
     },
     "yearly_per_capita": {
-      "2026": 55.23,
-      "2027": 38.08,
-      "2028": 37.34,
-      "2029": 22.87,
-      "2030": 23.65,
-      "2031": 10.54
+      "2026": 112.19,
+      "2027": 38.1,
+      "2028": 37.36,
+      "2029": 22.88,
+      "2030": 23.66,
+      "2031": 10.55
     }
   },
   {
@@ -49,7 +49,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 5200000.0,
-    "amount_per_capita": 166.44,
+    "amount_per_capita": 166.55,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 900000.0,
@@ -60,10 +60,10 @@
     },
     "yearly_per_capita": {
       "2026": 3.2,
-      "2027": 28.81,
+      "2027": 28.83,
       "2028": 3.2,
-      "2029": 67.22,
-      "2030": 64.02,
+      "2029": 67.26,
+      "2030": 64.06,
       "2031": 0
     }
   },
@@ -82,10 +82,10 @@
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 4060000.0,
-    "amount_per_capita": 129.95,
+    "total_amount": 4558000.0,
+    "amount_per_capita": 145.99,
     "yearly_amounts": {
-      "2026": 450000.0,
+      "2026": 948000.0,
       "2027": 3110000.0,
       "2028": 250000.0,
       "2029": 250000.0,
@@ -93,10 +93,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 14.4,
-      "2027": 99.55,
-      "2028": 8.0,
-      "2029": 8.0,
+      "2026": 30.36,
+      "2027": 99.61,
+      "2028": 8.01,
+      "2029": 8.01,
       "2030": 0,
       "2031": 0
     }
@@ -117,7 +117,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 3600000.0,
-    "amount_per_capita": 115.23,
+    "amount_per_capita": 115.31,
     "yearly_amounts": {
       "2026": 3000000.0,
       "2027": 600000.0,
@@ -127,80 +127,12 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 96.03,
-      "2027": 19.21,
+      "2026": 96.09,
+      "2027": 19.22,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Houthalen-Helchteren",
-    "nis_code": "72039",
-    "bd_code": "BD000005",
-    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
-    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
-    "ap_code": "AP000022",
-    "ap_short": "BD5AP3 Verduurzaming gemeentelijk patrimonium",
-    "ap_long": "BD5AP3 Houthalen-Helchteren investeert in een verduurzaming van het gemeentelijke patrimonium met een bijzondere aandacht voor  toegankelijkheid en gedeeld gebruik",
-    "ac_code": "AC000114",
-    "ac_short": "Onderhoud en vernieuwing gemeentelijk patrimonium",
-    "ac_long": "BD5AP3AC1 Het gemeentelijk gebouwenpatrimonium van Houthalen-Helchteren wordt onderhouden en vernieuwd met inachtname van de klimaatdoelstellingen en toegankelijkheidseisen",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 3530000.0,
-    "amount_per_capita": 112.99,
-    "yearly_amounts": {
-      "2026": 1045000.0,
-      "2027": 500000.0,
-      "2028": 500000.0,
-      "2029": 400000.0,
-      "2030": 500000.0,
-      "2031": 585000.0
-    },
-    "yearly_per_capita": {
-      "2026": 33.45,
-      "2027": 16.0,
-      "2028": 16.0,
-      "2029": 12.8,
-      "2030": 16.0,
-      "2031": 18.72
-    }
-  },
-  {
-    "municipality": "Houthalen-Helchteren",
-    "nis_code": "72039",
-    "bd_code": "BD000006",
-    "bd_short": "BD6 Veilige gemeente",
-    "bd_long": "BD6 Houthalen-Helchteren is een veilige gemeente waarin samenwerking met gespecialiseerde partners centraal staat.",
-    "ap_code": "AP000025",
-    "ap_short": "BD6AP1 Maatschappelijke veiligheid",
-    "ap_long": "BD6AP1 Houthalen-Helchteren zet in op het waarborgen van de (maatschappelijke) veiligheid op haar grondgebied, met als hoofddoel de bescherming van de samenleving tegen criminaliteit, noodsituaties, maatschappelijke overlast en andere bedreigingen.",
-    "ac_code": "AC000132",
-    "ac_short": "Maatschappelijke veiligheid",
-    "ac_long": "BD6AP1AC2 Houthalen-Helchteren zet in op het waarborgen van de (maatschappelijke) veiligheid op haar grondgebied in samenwerking met gespecialiseerde partners",
-    "categories": [
-      "04-veiligheidszorg"
-    ],
-    "total_amount": 2852571.0,
-    "amount_per_capita": 91.31,
-    "yearly_amounts": {
-      "2026": 313594.0,
-      "2027": 332070.0,
-      "2028": 1175558.0,
-      "2029": 373486.0,
-      "2030": 327656.0,
-      "2031": 330207.0
-    },
-    "yearly_per_capita": {
-      "2026": 10.04,
-      "2027": 10.63,
-      "2028": 37.63,
-      "2029": 11.95,
-      "2030": 10.49,
-      "2031": 10.57
     }
   },
   {
@@ -218,10 +150,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 2661000.0,
-    "amount_per_capita": 85.17,
+    "total_amount": 3251184.0,
+    "amount_per_capita": 104.13,
     "yearly_amounts": {
-      "2026": 1096000.0,
+      "2026": 1686184.0,
       "2027": 695000.0,
       "2028": 560000.0,
       "2029": 130000.0,
@@ -229,12 +161,114 @@
       "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 35.08,
-      "2027": 22.25,
-      "2028": 17.92,
+      "2026": 54.01,
+      "2027": 22.26,
+      "2028": 17.94,
       "2029": 4.16,
       "2030": 4.16,
       "2031": 1.6
+    }
+  },
+  {
+    "municipality": "Houthalen-Helchteren",
+    "nis_code": "72039",
+    "bd_code": "BD000005",
+    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
+    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
+    "ap_code": "AP000022",
+    "ap_short": "BD5AP3 Verduurzaming gemeentelijk patrimonium",
+    "ap_long": "BD5AP3 Houthalen-Helchteren investeert in een verduurzaming van het gemeentelijke patrimonium met een bijzondere aandacht voor  toegankelijkheid en gedeeld gebruik",
+    "ac_code": "AC000119",
+    "ac_short": "Project 't Centrum",
+    "ac_long": "BD5AP3AC6 Houthalen-Helchteren vernieuwt het schoolgebouw 't Centrum, waarbij een nieuwe gemeenschapszaal wordt ingericht (project)",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 3193578.0,
+    "amount_per_capita": 102.29,
+    "yearly_amounts": {
+      "2026": 3193578.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 102.29,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Houthalen-Helchteren",
+    "nis_code": "72039",
+    "bd_code": "BD000006",
+    "bd_short": "BD6 Veilige gemeente",
+    "bd_long": "BD6 Houthalen-Helchteren is een veilige gemeente waarin samenwerking met gespecialiseerde partners centraal staat.",
+    "ap_code": "AP000025",
+    "ap_short": "BD6AP1 Maatschappelijke veiligheid",
+    "ap_long": "BD6AP1 Houthalen-Helchteren zet in op het waarborgen van de (maatschappelijke) veiligheid op haar grondgebied, met als hoofddoel de bescherming van de samenleving tegen criminaliteit, noodsituaties, maatschappelijke overlast en andere bedreigingen.",
+    "ac_code": "AC000132",
+    "ac_short": "Maatschappelijke veiligheid",
+    "ac_long": "BD6AP1AC2 Houthalen-Helchteren zet in op het waarborgen van de (maatschappelijke) veiligheid op haar grondgebied in samenwerking met gespecialiseerde partners",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 2852570.69,
+    "amount_per_capita": 91.37,
+    "yearly_amounts": {
+      "2026": 313593.84,
+      "2027": 332070.08,
+      "2028": 1175557.55,
+      "2029": 373485.59,
+      "2030": 327656.4,
+      "2031": 330207.23
+    },
+    "yearly_per_capita": {
+      "2026": 10.04,
+      "2027": 10.64,
+      "2028": 37.65,
+      "2029": 11.96,
+      "2030": 10.49,
+      "2031": 10.58
+    }
+  },
+  {
+    "municipality": "Houthalen-Helchteren",
+    "nis_code": "72039",
+    "bd_code": "BD000005",
+    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
+    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
+    "ap_code": "AP000022",
+    "ap_short": "BD5AP3 Verduurzaming gemeentelijk patrimonium",
+    "ap_long": "BD5AP3 Houthalen-Helchteren investeert in een verduurzaming van het gemeentelijke patrimonium met een bijzondere aandacht voor  toegankelijkheid en gedeeld gebruik",
+    "ac_code": "AC000114",
+    "ac_short": "Onderhoud en vernieuwing gemeentelijk patrimonium",
+    "ac_long": "BD5AP3AC1 Het gemeentelijk gebouwenpatrimonium van Houthalen-Helchteren wordt onderhouden en vernieuwd met inachtname van de klimaatdoelstellingen en toegankelijkheidseisen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2523144.53,
+    "amount_per_capita": 80.81,
+    "yearly_amounts": {
+      "2026": 1148144.53,
+      "2027": 330000.0,
+      "2028": 330000.0,
+      "2029": 230000.0,
+      "2030": 330000.0,
+      "2031": 155000.0
+    },
+    "yearly_per_capita": {
+      "2026": 36.77,
+      "2027": 10.57,
+      "2028": 10.57,
+      "2029": 7.37,
+      "2030": 10.57,
+      "2031": 4.96
     }
   },
   {
@@ -253,7 +287,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 2320759.0,
-    "amount_per_capita": 74.28,
+    "amount_per_capita": 74.33,
     "yearly_amounts": {
       "2026": 270759.0,
       "2027": 1050000.0,
@@ -264,45 +298,11 @@
     },
     "yearly_per_capita": {
       "2026": 8.67,
-      "2027": 33.61,
-      "2028": 32.01,
+      "2027": 33.63,
+      "2028": 32.03,
       "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Houthalen-Helchteren",
-    "nis_code": "72039",
-    "bd_code": "BD000001",
-    "bd_short": "BD1 Klantvriendelijke, toegankelijke en kwalitatieve dienstverlening",
-    "bd_long": "BD1 Houthalen-Helchteren biedt een klantvriendelijke, toegankelijke en kwalitatieve dienstverlening aan, afgestemd op de noden van haar inwoners.",
-    "ap_code": "AP000007",
-    "ap_short": "BD1AP7 Modern en veilig ICT-beleid",
-    "ap_long": "BD1AP7 Houthalen-Helchteren streeft naar een modern en veilig ICT-beleid.",
-    "ac_code": "AC000059",
-    "ac_short": "Modern en veilig ICT-infrastructuur",
-    "ac_long": "BD1AP7AC1 Houthalen-Helchteren investeert in een moderne, veilige en betrouwbare ICT-infrastructuur",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 1878260.0,
-    "amount_per_capita": 60.12,
-    "yearly_amounts": {
-      "2026": 206170.0,
-      "2027": 189870.0,
-      "2028": 218320.0,
-      "2029": 678900.0,
-      "2030": 95000.0,
-      "2031": 490000.0
-    },
-    "yearly_per_capita": {
-      "2026": 6.6,
-      "2027": 6.08,
-      "2028": 6.99,
-      "2029": 21.73,
-      "2030": 3.04,
-      "2031": 15.68
     }
   },
   {
@@ -320,10 +320,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1665000.0,
-    "amount_per_capita": 53.29,
+    "total_amount": 1987429.0,
+    "amount_per_capita": 63.66,
     "yearly_amounts": {
-      "2026": 351000.0,
+      "2026": 673429.0,
       "2027": 301000.0,
       "2028": 351000.0,
       "2029": 301000.0,
@@ -331,12 +331,46 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 11.23,
-      "2027": 9.63,
-      "2028": 11.23,
-      "2029": 9.63,
-      "2030": 11.23,
+      "2026": 21.57,
+      "2027": 9.64,
+      "2028": 11.24,
+      "2029": 9.64,
+      "2030": 11.24,
       "2031": 0.32
+    }
+  },
+  {
+    "municipality": "Houthalen-Helchteren",
+    "nis_code": "72039",
+    "bd_code": "BD000001",
+    "bd_short": "BD1 Klantvriendelijke, toegankelijke en kwalitatieve dienstverlening",
+    "bd_long": "BD1 Houthalen-Helchteren biedt een klantvriendelijke, toegankelijke en kwalitatieve dienstverlening aan, afgestemd op de noden van haar inwoners.",
+    "ap_code": "AP000007",
+    "ap_short": "BD1AP7 Modern en veilig ICT-beleid",
+    "ap_long": "BD1AP7 Houthalen-Helchteren streeft naar een modern en veilig ICT-beleid.",
+    "ac_code": "AC000059",
+    "ac_short": "Modern en veilig ICT-infrastructuur",
+    "ac_long": "BD1AP7AC1 Houthalen-Helchteren investeert in een moderne, veilige en betrouwbare ICT-infrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1930621.0,
+    "amount_per_capita": 61.84,
+    "yearly_amounts": {
+      "2026": 323531.0,
+      "2027": 189870.0,
+      "2028": 218320.0,
+      "2029": 678900.0,
+      "2030": 95000.0,
+      "2031": 425000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.36,
+      "2027": 6.08,
+      "2028": 6.99,
+      "2029": 21.74,
+      "2030": 3.04,
+      "2031": 13.61
     }
   },
   {
@@ -354,10 +388,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1600000.0,
-    "amount_per_capita": 51.21,
+    "total_amount": 1800000.0,
+    "amount_per_capita": 57.65,
     "yearly_amounts": {
-      "2026": 300000.0,
+      "2026": 500000.0,
       "2027": 650000.0,
       "2028": 650000.0,
       "2029": 0,
@@ -365,9 +399,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.6,
-      "2027": 20.81,
-      "2028": 20.81,
+      "2026": 16.01,
+      "2027": 20.82,
+      "2028": 20.82,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -388,10 +422,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1570000.0,
-    "amount_per_capita": 50.25,
+    "total_amount": 1757350.0,
+    "amount_per_capita": 56.29,
     "yearly_amounts": {
-      "2026": 850000.0,
+      "2026": 1037350.0,
       "2027": 720000.0,
       "2028": 0,
       "2029": 0,
@@ -399,8 +433,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 27.21,
-      "2027": 23.05,
+      "2026": 33.23,
+      "2027": 23.06,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -422,10 +456,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1300000.0,
-    "amount_per_capita": 41.61,
+    "total_amount": 1502643.0,
+    "amount_per_capita": 48.13,
     "yearly_amounts": {
-      "2026": 300000.0,
+      "2026": 502643.0,
       "2027": 500000.0,
       "2028": 500000.0,
       "2029": 0,
@@ -433,9 +467,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.6,
-      "2027": 16.0,
-      "2028": 16.0,
+      "2026": 16.1,
+      "2027": 16.01,
+      "2028": 16.01,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -456,10 +490,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1240435.0,
-    "amount_per_capita": 39.7,
+    "total_amount": 1266557.0,
+    "amount_per_capita": 40.57,
     "yearly_amounts": {
-      "2026": 585005.0,
+      "2026": 611127.0,
       "2027": 530430.0,
       "2028": 55000.0,
       "2029": 35000.0,
@@ -467,8 +501,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 18.73,
-      "2027": 16.98,
+      "2026": 19.57,
+      "2027": 16.99,
       "2028": 1.76,
       "2029": 1.12,
       "2030": 1.12,
@@ -478,31 +512,31 @@
   {
     "municipality": "Houthalen-Helchteren",
     "nis_code": "72039",
-    "bd_code": "BD000005",
-    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
-    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
-    "ap_code": "AP000022",
-    "ap_short": "BD5AP3 Verduurzaming gemeentelijk patrimonium",
-    "ap_long": "BD5AP3 Houthalen-Helchteren investeert in een verduurzaming van het gemeentelijke patrimonium met een bijzondere aandacht voor  toegankelijkheid en gedeeld gebruik",
-    "ac_code": "AC000119",
-    "ac_short": "Project 't Centrum",
-    "ac_long": "BD5AP3AC6 Houthalen-Helchteren vernieuwt het schoolgebouw 't Centrum, waarbij een nieuwe gemeenschapszaal wordt ingericht (project)",
+    "bd_code": "BD000002",
+    "bd_short": "BD2 Belevenisvol Houthalen-Helchteren",
+    "bd_long": "BD2 Houthalen-Helchteren is een dynamische en bruisende gemeente waarin beleving, toerisme en een sterke lokale economie centraal staan.",
+    "ap_code": "AP000011",
+    "ap_short": "BD2AP2 Ontsloten toeristisch aanbod",
+    "ap_long": "BD2AP2 Houthalen-Helchteren werkt in samenwerking met de sector aan een nieuw toeristisch masterplan met als doelstelling een prominente toeristische rol op te nemen in Limburg.",
+    "ac_code": "AC000069",
+    "ac_short": "Project pomphuis",
+    "ac_long": "BD2AP2AC3 Houthalen-Helchteren voorziet een nieuwe invulling voor het Pomphuis (project)",
     "categories": [
-      "08-onderwijs"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1125000.0,
-    "amount_per_capita": 36.01,
+    "total_amount": 1065045.0,
+    "amount_per_capita": 34.11,
     "yearly_amounts": {
-      "2026": 1125000.0,
-      "2027": 0,
+      "2026": 665045.0,
+      "2027": 400000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 36.01,
-      "2027": 0,
+      "2026": 21.3,
+      "2027": 12.81,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -525,7 +559,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 1000000.0,
-    "amount_per_capita": 32.01,
+    "amount_per_capita": 32.03,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 500000.0,
@@ -536,42 +570,8 @@
     },
     "yearly_per_capita": {
       "2026": 3.2,
-      "2027": 16.0,
-      "2028": 12.8,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Houthalen-Helchteren",
-    "nis_code": "72039",
-    "bd_code": "BD000002",
-    "bd_short": "BD2 Belevenisvol Houthalen-Helchteren",
-    "bd_long": "BD2 Houthalen-Helchteren is een dynamische en bruisende gemeente waarin beleving, toerisme en een sterke lokale economie centraal staan.",
-    "ap_code": "AP000011",
-    "ap_short": "BD2AP2 Ontsloten toeristisch aanbod",
-    "ap_long": "BD2AP2 Houthalen-Helchteren werkt in samenwerking met de sector aan een nieuw toeristisch masterplan met als doelstelling een prominente toeristische rol op te nemen in Limburg.",
-    "ac_code": "AC000069",
-    "ac_short": "Project pomphuis",
-    "ac_long": "BD2AP2AC3 Houthalen-Helchteren voorziet een nieuwe invulling voor het Pomphuis (project)",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 995000.0,
-    "amount_per_capita": 31.85,
-    "yearly_amounts": {
-      "2026": 595000.0,
-      "2027": 400000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 19.05,
-      "2027": 12.8,
-      "2028": 0,
+      "2027": 16.01,
+      "2028": 12.81,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -592,10 +592,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 910921.0,
-    "amount_per_capita": 29.16,
+    "total_amount": 950726.51,
+    "amount_per_capita": 30.45,
     "yearly_amounts": {
-      "2026": 555921.0,
+      "2026": 595726.51,
       "2027": 100000.0,
       "2028": 100000.0,
       "2029": 60000.0,
@@ -603,7 +603,7 @@
       "2031": 95000.0
     },
     "yearly_per_capita": {
-      "2026": 17.79,
+      "2026": 19.08,
       "2027": 3.2,
       "2028": 3.2,
       "2029": 1.92,
@@ -627,7 +627,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 850000.0,
-    "amount_per_capita": 27.21,
+    "amount_per_capita": 27.22,
     "yearly_amounts": {
       "2026": 0,
       "2027": 850000.0,
@@ -638,7 +638,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 27.21,
+      "2027": 27.22,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -661,7 +661,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 780000.0,
-    "amount_per_capita": 24.97,
+    "amount_per_capita": 24.98,
     "yearly_amounts": {
       "2026": 130000.0,
       "2027": 250000.0,
@@ -672,8 +672,8 @@
     },
     "yearly_per_capita": {
       "2026": 4.16,
-      "2027": 8.0,
-      "2028": 12.8,
+      "2027": 8.01,
+      "2028": 12.81,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -695,7 +695,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 650000.0,
-    "amount_per_capita": 20.81,
+    "amount_per_capita": 20.82,
     "yearly_amounts": {
       "2026": 75000.0,
       "2027": 175000.0,
@@ -706,9 +706,9 @@
     },
     "yearly_per_capita": {
       "2026": 2.4,
-      "2027": 5.6,
-      "2028": 6.4,
-      "2029": 6.4,
+      "2027": 5.61,
+      "2028": 6.41,
+      "2029": 6.41,
       "2030": 0,
       "2031": 0
     }
@@ -722,25 +722,25 @@
     "ap_code": "AP000023",
     "ap_short": "BD5AP4 Onderhoud en vernieuwing openbaar domein en wegenis",
     "ap_long": "BD5AP4 Houthalen-Helchteren ontwikkelt en volgt een langetermijnplanning voor het onderhoud en de vernieuwing van haar begraafplaatsen, voertuigenvloot, wegenpatrimonium, riolering en verlichting",
-    "ac_code": "AC000128",
-    "ac_short": "Project Edelweisstraat",
-    "ac_long": "BD5AP4AC8 Houthalen-Helchteren legt de Edelweisstraat (schoolomgeving de Griffel en Kleine Kunstenaar) opnieuw aan (project)",
+    "ac_code": "AC000122",
+    "ac_short": "Gemeentelijke begraafplaatsen",
+    "ac_long": "BD5AP4AC2 Houthalen-Helchteren onderhoudt en vernieuwt de gemeentelijke begraafplaatsen met specifieke aandacht van de noden van haar inwoners",
     "categories": [
-      "02-mobiliteit"
+      "09-zorg-opvang"
     ],
-    "total_amount": 500000.0,
-    "amount_per_capita": 16.0,
+    "total_amount": 573110.0,
+    "amount_per_capita": 18.36,
     "yearly_amounts": {
-      "2026": 500000.0,
-      "2027": 0,
+      "2026": 373110.0,
+      "2027": 200000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 16.0,
-      "2027": 0,
+      "2026": 11.95,
+      "2027": 6.41,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -762,10 +762,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 410000.0,
-    "amount_per_capita": 13.12,
+    "total_amount": 511320.0,
+    "amount_per_capita": 16.38,
     "yearly_amounts": {
-      "2026": 410000.0,
+      "2026": 511320.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -773,7 +773,75 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 13.12,
+      "2026": 16.38,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Houthalen-Helchteren",
+    "nis_code": "72039",
+    "bd_code": "BD000005",
+    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
+    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
+    "ap_code": "AP000023",
+    "ap_short": "BD5AP4 Onderhoud en vernieuwing openbaar domein en wegenis",
+    "ap_long": "BD5AP4 Houthalen-Helchteren ontwikkelt en volgt een langetermijnplanning voor het onderhoud en de vernieuwing van haar begraafplaatsen, voertuigenvloot, wegenpatrimonium, riolering en verlichting",
+    "ac_code": "AC000128",
+    "ac_short": "Project Edelweisstraat",
+    "ac_long": "BD5AP4AC8 Houthalen-Helchteren legt de Edelweisstraat (schoolomgeving de Griffel en Kleine Kunstenaar) opnieuw aan (project)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 16.01,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.01,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Houthalen-Helchteren",
+    "nis_code": "72039",
+    "bd_code": "BD000002",
+    "bd_short": "BD2 Belevenisvol Houthalen-Helchteren",
+    "bd_long": "BD2 Houthalen-Helchteren is een dynamische en bruisende gemeente waarin beleving, toerisme en een sterke lokale economie centraal staan.",
+    "ap_code": "AP000011",
+    "ap_short": "BD2AP2 Ontsloten toeristisch aanbod",
+    "ap_long": "BD2AP2 Houthalen-Helchteren werkt in samenwerking met de sector aan een nieuw toeristisch masterplan met als doelstelling een prominente toeristische rol op te nemen in Limburg.",
+    "ac_code": "AC000068",
+    "ac_short": "Ontsluiting toeristisch aanbod",
+    "ac_long": "BD2AP2AC2 Houthalen-Helchteren ontsluit het toeristisch aanbod in de gemeente",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 494946.0,
+    "amount_per_capita": 15.85,
+    "yearly_amounts": {
+      "2026": 494946.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.85,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -797,7 +865,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 400000.0,
-    "amount_per_capita": 12.8,
+    "amount_per_capita": 12.81,
     "yearly_amounts": {
       "2026": 0,
       "2027": 400000.0,
@@ -808,78 +876,10 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 12.8,
+      "2027": 12.81,
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Houthalen-Helchteren",
-    "nis_code": "72039",
-    "bd_code": "BD000013",
-    "bd_short": "Residentiële en semi-residentiële opvang en huisvesting van senioren en zorgbehoevende ouderen",
-    "bd_long": "Ten behoeve van zelfredzame senioren en zorgbehoevende ouderen is er permanent een kwaliteitsvol aanbod van residentiële opvang en tussenvoorzieningen in eigen beheer van het Zorgbedrijf. Met private of semi-publieke initiatiefnemers wordt contractueel of participatief samengewerkt als antwoord op demografische ontwikkelingen.",
-    "ap_code": "AP000032",
-    "ap_short": "Uitbating erkend en gesubsidieerd woonzorgcentrum Vinkenhof met 114 woongelegenheden",
-    "ap_long": "Het Zorgbedrijf biedt centraal residentiële ouderenzorg aan onder de vorm van een woonzorgcentrum (110 woongelegenheden) en een centrum voor kortverblijf (4 woongelegenheden) met de gebruikelijke gezins- en huishoudelijke zorg, hygiënische en verpleegkundige zorg, (re)activering en psychosociale ondersteuning, animatie en sociale netwerkvorming, … voor elke gebruiker.",
-    "ac_code": "AC000080",
-    "ac_short": "Investering: uitbating erkend en gesubsidieerd woonzorgcentrum Vinkenhof met 114 woongelegenheden",
-    "ac_long": "Investering: het Zorgbedrijf biedt centraal residentiële ouderenzorg aan onder de vorm van een woonzorgcentrum (110 woongelegenheden) en een centrum voor kortverblijf (4 woongelegenheden) met de gebruikelijke gezins- en huishoudelijke zorg, hygiënische en verpleegkundige zorg, (re)activering en psychosociale ondersteuning, animatie en sociale netwerkvorming, … voor elke gebruiker.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 379825.0,
-    "amount_per_capita": 12.16,
-    "yearly_amounts": {
-      "2026": 210775.0,
-      "2027": 24500.0,
-      "2028": 24500.0,
-      "2029": 73500.0,
-      "2030": 46550.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 6.75,
-      "2027": 0.78,
-      "2028": 0.78,
-      "2029": 2.35,
-      "2030": 1.49,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Houthalen-Helchteren",
-    "nis_code": "72039",
-    "bd_code": "BD000010",
-    "bd_short": "Algemene financiering en algemene bestuurlijke en organisatorische omkadering van welzijnsvereniging",
-    "bd_long": "De nodige werkingsmiddelen worden voorzien voor het politieke bestuur, voor het voeren van een eigentijds personeelsbeleid en voor de administratieve en logistieke ondersteuning van de welzijnsinstellingen en hun diverse gebruikersgroepen.",
-    "ap_code": "AP000025",
-    "ap_short": "Algemene financiering en algemene bestuurlijke en organisatorische omkadering van welzijnsvereniging",
-    "ap_long": "De nodige werkingsmiddelen worden voorzien voor het politieke bestuur, voor het voeren van een eigentijds personeelsbeleid en voor de administratieve en logistieke ondersteuning van de welzijnsinstellingen en hun diverse gebruikersgroepen.",
-    "ac_code": "AC000057",
-    "ac_short": "Werking: algemene financiering en algemene bestuurlijke en organisatorische omkadering",
-    "ac_long": "Werking: de nodige werkingsmiddelen worden voorzien voor het politieke bestuur, voor het voeren van een eigentijds personeelsbeleid en voor de administratieve en logistieke ondersteuning van de welzijnsinstellingen en hun diverse gebruikersgroepen.",
-    "categories": [
-      "00-algemene-financiering"
-    ],
-    "total_amount": 317813.0,
-    "amount_per_capita": 10.17,
-    "yearly_amounts": {
-      "2026": 176363.0,
-      "2027": 20500.0,
-      "2028": 20500.0,
-      "2029": 61500.0,
-      "2030": 38950.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 5.65,
-      "2027": 0.66,
-      "2028": 0.66,
-      "2029": 1.97,
-      "2030": 1.25,
       "2031": 0
     }
   },
@@ -898,10 +898,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 9.6,
+    "total_amount": 330000.0,
+    "amount_per_capita": 10.57,
     "yearly_amounts": {
-      "2026": 50000.0,
+      "2026": 80000.0,
       "2027": 50000.0,
       "2028": 50000.0,
       "2029": 50000.0,
@@ -909,7 +909,7 @@
       "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 1.6,
+      "2026": 2.56,
       "2027": 1.6,
       "2028": 1.6,
       "2029": 1.6,
@@ -920,31 +920,31 @@
   {
     "municipality": "Houthalen-Helchteren",
     "nis_code": "72039",
-    "bd_code": "BD000005",
-    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
-    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
-    "ap_code": "AP000023",
-    "ap_short": "BD5AP4 Onderhoud en vernieuwing openbaar domein en wegenis",
-    "ap_long": "BD5AP4 Houthalen-Helchteren ontwikkelt en volgt een langetermijnplanning voor het onderhoud en de vernieuwing van haar begraafplaatsen, voertuigenvloot, wegenpatrimonium, riolering en verlichting",
-    "ac_code": "AC000122",
-    "ac_short": "Gemeentelijke begraafplaatsen",
-    "ac_long": "BD5AP4AC2 Houthalen-Helchteren onderhoudt en vernieuwt de gemeentelijke begraafplaatsen met specifieke aandacht van de noden van haar inwoners",
+    "bd_code": "BD000002",
+    "bd_short": "BD2 Belevenisvol Houthalen-Helchteren",
+    "bd_long": "BD2 Houthalen-Helchteren is een dynamische en bruisende gemeente waarin beleving, toerisme en een sterke lokale economie centraal staan.",
+    "ap_code": "AP000010",
+    "ap_short": "BD2AP1 Ondersteuning van lokale verenigingen",
+    "ap_long": "BD2AP1 Houthalen-Helchteren ondersteunt lokale verenigingen en organisaties via subsidies en de uitleendienst.",
+    "ac_code": "AC000064",
+    "ac_short": "Reglementaire toelagen aan verenigingen",
+    "ac_long": "BD2AP1AC1 Houthalen-Helchteren ondersteunt geregistreerde lokale verenigingen sport, cultuur en jeugd, scholen en organisatoren van evenementen in de gemeente op basis van een subsidiereglement",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 9.6,
+    "total_amount": 314188.0,
+    "amount_per_capita": 10.06,
     "yearly_amounts": {
-      "2026": 100000.0,
-      "2027": 200000.0,
+      "2026": 314188.0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.2,
-      "2027": 6.4,
+      "2026": 10.06,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -967,7 +967,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 8.0,
+    "amount_per_capita": 8.01,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 0,
@@ -977,7 +977,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.0,
+      "2026": 8.01,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -988,34 +988,68 @@
   {
     "municipality": "Houthalen-Helchteren",
     "nis_code": "72039",
-    "bd_code": "BD000015",
-    "bd_short": "Thuiszorgondersteuning van gezinnen en personen met een tijdelijke of permanente zorgbehoefte",
-    "bd_long": "Ten behoeve van ouderen en gezinnen is er een kwaliteitsvol aanbod van thuiszorgondersteuning met als doel mensen in staat stellen langer zelfstandig thuis te wonen, zowel in eigen beheer van het Zorgbedrijf als in beheer van derden, en dit in nauwe samenwerking via het lokale/regionale netwerk eerstelijnsgezondheidszorg.",
-    "ap_code": "AP000034",
-    "ap_short": "Uitbating van 2 erkende lokale dienstencentra",
-    "ap_long": "Het Zorgbedrijf baat minstens twee lokale dienstencentra uit die een tweeledige opdracht hebben: enerzijds het aanbieden van activiteiten om de zelfredzaamheid en het sociale netwerk van de wijkbewoners te versterken en anderzijds het bieden van hulp bij activiteiten van het dagelijks leven.",
-    "ac_code": "AC000086",
-    "ac_short": "Werking: uitbating van 2 erkende lokale dienstencentra",
-    "ac_long": "Werking: het Zorgbedrijf baat minstens twee lokale dienstencentra uit die een tweeledige opdracht hebben: enerzijds het aanbieden van activiteiten om de zelfredzaamheid en het sociale netwerk van de wijkbewoners te versterken en anderzijds het bieden van hulp bij activiteiten van het dagelijks leven.",
+    "bd_code": "BD000005",
+    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
+    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
+    "ap_code": "AP000021",
+    "ap_short": "BD5AP2 Milieubewustheid en groenblauwe dooradering",
+    "ap_long": "BD5AP2 Houthalen-Helchteren legt de nadruk op milieubewustheid en groenblauwe dooradering, met als doel natuur, water, mens en dier beter te integreren.",
+    "ac_code": "AC000112",
+    "ac_short": "Dierenwelzijn",
+    "ac_long": "BD5AP2AC3 Houthalen-Helchteren hecht belang aan dierenwelzijn",
     "categories": [
-      "09-zorg-opvang"
+      "04-veiligheidszorg"
     ],
-    "total_amount": 207751.0,
-    "amount_per_capita": 6.65,
+    "total_amount": 236500.0,
+    "amount_per_capita": 7.57,
     "yearly_amounts": {
-      "2026": 204301.0,
-      "2027": 500.0,
-      "2028": 500.0,
-      "2029": 1500.0,
-      "2030": 950.0,
+      "2026": 236500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.54,
-      "2027": 0.02,
-      "2028": 0.02,
-      "2029": 0.05,
-      "2030": 0.03,
+      "2026": 7.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Houthalen-Helchteren",
+    "nis_code": "72039",
+    "bd_code": "BD000002",
+    "bd_short": "BD2 Belevenisvol Houthalen-Helchteren",
+    "bd_long": "BD2 Houthalen-Helchteren is een dynamische en bruisende gemeente waarin beleving, toerisme en een sterke lokale economie centraal staan.",
+    "ap_code": "AP000013",
+    "ap_short": "BD2AP4 Ondersteuning van lokale ondernemers",
+    "ap_long": "BD2AP4 Houthalen-Helchteren versterkt het dynamische en bruisende karakter van haar lokale economie via een ondersteuning van lokale ondernemers.",
+    "ac_code": "AC000086",
+    "ac_short": "Centrumbeleving",
+    "ac_long": "BD2AP4AC6 Houthalen-Helchteren verhoogt de beleving en aantrekkelijkheid van het centrum (via citydressing, kerstverlichting, etc.) en dringt de leegstand in het handelscentrum terug",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 6.41,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.41,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -1035,7 +1069,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 200000.0,
-    "amount_per_capita": 6.4,
+    "amount_per_capita": 6.41,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
@@ -1069,7 +1103,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 200000.0,
-    "amount_per_capita": 6.4,
+    "amount_per_capita": 6.41,
     "yearly_amounts": {
       "2026": 200000.0,
       "2027": 0,
@@ -1079,7 +1113,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.4,
+      "2026": 6.41,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1090,32 +1124,32 @@
   {
     "municipality": "Houthalen-Helchteren",
     "nis_code": "72039",
-    "bd_code": "BD000002",
-    "bd_short": "BD2 Belevenisvol Houthalen-Helchteren",
-    "bd_long": "BD2 Houthalen-Helchteren is een dynamische en bruisende gemeente waarin beleving, toerisme en een sterke lokale economie centraal staan.",
-    "ap_code": "AP000011",
-    "ap_short": "BD2AP2 Ontsloten toeristisch aanbod",
-    "ap_long": "BD2AP2 Houthalen-Helchteren werkt in samenwerking met de sector aan een nieuw toeristisch masterplan met als doelstelling een prominente toeristische rol op te nemen in Limburg.",
-    "ac_code": "AC000068",
-    "ac_short": "Ontsluiting toeristisch aanbod",
-    "ac_long": "BD2AP2AC2 Houthalen-Helchteren ontsluit het toeristisch aanbod in de gemeente",
+    "bd_code": "BD000005",
+    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
+    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
+    "ap_code": "AP000020",
+    "ap_short": "BD5AP1 Toegankelijke en veilige mobiliteit",
+    "ap_long": "BD5AP1 Houthalen-Helchteren zet in op toegankelijke en veilige mobiliteit, waarbij de verkeersveiligheid en toegankelijkheid voor alle deelnemers in het verkeer verbeterd wordt.",
+    "ac_code": "AC000109",
+    "ac_short": "HOV knooppunten",
+    "ac_long": "BD5AP1AC8 Houthalen-Helchteren zet in op de ontwikkeling van Hoogwaardig Openbaar Vervoer (HOV) knooppunten",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 180000.0,
-    "amount_per_capita": 5.76,
+    "total_amount": 152818.47,
+    "amount_per_capita": 4.89,
     "yearly_amounts": {
-      "2026": 180000.0,
+      "2026": 112818.47,
       "2027": 0,
-      "2028": 0,
+      "2028": 40000.0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.76,
+      "2026": 3.61,
       "2027": 0,
-      "2028": 0,
+      "2028": 1.28,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1124,34 +1158,34 @@
   {
     "municipality": "Houthalen-Helchteren",
     "nis_code": "72039",
-    "bd_code": "BD000011",
-    "bd_short": "Groepsopvang van baby’s en peuters",
-    "bd_long": "Ten behoeve van gezinnen met baby's en peuters (0 - 2,5  jaar) is er permanent een kwaliteitsvol aanbod van voorschoolse groepsopvang in beheer van het Zorgbedrijf. Met andere actoren in de gemeente wordt samengewerkt en afgestemd via het Lokaal Overleg Kinderopvang.",
-    "ap_code": "AP000026",
-    "ap_short": "Uitbating van erkend en gesubsidieerd kinderdagverblijf De Sijsjes met 78 opvangplaatsen",
-    "ap_long": "Binnen het Huis van het Kind voorzien we een centraal aanbod van 78 opvangplaatsen voor baby's en peuters in een door Kind en Gezin erkende en gesubsidieerde voorziening van het Zorgbedrijf (KDV De Sijsjes).",
-    "ac_code": "AC000064",
-    "ac_short": "Investering: uitbating erkend en gesubsidieerd kinderdagverblijf De Sijsjes met 78 opvangplaatsen",
-    "ac_long": "Investering: binnen het Huis van het Kind voorzien we een centraal aanbod van 78 opvangplaatsen voor baby's en peuters in een door Kind en Gezin erkende en gesubsidieerde voorziening van het Zorgbedrijf (KDV De Sijsjes).",
+    "bd_code": "BD000005",
+    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
+    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
+    "ap_code": "AP000023",
+    "ap_short": "BD5AP4 Onderhoud en vernieuwing openbaar domein en wegenis",
+    "ap_long": "BD5AP4 Houthalen-Helchteren ontwikkelt en volgt een langetermijnplanning voor het onderhoud en de vernieuwing van haar begraafplaatsen, voertuigenvloot, wegenpatrimonium, riolering en verlichting",
+    "ac_code": "AC000133",
+    "ac_short": "BD5AP4AC10 Koolmijnlaan (Project)",
+    "ac_long": "BD5AP4AC10 Houthalen-Helchteren legt de Koolmijnlaan opnieuw aan (project)",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 169764.0,
-    "amount_per_capita": 5.43,
+    "total_amount": 126387.0,
+    "amount_per_capita": 4.05,
     "yearly_amounts": {
-      "2026": 138714.0,
-      "2027": 4500.0,
-      "2028": 4500.0,
-      "2029": 13500.0,
-      "2030": 8550.0,
+      "2026": 126387.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.44,
-      "2027": 0.14,
-      "2028": 0.14,
-      "2029": 0.43,
-      "2030": 0.27,
+      "2026": 4.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -1192,32 +1226,32 @@
   {
     "municipality": "Houthalen-Helchteren",
     "nis_code": "72039",
-    "bd_code": "BD000005",
-    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
-    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
-    "ap_code": "AP000020",
-    "ap_short": "BD5AP1 Toegankelijke en veilige mobiliteit",
-    "ap_long": "BD5AP1 Houthalen-Helchteren zet in op toegankelijke en veilige mobiliteit, waarbij de verkeersveiligheid en toegankelijkheid voor alle deelnemers in het verkeer verbeterd wordt.",
-    "ac_code": "AC000109",
-    "ac_short": "HOV knooppunten",
-    "ac_long": "BD5AP1AC8 Houthalen-Helchteren zet in op de ontwikkeling van Hoogwaardig Openbaar Vervoer (HOV) knooppunten",
+    "bd_code": "BD000002",
+    "bd_short": "BD2 Belevenisvol Houthalen-Helchteren",
+    "bd_long": "BD2 Houthalen-Helchteren is een dynamische en bruisende gemeente waarin beleving, toerisme en een sterke lokale economie centraal staan.",
+    "ap_code": "AP000012",
+    "ap_short": "BD2AP3 Kwalitatief en sociaal vrijetijdsaanbod",
+    "ap_long": "BD2AP3 Houthalen-Helchteren biedt een kwalitatief en betaalbaar vrijetijdsaanbod aan met bijzondere aandacht voor kansengroepen.",
+    "ac_code": "AC000076",
+    "ac_short": "Evenementenaanbod",
+    "ac_long": "BD2AP3AC3 Houthalen-Helchteren organiseert (zomer)evenementen voor haar inwoners",
     "categories": [
-      "02-mobiliteit"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 80000.0,
-    "amount_per_capita": 2.56,
+    "total_amount": 15245.0,
+    "amount_per_capita": 0.49,
     "yearly_amounts": {
-      "2026": 40000.0,
+      "2026": 15245.0,
       "2027": 0,
-      "2028": 40000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.28,
+      "2026": 0.49,
       "2027": 0,
-      "2028": 1.28,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1226,22 +1260,22 @@
   {
     "municipality": "Houthalen-Helchteren",
     "nis_code": "72039",
-    "bd_code": "BD000005",
-    "bd_short": "BD5 Patrimoniumbeleid met inachtname van veiligheid, toegankelijkheid, duurzaamheid en groenblauw",
-    "bd_long": "BD5 Houthalen-Helchteren baseert haar patrimoniumbeleid (betreffende mobiliteit, wegenis, gebouwen, groen en milieu) op de speerpunten veiligheid, toegankelijkheid, duurzaamheid en groenblauwe dooradering.",
-    "ap_code": "AP000021",
-    "ap_short": "BD5AP2 Milieubewustheid en groenblauwe dooradering",
-    "ap_long": "BD5AP2 Houthalen-Helchteren legt de nadruk op milieubewustheid en groenblauwe dooradering, met als doel natuur, water, mens en dier beter te integreren.",
-    "ac_code": "AC000112",
-    "ac_short": "dierenwelzijn",
-    "ac_long": "BD5AP2AC3 Houthalen-Helchteren hecht belang aan dierenwelzijn",
+    "bd_code": "BD000002",
+    "bd_short": "BD2 Belevenisvol Houthalen-Helchteren",
+    "bd_long": "BD2 Houthalen-Helchteren is een dynamische en bruisende gemeente waarin beleving, toerisme en een sterke lokale economie centraal staan.",
+    "ap_code": "AP000012",
+    "ap_short": "BD2AP3 Kwalitatief en sociaal vrijetijdsaanbod",
+    "ap_long": "BD2AP3 Houthalen-Helchteren biedt een kwalitatief en betaalbaar vrijetijdsaanbod aan met bijzondere aandacht voor kansengroepen.",
+    "ac_code": "AC000075",
+    "ac_short": "Samenwerkingsovereenkomsten met vrijetijdspartners",
+    "ac_long": "BD2AP3AC2 Houthalen-Helchteren versterkt de kwaliteit van het vrijetijdsaanbod (jeugd, cultuur, sport en erfgoed) via een samenwerking met externe partners",
     "categories": [
-      "04-veiligheidszorg"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 0.48,
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.32,
     "yearly_amounts": {
-      "2026": 15000.0,
+      "2026": 10000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1249,7 +1283,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.48,
+      "2026": 0.32,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1284,40 +1318,6 @@
     },
     "yearly_per_capita": {
       "2026": 0.26,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Houthalen-Helchteren",
-    "nis_code": "72039",
-    "bd_code": "BD000002",
-    "bd_short": "BD2 Belevenisvol Houthalen-Helchteren",
-    "bd_long": "BD2 Houthalen-Helchteren is een dynamische en bruisende gemeente waarin beleving, toerisme en een sterke lokale economie centraal staan.",
-    "ap_code": "AP000012",
-    "ap_short": "BD2AP3 Kwalitatief en sociaal vrijetijdsaanbod",
-    "ap_long": "BD2AP3 Houthalen-Helchteren biedt een kwalitatief en betaalbaar vrijetijdsaanbod aan met bijzondere aandacht voor kansengroepen.",
-    "ac_code": "AC000076",
-    "ac_short": "Evenementenaanbod",
-    "ac_long": "BD2AP3AC3 Houthalen-Helchteren organiseert (zomer)evenementen voor haar inwoners",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 6000.0,
-    "amount_per_capita": 0.19,
-    "yearly_amounts": {
-      "2026": 6000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.19,
       "2027": 0,
       "2028": 0,
       "2029": 0,

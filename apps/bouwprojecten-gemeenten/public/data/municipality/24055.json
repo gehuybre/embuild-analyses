@@ -2,35 +2,239 @@
   {
     "municipality": "Kortenberg",
     "nis_code": "24055",
-    "bd_code": "BD",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.5A",
+    "ac_short": "Renovatie  polyvalente zaal Erps-Kwerps",
+    "ac_long": "Renoveren van de polyvalente zaal te Erps-Kwerps tot een toegankelijke, energiezuinige en multifunctionele ruimte",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 8366854.46,
+    "amount_per_capita": 388.16,
+    "yearly_amounts": {
+      "2026": 122111.46,
+      "2027": 3174447.0,
+      "2028": 3896402.0,
+      "2029": 1173894.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.67,
+      "2027": 147.27,
+      "2028": 180.77,
+      "2029": 54.46,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.2",
+    "ac_short": "Rioleringsproject Den Tomme",
+    "ac_long": "Rioleringsproject Den Tomme",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7053968.0,
+    "amount_per_capita": 327.25,
+    "yearly_amounts": {
+      "2026": 2330724.0,
+      "2027": 4723244.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 108.13,
+      "2027": 219.13,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.6",
+    "ac_short": "Realiseren sportmogelijkheden",
+    "ac_long": "Realiseren van sportmogelijkheden aangepast aan doelgroepbehoeften\n\nOm optimaal in te spelen op de noden van sport, wordt nieuwe sportinfrastructuur gerealiseerd via een gefaseerde uitvoering.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 6275548.54,
+    "amount_per_capita": 291.14,
+    "yearly_amounts": {
+      "2026": 2464026.54,
+      "2027": 300000.0,
+      "2028": 3511522.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 114.31,
+      "2027": 13.92,
+      "2028": 162.91,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-6",
     "bd_short": "Voluit voor een sterke organisatie in Kortenberg",
     "bd_long": "Commentaar:",
-    "ap_code": "AP",
+    "ap_code": "AP-6.1",
     "ap_short": "We optimaliseren de werkomgeving en de organisatiecultuur en stimuleren de betrokkenheid van alle me",
     "ap_long": "We optimaliseren de werkomgeving en de organisatiecultuur en stimuleren de betrokkenheid van alle medewerkers",
-    "ac_code": "AC",
-    "ac_short": "Optimaal inrichten AC voor burgers en medewerkers",
-    "ac_long": "Optimaal inrichten AC voor burgers en medewerkers\n\nDoor het AC optimaal in te richten, versterken we de dienstverlening aan burgers en creëren we een functionele werkomgeving voor medewerkers.",
+    "ac_code": "AC-6.1.2",
+    "ac_short": "Optimale werkomgeving medewerkers UD",
+    "ac_long": "Inrichten van een optimale werkomgeving voor medewerkers van de uitvoeringsdiensten",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 56702952.0,
-    "amount_per_capita": 2631.02,
+    "total_amount": 3924365.0,
+    "amount_per_capita": 182.06,
     "yearly_amounts": {
-      "2026": 10570991.0,
-      "2027": 19428166.0,
-      "2028": 20024003.0,
-      "2029": 4776919.0,
-      "2030": 1191877.0,
-      "2031": 710996.0
+      "2026": 260460.0,
+      "2027": 220000.0,
+      "2028": 2500000.0,
+      "2029": 943905.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 490.49,
-      "2027": 901.47,
-      "2028": 929.11,
-      "2029": 221.65,
-      "2030": 55.3,
-      "2031": 32.99
+      "2026": 12.08,
+      "2027": 10.21,
+      "2028": 115.98,
+      "2029": 43.79,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.3",
+    "ap_short": "We voorzien een aanbod waarmee we verschillende doelgroepen, culturen en generaties bereiken en syne",
+    "ap_long": "We voorzien een aanbod waarmee we verschillende doelgroepen, culturen en generaties bereiken en synergiën bevorderen",
+    "ac_code": "AC-1.3.19",
+    "ac_short": "Site La Cygne ( Lafosse)",
+    "ac_long": "Opwaarderen site Le Cygne (Lafosse)\n\nUitwerken van een recreatieve en erfgoedgerichte invulling binnen diverse thema’s, waaronder natuur- en rustbeleving, cultuur en educatie, ontmoeting en gemeenschapsvorming, herbestemming van erfgoed, duurzaamheid en toegankelijkheid.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 3400000.0,
+    "amount_per_capita": 157.74,
+    "yearly_amounts": {
+      "2026": 3000000.0,
+      "2027": 400000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 139.18,
+      "2027": 18.56,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.8",
+    "ac_short": "Rioleringsproject Zavelstraat ( GIP)",
+    "ac_long": "Rioleringsproject Zavelstraat ( GIP)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3393639.0,
+    "amount_per_capita": 157.44,
+    "yearly_amounts": {
+      "2026": 130533.0,
+      "2027": 1408659.0,
+      "2028": 1854447.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.06,
+      "2027": 65.35,
+      "2028": 86.03,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.3",
+    "ac_short": "Rioleringsproject Dorpstraat/Bergstraat ( GIP)",
+    "ac_long": "Rioleringsproject Dorpstraat/Bergstraat ( GIP)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2912375.0,
+    "amount_per_capita": 135.11,
+    "yearly_amounts": {
+      "2026": 137563.0,
+      "2027": 1245370.0,
+      "2028": 1529442.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.38,
+      "2027": 57.78,
+      "2028": 70.96,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -39,19 +243,19 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "Gelijkblijvend beleid",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
     "ap_long": "Commentaar:",
-    "ac_code": "UD",
+    "ac_code": "UD-G",
     "ac_short": "GBB Uitvoeringsdiensten",
     "ac_long": "Commentaar:",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 2218500.0,
-    "amount_per_capita": 102.94,
+    "total_amount": 2469078.0,
+    "amount_per_capita": 114.55,
     "yearly_amounts": {
-      "2026": 1312000.0,
+      "2026": 1562578.0,
       "2027": 479500.0,
       "2028": 227500.0,
       "2029": 83000.0,
@@ -59,9 +263,9 @@
       "2031": 58500.0
     },
     "yearly_per_capita": {
-      "2026": 60.88,
+      "2026": 72.49,
       "2027": 22.25,
-      "2028": 10.56,
+      "2028": 10.55,
       "2029": 3.85,
       "2030": 2.69,
       "2031": 2.71
@@ -70,20 +274,428 @@
   {
     "municipality": "Kortenberg",
     "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.2",
+    "ac_short": "GBS De Negensprong: vernieuwing turnzaal en extra klaslokalen",
+    "ac_long": "GBS De Negensprong: vernieuwen van de turnzaal, voorzien van extra klaslokalen\n\nInzetten op uitbreiding van de schoolinfrastructuur om te anticiperen op de stijging van het aantal leerlingen.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 2414045.0,
+    "amount_per_capita": 111.99,
+    "yearly_amounts": {
+      "2026": 52980.0,
+      "2027": 529799.0,
+      "2028": 1642376.0,
+      "2029": 188890.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.46,
+      "2027": 24.58,
+      "2028": 76.19,
+      "2029": 8.76,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.3",
+    "ap_short": "We verhogen de verkeersleefbaarheid",
+    "ap_long": "We verhogen de verkeersleefbaarheid",
+    "ac_code": "AC-2.3.4",
+    "ac_short": "Opwaarderen weginfrastructuur",
+    "ac_long": "Opwaarderen van weginfrastructuur\n\nGerichte optimalisatie van de weginfrastructuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2040717.0,
+    "amount_per_capita": 94.67,
+    "yearly_amounts": {
+      "2026": 740717.0,
+      "2027": 400000.0,
+      "2028": 400000.0,
+      "2029": 200000.0,
+      "2030": 200000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 34.36,
+      "2027": 18.56,
+      "2028": 18.56,
+      "2029": 9.28,
+      "2030": 9.28,
+      "2031": 4.64
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.5",
+    "ap_short": "We zetten in op energiebesparende, klimaatvriendelijke en CO2-reducerende maatregelen",
+    "ap_long": "We zetten in op energiebesparende, klimaatvriendelijke en CO2-reducerende maatregelen",
+    "ac_code": "AC-3.5.2",
+    "ac_short": "Opwaarderen gemeentelijk patrimonium",
+    "ac_long": "Opwaarderen van het gemeentelijk patrimonium\n\nWe passen het patrimonium aan zodat ze in goed conditie blijven en voldoen aan de hedendaagse noden en verplichtingen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1671471.0,
+    "amount_per_capita": 77.54,
+    "yearly_amounts": {
+      "2026": 741471.0,
+      "2027": 680000.0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 34.4,
+      "2027": 31.55,
+      "2028": 11.6,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.5",
+    "ap_short": "We zetten in op energiebesparende, klimaatvriendelijke en CO2-reducerende maatregelen",
+    "ap_long": "We zetten in op energiebesparende, klimaatvriendelijke en CO2-reducerende maatregelen",
+    "ac_code": "AC-3.5.4",
+    "ac_short": "Verledding Licht als Dienst",
+    "ac_long": "Verledden van de openbare verlichting en uitvoeren van het masterplan openbare verlichting",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1627922.0,
+    "amount_per_capita": 75.52,
+    "yearly_amounts": {
+      "2026": 459780.0,
+      "2027": 460010.0,
+      "2028": 458165.0,
+      "2029": 23629.0,
+      "2030": 23061.0,
+      "2031": 203277.0
+    },
+    "yearly_per_capita": {
+      "2026": 21.33,
+      "2027": 21.34,
+      "2028": 21.26,
+      "2029": 1.1,
+      "2030": 1.07,
+      "2031": 9.43
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.7",
+    "ac_short": "Rioleringsproject Olmenhoekstraat (GIP)",
+    "ac_long": "Rioleringsproject Olmenhoekstraat (GIP)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1575592.0,
+    "amount_per_capita": 73.1,
+    "yearly_amounts": {
+      "2026": 134201.0,
+      "2027": 410219.0,
+      "2028": 1031172.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.23,
+      "2027": 19.03,
+      "2028": 47.84,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.12",
+    "ac_short": "Rioleringen herstellingen",
+    "ac_long": "Herstellen van rioleringen",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 1500000.0,
+    "amount_per_capita": 69.59,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 300000.0,
+      "2028": 300000.0,
+      "2029": 300000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 13.92,
+      "2027": 13.92,
+      "2028": 13.92,
+      "2029": 13.92,
+      "2030": 6.96,
+      "2031": 6.96
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "Gelijkblijvend beleid",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
     "ap_long": "Commentaar:",
-    "ac_code": "FIN",
+    "ac_code": "GGZ-G",
+    "ac_short": "GBB Grondgebiedzaken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1365675.0,
+    "amount_per_capita": 63.36,
+    "yearly_amounts": {
+      "2026": 845675.0,
+      "2027": 130000.0,
+      "2028": 130000.0,
+      "2029": 130000.0,
+      "2030": 65000.0,
+      "2031": 65000.0
+    },
+    "yearly_per_capita": {
+      "2026": 39.23,
+      "2027": 6.03,
+      "2028": 6.03,
+      "2029": 6.03,
+      "2030": 3.02,
+      "2031": 3.02
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.5",
+    "ac_short": "Rioleringsproject Lodderhoekstraat (GIP)",
+    "ac_long": "Rioleringsproject Lodderhoekstraat (GIP)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1341388.0,
+    "amount_per_capita": 62.23,
+    "yearly_amounts": {
+      "2026": 110446.0,
+      "2027": 615471.0,
+      "2028": 615471.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.12,
+      "2027": 28.55,
+      "2028": 28.55,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-6",
+    "bd_short": "Voluit voor een sterke organisatie in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-6.1",
+    "ap_short": "We optimaliseren de werkomgeving en de organisatiecultuur en stimuleren de betrokkenheid van alle me",
+    "ap_long": "We optimaliseren de werkomgeving en de organisatiecultuur en stimuleren de betrokkenheid van alle medewerkers",
+    "ac_code": "AC-6.1.1",
+    "ac_short": "Optimaal inrichten AC voor burgers en medewerkers",
+    "ac_long": "Optimaal inrichten AC voor burgers en medewerkers\n\nDoor het AC optimaal in te richten, versterken we de dienstverlening aan burgers en creëren we een functionele werkomgeving voor medewerkers.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1203500.0,
+    "amount_per_capita": 55.83,
+    "yearly_amounts": {
+      "2026": 993500.0,
+      "2027": 210000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 46.09,
+      "2027": 9.74,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.7",
+    "ac_short": "Vernieuwen voetbalvelden",
+    "ac_long": "Vernieuwen voetbalvelden\n\nAanleg van een nieuw kunstgrasveld en vernieuwen van de toplaag van het bestaande kunstgrasveld.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1100000.0,
+    "amount_per_capita": 51.03,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 300000.0,
+      "2029": 800000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 13.92,
+      "2029": 37.11,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.2",
+    "ap_short": "We verbeteren de verkeersveiligheid",
+    "ap_long": "We verbeteren de verkeersveiligheid",
+    "ac_code": "AC-2.2.7",
+    "ac_short": "Mechelsesteenweg fietspaden",
+    "ac_long": "Aanleggen van fietspaden langs de Mechelsesteenweg\n\nHeraanleggen van de bestaande fietspaden langs beide zijden van de Mechelsesteenweg. Omdat deze weg deel uitmaakt van het BFF(Bovenlokaal Functioneel Fietsroutenetwerk), kan het project rekenen op subsidie van het Fietsfonds Vlaams Brabant. De uitvoering gebeurt in samenwerking met buurgemeente Steenokkerzeel.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1050000.0,
+    "amount_per_capita": 48.71,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 950000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.64,
+      "2027": 44.07,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.3",
+    "ap_short": "We verhogen de verkeersleefbaarheid",
+    "ap_long": "We verhogen de verkeersleefbaarheid",
+    "ac_code": "AC-2.3.3",
+    "ac_short": "Optimaliseren van voetpaden",
+    "ac_long": "Optimaliseren van voetpaden\n\nOnderzoeken waar de voetpaden in slechte staat verkeren en op basis daarvan opmaken van een prioriteitenlijst en plan van aanpak voor uitvoering.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 46.39,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 200000.0,
+      "2028": 200000.0,
+      "2029": 200000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.28,
+      "2027": 9.28,
+      "2028": 9.28,
+      "2029": 9.28,
+      "2030": 4.64,
+      "2031": 4.64
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "FIN-G",
     "ac_short": "GBB Financien",
     "ac_long": "Commentaar:",
     "categories": [
       "04-veiligheidszorg"
     ],
     "total_amount": 927589.0,
-    "amount_per_capita": 43.04,
+    "amount_per_capita": 43.03,
     "yearly_amounts": {
       "2026": 123970.0,
       "2027": 153808.0,
@@ -98,41 +710,415 @@
       "2028": 7.31,
       "2029": 7.46,
       "2030": 7.61,
-      "2031": 7.77
+      "2031": 7.76
     }
   },
   {
     "municipality": "Kortenberg",
     "nis_code": "24055",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "Gelijkblijvend beleid",
-    "ap_long": "Commentaar:",
-    "ac_code": "GGZ",
-    "ac_short": "GBB Grondgebiedzaken",
-    "ac_long": "Commentaar:",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.4",
+    "ac_short": "Rioleringsproject Kruisstraat",
+    "ac_long": "Rioleringsproject Kruisstraat",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 824000.0,
-    "amount_per_capita": 38.23,
+    "total_amount": 882782.0,
+    "amount_per_capita": 40.95,
     "yearly_amounts": {
-      "2026": 304000.0,
-      "2027": 130000.0,
-      "2028": 130000.0,
-      "2029": 130000.0,
-      "2030": 65000.0,
-      "2031": 65000.0
+      "2026": 408050.0,
+      "2027": 474732.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 14.11,
-      "2027": 6.03,
-      "2028": 6.03,
-      "2029": 6.03,
-      "2030": 3.02,
-      "2031": 3.02
+      "2026": 18.93,
+      "2027": 22.02,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.4",
+    "ac_short": "Integratie Vannetelbosch-site in dorpskern Meerbeek",
+    "ac_long": "Integreren van de Vannetelbosch-site in de dorpskern van Meerbeek (omgevingsaanleg )\n\nOpruimen van het terrein op de site Vannetelbosch en inrichten met een nieuwe parking en bijkomende groenvoorziening. Daarnaast worden buffering- en infiltratievoorzieningen voor hemelwater aangelegd om duurzame waterbeheer te ondersteunen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 705778.0,
+    "amount_per_capita": 32.74,
+    "yearly_amounts": {
+      "2026": 109643.0,
+      "2027": 596135.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.09,
+      "2027": 27.66,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.1",
+    "ac_short": "Rioleringsproject Balkenstraat",
+    "ac_long": "Rioleringsproject Balkenstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 676509.0,
+    "amount_per_capita": 31.39,
+    "yearly_amounts": {
+      "2026": 7205.0,
+      "2027": 53646.0,
+      "2028": 234115.0,
+      "2029": 381543.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.33,
+      "2027": 2.49,
+      "2028": 10.86,
+      "2029": 17.7,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.2",
+    "ap_short": "We verbeteren de verkeersveiligheid",
+    "ap_long": "We verbeteren de verkeersveiligheid",
+    "ac_code": "AC-2.2.6",
+    "ac_short": "Heraanleg Hoogveldstraat",
+    "ac_long": "Heraanleggen van de Hoogveldstraat\n\nVolledige heraanleg van de Hoogveldstraat, tussen Vierhuizenstraat en Sterrebeeksesteenweg, gezien de huidige slechte toestand van het wegdek ; rekening houdend met de Hemelwaterverordening.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 649700.0,
+    "amount_per_capita": 30.14,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 35192.0,
+      "2029": 35192.0,
+      "2030": 579316.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.63,
+      "2029": 1.63,
+      "2030": 26.88,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.2",
+    "ap_short": "We verbeteren de verkeersveiligheid",
+    "ap_long": "We verbeteren de verkeersveiligheid",
+    "ac_code": "AC-2.2.10",
+    "ac_short": "Nieuwe aanleg, verbeteren fietssuggestie -Hulstbergstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 649301.0,
+    "amount_per_capita": 30.12,
+    "yearly_amounts": {
+      "2026": 649301.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 30.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.12",
+    "ac_short": "Opwaarderen jeugdinfrastructuur",
+    "ac_long": "Voorzien en opwaarderen jeugdinfrastructuur\n\nOp verschillende locaties in Kortenberg de bestaande jeugdinfrastructuur analyseren en optimaliseren.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 611073.0,
+    "amount_per_capita": 28.35,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 53901.0,
+      "2028": 195306.0,
+      "2029": 361866.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.5,
+      "2028": 9.06,
+      "2029": 16.79,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-4",
+    "bd_short": "Voluit voor een veilig Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4.2",
+    "ap_short": "We zetten in op openbare veiligheid en risicobeheersing",
+    "ap_long": "We zetten in op openbare veiligheid en risicobeheersing",
+    "ac_code": "AC-4.2.2",
+    "ac_short": "Beveiliging infrastructuur en veilige fietsenstallingen",
+    "ac_long": "Beveiligen van sportinfrastructuur met omheining, badgecontrolesysteem en veilige fietsenstallingen\n\nWe beveiligen de toegang tot de sportaccomodatie om vandalisme en misbruik te beperken",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 499789.0,
+    "amount_per_capita": 23.19,
+    "yearly_amounts": {
+      "2026": 314789.0,
+      "2027": 185000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.6,
+      "2027": 8.58,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.10",
+    "ac_short": "Aankoop en plaatsing IBA'S",
+    "ac_long": "Aankoop en plaatsing IBA'S (Individuele Behandelingsinstallatie voor Afvalwater)",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 463500.0,
+    "amount_per_capita": 21.5,
+    "yearly_amounts": {
+      "2026": 73500.0,
+      "2027": 75000.0,
+      "2028": 76500.0,
+      "2029": 78000.0,
+      "2030": 79500.0,
+      "2031": 81000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.41,
+      "2027": 3.48,
+      "2028": 3.55,
+      "2029": 3.62,
+      "2030": 3.69,
+      "2031": 3.76
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.4",
+    "ap_short": "We zetten in op een mentaliteitswijziging rond mobiliteit",
+    "ap_long": "We zetten in op een mentaliteitswijziging rond mobiliteit",
+    "ac_code": "AC-2.4.3",
+    "ac_short": "Realisatie lokale hoppinpunten",
+    "ac_long": "Realiseren van het lokaal hoppinpunt in Everberg en in Kortenberg",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 433098.0,
+    "amount_per_capita": 20.09,
+    "yearly_amounts": {
+      "2026": 60050.0,
+      "2027": 373048.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.79,
+      "2027": 17.31,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.2",
+    "ap_short": "We verbeteren de verkeersveiligheid",
+    "ap_long": "We verbeteren de verkeersveiligheid",
+    "ac_code": "AC-2.2.5",
+    "ac_short": "Ziptstraat fietsinfrastructuur",
+    "ac_long": "Aanleggen van fietsinfrastructuur in de Ziptstraat\n\nAanleggen van een fietspad langs één zijde van de Ziptstraat, ter aanvulling op het bestaand fietspad aan de overkant.  Omdat de straat deel uitmaakt van het BFF (Bovenlokaal Functioneel Fietsroutenetwerk), kan het project rekenen op subsidie van het Fietsfonds Vlaams Brabant.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 356742.0,
+    "amount_per_capita": 16.55,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 356742.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 16.55,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.5",
+    "ap_short": "We zetten in op energiebesparende, klimaatvriendelijke en CO2-reducerende maatregelen",
+    "ap_long": "We zetten in op energiebesparende, klimaatvriendelijke en CO2-reducerende maatregelen",
+    "ac_code": "AC-3.5.5",
+    "ac_short": "Verledding in/outdoor sportterreinen",
+    "ac_long": "Verledden van indoor- en outdoor sportterreinen voor een energiezuinige sportomgeving\n\nWe passen de verlichting van de sportaccomadatie aan zodat ze energiezuiniger wordt en voldoet aan de hedendaagse noden en verplichtingen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 351000.0,
+    "amount_per_capita": 16.28,
+    "yearly_amounts": {
+      "2026": 351000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.2",
+    "ap_short": "We verbeteren de verkeersveiligheid",
+    "ap_long": "We verbeteren de verkeersveiligheid",
+    "ac_code": "AC-2.2.8",
+    "ac_short": "Prinsendreef renovatie fietspaden",
+    "ac_long": "Renoveren van fietspaden in de Prinsendreef\n\nInstandhoudingswerken van de huidige fietspaden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 340313.0,
+    "amount_per_capita": 15.79,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 340313.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 15.79,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -141,10 +1127,486 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "Gelijkblijvend beleid",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
     "ap_long": "Commentaar:",
-    "ac_code": "ICT",
+    "ac_code": "GGZ-O",
+    "ac_short": "GBB Grondgebiedzaken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 331262.0,
+    "amount_per_capita": 15.37,
+    "yearly_amounts": {
+      "2026": 331262.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.37,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.3",
+    "ac_short": "GBS De Regenboog: onderzoek uitbreiding school",
+    "ac_long": "GBS De Regenboog: onderzoeken van uitbreidingsmogelijkheden en voorzien van tijdelijke klascontainers\n\nInzetten op uitbreiding van de schoolinfrastructuur om te anticiperen op de stijging van het aantal leerlingen.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 289327.0,
+    "amount_per_capita": 13.42,
+    "yearly_amounts": {
+      "2026": 9484.0,
+      "2027": 98005.0,
+      "2028": 181838.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.44,
+      "2027": 4.55,
+      "2028": 8.44,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.2",
+    "ap_short": "We verbeteren de verkeersveiligheid",
+    "ap_long": "We verbeteren de verkeersveiligheid",
+    "ac_code": "AC-2.2.3",
+    "ac_short": "Dalemstraat fietsinfrastructuur",
+    "ac_long": "Aanleggen van fietsinfrastructuur in de Dalemstraat\n\nAanleggen van een fietspad langs één zijde van de Dalemstraat, ter aanvulling op het bestaand fietspad aan de overkant. Omdat de straat deel uitmaakt van het BRF (Bovenlokaal Recreatief Fietsroutenetwerk), kan het project rekenen op subsidie van het Fietsfonds Vlaams Brabant.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 270355.0,
+    "amount_per_capita": 12.54,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 270355.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 12.54,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-4",
+    "bd_short": "Voluit voor een veilig Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4.2",
+    "ap_short": "We zetten in op openbare veiligheid en risicobeheersing",
+    "ap_long": "We zetten in op openbare veiligheid en risicobeheersing",
+    "ac_code": "AC-4.2.1",
+    "ac_short": "Geïntegreerd camerasysteem",
+    "ac_long": "Uitrollen van een geïntegreerd camerasysteem",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 11.6,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.9",
+    "ac_short": "Rioleringsproject Karel Van Miertstraat",
+    "ac_long": "Rioleringsproject Karel Van Miertstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 234135.0,
+    "amount_per_capita": 10.86,
+    "yearly_amounts": {
+      "2026": 64135.0,
+      "2027": 170000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.98,
+      "2027": 7.89,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.2",
+    "ap_short": "We verbeteren de verkeersveiligheid",
+    "ap_long": "We verbeteren de verkeersveiligheid",
+    "ac_code": "AC-2.2.2",
+    "ac_short": "Bovenlokaal functioneel fietsroutenetwerk HST (F3)",
+    "ac_long": "Realiseren van het bovenlokaal functioneel fietsroutenetwerk (HST - uitvoering laatste deel tracé)\n\nUitvoering van de laatste fase van het HST-fietsroutenetwerk.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 231272.0,
+    "amount_per_capita": 10.73,
+    "yearly_amounts": {
+      "2026": 173272.0,
+      "2027": 58000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.04,
+      "2027": 2.69,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.7",
+    "ap_short": "We zijn aantrekkelijk om te wonen",
+    "ap_long": "We zijn aantrekkelijk om te wonen",
+    "ac_code": "AC-3.7.3",
+    "ac_short": "Aanleg parking Dekenijstraat",
+    "ac_long": "Aanleg parking Dekenijstraat\n\nHeraanleg van de parking in de Dekenijstraat in functie van waterdoorlaatbaarheid, optimaal ruimtegebruik en de kwaliteit van de infrastructuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 217422.0,
+    "amount_per_capita": 10.09,
+    "yearly_amounts": {
+      "2026": 217422.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.1",
+    "ap_short": "We communiceren op een heldere, transparante en effectieve manier",
+    "ap_long": "We communiceren op een heldere, transparante en effectieve manier",
+    "ac_code": "AC-1.1.6",
+    "ac_short": "Herinrichten begraafplaatsen",
+    "ac_long": "Herinrichten begraafplaatsen\n\nHet ontgraven en herinrichten van begraafplaatsen is een proces waarbij graven worden ontruimt of verplaatst om ruimte te creëren of de indeling te verbeteren. Hierbij wordt met respect omgegaan met overledenen en nabestaanden, en vindt alles plaats volgens wettelijke voorschriften en ethische richtlijnen. Na het ontgraven wordt de begraafplaats opnieuw ingericht met aandacht voor rust, toegankelijkheid en een waardige uitstraling.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 209500.0,
+    "amount_per_capita": 9.72,
+    "yearly_amounts": {
+      "2026": 24500.0,
+      "2027": 185000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.14,
+      "2027": 8.58,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.2",
+    "ap_short": "We verbeteren de verkeersveiligheid",
+    "ap_long": "We verbeteren de verkeersveiligheid",
+    "ac_code": "AC-2.2.1",
+    "ac_short": "Aanpak snelheidsovertreding incl GAS 5",
+    "ac_long": "Actief inzetten op aanpakken van snelheidsovertreders en implementatie GAS 5",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 190000.0,
+    "amount_per_capita": 8.81,
+    "yearly_amounts": {
+      "2026": 190000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.81,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.14",
+    "ac_short": "Rioleringswerken - Project Kouterstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 189765.0,
+    "amount_per_capita": 8.8,
+    "yearly_amounts": {
+      "2026": 189765.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.7",
+    "ap_short": "We zijn aantrekkelijk om te wonen",
+    "ap_long": "We zijn aantrekkelijk om te wonen",
+    "ac_code": "AC-3.7.1",
+    "ac_short": "Beschermen en opwaarderen gemeentelijke erfgoed",
+    "ac_long": "Beschermen en opwaarderen van het gemeentelijke erfgoed\n\nDe gemeente versterkt het erfgoedbeleid door een samenwerking aan de gaan met IOED Winar, een erkenning aan te vragen als onroerend erfgoedgemeente, renovatie glasramen in de kerk van Everberg,…",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 175000.0,
+    "amount_per_capita": 8.12,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 175000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 8.12,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.13",
+    "ac_short": "Toekomstigbestendige serviceflats",
+    "ac_long": "Toekomstbestendig en aantrekkelijk maken van serviceflats voor bewoners\n\nWe gaan aanpassingen doen aan de serviceflats om de veiligheid, het comfort, het welzijn en de leefkwaliteit van de bewoners te verbeteren",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 174400.0,
+    "amount_per_capita": 8.09,
+    "yearly_amounts": {
+      "2026": 99400.0,
+      "2027": 75000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.61,
+      "2027": 3.48,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.4",
+    "ap_short": "We zetten in op een mentaliteitswijziging rond mobiliteit",
+    "ap_long": "We zetten in op een mentaliteitswijziging rond mobiliteit",
+    "ac_code": "AC-2.4.4",
+    "ac_short": "Toegankelijk maken van bushaltes",
+    "ac_long": "Toegankelijk maken van bushaltes",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 160000.0,
+    "amount_per_capita": 7.42,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.86,
+      "2028": 1.86,
+      "2029": 1.86,
+      "2030": 1.86,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.6",
+    "ac_short": "Rioleringsproject Louis Andriesstraat",
+    "ac_long": "Rioleringsproject Louis Andriesstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 157773.0,
+    "amount_per_capita": 7.32,
+    "yearly_amounts": {
+      "2026": 64648.0,
+      "2027": 93125.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.0,
+      "2027": 4.32,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ICT-G",
     "ac_short": "GBB ICT",
     "ac_long": "Commentaar:",
     "categories": [
@@ -175,8 +1637,8 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "Gelijkblijvend beleid",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
     "ap_long": "Commentaar:",
     "ac_code": "CUL",
     "ac_short": "GBB Cultuur",
@@ -209,8 +1671,8 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "Gelijkblijvend beleid",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
     "ap_long": "Commentaar:",
     "ac_code": "SPO",
     "ac_short": "GBB Sport",
@@ -240,11 +1702,79 @@
   {
     "municipality": "Kortenberg",
     "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.1",
+    "ap_short": "We investeren in de aanleg en het onderhoud van (trage) wegen, fiets- en voetpaden",
+    "ap_long": "We investeren in de aanleg en het onderhoud van (trage) wegen, fiets- en voetpaden",
+    "ac_code": "AC-2.1.2",
+    "ac_short": "Optimaliseren van trage wegeninfrastructuur",
+    "ac_long": "Optimaliseren van trage wegeninfrastructuur\n\nGericht trage wegen infrastructuur optimaliseren, rekening houdend met het Trage Wegen Beleidsplan.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.64,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.93,
+      "2028": 0.93,
+      "2029": 0.93,
+      "2030": 0.93,
+      "2031": 0.93
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.4",
+    "ap_short": "We zetten in op een mentaliteitswijziging rond mobiliteit",
+    "ap_long": "We zetten in op een mentaliteitswijziging rond mobiliteit",
+    "ac_code": "AC-2.4.5",
+    "ac_short": "Fietsenstallingen bij evenementen, sport en cultuurlocaties",
+    "ac_long": "Voorzien van veilige fietsenstallingen bij evenementen, sport- en cultuurlocaties",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.64,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.32,
+      "2027": 2.32,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "Gelijkblijvend beleid",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
     "ap_long": "Commentaar:",
     "ac_code": "MOB",
     "ac_short": "GBB Mobiliteit",
@@ -277,8 +1807,8 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "Gelijkblijvend beleid",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
     "ap_long": "Commentaar:",
     "ac_code": "WPW",
     "ac_short": "GBB Welzijnsprojectwerk",
@@ -308,13 +1838,149 @@
   {
     "municipality": "Kortenberg",
     "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.9",
+    "ac_short": "Vernieuwing speelterreinen met oog op toegankelijkheid",
+    "ac_long": "Vernieuwen en inclusief inrichten van speelterreinen op basis van inspraak van kinderen zodat ze toegankelijk en bruikbaar zijn voor alle kinderen\n\nDe bestaande speelterreinen worden aangepast op basis van de controleverslagen, mogelijke inspraaksesies,…",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 2.78,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 30000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.39,
+      "2028": 0,
+      "2029": 1.39,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.2",
+    "ap_short": "We verbeteren de verkeersveiligheid",
+    "ap_long": "We verbeteren de verkeersveiligheid",
+    "ac_code": "AC-2.2.4",
+    "ac_short": "Tervuursesteenweg fietsinfrastructuur",
+    "ac_long": "Aanleggen van fietsinfrastructuur langs de Tervuursesteenweg\n\nUitvoeren van een studie voor de aanleg van nieuwe fietspaden langs de Tervuursesteenweg.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 56719.0,
+    "amount_per_capita": 2.63,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 56719.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 2.63
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.5B",
+    "ac_short": "Renovatie  polyvalente zaal Erps-Kwerps_inrichting",
+    "ac_long": "Renoveren van de polyvalente zaal te Erps-Kwerps tot een toegankelijke, energiezuinige en multifunctionele ruimte",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 55000.0,
+    "amount_per_capita": 2.55,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 55000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.55,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.3",
+    "ap_short": "We realiseren een duurzaam afvalbeleid",
+    "ap_long": "We realiseren een duurzaam afvalbeleid",
+    "ac_code": "AC-3.3.1B",
+    "ac_short": "Geïntegreerde aanpak tegen sluikstort en zwerfvuil",
+    "ac_long": "Uitvoeren van een geïntegreerde aanpak tegen sluikstort en zwerfvuil\n\nOptimaliseren van vuilbakkenplan met slimme vuilbakken op strategische plaatsen zoals hotspots voor sluikstort.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 55000.0,
+    "amount_per_capita": 2.55,
+    "yearly_amounts": {
+      "2026": 55000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "Gelijkblijvend beleid",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
     "ap_long": "Commentaar:",
-    "ac_code": "PERS",
+    "ac_code": "PERS-G",
     "ac_short": "GBB Personeelsdienst",
     "ac_long": "Commentaar:",
     "categories": [
@@ -332,6 +1998,414 @@
     },
     "yearly_per_capita": {
       "2026": 2.41,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.13",
+    "ac_short": "Rioleringswerken Project Boeyendaal",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 52000.0,
+    "amount_per_capita": 2.41,
+    "yearly_amounts": {
+      "2026": 52000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.41,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.3",
+    "ap_short": "We realiseren een duurzaam afvalbeleid",
+    "ap_long": "We realiseren een duurzaam afvalbeleid",
+    "ac_code": "AC-3.3.2",
+    "ac_short": "Installeren van ondergrondse glascontainers",
+    "ac_long": "Installeren van ondergrondse glascontainers",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 45000.0,
+    "amount_per_capita": 2.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 45000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.09,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.15",
+    "ac_short": "Rioleringswerken Project Waterstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 43600.0,
+    "amount_per_capita": 2.02,
+    "yearly_amounts": {
+      "2026": 43600.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.1",
+    "ac_short": "Optimaliseren BIB",
+    "ac_long": "Optimaliseren van de Bib\n\nDe ruimte van de bibliotheek wordt verder geoptimaliseerd. We zetten tegelijk in op de onbemande bibliotheek (onbemande openingsuren) naast de huidige openingsuren. We zetten tot slot verder in op een fysiek 'Taalpunt Jeugd'.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 1.86,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.86,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.8",
+    "ac_short": "Toegankelijke sportmogelijkheden in openlucht",
+    "ac_long": "Voorzien in toegankelijke sportmogelijkheden in openlucht\n\nVoorzien van fitnessmogelijkheden, tafeltennis,… in openlucht.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 1.86,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.86,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-3",
+    "bd_short": "Voluit voor een proper en duurzaam Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.4",
+    "ap_short": "We verbeteren de waterhuishouding",
+    "ap_long": "We verbeteren de waterhuishouding",
+    "ac_code": "AC-3.4.16",
+    "ac_short": "Rioleringswerken - Project Nederokkerzeelsesteenweg",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 39590.0,
+    "amount_per_capita": 1.84,
+    "yearly_amounts": {
+      "2026": 39590.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.84,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.1",
+    "ap_short": "We communiceren op een heldere, transparante en effectieve manier",
+    "ap_long": "We communiceren op een heldere, transparante en effectieve manier",
+    "ac_code": "AC-1.1.1",
+    "ac_short": "Communicatie via digitale informatieborden",
+    "ac_long": "Inzetten op communicatie via digitale informatieborden, geïnstalleerd op strategische locaties\n\nWe communiceren via de digitale informatieschermen die de afgelopen legislatuur in onze gemeente in gebruik werden genomen. Er wordt nog een scherm geplaatst in de dorpskern van Erps.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 37500.0,
+    "amount_per_capita": 1.74,
+    "yearly_amounts": {
+      "2026": 37500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-1",
+    "bd_short": "Voluit respectvol samenleven in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1.4",
+    "ap_short": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ap_long": "We voorzien kwalitatieve en toegankelijke vrijetijds-, welzijns- en onderwijsinfrastructuur",
+    "ac_code": "AC-1.4.10",
+    "ac_short": "Vaste ontmoetingsplaats voor jongeren",
+    "ac_long": "Inrichten van een vaste ontmoetingsplaats voor jongeren met zit- en speelelementen, op basis van participatie en regelmatige evaluatie",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.39,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.39,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "SD",
+    "ac_short": "GBB Sociale dienst",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.93,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-2",
+    "bd_short": "Voluit inzetten op mobiliteit in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.4",
+    "ap_short": "We zetten in op een mentaliteitswijziging rond mobiliteit",
+    "ap_long": "We zetten in op een mentaliteitswijziging rond mobiliteit",
+    "ac_code": "AC-2.4.6",
+    "ac_short": "Fietsenstallingen in kern en bij mobiliteitsknooppunt",
+    "ac_long": "Voorzien van veilige fietsenstallingen in kernen en nabij mobiliteitsknooppunten",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.93,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.46,
+      "2027": 0.46,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-ALL",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "IZ-G",
+    "ac_short": "GBB Interne Zaken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 11208.0,
+    "amount_per_capita": 0.52,
+    "yearly_amounts": {
+      "2026": 11208.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenberg",
+    "nis_code": "24055",
+    "bd_code": "BD-6",
+    "bd_short": "Voluit voor een sterke organisatie in Kortenberg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-6.1",
+    "ap_short": "We optimaliseren de werkomgeving en de organisatiecultuur en stimuleren de betrokkenheid van alle me",
+    "ap_long": "We optimaliseren de werkomgeving en de organisatiecultuur en stimuleren de betrokkenheid van alle medewerkers",
+    "ac_code": "AC-6.1.5",
+    "ac_short": "Aanbieden mobiokit aan mindermobiele inwoners",
+    "ac_long": "Aanbieden van een mobi-kit voor eID-aanvragen van mindermobiele inwoners\n\nVoor de aanmaak van een eID bij mindermobiele inwoners bieden we een mobiokit aan, waardoor biometrische gegevens geregistreerd kunnen worden aan huis. \nDe mindermobiele inwoner dient zich niet meer te verplaatsen voor de aanvraag van een eID.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 10300.0,
+    "amount_per_capita": 0.48,
+    "yearly_amounts": {
+      "2026": 10300.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.48,
       "2027": 0,
       "2028": 0,
       "2029": 0,

@@ -2,35 +2,987 @@
   {
     "municipality": "Boortmeerbeek",
     "nis_code": "24014",
-    "bd_code": "BD",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-12",
+    "ap_short": "We optimaliseren en investeren via projectontwikkeling in het patrimonium van de gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-79",
+    "ac_short": "We bouwen een nieuwe gemeenteschool",
+    "ac_long": "Het lokaal bestuur realiseert de bouw van een nieuwe gemeenteschool op dezelfde locatie als de huidige school, die tijdens de werken operationeel blijft. De nieuwe school moet voldoende ruimte bieden voor kwalitatief onderwijs en een moderne leeromgeving. De uitvoering gebeurt via een extern bouwteam en wordt gecoördineerd door de gemeentelijke diensten",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 14609039.95,
+    "amount_per_capita": 1056.26,
+    "yearly_amounts": {
+      "2026": 1999271.12,
+      "2027": 6228395.35,
+      "2028": 5856877.03,
+      "2029": 524496.45,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 144.55,
+      "2027": 450.33,
+      "2028": 423.46,
+      "2029": 37.92,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-11",
+    "ap_short": "We investeren via projectontwikkeling in een aantrekkelijk en veilig openbaar domein",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-66",
+    "ac_short": "We breiden ons rioleringsstelsel verder uit.",
+    "ac_long": "We breiden het rioleringsstelsel uit door verbindingsrioleringen aan te leggen in Lievekesbossen, VBR Heldenplein, sanering Langestraat en sanering Goorbeek, met als doel het afvalwater efficiënt af te voeren naar de zuiveringsinstallaties en waterlopen te saneren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7212000.0,
+    "amount_per_capita": 521.44,
+    "yearly_amounts": {
+      "2026": 2786000.0,
+      "2027": 2186000.0,
+      "2028": 1120000.0,
+      "2029": 1120000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 201.43,
+      "2027": 158.05,
+      "2028": 80.98,
+      "2029": 80.98,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-1",
+    "bd_short": "Werken en wonen",
+    "bd_long": "Kwalitatieve omschrijving: We zetten in op een beleid dat mensen ondersteunt om duurzaam aan het werk te blijven. Tegelijk stimuleren we een ondernemingsvriendelijk klimaat waarin lokale initiatieven alle kansen krijgen om te groeien en bloeien. Boortmeerbeek is een gemeente waar het aangenaam en duurzaam wonen is. We zetten in op een inclusief en doordacht woonbeleid dat iedereen, jong en oud, de kans biedt om in zijn vertrouwde omgeving te blijven wonen.",
+    "ap_code": "AP-3",
+    "ap_short": "We blijven verder inzetten op mobiliteit en verbeteren de verkeersveiligheid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-17",
+    "ac_short": "We verfijnen het trage wegenplan en leggen de nadruk op cruciale verbindingen",
+    "ac_long": "Het lokaal bestuur werkt het trage wegenplan verder uit met focus op de meest cruciale verbindingen tussen woonkernen, scholen, voorzieningen en recreatieve routes. Daarbij wordt nagegaan welke bestaande trage wegen behouden blijven, welke beter opengesteld kunnen worden en welke nieuwe verbindingen als trage weg kunnen worden ingericht. Daarboven worden veiligheidsacties in de basisscholen georganiseerd",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2176000.0,
+    "amount_per_capita": 157.33,
+    "yearly_amounts": {
+      "2026": 931000.0,
+      "2027": 945000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 67.31,
+      "2027": 68.33,
+      "2028": 5.42,
+      "2029": 5.42,
+      "2030": 5.42,
+      "2031": 5.42
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-12",
+    "ap_short": "We optimaliseren en investeren via projectontwikkeling in het patrimonium van de gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-76",
+    "ac_short": "Het kasteel Ravestein wordt een gemeenschapscentrum met ruimte voor een volwaardige cultuurzaal",
+    "ac_long": "Het lokaal bestuur wil het leegstaande kasteel Ravestein herbestemmen tot een gemeenschapscentrummet een  evenementenzaal, inclusief podium. Dit project  zal een antwoord geven op het huidige tekort aan cultuurinfrastructuur in de gemeente. De herbestemming gebeurt in overeenstemming met de voorwaarden van het legaat, waarbij het kasteel enkel voor gemeentelijke doeleinden mag gebruikt worden. De opmaak van het programma van eisen in samenspraak met actoren en het plan van aanpak met vooropgestelde timing wordt dit jaar (2025) opgestart, de studie wordt uitgeschreven in 2026 en zal uitgevoerd worden door een studiebureau met specialisatie in renovatie en de cultuurbestemming dit in samenwerking met de dienst patrimonium,",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2173913.04,
+    "amount_per_capita": 157.18,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 2173913.04,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 157.18,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-12",
+    "ap_short": "We optimaliseren en investeren via projectontwikkeling in het patrimonium van de gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-77",
+    "ac_short": "We herbestemmen de kerk van Schiplaken als cultuurplek voor verenigingen",
+    "ac_long": "We herbestemmen de kerk tot een gemeentelijke hub waar er plaats is voor de verenigingen, de activiteiten van Den Bosuil vzw zullen hier hun plaats vinden. Naast deze invulling gaan we door participatie en overleg op zoeknaar een concrete daginvulling, ook het toekomstig beheer/ overeenkomst  worden onderzocht.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1968600.0,
+    "amount_per_capita": 142.33,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 625580.0,
+      "2028": 1343020.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 45.23,
+      "2028": 97.1,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-2",
+    "bd_short": "Gemeenschapsvorming",
+    "bd_long": "Kwalitatieve omschrijving: We stimuleren ontmoeten, verbinden en verenigen over generaties heen. Door gemeenschapsvorming actief te faciliteren, creëren we kansen voor inwoners om elkaar te leren kennen, samen te leven en samen te bouwen aan een warme en bruisende gemeenschap.",
+    "ap_code": "AP-5",
+    "ap_short": "gemeenschapsvorming",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-38",
+    "ac_short": "De uitbreiding van BIN's in samenwerking met de politie versterkt het veiligheidsgevoel",
+    "ac_long": "Het bestuur wil het veiligheidsgevoel in de gemeente versterken via samenwerking tussen burgers, politie en lokale diensten. De zichtbaarheid van de wijkagent wordt verhoogd en het aantal BIN-netwerken uitgebreid.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1782451.53,
+    "amount_per_capita": 128.87,
+    "yearly_amounts": {
+      "2026": 815866.24,
+      "2027": 215283.39,
+      "2028": 173568.05,
+      "2029": 176421.05,
+      "2030": 179346.05,
+      "2031": 221966.75
+    },
+    "yearly_per_capita": {
+      "2026": 58.99,
+      "2027": 15.57,
+      "2028": 12.55,
+      "2029": 12.76,
+      "2030": 12.97,
+      "2031": 16.05
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-12",
+    "ap_short": "We optimaliseren en investeren via projectontwikkeling in het patrimonium van de gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-88",
+    "ac_short": "We maken een erfgoedbeleid voor de renovatie en bescherming van waardevol gemeentelijk erfgoed",
+    "ac_long": "Via onroerende erfgoedbeleid zal vastgelegd worden hoe de gemeente invulling zal geven aan de bescherming , het beheer en de promotie van het erfgoed, dit voor bouwkundig, landschappelijk en cultureel erfgoed. Het uitwerken van het beleid als inventarisatie zal in samenwerking gebeuren met lokale erfgoeddiensten en intergemeentelijke ergoedcel, De gemeente start met de renovatie Beschermd Dorpzicht   \"Site Servaes Molen\".",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 1451491.6,
+    "amount_per_capita": 104.95,
+    "yearly_amounts": {
+      "2026": 1277000.4,
+      "2027": 161691.2,
+      "2028": 3200.0,
+      "2029": 3200.0,
+      "2030": 3200.0,
+      "2031": 3200.0
+    },
+    "yearly_per_capita": {
+      "2026": 92.33,
+      "2027": 11.69,
+      "2028": 0.23,
+      "2029": 0.23,
+      "2030": 0.23,
+      "2031": 0.23
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-11",
+    "ap_short": "We investeren via projectontwikkeling in een aantrekkelijk en veilig openbaar domein",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-74",
+    "ac_short": "We maken een wegeninventaris en onderhoudsplan, en investeren waar nieuwe infrastructuur nodig is",
+    "ac_long": "We stellen een wegeninventaris op en ontwikkelen een beheers- en onderhoudsplan voor de bestaande verkeersinfrastructuur, met het oog op het gericht aanpakken van prioritaire wegen op basis van hun actuele staat. Waar nodig investeren we in nieuwe infrastructuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1386121.39,
+    "amount_per_capita": 100.22,
+    "yearly_amounts": {
+      "2026": 986121.39,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 71.3,
+      "2027": 7.23,
+      "2028": 0,
+      "2029": 10.85,
+      "2030": 10.85,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-6",
     "bd_short": "We professionaliseren ons gemeentelijk bedrijf",
     "bd_long": "Kwalitatieve omschrijving: We professionaliseren ons gemeentelijk bedrijf om sterker, efficiënter en toekomstgericht te kunnen werken. We zetten in op een moderne projectwerking en hertekenen ons organisatiemodel. Onze organisatiecultuur is mensgericht, met aandacht voor welzijn, ontwikkeling en werkgeluk van onze medewerkers.",
-    "ap_code": "AP",
+    "ap_code": "AP-19",
     "ap_short": "Professionaliseren BBC",
     "ap_long": "Commentaar:",
-    "ac_code": "ACT",
+    "ac_code": "ACT-135",
     "ac_short": "We voeren een toekomstgericht financieel beleid waarbij we de financiële risico's beheersen.",
     "ac_long": "We voeren een toekomstgericht financieel beleid dat breed gedragen is binnen de organisatie en gericht is op het beheersen van financiële risico’s, zodat we de financiële duurzaamheid van het bestuur kunnen waarborgen.",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 41014884.0,
-    "amount_per_capita": 2973.68,
+    "total_amount": 1200000.0,
+    "amount_per_capita": 86.76,
     "yearly_amounts": {
-      "2026": 12887907.0,
-      "2027": 13902359.0,
-      "2028": 9542475.0,
-      "2029": 2970753.0,
-      "2030": 951223.0,
-      "2031": 760167.0
+      "2026": 200000.0,
+      "2027": 200000.0,
+      "2028": 200000.0,
+      "2029": 200000.0,
+      "2030": 200000.0,
+      "2031": 200000.0
     },
     "yearly_per_capita": {
-      "2026": 934.41,
-      "2027": 1007.96,
-      "2028": 691.85,
-      "2029": 215.39,
-      "2030": 68.97,
-      "2031": 55.11
+      "2026": 14.46,
+      "2027": 14.46,
+      "2028": 14.46,
+      "2029": 14.46,
+      "2030": 14.46,
+      "2031": 14.46
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-13",
+    "ap_short": "We investeren in infrastructuur & uitrusting voor onze diensten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-93",
+    "ac_short": "We nemen beheerskosten op voor infrastructuur, uitrusting, materiaal en machines",
+    "ac_long": "We voorzien structureel in de beheerskosten voor gemeentelijke infrastructuur, uitrusting en machines, zodat het onderhoudsplan efficiënt kan worden uitgevoerd en de openbare ruimte duurzaam en verzorgd blijft, met aandacht voor tijdige vervanging en instandhouding van elementen zoals bushokjes, paaltjes en werkmateriaal.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 898000.0,
+    "amount_per_capita": 64.93,
+    "yearly_amounts": {
+      "2026": 289000.0,
+      "2027": 135000.0,
+      "2028": 131000.0,
+      "2029": 131000.0,
+      "2030": 131000.0,
+      "2031": 81000.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.9,
+      "2027": 9.76,
+      "2028": 9.47,
+      "2029": 9.47,
+      "2030": 9.47,
+      "2031": 5.86
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-12",
+    "ap_short": "We optimaliseren en investeren via projectontwikkeling in het patrimonium van de gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-78",
+    "ac_short": "We maken een patrimoniumplan voor onderhoud en verkoop van gebouwen en gronden",
+    "ac_long": "Het bestuur werkt het patrimoniumplan verder uit en bepaalt prioriteiten naar de gemeentelijke gebouwen en de te nemen maatregelen met als doel een toekomst bestendig patrimonium. Het plan zal ook de korte-en lange termijndoelstellingen bepalen voor het beheer, onderhoud van de het gemeentelijke vastgoed maar ook uitspraak doen over het afstoten van gebouwen en gronden die niet maar aan de doelstellingen van de gemeente voldoen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 771250.6,
+    "amount_per_capita": 55.76,
+    "yearly_amounts": {
+      "2026": 362501.0,
+      "2027": 104749.6,
+      "2028": 76000.0,
+      "2029": 76000.0,
+      "2030": 76000.0,
+      "2031": 76000.0
+    },
+    "yearly_per_capita": {
+      "2026": 26.21,
+      "2027": 7.57,
+      "2028": 5.49,
+      "2029": 5.49,
+      "2030": 5.49,
+      "2031": 5.49
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-1",
+    "bd_short": "Werken en wonen",
+    "bd_long": "Kwalitatieve omschrijving: We zetten in op een beleid dat mensen ondersteunt om duurzaam aan het werk te blijven. Tegelijk stimuleren we een ondernemingsvriendelijk klimaat waarin lokale initiatieven alle kansen krijgen om te groeien en bloeien. Boortmeerbeek is een gemeente waar het aangenaam en duurzaam wonen is. We zetten in op een inclusief en doordacht woonbeleid dat iedereen, jong en oud, de kans biedt om in zijn vertrouwde omgeving te blijven wonen.",
+    "ap_code": "AP-3",
+    "ap_short": "We blijven verder inzetten op mobiliteit en verbeteren de verkeersveiligheid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-16",
+    "ac_short": "We verbeteren en onderhouden fiets- en voetpaden en bekijken of er nieuwe nodig zijn",
+    "ac_long": "We pakken jaarlijks de meest dringende knelpunten aan in het bestaande netwerk van fiets- en voetpaden en onderzoeken waar uitbreiding nodig is, zodat de infrastructuur veilig, comfortabel en toekomstgericht blijft voor alle gebruikers.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 540000.0,
+    "amount_per_capita": 39.04,
+    "yearly_amounts": {
+      "2026": 185000.0,
+      "2027": 0,
+      "2028": 210000.0,
+      "2029": 145000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.38,
+      "2027": 0,
+      "2028": 15.18,
+      "2029": 10.48,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-2",
+    "bd_short": "Gemeenschapsvorming",
+    "bd_long": "Kwalitatieve omschrijving: We stimuleren ontmoeten, verbinden en verenigen over generaties heen. Door gemeenschapsvorming actief te faciliteren, creëren we kansen voor inwoners om elkaar te leren kennen, samen te leven en samen te bouwen aan een warme en bruisende gemeenschap.",
+    "ap_code": "AP-7",
+    "ap_short": "Toegankelijke structuren",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-48",
+    "ac_short": "We maken van de bib een moderne, toegankelijke plek voor lezen, leren en ontmoeten",
+    "ac_long": "De bibliotheek wordt heringericht tot een moderne, toegankelijke plek die uitnodigt tot lezen, leren en ontmoeten, met aandacht voor diverse doelgroepen en in samenwerking met lokale partners.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 521832.98,
+    "amount_per_capita": 37.73,
+    "yearly_amounts": {
+      "2026": 186957.99,
+      "2027": 161895.99,
+      "2028": 41981.0,
+      "2029": 42821.0,
+      "2030": 43677.0,
+      "2031": 44500.0
+    },
+    "yearly_per_capita": {
+      "2026": 13.52,
+      "2027": 11.71,
+      "2028": 3.04,
+      "2029": 3.1,
+      "2030": 3.16,
+      "2031": 3.22
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-1",
+    "bd_short": "Werken en wonen",
+    "bd_long": "Kwalitatieve omschrijving: We zetten in op een beleid dat mensen ondersteunt om duurzaam aan het werk te blijven. Tegelijk stimuleren we een ondernemingsvriendelijk klimaat waarin lokale initiatieven alle kansen krijgen om te groeien en bloeien. Boortmeerbeek is een gemeente waar het aangenaam en duurzaam wonen is. We zetten in op een inclusief en doordacht woonbeleid dat iedereen, jong en oud, de kans biedt om in zijn vertrouwde omgeving te blijven wonen.",
+    "ap_code": "AP-3",
+    "ap_short": "We blijven verder inzetten op mobiliteit en verbeteren de verkeersveiligheid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-19",
+    "ac_short": "We evalueren het verkeersleefbaarheidsplan en passen het aan waar nodig",
+    "ac_long": "Het lokaal bestuur evalueert het bestaande verkeerleefbaarheidsplan kritisch en past het aan waar nodig. Daarbij wordt nagegaan welke maatregelen reeds zijn uitgevoerd, welke nog relevant zijn en welke geschrapt kunnen worden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 384520.0,
+    "amount_per_capita": 27.8,
+    "yearly_amounts": {
+      "2026": 384520.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 27.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-6",
+    "bd_short": "We professionaliseren ons gemeentelijk bedrijf",
+    "bd_long": "Kwalitatieve omschrijving: We professionaliseren ons gemeentelijk bedrijf om sterker, efficiënter en toekomstgericht te kunnen werken. We zetten in op een moderne projectwerking en hertekenen ons organisatiemodel. Onze organisatiecultuur is mensgericht, met aandacht voor welzijn, ontwikkeling en werkgeluk van onze medewerkers.",
+    "ap_code": "AP-21",
+    "ap_short": "Algemene werkingskosten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-142",
+    "ac_short": "Algemene dienstverlening",
+    "ac_long": "We voeren verschillende acties uit die de algemene dienstverlening ten goede komen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 305750.0,
+    "amount_per_capita": 22.11,
+    "yearly_amounts": {
+      "2026": 83700.0,
+      "2027": 35500.0,
+      "2028": 35550.0,
+      "2029": 85000.0,
+      "2030": 33000.0,
+      "2031": 33000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.05,
+      "2027": 2.57,
+      "2028": 2.57,
+      "2029": 6.15,
+      "2030": 2.39,
+      "2031": 2.39
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-12",
+    "ap_short": "We optimaliseren en investeren via projectontwikkeling in het patrimonium van de gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-87",
+    "ac_short": "We vergroenen onze begraafplaatsen",
+    "ac_long": "Het lokaal bestuur start een verkenningstraject om de begraafplaatsen te vergroenen. Daarbij worden verschillende pistes onderzocht zoals het ontruimen van graven met vervallen concessies, het aanplanten van extra groen of een volledige heraanleg van de begraafplaats met een extern bureau. De bedoeling is om de begraafplaatsen op een serene, duurzame en onderhoudsvriendelijke manier in te richten en in te spelen om de huidige tendensen. Ook moet er een nieuw reglement over de begraafplaatsen komen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 212929.76,
+    "amount_per_capita": 15.4,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 149050.83,
+      "2028": 63878.93,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 10.78,
+      "2028": 4.62,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-12",
+    "ap_short": "We optimaliseren en investeren via projectontwikkeling in het patrimonium van de gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-85",
+    "ac_short": "We moderniseren de gebouwen en speelpleinen van Ravot",
+    "ac_long": "Het lokaal bestuur wil de gebouwen en speelterrein van Ravot toekomstbestendig maken. Er worden gericht aanpassingen gepland zoals het vernieuwen van de inkom, verbeterde toegankelijkheid en infrastructurele ingrepen die exploitatie en flexibiliteit in de toekomst mogelijk maken, zoals het openstellen van de gebouwen voor activiteiten van  scholen, verenigingen. De werken zullen ook moeten passen binnen de verplichtingen van het BOA-decreet.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 14.46,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.85,
+      "2027": 3.62,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-13",
+    "ap_short": "We investeren in infrastructuur & uitrusting voor onze diensten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-90",
+    "ac_short": "We electrificeren het werkmateriaal in de loods",
+    "ac_long": "We vervangen stapsgewijs fossiel aangedreven werkmateriaal in de gemeentelijke loods door elektrische alternatieven, zoals heggenscharen, bladblazers en grasmachines, om de werking duurzamer, stiller en gezonder te maken voor medewerkers en de leefomgeving.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 14.46,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.85,
+      "2027": 0.72,
+      "2028": 0.72,
+      "2029": 0.72,
+      "2030": 0.72,
+      "2031": 0.72
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-13",
+    "ap_short": "We investeren in infrastructuur & uitrusting voor onze diensten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-89",
+    "ac_short": "We vergroenen het rollend materieel",
+    "ac_long": "We bouwen stapsgewijs een duurzamer wagen- en machinepark uit door verouderd gemeentelijk rollend materieel te vervangen door milieuvriendelijke alternatieven, zoals elektrische voertuigen, cargofietsen en toestellen op hernieuwbare energie, zodat onze werking efficiënter en ecologischer wordt",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 190000.0,
+    "amount_per_capita": 13.74,
+    "yearly_amounts": {
+      "2026": 190000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-12",
+    "ap_short": "We optimaliseren en investeren via projectontwikkeling in het patrimonium van de gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-86",
+    "ac_short": "We maken gemeentelijke gebouwen energiezuinig en conform de regels rond asbest, CO2 en EPC",
+    "ac_long": "Het bestuur zet in op het verduurzamen van het gemeentelijk patrimonium en streeft naar het voldoen aan alle wettelijke verplichtingen inzaken asbestvrije, CO² neutrale en energiezuinige gebouwen (EPC en Label plicht). \nWe onderzoeken welke investeringen nodig zijn en voeren stapsgewijs de nodige werken uit",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 187342.0,
+    "amount_per_capita": 13.55,
+    "yearly_amounts": {
+      "2026": 160007.0,
+      "2027": 16750.0,
+      "2028": 10585.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.57,
+      "2027": 1.21,
+      "2028": 0.77,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-13",
+    "ap_short": "We investeren in infrastructuur & uitrusting voor onze diensten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-91",
+    "ac_short": "We investeren in een moderne, up to date, ICT infrastructuur",
+    "ac_long": "We vernieuwen stapsgewijs de ICT-infrastructuur van gemeentelijke gebouwen en diensten, met investeringen in hardware, toegangscontrole, digitale schermen, veiligheidssystemen en cloudtoepassingen, zodat onze werking efficiënter, veiliger en toekomstgericht wordt.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 171300.0,
+    "amount_per_capita": 12.39,
+    "yearly_amounts": {
+      "2026": 121300.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.77,
+      "2027": 0.72,
+      "2028": 0.72,
+      "2029": 0.72,
+      "2030": 0.72,
+      "2031": 0.72
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-13",
+    "ap_short": "We investeren in infrastructuur & uitrusting voor onze diensten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-92",
+    "ac_short": "We ontwikkelen een ICT-beleidsplan en voorzien passende soft- en hardware voor efficiënt werken",
+    "ac_long": "We ontwikkelen een toekomstgericht ICT-beleidsplan dat ruimte biedt voor ad-hoc innovaties en voorzien de nodige soft- en hardware, zodat medewerkers efficiënt kunnen werken en de organisatie mee evolueert met digitale ontwikkelingen zoals AI en cloudtoepassingen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 151750.0,
+    "amount_per_capita": 10.97,
+    "yearly_amounts": {
+      "2026": 54250.0,
+      "2027": 57500.0,
+      "2028": 15000.0,
+      "2029": 5000.0,
+      "2030": 15000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.92,
+      "2027": 4.16,
+      "2028": 1.08,
+      "2029": 0.36,
+      "2030": 1.08,
+      "2031": 0.36
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-4",
+    "bd_short": "We versnellen onze investeringen en optimaliseren & ontwikkelen onze gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: We versnellen onze investeringen om Boortmeerbeek toekomstgericht, toegankelijk en leefbaar te maken. Groene ruimtes, publieke infrastructuur en mobiliteit worden in samenhang aangepakt. We investeren gericht in de verdere ontwikkeling van onze gemeentelijke gebouwen en gronden.",
+    "ap_code": "AP-11",
+    "ap_short": "We investeren via projectontwikkeling in een aantrekkelijk en veilig openbaar domein",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-69",
+    "ac_short": "We ontwikkelen een beleid voor openbare ruimte en groen, met een onderhoudsplan als leidraad",
+    "ac_long": "We stellen een onderhoudsplan op dat als leidraad dient voor het beheer van openbare ruimte en groenonderhoud, met als doel een uniforme, efficiënte en kwaliteitsvolle aanpak die bijdraagt aan een nette en aangename leefomgeving voor alle inwoners.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 7.95,
+    "yearly_amounts": {
+      "2026": 55000.0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 40000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.98,
+      "2027": 1.08,
+      "2028": 0,
+      "2029": 2.89,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-6",
+    "bd_short": "We professionaliseren ons gemeentelijk bedrijf",
+    "bd_long": "Kwalitatieve omschrijving: We professionaliseren ons gemeentelijk bedrijf om sterker, efficiënter en toekomstgericht te kunnen werken. We zetten in op een moderne projectwerking en hertekenen ons organisatiemodel. Onze organisatiecultuur is mensgericht, met aandacht voor welzijn, ontwikkeling en werkgeluk van onze medewerkers.",
+    "ap_code": "AP-21",
+    "ap_short": "Algemene werkingskosten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-145",
+    "ac_short": "Geprofessionaliseerd document- en archiefbeheer",
+    "ac_long": "We bouwen een professioneel document- en archiefbeheer uit, met aandacht voor gegevensbescherming, DPO-werking, NIS2-compliancy en digitale evolutie richting SharePoint, zodat informatie veilig, efficiënt en duurzaam beheerd wordt.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 90500.0,
+    "amount_per_capita": 6.54,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 500.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.17,
+      "2027": 1.08,
+      "2028": 1.08,
+      "2029": 1.08,
+      "2030": 1.08,
+      "2031": 0.04
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-1",
+    "bd_short": "Werken en wonen",
+    "bd_long": "Kwalitatieve omschrijving: We zetten in op een beleid dat mensen ondersteunt om duurzaam aan het werk te blijven. Tegelijk stimuleren we een ondernemingsvriendelijk klimaat waarin lokale initiatieven alle kansen krijgen om te groeien en bloeien. Boortmeerbeek is een gemeente waar het aangenaam en duurzaam wonen is. We zetten in op een inclusief en doordacht woonbeleid dat iedereen, jong en oud, de kans biedt om in zijn vertrouwde omgeving te blijven wonen.",
+    "ap_code": "AP-2",
+    "ap_short": "We voeren een duurzaam en klimaatvriendelijk beleid met aandacht voor biodiversiteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-12",
+    "ac_short": "Met het hemelwaterplan willen we de water- en droogteproblematiek aanpakken",
+    "ac_long": "We werken een hemelwaterplan uit om de impact van extreme neerslag en droogteperiodes te beperken, door regenwater efficiënter te bufferen en te verspreiden binnen de gemeente",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.62,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.72,
+      "2030": 0.72,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-1",
+    "bd_short": "Werken en wonen",
+    "bd_long": "Kwalitatieve omschrijving: We zetten in op een beleid dat mensen ondersteunt om duurzaam aan het werk te blijven. Tegelijk stimuleren we een ondernemingsvriendelijk klimaat waarin lokale initiatieven alle kansen krijgen om te groeien en bloeien. Boortmeerbeek is een gemeente waar het aangenaam en duurzaam wonen is. We zetten in op een inclusief en doordacht woonbeleid dat iedereen, jong en oud, de kans biedt om in zijn vertrouwde omgeving te blijven wonen.",
+    "ap_code": "AP-1",
+    "ap_short": "We zorgen ervoor dat alle inwoners aangenaam en langdurig kunnen wonen in Boortmeerbeek",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-5",
+    "ac_short": "We hebben bijzondere aandacht voor de toegankelijkheid van gebouwen",
+    "ac_long": "Het gemeentelijk patrimonium wordt systematisch gescreend op toegankelijkheid. Waar mogelijk worden fysieke aanpassingen uitgevoerd. Dit gaat over het plaatsen van automatische deuren, het drempelloos maken van gebouwen, leesbarheid en toegankelijke herinrichting van onthaal en publieksdiensten. Bij nieuwbouwprojecten worden deze maatregelen standaard geïntegreerd. Eventueel wordt hiervoor samengewerkt met een studiebureau of gespecialiseerde diensten.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 33004.0,
+    "amount_per_capita": 2.39,
+    "yearly_amounts": {
+      "2026": 33004.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-1",
+    "bd_short": "Werken en wonen",
+    "bd_long": "Kwalitatieve omschrijving: We zetten in op een beleid dat mensen ondersteunt om duurzaam aan het werk te blijven. Tegelijk stimuleren we een ondernemingsvriendelijk klimaat waarin lokale initiatieven alle kansen krijgen om te groeien en bloeien. Boortmeerbeek is een gemeente waar het aangenaam en duurzaam wonen is. We zetten in op een inclusief en doordacht woonbeleid dat iedereen, jong en oud, de kans biedt om in zijn vertrouwde omgeving te blijven wonen.",
+    "ap_code": "AP-3",
+    "ap_short": "We blijven verder inzetten op mobiliteit en verbeteren de verkeersveiligheid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-20",
+    "ac_short": "We breiden het aantal laadpalen verder uit",
+    "ac_long": "We voorzien bijkomende laadpalen voor zowel gemeentelijk gebruik als voor burgers, op bestaande parkings en mogelijk ook op straat, zodat we inspelen op de groeiende nood aan elektrische laadinfrastructuur en duurzame mobiliteit ondersteunen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 16000.0,
+    "amount_per_capita": 1.16,
+    "yearly_amounts": {
+      "2026": 16000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.16,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-6",
+    "bd_short": "We professionaliseren ons gemeentelijk bedrijf",
+    "bd_long": "Kwalitatieve omschrijving: We professionaliseren ons gemeentelijk bedrijf om sterker, efficiënter en toekomstgericht te kunnen werken. We zetten in op een moderne projectwerking en hertekenen ons organisatiemodel. Onze organisatiecultuur is mensgericht, met aandacht voor welzijn, ontwikkeling en werkgeluk van onze medewerkers.",
+    "ap_code": "AP-21",
+    "ap_short": "Algemene werkingskosten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-143",
+    "ac_short": "We evalueren onze software en sturen bij waar nodig",
+    "ac_long": "We voeren jaarlijks een evaluatie uit van alle gebruikte software binnen de organisatie, met aandacht voor gebruik, relevantie en technologische evolutie, zodat we gericht kunnen bijsturen, vernieuwen en inspelen op innovatieve ontwikkelingen zoals AI en cloudtoepassingen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 12500.0,
+    "amount_per_capita": 0.9,
+    "yearly_amounts": {
+      "2026": 12500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.9,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boortmeerbeek",
+    "nis_code": "24014",
+    "bd_code": "BD-6",
+    "bd_short": "We professionaliseren ons gemeentelijk bedrijf",
+    "bd_long": "Kwalitatieve omschrijving: We professionaliseren ons gemeentelijk bedrijf om sterker, efficiënter en toekomstgericht te kunnen werken. We zetten in op een moderne projectwerking en hertekenen ons organisatiemodel. Onze organisatiecultuur is mensgericht, met aandacht voor welzijn, ontwikkeling en werkgeluk van onze medewerkers.",
+    "ap_code": "AP-19",
+    "ap_short": "Professionaliseren BBC",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-137",
+    "ac_short": "We organiseren en centraliseren het facilitair beheer",
+    "ac_long": "We centraliseren het facilitair beheer onder één verantwoordelijke, met een uniforme aanpak voor schoonmaak, materiaalbeheer en infrastructuuronderhoud, zodat de werking efficiënter verloopt en de kwaliteit van dienstverlening op alle locaties verhoogd wordt.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.36,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

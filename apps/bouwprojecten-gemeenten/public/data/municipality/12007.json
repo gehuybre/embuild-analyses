@@ -5,66 +5,32 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
+    "ap_code": "GBB-BORNEM",
     "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
     "ap_long": "Commentaar:",
-    "ac_code": "GBB",
-    "ac_short": "GBB-AMWD",
+    "ac_code": "GBB-PAT",
+    "ac_short": "GBB-PAT",
     "ac_long": "Commentaar:",
     "categories": [
-      "08-onderwijs"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 34964650.0,
-    "amount_per_capita": 1547.5,
+    "total_amount": 17058200.0,
+    "amount_per_capita": 749.72,
     "yearly_amounts": {
-      "2026": 8852300.0,
-      "2027": 6675450.0,
-      "2028": 4841750.0,
-      "2029": 4904700.0,
-      "2030": 4747150.0,
-      "2031": 4943300.0
+      "2026": 4215700.0,
+      "2027": 2153700.0,
+      "2028": 1772200.0,
+      "2029": 2972200.0,
+      "2030": 2972200.0,
+      "2031": 2972200.0
     },
     "yearly_per_capita": {
-      "2026": 391.79,
-      "2027": 295.45,
-      "2028": 214.29,
-      "2029": 217.08,
-      "2030": 210.1,
-      "2031": 218.79
-    }
-  },
-  {
-    "municipality": "Bornem",
-    "nis_code": "12007",
-    "bd_code": "26BD5",
-    "bd_short": "Bornem creëert diverse en (ont)prikkelende vrijetijdskansen.",
-    "bd_long": "Kwalitatieve omschrijving: Bornem wil zoveel mogelijk inwoners betrekken bij het vrijetijdsaanbod door drempels te verlagen en activiteiten af te stemmen op uiteenlopende interesses en behoeften. Tegelijk investeert Bornem in aantrekkelijke en goed uitgeruste vrijetijdsplekken, verspreid over de gemeente, waar ontmoeting en beleving centraal staan. Door nauw samen te werken met lokale verenigingen, organisaties en andere partners, ontstaat een breed en gedragen aanbod dat verankerd is in de gemeenschap. Zo bouwt Bornem aan een vrijetijdsklimaat dat uitnodigt, verbindt en versterkt.",
-    "ap_code": "26AP503",
-    "ap_short": "Bornem versterkt laagdrempelige ontmoetingsplaatsen in de vrijetijdsinfrastructuur",
-    "ap_long": "De gemeente zet in op het creëren van plekken waar mensen samenkomen, ontspannen en deelnemen aan cultuur, sport en gemeenschapsleven. Door infrastructuur toekomstgericht te ontwikkelen en af te stemmen op de noden van inwoners, wordt het vrijetijdsaanbod toegankelijker, veelzijdiger en duurzamer. Bornem streeft naar een omgeving waarin ontmoeting, beleving en verbondenheid centraal staan — met aandacht voor functionaliteit, veiligheid en ruimtelijke kwaliteit.",
-    "ac_code": "26ACT50301",
-    "ac_short": "We bouwen een nieuw zwembad in Breeven.",
-    "ac_long": "Bornem wil tegen 2031 een nieuw hedendaags en toegankelijk zwembad in Bornem realiseren met de focus op een sportbad (schoolzwemmen, sportclubs en in het kader van beweging) met recreatieve impulsen op specifieke momenten voor de recreatieve zwemmers.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 10890000.0,
-    "amount_per_capita": 481.98,
-    "yearly_amounts": {
-      "2026": 220000.0,
-      "2027": 1870000.0,
-      "2028": 2750000.0,
-      "2029": 3300000.0,
-      "2030": 2750000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 9.74,
-      "2027": 82.76,
-      "2028": 121.71,
-      "2029": 146.06,
-      "2030": 121.71,
-      "2031": 0
+      "2026": 185.28,
+      "2027": 94.66,
+      "2028": 77.89,
+      "2029": 130.63,
+      "2030": 130.63,
+      "2031": 130.63
     }
   },
   {
@@ -83,7 +49,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 3900000.0,
-    "amount_per_capita": 172.61,
+    "amount_per_capita": 171.41,
     "yearly_amounts": {
       "2026": 200000.0,
       "2027": 1400000.0,
@@ -93,12 +59,46 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.85,
-      "2027": 61.96,
-      "2028": 101.8,
+      "2026": 8.79,
+      "2027": 61.53,
+      "2028": 101.09,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-SPAT",
+    "ac_short": "GBB-SPAT",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 3715850.0,
+    "amount_per_capita": 163.31,
+    "yearly_amounts": {
+      "2026": 750000.0,
+      "2027": 500000.0,
+      "2028": 965850.0,
+      "2029": 500000.0,
+      "2030": 500000.0,
+      "2031": 500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 32.96,
+      "2027": 21.98,
+      "2028": 42.45,
+      "2029": 21.98,
+      "2030": 21.98,
+      "2031": 21.98
     }
   },
   {
@@ -117,7 +117,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 3500000.0,
-    "amount_per_capita": 154.91,
+    "amount_per_capita": 153.83,
     "yearly_amounts": {
       "2026": 1000000.0,
       "2027": 1000000.0,
@@ -127,10 +127,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 44.26,
-      "2027": 44.26,
-      "2028": 33.19,
-      "2029": 33.19,
+      "2026": 43.95,
+      "2027": 43.95,
+      "2028": 32.96,
+      "2029": 32.96,
       "2030": 0,
       "2031": 0
     }
@@ -151,7 +151,7 @@
       "00-algemene-financiering"
     ],
     "total_amount": 3000000.0,
-    "amount_per_capita": 132.78,
+    "amount_per_capita": 131.85,
     "yearly_amounts": {
       "2026": 750000.0,
       "2027": 750000.0,
@@ -161,12 +161,46 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 33.19,
-      "2027": 33.19,
-      "2028": 33.19,
-      "2029": 33.19,
+      "2026": 32.96,
+      "2027": 32.96,
+      "2028": 32.96,
+      "2029": 32.96,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-FD",
+    "ac_short": "GBB-FD",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 2211400.0,
+    "amount_per_capita": 97.19,
+    "yearly_amounts": {
+      "2026": 254300.0,
+      "2027": 390100.0,
+      "2028": 391000.0,
+      "2029": 391950.0,
+      "2030": 403000.0,
+      "2031": 381050.0
+    },
+    "yearly_per_capita": {
+      "2026": 11.18,
+      "2027": 17.15,
+      "2028": 17.18,
+      "2029": 17.23,
+      "2030": 17.71,
+      "2031": 16.75
     }
   },
   {
@@ -185,7 +219,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1500000.0,
-    "amount_per_capita": 66.39,
+    "amount_per_capita": 65.93,
     "yearly_amounts": {
       "2026": 0,
       "2027": 1500000.0,
@@ -196,11 +230,45 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 66.39,
+      "2027": 65.93,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-ICT",
+    "ac_short": "GBB-ICT",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1498200.0,
+    "amount_per_capita": 65.85,
+    "yearly_amounts": {
+      "2026": 325000.0,
+      "2027": 420000.0,
+      "2028": 375000.0,
+      "2029": 96000.0,
+      "2030": 50000.0,
+      "2031": 232200.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.28,
+      "2027": 18.46,
+      "2028": 16.48,
+      "2029": 4.22,
+      "2030": 2.2,
+      "2031": 10.21
     }
   },
   {
@@ -219,7 +287,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1200000.0,
-    "amount_per_capita": 53.11,
+    "amount_per_capita": 52.74,
     "yearly_amounts": {
       "2026": 200000.0,
       "2027": 200000.0,
@@ -229,12 +297,12 @@
       "2031": 200000.0
     },
     "yearly_per_capita": {
-      "2026": 8.85,
-      "2027": 8.85,
-      "2028": 8.85,
-      "2029": 8.85,
-      "2030": 8.85,
-      "2031": 8.85
+      "2026": 8.79,
+      "2027": 8.79,
+      "2028": 8.79,
+      "2029": 8.79,
+      "2030": 8.79,
+      "2031": 8.79
     }
   },
   {
@@ -253,7 +321,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 1124750.0,
-    "amount_per_capita": 49.78,
+    "amount_per_capita": 49.43,
     "yearly_amounts": {
       "2026": 200000.0,
       "2027": 124750.0,
@@ -263,46 +331,148 @@
       "2031": 200000.0
     },
     "yearly_per_capita": {
-      "2026": 8.85,
-      "2027": 5.52,
-      "2028": 8.85,
-      "2029": 8.85,
-      "2030": 8.85,
-      "2031": 8.85
+      "2026": 8.79,
+      "2027": 5.48,
+      "2028": 8.79,
+      "2029": 8.79,
+      "2030": 8.79,
+      "2031": 8.79
     }
   },
   {
     "municipality": "Bornem",
     "nis_code": "12007",
-    "bd_code": "26BD5",
-    "bd_short": "Bornem creëert diverse en (ont)prikkelende vrijetijdskansen.",
-    "bd_long": "Kwalitatieve omschrijving: Bornem wil zoveel mogelijk inwoners betrekken bij het vrijetijdsaanbod door drempels te verlagen en activiteiten af te stemmen op uiteenlopende interesses en behoeften. Tegelijk investeert Bornem in aantrekkelijke en goed uitgeruste vrijetijdsplekken, verspreid over de gemeente, waar ontmoeting en beleving centraal staan. Door nauw samen te werken met lokale verenigingen, organisaties en andere partners, ontstaat een breed en gedragen aanbod dat verankerd is in de gemeenschap. Zo bouwt Bornem aan een vrijetijdsklimaat dat uitnodigt, verbindt en versterkt.",
-    "ap_code": "26AP503",
-    "ap_short": "Bornem versterkt laagdrempelige ontmoetingsplaatsen in de vrijetijdsinfrastructuur",
-    "ap_long": "De gemeente zet in op het creëren van plekken waar mensen samenkomen, ontspannen en deelnemen aan cultuur, sport en gemeenschapsleven. Door infrastructuur toekomstgericht te ontwikkelen en af te stemmen op de noden van inwoners, wordt het vrijetijdsaanbod toegankelijker, veelzijdiger en duurzamer. Bornem streeft naar een omgeving waarin ontmoeting, beleving en verbondenheid centraal staan — met aandacht voor functionaliteit, veiligheid en ruimtelijke kwaliteit.",
-    "ac_code": "26ACT50303",
-    "ac_short": "We starten met de heraanleg van de buitenomgeving van Ter Dilft.",
-    "ac_long": "Tegen eind 2029 is de parking op de site Ter Dilft heraangelegd in functie van de veiligheid, leesbaarheid en aantrekkelijkheid van site (cf. Masterplan site Ter Dilft).",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-SPO",
+    "ac_short": "GBB-SPO",
+    "ac_long": "Commentaar:",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 730000.0,
-    "amount_per_capita": 32.31,
+    "total_amount": 1095000.0,
+    "amount_per_capita": 48.13,
     "yearly_amounts": {
-      "2026": 330000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 190000.0,
-      "2030": 190000.0,
-      "2031": 20000.0
+      "2026": 370000.0,
+      "2027": 145000.0,
+      "2028": 145000.0,
+      "2029": 145000.0,
+      "2030": 145000.0,
+      "2031": 145000.0
     },
     "yearly_per_capita": {
-      "2026": 14.61,
-      "2027": 0,
+      "2026": 16.26,
+      "2027": 6.37,
+      "2028": 6.37,
+      "2029": 6.37,
+      "2030": 6.37,
+      "2031": 6.37
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-STRAT",
+    "ac_short": "GBB-STRAT",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 43.95,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 1000000.0,
       "2028": 0,
-      "2029": 8.41,
-      "2030": 8.41,
-      "2031": 0.89
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 43.95,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-ET",
+    "ac_short": "GBB-ET",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 790000.0,
+    "amount_per_capita": 34.72,
+    "yearly_amounts": {
+      "2026": 290000.0,
+      "2027": 340000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.75,
+      "2027": 14.94,
+      "2028": 1.76,
+      "2029": 1.76,
+      "2030": 1.76,
+      "2031": 1.76
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-JD",
+    "ac_short": "GBB-JD",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 692250.0,
+    "amount_per_capita": 30.42,
+    "yearly_amounts": {
+      "2026": 137350.0,
+      "2027": 203200.0,
+      "2028": 139100.0,
+      "2029": 69950.0,
+      "2030": 70850.0,
+      "2031": 71800.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.04,
+      "2027": 8.93,
+      "2028": 6.11,
+      "2029": 3.07,
+      "2030": 3.11,
+      "2031": 3.16
     }
   },
   {
@@ -321,7 +491,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 650000.0,
-    "amount_per_capita": 28.77,
+    "amount_per_capita": 28.57,
     "yearly_amounts": {
       "2026": 574750.0,
       "2027": 75250.0,
@@ -331,8 +501,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 25.44,
-      "2027": 3.33,
+      "2026": 25.26,
+      "2027": 3.31,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -355,7 +525,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 600000.0,
-    "amount_per_capita": 26.56,
+    "amount_per_capita": 26.37,
     "yearly_amounts": {
       "2026": 156500.0,
       "2027": 443500.0,
@@ -365,8 +535,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.93,
-      "2027": 19.63,
+      "2026": 6.88,
+      "2027": 19.49,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -389,7 +559,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 593550.0,
-    "amount_per_capita": 26.27,
+    "amount_per_capita": 26.09,
     "yearly_amounts": {
       "2026": 136100.0,
       "2027": 87900.0,
@@ -399,12 +569,46 @@
       "2031": 95150.0
     },
     "yearly_per_capita": {
-      "2026": 6.02,
-      "2027": 3.89,
-      "2028": 3.97,
-      "2029": 4.05,
-      "2030": 4.13,
-      "2031": 4.21
+      "2026": 5.98,
+      "2027": 3.86,
+      "2028": 3.94,
+      "2029": 4.02,
+      "2030": 4.1,
+      "2031": 4.18
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-BZO",
+    "ac_short": "GBB-BZO",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 570000.0,
+    "amount_per_capita": 25.05,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 195000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.3,
+      "2027": 3.3,
+      "2028": 8.57,
+      "2029": 3.3,
+      "2030": 3.3,
+      "2031": 3.3
     }
   },
   {
@@ -423,7 +627,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 550950.0,
-    "amount_per_capita": 24.38,
+    "amount_per_capita": 24.21,
     "yearly_amounts": {
       "2026": 110700.0,
       "2027": 158450.0,
@@ -433,12 +637,12 @@
       "2031": 39500.0
     },
     "yearly_per_capita": {
-      "2026": 4.9,
-      "2027": 7.01,
-      "2028": 7.33,
-      "2029": 1.68,
-      "2030": 1.71,
-      "2031": 1.75
+      "2026": 4.87,
+      "2027": 6.96,
+      "2028": 7.28,
+      "2029": 1.67,
+      "2030": 1.7,
+      "2031": 1.74
     }
   },
   {
@@ -457,7 +661,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 500000.0,
-    "amount_per_capita": 22.13,
+    "amount_per_capita": 21.98,
     "yearly_amounts": {
       "2026": 0,
       "2027": 100000.0,
@@ -468,10 +672,10 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 4.43,
-      "2028": 4.43,
-      "2029": 8.85,
-      "2030": 4.43,
+      "2027": 4.4,
+      "2028": 4.4,
+      "2029": 8.79,
+      "2030": 4.4,
       "2031": 0
     }
   },
@@ -491,7 +695,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 400000.0,
-    "amount_per_capita": 17.7,
+    "amount_per_capita": 17.58,
     "yearly_amounts": {
       "2026": 400000.0,
       "2027": 0,
@@ -501,7 +705,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 17.7,
+      "2026": 17.58,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -525,7 +729,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 255850.0,
-    "amount_per_capita": 11.32,
+    "amount_per_capita": 11.24,
     "yearly_amounts": {
       "2026": 70000.0,
       "2027": 35700.0,
@@ -535,12 +739,12 @@
       "2031": 38650.0
     },
     "yearly_per_capita": {
-      "2026": 3.1,
-      "2027": 1.58,
-      "2028": 1.61,
-      "2029": 1.64,
-      "2030": 1.68,
-      "2031": 1.71
+      "2026": 3.08,
+      "2027": 1.57,
+      "2028": 1.6,
+      "2029": 1.63,
+      "2030": 1.67,
+      "2031": 1.7
     }
   },
   {
@@ -559,7 +763,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 234000.0,
-    "amount_per_capita": 10.36,
+    "amount_per_capita": 10.28,
     "yearly_amounts": {
       "2026": 78000.0,
       "2027": 0,
@@ -569,11 +773,11 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.45,
+      "2026": 3.43,
       "2027": 0,
-      "2028": 3.45,
+      "2028": 3.43,
       "2029": 0,
-      "2030": 3.45,
+      "2030": 3.43,
       "2031": 0
     }
   },
@@ -593,7 +797,7 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 225000.0,
-    "amount_per_capita": 9.96,
+    "amount_per_capita": 9.89,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 25000.0,
@@ -603,76 +807,76 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 4.43,
-      "2027": 1.11,
-      "2028": 1.11,
-      "2029": 1.11,
-      "2030": 1.11,
-      "2031": 1.11
+      "2026": 4.4,
+      "2027": 1.1,
+      "2028": 1.1,
+      "2029": 1.1,
+      "2030": 1.1,
+      "2031": 1.1
     }
   },
   {
     "municipality": "Bornem",
     "nis_code": "12007",
-    "bd_code": "26BD5",
-    "bd_short": "Bornem creëert diverse en (ont)prikkelende vrijetijdskansen.",
-    "bd_long": "Kwalitatieve omschrijving: Bornem wil zoveel mogelijk inwoners betrekken bij het vrijetijdsaanbod door drempels te verlagen en activiteiten af te stemmen op uiteenlopende interesses en behoeften. Tegelijk investeert Bornem in aantrekkelijke en goed uitgeruste vrijetijdsplekken, verspreid over de gemeente, waar ontmoeting en beleving centraal staan. Door nauw samen te werken met lokale verenigingen, organisaties en andere partners, ontstaat een breed en gedragen aanbod dat verankerd is in de gemeenschap. Zo bouwt Bornem aan een vrijetijdsklimaat dat uitnodigt, verbindt en versterkt.",
-    "ap_code": "26AP503",
-    "ap_short": "Bornem versterkt laagdrempelige ontmoetingsplaatsen in de vrijetijdsinfrastructuur",
-    "ap_long": "De gemeente zet in op het creëren van plekken waar mensen samenkomen, ontspannen en deelnemen aan cultuur, sport en gemeenschapsleven. Door infrastructuur toekomstgericht te ontwikkelen en af te stemmen op de noden van inwoners, wordt het vrijetijdsaanbod toegankelijker, veelzijdiger en duurzamer. Bornem streeft naar een omgeving waarin ontmoeting, beleving en verbondenheid centraal staan — met aandacht voor functionaliteit, veiligheid en ruimtelijke kwaliteit.",
-    "ac_code": "26ACT50304",
-    "ac_short": "We realiseren extra lokalen om het tekort voor de Academie Beeldende Kunst op te vangen.",
-    "ac_long": "Bornem creëert in 2026 bijkomende lesruimte op de site Ter Dilft om kwaliteitsvol onderwijs te kunnen blijven aanbieden en combineren de uitbreiding gedeeltelijk met de herlocalisatie van de Maakplaats door de herinrichting van het gelijkvloers van het broedergedeelte en de installatie en upcycling van containers naast de schouwburg.",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-FDCA",
+    "ac_short": "GBB-FDCA",
+    "ac_long": "Commentaar:",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 200000.0,
-    "amount_per_capita": 8.85,
+    "total_amount": 214650.0,
+    "amount_per_capita": 9.43,
     "yearly_amounts": {
-      "2026": 200000.0,
-      "2027": 0,
+      "2026": 55000.0,
+      "2027": 30600.0,
+      "2028": 31350.0,
+      "2029": 31950.0,
+      "2030": 32550.0,
+      "2031": 33200.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.42,
+      "2027": 1.34,
+      "2028": 1.38,
+      "2029": 1.4,
+      "2030": 1.43,
+      "2031": 1.46
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "26BD2",
+    "bd_short": "Bornem werkt samen met zijn burgers aan een groene, leefbare en duurzame toekomst.",
+    "bd_long": "Kwalitatieve omschrijving: Bornem werkt samen met zijn inwoners aan een groene, leefbare en duurzame toekomst door te investeren in een strategische ruimtelijke visie, klimaatvriendelijke initiatieven via de LEKP-werven, een efficiënt afvalbeheer en het versterken van de ecologische waarde van de gemeente. Via participatie en samenwerking bouwt Bornem stap voor stap aan een omgeving die klaar is voor de uitdagingen van morgen, met respect voor natuur, leefkwaliteit en duurzaamheid.",
+    "ap_code": "26AP204",
+    "ap_short": "Bornem versterkt zijn ecologische waarde.",
+    "ap_long": "Bornem investeert in de versterking van zijn ecologische identiteit door natuur, erfgoed en landbouw op een duurzame manier met elkaar te verbinden.\nDoor deze elementen in samenhang te ontwikkelen, ontstaat een gemeente waar ecologie en leefkwaliteit hand in hand gaan. Bornem zet in op een landschap dat niet alleen mooi en waardevol is, maar ook functioneel en toekomstbestendig. Zo groeit Bornem uit tot een plek waar mens en natuur in balans leven, met respect voor het verleden en oog voor de toekomst.",
+    "ac_code": "26ACT20401",
+    "ac_short": "We versterken de uitstraling van onze begraafplaatsen.",
+    "ac_long": "Bornem stelt tegen eind 2026 een nieuw gemeentelijk reglement op voor de begraafplaatsen waarin het nieuwe vormen van begraven een plaats geeft en het duurzaam beheer van de begraafplaatsen verankert. Het gemeentelijk reglement wordt uiterlijk eind 2026 ter goedkeuring voorgelegd aan de gemeenteraad. Dit met aandacht voor onder andere toegankelijkheid, inplanting, onderhoud, alternatieve vormen van begraving.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 6.59,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 100000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.85,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bornem",
-    "nis_code": "12007",
-    "bd_code": "26BD5",
-    "bd_short": "Bornem creëert diverse en (ont)prikkelende vrijetijdskansen.",
-    "bd_long": "Kwalitatieve omschrijving: Bornem wil zoveel mogelijk inwoners betrekken bij het vrijetijdsaanbod door drempels te verlagen en activiteiten af te stemmen op uiteenlopende interesses en behoeften. Tegelijk investeert Bornem in aantrekkelijke en goed uitgeruste vrijetijdsplekken, verspreid over de gemeente, waar ontmoeting en beleving centraal staan. Door nauw samen te werken met lokale verenigingen, organisaties en andere partners, ontstaat een breed en gedragen aanbod dat verankerd is in de gemeenschap. Zo bouwt Bornem aan een vrijetijdsklimaat dat uitnodigt, verbindt en versterkt.",
-    "ap_code": "26AP502",
-    "ap_short": "Bornem bouwt aan partnerschappen om tot een aantrekkelijk vrijetijdsaanbod te komen.",
-    "ap_long": "Bornem werkt samen met verenigingen, scholen, culturele instellingen en toeristische partners om het vrijetijdsaanbod sterker en beter afgestemd te maken op wat mensen nodig hebben. De gemeente ondersteunt deze samenwerking met digitale platformen en subsidies, zodat lokale partners zich extra kunnen inzetten. Daarnaast zorgt Bornem voor een kwaliteitsvolle vrijetijdservaring, met aandacht voor educatie, samenwerking buiten de gemeente en een efficiënte organisatie van evenementen.\nSamenwerking is de motor in de aanpak van Bornem. Zo ontstaat een levendig en toegankelijk vrijetijdsaanbod voor iedereen.",
-    "ac_code": "26ACT50205",
-    "ac_short": "We versterken Bornem als toeristische trekpleister via samenwerking met bovenlokale partners.",
-    "ac_long": "Vanuit een duidelijke visie wordt Bornem vanaf 2027 geprofileerd als een sterk merk binnen het groter geheel van de Scheldevallei. Het gaat enerzijds om een verdere en toekomstbestendige optimalisatie van de abdijwerking en waarbij de erkenning van de abdij als collectiebeherende instelling als piste behouden blijft. Anderzijds wil men de uitstraling versterken door de bovenlokale samenwerkingsverbanden (zoals TKBS en IGEMO) te evalueren en bij te sturen in functie van evoluerende noden.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 160000.0,
-    "amount_per_capita": 7.08,
-    "yearly_amounts": {
-      "2026": 160000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 7.08,
-      "2027": 0,
+      "2026": 2.2,
+      "2027": 4.4,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -695,7 +899,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 6.64,
+    "amount_per_capita": 6.59,
     "yearly_amounts": {
       "2026": 0,
       "2027": 150000.0,
@@ -706,41 +910,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 6.64,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bornem",
-    "nis_code": "12007",
-    "bd_code": "26BD2",
-    "bd_short": "Bornem werkt samen met zijn burgers aan een groene, leefbare en duurzame toekomst.",
-    "bd_long": "Kwalitatieve omschrijving: Bornem werkt samen met zijn inwoners aan een groene, leefbare en duurzame toekomst door te investeren in een strategische ruimtelijke visie, klimaatvriendelijke initiatieven via de LEKP-werven, een efficiënt afvalbeheer en het versterken van de ecologische waarde van de gemeente. Via participatie en samenwerking bouwt Bornem stap voor stap aan een omgeving die klaar is voor de uitdagingen van morgen, met respect voor natuur, leefkwaliteit en duurzaamheid.",
-    "ap_code": "26AP204",
-    "ap_short": "Bornem versterkt zijn ecologische waarde.",
-    "ap_long": "Bornem investeert in de versterking van zijn ecologische identiteit door natuur, erfgoed en landbouw op een duurzame manier met elkaar te verbinden.\nDoor deze elementen in samenhang te ontwikkelen, ontstaat een gemeente waar ecologie en leefkwaliteit hand in hand gaan. Bornem zet in op een landschap dat niet alleen mooi en waardevol is, maar ook functioneel en toekomstbestendig. Zo groeit Bornem uit tot een plek waar mens en natuur in balans leven, met respect voor het verleden en oog voor de toekomst.",
-    "ac_code": "26ACT20401",
-    "ac_short": "We versterken de uitstraling van onze begraafplaatsen.",
-    "ac_long": "Bornem stelt tegen eind 2026 een nieuw gemeentelijk reglement op voor de begraafplaatsen waarin het nieuwe vormen van begraven een plaats geeft en het duurzaam beheer van de begraafplaatsen verankert. Het gemeentelijk reglement wordt uiterlijk eind 2026 ter goedkeuring voorgelegd aan de gemeenteraad. Dit met aandacht voor onder andere toegankelijkheid, inplanting, onderhoud, alternatieve vormen van begraving.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 150000.0,
-    "amount_per_capita": 6.64,
-    "yearly_amounts": {
-      "2026": 50000.0,
-      "2027": 100000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 2.21,
-      "2027": 4.43,
+      "2027": 6.59,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -763,7 +933,7 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 140000.0,
-    "amount_per_capita": 6.2,
+    "amount_per_capita": 6.15,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 30000.0,
@@ -773,11 +943,11 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.89,
-      "2027": 1.33,
-      "2028": 1.33,
-      "2029": 1.33,
-      "2030": 1.33,
+      "2026": 0.88,
+      "2027": 1.32,
+      "2028": 1.32,
+      "2029": 1.32,
+      "2030": 1.32,
       "2031": 0
     }
   },
@@ -797,7 +967,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 5.31,
+    "amount_per_capita": 5.27,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 20000.0,
@@ -807,46 +977,148 @@
       "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 0.89,
-      "2027": 0.89,
-      "2028": 0.89,
-      "2029": 0.89,
-      "2030": 0.89,
-      "2031": 0.89
+      "2026": 0.88,
+      "2027": 0.88,
+      "2028": 0.88,
+      "2029": 0.88,
+      "2030": 0.88,
+      "2031": 0.88
     }
   },
   {
     "municipality": "Bornem",
     "nis_code": "12007",
-    "bd_code": "26BD5",
-    "bd_short": "Bornem creëert diverse en (ont)prikkelende vrijetijdskansen.",
-    "bd_long": "Kwalitatieve omschrijving: Bornem wil zoveel mogelijk inwoners betrekken bij het vrijetijdsaanbod door drempels te verlagen en activiteiten af te stemmen op uiteenlopende interesses en behoeften. Tegelijk investeert Bornem in aantrekkelijke en goed uitgeruste vrijetijdsplekken, verspreid over de gemeente, waar ontmoeting en beleving centraal staan. Door nauw samen te werken met lokale verenigingen, organisaties en andere partners, ontstaat een breed en gedragen aanbod dat verankerd is in de gemeenschap. Zo bouwt Bornem aan een vrijetijdsklimaat dat uitnodigt, verbindt en versterkt.",
-    "ap_code": "26AP503",
-    "ap_short": "Bornem versterkt laagdrempelige ontmoetingsplaatsen in de vrijetijdsinfrastructuur",
-    "ap_long": "De gemeente zet in op het creëren van plekken waar mensen samenkomen, ontspannen en deelnemen aan cultuur, sport en gemeenschapsleven. Door infrastructuur toekomstgericht te ontwikkelen en af te stemmen op de noden van inwoners, wordt het vrijetijdsaanbod toegankelijker, veelzijdiger en duurzamer. Bornem streeft naar een omgeving waarin ontmoeting, beleving en verbondenheid centraal staan — met aandacht voor functionaliteit, veiligheid en ruimtelijke kwaliteit.",
-    "ac_code": "26ACT50306",
-    "ac_short": "We versterken de troeven van het abdijpark als plaats voor natuur, erfgoed en ontmoeting.",
-    "ac_long": "Bornem versterkt de beleving van de abdijsite door vanaf 2027 tweejaarlijks een fysieke ingreep te voorzien zodat men de troeven van het abdijpark als plaats voor natuur, erfgoed en ontmoeting sterker uitwerkt via sociaal-culturele en erfgoedprojecten (bv. restauratie boogschuttersdoeltjes in functie van picknickplek, stiltetuin, picknickweide, kruidentuin, ...). Bornem transformeert het abdijpark tot een groene ontmoetingsruimte voor bezinning en rust en versterkt de uitstraling van de abdijsite door te blijven inzetten op de restauratie van onroerend en cultureel erfgoed mits de toekenning van subsidies van hogere overheden.",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-AMWD",
+    "ac_short": "GBB-AMWD",
+    "ac_long": "Commentaar:",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "08-onderwijs"
     ],
-    "total_amount": 90000.0,
-    "amount_per_capita": 3.98,
+    "total_amount": 114600.0,
+    "amount_per_capita": 5.04,
+    "yearly_amounts": {
+      "2026": 18200.0,
+      "2027": 18550.0,
+      "2028": 18900.0,
+      "2029": 19250.0,
+      "2030": 19650.0,
+      "2031": 20050.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.8,
+      "2027": 0.82,
+      "2028": 0.83,
+      "2029": 0.85,
+      "2030": 0.86,
+      "2031": 0.88
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-SZ",
+    "ac_short": "GBB-SZ",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 95000.0,
+    "amount_per_capita": 4.18,
     "yearly_amounts": {
       "2026": 0,
-      "2027": 90000.0,
-      "2028": 0,
+      "2027": 0,
+      "2028": 95000.0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 3.98,
-      "2028": 0,
+      "2027": 0,
+      "2028": 4.18,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-LE",
+    "ac_short": "GBB-LE",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 93200.0,
+    "amount_per_capita": 4.1,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15200.0,
+      "2028": 15450.0,
+      "2029": 15650.0,
+      "2030": 15850.0,
+      "2031": 16050.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.66,
+      "2027": 0.67,
+      "2028": 0.68,
+      "2029": 0.69,
+      "2030": 0.7,
+      "2031": 0.71
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-CC",
+    "ac_short": "GBB-CC",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 3.3,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 25000.0,
+      "2030": 0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.1,
+      "2028": 0,
+      "2029": 1.1,
+      "2030": 0,
+      "2031": 1.1
     }
   },
   {
@@ -865,7 +1137,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 2.21,
+    "amount_per_capita": 2.2,
     "yearly_amounts": {
       "2026": 0,
       "2027": 50000.0,
@@ -876,11 +1148,79 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 2.21,
+      "2027": 2.2,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "26BD5",
+    "bd_short": "Bornem creëert diverse en (ont)prikkelende vrijetijdskansen.",
+    "bd_long": "Kwalitatieve omschrijving: Bornem wil zoveel mogelijk inwoners betrekken bij het vrijetijdsaanbod door drempels te verlagen en activiteiten af te stemmen op uiteenlopende interesses en behoeften. Tegelijk investeert Bornem in aantrekkelijke en goed uitgeruste vrijetijdsplekken, verspreid over de gemeente, waar ontmoeting en beleving centraal staan. Door nauw samen te werken met lokale verenigingen, organisaties en andere partners, ontstaat een breed en gedragen aanbod dat verankerd is in de gemeenschap. Zo bouwt Bornem aan een vrijetijdsklimaat dat uitnodigt, verbindt en versterkt.",
+    "ap_code": "26AP503",
+    "ap_short": "Bornem versterkt laagdrempelige ontmoetingsplaatsen in de vrijetijdsinfrastructuur",
+    "ap_long": "De gemeente zet in op het creëren van plekken waar mensen samenkomen, ontspannen en deelnemen aan cultuur, sport en gemeenschapsleven. Door infrastructuur toekomstgericht te ontwikkelen en af te stemmen op de noden van inwoners, wordt het vrijetijdsaanbod toegankelijker, veelzijdiger en duurzamer. Bornem streeft naar een omgeving waarin ontmoeting, beleving en verbondenheid centraal staan — met aandacht voor functionaliteit, veiligheid en ruimtelijke kwaliteit.",
+    "ac_code": "26ACT50306",
+    "ac_short": "We versterken de troeven van het abdijpark als plaats voor natuur, erfgoed en ontmoeting.",
+    "ac_long": "Bornem versterkt de beleving van de abdijsite door vanaf 2027 tweejaarlijks een fysieke ingreep te voorzien zodat men de troeven van het abdijpark als plaats voor natuur, erfgoed en ontmoeting sterker uitwerkt via sociaal-culturele en erfgoedprojecten (bv. restauratie boogschuttersdoeltjes in functie van picknickplek, stiltetuin, picknickweide, kruidentuin, ...). Bornem transformeert het abdijpark tot een groene ontmoetingsruimte voor bezinning en rust en versterkt de uitstraling van de abdijsite door te blijven inzetten op de restauratie van onroerend en cultureel erfgoed mits de toekenning van subsidies van hogere overheden.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 2.2,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.2,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-EV",
+    "ac_short": "GBB-EV",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 31700.0,
+    "amount_per_capita": 1.39,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5100.0,
+      "2028": 5250.0,
+      "2029": 5350.0,
+      "2030": 5450.0,
+      "2031": 5550.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.22,
+      "2027": 0.22,
+      "2028": 0.23,
+      "2029": 0.24,
+      "2030": 0.24,
+      "2031": 0.24
     }
   },
   {
@@ -899,7 +1239,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 30000.0,
-    "amount_per_capita": 1.33,
+    "amount_per_capita": 1.32,
     "yearly_amounts": {
       "2026": 5000.0,
       "2027": 5000.0,
@@ -954,6 +1294,40 @@
   {
     "municipality": "Bornem",
     "nis_code": "12007",
+    "bd_code": "26BD5",
+    "bd_short": "Bornem creëert diverse en (ont)prikkelende vrijetijdskansen.",
+    "bd_long": "Kwalitatieve omschrijving: Bornem wil zoveel mogelijk inwoners betrekken bij het vrijetijdsaanbod door drempels te verlagen en activiteiten af te stemmen op uiteenlopende interesses en behoeften. Tegelijk investeert Bornem in aantrekkelijke en goed uitgeruste vrijetijdsplekken, verspreid over de gemeente, waar ontmoeting en beleving centraal staan. Door nauw samen te werken met lokale verenigingen, organisaties en andere partners, ontstaat een breed en gedragen aanbod dat verankerd is in de gemeenschap. Zo bouwt Bornem aan een vrijetijdsklimaat dat uitnodigt, verbindt en versterkt.",
+    "ap_code": "26AP503",
+    "ap_short": "Bornem versterkt laagdrempelige ontmoetingsplaatsen in de vrijetijdsinfrastructuur",
+    "ap_long": "De gemeente zet in op het creëren van plekken waar mensen samenkomen, ontspannen en deelnemen aan cultuur, sport en gemeenschapsleven. Door infrastructuur toekomstgericht te ontwikkelen en af te stemmen op de noden van inwoners, wordt het vrijetijdsaanbod toegankelijker, veelzijdiger en duurzamer. Bornem streeft naar een omgeving waarin ontmoeting, beleving en verbondenheid centraal staan — met aandacht voor functionaliteit, veiligheid en ruimtelijke kwaliteit.",
+    "ac_code": "26ACT50304",
+    "ac_short": "We realiseren extra lokalen om het tekort voor de Academie Beeldende Kunst op te vangen.",
+    "ac_long": "Bornem creëert in 2026 bijkomende lesruimte op de site Ter Dilft om kwaliteitsvol onderwijs te kunnen blijven aanbieden en combineren de uitbreiding gedeeltelijk met de herlocalisatie van de Maakplaats door de herinrichting van het gelijkvloers van het broedergedeelte en de installatie en upcycling van containers naast de schouwburg.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.88,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bornem",
+    "nis_code": "12007",
     "bd_code": "26BD6",
     "bd_short": "Bornem biedt een warm, zorgzaam en kansenbevorderend welzijnsnetwerk.",
     "bd_long": "Kwalitatieve omschrijving: Bornem wil een gemeente zijn waar iedereen zich ondersteund, betrokken en welkom voelt.\nDaarom zet de gemeente in op een breed en toegankelijk zorg- en welzijnsbeleid. Inwoners met een afstand tot de arbeidsmarkt krijgen kansen op activering en tewerkstelling. Mantelzorgers worden ondersteund, kwetsbare doelgroepen ontvangen gerichte zorginitiatieven en anderstaligen of digitaal minder vaardigen krijgen begeleiding op maat.\nBornem werkt hiervoor samen met lokale partners, vrijwilligers en relevante organisaties. Door in te zetten op maatwerk, proactieve ondersteuning en duidelijke informatie, stimuleert de gemeente sociale inclusie en versterkt ze het sociaal weefsel. Het welzijnsnetwerk is flexibel opgebouwd, zodat het kan inspelen op veranderende noden in de samenleving, met aandacht voor samenwerking, efficiëntie en duurzaamheid.",
@@ -967,7 +1341,7 @@
       "00-algemene-financiering"
     ],
     "total_amount": 20000.0,
-    "amount_per_capita": 0.89,
+    "amount_per_capita": 0.88,
     "yearly_amounts": {
       "2026": 0,
       "2027": 20000.0,
@@ -978,7 +1352,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0.89,
+      "2027": 0.88,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -988,34 +1362,34 @@
   {
     "municipality": "Bornem",
     "nis_code": "12007",
-    "bd_code": "26BD5",
-    "bd_short": "Bornem creëert diverse en (ont)prikkelende vrijetijdskansen.",
-    "bd_long": "Kwalitatieve omschrijving: Bornem wil zoveel mogelijk inwoners betrekken bij het vrijetijdsaanbod door drempels te verlagen en activiteiten af te stemmen op uiteenlopende interesses en behoeften. Tegelijk investeert Bornem in aantrekkelijke en goed uitgeruste vrijetijdsplekken, verspreid over de gemeente, waar ontmoeting en beleving centraal staan. Door nauw samen te werken met lokale verenigingen, organisaties en andere partners, ontstaat een breed en gedragen aanbod dat verankerd is in de gemeenschap. Zo bouwt Bornem aan een vrijetijdsklimaat dat uitnodigt, verbindt en versterkt.",
-    "ap_code": "26AP501",
-    "ap_short": "Bornem heeft extra aandacht voor kinderen en jongeren, mensen in armoede en senioren.",
-    "ap_long": "Bornem zorgt voor een vrijetijdsaanbod dat voor iedereen toegankelijk is. De gemeente houdt rekening met de behoeften van verschillende doelgroepen en werkt samen met lokale partners. Dankzij duidelijke communicatie en digitale hulpmiddelen wordt het aanbod beter afgestemd en breder bekendgemaakt. Om deelname te stimuleren, voorziet Bornem extra ondersteuning. Denk aan aangepaste opvang, educatieve activiteiten en begeleiding via netwerken en hulpmiddelen zoals de UiTPAS.",
-    "ac_code": "26ACT50105",
-    "ac_short": "We begeleiden mensen in armoede naar het vrijetijdsaanbod via UiTPAS en lokale netwerken.",
-    "ac_long": "Bornem begeleidt mensen in armoede naar het vrijetijdsaanbod via de UiTPAS en via het het lokale netwerk vrijetijdsparticipatie voor mensen in armoede. Bij UiTPAS wil men de inactieve pashouders activeren en het percentage 16-20 jarige pashouders verhogen naar 15 % tegen 2029. Het netwerk blijft werken op lokaal niveau maar bereidt regionale opschaling in 2032 voor op basis van eventuele beleidsbeslissingen op regionaal niveau.",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BORNEM",
+    "ap_short": "Verrichtingen zonder beleidsdoelstellingen voor Bornem",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-TDGD",
+    "ac_short": "GBB-TDGD",
+    "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "02-mobiliteit"
     ],
-    "total_amount": 6300.0,
-    "amount_per_capita": 0.28,
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.22,
     "yearly_amounts": {
-      "2026": 2000.0,
-      "2027": 0,
-      "2028": 2100.0,
+      "2026": 0,
+      "2027": 5000.0,
+      "2028": 0,
       "2029": 0,
-      "2030": 2200.0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.09,
-      "2027": 0,
-      "2028": 0.09,
+      "2026": 0,
+      "2027": 0.22,
+      "2028": 0,
       "2029": 0,
-      "2030": 0.1,
+      "2030": 0,
       "2031": 0
     }
   },

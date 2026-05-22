@@ -14,10 +14,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 22170000.0,
-    "amount_per_capita": 1392.96,
+    "total_amount": 22619524.49,
+    "amount_per_capita": 1426.81,
     "yearly_amounts": {
-      "2026": 982000.0,
+      "2026": 1431524.49,
       "2027": 3765000.0,
       "2028": 7103000.0,
       "2029": 6220000.0,
@@ -25,12 +25,12 @@
       "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 61.7,
-      "2027": 236.56,
-      "2028": 446.29,
-      "2029": 390.81,
-      "2030": 254.46,
-      "2031": 3.14
+      "2026": 90.3,
+      "2027": 237.49,
+      "2028": 448.05,
+      "2029": 392.35,
+      "2030": 255.47,
+      "2031": 3.15
     }
   },
   {
@@ -48,10 +48,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 3511122.0,
-    "amount_per_capita": 220.61,
+    "total_amount": 3820122.11,
+    "amount_per_capita": 240.97,
     "yearly_amounts": {
-      "2026": 729122.0,
+      "2026": 1038122.11,
       "2027": 822000.0,
       "2028": 535000.0,
       "2029": 725000.0,
@@ -59,12 +59,12 @@
       "2031": 350000.0
     },
     "yearly_per_capita": {
-      "2026": 45.81,
-      "2027": 51.65,
-      "2028": 33.61,
-      "2029": 45.55,
-      "2030": 21.99,
-      "2031": 21.99
+      "2026": 65.48,
+      "2027": 51.85,
+      "2028": 33.75,
+      "2029": 45.73,
+      "2030": 22.08,
+      "2031": 22.08
     }
   },
   {
@@ -82,23 +82,23 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 2129594.0,
-    "amount_per_capita": 133.8,
+    "total_amount": 2305419.27,
+    "amount_per_capita": 145.42,
     "yearly_amounts": {
-      "2026": 982676.0,
-      "2027": 256169.0,
-      "2028": 205608.0,
-      "2029": 208951.0,
-      "2030": 212377.0,
-      "2031": 263813.0
+      "2026": 1158502.08,
+      "2027": 256168.78,
+      "2028": 205607.36,
+      "2029": 208950.37,
+      "2030": 212376.96,
+      "2031": 263813.72
     },
     "yearly_per_capita": {
-      "2026": 61.74,
-      "2027": 16.1,
-      "2028": 12.92,
-      "2029": 13.13,
-      "2030": 13.34,
-      "2031": 16.58
+      "2026": 73.08,
+      "2027": 16.16,
+      "2028": 12.97,
+      "2029": 13.18,
+      "2030": 13.4,
+      "2031": 16.64
     }
   },
   {
@@ -116,10 +116,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1563000.0,
-    "amount_per_capita": 98.2,
+    "total_amount": 1824902.39,
+    "amount_per_capita": 115.11,
     "yearly_amounts": {
-      "2026": 543000.0,
+      "2026": 804902.39,
       "2027": 275000.0,
       "2028": 235000.0,
       "2029": 200000.0,
@@ -127,12 +127,46 @@
       "2031": 75000.0
     },
     "yearly_per_capita": {
-      "2026": 34.12,
-      "2027": 17.28,
-      "2028": 14.77,
-      "2029": 12.57,
-      "2030": 14.77,
-      "2031": 4.71
+      "2026": 50.77,
+      "2027": 17.35,
+      "2028": 14.82,
+      "2029": 12.62,
+      "2030": 14.82,
+      "2031": 4.73
+    }
+  },
+  {
+    "municipality": "Haacht",
+    "nis_code": "24033",
+    "bd_code": "BD000004",
+    "bd_short": "Haacht zet in op een duurzaam mobiliteitsbeleid.",
+    "bd_long": "Het lokaal zorgbestuur kiest voor een gezond mobiliteitssysteem en verzekert de mobiliteit van alle vervoersmodi met aandacht voor de verkeersveiligheid, verkeersleefbaarheid, bereikbaarheid, duurzaamheid, doorstroming en toegankelijkheid.",
+    "ap_code": "AP000014",
+    "ap_short": "Stimuleren van een duurzaam mobiliteitsbeleid.",
+    "ap_long": "Het lokaal zorgbestuur stimuleert het gebruik van duurzame mobiliteitsalternatieven.",
+    "ac_code": "AC000079",
+    "ac_short": "uitbouw tragewegennetwerk, aandacht voor veiligheid en doorstroming",
+    "ac_long": "Het lokaal bestuur voorziet een sterk uitgebouwd en veilig tragewegennetwerk, met bijzondere aandacht voor de veilige bereikbaarheid van de voornaamste knooppunten (vrijetijdsknooppunten, scholen, ...) en vlotte doorstroming. Het lokaal bestuur investeert in verkeersveiligheid en duurzame mobiliteit, met prioriteit voor veilige schoolomgevingen, fietsinfrastructuur en voetpaden. Schoolomgevingen en -routes worden gescreend en aangepakt in overleg met scholen. Ook fets- en schoolstraten krijgen aandacht.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1469727.17,
+    "amount_per_capita": 92.71,
+    "yearly_amounts": {
+      "2026": 1164727.17,
+      "2027": 45000.0,
+      "2028": 120000.0,
+      "2029": 20000.0,
+      "2030": 120000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 73.47,
+      "2027": 2.84,
+      "2028": 7.57,
+      "2029": 1.26,
+      "2030": 7.57,
+      "2031": 0
     }
   },
   {
@@ -150,10 +184,10 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 1180000.0,
-    "amount_per_capita": 74.14,
+    "total_amount": 1272607.28,
+    "amount_per_capita": 80.27,
     "yearly_amounts": {
-      "2026": 330000.0,
+      "2026": 422607.28,
       "2027": 490000.0,
       "2028": 90000.0,
       "2029": 90000.0,
@@ -161,80 +195,12 @@
       "2031": 90000.0
     },
     "yearly_per_capita": {
-      "2026": 20.73,
-      "2027": 30.79,
-      "2028": 5.65,
-      "2029": 5.65,
-      "2030": 5.65,
-      "2031": 5.65
-    }
-  },
-  {
-    "municipality": "Haacht",
-    "nis_code": "24033",
-    "bd_code": "BD000003",
-    "bd_short": "Haacht stimuleert werken, ontspannen, ondernemen en winkelen in de gemeente.",
-    "bd_long": "Het lokaal zorgbestuur stimuleert werken, ontspannen, ondernemen en winkelen in de gemeente.",
-    "ap_code": "AP000010",
-    "ap_short": "Aanbieden van een gevarieerd vrijetijds- en vormingsaanbod en -infrastructuur.",
-    "ap_long": "Elke inwoner kan volgens eigen mogelijkheden en interesses gebruikmaken van een uitgebreid, kwalitatief en gevarieerd vrijetijds- en vormingsaanbod in optimaal beheerde en toegankelijke infrastructuur.",
-    "ac_code": "AC000059",
-    "ac_short": "optimaal beheer sportinfrastructuur",
-    "ac_long": "Het lokaal bestuur zorgt voor een optimaal beheer van de sportinfrastructuur, met goed onderhoud, efficiënte planning en een breed en inclusief gebruik door verenigingen, scholen en individuele sporters.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 1131643.0,
-    "amount_per_capita": 71.1,
-    "yearly_amounts": {
-      "2026": 310100.0,
-      "2027": 399000.0,
-      "2028": 54000.0,
-      "2029": 255080.0,
-      "2030": 56181.0,
-      "2031": 57282.0
-    },
-    "yearly_per_capita": {
-      "2026": 19.48,
-      "2027": 25.07,
-      "2028": 3.39,
-      "2029": 16.03,
-      "2030": 3.53,
-      "2031": 3.6
-    }
-  },
-  {
-    "municipality": "Haacht",
-    "nis_code": "24033",
-    "bd_code": "BD000005",
-    "bd_short": "Haacht realiseert duurzame, kwaliteitsvolle, veilige, toegankelijke en leefbare openbare ruimten.",
-    "bd_long": "Het lokaal zorgbestuur realiseert en onderhoudt duurzame, kwaliteitsvolle, veilige en leefbare openbare ruimten en gebouwen met aandacht voor alle gebruikers.",
-    "ap_code": "AP000016",
-    "ap_short": "Onderhoud bestaande openbare ruimten en gebouwen.",
-    "ap_long": "Het lokaal zorgbestuur onderhoudt systematisch de bestaande openbare ruimten en gebouwen.",
-    "ac_code": "AC000087",
-    "ac_short": "onderhouds- en vervangingswerken eigen gebouwenpatrimonium",
-    "ac_long": "Het lokaal bestuur voert, zelf of in samenwerking met externen, de nodige onderhouds- en vervangingswerken uit aan het eigen gebouwenpatrimonium, waarbij gestreefd wordt naar CO2-neutraliteit.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 1093000.0,
-    "amount_per_capita": 68.67,
-    "yearly_amounts": {
-      "2026": 147000.0,
-      "2027": 403000.0,
-      "2028": 156000.0,
-      "2029": 106000.0,
-      "2030": 106000.0,
-      "2031": 175000.0
-    },
-    "yearly_per_capita": {
-      "2026": 9.24,
-      "2027": 25.32,
-      "2028": 9.8,
-      "2029": 6.66,
-      "2030": 6.66,
-      "2031": 11.0
+      "2026": 26.66,
+      "2027": 30.91,
+      "2028": 5.68,
+      "2029": 5.68,
+      "2030": 5.68,
+      "2031": 5.68
     }
   },
   {
@@ -252,10 +218,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1010000.0,
-    "amount_per_capita": 63.46,
+    "total_amount": 1214708.23,
+    "amount_per_capita": 76.62,
     "yearly_amounts": {
-      "2026": 240000.0,
+      "2026": 444708.23,
       "2027": 250000.0,
       "2028": 130000.0,
       "2029": 130000.0,
@@ -263,12 +229,12 @@
       "2031": 130000.0
     },
     "yearly_per_capita": {
-      "2026": 15.08,
-      "2027": 15.71,
-      "2028": 8.17,
-      "2029": 8.17,
-      "2030": 8.17,
-      "2031": 8.17
+      "2026": 28.05,
+      "2027": 15.77,
+      "2028": 8.2,
+      "2029": 8.2,
+      "2030": 8.2,
+      "2031": 8.2
     }
   },
   {
@@ -286,23 +252,23 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 773688.0,
-    "amount_per_capita": 48.61,
+    "total_amount": 1041577.48,
+    "amount_per_capita": 65.7,
     "yearly_amounts": {
-      "2026": 305000.0,
+      "2026": 572888.84,
       "2027": 80900.0,
       "2028": 81827.0,
-      "2029": 137418.0,
-      "2030": 83765.0,
-      "2031": 84778.0
+      "2029": 137418.16,
+      "2030": 83765.26,
+      "2031": 84778.22
     },
     "yearly_per_capita": {
-      "2026": 19.16,
-      "2027": 5.08,
-      "2028": 5.14,
-      "2029": 8.63,
-      "2030": 5.26,
-      "2031": 5.33
+      "2026": 36.14,
+      "2027": 5.1,
+      "2028": 5.16,
+      "2029": 8.67,
+      "2030": 5.28,
+      "2031": 5.35
     }
   },
   {
@@ -320,10 +286,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 750054.0,
-    "amount_per_capita": 47.13,
+    "total_amount": 1028451.49,
+    "amount_per_capita": 64.87,
     "yearly_amounts": {
-      "2026": 284915.0,
+      "2026": 563312.49,
       "2027": 263997.0,
       "2028": 20118.0,
       "2029": 19351.0,
@@ -331,12 +297,12 @@
       "2031": 142704.0
     },
     "yearly_per_capita": {
-      "2026": 17.9,
-      "2027": 16.59,
-      "2028": 1.26,
+      "2026": 35.53,
+      "2027": 16.65,
+      "2028": 1.27,
       "2029": 1.22,
-      "2030": 1.19,
-      "2031": 8.97
+      "2030": 1.2,
+      "2031": 9.0
     }
   },
   {
@@ -355,7 +321,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 720000.0,
-    "amount_per_capita": 45.24,
+    "amount_per_capita": 45.42,
     "yearly_amounts": {
       "2026": 180000.0,
       "2027": 180000.0,
@@ -365,10 +331,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 11.31,
-      "2027": 11.31,
-      "2028": 11.31,
-      "2029": 11.31,
+      "2026": 11.35,
+      "2027": 11.35,
+      "2028": 11.35,
+      "2029": 11.35,
       "2030": 0,
       "2031": 0
     }
@@ -388,10 +354,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 705000.0,
-    "amount_per_capita": 44.3,
+    "total_amount": 718349.1,
+    "amount_per_capita": 45.31,
     "yearly_amounts": {
-      "2026": 10000.0,
+      "2026": 23349.1,
       "2027": 200000.0,
       "2028": 495000.0,
       "2029": 0,
@@ -399,9 +365,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.63,
-      "2027": 12.57,
-      "2028": 31.1,
+      "2026": 1.47,
+      "2027": 12.62,
+      "2028": 31.22,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -422,10 +388,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 540000.0,
-    "amount_per_capita": 33.93,
+    "total_amount": 710375.96,
+    "amount_per_capita": 44.81,
     "yearly_amounts": {
-      "2026": 120000.0,
+      "2026": 290375.96,
       "2027": 120000.0,
       "2028": 120000.0,
       "2029": 60000.0,
@@ -433,12 +399,80 @@
       "2031": 60000.0
     },
     "yearly_per_capita": {
-      "2026": 7.54,
-      "2027": 7.54,
-      "2028": 7.54,
-      "2029": 3.77,
-      "2030": 3.77,
-      "2031": 3.77
+      "2026": 18.32,
+      "2027": 7.57,
+      "2028": 7.57,
+      "2029": 3.78,
+      "2030": 3.78,
+      "2031": 3.78
+    }
+  },
+  {
+    "municipality": "Haacht",
+    "nis_code": "24033",
+    "bd_code": "BD000006",
+    "bd_short": "Haacht ontwikkelt een duurzaam omgevingsbeleid.",
+    "bd_long": "Het lokaal zorgbestuur ontwikkelt een duurzaam omgevingsbeleid voor ruimtelijke ordening, wonen en leefmilieu en streeft naar een optimaal ruimtelijk rendement.",
+    "ap_code": "AP000018",
+    "ap_short": "Beheer van het onroerenderfgoedpatrimonium i.s.m. WinAr.",
+    "ap_long": "De gemeente is erkend als onroerenderfgoedgemeente, beheert en behoudt vanuit een visie op ruimtelijke ordening en onroerend erfgoed het aanwezige onroerenderfgoedpatrimonium en doet een beroep op de IOED WinAr voor de uitvoering van het onroerenderfgoedbeleid.",
+    "ac_code": "AC000097",
+    "ac_short": "inventarisatie onroerend erfgoed",
+    "ac_long": "De gemeente inventariseert het onroerend erfgoed op haar grondgebied en zet instrumenten in om het duurzaam behoud en beheer ervan te stimuleren. De gemeente voert het door haar vastgestelde onroerend erfgoed en de er eventueel aan gekoppelde toelatingsplichten in in het platform dat daarvoor ter beschikking wordt gesteld door de Vlaamse overheid.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 568852.01,
+    "amount_per_capita": 35.88,
+    "yearly_amounts": {
+      "2026": 418852.01,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 26.42,
+      "2027": 3.15,
+      "2028": 0,
+      "2029": 3.15,
+      "2030": 0,
+      "2031": 3.15
+    }
+  },
+  {
+    "municipality": "Haacht",
+    "nis_code": "24033",
+    "bd_code": "BD000005",
+    "bd_short": "Haacht realiseert duurzame, kwaliteitsvolle, veilige, toegankelijke en leefbare openbare ruimten.",
+    "bd_long": "Het lokaal zorgbestuur realiseert en onderhoudt duurzame, kwaliteitsvolle, veilige en leefbare openbare ruimten en gebouwen met aandacht voor alle gebruikers.",
+    "ap_code": "AP000016",
+    "ap_short": "Onderhoud bestaande openbare ruimten en gebouwen.",
+    "ap_long": "Het lokaal zorgbestuur onderhoudt systematisch de bestaande openbare ruimten en gebouwen.",
+    "ac_code": "AC000087",
+    "ac_short": "onderhouds- en vervangingswerken eigen gebouwenpatrimonium",
+    "ac_long": "Het lokaal bestuur voert, zelf of in samenwerking met externen, de nodige onderhouds- en vervangingswerken uit aan het eigen gebouwenpatrimonium, waarbij gestreefd wordt naar CO2-neutraliteit.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 528226.43,
+    "amount_per_capita": 33.32,
+    "yearly_amounts": {
+      "2026": 179726.43,
+      "2027": 280500.0,
+      "2028": 56000.0,
+      "2029": 6000.0,
+      "2030": 6000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.34,
+      "2027": 17.69,
+      "2028": 3.53,
+      "2029": 0.38,
+      "2030": 0.38,
+      "2031": 0
     }
   },
   {
@@ -456,23 +490,23 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 470808.0,
-    "amount_per_capita": 29.58,
+    "total_amount": 503542.94,
+    "amount_per_capita": 31.76,
     "yearly_amounts": {
-      "2026": 47369.0,
+      "2026": 80103.46,
       "2027": 145316.0,
       "2028": 124282.0,
       "2029": 50268.0,
       "2030": 51274.0,
-      "2031": 52299.0
+      "2031": 52299.48
     },
     "yearly_per_capita": {
-      "2026": 2.98,
-      "2027": 9.13,
-      "2028": 7.81,
-      "2029": 3.16,
-      "2030": 3.22,
-      "2031": 3.29
+      "2026": 5.05,
+      "2027": 9.17,
+      "2028": 7.84,
+      "2029": 3.17,
+      "2030": 3.23,
+      "2031": 3.3
     }
   },
   {
@@ -481,31 +515,31 @@
     "bd_code": "BD000004",
     "bd_short": "Haacht zet in op een duurzaam mobiliteitsbeleid.",
     "bd_long": "Het lokaal zorgbestuur kiest voor een gezond mobiliteitssysteem en verzekert de mobiliteit van alle vervoersmodi met aandacht voor de verkeersveiligheid, verkeersleefbaarheid, bereikbaarheid, duurzaamheid, doorstroming en toegankelijkheid.",
-    "ap_code": "AP000014",
-    "ap_short": "Stimuleren van een duurzaam mobiliteitsbeleid.",
-    "ap_long": "Het lokaal zorgbestuur stimuleert het gebruik van duurzame mobiliteitsalternatieven.",
-    "ac_code": "AC000079",
-    "ac_short": "uitbouw tragewegennetwerk, aandacht voor veiligheid en doorstroming",
-    "ac_long": "Het lokaal bestuur voorziet een sterk uitgebouwd en veilig tragewegennetwerk, met bijzondere aandacht voor de veilige bereikbaarheid van de voornaamste knooppunten (vrijetijdsknooppunten, scholen, ...) en vlotte doorstroming. Het lokaal bestuur investeert in verkeersveiligheid en duurzame mobiliteit, met prioriteit voor veilige schoolomgevingen, fietsinfrastructuur en voetpaden. Schoolomgevingen en -routes worden gescreend en aangepakt in overleg met scholen. Ook fets- en schoolstraten krijgen aandacht.",
+    "ap_code": "AP000015",
+    "ap_short": "Optimaal beheer verkeersinfrastructuur.",
+    "ap_long": "Het lokaal zorgbestuur bevordert een vlotte doorstroming en verhoogt de verkeersveiligheid en verkeersleefbaarheid door systematisch beheer en onderhoud en aanpassingen/optimalisatie van bestaande verkeersinfrastructuur.",
+    "ac_code": "AC000084",
+    "ac_short": "inzetten op kernversterking; herinrichting kernwinkelgebied",
+    "ac_long": "Het lokaal bestuur zet in op kernversterking en realiseert een herinrichting van het kernwinkelgebied om de verkeersleefbaarheid en de belevingswaarde/verblijfswaarde te vergroten, rekening houdend met bereikbaarheid.",
     "categories": [
-      "02-mobiliteit"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 440000.0,
-    "amount_per_capita": 27.65,
+    "total_amount": 500000.0,
+    "amount_per_capita": 31.54,
     "yearly_amounts": {
-      "2026": 135000.0,
-      "2027": 45000.0,
-      "2028": 120000.0,
-      "2029": 20000.0,
-      "2030": 120000.0,
+      "2026": 500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.48,
-      "2027": 2.83,
-      "2028": 7.54,
-      "2029": 1.26,
-      "2030": 7.54,
+      "2026": 31.54,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -524,23 +558,23 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 356000.0,
-    "amount_per_capita": 22.37,
+    "total_amount": 350210.61,
+    "amount_per_capita": 22.09,
     "yearly_amounts": {
-      "2026": 196000.0,
-      "2027": 148000.0,
-      "2028": 3000.0,
-      "2029": 3000.0,
-      "2030": 3000.0,
-      "2031": 3000.0
+      "2026": 205210.61,
+      "2027": 145000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 12.31,
-      "2027": 9.3,
-      "2028": 0.19,
-      "2029": 0.19,
-      "2030": 0.19,
-      "2031": 0.19
+      "2026": 12.94,
+      "2027": 9.15,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -558,10 +592,10 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 252000.0,
-    "amount_per_capita": 15.83,
+    "total_amount": 304331.4,
+    "amount_per_capita": 19.2,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 72331.4,
       "2027": 63000.0,
       "2028": 74000.0,
       "2029": 25000.0,
@@ -569,11 +603,45 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 1.26,
-      "2027": 3.96,
-      "2028": 4.65,
-      "2029": 1.57,
-      "2030": 3.77,
+      "2026": 4.56,
+      "2027": 3.97,
+      "2028": 4.67,
+      "2029": 1.58,
+      "2030": 3.78,
+      "2031": 0.63
+    }
+  },
+  {
+    "municipality": "Haacht",
+    "nis_code": "24033",
+    "bd_code": "BD000003",
+    "bd_short": "Haacht stimuleert werken, ontspannen, ondernemen en winkelen in de gemeente.",
+    "bd_long": "Het lokaal zorgbestuur stimuleert werken, ontspannen, ondernemen en winkelen in de gemeente.",
+    "ap_code": "AP000010",
+    "ap_short": "Aanbieden van een gevarieerd vrijetijds- en vormingsaanbod en -infrastructuur.",
+    "ap_long": "Elke inwoner kan volgens eigen mogelijkheden en interesses gebruikmaken van een uitgebreid, kwalitatief en gevarieerd vrijetijds- en vormingsaanbod in optimaal beheerde en toegankelijke infrastructuur.",
+    "ac_code": "AC000056",
+    "ac_short": "initiatieven voor jongeren, ondersteunen ontmoetingsplaatsen en -mogelijkheden",
+    "ac_long": "Het lokaal bestuur werkt initiatieven uit op maat van jongeren, ondersteunt ontmoetingsplaatsen en -mogelijkheden voor jongeren en gaat na hoe de betrokkenheid van jongeren vergroot kan worden.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 230000.0,
+    "amount_per_capita": 14.51,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 70000.0,
+      "2028": 0,
+      "2029": 70000.0,
+      "2030": 0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.05,
+      "2027": 4.42,
+      "2028": 0,
+      "2029": 4.42,
+      "2030": 0,
       "2031": 0.63
     }
   },
@@ -590,22 +658,22 @@
     "ac_short": "onderhoud en beheer van openbare ruimten",
     "ac_long": "Het lokaal bestuur beheert en onderhoudt de infrastructuur van overige openbare ruimten (parkings, begraafplaatsen, pleinen, …).",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 230750.0,
-    "amount_per_capita": 14.5,
+    "total_amount": 194965.23,
+    "amount_per_capita": 12.3,
     "yearly_amounts": {
-      "2026": 65750.0,
-      "2027": 85000.0,
-      "2028": 40000.0,
+      "2026": 114965.23,
+      "2027": 20000.0,
+      "2028": 20000.0,
       "2029": 10000.0,
       "2030": 20000.0,
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 4.13,
-      "2027": 5.34,
-      "2028": 2.51,
+      "2026": 7.25,
+      "2027": 1.26,
+      "2028": 1.26,
       "2029": 0.63,
       "2030": 1.26,
       "2031": 0.63
@@ -626,10 +694,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 186667.0,
-    "amount_per_capita": 11.73,
+    "total_amount": 186666.67,
+    "amount_per_capita": 11.77,
     "yearly_amounts": {
-      "2026": 186667.0,
+      "2026": 186666.67,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -637,80 +705,12 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 11.73,
+      "2026": 11.77,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Haacht",
-    "nis_code": "24033",
-    "bd_code": "BD000003",
-    "bd_short": "Haacht stimuleert werken, ontspannen, ondernemen en winkelen in de gemeente.",
-    "bd_long": "Het lokaal zorgbestuur stimuleert werken, ontspannen, ondernemen en winkelen in de gemeente.",
-    "ap_code": "AP000010",
-    "ap_short": "Aanbieden van een gevarieerd vrijetijds- en vormingsaanbod en -infrastructuur.",
-    "ap_long": "Elke inwoner kan volgens eigen mogelijkheden en interesses gebruikmaken van een uitgebreid, kwalitatief en gevarieerd vrijetijds- en vormingsaanbod in optimaal beheerde en toegankelijke infrastructuur.",
-    "ac_code": "AC000056",
-    "ac_short": "initiatieven voor jongeren, ondersteunen ontmoetingsplaatsen en -mogelijkheden",
-    "ac_long": "Het lokaal bestuur werkt initiatieven uit op maat van jongeren, ondersteunt ontmoetingsplaatsen en -mogelijkheden voor jongeren en gaat na hoe de betrokkenheid van jongeren vergroot kan worden.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 175000.0,
-    "amount_per_capita": 11.0,
-    "yearly_amounts": {
-      "2026": 25000.0,
-      "2027": 70000.0,
-      "2028": 0,
-      "2029": 70000.0,
-      "2030": 0,
-      "2031": 10000.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.57,
-      "2027": 4.4,
-      "2028": 0,
-      "2029": 4.4,
-      "2030": 0,
-      "2031": 0.63
-    }
-  },
-  {
-    "municipality": "Haacht",
-    "nis_code": "24033",
-    "bd_code": "BD000006",
-    "bd_short": "Haacht ontwikkelt een duurzaam omgevingsbeleid.",
-    "bd_long": "Het lokaal zorgbestuur ontwikkelt een duurzaam omgevingsbeleid voor ruimtelijke ordening, wonen en leefmilieu en streeft naar een optimaal ruimtelijk rendement.",
-    "ap_code": "AP000018",
-    "ap_short": "Beheer van het onroerenderfgoedpatrimonium i.s.m. WinAr.",
-    "ap_long": "De gemeente is erkend als onroerenderfgoedgemeente, beheert en behoudt vanuit een visie op ruimtelijke ordening en onroerend erfgoed het aanwezige onroerenderfgoedpatrimonium en doet een beroep op de IOED WinAr voor de uitvoering van het onroerenderfgoedbeleid.",
-    "ac_code": "AC000097",
-    "ac_short": "inventarisatie onroerend erfgoed",
-    "ac_long": "De gemeente inventariseert het onroerend erfgoed op haar grondgebied en zet instrumenten in om het duurzaam behoud en beheer ervan te stimuleren. De gemeente voert het door haar vastgestelde onroerend erfgoed en de er eventueel aan gekoppelde toelatingsplichten in in het platform dat daarvoor ter beschikking wordt gesteld door de Vlaamse overheid.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 160000.0,
-    "amount_per_capita": 10.05,
-    "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 50000.0,
-      "2028": 0,
-      "2029": 50000.0,
-      "2030": 0,
-      "2031": 50000.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.63,
-      "2027": 3.14,
-      "2028": 0,
-      "2029": 3.14,
-      "2030": 0,
-      "2031": 3.14
     }
   },
   {
@@ -728,10 +728,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 130000.0,
-    "amount_per_capita": 8.17,
+    "total_amount": 159028.15,
+    "amount_per_capita": 10.03,
     "yearly_amounts": {
-      "2026": 130000.0,
+      "2026": 159028.15,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -739,7 +739,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.17,
+      "2026": 10.03,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -762,10 +762,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 120000.0,
-    "amount_per_capita": 7.54,
+    "total_amount": 150000.0,
+    "amount_per_capita": 9.46,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 50000.0,
       "2027": 20000.0,
       "2028": 20000.0,
       "2029": 20000.0,
@@ -773,7 +773,7 @@
       "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 1.26,
+      "2026": 3.15,
       "2027": 1.26,
       "2028": 1.26,
       "2029": 1.26,
@@ -797,7 +797,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 6.28,
+    "amount_per_capita": 6.31,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
@@ -807,7 +807,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.28,
+      "2026": 6.31,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -831,7 +831,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 80000.0,
-    "amount_per_capita": 5.03,
+    "amount_per_capita": 5.05,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 60000.0,
@@ -842,7 +842,41 @@
     },
     "yearly_per_capita": {
       "2026": 1.26,
-      "2027": 3.77,
+      "2027": 3.78,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Haacht",
+    "nis_code": "24033",
+    "bd_code": "BD000003",
+    "bd_short": "Haacht stimuleert werken, ontspannen, ondernemen en winkelen in de gemeente.",
+    "bd_long": "Het lokaal zorgbestuur stimuleert werken, ontspannen, ondernemen en winkelen in de gemeente.",
+    "ap_code": "AP000010",
+    "ap_short": "Aanbieden van een gevarieerd vrijetijds- en vormingsaanbod en -infrastructuur.",
+    "ap_long": "Elke inwoner kan volgens eigen mogelijkheden en interesses gebruikmaken van een uitgebreid, kwalitatief en gevarieerd vrijetijds- en vormingsaanbod in optimaal beheerde en toegankelijke infrastructuur.",
+    "ac_code": "AC000065",
+    "ac_short": "bevorderen sociale cohesie en gemeenschapsvorming",
+    "ac_long": "Het lokaal bestuur bevordert de sociale cohesie, o.a. door samenwerking met lokale actoren zoals het lokaal dienstencentrum met de daarbij horende vormen van inspraak, en door het organiseren en coördineren van verschillende gemeenschapsvormende initiatieven.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 63933.36,
+    "amount_per_capita": 4.03,
+    "yearly_amounts": {
+      "2026": 63933.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.03,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -864,23 +898,23 @@
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 50465.0,
-    "amount_per_capita": 3.17,
+    "total_amount": 50464.97,
+    "amount_per_capita": 3.18,
     "yearly_amounts": {
       "2026": 8000.0,
       "2027": 8160.0,
-      "2028": 8323.0,
-      "2029": 8490.0,
-      "2030": 8659.0,
-      "2031": 8833.0
+      "2028": 8323.2,
+      "2029": 8489.66,
+      "2030": 8659.46,
+      "2031": 8832.65
     },
     "yearly_per_capita": {
       "2026": 0.5,
       "2027": 0.51,
-      "2028": 0.52,
-      "2029": 0.53,
-      "2030": 0.54,
-      "2031": 0.55
+      "2028": 0.53,
+      "2029": 0.54,
+      "2030": 0.55,
+      "2031": 0.56
     }
   },
   {
@@ -899,7 +933,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 45036.0,
-    "amount_per_capita": 2.83,
+    "amount_per_capita": 2.84,
     "yearly_amounts": {
       "2026": 0,
       "2027": 45036.0,
@@ -910,7 +944,41 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 2.83,
+      "2027": 2.84,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Haacht",
+    "nis_code": "24033",
+    "bd_code": "BD000002",
+    "bd_short": "Haacht voert een integraal en inclusief sociaal beleid.",
+    "bd_long": "Haacht bouwt aan een geïntegreerd en inclusief sociaal beleid waarin elke inwoner meetelt. We werken transversaal en vraaggericht, over alle beleidsdomeinen heen, en complementair aan het bestaande aanbod, zodat ondersteuning en kansen samenhangend en op maat worden aangeboden. De gemeente wil dat iedereen kan deelnemen aan de samenleving door in te zetten op toeleiding naar werk en huisvesting, het garanderen van basisnoden en het versterken van sociale netwerken. Gezinnen en kinderen worden ondersteund door kwalitatieve en toegankelijke kinderopvang (0-12 jaar) en flankerende ondersteuning van scholen, terwijl ouderen en jongeren zorg en begeleiding op maat krijgen in een versnipperd en vermaatschappelijkt zorglandschap. Door samenwerking met lokale partners, scholen en verenigingen streven we naar een warme, verbonden gemeenschap waar iedereen zich thuis kan voelen en kansen krijgt om volwaardig mee te doen.",
+    "ap_code": "AP000006",
+    "ap_short": "Garanderen van een menswaardig bestaan voor alle inwoners.",
+    "ap_long": "Het lokaal zorgbestuur garandeert alle inwoners een menswaardig bestaan.",
+    "ac_code": "AC000035",
+    "ac_short": "overdracht van het eigen woonpatrimonium aan de Woonmaatschappij",
+    "ac_long": "Het lokaal bestuur draagt het eigen woonpatrimonium over aan de Woonmaatschappij. In samenwerking met de Woonmaatschappij en andere partners wordt gestreefd naar kwalitatieve, betaalbare en aangepaste huisvesting voor kwetsbare inwoners in hun vertrouwde leefomgeving.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 35000.0,
+    "amount_per_capita": 2.21,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.26,
+      "2027": 0.95,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -933,7 +1001,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 32500.0,
-    "amount_per_capita": 2.04,
+    "amount_per_capita": 2.05,
     "yearly_amounts": {
       "2026": 0,
       "2027": 32500.0,
@@ -944,109 +1012,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 2.04,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Haacht",
-    "nis_code": "24033",
-    "bd_code": "BD000002",
-    "bd_short": "Haacht voert een integraal en inclusief sociaal beleid.",
-    "bd_long": "Haacht bouwt aan een geïntegreerd en inclusief sociaal beleid waarin elke inwoner meetelt. We werken transversaal en vraaggericht, over alle beleidsdomeinen heen, en complementair aan het bestaande aanbod, zodat ondersteuning en kansen samenhangend en op maat worden aangeboden. De gemeente wil dat iedereen kan deelnemen aan de samenleving door in te zetten op toeleiding naar werk en huisvesting, het garanderen van basisnoden en het versterken van sociale netwerken. Gezinnen en kinderen worden ondersteund door kwalitatieve en toegankelijke kinderopvang (0-12 jaar) en flankerende ondersteuning van scholen, terwijl ouderen en jongeren zorg en begeleiding op maat krijgen in een versnipperd en vermaatschappelijkt zorglandschap. Door samenwerking met lokale partners, scholen en verenigingen streven we naar een warme, verbonden gemeenschap waar iedereen zich thuis kan voelen en kansen krijgt om volwaardig mee te doen.",
-    "ap_code": "AP000006",
-    "ap_short": "Garanderen van een menswaardig bestaan voor alle inwoners.",
-    "ap_long": "Het lokaal zorgbestuur garandeert alle inwoners een menswaardig bestaan.",
-    "ac_code": "AC000035",
-    "ac_short": "overdracht van het eigen woonpatrimonium aan de Woonmaatschappij",
-    "ac_long": "Het lokaal bestuur draagt het eigen woonpatrimonium over aan de Woonmaatschappij. In samenwerking met de Woonmaatschappij en andere partners wordt gestreefd naar kwalitatieve, betaalbare en aangepaste huisvesting voor kwetsbare inwoners in hun vertrouwde leefomgeving.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 30000.0,
-    "amount_per_capita": 1.88,
-    "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 15000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.94,
-      "2027": 0.94,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Haacht",
-    "nis_code": "24033",
-    "bd_code": "BD000001",
-    "bd_short": "Haacht heeft een performante en klantgerichte interne werking.",
-    "bd_long": "Het lokaal zorgbestuur Haacht is een performante en klantgerichte organisatie die kwaliteitsvol werkt, open communiceert, een modern HR-beleid voert en streeft naar een verhoging van de digitale maturiteit.",
-    "ap_code": "AP000002",
-    "ap_short": "Evolueren naar digitale maturiteit type 4.",
-    "ap_long": "Het lokaal zorgbestuur streeft ernaar tegen 2031 te evolueren naar type 4 inzake digitale maturiteit. Dit houdt in dat digitale dienstverlening volledig geïntegreerd is in onze werking, met een klantgerichte aanpak, doorgedreven procesautomatisatie en gebruik van data voor beleidsondersteuning.",
-    "ac_code": "AC000014",
-    "ac_short": "hard- en software",
-    "ac_long": "Het lokaal bestuur beschikt over de nodige hardware en software(-applicaties) om kwaliteitsvolle ICT-diensten te leveren.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 30000.0,
-    "amount_per_capita": 1.88,
-    "yearly_amounts": {
-      "2026": 30000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.88,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Haacht",
-    "nis_code": "24033",
-    "bd_code": "BD000003",
-    "bd_short": "Haacht stimuleert werken, ontspannen, ondernemen en winkelen in de gemeente.",
-    "bd_long": "Het lokaal zorgbestuur stimuleert werken, ontspannen, ondernemen en winkelen in de gemeente.",
-    "ap_code": "AP000010",
-    "ap_short": "Aanbieden van een gevarieerd vrijetijds- en vormingsaanbod en -infrastructuur.",
-    "ap_long": "Elke inwoner kan volgens eigen mogelijkheden en interesses gebruikmaken van een uitgebreid, kwalitatief en gevarieerd vrijetijds- en vormingsaanbod in optimaal beheerde en toegankelijke infrastructuur.",
-    "ac_code": "AC000060",
-    "ac_short": "optimaal beheer cultuurinfrastructuur",
-    "ac_long": "Het lokaal bestuur zorgt voor een optimaal beheer van de cultuurinfrastructuur, met aandacht voor toegankelijkheid, multifunctionaliteit en ondersteuning van zowel professionele als amateurkunstenaars, verenigingen en organisatoren.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 25000.0,
-    "amount_per_capita": 1.57,
-    "yearly_amounts": {
-      "2026": 25000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.57,
-      "2027": 0,
+      "2027": 2.05,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1069,7 +1035,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 18500.0,
-    "amount_per_capita": 1.16,
+    "amount_per_capita": 1.17,
     "yearly_amounts": {
       "2026": 18500.0,
       "2027": 0,
@@ -1079,7 +1045,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.16,
+      "2026": 1.17,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1102,10 +1068,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 10000.0,
-    "amount_per_capita": 0.63,
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.95,
     "yearly_amounts": {
-      "2026": 5000.0,
+      "2026": 10000.0,
       "2027": 5000.0,
       "2028": 0,
       "2029": 0,
@@ -1113,8 +1079,76 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.31,
-      "2027": 0.31,
+      "2026": 0.63,
+      "2027": 0.32,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Haacht",
+    "nis_code": "24033",
+    "bd_code": "BD000008",
+    "bd_short": "Overig beleid",
+    "bd_long": "Overig beleid",
+    "ap_code": "AP000028",
+    "ap_short": "Overig beleid",
+    "ap_long": "Overig beleid",
+    "ac_code": "AC000122",
+    "ac_short": "Overig beleid",
+    "ac_long": "Overig beleid",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 12633.6,
+    "amount_per_capita": 0.8,
+    "yearly_amounts": {
+      "2026": 12633.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Haacht",
+    "nis_code": "24033",
+    "bd_code": "BD000002",
+    "bd_short": "Haacht voert een integraal en inclusief sociaal beleid.",
+    "bd_long": "Haacht bouwt aan een geïntegreerd en inclusief sociaal beleid waarin elke inwoner meetelt. We werken transversaal en vraaggericht, over alle beleidsdomeinen heen, en complementair aan het bestaande aanbod, zodat ondersteuning en kansen samenhangend en op maat worden aangeboden. De gemeente wil dat iedereen kan deelnemen aan de samenleving door in te zetten op toeleiding naar werk en huisvesting, het garanderen van basisnoden en het versterken van sociale netwerken. Gezinnen en kinderen worden ondersteund door kwalitatieve en toegankelijke kinderopvang (0-12 jaar) en flankerende ondersteuning van scholen, terwijl ouderen en jongeren zorg en begeleiding op maat krijgen in een versnipperd en vermaatschappelijkt zorglandschap. Door samenwerking met lokale partners, scholen en verenigingen streven we naar een warme, verbonden gemeenschap waar iedereen zich thuis kan voelen en kansen krijgt om volwaardig mee te doen.",
+    "ap_code": "AP000007",
+    "ap_short": "Integrale aanpak van de welzijnsbehoefte",
+    "ap_long": "Het lokaal zorgbestuur voorziet in een integrale aanpak van de lokale welzijnsbehoeften, in samenwerking met partners.",
+    "ac_code": "AC000042",
+    "ac_short": "Heerlijk Haacht",
+    "ac_long": "Het lokaal bestuur richt zich met het project (H)eerlijk Haacht (met steun van Europese middelen) op het tegengaan van voedselverspilling door voedseloverschotten te verzamelen, te verdelen en te verwerken tot maaltijden tijdens georganiseerde kookworkshops. Deze maaltijden dienen niet alleen om duurzaam om te gaan met voedsel, maar ook als middel om sociale verbondenheid te versterken en eenzaamheid tegen te gaan. In onze landelijke gemeente streven we ernaar om met dit project een zo breed mogelijk publiek te bereiken en maatschappelijke meerwaarde te creëren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 9030.78,
+    "amount_per_capita": 0.57,
+    "yearly_amounts": {
+      "2026": 9030.78,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.57,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,

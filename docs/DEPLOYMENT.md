@@ -25,6 +25,7 @@ If you created the project via Cloudflare Git integration, disable automatic dep
 | Variable | Required | Description |
 | --- | --- | --- |
 | `CLOUDFLARE_PAGES_PROJECT` | Yes | Cloudflare Pages project name (use a **new** name, not the old one) |
+| `CLOUDFLARE_PAGES_PROJECT_FIN_INDICATOREN` | Optional | Separate Cloudflare Pages project name for the standalone `fin-indicatoren` public site. |
 
 `NEXT_PUBLIC_DEPLOY_VERSION` is injected automatically as the commit SHA for cache-busting.
 
@@ -71,3 +72,37 @@ The workflow file in `.github/workflows/` should stay thin and only orchestrate 
 3. Add `CLOUDFLARE_PAGES_PROJECT` as a repository variable (set to the new project name)
 4. Trigger the `Deploy to Cloudflare Pages` workflow manually
 5. Add a custom domain in Cloudflare Pages settings
+
+## Standalone public deploy for `fin-indicatoren`
+
+Use this when you want to share only `fin-indicatoren` on a separate public host without exposing the portal or other analyses.
+
+### Local build
+
+```bash
+pnpm build:standalone -- fin-indicatoren
+```
+
+This writes a root-hostable static export to `dist-standalone/fin-indicatoren/`.
+
+### GitHub Actions workflow
+
+Use `.github/workflows/deploy-fin-indicatoren-public.yml`.
+
+It:
+
+1. Installs dependencies
+2. Builds only `fin-indicatoren` with `NEXT_PUBLIC_BASE_PATH=""`
+3. Uploads `dist-standalone/fin-indicatoren/`
+4. Deploys it to a separate Cloudflare Pages project
+
+### Required configuration
+
+- Reuse the existing `CLOUDFLARE_ACCOUNT_ID` and `CLOUDFLARE_API_TOKEN` secrets
+- Add the repository variable `CLOUDFLARE_PAGES_PROJECT_FIN_INDICATOREN`
+
+Recommended setup:
+
+- Create a second Pages project, for example `embuild-fin-indicatoren`
+- Attach a separate hostname or subdomain to that project
+- Do not point that hostname at the main analyses Pages project

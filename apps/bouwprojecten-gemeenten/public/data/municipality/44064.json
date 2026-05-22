@@ -12,10 +12,10 @@
     "ac_short": "Realiseren van een nieuwbouw voor de gemeentelijke basisschool als ‘brede school’​",
     "ac_long": "Met de bouw van een nieuw schoolgebouw in Sint-Martens-Latem creëren we een toekomstgerichte plek waar leren, spelen en ontmoeten samenkomen en waarin ook muziekschool Kade een vaste stek krijgt. De start van de bouw van de school is gepland voor het najaar van 2026 en we verwachten de oplevering in 2028.",
     "categories": [
-      "08-onderwijs"
+      "01-algemeen-bestuur"
     ],
     "total_amount": 7770944.0,
-    "amount_per_capita": 957.69,
+    "amount_per_capita": 956.25,
     "yearly_amounts": {
       "2026": 1615302.0,
       "2027": 3864090.0,
@@ -25,9 +25,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 199.07,
-      "2027": 476.21,
-      "2028": 282.41,
+      "2026": 198.77,
+      "2027": 475.49,
+      "2028": 281.99,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -48,10 +48,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 3010392.0,
-    "amount_per_capita": 371.0,
+    "total_amount": 3120589.93,
+    "amount_per_capita": 384.0,
     "yearly_amounts": {
-      "2026": 821324.0,
+      "2026": 931521.93,
       "2027": 582956.0,
       "2028": 420373.0,
       "2029": 388655.0,
@@ -59,12 +59,12 @@
       "2031": 407437.0
     },
     "yearly_per_capita": {
-      "2026": 101.22,
-      "2027": 71.84,
-      "2028": 51.81,
-      "2029": 47.9,
-      "2030": 48.02,
-      "2031": 50.21
+      "2026": 114.63,
+      "2027": 71.74,
+      "2028": 51.73,
+      "2029": 47.83,
+      "2030": 47.95,
+      "2031": 50.14
     }
   },
   {
@@ -82,10 +82,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 2424000.0,
-    "amount_per_capita": 298.73,
+    "total_amount": 2429000.0,
+    "amount_per_capita": 298.9,
     "yearly_amounts": {
-      "2026": 105000.0,
+      "2026": 110000.0,
       "2027": 365000.0,
       "2028": 133000.0,
       "2029": 965000.0,
@@ -93,12 +93,12 @@
       "2031": 256000.0
     },
     "yearly_per_capita": {
-      "2026": 12.94,
-      "2027": 44.98,
-      "2028": 16.39,
-      "2029": 118.93,
-      "2030": 73.94,
-      "2031": 31.55
+      "2026": 13.54,
+      "2027": 44.91,
+      "2028": 16.37,
+      "2029": 118.75,
+      "2030": 73.83,
+      "2031": 31.5
     }
   },
   {
@@ -117,7 +117,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 1977000.0,
-    "amount_per_capita": 243.64,
+    "amount_per_capita": 243.28,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -131,8 +131,8 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 123.24,
-      "2031": 120.41
+      "2030": 123.05,
+      "2031": 120.22
     }
   },
   {
@@ -151,7 +151,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1830000.0,
-    "amount_per_capita": 225.53,
+    "amount_per_capita": 225.19,
     "yearly_amounts": {
       "2026": 205000.0,
       "2027": 405000.0,
@@ -161,12 +161,12 @@
       "2031": 305000.0
     },
     "yearly_per_capita": {
-      "2026": 25.26,
-      "2027": 49.91,
-      "2028": 37.59,
-      "2029": 37.59,
-      "2030": 37.59,
-      "2031": 37.59
+      "2026": 25.23,
+      "2027": 49.84,
+      "2028": 37.53,
+      "2029": 37.53,
+      "2030": 37.53,
+      "2031": 37.53
     }
   },
   {
@@ -185,7 +185,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 766000.0,
-    "amount_per_capita": 94.4,
+    "amount_per_capita": 94.26,
     "yearly_amounts": {
       "2026": 300000.0,
       "2027": 101000.0,
@@ -195,12 +195,46 @@
       "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 36.97,
-      "2027": 12.45,
+      "2026": 36.92,
+      "2027": 12.43,
       "2028": 3.45,
       "2029": 0,
-      "2030": 37.83,
-      "2031": 3.7
+      "2030": 37.78,
+      "2031": 3.69
+    }
+  },
+  {
+    "municipality": "Sint-Martens-Latem",
+    "nis_code": "44064",
+    "bd_code": "5.",
+    "bd_short": "Een zorgzaam Sint-Martens-Latem",
+    "bd_long": "Kwalitatieve omschrijving: In onze gemeente staat verbondenheid centraal. We willen dat iedereen zich welkom, erkend en ondersteund voelt. Daarom investeren we in een warme en veilige omgeving voor jong en oud. We nemen onze verantwoordelijkheid op om zorg op maat te bieden, met bijzondere aandacht voor wie het moeilijk heeft. Daarnaast creëren we met respect voor tradities én oog voor vernieuwing plekken van rust, herinnering en troost.",
+    "ap_code": "5.1.",
+    "ap_short": "Investeren in een warme omgeving voor elk kind",
+    "ap_long": "We zorgen ervoor dat elk kind in onze gemeente kan opgroeien in een veilige, warme en stimulerende omgeving. We investeren in voldoende kinderopvang, een duidelijk kader voor buitenschoolse activiteiten en een flankerend onderwijsbeleid dat aansluit bij de noden van vandaag.",
+    "ac_code": "5.1.1.",
+    "ac_short": "Garanderen van voldoende kinderopvangplaatsen in Sint-Martens-Latem",
+    "ac_long": "Elk kind verdient een veilige, stimulerende omgeving waar het kan groeien, spelen en leren. Hiervoor renoveren we de oude Pastorie van Sint-Martens-Latem en voorzien we in eerste instantie een nieuwe thuis voor kinderopvang Zazou. In tweede instantie trachten we ook extra plaatsen te creëren op basis van de meest recente richtlijnen van het Agentschap Opgroeien.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 425198.21,
+    "amount_per_capita": 52.32,
+    "yearly_amounts": {
+      "2026": 425198.21,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 52.32,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -219,7 +253,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 318000.0,
-    "amount_per_capita": 39.19,
+    "amount_per_capita": 39.13,
     "yearly_amounts": {
       "2026": 3000.0,
       "2027": 0,
@@ -232,7 +266,7 @@
       "2026": 0.37,
       "2027": 0,
       "2028": 1.85,
-      "2029": 36.97,
+      "2029": 36.92,
       "2030": 0,
       "2031": 0
     }
@@ -252,10 +286,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 290920.0,
-    "amount_per_capita": 35.85,
+    "total_amount": 288420.0,
+    "amount_per_capita": 35.49,
     "yearly_amounts": {
-      "2026": 123400.0,
+      "2026": 120900.0,
       "2027": 33400.0,
       "2028": 33460.0,
       "2029": 33460.0,
@@ -263,46 +297,12 @@
       "2031": 33600.0
     },
     "yearly_per_capita": {
-      "2026": 15.21,
-      "2027": 4.12,
+      "2026": 14.88,
+      "2027": 4.11,
       "2028": 4.12,
       "2029": 4.12,
-      "2030": 4.14,
-      "2031": 4.14
-    }
-  },
-  {
-    "municipality": "Sint-Martens-Latem",
-    "nis_code": "44064",
-    "bd_code": "5.",
-    "bd_short": "Een zorgzaam Sint-Martens-Latem",
-    "bd_long": "Kwalitatieve omschrijving: In onze gemeente staat verbondenheid centraal. We willen dat iedereen zich welkom, erkend en ondersteund voelt. Daarom investeren we in een warme en veilige omgeving voor jong en oud. We nemen onze verantwoordelijkheid op om zorg op maat te bieden, met bijzondere aandacht voor wie het moeilijk heeft. Daarnaast creëren we met respect voor tradities én oog voor vernieuwing plekken van rust, herinnering en troost.",
-    "ap_code": "5.1.",
-    "ap_short": "Investeren in een warme omgeving voor elk kind",
-    "ap_long": "We zorgen ervoor dat elk kind in onze gemeente kan opgroeien in een veilige, warme en stimulerende omgeving. We investeren in voldoende kinderopvang, een duidelijk kader voor buitenschoolse activiteiten en een flankerend onderwijsbeleid dat aansluit bij de noden van vandaag.",
-    "ac_code": "5.1.1.",
-    "ac_short": "Garanderen van voldoende kinderopvangplaatsen in Sint-Martens-Latem",
-    "ac_long": "Elk kind verdient een veilige, stimulerende omgeving waar het kan groeien, spelen en leren. Hiervoor renoveren we de oude Pastorie van Sint-Martens-Latem en voorzien we in eerste instantie een nieuwe thuis voor kinderopvang Zazou. In tweede instantie trachten we ook extra plaatsen te creëren op basis van de meest recente richtlijnen van het Agentschap Opgroeien.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 216040.0,
-    "amount_per_capita": 26.62,
-    "yearly_amounts": {
-      "2026": 216040.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 26.62,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2030": 4.13,
+      "2031": 4.13
     }
   },
   {
@@ -321,7 +321,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 200000.0,
-    "amount_per_capita": 24.65,
+    "amount_per_capita": 24.61,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -333,8 +333,8 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 12.32,
-      "2029": 12.32,
+      "2028": 12.31,
+      "2029": 12.31,
       "2030": 0,
       "2031": 0
     }
@@ -355,7 +355,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 185000.0,
-    "amount_per_capita": 22.8,
+    "amount_per_capita": 22.77,
     "yearly_amounts": {
       "2026": 0,
       "2027": 45000.0,
@@ -366,11 +366,45 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 5.55,
-      "2028": 4.93,
-      "2029": 3.7,
-      "2030": 4.93,
-      "2031": 3.7
+      "2027": 5.54,
+      "2028": 4.92,
+      "2029": 3.69,
+      "2030": 4.92,
+      "2031": 3.69
+    }
+  },
+  {
+    "municipality": "Sint-Martens-Latem",
+    "nis_code": "44064",
+    "bd_code": "1.",
+    "bd_short": "Een bruisend Sint-Martens-Latem",
+    "bd_long": "Kwalitatieve omschrijving: Sint-Martens-Latem is meer dan een plek om te wonen. Het is een gemeenschap waar cultuur, sport en het verenigingsleven ontmoeting creëren en het dorpsleven kleur geven. Door in te zetten op verbinding tussen inwoners, tussen generaties, tussen verleden en toekomst, laten we onze gemeente bruisen.",
+    "ap_code": "1.1.",
+    "ap_short": "Cultuur, evenementen en verenigingen als brug tussen mensen",
+    "ap_long": "Vrije tijd brengt mensen samen. We blijven daarom investeren in een laagdrempelig, divers en inclusief aanbod, met bijzondere aandacht voor het samenbrengen van verschillende generaties.",
+    "ac_code": "1.1.3.",
+    "ac_short": "Een nieuw hoofdstuk voor Villa Juliana als kunst- en erfgoedhuis",
+    "ac_long": "Villa Juliana krijgt een duurzame herbestemming als kunst- en erfgoedhuis. Na de renovatie van de buitenschil in 2025, volgt in 2026 de renovatie van het interieur. Het gebouw wordt een plek waar erfgoed en kunst elkaar raken, met ruimte voor ontmoeting en lokale verhalen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 18.46,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -389,7 +423,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 18.49,
+    "amount_per_capita": 18.46,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 25000.0,
@@ -410,40 +444,6 @@
   {
     "municipality": "Sint-Martens-Latem",
     "nis_code": "44064",
-    "bd_code": "1.",
-    "bd_short": "Een bruisend Sint-Martens-Latem",
-    "bd_long": "Kwalitatieve omschrijving: Sint-Martens-Latem is meer dan een plek om te wonen. Het is een gemeenschap waar cultuur, sport en het verenigingsleven ontmoeting creëren en het dorpsleven kleur geven. Door in te zetten op verbinding tussen inwoners, tussen generaties, tussen verleden en toekomst, laten we onze gemeente bruisen.",
-    "ap_code": "1.1.",
-    "ap_short": "Cultuur, evenementen en verenigingen als brug tussen mensen",
-    "ap_long": "Vrije tijd brengt mensen samen. We blijven daarom investeren in een laagdrempelig, divers en inclusief aanbod, met bijzondere aandacht voor het samenbrengen van verschillende generaties.",
-    "ac_code": "1.1.3.",
-    "ac_short": "Een nieuw hoofdstuk voor Villa Juliana als kunst- en erfgoedhuis",
-    "ac_long": "Villa Juliana krijgt een duurzame herbestemming als kunst- en erfgoedhuis. Na de renovatie van de buitenschil in 2025, volgt in 2026 de renovatie van het interieur. Het gebouw wordt een plek waar erfgoed en kunst elkaar raken, met ruimte voor ontmoeting en lokale verhalen.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 150000.0,
-    "amount_per_capita": 18.49,
-    "yearly_amounts": {
-      "2026": 150000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 18.49,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Sint-Martens-Latem",
-    "nis_code": "44064",
     "bd_code": "2.",
     "bd_short": "Een toekomstgericht Sint-Martens-Latem",
     "bd_long": "Kwalitatieve omschrijving: Lokale besturen zijn het dichtste bestuursniveau bij de burger. In een context van financiële druk, klimaatverandering, krapte op de arbeidsmarkt, vergrijzing en een versnellende digitalisering, moeten zij tegelijk wendbaar, veerkrachtig en toekomstgericht opereren. Dit vraagt doordachte beleidskeuzes. Daarom investeren we in strategische ruimtelijke planning, toegankelijke en flexibele dienstverlening, mensgerichte mobiliteit en digitale oplossingen die inspelen op de leefwereld van de burger.",
@@ -456,10 +456,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 85000.0,
-    "amount_per_capita": 10.48,
+    "total_amount": 78950.0,
+    "amount_per_capita": 9.72,
     "yearly_amounts": {
-      "2026": 85000.0,
+      "2026": 78950.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -467,7 +467,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 10.48,
+      "2026": 9.72,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -491,7 +491,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 55000.0,
-    "amount_per_capita": 6.78,
+    "amount_per_capita": 6.77,
     "yearly_amounts": {
       "2026": 35000.0,
       "2027": 0,
@@ -525,7 +525,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 40000.0,
-    "amount_per_capita": 4.93,
+    "amount_per_capita": 4.92,
     "yearly_amounts": {
       "2026": 40000.0,
       "2027": 0,
@@ -535,7 +535,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.93,
+      "2026": 4.92,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -593,7 +593,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 21000.0,
-    "amount_per_capita": 2.59,
+    "amount_per_capita": 2.58,
     "yearly_amounts": {
       "2026": 6000.0,
       "2027": 3000.0,
@@ -682,6 +682,40 @@
   {
     "municipality": "Sint-Martens-Latem",
     "nis_code": "44064",
+    "bd_code": "2.",
+    "bd_short": "Een toekomstgericht Sint-Martens-Latem",
+    "bd_long": "Kwalitatieve omschrijving: Lokale besturen zijn het dichtste bestuursniveau bij de burger. In een context van financiële druk, klimaatverandering, krapte op de arbeidsmarkt, vergrijzing en een versnellende digitalisering, moeten zij tegelijk wendbaar, veerkrachtig en toekomstgericht opereren. Dit vraagt doordachte beleidskeuzes. Daarom investeren we in strategische ruimtelijke planning, toegankelijke en flexibele dienstverlening, mensgerichte mobiliteit en digitale oplossingen die inspelen op de leefwereld van de burger.",
+    "ap_code": "2.2.",
+    "ap_short": "Gemeentehuis van de toekomst",
+    "ap_long": "We passen ons gemeentehuis aan, aan de noden van deze tijd: een plek waar dienstverlening laagdrempelig en flexibel wordt aangeboden, fysiek én digitaal. We waken daarbij over kwaliteit en toegankelijkheid.",
+    "ac_code": "2.2.1.",
+    "ac_short": "Realiseren van een warm en toegankelijk onthaal voor bezoekers van het gemeentehuis",
+    "ac_long": "We realiseren een uitnodigend en verwelkomend onthaal in het gemeentehuis. Door te investeren in sfeer, toegankelijkheid en gebruiksvriendelijkheid werken we verder aan een warme relatie tussen bestuur en burger.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 1.85,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.85,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Martens-Latem",
+    "nis_code": "44064",
     "bd_code": "5.",
     "bd_short": "Een zorgzaam Sint-Martens-Latem",
     "bd_long": "Kwalitatieve omschrijving: In onze gemeente staat verbondenheid centraal. We willen dat iedereen zich welkom, erkend en ondersteund voelt. Daarom investeren we in een warme en veilige omgeving voor jong en oud. We nemen onze verantwoordelijkheid op om zorg op maat te bieden, met bijzondere aandacht voor wie het moeilijk heeft. Daarnaast creëren we met respect voor tradities én oog voor vernieuwing plekken van rust, herinnering en troost.",
@@ -722,40 +756,6 @@
     "ap_code": "2.2.",
     "ap_short": "Gemeentehuis van de toekomst",
     "ap_long": "We passen ons gemeentehuis aan, aan de noden van deze tijd: een plek waar dienstverlening laagdrempelig en flexibel wordt aangeboden, fysiek én digitaal. We waken daarbij over kwaliteit en toegankelijkheid.",
-    "ac_code": "2.2.1.",
-    "ac_short": "Realiseren van een warm en toegankelijk onthaal voor bezoekers van het gemeentehuis",
-    "ac_long": "We realiseren een uitnodigend en verwelkomend onthaal in het gemeentehuis. Door te investeren in sfeer, toegankelijkheid en gebruiksvriendelijkheid werken we verder aan een warme relatie tussen bestuur en burger.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 1.85,
-    "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.85,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Sint-Martens-Latem",
-    "nis_code": "44064",
-    "bd_code": "2.",
-    "bd_short": "Een toekomstgericht Sint-Martens-Latem",
-    "bd_long": "Kwalitatieve omschrijving: Lokale besturen zijn het dichtste bestuursniveau bij de burger. In een context van financiële druk, klimaatverandering, krapte op de arbeidsmarkt, vergrijzing en een versnellende digitalisering, moeten zij tegelijk wendbaar, veerkrachtig en toekomstgericht opereren. Dit vraagt doordachte beleidskeuzes. Daarom investeren we in strategische ruimtelijke planning, toegankelijke en flexibele dienstverlening, mensgerichte mobiliteit en digitale oplossingen die inspelen op de leefwereld van de burger.",
-    "ap_code": "2.2.",
-    "ap_short": "Gemeentehuis van de toekomst",
-    "ap_long": "We passen ons gemeentehuis aan, aan de noden van deze tijd: een plek waar dienstverlening laagdrempelig en flexibel wordt aangeboden, fysiek én digitaal. We waken daarbij over kwaliteit en toegankelijkheid.",
     "ac_code": "2.2.3.",
     "ac_short": "Voorzien van een ophaalbox voor gemeentelijke producten",
     "ac_long": "We voorzien een ophaalbox waar burgers en verenigingen op flexibele tijdstippen documenten of producten kunnen afhalen. Een praktisch alternatief dat comfort, veiligheid en zelfstandigheid combineert en dienstverlening verderzet buiten de openingsuren.",
@@ -763,7 +763,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 11250.0,
-    "amount_per_capita": 1.39,
+    "amount_per_capita": 1.38,
     "yearly_amounts": {
       "2026": 11250.0,
       "2027": 0,
@@ -773,7 +773,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.39,
+      "2026": 1.38,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -865,7 +865,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 6700.0,
-    "amount_per_capita": 0.83,
+    "amount_per_capita": 0.82,
     "yearly_amounts": {
       "2026": 6700.0,
       "2027": 0,
@@ -875,7 +875,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.83,
+      "2026": 0.82,
       "2027": 0,
       "2028": 0,
       "2029": 0,

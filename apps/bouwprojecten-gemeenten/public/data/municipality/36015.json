@@ -2,56 +2,22 @@
   {
     "municipality": "Roeselare",
     "nis_code": "36015",
-    "bd_code": "BDS",
-    "bd_short": "BD-3",
-    "bd_long": "Lef voor Roeselare",
-    "ap_code": "AP",
-    "ap_short": "Klimaatswitch #VANRSL - Naar 200.000 bomen",
-    "ap_long": "Na de realisatie van 100.000 bomen in de vorige legislatuur, gaan we verder op de ingeslagen weg en planten we ook deze bestuursperiode 100.000 bomen in de stadsrandbossen, tuinen, straten en op pleinen. Niet alleen méér groen, maar ook béter groen. In Roeselare investeren we in het behoud en de opwaardering van het bestaande groen. We volgen het bomenbestand actief op en grijpen in waar nodig - om bomen langer gezond te houden en hun levensduur te verlengen. Tegelijk bouwen we het groenarsenaal in de stad verder uit, in afstemming met andere beleidsdomeinen zoals stadsontwikkeling, publieke ruimte en mobiliteit. De principes van een groenblauwe stad vormen daarbij een duidelijke rode draad. Zoals veel steden kampt ook Roeselare met een stedelijk hitte-eiland. Dat blijkt ook uit ons klimaatadaptatieplan met de hittekaart. Hittestress zorgt voor minder wooncomfort en is slecht voor de gezondheid. Daarom zetten we volop in op oplossingen zoals schaduw creëren en oppervlakken vergroenen om hitte te ondervangen.",
-    "ac_code": "AP",
-    "ac_short": "Verder ontwikkelen van de stadsrandbossen Bergmolenbos en Kr",
-    "ac_long": "De Stad ontwikkelt de stadsrandbossen verder in samenwerking met het Agentschap Natuur en Bos, om de biodiversiteit te versterken, het stedelijk hitte-eiland te temperen en inwoners meer kwalitatieve natuur- en ontspanningsruimte te bieden.Het Bergmolenbos groeit uit tot een multifunctioneel gebied van ongeveer 135 hectare, met onder meer een hondenbos en de realisatie van het landschapsplan Woudaapje. De gebruiksvriendelijkheid van het bos wordt verbeterd door een betere parkingontsluiting. Het Krommebeekbos wordt uitgebreid richting de Mandellaan en de Ardooisesteenweg en telt sinds de start van de aanplanting ongeveer 20.000 extra bomen.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 98287138.0,
-    "amount_per_capita": 1440.76,
-    "yearly_amounts": {
-      "2026": 23138399.0,
-      "2027": 20835366.0,
-      "2028": 18721158.0,
-      "2029": 12734085.0,
-      "2030": 12998300.0,
-      "2031": 9859830.0
-    },
-    "yearly_per_capita": {
-      "2026": 339.18,
-      "2027": 305.42,
-      "2028": 274.43,
-      "2029": 186.66,
-      "2030": 190.54,
-      "2031": 144.53
-    }
-  },
-  {
-    "municipality": "Roeselare",
-    "nis_code": "36015",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "",
+    "ap_code": "overigBeleid",
     "ap_short": "overigBeleid",
     "ap_long": "overigBeleid",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 56580575.0,
-    "amount_per_capita": 829.4,
+    "total_amount": 61563904.01,
+    "amount_per_capita": 901.74,
     "yearly_amounts": {
-      "2026": 11573953.0,
+      "2026": 16557282.01,
       "2027": 10068043.0,
       "2028": 9393245.0,
       "2029": 9909602.0,
@@ -59,46 +25,2596 @@
       "2031": 6854449.0
     },
     "yearly_per_capita": {
-      "2026": 169.66,
-      "2027": 147.58,
-      "2028": 137.69,
-      "2029": 145.26,
-      "2030": 128.72,
-      "2031": 100.48
+      "2026": 242.52,
+      "2027": 147.47,
+      "2028": 137.58,
+      "2029": 145.15,
+      "2030": 128.62,
+      "2031": 100.4
     }
   },
   {
     "municipality": "Roeselare",
     "nis_code": "36015",
-    "bd_code": "D",
-    "bd_short": "Verantwoord ondernemen",
-    "bd_long": "Commentaar:",
-    "ap_code": "AP",
-    "ap_short": "Verhogen van de kwaliteit en instaan voor een goed beheer van het patrimonium (infrastructuur)",
-    "ap_long": "Commentaar:",
-    "ac_code": "ACT",
-    "ac_short": "WZC WD - Bouw laagbouw en kantoren N",
-    "ac_long": "Bouw van: 64 WZC-kamers, DVC, LDC en kantoren Therapeutisch Zorgpunt N",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.7",
+    "ap_short": "Dienstbare stad - Eerlijk financieel beleid",
+    "ap_long": "Roeselare zal dus ook deze legislatuur de tering naar de nering zetten en waar nodig snoeien om te bloeien. 'Koken kost geld' en de Stad maakt daarom zeer gerichte keuzes over het programma dat ze wenst uit te voeren. Door een bewuste mix van kerntaken en noodzakelijke ondersteuning, houden we de stadsfinanciën gezond. Zuinig waar het kan, ondersteunend waar het moet.",
+    "ac_code": "AP-1.7_ACT-12434",
+    "ac_short": "Bijkomend investeren in veiligheid (PZ RIHO) en de brandweer",
+    "ac_long": "Er gebeuren bijzondere inspanningen voor de veiligheid.\nDe Stad investeert deze legislatuur sterk in zowel de Politiezone RIHO als de Hulpverleningszone Midwest.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 9858782.32,
+    "amount_per_capita": 144.4,
+    "yearly_amounts": {
+      "2026": 1541024.32,
+      "2027": 1690790.0,
+      "2028": 1544082.0,
+      "2029": 1563609.0,
+      "2030": 1583623.0,
+      "2031": 1935654.0
+    },
+    "yearly_per_capita": {
+      "2026": 22.57,
+      "2027": 24.77,
+      "2028": 22.62,
+      "2029": 22.9,
+      "2030": 23.2,
+      "2031": 28.35
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-12535",
+    "ac_short": "Herstellen van bestaande rioleringen op basis van een goed r",
+    "ac_long": "Een goed riool assetmanagement vormt de basis voor de meest efficiënte en dringende ingrepen inzake het onderhoud en herstel van bestaande rioleringen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 6531141.53,
+    "amount_per_capita": 95.66,
+    "yearly_amounts": {
+      "2026": 1601141.53,
+      "2027": 1462000.0,
+      "2028": 1462000.0,
+      "2029": 853000.0,
+      "2030": 603000.0,
+      "2031": 550000.0
+    },
+    "yearly_per_capita": {
+      "2026": 23.45,
+      "2027": 21.41,
+      "2028": 21.41,
+      "2029": 12.49,
+      "2030": 8.83,
+      "2031": 8.06
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-11034",
+    "ac_short": "Klauwaertsbeek - Saneren van de Klauwaertsbeek",
+    "ac_long": "Samen met de gemeenten, de Vlaamse Milieumaatschappij, de Provincie,... streeft Aquafin naar een goeie waterkwaliteit in onze waterlopen. Door de aanleg van riolen en collectoren vermijdt men dat afvalwater in onze waterlopen stroomt. In Roeselare plant Aquafin de aanleg van een collector langs de Klauwaertsbeek. Dit vanaf de R32 tot aan de Grote Bassin. Van de gelegenheid wordt gebruik gemaakt om de bestaande wegenis te optimaliseren in functie van fiets- en verkeersveiligheid en wordt een vergroening en ontharding beoogd.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 5422608.23,
+    "amount_per_capita": 79.43,
+    "yearly_amounts": {
+      "2026": 4922608.23,
+      "2027": 500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 72.1,
+      "2027": 7.32,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.5",
+    "ap_short": "Aantrekkelijke woon- en leefstad - Kwalitatieve wegen",
+    "ap_long": "Goed onderhouden wegen zijn belangrijk, maar vergen een stevige financiële inspanning. De realisatie van kwalitatieve wegen is belangrijk voor een vlotte mobiliteit en (fiets)veiligheid, maar ook voor het functioneren van de onderliggende rioleringen en nutsleidingen en het opwaarderen van het straatbeeld.",
+    "ac_code": "AP-3.5_ACT-12545",
+    "ac_short": "Renoveren van landelijke en niet-landelijke wegen",
+    "ac_long": "De Stad stelt jaarlijks een renovatieprogramma op voor zowel landelijke als niet-landelijke wegen. De prioriteiten worden bepaald op basis van de staat van de weg en de nood aan structureel onderhoud, met als doel een veilige en duurzame weginfrastructuur te garanderen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 5000000.0,
+    "amount_per_capita": 73.24,
+    "yearly_amounts": {
+      "2026": 850000.0,
+      "2027": 850000.0,
+      "2028": 900000.0,
+      "2029": 900000.0,
+      "2030": 850000.0,
+      "2031": 650000.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.45,
+      "2027": 12.45,
+      "2028": 13.18,
+      "2029": 13.18,
+      "2030": 12.45,
+      "2031": 9.52
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.7",
+    "ap_short": "Aantrekkelijke woon-en leefstad- Stadsontwikkelingsprojecten",
+    "ap_long": "Na de duurzame verbouwing van het stadhuis in de vorige bestuursperiode, richt de Stad haar blik nu op cultuur en stadsvernieuwing. De culturele driehoek met De Spil, AcademiePlus en Villa Vandewalle groeit uit tot één sterke Kunstensite: een plek waar kunst en creativiteit samenkomen. Daarnaast werkt Stad Roeselare de komende zes jaar, samen met diverse partners, aan gerichte en haalbare stadsontwikkelingsprojecten. Denk aan de noordelijke stationsomgeving, de zone tussen het Sterrebos en het Bergmolenbos en de site Schiervelde. Tegelijk bereiden we nieuwe projecten voor in en rond de Ronde Kom en in Krottegem.",
+    "ac_code": "AP-3.7_ACT-12551",
+    "ac_short": "Opwaarderen en sportvriendelijker maken van de Expo",
+    "ac_long": "De Expohallen blijven een centrale schakel binnen het sport- en evenementennetwerk van Roeselare. De Stad investeert in de modernisering en sportieve opwaardering van de site, met een aantrekkelijker portaal, vernieuwde technieken en verbeterde voorzieningen voor bezoekers en gebruikers. Twee beuken worden exclusief opengesteld voor sport, waardoor verenigingen en scholen meer ruimte krijgen voor indoor sportactiviteiten. Gymnastiek en indoor bal- en slagsporten, waaronder tennis, krijgen de nodige infrastructurele aandacht. Tegelijk blijft de beursfunctie behouden via een flexibele inrichting. De strategische ligging van de Expohallen op de site Schiervelde biedt kansen voor slimme verbindingen tussen de REO-Arena, The Nest en omliggende infrastructuren. Zo wordt Schiervelde verder uitgebouwd tot een dynamische ontmoetingsplek voor sport, beleving en evenementen, met oog voor comfort, toegankelijkheid en toekomstbestendig gebruik.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 4322424.78,
+    "amount_per_capita": 63.31,
+    "yearly_amounts": {
+      "2026": 1517424.78,
+      "2027": 65000.0,
+      "2028": 65000.0,
+      "2029": 65000.0,
+      "2030": 2545000.0,
+      "2031": 65000.0
+    },
+    "yearly_per_capita": {
+      "2026": 22.23,
+      "2027": 0.95,
+      "2028": 0.95,
+      "2029": 0.95,
+      "2030": 37.28,
+      "2031": 0.95
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-12354",
+    "ac_short": "Uitvoeren van wegenis-, riolerings- en saneringswerken i de",
+    "ac_long": "Het project betreft het gemeentelijk aandeel voor het \"afkoppelen van de afwaartse loop van de Sint-Amandsbeek\" tussen Kleine Bassin en Sint-Amandsstraat. De GIP-aanvraag is een gemeentelijk voorbehoud voor een bovengemeentelijk projectvoorstel. Het doel van het bovengemeentelijk projectvoorstel is om het afwaartse deel van de Sint-Amandsbeek volledig af te koppelen (het opwaartse deel wordt reeds afgekoppeld in Aquafinproject 23451 saneren Sint-Amandsbeek in de Godelievewijk).",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4099146.64,
+    "amount_per_capita": 60.04,
+    "yearly_amounts": {
+      "2026": 439545.64,
+      "2027": 1000000.0,
+      "2028": 1750000.0,
+      "2029": 750000.0,
+      "2030": 79801.0,
+      "2031": 79800.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.44,
+      "2027": 14.65,
+      "2028": 25.63,
+      "2029": 10.99,
+      "2030": 1.17,
+      "2031": 1.17
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.7",
+    "ap_short": "Iedereen #VANRSL - Een zorgend Roeselare",
+    "ap_long": "Ons warmtenetwerk is niet alleen een energienetwerk onder de grond, maar is ook een bovengronds verbindingsnetwerk. Roeselare is altijd al een zorgende stad geweest. Met ons ziekenhuis AZ Delta, het zorgbedrijf Motena, woonmaatschappij Thuiswest en het Welzijnshuis investeren we dagelijks met vele zorgverleners en vrijwilligers in zorgen, verbinden en een betaalbaar dak boven het hoofd. Dat willen we blijven koesteren en behouden, zowel voor mensen die ziek zijn of kampen met psychisch lijden als voor wie het moeilijk heeft of zich eenzaam voelt. We creëren daarnaast alle kansen voor sociale mobiliteit. Steeds meer inwoners zijn genoodzaakt om beroep te doen op OCMW-dienstverlening als laatste vangnet voor sociale bijstand en hulpverlening. In de eerste jaarhelft van 2025 waren er gemiddeld 1.089 (equivalent) leefloongerechtigden in Roeselare. Mogelijk misbruik wordt aangepakt, waarvoor een afzonderlijke cel de controle en inspectie op het naleven van dossiers en fraude op het vlak van individuele hulpverlening zal verhogen.",
+    "ac_code": "AP-2.7_ACT-12491",
+    "ac_short": "Ontwikkelen van de site Welzijnshuis",
+    "ac_long": "Om de groeiende werking van het Welzijnshuis op te vangen, wordt voor de volledige zorgsite het Masterplan site Welzijnshuis verder uitgewerkt. De huidige site wordt vergroot met een extra uitbreiding van het Welzijnshuis om kwetsbare mensen verder te ondersteunen. De medewerkers gaan hierbij nog meer inzetten op de zelfredzaamheid van de cliënten en deze verhogen. Een infrastructuurplan voor het Welzijnshuis, in goede afstemming met de nieuwe inplanting van de verpleegkundeschool Ic Dien, zorgt voor een efficiënte huisvesting van alle diensten en organisaties op de site.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 21454372.0,
-    "amount_per_capita": 314.49,
+    "total_amount": 4068922.27,
+    "amount_per_capita": 59.6,
     "yearly_amounts": {
-      "2026": 6802783.0,
-      "2027": 4126420.0,
-      "2028": 2915219.0,
-      "2029": 4414419.0,
-      "2030": 1705960.0,
-      "2031": 1489571.0
+      "2026": 3068922.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 1000000.0
     },
     "yearly_per_capita": {
-      "2026": 99.72,
-      "2027": 60.49,
-      "2028": 42.73,
-      "2029": 64.71,
-      "2030": 25.01,
-      "2031": 21.84
+      "2026": 44.95,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 14.65
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-11729",
+    "ac_short": "Uitvoeren van wegenis- en rioleringswerken in de Sint-Eloois",
+    "ac_long": "Van de Kortrijkstraat tot het Jakenshof zal de bovenbouw worden aangepakt en de fietsinfrastructuur conform het fietsvademecum worden aangepakt. Wat de rioleringen betreft zullen in het stuk tussen de Kortrijksestraat en de Boerenkrijglaan de noodzakelijke herstellingen worden uitgevoerd en zal in het stuk tussen de Boerenkrijglaan en het Jakenshof een gescheiden rioleringsstelsel worden aangelegd.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4050000.0,
+    "amount_per_capita": 59.32,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1550000.0,
+      "2029": 1700000.0,
+      "2030": 600000.0,
+      "2031": 200000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 22.7,
+      "2029": 24.9,
+      "2030": 8.79,
+      "2031": 2.93
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.7",
+    "ap_short": "Aantrekkelijke woon-en leefstad- Stadsontwikkelingsprojecten",
+    "ap_long": "Na de duurzame verbouwing van het stadhuis in de vorige bestuursperiode, richt de Stad haar blik nu op cultuur en stadsvernieuwing. De culturele driehoek met De Spil, AcademiePlus en Villa Vandewalle groeit uit tot één sterke Kunstensite: een plek waar kunst en creativiteit samenkomen. Daarnaast werkt Stad Roeselare de komende zes jaar, samen met diverse partners, aan gerichte en haalbare stadsontwikkelingsprojecten. Denk aan de noordelijke stationsomgeving, de zone tussen het Sterrebos en het Bergmolenbos en de site Schiervelde. Tegelijk bereiden we nieuwe projecten voor in en rond de Ronde Kom en in Krottegem.",
+    "ac_code": "AP-3.7_ACT-12552",
+    "ac_short": "Realiseren van een TRAXpark en Spoorpark",
+    "ac_long": "De Stad ontwikkelt met het TRAXpark een nieuw groen park die ontmoeting, natuur en stedelijk leven verbindt. Rond de TRAX-site wordt de open ruimte heraangelegd en de stad onderzoekt om bijkomende gronde te verwerven in functie van de realisatie van het park. Bestaande loodsen kunnen hierbij een nieuwe invulling, bijvoorbeeld als overdekte ontmoetingsplek of creatieve speelruimte voor jongeren, krijgen. In het noordelijke punt van de stationsomgeving komt een innovatieve zorgcampus waar wonen, zorg en ontspanning samenkomen. Het project combineert een woonzorgcentrum, assistentiewoningen, een dagverzorgingscentrum en kantoren voor zorgorganisaties in een groen kader dat zorg en stadsleven harmonieus integreert. Tussen het TRAXpark en de huidige site Prairie wordt een Spoorpark uitgewerkt waar trage weggebruikers hun plaats krijgen.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 4002500.0,
+    "amount_per_capita": 58.63,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 750000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 500000.0,
+      "2031": 2752500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 10.99,
+      "2028": 0,
+      "2029": 0,
+      "2030": 7.32,
+      "2031": 40.32
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-10616",
+    "ac_short": "Meensesteenweg (R32 - Beitem) - Uitvoeren wegenis- en rioler",
+    "ac_long": "Samen met Aquafin en AWV wordt een gescheiden riolering in de Meensesteenweg aangelegd. Het is de bedoeling dat uiteindelijk zowel de Zilverberg als Beitem op de riolering aangesloten worden en niet meer op de waterlopen lozen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3269114.34,
+    "amount_per_capita": 47.88,
+    "yearly_amounts": {
+      "2026": 1949114.34,
+      "2027": 1320000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 28.55,
+      "2027": 19.33,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-12536",
+    "ac_short": "Opzetten en uitvoeren van een nieuw actieplan 'Water'",
+    "ac_long": "De Stad werkt aan een nieuw actieplan Water voor de periode 2026-2031, als vervolg op het eerste plan uit 2016. Het plan focust op het hergebruik van regenwater, de verbetering van de waterkwaliteit en een betere voorbereiding op extreme weersomstandigheden. Binnen en buiten de Grote Ring worden gecontroleerde overstromingsgebieden aangelegd aan onder meer de Collievijverbeek, Godelievebeek, Bergmolenbeek, Hagedoornbeek, Duivelsbeek, de Mandel en de Krommebeek. In Rumbeke en Beveren stimuleren wijkadaptatieprogramma's meer lokale infiltratie en vertraagde afvoer van regenwater, om de stad weerbaarder te maken tegen de gevolgen van klimaatverandering.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 3142998.0,
+    "amount_per_capita": 46.04,
+    "yearly_amounts": {
+      "2026": 771333.0,
+      "2027": 1573333.0,
+      "2028": 443333.0,
+      "2029": 118333.0,
+      "2030": 118333.0,
+      "2031": 118333.0
+    },
+    "yearly_per_capita": {
+      "2026": 11.3,
+      "2027": 23.04,
+      "2028": 6.49,
+      "2029": 1.73,
+      "2030": 1.73,
+      "2031": 1.73
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.7",
+    "ap_short": "Aantrekkelijke woon-en leefstad- Stadsontwikkelingsprojecten",
+    "ap_long": "Na de duurzame verbouwing van het stadhuis in de vorige bestuursperiode, richt de Stad haar blik nu op cultuur en stadsvernieuwing. De culturele driehoek met De Spil, AcademiePlus en Villa Vandewalle groeit uit tot één sterke Kunstensite: een plek waar kunst en creativiteit samenkomen. Daarnaast werkt Stad Roeselare de komende zes jaar, samen met diverse partners, aan gerichte en haalbare stadsontwikkelingsprojecten. Denk aan de noordelijke stationsomgeving, de zone tussen het Sterrebos en het Bergmolenbos en de site Schiervelde. Tegelijk bereiden we nieuwe projecten voor in en rond de Ronde Kom en in Krottegem.",
+    "ac_code": "AP-3.7_ACT-12299",
+    "ac_short": "Realiseren van een verbinding tussen het Sterrebos en het Be",
+    "ac_long": "De N36 vormt vandaag een brede barrière tussen het Sterrebos en het Bergmolenbos. Daardoor zijn beide natuur- en recreatiegebieden onvoldoende met elkaar verbonden, zowel ecologisch als voor zachte weggebruikers. Dit project wil die barrière opheffen door een fysieke verbinding te realiseren tussen de twee domeinen.\n\nDe verbinding wordt een multifunctionele corridor die natuur, recreatie en beleving samenbrengt. Ze fungeert als onthaalpoort tussen de bossen en als herkenbaar landschappelijk baken voor de regio, met aandacht voor beeldkwaliteit, integratie in het landschap en toegankelijkheid voor alle vormen van traag verkeer.\n\nHet project wordt uitgevoerd in samenwerking met Westtoer, de provincie West-Vlaanderen en het Agentschap Natuur en Bos.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 2852424.15,
+    "amount_per_capita": 41.78,
+    "yearly_amounts": {
+      "2026": 352424.15,
+      "2027": 1250000.0,
+      "2028": 1250000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.16,
+      "2027": 18.31,
+      "2028": 18.31,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-10864",
+    "ac_short": "Uitvoeren van wegenis-, riolerings- en saneringswerken in d",
+    "ac_long": "Aquafin, de Vlaamse Milieumaatschappij, de Stad en de Provincie West-Vlaanderen hebben de ambitie om de Regenbeek terug zuiver te maken. Hiervoor dienen in een aantal straten rioleringswerken te gebeuren. Zo wordt al het huishoudelijk afvalwater naar het zuiveringsstation afgevoerd in plaats van in de beek te lozen. De zuivere Regenbeek kan vervolgens het Sterrebos gebruiken als buffer, wat zeker de waterhuishouding ten goede zal komen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2537356.45,
+    "amount_per_capita": 37.17,
+    "yearly_amounts": {
+      "2026": 137356.45,
+      "2027": 1000000.0,
+      "2028": 1000000.0,
+      "2029": 400000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.01,
+      "2027": 14.65,
+      "2028": 14.65,
+      "2029": 5.86,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.15",
+    "ap_short": "Bruisende stad - Iedereen cultuurmaker",
+    "ap_long": "Onze cultureel ambassadeurs, ons rijke verenigingsleven, de Rodenbachfeesten, TRAX en De Spil, de reuzen, onze stad barst van het talent. Deze creativiteit geven we verder alle kansen!",
+    "ac_code": "AP-3.15_ACT-12338",
+    "ac_short": "Realiseren van een regionaal archief- en erfgoeddepot",
+    "ac_long": "Stad Roeselare wordt geconfronteerd met een nood aan voldoende en adequate archiefruimte op één locatie.\nSimultaan manifesteert zich ook een nood binnen de regio Midwest om erfgoedobjecten op een adequate manier te kunnen bewaren.\nGezien de overlap die kan gepaard gaan met efficiëntiewinsten, wordt geopteerd om een Roeselaars archiefdepot en regionaal erfgoeddepot op één locatie te realiseren.\nHierbij is ook een investeringsinput vanuit de Provincie een meegenomen opportuniteit.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2531164.14,
+    "amount_per_capita": 37.07,
+    "yearly_amounts": {
+      "2026": 2531164.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 37.07,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.4",
+    "ap_short": "Iedereen #VANRSL - Onze kinderen voorop",
+    "ap_long": "Eén op vijf kinderen groeit in Roeselare op in kansarmoede, één op zes inwoners heeft een verhoogde tegemoetkoming, 10,7% van de Roeselaarse gezinnen ervaart betalingsmoeilijkheden en 3% van de gebruikers van kinderopvang ervaart moeilijkheden om de facturen te betalen. Niet alleen het aantal hulpvragers wordt groter, ook de complexiteit en diversiteit van problematieken stijgt. De nood aan een structureel beleid op bovenlokaal niveau dat mensen duurzaam helpt (zoals sociale zekerheid, tewerkstellingsbeleid, onderwijsbeleid en wonen) spreekt voor zich.",
+    "ac_code": "AP-2.4_ACT-12463",
+    "ac_short": "Verder investeren in de stedelijke bassischolen (gebouwen) a",
+    "ac_long": "De stedelijke basisscholen kennen een capaciteitsdruk. Daarom zal de Stad verder investeren in de gebouwen van de stedelijke basisscholen.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 2313300.0,
+    "amount_per_capita": 33.88,
+    "yearly_amounts": {
+      "2026": 313300.0,
+      "2027": 1000000.0,
+      "2028": 400000.0,
+      "2029": 300000.0,
+      "2030": 200000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.59,
+      "2027": 14.65,
+      "2028": 5.86,
+      "2029": 4.39,
+      "2030": 2.93,
+      "2031": 1.46
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.17",
+    "ap_short": "Bruisende stad - Iedereen beweegt",
+    "ap_long": "Iedereen kent Roeselare als de stad der wereldkampioenen, de knipoog naar Freddy Maertens, Benoni Beheydt, Jean-Pierre Monseré en Patrick Sercu. Het verleden koesteren is schoon, maar nog mooier is om als stad de weg te plaveien voor de sportieveling van vandaag en die van de toekomst. Roeselare kent meer dan 300 sportverenigingen, topsportploegen en professionele atleten. De voorbije jaren hebben we volop geïnvesteerd in bijkomende infrastructuur (kunstgrasvelden, sport- en recreatiesite Oekene, polyvalente sporthal Stedelijke Basisschool De Brug, sporthal Onze Kinderen,...) en sportaanbod voor alle leeftijden op een gedifferentieerde, laagdrempelige en flankerende wijze.",
+    "ac_code": "AP-3.17_ACT-12616",
+    "ac_short": "Renoveren van sporthal Schiervelde",
+    "ac_long": "Het geactualiseerde Masterplan Sportinfrastructuur krijgt uitvoering. Eén van de projecten betreft het renoveren van sporthal Schiervelde, o.a. verlichting in REO-arena, kleedkamers en sanitair en sportvloer in de recreatieve sportzaal.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2312500.0,
+    "amount_per_capita": 33.87,
+    "yearly_amounts": {
+      "2026": 82500.0,
+      "2027": 0,
+      "2028": 900000.0,
+      "2029": 1330000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.21,
+      "2027": 0,
+      "2028": 13.18,
+      "2029": 19.48,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.7",
+    "ap_short": "Aantrekkelijke woon-en leefstad- Stadsontwikkelingsprojecten",
+    "ap_long": "Na de duurzame verbouwing van het stadhuis in de vorige bestuursperiode, richt de Stad haar blik nu op cultuur en stadsvernieuwing. De culturele driehoek met De Spil, AcademiePlus en Villa Vandewalle groeit uit tot één sterke Kunstensite: een plek waar kunst en creativiteit samenkomen. Daarnaast werkt Stad Roeselare de komende zes jaar, samen met diverse partners, aan gerichte en haalbare stadsontwikkelingsprojecten. Denk aan de noordelijke stationsomgeving, de zone tussen het Sterrebos en het Bergmolenbos en de site Schiervelde. Tegelijk bereiden we nieuwe projecten voor in en rond de Ronde Kom en in Krottegem.",
+    "ac_code": "AP-3.7_ACT-12550",
+    "ac_short": "Realiseren van AcademiePlus als ankerpunt voor kunst en onde",
+    "ac_long": "De Stad realiseert met AcademiePlus een nieuw ankerpunt voor kunst en onderwijs in Roeselare. Door de krachtenbundeling van SASK en STAP ontstaat één geïntegreerde kunstcampus die ruimte biedt aan vernieuwing, samenwerking en toekomstgericht kunstonderwijs. De site, in samenhang met cultuurcentrum De Spil, vormt een groene en toegankelijke campus waar onderwijs, cultuur en ontmoeting samenkomen. Daarbij worden de omgeving en de Kleine Ring heringericht om de bereikbaarheid en beleving te versterken. Het kunstonderwijs blijft daarnaast ook in de deelgemeenten en basisscholen verankerd, zodat het dicht bij de inwoners aanwezig blijft.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 2300000.0,
+    "amount_per_capita": 33.69,
+    "yearly_amounts": {
+      "2026": 750000.0,
+      "2027": 750000.0,
+      "2028": 200000.0,
+      "2029": 200000.0,
+      "2030": 200000.0,
+      "2031": 200000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.99,
+      "2027": 10.99,
+      "2028": 2.93,
+      "2029": 2.93,
+      "2030": 2.93,
+      "2031": 2.93
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.5",
+    "ap_short": "Aantrekkelijke woon- en leefstad - Kwalitatieve wegen",
+    "ap_long": "Goed onderhouden wegen zijn belangrijk, maar vergen een stevige financiële inspanning. De realisatie van kwalitatieve wegen is belangrijk voor een vlotte mobiliteit en (fiets)veiligheid, maar ook voor het functioneren van de onderliggende rioleringen en nutsleidingen en het opwaarderen van het straatbeeld.",
+    "ac_code": "AP-3.5_ACT-12544",
+    "ac_short": "Uitvoeren van wegenis- en rioleringswerken in de Roobaertstr",
+    "ac_long": "De aanleg van een gescheiden rioleringsstelsel en de heraanleg van het wegdek in de Robaardstraat - Rolariusweg, wordt gerealiseerd met dit project.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2057000.0,
+    "amount_per_capita": 30.13,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 500000.0,
+      "2028": 1057000.0,
+      "2029": 500000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 7.32,
+      "2028": 15.48,
+      "2029": 7.32,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-11021",
+    "ac_short": "Uitvoeren van wegenis-, riolerings- en saneringswerken in de",
+    "ac_long": "Naar aanleiding van de aanleg van een gescheiden rioolstelsel in de Meensesteenweg, zal ook in volgende straten een gescheiden rioolstelsel aangelegd moeten worden: Ten Bunderenstraat, Beheydtstraat, Sint-Severinusstraat, Galgestraat, Mgr. Catrystraat, Landmansstraat en Kerkhofstraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1955000.0,
+    "amount_per_capita": 28.64,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 1905000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.73,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 27.9,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.8",
+    "ap_short": "Iedereen #VANRSL - Zilver, jeugdig en diervriendelijk",
+    "ap_long": "In vergelijking met andere centrumsteden telt Roeselare een groeiende groep senioren. In de afgelopen tien jaar was er een sterke toename van 60-79-jarigen en van 80-plussers. Tegen 2040 zal 25% van de Roeselarenaars 65 jaar of ouder zijn. De uitdagingen die de vergrijzing en verzilvering met zich meebrengen, vragen daarom bijzondere aandacht. In 2020 behaalde onze Stad het label van kind- en jeugdvriendelijke stad, dat we ook in de toekomst willen behouden. We willen een stad zijn waar kinderen zorgeloos samen kunnen spelen, jongeren zich gewaardeerd voelen, nieuwe gezinnen betaalbaar kunnen wonen en jonge ondernemers goesting hebben om een eigen zaak te starten. Roeselare is ook een geëngageerde diervriendelijke stad.",
+    "ac_code": "AP-2.8_ACT-11580",
+    "ac_short": "Opzetten van een intergemeentelijk dierenasiel",
+    "ac_long": "Het bestaande dierenasiel is verouderd, te klein en ligt zonevreemd. Een nieuwe locatie met een nieuw dierenasiel dringt zich dan ook op. Daarnaast wordt gekeken naar de mogelijkheden om de dienstverlening van het dierenasiel bovenlokaal te organiseren.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1903860.2,
+    "amount_per_capita": 27.89,
+    "yearly_amounts": {
+      "2026": 777860.2,
+      "2027": 1126000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.39,
+      "2027": 16.49,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.3",
+    "ap_short": "Klimaatswitch #VANRSL - Slimme energie",
+    "ap_long": "Het plan 'Klimaatswitch #VANRSL' zet in op lokaal opgewekte hernieuwbare energie. Dit moet de stad minder afhankelijk maken van prijsschommelingen op internationale markten en de luchtkwaliteit verbeteren. Roeselare is sinds 2017 lid van het Europese Burgemeestersconvenant met ambitieuze klimaatdoelstellingen: 55% reductie van de broeikasgassen tegen 2030 en klimaatneutraliteit tegen 2050. Het klimaatplan van Roeselare richt zich hierbij op individuele en collectieve warmteoplossingen (zoals het warmtenet), het opwekken van eigen elektriciteit en via doorgedreven renovatie het energiegebruik beheersen.",
+    "ac_code": "AP-3.3_ACT-12542",
+    "ac_short": "Realiseren van 100% verledding van het openbaar domein",
+    "ac_long": "De Stad streeft naar een volledige verledding van de openbare verlichting. Momenteel is 62% van de lichtpunten uitgerust met energiezuinige LED-verlichting, waarmee Roeselare beter presteert dan andere centrumsteden. Een geactualiseerd masterplan evalueert de verlichting in het buitengebied en stuurt de verdere omschakeling naar 100% energie-efficiënte verlichting aan.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1875000.0,
+    "amount_per_capita": 27.46,
+    "yearly_amounts": {
+      "2026": 512500.0,
+      "2027": 512500.0,
+      "2028": 212500.0,
+      "2029": 212500.0,
+      "2030": 212500.0,
+      "2031": 212500.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.51,
+      "2027": 7.51,
+      "2028": 3.11,
+      "2029": 3.11,
+      "2030": 3.11,
+      "2031": 3.11
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.17",
+    "ap_short": "Bruisende stad - Iedereen beweegt",
+    "ap_long": "Iedereen kent Roeselare als de stad der wereldkampioenen, de knipoog naar Freddy Maertens, Benoni Beheydt, Jean-Pierre Monseré en Patrick Sercu. Het verleden koesteren is schoon, maar nog mooier is om als stad de weg te plaveien voor de sportieveling van vandaag en die van de toekomst. Roeselare kent meer dan 300 sportverenigingen, topsportploegen en professionele atleten. De voorbije jaren hebben we volop geïnvesteerd in bijkomende infrastructuur (kunstgrasvelden, sport- en recreatiesite Oekene, polyvalente sporthal Stedelijke Basisschool De Brug, sporthal Onze Kinderen,...) en sportaanbod voor alle leeftijden op een gedifferentieerde, laagdrempelige en flankerende wijze.",
+    "ac_code": "AP-3.17_ACT-12602",
+    "ac_short": "Optimaliseren van het Stedelijk Sportstadion in Krottegem",
+    "ac_long": "Het geactualiseerde Masterplan Sportinfrastructuur krijgt uitvoering. Eén van de projecten betreft het optimaliseren van het Stedelijk Sportstadion in Krottegem voor het verdere gebruik in functie van gevechtssporten en atletiek. De prioriteiten worden in samenspraak met de gebruikers bepaald.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1855000.0,
+    "amount_per_capita": 27.17,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 980000.0,
+      "2029": 300000.0,
+      "2030": 500000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.1,
+      "2027": 0,
+      "2028": 14.35,
+      "2029": 4.39,
+      "2030": 7.32,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.3",
+    "ap_short": "Toegankelijke stad",
+    "ap_long": "De veiligheid van onze fietsers, voetgangers, kinderen en wie minder mobiel is, is onze gedeelde zorg. De voorbije jaren realiseerden we al 51 veilige schoolomgevingen. Door onze infrastructuur toegankelijker te maken, open te staan voor evaluaties en suggesties van inwoners en te bestraffen waar het moet, maken we onze Stad en deelgemeenten beter bereikbaar. We willen de auto echter niet verbannen, om de bereikbaarheid van woningen, scholen en onze handelaars te garanderen, ook voor minder mobiele mensen. We zetten daarom in op een doordacht verkeerscirculatiebeleid, een verhoging van het fietscomfort en het versterken van het openbaar vervoer. Vernieuwende mobiliteitsconcepten, zoals de 15-minutenstad, zijn hierbij inspirerend. Dat concept gaat overigens breder dan enkel mobiliteit, waarbij bewoners op 15 minuten wandelen of fietsen toegang hebben tot essentiële functies: winkelen, kantoren, scholen, gezondheidszorg, sport, cultuur en ontspanning.",
+    "ac_code": "AP-1.3_ACT-12414",
+    "ac_short": "Verder investeren in veiligere fietspaden",
+    "ac_long": "De Stad investeert verder in veilige en comfortabele fietsinfrastructuur. Naast de uitvoering van fietsveiligheidsprojecten zoals Velodroom en de vernieuwing van de Spiraalbrug, worden bijkomende fietsrekken voorzien voor evenementen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1845000.0,
+    "amount_per_capita": 27.02,
+    "yearly_amounts": {
+      "2026": 720000.0,
+      "2027": 200000.0,
+      "2028": 250000.0,
+      "2029": 250000.0,
+      "2030": 275000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.55,
+      "2027": 2.93,
+      "2028": 3.66,
+      "2029": 3.66,
+      "2030": 4.03,
+      "2031": 2.2
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.11",
+    "ap_short": "Ondernemende stad - Kanaal als economische levensader",
+    "ap_long": "Enkele jaren geleden nam Stad Roeselare samen met DVV Midwest, de Provincie West-Vlaanderen en de Vlaamse overheid het initiatief tot de opwaardering van het Kanaal Roeselare-Leie als motor voor de duurzame sociale ontwikkeling van de stad en de regio. Het Kanaal is een economische hotspot voor Vlaanderen en rechtstreeks verbonden aan de economische as van het Seine-Schelde project en de Leie in het bijzonder. Meer dan 40% van de trafiek op de Leie-as wordt overgeslagen op het Kanaal Roeselare-Leie, met een grote lokale werkgelegenheid (5.400 rechtstreeks tewerkgestelden) en bedrijvigheid. De voorbije jaren kreeg de watergebonden overslagterminal reeds vorm.",
+    "ac_code": "AP-3.11_ACT-12564",
+    "ac_short": "Opwaarderen en verdiepen van het Kanaal Roeselare-Leie",
+    "ac_long": "Het Kanaal Roeselare-Leie wordt verder verdiept tot 3,2 meter om de watergebonden bedrijvigheid te versterken en duurzame logistiek te bevorderen.\nDeze opwaardering vergroot de capaciteit voor scheepvaart en vermindert transport over de weg.\nDaarnaast vormt het kanaal een hefboom voor duurzame economische, sociale en ecologische ontwikkeling in de regio.\nEr wordt ingezet op een flankerend beleid rond mobiliteit, waterbeheer, natuur, beleving, energie en klimaat.\nWatergebonden bedrijven worden aangemoedigd om hun infrastructuur te moderniseren en slimme laad- en loszones te ontwikkelen.\nNiet-watergebonden activiteiten langs het kanaal worden gestimuleerd om zich om te vormen tot watergerichte bedrijven.\nSamen met de Provincie en de Vlaamse overheid wordt een havenmanagement opgericht om deze transitie te coördineren.\nRoeselare onderschrijft hierbij de Flanders Make-engagementen voor innovatie en verduurzaming.\nDe Kop van de Vaart wordt verder uitgeslibd en verdiept als onderdeel van dit toekomstgerichte project.\nZo wordt het kanaal een motor voor een klimaatneutrale en competitieve regionale economie.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1411452.03,
+    "amount_per_capita": 20.67,
+    "yearly_amounts": {
+      "2026": 311452.03,
+      "2027": 600000.0,
+      "2028": 500000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.56,
+      "2027": 8.79,
+      "2028": 7.32,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-10617",
+    "ac_short": "Uitvoeren van wegenis-, riolerings- en saneringswerken in",
+    "ac_long": "Op vraag van de gemeente Ledegem moet in een deel van de Moorseelsesteenweg, Rennevoordestraat en Sint-Eloois-Winkelsestraat een gescheiden rioleringsstelsel aangelegd worden. Na de aanleg van de riolering wordt de wegenis hersteld in oorspronkelijke staat.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1337879.64,
+    "amount_per_capita": 19.6,
+    "yearly_amounts": {
+      "2026": 1337879.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.3",
+    "ap_short": "Toegankelijke stad",
+    "ap_long": "De veiligheid van onze fietsers, voetgangers, kinderen en wie minder mobiel is, is onze gedeelde zorg. De voorbije jaren realiseerden we al 51 veilige schoolomgevingen. Door onze infrastructuur toegankelijker te maken, open te staan voor evaluaties en suggesties van inwoners en te bestraffen waar het moet, maken we onze Stad en deelgemeenten beter bereikbaar. We willen de auto echter niet verbannen, om de bereikbaarheid van woningen, scholen en onze handelaars te garanderen, ook voor minder mobiele mensen. We zetten daarom in op een doordacht verkeerscirculatiebeleid, een verhoging van het fietscomfort en het versterken van het openbaar vervoer. Vernieuwende mobiliteitsconcepten, zoals de 15-minutenstad, zijn hierbij inspirerend. Dat concept gaat overigens breder dan enkel mobiliteit, waarbij bewoners op 15 minuten wandelen of fietsen toegang hebben tot essentiële functies: winkelen, kantoren, scholen, gezondheidszorg, sport, cultuur en ontspanning.",
+    "ac_code": "AP-1.3_ACT-12415",
+    "ac_short": "Realiseren van een nieuwe Bruanebrug",
+    "ac_long": "In het kader van de uitvoering van de ambities voor het kanaal Roeselare-Leie wordt samen met de Vlaamse overheid een nieuwe Bruanebrug gerealiseerd.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1315000.0,
+    "amount_per_capita": 19.26,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 400000.0,
+      "2028": 415000.0,
+      "2029": 500000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 5.86,
+      "2028": 6.08,
+      "2029": 7.32,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.8",
+    "ap_short": "Iedereen #VANRSL - Zilver, jeugdig en diervriendelijk",
+    "ap_long": "In vergelijking met andere centrumsteden telt Roeselare een groeiende groep senioren. In de afgelopen tien jaar was er een sterke toename van 60-79-jarigen en van 80-plussers. Tegen 2040 zal 25% van de Roeselarenaars 65 jaar of ouder zijn. De uitdagingen die de vergrijzing en verzilvering met zich meebrengen, vragen daarom bijzondere aandacht. In 2020 behaalde onze Stad het label van kind- en jeugdvriendelijke stad, dat we ook in de toekomst willen behouden. We willen een stad zijn waar kinderen zorgeloos samen kunnen spelen, jongeren zich gewaardeerd voelen, nieuwe gezinnen betaalbaar kunnen wonen en jonge ondernemers goesting hebben om een eigen zaak te starten. Roeselare is ook een geëngageerde diervriendelijke stad.",
+    "ac_code": "AP-2.8_ACT-12617",
+    "ac_short": "Realiseren van nieuwe jeugdinfrastructuur in Oekene voor KSA",
+    "ac_long": "De Stad realiseert nieuwe infrastructuur waar nodig om aan de noden te voldoen van de jeugdverenigingen. De KSA en KLJ in Oekene hebben nood aan een nieuw gebouw, voor hen wordt daarom voorzien in nieuwe jeugdinfrastructuur. Ook de Gardeboe heeft op de site van KSA en KLJ Oekene een stockageruimte. Ook hun noden en behoeften worden hierin meegenomen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1300000.0,
+    "amount_per_capita": 19.04,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 300000.0,
+      "2030": 1000000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 4.39,
+      "2030": 14.65,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.8",
+    "ap_short": "Iedereen #VANRSL - Zilver, jeugdig en diervriendelijk",
+    "ap_long": "In vergelijking met andere centrumsteden telt Roeselare een groeiende groep senioren. In de afgelopen tien jaar was er een sterke toename van 60-79-jarigen en van 80-plussers. Tegen 2040 zal 25% van de Roeselarenaars 65 jaar of ouder zijn. De uitdagingen die de vergrijzing en verzilvering met zich meebrengen, vragen daarom bijzondere aandacht. In 2020 behaalde onze Stad het label van kind- en jeugdvriendelijke stad, dat we ook in de toekomst willen behouden. We willen een stad zijn waar kinderen zorgeloos samen kunnen spelen, jongeren zich gewaardeerd voelen, nieuwe gezinnen betaalbaar kunnen wonen en jonge ondernemers goesting hebben om een eigen zaak te starten. Roeselare is ook een geëngageerde diervriendelijke stad.",
+    "ac_code": "AP-2.8_ACT-12507",
+    "ac_short": "Onderhouden van de bestaande speelpleinen",
+    "ac_long": "Er zijn heel wat speelpleintjes op het grondgebied van de stad. Kinderen en jongeren vinden dus overal in de stad een leuke plek om te spelen. Het is nu vooral belangrijk om al deze speelpleintjes, die al gerealiseerd zijn, goed te onderhouden, zodat ze veilig en uitnodigend zijn.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1165744.88,
+    "amount_per_capita": 17.07,
+    "yearly_amounts": {
+      "2026": 290744.88,
+      "2027": 175000.0,
+      "2028": 175000.0,
+      "2029": 175000.0,
+      "2030": 175000.0,
+      "2031": 175000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.26,
+      "2027": 2.56,
+      "2028": 2.56,
+      "2029": 2.56,
+      "2030": 2.56,
+      "2031": 2.56
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.16",
+    "ap_short": "Bruisende stad - De Spil en Kenniscentrum ARhus",
+    "ap_long": "Cultuurhuis De Spil als culturele motor en ARhus als dynamisch kenniscentrum.",
+    "ac_code": "AP-3.16_ACT-12621",
+    "ac_short": "Investeren in het gebouw van De Spil",
+    "ac_long": "We investeren in een comfortabel, modern en toekomstgericht gebouw voor De Spil.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1100000.0,
+    "amount_per_capita": 16.11,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 200000.0,
+      "2030": 300000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.46,
+      "2027": 1.46,
+      "2028": 1.46,
+      "2029": 2.93,
+      "2030": 4.39,
+      "2031": 4.39
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.1",
+    "ap_short": "Klimaatswitch #VANRSL - Naar 200.000 bomen",
+    "ap_long": "Na de realisatie van 100.000 bomen in de vorige legislatuur, gaan we verder op de ingeslagen weg en planten we ook deze bestuursperiode 100.000 bomen in de stadsrandbossen, tuinen, straten en op pleinen. Niet alleen méér groen, maar ook béter groen. In Roeselare investeren we in het behoud en de opwaardering van het bestaande groen. We volgen het bomenbestand actief op en grijpen in waar nodig - om bomen langer gezond te houden en hun levensduur te verlengen. Tegelijk bouwen we het groenarsenaal in de stad verder uit, in afstemming met andere beleidsdomeinen zoals stadsontwikkeling, publieke ruimte en mobiliteit. De principes van een groenblauwe stad vormen daarbij een duidelijke rode draad. Zoals veel steden kampt ook Roeselare met een stedelijk hitte-eiland. Dat blijkt ook uit ons klimaatadaptatieplan met de hittekaart. Hittestress zorgt voor minder wooncomfort en is slecht voor de gezondheid. Daarom zetten we volop in op oplossingen zoals schaduw creëren en oppervlakken vergroenen om hitte te ondervangen.",
+    "ac_code": "AP-3.1_ACT-12521",
+    "ac_short": "Verder ontwikkelen van de stadsrandbossen Bergmolenbos en Kr",
+    "ac_long": "De Stad ontwikkelt de stadsrandbossen verder in samenwerking met het Agentschap Natuur en Bos, om de biodiversiteit te versterken, het stedelijk hitte-eiland te temperen en inwoners meer kwalitatieve natuur- en ontspanningsruimte te bieden.Het Bergmolenbos groeit uit tot een multifunctioneel gebied van ongeveer 135 hectare, met onder meer een hondenbos en de realisatie van het landschapsplan Woudaapje. De gebruiksvriendelijkheid van het bos wordt verbeterd door een betere parkingontsluiting. Het Krommebeekbos wordt uitgebreid richting de Mandellaan en de Ardooisesteenweg en telt sinds de start van de aanplanting ongeveer 20.000 extra bomen.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1050947.61,
+    "amount_per_capita": 15.39,
+    "yearly_amounts": {
+      "2026": 45947.61,
+      "2027": 265000.0,
+      "2028": 380000.0,
+      "2029": 280000.0,
+      "2030": 80000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.67,
+      "2027": 3.88,
+      "2028": 5.57,
+      "2029": 4.1,
+      "2030": 1.17,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.3",
+    "ap_short": "Toegankelijke stad",
+    "ap_long": "De veiligheid van onze fietsers, voetgangers, kinderen en wie minder mobiel is, is onze gedeelde zorg. De voorbije jaren realiseerden we al 51 veilige schoolomgevingen. Door onze infrastructuur toegankelijker te maken, open te staan voor evaluaties en suggesties van inwoners en te bestraffen waar het moet, maken we onze Stad en deelgemeenten beter bereikbaar. We willen de auto echter niet verbannen, om de bereikbaarheid van woningen, scholen en onze handelaars te garanderen, ook voor minder mobiele mensen. We zetten daarom in op een doordacht verkeerscirculatiebeleid, een verhoging van het fietscomfort en het versterken van het openbaar vervoer. Vernieuwende mobiliteitsconcepten, zoals de 15-minutenstad, zijn hierbij inspirerend. Dat concept gaat overigens breder dan enkel mobiliteit, waarbij bewoners op 15 minuten wandelen of fietsen toegang hebben tot essentiële functies: winkelen, kantoren, scholen, gezondheidszorg, sport, cultuur en ontspanning.",
+    "ac_code": "AP-1.3_ACT-12413",
+    "ac_short": "Bijsturen van het mobiliteitsplan voor Rumbeke",
+    "ac_long": "Het in 2022 ingevoerde mobiliteitsplan voor Rumbeke wordt bijgestuurd. Omdat de Stad wenst in te spelen\nop de suggesties van de bewoners, zijn volgende aanpassingen voorzien:\n- De Kaasterstraat in de Kaasterwijk wordt definitief ingericht.\n- Enkele fietsstraten worden korter of geheroriënteerd naar zone 30 in (een deel van) de Windstraat, Orkaanstraat, Staakmolenstraat, Parkstraat, Graafschapsstraat en Blommestraat \n(tussen Vijfwegenstraat en Groene Herdersstraat).\n- In de Maria s Lindestraat en Graaf de Limburg Stirumlaan worden snelheidsremmende \nmaatregelen genomen. \n- De verkeersdoorstroming op het kruispunt van de Izegemsestraat met\nde Oekensestraat wordt verbeterd.\n- Het kruispunt Rumbeeksesteenweg met de Heropbouwstraat en Zonnebloemstraat wordt aangepakt.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 983000.0,
+    "amount_per_capita": 14.4,
+    "yearly_amounts": {
+      "2026": 415000.0,
+      "2027": 408000.0,
+      "2028": 160000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.08,
+      "2027": 5.98,
+      "2028": 2.34,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.1",
+    "ap_short": "Veilige stad",
+    "ap_long": "Een veilige stad blijft een topprioriteit. De Roeselarenaar maakt zich volgens recent onderzoek het meest zorgen over snelheidsduivels, sluikstorten, zwerfvuil en overlastsituaties die het onveiligheidsgevoel voeden. Zoals in andere steden duiken ook in Roeselare nieuwe soorten synthetische drugs op die mensen en op sommige plaatsen het straatbeeld ontwrichten. Dit willen we krachtdadig aanpakken met respect voor de volledige veiligheidsketen van preventie, hulpverlening en repressie.",
+    "ac_code": "AP-1.1_ACT-12620",
+    "ac_short": "Renoveren van de brandweerkazerne",
+    "ac_long": "In het meerjarenbeleidsplan zijn middelen voorzien voor comfortinvesteringen in de huidige Roeselaarse kazerne.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 970000.0,
+    "amount_per_capita": 14.21,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 470000.0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 200000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 6.88,
+      "2028": 4.39,
+      "2029": 0,
+      "2030": 0,
+      "2031": 2.93
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.17",
+    "ap_short": "Bruisende stad - Iedereen beweegt",
+    "ap_long": "Iedereen kent Roeselare als de stad der wereldkampioenen, de knipoog naar Freddy Maertens, Benoni Beheydt, Jean-Pierre Monseré en Patrick Sercu. Het verleden koesteren is schoon, maar nog mooier is om als stad de weg te plaveien voor de sportieveling van vandaag en die van de toekomst. Roeselare kent meer dan 300 sportverenigingen, topsportploegen en professionele atleten. De voorbije jaren hebben we volop geïnvesteerd in bijkomende infrastructuur (kunstgrasvelden, sport- en recreatiesite Oekene, polyvalente sporthal Stedelijke Basisschool De Brug, sporthal Onze Kinderen,...) en sportaanbod voor alle leeftijden op een gedifferentieerde, laagdrempelige en flankerende wijze.",
+    "ac_code": "AP-3.17_ACT-12607",
+    "ac_short": "Onderhouden van de indoor en outdoor sportsites",
+    "ac_long": "De Stad beschikt over een waaier aan indoor en outdoor sportinfrastructuur. De Stad zet in op een structureel en kwalitatief onderhoud daarvan (o.a. dug-outs, balvangnetten, doelen, baskettorens,...).",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 892140.0,
+    "amount_per_capita": 13.07,
+    "yearly_amounts": {
+      "2026": 243140.0,
+      "2027": 108000.0,
+      "2028": 70600.0,
+      "2029": 49000.0,
+      "2030": 253400.0,
+      "2031": 168000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.56,
+      "2027": 1.58,
+      "2028": 1.03,
+      "2029": 0.72,
+      "2030": 3.71,
+      "2031": 2.46
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.5",
+    "ap_short": "Dienstbare stad - Verantwoord personeelsbeheer",
+    "ap_long": "De Stad kiest voor een duurzaam en zorgzaam personeelsbeleid, met aandacht voor welzijn, diversiteit en werkbaar werk. We versterken competenties, stimuleren samenwerking en zetten talent in waar het het verschil maakt. Aanwervingen stemmen we af op beleidsprioriteiten en noden op het terrein.",
+    "ac_code": "AP-1.5_ACT-12366",
+    "ac_short": "Renoveren van de Stedelijke Ateliers fase twee",
+    "ac_long": "Tijdens een eerste fase werd ingezet op een meer toegankelijk onthaal voor de burgers en een hedendaagse refter en sanitair voor de medewerkers. In deze tweede fase wordt de casco ruimte naast de nieuwe refter omgevormd tot een hedendaagse bureauzone voor alle bureaumedewerkers van STAT. Dit laat toe om een bijgebouw te slopen en de buitenomgeving beter in te richten (containerzone, betere circulatie,...)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 885521.27,
+    "amount_per_capita": 12.97,
+    "yearly_amounts": {
+      "2026": 885521.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.97,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.8",
+    "ap_short": "Ondernemende stad - Aantrekkelijk handelscentrum",
+    "ap_long": "De detailhandel vormt het kloppend hart van een stad en evolueert in een ongezien tempo. De sector is dan ook onderhevig aan verschillende trends waaronder digitalisering, e-commerce en een veranderd consumentengedrag. De coronacrisis heeft deze evolutie alleen maar versneld. Aankopen gebeuren meer dan ooit via verschillende kanalen. De consument is op zoek naar beleving, gemak, winkelt bewuster en stelt persoonlijk advies van de handelaar op prijs. \nDe coronacrisis, de oorlog in Oekraïne, de energiecrisis, de hoge inflatie en de snelgroeiende e-commerce zorgden voor een shift in het retaillandschap. Hoewel veel van deze uitdagingen grotendeels achter de rug lijken, voelen handelaars nog steeds de impact met aanhoudende druk op de marges tot gevolg. Ook in Roeselare is dit merkbaar. \nHet kernversterkend beleid uit de vorige Kernplannen dient daarom voluit te worden verdergezet volgens de volgende pijlers: \n- Handelaar van RSL: versterken van het shoppingaanbod en leegstand tegengaan\n- Krachtig kernwinkelgebied: fysieke opwaardering van de kern\n- Shoppen van RSL: inzetten op de totale beleving van shoppen en bezoeken\n- Verkopen met kracht: Roeselare als shoppingstad in de markt zetten \nHiervoor worden de bestaande maatregelen geïntensifieerd door de cel 'acquisitie en leegstand' binnen de dienst economie, die nauw overlegt met de handelaarsorganisaties en experten in retail, vastgoed, citymarketing en evenementenbeleid.",
+    "ac_code": "AP-3.8_ACT-12368",
+    "ac_short": "Uitwerken van het VLAIO subsidieproject Duurzame bereikbaarh",
+    "ac_long": "Dit subsidieproject bouwt verder op het dossier voor deze oproep in 2022 met de  intuïtieve belevingsroute van de weg naar de meest logische parking, in de parking, vervolgens van parking naar het kernwinkelgebied en in het kernwinkelgebied zelf (wordt opgenomen binnen ACT-12315 Uitwerken van het subsidieproject duurzame bereikbaarheid van de kern). De nadruk in het subsidiedossier 2023 ligt op het \"slimme\" aspect en omvat de volgende deelprojecten: verkeerstellingen in het centrum + aankoop Floating Car Data (deel van de mobiliteitsstudie binnen de kleine ring), aankoop mobiele bezoekersdata, bestedingsdata en passantentellingen voor 3 jaar (vervolg op EFRO project Datagestuurde Winkelgebieden), uitrol digital signage: extra LED-schermen waar nodig/relevant, opwaardering van de Poststraat, opwaardering van het parkeerhuisje Stationsparking en thematische aankleding in het KWG (overspanningen).",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 870685.74,
+    "amount_per_capita": 12.75,
+    "yearly_amounts": {
+      "2026": 870685.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.75,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-12534",
+    "ac_short": "Investeren in bijkomende, gescheiden rioleringen en kleine w",
+    "ac_long": "De Europese Kaderrichtlijn Water verplicht alle Europese lidstaten om een goeie waterkwaliteit van onze waterlopen na te streven. Dit vertaalt zich in Vlaanderen verder door naar het behalen van reductiedoelstellingen. Ook Roeselare moet aan deze reductiedoelstellingen voldoen door jaarlijks een aantal straten met een gescheiden rioleringsstelsel uit te rusten, IBA's of een KWZI te plaatsen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 851540.8,
+    "amount_per_capita": 12.47,
+    "yearly_amounts": {
+      "2026": 266540.8,
+      "2027": 117000.0,
+      "2028": 117000.0,
+      "2029": 117000.0,
+      "2030": 117000.0,
+      "2031": 117000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.9,
+      "2027": 1.71,
+      "2028": 1.71,
+      "2029": 1.71,
+      "2030": 1.71,
+      "2031": 1.71
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.17",
+    "ap_short": "Bruisende stad - Iedereen beweegt",
+    "ap_long": "Iedereen kent Roeselare als de stad der wereldkampioenen, de knipoog naar Freddy Maertens, Benoni Beheydt, Jean-Pierre Monseré en Patrick Sercu. Het verleden koesteren is schoon, maar nog mooier is om als stad de weg te plaveien voor de sportieveling van vandaag en die van de toekomst. Roeselare kent meer dan 300 sportverenigingen, topsportploegen en professionele atleten. De voorbije jaren hebben we volop geïnvesteerd in bijkomende infrastructuur (kunstgrasvelden, sport- en recreatiesite Oekene, polyvalente sporthal Stedelijke Basisschool De Brug, sporthal Onze Kinderen,...) en sportaanbod voor alle leeftijden op een gedifferentieerde, laagdrempelige en flankerende wijze.",
+    "ac_code": "AP-3.17_ACT-12604",
+    "ac_short": "Renoveren van de voetbalaccommodatie en de sporthal in Bever",
+    "ac_long": "Het geactualiseerde Masterplan Sportinfrastructuur krijgt uitvoering. Eén van de projecten betreft het renoveren van de voetbalaccommodatie en de sporthal in Beveren, o.a. kleedkamers, veldverlichting Dosko Beveren en het dak van de sporthal.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 780000.0,
+    "amount_per_capita": 11.42,
+    "yearly_amounts": {
+      "2026": 52000.0,
+      "2027": 48000.0,
+      "2028": 680000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.76,
+      "2027": 0.7,
+      "2028": 9.96,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.8",
+    "ap_short": "Iedereen #VANRSL - Zilver, jeugdig en diervriendelijk",
+    "ap_long": "In vergelijking met andere centrumsteden telt Roeselare een groeiende groep senioren. In de afgelopen tien jaar was er een sterke toename van 60-79-jarigen en van 80-plussers. Tegen 2040 zal 25% van de Roeselarenaars 65 jaar of ouder zijn. De uitdagingen die de vergrijzing en verzilvering met zich meebrengen, vragen daarom bijzondere aandacht. In 2020 behaalde onze Stad het label van kind- en jeugdvriendelijke stad, dat we ook in de toekomst willen behouden. We willen een stad zijn waar kinderen zorgeloos samen kunnen spelen, jongeren zich gewaardeerd voelen, nieuwe gezinnen betaalbaar kunnen wonen en jonge ondernemers goesting hebben om een eigen zaak te starten. Roeselare is ook een geëngageerde diervriendelijke stad.",
+    "ac_code": "AP-2.8_ACT-12511",
+    "ac_short": "Verderzetten van de project-, structurele en huisvestingssub",
+    "ac_long": "De Stad blijft jeugdverenigingen ondersteunen met project-, structurele en huisvestingssubsidies. Het huisvestingsreglement blijft behouden, met stadsondersteuning bij verbouwingen en nieuwbouw om te beantwoorden aan de groeiende noden van het jeugdwerk.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 700000.0,
+    "amount_per_capita": 10.25,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 200000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.46,
+      "2027": 2.93,
+      "2028": 1.46,
+      "2029": 1.46,
+      "2030": 1.46,
+      "2031": 1.46
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.1",
+    "ap_short": "Klimaatswitch #VANRSL - Naar 200.000 bomen",
+    "ap_long": "Na de realisatie van 100.000 bomen in de vorige legislatuur, gaan we verder op de ingeslagen weg en planten we ook deze bestuursperiode 100.000 bomen in de stadsrandbossen, tuinen, straten en op pleinen. Niet alleen méér groen, maar ook béter groen. In Roeselare investeren we in het behoud en de opwaardering van het bestaande groen. We volgen het bomenbestand actief op en grijpen in waar nodig - om bomen langer gezond te houden en hun levensduur te verlengen. Tegelijk bouwen we het groenarsenaal in de stad verder uit, in afstemming met andere beleidsdomeinen zoals stadsontwikkeling, publieke ruimte en mobiliteit. De principes van een groenblauwe stad vormen daarbij een duidelijke rode draad. Zoals veel steden kampt ook Roeselare met een stedelijk hitte-eiland. Dat blijkt ook uit ons klimaatadaptatieplan met de hittekaart. Hittestress zorgt voor minder wooncomfort en is slecht voor de gezondheid. Daarom zetten we volop in op oplossingen zoals schaduw creëren en oppervlakken vergroenen om hitte te ondervangen.",
+    "ac_code": "AP-3.1_ACT-12522",
+    "ac_short": "Verder uitbouwen van de groene bomengordel in het stadscentr",
+    "ac_long": "De Stad vergroot de leefkwaliteit in het centrum door de verdere uitbouw van een groene bomengordel. Door bestaande groene plekken met elkaar te verbinden en te versterken, ontstaat een zachte, zichtbare en samenhangende groene as doorheen de stad. Bij stadsontwikkelingsprojecten en aanpassingen aan de openbare ruimte wordt elke gelegenheid benut om de bomengordel verder te realiseren tijdens deze legislatuur.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 695322.32,
+    "amount_per_capita": 10.18,
+    "yearly_amounts": {
+      "2026": 195322.32,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.86,
+      "2027": 1.46,
+      "2028": 1.46,
+      "2029": 1.46,
+      "2030": 1.46,
+      "2031": 1.46
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-11022",
+    "ac_short": "Uitvoeren van saneringswerken in de kern Zilverberg",
+    "ac_long": "Naar aanleiding van de aanleg van een gescheiden rioolstelsel in de Meensesteenweg, zal ook in de volgende straten een gescheiden riolering aangelegd moeten worden: Wulfkolstraat vanaf huisnummer 8, Karabinierstraat tussen de Wulfkolstraat en de Knokuilstraat, Kleine Zilverstraat, Gentstraat en zijstraat tussen de Kleine Zilverstraat en de zijstraat in de Gentstraat en de Koekuitstraat tussen de Meensesteenweg en huisnummer 19. Daarnaast zal ook de begraafplaats Zilverberg afgekoppeld moeten worden en zal de Knokuilstraat op de Meensesteenweg aangesloten moeten worden.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 693096.45,
+    "amount_per_capita": 10.15,
+    "yearly_amounts": {
+      "2026": 193096.45,
+      "2027": 500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.83,
+      "2027": 7.32,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.1",
+    "ap_short": "Klimaatswitch #VANRSL - Naar 200.000 bomen",
+    "ap_long": "Na de realisatie van 100.000 bomen in de vorige legislatuur, gaan we verder op de ingeslagen weg en planten we ook deze bestuursperiode 100.000 bomen in de stadsrandbossen, tuinen, straten en op pleinen. Niet alleen méér groen, maar ook béter groen. In Roeselare investeren we in het behoud en de opwaardering van het bestaande groen. We volgen het bomenbestand actief op en grijpen in waar nodig - om bomen langer gezond te houden en hun levensduur te verlengen. Tegelijk bouwen we het groenarsenaal in de stad verder uit, in afstemming met andere beleidsdomeinen zoals stadsontwikkeling, publieke ruimte en mobiliteit. De principes van een groenblauwe stad vormen daarbij een duidelijke rode draad. Zoals veel steden kampt ook Roeselare met een stedelijk hitte-eiland. Dat blijkt ook uit ons klimaatadaptatieplan met de hittekaart. Hittestress zorgt voor minder wooncomfort en is slecht voor de gezondheid. Daarom zetten we volop in op oplossingen zoals schaduw creëren en oppervlakken vergroenen om hitte te ondervangen.",
+    "ac_code": "AP-3.1_ACT-12523",
+    "ac_short": "Vergroenen van de dorpskernen van Oekene en Rumbeke",
+    "ac_long": "De Stad verhoogt de leefkwaliteit in de deelgemeenten door de dorpskernen van Oekene en Rumbeke te vergroenen. Via de aanleg van extra groen, bomen en ontharde zones wordt ingezet op een aantrekkelijker en klimaatvriendelijker dorpscentrum.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 692167.8,
+    "amount_per_capita": 10.14,
+    "yearly_amounts": {
+      "2026": 454167.8,
+      "2027": 215000.0,
+      "2028": 23000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.65,
+      "2027": 3.15,
+      "2028": 0.34,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-12343",
+    "ac_short": "Uitvoeren van rioleringswerken in de Oude Maria's Lindestraa",
+    "ac_long": "De aanleg van een gescheiden riolering en plaatsing van een kleinschalige waterzuiveringsinstallatie in de Oude Maria's Lindestraat en Bergstraat, wordt met dit project gerealiseerd.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 660009.58,
+    "amount_per_capita": 9.67,
+    "yearly_amounts": {
+      "2026": 383509.58,
+      "2027": 276500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.62,
+      "2027": 4.05,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.3",
+    "ap_short": "Toegankelijke stad",
+    "ap_long": "De veiligheid van onze fietsers, voetgangers, kinderen en wie minder mobiel is, is onze gedeelde zorg. De voorbije jaren realiseerden we al 51 veilige schoolomgevingen. Door onze infrastructuur toegankelijker te maken, open te staan voor evaluaties en suggesties van inwoners en te bestraffen waar het moet, maken we onze Stad en deelgemeenten beter bereikbaar. We willen de auto echter niet verbannen, om de bereikbaarheid van woningen, scholen en onze handelaars te garanderen, ook voor minder mobiele mensen. We zetten daarom in op een doordacht verkeerscirculatiebeleid, een verhoging van het fietscomfort en het versterken van het openbaar vervoer. Vernieuwende mobiliteitsconcepten, zoals de 15-minutenstad, zijn hierbij inspirerend. Dat concept gaat overigens breder dan enkel mobiliteit, waarbij bewoners op 15 minuten wandelen of fietsen toegang hebben tot essentiële functies: winkelen, kantoren, scholen, gezondheidszorg, sport, cultuur en ontspanning.",
+    "ac_code": "AP-1.3_ACT-12416",
+    "ac_short": "Verhogen van de bereikbaarheid van de stad en deelgemeenten",
+    "ac_long": "De Stad verhoogt de verkeersveiligheid in schoolomgevingen en woonwijken. In Beveren en langs de Mandellaan en Iepersestraat worden intelligente verkeersborden geplaatst, terwijl langs de Jules Lagaelaan een LED-scherm de doorstroming richting de Beversesteenweg verduidelijkt. De bestaande dynamische parkeerverwijsborden worden gemoderniseerd. De inrichting van schoolomgevingen en zones 30 wordt verder afgestemd op participatie en handhaving. De toegankelijkheid van voetpaden wordt verbeterd door een systematische screening, gerichte aanpassingen en bijzondere aandacht voor heraanleg na werken.  Daarnaast investeert de Stad in duurzame deelmobiliteit, waaronder autodelen, en in bijkomende laadpunten voor elektrische voertuigen. Tot slot ondersteunt de Stad de geplande studie van de Vlaamse overheid naar de aanleg van een derde rijstrook op de E403 om de bovenlokale doorstroming te verbeteren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 630000.0,
+    "amount_per_capita": 9.23,
+    "yearly_amounts": {
+      "2026": 165000.0,
+      "2027": 201000.0,
+      "2028": 66000.0,
+      "2029": 66000.0,
+      "2030": 66000.0,
+      "2031": 66000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.42,
+      "2027": 2.94,
+      "2028": 0.97,
+      "2029": 0.97,
+      "2030": 0.97,
+      "2031": 0.97
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.8",
+    "ap_short": "Iedereen #VANRSL - Zilver, jeugdig en diervriendelijk",
+    "ap_long": "In vergelijking met andere centrumsteden telt Roeselare een groeiende groep senioren. In de afgelopen tien jaar was er een sterke toename van 60-79-jarigen en van 80-plussers. Tegen 2040 zal 25% van de Roeselarenaars 65 jaar of ouder zijn. De uitdagingen die de vergrijzing en verzilvering met zich meebrengen, vragen daarom bijzondere aandacht. In 2020 behaalde onze Stad het label van kind- en jeugdvriendelijke stad, dat we ook in de toekomst willen behouden. We willen een stad zijn waar kinderen zorgeloos samen kunnen spelen, jongeren zich gewaardeerd voelen, nieuwe gezinnen betaalbaar kunnen wonen en jonge ondernemers goesting hebben om een eigen zaak te starten. Roeselare is ook een geëngageerde diervriendelijke stad.",
+    "ac_code": "AP-2.8_ACT-12510",
+    "ac_short": "Invullen van TRAX als muziekcentrum",
+    "ac_long": "TRAX positioneert zich als een toonaangevend muziekcentrum met een lokale verankering. Het fungeert als creatieve broedplaats waar muziek, opleiding, jongeren en cultureel ondernemerschap samenkomen. Het stimuleert artistieke en professionele ontwikkeling van jong talent en bevordert de samenwerking tussen makers, organisaties en publiek.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 8.79,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2.2,
+      "2030": 2.2,
+      "2031": 4.39
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-12612",
+    "ac_short": "Uitvoeren van wegenis-, riolerings- en saneringswerken in om",
+    "ac_long": "Het project kadert in een totaalproject om de oorspronkelijke loop van de Regenbeek te herstellen en te herwaarderen. Hierbij wordt het vuilwater volledig afgekoppeld van deze waterloop. Dit project is het vervolgtraject van het project \n'saneren Regenbeek fase 1' dat momenteel in uitvoering zit. Het deel van de ingekokerde Regenbeek dat gelegen is tussen het Sterrebos en de \noverstort Ruiterijstraat, doet op vandaag dienst als moerriool. Van dit moerriool wordt het gemengde afvalwater van de verschillende opwaartse gebieden afgevoerd naar de collector langsheen het verder gelegen open tracé van de Regenbeek.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 8.79,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 300000.0,
+      "2029": 300000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 4.39,
+      "2029": 4.39,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.3",
+    "ap_short": "Toegankelijke stad",
+    "ap_long": "De veiligheid van onze fietsers, voetgangers, kinderen en wie minder mobiel is, is onze gedeelde zorg. De voorbije jaren realiseerden we al 51 veilige schoolomgevingen. Door onze infrastructuur toegankelijker te maken, open te staan voor evaluaties en suggesties van inwoners en te bestraffen waar het moet, maken we onze Stad en deelgemeenten beter bereikbaar. We willen de auto echter niet verbannen, om de bereikbaarheid van woningen, scholen en onze handelaars te garanderen, ook voor minder mobiele mensen. We zetten daarom in op een doordacht verkeerscirculatiebeleid, een verhoging van het fietscomfort en het versterken van het openbaar vervoer. Vernieuwende mobiliteitsconcepten, zoals de 15-minutenstad, zijn hierbij inspirerend. Dat concept gaat overigens breder dan enkel mobiliteit, waarbij bewoners op 15 minuten wandelen of fietsen toegang hebben tot essentiële functies: winkelen, kantoren, scholen, gezondheidszorg, sport, cultuur en ontspanning.",
+    "ac_code": "AP-1.3_ACT-12417",
+    "ac_short": "Investeren in een inclusief en duurzaam openbaar vervoersaan",
+    "ac_long": "De Stad versterkt het openbaar vervoersaanbod door in te zetten op betaalbaarheid, bereikbaarheid en duurzaamheid. Jongeren worden ondersteund via een tussenkomst in het Buzzy Pazz-abonnement, en voor inwoners met financiële moeilijkheden zijn vervoercheques beschikbaar via de vrijetijdspas. In samenwerking met De Lijn en NMBS wordt de ontsluiting van het stadsnet verder verbeterd met Hoppinpunten en toegankelijke haltes.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 583750.0,
+    "amount_per_capita": 8.55,
+    "yearly_amounts": {
+      "2026": 198750.0,
+      "2027": 160000.0,
+      "2028": 125000.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.91,
+      "2027": 2.34,
+      "2028": 1.83,
+      "2029": 1.46,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.17",
+    "ap_short": "Bruisende stad - Iedereen beweegt",
+    "ap_long": "Iedereen kent Roeselare als de stad der wereldkampioenen, de knipoog naar Freddy Maertens, Benoni Beheydt, Jean-Pierre Monseré en Patrick Sercu. Het verleden koesteren is schoon, maar nog mooier is om als stad de weg te plaveien voor de sportieveling van vandaag en die van de toekomst. Roeselare kent meer dan 300 sportverenigingen, topsportploegen en professionele atleten. De voorbije jaren hebben we volop geïnvesteerd in bijkomende infrastructuur (kunstgrasvelden, sport- en recreatiesite Oekene, polyvalente sporthal Stedelijke Basisschool De Brug, sporthal Onze Kinderen,...) en sportaanbod voor alle leeftijden op een gedifferentieerde, laagdrempelige en flankerende wijze.",
+    "ac_code": "AP-3.17_ACT-12605",
+    "ac_short": "Optimaliseren van het ruimtegebruik van KSV De Ruiter",
+    "ac_long": "Het geactualiseerde Masterplan Sportinfrastructuur krijgt uitvoering. Eén van de projecten betreft het optimaliseren van het ruimtegebruik van KSV De Ruiter.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 7.32,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 300000.0,
+      "2029": 200000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 4.39,
+      "2029": 2.93,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.17",
+    "ap_short": "Bruisende stad - Iedereen beweegt",
+    "ap_long": "Iedereen kent Roeselare als de stad der wereldkampioenen, de knipoog naar Freddy Maertens, Benoni Beheydt, Jean-Pierre Monseré en Patrick Sercu. Het verleden koesteren is schoon, maar nog mooier is om als stad de weg te plaveien voor de sportieveling van vandaag en die van de toekomst. Roeselare kent meer dan 300 sportverenigingen, topsportploegen en professionele atleten. De voorbije jaren hebben we volop geïnvesteerd in bijkomende infrastructuur (kunstgrasvelden, sport- en recreatiesite Oekene, polyvalente sporthal Stedelijke Basisschool De Brug, sporthal Onze Kinderen,...) en sportaanbod voor alle leeftijden op een gedifferentieerde, laagdrempelige en flankerende wijze.",
+    "ac_code": "AP-3.17_ACT-12606",
+    "ac_short": "Verder investeren in sportprikkels op het openbaar domein",
+    "ac_long": "De Stad wil aan elke inwoner van Roeselare sportkansen bieden. Ze zet daarom in op het onderhoud van bestaande sportprikkels zoals de Finse piste in Rumbeke en investeert verder in nieuwe publiek toegankelijke sportprikkels op het openbaar domein, zoals petanqueterreinen, toestellen voor urban sports en fitness,...",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 408000.0,
+    "amount_per_capita": 5.98,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 178000.0,
+      "2028": 110000.0,
+      "2029": 0,
+      "2030": 60000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.88,
+      "2027": 2.61,
+      "2028": 1.61,
+      "2029": 0,
+      "2030": 0.88,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.7",
+    "ap_short": "Aantrekkelijke woon-en leefstad- Stadsontwikkelingsprojecten",
+    "ap_long": "Na de duurzame verbouwing van het stadhuis in de vorige bestuursperiode, richt de Stad haar blik nu op cultuur en stadsvernieuwing. De culturele driehoek met De Spil, AcademiePlus en Villa Vandewalle groeit uit tot één sterke Kunstensite: een plek waar kunst en creativiteit samenkomen. Daarnaast werkt Stad Roeselare de komende zes jaar, samen met diverse partners, aan gerichte en haalbare stadsontwikkelingsprojecten. Denk aan de noordelijke stationsomgeving, de zone tussen het Sterrebos en het Bergmolenbos en de site Schiervelde. Tegelijk bereiden we nieuwe projecten voor in en rond de Ronde Kom en in Krottegem.",
+    "ac_code": "AP-3.7_ACT-12329",
+    "ac_short": "Realiseren van het subsidiedossier 'Van grensruimte naar Ste",
+    "ac_long": "Roeselare tekende in 2022 in op de thematische stadsvernieuwingsprojecten van de Vlaamse overheid met het project 'Van grensruimte naar stedelijk salon: de stationsomgeving als verbinder tussen twee gescheiden stadsdelen'. Het dossier werd positief beoordeeld voor een projectsubsidie ter waarde van 246.000 euro. De ambitie is om de leegstand en de omgeving aan te pakken door beleving en groen aan te brengen in en rond het gebouw. Concreet wordt er buiten en binnen extra groen voorzien, een gespreksruimte, een belevingsruimte voor jongeren, een educatieruimte rond cybercriminaliteit, en extra verlichting.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 359384.05,
+    "amount_per_capita": 5.26,
+    "yearly_amounts": {
+      "2026": 359384.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-12533",
+    "ac_short": "Uitvoeren van rioleringswerken in de Kerselaardreef",
+    "ac_long": "De aanleg van een gescheiden rioleringsstelsel en de heraanleg van het wegdek in de Kerselaarsdreef wordt gerealiseerd met dit project.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 352000.0,
+    "amount_per_capita": 5.16,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 35200.0,
+      "2028": 105600.0,
+      "2029": 105600.0,
+      "2030": 105600.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.52,
+      "2028": 1.55,
+      "2029": 1.55,
+      "2030": 1.55,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.3",
+    "ap_short": "Toegankelijke stad",
+    "ap_long": "De veiligheid van onze fietsers, voetgangers, kinderen en wie minder mobiel is, is onze gedeelde zorg. De voorbije jaren realiseerden we al 51 veilige schoolomgevingen. Door onze infrastructuur toegankelijker te maken, open te staan voor evaluaties en suggesties van inwoners en te bestraffen waar het moet, maken we onze Stad en deelgemeenten beter bereikbaar. We willen de auto echter niet verbannen, om de bereikbaarheid van woningen, scholen en onze handelaars te garanderen, ook voor minder mobiele mensen. We zetten daarom in op een doordacht verkeerscirculatiebeleid, een verhoging van het fietscomfort en het versterken van het openbaar vervoer. Vernieuwende mobiliteitsconcepten, zoals de 15-minutenstad, zijn hierbij inspirerend. Dat concept gaat overigens breder dan enkel mobiliteit, waarbij bewoners op 15 minuten wandelen of fietsen toegang hebben tot essentiële functies: winkelen, kantoren, scholen, gezondheidszorg, sport, cultuur en ontspanning.",
+    "ac_code": "AP-1.3_ACT-12618",
+    "ac_short": "Realiseren van een bovengrondse fietsenstalling",
+    "ac_long": "Om het fietsgebruik verder te stimuleren en het comfort voor fietsers te verhogen, voorziet de Stad bijkomende fietsrekken voor evenementen en een extra bovengrondse fietsenstalling.\nDeze investering vergroot de capaciteit voor veilige en toegankelijke fietsparkeerplaatsen en ondersteunt zo duurzame verplaatsingen binnen de stad.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 325000.0,
+    "amount_per_capita": 4.76,
+    "yearly_amounts": {
+      "2026": 325000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.76,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.1",
+    "ap_short": "Klimaatswitch #VANRSL - Naar 200.000 bomen",
+    "ap_long": "Na de realisatie van 100.000 bomen in de vorige legislatuur, gaan we verder op de ingeslagen weg en planten we ook deze bestuursperiode 100.000 bomen in de stadsrandbossen, tuinen, straten en op pleinen. Niet alleen méér groen, maar ook béter groen. In Roeselare investeren we in het behoud en de opwaardering van het bestaande groen. We volgen het bomenbestand actief op en grijpen in waar nodig - om bomen langer gezond te houden en hun levensduur te verlengen. Tegelijk bouwen we het groenarsenaal in de stad verder uit, in afstemming met andere beleidsdomeinen zoals stadsontwikkeling, publieke ruimte en mobiliteit. De principes van een groenblauwe stad vormen daarbij een duidelijke rode draad. Zoals veel steden kampt ook Roeselare met een stedelijk hitte-eiland. Dat blijkt ook uit ons klimaatadaptatieplan met de hittekaart. Hittestress zorgt voor minder wooncomfort en is slecht voor de gezondheid. Daarom zetten we volop in op oplossingen zoals schaduw creëren en oppervlakken vergroenen om hitte te ondervangen.",
+    "ac_code": "AP-3.1_ACT-12525",
+    "ac_short": "Samen met derden werken aan een kwalitatieve groene stad",
+    "ac_long": "De Stad bouwt, samen met natuur- en milieuverenigingen, aan een groene en gezonde leefomgeving waar bewoners zich thuis voelen.\nVolkstuinen worden vernieuwd en speelplaatsen vergroend, zodat kinderen en gezinnen opnieuw dagelijks in contact komen met natuur en buitenruimte.\nIn samenwerking met het Regionaal Landschap t West-Vlaamse Hart ontstaan educatieve initiatieven die jong en oud leren hoe natuur en biodiversiteit onze stad leefbaar houden.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 256546.77,
+    "amount_per_capita": 3.76,
+    "yearly_amounts": {
+      "2026": 73831.77,
+      "2027": 40543.0,
+      "2028": 40543.0,
+      "2029": 40543.0,
+      "2030": 40543.0,
+      "2031": 20543.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.08,
+      "2027": 0.59,
+      "2028": 0.59,
+      "2029": 0.59,
+      "2030": 0.59,
+      "2031": 0.3
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.3",
+    "ap_short": "Toegankelijke stad",
+    "ap_long": "De veiligheid van onze fietsers, voetgangers, kinderen en wie minder mobiel is, is onze gedeelde zorg. De voorbije jaren realiseerden we al 51 veilige schoolomgevingen. Door onze infrastructuur toegankelijker te maken, open te staan voor evaluaties en suggesties van inwoners en te bestraffen waar het moet, maken we onze Stad en deelgemeenten beter bereikbaar. We willen de auto echter niet verbannen, om de bereikbaarheid van woningen, scholen en onze handelaars te garanderen, ook voor minder mobiele mensen. We zetten daarom in op een doordacht verkeerscirculatiebeleid, een verhoging van het fietscomfort en het versterken van het openbaar vervoer. Vernieuwende mobiliteitsconcepten, zoals de 15-minutenstad, zijn hierbij inspirerend. Dat concept gaat overigens breder dan enkel mobiliteit, waarbij bewoners op 15 minuten wandelen of fietsen toegang hebben tot essentiële functies: winkelen, kantoren, scholen, gezondheidszorg, sport, cultuur en ontspanning.",
+    "ac_code": "AP-1.3_ACT-12297",
+    "ac_short": "Uitvoeren van een mobiliteitsstudie in het centrum",
+    "ac_long": "De mobiliteitsstudie in het centrum zal een kapstok bieden voor de verdere toekomstige ontwikkeling van de stad. Het moet een antwoord bieden op de mobiliteitsuitdagingen van de stad, rekening houdend met o.a. de groei van de stad, klimaatdoelstellingen,... Ruimte voor stappers en trappers, ruimte voor beleving, ontmoeting, vlotte bereikbaarheid van het centrum voor wie er een bestemming heeft, verkeersveiligheid, leefbaarheid van het centrum, mobiliteitsswitch,... zullen centraal staan in de studie. De studie wordt verder ook participatief uitgewerkt.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 3.66,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 150000.0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.73,
+      "2028": 2.2,
+      "2029": 0.73,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.3",
+    "ap_short": "Toegankelijke stad",
+    "ap_long": "De veiligheid van onze fietsers, voetgangers, kinderen en wie minder mobiel is, is onze gedeelde zorg. De voorbije jaren realiseerden we al 51 veilige schoolomgevingen. Door onze infrastructuur toegankelijker te maken, open te staan voor evaluaties en suggesties van inwoners en te bestraffen waar het moet, maken we onze Stad en deelgemeenten beter bereikbaar. We willen de auto echter niet verbannen, om de bereikbaarheid van woningen, scholen en onze handelaars te garanderen, ook voor minder mobiele mensen. We zetten daarom in op een doordacht verkeerscirculatiebeleid, een verhoging van het fietscomfort en het versterken van het openbaar vervoer. Vernieuwende mobiliteitsconcepten, zoals de 15-minutenstad, zijn hierbij inspirerend. Dat concept gaat overigens breder dan enkel mobiliteit, waarbij bewoners op 15 minuten wandelen of fietsen toegang hebben tot essentiële functies: winkelen, kantoren, scholen, gezondheidszorg, sport, cultuur en ontspanning.",
+    "ac_code": "AP-1.3_ACT-12611",
+    "ac_short": "Realiseren van een beleidsvisie trage wegen",
+    "ac_long": "Trage wegen vormen een belangrijk netwerk voor veilige en duurzame verplaatsingen te voet of met de fiets. Ze verhogen bovendien de verkeersveiligheid, versterken de beleving van het landschap en bieden extra kansen voor ontspanning en recreatie.\nDoor deze wegen systematisch in kaart te brengen en hun gebruik te faciliteren, wil de Stad een duidelijk beleid ontwikkelen rond trage wegen. Het uiteindelijke doel is om dit beleid ook effectief om te zetten in de praktijk, zodat trage wegen een volwaardige plaats krijgen binnen het ruimere mobiliteitsbeleid.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 3.66,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.37,
+      "2027": 0.37,
+      "2028": 0.73,
+      "2029": 0.73,
+      "2030": 0.73,
+      "2031": 0.73
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.3",
+    "ap_short": "De kracht van onze buurten - Krachtige wijkwerking",
+    "ap_long": "De Stad versterkt het samenleven in de wijken met ruimte voor ontmoeting, gedeeld beheer en betrokkenheid van onderuit. We ondersteunen wijkhuizen, initiatieven van bewoners, buurtveiligheid en preventie, en maken middelen vrij voor projecten die het verschil maken in de buurt. Zo bouwen we verder aan sterke netwerken, nabijheid en vertrouwen in elke wijk.",
+    "ac_code": "AP-2.3_ACT-12451",
+    "ac_short": "Opmaken van een gericht onderhouds- en investeringsprogramma",
+    "ac_long": "De Stad erkent de verenigende kracht van de vele activiteiten en vrijwilligers in de kerkgebouwen. Daarom maakt de Stad dan ook werk van een gericht onderhouds- en investeringsprogramma via de kerkfabrieken.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 241625.0,
+    "amount_per_capita": 3.54,
+    "yearly_amounts": {
+      "2026": 73625.0,
+      "2027": 120000.0,
+      "2028": 18000.0,
+      "2029": 0,
+      "2030": 30000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.08,
+      "2027": 1.76,
+      "2028": 0.26,
+      "2029": 0,
+      "2030": 0.44,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.5",
+    "ap_short": "Iedereen #VANRSL - Iedereen telt mee",
+    "ap_long": "We zorgen ervoor dat iedereen zijn plek kan vinden in de stad en er zich thuis voelt. Als warme Stad engageert Roeselare zich voor een sterk flankerend en transversaal beleid.",
+    "ac_code": "AP-2.5_ACT-12473",
+    "ac_short": "Invoeren van verplichte conformiteitsattesten bij huurwoning",
+    "ac_long": "Stad Roeselare voert een gefaseerde uitbreiding in van het conformiteitsattest naar alle huurwoningen op haar grondgebied. Zo wordt de woningkwaliteit structureel gemonitord en gehandhaafd. Tegelijk stimuleert de Stad verhuurders om hun woningen energetisch te renoveren en biedt ze ondersteuning om dat proces te vergemakkelijken.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 240000.0,
+    "amount_per_capita": 3.52,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 80000.0,
+      "2028": 80000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.17,
+      "2027": 1.17,
+      "2028": 1.17,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.15",
+    "ap_short": "Bruisende stad - Iedereen cultuurmaker",
+    "ap_long": "Onze cultureel ambassadeurs, ons rijke verenigingsleven, de Rodenbachfeesten, TRAX en De Spil, de reuzen, onze stad barst van het talent. Deze creativiteit geven we verder alle kansen!",
+    "ac_code": "AP-3.15_ACT-12596",
+    "ac_short": "Verder beschermen en ontsluiten van de parkbegraafplaats als",
+    "ac_long": "Er wordt gestreefd naar een bescherming van een deel van de Oude Stedelijke Begraafplaats en het erfgoed wordt (als erfgoedparel) verder ontsloten voor het grote publiek.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 2.64,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 70000.0,
+      "2028": 10000.0,
+      "2029": 70000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.15,
+      "2027": 1.03,
+      "2028": 0.15,
+      "2029": 1.03,
+      "2030": 0.15,
+      "2031": 0.15
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.17",
+    "ap_short": "Bruisende stad - Iedereen beweegt",
+    "ap_long": "Iedereen kent Roeselare als de stad der wereldkampioenen, de knipoog naar Freddy Maertens, Benoni Beheydt, Jean-Pierre Monseré en Patrick Sercu. Het verleden koesteren is schoon, maar nog mooier is om als stad de weg te plaveien voor de sportieveling van vandaag en die van de toekomst. Roeselare kent meer dan 300 sportverenigingen, topsportploegen en professionele atleten. De voorbije jaren hebben we volop geïnvesteerd in bijkomende infrastructuur (kunstgrasvelden, sport- en recreatiesite Oekene, polyvalente sporthal Stedelijke Basisschool De Brug, sporthal Onze Kinderen,...) en sportaanbod voor alle leeftijden op een gedifferentieerde, laagdrempelige en flankerende wijze.",
+    "ac_code": "AP-3.17_ACT-12603",
+    "ac_short": "Opfrissen en toegankelijker maken van het sportpark van Rumb",
+    "ac_long": "Het geactualiseerde Masterplan Sportinfrastructuur krijgt uitvoering. Eén van de projecten betreft het optimaliseren van het Sportpark Rumbeke. Concreet worden de kleedkamers gebouwtechnisch onderhouden en wordt de site toegankelijker gemaakt d.m.v. een lift en een optimalere inrichting van de parking.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 2.64,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 160000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.29,
+      "2028": 2.34,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.4",
+    "ap_short": "Iedereen #VANRSL - Onze kinderen voorop",
+    "ap_long": "Eén op vijf kinderen groeit in Roeselare op in kansarmoede, één op zes inwoners heeft een verhoogde tegemoetkoming, 10,7% van de Roeselaarse gezinnen ervaart betalingsmoeilijkheden en 3% van de gebruikers van kinderopvang ervaart moeilijkheden om de facturen te betalen. Niet alleen het aantal hulpvragers wordt groter, ook de complexiteit en diversiteit van problematieken stijgt. De nood aan een structureel beleid op bovenlokaal niveau dat mensen duurzaam helpt (zoals sociale zekerheid, tewerkstellingsbeleid, onderwijsbeleid en wonen) spreekt voor zich.",
+    "ac_code": "AP-2.4_ACT-12464",
+    "ac_short": "Inzetten op ontharding en meer speelruimte in stedelijke bas",
+    "ac_long": "Om water beter te laten infiltreren, hittestress te verminderen en kinderen meer natuurlijke speelruimte te geven, zette de Stad al eerder in op de ontharding van speelplaatsen (zoals SBS De Brug). Dit wordt verdergezet in deze legislatuur op onder andere de speelplaats van SBS De Octopus. Ook wordt ingezet op meer speelruimte op de speelplaats van SBS De Vlieger.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 175000.0,
+    "amount_per_capita": 2.56,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 150000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.37,
+      "2028": 0,
+      "2029": 2.2,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-11736",
+    "ac_short": "Kazandstraat - Realiseren van prioritaire wegeniswerken",
+    "ac_long": "Het project heeft tot doel de zeer slechte staat van de weg aan te pakken, de waterhuishouding te verbeteren en een gescheiden rioleringsstelsel aan te leggen. Tegelijk zal een gepaste herinrichting i.f.v. de mobiliteit worden gerealiseerd.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 164032.12,
+    "amount_per_capita": 2.4,
+    "yearly_amounts": {
+      "2026": 164032.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.4,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.14",
+    "ap_short": "Bruisende stad - Stad om te ontdekken",
+    "ap_long": "De versterkte citymarketing-ambitie, het evenementen- en belevingsaanbod binnen de drie speerpunten van de Stad (shopping, voeding en KOERS) en de oprichting van een Handels-, Evenementen- en Toerismehub wil het toerisme in onze stad (na de inhaalbeweging van de laatste jaren) een verdere boost geven. De toeristische ontsluiting van Roeselare was goed voor 75.159 overnachtingen in 2023 en verhoogde bezoekcijfers. De klankbordgroep toerisme is hierbij een waardevolle partner.",
+    "ac_code": "AP-3.14_ACT-12583",
+    "ac_short": "Voorzien van een camperterrein op site Schiervelde",
+    "ac_long": "Op site Schiervelde wordt een camperterrein met faciliteiten gerealiseerd. Hiermee speelt de Stad in op de stijging in het campertoerisme en vult de Stad een blinde vlek in, in West-Vlaanderen.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 2.2,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.2,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.7",
+    "ap_short": "Aantrekkelijke woon-en leefstad- Stadsontwikkelingsprojecten",
+    "ap_long": "Na de duurzame verbouwing van het stadhuis in de vorige bestuursperiode, richt de Stad haar blik nu op cultuur en stadsvernieuwing. De culturele driehoek met De Spil, AcademiePlus en Villa Vandewalle groeit uit tot één sterke Kunstensite: een plek waar kunst en creativiteit samenkomen. Daarnaast werkt Stad Roeselare de komende zes jaar, samen met diverse partners, aan gerichte en haalbare stadsontwikkelingsprojecten. Denk aan de noordelijke stationsomgeving, de zone tussen het Sterrebos en het Bergmolenbos en de site Schiervelde. Tegelijk bereiden we nieuwe projecten voor in en rond de Ronde Kom en in Krottegem.",
+    "ac_code": "AP-3.7_ACT-12553",
+    "ac_short": "Voorbereiden van de transformatie van de omgeving van de Ron",
+    "ac_long": "De Stad bereidt de transformatie van de omgeving rond de Ronde Kom en het Kleine Bassin voor tot een samenhangend groenblauw stadsdeel. In combinatie met het Moermanpark, de verhuis van WZC Ter Berken en de herontwikkeling van Barnum-VISO ontstaat een aaneengesloten Moermanpark XL. Dit gebied wordt een nieuwe stedelijke kern waar wonen, werken en gemeenschapsvoorzieningen samenkomen. Tegelijk wordt gewerkt aan een groene, trage verbinding tussen de verschillende zones. De studiefase voor deze transformatie wordt in deze legislatuur afgerond.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 2.2,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 150000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2.2,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.3",
+    "ap_short": "Klimaatswitch #VANRSL - Slimme energie",
+    "ap_long": "Het plan 'Klimaatswitch #VANRSL' zet in op lokaal opgewekte hernieuwbare energie. Dit moet de stad minder afhankelijk maken van prijsschommelingen op internationale markten en de luchtkwaliteit verbeteren. Roeselare is sinds 2017 lid van het Europese Burgemeestersconvenant met ambitieuze klimaatdoelstellingen: 55% reductie van de broeikasgassen tegen 2030 en klimaatneutraliteit tegen 2050. Het klimaatplan van Roeselare richt zich hierbij op individuele en collectieve warmteoplossingen (zoals het warmtenet), het opwekken van eigen elektriciteit en via doorgedreven renovatie het energiegebruik beheersen.",
+    "ac_code": "AP-3.3_ACT-12275",
+    "ac_short": "Uitvoeren van het klimaatpact",
+    "ac_long": "Stad Roeselare stapt in het Vlaams \"Lokaal Energie- en Klimaatpact\" eind oktober 2021. Hieraan hangen engagementen vast met betrekking tot vergroening, water, mobiliteit, (duurzame) energie en C02 reductie. Vanaf 2021 tot 2030 zal er naar deze engagementen gestuurd worden in lijn met het Roeselaars klimaatprogramma. Deze engagementen zijn budgetneutraal.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 140000.0,
+    "amount_per_capita": 2.05,
+    "yearly_amounts": {
+      "2026": 140000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.3",
+    "ap_short": "De kracht van onze buurten - Krachtige wijkwerking",
+    "ap_long": "De Stad versterkt het samenleven in de wijken met ruimte voor ontmoeting, gedeeld beheer en betrokkenheid van onderuit. We ondersteunen wijkhuizen, initiatieven van bewoners, buurtveiligheid en preventie, en maken middelen vrij voor projecten die het verschil maken in de buurt. Zo bouwen we verder aan sterke netwerken, nabijheid en vertrouwen in elke wijk.",
+    "ac_code": "AP-2.3_ACT-12446",
+    "ac_short": "Verder onderhouden van OCAR",
+    "ac_long": "Voor de podiumkunstenverenigingen wordt zaal OCAR in Rumbeke speel- en gebruiksvriendelijker gemaakt door het ombouwen van de theaterverlichting (verledding) en een betere dakisolatie. De Stad neemt specifieke onderhoudskosten ten laste om de werking te garanderen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 138000.0,
+    "amount_per_capita": 2.02,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 13000.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.37,
+      "2028": 0.19,
+      "2029": 1.46,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.14",
+    "ap_short": "Bruisende stad - Stad om te ontdekken",
+    "ap_long": "De versterkte citymarketing-ambitie, het evenementen- en belevingsaanbod binnen de drie speerpunten van de Stad (shopping, voeding en KOERS) en de oprichting van een Handels-, Evenementen- en Toerismehub wil het toerisme in onze stad (na de inhaalbeweging van de laatste jaren) een verdere boost geven. De toeristische ontsluiting van Roeselare was goed voor 75.159 overnachtingen in 2023 en verhoogde bezoekcijfers. De klankbordgroep toerisme is hierbij een waardevolle partner.",
+    "ac_code": "AP-3.14_ACT-12579",
+    "ac_short": "Realiseren van een uitkijktoren met expo over het industriee",
+    "ac_long": "De Kop van de Vaart krijgt er een permanent toeristisch product bij met de ontwikkeling van de uitkijktoren in een oude graansilo. Het project kadert binnen de subsidielijn Horizon 2025 en wordt uitgevoerd in samenwerking met Maselis als eigenaar en bouwheer. Daarnaast grijpt de Stad dit momentum aan als hefboom om in de toren een expositie te realiseren die het verhaal vertelt van het industrieel (haven)erfgoed van Roeselare en bij uitbreiding het Kanaal Roeselare-Leie.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 115976.0,
+    "amount_per_capita": 1.7,
+    "yearly_amounts": {
+      "2026": 75976.0,
+      "2027": 0,
+      "2028": 40000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.11,
+      "2027": 0,
+      "2028": 0.59,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.1",
+    "ap_short": "Veilige stad",
+    "ap_long": "Een veilige stad blijft een topprioriteit. De Roeselarenaar maakt zich volgens recent onderzoek het meest zorgen over snelheidsduivels, sluikstorten, zwerfvuil en overlastsituaties die het onveiligheidsgevoel voeden. Zoals in andere steden duiken ook in Roeselare nieuwe soorten synthetische drugs op die mensen en op sommige plaatsen het straatbeeld ontwrichten. Dit willen we krachtdadig aanpakken met respect voor de volledige veiligheidsketen van preventie, hulpverlening en repressie.",
+    "ac_code": "AP-1.1_ACT-12619",
+    "ac_short": "Uitvoeren van een volumestudie van de brandweerkazerne",
+    "ac_long": "De Stad voert een volumestudie uit met het oog op een nieuwe brandweerkazerne.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 1.46,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 1.46
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.14",
+    "ap_short": "Bruisende stad - Stad om te ontdekken",
+    "ap_long": "De versterkte citymarketing-ambitie, het evenementen- en belevingsaanbod binnen de drie speerpunten van de Stad (shopping, voeding en KOERS) en de oprichting van een Handels-, Evenementen- en Toerismehub wil het toerisme in onze stad (na de inhaalbeweging van de laatste jaren) een verdere boost geven. De toeristische ontsluiting van Roeselare was goed voor 75.159 overnachtingen in 2023 en verhoogde bezoekcijfers. De klankbordgroep toerisme is hierbij een waardevolle partner.",
+    "ac_code": "AP-3.14_ACT-12578",
+    "ac_short": "Realiseren van een Rodenbachuur",
+    "ac_long": "Er wordt een Rodenbachuur uitgewerkt die in het toerisme-aanbod kan opgenomen worden. Dit draagt bij aan de aantrekkelijkheid van de stad.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 1.46,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 1.46
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.15",
+    "ap_short": "Bruisende stad - Iedereen cultuurmaker",
+    "ap_long": "Onze cultureel ambassadeurs, ons rijke verenigingsleven, de Rodenbachfeesten, TRAX en De Spil, de reuzen, onze stad barst van het talent. Deze creativiteit geven we verder alle kansen!",
+    "ac_code": "AP-3.15_ACT-12588",
+    "ac_short": "Verderzetten van de aankoop en restauratie van kunstwerken",
+    "ac_long": "De aankoop en restauratie van kunstwerken wordt verdergezet. Dit draagt bij aan de aantrekkelijkheid van de stad.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 1.46,
+    "yearly_amounts": {
+      "2026": 16500.0,
+      "2027": 16500.0,
+      "2028": 16500.0,
+      "2029": 16500.0,
+      "2030": 16500.0,
+      "2031": 17500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.24,
+      "2027": 0.24,
+      "2028": 0.24,
+      "2029": 0.24,
+      "2030": 0.24,
+      "2031": 0.26
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.2",
+    "ap_short": "Klimaatswitch #VANRSL - Water en droogte",
+    "ap_long": "Het veranderende klimaat zorgt wereldwijd én in Roeselare voor grote uitdagingen. Het Hemelwater-, Droogte- en Klimaatadaptatieplan vormt de basis voor concrete acties rond waterveiligheid en droogte. Door de ligging in de Mandelvallei is het stadscentrum extra kwetsbaar voor wateroverlast. De verharding en ingekokerde waterlopen zorgen ervoor dat regenwater moeilijk weg kan. De overstromingen van 2016 toonden de ernst van dit probleem aan. We willen dit nooit opnieuw zien gebeuren. De voorbije jaren investeerden we fors in waterbufferbekkens, rioleringen en infrastructuur. Die werken helpen ons niet alleen te beschermen tegen wateroverlast, maar ondersteunen ook landbouwers via watercaptatie. De komende jaren blijven we inzetten op waterbeheer, waterkwaliteit en slimme monitoring. Voor de waterkwaliteit werken we samen met De Watergroep. Zij innen saneringsbijdragen en gebruiken die voor infrastructuur. Stad Roeselare zet deze middelen slim en transparant in, met het oog op maximale impact. We engageren ons om de Vlaamse reductiedoelen te realiseren en blijven afvalwater aan de ene kant en regenwater en onze waterlopen aan de andere kant, zorgvuldig van elkaar scheiden.",
+    "ac_code": "AP-3.2_ACT-12390",
+    "ac_short": "Uitvoeren van het European Urban Initiative project Cooling",
+    "ac_long": "Het Cooling Havens project is gericht op het aanpakken van klimaatuitdagingen zoals extreme hitte en wateroverlast. In Athene, waar meer dan 80% van de stad bestaat uit ondoordringbare oppervlakken, stelt dit project voor om wijkgerichte, watergedreven installaties te plaatsen. Deze installaties dienen niet alleen voor verkoeling en nieuwe groene en blauwe infrastructuur, maar ook als educatieve en sociale ontmoetingsplekken. Dit draagt bij aan het bewustzijn rond waterbeheer en versterkt de integratie van water in het stadsleven. \nAls transfer partner kan Roeselare kennis en inzichten toepassen om de eigen klimaatadaptieve ambities, zoals het klimaatadaptatieplan, te versterken en te linken met vergroenings-, en onthardingsprojecten binnen de stad.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 1.32,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 60000.0,
+      "2028": 30000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.88,
+      "2028": 0.44,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.3",
+    "ap_short": "Toegankelijke stad",
+    "ap_long": "De veiligheid van onze fietsers, voetgangers, kinderen en wie minder mobiel is, is onze gedeelde zorg. De voorbije jaren realiseerden we al 51 veilige schoolomgevingen. Door onze infrastructuur toegankelijker te maken, open te staan voor evaluaties en suggesties van inwoners en te bestraffen waar het moet, maken we onze Stad en deelgemeenten beter bereikbaar. We willen de auto echter niet verbannen, om de bereikbaarheid van woningen, scholen en onze handelaars te garanderen, ook voor minder mobiele mensen. We zetten daarom in op een doordacht verkeerscirculatiebeleid, een verhoging van het fietscomfort en het versterken van het openbaar vervoer. Vernieuwende mobiliteitsconcepten, zoals de 15-minutenstad, zijn hierbij inspirerend. Dat concept gaat overigens breder dan enkel mobiliteit, waarbij bewoners op 15 minuten wandelen of fietsen toegang hebben tot essentiële functies: winkelen, kantoren, scholen, gezondheidszorg, sport, cultuur en ontspanning.",
+    "ac_code": "AP-1.3_ACT-12418",
+    "ac_short": "Actualiseren van het parkeerbeleid en onderzoeken van een ni",
+    "ac_long": "Samen met NV Parkeren wordt het parkeerbeleid geactualiseerd om het gebruiksvriendelijk en toekomstgericht te houden. De voordelen voor bewoners, bezoekers en zorgverstrekkers worden behouden en er wordt een elektrische scanwagen ingezet voor efficiënter toezicht en betere data. Tegelijk wordt de realisatie van een nieuwe centrumparking onderzocht om de groei van de binnenstad te ondersteunen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 85000.0,
+    "amount_per_capita": 1.25,
+    "yearly_amounts": {
+      "2026": 70000.0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.03,
+      "2027": 0.22,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.12",
+    "ap_short": "Slimme stad",
+    "ap_long": "Naast een fysiek stadhuis heeft de Stad de afgelopen jaren ook grote stappen gezet in het digitale stadhuis met de Roeselare App en het 'Mijn Roeselare-profiel' als extra digitale contactpunten voor de burgers. Met het Urban Sense platform, dat Roeselare samen met Brugge en Leuven heeft uitgebouwd, realiseert de Stad intussen ook projecten zoals Rainbrain, waarmee de Stad op slimme wijze kan inspelen op wateroverlast en droogte. De realisatie van het digitaal communicatieschild met o.a. de LED-borden in het straatbeeld, maken van de digitale technologie ook een speerpunt in de communicatiestrategie. Dankzij de awards en subsidies die de voorbije legislatuur werden binnengehaald, kon de Stad veel van de ambities realiseren. Het blijft belangrijk hier verder op in te zetten. Niet enkel om financiële redenen, maar ook om blijvend ambitieuze profielen binnen te halen in de steeds krapper wordende arbeidsmarkt.",
+    "ac_code": "AP-3.12_ACT-12565",
+    "ac_short": "Verder bouwen aan de fundamenten van het digitale stadhuis",
+    "ac_long": "Stad Roeselare versterkt de bestaande ICT-fundamenten waarop het digitale stadhuis rust.\nDe focus ligt op het verder uitbouwen van een stabiele, veilige en toekomstgerichte digitale infrastructuur.\nDaarbij worden de nodige investeringsmiddelen voorzien om de digitale dienstverlening, gegevensuitwisseling en automatisering duurzaam te ondersteunen. Zo blijft het digitale stadhuis de motor van een efficiënte en gebruiksvriendelijke stadsorganisatie.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 1.17,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.29,
+      "2027": 0.29,
+      "2028": 0.15,
+      "2029": 0.15,
+      "2030": 0.15,
+      "2031": 0.15
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.17",
+    "ap_short": "Bruisende stad - Iedereen beweegt",
+    "ap_long": "Iedereen kent Roeselare als de stad der wereldkampioenen, de knipoog naar Freddy Maertens, Benoni Beheydt, Jean-Pierre Monseré en Patrick Sercu. Het verleden koesteren is schoon, maar nog mooier is om als stad de weg te plaveien voor de sportieveling van vandaag en die van de toekomst. Roeselare kent meer dan 300 sportverenigingen, topsportploegen en professionele atleten. De voorbije jaren hebben we volop geïnvesteerd in bijkomende infrastructuur (kunstgrasvelden, sport- en recreatiesite Oekene, polyvalente sporthal Stedelijke Basisschool De Brug, sporthal Onze Kinderen,...) en sportaanbod voor alle leeftijden op een gedifferentieerde, laagdrempelige en flankerende wijze.",
+    "ac_code": "AP-3.17_ACT-12608",
+    "ac_short": "Voorzien van de nodige visibiliteit van de sportsites",
+    "ac_long": "De Stad heeft heel wat sportsites. De Stad zet daarom in op de visibiliteit van de sites, zowel voor de gebruiker als voor de bezoeker.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 72000.0,
+    "amount_per_capita": 1.05,
+    "yearly_amounts": {
+      "2026": 12000.0,
+      "2027": 12000.0,
+      "2028": 12000.0,
+      "2029": 12000.0,
+      "2030": 12000.0,
+      "2031": 12000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.18,
+      "2027": 0.18,
+      "2028": 0.18,
+      "2029": 0.18,
+      "2030": 0.18,
+      "2031": 0.18
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.3",
+    "ap_short": "De kracht van onze buurten - Krachtige wijkwerking",
+    "ap_long": "De Stad versterkt het samenleven in de wijken met ruimte voor ontmoeting, gedeeld beheer en betrokkenheid van onderuit. We ondersteunen wijkhuizen, initiatieven van bewoners, buurtveiligheid en preventie, en maken middelen vrij voor projecten die het verschil maken in de buurt. Zo bouwen we verder aan sterke netwerken, nabijheid en vertrouwen in elke wijk.",
+    "ac_code": "AP-2.3_ACT-12450",
+    "ac_short": "Ombouwen van de KOERSbus tot mobiele ontmoetingsplaats in de",
+    "ac_long": "De KOERSbus wordt omgebouwd tot mobiele ontmoetings- en werkplaats voor activiteiten die verbinding en samenleven in de wijken versterken, dit vanuit een vindplaatsgerichte insteek. Er wordt op voorhand een reiskalender gemaakt met locaties en timings, zodat de bus voldoende lang op een plek kan staan. De bus kan dienen als werkplaats voor wijkwerkers (of ander stadspersoneel) en kan gebruikt worden door partners en wijkcomités voor activiteiten die aansluiten bij het doel.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 0.88,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 2",
+    "bd_short": "BD-2",
+    "bd_long": "Samen voor Roeselare",
+    "ap_code": "AP-2.8",
+    "ap_short": "Iedereen #VANRSL - Zilver, jeugdig en diervriendelijk",
+    "ap_long": "In vergelijking met andere centrumsteden telt Roeselare een groeiende groep senioren. In de afgelopen tien jaar was er een sterke toename van 60-79-jarigen en van 80-plussers. Tegen 2040 zal 25% van de Roeselarenaars 65 jaar of ouder zijn. De uitdagingen die de vergrijzing en verzilvering met zich meebrengen, vragen daarom bijzondere aandacht. In 2020 behaalde onze Stad het label van kind- en jeugdvriendelijke stad, dat we ook in de toekomst willen behouden. We willen een stad zijn waar kinderen zorgeloos samen kunnen spelen, jongeren zich gewaardeerd voelen, nieuwe gezinnen betaalbaar kunnen wonen en jonge ondernemers goesting hebben om een eigen zaak te starten. Roeselare is ook een geëngageerde diervriendelijke stad.",
+    "ac_code": "AP-2.8_ACT-12506",
+    "ac_short": "Realiseren van een speelbos in het Bergmolenbos",
+    "ac_long": "In het Bergmolenbos wordt het speelbos verder uitgebreid tot een avontuurlijke plek in het groen. Dit komt tegemoet aan de noden van de jeugd m.b.t. speelplekken in de stad.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 0.88,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 3",
+    "bd_short": "BD-3",
+    "bd_long": "Lef voor Roeselare",
+    "ap_code": "AP-3.14",
+    "ap_short": "Bruisende stad - Stad om te ontdekken",
+    "ap_long": "De versterkte citymarketing-ambitie, het evenementen- en belevingsaanbod binnen de drie speerpunten van de Stad (shopping, voeding en KOERS) en de oprichting van een Handels-, Evenementen- en Toerismehub wil het toerisme in onze stad (na de inhaalbeweging van de laatste jaren) een verdere boost geven. De toeristische ontsluiting van Roeselare was goed voor 75.159 overnachtingen in 2023 en verhoogde bezoekcijfers. De klankbordgroep toerisme is hierbij een waardevolle partner.",
+    "ac_code": "AP-3.14_ACT-12584",
+    "ac_short": "Verder onderzoeken van zwemmen in open lucht op Midwestnivea",
+    "ac_long": "Binnen het Midwestverband wordt de haalbaarheid van openluchtzwemmen verder onderzocht, met aandacht voor veiligheid, milieunormen en de ruimtelijke inpassing in de regio.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 0.73,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.73,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Roeselare",
+    "nis_code": "36015",
+    "bd_code": "BDS 1",
+    "bd_short": "BD-1",
+    "bd_long": "Rust voor Roeselare",
+    "ap_code": "AP-1.3",
+    "ap_short": "Toegankelijke stad",
+    "ap_long": "De veiligheid van onze fietsers, voetgangers, kinderen en wie minder mobiel is, is onze gedeelde zorg. De voorbije jaren realiseerden we al 51 veilige schoolomgevingen. Door onze infrastructuur toegankelijker te maken, open te staan voor evaluaties en suggesties van inwoners en te bestraffen waar het moet, maken we onze Stad en deelgemeenten beter bereikbaar. We willen de auto echter niet verbannen, om de bereikbaarheid van woningen, scholen en onze handelaars te garanderen, ook voor minder mobiele mensen. We zetten daarom in op een doordacht verkeerscirculatiebeleid, een verhoging van het fietscomfort en het versterken van het openbaar vervoer. Vernieuwende mobiliteitsconcepten, zoals de 15-minutenstad, zijn hierbij inspirerend. Dat concept gaat overigens breder dan enkel mobiliteit, waarbij bewoners op 15 minuten wandelen of fietsen toegang hebben tot essentiële functies: winkelen, kantoren, scholen, gezondheidszorg, sport, cultuur en ontspanning.",
+    "ac_code": "AP-1.3_ACT-11278",
+    "ac_short": "Uitbreiden van auto- en fietsoplaadpunten",
+    "ac_long": "Deze actie omhelst de verdere uitrol van de elektrische laadinfrastructuur. Dit omvat de opmaak van situeringsplannen van publiek toegankelijke laadpalen, rekening houdend met heraanleg/herinrichtingsprojecten op openbaar domein, door de Stad.\nFluvius organiseert een overheidsopdracht voor het leveren, plaatsen en uitbaten van de laadpalen.\nDe Stad dient enkel de kosten van signalisatie en herinrichting openbaar domein op zich te nemen.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 12949.0,
+    "amount_per_capita": 0.19,
+    "yearly_amounts": {
+      "2026": 12949.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.19,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

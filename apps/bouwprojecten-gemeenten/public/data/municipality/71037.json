@@ -2,6 +2,40 @@
   {
     "municipality": "Lummen",
     "nis_code": "71037",
+    "bd_code": "BD001003",
+    "bd_short": "BD03  Zorgen voor een verbonden Lummen waarin inwoners ruimschoots de gelegenheid krijgen om elkaar",
+    "bd_long": "BD03  Zorgen voor een verbonden Lummen waarin inwoners ruimschoots de gelegenheid krijgen om elkaar te ontmoeten door middel van een divers aanbod aan activiteiten, infrastructuur en ondersteuning.",
+    "ap_code": "AP001032",
+    "ap_short": "AP03.02 Het verzeker van een divers aanbod aan vrijetijdsinitiatieven en het voorzien van de nodige",
+    "ap_long": "AP03.02 Het verzekeren van een divers aanbod aan vrijetijdsinitiatieven en het voorzien van de nodige infrastructuur .",
+    "ac_code": "AC010323",
+    "ac_short": "A03.02.03 Het voorzien van een toegankelijk en inclusief vrijetijdsaanbod met diverse evenementen en",
+    "ac_long": "A03.02.03 Het voorzien van een toegankelijk en inclusief vrijetijdsaanbod met diverse evenementen en bijhorende infrastructuur.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 6177143.31,
+    "amount_per_capita": 392.91,
+    "yearly_amounts": {
+      "2026": 5888143.31,
+      "2027": 289000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 374.53,
+      "2027": 18.38,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
     "bd_code": "BD001008",
     "bd_short": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers",
     "bd_long": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers.",
@@ -15,7 +49,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 3697865.0,
-    "amount_per_capita": 235.63,
+    "amount_per_capita": 235.21,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 50000.0,
@@ -25,12 +59,46 @@
       "2031": 1197865.0
     },
     "yearly_per_capita": {
-      "2026": 3.19,
-      "2027": 3.19,
-      "2028": 3.19,
-      "2029": 54.16,
-      "2030": 95.58,
-      "2031": 76.33
+      "2026": 3.18,
+      "2027": 3.18,
+      "2028": 3.18,
+      "2029": 54.07,
+      "2030": 95.41,
+      "2031": 76.19
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001008",
+    "bd_short": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers",
+    "bd_long": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers.",
+    "ap_code": "AP001081",
+    "ap_short": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructu",
+    "ap_long": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructuur, met bijzondere aandacht voor de zwakke weggebruiker.",
+    "ac_code": "AC010811",
+    "ac_short": "A06.01.01 Het verzekeren van een kwaliteitsvol en goed onderhouden wegennetwerk en verwante infrastr",
+    "ac_long": "A06.01.01 Het verzekeren van een kwaliteitsvol en goed onderhouden wegennetwerk en verwante infrastructuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3296796.04,
+    "amount_per_capita": 209.7,
+    "yearly_amounts": {
+      "2026": 2128915.04,
+      "2027": 342881.0,
+      "2028": 275000.0,
+      "2029": 275000.0,
+      "2030": 275000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 135.41,
+      "2027": 21.81,
+      "2028": 17.49,
+      "2029": 17.49,
+      "2030": 17.49,
+      "2031": 0
     }
   },
   {
@@ -49,7 +117,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 2830000.0,
-    "amount_per_capita": 180.33,
+    "amount_per_capita": 180.01,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -62,9 +130,9 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 31.86,
-      "2030": 63.72,
-      "2031": 84.75
+      "2029": 31.8,
+      "2030": 63.61,
+      "2031": 84.6
     }
   },
   {
@@ -83,7 +151,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 2163385.0,
-    "amount_per_capita": 137.85,
+    "amount_per_capita": 137.61,
     "yearly_amounts": {
       "2026": 0,
       "2027": 1000000.0,
@@ -94,8 +162,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 63.72,
-      "2028": 74.13,
+      "2027": 63.61,
+      "2028": 74.0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -117,7 +185,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1900000.0,
-    "amount_per_capita": 121.07,
+    "amount_per_capita": 120.85,
     "yearly_amounts": {
       "2026": 0,
       "2027": 700000.0,
@@ -128,44 +196,10 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 44.6,
-      "2028": 76.47,
+      "2027": 44.52,
+      "2028": 76.33,
       "2029": 0,
       "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Lummen",
-    "nis_code": "71037",
-    "bd_code": "BD001008",
-    "bd_short": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers",
-    "bd_long": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers.",
-    "ap_code": "AP001081",
-    "ap_short": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructu",
-    "ap_long": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructuur, met bijzondere aandacht voor de zwakke weggebruiker.",
-    "ac_code": "AC010811",
-    "ac_short": "A06.01.01 Het verzekeren van een kwaliteitsvol en goed onderhouden wegennetwerk en verwante infrastr",
-    "ac_long": "A06.01.01 Het verzekeren van een kwaliteitsvol en goed onderhouden wegennetwerk en verwante infrastructuur.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 1667881.0,
-    "amount_per_capita": 106.28,
-    "yearly_amounts": {
-      "2026": 500000.0,
-      "2027": 342881.0,
-      "2028": 275000.0,
-      "2029": 275000.0,
-      "2030": 275000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 31.86,
-      "2027": 21.85,
-      "2028": 17.52,
-      "2029": 17.52,
-      "2030": 17.52,
       "2031": 0
     }
   },
@@ -185,7 +219,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1569193.0,
-    "amount_per_capita": 99.99,
+    "amount_per_capita": 99.81,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -199,8 +233,8 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 47.79,
-      "2031": 52.2
+      "2030": 47.71,
+      "2031": 52.11
     }
   },
   {
@@ -219,7 +253,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1131559.0,
-    "amount_per_capita": 72.1,
+    "amount_per_capita": 71.98,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 500000.0,
@@ -229,9 +263,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 15.93,
-      "2027": 31.86,
-      "2028": 24.31,
+      "2026": 15.9,
+      "2027": 31.8,
+      "2028": 24.27,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -252,10 +286,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 997000.0,
-    "amount_per_capita": 63.53,
+    "total_amount": 1070796.47,
+    "amount_per_capita": 68.11,
     "yearly_amounts": {
-      "2026": 467000.0,
+      "2026": 540796.47,
       "2027": 85000.0,
       "2028": 265000.0,
       "2029": 130000.0,
@@ -263,10 +297,10 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 29.76,
-      "2027": 5.42,
-      "2028": 16.89,
-      "2029": 8.28,
+      "2026": 34.4,
+      "2027": 5.41,
+      "2028": 16.86,
+      "2029": 8.27,
       "2030": 1.59,
       "2031": 1.59
     }
@@ -287,7 +321,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 989552.0,
-    "amount_per_capita": 63.06,
+    "amount_per_capita": 62.94,
     "yearly_amounts": {
       "2026": 435517.0,
       "2027": 299616.0,
@@ -297,12 +331,12 @@
       "2031": 175170.0
     },
     "yearly_per_capita": {
-      "2026": 27.75,
-      "2027": 19.09,
-      "2028": 1.73,
+      "2026": 27.7,
+      "2027": 19.06,
+      "2028": 1.72,
       "2029": 1.67,
       "2030": 1.65,
-      "2031": 11.16
+      "2031": 11.14
     }
   },
   {
@@ -321,7 +355,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 835520.0,
-    "amount_per_capita": 53.24,
+    "amount_per_capita": 53.14,
     "yearly_amounts": {
       "2026": 40000.0,
       "2027": 40000.0,
@@ -331,10 +365,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.55,
-      "2027": 2.55,
-      "2028": 44.6,
-      "2029": 3.54,
+      "2026": 2.54,
+      "2027": 2.54,
+      "2028": 44.52,
+      "2029": 3.53,
       "2030": 0,
       "2031": 0
     }
@@ -355,7 +389,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 833400.0,
-    "amount_per_capita": 53.11,
+    "amount_per_capita": 53.01,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -369,8 +403,8 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 19.12,
-      "2031": 33.99
+      "2030": 19.08,
+      "2031": 33.93
     }
   },
   {
@@ -386,10 +420,10 @@
     "ac_short": "A05.02.05 Optimaliseren en ontwikkelen van het eigen vastgoedpatrimonium",
     "ac_long": "A05.02.05 Optimaliseren en ontwikkelen van het eigen vastgoedpatrimonium.",
     "categories": [
-      "09-zorg-opvang"
+      "01-algemeen-bestuur"
     ],
     "total_amount": 760000.0,
-    "amount_per_capita": 48.43,
+    "amount_per_capita": 48.34,
     "yearly_amounts": {
       "2026": 30000.0,
       "2027": 700000.0,
@@ -400,42 +434,8 @@
     },
     "yearly_per_capita": {
       "2026": 1.91,
-      "2027": 44.6,
+      "2027": 44.52,
       "2028": 1.91,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Lummen",
-    "nis_code": "71037",
-    "bd_code": "BD001003",
-    "bd_short": "BD03  Zorgen voor een verbonden Lummen waarin inwoners ruimschoots de gelegenheid krijgen om elkaar",
-    "bd_long": "BD03  Zorgen voor een verbonden Lummen waarin inwoners ruimschoots de gelegenheid krijgen om elkaar te ontmoeten door middel van een divers aanbod aan activiteiten, infrastructuur en ondersteuning.",
-    "ap_code": "AP001032",
-    "ap_short": "AP03.02 Het verzeker van een divers aanbod aan vrijetijdsinitiatieven en het voorzien van de nodige",
-    "ap_long": "AP03.02 Het verzekeren van een divers aanbod aan vrijetijdsinitiatieven en het voorzien van de nodige infrastructuur .",
-    "ac_code": "AC010323",
-    "ac_short": "A03.02.03 Het voorzien van een toegankelijk en inclusief vrijetijdsaanbod met diverse evenementen en",
-    "ac_long": "A03.02.03 Het voorzien van een toegankelijk en inclusief vrijetijdsaanbod met diverse evenementen en bijhorende infrastructuur.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 688000.0,
-    "amount_per_capita": 43.84,
-    "yearly_amounts": {
-      "2026": 399000.0,
-      "2027": 289000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 25.42,
-      "2027": 18.42,
-      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -457,7 +457,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 667100.0,
-    "amount_per_capita": 42.51,
+    "amount_per_capita": 42.43,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -469,10 +469,112 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 42.51,
+      "2028": 42.43,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001008",
+    "bd_short": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers",
+    "bd_long": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers.",
+    "ap_code": "AP001081",
+    "ap_short": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructu",
+    "ap_long": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructuur, met bijzondere aandacht voor de zwakke weggebruiker.",
+    "ac_code": "AC010813",
+    "ac_short": "A06.01.03 Het uittekenen van een toekomstvisie op lange termijn door de opmaak van een weg en rioler",
+    "ac_long": "A06.01.03 Het uittekenen van een toekomstvisie op lange termijn door de opmaak van een weg en rioleringsplan.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 583137.37,
+    "amount_per_capita": 37.09,
+    "yearly_amounts": {
+      "2026": 583137.37,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 37.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001009",
+    "bd_short": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van ee",
+    "bd_long": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van een moderne en wendbare organisatie.",
+    "ap_code": "AP001094",
+    "ap_short": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkade",
+    "ap_long": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkadering om eigenaarschap op te nemen voor een efficiënte manier van werken.",
+    "ac_code": "AC010943",
+    "ac_short": "A09.04.03 Het voorzien van onderhoud, herstelling en vervanging van de ICT-infrastructuur  en - mate",
+    "ac_long": "A09.04.03 Het voorzien van onderhoud, herstelling en vervanging van de ICT-infrastructuur  en - materiaal wanneer dat nodig is, met het oog op een efficiënte en klantgerichte werking van de organisatie.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 552080.8,
+    "amount_per_capita": 35.12,
+    "yearly_amounts": {
+      "2026": 129000.0,
+      "2027": 49000.0,
+      "2028": 280400.0,
+      "2029": 30808.0,
+      "2030": 31224.16,
+      "2031": 31648.64
+    },
+    "yearly_per_capita": {
+      "2026": 8.21,
+      "2027": 3.12,
+      "2028": 17.84,
+      "2029": 1.96,
+      "2030": 1.99,
+      "2031": 2.01
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001003",
+    "bd_short": "BD03  Zorgen voor een verbonden Lummen waarin inwoners ruimschoots de gelegenheid krijgen om elkaar",
+    "bd_long": "BD03  Zorgen voor een verbonden Lummen waarin inwoners ruimschoots de gelegenheid krijgen om elkaar te ontmoeten door middel van een divers aanbod aan activiteiten, infrastructuur en ondersteuning.",
+    "ap_code": "AP001032",
+    "ap_short": "AP03.02 Het verzeker van een divers aanbod aan vrijetijdsinitiatieven en het voorzien van de nodige",
+    "ap_long": "AP03.02 Het verzekeren van een divers aanbod aan vrijetijdsinitiatieven en het voorzien van de nodige infrastructuur .",
+    "ac_code": "AC010324",
+    "ac_short": "A03.02.04 Het verzekeren van een specifiek activiteitenaanbod voor jeugd door het ontwikkelen van ee",
+    "ac_long": "A03.02.04 Het verzekeren van een specifiek activiteitenaanbod voor jeugd door het ontwikkelen van een eigen aanbod en het voorzien van de nodige infrastructuur en materiaal ten behoeve van de Lummense jeugd.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 523766.32,
+    "amount_per_capita": 33.32,
+    "yearly_amounts": {
+      "2026": 198766.32,
+      "2027": 65000.0,
+      "2028": 65000.0,
+      "2029": 65000.0,
+      "2030": 65000.0,
+      "2031": 65000.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.64,
+      "2027": 4.13,
+      "2028": 4.13,
+      "2029": 4.13,
+      "2030": 4.13,
+      "2031": 4.13
     }
   },
   {
@@ -491,7 +593,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 500000.0,
-    "amount_per_capita": 31.86,
+    "amount_per_capita": 31.8,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -505,76 +607,8 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 12.74,
-      "2031": 19.12
-    }
-  },
-  {
-    "municipality": "Lummen",
-    "nis_code": "71037",
-    "bd_code": "BD001009",
-    "bd_short": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van ee",
-    "bd_long": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van een moderne en wendbare organisatie.",
-    "ap_code": "AP001094",
-    "ap_short": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkade",
-    "ap_long": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkadering om eigenaarschap op te nemen voor een efficiënte manier van werken.",
-    "ac_code": "AC010943",
-    "ac_short": "A09.04.03 Het voorzien van onderhoud, herstelling en vervanging van de ICT-infrastructuur  en - mate",
-    "ac_long": "A09.04.03 Het voorzien van onderhoud, herstelling en vervanging van de ICT-infrastructuur  en - materiaal wanneer dat nodig is, met het oog op een efficiënte en klantgerichte werking van de organisatie.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 485081.0,
-    "amount_per_capita": 30.91,
-    "yearly_amounts": {
-      "2026": 62000.0,
-      "2027": 49000.0,
-      "2028": 280400.0,
-      "2029": 30808.0,
-      "2030": 31224.0,
-      "2031": 31649.0
-    },
-    "yearly_per_capita": {
-      "2026": 3.95,
-      "2027": 3.12,
-      "2028": 17.87,
-      "2029": 1.96,
-      "2030": 1.99,
-      "2031": 2.02
-    }
-  },
-  {
-    "municipality": "Lummen",
-    "nis_code": "71037",
-    "bd_code": "BD001003",
-    "bd_short": "BD03  Zorgen voor een verbonden Lummen waarin inwoners ruimschoots de gelegenheid krijgen om elkaar",
-    "bd_long": "BD03  Zorgen voor een verbonden Lummen waarin inwoners ruimschoots de gelegenheid krijgen om elkaar te ontmoeten door middel van een divers aanbod aan activiteiten, infrastructuur en ondersteuning.",
-    "ap_code": "AP001032",
-    "ap_short": "AP03.02 Het verzeker van een divers aanbod aan vrijetijdsinitiatieven en het voorzien van de nodige",
-    "ap_long": "AP03.02 Het verzekeren van een divers aanbod aan vrijetijdsinitiatieven en het voorzien van de nodige infrastructuur .",
-    "ac_code": "AC010324",
-    "ac_short": "A03.02.04 Het verzekeren van een specifiek activiteitenaanbod voor jeugd door het ontwikkelen van ee",
-    "ac_long": "A03.02.04 Het verzekeren van een specifiek activiteitenaanbod voor jeugd door het ontwikkelen van een eigen aanbod en het voorzien van de nodige infrastructuur en materiaal ten behoeve van de Lummense jeugd.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 470000.0,
-    "amount_per_capita": 29.95,
-    "yearly_amounts": {
-      "2026": 145000.0,
-      "2027": 65000.0,
-      "2028": 65000.0,
-      "2029": 65000.0,
-      "2030": 65000.0,
-      "2031": 65000.0
-    },
-    "yearly_per_capita": {
-      "2026": 9.24,
-      "2027": 4.14,
-      "2028": 4.14,
-      "2029": 4.14,
-      "2030": 4.14,
-      "2031": 4.14
+      "2030": 12.72,
+      "2031": 19.08
     }
   },
   {
@@ -590,10 +624,10 @@
     "ac_short": "A03.02.01Het verzekeren van een divers en uitgebreid aanbod en het voorzien van onderhoud, herstelli",
     "ac_long": "A03.02.01Het verzekeren van een divers en uitgebreid aanbod en het voorzien van onderhoud, herstelling en vervanging van de eigen sportinfrastructuur en - materiaal wanneer dat nodig is.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
     "total_amount": 467000.0,
-    "amount_per_capita": 29.76,
+    "amount_per_capita": 29.7,
     "yearly_amounts": {
       "2026": 342000.0,
       "2027": 25000.0,
@@ -603,7 +637,7 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 21.79,
+      "2026": 21.75,
       "2027": 1.59,
       "2028": 1.59,
       "2029": 1.59,
@@ -626,10 +660,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 360000.0,
-    "amount_per_capita": 22.94,
+    "total_amount": 424000.0,
+    "amount_per_capita": 26.97,
     "yearly_amounts": {
-      "2026": 215000.0,
+      "2026": 279000.0,
       "2027": 60000.0,
       "2028": 85000.0,
       "2029": 0,
@@ -637,9 +671,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 13.7,
+      "2026": 17.75,
       "2027": 3.82,
-      "2028": 5.42,
+      "2028": 5.41,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -660,10 +694,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 19.12,
+    "total_amount": 392720.77,
+    "amount_per_capita": 24.98,
     "yearly_amounts": {
-      "2026": 50000.0,
+      "2026": 142720.77,
       "2027": 50000.0,
       "2028": 50000.0,
       "2029": 50000.0,
@@ -671,12 +705,80 @@
       "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 3.19,
-      "2027": 3.19,
-      "2028": 3.19,
-      "2029": 3.19,
-      "2030": 3.19,
-      "2031": 3.19
+      "2026": 9.08,
+      "2027": 3.18,
+      "2028": 3.18,
+      "2029": 3.18,
+      "2030": 3.18,
+      "2031": 3.18
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001008",
+    "bd_short": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers",
+    "bd_long": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers.",
+    "ap_code": "AP001081",
+    "ap_short": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructu",
+    "ap_long": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructuur, met bijzondere aandacht voor de zwakke weggebruiker.",
+    "ac_code": "AC210616",
+    "ac_short": "A06.01.16 Herinrichting van het openbaar domein in het kader van het masterplan Thiewinkel",
+    "ac_long": "A06.01.16 Herinrichting van het openbaar domein in het kader van het masterplan Thiewinkel.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 299377.0,
+    "amount_per_capita": 19.04,
+    "yearly_amounts": {
+      "2026": 49377.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 250000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 15.9,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001002",
+    "bd_short": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen",
+    "bd_long": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen.",
+    "ap_code": "AP001022",
+    "ap_short": "AP02.02 Het verzekeren van een kindvriendelijk Lummen met de nodige ondersteuning aan hun ouders.",
+    "ap_long": "AP02.02 Het verzekeren van een kindvriendelijk Lummen met de nodige ondersteuning aan hun ouders.",
+    "ac_code": "AC010222",
+    "ac_short": "A02.02.02 Optimalisering van de werking van de buitenschoolse opvang, zowel infrastructureel, financ",
+    "ac_long": "A02.02.02 Optimalisering van de werking van de buitenschoolse opvang, zowel infrastructureel, financieel, organisatorisch als pedagogisch.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 250775.61,
+    "amount_per_capita": 15.95,
+    "yearly_amounts": {
+      "2026": 219551.37,
+      "2027": 6000.0,
+      "2028": 6120.0,
+      "2029": 6242.4,
+      "2030": 6367.25,
+      "2031": 6494.59
+    },
+    "yearly_per_capita": {
+      "2026": 13.97,
+      "2027": 0.38,
+      "2028": 0.39,
+      "2029": 0.4,
+      "2030": 0.41,
+      "2031": 0.41
     }
   },
   {
@@ -695,7 +797,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 15.93,
+    "amount_per_capita": 15.9,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -709,41 +811,7 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 15.93,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Lummen",
-    "nis_code": "71037",
-    "bd_code": "BD001008",
-    "bd_short": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers",
-    "bd_long": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers.",
-    "ap_code": "AP001081",
-    "ap_short": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructu",
-    "ap_long": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructuur, met bijzondere aandacht voor de zwakke weggebruiker.",
-    "ac_code": "AC210616",
-    "ac_short": "A06.01.16 Herinrichting van het openbaar domein in het kader van het masterplan Thiewinkel",
-    "ac_long": "A06.01.16 Herinrichting van het openbaar domein in het kader van het masterplan Thiewinkel.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 250000.0,
-    "amount_per_capita": 15.93,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 250000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 15.93,
+      "2030": 15.9,
       "2031": 0
     }
   },
@@ -763,7 +831,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 15.93,
+    "amount_per_capita": 15.9,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -778,7 +846,7 @@
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 15.93
+      "2031": 15.9
     }
   },
   {
@@ -797,7 +865,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 244000.0,
-    "amount_per_capita": 15.55,
+    "amount_per_capita": 15.52,
     "yearly_amounts": {
       "2026": 244000.0,
       "2027": 0,
@@ -807,7 +875,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 15.55,
+      "2026": 15.52,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -831,7 +899,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 240000.0,
-    "amount_per_capita": 15.29,
+    "amount_per_capita": 15.27,
     "yearly_amounts": {
       "2026": 40000.0,
       "2027": 40000.0,
@@ -841,46 +909,12 @@
       "2031": 40000.0
     },
     "yearly_per_capita": {
-      "2026": 2.55,
-      "2027": 2.55,
-      "2028": 2.55,
-      "2029": 2.55,
-      "2030": 2.55,
-      "2031": 2.55
-    }
-  },
-  {
-    "municipality": "Lummen",
-    "nis_code": "71037",
-    "bd_code": "BD001002",
-    "bd_short": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen",
-    "bd_long": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen.",
-    "ap_code": "AP001022",
-    "ap_short": "AP02.02 Het verzekeren van een kindvriendelijk Lummen met de nodige ondersteuning aan hun ouders.",
-    "ap_long": "AP02.02 Het verzekeren van een kindvriendelijk Lummen met de nodige ondersteuning aan hun ouders.",
-    "ac_code": "AC010222",
-    "ac_short": "A02.02.02 Optimalisering van de werking van de buitenschoolse opvang, zowel infrastructureel, financ",
-    "ac_long": "A02.02.02 Optimalisering van de werking van de buitenschoolse opvang, zowel infrastructureel, financieel, organisatorisch als pedagogisch.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 226224.0,
-    "amount_per_capita": 14.42,
-    "yearly_amounts": {
-      "2026": 195000.0,
-      "2027": 6000.0,
-      "2028": 6120.0,
-      "2029": 6242.0,
-      "2030": 6367.0,
-      "2031": 6495.0
-    },
-    "yearly_per_capita": {
-      "2026": 12.43,
-      "2027": 0.38,
-      "2028": 0.39,
-      "2029": 0.4,
-      "2030": 0.41,
-      "2031": 0.41
+      "2026": 2.54,
+      "2027": 2.54,
+      "2028": 2.54,
+      "2029": 2.54,
+      "2030": 2.54,
+      "2031": 2.54
     }
   },
   {
@@ -899,7 +933,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 200000.0,
-    "amount_per_capita": 12.74,
+    "amount_per_capita": 12.72,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 50000.0,
@@ -909,10 +943,44 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.19,
-      "2027": 3.19,
-      "2028": 3.19,
-      "2029": 3.19,
+      "2026": 3.18,
+      "2027": 3.18,
+      "2028": 3.18,
+      "2029": 3.18,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001006",
+    "bd_short": "BD01 Verder werken aan een slimme, toegankelijke, communicatieve en klantvriendelijke dienstverlenin",
+    "bd_long": "BD01 Verder werken aan een slimme, toegankelijke, communicatieve en klantvriendelijke dienstverlening.",
+    "ap_code": "AP001063",
+    "ap_short": "AP01.03  Het realiseren van een laagdrempelige, klantvriendelijke, duidelijke en efficiënte dienstve",
+    "ap_long": "AP01.03  Het realiseren van een laagdrempelige, klantvriendelijke, duidelijke en efficiënte dienstverlening op maat van de burger.",
+    "ac_code": "AC010631",
+    "ac_short": "A01.03.02 Het voorzien van onderhoud, herstelling en vervanging van de infrastructuur en materialen",
+    "ac_long": "A01.03.02 Het voorzien van onderhoud, herstelling en vervanging van de infrastructuur en materialen in het administratief centrum met het oog op het in stand houden van ons eigen patrimonium.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 159850.5,
+    "amount_per_capita": 10.17,
+    "yearly_amounts": {
+      "2026": 149850.5,
+      "2027": 0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.53,
+      "2027": 0,
+      "2028": 0.64,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -933,7 +1001,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 155304.0,
-    "amount_per_capita": 9.9,
+    "amount_per_capita": 9.88,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -946,41 +1014,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 9.9,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Lummen",
-    "nis_code": "71037",
-    "bd_code": "BD001007",
-    "bd_short": "BD08  Zorgen voor een duurzaam Lummen",
-    "bd_long": "BD08  Zorgen voor een duurzaam Lummen.",
-    "ap_code": "AP201084",
-    "ap_short": "AP08.04 Het streven naar een asbestveilig Lummen tegen 2040",
-    "ap_long": "AP08.04 Het streven naar een asbestveilig Lummen tegen 2040.",
-    "ac_code": "AC210841",
-    "ac_short": "A08.04.01 Het asbestveilig maken van het gemeentelijk patrimonium tegen 2040",
-    "ac_long": "A08.04.01 Het asbestveilig maken van het gemeentelijk patrimonium tegen 2040.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 120000.0,
-    "amount_per_capita": 7.65,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 20000.0,
-      "2028": 0,
-      "2029": 100000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 1.27,
-      "2028": 0,
-      "2029": 6.37,
+      "2029": 9.88,
       "2030": 0,
       "2031": 0
     }
@@ -1000,10 +1034,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 100000.0,
-    "amount_per_capita": 6.37,
+    "total_amount": 140000.0,
+    "amount_per_capita": 8.9,
     "yearly_amounts": {
-      "2026": 15000.0,
+      "2026": 55000.0,
       "2027": 17000.0,
       "2028": 17000.0,
       "2029": 17000.0,
@@ -1011,12 +1045,46 @@
       "2031": 17000.0
     },
     "yearly_per_capita": {
-      "2026": 0.96,
+      "2026": 3.5,
       "2027": 1.08,
       "2028": 1.08,
       "2029": 1.08,
       "2030": 1.08,
       "2031": 1.08
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001007",
+    "bd_short": "BD08  Zorgen voor een duurzaam Lummen",
+    "bd_long": "BD08  Zorgen voor een duurzaam Lummen.",
+    "ap_code": "AP201084",
+    "ap_short": "AP08.04 Het streven naar een asbestveilig Lummen tegen 2040",
+    "ap_long": "AP08.04 Het streven naar een asbestveilig Lummen tegen 2040.",
+    "ac_code": "AC210841",
+    "ac_short": "A08.04.01 Het asbestveilig maken van het gemeentelijk patrimonium tegen 2040",
+    "ac_long": "A08.04.01 Het asbestveilig maken van het gemeentelijk patrimonium tegen 2040.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 7.63,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.27,
+      "2028": 0,
+      "2029": 6.36,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -1035,7 +1103,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 6.37,
+    "amount_per_capita": 6.36,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
@@ -1045,7 +1113,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.37,
+      "2026": 6.36,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1069,7 +1137,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 90000.0,
-    "amount_per_capita": 5.73,
+    "amount_per_capita": 5.72,
     "yearly_amounts": {
       "2026": 15000.0,
       "2027": 15000.0,
@@ -1079,80 +1147,12 @@
       "2031": 15000.0
     },
     "yearly_per_capita": {
-      "2026": 0.96,
-      "2027": 0.96,
-      "2028": 0.96,
-      "2029": 0.96,
-      "2030": 0.96,
-      "2031": 0.96
-    }
-  },
-  {
-    "municipality": "Lummen",
-    "nis_code": "71037",
-    "bd_code": "BD001006",
-    "bd_short": "BD01 Verder werken aan een slimme, toegankelijke, communicatieve en klantvriendelijke dienstverlenin",
-    "bd_long": "BD01 Verder werken aan een slimme, toegankelijke, communicatieve en klantvriendelijke dienstverlening.",
-    "ap_code": "AP001063",
-    "ap_short": "AP01.03  Het realiseren van een laagdrempelige, klantvriendelijke, duidelijke en efficiënte dienstve",
-    "ap_long": "AP01.03  Het realiseren van een laagdrempelige, klantvriendelijke, duidelijke en efficiënte dienstverlening op maat van de burger.",
-    "ac_code": "AC010631",
-    "ac_short": "A01.03.02 Het voorzien van onderhoud, herstelling en vervanging van de infrastructuur en materialen",
-    "ac_long": "A01.03.02 Het voorzien van onderhoud, herstelling en vervanging van de infrastructuur en materialen in het administratief centrum met het oog op het in stand houden van ons eigen patrimonium.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 81000.0,
-    "amount_per_capita": 5.16,
-    "yearly_amounts": {
-      "2026": 71000.0,
-      "2027": 0,
-      "2028": 10000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 4.52,
-      "2027": 0,
-      "2028": 0.64,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Lummen",
-    "nis_code": "71037",
-    "bd_code": "BD001008",
-    "bd_short": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers",
-    "bd_long": "BD06  Het verzekeren van een vlot en veilig Lummen voor alle weggebruikers.",
-    "ap_code": "AP001081",
-    "ap_short": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructu",
-    "ap_long": "AP06.01 Het verzekeren van een kwaliteitsvol en onderhouden wegennetwerk en aanverwante infrastructuur, met bijzondere aandacht voor de zwakke weggebruiker.",
-    "ac_code": "AC010813",
-    "ac_short": "A06.01.03 Het uittekenen van een toekomstvisie op lange termijn door de opmaak van een weg en rioler",
-    "ac_long": "A06.01.03 Het uittekenen van een toekomstvisie op lange termijn door de opmaak van een weg en rioleringsplan.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 80000.0,
-    "amount_per_capita": 5.1,
-    "yearly_amounts": {
-      "2026": 80000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 5.1,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 0.95,
+      "2027": 0.95,
+      "2028": 0.95,
+      "2029": 0.95,
+      "2030": 0.95,
+      "2031": 0.95
     }
   },
   {
@@ -1170,10 +1170,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 75000.0,
-    "amount_per_capita": 4.78,
+    "total_amount": 75929.35,
+    "amount_per_capita": 4.83,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 929.35,
       "2027": 30000.0,
       "2028": 0,
       "2029": 0,
@@ -1181,11 +1181,45 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.06,
       "2027": 1.91,
       "2028": 0,
       "2029": 0,
-      "2030": 2.87,
+      "2030": 2.86,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001002",
+    "bd_short": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen",
+    "bd_long": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen.",
+    "ap_code": "AP001026",
+    "ap_short": "AP02.06 Het verzekeren van een Lummen dat ook het welzijn van dieren vooropstelt",
+    "ap_long": "AP02.06 Het verzekeren van een Lummen dat ook het welzijn van dieren vooropstelt.",
+    "ac_code": "AC010261",
+    "ac_short": "A02.06.01 Bij het nemen van beslissingen wordt ook de impact op dierenwelzijn afgetoetst",
+    "ac_long": "A02.06.01 Bij het nemen van beslissingen wordt ook de impact op dierenwelzijn afgetoetst.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 68245.0,
+    "amount_per_capita": 4.34,
+    "yearly_amounts": {
+      "2026": 68245.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.34,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -1205,7 +1239,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 64500.0,
-    "amount_per_capita": 4.11,
+    "amount_per_capita": 4.1,
     "yearly_amounts": {
       "2026": 40000.0,
       "2027": 20000.0,
@@ -1215,7 +1249,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.55,
+      "2026": 2.54,
       "2027": 1.27,
       "2028": 0.29,
       "2029": 0,
@@ -1236,12 +1270,12 @@
     "ac_short": "A01.03.04 Optimaliseren van dienstverleningsprocessen, met waar mogelijk een digitalisering, om deze",
     "ac_long": "A01.03.04 Optimaliseren van dienstverleningsprocessen, met waar mogelijk een digitalisering, om deze vlot en klantvriendelijk te laten verlopen.",
     "categories": [
-      "06-wonen-ruimte"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 45000.0,
-    "amount_per_capita": 2.87,
+    "total_amount": 57000.0,
+    "amount_per_capita": 3.63,
     "yearly_amounts": {
-      "2026": 45000.0,
+      "2026": 57000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1249,7 +1283,41 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.87,
+      "2026": 3.63,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001010",
+    "bd_short": "BD10  Het verzekeren van een financieel gezond Lummen.",
+    "bd_long": "BD10  Het verzekeren van een financieel gezond Lummen.",
+    "ap_code": "AP001101",
+    "ap_short": "AP10.01 Het uitwerken en implementeren van een doordacht financieel beleid en het bewaken van een ge",
+    "ap_long": "AP10.01 Het uitwerken en implementeren van een doordacht financieel beleid en het bewaken van een gezonde algemene financiering.",
+    "ac_code": "AC011011",
+    "ac_short": "A10.01.01 Het bewaken van een doordacht toekomstgericht financieel beleid met het oog op een financi",
+    "ac_long": "A10.01.01 Het bewaken van een doordacht toekomstgericht financieel beleid met het oog op een financieel gezond gemeente en OCMW Lummen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 47410.88,
+    "amount_per_capita": 3.02,
+    "yearly_amounts": {
+      "2026": 47410.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.02,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1270,10 +1338,10 @@
     "ac_short": "A08.02.04 Het nemen van diverse initiatieven met het oog op een proper Lummen waarin de vervuiler be",
     "ac_long": "A08.02.04 Het nemen van diverse initiatieven met het oog op een proper Lummen waarin de vervuiler betaalt.",
     "categories": [
-      "04-veiligheidszorg"
+      "03-natuur-milieu"
     ],
     "total_amount": 39000.0,
-    "amount_per_capita": 2.49,
+    "amount_per_capita": 2.48,
     "yearly_amounts": {
       "2026": 39000.0,
       "2027": 0,
@@ -1283,7 +1351,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.49,
+      "2026": 2.48,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1307,7 +1375,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 33400.0,
-    "amount_per_capita": 2.13,
+    "amount_per_capita": 2.12,
     "yearly_amounts": {
       "2026": 33400.0,
       "2027": 0,
@@ -1317,7 +1385,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.13,
+      "2026": 2.12,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1338,7 +1406,7 @@
     "ac_short": "A03.04.03 Het uitwerken van projecten rond erfgoed vanuit de aansluiting bij de intergemeentelijke o",
     "ac_long": "A03.04.03 Het uitwerken van projecten rond erfgoed vanuit de aansluiting bij de intergemeentelijke onroerende erfgoeddienst.",
     "categories": [
-      "06-wonen-ruimte"
+      "03-natuur-milieu"
     ],
     "total_amount": 27000.0,
     "amount_per_capita": 1.72,
@@ -1365,19 +1433,19 @@
     "bd_code": "BD001009",
     "bd_short": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van ee",
     "bd_long": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van een moderne en wendbare organisatie.",
-    "ap_code": "AP001093",
-    "ap_short": "AP09.03 Samen zorgen voor een organisatie die kwaliteitsvolle communicatie van, naar en tussen alle",
-    "ap_long": "AP09.03 Samen zorgen voor een organisatie die kwaliteitsvolle communicatie van, naar en tussen alle interne stakeholders verzekert met aandacht voor hun eigenheid, zowel naar vorm, inhoud en timing.",
-    "ac_code": "AC010931",
-    "ac_short": "A09.03.01 Op basis van een gedragen visie en communicatieplan interne communicatie formeel inbedden",
-    "ac_long": "A09.03.01 Op basis van een gedragen visie en communicatieplan interne communicatie formeel inbedden in de organisatie met de nodige processen, afsprakenkaders, kanalen en tools.",
+    "ap_code": "AP001094",
+    "ap_short": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkade",
+    "ap_long": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkadering om eigenaarschap op te nemen voor een efficiënte manier van werken.",
+    "ac_code": "AC010946",
+    "ac_short": "A09.04.06 Zorgen voor een veilig en efficiënt basisbeheer en verdere inventarisatie en digitaliserin",
+    "ac_long": "A09.04.06 Zorgen voor een veilig en efficiënt basisbeheer en verdere inventarisatie en digitalisering van data en toepassingen (inclusief GIS), met het oog op een toegankelijke raadpleging.",
     "categories": [
-      "01-algemeen-bestuur"
+      "05-ondernemen-werken"
     ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 1.27,
+    "total_amount": 21500.0,
+    "amount_per_capita": 1.37,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 21500.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1385,7 +1453,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.27,
+      "2026": 1.37,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1399,19 +1467,19 @@
     "bd_code": "BD001009",
     "bd_short": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van ee",
     "bd_long": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van een moderne en wendbare organisatie.",
-    "ap_code": "AP001094",
-    "ap_short": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkade",
-    "ap_long": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkadering om eigenaarschap op te nemen voor een efficiënte manier van werken.",
-    "ac_code": "AC010946",
-    "ac_short": "A09.04.06 Zorgen voor een veilig en efficiënt basisbeheer en verdere inventarisatie en digitaliserin",
-    "ac_long": "A09.04.06 Zorgen voor een veilig en efficiënt basisbeheer en verdere inventarisatie en digitalisering van data en toepassingen (inclusief GIS), met het oog op een toegankelijke raadpleging.",
+    "ap_code": "AP001092",
+    "ap_short": "AP09.02 Het verzekeren van een realistische organisatiestructuur met voldoende gemotiveerde en compe",
+    "ap_long": "AP09.02 Het verzekeren van een realistische organisatiestructuur met voldoende gemotiveerde en competente medewerkers voor de realisatie van dienstverlening en beleidsdoelstellingen, waarin leidinggevenden en medewerkers samen eigenaarschap opnemen voor het welzijn van elke medewerker als individu.",
+    "ac_code": "AC010926",
+    "ac_short": "A09.02.06 We voorzien werkbaar werk in een gezonde omgeving waar medewerkers zich veilig en welkom v",
+    "ac_long": "A09.02.06 We voorzien werkbaar werk in een gezonde omgeving waar medewerkers zich veilig en welkom voelen, en vertalen deze visie in een eigentijds HR-beleid met een vormingsbeleid, waarbij het welbevinden en welzijn continu wordt gemonitord.",
     "categories": [
-      "06-wonen-ruimte"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 1.27,
+    "total_amount": 20161.99,
+    "amount_per_capita": 1.28,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 20161.99,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1419,7 +1487,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.27,
+      "2026": 1.28,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1467,19 +1535,19 @@
     "bd_code": "BD001009",
     "bd_short": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van ee",
     "bd_long": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van een moderne en wendbare organisatie.",
-    "ap_code": "AP001094",
-    "ap_short": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkade",
-    "ap_long": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkadering om eigenaarschap op te nemen voor een efficiënte manier van werken.",
-    "ac_code": "AC010942",
-    "ac_short": "A09.04.02 Een duidelijke strategie, rolafbakening en efficiënte interne werking van de dienst ICT",
-    "ac_long": "A09.04.02 Een duidelijke strategie, rolafbakening en efficiënte interne werking van de dienst ICT.",
+    "ap_code": "AP001093",
+    "ap_short": "AP09.03 Samen zorgen voor een organisatie die kwaliteitsvolle communicatie van, naar en tussen alle",
+    "ap_long": "AP09.03 Samen zorgen voor een organisatie die kwaliteitsvolle communicatie van, naar en tussen alle interne stakeholders verzekert met aandacht voor hun eigenheid, zowel naar vorm, inhoud en timing.",
+    "ac_code": "AC010931",
+    "ac_short": "A09.03.01 Op basis van een gedragen visie en communicatieplan interne communicatie formeel inbedden",
+    "ac_long": "A09.03.01 Op basis van een gedragen visie en communicatieplan interne communicatie formeel inbedden in de organisatie met de nodige processen, afsprakenkaders, kanalen en tools.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 0.96,
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.27,
     "yearly_amounts": {
-      "2026": 15000.0,
+      "2026": 20000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1487,9 +1555,77 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.96,
+      "2026": 1.27,
       "2027": 0,
       "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001002",
+    "bd_short": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen",
+    "bd_long": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen.",
+    "ap_code": "AP001023",
+    "ap_short": "AP02.03 Het verzekeren van de nodige dienstverlening, activiteitenaanbod en voorzieningen die gezond",
+    "ap_long": "AP02.03 Het verzekeren van de nodige dienstverlening, activiteitenaanbod en voorzieningen die gezond en actief ouder worden in de eigen gemeente mogelijk maken.",
+    "ac_code": "AC010233",
+    "ac_short": "A02.03.03 Het bestendigen van een kwaliteitsvol aanbod aan residentiële zorgvoorzieningen met het oo",
+    "ac_long": "A02.03.03 Het bestendigen van een kwaliteitsvol aanbod aan residentiële zorgvoorzieningen met het oog op de verzekering van een menswaardig bestaan voor zij die niet langer zelfstandig thuis kunnen wonen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 18328.72,
+    "amount_per_capita": 1.17,
+    "yearly_amounts": {
+      "2026": 18328.72,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001005",
+    "bd_short": "BD07  Iedere inwoner voelt zich veilig in Lummen, thuis, onderweg en in de publieke ruimte",
+    "bd_long": "BD07  Iedere inwoner voelt zich veilig in Lummen, thuis, onderweg en in de publieke ruimte.",
+    "ap_code": "AP001052",
+    "ap_short": "AP07.02 Lummen zet in op veiligheid dor te werken aan preventie, repressie en nazorg",
+    "ap_long": "AP07.02 Lummen zet in op veiligheid dor te werken aan preventie, repressie en nazorg.",
+    "ac_code": "AC010525",
+    "ac_short": "A07.02.04 Diverse preventieve maatregelen voorzien zodat inwoners en bezoekers van Lummen bij indivi",
+    "ac_long": "A07.02.04 Diverse preventieve maatregelen voorzien zodat inwoners en bezoekers van Lummen bij individuele acute gezondheidsproblemen snel kunnen worden geholpen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.95,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.32,
+      "2027": 0,
+      "2028": 0.64,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1511,7 +1647,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 15000.0,
-    "amount_per_capita": 0.96,
+    "amount_per_capita": 0.95,
     "yearly_amounts": {
       "2026": 15000.0,
       "2027": 0,
@@ -1521,7 +1657,41 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.96,
+      "2026": 0.95,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lummen",
+    "nis_code": "71037",
+    "bd_code": "BD001009",
+    "bd_short": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van ee",
+    "bd_long": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van een moderne en wendbare organisatie.",
+    "ap_code": "AP001094",
+    "ap_short": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkade",
+    "ap_long": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkadering om eigenaarschap op te nemen voor een efficiënte manier van werken.",
+    "ac_code": "AC010942",
+    "ac_short": "A09.04.02 Een duidelijke strategie, rolafbakening en efficiënte interne werking van de dienst ICT",
+    "ac_long": "A09.04.02 Een duidelijke strategie, rolafbakening en efficiënte interne werking van de dienst ICT.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.95,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.95,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1566,22 +1736,22 @@
   {
     "municipality": "Lummen",
     "nis_code": "71037",
-    "bd_code": "BD001002",
-    "bd_short": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen",
-    "bd_long": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen.",
-    "ap_code": "AP001023",
-    "ap_short": "AP02.03 Het verzekeren van de nodige dienstverlening, activiteitenaanbod en voorzieningen die gezond",
-    "ap_long": "AP02.03 Het verzekeren van de nodige dienstverlening, activiteitenaanbod en voorzieningen die gezond en actief ouder worden in de eigen gemeente mogelijk maken.",
-    "ac_code": "AC010233",
-    "ac_short": "A02.03.03 Het bestendigen van een kwaliteitsvol aanbod aan residentiële zorgvoorzieningen met het oo",
-    "ac_long": "A02.03.03 Het bestendigen van een kwaliteitsvol aanbod aan residentiële zorgvoorzieningen met het oog op de verzekering van een menswaardig bestaan voor zij die niet langer zelfstandig thuis kunnen wonen.",
+    "bd_code": "BD001001",
+    "bd_short": "BD05  Het verzekeren van een voldoende divers en kwalitatief woonaanbod voor elke Lummenaar",
+    "bd_long": "BD05  Het verzekeren van een voldoende divers en kwalitatief woonaanbod voor elke Lummenaar.",
+    "ap_code": "AP201087",
+    "ap_short": "AP05.02 Het verder uittekenen van een ruimtelijke visie op Lummen",
+    "ap_long": "AP05.02 Het verder uittekenen van een ruimtelijke visie op Lummen.",
+    "ac_code": "AC010121",
+    "ac_short": "A05.02.01 De opmaak van een nieuw gemeentelijk beleidsplan ruimte in opvolging van het gemeentelijk",
+    "ac_long": "A05.02.01 De opmaak van een nieuw gemeentelijk beleidsplan ruimte in opvolging van het gemeentelijk ruimtelijk structuurplan.",
     "categories": [
-      "09-zorg-opvang"
+      "06-wonen-ruimte"
     ],
-    "total_amount": 12000.0,
-    "amount_per_capita": 0.76,
+    "total_amount": 12244.36,
+    "amount_per_capita": 0.78,
     "yearly_amounts": {
-      "2026": 12000.0,
+      "2026": 12244.36,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1589,7 +1759,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.76,
+      "2026": 0.78,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1600,32 +1770,32 @@
   {
     "municipality": "Lummen",
     "nis_code": "71037",
-    "bd_code": "BD001005",
-    "bd_short": "BD07  Iedere inwoner voelt zich veilig in Lummen, thuis, onderweg en in de publieke ruimte",
-    "bd_long": "BD07  Iedere inwoner voelt zich veilig in Lummen, thuis, onderweg en in de publieke ruimte.",
-    "ap_code": "AP001052",
-    "ap_short": "AP07.02 Lummen zet in op veiligheid dor te werken aan preventie, repressie en nazorg",
-    "ap_long": "AP07.02 Lummen zet in op veiligheid dor te werken aan preventie, repressie en nazorg.",
-    "ac_code": "AC010525",
-    "ac_short": "A07.02.04 Diverse preventieve maatregelen voorzien zodat inwoners en bezoekers van Lummen bij indivi",
-    "ac_long": "A07.02.04 Diverse preventieve maatregelen voorzien zodat inwoners en bezoekers van Lummen bij individuele acute gezondheidsproblemen snel kunnen worden geholpen.",
+    "bd_code": "BD001006",
+    "bd_short": "BD01 Verder werken aan een slimme, toegankelijke, communicatieve en klantvriendelijke dienstverlenin",
+    "bd_long": "BD01 Verder werken aan een slimme, toegankelijke, communicatieve en klantvriendelijke dienstverlening.",
+    "ap_code": "AP001063",
+    "ap_short": "AP01.03  Het realiseren van een laagdrempelige, klantvriendelijke, duidelijke en efficiënte dienstve",
+    "ap_long": "AP01.03  Het realiseren van een laagdrempelige, klantvriendelijke, duidelijke en efficiënte dienstverlening op maat van de burger.",
+    "ac_code": "AC010632",
+    "ac_short": "A01.03.03 Infrastructurele aanpassingen doorvoeren in het administratief centrum met het oog op de c",
+    "ac_long": "A01.03.03 Infrastructurele aanpassingen doorvoeren in het administratief centrum met het oog op de creatie van een open huis.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 10000.0,
-    "amount_per_capita": 0.64,
+    "total_amount": 7700.0,
+    "amount_per_capita": 0.49,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 7700.0,
       "2027": 0,
-      "2028": 10000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.49,
       "2027": 0,
-      "2028": 0.64,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1634,22 +1804,22 @@
   {
     "municipality": "Lummen",
     "nis_code": "71037",
-    "bd_code": "BD001002",
-    "bd_short": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen",
-    "bd_long": "BD02  Het verzekeren van een warm en zorgzaam Lummen voor iedereen.",
-    "ap_code": "AP001026",
-    "ap_short": "AP02.06 Het verzekeren van een Lummen dat ook het welzijn van dieren vooropstelt",
-    "ap_long": "AP02.06 Het verzekeren van een Lummen dat ook het welzijn van dieren vooropstelt.",
-    "ac_code": "AC010261",
-    "ac_short": "A02.06.01 Bij het nemen van beslissingen wordt ook de impact op dierenwelzijn afgetoetst",
-    "ac_long": "A02.06.01 Bij het nemen van beslissingen wordt ook de impact op dierenwelzijn afgetoetst.",
+    "bd_code": "BD001009",
+    "bd_short": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van ee",
+    "bd_long": "BD09  Optimaliseren en professionaliseren van de interne werking met het oog op de realisatie van een moderne en wendbare organisatie.",
+    "ap_code": "AP001094",
+    "ap_short": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkade",
+    "ap_long": "AP09.04 Alle medewerkers beschikken over een secure en performante ICT-omgeving met de nodige omkadering om eigenaarschap op te nemen voor een efficiënte manier van werken.",
+    "ac_code": "AC010944",
+    "ac_short": "A09.04.04 Juiste keuzes en optimaal gebruik van de in de organisatie gebruikte toepassingssoftware",
+    "ac_long": "A09.04.04 Juiste keuzes en optimaal gebruik van de in de organisatie gebruikte toepassingssoftware.",
     "categories": [
-      "04-veiligheidszorg"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 2201.0,
-    "amount_per_capita": 0.14,
+    "total_amount": 4176.75,
+    "amount_per_capita": 0.27,
     "yearly_amounts": {
-      "2026": 2201.0,
+      "2026": 4176.75,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1657,7 +1827,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.14,
+      "2026": 0.27,
       "2027": 0,
       "2028": 0,
       "2029": 0,

@@ -2,35 +2,205 @@
   {
     "municipality": "Heuvelland",
     "nis_code": "33039",
-    "bd_code": "D09",
-    "bd_short": "SDG 16: Effectieve Dienstverlening en Transparant Bestuur",
-    "bd_long": "Kwalitatieve omschrijving: Effectieve Dienstverlening en Transparant Bestuur in Heuvelland staat voor het continu verbeteren van de gemeentelijke diensten en interne processen. Dit omvat de optimalisatie van administratie, communicatie en personeelsbeleid, met een sterke nadruk op efficiëntie, digitalisering, veiligheid en een klantgerichte benadering, zowel intern als extern. Ons doel is een robuuste, responsieve en transparante overheid die naadloos inspeelt op de behoeften van inwoners en medewerkers.",
-    "ap_code": "AP",
-    "ap_short": "Actieplan 1: Digitalisering en Procesoptimalisatie",
-    "ap_long": "Dit actieplan richt zich op het digitaliseren en stroomlijnen van interne processen en dienstverlening om de efficiëntie en toegankelijkheid te vergroten.",
-    "ac_code": "A",
-    "ac_short": "1.1 Actie: ICT-Infrastructuur en Beveiliging",
-    "ac_long": "Deze actie omvat de optimalisatie, modernisering en beveiliging van de ICT-infrastructuur van de gemeente, inclusief servers, netwerken en telefonie.",
+    "bd_code": "D03-3SDG06",
+    "bd_short": "SDG 06: Schoon water en bescherming van lokale waterlopen",
+    "bd_long": "Kwalitatieve omschrijving: Schoon water en sanitaire voorzieningen zijn essentieel voor de gezondheid en het welzijn van onze inwoners en voor een duurzaam leefmilieu. Voor Heuvelland betekent dit concrete investeringen in infrastructuur, effectief waterbeheer en het stimuleren van verantwoord watergebruik bij onze inwoners. Onze actieplannen richten zich op het verbeteren van de waterkwaliteit en de sanitaire voorzieningen in de hele gemeente.",
+    "ap_code": "AP-30601",
+    "ap_short": "Actieplan 1: Investeringen in Riolering en Waterbeheer",
+    "ap_long": "Dit actieplan omvat projecten gericht op de aanleg, vernieuwing en sanering van rioleringssystemen, het verbeteren van de waterkwaliteit, en het bevorderen van een duurzaam waterlandschap.",
+    "ac_code": "A-3060101",
+    "ac_short": "1.1 Actie: Rioleringsinfrastructuur en Sanering",
+    "ac_long": "Deze actie focust op de bouw en verbetering van rioleringen met bijhorende wegenisaanpassingen en de sanering van vervuilde lozingspunten om de waterkwaliteit te waarborgen (in samenwerking met fluvius) .",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3904721.0,
+    "amount_per_capita": 481.11,
+    "yearly_amounts": {
+      "2026": 704721.0,
+      "2027": 400000.0,
+      "2028": 0,
+      "2029": 500000.0,
+      "2030": 1300000.0,
+      "2031": 1000000.0
+    },
+    "yearly_per_capita": {
+      "2026": 86.83,
+      "2027": 49.29,
+      "2028": 0,
+      "2029": 61.61,
+      "2030": 160.18,
+      "2031": 123.21
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21101",
+    "ap_short": "Actieplan 1: Publieke Ruimte en Mobiliteit",
+    "ap_long": "Dit actieplan richt zich op het inrichten, onderhouden en verbeteren van de publieke ruimte en infrastructuur, met een sterke focus op veilige en duurzame mobiliteit.",
+    "ac_code": "A-2110102",
+    "ac_short": "1.2 Actie: Onderhoud en Inrichting Wegen en Voetpaden",
+    "ac_long": "Deze actie richt zich op het onderhoud en de herinrichting van landelijke wegen, voetpaden, en de categorisering van wegen om de toegankelijkheid en kwaliteit van de infrastructuur te garanderen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3416674.92,
+    "amount_per_capita": 420.98,
+    "yearly_amounts": {
+      "2026": 416674.92,
+      "2027": 100000.0,
+      "2028": 1100000.0,
+      "2029": 1100000.0,
+      "2030": 600000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 51.34,
+      "2027": 12.32,
+      "2028": 135.53,
+      "2029": 135.53,
+      "2030": 73.93,
+      "2031": 12.32
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21102",
+    "ap_short": "Actieplan 2: Gemeentelijke Gebouwen en Voorzieningen",
+    "ap_long": "Dit actieplan focust op de renovatie, het onderhoud en de optimalisatie van gemeentelijke gebouwen, inclusief ontmoetingscentra, sporthallen en andere publieke voorzieningen.",
+    "ac_code": "A-2110201",
+    "ac_short": "2.1 Actie: Renovatie en Beheer van Ontmoetingscentra en Culturele Infrastructuur",
+    "ac_long": "Deze actie richt zich op het aanpassen en optimaliseren van ontmoetingscentra en culturele gebouwen om hun functionaliteit, aantrekkelijkheid en duurzaamheid te verhogen.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 21839916.0,
-    "amount_per_capita": 2676.62,
+    "total_amount": 3179155.74,
+    "amount_per_capita": 391.71,
     "yearly_amounts": {
-      "2026": 4510650.0,
-      "2027": 4730520.0,
-      "2028": 4725796.0,
-      "2029": 3690440.0,
-      "2030": 2699133.0,
-      "2031": 1483377.0
+      "2026": 429155.74,
+      "2027": 200000.0,
+      "2028": 1350000.0,
+      "2029": 1200000.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 552.81,
-      "2027": 579.75,
-      "2028": 579.18,
-      "2029": 452.29,
-      "2030": 330.8,
-      "2031": 181.8
+      "2026": 52.88,
+      "2027": 24.64,
+      "2028": 166.34,
+      "2029": 147.86,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21101",
+    "ap_short": "Actieplan 1: Publieke Ruimte en Mobiliteit",
+    "ap_long": "Dit actieplan richt zich op het inrichten, onderhouden en verbeteren van de publieke ruimte en infrastructuur, met een sterke focus op veilige en duurzame mobiliteit.",
+    "ac_code": "A-2110101",
+    "ac_short": "1.1 Actie: Fietsinfrastructuur en Verkeersveiligheid",
+    "ac_long": "Deze actie omvat de aanleg van fietspaden en de verbetering van fietsvoorzieningen op gemeentewegen, evenals ondersteunende acties voor fietsverkeer",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3014017.32,
+    "amount_per_capita": 371.37,
+    "yearly_amounts": {
+      "2026": 1314017.32,
+      "2027": 1000000.0,
+      "2028": 700000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 161.9,
+      "2027": 123.21,
+      "2028": 86.25,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21103",
+    "ap_short": "Actieplan 3: Erfgoed en Culturele Ontwikkeling",
+    "ap_long": "Dit actieplan zet in op het behoud en de ontsluiting van erfgoed, de ontwikkeling van culturele activiteiten, en het bevorderen van kunst in de publieke ruimte.",
+    "ac_code": "A-2110301",
+    "ac_short": "3.1 Actie: Behoud en Restauratie van Erfgoed",
+    "ac_long": "Deze actie richt zich op de restauratie van kerkhoven en monumenten, evenals het inventariseren en waarderen van divers erfgoed binnen de gemeente.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1365923.41,
+    "amount_per_capita": 168.3,
+    "yearly_amounts": {
+      "2026": 635923.41,
+      "2027": 190000.0,
+      "2028": 230000.0,
+      "2029": 150000.0,
+      "2030": 80000.0,
+      "2031": 80000.0
+    },
+    "yearly_per_capita": {
+      "2026": 78.35,
+      "2027": 23.41,
+      "2028": 28.34,
+      "2029": 18.48,
+      "2030": 9.86,
+      "2031": 9.86
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D01-1SDG03",
+    "bd_short": "SDG 03: Goede Gezondheid en Welzijn",
+    "bd_long": "Kwalitatieve omschrijving: Goede Gezondheid en Welzijn is een fundamentele pijler voor een veerkrachtige en bloeiende gemeenschap, en vormt de kern van de inspanningen van Heuvelland. Dit omvat niet alleen de afwezigheid van ziekte, maar ook een compleet fysiek, mentaal en sociaal welzijn voor al onze inwoners. Onze actieplannen en de bijbehorende acties zijn erop gericht om dit brede concept te realiseren.",
+    "ap_code": "AP-10303",
+    "ap_short": "Actieplan 3: Sport en Recreatie",
+    "ap_long": "Dit actieplan bevordert sport en recreatie door het aanbieden van diverse sportieve mogelijkheden en het onderhouden van de benodigde infrastructuur. Hierbij wordt rekening gehouden met verschillende doelgroepen, van schoolgaande jeugd tot senioren en gemeentepersoneel.",
+    "ac_code": "A-1030301",
+    "ac_short": "3.1 Actie: Sportinfrastructuur en Onderhoud",
+    "ac_long": "Deze actie richt zich op de aanleg, uitbouw en het onderhoud van sport- en recreatievoorzieningen, inclusief de bouw van een sportzaal",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1250803.36,
+    "amount_per_capita": 154.12,
+    "yearly_amounts": {
+      "2026": 220803.36,
+      "2027": 950000.0,
+      "2028": 80000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 27.21,
+      "2027": 117.05,
+      "2028": 9.86,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -39,32 +209,1562 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GAP",
+    "ap_code": "GAP-417",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG17",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-17-FIN",
+    "ac_short": "Gelijkblijvend beleid Financiën - SDG17",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1247402.0,
+    "amount_per_capita": 153.7,
+    "yearly_amounts": {
+      "2026": 204478.0,
+      "2027": 205624.0,
+      "2028": 206774.0,
+      "2029": 207925.0,
+      "2030": 210160.0,
+      "2031": 212441.0
+    },
+    "yearly_per_capita": {
+      "2026": 25.19,
+      "2027": 25.34,
+      "2028": 25.48,
+      "2029": 25.62,
+      "2030": 25.89,
+      "2031": 26.18
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D07-3SDG13",
+    "bd_short": "SDG 13: Klimaatactie",
+    "bd_long": "Kwalitatieve omschrijving: Klimaatactie in Heuvelland richt zich op het aanpakken van klimaatverandering en de gevolgen daarvan. Dit betekent concreet investeren in waterbeheer om zowel droogte als wateroverlast tegen te gaan, het stimuleren van ontharding en vergroening, en het bevorderen van duurzame mobiliteit en energie. Ons doel is een klimaatbestendig en groener Heuvelland te creëren.",
+    "ap_code": "AP-31301",
+    "ap_short": "Actieplan 1: Waterbeheer en Ontharding",
+    "ap_long": "Dit actieplan focust op maatregelen om wateroverlast en droogte tegen te gaan, door de aanleg van bufferbekkens, grootschalige ontharding en vergroening van zowel publieke als private ruimtes.",
+    "ac_code": "A-3130101",
+    "ac_short": "1.1 Actie: Onthardingsprojecten",
+    "ac_long": "Deze actie omvat de uitvoering van grootschalige onthardingsprojecten om de waterhuishouding te verbeteren en waterdoorlatendheid te vergroten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1242935.03,
+    "amount_per_capita": 153.15,
+    "yearly_amounts": {
+      "2026": 742935.03,
+      "2027": 0,
+      "2028": 400000.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 91.54,
+      "2027": 0,
+      "2028": 49.29,
+      "2029": 12.32,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D01-1SDG03",
+    "bd_short": "SDG 03: Goede Gezondheid en Welzijn",
+    "bd_long": "Kwalitatieve omschrijving: Goede Gezondheid en Welzijn is een fundamentele pijler voor een veerkrachtige en bloeiende gemeenschap, en vormt de kern van de inspanningen van Heuvelland. Dit omvat niet alleen de afwezigheid van ziekte, maar ook een compleet fysiek, mentaal en sociaal welzijn voor al onze inwoners. Onze actieplannen en de bijbehorende acties zijn erop gericht om dit brede concept te realiseren.",
+    "ap_code": "AP-10302",
+    "ap_short": "Actieplan 2: Ouderenzorg en Lokaal Dienstencentrum (LDC)",
+    "ap_long": "Dit actieplan richt zich op de verbetering en uitbreiding van de ouderenzorgfaciliteiten en de ontwikkeling van het Lokaal Dienstencentrum (LDC) als centraal punt voor diensten. Het omvat investeringen in infrastructuur  van het Woonzorgcentrum (WZC), en de ontwikkeling van een breed activiteitenaanbod voor senioren en andere kwetsbare doelgroepen.",
+    "ac_code": "A-1030201",
+    "ac_short": "2.1 Actie: Infrastructuur WZC en LDC",
+    "ac_long": "Deze actie omvat de optimalisatie van het Woonzorgcentrum en de bouw van het Lokaal Dienstencentrum, inclusief aanpassingen aan het binnenklimaat en toegankelijkheid.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 960000.0,
+    "amount_per_capita": 118.28,
+    "yearly_amounts": {
+      "2026": 440000.0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 25000.0,
+      "2030": 375000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 54.21,
+      "2027": 2.46,
+      "2028": 0,
+      "2029": 3.08,
+      "2030": 46.21,
+      "2031": 12.32
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21102",
+    "ap_short": "Actieplan 2: Gemeentelijke Gebouwen en Voorzieningen",
+    "ap_long": "Dit actieplan focust op de renovatie, het onderhoud en de optimalisatie van gemeentelijke gebouwen, inclusief ontmoetingscentra, sporthallen en andere publieke voorzieningen.",
+    "ac_code": "A-2110203",
+    "ac_short": "2.3 Actie: Verduurzaming en Onderhoud van Sportinfrastructuur",
+    "ac_long": "Deze actie omvat de energetische renovatie van de sporthal en de verbetering van sportvelden, met een focus op duurzaamheid en functionaliteit.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 912000.0,
+    "amount_per_capita": 112.37,
+    "yearly_amounts": {
+      "2026": 160000.0,
+      "2027": 752000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.71,
+      "2027": 92.66,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21102",
+    "ap_short": "Actieplan 2: Gemeentelijke Gebouwen en Voorzieningen",
+    "ap_long": "Dit actieplan focust op de renovatie, het onderhoud en de optimalisatie van gemeentelijke gebouwen, inclusief ontmoetingscentra, sporthallen en andere publieke voorzieningen.",
+    "ac_code": "A-2110204",
+    "ac_short": "2.4 Actie: Jeugd- en Gemeenschapsinfrastructuur",
+    "ac_long": "Deze actie is gericht op het creëren en onderhouden van veilige en kwalitatieve jeugdinfrastructuur, inclusief speelterreinen en ruimtes voor jongeren, en het verwerven van cruciale gronden voor gemeenschapsfuncties.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 903053.22,
+    "amount_per_capita": 111.27,
+    "yearly_amounts": {
+      "2026": 193053.22,
+      "2027": 290000.0,
+      "2028": 230000.0,
+      "2029": 130000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 23.79,
+      "2027": 35.73,
+      "2028": 28.34,
+      "2029": 16.02,
+      "2030": 3.7,
+      "2031": 3.7
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-207",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG07",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-07-FIN",
+    "ac_short": "Gelijkblijvend beleid Financiën - SDG07",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 893788.0,
+    "amount_per_capita": 110.13,
+    "yearly_amounts": {
+      "2026": 248858.0,
+      "2027": 249015.0,
+      "2028": 248242.0,
+      "2029": 15965.0,
+      "2030": 15497.0,
+      "2031": 116211.0
+    },
+    "yearly_per_capita": {
+      "2026": 30.66,
+      "2027": 30.68,
+      "2028": 30.59,
+      "2029": 1.97,
+      "2030": 1.91,
+      "2031": 14.32
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D09-4SDG16",
+    "bd_short": "SDG 16: Effectieve Dienstverlening en Transparant Bestuur",
+    "bd_long": "Kwalitatieve omschrijving: Effectieve Dienstverlening en Transparant Bestuur in Heuvelland staat voor het continu verbeteren van de gemeentelijke diensten en interne processen. Dit omvat de optimalisatie van administratie, communicatie en personeelsbeleid, met een sterke nadruk op efficiëntie, digitalisering, veiligheid en een klantgerichte benadering, zowel intern als extern. Ons doel is een robuuste, responsieve en transparante overheid die naadloos inspeelt op de behoeften van inwoners en medewerkers.",
+    "ap_code": "AP-41605",
+    "ap_short": "Actieplan 5: Vastgoed en Facilitaire Diensten",
+    "ap_long": "Dit actieplan omvat het efficiënte beheer van gemeentelijke gebouwen en middelen, inclusief onderhoud, renovatie en aankoop van strategisch vastgoed.",
+    "ac_code": "A-4160502",
+    "ac_short": "5.2 Actie: Strategische Vastgoedtransacties",
+    "ac_long": "Deze actie omvat de aankoop of verkoop van strategisch vastgoed dat essentieel is voor de publieke dienstverlening.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 650000.0,
+    "amount_per_capita": 80.09,
+    "yearly_amounts": {
+      "2026": 650000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 80.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21105",
+    "ap_short": "Actieplan 5: Efficiënte Dienstverlening en Technisch Beheer",
+    "ap_long": "Dit actieplan richt zich op het optimaliseren van de gemeentelijke technische diensten, het beheer van materiaal en wagenpark, en het verbeteren van processen.",
+    "ac_code": "A-2110501",
+    "ac_short": "5.1 Actie: Optimalisatie Technische Dienst en Materieel",
+    "ac_long": "Deze actie omvat de investering in een ploeg wegenbouw, de aanschaf en het onderhoud van machines en voertuigen, en de digitalisering van de werking van de technische dienst.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 633585.86,
+    "amount_per_capita": 78.07,
+    "yearly_amounts": {
+      "2026": 324965.86,
+      "2027": 128620.0,
+      "2028": 135000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 40.04,
+      "2027": 15.85,
+      "2028": 16.63,
+      "2029": 1.85,
+      "2030": 1.85,
+      "2031": 1.85
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D09-4SDG16",
+    "bd_short": "SDG 16: Effectieve Dienstverlening en Transparant Bestuur",
+    "bd_long": "Kwalitatieve omschrijving: Effectieve Dienstverlening en Transparant Bestuur in Heuvelland staat voor het continu verbeteren van de gemeentelijke diensten en interne processen. Dit omvat de optimalisatie van administratie, communicatie en personeelsbeleid, met een sterke nadruk op efficiëntie, digitalisering, veiligheid en een klantgerichte benadering, zowel intern als extern. Ons doel is een robuuste, responsieve en transparante overheid die naadloos inspeelt op de behoeften van inwoners en medewerkers.",
+    "ap_code": "AP-41605",
+    "ap_short": "Actieplan 5: Vastgoed en Facilitaire Diensten",
+    "ap_long": "Dit actieplan omvat het efficiënte beheer van gemeentelijke gebouwen en middelen, inclusief onderhoud, renovatie en aankoop van strategisch vastgoed.",
+    "ac_code": "A-4160501",
+    "ac_short": "5.1 Actie: Gebouwbeheer en Centrale Faciliteiten",
+    "ac_long": "Deze actie richt zich op het renoveren en centraliseren van diensten in gemeentelijke gebouwen, het opstellen van beheers- en onderhoudsplannen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 61.61,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 250000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.16,
+      "2027": 30.8,
+      "2028": 6.16,
+      "2029": 6.16,
+      "2030": 6.16,
+      "2031": 6.16
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-103",
     "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG03",
     "ap_long": "Commentaar:",
-    "ac_code": "G",
+    "ac_code": "G-03-WZC",
     "ac_short": "Gelijkblijvend beleid WZC - SDG03",
     "ac_long": "Commentaar:",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 3323229.0,
-    "amount_per_capita": 407.28,
+    "total_amount": 457343.11,
+    "amount_per_capita": 56.35,
     "yearly_amounts": {
-      "2026": 750112.0,
-      "2027": 633260.0,
-      "2028": 763569.0,
-      "2029": 317400.0,
-      "2030": 401729.0,
-      "2031": 457159.0
+      "2026": 244843.11,
+      "2027": 42500.0,
+      "2028": 42500.0,
+      "2029": 42500.0,
+      "2030": 42500.0,
+      "2031": 42500.0
     },
     "yearly_per_capita": {
-      "2026": 91.93,
-      "2027": 77.61,
-      "2028": 93.58,
-      "2029": 38.9,
-      "2030": 49.23,
-      "2031": 56.03
+      "2026": 30.17,
+      "2027": 5.24,
+      "2028": 5.24,
+      "2029": 5.24,
+      "2030": 5.24,
+      "2031": 5.24
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21101",
+    "ap_short": "Actieplan 1: Publieke Ruimte en Mobiliteit",
+    "ap_long": "Dit actieplan richt zich op het inrichten, onderhouden en verbeteren van de publieke ruimte en infrastructuur, met een sterke focus op veilige en duurzame mobiliteit.",
+    "ac_code": "A-2110103",
+    "ac_short": "1.3 Actie: Beheer en Ontwikkeling van Evenementenzones en Publieke Ruimtes",
+    "ac_long": "Deze actie omvat de professionalisering van evenementenzones en het inrichten van attractieve, groene en toegankelijke publieke ruimtes voor recreatie en ontmoeting.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 430458.32,
+    "amount_per_capita": 53.04,
+    "yearly_amounts": {
+      "2026": 100458.32,
+      "2027": 110000.0,
+      "2028": 145000.0,
+      "2029": 45000.0,
+      "2030": 30000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.38,
+      "2027": 13.55,
+      "2028": 17.87,
+      "2029": 5.54,
+      "2030": 3.7,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D09-4SDG16",
+    "bd_short": "SDG 16: Effectieve Dienstverlening en Transparant Bestuur",
+    "bd_long": "Kwalitatieve omschrijving: Effectieve Dienstverlening en Transparant Bestuur in Heuvelland staat voor het continu verbeteren van de gemeentelijke diensten en interne processen. Dit omvat de optimalisatie van administratie, communicatie en personeelsbeleid, met een sterke nadruk op efficiëntie, digitalisering, veiligheid en een klantgerichte benadering, zowel intern als extern. Ons doel is een robuuste, responsieve en transparante overheid die naadloos inspeelt op de behoeften van inwoners en medewerkers.",
+    "ap_code": "AP-41601",
+    "ap_short": "Actieplan 1: Digitalisering en Procesoptimalisatie",
+    "ap_long": "Dit actieplan richt zich op het digitaliseren en stroomlijnen van interne processen en dienstverlening om de efficiëntie en toegankelijkheid te vergroten.",
+    "ac_code": "A-4160101",
+    "ac_short": "1.1 Actie: ICT-Infrastructuur en Beveiliging",
+    "ac_long": "Deze actie omvat de optimalisatie, modernisering en beveiliging van de ICT-infrastructuur van de gemeente, inclusief servers, netwerken en telefonie.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 410674.65,
+    "amount_per_capita": 50.6,
+    "yearly_amounts": {
+      "2026": 118228.65,
+      "2027": 55700.0,
+      "2028": 57296.0,
+      "2029": 58940.0,
+      "2030": 60633.0,
+      "2031": 59877.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.57,
+      "2027": 6.86,
+      "2028": 7.06,
+      "2029": 7.26,
+      "2030": 7.47,
+      "2031": 7.38
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21102",
+    "ap_short": "Actieplan 2: Gemeentelijke Gebouwen en Voorzieningen",
+    "ap_long": "Dit actieplan focust op de renovatie, het onderhoud en de optimalisatie van gemeentelijke gebouwen, inclusief ontmoetingscentra, sporthallen en andere publieke voorzieningen.",
+    "ac_code": "A-2110202",
+    "ac_short": "2.2 Actie: Herbestemming steen- en buizenfabriek Dumoulin",
+    "ac_long": "Deze actie richt zich op de aankoop en herbestemming van de site van de buizenfabriek en het inrichten van een belevingsplek met onthaalinfrastructuur.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 407570.0,
+    "amount_per_capita": 50.22,
+    "yearly_amounts": {
+      "2026": 57570.0,
+      "2027": 0,
+      "2028": 200000.0,
+      "2029": 150000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.09,
+      "2027": 0,
+      "2028": 24.64,
+      "2029": 18.48,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-211",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG11",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-11-TD-OW",
+    "ac_short": "Gelijkblijvend beleid Technische dienst - Openbare Werken - SDG11",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 329543.4,
+    "amount_per_capita": 40.6,
+    "yearly_amounts": {
+      "2026": 109543.4,
+      "2027": 0,
+      "2028": 110000.0,
+      "2029": 0,
+      "2030": 80000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 13.5,
+      "2027": 0,
+      "2028": 13.55,
+      "2029": 0,
+      "2030": 9.86,
+      "2031": 3.7
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21103",
+    "ap_short": "Actieplan 3: Erfgoed en Culturele Ontwikkeling",
+    "ap_long": "Dit actieplan zet in op het behoud en de ontsluiting van erfgoed, de ontwikkeling van culturele activiteiten, en het bevorderen van kunst in de publieke ruimte.",
+    "ac_code": "A-2110303",
+    "ac_short": "3.3 Actie: Bibliotheek en Archiefbeleid",
+    "ac_long": "Deze actie richt zich op de aanpassing van de bibliotheekgebouwen, het beheren van de collectie en archieven, en het inzetten van digitale tools voor een modern cultureel aanbod.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 319548.46,
+    "amount_per_capita": 39.37,
+    "yearly_amounts": {
+      "2026": 294548.46,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 36.29,
+      "2027": 3.08,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D07-3SDG13",
+    "bd_short": "SDG 13: Klimaatactie",
+    "bd_long": "Kwalitatieve omschrijving: Klimaatactie in Heuvelland richt zich op het aanpakken van klimaatverandering en de gevolgen daarvan. Dit betekent concreet investeren in waterbeheer om zowel droogte als wateroverlast tegen te gaan, het stimuleren van ontharding en vergroening, en het bevorderen van duurzame mobiliteit en energie. Ons doel is een klimaatbestendig en groener Heuvelland te creëren.",
+    "ap_code": "AP-31301",
+    "ap_short": "Actieplan 1: Waterbeheer en Ontharding",
+    "ap_long": "Dit actieplan focust op maatregelen om wateroverlast en droogte tegen te gaan, door de aanleg van bufferbekkens, grootschalige ontharding en vergroening van zowel publieke als private ruimtes.",
+    "ac_code": "A-3130102",
+    "ac_short": "1.2 Actie: Erosiebestrijding en Wateradvies",
+    "ac_long": "Deze actie richt zich op het uitvoeren van erosiemaatregelen en het inzetten van deskundigheid om de afkoppeling van hemelwater te optimaliseren.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 310000.0,
+    "amount_per_capita": 38.2,
+    "yearly_amounts": {
+      "2026": 55000.0,
+      "2027": 35000.0,
+      "2028": 0,
+      "2029": 110000.0,
+      "2030": 110000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.78,
+      "2027": 4.31,
+      "2028": 0,
+      "2029": 13.55,
+      "2030": 13.55,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-211",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG11",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-11-MIL",
+    "ac_short": "Gelijkblijvend beleid Milieu - SDG11",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 293639.4,
+    "amount_per_capita": 36.18,
+    "yearly_amounts": {
+      "2026": 96215.4,
+      "2027": 90000.0,
+      "2028": 107424.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.86,
+      "2027": 11.09,
+      "2028": 13.24,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D08-3SDG15",
+    "bd_short": "SDG 15: Leven op het land",
+    "bd_long": "Kwalitatieve omschrijving: Leven op het land in Heuvelland staat voor het beschermen, herstellen en bevorderen van duurzaam gebruik van terrestrische ecosystemen. Dit omvat het vergroten van biodiversiteit door bijenvriendelijke plekken, het aanleggen van groene zones, en het duurzaam beheren van ons landschap. Daarnaast zetten we in op klimaatbestendige infrastructuur en het bevorderen van een groenere leefomgeving.",
+    "ap_code": "AP-31502",
+    "ap_short": "Actieplan 2: Klimaatbestendige Infrastructuur en Omgeving",
+    "ap_long": "Dit actieplan richt zich op het creëren van een klimaatbestendige omgeving door middel van ontharding en de realisatie van duurzame gebouwen en beheer.",
+    "ac_code": "A-3150201",
+    "ac_short": "2.1 Actie: Duurzame Gebouwen en Beheerplannen",
+    "ac_long": "Deze actie focust op het CO2-arme beheer van de eigen gebouwen en de inrichting van klimaatbestendige omgeving bij het eigen patrimonium.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 293040.78,
+    "amount_per_capita": 36.11,
+    "yearly_amounts": {
+      "2026": 293040.78,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 36.11,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-211",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG11",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-11-TD-CU",
+    "ac_short": "Gelijkblijvend beleid Technische dienst - Cultuur - SDG11",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 282907.92,
+    "amount_per_capita": 34.86,
+    "yearly_amounts": {
+      "2026": 282907.92,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 34.86,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-416",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG16",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-16-ICT",
+    "ac_short": "Gelijkblijvend beleid ICT - SDG16",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 221331.99,
+    "amount_per_capita": 27.27,
+    "yearly_amounts": {
+      "2026": 69888.99,
+      "2027": 28525.0,
+      "2028": 29381.0,
+      "2029": 30262.0,
+      "2030": 31170.0,
+      "2031": 32105.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.61,
+      "2027": 3.51,
+      "2028": 3.62,
+      "2029": 3.73,
+      "2030": 3.84,
+      "2031": 3.96
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21103",
+    "ap_short": "Actieplan 3: Erfgoed en Culturele Ontwikkeling",
+    "ap_long": "Dit actieplan zet in op het behoud en de ontsluiting van erfgoed, de ontwikkeling van culturele activiteiten, en het bevorderen van kunst in de publieke ruimte.",
+    "ac_code": "A-2110302",
+    "ac_short": "3.2 Actie: Culturele Activiteiten en Kunstbeleid",
+    "ac_long": "Deze actie omvat het organiseren van een divers cultureel programma, thematische tentoonstellingen en het opstellen van een plan voor beeldende kunsten.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 14.79,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.46,
+      "2027": 2.46,
+      "2028": 2.46,
+      "2029": 2.46,
+      "2030": 2.46,
+      "2031": 2.46
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21105",
+    "ap_short": "Actieplan 5: Efficiënte Dienstverlening en Technisch Beheer",
+    "ap_long": "Dit actieplan richt zich op het optimaliseren van de gemeentelijke technische diensten, het beheer van materiaal en wagenpark, en het verbeteren van processen.",
+    "ac_code": "A-2110502",
+    "ac_short": "5.2 Actie: Diversen Efficiëntie en Beheer",
+    "ac_long": "Deze actie omvat diverse projecten die bijdragen aan de algemene efficiëntie en het beheer van gemeentelijke middelen en processen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 108906.96,
+    "amount_per_capita": 13.42,
+    "yearly_amounts": {
+      "2026": 33906.96,
+      "2027": 55000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.18,
+      "2027": 6.78,
+      "2028": 0.62,
+      "2029": 0.62,
+      "2030": 0.62,
+      "2031": 0.62
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D09-4SDG16",
+    "bd_short": "SDG 16: Effectieve Dienstverlening en Transparant Bestuur",
+    "bd_long": "Kwalitatieve omschrijving: Effectieve Dienstverlening en Transparant Bestuur in Heuvelland staat voor het continu verbeteren van de gemeentelijke diensten en interne processen. Dit omvat de optimalisatie van administratie, communicatie en personeelsbeleid, met een sterke nadruk op efficiëntie, digitalisering, veiligheid en een klantgerichte benadering, zowel intern als extern. Ons doel is een robuuste, responsieve en transparante overheid die naadloos inspeelt op de behoeften van inwoners en medewerkers.",
+    "ap_code": "AP-41603",
+    "ap_short": "Actieplan 3: Burgers en Gemeenschap",
+    "ap_long": "Dit actieplan richt zich op het versterken van de relatie met de burger, het faciliteren van gemeenschapsactiviteiten en het bieden van ondersteuning aan kwetsbare groepen.",
+    "ac_code": "A-4160303",
+    "ac_short": "3.3 Actie: Specifieke Zorg en Ondersteuning",
+    "ac_long": "Deze actie omvat de opstart van een welzijnsvereniging en de aankoop van een bus.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 108000.0,
+    "amount_per_capita": 13.31,
+    "yearly_amounts": {
+      "2026": 105000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 3000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.94,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.37,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D05-2SDG08",
+    "bd_short": "SDG 08: Eerlijk werk en economische groei",
+    "bd_long": "Kwalitatieve omschrijving: Eerlijk werk en economische groei zijn cruciaal voor een bloeiende en welvarende gemeenschap in Heuvelland. Dit betekent het stimuleren van lokaal ondernemerschap, het ontwikkelen van duurzaam toerisme, en het creëren van kansen voor werkzoekenden. Onze actieplannen zijn gericht op het ondersteunen van diverse economische sectoren en het versterken van de lokale arbeidsmarkt.",
+    "ap_code": "AP-20801",
+    "ap_short": "Actieplan 1: Toerisme en Bezoekersbeleving",
+    "ap_long": "Dit actieplan focust op het verbeteren van de toeristische infrastructuur, het promoten van het toeristisch aanbod, en het creëren van unieke bezoekerservaringen.",
+    "ac_code": "A-2080103",
+    "ac_short": "1.3 Actie: Beheer en Ontwikkeling van Herdenkingssites",
+    "ac_long": "Deze actie richt zich op het inzetten op onthaal en beleving bij herdenkingsparken en het beheer van gerelateerde sites.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 12.32,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.16,
+      "2027": 6.16,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D09-4SDG16",
+    "bd_short": "SDG 16: Effectieve Dienstverlening en Transparant Bestuur",
+    "bd_long": "Kwalitatieve omschrijving: Effectieve Dienstverlening en Transparant Bestuur in Heuvelland staat voor het continu verbeteren van de gemeentelijke diensten en interne processen. Dit omvat de optimalisatie van administratie, communicatie en personeelsbeleid, met een sterke nadruk op efficiëntie, digitalisering, veiligheid en een klantgerichte benadering, zowel intern als extern. Ons doel is een robuuste, responsieve en transparante overheid die naadloos inspeelt op de behoeften van inwoners en medewerkers.",
+    "ap_code": "AP-41605",
+    "ap_short": "Actieplan 5: Vastgoed en Facilitaire Diensten",
+    "ap_long": "Dit actieplan omvat het efficiënte beheer van gemeentelijke gebouwen en middelen, inclusief onderhoud, renovatie en aankoop van strategisch vastgoed.",
+    "ac_code": "A-4160503",
+    "ac_short": "5.3 Actie: Beheer van Begraafplaatsen",
+    "ac_long": "Deze actie richt zich op het onderhoud en de optimalisatie van begraafplaatsen in groene openbare ruimtes.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 12.32,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.32,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-416",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG16",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-16-PERS",
+    "ac_short": "Gelijkblijvend beleid Personeelsdienst - SDG16",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 85000.0,
+    "amount_per_capita": 10.47,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 10000.0,
+      "2028": 11500.0,
+      "2029": 13000.0,
+      "2030": 14500.0,
+      "2031": 16000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.46,
+      "2027": 1.23,
+      "2028": 1.42,
+      "2029": 1.6,
+      "2030": 1.79,
+      "2031": 1.97
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D09-4SDG16",
+    "bd_short": "SDG 16: Effectieve Dienstverlening en Transparant Bestuur",
+    "bd_long": "Kwalitatieve omschrijving: Effectieve Dienstverlening en Transparant Bestuur in Heuvelland staat voor het continu verbeteren van de gemeentelijke diensten en interne processen. Dit omvat de optimalisatie van administratie, communicatie en personeelsbeleid, met een sterke nadruk op efficiëntie, digitalisering, veiligheid en een klantgerichte benadering, zowel intern als extern. Ons doel is een robuuste, responsieve en transparante overheid die naadloos inspeelt op de behoeften van inwoners en medewerkers.",
+    "ap_code": "AP-41602",
+    "ap_short": "Actieplan 2: Personeelsbeleid en Organisatieontwikkeling",
+    "ap_long": "Dit actieplan richt zich op het ontwikkelen en implementeren van een modern en mensgericht personeelsbeleid dat bijdraagt aan een levendige en performante organisatiecultuur.",
+    "ac_code": "A-4160201",
+    "ac_short": "2.1 Actie: Personeelsadministratie en Loonbeleid",
+    "ac_long": "Deze actie omvat het actualiseren van regelingen, optimaliseren van loonpakketten en efficiënt beheren van personeelsadministratie.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 85000.0,
+    "amount_per_capita": 10.47,
+    "yearly_amounts": {
+      "2026": 35000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.31,
+      "2027": 1.23,
+      "2028": 1.23,
+      "2029": 1.23,
+      "2030": 1.23,
+      "2031": 1.23
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D04-2SDG07",
+    "bd_short": "SDG 07: Betaalbare en duurzame energie",
+    "bd_long": "Kwalitatieve omschrijving: Betaalbare en duurzame energie is cruciaal voor een toekomstbestendig Heuvelland. Dit betekent investeren in hernieuwbare energiebronnen en slimme energietechnologieën om de energie-efficiëntie te verhogen en onze ecologische voetafdruk te verkleinen, terwijl de kosten voor onze gemeenschap beheersbaar blijven.",
+    "ap_code": "AP-20701",
+    "ap_short": "Actieplan 1: Implementatie van Duurzame Energiebronnen",
+    "ap_long": "Dit actieplan focust op de concrete uitrol van hernieuwbare energie-initiatieven binnen de gemeentelijke infrastructuur.",
+    "ac_code": "A-2070101",
+    "ac_short": "1.1 Actie: Plaatsing van Zonnepanelen en Energieopslag",
+    "ac_long": "Deze actie omvat de installatie van zonnepanelen op gemeentelijke gebouwen, aangevuld met batterijopslag en de mogelijkheid tot energiedelen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 61288.28,
+    "amount_per_capita": 7.55,
+    "yearly_amounts": {
+      "2026": 61288.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D01-1SDG03",
+    "bd_short": "SDG 03: Goede Gezondheid en Welzijn",
+    "bd_long": "Kwalitatieve omschrijving: Goede Gezondheid en Welzijn is een fundamentele pijler voor een veerkrachtige en bloeiende gemeenschap, en vormt de kern van de inspanningen van Heuvelland. Dit omvat niet alleen de afwezigheid van ziekte, maar ook een compleet fysiek, mentaal en sociaal welzijn voor al onze inwoners. Onze actieplannen en de bijbehorende acties zijn erop gericht om dit brede concept te realiseren.",
+    "ap_code": "AP-10302",
+    "ap_short": "Actieplan 2: Ouderenzorg en Lokaal Dienstencentrum (LDC)",
+    "ap_long": "Dit actieplan richt zich op de verbetering en uitbreiding van de ouderenzorgfaciliteiten en de ontwikkeling van het Lokaal Dienstencentrum (LDC) als centraal punt voor diensten. Het omvat investeringen in infrastructuur  van het Woonzorgcentrum (WZC), en de ontwikkeling van een breed activiteitenaanbod voor senioren en andere kwetsbare doelgroepen.",
+    "ac_code": "A-1030202",
+    "ac_short": "2.2 Actie: Werking Lokaal Dienstencentrum en Ondersteuning voor Senioren",
+    "ac_long": "Deze actie richt zich op de uitbouw van een LDC-werking voor een brede doelgroep, inclusief het bevorderen van welzijn en participatie van senioren, ondersteuning van mantelzorgers en het aanbieden van diverse activiteiten en cursussen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 52500.0,
+    "amount_per_capita": 6.47,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 7500.0,
+      "2028": 7500.0,
+      "2029": 7500.0,
+      "2030": 7500.0,
+      "2031": 7500.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.85,
+      "2027": 0.92,
+      "2028": 0.92,
+      "2029": 0.92,
+      "2030": 0.92,
+      "2031": 0.92
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D09-4SDG16",
+    "bd_short": "SDG 16: Effectieve Dienstverlening en Transparant Bestuur",
+    "bd_long": "Kwalitatieve omschrijving: Effectieve Dienstverlening en Transparant Bestuur in Heuvelland staat voor het continu verbeteren van de gemeentelijke diensten en interne processen. Dit omvat de optimalisatie van administratie, communicatie en personeelsbeleid, met een sterke nadruk op efficiëntie, digitalisering, veiligheid en een klantgerichte benadering, zowel intern als extern. Ons doel is een robuuste, responsieve en transparante overheid die naadloos inspeelt op de behoeften van inwoners en medewerkers.",
+    "ap_code": "AP-41603",
+    "ap_short": "Actieplan 3: Burgers en Gemeenschap",
+    "ap_long": "Dit actieplan richt zich op het versterken van de relatie met de burger, het faciliteren van gemeenschapsactiviteiten en het bieden van ondersteuning aan kwetsbare groepen.",
+    "ac_code": "A-4160302",
+    "ac_short": "3.2 Actie: Gemeenschapsactiviteiten en Verenigingsleven",
+    "ac_long": "Deze actie richt zich op het organiseren van gemeenschapsversterkende evenementen, het ter beschikking stellen van subsidies en het bieden van inspraakmomenten voor verenigingen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 51778.37,
+    "amount_per_capita": 6.38,
+    "yearly_amounts": {
+      "2026": 51778.37,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.38,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D05-2SDG08",
+    "bd_short": "SDG 08: Eerlijk werk en economische groei",
+    "bd_long": "Kwalitatieve omschrijving: Eerlijk werk en economische groei zijn cruciaal voor een bloeiende en welvarende gemeenschap in Heuvelland. Dit betekent het stimuleren van lokaal ondernemerschap, het ontwikkelen van duurzaam toerisme, en het creëren van kansen voor werkzoekenden. Onze actieplannen zijn gericht op het ondersteunen van diverse economische sectoren en het versterken van de lokale arbeidsmarkt.",
+    "ap_code": "AP-20801",
+    "ap_short": "Actieplan 1: Toerisme en Bezoekersbeleving",
+    "ap_long": "Dit actieplan focust op het verbeteren van de toeristische infrastructuur, het promoten van het toeristisch aanbod, en het creëren van unieke bezoekerservaringen.",
+    "ac_code": "A-2080102",
+    "ac_short": "1.2 Actie: Promotie en Productontwikkeling Toerisme",
+    "ac_long": "Deze actie omvat het promoten van het toeristisch aanbod bij diverse doelgroepen, het ontwikkelen van nieuwe merkversterkende attracties en grensoverschrijdende producten, en het vernieuwen van de toeristische website.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 6.16,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 45000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.62,
+      "2027": 5.54,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D09-4SDG16",
+    "bd_short": "SDG 16: Effectieve Dienstverlening en Transparant Bestuur",
+    "bd_long": "Kwalitatieve omschrijving: Effectieve Dienstverlening en Transparant Bestuur in Heuvelland staat voor het continu verbeteren van de gemeentelijke diensten en interne processen. Dit omvat de optimalisatie van administratie, communicatie en personeelsbeleid, met een sterke nadruk op efficiëntie, digitalisering, veiligheid en een klantgerichte benadering, zowel intern als extern. Ons doel is een robuuste, responsieve en transparante overheid die naadloos inspeelt op de behoeften van inwoners en medewerkers.",
+    "ap_code": "AP-41602",
+    "ap_short": "Actieplan 2: Personeelsbeleid en Organisatieontwikkeling",
+    "ap_long": "Dit actieplan richt zich op het ontwikkelen en implementeren van een modern en mensgericht personeelsbeleid dat bijdraagt aan een levendige en performante organisatiecultuur.",
+    "ac_code": "A-4160202",
+    "ac_short": "2.2 Actie: Opleiding, Welzijn en Veiligheid Personeel",
+    "ac_long": "Deze actie richt zich op het aanbieden van opleidingen, het bevorderen van welzijn en ergonomie, en het waarborgen van de veiligheid van medewerkers.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 48929.87,
+    "amount_per_capita": 6.03,
+    "yearly_amounts": {
+      "2026": 18929.87,
+      "2027": 6000.0,
+      "2028": 6000.0,
+      "2029": 6000.0,
+      "2030": 6000.0,
+      "2031": 6000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.33,
+      "2027": 0.74,
+      "2028": 0.74,
+      "2029": 0.74,
+      "2030": 0.74,
+      "2031": 0.74
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-104",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG04",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-04-ONDRW",
+    "ac_short": "Gelijkblijvend beleid School - SDG04",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 47822.0,
+    "amount_per_capita": 5.89,
+    "yearly_amounts": {
+      "2026": 8926.0,
+      "2027": 7596.0,
+      "2028": 7748.0,
+      "2029": 7748.0,
+      "2030": 7902.0,
+      "2031": 7902.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.1,
+      "2027": 0.94,
+      "2028": 0.95,
+      "2029": 0.95,
+      "2030": 0.97,
+      "2031": 0.97
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-211",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG11",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-11-SOC",
+    "ac_short": "Gelijkblijvend beleid - Sociale Dienst - SDG 11",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 42762.93,
+    "amount_per_capita": 5.27,
+    "yearly_amounts": {
+      "2026": 42762.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D06-2SDG11",
+    "bd_short": "SDG 11: Duurzame steden en gemeenschappen met aandacht voor verantwoord hergebruik",
+    "bd_long": "Kwalitatieve omschrijving: Duurzame steden en gemeenschappen in Heuvelland bouwen we door te investeren in robuuste infrastructuur, toegankelijke publieke ruimtes en gemeenschapsvoorzieningen, en een levendig cultureel leven. Dit omvat de verbetering van mobiliteit, het behoud van erfgoed, de vernieuwing van gebouwen en de optimalisatie van onze dienstverlening, alles met het oog op een leefbare en veerkrachtige toekomst voor alle inwoners.",
+    "ap_code": "AP-21104",
+    "ap_short": "Actieplan 4: Ruimtelijke Ontwikkeling en Wonen",
+    "ap_long": "Dit actieplan omvat strategische ruimtelijke planning, het verwerven van cruciale gronden en de ondersteuning van wonen.",
+    "ac_code": "A-2110402",
+    "ac_short": "4.2 Actie: Wonen en Crisisopvang",
+    "ac_long": "Deze actie omvat de verderzetting van het intergemeentelijke samenwerkingsverband Wonen en het inrichten van crisiswoningen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 4.93,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 5000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.46,
+      "2027": 1.85,
+      "2028": 0,
+      "2029": 0.62,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D05-2SDG08",
+    "bd_short": "SDG 08: Eerlijk werk en economische groei",
+    "bd_long": "Kwalitatieve omschrijving: Eerlijk werk en economische groei zijn cruciaal voor een bloeiende en welvarende gemeenschap in Heuvelland. Dit betekent het stimuleren van lokaal ondernemerschap, het ontwikkelen van duurzaam toerisme, en het creëren van kansen voor werkzoekenden. Onze actieplannen zijn gericht op het ondersteunen van diverse economische sectoren en het versterken van de lokale arbeidsmarkt.",
+    "ap_code": "AP-20801",
+    "ap_short": "Actieplan 1: Toerisme en Bezoekersbeleving",
+    "ap_long": "Dit actieplan focust op het verbeteren van de toeristische infrastructuur, het promoten van het toeristisch aanbod, en het creëren van unieke bezoekerservaringen.",
+    "ac_code": "A-2080101",
+    "ac_short": "1.1 Actie: Bezoekerscentrum en Onthaal",
+    "ac_long": "Deze actie richt zich op het optimaliseren van het bezoekerscentrum als centraal onthaalpunt, inclusief de inrichting, herkenbaarheid en dienstverlening aan bezoekers.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 32952.67,
+    "amount_per_capita": 4.06,
+    "yearly_amounts": {
+      "2026": 22452.67,
+      "2027": 10500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.77,
+      "2027": 1.29,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-306",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG06",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-06-TD-OW",
+    "ac_short": "Gelijkblijvend beleid Technishe dienst - Openbare werken - SDG06",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 31845.0,
+    "amount_per_capita": 3.92,
+    "yearly_amounts": {
+      "2026": 31845.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.92,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D09-4SDG16",
+    "bd_short": "SDG 16: Effectieve Dienstverlening en Transparant Bestuur",
+    "bd_long": "Kwalitatieve omschrijving: Effectieve Dienstverlening en Transparant Bestuur in Heuvelland staat voor het continu verbeteren van de gemeentelijke diensten en interne processen. Dit omvat de optimalisatie van administratie, communicatie en personeelsbeleid, met een sterke nadruk op efficiëntie, digitalisering, veiligheid en een klantgerichte benadering, zowel intern als extern. Ons doel is een robuuste, responsieve en transparante overheid die naadloos inspeelt op de behoeften van inwoners en medewerkers.",
+    "ap_code": "AP-41603",
+    "ap_short": "Actieplan 3: Burgers en Gemeenschap",
+    "ap_long": "Dit actieplan richt zich op het versterken van de relatie met de burger, het faciliteren van gemeenschapsactiviteiten en het bieden van ondersteuning aan kwetsbare groepen.",
+    "ac_code": "A-4160301",
+    "ac_short": "3.1 Actie: Klantgerichte Dienstverlening Burgerzaken",
+    "ac_long": "Deze actie omvat de verdere optimalisatie van de dienst burgerzaken, het aanbieden van mobiele zitdagen en het verbeteren van de klantbeleving.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 27700.0,
+    "amount_per_capita": 3.41,
+    "yearly_amounts": {
+      "2026": 22500.0,
+      "2027": 5200.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.77,
+      "2027": 0.64,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-416",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG16",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-16-BGZ",
+    "ac_short": "Gelijkblijvend beleid Burgerzaken - SDG16",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 2.46,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-416",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG16",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-16-PREV",
+    "ac_short": "Gelijkblijvend beleid Preventie - SDG16",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 16195.0,
+    "amount_per_capita": 2.0,
+    "yearly_amounts": {
+      "2026": 16195.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-207",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG07",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-07-TD-GB",
+    "ac_short": "Gelijkblijvend beleid Technische dienst - Gebouwen - SDG07",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 16098.45,
+    "amount_per_capita": 1.98,
+    "yearly_amounts": {
+      "2026": 16098.45,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.98,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D03-3SDG06",
+    "bd_short": "SDG 06: Schoon water en bescherming van lokale waterlopen",
+    "bd_long": "Kwalitatieve omschrijving: Schoon water en sanitaire voorzieningen zijn essentieel voor de gezondheid en het welzijn van onze inwoners en voor een duurzaam leefmilieu. Voor Heuvelland betekent dit concrete investeringen in infrastructuur, effectief waterbeheer en het stimuleren van verantwoord watergebruik bij onze inwoners. Onze actieplannen richten zich op het verbeteren van de waterkwaliteit en de sanitaire voorzieningen in de hele gemeente.",
+    "ap_code": "AP-30601",
+    "ap_short": "Actieplan 1: Investeringen in Riolering en Waterbeheer",
+    "ap_long": "Dit actieplan omvat projecten gericht op de aanleg, vernieuwing en sanering van rioleringssystemen, het verbeteren van de waterkwaliteit, en het bevorderen van een duurzaam waterlandschap.",
+    "ac_code": "A-3060102",
+    "ac_short": "1.2 Actie: Waterlandschap en Baangrachtenbeheer",
+    "ac_long": "Deze actie richt zich op het ontwikkelen en onderhouden van een veerkrachtig waterlandschap en een efficiënt beheer van baangrachten om wateroverlast te voorkomen en de waterhuishouding te optimaliseren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 1.23,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.23,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-103",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG03",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-03-SOCGB",
+    "ac_short": "Gelijkblijvend beleid Sociale Dienst - Gebouwen - SDG03",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 5500.0,
+    "amount_per_capita": 0.68,
+    "yearly_amounts": {
+      "2026": 5500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GAP-211",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling - SDG11",
+    "ap_long": "Commentaar:",
+    "ac_code": "G-11-TD-GB",
+    "ac_short": "Gelijkblijvend beleid Technische dienst - Gebouwen - SDG11",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4881.5,
+    "amount_per_capita": 0.6,
+    "yearly_amounts": {
+      "2026": 4881.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D01-1SDG03",
+    "bd_short": "SDG 03: Goede Gezondheid en Welzijn",
+    "bd_long": "Kwalitatieve omschrijving: Goede Gezondheid en Welzijn is een fundamentele pijler voor een veerkrachtige en bloeiende gemeenschap, en vormt de kern van de inspanningen van Heuvelland. Dit omvat niet alleen de afwezigheid van ziekte, maar ook een compleet fysiek, mentaal en sociaal welzijn voor al onze inwoners. Onze actieplannen en de bijbehorende acties zijn erop gericht om dit brede concept te realiseren.",
+    "ap_code": "AP-10303",
+    "ap_short": "Actieplan 3: Sport en Recreatie",
+    "ap_long": "Dit actieplan bevordert sport en recreatie door het aanbieden van diverse sportieve mogelijkheden en het onderhouden van de benodigde infrastructuur. Hierbij wordt rekening gehouden met verschillende doelgroepen, van schoolgaande jeugd tot senioren en gemeentepersoneel.",
+    "ac_code": "A-1030302",
+    "ac_short": "3.2 Actie: Programma en Materiaal Sport",
+    "ac_long": "Deze actie omvat het aanbieden van diverse sportreeksen, het ondersteunen van sportclubs, en het beheren en vernieuwen van sportmateriaal. Er wordt ook ingezet op het promoten van sport bij senioren, jongeren en gemeentepersoneel.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3552.36,
+    "amount_per_capita": 0.44,
+    "yearly_amounts": {
+      "2026": 3552.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Heuvelland",
+    "nis_code": "33039",
+    "bd_code": "D02-1SDG04",
+    "bd_short": "SDG 04: Ondersteuning van ontwikkeling en leren van kinderen en jongeren",
+    "bd_long": "Kwalitatieve omschrijving: Ondersteuning van ontwikkeling en leren van kinderen, jongeren en volwassenen vormt een kernwaarde voor Heuvelland. Dit omvat het creëren van een stimulerende en inclusieve leeromgeving voor alle leeftijden, van basisschool tot jeugdactiviteiten en buitenschoolse opvang, met bijzondere aandacht voor toegankelijkheid en diverse talentontwikkeling. Onze actieplannen zijn gericht op het versterken van educatieve initiatieven en vrijetijdsaanbod binnen de gemeente.",
+    "ap_code": "AP-10401",
+    "ap_short": "Actieplan 1: Ondersteuning van Formeel en Informeel Leren",
+    "ap_long": "Dit actieplan richt zich op de ondersteuning van basisscholen en de verbreding van educatieve kansen buiten de schoolmuren, met aandacht voor kunst- en cultuuronderwijs en het betrekken van jongeren bij lokaal beleid.",
+    "ac_code": "A-1040102",
+    "ac_short": "1.2 Actie: Kunst- en Cultuuronderwijs en Jongerenparticipatie",
+    "ac_long": "Deze actie bevordert de toegang tot kunstonderwijs en stimuleert de actieve betrokkenheid van jongeren bij culturele en beleidsmatige processen binnen de gemeente.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1021.0,
+    "amount_per_capita": 0.13,
+    "yearly_amounts": {
+      "2026": 1021.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.13,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

@@ -14,10 +14,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 6032500.0,
-    "amount_per_capita": 476.41,
+    "total_amount": 6653993.0,
+    "amount_per_capita": 525.35,
     "yearly_amounts": {
-      "2026": 5927500.0,
+      "2026": 6548993.0,
       "2027": 105000.0,
       "2028": 0,
       "2029": 0,
@@ -25,7 +25,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 468.12,
+      "2026": 517.06,
       "2027": 8.29,
       "2028": 0,
       "2029": 0,
@@ -48,10 +48,10 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 3731076.0,
-    "amount_per_capita": 294.66,
+    "total_amount": 3763888.0,
+    "amount_per_capita": 297.17,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 52812.0,
       "2027": 803018.0,
       "2028": 2908058.0,
       "2029": 0,
@@ -59,9 +59,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.58,
-      "2027": 63.42,
-      "2028": 229.66,
+      "2026": 4.17,
+      "2027": 63.4,
+      "2028": 229.6,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -82,10 +82,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 3161200.0,
-    "amount_per_capita": 249.65,
+    "total_amount": 3371482.0,
+    "amount_per_capita": 266.19,
     "yearly_amounts": {
-      "2026": 1156200.0,
+      "2026": 1366482.0,
       "2027": 345000.0,
       "2028": 515000.0,
       "2029": 315000.0,
@@ -93,12 +93,46 @@
       "2031": 315000.0
     },
     "yearly_per_capita": {
-      "2026": 91.31,
-      "2027": 27.25,
-      "2028": 40.67,
-      "2029": 24.88,
-      "2030": 40.67,
-      "2031": 24.88
+      "2026": 107.89,
+      "2027": 27.24,
+      "2028": 40.66,
+      "2029": 24.87,
+      "2030": 40.66,
+      "2031": 24.87
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
+    "bd_code": "BD000001",
+    "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
+    "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
+    "ap_code": "AP000003",
+    "ap_short": "Veilige en robuuste openbare ruimte",
+    "ap_long": "Olen zorgt voor een veilige en robuuste openbare ruimte.",
+    "ac_code": "AC000014",
+    "ac_short": "Herinrichting Olen-Centrum",
+    "ac_long": "Olen heeft Olen-Centrum opnieuw ingericht zodat de dorpskern aangenamer en verkeersveiliger wordt.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2680350.0,
+    "amount_per_capita": 211.62,
+    "yearly_amounts": {
+      "2026": 2680350.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 211.62,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -117,7 +151,7 @@
       "08-onderwijs"
     ],
     "total_amount": 2500000.0,
-    "amount_per_capita": 197.43,
+    "amount_per_capita": 197.38,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -130,7 +164,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 197.43,
+      "2029": 197.38,
       "2030": 0,
       "2031": 0
     }
@@ -148,10 +182,10 @@
     "ac_short": "Werken aan eigen patrimonium op basis van welafgewogen prioritering",
     "ac_long": "Olen voert de nodige werken uit aan het eigen patrimonium op basis van een welafgewogen prioritering.",
     "categories": [
-      "01-algemeen-bestuur"
+      "00-algemene-financiering"
     ],
     "total_amount": 2383480.0,
-    "amount_per_capita": 188.23,
+    "amount_per_capita": 188.18,
     "yearly_amounts": {
       "2026": 428900.0,
       "2027": 365200.0,
@@ -161,11 +195,11 @@
       "2031": 21500.0
     },
     "yearly_per_capita": {
-      "2026": 33.87,
-      "2027": 28.84,
-      "2028": 20.54,
-      "2029": 55.21,
-      "2030": 48.07,
+      "2026": 33.86,
+      "2027": 28.83,
+      "2028": 20.53,
+      "2029": 55.2,
+      "2030": 48.06,
       "2031": 1.7
     }
   },
@@ -184,10 +218,10 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 1393586.0,
-    "amount_per_capita": 110.06,
+    "total_amount": 1413586.0,
+    "amount_per_capita": 111.61,
     "yearly_amounts": {
-      "2026": 220624.0,
+      "2026": 240624.0,
       "2027": 239023.0,
       "2028": 228896.0,
       "2029": 238978.0,
@@ -195,11 +229,11 @@
       "2031": 242379.0
     },
     "yearly_per_capita": {
-      "2026": 17.42,
-      "2027": 18.88,
-      "2028": 18.08,
+      "2026": 19.0,
+      "2027": 18.87,
+      "2028": 18.07,
       "2029": 18.87,
-      "2030": 17.67,
+      "2030": 17.66,
       "2031": 19.14
     }
   },
@@ -219,7 +253,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1215000.0,
-    "amount_per_capita": 95.95,
+    "amount_per_capita": 95.93,
     "yearly_amounts": {
       "2026": 1215000.0,
       "2027": 0,
@@ -229,12 +263,80 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 95.95,
+      "2026": 95.93,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
+    "bd_code": "BD000007",
+    "bd_short": "Olen is een wendbare organisatie die innoveert met focus op de klant.",
+    "bd_long": "Olen is een wendbare organisatie die vanuit een externe blik en focus op de klant innovatie omarmt zodat ze tegemoetkomt aan de geformuleerde ambities en de toekomstige uitdagingen.",
+    "ap_code": "AP000041",
+    "ap_short": "Performante organisatie interne en externe dienstverlening",
+    "ap_long": "Olen organiseert op performante manier externe en interne technische dienstverlening en heeft een planning op langere termijn zodat middelen efficiënt worden ingezet.",
+    "ac_code": "AC000195",
+    "ac_short": "Realistisch investeringsplan rollend materieel en onderhoud wagenpark",
+    "ac_long": "Olen heeft een realistisch investeringsplan voor haar rollend materieel en onderhoudt het wagenpark.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1034836.0,
+    "amount_per_capita": 81.7,
+    "yearly_amounts": {
+      "2026": 474836.0,
+      "2027": 70000.0,
+      "2028": 50000.0,
+      "2029": 320000.0,
+      "2030": 50000.0,
+      "2031": 70000.0
+    },
+    "yearly_per_capita": {
+      "2026": 37.49,
+      "2027": 5.53,
+      "2028": 3.95,
+      "2029": 25.27,
+      "2030": 3.95,
+      "2031": 5.53
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
+    "bd_code": "BD000008",
+    "bd_short": "Regulier beleid",
+    "bd_long": "Regulier beleid",
+    "ap_code": "AP000046",
+    "ap_short": "Aangepast informaticanetwerk en -toepassingen",
+    "ap_long": "Olen heeft een aangepast informaticanetwerk en -toepassingen.",
+    "ac_code": "AC000215",
+    "ac_short": "Hardware vernieuwing",
+    "ac_long": "Hardware vernieuwing",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 863320.0,
+    "amount_per_capita": 68.16,
+    "yearly_amounts": {
+      "2026": 458455.0,
+      "2027": 48760.0,
+      "2028": 73000.0,
+      "2029": 122400.0,
+      "2030": 29550.0,
+      "2031": 131155.0
+    },
+    "yearly_per_capita": {
+      "2026": 36.2,
+      "2027": 3.85,
+      "2028": 5.76,
+      "2029": 9.66,
+      "2030": 2.33,
+      "2031": 10.36
     }
   },
   {
@@ -252,10 +354,10 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 777852.0,
-    "amount_per_capita": 61.43,
+    "total_amount": 786677.0,
+    "amount_per_capita": 62.11,
     "yearly_amounts": {
-      "2026": 54750.0,
+      "2026": 63575.0,
       "2027": 723102.0,
       "2028": 0,
       "2029": 0,
@@ -263,8 +365,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.32,
-      "2027": 57.11,
+      "2026": 5.02,
+      "2027": 57.09,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -287,7 +389,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 703769.0,
-    "amount_per_capita": 55.58,
+    "amount_per_capita": 55.56,
     "yearly_amounts": {
       "2026": 188758.0,
       "2027": 188861.0,
@@ -297,8 +399,8 @@
       "2031": 116843.0
     },
     "yearly_per_capita": {
-      "2026": 14.91,
-      "2027": 14.92,
+      "2026": 14.9,
+      "2027": 14.91,
       "2028": 14.81,
       "2029": 0.87,
       "2030": 0.85,
@@ -308,192 +410,22 @@
   {
     "municipality": "Olen",
     "nis_code": "13029",
-    "bd_code": "BD000007",
-    "bd_short": "Olen is een wendbare organisatie die innoveert met focus op de klant.",
-    "bd_long": "Olen is een wendbare organisatie die vanuit een externe blik en focus op de klant innovatie omarmt zodat ze tegemoetkomt aan de geformuleerde ambities en de toekomstige uitdagingen.",
-    "ap_code": "AP000041",
-    "ap_short": "Performante organisatie interne en externe dienstverlening",
-    "ap_long": "Olen organiseert op performante manier externe en interne technische dienstverlening en heeft een planning op langere termijn zodat middelen efficiënt worden ingezet.",
-    "ac_code": "AC000195",
-    "ac_short": "Realistisch investeringsplan rollend materieel en onderhoud wagenpark",
-    "ac_long": "Olen heeft een realistisch investeringsplan voor haar rollend materieel en onderhoudt het wagenpark.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 670000.0,
-    "amount_per_capita": 52.91,
-    "yearly_amounts": {
-      "2026": 110000.0,
-      "2027": 70000.0,
-      "2028": 50000.0,
-      "2029": 320000.0,
-      "2030": 50000.0,
-      "2031": 70000.0
-    },
-    "yearly_per_capita": {
-      "2026": 8.69,
-      "2027": 5.53,
-      "2028": 3.95,
-      "2029": 25.27,
-      "2030": 3.95,
-      "2031": 5.53
-    }
-  },
-  {
-    "municipality": "Olen",
-    "nis_code": "13029",
-    "bd_code": "BD000001",
-    "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
-    "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
-    "ap_code": "AP000001",
-    "ap_short": "Optimaal patrimoniumbeheer",
-    "ap_long": "Olen beheert haar patrimonium optimaal, zodat het aangenaam is om er te werken en te verblijven.",
-    "ac_code": "AC000001",
-    "ac_short": "Investeringen kwaliteitsvolle schoolgebouwen",
-    "ac_long": "Olen zorgt met gerichte investeringen voor kwaliteitsvolle schoolgebouwen.",
-    "categories": [
-      "08-onderwijs"
-    ],
-    "total_amount": 585500.0,
-    "amount_per_capita": 46.24,
-    "yearly_amounts": {
-      "2026": 418500.0,
-      "2027": 167000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 33.05,
-      "2027": 13.19,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Olen",
-    "nis_code": "13029",
-    "bd_code": "BD000004",
-    "bd_short": "Olen zorgt ervoor dat elke inwoner sport, cultuur en vrije tijd ten volle kan beleven.",
-    "bd_long": "Olen zet in op ontspanningsmogelijkheden op maat waarbij elke Olenaar toegang heeft tot de publieke ruimte en faciliteiten zodat zowel sport, cultuur als vrije tijd ten volle beleefd kunnen worden. Beleving en beweging staan hierbij centraal.",
-    "ap_code": "AP000022",
-    "ap_short": "Kwaliteitsvolle vrijetijdsinfrastructuur",
-    "ap_long": "Olen investeert in kwaliteitsvolle vrijetijdsinfrastructuur die aangepast is aan de noden van de verschillende gebruikers.",
-    "ac_code": "AC000109",
-    "ac_short": "Infrastructuursubsidie verenigingen",
-    "ac_long": "Olen stimuleert met een infrastructuursubsidie verenigingen om werk te maken van duurzame, kwaliteitsvolle en veilige infrastructuur op maat van de noden van hun werking.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 565000.0,
-    "amount_per_capita": 44.62,
-    "yearly_amounts": {
-      "2026": 130000.0,
-      "2027": 60000.0,
-      "2028": 10000.0,
-      "2029": 175000.0,
-      "2030": 130000.0,
-      "2031": 60000.0
-    },
-    "yearly_per_capita": {
-      "2026": 10.27,
-      "2027": 4.74,
-      "2028": 0.79,
-      "2029": 13.82,
-      "2030": 10.27,
-      "2031": 4.74
-    }
-  },
-  {
-    "municipality": "Olen",
-    "nis_code": "13029",
     "bd_code": "BD000001",
     "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
     "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
     "ap_code": "AP000003",
     "ap_short": "Veilige en robuuste openbare ruimte",
     "ap_long": "Olen zorgt voor een veilige en robuuste openbare ruimte.",
-    "ac_code": "AC000013",
-    "ac_short": "Wegen- en rioleringswerken Dahliastraat",
-    "ac_long": "Olen voert wegen- en rioleringswerken uit in de Dahliastraat.",
+    "ac_code": "AC000017",
+    "ac_short": "Wegen- en rioleringswerken Lindenpad en Vinkenstraat",
+    "ac_long": "Olen voert wegen- en rioleringswerken uit in Lindenpad en Vinkenstraat.",
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 500000.0,
-    "amount_per_capita": 39.49,
+    "total_amount": 628023.0,
+    "amount_per_capita": 49.58,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 500000.0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 39.49
-    }
-  },
-  {
-    "municipality": "Olen",
-    "nis_code": "13029",
-    "bd_code": "BD000008",
-    "bd_short": "Regulier beleid",
-    "bd_long": "Regulier beleid",
-    "ap_code": "AP000046",
-    "ap_short": "Aangepast informaticanetwerk en -toepassingen",
-    "ap_long": "Olen heeft een aangepast informaticanetwerk en -toepassingen.",
-    "ac_code": "AC000215",
-    "ac_short": "Hardware vernieuwing",
-    "ac_long": "Hardware vernieuwing",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 456650.0,
-    "amount_per_capita": 36.06,
-    "yearly_amounts": {
-      "2026": 51785.0,
-      "2027": 48760.0,
-      "2028": 73000.0,
-      "2029": 122400.0,
-      "2030": 29550.0,
-      "2031": 131155.0
-    },
-    "yearly_per_capita": {
-      "2026": 4.09,
-      "2027": 3.85,
-      "2028": 5.77,
-      "2029": 9.67,
-      "2030": 2.33,
-      "2031": 10.36
-    }
-  },
-  {
-    "municipality": "Olen",
-    "nis_code": "13029",
-    "bd_code": "BD000001",
-    "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
-    "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
-    "ap_code": "AP000003",
-    "ap_short": "Veilige en robuuste openbare ruimte",
-    "ap_long": "Olen zorgt voor een veilige en robuuste openbare ruimte.",
-    "ac_code": "AC000014",
-    "ac_short": "Herinrichting Olen-Centrum",
-    "ac_long": "Olen heeft Olen-Centrum opnieuw ingericht zodat de dorpskern aangenamer en verkeersveiliger wordt.",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 439826.0,
-    "amount_per_capita": 34.73,
-    "yearly_amounts": {
-      "2026": 439826.0,
+      "2026": 628023.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -501,46 +433,12 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 34.73,
+      "2026": 49.58,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Olen",
-    "nis_code": "13029",
-    "bd_code": "BD000003",
-    "bd_short": "Olen bouwt met partners aan onderwijs, opvang en vrije tijd voor gezinnen en jongeren.",
-    "bd_long": "Olen zet in op een geïntegreerde aanpak in samenwerking met partners die beantwoordt aan de voortdurend veranderende noden van gezinnen en jeugd op het vlak van onderwijs, vrije tijd en kinderopvang.",
-    "ap_code": "AP000016",
-    "ap_short": "Regierol BOA",
-    "ap_long": "Olen zet actief in op een gevarieerd buitenschools vrijetijdsaanbod. Vanuit een regierol zorgt de gemeente voor afstemming tussen lokale partners zodat opvang en activiteiten goed op elkaar afgestemd worden.",
-    "ac_code": "AC000084",
-    "ac_short": "Samenwerking in functie van het geïntegreerd aanbod van BOA",
-    "ac_long": "Olen investeert in samenwerking met lokale actoren in kwaliteitsvolle buitenschoolse opvang en activiteiten met specifieke aandacht voor kleuters, kwetsbare kinderen en kinderen met een extra ondersteuningsbehoefte.  Hierbij wordt ingezet op (kennis)uitwisseling met andere besturen (NTL).",
-    "categories": [
-      "08-onderwijs"
-    ],
-    "total_amount": 430624.0,
-    "amount_per_capita": 34.01,
-    "yearly_amounts": {
-      "2026": 245104.0,
-      "2027": 85104.0,
-      "2028": 25104.0,
-      "2029": 25104.0,
-      "2030": 25104.0,
-      "2031": 25104.0
-    },
-    "yearly_per_capita": {
-      "2026": 19.36,
-      "2027": 6.72,
-      "2028": 1.98,
-      "2029": 1.98,
-      "2030": 1.98,
-      "2031": 1.98
     }
   },
   {
@@ -558,10 +456,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 381795.0,
-    "amount_per_capita": 30.15,
+    "total_amount": 623288.0,
+    "amount_per_capita": 49.21,
     "yearly_amounts": {
-      "2026": 278295.0,
+      "2026": 519788.0,
       "2027": 47500.0,
       "2028": 13000.0,
       "2029": 15000.0,
@@ -569,12 +467,148 @@
       "2031": 15000.0
     },
     "yearly_per_capita": {
-      "2026": 21.98,
+      "2026": 41.04,
       "2027": 3.75,
       "2028": 1.03,
       "2029": 1.18,
       "2030": 1.03,
       "2031": 1.18
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
+    "bd_code": "BD000004",
+    "bd_short": "Olen zorgt ervoor dat elke inwoner sport, cultuur en vrije tijd ten volle kan beleven.",
+    "bd_long": "Olen zet in op ontspanningsmogelijkheden op maat waarbij elke Olenaar toegang heeft tot de publieke ruimte en faciliteiten zodat zowel sport, cultuur als vrije tijd ten volle beleefd kunnen worden. Beleving en beweging staan hierbij centraal.",
+    "ap_code": "AP000022",
+    "ap_short": "Kwaliteitsvolle vrijetijdsinfrastructuur",
+    "ap_long": "Olen investeert in kwaliteitsvolle vrijetijdsinfrastructuur die aangepast is aan de noden van de verschillende gebruikers.",
+    "ac_code": "AC000109",
+    "ac_short": "Infrastructuursubsidie verenigingen",
+    "ac_long": "Olen stimuleert met een infrastructuursubsidie verenigingen om werk te maken van duurzame, kwaliteitsvolle en veilige infrastructuur op maat van de noden van hun werking.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 621000.0,
+    "amount_per_capita": 49.03,
+    "yearly_amounts": {
+      "2026": 186000.0,
+      "2027": 60000.0,
+      "2028": 10000.0,
+      "2029": 175000.0,
+      "2030": 130000.0,
+      "2031": 60000.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.69,
+      "2027": 4.74,
+      "2028": 0.79,
+      "2029": 13.82,
+      "2030": 10.26,
+      "2031": 4.74
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
+    "bd_code": "BD000001",
+    "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
+    "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
+    "ap_code": "AP000001",
+    "ap_short": "Optimaal patrimoniumbeheer",
+    "ap_long": "Olen beheert haar patrimonium optimaal, zodat het aangenaam is om er te werken en te verblijven.",
+    "ac_code": "AC000001",
+    "ac_short": "Investeringen kwaliteitsvolle schoolgebouwen",
+    "ac_long": "Olen zorgt met gerichte investeringen voor kwaliteitsvolle schoolgebouwen.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 620300.0,
+    "amount_per_capita": 48.97,
+    "yearly_amounts": {
+      "2026": 453300.0,
+      "2027": 167000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 35.79,
+      "2027": 13.19,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
+    "bd_code": "BD000001",
+    "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
+    "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
+    "ap_code": "AP000003",
+    "ap_short": "Veilige en robuuste openbare ruimte",
+    "ap_long": "Olen zorgt voor een veilige en robuuste openbare ruimte.",
+    "ac_code": "AC000013",
+    "ac_short": "Wegen- en rioleringswerken Dahliastraat",
+    "ac_long": "Olen voert wegen- en rioleringswerken uit in de Dahliastraat.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 509982.0,
+    "amount_per_capita": 40.26,
+    "yearly_amounts": {
+      "2026": 9982.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.79,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 39.48
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
+    "bd_code": "BD000003",
+    "bd_short": "Olen bouwt met partners aan onderwijs, opvang en vrije tijd voor gezinnen en jongeren.",
+    "bd_long": "Olen zet in op een geïntegreerde aanpak in samenwerking met partners die beantwoordt aan de voortdurend veranderende noden van gezinnen en jeugd op het vlak van onderwijs, vrije tijd en kinderopvang.",
+    "ap_code": "AP000016",
+    "ap_short": "Regierol BOA",
+    "ap_long": "Olen zet actief in op een gevarieerd buitenschools vrijetijdsaanbod. Vanuit een regierol zorgt de gemeente voor afstemming tussen lokale partners zodat opvang en activiteiten goed op elkaar afgestemd worden.",
+    "ac_code": "AC000084",
+    "ac_short": "Samenwerking in functie van het geïntegreerd aanbod van BOA",
+    "ac_long": "Olen investeert in samenwerking met lokale actoren in kwaliteitsvolle buitenschoolse opvang en activiteiten met specifieke aandacht voor kleuters, kwetsbare kinderen en kinderen met een extra ondersteuningsbehoefte.  Hierbij wordt ingezet op (kennis)uitwisseling met andere besturen (NTL).",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 434449.0,
+    "amount_per_capita": 34.3,
+    "yearly_amounts": {
+      "2026": 248929.0,
+      "2027": 85104.0,
+      "2028": 25104.0,
+      "2029": 25104.0,
+      "2030": 25104.0,
+      "2031": 25104.0
+    },
+    "yearly_per_capita": {
+      "2026": 19.65,
+      "2027": 6.72,
+      "2028": 1.98,
+      "2029": 1.98,
+      "2030": 1.98,
+      "2031": 1.98
     }
   },
   {
@@ -605,41 +639,7 @@
     "yearly_per_capita": {
       "2026": 0.24,
       "2027": 0,
-      "2028": 28.93,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Olen",
-    "nis_code": "13029",
-    "bd_code": "BD000001",
-    "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
-    "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
-    "ap_code": "AP000003",
-    "ap_short": "Veilige en robuuste openbare ruimte",
-    "ap_long": "Olen zorgt voor een veilige en robuuste openbare ruimte.",
-    "ac_code": "AC000017",
-    "ac_short": "Wegen- en rioleringswerken Lindenpad en Vinkenstraat",
-    "ac_long": "Olen voert wegen- en rioleringswerken uit in Lindenpad en Vinkenstraat.",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 363511.0,
-    "amount_per_capita": 28.71,
-    "yearly_amounts": {
-      "2026": 363511.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 28.71,
-      "2027": 0,
-      "2028": 0,
+      "2028": 28.92,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -716,6 +716,40 @@
   {
     "municipality": "Olen",
     "nis_code": "13029",
+    "bd_code": "BD000001",
+    "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
+    "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
+    "ap_code": "AP000003",
+    "ap_short": "Veilige en robuuste openbare ruimte",
+    "ap_long": "Olen zorgt voor een veilige en robuuste openbare ruimte.",
+    "ac_code": "AC000020",
+    "ac_short": "Wegen- en rioleringswerken Bremmeken",
+    "ac_long": "Olen voert wegenis- en rioleringswerken uit in het Bremmeken.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 11.84,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 11.84,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
     "bd_code": "BD000004",
     "bd_short": "Olen zorgt ervoor dat elke inwoner sport, cultuur en vrije tijd ten volle kan beleven.",
     "bd_long": "Olen zet in op ontspanningsmogelijkheden op maat waarbij elke Olenaar toegang heeft tot de publieke ruimte en faciliteiten zodat zowel sport, cultuur als vrije tijd ten volle beleefd kunnen worden. Beleving en beweging staan hierbij centraal.",
@@ -729,7 +763,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 11.85,
+    "amount_per_capita": 11.84,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 10000.0,
@@ -750,34 +784,34 @@
   {
     "municipality": "Olen",
     "nis_code": "13029",
-    "bd_code": "BD000001",
-    "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
-    "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
-    "ap_code": "AP000003",
-    "ap_short": "Veilige en robuuste openbare ruimte",
-    "ap_long": "Olen zorgt voor een veilige en robuuste openbare ruimte.",
-    "ac_code": "AC000020",
-    "ac_short": "Wegen- en rioleringswerken Bremmeken",
-    "ac_long": "Olen voert wegenis- en rioleringswerken uit in het Bremmeken.",
+    "bd_code": "BD000008",
+    "bd_short": "Regulier beleid",
+    "bd_long": "Regulier beleid",
+    "ap_code": "AP000046",
+    "ap_short": "Aangepast informaticanetwerk en -toepassingen",
+    "ap_long": "Olen heeft een aangepast informaticanetwerk en -toepassingen.",
+    "ac_code": "AC000218",
+    "ac_short": "Netwerk vernieuwing",
+    "ac_long": "Netwerk vernieuwing",
     "categories": [
-      "03-natuur-milieu"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 150000.0,
-    "amount_per_capita": 11.85,
+    "total_amount": 127650.0,
+    "amount_per_capita": 10.08,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 150000.0,
-      "2028": 0,
+      "2026": 40000.0,
+      "2027": 77000.0,
+      "2028": 7650.0,
       "2029": 0,
-      "2030": 0,
+      "2030": 3000.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 11.85,
-      "2028": 0,
+      "2026": 3.16,
+      "2027": 6.08,
+      "2028": 0.6,
       "2029": 0,
-      "2030": 0,
+      "2030": 0.24,
       "2031": 0
     }
   },
@@ -818,40 +852,6 @@
   {
     "municipality": "Olen",
     "nis_code": "13029",
-    "bd_code": "BD000008",
-    "bd_short": "Regulier beleid",
-    "bd_long": "Regulier beleid",
-    "ap_code": "AP000046",
-    "ap_short": "Aangepast informaticanetwerk en -toepassingen",
-    "ap_long": "Olen heeft een aangepast informaticanetwerk en -toepassingen.",
-    "ac_code": "AC000218",
-    "ac_short": "Netwerk vernieuwing",
-    "ac_long": "Netwerk vernieuwing",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 87650.0,
-    "amount_per_capita": 6.92,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 77000.0,
-      "2028": 7650.0,
-      "2029": 0,
-      "2030": 3000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 6.08,
-      "2028": 0.6,
-      "2029": 0,
-      "2030": 0.24,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Olen",
-    "nis_code": "13029",
     "bd_code": "BD000001",
     "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
     "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
@@ -862,7 +862,7 @@
     "ac_short": "Opvolging verplichtingen publiek patrimonium",
     "ac_long": "Olen volgt de huidige, nieuwe en toekomstige wettelijke verplichtingen voor publiek patrimonium op en past ze toe.",
     "categories": [
-      "01-algemeen-bestuur"
+      "00-algemene-financiering"
     ],
     "total_amount": 80000.0,
     "amount_per_capita": 6.32,
@@ -915,6 +915,40 @@
       "2029": 0.59,
       "2030": 0.59,
       "2031": 0.59
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
+    "bd_code": "BD000001",
+    "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
+    "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
+    "ap_code": "AP000003",
+    "ap_short": "Veilige en robuuste openbare ruimte",
+    "ap_long": "Olen zorgt voor een veilige en robuuste openbare ruimte.",
+    "ac_code": "AC000015",
+    "ac_short": "Wegen- en rioleringswerken Doffen",
+    "ac_long": "Olen voert wegen- en rioleringswerken uit in Doffen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.95,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.95,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -991,19 +1025,19 @@
     "bd_code": "BD000001",
     "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
     "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
-    "ap_code": "AP000003",
-    "ap_short": "Veilige en robuuste openbare ruimte",
-    "ap_long": "Olen zorgt voor een veilige en robuuste openbare ruimte.",
-    "ac_code": "AC000015",
-    "ac_short": "Wegen- en rioleringswerken Doffen",
-    "ac_long": "Olen voert wegen- en rioleringswerken uit in Doffen.",
+    "ap_code": "AP000002",
+    "ap_short": "Behoud landelijk karakter, doordachte ruimtelijke planning, kwalitatieve inrichting en groen",
+    "ap_long": "Olen behoudt en versterkt haar landelijk karakter met doordachte ruimtelijke planning, kwalitatieve inrichting en meer groen in de leefomgeving.",
+    "ac_code": "AC000005",
+    "ac_short": "Herinirichting parkgebied Ven",
+    "ac_long": "Het parkgebied Ven is heringericht.",
     "categories": [
-      "03-natuur-milieu"
+      "06-wonen-ruimte"
     ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 3.95,
+    "total_amount": 45000.0,
+    "amount_per_capita": 3.55,
     "yearly_amounts": {
-      "2026": 50000.0,
+      "2026": 45000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1011,7 +1045,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.95,
+      "2026": 3.55,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1046,40 +1080,6 @@
     },
     "yearly_per_capita": {
       "2026": 2.37,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Olen",
-    "nis_code": "13029",
-    "bd_code": "BD000001",
-    "bd_short": "Olen creëert een duurzame leefomgeving om te wonen, werken, ontspannen en ondernemen.",
-    "bd_long": "Olen realiseert, ondersteunt en onderhoudt een klimaat- en levensloopbestendige leefomgeving waar elke Olenaar kan wonen, werken, ontspannen en maatschappelijk verantwoord ondernemen.",
-    "ap_code": "AP000002",
-    "ap_short": "Behoud landelijk karakter, doordachte ruimtelijke planning, kwalitatieve inrichting en groen",
-    "ap_long": "Olen behoudt en versterkt haar landelijk karakter met doordachte ruimtelijke planning, kwalitatieve inrichting en meer groen in de leefomgeving.",
-    "ac_code": "AC000005",
-    "ac_short": "Herinirichting parkgebied Ven",
-    "ac_long": "Het parkgebied Ven is heringericht.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 25000.0,
-    "amount_per_capita": 1.97,
-    "yearly_amounts": {
-      "2026": 25000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.97,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1192,15 +1192,15 @@
   {
     "municipality": "Olen",
     "nis_code": "13029",
-    "bd_code": "BD000008",
-    "bd_short": "Regulier beleid",
-    "bd_long": "Regulier beleid",
-    "ap_code": "AP000047",
-    "ap_short": "Externe partners",
-    "ap_long": "Olen werkt samen met externe partners voor een optimale dienstverlening.",
-    "ac_code": "AC000224",
-    "ac_short": "Samenwerking met externe partners",
-    "ac_long": "Samenwerking met externe partners",
+    "bd_code": "BD000002",
+    "bd_short": "Olen investeert in duurzame en veilige mobiliteit voor alle weggebruikers.",
+    "bd_long": "Olen faciliteert duurzame en veilige mobiliteit voor alle weggebruikers door te investeren in bereikbaarheid, doorstroming, toegankelijkheid en leefbaarheid in overleg met inwoners.",
+    "ap_code": "AP000010",
+    "ap_short": "Acties zonale mobiliteitsraad Neteland en uit mobiliteitsvisies Middenkempen en Zuiderkempen",
+    "ap_long": "Olen voert acties uit van de zonale mobiliteitsraad Neteland en uit de mobiliteitsvisies Middenkempen en Zuiderkempen.",
+    "ac_code": "AC000058",
+    "ac_short": "Onderzoek verbetering ontsluiting en bereikbaarheid bedrijventerrein Umicore",
+    "ac_long": "Olen onderzoekt hoe de ontsluiting en bereikbaarheid van het bedrijventerrein Umicore kan worden verbeterd, met expliciete aandacht voor de verkeersleefbaarheid in de Sint-Jobsstraat en de doortochten in Sint-Jozef-Olen en Onze-Lieve-Vrouw-Olen.",
     "categories": [
       "02-mobiliteit"
     ],
@@ -1226,15 +1226,15 @@
   {
     "municipality": "Olen",
     "nis_code": "13029",
-    "bd_code": "BD000002",
-    "bd_short": "Olen investeert in duurzame en veilige mobiliteit voor alle weggebruikers.",
-    "bd_long": "Olen faciliteert duurzame en veilige mobiliteit voor alle weggebruikers door te investeren in bereikbaarheid, doorstroming, toegankelijkheid en leefbaarheid in overleg met inwoners.",
-    "ap_code": "AP000010",
-    "ap_short": "Acties zonale mobiliteitsraad Neteland en uit mobiliteitsvisies Middenkempen en Zuiderkempen",
-    "ap_long": "Olen voert acties uit van de zonale mobiliteitsraad Neteland en uit de mobiliteitsvisies Middenkempen en Zuiderkempen.",
-    "ac_code": "AC000058",
-    "ac_short": "Onderzoek verbetering ontsluiting en bereikbaarheid bedrijventerrein Umicore",
-    "ac_long": "Olen onderzoekt hoe de ontsluiting en bereikbaarheid van het bedrijventerrein Umicore kan worden verbeterd, met expliciete aandacht voor de verkeersleefbaarheid in de Sint-Jobsstraat en de doortochten in Sint-Jozef-Olen en Onze-Lieve-Vrouw-Olen.",
+    "bd_code": "BD000008",
+    "bd_short": "Regulier beleid",
+    "bd_long": "Regulier beleid",
+    "ap_code": "AP000047",
+    "ap_short": "Externe partners",
+    "ap_long": "Olen werkt samen met externe partners voor een optimale dienstverlening.",
+    "ac_code": "AC000224",
+    "ac_short": "Samenwerking met externe partners",
+    "ac_long": "Samenwerking met externe partners",
     "categories": [
       "02-mobiliteit"
     ],
@@ -1284,6 +1284,74 @@
     },
     "yearly_per_capita": {
       "2026": 0.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
+    "bd_code": "BD000008",
+    "bd_short": "Regulier beleid",
+    "bd_long": "Regulier beleid",
+    "ap_code": "AP000046",
+    "ap_short": "Aangepast informaticanetwerk en -toepassingen",
+    "ap_long": "Olen heeft een aangepast informaticanetwerk en -toepassingen.",
+    "ac_code": "AC000211",
+    "ac_short": "Betaalterminals",
+    "ac_long": "Betaalterminals",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 4998.0,
+    "amount_per_capita": 0.39,
+    "yearly_amounts": {
+      "2026": 4998.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Olen",
+    "nis_code": "13029",
+    "bd_code": "BD000004",
+    "bd_short": "Olen zorgt ervoor dat elke inwoner sport, cultuur en vrije tijd ten volle kan beleven.",
+    "bd_long": "Olen zet in op ontspanningsmogelijkheden op maat waarbij elke Olenaar toegang heeft tot de publieke ruimte en faciliteiten zodat zowel sport, cultuur als vrije tijd ten volle beleefd kunnen worden. Beleving en beweging staan hierbij centraal.",
+    "ap_code": "AP000023",
+    "ap_short": "Toeristisch aantrekkelijke gemeente",
+    "ap_long": "Olen ontwikkelt zich als toeristisch aantrekkelijke gemeente. Ze vertrekt daarbij vanuit haar eigen merkidentiteit.",
+    "ac_code": "AC000110",
+    "ac_short": "Ontsluiting toeristische troeven en belevingsvolle plekken vanuit een visie",
+    "ac_long": "Olen promoot en ontsluit vanuit een overkoepelende visie haar toeristische troeven en bijzondere plekken en zet in op een warm onthaal van bezoekers.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 4700.0,
+    "amount_per_capita": 0.37,
+    "yearly_amounts": {
+      "2026": 4700.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.37,
       "2027": 0,
       "2028": 0,
       "2029": 0,

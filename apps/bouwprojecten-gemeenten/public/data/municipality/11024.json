@@ -2,258 +2,326 @@
   {
     "municipality": "Kontich",
     "nis_code": "11024",
-    "bd_code": "BDS",
-    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
-    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
-    "ap_code": "O2.2",
-    "ap_short": "Infrastructuurprojecten",
-    "ap_long": "We zetten in op verschillende infrastructuurprojecten die aandacht besteden aan vergroening, verkeersveiligheid en ontmoeting. We streven naar een goed onderhouden, aangenaam, en veilig openbaar domein voor alle inwoners.",
-    "ac_code": "O2.2",
-    "ac_short": "Heraanleg Sint-Jansplein",
-    "ac_long": "Heraanleg Sint-Jansplein",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 12199850.0,
-    "amount_per_capita": 551.97,
-    "yearly_amounts": {
-      "2026": 1767500.0,
-      "2027": 3526744.0,
-      "2028": 2473256.0,
-      "2029": 1832350.0,
-      "2030": 1600000.0,
-      "2031": 1000000.0
-    },
-    "yearly_per_capita": {
-      "2026": 79.97,
-      "2027": 159.57,
-      "2028": 111.9,
-      "2029": 82.9,
-      "2030": 72.39,
-      "2031": 45.24
-    }
-  },
-  {
-    "municipality": "Kontich",
-    "nis_code": "11024",
-    "bd_code": "BDS",
-    "bd_short": "Een klimaatrobuuste toekomst",
-    "bd_long": "We investeren in een klimaatrobuuste toekomst voor Kontich door ons lokaal energie- en klimaatactieplan verder uit te rollen en de (impact van) klimaatverandering te bestrijden.",
-    "ap_code": "O1.1",
-    "ap_short": "Klimaat, natuur en water",
-    "ap_long": "We zetten in op een combinatie van maatregelen die zowel de hitte- als watergevoeligheid op ons grondgebied aanpakken en waarbij we voldoende open ruimte garanderen voor toekomstige generaties.",
-    "ac_code": "O1.1",
-    "ac_short": "Uitbreidingen van toegankelijke groengebieden",
-    "ac_long": "Uitbreidingen van toegankelijke groengebieden",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 7772178.0,
-    "amount_per_capita": 351.65,
-    "yearly_amounts": {
-      "2026": 520000.0,
-      "2027": 865000.0,
-      "2028": 1330000.0,
-      "2029": 1530000.0,
-      "2030": 1515000.0,
-      "2031": 2012178.0
-    },
-    "yearly_per_capita": {
-      "2026": 23.53,
-      "2027": 39.14,
-      "2028": 60.17,
-      "2029": 69.22,
-      "2030": 68.55,
-      "2031": 91.04
-    }
-  },
-  {
-    "municipality": "Kontich",
-    "nis_code": "11024",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
     "ap_code": "",
     "ap_short": "",
     "ap_long": "",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 7553406.0,
-    "amount_per_capita": 341.75,
+    "total_amount": 7305310.66,
+    "amount_per_capita": 330.27,
     "yearly_amounts": {
-      "2026": 2697291.0,
-      "2027": 955763.0,
-      "2028": 1272063.0,
-      "2029": 1065063.0,
-      "2030": 770663.0,
-      "2031": 792563.0
+      "2026": 2874195.66,
+      "2027": 913763.0,
+      "2028": 1015063.0,
+      "2029": 1023063.0,
+      "2030": 728663.0,
+      "2031": 750563.0
     },
     "yearly_per_capita": {
-      "2026": 122.04,
-      "2027": 43.24,
-      "2028": 57.55,
-      "2029": 48.19,
-      "2030": 34.87,
-      "2031": 35.86
+      "2026": 129.94,
+      "2027": 41.31,
+      "2028": 45.89,
+      "2029": 46.25,
+      "2030": 32.94,
+      "2031": 33.93
     }
   },
   {
     "municipality": "Kontich",
     "nis_code": "11024",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "Een klimaatrobuuste toekomst",
+    "bd_long": "We investeren in een klimaatrobuuste toekomst voor Kontich door ons lokaal energie- en klimaatactieplan verder uit te rollen en de (impact van) klimaatverandering te bestrijden.",
+    "ap_code": "O1.1",
+    "ap_short": "Klimaat, natuur en water",
+    "ap_long": "We zetten in op een combinatie van maatregelen die zowel de hitte- als watergevoeligheid op ons grondgebied aanpakken en waarbij we voldoende open ruimte garanderen voor toekomstige generaties.",
+    "ac_code": "O1.1_O1.1.8",
+    "ac_short": "Sanering riolering",
+    "ac_long": "Sanering riolering",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 6297178.0,
+    "amount_per_capita": 284.69,
+    "yearly_amounts": {
+      "2026": 450000.0,
+      "2027": 850000.0,
+      "2028": 1100000.0,
+      "2029": 1100000.0,
+      "2030": 1300000.0,
+      "2031": 1497178.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.34,
+      "2027": 38.43,
+      "2028": 49.73,
+      "2029": 49.73,
+      "2030": 58.77,
+      "2031": 67.69
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.2",
+    "ap_short": "Infrastructuurprojecten",
+    "ap_long": "We zetten in op verschillende infrastructuurprojecten die aandacht besteden aan vergroening, verkeersveiligheid en ontmoeting. We streven naar een goed onderhouden, aangenaam, en veilig openbaar domein voor alle inwoners.",
+    "ac_code": "O2.2_O2.2.4",
+    "ac_short": "Voetpaden-, fietspaden- en wegenvernieuwing",
+    "ac_long": "Voetpaden-, fietspaden- en wegenvernieuwing",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 5656044.38,
+    "amount_per_capita": 255.7,
+    "yearly_amounts": {
+      "2026": 1101044.38,
+      "2027": 2081744.0,
+      "2028": 1373256.0,
+      "2029": 400000.0,
+      "2030": 400000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 49.78,
+      "2027": 94.11,
+      "2028": 62.08,
+      "2029": 18.08,
+      "2030": 18.08,
+      "2031": 13.56
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.2",
+    "ap_short": "Infrastructuurprojecten",
+    "ap_long": "We zetten in op verschillende infrastructuurprojecten die aandacht besteden aan vergroening, verkeersveiligheid en ontmoeting. We streven naar een goed onderhouden, aangenaam, en veilig openbaar domein voor alle inwoners.",
+    "ac_code": "O2.2_O2.2.3",
+    "ac_short": "Centrumparking Duffelsesteenweg",
+    "ac_long": "Centrumparking Duffelsesteenweg",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4932350.0,
+    "amount_per_capita": 222.99,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 800000.0,
+      "2028": 800000.0,
+      "2029": 1432350.0,
+      "2030": 1200000.0,
+      "2031": 700000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 36.17,
+      "2028": 36.17,
+      "2029": 64.76,
+      "2030": 54.25,
+      "2031": 31.65
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
     "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
     "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
     "ap_code": "O2.5",
     "ap_short": "Patrimoniumprojecten",
     "ap_long": "We vullen onze voorbeeldfunctie in door ons eigen patrimonium goed te onderhouden en duurzaam en toegankelijk te maken.",
-    "ac_code": "O2.5",
+    "ac_code": "O2.5_O2.5.1",
     "ac_short": "Energieneutraal patrimonium",
     "ac_long": "Energieneutraal patrimonium",
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 4907435.0,
-    "amount_per_capita": 222.03,
+    "total_amount": 4137332.88,
+    "amount_per_capita": 187.04,
     "yearly_amounts": {
-      "2026": 818000.0,
-      "2027": 998713.0,
-      "2028": 646750.0,
+      "2026": 1647897.88,
+      "2027": 698713.0,
+      "2028": 246750.0,
       "2029": 356000.0,
       "2030": 565000.0,
-      "2031": 1522972.0
+      "2031": 622972.0
     },
     "yearly_per_capita": {
-      "2026": 37.01,
-      "2027": 45.19,
-      "2028": 29.26,
-      "2029": 16.11,
-      "2030": 25.56,
-      "2031": 68.91
+      "2026": 74.5,
+      "2027": 31.59,
+      "2028": 11.16,
+      "2029": 16.09,
+      "2030": 25.54,
+      "2031": 28.16
     }
   },
   {
     "municipality": "Kontich",
     "nis_code": "11024",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
     "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
-    "ap_code": "O2.4",
-    "ap_short": "Toegankelijke en kwalitatieve vrijetijdsinfrastructuur",
-    "ap_long": "Het rijke verenigingsleven maakt Kontich mee tot wat het is en dat koesteren we door het zoveel mogelijk te ondersteunen. We zullen verenigingen zoveel als mogelijk moeten bijstaan in een almaar duurder en complexer wordende samenleving met steeds meer verplichtingen.",
-    "ac_code": "O2.4",
-    "ac_short": "Graffitimuur nieuwe fietstunnel",
-    "ac_long": "Graffitimuur nieuwe fietstunnel",
+    "ap_code": "O2.5",
+    "ap_short": "Patrimoniumprojecten",
+    "ap_long": "We vullen onze voorbeeldfunctie in door ons eigen patrimonium goed te onderhouden en duurzaam en toegankelijk te maken.",
+    "ac_code": "O2.5_O2.5.6",
+    "ac_short": "De Ploeg",
+    "ac_long": "De Ploeg",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1685427.74,
+    "amount_per_capita": 76.2,
+    "yearly_amounts": {
+      "2026": 985427.74,
+      "2027": 300000.0,
+      "2028": 400000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 44.55,
+      "2027": 13.56,
+      "2028": 18.08,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.2",
+    "ap_short": "Infrastructuurprojecten",
+    "ap_long": "We zetten in op verschillende infrastructuurprojecten die aandacht besteden aan vergroening, verkeersveiligheid en ontmoeting. We streven naar een goed onderhouden, aangenaam, en veilig openbaar domein voor alle inwoners.",
+    "ac_code": "O2.2_O2.2.2",
+    "ac_short": "Aanleg fietstunnel Sint-Rita",
+    "ac_long": "Aanleg fietstunnel Sint-Rita",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 1978316.0,
-    "amount_per_capita": 89.51,
+    "total_amount": 1120629.37,
+    "amount_per_capita": 50.66,
     "yearly_amounts": {
-      "2026": 100000.0,
-      "2027": 624000.0,
-      "2028": 744316.0,
-      "2029": 200000.0,
-      "2030": 210000.0,
-      "2031": 100000.0
+      "2026": 1120629.37,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.52,
-      "2027": 28.23,
-      "2028": 33.68,
-      "2029": 9.05,
-      "2030": 9.5,
-      "2031": 4.52
+      "2026": 50.66,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Kontich",
     "nis_code": "11024",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.2",
+    "ap_short": "Infrastructuurprojecten",
+    "ap_long": "We zetten in op verschillende infrastructuurprojecten die aandacht besteden aan vergroening, verkeersveiligheid en ontmoeting. We streven naar een goed onderhouden, aangenaam, en veilig openbaar domein voor alle inwoners.",
+    "ac_code": "O2.2_O2.2.1",
+    "ac_short": "Heraanleg Sint-Jansplein",
+    "ac_long": "Heraanleg Sint-Jansplein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1096251.76,
+    "amount_per_capita": 49.56,
+    "yearly_amounts": {
+      "2026": 161251.76,
+      "2027": 635000.0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.29,
+      "2027": 28.71,
+      "2028": 13.56,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 1",
     "bd_short": "Een klimaatrobuuste toekomst",
     "bd_long": "We investeren in een klimaatrobuuste toekomst voor Kontich door ons lokaal energie- en klimaatactieplan verder uit te rollen en de (impact van) klimaatverandering te bestrijden.",
     "ap_code": "O1.4",
     "ap_short": "Energietransitie",
     "ap_long": "We zetten in op hernieuwbare energie voor zowel eigen gebouwen als voor burgers. De gemeente moet tegen 2050 volledig onafhankelijk zijn van fossiele brandstoffen. Daarom is het belangrijk om nu na te denken over de benodigde energietransitie.",
-    "ac_code": "O1.4",
-    "ac_short": "Energie- en warmtetransitie bevorderen",
-    "ac_long": "Energie- en warmtetransitie bevorderen",
+    "ac_code": "O1.4_O1.4.2",
+    "ac_short": "Vergroening rollend en werkmaterieel",
+    "ac_long": "Vergroening rollend en werkmaterieel",
     "categories": [
-      "03-natuur-milieu"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 1618534.0,
-    "amount_per_capita": 73.23,
+    "total_amount": 1068534.0,
+    "amount_per_capita": 48.31,
     "yearly_amounts": {
       "2026": 479534.0,
-      "2027": 185000.0,
-      "2028": 185000.0,
-      "2029": 185000.0,
-      "2030": 295000.0,
-      "2031": 289000.0
+      "2027": 85000.0,
+      "2028": 85000.0,
+      "2029": 85000.0,
+      "2030": 170000.0,
+      "2031": 164000.0
     },
     "yearly_per_capita": {
-      "2026": 21.7,
-      "2027": 8.37,
-      "2028": 8.37,
-      "2029": 8.37,
-      "2030": 13.35,
-      "2031": 13.08
+      "2026": 21.68,
+      "2027": 3.84,
+      "2028": 3.84,
+      "2029": 3.84,
+      "2030": 7.69,
+      "2031": 7.41
     }
   },
   {
     "municipality": "Kontich",
     "nis_code": "11024",
-    "bd_code": "BDS",
-    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
-    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
-    "ap_code": "O2.6",
-    "ap_short": "Mobiliteit",
-    "ap_long": "We zetten in op een verkeersveilige gemeente, waar alternatieven voor de personenwagen interessanter worden, maar ook de wagen niet uit het oog wordt verloren.",
-    "ac_code": "O2.6",
-    "ac_short": "Netwerk Hoppinpunten uitrollen",
-    "ac_long": "Netwerk Hoppinpunten uitrollen",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 1335000.0,
-    "amount_per_capita": 60.4,
-    "yearly_amounts": {
-      "2026": 332500.0,
-      "2027": 332500.0,
-      "2028": 470000.0,
-      "2029": 45000.0,
-      "2030": 105000.0,
-      "2031": 50000.0
-    },
-    "yearly_per_capita": {
-      "2026": 15.04,
-      "2027": 15.04,
-      "2028": 21.26,
-      "2029": 2.04,
-      "2030": 4.75,
-      "2031": 2.26
-    }
-  },
-  {
-    "municipality": "Kontich",
-    "nis_code": "11024",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
     "bd_short": "Toegankelijke en betaalbare zorg en opvang",
     "bd_long": "We werken aan een toegankelijke, kwalitatieve en betaalbare gezondheidszorg en kinderopvang en besteden ook aandacht aan preventie(ve zorg).",
     "ap_code": "M1.1",
     "ap_short": "Kinderen en jongeren",
     "ap_long": "We creëren een warme en inclusieve gemeente waar kinderen, jongeren en jonge ouders zich thuis en ondersteund voelen door een toegankelijk en laagdrempelig aanbod te creëren van vrije tijd, opvoedingsondersteuning en preventieve ondersteuning, met bijzondere aandacht voor kwetsbare jongeren.",
-    "ac_code": "M1.1",
+    "ac_code": "M1.1_M1.1.2",
     "ac_short": "Wereld van het kind: samen sterk voor gezin en jeugd",
     "ac_long": "Wereld van het kind: samen sterk voor gezin en jeugd",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 1000000.0,
-    "amount_per_capita": 45.24,
+    "amount_per_capita": 45.21,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -266,30 +334,370 @@
       "2026": 0,
       "2027": 0,
       "2028": 4.52,
-      "2029": 9.05,
-      "2030": 13.57,
-      "2031": 18.1
+      "2029": 9.04,
+      "2030": 13.56,
+      "2031": 18.08
     }
   },
   {
     "municipality": "Kontich",
     "nis_code": "11024",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.6",
+    "ap_short": "Mobiliteit",
+    "ap_long": "We zetten in op een verkeersveilige gemeente, waar alternatieven voor de personenwagen interessanter worden, maar ook de wagen niet uit het oog wordt verloren.",
+    "ac_code": "O2.6_O2.6.4",
+    "ac_short": "Verkeersveilige en aangename winkelas Mechelsesteenweg",
+    "ac_long": "Verkeersveilige en aangename winkelas Mechelsesteenweg",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 40.69,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 300000.0,
+      "2028": 450000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.78,
+      "2027": 13.56,
+      "2028": 20.34,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.4",
+    "ap_short": "Toegankelijke en kwalitatieve vrijetijdsinfrastructuur",
+    "ap_long": "Het rijke verenigingsleven maakt Kontich mee tot wat het is en dat koesteren we door het zoveel mogelijk te ondersteunen. We zullen verenigingen zoveel als mogelijk moeten bijstaan in een almaar duurder en complexer wordende samenleving met steeds meer verplichtingen.",
+    "ac_code": "O2.4_O2.4.2",
+    "ac_short": "Publiek toegankelijke vrijetijdsinfrastructuur",
+    "ac_long": "Publiek toegankelijke vrijetijdsinfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 838316.0,
+    "amount_per_capita": 37.9,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 344000.0,
+      "2028": 294316.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.26,
+      "2027": 15.55,
+      "2028": 13.31,
+      "2029": 2.26,
+      "2030": 2.26,
+      "2031": 2.26
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 1",
+    "bd_short": "Een klimaatrobuuste toekomst",
+    "bd_long": "We investeren in een klimaatrobuuste toekomst voor Kontich door ons lokaal energie- en klimaatactieplan verder uit te rollen en de (impact van) klimaatverandering te bestrijden.",
+    "ap_code": "O1.1",
+    "ap_short": "Klimaat, natuur en water",
+    "ap_long": "We zetten in op een combinatie van maatregelen die zowel de hitte- als watergevoeligheid op ons grondgebied aanpakken en waarbij we voldoende open ruimte garanderen voor toekomstige generaties.",
+    "ac_code": "O1.1_O1.1.1",
+    "ac_short": "Uitbreidingen van toegankelijke groengebieden",
+    "ac_long": "Uitbreidingen van toegankelijke groengebieden",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 650000.0,
+    "amount_per_capita": 29.39,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 200000.0,
+      "2030": 200000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 9.04,
+      "2030": 9.04,
+      "2031": 11.3
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.4",
+    "ap_short": "Toegankelijke en kwalitatieve vrijetijdsinfrastructuur",
+    "ap_long": "Het rijke verenigingsleven maakt Kontich mee tot wat het is en dat koesteren we door het zoveel mogelijk te ondersteunen. We zullen verenigingen zoveel als mogelijk moeten bijstaan in een almaar duurder en complexer wordende samenleving met steeds meer verplichtingen.",
+    "ac_code": "O2.4_O2.4.5",
+    "ac_short": "Chirolokalen Waarloos",
+    "ac_long": "Chirolokalen Waarloos",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 27.13,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 400000.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 4.52,
+      "2028": 18.08,
+      "2029": 4.52,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.5",
+    "ap_short": "Patrimoniumprojecten",
+    "ap_long": "We vullen onze voorbeeldfunctie in door ons eigen patrimonium goed te onderhouden en duurzaam en toegankelijk te maken.",
+    "ac_code": "O2.5_O2.5.2",
+    "ac_short": "Restauratie interieur Sint-Martinuskerk",
+    "ac_long": "Restauratie interieur Sint-Martinuskerk",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 27.13,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 600000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 27.13
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 1",
+    "bd_short": "Een klimaatrobuuste toekomst",
+    "bd_long": "We investeren in een klimaatrobuuste toekomst voor Kontich door ons lokaal energie- en klimaatactieplan verder uit te rollen en de (impact van) klimaatverandering te bestrijden.",
+    "ap_code": "O1.1",
+    "ap_short": "Klimaat, natuur en water",
+    "ap_long": "We zetten in op een combinatie van maatregelen die zowel de hitte- als watergevoeligheid op ons grondgebied aanpakken en waarbij we voldoende open ruimte garanderen voor toekomstige generaties.",
+    "ac_code": "O1.1_O1.1.7",
+    "ac_short": "Groenblauwe dooradering Blauwesteenbeek",
+    "ac_long": "Groenblauwe dooradering Blauwesteenbeek",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 599850.56,
+    "amount_per_capita": 27.12,
+    "yearly_amounts": {
+      "2026": 169850.56,
+      "2027": 0,
+      "2028": 215000.0,
+      "2029": 215000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.68,
+      "2027": 0,
+      "2028": 9.72,
+      "2029": 9.72,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 1",
+    "bd_short": "Een klimaatrobuuste toekomst",
+    "bd_long": "We investeren in een klimaatrobuuste toekomst voor Kontich door ons lokaal energie- en klimaatactieplan verder uit te rollen en de (impact van) klimaatverandering te bestrijden.",
+    "ap_code": "O1.4",
+    "ap_short": "Energietransitie",
+    "ap_long": "We zetten in op hernieuwbare energie voor zowel eigen gebouwen als voor burgers. De gemeente moet tegen 2050 volledig onafhankelijk zijn van fossiele brandstoffen. Daarom is het belangrijk om nu na te denken over de benodigde energietransitie.",
+    "ac_code": "O1.4_O1.4.3",
+    "ac_short": "VerLEDden, doven en dimmen openbare verlichting",
+    "ac_long": "VerLEDden, doven en dimmen openbare verlichting",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 528955.97,
+    "amount_per_capita": 23.91,
+    "yearly_amounts": {
+      "2026": 3955.97,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 125000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.18,
+      "2027": 4.52,
+      "2028": 4.52,
+      "2029": 4.52,
+      "2030": 4.52,
+      "2031": 5.65
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.4",
+    "ap_short": "Toegankelijke en kwalitatieve vrijetijdsinfrastructuur",
+    "ap_long": "Het rijke verenigingsleven maakt Kontich mee tot wat het is en dat koesteren we door het zoveel mogelijk te ondersteunen. We zullen verenigingen zoveel als mogelijk moeten bijstaan in een almaar duurder en complexer wordende samenleving met steeds meer verplichtingen.",
+    "ac_code": "O2.4_O2.4.3",
+    "ac_short": "Beweeg- en speelinfrastructuur in de openbare ruimte",
+    "ac_long": "Beweeg- en speelinfrastructuur in de openbare ruimte",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 324129.49,
+    "amount_per_capita": 14.65,
+    "yearly_amounts": {
+      "2026": 74129.49,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.35,
+      "2027": 2.26,
+      "2028": 2.26,
+      "2029": 2.26,
+      "2030": 2.26,
+      "2031": 2.26
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.5",
+    "ap_short": "Patrimoniumprojecten",
+    "ap_long": "We vullen onze voorbeeldfunctie in door ons eigen patrimonium goed te onderhouden en duurzaam en toegankelijk te maken.",
+    "ac_code": "O2.5_O2.5.3",
+    "ac_short": "Restauratie gevels en daken Sint-Michielskerk Waarloos",
+    "ac_long": "Restauratie gevels en daken Sint-Michielskerk Waarloos",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 13.56,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 13.56
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 1",
+    "bd_short": "Een klimaatrobuuste toekomst",
+    "bd_long": "We investeren in een klimaatrobuuste toekomst voor Kontich door ons lokaal energie- en klimaatactieplan verder uit te rollen en de (impact van) klimaatverandering te bestrijden.",
+    "ap_code": "O1.1",
+    "ap_short": "Klimaat, natuur en water",
+    "ap_long": "We zetten in op een combinatie van maatregelen die zowel de hitte- als watergevoeligheid op ons grondgebied aanpakken en waarbij we voldoende open ruimte garanderen voor toekomstige generaties.",
+    "ac_code": "O1.1_O1.1.4",
+    "ac_short": "Beheerplannen groengebieden",
+    "ac_long": "Beheerplannen groengebieden",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 11.3,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 11.3
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 5",
     "bd_short": "Gedreven organisatie voor kwalitatieve dienstverlening",
     "bd_long": "We zijn als lokaal bestuur een voorbeeld naar onze burgers en medewerkers als goede dienstverlener, door goed werkgeverschap, door transparante interne en externe communicatie, doordacht financieel beheer en sterke samenwerkingen.",
     "ap_code": "B1.1",
     "ap_short": "Optimalisatie van dienstverlening en digitalisering",
     "ap_long": "We transformeren onze gemeentelijke dienstverlening naar een geïntegreerde, toegankelijke en toekomstgerichte ervaring voor iedere burger, met een evenwicht tussen fysieke en digitale bereikbaarheid.  Hiervoor optimaliseren we processen, versterken we interne en externe samenwerkingsverbanden en zetten we efficiënt en bewust technologie in.",
-    "ac_code": "B1.1",
+    "ac_code": "B1.1_B1.1.3",
     "ac_short": "Gemeentehuis van de toekomst: centraal en digitaal",
     "ac_long": "Gemeentehuis van de toekomst: centraal en digitaal",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 245000.0,
-    "amount_per_capita": 11.08,
+    "total_amount": 235000.0,
+    "amount_per_capita": 10.62,
     "yearly_amounts": {
-      "2026": 10000.0,
+      "2026": 0,
       "2027": 135000.0,
       "2028": 100000.0,
       "2029": 0,
@@ -297,8 +705,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.45,
-      "2027": 6.11,
+      "2026": 0,
+      "2027": 6.1,
       "2028": 4.52,
       "2029": 0,
       "2030": 0,
@@ -308,20 +716,54 @@
   {
     "municipality": "Kontich",
     "nis_code": "11024",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.5",
+    "ap_short": "Patrimoniumprojecten",
+    "ap_long": "We vullen onze voorbeeldfunctie in door ons eigen patrimonium goed te onderhouden en duurzaam en toegankelijk te maken.",
+    "ac_code": "O2.5_O2.5.7",
+    "ac_short": "Cohousing/buurtbib Kontich-Kazerne",
+    "ac_long": "Cohousing/buurtbib Kontich-Kazerne",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 229000.0,
+    "amount_per_capita": 10.35,
+    "yearly_amounts": {
+      "2026": 229000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.35,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 4",
     "bd_short": "Gelijke kansen in werken, wonen en samenleven",
     "bd_long": "We zorgen voor sociale, economische en politieke toegankelijkheid voor iedereen op vlak van tewerkstelling, huisvesting, gemeenschapsvorming en bestaanszekerheid.",
     "ap_code": "M2.2",
     "ap_short": "Onderwijs en geletterdheid",
     "ap_long": "We zetten in op een grote verwevenheid van al onze onderwijsinspanningen, levenslang leren voor alle inwoners en het bieden van leerkansen voor iedereen met het oog op een maximale ontplooiing en participatie aan de samenleving.",
-    "ac_code": "M2.2",
+    "ac_code": "M2.2_M2.2.4",
     "ac_short": "DBFM-project vernieuwing A-HA!-school",
     "ac_long": "DBFM-project vernieuwing A-HA!-school",
     "categories": [
       "08-onderwijs"
     ],
     "total_amount": 200000.0,
-    "amount_per_capita": 9.05,
+    "amount_per_capita": 9.04,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -342,22 +784,22 @@
   {
     "municipality": "Kontich",
     "nis_code": "11024",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "Gedreven organisatie voor kwalitatieve dienstverlening",
     "bd_long": "We zijn als lokaal bestuur een voorbeeld naar onze burgers en medewerkers als goede dienstverlener, door goed werkgeverschap, door transparante interne en externe communicatie, doordacht financieel beheer en sterke samenwerkingen.",
     "ap_code": "B1.3",
     "ap_short": "Digitaal informatiebeheer en wendbare dienstverlening",
     "ap_long": "We bouwen aan een toekomstgerichte en veerkrachtige organisatie door het versterken van informatiebeheer, archiefwerking en digitale toegankelijkheid, met aandacht voor continuïteit van dienstverlening en transparantie naar burgers en raadsleden.",
-    "ac_code": "B1.3",
-    "ac_short": "Business Continuity Planning",
-    "ac_long": "Business Continuity Planning",
+    "ac_code": "B1.3_B1.3.2",
+    "ac_short": "E-depot aankopen voor digitaal archiefbeheer",
+    "ac_long": "E-depot voor duurzaam digitaal archiefbeheer",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 2.26,
+    "total_amount": 165260.47,
+    "amount_per_capita": 7.47,
     "yearly_amounts": {
-      "2026": 50000.0,
+      "2026": 165260.47,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -365,7 +807,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.26,
+      "2026": 7.47,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -376,17 +818,459 @@
   {
     "municipality": "Kontich",
     "nis_code": "11024",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.6",
+    "ap_short": "Mobiliteit",
+    "ap_long": "We zetten in op een verkeersveilige gemeente, waar alternatieven voor de personenwagen interessanter worden, maar ook de wagen niet uit het oog wordt verloren.",
+    "ac_code": "O2.6_O2.6.2",
+    "ac_short": "Duurzaam parkeerbeleid",
+    "ac_long": "Duurzaam parkeerbeleid",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 6.78,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.78,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.6",
+    "ap_short": "Mobiliteit",
+    "ap_long": "We zetten in op een verkeersveilige gemeente, waar alternatieven voor de personenwagen interessanter worden, maar ook de wagen niet uit het oog wordt verloren.",
+    "ac_code": "O2.6_O2.6.1",
+    "ac_short": "Netwerk Hoppinpunten uitrollen",
+    "ac_long": "Netwerk Hoppinpunten uitrollen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 125000.0,
+    "amount_per_capita": 5.65,
+    "yearly_amounts": {
+      "2026": 32500.0,
+      "2027": 32500.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.47,
+      "2027": 1.47,
+      "2028": 0.9,
+      "2029": 0.9,
+      "2030": 0.9,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.4",
+    "ap_short": "Toegankelijke en kwalitatieve vrijetijdsinfrastructuur",
+    "ap_long": "Het rijke verenigingsleven maakt Kontich mee tot wat het is en dat koesteren we door het zoveel mogelijk te ondersteunen. We zullen verenigingen zoveel als mogelijk moeten bijstaan in een almaar duurder en complexer wordende samenleving met steeds meer verplichtingen.",
+    "ac_code": "O2.4_O2.4.4",
+    "ac_short": "Haalbaarheidsstudie amateurkunstencampus",
+    "ac_long": "Haalbaarheidsstudie amateurkunstencampus",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 4.97,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 110000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 4.97,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.4",
+    "ap_short": "Toegankelijke en kwalitatieve vrijetijdsinfrastructuur",
+    "ap_long": "Het rijke verenigingsleven maakt Kontich mee tot wat het is en dat koesteren we door het zoveel mogelijk te ondersteunen. We zullen verenigingen zoveel als mogelijk moeten bijstaan in een almaar duurder en complexer wordende samenleving met steeds meer verplichtingen.",
+    "ac_code": "O2.4_O2.4.6",
+    "ac_short": "Nieuwe tribune Altenakapel",
+    "ac_long": "Nieuwe tribune Altenakapel",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.52,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 4.52,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.6",
+    "ap_short": "Mobiliteit",
+    "ap_long": "We zetten in op een verkeersveilige gemeente, waar alternatieven voor de personenwagen interessanter worden, maar ook de wagen niet uit het oog wordt verloren.",
+    "ac_code": "O2.6_O2.6.7",
+    "ac_short": "Acties verkeersveiligheid",
+    "ac_long": "Acties verkeersveiligheid",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.52,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2.26,
+      "2031": 2.26
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 1",
+    "bd_short": "Een klimaatrobuuste toekomst",
+    "bd_long": "We investeren in een klimaatrobuuste toekomst voor Kontich door ons lokaal energie- en klimaatactieplan verder uit te rollen en de (impact van) klimaatverandering te bestrijden.",
+    "ap_code": "O1.1",
+    "ap_short": "Klimaat, natuur en water",
+    "ap_long": "We zetten in op een combinatie van maatregelen die zowel de hitte- als watergevoeligheid op ons grondgebied aanpakken en waarbij we voldoende open ruimte garanderen voor toekomstige generaties.",
+    "ac_code": "O1.1_O1.1.3",
+    "ac_short": "Uitbouw trage wegen als ecologische corridors",
+    "ac_long": "Uitbouw trage wegen als ecologische corridors",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 3.39,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.68,
+      "2028": 0.68,
+      "2029": 0.68,
+      "2030": 0.68,
+      "2031": 0.68
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.6",
+    "ap_short": "Mobiliteit",
+    "ap_long": "We zetten in op een verkeersveilige gemeente, waar alternatieven voor de personenwagen interessanter worden, maar ook de wagen niet uit het oog wordt verloren.",
+    "ac_code": "O2.6_O2.6.3",
+    "ac_short": "Uitbreiden deelmobiliteit",
+    "ac_long": "Uitbreiden deelmobiliteit",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 2.26,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1.13,
+      "2030": 1.13,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 5",
+    "bd_short": "Gedreven organisatie voor kwalitatieve dienstverlening",
+    "bd_long": "We zijn als lokaal bestuur een voorbeeld naar onze burgers en medewerkers als goede dienstverlener, door goed werkgeverschap, door transparante interne en externe communicatie, doordacht financieel beheer en sterke samenwerkingen.",
+    "ap_code": "B1.3",
+    "ap_short": "Digitaal informatiebeheer en wendbare dienstverlening",
+    "ap_long": "We bouwen aan een toekomstgerichte en veerkrachtige organisatie door het versterken van informatiebeheer, archiefwerking en digitale toegankelijkheid, met aandacht voor continuïteit van dienstverlening en transparantie naar burgers en raadsleden.",
+    "ac_code": "B1.3_B1.3.1",
+    "ac_short": "Business Continuity Planning",
+    "ac_long": "Business Continuity Planning",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 45000.0,
+    "amount_per_capita": 2.03,
+    "yearly_amounts": {
+      "2026": 45000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.4",
+    "ap_short": "Toegankelijke en kwalitatieve vrijetijdsinfrastructuur",
+    "ap_long": "Het rijke verenigingsleven maakt Kontich mee tot wat het is en dat koesteren we door het zoveel mogelijk te ondersteunen. We zullen verenigingen zoveel als mogelijk moeten bijstaan in een almaar duurder en complexer wordende samenleving met steeds meer verplichtingen.",
+    "ac_code": "O2.4_O2.4.1",
+    "ac_short": "Graffitimuur nieuwe fietstunnel",
+    "ac_long": "Graffitimuur nieuwe fietstunnel",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.36,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.36,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 1",
+    "bd_short": "Een klimaatrobuuste toekomst",
+    "bd_long": "We investeren in een klimaatrobuuste toekomst voor Kontich door ons lokaal energie- en klimaatactieplan verder uit te rollen en de (impact van) klimaatverandering te bestrijden.",
+    "ap_code": "O1.4",
+    "ap_short": "Energietransitie",
+    "ap_long": "We zetten in op hernieuwbare energie voor zowel eigen gebouwen als voor burgers. De gemeente moet tegen 2050 volledig onafhankelijk zijn van fossiele brandstoffen. Daarom is het belangrijk om nu na te denken over de benodigde energietransitie.",
+    "ac_code": "O1.4_O1.4.1",
+    "ac_short": "Energie- en warmtetransitie bevorderen",
+    "ac_long": "Energie- en warmtetransitie bevorderen",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 1.13,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 25000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 1.13,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.2",
+    "ap_short": "Infrastructuurprojecten",
+    "ap_long": "We zetten in op verschillende infrastructuurprojecten die aandacht besteden aan vergroening, verkeersveiligheid en ontmoeting. We streven naar een goed onderhouden, aangenaam, en veilig openbaar domein voor alle inwoners.",
+    "ac_code": "O2.2_O2.2.5",
+    "ac_short": "Camperplaatsen creëren",
+    "ac_long": "Camperplaatsen creëren",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.45,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 2",
+    "bd_short": "Slimme en innovatieve infrastructuuroplossingen",
+    "bd_long": "We investeren in slimme en innovatieve infrastructuuroplossingen om Kontich toegankelijk, veilig en aangenaam te maken.",
+    "ap_code": "O2.6",
+    "ap_short": "Mobiliteit",
+    "ap_long": "We zetten in op een verkeersveilige gemeente, waar alternatieven voor de personenwagen interessanter worden, maar ook de wagen niet uit het oog wordt verloren.",
+    "ac_code": "O2.6_O2.6.6",
+    "ac_short": "Strategisch uitbreiden laadinfrastructuur",
+    "ac_long": "Strategisch uitbreiden laadinfrastructuur",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0.45,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 4",
     "bd_short": "Gelijke kansen in werken, wonen en samenleven",
     "bd_long": "We zorgen voor sociale, economische en politieke toegankelijkheid voor iedereen op vlak van tewerkstelling, huisvesting, gemeenschapsvorming en bestaanszekerheid.",
     "ap_code": "M2.5",
     "ap_short": "Verenigingsleven ondersteunen",
     "ap_long": "We werken een transparant, rechtvaardig en beleidssturend kader voor verenigingsondersteuning uit.",
-    "ac_code": "M2.5",
+    "ac_code": "M2.5_M2.5.3",
     "ac_short": "Verenigingsloket en digitalisering subsidieprocessen",
     "ac_long": "Verenigingsloket en digitalisering subsidieprocessen",
     "categories": [
       "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.45,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.45,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kontich",
+    "nis_code": "11024",
+    "bd_code": "BDS 5",
+    "bd_short": "Gedreven organisatie voor kwalitatieve dienstverlening",
+    "bd_long": "We zijn als lokaal bestuur een voorbeeld naar onze burgers en medewerkers als goede dienstverlener, door goed werkgeverschap, door transparante interne en externe communicatie, doordacht financieel beheer en sterke samenwerkingen.",
+    "ap_code": "B1.1",
+    "ap_short": "Optimalisatie van dienstverlening en digitalisering",
+    "ap_long": "We transformeren onze gemeentelijke dienstverlening naar een geïntegreerde, toegankelijke en toekomstgerichte ervaring voor iedere burger, met een evenwicht tussen fysieke en digitale bereikbaarheid.  Hiervoor optimaliseren we processen, versterken we interne en externe samenwerkingsverbanden en zetten we efficiënt en bewust technologie in.",
+    "ac_code": "B1.1_B1.1.4",
+    "ac_short": "Digitale oplossingen voor ticketing en planning",
+    "ac_long": "Digitale oplossingen voor ticketing en planning",
+    "categories": [
+      "01-algemeen-bestuur"
     ],
     "total_amount": 10000.0,
     "amount_per_capita": 0.45,

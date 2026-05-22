@@ -8,63 +8,777 @@
     "ap_code": "",
     "ap_short": "",
     "ap_long": "",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 30713884.0,
-    "amount_per_capita": 877.5,
+    "total_amount": 29498270.0,
+    "amount_per_capita": 839.93,
     "yearly_amounts": {
-      "2026": 7583580.0,
-      "2027": 7552270.0,
-      "2028": 5444598.0,
-      "2029": 5189459.0,
-      "2030": 2390839.0,
-      "2031": 2553138.0
+      "2026": 6905466.0,
+      "2027": 7285770.0,
+      "2028": 5328098.0,
+      "2029": 5137959.0,
+      "2030": 2339339.0,
+      "2031": 2501638.0
     },
     "yearly_per_capita": {
-      "2026": 216.66,
-      "2027": 215.77,
-      "2028": 155.55,
-      "2029": 148.26,
-      "2030": 68.31,
-      "2031": 72.94
+      "2026": 196.63,
+      "2027": 207.45,
+      "2028": 151.71,
+      "2029": 146.3,
+      "2030": 66.61,
+      "2031": 71.23
     }
   },
   {
     "municipality": "Geraardsbergen",
     "nis_code": "41018",
-    "bd_code": "BDS",
+    "bd_code": "BDS 123",
+    "bd_short": "Schitterend Geraardsbergen",
+    "bd_long": "Het lokaal bestuur zet volop in op een bruisend stadscentrum met een vernieuwde uitstraling. Denk aan de heraanleg van winkelstraten, het stationsplein en parking De Kriebel. Om leegstand tegen te gaan, komt er een belasting op ongebruikte handelspanden. Tegelijk zorgen sfeervolle belevingsmomenten voor meer bezoekers en een levendiger handelscentrum.\nSite Den Bleek wordt een landschappelijk park met een opgewaardeerd Dokhuis: een levendige ontmoetingsplek met ruimte voor horeca en gemeenschapsactiviteiten. Via ruimtelijke uitvoeringsplannen (RUP's) wordt ingezet op verdichting, hoger bouwen en de ontwikkeling van een recreatie- en KMO-zone in Nederboelare.\nOok de dorpskernen krijgen een boost. Verbindende activiteiten, opgewaardeerde buurthuizen en een heringericht Moerbekeplein zorgen voor meer leefkwaliteit en gemeenschapszin. Erfgoed krijgt de zorg die het verdient: het Abtenhuis, het stadhuis, de Kunstacademie en de Bosberg worden met respect voor hun erfgoedwaarde gerestaureerd.\nHet woonbeleid krijgt extra kracht: met conformiteitsattesten, aanpak van leegstand en verwaarlozing, en een geïntegreerd woon- en energieloket wordt verder ingezet op kwaliteitsvol wonen voor iedereen.",
+    "ap_code": "AP 1.1",
+    "ap_short": "We zetten in op stadskernvernieuwing",
+    "ap_long": "We zetten verder in op de stadskernvernieuwing, de beleving en de aantrekkelijkheid van ons centrum.",
+    "ac_code": "AP 1.1_AC 113",
+    "ac_short": "Opwaardering openbare ruimte in het handelscentrum.",
+    "ac_long": "De openbare ruimte in het handelscentrum wordt opgewaardeerd door heraanleg van de winkelstraten, stationsplein en parking De Kriebel.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7286000.0,
+    "amount_per_capita": 207.46,
+    "yearly_amounts": {
+      "2026": 600000.0,
+      "2027": 1184000.0,
+      "2028": 3112000.0,
+      "2029": 2390000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.08,
+      "2027": 33.71,
+      "2028": 88.61,
+      "2029": 68.05,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 123",
+    "bd_short": "Schitterend Geraardsbergen",
+    "bd_long": "Het lokaal bestuur zet volop in op een bruisend stadscentrum met een vernieuwde uitstraling. Denk aan de heraanleg van winkelstraten, het stationsplein en parking De Kriebel. Om leegstand tegen te gaan, komt er een belasting op ongebruikte handelspanden. Tegelijk zorgen sfeervolle belevingsmomenten voor meer bezoekers en een levendiger handelscentrum.\nSite Den Bleek wordt een landschappelijk park met een opgewaardeerd Dokhuis: een levendige ontmoetingsplek met ruimte voor horeca en gemeenschapsactiviteiten. Via ruimtelijke uitvoeringsplannen (RUP's) wordt ingezet op verdichting, hoger bouwen en de ontwikkeling van een recreatie- en KMO-zone in Nederboelare.\nOok de dorpskernen krijgen een boost. Verbindende activiteiten, opgewaardeerde buurthuizen en een heringericht Moerbekeplein zorgen voor meer leefkwaliteit en gemeenschapszin. Erfgoed krijgt de zorg die het verdient: het Abtenhuis, het stadhuis, de Kunstacademie en de Bosberg worden met respect voor hun erfgoedwaarde gerestaureerd.\nHet woonbeleid krijgt extra kracht: met conformiteitsattesten, aanpak van leegstand en verwaarlozing, en een geïntegreerd woon- en energieloket wordt verder ingezet op kwaliteitsvol wonen voor iedereen.",
+    "ap_code": "AP 1.3",
+    "ap_short": "Efficiënt en kwalitatief beheer van het partrimonium",
+    "ap_long": "We beheren ons patrimonium op een (energie-)efficiënte en kwalitatieve manier.",
+    "ac_code": "AP 1.3_AC 133",
+    "ac_short": "Restauratie van het Abtenhuis",
+    "ac_long": "Het Abtenhuis wordt met respect voor zijn erfgoedwaarde zorgvuldig en kwalitatief gerestaureerd.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 4700000.0,
+    "amount_per_capita": 133.83,
+    "yearly_amounts": {
+      "2026": 3700000.0,
+      "2027": 1000000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 105.35,
+      "2027": 28.47,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 123",
+    "bd_short": "Schitterend Geraardsbergen",
+    "bd_long": "Het lokaal bestuur zet volop in op een bruisend stadscentrum met een vernieuwde uitstraling. Denk aan de heraanleg van winkelstraten, het stationsplein en parking De Kriebel. Om leegstand tegen te gaan, komt er een belasting op ongebruikte handelspanden. Tegelijk zorgen sfeervolle belevingsmomenten voor meer bezoekers en een levendiger handelscentrum.\nSite Den Bleek wordt een landschappelijk park met een opgewaardeerd Dokhuis: een levendige ontmoetingsplek met ruimte voor horeca en gemeenschapsactiviteiten. Via ruimtelijke uitvoeringsplannen (RUP's) wordt ingezet op verdichting, hoger bouwen en de ontwikkeling van een recreatie- en KMO-zone in Nederboelare.\nOok de dorpskernen krijgen een boost. Verbindende activiteiten, opgewaardeerde buurthuizen en een heringericht Moerbekeplein zorgen voor meer leefkwaliteit en gemeenschapszin. Erfgoed krijgt de zorg die het verdient: het Abtenhuis, het stadhuis, de Kunstacademie en de Bosberg worden met respect voor hun erfgoedwaarde gerestaureerd.\nHet woonbeleid krijgt extra kracht: met conformiteitsattesten, aanpak van leegstand en verwaarlozing, en een geïntegreerd woon- en energieloket wordt verder ingezet op kwaliteitsvol wonen voor iedereen.",
+    "ap_code": "AP 1.2",
+    "ap_short": "Kwaliteitsvolle leefomgeving in de dorpskernen.",
+    "ap_long": "We verhogen de kwaliteit van de leefomgeving in de dorpskernen en zetten in op verbindende activiteiten in de deelgemeenten, zodat alle inwoners zich thuis voelen in hun buurt.",
+    "ac_code": "AP 1.2_AC 121",
+    "ac_short": "Kwaliteitsvolle buurthuizen.",
+    "ac_long": "We creëren kwaliteitsvolle plekken waar het gemeenschapsleven en de verenigingen kunnen bloeien mede door de opwaardering van buurthuizen in de deelgemeenten",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3595000.0,
+    "amount_per_capita": 102.36,
+    "yearly_amounts": {
+      "2026": 240000.0,
+      "2027": 700000.0,
+      "2028": 1000000.0,
+      "2029": 0,
+      "2030": 1655000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.83,
+      "2027": 19.93,
+      "2028": 28.47,
+      "2029": 0,
+      "2030": 47.12,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 123",
+    "bd_short": "Schitterend Geraardsbergen",
+    "bd_long": "Het lokaal bestuur zet volop in op een bruisend stadscentrum met een vernieuwde uitstraling. Denk aan de heraanleg van winkelstraten, het stationsplein en parking De Kriebel. Om leegstand tegen te gaan, komt er een belasting op ongebruikte handelspanden. Tegelijk zorgen sfeervolle belevingsmomenten voor meer bezoekers en een levendiger handelscentrum.\nSite Den Bleek wordt een landschappelijk park met een opgewaardeerd Dokhuis: een levendige ontmoetingsplek met ruimte voor horeca en gemeenschapsactiviteiten. Via ruimtelijke uitvoeringsplannen (RUP's) wordt ingezet op verdichting, hoger bouwen en de ontwikkeling van een recreatie- en KMO-zone in Nederboelare.\nOok de dorpskernen krijgen een boost. Verbindende activiteiten, opgewaardeerde buurthuizen en een heringericht Moerbekeplein zorgen voor meer leefkwaliteit en gemeenschapszin. Erfgoed krijgt de zorg die het verdient: het Abtenhuis, het stadhuis, de Kunstacademie en de Bosberg worden met respect voor hun erfgoedwaarde gerestaureerd.\nHet woonbeleid krijgt extra kracht: met conformiteitsattesten, aanpak van leegstand en verwaarlozing, en een geïntegreerd woon- en energieloket wordt verder ingezet op kwaliteitsvol wonen voor iedereen.",
+    "ap_code": "AP 1.1",
+    "ap_short": "We zetten in op stadskernvernieuwing",
+    "ap_long": "We zetten verder in op de stadskernvernieuwing, de beleving en de aantrekkelijkheid van ons centrum.",
+    "ac_code": "AP 1.1_AC 114",
+    "ac_short": "Inrichten van een landschappelijk park op site Den Bleek",
+    "ac_long": "Inrichten van een landschappelijk park op site Den Bleek met een opgewaardeerd Dokhuis. Dit Dokhuis wordt ontwikkeld tot een levendige ontmoetingsplek met ruimte voor gelegenheidshoreca en gemeenschapsactiviteiten.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 1715500.0,
+    "amount_per_capita": 48.85,
+    "yearly_amounts": {
+      "2026": 1216500.0,
+      "2027": 480000.0,
+      "2028": 19000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 34.64,
+      "2027": 13.67,
+      "2028": 0.54,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 124",
+    "bd_short": "Veilig Geraardsbergen",
+    "bd_long": "Geraardsbergen werkt samen met overheden en burgers aan een robuuste aanpak van wateroverlast en droogte. Preventie, bescherming en paraatheid staan centraal. Een onthardingsvisie maakt het openbaar domein klimaatbestendig en verhoogt de leefkwaliteit.\nHet hemelwaterplan wordt uitgebreid tot een gebiedsdekkend droogtehemelwaterplan. De stad ondersteunt actief de T.OP Denderwerking en voert haalbare hemelwaterprojecten uit op basis van impactanalyses.\nWe ondersteunen onze lokale politie door een hogere betoelaging en een sterk partnerschap, zodat zij met voldoende middelen en menskracht de veiligheid, nabijheid en dienstverlening aan de burger kunnen garanderen. We zetten in op camerabewaking.\nWe blijven sensibiliseren rond netheid in de publieke ruimte en zetten gerichte acties en campagnes op tegen zwerfvuil en sluikstorten, met een duidelijke focus op preventie, gedragsverandering en handhaving.",
+    "ap_code": "AP 2.1",
+    "ap_short": "We zorgen voor een hoger veiligheidsgevoel",
+    "ap_long": "We zorgen voor een hoger veiligheidsgevoel en een veilige omgeving waarin alle inwoners zich thuis voelen.",
+    "ac_code": "AP 2.1_AC 214",
+    "ac_short": "Financiële ondersteuning van de lokale politie.",
+    "ac_long": "We voorzien de nodige middelen om de lokale politie te ondersteunen in hun toenemende financiële behoeften, met als doel een veilig Geraardsbergen.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1556965.0,
+    "amount_per_capita": 44.33,
+    "yearly_amounts": {
+      "2026": 306965.0,
+      "2027": 250000.0,
+      "2028": 250000.0,
+      "2029": 250000.0,
+      "2030": 250000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.74,
+      "2027": 7.12,
+      "2028": 7.12,
+      "2029": 7.12,
+      "2030": 7.12,
+      "2031": 7.12
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 123",
+    "bd_short": "Schitterend Geraardsbergen",
+    "bd_long": "Het lokaal bestuur zet volop in op een bruisend stadscentrum met een vernieuwde uitstraling. Denk aan de heraanleg van winkelstraten, het stationsplein en parking De Kriebel. Om leegstand tegen te gaan, komt er een belasting op ongebruikte handelspanden. Tegelijk zorgen sfeervolle belevingsmomenten voor meer bezoekers en een levendiger handelscentrum.\nSite Den Bleek wordt een landschappelijk park met een opgewaardeerd Dokhuis: een levendige ontmoetingsplek met ruimte voor horeca en gemeenschapsactiviteiten. Via ruimtelijke uitvoeringsplannen (RUP's) wordt ingezet op verdichting, hoger bouwen en de ontwikkeling van een recreatie- en KMO-zone in Nederboelare.\nOok de dorpskernen krijgen een boost. Verbindende activiteiten, opgewaardeerde buurthuizen en een heringericht Moerbekeplein zorgen voor meer leefkwaliteit en gemeenschapszin. Erfgoed krijgt de zorg die het verdient: het Abtenhuis, het stadhuis, de Kunstacademie en de Bosberg worden met respect voor hun erfgoedwaarde gerestaureerd.\nHet woonbeleid krijgt extra kracht: met conformiteitsattesten, aanpak van leegstand en verwaarlozing, en een geïntegreerd woon- en energieloket wordt verder ingezet op kwaliteitsvol wonen voor iedereen.",
+    "ap_code": "AP 1.3",
+    "ap_short": "Efficiënt en kwalitatief beheer van het partrimonium",
+    "ap_long": "We beheren ons patrimonium op een (energie-)efficiënte en kwalitatieve manier.",
+    "ac_code": "AP 1.3_AC 131",
+    "ac_short": "Restauratie van de Kunstacademie",
+    "ac_long": "De Kunstacademie wordt met respect voor zijn erfgoedwaarde zorgvuldig en kwalitatief gerestaureerd.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 1515000.0,
+    "amount_per_capita": 43.14,
+    "yearly_amounts": {
+      "2026": 565000.0,
+      "2027": 950000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.09,
+      "2027": 27.05,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 123",
+    "bd_short": "Schitterend Geraardsbergen",
+    "bd_long": "Het lokaal bestuur zet volop in op een bruisend stadscentrum met een vernieuwde uitstraling. Denk aan de heraanleg van winkelstraten, het stationsplein en parking De Kriebel. Om leegstand tegen te gaan, komt er een belasting op ongebruikte handelspanden. Tegelijk zorgen sfeervolle belevingsmomenten voor meer bezoekers en een levendiger handelscentrum.\nSite Den Bleek wordt een landschappelijk park met een opgewaardeerd Dokhuis: een levendige ontmoetingsplek met ruimte voor horeca en gemeenschapsactiviteiten. Via ruimtelijke uitvoeringsplannen (RUP's) wordt ingezet op verdichting, hoger bouwen en de ontwikkeling van een recreatie- en KMO-zone in Nederboelare.\nOok de dorpskernen krijgen een boost. Verbindende activiteiten, opgewaardeerde buurthuizen en een heringericht Moerbekeplein zorgen voor meer leefkwaliteit en gemeenschapszin. Erfgoed krijgt de zorg die het verdient: het Abtenhuis, het stadhuis, de Kunstacademie en de Bosberg worden met respect voor hun erfgoedwaarde gerestaureerd.\nHet woonbeleid krijgt extra kracht: met conformiteitsattesten, aanpak van leegstand en verwaarlozing, en een geïntegreerd woon- en energieloket wordt verder ingezet op kwaliteitsvol wonen voor iedereen.",
+    "ap_code": "AP 1.2",
+    "ap_short": "Kwaliteitsvolle leefomgeving in de dorpskernen.",
+    "ap_long": "We verhogen de kwaliteit van de leefomgeving in de dorpskernen en zetten in op verbindende activiteiten in de deelgemeenten, zodat alle inwoners zich thuis voelen in hun buurt.",
+    "ac_code": "AP 1.2_AC 123",
+    "ac_short": "Herinrichting van het Moerbekeplein",
+    "ac_long": "Herinrichting van het Moerbekeplein.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1470000.0,
+    "amount_per_capita": 41.86,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 470000.0,
+      "2028": 1000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 13.38,
+      "2028": 28.47,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 124",
+    "bd_short": "Veilig Geraardsbergen",
+    "bd_long": "Geraardsbergen werkt samen met overheden en burgers aan een robuuste aanpak van wateroverlast en droogte. Preventie, bescherming en paraatheid staan centraal. Een onthardingsvisie maakt het openbaar domein klimaatbestendig en verhoogt de leefkwaliteit.\nHet hemelwaterplan wordt uitgebreid tot een gebiedsdekkend droogtehemelwaterplan. De stad ondersteunt actief de T.OP Denderwerking en voert haalbare hemelwaterprojecten uit op basis van impactanalyses.\nWe ondersteunen onze lokale politie door een hogere betoelaging en een sterk partnerschap, zodat zij met voldoende middelen en menskracht de veiligheid, nabijheid en dienstverlening aan de burger kunnen garanderen. We zetten in op camerabewaking.\nWe blijven sensibiliseren rond netheid in de publieke ruimte en zetten gerichte acties en campagnes op tegen zwerfvuil en sluikstorten, met een duidelijke focus op preventie, gedragsverandering en handhaving.",
+    "ap_code": "AP 2.2",
+    "ap_short": "We zetten in op preventie en protectie bij wateroverlast",
+    "ap_long": "We zetten samen met alle overheden en burgers verder in op preventie, protectie en paraatheid om de wateroverlast- en droogteproblematiek te bestrijden.",
+    "ac_code": "AP 2.2_AC 224",
+    "ac_short": "We werken de studies van de 6 hemelwaterprojecten af",
+    "ac_long": "We werken de studies van de 6 hemelwaterprojecten af en  voeren op basis van een impactanalyse de haalbare projecten  uit.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 950000.0,
+    "amount_per_capita": 27.05,
+    "yearly_amounts": {
+      "2026": 400000.0,
+      "2027": 550000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.39,
+      "2027": 15.66,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 123",
+    "bd_short": "Schitterend Geraardsbergen",
+    "bd_long": "Het lokaal bestuur zet volop in op een bruisend stadscentrum met een vernieuwde uitstraling. Denk aan de heraanleg van winkelstraten, het stationsplein en parking De Kriebel. Om leegstand tegen te gaan, komt er een belasting op ongebruikte handelspanden. Tegelijk zorgen sfeervolle belevingsmomenten voor meer bezoekers en een levendiger handelscentrum.\nSite Den Bleek wordt een landschappelijk park met een opgewaardeerd Dokhuis: een levendige ontmoetingsplek met ruimte voor horeca en gemeenschapsactiviteiten. Via ruimtelijke uitvoeringsplannen (RUP's) wordt ingezet op verdichting, hoger bouwen en de ontwikkeling van een recreatie- en KMO-zone in Nederboelare.\nOok de dorpskernen krijgen een boost. Verbindende activiteiten, opgewaardeerde buurthuizen en een heringericht Moerbekeplein zorgen voor meer leefkwaliteit en gemeenschapszin. Erfgoed krijgt de zorg die het verdient: het Abtenhuis, het stadhuis, de Kunstacademie en de Bosberg worden met respect voor hun erfgoedwaarde gerestaureerd.\nHet woonbeleid krijgt extra kracht: met conformiteitsattesten, aanpak van leegstand en verwaarlozing, en een geïntegreerd woon- en energieloket wordt verder ingezet op kwaliteitsvol wonen voor iedereen.",
+    "ap_code": "AP 1.4",
+    "ap_short": "We zetten verder in op een duurzaam klimaat.",
+    "ap_long": "We zetten verder in op een duurzaam klimaat.",
+    "ac_code": "AP 1.4_AC 141",
+    "ac_short": "Sensibilisering en gefaseerde uitvoering klimaatactieplan",
+    "ac_long": "We zetten in op sensibilisering en het gefaseerd uitvoeren van het klimaatactieplan.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 927300.0,
+    "amount_per_capita": 26.4,
+    "yearly_amounts": {
+      "2026": 252300.0,
+      "2027": 135000.0,
+      "2028": 135000.0,
+      "2029": 135000.0,
+      "2030": 135000.0,
+      "2031": 135000.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.18,
+      "2027": 3.84,
+      "2028": 3.84,
+      "2029": 3.84,
+      "2030": 3.84,
+      "2031": 3.84
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 123",
+    "bd_short": "Schitterend Geraardsbergen",
+    "bd_long": "Het lokaal bestuur zet volop in op een bruisend stadscentrum met een vernieuwde uitstraling. Denk aan de heraanleg van winkelstraten, het stationsplein en parking De Kriebel. Om leegstand tegen te gaan, komt er een belasting op ongebruikte handelspanden. Tegelijk zorgen sfeervolle belevingsmomenten voor meer bezoekers en een levendiger handelscentrum.\nSite Den Bleek wordt een landschappelijk park met een opgewaardeerd Dokhuis: een levendige ontmoetingsplek met ruimte voor horeca en gemeenschapsactiviteiten. Via ruimtelijke uitvoeringsplannen (RUP's) wordt ingezet op verdichting, hoger bouwen en de ontwikkeling van een recreatie- en KMO-zone in Nederboelare.\nOok de dorpskernen krijgen een boost. Verbindende activiteiten, opgewaardeerde buurthuizen en een heringericht Moerbekeplein zorgen voor meer leefkwaliteit en gemeenschapszin. Erfgoed krijgt de zorg die het verdient: het Abtenhuis, het stadhuis, de Kunstacademie en de Bosberg worden met respect voor hun erfgoedwaarde gerestaureerd.\nHet woonbeleid krijgt extra kracht: met conformiteitsattesten, aanpak van leegstand en verwaarlozing, en een geïntegreerd woon- en energieloket wordt verder ingezet op kwaliteitsvol wonen voor iedereen.",
+    "ap_code": "AP 1.3",
+    "ap_short": "Efficiënt en kwalitatief beheer van het partrimonium",
+    "ap_long": "We beheren ons patrimonium op een (energie-)efficiënte en kwalitatieve manier.",
+    "ac_code": "AP 1.3_AC 134",
+    "ac_short": "Restauratie van de Bosberg",
+    "ac_long": "De Bosberg wordt met respect voor zijn erfgoedwaarde aangepakt.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 25.63,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 450000.0,
+      "2030": 450000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 12.81,
+      "2030": 12.81,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 123",
+    "bd_short": "Schitterend Geraardsbergen",
+    "bd_long": "Het lokaal bestuur zet volop in op een bruisend stadscentrum met een vernieuwde uitstraling. Denk aan de heraanleg van winkelstraten, het stationsplein en parking De Kriebel. Om leegstand tegen te gaan, komt er een belasting op ongebruikte handelspanden. Tegelijk zorgen sfeervolle belevingsmomenten voor meer bezoekers en een levendiger handelscentrum.\nSite Den Bleek wordt een landschappelijk park met een opgewaardeerd Dokhuis: een levendige ontmoetingsplek met ruimte voor horeca en gemeenschapsactiviteiten. Via ruimtelijke uitvoeringsplannen (RUP's) wordt ingezet op verdichting, hoger bouwen en de ontwikkeling van een recreatie- en KMO-zone in Nederboelare.\nOok de dorpskernen krijgen een boost. Verbindende activiteiten, opgewaardeerde buurthuizen en een heringericht Moerbekeplein zorgen voor meer leefkwaliteit en gemeenschapszin. Erfgoed krijgt de zorg die het verdient: het Abtenhuis, het stadhuis, de Kunstacademie en de Bosberg worden met respect voor hun erfgoedwaarde gerestaureerd.\nHet woonbeleid krijgt extra kracht: met conformiteitsattesten, aanpak van leegstand en verwaarlozing, en een geïntegreerd woon- en energieloket wordt verder ingezet op kwaliteitsvol wonen voor iedereen.",
+    "ap_code": "AP 1.1",
+    "ap_short": "We zetten in op stadskernvernieuwing",
+    "ap_long": "We zetten verder in op de stadskernvernieuwing, de beleving en de aantrekkelijkheid van ons centrum.",
+    "ac_code": "AP 1.1_AC 116",
+    "ac_short": "We zetten in op stadsontwikkeling i.f.v. de knooppuntfunctie",
+    "ac_long": "We zetten in op stadsontwikkeling in functie van onze knooppuntfunctie mobiliteit en onze (groot)stedelijke aantrekking in de regio.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 807500.0,
+    "amount_per_capita": 22.99,
+    "yearly_amounts": {
+      "2026": 637500.0,
+      "2027": 170000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.15,
+      "2027": 4.84,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 124",
+    "bd_short": "Veilig Geraardsbergen",
+    "bd_long": "Geraardsbergen werkt samen met overheden en burgers aan een robuuste aanpak van wateroverlast en droogte. Preventie, bescherming en paraatheid staan centraal. Een onthardingsvisie maakt het openbaar domein klimaatbestendig en verhoogt de leefkwaliteit.\nHet hemelwaterplan wordt uitgebreid tot een gebiedsdekkend droogtehemelwaterplan. De stad ondersteunt actief de T.OP Denderwerking en voert haalbare hemelwaterprojecten uit op basis van impactanalyses.\nWe ondersteunen onze lokale politie door een hogere betoelaging en een sterk partnerschap, zodat zij met voldoende middelen en menskracht de veiligheid, nabijheid en dienstverlening aan de burger kunnen garanderen. We zetten in op camerabewaking.\nWe blijven sensibiliseren rond netheid in de publieke ruimte en zetten gerichte acties en campagnes op tegen zwerfvuil en sluikstorten, met een duidelijke focus op preventie, gedragsverandering en handhaving.",
+    "ap_code": "AP 2.1",
+    "ap_short": "We zorgen voor een hoger veiligheidsgevoel",
+    "ap_long": "We zorgen voor een hoger veiligheidsgevoel en een veilige omgeving waarin alle inwoners zich thuis voelen.",
+    "ac_code": "AP 2.1_AC 216",
+    "ac_short": "De kwaliteit van de bestaande fietspaden verbeteren",
+    "ac_long": "De kwaliteit van de bestaande fietspaden verbeteren",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 660000.0,
+    "amount_per_capita": 18.79,
+    "yearly_amounts": {
+      "2026": 110000.0,
+      "2027": 110000.0,
+      "2028": 110000.0,
+      "2029": 110000.0,
+      "2030": 110000.0,
+      "2031": 110000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.13,
+      "2027": 3.13,
+      "2028": 3.13,
+      "2029": 3.13,
+      "2030": 3.13,
+      "2031": 3.13
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 127",
+    "bd_short": "Warm en verbindend Geraardsbergen",
+    "bd_long": "Zorgzaamheid, verbondenheid en participatie vormen het hart van Geraardsbergen. Iedereen moet zich welkom en ondersteund voelen. Samen met eerstelijnszone Dender Zuid wordt gewerkt aan toegankelijke en betaalbare zorg, met aandacht voor geestelijke gezondheid, informele zorg en een gezonde levensstijl.\nParticipatie krijgt een boost via een herschreven participatiereglement, sterkere dorpsraden en nieuwe samenwerkingen met adviesraden en burgerinitiatieven. Vrije tijd verbindt: de stad investeert in sport, cultuur, jeugd en kinderopvang, en voorziet extra speelruimte. Via UiTPAS Dender wordt cultuurparticipatie laagdrempelig. Kunstkuur verbindt deeltijds kunstonderwijs met leerplichtonderwijs. Geraardsbergen profileert zich als wielerstad (via verschillende evenementen, georganiseerd door het Autonoom Gemeentebedrijf) met evenementen die zowel de sportieve als recreatieve fietser aanspreken. Denk aan de Ronde van Vlaanderen, maar ook aan lokale fietstochten en gezinsevenementen rond de Muur van Geraardsbergen. De sportinfrastructuur wordt versterkt door een investering in kunstgrasvelden.",
+    "ap_code": "AP 5.3",
+    "ap_short": "We blijven het vrijetijdsleven ondersteunen",
+    "ap_long": "We blijven het vrijetijdsleven en initiatieven rond sport, cultuur en jeugd ondersteunen.",
+    "ac_code": "AP 5.3_AC 532",
+    "ac_short": "Lokale regierol organisatie van buitenschoolse opvang (BOA1",
+    "ac_long": "We nemen onze lokale regierol op voor de organisatie van buitenschoolse opvang en activiteiten (BOA1).",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 637500.0,
+    "amount_per_capita": 18.15,
+    "yearly_amounts": {
+      "2026": 512500.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.59,
+      "2027": 0.71,
+      "2028": 0.71,
+      "2029": 0.71,
+      "2030": 0.71,
+      "2031": 0.71
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 127",
+    "bd_short": "Warm en verbindend Geraardsbergen",
+    "bd_long": "Zorgzaamheid, verbondenheid en participatie vormen het hart van Geraardsbergen. Iedereen moet zich welkom en ondersteund voelen. Samen met eerstelijnszone Dender Zuid wordt gewerkt aan toegankelijke en betaalbare zorg, met aandacht voor geestelijke gezondheid, informele zorg en een gezonde levensstijl.\nParticipatie krijgt een boost via een herschreven participatiereglement, sterkere dorpsraden en nieuwe samenwerkingen met adviesraden en burgerinitiatieven. Vrije tijd verbindt: de stad investeert in sport, cultuur, jeugd en kinderopvang, en voorziet extra speelruimte. Via UiTPAS Dender wordt cultuurparticipatie laagdrempelig. Kunstkuur verbindt deeltijds kunstonderwijs met leerplichtonderwijs. Geraardsbergen profileert zich als wielerstad (via verschillende evenementen, georganiseerd door het Autonoom Gemeentebedrijf) met evenementen die zowel de sportieve als recreatieve fietser aanspreken. Denk aan de Ronde van Vlaanderen, maar ook aan lokale fietstochten en gezinsevenementen rond de Muur van Geraardsbergen. De sportinfrastructuur wordt versterkt door een investering in kunstgrasvelden.",
+    "ap_code": "AP 5.3",
+    "ap_short": "We blijven het vrijetijdsleven ondersteunen",
+    "ap_long": "We blijven het vrijetijdsleven en initiatieven rond sport, cultuur en jeugd ondersteunen.",
+    "ac_code": "AP 5.3_AC 536",
+    "ac_short": "Inzetten op sportinfrastructuur door aanleg kunstrgasvelden",
+    "ac_long": "We zetten in op sportinfrastructuur door de aanleg van kunstgrasvelden op het grondgebied Geraardsbergen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 17.08,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 600000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 17.08,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 123",
+    "bd_short": "Schitterend Geraardsbergen",
+    "bd_long": "Het lokaal bestuur zet volop in op een bruisend stadscentrum met een vernieuwde uitstraling. Denk aan de heraanleg van winkelstraten, het stationsplein en parking De Kriebel. Om leegstand tegen te gaan, komt er een belasting op ongebruikte handelspanden. Tegelijk zorgen sfeervolle belevingsmomenten voor meer bezoekers en een levendiger handelscentrum.\nSite Den Bleek wordt een landschappelijk park met een opgewaardeerd Dokhuis: een levendige ontmoetingsplek met ruimte voor horeca en gemeenschapsactiviteiten. Via ruimtelijke uitvoeringsplannen (RUP's) wordt ingezet op verdichting, hoger bouwen en de ontwikkeling van een recreatie- en KMO-zone in Nederboelare.\nOok de dorpskernen krijgen een boost. Verbindende activiteiten, opgewaardeerde buurthuizen en een heringericht Moerbekeplein zorgen voor meer leefkwaliteit en gemeenschapszin. Erfgoed krijgt de zorg die het verdient: het Abtenhuis, het stadhuis, de Kunstacademie en de Bosberg worden met respect voor hun erfgoedwaarde gerestaureerd.\nHet woonbeleid krijgt extra kracht: met conformiteitsattesten, aanpak van leegstand en verwaarlozing, en een geïntegreerd woon- en energieloket wordt verder ingezet op kwaliteitsvol wonen voor iedereen.",
+    "ap_code": "AP 1.3",
+    "ap_short": "Efficiënt en kwalitatief beheer van het partrimonium",
+    "ap_long": "We beheren ons patrimonium op een (energie-)efficiënte en kwalitatieve manier.",
+    "ac_code": "AP 1.3_AC 132",
+    "ac_short": "Restauratie van het Stadhuis",
+    "ac_long": "Het stadhuis wordt met respect voor zijn erfgoedwaarde zorgvuldig en kwalitatief gerestaureerd.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.24,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 250000.0,
+      "2029": 250000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 7.12,
+      "2029": 7.12,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 128",
     "bd_short": "Klantgericht Geraardsbergen",
     "bd_long": "Een moderne, toegankelijke, performante en mensgerichte dienstverlening: dat is de ambitie. Zowel digitaal als fysiek wordt ingezet op vlot contact met het lokaal bestuur. Diensten worden in de toekomst gecentraliseerd met het oog voor bereikbaarheid en efficiëntie.\nGemotiveerde medewerkers zijn de sleutel tot klantvriendelijkheid. Daarom wordt Geraardsbergen een aantrekkelijke werkgever met een welzijnsbeleid dat focust op mentale gezondheid, werkplezier en een gezonde werk-privébalans.\nHeldere communicatie versterkt het vertrouwen. Een nieuwe, toegankelijke website wordt het centrale platform voor informatie, dienstverlening en interactie.",
-    "ap_code": "AP",
+    "ap_code": "AP 6.1",
     "ap_short": "Bereikbare en toegankelijke dienstverlening",
     "ap_long": "Een vlotte bereikbaarheid en goede toegankelijkheid van de dienstverlening, digitaal én fysiek zijn belangrijk.",
-    "ac_code": "AP",
+    "ac_code": "AP 6.1_AC 611",
     "ac_short": "Centralisatie en optimalisatie van de dienstverlening",
     "ac_long": "Bij het streven naar centraliseren van diensten zal bereikbaarheid en toegankelijkheid centraal staan en wordt het dienstverleningsconcept geoptimaliseerd",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 29018015.0,
-    "amount_per_capita": 829.05,
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.24,
     "yearly_amounts": {
-      "2026": 8889015.0,
-      "2027": 7151000.0,
-      "2028": 5985000.0,
-      "2029": 3687000.0,
-      "2030": 2709000.0,
-      "2031": 597000.0
+      "2026": 50000.0,
+      "2027": 450000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 253.96,
-      "2027": 204.31,
-      "2028": 170.99,
-      "2029": 105.34,
-      "2030": 77.4,
-      "2031": 17.06
+      "2026": 1.42,
+      "2027": 12.81,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 127",
+    "bd_short": "Warm en verbindend Geraardsbergen",
+    "bd_long": "Zorgzaamheid, verbondenheid en participatie vormen het hart van Geraardsbergen. Iedereen moet zich welkom en ondersteund voelen. Samen met eerstelijnszone Dender Zuid wordt gewerkt aan toegankelijke en betaalbare zorg, met aandacht voor geestelijke gezondheid, informele zorg en een gezonde levensstijl.\nParticipatie krijgt een boost via een herschreven participatiereglement, sterkere dorpsraden en nieuwe samenwerkingen met adviesraden en burgerinitiatieven. Vrije tijd verbindt: de stad investeert in sport, cultuur, jeugd en kinderopvang, en voorziet extra speelruimte. Via UiTPAS Dender wordt cultuurparticipatie laagdrempelig. Kunstkuur verbindt deeltijds kunstonderwijs met leerplichtonderwijs. Geraardsbergen profileert zich als wielerstad (via verschillende evenementen, georganiseerd door het Autonoom Gemeentebedrijf) met evenementen die zowel de sportieve als recreatieve fietser aanspreken. Denk aan de Ronde van Vlaanderen, maar ook aan lokale fietstochten en gezinsevenementen rond de Muur van Geraardsbergen. De sportinfrastructuur wordt versterkt door een investering in kunstgrasvelden.",
+    "ap_code": "AP 5.2",
+    "ap_short": "We willen een betrokken bestuur zijn",
+    "ap_long": "We willen een betrokken bestuur zijn en werken aan een duurzame participatieve samenwerking tussen burgers en bestuur.",
+    "ac_code": "AP 5.2_AC 521",
+    "ac_short": "We stimuleren burgerinitiatieven en versterken de dorpsraden",
+    "ac_long": "We versterken de dorpsraden, stimuleren burgerinitiatieven en vernieuwen de samenwerkingsovereenkomsten",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 240000.0,
+    "amount_per_capita": 6.83,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 40000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.14,
+      "2027": 1.14,
+      "2028": 1.14,
+      "2029": 1.14,
+      "2030": 1.14,
+      "2031": 1.14
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 127",
+    "bd_short": "Warm en verbindend Geraardsbergen",
+    "bd_long": "Zorgzaamheid, verbondenheid en participatie vormen het hart van Geraardsbergen. Iedereen moet zich welkom en ondersteund voelen. Samen met eerstelijnszone Dender Zuid wordt gewerkt aan toegankelijke en betaalbare zorg, met aandacht voor geestelijke gezondheid, informele zorg en een gezonde levensstijl.\nParticipatie krijgt een boost via een herschreven participatiereglement, sterkere dorpsraden en nieuwe samenwerkingen met adviesraden en burgerinitiatieven. Vrije tijd verbindt: de stad investeert in sport, cultuur, jeugd en kinderopvang, en voorziet extra speelruimte. Via UiTPAS Dender wordt cultuurparticipatie laagdrempelig. Kunstkuur verbindt deeltijds kunstonderwijs met leerplichtonderwijs. Geraardsbergen profileert zich als wielerstad (via verschillende evenementen, georganiseerd door het Autonoom Gemeentebedrijf) met evenementen die zowel de sportieve als recreatieve fietser aanspreken. Denk aan de Ronde van Vlaanderen, maar ook aan lokale fietstochten en gezinsevenementen rond de Muur van Geraardsbergen. De sportinfrastructuur wordt versterkt door een investering in kunstgrasvelden.",
+    "ap_code": "AP 5.3",
+    "ap_short": "We blijven het vrijetijdsleven ondersteunen",
+    "ap_long": "We blijven het vrijetijdsleven en initiatieven rond sport, cultuur en jeugd ondersteunen.",
+    "ac_code": "AP 5.3_AC 531",
+    "ac_short": "We richten jeugdruimte in op het openbaar domein",
+    "ac_long": "We richten jeugdruimte in op het openbaar domein.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 168250.0,
+    "amount_per_capita": 4.79,
+    "yearly_amounts": {
+      "2026": 98250.0,
+      "2027": 14000.0,
+      "2028": 14000.0,
+      "2029": 14000.0,
+      "2030": 14000.0,
+      "2031": 14000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.8,
+      "2027": 0.4,
+      "2028": 0.4,
+      "2029": 0.4,
+      "2030": 0.4,
+      "2031": 0.4
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 124",
+    "bd_short": "Veilig Geraardsbergen",
+    "bd_long": "Geraardsbergen werkt samen met overheden en burgers aan een robuuste aanpak van wateroverlast en droogte. Preventie, bescherming en paraatheid staan centraal. Een onthardingsvisie maakt het openbaar domein klimaatbestendig en verhoogt de leefkwaliteit.\nHet hemelwaterplan wordt uitgebreid tot een gebiedsdekkend droogtehemelwaterplan. De stad ondersteunt actief de T.OP Denderwerking en voert haalbare hemelwaterprojecten uit op basis van impactanalyses.\nWe ondersteunen onze lokale politie door een hogere betoelaging en een sterk partnerschap, zodat zij met voldoende middelen en menskracht de veiligheid, nabijheid en dienstverlening aan de burger kunnen garanderen. We zetten in op camerabewaking.\nWe blijven sensibiliseren rond netheid in de publieke ruimte en zetten gerichte acties en campagnes op tegen zwerfvuil en sluikstorten, met een duidelijke focus op preventie, gedragsverandering en handhaving.",
+    "ap_code": "AP 2.1",
+    "ap_short": "We zorgen voor een hoger veiligheidsgevoel",
+    "ap_long": "We zorgen voor een hoger veiligheidsgevoel en een veilige omgeving waarin alle inwoners zich thuis voelen.",
+    "ac_code": "AP 2.1_AC 212",
+    "ac_short": "We plaatsen camerabewaking op site Den Bleek",
+    "ac_long": "We plaatsen camerabewaking op site Den Bleek",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 130000.0,
+    "amount_per_capita": 3.7,
+    "yearly_amounts": {
+      "2026": 130000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 124",
+    "bd_short": "Veilig Geraardsbergen",
+    "bd_long": "Geraardsbergen werkt samen met overheden en burgers aan een robuuste aanpak van wateroverlast en droogte. Preventie, bescherming en paraatheid staan centraal. Een onthardingsvisie maakt het openbaar domein klimaatbestendig en verhoogt de leefkwaliteit.\nHet hemelwaterplan wordt uitgebreid tot een gebiedsdekkend droogtehemelwaterplan. De stad ondersteunt actief de T.OP Denderwerking en voert haalbare hemelwaterprojecten uit op basis van impactanalyses.\nWe ondersteunen onze lokale politie door een hogere betoelaging en een sterk partnerschap, zodat zij met voldoende middelen en menskracht de veiligheid, nabijheid en dienstverlening aan de burger kunnen garanderen. We zetten in op camerabewaking.\nWe blijven sensibiliseren rond netheid in de publieke ruimte en zetten gerichte acties en campagnes op tegen zwerfvuil en sluikstorten, met een duidelijke focus op preventie, gedragsverandering en handhaving.",
+    "ap_code": "AP 2.1",
+    "ap_short": "We zorgen voor een hoger veiligheidsgevoel",
+    "ap_long": "We zorgen voor een hoger veiligheidsgevoel en een veilige omgeving waarin alle inwoners zich thuis voelen.",
+    "ac_code": "AP 2.1_AC 217",
+    "ac_short": "Het tragewegenplan wordt gefaseerd aangepakt",
+    "ac_long": "Het tragewegenplan wordt gefaseerd aangepakt.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 3.42,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.57,
+      "2027": 0.57,
+      "2028": 0.57,
+      "2029": 0.57,
+      "2030": 0.57,
+      "2031": 0.57
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 126",
+    "bd_short": "Iedereen mee",
+    "bd_long": "Geraardsbergen is een stad voor iedereen. Het lokaal bestuur bouwt aan een warme, inclusieve en rechtvaardige samenleving. Kwetsbare groepen krijgen extra ondersteuning, met focus op onderwijs, werk en huisvesting.\nDak- en thuisloosheid wordt actief opgevolgd, en vanaf 2028 worden woningen gerenoveerd via het noodkoopfonds. Gezinscoaches en brugfiguren in het onderwijs bieden gerichte ondersteuning aan kwetsbare gezinnen.\nEen belevingsonderzoek bij jongeren vormt de basis voor een breed gedragen actieplan. Integratie wordt actief bevorderd, polarisatie tegengegaan. Taalstimulering Nederlands is een hefboom voor participatie en zelfredzaamheid.\nLokaal bestuur Geraardsbergen past haar bouwregels aan via een geactualiseerde stedenbouwkundige verordening zodat nieuwe woningen van goede kwaliteit zijn, maar tegelijk het historisch karakter en erfgoed niet verloren gaan. Stadspromotie zet het centrum in de kijker en versterkt de aantrekkelijkheid voor inwoners, handelaars en bezoekers.",
+    "ap_code": "AP 4.1",
+    "ap_short": "Ondersteuning van kwetsbare burgers.",
+    "ap_long": "We optimaliseren verder de ondersteuning van de meest kwetsbare burgers, met de focus op onderwijs, werk en huisvesting.",
+    "ac_code": "AP 4.1_AC 413",
+    "ac_short": "Voorzien in doorgangswoningen",
+    "ac_long": "We voorzien in doorgangswoningen voor inwoners die tijdelijk geen geschikte huisvesting hebben.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.85,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.28,
+      "2027": 0,
+      "2028": 0.28,
+      "2029": 0,
+      "2030": 0.28,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Geraardsbergen",
+    "nis_code": "41018",
+    "bd_code": "BDS 127",
+    "bd_short": "Warm en verbindend Geraardsbergen",
+    "bd_long": "Zorgzaamheid, verbondenheid en participatie vormen het hart van Geraardsbergen. Iedereen moet zich welkom en ondersteund voelen. Samen met eerstelijnszone Dender Zuid wordt gewerkt aan toegankelijke en betaalbare zorg, met aandacht voor geestelijke gezondheid, informele zorg en een gezonde levensstijl.\nParticipatie krijgt een boost via een herschreven participatiereglement, sterkere dorpsraden en nieuwe samenwerkingen met adviesraden en burgerinitiatieven. Vrije tijd verbindt: de stad investeert in sport, cultuur, jeugd en kinderopvang, en voorziet extra speelruimte. Via UiTPAS Dender wordt cultuurparticipatie laagdrempelig. Kunstkuur verbindt deeltijds kunstonderwijs met leerplichtonderwijs. Geraardsbergen profileert zich als wielerstad (via verschillende evenementen, georganiseerd door het Autonoom Gemeentebedrijf) met evenementen die zowel de sportieve als recreatieve fietser aanspreken. Denk aan de Ronde van Vlaanderen, maar ook aan lokale fietstochten en gezinsevenementen rond de Muur van Geraardsbergen. De sportinfrastructuur wordt versterkt door een investering in kunstgrasvelden.",
+    "ap_code": "AP 5.1",
+    "ap_short": "Inzetten op kwalitatieve, toegankelijke en betaalbare zorg",
+    "ap_long": "We organiseren en ondersteunen initiatieven die een kwalitatieve, toegankelijke en betaalbare zorg garanderen.",
+    "ac_code": "AP 5.1_AC 511",
+    "ac_short": "We versterken het mentaal en fysiek welzijn van de inwoners",
+    "ac_long": "We versterken het mentaal en fysiek welzijn van onze inwoners door in te zetten op geestelijke gezondheidszorg, het ondersteunen van informele zorg en het bevorderen van een gezonde leefstijl via preventieve en laagdrempelige initiatieven.\n( incl. drugswerking)",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 9000.0,
+    "amount_per_capita": 0.26,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 3000.0,
+      "2028": 0,
+      "2029": 3000.0,
+      "2030": 0,
+      "2031": 3000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.09,
+      "2028": 0,
+      "2029": 0.09,
+      "2030": 0,
+      "2031": 0.09
     }
   }
 ]

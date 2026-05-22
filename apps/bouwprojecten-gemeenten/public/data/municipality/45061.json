@@ -5,32 +5,66 @@
     "bd_code": "BD4",
     "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
     "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
-    "ap_code": "BD4",
-    "ap_short": "W-P zet in op het behalen van een energie-efficiënt patrimonium en een duurzaam gebouwenbeheer.",
+    "ap_code": "BD4-AP2",
+    "ap_short": "W-P streeft naar optimale mobiliteit,wegenis- en rioleringsinfra door (her)aanleg van wegen.",
     "ap_long": "Commentaar:",
-    "ac_code": "BD4",
-    "ac_short": "W-P schakelt het volledige openbare verlichtingsnet om naar LED tegen 2028.",
-    "ac_long": "Tegen eind 2028 wordt het volledige openbare verlichtingsnet omgeschakeld naar energiezuinige en slimme LED-verlichting.  Door deze maatregel wordt het energieverbruik aanzienlijk verminderd, maar er wordt ook gebruik gemaakt van slimme verlichting die volgens de noden gestuurd kan worden.",
+    "ac_code": "BD4-AP2-A8",
+    "ac_short": "W-P blijft fors investeren in het ondergrondse rioleringsnet.",
+    "ac_long": "W-P blijft fors investeren in het ondergrondse rioleringsnet, dit ikv. doelstellingenzuiverings- en rioleringsgraad. Dit betreft eenmalige tussenkomsten aan Farys teneinde het investeringsbudget aan te vullen na realisatie van diverse projecten met grote financiële impact.",
     "categories": [
-      "06-wonen-ruimte"
+      "03-natuur-milieu"
     ],
-    "total_amount": 12668251.0,
-    "amount_per_capita": 2025.45,
+    "total_amount": 6092963.0,
+    "amount_per_capita": 968.52,
     "yearly_amounts": {
-      "2026": 1806682.0,
-      "2027": 4086580.0,
-      "2028": 3159304.0,
-      "2029": 2327890.0,
-      "2030": 836872.0,
-      "2031": 450923.0
+      "2026": 956434.0,
+      "2027": 782180.0,
+      "2028": 1859445.0,
+      "2029": 1808473.0,
+      "2030": 427885.0,
+      "2031": 258546.0
     },
     "yearly_per_capita": {
-      "2026": 288.86,
-      "2027": 653.38,
-      "2028": 505.12,
-      "2029": 372.19,
-      "2030": 133.8,
-      "2031": 72.1
+      "2026": 152.03,
+      "2027": 124.33,
+      "2028": 295.57,
+      "2029": 287.47,
+      "2030": 68.02,
+      "2031": 41.1
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP2",
+    "ap_short": "W-P streeft naar optimale mobiliteit,wegenis- en rioleringsinfra door (her)aanleg van wegen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP2-A3",
+    "ac_short": "W-P voert het gemeentelijk project Waregemseweg fase 3 uit.",
+    "ac_long": "Waregemseweg fase 3 omhelst de laatste fase van de verbindingsweg tussen Waregem en Wortegem. We voorzien in een structureel onderhoud van de rijweg en leggen op beperkte schaal een gescheiden stelsel aan.  Het dubbelrichtingsfietspad wordt verbreed en verhoogd aangelegd. Teneinde de reductiedoelstelling te halen voor het waterlichaam Gaverbeek I wordt ook de resterende groene cluster van het zoneringsplan in de Pontstraat aangepakt.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2040000.0,
+    "amount_per_capita": 324.27,
+    "yearly_amounts": {
+      "2026": 490000.0,
+      "2027": 1500000.0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 77.89,
+      "2027": 238.44,
+      "2028": 7.95,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -39,32 +73,32 @@
     "bd_code": "BD3",
     "bd_short": "W-P garandeert welzijn en veiligheid voor medewerkers en inwoners.",
     "bd_long": "Kwalitatieve omschrijving: W-P zet in op een integraal welzijns- en veiligheidsbeleid ten behoeve van alle inwoners en zijn medewerkers.",
-    "ap_code": "BD3",
-    "ap_short": "W-P bouwt een duurzaam welzijnsbeleid uit.",
+    "ap_code": "BD3-AP2",
+    "ap_short": "W-P draagt zorg voor het welzijn en de gezondheid van haar inwoners.",
     "ap_long": "Commentaar:",
-    "ac_code": "BD3",
-    "ac_short": "W-P investeert in veilige, ergonomische en uitgeruste werkplekken over de volledige organisatie.",
-    "ac_long": "Verdere implementatie van het ergonomiebeleid volgens de nieuwe regelgeving ergonomie op het werk en preventie van musculoskeletale aandoeningen. De administratieve werkplekken worden voorzien van ergonomische bureaustoelen, verstelbare bureaus en voldoende LED verlichting.  Daarnaast wordt aandacht besteed aan ergonomie bij de aankoopprocedure voor arbeidsmiddelen. Deze investering draagt bij aan het verminderen van werkgerelateerde klachten en verhoogt het welzijn op de werkvloer.",
+    "ac_code": "BD3-AP2-A3",
+    "ac_short": "W-P investeert in de veiligheid van haar inw. dit via toelagen aan div. hulpverleningsorganisaties.",
+    "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "04-veiligheidszorg"
     ],
-    "total_amount": 1782071.0,
-    "amount_per_capita": 284.92,
+    "total_amount": 1960799.73,
+    "amount_per_capita": 311.68,
     "yearly_amounts": {
-      "2026": 257283.0,
-      "2027": 473946.0,
-      "2028": 585372.0,
-      "2029": 241389.0,
-      "2030": 112759.0,
-      "2031": 111322.0
+      "2026": 444011.73,
+      "2027": 471946.0,
+      "2028": 583372.0,
+      "2029": 239389.0,
+      "2030": 111759.0,
+      "2031": 110322.0
     },
     "yearly_per_capita": {
-      "2026": 41.14,
-      "2027": 75.78,
-      "2028": 93.59,
-      "2029": 38.59,
-      "2030": 18.03,
-      "2031": 17.8
+      "2026": 70.58,
+      "2027": 75.02,
+      "2028": 92.73,
+      "2029": 38.05,
+      "2030": 17.76,
+      "2031": 17.54
     }
   },
   {
@@ -73,30 +107,98 @@
     "bd_code": "BD9",
     "bd_short": "W-P verbetert de recreatieve en culturele beleving en maakt deze toegankelijk voor alle inwoners.",
     "bd_long": "Kwalitatieve omschrijving: Tegen eind 2031 verbetert W-P de recreatieve en culturele beleving door aangepaste infrastructuur te voorzien en vanaf 2026 een nieuwe jaarlijkse publieksactiviteit uit te werken en te organiseren. Daarnaast blijft W-P inzetten op een breed en laagdrempelig aanbod voor alle inwoners, met aandacht voor de verschillende segmenten binnen de dienst Vrije Tijd en ondersteunt W-P actief de lokale verenigingen via structurele subsidies.",
-    "ap_code": "BD9",
+    "ap_code": "BD9-AP1",
     "ap_short": "W-P optimaliseert de infrastructuur voor het vrijetijdsaanbod.",
     "ap_long": "Commentaar:",
-    "ac_code": "BD9",
-    "ac_short": "W-P voorziet het hoevegebouw van het domein de Ghellinck van een geluidsinstallatie.",
-    "ac_long": "Uiterlijk tegen eind 2026 wordt het auditorium van het hoevegebouw uitgerust met een mobiele geluidsinstallatie die flexibel inzetbaar is voor uiteenlopende activiteiten. Het doel is om de geluidskwaliteit en gebruiksmogelijkheden van het hoevegebouw te verbeteren zonder structurele aanpassingen.",
+    "ac_code": "BD9-AP1-A3",
+    "ac_short": "W-P blijft inzetten op de realisatie van gemeentelijke sportterreinen in het RUP Wortegem.",
+    "ac_long": "W-P blijft verder inzetten op de aanleg van gemeentelijke voetbalterreinen. In een tweede fase van de ontwikkeling 'RUP Wortegem', wordt op de terreinen gelegen achter het gemeentehuis, de aanleg van gemeentelijke sportinfrastructuur voorzien.  Er worden een kunstgrasveld, natuurgrasveld en een kantine voorzien.  Er komen wandelpaden rond de voetbalvelden en er wordt een parking voorzien die zowel dienst zal doen voor de gemeentelijke sportinfrastructuur als voor de gemeentediensten en voor de bezoekers van de gemeentelijke feestzaal.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1190000.0,
-    "amount_per_capita": 190.26,
+    "total_amount": 1530090.55,
+    "amount_per_capita": 243.22,
     "yearly_amounts": {
-      "2026": 60000.0,
+      "2026": 430090.55,
       "2027": 200000.0,
       "2028": 250000.0,
-      "2029": 680000.0,
+      "2029": 650000.0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.59,
-      "2027": 31.98,
-      "2028": 39.97,
-      "2029": 108.72,
+      "2026": 68.37,
+      "2027": 31.79,
+      "2028": 39.74,
+      "2029": 103.32,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP3",
+    "ap_short": "W-P zet in op de instandhouding, verbouwing en herbestemming van gemeentelijke gebouwen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP3-A1",
+    "ac_short": "W-P verbouwt De Zonnebloem in Wortegem tot polyvalente gemeenschapszaal.",
+    "ac_long": "De voormalige kerk die ontwijd werd anno 2022, zal worden ingericht als polyvalente zaal voor verschillende doeleinden. Het kan variëren van eetfestijnen tot voordrachten, besloten vergaderingen en andere activiteiten van lokale verenigingen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1276378.38,
+    "amount_per_capita": 202.89,
+    "yearly_amounts": {
+      "2026": 126378.38,
+      "2027": 150000.0,
+      "2028": 750000.0,
+      "2029": 250000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 20.09,
+      "2027": 23.84,
+      "2028": 119.22,
+      "2029": 39.74,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP2",
+    "ap_short": "W-P streeft naar optimale mobiliteit,wegenis- en rioleringsinfra door (her)aanleg van wegen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP2-A1",
+    "ac_short": "W-P legt een nieuwe verbindingsweg en parking aan in de Gotstraat.",
+    "ac_long": "De nieuwe verbindingsweg naar de Anzegemseweg komt er om zowel de school veiliger te kunnen ontsluiten als de hoofdbegraafplaats toegankelijker te maken voor bezoekers. Tegelijk wordt de bestaande parking omgevormd tot groenzone en komt er een volledig nieuwe 'groene' parking om ook plaats te bieden aan de bezoekers van de om te bouwen kerk tot polyvalente zaal De Zonnebloem.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1192013.3,
+    "amount_per_capita": 189.48,
+    "yearly_amounts": {
+      "2026": 190013.3,
+      "2027": 827000.0,
+      "2028": 175000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 30.2,
+      "2027": 131.46,
+      "2028": 27.82,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -107,32 +209,338 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
+    "ap_code": "GBB-GEM.",
     "ap_short": "GBB-GEMEENTE",
     "ap_long": "Commentaar:",
-    "ac_code": "GBB",
-    "ac_short": "GBB-Communicatie, participatie",
+    "ac_code": "GBB-OW",
+    "ac_short": "GBB-Openbare werken (TD, Wegen, begraafplaatsen, patrimonium, groendienst,...)",
     "ac_long": "Commentaar:",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1039058.0,
-    "amount_per_capita": 166.13,
+    "total_amount": 882621.3,
+    "amount_per_capita": 140.3,
     "yearly_amounts": {
-      "2026": 389058.0,
-      "2027": 165000.0,
-      "2028": 115000.0,
-      "2029": 290000.0,
-      "2030": 65000.0,
-      "2031": 15000.0
+      "2026": 432621.3,
+      "2027": 50000.0,
+      "2028": 100000.0,
+      "2029": 250000.0,
+      "2030": 50000.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 62.2,
-      "2027": 26.38,
-      "2028": 18.39,
-      "2029": 46.37,
-      "2030": 10.39,
-      "2031": 2.4
+      "2026": 68.77,
+      "2027": 7.95,
+      "2028": 15.9,
+      "2029": 39.74,
+      "2030": 7.95,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP1",
+    "ap_short": "W-P zet in op het behalen van een energie-efficiënt patrimonium en een duurzaam gebouwenbeheer.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP1-A2",
+    "ac_short": "W-P schakelt het volledige openbare verlichtingsnet om naar LED tegen 2028.",
+    "ac_long": "Tegen eind 2028 wordt het volledige openbare verlichtingsnet omgeschakeld naar energiezuinige en slimme LED-verlichting.  Door deze maatregel wordt het energieverbruik aanzienlijk verminderd, maar er wordt ook gebruik gemaakt van slimme verlichting die volgens de noden gestuurd kan worden.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 796288.0,
+    "amount_per_capita": 126.58,
+    "yearly_amounts": {
+      "2026": 225248.0,
+      "2027": 225400.0,
+      "2028": 224859.0,
+      "2029": 14417.0,
+      "2030": 13987.0,
+      "2031": 92377.0
+    },
+    "yearly_per_capita": {
+      "2026": 35.8,
+      "2027": 35.83,
+      "2028": 35.74,
+      "2029": 2.29,
+      "2030": 2.22,
+      "2031": 14.68
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP2",
+    "ap_short": "W-P streeft naar optimale mobiliteit,wegenis- en rioleringsinfra door (her)aanleg van wegen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP2-A6",
+    "ac_short": "W-P participeert in het bovengemeentelijk project Aquafin Moregem.",
+    "ac_long": "W-P participeert in het bovengemeentelijk project Aquafin Moregem (Vierschaar, Volkaartsbeekstraat, Moregemplein & Heerbaan). Op grondgebied Wortegem-Petegem wordt de aanleg voorzien van een gescheiden stelsel in een deel van de Heerbaan (tussen Fabriekstraat en Heerbaan 11), een deel van het Moregemplein (tussen Heerbaan en Peperstraat met uitzondering van de reeds vernieuwde dorpskern) en in de Volkaartsbeekstraat. Er wordt een herinrichting voorzien van de wegenis en kruispunt ter hoogte van het Schoolke te Moregem. Hogerop de Volkaartsbeek worden debietsbeperkingen voorzien teneinde de wateroverlast ter hoogte van de Volkaartsbeek te beperken.  In de Heerbaan en Volkaartsbeekstraat wordt ook nog ingezet op buffering en infiltratie door het grachtenstelsel op te waarderen en erosiezones te voorzien. De waterloop zelf wordt ook volledig geherprofileerd teneinde de wateroverlast te beperken.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 647000.0,
+    "amount_per_capita": 102.85,
+    "yearly_amounts": {
+      "2026": 270000.0,
+      "2027": 377000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 42.92,
+      "2027": 59.93,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP2",
+    "ap_short": "W-P streeft naar optimale mobiliteit,wegenis- en rioleringsinfra door (her)aanleg van wegen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP2-A4",
+    "ac_short": "W-P voert het gemeentelijk project Biesvijverstraat uit.",
+    "ac_long": "In het kader van de gemeentelijke saneringsverplichting (groene cluster) en de daaraan gekoppelde reductiedoelstellingen is het noodzakelijk om het gemeentelijk rioleringsstelsel verder uit te bouwen. Hiervoor werd door Farys een dossier geïnitieerd met het oog op het bekomen van subsidies voor de aanleg van riolering. Mede gezien de slijtage van de rijweg en zijbermen in de Biesvijverstraat zal ook de bovenbouw vernieuwd worden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 493377.0,
+    "amount_per_capita": 78.43,
+    "yearly_amounts": {
+      "2026": 48377.0,
+      "2027": 25000.0,
+      "2028": 50000.0,
+      "2029": 85000.0,
+      "2030": 285000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.69,
+      "2027": 3.97,
+      "2028": 7.95,
+      "2029": 13.51,
+      "2030": 45.3,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEM.",
+    "ap_short": "GBB-GEMEENTE",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-KB",
+    "ac_short": "GBB-Kerkbesturen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 367278.66,
+    "amount_per_capita": 58.38,
+    "yearly_amounts": {
+      "2026": 267278.66,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 42.49,
+      "2027": 15.9,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEM.",
+    "ap_short": "GBB-GEMEENTE",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-ICT",
+    "ac_short": "GBB-ICT",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 331455.0,
+    "amount_per_capita": 52.69,
+    "yearly_amounts": {
+      "2026": 281455.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 30000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 44.74,
+      "2027": 0.79,
+      "2028": 0.79,
+      "2029": 4.77,
+      "2030": 0.79,
+      "2031": 0.79
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP2",
+    "ap_short": "W-P streeft naar optimale mobiliteit,wegenis- en rioleringsinfra door (her)aanleg van wegen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP2-A5",
+    "ac_short": "W-P start het gemeentelijk project Elsegemplein en Sneppestraat op.",
+    "ac_long": "De gemeente zal de heraanleg uitvoeren van een deel van de Sneppestraat (tussen Elsegemplein en de Kloosterhoek) en een deel van het Elsegemplein (tussen Elsegemplein 15 en Elsegemplein 52). Tevens wordt de onderbouw aangepakt door het aanleggen van een gescheiden rioleringsstelsel.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 39.74,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 10000.0,
+      "2029": 20000.0,
+      "2030": 110000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.79,
+      "2027": 0.79,
+      "2028": 1.59,
+      "2029": 3.18,
+      "2030": 17.49,
+      "2031": 15.9
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP2",
+    "ap_short": "W-P streeft naar optimale mobiliteit,wegenis- en rioleringsinfra door (her)aanleg van wegen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP2-A7",
+    "ac_short": "W-P participeert in het bovengemeentelijk project van saneringen-verdunningen Elsegem.",
+    "ac_long": "W-P participeert in het bovengemeentelijk project van saneringen-verdunningen Elsegem (Elsegemplein en Kwadenbulk). In opdracht van Aquafin werd een heroptimalisatie van het zuiveringsstation te Elsegem geïnitieerd. Bedoeling van het project is om meer onverdunde vuilvracht naar het zuiveringsstation aan te voeren. De belangrijkste werken zijn de heraanleg van de Kwadenbulk tussen spoorweg en de Kortenberg. En de vernieuwing van het Elsegemplein tussen Kortrijkstraat en Elsegemplein 15.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 230000.0,
+    "amount_per_capita": 36.56,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 10000.0,
+      "2028": 40000.0,
+      "2029": 150000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.77,
+      "2027": 1.59,
+      "2028": 6.36,
+      "2029": 23.84,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP2",
+    "ap_short": "W-P streeft naar optimale mobiliteit,wegenis- en rioleringsinfra door (her)aanleg van wegen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP2-A2",
+    "ac_short": "W-P voert onderhoudswerken uit aan de marktwegel Elsegem-Petegem.",
+    "ac_long": "Een grondige aanpak van de bestaande voetweg biedt de kans om de bestaande infrastructuur beter af te stemmen op de diverse gebruikers, terwijl de natuurlijke omgeving wordt gerespecteerd.  Om de modal shift naar duurzame mobiliteitsvormen mogelijk te maken en te stimuleren is het noodzakelijk om de infrastructuur voor voetgangers en fietsers verder uit te breiden en te verbeteren. Het bestuur werkt er aan om de kernen te voet en per fiets veilig bereikbaar en toegankelijk te maken voor een zo breed mogelijk publiek. Een grondige onderhoudsbeurt van de voetweg is een opwaardering van de verbinding tussen de Sneppestraat te Elsegem en het Kastanjeplein in Petegem.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 176297.56,
+    "amount_per_capita": 28.02,
+    "yearly_amounts": {
+      "2026": 101297.56,
+      "2027": 75000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.1,
+      "2027": 11.92,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP3",
+    "ap_short": "W-P zet in op de instandhouding, verbouwing en herbestemming van gemeentelijke gebouwen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP3-A4",
+    "ac_short": "W-P voert de nodige instandhoudingswerken uit aan het Erfgoedhuis.",
+    "ac_long": "De voormalige St. Amanduskerk te Ooike werd in 2023 herbestemd tot Erfgoedhuis. Alle noodzakelijke veiligheidsvoorzieningen worden geïmplementeerd conform de wetgeving op publiek toegankelijke gebouwen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 165470.0,
+    "amount_per_capita": 26.3,
+    "yearly_amounts": {
+      "2026": 105470.0,
+      "2027": 60000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.77,
+      "2027": 9.54,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -141,19 +549,19 @@
     "bd_code": "BD8",
     "bd_short": "W-P zet in op het welzijn van jong en oud in de gemeente.",
     "bd_long": "Kwalitatieve omschrijving: W-P zet in op de ontwikkeling van een geïntegreerd aanbod van buitenschoolse opvang en activiteiten (BOA), treedt op tegen de eenzaamheid en kwetsbaarheid in de samenleving en zorgt dat elk kind toegang heeft tot kwaliteitsvol lokaal onderwijs.",
-    "ap_code": "BD8",
+    "ap_code": "BD8-AP3",
     "ap_short": "W-P zorgt dat ieder kind  toegang heeft tot kwaliteitsvol lokaal onderwijs.",
     "ap_long": "Commentaar:",
-    "ac_code": "BD8",
+    "ac_code": "BD8-AP3-A1",
     "ac_short": "W-P investeert in de infrastructuur van het gemeentelijk onderwijs.",
     "ac_long": "Om kwaliteitsvol lokaal onderwijs aan te bieden, investeert de gemeente in fysieke en digitale infrastructuur van het gemeentelijk onderwijs. Dit doen we om de kwaliteit en de toegankelijkheid van ons lokaal onderwijs te optimaliseren voor onze schoolgaande kinderen.",
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 125000.0,
-    "amount_per_capita": 19.99,
+    "total_amount": 150485.0,
+    "amount_per_capita": 23.92,
     "yearly_amounts": {
-      "2026": 60000.0,
+      "2026": 85485.0,
       "2027": 20000.0,
       "2028": 45000.0,
       "2029": 0,
@@ -161,9 +569,417 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.59,
-      "2027": 3.2,
-      "2028": 7.19,
+      "2026": 13.59,
+      "2027": 3.18,
+      "2028": 7.15,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEM.",
+    "ap_short": "GBB-GEMEENTE",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-JEUGD",
+    "ac_short": "GBB-JEUGD",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 12.72,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.77,
+      "2027": 1.59,
+      "2028": 1.59,
+      "2029": 1.59,
+      "2030": 1.59,
+      "2031": 1.59
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP3",
+    "ap_short": "W-P zet in op de instandhouding, verbouwing en herbestemming van gemeentelijke gebouwen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP3-A2",
+    "ac_short": "W-P start de studie op ten behoeve van de herbestemming van de hoeve Normandie.",
+    "ac_long": "Hoeve Normandie, palend aan het gemeentelijk parkdomein de Ghellinck werd door het lokaal bestuur aangekocht. Het is de bedoeling om de voormalige hoeve om te bouwen tot een plaats waar lokale verenigingen kleinere activiteiten kunnen organiseren. Het wordt ook een plaats waar op termijn de speelpleinwerking gehuisvest kan worden. En tot slot een uitvalsbasis voor de groenarbeiders die tewerkgesteld zijn in het parkdomein. Een gefaseerde aanpak is noodzakelijk. Daarbij is het wenselijk om eerst voorrang te geven aan de inrichting van de hoeve voor het verenigingsleven.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 7.95,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.97,
+      "2027": 3.97,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD3",
+    "bd_short": "W-P garandeert welzijn en veiligheid voor medewerkers en inwoners.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op een integraal welzijns- en veiligheidsbeleid ten behoeve van alle inwoners en zijn medewerkers.",
+    "ap_code": "BD3-AP1",
+    "ap_short": "W-P bouwt een duurzaam welzijnsbeleid uit.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD3-AP1-A4",
+    "ac_short": "W-P investeert in veilige, ergonomische en uitgeruste werkplekken over de volledige organisatie.",
+    "ac_long": "Verdere implementatie van het ergonomiebeleid volgens de nieuwe regelgeving ergonomie op het werk en preventie van musculoskeletale aandoeningen. De administratieve werkplekken worden voorzien van ergonomische bureaustoelen, verstelbare bureaus en voldoende LED verlichting.  Daarnaast wordt aandacht besteed aan ergonomie bij de aankoopprocedure voor arbeidsmiddelen. Deze investering draagt bij aan het verminderen van werkgerelateerde klachten en verhoogt het welzijn op de werkvloer.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 41041.6,
+    "amount_per_capita": 6.52,
+    "yearly_amounts": {
+      "2026": 33041.6,
+      "2027": 2000.0,
+      "2028": 2000.0,
+      "2029": 2000.0,
+      "2030": 1000.0,
+      "2031": 1000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.25,
+      "2027": 0.32,
+      "2028": 0.32,
+      "2029": 0.32,
+      "2030": 0.16,
+      "2031": 0.16
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD9",
+    "bd_short": "W-P verbetert de recreatieve en culturele beleving en maakt deze toegankelijk voor alle inwoners.",
+    "bd_long": "Kwalitatieve omschrijving: Tegen eind 2031 verbetert W-P de recreatieve en culturele beleving door aangepaste infrastructuur te voorzien en vanaf 2026 een nieuwe jaarlijkse publieksactiviteit uit te werken en te organiseren. Daarnaast blijft W-P inzetten op een breed en laagdrempelig aanbod voor alle inwoners, met aandacht voor de verschillende segmenten binnen de dienst Vrije Tijd en ondersteunt W-P actief de lokale verenigingen via structurele subsidies.",
+    "ap_code": "BD9-AP1",
+    "ap_short": "W-P optimaliseert de infrastructuur voor het vrijetijdsaanbod.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD9-AP1-A2",
+    "ac_short": "W-P zet in op de verdere uitbouw van het domein door middel van de aanleg van belevingselementen.",
+    "ac_long": "Uiterlijk eind 2030 realiseert Wortegem-Petegem de aanleg van nieuwe belevingselementen op het domein. Deze elementen zijn bedoeld om de beleving van bezoekers te versterken. De benodigde middelen en expertise worden aangewend om de aanleg uit te voeren.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 4.77,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 30000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 4.77,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP3",
+    "ap_short": "W-P zet in op de instandhouding, verbouwing en herbestemming van gemeentelijke gebouwen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP3-A3",
+    "ac_short": "W-P voert de instandhoudingswerken uit aan en maakt een toekomstvisie op voor de conciërgewoning.",
+    "ac_long": "W-P voert de nodige instandhoudingswerken uit aan en maakt een toekomstvisie op voor de conciërgewoning. De conciërgewoning, gelegen tussen sociaal huis en de gemeentelijke raadzaal, wordt momenteel niet meer als conciërgerie gebruikt. Het lokaal bestuur maakt een toekomstvisie op om te bepalen welke bestemming dit pand kan krijgen.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 3.97,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.97,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD4",
+    "bd_short": "W-P zorgt voor duurzame, veilige en goed onderhouden infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op kwalitatieve infrastructuur: energie-efficiënt patrimonium, aanleg en heraanleg van wegen, verkeers- en rioleringsinfrastructuur en de instandhouding, verbouwing en mogelijks herbestemming van gemeentelijke gebouwen.",
+    "ap_code": "BD4-AP3",
+    "ap_short": "W-P zet in op de instandhouding, verbouwing en herbestemming van gemeentelijke gebouwen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD4-AP3-A5",
+    "ac_short": "W-P voert de nodige instandhoudingswerken uit aan het KLJ lokaal (Loods TD).",
+    "ac_long": "Alle noodzakelijke veiligheidsvoorzieningen worden geïmplementeerd conform de wetgeving op publiek toegankelijke gebouwen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 3.97,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.97,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEM.",
+    "ap_short": "GBB-GEMEENTE",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-COMM",
+    "ac_short": "GBB-Communicatie, participatie",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 20458.0,
+    "amount_per_capita": 3.25,
+    "yearly_amounts": {
+      "2026": 20458.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEM.",
+    "ap_short": "GBB-GEMEENTE",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-ONDERW",
+    "ac_short": "GBB-Onderwijs",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 3.18,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.18,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-OCMW",
+    "ap_short": "GBB-OCMW",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-OCMW",
+    "ac_short": "GBB-OCMW",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 16275.0,
+    "amount_per_capita": 2.59,
+    "yearly_amounts": {
+      "2026": 16275.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEM.",
+    "ap_short": "GBB-GEMEENTE",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-FIN",
+    "ac_short": "GBB-Financiën",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 11800.0,
+    "amount_per_capita": 1.88,
+    "yearly_amounts": {
+      "2026": 11800.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD9",
+    "bd_short": "W-P verbetert de recreatieve en culturele beleving en maakt deze toegankelijk voor alle inwoners.",
+    "bd_long": "Kwalitatieve omschrijving: Tegen eind 2031 verbetert W-P de recreatieve en culturele beleving door aangepaste infrastructuur te voorzien en vanaf 2026 een nieuwe jaarlijkse publieksactiviteit uit te werken en te organiseren. Daarnaast blijft W-P inzetten op een breed en laagdrempelig aanbod voor alle inwoners, met aandacht voor de verschillende segmenten binnen de dienst Vrije Tijd en ondersteunt W-P actief de lokale verenigingen via structurele subsidies.",
+    "ap_code": "BD9-AP1",
+    "ap_short": "W-P optimaliseert de infrastructuur voor het vrijetijdsaanbod.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD9-AP1-A1",
+    "ac_short": "W-P voorziet het hoevegebouw van het domein de Ghellinck van een geluidsinstallatie.",
+    "ac_long": "Uiterlijk tegen eind 2026 wordt het auditorium van het hoevegebouw uitgerust met een mobiele geluidsinstallatie die flexibel inzetbaar is voor uiteenlopende activiteiten. Het doel is om de geluidskwaliteit en gebruiksmogelijkheden van het hoevegebouw te verbeteren zonder structurele aanpassingen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 1.59,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wortegem-Petegem",
+    "nis_code": "45061",
+    "bd_code": "BD3",
+    "bd_short": "W-P garandeert welzijn en veiligheid voor medewerkers en inwoners.",
+    "bd_long": "Kwalitatieve omschrijving: W-P zet in op een integraal welzijns- en veiligheidsbeleid ten behoeve van alle inwoners en zijn medewerkers.",
+    "ap_code": "BD3-AP2",
+    "ap_short": "W-P draagt zorg voor het welzijn en de gezondheid van haar inwoners.",
+    "ap_long": "Commentaar:",
+    "ac_code": "BD3-AP2-A2",
+    "ac_short": "W-P zorgt voor de brandveiligheid in haar gemeentelijke gebouwen.",
+    "ac_long": "De gemeente Wortegem-Petegem zet actief in op brandveiligheid in haar gemeentelijke gebouwen.\nIn samenwerking met de brandweer worden digitale interventieplannen opgemaakt om een snelle en efficiënte respons te garanderen bij incidenten.\nDaarnaast gebeurt een systematische opvolging en tijdige vervanging van alle aanwezige brandbestrijdingsmiddelen in deze gebouwen.\nZo zorgt de gemeente voor een veilige omgeving voor zowel personeel als bezoekers.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2000.0,
+    "amount_per_capita": 0.32,
+    "yearly_amounts": {
+      "2026": 2000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.32,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0

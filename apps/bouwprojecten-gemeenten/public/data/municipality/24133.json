@@ -2,35 +2,137 @@
   {
     "municipality": "Linter",
     "nis_code": "24133",
-    "bd_code": "BD",
+    "bd_code": "BD-4",
     "bd_short": "Warme en bruisende gemeente",
     "bd_long": "Kwalitatieve omschrijving: Linter moet een gemeente blijven waarin elke inwoner zich thuis voelt, geïntegreerd is en kan deelnemen aan een uitgebreid verenigingsleven. Kortom een warme en bruisende gemeente. We verhogen de vrijetijdsbeleving door te investeren in vrijetijdsinfrastructuur, het verenigingsleven te ondersteunen en een warme, bruisende gemeenschap te stimuleren.",
-    "ap_code": "AP",
+    "ap_code": "AP-04-1",
     "ap_short": "Optimaliseren  van het aanbod aan sport-, speel-, belevings- en ontmoetingsruimtes voor jong en oud.",
     "ap_long": "De gemeente zet in op het versterken en optimaliseren van ruimtes waar inwoners kunnen sporten, spelen, ontmoeten en beleven. Naast het verbeteren van de eigen infrastructuur ondersteunt Linter ook andere ontmoetingsruimtes die een belangrijke rol spelen in het lokale gemeenschapsleven. Door samenwerking met verenigingen en partners wordt gestreefd naar een gevarieerd, toegankelijk en duurzaam aanbod voor alle leeftijden. Zo bevordert de gemeente een actieve levensstijl, sociale verbondenheid en een warme leefgemeenschap.",
-    "ac_code": "AC",
-    "ac_short": "We evalueren en optimaliseren de speelmogelijkheden voor kinderen en jongeren.",
-    "ac_long": "We brengen de bestaande speel- en ontspanningsmogelijkheden voor kinderen en jongeren in kaart en beoordelen deze o.a. op veiligheid, variatie en kwaliteit. Op basis van deze evaluatie nemen we gerichte maatregelen om het spelaanbod te verbeteren en te optimaliseren. Dit kan onder meer door het vernieuwen of uitbreiden van speelterreinen, het creëren van avontuurlijke of natuurlijke speelplekken, en het beter afstemmen van de infrastructuur op de noden van verschillende leeftijdsgroepen.",
+    "ac_code": "AC-04-1-02",
+    "ac_short": "We investeren in de aanleg van een sport- en recreatiezone en operationaliseren de ingebruikname.",
+    "ac_long": "We bouwen verder aan de ontwikkeling van de sport- en recreatiezone als een multifunctionele ontmoetingsplek voor sport, ontspanning en cultuur. In samenwerking met partners zetten we de ingebruikname en het beheer verder op punt. We stimuleren een breed en inclusief activiteitenaanbod en creëren ruimte voor zowel georganiseerde sport als vrije tijdsbesteding.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 17957755.0,
-    "amount_per_capita": 2414.26,
+    "total_amount": 8463031.55,
+    "amount_per_capita": 1141.62,
     "yearly_amounts": {
-      "2026": 8552755.0,
-      "2027": 2909000.0,
-      "2028": 3154000.0,
-      "2029": 2664000.0,
-      "2030": 464000.0,
-      "2031": 214000.0
+      "2026": 8463031.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1149.84,
-      "2027": 391.09,
-      "2028": 424.03,
-      "2029": 358.15,
-      "2030": 62.38,
-      "2031": 28.77
+      "2026": 1141.62,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Linter",
+    "nis_code": "24133",
+    "bd_code": "BD-1",
+    "bd_short": "Leefbare gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Linter streeft naar duurzame en leefbare dorpen door het creëren van een aangenaam kwalitatief openbaar domein, het aanpakken van de gevolgen van de klimaatverandering, het versterken van de veiligheid en het voeren van een doordacht (woon)beleid op maat van onze landelijke gemeente.",
+    "ap_code": "AP-01-2",
+    "ap_short": "We optimaliseren het duurzaam beheer, de veiligheid en de vergroening van het openbaar domein.",
+    "ap_long": "We streven naar een doordachte inrichting en onderhoud van het openbaar domein, met aandacht voor verkeersveiligheid, mobiliteit, groenvoorziening en netheid. Via gerichte investeringen, educatie en handhaving bouwen we aan een publieke ruimte die zowel functioneel als mooi is en die bijdraagt aan de leefkwaliteit in alle dorpen.",
+    "ac_code": "AC-01-2-02",
+    "ac_short": "We zorgen voor een geïntegreerd beheer van het openbaar domein met aandacht voor verkeersveiligheid.",
+    "ac_long": "We werken aan een geïntegreerde aanpak voor het beheer, de optimalisatie en de (her)aanleg van het openbaar domein. Op basis van systematische conditiestaatmetingen wordt een datagedreven inventaris opgebouwd die toelaat om onderhouds- en investeringsbeslissingen planmatig te onderbouwen. Bij de uitvoering van projecten wordt bijzondere aandacht besteed aan verkeersveiligheid, de aanleg van kwalitatieve fiets- en voetpaden en de realisatie van gescheiden rioleringsstelsels. Het plan van aanpak houdt rekening met de objectieve staat van het wegdek, het belang van de weg als verbinding, en mogelijke synergieën met nutsmaatschappijen en andere partners.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7556299.42,
+    "amount_per_capita": 1019.3,
+    "yearly_amounts": {
+      "2026": 2041299.42,
+      "2027": 1305000.0,
+      "2028": 1510000.0,
+      "2029": 2450000.0,
+      "2030": 250000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 275.36,
+      "2027": 176.04,
+      "2028": 203.69,
+      "2029": 330.49,
+      "2030": 33.72,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Linter",
+    "nis_code": "24133",
+    "bd_code": "BD-1",
+    "bd_short": "Leefbare gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Linter streeft naar duurzame en leefbare dorpen door het creëren van een aangenaam kwalitatief openbaar domein, het aanpakken van de gevolgen van de klimaatverandering, het versterken van de veiligheid en het voeren van een doordacht (woon)beleid op maat van onze landelijke gemeente.",
+    "ap_code": "AP-01-3",
+    "ap_short": "We versnellen onze aanpak in de klimaatadaptatie en klimaatmitigatie.",
+    "ap_long": "De gemeente Linter versterkt haar klimaatbeleid door gerichte acties rond zowel klimaatadaptatie als klimaatmitigatie. Via de uitvoering van het hemelwater- en droogteplan, het intergemeentelijk klimaatactieplan, het lokaal energie- en klimaatpact en andere initiatieven wordt ingezet op het verminderen van de klimaatimpact en het vergroten van de weerbaarheid tegen droogte en wateroverlast.",
+    "ac_code": "AC-01-3-01",
+    "ac_short": "We voeren het hemelwater- en droogteplan uit voor een veerkrachtig en klimaatrobuuste inrichting.",
+    "ac_long": "Door het uitvoeren van het hemelwater- en droogteplan willen we overlast beperken, waterschaarste tegengaan en de natuurlijke sponswerking van de bodem versterken. We voorzien maatregelen die infiltratie en buffering stimuleren en tegelijk ruimte bieden voor groen en biodiversiteit. We nemen diverse infrastructurele maatregelen aan grachten, waterlopen, drainages, …, ter optimalisatie van de waterhuishouding.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2513832.22,
+    "amount_per_capita": 339.1,
+    "yearly_amounts": {
+      "2026": 468832.22,
+      "2027": 1009000.0,
+      "2028": 1009000.0,
+      "2029": 9000.0,
+      "2030": 9000.0,
+      "2031": 9000.0
+    },
+    "yearly_per_capita": {
+      "2026": 63.24,
+      "2027": 136.11,
+      "2028": 136.11,
+      "2029": 1.21,
+      "2030": 1.21,
+      "2031": 1.21
+    }
+  },
+  {
+    "municipality": "Linter",
+    "nis_code": "24133",
+    "bd_code": "BD-4",
+    "bd_short": "Warme en bruisende gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Linter moet een gemeente blijven waarin elke inwoner zich thuis voelt, geïntegreerd is en kan deelnemen aan een uitgebreid verenigingsleven. Kortom een warme en bruisende gemeente. We verhogen de vrijetijdsbeleving door te investeren in vrijetijdsinfrastructuur, het verenigingsleven te ondersteunen en een warme, bruisende gemeenschap te stimuleren.",
+    "ap_code": "AP-04-2",
+    "ap_short": "Ondersteuning van verenigingen en initiatieven ter versterking van het bruisende gemeenschapsleven.",
+    "ap_long": "We waarderen het rijke verenigingsleven en stimuleren sociale verbondenheid door verenigingen, evenementen en lokale initiatieven actief te ondersteunen. Via financiële tegemoetkomingen, logistieke hulp en administratieve begeleiding krijgen verenigingen de kans om hun werking te versterken en initiatieven te ontplooien. Het lokaal bestuur wil zo een levendig en inclusief gemeenschapsleven bevorderen, waarin inwoners elkaar ontmoeten, samenwerken en zich samen inzetten voor een warme en dynamische gemeente.",
+    "ac_code": "AC-04-2-01",
+    "ac_short": "Restauratie van het Waterhof met focus op jeugdwerking en multifunctioneel gebruik door verenigingen",
+    "ac_long": "We restaureren en herwaarderen de erfgoedsite van het Waterhof en herbestemmen deze tot een levendige ontmoetingsplek die een duurzame toekomst verzekert voor zowel de jeugdwerking als het verenigingsleven. We streven naar een duurzaam en gedeeld gebruik van infrastructuur, waarbij erfgoedbehoud hand in hand gaat met maatschappelijke meerwaarde.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2500000.0,
+    "amount_per_capita": 337.24,
+    "yearly_amounts": {
+      "2026": 2500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 337.24,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -48,10 +150,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1180058.0,
-    "amount_per_capita": 158.65,
+    "total_amount": 1881729.15,
+    "amount_per_capita": 253.83,
     "yearly_amounts": {
-      "2026": 264172.0,
+      "2026": 965843.15,
       "2027": 227491.0,
       "2028": 202742.0,
       "2029": 138191.0,
@@ -59,12 +161,250 @@
       "2031": 202675.0
     },
     "yearly_per_capita": {
-      "2026": 35.52,
-      "2027": 30.58,
-      "2028": 27.26,
-      "2029": 18.58,
-      "2030": 19.47,
-      "2031": 27.25
+      "2026": 130.29,
+      "2027": 30.69,
+      "2028": 27.35,
+      "2029": 18.64,
+      "2030": 19.53,
+      "2031": 27.34
+    }
+  },
+  {
+    "municipality": "Linter",
+    "nis_code": "24133",
+    "bd_code": "BD-1",
+    "bd_short": "Leefbare gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Linter streeft naar duurzame en leefbare dorpen door het creëren van een aangenaam kwalitatief openbaar domein, het aanpakken van de gevolgen van de klimaatverandering, het versterken van de veiligheid en het voeren van een doordacht (woon)beleid op maat van onze landelijke gemeente.",
+    "ap_code": "AP-01-4",
+    "ap_short": "Ontwikkelen van een strategische visie voor verduurzaming en onderhoud van patrimonium en wagenpark.",
+    "ap_long": "We werken aan een geïntegreerde en toekomstgerichte visie voor het beheer van de gebouwen, infrastructuur en wagenpark van het lokaal bestuur. Via de opmaak van een strategisch vastgoedplan wordt het patrimonium in kaart gebracht en planmatig onderhouden, met aandacht voor energie-efficiëntie, functionaliteit en kostenbewust beheer. Daarnaast wordt ingezet op de elektrificatie van het wagenpark om de ecologische voetafdruk van de gemeentelijke werking te verkleinen. Deze strategische benadering moet leiden tot een duurzaam, efficiënt en klimaatbewust gebruik van de gemeentelijke middelen en infrastructuur.",
+    "ac_code": "AC-01-4-02",
+    "ac_short": "We ontwikkelen een strategisch vastgoedplan om het patrimonium duurzaam en efficiënt te beheren.",
+    "ac_long": "We brengen ons eigen patrimonium met al zijn facetten in kaart, evalueren het huidige beleid van het gebruik van het patrimonium en hervormen het waar nodig via een strategisch vastgoedplan. Bij de uitvoering van het vastgoedplan zetten we ook in op het verminderen van het energieverbruik, beperken we de CO₂-uitstoot en verhogen we de duurzaamheid van het gemeentelijk patrimonium.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 845000.0,
+    "amount_per_capita": 113.99,
+    "yearly_amounts": {
+      "2026": 45000.0,
+      "2027": 250000.0,
+      "2028": 100000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.07,
+      "2027": 33.72,
+      "2028": 13.49,
+      "2029": 20.23,
+      "2030": 20.23,
+      "2031": 20.23
+    }
+  },
+  {
+    "municipality": "Linter",
+    "nis_code": "24133",
+    "bd_code": "BD-1",
+    "bd_short": "Leefbare gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Linter streeft naar duurzame en leefbare dorpen door het creëren van een aangenaam kwalitatief openbaar domein, het aanpakken van de gevolgen van de klimaatverandering, het versterken van de veiligheid en het voeren van een doordacht (woon)beleid op maat van onze landelijke gemeente.",
+    "ap_code": "AP-01-2",
+    "ap_short": "We optimaliseren het duurzaam beheer, de veiligheid en de vergroening van het openbaar domein.",
+    "ap_long": "We streven naar een doordachte inrichting en onderhoud van het openbaar domein, met aandacht voor verkeersveiligheid, mobiliteit, groenvoorziening en netheid. Via gerichte investeringen, educatie en handhaving bouwen we aan een publieke ruimte die zowel functioneel als mooi is en die bijdraagt aan de leefkwaliteit in alle dorpen.",
+    "ac_code": "AC-01-2-03",
+    "ac_short": "De dienst OD beschikt over de nodige uitrusting voor het beheer van het openbaar domein.",
+    "ac_long": "De gemeente investeert in machines, voertuigen en materialen om het openbaar domein op een efficiënte, veilige en duurzame manier te kunnen onderhouden. Door te voorzien in de juiste uitrusting kan de dienst Openbare Werken haar taken optimaal uitvoeren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 715000.0,
+    "amount_per_capita": 96.45,
+    "yearly_amounts": {
+      "2026": 395000.0,
+      "2027": 120000.0,
+      "2028": 200000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 53.28,
+      "2027": 16.19,
+      "2028": 26.98,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Linter",
+    "nis_code": "24133",
+    "bd_code": "BD-1",
+    "bd_short": "Leefbare gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Linter streeft naar duurzame en leefbare dorpen door het creëren van een aangenaam kwalitatief openbaar domein, het aanpakken van de gevolgen van de klimaatverandering, het versterken van de veiligheid en het voeren van een doordacht (woon)beleid op maat van onze landelijke gemeente.",
+    "ap_code": "AP-01-2",
+    "ap_short": "We optimaliseren het duurzaam beheer, de veiligheid en de vergroening van het openbaar domein.",
+    "ap_long": "We streven naar een doordachte inrichting en onderhoud van het openbaar domein, met aandacht voor verkeersveiligheid, mobiliteit, groenvoorziening en netheid. Via gerichte investeringen, educatie en handhaving bouwen we aan een publieke ruimte die zowel functioneel als mooi is en die bijdraagt aan de leefkwaliteit in alle dorpen.",
+    "ac_code": "AC-01-2-01",
+    "ac_short": "We werken een inrichtingsvisie uit voor de begraafplaatsen en voeren deze gefaseerd uit.",
+    "ac_long": "Begraafplaatsen hebben een belangrijke emotionele en maatschappelijke betekenis. Met het opstellen van een inrichtingsvisie, wil de gemeente Linter een langetermijnvisie uittekenen voor de inrichting en het onderhoud van haar begraafplaatsen. We ontwikkelen een inrichtingsvisie die sereniteit, respect en rust uitstraalt, met aandacht voor vergroening, biodiversiteit en een onderhoudsvriendelijke inrichting. Deze visie draagt bij aan een waardige herdenkingscultuur en versterkt de rol van begraafplaatsen als groene plekken van bezinning in de dorpen. Op basis van de inrichtingsvisie wordt een plan met concrete acties uitgewerkt dewelke gefaseerd uitgevoerd worden.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 60.7,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 225000.0,
+      "2028": 225000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 30.35,
+      "2028": 30.35,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Linter",
+    "nis_code": "24133",
+    "bd_code": "BD-1",
+    "bd_short": "Leefbare gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Linter streeft naar duurzame en leefbare dorpen door het creëren van een aangenaam kwalitatief openbaar domein, het aanpakken van de gevolgen van de klimaatverandering, het versterken van de veiligheid en het voeren van een doordacht (woon)beleid op maat van onze landelijke gemeente.",
+    "ap_code": "AP-01-4",
+    "ap_short": "Ontwikkelen van een strategische visie voor verduurzaming en onderhoud van patrimonium en wagenpark.",
+    "ap_long": "We werken aan een geïntegreerde en toekomstgerichte visie voor het beheer van de gebouwen, infrastructuur en wagenpark van het lokaal bestuur. Via de opmaak van een strategisch vastgoedplan wordt het patrimonium in kaart gebracht en planmatig onderhouden, met aandacht voor energie-efficiëntie, functionaliteit en kostenbewust beheer. Daarnaast wordt ingezet op de elektrificatie van het wagenpark om de ecologische voetafdruk van de gemeentelijke werking te verkleinen. Deze strategische benadering moet leiden tot een duurzaam, efficiënt en klimaatbewust gebruik van de gemeentelijke middelen en infrastructuur.",
+    "ac_code": "AC-01-4-01",
+    "ac_short": "We zorgen voor een planmatig beheer en elektrificatie van het wagenpark",
+    "ac_long": "De gemeente Linter streeft naar een duurzaam en efficiënt mobiliteitsbeleid binnen haar eigen organisatie door het wagenpark planmatig te beheren en waar mogelijk te elektrificeren. We voorzien de nodige laadinfrastructuur op de site van de Dienst Openbare Domeinen zodat het wagenpark waar mogelijk geëlektrificeerd kan worden.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 275000.0,
+    "amount_per_capita": 37.1,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 110000.0,
+      "2029": 55000.0,
+      "2030": 55000.0,
+      "2031": 55000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 14.84,
+      "2029": 7.42,
+      "2030": 7.42,
+      "2031": 7.42
+    }
+  },
+  {
+    "municipality": "Linter",
+    "nis_code": "24133",
+    "bd_code": "BD-4",
+    "bd_short": "Warme en bruisende gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Linter moet een gemeente blijven waarin elke inwoner zich thuis voelt, geïntegreerd is en kan deelnemen aan een uitgebreid verenigingsleven. Kortom een warme en bruisende gemeente. We verhogen de vrijetijdsbeleving door te investeren in vrijetijdsinfrastructuur, het verenigingsleven te ondersteunen en een warme, bruisende gemeenschap te stimuleren.",
+    "ap_code": "AP-04-1",
+    "ap_short": "Optimaliseren  van het aanbod aan sport-, speel-, belevings- en ontmoetingsruimtes voor jong en oud.",
+    "ap_long": "De gemeente zet in op het versterken en optimaliseren van ruimtes waar inwoners kunnen sporten, spelen, ontmoeten en beleven. Naast het verbeteren van de eigen infrastructuur ondersteunt Linter ook andere ontmoetingsruimtes die een belangrijke rol spelen in het lokale gemeenschapsleven. Door samenwerking met verenigingen en partners wordt gestreefd naar een gevarieerd, toegankelijk en duurzaam aanbod voor alle leeftijden. Zo bevordert de gemeente een actieve levensstijl, sociale verbondenheid en een warme leefgemeenschap.",
+    "ac_code": "AC-04-1-03",
+    "ac_short": "We investeren in kwalitatieve ontmoetingsplaatsen ter versterking van het lokaal gemeenschapsleven.",
+    "ac_long": "We ondersteunen het gemeenschapsleven door mee te investeren in het behoud en de verbetering van ontmoetingsplaatsen waar inwoners, verenigingen en jeugdgroepen samenkomen. Deze infrastructuren vormen het kloppend hart van het gemeenschapsleven en ondersteunen het verenigingsleven, jeugdwerking en lokale initiatieven. Door in te zetten kwalitatieve ontmoetingsplaatsen willen we de sociale cohesie versterken, verbinding tussen inwoners stimuleren en de betrokkenheid bij het dorpsleven vergroten.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 8.09,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Linter",
+    "nis_code": "24133",
+    "bd_code": "BD-4",
+    "bd_short": "Warme en bruisende gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Linter moet een gemeente blijven waarin elke inwoner zich thuis voelt, geïntegreerd is en kan deelnemen aan een uitgebreid verenigingsleven. Kortom een warme en bruisende gemeente. We verhogen de vrijetijdsbeleving door te investeren in vrijetijdsinfrastructuur, het verenigingsleven te ondersteunen en een warme, bruisende gemeenschap te stimuleren.",
+    "ap_code": "AP-04-1",
+    "ap_short": "Optimaliseren  van het aanbod aan sport-, speel-, belevings- en ontmoetingsruimtes voor jong en oud.",
+    "ap_long": "De gemeente zet in op het versterken en optimaliseren van ruimtes waar inwoners kunnen sporten, spelen, ontmoeten en beleven. Naast het verbeteren van de eigen infrastructuur ondersteunt Linter ook andere ontmoetingsruimtes die een belangrijke rol spelen in het lokale gemeenschapsleven. Door samenwerking met verenigingen en partners wordt gestreefd naar een gevarieerd, toegankelijk en duurzaam aanbod voor alle leeftijden. Zo bevordert de gemeente een actieve levensstijl, sociale verbondenheid en een warme leefgemeenschap.",
+    "ac_code": "AC-04-1-01",
+    "ac_short": "We evalueren en optimaliseren de speelmogelijkheden voor kinderen en jongeren.",
+    "ac_long": "We brengen de bestaande speel- en ontspanningsmogelijkheden voor kinderen en jongeren in kaart en beoordelen deze o.a. op veiligheid, variatie en kwaliteit. Op basis van deze evaluatie nemen we gerichte maatregelen om het spelaanbod te verbeteren en te optimaliseren. Dit kan onder meer door het vernieuwen of uitbreiden van speelterreinen, het creëren van avontuurlijke of natuurlijke speelplekken, en het beter afstemmen van de infrastructuur op de noden van verschillende leeftijdsgroepen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 6.74,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Linter",
+    "nis_code": "24133",
+    "bd_code": "BD-1",
+    "bd_short": "Leefbare gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Linter streeft naar duurzame en leefbare dorpen door het creëren van een aangenaam kwalitatief openbaar domein, het aanpakken van de gevolgen van de klimaatverandering, het versterken van de veiligheid en het voeren van een doordacht (woon)beleid op maat van onze landelijke gemeente.",
+    "ap_code": "AP-01-2",
+    "ap_short": "We optimaliseren het duurzaam beheer, de veiligheid en de vergroening van het openbaar domein.",
+    "ap_long": "We streven naar een doordachte inrichting en onderhoud van het openbaar domein, met aandacht voor verkeersveiligheid, mobiliteit, groenvoorziening en netheid. Via gerichte investeringen, educatie en handhaving bouwen we aan een publieke ruimte die zowel functioneel als mooi is en die bijdraagt aan de leefkwaliteit in alle dorpen.",
+    "ac_code": "AC-01-2-04",
+    "ac_short": "Verkeerseducatie, preventie en correctieve maatregelen verhogen de leefbaarheid van de woongebieden.",
+    "ac_long": "We zetten in op de verhoging van de verkeersveiligheid  door middel van een integraal beleid dat inzet op educatie, sensibilisering, infrastructuur en controle. We besteden bijzondere aandacht aan het optimaliseren van de situatie aan de schoolomgevingen en gaan samen met de scholen, ouders en leerlingen aan de slag voor een betere schoolpoortmobiliteit.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 32096.0,
+    "amount_per_capita": 4.33,
+    "yearly_amounts": {
+      "2026": 32096.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

@@ -278,22 +278,38 @@ def slugify_label(label):
     slug = re.sub(r'[^a-z0-9]+', '-', normalized.lower()).strip('-')
     return slug or 'item'
 
+def _is_current_flemish_municipality(code: str) -> bool:
+    """Filter to current Flemish municipalities only."""
+    first = code[:1]
+    first_two = code[:2]
+
+    if first in {'5', '6', '8', '9'}:
+        return False
+    if first_two == '21':
+        return False
+    if first == '2' and first_two not in {'23', '24'}:
+        return False
+    return True
+
+
 def load_nis_lookups(allowed_codes=None):
-    """Load NIS municipality lookups for municipalities present in the dataset."""
+    """Load current Flemish NIS municipality lookups for municipalities present in the dataset."""
     nis_df = pd.read_csv(NIS_FILE, encoding='utf-8')
     allowed_codes_set = set(str(code) for code in allowed_codes) if allowed_codes is not None else None
     
-    # Filter for current/recent Flemish municipalities
-    # Flanders NIS codes start with 1, 2, 3, 4, or 7
+    # Start from active municipalities only to avoid historic/deelgemeente noise.
     municipalities = nis_df[
         (nis_df['LVL_REFNIS'] == 4) &
-        (nis_df['CD_REFNIS'].astype(str).str[0].isin(['1', '2', '3', '4', '7']))
+        (nis_df['DT_VLDT_END'] == '31/12/9999')
     ].copy()
 
     # Create lookup dictionary
     nis_lookup = {}
     for _, row in municipalities.iterrows():
         nis_code = str(row['CD_REFNIS'])
+        if not _is_current_flemish_municipality(nis_code):
+            continue
+
         # Skip source municipalities that are defunct in 2025
         if nis_code in NIS_MERGERS_LOOKUP and nis_code != NIS_MERGERS_LOOKUP[nis_code]:
             continue

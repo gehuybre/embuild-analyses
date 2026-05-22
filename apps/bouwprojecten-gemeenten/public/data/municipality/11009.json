@@ -15,7 +15,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 20415000.0,
-    "amount_per_capita": 649.63,
+    "amount_per_capita": 648.61,
     "yearly_amounts": {
       "2026": 225000.0,
       "2027": 0,
@@ -25,11 +25,11 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.16,
+      "2026": 7.15,
       "2027": 0,
-      "2028": 165.15,
-      "2029": 238.66,
-      "2030": 238.66,
+      "2028": 164.89,
+      "2029": 238.28,
+      "2030": 238.28,
       "2031": 0
     }
   },
@@ -49,7 +49,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 11638000.0,
-    "amount_per_capita": 370.34,
+    "amount_per_capita": 369.75,
     "yearly_amounts": {
       "2026": 0,
       "2027": 1000000.0,
@@ -60,11 +60,11 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 31.82,
+      "2027": 31.77,
       "2028": 0,
-      "2029": 95.46,
-      "2030": 238.66,
-      "2031": 4.39
+      "2029": 95.31,
+      "2030": 238.28,
+      "2031": 4.38
     }
   },
   {
@@ -82,10 +82,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 4250000.0,
-    "amount_per_capita": 135.24,
+    "total_amount": 4312532.82,
+    "amount_per_capita": 137.01,
     "yearly_amounts": {
-      "2026": 990000.0,
+      "2026": 1052532.82,
       "2027": 920000.0,
       "2028": 785000.0,
       "2029": 585000.0,
@@ -93,12 +93,12 @@
       "2031": 485000.0
     },
     "yearly_per_capita": {
-      "2026": 31.5,
-      "2027": 29.28,
-      "2028": 24.98,
-      "2029": 18.62,
-      "2030": 15.43,
-      "2031": 15.43
+      "2026": 33.44,
+      "2027": 29.23,
+      "2028": 24.94,
+      "2029": 18.59,
+      "2030": 15.41,
+      "2031": 15.41
     }
   },
   {
@@ -117,7 +117,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 2521989.0,
-    "amount_per_capita": 80.25,
+    "amount_per_capita": 80.13,
     "yearly_amounts": {
       "2026": 437784.0,
       "2027": 290625.0,
@@ -127,12 +127,12 @@
       "2031": 611853.0
     },
     "yearly_per_capita": {
-      "2026": 13.93,
-      "2027": 9.25,
-      "2028": 6.96,
-      "2029": 10.51,
-      "2030": 20.14,
-      "2031": 19.47
+      "2026": 13.91,
+      "2027": 9.23,
+      "2028": 6.95,
+      "2029": 10.49,
+      "2030": 20.1,
+      "2031": 19.44
     }
   },
   {
@@ -151,7 +151,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 2091867.0,
-    "amount_per_capita": 66.57,
+    "amount_per_capita": 66.46,
     "yearly_amounts": {
       "2026": 332572.0,
       "2027": 351859.0,
@@ -161,12 +161,12 @@
       "2031": 351859.0
     },
     "yearly_per_capita": {
-      "2026": 10.58,
-      "2027": 11.2,
-      "2028": 11.2,
-      "2029": 11.2,
-      "2030": 11.2,
-      "2031": 11.2
+      "2026": 10.57,
+      "2027": 11.18,
+      "2028": 11.18,
+      "2029": 11.18,
+      "2030": 11.18,
+      "2031": 11.18
     }
   },
   {
@@ -185,7 +185,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 2000000.0,
-    "amount_per_capita": 63.64,
+    "amount_per_capita": 63.54,
     "yearly_amounts": {
       "2026": 0,
       "2027": 2000000.0,
@@ -196,7 +196,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 63.64,
+      "2027": 63.54,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -218,10 +218,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 1650000.0,
-    "amount_per_capita": 52.51,
+    "total_amount": 1663059.74,
+    "amount_per_capita": 52.84,
     "yearly_amounts": {
-      "2026": 1650000.0,
+      "2026": 1663059.74,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -229,382 +229,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 52.51,
+      "2026": 52.84,
       "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000001",
-    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
-    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
-    "ap_code": "AP000001",
-    "ap_short": "Brecht wil de gemeenschapsvoorzieningen meer op de grootteorde brengen van het inwonersaantal.",
-    "ap_long": "Brecht wil de gemeenschapsvoorzieningen op zijn grondgebied meer op de grootteorde brengen van het inwonersaantal. We maken een inhaalbeweging en willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een nieuw dienstencentrum in Sint-Lenaarts, een gemeenschapscentrum in Sint-Job, een school in Brecht, een sporthal in Sint-Job en een woonzorgcentrum in Brecht, steeds met oog voor multifunctioneel en gedeeld gebruik.",
-    "ac_code": "A000003",
-    "ac_short": "We willen meer investeren in infrastructuur van verenigingen.",
-    "ac_long": "We willen meer investeren in infrastructuur van verenigingen. We ondersteunen en moedigen verenigingen aan om hun infrastructuur te verduurzamen en hun werking zo meer toekomstbestendig te maken. We hanteren het principe van 50% tegemoetkoming vanuit de gemeente en herzien daartoe het subsidiereglement van de infrastructuursubsidies aan verenigingen tegen 31 december 2026. We werken ook een werkwijze uit voor verenigingen die zelf een groot financieel aandeel dienen te dragen in grote infrastructuurprojecten.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 1500000.0,
-    "amount_per_capita": 47.73,
-    "yearly_amounts": {
-      "2026": 750000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 750000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 23.87,
-      "2027": 0,
-      "2028": 0,
-      "2029": 23.87,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000011",
-    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
-    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
-    "ac_code": "A000100",
-    "ac_short": "Tegen 31 december 2027 is het rioleringsproject Bethaniëlei afgerond.",
-    "ac_long": "Tegen 31 december 2027 is het rioleringsproject Bethaniëlei afgerond.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 1280000.0,
-    "amount_per_capita": 40.73,
-    "yearly_amounts": {
-      "2026": 1000000.0,
-      "2027": 280000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 31.82,
-      "2027": 8.91,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000011",
-    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
-    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
-    "ac_code": "A000105",
-    "ac_short": "Tegen 31 december 2030 zijn de rioleringswerken van De Vijvers afgerond.",
-    "ac_long": "Tegen 31 december 2030 zijn de rioleringswerken van De Vijvers afgerond.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 1235000.0,
-    "amount_per_capita": 39.3,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 565000.0,
-      "2029": 500000.0,
-      "2030": 170000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 17.98,
-      "2029": 15.91,
-      "2030": 5.41,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000004",
-    "bd_short": "Brecht, da’s echt divers en toch verbindend.",
-    "bd_long": "Samen met onze inwoners willen we zorg dragen voor IEDEREEN en elke inwoner meenemen in onze gemeenschap. Vanuit de actor- en regierol, met een duidelijke visie voorop, bereiden we ons voor op de huidige en toekomstige uitdagingen. Ontmoeting en verbinding in onze gemeenschap dienen centraal te staan zodat we vanuit een collectieve verantwoordelijkheid (zorgzame buurten) en gesterkte krachten meer draagkracht hebben om deze toekomstige zorguitdagingen aan te gaan. We leggen klemtonen op ouderenbeleid, mantelzorg, mentaal welzijn, armoede en vrijetijdsparticipatie.",
-    "ap_code": "AP000038",
-    "ap_short": "Dagelijkse werking divers en verbindend.",
-    "ap_long": "Dagelijkse werking divers en verbindend.",
-    "ac_code": "A000204",
-    "ac_short": "Dagelijkse werking divers en verbindend.",
-    "ac_long": "Dagelijkse werking divers en verbindend.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 1197121.0,
-    "amount_per_capita": 38.09,
-    "yearly_amounts": {
-      "2026": 314800.0,
-      "2027": 215000.0,
-      "2028": 282106.0,
-      "2029": 283918.0,
-      "2030": 71736.0,
-      "2031": 29561.0
-    },
-    "yearly_per_capita": {
-      "2026": 10.02,
-      "2027": 6.84,
-      "2028": 8.98,
-      "2029": 9.03,
-      "2030": 2.28,
-      "2031": 0.94
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000011",
-    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
-    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
-    "ac_code": "A000103",
-    "ac_short": "Tegen 31 december 2029 is het rioleringsproject Vaartkant Links en Groenstraat afgerond.",
-    "ac_long": "Tegen 31 december 2029 is het rioleringsproject Vaartkant Links en Groenstraat afgerond. Er worden middelen ingeschreven voor de grondinnames, studiekosten en werken.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 1180000.0,
-    "amount_per_capita": 37.55,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 430000.0,
-      "2028": 400000.0,
-      "2029": 350000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 13.68,
-      "2028": 12.73,
-      "2029": 11.14,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000001",
-    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
-    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
-    "ap_code": "AP000001",
-    "ap_short": "Brecht wil de gemeenschapsvoorzieningen meer op de grootteorde brengen van het inwonersaantal.",
-    "ap_long": "Brecht wil de gemeenschapsvoorzieningen op zijn grondgebied meer op de grootteorde brengen van het inwonersaantal. We maken een inhaalbeweging en willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een nieuw dienstencentrum in Sint-Lenaarts, een gemeenschapscentrum in Sint-Job, een school in Brecht, een sporthal in Sint-Job en een woonzorgcentrum in Brecht, steeds met oog voor multifunctioneel en gedeeld gebruik.",
-    "ac_code": "A000004",
-    "ac_short": "Tegen 31 december 2028 opent het nieuwe lokaal dienstencentrum in Sint-Lenaarts.",
-    "ac_long": "We verwerven in 2026 een passende accommodatie voor de opstart van een lokaal dienstencentrum in de kern van Sint-Lenaarts. Na de aankoop van het pand, voorzien we middelen (studie en uitvoering, ICT, inrichting,...) om het om te vormen tot een erkend dienstencentrum dat zijn deuren opent tegen ten laatste 31 december 2028.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 1153500.0,
-    "amount_per_capita": 36.71,
-    "yearly_amounts": {
-      "2026": 450000.0,
-      "2027": 325000.0,
-      "2028": 378500.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 14.32,
-      "2027": 10.34,
-      "2028": 12.04,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000011",
-    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
-    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
-    "ac_code": "A000086",
-    "ac_short": "Tegen 31 december 2028 verledden we het openbaar verlichtingsnet.",
-    "ac_long": "We verledden het openbaar verlichtingsnet tegen 31 december 2028 en blijven ook nadien investeren in led openbare verlichting.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 990000.0,
-    "amount_per_capita": 31.5,
-    "yearly_amounts": {
-      "2026": 250000.0,
-      "2027": 250000.0,
-      "2028": 250000.0,
-      "2029": 80000.0,
-      "2030": 80000.0,
-      "2031": 80000.0
-    },
-    "yearly_per_capita": {
-      "2026": 7.96,
-      "2027": 7.96,
-      "2028": 7.96,
-      "2029": 2.55,
-      "2030": 2.55,
-      "2031": 2.55
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000001",
-    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
-    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
-    "ap_code": "AP000035",
-    "ap_short": "Dagelijkse werking bouwen aan de toekomst.",
-    "ap_long": "Dagelijkse werking bouwen aan de toekomst.",
-    "ac_code": "A000024",
-    "ac_short": "We investeren verder in en onderhouden de gemeentelijke speelterreintjes.",
-    "ac_long": "We investeren verder in en onderhouden de gemeentelijke speelterreintjes en houden hierbij ook rekening met het speelweefselplan.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 795000.0,
-    "amount_per_capita": 25.3,
-    "yearly_amounts": {
-      "2026": 77500.0,
-      "2027": 407500.0,
-      "2028": 77500.0,
-      "2029": 77500.0,
-      "2030": 77500.0,
-      "2031": 77500.0
-    },
-    "yearly_per_capita": {
-      "2026": 2.47,
-      "2027": 12.97,
-      "2028": 2.47,
-      "2029": 2.47,
-      "2030": 2.47,
-      "2031": 2.47
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000001",
-    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
-    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
-    "ap_code": "AP000035",
-    "ap_short": "Dagelijkse werking bouwen aan de toekomst.",
-    "ap_long": "Dagelijkse werking bouwen aan de toekomst.",
-    "ac_code": "A000029",
-    "ac_short": "Dagelijkse werking bouwen aan de toekomst.",
-    "ac_long": "Dagelijkse werking bouwen aan de toekomst.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 788404.0,
-    "amount_per_capita": 25.09,
-    "yearly_amounts": {
-      "2026": 347700.0,
-      "2027": 135744.0,
-      "2028": 110660.0,
-      "2029": 60000.0,
-      "2030": 70000.0,
-      "2031": 64300.0
-    },
-    "yearly_per_capita": {
-      "2026": 11.06,
-      "2027": 4.32,
-      "2028": 3.52,
-      "2029": 1.91,
-      "2030": 2.23,
-      "2031": 2.05
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000005",
-    "bd_short": "Brecht, da’s echt een geolied team ten dienste van elke inwoner.",
-    "bd_long": "Ten dienste van de Brechtenaar dient er een sterke organisatie te staan die opgewassen is tegen de uitdagingen die op ons afkomen en uitvoering kan geven aan een sterk lokaal beleid. We investeren in bijkomende personeelscapaciteit, maken van Brecht een aantrekkelijke werkgever en zetten verder in op de professionalisering van onze organisatie. Werken voor Brecht wil zeggen verantwoordelijkheid nemen, flexibiliteit aan de dag brengen, kwalitatief tewerk gaan, kunnen samenwerken en respectvol met anderen omgaan. We creëren een brug tussen de gemeentelijke organisatie en zijn inwoners via een sterk participatiebeleid en heldere communicatie die mensen meeneemt in het gemeentelijke beleid en hen trots maakt om inwoner of medewerker te zijn in onze gemeente. We blijven een financieel gezonde gemeente, maken doordachte keuzes en investeren waar het telt.",
-    "ap_code": "AP000032",
-    "ap_short": "Brecht digitaliseert en zet in op data-gedreven beleid.",
-    "ap_long": "Brecht digitaliseert en zet in op data-gedreven beleid om haar interne werking en dienstverlening te optimaliseren. Hierbij heeft ze de nodige aandacht voor al haar burgers. We zetten verder in op e-formulieren en ontsluiting van dienstverlening op een digitale manier die efficiëntie voor de diensten en de dienstverlening voor de burger verbeteren. We blijven aan de balies mensen verder helpen die minder vaardig zijn met digitale toepassingen. We nemen veel meer toekomstige beslissingen op basis van data. We bekijken hoe we op een werkbare en realistische manier data kunnen verzamelen, beheren en gebruiken in beleidsvoorbereiding, beleidsbepaling en dagelijkse werking. Brecht gaat op een veilige manier om met de data die het over zijn inwoners beschikbaar heeft.",
-    "ac_code": "A000228",
-    "ac_short": "Dagelijkse werking digitalisering, informatieveiligheid en datagedreven beleid.",
-    "ac_long": "Dagelijkse werking digitalisering, informatieveiligheid en datagedreven beleid.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 770000.0,
-    "amount_per_capita": 24.5,
-    "yearly_amounts": {
-      "2026": 275000.0,
-      "2027": 130000.0,
-      "2028": 35000.0,
-      "2029": 245000.0,
-      "2030": 30000.0,
-      "2031": 55000.0
-    },
-    "yearly_per_capita": {
-      "2026": 8.75,
-      "2027": 4.14,
-      "2028": 1.11,
-      "2029": 7.8,
-      "2030": 0.95,
-      "2031": 1.75
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000011",
-    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
-    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
-    "ac_code": "A000082",
-    "ac_short": "Tegen 31 december 2027 is de weg en het plein van de Gemeenteplaats vernieuwd en vergroend.",
-    "ac_long": "31 december 2027 is de weg en het plein van de Gemeenteplaats vernieuwd en vergroend.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 750000.0,
-    "amount_per_capita": 23.87,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 750000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 23.87,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -626,10 +252,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 665000.0,
-    "amount_per_capita": 21.16,
+    "total_amount": 1635773.5,
+    "amount_per_capita": 51.97,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 970773.5,
       "2027": 265000.0,
       "2028": 400000.0,
       "2029": 0,
@@ -637,9 +263,383 @@
       "2031": 0
     },
     "yearly_per_capita": {
+      "2026": 30.84,
+      "2027": 8.42,
+      "2028": 12.71,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000001",
+    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
+    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
+    "ap_code": "AP000001",
+    "ap_short": "Brecht wil de gemeenschapsvoorzieningen meer op de grootteorde brengen van het inwonersaantal.",
+    "ap_long": "Brecht wil de gemeenschapsvoorzieningen op zijn grondgebied meer op de grootteorde brengen van het inwonersaantal. We maken een inhaalbeweging en willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een nieuw dienstencentrum in Sint-Lenaarts, een gemeenschapscentrum in Sint-Job, een school in Brecht, een sporthal in Sint-Job en een woonzorgcentrum in Brecht, steeds met oog voor multifunctioneel en gedeeld gebruik.",
+    "ac_code": "A000003",
+    "ac_short": "We willen meer investeren in infrastructuur van verenigingen.",
+    "ac_long": "We willen meer investeren in infrastructuur van verenigingen. We ondersteunen en moedigen verenigingen aan om hun infrastructuur te verduurzamen en hun werking zo meer toekomstbestendig te maken. We hanteren het principe van 50% tegemoetkoming vanuit de gemeente en herzien daartoe het subsidiereglement van de infrastructuursubsidies aan verenigingen tegen 31 december 2026. We werken ook een werkwijze uit voor verenigingen die zelf een groot financieel aandeel dienen te dragen in grote infrastructuurprojecten.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1533910.09,
+    "amount_per_capita": 48.73,
+    "yearly_amounts": {
+      "2026": 783910.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 750000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 24.91,
+      "2027": 0,
+      "2028": 0,
+      "2029": 23.83,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000011",
+    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
+    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
+    "ac_code": "A000100",
+    "ac_short": "Tegen 31 december 2027 is het rioleringsproject Bethaniëlei afgerond.",
+    "ac_long": "Tegen 31 december 2027 is het rioleringsproject Bethaniëlei afgerond.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1280000.0,
+    "amount_per_capita": 40.67,
+    "yearly_amounts": {
+      "2026": 1000000.0,
+      "2027": 280000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 31.77,
+      "2027": 8.9,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000004",
+    "bd_short": "Brecht, da’s echt divers en toch verbindend.",
+    "bd_long": "Samen met onze inwoners willen we zorg dragen voor IEDEREEN en elke inwoner meenemen in onze gemeenschap. Vanuit de actor- en regierol, met een duidelijke visie voorop, bereiden we ons voor op de huidige en toekomstige uitdagingen. Ontmoeting en verbinding in onze gemeenschap dienen centraal te staan zodat we vanuit een collectieve verantwoordelijkheid (zorgzame buurten) en gesterkte krachten meer draagkracht hebben om deze toekomstige zorguitdagingen aan te gaan. We leggen klemtonen op ouderenbeleid, mantelzorg, mentaal welzijn, armoede en vrijetijdsparticipatie.",
+    "ap_code": "AP000038",
+    "ap_short": "Dagelijkse werking divers en verbindend.",
+    "ap_long": "Dagelijkse werking divers en verbindend.",
+    "ac_code": "A000204",
+    "ac_short": "Dagelijkse werking divers en verbindend.",
+    "ac_long": "Dagelijkse werking divers en verbindend.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1252663.66,
+    "amount_per_capita": 39.8,
+    "yearly_amounts": {
+      "2026": 370342.66,
+      "2027": 215000.0,
+      "2028": 282106.0,
+      "2029": 283918.0,
+      "2030": 71736.0,
+      "2031": 29561.0
+    },
+    "yearly_per_capita": {
+      "2026": 11.77,
+      "2027": 6.83,
+      "2028": 8.96,
+      "2029": 9.02,
+      "2030": 2.28,
+      "2031": 0.94
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000011",
+    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
+    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
+    "ac_code": "A000103",
+    "ac_short": "Tegen 31 december 2029 is het rioleringsproject Vaartkant Links en Groenstraat afgerond.",
+    "ac_long": "Tegen 31 december 2029 is het rioleringsproject Vaartkant Links en Groenstraat afgerond. Er worden middelen ingeschreven voor de grondinnames, studiekosten en werken.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1245085.87,
+    "amount_per_capita": 39.56,
+    "yearly_amounts": {
+      "2026": 65085.87,
+      "2027": 430000.0,
+      "2028": 400000.0,
+      "2029": 350000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.07,
+      "2027": 13.66,
+      "2028": 12.71,
+      "2029": 11.12,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000011",
+    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
+    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
+    "ac_code": "A000105",
+    "ac_short": "Tegen 31 december 2030 zijn de rioleringswerken van De Vijvers afgerond.",
+    "ac_long": "Tegen 31 december 2030 zijn de rioleringswerken van De Vijvers afgerond.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1235000.0,
+    "amount_per_capita": 39.24,
+    "yearly_amounts": {
       "2026": 0,
-      "2027": 8.43,
-      "2028": 12.73,
+      "2027": 0,
+      "2028": 565000.0,
+      "2029": 500000.0,
+      "2030": 170000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 17.95,
+      "2029": 15.89,
+      "2030": 5.4,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000001",
+    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
+    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
+    "ap_code": "AP000001",
+    "ap_short": "Brecht wil de gemeenschapsvoorzieningen meer op de grootteorde brengen van het inwonersaantal.",
+    "ap_long": "Brecht wil de gemeenschapsvoorzieningen op zijn grondgebied meer op de grootteorde brengen van het inwonersaantal. We maken een inhaalbeweging en willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een nieuw dienstencentrum in Sint-Lenaarts, een gemeenschapscentrum in Sint-Job, een school in Brecht, een sporthal in Sint-Job en een woonzorgcentrum in Brecht, steeds met oog voor multifunctioneel en gedeeld gebruik.",
+    "ac_code": "A000004",
+    "ac_short": "Tegen 31 december 2028 opent het nieuwe lokaal dienstencentrum in Sint-Lenaarts.",
+    "ac_long": "We verwerven in 2026 een passende accommodatie voor de opstart van een lokaal dienstencentrum in de kern van Sint-Lenaarts. Na de aankoop van het pand, voorzien we middelen (studie en uitvoering, ICT, inrichting,...) om het om te vormen tot een erkend dienstencentrum dat zijn deuren opent tegen ten laatste 31 december 2028.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1153500.0,
+    "amount_per_capita": 36.65,
+    "yearly_amounts": {
+      "2026": 450000.0,
+      "2027": 325000.0,
+      "2028": 378500.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.3,
+      "2027": 10.33,
+      "2028": 12.03,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000011",
+    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
+    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
+    "ac_code": "A000086",
+    "ac_short": "Tegen 31 december 2028 verledden we het openbaar verlichtingsnet.",
+    "ac_long": "We verledden het openbaar verlichtingsnet tegen 31 december 2028 en blijven ook nadien investeren in led openbare verlichting.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1152632.9,
+    "amount_per_capita": 36.62,
+    "yearly_amounts": {
+      "2026": 412632.9,
+      "2027": 250000.0,
+      "2028": 250000.0,
+      "2029": 80000.0,
+      "2030": 80000.0,
+      "2031": 80000.0
+    },
+    "yearly_per_capita": {
+      "2026": 13.11,
+      "2027": 7.94,
+      "2028": 7.94,
+      "2029": 2.54,
+      "2030": 2.54,
+      "2031": 2.54
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000001",
+    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
+    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
+    "ap_code": "AP000035",
+    "ap_short": "Dagelijkse werking bouwen aan de toekomst.",
+    "ap_long": "Dagelijkse werking bouwen aan de toekomst.",
+    "ac_code": "A000029",
+    "ac_short": "Dagelijkse werking bouwen aan de toekomst.",
+    "ac_long": "Dagelijkse werking bouwen aan de toekomst.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1075880.91,
+    "amount_per_capita": 34.18,
+    "yearly_amounts": {
+      "2026": 635176.91,
+      "2027": 135744.0,
+      "2028": 110660.0,
+      "2029": 60000.0,
+      "2030": 70000.0,
+      "2031": 64300.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.18,
+      "2027": 4.31,
+      "2028": 3.52,
+      "2029": 1.91,
+      "2030": 2.22,
+      "2031": 2.04
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000005",
+    "bd_short": "Brecht, da’s echt een geolied team ten dienste van elke inwoner.",
+    "bd_long": "Ten dienste van de Brechtenaar dient er een sterke organisatie te staan die opgewassen is tegen de uitdagingen die op ons afkomen en uitvoering kan geven aan een sterk lokaal beleid. We investeren in bijkomende personeelscapaciteit, maken van Brecht een aantrekkelijke werkgever en zetten verder in op de professionalisering van onze organisatie. Werken voor Brecht wil zeggen verantwoordelijkheid nemen, flexibiliteit aan de dag brengen, kwalitatief tewerk gaan, kunnen samenwerken en respectvol met anderen omgaan. We creëren een brug tussen de gemeentelijke organisatie en zijn inwoners via een sterk participatiebeleid en heldere communicatie die mensen meeneemt in het gemeentelijke beleid en hen trots maakt om inwoner of medewerker te zijn in onze gemeente. We blijven een financieel gezonde gemeente, maken doordachte keuzes en investeren waar het telt.",
+    "ap_code": "AP000032",
+    "ap_short": "Brecht digitaliseert en zet in op data-gedreven beleid.",
+    "ap_long": "Brecht digitaliseert en zet in op data-gedreven beleid om haar interne werking en dienstverlening te optimaliseren. Hierbij heeft ze de nodige aandacht voor al haar burgers. We zetten verder in op e-formulieren en ontsluiting van dienstverlening op een digitale manier die efficiëntie voor de diensten en de dienstverlening voor de burger verbeteren. We blijven aan de balies mensen verder helpen die minder vaardig zijn met digitale toepassingen. We nemen veel meer toekomstige beslissingen op basis van data. We bekijken hoe we op een werkbare en realistische manier data kunnen verzamelen, beheren en gebruiken in beleidsvoorbereiding, beleidsbepaling en dagelijkse werking. Brecht gaat op een veilige manier om met de data die het over zijn inwoners beschikbaar heeft.",
+    "ac_code": "A000228",
+    "ac_short": "Dagelijkse werking digitalisering, informatieveiligheid en datagedreven beleid.",
+    "ac_long": "Dagelijkse werking digitalisering, informatieveiligheid en datagedreven beleid.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 972553.11,
+    "amount_per_capita": 30.9,
+    "yearly_amounts": {
+      "2026": 477553.11,
+      "2027": 130000.0,
+      "2028": 35000.0,
+      "2029": 245000.0,
+      "2030": 30000.0,
+      "2031": 55000.0
+    },
+    "yearly_per_capita": {
+      "2026": 15.17,
+      "2027": 4.13,
+      "2028": 1.11,
+      "2029": 7.78,
+      "2030": 0.95,
+      "2031": 1.75
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000001",
+    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
+    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
+    "ap_code": "AP000035",
+    "ap_short": "Dagelijkse werking bouwen aan de toekomst.",
+    "ap_long": "Dagelijkse werking bouwen aan de toekomst.",
+    "ac_code": "A000024",
+    "ac_short": "We investeren verder in en onderhouden de gemeentelijke speelterreintjes.",
+    "ac_long": "We investeren verder in en onderhouden de gemeentelijke speelterreintjes en houden hierbij ook rekening met het speelweefselplan.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 795000.0,
+    "amount_per_capita": 25.26,
+    "yearly_amounts": {
+      "2026": 77500.0,
+      "2027": 407500.0,
+      "2028": 77500.0,
+      "2029": 77500.0,
+      "2030": 77500.0,
+      "2031": 77500.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.46,
+      "2027": 12.95,
+      "2028": 2.46,
+      "2029": 2.46,
+      "2030": 2.46,
+      "2031": 2.46
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000011",
+    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
+    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
+    "ac_code": "A000082",
+    "ac_short": "Tegen 31 december 2027 is de weg en het plein van de Gemeenteplaats vernieuwd en vergroend.",
+    "ac_long": "31 december 2027 is de weg en het plein van de Gemeenteplaats vernieuwd en vergroend.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 750000.0,
+    "amount_per_capita": 23.83,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 750000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 23.83,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -661,7 +661,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 625000.0,
-    "amount_per_capita": 19.89,
+    "amount_per_capita": 19.86,
     "yearly_amounts": {
       "2026": 0,
       "2027": 350000.0,
@@ -672,8 +672,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 11.14,
-      "2028": 8.75,
+      "2027": 11.12,
+      "2028": 8.74,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -695,7 +695,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 600000.0,
-    "amount_per_capita": 19.09,
+    "amount_per_capita": 19.06,
     "yearly_amounts": {
       "2026": 600000.0,
       "2027": 0,
@@ -705,7 +705,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 19.09,
+      "2026": 19.06,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -729,7 +729,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 500000.0,
-    "amount_per_capita": 15.91,
+    "amount_per_capita": 15.89,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -741,7 +741,75 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 15.91,
+      "2028": 15.89,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000001",
+    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
+    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
+    "ap_code": "AP000001",
+    "ap_short": "Brecht wil de gemeenschapsvoorzieningen meer op de grootteorde brengen van het inwonersaantal.",
+    "ap_long": "Brecht wil de gemeenschapsvoorzieningen op zijn grondgebied meer op de grootteorde brengen van het inwonersaantal. We maken een inhaalbeweging en willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een nieuw dienstencentrum in Sint-Lenaarts, een gemeenschapscentrum in Sint-Job, een school in Brecht, een sporthal in Sint-Job en een woonzorgcentrum in Brecht, steeds met oog voor multifunctioneel en gedeeld gebruik.",
+    "ac_code": "A000012",
+    "ac_short": "Tegen 31 december 2026 is de speeltuin achter De Schakel aangelegd en open voor publiek.",
+    "ac_long": "Tegen 31 december 2026 is de speeltuin achter De Schakel aangelegd en open voor publiek.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 482694.93,
+    "amount_per_capita": 15.34,
+    "yearly_amounts": {
+      "2026": 482694.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.34,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000011",
+    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
+    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
+    "ac_code": "A000095",
+    "ac_short": "Tegen 31 december 2026 is het rioleringsproject en fietspad Kloosterstraat afgerond.",
+    "ac_long": "Tegen 31 december 2026 is het rioleringsproject en fietspad Kloosterstraat afgerond. De subsidie voor de realisatie van het fietspad (Kopenhagenplan) is ontvangen tegen 31 december 2026.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 479698.97,
+    "amount_per_capita": 15.24,
+    "yearly_amounts": {
+      "2026": 479698.97,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.24,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -763,7 +831,7 @@
       "08-onderwijs"
     ],
     "total_amount": 425714.0,
-    "amount_per_capita": 13.55,
+    "amount_per_capita": 13.53,
     "yearly_amounts": {
       "2026": 235714.0,
       "2027": 110000.0,
@@ -773,9 +841,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.5,
-      "2027": 3.5,
-      "2028": 2.55,
+      "2026": 7.49,
+      "2027": 3.49,
+      "2028": 2.54,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -797,7 +865,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 420000.0,
-    "amount_per_capita": 13.36,
+    "amount_per_capita": 13.34,
     "yearly_amounts": {
       "2026": 70000.0,
       "2027": 70000.0,
@@ -807,42 +875,76 @@
       "2031": 70000.0
     },
     "yearly_per_capita": {
-      "2026": 2.23,
-      "2027": 2.23,
-      "2028": 2.23,
-      "2029": 2.23,
-      "2030": 2.23,
-      "2031": 2.23
+      "2026": 2.22,
+      "2027": 2.22,
+      "2028": 2.22,
+      "2029": 2.22,
+      "2030": 2.22,
+      "2031": 2.22
     }
   },
   {
     "municipality": "Brecht",
     "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000011",
-    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
-    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
-    "ac_code": "A000095",
-    "ac_short": "Tegen 31 december 2026 is het rioleringsproject en fietspad Kloosterstraat afgerond.",
-    "ac_long": "Tegen 31 december 2026 is het rioleringsproject en fietspad Kloosterstraat afgerond. De subsidie voor de realisatie van het fietspad (Kopenhagenplan) is ontvangen tegen 31 december 2026.",
+    "bd_code": "D000001",
+    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
+    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
+    "ap_code": "AP000001",
+    "ap_short": "Brecht wil de gemeenschapsvoorzieningen meer op de grootteorde brengen van het inwonersaantal.",
+    "ap_long": "Brecht wil de gemeenschapsvoorzieningen op zijn grondgebied meer op de grootteorde brengen van het inwonersaantal. We maken een inhaalbeweging en willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een nieuw dienstencentrum in Sint-Lenaarts, een gemeenschapscentrum in Sint-Job, een school in Brecht, een sporthal in Sint-Job en een woonzorgcentrum in Brecht, steeds met oog voor multifunctioneel en gedeeld gebruik.",
+    "ac_code": "A000009",
+    "ac_short": "Tegen 31 december 2027 is de Theobalduskapel gerenoveerd.",
+    "ac_long": "Tegen 31 december 2027 is de Theobalduskapel gerenoveerd tot een ruimte die beschikbaar gesteld kan worden voor verenigingen, kunstenaars, de gemeente en andere gebruikers.",
     "categories": [
-      "02-mobiliteit"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 9.55,
+    "total_amount": 328814.91,
+    "amount_per_capita": 10.45,
     "yearly_amounts": {
-      "2026": 300000.0,
-      "2027": 0,
+      "2026": 181814.91,
+      "2027": 147000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.55,
-      "2027": 0,
+      "2026": 5.78,
+      "2027": 4.67,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000001",
+    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
+    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
+    "ap_code": "AP000001",
+    "ap_short": "Brecht wil de gemeenschapsvoorzieningen meer op de grootteorde brengen van het inwonersaantal.",
+    "ap_long": "Brecht wil de gemeenschapsvoorzieningen op zijn grondgebied meer op de grootteorde brengen van het inwonersaantal. We maken een inhaalbeweging en willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een nieuw dienstencentrum in Sint-Lenaarts, een gemeenschapscentrum in Sint-Job, een school in Brecht, een sporthal in Sint-Job en een woonzorgcentrum in Brecht, steeds met oog voor multifunctioneel en gedeeld gebruik.",
+    "ac_code": "A000011",
+    "ac_short": "Tegen 31 december 2028 is het jeugdhuis in Brecht vernieuwd.",
+    "ac_long": "Tegen 31 december 2028 is het jeugdhuis in Brecht vernieuwd.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 9.53,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 300000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 9.53,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -865,7 +967,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 300000.0,
-    "amount_per_capita": 9.55,
+    "amount_per_capita": 9.53,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 50000.0,
@@ -899,7 +1001,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 300000.0,
-    "amount_per_capita": 9.55,
+    "amount_per_capita": 9.53,
     "yearly_amounts": {
       "2026": 0,
       "2027": 300000.0,
@@ -910,7 +1012,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 9.55,
+      "2027": 9.53,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -920,31 +1022,31 @@
   {
     "municipality": "Brecht",
     "nis_code": "11009",
-    "bd_code": "D000001",
-    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
-    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
-    "ap_code": "AP000001",
-    "ap_short": "Brecht wil de gemeenschapsvoorzieningen meer op de grootteorde brengen van het inwonersaantal.",
-    "ap_long": "Brecht wil de gemeenschapsvoorzieningen op zijn grondgebied meer op de grootteorde brengen van het inwonersaantal. We maken een inhaalbeweging en willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een nieuw dienstencentrum in Sint-Lenaarts, een gemeenschapscentrum in Sint-Job, een school in Brecht, een sporthal in Sint-Job en een woonzorgcentrum in Brecht, steeds met oog voor multifunctioneel en gedeeld gebruik.",
-    "ac_code": "A000011",
-    "ac_short": "Tegen 31 december 2028 is het jeugdhuis in Brecht vernieuwd.",
-    "ac_long": "Tegen 31 december 2028 is het jeugdhuis in Brecht vernieuwd.",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000012",
+    "ap_short": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein.",
+    "ap_long": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein. We leggen de lat hoog op vlak van orde en de staat van het openbaar domein. We zetten in op de aanwerving van extra werkkrachten op de technische dienst en bekijken de lopende processen om efficiëntiewinsten te boeken. We bepalen een standaard (plantgoed) die als rode draad kan dienen voor de globale herinrichtingen van klimaatrobuust groen in onze gemeente. Zo creëren we een maatstaf voor het groene uitzicht van onze gemeente. Waar we door gebrek aan ruimte in dorpskernen niet kunnen inzetten op verdere vergroening, bekijken we de mogelijkheid voor verticaal groen. De gemeentelijke technische dienst organiseert gestructureerde toezichts- of onderhoudsrondes op het openbaar domein volgens bepaalde focussen: de staat en zichtbaarheid van verkeersborden, het vegen van voetpaden, de signalisatie en het onderhoud van de hydranten, het reinigen van bushokjes en verkeersborden,... We werken, waar nodig, samen met externe partners voor het onderhoud van ons openbaar domein. We evalueren onze lopende samenwerkingen met maatwerkbedrijven maar blijven onze maatschappelijke verantwoordelijkheid opnemen. We bekijken de samenwerking met Pidpa-Hidrorio en de provincie, met het doel om te komen tot beter onderhouden waterlopen en bermen en creëren een duidelijk visueel plan zodat inwoners duidelijkheid krijgen rond de periode en frequentie van het onderhoud.",
+    "ac_code": "A000106",
+    "ac_short": "Tegen 31 december 2027 is de Kraaienhorst verbreed ifv een veilige doorstroom van en naar de voetbal",
+    "ac_long": "Tegen 31 december 2027 is de Kraaienhorst verbreed ifv een veilige doorstroom van en naar de voetbal.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 9.55,
+    "total_amount": 262616.09,
+    "amount_per_capita": 8.34,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 300000.0,
+      "2026": 62616.09,
+      "2027": 200000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 9.55,
+      "2026": 1.99,
+      "2027": 6.35,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -967,7 +1069,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 260000.0,
-    "amount_per_capita": 8.27,
+    "amount_per_capita": 8.26,
     "yearly_amounts": {
       "2026": 0,
       "2027": 260000.0,
@@ -978,41 +1080,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 8.27,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000001",
-    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
-    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
-    "ap_code": "AP000001",
-    "ap_short": "Brecht wil de gemeenschapsvoorzieningen meer op de grootteorde brengen van het inwonersaantal.",
-    "ap_long": "Brecht wil de gemeenschapsvoorzieningen op zijn grondgebied meer op de grootteorde brengen van het inwonersaantal. We maken een inhaalbeweging en willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een nieuw dienstencentrum in Sint-Lenaarts, een gemeenschapscentrum in Sint-Job, een school in Brecht, een sporthal in Sint-Job en een woonzorgcentrum in Brecht, steeds met oog voor multifunctioneel en gedeeld gebruik.",
-    "ac_code": "A000009",
-    "ac_short": "Tegen 31 december 2027 is de Theobalduskapel gerenoveerd.",
-    "ac_long": "Tegen 31 december 2027 is de Theobalduskapel gerenoveerd tot een ruimte die beschikbaar gesteld kan worden voor verenigingen, kunstenaars, de gemeente en andere gebruikers.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 250000.0,
-    "amount_per_capita": 7.96,
-    "yearly_amounts": {
-      "2026": 103000.0,
-      "2027": 147000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 3.28,
-      "2027": 4.68,
+      "2027": 8.26,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1035,7 +1103,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 7.96,
+    "amount_per_capita": 7.94,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 0,
@@ -1045,7 +1113,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.96,
+      "2026": 7.94,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1056,31 +1124,31 @@
   {
     "municipality": "Brecht",
     "nis_code": "11009",
-    "bd_code": "D000001",
-    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
-    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
-    "ap_code": "AP000001",
-    "ap_short": "Brecht wil de gemeenschapsvoorzieningen meer op de grootteorde brengen van het inwonersaantal.",
-    "ap_long": "Brecht wil de gemeenschapsvoorzieningen op zijn grondgebied meer op de grootteorde brengen van het inwonersaantal. We maken een inhaalbeweging en willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een nieuw dienstencentrum in Sint-Lenaarts, een gemeenschapscentrum in Sint-Job, een school in Brecht, een sporthal in Sint-Job en een woonzorgcentrum in Brecht, steeds met oog voor multifunctioneel en gedeeld gebruik.",
-    "ac_code": "A000012",
-    "ac_short": "Tegen 31 december 2026 is de speeltuin achter De Schakel aangelegd en open voor publiek.",
-    "ac_long": "Tegen 31 december 2026 is de speeltuin achter De Schakel aangelegd en open voor publiek.",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000011",
+    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
+    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
+    "ac_code": "A000104",
+    "ac_short": "We werken verder aan het rioleringsproject Bosstraat-Heihoefke (Mallebaan).",
+    "ac_long": "We werken verder aan het rioleringsproject Bosstraat-Heihoefke (Mallebaan).",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 233000.0,
-    "amount_per_capita": 7.41,
+    "total_amount": 222609.92,
+    "amount_per_capita": 7.07,
     "yearly_amounts": {
-      "2026": 233000.0,
-      "2027": 0,
+      "2026": 78609.92,
+      "2027": 144000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.41,
-      "2027": 0,
+      "2026": 2.5,
+      "2027": 4.58,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1103,7 +1171,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 220000.0,
-    "amount_per_capita": 7.0,
+    "amount_per_capita": 6.99,
     "yearly_amounts": {
       "2026": 220000.0,
       "2027": 0,
@@ -1113,42 +1181,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.0,
+      "2026": 6.99,
       "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000012",
-    "ap_short": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein.",
-    "ap_long": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein. We leggen de lat hoog op vlak van orde en de staat van het openbaar domein. We zetten in op de aanwerving van extra werkkrachten op de technische dienst en bekijken de lopende processen om efficiëntiewinsten te boeken. We bepalen een standaard (plantgoed) die als rode draad kan dienen voor de globale herinrichtingen van klimaatrobuust groen in onze gemeente. Zo creëren we een maatstaf voor het groene uitzicht van onze gemeente. Waar we door gebrek aan ruimte in dorpskernen niet kunnen inzetten op verdere vergroening, bekijken we de mogelijkheid voor verticaal groen. De gemeentelijke technische dienst organiseert gestructureerde toezichts- of onderhoudsrondes op het openbaar domein volgens bepaalde focussen: de staat en zichtbaarheid van verkeersborden, het vegen van voetpaden, de signalisatie en het onderhoud van de hydranten, het reinigen van bushokjes en verkeersborden,... We werken, waar nodig, samen met externe partners voor het onderhoud van ons openbaar domein. We evalueren onze lopende samenwerkingen met maatwerkbedrijven maar blijven onze maatschappelijke verantwoordelijkheid opnemen. We bekijken de samenwerking met Pidpa-Hidrorio en de provincie, met het doel om te komen tot beter onderhouden waterlopen en bermen en creëren een duidelijk visueel plan zodat inwoners duidelijkheid krijgen rond de periode en frequentie van het onderhoud.",
-    "ac_code": "A000106",
-    "ac_short": "Tegen 31 december 2027 is de Kraaienhorst verbreed ifv een veilige doorstroom van en naar de voetbal",
-    "ac_long": "Tegen 31 december 2027 is de Kraaienhorst verbreed ifv een veilige doorstroom van en naar de voetbal.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 200000.0,
-    "amount_per_capita": 6.36,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 200000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 6.36,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1171,7 +1205,7 @@
       "08-onderwijs"
     ],
     "total_amount": 190000.0,
-    "amount_per_capita": 6.05,
+    "amount_per_capita": 6.04,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1183,7 +1217,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 6.05,
+      "2028": 6.04,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1205,7 +1239,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 180000.0,
-    "amount_per_capita": 5.73,
+    "amount_per_capita": 5.72,
     "yearly_amounts": {
       "2026": 30000.0,
       "2027": 30000.0,
@@ -1239,7 +1273,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 180000.0,
-    "amount_per_capita": 5.73,
+    "amount_per_capita": 5.72,
     "yearly_amounts": {
       "2026": 30000.0,
       "2027": 30000.0,
@@ -1297,40 +1331,6 @@
     "bd_code": "D000003",
     "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
     "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000011",
-    "ap_short": "Brecht wil een klimaatbestendige gemeente zijn en zet verder in op bescherming van het leefmilieu.",
-    "ap_long": "Brecht wil meer een klimaatbestendige gemeente zijn en zet verder in op de bescherming van het leefmilieu. We blijven sterk inzetten op weg- en rioleringsdossiers. De stroomgebiedbeheersplannen zijn onze houvast voor het maken van keuzes. We willen in de toekomst minder afval, uitwerpselen van dieren en sluikstort op ons openbaar domein. We starten een adviesraad, bevoegd voor klimaat- en duurzaamheidsbeleid op. We zetten in op de aanplant van meer bomen en bos maar niet op plaatsen waar het gewestplan de bestemming landbouw aangeeft. Hierop zijn dreven in het agrarisch gebied een uitzondering. We ondernemen acties om invasieve exoten in ons leefmilieu te vermijden of beperken en zetten in op de bestrijding ervan.",
-    "ac_code": "A000104",
-    "ac_short": "We werken verder aan het rioleringsproject Bosstraat-Heihoefke (Mallebaan).",
-    "ac_long": "We werken verder aan het rioleringsproject Bosstraat-Heihoefke (Mallebaan).",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 144000.0,
-    "amount_per_capita": 4.58,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 144000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 4.58,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
     "ap_code": "AP000012",
     "ap_short": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein.",
     "ap_long": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein. We leggen de lat hoog op vlak van orde en de staat van het openbaar domein. We zetten in op de aanwerving van extra werkkrachten op de technische dienst en bekijken de lopende processen om efficiëntiewinsten te boeken. We bepalen een standaard (plantgoed) die als rode draad kan dienen voor de globale herinrichtingen van klimaatrobuust groen in onze gemeente. Zo creëren we een maatstaf voor het groene uitzicht van onze gemeente. Waar we door gebrek aan ruimte in dorpskernen niet kunnen inzetten op verdere vergroening, bekijken we de mogelijkheid voor verticaal groen. De gemeentelijke technische dienst organiseert gestructureerde toezichts- of onderhoudsrondes op het openbaar domein volgens bepaalde focussen: de staat en zichtbaarheid van verkeersborden, het vegen van voetpaden, de signalisatie en het onderhoud van de hydranten, het reinigen van bushokjes en verkeersborden,... We werken, waar nodig, samen met externe partners voor het onderhoud van ons openbaar domein. We evalueren onze lopende samenwerkingen met maatwerkbedrijven maar blijven onze maatschappelijke verantwoordelijkheid opnemen. We bekijken de samenwerking met Pidpa-Hidrorio en de provincie, met het doel om te komen tot beter onderhouden waterlopen en bermen en creëren een duidelijk visueel plan zodat inwoners duidelijkheid krijgen rond de periode en frequentie van het onderhoud.",
@@ -1341,7 +1341,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 137500.0,
-    "amount_per_capita": 4.38,
+    "amount_per_capita": 4.37,
     "yearly_amounts": {
       "2026": 12500.0,
       "2027": 105000.0,
@@ -1375,7 +1375,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 125000.0,
-    "amount_per_capita": 3.98,
+    "amount_per_capita": 3.97,
     "yearly_amounts": {
       "2026": 0,
       "2027": 125000.0,
@@ -1386,7 +1386,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 3.98,
+      "2027": 3.97,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1409,7 +1409,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 3.82,
+    "amount_per_capita": 3.81,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 20000.0,
@@ -1443,7 +1443,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 3.82,
+    "amount_per_capita": 3.81,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 20000.0,
@@ -1634,6 +1634,40 @@
   {
     "municipality": "Brecht",
     "nis_code": "11009",
+    "bd_code": "D000005",
+    "bd_short": "Brecht, da’s echt een geolied team ten dienste van elke inwoner.",
+    "bd_long": "Ten dienste van de Brechtenaar dient er een sterke organisatie te staan die opgewassen is tegen de uitdagingen die op ons afkomen en uitvoering kan geven aan een sterk lokaal beleid. We investeren in bijkomende personeelscapaciteit, maken van Brecht een aantrekkelijke werkgever en zetten verder in op de professionalisering van onze organisatie. Werken voor Brecht wil zeggen verantwoordelijkheid nemen, flexibiliteit aan de dag brengen, kwalitatief tewerk gaan, kunnen samenwerken en respectvol met anderen omgaan. We creëren een brug tussen de gemeentelijke organisatie en zijn inwoners via een sterk participatiebeleid en heldere communicatie die mensen meeneemt in het gemeentelijke beleid en hen trots maakt om inwoner of medewerker te zijn in onze gemeente. We blijven een financieel gezonde gemeente, maken doordachte keuzes en investeren waar het telt.",
+    "ap_code": "AP000039",
+    "ap_short": "Dagelijkse werking geolied team.",
+    "ap_long": "Dagelijkse werking geolied team.",
+    "ac_code": "A000242",
+    "ac_short": "Dagelijkse werking geolied team.",
+    "ac_long": "Dagelijkse werking geolied team.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 84052.7,
+    "amount_per_capita": 2.67,
+    "yearly_amounts": {
+      "2026": 11052.7,
+      "2027": 10000.0,
+      "2028": 33000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.35,
+      "2027": 0.32,
+      "2028": 1.05,
+      "2029": 0.32,
+      "2030": 0.32,
+      "2031": 0.32
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
     "bd_code": "D000003",
     "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
     "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
@@ -1668,35 +1702,69 @@
   {
     "municipality": "Brecht",
     "nis_code": "11009",
-    "bd_code": "D000005",
-    "bd_short": "Brecht, da’s echt een geolied team ten dienste van elke inwoner.",
-    "bd_long": "Ten dienste van de Brechtenaar dient er een sterke organisatie te staan die opgewassen is tegen de uitdagingen die op ons afkomen en uitvoering kan geven aan een sterk lokaal beleid. We investeren in bijkomende personeelscapaciteit, maken van Brecht een aantrekkelijke werkgever en zetten verder in op de professionalisering van onze organisatie. Werken voor Brecht wil zeggen verantwoordelijkheid nemen, flexibiliteit aan de dag brengen, kwalitatief tewerk gaan, kunnen samenwerken en respectvol met anderen omgaan. We creëren een brug tussen de gemeentelijke organisatie en zijn inwoners via een sterk participatiebeleid en heldere communicatie die mensen meeneemt in het gemeentelijke beleid en hen trots maakt om inwoner of medewerker te zijn in onze gemeente. We blijven een financieel gezonde gemeente, maken doordachte keuzes en investeren waar het telt.",
-    "ap_code": "AP000039",
-    "ap_short": "Dagelijkse werking geolied team.",
-    "ap_long": "Dagelijkse werking geolied team.",
-    "ac_code": "A000242",
-    "ac_short": "Dagelijkse werking geolied team.",
-    "ac_long": "Dagelijkse werking geolied team.",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000012",
+    "ap_short": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein.",
+    "ap_long": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein. We leggen de lat hoog op vlak van orde en de staat van het openbaar domein. We zetten in op de aanwerving van extra werkkrachten op de technische dienst en bekijken de lopende processen om efficiëntiewinsten te boeken. We bepalen een standaard (plantgoed) die als rode draad kan dienen voor de globale herinrichtingen van klimaatrobuust groen in onze gemeente. Zo creëren we een maatstaf voor het groene uitzicht van onze gemeente. Waar we door gebrek aan ruimte in dorpskernen niet kunnen inzetten op verdere vergroening, bekijken we de mogelijkheid voor verticaal groen. De gemeentelijke technische dienst organiseert gestructureerde toezichts- of onderhoudsrondes op het openbaar domein volgens bepaalde focussen: de staat en zichtbaarheid van verkeersborden, het vegen van voetpaden, de signalisatie en het onderhoud van de hydranten, het reinigen van bushokjes en verkeersborden,... We werken, waar nodig, samen met externe partners voor het onderhoud van ons openbaar domein. We evalueren onze lopende samenwerkingen met maatwerkbedrijven maar blijven onze maatschappelijke verantwoordelijkheid opnemen. We bekijken de samenwerking met Pidpa-Hidrorio en de provincie, met het doel om te komen tot beter onderhouden waterlopen en bermen en creëren een duidelijk visueel plan zodat inwoners duidelijkheid krijgen rond de periode en frequentie van het onderhoud.",
+    "ac_code": "A000114",
+    "ac_short": "Tegen 31 december 2029 hebben we nettere en beter toegankelijke kerkhoven.",
+    "ac_long": "We zorgen voor nettere en beter toegankelijke kerkhoven tegen 31 december 2029. We vergroten ook onze strooiweides op de gemeentelijke begraafplaatsen en onderzoeken of we een geschikte locatie vinden om vorm te geven aan een natuurbegraafplaats in onze gemeente.",
     "categories": [
-      "01-algemeen-bestuur"
+      "09-zorg-opvang"
     ],
-    "total_amount": 83000.0,
-    "amount_per_capita": 2.64,
+    "total_amount": 80000.0,
+    "amount_per_capita": 2.54,
     "yearly_amounts": {
-      "2026": 10000.0,
+      "2026": 30000.0,
       "2027": 10000.0,
-      "2028": 33000.0,
+      "2028": 10000.0,
       "2029": 10000.0,
       "2030": 10000.0,
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 0.32,
+      "2026": 0.95,
       "2027": 0.32,
-      "2028": 1.05,
+      "2028": 0.32,
       "2029": 0.32,
       "2030": 0.32,
       "2031": 0.32
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000012",
+    "ap_short": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein.",
+    "ap_long": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein. We leggen de lat hoog op vlak van orde en de staat van het openbaar domein. We zetten in op de aanwerving van extra werkkrachten op de technische dienst en bekijken de lopende processen om efficiëntiewinsten te boeken. We bepalen een standaard (plantgoed) die als rode draad kan dienen voor de globale herinrichtingen van klimaatrobuust groen in onze gemeente. Zo creëren we een maatstaf voor het groene uitzicht van onze gemeente. Waar we door gebrek aan ruimte in dorpskernen niet kunnen inzetten op verdere vergroening, bekijken we de mogelijkheid voor verticaal groen. De gemeentelijke technische dienst organiseert gestructureerde toezichts- of onderhoudsrondes op het openbaar domein volgens bepaalde focussen: de staat en zichtbaarheid van verkeersborden, het vegen van voetpaden, de signalisatie en het onderhoud van de hydranten, het reinigen van bushokjes en verkeersborden,... We werken, waar nodig, samen met externe partners voor het onderhoud van ons openbaar domein. We evalueren onze lopende samenwerkingen met maatwerkbedrijven maar blijven onze maatschappelijke verantwoordelijkheid opnemen. We bekijken de samenwerking met Pidpa-Hidrorio en de provincie, met het doel om te komen tot beter onderhouden waterlopen en bermen en creëren een duidelijk visueel plan zodat inwoners duidelijkheid krijgen rond de periode en frequentie van het onderhoud.",
+    "ac_code": "A000119",
+    "ac_short": "Tegen 31 december 2028 is de toegankelijkheid verbeterd aan het fietspad Eyndovensteenweg.",
+    "ac_long": "Tegen 31 december 2028 is de toegankelijkheid verbeterd aan het fietspad Eyndovensteenweg door betonplaten te leggen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 70000.0,
+    "amount_per_capita": 2.22,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0,
+      "2028": 1.59,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -1715,7 +1783,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 60500.0,
-    "amount_per_capita": 1.93,
+    "amount_per_capita": 1.92,
     "yearly_amounts": {
       "2026": 19000.0,
       "2027": 16500.0,
@@ -1726,8 +1794,8 @@
     },
     "yearly_per_capita": {
       "2026": 0.6,
-      "2027": 0.53,
-      "2028": 0.8,
+      "2027": 0.52,
+      "2028": 0.79,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1736,51 +1804,17 @@
   {
     "municipality": "Brecht",
     "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000012",
-    "ap_short": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein.",
-    "ap_long": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein. We leggen de lat hoog op vlak van orde en de staat van het openbaar domein. We zetten in op de aanwerving van extra werkkrachten op de technische dienst en bekijken de lopende processen om efficiëntiewinsten te boeken. We bepalen een standaard (plantgoed) die als rode draad kan dienen voor de globale herinrichtingen van klimaatrobuust groen in onze gemeente. Zo creëren we een maatstaf voor het groene uitzicht van onze gemeente. Waar we door gebrek aan ruimte in dorpskernen niet kunnen inzetten op verdere vergroening, bekijken we de mogelijkheid voor verticaal groen. De gemeentelijke technische dienst organiseert gestructureerde toezichts- of onderhoudsrondes op het openbaar domein volgens bepaalde focussen: de staat en zichtbaarheid van verkeersborden, het vegen van voetpaden, de signalisatie en het onderhoud van de hydranten, het reinigen van bushokjes en verkeersborden,... We werken, waar nodig, samen met externe partners voor het onderhoud van ons openbaar domein. We evalueren onze lopende samenwerkingen met maatwerkbedrijven maar blijven onze maatschappelijke verantwoordelijkheid opnemen. We bekijken de samenwerking met Pidpa-Hidrorio en de provincie, met het doel om te komen tot beter onderhouden waterlopen en bermen en creëren een duidelijk visueel plan zodat inwoners duidelijkheid krijgen rond de periode en frequentie van het onderhoud.",
-    "ac_code": "A000114",
-    "ac_short": "Tegen 31 december 2029 hebben we nettere en beter toegankelijke kerkhoven.",
-    "ac_long": "We zorgen voor nettere en beter toegankelijke kerkhoven tegen 31 december 2029. We vergroten ook onze strooiweides op de gemeentelijke begraafplaatsen en onderzoeken of we een geschikte locatie vinden om vorm te geven aan een natuurbegraafplaats in onze gemeente.",
+    "bd_code": "D000001",
+    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
+    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
+    "ap_code": "AP000002",
+    "ap_short": "Brecht gaat voor een evenwichtig patrimoniumbeheer op zijn grondgebied.",
+    "ap_long": "Brecht gaat voor een evenwichtig patrimoniumbeheer op zijn grondgebied en maakt doordachte keuzes rond het behoud, afstoten en verwerven van nieuw gemeentelijk patrimonium. We zetten zoveel als mogelijk in op het multifunctioneel gebruik van gebouwen en het clusteren van gelijke functies. Dit doen we zowel voor onze gemeentelijke infrastructuur als voor onze verenigingen.",
+    "ac_code": "A000013",
+    "ac_short": "Tegen 31 december 2027 hebben we een vastgoedstrategie op maat van Brecht.",
+    "ac_long": "Tegen 31 december 2027 beschikken gemeente en OCMW over een gezamenlijk strategisch patrimoniumonderzoek dat de gemeente en het OCMW in staat stelt zijn gebouwen optimaal te benutten en er de juiste bestemming aan te geven, al dan niet door verkoop ervan. In alle jaren van het meerjarenplan wordt uitwerking gegeven aan acties die voortvloeien uit het strategisch patrimoniumonderzoek.",
     "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 60000.0,
-    "amount_per_capita": 1.91,
-    "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 10000.0,
-      "2028": 10000.0,
-      "2029": 10000.0,
-      "2030": 10000.0,
-      "2031": 10000.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.32,
-      "2027": 0.32,
-      "2028": 0.32,
-      "2029": 0.32,
-      "2030": 0.32,
-      "2031": 0.32
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000016",
-    "ap_short": "Brecht werkt aan een doordacht mobiliteitsbeleid, betere verkeersveiligheid en een goede doorstroom.",
-    "ap_long": "Brecht werkt aan een doordacht mobiliteitsbeleid, betere verkeersveiligheid en een goede doorstroom, met het mobiliteitsplan als basis. We maken keuzes en stellen prioriteiten in de uitrol van het mobiliteitsplan en werken \"grijze punten\" in onze gemeente verder weg. We zetten in op veilige en propere fietspaden om inwoners aan te moedigen meer de fiets te nemen. We gaan samenwerken met PZ Voorkempen om inwoners bewust te maken van wat asociaal gedrag en wat wenselijk gedrag in het verkeer is. Alle omgevingen waar veel jongeren elkaar ontmoeten verdienen de eerste prioriteit om bekeken te worden op vlak van verkeersveiligheid. Veilig voor jongeren betekent ook veilig voor ouderen. Het fietspadencomité blijft de bevoorrechte partner van de gemeente op vlak van adviesverlening voor grote herstellingswerken of vernieuwingen aan fietspaden. In de toekomst zouden we de steun van deze groep mensen willen vragen om ook controle uit te oefenen op de voetpaden. We werken met twee verkeersraden, een voor Brecht-Sint-Lenaarts en een voor Sint-Job-In-'t-Goor. We gaan een partnerschap aan met De Lijn om binnen de marge die ons wordt geboden de belangen van de Brechtenaar te kunnen behartigen. We blijven bij de NMBS aankaarten dat de stationsparking beter gratis zou aangeboden worden om in de Noorderkempen ook meer in te zetten op de modal shift. We blijven ook principieel staan achter een naamswijziging van station Noorderkempen naar station Brecht of Brecht-Noorderkempen.",
-    "ac_code": "A000151",
-    "ac_short": "Dagelijkse werking mobiliteit.",
-    "ac_long": "Dagelijkse werking mobiliteit.",
-    "categories": [
-      "06-wonen-ruimte"
+      "01-algemeen-bestuur"
     ],
     "total_amount": 60000.0,
     "amount_per_capita": 1.91,
@@ -1838,17 +1872,17 @@
   {
     "municipality": "Brecht",
     "nis_code": "11009",
-    "bd_code": "D000001",
-    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
-    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
-    "ap_code": "AP000002",
-    "ap_short": "Brecht gaat voor een evenwichtig patrimoniumbeheer op zijn grondgebied.",
-    "ap_long": "Brecht gaat voor een evenwichtig patrimoniumbeheer op zijn grondgebied en maakt doordachte keuzes rond het behoud, afstoten en verwerven van nieuw gemeentelijk patrimonium. We zetten zoveel als mogelijk in op het multifunctioneel gebruik van gebouwen en het clusteren van gelijke functies. Dit doen we zowel voor onze gemeentelijke infrastructuur als voor onze verenigingen.",
-    "ac_code": "A000013",
-    "ac_short": "Tegen 31 december 2027 hebben we een vastgoedstrategie op maat van Brecht.",
-    "ac_long": "Tegen 31 december 2027 beschikken gemeente en OCMW over een gezamenlijk strategisch patrimoniumonderzoek dat de gemeente en het OCMW in staat stelt zijn gebouwen optimaal te benutten en er de juiste bestemming aan te geven, al dan niet door verkoop ervan. In alle jaren van het meerjarenplan wordt uitwerking gegeven aan acties die voortvloeien uit het strategisch patrimoniumonderzoek.",
+    "bd_code": "D000003",
+    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
+    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
+    "ap_code": "AP000016",
+    "ap_short": "Brecht werkt aan een doordacht mobiliteitsbeleid, betere verkeersveiligheid en een goede doorstroom.",
+    "ap_long": "Brecht werkt aan een doordacht mobiliteitsbeleid, betere verkeersveiligheid en een goede doorstroom, met het mobiliteitsplan als basis. We maken keuzes en stellen prioriteiten in de uitrol van het mobiliteitsplan en werken \"grijze punten\" in onze gemeente verder weg. We zetten in op veilige en propere fietspaden om inwoners aan te moedigen meer de fiets te nemen. We gaan samenwerken met PZ Voorkempen om inwoners bewust te maken van wat asociaal gedrag en wat wenselijk gedrag in het verkeer is. Alle omgevingen waar veel jongeren elkaar ontmoeten verdienen de eerste prioriteit om bekeken te worden op vlak van verkeersveiligheid. Veilig voor jongeren betekent ook veilig voor ouderen. Het fietspadencomité blijft de bevoorrechte partner van de gemeente op vlak van adviesverlening voor grote herstellingswerken of vernieuwingen aan fietspaden. In de toekomst zouden we de steun van deze groep mensen willen vragen om ook controle uit te oefenen op de voetpaden. We werken met twee verkeersraden, een voor Brecht-Sint-Lenaarts en een voor Sint-Job-In-'t-Goor. We gaan een partnerschap aan met De Lijn om binnen de marge die ons wordt geboden de belangen van de Brechtenaar te kunnen behartigen. We blijven bij de NMBS aankaarten dat de stationsparking beter gratis zou aangeboden worden om in de Noorderkempen ook meer in te zetten op de modal shift. We blijven ook principieel staan achter een naamswijziging van station Noorderkempen naar station Brecht of Brecht-Noorderkempen.",
+    "ac_code": "A000151",
+    "ac_short": "Dagelijkse werking mobiliteit.",
+    "ac_long": "Dagelijkse werking mobiliteit.",
     "categories": [
-      "01-algemeen-bestuur"
+      "06-wonen-ruimte"
     ],
     "total_amount": 60000.0,
     "amount_per_capita": 1.91,
@@ -1872,33 +1906,33 @@
   {
     "municipality": "Brecht",
     "nis_code": "11009",
-    "bd_code": "D000003",
-    "bd_short": "Brecht, da’s echt uitgestrekt en toch nabij.",
-    "bd_long": "Brecht is een gemeente met meer dan 90km² aan ruimte, waar diverse ruimtelijke planningsinitiatieven een antwoord zullen moeten bieden aan de huidige en toekomstige maatschappelijke vraagstukken. We creëren een leefomgeving waar wonen, werken en ondernemen, verplaatsen en beleven meer aansluiten op de noden van onze inwoners.\nWe voorzien onze inwoners van een mooi, goed onderhouden, uitgeruste en een klimaatbestendige omgeving, die onze levendige dorpskernen in de toekomst nog meer zal versterken.",
-    "ap_code": "AP000012",
-    "ap_short": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein.",
-    "ap_long": "Brecht gaat voor een beter onderhouden, goed uitgerust en toegankelijk openbaar domein. We leggen de lat hoog op vlak van orde en de staat van het openbaar domein. We zetten in op de aanwerving van extra werkkrachten op de technische dienst en bekijken de lopende processen om efficiëntiewinsten te boeken. We bepalen een standaard (plantgoed) die als rode draad kan dienen voor de globale herinrichtingen van klimaatrobuust groen in onze gemeente. Zo creëren we een maatstaf voor het groene uitzicht van onze gemeente. Waar we door gebrek aan ruimte in dorpskernen niet kunnen inzetten op verdere vergroening, bekijken we de mogelijkheid voor verticaal groen. De gemeentelijke technische dienst organiseert gestructureerde toezichts- of onderhoudsrondes op het openbaar domein volgens bepaalde focussen: de staat en zichtbaarheid van verkeersborden, het vegen van voetpaden, de signalisatie en het onderhoud van de hydranten, het reinigen van bushokjes en verkeersborden,... We werken, waar nodig, samen met externe partners voor het onderhoud van ons openbaar domein. We evalueren onze lopende samenwerkingen met maatwerkbedrijven maar blijven onze maatschappelijke verantwoordelijkheid opnemen. We bekijken de samenwerking met Pidpa-Hidrorio en de provincie, met het doel om te komen tot beter onderhouden waterlopen en bermen en creëren een duidelijk visueel plan zodat inwoners duidelijkheid krijgen rond de periode en frequentie van het onderhoud.",
-    "ac_code": "A000119",
-    "ac_short": "Tegen 31 december 2028 is de toegankelijkheid verbeterd aan het fietspad Eyndovensteenweg.",
-    "ac_long": "Tegen 31 december 2028 is de toegankelijkheid verbeterd aan het fietspad Eyndovensteenweg door betonplaten te leggen.",
+    "bd_code": "D000001",
+    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
+    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
+    "ap_code": "AP000002",
+    "ap_short": "Brecht gaat voor een evenwichtig patrimoniumbeheer op zijn grondgebied.",
+    "ap_long": "Brecht gaat voor een evenwichtig patrimoniumbeheer op zijn grondgebied en maakt doordachte keuzes rond het behoud, afstoten en verwerven van nieuw gemeentelijk patrimonium. We zetten zoveel als mogelijk in op het multifunctioneel gebruik van gebouwen en het clusteren van gelijke functies. Dit doen we zowel voor onze gemeentelijke infrastructuur als voor onze verenigingen.",
+    "ac_code": "A000016",
+    "ac_short": "Tegen 31 december 2030 hebben we een uitvoerbaar plan voor de renovatie van kasteel Neut.",
+    "ac_long": "Tegen 31 december 2030 hebben we een uitvoerbaar plan voor de renovatie en omvorming van kasteel Neut tot een openbare bibliotheek. Ondertussen geven we dit gebouw een tijdelijke invulling.",
     "categories": [
-      "02-mobiliteit"
+      "07-cultuur-vrije-tijd"
     ],
     "total_amount": 50000.0,
     "amount_per_capita": 1.59,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
-      "2028": 50000.0,
-      "2029": 0,
+      "2028": 0,
+      "2029": 50000.0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 1.59,
-      "2029": 0,
+      "2028": 0,
+      "2029": 1.59,
       "2030": 0,
       "2031": 0
     }
@@ -1974,40 +2008,6 @@
   {
     "municipality": "Brecht",
     "nis_code": "11009",
-    "bd_code": "D000001",
-    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
-    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
-    "ap_code": "AP000002",
-    "ap_short": "Brecht gaat voor een evenwichtig patrimoniumbeheer op zijn grondgebied.",
-    "ap_long": "Brecht gaat voor een evenwichtig patrimoniumbeheer op zijn grondgebied en maakt doordachte keuzes rond het behoud, afstoten en verwerven van nieuw gemeentelijk patrimonium. We zetten zoveel als mogelijk in op het multifunctioneel gebruik van gebouwen en het clusteren van gelijke functies. Dit doen we zowel voor onze gemeentelijke infrastructuur als voor onze verenigingen.",
-    "ac_code": "A000016",
-    "ac_short": "Tegen 31 december 2030 hebben we een uitvoerbaar plan voor de renovatie van kasteel Neut.",
-    "ac_long": "Tegen 31 december 2030 hebben we een uitvoerbaar plan voor de renovatie en omvorming van kasteel Neut tot een openbare bibliotheek. Ondertussen geven we dit gebouw een tijdelijke invulling.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 1.59,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 50000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 1.59,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
     "bd_code": "D000002",
     "bd_short": "Brecht, da's echt veelzijdig en toch authentiek.",
     "bd_long": "We koesteren onze Brechtse identiteit, maar erkennen tegelijk ook de diversiteit tussen de verschillende deelgemeenten en gehuchten. We willen dat mensen zich trots voelen om inwoner van Brecht te zijn. We versterken onze lokale cultuur en laten inwoners meer onze eigen gemeente beleven en ontdekken. We zetten in op het creëren van meer verbinding tussen mensen en brengen leven in onze gemeente met een bruisend verenigingsleven en een divers vrijetijdsaanbod, dat toegankelijk is voor iedereen. We ondersteunen en waarderen onze vrijwilligers, die het hart vormen van onze gemeenschap.",
@@ -2055,7 +2055,7 @@
       "08-onderwijs"
     ],
     "total_amount": 36000.0,
-    "amount_per_capita": 1.15,
+    "amount_per_capita": 1.14,
     "yearly_amounts": {
       "2026": 6000.0,
       "2027": 6000.0,
@@ -2071,6 +2071,40 @@
       "2029": 0.19,
       "2030": 0.19,
       "2031": 0.19
+    }
+  },
+  {
+    "municipality": "Brecht",
+    "nis_code": "11009",
+    "bd_code": "D000001",
+    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
+    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
+    "ap_code": "AP000035",
+    "ap_short": "Dagelijkse werking bouwen aan de toekomst.",
+    "ap_long": "Dagelijkse werking bouwen aan de toekomst.",
+    "ac_code": "A000027",
+    "ac_short": "De gemeente zet in op onderhoud vd buitenaanleg van het nieuwe gemeentehuis en de Mudaeusstraat.",
+    "ac_long": "In 2026 en 2027 worden jaarlijks middelen voorzien in het gemeentelijk budget die specifiek worden ingezet voor het onderhoud van de buitenaanleg van het nieuwe gemeentehuis en de Mudaeusstraat in afwachting van definitieve oplevering. De onderhoudswerken omvatten o.a. het groenonderhoud. De uitvoering wordt meetbaar opgevolgd door visuele inspecties van de technische dienst. Evaluatie van de uitgevoerde werken gebeurt periodiek.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30627.72,
+    "amount_per_capita": 0.97,
+    "yearly_amounts": {
+      "2026": 20627.72,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.66,
+      "2027": 0.32,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -2157,7 +2191,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 25000.0,
-    "amount_per_capita": 0.8,
+    "amount_per_capita": 0.79,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 0,
@@ -2167,7 +2201,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.8,
+      "2026": 0.79,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2190,10 +2224,10 @@
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 22500.0,
-    "amount_per_capita": 0.72,
+    "total_amount": 23004.85,
+    "amount_per_capita": 0.73,
     "yearly_amounts": {
-      "2026": 7500.0,
+      "2026": 8004.85,
       "2027": 7500.0,
       "2028": 7500.0,
       "2029": 0,
@@ -2201,7 +2235,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.24,
+      "2026": 0.25,
       "2027": 0.24,
       "2028": 0.24,
       "2029": 0,
@@ -2225,7 +2259,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 22500.0,
-    "amount_per_capita": 0.72,
+    "amount_per_capita": 0.71,
     "yearly_amounts": {
       "2026": 7500.0,
       "2027": 0,
@@ -2280,35 +2314,35 @@
   {
     "municipality": "Brecht",
     "nis_code": "11009",
-    "bd_code": "D000001",
-    "bd_short": "Brecht, da's echt bouwen aan de toekomst.",
-    "bd_long": "Brecht groeit ondertussen door naar 31.000 inwoners. We maken een inhaalbeweging en schalen de gemeenschapsvoorzieningen verder op naar de grootteorde van onze gemeenschap. We willen meer gerichte dienstverlening kunnen aanbieden aan onze inwoners en functies kunnen faciliteren die bijdragen aan gemeenschapsvorming. We investeren zo gericht in nieuwe gebouwen zoals een gemeenschapscentrum, een school en een woonzorgcentrum, steeds met oog voor multifunctioneel en gedeeld gebruik.\nWe ondersteunen onze verenigingen met infrastructuur én een duidelijk subsidiebeleid voor hun eigen infrastructuur. Zo zorgen we voor kwaliteitsvolle voorzieningen in elke woonkern, afgestemd op de noden van vandaag en de toekomst.",
-    "ap_code": "AP000035",
-    "ap_short": "Dagelijkse werking bouwen aan de toekomst.",
-    "ap_long": "Dagelijkse werking bouwen aan de toekomst.",
-    "ac_code": "A000027",
-    "ac_short": "De gemeente zet in op onderhoud vd buitenaanleg van het nieuwe gemeentehuis en de Mudaeusstraat.",
-    "ac_long": "In 2026 en 2027 worden jaarlijks middelen voorzien in het gemeentelijk budget die specifiek worden ingezet voor het onderhoud van de buitenaanleg van het nieuwe gemeentehuis en de Mudaeusstraat in afwachting van definitieve oplevering. De onderhoudswerken omvatten o.a. het groenonderhoud. De uitvoering wordt meetbaar opgevolgd door visuele inspecties van de technische dienst. Evaluatie van de uitgevoerde werken gebeurt periodiek.",
+    "bd_code": "D000002",
+    "bd_short": "Brecht, da's echt veelzijdig en toch authentiek.",
+    "bd_long": "We koesteren onze Brechtse identiteit, maar erkennen tegelijk ook de diversiteit tussen de verschillende deelgemeenten en gehuchten. We willen dat mensen zich trots voelen om inwoner van Brecht te zijn. We versterken onze lokale cultuur en laten inwoners meer onze eigen gemeente beleven en ontdekken. We zetten in op het creëren van meer verbinding tussen mensen en brengen leven in onze gemeente met een bruisend verenigingsleven en een divers vrijetijdsaanbod, dat toegankelijk is voor iedereen. We ondersteunen en waarderen onze vrijwilligers, die het hart vormen van onze gemeenschap.",
+    "ap_code": "AP000005",
+    "ap_short": "Brecht neemt de actorrol op binnen vrije tijd en creëert een kwalitatief geheel van vrijetijdskansen",
+    "ap_long": "Brecht neemt de actorrol op binnen vrije tijd en creëert zo een kwalitatief geheel van vrijetijdskansen.",
+    "ac_code": "A000048",
+    "ac_short": "We bouwen het Kempuseum verder uit met versterkende partnerschappen.",
+    "ac_long": "We bouwen het Kempuseum verder uit met mooie versterkende partnerschappen.",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 0.64,
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.48,
     "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 10000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 2500.0,
+      "2027": 2500.0,
+      "2028": 2500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
     },
     "yearly_per_capita": {
-      "2026": 0.32,
-      "2027": 0.32,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 0.08,
+      "2027": 0.08,
+      "2028": 0.08,
+      "2029": 0.08,
+      "2030": 0.08,
+      "2031": 0.08
     }
   },
   {
@@ -2343,40 +2377,6 @@
       "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Brecht",
-    "nis_code": "11009",
-    "bd_code": "D000002",
-    "bd_short": "Brecht, da's echt veelzijdig en toch authentiek.",
-    "bd_long": "We koesteren onze Brechtse identiteit, maar erkennen tegelijk ook de diversiteit tussen de verschillende deelgemeenten en gehuchten. We willen dat mensen zich trots voelen om inwoner van Brecht te zijn. We versterken onze lokale cultuur en laten inwoners meer onze eigen gemeente beleven en ontdekken. We zetten in op het creëren van meer verbinding tussen mensen en brengen leven in onze gemeente met een bruisend verenigingsleven en een divers vrijetijdsaanbod, dat toegankelijk is voor iedereen. We ondersteunen en waarderen onze vrijwilligers, die het hart vormen van onze gemeenschap.",
-    "ap_code": "AP000005",
-    "ap_short": "Brecht neemt de actorrol op binnen vrije tijd en creëert een kwalitatief geheel van vrijetijdskansen",
-    "ap_long": "Brecht neemt de actorrol op binnen vrije tijd en creëert zo een kwalitatief geheel van vrijetijdskansen.",
-    "ac_code": "A000048",
-    "ac_short": "We bouwen het Kempuseum verder uit met versterkende partnerschappen.",
-    "ac_long": "We bouwen het Kempuseum verder uit met mooie versterkende partnerschappen.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 0.48,
-    "yearly_amounts": {
-      "2026": 2500.0,
-      "2027": 2500.0,
-      "2028": 2500.0,
-      "2029": 2500.0,
-      "2030": 2500.0,
-      "2031": 2500.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.08,
-      "2027": 0.08,
-      "2028": 0.08,
-      "2029": 0.08,
-      "2030": 0.08,
-      "2031": 0.08
     }
   },
   {

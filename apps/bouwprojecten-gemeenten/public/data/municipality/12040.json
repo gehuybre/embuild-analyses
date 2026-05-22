@@ -14,10 +14,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 30179100.0,
-    "amount_per_capita": 1045.11,
+    "total_amount": 31061465.0,
+    "amount_per_capita": 1076.71,
     "yearly_amounts": {
-      "2026": 5041000.0,
+      "2026": 5923365.0,
       "2027": 5033100.0,
       "2028": 5045000.0,
       "2029": 5020000.0,
@@ -25,46 +25,12 @@
       "2031": 5020000.0
     },
     "yearly_per_capita": {
-      "2026": 174.57,
-      "2027": 174.3,
-      "2028": 174.71,
-      "2029": 173.84,
-      "2030": 173.84,
-      "2031": 173.84
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000005",
-    "bd_short": "Vrijetijdsaanbod",
-    "bd_long": "We organiseren samen met en ondersteunen verenigingen in een inclusief en toegankelijk vrijetijdsaanbod dat alle inwoners kansen biedt om te ontspannen, te ontwikkelen en te verbinden.",
-    "ap_code": "AP000014",
-    "ap_short": "Grote projecten vrije tijd",
-    "ap_long": "We investeren via grote projecten in de infrastructuur voor vrijetijdsbeleving en recreatie.",
-    "ac_code": "AC000071",
-    "ac_short": "Site De Schalk",
-    "ac_long": "Site De Schalk dient als aantrekkingspool voor actief beleven met sportspecifieke accommodaties,  multisport- en vrijetijdsbelevingsinfrastructuren.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 12245000.0,
-    "amount_per_capita": 424.05,
-    "yearly_amounts": {
-      "2026": 12225000.0,
-      "2027": 20000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 423.35,
-      "2027": 0.69,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 205.33,
+      "2027": 174.47,
+      "2028": 174.88,
+      "2029": 174.01,
+      "2030": 174.01,
+      "2031": 174.01
     }
   },
   {
@@ -78,14 +44,14 @@
     "ap_long": "We investeren in en onderhouden de infrastructuur en materialen van de collectieve zorg.",
     "ac_code": "AC000122",
     "ac_short": "Welzijnscampus- kleinschalige woonprojecten",
-    "ac_long": "We vervangen de oude vleugel (Berkenhof 3) door kleinschalige woonprojecten binnen een welzijnscampus in samenwerking met externe partners",
+    "ac_long": "We vervangen de oude vleugel (Berkenhof 3) door kleinschalige woonprojecten binnen een welzijnscampus in samenwerking met externe partners.",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 8180000.0,
-    "amount_per_capita": 283.28,
+    "total_amount": 8210050.0,
+    "amount_per_capita": 284.59,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 30050.0,
       "2027": 0,
       "2028": 3000000.0,
       "2029": 5180000.0,
@@ -93,10 +59,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 1.04,
       "2027": 0,
-      "2028": 103.89,
-      "2029": 179.38,
+      "2028": 103.99,
+      "2029": 179.56,
       "2030": 0,
       "2031": 0
     }
@@ -116,10 +82,10 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 6550000.0,
-    "amount_per_capita": 226.83,
+    "total_amount": 6909500.0,
+    "amount_per_capita": 239.51,
     "yearly_amounts": {
-      "2026": 2200000.0,
+      "2026": 2559500.0,
       "2027": 4250000.0,
       "2028": 100000.0,
       "2029": 0,
@@ -127,9 +93,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 76.19,
-      "2027": 147.18,
-      "2028": 3.46,
+      "2026": 88.72,
+      "2027": 147.32,
+      "2028": 3.47,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -151,7 +117,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 5515000.0,
-    "amount_per_capita": 190.99,
+    "amount_per_capita": 191.17,
     "yearly_amounts": {
       "2026": 1315000.0,
       "2027": 1000000.0,
@@ -161,78 +127,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 45.54,
-      "2027": 34.63,
-      "2028": 34.63,
-      "2029": 76.19,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000001",
-    "bd_short": "Leefbaar en bereikbaar Willebroek",
-    "bd_long": "We bouwen aan een leefbaar en bereikbaar Willebroek via investeringen in netheid, duurzaamheid, gezondheid en verkeersveilige, toekomstgerichte publieke ruimte.",
-    "ap_code": "AP000007",
-    "ap_short": "Infrastructuur en materiaal gemeentelijke werkplaats",
-    "ap_long": "We investeren in en onderhouden de infrastructuur en het materiaal van de gemeentelijke werkplaats.",
-    "ac_code": "AC000039",
-    "ac_short": "Infrastructuur en veilig  werken in de gemeentelijke werkplaats",
-    "ac_long": "We investeren om onze infrastructuur en materialen van de gemeentelijke werkplaats in goede staat te houden, zodat men veilig en optimaal kan werken.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 2025000.0,
-    "amount_per_capita": 70.13,
-    "yearly_amounts": {
-      "2026": 295000.0,
-      "2027": 295000.0,
-      "2028": 550000.0,
-      "2029": 295000.0,
-      "2030": 295000.0,
-      "2031": 295000.0
-    },
-    "yearly_per_capita": {
-      "2026": 10.22,
-      "2027": 10.22,
-      "2028": 19.05,
-      "2029": 10.22,
-      "2030": 10.22,
-      "2031": 10.22
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000005",
-    "bd_short": "Vrijetijdsaanbod",
-    "bd_long": "We organiseren samen met en ondersteunen verenigingen in een inclusief en toegankelijk vrijetijdsaanbod dat alle inwoners kansen biedt om te ontspannen, te ontwikkelen en te verbinden.",
-    "ap_code": "AP000014",
-    "ap_short": "Grote projecten vrije tijd",
-    "ap_long": "We investeren via grote projecten in de infrastructuur voor vrijetijdsbeleving en recreatie.",
-    "ac_code": "AC000073",
-    "ac_short": "Sporthal Tisselt",
-    "ac_long": "We renoveren sporthal Tisselt tot volwaardige sportsite.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 2000000.0,
-    "amount_per_capita": 69.26,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 1000000.0,
-      "2029": 1000000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 34.63,
-      "2029": 34.63,
+      "2026": 45.58,
+      "2027": 34.66,
+      "2028": 34.66,
+      "2029": 76.26,
       "2030": 0,
       "2031": 0
     }
@@ -252,10 +150,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 1929050.0,
-    "amount_per_capita": 66.8,
+    "total_amount": 2493850.0,
+    "amount_per_capita": 86.45,
     "yearly_amounts": {
-      "2026": 1600000.0,
+      "2026": 2164800.0,
       "2027": 317900.0,
       "2028": 0,
       "2029": 11150.0,
@@ -263,8 +161,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 55.41,
-      "2027": 11.01,
+      "2026": 75.04,
+      "2027": 11.02,
       "2028": 0,
       "2029": 0.39,
       "2030": 0,
@@ -274,35 +172,69 @@
   {
     "municipality": "Willebroek",
     "nis_code": "12040",
-    "bd_code": "BD000005",
-    "bd_short": "Vrijetijdsaanbod",
-    "bd_long": "We organiseren samen met en ondersteunen verenigingen in een inclusief en toegankelijk vrijetijdsaanbod dat alle inwoners kansen biedt om te ontspannen, te ontwikkelen en te verbinden.",
-    "ap_code": "AP000014",
-    "ap_short": "Grote projecten vrije tijd",
-    "ap_long": "We investeren via grote projecten in de infrastructuur voor vrijetijdsbeleving en recreatie.",
-    "ac_code": "AC000075",
-    "ac_short": "Kunstgrasterreinen",
-    "ac_long": "We ondersteunen onze voetbalclubs in de aanleg van kunstgrasterreinen.",
+    "bd_code": "BD000001",
+    "bd_short": "Leefbaar en bereikbaar Willebroek",
+    "bd_long": "We bouwen aan een leefbaar en bereikbaar Willebroek via investeringen in netheid, duurzaamheid, gezondheid en verkeersveilige, toekomstgerichte publieke ruimte.",
+    "ap_code": "AP000007",
+    "ap_short": "Infrastructuur en materiaal gemeentelijke werkplaats",
+    "ap_long": "We investeren in en onderhouden de infrastructuur en het materiaal van de gemeentelijke werkplaats.",
+    "ac_code": "AC000039",
+    "ac_short": "Infrastructuur en veilig  werken in de gemeentelijke werkplaats",
+    "ac_long": "We investeren om onze infrastructuur en materialen van de gemeentelijke werkplaats in goede staat te houden, zodat men veilig en optimaal kan werken.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 1450000.0,
-    "amount_per_capita": 50.21,
+    "total_amount": 2294000.0,
+    "amount_per_capita": 79.52,
     "yearly_amounts": {
-      "2026": 1450000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 564000.0,
+      "2027": 295000.0,
+      "2028": 550000.0,
+      "2029": 295000.0,
+      "2030": 295000.0,
+      "2031": 295000.0
     },
     "yearly_per_capita": {
-      "2026": 50.21,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 19.55,
+      "2027": 10.23,
+      "2028": 19.07,
+      "2029": 10.23,
+      "2030": 10.23,
+      "2031": 10.23
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
+    "bd_code": "BD000010",
+    "bd_short": "Warme, wendbare en duurzame organisatie",
+    "bd_long": "Willebroek ontwikkelt zich tot een warme, wendbare en duurzame organisatie met participatief beleid, verantwoord financieel beheer en een focus op welzijn en dienstverlening voor alle inwoners.",
+    "ap_code": "AP000045",
+    "ap_short": "Infrastructuur en materialen algemene organisatie",
+    "ap_long": "We zorgen voor een kwalitatieve en aangepaste infrastructuur om onze dienstverlening optimaal te kunnen verwezenlijken.",
+    "ac_code": "AC000215",
+    "ac_short": "Infrastructuur en materiaal algemeen",
+    "ac_long": "We investeren in en onderhouden onze huidige infrastructuur en materialen.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 1581000.0,
+    "amount_per_capita": 54.8,
+    "yearly_amounts": {
+      "2026": 1206000.0,
+      "2027": 115000.0,
+      "2028": 65000.0,
+      "2029": 65000.0,
+      "2030": 65000.0,
+      "2031": 65000.0
+    },
+    "yearly_per_capita": {
+      "2026": 41.8,
+      "2027": 3.99,
+      "2028": 2.25,
+      "2029": 2.25,
+      "2030": 2.25,
+      "2031": 2.25
     }
   },
   {
@@ -320,10 +252,10 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 1450000.0,
-    "amount_per_capita": 50.21,
+    "total_amount": 1459656.0,
+    "amount_per_capita": 50.6,
     "yearly_amounts": {
-      "2026": 440000.0,
+      "2026": 449656.0,
       "2027": 210000.0,
       "2028": 200000.0,
       "2029": 200000.0,
@@ -331,8 +263,8 @@
       "2031": 200000.0
     },
     "yearly_per_capita": {
-      "2026": 15.24,
-      "2027": 7.27,
+      "2026": 15.59,
+      "2027": 7.28,
       "2028": 6.93,
       "2029": 6.93,
       "2030": 6.93,
@@ -354,10 +286,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1425000.0,
-    "amount_per_capita": 49.35,
+    "total_amount": 1455250.0,
+    "amount_per_capita": 50.44,
     "yearly_amounts": {
-      "2026": 100000.0,
+      "2026": 130250.0,
       "2027": 525000.0,
       "2028": 525000.0,
       "2029": 125000.0,
@@ -365,12 +297,46 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 3.46,
-      "2027": 18.18,
-      "2028": 18.18,
+      "2026": 4.51,
+      "2027": 18.2,
+      "2028": 18.2,
       "2029": 4.33,
       "2030": 4.33,
       "2031": 0.87
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
+    "bd_code": "BD000005",
+    "bd_short": "Vrijetijdsaanbod",
+    "bd_long": "We organiseren samen met en ondersteunen verenigingen in een inclusief en toegankelijk vrijetijdsaanbod dat alle inwoners kansen biedt om te ontspannen, te ontwikkelen en te verbinden.",
+    "ap_code": "AP000014",
+    "ap_short": "Grote projecten vrije tijd",
+    "ap_long": "We investeren via grote projecten in de infrastructuur voor vrijetijdsbeleving en recreatie.",
+    "ac_code": "AC000075",
+    "ac_short": "Kunstgrasterreinen",
+    "ac_long": "We ondersteunen onze voetbalclubs in de aanleg van kunstgrasterreinen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1450000.0,
+    "amount_per_capita": 50.26,
+    "yearly_amounts": {
+      "2026": 1450000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 50.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -386,10 +352,10 @@
     "ac_short": "Verkeersveiligheid en mobiliteit",
     "ac_long": "We verhogen en verbeteren de verkeersveiligheid en mobiliteit.",
     "categories": [
-      "06-wonen-ruimte"
+      "02-mobiliteit"
     ],
     "total_amount": 1228795.0,
-    "amount_per_capita": 42.55,
+    "amount_per_capita": 42.59,
     "yearly_amounts": {
       "2026": 444340.0,
       "2027": 444402.0,
@@ -399,12 +365,12 @@
       "2031": 246158.0
     },
     "yearly_per_capita": {
-      "2026": 15.39,
-      "2027": 15.39,
-      "2028": 1.12,
+      "2026": 15.4,
+      "2027": 15.4,
+      "2028": 1.13,
       "2029": 1.07,
       "2030": 1.05,
-      "2031": 8.52
+      "2031": 8.53
     }
   },
   {
@@ -422,10 +388,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 800000.0,
-    "amount_per_capita": 27.7,
+    "total_amount": 1100000.0,
+    "amount_per_capita": 38.13,
     "yearly_amounts": {
-      "2026": 406500.0,
+      "2026": 706500.0,
       "2027": 390500.0,
       "2028": 0,
       "2029": 3000.0,
@@ -433,8 +399,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 14.08,
-      "2027": 13.52,
+      "2026": 24.49,
+      "2027": 13.54,
       "2028": 0,
       "2029": 0.1,
       "2030": 0,
@@ -457,7 +423,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 760000.0,
-    "amount_per_capita": 26.32,
+    "amount_per_capita": 26.34,
     "yearly_amounts": {
       "2026": 260000.0,
       "2027": 100000.0,
@@ -467,12 +433,46 @@
       "2031": 100000.0
     },
     "yearly_per_capita": {
-      "2026": 9.0,
-      "2027": 3.46,
-      "2028": 3.46,
-      "2029": 3.46,
-      "2030": 3.46,
-      "2031": 3.46
+      "2026": 9.01,
+      "2027": 3.47,
+      "2028": 3.47,
+      "2029": 3.47,
+      "2030": 3.47,
+      "2031": 3.47
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
+    "bd_code": "BD000010",
+    "bd_short": "Warme, wendbare en duurzame organisatie",
+    "bd_long": "Willebroek ontwikkelt zich tot een warme, wendbare en duurzame organisatie met participatief beleid, verantwoord financieel beheer en een focus op welzijn en dienstverlening voor alle inwoners.",
+    "ap_code": "AP000044",
+    "ap_short": "Informatica",
+    "ap_long": "We zorgen voor een kwalitatieve en aangepaste technologische infrastructuur?om onze dienstverlening optimaal te kunnen verwezenlijken en garanderen een toekomstbestendige ICT-ondersteuning binnen de organisatie.",
+    "ac_code": "AC000207",
+    "ac_short": "Onderhoud hard- en software",
+    "ac_long": "We investeren en onderhouden hard- en software ter ondersteuning van de organisatiewerking.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 707885.0,
+    "amount_per_capita": 24.54,
+    "yearly_amounts": {
+      "2026": 282885.0,
+      "2027": 85000.0,
+      "2028": 85000.0,
+      "2029": 85000.0,
+      "2030": 85000.0,
+      "2031": 85000.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.81,
+      "2027": 2.95,
+      "2028": 2.95,
+      "2029": 2.95,
+      "2030": 2.95,
+      "2031": 2.95
     }
   },
   {
@@ -491,7 +491,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 690000.0,
-    "amount_per_capita": 23.89,
+    "amount_per_capita": 23.92,
     "yearly_amounts": {
       "2026": 115000.0,
       "2027": 115000.0,
@@ -501,114 +501,12 @@
       "2031": 115000.0
     },
     "yearly_per_capita": {
-      "2026": 3.98,
-      "2027": 3.98,
-      "2028": 3.98,
-      "2029": 3.98,
-      "2030": 3.98,
-      "2031": 3.98
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000010",
-    "bd_short": "Warme, wendbare en duurzame organisatie",
-    "bd_long": "Willebroek ontwikkelt zich tot een warme, wendbare en duurzame organisatie met participatief beleid, verantwoord financieel beheer en een focus op welzijn en dienstverlening voor alle inwoners.",
-    "ap_code": "AP000045",
-    "ap_short": "Infrastructuur en materialen algemene organisatie",
-    "ap_long": "We zorgen voor een kwalitatieve en aangepaste infrastructuur om onze dienstverlening optimaal te kunnen verwezenlijken.",
-    "ac_code": "AC000215",
-    "ac_short": "Infrastructuur en materiaal algemeen",
-    "ac_long": "We investeren in en onderhouden onze huidige infrastructuur en materialen.",
-    "categories": [
-      "00-algemene-financiering"
-    ],
-    "total_amount": 631000.0,
-    "amount_per_capita": 21.85,
-    "yearly_amounts": {
-      "2026": 256000.0,
-      "2027": 115000.0,
-      "2028": 65000.0,
-      "2029": 65000.0,
-      "2030": 65000.0,
-      "2031": 65000.0
-    },
-    "yearly_per_capita": {
-      "2026": 8.87,
-      "2027": 3.98,
-      "2028": 2.25,
-      "2029": 2.25,
-      "2030": 2.25,
-      "2031": 2.25
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000010",
-    "bd_short": "Warme, wendbare en duurzame organisatie",
-    "bd_long": "Willebroek ontwikkelt zich tot een warme, wendbare en duurzame organisatie met participatief beleid, verantwoord financieel beheer en een focus op welzijn en dienstverlening voor alle inwoners.",
-    "ap_code": "AP000044",
-    "ap_short": "Informatica",
-    "ap_long": "We zorgen voor een kwalitatieve en aangepaste technologische infrastructuur?om onze dienstverlening optimaal te kunnen verwezenlijken en garanderen een toekomstbestendige ICT-ondersteuning binnen de organisatie.",
-    "ac_code": "AC000207",
-    "ac_short": "Onderhoud hard- en software",
-    "ac_long": "We investeren en onderhouden hard- en software ter ondersteuning van de organisatiewerking.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 550000.0,
-    "amount_per_capita": 19.05,
-    "yearly_amounts": {
-      "2026": 115000.0,
-      "2027": 87000.0,
-      "2028": 87000.0,
-      "2029": 87000.0,
-      "2030": 87000.0,
-      "2031": 87000.0
-    },
-    "yearly_per_capita": {
-      "2026": 3.98,
-      "2027": 3.01,
-      "2028": 3.01,
-      "2029": 3.01,
-      "2030": 3.01,
-      "2031": 3.01
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000006",
-    "bd_short": "Inclusief aanbod met aandacht voor kwetsbare doelgroepen",
-    "bd_long": "We bouwen een inclusief aanbod uit dat inspeelt op de noden van alle Willebroekenaars, met bijzondere aandacht voor kwetsbare doelgroepen.",
-    "ap_code": "AP000022",
-    "ap_short": "Huis van het kind",
-    "ap_long": "Het Huis van het Kind biedt gezinsondersteuning aan om de ontwikkelingskansen van kinderen tijdens het opgroeien te verhogen.",
-    "ac_code": "AC000105",
-    "ac_short": "BOA-decreet",
-    "ac_long": "We regisseren het aanbod aan opvang en activiteiten voor kinderen uit het basisonderwijs (2,5 tot 12 jaar) binnen het BOA- decreet, met aandacht voor kwetsbare groepen.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 474700.0,
-    "amount_per_capita": 16.44,
-    "yearly_amounts": {
-      "2026": 204200.0,
-      "2027": 54100.0,
-      "2028": 54100.0,
-      "2029": 54100.0,
-      "2030": 54100.0,
-      "2031": 54100.0
-    },
-    "yearly_per_capita": {
-      "2026": 7.07,
-      "2027": 1.87,
-      "2028": 1.87,
-      "2029": 1.87,
-      "2030": 1.87,
-      "2031": 1.87
+      "2026": 3.99,
+      "2027": 3.99,
+      "2028": 3.99,
+      "2029": 3.99,
+      "2030": 3.99,
+      "2031": 3.99
     }
   },
   {
@@ -626,10 +524,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 427500.0,
-    "amount_per_capita": 14.8,
+    "total_amount": 672500.0,
+    "amount_per_capita": 23.31,
     "yearly_amounts": {
-      "2026": 205500.0,
+      "2026": 450500.0,
       "2027": 110000.0,
       "2028": 110000.0,
       "2029": 0,
@@ -637,12 +535,46 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.12,
+      "2026": 15.62,
       "2027": 3.81,
       "2028": 3.81,
       "2029": 0,
       "2030": 0.07,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
+    "bd_code": "BD000006",
+    "bd_short": "Inclusief aanbod met aandacht voor kwetsbare doelgroepen",
+    "bd_long": "We bouwen een inclusief aanbod uit dat inspeelt op de noden van alle Willebroekenaars, met bijzondere aandacht voor kwetsbare doelgroepen.",
+    "ap_code": "AP000022",
+    "ap_short": "Huis van het Kind",
+    "ap_long": "Het Huis van het Kind biedt gezinsondersteuning aan om de ontwikkelingskansen van kinderen tijdens het opgroeien te verhogen.",
+    "ac_code": "AC000105",
+    "ac_short": "BOA-decreet",
+    "ac_long": "We regisseren het aanbod aan opvang en activiteiten voor kinderen uit het basisonderwijs (2,5 tot 12 jaar) binnen het BOA- decreet, met aandacht voor kwetsbare groepen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 474700.0,
+    "amount_per_capita": 16.45,
+    "yearly_amounts": {
+      "2026": 204200.0,
+      "2027": 54100.0,
+      "2028": 54100.0,
+      "2029": 54100.0,
+      "2030": 54100.0,
+      "2031": 54100.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.08,
+      "2027": 1.88,
+      "2028": 1.88,
+      "2029": 1.88,
+      "2030": 1.88,
+      "2031": 1.88
     }
   },
   {
@@ -660,10 +592,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 423000.0,
-    "amount_per_capita": 14.65,
+    "total_amount": 440500.0,
+    "amount_per_capita": 15.27,
     "yearly_amounts": {
-      "2026": 103500.0,
+      "2026": 121000.0,
       "2027": 67250.0,
       "2028": 64500.0,
       "2029": 83000.0,
@@ -671,46 +603,12 @@
       "2031": 65250.0
     },
     "yearly_per_capita": {
-      "2026": 3.58,
+      "2026": 4.19,
       "2027": 2.33,
-      "2028": 2.23,
-      "2029": 2.87,
+      "2028": 2.24,
+      "2029": 2.88,
       "2030": 1.37,
       "2031": 2.26
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000007",
-    "bd_short": "Toegankelijke, nabije en betaalbare zorg",
-    "bd_long": "We creëren toegankelijke, nabije en betaalbare zorg via een geïntegreerde aanpak, waarbij hulpverlening afgestemd is op de noden van de burger en altijd binnen handbereik is.",
-    "ap_code": "AP000024",
-    "ap_short": "Collectieve residentiële opvang ouderen",
-    "ap_long": "We organiseren betaalbare en toegankelijke collectieve residentiële opvang en zorg voor ouderen om ze van een mooie en onbezorgde oude dag te laten genieten.",
-    "ac_code": "AC000113",
-    "ac_short": "WZC en KV : voeding",
-    "ac_long": "We bieden gezonde en gevarieerde voeding aan in het woonzorgcentrum en centrum voor kortverblijf.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 374000.0,
-    "amount_per_capita": 12.95,
-    "yearly_amounts": {
-      "2026": 55500.0,
-      "2027": 98500.0,
-      "2028": 58500.0,
-      "2029": 49500.0,
-      "2030": 82000.0,
-      "2031": 30000.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.92,
-      "2027": 3.41,
-      "2028": 2.03,
-      "2029": 1.71,
-      "2030": 2.84,
-      "2031": 1.04
     }
   },
   {
@@ -728,10 +626,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 347500.0,
-    "amount_per_capita": 12.03,
+    "total_amount": 412000.0,
+    "amount_per_capita": 14.28,
     "yearly_amounts": {
-      "2026": 97500.0,
+      "2026": 162000.0,
       "2027": 50000.0,
       "2028": 50000.0,
       "2029": 50000.0,
@@ -739,7 +637,7 @@
       "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 3.38,
+      "2026": 5.62,
       "2027": 1.73,
       "2028": 1.73,
       "2029": 1.73,
@@ -750,11 +648,45 @@
   {
     "municipality": "Willebroek",
     "nis_code": "12040",
+    "bd_code": "BD000007",
+    "bd_short": "Toegankelijke, nabije en betaalbare zorg",
+    "bd_long": "We creëren toegankelijke, nabije en betaalbare zorg via een geïntegreerde aanpak, waarbij hulpverlening afgestemd is op de noden van de burger en altijd binnen handbereik is.",
+    "ap_code": "AP000024",
+    "ap_short": "Collectieve residentiële opvang ouderen",
+    "ap_long": "We organiseren betaalbare en toegankelijke collectieve residentiële opvang en zorg voor ouderen om ze van een mooie en onbezorgde oude dag te laten genieten.",
+    "ac_code": "AC000113",
+    "ac_short": "WZC en KV : voeding",
+    "ac_long": "We bieden gezonde en gevarieerde voeding aan in het woonzorgcentrum en centrum voor kortverblijf.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 394200.0,
+    "amount_per_capita": 13.66,
+    "yearly_amounts": {
+      "2026": 75700.0,
+      "2027": 98500.0,
+      "2028": 58500.0,
+      "2029": 49500.0,
+      "2030": 82000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.62,
+      "2027": 3.41,
+      "2028": 2.03,
+      "2029": 1.72,
+      "2030": 2.84,
+      "2031": 1.04
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
     "bd_code": "BD000006",
     "bd_short": "Inclusief aanbod met aandacht voor kwetsbare doelgroepen",
     "bd_long": "We bouwen een inclusief aanbod uit dat inspeelt op de noden van alle Willebroekenaars, met bijzondere aandacht voor kwetsbare doelgroepen.",
     "ap_code": "AP000022",
-    "ap_short": "Huis van het kind",
+    "ap_short": "Huis van het Kind",
     "ap_long": "Het Huis van het Kind biedt gezinsondersteuning aan om de ontwikkelingskansen van kinderen tijdens het opgroeien te verhogen.",
     "ac_code": "AC000103",
     "ac_short": "Regierol gezinsbeleid",
@@ -763,7 +695,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 346667.0,
-    "amount_per_capita": 12.01,
+    "amount_per_capita": 12.02,
     "yearly_amounts": {
       "2026": 346667.0,
       "2027": 0,
@@ -773,46 +705,12 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 12.01,
+      "2026": 12.02,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000001",
-    "bd_short": "Leefbaar en bereikbaar Willebroek",
-    "bd_long": "We bouwen aan een leefbaar en bereikbaar Willebroek via investeringen in netheid, duurzaamheid, gezondheid en verkeersveilige, toekomstgerichte publieke ruimte.",
-    "ap_code": "AP000002",
-    "ap_short": "Openbaar domein en groenvoorzieningen",
-    "ap_long": "We richten het openbaar domein in en onderhouden infrastructuur en groenvoorzieningen op een duurzame en gestructureerde wijze.",
-    "ac_code": "AC000009",
-    "ac_short": "Onderhoud groenvoorzieningen",
-    "ac_long": "We realiseren een goed onderhouden en proper Willebroek via een efficiënt beheer en seizoensgebonden onderhoud van groenvoorzieningen op het openbaar domein.",
-    "categories": [
-      "05-ondernemen-werken"
-    ],
-    "total_amount": 341000.0,
-    "amount_per_capita": 11.81,
-    "yearly_amounts": {
-      "2026": 98500.0,
-      "2027": 48500.0,
-      "2028": 48500.0,
-      "2029": 48500.0,
-      "2030": 48500.0,
-      "2031": 48500.0
-    },
-    "yearly_per_capita": {
-      "2026": 3.41,
-      "2027": 1.68,
-      "2028": 1.68,
-      "2029": 1.68,
-      "2030": 1.68,
-      "2031": 1.68
     }
   },
   {
@@ -831,7 +729,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 321477.0,
-    "amount_per_capita": 11.13,
+    "amount_per_capita": 11.14,
     "yearly_amounts": {
       "2026": 55000.0,
       "2027": 55750.0,
@@ -841,12 +739,46 @@
       "2031": 53864.0
     },
     "yearly_per_capita": {
-      "2026": 1.9,
+      "2026": 1.91,
       "2027": 1.93,
-      "2028": 1.78,
+      "2028": 1.79,
       "2029": 1.81,
       "2030": 1.84,
       "2031": 1.87
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
+    "bd_code": "BD000001",
+    "bd_short": "Leefbaar en bereikbaar Willebroek",
+    "bd_long": "We bouwen aan een leefbaar en bereikbaar Willebroek via investeringen in netheid, duurzaamheid, gezondheid en verkeersveilige, toekomstgerichte publieke ruimte.",
+    "ap_code": "AP000002",
+    "ap_short": "Openbaar domein en groenvoorzieningen",
+    "ap_long": "We richten het openbaar domein in en onderhouden infrastructuur en groenvoorzieningen op een duurzame en gestructureerde wijze.",
+    "ac_code": "AC000009",
+    "ac_short": "Onderhoud groenvoorzieningen",
+    "ac_long": "We realiseren een goed onderhouden en proper Willebroek via een efficiënt beheer en seizoensgebonden onderhoud van groenvoorzieningen op het openbaar domein.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 301000.0,
+    "amount_per_capita": 10.43,
+    "yearly_amounts": {
+      "2026": 58500.0,
+      "2027": 48500.0,
+      "2028": 48500.0,
+      "2029": 48500.0,
+      "2030": 48500.0,
+      "2031": 48500.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.03,
+      "2027": 1.68,
+      "2028": 1.68,
+      "2029": 1.68,
+      "2030": 1.68,
+      "2031": 1.68
     }
   },
   {
@@ -865,7 +797,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 297164.0,
-    "amount_per_capita": 10.29,
+    "amount_per_capita": 10.3,
     "yearly_amounts": {
       "2026": 133694.0,
       "2027": 32694.0,
@@ -899,7 +831,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 275000.0,
-    "amount_per_capita": 9.52,
+    "amount_per_capita": 9.53,
     "yearly_amounts": {
       "2026": 75000.0,
       "2027": 40000.0,
@@ -920,6 +852,40 @@
   {
     "municipality": "Willebroek",
     "nis_code": "12040",
+    "bd_code": "BD000007",
+    "bd_short": "Toegankelijke, nabije en betaalbare zorg",
+    "bd_long": "We creëren toegankelijke, nabije en betaalbare zorg via een geïntegreerde aanpak, waarbij hulpverlening afgestemd is op de noden van de burger en altijd binnen handbereik is.",
+    "ap_code": "AP000025",
+    "ap_short": "Collectieve dagopvang",
+    "ap_long": "We organiseren betaalbare, toegankelijke, collectieve dagopvang om inwoners zo lang mogelijk in hun vertrouwde thuisomgeving te laten wonen.",
+    "ac_code": "AC000119",
+    "ac_short": "CVD : voeding",
+    "ac_long": "We bieden van een gezonde en gevarieerde voeding aan aan gebruikers van het centrum voor dagverzorging.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 267600.0,
+    "amount_per_capita": 9.28,
+    "yearly_amounts": {
+      "2026": 77700.0,
+      "2027": 10800.0,
+      "2028": 171000.0,
+      "2029": 8100.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.69,
+      "2027": 0.37,
+      "2028": 5.93,
+      "2029": 0.28,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
     "bd_code": "BD000001",
     "bd_short": "Leefbaar en bereikbaar Willebroek",
     "bd_long": "We bouwen aan een leefbaar en bereikbaar Willebroek via investeringen in netheid, duurzaamheid, gezondheid en verkeersveilige, toekomstgerichte publieke ruimte.",
@@ -933,7 +899,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 258856.0,
-    "amount_per_capita": 8.96,
+    "amount_per_capita": 8.97,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 208856.0,
@@ -944,7 +910,7 @@
     },
     "yearly_per_capita": {
       "2026": 1.73,
-      "2027": 7.23,
+      "2027": 7.24,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -978,9 +944,9 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 3.46,
+      "2027": 3.47,
       "2028": 1.82,
-      "2029": 2.42,
+      "2029": 2.43,
       "2030": 0,
       "2031": 0
     }
@@ -988,35 +954,103 @@
   {
     "municipality": "Willebroek",
     "nis_code": "12040",
-    "bd_code": "BD000007",
-    "bd_short": "Toegankelijke, nabije en betaalbare zorg",
-    "bd_long": "We creëren toegankelijke, nabije en betaalbare zorg via een geïntegreerde aanpak, waarbij hulpverlening afgestemd is op de noden van de burger en altijd binnen handbereik is.",
-    "ap_code": "AP000025",
-    "ap_short": "Collectieve dagopvang",
-    "ap_long": "We organiseren betaalbare, toegankelijke, collectieve dagopvang om inwoners zo lang mogelijk in hun vertrouwde thuisomgeving te laten wonen.",
-    "ac_code": "AC000119",
-    "ac_short": "CVD : voeding",
-    "ac_long": "We bieden van een gezonde en gevarieerde voeding aan aan gebruikers van het centrum voor dagverzorging.",
+    "bd_code": "BD000001",
+    "bd_short": "Leefbaar en bereikbaar Willebroek",
+    "bd_long": "We bouwen aan een leefbaar en bereikbaar Willebroek via investeringen in netheid, duurzaamheid, gezondheid en verkeersveilige, toekomstgerichte publieke ruimte.",
+    "ap_code": "AP000001",
+    "ap_short": "Ruimtelijke ordening",
+    "ap_long": "We realiseren een doordachte, kwalitatieve ruimtelijke ordening volgens het ruimtelijk beleidsplan met aandacht voor leefbare woonkernen en publieke ruimte.",
+    "ac_code": "AC000004",
+    "ac_short": "Blaasveld - centrum",
+    "ac_long": "We voeren het project Blaasveld-centrum uit en coördineren de vooruitgang.",
     "categories": [
-      "09-zorg-opvang"
+      "02-mobiliteit"
     ],
-    "total_amount": 189900.0,
-    "amount_per_capita": 6.58,
+    "total_amount": 210000.0,
+    "amount_per_capita": 7.28,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 10800.0,
-      "2028": 171000.0,
-      "2029": 8100.0,
+      "2026": 210000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0.37,
-      "2028": 5.92,
-      "2029": 0.28,
+      "2026": 7.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
+    "bd_code": "BD000005",
+    "bd_short": "Vrijetijdsaanbod",
+    "bd_long": "We organiseren samen met en ondersteunen verenigingen in een inclusief en toegankelijk vrijetijdsaanbod dat alle inwoners kansen biedt om te ontspannen, te ontwikkelen en te verbinden.",
+    "ap_code": "AP000015",
+    "ap_short": "Infrastructuur en materialen vrije tijd",
+    "ap_long": "We investeren in en onderhouden onze huidige infrastructuur en materialen voor vrijetijdsbeleving en recreatie.",
+    "ac_code": "AC000076",
+    "ac_short": "Sportinfrastructuur - en materialen",
+    "ac_long": "We investeren in en onderhouden onze sportinfrastructuur en -materialen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 205500.0,
+    "amount_per_capita": 7.12,
+    "yearly_amounts": {
+      "2026": 205500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
+    "bd_code": "BD000006",
+    "bd_short": "Inclusief aanbod met aandacht voor kwetsbare doelgroepen",
+    "bd_long": "We bouwen een inclusief aanbod uit dat inspeelt op de noden van alle Willebroekenaars, met bijzondere aandacht voor kwetsbare doelgroepen.",
+    "ap_code": "AP000023",
+    "ap_short": "Toegankelijke activiteiten voor ouderen",
+    "ap_long": "We betrekken ouderen bij de samenleving door toegankelijke activiteiten en projecten op te zetten die inspelen op hun noden en talenten.",
+    "ac_code": "AC000110",
+    "ac_short": "Infrastructuur en veilig  werken in het lokaal dienstencentrum",
+    "ac_long": "We investeren om onze infrastructuur en materialen van het lokaal dienstencentrum in goede staat te houden, zodat men veilig en optimaal kan werken.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 163760.0,
+    "amount_per_capita": 5.68,
+    "yearly_amounts": {
+      "2026": 137760.0,
+      "2027": 5000.0,
+      "2028": 8000.0,
+      "2029": 5000.0,
+      "2030": 3000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.78,
+      "2027": 0.17,
+      "2028": 0.28,
+      "2029": 0.17,
+      "2030": 0.1,
+      "2031": 0.17
     }
   },
   {
@@ -1034,10 +1068,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 180000.0,
-    "amount_per_capita": 6.23,
+    "total_amount": 150000.0,
+    "amount_per_capita": 5.2,
     "yearly_amounts": {
-      "2026": 180000.0,
+      "2026": 150000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1045,11 +1079,45 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.23,
+      "2026": 5.2,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
+    "bd_code": "BD000001",
+    "bd_short": "Leefbaar en bereikbaar Willebroek",
+    "bd_long": "We bouwen aan een leefbaar en bereikbaar Willebroek via investeringen in netheid, duurzaamheid, gezondheid en verkeersveilige, toekomstgerichte publieke ruimte.",
+    "ap_code": "AP000005",
+    "ap_short": "Integrale ketenaanpak dak-en thuisloosheid",
+    "ap_long": "We streven ernaar dat niemand op straat hoeft te slapen door een regionale, integrale ketenaanpak van dak- en thuisloosheid.",
+    "ac_code": "AC000031",
+    "ac_short": "Nood- en crisiswoningen -crisisopvang",
+    "ac_long": "We richten nood - en crisiswoningen in en voorzien in crisisopvang.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 130000.0,
+    "amount_per_capita": 4.51,
+    "yearly_amounts": {
+      "2026": 82000.0,
+      "2027": 14500.0,
+      "2028": 17500.0,
+      "2029": 6000.0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.84,
+      "2027": 0.5,
+      "2028": 0.61,
+      "2029": 0.21,
+      "2030": 0.35,
       "2031": 0
     }
   },
@@ -1069,7 +1137,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 126000.0,
-    "amount_per_capita": 4.36,
+    "amount_per_capita": 4.37,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1081,7 +1149,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 4.36,
+      "2028": 4.37,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1097,13 +1165,13 @@
     "ap_short": "Individuele hulpverlening",
     "ap_long": "We organiseren individuele hulpverlening voor elke Willebroekenaar met een hulpvraag.",
     "ac_code": "AC000150",
-    "ac_short": "lokaal opvanginitiatief",
+    "ac_short": "Lokaal opvanginitiatief",
     "ac_long": "We zorgen voor opvang en een warm onthaal van asielzoekers volgens de geldende wetgeving.",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 122000.0,
-    "amount_per_capita": 4.22,
+    "amount_per_capita": 4.23,
     "yearly_amounts": {
       "2026": 110000.0,
       "2027": 12000.0,
@@ -1158,74 +1226,6 @@
   {
     "municipality": "Willebroek",
     "nis_code": "12040",
-    "bd_code": "BD000006",
-    "bd_short": "Inclusief aanbod met aandacht voor kwetsbare doelgroepen",
-    "bd_long": "We bouwen een inclusief aanbod uit dat inspeelt op de noden van alle Willebroekenaars, met bijzondere aandacht voor kwetsbare doelgroepen.",
-    "ap_code": "AP000023",
-    "ap_short": "Toegankelijke activiteiten voor ouderen",
-    "ap_long": "We betrekken ouderen bij de samenleving door toegankelijke activiteiten en projecten op te zetten die inspelen op hun noden en talenten.",
-    "ac_code": "AC000110",
-    "ac_short": "Infrastructuur en veilig  werken in het lokaal dienstencentrum",
-    "ac_long": "We investeren om onze infrastructuur en materialen van het lokaal dienstencentrum in goede staat te houden, zodat men veilig en optimaal kan werken.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 100000.0,
-    "amount_per_capita": 3.46,
-    "yearly_amounts": {
-      "2026": 74000.0,
-      "2027": 5000.0,
-      "2028": 8000.0,
-      "2029": 5000.0,
-      "2030": 3000.0,
-      "2031": 5000.0
-    },
-    "yearly_per_capita": {
-      "2026": 2.56,
-      "2027": 0.17,
-      "2028": 0.28,
-      "2029": 0.17,
-      "2030": 0.1,
-      "2031": 0.17
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000001",
-    "bd_short": "Leefbaar en bereikbaar Willebroek",
-    "bd_long": "We bouwen aan een leefbaar en bereikbaar Willebroek via investeringen in netheid, duurzaamheid, gezondheid en verkeersveilige, toekomstgerichte publieke ruimte.",
-    "ap_code": "AP000005",
-    "ap_short": "Integrale ketenaanpak dak-en thuisloosheid",
-    "ap_long": "We streven ernaar dat niemand op straat hoeft te slapen door een regionale, integrale ketenaanpak van dak- en thuisloosheid.",
-    "ac_code": "AC000031",
-    "ac_short": "Nood- en crisiswoningen -crisisopvang",
-    "ac_long": "We richten nood - en crisiswoningen in en voorzien in crisisopvang.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 90000.0,
-    "amount_per_capita": 3.12,
-    "yearly_amounts": {
-      "2026": 42000.0,
-      "2027": 14500.0,
-      "2028": 17500.0,
-      "2029": 6000.0,
-      "2030": 10000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.45,
-      "2027": 0.5,
-      "2028": 0.61,
-      "2029": 0.21,
-      "2030": 0.35,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
     "bd_code": "BD000007",
     "bd_short": "Toegankelijke, nabije en betaalbare zorg",
     "bd_long": "We creëren toegankelijke, nabije en betaalbare zorg via een geïntegreerde aanpak, waarbij hulpverlening afgestemd is op de noden van de burger en altijd binnen handbereik is.",
@@ -1255,40 +1255,6 @@
       "2029": 0.08,
       "2030": 0,
       "2031": 0.21
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000010",
-    "bd_short": "Warme, wendbare en duurzame organisatie",
-    "bd_long": "Willebroek ontwikkelt zich tot een warme, wendbare en duurzame organisatie met participatief beleid, verantwoord financieel beheer en een focus op welzijn en dienstverlening voor alle inwoners.",
-    "ap_code": "AP000044",
-    "ap_short": "Informatica",
-    "ap_long": "We zorgen voor een kwalitatieve en aangepaste technologische infrastructuur?om onze dienstverlening optimaal te kunnen verwezenlijken en garanderen een toekomstbestendige ICT-ondersteuning binnen de organisatie.",
-    "ac_code": "AC000209",
-    "ac_short": "Telecom - en netwerkbeheer",
-    "ac_long": "We voorzien een overkoepelend telecom- en netwerkbeheer ter ondersteuning van de kwalitatieve algemene werking.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 80000.0,
-    "amount_per_capita": 2.77,
-    "yearly_amounts": {
-      "2026": 30000.0,
-      "2027": 10000.0,
-      "2028": 10000.0,
-      "2029": 10000.0,
-      "2030": 10000.0,
-      "2031": 10000.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.04,
-      "2027": 0.35,
-      "2028": 0.35,
-      "2029": 0.35,
-      "2030": 0.35,
-      "2031": 0.35
     }
   },
   {
@@ -1362,6 +1328,40 @@
   {
     "municipality": "Willebroek",
     "nis_code": "12040",
+    "bd_code": "BD000010",
+    "bd_short": "Warme, wendbare en duurzame organisatie",
+    "bd_long": "Willebroek ontwikkelt zich tot een warme, wendbare en duurzame organisatie met participatief beleid, verantwoord financieel beheer en een focus op welzijn en dienstverlening voor alle inwoners.",
+    "ap_code": "AP000044",
+    "ap_short": "Informatica",
+    "ap_long": "We zorgen voor een kwalitatieve en aangepaste technologische infrastructuur?om onze dienstverlening optimaal te kunnen verwezenlijken en garanderen een toekomstbestendige ICT-ondersteuning binnen de organisatie.",
+    "ac_code": "AC000209",
+    "ac_short": "Telecom - en netwerkbeheer",
+    "ac_long": "We voorzien een overkoepelend telecom- en netwerkbeheer ter ondersteuning van de kwalitatieve algemene werking.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 2.08,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.35,
+      "2027": 0.35,
+      "2028": 0.35,
+      "2029": 0.35,
+      "2030": 0.35,
+      "2031": 0.35
+    }
+  },
+  {
+    "municipality": "Willebroek",
+    "nis_code": "12040",
     "bd_code": "BD000001",
     "bd_short": "Leefbaar en bereikbaar Willebroek",
     "bd_long": "We bouwen aan een leefbaar en bereikbaar Willebroek via investeringen in netheid, duurzaamheid, gezondheid en verkeersveilige, toekomstgerichte publieke ruimte.",
@@ -1399,74 +1399,6 @@
     "bd_code": "BD000007",
     "bd_short": "Toegankelijke, nabije en betaalbare zorg",
     "bd_long": "We creëren toegankelijke, nabije en betaalbare zorg via een geïntegreerde aanpak, waarbij hulpverlening afgestemd is op de noden van de burger en altijd binnen handbereik is.",
-    "ap_code": "AP000026",
-    "ap_short": "Infrastructuur en materialen collectieve zorg",
-    "ap_long": "We investeren in en onderhouden de infrastructuur en materialen van de collectieve zorg.",
-    "ac_code": "AC000124",
-    "ac_short": "Infrastructuur en veilig  werken in het kinderdagverblijf en de BKO",
-    "ac_long": "We investeren om onze infrastructuur en materialen voor kinderdagverblijf en buitenschoolse kinderopvang in goede staat te houden, zodat men veilig en optimaal kan werken.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 40000.0,
-    "amount_per_capita": 1.39,
-    "yearly_amounts": {
-      "2026": 40000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.39,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000005",
-    "bd_short": "Vrijetijdsaanbod",
-    "bd_long": "We organiseren samen met en ondersteunen verenigingen in een inclusief en toegankelijk vrijetijdsaanbod dat alle inwoners kansen biedt om te ontspannen, te ontwikkelen en te verbinden.",
-    "ap_code": "AP000015",
-    "ap_short": "Infrastructuur en materialen vrije tijd",
-    "ap_long": "We investeren in en onderhouden onze huidige infrastructuur en materialen voor vrijetijdsbeleving en recreatie.",
-    "ac_code": "AC000076",
-    "ac_short": "Sportinfrastructuur - en materialen",
-    "ac_long": "We investeren in en onderhouden onze sportinfrastructuur en -materialen.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 35500.0,
-    "amount_per_capita": 1.23,
-    "yearly_amounts": {
-      "2026": 35500.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.23,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Willebroek",
-    "nis_code": "12040",
-    "bd_code": "BD000007",
-    "bd_short": "Toegankelijke, nabije en betaalbare zorg",
-    "bd_long": "We creëren toegankelijke, nabije en betaalbare zorg via een geïntegreerde aanpak, waarbij hulpverlening afgestemd is op de noden van de burger en altijd binnen handbereik is.",
     "ap_code": "AP000024",
     "ap_short": "Collectieve residentiële opvang ouderen",
     "ap_long": "We organiseren betaalbare en toegankelijke collectieve residentiële opvang en zorg voor ouderen om ze van een mooie en onbezorgde oude dag te laten genieten.",
@@ -1476,10 +1408,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 30600.0,
-    "amount_per_capita": 1.06,
+    "total_amount": 46660.0,
+    "amount_per_capita": 1.62,
     "yearly_amounts": {
-      "2026": 10200.0,
+      "2026": 26260.0,
       "2027": 0,
       "2028": 10200.0,
       "2029": 0,
@@ -1487,7 +1419,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.35,
+      "2026": 0.91,
       "2027": 0,
       "2028": 0.35,
       "2029": 0,
@@ -1535,14 +1467,14 @@
     "bd_code": "BD000007",
     "bd_short": "Toegankelijke, nabije en betaalbare zorg",
     "bd_long": "We creëren toegankelijke, nabije en betaalbare zorg via een geïntegreerde aanpak, waarbij hulpverlening afgestemd is op de noden van de burger en altijd binnen handbereik is.",
-    "ap_code": "AP000025",
-    "ap_short": "Collectieve dagopvang",
-    "ap_long": "We organiseren betaalbare, toegankelijke, collectieve dagopvang om inwoners zo lang mogelijk in hun vertrouwde thuisomgeving te laten wonen.",
-    "ac_code": "AC000120",
-    "ac_short": "CVD : aanvullende dienstverlening",
-    "ac_long": "We voorzien een aanvullende dienstverlening voor de gebruikers van het centrum voor dagverzorging.",
+    "ap_code": "AP000024",
+    "ap_short": "Collectieve residentiële opvang ouderen",
+    "ap_long": "We organiseren betaalbare en toegankelijke collectieve residentiële opvang en zorg voor ouderen om ze van een mooie en onbezorgde oude dag te laten genieten.",
+    "ac_code": "AC000111",
+    "ac_short": "WZC en KV : thuisomgeving",
+    "ac_long": "We bieden een gezellige, veilige en nette thuisomgeving aan voor de bewoners van het woonzorgcentrum en centrum voor kortverblijf.",
     "categories": [
-      "09-zorg-opvang"
+      "07-cultuur-vrije-tijd"
     ],
     "total_amount": 15000.0,
     "amount_per_capita": 0.52,

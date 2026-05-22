@@ -2,35 +2,783 @@
   {
     "municipality": "Laarne",
     "nis_code": "42010",
-    "bd_code": "BDS",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "overigBeleid",
+    "ap_short": "overigBeleid",
+    "ap_long": "overigBeleid",
+    "ac_code": "overigBeleid_NIHIL",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 5729086.95,
+    "amount_per_capita": 454.98,
+    "yearly_amounts": {
+      "2026": 1408985.95,
+      "2027": 905726.0,
+      "2028": 754266.0,
+      "2029": 728762.0,
+      "2030": 954036.0,
+      "2031": 977311.0
+    },
+    "yearly_per_capita": {
+      "2026": 111.9,
+      "2027": 71.93,
+      "2028": 59.9,
+      "2029": 57.88,
+      "2030": 75.77,
+      "2031": 77.61
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 138",
+    "bd_short": "PEOPLE",
+    "bd_long": "Laarne, waar de koers gereden wordt dóór, vóór én mét mensen : iedereen mee in de kopgroep, niemand rode lantaarn",
+    "ap_code": "c",
+    "ap_short": "Onderwijs",
+    "ap_long": "Meester op/van de fiets : gebrevetteerd in een sterk lokaal onderwijsverhaal",
+    "ac_code": "c_34",
+    "ac_short": "Nieuwbouw",
+    "ac_long": "Realisatie van een nieuwbouw voor de gemeentelijke basisschool Kalken",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 5011932.44,
+    "amount_per_capita": 398.03,
+    "yearly_amounts": {
+      "2026": 5011932.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 398.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "e",
+    "ap_short": "Wegen",
+    "ap_long": "Veilig op weg met onze bidon : optimaliseren van de gemeentelijke zuiverings- en rioleringsgraad",
+    "ac_code": "e_40",
+    "ac_short": "Schriekstraat",
+    "ac_long": "De realisatie van het wegenis- en rioleringsproject Hussevelde-Schriekstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3700000.0,
+    "amount_per_capita": 293.84,
+    "yearly_amounts": {
+      "2026": 750000.0,
+      "2027": 1200000.0,
+      "2028": 1500000.0,
+      "2029": 250000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 59.56,
+      "2027": 95.3,
+      "2028": 119.12,
+      "2029": 19.85,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 138",
+    "bd_short": "PEOPLE",
+    "bd_long": "Laarne, waar de koers gereden wordt dóór, vóór én mét mensen : iedereen mee in de kopgroep, niemand rode lantaarn",
+    "ap_code": "b",
+    "ap_short": "Zorg",
+    "ap_long": "Van Kaspers loopfietsje tot de hoge bi van onze derde jeugd, iedereen - van jong tot oud - in het zadel met de nodige trapondersteuning",
+    "ac_code": "b_27",
+    "ac_short": "LDC",
+    "ac_long": "Realisatie van een nieuw lokaal dienstencentrum",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 2750000.0,
+    "amount_per_capita": 218.4,
+    "yearly_amounts": {
+      "2026": 2450000.0,
+      "2027": 300000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 194.57,
+      "2027": 23.82,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "e",
+    "ap_short": "Wegen",
+    "ap_long": "Veilig op weg met onze bidon : optimaliseren van de gemeentelijke zuiverings- en rioleringsgraad",
+    "ac_code": "e_41",
+    "ac_short": "Mellestraat",
+    "ac_long": "Opstart van het riolerings- en wegenisproject Mellestraat/Wachteke",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1350000.0,
+    "amount_per_capita": 107.21,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 500000.0,
+      "2028": 500000.0,
+      "2029": 300000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.97,
+      "2027": 39.71,
+      "2028": 39.71,
+      "2029": 23.82,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "e",
+    "ap_short": "Wegen",
+    "ap_long": "Veilig op weg met onze bidon : optimaliseren van de gemeentelijke zuiverings- en rioleringsgraad",
+    "ac_code": "e_45",
+    "ac_short": "Hoekstraat",
+    "ac_long": "Hydraulisch aansluiten Hoekstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1200000.0,
+    "amount_per_capita": 95.3,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 600000.0,
+      "2030": 600000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 47.65,
+      "2030": 47.65,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 138",
+    "bd_short": "PEOPLE",
+    "bd_long": "Laarne, waar de koers gereden wordt dóór, vóór én mét mensen : iedereen mee in de kopgroep, niemand rode lantaarn",
+    "ap_code": "b",
+    "ap_short": "Zorg",
+    "ap_long": "Van Kaspers loopfietsje tot de hoge bi van onze derde jeugd, iedereen - van jong tot oud - in het zadel met de nodige trapondersteuning",
+    "ac_code": "b_29",
+    "ac_short": "Ouderenbeleid",
+    "ac_long": "Inzetten op de vijf Vlaamse speerpunten m.b.t. het ouderenbeleid",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1027412.5,
+    "amount_per_capita": 81.59,
+    "yearly_amounts": {
+      "2026": 359716.5,
+      "2027": 169311.0,
+      "2028": 259490.0,
+      "2029": 121172.0,
+      "2030": 81824.0,
+      "2031": 35899.0
+    },
+    "yearly_per_capita": {
+      "2026": 28.57,
+      "2027": 13.45,
+      "2028": 20.61,
+      "2029": 9.62,
+      "2030": 6.5,
+      "2031": 2.85
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "e",
+    "ap_short": "Wegen",
+    "ap_long": "Veilig op weg met onze bidon : optimaliseren van de gemeentelijke zuiverings- en rioleringsgraad",
+    "ac_code": "e_42",
+    "ac_short": "Kasteeldreef",
+    "ac_long": "Restauratie van de monumentale Kasteeldreef te Laarne",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 750000.0,
+    "amount_per_capita": 59.56,
+    "yearly_amounts": {
+      "2026": 750000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 59.56,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 138",
+    "bd_short": "PEOPLE",
+    "bd_long": "Laarne, waar de koers gereden wordt dóór, vóór én mét mensen : iedereen mee in de kopgroep, niemand rode lantaarn",
+    "ap_code": "b",
+    "ap_short": "Zorg",
+    "ap_long": "Van Kaspers loopfietsje tot de hoge bi van onze derde jeugd, iedereen - van jong tot oud - in het zadel met de nodige trapondersteuning",
+    "ac_code": "b_22",
+    "ac_short": "BOOST",
+    "ac_long": "Gerichte inzet van BOOST-subsidies",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 731500.0,
+    "amount_per_capita": 58.09,
+    "yearly_amounts": {
+      "2026": 310000.0,
+      "2027": 285500.0,
+      "2028": 34000.0,
+      "2029": 34000.0,
+      "2030": 34000.0,
+      "2031": 34000.0
+    },
+    "yearly_per_capita": {
+      "2026": 24.62,
+      "2027": 22.67,
+      "2028": 2.7,
+      "2029": 2.7,
+      "2030": 2.7,
+      "2031": 2.7
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 140",
+    "bd_short": "PROSPERITY",
+    "bd_long": "Demarreren in duurzaam ondernemen, welvaart en wel-bevinden",
+    "ap_code": "h",
+    "ap_short": "verenigingen",
+    "ap_long": "Vrijwilligers en verenigingen als ploegleiders in het verbinden van onze lokale gemeenschap",
+    "ac_code": "h_72",
+    "ac_short": "Skala",
+    "ac_long": "De Skala als dé locatie voor een bruisend verenigingsleven",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 725000.0,
+    "amount_per_capita": 57.58,
+    "yearly_amounts": {
+      "2026": 35000.0,
+      "2027": 600000.0,
+      "2028": 80000.0,
+      "2029": 10000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.78,
+      "2027": 47.65,
+      "2028": 6.35,
+      "2029": 0.79,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "e",
+    "ap_short": "Wegen",
+    "ap_long": "Veilig op weg met onze bidon : optimaliseren van de gemeentelijke zuiverings- en rioleringsgraad",
+    "ac_code": "e_43",
+    "ac_short": "Kouterstraat",
+    "ac_long": "Opwaardering veilige schoolomgeving Kouterstraat Kalken",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 700000.0,
+    "amount_per_capita": 55.59,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 600000.0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 47.65,
+      "2028": 7.94,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "f",
+    "ap_short": "Duurzaamheid",
+    "ap_long": "Samen de weg van de duurzaamheid delen",
+    "ac_code": "f_47",
+    "ac_short": "Bushaltes",
+    "ac_long": "Gefaseerde realisatie van toegankelijke bushalte-infrastructuur",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 380000.0,
+    "amount_per_capita": 30.18,
+    "yearly_amounts": {
+      "2026": 95000.0,
+      "2027": 95000.0,
+      "2028": 95000.0,
+      "2029": 95000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.54,
+      "2027": 7.54,
+      "2028": 7.54,
+      "2029": 7.54,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 141",
     "bd_short": "PEACE & PARTNERSHIP",
     "bd_long": "Laarnse (be)stuur(s)kracht",
-    "ap_code": "",
+    "ap_code": "k",
     "ap_short": "Dienstverlening",
     "ap_long": "Blijvend aan het stuur draaien voor een gesmeerde dienst- en hulpverlening",
-    "ac_code": "",
+    "ac_code": "k_95",
     "ac_short": "Slim digitaal",
     "ac_long": "Slim digitaal",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 21735247.0,
-    "amount_per_capita": 1731.12,
+    "total_amount": 295000.0,
+    "amount_per_capita": 23.43,
     "yearly_amounts": {
-      "2026": 8175950.0,
-      "2027": 4855537.0,
-      "2028": 3522756.0,
-      "2029": 2333934.0,
-      "2030": 1734860.0,
-      "2031": 1112210.0
+      "2026": 70000.0,
+      "2027": 35000.0,
+      "2028": 30000.0,
+      "2029": 140000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 651.18,
-      "2027": 386.72,
-      "2028": 280.57,
-      "2029": 185.89,
-      "2030": 138.17,
-      "2031": 88.58
+      "2026": 5.56,
+      "2027": 2.78,
+      "2028": 2.38,
+      "2029": 11.12,
+      "2030": 0.79,
+      "2031": 0.79
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "f",
+    "ap_short": "Duurzaamheid",
+    "ap_long": "Samen de weg van de duurzaamheid delen",
+    "ac_code": "f_56",
+    "ac_short": "Trage wegenverbindingen",
+    "ac_long": "Realisatie van fiets- en tragewegenverbindingen, bij voorkeur tussen beide dorpskernen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 155000.0,
+    "amount_per_capita": 12.31,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.38,
+      "2027": 1.99,
+      "2028": 1.99,
+      "2029": 1.99,
+      "2030": 1.99,
+      "2031": 1.99
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 140",
+    "bd_short": "PROSPERITY",
+    "bd_long": "Demarreren in duurzaam ondernemen, welvaart en wel-bevinden",
+    "ap_code": "i",
+    "ap_short": "Lokale economie en Toerisme",
+    "ap_long": "Volop supporteren voor lokale economie en toerisme",
+    "ac_code": "i_75",
+    "ac_short": "Toeristische onthaalpoorten",
+    "ac_long": "Creatie van toeristische onthaalpoorten",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.94,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 7.94,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 140",
+    "bd_short": "PROSPERITY",
+    "bd_long": "Demarreren in duurzaam ondernemen, welvaart en wel-bevinden",
+    "ap_code": "i",
+    "ap_short": "Lokale economie en Toerisme",
+    "ap_long": "Volop supporteren voor lokale economie en toerisme",
+    "ac_code": "i_76",
+    "ac_short": "Nezosite",
+    "ac_long": "Uitbouw van een educatieve natuurzone in de voormalige Nezosite",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.94,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 7.94,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "g",
+    "ap_short": "Ruimte",
+    "ap_long": "Wonen en bouwen in Laarne, een geplande, duurzame en sociale rit",
+    "ac_code": "g_70",
+    "ac_short": "Onroerend erfgoed",
+    "ac_long": "Uitzicht van de dorpskernen en onroerend erfgoed bewaken",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 7.15,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.19,
+      "2027": 1.19,
+      "2028": 1.19,
+      "2029": 1.19,
+      "2030": 1.19,
+      "2031": 1.19
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "f",
+    "ap_short": "Duurzaamheid",
+    "ap_long": "Samen de weg van de duurzaamheid delen",
+    "ac_code": "f_48",
+    "ac_short": "Hoppin-punt",
+    "ac_long": "Realisatie van een Hoppin-punt te Kalken",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.97,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.97,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "f",
+    "ap_short": "Duurzaamheid",
+    "ap_long": "Samen de weg van de duurzaamheid delen",
+    "ac_code": "f_57",
+    "ac_short": "Wonderwoudjes",
+    "ac_long": "Graduele creatie van (wonder)woudjes",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 48000.0,
+    "amount_per_capita": 3.81,
+    "yearly_amounts": {
+      "2026": 8000.0,
+      "2027": 8000.0,
+      "2028": 8000.0,
+      "2029": 8000.0,
+      "2030": 8000.0,
+      "2031": 8000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0.64,
+      "2028": 0.64,
+      "2029": 0.64,
+      "2030": 0.64,
+      "2031": 0.64
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "f",
+    "ap_short": "Duurzaamheid",
+    "ap_long": "Samen de weg van de duurzaamheid delen",
+    "ac_code": "f_51",
+    "ac_short": "Fietsenstallingen",
+    "ac_long": "Realisatie van bijkomende fietsenstallingen en - fietsherstelzuilen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 42000.0,
+    "amount_per_capita": 3.34,
+    "yearly_amounts": {
+      "2026": 7000.0,
+      "2027": 7000.0,
+      "2028": 7000.0,
+      "2029": 7000.0,
+      "2030": 7000.0,
+      "2031": 7000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.56,
+      "2027": 0.56,
+      "2028": 0.56,
+      "2029": 0.56,
+      "2030": 0.56,
+      "2031": 0.56
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 138",
+    "bd_short": "PEOPLE",
+    "bd_long": "Laarne, waar de koers gereden wordt dóór, vóór én mét mensen : iedereen mee in de kopgroep, niemand rode lantaarn",
+    "ap_code": "d",
+    "ap_short": "Begraafplaatsen",
+    "ap_long": "Begraafplaatsen: stopplekken voor ontmoeting en rust",
+    "ac_code": "d_31",
+    "ac_short": "Funerair erfgoed",
+    "ac_long": "Het verleden een gezicht geven",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.59,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.79,
+      "2027": 0.79,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "f",
+    "ap_short": "Duurzaamheid",
+    "ap_long": "Samen de weg van de duurzaamheid delen",
+    "ac_code": "f_49",
+    "ac_short": "Mee-Rij-Bankjes",
+    "ac_long": "Realisatie van het project Mee-Rij-Bankjes",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.59,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Laarne",
+    "nis_code": "42010",
+    "bd_code": "BDS 139",
+    "bd_short": "PLANET",
+    "bd_long": "Lokaal (st)rijden voor een globale, groene eindmeet",
+    "ap_code": "f",
+    "ap_short": "Duurzaamheid",
+    "ap_long": "Samen de weg van de duurzaamheid delen",
+    "ac_code": "f_52",
+    "ac_short": "Vrachtwagenparking",
+    "ac_long": "Heraanleg vrachtwagenparking",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 1.19,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 15000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.19,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

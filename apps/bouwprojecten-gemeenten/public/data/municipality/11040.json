@@ -2,229 +2,705 @@
   {
     "municipality": "Schoten",
     "nis_code": "11040",
-    "bd_code": "BDS",
-    "bd_short": "WAS/007",
-    "bd_long": "Schotenhof met een verbeterde mobiliteit en fraaier straatbeeld",
-    "ap_code": "WAS",
-    "ap_short": "Schoolomgevingen Schotenhof",
-    "ap_long": "Een veilige schoolomgeving in Schotenhof en Koningshof",
-    "ac_code": "WAS",
-    "ac_short": "Sint-Maria-Ten-Boslei",
-    "ac_long": "Wegenwerken - Sint-Maria-Ten-Boslei",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 39210000.0,
-    "amount_per_capita": 1144.93,
-    "yearly_amounts": {
-      "2026": 9611000.0,
-      "2027": 11486000.0,
-      "2028": 5763000.0,
-      "2029": 3480000.0,
-      "2030": 4440000.0,
-      "2031": 4430000.0
-    },
-    "yearly_per_capita": {
-      "2026": 280.64,
-      "2027": 335.39,
-      "2028": 168.28,
-      "2029": 101.62,
-      "2030": 129.65,
-      "2031": 129.36
-    }
-  },
-  {
-    "municipality": "Schoten",
-    "nis_code": "11040",
-    "bd_code": "BDS",
-    "bd_short": "LBS/002",
-    "bd_long": "Een groene en propere leefomgeving met meer biodiversiteit, nette straten en minder afval",
-    "ap_code": "LBS",
-    "ap_short": "Proper Schoten",
-    "ap_long": "Een proper Schoten",
-    "ac_code": "LBS",
-    "ac_short": "Stints voor propere straten",
-    "ac_long": "Uitbreiding van Stints voor propere straten",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 12335887.0,
-    "amount_per_capita": 360.21,
-    "yearly_amounts": {
-      "2026": 2202535.0,
-      "2027": 2140486.0,
-      "2028": 2377634.0,
-      "2029": 2544589.0,
-      "2030": 1223158.0,
-      "2031": 1847485.0
-    },
-    "yearly_per_capita": {
-      "2026": 64.31,
-      "2027": 62.5,
-      "2028": 69.43,
-      "2029": 74.3,
-      "2030": 35.72,
-      "2031": 53.95
-    }
-  },
-  {
-    "municipality": "Schoten",
-    "nis_code": "11040",
-    "bd_code": "BDS",
-    "bd_short": "BES/003",
-    "bd_long": "Een gedragen kerkenbeleidsplan met respect voor het patrimonium en oog voor medegebruik",
-    "ap_code": "BES",
-    "ap_short": "Kerkenbeleidsplan",
-    "ap_long": "Een actueel kerkenbeleidsplan",
-    "ac_code": "BES",
-    "ac_short": "Kerkenbeleidsplan",
-    "ac_long": "Een actueel kerkenbeleidsplan",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/002",
+    "ap_short": "Beschermen erfgoed",
+    "ap_long": "Beschermen erfgoed in het centrum",
+    "ac_code": "WAS/001/002_WAS/001/002/001",
+    "ac_short": "Forumgebouw",
+    "ac_long": "Een vernieuwd Forumgebouw",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 7187000.0,
-    "amount_per_capita": 209.86,
+    "total_amount": 9500000.0,
+    "amount_per_capita": 277.05,
     "yearly_amounts": {
-      "2026": 1765000.0,
-      "2027": 1376000.0,
-      "2028": 1836000.0,
-      "2029": 1363000.0,
-      "2030": 721000.0,
-      "2031": 126000.0
+      "2026": 4500000.0,
+      "2027": 4500000.0,
+      "2028": 500000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 51.54,
-      "2027": 40.18,
-      "2028": 53.61,
-      "2029": 39.8,
-      "2030": 21.05,
-      "2031": 3.68
+      "2026": 131.23,
+      "2027": 131.23,
+      "2028": 14.58,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Schoten",
     "nis_code": "11040",
-    "bd_code": "BDS",
-    "bd_short": "BRS/004",
-    "bd_long": "Een organisatie gericht op klantgerichte dienstverlening en digitale innovatie",
-    "ap_code": "BRS",
-    "ap_short": "Klantgerichte klantdienstverlening",
-    "ap_long": "Een klantvriendelijke dienstverlening die burgertevredenheid verhoogt",
-    "ac_code": "BRS",
-    "ac_short": "Klantcontactcentrum",
-    "ac_long": "Een efficiënt, inclusief en bereikbaar eerstelijns en tweedelijns klantcontactcentrum",
+    "bd_code": "BDS 2",
+    "bd_short": "WAS/002",
+    "bd_long": "Een vernieuwd toegankelijk sportpark de Zeurt",
+    "ap_code": "WAS/002/001",
+    "ap_short": "Nieuwe sporthal",
+    "ap_long": "Een nieuwe sporthal met extra ruimte voor alle sporters",
+    "ac_code": "WAS/002/001_WAS/002/001/001",
+    "ac_short": "Derde sporthal",
+    "ac_long": "Een nieuwbouw sporthal",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 8200000.0,
+    "amount_per_capita": 239.14,
+    "yearly_amounts": {
+      "2026": 2000000.0,
+      "2027": 3600000.0,
+      "2028": 2600000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 58.33,
+      "2027": 104.99,
+      "2028": 75.82,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/001",
+    "ap_short": "Een vernieuwd centrum",
+    "ap_long": "Een vernieuwd centrum voor bewoners, bezoekers en lokale handelaars",
+    "ac_code": "WAS/001/001_WAS/001/001/003",
+    "ac_short": "Churchilllaan - Verbertstraat - Kuipersstraat",
+    "ac_long": "Wegenwerken - Churchilllaan - Verbertstraat - Kuipersstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4035000.0,
+    "amount_per_capita": 117.67,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 855000.0,
+      "2030": 2300000.0,
+      "2031": 830000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.46,
+      "2029": 24.93,
+      "2030": 67.07,
+      "2031": 24.21
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 22",
+    "bd_short": "BES/001",
+    "bd_long": "Een organisatie gericht op talentontwikkeling, kennisdeling, samenwerking en digitale innovatie binnen een duurzaam uitgeruste (werk)omgeving",
+    "ap_code": "BES/001/002",
+    "ap_short": "Gebouwen, voertuigen en materialen",
+    "ap_long": "Toekomstbestendige gebouwen, voertuigen en materialen",
+    "ac_code": "BES/001/002_BES/001/002/001",
+    "ac_short": "Gebouwbeheer",
+    "ac_long": "Opwaarderen en verduurzamen van de gebouwen",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1268460.0,
-    "amount_per_capita": 37.04,
+    "total_amount": 3011000.0,
+    "amount_per_capita": 87.81,
     "yearly_amounts": {
-      "2026": 180210.0,
-      "2027": 455870.0,
-      "2028": 289470.0,
-      "2029": 154170.0,
-      "2030": 118870.0,
-      "2031": 69870.0
+      "2026": 304000.0,
+      "2027": 365000.0,
+      "2028": 1165000.0,
+      "2029": 737000.0,
+      "2030": 380000.0,
+      "2031": 60000.0
     },
     "yearly_per_capita": {
-      "2026": 5.26,
-      "2027": 13.31,
-      "2028": 8.45,
-      "2029": 4.5,
-      "2030": 3.47,
-      "2031": 2.04
+      "2026": 8.87,
+      "2027": 10.64,
+      "2028": 33.97,
+      "2029": 21.49,
+      "2030": 11.08,
+      "2031": 1.75
     }
   },
   {
     "municipality": "Schoten",
     "nis_code": "11040",
-    "bd_code": "BDS",
-    "bd_short": "Infrastructuur: persoonsgericht, vandaag en morgen",
-    "bd_long": "Infrastructuur: persoonsgericht, vandaag en morgen",
-    "ap_code": "BD3AP2",
-    "ap_short": "ICT voor de zorg van morgen",
-    "ap_long": "ICT voor de zorg van morgen",
-    "ac_code": "BD3AP2",
-    "ac_short": "Consolideren operationele werking (compliancy & stabiliteit)",
-    "ac_long": "Consolideren operationele werking (compliancy & stabiliteit)",
+    "bd_code": "BDS 11",
+    "bd_short": "LBS/004",
+    "bd_long": "De veiligheid en leefbaarheid verbeteren door in te zetten op veiligheid en handhaving",
+    "ap_code": "LBS/004/001",
+    "ap_short": "Veilig Schoten",
+    "ap_long": "Een veilig Schoten",
+    "ac_code": "LBS/004/001_LBS/004/001/004",
+    "ac_short": "Brandweerzone rand",
+    "ac_long": "Proactieve en preventieve brandweerzone Rand",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 2550241.0,
+    "amount_per_capita": 74.37,
+    "yearly_amounts": {
+      "2026": 405446.0,
+      "2027": 428959.0,
+      "2028": 428959.0,
+      "2029": 428959.0,
+      "2030": 428959.0,
+      "2031": 428959.0
+    },
+    "yearly_per_capita": {
+      "2026": 11.82,
+      "2027": 12.51,
+      "2028": 12.51,
+      "2029": 12.51,
+      "2030": 12.51,
+      "2031": 12.51
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 4",
+    "bd_short": "WAS/004",
+    "bd_long": "Een vlotte en veilige verkeersdoorstroming in Villerslei",
+    "ap_code": "WAS/004/001",
+    "ap_short": "Heraanleg Villerslei",
+    "ap_long": "Villerslei krijgt een verbeterde mobiliteit en fraaier straatbeeld",
+    "ac_code": "WAS/004/001_WAS/004/001/001",
+    "ac_short": "Villerslei",
+    "ac_long": "Wegenwerken - Villerslei",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2327000.0,
+    "amount_per_capita": 67.86,
+    "yearly_amounts": {
+      "2026": 1146000.0,
+      "2027": 1144000.0,
+      "2028": 15000.0,
+      "2029": 22000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 33.42,
+      "2027": 33.36,
+      "2028": 0.44,
+      "2029": 0.64,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/001",
+    "ap_short": "Een vernieuwd centrum",
+    "ap_long": "Een vernieuwd centrum voor bewoners, bezoekers en lokale handelaars",
+    "ac_code": "WAS/001/001_WAS/001/001/005",
+    "ac_short": "Markt en achterkant Forumgebouw",
+    "ac_long": "Heraanleg Markt en achterkant Forumgebouw",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2285000.0,
+    "amount_per_capita": 66.64,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 25000.0,
+      "2030": 760000.0,
+      "2031": 1500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.73,
+      "2030": 22.16,
+      "2031": 43.74
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/001",
+    "ap_short": "Een vernieuwd centrum",
+    "ap_long": "Een vernieuwd centrum voor bewoners, bezoekers en lokale handelaars",
+    "ac_code": "WAS/001/001_WAS/001/001/004",
+    "ac_short": "Paalstraat van markt tot en met kruispunt Kruispadstraat",
+    "ac_long": "Wegenwerken - Paalstraat van markt tot en met kruispunt Kruispadstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2095000.0,
+    "amount_per_capita": 61.1,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 75000.0,
+      "2030": 420000.0,
+      "2031": 1600000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2.19,
+      "2030": 12.25,
+      "2031": 46.66
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 11",
+    "bd_short": "LBS/004",
+    "bd_long": "De veiligheid en leefbaarheid verbeteren door in te zetten op veiligheid en handhaving",
+    "ap_code": "LBS/004/001",
+    "ap_short": "Veilig Schoten",
+    "ap_long": "Een veilig Schoten",
+    "ac_code": "LBS/004/001_LBS/004/001/003",
+    "ac_short": "Politiewijkwerking",
+    "ac_long": "Versterkte politiewijkwerking in samenwerking met lokaal bestuur",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 2029000.0,
+    "amount_per_capita": 59.17,
+    "yearly_amounts": {
+      "2026": 529000.0,
+      "2027": 300000.0,
+      "2028": 300000.0,
+      "2029": 300000.0,
+      "2030": 300000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 15.43,
+      "2027": 8.75,
+      "2028": 8.75,
+      "2029": 8.75,
+      "2030": 8.75,
+      "2031": 8.75
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 22",
+    "bd_short": "BES/001",
+    "bd_long": "Een organisatie gericht op talentontwikkeling, kennisdeling, samenwerking en digitale innovatie binnen een duurzaam uitgeruste (werk)omgeving",
+    "ap_code": "BES/001/002",
+    "ap_short": "Gebouwen, voertuigen en materialen",
+    "ap_long": "Toekomstbestendige gebouwen, voertuigen en materialen",
+    "ac_code": "BES/001/002_BES/001/002/002",
+    "ac_short": "Vlootbeheer",
+    "ac_long": "Een modern en duurzaam vlootbeheer",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1019902.0,
-    "amount_per_capita": 29.78,
+    "total_amount": 1915000.0,
+    "amount_per_capita": 55.85,
     "yearly_amounts": {
-      "2026": 275480.0,
-      "2027": 190001.0,
-      "2028": 150000.0,
-      "2029": 194421.0,
-      "2030": 105000.0,
-      "2031": 105000.0
+      "2026": 380000.0,
+      "2027": 475000.0,
+      "2028": 450000.0,
+      "2029": 460000.0,
+      "2030": 150000.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.04,
-      "2027": 5.55,
-      "2028": 4.38,
-      "2029": 5.68,
-      "2030": 3.07,
-      "2031": 3.07
+      "2026": 11.08,
+      "2027": 13.85,
+      "2028": 13.12,
+      "2029": 13.41,
+      "2030": 4.37,
+      "2031": 0
     }
   },
   {
     "municipality": "Schoten",
     "nis_code": "11040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "",
-    "ap_short": "overigBeleid",
-    "ap_long": "overigBeleid",
-    "ac_code": "",
-    "ac_short": "overigBeleid zonder actie",
-    "ac_long": "overigBeleid zonder actie",
+    "bd_code": "BDS 8",
+    "bd_short": "LBS/001",
+    "bd_long": "Schoten zorgt voor verkeersveiligheid en vlotte mobiliteit door goed onderhouden straten en veilige fiets- en voetpaden",
+    "ap_code": "LBS/001/001",
+    "ap_short": "Verkeersveiligheid",
+    "ap_long": "Toekomstbestendige verkeersveiligheid",
+    "ac_code": "LBS/001/001_LBS/001/001/002",
+    "ac_short": "Verledding van de openbare verlichting",
+    "ac_long": "Een verdere verledding van de openbare verlichting",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1595646.0,
+    "amount_per_capita": 46.53,
+    "yearly_amounts": {
+      "2026": 413089.0,
+      "2027": 413527.0,
+      "2028": 409675.0,
+      "2029": 40630.0,
+      "2030": 40199.0,
+      "2031": 278526.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.05,
+      "2027": 12.06,
+      "2028": 11.95,
+      "2029": 1.18,
+      "2030": 1.17,
+      "2031": 8.12
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/002",
+    "ap_short": "Beschermen erfgoed",
+    "ap_long": "Beschermen erfgoed in het centrum",
+    "ac_code": "WAS/001/002_WAS/001/002/005",
+    "ac_short": "Sint-Cordulakerk",
+    "ac_long": "Een gerenoveerde Sint-Cordulakerk",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1302000.0,
+    "amount_per_capita": 37.97,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 635000.0,
+      "2029": 617000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.46,
+      "2028": 18.52,
+      "2029": 17.99,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 8",
+    "bd_short": "LBS/001",
+    "bd_long": "Schoten zorgt voor verkeersveiligheid en vlotte mobiliteit door goed onderhouden straten en veilige fiets- en voetpaden",
+    "ap_code": "LBS/001/002",
+    "ap_short": "Onderhoud straten",
+    "ap_long": "Veilige en goed onderhouden straten",
+    "ac_code": "LBS/001/002_LBS/001/002/008",
+    "ac_short": "Onderhoud openbaar domein",
+    "ac_long": "Veilige en goed onderhouden straten, voetpaden, fietspaden, schoolomgevingen en recreatie",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1275000.0,
+    "amount_per_capita": 37.18,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 205000.0,
+      "2028": 210000.0,
+      "2029": 215000.0,
+      "2030": 220000.0,
+      "2031": 225000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.83,
+      "2027": 5.98,
+      "2028": 6.12,
+      "2029": 6.27,
+      "2030": 6.42,
+      "2031": 6.56
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 5",
+    "bd_short": "WAS/005",
+    "bd_long": "Een groen, toegankelijk gemeentepark met oog voor erfgoed, sport en beleven",
+    "ap_code": "WAS/005/001",
+    "ap_short": "Renovatie kasteel",
+    "ap_long": "Het gerenoveerde kasteel van Schoten als toegangspoort voor beleven en ontmoeten",
+    "ac_code": "WAS/005/001_WAS/005/001/001",
+    "ac_short": "Buitenschil van het kasteel",
+    "ac_long": "Een gerenoveerde buitenschil van het kasteel",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1100000.0,
+    "amount_per_capita": 32.08,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 635000.0,
+      "2028": 315000.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.46,
+      "2027": 18.52,
+      "2028": 9.19,
+      "2029": 2.92,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 23",
+    "bd_short": "BES/002",
+    "bd_long": "De ondersteunende diensten versterken de werking waarbij een correcte dienstverlening, bestuurlijke efficiëntie en kostenbewustzijn de leidraad zijn",
+    "ap_code": "BES/002/001",
+    "ap_short": "Expertise ondersteunende diensten",
+    "ap_long": "Ondersteunende diensten versterken met hun expertise de resultaten van de projecten en processen",
+    "ac_code": "BES/002/001_BES/002/001/003",
+    "ac_short": "Project- en proceswerking",
+    "ac_long": "Projectmatig, procesmatig en geïntegreerd werken en denken zijn een automatische reflex",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 840000.0,
-    "amount_per_capita": 24.53,
+    "total_amount": 1030000.0,
+    "amount_per_capita": 30.04,
     "yearly_amounts": {
-      "2026": 140000.0,
-      "2027": 140000.0,
-      "2028": 140000.0,
-      "2029": 140000.0,
-      "2030": 140000.0,
-      "2031": 140000.0
+      "2026": 600000.0,
+      "2027": 130000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.09,
-      "2027": 4.09,
-      "2028": 4.09,
-      "2029": 4.09,
-      "2030": 4.09,
-      "2031": 4.09
+      "2026": 17.5,
+      "2027": 3.79,
+      "2028": 2.92,
+      "2029": 2.92,
+      "2030": 2.92,
+      "2031": 0
     }
   },
   {
     "municipality": "Schoten",
     "nis_code": "11040",
-    "bd_code": "BDS",
+    "bd_code": "BDS 11",
+    "bd_short": "LBS/004",
+    "bd_long": "De veiligheid en leefbaarheid verbeteren door in te zetten op veiligheid en handhaving",
+    "ap_code": "LBS/004/002",
+    "ap_short": "Handhaving",
+    "ap_long": "Handhaving als sluitstuk",
+    "ac_code": "LBS/004/002_LBS/004/002/001",
+    "ac_short": "ANPR-cameranetwerk",
+    "ac_long": "Een sluitend en efficiënt werkend ANPR-cameranetwerk rond Schoten",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 790000.0,
+    "amount_per_capita": 23.04,
+    "yearly_amounts": {
+      "2026": 170000.0,
+      "2027": 170000.0,
+      "2028": 0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.96,
+      "2027": 4.96,
+      "2028": 0,
+      "2029": 4.37,
+      "2030": 4.37,
+      "2031": 4.37
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 8",
+    "bd_short": "LBS/001",
+    "bd_long": "Schoten zorgt voor verkeersveiligheid en vlotte mobiliteit door goed onderhouden straten en veilige fiets- en voetpaden",
+    "ap_code": "LBS/001/002",
+    "ap_short": "Onderhoud straten",
+    "ap_long": "Veilige en goed onderhouden straten",
+    "ac_code": "LBS/001/002_LBS/001/002/003",
+    "ac_short": "Boomgaarddreef en omgeving",
+    "ac_long": "Wegenwerken Boomgaarddreef en omgeving",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 748000.0,
+    "amount_per_capita": 21.81,
+    "yearly_amounts": {
+      "2026": 16000.0,
+      "2027": 232000.0,
+      "2028": 500000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.47,
+      "2027": 6.77,
+      "2028": 14.58,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 8",
+    "bd_short": "LBS/001",
+    "bd_long": "Schoten zorgt voor verkeersveiligheid en vlotte mobiliteit door goed onderhouden straten en veilige fiets- en voetpaden",
+    "ap_code": "LBS/001/002",
+    "ap_short": "Onderhoud straten",
+    "ap_long": "Veilige en goed onderhouden straten",
+    "ac_code": "LBS/001/002_LBS/001/002/005",
+    "ac_short": "Meibloemlei en Frans Reinemundlei",
+    "ac_long": "Wegenwerken Meibloemlei en Frans Reinemundlei",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 650000.0,
+    "amount_per_capita": 18.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 650000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 18.96,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/001",
+    "ap_short": "Een vernieuwd centrum",
+    "ap_long": "Een vernieuwd centrum voor bewoners, bezoekers en lokale handelaars",
+    "ac_code": "WAS/001/001_WAS/001/001/002",
+    "ac_short": "Vordensteinstraat",
+    "ac_long": "Wegenwerken - Vordensteinstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 525000.0,
+    "amount_per_capita": 15.31,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 10000.0,
+      "2029": 515000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.29,
+      "2029": 15.02,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/001",
+    "ap_short": "Een vernieuwd centrum",
+    "ap_long": "Een vernieuwd centrum voor bewoners, bezoekers en lokale handelaars",
+    "ac_code": "WAS/001/001_WAS/001/001/006",
+    "ac_short": "Parking 't Ven",
+    "ac_long": "Heraanleg  parking 't Ven",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.58,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 250000.0,
+      "2030": 250000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 7.29,
+      "2030": 7.29,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 16",
     "bd_short": "ZZS/005",
     "bd_long": "Schoten als kind- en jeugdvriendelijke gemeente met aandacht voor welzijn",
-    "ap_code": "ZZS",
+    "ap_code": "ZZS/005/001",
     "ap_short": "KINDVRIENDELIJKE GEMEENTE",
     "ap_long": "Een kindvriendelijke gemeente",
-    "ac_code": "ZZS",
+    "ac_code": "ZZS/005/001_ZZS/005/001/004",
     "ac_short": "Jeugdhuis",
     "ac_long": "Locatie- en behoefte-onderzoek jeugdhuis en veilige ontmoetingsplekken voor jongeren",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 530000.0,
-    "amount_per_capita": 15.48,
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.58,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 30000.0,
+      "2029": 0,
       "2030": 250000.0,
       "2031": 250000.0
     },
@@ -232,9 +708,1879 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 0.88,
-      "2030": 7.3,
-      "2031": 7.3
+      "2029": 0,
+      "2030": 7.29,
+      "2031": 7.29
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 20",
+    "bd_short": "BRS/004",
+    "bd_long": "Een organisatie gericht op klantgerichte dienstverlening en digitale innovatie",
+    "ap_code": "BRS/004/001",
+    "ap_short": "Klantgerichte klantdienstverlening",
+    "ap_long": "Een klantvriendelijke dienstverlening die burgertevredenheid verhoogt",
+    "ac_code": "BRS/004/001_BRS/004/001/001",
+    "ac_short": "Klantcontactcentrum",
+    "ac_long": "Een efficiënt, inclusief en bereikbaar eerstelijns en tweedelijns klantcontactcentrum",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.58,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 300000.0,
+      "2028": 100000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 8.75,
+      "2028": 2.92,
+      "2029": 1.46,
+      "2030": 1.46,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 22",
+    "bd_short": "BES/001",
+    "bd_long": "Een organisatie gericht op talentontwikkeling, kennisdeling, samenwerking en digitale innovatie binnen een duurzaam uitgeruste (werk)omgeving",
+    "ap_code": "BES/001/002",
+    "ap_short": "Gebouwen, voertuigen en materialen",
+    "ap_long": "Toekomstbestendige gebouwen, voertuigen en materialen",
+    "ac_code": "BES/001/002_BES/001/002/005",
+    "ac_short": "Patrimoniumbeleid",
+    "ac_long": "Een strategisch patrimoniumbeleid",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.58,
+    "yearly_amounts": {
+      "2026": 400000.0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.67,
+      "2027": 2.92,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 3",
+    "bd_short": "WAS/003",
+    "bd_long": "Wijtschot als een plek voor groene beleving en energiezuinige industriezone",
+    "ap_code": "WAS/003/001",
+    "ap_short": "KMO Wijtschot en natuurpark",
+    "ap_long": "Een energiezuinige KMO-zone Wijtschot en beleving in natuurpark Groen Wijtschot",
+    "ac_code": "WAS/003/001_WAS/003/001/001",
+    "ac_short": "Gesaneerde stortplaats",
+    "ac_long": "Een gesaneerde stortplaats",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.58,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 500000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 14.58,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 3",
+    "bd_short": "WAS/003",
+    "bd_long": "Wijtschot als een plek voor groene beleving en energiezuinige industriezone",
+    "ap_code": "WAS/003/001",
+    "ap_short": "KMO Wijtschot en natuurpark",
+    "ap_long": "Een energiezuinige KMO-zone Wijtschot en beleving in natuurpark Groen Wijtschot",
+    "ac_code": "WAS/003/001_WAS/003/001/002",
+    "ac_short": "Een nieuw dienstgebouw",
+    "ac_long": "Een nieuw dienstgebouw voor operationele diensten",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.58,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 250000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 7.29,
+      "2031": 7.29
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 3",
+    "bd_short": "WAS/003",
+    "bd_long": "Wijtschot als een plek voor groene beleving en energiezuinige industriezone",
+    "ap_code": "WAS/003/001",
+    "ap_short": "KMO Wijtschot en natuurpark",
+    "ap_long": "Een energiezuinige KMO-zone Wijtschot en beleving in natuurpark Groen Wijtschot",
+    "ac_code": "WAS/003/001_WAS/003/001/003",
+    "ac_short": "Een nieuw recyclagepark",
+    "ac_long": "Een nieuw recyclagepark",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.58,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 250000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 7.29,
+      "2031": 7.29
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 6",
+    "bd_short": "WAS/006",
+    "bd_long": "Deuzeld en De Lek krijgen een verbeterde mobiliteit en fraaier straatbeeld",
+    "ap_code": "WAS/006/001",
+    "ap_short": "Onderhoud Deuzeld en De Lek",
+    "ap_long": "Veilige en propere straten in Deuzeld en De Lek",
+    "ac_code": "WAS/006/001_WAS/006/001/007",
+    "ac_short": "Voet- en fietspaden Toekomstlaan",
+    "ac_long": "Heraanleg voet- en fietspaden Toekomstlaan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.58,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 250000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.29,
+      "2027": 7.29,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 6",
+    "bd_short": "WAS/006",
+    "bd_long": "Deuzeld en De Lek krijgen een verbeterde mobiliteit en fraaier straatbeeld",
+    "ap_code": "WAS/006/001",
+    "ap_short": "Onderhoud Deuzeld en De Lek",
+    "ap_long": "Veilige en propere straten in Deuzeld en De Lek",
+    "ac_code": "WAS/006/001_WAS/006/001/006",
+    "ac_short": "Kruispunt Deuzeldlaan, Kruiningenstr. en Eduard Steursstr.",
+    "ac_long": "Wegenwerken en verkeersinstallatie kruispunt Deuzeldlaan, Kruiningenstraat en Eduard Steursstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 440000.0,
+    "amount_per_capita": 12.83,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 200000.0,
+      "2028": 40000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.83,
+      "2027": 5.83,
+      "2028": 1.17,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/002",
+    "ap_short": "Beschermen erfgoed",
+    "ap_long": "Beschermen erfgoed in het centrum",
+    "ac_code": "WAS/001/002_WAS/001/002/002",
+    "ac_short": "Pastorij",
+    "ac_long": "Eerste fase gerenoveerde pastorij",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 435000.0,
+    "amount_per_capita": 12.69,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 15000.0,
+      "2029": 210000.0,
+      "2030": 210000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.44,
+      "2029": 6.12,
+      "2030": 6.12,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/002",
+    "ap_short": "Beschermen erfgoed",
+    "ap_long": "Beschermen erfgoed in het centrum",
+    "ac_code": "WAS/001/002_WAS/001/002/003",
+    "ac_short": "Buitengevel Gelmelenhof",
+    "ac_long": "Aanpak renoveren buitengevel Gelmelenhof",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 435000.0,
+    "amount_per_capita": 12.69,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 35000.0,
+      "2028": 400000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.02,
+      "2028": 11.67,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 24",
+    "bd_short": "BES/003",
+    "bd_long": "Een gedragen kerkenbeleidsplan met respect voor het patrimonium en oog voor medegebruik",
+    "ap_code": "BES/003/001",
+    "ap_short": "Kerkenbeleidsplan",
+    "ap_long": "Een actueel kerkenbeleidsplan",
+    "ac_code": "BES/003/001_BES/003/001/002",
+    "ac_short": "Kerkenbeleidsplan",
+    "ac_long": "Een actueel kerkenbeleidsplan",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 396000.0,
+    "amount_per_capita": 11.55,
+    "yearly_amounts": {
+      "2026": 66000.0,
+      "2027": 66000.0,
+      "2028": 66000.0,
+      "2029": 66000.0,
+      "2030": 66000.0,
+      "2031": 66000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.92,
+      "2027": 1.92,
+      "2028": 1.92,
+      "2029": 1.92,
+      "2030": 1.92,
+      "2031": 1.92
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 10",
+    "bd_short": "LBS/003",
+    "bd_long": "Evenwichtige ruimtelijke ontwikkeling met oog voor toekomstige noden en betaalbaar wonen",
+    "ap_code": "LBS/003/001",
+    "ap_short": "Evenwicht groen en wonen",
+    "ap_long": "Een evenwicht tussen groen, wonen, werken en winkelen",
+    "ac_code": "LBS/003/001_LBS/003/001/006",
+    "ac_short": "Actieplan gemeentelijk hemelwater- en droogteplan",
+    "ac_long": "Actieplan gemeentelijk hemelwater- en droogteplan",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 380000.0,
+    "amount_per_capita": 11.08,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 380000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 11.08
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 7",
+    "bd_short": "WAS/007",
+    "bd_long": "Schotenhof met een verbeterde mobiliteit en fraaier straatbeeld",
+    "ap_code": "WAS/007/001",
+    "ap_short": "Schoolomgevingen Schotenhof",
+    "ap_long": "Een veilige schoolomgeving in Schotenhof en Koningshof",
+    "ac_code": "WAS/007/001_WAS/007/001/003",
+    "ac_short": "Alfons Servaislei",
+    "ac_long": "Asfaltvernieuwing Alfons Servaislei",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 346000.0,
+    "amount_per_capita": 10.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 173000.0,
+      "2029": 173000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 5.05,
+      "2029": 5.05,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 8",
+    "bd_short": "LBS/001",
+    "bd_long": "Schoten zorgt voor verkeersveiligheid en vlotte mobiliteit door goed onderhouden straten en veilige fiets- en voetpaden",
+    "ap_code": "LBS/001/002",
+    "ap_short": "Onderhoud straten",
+    "ap_long": "Veilige en goed onderhouden straten",
+    "ac_code": "LBS/001/002_LBS/001/002/001",
+    "ac_short": "Kopstraat en Ridder Walter Van Havrelaan",
+    "ac_long": "Ondersteuning voor wegenwerken (AWV) - Kopstraat en Ridder Walter Van Havrelaan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 344000.0,
+    "amount_per_capita": 10.03,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 172000.0,
+      "2029": 172000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 5.02,
+      "2029": 5.02,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 6",
+    "bd_short": "WAS/006",
+    "bd_long": "Deuzeld en De Lek krijgen een verbeterde mobiliteit en fraaier straatbeeld",
+    "ap_code": "WAS/006/001",
+    "ap_short": "Onderhoud Deuzeld en De Lek",
+    "ap_long": "Veilige en propere straten in Deuzeld en De Lek",
+    "ac_code": "WAS/006/001_WAS/006/001/001",
+    "ac_short": "Voet- en fietspaden wijk De lek",
+    "ac_long": "Heraanleg voet- en fietspaden wijk De lek",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 330000.0,
+    "amount_per_capita": 9.62,
+    "yearly_amounts": {
+      "2026": 110000.0,
+      "2027": 110000.0,
+      "2028": 110000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.21,
+      "2027": 3.21,
+      "2028": 3.21,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 19",
+    "bd_short": "BRS/003",
+    "bd_long": "Kwalitatieve sportinfrastructuur en duidelijke ondersteuning voor verenigingen",
+    "ap_code": "BRS/003/002",
+    "ap_short": "Ondersteuning sportclubs",
+    "ap_long": "Transparant ondersteuningsaanbod voor organisatoren en verenigingen",
+    "ac_code": "BRS/003/002_BRS/003/002/003",
+    "ac_short": "Verenigingen",
+    "ac_long": "Ondersteunde en gesubsidieerde verenigingen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 315000.0,
+    "amount_per_capita": 9.19,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 51000.0,
+      "2028": 52000.0,
+      "2029": 53000.0,
+      "2030": 54000.0,
+      "2031": 55000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.46,
+      "2027": 1.49,
+      "2028": 1.52,
+      "2029": 1.55,
+      "2030": 1.57,
+      "2031": 1.6
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 2",
+    "bd_short": "WAS/002",
+    "bd_long": "Een vernieuwd toegankelijk sportpark de Zeurt",
+    "ap_code": "WAS/002/001",
+    "ap_short": "Nieuwe sporthal",
+    "ap_long": "Een nieuwe sporthal met extra ruimte voor alle sporters",
+    "ac_code": "WAS/002/001_WAS/002/001/002",
+    "ac_short": "Sportterreinen",
+    "ac_long": "Opgewaardeerde sportterreinen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 315000.0,
+    "amount_per_capita": 9.19,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 242000.0,
+      "2028": 73000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 7.06,
+      "2028": 2.13,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 2",
+    "bd_short": "WAS/002",
+    "bd_long": "Een vernieuwd toegankelijk sportpark de Zeurt",
+    "ap_code": "WAS/002/001",
+    "ap_short": "Nieuwe sporthal",
+    "ap_long": "Een nieuwe sporthal met extra ruimte voor alle sporters",
+    "ac_code": "WAS/002/001_WAS/002/001/003",
+    "ac_short": "Skatepark",
+    "ac_long": "Een vernieuwd skatepark",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 315000.0,
+    "amount_per_capita": 9.19,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 300000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.44,
+      "2027": 8.75,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 11",
+    "bd_short": "LBS/004",
+    "bd_long": "De veiligheid en leefbaarheid verbeteren door in te zetten op veiligheid en handhaving",
+    "ap_code": "LBS/004/002",
+    "ap_short": "Handhaving",
+    "ap_long": "Handhaving als sluitstuk",
+    "ac_code": "LBS/004/002_LBS/004/002/002",
+    "ac_short": "Onderzoek overlastcamera's",
+    "ac_long": "Onderzoek mogelijkheid tijdelijk vaste overlastcamera's",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 8.75,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.19,
+      "2027": 2.19,
+      "2028": 2.19,
+      "2029": 2.19,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/001",
+    "ap_short": "Een vernieuwd centrum",
+    "ap_long": "Een vernieuwd centrum voor bewoners, bezoekers en lokale handelaars",
+    "ac_code": "WAS/001/001_WAS/001/001/001",
+    "ac_short": "Zamenhoflaan",
+    "ac_long": "Wegenwerken - Zamenhoflaan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 295000.0,
+    "amount_per_capita": 8.6,
+    "yearly_amounts": {
+      "2026": 295000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/001",
+    "ap_short": "Een vernieuwd centrum",
+    "ap_long": "Een vernieuwd centrum voor bewoners, bezoekers en lokale handelaars",
+    "ac_code": "WAS/001/001_WAS/001/001/007",
+    "ac_short": "Fietsparkinggordel",
+    "ac_long": "Een fietsparkinggordel rondom het centrum",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 275000.0,
+    "amount_per_capita": 8.02,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.73,
+      "2028": 7.29,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 5",
+    "bd_short": "WAS/005",
+    "bd_long": "Een groen, toegankelijk gemeentepark met oog voor erfgoed, sport en beleven",
+    "ap_code": "WAS/005/001",
+    "ap_short": "Renovatie kasteel",
+    "ap_long": "Het gerenoveerde kasteel van Schoten als toegangspoort voor beleven en ontmoeten",
+    "ac_code": "WAS/005/001_WAS/005/001/003",
+    "ac_short": "Opgewaardeerde sportterreinen",
+    "ac_long": "Opgewaardeerde sportterreinen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 274000.0,
+    "amount_per_capita": 7.99,
+    "yearly_amounts": {
+      "2026": 131000.0,
+      "2027": 62000.0,
+      "2028": 50000.0,
+      "2029": 31000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.82,
+      "2027": 1.81,
+      "2028": 1.46,
+      "2029": 0.9,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 9",
+    "bd_short": "LBS/002",
+    "bd_long": "Een groene en propere leefomgeving met meer biodiversiteit, nette straten en minder afval",
+    "ap_code": "LBS/002/003",
+    "ap_short": "Groene straten en parken",
+    "ap_long": "Groene en bloemrijke straten en parken met aandacht voor de biodiversiteit",
+    "ac_code": "LBS/002/003_LBS/002/003/004",
+    "ac_short": "Bomenplan",
+    "ac_long": "Een bomenplan met nadruk op klimaatrobuuste verjonging en streven naar groennorm 3-30-300",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 265000.0,
+    "amount_per_capita": 7.73,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 51000.0,
+      "2028": 42000.0,
+      "2029": 43000.0,
+      "2030": 44000.0,
+      "2031": 45000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.17,
+      "2027": 1.49,
+      "2028": 1.22,
+      "2029": 1.25,
+      "2030": 1.28,
+      "2031": 1.31
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 2",
+    "bd_short": "WAS/002",
+    "bd_long": "Een vernieuwd toegankelijk sportpark de Zeurt",
+    "ap_code": "WAS/002/002",
+    "ap_short": "Bereikbaar sportpark",
+    "ap_long": "Een toegankelijk en veilig bereikbaar sportpark De Zeurt",
+    "ac_code": "WAS/002/002_WAS/002/002/001",
+    "ac_short": "Sportpark - bereikbaarheid",
+    "ac_long": "Een veilig bereikbaar sportpark",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 7.29,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 7.29,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 9",
+    "bd_short": "LBS/002",
+    "bd_long": "Een groene en propere leefomgeving met meer biodiversiteit, nette straten en minder afval",
+    "ap_code": "LBS/002/003",
+    "ap_short": "Groene straten en parken",
+    "ap_long": "Groene en bloemrijke straten en parken met aandacht voor de biodiversiteit",
+    "ac_code": "LBS/002/003_LBS/002/003/006",
+    "ac_short": "Klimaatpark De Zwaan",
+    "ac_long": "Klimaatpark De Zwaan",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 7.29,
+    "yearly_amounts": {
+      "2026": 125000.0,
+      "2027": 125000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.65,
+      "2027": 3.65,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/002",
+    "ap_short": "Beschermen erfgoed",
+    "ap_long": "Beschermen erfgoed in het centrum",
+    "ac_code": "WAS/001/002_WAS/001/002/004",
+    "ac_short": "Gelmelenpark",
+    "ac_long": "Een heraangelegd Gelmelenpark met fietsparking",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 225000.0,
+    "amount_per_capita": 6.56,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 125000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.92,
+      "2027": 3.65,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 9",
+    "bd_short": "LBS/002",
+    "bd_long": "Een groene en propere leefomgeving met meer biodiversiteit, nette straten en minder afval",
+    "ap_code": "LBS/002/001",
+    "ap_short": "Proper Schoten",
+    "ap_long": "Een proper Schoten",
+    "ac_code": "LBS/002/001_LBS/002/001/002",
+    "ac_short": "Afvalbakkenplan",
+    "ac_long": "Implementeren nieuw innovatief afvalbakkenplan",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 225000.0,
+    "amount_per_capita": 6.56,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.19,
+      "2028": 2.19,
+      "2029": 2.19,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 1",
+    "bd_short": "WAS/001",
+    "bd_long": "Een gezellig en veilig centrum waar het leuk vertoeven is",
+    "ap_code": "WAS/001/001",
+    "ap_short": "Een vernieuwd centrum",
+    "ap_long": "Een vernieuwd centrum voor bewoners, bezoekers en lokale handelaars",
+    "ac_code": "WAS/001/001_WAS/001/001/009",
+    "ac_short": "Cameranetwerk",
+    "ac_long": "Een vast cameranetwerk in het centrum",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 5.83,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 8",
+    "bd_short": "LBS/001",
+    "bd_long": "Schoten zorgt voor verkeersveiligheid en vlotte mobiliteit door goed onderhouden straten en veilige fiets- en voetpaden",
+    "ap_code": "LBS/001/001",
+    "ap_short": "Verkeersveiligheid",
+    "ap_long": "Toekomstbestendige verkeersveiligheid",
+    "ac_code": "LBS/001/001_LBS/001/001/003",
+    "ac_short": "Veilige schoolomgevingen",
+    "ac_long": "Het creëren van veilige schoolomgevingen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 5.83,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.17,
+      "2028": 1.17,
+      "2029": 1.17,
+      "2030": 1.17,
+      "2031": 1.17
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 4",
+    "bd_short": "WAS/004",
+    "bd_long": "Een vlotte en veilige verkeersdoorstroming in Villerslei",
+    "ap_code": "WAS/004/001",
+    "ap_short": "Heraanleg Villerslei",
+    "ap_long": "Villerslei krijgt een verbeterde mobiliteit en fraaier straatbeeld",
+    "ac_code": "WAS/004/001_WAS/004/001/002",
+    "ac_short": "Verkeerslichtinstallatie Villerslei en Sluizenstraat",
+    "ac_long": "Verkeerslichtinstallatie kruispunt Villerslei en Sluizenstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 176000.0,
+    "amount_per_capita": 5.13,
+    "yearly_amounts": {
+      "2026": 176000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.13,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 4",
+    "bd_short": "WAS/004",
+    "bd_long": "Een vlotte en veilige verkeersdoorstroming in Villerslei",
+    "ap_code": "WAS/004/001",
+    "ap_short": "Heraanleg Villerslei",
+    "ap_long": "Villerslei krijgt een verbeterde mobiliteit en fraaier straatbeeld",
+    "ac_code": "WAS/004/001_WAS/004/001/003",
+    "ac_short": "Verkeerslichten Venstraat en Theofiel Van Cauwenberghslei",
+    "ac_long": "Verkeerslichtinstallatie Venstraat en Theofiel Van Cauwenberghslei",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 176000.0,
+    "amount_per_capita": 5.13,
+    "yearly_amounts": {
+      "2026": 176000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.13,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 8",
+    "bd_short": "LBS/001",
+    "bd_long": "Schoten zorgt voor verkeersveiligheid en vlotte mobiliteit door goed onderhouden straten en veilige fiets- en voetpaden",
+    "ap_code": "LBS/001/002",
+    "ap_short": "Onderhoud straten",
+    "ap_long": "Veilige en goed onderhouden straten",
+    "ac_code": "LBS/001/002_LBS/001/002/002",
+    "ac_short": "Verkeerslicht Borkelstr - Churchilllaan - Papenaardekensstr",
+    "ac_long": "Verkeerslichtinstallatie Borkelstraat - Churchilllaan - Papenaardekensstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 176000.0,
+    "amount_per_capita": 5.13,
+    "yearly_amounts": {
+      "2026": 176000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.13,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 6",
+    "bd_short": "WAS/006",
+    "bd_long": "Deuzeld en De Lek krijgen een verbeterde mobiliteit en fraaier straatbeeld",
+    "ap_code": "WAS/006/001",
+    "ap_short": "Onderhoud Deuzeld en De Lek",
+    "ap_long": "Veilige en propere straten in Deuzeld en De Lek",
+    "ac_code": "WAS/006/001_WAS/006/001/005",
+    "ac_short": "Verkeerslichtinstallatie Kruiningenstraat en Metropoolstraat",
+    "ac_long": "Verkeerslichtinstallatie kruispunt Kruiningenstraat en Metropoolstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 175000.0,
+    "amount_per_capita": 5.1,
+    "yearly_amounts": {
+      "2026": 175000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 9",
+    "bd_short": "LBS/002",
+    "bd_long": "Een groene en propere leefomgeving met meer biodiversiteit, nette straten en minder afval",
+    "ap_code": "LBS/002/002",
+    "ap_short": "Begraafplaats",
+    "ap_long": "Een groene, toegankelijke begraafplaats waar ruimte is voor herdenking en ontmoeting",
+    "ac_code": "LBS/002/002_LBS/002/002/002",
+    "ac_short": "Afscheidsplek",
+    "ac_long": "Een overdekte afscheidsplek",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 4.37,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 125000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.73,
+      "2028": 3.65,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 5",
+    "bd_short": "WAS/005",
+    "bd_long": "Een groen, toegankelijk gemeentepark met oog voor erfgoed, sport en beleven",
+    "ap_code": "WAS/005/001",
+    "ap_short": "Renovatie kasteel",
+    "ap_long": "Het gerenoveerde kasteel van Schoten als toegangspoort voor beleven en ontmoeten",
+    "ac_code": "WAS/005/001_WAS/005/001/002",
+    "ac_short": "Wandel- en fietspaden in het gemeentepark",
+    "ac_long": "Vernieuwde wandel- en fietspaden in het gemeentepark",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 130000.0,
+    "amount_per_capita": 3.79,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 65000.0,
+      "2028": 65000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.9,
+      "2028": 1.9,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 22",
+    "bd_short": "BES/001",
+    "bd_long": "Een organisatie gericht op talentontwikkeling, kennisdeling, samenwerking en digitale innovatie binnen een duurzaam uitgeruste (werk)omgeving",
+    "ap_code": "BES/001/002",
+    "ap_short": "Gebouwen, voertuigen en materialen",
+    "ap_long": "Toekomstbestendige gebouwen, voertuigen en materialen",
+    "ac_code": "BES/001/002_BES/001/002/004",
+    "ac_short": "ICT",
+    "ac_long": "Een veilig ICT-landschap klaar voor toekomstige uitdagingen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 125000.0,
+    "amount_per_capita": 3.65,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 125000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.65,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 23",
+    "bd_short": "BES/002",
+    "bd_long": "De ondersteunende diensten versterken de werking waarbij een correcte dienstverlening, bestuurlijke efficiëntie en kostenbewustzijn de leidraad zijn",
+    "ap_code": "BES/002/001",
+    "ap_short": "Expertise ondersteunende diensten",
+    "ap_long": "Ondersteunende diensten versterken met hun expertise de resultaten van de projecten en processen",
+    "ac_code": "BES/002/001_BES/002/001/001",
+    "ac_short": "Besluitvorming",
+    "ac_long": "Kwalitatieve en leesbare besluitvorming",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 115000.0,
+    "amount_per_capita": 3.35,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 115000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.35,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 6",
+    "bd_short": "WAS/006",
+    "bd_long": "Deuzeld en De Lek krijgen een verbeterde mobiliteit en fraaier straatbeeld",
+    "ap_code": "WAS/006/001",
+    "ap_short": "Onderhoud Deuzeld en De Lek",
+    "ap_long": "Veilige en propere straten in Deuzeld en De Lek",
+    "ac_code": "WAS/006/001_WAS/006/001/002",
+    "ac_short": "Trage Weg Borgeindstraat",
+    "ac_long": "Realisatie trage Weg Borgeindstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 112000.0,
+    "amount_per_capita": 3.27,
+    "yearly_amounts": {
+      "2026": 12000.0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.35,
+      "2027": 0,
+      "2028": 1.46,
+      "2029": 1.46,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 2",
+    "bd_short": "WAS/002",
+    "bd_long": "Een vernieuwd toegankelijk sportpark de Zeurt",
+    "ap_code": "WAS/002/002",
+    "ap_short": "Bereikbaar sportpark",
+    "ap_long": "Een toegankelijk en veilig bereikbaar sportpark De Zeurt",
+    "ac_code": "WAS/002/002_WAS/002/002/002",
+    "ac_short": "Sportpark - wandel en fietspaden",
+    "ac_long": "Vernieuwde wandel- en fietspaden in het sportpark",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.92,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.92,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 7",
+    "bd_short": "WAS/007",
+    "bd_long": "Schotenhof met een verbeterde mobiliteit en fraaier straatbeeld",
+    "ap_code": "WAS/007/001",
+    "ap_short": "Schoolomgevingen Schotenhof",
+    "ap_long": "Een veilige schoolomgeving in Schotenhof en Koningshof",
+    "ac_code": "WAS/007/001_WAS/007/001/002",
+    "ac_short": "Bermen Dennenlei, Kunstlei en omgeving",
+    "ac_long": "Herinrichten bermen Dennenlei, Kunstlei en omgeving",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.92,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.46,
+      "2028": 1.46,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 8",
+    "bd_short": "LBS/001",
+    "bd_long": "Schoten zorgt voor verkeersveiligheid en vlotte mobiliteit door goed onderhouden straten en veilige fiets- en voetpaden",
+    "ap_code": "LBS/001/002",
+    "ap_short": "Onderhoud straten",
+    "ap_long": "Veilige en goed onderhouden straten",
+    "ac_code": "LBS/001/002_LBS/001/002/004",
+    "ac_short": "Zeurtebaan",
+    "ac_long": "Wegenwerken Zeurtebaan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.92,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2.92,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 8",
+    "bd_short": "LBS/001",
+    "bd_long": "Schoten zorgt voor verkeersveiligheid en vlotte mobiliteit door goed onderhouden straten en veilige fiets- en voetpaden",
+    "ap_code": "LBS/001/002",
+    "ap_short": "Onderhoud straten",
+    "ap_long": "Veilige en goed onderhouden straten",
+    "ac_code": "LBS/001/002_LBS/001/002/006",
+    "ac_short": "Hofstraat",
+    "ac_long": "Aanleggen Hofstraat in kader van realiseren sociale huisvesting",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.92,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2.92,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 8",
+    "bd_short": "LBS/001",
+    "bd_long": "Schoten zorgt voor verkeersveiligheid en vlotte mobiliteit door goed onderhouden straten en veilige fiets- en voetpaden",
+    "ap_code": "LBS/001/002",
+    "ap_short": "Onderhoud straten",
+    "ap_long": "Veilige en goed onderhouden straten",
+    "ac_code": "LBS/001/002_LBS/001/002/007",
+    "ac_short": "Nieuwe Rand - fietspad",
+    "ac_long": "Nieuwe Rand - fietspad",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.92,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2.92,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 20",
+    "bd_short": "BRS/004",
+    "bd_long": "Een organisatie gericht op klantgerichte dienstverlening en digitale innovatie",
+    "ap_code": "BRS/004/001",
+    "ap_short": "Klantgerichte klantdienstverlening",
+    "ap_long": "Een klantvriendelijke dienstverlening die burgertevredenheid verhoogt",
+    "ac_code": "BRS/004/001_BRS/004/001/002",
+    "ac_short": "Gemeentelijke website",
+    "ac_long": "Een nieuwe toegankelijke, inclusieve en gebruiksvriendelijke gemeentelijke website",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 2.62,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 90000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.62,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 3",
+    "bd_short": "WAS/003",
+    "bd_long": "Wijtschot als een plek voor groene beleving en energiezuinige industriezone",
+    "ap_code": "WAS/003/001",
+    "ap_short": "KMO Wijtschot en natuurpark",
+    "ap_long": "Een energiezuinige KMO-zone Wijtschot en beleving in natuurpark Groen Wijtschot",
+    "ac_code": "WAS/003/001_WAS/003/001/004",
+    "ac_short": "Een ruimte voor neerhofdieren",
+    "ac_long": "Een ruimte voor neerhofdieren",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 2.19,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.19,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 6",
+    "bd_short": "WAS/006",
+    "bd_long": "Deuzeld en De Lek krijgen een verbeterde mobiliteit en fraaier straatbeeld",
+    "ap_code": "WAS/006/001",
+    "ap_short": "Onderhoud Deuzeld en De Lek",
+    "ap_long": "Veilige en propere straten in Deuzeld en De Lek",
+    "ac_code": "WAS/006/001_WAS/006/001/003",
+    "ac_short": "Voetpaden Plantijnlei, Van Beethovenlei, Marialei",
+    "ac_long": "Heraangelegde voetpaden Plantijnlei, Van Beethovenlei, Marialei",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 2.19,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 75000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.19,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 7",
+    "bd_short": "WAS/007",
+    "bd_long": "Schotenhof met een verbeterde mobiliteit en fraaier straatbeeld",
+    "ap_code": "WAS/007/001",
+    "ap_short": "Schoolomgevingen Schotenhof",
+    "ap_long": "Een veilige schoolomgeving in Schotenhof en Koningshof",
+    "ac_code": "WAS/007/001_WAS/007/001/001",
+    "ac_short": "Sint-Maria-Ten-Boslei",
+    "ac_long": "Wegenwerken - Sint-Maria-Ten-Boslei",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 62000.0,
+    "amount_per_capita": 1.81,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 18000.0,
+      "2028": 12000.0,
+      "2029": 32000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.52,
+      "2028": 0.35,
+      "2029": 0.93,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 22",
+    "bd_short": "BES/001",
+    "bd_long": "Een organisatie gericht op talentontwikkeling, kennisdeling, samenwerking en digitale innovatie binnen een duurzaam uitgeruste (werk)omgeving",
+    "ap_code": "BES/001/002",
+    "ap_short": "Gebouwen, voertuigen en materialen",
+    "ap_long": "Toekomstbestendige gebouwen, voertuigen en materialen",
+    "ac_code": "BES/001/002_BES/001/002/003",
+    "ac_short": "Zonnepanelen",
+    "ac_long": "Inzetten op zonnepanelen op gemeentelijke gebouwen",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 1.46,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25000.0,
+      "2029": 0,
+      "2030": 25000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.73,
+      "2029": 0,
+      "2030": 0.73,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 9",
+    "bd_short": "LBS/002",
+    "bd_long": "Een groene en propere leefomgeving met meer biodiversiteit, nette straten en minder afval",
+    "ap_code": "LBS/002/002",
+    "ap_short": "Begraafplaats",
+    "ap_long": "Een groene, toegankelijke begraafplaats waar ruimte is voor herdenking en ontmoeting",
+    "ac_code": "LBS/002/002_LBS/002/002/004",
+    "ac_short": "Ontmoetingsruimte",
+    "ac_long": "Een gerenoveerde, toegankelijke ontmoetingsruimte",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 1.17,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 40000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1.17,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 9",
+    "bd_short": "LBS/002",
+    "bd_long": "Een groene en propere leefomgeving met meer biodiversiteit, nette straten en minder afval",
+    "ap_code": "LBS/002/001",
+    "ap_short": "Proper Schoten",
+    "ap_long": "Een proper Schoten",
+    "ac_code": "LBS/002/001_LBS/002/001/001",
+    "ac_short": "Stints voor propere straten",
+    "ac_long": "Uitbreiding van Stints voor propere straten",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 35000.0,
+    "amount_per_capita": 1.02,
+    "yearly_amounts": {
+      "2026": 35000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 14",
+    "bd_short": "ZZS/003",
+    "bd_long": "Bevorderd welzijn van senioren via preventie, sensibilisering en toegankelijke ondersteuning in samenwerking met lokale partners",
+    "ap_code": "ZZS/003/001",
+    "ap_short": "Geïnformeerde senioren",
+    "ap_long": "Geïnformeerde senioren over zorg, wonen, vrije tijd en sociaal netwerk",
+    "ac_code": "ZZS/003/001_ZZS/003/001/005",
+    "ac_short": "Seniorenbeleid",
+    "ac_long": "Een seniorenbeleid met oog voor zorg, participatie, toegankelijkheid en activiteiten",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.87,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 30000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.87,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 22",
+    "bd_short": "BES/001",
+    "bd_long": "Een organisatie gericht op talentontwikkeling, kennisdeling, samenwerking en digitale innovatie binnen een duurzaam uitgeruste (werk)omgeving",
+    "ap_code": "BES/001/002",
+    "ap_short": "Gebouwen, voertuigen en materialen",
+    "ap_long": "Toekomstbestendige gebouwen, voertuigen en materialen",
+    "ac_code": "BES/001/002_BES/001/002/006",
+    "ac_short": "Facilitair beheer",
+    "ac_long": "Een modern en efficiënt facilitair beheer",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.87,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 30000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.87,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 6",
+    "bd_short": "WAS/006",
+    "bd_long": "Deuzeld en De Lek krijgen een verbeterde mobiliteit en fraaier straatbeeld",
+    "ap_code": "WAS/006/001",
+    "ap_short": "Onderhoud Deuzeld en De Lek",
+    "ap_long": "Veilige en propere straten in Deuzeld en De Lek",
+    "ac_code": "WAS/006/001_WAS/006/001/004",
+    "ac_short": "Voetpaden Voorschotenlaan",
+    "ac_long": "Heraangelegde voetpaden Voorschotenlaan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 0.73,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 25000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.73,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 9",
+    "bd_short": "LBS/002",
+    "bd_long": "Een groene en propere leefomgeving met meer biodiversiteit, nette straten en minder afval",
+    "ap_code": "LBS/002/002",
+    "ap_short": "Begraafplaats",
+    "ap_long": "Een groene, toegankelijke begraafplaats waar ruimte is voor herdenking en ontmoeting",
+    "ac_code": "LBS/002/002_LBS/002/002/001",
+    "ac_short": "Inrichtingsplan begraafplaats",
+    "ac_long": "Een inrichtingsplan voor de begraafplaats met aandacht voor vergroening en toegankelijkheid",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 18000.0,
+    "amount_per_capita": 0.52,
+    "yearly_amounts": {
+      "2026": 18000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 22",
+    "bd_short": "BES/001",
+    "bd_long": "Een organisatie gericht op talentontwikkeling, kennisdeling, samenwerking en digitale innovatie binnen een duurzaam uitgeruste (werk)omgeving",
+    "ap_code": "BES/001/001",
+    "ap_short": "Organistiecultuur",
+    "ap_long": "Een open en enthousiaste organisatiecultuur waar mensen graag werken",
+    "ac_code": "BES/001/001_BES/001/001/002",
+    "ac_short": "Ontmoetingsplek personeel",
+    "ac_long": "Een centrale ontmoetings- en lunchplek voor het personeel",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.44,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Schoten",
+    "nis_code": "11040",
+    "bd_code": "BDS 9",
+    "bd_short": "LBS/002",
+    "bd_long": "Een groene en propere leefomgeving met meer biodiversiteit, nette straten en minder afval",
+    "ap_code": "LBS/002/002",
+    "ap_short": "Begraafplaats",
+    "ap_long": "Een groene, toegankelijke begraafplaats waar ruimte is voor herdenking en ontmoeting",
+    "ac_code": "LBS/002/002_LBS/002/002/003",
+    "ac_short": "Herdenkingselement strooiweide",
+    "ac_long": "Een herdenkingselement aan de strooiweide",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.44,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 15000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.44,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

@@ -2,40 +2,6 @@
   {
     "municipality": "Meerhout",
     "nis_code": "13021",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "GBBE",
-    "ap_short": "Gelijkblijvend beleid",
-    "ap_long": "Gelijkblijvend beleid algemeen",
-    "ac_code": "GBB",
-    "ac_short": "Gelijkblijvend beleid team bibliotheek",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 8877193.0,
-    "amount_per_capita": 844.17,
-    "yearly_amounts": {
-      "2026": 4241000.0,
-      "2027": 1305369.0,
-      "2028": 981074.0,
-      "2029": 930255.0,
-      "2030": 714071.0,
-      "2031": 705424.0
-    },
-    "yearly_per_capita": {
-      "2026": 403.29,
-      "2027": 124.13,
-      "2028": 93.29,
-      "2029": 88.46,
-      "2030": 67.9,
-      "2031": 67.08
-    }
-  },
-  {
-    "municipality": "Meerhout",
-    "nis_code": "13021",
     "bd_code": "5",
     "bd_short": "Meerhout focust op een klantgerichte dienstverlening.",
     "bd_long": "Kwalitatieve omschrijving: Binnen het kader van een zorgzame en toegankelijke gemeente wordt gewerkt aan de ontwikkeling van een scholencampus op de site Schoolstraat, wat bijdraagt aan de toekomst van onderwijs en gemeenschapsvorming. ​\nMeerhout wil daarnaast ook inzetten op een toegankelijke dienstverlening. Er wordt gewerkt aan digitalisering, automatische rechtentoekenning en stroomlijnen van interne processen. Het is ook aangewezen om een duidelijk aanspreekpunt te maken waar vragen voor en door senioren gesteld kunnen worden. ​\nTot slot wil Meerhout inzetten op de optimalisatie van de eigen werking en de versterking van de samenwerkingsverbanden van de sociale dienst.",
@@ -49,7 +15,7 @@
       "08-onderwijs"
     ],
     "total_amount": 6147000.0,
-    "amount_per_capita": 584.54,
+    "amount_per_capita": 583.02,
     "yearly_amounts": {
       "2026": 147000.0,
       "2027": 1700000.0,
@@ -59,12 +25,46 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 13.98,
-      "2027": 161.66,
-      "2028": 209.21,
-      "2029": 142.64,
-      "2030": 57.06,
+      "2026": 13.94,
+      "2027": 161.24,
+      "2028": 208.66,
+      "2029": 142.27,
+      "2030": 56.91,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-OW4",
+    "ac_short": "Gelijkblijvend beleid grote projecten patrimonium",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 1757400.0,
+    "amount_per_capita": 166.68,
+    "yearly_amounts": {
+      "2026": 1707400.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 161.94,
+      "2027": 0.95,
+      "2028": 0.95,
+      "2029": 0.95,
+      "2030": 0.95,
+      "2031": 0.95
     }
   },
   {
@@ -83,7 +83,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1690000.0,
-    "amount_per_capita": 160.71,
+    "amount_per_capita": 160.29,
     "yearly_amounts": {
       "2026": 440000.0,
       "2027": 250000.0,
@@ -93,12 +93,12 @@
       "2031": 250000.0
     },
     "yearly_per_capita": {
-      "2026": 41.84,
-      "2027": 23.77,
-      "2028": 23.77,
-      "2029": 23.77,
-      "2030": 23.77,
-      "2031": 23.77
+      "2026": 41.73,
+      "2027": 23.71,
+      "2028": 23.71,
+      "2029": 23.71,
+      "2030": 23.71,
+      "2031": 23.71
     }
   },
   {
@@ -117,7 +117,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1674000.0,
-    "amount_per_capita": 159.19,
+    "amount_per_capita": 158.77,
     "yearly_amounts": {
       "2026": 1220000.0,
       "2027": 424000.0,
@@ -127,12 +127,182 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 116.01,
-      "2027": 40.32,
+      "2026": 115.71,
+      "2027": 40.21,
       "2028": 0,
       "2029": 2.85,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-FIN",
+    "ac_short": "Gelijkblijvend beleid team financiën",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1581444.0,
+    "amount_per_capita": 149.99,
+    "yearly_amounts": {
+      "2026": 263574.0,
+      "2027": 263574.0,
+      "2028": 263574.0,
+      "2029": 263574.0,
+      "2030": 263574.0,
+      "2031": 263574.0
+    },
+    "yearly_per_capita": {
+      "2026": 25.0,
+      "2027": 25.0,
+      "2028": 25.0,
+      "2029": 25.0,
+      "2030": 25.0,
+      "2031": 25.0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-M&V",
+    "ac_short": "Gelijkblijvend beleid team mobiliteit en veiligheid",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1015871.63,
+    "amount_per_capita": 96.35,
+    "yearly_amounts": {
+      "2026": 238426.16,
+      "2027": 152025.13,
+      "2028": 153758.58,
+      "2029": 155466.7,
+      "2030": 157208.97,
+      "2031": 158986.09
+    },
+    "yearly_per_capita": {
+      "2026": 22.61,
+      "2027": 14.42,
+      "2028": 14.58,
+      "2029": 14.75,
+      "2030": 14.91,
+      "2031": 15.08
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-ICT",
+    "ac_short": "Gelijkblijvend beleid team ICT",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 880500.0,
+    "amount_per_capita": 83.51,
+    "yearly_amounts": {
+      "2026": 440500.0,
+      "2027": 40000.0,
+      "2028": 240000.0,
+      "2029": 60000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 41.78,
+      "2027": 3.79,
+      "2028": 22.76,
+      "2029": 5.69,
+      "2030": 4.74,
+      "2031": 4.74
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-OW1",
+    "ac_short": "Gelijkblijvend beleid grote projecten openbaar domein",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 675000.0,
+    "amount_per_capita": 64.02,
+    "yearly_amounts": {
+      "2026": 675000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 64.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-WZC",
+    "ac_short": "Gelijkblijvend beleid team woonzorgcentrum De Berk",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 674000.0,
+    "amount_per_capita": 63.93,
+    "yearly_amounts": {
+      "2026": 136000.0,
+      "2027": 120500.0,
+      "2028": 120000.0,
+      "2029": 99000.0,
+      "2030": 103000.0,
+      "2031": 95500.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.9,
+      "2027": 11.43,
+      "2028": 11.38,
+      "2029": 9.39,
+      "2030": 9.77,
+      "2031": 9.06
     }
   },
   {
@@ -151,7 +321,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 651500.0,
-    "amount_per_capita": 61.95,
+    "amount_per_capita": 61.79,
     "yearly_amounts": {
       "2026": 212000.0,
       "2027": 175500.0,
@@ -161,10 +331,78 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 20.16,
-      "2027": 16.69,
+      "2026": 20.11,
+      "2027": 16.65,
       "2028": 0,
-      "2029": 25.1,
+      "2029": 25.04,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-PRIO3",
+    "ac_short": "Onderhoud en beheer wagenpark",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 648000.0,
+    "amount_per_capita": 61.46,
+    "yearly_amounts": {
+      "2026": 403000.0,
+      "2027": 245000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 38.22,
+      "2027": 23.24,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-PRIO1",
+    "ac_short": "Uitvoeringsdienst openbaar domein",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 602300.0,
+    "amount_per_capita": 57.13,
+    "yearly_amounts": {
+      "2026": 90500.0,
+      "2027": 325200.0,
+      "2028": 51600.0,
+      "2029": 135000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.58,
+      "2027": 30.84,
+      "2028": 4.89,
+      "2029": 12.8,
       "2030": 0,
       "2031": 0
     }
@@ -185,7 +423,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 588000.0,
-    "amount_per_capita": 55.92,
+    "amount_per_capita": 55.77,
     "yearly_amounts": {
       "2026": 30000.0,
       "2027": 108000.0,
@@ -196,11 +434,113 @@
     },
     "yearly_per_capita": {
       "2026": 2.85,
-      "2027": 10.27,
-      "2028": 42.79,
+      "2027": 10.24,
+      "2028": 42.68,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-OW2",
+    "ac_short": "Gelijkblijvend beleid kleine projecten openbaar domein",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 28.45,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.74,
+      "2027": 4.74,
+      "2028": 4.74,
+      "2029": 4.74,
+      "2030": 4.74,
+      "2031": 4.74
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-OND",
+    "ac_short": "Gelijkblijvend beleid team onderwijs",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 214000.0,
+    "amount_per_capita": 20.3,
+    "yearly_amounts": {
+      "2026": 89000.0,
+      "2027": 9000.0,
+      "2028": 9000.0,
+      "2029": 89000.0,
+      "2030": 9000.0,
+      "2031": 9000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.44,
+      "2027": 0.85,
+      "2028": 0.85,
+      "2029": 8.44,
+      "2030": 0.85,
+      "2031": 0.85
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-SPORT",
+    "ac_short": "Gelijkblijvend beleid team sport",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 195500.0,
+    "amount_per_capita": 18.54,
+    "yearly_amounts": {
+      "2026": 62500.0,
+      "2027": 39000.0,
+      "2028": 23500.0,
+      "2029": 23500.0,
+      "2030": 23500.0,
+      "2031": 23500.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.93,
+      "2027": 3.7,
+      "2028": 2.23,
+      "2029": 2.23,
+      "2030": 2.23,
+      "2031": 2.23
     }
   },
   {
@@ -219,7 +559,7 @@
       "00-algemene-financiering"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 11.41,
+    "amount_per_capita": 11.38,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 20000.0,
@@ -253,7 +593,7 @@
       "08-onderwijs"
     ],
     "total_amount": 103000.0,
-    "amount_per_capita": 9.79,
+    "amount_per_capita": 9.77,
     "yearly_amounts": {
       "2026": 85000.0,
       "2027": 18000.0,
@@ -263,7 +603,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.08,
+      "2026": 8.06,
       "2027": 1.71,
       "2028": 0,
       "2029": 0,
@@ -287,7 +627,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 90000.0,
-    "amount_per_capita": 8.56,
+    "amount_per_capita": 8.54,
     "yearly_amounts": {
       "2026": 0,
       "2027": 30000.0,
@@ -308,6 +648,74 @@
   {
     "municipality": "Meerhout",
     "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-PRIO2",
+    "ac_short": "Uitvoeringsdienst patrimonium en schoonmaak",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 86577.0,
+    "amount_per_capita": 8.21,
+    "yearly_amounts": {
+      "2026": 13750.0,
+      "2027": 14820.0,
+      "2028": 13891.0,
+      "2029": 14964.0,
+      "2030": 14038.0,
+      "2031": 15114.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.3,
+      "2027": 1.41,
+      "2028": 1.32,
+      "2029": 1.42,
+      "2030": 1.33,
+      "2031": 1.43
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-OW5",
+    "ac_short": "Gelijkblijvend beleid beheer patrimonium",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 7.59,
+    "yearly_amounts": {
+      "2026": 17500.0,
+      "2027": 12500.0,
+      "2028": 12500.0,
+      "2029": 12500.0,
+      "2030": 12500.0,
+      "2031": 12500.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.66,
+      "2027": 1.19,
+      "2028": 1.19,
+      "2029": 1.19,
+      "2030": 1.19,
+      "2031": 1.19
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
     "bd_code": "3",
     "bd_short": "Meerhout optimaliseert de mobiliteit in de gemeente.",
     "bd_long": "Kwalitatieve omschrijving: Meerhout optimaliseert de mobiliteit in de gemeente met focus op verkeersveiligheid, kwalitatieve infrastructuur en duurzame vervoersopties.\nMeerhout wil dat iedereen zich veilig, vlot en duurzaam kan verplaatsen. Door te investeren in een gedragen mobiliteitsaanpak, verkeersveilige infrastructuur en duurzame vervoerskeuzes bouwen we aan een bereikbare en leefbare gemeente voor iedereen.",
@@ -321,7 +729,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 75000.0,
-    "amount_per_capita": 7.13,
+    "amount_per_capita": 7.11,
     "yearly_amounts": {
       "2026": 37500.0,
       "2027": 7500.0,
@@ -331,7 +739,7 @@
       "2031": 7500.0
     },
     "yearly_per_capita": {
-      "2026": 3.57,
+      "2026": 3.56,
       "2027": 0.71,
       "2028": 0.71,
       "2029": 0.71,
@@ -355,7 +763,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 60000.0,
-    "amount_per_capita": 5.71,
+    "amount_per_capita": 5.69,
     "yearly_amounts": {
       "2026": 60000.0,
       "2027": 0,
@@ -365,12 +773,80 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.71,
+      "2026": 5.69,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-TOER",
+    "ac_short": "Gelijkblijvend beleid team toerisme",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 45000.0,
+    "amount_per_capita": 4.27,
+    "yearly_amounts": {
+      "2026": 28500.0,
+      "2027": 0,
+      "2028": 13500.0,
+      "2029": 0,
+      "2030": 3000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.7,
+      "2027": 0,
+      "2028": 1.28,
+      "2029": 0,
+      "2030": 0.28,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-CULT",
+    "ac_short": "Gelijkblijvend beleid team cultuur",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 40500.0,
+    "amount_per_capita": 3.84,
+    "yearly_amounts": {
+      "2026": 6250.0,
+      "2027": 6250.0,
+      "2028": 7750.0,
+      "2029": 6250.0,
+      "2030": 6250.0,
+      "2031": 7750.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.59,
+      "2027": 0.59,
+      "2028": 0.74,
+      "2029": 0.59,
+      "2030": 0.59,
+      "2031": 0.74
     }
   },
   {
@@ -389,7 +865,7 @@
       "08-onderwijs"
     ],
     "total_amount": 32500.0,
-    "amount_per_capita": 3.09,
+    "amount_per_capita": 3.08,
     "yearly_amounts": {
       "2026": 5000.0,
       "2027": 7500.0,
@@ -399,12 +875,46 @@
       "2031": 5000.0
     },
     "yearly_per_capita": {
-      "2026": 0.48,
+      "2026": 0.47,
       "2027": 0.71,
-      "2028": 0.48,
-      "2029": 0.48,
-      "2030": 0.48,
-      "2031": 0.48
+      "2028": 0.47,
+      "2029": 0.47,
+      "2030": 0.47,
+      "2031": 0.47
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-DUZA",
+    "ac_short": "Gelijkblijvend beleid team duurzaamheid",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 31400.0,
+    "amount_per_capita": 2.98,
+    "yearly_amounts": {
+      "2026": 6400.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.61,
+      "2027": 0.47,
+      "2028": 0.47,
+      "2029": 0.47,
+      "2030": 0.47,
+      "2031": 0.47
     }
   },
   {
@@ -457,7 +967,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 16500.0,
-    "amount_per_capita": 1.57,
+    "amount_per_capita": 1.56,
     "yearly_amounts": {
       "2026": 16500.0,
       "2027": 0,
@@ -467,10 +977,112 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.57,
+      "2026": 1.56,
       "2027": 0,
       "2028": 0,
       "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-WEL3",
+    "ac_short": "Werkingsmiddelen team welzijn",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 1.42,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 2500.0,
+      "2028": 2500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.24,
+      "2027": 0.24,
+      "2028": 0.24,
+      "2029": 0.24,
+      "2030": 0.24,
+      "2031": 0.24
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-BIB",
+    "ac_short": "Gelijkblijvend beleid team bibliotheek",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 7500.0,
+    "amount_per_capita": 0.71,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 0,
+      "2028": 2500.0,
+      "2029": 0,
+      "2030": 2500.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.24,
+      "2027": 0,
+      "2028": 0.24,
+      "2029": 0,
+      "2030": 0.24,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-IZ",
+    "ac_short": "Gelijkblijvend beleid team onthaal, economaat en secretariaat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 7200.0,
+    "amount_per_capita": 0.68,
+    "yearly_amounts": {
+      "2026": 5700.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.54,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.14,
       "2030": 0,
       "2031": 0
     }
@@ -491,7 +1103,7 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 7000.0,
-    "amount_per_capita": 0.67,
+    "amount_per_capita": 0.66,
     "yearly_amounts": {
       "2026": 0,
       "2027": 7000.0,
@@ -502,11 +1114,79 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0.67,
+      "2027": 0.66,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-BOABK",
+    "ac_short": "BOA kinderopvang",
+    "ac_long": "De doelgroep van onze buitenschools kinderopvang zijn kinderen van 2,5 tot 12 jaar (gebruikers aanbod), met een bijzondere aandacht op kwetsbare kinderen en kinderen met een specifieke zorgbehoefte. De buitenschoolse opvang realiseert opvang met bijzondere aandacht voor kleuters (~ kleuters hebben een grotere behoefte aan een ‘veilig nest’, zorg en begeleiding). De buitenschoolse opvang voldoet aan de vastgestelde kwaliteitscriteria (voor 1/09/2026:  kwaliteitslabel kleuteropvang, vanaf 1/09/2026:lokaal kwaliteitskader). De buitenschoolse opvang speelt in op 3 maatschappelijke functies: 1) Spelmogelijkheden en ontplooiingskansen voor elk kind, keuzevrijheid en recht op rust (pedagogische functie), 2) Mogelijkheid voor ouders om werk, opleiding en gezin te combineren (economische functie), 3) Aanbod opvang toegankelijk en betaalbaar maken voor iedereen (sociale functie) - aandacht op het meekrijgen van kwetsbare groepen. Deze kosten dragen bij aan het waarmaken van deze opdracht!",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 6000.0,
+    "amount_per_capita": 0.57,
+    "yearly_amounts": {
+      "2026": 500.0,
+      "2027": 3500.0,
+      "2028": 500.0,
+      "2029": 500.0,
+      "2030": 500.0,
+      "2031": 500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.05,
+      "2027": 0.33,
+      "2028": 0.05,
+      "2029": 0.05,
+      "2030": 0.05,
+      "2031": 0.05
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-PAT",
+    "ac_short": "Gelijkblijvend beleid team patrimonium",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 6000.0,
+    "amount_per_capita": 0.57,
+    "yearly_amounts": {
+      "2026": 1000.0,
+      "2027": 1000.0,
+      "2028": 1000.0,
+      "2029": 1000.0,
+      "2030": 1000.0,
+      "2031": 1000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.09,
+      "2027": 0.09,
+      "2028": 0.09,
+      "2029": 0.09,
+      "2030": 0.09,
+      "2031": 0.09
     }
   },
   {
@@ -546,6 +1226,40 @@
   {
     "municipality": "Meerhout",
     "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-CULT11",
+    "ac_short": "Gelijkblijvend beleid 'Uitleendienst'",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.47,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 5000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.47,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
     "bd_code": "4",
     "bd_short": "Meerhout wil een zorgzame gemeente zijn.",
     "bd_long": "Kwalitatieve omschrijving: Meerhout wil een zorgzame gemeente zijn. We zetten actief in op welzijn, welbevinden en veiligheid zodat alle inwoners zich veilig en geborgen voelen in hun leefomgeving. We bevorderen de sociale cohesie, ondersteunen kwetsbare groepen en verbeteren de kwaliteit en de toegankelijkheid van diensten en voorzieningen.\nMeerhout wil inzetten op een warme en inclusieve samenleving waar elke burger zich thuis voelt.",
@@ -575,6 +1289,40 @@
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Meerhout",
+    "nis_code": "13021",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBBE",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Gelijkblijvend beleid algemeen",
+    "ac_code": "GBB-CULT22",
+    "ac_short": "Gelijkblijvend beleid 'UiT-pas'",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.28,
+    "yearly_amounts": {
+      "2026": 500.0,
+      "2027": 500.0,
+      "2028": 500.0,
+      "2029": 500.0,
+      "2030": 500.0,
+      "2031": 500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.05,
+      "2027": 0.05,
+      "2028": 0.05,
+      "2029": 0.05,
+      "2030": 0.05,
+      "2031": 0.05
     }
   }
 ]

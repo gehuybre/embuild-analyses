@@ -15,18 +15,18 @@
       "02-mobiliteit"
     ],
     "total_amount": 2100000.0,
-    "amount_per_capita": 220.55,
+    "amount_per_capita": 219.6,
     "yearly_amounts": {
-      "2026": 1650000.0,
-      "2027": 450000.0,
+      "2026": 1100000.0,
+      "2027": 1000000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 173.29,
-      "2027": 47.26,
+      "2026": 115.03,
+      "2027": 104.57,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -49,7 +49,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 2025000.0,
-    "amount_per_capita": 212.68,
+    "amount_per_capita": 211.76,
     "yearly_amounts": {
       "2026": 2010000.0,
       "2027": 15000.0,
@@ -59,8 +59,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 211.1,
-      "2027": 1.58,
+      "2026": 210.19,
+      "2027": 1.57,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -83,7 +83,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1500000.0,
-    "amount_per_capita": 157.54,
+    "amount_per_capita": 156.86,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -95,42 +95,8 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 78.77,
-      "2029": 78.77,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Halen",
-    "nis_code": "71020",
-    "bd_code": "BD000060",
-    "bd_short": "Halen is een levendige stad met boeiende dorpskernen",
-    "bd_long": "Halen is een levendige stad met boeiende dorpskernen",
-    "ap_code": "AP000292",
-    "ap_short": "De dorpskernen zijn levendige centra waar iedereen zich goed voelt",
-    "ap_long": "De dorpskernen zijn levendige centra waar iedereen zich goed voelt",
-    "ac_code": "AC001598",
-    "ac_short": "Toekomstvisie bepalen mbt het buurthuis met de stakeholders",
-    "ac_long": "Toekomstvisie bepalen mbt het buurthuis met de stakeholders in de loop van 2026",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 885000.0,
-    "amount_per_capita": 92.95,
-    "yearly_amounts": {
-      "2026": 200000.0,
-      "2027": 335000.0,
-      "2028": 350000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 21.01,
-      "2027": 35.18,
-      "2028": 36.76,
-      "2029": 0,
+      "2028": 78.43,
+      "2029": 78.43,
       "2030": 0,
       "2031": 0
     }
@@ -151,7 +117,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 850000.0,
-    "amount_per_capita": 89.27,
+    "amount_per_capita": 88.89,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -163,8 +129,8 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 57.76,
-      "2029": 31.51,
+      "2028": 57.51,
+      "2029": 31.37,
       "2030": 0,
       "2031": 0
     }
@@ -185,22 +151,22 @@
       "08-onderwijs"
     ],
     "total_amount": 609500.0,
-    "amount_per_capita": 64.01,
+    "amount_per_capita": 63.74,
     "yearly_amounts": {
-      "2026": 127000.0,
-      "2027": 344500.0,
-      "2028": 109500.0,
-      "2029": 9500.0,
-      "2030": 9500.0,
-      "2031": 9500.0
+      "2026": 92000.0,
+      "2027": 351500.0,
+      "2028": 116500.0,
+      "2029": 16500.0,
+      "2030": 16500.0,
+      "2031": 16500.0
     },
     "yearly_per_capita": {
-      "2026": 13.34,
-      "2027": 36.18,
-      "2028": 11.5,
-      "2029": 1.0,
-      "2030": 1.0,
-      "2031": 1.0
+      "2026": 9.62,
+      "2027": 36.76,
+      "2028": 12.18,
+      "2029": 1.73,
+      "2030": 1.73,
+      "2031": 1.73
     }
   },
   {
@@ -219,7 +185,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 600000.0,
-    "amount_per_capita": 63.02,
+    "amount_per_capita": 62.74,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -231,8 +197,8 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 31.51,
-      "2029": 31.51,
+      "2028": 31.37,
+      "2029": 31.37,
       "2030": 0,
       "2031": 0
     }
@@ -253,7 +219,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 585000.0,
-    "amount_per_capita": 61.44,
+    "amount_per_capita": 61.17,
     "yearly_amounts": {
       "2026": 420000.0,
       "2027": 165000.0,
@@ -263,8 +229,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 44.11,
-      "2027": 17.33,
+      "2026": 43.92,
+      "2027": 17.25,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -274,35 +240,35 @@
   {
     "municipality": "Halen",
     "nis_code": "71020",
-    "bd_code": "BD000061",
-    "bd_short": "Het openbaar domein van de stad Halen is onderhouden",
-    "bd_long": "Het openbaar domein van de stad Halen is onderhouden",
-    "ap_code": "AP000296",
-    "ap_short": "Het eigen patrimonium wordt op een optimale manier onderhouden",
-    "ap_long": "Het eigen patrimonium wordt op een optimale manier onderhouden",
-    "ac_code": "AC001608",
-    "ac_short": "Het wagenpark is onderhouden en vervangen indien nodig",
-    "ac_long": "Het wagenpark is onderhouden en vervangen indien nodig",
+    "bd_code": "BD000064",
+    "bd_short": "Halen voert een participerend mobiliteitsbeleid dat de mobiliteit en de veiligheid van haar burgers",
+    "bd_long": "Halen voert een participerend mobiliteitsbeleid dat de mobiliteit en de veiligheid van haar burgers centraal stelt",
+    "ap_code": "AP000315",
+    "ap_short": "Goed onderhouden wegeninfrastructuur met aandacht voor de zwakke weggebruiker",
+    "ap_long": "Goed onderhouden wegeninfrastructuur met aandacht voor de zwakke weggebruiker",
+    "ac_code": "AC001656",
+    "ac_short": "De buurtwegen zijn onderhouden met aandacht voor voet- en fietspaden",
+    "ac_long": "De buurtwegen zijn onderhouden met aandacht voor voet- en fietspaden",
     "categories": [
-      "01-algemeen-bestuur"
+      "overige"
     ],
-    "total_amount": 455000.0,
-    "amount_per_capita": 47.79,
+    "total_amount": 531714.0,
+    "amount_per_capita": 55.6,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 35000.0,
-      "2028": 0,
-      "2029": 285000.0,
-      "2030": 0,
-      "2031": 135000.0
+      "2026": 138743.0,
+      "2027": 138718.0,
+      "2028": 137786.0,
+      "2029": 12747.0,
+      "2030": 12601.0,
+      "2031": 91119.0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 3.68,
-      "2028": 0,
-      "2029": 29.93,
-      "2030": 0,
-      "2031": 14.18
+      "2026": 14.51,
+      "2027": 14.51,
+      "2028": 14.41,
+      "2029": 1.33,
+      "2030": 1.32,
+      "2031": 9.53
     }
   },
   {
@@ -321,22 +287,22 @@
       "02-mobiliteit"
     ],
     "total_amount": 310000.0,
-    "amount_per_capita": 32.56,
+    "amount_per_capita": 32.42,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 200000.0,
-      "2031": 110000.0
+      "2030": 110000.0,
+      "2031": 200000.0
     },
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 21.01,
-      "2031": 11.55
+      "2030": 11.5,
+      "2031": 20.91
     }
   },
   {
@@ -355,7 +321,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 210000.0,
-    "amount_per_capita": 22.06,
+    "amount_per_capita": 21.96,
     "yearly_amounts": {
       "2026": 0,
       "2027": 210000.0,
@@ -366,7 +332,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 22.06,
+      "2027": 21.96,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -389,22 +355,56 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 200000.0,
-    "amount_per_capita": 21.01,
+    "amount_per_capita": 20.91,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
-      "2028": 100000.0,
-      "2029": 0,
+      "2028": 50000.0,
+      "2029": 50000.0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 10.5,
+      "2026": 10.46,
       "2027": 0,
-      "2028": 10.5,
-      "2029": 0,
+      "2028": 5.23,
+      "2029": 5.23,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Halen",
+    "nis_code": "71020",
+    "bd_code": "BD000061",
+    "bd_short": "Het openbaar domein van de stad Halen is onderhouden",
+    "bd_long": "Het openbaar domein van de stad Halen is onderhouden",
+    "ap_code": "AP000296",
+    "ap_short": "Het eigen patrimonium wordt op een optimale manier onderhouden",
+    "ap_long": "Het eigen patrimonium wordt op een optimale manier onderhouden",
+    "ac_code": "AC001608",
+    "ac_short": "Het wagenpark is onderhouden en vervangen indien nodig",
+    "ac_long": "Het wagenpark is onderhouden en vervangen indien nodig",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 175000.0,
+    "amount_per_capita": 18.3,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 35000.0,
+      "2028": 0,
+      "2029": 70000.0,
+      "2030": 0,
+      "2031": 70000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.66,
+      "2028": 0,
+      "2029": 7.32,
+      "2030": 0,
+      "2031": 7.32
     }
   },
   {
@@ -423,22 +423,22 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 15.75,
+    "amount_per_capita": 15.69,
     "yearly_amounts": {
-      "2026": 75000.0,
-      "2027": 15000.0,
-      "2028": 15000.0,
-      "2029": 15000.0,
-      "2030": 15000.0,
-      "2031": 15000.0
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 7.88,
-      "2027": 1.58,
-      "2028": 1.58,
-      "2029": 1.58,
-      "2030": 1.58,
-      "2031": 1.58
+      "2026": 2.61,
+      "2027": 2.61,
+      "2028": 2.61,
+      "2029": 2.61,
+      "2030": 2.61,
+      "2031": 2.61
     }
   },
   {
@@ -457,7 +457,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 125000.0,
-    "amount_per_capita": 13.13,
+    "amount_per_capita": 13.07,
     "yearly_amounts": {
       "2026": 0,
       "2027": 25000.0,
@@ -468,8 +468,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 2.63,
-      "2028": 10.5,
+      "2027": 2.61,
+      "2028": 10.46,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -491,22 +491,22 @@
       "02-mobiliteit"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 12.6,
+    "amount_per_capita": 12.55,
     "yearly_amounts": {
-      "2026": 85000.0,
-      "2027": 5000.0,
-      "2028": 10000.0,
-      "2029": 5000.0,
-      "2030": 10000.0,
-      "2031": 5000.0
+      "2026": 52500.0,
+      "2027": 37500.0,
+      "2028": 22500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
     },
     "yearly_per_capita": {
-      "2026": 8.93,
-      "2027": 0.53,
-      "2028": 1.05,
-      "2029": 0.53,
-      "2030": 1.05,
-      "2031": 0.53
+      "2026": 5.49,
+      "2027": 3.92,
+      "2028": 2.35,
+      "2029": 0.26,
+      "2030": 0.26,
+      "2031": 0.26
     }
   },
   {
@@ -525,7 +525,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 112500.0,
-    "amount_per_capita": 11.82,
+    "amount_per_capita": 11.76,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 12500.0,
@@ -535,7 +535,7 @@
       "2031": 12500.0
     },
     "yearly_per_capita": {
-      "2026": 5.25,
+      "2026": 5.23,
       "2027": 1.31,
       "2028": 1.31,
       "2029": 1.31,
@@ -559,7 +559,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 110000.0,
-    "amount_per_capita": 11.55,
+    "amount_per_capita": 11.5,
     "yearly_amounts": {
       "2026": 55000.0,
       "2027": 55000.0,
@@ -569,8 +569,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.78,
-      "2027": 5.78,
+      "2026": 5.75,
+      "2027": 5.75,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -593,7 +593,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 10.5,
+    "amount_per_capita": 10.46,
     "yearly_amounts": {
       "2026": 0,
       "2027": 40000.0,
@@ -604,42 +604,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 4.2,
-      "2028": 6.3,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Halen",
-    "nis_code": "71020",
-    "bd_code": "BD000069",
-    "bd_short": "Stad Halen bouwt aan een rijk en gevarieerd buitenschools aanbod",
-    "bd_long": "Stad Halen bouwt aan een rijk en gevarieerd buitenschools aanbod dat aansluit bij de noden van kinderen en gezinnen in de buurt",
-    "ap_code": "AP000345",
-    "ap_short": "De kinderopvang in Halen centrum heeft een nieuw gebouw in gebruik in 2026",
-    "ap_long": "De kinderopvang in Halen centrum heeft een nieuw gebouw in gebruik in 2026",
-    "ac_code": "AC001723",
-    "ac_short": "De oude Delhaize in Halen centrum is ingericht als kinderopvang",
-    "ac_long": "De oude Delhaize in Halen centrum is ingericht als kinderopvang en op deze manier kan het busvervoer verder afgebouwd worden, en heeft de kinderopvang een moderne accommodatie die voldoet aan de noden van de dienst.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 95000.0,
-    "amount_per_capita": 9.98,
-    "yearly_amounts": {
-      "2026": 95000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 9.98,
-      "2027": 0,
-      "2028": 0,
+      "2027": 4.18,
+      "2028": 6.27,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -661,56 +627,56 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 95000.0,
-    "amount_per_capita": 9.98,
+    "amount_per_capita": 9.93,
     "yearly_amounts": {
-      "2026": 45000.0,
-      "2027": 30000.0,
-      "2028": 5000.0,
-      "2029": 5000.0,
-      "2030": 5000.0,
-      "2031": 5000.0
+      "2026": 25000.0,
+      "2027": 5000.0,
+      "2028": 15000.0,
+      "2029": 10000.0,
+      "2030": 15000.0,
+      "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 4.73,
-      "2027": 3.15,
-      "2028": 0.53,
-      "2029": 0.53,
-      "2030": 0.53,
-      "2031": 0.53
+      "2026": 2.61,
+      "2027": 0.52,
+      "2028": 1.57,
+      "2029": 1.05,
+      "2030": 1.57,
+      "2031": 2.61
     }
   },
   {
     "municipality": "Halen",
     "nis_code": "71020",
-    "bd_code": "BD000061",
-    "bd_short": "Het openbaar domein van de stad Halen is onderhouden",
-    "bd_long": "Het openbaar domein van de stad Halen is onderhouden",
-    "ap_code": "AP000299",
-    "ap_short": "De trage wegen vormen een veilig alternatief voor zwakke weggebruikers",
-    "ap_long": "De trage wegen vormen een veilig alternatief voor zwakke weggebruikers : moet dit niet bij mobiliteit staan  ?",
-    "ac_code": "AC001613",
-    "ac_short": "De trage wegen vormen een veilig alternatief voor zwakke weggebruikers",
-    "ac_long": "De trage wegen vormen een veilig alternatief voor zwakke weggebruikers",
+    "bd_code": "BD000069",
+    "bd_short": "Stad Halen bouwt aan een rijk en gevarieerd buitenschools aanbod",
+    "bd_long": "Stad Halen bouwt aan een rijk en gevarieerd buitenschools aanbod dat aansluit bij de noden van kinderen en gezinnen in de buurt",
+    "ap_code": "AP000345",
+    "ap_short": "De kinderopvang in Halen centrum heeft een nieuw gebouw in gebruik in 2026",
+    "ap_long": "De kinderopvang in Halen centrum heeft een nieuw gebouw in gebruik in 2026",
+    "ac_code": "AC001723",
+    "ac_short": "De oude Delhaize in Halen centrum is ingericht als kinderopvang",
+    "ac_long": "De oude Delhaize in Halen centrum is ingericht als kinderopvang en op deze manier kan het busvervoer verder afgebouwd worden, en heeft de kinderopvang een moderne accommodatie die voldoet aan de noden van de dienst.",
     "categories": [
-      "02-mobiliteit"
+      "09-zorg-opvang"
     ],
-    "total_amount": 94621.0,
-    "amount_per_capita": 9.94,
+    "total_amount": 95000.0,
+    "amount_per_capita": 9.93,
     "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 15300.0,
-      "2028": 15606.0,
-      "2029": 15918.0,
-      "2030": 16236.0,
-      "2031": 16561.0
+      "2026": 95000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.58,
-      "2027": 1.61,
-      "2028": 1.64,
-      "2029": 1.67,
-      "2030": 1.71,
-      "2031": 1.74
+      "2026": 9.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -729,7 +695,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 85000.0,
-    "amount_per_capita": 8.93,
+    "amount_per_capita": 8.89,
     "yearly_amounts": {
       "2026": 45000.0,
       "2027": 40000.0,
@@ -739,42 +705,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.73,
-      "2027": 4.2,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Halen",
-    "nis_code": "71020",
-    "bd_code": "BD000063",
-    "bd_short": "Actieve Gemeente",
-    "bd_long": "Halen is een actieve gemeente waar elke burger binnen zijn/haar mogelijkheden kan genieten van een kwaliteitsvol verenigings- en vrijetijdsaanbod",
-    "ap_code": "AP000320",
-    "ap_short": "Halen voorziet in een laagdrempelig vrijetijdsaanbod voor alle doelgroepen",
-    "ap_long": "Halen voorziet in een laagdrempelig vrijetijdsaanbod voor alle doelgroepen en ondersteunt initiatieven van derden hiertoe.",
-    "ac_code": "AC001722",
-    "ac_short": "De gebouwen zijn onderhouden",
-    "ac_long": "De investeringen binnen het AGB met betrekking tot de gebouwen en materiaal zijn uitgevoerd",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 81000.0,
-    "amount_per_capita": 8.51,
-    "yearly_amounts": {
-      "2026": 81000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 8.51,
-      "2027": 0,
+      "2026": 4.71,
+      "2027": 4.18,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -797,7 +729,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 45000.0,
-    "amount_per_capita": 4.73,
+    "amount_per_capita": 4.71,
     "yearly_amounts": {
       "2026": 0,
       "2027": 15000.0,
@@ -808,11 +740,45 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 1.58,
+      "2027": 1.57,
       "2028": 0,
-      "2029": 1.58,
+      "2029": 1.57,
       "2030": 0,
-      "2031": 1.58
+      "2031": 1.57
+    }
+  },
+  {
+    "municipality": "Halen",
+    "nis_code": "71020",
+    "bd_code": "BD000061",
+    "bd_short": "Het openbaar domein van de stad Halen is onderhouden",
+    "bd_long": "Het openbaar domein van de stad Halen is onderhouden",
+    "ap_code": "AP000299",
+    "ap_short": "De trage wegen vormen een veilig alternatief voor zwakke weggebruikers",
+    "ap_long": "De trage wegen vormen een veilig alternatief voor zwakke weggebruikers : moet dit niet bij mobiliteit staan  ?",
+    "ac_code": "AC001613",
+    "ac_short": "De trage wegen vormen een veilig alternatief voor zwakke weggebruikers",
+    "ac_long": "De trage wegen vormen een veilig alternatief voor zwakke weggebruikers",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 45000.0,
+    "amount_per_capita": 4.71,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 0,
+      "2028": 15000.0,
+      "2029": 0,
+      "2030": 15000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.57,
+      "2027": 0,
+      "2028": 1.57,
+      "2029": 0,
+      "2030": 1.57,
+      "2031": 0
     }
   },
   {
@@ -831,21 +797,21 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 35000.0,
-    "amount_per_capita": 3.68,
+    "amount_per_capita": 3.66,
     "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 5000.0,
-      "2028": 0,
-      "2029": 10000.0,
-      "2030": 5000.0,
+      "2026": 5000.0,
+      "2027": 10000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 10000.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.58,
-      "2027": 0.53,
-      "2028": 0,
-      "2029": 1.05,
-      "2030": 0.53,
+      "2026": 0.52,
+      "2027": 1.05,
+      "2028": 0.52,
+      "2029": 0.52,
+      "2030": 1.05,
       "2031": 0
     }
   },
@@ -865,7 +831,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 30000.0,
-    "amount_per_capita": 3.15,
+    "amount_per_capita": 3.14,
     "yearly_amounts": {
       "2026": 30000.0,
       "2027": 0,
@@ -875,41 +841,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.15,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Halen",
-    "nis_code": "71020",
-    "bd_code": "BD000063",
-    "bd_short": "Actieve Gemeente",
-    "bd_long": "Halen is een actieve gemeente waar elke burger binnen zijn/haar mogelijkheden kan genieten van een kwaliteitsvol verenigings- en vrijetijdsaanbod",
-    "ap_code": "AP000320",
-    "ap_short": "Halen voorziet in een laagdrempelig vrijetijdsaanbod voor alle doelgroepen",
-    "ap_long": "Halen voorziet in een laagdrempelig vrijetijdsaanbod voor alle doelgroepen en ondersteunt initiatieven van derden hiertoe.",
-    "ac_code": "AC001683",
-    "ac_short": "De dienst vrije tijd is een schakel tussen bestuur en bevolking",
-    "ac_long": "De dienst vrije tijd is een schakel tussen bestuur en bevolking",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 25000.0,
-    "amount_per_capita": 2.63,
-    "yearly_amounts": {
-      "2026": 25000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 2.63,
+      "2026": 3.14,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -933,7 +865,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 25000.0,
-    "amount_per_capita": 2.63,
+    "amount_per_capita": 2.61,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 0,
@@ -943,7 +875,41 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.63,
+      "2026": 2.61,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halen",
+    "nis_code": "71020",
+    "bd_code": "BD000063",
+    "bd_short": "Actieve Gemeente",
+    "bd_long": "Halen is een actieve gemeente waar elke burger binnen zijn/haar mogelijkheden kan genieten van een kwaliteitsvol verenigings- en vrijetijdsaanbod",
+    "ap_code": "AP000320",
+    "ap_short": "Halen voorziet in een laagdrempelig vrijetijdsaanbod voor alle doelgroepen",
+    "ap_long": "Halen voorziet in een laagdrempelig vrijetijdsaanbod voor alle doelgroepen en ondersteunt initiatieven van derden hiertoe.",
+    "ac_code": "AC001683",
+    "ac_short": "De dienst vrije tijd is een schakel tussen bestuur en bevolking",
+    "ac_long": "De dienst vrije tijd is een schakel tussen bestuur en bevolking",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 2.61,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.61,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -967,22 +933,90 @@
       "09-zorg-opvang"
     ],
     "total_amount": 22500.0,
-    "amount_per_capita": 2.36,
+    "amount_per_capita": 2.35,
     "yearly_amounts": {
-      "2026": 10000.0,
+      "2026": 6500.0,
+      "2027": 3000.0,
+      "2028": 3000.0,
+      "2029": 3000.0,
+      "2030": 4000.0,
+      "2031": 3000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.68,
+      "2027": 0.31,
+      "2028": 0.31,
+      "2029": 0.31,
+      "2030": 0.42,
+      "2031": 0.31
+    }
+  },
+  {
+    "municipality": "Halen",
+    "nis_code": "71020",
+    "bd_code": "BD000051",
+    "bd_short": "De algemene administratie werkt op een klantvriendelijke en efficiënte manier",
+    "bd_long": "De algemene administratie is op een efficiënte en effectieve manier georganiseerd. Deze beleidsdoelstelling omvat de activiteiten die overkoepelend zijn voor de werking van de stad Halen en omvat onder andere overheadkosten, dienst burgerzaken en de organisatiebeheersing.",
+    "ap_code": "AP000258",
+    "ap_short": "De organisatiebeheersing is een continu aandachtspunt",
+    "ap_long": "De organisatiebeheersing is een continu aandachtspunt en wordt zodoende ook op regelmatige basis en minstens 1 maal per jaar bijgestuurd",
+    "ac_code": "AC001579",
+    "ac_short": "Verenigingen worden financieel en organisatorisch ondersteund door de gemeente",
+    "ac_long": "Verenigingen worden financieel en organisatorisch ondersteund door de gemeente",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 2.09,
+    "yearly_amounts": {
+      "2026": 2500.0,
       "2027": 2500.0,
-      "2028": 2500.0,
+      "2028": 7500.0,
       "2029": 2500.0,
       "2030": 2500.0,
       "2031": 2500.0
     },
     "yearly_per_capita": {
-      "2026": 1.05,
+      "2026": 0.26,
       "2027": 0.26,
-      "2028": 0.26,
+      "2028": 0.78,
       "2029": 0.26,
       "2030": 0.26,
       "2031": 0.26
+    }
+  },
+  {
+    "municipality": "Halen",
+    "nis_code": "71020",
+    "bd_code": "BD000052",
+    "bd_short": "De stad wil de digitale slagkracht van de organisatie verder versterken.",
+    "bd_long": "De stad wil de digitale slagkracht van de organisatie verder versterken.",
+    "ap_code": "AP000261",
+    "ap_short": "Bereiken van efficiëntiewinst en verhogen van de dienstverlening door in te zetten op digitalisering",
+    "ap_long": "Bereiken van efficiëntiewinst en verhogen van de dienstverlening door in te zetten op digitalisering",
+    "ac_code": "AC001528",
+    "ac_short": "Uitrol serieregister",
+    "ac_long": "Uitrol serieregister dat start in 2027",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 2.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.09,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -1001,7 +1035,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 20000.0,
-    "amount_per_capita": 2.1,
+    "amount_per_capita": 2.09,
     "yearly_amounts": {
       "2026": 0,
       "2027": 10000.0,
@@ -1022,74 +1056,6 @@
   {
     "municipality": "Halen",
     "nis_code": "71020",
-    "bd_code": "BD000052",
-    "bd_short": "De stad wil de digitale slagkracht van de organisatie verder versterken.",
-    "bd_long": "De stad wil de digitale slagkracht van de organisatie verder versterken.",
-    "ap_code": "AP000261",
-    "ap_short": "Bereiken van efficiëntiewinst en verhogen van de dienstverlening door in te zetten op digitalisering",
-    "ap_long": "Bereiken van efficiëntiewinst en verhogen van de dienstverlening door in te zetten op digitalisering",
-    "ac_code": "AC001528",
-    "ac_short": "Uitrol serieregister",
-    "ac_long": "Uitrol serieregister dat start in 2027",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 2.1,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 20000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 2.1,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Halen",
-    "nis_code": "71020",
-    "bd_code": "BD000051",
-    "bd_short": "De algemene administratie werkt op een klantvriendelijke en efficiënte manier",
-    "bd_long": "De algemene administratie is op een efficiënte en effectieve manier georganiseerd. Deze beleidsdoelstelling omvat de activiteiten die overkoepelend zijn voor de werking van de stad Halen en omvat onder andere overheadkosten, dienst burgerzaken en de organisatiebeheersing.",
-    "ap_code": "AP000258",
-    "ap_short": "De organisatiebeheersing is een continu aandachtspunt",
-    "ap_long": "De organisatiebeheersing is een continu aandachtspunt en wordt zodoende ook op regelmatige basis en minstens 1 maal per jaar bijgestuurd",
-    "ac_code": "AC001579",
-    "ac_short": "Verenigingen worden financieel en organisatorisch ondersteund door de gemeente",
-    "ac_long": "Verenigingen worden financieel en organisatorisch ondersteund door de gemeente",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 2.1,
-    "yearly_amounts": {
-      "2026": 5000.0,
-      "2027": 0,
-      "2028": 10000.0,
-      "2029": 0,
-      "2030": 5000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.53,
-      "2027": 0,
-      "2028": 1.05,
-      "2029": 0,
-      "2030": 0.53,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Halen",
-    "nis_code": "71020",
     "bd_code": "BD000065",
     "bd_short": "Halen speelt haar toeristische troeven uit.",
     "bd_long": "Halen is een stad die haar toeristische troeven uitspeelt",
@@ -1103,55 +1069,21 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 19500.0,
-    "amount_per_capita": 2.05,
+    "amount_per_capita": 2.04,
     "yearly_amounts": {
-      "2026": 6500.0,
-      "2027": 0,
-      "2028": 6500.0,
-      "2029": 0,
-      "2030": 6500.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.68,
-      "2027": 0,
-      "2028": 0.68,
-      "2029": 0,
-      "2030": 0.68,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Halen",
-    "nis_code": "71020",
-    "bd_code": "BD000069",
-    "bd_short": "Stad Halen bouwt aan een rijk en gevarieerd buitenschools aanbod",
-    "bd_long": "Stad Halen bouwt aan een rijk en gevarieerd buitenschools aanbod dat aansluit bij de noden van kinderen en gezinnen in de buurt",
-    "ap_code": "AP000341",
-    "ap_short": "Halen organiseert deeltijds kunstonderwijs",
-    "ap_long": "Halen organiseert deeltijds kunstonderwijs",
-    "ac_code": "AC001714",
-    "ac_short": "Een aangepast aanbod inzake kunstonderwijs wordt aangeboden",
-    "ac_long": "Een aangepast aanbod inzake kunstonderwijs wordt aangeboden. Binnen het nieuwe kader van de BOA-wetgeving is de rol van het stad Halen verschoven van deze als organisator van kinderopvang naar deze van regulator. Binnen dit kader werden de activiteiten die onze partner inzake het kunstonderwijs aanbiedt opgenomen onder het ruimer kader van het buitenschools aanbod.",
-    "categories": [
-      "08-onderwijs"
-    ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 1.58,
-    "yearly_amounts": {
-      "2026": 7500.0,
-      "2027": 0,
-      "2028": 2500.0,
-      "2029": 0,
-      "2030": 2500.0,
+      "2026": 4000.0,
+      "2027": 2500.0,
+      "2028": 4000.0,
+      "2029": 2500.0,
+      "2030": 4000.0,
       "2031": 2500.0
     },
     "yearly_per_capita": {
-      "2026": 0.79,
-      "2027": 0,
-      "2028": 0.26,
-      "2029": 0,
-      "2030": 0.26,
+      "2026": 0.42,
+      "2027": 0.26,
+      "2028": 0.42,
+      "2029": 0.26,
+      "2030": 0.42,
       "2031": 0.26
     }
   },
@@ -1171,7 +1103,7 @@
       "08-onderwijs"
     ],
     "total_amount": 15000.0,
-    "amount_per_capita": 1.58,
+    "amount_per_capita": 1.57,
     "yearly_amounts": {
       "2026": 2500.0,
       "2027": 2500.0,
@@ -1185,6 +1117,40 @@
       "2027": 0.26,
       "2028": 0.26,
       "2029": 0.26,
+      "2030": 0.26,
+      "2031": 0.26
+    }
+  },
+  {
+    "municipality": "Halen",
+    "nis_code": "71020",
+    "bd_code": "BD000069",
+    "bd_short": "Stad Halen bouwt aan een rijk en gevarieerd buitenschools aanbod",
+    "bd_long": "Stad Halen bouwt aan een rijk en gevarieerd buitenschools aanbod dat aansluit bij de noden van kinderen en gezinnen in de buurt",
+    "ap_code": "AP000341",
+    "ap_short": "Halen organiseert deeltijds kunstonderwijs",
+    "ap_long": "Halen organiseert deeltijds kunstonderwijs",
+    "ac_code": "AC001714",
+    "ac_short": "Een aangepast aanbod inzake kunstonderwijs wordt aangeboden",
+    "ac_long": "Een aangepast aanbod inzake kunstonderwijs wordt aangeboden. Binnen het nieuwe kader van de BOA-wetgeving is de rol van het stad Halen verschoven van deze als organisator van kinderopvang naar deze van regulator. Binnen dit kader werden de activiteiten die onze partner inzake het kunstonderwijs aanbiedt opgenomen onder het ruimer kader van het buitenschools aanbod.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 1.57,
+    "yearly_amounts": {
+      "2026": 7500.0,
+      "2027": 0,
+      "2028": 2500.0,
+      "2029": 0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.78,
+      "2027": 0,
+      "2028": 0.26,
+      "2029": 0,
       "2030": 0.26,
       "2031": 0.26
     }
@@ -1250,45 +1216,11 @@
     },
     "yearly_per_capita": {
       "2026": 0.18,
-      "2027": 0.11,
-      "2028": 0.11,
-      "2029": 0.11,
-      "2030": 0.11,
-      "2031": 0.11
-    }
-  },
-  {
-    "municipality": "Halen",
-    "nis_code": "71020",
-    "bd_code": "BD000063",
-    "bd_short": "Actieve Gemeente",
-    "bd_long": "Halen is een actieve gemeente waar elke burger binnen zijn/haar mogelijkheden kan genieten van een kwaliteitsvol verenigings- en vrijetijdsaanbod",
-    "ap_code": "AP000317",
-    "ap_short": "De bibliotheek is een actieve ontmoetingsruimte voor de burgers",
-    "ap_long": "De bibliotheek is een actieve ontmoetingsruimte voor de burgers",
-    "ac_code": "AC001671",
-    "ac_short": "De bibliotheek beschikt over een moderne en toegankelijke infrastructuur en middelen",
-    "ac_long": "De bibliotheek beschikt over een moderne en toegankelijke infrastructuur en middelen om zijn werking te handhaven",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 2500.0,
-    "amount_per_capita": 0.26,
-    "yearly_amounts": {
-      "2026": 2500.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.26,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2027": 0.1,
+      "2028": 0.1,
+      "2029": 0.1,
+      "2030": 0.1,
+      "2031": 0.1
     }
   }
 ]

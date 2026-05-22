@@ -14,10 +14,10 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 9040000.0,
-    "amount_per_capita": 541.46,
+    "total_amount": 9805862.0,
+    "amount_per_capita": 585.42,
     "yearly_amounts": {
-      "2026": 40000.0,
+      "2026": 805862.0,
       "2027": 3000000.0,
       "2028": 6000000.0,
       "2029": 0,
@@ -25,9 +25,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.4,
-      "2027": 179.69,
-      "2028": 359.38,
+      "2026": 48.11,
+      "2027": 179.1,
+      "2028": 358.21,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -43,15 +43,15 @@
     "ap_short": "Riemst stimuleert een ruim, gevarieerd vrijetijdsaanbod.",
     "ap_long": "Riemst stimuleert een ruim, gevarieerd vrijetijdsaanbod.",
     "ac_code": "AC000110",
-    "ac_short": "Duurzame vrijetijdsinfrastructuur realiseren",
+    "ac_short": "Duurzame vrijetijdsinfrastructuur realiseren (BOA2)",
     "ac_long": "We investeren in het realiseren en onderhouden van toegankelijke, duurzame en multifionele vrijetijdsinfrastructuur, waar sport- en speelzones toegankelijk en duurzaam zijn.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 4763500.0,
-    "amount_per_capita": 285.32,
+    "total_amount": 5533409.31,
+    "amount_per_capita": 330.35,
     "yearly_amounts": {
-      "2026": 1082500.0,
+      "2026": 1852409.31,
       "2027": 1085000.0,
       "2028": 523000.0,
       "2029": 1259000.0,
@@ -59,46 +59,12 @@
       "2031": 407000.0
     },
     "yearly_per_capita": {
-      "2026": 64.84,
-      "2027": 64.99,
-      "2028": 31.33,
-      "2029": 75.41,
-      "2030": 24.38,
-      "2031": 24.38
-    }
-  },
-  {
-    "municipality": "Riemst",
-    "nis_code": "73066",
-    "bd_code": "BD000001",
-    "bd_short": "Riemst investeert in leefbare dorpen",
-    "bd_long": "Riemst investeert in leefbare dorpen",
-    "ap_code": "AP000001",
-    "ap_short": "Riemst ontwikkelt de openbare ruimte en omgeving",
-    "ap_long": "Riemst ontwikkelt de openbare ruimte en omgeving",
-    "ac_code": "AC000013",
-    "ac_short": "Onderhoud van voetpaden, wegen en fietspaden",
-    "ac_long": "We beheren en onderhouden onze voetpaden, wegen en fietspaden.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 2660000.0,
-    "amount_per_capita": 159.32,
-    "yearly_amounts": {
-      "2026": 400000.0,
-      "2027": 600000.0,
-      "2028": 490000.0,
-      "2029": 390000.0,
-      "2030": 390000.0,
-      "2031": 390000.0
-    },
-    "yearly_per_capita": {
-      "2026": 23.96,
-      "2027": 35.94,
-      "2028": 29.35,
-      "2029": 23.36,
-      "2030": 23.36,
-      "2031": 23.36
+      "2026": 110.59,
+      "2027": 64.78,
+      "2028": 31.22,
+      "2029": 75.16,
+      "2030": 24.3,
+      "2031": 24.3
     }
   },
   {
@@ -116,10 +82,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 2151200.0,
-    "amount_per_capita": 128.85,
+    "total_amount": 2738821.1,
+    "amount_per_capita": 163.51,
     "yearly_amounts": {
-      "2026": 1921200.0,
+      "2026": 2508821.1,
       "2027": 26600.0,
       "2028": 109600.0,
       "2029": 9600.0,
@@ -127,12 +93,46 @@
       "2031": 9600.0
     },
     "yearly_per_capita": {
-      "2026": 115.07,
+      "2026": 149.78,
       "2027": 1.59,
-      "2028": 6.56,
-      "2029": 0.58,
-      "2030": 4.47,
-      "2031": 0.58
+      "2028": 6.54,
+      "2029": 0.57,
+      "2030": 4.45,
+      "2031": 0.57
+    }
+  },
+  {
+    "municipality": "Riemst",
+    "nis_code": "73066",
+    "bd_code": "BD000001",
+    "bd_short": "Riemst investeert in leefbare dorpen",
+    "bd_long": "Riemst investeert in leefbare dorpen",
+    "ap_code": "AP000001",
+    "ap_short": "Riemst ontwikkelt de openbare ruimte en omgeving",
+    "ap_long": "Riemst ontwikkelt de openbare ruimte en omgeving",
+    "ac_code": "AC000013",
+    "ac_short": "Onderhoud van voetpaden, wegen en fietspaden",
+    "ac_long": "We beheren en onderhouden onze voetpaden, wegen en fietspaden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2676512.2,
+    "amount_per_capita": 159.79,
+    "yearly_amounts": {
+      "2026": 416512.2,
+      "2027": 600000.0,
+      "2028": 490000.0,
+      "2029": 390000.0,
+      "2030": 390000.0,
+      "2031": 390000.0
+    },
+    "yearly_per_capita": {
+      "2026": 24.87,
+      "2027": 35.82,
+      "2028": 29.25,
+      "2029": 23.28,
+      "2030": 23.28,
+      "2031": 23.28
     }
   },
   {
@@ -151,7 +151,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 1500000.0,
-    "amount_per_capita": 89.84,
+    "amount_per_capita": 89.55,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 750000.0,
@@ -161,9 +161,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 14.97,
-      "2027": 44.92,
-      "2028": 29.95,
+      "2026": 14.93,
+      "2027": 44.78,
+      "2028": 29.85,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -185,7 +185,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 1141000.0,
-    "amount_per_capita": 68.34,
+    "amount_per_capita": 68.12,
     "yearly_amounts": {
       "2026": 566000.0,
       "2027": 29000.0,
@@ -195,12 +195,46 @@
       "2031": 85000.0
     },
     "yearly_per_capita": {
-      "2026": 33.9,
-      "2027": 1.74,
-      "2028": 9.28,
-      "2029": 3.05,
-      "2030": 15.27,
-      "2031": 5.09
+      "2026": 33.79,
+      "2027": 1.73,
+      "2028": 9.25,
+      "2029": 3.04,
+      "2030": 15.22,
+      "2031": 5.07
+    }
+  },
+  {
+    "municipality": "Riemst",
+    "nis_code": "73066",
+    "bd_code": "BD000007",
+    "bd_short": "Riemst ontwikkelt zich als professionele organisatie",
+    "bd_long": "Riemst ontwikkelt zich als professionele organisatie",
+    "ap_code": "AP000030",
+    "ap_short": "Riemst bouwt verder aan een professionele organisatie",
+    "ap_long": "Riemst bouwt verder aan een professionele organisatie",
+    "ac_code": "AC000190",
+    "ac_short": "Efficiënte ICT en materialen voorzien",
+    "ac_long": "We voorzien een efficiënte en goed werkende ICT-infrastructuur en de nodige materialen om onze organisatie vlot te laten werken.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1005250.0,
+    "amount_per_capita": 60.01,
+    "yearly_amounts": {
+      "2026": 119250.0,
+      "2027": 109000.0,
+      "2028": 555500.0,
+      "2029": 90500.0,
+      "2030": 40500.0,
+      "2031": 90500.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.12,
+      "2027": 6.51,
+      "2028": 33.16,
+      "2029": 5.4,
+      "2030": 2.42,
+      "2031": 5.4
     }
   },
   {
@@ -219,7 +253,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 988000.0,
-    "amount_per_capita": 59.18,
+    "amount_per_capita": 58.99,
     "yearly_amounts": {
       "2026": 273000.0,
       "2027": 215000.0,
@@ -229,12 +263,12 @@
       "2031": 125000.0
     },
     "yearly_per_capita": {
-      "2026": 16.35,
-      "2027": 12.88,
-      "2028": 7.49,
-      "2029": 7.49,
-      "2030": 7.49,
-      "2031": 7.49
+      "2026": 16.3,
+      "2027": 12.84,
+      "2028": 7.46,
+      "2029": 7.46,
+      "2030": 7.46,
+      "2031": 7.46
     }
   },
   {
@@ -253,7 +287,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 968745.0,
-    "amount_per_capita": 58.02,
+    "amount_per_capita": 57.84,
     "yearly_amounts": {
       "2026": 257662.0,
       "2027": 257613.0,
@@ -263,46 +297,12 @@
       "2031": 154903.0
     },
     "yearly_per_capita": {
-      "2026": 15.43,
-      "2027": 15.43,
-      "2028": 15.39,
+      "2026": 15.38,
+      "2027": 15.38,
+      "2028": 15.34,
       "2029": 1.25,
-      "2030": 1.24,
-      "2031": 9.28
-    }
-  },
-  {
-    "municipality": "Riemst",
-    "nis_code": "73066",
-    "bd_code": "BD000007",
-    "bd_short": "Riemst ontwikkelt zich als professionele organisatie",
-    "bd_long": "Riemst ontwikkelt zich als professionele organisatie",
-    "ap_code": "AP000030",
-    "ap_short": "Riemst bouwt verder aan een professionele organisatie",
-    "ap_long": "Riemst bouwt verder aan een professionele organisatie",
-    "ac_code": "AC000190",
-    "ac_short": "Efficiënte ICT-infrastructuur voorzien",
-    "ac_long": "We voorzien een efficiënte en goed werkende ICT-infrastructuur en de nodige materialen om onze organisatie vlot te laten werken.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 944000.0,
-    "amount_per_capita": 56.54,
-    "yearly_amounts": {
-      "2026": 58000.0,
-      "2027": 109000.0,
-      "2028": 555500.0,
-      "2029": 90500.0,
-      "2030": 40500.0,
-      "2031": 90500.0
-    },
-    "yearly_per_capita": {
-      "2026": 3.47,
-      "2027": 6.53,
-      "2028": 33.27,
-      "2029": 5.42,
-      "2030": 2.43,
-      "2031": 5.42
+      "2030": 1.23,
+      "2031": 9.25
     }
   },
   {
@@ -321,7 +321,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 845000.0,
-    "amount_per_capita": 50.61,
+    "amount_per_capita": 50.45,
     "yearly_amounts": {
       "2026": 615000.0,
       "2027": 0,
@@ -331,9 +331,9 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 36.84,
+      "2026": 36.72,
       "2027": 0,
-      "2028": 11.98,
+      "2028": 11.94,
       "2029": 0.6,
       "2030": 0.6,
       "2031": 0.6
@@ -354,10 +354,10 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 787000.0,
-    "amount_per_capita": 47.14,
+    "total_amount": 797000.0,
+    "amount_per_capita": 47.58,
     "yearly_amounts": {
-      "2026": 352000.0,
+      "2026": 362000.0,
       "2027": 35000.0,
       "2028": 200000.0,
       "2029": 0,
@@ -365,12 +365,46 @@
       "2031": 200000.0
     },
     "yearly_per_capita": {
-      "2026": 21.08,
-      "2027": 2.1,
-      "2028": 11.98,
+      "2026": 21.61,
+      "2027": 2.09,
+      "2028": 11.94,
       "2029": 0,
       "2030": 0,
-      "2031": 11.98
+      "2031": 11.94
+    }
+  },
+  {
+    "municipality": "Riemst",
+    "nis_code": "73066",
+    "bd_code": "BD000005",
+    "bd_short": "Riemst biedt kansen om te werken en te beleven",
+    "bd_long": "Riemst biedt kansen om te werken en te beleven",
+    "ap_code": "AP000021",
+    "ap_short": "Riemst stimuleert de ontwikkeling van de lokale economie",
+    "ap_long": "Riemst stimuleert de ontwikkeling van de lokale economie",
+    "ac_code": "AC000132",
+    "ac_short": "Bedrijvenparkmanagement voor KMO-zone",
+    "ac_long": "We erkennen KMO-zone Op ’t Reeck als een belangrijke economische groeipool in onze gemeente. Om de lokale ondernemers op dit bedrijvenpark te versterken, richten we een bedrijvenparkmanagement op dat de",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 774208.9,
+    "amount_per_capita": 46.22,
+    "yearly_amounts": {
+      "2026": 671708.9,
+      "2027": 102500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 40.1,
+      "2027": 6.12,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -389,7 +423,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 750000.0,
-    "amount_per_capita": 44.92,
+    "amount_per_capita": 44.78,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -402,7 +436,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 44.92,
+      "2029": 44.78,
       "2030": 0,
       "2031": 0
     }
@@ -417,13 +451,13 @@
     "ap_short": "Riemst stimuleert een ruim, gevarieerd vrijetijdsaanbod.",
     "ap_long": "Riemst stimuleert een ruim, gevarieerd vrijetijdsaanbod.",
     "ac_code": "AC000112",
-    "ac_short": "Geïntegreerd vrijetijdsaanbod organiseren",
+    "ac_short": "Geïntegreerd vrijetijdsaanbod organiseren (BOA2)",
     "ac_long": "We organiseren kwaliteitsvolle voor-en naschoolse buitenschoolse opvang en activiteiten in afstemming tussen lokale actoren in functie van een geïntegreerd vrijetijdsaanbod.",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 700000.0,
-    "amount_per_capita": 41.93,
+    "amount_per_capita": 41.79,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
@@ -433,10 +467,44 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.99,
+      "2026": 5.97,
       "2027": 0,
-      "2028": 17.97,
-      "2029": 17.97,
+      "2028": 17.91,
+      "2029": 17.91,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Riemst",
+    "nis_code": "73066",
+    "bd_code": "BD000001",
+    "bd_short": "Riemst investeert in leefbare dorpen",
+    "bd_long": "Riemst investeert in leefbare dorpen",
+    "ap_code": "AP000001",
+    "ap_short": "Riemst ontwikkelt de openbare ruimte en omgeving",
+    "ap_long": "Riemst ontwikkelt de openbare ruimte en omgeving",
+    "ac_code": "AC000005",
+    "ac_short": "Riolering Membruggen - Demerstraat",
+    "ac_long": "Project riolering en wegenis - Membruggen - Demerstraat.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 510000.0,
+    "amount_per_capita": 30.45,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 500000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.6,
+      "2027": 0,
+      "2028": 29.85,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -454,10 +522,10 @@
     "ac_short": "Campagnes rond beleid en beleving opzetten",
     "ac_long": "We zetten het beleid, troeven en belevingen in de kijker met doelgroepgerichte campagnes en mediadeals ze. Dit doen we o.a. door een toeristische voor- en najaarscampagne, geïntegreerde online marketing, advertenties in media, reportages bij TVL edm.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "06-wonen-ruimte"
     ],
     "total_amount": 506000.0,
-    "amount_per_capita": 30.31,
+    "amount_per_capita": 30.21,
     "yearly_amounts": {
       "2026": 1000.0,
       "2027": 1000.0,
@@ -471,7 +539,7 @@
       "2027": 0.06,
       "2028": 0.06,
       "2029": 0.06,
-      "2030": 30.01,
+      "2030": 29.91,
       "2031": 0.06
     }
   },
@@ -491,7 +559,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 500000.0,
-    "amount_per_capita": 29.95,
+    "amount_per_capita": 29.85,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -506,7 +574,41 @@
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 29.95
+      "2031": 29.85
+    }
+  },
+  {
+    "municipality": "Riemst",
+    "nis_code": "73066",
+    "bd_code": "BD000001",
+    "bd_short": "Riemst investeert in leefbare dorpen",
+    "bd_long": "Riemst investeert in leefbare dorpen",
+    "ap_code": "AP000003",
+    "ap_short": "Riemst wil haar erfgoed actief uitdragen binnen én buiten de gemeentegrenzen",
+    "ap_long": "Riemst wil haar erfgoed actief uitdragen binnen én buiten de gemeentegrenzen",
+    "ac_code": "AC000038",
+    "ac_short": "Visie Waterburcht als erfgoed ontwikkelen (OE3, OE1)",
+    "ac_long": "We onderzoeken het potentieel van de Waterburcht als bijzonder erfgoed en ontwikkelen een visie voor de site.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 29.85,
+    "yearly_amounts": {
+      "2026": 130000.0,
+      "2027": 170000.0,
+      "2028": 200000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.76,
+      "2027": 10.15,
+      "2028": 11.94,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -525,7 +627,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 475000.0,
-    "amount_per_capita": 28.45,
+    "amount_per_capita": 28.36,
     "yearly_amounts": {
       "2026": 162500.0,
       "2027": 12500.0,
@@ -535,10 +637,10 @@
       "2031": 12500.0
     },
     "yearly_per_capita": {
-      "2026": 9.73,
+      "2026": 9.7,
       "2027": 0.75,
-      "2028": 8.24,
-      "2029": 8.24,
+      "2028": 8.21,
+      "2029": 8.21,
       "2030": 0.75,
       "2031": 0.75
     }
@@ -546,35 +648,35 @@
   {
     "municipality": "Riemst",
     "nis_code": "73066",
-    "bd_code": "BD000001",
-    "bd_short": "Riemst investeert in leefbare dorpen",
-    "bd_long": "Riemst investeert in leefbare dorpen",
-    "ap_code": "AP000003",
-    "ap_short": "Riemst wil haar erfgoed actief uitdragen binnen én buiten de gemeentegrenzen",
-    "ap_long": "Riemst wil haar erfgoed actief uitdragen binnen én buiten de gemeentegrenzen",
-    "ac_code": "AC000038",
-    "ac_short": "Visie Waterburcht als erfgoed ontwikkelen",
-    "ac_long": "We onderzoeken het potentieel van de Waterburcht als bijzonder erfgoed en ontwikkelen een visie voor de site.",
+    "bd_code": "BD000004",
+    "bd_short": "Riemst zorgt voor levendige dorpen met gezonde inwoners",
+    "bd_long": "Riemst zorgt voor levendige dorpen met gezonde inwoners",
+    "ap_code": "AP000019",
+    "ap_short": "Riemst ondersteunt initiatieven die zorgen voor een actief en bloeiend verenigingsleven",
+    "ap_long": "Riemst ondersteunt sociaal-culturele initiatieven die bijdragen aan een actief en bloeiend verenigingsleven",
+    "ac_code": "AC000126",
+    "ac_short": "Zaal 't Paenhuys multifunctioneel uitbouwen",
+    "ac_long": "We bouwen de zaal 't Paenhuys uit to een centrale, goed uitgeruste, multifunctionele zaal voor alle verenigingen aan aantrekkelijke voorwaarden.",
     "categories": [
-      "05-ondernemen-werken"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 445000.0,
-    "amount_per_capita": 26.65,
+    "total_amount": 451867.05,
+    "amount_per_capita": 26.98,
     "yearly_amounts": {
-      "2026": 75000.0,
-      "2027": 170000.0,
-      "2028": 200000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 24367.05,
+      "2027": 205500.0,
+      "2028": 205500.0,
+      "2029": 5500.0,
+      "2030": 5500.0,
+      "2031": 5500.0
     },
     "yearly_per_capita": {
-      "2026": 4.49,
-      "2027": 10.18,
-      "2028": 11.98,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 1.45,
+      "2027": 12.27,
+      "2028": 12.27,
+      "2029": 0.33,
+      "2030": 0.33,
+      "2031": 0.33
     }
   },
   {
@@ -593,7 +695,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 435000.0,
-    "amount_per_capita": 26.05,
+    "amount_per_capita": 25.97,
     "yearly_amounts": {
       "2026": 85000.0,
       "2027": 85000.0,
@@ -603,80 +705,12 @@
       "2031": 60000.0
     },
     "yearly_per_capita": {
-      "2026": 5.09,
-      "2027": 5.09,
-      "2028": 5.09,
-      "2029": 3.59,
-      "2030": 3.59,
-      "2031": 3.59
-    }
-  },
-  {
-    "municipality": "Riemst",
-    "nis_code": "73066",
-    "bd_code": "BD000004",
-    "bd_short": "Riemst zorgt voor levendige dorpen met gezonde inwoners",
-    "bd_long": "Riemst zorgt voor levendige dorpen met gezonde inwoners",
-    "ap_code": "AP000019",
-    "ap_short": "Riemst ondersteunt initiatieven die zorgen voor een actief en bloeiend verenigingsleven",
-    "ap_long": "Riemst ondersteunt sociaal-culturele initiatieven die bijdragen aan een actief en bloeiend verenigingsleven",
-    "ac_code": "AC000126",
-    "ac_short": "Zaal 't Paenhuys multifunctioneel uitbouwen",
-    "ac_long": "We bouwen de zaal 't Paenhuys uit to een centrale, goed uitgeruste, multifunctionele zaal voor alle verenigingen aan aantrekkelijke voorwaarden.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 433000.0,
-    "amount_per_capita": 25.94,
-    "yearly_amounts": {
-      "2026": 5500.0,
-      "2027": 205500.0,
-      "2028": 205500.0,
-      "2029": 5500.0,
-      "2030": 5500.0,
-      "2031": 5500.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.33,
-      "2027": 12.31,
-      "2028": 12.31,
-      "2029": 0.33,
-      "2030": 0.33,
-      "2031": 0.33
-    }
-  },
-  {
-    "municipality": "Riemst",
-    "nis_code": "73066",
-    "bd_code": "BD000005",
-    "bd_short": "Riemst biedt kansen om te werken en te beleven",
-    "bd_long": "Riemst biedt kansen om te werken en te beleven",
-    "ap_code": "AP000021",
-    "ap_short": "Riemst stimuleert de ontwikkeling van de lokale economie",
-    "ap_long": "Riemst stimuleert de ontwikkeling van de lokale economie",
-    "ac_code": "AC000132",
-    "ac_short": "Bedrijvenparkmanagement voor KMO-zone",
-    "ac_long": "We erkennen KMO-zone Op ’t Reeck als een belangrijke economische groeipool in onze gemeente. Om de lokale ondernemers op dit bedrijvenpark te versterken, richten we een bedrijvenparkmanagement op dat de",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 405000.0,
-    "amount_per_capita": 24.26,
-    "yearly_amounts": {
-      "2026": 302500.0,
-      "2027": 102500.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 18.12,
-      "2027": 6.14,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 5.07,
+      "2027": 5.07,
+      "2028": 5.07,
+      "2029": 3.58,
+      "2030": 3.58,
+      "2031": 3.58
     }
   },
   {
@@ -695,7 +729,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 400000.0,
-    "amount_per_capita": 23.96,
+    "amount_per_capita": 23.88,
     "yearly_amounts": {
       "2026": 0,
       "2027": 200000.0,
@@ -706,8 +740,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 11.98,
-      "2028": 11.98,
+      "2027": 11.94,
+      "2028": 11.94,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -728,10 +762,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 270000.0,
-    "amount_per_capita": 16.17,
+    "total_amount": 306000.0,
+    "amount_per_capita": 18.27,
     "yearly_amounts": {
-      "2026": 45000.0,
+      "2026": 81000.0,
       "2027": 45000.0,
       "2028": 45000.0,
       "2029": 45000.0,
@@ -739,12 +773,12 @@
       "2031": 45000.0
     },
     "yearly_per_capita": {
-      "2026": 2.7,
-      "2027": 2.7,
-      "2028": 2.7,
-      "2029": 2.7,
-      "2030": 2.7,
-      "2031": 2.7
+      "2026": 4.84,
+      "2027": 2.69,
+      "2028": 2.69,
+      "2029": 2.69,
+      "2030": 2.69,
+      "2031": 2.69
     }
   },
   {
@@ -763,7 +797,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 14.97,
+    "amount_per_capita": 14.93,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 0,
@@ -773,110 +807,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 14.97,
+      "2026": 14.93,
       "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Riemst",
-    "nis_code": "73066",
-    "bd_code": "BD000005",
-    "bd_short": "Riemst biedt kansen om te werken en te beleven",
-    "bd_long": "Riemst biedt kansen om te werken en te beleven",
-    "ap_code": "AP000023",
-    "ap_short": "Riemst ondersteunt de landbouw en stemt het ruimtelijk beleid hierop af",
-    "ap_long": "Riemst ondersteunt de landbouw en stemt het ruimtelijk beleid hierop af",
-    "ac_code": "AC000142",
-    "ac_short": "Erosie en wateroverlast bestrijden",
-    "ac_long": "We blijven de strijd aangaan tegen erosie en wateroverlast. We gaan in dialoog over het afsluiten van beheersovereenkomsten en op strategische plaatsen kopen we gronden.",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 200000.0,
-    "amount_per_capita": 11.98,
-    "yearly_amounts": {
-      "2026": 75000.0,
-      "2027": 25000.0,
-      "2028": 25000.0,
-      "2029": 25000.0,
-      "2030": 25000.0,
-      "2031": 25000.0
-    },
-    "yearly_per_capita": {
-      "2026": 4.49,
-      "2027": 1.5,
-      "2028": 1.5,
-      "2029": 1.5,
-      "2030": 1.5,
-      "2031": 1.5
-    }
-  },
-  {
-    "municipality": "Riemst",
-    "nis_code": "73066",
-    "bd_code": "BD000006",
-    "bd_short": "Riemst treedt preventief en sanctionerend op om de veiligheid te garanderen",
-    "bd_long": "Riemst treedt preventief en sanctionerend op om de veiligheid te garanderen",
-    "ap_code": "AP000026",
-    "ap_short": "Riemst investeert in verkeersveiligheid en duurzame mobiliteit",
-    "ap_long": "Riemst investeert in verkeersveiligheid en duurzame mobiliteit",
-    "ac_code": "AC000164",
-    "ac_short": "Verkeersveiligheid rond scholen verbeteren",
-    "ac_long": "We blijven maatregelen nemen voor veilig verkeer in de buurt van scholen.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 195000.0,
-    "amount_per_capita": 11.68,
-    "yearly_amounts": {
-      "2026": 95000.0,
-      "2027": 20000.0,
-      "2028": 20000.0,
-      "2029": 20000.0,
-      "2030": 20000.0,
-      "2031": 20000.0
-    },
-    "yearly_per_capita": {
-      "2026": 5.69,
-      "2027": 1.2,
-      "2028": 1.2,
-      "2029": 1.2,
-      "2030": 1.2,
-      "2031": 1.2
-    }
-  },
-  {
-    "municipality": "Riemst",
-    "nis_code": "73066",
-    "bd_code": "BD000004",
-    "bd_short": "Riemst zorgt voor levendige dorpen met gezonde inwoners",
-    "bd_long": "Riemst zorgt voor levendige dorpen met gezonde inwoners",
-    "ap_code": "AP000020",
-    "ap_short": "Riemst bouwt een toekomstgerichte bibliotheek als leer- en ontmoetingsplek voor iedereen",
-    "ap_long": "Riemst bouwt een toegankelijke en toekomstgerichte bibliotheekwerking uit die fungeert als een laagdrempelige leer- en ontmoetingsplek voor alle inwoners.",
-    "ac_code": "AC000130",
-    "ac_short": "Bibliotheekwerking rond leesplezier en leren",
-    "ac_long": "We bouwen een bibliotheekwerking uit met activiteiten en initatieven waarbij we bijzondere aandacht schenken aan leesplezier, leesbevordering en taalontwikkeling, digitale geletterdheid, levenslang leren, culturele participatie en gemeenschapsvorming.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 192000.0,
-    "amount_per_capita": 11.5,
-    "yearly_amounts": {
-      "2026": 41000.0,
-      "2027": 151000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 2.46,
-      "2027": 9.04,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -893,15 +825,15 @@
     "ap_short": "Riemst bouwt aan een sterke identiteit en zet zich herkenbaar in de markt als een dynamische geme...",
     "ap_long": "Riemst profileert zich als dynamische gemeente met rijk verleden, bruisend heden en duurzame toekomst",
     "ac_code": "AC000158",
-    "ac_short": "Merkversterking rond mergel en streekproducten",
+    "ac_short": "Merkversterking rond mergel en streekproducten (OE2)",
     "ac_long": "We zetten prioritair in op merkversterkende producten rond mergel (FODG, Avergat), natuur- en landschapsbeleving (wanden vakmanschap / streekproducten (grotchampignon, wijn ea)",
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 170000.0,
-    "amount_per_capita": 10.18,
+    "total_amount": 204720.03,
+    "amount_per_capita": 12.22,
     "yearly_amounts": {
-      "2026": 50000.0,
+      "2026": 84720.03,
       "2027": 120000.0,
       "2028": 0,
       "2029": 0,
@@ -909,8 +841,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.99,
-      "2027": 7.19,
+      "2026": 5.06,
+      "2027": 7.16,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -932,10 +864,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 166500.0,
-    "amount_per_capita": 9.97,
+    "total_amount": 203399.51,
+    "amount_per_capita": 12.14,
     "yearly_amounts": {
-      "2026": 110000.0,
+      "2026": 146899.51,
       "2027": 27500.0,
       "2028": 5000.0,
       "2029": 5000.0,
@@ -943,12 +875,114 @@
       "2031": 14000.0
     },
     "yearly_per_capita": {
-      "2026": 6.59,
-      "2027": 1.65,
+      "2026": 8.77,
+      "2027": 1.64,
       "2028": 0.3,
       "2029": 0.3,
       "2030": 0.3,
       "2031": 0.84
+    }
+  },
+  {
+    "municipality": "Riemst",
+    "nis_code": "73066",
+    "bd_code": "BD000005",
+    "bd_short": "Riemst biedt kansen om te werken en te beleven",
+    "bd_long": "Riemst biedt kansen om te werken en te beleven",
+    "ap_code": "AP000023",
+    "ap_short": "Riemst ondersteunt de landbouw en stemt het ruimtelijk beleid hierop af",
+    "ap_long": "Riemst ondersteunt de landbouw en stemt het ruimtelijk beleid hierop af",
+    "ac_code": "AC000142",
+    "ac_short": "Erosie en wateroverlast bestrijden",
+    "ac_long": "We blijven de strijd aangaan tegen erosie en wateroverlast. We gaan in dialoog over het afsluiten van beheersovereenkomsten en op strategische plaatsen kopen we gronden.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 11.94,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.48,
+      "2027": 1.49,
+      "2028": 1.49,
+      "2029": 1.49,
+      "2030": 1.49,
+      "2031": 1.49
+    }
+  },
+  {
+    "municipality": "Riemst",
+    "nis_code": "73066",
+    "bd_code": "BD000004",
+    "bd_short": "Riemst zorgt voor levendige dorpen met gezonde inwoners",
+    "bd_long": "Riemst zorgt voor levendige dorpen met gezonde inwoners",
+    "ap_code": "AP000020",
+    "ap_short": "Riemst bouwt een toekomstgerichte bibliotheek als leer- en ontmoetingsplek voor iedereen",
+    "ap_long": "Riemst bouwt een toegankelijke en toekomstgerichte bibliotheekwerking uit die fungeert als een laagdrempelige leer- en ontmoetingsplek voor alle inwoners.",
+    "ac_code": "AC000130",
+    "ac_short": "Bibliotheekwerking rond leesplezier en leren",
+    "ac_long": "We bouwen een bibliotheekwerking uit met activiteiten en initatieven waarbij we bijzondere aandacht schenken aan leesplezier, leesbevordering en taalontwikkeling, digitale geletterdheid, levenslang leren, culturele participatie en gemeenschapsvorming.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 197000.0,
+    "amount_per_capita": 11.76,
+    "yearly_amounts": {
+      "2026": 46000.0,
+      "2027": 151000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.75,
+      "2027": 9.01,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Riemst",
+    "nis_code": "73066",
+    "bd_code": "BD000006",
+    "bd_short": "Riemst treedt preventief en sanctionerend op om de veiligheid te garanderen",
+    "bd_long": "Riemst treedt preventief en sanctionerend op om de veiligheid te garanderen",
+    "ap_code": "AP000026",
+    "ap_short": "Riemst investeert in verkeersveiligheid en duurzame mobiliteit",
+    "ap_long": "Riemst investeert in verkeersveiligheid en duurzame mobiliteit",
+    "ac_code": "AC000164",
+    "ac_short": "Verkeersveiligheid rond scholen verbeteren",
+    "ac_long": "We blijven maatregelen nemen voor veilig verkeer in de buurt van scholen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 195000.0,
+    "amount_per_capita": 11.64,
+    "yearly_amounts": {
+      "2026": 95000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.67,
+      "2027": 1.19,
+      "2028": 1.19,
+      "2029": 1.19,
+      "2030": 1.19,
+      "2031": 1.19
     }
   },
   {
@@ -967,7 +1001,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 8.98,
+    "amount_per_capita": 8.96,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -981,7 +1015,7 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 8.98,
+      "2030": 8.96,
       "2031": 0
     }
   },
@@ -1001,7 +1035,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 8.98,
+    "amount_per_capita": 8.96,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 25000.0,
@@ -1011,12 +1045,12 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 1.5,
-      "2027": 1.5,
-      "2028": 1.5,
-      "2029": 1.5,
-      "2030": 1.5,
-      "2031": 1.5
+      "2026": 1.49,
+      "2027": 1.49,
+      "2028": 1.49,
+      "2029": 1.49,
+      "2030": 1.49,
+      "2031": 1.49
     }
   },
   {
@@ -1034,10 +1068,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 120000.0,
-    "amount_per_capita": 7.19,
+    "total_amount": 130000.0,
+    "amount_per_capita": 7.76,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 30000.0,
       "2027": 20000.0,
       "2028": 20000.0,
       "2029": 20000.0,
@@ -1045,12 +1079,12 @@
       "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 1.2,
-      "2027": 1.2,
-      "2028": 1.2,
-      "2029": 1.2,
-      "2030": 1.2,
-      "2031": 1.2
+      "2026": 1.79,
+      "2027": 1.19,
+      "2028": 1.19,
+      "2029": 1.19,
+      "2030": 1.19,
+      "2031": 1.19
     }
   },
   {
@@ -1069,7 +1103,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 5.99,
+    "amount_per_capita": 5.97,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1084,7 +1118,7 @@
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 5.99
+      "2031": 5.97
     }
   },
   {
@@ -1103,7 +1137,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 85000.0,
-    "amount_per_capita": 5.09,
+    "amount_per_capita": 5.07,
     "yearly_amounts": {
       "2026": 35000.0,
       "2027": 10000.0,
@@ -1113,7 +1147,7 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 2.1,
+      "2026": 2.09,
       "2027": 0.6,
       "2028": 0.6,
       "2029": 0.6,
@@ -1131,13 +1165,13 @@
     "ap_short": "Riemst wil haar erfgoed actief uitdragen binnen én buiten de gemeentegrenzen",
     "ap_long": "Riemst wil haar erfgoed actief uitdragen binnen én buiten de gemeentegrenzen",
     "ac_code": "AC000039",
-    "ac_short": "Monumenten ontsluiten met infopanelen",
+    "ac_short": "Monumenten ontsluiten met infopanelen (OE2)",
     "ac_long": "We ontsluiten beschermde monumenten (in het bijzonder mergelgebouwen) en andere historische landmarks (zoals kerken en kapelletjes). Monumenten en toeristische attracties worden voorzien van informatiepanelen in de gemeentelijke huisstijl met een be",
     "categories": [
-      "09-zorg-opvang"
+      "01-algemeen-bestuur"
     ],
     "total_amount": 78000.0,
-    "amount_per_capita": 4.67,
+    "amount_per_capita": 4.66,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 58000.0,
@@ -1147,8 +1181,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.2,
-      "2027": 3.47,
+      "2026": 1.19,
+      "2027": 3.46,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1171,7 +1205,7 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 77000.0,
-    "amount_per_capita": 4.61,
+    "amount_per_capita": 4.6,
     "yearly_amounts": {
       "2026": 27000.0,
       "2027": 50000.0,
@@ -1181,7 +1215,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.62,
+      "2026": 1.61,
       "2027": 2.99,
       "2028": 0,
       "2029": 0,
@@ -1199,13 +1233,13 @@
     "ap_short": "Riemst realiseert een toegankelijke en gecoördineerde dienstverlening voor alle gezinnen",
     "ap_long": "Riemst realiseert een toegankelijke en gecoördineerde dienstverlening voor alle gezinnen",
     "ac_code": "AC000102",
-    "ac_short": "Kwaliteitsvolle buitenschoolse opvang",
+    "ac_short": "Kwaliteitsvolle buitenschoolse opvang (BOA2)",
     "ac_long": "We bieden een kwaliteitsvolle, veilige buitenschoolse kinderopvang aan waar het welzijn van het kind centraal staat.",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 67000.0,
-    "amount_per_capita": 4.01,
+    "amount_per_capita": 4.0,
     "yearly_amounts": {
       "2026": 17000.0,
       "2027": 10000.0,
@@ -1215,7 +1249,7 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 1.02,
+      "2026": 1.01,
       "2027": 0.6,
       "2028": 0.6,
       "2029": 0.6,
@@ -1239,7 +1273,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 65000.0,
-    "amount_per_capita": 3.89,
+    "amount_per_capita": 3.88,
     "yearly_amounts": {
       "2026": 15000.0,
       "2027": 10000.0,
@@ -1267,7 +1301,7 @@
     "ap_short": "Riemst zet in op klimaatbestendigheid en leefmilieu",
     "ap_long": "Riemst zet in op klimaatbestendigheid en leefmilieu",
     "ac_code": "AC000072",
-    "ac_short": "Groen erfgoed en landschapselementen herstellen",
+    "ac_short": "Groen erfgoed en landschapselementen herstellen (OE3-6)",
     "ac_long": "We koesteren ons groen erfgoed, zoals monumentale bomen, en stimuleren het beheer en herstel van typische landschapselementen zoals hagen en hoogstamboomgaarden.",
     "categories": [
       "07-cultuur-vrije-tijd"
@@ -1306,10 +1340,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 25000.0,
-    "amount_per_capita": 1.5,
+    "total_amount": 35000.0,
+    "amount_per_capita": 2.09,
     "yearly_amounts": {
-      "2026": 25000.0,
+      "2026": 35000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1317,7 +1351,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.5,
+      "2026": 2.09,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1374,10 +1408,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 6000.0,
-    "amount_per_capita": 0.36,
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.3,
     "yearly_amounts": {
-      "2026": 1000.0,
+      "2026": 0,
       "2027": 1000.0,
       "2028": 1000.0,
       "2029": 1000.0,
@@ -1385,12 +1419,46 @@
       "2031": 1000.0
     },
     "yearly_per_capita": {
-      "2026": 0.06,
+      "2026": 0,
       "2027": 0.06,
       "2028": 0.06,
       "2029": 0.06,
       "2030": 0.06,
       "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Riemst",
+    "nis_code": "73066",
+    "bd_code": "BD000001",
+    "bd_short": "Riemst investeert in leefbare dorpen",
+    "bd_long": "Riemst investeert in leefbare dorpen",
+    "ap_code": "AP000003",
+    "ap_short": "Riemst wil haar erfgoed actief uitdragen binnen én buiten de gemeentegrenzen",
+    "ap_long": "Riemst wil haar erfgoed actief uitdragen binnen én buiten de gemeentegrenzen",
+    "ac_code": "AC000037",
+    "ac_short": "Geschiedenis gemeente ondersteunen (OE2)",
+    "ac_long": "We ondersteunen initiatieven (geschiedkundige prijs, publicaties, …) die bijdragen aan het instandhouden van de geschiedenis van onze gemeente",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.18,
+    "yearly_amounts": {
+      "2026": 3000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.18,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {

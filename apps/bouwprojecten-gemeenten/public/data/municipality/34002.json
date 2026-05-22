@@ -2,34 +2,68 @@
   {
     "municipality": "Anzegem",
     "nis_code": "34002",
-    "bd_code": "BD",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GEBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB_PATG",
+    "ac_short": "Gelijkblijvend beleid - Patrimonium Gemeente",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 8899530.0,
+    "amount_per_capita": 573.22,
+    "yearly_amounts": {
+      "2026": 5457530.0,
+      "2027": 2202000.0,
+      "2028": 310000.0,
+      "2029": 860000.0,
+      "2030": 70000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 351.52,
+      "2027": 141.83,
+      "2028": 19.97,
+      "2029": 55.39,
+      "2030": 4.51,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "BD_3",
     "bd_short": "Anzegem zet in op een gecentraliseerde dienstverlening met aandacht voor nabijheid in de dorpskernen",
     "bd_long": "Kwalitatieve omschrijving: Anzegem wil zijn dienstverlening verder professionaliseren en digitaliseren, zodat inwoners en gebruikers snel, efficiënt en persoonlijk geholpen worden. Tegelijk blijft de aanwezigheid in de dorpskernen belangrijk. De diensten worden aangeboden vanuit een duurzaam en energiezuinig patrimonium, met oog voor kwaliteit en toegankelijkheid.",
-    "ap_code": "AP",
+    "ap_code": "AP_3.1",
     "ap_short": "Anzegem vernieuwt en moderniseert zijn gebouwen",
     "ap_long": "Het gemeentelijk en OCMW-patrimonium bestaat grotendeels uit verouderde en energie-intensieve gebouwen.\nPer gebouw wordt beoordeeld welke renovaties nodig zijn en of de investering opweegt tegen het resultaat. Alle werken worden uitgevoerd in lijn met de Vlaamse renovatieverplichtingen voor publieke gebouwen. Zo kunnen sommige panden verlaten worden, met als doel een beperkter maar kwalitatiever patrimonium. Tegelijk starten we de volgende fase van de werken aan het Gemeentepunt om de dienstverlening verder te centraliseren. Ook de gemeenteschool in de Pastoor Verrieststraat wordt verbouwd, inclusief een nieuw gebouw voor de Chiromeisjes en een polyvalente zaal. Tot slot zal geprobeerd worden een herbestemming met een externe partner van de kerk in Tiegem te realiseren.",
-    "ac_code": "ACT",
+    "ac_code": "ACT_3.1.1",
     "ac_short": "Nieuwe fase werken Gemeentepunt in functie van verdere centralisatie van de diensten.",
     "ac_long": "De werken aan het Gemeentepunt gaan een nieuwe fase in, gericht op verdere centralisatie van diensten. Hierbij wordt vertrokken vanuit een maximale benutting van de bestaande ruimtes die volgens het concept behouden blijven en nieuwbouw waar nodig. Doel: efficiëntere werking, betere samenwerking tussen de diensten en een klantvriendelijke dienstverlening op één locatie\nBij de opmaak van het gemeentelijk energiezorgplan kwam ook naar voren dat de gemeente beschikt over heel wat verouderd patrimonium. Deze gebouwen voldoen energetisch moeilijk aan de huidige normen en zeker niet aan de toekomstige verwachtingen. Daarom moeten er keuzes gemaakt worden: in welk patrimonium loont het nog om de nodige investeringen uit te voeren?",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 15840000.0,
-    "amount_per_capita": 1019.7,
+    "total_amount": 8790000.0,
+    "amount_per_capita": 566.17,
     "yearly_amounts": {
-      "2026": 5610000.0,
-      "2027": 6070000.0,
-      "2028": 3795000.0,
-      "2029": 345000.0,
-      "2030": 20000.0,
+      "2026": 2790000.0,
+      "2027": 3000000.0,
+      "2028": 3000000.0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 361.14,
-      "2027": 390.76,
-      "2028": 244.3,
-      "2029": 22.21,
-      "2030": 1.29,
+      "2026": 179.7,
+      "2027": 193.23,
+      "2028": 193.23,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -42,29 +76,505 @@
     "ap_code": "GEBB",
     "ap_short": "Verrichtingen zonder beleidsdoelstelling",
     "ap_long": "Commentaar:",
-    "ac_code": "GBB",
+    "ac_code": "GBB_GI",
+    "ac_short": "Gelijkblijvend beleid - Gemeentelijke infrastructuur",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 4878884.0,
+    "amount_per_capita": 314.25,
+    "yearly_amounts": {
+      "2026": 2135564.0,
+      "2027": 802664.0,
+      "2028": 837664.0,
+      "2029": 577664.0,
+      "2030": 497664.0,
+      "2031": 27664.0
+    },
+    "yearly_per_capita": {
+      "2026": 137.55,
+      "2027": 51.7,
+      "2028": 53.95,
+      "2029": 37.21,
+      "2030": 32.05,
+      "2031": 1.78
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "BD_3",
+    "bd_short": "Anzegem zet in op een gecentraliseerde dienstverlening met aandacht voor nabijheid in de dorpskernen",
+    "bd_long": "Kwalitatieve omschrijving: Anzegem wil zijn dienstverlening verder professionaliseren en digitaliseren, zodat inwoners en gebruikers snel, efficiënt en persoonlijk geholpen worden. Tegelijk blijft de aanwezigheid in de dorpskernen belangrijk. De diensten worden aangeboden vanuit een duurzaam en energiezuinig patrimonium, met oog voor kwaliteit en toegankelijkheid.",
+    "ap_code": "AP_3.1",
+    "ap_short": "Anzegem vernieuwt en moderniseert zijn gebouwen",
+    "ap_long": "Het gemeentelijk en OCMW-patrimonium bestaat grotendeels uit verouderde en energie-intensieve gebouwen.\nPer gebouw wordt beoordeeld welke renovaties nodig zijn en of de investering opweegt tegen het resultaat. Alle werken worden uitgevoerd in lijn met de Vlaamse renovatieverplichtingen voor publieke gebouwen. Zo kunnen sommige panden verlaten worden, met als doel een beperkter maar kwalitatiever patrimonium. Tegelijk starten we de volgende fase van de werken aan het Gemeentepunt om de dienstverlening verder te centraliseren. Ook de gemeenteschool in de Pastoor Verrieststraat wordt verbouwd, inclusief een nieuw gebouw voor de Chiromeisjes en een polyvalente zaal. Tot slot zal geprobeerd worden een herbestemming met een externe partner van de kerk in Tiegem te realiseren.",
+    "ac_code": "ACT_3.1.2",
+    "ac_short": "Gemeentelijke gebouwen energiezuiniger maken volgens Vlaamse renovatieverplichtingen.",
+    "ac_long": "De Vlaamse overheid legt duidelijke deadlines op voor het behalen van energielabels bij publieke gebouwen. Tegen 1 januari 2028 moeten gebouwen met een oppervlakte van meer dan 500 m² minstens energielabel E halen en kleinere gebouwen een label D of E (afhankelijk of ze een open of gesloten type zijn) met als doel in 2050 volledig koolstofneutraal te zijn (energielabel A). Omdat een groot deel van het gemeentelijk patrimonium verouderd is, zal hiervoor een aanzienlijke inspanning nodig zijn.\nOm die reden wordt ook sterk ingezet op de verdere uitbouw van het ‘Gemeentepunt’ gekoppeld aan de centralisatie van diensten. Dankzij deze oefening kunnen enkele gebouwen verlaten worden. Het doel is minder, maar kwalitatief betere gebouwen te beheren. Voor elk gebouw wordt een plan van aanpak opgesteld, waarbij via een kosten-batenanalyse wordt bepaald of renovatie nog zinvol is of verkoop de betere optie vormt.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 3365000.0,
+    "amount_per_capita": 216.74,
+    "yearly_amounts": {
+      "2026": 1970000.0,
+      "2027": 660000.0,
+      "2028": 490000.0,
+      "2029": 245000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 126.89,
+      "2027": 42.51,
+      "2028": 31.56,
+      "2029": 15.78,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "BD_3",
+    "bd_short": "Anzegem zet in op een gecentraliseerde dienstverlening met aandacht voor nabijheid in de dorpskernen",
+    "bd_long": "Kwalitatieve omschrijving: Anzegem wil zijn dienstverlening verder professionaliseren en digitaliseren, zodat inwoners en gebruikers snel, efficiënt en persoonlijk geholpen worden. Tegelijk blijft de aanwezigheid in de dorpskernen belangrijk. De diensten worden aangeboden vanuit een duurzaam en energiezuinig patrimonium, met oog voor kwaliteit en toegankelijkheid.",
+    "ap_code": "AP_3.1",
+    "ap_short": "Anzegem vernieuwt en moderniseert zijn gebouwen",
+    "ap_long": "Het gemeentelijk en OCMW-patrimonium bestaat grotendeels uit verouderde en energie-intensieve gebouwen.\nPer gebouw wordt beoordeeld welke renovaties nodig zijn en of de investering opweegt tegen het resultaat. Alle werken worden uitgevoerd in lijn met de Vlaamse renovatieverplichtingen voor publieke gebouwen. Zo kunnen sommige panden verlaten worden, met als doel een beperkter maar kwalitatiever patrimonium. Tegelijk starten we de volgende fase van de werken aan het Gemeentepunt om de dienstverlening verder te centraliseren. Ook de gemeenteschool in de Pastoor Verrieststraat wordt verbouwd, inclusief een nieuw gebouw voor de Chiromeisjes en een polyvalente zaal. Tot slot zal geprobeerd worden een herbestemming met een externe partner van de kerk in Tiegem te realiseren.",
+    "ac_code": "ACT_3.1.5",
+    "ac_short": "Uitbreiden gemeenteschool P.Verrieststraat zodat leerlingen Ingooigemplaats daar naar school kunnen.",
+    "ac_long": "In het kader van de onderwijsreorganisatie tijdens de vorige legislatuur werd al het gemeentelijk onderwijs ondergebracht in Ingooigem. Dankzij de uitbreiding van de site langs de Pastoor Verrieststraat – samen met een polyvalente zaal, een nieuw Chiroheem voor de meisjes en een groene speelruimte – kunnen beide vestigingen van het gemeentelijk onderwijs daar voortaan gecentraliseerd worden.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 2275000.0,
+    "amount_per_capita": 146.53,
+    "yearly_amounts": {
+      "2026": 810000.0,
+      "2027": 1100000.0,
+      "2028": 285000.0,
+      "2029": 80000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 52.17,
+      "2027": 70.85,
+      "2028": 18.36,
+      "2029": 5.15,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GEBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB_FING",
     "ac_short": "Gelijkblijvend beleid - Financiën gemeente",
     "ac_long": "Commentaar:",
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 15558233.0,
-    "amount_per_capita": 1001.56,
+    "total_amount": 1614249.0,
+    "amount_per_capita": 103.97,
     "yearly_amounts": {
-      "2026": 6371751.0,
-      "2027": 4562629.0,
-      "2028": 1765944.0,
-      "2029": 1774303.0,
-      "2030": 894303.0,
-      "2031": 189303.0
+      "2026": 413087.0,
+      "2027": 582965.0,
+      "2028": 298280.0,
+      "2029": 106639.0,
+      "2030": 106639.0,
+      "2031": 106639.0
     },
     "yearly_per_capita": {
-      "2026": 410.18,
-      "2027": 293.72,
-      "2028": 113.68,
-      "2029": 114.22,
-      "2030": 57.57,
-      "2031": 12.19
+      "2026": 26.61,
+      "2027": 37.55,
+      "2028": 19.21,
+      "2029": 6.87,
+      "2030": 6.87,
+      "2031": 6.87
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GEBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB_IO",
+    "ac_short": "Gelijkblijvend beleid - Interne Ondersteuning",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1456000.0,
+    "amount_per_capita": 93.78,
+    "yearly_amounts": {
+      "2026": 226000.0,
+      "2027": 830000.0,
+      "2028": 175000.0,
+      "2029": 95000.0,
+      "2030": 75000.0,
+      "2031": 55000.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.56,
+      "2027": 53.46,
+      "2028": 11.27,
+      "2029": 6.12,
+      "2030": 4.83,
+      "2031": 3.54
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "BD_1",
+    "bd_short": "Anzegem zorgt voor zijn mensen met het oog op een gelukkige en solidaire samenleving",
+    "bd_long": "Kwalitatieve omschrijving: Anzegem wil een gemeente zijn waar mensen zich goed voelen, kansen krijgen en waar het fijn leven is. De gemeente investeert in levenskwaliteit, ruimte om te groeien en een sterke lokale gemeenschap. Inwoners staan centraal en krijgen de mogelijkheid om mee richting te geven aan de toekomst van Anzegem. Wie tijdelijk extra ondersteuning nodig heeft, kan rekenen op een gerichte aanpak. Zo wordt er samen gebouwd aan een daadkrachtig en warm Anzegem.",
+    "ap_code": "AP_1.3",
+    "ap_short": "Anzegem erkent al zijn verenigingen en organisaties en ondersteunt hun werking",
+    "ap_long": "Anzegem telt een rijk en divers verenigingsleven dat dagelijks zorgt voor activiteiten, ontmoeting en verbondenheid. Deze organisaties zijn een onmisbare partner in uitdagingen die de gemeente niet alleen kan aanpakken (zoals activiteiten voor kinderen en jongeren, het verbeteren van sociale cohesie, het tegengaan van vereenzaming en het stimuleren van ontmoeting). Daarom wordt geïnvesteerd in sterke verenigingen, moderne en gebruiksvriendelijke infrastructuur en vlot toegankelijke ondersteuning, zodat vrijwilligers en verenigingen hun werking optimaal kunnen uitbouwen.",
+    "ac_code": "ACT_1.3.3",
+    "ac_short": "Ontmoetingscentra zijn goed uitgerust en worden structureel onderhouden, ook kleine mankementen.",
+    "ac_long": "Voor elk ontmoetingscentrum wordt een draaiboek bijgehouden met onderhoud en keuringen. Kleine mankementen worden snel aangepakt, door eigen personeel of aannemers, om zo een kwalitatieve en veilige infrastructuur te garanderen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1140000.0,
+    "amount_per_capita": 73.43,
+    "yearly_amounts": {
+      "2026": 470000.0,
+      "2027": 670000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 30.27,
+      "2027": 43.15,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "BD_1",
+    "bd_short": "Anzegem zorgt voor zijn mensen met het oog op een gelukkige en solidaire samenleving",
+    "bd_long": "Kwalitatieve omschrijving: Anzegem wil een gemeente zijn waar mensen zich goed voelen, kansen krijgen en waar het fijn leven is. De gemeente investeert in levenskwaliteit, ruimte om te groeien en een sterke lokale gemeenschap. Inwoners staan centraal en krijgen de mogelijkheid om mee richting te geven aan de toekomst van Anzegem. Wie tijdelijk extra ondersteuning nodig heeft, kan rekenen op een gerichte aanpak. Zo wordt er samen gebouwd aan een daadkrachtig en warm Anzegem.",
+    "ap_code": "AP_1.3",
+    "ap_short": "Anzegem erkent al zijn verenigingen en organisaties en ondersteunt hun werking",
+    "ap_long": "Anzegem telt een rijk en divers verenigingsleven dat dagelijks zorgt voor activiteiten, ontmoeting en verbondenheid. Deze organisaties zijn een onmisbare partner in uitdagingen die de gemeente niet alleen kan aanpakken (zoals activiteiten voor kinderen en jongeren, het verbeteren van sociale cohesie, het tegengaan van vereenzaming en het stimuleren van ontmoeting). Daarom wordt geïnvesteerd in sterke verenigingen, moderne en gebruiksvriendelijke infrastructuur en vlot toegankelijke ondersteuning, zodat vrijwilligers en verenigingen hun werking optimaal kunnen uitbouwen.",
+    "ac_code": "ACT_1.3.1",
+    "ac_short": "Nieuwe lokalen voor Chiro Wyvegem met aansluitend groene speelzone.",
+    "ac_long": "Het huidige jeugdlokaal van Chiro Wyvegem is verouderd en energetisch in slechte staat. Daarom wordt het gebouw gesloopt en wordt er op dezelfde site een modern en ruim lokaal met een gedeelde groene speelzone voorzien. Hiertoe werd reeds in de vorige legislatuur bijkomende ruimte voorzien door de woning aan de Stijn Streuvelsstraat 3 te kopen. Dit nieuwe jeugdlokaal sluit aan bij de uitbreiding van het schoolgebouw en de nieuwe te realiseren polyvalente zaal zodat het centrum van Ingooigem tot een levendige ontmoetingsplek kan uitgroeien.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 855000.0,
+    "amount_per_capita": 55.07,
+    "yearly_amounts": {
+      "2026": 440000.0,
+      "2027": 415000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 28.34,
+      "2027": 26.73,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GEBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB_PATO",
+    "ac_short": "Gelijkblijvend beleid - Patrimonium OCMW",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 587500.0,
+    "amount_per_capita": 37.84,
+    "yearly_amounts": {
+      "2026": 487500.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 31.4,
+      "2027": 1.61,
+      "2028": 1.61,
+      "2029": 1.61,
+      "2030": 1.61,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GEBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB_VT",
+    "ac_short": "Gelijkblijvend beleid - Vrije tijd",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 410000.0,
+    "amount_per_capita": 26.41,
+    "yearly_amounts": {
+      "2026": 130000.0,
+      "2027": 70000.0,
+      "2028": 70000.0,
+      "2029": 70000.0,
+      "2030": 70000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.37,
+      "2027": 4.51,
+      "2028": 4.51,
+      "2029": 4.51,
+      "2030": 4.51,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GEBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB_OMG",
+    "ac_short": "Gelijkblijvend beleid - Omgeving",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 230000.0,
+    "amount_per_capita": 14.81,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 50000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.86,
+      "2027": 3.22,
+      "2028": 2.58,
+      "2029": 2.58,
+      "2030": 2.58,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "BD_2",
+    "bd_short": "Anzegem zorgt voor zijn ruimte en zet in op leefbare, veilige en nette dorpen",
+    "bd_long": "Kwalitatieve omschrijving: Anzegem wenst in te zetten op het behoud van zijn ruimte en zijn karakteristieke uitzichten, vertrekkende vanuit de 7 dorpskernen. De verschillende ruimtelijke facetten zoals natuur, landbouw, ondernemen, wonen en mobiliteit, hebben hierin elk hun plaats, versterken elkaar en worden duurzaam vormgegeven. Samen met aandacht voor het klimaat, zowel in het beleid als in de eigen werking, wordt zo een daadkrachtig Anzegem gevormd.",
+    "ap_code": "AP_2.3",
+    "ap_short": "Anzegem wenst dat iedere weggebruiker zich vlot en veilig kan verplaatsen",
+    "ap_long": "Anzegem wenst dat iedere weggebruiker zich op een vlotte en veilige manier doorheen de gemeente kan verplaatsen. Hiertoe zal per deelgemeente een aanpak opgemaakt worden, vertrekkende vanuit het mobiliteitsplan. Verkeersremmende maatregelen zullen worden voorgelegd of, waar wenselijk, geëvalueerd door betrokken bewoners. Aanvullend hierop zal specifiek aandacht worden geschonken aan het verbeteren van de verkeersveiligheid op de N382 en wordt onderzocht hoe veiligere fietspaden kunnen worden voorzien op de as Anzegem-Vichte, alsook de uitbouw van een traag wegennet naar het Gemeentepunt.",
+    "ac_code": "ACT_2.3.5",
+    "ac_short": "Uitwerking plan van aanpak, op lange termijn, voor uitrol tragewegennet naar het Gemeentepunt.",
+    "ac_long": "Sinds de start van het vergunningentraject was het doel om gefaseerd een netwerk van zachte wegverbindingen uit te werken naar het Gemeentepunt. Ondertussen zijn al verschillende elementen gerealiseerd, zoals de heraanleg en verbreding van twee voetwegen in Kaster en Tiegem, het invoeren van uitgezonderd plaatselijk verkeer in de zone tussen N382, N494 en N36 en in de zone Landergemweg en Scheihoekstraat. In functie van de verdere bouwwerken aan het Gemeentepunt wordt een plan van aanpak uitgewerkt voor de verdere uitrol van het trage wegennet.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 12.88,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 200000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 12.88,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "BD_3",
+    "bd_short": "Anzegem zet in op een gecentraliseerde dienstverlening met aandacht voor nabijheid in de dorpskernen",
+    "bd_long": "Kwalitatieve omschrijving: Anzegem wil zijn dienstverlening verder professionaliseren en digitaliseren, zodat inwoners en gebruikers snel, efficiënt en persoonlijk geholpen worden. Tegelijk blijft de aanwezigheid in de dorpskernen belangrijk. De diensten worden aangeboden vanuit een duurzaam en energiezuinig patrimonium, met oog voor kwaliteit en toegankelijkheid.",
+    "ap_code": "AP_3.1",
+    "ap_short": "Anzegem vernieuwt en moderniseert zijn gebouwen",
+    "ap_long": "Het gemeentelijk en OCMW-patrimonium bestaat grotendeels uit verouderde en energie-intensieve gebouwen.\nPer gebouw wordt beoordeeld welke renovaties nodig zijn en of de investering opweegt tegen het resultaat. Alle werken worden uitgevoerd in lijn met de Vlaamse renovatieverplichtingen voor publieke gebouwen. Zo kunnen sommige panden verlaten worden, met als doel een beperkter maar kwalitatiever patrimonium. Tegelijk starten we de volgende fase van de werken aan het Gemeentepunt om de dienstverlening verder te centraliseren. Ook de gemeenteschool in de Pastoor Verrieststraat wordt verbouwd, inclusief een nieuw gebouw voor de Chiromeisjes en een polyvalente zaal. Tot slot zal geprobeerd worden een herbestemming met een externe partner van de kerk in Tiegem te realiseren.",
+    "ac_code": "ACT_3.1.3",
+    "ac_short": "OCMW-gebouwen energiezuiniger maken volgens Vlaamse renovatieverplichtingen.",
+    "ac_long": "De Vlaamse overheid legt duidelijke deadlines op voor het behalen van energielabels bij publieke gebouwen. Tegen 1 januari 2028 moeten gebouwen met een oppervlakte van meer dan 500 m² minstens energielabel E halen en kleinere gebouwen een label D of E (afhankelijk of ze een open of gesloten type zijn) met als doel in 2050 volledig koolstofneutraal te zijn (energielabel A). Omdat een groot deel van het gemeentelijk patrimonium verouderd is, zal hiervoor een aanzienlijke inspanning nodig zijn.\nOm die reden wordt ook sterk ingezet op de verdere uitbouw van het ‘Gemeentepunt’ gekoppeld aan de centralisatie van diensten. Dankzij deze oefening kunnen enkele gebouwen verlaten worden. Het doel is minder, maar kwalitatief betere gebouwen te beheren. Voor elk gebouw wordt een plan van aanpak opgesteld, waarbij via een kosten-batenanalyse wordt bepaald of renovatie nog zinvol is of verkoop de betere optie vormt.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 105000.0,
+    "amount_per_capita": 6.76,
+    "yearly_amounts": {
+      "2026": 105000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.76,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GEBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB_SH",
+    "ac_short": "Gelijkblijvend beleid - Sociaal Huis",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 5.15,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.86,
+      "2027": 0,
+      "2028": 0.64,
+      "2029": 0,
+      "2030": 0.64,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "BD_3",
+    "bd_short": "Anzegem zet in op een gecentraliseerde dienstverlening met aandacht voor nabijheid in de dorpskernen",
+    "bd_long": "Kwalitatieve omschrijving: Anzegem wil zijn dienstverlening verder professionaliseren en digitaliseren, zodat inwoners en gebruikers snel, efficiënt en persoonlijk geholpen worden. Tegelijk blijft de aanwezigheid in de dorpskernen belangrijk. De diensten worden aangeboden vanuit een duurzaam en energiezuinig patrimonium, met oog voor kwaliteit en toegankelijkheid.",
+    "ap_code": "AP_3.2",
+    "ap_short": "Anzegem investeert in een efficiënte en toegankelijke dienstverlening",
+    "ap_long": "Anzegem wenst zich op een duidelijke, toegankelijke en innovatieve wijze op te stellen naar al zijn stakeholders. Dit gebeurt zowel op communicatief vlak via de diverse kanalen waarover de gemeente beschikt als in de aangeboden dienstverlening. Daar waar mogelijk wordt de werking zo digitaal mogelijk gemaakt. (Beleids)keuzes worden onderbouwd door objectieve data. De vinger wordt aan de pols gehouden om regionale ontwikkelingen te capteren en te implementeren in de werking.",
+    "ac_code": "ACT_3.2.3",
+    "ac_short": "Ondersteuning en opvolging van regionale samenwerking en digitale dienstverlening.",
+    "ac_long": "De gemeente Anzegem blijft actief inzetten op het opvolgen van regionale ontwikkelingen en samenwerkingen die bijdragen aan een efficiënte en toekomstgerichte werking. Hierbij wordt bijzondere aandacht besteed aan digitalisatie, automatisatie en het versterken van de interne processen.\nOok al zijn bepaalde regionale trajecten nog in evolutie (zoals de mogelijke aanstelling van een nieuwe regiomanager), blijft Anzegem het regionale vervolgverhaal nauwgezet opvolgen. De gemeente engageert zich om actief deel te nemen aan overlegmomenten, kennisdeling en gezamenlijke initiatieven die de lokale werking versterken.\nDaarnaast wordt het traject 'Gemeentehuis van de Toekomst' verdergezet. Dit biedt lokale besturen ondersteuning bij het ontwerpen van burgergerichte dienstverlening, met een goede balans tussen digitale oplossingen en fysieke contacten. Ook dit zal nauw opgevolgd worden.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 3.86,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.97,
+      "2027": 0.97,
+      "2028": 0.64,
+      "2029": 0.64,
+      "2030": 0.64,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Anzegem",
+    "nis_code": "34002",
+    "bd_code": "BD_2",
+    "bd_short": "Anzegem zorgt voor zijn ruimte en zet in op leefbare, veilige en nette dorpen",
+    "bd_long": "Kwalitatieve omschrijving: Anzegem wenst in te zetten op het behoud van zijn ruimte en zijn karakteristieke uitzichten, vertrekkende vanuit de 7 dorpskernen. De verschillende ruimtelijke facetten zoals natuur, landbouw, ondernemen, wonen en mobiliteit, hebben hierin elk hun plaats, versterken elkaar en worden duurzaam vormgegeven. Samen met aandacht voor het klimaat, zowel in het beleid als in de eigen werking, wordt zo een daadkrachtig Anzegem gevormd.",
+    "ap_code": "AP_2.2",
+    "ap_short": "Anzegem ontwikkelt zijn ruimte duurzaam en toekomstgericht",
+    "ap_long": "Anzegem wenst een duurzame ontwikkeling van zijn ruimte te bewerkstelligen. Hiertoe zal tegen het einde van de legislatuur een globale en toekomstgerichte visie ontwikkeld worden die het kader zal vormen voor latere beslissingen, in samenspraak met alle belanghebbenden, voor de gehele gemeente. Specifiek voor het Ommersheimplein wordt ook tegen 2031 een masterplan opgemaakt voor de ontwikkeling van de site. Tot slot wordt in de gemeente voldoende plaats voorzien voor groen en/of speelruimte voor kinderen.",
+    "ac_code": "ACT_2.2.5",
+    "ac_short": "Er wordt uitvoering gegeven aan vergroenende initiatieven in de dorpskernen.",
+    "ac_long": "Volgend uit ACT_2.2.4, waarin een visie wordt ontwikkeld voor vergroenende initiatieven, zullen concrete projecten gedefinieerd en uitgevoerd worden.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.22,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0.64,
+      "2028": 0.64,
+      "2029": 0.64,
+      "2030": 0.64,
+      "2031": 0
     }
   }
 ]

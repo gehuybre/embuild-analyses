@@ -2,35 +2,1735 @@
   {
     "municipality": "Westerlo",
     "nis_code": "13049",
+    "bd_code": "BD000001",
+    "bd_short": "Westerlo opgeruimde en (verkeers)veilige gemeente",
+    "bd_long": "We werken in Westerlo aan een opgeruimde en (verkeers)veilige gemeente",
+    "ap_code": "AP000002",
+    "ap_short": "Verkeersveiligheid",
+    "ap_long": "We zorgen voor meer verkeersveiligheid met veilige wegen, vernieuwde voet- en fietspaden en het stimuleren van duurzame verplaatsingen.",
+    "ac_code": "Actie000010",
+    "ac_short": "veilige en groene weginfrastructuur",
+    "ac_long": "We houden onze openbare wegen in goede staat en zorgen voor een duurzame en veilige weginfrastructuur, met extra aandacht voor de zwakke weggebruiker, en onderzoeken hierbij de mogelijkheden om het straatbeeld maximaal te vergroenen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 13787423.17,
+    "amount_per_capita": 531.01,
+    "yearly_amounts": {
+      "2026": 1859162.92,
+      "2027": 2173895.32,
+      "2028": 4737001.67,
+      "2029": 2236172.48,
+      "2030": 2464945.93,
+      "2031": 316244.85
+    },
+    "yearly_per_capita": {
+      "2026": 71.6,
+      "2027": 83.73,
+      "2028": 182.44,
+      "2029": 86.12,
+      "2030": 94.94,
+      "2031": 12.18
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000004",
+    "bd_short": "Goed wonen in onze landelijke, groene en charmante Parel van de Kempen",
+    "bd_long": "We willen dat het goed wonen blijft in onze landelijke, groene en charmante Parel van de Kempen en dat de inwoners fier zijn op hun gemeente",
+    "ap_code": "AP000013",
+    "ap_short": "Groene gemeente",
+    "ap_long": "We behouden en versterken het groene, landelijke karakter van onze gemeente",
+    "ac_code": "Actie000058",
+    "ac_short": "rioleringonderhoud",
+    "ac_long": "We onderhouden onze riolering en breiden ons rioleringsstelsel uit in samenwerking met Pidpa.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 10037969.91,
+    "amount_per_capita": 386.61,
+    "yearly_amounts": {
+      "2026": 1644108.56,
+      "2027": 1655674.85,
+      "2028": 1667234.5,
+      "2029": 1678784.67,
+      "2030": 1690322.46,
+      "2031": 1701844.87
+    },
+    "yearly_per_capita": {
+      "2026": 63.32,
+      "2027": 63.77,
+      "2028": 64.21,
+      "2029": 64.66,
+      "2030": 65.1,
+      "2031": 65.55
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000005",
+    "bd_short": "Gebouwen en openbaar domein op maat van de Westerlonaar",
+    "bd_long": "We zorgen voor gebouwen en openbaar domein op maat van de Westerlonaar",
+    "ap_code": "AP000016",
+    "ap_short": "beheer en  bestemming gebouwen, infrastructuur en openbaar domein",
+    "ap_long": "We zorgen voor een goed onderhouden, duurzaam, toegankelijk en toekomstgericht beheer van onze gebouwen, openbare ruimtes en infrastructuur",
+    "ac_code": "Actie000070",
+    "ac_short": "toekomstbestendig maken van gebouwen",
+    "ac_long": "We zorgen voor een goede invulling en verduurzaming van onze gebouwen, zoals onder meer de strategische aankopen van de Carrefour-site en de Reflex.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 9057263.96,
+    "amount_per_capita": 348.83,
+    "yearly_amounts": {
+      "2026": 1836263.96,
+      "2027": 5471000.0,
+      "2028": 250000.0,
+      "2029": 1500000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 70.72,
+      "2027": 210.71,
+      "2028": 9.63,
+      "2029": 57.77,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000005",
+    "bd_short": "Gebouwen en openbaar domein op maat van de Westerlonaar",
+    "bd_long": "We zorgen voor gebouwen en openbaar domein op maat van de Westerlonaar",
+    "ap_code": "AP000016",
+    "ap_short": "beheer en  bestemming gebouwen, infrastructuur en openbaar domein",
+    "ap_long": "We zorgen voor een goed onderhouden, duurzaam, toegankelijk en toekomstgericht beheer van onze gebouwen, openbare ruimtes en infrastructuur",
+    "ac_code": "Actie000075",
+    "ac_short": "erfgoedpatrimonium",
+    "ac_long": "We faciliteren de renovatie van het erfgoedpatrimonium en houden dit in optimale, duurzame, veilige staat.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 3860932.24,
+    "amount_per_capita": 148.7,
+    "yearly_amounts": {
+      "2026": 1581267.24,
+      "2027": 1104665.0,
+      "2028": 1065000.0,
+      "2029": 110000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 60.9,
+      "2027": 42.55,
+      "2028": 41.02,
+      "2029": 4.24,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000001",
+    "bd_short": "Westerlo opgeruimde en (verkeers)veilige gemeente",
+    "bd_long": "We werken in Westerlo aan een opgeruimde en (verkeers)veilige gemeente",
+    "ap_code": "AP000001",
+    "ap_short": "Veilige buurten",
+    "ap_long": "We bouwen verder aan buurten waar onze inwoners zich veilig voelen en waar overlast zoveel mogelijk wordt voorkomen en aangepakt.",
+    "ac_code": "Actie000005",
+    "ac_short": "hulp- en veiligheidsdiensten",
+    "ac_long": "We bieden de nodige ondersteuning aan de hulp- en veiligheidsdiensten.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 3072968.69,
+    "amount_per_capita": 118.35,
+    "yearly_amounts": {
+      "2026": 731846.53,
+      "2027": 509387.25,
+      "2028": 454107.77,
+      "2029": 448959.38,
+      "2030": 461831.88,
+      "2031": 466835.88
+    },
+    "yearly_per_capita": {
+      "2026": 28.19,
+      "2027": 19.62,
+      "2028": 17.49,
+      "2029": 17.29,
+      "2030": 17.79,
+      "2031": 17.98
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000005",
+    "bd_short": "Gebouwen en openbaar domein op maat van de Westerlonaar",
+    "bd_long": "We zorgen voor gebouwen en openbaar domein op maat van de Westerlonaar",
+    "ap_code": "AP000016",
+    "ap_short": "beheer en  bestemming gebouwen, infrastructuur en openbaar domein",
+    "ap_long": "We zorgen voor een goed onderhouden, duurzaam, toegankelijk en toekomstgericht beheer van onze gebouwen, openbare ruimtes en infrastructuur",
+    "ac_code": "Actie000071",
+    "ac_short": "beheer gebouwen en openbaar domein",
+    "ac_long": "We zorgen voor een efficiënt beheer van onze locaties, gebouwen en openbaar domein.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2542167.16,
+    "amount_per_capita": 97.91,
+    "yearly_amounts": {
+      "2026": 1007762.16,
+      "2027": 543939.0,
+      "2028": 621341.0,
+      "2029": 65915.0,
+      "2030": 37921.0,
+      "2031": 265289.0
+    },
+    "yearly_per_capita": {
+      "2026": 38.81,
+      "2027": 20.95,
+      "2028": 23.93,
+      "2029": 2.54,
+      "2030": 1.46,
+      "2031": 10.22
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000010",
+    "bd_short": "Samen bijdragen aan het klimaat, het milieu en een betere wereld",
+    "bd_long": "We dragen in Westerlo samen bij aan het klimaat, het milieu en een betere wereld",
+    "ap_code": "AP000029",
+    "ap_short": "Klimaatplan",
+    "ap_long": "We leveren verdere inspanningen op het vlak van het milieu, klimaat en duurzaamheid en voeren de acties uit het Klimaatplan verder uit",
+    "ac_code": "Actie000154",
+    "ac_short": "energieneutrale gebouwen",
+    "ac_long": "We geven het goede voorbeeld en maken onze gemeentelijke gebouwen zoveel als mogelijk energieneutraal.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2427222.95,
+    "amount_per_capita": 93.48,
+    "yearly_amounts": {
+      "2026": 874442.95,
+      "2027": 290000.0,
+      "2028": 307780.0,
+      "2029": 820000.0,
+      "2030": 135000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 33.68,
+      "2027": 11.17,
+      "2028": 11.85,
+      "2029": 31.58,
+      "2030": 5.2,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000010",
+    "bd_short": "Samen bijdragen aan het klimaat, het milieu en een betere wereld",
+    "bd_long": "We dragen in Westerlo samen bij aan het klimaat, het milieu en een betere wereld",
+    "ap_code": "AP000029",
+    "ap_short": "Klimaatplan",
+    "ap_long": "We leveren verdere inspanningen op het vlak van het milieu, klimaat en duurzaamheid en voeren de acties uit het Klimaatplan verder uit",
+    "ac_code": "Actie000152",
+    "ac_short": "ecologisch beheer voertuigen en machines",
+    "ac_long": "We investeren in een efficiënt en ecologisch beheer van onze voertuigen en machines en beheren deze efficiënt.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1286500.0,
+    "amount_per_capita": 49.55,
+    "yearly_amounts": {
+      "2026": 371500.0,
+      "2027": 312500.0,
+      "2028": 10000.0,
+      "2029": 12500.0,
+      "2030": 570000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.31,
+      "2027": 12.04,
+      "2028": 0.39,
+      "2029": 0.48,
+      "2030": 21.95,
+      "2031": 0.39
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000005",
+    "bd_short": "Gebouwen en openbaar domein op maat van de Westerlonaar",
+    "bd_long": "We zorgen voor gebouwen en openbaar domein op maat van de Westerlonaar",
+    "ap_code": "AP000016",
+    "ap_short": "beheer en  bestemming gebouwen, infrastructuur en openbaar domein",
+    "ap_long": "We zorgen voor een goed onderhouden, duurzaam, toegankelijk en toekomstgericht beheer van onze gebouwen, openbare ruimtes en infrastructuur",
+    "ac_code": "Actie000072",
+    "ac_short": "kerkenbeleidsplan en religieus erfgoed",
+    "ac_long": "We faciliteren een passende valorisatie, nevenbestemming en/of herbestemming van onze parochiekerken en kapellen en denken mee over mogelijke toekomstige ontwikkelingen van ons religieus erfgoed.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1070000.0,
+    "amount_per_capita": 41.21,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 35000.0,
+      "2029": 35000.0,
+      "2030": 1000000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.35,
+      "2029": 1.35,
+      "2030": 38.51,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000011",
+    "bd_short": "Sterke organisatie",
+    "bd_long": "We werken samen aan een sterke organisatie",
+    "ap_code": "AP000036",
+    "ap_short": "Organisatieontwikkeling en ICT",
+    "ap_long": "We verhogen de optimalisatie van onze organisatie door strategische organisatieontwikkeling, zorgen ervoor dat onze medewerkers mee kunnen met de digitale evolutie en bieden hen een doorgedreven en nabije ondersteuning hierbij",
+    "ac_code": "Actie000191",
+    "ac_short": "IT-infrastructuur",
+    "ac_long": "We onderhouden en vernieuwen onze IT-infrastructuur om een zo hoog mogelijke bedrijfszekerheid te garanderen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 990915.66,
+    "amount_per_capita": 38.16,
+    "yearly_amounts": {
+      "2026": 319715.66,
+      "2027": 139000.0,
+      "2028": 105200.0,
+      "2029": 92600.0,
+      "2030": 143800.0,
+      "2031": 190600.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.31,
+      "2027": 5.35,
+      "2028": 4.05,
+      "2029": 3.57,
+      "2030": 5.54,
+      "2031": 7.34
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000005",
+    "bd_short": "Gebouwen en openbaar domein op maat van de Westerlonaar",
+    "bd_long": "We zorgen voor gebouwen en openbaar domein op maat van de Westerlonaar",
+    "ap_code": "AP000016",
+    "ap_short": "beheer en  bestemming gebouwen, infrastructuur en openbaar domein",
+    "ap_long": "We zorgen voor een goed onderhouden, duurzaam, toegankelijk en toekomstgericht beheer van onze gebouwen, openbare ruimtes en infrastructuur",
+    "ac_code": "Actie000074",
+    "ac_short": "Ondersteuning kerkfabrieken",
+    "ac_long": "We ondersteunen de erediensten en het centraal kerkbestuur met financiële middelen en logistieke steun.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 963632.0,
+    "amount_per_capita": 37.11,
+    "yearly_amounts": {
+      "2026": 275632.0,
+      "2027": 176500.0,
+      "2028": 120000.0,
+      "2029": 117500.0,
+      "2030": 89000.0,
+      "2031": 185000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.62,
+      "2027": 6.8,
+      "2028": 4.62,
+      "2029": 4.53,
+      "2030": 3.43,
+      "2031": 7.13
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000001",
+    "bd_short": "Westerlo opgeruimde en (verkeers)veilige gemeente",
+    "bd_long": "We werken in Westerlo aan een opgeruimde en (verkeers)veilige gemeente",
+    "ap_code": "AP000003",
+    "ap_short": "Aantrekkelijke straten en dorpen",
+    "ap_long": "We houden de straten, pleinen en stoepen van Westerlo proper en aantrekkelijk, met aandacht voor de dorpscentra.",
+    "ac_code": "Actie000012",
+    "ac_short": "opgeruimde gemeente",
+    "ac_long": "We zorgen met een planmatige aanpak voor een opgeruimde gemeente, verfraaien de straten en helpen mee aan de sensibilisering en de verbalisering van de vervuiler.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 483000.0,
+    "amount_per_capita": 18.6,
+    "yearly_amounts": {
+      "2026": 53000.0,
+      "2027": 20000.0,
+      "2028": 360000.0,
+      "2029": 20000.0,
+      "2030": 10000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.04,
+      "2027": 0.77,
+      "2028": 13.87,
+      "2029": 0.77,
+      "2030": 0.39,
+      "2031": 0.77
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000008",
+    "bd_short": "Zorgen voor elkaar",
+    "bd_long": "We zorgen voor elkaar in Westerlo",
+    "ap_code": "AP000025",
+    "ap_short": "Zo lang mogelijk thuis blijven wonen",
+    "ap_long": "We ondersteunen inwoners zodat zij zo lang mogelijk in hun vertrouwde thuisomgeving kunnen blijven wonen",
+    "ac_code": "Actie000122",
+    "ac_short": "maaltijdbedeling",
+    "ac_long": "We verzorgen een kwaliteitsvolle maaltijd voor de bewoners van het woonzorgcentrum, de assistentiewoningen, de gebruikers van CADO,  dorpsrestaurants, de maaltijdbedeling aan huis en occasionele activiteiten.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 474500.0,
+    "amount_per_capita": 18.28,
+    "yearly_amounts": {
+      "2026": 230000.0,
+      "2027": 101500.0,
+      "2028": 30000.0,
+      "2029": 21500.0,
+      "2030": 90000.0,
+      "2031": 1500.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.86,
+      "2027": 3.91,
+      "2028": 1.16,
+      "2029": 0.83,
+      "2030": 3.47,
+      "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000005",
+    "bd_short": "Gebouwen en openbaar domein op maat van de Westerlonaar",
+    "bd_long": "We zorgen voor gebouwen en openbaar domein op maat van de Westerlonaar",
+    "ap_code": "AP000016",
+    "ap_short": "beheer en  bestemming gebouwen, infrastructuur en openbaar domein",
+    "ap_long": "We zorgen voor een goed onderhouden, duurzaam, toegankelijk en toekomstgericht beheer van onze gebouwen, openbare ruimtes en infrastructuur",
+    "ac_code": "Actie000077",
+    "ac_short": "toegankelijkheid gebouwen, openbaar domein en weginfrastructuur",
+    "ac_long": "We brengen participatief in kaart waar we ons openbaar domein, onze weginfrastructuur en onze gebouwen moeten aanpassen aan de noden van mensen met een beperking en passen dit nadien aan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 17.33,
+    "yearly_amounts": {
+      "2026": 85000.0,
+      "2027": 85000.0,
+      "2028": 85000.0,
+      "2029": 85000.0,
+      "2030": 55000.0,
+      "2031": 55000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.27,
+      "2027": 3.27,
+      "2028": 3.27,
+      "2029": 3.27,
+      "2030": 2.12,
+      "2031": 2.12
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000006",
+    "bd_short": "Investeren in de toekomst van Westerlo",
+    "bd_long": "We investeren in de toekomst van Westerlo",
+    "ap_code": "AP000019",
+    "ap_short": "Onderwijs",
+    "ap_long": "We zetten ons in om basisonderwijs in onze zeven dorpen te garanderen en bouwen verder aan kwaliteitsvol kunstonderwijs.",
+    "ac_code": "Actie000083",
+    "ac_short": "Onderwijs",
+    "ac_long": "We organiseren kwaliteitsvol onderwijs in onze gemeentelijke scholen in een veilige, uitdagende en leerrijke omgeving.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 391739.61,
+    "amount_per_capita": 15.09,
+    "yearly_amounts": {
+      "2026": 111205.49,
+      "2027": 56934.12,
+      "2028": 97700.0,
+      "2029": 50900.0,
+      "2030": 31000.0,
+      "2031": 44000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.28,
+      "2027": 2.19,
+      "2028": 3.76,
+      "2029": 1.96,
+      "2030": 1.19,
+      "2031": 1.69
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000004",
+    "bd_short": "Goed wonen in onze landelijke, groene en charmante Parel van de Kempen",
+    "bd_long": "We willen dat het goed wonen blijft in onze landelijke, groene en charmante Parel van de Kempen en dat de inwoners fier zijn op hun gemeente",
+    "ap_code": "AP000013",
+    "ap_short": "Groene gemeente",
+    "ap_long": "We behouden en versterken het groene, landelijke karakter van onze gemeente",
+    "ac_code": "Actie000056",
+    "ac_short": "Groenonderhoud",
+    "ac_long": "We onderhouden het groen op ons openbaar domein en houden maximaal rekening met biodiversiteit en onderhoudsgemak bij nieuwe aanplantingen.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 307000.0,
+    "amount_per_capita": 11.82,
+    "yearly_amounts": {
+      "2026": 172000.0,
+      "2027": 10000.0,
+      "2028": 95000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.62,
+      "2027": 0.39,
+      "2028": 3.66,
+      "2029": 0.39,
+      "2030": 0.39,
+      "2031": 0.39
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000002",
+    "bd_short": "Leven in de brouwerij met voor elk wat wils in onze warme buurten",
+    "bd_long": "We brengen in Westerlo leven in de brouwerij met voor elk wat wils in onze warme buurten",
+    "ap_code": "AP000004",
+    "ap_short": "Divers vrijetijdsaanbod",
+    "ap_long": "We zorgen voor een divers vrijetijdsaanbod, waar creativiteit, zelfontplooiing- en leerkansen en ontmoeting gestimuleerd worden.",
+    "ac_code": "Actie000014",
+    "ac_short": "Activiteiten bibliotheek",
+    "ac_long": "We zorgen in de bibliotheek voor een divers aanbod aan activiteiten en beleving voor meer zelfontplooiingskansen, debat, ontmoeting en leesplezier voor jeugd en volwassenen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 306099.89,
+    "amount_per_capita": 11.79,
+    "yearly_amounts": {
+      "2026": 56099.89,
+      "2027": 250000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.16,
+      "2027": 9.63,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000008",
+    "bd_short": "Zorgen voor elkaar",
+    "bd_long": "We zorgen voor elkaar in Westerlo",
+    "ap_code": "AP000024",
+    "ap_short": "Woonvormen voor senioren en zorgbehoevenden",
+    "ap_long": "We zetten ons in voor gepaste en diverse woonvormen voor senioren en zorgbehoevenden",
+    "ac_code": "Actie000117",
+    "ac_short": "woonzorgcentrum Parel van de Kempen",
+    "ac_long": "We baten het woonzorgcentrum Parel van de Kempen in eigen beheer uit met een betaalbare ligdagprijs en kwaliteitsvolle zorg voor de bewoners.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 275000.0,
+    "amount_per_capita": 10.59,
+    "yearly_amounts": {
+      "2026": 185000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 40000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.13,
+      "2027": 0.96,
+      "2028": 0.96,
+      "2029": 1.54,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000005",
+    "bd_short": "Gebouwen en openbaar domein op maat van de Westerlonaar",
+    "bd_long": "We zorgen voor gebouwen en openbaar domein op maat van de Westerlonaar",
+    "ap_code": "AP000016",
+    "ap_short": "beheer en  bestemming gebouwen, infrastructuur en openbaar domein",
+    "ap_long": "We zorgen voor een goed onderhouden, duurzaam, toegankelijk en toekomstgericht beheer van onze gebouwen, openbare ruimtes en infrastructuur",
+    "ac_code": "Actie000076",
+    "ac_short": "natuurbegraafplaats en begraafplaatsen",
+    "ac_long": "We realiseren een natuurbegraafplaats op een neutrale goed bereikbare plaats in een groene omgeving en onderhouden onze begraafplaatsen in de verschillende dorpen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 249294.96,
+    "amount_per_capita": 9.6,
+    "yearly_amounts": {
+      "2026": 137922.96,
+      "2027": 86372.0,
+      "2028": 0,
+      "2029": 25000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.31,
+      "2027": 3.33,
+      "2028": 0,
+      "2029": 0.96,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000004",
+    "bd_short": "Goed wonen in onze landelijke, groene en charmante Parel van de Kempen",
+    "bd_long": "We willen dat het goed wonen blijft in onze landelijke, groene en charmante Parel van de Kempen en dat de inwoners fier zijn op hun gemeente",
+    "ap_code": "AP000013",
+    "ap_short": "Groene gemeente",
+    "ap_long": "We behouden en versterken het groene, landelijke karakter van onze gemeente",
+    "ac_code": "Actie000055",
+    "ac_short": "Bomenonderhoud",
+    "ac_long": "We onderhouden onze bomen en houden de inventaris van het bomenplan actueel. We werken een visie uit voor zowel het openbaar domein als privéterrein.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 235000.0,
+    "amount_per_capita": 9.05,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.85,
+      "2027": 1.16,
+      "2028": 1.16,
+      "2029": 1.16,
+      "2030": 1.16,
+      "2031": 0.58
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000006",
+    "bd_short": "Investeren in de toekomst van Westerlo",
+    "bd_long": "We investeren in de toekomst van Westerlo",
+    "ap_code": "AP000021",
+    "ap_short": "ontmoeting en beleving kinderen en jongeren",
+    "ap_long": "We zorgen ervoor dat ontmoeting en beleving voor onze kinderen en jeugd mogelijk blijft.",
+    "ac_code": "Actie000095",
+    "ac_short": "buitenspelen",
+    "ac_long": "We promoten het buitenspelen, voorzien in en onderhouden openbare speelruimten op basis van het buitenspeelplan en voorzien in  en optimaliseren de skateinfrastructuur.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 214080.8,
+    "amount_per_capita": 8.25,
+    "yearly_amounts": {
+      "2026": 110000.0,
+      "2027": 20000.0,
+      "2028": 20400.0,
+      "2029": 20808.0,
+      "2030": 21224.16,
+      "2031": 21648.64
+    },
+    "yearly_per_capita": {
+      "2026": 4.24,
+      "2027": 0.77,
+      "2028": 0.79,
+      "2029": 0.8,
+      "2030": 0.82,
+      "2031": 0.83
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000011",
+    "bd_short": "Sterke organisatie",
+    "bd_long": "We werken samen aan een sterke organisatie",
+    "ap_code": "AP000036",
+    "ap_short": "Organisatieontwikkeling en ICT",
+    "ap_long": "We verhogen de optimalisatie van onze organisatie door strategische organisatieontwikkeling, zorgen ervoor dat onze medewerkers mee kunnen met de digitale evolutie en bieden hen een doorgedreven en nabije ondersteuning hierbij",
+    "ac_code": "Actie000192",
+    "ac_short": "software, licenties, telefonie en datalijnen",
+    "ac_long": "We ondersteunen en optimaliseren een efficiënte administratie door het voorzien van kwaliteitsvolle software, licenties, telefonie en datalijnen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 7.7,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000010",
+    "bd_short": "Samen bijdragen aan het klimaat, het milieu en een betere wereld",
+    "bd_long": "We dragen in Westerlo samen bij aan het klimaat, het milieu en een betere wereld",
+    "ap_code": "AP000030",
+    "ap_short": "Sensibiliseren en informeren over milieu, klimaat en duurzaamheid",
+    "ap_long": "We nemen en ondersteunen initiatieven die gericht zijn op het sensibiliseren en informeren van inwoners over milieu, klimaat en duurzaamheid",
+    "ac_code": "Actie000159",
+    "ac_short": "promotie duurzame gewoontes inwoners",
+    "ac_long": "We promoten bij onze inwoners duurzame gewoontes zoals goed sorteren van afval, bewust letten op water- en energieverbruik, beperken/verminderen van afval en het aankopen van producten en diensten van lokale oorsprong en geven zelf  het goede voorbeeld.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 7.7,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000005",
+    "bd_short": "Gebouwen en openbaar domein op maat van de Westerlonaar",
+    "bd_long": "We zorgen voor gebouwen en openbaar domein op maat van de Westerlonaar",
+    "ap_code": "AP000016",
+    "ap_short": "beheer en  bestemming gebouwen, infrastructuur en openbaar domein",
+    "ap_long": "We zorgen voor een goed onderhouden, duurzaam, toegankelijk en toekomstgericht beheer van onze gebouwen, openbare ruimtes en infrastructuur",
+    "ac_code": "Actie000073",
+    "ac_short": "monumenten en oud-strijdersgraven",
+    "ac_long": "We dragen zorg voor onze monumenten en oud-strijdersgraven",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 165000.0,
+    "amount_per_capita": 6.35,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.54,
+      "2027": 0.96,
+      "2028": 0.96,
+      "2029": 0.96,
+      "2030": 0.96,
+      "2031": 0.96
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000001",
+    "bd_short": "Westerlo opgeruimde en (verkeers)veilige gemeente",
+    "bd_long": "We werken in Westerlo aan een opgeruimde en (verkeers)veilige gemeente",
+    "ap_code": "AP000002",
+    "ap_short": "Verkeersveiligheid",
+    "ap_long": "We zorgen voor meer verkeersveiligheid met veilige wegen, vernieuwde voet- en fietspaden en het stimuleren van duurzame verplaatsingen.",
+    "ac_code": "Actie000009",
+    "ac_short": "verkeerscomité en participatie",
+    "ac_long": "We stemmen verkeersmaatregelen af op de lokale noden via het verkeerscomité en participatiemomenten en werken hiervoor samen met de politie en verkeersdeskundigen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 5.78,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.96,
+      "2027": 0.96,
+      "2028": 0.96,
+      "2029": 0.96,
+      "2030": 0.96,
+      "2031": 0.96
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000002",
+    "bd_short": "Leven in de brouwerij met voor elk wat wils in onze warme buurten",
+    "bd_long": "We brengen in Westerlo leven in de brouwerij met voor elk wat wils in onze warme buurten",
+    "ap_code": "AP000004",
+    "ap_short": "Divers vrijetijdsaanbod",
+    "ap_long": "We zorgen voor een divers vrijetijdsaanbod, waar creativiteit, zelfontplooiing- en leerkansen en ontmoeting gestimuleerd worden.",
+    "ac_code": "Actie000016",
+    "ac_short": "Evenementenloket",
+    "ac_long": "We ondersteunen organisatoren van evenementen en activiteiten via onder meer het evenementenloket.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 3.85,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.85,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000007",
+    "bd_short": "Een gezonde, sportieve eersteklasse gemeente",
+    "bd_long": "We zijn een gezonde, sportieve eersteklassegemeente",
+    "ap_code": "AP000023",
+    "ap_short": "Ondersteuning sporters, sportcubs en revaliderenden",
+    "ap_long": "We voorzien in de nodige infrastructuur en ondersteuning om sporten en bewegen te bevorderen.",
+    "ac_code": "Actie000111",
+    "ac_short": "Zitbankenplan",
+    "ac_long": "We rollen een zitbankenplan uit als rust- en ontmoetingsplekken, ook voor inwoners met een zwakkere gezondheid of in revalidatie.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 69000.0,
+    "amount_per_capita": 2.66,
+    "yearly_amounts": {
+      "2026": 39000.0,
+      "2027": 10000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.5,
+      "2027": 0.39,
+      "2028": 0.19,
+      "2029": 0.19,
+      "2030": 0.19,
+      "2031": 0.19
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000001",
+    "bd_short": "Westerlo opgeruimde en (verkeers)veilige gemeente",
+    "bd_long": "We werken in Westerlo aan een opgeruimde en (verkeers)veilige gemeente",
+    "ap_code": "AP000002",
+    "ap_short": "Verkeersveiligheid",
+    "ap_long": "We zorgen voor meer verkeersveiligheid met veilige wegen, vernieuwde voet- en fietspaden en het stimuleren van duurzame verplaatsingen.",
+    "ac_code": "Actie000006",
+    "ac_short": "mobiliteitsvisie en veilige schoolomgevingen",
+    "ac_long": "We ontwikkelen een mobiliteitsvisie en -plan en hebben bijzondere aandacht voor veilige fiets- en schoolomgevingen en voor woon- en werkverkeer.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 2.31,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.39,
+      "2027": 0.39,
+      "2028": 0.39,
+      "2029": 0.39,
+      "2030": 0.39,
+      "2031": 0.39
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000010",
+    "bd_short": "Samen bijdragen aan het klimaat, het milieu en een betere wereld",
+    "bd_long": "We dragen in Westerlo samen bij aan het klimaat, het milieu en een betere wereld",
+    "ap_code": "AP000029",
+    "ap_short": "Klimaatplan",
+    "ap_long": "We leveren verdere inspanningen op het vlak van het milieu, klimaat en duurzaamheid en voeren de acties uit het Klimaatplan verder uit",
+    "ac_code": "Actie000147",
+    "ac_short": "Trage wegen",
+    "ac_long": "We optimaliseren onze nuttige trage wegen en brengen ze in goede staat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 1.93,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000006",
+    "bd_short": "Investeren in de toekomst van Westerlo",
+    "bd_long": "We investeren in de toekomst van Westerlo",
+    "ap_code": "AP000018",
+    "ap_short": "opvang en activiteiten kinderen",
+    "ap_long": "We blijven koploper met onze inclusieve buitenschoolse kinderopvang in elk deeldorp en zetten in op een naschools vrijetijdsaanbod dat de ontplooiingskansen van kinderen bevordert.",
+    "ac_code": "Actie000081",
+    "ac_short": "BOA aanbod",
+    "ac_long": "We bieden kwaliteitsvolle, toegankelijke en inclusieve buitenschoolse opvang aan in elk deeldorp en  zorgen in samenwerking met verenigingen, vrijwilligers en onze eigen vrijetijdsdiensten voor naschoolse, laagdrempelige activiteiten in de buurt van de school.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 46184.73,
+    "amount_per_capita": 1.78,
+    "yearly_amounts": {
+      "2026": 46184.73,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.78,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000001",
+    "bd_short": "Westerlo opgeruimde en (verkeers)veilige gemeente",
+    "bd_long": "We werken in Westerlo aan een opgeruimde en (verkeers)veilige gemeente",
+    "ap_code": "AP000002",
+    "ap_short": "Verkeersveiligheid",
+    "ap_long": "We zorgen voor meer verkeersveiligheid met veilige wegen, vernieuwde voet- en fietspaden en het stimuleren van duurzame verplaatsingen.",
+    "ac_code": "Actie000007",
+    "ac_short": "mobiliteitsstudies en -acties",
+    "ac_long": "We investeren in mobiliteitsstudies en projecten om de verkeersveiligheid te verbeteren en voeren mobiliteitsacties uit, afgestemd op de bovenlokale mobiliteitsvisies.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 1.54,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.77,
+      "2029": 0.77,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000008",
+    "bd_short": "Zorgen voor elkaar",
+    "bd_long": "We zorgen voor elkaar in Westerlo",
+    "ap_code": "AP000026",
+    "ap_short": "Bestrijding van armoede",
+    "ap_long": "We nemen initiatieven ter bestrijding van armoede",
+    "ac_code": "Actie000131",
+    "ac_short": "Dak- en thuisloosheid",
+    "ac_long": "We werken acties en initiatieven uit in de strijd tegen dak- en thuisloosheid.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 37500.0,
+    "amount_per_capita": 1.44,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 25000.0,
+      "2028": 2500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
+      "2027": 0.96,
+      "2028": 0.1,
+      "2029": 0.1,
+      "2030": 0.1,
+      "2031": 0.1
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000001",
+    "bd_short": "Westerlo opgeruimde en (verkeers)veilige gemeente",
+    "bd_long": "We werken in Westerlo aan een opgeruimde en (verkeers)veilige gemeente",
+    "ap_code": "AP000001",
+    "ap_short": "Veilige buurten",
+    "ap_long": "We bouwen verder aan buurten waar onze inwoners zich veilig voelen en waar overlast zoveel mogelijk wordt voorkomen en aangepakt.",
+    "ac_code": "Actie000003",
+    "ac_short": "aanpak en preventie overlast",
+    "ac_long": "We nemen acties en initiatieven om overlast te voorkomen en aan te pakken.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 36000.0,
+    "amount_per_capita": 1.39,
+    "yearly_amounts": {
+      "2026": 36000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000003",
+    "bd_short": "Iedereen mee in onze klantvriendelijke gemeente",
+    "bd_long": "We zorgen ervoor dat iedereen mee is in onze klantvriendelijke gemeente",
+    "ap_code": "AP000008",
+    "ap_short": "Warm onthaal en toegankelijke dienstverlening op maat",
+    "ap_long": "We zetten actief in op een warm onthaal en een toegankelijke en laagdrempelige dienstverlening op maat",
+    "ac_code": "Actie000032",
+    "ac_short": "projecten visie op dienstverlening",
+    "ac_long": "We verankeren onze visie op dienstverlening en passen onze dienstverlening daarop aan.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.16,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.19,
+      "2027": 0.19,
+      "2028": 0.19,
+      "2029": 0.19,
+      "2030": 0.19,
+      "2031": 0.19
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000004",
+    "bd_short": "Goed wonen in onze landelijke, groene en charmante Parel van de Kempen",
+    "bd_long": "We willen dat het goed wonen blijft in onze landelijke, groene en charmante Parel van de Kempen en dat de inwoners fier zijn op hun gemeente",
+    "ap_code": "AP000014",
+    "ap_short": "Erfgoed",
+    "ap_long": "We koesteren en promoten onze gemeente als de charmante parel van de Kempen, met bijzondere aandacht voor het erfgoed, zodat onze inwoners fier zijn op hun gemeente.",
+    "ac_code": "Actie000061",
+    "ac_short": "Gravinnekespad",
+    "ac_long": "We passen het Gravinnekespad in De Beeltjens aan in functie van nieuwe ontwikkelingen en inzichten.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.16,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.19,
+      "2027": 0.19,
+      "2028": 0.19,
+      "2029": 0.19,
+      "2030": 0.19,
+      "2031": 0.19
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000010",
+    "bd_short": "Samen bijdragen aan het klimaat, het milieu en een betere wereld",
+    "bd_long": "We dragen in Westerlo samen bij aan het klimaat, het milieu en een betere wereld",
+    "ap_code": "AP000029",
+    "ap_short": "Klimaatplan",
+    "ap_long": "We leveren verdere inspanningen op het vlak van het milieu, klimaat en duurzaamheid en voeren de acties uit het Klimaatplan verder uit",
+    "ac_code": "Actie000149",
+    "ac_short": "groenblauwe netwerken",
+    "ac_long": "We werken aan groenblauwe netwerken om beter om te gaan met het veranderende klimaat, onder meer door te zorgen voor (meer) natuur en water in onze omgeving.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.16,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.39,
+      "2030": 0.39,
+      "2031": 0.39
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000006",
+    "bd_short": "Investeren in de toekomst van Westerlo",
+    "bd_long": "We investeren in de toekomst van Westerlo",
+    "ap_code": "AP000019",
+    "ap_short": "Onderwijs",
+    "ap_long": "We zetten ons in om basisonderwijs in onze zeven dorpen te garanderen en bouwen verder aan kwaliteitsvol kunstonderwijs.",
+    "ac_code": "Actie000091",
+    "ac_short": "Muziekonderwijs",
+    "ac_long": "We ondersteunen het muziekonderwijs.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.16,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.19,
+      "2027": 0.19,
+      "2028": 0.19,
+      "2029": 0.19,
+      "2030": 0.19,
+      "2031": 0.19
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000006",
+    "bd_short": "Investeren in de toekomst van Westerlo",
+    "bd_long": "We investeren in de toekomst van Westerlo",
+    "ap_code": "AP000019",
+    "ap_short": "Onderwijs",
+    "ap_long": "We zetten ons in om basisonderwijs in onze zeven dorpen te garanderen en bouwen verder aan kwaliteitsvol kunstonderwijs.",
+    "ac_code": "Actie000089",
+    "ac_short": "ateliers kunstonderwijs",
+    "ac_long": "We bieden kwaliteitsvolle beeldateliers aan zowel voor kinderen, jongeren en volwassenen waar ze op een laagdrempelige manier kunnen leren en experimenteren.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 29658.23,
+    "amount_per_capita": 1.14,
+    "yearly_amounts": {
+      "2026": 29658.23,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000007",
+    "bd_short": "Een gezonde, sportieve eersteklasse gemeente",
+    "bd_long": "We zijn een gezonde, sportieve eersteklassegemeente",
+    "ap_code": "AP000022",
+    "ap_short": "Westels gezondheidsplan en -barometer",
+    "ap_long": "We maken een Westels gezondheidsplan op en ontwikkelen een lokale gezondheidsbarometer",
+    "ac_code": "Actie000100",
+    "ac_short": "fysieke gezondheid",
+    "ac_long": "We werken acties en initiatieven uit om de fysieke gezondheid van onze inwoners te bevorderen, door o.m. onze inwoners aan te zetten tot (meer) sporten en bewegen",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 27500.0,
+    "amount_per_capita": 1.06,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 5000.0,
+      "2028": 0,
+      "2029": 2500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.77,
+      "2027": 0.19,
+      "2028": 0,
+      "2029": 0.1,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000007",
+    "bd_short": "Een gezonde, sportieve eersteklasse gemeente",
+    "bd_long": "We zijn een gezonde, sportieve eersteklassegemeente",
+    "ap_code": "AP000022",
+    "ap_short": "Westels gezondheidsplan en -barometer",
+    "ap_long": "We maken een Westels gezondheidsplan op en ontwikkelen een lokale gezondheidsbarometer",
+    "ac_code": "Actie000102",
+    "ac_short": "gezonde leefomgeving",
+    "ac_long": "We werken acties en initiatieven uit die bijdragen aan een gezonde leefomgeving voor onze inwoners",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 0.96,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.96,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000004",
+    "bd_short": "Goed wonen in onze landelijke, groene en charmante Parel van de Kempen",
+    "bd_long": "We willen dat het goed wonen blijft in onze landelijke, groene en charmante Parel van de Kempen en dat de inwoners fier zijn op hun gemeente",
+    "ap_code": "AP000014",
+    "ap_short": "Erfgoed",
+    "ap_long": "We koesteren en promoten onze gemeente als de charmante parel van de Kempen, met bijzondere aandacht voor het erfgoed, zodat onze inwoners fier zijn op hun gemeente.",
+    "ac_code": "Actie000060",
+    "ac_short": "onthaal toerisme",
+    "ac_long": "We bouwen het toerismekantoor en de tuin verder uit als onthaalinfrastructuur van Landschapspark de Merode.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 20500.0,
+    "amount_per_capita": 0.79,
+    "yearly_amounts": {
+      "2026": 11750.0,
+      "2027": 1750.0,
+      "2028": 1750.0,
+      "2029": 1750.0,
+      "2030": 1750.0,
+      "2031": 1750.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.45,
+      "2027": 0.07,
+      "2028": 0.07,
+      "2029": 0.07,
+      "2030": 0.07,
+      "2031": 0.07
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000008",
+    "bd_short": "Zorgen voor elkaar",
+    "bd_long": "We zorgen voor elkaar in Westerlo",
+    "ap_code": "AP000024",
+    "ap_short": "Woonvormen voor senioren en zorgbehoevenden",
+    "ap_long": "We zetten ons in voor gepaste en diverse woonvormen voor senioren en zorgbehoevenden",
+    "ac_code": "Actie000112",
+    "ac_short": "Assistentiewoningen",
+    "ac_long": "We bieden assistentiewoningen aan.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.77,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.77,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000003",
+    "bd_short": "Iedereen mee in onze klantvriendelijke gemeente",
+    "bd_long": "We zorgen ervoor dat iedereen mee is in onze klantvriendelijke gemeente",
+    "ap_code": "AP000009",
+    "ap_short": "E-inclusie",
+    "ap_long": "We zorgen ervoor dat niemand achter blijft in de meer en meer digitale wereld en ondersteunen onze inwoners bij hun digitale vragen, persoonlijk en op maat",
+    "ac_code": "Actie000039",
+    "ac_short": "ondersteuning van digitale vragen",
+    "ac_long": "We ondersteunen inwoners met digitale vragen zodat niemand achter blijft in de meer en meer digitale wereld.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.58,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.58,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000001",
+    "bd_short": "Westerlo opgeruimde en (verkeers)veilige gemeente",
+    "bd_long": "We werken in Westerlo aan een opgeruimde en (verkeers)veilige gemeente",
+    "ap_code": "AP000002",
+    "ap_short": "Verkeersveiligheid",
+    "ap_long": "We zorgen voor meer verkeersveiligheid met veilige wegen, vernieuwde voet- en fietspaden en het stimuleren van duurzame verplaatsingen.",
+    "ac_code": "Actie000011",
+    "ac_short": "stimulans alternatief vervoer",
+    "ac_long": "We stimuleren het gebruik van de fiets en alternatieve vervoersmiddelen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.58,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.58,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000008",
+    "bd_short": "Zorgen voor elkaar",
+    "bd_long": "We zorgen voor elkaar in Westerlo",
+    "ap_code": "AP000026",
+    "ap_short": "Bestrijding van armoede",
+    "ap_long": "We nemen initiatieven ter bestrijding van armoede",
+    "ac_code": "Actie000129",
+    "ac_short": "De Dreef",
+    "ac_long": "We zorgen voor een ontmoetingsplaats voor de meest kwetsbare inwoners in onze gemeente en creëren  kansen om mensen te verbinden, te ondersteunen en te versterken met specifieke aandacht voor vrijetijdsparticipatie.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 14000.0,
+    "amount_per_capita": 0.54,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 1000.0,
+      "2028": 3000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.39,
+      "2027": 0.04,
+      "2028": 0.12,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000002",
+    "bd_short": "Leven in de brouwerij met voor elk wat wils in onze warme buurten",
+    "bd_long": "We brengen in Westerlo leven in de brouwerij met voor elk wat wils in onze warme buurten",
+    "ap_code": "AP000004",
+    "ap_short": "Divers vrijetijdsaanbod",
+    "ap_long": "We zorgen voor een divers vrijetijdsaanbod, waar creativiteit, zelfontplooiing- en leerkansen en ontmoeting gestimuleerd worden.",
+    "ac_code": "Actie000013",
+    "ac_short": "Culturele evenementen",
+    "ac_long": "We organiseren en faciliteren diverse culturele evenementen in de Zoerla en op verrassende locaties.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.39,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000009",
+    "bd_short": "Sterke lokale handel, meer kansen voor westelse ondernemers",
+    "bd_long": "We zorgen voor een sterke lokale handel en meer kansen voor Westelse ondernemers",
+    "ap_code": "AP000028",
+    "ap_short": "lokaal ondernemen",
+    "ap_long": "We zorgen ervoor dat Westerlo een aantrekkelijke gemeente blijft om lokaal te winkelen en lokaal te ondernemen.",
+    "ac_code": "Actie000139",
+    "ac_short": "promotie lokaal winkelen en ondernemen",
+    "ac_long": "We promoten ondernemen en winkelen in eigen gemeente, de wekelijkse markt en de landbouw met gerichte acties en in overleg met de lokale middenstand.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 6000.0,
+    "amount_per_capita": 0.23,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 6000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.23,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000002",
+    "bd_short": "Leven in de brouwerij met voor elk wat wils in onze warme buurten",
+    "bd_long": "We brengen in Westerlo leven in de brouwerij met voor elk wat wils in onze warme buurten",
+    "ap_code": "AP000004",
+    "ap_short": "Divers vrijetijdsaanbod",
+    "ap_long": "We zorgen voor een divers vrijetijdsaanbod, waar creativiteit, zelfontplooiing- en leerkansen en ontmoeting gestimuleerd worden.",
+    "ac_code": "Actie000018",
+    "ac_short": "maakplek",
+    "ac_long": "We zorgen voor een laagdrempelige, goed uitgebouwde maakplek waar techniek en creativiteit samenkomen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 6000.0,
+    "amount_per_capita": 0.23,
+    "yearly_amounts": {
+      "2026": 1000.0,
+      "2027": 1000.0,
+      "2028": 1000.0,
+      "2029": 1000.0,
+      "2030": 1000.0,
+      "2031": 1000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.04,
+      "2027": 0.04,
+      "2028": 0.04,
+      "2029": 0.04,
+      "2030": 0.04,
+      "2031": 0.04
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000008",
+    "bd_short": "Zorgen voor elkaar",
+    "bd_long": "We zorgen voor elkaar in Westerlo",
+    "ap_code": "AP000025",
+    "ap_short": "Zo lang mogelijk thuis blijven wonen",
+    "ap_long": "We ondersteunen inwoners zodat zij zo lang mogelijk in hun vertrouwde thuisomgeving kunnen blijven wonen",
+    "ac_code": "Actie000119",
+    "ac_short": "Lokaal Dienstencentrum",
+    "ac_long": "We baten het lokaal dienstencentrum uit en ondersteunen onze externe partners.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.12,
+    "yearly_amounts": {
+      "2026": 3000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
     "bd_code": "BD000011",
     "bd_short": "Sterke organisatie",
     "bd_long": "We werken samen aan een sterke organisatie",
     "ap_code": "AP000035",
     "ap_short": "Beleidsinformatie, informatie en data",
     "ap_long": "We verzamelen, bewaren en gebruiken (beleids)informatie en data op een efficiënte en veilige wijze",
-    "ac_code": "A",
+    "ac_code": "Actie000185",
     "ac_short": "print en kopie",
     "ac_long": "We ondersteunen een efficiënte administratie door het aanbieden van print- en kopiemogelijkheden.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 53061764.0,
-    "amount_per_capita": 2043.72,
+    "total_amount": 2500.0,
+    "amount_per_capita": 0.1,
     "yearly_amounts": {
-      "2026": 11586233.0,
-      "2027": 13224517.0,
-      "2028": 10339916.0,
-      "2029": 7550589.0,
-      "2030": 6948895.0,
-      "2031": 3411614.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 2500.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 446.25,
-      "2027": 509.35,
-      "2028": 398.25,
-      "2029": 290.82,
-      "2030": 267.64,
-      "2031": 131.4
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.1,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Westerlo",
+    "nis_code": "13049",
+    "bd_code": "BD000007",
+    "bd_short": "Een gezonde, sportieve eersteklasse gemeente",
+    "bd_long": "We zijn een gezonde, sportieve eersteklassegemeente",
+    "ap_code": "AP000023",
+    "ap_short": "Ondersteuning sporters, sportcubs en revaliderenden",
+    "ap_long": "We voorzien in de nodige infrastructuur en ondersteuning om sporten en bewegen te bevorderen.",
+    "ac_code": "Actie000108",
+    "ac_short": "sportaanbod en sportinfrastructuur",
+    "ac_long": "We zorgen voor een aangepast sportaanbod, voor een optimale benutting van de bestaande en voor bijkomende sportinfrastructuur in onze gemeente.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2500.0,
+    "amount_per_capita": 0.1,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

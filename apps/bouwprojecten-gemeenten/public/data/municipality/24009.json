@@ -2,35 +2,205 @@
   {
     "municipality": "Bertem",
     "nis_code": "24009",
-    "bd_code": "BD",
-    "bd_short": "Een efficiënte en transparante organisatie met en voor de burger",
-    "bd_long": "Kwalitatieve omschrijving: We bouwen aan een moderne, transparante en toekomstgerichte organisatie die efficiënt werkt, digitaal toegankelijk is en kwaliteitsvolle dienstverlening aanbiedt aan inwoners, verenigingen en partners. Door te investeren in een veilig en performant ICT-beleid, duidelijke communicatie, klantgerichte processen, een sterke organisatiecultuur en een duurzaam HR-beleid, vergroten we het vertrouwen in het lokaal bestuur en versterken we onze rol als betrouwbare publieke partner. Een gezond financieel beleid is een belangrijke hefboom om deze doelstelling te realiseren.",
-    "ap_code": "AP",
-    "ap_short": "Een performant en veilig ICT-beleid en -beheer",
+    "bd_code": "BD-1",
+    "bd_short": "Leven en beleven in Bertem, Leefdaal en Korbeek-Dijle als warme, bruisende en solidaire gemeenten",
+    "bd_long": "Kwalitatieve omschrijving: We versterken een zorgzame, inclusieve en actieve gemeenschap waarin alle inwoners kansen krijgen om zich te ontplooien, deel te nemen en zich verbonden te voelen met elkaar. Door sterke partnerschappen, een toegankelijk vrijetijdsaanbod, ondersteuning van kwetsbare inwoners, aandacht voor jeugd, senioren, vrijwilligers en erfgoed, bouwen we stap voor stap aan een warme gemeente waar iedereen welkom is en mee kan doen. Zo willen we van Bertem, Leefdaal en Korbeek-Dijle bloeiende dorpen maken met een sterk gemeenschapsgevoel.",
+    "ap_code": "AP-5",
+    "ap_short": "Toegankelijke ontspannings-, ontplooiings- en ontwikkelingskansen voor schoolgaande jeugd",
     "ap_long": "Commentaar:",
-    "ac_code": "ACT",
-    "ac_short": "(Vervangings)investeringen op vlak van ICT",
-    "ac_long": "Het vernieuwen van IT-infrastructuur via een jaarlijkse investeringsenveloppe geldt zowel voor netwerk- als voor serverinfrastructuur.  De actie laat toe om verouderde systemen te vervangen door moderne oplossingen, wat de prestaties, beveiliging en efficiëntie verbetert. Dit kan de overstap naar een cloud- of hybride omgeving omvatten, of simpelweg het vervangen van hardware en het updaten van software en netwerken. Regelmatige vernieuwing is essentieel om bij te blijven met technologische ontwikkelingen en een efficiënte dienstverlening te ondersteunen.",
+    "ac_code": "ACT-17",
+    "ac_short": "Verdere bouw en aanleg van de schoolsite Leefdaal (polyvalente zaal & omgevingsaanleg)",
+    "ac_long": "Verdere uitbouw van het subsidiedossier school Leefdaal namelijk de polyvalente zaal met inbegrip van refter/turnzaal en de volledige omgevingsaanleg (speelplaats, park, parking, voorplein).",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3632945.7,
+    "amount_per_capita": 349.3,
+    "yearly_amounts": {
+      "2026": 3037945.7,
+      "2027": 595000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 292.09,
+      "2027": 57.21,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-1",
+    "bd_short": "Leven en beleven in Bertem, Leefdaal en Korbeek-Dijle als warme, bruisende en solidaire gemeenten",
+    "bd_long": "Kwalitatieve omschrijving: We versterken een zorgzame, inclusieve en actieve gemeenschap waarin alle inwoners kansen krijgen om zich te ontplooien, deel te nemen en zich verbonden te voelen met elkaar. Door sterke partnerschappen, een toegankelijk vrijetijdsaanbod, ondersteuning van kwetsbare inwoners, aandacht voor jeugd, senioren, vrijwilligers en erfgoed, bouwen we stap voor stap aan een warme gemeente waar iedereen welkom is en mee kan doen. Zo willen we van Bertem, Leefdaal en Korbeek-Dijle bloeiende dorpen maken met een sterk gemeenschapsgevoel.",
+    "ap_code": "AP-7",
+    "ap_short": "Onroerend erfgoed bewaren, onderhouden, ontsluiten en promoten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-25",
+    "ac_short": "Restauratie kerk Sint-Pietersbanden met inbegrip van kerkhofmuur en dodenhuisje",
+    "ac_long": "We voorzien de restauratie van de kerk Sint-Pieterbanden (bouwkundig en technisch) met inbegrip van de kerkhofmuren en het dodenhuisje. We doen hiervoor beroep op subsidies van onroerend erfgoed.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3457497.86,
+    "amount_per_capita": 332.43,
+    "yearly_amounts": {
+      "2026": 1383177.86,
+      "2027": 2074320.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 132.99,
+      "2027": 199.44,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-9",
+    "ap_short": "Het lokaal bestuur wapent zich tegen gevolgen klimaatopwarming, o.a. door doeltreffend waterbeheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-33",
+    "ac_short": "Verdere uitvoering van aanleg wegenis ikv Voercollector fase 6b (Centrum Leefdaal)",
+    "ac_long": "Deze actie kadert in de verdere uitvoering van het wegenis-en rioleringsproject Centrum Leefdaal. \nHet (verdere) aandeel van Bertem omvat de aanleg van de wegenis in de Dorpstraat (tot Blankaart), Mezenstraat (tot Voer), Vlieguit (tot Nollekensstraat). \nOok de nog te realiseren innemingen voor het rooilijnplan en alle studiekosten zijn inbegrepen in het budget.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2375295.68,
+    "amount_per_capita": 228.38,
+    "yearly_amounts": {
+      "2026": 1885295.68,
+      "2027": 490000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 181.27,
+      "2027": 47.11,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-9",
+    "ap_short": "Het lokaal bestuur wapent zich tegen gevolgen klimaatopwarming, o.a. door doeltreffend waterbeheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-34",
+    "ac_short": "Aanleg wegenis en bufferbekkens ikv Voercollector fase 7 van Blankaart tot Vossem",
+    "ac_long": "Deze actie kadert in de uitvoering van het sluitstuk van de Voercollector, namelijk het deel tussen Blankaart en Vossem. \nHet aandeel van Bertem omvat de heraanleg van de wegenis (deels), nieuwe fietsinfrastructuur, ondergronds brengen van het net, en de aanleg van buffermaatregelen.  \nOok de aankoop van de gronden voor de buffermaatregelen en alle studiekosten zitten hierin vervat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2135000.0,
+    "amount_per_capita": 205.28,
+    "yearly_amounts": {
+      "2026": 180000.0,
+      "2027": 400000.0,
+      "2028": 875000.0,
+      "2029": 680000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.31,
+      "2027": 38.46,
+      "2028": 84.13,
+      "2029": 65.38,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-9",
+    "ap_short": "Het lokaal bestuur wapent zich tegen gevolgen klimaatopwarming, o.a. door doeltreffend waterbeheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-32",
+    "ac_short": "Aanleg bufferbekkens Korbeek-Dijle en heraanleg zijstraten (ikv Aquafin-project Collectorwerken)",
+    "ac_long": "Deze actie kadert in de uitvoering van het rioleringsproject collector Korbeek-Dijle waarbij Aquafin gescheiden riolering voorziet in de Ormendaal, Veeweide, Putstraat, Stationsstraat, Korbeekse Kerkstraat, Beekstraat, Bertemseweg, Blokkenstraat (deel), Hollestraat, Kleine Hollestraat, Ruwaalstraat en stukje van de Nijvelsebaan. \nHet aandeel van Bertem omvat de aanleg van 3 bufferbekkens, een gracht en een deel van de wegenis (verfraaiingswerken). \nOok de aankoop van de gronden voor de buffermaatregelen, innemingen voor rooilijnplannen en alle studiekosten zitten  vervat in deze actie.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1846683.09,
+    "amount_per_capita": 177.56,
+    "yearly_amounts": {
+      "2026": 59183.09,
+      "2027": 510000.0,
+      "2028": 1277500.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.69,
+      "2027": 49.04,
+      "2028": 122.83,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-13",
+    "ap_short": "Gebouwen en infrastructuur veilig, aantrekkelijk en toegankelijk maken",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-53",
+    "ac_short": "Opmaak en uitvoering van een masterplan voor het beheer van gebouwen",
+    "ac_long": "Om een patrimonium verantwoord te beheren is het van belang om aandacht te besteden aan een onderhoudsplanning, keuringen, attesten en energieverbruik op maat van het betreffende gebouw. De functie van het gebouw zal bepalen wat de infrastructuur nodig heeft. We voorzien het opstellen en opvolgen van een (lange of korte termijn) onderhoudsplan van de gebouwen :\n• Verbeteren prestaties installaties in de gebouwen (alarminstallaties, elektrische installaties, HVAC,…) zodat deze correct en betrouwbaar functioneren en we over positieve keuringsverslagen beschikken.\n• Verbeteren energieprestaties van de gebouwen door het vernieuwen van de gebouwen (niet enkel installaties maar ook schrijnwerk,…)\n• Verminderen van pannes en ongemak voor de gebruikers (eigen werknemers, verenigingen, inwoners (huurders))",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 21910547.0,
-    "amount_per_capita": 2108.6,
+    "total_amount": 1541874.19,
+    "amount_per_capita": 148.25,
     "yearly_amounts": {
-      "2026": 8786340.0,
-      "2027": 5182058.0,
-      "2028": 3306836.0,
-      "2029": 2051276.0,
-      "2030": 1272107.0,
-      "2031": 1311930.0
+      "2026": 141874.19,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 400000.0,
+      "2030": 400000.0,
+      "2031": 400000.0
     },
     "yearly_per_capita": {
-      "2026": 845.57,
-      "2027": 498.7,
-      "2028": 318.24,
-      "2029": 197.41,
-      "2030": 122.42,
-      "2031": 126.26
+      "2026": 13.64,
+      "2027": 9.61,
+      "2028": 9.61,
+      "2029": 38.46,
+      "2030": 38.46,
+      "2031": 38.46
     }
   },
   {
@@ -48,23 +218,839 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1027635.0,
-    "amount_per_capita": 98.9,
+    "total_amount": 1316563.16,
+    "amount_per_capita": 126.59,
     "yearly_amounts": {
-      "2026": 160643.0,
-      "2027": 156950.0,
-      "2028": 158150.0,
-      "2029": 229374.0,
-      "2030": 160622.0,
-      "2031": 161896.0
+      "2026": 499571.16,
+      "2027": 146950.0,
+      "2028": 148150.0,
+      "2029": 219374.0,
+      "2030": 150622.0,
+      "2031": 151896.0
     },
     "yearly_per_capita": {
-      "2026": 15.46,
-      "2027": 15.1,
-      "2028": 15.22,
-      "2029": 22.07,
-      "2030": 15.46,
-      "2031": 15.58
+      "2026": 48.03,
+      "2027": 14.13,
+      "2028": 14.24,
+      "2029": 21.09,
+      "2030": 14.48,
+      "2031": 14.6
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-9",
+    "ap_short": "Het lokaal bestuur wapent zich tegen gevolgen klimaatopwarming, o.a. door doeltreffend waterbeheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-40",
+    "ac_short": "Energiebesparende investeringen (vrijetijdsinfrastructuur, openbare verlichting naar LED,...)",
+    "ac_long": "We voorzien een energetische renovatie van de sporthal/bibliotheek Bertem waarbij de volgende investeringen worden voorzien om het gebouw in orde te hebben voor de komende 10 jaar:\n- Minimale uitvoering nieuw dak\n- Vernieuwing HVAC\nWe doen beroep op  een EFRO-projectsubsidie dat in het kader van de projectoproep 'bevorderen energie-efficiëntie voor lokale infrastructuur' voorwaardelijk werd goedgekeurd.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 1002058.63,
+    "amount_per_capita": 96.35,
+    "yearly_amounts": {
+      "2026": 647971.63,
+      "2027": 136238.0,
+      "2028": 135336.0,
+      "2029": 8676.0,
+      "2030": 8507.0,
+      "2031": 65330.0
+    },
+    "yearly_per_capita": {
+      "2026": 62.3,
+      "2027": 13.1,
+      "2028": 13.01,
+      "2029": 0.83,
+      "2030": 0.82,
+      "2031": 6.28
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-8",
+    "ap_short": "Het lokaal bestuur werkt aan een goede en veilige wegeninfrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-28",
+    "ac_short": "Aanleg en buitengewoon onderhoud van wegenis",
+    "ac_long": "Voor het onderhoud van asfaltwegen en betonwegen wordt budget voorzien.  Vooral tijdens de tweede helft van de legislatuur zijn er middelen voorzien voor het buitengewoon onderhoud van deze wegen.\nVia raamcontract kan een firma aangesteld worden voor herasfalteringen en herstelling betonbanen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 972147.89,
+    "amount_per_capita": 93.47,
+    "yearly_amounts": {
+      "2026": 122147.89,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 250000.0,
+      "2030": 250000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 11.74,
+      "2027": 4.81,
+      "2028": 4.81,
+      "2029": 24.04,
+      "2030": 24.04,
+      "2031": 24.04
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-8",
+    "ap_short": "Het lokaal bestuur werkt aan een goede en veilige wegeninfrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-30",
+    "ac_short": "Vernieuwen en optimaliseren voertuigenpark technische uitvoeringsdiensten",
+    "ac_long": "Het wagenpark van de technische dienst is voor een stuk verouderd. De verouderde voertuigen dienen tijdig vernieuwd te worden om een goede werking van de dienst te garanderen. Hiervoor wordt een voertuigenplan opgemaakt.\nEr kunnen efficiëntiewinsten geboekt worden door te investeren in bijkomend rollend materiaal voor de uitvoering van werkzaamheden in eigen beheer. De jaarlijkse investeringsenveloppe biedt hiervoor voldoende ruimte.\nDe inzet van geschikte voertuigen en werkmateriaal vereenvoudigt de opmaak van een planning en helpt de dienst werken in eigen beheer om de ambities op het terrein waar te maken.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 900422.74,
+    "amount_per_capita": 86.57,
+    "yearly_amounts": {
+      "2026": 390422.74,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 120000.0,
+      "2030": 120000.0,
+      "2031": 120000.0
+    },
+    "yearly_per_capita": {
+      "2026": 37.54,
+      "2027": 7.21,
+      "2028": 7.21,
+      "2029": 11.54,
+      "2030": 11.54,
+      "2031": 11.54
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-9",
+    "ap_short": "Het lokaal bestuur wapent zich tegen gevolgen klimaatopwarming, o.a. door doeltreffend waterbeheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-31",
+    "ac_short": "Aanleg wegenis en erosiepoelen Walenpot",
+    "ac_long": "Deze actie kadert in de uitwerking van het bovenlokaal rioleringsproject wijk Den Tomme/Walenpot/ Meerbeeksesteenweg met verschillende partners (Aquafin, Fluvius, Kortenberg, Bertem). \nHet aandeel van Bertem omvat de aanleg van nieuwe wegenis in de Walenpot en de aanleg van een erosiepoel.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 805000.0,
+    "amount_per_capita": 77.4,
+    "yearly_amounts": {
+      "2026": 745000.0,
+      "2027": 60000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 71.63,
+      "2027": 5.77,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-10",
+    "ap_short": "Landinrichtingsprojecten die bijdragen tot vergroening, ontharding en verfraaiing van de omgeving",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-44",
+    "ac_short": "Blauw-groene landinrichtingsprojecten al dan niet ism externe partners",
+    "ac_long": "We omarmen ideeën om blauw-groene infrastructuur te realiseren op het grondgebied van de gemeente. Een netwerk van water en groene gebieden creëert een ​​ecosysteem dat het potentieel van de natuur benut om meerdere ecologische, sociale en economische voordelen te bieden. Dit biedt ook kansen voor beleving van de geweldige natuur en open ruimte die onze gemeente rijk is.\nVanuit het Strategisch Project Walden, Brabantse Wouden, de provincie, de Watergroep en andere partnerorganisaties worden ideeën aangereikt en wordt ingezet op concrete realisaties. Belangrijk aspect bij de realisatie van blauw-groene landinrichtingsprojecten is de zoektocht naar en het aanwenden van subsidies voor de realisaties. Hier is gebruikelijk wel een gedeeltelijke eigen inbreng vanuit de gemeente vereist. We kijken naar projecten rondom open ruimte, de Voer, landelijk wonen, … Concrete pistes zijn de verlenging van het Voerpad en een bijkomende brug over de Voer ter hoogte van Sint-Verona, het aanleggen van een hondenlosloopweide, de ontwikkeling van een broekpark of natte zone ter hoogte van de terreinen van de Watergroep, de verdere ontwikkeling van Sportpark Verona en een groene speel- en verblijfruimte in Leefdaal.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 794300.0,
+    "amount_per_capita": 76.37,
+    "yearly_amounts": {
+      "2026": 131000.0,
+      "2027": 286500.0,
+      "2028": 151500.0,
+      "2029": 75100.0,
+      "2030": 75100.0,
+      "2031": 75100.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.6,
+      "2027": 27.55,
+      "2028": 14.57,
+      "2029": 7.22,
+      "2030": 7.22,
+      "2031": 7.22
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-9",
+    "ap_short": "Het lokaal bestuur wapent zich tegen gevolgen klimaatopwarming, o.a. door doeltreffend waterbeheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-39",
+    "ac_short": "Aanleg van een nieuw DIFTAR-recyclagepark en afvalstraten",
+    "ac_long": "In samenwerking met Ecowerf wordt er een nieuw gemeentelijk recyclagepark gebouwd. In het nieuwe park zal gewerkt worden met een DIFTAR-systeem gebaseerd op gewicht. Dit zorgt voor een eerlijke prijszetting en stimuleert correcte recyclage bij de inwoners.\nDe gemeente zal inzetten op het bijkomend voorzien van ondergrondse sorteerstraten in de dorpcentra ten behoeve van de afvalfracties huisvuil. Er wordt in eerste instantie focus gelegd op de fracties van meergezinswoningen, maar andere DIFTAT-gebruikers kunnen hier ook terecht. De ambitie daarbij is om te voorzien in  bijkomende sorteerstraten, minimaal 1 in centrum Bertem en 1 in centrum Leefdaal. Met betrekking tot de kost zal een stedenbouwkundige verordening opgemaakt worden om bij de aflevering van vergunningen voor meergezinswoningen een financiële last op te leggen als bijdrage in de realisatie van deze sorteerstraten.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 558000.0,
+    "amount_per_capita": 53.65,
+    "yearly_amounts": {
+      "2026": 414000.0,
+      "2027": 0,
+      "2028": 72000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 72000.0
+    },
+    "yearly_per_capita": {
+      "2026": 39.81,
+      "2027": 0,
+      "2028": 6.92,
+      "2029": 0,
+      "2030": 0,
+      "2031": 6.92
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-3",
+    "bd_short": "Een efficiënte en transparante organisatie met en voor de burger",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen aan een moderne, transparante en toekomstgerichte organisatie die efficiënt werkt, digitaal toegankelijk is en kwaliteitsvolle dienstverlening aanbiedt aan inwoners, verenigingen en partners. Door te investeren in een veilig en performant ICT-beleid, duidelijke communicatie, klantgerichte processen, een sterke organisatiecultuur en een duurzaam HR-beleid, vergroten we het vertrouwen in het lokaal bestuur en versterken we onze rol als betrouwbare publieke partner. Een gezond financieel beleid is een belangrijke hefboom om deze doelstelling te realiseren.",
+    "ap_code": "AP-15",
+    "ap_short": "Een performant en veilig ICT-beleid en -beheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-64",
+    "ac_short": "(Vervangings)investeringen op vlak van ICT",
+    "ac_long": "Het vernieuwen van IT-infrastructuur via een jaarlijkse investeringsenveloppe geldt zowel voor netwerk- als voor serverinfrastructuur.  De actie laat toe om verouderde systemen te vervangen door moderne oplossingen, wat de prestaties, beveiliging en efficiëntie verbetert. Dit kan de overstap naar een cloud- of hybride omgeving omvatten, of simpelweg het vervangen van hardware en het updaten van software en netwerken. Regelmatige vernieuwing is essentieel om bij te blijven met technologische ontwikkelingen en een efficiënte dienstverlening te ondersteunen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 511128.23,
+    "amount_per_capita": 49.14,
+    "yearly_amounts": {
+      "2026": 106128.23,
+      "2027": 87000.0,
+      "2028": 130000.0,
+      "2029": 55000.0,
+      "2030": 71000.0,
+      "2031": 62000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.2,
+      "2027": 8.36,
+      "2028": 12.5,
+      "2029": 5.29,
+      "2030": 6.83,
+      "2031": 5.96
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-8",
+    "ap_short": "Het lokaal bestuur werkt aan een goede en veilige wegeninfrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-29",
+    "ac_short": "Aanleg en onderhoud van voet- en fietspaden",
+    "ac_long": "Deze actie omvat de aanleg of heraanleg van voetpaden en fietspaden. \nOok alternatieven zoals fietssuggestiestroken zijn hierin opgenomen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 495584.49,
+    "amount_per_capita": 47.65,
+    "yearly_amounts": {
+      "2026": 55584.49,
+      "2027": 0,
+      "2028": 110000.0,
+      "2029": 110000.0,
+      "2030": 110000.0,
+      "2031": 110000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.34,
+      "2027": 0,
+      "2028": 10.58,
+      "2029": 10.58,
+      "2030": 10.58,
+      "2031": 10.58
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-8",
+    "ap_short": "Het lokaal bestuur werkt aan een goede en veilige wegeninfrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-27",
+    "ac_short": "Opmaak en uitvoering van een beleidsplan Trage Wegen",
+    "ac_long": "De gemeente Bertem ambieert om een actief beleid rond trage wegen te voeren in de komende legislatuur. Dit omvat de volgende acties: (1) Een gebiedsdekkende inventarisatie van de trage wegen: huidige ligging, toestand op terrein en juridische status. Output is een uitgebreide kaart die de actuele toestand toont van het trage wegen-netwerk.  Deze inventarisatie dient bovendien als basis voor de opmaak en verfijning van het actieplan en beleidsplan door het detecteren van knelpunten en uitdagingen. (2) Opmaak van een actieplan trage wegen met oplijsting van prioritair aan te pakken trage wegen en bijhorende acties en maatregelen. Dit actieplan biedt een leidraad voor het uitvoeren van concrete terreinrealisaties rond trage wegen in de komende jaren. (3) Opmaak van een nieuw beleidsplan trage wegen dat zowel een theoretisch beleidskader omvat als een praktijkgericht gedeelte met doelstellingen. Dit nieuwe beleidsplan vervangt het ondertussen gedateerde beleidsplan uit 2014. Zowel de inventarisatie (1) als actieplan (2) kunnen als onderdeel worden gezien van het beleidsplan waarbij de inventarisatie dient ter voorbereiding en het actieplan als uitvoering.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 337001.15,
+    "amount_per_capita": 32.4,
+    "yearly_amounts": {
+      "2026": 50001.15,
+      "2027": 87000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.81,
+      "2027": 8.36,
+      "2028": 4.81,
+      "2029": 4.81,
+      "2030": 4.81,
+      "2031": 4.81
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-1",
+    "bd_short": "Leven en beleven in Bertem, Leefdaal en Korbeek-Dijle als warme, bruisende en solidaire gemeenten",
+    "bd_long": "Kwalitatieve omschrijving: We versterken een zorgzame, inclusieve en actieve gemeenschap waarin alle inwoners kansen krijgen om zich te ontplooien, deel te nemen en zich verbonden te voelen met elkaar. Door sterke partnerschappen, een toegankelijk vrijetijdsaanbod, ondersteuning van kwetsbare inwoners, aandacht voor jeugd, senioren, vrijwilligers en erfgoed, bouwen we stap voor stap aan een warme gemeente waar iedereen welkom is en mee kan doen. Zo willen we van Bertem, Leefdaal en Korbeek-Dijle bloeiende dorpen maken met een sterk gemeenschapsgevoel.",
+    "ap_code": "AP-4",
+    "ap_short": "Speelpleinen met aandacht voor inclusie",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-13",
+    "ac_short": "Buitengewoon onderhoud en (her)aanleg van speelterreintjes voor kwalitatieve vrije speelruimte",
+    "ac_long": "De afgelopen legislatuur is er geïnvesteerd in het opwaarderen en in orde zetten van de speelterreinen. We willen deze strategie verderzetten en blijven investeren in de bestaande speelterreinen, én waar mogelijk nieuwe speelterreinen aanleggen. Een jaarlijkse investeringsenveloppe geeft ons de ruimte om oude, kapotte speelelementen te vervangen en tegelijk nieuwe speelplekken te realiseren, zodat de kwaliteit en het aanbod van speeltuinen blijvend gegarandeerd wordt.\nConcreet voorzien we onder meer:\n• Nieuwe speelruimte in Leefdaal zodra de dorpssite en schoolsite volledig afgewerkt zijn.\n• Een update van speelbos ’t Vossenhol in 2026, aangezien heel wat natuurlijke speelelementen inmiddels afgeleefd zijn. Bij de vernieuwing willen we inzetten op sport, spel, onderzoeken en leren, zodat er ruimte ontstaat voor zowel actief als rustig spelplezier.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 297705.3,
+    "amount_per_capita": 28.62,
+    "yearly_amounts": {
+      "2026": 97705.3,
+      "2027": 40000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.39,
+      "2027": 3.85,
+      "2028": 3.85,
+      "2029": 3.85,
+      "2030": 3.85,
+      "2031": 3.85
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-11",
+    "ap_short": "Inzetten op kwaliteitsvol verkeers- en parkeerbeleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-46",
+    "ac_short": "Maatregelen en investeringen ter bevordering van de verkeersveiligheid",
+    "ac_long": "We voorzien een recurrente investeringsenveloppe voor diverse maatregelen in het kader van verkeersveiligheid. We plaatsen bijkomende flitspalen, met in eerste instantie focus op de belangrijkste invalswegen naar de gemeente.\nDe bestaande samenwerking met 'Telraam' wordt voortgezet aangezien deze een belangrijke bron van informatie vormen voor het mobiliteitsbeleid. Er zal verder ingezet worden op veilige schoolomgevingen. De circulatie in en rondom Leefdaal Centrum wordt onderzocht door een extern studiebureau.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 229942.41,
+    "amount_per_capita": 22.11,
+    "yearly_amounts": {
+      "2026": 33942.41,
+      "2027": 96000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.26,
+      "2027": 9.23,
+      "2028": 2.4,
+      "2029": 2.4,
+      "2030": 2.4,
+      "2031": 2.4
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-9",
+    "ap_short": "Het lokaal bestuur wapent zich tegen gevolgen klimaatopwarming, o.a. door doeltreffend waterbeheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-35",
+    "ac_short": "Buitengewoon onderhoud van wachtbekkens",
+    "ac_long": "Niet alle wachtbekkens functioneren aan maximale capaciteit. Om dit te verbeteren is een buitengewoon onderhoud nodig. \nEen buitengewoon onderhoud houdt in dat het wachtbekken volledig wordt uitgegraven en het slib geruimd wordt. Dit zal zoveel als mogelijk in eigen beheer gebeuren. Op plaatsen waar het technisch moeilijker is om dit onderhoud uit te voeren gaan we beroep doen op gespecialiseerde bedrijven die hiervoor aangepast materiaal hebben.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 225000.0,
+    "amount_per_capita": 21.63,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 75000.0,
+      "2029": 0,
+      "2030": 75000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.21,
+      "2027": 0,
+      "2028": 7.21,
+      "2029": 0,
+      "2030": 7.21,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-13",
+    "ap_short": "Gebouwen en infrastructuur veilig, aantrekkelijk en toegankelijk maken",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-56",
+    "ac_short": "Ontwikkeling van de vrijetijdssite Verona, met inbegrip van de veiligheid",
+    "ac_long": "De vrijetijdssite Verona is vandaag uitgerust met een voetbalkantine en voetbalterreinen, alsook met een ruime sporthal en parking. Het is de bedoeling de komende jaren deze vrijetijdssite verder vorm te geven. Bij de invulling wordt rekening gehouden met de regelgeving inzake omgeving en vergunningen, beschikbare vrije ruimte, subsidiemogelijkheden, noden van de inwoners en trends inzake vrijetijdsbesteding.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 217031.88,
+    "amount_per_capita": 20.87,
+    "yearly_amounts": {
+      "2026": 137031.88,
+      "2027": 0,
+      "2028": 20000.0,
+      "2029": 60000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.18,
+      "2027": 0,
+      "2028": 1.92,
+      "2029": 5.77,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-9",
+    "ap_short": "Het lokaal bestuur wapent zich tegen gevolgen klimaatopwarming, o.a. door doeltreffend waterbeheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-36",
+    "ac_short": "Uitvoering van acties ikv het Hemelwater- en Droogteplan",
+    "ac_long": "Deze actie omvat het uitvoeren van voornamelijk erosiewerken (kleine bekkens, dammen, poelen, taludherstellingen) in samenwerking met de erosiecoördinator. \nAlle kosten verbonden aan deze werken (innames, studiekosten) zijn in deze actie inbegrepen.\nUitbesteed onderhoud van de bestaande wachtbekkens zit hier ook in opgenomen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 162500.0,
+    "amount_per_capita": 15.62,
+    "yearly_amounts": {
+      "2026": 92500.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 15000.0,
+      "2030": 20000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.89,
+      "2027": 0.96,
+      "2028": 0.96,
+      "2029": 1.44,
+      "2030": 1.92,
+      "2031": 1.44
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-11",
+    "ap_short": "Inzetten op kwaliteitsvol verkeers- en parkeerbeleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-49",
+    "ac_short": "Aanleg van nieuwe parkeerinfrastructuur",
+    "ac_long": "Deze actie omvat de aanleg van een nieuwe parking in de Neerijse steenweg met alle hieraan verbonden kosten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 135000.0,
+    "amount_per_capita": 12.98,
+    "yearly_amounts": {
+      "2026": 135000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.98,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-1",
+    "bd_short": "Leven en beleven in Bertem, Leefdaal en Korbeek-Dijle als warme, bruisende en solidaire gemeenten",
+    "bd_long": "Kwalitatieve omschrijving: We versterken een zorgzame, inclusieve en actieve gemeenschap waarin alle inwoners kansen krijgen om zich te ontplooien, deel te nemen en zich verbonden te voelen met elkaar. Door sterke partnerschappen, een toegankelijk vrijetijdsaanbod, ondersteuning van kwetsbare inwoners, aandacht voor jeugd, senioren, vrijwilligers en erfgoed, bouwen we stap voor stap aan een warme gemeente waar iedereen welkom is en mee kan doen. Zo willen we van Bertem, Leefdaal en Korbeek-Dijle bloeiende dorpen maken met een sterk gemeenschapsgevoel.",
+    "ap_code": "AP-7",
+    "ap_short": "Onroerend erfgoed bewaren, onderhouden, ontsluiten en promoten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-26",
+    "ac_short": "Buitengewoon onderhoud en restauratie van waardevol erfgoed",
+    "ac_long": "Op basis van o.a. de inspectierapporten van Monumentenwacht gaan we de komende jaren investeren in het buitengewoon onderhoud en restauratie van erfgoed. We doen hiervoor beroep op de expertise van de Stichting Onroerend Erfgoed Vlaams-Brabant. Waar mogelijk vragen we voor de restauratie subsidies bij de provincie. Twee projecten die we alvast in het programma voorzien via de jaarlijkse investeringsenveloppe: \n- Kapel OLV Ter Nood (met co-financiering via Ferm Leefdaal)\n- Restauratie (vergulding) van de sterren in de kapel van Puttebos",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 105100.0,
+    "amount_per_capita": 10.11,
+    "yearly_amounts": {
+      "2026": 30100.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.89,
+      "2027": 1.44,
+      "2028": 1.44,
+      "2029": 1.44,
+      "2030": 1.44,
+      "2031": 1.44
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-13",
+    "ap_short": "Gebouwen en infrastructuur veilig, aantrekkelijk en toegankelijk maken",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-54",
+    "ac_short": "Opmaak van een sleutelbeheersplan voor de toegangscontrole van gebouwen",
+    "ac_long": "De opmaak van een sleutelbeheersplan omvat een analyse van de huidige situatie en de gewenste beveiliging, inclusief wie de sleutels nodig heeft en voor welke doeleinden. Vervolgens wordt een overzichtelijk sleutelplan opgesteld, waarbij gebruikgemaakt wordt van software voor efficiënt beheer van sleuteluitgifte. \nZo willen we de controle op de toegang tot de gemeentelijke gebouwen verbeteren.\n- Wie heeft welke sleutel van welk gebouw? Dit willen we realiseren met digitaal gecodeerde sleutels waarvan we de data kunnen uitlezen.\n- We willen ervoor zorgen dat huurders van zalen enkel tijdens de gehuurde periode toegang hebben tot de zalen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 9.61,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25000.0,
+      "2029": 75000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.4,
+      "2029": 7.21,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-13",
+    "ap_short": "Gebouwen en infrastructuur veilig, aantrekkelijk en toegankelijk maken",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-55",
+    "ac_short": "Opmaak van een masterplan voor de ontwikkeling van een recreatiepark in Korbeek-Dijle",
+    "ac_long": "De vrijetijdssite in Korbeek-Dijle bestaat gedeeltelijk uit verouderde infrastructuur (kantine atletiek, parochiale gebouwen,...) en heeft potentieel om ontwikkeld te worden tot een volwaardige recreatiesite met meer belevingsmogelijkheden dan heden. Een levendige vrijetijdssite vereist de aanwezigheid van een horeca-aangelegenheid.\nWe voorzien de opmaak van een masterplan om de site Korbeek-Dijle bestaande uit atletiekpark, Chiro-lokaal, parochiale gebouwen en GC ter Dijle aangevuld met omliggende (landbouw)percelen in eigendom van het lokaal bestuur, uit te bouwen tot een recreatieve site die voldoet aan een programma van eisen dat rekening houdt met:\n- de behoeften en verwachtingen van huidige stakeholders (gebruikers en verenigingen)\n- de ontwikkeling van een attractief gemeenschapscentrum met een nieuw aanbod (sport)recreatie m.i.v. horeca voorziening\n- duurzaamheids- en onderhoudsaspecten\n- rendabiliteit (scopeverbreding met PPS als hefboom om maatschappelijke behoeften te combineren met private ontwikkelingen en financieringsmogelijkheden voor beheer of exploitatie)\nWe doen voor deze actie beroep op een procesbegeleider.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 7.69,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 20000.0,
+      "2029": 60000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.92,
+      "2029": 5.77,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-9",
+    "ap_short": "Het lokaal bestuur wapent zich tegen gevolgen klimaatopwarming, o.a. door doeltreffend waterbeheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-41",
+    "ac_short": "Acties ikv klimaatmitigatie en -adaptatie",
+    "ac_long": "De gemeente neemt maatregelen voor klimaatmitigatie - het voorkomen van verdere klimaatopwarming via verminderde uitstoot van broeikasgassen - en voor klimaatadaptatie - het zich voorbereiden op de onvermijdelijke gevolgen van de klimaatverandering (droogte, overstromingen, extreem weer...). Het meerjarenplan voorziet om nog één jaar (2026) toe te treden tot de klimaatalliantie Druivenstreek. De kredieten voor deze actie worden vanaf 2027 aangewend als projectbudget dat voor bijkomende klimaatacties- en initiatieven kan aangewend worden. De klimaatalliantie zet zich vooral in voor energiebesparing en hernieuwbare energie bij particulieren en helpt dusdanig de gemeenten om hun klimaatdoelstellingen te behalen. Het bijkomende projectbudget kan ad hoc voor nieuwe opportuniteiten inzake klimaat gebruikt worden. Deze actie van het meerjarenplan kadert binnen de deelname van onze gemeente aan het Vlaamse LEKP (lokaal energie- en klimaatpact, dooft uit op 1 januari 2027) en het Europese burgemeesterconvenant 2030. Dit zijn inspanningsverbintenissen waarbij gemeenten zich engageren om acties te ondernemen op vlak van klimaatadaptie en klimaatmitigatie. Verschillende klimaatacties voor Bertem staan geformuleerd in het gemeentelijk klimaatactieplan 2030 dat in 2024 door de gemeenteraad werd goedgekeurd.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 62500.0,
+    "amount_per_capita": 6.01,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 12500.0,
+      "2028": 12500.0,
+      "2029": 12500.0,
+      "2030": 12500.0,
+      "2031": 12500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.2,
+      "2028": 1.2,
+      "2029": 1.2,
+      "2030": 1.2,
+      "2031": 1.2
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-3",
+    "bd_short": "Een efficiënte en transparante organisatie met en voor de burger",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen aan een moderne, transparante en toekomstgerichte organisatie die efficiënt werkt, digitaal toegankelijk is en kwaliteitsvolle dienstverlening aanbiedt aan inwoners, verenigingen en partners. Door te investeren in een veilig en performant ICT-beleid, duidelijke communicatie, klantgerichte processen, een sterke organisatiecultuur en een duurzaam HR-beleid, vergroten we het vertrouwen in het lokaal bestuur en versterken we onze rol als betrouwbare publieke partner. Een gezond financieel beleid is een belangrijke hefboom om deze doelstelling te realiseren.",
+    "ap_code": "AP-16",
+    "ap_short": "Een transparante communicatie en doeltreffende dienstverlening",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-66",
+    "ac_short": "Externe communicatie via outdoor schermen",
+    "ac_long": "Outdoorschermen zijn een aanvulling op onze externe communicatie en zorgen voor meer zichtbaarheid. De communicatie kan snel gebeuren en is actueel. Er is een koppeling met Be-Alert, waarmee we een extra kanaal hebben bij crisiscommunicatie. \nWe geven ook een extra service aan onze verenigingen en handelaars door meer zichtbaarheid in het straatbeeld te geven – al dan niet betalend.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 4.81,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 4.81,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-1",
+    "bd_short": "Leven en beleven in Bertem, Leefdaal en Korbeek-Dijle als warme, bruisende en solidaire gemeenten",
+    "bd_long": "Kwalitatieve omschrijving: We versterken een zorgzame, inclusieve en actieve gemeenschap waarin alle inwoners kansen krijgen om zich te ontplooien, deel te nemen en zich verbonden te voelen met elkaar. Door sterke partnerschappen, een toegankelijk vrijetijdsaanbod, ondersteuning van kwetsbare inwoners, aandacht voor jeugd, senioren, vrijwilligers en erfgoed, bouwen we stap voor stap aan een warme gemeente waar iedereen welkom is en mee kan doen. Zo willen we van Bertem, Leefdaal en Korbeek-Dijle bloeiende dorpen maken met een sterk gemeenschapsgevoel.",
+    "ap_code": "AP-6",
+    "ap_short": "De bibliotheek als hedendaags en laagdrempelig kennis- en ontmoetingscentrum",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-23",
+    "ac_short": "Vernieuwen van hardware zelfuitleentoestellen en alarmpoortjes",
+    "ac_long": "De huidige hardware en poortjes dateren van december 2017 en zijn aan vernieuwing toe als we een vlotte en correcte werking voor de bibliotheekgebruikers willen blijven garanderen. Daarnaast geeft de vernieuwing de mogelijkheid om betaalterminals te voorzien én kunnen we een bezoekersteller integreren zodat we meer zicht hebben op het aantal individuele bezoekers die we ontvangen. Er zijn nl. meestal meer lezers dan leners aangezien ouders en kinderen vaak hun boeken op één bib-kaart zetten. Deze investering stelt ons in staat om een hoge graad van dienstverlening te blijven behouden en ook extra te kunnen inzetten op analyse om de werking van de bib blijvend te optimaliseren.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 40125.46,
+    "amount_per_capita": 3.86,
+    "yearly_amounts": {
+      "2026": 2125.46,
+      "2027": 0,
+      "2028": 38000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.2,
+      "2027": 0,
+      "2028": 3.65,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-10",
+    "ap_short": "Landinrichtingsprojecten die bijdragen tot vergroening, ontharding en verfraaiing van de omgeving",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-43",
+    "ac_short": "Starten met een koesterregister en plaatsing van een koestermonument op elke begraafplaats",
+    "ac_long": "Als koestergemeente willen we starten met een koesterregister en het plaatsen van koestermonumenten op de begraafplaatsen, om troost te bieden aan ouders die een kindje verloren zijn en ervoor te zorgen dat de herinnering levendig gehouden wordt.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 24000.0,
+    "amount_per_capita": 2.31,
+    "yearly_amounts": {
+      "2026": 24000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.31,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-2",
+    "bd_short": "Bertem bouwt aan een leefbare, levendige en groene gemeente met uitgestrekte landschappen",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een toekomstbestendige, leefbare en kwalitatieve woon- en leefomgeving waarin mobiliteit, ruimte, waterbeheer, duurzaamheid, wonen en infrastructuur in evenwicht met elkaar worden ontwikkeld. Door te investeren in veilige en goed onderhouden wegen, duurzaam water- en klimaatbeheer, vergroening, kwaliteitsvolle publieke infrastructuur, toegankelijk wonen en een doordacht ruimtelijk beleid, bereiden we onze gemeente voor op de uitdagingen van vandaag en morgen. We doen dit met respect voor het dorpskarakter, de open ruimte, biodiversiteit en de noden van onze inwoners.\nAan deze beleidsdoelstelling is een groot investeringsprogramma gekoppeld die de ambities van het lokaal bestuur moeten helpen realiseren.",
+    "ap_code": "AP-11",
+    "ap_short": "Inzetten op kwaliteitsvol verkeers- en parkeerbeleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-47",
+    "ac_short": "Fietsherstelpunt inrichten in iedere deelgemeente",
+    "ac_long": "Een fietsherstelzuil is een paal/zuil waaraan je je fiets kan ophangen om kleine herstellingen uit te voeren aan je fiets. De zuil is uitgerust met basismateriaal, zoals schroevendraaiers, inbussleutels, steeksleutels, bandenlichters (om band uit velg te lichten). Uiteraard zit niet alles in de herstelzuil, maar wel voldoende voor basisherstellingen. \nWe willen in elke deelgemeente een openbaar fietsherstelpunt installeren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7500.0,
+    "amount_per_capita": 0.72,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 7500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.72,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bertem",
+    "nis_code": "24009",
+    "bd_code": "BD-3",
+    "bd_short": "Een efficiënte en transparante organisatie met en voor de burger",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen aan een moderne, transparante en toekomstgerichte organisatie die efficiënt werkt, digitaal toegankelijk is en kwaliteitsvolle dienstverlening aanbiedt aan inwoners, verenigingen en partners. Door te investeren in een veilig en performant ICT-beleid, duidelijke communicatie, klantgerichte processen, een sterke organisatiecultuur en een duurzaam HR-beleid, vergroten we het vertrouwen in het lokaal bestuur en versterken we onze rol als betrouwbare publieke partner. Een gezond financieel beleid is een belangrijke hefboom om deze doelstelling te realiseren.",
+    "ap_code": "AP-16",
+    "ap_short": "Een transparante communicatie en doeltreffende dienstverlening",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-69",
+    "ac_short": "Volwaardig digitaal loket burgerzaken zonder burger als mens uit het oog te verliezen",
+    "ac_long": "We voorzien een volwaardig digitaal loket voor aangiftes en aanvragen van documenten, dat efficiënt en gebruiksvriendelijk is voor burger en organisatie en ervoor zorgt dat de digitaal onderlegde burger op een veilige manier 24/7 aanvragen kan doen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2800.0,
+    "amount_per_capita": 0.27,
+    "yearly_amounts": {
+      "2026": 2800.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

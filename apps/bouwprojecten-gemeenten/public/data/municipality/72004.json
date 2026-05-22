@@ -2,40 +2,6 @@
   {
     "municipality": "Bree",
     "nis_code": "72004",
-    "bd_code": "BD000004",
-    "bd_short": "Bree groeit uit tot een stad waar ruimte is om te (be)leven",
-    "bd_long": "Bree groeit uit tot een stad waar ruimte is om te (be)leven, te genieten, te ontdekken en samen te groeien.",
-    "ap_code": "AP000017",
-    "ap_short": "Ontwikkeling campus De Weeg",
-    "ap_long": "Ontwikkeling nieuwe sportcampus De Weeg",
-    "ac_code": "AC000056",
-    "ac_short": "Bouw nieuw sportcomplex (sporthal/zwembad) De Weeg",
-    "ac_long": "Bouw nieuw sportcomplex (sporthal/zwembad) De Weeg",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 23822234.0,
-    "amount_per_capita": 1412.13,
-    "yearly_amounts": {
-      "2026": 20866446.0,
-      "2027": 2955788.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1236.92,
-      "2027": 175.21,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bree",
-    "nis_code": "72004",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
@@ -48,57 +14,23 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 6839754.0,
-    "amount_per_capita": 405.45,
+    "total_amount": 6649794.0,
+    "amount_per_capita": 392.16,
     "yearly_amounts": {
-      "2026": 1940693.0,
-      "2027": 1276677.0,
-      "2028": 864202.0,
-      "2029": 980296.0,
-      "2030": 660366.0,
-      "2031": 1117520.0
+      "2026": 1874393.0,
+      "2027": 1195962.0,
+      "2028": 852757.0,
+      "2029": 969796.0,
+      "2030": 649866.0,
+      "2031": 1107020.0
     },
     "yearly_per_capita": {
-      "2026": 115.04,
-      "2027": 75.68,
-      "2028": 51.23,
-      "2029": 58.11,
-      "2030": 39.15,
-      "2031": 66.24
-    }
-  },
-  {
-    "municipality": "Bree",
-    "nis_code": "72004",
-    "bd_code": "BD000005",
-    "bd_short": "Bree bouwt aan een veilige, propere en toekomstgerichte stad voor iedereen",
-    "bd_long": "Bree bouwt aan een veilige, propere en toekomstgerichte stad voor iedereen.",
-    "ap_code": "AP000022",
-    "ap_short": "Vernieuwing openbare (weg)infrastructuur",
-    "ap_long": "Vernieuwing en verduurzaming van de openbare (weg)infrastructuur",
-    "ac_code": "AC000083",
-    "ac_short": "Renoveren en duurzaam en betaalbaar beheren van infrastructuur",
-    "ac_long": "Renoveren en duurzaam en betaalbaar beheren van infrastructuur (gebouwen, energie, wegen, …)",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 5872500.0,
-    "amount_per_capita": 348.11,
-    "yearly_amounts": {
-      "2026": 1577500.0,
-      "2027": 1080000.0,
-      "2028": 815000.0,
-      "2029": 800000.0,
-      "2030": 800000.0,
-      "2031": 800000.0
-    },
-    "yearly_per_capita": {
-      "2026": 93.51,
-      "2027": 64.02,
-      "2028": 48.31,
-      "2029": 47.42,
-      "2030": 47.42,
-      "2031": 47.42
+      "2026": 110.54,
+      "2027": 70.53,
+      "2028": 50.29,
+      "2029": 57.19,
+      "2030": 38.32,
+      "2031": 65.28
     }
   },
   {
@@ -117,7 +49,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 5870275.0,
-    "amount_per_capita": 347.98,
+    "amount_per_capita": 346.19,
     "yearly_amounts": {
       "2026": 3428275.0,
       "2027": 480000.0,
@@ -127,12 +59,46 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 203.22,
-      "2027": 28.45,
+      "2026": 202.18,
+      "2027": 28.31,
       "2028": 0,
-      "2029": 71.84,
-      "2030": 44.46,
+      "2029": 71.48,
+      "2030": 44.23,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Bree",
+    "nis_code": "72004",
+    "bd_code": "BD000005",
+    "bd_short": "Bree bouwt aan een veilige, propere en toekomstgerichte stad voor iedereen",
+    "bd_long": "Bree bouwt aan een veilige, propere en toekomstgerichte stad voor iedereen",
+    "ap_code": "AP000022",
+    "ap_short": "Vernieuwing openbare (weg)infrastructuur",
+    "ap_long": "Vernieuwing en verduurzaming van de openbare (weg)infrastructuur",
+    "ac_code": "AC000083",
+    "ac_short": "Renoveren en duurzaam en betaalbaar beheren van infrastructuur",
+    "ac_long": "Renoveren en duurzaam en betaalbaar beheren van infrastructuur (gebouwen, energie, wegen, …)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 5812000.0,
+    "amount_per_capita": 342.75,
+    "yearly_amounts": {
+      "2026": 1557000.0,
+      "2027": 1040000.0,
+      "2028": 815000.0,
+      "2029": 800000.0,
+      "2030": 800000.0,
+      "2031": 800000.0
+    },
+    "yearly_per_capita": {
+      "2026": 91.82,
+      "2027": 61.33,
+      "2028": 48.06,
+      "2029": 47.18,
+      "2030": 47.18,
+      "2031": 47.18
     }
   },
   {
@@ -140,7 +106,7 @@
     "nis_code": "72004",
     "bd_code": "BD000004",
     "bd_short": "Bree groeit uit tot een stad waar ruimte is om te (be)leven",
-    "bd_long": "Bree groeit uit tot een stad waar ruimte is om te (be)leven, te genieten, te ontdekken en samen te groeien.",
+    "bd_long": "Bree groeit uit tot een stad waar ruimte is om te (be)leven, te genieten, te ontdekken en samen te groeien",
     "ap_code": "AP000017",
     "ap_short": "Ontwikkeling campus De Weeg",
     "ap_long": "Ontwikkeling nieuwe sportcampus De Weeg",
@@ -150,20 +116,20 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 2763000.0,
-    "amount_per_capita": 163.78,
+    "total_amount": 2735000.0,
+    "amount_per_capita": 161.29,
     "yearly_amounts": {
       "2026": 85000.0,
       "2027": 1150000.0,
-      "2028": 1528000.0,
+      "2028": 1500000.0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.04,
-      "2027": 68.17,
-      "2028": 90.58,
+      "2026": 5.01,
+      "2027": 67.82,
+      "2028": 88.46,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -182,10 +148,10 @@
     "ac_short": "Preservering en herbestemming kerken",
     "ac_long": "Preservering en herbestemming kerken (kerkenbeleidsplan, erfgoedwaarden,…)",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "06-wonen-ruimte"
     ],
     "total_amount": 1484000.0,
-    "amount_per_capita": 87.97,
+    "amount_per_capita": 87.52,
     "yearly_amounts": {
       "2026": 284000.0,
       "2027": 0,
@@ -195,11 +161,11 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 16.83,
+      "2026": 16.75,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 71.13,
+      "2030": 70.77,
       "2031": 0
     }
   },
@@ -216,10 +182,10 @@
     "ac_short": "Investeren in infrastructuur verenigingen",
     "ac_long": "Investeren in infrastructuur verenigingen (voetbalclubs Opitter en Bree/Beek)",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "06-wonen-ruimte"
     ],
     "total_amount": 1475000.0,
-    "amount_per_capita": 87.43,
+    "amount_per_capita": 86.99,
     "yearly_amounts": {
       "2026": 195000.0,
       "2027": 30000.0,
@@ -229,12 +195,12 @@
       "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 11.56,
-      "2027": 1.78,
-      "2028": 66.98,
-      "2029": 3.56,
-      "2030": 1.78,
-      "2031": 1.78
+      "2026": 11.5,
+      "2027": 1.77,
+      "2028": 66.64,
+      "2029": 3.54,
+      "2030": 1.77,
+      "2031": 1.77
     }
   },
   {
@@ -253,7 +219,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 970000.0,
-    "amount_per_capita": 57.5,
+    "amount_per_capita": 57.2,
     "yearly_amounts": {
       "2026": 0,
       "2027": 970000.0,
@@ -264,7 +230,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 57.5,
+      "2027": 57.2,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -287,7 +253,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 698000.0,
-    "amount_per_capita": 41.38,
+    "amount_per_capita": 41.16,
     "yearly_amounts": {
       "2026": 140000.0,
       "2027": 315000.0,
@@ -297,12 +263,12 @@
       "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 8.3,
-      "2027": 18.67,
-      "2028": 1.78,
-      "2029": 4.74,
-      "2030": 6.11,
-      "2031": 1.78
+      "2026": 8.26,
+      "2027": 18.58,
+      "2028": 1.77,
+      "2029": 4.72,
+      "2030": 6.07,
+      "2031": 1.77
     }
   },
   {
@@ -321,7 +287,7 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 640000.0,
-    "amount_per_capita": 37.94,
+    "amount_per_capita": 37.74,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -336,7 +302,7 @@
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 37.94
+      "2031": 37.74
     }
   },
   {
@@ -355,7 +321,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 555160.0,
-    "amount_per_capita": 32.91,
+    "amount_per_capita": 32.74,
     "yearly_amounts": {
       "2026": 95160.0,
       "2027": 125000.0,
@@ -365,12 +331,12 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 5.64,
-      "2027": 7.41,
-      "2028": 2.96,
-      "2029": 1.48,
-      "2030": 13.93,
-      "2031": 1.48
+      "2026": 5.61,
+      "2027": 7.37,
+      "2028": 2.95,
+      "2029": 1.47,
+      "2030": 13.86,
+      "2031": 1.47
     }
   },
   {
@@ -389,7 +355,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 466250.0,
-    "amount_per_capita": 27.64,
+    "amount_per_capita": 27.5,
     "yearly_amounts": {
       "2026": 234250.0,
       "2027": 208000.0,
@@ -399,12 +365,12 @@
       "2031": 6000.0
     },
     "yearly_per_capita": {
-      "2026": 13.89,
-      "2027": 12.33,
-      "2028": 0.36,
-      "2029": 0.36,
-      "2030": 0.36,
-      "2031": 0.36
+      "2026": 13.81,
+      "2027": 12.27,
+      "2028": 0.35,
+      "2029": 0.35,
+      "2030": 0.35,
+      "2031": 0.35
     }
   },
   {
@@ -423,7 +389,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 422000.0,
-    "amount_per_capita": 25.02,
+    "amount_per_capita": 24.89,
     "yearly_amounts": {
       "2026": 155000.0,
       "2027": 80000.0,
@@ -433,12 +399,12 @@
       "2031": 95000.0
     },
     "yearly_per_capita": {
-      "2026": 9.19,
-      "2027": 4.74,
+      "2026": 9.14,
+      "2027": 4.72,
       "2028": 0,
       "2029": 0,
-      "2030": 5.45,
-      "2031": 5.63
+      "2030": 5.43,
+      "2031": 5.6
     }
   },
   {
@@ -457,7 +423,7 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 385000.0,
-    "amount_per_capita": 22.82,
+    "amount_per_capita": 22.7,
     "yearly_amounts": {
       "2026": 135000.0,
       "2027": 70000.0,
@@ -467,46 +433,12 @@
       "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 8.0,
-      "2027": 4.15,
-      "2028": 4.15,
-      "2029": 1.78,
-      "2030": 2.96,
-      "2031": 1.78
-    }
-  },
-  {
-    "municipality": "Bree",
-    "nis_code": "72004",
-    "bd_code": "BD000004",
-    "bd_short": "Bree groeit uit tot een stad waar ruimte is om te (be)leven",
-    "bd_long": "Bree groeit uit tot een stad waar ruimte is om te (be)leven, te genieten, te ontdekken en samen te groeien.",
-    "ap_code": "AP000020",
-    "ap_short": "De voormalige sportzone ontwikkelen",
-    "ap_long": "De voormalige sportzone ontwikkelen tot een modern nieuw stadsdeel",
-    "ac_code": "AC000069",
-    "ac_short": "Sloop oude sporthal, oud zwembad en oude voetbalkantine",
-    "ac_long": "Sloop oude sporthal, oud zwembad en oude voetbalkantine",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 350000.0,
-    "amount_per_capita": 20.75,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 350000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 20.75,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 7.96,
+      "2027": 4.13,
+      "2028": 4.13,
+      "2029": 1.77,
+      "2030": 2.95,
+      "2031": 1.77
     }
   },
   {
@@ -525,7 +457,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 325000.0,
-    "amount_per_capita": 19.27,
+    "amount_per_capita": 19.17,
     "yearly_amounts": {
       "2026": 325000.0,
       "2027": 0,
@@ -535,7 +467,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 19.27,
+      "2026": 19.17,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -559,7 +491,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 275000.0,
-    "amount_per_capita": 16.3,
+    "amount_per_capita": 16.22,
     "yearly_amounts": {
       "2026": 275000.0,
       "2027": 0,
@@ -569,7 +501,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 16.3,
+      "2026": 16.22,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -593,7 +525,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 207854.0,
-    "amount_per_capita": 12.32,
+    "amount_per_capita": 12.26,
     "yearly_amounts": {
       "2026": 32284.0,
       "2027": 32947.0,
@@ -603,12 +535,12 @@
       "2031": 37587.0
     },
     "yearly_per_capita": {
-      "2026": 1.91,
-      "2027": 1.95,
-      "2028": 2.02,
-      "2029": 2.06,
-      "2030": 2.14,
-      "2031": 2.23
+      "2026": 1.9,
+      "2027": 1.94,
+      "2028": 2.01,
+      "2029": 2.05,
+      "2030": 2.13,
+      "2031": 2.22
     }
   },
   {
@@ -627,7 +559,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 203110.0,
-    "amount_per_capita": 12.04,
+    "amount_per_capita": 11.98,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 25000.0,
@@ -637,12 +569,12 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 1.48,
-      "2027": 1.48,
-      "2028": 4.63,
-      "2029": 1.48,
-      "2030": 1.48,
-      "2031": 1.48
+      "2026": 1.47,
+      "2027": 1.47,
+      "2028": 4.61,
+      "2029": 1.47,
+      "2030": 1.47,
+      "2031": 1.47
     }
   },
   {
@@ -661,7 +593,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 185000.0,
-    "amount_per_capita": 10.97,
+    "amount_per_capita": 10.91,
     "yearly_amounts": {
       "2026": 60000.0,
       "2027": 25000.0,
@@ -671,12 +603,12 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 3.56,
-      "2027": 1.48,
-      "2028": 1.48,
-      "2029": 1.48,
-      "2030": 1.48,
-      "2031": 1.48
+      "2026": 3.54,
+      "2027": 1.47,
+      "2028": 1.47,
+      "2029": 1.47,
+      "2030": 1.47,
+      "2031": 1.47
     }
   },
   {
@@ -695,7 +627,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 132660.0,
-    "amount_per_capita": 7.86,
+    "amount_per_capita": 7.82,
     "yearly_amounts": {
       "2026": 85230.0,
       "2027": 17486.0,
@@ -705,8 +637,8 @@
       "2031": 7486.0
     },
     "yearly_per_capita": {
-      "2026": 5.05,
-      "2027": 1.04,
+      "2026": 5.03,
+      "2027": 1.03,
       "2028": 0.44,
       "2029": 0.44,
       "2030": 0.44,
@@ -729,7 +661,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 105000.0,
-    "amount_per_capita": 6.22,
+    "amount_per_capita": 6.19,
     "yearly_amounts": {
       "2026": 0,
       "2027": 105000.0,
@@ -740,7 +672,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 6.22,
+      "2027": 6.19,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -763,7 +695,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 90000.0,
-    "amount_per_capita": 5.34,
+    "amount_per_capita": 5.31,
     "yearly_amounts": {
       "2026": 10000.0,
       "2027": 10000.0,
@@ -775,7 +707,7 @@
     "yearly_per_capita": {
       "2026": 0.59,
       "2027": 0.59,
-      "2028": 2.37,
+      "2028": 2.36,
       "2029": 0.59,
       "2030": 0.59,
       "2031": 0.59
@@ -797,7 +729,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 65000.0,
-    "amount_per_capita": 3.85,
+    "amount_per_capita": 3.83,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 15000.0,
@@ -807,8 +739,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.96,
-      "2027": 0.89,
+      "2026": 2.95,
+      "2027": 0.88,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -831,7 +763,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 62000.0,
-    "amount_per_capita": 3.68,
+    "amount_per_capita": 3.66,
     "yearly_amounts": {
       "2026": 62000.0,
       "2027": 0,
@@ -841,7 +773,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.68,
+      "2026": 3.66,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -865,7 +797,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 61120.0,
-    "amount_per_capita": 3.62,
+    "amount_per_capita": 3.6,
     "yearly_amounts": {
       "2026": 3000.0,
       "2027": 7120.0,
@@ -878,8 +810,8 @@
       "2026": 0.18,
       "2027": 0.42,
       "2028": 0.18,
-      "2029": 1.78,
-      "2030": 0.89,
+      "2029": 1.77,
+      "2030": 0.88,
       "2031": 0.18
     }
   },
@@ -899,7 +831,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 60000.0,
-    "amount_per_capita": 3.56,
+    "amount_per_capita": 3.54,
     "yearly_amounts": {
       "2026": 10000.0,
       "2027": 10000.0,
@@ -920,40 +852,6 @@
   {
     "municipality": "Bree",
     "nis_code": "72004",
-    "bd_code": "BD000002",
-    "bd_short": "Bree zet sterk in op sociale verbondenheid",
-    "bd_long": "Bree zet sterk in op sociale verbondenheid en bouwt aan een warme gemeenschap met een inclusief welzijnsbeleid, waar elke Breeënaar gezien, gehoord en gewaardeerd wordt, kansen krijgt maar deze kansen ook moet grijpen.",
-    "ap_code": "AP000009",
-    "ap_short": "Een dynamisch en toekomstgericht verenigingsleven",
-    "ap_long": "Ondersteunen en versterken van een dynamisch en toekomstgericht verenigingsleven, de ruggengraat van Bree",
-    "ac_code": "AC000028",
-    "ac_short": "Investeren in infrastructuur voor verenigings- en gemeenschapsleven",
-    "ac_long": "Investeren in infrastructuur voor verenigings- en gemeenschapsleven",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 31500.0,
-    "amount_per_capita": 1.87,
-    "yearly_amounts": {
-      "2026": 31500.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.87,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bree",
-    "nis_code": "72004",
     "bd_code": "BD000005",
     "bd_short": "Bree bouwt aan een veilige, propere en toekomstgerichte stad voor iedereen",
     "bd_long": "Bree bouwt aan een veilige, propere en toekomstgerichte stad voor iedereen",
@@ -967,7 +865,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 25000.0,
-    "amount_per_capita": 1.48,
+    "amount_per_capita": 1.47,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 0,
@@ -977,7 +875,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.48,
+      "2026": 1.47,
       "2027": 0,
       "2028": 0,
       "2029": 0,

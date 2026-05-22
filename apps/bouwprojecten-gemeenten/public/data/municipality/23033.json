@@ -2,40 +2,6 @@
   {
     "municipality": "Hoeilaart",
     "nis_code": "23033",
-    "bd_code": "BD",
-    "bd_short": "Hechte gemeenschap",
-    "bd_long": "Kwalitatieve omschrijving: We laten onze gemeente groeien als een hechte gemeenschap waar traditie en vernieuwing hand in hand gaan en dragen zorg voor ons erfgoed",
-    "ap_code": "AP",
-    "ap_short": "Wijk- en straatfeesten met behoud van tradities",
-    "ap_long": "We ondersteunen wijk- en straatfeesten, behouden onze tradities zoals het Druivenfestival en de Kerstmarkt en brengen generaties dichter bij elkaar.",
-    "ac_code": "A",
-    "ac_short": "Wijk- en straatfeesten met behoud van tradities",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 13863821.0,
-    "amount_per_capita": 1161.07,
-    "yearly_amounts": {
-      "2026": 1843111.0,
-      "2027": 4270220.0,
-      "2028": 2859677.0,
-      "2029": 1846709.0,
-      "2030": 1985050.0,
-      "2031": 1059054.0
-    },
-    "yearly_per_capita": {
-      "2026": 154.36,
-      "2027": 357.62,
-      "2028": 239.49,
-      "2029": 154.66,
-      "2030": 166.24,
-      "2031": 88.69
-    }
-  },
-  {
-    "municipality": "Hoeilaart",
-    "nis_code": "23033",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
@@ -48,23 +14,805 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 5331714.0,
-    "amount_per_capita": 446.52,
+    "total_amount": 5282544.55,
+    "amount_per_capita": 444.35,
     "yearly_amounts": {
-      "2026": 2039477.0,
-      "2027": 743709.0,
-      "2028": 747578.0,
-      "2029": 628794.0,
-      "2030": 539326.0,
-      "2031": 632830.0
+      "2026": 2411558.77,
+      "2027": 644859.45,
+      "2028": 640728.13,
+      "2029": 516943.1,
+      "2030": 487475.14,
+      "2031": 580979.96
     },
     "yearly_per_capita": {
-      "2026": 170.8,
-      "2027": 62.28,
-      "2028": 62.61,
-      "2029": 52.66,
-      "2030": 45.17,
-      "2031": 53.0
+      "2026": 202.85,
+      "2027": 54.24,
+      "2028": 53.9,
+      "2029": 43.48,
+      "2030": 41.0,
+      "2031": 48.87
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-10",
+    "bd_short": "Ondernemerschap",
+    "bd_long": "Kwalitatieve omschrijving: We zijn een gemeente waar ondernemers zich welkom voelen en de lokale economie bloeit want onze ondernemers vormen een belangrijke motor voor een levendig Hoeilaart",
+    "ap_code": "AP-10.1",
+    "ap_short": "Lokale economie",
+    "ap_long": "We bouwen het gemeenteplein verder uit als economisch en sociaal hart van het dorp, pakken leegstand actief aan door ondernemers aan te trekken en stimuleren lokale aankopen.",
+    "ac_code": "A-10.1.0",
+    "ac_short": "Lokale economie",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 4500000.0,
+    "amount_per_capita": 378.52,
+    "yearly_amounts": {
+      "2026": 750000.0,
+      "2027": 750000.0,
+      "2028": 750000.0,
+      "2029": 750000.0,
+      "2030": 750000.0,
+      "2031": 750000.0
+    },
+    "yearly_per_capita": {
+      "2026": 63.09,
+      "2027": 63.09,
+      "2028": 63.09,
+      "2029": 63.09,
+      "2030": 63.09,
+      "2031": 63.09
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-4",
+    "bd_short": "Klimaat en groen",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in klimaatstraten en groenbeheer voor een groene, koele, gezonde, klimaatvriendelijke en toekomstgerichte gemeente",
+    "ap_code": "AP-4.2",
+    "ap_short": "Klimaatstraten",
+    "ap_long": "We leggen klimaatstraten aan.",
+    "ac_code": "A-4.2.0",
+    "ac_short": "Klimaatstraten",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3300000.0,
+    "amount_per_capita": 277.58,
+    "yearly_amounts": {
+      "2026": 260000.0,
+      "2027": 1070600.0,
+      "2028": 1461200.0,
+      "2029": 508200.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 21.87,
+      "2027": 90.06,
+      "2028": 122.91,
+      "2029": 42.75,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-9",
+    "bd_short": "Hechte gemeenschap",
+    "bd_long": "Kwalitatieve omschrijving: We laten onze gemeente groeien als een hechte gemeenschap waar traditie en vernieuwing hand in hand gaan en dragen zorg voor ons erfgoed",
+    "ap_code": "AP-9.3",
+    "ap_short": "Erfgoed en dorpskarakter",
+    "ap_long": "We dragen zorg voor ons erfgoed en versterken het authentieke dorpskarakter van Hoeilaart.",
+    "ac_code": "A-9.3.0",
+    "ac_short": "Erfgoed en dorpskarakter",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 1704668.68,
+    "amount_per_capita": 143.39,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 1515001.0,
+      "2028": 25000.0,
+      "2029": 35500.21,
+      "2030": 29167.47,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.41,
+      "2027": 127.44,
+      "2028": 2.1,
+      "2029": 2.99,
+      "2030": 2.45,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-4",
+    "bd_short": "Klimaat en groen",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in klimaatstraten en groenbeheer voor een groene, koele, gezonde, klimaatvriendelijke en toekomstgerichte gemeente",
+    "ap_code": "AP-4.3",
+    "ap_short": "Ontharden en vergroenen",
+    "ap_long": "We ontharden en vergroenen publieke ruimte en stimuleren biodiversiteit. Zo bouwen we aan een aangename leefomgeving voor jong en oud.",
+    "ac_code": "A-4.3.0",
+    "ac_short": "Ontharden en vergroenen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1177940.51,
+    "amount_per_capita": 99.08,
+    "yearly_amounts": {
+      "2026": 457690.51,
+      "2027": 280250.0,
+      "2028": 80000.0,
+      "2029": 200000.0,
+      "2030": 80000.0,
+      "2031": 80000.0
+    },
+    "yearly_per_capita": {
+      "2026": 38.5,
+      "2027": 23.57,
+      "2028": 6.73,
+      "2029": 16.82,
+      "2030": 6.73,
+      "2031": 6.73
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-3",
+    "bd_short": "Veilige en toegankelijke mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in veilige en toegankelijke mobiliteit met kwalitatieve wegen en voetpaden zodat mobiliteit in Hoeilaart veilig, duurzaam en leefbaar blijft",
+    "ap_code": "AP-3.1",
+    "ap_short": "Kwalitatieve wegen en infrastructuur",
+    "ap_long": "We investeren in kwalitatieve wegen en infrastructuur.",
+    "ac_code": "A-3.1.0",
+    "ac_short": "Kwalitatieve wegen en infrastructuur",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 979758.44,
+    "amount_per_capita": 82.41,
+    "yearly_amounts": {
+      "2026": 929758.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 78.21,
+      "2027": 0,
+      "2028": 0,
+      "2029": 4.21,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-3",
+    "bd_short": "Veilige en toegankelijke mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in veilige en toegankelijke mobiliteit met kwalitatieve wegen en voetpaden zodat mobiliteit in Hoeilaart veilig, duurzaam en leefbaar blijft",
+    "ap_code": "AP-3.2",
+    "ap_short": "Aanleg en onderhoud van wegen",
+    "ap_long": "We stellen een duidelijk plan op voor aanleg en onderhoud van wegen op basis van datagestuurde methodieken.",
+    "ac_code": "A-3.2.0",
+    "ac_short": "Aanleg en onderhoud van wegen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 908000.0,
+    "amount_per_capita": 76.38,
+    "yearly_amounts": {
+      "2026": 8000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 900000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.67,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 75.7,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-2",
+    "bd_short": "Veiligheid",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in veiligheid voor alle inwoners zodat iedereen zich vrij en beschermd voelt.",
+    "ap_code": "AP-2.4",
+    "ap_short": "Verkeersveiligheid",
+    "ap_long": "Verkeersveiligheid krijgt een centrale plaats en we installeren snelheidsmeters.",
+    "ac_code": "A-2.4.0",
+    "ac_short": "Verkeersveiligheid",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 481406.1,
+    "amount_per_capita": 40.49,
+    "yearly_amounts": {
+      "2026": 481406.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 40.49,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-8",
+    "bd_short": "Betrouwbaar bestuur",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een betrouwbaar bestuur met een sterke administratie dat luistert naar inwoners en ze zoveel als mogelijk betrekt",
+    "ap_code": "AP-8.3",
+    "ap_short": "Professionele gemeentelijke dienstverlening",
+    "ap_long": "Onze gemeentelijke dienstverlening is klantgericht, vriendelijk en professioneel.",
+    "ac_code": "A-8.3.0",
+    "ac_short": "Professionele gemeentelijke dienstverlening",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 414549.73,
+    "amount_per_capita": 34.87,
+    "yearly_amounts": {
+      "2026": 141549.73,
+      "2027": 263000.0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.91,
+      "2027": 22.12,
+      "2028": 0.84,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-2",
+    "bd_short": "Veiligheid",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in veiligheid voor alle inwoners zodat iedereen zich vrij en beschermd voelt.",
+    "ap_code": "AP-2.2",
+    "ap_short": "Samenwerking met politie en hulverlening",
+    "ap_long": "We versterken de samenwerking met de politie- en hulpverleningszone.",
+    "ac_code": "A-2.2.0",
+    "ac_short": "Samenwerking met politie en hulverlening",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 388976.39,
+    "amount_per_capita": 32.72,
+    "yearly_amounts": {
+      "2026": 88976.39,
+      "2027": 60000.0,
+      "2028": 60000.0,
+      "2029": 60000.0,
+      "2030": 60000.0,
+      "2031": 60000.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.48,
+      "2027": 5.05,
+      "2028": 5.05,
+      "2029": 5.05,
+      "2030": 5.05,
+      "2031": 5.05
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-3",
+    "bd_short": "Veilige en toegankelijke mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in veilige en toegankelijke mobiliteit met kwalitatieve wegen en voetpaden zodat mobiliteit in Hoeilaart veilig, duurzaam en leefbaar blijft",
+    "ap_code": "AP-3.5",
+    "ap_short": "Kwetsbare weggebruikers",
+    "ap_long": "We beschermen kwetsbare weggebruikers volgens het STOP-principe.",
+    "ac_code": "A-3.5.0",
+    "ac_short": "Kwetsbare weggebruikers",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 327544.89,
+    "amount_per_capita": 27.55,
+    "yearly_amounts": {
+      "2026": 72544.89,
+      "2027": 71000.0,
+      "2028": 46000.0,
+      "2029": 46000.0,
+      "2030": 46000.0,
+      "2031": 46000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.1,
+      "2027": 5.97,
+      "2028": 3.87,
+      "2029": 3.87,
+      "2030": 3.87,
+      "2031": 3.87
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-7",
+    "bd_short": "Kansrijke ontwikkeling",
+    "bd_long": "Kwalitatieve omschrijving: We zorgen ervoor dat gezinnen en jongeren zich kansrijk kunnen ontwikkelen",
+    "ap_code": "AP-7.5",
+    "ap_short": "Overige acties met betrekking tot kansrijke ontwikkeling",
+    "ap_long": "Commentaar:",
+    "ac_code": "A-7.5.0",
+    "ac_short": "Overige acties met betrekking tot kansrijke ontwikkeling",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 291000.0,
+    "amount_per_capita": 24.48,
+    "yearly_amounts": {
+      "2026": 107000.0,
+      "2027": 36000.0,
+      "2028": 22000.0,
+      "2029": 42000.0,
+      "2030": 42000.0,
+      "2031": 42000.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.0,
+      "2027": 3.03,
+      "2028": 1.85,
+      "2029": 3.53,
+      "2030": 3.53,
+      "2031": 3.53
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-6",
+    "bd_short": "Gezond leven en toegankelijke zorg",
+    "bd_long": "Kwalitatieve omschrijving: We streven ernaar dat elke inwoner gezond en volwaardig kan leven, met toegankelijke zorg voor alle leeftijden",
+    "ap_code": "AP-6.1",
+    "ap_short": "eerstelijnszorg",
+    "ap_long": "We breiden de eerstelijnszorg uit, stimuleren multidisciplinaire samenwerking tussen hulpverleners en ondersteunen mantelzorgers actief.",
+    "ac_code": "A-6.1.0",
+    "ac_short": "Eerstelijnszorg",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 287913.96,
+    "amount_per_capita": 24.22,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 287913.96,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 24.22,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-9",
+    "bd_short": "Hechte gemeenschap",
+    "bd_long": "Kwalitatieve omschrijving: We laten onze gemeente groeien als een hechte gemeenschap waar traditie en vernieuwing hand in hand gaan en dragen zorg voor ons erfgoed",
+    "ap_code": "AP-9.2",
+    "ap_short": "Actieve wijkwerking",
+    "ap_long": "Via actieve wijkwerking en nieuwe sport- en gemeenschapsevenementen versterken we de sociale cohesie.",
+    "ac_code": "A-9.2.0",
+    "ac_short": "Actieve wijkwerking",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 250050.4,
+    "amount_per_capita": 21.03,
+    "yearly_amounts": {
+      "2026": 50050.4,
+      "2027": 25000.0,
+      "2028": 27500.0,
+      "2029": 95000.0,
+      "2030": 27500.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.21,
+      "2027": 2.1,
+      "2028": 2.31,
+      "2029": 7.99,
+      "2030": 2.31,
+      "2031": 2.1
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-2",
+    "bd_short": "Veiligheid",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in veiligheid voor alle inwoners zodat iedereen zich vrij en beschermd voelt.",
+    "ap_code": "AP-2.3",
+    "ap_short": "Overlast aanpakken",
+    "ap_long": "We pakken overlast aan via duidelijke regels en handhaving.",
+    "ac_code": "A-2.3.0",
+    "ac_short": "Overlast aanpakken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 12.62,
+    "yearly_amounts": {
+      "2026": 35000.0,
+      "2027": 35000.0,
+      "2028": 35000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.94,
+      "2027": 2.94,
+      "2028": 2.94,
+      "2029": 1.26,
+      "2030": 1.26,
+      "2031": 1.26
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-6",
+    "bd_short": "Gezond leven en toegankelijke zorg",
+    "bd_long": "Kwalitatieve omschrijving: We streven ernaar dat elke inwoner gezond en volwaardig kan leven, met toegankelijke zorg voor alle leeftijden",
+    "ap_code": "AP-6.3",
+    "ap_short": "Hulp en ondersteuning voor iedereen",
+    "ap_long": "We zorgen ervoor dat iedereen de nodige hulp en ondersteuning vindt – we laten niemand achter.",
+    "ac_code": "A-6.3.0",
+    "ac_short": "Hulp en ondersteuning voor iedereen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 130518.67,
+    "amount_per_capita": 10.98,
+    "yearly_amounts": {
+      "2026": 100534.84,
+      "2027": 5539.61,
+      "2028": 6119.19,
+      "2029": 5858.92,
+      "2030": 6022.79,
+      "2031": 6443.32
+    },
+    "yearly_per_capita": {
+      "2026": 8.46,
+      "2027": 0.47,
+      "2028": 0.51,
+      "2029": 0.49,
+      "2030": 0.51,
+      "2031": 0.54
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-4",
+    "bd_short": "Klimaat en groen",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in klimaatstraten en groenbeheer voor een groene, koele, gezonde, klimaatvriendelijke en toekomstgerichte gemeente",
+    "ap_code": "AP-4.1",
+    "ap_short": "Groendienst en groenbeheer",
+    "ap_long": "We richten een eigen groendienst op en werken met een doordacht groenbeheerplan.",
+    "ac_code": "A-4.1.0",
+    "ac_short": "Groendienst en groenbeheer",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 10.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 120000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 10.09,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-3",
+    "bd_short": "Veilige en toegankelijke mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in veilige en toegankelijke mobiliteit met kwalitatieve wegen en voetpaden zodat mobiliteit in Hoeilaart veilig, duurzaam en leefbaar blijft",
+    "ap_code": "AP-3.4",
+    "ap_short": "Veilige schoolroutes",
+    "ap_long": "We zorgen voor veilige schoolroutes.",
+    "ac_code": "A-3.4.0",
+    "ac_short": "Veilige schoolroutes",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 119000.0,
+    "amount_per_capita": 10.01,
+    "yearly_amounts": {
+      "2026": 119000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.01,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-3",
+    "bd_short": "Veilige en toegankelijke mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in veilige en toegankelijke mobiliteit met kwalitatieve wegen en voetpaden zodat mobiliteit in Hoeilaart veilig, duurzaam en leefbaar blijft",
+    "ap_code": "AP-3.6",
+    "ap_short": "Overige acties met betrekking tot veilige en toegankelijke mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "A-3.6.0",
+    "ac_short": "Overige acties met betrekking tot veilige en toegankelijke mobiliteit",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 7.57,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.26,
+      "2027": 1.26,
+      "2028": 1.26,
+      "2029": 1.26,
+      "2030": 1.26,
+      "2031": 1.26
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-8",
+    "bd_short": "Betrouwbaar bestuur",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een betrouwbaar bestuur met een sterke administratie dat luistert naar inwoners en ze zoveel als mogelijk betrekt",
+    "ap_code": "AP-8.4",
+    "ap_short": "Modern personeelsbeleid",
+    "ap_long": "We moderniseren het personeelsbeleid want een gemotiveerd team is de sleutel tot een sterke dienstverlening.",
+    "ac_code": "A-8.4.0",
+    "ac_short": "Modern personeelsbeleid",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 82444.28,
+    "amount_per_capita": 6.93,
+    "yearly_amounts": {
+      "2026": 13149.5,
+      "2027": 13429.09,
+      "2028": 13643.81,
+      "2029": 13850.26,
+      "2030": 14060.21,
+      "2031": 14311.41
+    },
+    "yearly_per_capita": {
+      "2026": 1.11,
+      "2027": 1.13,
+      "2028": 1.15,
+      "2029": 1.17,
+      "2030": 1.18,
+      "2031": 1.2
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-9",
+    "bd_short": "Hechte gemeenschap",
+    "bd_long": "Kwalitatieve omschrijving: We laten onze gemeente groeien als een hechte gemeenschap waar traditie en vernieuwing hand in hand gaan en dragen zorg voor ons erfgoed",
+    "ap_code": "AP-9.1",
+    "ap_short": "Wijk- en straatfeesten met behoud van tradities",
+    "ap_long": "We ondersteunen wijk- en straatfeesten, behouden onze tradities zoals het Druivenfestival en de Kerstmarkt en brengen generaties dichter bij elkaar.",
+    "ac_code": "A-9.1.0",
+    "ac_short": "Wijk- en straatfeesten met behoud van tradities",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 32500.0,
+    "amount_per_capita": 2.73,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 7500.0,
+      "2028": 20000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.63,
+      "2028": 1.68,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0.42
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-8",
+    "bd_short": "Betrouwbaar bestuur",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een betrouwbaar bestuur met een sterke administratie dat luistert naar inwoners en ze zoveel als mogelijk betrekt",
+    "ap_code": "AP-8.2",
+    "ap_short": "Interne en externe communicatie",
+    "ap_long": "We verbeteren de interne en externe communicatie met een uniforme huisstijl.",
+    "ac_code": "A-8.2.0",
+    "ac_short": "Interne en externe communicatie",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 29100.0,
+    "amount_per_capita": 2.45,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 2900.0,
+      "2028": 300.0,
+      "2029": 300.0,
+      "2030": 300.0,
+      "2031": 300.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.1,
+      "2027": 0.24,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-4",
+    "bd_short": "Klimaat en groen",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in klimaatstraten en groenbeheer voor een groene, koele, gezonde, klimaatvriendelijke en toekomstgerichte gemeente",
+    "ap_code": "AP-4.4",
+    "ap_short": "Nationaal Park Brabantse Wouden en open ruimten",
+    "ap_long": "We maken deel uit van het Nationaal Park Brabantse Wouden en vullen open ruimten in voor wijnbouw, tuinbouw en paardenweiden.",
+    "ac_code": "A-4.4.0",
+    "ac_short": "Nationaal Park Brabantse Wouden en open ruimten",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.84,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 10000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.84,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoeilaart",
+    "nis_code": "23033",
+    "bd_code": "BD-7",
+    "bd_short": "Kansrijke ontwikkeling",
+    "bd_long": "Kwalitatieve omschrijving: We zorgen ervoor dat gezinnen en jongeren zich kansrijk kunnen ontwikkelen",
+    "ap_code": "AP-7.4",
+    "ap_short": "Huis van het Kind",
+    "ap_long": "Het Huis van het Kind is een partner om gezinnen te begeleiden en te ondersteunen bij de opvoeding.",
+    "ac_code": "A-7.4.0",
+    "ac_short": "Huis van het Kind",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 7000.0,
+    "amount_per_capita": 0.59,
+    "yearly_amounts": {
+      "2026": 7000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

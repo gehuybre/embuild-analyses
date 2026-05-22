@@ -2,156 +2,428 @@
   {
     "municipality": "Wommelgem",
     "nis_code": "11052",
-    "bd_code": "BDS",
-    "bd_short": "2.1. Duurzame leefomgeving",
-    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
-    "ap_code": "2.1.1",
-    "ap_short": "Mobiliteit",
-    "ap_long": "Creëren van een veilige en aangename verkeersomgeving voor voetgangers, fietsers en automobilisten",
-    "ac_code": "2.1.1",
-    "ac_short": "We zetten in op een verkeersveilige, duurzame en vlot toegan",
-    "ac_long": "We zetten in op een verkeersveilige, duurzame en vlot toegankelijke gemeente d.m.v. mobiliteitsplannen, gerichte acties en sensibilisering van onze inwoners.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 11641623.0,
-    "amount_per_capita": 858.27,
-    "yearly_amounts": {
-      "2026": 3915748.0,
-      "2027": 2831025.0,
-      "2028": 1359421.0,
-      "2029": 473699.0,
-      "2030": 2473338.0,
-      "2031": 588392.0
-    },
-    "yearly_per_capita": {
-      "2026": 288.69,
-      "2027": 208.71,
-      "2028": 100.22,
-      "2029": 34.92,
-      "2030": 182.34,
-      "2031": 43.38
-    }
-  },
-  {
-    "municipality": "Wommelgem",
-    "nis_code": "11052",
-    "bd_code": "BDS",
+    "bd_code": "BDS 104",
     "bd_short": "4.1. Vrije tijd",
     "bd_long": "Creëren van een sterk vrijetijds- en ontmoetingsaanbod.",
     "ap_code": "4.1.2",
     "ap_short": "Ontmoetingsruimte",
     "ap_long": "Optimaliseren en moderniseren van onze ontmoetingsinfrastructuur en creëren van nieuwe plekken voor ontmoeting, ontspanning, natuur-, sport- en spelbeleving",
-    "ac_code": "4.1.2",
+    "ac_code": "4.1.2_4.1.2.13",
     "ac_short": "We vernieuwen bestaande en richten nieuwe speel- en sportter",
     "ac_long": "We vernieuwen bestaande en richten nieuwe speel- en sportterreinen in.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 5020000.0,
-    "amount_per_capita": 370.09,
+    "total_amount": 4120000.0,
+    "amount_per_capita": 303.32,
     "yearly_amounts": {
-      "2026": 170000.0,
-      "2027": 170000.0,
-      "2028": 170000.0,
-      "2029": 170000.0,
-      "2030": 4170000.0,
-      "2031": 170000.0
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 4020000.0,
+      "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 12.53,
-      "2027": 12.53,
-      "2028": 12.53,
-      "2029": 12.53,
-      "2030": 307.43,
-      "2031": 12.53
+      "2026": 1.47,
+      "2027": 1.47,
+      "2028": 1.47,
+      "2029": 1.47,
+      "2030": 295.95,
+      "2031": 1.47
     }
   },
   {
     "municipality": "Wommelgem",
     "nis_code": "11052",
-    "bd_code": "BDS",
+    "bd_code": "BDS 99",
+    "bd_short": "2.1. Duurzame leefomgeving",
+    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
+    "ap_code": "2.1.1",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Creëren van een veilige en aangename verkeersomgeving voor voetgangers, fietsers en automobilisten",
+    "ac_code": "2.1.1_2.1.1.14",
+    "ac_short": "We  leggen de Oelegemsesteenweg (tussen Wijnegemsteenweg en",
+    "ac_long": "We  leggen de Oelegemsesteenweg (tussen Wijnegemsteenweg en Eenhoornsstraat) opnieuw aan en verbeteren hierbij fietsveiligheid.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3045000.0,
+    "amount_per_capita": 224.17,
+    "yearly_amounts": {
+      "2026": 2900000.0,
+      "2027": 145000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 213.5,
+      "2027": 10.67,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 96",
     "bd_short": "1.1. Bestuurskracht",
     "bd_long": "Versterken van de bestuurskracht",
     "ap_code": "1.1.3",
     "ap_short": "Patrimonium & materieel",
     "ap_long": "Investeren in duurzaam patrimonium en materieel",
-    "ac_code": "1.1.3",
+    "ac_code": "1.1.3_1.1.3.3",
     "ac_short": "We gaan op basis van prioriteiten actief aan de slag met bui",
     "ac_long": "We gaan op basis van prioriteiten actief aan de slag met buitengewone herstellingen en renovaties om te streven naar een kwaliteitsvol en energiezuinig patrimonium dat voldoet aan de huidige en toekomstige noden en verplichtingen.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 4340000.0,
-    "amount_per_capita": 319.96,
+    "total_amount": 2890000.0,
+    "amount_per_capita": 212.76,
     "yearly_amounts": {
-      "2026": 1627500.0,
-      "2027": 842500.0,
-      "2028": 842500.0,
-      "2029": 342500.0,
-      "2030": 342500.0,
-      "2031": 342500.0
+      "2026": 1552500.0,
+      "2027": 267500.0,
+      "2028": 267500.0,
+      "2029": 267500.0,
+      "2030": 267500.0,
+      "2031": 267500.0
     },
     "yearly_per_capita": {
-      "2026": 119.99,
-      "2027": 62.11,
-      "2028": 62.11,
-      "2029": 25.25,
-      "2030": 25.25,
-      "2031": 25.25
+      "2026": 114.3,
+      "2027": 19.69,
+      "2028": 19.69,
+      "2029": 19.69,
+      "2030": 19.69,
+      "2031": 19.69
     }
   },
   {
     "municipality": "Wommelgem",
     "nis_code": "11052",
-    "bd_code": "BDS",
+    "bd_code": "BDS 99",
+    "bd_short": "2.1. Duurzame leefomgeving",
+    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
+    "ap_code": "2.1.1",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Creëren van een veilige en aangename verkeersomgeving voor voetgangers, fietsers en automobilisten",
+    "ac_code": "2.1.1_2.1.1.21",
+    "ac_short": "We plaatsen, onderhouden en keuren de signalisatie, verkeers",
+    "ac_long": "We plaatsen, onderhouden en keuren de signalisatie, verkeersinstallaties en wegmarkeringen op het openbaar domein.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 147.24,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2000000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 147.24,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 99",
+    "bd_short": "2.1. Duurzame leefomgeving",
+    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
+    "ap_code": "2.1.1",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Creëren van een veilige en aangename verkeersomgeving voor voetgangers, fietsers en automobilisten",
+    "ac_code": "2.1.1_2.1.1.16",
+    "ac_short": "We leggen de Volkaertslei opnieuw aan waarbij we een duurzam",
+    "ac_long": "We leggen de Volkaertslei opnieuw aan waarbij we een duurzame straat creëeren en vernieuwen de riolering.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1910000.0,
+    "amount_per_capita": 140.62,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 1300000.0,
+      "2028": 610000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 95.71,
+      "2028": 44.91,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 99",
+    "bd_short": "2.1. Duurzame leefomgeving",
+    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
+    "ap_code": "2.1.1",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Creëren van een veilige en aangename verkeersomgeving voor voetgangers, fietsers en automobilisten",
+    "ac_code": "2.1.1_2.1.1.11",
+    "ac_short": "We voeren buitengewoon onderhoud uit aan wegen, fiets- en vo",
+    "ac_long": "We voeren buitengewoon onderhoud uit aan wegen, fiets- en voetpaden op basis van vaststellingen en bemerkingen met aandacht voor duurzaamheid en veiligheid.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1800000.0,
+    "amount_per_capita": 132.52,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 300000.0,
+      "2028": 300000.0,
+      "2029": 300000.0,
+      "2030": 300000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 22.09,
+      "2027": 22.09,
+      "2028": 22.09,
+      "2029": 22.09,
+      "2030": 22.09,
+      "2031": 22.09
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 99",
+    "bd_short": "2.1. Duurzame leefomgeving",
+    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
+    "ap_code": "2.1.1",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Creëren van een veilige en aangename verkeersomgeving voor voetgangers, fietsers en automobilisten",
+    "ac_code": "2.1.1_2.1.1.8",
+    "ac_short": "We verlichten ons openbaar domein met aandacht voor duurzaam",
+    "ac_long": "We verlichten ons openbaar domein met aandacht voor duurzaamheid en veiligheid.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1071623.0,
+    "amount_per_capita": 78.89,
+    "yearly_amounts": {
+      "2026": 298248.0,
+      "2027": 298525.0,
+      "2028": 296921.0,
+      "2029": 21199.0,
+      "2030": 20838.0,
+      "2031": 135892.0
+    },
+    "yearly_per_capita": {
+      "2026": 21.96,
+      "2027": 21.98,
+      "2028": 21.86,
+      "2029": 1.56,
+      "2030": 1.53,
+      "2031": 10.0
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 96",
     "bd_short": "1.1. Bestuurskracht",
     "bd_long": "Versterken van de bestuurskracht",
     "ap_code": "1.1.2",
     "ap_short": "Financiële bestuurskracht",
     "ap_long": "Versterken van de financiële bestuurskracht",
-    "ac_code": "1.1.2",
-    "ac_short": "We kennen een toelage toe aan de politiezone MINOS.",
-    "ac_long": "We kennen een toelage toe aan de politiezone MINOS.",
+    "ac_code": "1.1.2_1.1.2.13",
+    "ac_short": "We kennen een toelage toe aan de brandweerzone.",
+    "ac_long": "We kennen een toelage toe aan de brandweerzone.",
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 1489075.0,
-    "amount_per_capita": 109.78,
+    "total_amount": 1028430.0,
+    "amount_per_capita": 75.71,
     "yearly_amounts": {
-      "2026": 296302.0,
-      "2027": 252905.0,
-      "2028": 234967.0,
-      "2029": 236790.0,
-      "2030": 245905.0,
-      "2031": 222206.0
+      "2026": 163505.0,
+      "2027": 172985.0,
+      "2028": 172985.0,
+      "2029": 172985.0,
+      "2030": 172985.0,
+      "2031": 172985.0
     },
     "yearly_per_capita": {
-      "2026": 21.84,
-      "2027": 18.65,
-      "2028": 17.32,
-      "2029": 17.46,
-      "2030": 18.13,
-      "2031": 16.38
+      "2026": 12.04,
+      "2027": 12.74,
+      "2028": 12.74,
+      "2029": 12.74,
+      "2030": 12.74,
+      "2031": 12.74
     }
   },
   {
     "municipality": "Wommelgem",
     "nis_code": "11052",
-    "bd_code": "BDS",
+    "bd_code": "BDS 96",
+    "bd_short": "1.1. Bestuurskracht",
+    "bd_long": "Versterken van de bestuurskracht",
+    "ap_code": "1.1.3",
+    "ap_short": "Patrimonium & materieel",
+    "ap_long": "Investeren in duurzaam patrimonium en materieel",
+    "ac_code": "1.1.3_1.1.3.9",
+    "ac_short": "We herbestemmen het Kunstatelier.",
+    "ac_long": "We herbestemmen het kunstatelier.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 73.62,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 500000.0,
+      "2028": 500000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 36.81,
+      "2028": 36.81,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 104",
+    "bd_short": "4.1. Vrije tijd",
+    "bd_long": "Creëren van een sterk vrijetijds- en ontmoetingsaanbod.",
+    "ap_code": "4.1.2",
+    "ap_short": "Ontmoetingsruimte",
+    "ap_long": "Optimaliseren en moderniseren van onze ontmoetingsinfrastructuur en creëren van nieuwe plekken voor ontmoeting, ontspanning, natuur-, sport- en spelbeleving",
+    "ac_code": "4.1.2_4.1.2.3",
+    "ac_short": "We revitaliseren de site Fort 2.",
+    "ac_long": "We revitaliseren de site Fort 2.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 66.26,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 150000.0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 11.04,
+      "2027": 11.04,
+      "2028": 11.04,
+      "2029": 11.04,
+      "2030": 11.04,
+      "2031": 11.04
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 99",
+    "bd_short": "2.1. Duurzame leefomgeving",
+    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
+    "ap_code": "2.1.1",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Creëren van een veilige en aangename verkeersomgeving voor voetgangers, fietsers en automobilisten",
+    "ac_code": "2.1.1_2.1.1.15",
+    "ac_short": "We leggen de Vremdesteenweg (gemeentegrens Boechout tot krui",
+    "ac_long": "We leggen de Vremdesteenweg (gemeentegrens Boechout tot kruispunt Stommehoevenstraat) opnieuw aan en verbeteren hierbij de fietsveiligheid en riolering.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 66.26,
+    "yearly_amounts": {
+      "2026": 265000.0,
+      "2027": 635000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.51,
+      "2027": 46.75,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 99",
+    "bd_short": "2.1. Duurzame leefomgeving",
+    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
+    "ap_code": "2.1.1",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Creëren van een veilige en aangename verkeersomgeving voor voetgangers, fietsers en automobilisten",
+    "ac_code": "2.1.1_2.1.1.1",
+    "ac_short": "We zetten in op een verkeersveilige, duurzame en vlot toegan",
+    "ac_long": "We zetten in op een verkeersveilige, duurzame en vlot toegankelijke gemeente d.m.v. mobiliteitsplannen, gerichte acties en sensibilisering van onze inwoners.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 855000.0,
+    "amount_per_capita": 62.95,
+    "yearly_amounts": {
+      "2026": 142500.0,
+      "2027": 142500.0,
+      "2028": 142500.0,
+      "2029": 142500.0,
+      "2030": 142500.0,
+      "2031": 142500.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.49,
+      "2027": 10.49,
+      "2028": 10.49,
+      "2029": 10.49,
+      "2030": 10.49,
+      "2031": 10.49
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 97",
     "bd_short": "1.2. Brede dienstverlening",
     "bd_long": "Inzetten op een brede dienstverlening",
     "ap_code": "1.2.1",
-    "ap_short": "DIGITALISERING",
+    "ap_short": "Digitalisering",
     "ap_long": "Inspelen op een snel veranderende digitale wereld",
-    "ac_code": "1.2.1",
+    "ac_code": "1.2.1_1.2.1.7",
     "ac_short": "We vervangen of breiden de bestaande informaticatoepassingen",
     "ac_long": "We vervangen of breiden de bestaande informaticatoepassingen uit om in te spelen op de digitale evoluties.",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 600000.0,
-    "amount_per_capita": 44.23,
+    "amount_per_capita": 44.17,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 100000.0,
@@ -161,65 +433,99 @@
       "2031": 100000.0
     },
     "yearly_per_capita": {
-      "2026": 7.37,
-      "2027": 7.37,
-      "2028": 7.37,
-      "2029": 7.37,
-      "2030": 7.37,
-      "2031": 7.37
+      "2026": 7.36,
+      "2027": 7.36,
+      "2028": 7.36,
+      "2029": 7.36,
+      "2030": 7.36,
+      "2031": 7.36
     }
   },
   {
     "municipality": "Wommelgem",
     "nis_code": "11052",
-    "bd_code": "BDS",
-    "bd_short": "2.1. Duurzame leefomgeving",
-    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
-    "ap_code": "2.1.2",
-    "ap_short": "Publieke ruimte",
-    "ap_long": "Inzetten op een klimaatbestendige en gezonde leefomgeving",
-    "ac_code": "2.1.2",
-    "ac_short": "We ontharden de publieke ruimte door verharde oppervlakken t",
-    "ac_long": "We ontharden de publieke ruimte door verharde oppervlakken te verminderen door het aanleggen van meer groene zones en gebruik van waterdoorlatende materialen.",
+    "bd_code": "BDS 96",
+    "bd_short": "1.1. Bestuurskracht",
+    "bd_long": "Versterken van de bestuurskracht",
+    "ap_code": "1.1.3",
+    "ap_short": "Patrimonium & materieel",
+    "ap_long": "Investeren in duurzaam patrimonium en materieel",
+    "ac_code": "1.1.3_1.1.3.7",
+    "ac_short": "We investeren structureel in onze installaties, machines en",
+    "ac_long": "We investeren structureel in onze installaties, machines en uitrusting.",
     "categories": [
-      "02-mobiliteit"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 360000.0,
-    "amount_per_capita": 26.54,
+    "total_amount": 450000.0,
+    "amount_per_capita": 33.13,
     "yearly_amounts": {
-      "2026": 60000.0,
-      "2027": 60000.0,
-      "2028": 60000.0,
-      "2029": 60000.0,
-      "2030": 60000.0,
-      "2031": 60000.0
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
     },
     "yearly_per_capita": {
-      "2026": 4.42,
-      "2027": 4.42,
-      "2028": 4.42,
-      "2029": 4.42,
-      "2030": 4.42,
-      "2031": 4.42
+      "2026": 5.52,
+      "2027": 5.52,
+      "2028": 5.52,
+      "2029": 5.52,
+      "2030": 5.52,
+      "2031": 5.52
     }
   },
   {
     "municipality": "Wommelgem",
     "nis_code": "11052",
-    "bd_code": "BDS",
+    "bd_code": "BDS 96",
+    "bd_short": "1.1. Bestuurskracht",
+    "bd_long": "Versterken van de bestuurskracht",
+    "ap_code": "1.1.2",
+    "ap_short": "Financiële bestuurskracht",
+    "ap_long": "Versterken van de financiële bestuurskracht",
+    "ac_code": "1.1.2_1.1.2.12",
+    "ac_short": "We kennen een toelage toe aan de politiezone MINOS.",
+    "ac_long": "We kennen een toelage toe aan de politiezone MINOS.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 428145.0,
+    "amount_per_capita": 31.52,
+    "yearly_amounts": {
+      "2026": 100297.0,
+      "2027": 79920.0,
+      "2028": 61982.0,
+      "2029": 63805.0,
+      "2030": 72920.0,
+      "2031": 49221.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.38,
+      "2027": 5.88,
+      "2028": 4.56,
+      "2029": 4.7,
+      "2030": 5.37,
+      "2031": 3.62
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 105",
     "bd_short": "4.2. Opgroeien",
     "bd_long": "Inzetten op een kindvriendelijk beleid",
     "ap_code": "4.2.1",
     "ap_short": "Kindvriendelijke beleid",
     "ap_long": "Uitbouwen van een kindvriendelijke gemeente waar kinderen zorgeloos kunnen opgroeien en zich voluit kunnen ontplooien",
-    "ac_code": "4.2.1",
+    "ac_code": "4.2.1_4.2.1.2",
     "ac_short": "We coördineren de uitrol van het BOA-decreet.",
     "ac_long": "We coördineren de uitrol van het BOA-decreet.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 267500.0,
-    "amount_per_capita": 19.72,
+    "amount_per_capita": 19.69,
     "yearly_amounts": {
       "2026": 267500.0,
       "2027": 0,
@@ -229,7 +535,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 19.72,
+      "2026": 19.69,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -240,20 +546,88 @@
   {
     "municipality": "Wommelgem",
     "nis_code": "11052",
-    "bd_code": "BDS",
+    "bd_code": "BDS 99",
+    "bd_short": "2.1. Duurzame leefomgeving",
+    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
+    "ap_code": "2.1.2",
+    "ap_short": "Publieke ruimte",
+    "ap_long": "Inzetten op een klimaatbestendige en gezonde leefomgeving",
+    "ac_code": "2.1.2_2.1.2.1",
+    "ac_short": "We ontharden de publieke ruimte door verharde oppervlakken t",
+    "ac_long": "We ontharden de publieke ruimte door verharde oppervlakken te verminderen door het aanleggen van meer groene zones en gebruik van waterdoorlatende materialen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 13.25,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.21,
+      "2027": 2.21,
+      "2028": 2.21,
+      "2029": 2.21,
+      "2030": 2.21,
+      "2031": 2.21
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 99",
+    "bd_short": "2.1. Duurzame leefomgeving",
+    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
+    "ap_code": "2.1.2",
+    "ap_short": "Publieke ruimte",
+    "ap_long": "Inzetten op een klimaatbestendige en gezonde leefomgeving",
+    "ac_code": "2.1.2_2.1.2.2",
+    "ac_short": "We vergroenen de publieke ruimte door de aanleg van groene z",
+    "ac_long": "We vergroenen de publieke ruimte door de aanleg van groene zones, planten van bomen.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 13.25,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.21,
+      "2027": 2.21,
+      "2028": 2.21,
+      "2029": 2.21,
+      "2030": 2.21,
+      "2031": 2.21
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 99",
     "bd_short": "2.1. Duurzame leefomgeving",
     "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
     "ap_code": "2.1.4",
     "ap_short": "Milieu",
     "ap_long": "Inzetten op een duurzaam, milieu- en diervriendelijk beleid",
-    "ac_code": "2.1.4",
+    "ac_code": "2.1.4_2.1.4.1",
     "ac_short": "We faciliteren het gemeentelijk afval en werken verder aan d",
     "ac_long": "We faciliteren het gemeentelijk afval en werken verder aan de afbouw van restafval,  in overeenstemming met de doelen vastgelegd in het lokaal materialenplan 2023-2030 en met aandacht voor specifieke doelgroepen.",
     "categories": [
       "03-natuur-milieu"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 7.37,
+    "amount_per_capita": 7.36,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
@@ -263,7 +637,75 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.37,
+      "2026": 7.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 99",
+    "bd_short": "2.1. Duurzame leefomgeving",
+    "bd_long": "Inzetten op een levendige en duurzame leefomgeving.",
+    "ap_code": "2.1.1",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Creëren van een veilige en aangename verkeersomgeving voor voetgangers, fietsers en automobilisten",
+    "ac_code": "2.1.1_2.1.1.9",
+    "ac_short": "We houden het openbaar domein net en veilig door zwerfvuil-",
+    "ac_long": "We houden het openbaar domein net en veilig door zwerfvuil- en afvalbestrijding, veegwerken, ijzelbestrijding en aangepaste infrastructuur.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 4.42,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.74,
+      "2027": 0.74,
+      "2028": 0.74,
+      "2029": 0.74,
+      "2030": 0.74,
+      "2031": 0.74
+    }
+  },
+  {
+    "municipality": "Wommelgem",
+    "nis_code": "11052",
+    "bd_code": "BDS 96",
+    "bd_short": "1.1. Bestuurskracht",
+    "bd_long": "Versterken van de bestuurskracht",
+    "ap_code": "1.1.2",
+    "ap_short": "Financiële bestuurskracht",
+    "ap_long": "Versterken van de financiële bestuurskracht",
+    "ac_code": "1.1.2_1.1.2.14",
+    "ac_short": "We kennen een toelage toe aan de erkende kerkfabrieken.",
+    "ac_long": "We kennen een toelage toe aan de erkende kerkfabrieken.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 32500.0,
+    "amount_per_capita": 2.39,
+    "yearly_amounts": {
+      "2026": 32500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.39,
       "2027": 0,
       "2028": 0,
       "2029": 0,

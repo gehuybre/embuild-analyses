@@ -14,57 +14,567 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 15953841.0,
-    "amount_per_capita": 757.97,
+    "total_amount": 15953841.33,
+    "amount_per_capita": 755.6,
     "yearly_amounts": {
-      "2026": 4237694.0,
-      "2027": 4970440.0,
+      "2026": 4237694.08,
+      "2027": 4970440.25,
       "2028": 1649802.0,
       "2029": 1816356.0,
       "2030": 2154252.0,
       "2031": 1125297.0
     },
     "yearly_per_capita": {
-      "2026": 201.33,
-      "2027": 236.15,
-      "2028": 78.38,
-      "2029": 86.3,
-      "2030": 102.35,
-      "2031": 53.46
+      "2026": 200.7,
+      "2027": 235.41,
+      "2028": 78.14,
+      "2029": 86.03,
+      "2030": 102.03,
+      "2031": 53.3
     }
   },
   {
     "municipality": "Erpe-Mere",
     "nis_code": "41082",
-    "bd_code": "KD",
+    "bd_code": "KD-3",
+    "bd_short": "Verduurzamen en optimaliseren van gemeentelijke infrastructuur",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4",
+    "ap_short": "Analyseren en optimaliseren van het gebruik van gebouwen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-9",
+    "ac_short": "Bouwen van een gemeentemagazijn",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2750000.0,
+    "amount_per_capita": 130.24,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 2500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.84,
+      "2027": 118.4,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-5",
+    "bd_short": "Klimaatrobuust als rode draad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-7",
+    "ap_short": "Duurzaamheid op maat van onze gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-16",
+    "ac_short": "Verdere verledding van de openbare verlichting",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1826391.0,
+    "amount_per_capita": 86.5,
+    "yearly_amounts": {
+      "2026": 306391.0,
+      "2027": 310000.0,
+      "2028": 310000.0,
+      "2029": 300000.0,
+      "2030": 300000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.51,
+      "2027": 14.68,
+      "2028": 14.68,
+      "2029": 14.21,
+      "2030": 14.21,
+      "2031": 14.21
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-1",
+    "bd_short": "Erpe-Mere toekomstgericht inrichten",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2",
+    "ap_short": "Inzetten op veiligheid en handhaving",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-4",
+    "ac_short": "Werking van de veiligheidsdiensten ondersteunen",
+    "ac_long": "Inzetten op bekendheid van wijkinspecteurs.\nBIN netwerken stimuleren en contacten onderhouden.\nActies opzetten om fietsdiefstallen te verminderen. \nPromoten van inbraak- en brandpreventieadvies.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1026247.0,
+    "amount_per_capita": 48.6,
+    "yearly_amounts": {
+      "2026": 261247.0,
+      "2027": 153000.0,
+      "2028": 153000.0,
+      "2029": 153000.0,
+      "2030": 153000.0,
+      "2031": 153000.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.37,
+      "2027": 7.25,
+      "2028": 7.25,
+      "2029": 7.25,
+      "2030": 7.25,
+      "2031": 7.25
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-6",
+    "bd_short": "Een verbonden gemeenschap met een toegankelijk vrijetijdsaanbod",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-12",
+    "ap_short": "Een efficiënt en toegankelijk cultuurhuis dat de inwoners van Erpe-Mere verbindt en verrijkt.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-35",
+    "ac_short": "Efficiënt zijn in infrastructuur, bezetting, financiën, communicatie en medewerkers",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 792000.0,
+    "amount_per_capita": 37.51,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 194500.0,
+      "2028": 170000.0,
+      "2029": 285000.0,
+      "2030": 47500.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.55,
+      "2027": 9.21,
+      "2028": 8.05,
+      "2029": 13.5,
+      "2030": 2.25,
+      "2031": 0.95
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-6",
+    "bd_short": "Een verbonden gemeenschap met een toegankelijk vrijetijdsaanbod",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-14",
+    "ap_short": "Sportbeleving stimuleren en infrastructuur uitbouwen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-42",
+    "ac_short": "Optimalisatie en verdere uitbouw van de sport- en jeugdinfrastructuur.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 18.94,
+    "yearly_amounts": {
+      "2026": 400000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.94,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-14",
+    "bd_short": "Inzetten op digitale infrastructuur voor veiligheid en continuïteit",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-31",
+    "ap_short": "De digitale infrastructuur robuust en toekomstbestendig maken",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-87",
+    "ac_short": "Vernieuwing van server- en storage-infrastructuur met downsizing van on-prem systemen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 14.21,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.21,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-5",
+    "bd_short": "Klimaatrobuust als rode draad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-7",
+    "ap_short": "Duurzaamheid op maat van onze gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-18",
+    "ac_short": "Afkoppelen van de riolering van het domein Steenberg",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 245624.0,
+    "amount_per_capita": 11.63,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 245624.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 11.63,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-5",
+    "bd_short": "Klimaatrobuust als rode draad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-6",
+    "ap_short": "Investeren in trage wegen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-12",
+    "ac_short": "Opwaarderen van trage wegen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.74,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 0,
+      "2030": 25000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.18,
+      "2027": 1.18,
+      "2028": 1.18,
+      "2029": 0,
+      "2030": 1.18,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-9",
     "bd_short": "Inzetten op een flankerend onderwijsbeleid",
     "bd_long": "Commentaar:",
-    "ap_code": "AP",
+    "ap_code": "AP-21",
     "ap_short": "Optimaliseren van het ondersteunend onderwijsbeleid",
     "ap_long": "Commentaar:",
-    "ac_code": "ACT",
+    "ac_code": "ACT-60",
     "ac_short": "De werking van de kunstacademie ondersteunen",
     "ac_long": "Commentaar:",
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 7807862.0,
-    "amount_per_capita": 370.95,
+    "total_amount": 86000.0,
+    "amount_per_capita": 4.07,
     "yearly_amounts": {
-      "2026": 1772138.0,
-      "2027": 3563224.0,
-      "2028": 700500.0,
-      "2029": 747000.0,
-      "2030": 543000.0,
-      "2031": 482000.0
+      "2026": 41000.0,
+      "2027": 9000.0,
+      "2028": 9000.0,
+      "2029": 9000.0,
+      "2030": 9000.0,
+      "2031": 9000.0
     },
     "yearly_per_capita": {
-      "2026": 84.19,
-      "2027": 169.29,
-      "2028": 33.28,
-      "2029": 35.49,
-      "2030": 25.8,
-      "2031": 22.9
+      "2026": 1.94,
+      "2027": 0.43,
+      "2028": 0.43,
+      "2029": 0.43,
+      "2030": 0.43,
+      "2031": 0.43
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-5",
+    "bd_short": "Klimaatrobuust als rode draad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-9",
+    "ap_short": "Aandacht voor dierenwelzijn",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-95",
+    "ac_short": "Invoeren hondenweide",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 3.55,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.18,
+      "2027": 1.18,
+      "2028": 1.18,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-5",
+    "bd_short": "Klimaatrobuust als rode draad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-7",
+    "ap_short": "Duurzaamheid op maat van onze gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-97",
+    "ac_short": "We streven naar zoveel mogelijk ontharding",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 70000.0,
+    "amount_per_capita": 3.32,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.95,
+      "2027": 2.37,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-1",
+    "bd_short": "Erpe-Mere toekomstgericht inrichten",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-1",
+    "ap_short": "Open ruimte versterken en ruimte kwalitatief invullen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-94",
+    "ac_short": "Het percentage bos uitbreiden in Erpe-Mere met aanplant van bomen, struiken, houtkanten en hagen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 2.37,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.18,
+      "2027": 1.18,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-14",
+    "bd_short": "Inzetten op digitale infrastructuur voor veiligheid en continuïteit",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-31",
+    "ap_short": "De digitale infrastructuur robuust en toekomstbestendig maken",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-89",
+    "ac_short": "Cyberbeveiliging versterken door het invoeren van Managed Detection and Response (MDR)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 26100.0,
+    "amount_per_capita": 1.24,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 26100.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.24,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-17",
+    "bd_short": "Professioneel communiceren",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-34",
+    "ap_short": "Toegankelijk en laagdrempelig communiceren",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-93",
+    "ac_short": "Vernieuwen van de huisstijl",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 25500.0,
+    "amount_per_capita": 1.21,
+    "yearly_amounts": {
+      "2026": 8500.0,
+      "2027": 0,
+      "2028": 8500.0,
+      "2029": 0,
+      "2030": 8500.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.4,
+      "2027": 0,
+      "2028": 0.4,
+      "2029": 0,
+      "2030": 0.4,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-5",
+    "bd_short": "Klimaatrobuust als rode draad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-7",
+    "ap_short": "Duurzaamheid op maat van onze gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-14",
+    "ac_short": "Uitbreiden van de laadinfrastructuur",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 1.18,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.18,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Erpe-Mere",
+    "nis_code": "41082",
+    "bd_code": "KD-4",
+    "bd_short": "Vlotte en veilige mobiliteit bevorderen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-5",
+    "ap_short": "Veilig verkeer met oog voor de zachte weggebruiker",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-10",
+    "ac_short": "Actief investeren in een sterk netwerk van fietsverbindingen en trage wegen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.47,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.47,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

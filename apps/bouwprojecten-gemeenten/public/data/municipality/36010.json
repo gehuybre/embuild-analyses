@@ -2,69 +2,69 @@
   {
     "municipality": "Ledegem",
     "nis_code": "36010",
-    "bd_code": "BDS",
-    "bd_short": "Toekomstbestendig Ledegem",
-    "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
-    "ap_code": "AP3",
-    "ap_short": "Moderne infrastructuur",
-    "ap_long": "De gemeentelijke infrastructuur moderniseren en kwalitatief beheren",
-    "ac_code": "AP3",
-    "ac_short": "Samenkomst",
-    "ac_long": "Definitieve invulling geven aan site De Samenkomst, investeren in de bouw en inrichting van nieuw filiaal voor de muziekacademie",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 5061000.0,
-    "amount_per_capita": 517.26,
-    "yearly_amounts": {
-      "2026": 1875000.0,
-      "2027": 1886000.0,
-      "2028": 1300000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 191.63,
-      "2027": 192.76,
-      "2028": 132.87,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Ledegem",
-    "nis_code": "36010",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
     "bd_short": "Toekomstbestendig Ledegem",
     "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
     "ap_code": "AP2",
     "ap_short": "Ledegem investeert",
     "ap_long": "Ledegem investeert in veilige wegen en moderniseert het rioleringsstelsel",
-    "ac_code": "AP2",
-    "ac_short": "Onveilige fietspaden verbeteren",
-    "ac_long": "Om de fietsveiligheid te verhogen is het aangeraden om, waar nodig, de fietspaden opnieuw aan te leggen en te verbeteren.\nIndien mogelijk kan dit gebeuren met een afscheiding van het gemotoriseerd verkeer (bijv. met haag).",
+    "ac_code": "AP2_202",
+    "ac_short": "Onderhoud wegen en voetpaden",
+    "ac_long": "Systematisch onderhouden van gemeentelijke wegen en voetpaden",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 4760000.0,
-    "amount_per_capita": 486.49,
+    "total_amount": 5547978.83,
+    "amount_per_capita": 566.93,
     "yearly_amounts": {
-      "2026": 880000.0,
-      "2027": 880000.0,
+      "2026": 1797978.83,
+      "2027": 750000.0,
       "2028": 750000.0,
       "2029": 750000.0,
       "2030": 750000.0,
       "2031": 750000.0
     },
     "yearly_per_capita": {
-      "2026": 89.94,
-      "2027": 89.94,
-      "2028": 76.65,
-      "2029": 76.65,
-      "2030": 76.65,
-      "2031": 76.65
+      "2026": 183.73,
+      "2027": 76.64,
+      "2028": 76.64,
+      "2029": 76.64,
+      "2030": 76.64,
+      "2031": 76.64
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 1",
+    "bd_short": "Toekomstbestendig Ledegem",
+    "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
+    "ap_code": "AP3",
+    "ap_short": "Moderne infrastructuur",
+    "ap_long": "De gemeentelijke infrastructuur moderniseren en kwalitatief beheren",
+    "ac_code": "AP3_301",
+    "ac_short": "Samenkomst",
+    "ac_long": "Definitieve invulling geven aan site De Samenkomst, investeren in de bouw en inrichting van nieuw filiaal voor de muziekacademie",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3191207.9,
+    "amount_per_capita": 326.1,
+    "yearly_amounts": {
+      "2026": 891207.9,
+      "2027": 1300000.0,
+      "2028": 1000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 91.07,
+      "2027": 132.84,
+      "2028": 102.19,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -76,50 +76,84 @@
     "ap_code": "",
     "ap_short": "",
     "ap_long": "",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 2565131.0,
-    "amount_per_capita": 262.17,
+    "total_amount": 2702848.48,
+    "amount_per_capita": 276.2,
     "yearly_amounts": {
-      "2026": 1204343.0,
-      "2027": 465285.0,
-      "2028": 328203.0,
+      "2026": 1342059.97,
+      "2027": 465285.1,
+      "2028": 328203.41,
       "2029": 189100.0,
       "2030": 189100.0,
       "2031": 189100.0
     },
     "yearly_per_capita": {
-      "2026": 123.09,
+      "2026": 137.14,
       "2027": 47.55,
       "2028": 33.54,
-      "2029": 19.33,
-      "2030": 19.33,
-      "2031": 19.33
+      "2029": 19.32,
+      "2030": 19.32,
+      "2031": 19.32
     }
   },
   {
     "municipality": "Ledegem",
     "nis_code": "36010",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "Toekomstbestendig Ledegem",
+    "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
+    "ap_code": "AP3",
+    "ap_short": "Moderne infrastructuur",
+    "ap_long": "De gemeentelijke infrastructuur moderniseren en kwalitatief beheren",
+    "ac_code": "AP3_303",
+    "ac_short": "Kleedkamercomplex Olympic Ledegem",
+    "ac_long": "De kleedkamers van Olympic Ledegem zijn verouderd en voldoen niet meer aan de huidige noden. Daarom plannen we een grondige renovatie of vernieuwing van de infrastructuur in de komende legislatuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 102.19,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 51.09,
+      "2027": 51.09,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 2",
     "bd_short": "Duurzame gemeente",
     "bd_long": "Samen werken aan een duurzame en klimaatbewuste gemeente",
     "ap_code": "AP6",
     "ap_short": "Klimaat en energie",
     "ap_long": "Klimaat- en energiebewust omgaan met onze gemeente",
-    "ac_code": "AP6",
-    "ac_short": "Uitvoering van het energie- en klimaatactieplan 2030",
-    "ac_long": "Het duurzaam energie- en klimaatactieplan 2030, goedgekeurd in november 2023, bevat heel wat acties rond water, blauw-groen netwerk, erosie en hitte om de komende jaren verder op in te zetten.",
+    "ac_code": "AP6_610",
+    "ac_short": "Verledd. van de OV, bouw van nieuwe distributiecabines",
+    "ac_long": "Afwerken van de verledding van de openbare verlichting (OV).",
     "categories": [
-      "01-algemeen-bestuur"
+      "06-wonen-ruimte"
     ],
-    "total_amount": 972838.0,
-    "amount_per_capita": 99.43,
+    "total_amount": 757838.0,
+    "amount_per_capita": 77.44,
     "yearly_amounts": {
-      "2026": 422538.0,
+      "2026": 207538.0,
       "2027": 207672.0,
       "2028": 206783.0,
       "2029": 15129.0,
@@ -127,8 +161,8 @@
       "2031": 105934.0
     },
     "yearly_per_capita": {
-      "2026": 43.19,
-      "2027": 21.23,
+      "2026": 21.21,
+      "2027": 21.22,
       "2028": 21.13,
       "2029": 1.55,
       "2030": 1.51,
@@ -138,54 +172,190 @@
   {
     "municipality": "Ledegem",
     "nis_code": "36010",
-    "bd_code": "BDS",
-    "bd_short": "Dienstverlening van morgen",
-    "bd_long": "Dienstverlening van morgen: betrokken, klantgericht, digitaal, voor iedereen",
-    "ap_code": "AP11",
-    "ap_short": "Vrije tijd",
-    "ap_long": "Het vrijetijdsaanbod en verenigingsleven verder versterken",
-    "ac_code": "AP11",
-    "ac_short": "BOOST Fin. erkend aanbod buitensch kinderopvang/activiteiten",
-    "ac_long": "BOOST Fin. erkend aanbod buitenschoolse kinderopvang/activiteiten. In uitvoering van beslissing Vlaamse regering. Opmaak omgevingsanalyse, visie ontwikkelen, erkennings- en subsidiereglement maken, handhavingstraject.  De financiering valt onder dit luik.",
+    "bd_code": "BDS 1",
+    "bd_short": "Toekomstbestendig Ledegem",
+    "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
+    "ap_code": "AP3",
+    "ap_short": "Moderne infrastructuur",
+    "ap_long": "De gemeentelijke infrastructuur moderniseren en kwalitatief beheren",
+    "ac_code": "AP3_302",
+    "ac_short": "Capellehof: hoevewoning en varkensstal",
+    "ac_long": "Renoveren van de hoevewoning en de varkensstal met het oog op een definitieve invulling van de gebouwen",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "00-algemene-financiering"
     ],
-    "total_amount": 332000.0,
-    "amount_per_capita": 33.93,
+    "total_amount": 486771.22,
+    "amount_per_capita": 49.74,
     "yearly_amounts": {
-      "2026": 237000.0,
-      "2027": 27000.0,
-      "2028": 17000.0,
-      "2029": 17000.0,
-      "2030": 17000.0,
-      "2031": 17000.0
+      "2026": 400771.22,
+      "2027": 86000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 24.22,
-      "2027": 2.76,
-      "2028": 1.74,
-      "2029": 1.74,
-      "2030": 1.74,
-      "2031": 1.74
+      "2026": 40.95,
+      "2027": 8.79,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Ledegem",
     "nis_code": "36010",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "Toekomstbestendig Ledegem",
+    "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
+    "ap_code": "AP3",
+    "ap_short": "Moderne infrastructuur",
+    "ap_long": "De gemeentelijke infrastructuur moderniseren en kwalitatief beheren",
+    "ac_code": "AP3_306",
+    "ac_short": "Administratief centrum en sociaal huis",
+    "ac_long": "Verbouwen van de tuinzaal ifv. huwelijken, jubilea en feestelijkheden.  Verbouwen van het onthaal en de dienst burgerzaken ifv. een betere dienstverlening / privacy.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 287705.0,
+    "amount_per_capita": 29.4,
+    "yearly_amounts": {
+      "2026": 287705.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 29.4,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 1",
+    "bd_short": "Toekomstbestendig Ledegem",
+    "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
+    "ap_code": "AP3",
+    "ap_short": "Moderne infrastructuur",
+    "ap_long": "De gemeentelijke infrastructuur moderniseren en kwalitatief beheren",
+    "ac_code": "AP3_305",
+    "ac_short": "Opfrissen en onderhoud DE L!NK",
+    "ac_long": "Investering in noodzakelijke opfrissingswerken, aangezien het gebouw en de inrichting tekenen van ouderdom beginnen te vertonen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 25.55,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25.55,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 3",
+    "bd_short": "Dienstverlening van morgen",
+    "bd_long": "Dienstverlening van morgen: betrokken, klantgericht, digitaal, voor iedereen",
+    "ap_code": "AP11",
+    "ap_short": "Vrije Tijd",
+    "ap_long": "Het vrijetijdsaanbod en verenigingsleven verder versterken",
+    "ac_code": "AP11_1107",
+    "ac_short": "BOOST Fin. erkend aanbod buitensch kinderopvang/activiteiten",
+    "ac_long": "BOOST Fin. erkend aanbod buitenschoolse kinderopvang/activiteiten. In uitvoering van beslissing Vlaamse regering. Opmaak omgevingsanalyse, visie ontwikkelen, erkennings- en subsidiereglement maken, handhavingstraject.  De financiering valt onder dit luik.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 237000.0,
+    "amount_per_capita": 24.22,
+    "yearly_amounts": {
+      "2026": 237000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 24.22,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 1",
+    "bd_short": "Toekomstbestendig Ledegem",
+    "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
+    "ap_code": "AP2",
+    "ap_short": "Ledegem investeert",
+    "ap_long": "Ledegem investeert in veilige wegen en moderniseert het rioleringsstelsel",
+    "ac_code": "AP2_201",
+    "ac_short": "Onveilige fietspaden verbeteren",
+    "ac_long": "Om de fietsveiligheid te verhogen is het aangeraden om, waar nodig, de fietspaden opnieuw aan te leggen en te verbeteren.\nIndien mogelijk kan dit gebeuren met een afscheiding van het gemotoriseerd verkeer (bijv. met haag).",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 20.44,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.22,
+      "2027": 10.22,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 2",
     "bd_short": "Duurzame gemeente",
     "bd_long": "Samen werken aan een duurzame en klimaatbewuste gemeente",
     "ap_code": "AP5",
     "ap_short": "Afvalbeheer",
     "ap_long": "Het afvalbeheer wordt verduurzaamd",
-    "ac_code": "AP5",
+    "ac_code": "AP5_504",
     "ac_short": "Sorteerstreetje aan containerpark 24/24 toegankelijk",
     "ac_long": "Om de dienstverlening verder te optimaliseren, wordt een sorteerstraat aan het recyclagepark in dienst genomen.",
     "categories": [
       "03-natuur-milieu"
     ],
     "total_amount": 130000.0,
-    "amount_per_capita": 13.29,
+    "amount_per_capita": 13.28,
     "yearly_amounts": {
       "2026": 130000.0,
       "2027": 0,
@@ -195,7 +365,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 13.29,
+      "2026": 13.28,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -206,13 +376,81 @@
   {
     "municipality": "Ledegem",
     "nis_code": "36010",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "Duurzame gemeente",
+    "bd_long": "Samen werken aan een duurzame en klimaatbewuste gemeente",
+    "ap_code": "AP6",
+    "ap_short": "Klimaat en energie",
+    "ap_long": "Klimaat- en energiebewust omgaan met onze gemeente",
+    "ac_code": "AP6_601",
+    "ac_short": "Uitvoering van het energie- en klimaatactieplan 2030",
+    "ac_long": "Het duurzaam energie- en klimaatactieplan 2030, goedgekeurd in november 2023, bevat heel wat acties rond water, blauw-groen netwerk, erosie en hitte om de komende jaren verder op in te zetten.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 115000.0,
+    "amount_per_capita": 11.75,
+    "yearly_amounts": {
+      "2026": 115000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.75,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 2",
+    "bd_short": "Duurzame gemeente",
+    "bd_long": "Samen werken aan een duurzame en klimaatbewuste gemeente",
+    "ap_code": "AP6",
+    "ap_short": "Klimaat en energie",
+    "ap_long": "Klimaat- en energiebewust omgaan met onze gemeente",
+    "ac_code": "AP6_612",
+    "ac_short": "Energiezuin. renovaties stookinstallaties openb.gebouwen",
+    "ac_long": "In de openbare gebouwen wordt verwarmd met gasgestookte toestellen. Veel van deze toestellen zijn sterk verouderd en er kunnen geen wisselstukken meer gekocht worden. Dit betekent dat bij defecten deze gebouwen niet meer verwarmd kunnen worden.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 10.22,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.22,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 3",
     "bd_short": "Dienstverlening van morgen",
     "bd_long": "Dienstverlening van morgen: betrokken, klantgericht, digitaal, voor iedereen",
     "ap_code": "AP12",
     "ap_short": "Veilig",
     "ap_long": "Een veilig Ledegem is prioriteit",
-    "ac_code": "AP12",
+    "ac_code": "AP12_1201",
     "ac_short": "Onderzoeken plaatsen van camera's op bepaalde plaatsen",
     "ac_long": "We pakken probleemlocaties, bv. inzake drugs en vandalisme in onze gemeente aan. We onderzoeken de mogelijkheden van camera's op de openbare verlichtingspalen of via het cameranetwerk van de politiezone. Aangepaste verlichting kan mogelijks ook een positieve invloed hebben.",
     "categories": [
@@ -240,31 +478,65 @@
   {
     "municipality": "Ledegem",
     "nis_code": "36010",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
+    "bd_short": "Dienstverlening van morgen",
+    "bd_long": "Dienstverlening van morgen: betrokken, klantgericht, digitaal, voor iedereen",
+    "ap_code": "AP11",
+    "ap_short": "Vrije Tijd",
+    "ap_long": "Het vrijetijdsaanbod en verenigingsleven verder versterken",
+    "ac_code": "AP11_1111",
+    "ac_short": "BOA Aanbod Rest",
+    "ac_long": "BOA Mixed aanbod.  Fin. erkend aanbod buitenschoolse kinderopvang/activiteiten (mix)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 95000.0,
+    "amount_per_capita": 9.71,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 27000.0,
+      "2028": 17000.0,
+      "2029": 17000.0,
+      "2030": 17000.0,
+      "2031": 17000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.76,
+      "2028": 1.74,
+      "2029": 1.74,
+      "2030": 1.74,
+      "2031": 1.74
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 1",
     "bd_short": "Toekomstbestendig Ledegem",
     "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
-    "ap_code": "AP4",
-    "ap_short": "Mobiliteitsoplossingen",
-    "ap_long": "Slimme mobiliteitsoplossingen in functie van een toegankelijke en veilige gemeente",
-    "ac_code": "AP4",
-    "ac_short": "Inrichten Hoppinpunten",
-    "ac_long": "Een hoppinpunt is een punt waar verschillende vervoermiddelen samenkomen en op elkaar zijn afgestemd. In het kader van basisbereikbaarheid is het noodzakelijk om één of meerdere bushaltes als hoppinpunten in te richten.",
+    "ap_code": "AP2",
+    "ap_short": "Ledegem investeert",
+    "ap_long": "Ledegem investeert in veilige wegen en moderniseert het rioleringsstelsel",
+    "ac_code": "AP2_203",
+    "ac_short": "Project Geuzesmisse",
+    "ac_long": "Wegenis- en rioleringsproject in de Roeselarestraat, Geuzesmissestraat en Rennevoortstraat + aanleg van gescheiden fietspad in de Roeselarestraat",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 60000.0,
     "amount_per_capita": 6.13,
     "yearly_amounts": {
-      "2026": 60000.0,
-      "2027": 0,
+      "2026": 30000.0,
+      "2027": 30000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.13,
-      "2027": 0,
+      "2026": 3.07,
+      "2027": 3.07,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -274,32 +546,32 @@
   {
     "municipality": "Ledegem",
     "nis_code": "36010",
-    "bd_code": "BDS",
-    "bd_short": "Dienstverlening van morgen",
-    "bd_long": "Dienstverlening van morgen: betrokken, klantgericht, digitaal, voor iedereen",
-    "ap_code": "AP8",
-    "ap_short": "INFORMEREN",
-    "ap_long": "Inwoners actief betrekken en correct informeren",
-    "ac_code": "AP8",
-    "ac_short": "Vernieuwen website",
-    "ac_long": "Een nieuwe nog meer toegankelijke website laten ontwikkelen. Daardoor kan ook nog meer gebiedspecifiek en sectorspecifiek gecommuniceerd worden, bv. bij openbare werken. Samenwerking met andere gemeenten bij ontwikkeling is een meerwaarde.",
+    "bd_code": "BDS 1",
+    "bd_short": "Toekomstbestendig Ledegem",
+    "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
+    "ap_code": "AP3",
+    "ap_short": "Moderne infrastructuur",
+    "ap_long": "De gemeentelijke infrastructuur moderniseren en kwalitatief beheren",
+    "ac_code": "AP3_304",
+    "ac_short": "Technische voorzieningen van DE L!NK",
+    "ac_long": "Verenigingen moeten momenteel vaak op eigen kosten extra technisch materiaal huren om hun activiteiten of voorstellingen optimaal te laten verlopen. Door het eigen aanbod uit te breiden met strategische aankopen, kan een breder draagvlak gecreëerd worden voor verenigingen.",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 55300.0,
-    "amount_per_capita": 5.65,
+    "total_amount": 50000.0,
+    "amount_per_capita": 5.11,
     "yearly_amounts": {
       "2026": 0,
-      "2027": 30000.0,
-      "2028": 25300.0,
+      "2027": 0,
+      "2028": 50000.0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 3.07,
-      "2028": 2.59,
+      "2027": 0,
+      "2028": 5.11,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -308,13 +580,47 @@
   {
     "municipality": "Ledegem",
     "nis_code": "36010",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "Toekomstbestendig Ledegem",
+    "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
+    "ap_code": "AP4",
+    "ap_short": "Mobiliteitsoplossingen",
+    "ap_long": "Slimme mobiliteitsoplossingen in functie van een toegankelijke en veilige gemeente",
+    "ac_code": "AP4_403",
+    "ac_short": "Inrichten Hoppinpunten",
+    "ac_long": "Een hoppinpunt is een punt waar verschillende vervoermiddelen samenkomen en op elkaar zijn afgestemd. In het kader van basisbereikbaarheid is het noodzakelijk om één of meerdere bushaltes als hoppinpunten in te richten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 5.11,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.11,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 3",
     "bd_short": "Dienstverlening van morgen",
     "bd_long": "Dienstverlening van morgen: betrokken, klantgericht, digitaal, voor iedereen",
     "ap_code": "AP15",
     "ap_short": "Personeel en organisatie",
     "ap_long": "Personeelsbeleid- en organisatiebeheersing",
-    "ac_code": "AP15",
+    "ac_code": "AP15_1506",
     "ac_short": "Verder optimaliseren werkomgeving medewerkers",
     "ac_long": "We zetten verder in op het optimaliseren van de werkomgeving door systematisch ieder jaar enkele bureau's te vervangen door zit-sta tafels.",
     "categories": [
@@ -342,13 +648,47 @@
   {
     "municipality": "Ledegem",
     "nis_code": "36010",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
+    "bd_short": "Dienstverlening van morgen",
+    "bd_long": "Dienstverlening van morgen: betrokken, klantgericht, digitaal, voor iedereen",
+    "ap_code": "AP8",
+    "ap_short": "INFORMEREN",
+    "ap_long": "Inwoners actief betrekken en correct informeren",
+    "ac_code": "AP8_801",
+    "ac_short": "Vernieuwen website",
+    "ac_long": "Een nieuwe nog meer toegankelijke website laten ontwikkelen. Daardoor kan ook nog meer gebiedspecifiek en sectorspecifiek gecommuniceerd worden, bv. bij openbare werken. Samenwerking met andere gemeenten bij ontwikkeling is een meerwaarde.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 3.07,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.07,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 3",
     "bd_short": "Dienstverlening van morgen",
     "bd_long": "Dienstverlening van morgen: betrokken, klantgericht, digitaal, voor iedereen",
     "ap_code": "AP9",
     "ap_short": "Cybersecurity",
     "ap_long": "De cybersecurity van onze organisatie versterken",
-    "ac_code": "AP9",
+    "ac_code": "AP9_903",
     "ac_short": "Ontdubbelen firewall",
     "ac_long": "Uit het continuiteitsplan blijkt dat onze firewall een Single Point of Failure is. Het is bijgevolg aangewezen om deze te ontdubbelen, of om op z'n minst een oplossing te zoeken die dit issue covert. Zonder firewall is er geen internetconnectiviteit en zonder internetconnectiviteit is er amper digitale activiteit en dienstverlening mogelijk.",
     "categories": [
@@ -367,6 +707,74 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 3.07,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 3",
+    "bd_short": "Dienstverlening van morgen",
+    "bd_long": "Dienstverlening van morgen: betrokken, klantgericht, digitaal, voor iedereen",
+    "ap_code": "AP8",
+    "ap_short": "INFORMEREN",
+    "ap_long": "Inwoners actief betrekken en correct informeren",
+    "ac_code": "AP8_802",
+    "ac_short": "Ontsluiten van gemeentelijk info via een applicatie",
+    "ac_long": "De bedoeling is om een (reeds bestaande) gemeentelijke applicatie in te voeren die plaatsgebonden communicatie, bevraging van inwoners, bekendmaking van lokale bedrijven, vacatures en het genereren van de Ledegem Bon mogelijk maakt. Dit zal gebeuren via bestaande, beproefde platformen zoals Burgerprofiel Vlaanderen of door samen te werken met naburige gemeenten die reeds soortgelijke apps gebruiken, bv Roeselare, Zonnebeke.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 25300.0,
+    "amount_per_capita": 2.59,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25300.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.59,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ledegem",
+    "nis_code": "36010",
+    "bd_code": "BDS 1",
+    "bd_short": "Toekomstbestendig Ledegem",
+    "bd_long": "Bouwen aan een toekomstbestendig Ledegem",
+    "ap_code": "AP4",
+    "ap_short": "Mobiliteitsoplossingen",
+    "ap_long": "Slimme mobiliteitsoplossingen in functie van een toegankelijke en veilige gemeente",
+    "ac_code": "AP4_404",
+    "ac_short": "Parkeren fietsen veiliger maken",
+    "ac_long": "Er waren in de afgelopen periode verschillende meldingen van fietsdiefstallen. Fietsen worden ook steeds duurder. Er is vraag naar veiligere manieren om fietsen te stallen. We vernieuwen systematisch onze fietsenrekken en zetten meer in op veilige alternatieven.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 1.02,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.02,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,

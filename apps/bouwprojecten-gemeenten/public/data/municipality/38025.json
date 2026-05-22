@@ -2,35 +2,69 @@
   {
     "municipality": "Veurne",
     "nis_code": "38025",
-    "bd_code": "BD",
-    "bd_short": "Een nieuwe visie op omgeving",
-    "bd_long": "Kwalitatieve omschrijving: In Veurne ligt alles op een boogscheut. Wonen, werken, winkelen, leren, ontspannen — het kan allemaal binnen 15 minuten fietsen of stappen. Dat is onze sterkte. We waken over het unieke karakter van onze stad en haar dorpen: charmante kernen, veel open ruimte en een rustige, verzorgde en leefbare omgeving. We bouwen verder op wat werkt en versterken waar nodig. Groene plekken worden gekoesterd. Voetpaden, fietspaden en wandelroutes worden veiliger en vlotter.\nKortom: in Veurne houden we het overzicht en houden we van evenwicht. Tussen stad en dorp. Tussen ontwikkeling en erfgoed. Tussen mens en natuur.",
-    "ap_code": "AP",
-    "ap_short": "Goed en betaalbaar wonen",
+    "bd_code": "BD-3",
+    "bd_short": "Een nieuwe visie op vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is meer dan ontspanning. Het is de lijm van onze samenleving. In Veurne zorgen we voor een aanbod dat verbindt, verrijkt en verrast. Iedereen moet kunnen deelnemen, van jong tot oud, van nieuwe inwoner tot trouwe Veurnaar.\nWe zetten in op een bruisende stad én bloeiende dorpen. Op sterke samenwerkingen met verenigingen, vrijwilligers en organisatoren. Op evenementen die leven in de brouwerij brengen. Op sport, cultuur, toerisme en ontmoeting en dit telkens met oog voor kwaliteit, inclusie en duurzaamheid.\nVrije tijd in Veurne? Dat is plezier maken, talenten ontdekken en elkaar ontmoeten. Op een plek waar iedereen zich welkom voelt.",
+    "ap_code": "AP-7",
+    "ap_short": "Ontspannen in eigen stad",
     "ap_long": "Commentaar:",
-    "ac_code": "ACT",
-    "ac_short": "Ontwikkelen van de verkaveling Proostdijk",
-    "ac_long": "Samen met een private partner bestaan er plannen om een verkaveling te realiseren langs de Proostdijkstraat. Een eerste visie inzake de organisatie van de verkaveling werd opgemaakt door een studiebureau.  De mogelijkheden van deze plannen na de publicatie van de watertoetskaarten moeten evenwel eerst worden onderzocht.",
+    "ac_code": "ACT-34",
+    "ac_short": "Sportaccomodatie",
+    "ac_long": "Veurne gaat voor sport. En dat mag je vrij letterlijk nemen. Met een gloednieuw zwembad, vernieuwde voetbalinfrastructuur én aandacht voor kleinschalige sportinitiatieven bouwen we aan een sportieve stad waarin elke inwoner zijn ding kan doen: jong of oud, beginner of topper.",
     "categories": [
-      "06-wonen-ruimte"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 51522255.0,
-    "amount_per_capita": 4059.27,
+    "total_amount": 17700000.0,
+    "amount_per_capita": 1392.25,
     "yearly_amounts": {
-      "2026": 11383500.0,
-      "2027": 6888755.0,
-      "2028": 8725000.0,
-      "2029": 12825000.0,
-      "2030": 10425000.0,
-      "2031": 1275000.0
+      "2026": 1900000.0,
+      "2027": 200000.0,
+      "2028": 1600000.0,
+      "2029": 7000000.0,
+      "2030": 7000000.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 896.87,
-      "2027": 542.74,
-      "2028": 687.41,
-      "2029": 1010.44,
-      "2030": 821.35,
-      "2031": 100.45
+      "2026": 149.45,
+      "2027": 15.73,
+      "2028": 125.85,
+      "2029": 550.61,
+      "2030": 550.61,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Veurne",
+    "nis_code": "38025",
+    "bd_code": "BD-4",
+    "bd_short": "Een nieuwe visie op welzijn",
+    "bd_long": "Kwalitatieve omschrijving: Een warme stad herken je aan hoe ze met haar mensen omgaat. In Veurne zorgen we voor wie zorg nodig heeft en versterken we wie vooruit wil. Ons welzijnsbeleid is laagdrempelig, mensgericht en actief op zoek naar wie uit de boot dreigt te vallen. We geloven in de kracht van mensen, maar bieden steun waar het moet. Met sterke sociale partners. Met eenvoudige toegang tot hulp. Met aandacht voor jong én oud, voor fysieke én mentale gezondheid, voor acute noden én duurzame oplossingen.\nWelzijn is geen dienst. Het is een engagement. Om zorgzaam en rechtvaardig te zijn. Om kansen te geven en bruggen te bouwen. Want alleen samen maken we van Veurne een echte thuis.",
+    "ap_code": "AP-8",
+    "ap_short": "Zorg dragen voor alle generaties",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-44",
+    "ac_short": "Nieuwbouw Zonnewende: een huis van de toekomst voor onze toekomst!",
+    "ac_long": "De jeugd is onze toekomst. We bouwen een nieuwe Zonnewende: een kleinschalige, warme plek waar kinderen en jongeren met bijzondere ondersteuningsnoden zich thuis kunnen voelen. Waar ze comfortabel kunnen wonen, groeien en hun eigen pad leren uitstippelen. Een duurzaam project vol zorg en engagement, verankerd in het lokale weefsel van Veurne, gedragen door de gemeenschap.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 13500000.0,
+    "amount_per_capita": 1061.89,
+    "yearly_amounts": {
+      "2026": 2500000.0,
+      "2027": 3000000.0,
+      "2028": 3000000.0,
+      "2029": 3000000.0,
+      "2030": 2000000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 196.65,
+      "2027": 235.97,
+      "2028": 235.97,
+      "2029": 235.97,
+      "2030": 157.32,
+      "2031": 0
     }
   },
   {
@@ -48,23 +82,329 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 6003800.0,
-    "amount_per_capita": 473.02,
+    "total_amount": 11186590.0,
+    "amount_per_capita": 879.92,
     "yearly_amounts": {
-      "2026": 1659395.0,
-      "2027": 1763555.0,
-      "2028": 668712.0,
-      "2029": 638876.0,
-      "2030": 649047.0,
-      "2031": 624215.0
+      "2026": 6857550.0,
+      "2027": 1760600.0,
+      "2028": 665702.0,
+      "2029": 635806.0,
+      "2030": 645912.0,
+      "2031": 621020.0
     },
     "yearly_per_capita": {
-      "2026": 130.74,
-      "2027": 138.94,
-      "2028": 52.69,
-      "2029": 50.33,
-      "2030": 51.14,
-      "2031": 49.18
+      "2026": 539.4,
+      "2027": 138.49,
+      "2028": 52.36,
+      "2029": 50.01,
+      "2030": 50.81,
+      "2031": 48.85
+    }
+  },
+  {
+    "municipality": "Veurne",
+    "nis_code": "38025",
+    "bd_code": "BD-2",
+    "bd_short": "Een nieuwe visie op omgeving",
+    "bd_long": "Kwalitatieve omschrijving: In Veurne ligt alles op een boogscheut. Wonen, werken, winkelen, leren, ontspannen — het kan allemaal binnen 15 minuten fietsen of stappen. Dat is onze sterkte. We waken over het unieke karakter van onze stad en haar dorpen: charmante kernen, veel open ruimte en een rustige, verzorgde en leefbare omgeving. We bouwen verder op wat werkt en versterken waar nodig. Groene plekken worden gekoesterd. Voetpaden, fietspaden en wandelroutes worden veiliger en vlotter.\nKortom: in Veurne houden we het overzicht en houden we van evenwicht. Tussen stad en dorp. Tussen ontwikkeling en erfgoed. Tussen mens en natuur.",
+    "ap_code": "AP-5",
+    "ap_short": "Veilig en vlot",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-47",
+    "ac_short": "Gemeentewegen structureel goed onderhouden",
+    "ac_long": "Goede wegen houden onze stad in beweging. We zorgen ervoor dat ze veilig, comfortabel en toekomstbestendig blijven. Door tijdig en doordacht onderhoud houden we onze straten en pleinen in goede staat – met aandacht voor fietsers, voetgangers en automobilisten. We werken duurzaam, efficiënt en met oog voor de omgeving, zodat iedereen zich vlot en veilig kan verplaatsen. Zo blijft onze openbare ruimte aangenaam, bereikbaar en klaar voor de toekomst.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 6500000.0,
+    "amount_per_capita": 511.28,
+    "yearly_amounts": {
+      "2026": 1100000.0,
+      "2027": 1100000.0,
+      "2028": 1100000.0,
+      "2029": 1100000.0,
+      "2030": 1100000.0,
+      "2031": 1000000.0
+    },
+    "yearly_per_capita": {
+      "2026": 86.52,
+      "2027": 86.52,
+      "2028": 86.52,
+      "2029": 86.52,
+      "2030": 86.52,
+      "2031": 78.66
+    }
+  },
+  {
+    "municipality": "Veurne",
+    "nis_code": "38025",
+    "bd_code": "BD-4",
+    "bd_short": "Een nieuwe visie op welzijn",
+    "bd_long": "Kwalitatieve omschrijving: Een warme stad herken je aan hoe ze met haar mensen omgaat. In Veurne zorgen we voor wie zorg nodig heeft en versterken we wie vooruit wil. Ons welzijnsbeleid is laagdrempelig, mensgericht en actief op zoek naar wie uit de boot dreigt te vallen. We geloven in de kracht van mensen, maar bieden steun waar het moet. Met sterke sociale partners. Met eenvoudige toegang tot hulp. Met aandacht voor jong én oud, voor fysieke én mentale gezondheid, voor acute noden én duurzame oplossingen.\nWelzijn is geen dienst. Het is een engagement. Om zorgzaam en rechtvaardig te zijn. Om kansen te geven en bruggen te bouwen. Want alleen samen maken we van Veurne een echte thuis.",
+    "ap_code": "AP-8",
+    "ap_short": "Zorg dragen voor alle generaties",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-38",
+    "ac_short": "Nieuwe jeugdsite - thuis voor kinderen, jongeren en verenigingen",
+    "ac_long": "Jongeren zijn niet alleen de toekomst van onze stad, ze maken er ook vandaag al actief deel van uit. We investeren in een nieuwe jeugdsite op maat. Eentje die zowel ruimte biedt, maar ook kansen creëert.\nWe bouwen aan een plek waar jeugdverenigingen zich écht thuis kunnen voelen – met degelijke infrastructuur die hun werking ondersteunt. Het is een open en gedeelde ruimte waar ontmoeting, spel en samenwerking centraal staan.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3500000.0,
+    "amount_per_capita": 275.3,
+    "yearly_amounts": {
+      "2026": 2000000.0,
+      "2027": 1500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 157.32,
+      "2027": 117.99,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Veurne",
+    "nis_code": "38025",
+    "bd_code": "BD-4",
+    "bd_short": "Een nieuwe visie op welzijn",
+    "bd_long": "Kwalitatieve omschrijving: Een warme stad herken je aan hoe ze met haar mensen omgaat. In Veurne zorgen we voor wie zorg nodig heeft en versterken we wie vooruit wil. Ons welzijnsbeleid is laagdrempelig, mensgericht en actief op zoek naar wie uit de boot dreigt te vallen. We geloven in de kracht van mensen, maar bieden steun waar het moet. Met sterke sociale partners. Met eenvoudige toegang tot hulp. Met aandacht voor jong én oud, voor fysieke én mentale gezondheid, voor acute noden én duurzame oplossingen.\nWelzijn is geen dienst. Het is een engagement. Om zorgzaam en rechtvaardig te zijn. Om kansen te geven en bruggen te bouwen. Want alleen samen maken we van Veurne een echte thuis.",
+    "ap_code": "AP-8",
+    "ap_short": "Zorg dragen voor alle generaties",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-43",
+    "ac_short": "Energierenovatie van onze zorginstellingen",
+    "ac_long": "DC De Zonnebloem en wzc Ter Linden zijn warme plekken die een betere isolatie en een fossielvrije verwarmings- en koelsystemen verdienen. Met deze renovatie zorgen we voor een kwaliteitsvolle en klimaatvriendelijke omgeving waarin mensen zich welkom voelen en waar de zorg volledig tot haar recht komt.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 2313755.0,
+    "amount_per_capita": 182.0,
+    "yearly_amounts": {
+      "2026": 1750000.0,
+      "2027": 563755.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 137.65,
+      "2027": 44.34,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Veurne",
+    "nis_code": "38025",
+    "bd_code": "BD-3",
+    "bd_short": "Een nieuwe visie op vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is meer dan ontspanning. Het is de lijm van onze samenleving. In Veurne zorgen we voor een aanbod dat verbindt, verrijkt en verrast. Iedereen moet kunnen deelnemen, van jong tot oud, van nieuwe inwoner tot trouwe Veurnaar.\nWe zetten in op een bruisende stad én bloeiende dorpen. Op sterke samenwerkingen met verenigingen, vrijwilligers en organisatoren. Op evenementen die leven in de brouwerij brengen. Op sport, cultuur, toerisme en ontmoeting en dit telkens met oog voor kwaliteit, inclusie en duurzaamheid.\nVrije tijd in Veurne? Dat is plezier maken, talenten ontdekken en elkaar ontmoeten. Op een plek waar iedereen zich welkom voelt.",
+    "ap_code": "AP-7",
+    "ap_short": "Ontspannen in eigen stad",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-35",
+    "ac_short": "Oprichting Historisch (stads)museum",
+    "ac_long": "Veurne heeft een heel rijk verleden. We creëren een eigentijds stadsmuseum in het historisch hart van Veurne, aangevuld met buitensites en levendige evenementen. Geen stoffige vitrines, wel een verhaal dat leeft en verbindt. Geschiedenis als troef, niet als decor.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 157.32,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1000000.0,
+      "2029": 1000000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 78.66,
+      "2029": 78.66,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Veurne",
+    "nis_code": "38025",
+    "bd_code": "BD-4",
+    "bd_short": "Een nieuwe visie op welzijn",
+    "bd_long": "Kwalitatieve omschrijving: Een warme stad herken je aan hoe ze met haar mensen omgaat. In Veurne zorgen we voor wie zorg nodig heeft en versterken we wie vooruit wil. Ons welzijnsbeleid is laagdrempelig, mensgericht en actief op zoek naar wie uit de boot dreigt te vallen. We geloven in de kracht van mensen, maar bieden steun waar het moet. Met sterke sociale partners. Met eenvoudige toegang tot hulp. Met aandacht voor jong én oud, voor fysieke én mentale gezondheid, voor acute noden én duurzame oplossingen.\nWelzijn is geen dienst. Het is een engagement. Om zorgzaam en rechtvaardig te zijn. Om kansen te geven en bruggen te bouwen. Want alleen samen maken we van Veurne een echte thuis.",
+    "ap_code": "AP-8",
+    "ap_short": "Zorg dragen voor alle generaties",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-41",
+    "ac_short": "Kwalitatieve ouderenzorg met een gezonde financiële exploitatie",
+    "ac_long": "We blijven investeren in warme, toegankelijke ouderenzorg in ons woonzorgcentrum. Tegelijk zorgen we voor een gezonde financiële werking. Want duurzame zorg moet ook financieel houdbaar zijn.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1553000.0,
+    "amount_per_capita": 122.16,
+    "yearly_amounts": {
+      "2026": 403000.0,
+      "2027": 150000.0,
+      "2028": 150000.0,
+      "2029": 550000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 31.7,
+      "2027": 11.8,
+      "2028": 11.8,
+      "2029": 43.26,
+      "2030": 11.8,
+      "2031": 11.8
+    }
+  },
+  {
+    "municipality": "Veurne",
+    "nis_code": "38025",
+    "bd_code": "BD-2",
+    "bd_short": "Een nieuwe visie op omgeving",
+    "bd_long": "Kwalitatieve omschrijving: In Veurne ligt alles op een boogscheut. Wonen, werken, winkelen, leren, ontspannen — het kan allemaal binnen 15 minuten fietsen of stappen. Dat is onze sterkte. We waken over het unieke karakter van onze stad en haar dorpen: charmante kernen, veel open ruimte en een rustige, verzorgde en leefbare omgeving. We bouwen verder op wat werkt en versterken waar nodig. Groene plekken worden gekoesterd. Voetpaden, fietspaden en wandelroutes worden veiliger en vlotter.\nKortom: in Veurne houden we het overzicht en houden we van evenwicht. Tussen stad en dorp. Tussen ontwikkeling en erfgoed. Tussen mens en natuur.",
+    "ap_code": "AP-4",
+    "ap_short": "Groen, duurzaam, proper en net in de stad",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-20",
+    "ac_short": "Vernieuwing stedelijke werkplaatsen - investeren in onze technische dienst",
+    "ac_long": "Onze stedelijke werkplaatsen zijn het kloppend hart van de uitvoerende technische dienst. We investeren in een modern, efficiënt en duurzaam onderkomen voor onze technische diensten.\nZo kunnen onze medewerkers hun werk met de nodige ruimte, middelen en ondersteuning doen – en dat voelt u als inwoner in een vlotte, betrouwbare en zorgzame dienstverlening.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1200000.0,
+    "amount_per_capita": 94.39,
+    "yearly_amounts": {
+      "2026": 1000000.0,
+      "2027": 200000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 78.66,
+      "2027": 15.73,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Veurne",
+    "nis_code": "38025",
+    "bd_code": "BD-2",
+    "bd_short": "Een nieuwe visie op omgeving",
+    "bd_long": "Kwalitatieve omschrijving: In Veurne ligt alles op een boogscheut. Wonen, werken, winkelen, leren, ontspannen — het kan allemaal binnen 15 minuten fietsen of stappen. Dat is onze sterkte. We waken over het unieke karakter van onze stad en haar dorpen: charmante kernen, veel open ruimte en een rustige, verzorgde en leefbare omgeving. We bouwen verder op wat werkt en versterken waar nodig. Groene plekken worden gekoesterd. Voetpaden, fietspaden en wandelroutes worden veiliger en vlotter.\nKortom: in Veurne houden we het overzicht en houden we van evenwicht. Tussen stad en dorp. Tussen ontwikkeling en erfgoed. Tussen mens en natuur.",
+    "ap_code": "AP-4",
+    "ap_short": "Groen, duurzaam, proper en net in de stad",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-15",
+    "ac_short": "Obstakelvrije voetpaden - veilig stappen door heel de stad",
+    "ac_long": "We investeren in veilig en vlot toegankelijke voetpaden, met twee belangrijke doelstellingen:\nEnerzijds wordt een kader vastgesteld over de gewenste inrichting van de voetpaden. Hoe richten we de voetpaden langs invalswegen in, wat met wijkverzamelwegen? Wat met doodlopende straten?\nAnderzijds brengen we de staat van de voetpaden in kaart en richten we veilige en vlot toegankelijke voetpaden in. Tegelijkertijd benutten we werken van nutsmaatschappijen als kans op structurele verbeteringen door te voeren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 78.66,
+    "yearly_amounts": {
+      "2026": 175000.0,
+      "2027": 175000.0,
+      "2028": 175000.0,
+      "2029": 175000.0,
+      "2030": 175000.0,
+      "2031": 125000.0
+    },
+    "yearly_per_capita": {
+      "2026": 13.77,
+      "2027": 13.77,
+      "2028": 13.77,
+      "2029": 13.77,
+      "2030": 13.77,
+      "2031": 9.83
+    }
+  },
+  {
+    "municipality": "Veurne",
+    "nis_code": "38025",
+    "bd_code": "BD-3",
+    "bd_short": "Een nieuwe visie op vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is meer dan ontspanning. Het is de lijm van onze samenleving. In Veurne zorgen we voor een aanbod dat verbindt, verrijkt en verrast. Iedereen moet kunnen deelnemen, van jong tot oud, van nieuwe inwoner tot trouwe Veurnaar.\nWe zetten in op een bruisende stad én bloeiende dorpen. Op sterke samenwerkingen met verenigingen, vrijwilligers en organisatoren. Op evenementen die leven in de brouwerij brengen. Op sport, cultuur, toerisme en ontmoeting en dit telkens met oog voor kwaliteit, inclusie en duurzaamheid.\nVrije tijd in Veurne? Dat is plezier maken, talenten ontdekken en elkaar ontmoeten. Op een plek waar iedereen zich welkom voelt.",
+    "ap_code": "AP-7",
+    "ap_short": "Ontspannen in eigen stad",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-33",
+    "ac_short": "Opwaardering ontmoetingscentra",
+    "ac_long": "Ontmoeting is de zuurstof van een warme gemeenschap. Daarom investeren we in onze ontmoetingsplekken in de dorpen én in de stad. Oude infrastructuren gaan we opfrissen of herbestemmen. We zetten in op comfort, toegankelijkheid en multifunctioneel gebruik.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 78.66,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 78.66,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Veurne",
+    "nis_code": "38025",
+    "bd_code": "BD-2",
+    "bd_short": "Een nieuwe visie op omgeving",
+    "bd_long": "Kwalitatieve omschrijving: In Veurne ligt alles op een boogscheut. Wonen, werken, winkelen, leren, ontspannen — het kan allemaal binnen 15 minuten fietsen of stappen. Dat is onze sterkte. We waken over het unieke karakter van onze stad en haar dorpen: charmante kernen, veel open ruimte en een rustige, verzorgde en leefbare omgeving. We bouwen verder op wat werkt en versterken waar nodig. Groene plekken worden gekoesterd. Voetpaden, fietspaden en wandelroutes worden veiliger en vlotter.\nKortom: in Veurne houden we het overzicht en houden we van evenwicht. Tussen stad en dorp. Tussen ontwikkeling en erfgoed. Tussen mens en natuur.",
+    "ap_code": "AP-5",
+    "ap_short": "Veilig en vlot",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-23",
+    "ac_short": "Nieuwe, slimme fietsverbindingen aanleggen",
+    "ac_long": "We investeren in fietspaden die onze stad verbinden met de regio: naar Koksijde, naar Adinkerke, en met aansluiting op het Franse “voie verte”-netwerk. Ook in en rond onze industrieterreinen zorgen we voor vlotte en veilige fietverbindingen voor een fijn woon-werkverkeer.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 700000.0,
+    "amount_per_capita": 55.06,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 700000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 55.06,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

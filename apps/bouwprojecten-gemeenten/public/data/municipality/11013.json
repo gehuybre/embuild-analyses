@@ -2,40 +2,6 @@
   {
     "municipality": "Edegem",
     "nis_code": "11013",
-    "bd_code": "BDS",
-    "bd_short": "Aangepaste en duurzame infrastructuur",
-    "bd_long": "Aangepaste en duurzame infrastructuur om het woon- en zorgmodel maximaal te faciliteren (P)",
-    "ap_code": "AP26",
-    "ap_short": "Woon- en zorgmodel vormgeven via infrastructuur.",
-    "ap_long": "Het uitgewerkte woon- en zorgmodel vormgeven via een vernieuwde infrastructuur.",
-    "ac_code": "AP26",
-    "ac_short": "Neen",
-    "ac_long": "Het woon- en zorgmodel van de toekomst inbouwen in de (vernieuwde) infrastructuur (nieuwbouw +huidige bouw).",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 22400000.0,
-    "amount_per_capita": 964.27,
-    "yearly_amounts": {
-      "2026": 1775000.0,
-      "2027": 8250000.0,
-      "2028": 8250000.0,
-      "2029": 4125000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 76.41,
-      "2027": 355.14,
-      "2028": 355.14,
-      "2029": 177.57,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Edegem",
-    "nis_code": "11013",
     "bd_code": "B",
     "bd_short": "Investeren in een schoon, veilig en aantrekkelijk publiek domein",
     "bd_long": "Kwalitatieve omschrijving: Ons doel is om een schoon, veilig en aantrekkelijk openbaar domein te creëren waar alle inwoners zich prettig en beschermd voelen. Dit omvat het verminderen van vervuiling, het verbeteren van de infrastructuur en het implementeren van duurzaamheidsdenken bij infrastructuurprojecten.",
@@ -49,7 +15,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 11787563.0,
-    "amount_per_capita": 507.43,
+    "amount_per_capita": 507.38,
     "yearly_amounts": {
       "2026": 3979000.0,
       "2027": 3459000.0,
@@ -59,46 +25,12 @@
       "2031": 320040.0
     },
     "yearly_per_capita": {
-      "2026": 171.29,
-      "2027": 148.9,
-      "2028": 78.35,
+      "2026": 171.27,
+      "2027": 148.89,
+      "2028": 78.34,
       "2029": 77.22,
       "2030": 17.89,
       "2031": 13.78
-    }
-  },
-  {
-    "municipality": "Edegem",
-    "nis_code": "11013",
-    "bd_code": "C",
-    "bd_short": "Veilige, functionele en aantrekkelijke gebouwen duurzaam beheren en onderhouden",
-    "bd_long": "Kwalitatieve omschrijving: Ons doel is om het patrimonium van Edegem duurzaam te beheren en te onderhouden, zodat gebouwen en infrastructuur veilig, functioneel en aantrekkelijk blijven voor huidige en toekomstige generaties. Dit omvat het implementeren van milieuvriendelijke praktijken, het waarborgen van regelmatige onderhoudsactiviteiten en het bevorderen van energie-efficiëntie, maar ook de optimalisatie en concentratie van het patrimonium met het oog op efficiënt en gedeeld ruimtegebruik.",
-    "ap_code": "CB",
-    "ap_short": "Fort 5",
-    "ap_long": "Binnen de grenzen van de regelgeving wordt Fort 5 een aantrekkelijk open gebied waar iedereen welkom is en waar verenigingen hun thuis hebben. We blijven bouwen aan een levendig en duurzaam Fort 5.",
-    "ac_code": "C06",
-    "ac_short": "Renovatie hangars",
-    "ac_long": "We renoveren hangars 44 en 39 en werken H23 verder af op vlak van nutsvoorzieningen.\nHet studiewerk voor de renovatie van hangar 41 wordt opgestart waarbij we bekijken of er binnen de huidige contouren eventueel bijkomende ruimte voor de verenigingen kan voorzien worden.\nWe transformeren Hangar 39 tot een open ruimte met zicht op de fortvijver, waarbij de hangar zelf een opener karakter krijgt en de connectie met het fort versterkt wordt door het openmaken van de tussenmuur tussen de hangars 44 en 39. Deze hangar zal ook plaats bieden aan een vaste zomer- en winterbar.\nNaast renovatie kunnen verenigingen er ook op blijven rekenen dat de noodzakelijke ingrepen en herstellingswerken overal blijven plaatsvinden.\nWe werken verder aan het asbestvrij maken van de daken tegen 2034. Dit is een harde deadline omwille van de financiële penalisatie. Deze willen we vermijden.",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 3157200.0,
-    "amount_per_capita": 135.91,
-    "yearly_amounts": {
-      "2026": 620000.0,
-      "2027": 757000.0,
-      "2028": 1170000.0,
-      "2029": 610200.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 26.69,
-      "2027": 32.59,
-      "2028": 50.37,
-      "2029": 26.27,
-      "2030": 0,
-      "2031": 0
     }
   },
   {
@@ -116,10 +48,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 3150409.0,
-    "amount_per_capita": 135.62,
+    "total_amount": 3280409.0,
+    "amount_per_capita": 141.2,
     "yearly_amounts": {
-      "2026": 1001375.0,
+      "2026": 1131375.0,
       "2027": 730170.0,
       "2028": 344250.0,
       "2029": 351135.0,
@@ -127,12 +59,46 @@
       "2031": 365321.0
     },
     "yearly_per_capita": {
-      "2026": 43.11,
+      "2026": 48.7,
       "2027": 31.43,
       "2028": 14.82,
-      "2029": 15.12,
+      "2029": 15.11,
       "2030": 15.42,
-      "2031": 15.73
+      "2031": 15.72
+    }
+  },
+  {
+    "municipality": "Edegem",
+    "nis_code": "11013",
+    "bd_code": "C",
+    "bd_short": "Veilige, functionele en aantrekkelijke gebouwen duurzaam beheren en onderhouden",
+    "bd_long": "Kwalitatieve omschrijving: Ons doel is om het patrimonium van Edegem duurzaam te beheren en te onderhouden, zodat gebouwen en infrastructuur veilig, functioneel en aantrekkelijk blijven voor huidige en toekomstige generaties. Dit omvat het implementeren van milieuvriendelijke praktijken, het waarborgen van regelmatige onderhoudsactiviteiten en het bevorderen van energie-efficiëntie, maar ook de optimalisatie en concentratie van het patrimonium met het oog op efficiënt en gedeeld ruimtegebruik.",
+    "ap_code": "CB",
+    "ap_short": "Fort 5",
+    "ap_long": "Binnen de grenzen van de regelgeving wordt Fort 5 een aantrekkelijk open gebied waar iedereen welkom is en waar verenigingen hun thuis hebben. We blijven bouwen aan een levendig en duurzaam Fort 5.",
+    "ac_code": "C06",
+    "ac_short": "Renovatie hangars",
+    "ac_long": "We renoveren hangars 44 en 39 en werken H23 verder af op vlak van nutsvoorzieningen.\nHet studiewerk voor de renovatie van hangar 41 wordt opgestart waarbij we bekijken of er binnen de huidige contouren eventueel bijkomende ruimte voor de verenigingen kan voorzien worden.\nWe transformeren Hangar 39 tot een open ruimte met zicht op de fortvijver, waarbij de hangar zelf een opener karakter krijgt en de connectie met het fort versterkt wordt door het openmaken van de tussenmuur tussen de hangars 44 en 39. Deze hangar zal ook plaats bieden aan een vaste zomer- en winterbar.\nNaast renovatie kunnen verenigingen er ook op blijven rekenen dat de noodzakelijke ingrepen en herstellingswerken overal blijven plaatsvinden.\nWe werken verder aan het asbestvrij maken van de daken tegen 2034. Dit is een harde deadline omwille van de financiële penalisatie. Deze willen we vermijden.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 3217200.0,
+    "amount_per_capita": 138.48,
+    "yearly_amounts": {
+      "2026": 680000.0,
+      "2027": 757000.0,
+      "2028": 1170000.0,
+      "2029": 610200.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 29.27,
+      "2027": 32.58,
+      "2028": 50.36,
+      "2029": 26.27,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -151,7 +117,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 2531361.0,
-    "amount_per_capita": 108.97,
+    "amount_per_capita": 108.96,
     "yearly_amounts": {
       "2026": 416078.0,
       "2027": 418358.0,
@@ -178,16 +144,16 @@
     "ap_code": "GBB",
     "ap_short": "Verrichtingen zonder beleidsdoelstelling",
     "ap_long": "Commentaar:",
-    "ac_code": "GBB",
-    "ac_short": "Gelijkblijvend beleid AGB",
+    "ac_code": "GBB-GEM",
+    "ac_short": "Gelijkblijvend beleid gemeente",
     "ac_long": "Commentaar:",
     "categories": [
-      "05-ondernemen-werken"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 2308000.0,
-    "amount_per_capita": 99.35,
+    "total_amount": 2459471.27,
+    "amount_per_capita": 105.86,
     "yearly_amounts": {
-      "2026": 924500.0,
+      "2026": 1075971.27,
       "2027": 267700.0,
       "2028": 554000.0,
       "2029": 194500.0,
@@ -195,7 +161,7 @@
       "2031": 198150.0
     },
     "yearly_per_capita": {
-      "2026": 39.8,
+      "2026": 46.31,
       "2027": 11.52,
       "2028": 23.85,
       "2029": 8.37,
@@ -213,13 +179,13 @@
     "ap_short": "Duurzaamheid",
     "ap_long": "Edegem speelt een voortrekkersrol als pilootgemeente op het vlak van SDG’s (de strategische ontwikkelingsdoelstellingen van de Verenigde Naties) en als ondertekenaar van het Burgemeestersconvenant om de CO2 - uitstoot te verminderen. Als lokaal bestuur geven we zelf het goede voorbeeld en nemen we onze verantwoordelijkheid serieus.",
     "ac_code": "B09",
-    "ac_short": "Verledding openbare verlichting",
+    "ac_short": "verledding openbare verlichting",
     "ac_long": "Eén van onze belangrijkste initiatieven is de volledige verledding van de straatverlichting. Dit betekent dat we alle traditionele straatlampen vervangen door energiezuinige ledverlichting. Ledlampen hebben een veel lagere energiekost, gaan aanzienlijk langer mee en zorgen voor een lagere CO2 -uitstoot. Dit project is niet alleen een investering in duurzaamheid, maar levert ook structurele besparingen op voor onze gemeente. Tegen het jaar 2028 zal 100% van de openbare verlichting in Edegem overgeschakeld zijn naar ledverlichting.",
     "categories": [
       "06-wonen-ruimte"
     ],
     "total_amount": 1475740.0,
-    "amount_per_capita": 63.53,
+    "amount_per_capita": 63.52,
     "yearly_amounts": {
       "2026": 397823.0,
       "2027": 398215.0,
@@ -229,7 +195,7 @@
       "2031": 221296.0
     },
     "yearly_per_capita": {
-      "2026": 17.13,
+      "2026": 17.12,
       "2027": 17.14,
       "2028": 17.02,
       "2029": 1.36,
@@ -286,10 +252,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 1200000.0,
-    "amount_per_capita": 51.66,
+    "total_amount": 1230000.0,
+    "amount_per_capita": 52.94,
     "yearly_amounts": {
-      "2026": 200000.0,
+      "2026": 230000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -297,46 +263,12 @@
       "2031": 500000.0
     },
     "yearly_per_capita": {
-      "2026": 8.61,
+      "2026": 9.9,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 21.52,
       "2031": 21.52
-    }
-  },
-  {
-    "municipality": "Edegem",
-    "nis_code": "11013",
-    "bd_code": "C",
-    "bd_short": "Veilige, functionele en aantrekkelijke gebouwen duurzaam beheren en onderhouden",
-    "bd_long": "Kwalitatieve omschrijving: Ons doel is om het patrimonium van Edegem duurzaam te beheren en te onderhouden, zodat gebouwen en infrastructuur veilig, functioneel en aantrekkelijk blijven voor huidige en toekomstige generaties. Dit omvat het implementeren van milieuvriendelijke praktijken, het waarborgen van regelmatige onderhoudsactiviteiten en het bevorderen van energie-efficiëntie, maar ook de optimalisatie en concentratie van het patrimonium met het oog op efficiënt en gedeeld ruimtegebruik.",
-    "ap_code": "CE",
-    "ap_short": "Moderne sites voor sport en spel",
-    "ap_long": "Met onze moderne sport- en spelsites bieden we faciliteiten die onze inwoners aanmoedigen om actief te blijven, wat bijdraagt aan een betere fysieke en mentale gezondheid.",
-    "ac_code": "C11",
-    "ac_short": "Sportinfrastructuur",
-    "ac_long": "Samen met de huidige huurders van het Vic Coveliersstadion werken we aan de opwaardering van de infrastructuur en de omgevingsaanleg.\nDe sportinfrastructuur in Fort 5 krijgt een upgrade met krachttoestellen, een vernieuwde fit-o-meter en een uitdagend parcours.\nHet skatepark krijgt een plek op Kattenbroek als onderdeel van de vrije tijd- en sportsite.\nOnze eigen sporthal Den Willecom en de cafetaria ondergaat een grondige opknapbeurt en brengen we in regel met de laatste brandweervoorschriften. Ook de conciërgewoning wordt aangepakt.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 1013000.0,
-    "amount_per_capita": 43.61,
-    "yearly_amounts": {
-      "2026": 403000.0,
-      "2027": 350000.0,
-      "2028": 260000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 17.35,
-      "2027": 15.07,
-      "2028": 11.19,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
     }
   },
   {
@@ -355,7 +287,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 947000.0,
-    "amount_per_capita": 40.77,
+    "amount_per_capita": 40.76,
     "yearly_amounts": {
       "2026": 422000.0,
       "2027": 525000.0,
@@ -365,7 +297,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 18.17,
+      "2026": 18.16,
       "2027": 22.6,
       "2028": 0,
       "2029": 0,
@@ -457,7 +389,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 500500.0,
-    "amount_per_capita": 21.55,
+    "amount_per_capita": 21.54,
     "yearly_amounts": {
       "2026": 140000.0,
       "2027": 120000.0,
@@ -515,31 +447,31 @@
     "bd_code": "C",
     "bd_short": "Veilige, functionele en aantrekkelijke gebouwen duurzaam beheren en onderhouden",
     "bd_long": "Kwalitatieve omschrijving: Ons doel is om het patrimonium van Edegem duurzaam te beheren en te onderhouden, zodat gebouwen en infrastructuur veilig, functioneel en aantrekkelijk blijven voor huidige en toekomstige generaties. Dit omvat het implementeren van milieuvriendelijke praktijken, het waarborgen van regelmatige onderhoudsactiviteiten en het bevorderen van energie-efficiëntie, maar ook de optimalisatie en concentratie van het patrimonium met het oog op efficiënt en gedeeld ruimtegebruik.",
-    "ap_code": "CA",
-    "ap_short": "Onderhoud gebouwen",
-    "ap_long": "Onze gebouwen zijn optimaal onderhouden door een recurrente, preventieve en proactieve onderhoudsplanning.",
-    "ac_code": "C04",
-    "ac_short": "Duurzaamheid",
-    "ac_long": "We verduurzamen de gemeentelijke gebouwen met het oog op het verminderen van het energieverbruik.\nVerenigingen die niet in gemeentelijke gebouwen gehuisvest zijn, ondersteunen we (inhoudelijk/financieel) in hun plannen tot verduurzaming.",
+    "ap_code": "CE",
+    "ap_short": "Moderne sites voor sport en spel",
+    "ap_long": "Met onze moderne sport- en spelsites bieden we faciliteiten die onze inwoners aanmoedigen om actief te blijven, wat bijdraagt aan een betere fysieke en mentale gezondheid.",
+    "ac_code": "C11",
+    "ac_short": "Sportinfrastructuur",
+    "ac_long": "Samen met de huidige huurders van het Vic Coveliersstadion werken we aan de opwaardering van de infrastructuur en de omgevingsaanleg.\nDe sportinfrastructuur in Fort 5 krijgt een upgrade met krachttoestellen, een vernieuwde fit-o-meter en een uitdagend parcours.\nHet skatepark krijgt een plek op Kattenbroek als onderdeel van de vrije tijd- en sportsite.\nOnze eigen sporthal Den Willecom en de cafetaria ondergaat een grondige opknapbeurt en brengen we in regel met de laatste brandweervoorschriften. Ook de conciërgewoning wordt aangepakt.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 454250.0,
-    "amount_per_capita": 19.55,
+    "total_amount": 420000.0,
+    "amount_per_capita": 18.08,
     "yearly_amounts": {
-      "2026": 225000.0,
-      "2027": 23750.0,
-      "2028": 111000.0,
-      "2029": 36000.0,
-      "2030": 58500.0,
+      "2026": 0,
+      "2027": 285000.0,
+      "2028": 135000.0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.69,
-      "2027": 1.02,
-      "2028": 4.78,
-      "2029": 1.55,
-      "2030": 2.52,
+      "2026": 0,
+      "2027": 12.27,
+      "2028": 5.81,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -571,7 +503,7 @@
     "yearly_per_capita": {
       "2026": 0.86,
       "2027": 0,
-      "2028": 9.69,
+      "2028": 9.68,
       "2029": 5.81,
       "2030": 0.29,
       "2031": 0.29
@@ -580,35 +512,35 @@
   {
     "municipality": "Edegem",
     "nis_code": "11013",
-    "bd_code": "L",
-    "bd_short": "Het AGB zet in op kwaliteitsvolle en duurzame administratieve-, sport- en vrijetijdsinfrastructuur",
-    "bd_long": "Commentaar:",
-    "ap_code": "LA",
-    "ap_short": "Het AGB hanteert een geïntegreerde aanpak voor het beheer, onderhoud en gebruik van de infrastructuu",
-    "ap_long": "Commentaar:",
-    "ac_code": "L03",
-    "ac_short": "Het AGB beheert en exploiteert een diensten- en bedrijvencentrum",
-    "ac_long": "Het gemeentehuis wordt uitgebaat als een diensten- en bedrijvencentrum door verhuur van de ruimtes, met optimaal facilitair beheer en met gedeelde voorzieningen.",
+    "bd_code": "C",
+    "bd_short": "Veilige, functionele en aantrekkelijke gebouwen duurzaam beheren en onderhouden",
+    "bd_long": "Kwalitatieve omschrijving: Ons doel is om het patrimonium van Edegem duurzaam te beheren en te onderhouden, zodat gebouwen en infrastructuur veilig, functioneel en aantrekkelijk blijven voor huidige en toekomstige generaties. Dit omvat het implementeren van milieuvriendelijke praktijken, het waarborgen van regelmatige onderhoudsactiviteiten en het bevorderen van energie-efficiëntie, maar ook de optimalisatie en concentratie van het patrimonium met het oog op efficiënt en gedeeld ruimtegebruik.",
+    "ap_code": "CA",
+    "ap_short": "Onderhoud gebouwen",
+    "ap_long": "Onze gebouwen zijn optimaal onderhouden door een recurrente, preventieve en proactieve onderhoudsplanning.",
+    "ac_code": "C04",
+    "ac_short": "Duurzaamheid",
+    "ac_long": "We verduurzamen de gemeentelijke gebouwen met het oog op het verminderen van het energieverbruik.\nVerenigingen die niet in gemeentelijke gebouwen gehuisvest zijn, ondersteunen we (inhoudelijk/financieel) in hun plannen tot verduurzaming.",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 360000.0,
-    "amount_per_capita": 15.5,
+    "total_amount": 379250.0,
+    "amount_per_capita": 16.32,
     "yearly_amounts": {
-      "2026": 22000.0,
-      "2027": 92000.0,
-      "2028": 22000.0,
-      "2029": 192000.0,
-      "2030": 22000.0,
-      "2031": 10000.0
+      "2026": 225000.0,
+      "2027": 23750.0,
+      "2028": 36000.0,
+      "2029": 36000.0,
+      "2030": 58500.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.95,
-      "2027": 3.96,
-      "2028": 0.95,
-      "2029": 8.27,
-      "2030": 0.95,
-      "2031": 0.43
+      "2026": 9.68,
+      "2027": 1.02,
+      "2028": 1.55,
+      "2029": 1.55,
+      "2030": 2.52,
+      "2031": 0
     }
   },
   {
@@ -626,10 +558,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 325550.0,
-    "amount_per_capita": 14.01,
+    "total_amount": 339550.0,
+    "amount_per_capita": 14.62,
     "yearly_amounts": {
-      "2026": 67700.0,
+      "2026": 81700.0,
       "2027": 115500.0,
       "2028": 50400.0,
       "2029": 1950.0,
@@ -637,7 +569,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.91,
+      "2026": 3.52,
       "2027": 4.97,
       "2028": 2.17,
       "2029": 0.08,
@@ -660,10 +592,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 299903.0,
-    "amount_per_capita": 12.91,
+    "total_amount": 319903.0,
+    "amount_per_capita": 13.77,
     "yearly_amounts": {
-      "2026": 89303.0,
+      "2026": 109303.0,
       "2027": 83700.0,
       "2028": 34400.0,
       "2029": 32000.0,
@@ -671,12 +603,46 @@
       "2031": 28000.0
     },
     "yearly_per_capita": {
-      "2026": 3.84,
+      "2026": 4.7,
       "2027": 3.6,
       "2028": 1.48,
       "2029": 1.38,
       "2030": 1.4,
       "2031": 1.21
+    }
+  },
+  {
+    "municipality": "Edegem",
+    "nis_code": "11013",
+    "bd_code": "D",
+    "bd_short": "Slimme en innovatieve gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Ons doel is om een slimme en innovatieve gemeente te zijn. We implementeren nieuwe technologieën om de werking en de dienstverlening efficiënter te organiseren.",
+    "ap_code": "DA",
+    "ap_short": "Digitale transformatie",
+    "ap_long": "We integreren technologieën in alle aspecten van onze bedrijfsvoering. Het helpt ons om flexibel en adaptief te blijven.",
+    "ac_code": "D01",
+    "ac_short": "Bevorderen digitale cultuur",
+    "ac_long": "We proberen elke medewerker de enorme mogelijkheden van het M365-platform te leren kennen en op de meest efficiënte en uniforme wijze te gebruiken over de ganse organisatie.\nEr zijn veel tools beschikbaar die we verder willen uitwerken om transparantie en efficiëntiewinsten te behalen: sharepoint, lists, power automate, power apps, power BI,…",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 269689.56,
+    "amount_per_capita": 11.61,
+    "yearly_amounts": {
+      "2026": 129439.56,
+      "2027": 99750.0,
+      "2028": 13500.0,
+      "2029": 13500.0,
+      "2030": 13500.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.57,
+      "2027": 4.29,
+      "2028": 0.58,
+      "2029": 0.58,
+      "2030": 0.58,
+      "2031": 0
     }
   },
   {
@@ -750,40 +716,6 @@
   {
     "municipality": "Edegem",
     "nis_code": "11013",
-    "bd_code": "D",
-    "bd_short": "Slimme en innovatieve gemeente",
-    "bd_long": "Kwalitatieve omschrijving: Ons doel is om een slimme en innovatieve gemeente te zijn. We implementeren nieuwe technologieën om de werking en de dienstverlening efficiënter te organiseren.",
-    "ap_code": "DA",
-    "ap_short": "Digitale transformatie",
-    "ap_long": "We integreren technologieën in alle aspecten van onze bedrijfsvoering. Het helpt ons om flexibel en adaptief te blijven.",
-    "ac_code": "D01",
-    "ac_short": "Bevorderen digitale cultuur",
-    "ac_long": "We proberen elke medewerker de enorme mogelijkheden van het M365-platform te leren kennen en op de meest efficiënte en uniforme wijze te gebruiken over de ganse organisatie.\nEr zijn veel tools beschikbaar die we verder willen uitwerken om transparantie en efficiëntiewinsten te behalen: sharepoint, lists, power automate, power apps, power BI,…",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 155250.0,
-    "amount_per_capita": 6.68,
-    "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 99750.0,
-      "2028": 13500.0,
-      "2029": 13500.0,
-      "2030": 13500.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.65,
-      "2027": 4.29,
-      "2028": 0.58,
-      "2029": 0.58,
-      "2030": 0.58,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Edegem",
-    "nis_code": "11013",
     "bd_code": "E",
     "bd_short": "Een warm Edegem met oog voor solidariteit en verantwoordelijkheid",
     "bd_long": "Kwalitatieve omschrijving: Ons doel is een Edegem waar niemand die het echt nodig heeft, in de kou blijft staan. We zijn er voor onze inwoners die het financieel moeilijker hebben, maar we geloven ook in een evenwicht tussen rechten en plichten.",
@@ -796,10 +728,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 97125.0,
-    "amount_per_capita": 4.18,
+    "total_amount": 105125.0,
+    "amount_per_capita": 4.52,
     "yearly_amounts": {
-      "2026": 17500.0,
+      "2026": 25500.0,
       "2027": 16625.0,
       "2028": 15750.0,
       "2029": 15750.0,
@@ -807,46 +739,12 @@
       "2031": 15750.0
     },
     "yearly_per_capita": {
-      "2026": 0.75,
+      "2026": 1.1,
       "2027": 0.72,
       "2028": 0.68,
       "2029": 0.68,
       "2030": 0.68,
       "2031": 0.68
-    }
-  },
-  {
-    "municipality": "Edegem",
-    "nis_code": "11013",
-    "bd_code": "L",
-    "bd_short": "Het AGB zet in op kwaliteitsvolle en duurzame administratieve-, sport- en vrijetijdsinfrastructuur",
-    "bd_long": "Commentaar:",
-    "ap_code": "LA",
-    "ap_short": "Het AGB hanteert een geïntegreerde aanpak voor het beheer, onderhoud en gebruik van de infrastructuu",
-    "ap_long": "Commentaar:",
-    "ac_code": "L01",
-    "ac_short": "Het AGB beheert en exploiteert het vrijetijdscentrum Kruispunt",
-    "ac_long": "Het vrijetijdscentrum Kruispunt blijft een unieke ontmoetingsplek met de bibliotheek als kloppend hart.\nWe zien onze bibliotheek als een partner voor maatschappelijke uitdagingen (bv. digitale inclusie en bevorderen van het Nederlands) en de vrije tijdsdienst neemt hierin een leidende rol. Om de maatschappelijke uitdagingen aan te gaan, kunnen ze partnerschappen opzetten met bv. Huis van het Kind & Jongere, jeugdraad, seniorenraad,….\nWe stimuleren scholen om deze bib vaker te bezoeken, niet alleen om te lezen, maar ook om te studeren, aan projecten te werken of zelfs gezelschapsspellen te spelen. Kruispunt organiseert verbindende activiteiten zoals vertelavonden, poëziemiddagen en kindernamiddagen.\nOm het leesplezier opnieuw te bevorderen, plannen we een jaarlijks boekenfestival dat inwoners uitnodigt om sneller een goed boek ter hand te nemen.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 96306.0,
-    "amount_per_capita": 4.15,
-    "yearly_amounts": {
-      "2026": 61653.0,
-      "2027": 1653.0,
-      "2028": 9000.0,
-      "2029": 20000.0,
-      "2030": 4000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 2.65,
-      "2027": 0.07,
-      "2028": 0.39,
-      "2029": 0.86,
-      "2030": 0.17,
-      "2031": 0
     }
   },
   {
@@ -920,40 +818,6 @@
   {
     "municipality": "Edegem",
     "nis_code": "11013",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "",
-    "ap_short": "",
-    "ap_long": "",
-    "ac_code": "",
-    "ac_short": "overigBeleid zonder actie",
-    "ac_long": "overigBeleid zonder actie",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 59500.0,
-    "amount_per_capita": 2.56,
-    "yearly_amounts": {
-      "2026": 29750.0,
-      "2027": 29750.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.28,
-      "2027": 1.28,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Edegem",
-    "nis_code": "11013",
     "bd_code": "B",
     "bd_short": "Investeren in een schoon, veilig en aantrekkelijk publiek domein",
     "bd_long": "Kwalitatieve omschrijving: Ons doel is om een schoon, veilig en aantrekkelijk openbaar domein te creëren waar alle inwoners zich prettig en beschermd voelen. Dit omvat het verminderen van vervuiling, het verbeteren van de infrastructuur en het implementeren van duurzaamheidsdenken bij infrastructuurprojecten.",
@@ -983,6 +847,74 @@
       "2029": 0.39,
       "2030": 0.39,
       "2031": 0.39
+    }
+  },
+  {
+    "municipality": "Edegem",
+    "nis_code": "11013",
+    "bd_code": "B",
+    "bd_short": "Investeren in een schoon, veilig en aantrekkelijk publiek domein",
+    "bd_long": "Kwalitatieve omschrijving: Ons doel is om een schoon, veilig en aantrekkelijk openbaar domein te creëren waar alle inwoners zich prettig en beschermd voelen. Dit omvat het verminderen van vervuiling, het verbeteren van de infrastructuur en het implementeren van duurzaamheidsdenken bij infrastructuurprojecten.",
+    "ap_code": "BA",
+    "ap_short": "Ontwerp, aanleg en onderhoud openbaar domein",
+    "ap_long": "Het verbeteren van de infrastructuur is een eerste voorwaarde voor een aantrekkelijk en veilig openbaar domein.",
+    "ac_code": "B03",
+    "ac_short": "Onderhoud van straatgroen",
+    "ac_long": "We breiden de bloemenperken en plantvakken verder uit. Door sensibilisatie en handhaving van foutparkeerders voorkomen we beschadiging ervan. We intensiveren de verwijdering van onkruid. We evalueren de herinvoering van bladkorven\nHet onderhoud van het straatgroen zal vergemakkelijken door de implementatie van de digitale groeninventaris (goedgekeurd in gemeenteraad, uitrol nog in 2025).\nHet hele jaar door verfraaien we ons straatbeeld en we zorgen voor creatieve elementen. Via Buurtbloeiers bieden we plantgoed aan burgers om zelf bij te dragen aan een groener Edegem\nWe doen verder aan verantwoorde rattenbestrijding met de slimme rattenvallen. \nWe volgen de samenwerking met externe partners op.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.86,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.86,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Edegem",
+    "nis_code": "11013",
+    "bd_code": "F",
+    "bd_short": "Bruisende Edegemse wijken met vele grote en kleine evenementen",
+    "bd_long": "Kwalitatieve omschrijving: Ons doel is Edegem als levendige hotspot, waar altijd iets te beleven valt, met bruisende wijken waarin vele grote en kleine evenementen van diverse aard doorgaan, met gezelligheid en talrijke kansen tot ontmoeting.",
+    "ap_code": "FA",
+    "ap_short": "Bruisende evenementen",
+    "ap_long": "Warme wijken met bruisende evenementen. Een warme wijk begint bij verbondenheid. Daarom blijven we inzetten op wijkwerking en buurtfeesten. Kleinschalige activiteiten en gezellige buurtfestivals verdienen alle steun.",
+    "ac_code": "F02",
+    "ac_short": "Evenementen",
+    "ac_long": "Een aantal grote evenementen blijven als vaste waarde bestaan: jaarmarkt en kermissen (met prikkelarme dag), Edegem Zomert, Toost, dag van de jeugdbeweging met ontbijt, Buizegem Swingt,…\nIn samenwerking met externe partners willen we inzetten op een nieuw aantrekkelijk winterevent.\nDaarnaast stimuleren we de kleinschalige evenementen die de leefbaarheid van de wijken respecteren. We denken aan kunstmarkten, rommelmarkten, vertelavonden, intieme akoestische optredens. We ondersteunen buurtinitiatieven, die extra gezelligheid en samenhang in de buurt creëren, met een opstartsubsidie. Als locaties denken we aan momenteel leegstaande sites zoals Berkenhof en kasteel Hof Ter Linden. Ook de raadzaal van het Oude Gemeentehuis kan gebruikt worden voor huiskamerconcertjes en/of kleinschalige vertelavonden.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 9375.05,
+    "amount_per_capita": 0.4,
+    "yearly_amounts": {
+      "2026": 9375.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.4,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

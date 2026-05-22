@@ -2,35 +2,103 @@
   {
     "municipality": "Herk-de-Stad",
     "nis_code": "71024",
-    "bd_code": "BD",
+    "bd_code": "BD-2",
+    "bd_short": "Herk-de-Stad, leefbare stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.8.",
+    "ap_short": "Een goed onderhouden netwerk voor veilige en vlotte verplaatsingen.",
+    "ap_long": "Een goed onderhouden netwerk stelt elke Herkenaar in staat om zich op een veilige en vlotte manier te verplaatsen.",
+    "ac_code": "A-2.8.3.",
+    "ac_short": "We blijven, in nauwe afstemming met diverse partners, investeren in ons wegen- en rioleringsnet.",
+    "ac_long": "In nauwe afstemming met diverse partners blijven we investeren in ons wegen- en rioleringsnet. Deze investeringen richten zich op het verbeteren van de infrastructuur, het verhogen van de verkeersveiligheid, het waarborgen van een efficiënt waterbeheer (o.a. meer gebruik waterdoorlatende bestrating, aanleg wadi’s en stuwen) en de toenemende focus op groen (o.a. bijkomende bomen). We werken hiervoor samen met Fluvius.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 11115964.49,
+    "amount_per_capita": 878.89,
+    "yearly_amounts": {
+      "2026": 4239964.49,
+      "2027": 3185000.0,
+      "2028": 1178000.0,
+      "2029": 1183000.0,
+      "2030": 690000.0,
+      "2031": 640000.0
+    },
+    "yearly_per_capita": {
+      "2026": 335.24,
+      "2027": 251.83,
+      "2028": 93.14,
+      "2029": 93.54,
+      "2030": 54.56,
+      "2031": 50.6
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-5",
     "bd_short": "We zijn een klantgerichte en efficiënte organisatie",
     "bd_long": "Commentaar:",
-    "ap_code": "AP",
-    "ap_short": "Efficiënte en beheerste organisatie",
-    "ap_long": "Efficiënte en beheerste organisatie. Organisatiebeheersing is voor ons een strategisch instrument om onze werking transparanter, doeltreffender en risicobewust te organiseren. Gezamenlijk en met externe begeleiding waar nodig bouwen we stap voor stap aan een proportioneel en gedragen intern controlesysteem. Dit zorgt voor \nbeter bestuur, een optimalere dienstverlening en het versterkt het vertrouwen in het lokaal bestuur.",
-    "ac_code": "A",
-    "ac_short": "We bouwen continu aan een veiligere, efficiëntere en wendbaardere ICT-omgeving.",
-    "ac_long": "We bouwen continu aan een veiligere, efficiëntere en wendbaardere ICT-omgeving door professionelere beheertools in te voeren, duidelijke processen uit te tekenen en door een versterkte veiligheidsaanpak. Tegelijk zorgen we voor structurele kennisopbouw en samenwerking, intern en met andere besturen. We doen dit gefaseerd en “thematisch”: \n- 2026-2027 - professionalisering van ICT-beheer; \n- 2026-2028 - beveiliging en continuïteit versterken; \n- 2026-2029 - transparant ICT-beheer en toegangscontrole;\n- 2026-2030 - strategische sturing en lange termijnvisie.",
+    "ap_code": "AP-5.5.",
+    "ap_short": "Afslanken van het eigen patrimonium met respect voor de publieke dienstverlening.",
+    "ap_long": "Met respect voor de publieke dienstverlening slanken we het eigen patrimonium verder af. Het eigen patrimonium is een belangrijk “middel” voor de realisatie van het beleid. Het huidige uitgebreide patrimonium is deels verouderd.  Een afslanking is noodzakelijk om vervolgens voor de resterende gebouwen over te schakelen van een ad hoc herstellingsbeleid naar een structureel preventief onderhoudsbeleid.",
+    "ac_code": "A-5.5.1.",
+    "ac_short": "We huisvesten stad en OCMW samen in een eigentijds administratief centrum.",
+    "ac_long": "Stad en OCMW worden samen gehuisvest in een eigentijds administratief centrum.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 24115421.0,
-    "amount_per_capita": 1907.62,
+    "total_amount": 2502109.25,
+    "amount_per_capita": 197.83,
     "yearly_amounts": {
-      "2026": 11669421.0,
-      "2027": 6626000.0,
-      "2028": 2107000.0,
-      "2029": 1716000.0,
-      "2030": 1122000.0,
-      "2031": 875000.0
+      "2026": 2502109.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 923.09,
-      "2027": 524.14,
-      "2028": 166.67,
-      "2029": 135.74,
-      "2030": 88.75,
-      "2031": 69.22
+      "2026": 197.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-4",
+    "bd_short": "Herk-de-Stad, bruisende stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4.2.",
+    "ap_short": "Ontmoeting en ontwikkeling staan centraal in ons cultuur- en jeugdbeleid.",
+    "ap_long": "Ontmoeting en ontwikkeling zijn onze twee belangrijkste kernwaarden voor  ons cultuur- en jeugdbeleid.",
+    "ac_code": "A-4.2.14.",
+    "ac_short": "We herbestemmen de kerk van Donk als gemeenschapsvoorziening.",
+    "ac_long": "De kerk van Donk wordt herbestemd tot een gemeenschapsvoorziening.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2486460.09,
+    "amount_per_capita": 196.59,
+    "yearly_amounts": {
+      "2026": 1891460.09,
+      "2027": 595000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 149.55,
+      "2027": 47.04,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -48,23 +116,975 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1921891.0,
-    "amount_per_capita": 152.03,
+    "total_amount": 2143467.8,
+    "amount_per_capita": 169.48,
     "yearly_amounts": {
-      "2026": 503247.0,
-      "2027": 403088.0,
+      "2026": 731523.8,
+      "2027": 396388.0,
       "2028": 380164.0,
       "2029": 169102.0,
       "2030": 168799.0,
       "2031": 297491.0
     },
     "yearly_per_capita": {
-      "2026": 39.81,
-      "2027": 31.89,
-      "2028": 30.07,
-      "2029": 13.38,
+      "2026": 57.84,
+      "2027": 31.34,
+      "2028": 30.06,
+      "2029": 13.37,
       "2030": 13.35,
-      "2031": 23.53
+      "2031": 23.52
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-4",
+    "bd_short": "Herk-de-Stad, bruisende stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4.2.",
+    "ap_short": "Ontmoeting en ontwikkeling staan centraal in ons cultuur- en jeugdbeleid.",
+    "ap_long": "Ontmoeting en ontwikkeling zijn onze twee belangrijkste kernwaarden voor  ons cultuur- en jeugdbeleid.",
+    "ac_code": "A-4.2.15.",
+    "ac_short": "We realiseren een nieuwe gemeenschapsvoorziening in Schakkebroek.",
+    "ac_long": "We voorzien een investering in de realisatie van een nieuwe gemeenschapsvoorziening ter vervanging van de Amandinazaal in Schakkebroek.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2130288.0,
+    "amount_per_capita": 168.43,
+    "yearly_amounts": {
+      "2026": 1130288.0,
+      "2027": 1000000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 89.37,
+      "2027": 79.07,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-2",
+    "bd_short": "Herk-de-Stad, leefbare stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.8.",
+    "ap_short": "Een goed onderhouden netwerk voor veilige en vlotte verplaatsingen.",
+    "ap_long": "Een goed onderhouden netwerk stelt elke Herkenaar in staat om zich op een veilige en vlotte manier te verplaatsen.",
+    "ac_code": "A-2.8.2.",
+    "ac_short": "We investeren jaarlijks in de verkeersveiligheid en de voorzieningen voor de  actieve weggebruiker.",
+    "ac_long": "We investeren jaarlijks in de verkeersveiligheid en de voorzieningen voor de actieve weggebruiker met focus op fietsinfrastructuur, signalisatie en (algemene) verkeersinfrastructuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 970348.28,
+    "amount_per_capita": 76.72,
+    "yearly_amounts": {
+      "2026": 370348.28,
+      "2027": 200000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 29.28,
+      "2027": 15.81,
+      "2028": 7.91,
+      "2029": 7.91,
+      "2030": 7.91,
+      "2031": 7.91
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.1.",
+    "ap_short": "De gemeentelijke gebouwen worden klimaatneutraal tegen 2050",
+    "ap_long": "De gemeentelijke gebouwen worden klimaatneutraal tegen 2050",
+    "ac_code": "A-3.1.5.",
+    "ac_short": "We zetten geleidelijk aan in op de elektrificatie van ons wagenpark.",
+    "ac_long": "De Technische Dienst zet geleidelijk aan in op de elektrificatie van het wagenpark.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 881000.0,
+    "amount_per_capita": 69.66,
+    "yearly_amounts": {
+      "2026": 478000.0,
+      "2027": 154000.0,
+      "2028": 97000.0,
+      "2029": 0,
+      "2030": 49000.0,
+      "2031": 103000.0
+    },
+    "yearly_per_capita": {
+      "2026": 37.79,
+      "2027": 12.18,
+      "2028": 7.67,
+      "2029": 0,
+      "2030": 3.87,
+      "2031": 8.14
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-4",
+    "bd_short": "Herk-de-Stad, bruisende stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4.5.",
+    "ap_short": "Via een actief sport-voor-allen-beleid maken we van Herk-de-Stad een fitte  stad.",
+    "ap_long": "Via een actief sport-voor-allen-beleid maken we van Herk-de-Stad een fitte stad.",
+    "ac_code": "A-4.5.1.",
+    "ac_short": "We investeren in de aanleg van indoor padelterreinen en de bouw van een geluidsmuur.",
+    "ac_long": "We investeren in de aanleg van indoor padelterreinen in een nieuwe hal die tegen de bestaande tennishal van Sporta TC wordt aangebouwd en in de bouw van een geluidsmuur.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 880000.0,
+    "amount_per_capita": 69.58,
+    "yearly_amounts": {
+      "2026": 880000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 69.58,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-5",
+    "bd_short": "We zijn een klantgerichte en efficiënte organisatie",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-5.5.",
+    "ap_short": "Afslanken van het eigen patrimonium met respect voor de publieke dienstverlening.",
+    "ap_long": "Met respect voor de publieke dienstverlening slanken we het eigen patrimonium verder af. Het eigen patrimonium is een belangrijk “middel” voor de realisatie van het beleid. Het huidige uitgebreide patrimonium is deels verouderd.  Een afslanking is noodzakelijk om vervolgens voor de resterende gebouwen over te schakelen van een ad hoc herstellingsbeleid naar een structureel preventief onderhoudsbeleid.",
+    "ac_code": "A-5.5.2.",
+    "ac_short": "We huisvesten de BKO's en de bedieningsposten van de bibliotheek maximaal op schoollocaties.",
+    "ac_long": "De buitenschoolse kinderopvang (BKO) en de bedieningsposten van de bibliotheek horen thuis op de schoollocaties.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 750000.0,
+    "amount_per_capita": 59.3,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 250000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 39.53,
+      "2027": 19.77,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-5",
+    "bd_short": "We zijn een klantgerichte en efficiënte organisatie",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-5.6.",
+    "ap_short": "Goed onderhouden publieke gebouwen.",
+    "ap_long": "We streven naar goed onderhouden publieke gebouwen.",
+    "ac_code": "A-5.6.2.",
+    "ac_short": "We blijven investeren om onze gebouwen in een goede staat te houden of te krijgen.",
+    "ac_long": "We blijven investeren om onze gebouwen in een goede staat te houden of te krijgen. Op regelmatige basis zijn hiervoor (kleinere) investeringsdossiers noodzakelijk.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 735786.78,
+    "amount_per_capita": 58.18,
+    "yearly_amounts": {
+      "2026": 310786.78,
+      "2027": 125000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 24.57,
+      "2027": 9.88,
+      "2028": 7.91,
+      "2029": 7.91,
+      "2030": 7.91,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.2.",
+    "ap_short": "Elke Herkenaar heeft recht op kwalitatief groen in zijn buurt.",
+    "ap_long": "Elke Herkenaar heeft recht op kwalitatief groen in zijn buurt.",
+    "ac_code": "A-3.2.8.",
+    "ac_short": "We creëren een nieuwe stadsplaza tussen Markt en Guldensporenlaan.",
+    "ac_long": "Via een nieuwe stadsplaza tussen Markt en Guldensporenlaan creëren we niet enkel een vlotte doorgang, maar ook een nieuwe aangename ontmoetingsplek met voldoende groen en zitgelegenheden.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 47.44,
+    "yearly_amounts": {
+      "2026": 600000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 47.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-5",
+    "bd_short": "We zijn een klantgerichte en efficiënte organisatie",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-5.5.",
+    "ap_short": "Afslanken van het eigen patrimonium met respect voor de publieke dienstverlening.",
+    "ap_long": "Met respect voor de publieke dienstverlening slanken we het eigen patrimonium verder af. Het eigen patrimonium is een belangrijk “middel” voor de realisatie van het beleid. Het huidige uitgebreide patrimonium is deels verouderd.  Een afslanking is noodzakelijk om vervolgens voor de resterende gebouwen over te schakelen van een ad hoc herstellingsbeleid naar een structureel preventief onderhoudsbeleid.",
+    "ac_code": "A-5.5.4.",
+    "ac_short": "We herhuisvesten De Cirkel binnen het bestaande gemeentelijke patrimonium.",
+    "ac_long": "We herhuisvesten de centrale locatie van dienstencentrum De Cirkel (in een gehuurd pand) binnen het bestaande gemeentelijke patrimonium.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 47.44,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 300000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 23.72,
+      "2027": 23.72,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-2",
+    "bd_short": "Herk-de-Stad, leefbare stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.8.",
+    "ap_short": "Een goed onderhouden netwerk voor veilige en vlotte verplaatsingen.",
+    "ap_long": "Een goed onderhouden netwerk stelt elke Herkenaar in staat om zich op een veilige en vlotte manier te verplaatsen.",
+    "ac_code": "A-2.8.6.",
+    "ac_short": "We zoeken een oplossing voor de parkeerdruk in het centrum van Schulen.",
+    "ac_long": "Aangezien de parkeerdruk op het kerkplein van Schulen en de onmiddellijke omgeving hoog ligt, waarbij de handelaars, horeca-uitbaters en een aantal bewoners aangeven hiervan schade of hinder te \nondervinden, wordt gezocht naar een oplossing voor deze parkeerdruk.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 31.63,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 300000.0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 23.72,
+      "2028": 7.91,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.1.",
+    "ap_short": "De gemeentelijke gebouwen worden klimaatneutraal tegen 2050",
+    "ap_long": "De gemeentelijke gebouwen worden klimaatneutraal tegen 2050",
+    "ac_code": "A-3.1.3.",
+    "ac_short": "We zetten verder in op de verledding van de eigen gemeentelijke gebouwen.",
+    "ac_long": "We zetten verder in op de verledding van de eigen gemeentelijke gebouwen. Het grootste verbruik situeert zich in De Markthallen, sportcentrum Herkules en sporthal Schulen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 399000.0,
+    "amount_per_capita": 31.55,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 0,
+      "2028": 49000.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.77,
+      "2027": 0,
+      "2028": 3.87,
+      "2029": 7.91,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.2.",
+    "ap_short": "Elke Herkenaar heeft recht op kwalitatief groen in zijn buurt.",
+    "ap_long": "Elke Herkenaar heeft recht op kwalitatief groen in zijn buurt.",
+    "ac_code": "A-3.2.7.",
+    "ac_short": "We ontwikkelen een toekomstvisie voor het park Olmenhof-Harlaz.",
+    "ac_long": "Ontwikkeling toekomstvisie park Olmenhof-Harlaz rekening houdend met de verhuis van het stadhuis. Hierin zit zowel een visie op het totale gebruik en beheer van het park als van de huidige specifieke onderdelen (minigolf, vijver, dierenpark, speeltuin…).",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 369023.13,
+    "amount_per_capita": 29.18,
+    "yearly_amounts": {
+      "2026": 369023.13,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 29.18,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.3.",
+    "ap_short": "Slim en doordacht omgaan met water.",
+    "ap_long": "We gaan slim en doordacht om met water.",
+    "ac_code": "A-3.3.1.",
+    "ac_short": "We zetten in op de ontharding van het centrum (markt en kerkplein).",
+    "ac_long": "We zetten in op de ontharding van het centrum (markt en kerkplein).",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 23.72,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 11.86,
+      "2029": 11.86,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-5",
+    "bd_short": "We zijn een klantgerichte en efficiënte organisatie",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-5.4.",
+    "ap_short": "Efficiënte en beheerste organisatie",
+    "ap_long": "Efficiënte en beheerste organisatie. Organisatiebeheersing is voor ons een strategisch instrument om onze werking transparanter, doeltreffender en risicobewust te organiseren. Gezamenlijk en met externe begeleiding waar nodig bouwen we stap voor stap aan een proportioneel en gedragen intern controlesysteem. Dit zorgt voor \nbeter bestuur, een optimalere dienstverlening en het versterkt het vertrouwen in het lokaal bestuur.",
+    "ac_code": "A-5.4.6.",
+    "ac_short": "We bouwen continu aan een veiligere, efficiëntere en wendbaardere ICT-omgeving.",
+    "ac_long": "We bouwen continu aan een veiligere, efficiëntere en wendbaardere ICT-omgeving door professionelere beheertools in te voeren, duidelijke processen uit te tekenen en door een versterkte veiligheidsaanpak. Tegelijk zorgen we voor structurele kennisopbouw en samenwerking, intern en met andere besturen. We doen dit gefaseerd en “thematisch”: \n- 2026-2027 - professionalisering van ICT-beheer; \n- 2026-2028 - beveiliging en continuïteit versterken; \n- 2026-2029 - transparant ICT-beheer en toegangscontrole;\n- 2026-2030 - strategische sturing en lange termijnvisie.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 289547.37,
+    "amount_per_capita": 22.89,
+    "yearly_amounts": {
+      "2026": 79547.37,
+      "2027": 82000.0,
+      "2028": 32000.0,
+      "2029": 32000.0,
+      "2030": 32000.0,
+      "2031": 32000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.29,
+      "2027": 6.48,
+      "2028": 2.53,
+      "2029": 2.53,
+      "2030": 2.53,
+      "2031": 2.53
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.2.",
+    "ap_short": "Elke Herkenaar heeft recht op kwalitatief groen in zijn buurt.",
+    "ap_long": "Elke Herkenaar heeft recht op kwalitatief groen in zijn buurt.",
+    "ac_code": "A-3.2.1.",
+    "ac_short": "We blijven onze bestaande begraafplaatsen verder vergroenen.",
+    "ac_long": "We blijven onze bestaande begraafplaatsen verder vergroenen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 279335.98,
+    "amount_per_capita": 22.09,
+    "yearly_amounts": {
+      "2026": 279335.98,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 22.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-2",
+    "bd_short": "Herk-de-Stad, leefbare stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.8.",
+    "ap_short": "Een goed onderhouden netwerk voor veilige en vlotte verplaatsingen.",
+    "ap_long": "Een goed onderhouden netwerk stelt elke Herkenaar in staat om zich op een veilige en vlotte manier te verplaatsen.",
+    "ac_code": "A-2.8.1.",
+    "ac_short": "We voorzien extra parkeercapaciteit aan het station van Schulen.",
+    "ac_long": "We voorzien extra parkeercapaciteit aan het station van Schulen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 220000.0,
+    "amount_per_capita": 17.39,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 200000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.58,
+      "2027": 0,
+      "2028": 15.81,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-4",
+    "bd_short": "Herk-de-Stad, bruisende stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4.5.",
+    "ap_short": "Via een actief sport-voor-allen-beleid maken we van Herk-de-Stad een fitte  stad.",
+    "ap_long": "Via een actief sport-voor-allen-beleid maken we van Herk-de-Stad een fitte stad.",
+    "ac_code": "A-4.5.3.",
+    "ac_short": "We voorzien in het Tamerpark in een multifunctioneel buitensportterrein en een looppiste.",
+    "ac_long": "In afstemming met de projectontwikkelaar van de nieuwe woonwijk Tamerpark voorzien we een multifunctioneel buitensportterrein en een looppiste die vertrekt aan sportcentrum Herkules.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 210000.0,
+    "amount_per_capita": 16.6,
+    "yearly_amounts": {
+      "2026": 210000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.3.",
+    "ap_short": "Slim en doordacht omgaan met water.",
+    "ap_long": "We gaan slim en doordacht om met water.",
+    "ac_code": "A-3.3.2.",
+    "ac_short": "We blijven inzetten op kleine onthardingsprojecten.",
+    "ac_long": "We blijven bij beheers- en herinrichtingswerken  op het openbaar domein inzetten op kleine onthardingsprojecten en implementeren hiermee ontharding als vast uitgangspunt bij het beheer van dat openbaar domein.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 15.81,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 40000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.16,
+      "2027": 3.16,
+      "2028": 3.16,
+      "2029": 3.16,
+      "2030": 3.16,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-4",
+    "bd_short": "Herk-de-Stad, bruisende stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4.2.",
+    "ap_short": "Ontmoeting en ontwikkeling staan centraal in ons cultuur- en jeugdbeleid.",
+    "ap_long": "Ontmoeting en ontwikkeling zijn onze twee belangrijkste kernwaarden voor  ons cultuur- en jeugdbeleid.",
+    "ac_code": "A-4.2.12.",
+    "ac_short": "We faciliteren een nieuwe huisvesting voor Chiro Arika.",
+    "ac_long": "We faciliteren een nieuwe huisvesting voor Chiro Arika. Het reeds genomen engagement wordt verder afgewerkt.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 14.23,
+    "yearly_amounts": {
+      "2026": 180000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.23,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.3.",
+    "ap_short": "Slim en doordacht omgaan met water.",
+    "ap_long": "We gaan slim en doordacht om met water.",
+    "ac_code": "A-3.3.3.",
+    "ac_short": "We zoeken in overleg met VMM en Provincie Limburg naar oplossingen voor overstromingen.",
+    "ac_long": "We zoeken in overleg met VMM en Provincie Limburg naar oplossingen voor overstromingen via hermeandering of het ontbuizen van waterlopen, aanpak van knelpunten in de waterlopen…",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 11.86,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.95,
+      "2027": 3.95,
+      "2028": 3.95,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-4",
+    "bd_short": "Herk-de-Stad, bruisende stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4.2.",
+    "ap_short": "Ontmoeting en ontwikkeling staan centraal in ons cultuur- en jeugdbeleid.",
+    "ap_long": "Ontmoeting en ontwikkeling zijn onze twee belangrijkste kernwaarden voor  ons cultuur- en jeugdbeleid.",
+    "ac_code": "A-4.2.13.",
+    "ac_short": "We voorzien voor het jeugdhuis een geschikte locatie aangepast aan de gemeentelijke jeugdwerking.",
+    "ac_long": "We voorzien voor het jeugdhuis een geschikte locatie aangepast aan de gemeentelijke jeugdwerking.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 9.49,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 60000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.74,
+      "2027": 4.74,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-5",
+    "bd_short": "We zijn een klantgerichte en efficiënte organisatie",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-5.5.",
+    "ap_short": "Afslanken van het eigen patrimonium met respect voor de publieke dienstverlening.",
+    "ap_long": "Met respect voor de publieke dienstverlening slanken we het eigen patrimonium verder af. Het eigen patrimonium is een belangrijk “middel” voor de realisatie van het beleid. Het huidige uitgebreide patrimonium is deels verouderd.  Een afslanking is noodzakelijk om vervolgens voor de resterende gebouwen over te schakelen van een ad hoc herstellingsbeleid naar een structureel preventief onderhoudsbeleid.",
+    "ac_code": "A-5.5.5.",
+    "ac_short": "We dragen de uitbating van de site van het Amandinahuis over aan een externe partner.",
+    "ac_long": "Voor de uitbating van de site van het Amandinahuis gaan we op zoek naar een externe partner.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 109698.35,
+    "amount_per_capita": 8.67,
+    "yearly_amounts": {
+      "2026": 109698.35,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.67,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.1.",
+    "ap_short": "De gemeentelijke gebouwen worden klimaatneutraal tegen 2050",
+    "ap_long": "De gemeentelijke gebouwen worden klimaatneutraal tegen 2050",
+    "ac_code": "A-3.1.2.",
+    "ac_short": "We starten het dossier voor de grondige renovatie van De Markthallen op.",
+    "ac_long": "Met het oog op een klimaatneutraal eigen patrimonium tegen 2050 en een verdere centralisatie van de dienstverlening starten we het dossier voor de grondige renovatie van De Markthallen op. We evalueren de huidige invulling met gemeenschapscentrum, bibliotheek en brasserie en bekijken welke dienstverlening eventueel naar de gerenoveerde site kan verhuizen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.91,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 100000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 7.91,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.2.",
+    "ap_short": "Elke Herkenaar heeft recht op kwalitatief groen in zijn buurt.",
+    "ap_long": "Elke Herkenaar heeft recht op kwalitatief groen in zijn buurt.",
+    "ac_code": "A-3.2.2.",
+    "ac_short": "We voorzien een nieuwe invulling voor de oude voetbalsites van Berbroek en Schakkebroek.",
+    "ac_long": "We voorzien een nieuwe invulling voor de oude voetbalsites van Berbroek en Schakkebroek. We zoeken daarbij in eerste instantie naar een combinatie van sport- en spelinfrastructuur gecombineerd met groen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.91,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 7.91,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-4",
+    "bd_short": "Herk-de-Stad, bruisende stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4.5.",
+    "ap_short": "Via een actief sport-voor-allen-beleid maken we van Herk-de-Stad een fitte  stad.",
+    "ap_long": "Via een actief sport-voor-allen-beleid maken we van Herk-de-Stad een fitte stad.",
+    "ac_code": "A-4.5.2.",
+    "ac_short": "We investeren verder in de uitbouw van de sportsite via kleinschalige sportinfrastructuur.",
+    "ac_long": "We investeren verder in de uitbouw van de sportsite aan de Manestraat door het voorzien van bijkomende kleinschalige sportinfrastructuur en/of -toestellen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.91,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 7.91,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-2",
+    "bd_short": "Herk-de-Stad, leefbare stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.9.",
+    "ap_short": "Een net openbaar domein is onze prioriteit.",
+    "ap_long": "Een net openbaar domein is onze prioriteit.",
+    "ac_code": "A-2.9.1.",
+    "ac_short": "We brengen elk jaar de glasbollen van één deelgemeente ondergronds.",
+    "ac_long": "We brengen elk jaar de glasbollen van één deelgemeente ondergronds.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 55000.0,
+    "amount_per_capita": 4.35,
+    "yearly_amounts": {
+      "2026": 11000.0,
+      "2027": 11000.0,
+      "2028": 11000.0,
+      "2029": 11000.0,
+      "2030": 11000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.87,
+      "2027": 0.87,
+      "2028": 0.87,
+      "2029": 0.87,
+      "2030": 0.87,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-3",
+    "bd_short": "Herk-de-Stad,duurzame stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3.1.",
+    "ap_short": "De gemeentelijke gebouwen worden klimaatneutraal tegen 2050",
+    "ap_long": "De gemeentelijke gebouwen worden klimaatneutraal tegen 2050",
+    "ac_code": "A-3.1.4.",
+    "ac_short": "We zetten verder in op de installatie van zonnepanelen en op energiedelen.",
+    "ac_long": "We zetten verder in op de installatie van zonnepanelen en op energiedelen om de aanwending van de op die manier opgewekte energie te maximaliseren. Op dit moment is er immers een onevenwicht tussen het opwekken en verbruik van energie.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30163.24,
+    "amount_per_capita": 2.38,
+    "yearly_amounts": {
+      "2026": 30163.24,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.38,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-2",
+    "bd_short": "Herk-de-Stad, leefbare stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2.9.",
+    "ap_short": "Een net openbaar domein is onze prioriteit.",
+    "ap_long": "Een net openbaar domein is onze prioriteit.",
+    "ac_code": "A-2.9.2.",
+    "ac_short": "We blijven investeren in handhaving rond zwerfvuil en sluikstort d.mv. cameratoezicht.",
+    "ac_long": "We blijven investeren in handhaving rond zwerfvuil en sluikstort d.mv. cameratoezicht.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 1.19,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.19,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herk-de-Stad",
+    "nis_code": "71024",
+    "bd_code": "BD-4",
+    "bd_short": "Herk-de-Stad, bruisende stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4.2.",
+    "ap_short": "Ontmoeting en ontwikkeling staan centraal in ons cultuur- en jeugdbeleid.",
+    "ap_long": "Ontmoeting en ontwikkeling zijn onze twee belangrijkste kernwaarden voor  ons cultuur- en jeugdbeleid.",
+    "ac_code": "A-4.2.16.",
+    "ac_short": "We bewaren ons kunstpatrimonium als een goede huisvader",
+    "ac_long": "Herk-de-Stad heeft een lange traditie in de aankoop van kunst waardoor ons straatbeeld alsook de lokalen waar onze burgers komen verrijkt worden. Echter ontbreekt het nog aan een geschikte ruimte om kunst die niet uitgestald wordt op de juiste manier te bewaren. Daarom voorzien we in een aangepaste opbergruimte.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.79,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.79,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

@@ -2,56 +2,56 @@
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 60",
     "bd_short": "S1/B2 Toegankelijke dienstverlening",
     "bd_long": "Gistel richt de dienstverlening op de leefwereld van de individuele Gistelnaar.",
-    "ap_code": "TOEG",
+    "ap_code": "TOEG DIENSTV",
     "ap_short": "Toegankelijke dienstverlening",
     "ap_long": "Het actieplan toegankelijke dienstverlening omvat de verschillende maatregelen om de drempels in dienstverlening te verlagen.  Hierbij gaat bijzondere aandacht naar minder mobiele en kwetsbare personen.",
-    "ac_code": "TOEG",
-    "ac_short": "Toegankelijke bushalte administratief centrum",
-    "ac_long": "Gistel legt het Hoppinpunt Gistel stadhuis toegankelijk aan met subsidies van de Vlaamse overheid.",
+    "ac_code": "TOEG DIENSTV_WELZIJNSHUIS",
+    "ac_short": "Realisatie laagdrempelig en toegankelijk welzijnshuis",
+    "ac_long": "Gistel plant de bouw van een nieuw, performant en toegankelijk welzijnshuis.",
     "categories": [
-      "02-mobiliteit"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 3647750.0,
-    "amount_per_capita": 290.63,
+    "total_amount": 3500000.0,
+    "amount_per_capita": 279.52,
     "yearly_amounts": {
-      "2026": 47750.0,
+      "2026": 0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 3600000.0
+      "2031": 3500000.0
     },
     "yearly_per_capita": {
-      "2026": 3.8,
+      "2026": 0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 286.82
+      "2031": 279.52
     }
   },
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 94",
     "bd_short": "S4/B2 Infrastructuur",
     "bd_long": "Gistel blijft focussen op een verhoging van de rioleringsgraad, een goed onderhoud van het openbaar domein en veilige verkeersomstandigheden.",
-    "ap_code": "ONDERH",
+    "ap_code": "ONDERH INFRA",
     "ap_short": "Onderhoud en toezicht infrastructuur",
     "ap_long": "Dit actieplan omvat het onderhouds- en toezichtprogramma op het openbaar domein.",
-    "ac_code": "ONDERH",
+    "ac_code": "ONDERH INFRA_WEGEN EN VOETPADEN",
     "ac_short": "Jaarprogramma onderhoud en aanleg van voetpaden en wegen",
     "ac_long": "Jaarprogramma onderhoud en aanleg van voetpaden en wegen.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 2000000.0,
-    "amount_per_capita": 159.35,
+    "total_amount": 2461376.95,
+    "amount_per_capita": 196.57,
     "yearly_amounts": {
-      "2026": 400000.0,
+      "2026": 861376.95,
       "2027": 400000.0,
       "2028": 400000.0,
       "2029": 400000.0,
@@ -59,65 +59,31 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 31.87,
-      "2027": 31.87,
-      "2028": 31.87,
-      "2029": 31.87,
-      "2030": 31.87,
+      "2026": 68.79,
+      "2027": 31.94,
+      "2028": 31.94,
+      "2029": 31.94,
+      "2030": 31.94,
       "2031": 0
     }
   },
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
-    "bd_short": "S3/B5 Dienst infrastructuur en werkliedenploeg",
-    "bd_long": "Gistel werkt aan een sterke professionalisering van de dienst infrastructuur - werkliedenploeg.",
-    "ap_code": "DIENST",
-    "ap_short": "dienst infrastructuur",
-    "ap_long": "Dit actieplan bundelt alle initiatieven inzake de uitbouw van de dienst infrastructuur - werkliedenploeg.",
-    "ac_code": "DIENST",
-    "ac_short": "De realisatie van een nieuwe site infrastructuur",
-    "ac_long": "De stedelijke werkplaatsen aan de Camiel Adriaensstraat verhuizen naar een nieuwe site op het industrieterrein Konijnenbos.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 2000000.0,
-    "amount_per_capita": 159.35,
-    "yearly_amounts": {
-      "2026": 500000.0,
-      "2027": 1500000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 39.84,
-      "2027": 119.51,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Gistel",
-    "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 61",
     "bd_short": "S1/B3 Veiligheid",
     "bd_long": "Elke inwoner moet zich veilig kunnen voelen in onze stad.",
-    "ap_code": "HULPV",
+    "ap_code": "HULPV ZONE",
     "ap_short": "Samenwerking met de hulpverleningszone 1",
     "ap_long": "Dit actieplan bundelt alle veiligheidsacties in samenwerking met de hulpverleningszone 1.",
-    "ac_code": "HULPV",
+    "ac_code": "HULPV ZONE_INVEST HULPVERLENINGSZONE",
     "ac_short": "Bouwen van een veiligheidsgebouw in Gistel",
     "ac_long": "De hulpverleningszone 1 bouwt op de huidige site van de dienst infrastructuur en werkliedenploeg een nieuw veiligheidsgebouw voor politie en brandweer.  Het nieuwe gebouw versterkt de werking van de politie en de brandweer in het belang van de veiligheid van alle inwoners.",
     "categories": [
       "04-veiligheidszorg"
     ],
     "total_amount": 2000000.0,
-    "amount_per_capita": 159.35,
+    "amount_per_capita": 159.72,
     "yearly_amounts": {
       "2026": 500000.0,
       "2027": 500000.0,
@@ -127,10 +93,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 39.84,
-      "2027": 39.84,
-      "2028": 39.84,
-      "2029": 39.84,
+      "2026": 39.93,
+      "2027": 39.93,
+      "2028": 39.93,
+      "2029": 39.93,
       "2030": 0,
       "2031": 0
     }
@@ -138,54 +104,122 @@
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
-    "bd_short": "S4/B2 Infrastructuur",
-    "bd_long": "Gistel blijft focussen op een verhoging van de rioleringsgraad, een goed onderhoud van het openbaar domein en veilige verkeersomstandigheden.",
-    "ap_code": "WEGEN",
-    "ap_short": "Wegen- en rioleringswerken",
-    "ap_long": "Dit actieplan omvat het investeringsplan aan wegen en rioleringen.",
-    "ac_code": "WEGEN",
-    "ac_short": "Heraanleg van de Pastoriestraat",
-    "ac_long": "Herinrichting van de Pastoriestraat tot een veilige en goed ingerichte straat met nieuwe parkeerstroken.",
+    "bd_code": "BDS 92",
+    "bd_short": "S3/B5 Dienst infrastructuur en werkliedenploeg",
+    "bd_long": "Gistel werkt aan een sterke professionalisering van de dienst infrastructuur - werkliedenploeg.",
+    "ap_code": "DIENST INFRA",
+    "ap_short": "dienst infrastructuur",
+    "ap_long": "Dit actieplan bundelt alle initiatieven inzake de uitbouw van de dienst infrastructuur - werkliedenploeg.",
+    "ac_code": "DIENST INFRA_SITE INFRASTRUCTUUR",
+    "ac_short": "De realisatie van een nieuwe site infrastructuur",
+    "ac_long": "De stedelijke werkplaatsen aan de Camiel Adriaensstraat verhuizen naar een nieuwe site op het industrieterrein Konijnenbos.",
     "categories": [
-      "02-mobiliteit"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 1577225.0,
-    "amount_per_capita": 125.66,
+    "total_amount": 2000000.0,
+    "amount_per_capita": 159.72,
     "yearly_amounts": {
-      "2026": 366069.0,
-      "2027": 366130.0,
-      "2028": 564899.0,
-      "2029": 46323.0,
-      "2030": 46323.0,
-      "2031": 187481.0
+      "2026": 500000.0,
+      "2027": 1500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 29.17,
-      "2027": 29.17,
-      "2028": 45.01,
-      "2029": 3.69,
-      "2030": 3.69,
-      "2031": 14.94
+      "2026": 39.93,
+      "2027": 119.79,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 81",
+    "bd_short": "S15/B5 Overig beleid infrastructuur",
+    "bd_long": "Overig beleid infrastructuur.",
+    "ap_code": "WEGEN",
+    "ap_short": "Weginfrastructuur",
+    "ap_long": "Weginfrastructuur",
+    "ac_code": "WEGEN_LEASING OV FLUVIUS",
+    "ac_short": "Investeringen geleasde openbare verlichting Fluvius",
+    "ac_long": "Investeringen geleasde openbare verlichting Fluvius",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1227225.0,
+    "amount_per_capita": 98.01,
+    "yearly_amounts": {
+      "2026": 341069.0,
+      "2027": 341130.0,
+      "2028": 339899.0,
+      "2029": 21323.0,
+      "2030": 21323.0,
+      "2031": 162481.0
+    },
+    "yearly_per_capita": {
+      "2026": 27.24,
+      "2027": 27.24,
+      "2028": 27.15,
+      "2029": 1.7,
+      "2030": 1.7,
+      "2031": 12.98
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "",
+    "ap_short": "",
+    "ap_long": "",
+    "ac_code": "overigBeleid_NIHIL",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1065306.36,
+    "amount_per_capita": 85.08,
+    "yearly_amounts": {
+      "2026": 1065306.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 85.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 80",
     "bd_short": "S15/B4 Overig beleid vrije tijd",
     "bd_long": "Overig beleid vrije tijd.",
-    "ap_code": "VRIJE",
+    "ap_code": "VRIJE TIJD",
     "ap_short": "Werking VTC Zomerloos",
     "ap_long": "Werking VTC Zomerloos",
-    "ac_code": "VRIJE",
+    "ac_code": "VRIJE TIJD_FARYS",
     "ac_short": "Exploitatie van sportinfrastructuur via Farys",
     "ac_long": "We voorzien jaarlijks exploitatiekredieten voor Farys als structurele partner in het beheer en de uitbating van onze sportinfrastructuur.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 846450.0,
-    "amount_per_capita": 67.44,
+    "amount_per_capita": 67.6,
     "yearly_amounts": {
       "2026": 10450.0,
       "2027": 794200.0,
@@ -196,7 +230,7 @@
     },
     "yearly_per_capita": {
       "2026": 0.83,
-      "2027": 63.28,
+      "2027": 63.43,
       "2028": 0.83,
       "2029": 0.83,
       "2030": 0.83,
@@ -206,90 +240,56 @@
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 98",
     "bd_short": "S6/B2 Duurzaam energie- en klimaatplan",
     "bd_long": "Gistel werkt verder aan de uitvoering van goedgekeurde duurzaam energie- en klimaatplan.",
-    "ap_code": "RENO",
+    "ap_code": "RENO ENERG",
     "ap_short": "Renovatie en energiebesparing",
     "ap_long": "Dit actieplan omvat het programma inzake renovatie en energiebesparing.",
-    "ac_code": "RENO",
-    "ac_short": "Onderhoudsplan onderhoud en renovatie openbare gebouwen",
-    "ac_long": "Gistel ontwikkelt een strategisch onderhouds- en renovatieplan voor onze openbare gebouwen, met bijzondere aandacht voor verouderde nutsvoorzieningen, conformiteitsattesten en de realisatie van de Vlaamse klimaatdoelstellingen inzake CO2-reductie, hernieuwbare energie en energieprestatienormen",
+    "ac_code": "RENO ENERG_REG INVESTERINGEN",
+    "ac_short": "REG-investeringen",
+    "ac_long": "Programma REG-investeringen.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 740000.0,
-    "amount_per_capita": 58.96,
+    "total_amount": 798831.0,
+    "amount_per_capita": 63.8,
     "yearly_amounts": {
-      "2026": 100000.0,
-      "2027": 140000.0,
-      "2028": 125000.0,
-      "2029": 125000.0,
-      "2030": 125000.0,
-      "2031": 125000.0
+      "2026": 408831.0,
+      "2027": 90000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
     },
     "yearly_per_capita": {
-      "2026": 7.97,
-      "2027": 11.15,
-      "2028": 9.96,
-      "2029": 9.96,
-      "2030": 9.96,
-      "2031": 9.96
+      "2026": 32.65,
+      "2027": 7.19,
+      "2028": 5.99,
+      "2029": 5.99,
+      "2030": 5.99,
+      "2031": 5.99
     }
   },
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
-    "bd_short": "S12/B2 Cultuur",
-    "bd_long": "Gistel investeert verder in zijn culturele infrastructuur en blijft inzetten op een gevarieerd cultuuraanbod.",
-    "ap_code": "CULT",
-    "ap_short": "Culturele infrastructuur",
-    "ap_long": "Dit actieplan omvat het programma culturele infrastructuur.",
-    "ac_code": "CULT",
-    "ac_short": "Renovatie evenementenhal vrijetijdscentrum Zomerloos",
-    "ac_long": "Gistel investeert in de energetische renovatie van de evenementenhal.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 710000.0,
-    "amount_per_capita": 56.57,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 410000.0,
-      "2028": 0,
-      "2029": 300000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 32.67,
-      "2028": 0,
-      "2029": 23.9,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Gistel",
-    "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 72",
     "bd_short": "S12/B4 Toerisme en erfgoed",
     "bd_long": "Gistel zet met Visit Gistel sterker in op het toerisme- en erfgoedbeleid.",
     "ap_code": "ERFGOED",
     "ap_short": "Erfgoed",
     "ap_long": "Dit actieplan omvat de initiatieven m.b.t. het Gistelse roerend en onroerend erfgoed.",
-    "ac_code": "ERFGOED",
+    "ac_code": "ERFGOED_MEERLAANMOLEN",
     "ac_short": "Restauratieproject Meerlaanmolen",
     "ac_long": "De restauratie van de Meerlaanmolen wordt verder gezet.  De focus ligt op de bouwtechnische restauratie.",
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 450000.0,
-    "amount_per_capita": 35.85,
+    "total_amount": 728591.37,
+    "amount_per_capita": 58.19,
     "yearly_amounts": {
-      "2026": 450000.0,
+      "2026": 728591.37,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -297,143 +297,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 35.85,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Gistel",
-    "nis_code": "35005",
-    "bd_code": "BDS",
-    "bd_short": "S14/B2 Kleinhandel en horeca",
-    "bd_long": "Gistel verhoogt de aantrekkelijkheid van het handelscentrum.",
-    "ap_code": "HANDEL",
-    "ap_short": "Handel en horeca",
-    "ap_long": "Dit actieplan omvat de bestuurlijke maatregelen en initiatieven om de kleinhandel en horeca in Gistel te ondersteunen en te versterken.",
-    "ac_code": "HANDEL",
-    "ac_short": "Herinrichting van de markt van Gistel centrum",
-    "ac_long": "Gistel bekijkt om de markt in Gistel centrum herin te richten tot een aantrekkelijke en groenere ontmoetingsplek terwijl het totale aantal parkeerplaatsen in de onmiddellijke omgeving behouden blijft.  Dit in overleg met handelaars, bewoners en marktkramers.",
-    "categories": [
-      "05-ondernemen-werken"
-    ],
-    "total_amount": 375000.0,
-    "amount_per_capita": 29.88,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 50000.0,
-      "2028": 325000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 3.98,
-      "2028": 25.89,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Gistel",
-    "nis_code": "35005",
-    "bd_code": "BDS",
-    "bd_short": "S4/B1 Mobiliteit",
-    "bd_long": "Gistel werkt met gerichte plannen aan een hogere verkeersveiligheid, voldoende parkeergelegenheid, deelmobiliteit en een vlotte verbinding via het openbaar vervoer.",
-    "ap_code": "VERKEERSEDU",
-    "ap_short": "Verkeerseducatie en sensibilisering",
-    "ap_long": "Dit actieplan omvat het programma verkeerseducatie en verkeerssensibillisering.",
-    "ac_code": "VERKEERSEDU",
-    "ac_short": "Verkeersveiligheid schoolgaande jeugd",
-    "ac_long": "Verkeersveiligheid voor schoolgaande jeugd wordt ook deze legislatuur een topprioriteit. Na de onmiddellijke schoolomgevingen maakt Gistel ook de belangrijkste woon-schooltrajecten verkeersveilig zodat kinderen zich maximaal zelfstandig en veilig kunnen verplaatsen.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 23.9,
-    "yearly_amounts": {
-      "2026": 50000.0,
-      "2027": 50000.0,
-      "2028": 50000.0,
-      "2029": 50000.0,
-      "2030": 50000.0,
-      "2031": 50000.0
-    },
-    "yearly_per_capita": {
-      "2026": 3.98,
-      "2027": 3.98,
-      "2028": 3.98,
-      "2029": 3.98,
-      "2030": 3.98,
-      "2031": 3.98
-    }
-  },
-  {
-    "municipality": "Gistel",
-    "nis_code": "35005",
-    "bd_code": "BDS",
-    "bd_short": "S14/B1 Ondernemen",
-    "bd_long": "Gistel stimuleert een ondernemersklimaat dat zorgt voor tewerkstelling in onze stad.",
-    "ap_code": "ONDERNEMERS",
-    "ap_short": "Ondernemerschap",
-    "ap_long": "Dit actieplan omvat de beleidsmaatregelen en initiatieven om ondernemerschap te stimuleren.",
-    "ac_code": "ONDERNEMERS",
-    "ac_short": "Renovatieproject industrieterrein Konijnenbos",
-    "ac_long": "Gistel participeert, gespreid over twee legislaturen, aan het door de WVI voorgestelde renovatieproject voor het industrieterrein Konijnenbos met subsidies van Vlaio.",
-    "categories": [
-      "05-ondernemen-werken"
-    ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 23.9,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 50000.0,
-      "2028": 50000.0,
-      "2029": 100000.0,
-      "2030": 100000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 3.98,
-      "2028": 3.98,
-      "2029": 7.97,
-      "2030": 7.97,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Gistel",
-    "nis_code": "35005",
-    "bd_code": "BDS",
-    "bd_short": "S8/B1 Sociale hulpverlening",
-    "bd_long": "Sociale hulpverlening is gericht op het vooruithelpen van mensen.",
-    "ap_code": "HULPVERL",
-    "ap_short": "Hulpverlening",
-    "ap_long": "Dit actieplan bundelt alle initiatieven i.v.m. de actorrol sociale hulpverlening, leefloon en aanvullende steun van het OCMW.",
-    "ac_code": "HULPVERL",
-    "ac_short": "Oprichting van een sociale kruidenier",
-    "ac_long": "Gistel bouwt een sociale kruidenier uit als laagdrempelige en waardige voedselvoorziening, waar hulpverlening en ontmoeting  samenkomen.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 23.9,
-    "yearly_amounts": {
-      "2026": 300000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 23.9,
+      "2026": 58.19,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -444,90 +308,56 @@
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
-    "bd_short": "S15/B7 Overig beleid algemeen bestuur",
-    "bd_long": "Overig beleid algemeen bestuur.",
-    "ap_code": "ICT",
-    "ap_short": "ICT",
-    "ap_long": "ICT",
-    "ac_code": "ICT",
-    "ac_short": "Aankoop van ICT-materieel",
-    "ac_long": "Aankoop van ICT-materieel (PC's, randapparatuur, klein ict-materieel,...)",
+    "bd_code": "BDS 94",
+    "bd_short": "S4/B2 Infrastructuur",
+    "bd_long": "Gistel blijft focussen op een verhoging van de rioleringsgraad, een goed onderhoud van het openbaar domein en veilige verkeersomstandigheden.",
+    "ap_code": "WEGEN EN RIO",
+    "ap_short": "Wegen- en rioleringswerken",
+    "ap_long": "Dit actieplan omvat het investeringsplan aan wegen en rioleringen.",
+    "ac_code": "WEGEN EN RIO_HERAANLEG DULLAERTWEG",
+    "ac_short": "Investeringsproject Dullaertweg en omgeving",
+    "ac_long": "Aanleg van rioleringen in de Dullaertweg en onmiddellijke omgeving met medegaande herinrichting van de weginfrastructuur.",
     "categories": [
-      "01-algemeen-bestuur"
+      "overige"
     ],
-    "total_amount": 290000.0,
-    "amount_per_capita": 23.11,
+    "total_amount": 654054.0,
+    "amount_per_capita": 52.23,
     "yearly_amounts": {
-      "2026": 40000.0,
-      "2027": 50000.0,
-      "2028": 50000.0,
-      "2029": 50000.0,
-      "2030": 50000.0,
-      "2031": 50000.0
+      "2026": 654054.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.19,
-      "2027": 3.98,
-      "2028": 3.98,
-      "2029": 3.98,
-      "2030": 3.98,
-      "2031": 3.98
+      "2026": 52.23,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
-    "bd_short": "S2/B1 Participatie",
-    "bd_long": "De Gistelnaar wordt actief betrokken bij het beleid en krijgt meer mogelijkheden om initiatieven te nemen.",
-    "ap_code": "BUURTCOHESIE",
-    "ap_short": "Buurtcohesie",
-    "ap_long": "Het lokaal bestuur Gistel zet actief in op het versterken van buurtcohesie, met als doel het bevorderen van verbondenheid, solidariteit en leefbaarheid in de wijken en deelgemeenten. Buurtcohesie wordt beschouwd als een fundament voor een warme, veilige en participatieve samenleving waarin inwoners zich thuis voelen en actief bijdragen aan hun leefomgeving.",
-    "ac_code": "BUURTCOHESIE",
-    "ac_short": "Jaarlijkse renovatie van 1 wijkspeelplein",
-    "ac_long": "Gistel renoveert elk jaar één speelpleintje in overleg met de buurtbewoners.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 280000.0,
-    "amount_per_capita": 22.31,
-    "yearly_amounts": {
-      "2026": 50000.0,
-      "2027": 50000.0,
-      "2028": 50000.0,
-      "2029": 50000.0,
-      "2030": 40000.0,
-      "2031": 40000.0
-    },
-    "yearly_per_capita": {
-      "2026": 3.98,
-      "2027": 3.98,
-      "2028": 3.98,
-      "2029": 3.98,
-      "2030": 3.19,
-      "2031": 3.19
-    }
-  },
-  {
-    "municipality": "Gistel",
-    "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 94",
     "bd_short": "S4/B2 Infrastructuur",
     "bd_long": "Gistel blijft focussen op een verhoging van de rioleringsgraad, een goed onderhoud van het openbaar domein en veilige verkeersomstandigheden.",
     "ap_code": "KERKGEBOUWEN",
     "ap_short": "Kerkgebouwen",
     "ap_long": "Dit actieplan omvat het beleidsprogramma voor de vier kerkgebouwen.",
-    "ac_code": "KERKGEBOUWEN",
+    "ac_code": "KERKGEBOUWEN_KERKGEBOUWEN",
     "ac_short": "Investeringen in de kerkgebouwen",
     "ac_long": "Onderhouds- en investeringsprogramma kerkgebouwen met de prioriteit op de restauratie van de kerk Zevekote.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 270000.0,
-    "amount_per_capita": 21.51,
+    "total_amount": 408555.18,
+    "amount_per_capita": 32.63,
     "yearly_amounts": {
-      "2026": 45000.0,
+      "2026": 183555.18,
       "2027": 45000.0,
       "2028": 45000.0,
       "2029": 45000.0,
@@ -535,7 +365,7 @@
       "2031": 45000.0
     },
     "yearly_per_capita": {
-      "2026": 3.59,
+      "2026": 14.66,
       "2027": 3.59,
       "2028": 3.59,
       "2029": 3.59,
@@ -546,23 +376,23 @@
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
-    "bd_short": "S11/B1 Onderwijs",
-    "bd_long": "Het onderwijsaanbod in Gistel is groot. Gistel investeert in de gemeentelijke basisschool en ondersteunt scholen via een flankerend onderwijsbeleid in samenwerking met verenigingen en welzijnspartners.",
-    "ap_code": "GBS",
-    "ap_short": "Gemeentelijke basisschool De Horizon",
-    "ap_long": "Dit actieplan bundelt alle initiatieven en beleidsmaatregelen i.v.m. de gemeentelijke basisschool De Horizon in Snaaskerke.",
-    "ac_code": "GBS",
-    "ac_short": "Gevelrenovatie De Horizon",
-    "ac_long": "Gistel investeert in de gevelrenovatie van de Horizon.",
+    "bd_code": "BDS 70",
+    "bd_short": "S12/B2 Cultuur",
+    "bd_long": "Gistel investeert verder in zijn culturele infrastructuur en blijft inzetten op een gevarieerd cultuuraanbod.",
+    "ap_code": "CULT INFRA",
+    "ap_short": "Culturele infrastructuur",
+    "ap_long": "Dit actieplan omvat het programma culturele infrastructuur.",
+    "ac_code": "CULT INFRA_EVENEMENTENHAL",
+    "ac_short": "Renovatie evenementenhal vrijetijdscentrum Zomerloos",
+    "ac_long": "Gistel investeert in de energetische renovatie van de evenementenhal.",
     "categories": [
-      "08-onderwijs"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 100000.0,
-    "amount_per_capita": 7.97,
+    "total_amount": 370000.0,
+    "amount_per_capita": 29.55,
     "yearly_amounts": {
       "2026": 0,
-      "2027": 100000.0,
+      "2027": 370000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -570,7 +400,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 7.97,
+      "2027": 29.55,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -580,20 +410,462 @@
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 93",
+    "bd_short": "S4/B1 Mobiliteit",
+    "bd_long": "Gistel werkt met gerichte plannen aan een hogere verkeersveiligheid, voldoende parkeergelegenheid, deelmobiliteit en een vlotte verbinding via het openbaar vervoer.",
+    "ap_code": "VERKEERSEDU",
+    "ap_short": "Verkeerseducatie en sensibilisering",
+    "ap_long": "Dit actieplan omvat het programma verkeerseducatie en verkeerssensibillisering.",
+    "ac_code": "VERKEERSEDU_VERKEERSVEILIGHEID",
+    "ac_short": "Verkeersveiligheid schoolgaande jeugd",
+    "ac_long": "Verkeersveiligheid voor schoolgaande jeugd wordt ook deze legislatuur een topprioriteit. Na de onmiddellijke schoolomgevingen maakt Gistel ook de belangrijkste woon-schooltrajecten verkeersveilig zodat kinderen zich maximaal zelfstandig en veilig kunnen verplaatsen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 317189.97,
+    "amount_per_capita": 25.33,
+    "yearly_amounts": {
+      "2026": 67189.97,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.37,
+      "2027": 3.99,
+      "2028": 3.99,
+      "2029": 3.99,
+      "2030": 3.99,
+      "2031": 3.99
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 101",
+    "bd_short": "S8/B1 Sociale hulpverlening",
+    "bd_long": "Sociale hulpverlening is gericht op het vooruithelpen van mensen.",
+    "ap_code": "HULPVERL",
+    "ap_short": "Hulpverlening",
+    "ap_long": "Dit actieplan bundelt alle initiatieven i.v.m. de actorrol sociale hulpverlening, leefloon en aanvullende steun van het OCMW.",
+    "ac_code": "HULPVERL_SOCIALE KRUIDENIER",
+    "ac_short": "Oprichting van een sociale kruidenier",
+    "ac_long": "Gistel bouwt een sociale kruidenier uit als laagdrempelige en waardige voedselvoorziening, waar hulpverlening en ontmoeting  samenkomen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 23.96,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 23.96,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 70",
+    "bd_short": "S12/B2 Cultuur",
+    "bd_long": "Gistel investeert verder in zijn culturele infrastructuur en blijft inzetten op een gevarieerd cultuuraanbod.",
+    "ap_code": "CULT INFRA",
+    "ap_short": "Culturele infrastructuur",
+    "ap_long": "Dit actieplan omvat het programma culturele infrastructuur.",
+    "ac_code": "CULT INFRA_OC SNAASKERKE",
+    "ac_short": "Ontmoetingscentrum Snaaskerke",
+    "ac_long": "Gistel voert een grondige studie uit naar de locatie en inrichting van het ontmoetingscentrum van Snaaskerke, met het oog op een toekomstgerichte en kwaliteitsvolle invulling",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 23.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 300000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 23.96,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 74",
+    "bd_short": "S14/B1 Ondernemen",
+    "bd_long": "Gistel stimuleert een ondernemersklimaat dat zorgt voor tewerkstelling in onze stad.",
+    "ap_code": "ONDERNEMERS",
+    "ap_short": "Ondernemerschap",
+    "ap_long": "Dit actieplan omvat de beleidsmaatregelen en initiatieven om ondernemerschap te stimuleren.",
+    "ac_code": "ONDERNEMERS_INDUSTRIE KONIJNENBOS",
+    "ac_short": "Renovatieproject industrieterrein Konijnenbos",
+    "ac_long": "Gistel participeert, gespreid over twee legislaturen, aan het door de WVI voorgestelde renovatieproject voor het industrieterrein Konijnenbos met subsidies van Vlaio.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 23.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.99,
+      "2028": 3.99,
+      "2029": 7.99,
+      "2030": 7.99,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 75",
+    "bd_short": "S14/B2 Kleinhandel en horeca",
+    "bd_long": "Gistel verhoogt de aantrekkelijkheid van het handelscentrum.",
+    "ap_code": "HANDEL",
+    "ap_short": "Handel en horeca",
+    "ap_long": "Dit actieplan omvat de bestuurlijke maatregelen en initiatieven om de kleinhandel en horeca in Gistel te ondersteunen en te versterken.",
+    "ac_code": "HANDEL_HERINRICHTING MARKT",
+    "ac_short": "Herinrichting van de markt van Gistel centrum",
+    "ac_long": "Gistel bekijkt om de markt in Gistel centrum herin te richten tot een aantrekkelijke en groenere ontmoetingsplek terwijl het totale aantal parkeerplaatsen in de onmiddellijke omgeving behouden blijft.  Dit in overleg met handelaars, bewoners en marktkramers.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 23.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.99,
+      "2028": 19.97,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 98",
+    "bd_short": "S6/B2 Duurzaam energie- en klimaatplan",
+    "bd_long": "Gistel werkt verder aan de uitvoering van goedgekeurde duurzaam energie- en klimaatplan.",
+    "ap_code": "RENO ENERG",
+    "ap_short": "Renovatie en energiebesparing",
+    "ap_long": "Dit actieplan omvat het programma inzake renovatie en energiebesparing.",
+    "ac_code": "RENO ENERG_BEHEERSPLAN GEBOUWEN",
+    "ac_short": "Onderhoudsplan onderhoud en renovatie openbare gebouwen",
+    "ac_long": "Gistel ontwikkelt een strategisch onderhouds- en renovatieplan voor onze openbare gebouwen, met bijzondere aandacht voor verouderde nutsvoorzieningen, conformiteitsattesten en de realisatie van de Vlaamse klimaatdoelstellingen inzake CO2-reductie, hernieuwbare energie en energieprestatienormen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 23.96,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.99,
+      "2027": 3.99,
+      "2028": 3.99,
+      "2029": 3.99,
+      "2030": 3.99,
+      "2031": 3.99
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 83",
+    "bd_short": "S15/B7 Overig beleid algemeen bestuur",
+    "bd_long": "Overig beleid algemeen bestuur.",
+    "ap_code": "ICT",
+    "ap_short": "ICT",
+    "ap_long": "ICT",
+    "ac_code": "ICT_ICT MATERIEEL",
+    "ac_short": "Aankoop van ICT-materieel",
+    "ac_long": "Aankoop van ICT-materieel (PC's, randapparatuur, klein ict-materieel,...)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 290000.0,
+    "amount_per_capita": 23.16,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.19,
+      "2027": 3.99,
+      "2028": 3.99,
+      "2029": 3.99,
+      "2030": 3.99,
+      "2031": 3.99
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 85",
+    "bd_short": "S2/B1 Participatie",
+    "bd_long": "De Gistelnaar wordt actief betrokken bij het beleid en krijgt meer mogelijkheden om initiatieven te nemen.",
+    "ap_code": "BUURTCOHESIE",
+    "ap_short": "Buurtcohesie",
+    "ap_long": "Het lokaal bestuur Gistel zet actief in op het versterken van buurtcohesie, met als doel het bevorderen van verbondenheid, solidariteit en leefbaarheid in de wijken en deelgemeenten. Buurtcohesie wordt beschouwd als een fundament voor een warme, veilige en participatieve samenleving waarin inwoners zich thuis voelen en actief bijdragen aan hun leefomgeving.",
+    "ac_code": "BUURTCOHESIE_SPEELPLEINEN",
+    "ac_short": "Jaarlijkse renovatie van 1 wijkspeelplein",
+    "ac_long": "Gistel renoveert elk jaar één speelpleintje in overleg met de buurtbewoners.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 280000.0,
+    "amount_per_capita": 22.36,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.99,
+      "2027": 3.99,
+      "2028": 3.99,
+      "2029": 3.99,
+      "2030": 3.19,
+      "2031": 3.19
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 94",
+    "bd_short": "S4/B2 Infrastructuur",
+    "bd_long": "Gistel blijft focussen op een verhoging van de rioleringsgraad, een goed onderhoud van het openbaar domein en veilige verkeersomstandigheden.",
+    "ap_code": "WEGEN EN RIO",
+    "ap_short": "Wegen- en rioleringswerken",
+    "ap_long": "Dit actieplan omvat het investeringsplan aan wegen en rioleringen.",
+    "ac_code": "WEGEN EN RIO_PASTORIESTRAAT",
+    "ac_short": "Heraanleg van de Pastoriestraat",
+    "ac_long": "Herinrichting van de Pastoriestraat tot een veilige en goed ingerichte straat met nieuwe parkeerstroken.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 15.97,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 200000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 15.97,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 72",
+    "bd_short": "S12/B4 Toerisme en erfgoed",
+    "bd_long": "Gistel zet met Visit Gistel sterker in op het toerisme- en erfgoedbeleid.",
+    "ap_code": "ERFGOED",
+    "ap_short": "Erfgoed",
+    "ap_long": "Dit actieplan omvat de initiatieven m.b.t. het Gistelse roerend en onroerend erfgoed.",
+    "ac_code": "ERFGOED_OOSTMOLEN",
+    "ac_short": "Onderhoudswerken Oostmolen",
+    "ac_long": "Deze actie omvat het onderhoudsprogramma voor de Oostmolen.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 170000.0,
+    "amount_per_capita": 13.58,
+    "yearly_amounts": {
+      "2026": 170000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.58,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 81",
+    "bd_short": "S15/B5 Overig beleid infrastructuur",
+    "bd_long": "Overig beleid infrastructuur.",
+    "ap_code": "WEGEN",
+    "ap_short": "Weginfrastructuur",
+    "ap_long": "Weginfrastructuur",
+    "ac_code": "WEGEN_ROLLEND MATERIEEL",
+    "ac_short": "Aankoop van rollend materieel",
+    "ac_long": "Aankoop van rollend materieel",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 151793.2,
+    "amount_per_capita": 12.12,
+    "yearly_amounts": {
+      "2026": 26793.2,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.14,
+      "2027": 2.0,
+      "2028": 2.0,
+      "2029": 2.0,
+      "2030": 2.0,
+      "2031": 2.0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 64",
+    "bd_short": "S11/B1 Onderwijs",
+    "bd_long": "Het onderwijsaanbod in Gistel is groot. Gistel investeert in de gemeentelijke basisschool en ondersteunt scholen via een flankerend onderwijsbeleid in samenwerking met verenigingen en welzijnspartners.",
+    "ap_code": "GBS HORIZON",
+    "ap_short": "Gemeentelijke basisschool De Horizon",
+    "ap_long": "Dit actieplan bundelt alle initiatieven en beleidsmaatregelen i.v.m. de gemeentelijke basisschool De Horizon in Snaaskerke.",
+    "ac_code": "GBS HORIZON_GEVELRENOVATIE DE HORIZON",
+    "ac_short": "Gevelrenovatie De Horizon",
+    "ac_long": "Gistel investeert in de gevelrenovatie van de Horizon.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 104348.74,
+    "amount_per_capita": 8.33,
+    "yearly_amounts": {
+      "2026": 4348.74,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.35,
+      "2027": 7.99,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 60",
+    "bd_short": "S1/B2 Toegankelijke dienstverlening",
+    "bd_long": "Gistel richt de dienstverlening op de leefwereld van de individuele Gistelnaar.",
+    "ap_code": "TOEG DIENSTV",
+    "ap_short": "Toegankelijke dienstverlening",
+    "ap_long": "Het actieplan toegankelijke dienstverlening omvat de verschillende maatregelen om de drempels in dienstverlening te verlagen.  Hierbij gaat bijzondere aandacht naar minder mobiele en kwetsbare personen.",
+    "ac_code": "TOEG DIENSTV_INRICHTING AC",
+    "ac_short": "Herinrichting administratief centrum na verhuis politie",
+    "ac_long": "Na de verhuis van de politie richten we het administratief centrum zodanig in dat alle diensten die vaak contact hebben met het publiek zich op het gelijkvloers bevinden, voor een vlottere toegankelijkheid en dienstverlening.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.99,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 7.99
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 59",
     "bd_short": "S1/B1 Communicatie",
     "bd_long": "Gistel richt de communicatie op het betrekken en het informeren van zijn inwoners.",
-    "ap_code": "EXT",
+    "ap_code": "EXT COMM",
     "ap_short": "Externe communicatie",
     "ap_long": "Dit actieplan bundelt alle initiatieven van het bestuur in externe communicatie.",
-    "ac_code": "EXT",
+    "ac_code": "EXT COMM_DIGITALE INFOBORDEN",
     "ac_short": "Digitale infoborden",
     "ac_long": "In de deelgemeenten wordt een digitaal informatiebord geplaatst om inwoners te informeren over lokale activiteiten en gemeentelijke communicatie.",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 80000.0,
-    "amount_per_capita": 6.37,
+    "amount_per_capita": 6.39,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -606,7 +878,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 6.37,
+      "2029": 6.39,
       "2030": 0,
       "2031": 0
     }
@@ -614,13 +886,81 @@
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 75",
+    "bd_short": "S14/B2 Kleinhandel en horeca",
+    "bd_long": "Gistel verhoogt de aantrekkelijkheid van het handelscentrum.",
+    "ap_code": "HANDEL",
+    "ap_short": "Handel en horeca",
+    "ap_long": "Dit actieplan omvat de bestuurlijke maatregelen en initiatieven om de kleinhandel en horeca in Gistel te ondersteunen en te versterken.",
+    "ac_code": "HANDEL_MOBIEL PODIUM",
+    "ac_short": "Mobiel podium",
+    "ac_long": "Gistel investeert in een mobiel podium dat flexibel inzetbaar is op evenementen zoals de Gistelse dolle dagen, de Godelieveprocessie, Gistel Zingt, enz.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 5.99,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 75000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 5.99,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 60",
+    "bd_short": "S1/B2 Toegankelijke dienstverlening",
+    "bd_long": "Gistel richt de dienstverlening op de leefwereld van de individuele Gistelnaar.",
+    "ap_code": "TOEG DIENSTV",
+    "ap_short": "Toegankelijke dienstverlening",
+    "ap_long": "Het actieplan toegankelijke dienstverlening omvat de verschillende maatregelen om de drempels in dienstverlening te verlagen.  Hierbij gaat bijzondere aandacht naar minder mobiele en kwetsbare personen.",
+    "ac_code": "TOEG DIENSTV_BUSHALTE GISTEL AC",
+    "ac_short": "Toegankelijke bushalte administratief centrum",
+    "ac_long": "Gistel legt het Hoppinpunt Gistel stadhuis toegankelijk aan met subsidies van de Vlaamse overheid.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 47750.0,
+    "amount_per_capita": 3.81,
+    "yearly_amounts": {
+      "2026": 47750.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.81,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 65",
     "bd_short": "S11/B2 Jeugd en gezin",
     "bd_long": "Gistel versterkt het jeugdwerk en het jeugdwelzijnswerk.",
     "ap_code": "JEUGDWELZIJN",
     "ap_short": "Jeugdwelzijnswerk",
     "ap_long": "Dit actieplan omvat de preventieve werking om kansen te creëren voor kinderen en jongeren in kwetsbare situaties vanuit Rootz en de jeugddienst.  Er vindt een bundeling plaats van preventieve gezondheidszorg, opvoedingsondersteuning en ontmoeting - sociale cohesie.",
-    "ac_code": "JEUGDWELZIJN",
+    "ac_code": "JEUGDWELZIJN_UITVALBASIS ROOTZ",
     "ac_short": "We zoeken een geschikte uitvalbasis voor Rootz",
     "ac_long": "Gistel gaat op zoek naar een geschikte uitvalsbasis voor Rootz.",
     "categories": [
@@ -648,13 +988,13 @@
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 100",
     "bd_short": "S7/B1 Duurzaam afvalbeheer",
     "bd_long": "Naar een sterke daling van het restafval.",
     "ap_code": "BRONSORTEREN",
     "ap_short": "Bronsortering en selectieve inzameling",
     "ap_long": "Dit actieplan omvat de beleidsmaatregelen en initiatieven m.b.t. bronsortering en selectieve inzameling van afvalstromen.",
-    "ac_code": "BRONSORTEREN",
+    "ac_code": "BRONSORTEREN_ONDERGR GLASCONTAINERS",
     "ac_short": "Plaatsing ondergrondse glascontainers  in woonwijken",
     "ac_long": "Gistel staat, waar ruimtelijk en functioneel wenselijk, in voor de plaatsing van ondergrondse glascontainers binnen woonwijken.",
     "categories": [
@@ -682,20 +1022,54 @@
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 70",
+    "bd_short": "S12/B2 Cultuur",
+    "bd_long": "Gistel investeert verder in zijn culturele infrastructuur en blijft inzetten op een gevarieerd cultuuraanbod.",
+    "ap_code": "CULT INFRA",
+    "ap_short": "Culturele infrastructuur",
+    "ap_long": "Dit actieplan omvat het programma culturele infrastructuur.",
+    "ac_code": "CULT INFRA_MEUBILAIR OC",
+    "ac_short": "Meubilair ontmoetingscentra",
+    "ac_long": "Gistel vernieuwt het meubilair waar nodig in de ontmoetingscentra.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 3.19,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.19,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 71",
     "bd_short": "S12/B3 Bibliotheek",
     "bd_long": "Gistel blijft investeren in een toegankelijke bibliotheek.",
     "ap_code": "BIB",
     "ap_short": "Bibliotheek eigentijds blijven uitbouwen",
     "ap_long": "Dit actieplan omvat de instrumenten om de bibliotheek eigentijds te blijven uitbouwen.",
-    "ac_code": "BIB",
+    "ac_code": "BIB_ZELFSCANBALIES BIB",
     "ac_short": "Zelfscanbalie",
     "ac_long": "Met de installatie van zelfscanbalies zet Gistel in op een toegankelijke bibliotheek waar klanten zelfstandig materialen beheren en medewerkers meer ruimte krijgen voor begeleiding.  Er gebeurt een onderzoek naar de mogelijke uitbreiding van de openingsuren.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 35000.0,
-    "amount_per_capita": 2.79,
+    "amount_per_capita": 2.8,
     "yearly_amounts": {
       "2026": 0,
       "2027": 35000.0,
@@ -706,7 +1080,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 2.79,
+      "2027": 2.8,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -716,13 +1090,47 @@
   {
     "municipality": "Gistel",
     "nis_code": "35005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 100",
+    "bd_short": "S7/B1 Duurzaam afvalbeheer",
+    "bd_long": "Naar een sterke daling van het restafval.",
+    "ap_code": "BRONSORTEREN",
+    "ap_short": "Bronsortering en selectieve inzameling",
+    "ap_long": "Dit actieplan omvat de beleidsmaatregelen en initiatieven m.b.t. bronsortering en selectieve inzameling van afvalstromen.",
+    "ac_code": "BRONSORTEREN_VUILNISBAKKENPLAN",
+    "ac_short": "Opmaak vuilnisbakkenplan",
+    "ac_long": "Samen met Mooimakers maken we een plan voor slimme plaatsing van vuilnisbakken zodat ze op de juiste plaats staan en goed gebruikt worden.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.6,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Gistel",
+    "nis_code": "35005",
+    "bd_code": "BDS 90",
     "bd_short": "S3/B3 Samenwerking",
     "bd_long": "Gistel stuurt de organisatie aan op een manier die alle krachten bundelt.",
-    "ap_code": "DIGI",
+    "ap_code": "DIGI WERKOMG",
     "ap_short": "Moderne digitale werkomgeving",
     "ap_long": "Het lokaal bestuur Gistel zet in op administatieve vereenvoudiging en blijft investeren in een moderne digitale werkomgeving met oog op een veilig beheer van online documenten en flexibeler samenwerken.",
-    "ac_code": "DIGI",
+    "ac_code": "DIGI WERKOMG_DIGIT WERKOMGEVING",
     "ac_short": "Inzetten op een moderne digitale werkomgeving",
     "ac_long": "Gistel blijft investeren in een moderne, digitale werkomgeving zodat online documenten veilig beheerd kunnen worden en zodat flexibeler samengewerkt kan worden.",
     "categories": [

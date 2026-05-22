@@ -2,22 +2,22 @@
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
     "bd_short": "Beleidsdoelstelling 06",
     "bd_long": "We werken aan een duurzame gemeente met een gezond leefklimaat.",
     "ap_code": "0602",
     "ap_short": "Actieplan 16",
     "ap_long": "We streven naar zuiver en gezond oppervlaktewater.",
-    "ac_code": "0602",
+    "ac_code": "0602_0622",
     "ac_short": "Riopactprojecten op korte termijn (maximaal tot 6 jaar).",
     "ac_long": "Riopactprojecten op korte termijn (maximaal 3 jaar).",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 6240000.0,
-    "amount_per_capita": 418.13,
+    "total_amount": 6542466.5,
+    "amount_per_capita": 439.11,
     "yearly_amounts": {
-      "2026": 1220000.0,
+      "2026": 1522466.5,
       "2027": 1370000.0,
       "2028": 0,
       "2029": 1825000.0,
@@ -25,46 +25,46 @@
       "2031": 500000.0
     },
     "yearly_per_capita": {
-      "2026": 81.75,
-      "2027": 91.8,
+      "2026": 102.18,
+      "2027": 91.95,
       "2028": 0,
-      "2029": 122.29,
-      "2030": 88.78,
-      "2031": 33.5
+      "2029": 122.49,
+      "2030": 88.93,
+      "2031": 33.56
     }
   },
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "Beleidsdoelstelling 05",
     "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
-    "ap_code": "0503",
-    "ap_short": "Actieplan 14",
-    "ap_long": "Onze ruimtelijke projecten dragen bij aan een de realisatie van een breder maatschappelijk doel.",
-    "ac_code": "0503",
-    "ac_short": "Wijkvernieuwingsproject Ban-Eik.",
-    "ac_long": "Wijkvernieuwingsproject Ban-Eik.",
+    "ap_code": "0502",
+    "ap_short": "Actieplan 13",
+    "ap_long": "We zorgen er voor dat onze eigen diensten en verenigingen beschikken over de nodige aangepaste infrastructuur.",
+    "ac_code": "0502_0522",
+    "ac_short": "Onderhouden  en energieneutraal maken gebouwen.",
+    "ac_long": "We onderhouden onze gebouwen als goede huisvader en maken onze gebouwen stap voor stap energieneutraal.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 4831000.0,
-    "amount_per_capita": 323.71,
+    "total_amount": 5382263.35,
+    "amount_per_capita": 361.24,
     "yearly_amounts": {
-      "2026": 1206000.0,
-      "2027": 695000.0,
-      "2028": 2280000.0,
-      "2029": 450000.0,
-      "2030": 100000.0,
-      "2031": 100000.0
+      "2026": 5182263.35,
+      "2027": 50000.0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 80.81,
-      "2027": 46.57,
-      "2028": 152.78,
-      "2029": 30.15,
-      "2030": 6.7,
-      "2031": 6.7
+      "2026": 347.82,
+      "2027": 3.36,
+      "2028": 6.71,
+      "2029": 0,
+      "2030": 0,
+      "2031": 3.36
     }
   },
   {
@@ -73,121 +73,87 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "",
+    "ap_code": "overigBeleid",
     "ap_short": "overigBeleid",
     "ap_long": "overigBeleid",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 4204547.0,
-    "amount_per_capita": 281.74,
+    "total_amount": 5071854.86,
+    "amount_per_capita": 340.41,
     "yearly_amounts": {
-      "2026": 700945.0,
-      "2027": 853855.0,
-      "2028": 791503.0,
-      "2029": 440727.0,
-      "2030": 390553.0,
-      "2031": 1026964.0
+      "2026": 1568252.52,
+      "2027": 853854.95,
+      "2028": 791502.96,
+      "2029": 440727.08,
+      "2030": 390552.99,
+      "2031": 1026964.36
     },
     "yearly_per_capita": {
-      "2026": 46.97,
-      "2027": 57.21,
-      "2028": 53.04,
-      "2029": 29.53,
-      "2030": 26.17,
-      "2031": 68.81
+      "2026": 105.26,
+      "2027": 57.31,
+      "2028": 53.12,
+      "2029": 29.58,
+      "2030": 26.21,
+      "2031": 68.93
     }
   },
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
-    "bd_short": "Beleidsdoelstelling 05",
-    "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
-    "ap_code": "0502",
-    "ap_short": "Actieplan 13",
-    "ap_long": "We zorgen er voor dat onze eigen diensten en verenigingen beschikken over de nodige aangepaste infrastructuur.",
-    "ac_code": "0502",
-    "ac_short": "Onderhouden  en energieneutraal maken gebouwen.",
-    "ac_long": "We onderhouden onze gebouwen als goede huisvader en maken onze gebouwen stap voor stap energieneutraal.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 3965000.0,
-    "amount_per_capita": 265.68,
-    "yearly_amounts": {
-      "2026": 3715000.0,
-      "2027": 100000.0,
-      "2028": 100000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 50000.0
-    },
-    "yearly_per_capita": {
-      "2026": 248.93,
-      "2027": 6.7,
-      "2028": 6.7,
-      "2029": 0,
-      "2030": 0,
-      "2031": 3.35
-    }
-  },
-  {
-    "municipality": "Wezembeek-Oppem",
-    "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
     "bd_short": "Beleidsdoelstelling 03",
     "bd_long": "We werken aan een gemeente waar het aangenaam en veilig verplaatsen en verblijven is",
     "ap_code": "0302",
     "ap_short": "Actieplan 07",
     "ap_long": "Veilige verplaatsingen kunnen niet zonder veilige infrastructuur.",
-    "ac_code": "0302",
-    "ac_short": "Jaarlijkse renovatie en verbetering van onze voetpaden.",
-    "ac_long": "We investeren jaarlijks in de renovatie en verbetering van onze voetpaden, teneinde de toegankelijkheid en het comfort voor elke gebruiker te garanderen.",
+    "ac_code": "0302_0323",
+    "ac_short": "Nodige middelen voorzien voor het onderhoud  publiek domein.",
+    "ac_long": "We voorzien in de nodige middelen voor het onderhoud van het publiek domein.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 3890000.0,
-    "amount_per_capita": 260.66,
+    "total_amount": 3202240.28,
+    "amount_per_capita": 214.93,
     "yearly_amounts": {
-      "2026": 1600000.0,
-      "2027": 650000.0,
+      "2026": 1812240.28,
+      "2027": 300000.0,
       "2028": 350000.0,
       "2029": 350000.0,
-      "2030": 170000.0,
-      "2031": 770000.0
+      "2030": 70000.0,
+      "2031": 320000.0
     },
     "yearly_per_capita": {
-      "2026": 107.21,
-      "2027": 43.55,
-      "2028": 23.45,
-      "2029": 23.45,
-      "2030": 11.39,
-      "2031": 51.6
+      "2026": 121.63,
+      "2027": 20.14,
+      "2028": 23.49,
+      "2029": 23.49,
+      "2030": 4.7,
+      "2031": 21.48
     }
   },
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
     "bd_short": "Beleidsdoelstelling 03",
     "bd_long": "We werken aan een gemeente waar het aangenaam en veilig verplaatsen en verblijven is",
     "ap_code": "0301",
     "ap_short": "Actieplan 06",
     "ap_long": "We ontwikkelen een comfortabel en toegankelijk netwerk voor actieve mobiliteit (voetgangers en fietsers).",
-    "ac_code": "0301",
+    "ac_code": "0301_0311",
     "ac_short": "Een veilig, duurzaam en multimodaal mobiliteitsnetwerk.",
     "ac_long": "Naar een veilig, duurzaam en multimodaal mobiliteitsnetwerk voor zachte weggebruikers.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 1505000.0,
-    "amount_per_capita": 100.85,
+    "total_amount": 1531451.96,
+    "amount_per_capita": 102.79,
     "yearly_amounts": {
-      "2026": 232500.0,
+      "2026": 258951.96,
       "2027": 407500.0,
       "2028": 442500.0,
       "2029": 232500.0,
@@ -195,31 +161,99 @@
       "2031": 57500.0
     },
     "yearly_per_capita": {
-      "2026": 15.58,
-      "2027": 27.31,
-      "2028": 29.65,
-      "2029": 15.58,
-      "2030": 8.88,
-      "2031": 3.85
+      "2026": 17.38,
+      "2027": 27.35,
+      "2028": 29.7,
+      "2029": 15.6,
+      "2030": 8.89,
+      "2031": 3.86
     }
   },
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
+    "bd_short": "Beleidsdoelstelling 05",
+    "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
+    "ap_code": "0503",
+    "ap_short": "Actieplan 14",
+    "ap_long": "Onze ruimtelijke projecten dragen bij aan een de realisatie van een breder maatschappelijk doel.",
+    "ac_code": "0503_0532",
+    "ac_short": "Multifunctioneel sportcentrum aan de Sportpleinstraat.",
+    "ac_long": "We realiseren een multifunctioneel sportcentrum aan de Sportpleinstraat.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1450000.0,
+    "amount_per_capita": 97.32,
+    "yearly_amounts": {
+      "2026": 800000.0,
+      "2027": 0,
+      "2028": 400000.0,
+      "2029": 250000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 53.69,
+      "2027": 0,
+      "2028": 26.85,
+      "2029": 16.78,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 5",
+    "bd_short": "Beleidsdoelstelling 05",
+    "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
+    "ap_code": "0503",
+    "ap_short": "Actieplan 14",
+    "ap_long": "Onze ruimtelijke projecten dragen bij aan een de realisatie van een breder maatschappelijk doel.",
+    "ac_code": "0503_0533",
+    "ac_short": "Ontw gebied Warandepark (vijver en omgeving, speeltoestel).",
+    "ac_long": "Ontwikkeling gebied Warandepark (vijver en omgeving, speeltoestellen).",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1250000.0,
+    "amount_per_capita": 83.9,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 220000.0,
+      "2028": 1030000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 14.77,
+      "2028": 69.13,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 7",
     "bd_short": "Beleidsdoelstelling 07",
     "bd_long": "We werken aan een gezonde gemeente met een sterk sociaal beleid.",
     "ap_code": "0705",
     "ap_short": "Actieplan 23",
     "ap_long": "We versterken de ondersteuning van gezinnen en kinderen in de gemeente.",
-    "ac_code": "0705",
+    "ac_code": "0705_0751",
     "ac_short": "Uitbouw kinderopvang.",
     "ac_long": "Uitbouw kinderopvang: we ondersteunen de oprichting van erkende kinderopvanginitiatieven in onze gemeente.",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 1000000.0,
-    "amount_per_capita": 67.01,
+    "amount_per_capita": 67.12,
     "yearly_amounts": {
       "2026": 1000000.0,
       "2027": 0,
@@ -229,7 +263,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 67.01,
+      "2026": 67.12,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -240,33 +274,169 @@
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
+    "bd_short": "Beleidsdoelstelling 03",
+    "bd_long": "We werken aan een gemeente waar het aangenaam en veilig verplaatsen en verblijven is",
+    "ap_code": "0302",
+    "ap_short": "Actieplan 07",
+    "ap_long": "Veilige verplaatsingen kunnen niet zonder veilige infrastructuur.",
+    "ac_code": "0302_0322",
+    "ac_short": "Jaarlijkse renovatie en verbetering van onze voetpaden.",
+    "ac_long": "We investeren jaarlijks in de renovatie en verbetering van onze voetpaden, teneinde de toegankelijkheid en het comfort voor elke gebruiker te garanderen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 60.41,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 300000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 50000.0,
+      "2031": 400000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.07,
+      "2027": 20.14,
+      "2028": 0,
+      "2029": 0,
+      "2030": 3.36,
+      "2031": 26.85
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 5",
+    "bd_short": "Beleidsdoelstelling 05",
+    "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
+    "ap_code": "0503",
+    "ap_short": "Actieplan 14",
+    "ap_long": "Onze ruimtelijke projecten dragen bij aan een de realisatie van een breder maatschappelijk doel.",
+    "ac_code": "0503_0535",
+    "ac_short": "Uitvoering van nieuwe kerkhof.",
+    "ac_long": "Uitvoering van nieuwe kerkhof.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 60.41,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 200000.0,
+      "2028": 400000.0,
+      "2029": 200000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 13.42,
+      "2028": 26.85,
+      "2029": 13.42,
+      "2030": 3.36,
+      "2031": 3.36
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 5",
+    "bd_short": "Beleidsdoelstelling 05",
+    "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
+    "ap_code": "0503",
+    "ap_short": "Actieplan 14",
+    "ap_long": "Onze ruimtelijke projecten dragen bij aan een de realisatie van een breder maatschappelijk doel.",
+    "ac_code": "0503_0531",
+    "ac_short": "Wijkvernieuwingsproject Ban-Eik.",
+    "ac_long": "Wijkvernieuwingsproject Ban-Eik.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 725000.0,
+    "amount_per_capita": 48.66,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 225000.0,
+      "2028": 400000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.71,
+      "2027": 15.1,
+      "2028": 26.85,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 3",
+    "bd_short": "Beleidsdoelstelling 03",
+    "bd_long": "We werken aan een gemeente waar het aangenaam en veilig verplaatsen en verblijven is",
+    "ap_code": "0302",
+    "ap_short": "Actieplan 07",
+    "ap_long": "Veilige verplaatsingen kunnen niet zonder veilige infrastructuur.",
+    "ac_code": "0302_0324",
+    "ac_short": "Plannen, juridische instrum en verwervingen  publiek domein.",
+    "ac_long": "We voorzien de nodige plannen, juridische instrumenten en verwervingen om het publiek domein beter af te bakenen en strategisch uit te breiden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 442475.3,
+    "amount_per_capita": 29.7,
+    "yearly_amounts": {
+      "2026": 292475.3,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 19.63,
+      "2027": 3.36,
+      "2028": 0,
+      "2029": 0,
+      "2030": 3.36,
+      "2031": 3.36
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 6",
     "bd_short": "Beleidsdoelstelling 06",
     "bd_long": "We werken aan een duurzame gemeente met een gezond leefklimaat.",
     "ap_code": "0601",
     "ap_short": "Actieplan 15",
     "ap_long": "We bevorderen het behoud en herstel van biodiversiteit door duurzame oplossingen te ontwikkelen om de leefomgeving weerbaarder te maken tegen klimaatverandering.",
-    "ac_code": "0601",
+    "ac_code": "0601_0611",
     "ac_short": "We realiseren een groen-blauw netwerk.",
     "ac_long": "We realiseren een groen-blauw netwerk.",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 450000.0,
-    "amount_per_capita": 30.15,
+    "total_amount": 350000.0,
+    "amount_per_capita": 23.49,
     "yearly_amounts": {
-      "2026": 250000.0,
+      "2026": 200000.0,
       "2027": 0,
       "2028": 0,
-      "2029": 200000.0,
+      "2029": 150000.0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 16.75,
+      "2026": 13.42,
       "2027": 0,
       "2028": 0,
-      "2029": 13.4,
+      "2029": 10.07,
       "2030": 0,
       "2031": 0
     }
@@ -274,56 +444,56 @@
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
-    "bd_short": "Beleidsdoelstelling 07",
-    "bd_long": "We werken aan een gezonde gemeente met een sterk sociaal beleid.",
-    "ap_code": "0702",
-    "ap_short": "Actieplan 20",
-    "ap_long": "We versterken de sociale cohesie in onze gemeente.",
-    "ac_code": "0702",
-    "ac_short": "Zorgzame buurten, solidariteit en ondersteuning centraal",
-    "ac_long": "We nemen initiatieven om zorgzame buurten te ontwikkelen, waar solidariteit en ondersteuning centraal staan",
+    "bd_code": "BDS 5",
+    "bd_short": "Beleidsdoelstelling 05",
+    "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
+    "ap_code": "0503",
+    "ap_short": "Actieplan 14",
+    "ap_long": "Onze ruimtelijke projecten dragen bij aan een de realisatie van een breder maatschappelijk doel.",
+    "ac_code": "0503_0537",
+    "ac_short": "Noodzakelijke renovatie en uitbreiding  La Fermette.",
+    "ac_long": "Met de noodzakelijke renovatie en uitbreiding van La Fermette onderzoeken we de mogelijkheden voor een brede school.",
     "categories": [
-      "09-zorg-opvang"
+      "08-onderwijs"
     ],
-    "total_amount": 225500.0,
-    "amount_per_capita": 15.11,
+    "total_amount": 260000.0,
+    "amount_per_capita": 17.45,
     "yearly_amounts": {
-      "2026": 75500.0,
-      "2027": 20000.0,
-      "2028": 20000.0,
-      "2029": 100000.0,
-      "2030": 10000.0,
+      "2026": 160000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.06,
-      "2027": 1.34,
-      "2028": 1.34,
-      "2029": 6.7,
-      "2030": 0.67,
+      "2026": 10.74,
+      "2027": 3.36,
+      "2028": 3.36,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "Beleidsdoelstelling 05",
     "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
     "ap_code": "0501",
     "ap_short": "Actieplan 12",
     "ap_long": "We ontwikkelen een toekomstbestendige stedenbouwkundige visie, die rekening houdt met de bevolkingsgroei en de klimaatuitdagingen en die gericht is op het welzijn van inwoners, handelaars, bezoekers en recreanten.",
-    "ac_code": "0501",
+    "ac_code": "0501_0515",
     "ac_short": "Behoud van erfgoedkundig waardevolle elementen.",
     "ac_long": "Inzetten op het behoud van erfgoedkundig waardevolle elementen.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 200000.0,
-    "amount_per_capita": 13.4,
+    "total_amount": 250071.62,
+    "amount_per_capita": 16.78,
     "yearly_amounts": {
-      "2026": 75000.0,
+      "2026": 125071.62,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -331,33 +501,67 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.03,
+      "2026": 8.39,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 8.38,
+      "2030": 8.39,
       "2031": 0
     }
   },
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
-    "bd_short": "Beleidsdoelstelling 01",
-    "bd_long": "We werken aan een efficiënte organisatie.",
-    "ap_code": "0101",
-    "ap_short": "Actieplan 01",
-    "ap_long": "We bouwen aan doeltreffende, verantwoordelijke en sterke publieke diensten .",
-    "ac_code": "0101",
-    "ac_short": "We profileren ons als aantrekkelijke werkgever.",
-    "ac_long": "We profileren ons als aantrekkelijke werkgever.",
+    "bd_code": "BDS 7",
+    "bd_short": "Beleidsdoelstelling 07",
+    "bd_long": "We werken aan een gezonde gemeente met een sterk sociaal beleid.",
+    "ap_code": "0702",
+    "ap_short": "Actieplan 20",
+    "ap_long": "We versterken de sociale cohesie in onze gemeente.",
+    "ac_code": "0702_0727",
+    "ac_short": "Sociaal restaurant",
+    "ac_long": "Sociaal Restaurant",
     "categories": [
-      "01-algemeen-bestuur"
+      "09-zorg-opvang"
     ],
-    "total_amount": 80000.0,
-    "amount_per_capita": 5.36,
+    "total_amount": 163110.4,
+    "amount_per_capita": 10.95,
     "yearly_amounts": {
-      "2026": 80000.0,
+      "2026": 13110.4,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 100000.0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.88,
+      "2027": 1.34,
+      "2028": 1.34,
+      "2029": 6.71,
+      "2030": 0.67,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 7",
+    "bd_short": "Beleidsdoelstelling 07",
+    "bd_long": "We werken aan een gezonde gemeente met een sterk sociaal beleid.",
+    "ap_code": "0702",
+    "ap_short": "Actieplan 20",
+    "ap_long": "We versterken de sociale cohesie in onze gemeente.",
+    "ac_code": "0702_0724",
+    "ac_short": "We ontwikkelen het Ontmoetingscentrum tot een burgerhuis.",
+    "ac_long": "We ontwikkelen het Ontmoetingscentrum tot een burgerhuis.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 157145.79,
+    "amount_per_capita": 10.55,
+    "yearly_amounts": {
+      "2026": 157145.79,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -365,7 +569,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.36,
+      "2026": 10.55,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -376,13 +580,183 @@
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
+    "bd_short": "Beleidsdoelstelling 05",
+    "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
+    "ap_code": "0502",
+    "ap_short": "Actieplan 13",
+    "ap_long": "We zorgen er voor dat onze eigen diensten en verenigingen beschikken over de nodige aangepaste infrastructuur.",
+    "ac_code": "0502_0523",
+    "ac_short": "Ondersteuning jeugdbewegingen door infrastructuur.",
+    "ac_long": "We ondersteunen jeugdbewegingen door hen infrastructuur ter beschikking te stellen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 10.07,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.71,
+      "2027": 3.36,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 5",
+    "bd_short": "Beleidsdoelstelling 05",
+    "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
+    "ap_code": "0503",
+    "ap_short": "Actieplan 14",
+    "ap_long": "Onze ruimtelijke projecten dragen bij aan een de realisatie van een breder maatschappelijk doel.",
+    "ac_code": "0503_0536",
+    "ac_short": "Heraanleg St-Pieterskerk en het St-Pietersplein en omgeving.",
+    "ac_long": "Heraanleg rond de Sint-Pieterskerk en het Sint-Pietersplein en omgeving.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 126000.0,
+    "amount_per_capita": 8.46,
+    "yearly_amounts": {
+      "2026": 26000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.75,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 3.36,
+      "2031": 3.36
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 5",
+    "bd_short": "Beleidsdoelstelling 05",
+    "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
+    "ap_code": "0502",
+    "ap_short": "Actieplan 13",
+    "ap_long": "We zorgen er voor dat onze eigen diensten en verenigingen beschikken over de nodige aangepaste infrastructuur.",
+    "ac_code": "0502_0524",
+    "ac_short": "Verdere ontwikkeling van publiek toegankelijke speeltuinen.",
+    "ac_long": "We ontwikkelen de publiek toegankelijke speeltuinen verder, logisch verdeeld over de gemeente, en investeren in duurzame en veilige speeltuigen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 8.05,
+    "yearly_amounts": {
+      "2026": 120000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 5",
+    "bd_short": "Beleidsdoelstelling 05",
+    "bd_long": "We werken aan een gemeente waarin de infrastructuur de levenskwaliteit bevordert.",
+    "ap_code": "0503",
+    "ap_short": "Actieplan 14",
+    "ap_long": "Onze ruimtelijke projecten dragen bij aan een de realisatie van een breder maatschappelijk doel.",
+    "ac_code": "0503_0538",
+    "ac_short": "Ontwikkeling 'Groenpark Vosberg'.",
+    "ac_long": "Ontwikkeling 'Groenpark Vosberg': omgeving passionisten klooster, vlabinvest perceel, speelbos.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 8.05,
+    "yearly_amounts": {
+      "2026": 120000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 6",
+    "bd_short": "Beleidsdoelstelling 06",
+    "bd_long": "We werken aan een duurzame gemeente met een gezond leefklimaat.",
+    "ap_code": "0601",
+    "ap_short": "Actieplan 15",
+    "ap_long": "We bevorderen het behoud en herstel van biodiversiteit door duurzame oplossingen te ontwikkelen om de leefomgeving weerbaarder te maken tegen klimaatverandering.",
+    "ac_code": "0601_0613",
+    "ac_short": "Duurzamere landbouw binnen een globale aanpak open ruimte.",
+    "ac_long": "We ijveren voor een duurzamere landbouw binnen een globale aanpak voor de open ruimte.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 6.71,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 3.36,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 1",
     "bd_short": "Beleidsdoelstelling 01",
     "bd_long": "We werken aan een efficiënte organisatie.",
     "ap_code": "0102",
     "ap_short": "Actieplan 02",
     "ap_long": "We zorgen ervoor dat onze dienstverlening er toe bijdraagt dat onze inwoners zich welkom voelen.",
-    "ac_code": "0102",
+    "ac_code": "0102_0122",
     "ac_short": "Sterke, inclusieve en toegankelijke publiekscommunicatie.",
     "ac_long": "We zorgen vooreen  sterke, inclusieve en toegankelijke gemeentelijke publiekscommunicatie.",
     "categories": [
@@ -410,13 +784,115 @@
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "Beleidsdoelstelling 01",
+    "bd_long": "We werken aan een efficiënte organisatie.",
+    "ap_code": "0101",
+    "ap_short": "Actieplan 01",
+    "ap_long": "We bouwen aan doeltreffende, verantwoordelijke en sterke publieke diensten .",
+    "ac_code": "0101_0113",
+    "ac_short": "Maximaal inzetten op projectmatig en efficiënt werken.",
+    "ac_long": "We zetten maximaal in op projectmatig en efficiënt werken.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 35000.0,
+    "amount_per_capita": 2.35,
+    "yearly_amounts": {
+      "2026": 35000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.35,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 1",
+    "bd_short": "Beleidsdoelstelling 01",
+    "bd_long": "We werken aan een efficiënte organisatie.",
+    "ap_code": "0101",
+    "ap_short": "Actieplan 01",
+    "ap_long": "We bouwen aan doeltreffende, verantwoordelijke en sterke publieke diensten .",
+    "ac_code": "0101_0114",
+    "ac_short": "Digitale transformatie van de organisatie via ICT en AI.",
+    "ac_long": "Digitale transformatie van de organisatie via ICT en artificiële intelligentie.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 1.68,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 1",
+    "bd_short": "Beleidsdoelstelling 01",
+    "bd_long": "We werken aan een efficiënte organisatie.",
+    "ap_code": "0101",
+    "ap_short": "Actieplan 01",
+    "ap_long": "We bouwen aan doeltreffende, verantwoordelijke en sterke publieke diensten .",
+    "ac_code": "0101_0111",
+    "ac_short": "We profileren ons als aantrekkelijke werkgever.",
+    "ac_long": "We profileren ons als aantrekkelijke werkgever.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.34,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.34,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 4",
     "bd_short": "Beleidsdoelstelling 04",
     "bd_long": "We werken aan een bruisende gemeente.",
     "ap_code": "0401",
     "ap_short": "Actieplan 08",
     "ap_long": "Inwoners aanmoedigen en bijstaan om te recreëren, te sporten, zich in te zetten voor buurt of de gemeente en zicht te verenigen hiertoe.",
-    "ac_code": "0401",
+    "ac_code": "0401_0411",
     "ac_short": "Stroomlijning processen en reglementen voor verenigingen.",
     "ac_long": "We stroomlijnen onze processen en reglementen om de toegang voor verenigingen te faciliteren en de organisatie van evenementen te vergemakkelijken.",
     "categories": [
@@ -444,13 +920,13 @@
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "Beleidsdoelstelling 02",
     "bd_long": "We werken aan een financieel gezonde gemeente.",
     "ap_code": "0202",
     "ap_short": "Actieplan 04",
     "ap_long": "Gezonde financiën zijn het uitgangspunt van het beleid.",
-    "ac_code": "0202",
+    "ac_code": "0202_0221",
     "ac_short": "Digitalisering  ink  en uitg facturen en herinneringen.",
     "ac_long": "De digitalisering van inkomende en uitgaande facturen en herinneringen uitvoeren.",
     "categories": [
@@ -478,13 +954,13 @@
   {
     "municipality": "Wezembeek-Oppem",
     "nis_code": "23103",
-    "bd_code": "BDS",
+    "bd_code": "BDS 8",
     "bd_short": "Beleidsdoelstelling 08",
     "bd_long": "We werken aan een gemeente waar iedereen zich niet enkel inwoner, maar ook partner voelt",
     "ap_code": "0801",
     "ap_short": "Actieplan 24",
     "ap_long": "We willen de wederzijdse betrokkenheid bij de besluitvorming vergroten.",
-    "ac_code": "0801",
+    "ac_code": "0801_0812",
     "ac_short": "Dee gemeenteraadszittingen online ter beschikking stellen.",
     "ac_long": "We versterken de openbaarheid door de gemeenteraadszittingen online ter beschikking te stellen.",
     "categories": [
@@ -502,6 +978,40 @@
     },
     "yearly_per_capita": {
       "2026": 0.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wezembeek-Oppem",
+    "nis_code": "23103",
+    "bd_code": "BDS 7",
+    "bd_short": "Beleidsdoelstelling 07",
+    "bd_long": "We werken aan een gezonde gemeente met een sterk sociaal beleid.",
+    "ap_code": "0702",
+    "ap_short": "Actieplan 20",
+    "ap_long": "We versterken de sociale cohesie in onze gemeente.",
+    "ac_code": "0702_0721",
+    "ac_short": "Zorgzame buurten, solidariteit en ondersteuning centraal",
+    "ac_long": "We nemen initiatieven om zorgzame buurten te ontwikkelen, waar solidariteit en ondersteuning centraal staan",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.2,
+    "yearly_amounts": {
+      "2026": 3000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.2,
       "2027": 0,
       "2028": 0,
       "2029": 0,

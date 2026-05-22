@@ -2,40 +2,6 @@
   {
     "municipality": "Hamme",
     "nis_code": "42008",
-    "bd_code": "BD",
-    "bd_short": "Instandhouden en verbeteren van het patrimonium",
-    "bd_long": "Kwalitatieve omschrijving: Het AGB wil zich inzetten voor het duurzaam behouden, beheren en verbeteren van het patrimonium in eigendom of beheer, met het oog op een optimale maatschappelijke en economische waarde.\nHierbij wordt gestreefd naar een kwaliteitsvolle, toekomstgerichte infrastructuur die bijdraagt aan de leefbaarheid, dienstverlening en strategische doelstellingen van de gemeente.",
-    "ap_code": "AP",
-    "ap_short": "Sporthal structureel en functioneel verbeteren",
-    "ap_long": "De sporthal is een centrale infrastructuur voor sportieve en gemeenschapsactiviteiten. Het verbeteren ervan draagt bij aan een verhoogde gebruiksvriendelijkheid, energie-efficiëntie en multifunctionaliteit.",
-    "ac_code": "ACT",
-    "ac_short": "Inrichten van de casco-ruimte voor multifunctioneel sportgebruik",
-    "ac_long": "De casco-ruimte wordt ingericht tot polyvalente zaal voor sportactiviteiten. Dit verhoogt de benutting van de infrastructuur.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 17660827.0,
-    "amount_per_capita": 683.82,
-    "yearly_amounts": {
-      "2026": 1646472.0,
-      "2027": 8611147.0,
-      "2028": 4611771.0,
-      "2029": 511525.0,
-      "2030": 1717303.0,
-      "2031": 562609.0
-    },
-    "yearly_per_capita": {
-      "2026": 63.75,
-      "2027": 333.42,
-      "2028": 178.57,
-      "2029": 19.81,
-      "2030": 66.49,
-      "2031": 21.78
-    }
-  },
-  {
-    "municipality": "Hamme",
-    "nis_code": "42008",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
@@ -48,23 +14,91 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 14239844.0,
-    "amount_per_capita": 551.36,
+    "total_amount": 19561462.04,
+    "amount_per_capita": 755.84,
     "yearly_amounts": {
-      "2026": 2905906.0,
-      "2027": 2325969.0,
-      "2028": 2420184.0,
-      "2029": 2119039.0,
-      "2030": 2326696.0,
-      "2031": 2142050.0
+      "2026": 8254064.04,
+      "2027": 2320869.0,
+      "2028": 2414982.0,
+      "2029": 2113733.0,
+      "2030": 2321284.0,
+      "2031": 2136530.0
     },
     "yearly_per_capita": {
-      "2026": 112.52,
-      "2027": 90.06,
-      "2028": 93.71,
-      "2029": 82.05,
-      "2030": 90.09,
-      "2031": 82.94
+      "2026": 318.93,
+      "2027": 89.68,
+      "2028": 93.31,
+      "2029": 81.67,
+      "2030": 89.69,
+      "2031": 82.55
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-03",
+    "bd_short": "Investeren in openbare ruimte, mobiliteit en gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente investeert in energiezuinige gebouwen en optimaliseert het huidig patrimonium naar de geldende klimaatnormen.\nEen nieuw mobiliteitsplan vormt de basis voor een veilige, duurzame en inclusieve verplaatsingsomgeving. \nDe gemeente investeert hierbij in veilige fiets- en voetpaden, slimme verkeersoplossingen en een betere doorstroming op probleemlocaties. \nEr komen laadpalen en overdekte fietsenstallingen met oplaadpunten op strategische plaatsen. \nHet trage wegennetwerk wordt uitgebreid om wandelen en fietsen te stimuleren. \nDe herinrichting van straten en pleinen gebeurt met aandacht voor klimaatadaptatie en ontharding.",
+    "ap_code": "AP-06",
+    "ap_short": "Infrastructuur en mobiliteit",
+    "ap_long": "Fluvius gaf een doorlichting van 5 gebouwen waarbij werd vastgesteld dat met een energetische renovatie van het gemeentemagazijn en OC Ter Munken de grootste efficiëntiewinst wordt geboekt op de kortste tijd. \nZij behoren immers tot de grootste volumes van het gemeentelijk patrimonium en scoren zeer slecht op het EPC-label.\n\nHet mobiliteitsplan wordt geactualiseerd.",
+    "ac_code": "ACT-14",
+    "ac_short": "Rijbekestraat-Mandemakerstraat-Drapstraat & Biezestraat  & Sint-Anna",
+    "ac_long": "Project Rijbekestraat: \nDe aanleg van een regenwatercollector door Aquafin in deze straten vermindert de verdunning van de toevoer naar het zuiveringsstation en beschermt het centrum tegen wateroverlast. \nGelijktijdig wordt er op kosten van het gemeentebestuur vuilwaterriolering langs het tracé aangelegd zodat men tot een gescheiden systeem komt. \nOok de bovenbouw wordt volledig vernieuwd.\n\nProject Biezestraat:\nNaar aanleiding van bovengemeentelijke rioleringswerken wordt de bovenbouw van het gedeelte tussen Drapstraat en N41 heraangelegd met ruime verhoogde fietspaden.\n\nProject weg- en rioleringswerken Sint-Annastraat",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 7191000.0,
+    "amount_per_capita": 277.86,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 6965000.0,
+      "2028": 226000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 269.12,
+      "2028": 8.73,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-02",
+    "bd_short": "Kwalitatief welzijn, zorg- en gezondheidsbeleid",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente zet sterk in op een zorgaanbod dat inspeelt op mentale gezondheid, vereenzaming en ziektepreventie.\nWe overleggen structureel met relevante partners omtrent huisvesting, versnelde toewijzingen, uithuiszettingen, dakloosheid.\nWe werken een breed activeringsbeleid uit waarin we samenwerken met interne en externe partners, zetten verder in op oefenkansen Nederlands, begeleiden naar sociale en professionele activering.\nOnze kinderopvang (0-3j) wordt uitgebreid om aan de stijgende vraag te voldoen. Kinderen en gezinnen kunnen rekenen op een sterk BOA-beleid dat wordt uitgebouwd rond de pijlers BKO, opvang op school en vrijetijdsactiviteiten.\nWe gaan voor een verdere professionalisering van onze ouderenzorg met aandacht voor kwaliteit en betaalbaarheid.\nOp de site van het  ‘Oud Moederhuis’ in de Damputstraat realiseren we een Zorg- en Welzijnscampus waar we een divers aanbod aan dienstverlening samenbrengen.",
+    "ap_code": "AP-02",
+    "ap_short": "Een ondersteunend beleid inzake armoede, welzijn, huisvesting, gezondheid, vrije tijd, diversiteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-05",
+    "ac_short": "Zorg- en welzijnscampus",
+    "ac_long": "Waar we andere besturen hun zorgvoorzieningen zien afstoten, blijft Hamme investeren in extra middelen voor zorg, welzijn en gezin.\nMet de realisatie van een Zorg- en Welzijnscampus gaan we voor een heel belangrijke investering én de strategische keuze om op de site van het oud Moederhuis in de Damputstraat onze zorg- en welzijnsdienstverlening samen te brengen.\nWe creëren er een laagdrempelige, doorwaadbare en dus heel toegankelijke site met plaats voor SOC ’t Verhoog, het Huis van het Kind, het Consultatiebureau Kind & Gezin en plek voor een nieuw Lokaal Dienstencentrum dat mensen zal samenbrengen.\nWe breiden onze capaciteit van het kinderdagverblijf De Zonnebloem uit met 14 plaatsen zodat ons aanbod de stijgende opvangnoden volgt onder voorbehoud goedkeuring subsidiedossiers.\nDe site moet verbinding uitstralen. Zowel oudere of alleenstaande inwoners die op zoek zijn naar gezelschap en een babbel, mensen met zorgvragen of welzijnsproblemen en ouders of gezinnen met jonge kinderen moeten er zich welkom voelen en kunnen genieten van onze dienstverlening.\nDe campus wordt bovendien zo ingericht dat deze het centrum via het Kerkwijckpark zal linken met de nieuwe ontwikkeling op de Go!-site en de Vigorwijk waardoor we een nieuwe verbinding leggen tussen buurten.\nHet project wordt uitgevoerd onder de begeleiding van de Vlaamse bouwmeester en zal bovendien aandacht hebben voor de identiteit van ons oud Moederhuis dat we mee willen verweven in het project. \nDe werking van ’t Verhoog is de laatste jaren fel uitgebreid door de stijging van het aantal leefloongerechtigden, meer rechthebbenden op voedselverdeling en dus meer bezoekers. ’t Verhoog speelt een belangrijke rol als laagdrempelige toegangspoort tot hulpverlening. Naast voedselverdeling gaan er allerlei activiteiten door zoals oefenkansen Nederlands, workshops in kader van activering, psychologische hulpverlening, infomomenten rond het beheren van je budget, ontmoetingsmomenten, huistaakbegeleiding, … . In een nieuwe campus op de site oud Moederhuis brengen we ’t Verhoog onder zodat de uitgebreidere werking de ruimte krijgt die ze nodig heeft.\nVoor HvhK is er nood aan een geïntegreerde fysieke locatie (cfr. geïntegreerde jeugd- en welzijnsbeleid onder het motto ‘Vroeg en nabij’). Dit verhoogt de toegankelijkheid/laagdrempeligheid voor gezinnen, centraliseert alle activiteiten en de partners waarmee HvhK samenwerkt. Om gezinnen goed te kunnen ondersteunen, is een geïntegreerde dienstverlening en een onthaalfunctie van belang.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3450000.0,
+    "amount_per_capita": 133.31,
+    "yearly_amounts": {
+      "2026": 360000.0,
+      "2027": 90000.0,
+      "2028": 3000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.91,
+      "2027": 3.48,
+      "2028": 115.92,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -73,19 +107,19 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "OCMW",
+    "ap_code": "OCMW_VB",
     "ap_short": "Verrichtingen zonder beleidsdoelstelling OCMW",
     "ap_long": "Commentaar:",
-    "ac_code": "OCMW",
+    "ac_code": "OCMW_VB",
     "ac_short": "Verrichtingen zonder beleidsdoelstelling OCMW",
     "ac_long": "Commentaar:",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 2817727.0,
-    "amount_per_capita": 109.1,
+    "total_amount": 3384585.74,
+    "amount_per_capita": 130.78,
     "yearly_amounts": {
-      "2026": 585100.0,
+      "2026": 1151958.74,
       "2027": 290275.0,
       "2028": 109500.0,
       "2029": 1520852.0,
@@ -93,12 +127,658 @@
       "2031": 162500.0
     },
     "yearly_per_capita": {
-      "2026": 22.65,
-      "2027": 11.24,
-      "2028": 4.24,
-      "2029": 58.89,
-      "2030": 5.79,
-      "2031": 6.29
+      "2026": 44.51,
+      "2027": 11.22,
+      "2028": 4.23,
+      "2029": 58.76,
+      "2030": 5.78,
+      "2031": 6.28
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-03",
+    "bd_short": "Investeren in openbare ruimte, mobiliteit en gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente investeert in energiezuinige gebouwen en optimaliseert het huidig patrimonium naar de geldende klimaatnormen.\nEen nieuw mobiliteitsplan vormt de basis voor een veilige, duurzame en inclusieve verplaatsingsomgeving. \nDe gemeente investeert hierbij in veilige fiets- en voetpaden, slimme verkeersoplossingen en een betere doorstroming op probleemlocaties. \nEr komen laadpalen en overdekte fietsenstallingen met oplaadpunten op strategische plaatsen. \nHet trage wegennetwerk wordt uitgebreid om wandelen en fietsen te stimuleren. \nDe herinrichting van straten en pleinen gebeurt met aandacht voor klimaatadaptatie en ontharding.",
+    "ap_code": "AP-06",
+    "ap_short": "Infrastructuur en mobiliteit",
+    "ap_long": "Fluvius gaf een doorlichting van 5 gebouwen waarbij werd vastgesteld dat met een energetische renovatie van het gemeentemagazijn en OC Ter Munken de grootste efficiëntiewinst wordt geboekt op de kortste tijd. \nZij behoren immers tot de grootste volumes van het gemeentelijk patrimonium en scoren zeer slecht op het EPC-label.\n\nHet mobiliteitsplan wordt geactualiseerd.",
+    "ac_code": "ACT-13",
+    "ac_short": "Mobiliteitsplan",
+    "ac_long": "Mobiliteitsplan Hamme: tijd voor vernieuwing\nMobiliteit is een thema dat letterlijk en figuurlijk in beweging blijft. Het bepaalt hoe we ons verplaatsen, hoe veilig onze wegen zijn en hoe leefbaar onze gemeente blijft. Het is ook een onderwerp dat sterk leeft bij onze inwoners.\nHet huidige mobiliteitsplan van Hamme is verouderd. De eerste versie dateert van 2003, gevolgd door een sneltoets in 2009 en een verbreding en verdieping in 2012. Intussen zijn de mobiliteitsuitdagingen en ambities van ons lokaal bestuur sterk veranderd. Het bestaande plan sluit daar niet langer bij aan.\nDaarom willen we een nieuw mobiliteitsplan uitwerken dat inspeelt op de noden van vandaag en morgen. \n\nOns doel? \nEen vlot bereikbare, veilige en leefbare gemeente, waar verkeersveiligheid en levenskwaliteit centraal staan. We pakken moeilijke verkeerspunten aan, maken schoolomgevingen veiliger en bouwen een sterk fietsroutenetwerk uit.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1908279.07,
+    "amount_per_capita": 73.73,
+    "yearly_amounts": {
+      "2026": 408279.07,
+      "2027": 300000.0,
+      "2028": 300000.0,
+      "2029": 300000.0,
+      "2030": 300000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 15.78,
+      "2027": 11.59,
+      "2028": 11.59,
+      "2029": 11.59,
+      "2030": 11.59,
+      "2031": 11.59
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-05",
+    "bd_short": "Hamme, waar vrije tijd leeft",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is geen luxe. Het is een essentiële bouwsteen van een gezonde, verbonden en veerkrachtige samenleving. In Hamme geloven we dat vrije tijd mensen samenbrengt, talenten ontwikkelt en levenskwaliteit verhoogt. Daarom zetten we de komende jaren voluit in op een toegankelijk, divers en kwaliteitsvol vrijetijdsaanbod. Een aanbod dat niet alleen inspeelt op de noden van vandaag, maar ook klaar is voor de toekomst.\n\nWe willen van Hamme een gemeente maken waar ontmoeting vanzelfsprekend is, waar verenigingen bloeien, waar vrijwilligers zich gewaardeerd voelen en waar elk kind, elke jongere en elke volwassene kansen krijgt om te sporten, spelen, leren en genieten. Dat doen we door te investeren in toegankelijkheid, duurzame infrastructuur en participatie.",
+    "ap_code": "AP-11",
+    "ap_short": "Infrastructuur klaar voor morgen",
+    "ap_long": "Onze infrastructuur vormt het kloppend hart van een bruisend vrijetijdsleven. In Hamme willen we dat iedereen kan genieten van kwaliteitsvolle sport, cultuur en ontspanning, vandaag én morgen. Daarom investeren we de komende jaren in duurzame, multifunctionele en toekomstgerichte voorzieningen die ontmoeting, creativiteit en beleving stimuleren.\n \nWe starten met een grondige renovatie van de groene zaal in sporthal Meulenbroek. Deze ruimte wordt omgevormd tot een moderne en duurzame sportruimte, zodat sportclubs en recreanten in optimale omstandigheden kunnen sporten. \n \nOnze jeugd verdient ruimte om te groeien. Daarom voorzien we kwalitatieve lokalen voor KLJ Sint-Anna en zoeken we een definitieve oplossing voor KSA Hamme. Zo geven we jeugdwerk de infrastructuur die het nodig heeft om kinderen en jongeren kansen te bieden.\n\nToerisme en natuurbeleving krijgen een stevige impuls. Aan de Mirabrug realiseren we een volwaardige camperplaats met alle nutsvoorzieningen, zodat Hamme aantrekkelijk wordt voor kampeerders en toeristen. We leggen een speelse belevingsroute aan waar natuur, spel en erfgoed samenkomen, en ontwikkelen een kindvriendelijke wandeling die gezinnen op een speelse manier laat kennismaken met onze gemeente.\n \nOok cultuur krijgt een prominente plaats in ons infrastructuurbeleid. In de voormalige bibliotheek bouwen we een belevingscentrum uit dat ruimte biedt aan lokaal talent, kunst, erfgoed en archief. In 2027 richten we de benedenverdieping in voor een eerste publiekswerking. In 2029 volgt een architecturale voorstudie voor een volwaardige depotruimte, en in 2030 openen we een volledig operationeel belevingscentrum met museale invulling en depotfunctie. Dit project versterkt de culturele identiteit van Hamme, biedt kansen aan kunstenaars en verenigingen, en garandeert een professionele bewaring van ons erfgoed.\n  \nMet deze investeringen bouwen we aan een Hamme dat klaar is voor morgen: een gemeente waar sport, cultuur, natuur, ontmoeting en toerisme samenkomen in kwaliteitsvolle infrastructuur, en waar iedereen zich welkom voelt.",
+    "ac_code": "ACT-27",
+    "ac_short": "Belevingscentrum",
+    "ac_long": "We voorzien de ontwikkeling van een belevingscentrum in de voormalige bibliotheek, met ruimte voor lokaal talent, kunst, erfgoed en archief, met een museale invulling en depotwerking. In 2027 realiseren we een minimale inrichting van de benedenverdieping om een eerste publiekswerking mogelijk te maken (budget €100.000). In 2029 volgt een architecturale voorstudie voor de uitwerking van een volwaardige depotruimte (budget €50.000). Op basis van deze studie voeren we in 2030 de plannen uit en realiseren we een volledig operationeel belevingscentrum met museale invulling en depotfunctie (budget €1.250.000). Dit project versterkt de culturele identiteit van Hamme, biedt kansen aan lokaal talent en garandeert een professionele bewaring van erfgoed en archief.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1431175.65,
+    "amount_per_capita": 55.3,
+    "yearly_amounts": {
+      "2026": 31175.65,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 50000.0,
+      "2030": 1250000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.2,
+      "2027": 3.86,
+      "2028": 0,
+      "2029": 1.93,
+      "2030": 48.3,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-03",
+    "bd_short": "Investeren in openbare ruimte, mobiliteit en gemeentelijke infrastructuur",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente investeert in energiezuinige gebouwen en optimaliseert het huidig patrimonium naar de geldende klimaatnormen.\nEen nieuw mobiliteitsplan vormt de basis voor een veilige, duurzame en inclusieve verplaatsingsomgeving. \nDe gemeente investeert hierbij in veilige fiets- en voetpaden, slimme verkeersoplossingen en een betere doorstroming op probleemlocaties. \nEr komen laadpalen en overdekte fietsenstallingen met oplaadpunten op strategische plaatsen. \nHet trage wegennetwerk wordt uitgebreid om wandelen en fietsen te stimuleren. \nDe herinrichting van straten en pleinen gebeurt met aandacht voor klimaatadaptatie en ontharding.",
+    "ap_code": "AP-06",
+    "ap_short": "Infrastructuur en mobiliteit",
+    "ap_long": "Fluvius gaf een doorlichting van 5 gebouwen waarbij werd vastgesteld dat met een energetische renovatie van het gemeentemagazijn en OC Ter Munken de grootste efficiëntiewinst wordt geboekt op de kortste tijd. \nZij behoren immers tot de grootste volumes van het gemeentelijk patrimonium en scoren zeer slecht op het EPC-label.\n\nHet mobiliteitsplan wordt geactualiseerd.",
+    "ac_code": "ACT-15",
+    "ac_short": "Energetische renovatie magazijn Zwaarveld en Ter Munken",
+    "ac_long": "De optimalisatie van het gemeentemagazijn houdt o.m. een nieuwe dakhuid inclusief bijkomende isolatie, isoleren langs buiten- en binnenzijde, installatie van paneeldeuren en poorten met inloopdeuren, isolatie van de leidingen, de installatie van balansventilatie en het vernieuwen van de zonnepanelen.\nDe optimalisatie van OC Ter Munken behelst een totaalrenovatie van de volledige vloeropbouw, een nieuwe dakhuid inclusief bijkomende isolatie, isoleren langs de buitenzijde, dubbele beglazing, de vervanging van paneeldeuren, verledding, installatie warmtepompen, isolatie van de leidingen en een zonnepaneleninstallatie.\nBeide renovaties hebben een terugverdientijd van 25 jaar en de optimalisatie  van OC Ter Munken zal voor zorgen dat de zaal opnieuw volwaardig kan gebruikt worden.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 946856.66,
+    "amount_per_capita": 36.59,
+    "yearly_amounts": {
+      "2026": 136856.66,
+      "2027": 483500.0,
+      "2028": 326500.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.29,
+      "2027": 18.68,
+      "2028": 12.62,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-07",
+    "bd_short": "Veiligheid op het Hams grondgebied",
+    "bd_long": "Kwalitatieve omschrijving: In het veiligheidsbeleid is eerste hulp belangrijk voor onze inwoners. \nHamme zet verder in op een nauwe samenwerking met onze veiligheidspartners en blijft de EVA vzw Dienst 112 in Hamme verder ondersteunen.\nHamme voert een kordaat veiligheidsbeleid dat inzet op preventie en handhaving. Cameratoezicht wordt gebruikt op strategische locaties om overlast en crimineel gedrag tegen te gaan. \nWijkagenten en jeugdwelzijnswerk spelen een sleutelrol in toezicht en buurtwerking. \nHet politiereglement wordt aangepast om patsergedrag en straatracen te bestrijden. Samenwerking met jeugdorganisaties moet bijdragen aan een veilig uitgaansklimaat.",
+    "ap_code": "AP-14",
+    "ap_short": "Lokale veiligheidsdiensten versterken in hun werking.",
+    "ap_long": "We bekijken de opschaling naar een grotere politiezone in het teken van meer aanwezige en aanspreekbare politie in het straatbeeld. \nBinnen de hulpverleningszone Oost gaan extra middelen naar een efficiënte en financieel gezonde brandweerwerking. \nWe actualiseren onze nood- en interventieplannen en bouwen een netwerk van vrijwilligers uit voor ondersteuning bij noodsituaties.\nSamen vormen ze de belangrijkste schakels om de veiligheid van de Hammenaren te garanderen.",
+    "ac_code": "ACT-36",
+    "ac_short": "Blijvend inzetten op samenwerking met lokale veiligheidspartners",
+    "ac_long": "Hamme investeert  de komende jaren meer in de Zone Oost met als doel meer veiligheid te creêren. Ondanks de financieel uitdagende context wordt bewust gekozen voor versterking van de brandweerzone en wordt een Inhaalbeweging uitgevoerd.\nDit met als doel meer en meer het wettelijk takenpakket volledig op te nemen, de veiligheid van de brandweermedewerkers te verhogen en een verdere verbetering van de dienstverlening te realiseren.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 793926.0,
+    "amount_per_capita": 30.68,
+    "yearly_amounts": {
+      "2026": 130571.0,
+      "2027": 127647.0,
+      "2028": 129271.0,
+      "2029": 136525.0,
+      "2030": 132303.0,
+      "2031": 137609.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.05,
+      "2027": 4.93,
+      "2028": 4.99,
+      "2029": 5.28,
+      "2030": 5.11,
+      "2031": 5.32
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-05",
+    "bd_short": "Hamme, waar vrije tijd leeft",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is geen luxe. Het is een essentiële bouwsteen van een gezonde, verbonden en veerkrachtige samenleving. In Hamme geloven we dat vrije tijd mensen samenbrengt, talenten ontwikkelt en levenskwaliteit verhoogt. Daarom zetten we de komende jaren voluit in op een toegankelijk, divers en kwaliteitsvol vrijetijdsaanbod. Een aanbod dat niet alleen inspeelt op de noden van vandaag, maar ook klaar is voor de toekomst.\n\nWe willen van Hamme een gemeente maken waar ontmoeting vanzelfsprekend is, waar verenigingen bloeien, waar vrijwilligers zich gewaardeerd voelen en waar elk kind, elke jongere en elke volwassene kansen krijgt om te sporten, spelen, leren en genieten. Dat doen we door te investeren in toegankelijkheid, duurzame infrastructuur en participatie.",
+    "ap_code": "AP-11",
+    "ap_short": "Infrastructuur klaar voor morgen",
+    "ap_long": "Onze infrastructuur vormt het kloppend hart van een bruisend vrijetijdsleven. In Hamme willen we dat iedereen kan genieten van kwaliteitsvolle sport, cultuur en ontspanning, vandaag én morgen. Daarom investeren we de komende jaren in duurzame, multifunctionele en toekomstgerichte voorzieningen die ontmoeting, creativiteit en beleving stimuleren.\n \nWe starten met een grondige renovatie van de groene zaal in sporthal Meulenbroek. Deze ruimte wordt omgevormd tot een moderne en duurzame sportruimte, zodat sportclubs en recreanten in optimale omstandigheden kunnen sporten. \n \nOnze jeugd verdient ruimte om te groeien. Daarom voorzien we kwalitatieve lokalen voor KLJ Sint-Anna en zoeken we een definitieve oplossing voor KSA Hamme. Zo geven we jeugdwerk de infrastructuur die het nodig heeft om kinderen en jongeren kansen te bieden.\n\nToerisme en natuurbeleving krijgen een stevige impuls. Aan de Mirabrug realiseren we een volwaardige camperplaats met alle nutsvoorzieningen, zodat Hamme aantrekkelijk wordt voor kampeerders en toeristen. We leggen een speelse belevingsroute aan waar natuur, spel en erfgoed samenkomen, en ontwikkelen een kindvriendelijke wandeling die gezinnen op een speelse manier laat kennismaken met onze gemeente.\n \nOok cultuur krijgt een prominente plaats in ons infrastructuurbeleid. In de voormalige bibliotheek bouwen we een belevingscentrum uit dat ruimte biedt aan lokaal talent, kunst, erfgoed en archief. In 2027 richten we de benedenverdieping in voor een eerste publiekswerking. In 2029 volgt een architecturale voorstudie voor een volwaardige depotruimte, en in 2030 openen we een volledig operationeel belevingscentrum met museale invulling en depotfunctie. Dit project versterkt de culturele identiteit van Hamme, biedt kansen aan kunstenaars en verenigingen, en garandeert een professionele bewaring van ons erfgoed.\n  \nMet deze investeringen bouwen we aan een Hamme dat klaar is voor morgen: een gemeente waar sport, cultuur, natuur, ontmoeting en toerisme samenkomen in kwaliteitsvolle infrastructuur, en waar iedereen zich welkom voelt.",
+    "ac_code": "ACT-38",
+    "ac_short": "Renovatie oud gemeentehuis Moerzeke en kapel Koningsplein",
+    "ac_long": "We investeren in de restauratie van onze beschermde monumenten. Het oud gemeentehuis van Moerzeke krijgt een grondige renovatie van het exterieur, zo wordt het dak, de gevel en alle schrijnwerk vervangen.\nDe kapel op het Koningsplein krijgt een volledige renovatie. De kapel speelt sinds eeuwen een belangrijke rol als bron van roerend erfgoed in Moerzeke.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 675980.0,
+    "amount_per_capita": 26.12,
+    "yearly_amounts": {
+      "2026": 345980.0,
+      "2027": 330000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.37,
+      "2027": 12.75,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-04",
+    "bd_short": "Ruimtelijke ordening, leefmilieu en dierenwelzijn",
+    "bd_long": "Kwalitatieve omschrijving: Hamme ontwikkelt een nieuw ruimtelijk plan dat inzet op kernverdichting, herbestemming van oude gebouwen en klimaatbevorderende maatregelen bij nieuwe projecten. \nWe ambiëren een vergroening van o.m. de begraafplaatsen en zetten in op samenwerking met sociale economie voor het onderhoud van het openbaar domein.\nHet bestuur voert een nultolerantiebeleid tegen zwerfvuil en sluikstort, met hogere GAS-boetes en meer controles. \nVaststellers spelen een actieve rol in handhaving en bemiddeling. \nVoor dierenwelzijn worden extra hondenlosloopzones voorzien en initiatieven zoals egelhotels en opvang van gewonde dieren uitgerold.",
+    "ap_code": "AP-07",
+    "ap_short": "Aandacht voor milieu en bevordering van het dierenwelzijn in onze gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-18",
+    "ac_short": "Uitvoeren klimaatplannen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 404123.18,
+    "amount_per_capita": 15.62,
+    "yearly_amounts": {
+      "2026": 279123.18,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.79,
+      "2027": 0.97,
+      "2028": 0.97,
+      "2029": 0.97,
+      "2030": 0.97,
+      "2031": 0.97
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-05",
+    "bd_short": "Hamme, waar vrije tijd leeft",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is geen luxe. Het is een essentiële bouwsteen van een gezonde, verbonden en veerkrachtige samenleving. In Hamme geloven we dat vrije tijd mensen samenbrengt, talenten ontwikkelt en levenskwaliteit verhoogt. Daarom zetten we de komende jaren voluit in op een toegankelijk, divers en kwaliteitsvol vrijetijdsaanbod. Een aanbod dat niet alleen inspeelt op de noden van vandaag, maar ook klaar is voor de toekomst.\n\nWe willen van Hamme een gemeente maken waar ontmoeting vanzelfsprekend is, waar verenigingen bloeien, waar vrijwilligers zich gewaardeerd voelen en waar elk kind, elke jongere en elke volwassene kansen krijgt om te sporten, spelen, leren en genieten. Dat doen we door te investeren in toegankelijkheid, duurzame infrastructuur en participatie.",
+    "ap_code": "AP-11",
+    "ap_short": "Infrastructuur klaar voor morgen",
+    "ap_long": "Onze infrastructuur vormt het kloppend hart van een bruisend vrijetijdsleven. In Hamme willen we dat iedereen kan genieten van kwaliteitsvolle sport, cultuur en ontspanning, vandaag én morgen. Daarom investeren we de komende jaren in duurzame, multifunctionele en toekomstgerichte voorzieningen die ontmoeting, creativiteit en beleving stimuleren.\n \nWe starten met een grondige renovatie van de groene zaal in sporthal Meulenbroek. Deze ruimte wordt omgevormd tot een moderne en duurzame sportruimte, zodat sportclubs en recreanten in optimale omstandigheden kunnen sporten. \n \nOnze jeugd verdient ruimte om te groeien. Daarom voorzien we kwalitatieve lokalen voor KLJ Sint-Anna en zoeken we een definitieve oplossing voor KSA Hamme. Zo geven we jeugdwerk de infrastructuur die het nodig heeft om kinderen en jongeren kansen te bieden.\n\nToerisme en natuurbeleving krijgen een stevige impuls. Aan de Mirabrug realiseren we een volwaardige camperplaats met alle nutsvoorzieningen, zodat Hamme aantrekkelijk wordt voor kampeerders en toeristen. We leggen een speelse belevingsroute aan waar natuur, spel en erfgoed samenkomen, en ontwikkelen een kindvriendelijke wandeling die gezinnen op een speelse manier laat kennismaken met onze gemeente.\n \nOok cultuur krijgt een prominente plaats in ons infrastructuurbeleid. In de voormalige bibliotheek bouwen we een belevingscentrum uit dat ruimte biedt aan lokaal talent, kunst, erfgoed en archief. In 2027 richten we de benedenverdieping in voor een eerste publiekswerking. In 2029 volgt een architecturale voorstudie voor een volwaardige depotruimte, en in 2030 openen we een volledig operationeel belevingscentrum met museale invulling en depotfunctie. Dit project versterkt de culturele identiteit van Hamme, biedt kansen aan kunstenaars en verenigingen, en garandeert een professionele bewaring van ons erfgoed.\n  \nMet deze investeringen bouwen we aan een Hamme dat klaar is voor morgen: een gemeente waar sport, cultuur, natuur, ontmoeting en toerisme samenkomen in kwaliteitsvolle infrastructuur, en waar iedereen zich welkom voelt.",
+    "ac_code": "ACT-30",
+    "ac_short": "We ondersteunen de jeugdverenigingen inzake benodigde infrastructuur",
+    "ac_long": "Het gemeentebestuur huurt momenteel voor KLJ Sint-Anna jeugdlokalen. Deze lokalen zijn echter onvoldoende geschikt en veilig om een jeugdwerking in te kunnen houden of uitbouwen. Daarnaast is de locatie veel te klein. Daarom voorzien we voor KLJ Sint-Anna een voldoende ruime investeringssubsidie voor de oprichting van hun eigen lokalen in Sint-Anna gezien de lokale verankering van de werking.\nDaarnaast zal er een verdere aanzet gegeven worden tot een definitieve oplossing voor KSA Hamme hun lokalenproblematiek. Vorige legislatuur is er door een schenking een tijdelijke oplossing uit de bus gekomen via werfcontainers. Deze oplossing is uiteraard op langere termijn onvoldoende. Daarom zetten we in op het onderzoeken van een definitieve oplossing op de huidige locatie indien mogelijk.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 15.46,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 11.59,
+      "2029": 0,
+      "2030": 0,
+      "2031": 3.86
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-02",
+    "bd_short": "Kwalitatief welzijn, zorg- en gezondheidsbeleid",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente zet sterk in op een zorgaanbod dat inspeelt op mentale gezondheid, vereenzaming en ziektepreventie.\nWe overleggen structureel met relevante partners omtrent huisvesting, versnelde toewijzingen, uithuiszettingen, dakloosheid.\nWe werken een breed activeringsbeleid uit waarin we samenwerken met interne en externe partners, zetten verder in op oefenkansen Nederlands, begeleiden naar sociale en professionele activering.\nOnze kinderopvang (0-3j) wordt uitgebreid om aan de stijgende vraag te voldoen. Kinderen en gezinnen kunnen rekenen op een sterk BOA-beleid dat wordt uitgebouwd rond de pijlers BKO, opvang op school en vrijetijdsactiviteiten.\nWe gaan voor een verdere professionalisering van onze ouderenzorg met aandacht voor kwaliteit en betaalbaarheid.\nOp de site van het  ‘Oud Moederhuis’ in de Damputstraat realiseren we een Zorg- en Welzijnscampus waar we een divers aanbod aan dienstverlening samenbrengen.",
+    "ap_code": "AP-02",
+    "ap_short": "Een ondersteunend beleid inzake armoede, welzijn, huisvesting, gezondheid, vrije tijd, diversiteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-56",
+    "ac_short": "Inrichten Slangstraat 44 als transitiehuis",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 345705.77,
+    "amount_per_capita": 13.36,
+    "yearly_amounts": {
+      "2026": 345705.77,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-05",
+    "bd_short": "Hamme, waar vrije tijd leeft",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is geen luxe. Het is een essentiële bouwsteen van een gezonde, verbonden en veerkrachtige samenleving. In Hamme geloven we dat vrije tijd mensen samenbrengt, talenten ontwikkelt en levenskwaliteit verhoogt. Daarom zetten we de komende jaren voluit in op een toegankelijk, divers en kwaliteitsvol vrijetijdsaanbod. Een aanbod dat niet alleen inspeelt op de noden van vandaag, maar ook klaar is voor de toekomst.\n\nWe willen van Hamme een gemeente maken waar ontmoeting vanzelfsprekend is, waar verenigingen bloeien, waar vrijwilligers zich gewaardeerd voelen en waar elk kind, elke jongere en elke volwassene kansen krijgt om te sporten, spelen, leren en genieten. Dat doen we door te investeren in toegankelijkheid, duurzame infrastructuur en participatie.",
+    "ap_code": "AP-11",
+    "ap_short": "Infrastructuur klaar voor morgen",
+    "ap_long": "Onze infrastructuur vormt het kloppend hart van een bruisend vrijetijdsleven. In Hamme willen we dat iedereen kan genieten van kwaliteitsvolle sport, cultuur en ontspanning, vandaag én morgen. Daarom investeren we de komende jaren in duurzame, multifunctionele en toekomstgerichte voorzieningen die ontmoeting, creativiteit en beleving stimuleren.\n \nWe starten met een grondige renovatie van de groene zaal in sporthal Meulenbroek. Deze ruimte wordt omgevormd tot een moderne en duurzame sportruimte, zodat sportclubs en recreanten in optimale omstandigheden kunnen sporten. \n \nOnze jeugd verdient ruimte om te groeien. Daarom voorzien we kwalitatieve lokalen voor KLJ Sint-Anna en zoeken we een definitieve oplossing voor KSA Hamme. Zo geven we jeugdwerk de infrastructuur die het nodig heeft om kinderen en jongeren kansen te bieden.\n\nToerisme en natuurbeleving krijgen een stevige impuls. Aan de Mirabrug realiseren we een volwaardige camperplaats met alle nutsvoorzieningen, zodat Hamme aantrekkelijk wordt voor kampeerders en toeristen. We leggen een speelse belevingsroute aan waar natuur, spel en erfgoed samenkomen, en ontwikkelen een kindvriendelijke wandeling die gezinnen op een speelse manier laat kennismaken met onze gemeente.\n \nOok cultuur krijgt een prominente plaats in ons infrastructuurbeleid. In de voormalige bibliotheek bouwen we een belevingscentrum uit dat ruimte biedt aan lokaal talent, kunst, erfgoed en archief. In 2027 richten we de benedenverdieping in voor een eerste publiekswerking. In 2029 volgt een architecturale voorstudie voor een volwaardige depotruimte, en in 2030 openen we een volledig operationeel belevingscentrum met museale invulling en depotfunctie. Dit project versterkt de culturele identiteit van Hamme, biedt kansen aan kunstenaars en verenigingen, en garandeert een professionele bewaring van ons erfgoed.\n  \nMet deze investeringen bouwen we aan een Hamme dat klaar is voor morgen: een gemeente waar sport, cultuur, natuur, ontmoeting en toerisme samenkomen in kwaliteitsvolle infrastructuur, en waar iedereen zich welkom voelt.",
+    "ac_code": "ACT-31",
+    "ac_short": "Vernieuwing kleedkamers sporthal en lockers",
+    "ac_long": "De kleedkamers, sportvloer en lockers in de groene zaal van sporthal Meulenbroek zijn al geruime tijd niet vernieuwd en vertonen duidelijke tekenen van slijtage. Dit heeft een negatieve impact op het comfort, de hygiëne en de gebruikservaring van sporters en verenigingen. Een kwalitatieve infrastructuur is essentieel om een veilige en aangename sportomgeving te garanderen en om de sporthal aantrekkelijk te houden voor zowel bestaande gebruikers als nieuwe doelgroepen. Door deze vernieuwing investeren we in duurzaamheid, verhogen we de gebruikskwaliteit en dragen we bij aan het imago van Meulenbroek als moderne sportlocatie.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 340000.0,
+    "amount_per_capita": 13.14,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 290000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.93,
+      "2027": 0,
+      "2028": 11.21,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-05",
+    "bd_short": "Hamme, waar vrije tijd leeft",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is geen luxe. Het is een essentiële bouwsteen van een gezonde, verbonden en veerkrachtige samenleving. In Hamme geloven we dat vrije tijd mensen samenbrengt, talenten ontwikkelt en levenskwaliteit verhoogt. Daarom zetten we de komende jaren voluit in op een toegankelijk, divers en kwaliteitsvol vrijetijdsaanbod. Een aanbod dat niet alleen inspeelt op de noden van vandaag, maar ook klaar is voor de toekomst.\n\nWe willen van Hamme een gemeente maken waar ontmoeting vanzelfsprekend is, waar verenigingen bloeien, waar vrijwilligers zich gewaardeerd voelen en waar elk kind, elke jongere en elke volwassene kansen krijgt om te sporten, spelen, leren en genieten. Dat doen we door te investeren in toegankelijkheid, duurzame infrastructuur en participatie.",
+    "ap_code": "AP-10",
+    "ap_short": "Een dynamisch beleid uitwerken rond buitenschoolse opvang en activiteiten",
+    "ap_long": "We bouwen een sterk BOA-beleid uit voor kinderen en gezinnen, met kwaliteitsvolle opvang en activiteiten buiten schooltijd. Het beleid wordt uitgebouwd rond de pijlers BKO, opvang op school en vrijetijdsactiviteiten.  Ons BOA-beleid wordt geen top-down verhaal, maar een samenwerking in dialoog. Samen met het lokaal samenwerkingsverband KONEKT, scholen, jeugdwerk, en andere partners bouwen we een netwerk dat gezinnen ontzorgt en kinderen laat groeien.\n\nOm dit te realiseren neemt het lokaal bestuur de regierol op om een geïntegreerd aanbod uit te werken. We brengen alle spelers rond de tafel, maken afspraken en zorgen voor een vlotte samenwerking. Zo creëren we een aanbod dat niet versnipperd is, maar samenhangend en toegankelijk voor iedereen.\n\nDaarnaast investeren we in erkenning en financiering. We hebben een duidelijk kader uitgewerkt met drie niveaus: ondersteuning voor kinderopvang, scholen en buitenschoolse activiteiten.\nIn 2026 starten we met een subsidiekader voor kinderopvang, zodat er extra plaatsen komen op woensdagnamiddagen, schoolvrije dagen en vakanties. We behouden onze eigen gemeentelijke BKO-werking en zoeken partners om nog meer opvangmomenten mogelijk te maken. Scholen krijgen ondersteuning om opvang en activiteiten op hun terrein te organiseren, en verenigingen worden gestimuleerd om BOA-engagementen op te nemen.\nInclusie en toegankelijkheid staan centraal. We zorgen voor impulsen zodat we kwetsbare gezinnen bereiken, en we monitoren actief of iedereen mee kan. Multifunctioneel gebruik van infrastructuur, vrijwilligerswerking en communicatie zijn sleutels om drempels weg te nemen.\n\nBOOST-subsidies zijn een hefboom voor vernieuwing. Met de BOOST-middelen zetten we extra kracht achter onze ambities. Deze subsidie gebruiken we in 2026 niet alleen voor impulssubsidies aan partners, maar ook om onze gemeentelijke infrastructuur klaar te stomen voor BOA. Denk aan het aanpassen van ruimtes voor opvang en activiteiten, het verbeteren van toegankelijkheid en het creëren van multifunctionele plekken waar kinderen kunnen spelen, leren en ontdekken. BOOST geeft ons de mogelijkheid om sneller te schakelen, innovatief te werken en een kwaliteitsvol BOA-aanbod uit te bouwen dat Hamme op de kaart zet als kindvriendelijke gemeente.\n\nMet dit dynamische BOA-beleid maken we van Hamme een gemeente waar kinderen niet alleen opgevangen worden, maar waar ze ontdekken, leren en plezier maken. Een plek waar ouders gerust zijn, waar partners samenwerken en waar vrije tijd een hefboom wordt voor gelijke kansen en verbondenheid.",
+    "ac_code": "ACT-24",
+    "ac_short": "BOA Boost subsidie",
+    "ac_long": "De BOOST-middelen worden ingezet als extra impuls voor onze erkende partners en als investering in gemeentelijke infrastructuur voor buitenschoolse opvang en activiteiten. Dankzij de BOOST-subsidie is er ook ruimte voor strategische procesbegeleiding bij de implementatie van het nieuwe BOA-decreet.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 225000.0,
+    "amount_per_capita": 8.69,
+    "yearly_amounts": {
+      "2026": 225000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.69,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-07",
+    "bd_short": "Veiligheid op het Hams grondgebied",
+    "bd_long": "Kwalitatieve omschrijving: In het veiligheidsbeleid is eerste hulp belangrijk voor onze inwoners. \nHamme zet verder in op een nauwe samenwerking met onze veiligheidspartners en blijft de EVA vzw Dienst 112 in Hamme verder ondersteunen.\nHamme voert een kordaat veiligheidsbeleid dat inzet op preventie en handhaving. Cameratoezicht wordt gebruikt op strategische locaties om overlast en crimineel gedrag tegen te gaan. \nWijkagenten en jeugdwelzijnswerk spelen een sleutelrol in toezicht en buurtwerking. \nHet politiereglement wordt aangepast om patsergedrag en straatracen te bestrijden. Samenwerking met jeugdorganisaties moet bijdragen aan een veilig uitgaansklimaat.",
+    "ap_code": "AP-14",
+    "ap_short": "Lokale veiligheidsdiensten versterken in hun werking.",
+    "ap_long": "We bekijken de opschaling naar een grotere politiezone in het teken van meer aanwezige en aanspreekbare politie in het straatbeeld. \nBinnen de hulpverleningszone Oost gaan extra middelen naar een efficiënte en financieel gezonde brandweerwerking. \nWe actualiseren onze nood- en interventieplannen en bouwen een netwerk van vrijwilligers uit voor ondersteuning bij noodsituaties.\nSamen vormen ze de belangrijkste schakels om de veiligheid van de Hammenaren te garanderen.",
+    "ac_code": "ACT-35",
+    "ac_short": "Investering in camera's (samenwerking met politie)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 5.8,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 5.8,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-04",
+    "bd_short": "Ruimtelijke ordening, leefmilieu en dierenwelzijn",
+    "bd_long": "Kwalitatieve omschrijving: Hamme ontwikkelt een nieuw ruimtelijk plan dat inzet op kernverdichting, herbestemming van oude gebouwen en klimaatbevorderende maatregelen bij nieuwe projecten. \nWe ambiëren een vergroening van o.m. de begraafplaatsen en zetten in op samenwerking met sociale economie voor het onderhoud van het openbaar domein.\nHet bestuur voert een nultolerantiebeleid tegen zwerfvuil en sluikstort, met hogere GAS-boetes en meer controles. \nVaststellers spelen een actieve rol in handhaving en bemiddeling. \nVoor dierenwelzijn worden extra hondenlosloopzones voorzien en initiatieven zoals egelhotels en opvang van gewonde dieren uitgerold.",
+    "ap_code": "AP-09",
+    "ap_short": "Vergroenen van begraafplaatsten",
+    "ap_long": "Begraafplaatsen zijn niet alleen plaatsen van herinnering en rust, maar ze kunnen ook een waardevolle rol spelen in het versterken van biodiversiteit en het creëren van groene omgevingen. Met deze actie willen we een harmonieuze balans realiseren tussen natuur, mens en erfgoed. Elke begraafplaats behoudt haar eigen karakter, maar krijgt een duurzame inrichting die respect toont voor cultuur en geschiedenis.\nOm deze visie waar te maken, zetten we in op een reeks maatregelen die de begraafplaatsen omvormen tot groene oases. Verharding zoals grind en beton maakt plaats voor graszones, bodembedekkers en beplanting, waardoor een zachtere en natuurlijke uitstraling ontstaat. Het onderhoud gebeurt volledig pesticidenvrij, met ecologische technieken die de bodem en het milieu respecteren. Daarnaast planten we inheemse struiken, bomen en vaste planten die passen bij de lokale biodiversiteit. Zo versterken we het ecosysteem en bieden we voedsel en schuilplaatsen voor dieren. Open zones worden omgevormd tot bloemenweides en bloembedden, die kleur en leven brengen en insecten en vogels aantrekken. Ook waterbeheer krijgt aandacht: regenwater wordt maximaal geïnfiltreerd en schaduwrijke zones worden voorzien om hittestress te beperken. Dit alles draagt bij aan een klimaatbestendige inrichting.\nDe voordelen van deze aanpak zijn duidelijk. Vergroende begraafplaatsen worden ecologische stapstenen die de biodiversiteit verhogen en bijdragen aan klimaatadaptatie. Voor bezoekers ontstaat een serene omgeving met een parkfunctie, die troost en rust biedt. Bovendien kan het beheer op lange termijn eenvoudiger en duurzamer worden door natuurlijke begroeiing en minder verharding",
+    "ac_code": "ACT-21",
+    "ac_short": "Verfraaiing begraafplaatsen",
+    "ac_long": "We verfraaien de begraafplaats Hamme centrum. \nHet benodigde budget wordt overgedragen vanuit budget 2025.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 114078.41,
+    "amount_per_capita": 4.41,
+    "yearly_amounts": {
+      "2026": 114078.41,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.41,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-05",
+    "bd_short": "Hamme, waar vrije tijd leeft",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is geen luxe. Het is een essentiële bouwsteen van een gezonde, verbonden en veerkrachtige samenleving. In Hamme geloven we dat vrije tijd mensen samenbrengt, talenten ontwikkelt en levenskwaliteit verhoogt. Daarom zetten we de komende jaren voluit in op een toegankelijk, divers en kwaliteitsvol vrijetijdsaanbod. Een aanbod dat niet alleen inspeelt op de noden van vandaag, maar ook klaar is voor de toekomst.\n\nWe willen van Hamme een gemeente maken waar ontmoeting vanzelfsprekend is, waar verenigingen bloeien, waar vrijwilligers zich gewaardeerd voelen en waar elk kind, elke jongere en elke volwassene kansen krijgt om te sporten, spelen, leren en genieten. Dat doen we door te investeren in toegankelijkheid, duurzame infrastructuur en participatie.",
+    "ap_code": "AP-10",
+    "ap_short": "Een dynamisch beleid uitwerken rond buitenschoolse opvang en activiteiten",
+    "ap_long": "We bouwen een sterk BOA-beleid uit voor kinderen en gezinnen, met kwaliteitsvolle opvang en activiteiten buiten schooltijd. Het beleid wordt uitgebouwd rond de pijlers BKO, opvang op school en vrijetijdsactiviteiten.  Ons BOA-beleid wordt geen top-down verhaal, maar een samenwerking in dialoog. Samen met het lokaal samenwerkingsverband KONEKT, scholen, jeugdwerk, en andere partners bouwen we een netwerk dat gezinnen ontzorgt en kinderen laat groeien.\n\nOm dit te realiseren neemt het lokaal bestuur de regierol op om een geïntegreerd aanbod uit te werken. We brengen alle spelers rond de tafel, maken afspraken en zorgen voor een vlotte samenwerking. Zo creëren we een aanbod dat niet versnipperd is, maar samenhangend en toegankelijk voor iedereen.\n\nDaarnaast investeren we in erkenning en financiering. We hebben een duidelijk kader uitgewerkt met drie niveaus: ondersteuning voor kinderopvang, scholen en buitenschoolse activiteiten.\nIn 2026 starten we met een subsidiekader voor kinderopvang, zodat er extra plaatsen komen op woensdagnamiddagen, schoolvrije dagen en vakanties. We behouden onze eigen gemeentelijke BKO-werking en zoeken partners om nog meer opvangmomenten mogelijk te maken. Scholen krijgen ondersteuning om opvang en activiteiten op hun terrein te organiseren, en verenigingen worden gestimuleerd om BOA-engagementen op te nemen.\nInclusie en toegankelijkheid staan centraal. We zorgen voor impulsen zodat we kwetsbare gezinnen bereiken, en we monitoren actief of iedereen mee kan. Multifunctioneel gebruik van infrastructuur, vrijwilligerswerking en communicatie zijn sleutels om drempels weg te nemen.\n\nBOOST-subsidies zijn een hefboom voor vernieuwing. Met de BOOST-middelen zetten we extra kracht achter onze ambities. Deze subsidie gebruiken we in 2026 niet alleen voor impulssubsidies aan partners, maar ook om onze gemeentelijke infrastructuur klaar te stomen voor BOA. Denk aan het aanpassen van ruimtes voor opvang en activiteiten, het verbeteren van toegankelijkheid en het creëren van multifunctionele plekken waar kinderen kunnen spelen, leren en ontdekken. BOOST geeft ons de mogelijkheid om sneller te schakelen, innovatief te werken en een kwaliteitsvol BOA-aanbod uit te bouwen dat Hamme op de kaart zet als kindvriendelijke gemeente.\n\nMet dit dynamische BOA-beleid maken we van Hamme een gemeente waar kinderen niet alleen opgevangen worden, maar waar ze ontdekken, leren en plezier maken. Een plek waar ouders gerust zijn, waar partners samenwerken en waar vrije tijd een hefboom wordt voor gelijke kansen en verbondenheid.",
+    "ac_code": "ACT-22",
+    "ac_short": "BOA BKO lokaal bestuur (Kiezel en Roefel)",
+    "ac_long": "De buitenschoolse kinderopvang (BKO) De Kiezel en De Roefel wordt verder uitgebouwd tot een kwaliteitsvolle en toegankelijke opvangvoorziening voor kinderen van kleuter- en lagere schoolleeftijd. De opvang richt zich op naschoolse momenten, woensdagmiddagen en schoolvakanties. De BKO blijft een belangrijke partner binnen het BOA-verhaal en maakt deel uit van het lokaal samenwerkingsverband. Er wordt afgestemd op de noden en aanvullingen van BOA, zoals ruimere openingsuren, specifieke zorgvragen en een flexibel aanbod.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 1.93,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-05",
+    "bd_short": "Hamme, waar vrije tijd leeft",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is geen luxe. Het is een essentiële bouwsteen van een gezonde, verbonden en veerkrachtige samenleving. In Hamme geloven we dat vrije tijd mensen samenbrengt, talenten ontwikkelt en levenskwaliteit verhoogt. Daarom zetten we de komende jaren voluit in op een toegankelijk, divers en kwaliteitsvol vrijetijdsaanbod. Een aanbod dat niet alleen inspeelt op de noden van vandaag, maar ook klaar is voor de toekomst.\n\nWe willen van Hamme een gemeente maken waar ontmoeting vanzelfsprekend is, waar verenigingen bloeien, waar vrijwilligers zich gewaardeerd voelen en waar elk kind, elke jongere en elke volwassene kansen krijgt om te sporten, spelen, leren en genieten. Dat doen we door te investeren in toegankelijkheid, duurzame infrastructuur en participatie.",
+    "ap_code": "AP-11",
+    "ap_short": "Infrastructuur klaar voor morgen",
+    "ap_long": "Onze infrastructuur vormt het kloppend hart van een bruisend vrijetijdsleven. In Hamme willen we dat iedereen kan genieten van kwaliteitsvolle sport, cultuur en ontspanning, vandaag én morgen. Daarom investeren we de komende jaren in duurzame, multifunctionele en toekomstgerichte voorzieningen die ontmoeting, creativiteit en beleving stimuleren.\n \nWe starten met een grondige renovatie van de groene zaal in sporthal Meulenbroek. Deze ruimte wordt omgevormd tot een moderne en duurzame sportruimte, zodat sportclubs en recreanten in optimale omstandigheden kunnen sporten. \n \nOnze jeugd verdient ruimte om te groeien. Daarom voorzien we kwalitatieve lokalen voor KLJ Sint-Anna en zoeken we een definitieve oplossing voor KSA Hamme. Zo geven we jeugdwerk de infrastructuur die het nodig heeft om kinderen en jongeren kansen te bieden.\n\nToerisme en natuurbeleving krijgen een stevige impuls. Aan de Mirabrug realiseren we een volwaardige camperplaats met alle nutsvoorzieningen, zodat Hamme aantrekkelijk wordt voor kampeerders en toeristen. We leggen een speelse belevingsroute aan waar natuur, spel en erfgoed samenkomen, en ontwikkelen een kindvriendelijke wandeling die gezinnen op een speelse manier laat kennismaken met onze gemeente.\n \nOok cultuur krijgt een prominente plaats in ons infrastructuurbeleid. In de voormalige bibliotheek bouwen we een belevingscentrum uit dat ruimte biedt aan lokaal talent, kunst, erfgoed en archief. In 2027 richten we de benedenverdieping in voor een eerste publiekswerking. In 2029 volgt een architecturale voorstudie voor een volwaardige depotruimte, en in 2030 openen we een volledig operationeel belevingscentrum met museale invulling en depotfunctie. Dit project versterkt de culturele identiteit van Hamme, biedt kansen aan kunstenaars en verenigingen, en garandeert een professionele bewaring van ons erfgoed.\n  \nMet deze investeringen bouwen we aan een Hamme dat klaar is voor morgen: een gemeente waar sport, cultuur, natuur, ontmoeting en toerisme samenkomen in kwaliteitsvolle infrastructuur, en waar iedereen zich welkom voelt.",
+    "ac_code": "ACT-28",
+    "ac_short": "Uitbouw camperplaats",
+    "ac_long": "Op de site aan de Mirabrug zijn vier camperplaatsen voorzien. Momenteel ontbreken echter enkele essentiële nutsvoorzieningen, zoals water- en elektriciteitsaansluitingen voor de gebruikers. Ook verlichting is nog niet aanwezig. Daarnaast is er wel een lozingspunt voor grijs water, maar er ontbreken faciliteiten om de toiletcassette op een gebruiksvriendelijke en hygiënische manier te ledigen. Ook kleine zaken zoals een infobord en vuilnisbakken willen we nog voorzien. Deze voorzieningen zijn noodzakelijk om de camperplaats te laten erkennen en vergunnen door Toerisme Vlaanderen als officieel toeristisch verblijf.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 47820.84,
+    "amount_per_capita": 1.85,
+    "yearly_amounts": {
+      "2026": 47820.84,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.85,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-05",
+    "bd_short": "Hamme, waar vrije tijd leeft",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is geen luxe. Het is een essentiële bouwsteen van een gezonde, verbonden en veerkrachtige samenleving. In Hamme geloven we dat vrije tijd mensen samenbrengt, talenten ontwikkelt en levenskwaliteit verhoogt. Daarom zetten we de komende jaren voluit in op een toegankelijk, divers en kwaliteitsvol vrijetijdsaanbod. Een aanbod dat niet alleen inspeelt op de noden van vandaag, maar ook klaar is voor de toekomst.\n\nWe willen van Hamme een gemeente maken waar ontmoeting vanzelfsprekend is, waar verenigingen bloeien, waar vrijwilligers zich gewaardeerd voelen en waar elk kind, elke jongere en elke volwassene kansen krijgt om te sporten, spelen, leren en genieten. Dat doen we door te investeren in toegankelijkheid, duurzame infrastructuur en participatie.",
+    "ap_code": "AP-11",
+    "ap_short": "Infrastructuur klaar voor morgen",
+    "ap_long": "Onze infrastructuur vormt het kloppend hart van een bruisend vrijetijdsleven. In Hamme willen we dat iedereen kan genieten van kwaliteitsvolle sport, cultuur en ontspanning, vandaag én morgen. Daarom investeren we de komende jaren in duurzame, multifunctionele en toekomstgerichte voorzieningen die ontmoeting, creativiteit en beleving stimuleren.\n \nWe starten met een grondige renovatie van de groene zaal in sporthal Meulenbroek. Deze ruimte wordt omgevormd tot een moderne en duurzame sportruimte, zodat sportclubs en recreanten in optimale omstandigheden kunnen sporten. \n \nOnze jeugd verdient ruimte om te groeien. Daarom voorzien we kwalitatieve lokalen voor KLJ Sint-Anna en zoeken we een definitieve oplossing voor KSA Hamme. Zo geven we jeugdwerk de infrastructuur die het nodig heeft om kinderen en jongeren kansen te bieden.\n\nToerisme en natuurbeleving krijgen een stevige impuls. Aan de Mirabrug realiseren we een volwaardige camperplaats met alle nutsvoorzieningen, zodat Hamme aantrekkelijk wordt voor kampeerders en toeristen. We leggen een speelse belevingsroute aan waar natuur, spel en erfgoed samenkomen, en ontwikkelen een kindvriendelijke wandeling die gezinnen op een speelse manier laat kennismaken met onze gemeente.\n \nOok cultuur krijgt een prominente plaats in ons infrastructuurbeleid. In de voormalige bibliotheek bouwen we een belevingscentrum uit dat ruimte biedt aan lokaal talent, kunst, erfgoed en archief. In 2027 richten we de benedenverdieping in voor een eerste publiekswerking. In 2029 volgt een architecturale voorstudie voor een volwaardige depotruimte, en in 2030 openen we een volledig operationeel belevingscentrum met museale invulling en depotfunctie. Dit project versterkt de culturele identiteit van Hamme, biedt kansen aan kunstenaars en verenigingen, en garandeert een professionele bewaring van ons erfgoed.\n  \nMet deze investeringen bouwen we aan een Hamme dat klaar is voor morgen: een gemeente waar sport, cultuur, natuur, ontmoeting en toerisme samenkomen in kwaliteitsvolle infrastructuur, en waar iedereen zich welkom voelt.",
+    "ac_code": "ACT-26",
+    "ac_short": "Creatie van een speelse belevingsroute",
+    "ac_long": "Het project beoogt de realisatie van toekomstbestendige ontmoetingsplekken in de omgeving van de Mirabrug in Hamme, waar natuur, spel, erfgoed en participatie samenkomen. Centraal staat de ontwikkeling van een belevingsroute geïnspireerd op het verhaal van Mira en het fictieve dorp Waterhoek, met een sterke landschappelijke inpassing en betrokkenheid van inwoners en bezoekers.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.16,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.16,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-04",
+    "bd_short": "Ruimtelijke ordening, leefmilieu en dierenwelzijn",
+    "bd_long": "Kwalitatieve omschrijving: Hamme ontwikkelt een nieuw ruimtelijk plan dat inzet op kernverdichting, herbestemming van oude gebouwen en klimaatbevorderende maatregelen bij nieuwe projecten. \nWe ambiëren een vergroening van o.m. de begraafplaatsen en zetten in op samenwerking met sociale economie voor het onderhoud van het openbaar domein.\nHet bestuur voert een nultolerantiebeleid tegen zwerfvuil en sluikstort, met hogere GAS-boetes en meer controles. \nVaststellers spelen een actieve rol in handhaving en bemiddeling. \nVoor dierenwelzijn worden extra hondenlosloopzones voorzien en initiatieven zoals egelhotels en opvang van gewonde dieren uitgerold.",
+    "ap_code": "AP-07",
+    "ap_short": "Aandacht voor milieu en bevordering van het dierenwelzijn in onze gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-16",
+    "ac_short": "Dierenbegraafplaats",
+    "ac_long": "Het lokaal bestuur wil inspelen op de groeiende vraag naar een waardige en respectvolle laatste rustplaats voor huisdieren. Huisdieren nemen een belangrijke plaats in binnen gezinnen en het verlies ervan gaat vaak gepaard met een groot emotioneel belang. Met de aanleg van een dierenbegraafplaats willen wij een serene plek voorzien voor burgers om hun dier te begraven en te herdenken.\nDeze actie past binnen de beleidsdoelstellingen van het bestuur om de dienstverlening te versterken en in te zetten op dierenwelzijn.\nDe dierenbegraafplaats zal worden ingericht op een rustige en groene locatie, met aandacht voor toegankelijkheid en sereniteit. Er wordt voorzien in afgebakende percelen in de vorm van een columbariummuur. Daarnaast zal een duidelijk reglement worden opgesteld met betrekking tot concessies, onderhoud en toegelaten diersoorten.\nHet bestuur zal burgers informeren via de gemeentelijke communicatiekanalen om het initiatief bekend te maken. Op die manier wordt de betrokkenheid van de gemeenschap vergroot en wordt het imago van de gemeente versterkt als een zorgzaam en innovatief bestuur.\nDe verwachte impact van deze actie is een uitbreiding van de gemeentelijke dienstverlening met als gevolg een verhoogde tevredenheid bij de inwoners.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.39,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.39,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-05",
+    "bd_short": "Hamme, waar vrije tijd leeft",
+    "bd_long": "Kwalitatieve omschrijving: Vrije tijd is geen luxe. Het is een essentiële bouwsteen van een gezonde, verbonden en veerkrachtige samenleving. In Hamme geloven we dat vrije tijd mensen samenbrengt, talenten ontwikkelt en levenskwaliteit verhoogt. Daarom zetten we de komende jaren voluit in op een toegankelijk, divers en kwaliteitsvol vrijetijdsaanbod. Een aanbod dat niet alleen inspeelt op de noden van vandaag, maar ook klaar is voor de toekomst.\n\nWe willen van Hamme een gemeente maken waar ontmoeting vanzelfsprekend is, waar verenigingen bloeien, waar vrijwilligers zich gewaardeerd voelen en waar elk kind, elke jongere en elke volwassene kansen krijgt om te sporten, spelen, leren en genieten. Dat doen we door te investeren in toegankelijkheid, duurzame infrastructuur en participatie.",
+    "ap_code": "AP-11",
+    "ap_short": "Infrastructuur klaar voor morgen",
+    "ap_long": "Onze infrastructuur vormt het kloppend hart van een bruisend vrijetijdsleven. In Hamme willen we dat iedereen kan genieten van kwaliteitsvolle sport, cultuur en ontspanning, vandaag én morgen. Daarom investeren we de komende jaren in duurzame, multifunctionele en toekomstgerichte voorzieningen die ontmoeting, creativiteit en beleving stimuleren.\n \nWe starten met een grondige renovatie van de groene zaal in sporthal Meulenbroek. Deze ruimte wordt omgevormd tot een moderne en duurzame sportruimte, zodat sportclubs en recreanten in optimale omstandigheden kunnen sporten. \n \nOnze jeugd verdient ruimte om te groeien. Daarom voorzien we kwalitatieve lokalen voor KLJ Sint-Anna en zoeken we een definitieve oplossing voor KSA Hamme. Zo geven we jeugdwerk de infrastructuur die het nodig heeft om kinderen en jongeren kansen te bieden.\n\nToerisme en natuurbeleving krijgen een stevige impuls. Aan de Mirabrug realiseren we een volwaardige camperplaats met alle nutsvoorzieningen, zodat Hamme aantrekkelijk wordt voor kampeerders en toeristen. We leggen een speelse belevingsroute aan waar natuur, spel en erfgoed samenkomen, en ontwikkelen een kindvriendelijke wandeling die gezinnen op een speelse manier laat kennismaken met onze gemeente.\n \nOok cultuur krijgt een prominente plaats in ons infrastructuurbeleid. In de voormalige bibliotheek bouwen we een belevingscentrum uit dat ruimte biedt aan lokaal talent, kunst, erfgoed en archief. In 2027 richten we de benedenverdieping in voor een eerste publiekswerking. In 2029 volgt een architecturale voorstudie voor een volwaardige depotruimte, en in 2030 openen we een volledig operationeel belevingscentrum met museale invulling en depotfunctie. Dit project versterkt de culturele identiteit van Hamme, biedt kansen aan kunstenaars en verenigingen, en garandeert een professionele bewaring van ons erfgoed.\n  \nMet deze investeringen bouwen we aan een Hamme dat klaar is voor morgen: een gemeente waar sport, cultuur, natuur, ontmoeting en toerisme samenkomen in kwaliteitsvolle infrastructuur, en waar iedereen zich welkom voelt.",
+    "ac_code": "ACT-29",
+    "ac_short": "Kindvriendelijke wandeling",
+    "ac_long": "Toerisme Hamme biedt samen met diverse partners een ruim aanbod aan wandelroutes in onze gemeente aan. Deze routes focussen voornamelijk op natuurbeleving en erfgoed, waardoor de doelgroep momenteel beperkt blijft. Om een breder publiek aan te spreken, willen we een belevingsvolle wandeling ontwikkelen die ook gezinnen en kinderen stimuleert om op een speelse en boeiende manier op ontdekking te gaan. De wandeling zal opgebouwd worden rond een verhaal, aangevuld met bijvoorbeeld opdrachten en vragen.\nLangs het traject voorzien we op verschillende locaties visuele dragers die deelnemers begeleiden en de ervaring versterken.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.39,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0.39,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-99",
+    "ac_short": "Biometrische apparatuur burgerzaken",
+    "ac_long": "Bij de aanvraag van een elektronische identiteitskaart, verblijfskaart of internationaal paspoort dient de biometrie van de burger te worden opgenomen. \nDe loketten van Team Burgerzaken beschikken allemaal over de nodige biometrische apparatuur, compatibel met de huidige versie van Belpic.\n\nIn het kader van de strijd tegen de identiteitsfraude is Team Burgerzaken in 2025 ingestapt in de Live Enrollment; een systeem waarbij de pasfoto's genomen worden aan het loket. \nBurgers kunnen hierdoor ook genieten van een complete dienstverlening onder hetzelfde dak, zonder bijkomende kosten.\n\nVoor burgers die zich onmogelijk naar het gemeentebestuur kunnen verplaatsen om hun identiteitsdocumenten of verblijfsdocumenten aan te vragen of in ontvangst te nemen, is er nu de mogelijk om gebruik te maken van een Mobio-Kit.\nDit mobiel biometrisch station bevat alle randapparatuur van een RAPC en verschaft zo alle functionaliteiten van de Belpic-toepassing. \nHet toestel is daarenboven verbonden met een specifiek, beveiligd netwerk, waardoor dit ook in gebruik kan worden genomen wanneer de systemen uit liggen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 6400.0,
+    "amount_per_capita": 0.25,
+    "yearly_amounts": {
+      "2026": 6400.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hamme",
+    "nis_code": "42008",
+    "bd_code": "BD-02",
+    "bd_short": "Kwalitatief welzijn, zorg- en gezondheidsbeleid",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente zet sterk in op een zorgaanbod dat inspeelt op mentale gezondheid, vereenzaming en ziektepreventie.\nWe overleggen structureel met relevante partners omtrent huisvesting, versnelde toewijzingen, uithuiszettingen, dakloosheid.\nWe werken een breed activeringsbeleid uit waarin we samenwerken met interne en externe partners, zetten verder in op oefenkansen Nederlands, begeleiden naar sociale en professionele activering.\nOnze kinderopvang (0-3j) wordt uitgebreid om aan de stijgende vraag te voldoen. Kinderen en gezinnen kunnen rekenen op een sterk BOA-beleid dat wordt uitgebouwd rond de pijlers BKO, opvang op school en vrijetijdsactiviteiten.\nWe gaan voor een verdere professionalisering van onze ouderenzorg met aandacht voor kwaliteit en betaalbaarheid.\nOp de site van het  ‘Oud Moederhuis’ in de Damputstraat realiseren we een Zorg- en Welzijnscampus waar we een divers aanbod aan dienstverlening samenbrengen.",
+    "ap_code": "AP-04",
+    "ap_short": "We zetten in op de uitbreiding van onze zorgdienstverlening",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-60",
+    "ac_short": "Uitbreiding capaciteit en doelgroepenbeleid WZC",
+    "ac_long": "We onderzoeken concreet een geschikte locatie en functionele invulling voor de 15 bijkomende bedden waarvoor WZC Meulenbroek een erkenning heeft verkregen. Mogelijke locaties zijn daarvoor onder meer de nieuwe vervangingsbouw De Durme en de Tasibel-site. In het kader van het doelgroepenbeleid wordt specifiek onderzoek verricht naar een bijkomende residentiële zorgvoorziening voor personen met jongdementie en personen met psychische en psychiatrische stoornissen.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 2.0,
+    "amount_per_capita": 0.0,
+    "yearly_amounts": {
+      "2026": 2.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

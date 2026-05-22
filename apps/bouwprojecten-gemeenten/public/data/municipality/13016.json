@@ -15,7 +15,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 16644202.0,
-    "amount_per_capita": 1548.39,
+    "amount_per_capita": 1550.66,
     "yearly_amounts": {
       "2026": 0,
       "2027": 4000000.0,
@@ -26,9 +26,9 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 372.11,
-      "2028": 604.69,
-      "2029": 571.59,
+      "2027": 372.66,
+      "2028": 605.57,
+      "2029": 572.42,
       "2030": 0,
       "2031": 0
     }
@@ -49,7 +49,7 @@
       "08-onderwijs"
     ],
     "total_amount": 13247250.0,
-    "amount_per_capita": 1232.37,
+    "amount_per_capita": 1234.18,
     "yearly_amounts": {
       "2026": 2500000.0,
       "2027": 5500000.0,
@@ -59,10 +59,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 232.57,
-      "2027": 511.66,
-      "2028": 465.14,
-      "2029": 23.0,
+      "2026": 232.91,
+      "2027": 512.41,
+      "2028": 465.82,
+      "2029": 23.04,
       "2030": 0,
       "2031": 0
     }
@@ -82,10 +82,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 6500000.0,
-    "amount_per_capita": 604.69,
+    "total_amount": 7006576.46,
+    "amount_per_capita": 652.77,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 506576.46,
       "2027": 1400000.0,
       "2028": 2200000.0,
       "2029": 1600000.0,
@@ -93,12 +93,12 @@
       "2031": 600000.0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 130.24,
-      "2028": 204.66,
-      "2029": 148.85,
-      "2030": 65.12,
-      "2031": 55.82
+      "2026": 47.2,
+      "2027": 130.43,
+      "2028": 204.96,
+      "2029": 149.06,
+      "2030": 65.22,
+      "2031": 55.9
     }
   },
   {
@@ -116,10 +116,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 3760751.0,
-    "amount_per_capita": 349.86,
+    "total_amount": 3917201.07,
+    "amount_per_capita": 364.95,
     "yearly_amounts": {
-      "2026": 1189751.0,
+      "2026": 1346201.07,
       "2027": 721000.0,
       "2028": 280000.0,
       "2029": 580000.0,
@@ -127,12 +127,12 @@
       "2031": 705000.0
     },
     "yearly_per_capita": {
-      "2026": 110.68,
-      "2027": 67.07,
-      "2028": 26.05,
-      "2029": 53.96,
-      "2030": 26.51,
-      "2031": 65.59
+      "2026": 125.42,
+      "2027": 67.17,
+      "2028": 26.09,
+      "2029": 54.04,
+      "2030": 26.55,
+      "2031": 65.68
     }
   },
   {
@@ -151,7 +151,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 3505000.0,
-    "amount_per_capita": 326.07,
+    "amount_per_capita": 326.54,
     "yearly_amounts": {
       "2026": 0,
       "2027": 455000.0,
@@ -162,9 +162,9 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 42.33,
-      "2028": 144.19,
-      "2029": 139.54,
+      "2027": 42.39,
+      "2028": 144.41,
+      "2029": 139.75,
       "2030": 0,
       "2031": 0
     }
@@ -184,10 +184,10 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 2500000.0,
-    "amount_per_capita": 232.57,
+    "total_amount": 2505000.0,
+    "amount_per_capita": 233.38,
     "yearly_amounts": {
-      "2026": 1800000.0,
+      "2026": 1805000.0,
       "2027": 0,
       "2028": 0,
       "2029": 700000.0,
@@ -195,10 +195,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 167.45,
+      "2026": 168.16,
       "2027": 0,
       "2028": 0,
-      "2029": 65.12,
+      "2029": 65.22,
       "2030": 0,
       "2031": 0
     }
@@ -218,10 +218,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1500000.0,
-    "amount_per_capita": 139.54,
+    "total_amount": 2000000.0,
+    "amount_per_capita": 186.33,
     "yearly_amounts": {
-      "2026": 1500000.0,
+      "2026": 2000000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -229,12 +229,46 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 139.54,
+      "2026": 186.33,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Hulshout",
+    "nis_code": "13016",
+    "bd_code": "BD000004",
+    "bd_short": "Hulshout zorgt voor een groene, veilige en inclusieve leefomgeving met oog voor huidige en toekom...",
+    "bd_long": "Hulshout zorgt voor een groene, veilige en inclusieve leefomgeving met oog voor huidige en toekomstige generaties.",
+    "ap_code": "AP000023",
+    "ap_short": "We zorgen voor een veilige omgeving, handhaven de regelgeving en bereiden ons voor op noodsituaties.",
+    "ap_long": "We zorgen voor een veilige omgeving, handhaven de regelgeving en bereiden ons voor op noodsituaties.",
+    "ac_code": "AC000101",
+    "ac_short": "We dragen bij aan de organisatie van de veiligheidsdiensten.",
+    "ac_long": "We dragen bij aan de organisatie van de veiligheidsdiensten.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 930721.62,
+    "amount_per_capita": 86.71,
+    "yearly_amounts": {
+      "2026": 323792.79,
+      "2027": 118818.64,
+      "2028": 120246.99,
+      "2029": 121418.33,
+      "2030": 122613.1,
+      "2031": 123831.77
+    },
+    "yearly_per_capita": {
+      "2026": 30.17,
+      "2027": 11.07,
+      "2028": 11.2,
+      "2029": 11.31,
+      "2030": 11.42,
+      "2031": 11.54
     }
   },
   {
@@ -253,7 +287,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 780000.0,
-    "amount_per_capita": 72.56,
+    "amount_per_capita": 72.67,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -266,7 +300,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 72.56,
+      "2029": 72.67,
       "2030": 0,
       "2031": 0
     }
@@ -287,7 +321,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 775096.0,
-    "amount_per_capita": 72.11,
+    "amount_per_capita": 72.21,
     "yearly_amounts": {
       "2026": 215975.0,
       "2027": 216002.0,
@@ -297,114 +331,12 @@
       "2031": 99755.0
     },
     "yearly_per_capita": {
-      "2026": 20.09,
-      "2027": 20.09,
-      "2028": 19.99,
+      "2026": 20.12,
+      "2027": 20.12,
+      "2028": 20.02,
       "2029": 1.33,
-      "2030": 1.31,
-      "2031": 9.28
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
-    "bd_code": "BD000004",
-    "bd_short": "Hulshout zorgt voor een groene, veilige en inclusieve leefomgeving met oog voor huidige en toekom...",
-    "bd_long": "Hulshout zorgt voor een groene, veilige en inclusieve leefomgeving met oog voor huidige en toekomstige generaties.",
-    "ap_code": "AP000023",
-    "ap_short": "We zorgen voor een veilige omgeving, handhaven de regelgeving en bereiden ons voor op noodsituaties.",
-    "ap_long": "We zorgen voor een veilige omgeving, handhaven de regelgeving en bereiden ons voor op noodsituaties.",
-    "ac_code": "AC000101",
-    "ac_short": "We dragen bij aan de organisatie van de veiligheidsdiensten.",
-    "ac_long": "We dragen bij aan de organisatie van de veiligheidsdiensten.",
-    "categories": [
-      "04-veiligheidszorg"
-    ],
-    "total_amount": 735345.0,
-    "amount_per_capita": 68.41,
-    "yearly_amounts": {
-      "2026": 128416.0,
-      "2027": 118819.0,
-      "2028": 120247.0,
-      "2029": 121418.0,
-      "2030": 122613.0,
-      "2031": 123832.0
-    },
-    "yearly_per_capita": {
-      "2026": 11.95,
-      "2027": 11.05,
-      "2028": 11.19,
-      "2029": 11.3,
-      "2030": 11.41,
-      "2031": 11.52
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
-    "bd_code": "BD000007",
-    "bd_short": "Binnen Welzijnsvereniging Ter Nethe een antwoord bieden aan de huidige zorgvragen en thuisbegelei...",
-    "bd_long": "Binnen Welzijnsvereniging Ter Nethe een antwoord bieden aan de huidige zorgvragen en thuisbegeleiding bij ouderen en kwetsbaren.",
-    "ap_code": "AP000036",
-    "ap_short": "De Welzijnsvereniging investeert in nieuwe gebouwen, terreinen of percelen.",
-    "ap_long": "De Welzijnsvereniging investeert in nieuwe gebouwen, terreinen of percelen.",
-    "ac_code": "AC000150",
-    "ac_short": "Binnen de WV een nieuw gebouw voor de Welzijnsvereniging oprichten op site Ter Nethe.",
-    "ac_long": "Binnen de WV een nieuw gebouw voor de Welzijnsvereniging oprichten op site Ter Nethe.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 600000.0,
-    "amount_per_capita": 55.82,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 600000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 55.82,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
-    "bd_code": "BD000008",
-    "bd_short": "Interne werking van de Welzijnsvereniging optimaliseren.",
-    "bd_long": "Interne werking van de Welzijnsvereniging optimaliseren.",
-    "ap_code": "AP000037",
-    "ap_short": "Instaan voor het onderhoud van de gebouwen en terreinen van de Welzijnsvereniging Ter Nethe.",
-    "ap_long": "Instaan voor het onderhoud van de gebouwen en terreinen van de Welzijnsvereniging Ter Nethe.",
-    "ac_code": "AC000151",
-    "ac_short": "Binnen de WV middelen voorzien voor het onderhoud van het bestaande gebouw voor het woonzorgcentrum.",
-    "ac_long": "Binnen de WV middelen voorzien voor het onderhoud van het bestaande gebouw voor het woonzorgcentrum.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 359036.0,
-    "amount_per_capita": 33.4,
-    "yearly_amounts": {
-      "2026": 45300.0,
-      "2027": 46206.0,
-      "2028": 47130.0,
-      "2029": 180000.0,
-      "2030": 20000.0,
-      "2031": 20400.0
-    },
-    "yearly_per_capita": {
-      "2026": 4.21,
-      "2027": 4.3,
-      "2028": 4.38,
-      "2029": 16.75,
-      "2030": 1.86,
-      "2031": 1.9
+      "2030": 1.32,
+      "2031": 9.29
     }
   },
   {
@@ -422,10 +354,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 320000.0,
-    "amount_per_capita": 29.77,
+    "total_amount": 389016.18,
+    "amount_per_capita": 36.24,
     "yearly_amounts": {
-      "2026": 120000.0,
+      "2026": 189016.18,
       "2027": 200000.0,
       "2028": 0,
       "2029": 0,
@@ -433,8 +365,42 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 11.16,
-      "2027": 18.61,
+      "2026": 17.61,
+      "2027": 18.63,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hulshout",
+    "nis_code": "13016",
+    "bd_code": "BD000003",
+    "bd_short": "Hulshout is een professioneel en aantrekkelijk overheidsbedrijf.",
+    "bd_long": "Hulshout is een professioneel en aantrekkelijk overheidsbedrijf.",
+    "ap_code": "AP000015",
+    "ap_short": "We streven naar een efficiënt en duurzaam beheer van het gemeentelijk patrimonium en investeren o...",
+    "ap_long": "We streven naar een efficiënt en duurzaam beheer van het gemeentelijk patrimonium en investeren om de kwaliteit te verbeteren",
+    "ac_code": "AC000059",
+    "ac_short": "We ontsluiten erfgoed en patrimonium voor multifunctioneel gebruik.",
+    "ac_long": "We ontsluiten erfgoed en patrimonium voor multifunctioneel gebruik.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 287980.36,
+    "amount_per_capita": 26.83,
+    "yearly_amounts": {
+      "2026": 287980.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 26.83,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -457,7 +423,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 255000.0,
-    "amount_per_capita": 23.72,
+    "amount_per_capita": 23.76,
     "yearly_amounts": {
       "2026": 30000.0,
       "2027": 35000.0,
@@ -469,44 +435,10 @@
     "yearly_per_capita": {
       "2026": 2.79,
       "2027": 3.26,
-      "2028": 3.72,
+      "2028": 3.73,
       "2029": 4.19,
-      "2030": 4.65,
+      "2030": 4.66,
       "2031": 5.12
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
-    "bd_code": "BD000005",
-    "bd_short": "Verder inzetten op een kwaliteitsvol, duurzaam en veilig sportpark.",
-    "bd_long": "Verder inzetten op een kwaliteitsvol, duurzaam en veilig sportpark.",
-    "ap_code": "AP000031",
-    "ap_short": "Het AGB voert investeringen uit aan bestaande gebouwen en terreinen.",
-    "ap_long": "Het AGB voert investeringen uit aan bestaande gebouwen en terreinen.",
-    "ac_code": "AC000133",
-    "ac_short": "Het AGB voert investeringen uit in het zwembad.",
-    "ac_long": "Het AGB voert investeringen uit in het zwembad.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 225000.0,
-    "amount_per_capita": 20.93,
-    "yearly_amounts": {
-      "2026": 100000.0,
-      "2027": 25000.0,
-      "2028": 25000.0,
-      "2029": 25000.0,
-      "2030": 25000.0,
-      "2031": 25000.0
-    },
-    "yearly_per_capita": {
-      "2026": 9.3,
-      "2027": 2.33,
-      "2028": 2.33,
-      "2029": 2.33,
-      "2030": 2.33,
-      "2031": 2.33
     }
   },
   {
@@ -525,7 +457,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 187500.0,
-    "amount_per_capita": 17.44,
+    "amount_per_capita": 17.47,
     "yearly_amounts": {
       "2026": 29000.0,
       "2027": 29000.0,
@@ -538,43 +470,9 @@
       "2026": 2.7,
       "2027": 2.7,
       "2028": 2.7,
-      "2029": 3.95,
+      "2029": 3.96,
       "2030": 2.7,
       "2031": 2.7
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
-    "bd_code": "BD000005",
-    "bd_short": "Verder inzetten op een kwaliteitsvol, duurzaam en veilig sportpark.",
-    "bd_long": "Verder inzetten op een kwaliteitsvol, duurzaam en veilig sportpark.",
-    "ap_code": "AP000031",
-    "ap_short": "Het AGB voert investeringen uit aan bestaande gebouwen en terreinen.",
-    "ap_long": "Het AGB voert investeringen uit aan bestaande gebouwen en terreinen.",
-    "ac_code": "AC000132",
-    "ac_short": "Het AGB voert investeringen uit in de sporthal.",
-    "ac_long": "Het AGB voert investeringen uit in de sporthal.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 148000.0,
-    "amount_per_capita": 13.77,
-    "yearly_amounts": {
-      "2026": 23000.0,
-      "2027": 25000.0,
-      "2028": 25000.0,
-      "2029": 25000.0,
-      "2030": 25000.0,
-      "2031": 25000.0
-    },
-    "yearly_per_capita": {
-      "2026": 2.14,
-      "2027": 2.33,
-      "2028": 2.33,
-      "2029": 2.33,
-      "2030": 2.33,
-      "2031": 2.33
     }
   },
   {
@@ -593,7 +491,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 11.16,
+    "amount_per_capita": 11.18,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 20000.0,
@@ -627,7 +525,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 9.3,
+    "amount_per_capita": 9.32,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -639,9 +537,9 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 4.65,
+      "2028": 4.66,
       "2029": 0,
-      "2030": 4.65,
+      "2030": 4.66,
       "2031": 0
     }
   },
@@ -661,7 +559,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 65000.0,
-    "amount_per_capita": 6.05,
+    "amount_per_capita": 6.06,
     "yearly_amounts": {
       "2026": 0,
       "2027": 13000.0,
@@ -682,6 +580,40 @@
   {
     "municipality": "Hulshout",
     "nis_code": "13016",
+    "bd_code": "BD000002",
+    "bd_short": "Hulshout biedt een warme dienstverlening die verwelkomend, toegankelijk en doelgericht is en waar...",
+    "bd_long": "Hulshout biedt een warme dienstverlening die verwelkomend, toegankelijk en doelgericht is en waarbij onze klant centraal staat.",
+    "ap_code": "AP000008",
+    "ap_short": "We innoveren de interne werking om de dienstverlening voortdurend te verbeteren.",
+    "ap_long": "We innoveren de interne werking om de dienstverlening voortdurend te verbeteren.",
+    "ac_code": "AC000034",
+    "ac_short": "We zorgen voor adequate informatie en communicatietechnologie en gaan de digitale transformatie aan.",
+    "ac_long": "We zorgen voor adequate informatie en communicatietechnologie en gaan de digitale transformatie aan.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 57299.87,
+    "amount_per_capita": 5.34,
+    "yearly_amounts": {
+      "2026": 48974.87,
+      "2027": 1500.0,
+      "2028": 1575.0,
+      "2029": 1650.0,
+      "2030": 1750.0,
+      "2031": 1850.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.56,
+      "2027": 0.14,
+      "2028": 0.15,
+      "2029": 0.15,
+      "2030": 0.16,
+      "2031": 0.17
+    }
+  },
+  {
+    "municipality": "Hulshout",
+    "nis_code": "13016",
     "bd_code": "BD000001",
     "bd_short": "Hulshout creëert een zorgzame en levendige gemeenschap waar ontmoeten centraal staat en iedereen ...",
     "bd_long": "Hulshout creëert een zorgzame en levendige gemeenschap waar ontmoeten centraal staat en iedereen betrokken is bij het dorpsleven.",
@@ -695,7 +627,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 4.65,
+    "amount_per_capita": 4.66,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 0,
@@ -705,7 +637,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.65,
+      "2026": 4.66,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -729,7 +661,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 4.65,
+    "amount_per_capita": 4.66,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -744,75 +676,7 @@
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 4.65
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
-    "bd_code": "BD000003",
-    "bd_short": "Hulshout is een professioneel en aantrekkelijk overheidsbedrijf.",
-    "bd_long": "Hulshout is een professioneel en aantrekkelijk overheidsbedrijf.",
-    "ap_code": "AP000015",
-    "ap_short": "We streven naar een efficiënt en duurzaam beheer van het gemeentelijk patrimonium en investeren o...",
-    "ap_long": "We streven naar een efficiënt en duurzaam beheer van het gemeentelijk patrimonium en investeren om de kwaliteit te verbeteren",
-    "ac_code": "AC000059",
-    "ac_short": "We ontsluiten erfgoed en patrimonium voor multifunctioneel gebruik.",
-    "ac_long": "We ontsluiten erfgoed en patrimonium voor multifunctioneel gebruik.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 40000.0,
-    "amount_per_capita": 3.72,
-    "yearly_amounts": {
-      "2026": 40000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 3.72,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
-    "bd_code": "BD000005",
-    "bd_short": "Verder inzetten op een kwaliteitsvol, duurzaam en veilig sportpark.",
-    "bd_long": "Verder inzetten op een kwaliteitsvol, duurzaam en veilig sportpark.",
-    "ap_code": "AP000027",
-    "ap_short": "Het AGB zorgt dat het personeel dat ten dienste staat van het bedrijf, de nodige middelen heeft om d",
-    "ap_long": "Het AGB zorgt dat het personeel dat ten dienste staat van het bedrijf, de nodige middelen heeft om d",
-    "ac_code": "AC000113",
-    "ac_short": "Het AGB investeert in de nodige machines om de gebouwen en terreinen te onderhouden.",
-    "ac_long": "Het AGB investeert in de nodige machines om de gebouwen en terreinen te onderhouden.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 37500.0,
-    "amount_per_capita": 3.49,
-    "yearly_amounts": {
-      "2026": 20000.0,
-      "2027": 7500.0,
-      "2028": 5000.0,
-      "2029": 5000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.86,
-      "2027": 0.7,
-      "2028": 0.47,
-      "2029": 0.47,
-      "2030": 0,
-      "2031": 0
+      "2031": 4.66
     }
   },
   {
@@ -886,6 +750,40 @@
   {
     "municipality": "Hulshout",
     "nis_code": "13016",
+    "bd_code": "BD000001",
+    "bd_short": "Hulshout creëert een zorgzame en levendige gemeenschap waar ontmoeten centraal staat en iedereen ...",
+    "bd_long": "Hulshout creëert een zorgzame en levendige gemeenschap waar ontmoeten centraal staat en iedereen betrokken is bij het dorpsleven.",
+    "ap_code": "AP000002",
+    "ap_short": "We dragen zorg voor kwetsbare inwoners en versterken het sociaal beleid.",
+    "ap_long": "We dragen zorg voor kwetsbare inwoners en versterken het sociaal beleid.",
+    "ac_code": "AC000007",
+    "ac_short": "We ondersteunen kwetsbare inwoners via gerichte maatregelen voor wonen en gezin.",
+    "ac_long": "We ondersteunen kwetsbare inwoners via gerichte maatregelen voor wonen en gezin.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 33250.0,
+    "amount_per_capita": 3.1,
+    "yearly_amounts": {
+      "2026": 33250.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hulshout",
+    "nis_code": "13016",
     "bd_code": "BD000004",
     "bd_short": "Hulshout zorgt voor een groene, veilige en inclusieve leefomgeving met oog voor huidige en toekom...",
     "bd_long": "Hulshout zorgt voor een groene, veilige en inclusieve leefomgeving met oog voor huidige en toekomstige generaties.",
@@ -923,40 +821,6 @@
     "bd_code": "BD000001",
     "bd_short": "Hulshout creëert een zorgzame en levendige gemeenschap waar ontmoeten centraal staat en iedereen ...",
     "bd_long": "Hulshout creëert een zorgzame en levendige gemeenschap waar ontmoeten centraal staat en iedereen betrokken is bij het dorpsleven.",
-    "ap_code": "AP000002",
-    "ap_short": "We dragen zorg voor kwetsbare inwoners en versterken het sociaal beleid.",
-    "ap_long": "We dragen zorg voor kwetsbare inwoners en versterken het sociaal beleid.",
-    "ac_code": "AC000007",
-    "ac_short": "We ondersteunen kwetsbare inwoners via gerichte maatregelen voor wonen en gezin.",
-    "ac_long": "We ondersteunen kwetsbare inwoners via gerichte maatregelen voor wonen en gezin.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 30000.0,
-    "amount_per_capita": 2.79,
-    "yearly_amounts": {
-      "2026": 30000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 2.79,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
-    "bd_code": "BD000001",
-    "bd_short": "Hulshout creëert een zorgzame en levendige gemeenschap waar ontmoeten centraal staat en iedereen ...",
-    "bd_long": "Hulshout creëert een zorgzame en levendige gemeenschap waar ontmoeten centraal staat en iedereen betrokken is bij het dorpsleven.",
     "ap_code": "AP000004",
     "ap_short": "We promoten onderwijs en moedigen levenslang leren aan.",
     "ap_long": "We promoten onderwijs en moedigen levenslang leren aan.",
@@ -966,57 +830,23 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 22078.0,
-    "amount_per_capita": 2.05,
+    "total_amount": 22743.52,
+    "amount_per_capita": 2.12,
     "yearly_amounts": {
-      "2026": 3500.0,
+      "2026": 4165.1,
       "2027": 3570.0,
-      "2028": 3641.0,
-      "2029": 3714.0,
-      "2030": 3789.0,
-      "2031": 3864.0
+      "2028": 3641.4,
+      "2029": 3714.23,
+      "2030": 3788.51,
+      "2031": 3864.28
     },
     "yearly_per_capita": {
-      "2026": 0.33,
+      "2026": 0.39,
       "2027": 0.33,
       "2028": 0.34,
       "2029": 0.35,
       "2030": 0.35,
       "2031": 0.36
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
-    "bd_code": "BD000008",
-    "bd_short": "Interne werking van de Welzijnsvereniging optimaliseren.",
-    "bd_long": "Interne werking van de Welzijnsvereniging optimaliseren.",
-    "ap_code": "AP000040",
-    "ap_short": "De interne werking van de WV optimaliseren om de efficiëntie en effectiviteit te verhogen.",
-    "ap_long": "De interne werking van de WV optimaliseren om de efficiëntie en effectiviteit te verhogen.",
-    "ac_code": "AC000167",
-    "ac_short": "Binnen de Welzijnsvereniging de bestaande informaticatoepassingen onderhouden.",
-    "ac_long": "Binnen de Welzijnsvereniging de bestaande informaticatoepassingen onderhouden.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 19400.0,
-    "amount_per_capita": 1.8,
-    "yearly_amounts": {
-      "2026": 19400.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.8,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
     }
   },
   {
@@ -1056,74 +886,6 @@
   {
     "municipality": "Hulshout",
     "nis_code": "13016",
-    "bd_code": "BD000005",
-    "bd_short": "Verder inzetten op een kwaliteitsvol, duurzaam en veilig sportpark.",
-    "bd_long": "Verder inzetten op een kwaliteitsvol, duurzaam en veilig sportpark.",
-    "ap_code": "AP000027",
-    "ap_short": "Het AGB zorgt dat het personeel dat ten dienste staat van het bedrijf, de nodige middelen heeft om d",
-    "ap_long": "Het AGB zorgt dat het personeel dat ten dienste staat van het bedrijf, de nodige middelen heeft om d",
-    "ac_code": "AC000111",
-    "ac_short": "Het AGB voorziet in computerkosten.",
-    "ac_long": "Het AGB voorziet in computerkosten.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 14000.0,
-    "amount_per_capita": 1.3,
-    "yearly_amounts": {
-      "2026": 5000.0,
-      "2027": 3000.0,
-      "2028": 0,
-      "2029": 3000.0,
-      "2030": 0,
-      "2031": 3000.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.47,
-      "2027": 0.28,
-      "2028": 0,
-      "2029": 0.28,
-      "2030": 0,
-      "2031": 0.28
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
-    "bd_code": "BD000002",
-    "bd_short": "Hulshout biedt een warme dienstverlening die verwelkomend, toegankelijk en doelgericht is en waar...",
-    "bd_long": "Hulshout biedt een warme dienstverlening die verwelkomend, toegankelijk en doelgericht is en waarbij onze klant centraal staat.",
-    "ap_code": "AP000008",
-    "ap_short": "We innoveren de interne werking om de dienstverlening voortdurend te verbeteren.",
-    "ap_long": "We innoveren de interne werking om de dienstverlening voortdurend te verbeteren.",
-    "ac_code": "AC000034",
-    "ac_short": "We zorgen voor adequate informatie en communicatietechnologie en gaan de digitale transformatie aan.",
-    "ac_long": "We zorgen voor adequate informatie en communicatietechnologie en gaan de digitale transformatie aan.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 10835.0,
-    "amount_per_capita": 1.01,
-    "yearly_amounts": {
-      "2026": 2510.0,
-      "2027": 1500.0,
-      "2028": 1575.0,
-      "2029": 1650.0,
-      "2030": 1750.0,
-      "2031": 1850.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.23,
-      "2027": 0.14,
-      "2028": 0.15,
-      "2029": 0.15,
-      "2030": 0.16,
-      "2031": 0.17
-    }
-  },
-  {
-    "municipality": "Hulshout",
-    "nis_code": "13016",
     "bd_code": "BD000002",
     "bd_short": "Hulshout biedt een warme dienstverlening die verwelkomend, toegankelijk en doelgericht is en waar...",
     "bd_long": "Hulshout biedt een warme dienstverlening die verwelkomend, toegankelijk en doelgericht is en waarbij onze klant centraal staat.",
@@ -1148,6 +910,40 @@
     },
     "yearly_per_capita": {
       "2026": 0.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hulshout",
+    "nis_code": "13016",
+    "bd_code": "BD000001",
+    "bd_short": "Hulshout creëert een zorgzame en levendige gemeenschap waar ontmoeten centraal staat en iedereen ...",
+    "bd_long": "Hulshout creëert een zorgzame en levendige gemeenschap waar ontmoeten centraal staat en iedereen betrokken is bij het dorpsleven.",
+    "ap_code": "AP000005",
+    "ap_short": "We versterken ons vrijetijdsaanbod en creëren kansen tot ontmoeting.",
+    "ap_long": "We versterken ons vrijetijdsaanbod en creëren kansen tot ontmoeting.",
+    "ac_code": "AC000024",
+    "ac_short": "We geven materiële steun voor de organisatie van evenementen om de burgers elkaar te laten ontmoe...",
+    "ac_long": "We geven materiële steun voor de organisatie van evenementen om de burgers elkaar te laten ontmoeten.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1096.26,
+    "amount_per_capita": 0.1,
+    "yearly_amounts": {
+      "2026": 1096.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
       "2027": 0,
       "2028": 0,
       "2029": 0,

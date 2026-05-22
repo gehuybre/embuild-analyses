@@ -14,23 +14,23 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 3403318.0,
-    "amount_per_capita": 143.22,
+    "total_amount": 4168575.72,
+    "amount_per_capita": 175.56,
     "yearly_amounts": {
-      "2026": 1128065.0,
+      "2026": 1893322.4,
       "2027": 612550.0,
       "2028": 475035.0,
-      "2029": 347543.0,
-      "2030": 489518.0,
-      "2031": 350607.0
+      "2029": 347543.2,
+      "2030": 489517.86,
+      "2031": 350607.26
     },
     "yearly_per_capita": {
-      "2026": 47.47,
-      "2027": 25.78,
-      "2028": 19.99,
-      "2029": 14.63,
-      "2030": 20.6,
-      "2031": 14.75
+      "2026": 79.74,
+      "2027": 25.8,
+      "2028": 20.01,
+      "2029": 14.64,
+      "2030": 20.62,
+      "2031": 14.77
     }
   },
   {
@@ -48,23 +48,23 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 2507600.0,
-    "amount_per_capita": 105.53,
+    "total_amount": 2537324.82,
+    "amount_per_capita": 106.86,
     "yearly_amounts": {
-      "2026": 454243.0,
-      "2027": 429805.0,
-      "2028": 382919.0,
-      "2029": 417102.0,
-      "2030": 414998.0,
-      "2031": 408533.0
+      "2026": 483968.94,
+      "2027": 429805.19,
+      "2028": 382918.13,
+      "2029": 417101.63,
+      "2030": 414998.03,
+      "2031": 408532.9
     },
     "yearly_per_capita": {
-      "2026": 19.12,
-      "2027": 18.09,
-      "2028": 16.11,
-      "2029": 17.55,
-      "2030": 17.46,
-      "2031": 17.19
+      "2026": 20.38,
+      "2027": 18.1,
+      "2028": 16.13,
+      "2029": 17.57,
+      "2030": 17.48,
+      "2031": 17.21
     }
   },
   {
@@ -76,25 +76,127 @@
     "ap_code": "AP000004",
     "ap_short": "Balen zet in op levendige vrijetijdsplekken.",
     "ap_long": "Balen zet in op levendige vrijetijdsplekken die uitnodigen tot ontdekken, verbinden en vernieuwen – plekken waar mensen samen groeien en zich laten inspireren.",
-    "ac_code": "AC000023",
-    "ac_short": "Balen onderhoudt en investeert in infrastructuur voor jeugdwerk.",
-    "ac_long": "Balen zorgt voor goed onderhouden infrastructuur voor het jeugdwerk en blijft openstaan voor gerichte investeringen waar nodig.",
+    "ac_code": "AC000017",
+    "ac_short": "Gefaseerde uitvoering masterplan Kruierie",
+    "ac_long": "Balen blijft inzetten op de vrijetijdsbeleving voor inwoners en verenigingen door het masterplan Kruierie gefaseerd en doelgericht verder uit te voeren, rekening houdend met beschikbare middelen en prioriteiten.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 2447962.0,
-    "amount_per_capita": 103.02,
+    "total_amount": 2343389.76,
+    "amount_per_capita": 98.69,
     "yearly_amounts": {
-      "2026": 836333.0,
-      "2027": 1611629.0,
+      "2026": 2343389.76,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 35.2,
-      "2027": 67.82,
+      "2026": 98.69,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000003",
+    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
+    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
+    "ap_code": "AP000038",
+    "ap_short": "Balen beheert gebouwen, machines en wagenpark duurzaam en efficiënt.",
+    "ap_long": "Het lokaal bestuur Balen beheert en onderhoudt haar gebouwen, machines en wagenpark met aandacht voor duurzaamheid, veiligheid en efficiënt gebruik.",
+    "ac_code": "AC000182",
+    "ac_short": "Onderhoud en investeringen in gebouwen van gemeente en OCMW voor optimale dienstverlening.",
+    "ac_long": "Balen zorgt voor het onderhoud van de gebouwen van de gemeente en het OCMW en investeert waar nodig (onder andere in de gemeentelijke werkplaatsen), zodat de diensten optimaal kunnen functioneren en kwaliteitsvolle dienstverlening kunnen bieden.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 2113192.43,
+    "amount_per_capita": 89.0,
+    "yearly_amounts": {
+      "2026": 1394192.43,
+      "2027": 603000.0,
+      "2028": 19000.0,
+      "2029": 19000.0,
+      "2030": 19000.0,
+      "2031": 59000.0
+    },
+    "yearly_per_capita": {
+      "2026": 58.72,
+      "2027": 25.4,
+      "2028": 0.8,
+      "2029": 0.8,
+      "2030": 0.8,
+      "2031": 2.48
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000002",
+    "bd_short": "Balen zorgt voor een veilige en leefbare omgeving.",
+    "bd_long": "Balen zorgt voor veiligheid in het verkeer, de woonomgeving en publieke ruimtes en zorgt samen met betrokken actoren voor een leefbare omgeving.",
+    "ap_code": "AP000024",
+    "ap_short": "Balen organiseert mobiliteit, verlichting en publieke ruimte duurzaam en toekomstgericht.",
+    "ap_long": "Balen werkt aan een veilige, duurzame en leefbare omgeving door mobiliteit, verlichting en publieke ruimte slim en toekomstgericht te organiseren.",
+    "ac_code": "AC000113",
+    "ac_short": "Balen zorgt voor duurzame openbare verlichting.",
+    "ac_long": "Balen staat in voor duurzame openbare verlichting en maakt daarbij bewuste keuzes rond lichtintensiteit en verlichtingsduur, met aandacht voor zowel energie-efficiëntie als het veiligheidsgevoel in de publieke ruimte.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 2047994.2,
+    "amount_per_capita": 86.25,
+    "yearly_amounts": {
+      "2026": 776838.2,
+      "2027": 494656.0,
+      "2028": 457291.0,
+      "2029": 26975.0,
+      "2030": 26287.0,
+      "2031": 265947.0
+    },
+    "yearly_per_capita": {
+      "2026": 32.72,
+      "2027": 20.83,
+      "2028": 19.26,
+      "2029": 1.14,
+      "2030": 1.11,
+      "2031": 11.2
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000004",
+    "ap_short": "Balen zet in op levendige vrijetijdsplekken.",
+    "ap_long": "Balen zet in op levendige vrijetijdsplekken die uitnodigen tot ontdekken, verbinden en vernieuwen – plekken waar mensen samen groeien en zich laten inspireren.",
+    "ac_code": "AC000022",
+    "ac_short": "Balen ontwikkelt de Pastorijsite Olmen als multifunctioneel centrum.",
+    "ac_long": "Balen werkt aan een masterplan voor de Pastorijsite in Olmen, die wordt ingericht als een open, groene en toegankelijke plek die ontmoeting en verbondenheid bevordert, met een multifunctioneel centrum dat ruimte biedt aan jeugd, buurt en verenigingen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1979950.7,
+    "amount_per_capita": 83.39,
+    "yearly_amounts": {
+      "2026": 579950.7,
+      "2027": 1400000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 24.42,
+      "2027": 58.96,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -116,91 +218,23 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1834443.0,
-    "amount_per_capita": 77.2,
+    "total_amount": 1926361.01,
+    "amount_per_capita": 81.13,
     "yearly_amounts": {
-      "2026": 620700.0,
-      "2027": 338424.0,
+      "2026": 712619.98,
+      "2027": 338423.51,
       "2028": 134105.0,
-      "2029": 241650.0,
+      "2029": 241649.51,
       "2030": 302828.0,
-      "2031": 196736.0
+      "2031": 196735.01
     },
     "yearly_per_capita": {
-      "2026": 26.12,
-      "2027": 14.24,
-      "2028": 5.64,
-      "2029": 10.17,
-      "2030": 12.74,
-      "2031": 8.28
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
-    "bd_code": "BD000002",
-    "bd_short": "Balen zorgt voor een veilige en leefbare omgeving.",
-    "bd_long": "Balen zorgt voor veiligheid in het verkeer, de woonomgeving en publieke ruimtes en zorgt samen met betrokken actoren voor een leefbare omgeving.",
-    "ap_code": "AP000024",
-    "ap_short": "Balen organiseert mobiliteit, verlichting en publieke ruimte duurzaam en toekomstgericht.",
-    "ap_long": "Balen werkt aan een veilige, duurzame en leefbare omgeving door mobiliteit, verlichting en publieke ruimte slim en toekomstgericht te organiseren.",
-    "ac_code": "AC000113",
-    "ac_short": "Balen zorgt voor duurzame openbare verlichting.",
-    "ac_long": "Balen staat in voor duurzame openbare verlichting en maakt daarbij bewuste keuzes rond lichtintensiteit en verlichtingsduur, met aandacht voor zowel energie-efficiëntie als het veiligheidsgevoel in de publieke ruimte.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 1770562.0,
-    "amount_per_capita": 74.51,
-    "yearly_amounts": {
-      "2026": 499406.0,
-      "2027": 494656.0,
-      "2028": 457291.0,
-      "2029": 26975.0,
-      "2030": 26287.0,
-      "2031": 265947.0
-    },
-    "yearly_per_capita": {
-      "2026": 21.02,
-      "2027": 20.82,
-      "2028": 19.24,
-      "2029": 1.14,
-      "2030": 1.11,
-      "2031": 11.19
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
-    "bd_code": "BD000003",
-    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
-    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
-    "ap_code": "AP000038",
-    "ap_short": "Balen beheert gebouwen, machines en wagenpark duurzaam en efficiënt.",
-    "ap_long": "Het lokaal bestuur Balen beheert en onderhoudt haar gebouwen, machines en wagenpark met aandacht voor duurzaamheid, veiligheid en efficiënt gebruik.",
-    "ac_code": "AC000182",
-    "ac_short": "Onderhoud en investeringen in gebouwen van gemeente en OCMW voor optimale dienstverlening.",
-    "ac_long": "Balen zorgt voor het onderhoud van de gebouwen van de gemeente en het OCMW en investeert waar nodig (onder andere in de gemeentelijke werkplaatsen), zodat de diensten optimaal kunnen functioneren en kwaliteitsvolle dienstverlening kunnen bieden.",
-    "categories": [
-      "00-algemene-financiering"
-    ],
-    "total_amount": 1720700.0,
-    "amount_per_capita": 72.41,
-    "yearly_amounts": {
-      "2026": 1001700.0,
-      "2027": 603000.0,
-      "2028": 19000.0,
-      "2029": 19000.0,
-      "2030": 19000.0,
-      "2031": 59000.0
-    },
-    "yearly_per_capita": {
-      "2026": 42.15,
-      "2027": 25.38,
-      "2028": 0.8,
-      "2029": 0.8,
-      "2030": 0.8,
-      "2031": 2.48
+      "2026": 30.01,
+      "2027": 14.25,
+      "2028": 5.65,
+      "2029": 10.18,
+      "2030": 12.75,
+      "2031": 8.29
     }
   },
   {
@@ -218,10 +252,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 1394000.0,
-    "amount_per_capita": 58.66,
+    "total_amount": 1403200.0,
+    "amount_per_capita": 59.1,
     "yearly_amounts": {
-      "2026": 190500.0,
+      "2026": 199700.0,
       "2027": 240000.0,
       "2028": 960000.0,
       "2029": 0,
@@ -229,9 +263,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.02,
-      "2027": 10.1,
-      "2028": 40.4,
+      "2026": 8.41,
+      "2027": 10.11,
+      "2028": 40.43,
       "2029": 0,
       "2030": 0.15,
       "2031": 0
@@ -240,34 +274,34 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
-    "bd_code": "BD000003",
-    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
-    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
-    "ap_code": "AP000033",
-    "ap_short": "Balen combineert rioleringsprojecten met wegenwerken voor een kwalitatieve openbare ruimte.",
-    "ap_long": "Balen pakt omgevingswerken gebiedsgericht en integraal aan, waarbij rioleringsprojecten maximaal worden gecombineerd met de aanleg of vernieuwing van wegen, fietspaden en andere publieke infrastructuur, om zo te komen tot een kwalitatieve en toekomstgerichte openbare ruimte.",
-    "ac_code": "AC000154",
-    "ac_short": "Project  Schommelstraat, Grees, Schepershoekweg, …",
-    "ac_long": "Balen voert het project Schommelstraat, Grees, Schepershoekweg, … uit zoals voorzien in de planning, als onderdeel van een integrale aanpak voor een kwalitatieve openbare ruimte.",
+    "bd_code": "BD000004",
+    "bd_short": "Balen ondersteunt inwoners in alle samenlevingsvormen.",
+    "bd_long": "Balen ondersteunt inwoners in alle samenlevingsvormen  en stimuleert hun groei en ontwikkeling.",
+    "ap_code": "AP000040",
+    "ap_short": "Balen organiseert gemeentelijk onderwijs met aandacht voor zorg, innovatie en inclusie.",
+    "ap_long": "Balen organiseert eigen gemeentelijk onderwijs waarin zorg, respect, samenwerking en innovatie centraal staan. We creëren een warme, veilige en kindvriendelijke leeromgeving waarin elk kind maximale ontwikkelingskansen krijgt, met bijzondere aandacht voor kinderen met extra ondersteuningsnoden en met ruimte voor professionele groei van het schoolteam.",
+    "ac_code": "AC000188",
+    "ac_short": "Balen zet in op goed onderhouden schoolgebouwen die multifunctioneel inzetbaar zijn.",
+    "ac_long": "Balen zet in op goed onderhouden en functioneel uitgeruste schoolgebouwen, zodat kinderen les kunnen volgen in een aangename leeromgeving. Daarnaast stellen we deze infrastructuur ook open voor verenigingen en organisaties, zodat ze optimaal en multifunctioneel benut wordt.",
     "categories": [
-      "02-mobiliteit"
+      "08-onderwijs"
     ],
-    "total_amount": 1009348.0,
-    "amount_per_capita": 42.48,
+    "total_amount": 1308061.19,
+    "amount_per_capita": 55.09,
     "yearly_amounts": {
-      "2026": 217635.0,
-      "2027": 785739.0,
-      "2028": 2987.0,
-      "2029": 0,
-      "2030": 2987.0,
+      "2026": 643361.19,
+      "2027": 291700.0,
+      "2028": 0,
+      "2029": 173000.0,
+      "2030": 200000.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.16,
-      "2027": 33.07,
-      "2028": 0.13,
-      "2029": 0,
-      "2030": 0.13,
+      "2026": 27.1,
+      "2027": 12.28,
+      "2028": 0,
+      "2029": 7.29,
+      "2030": 8.42,
       "2031": 0
     }
   },
@@ -286,19 +320,87 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 1009296.0,
-    "amount_per_capita": 42.47,
+    "total_amount": 1133991.26,
+    "amount_per_capita": 47.76,
     "yearly_amounts": {
-      "2026": 504648.0,
-      "2027": 504648.0,
+      "2026": 629343.76,
+      "2027": 504647.5,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 21.24,
-      "2027": 21.24,
+      "2026": 26.5,
+      "2027": 21.25,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000003",
+    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
+    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
+    "ap_code": "AP000033",
+    "ap_short": "Balen combineert rioleringsprojecten met wegenwerken voor een kwalitatieve openbare ruimte.",
+    "ap_long": "Balen pakt omgevingswerken gebiedsgericht en integraal aan, waarbij rioleringsprojecten maximaal worden gecombineerd met de aanleg of vernieuwing van wegen, fietspaden en andere publieke infrastructuur, om zo te komen tot een kwalitatieve en toekomstgerichte openbare ruimte.",
+    "ac_code": "AC000154",
+    "ac_short": "Project  Schommelstraat, Grees, Schepershoekweg, …",
+    "ac_long": "Balen voert het project Schommelstraat, Grees, Schepershoekweg, … uit zoals voorzien in de planning, als onderdeel van een integrale aanpak voor een kwalitatieve openbare ruimte.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1040416.99,
+    "amount_per_capita": 43.82,
+    "yearly_amounts": {
+      "2026": 248704.41,
+      "2027": 785738.95,
+      "2028": 2986.76,
+      "2029": 0,
+      "2030": 2986.87,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.47,
+      "2027": 33.09,
+      "2028": 0.13,
+      "2029": 0,
+      "2030": 0.13,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000003",
+    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
+    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
+    "ap_code": "AP000029",
+    "ap_short": "Balen ontwikkelt kwaliteitsvolle woongebieden.",
+    "ap_long": "Balen ontwikkelt kwaliteitsvolle, sfeervolle en goed onderhouden woongebieden waar mensen levenslang kunnen wonen en zet in op basisvoorzieningen en ontmoetings- en speelplekken voor jong en oud met respect voor het landelijke karakter van Balen en de principes van duurzaamheid.",
+    "ac_code": "AC000132",
+    "ac_short": "Balen richt de Olmense Markt in met focus op ontharding, vergroening en multifunctionaliteit.",
+    "ac_long": "Balen richt de Olmense Markt opnieuw in met aandacht voor ontharding, vergroening en multifunctioneel gebruik om een kwaliteitsvolle en toekomstgerichte publieke ruimte te creëren die uitnodigt tot ontmoeting en ontspanning.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 915706.14,
+    "amount_per_capita": 38.56,
+    "yearly_amounts": {
+      "2026": 915706.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 38.56,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -321,7 +423,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 898200.0,
-    "amount_per_capita": 37.8,
+    "amount_per_capita": 37.83,
     "yearly_amounts": {
       "2026": 845000.0,
       "2027": 49700.0,
@@ -331,43 +433,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 35.56,
+      "2026": 35.59,
       "2027": 2.09,
       "2028": 0.15,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
-    "bd_code": "BD000003",
-    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
-    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
-    "ap_code": "AP000029",
-    "ap_short": "Balen ontwikkelt kwaliteitsvolle woongebieden.",
-    "ap_long": "Balen ontwikkelt kwaliteitsvolle, sfeervolle en goed onderhouden woongebieden waar mensen levenslang kunnen wonen en zet in op basisvoorzieningen en ontmoetings- en speelplekken voor jong en oud met respect voor het landelijke karakter van Balen en de principes van duurzaamheid.",
-    "ac_code": "AC000132",
-    "ac_short": "Balen richt de Olmense Markt in met focus op ontharding, vergroening en multifunctionaliteit.",
-    "ac_long": "Balen richt de Olmense Markt opnieuw in met aandacht voor ontharding, vergroening en multifunctioneel gebruik om een kwaliteitsvolle en toekomstgerichte publieke ruimte te creëren die uitnodigt tot ontmoeting en ontspanning.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 870000.0,
-    "amount_per_capita": 36.61,
-    "yearly_amounts": {
-      "2026": 870000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 36.61,
-      "2027": 0,
-      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -388,10 +456,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 800000.0,
-    "amount_per_capita": 33.67,
+    "total_amount": 825891.67,
+    "amount_per_capita": 34.78,
     "yearly_amounts": {
-      "2026": 800000.0,
+      "2026": 825891.67,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -399,7 +467,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 33.67,
+      "2026": 34.78,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -410,69 +478,35 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
-    "bd_code": "BD000004",
-    "bd_short": "Balen ondersteunt inwoners in alle samenlevingsvormen.",
-    "bd_long": "Balen ondersteunt inwoners in alle samenlevingsvormen  en stimuleert hun groei en ontwikkeling.",
-    "ap_code": "AP000040",
-    "ap_short": "Balen organiseert gemeentelijk onderwijs met aandacht voor zorg, innovatie en inclusie.",
-    "ap_long": "Balen organiseert eigen gemeentelijk onderwijs waarin zorg, respect, samenwerking en innovatie centraal staan. We creëren een warme, veilige en kindvriendelijke leeromgeving waarin elk kind maximale ontwikkelingskansen krijgt, met bijzondere aandacht voor kinderen met extra ondersteuningsnoden en met ruimte voor professionele groei van het schoolteam.",
-    "ac_code": "AC000188",
-    "ac_short": "Balen zet in op goed onderhouden schoolgebouwen die multifunctioneel inzetbaar zijn.",
-    "ac_long": "Balen zet in op goed onderhouden en functioneel uitgeruste schoolgebouwen, zodat kinderen les kunnen volgen in een aangename leeromgeving. Daarnaast stellen we deze infrastructuur ook open voor verenigingen en organisaties, zodat ze optimaal en multifunctioneel benut wordt.",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000004",
+    "ap_short": "Balen zet in op levendige vrijetijdsplekken.",
+    "ap_long": "Balen zet in op levendige vrijetijdsplekken die uitnodigen tot ontdekken, verbinden en vernieuwen – plekken waar mensen samen groeien en zich laten inspireren.",
+    "ac_code": "AC000021",
+    "ac_short": "Balen investeert in sportinfrastructuur.",
+    "ac_long": "Balen zorgt voor een sportinfrastructuur die mee is met de noden van vandaag, door gericht te investeren in onderhoud en gebruiksgemak voor inwoners en verenigingen.",
     "categories": [
-      "08-onderwijs"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 799900.0,
-    "amount_per_capita": 33.66,
+    "total_amount": 724630.52,
+    "amount_per_capita": 30.52,
     "yearly_amounts": {
-      "2026": 135200.0,
-      "2027": 291700.0,
-      "2028": 0,
-      "2029": 173000.0,
-      "2030": 200000.0,
-      "2031": 0
+      "2026": 568130.52,
+      "2027": 43500.0,
+      "2028": 36500.0,
+      "2029": 24000.0,
+      "2030": 24000.0,
+      "2031": 28500.0
     },
     "yearly_per_capita": {
-      "2026": 5.69,
-      "2027": 12.28,
-      "2028": 0,
-      "2029": 7.28,
-      "2030": 8.42,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
-    "bd_code": "BD000003",
-    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
-    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
-    "ap_code": "AP000033",
-    "ap_short": "Balen combineert rioleringsprojecten met wegenwerken voor een kwalitatieve openbare ruimte.",
-    "ap_long": "Balen pakt omgevingswerken gebiedsgericht en integraal aan, waarbij rioleringsprojecten maximaal worden gecombineerd met de aanleg of vernieuwing van wegen, fietspaden en andere publieke infrastructuur, om zo te komen tot een kwalitatieve en toekomstgerichte openbare ruimte.",
-    "ac_code": "AC000157",
-    "ac_short": "Project Boonsmolenstraat e.a",
-    "ac_long": "Balen voert het project  Holven, Schansstraat, Boonsmolenstraat e.a uit zoals voorzien in de planning, als onderdeel van een integrale aanpak voor een kwalitatieve openbare ruimte.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 657500.0,
-    "amount_per_capita": 27.67,
-    "yearly_amounts": {
-      "2026": 2500.0,
-      "2027": 0,
-      "2028": 138000.0,
-      "2029": 515000.0,
-      "2030": 2000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.11,
-      "2027": 0,
-      "2028": 5.81,
-      "2029": 21.67,
-      "2030": 0.08,
-      "2031": 0
+      "2026": 23.93,
+      "2027": 1.83,
+      "2028": 1.54,
+      "2029": 1.01,
+      "2030": 1.01,
+      "2031": 1.2
     }
   },
   {
@@ -490,10 +524,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 645260.0,
-    "amount_per_capita": 27.15,
+    "total_amount": 690260.0,
+    "amount_per_capita": 29.07,
     "yearly_amounts": {
-      "2026": 18000.0,
+      "2026": 63000.0,
       "2027": 7260.0,
       "2028": 0,
       "2029": 210000.0,
@@ -501,12 +535,46 @@
       "2031": 205000.0
     },
     "yearly_per_capita": {
-      "2026": 0.76,
+      "2026": 2.65,
       "2027": 0.31,
       "2028": 0,
       "2029": 8.84,
       "2030": 8.63,
       "2031": 8.63
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000003",
+    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
+    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
+    "ap_code": "AP000033",
+    "ap_short": "Balen combineert rioleringsprojecten met wegenwerken voor een kwalitatieve openbare ruimte.",
+    "ap_long": "Balen pakt omgevingswerken gebiedsgericht en integraal aan, waarbij rioleringsprojecten maximaal worden gecombineerd met de aanleg of vernieuwing van wegen, fietspaden en andere publieke infrastructuur, om zo te komen tot een kwalitatieve en toekomstgerichte openbare ruimte.",
+    "ac_code": "AC000157",
+    "ac_short": "Project Boonsmolenstraat e.a",
+    "ac_long": "Balen voert het project  Holven, Schansstraat, Boonsmolenstraat e.a uit zoals voorzien in de planning, als onderdeel van een integrale aanpak voor een kwalitatieve openbare ruimte.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 675100.0,
+    "amount_per_capita": 28.43,
+    "yearly_amounts": {
+      "2026": 20100.0,
+      "2027": 0,
+      "2028": 138000.0,
+      "2029": 515000.0,
+      "2030": 2000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.85,
+      "2027": 0,
+      "2028": 5.81,
+      "2029": 21.69,
+      "2030": 0.08,
+      "2031": 0
     }
   },
   {
@@ -525,7 +593,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 596369.0,
-    "amount_per_capita": 25.1,
+    "amount_per_capita": 25.12,
     "yearly_amounts": {
       "2026": 451169.0,
       "2027": 76000.0,
@@ -535,7 +603,7 @@
       "2031": 16000.0
     },
     "yearly_per_capita": {
-      "2026": 18.99,
+      "2026": 19.0,
       "2027": 3.2,
       "2028": 0.67,
       "2029": 0.89,
@@ -546,35 +614,35 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
-    "bd_code": "BD000001",
-    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
-    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
-    "ap_code": "AP000004",
-    "ap_short": "Balen zet in op levendige vrijetijdsplekken.",
-    "ap_long": "Balen zet in op levendige vrijetijdsplekken die uitnodigen tot ontdekken, verbinden en vernieuwen – plekken waar mensen samen groeien en zich laten inspireren.",
-    "ac_code": "AC000021",
-    "ac_short": "Balen investeert in sportinfrastructuur.",
-    "ac_long": "Balen zorgt voor een sportinfrastructuur die mee is met de noden van vandaag, door gericht te investeren in onderhoud en gebruiksgemak voor inwoners en verenigingen.",
+    "bd_code": "BD000003",
+    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
+    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
+    "ap_code": "AP000035",
+    "ap_short": "Balen voert beleid rond natuur en belevingsgroen.",
+    "ap_long": "Balen voert een beleid rond natuur en belevingsgroen zodat de natuurplekken, het belevingsgroen en het aanwezige water Balen mee maken tot een aangename gemeente om in te leven en verblijven.",
+    "ac_code": "AC000169",
+    "ac_short": "Balen onderhoudt parken en plantsoenen  pesticidenvrij.",
+    "ac_long": "Balen zorgt voor aantrekkelijke, toegankelijke parken en plantsoenen die  pesticidenvrij onderhouden worden en bijdragen aan biodiversiteit en leefkwaliteit.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "06-wonen-ruimte"
     ],
-    "total_amount": 562500.0,
-    "amount_per_capita": 23.67,
+    "total_amount": 560295.93,
+    "amount_per_capita": 23.6,
     "yearly_amounts": {
-      "2026": 406000.0,
-      "2027": 43500.0,
-      "2028": 36500.0,
-      "2029": 24000.0,
-      "2030": 24000.0,
-      "2031": 28500.0
+      "2026": 250412.93,
+      "2027": 82500.0,
+      "2028": 63175.0,
+      "2029": 53910.0,
+      "2030": 59712.0,
+      "2031": 50586.0
     },
     "yearly_per_capita": {
-      "2026": 17.09,
-      "2027": 1.83,
-      "2028": 1.54,
-      "2029": 1.01,
-      "2030": 1.01,
-      "2031": 1.2
+      "2026": 10.55,
+      "2027": 3.47,
+      "2028": 2.66,
+      "2029": 2.27,
+      "2030": 2.51,
+      "2031": 2.13
     }
   },
   {
@@ -592,10 +660,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 518650.0,
-    "amount_per_capita": 21.83,
+    "total_amount": 527402.03,
+    "amount_per_capita": 22.21,
     "yearly_amounts": {
-      "2026": 239050.0,
+      "2026": 247802.03,
       "2027": 45000.0,
       "2028": 40000.0,
       "2029": 113100.0,
@@ -603,12 +671,46 @@
       "2031": 41000.0
     },
     "yearly_per_capita": {
-      "2026": 10.06,
-      "2027": 1.89,
+      "2026": 10.44,
+      "2027": 1.9,
       "2028": 1.68,
       "2029": 4.76,
-      "2030": 1.7,
+      "2030": 1.71,
       "2031": 1.73
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000004",
+    "ap_short": "Balen zet in op levendige vrijetijdsplekken.",
+    "ap_long": "Balen zet in op levendige vrijetijdsplekken die uitnodigen tot ontdekken, verbinden en vernieuwen – plekken waar mensen samen groeien en zich laten inspireren.",
+    "ac_code": "AC000023",
+    "ac_short": "Balen onderhoudt en investeert in infrastructuur voor jeugdwerk.",
+    "ac_long": "Balen zorgt voor goed onderhouden infrastructuur voor het jeugdwerk en blijft openstaan voor gerichte investeringen waar nodig.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 510739.6,
+    "amount_per_capita": 21.51,
+    "yearly_amounts": {
+      "2026": 299110.6,
+      "2027": 211629.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.6,
+      "2027": 8.91,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -627,7 +729,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 493607.0,
-    "amount_per_capita": 20.77,
+    "amount_per_capita": 20.79,
     "yearly_amounts": {
       "2026": 493607.0,
       "2027": 0,
@@ -637,7 +739,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 20.77,
+      "2026": 20.79,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -660,10 +762,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 431600.0,
-    "amount_per_capita": 18.16,
+    "total_amount": 440419.46,
+    "amount_per_capita": 18.55,
     "yearly_amounts": {
-      "2026": 46400.0,
+      "2026": 55219.46,
       "2027": 385200.0,
       "2028": 0,
       "2029": 0,
@@ -671,8 +773,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.95,
-      "2027": 16.21,
+      "2026": 2.33,
+      "2027": 16.22,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -685,32 +787,32 @@
     "bd_code": "BD000003",
     "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
     "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
-    "ap_code": "AP000035",
-    "ap_short": "Balen voert beleid rond natuur en belevingsgroen.",
-    "ap_long": "Balen voert een beleid rond natuur en belevingsgroen zodat de natuurplekken, het belevingsgroen en het aanwezige water Balen mee maken tot een aangename gemeente om in te leven en verblijven.",
-    "ac_code": "AC000169",
-    "ac_short": "Balen onderhoudt parken en plantsoenen  pesticidenvrij.",
-    "ac_long": "Balen zorgt voor aantrekkelijke, toegankelijke parken en plantsoenen die  pesticidenvrij onderhouden worden en bijdragen aan biodiversiteit en leefkwaliteit.",
+    "ap_code": "AP000033",
+    "ap_short": "Balen combineert rioleringsprojecten met wegenwerken voor een kwalitatieve openbare ruimte.",
+    "ap_long": "Balen pakt omgevingswerken gebiedsgericht en integraal aan, waarbij rioleringsprojecten maximaal worden gecombineerd met de aanleg of vernieuwing van wegen, fietspaden en andere publieke infrastructuur, om zo te komen tot een kwalitatieve en toekomstgerichte openbare ruimte.",
+    "ac_code": "AC000159",
+    "ac_short": "Project Boogstraat, Schuttersstraat",
+    "ac_long": "Balen voert het project Boogstraat, Schuttersstraat uit zoals voorzien in de planning, als onderdeel van een integrale aanpak voor een kwalitatieve openbare ruimte.",
     "categories": [
-      "06-wonen-ruimte"
+      "02-mobiliteit"
     ],
-    "total_amount": 372383.0,
-    "amount_per_capita": 15.67,
+    "total_amount": 349350.0,
+    "amount_per_capita": 14.71,
     "yearly_amounts": {
-      "2026": 62500.0,
-      "2027": 82500.0,
-      "2028": 63175.0,
-      "2029": 53910.0,
-      "2030": 59712.0,
-      "2031": 50586.0
+      "2026": 349350.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.63,
-      "2027": 3.47,
-      "2028": 2.66,
-      "2029": 2.27,
-      "2030": 2.51,
-      "2031": 2.13
+      "2026": 14.71,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -729,7 +831,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 345100.0,
-    "amount_per_capita": 14.52,
+    "amount_per_capita": 14.53,
     "yearly_amounts": {
       "2026": 172550.0,
       "2027": 172550.0,
@@ -739,12 +841,80 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.26,
-      "2027": 7.26,
+      "2026": 7.27,
+      "2027": 7.27,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000010",
+    "ap_short": "Balen ondersteunt geloofsgemeenschappen.",
+    "ap_long": "Balen neemt haar verantwoordelijkheid op in de ondersteuning van erkende geloofsgemeenschappen, in lijn met de wettelijke opdracht en met respect voor diversiteit.",
+    "ac_code": "AC000044",
+    "ac_short": "Balen ondersteunt erkende geloofsgemeenschappen.",
+    "ac_long": "Balen draagt bij aan de werking van de erkende geloofsgemeenschappen via de wettelijk voorziene financiële ondersteuning.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 331454.18,
+    "amount_per_capita": 13.96,
+    "yearly_amounts": {
+      "2026": 331454.18,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.96,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000003",
+    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
+    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
+    "ap_code": "AP000029",
+    "ap_short": "Balen ontwikkelt kwaliteitsvolle woongebieden.",
+    "ap_long": "Balen ontwikkelt kwaliteitsvolle, sfeervolle en goed onderhouden woongebieden waar mensen levenslang kunnen wonen en zet in op basisvoorzieningen en ontmoetings- en speelplekken voor jong en oud met respect voor het landelijke karakter van Balen en de principes van duurzaamheid.",
+    "ac_code": "AC000133",
+    "ac_short": "Balen beheert begraafplaatsen respectvol, toegankelijk en onderhoudsarm.",
+    "ac_long": "Balen beheert de begraafplaatsen op een respectvolle en serene manier, met een inrichting die rust biedt aan nabestaanden, vlot toegankelijk is voor alle burgers en een minimaal onderhoud vergt.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 327904.06,
+    "amount_per_capita": 13.81,
+    "yearly_amounts": {
+      "2026": 190404.06,
+      "2027": 32500.0,
+      "2028": 37500.0,
+      "2029": 22500.0,
+      "2030": 35000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.02,
+      "2027": 1.37,
+      "2028": 1.58,
+      "2029": 0.95,
+      "2030": 1.47,
+      "2031": 0.42
     }
   },
   {
@@ -762,10 +932,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 301200.0,
-    "amount_per_capita": 12.68,
+    "total_amount": 313281.22,
+    "amount_per_capita": 13.19,
     "yearly_amounts": {
-      "2026": 190000.0,
+      "2026": 202081.22,
       "2027": 110000.0,
       "2028": 0,
       "2029": 1200.0,
@@ -773,7 +943,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.0,
+      "2026": 8.51,
       "2027": 4.63,
       "2028": 0,
       "2029": 0.05,
@@ -796,10 +966,10 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 260000.0,
-    "amount_per_capita": 10.94,
+    "total_amount": 293265.91,
+    "amount_per_capita": 12.35,
     "yearly_amounts": {
-      "2026": 210000.0,
+      "2026": 243265.91,
       "2027": 10000.0,
       "2028": 10000.0,
       "2029": 10000.0,
@@ -807,12 +977,114 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 8.84,
+      "2026": 10.25,
       "2027": 0.42,
       "2028": 0.42,
       "2029": 0.42,
       "2030": 0.42,
       "2031": 0.42
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000002",
+    "bd_short": "Balen zorgt voor een veilige en leefbare omgeving.",
+    "bd_long": "Balen zorgt voor veiligheid in het verkeer, de woonomgeving en publieke ruimtes en zorgt samen met betrokken actoren voor een leefbare omgeving.",
+    "ap_code": "AP000026",
+    "ap_short": "Balen neemt initiatieven voor verkeersveiligheid.",
+    "ap_long": "Balen neemt eigen initiatieven en ondersteunt bovenlokale inspanningen om de verkeersveiligheid te verbeteren, met bijzondere aandacht voor schoolomgevingen, actieve weggebruikers en risicovolle situaties.",
+    "ac_code": "AC000120",
+    "ac_short": "Balen investeert in snelheidsremmers, zones en infrastructuur voor verkeersveiligheid.",
+    "ac_long": "Balen investeert in fysieke ingrepen zoals snelheidsremmers, aangepaste snelheidszones, proefopstellingen en infrastructuuraanpassingen die het verkeersgedrag positief beïnvloeden. Positieve proefprojecten kunnen worden bestendigd op basis van een duidelijk evaluatiekader.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 263255.94,
+    "amount_per_capita": 11.09,
+    "yearly_amounts": {
+      "2026": 146374.48,
+      "2027": 26000.0,
+      "2028": 22050.0,
+      "2029": 22491.0,
+      "2030": 22940.82,
+      "2031": 23399.64
+    },
+    "yearly_per_capita": {
+      "2026": 6.16,
+      "2027": 1.09,
+      "2028": 0.93,
+      "2029": 0.95,
+      "2030": 0.97,
+      "2031": 0.99
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000004",
+    "ap_short": "Balen zet in op levendige vrijetijdsplekken.",
+    "ap_long": "Balen zet in op levendige vrijetijdsplekken die uitnodigen tot ontdekken, verbinden en vernieuwen – plekken waar mensen samen groeien en zich laten inspireren.",
+    "ac_code": "AC000019",
+    "ac_short": "Balen onderhoudt recreatiedomein en speeltuin Keiheuvel.",
+    "ac_long": "Balen investeert in het onderhoud en up-to-date houden van recreatiedomein en speeltuin Keiheuvel.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 259399.93,
+    "amount_per_capita": 10.92,
+    "yearly_amounts": {
+      "2026": 199399.93,
+      "2027": 60000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.4,
+      "2027": 2.53,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000003",
+    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
+    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
+    "ap_code": "AP000032",
+    "ap_short": "Balen voert een verantwoord waterbeleid via acties rond riolering, infiltratie en ontharding.",
+    "ap_long": "Balen werkt samen met inwoners en bedrijven aan een verantwoord waterbeleid via gerichte acties rond riolering, infiltratie en ontharding.",
+    "ac_code": "AC000143",
+    "ac_short": "Balen werkt aan zuivere waterlopen en riolering.",
+    "ac_long": "Balen werkt samen met HidroRio en Aquafin om de rioleringsgraad te verhogen en zoveel mogelijk woningen aan te sluiten op het rioleringsnet, met als doel zuiverdere waterlopen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 219374.58,
+    "amount_per_capita": 9.24,
+    "yearly_amounts": {
+      "2026": 210874.58,
+      "2027": 8500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.88,
+      "2027": 0.36,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -830,10 +1102,10 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 185000.0,
-    "amount_per_capita": 7.79,
+    "total_amount": 205000.0,
+    "amount_per_capita": 8.63,
     "yearly_amounts": {
-      "2026": 40000.0,
+      "2026": 60000.0,
       "2027": 30000.0,
       "2028": 30000.0,
       "2029": 30000.0,
@@ -841,46 +1113,12 @@
       "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 1.68,
+      "2026": 2.53,
       "2027": 1.26,
       "2028": 1.26,
       "2029": 1.26,
       "2030": 1.05,
       "2031": 1.26
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
-    "bd_code": "BD000003",
-    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
-    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
-    "ap_code": "AP000029",
-    "ap_short": "Balen ontwikkelt kwaliteitsvolle woongebieden.",
-    "ap_long": "Balen ontwikkelt kwaliteitsvolle, sfeervolle en goed onderhouden woongebieden waar mensen levenslang kunnen wonen en zet in op basisvoorzieningen en ontmoetings- en speelplekken voor jong en oud met respect voor het landelijke karakter van Balen en de principes van duurzaamheid.",
-    "ac_code": "AC000133",
-    "ac_short": "Balen beheert begraafplaatsen respectvol, toegankelijk en onderhoudsarm.",
-    "ac_long": "Balen beheert de begraafplaatsen op een respectvolle en serene manier, met een inrichting die rust biedt aan nabestaanden, vlot toegankelijk is voor alle burgers en een minimaal onderhoud vergt.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 172500.0,
-    "amount_per_capita": 7.26,
-    "yearly_amounts": {
-      "2026": 35000.0,
-      "2027": 32500.0,
-      "2028": 37500.0,
-      "2029": 22500.0,
-      "2030": 35000.0,
-      "2031": 10000.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.47,
-      "2027": 1.37,
-      "2028": 1.58,
-      "2029": 0.95,
-      "2030": 1.47,
-      "2031": 0.42
     }
   },
   {
@@ -898,10 +1136,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 166278.0,
-    "amount_per_capita": 7.0,
+    "total_amount": 171093.8,
+    "amount_per_capita": 7.21,
     "yearly_amounts": {
-      "2026": 166278.0,
+      "2026": 171093.8,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -909,7 +1147,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.0,
+      "2026": 7.21,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -932,10 +1170,10 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 165000.0,
-    "amount_per_capita": 6.94,
+    "total_amount": 161700.0,
+    "amount_per_capita": 6.81,
     "yearly_amounts": {
-      "2026": 52500.0,
+      "2026": 49200.0,
       "2027": 0,
       "2028": 50000.0,
       "2029": 32500.0,
@@ -943,9 +1181,9 @@
       "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 2.21,
+      "2026": 2.07,
       "2027": 0,
-      "2028": 2.1,
+      "2028": 2.11,
       "2029": 1.37,
       "2030": 0,
       "2031": 1.26
@@ -954,35 +1192,69 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
-    "bd_code": "BD000002",
-    "bd_short": "Balen zorgt voor een veilige en leefbare omgeving.",
-    "bd_long": "Balen zorgt voor veiligheid in het verkeer, de woonomgeving en publieke ruimtes en zorgt samen met betrokken actoren voor een leefbare omgeving.",
-    "ap_code": "AP000026",
-    "ap_short": "Balen neemt initiatieven voor verkeersveiligheid.",
-    "ap_long": "Balen neemt eigen initiatieven en ondersteunt bovenlokale inspanningen om de verkeersveiligheid te verbeteren, met bijzondere aandacht voor schoolomgevingen, actieve weggebruikers en risicovolle situaties.",
-    "ac_code": "AC000120",
-    "ac_short": "Balen investeert in snelheidsremmers, zones en infrastructuur voor verkeersveiligheid.",
-    "ac_long": "Balen investeert in fysieke ingrepen zoals snelheidsremmers, aangepaste snelheidszones, proefopstellingen en infrastructuuraanpassingen die het verkeersgedrag positief beïnvloeden. Positieve proefprojecten kunnen worden bestendigd op basis van een duidelijk evaluatiekader.",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000004",
+    "ap_short": "Balen zet in op levendige vrijetijdsplekken.",
+    "ap_long": "Balen zet in op levendige vrijetijdsplekken die uitnodigen tot ontdekken, verbinden en vernieuwen – plekken waar mensen samen groeien en zich laten inspireren.",
+    "ac_code": "AC000018",
+    "ac_short": "Balen houdt de Kruierie actueel als inspirerende derde plek, fysiek en digitaal.",
+    "ac_long": "We blijven inzetten op een eigentijdse en inspirerende Kruierie – zowel fysiek als digitaal – als prikkelende derde plek waar mensen zich thuis voelen, zichzelf kunnen zijn, nieuwe kansen ontdekken en blijven groeien.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 155116.15,
+    "amount_per_capita": 6.53,
+    "yearly_amounts": {
+      "2026": 139116.15,
+      "2027": 11000.0,
+      "2028": 1000.0,
+      "2029": 2000.0,
+      "2030": 1000.0,
+      "2031": 1000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.86,
+      "2027": 0.46,
+      "2028": 0.04,
+      "2029": 0.08,
+      "2030": 0.04,
+      "2031": 0.04
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000003",
+    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
+    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
+    "ap_code": "AP000033",
+    "ap_short": "Balen combineert rioleringsprojecten met wegenwerken voor een kwalitatieve openbare ruimte.",
+    "ap_long": "Balen pakt omgevingswerken gebiedsgericht en integraal aan, waarbij rioleringsprojecten maximaal worden gecombineerd met de aanleg of vernieuwing van wegen, fietspaden en andere publieke infrastructuur, om zo te komen tot een kwalitatieve en toekomstgerichte openbare ruimte.",
+    "ac_code": "AC000155",
+    "ac_short": "Project Rusvenstraat",
+    "ac_long": "Balen voert het project Rusvenstraat uit zoals voorzien in de planning, als onderdeel van een integrale aanpak voor een kwalitatieve openbare ruimte.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 151882.0,
-    "amount_per_capita": 6.39,
+    "total_amount": 153221.62,
+    "amount_per_capita": 6.45,
     "yearly_amounts": {
-      "2026": 35000.0,
-      "2027": 26000.0,
-      "2028": 22050.0,
-      "2029": 22491.0,
-      "2030": 22941.0,
-      "2031": 23400.0
+      "2026": 22721.62,
+      "2027": 130000.0,
+      "2028": 0,
+      "2029": 500.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.47,
-      "2027": 1.09,
-      "2028": 0.93,
-      "2029": 0.95,
-      "2030": 0.97,
-      "2031": 0.98
+      "2026": 0.96,
+      "2027": 5.47,
+      "2028": 0,
+      "2029": 0.02,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -1001,7 +1273,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 143400.0,
-    "amount_per_capita": 6.03,
+    "amount_per_capita": 6.04,
     "yearly_amounts": {
       "2026": 143400.0,
       "2027": 0,
@@ -1011,41 +1283,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.03,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
-    "bd_code": "BD000001",
-    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
-    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
-    "ap_code": "AP000004",
-    "ap_short": "Balen zet in op levendige vrijetijdsplekken.",
-    "ap_long": "Balen zet in op levendige vrijetijdsplekken die uitnodigen tot ontdekken, verbinden en vernieuwen – plekken waar mensen samen groeien en zich laten inspireren.",
-    "ac_code": "AC000017",
-    "ac_short": "Gefaseerde uitvoering masterplan Kruierie",
-    "ac_long": "Balen blijft inzetten op de vrijetijdsbeleving voor inwoners en verenigingen door het masterplan Kruierie gefaseerd en doelgericht verder uit te voeren, rekening houdend met beschikbare middelen en prioriteiten.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 140908.0,
-    "amount_per_capita": 5.93,
-    "yearly_amounts": {
-      "2026": 140908.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 5.93,
+      "2026": 6.04,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1059,30 +1297,30 @@
     "bd_code": "BD000003",
     "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
     "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
-    "ap_code": "AP000033",
-    "ap_short": "Balen combineert rioleringsprojecten met wegenwerken voor een kwalitatieve openbare ruimte.",
-    "ap_long": "Balen pakt omgevingswerken gebiedsgericht en integraal aan, waarbij rioleringsprojecten maximaal worden gecombineerd met de aanleg of vernieuwing van wegen, fietspaden en andere publieke infrastructuur, om zo te komen tot een kwalitatieve en toekomstgerichte openbare ruimte.",
-    "ac_code": "AC000155",
-    "ac_short": "Project Rusvenstraat",
-    "ac_long": "Balen voert het project Rusvenstraat uit zoals voorzien in de planning, als onderdeel van een integrale aanpak voor een kwalitatieve openbare ruimte.",
+    "ap_code": "AP000032",
+    "ap_short": "Balen voert een verantwoord waterbeleid via acties rond riolering, infiltratie en ontharding.",
+    "ap_long": "Balen werkt samen met inwoners en bedrijven aan een verantwoord waterbeleid via gerichte acties rond riolering, infiltratie en ontharding.",
+    "ac_code": "AC000146",
+    "ac_short": "Balen onderhoudt waterlopen evenwichtig en met respect voor omgeving en bewoners.",
+    "ac_long": "We onderhouden de waterlopen die in ons beheer zitten  op een evenwichtige manier, met respect voor zowel de omwonenden als de omgeving.",
     "categories": [
-      "02-mobiliteit"
+      "03-natuur-milieu"
     ],
-    "total_amount": 133000.0,
-    "amount_per_capita": 5.6,
+    "total_amount": 137758.5,
+    "amount_per_capita": 5.8,
     "yearly_amounts": {
-      "2026": 2500.0,
-      "2027": 130000.0,
+      "2026": 137758.5,
+      "2027": 0,
       "2028": 0,
-      "2029": 500.0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.11,
-      "2027": 5.47,
+      "2026": 5.8,
+      "2027": 0,
       "2028": 0,
-      "2029": 0.02,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -1093,32 +1331,32 @@
     "bd_code": "BD000001",
     "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
     "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
-    "ap_code": "AP000004",
-    "ap_short": "Balen zet in op levendige vrijetijdsplekken.",
-    "ap_long": "Balen zet in op levendige vrijetijdsplekken die uitnodigen tot ontdekken, verbinden en vernieuwen – plekken waar mensen samen groeien en zich laten inspireren.",
-    "ac_code": "AC000019",
-    "ac_short": "Balen onderhoudt recreatiedomein en speeltuin Keiheuvel.",
-    "ac_long": "Balen investeert in het onderhoud en up-to-date houden van recreatiedomein en speeltuin Keiheuvel.",
+    "ap_code": "AP000001",
+    "ap_short": "Balen investeert in verbinding en sociale samenhang.",
+    "ap_long": "Balen verbindt mensen door ontmoeting te stimuleren, initiatieven te ondersteunen en te bouwen aan een warme, hechte gemeenschap.",
+    "ac_code": "AC000004",
+    "ac_short": "Balen ondersteunt het gemeenschapsleven door materialen uit te lenen en communicatie te faciliteren.",
+    "ac_long": "Balen draagt bij aan een levendig gemeenschapsleven door het uitlenen van materialen en het aanbieden van tools en kanalen om activiteiten breed bekend te maken.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 122000.0,
-    "amount_per_capita": 5.13,
+    "total_amount": 124501.7,
+    "amount_per_capita": 5.24,
     "yearly_amounts": {
-      "2026": 62000.0,
-      "2027": 60000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 49501.7,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
     },
     "yearly_per_capita": {
-      "2026": 2.61,
-      "2027": 2.52,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 2.08,
+      "2027": 0.63,
+      "2028": 0.63,
+      "2029": 0.63,
+      "2030": 0.63,
+      "2031": 0.63
     }
   },
   {
@@ -1149,6 +1387,40 @@
     "yearly_per_capita": {
       "2026": 4.84,
       "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000014",
+    "ap_short": "Balen zet in op inclusie  voor kwetsbare doelgroepen via gerichte acties.",
+    "ap_long": "Balen bevordert de participatie, integratie en gelijkheid van kansen van verschillende doelgroepen (personen met een beperking, psychisch kwetsbaren, vreemdelingen, jeugd, ouderen, mensen in armoede, alleenstaanden,…) in alle domeinen van het maatschappelijk leven, met als doel dat zij de grootst mogelijke zelfstandigheid en levenskwaliteit bereiken.",
+    "ac_code": "AC000057",
+    "ac_short": "Balen maakt publieke ruimten, diensten en evenementen toegankelijk voor iedereen.",
+    "ac_long": "Balen zet in op de toegankelijkheid van publieke ruimten, diensten en evenementen voor mensen met een beperking en ouderen, met als doel een comfortabel gebruik voor alle inwoners te garanderen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 114380.0,
+    "amount_per_capita": 4.82,
+    "yearly_amounts": {
+      "2026": 82920.0,
+      "2027": 31460.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.49,
+      "2027": 1.32,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1192,108 +1464,6 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
-    "bd_code": "BD000001",
-    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
-    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
-    "ap_code": "AP000014",
-    "ap_short": "Balen zet in op inclusie  voor kwetsbare doelgroepen via gerichte acties.",
-    "ap_long": "Balen bevordert de participatie, integratie en gelijkheid van kansen van verschillende doelgroepen (personen met een beperking, psychisch kwetsbaren, vreemdelingen, jeugd, ouderen, mensen in armoede, alleenstaanden,…) in alle domeinen van het maatschappelijk leven, met als doel dat zij de grootst mogelijke zelfstandigheid en levenskwaliteit bereiken.",
-    "ac_code": "AC000057",
-    "ac_short": "Balen maakt publieke ruimten, diensten en evenementen toegankelijk voor iedereen.",
-    "ac_long": "Balen zet in op de toegankelijkheid van publieke ruimten, diensten en evenementen voor mensen met een beperking en ouderen, met als doel een comfortabel gebruik voor alle inwoners te garanderen.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 94380.0,
-    "amount_per_capita": 3.97,
-    "yearly_amounts": {
-      "2026": 62920.0,
-      "2027": 31460.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 2.65,
-      "2027": 1.32,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
-    "bd_code": "BD000001",
-    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
-    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
-    "ap_code": "AP000001",
-    "ap_short": "Balen investeert in verbinding en sociale samenhang.",
-    "ap_long": "Balen verbindt mensen door ontmoeting te stimuleren, initiatieven te ondersteunen en te bouwen aan een warme, hechte gemeenschap.",
-    "ac_code": "AC000004",
-    "ac_short": "Balen ondersteunt het gemeenschapsleven door materialen uit te lenen en communicatie te faciliteren.",
-    "ac_long": "Balen draagt bij aan een levendig gemeenschapsleven door het uitlenen van materialen en het aanbieden van tools en kanalen om activiteiten breed bekend te maken.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 90000.0,
-    "amount_per_capita": 3.79,
-    "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 15000.0,
-      "2028": 15000.0,
-      "2029": 15000.0,
-      "2030": 15000.0,
-      "2031": 15000.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.63,
-      "2027": 0.63,
-      "2028": 0.63,
-      "2029": 0.63,
-      "2030": 0.63,
-      "2031": 0.63
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
-    "bd_code": "BD000001",
-    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
-    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
-    "ap_code": "AP000004",
-    "ap_short": "Balen zet in op levendige vrijetijdsplekken.",
-    "ap_long": "Balen zet in op levendige vrijetijdsplekken die uitnodigen tot ontdekken, verbinden en vernieuwen – plekken waar mensen samen groeien en zich laten inspireren.",
-    "ac_code": "AC000018",
-    "ac_short": "Balen houdt de Kruierie actueel als inspirerende derde plek, fysiek en digitaal.",
-    "ac_long": "We blijven inzetten op een eigentijdse en inspirerende Kruierie – zowel fysiek als digitaal – als prikkelende derde plek waar mensen zich thuis voelen, zichzelf kunnen zijn, nieuwe kansen ontdekken en blijven groeien.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 81000.0,
-    "amount_per_capita": 3.41,
-    "yearly_amounts": {
-      "2026": 65000.0,
-      "2027": 11000.0,
-      "2028": 1000.0,
-      "2029": 2000.0,
-      "2030": 1000.0,
-      "2031": 1000.0
-    },
-    "yearly_per_capita": {
-      "2026": 2.74,
-      "2027": 0.46,
-      "2028": 0.04,
-      "2029": 0.08,
-      "2030": 0.04,
-      "2031": 0.04
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
     "bd_code": "BD000003",
     "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
     "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
@@ -1306,10 +1476,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 75000.0,
-    "amount_per_capita": 3.16,
+    "total_amount": 94016.37,
+    "amount_per_capita": 3.96,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 19016.37,
       "2027": 25000.0,
       "2028": 0,
       "2029": 25000.0,
@@ -1317,7 +1487,7 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.8,
       "2027": 1.05,
       "2028": 0,
       "2029": 1.05,
@@ -1340,10 +1510,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 72600.0,
-    "amount_per_capita": 3.06,
+    "total_amount": 87600.0,
+    "amount_per_capita": 3.69,
     "yearly_amounts": {
-      "2026": 72600.0,
+      "2026": 87600.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1351,7 +1521,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.06,
+      "2026": 3.69,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1362,22 +1532,22 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
-    "bd_code": "BD000001",
-    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
-    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
-    "ap_code": "AP000010",
-    "ap_short": "Balen ondersteunt geloofsgemeenschappen.",
-    "ap_long": "Balen neemt haar verantwoordelijkheid op in de ondersteuning van erkende geloofsgemeenschappen, in lijn met de wettelijke opdracht en met respect voor diversiteit.",
-    "ac_code": "AC000044",
-    "ac_short": "Balen ondersteunt erkende geloofsgemeenschappen.",
-    "ac_long": "Balen draagt bij aan de werking van de erkende geloofsgemeenschappen via de wettelijk voorziene financiële ondersteuning.",
+    "bd_code": "BD000002",
+    "bd_short": "Balen zorgt voor een veilige en leefbare omgeving.",
+    "bd_long": "Balen zorgt voor veiligheid in het verkeer, de woonomgeving en publieke ruimtes en zorgt samen met betrokken actoren voor een leefbare omgeving.",
+    "ap_code": "AP000024",
+    "ap_short": "Balen organiseert mobiliteit, verlichting en publieke ruimte duurzaam en toekomstgericht.",
+    "ap_long": "Balen werkt aan een veilige, duurzame en leefbare omgeving door mobiliteit, verlichting en publieke ruimte slim en toekomstgericht te organiseren.",
+    "ac_code": "AC000112",
+    "ac_short": "Balen investeert in fietsvriendelijke infrastructuur en verbindingen.",
+    "ac_long": "Als fietsgemeente blijft Balen  inzetten op fietsvriendelijke infrastructuur door fietsverbindingen te optimaliseren, nieuwe verbindingen  voor te bereiden, fietssuggestiestroken aan te leggen, en voorzieningen zoals fietsrekken uit te breiden om het comfort en de veiligheid van fietsers te garanderen.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 66800.0,
-    "amount_per_capita": 2.81,
+    "total_amount": 84853.58,
+    "amount_per_capita": 3.57,
     "yearly_amounts": {
-      "2026": 66800.0,
+      "2026": 84853.58,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1385,7 +1555,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.81,
+      "2026": 3.57,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1408,10 +1578,10 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 53007.0,
-    "amount_per_capita": 2.23,
+    "total_amount": 82755.82,
+    "amount_per_capita": 3.49,
     "yearly_amounts": {
-      "2026": 25077.0,
+      "2026": 54825.82,
       "2027": 5586.0,
       "2028": 5586.0,
       "2029": 5586.0,
@@ -1419,12 +1589,80 @@
       "2031": 5586.0
     },
     "yearly_per_capita": {
-      "2026": 1.06,
+      "2026": 2.31,
       "2027": 0.24,
       "2028": 0.24,
       "2029": 0.24,
       "2030": 0.24,
       "2031": 0.24
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000005",
+    "bd_short": "Balen biedt toegankelijke en efficiënte dienstverlening.",
+    "bd_long": "Balen organiseert haar dienstverlening dichtbij  en in dialoog met de burger, vlot, toegankelijk en efficiënt met betrokken en gemotiveerde medewerkers en zorgt voor een heldere communicatie op maat van iedere doelgroep.",
+    "ap_code": "AP000054",
+    "ap_short": "Balen voorziet personeels- en werkingskosten voor de realisatie van deze doelstelling.",
+    "ap_long": "Balen voorziet de nodige personeels- en werkingskosten om deze doelstelling te realiseren.",
+    "ac_code": "AC000229",
+    "ac_short": "Voorzien van personeels- en werkingsmiddelen voor uitvoering van deze acties.",
+    "ac_long": "We voorzien de nodige personeels- en werkingsmiddelen om de uitvoering van de acties binnen deze doelstelling mogelijk te maken.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 82045.67,
+    "amount_per_capita": 3.46,
+    "yearly_amounts": {
+      "2026": 69545.67,
+      "2027": 12500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.93,
+      "2027": 0.53,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000004",
+    "bd_short": "Balen ondersteunt inwoners in alle samenlevingsvormen.",
+    "bd_long": "Balen ondersteunt inwoners in alle samenlevingsvormen  en stimuleert hun groei en ontwikkeling.",
+    "ap_code": "AP000045",
+    "ap_short": "Balen voorziet personeels- en werkingskosten voor de realisatie van deze doelstelling.",
+    "ap_long": "Balen voorziet de nodige personeels- en werkingskosten om deze doelstelling te realiseren.",
+    "ac_code": "AC000206",
+    "ac_short": "Voorzien van personeels- en werkingsmiddelen voor uitvoering van deze acties.",
+    "ac_long": "We voorzien de nodige personeels- en werkingsmiddelen om de uitvoering van de acties binnen deze doelstelling mogelijk te maken.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 71736.73,
+    "amount_per_capita": 3.02,
+    "yearly_amounts": {
+      "2026": 71736.73,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -1442,10 +1680,10 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 2.1,
+    "total_amount": 54161.4,
+    "amount_per_capita": 2.28,
     "yearly_amounts": {
-      "2026": 25000.0,
+      "2026": 29161.4,
       "2027": 0,
       "2028": 0,
       "2029": 25000.0,
@@ -1453,7 +1691,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.05,
+      "2026": 1.23,
       "2027": 0,
       "2028": 0,
       "2029": 1.05,
@@ -1477,7 +1715,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 2.1,
+    "amount_per_capita": 2.11,
     "yearly_amounts": {
       "2026": 5000.0,
       "2027": 45000.0,
@@ -1488,75 +1726,7 @@
     },
     "yearly_per_capita": {
       "2026": 0.21,
-      "2027": 1.89,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
-    "bd_code": "BD000003",
-    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
-    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
-    "ap_code": "AP000033",
-    "ap_short": "Balen combineert rioleringsprojecten met wegenwerken voor een kwalitatieve openbare ruimte.",
-    "ap_long": "Balen pakt omgevingswerken gebiedsgericht en integraal aan, waarbij rioleringsprojecten maximaal worden gecombineerd met de aanleg of vernieuwing van wegen, fietspaden en andere publieke infrastructuur, om zo te komen tot een kwalitatieve en toekomstgerichte openbare ruimte.",
-    "ac_code": "AC000159",
-    "ac_short": "Project Boogstraat, Schuttersstraat",
-    "ac_long": "Balen voert het project Boogstraat, Schuttersstraat uit zoals voorzien in de planning, als onderdeel van een integrale aanpak voor een kwalitatieve openbare ruimte.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 48000.0,
-    "amount_per_capita": 2.02,
-    "yearly_amounts": {
-      "2026": 48000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 2.02,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
-    "bd_code": "BD000005",
-    "bd_short": "Balen biedt toegankelijke en efficiënte dienstverlening.",
-    "bd_long": "Balen organiseert haar dienstverlening dichtbij  en in dialoog met de burger, vlot, toegankelijk en efficiënt met betrokken en gemotiveerde medewerkers en zorgt voor een heldere communicatie op maat van iedere doelgroep.",
-    "ap_code": "AP000054",
-    "ap_short": "Balen voorziet personeels- en werkingskosten voor de realisatie van deze doelstelling.",
-    "ap_long": "Balen voorziet de nodige personeels- en werkingskosten om deze doelstelling te realiseren.",
-    "ac_code": "AC000229",
-    "ac_short": "Voorzien van personeels- en werkingsmiddelen voor uitvoering van deze acties.",
-    "ac_long": "We voorzien de nodige personeels- en werkingsmiddelen om de uitvoering van de acties binnen deze doelstelling mogelijk te maken.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 40500.0,
-    "amount_per_capita": 1.7,
-    "yearly_amounts": {
-      "2026": 28000.0,
-      "2027": 12500.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.18,
-      "2027": 0.53,
+      "2027": 1.9,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1578,10 +1748,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 40000.0,
-    "amount_per_capita": 1.68,
+    "total_amount": 46500.0,
+    "amount_per_capita": 1.96,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 26500.0,
       "2027": 20000.0,
       "2028": 0,
       "2029": 0,
@@ -1589,8 +1759,110 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.84,
+      "2026": 1.12,
       "2027": 0.84,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000006",
+    "ap_short": "Balen zorgt voor een aantrekkelijk en veelzijdig toeristisch en recreatief aanbod.",
+    "ap_long": "Met een aantrekkelijk en veelzijdig toeristisch en recreatief aanbod wil Balen dag- en verblijfstoeristen warm maken voor de gemeente.",
+    "ac_code": "AC000029",
+    "ac_short": "Balen maakt natuur en toeristische troeven beleefbaar",
+    "ac_long": "We zetten in op het openstellen en beleefbaar maken van natuur en toeristische troeven, met respect voor de draagkracht van het landschap en dragen hierbij zorg voor de kwaliteit en beleving van onze wandel- en fietsroutes.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 43899.64,
+    "amount_per_capita": 1.85,
+    "yearly_amounts": {
+      "2026": 43899.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.85,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000006",
+    "ap_short": "Balen zorgt voor een aantrekkelijk en veelzijdig toeristisch en recreatief aanbod.",
+    "ap_long": "Met een aantrekkelijk en veelzijdig toeristisch en recreatief aanbod wil Balen dag- en verblijfstoeristen warm maken voor de gemeente.",
+    "ac_code": "AC000031",
+    "ac_short": "Balen promoot en ondersteunt toeristische troeven samen met partners.",
+    "ac_long": "We ondersteunen en promoten de toeristische troeven van Balen in samenwerking met partners, zodat mensen kunnen genieten van een aantrekkelijke en gevarieerde beleving.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 1.68,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000002",
+    "bd_short": "Balen zorgt voor een veilige en leefbare omgeving.",
+    "bd_long": "Balen zorgt voor veiligheid in het verkeer, de woonomgeving en publieke ruimtes en zorgt samen met betrokken actoren voor een leefbare omgeving.",
+    "ap_code": "AP000028",
+    "ap_short": "Balen voorziet personeels- en werkingskosten voor de realisatie van deze doelstelling.",
+    "ap_long": "Balen voorziet de nodige personeels- en werkingskosten om deze doelstelling te realiseren.",
+    "ac_code": "AC000129",
+    "ac_short": "Balen voert een hedendaags stedenbouwkundig beleid met aandacht voor duurzaamheid en kwaliteit.",
+    "ac_long": "Balen voert een hedendaags stedenbouwkundig beleid dat vertrekt vanuit een beleidsplan ruimte dat ruimtelijke en maatschappelijke speerpunten bevat die richting geven aan duurzame, veilige en kwalitatieve woonontwikkeling. Daarbij hanteren we een realistisch en toetsbaar kader dat onder meer aandacht heeft voor ontharding en kernversterking.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.26,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.63,
+      "2027": 0.63,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1634,40 +1906,6 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
-    "bd_code": "BD000002",
-    "bd_short": "Balen zorgt voor een veilige en leefbare omgeving.",
-    "bd_long": "Balen zorgt voor veiligheid in het verkeer, de woonomgeving en publieke ruimtes en zorgt samen met betrokken actoren voor een leefbare omgeving.",
-    "ap_code": "AP000028",
-    "ap_short": "Balen voorziet personeels- en werkingskosten voor de realisatie van deze doelstelling.",
-    "ap_long": "Balen voorziet de nodige personeels- en werkingskosten om deze doelstelling te realiseren.",
-    "ac_code": "AC000129",
-    "ac_short": "Balen voert een hedendaags stedenbouwkundig beleid met aandacht voor duurzaamheid en kwaliteit.",
-    "ac_long": "Balen voert een hedendaags stedenbouwkundig beleid dat vertrekt vanuit een beleidsplan ruimte dat ruimtelijke en maatschappelijke speerpunten bevat die richting geven aan duurzame, veilige en kwalitatieve woonontwikkeling. Daarbij hanteren we een realistisch en toetsbaar kader dat onder meer aandacht heeft voor ontharding en kernversterking.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 30000.0,
-    "amount_per_capita": 1.26,
-    "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 15000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.63,
-      "2027": 0.63,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Balen",
-    "nis_code": "13003",
     "bd_code": "BD000001",
     "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
     "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
@@ -1680,10 +1918,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 24000.0,
-    "amount_per_capita": 1.01,
+    "total_amount": 29000.0,
+    "amount_per_capita": 1.22,
     "yearly_amounts": {
-      "2026": 14000.0,
+      "2026": 19000.0,
       "2027": 5000.0,
       "2028": 5000.0,
       "2029": 0,
@@ -1691,7 +1929,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.59,
+      "2026": 0.8,
       "2027": 0.21,
       "2028": 0.21,
       "2029": 0,
@@ -1702,22 +1940,22 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
-    "bd_code": "BD000004",
-    "bd_short": "Balen ondersteunt inwoners in alle samenlevingsvormen.",
-    "bd_long": "Balen ondersteunt inwoners in alle samenlevingsvormen  en stimuleert hun groei en ontwikkeling.",
-    "ap_code": "AP000045",
-    "ap_short": "Balen voorziet personeels- en werkingskosten voor de realisatie van deze doelstelling.",
-    "ap_long": "Balen voorziet de nodige personeels- en werkingskosten om deze doelstelling te realiseren.",
-    "ac_code": "AC000206",
-    "ac_short": "Voorzien van personeels- en werkingsmiddelen voor uitvoering van deze acties.",
-    "ac_long": "We voorzien de nodige personeels- en werkingsmiddelen om de uitvoering van de acties binnen deze doelstelling mogelijk te maken.",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000017",
+    "ap_short": "Balen ondersteunt werkzoekenden via sociale activering en toeleiding naar werk.",
+    "ap_long": "Balen zet – in afstemming met bovenlokale actoren – in op een haalbare en gerichte ondersteuning van werkzoekenden, met aandacht voor sociale activering en toeleiding naar werk waar mogelijk.",
+    "ac_code": "AC000079",
+    "ac_short": "Balen biedt werkervaring via de ontmoetingsruimte in Den Travoo.",
+    "ac_long": "Via de ontmoetingsruimte in Den Travoo biedt Balen kansen om nabij en laagdrempelig werkervaring op te doen als stap richting activering.",
     "categories": [
-      "08-onderwijs"
+      "05-ondernemen-werken"
     ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 0.84,
+    "total_amount": 23706.14,
+    "amount_per_capita": 1.0,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 23706.14,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1725,7 +1963,41 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.84,
+      "2026": 1.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000006",
+    "ap_short": "Balen zorgt voor een aantrekkelijk en veelzijdig toeristisch en recreatief aanbod.",
+    "ap_long": "Met een aantrekkelijk en veelzijdig toeristisch en recreatief aanbod wil Balen dag- en verblijfstoeristen warm maken voor de gemeente.",
+    "ac_code": "AC000034",
+    "ac_short": "Balen biedt recreatie samen met vzw recreatie- en natuurpark Keiheuvel.",
+    "ac_long": "We ontwikkelen het recreatief aanbod op grondgebied Balen verder in samenwerking met vzw recreatie- en natuurpark Keiheuvel.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 22748.57,
+    "amount_per_capita": 0.96,
+    "yearly_amounts": {
+      "2026": 22748.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.96,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1770,6 +2042,40 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000001",
+    "ap_short": "Balen investeert in verbinding en sociale samenhang.",
+    "ap_long": "Balen verbindt mensen door ontmoeting te stimuleren, initiatieven te ondersteunen en te bouwen aan een warme, hechte gemeenschap.",
+    "ac_code": "AC000001",
+    "ac_short": "Balen investeert in sociale samenhang",
+    "ac_long": "Balen investeert in sociale samenhang door mensen, groepen en organisaties op een natuurlijke en herhaalde manier met elkaar in contact te brengen door:\n- het voorzien van toegankelijke en herkenbare ontmoetingsplekken zoals pleinen, zalen of andere publieke ruimtes die uitnodigen tot ontmoeten;\n- het ondersteunen en organiseren van lokale initiatieven die ontmoeting en samenwerking stimuleren (nieuwjaarsevent, muziekterrassen, ...);\n- het versterken van buurtwerking en het creëren van kansen voor informele ontmoeting in de publieke ruimte.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 16680.48,
+    "amount_per_capita": 0.7,
+    "yearly_amounts": {
+      "2026": 16680.48,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
     "bd_code": "BD000005",
     "bd_short": "Balen biedt toegankelijke en efficiënte dienstverlening.",
     "bd_long": "Balen organiseert haar dienstverlening dichtbij  en in dialoog met de burger, vlot, toegankelijk en efficiënt met betrokken en gemotiveerde medewerkers en zorgt voor een heldere communicatie op maat van iedere doelgroep.",
@@ -1782,10 +2088,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 0.63,
+    "total_amount": 16169.71,
+    "amount_per_capita": 0.68,
     "yearly_amounts": {
-      "2026": 2500.0,
+      "2026": 3669.71,
       "2027": 2500.0,
       "2028": 2500.0,
       "2029": 2500.0,
@@ -1793,7 +2099,7 @@
       "2031": 2500.0
     },
     "yearly_per_capita": {
-      "2026": 0.11,
+      "2026": 0.15,
       "2027": 0.11,
       "2028": 0.11,
       "2029": 0.11,
@@ -1838,31 +2144,65 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
-    "bd_code": "BD000003",
-    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
-    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
-    "ap_code": "AP000032",
-    "ap_short": "Balen voert een verantwoord waterbeleid via acties rond riolering, infiltratie en ontharding.",
-    "ap_long": "Balen werkt samen met inwoners en bedrijven aan een verantwoord waterbeleid via gerichte acties rond riolering, infiltratie en ontharding.",
-    "ac_code": "AC000143",
-    "ac_short": "Balen werkt aan zuivere waterlopen en riolering.",
-    "ac_long": "Balen werkt samen met HidroRio en Aquafin om de rioleringsgraad te verhogen en zoveel mogelijk woningen aan te sluiten op het rioleringsnet, met als doel zuiverdere waterlopen.",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000003",
+    "ap_short": "Balen ondersteunt markten en kermissen.",
+    "ap_long": "Balen stimuleert de levendigheid van de gemeente door markten en kermissen te ondersteunen als dynamische ontmoetingsplaatsen met economische, sociale en culturele meerwaarde.",
+    "ac_code": "AC000016",
+    "ac_short": "Balen coördineert jaarmarkt en kermissen.",
+    "ac_long": "We coördineren de jaarmarkt en diverse kermissen op het grondgebied van Balen, met aandacht voor sfeer, toegankelijkheid en samenwerking met lokale verenigingen en ondernemers.",
     "categories": [
-      "02-mobiliteit"
+      "05-ondernemen-werken"
     ],
-    "total_amount": 11500.0,
+    "total_amount": 11358.5,
     "amount_per_capita": 0.48,
     "yearly_amounts": {
-      "2026": 3000.0,
-      "2027": 8500.0,
+      "2026": 11358.5,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.13,
-      "2027": 0.36,
+      "2026": 0.48,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000003",
+    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
+    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
+    "ap_code": "AP000034",
+    "ap_short": "Balen zet in op energiebesparing, circulair materiaalgebruik en milieubewuste keuzes.",
+    "ap_long": "Balen gaat duurzaam om met energie, lucht, bodem en materialen door in te zetten op energiebesparing, circulair materiaalgebruik en milieubewuste keuzes in het beleid en op het terrein.",
+    "ac_code": "AC000162",
+    "ac_short": "Balen bevordert duurzaam consumentengedrag en investeert in energiezuinige gebouwen.",
+    "ac_long": "Balen bevordert duurzaam consumentengedrag en investeert zelf in energiezuinige gebouwen en milieuvriendelijke materialen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.42,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.42,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1974,6 +2314,40 @@
   {
     "municipality": "Balen",
     "nis_code": "13003",
+    "bd_code": "BD000003",
+    "bd_short": "Balen creëert een aantrekkelijke woonomgeving en zet in op duurzaamheid.",
+    "bd_long": "Balen biedt een aantrekkelijke woon- en leefomgeving aan met aandacht voor de eigenheid van Balen en de uitdagingen van een duurzame toekomst.",
+    "ap_code": "AP000035",
+    "ap_short": "Balen voert beleid rond natuur en belevingsgroen.",
+    "ap_long": "Balen voert een beleid rond natuur en belevingsgroen zodat de natuurplekken, het belevingsgroen en het aanwezige water Balen mee maken tot een aangename gemeente om in te leven en verblijven.",
+    "ac_code": "AC000171",
+    "ac_short": "Balen ondersteunt organisaties voor milieu en natuurbehoud met subsidies.",
+    "ac_long": "Balen ondersteunt organisaties die zich inzetten voor milieu en natuurbehoud, onder meer via subsidies aan initiatieven die bijdragen aan ecologische waarde en bewustwording.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3300.0,
+    "amount_per_capita": 0.14,
+    "yearly_amounts": {
+      "2026": 3300.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
     "bd_code": "BD000001",
     "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
     "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
@@ -2032,6 +2406,40 @@
     },
     "yearly_per_capita": {
       "2026": 0.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Balen",
+    "nis_code": "13003",
+    "bd_code": "BD000001",
+    "bd_short": "Balen is een warme, bruisende, zorgzame en gezonde gemeente.",
+    "bd_long": "Balen is een warme, bruisende, zorgzame en gezonde gemeente waar iedereen kan deelnemen aan de samenleving, met aandacht voor het versterken van sociale contacten, het tegengaan van eenzaamheid en het stimuleren van zowel lokale als wereldwijde solidariteit.",
+    "ap_code": "AP000005",
+    "ap_short": "Balen vult het vrijetijdsaanbod aan met eigen initiatieven en samenwerkingen.",
+    "ap_long": "Balen zet – alleen of samen met partners – een doordacht vrijetijds- en cultuuraanbod op, precies daar waar vandaag nog hiaten zijn.",
+    "ac_code": "AC000026",
+    "ac_short": "Balen bouwt UiTPAS uit als instrument voor meer vrijetijdsparticipatie.",
+    "ac_long": "We bouwen UiTPAS samen met lokale partners uit tot een krachtig hulpmiddel om méér mensen te betrekken bij vrije tijd.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1000.0,
+    "amount_per_capita": 0.04,
+    "yearly_amounts": {
+      "2026": 1000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.04,
       "2027": 0,
       "2028": 0,
       "2029": 0,

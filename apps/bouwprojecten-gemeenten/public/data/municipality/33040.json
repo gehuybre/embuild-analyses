@@ -2,69 +2,1191 @@
   {
     "municipality": "Langemark-Poelkapelle",
     "nis_code": "33040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "G",
-    "ap_short": "Investeringen Algemeen Bestuur",
+    "bd_code": "BD-4",
+    "bd_short": "We bouwen verder aan ons sterk verenigingsleven",
+    "bd_long": "Kwalitatieve omschrijving: Langemark-Poelkapelle scoort al jarenlang sterk op het vlak van een actief verenigingsleven. Het aantal verenigingen – socio-cultureel, sportief en jeugdgericht – ligt structureel hoger dan het Vlaams gemiddelde. Onze gemeente is dan ook een echte koploper in participatie aan het verenigingsleven.\n\nOm deze sterke troef blijvend te ondersteunen is een inhaalbeweging op vlak van infrastructuur nodig. We zetten daarom volop in op de uitbouw van sport- en jeugdinfrastructuur aan de Boezingestraat. Zo creëren we de ruimte en voorzieningen die onze verenigingen verdienen.",
+    "ap_code": "AP-08",
+    "ap_short": "We werken aan de infrastructuur van de socio-culturele verenigingen",
     "ap_long": "Commentaar:",
-    "ac_code": "INV",
-    "ac_short": "Hardware",
-    "ac_long": "Commentaar:",
+    "ac_code": "A-12",
+    "ac_short": "Realisatie onderwijs, culturele- en jeugdinfastructuur in Langemark",
+    "ac_long": "We bundelen de vragen van onze jeugdverenigingen en het kunstonderwijs in één ambitieus project: een nieuwbouw in de Boezingestraat.\n\nDit multifunctionele complex zal:\n- een moderne, veilige thuis bieden aan Chiro Lange Jo, Ixagodo, Moeder Bakelandt en KLJ,\n- onderdak bieden aan de Academie in een gebouw op maat van kunstonderwijs,\n- speelruimte voor de jeugdverenigingen en speelpleinwerking,\n- werkruimtes huisvesten voor medewerkers van het lokaal bestuur, vlakbij hun doelpubliek.\n\nMet deze gezamenlijke nieuwe infrastructuur versterken we niet alleen onze jeugd- en cultuurwerking, maar creëren we ook een levendig knooppunt in de Boezingestraat waar verenigingen, kinderen & jongeren én gemeente elkaar ontmoeten.",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 14521572.0,
-    "amount_per_capita": 1853.75,
+    "total_amount": 4100000.0,
+    "amount_per_capita": 523.22,
     "yearly_amounts": {
-      "2026": 6142012.0,
-      "2027": 2707393.0,
-      "2028": 1651095.0,
-      "2029": 1813320.0,
-      "2030": 1382932.0,
-      "2031": 824820.0
+      "2026": 200000.0,
+      "2027": 500000.0,
+      "2028": 1000000.0,
+      "2029": 2400000.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 784.06,
-      "2027": 345.61,
-      "2028": 210.77,
-      "2029": 231.48,
-      "2030": 176.54,
-      "2031": 105.29
+      "2026": 25.52,
+      "2027": 63.81,
+      "2028": 127.61,
+      "2029": 306.27,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Langemark-Poelkapelle",
     "nis_code": "33040",
-    "bd_code": "BD",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-253",
+    "ac_short": "Poelkapelle- en Langemarkstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2596640.23,
+    "amount_per_capita": 331.37,
+    "yearly_amounts": {
+      "2026": 1746640.23,
+      "2027": 850000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 222.9,
+      "2027": 108.47,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-254",
+    "ac_short": "Boezingestraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2300000.0,
+    "amount_per_capita": 293.51,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 200000.0,
+      "2028": 550000.0,
+      "2029": 1000000.0,
+      "2030": 500000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.38,
+      "2027": 25.52,
+      "2028": 70.19,
+      "2029": 127.61,
+      "2030": 63.81,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "O-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-231",
+    "ac_short": "LDC en DVC",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 2124402.72,
+    "amount_per_capita": 271.1,
+    "yearly_amounts": {
+      "2026": 2114402.72,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 269.83,
+      "2027": 1.28,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-206",
+    "ac_short": "Onderhoud patrimonium",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2067941.7,
+    "amount_per_capita": 263.9,
+    "yearly_amounts": {
+      "2026": 1388316.7,
+      "2027": 242625.0,
+      "2028": 107000.0,
+      "2029": 60000.0,
+      "2030": 210000.0,
+      "2031": 60000.0
+    },
+    "yearly_per_capita": {
+      "2026": 177.17,
+      "2027": 30.96,
+      "2028": 13.65,
+      "2029": 7.66,
+      "2030": 26.8,
+      "2031": 7.66
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "BD-4",
+    "bd_short": "We bouwen verder aan ons sterk verenigingsleven",
+    "bd_long": "Kwalitatieve omschrijving: Langemark-Poelkapelle scoort al jarenlang sterk op het vlak van een actief verenigingsleven. Het aantal verenigingen – socio-cultureel, sportief en jeugdgericht – ligt structureel hoger dan het Vlaams gemiddelde. Onze gemeente is dan ook een echte koploper in participatie aan het verenigingsleven.\n\nOm deze sterke troef blijvend te ondersteunen is een inhaalbeweging op vlak van infrastructuur nodig. We zetten daarom volop in op de uitbouw van sport- en jeugdinfrastructuur aan de Boezingestraat. Zo creëren we de ruimte en voorzieningen die onze verenigingen verdienen.",
+    "ap_code": "AP-09",
+    "ap_short": "We bouwen de sportsite in de Boezingestraat verder uit",
+    "ap_long": "Commentaar:",
+    "ac_code": "A-15",
+    "ac_short": "Realisatie nieuwe voetbalkantine en kleedkamers VKLP",
+    "ac_long": "De kantine en kleedkamers van voetbalclub VKLP zijn sterk verouderd. Daarom wordt gekozen voor een volledige nieuwbouw. Met deze investering willen we de sportinfrastructuur moderniseren en de club voorzien van kwaliteitsvolle en toekomstgerichte voorzieningen, in lijn met de noden van spelers, vrijwilligers en supporters.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1800000.0,
+    "amount_per_capita": 229.71,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 200000.0,
+      "2029": 500000.0,
+      "2030": 1000000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 12.76,
+      "2028": 25.52,
+      "2029": 63.81,
+      "2030": 127.61,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-250",
+    "ac_short": "Onderhoud wegen algemeen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1450342.53,
+    "amount_per_capita": 185.08,
+    "yearly_amounts": {
+      "2026": 250342.53,
+      "2027": 240000.0,
+      "2028": 240000.0,
+      "2029": 240000.0,
+      "2030": 240000.0,
+      "2031": 240000.0
+    },
+    "yearly_per_capita": {
+      "2026": 31.95,
+      "2027": 30.63,
+      "2028": 30.63,
+      "2029": 30.63,
+      "2030": 30.63,
+      "2031": 30.63
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "BD-5",
     "bd_short": "We blijven ons focussen op een efficiënte organisatie",
     "bd_long": "Kwalitatieve omschrijving: De dienstverlening van het lokaal bestuur is breed en kwaliteitsvol uitgebouwd. Toch staan we voor groeiende financiële uitdagingen. Externe factoren zoals de energiecrisis en de coronapandemie hebben de kosten aanzienlijk verhoogd. Tegelijk is de subsidiëring door hogere overheden niet altijd gegarandeerd, wat zorgt voor extra onzekerheid.\n\nDaarnaast leggen de klimaatdoelstellingen – zoals de strenge EPC-normen – de lat terecht hoog. Daarom zetten we in de komende beleidsperiode in op een gerichte aanpak van onze gebouwenportefeuille, met oog voor energie-efficiëntie en duurzaamheid. We blijven ook investeren in ons sterk en toegewijd personeel als ruggengraat van onze organisatie. Daarnaast bouwen we verder aan vernieuwende en toegankelijke vormen van dienstverlening, afgestemd op de noden van vandaag en morgen.",
-    "ap_code": "AP",
+    "ap_code": "AP-12",
+    "ap_short": "We gaan voor een toekomstbestendig patrimonium",
+    "ap_long": "Commentaar:",
+    "ac_code": "A-21",
+    "ac_short": "Realisatie Kerk Sint-Andreas",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1158520.74,
+    "amount_per_capita": 147.84,
+    "yearly_amounts": {
+      "2026": 127520.74,
+      "2027": 731000.0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.27,
+      "2027": 93.29,
+      "2028": 38.28,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-205",
+    "ac_short": "Openbare verlichting",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 815009.0,
+    "amount_per_capita": 104.01,
+    "yearly_amounts": {
+      "2026": 214166.0,
+      "2027": 212164.0,
+      "2028": 211115.0,
+      "2029": 31704.0,
+      "2030": 31657.0,
+      "2031": 114203.0
+    },
+    "yearly_per_capita": {
+      "2026": 27.33,
+      "2027": 27.08,
+      "2028": 26.94,
+      "2029": 4.05,
+      "2030": 4.04,
+      "2031": 14.57
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "BD-5",
+    "bd_short": "We blijven ons focussen op een efficiënte organisatie",
+    "bd_long": "Kwalitatieve omschrijving: De dienstverlening van het lokaal bestuur is breed en kwaliteitsvol uitgebouwd. Toch staan we voor groeiende financiële uitdagingen. Externe factoren zoals de energiecrisis en de coronapandemie hebben de kosten aanzienlijk verhoogd. Tegelijk is de subsidiëring door hogere overheden niet altijd gegarandeerd, wat zorgt voor extra onzekerheid.\n\nDaarnaast leggen de klimaatdoelstellingen – zoals de strenge EPC-normen – de lat terecht hoog. Daarom zetten we in de komende beleidsperiode in op een gerichte aanpak van onze gebouwenportefeuille, met oog voor energie-efficiëntie en duurzaamheid. We blijven ook investeren in ons sterk en toegewijd personeel als ruggengraat van onze organisatie. Daarnaast bouwen we verder aan vernieuwende en toegankelijke vormen van dienstverlening, afgestemd op de noden van vandaag en morgen.",
+    "ap_code": "AP-10",
     "ap_short": "We investeren in ons sterk personeel",
     "ap_long": "Commentaar:",
-    "ac_code": "A",
+    "ac_code": "A-19",
     "ac_short": "Vernieuwen van het wagenpark",
     "ac_long": "Commentaar:",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 8709000.0,
-    "amount_per_capita": 1111.75,
+    "total_amount": 800000.0,
+    "amount_per_capita": 102.09,
     "yearly_amounts": {
-      "2026": 708000.0,
-      "2027": 1931000.0,
-      "2028": 1825000.0,
-      "2029": 3045000.0,
-      "2030": 1150000.0,
+      "2026": 250000.0,
+      "2027": 250000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 50000.0,
       "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 90.38,
-      "2027": 246.5,
-      "2028": 232.97,
-      "2029": 388.71,
-      "2030": 146.8,
+      "2026": 31.9,
+      "2027": 31.9,
+      "2028": 12.76,
+      "2029": 12.76,
+      "2030": 6.38,
       "2031": 6.38
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-256",
+    "ac_short": "Zijstraten Houthulsteweg",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 720000.0,
+    "amount_per_capita": 91.88,
+    "yearly_amounts": {
+      "2026": 420000.0,
+      "2027": 300000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 53.6,
+      "2027": 38.28,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-AB",
+    "ap_short": "Investeringen Algemeen Bestuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-103",
+    "ac_short": "HVZ Westhoek",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 666177.0,
+    "amount_per_capita": 85.01,
+    "yearly_amounts": {
+      "2026": 111995.0,
+      "2027": 110834.0,
+      "2028": 109930.0,
+      "2029": 108946.0,
+      "2030": 111125.0,
+      "2031": 113347.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.29,
+      "2027": 14.14,
+      "2028": 14.03,
+      "2029": 13.9,
+      "2030": 14.18,
+      "2031": 14.46
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-AB",
+    "ap_short": "Investeringen Algemeen Bestuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-105",
+    "ac_short": "Kerkfabrieken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 568681.0,
+    "amount_per_capita": 72.57,
+    "yearly_amounts": {
+      "2026": 97321.0,
+      "2027": 93120.0,
+      "2028": 96000.0,
+      "2029": 93120.0,
+      "2030": 96000.0,
+      "2031": 93120.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.42,
+      "2027": 11.88,
+      "2028": 12.25,
+      "2029": 11.88,
+      "2030": 12.25,
+      "2031": 11.88
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-AB",
+    "ap_short": "Investeringen Algemeen Bestuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-104",
+    "ac_short": "ARRO Ieper",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 504900.0,
+    "amount_per_capita": 64.43,
+    "yearly_amounts": {
+      "2026": 84150.0,
+      "2027": 84150.0,
+      "2028": 84150.0,
+      "2029": 84150.0,
+      "2030": 84150.0,
+      "2031": 84150.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.74,
+      "2027": 10.74,
+      "2028": 10.74,
+      "2029": 10.74,
+      "2030": 10.74,
+      "2031": 10.74
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "BD-4",
+    "bd_short": "We bouwen verder aan ons sterk verenigingsleven",
+    "bd_long": "Kwalitatieve omschrijving: Langemark-Poelkapelle scoort al jarenlang sterk op het vlak van een actief verenigingsleven. Het aantal verenigingen – socio-cultureel, sportief en jeugdgericht – ligt structureel hoger dan het Vlaams gemiddelde. Onze gemeente is dan ook een echte koploper in participatie aan het verenigingsleven.\n\nOm deze sterke troef blijvend te ondersteunen is een inhaalbeweging op vlak van infrastructuur nodig. We zetten daarom volop in op de uitbouw van sport- en jeugdinfrastructuur aan de Boezingestraat. Zo creëren we de ruimte en voorzieningen die onze verenigingen verdienen.",
+    "ap_code": "AP-09",
+    "ap_short": "We bouwen de sportsite in de Boezingestraat verder uit",
+    "ap_long": "Commentaar:",
+    "ac_code": "A-16",
+    "ac_short": "Aanleg tennisinfrastructuur",
+    "ac_long": "Tennis Come Back beschikt momenteel niet over zekerheid over het voortbestaan van de huidige tennisterreinen.\nOm de werking van de club duurzaam te verankeren, realiseren we nieuwe tennisterreinen in de nabijheid van het sportcentrum aan de Boezingestraat. Zo versterken we de sportieve infrastructuur in de gemeente en bieden we de tennisclub een toekomstgerichte oplossing op een centrale, goed bereikbare locatie.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 425000.0,
+    "amount_per_capita": 54.24,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 200000.0,
+      "2028": 225000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 25.52,
+      "2028": 28.71,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-252",
+    "ac_short": "Zonnebekestraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 376082.34,
+    "amount_per_capita": 47.99,
+    "yearly_amounts": {
+      "2026": 316082.34,
+      "2027": 60000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 40.34,
+      "2027": 7.66,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-AB",
+    "ap_short": "Investeringen Algemeen Bestuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-102",
+    "ac_short": "Hardware",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 372993.91,
+    "amount_per_capita": 47.6,
+    "yearly_amounts": {
+      "2026": 108493.91,
+      "2027": 52000.0,
+      "2028": 56000.0,
+      "2029": 99500.0,
+      "2030": 36500.0,
+      "2031": 20500.0
+    },
+    "yearly_per_capita": {
+      "2026": 13.85,
+      "2027": 6.64,
+      "2028": 7.15,
+      "2029": 12.7,
+      "2030": 4.66,
+      "2031": 2.62
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "O-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-241",
+    "ac_short": "Onderhoud patrimonium",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 343000.0,
+    "amount_per_capita": 43.77,
+    "yearly_amounts": {
+      "2026": 32000.0,
+      "2027": 141000.0,
+      "2028": 95000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.08,
+      "2027": 17.99,
+      "2028": 12.12,
+      "2029": 3.19,
+      "2030": 3.19,
+      "2031": 3.19
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "BD-3",
+    "bd_short": "We investeren met ambitie in onze omgeving",
+    "bd_long": "Kwalitatieve omschrijving: Langemark-Poelkapelle is een uitgestrekte landelijke gemeente met een lage bevolkingsdichtheid en een uitgebreid wegennet.\nBesparingen op het openbaar vervoer treffen vooral landelijke gebieden en ook hier voelen we de impact. Tegelijkertijd wordt van lokale besturen verwacht dat ze blijven investeren in essentiële maatschappelijke uitdagingen, zoals de afkoppeling van hemelwater en het realiseren van klimaatdoelstellingen. Deze verplichtingen vragen aanzienlijke financiële inspanningen.\n\nIn de komende beleidsperiode blijven we dan ook sterk inzetten op wegenis- en rioleringswerken. Voor het onderhoud van de bijna 160 kilometer gemeentewegen maken we weloverwogen en duurzame keuzes. Daarnaast zetten we onze ambitie verder om de dorpskernen te vergroenen en zo de leefkwaliteit te verhogen.",
+    "ap_code": "AP-05",
+    "ap_short": "We investeren in ruimte voor groen en water",
+    "ap_long": "Commentaar:",
+    "ac_code": "A-07",
+    "ac_short": "Realiseren groenzone Sint-Juliaan",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 38.28,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.14,
+      "2027": 19.14,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-251",
+    "ac_short": "Gistelhofstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 25.52,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 25.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "O-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-230",
+    "ac_short": "WZC",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 184400.0,
+    "amount_per_capita": 23.53,
+    "yearly_amounts": {
+      "2026": 45000.0,
+      "2027": 43000.0,
+      "2028": 37400.0,
+      "2029": 17000.0,
+      "2030": 21000.0,
+      "2031": 21000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.74,
+      "2027": 5.49,
+      "2028": 4.77,
+      "2029": 2.17,
+      "2030": 2.68,
+      "2031": 2.68
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "BD-2",
+    "bd_short": "We geven kinderen speelmogelijkheden en ontplooiingskansen",
+    "bd_long": "Kwalitatieve omschrijving: Een belangrijke sterkte van onze gemeente is het relatief hoge aantal plaatsen in de voor- en naschoolse opvang voor schoolgaande kinderen.\nDeze troef komt echter steeds meer onder druk te staan. De onzekerheid over toekomstige subsidiëring en financiering, de toenemende moeilijkheden om voldoende personeel te vinden en de nood aan investeringen in de infrastructuur van de kinderopvang vormen serieuze uitdagingen. De gebouwen van het gemeenteonderwijs bereiken evenzeer het einde van hun levensduur.\n\nIn beide gevallen dringt een structurele aanpak zich op om de kwaliteit en beschikbaarheid van opvang en onderwijs ook in de toekomst te garanderen.",
+    "ap_code": "AP-04",
+    "ap_short": "We bereiden een nieuwe schoolsite voor",
+    "ap_long": "Commentaar:",
+    "ac_code": "A-06",
+    "ac_short": "Opmaak ontwerp schoolsite Bikschote",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 145000.0,
+    "amount_per_capita": 18.5,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 45000.0,
+      "2030": 100000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 5.74,
+      "2030": 12.76,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-207",
+    "ac_short": "Materiaal technische dienst en groendienst",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 122533.96,
+    "amount_per_capita": 15.64,
+    "yearly_amounts": {
+      "2026": 58633.96,
+      "2027": 28000.0,
+      "2028": 9500.0,
+      "2029": 26400.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.48,
+      "2027": 3.57,
+      "2028": 1.21,
+      "2029": 3.37,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-L",
+    "ap_short": "Investeringen Leven",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-304",
+    "ac_short": "Aanpassen speelterreinen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 10.21,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.83,
+      "2027": 1.28,
+      "2028": 1.28,
+      "2029": 1.28,
+      "2030": 1.28,
+      "2031": 1.28
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-L",
+    "ap_short": "Investeringen Leven",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-303",
+    "ac_short": "Sportmateriaal",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 79346.38,
+    "amount_per_capita": 10.13,
+    "yearly_amounts": {
+      "2026": 29346.38,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.75,
+      "2027": 1.28,
+      "2028": 1.28,
+      "2029": 1.28,
+      "2030": 1.28,
+      "2031": 1.28
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "O-INV-L",
+    "ap_short": "Investeringen Leven",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-350",
+    "ac_short": "Investeringen BKO",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 55000.0,
+    "amount_per_capita": 7.02,
+    "yearly_amounts": {
+      "2026": 27500.0,
+      "2027": 9500.0,
+      "2028": 4500.0,
+      "2029": 4500.0,
+      "2030": 4500.0,
+      "2031": 4500.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.51,
+      "2027": 1.21,
+      "2028": 0.57,
+      "2029": 0.57,
+      "2030": 0.57,
+      "2031": 0.57
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-255",
+    "ac_short": "Koperstraatje",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 6.38,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.38,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-257",
+    "ac_short": "Beekstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 6.38,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.38,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-L",
+    "ap_short": "Investeringen Leven",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-302",
+    "ac_short": "Bibliotheek",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 44000.0,
+    "amount_per_capita": 5.62,
+    "yearly_amounts": {
+      "2026": 8000.0,
+      "2027": 0,
+      "2028": 20000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 16000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.02,
+      "2027": 0,
+      "2028": 2.55,
+      "2029": 0,
+      "2030": 0,
+      "2031": 2.04
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-L",
+    "ap_short": "Investeringen Leven",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-301",
+    "ac_short": "Toerisme",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 5.1,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "O-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-233",
+    "ac_short": "Maaltijden aan huis",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 34000.0,
+    "amount_per_capita": 4.34,
+    "yearly_amounts": {
+      "2026": 34000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.34,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-L",
+    "ap_short": "Investeringen Leven",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-300",
+    "ac_short": "Bikschooltje",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 32500.0,
+    "amount_per_capita": 4.15,
+    "yearly_amounts": {
+      "2026": 3000.0,
+      "2027": 8000.0,
+      "2028": 10500.0,
+      "2029": 3000.0,
+      "2030": 3000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.38,
+      "2027": 1.02,
+      "2028": 1.34,
+      "2029": 0.38,
+      "2030": 0.38,
+      "2031": 0.64
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "O-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-232",
+    "ac_short": "Keuken WZC",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 22000.0,
+    "amount_per_capita": 2.81,
+    "yearly_amounts": {
+      "2026": 19000.0,
+      "2027": 3000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.42,
+      "2027": 0.38,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-L",
+    "ap_short": "Investeringen Leven",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-305",
+    "ac_short": "Academie",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 8000.0,
+    "amount_per_capita": 1.02,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 8000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 1.02
+    }
+  },
+  {
+    "municipality": "Langemark-Poelkapelle",
+    "nis_code": "33040",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "G-INV-W",
+    "ap_short": "Investeringen Wonen",
+    "ap_long": "Commentaar:",
+    "ac_code": "INV-258",
+    "ac_short": "Bikschotestraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2000.0,
+    "amount_per_capita": 0.26,
+    "yearly_amounts": {
+      "2026": 2000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

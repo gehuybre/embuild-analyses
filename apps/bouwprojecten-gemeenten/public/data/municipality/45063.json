@@ -2,35 +2,35 @@
   {
     "municipality": "Lierde",
     "nis_code": "45063",
-    "bd_code": "BD",
-    "bd_short": "We geven cultuur en erfgoed de nodige aandacht",
-    "bd_long": "Kwalitatieve omschrijving: We brengen mensen samen. We werken een jaarprogrammatie uit met een gevarieerd aanbod voor jong en oud, en geven leegstaande gebouwen en erfgoed een nieuwe bestemming.",
-    "ap_code": "AP",
-    "ap_short": "We herbestemmen erfgoed en leegstaande gebouwen",
-    "ap_long": "De gemeente wil waardevolle gebouwen een nieuw leven geven. Dit verhoogt de erfgoedwaarde, voorkomt verval en creëert nieuwe publieke functies.",
-    "ac_code": "ACT",
-    "ac_short": "Herbestemming pastorij Kartuizersite",
-    "ac_long": "De plannen tot herbestemming van de pastorij Kartuizersite worden verder uitgerold. De nodige herstellingswerken tot instandhouding en onderhoud van dit waardevolle historisch gebouw zullen uitgevoerd worden.",
+    "bd_code": "BD-12",
+    "bd_short": "We bouwen aan een sportief Lierde voor iedereen",
+    "bd_long": "Kwalitatieve omschrijving: We investeren in nieuwe sport- en speelvoorzieningen zoals het tweede sportpark Tempel/Bergstraat en de speelzone aan De Zandloper. We versterken ook de bovenlokale samenwerking op sportgebied.",
+    "ap_code": "AP-25",
+    "ap_short": "We breiden de sport- en speelvoorzieningen uit",
+    "ap_long": "Een toekomstgericht sportbeleid creëert ruimte voor verschillende sporten, spel en recreatie, met (ver)nieuw(d)e infrastructuur voor alle leeftijden.",
+    "ac_code": "ACT-54",
+    "ac_short": "Realisatie tweede sportpark Tempel/Bergstraat",
+    "ac_long": "De realisatie van het nieuwe sportpark Tempel/Bergstraat gaat van start.",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 7635809.0,
-    "amount_per_capita": 1121.92,
+    "total_amount": 4695300.0,
+    "amount_per_capita": 689.44,
     "yearly_amounts": {
-      "2026": 3513059.0,
-      "2027": 2389941.0,
-      "2028": 724627.0,
-      "2029": 659721.0,
-      "2030": 258075.0,
-      "2031": 90386.0
+      "2026": 2145300.0,
+      "2027": 1950000.0,
+      "2028": 600000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 516.17,
-      "2027": 351.15,
-      "2028": 106.47,
-      "2029": 96.93,
-      "2030": 37.92,
-      "2031": 13.28
+      "2026": 315.01,
+      "2027": 286.33,
+      "2028": 88.1,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -48,10 +48,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 2723518.0,
-    "amount_per_capita": 400.16,
+    "total_amount": 2763518.0,
+    "amount_per_capita": 405.78,
     "yearly_amounts": {
-      "2026": 1343846.0,
+      "2026": 1383846.0,
       "2027": 658126.0,
       "2028": 192514.0,
       "2029": 204568.0,
@@ -59,12 +59,590 @@
       "2031": 177998.0
     },
     "yearly_per_capita": {
-      "2026": 197.45,
-      "2027": 96.7,
-      "2028": 28.29,
-      "2029": 30.06,
-      "2030": 21.52,
-      "2031": 26.15
+      "2026": 203.2,
+      "2027": 96.64,
+      "2028": 28.27,
+      "2029": 30.04,
+      "2030": 21.51,
+      "2031": 26.14
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-6",
+    "bd_short": "We vergroenen Lierde en brengen meer natuur dichtbij",
+    "bd_long": "Kwalitatieve omschrijving: Het vergroenen is uiteraard ook prioritair.  Lierde wordt groener, kleurrijker en gezonder. We realiseren een nieuw park op de Kartuizersite, planten één boom per inwoner en leggen een nieuw geboortebos aan. Ook begraafplaatsen worden stap voor stap vergroend, en we zorgen voor meer bloemen en kleur in onze leefomgeving.",
+    "ap_code": "AP-12",
+    "ap_short": "We maken Lierde groener en kleurrijker",
+    "ap_long": "De gemeente kiest voor extra groen, bomen en bloemen in het straatbeeld en nieuwe natuurcompensaties. Dit verhoogt de biodiversiteit, leefkwaliteit en klimaatbestendigheid.",
+    "ac_code": "ACT-27",
+    "ac_short": "Nieuw park op de Kartuizersite",
+    "ac_long": "De plannen voor een nieuw park voor de Lierdenaar op de Kartuizersite worden uitgerold.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 675149.0,
+    "amount_per_capita": 99.14,
+    "yearly_amounts": {
+      "2026": 675149.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 99.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-3",
+    "bd_short": "We maken Lierde duurzaam en vlot bereikbaar",
+    "bd_long": "Kwalitatieve omschrijving: We richten onze blik op een duurzame mobiliteit die essentieel is voor de leefbaarheid van een gemeente. We investeren in veilige fiets- en voetpaden (projecten fietssnelweg Steenweg-Laerebeek, Spende, Dorpstraat) en stimuleren deelmobiliteit met fietsdeelsystemen, deelauto’s en nieuwe Hoppinpunten. We vernieuwen en verbinden onze wandelwegen en geven de stationsomgeving een grondige heraanleg in samenwerking met de NMBS.",
+    "ap_code": "AP-7",
+    "ap_short": "We geven de stationsomgeving een duurzame opwaardering",
+    "ap_long": "Met een masterplan wil het lokaal bestuur de stationssite moderniseren, vergroenen en veiliger maken. De heraanleg moet het station een waardige toegangspoort tot Lierde maken.",
+    "ac_code": "ACT-18",
+    "ac_short": "Heraanleg van de stationsomgeving",
+    "ac_long": "De aanlag van de nieuwe stationsomgeving zal opgestart worden volgens de toekomstvisie die in opmaak is.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 536000.0,
+    "amount_per_capita": 78.7,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 300000.0,
+      "2030": 236000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 44.05,
+      "2030": 34.65,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-3",
+    "bd_short": "We maken Lierde duurzaam en vlot bereikbaar",
+    "bd_long": "Kwalitatieve omschrijving: We richten onze blik op een duurzame mobiliteit die essentieel is voor de leefbaarheid van een gemeente. We investeren in veilige fiets- en voetpaden (projecten fietssnelweg Steenweg-Laerebeek, Spende, Dorpstraat) en stimuleren deelmobiliteit met fietsdeelsystemen, deelauto’s en nieuwe Hoppinpunten. We vernieuwen en verbinden onze wandelwegen en geven de stationsomgeving een grondige heraanleg in samenwerking met de NMBS.",
+    "ap_code": "AP-4",
+    "ap_short": "We realiseren de aanleg van veilige fiets- en voetpaden",
+    "ap_long": "Hier ligt de focus op verkeersveiligheid en duurzame mobiliteit. Door nieuwe en verbeterde fiets- en wandelverbindingen wordt Lierde veiliger, toegankelijker en aangenamer voor zachte weggebruikers.",
+    "ac_code": "ACT-10",
+    "ac_short": "Fietssnelweg tussen de Steenweg en Laerebeke (F418)",
+    "ac_long": "De fietssnelweg tussen de Steenweg en Laerebeke zal in twee fases worden gerealiseerd. Deel 1 situeert zich tussen Polenak en Laerebeke, deel 2 tussen Polenak en Steenweg. Voor dit dossier zullen de nodige onteigeningen gebeuren en een omgevingsvergunning worden aangevraagd.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 438000.0,
+    "amount_per_capita": 64.31,
+    "yearly_amounts": {
+      "2026": 108000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 330000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.86,
+      "2027": 0,
+      "2028": 0,
+      "2029": 48.46,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-7",
+    "bd_short": "We maken Lierde klimaatvriendelijk en toekomstbestendig",
+    "bd_long": "Kwalitatieve omschrijving: We voeren onder andere het Masterplan openbare verlichting uit en vervangen tegen 2028 alle straatverlichting door energiezuinige LED-verlichting. Daarnaast werken we aan de uitvoering van het hemelwater- en droogteplan en blijven we inzetten op het behalen van energie- en klimaatdoelstellingen.",
+    "ap_code": "AP-13",
+    "ap_short": "We voeren het masterplan Openbare Verlichting uit",
+    "ap_long": "Hier staat de omschakeling naar energiezuinige LED-verlichting centraal, wat zorgt voor lagere kosten, minder lichtvervuiling en meer veiligheid.",
+    "ac_code": "ACT-32",
+    "ac_short": "Verledding straatverlichting tegen 2028",
+    "ac_long": "Tegen 2028 zal er 100 % verledding zijn van de gemeentelijke straatverlichting.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 412226.0,
+    "amount_per_capita": 60.53,
+    "yearly_amounts": {
+      "2026": 105176.0,
+      "2027": 105241.0,
+      "2028": 104627.0,
+      "2029": 9721.0,
+      "2030": 9575.0,
+      "2031": 77886.0
+    },
+    "yearly_per_capita": {
+      "2026": 15.44,
+      "2027": 15.45,
+      "2028": 15.36,
+      "2029": 1.43,
+      "2030": 1.41,
+      "2031": 11.44
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-4",
+    "bd_short": "We vernieuwen en verfraaien het openbaar domein",
+    "bd_long": "Kwalitatieve omschrijving: We blijven investeren in kwalitatieve infrastructuur. We vernieuwen systematisch onze wegenis en riolering en blazen onze dorpspleinen nieuw leven in. De heraanleg van het dorpsplein in Hemelveerdegem en de opwaardering van het Wijkschooltje in Gemeldorp maken van onze ontmoetingsplekken levendige harten van de gemeenschap.",
+    "ap_code": "AP-8",
+    "ap_short": "We vernieuwen systematisch onze wegenis en riolering",
+    "ap_long": "Dit plan gaat over noodzakelijke infrastructuurwerken om wegen veilig en aangenaam te houden en riolering te moderniseren in functie van duurzaamheid en waterbeheer.",
+    "ac_code": "ACT-19",
+    "ac_short": "Project Kloosterstraat",
+    "ac_long": "De vernieuwing wegenis en riolering Kloosterstraat gaat van start voorjaar 2026.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 36.71,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 36.71,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-9",
+    "bd_short": "We geven cultuur en erfgoed de nodige aandacht",
+    "bd_long": "Kwalitatieve omschrijving: We brengen mensen samen. We werken een jaarprogrammatie uit met een gevarieerd aanbod voor jong en oud, en geven leegstaande gebouwen en erfgoed een nieuwe bestemming.",
+    "ap_code": "AP-18",
+    "ap_short": "We herbestemmen erfgoed en leegstaande gebouwen",
+    "ap_long": "De gemeente wil waardevolle gebouwen een nieuw leven geven. Dit verhoogt de erfgoedwaarde, voorkomt verval en creëert nieuwe publieke functies.",
+    "ac_code": "ACT-41",
+    "ac_short": "Herbestemming pastorij Kartuizersite",
+    "ac_long": "De plannen tot herbestemming van de pastorij Kartuizersite worden verder uitgerold. De nodige herstellingswerken tot instandhouding en onderhoud van dit waardevolle historisch gebouw zullen uitgevoerd worden.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 26.43,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 180000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 26.43,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-7",
+    "bd_short": "We maken Lierde klimaatvriendelijk en toekomstbestendig",
+    "bd_long": "Kwalitatieve omschrijving: We voeren onder andere het Masterplan openbare verlichting uit en vervangen tegen 2028 alle straatverlichting door energiezuinige LED-verlichting. Daarnaast werken we aan de uitvoering van het hemelwater- en droogteplan en blijven we inzetten op het behalen van energie- en klimaatdoelstellingen.",
+    "ap_code": "AP-14",
+    "ap_short": "We rollen het hemelwater en droogteplan uit",
+    "ap_long": "Dit plan richt zich op klimaatadaptatie: Lierde wil beter omgaan met water door ontharding, infiltratie en slimme inrichting die overstromingen én droogte tegengaat.",
+    "ac_code": "ACT-33",
+    "ac_short": "Onthardingsproject Breebijl",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 22.03,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.01,
+      "2027": 11.01,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-1",
+    "bd_short": "We versterken de veiligheid in Lierde",
+    "bd_long": "Kwalitatieve omschrijving: We focussen op veiligheid als fundament van goed samenleven. We versterken de samenwerking met politie en hulpdiensten, ondersteunen een zichtbare en bereikbare politiewerking en blijven inzetten op preventie. Via buurtinformatienetwerken verhogen we de waakzaamheid in onze wijken. De hulpverleningszone krijgt extra ondersteuning om snel en efficiënt te kunnen optreden. We bouwen aan een sterk vrijwilligerskorps en houden onze noodplanning up-to-date.",
+    "ap_code": "AP-1",
+    "ap_short": "We optimaliseren de politiezorg en hulpverlening op ons grondgebied",
+    "ap_long": "Dit actieplan focust op een betere veiligheid door politie en hulpdiensten zichtbaarder, efficiënter en beter georganiseerd te maken. Zowel preventie als snelle interventie staan centraal, met aandacht voor vrijwilligers, buurtwerking en noodplanning.",
+    "ac_code": "ACT-2",
+    "ac_short": "Versterken werking van de hulpverleningszone voor adequate hulpverlening",
+    "ac_long": "We ondersteunen de hulpverleningszone zodat de hulpverlening kan verbeteren en de aanrijtijden zo beperkt mogelijk blijven.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 135699.0,
+    "amount_per_capita": 19.93,
+    "yearly_amounts": {
+      "2026": 135699.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-3",
+    "bd_short": "We maken Lierde duurzaam en vlot bereikbaar",
+    "bd_long": "Kwalitatieve omschrijving: We richten onze blik op een duurzame mobiliteit die essentieel is voor de leefbaarheid van een gemeente. We investeren in veilige fiets- en voetpaden (projecten fietssnelweg Steenweg-Laerebeek, Spende, Dorpstraat) en stimuleren deelmobiliteit met fietsdeelsystemen, deelauto’s en nieuwe Hoppinpunten. We vernieuwen en verbinden onze wandelwegen en geven de stationsomgeving een grondige heraanleg in samenwerking met de NMBS.",
+    "ap_code": "AP-5",
+    "ap_short": "We stimuleren duurzame (deel)mobiliteit",
+    "ap_long": "Dit actieplan wil alternatieven voor de eigen wagen aantrekkelijker maken. Deelauto’s, deelfietsen en Hoppinpunten moeten mobiliteit flexibeler en milieuvriendelijker maken.",
+    "ac_code": "ACT-15",
+    "ac_short": "Installeren en promoten Hoppinpunten",
+    "ac_long": "De aanwezigheid van hoppinpunten wordt verder uitgerold in de verschillende deelgemeenten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 119500.0,
+    "amount_per_capita": 17.55,
+    "yearly_amounts": {
+      "2026": 84000.0,
+      "2027": 35500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.33,
+      "2027": 5.21,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-3",
+    "bd_short": "We maken Lierde duurzaam en vlot bereikbaar",
+    "bd_long": "Kwalitatieve omschrijving: We richten onze blik op een duurzame mobiliteit die essentieel is voor de leefbaarheid van een gemeente. We investeren in veilige fiets- en voetpaden (projecten fietssnelweg Steenweg-Laerebeek, Spende, Dorpstraat) en stimuleren deelmobiliteit met fietsdeelsystemen, deelauto’s en nieuwe Hoppinpunten. We vernieuwen en verbinden onze wandelwegen en geven de stationsomgeving een grondige heraanleg in samenwerking met de NMBS.",
+    "ap_code": "AP-6",
+    "ap_short": "We vernieuwen en verbinden onze wandelwegen",
+    "ap_long": "De trage wegen in Lierde worden geactualiseerd, verbeterd en beter toegankelijk gemaakt. Dit versterkt recreatie, natuurbeleving en de verbinding tussen de dorpen.",
+    "ac_code": "ACT-16",
+    "ac_short": "Actualisatie tragenwegenplan",
+    "ac_long": "Er wordt permanent ingezet op onderhoud van onze trage wegen door onze technische dienst. De realisatie van een nieuwe wandelweg tussen Sint-Martens-Lierde en Hemelveerdegem wordt ingepland.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 45000.0,
+    "amount_per_capita": 6.61,
+    "yearly_amounts": {
+      "2026": 7500.0,
+      "2027": 7500.0,
+      "2028": 7500.0,
+      "2029": 7500.0,
+      "2030": 7500.0,
+      "2031": 7500.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.1,
+      "2027": 1.1,
+      "2028": 1.1,
+      "2029": 1.1,
+      "2030": 1.1,
+      "2031": 1.1
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-1",
+    "bd_short": "We versterken de veiligheid in Lierde",
+    "bd_long": "Kwalitatieve omschrijving: We focussen op veiligheid als fundament van goed samenleven. We versterken de samenwerking met politie en hulpdiensten, ondersteunen een zichtbare en bereikbare politiewerking en blijven inzetten op preventie. Via buurtinformatienetwerken verhogen we de waakzaamheid in onze wijken. De hulpverleningszone krijgt extra ondersteuning om snel en efficiënt te kunnen optreden. We bouwen aan een sterk vrijwilligerskorps en houden onze noodplanning up-to-date.",
+    "ap_code": "AP-1",
+    "ap_short": "We optimaliseren de politiezorg en hulpverlening op ons grondgebied",
+    "ap_long": "Dit actieplan focust op een betere veiligheid door politie en hulpdiensten zichtbaarder, efficiënter en beter georganiseerd te maken. Zowel preventie als snelle interventie staan centraal, met aandacht voor vrijwilligers, buurtwerking en noodplanning.",
+    "ac_code": "ACT-1",
+    "ac_short": "Ondersteunen zichtbare, bereikbare en efficiënte politie",
+    "ac_long": "We versterken de aanwezigheid en aanspreekbaarheid van de politie om het veiligheidsgevoel bij de inwoners te verhogen. In het nieuw zonaal veiligheidsplan focussen we voornamelijk op intrafamiliaal geweld, problematische opvoedingssituaties en de problematiek rond verdovende middelen.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 44535.0,
+    "amount_per_capita": 6.54,
+    "yearly_amounts": {
+      "2026": 44535.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.54,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-6",
+    "bd_short": "We vergroenen Lierde en brengen meer natuur dichtbij",
+    "bd_long": "Kwalitatieve omschrijving: Het vergroenen is uiteraard ook prioritair.  Lierde wordt groener, kleurrijker en gezonder. We realiseren een nieuw park op de Kartuizersite, planten één boom per inwoner en leggen een nieuw geboortebos aan. Ook begraafplaatsen worden stap voor stap vergroend, en we zorgen voor meer bloemen en kleur in onze leefomgeving.",
+    "ap_code": "AP-12",
+    "ap_short": "We maken Lierde groener en kleurrijker",
+    "ap_long": "De gemeente kiest voor extra groen, bomen en bloemen in het straatbeeld en nieuwe natuurcompensaties. Dit verhoogt de biodiversiteit, leefkwaliteit en klimaatbestendigheid.",
+    "ac_code": "ACT-31",
+    "ac_short": "Vergroenen begraafplaatsen",
+    "ac_long": "Voor de vergroening van de begraafplaatsen zal van start gegaan worden op de begraafplaats in Hemelveerdegem. Deze vergroening wordt mee opgenomen in het gehele plan van de heraanleg en vergroening van het dorpsplein.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 5.87,
+    "yearly_amounts": {
+      "2026": 17500.0,
+      "2027": 7500.0,
+      "2028": 7500.0,
+      "2029": 7500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.57,
+      "2027": 1.1,
+      "2028": 1.1,
+      "2029": 1.1,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-8",
+    "bd_short": "We zetten Lierde sterker op de toeristische kaart",
+    "bd_long": "Kwalitatieve omschrijving: We spelen onze toeristische troeven uit.  Lierde heeft heel er heel wat, niet in het minst natuur, erfgoed en rust. We ontwikkelen voor elke deelgemeente een eigen toeristisch verhaal, met alvast aandacht voor de Kartuizersite, het Parkbos-Uilenbroek en de Sint-Ursmaruskerk als blikvangers.",
+    "ap_code": "AP-16",
+    "ap_short": "We optimaliseren het toeristisch potentieel van iedere deelgemeente",
+    "ap_long": "De troeven van elke deelgemeente worden beter ontsloten. Erfgoed, natuur en cultuur worden aantrekkelijker gepresenteerd om bezoekers en inwoners te laten genieten van het aanbod.",
+    "ac_code": "ACT-38",
+    "ac_short": "De Sint-Ursmaruskerk als toeristische trekpleister",
+    "ac_long": "De Sint-Ursmaruskerk zal opnieuw in de kijker gezet worden als waardevol historisch erfgoed.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 4.41,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.73,
+      "2027": 0.73,
+      "2028": 0.73,
+      "2029": 0.73,
+      "2030": 0.73,
+      "2031": 0.73
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-6",
+    "bd_short": "We vergroenen Lierde en brengen meer natuur dichtbij",
+    "bd_long": "Kwalitatieve omschrijving: Het vergroenen is uiteraard ook prioritair.  Lierde wordt groener, kleurrijker en gezonder. We realiseren een nieuw park op de Kartuizersite, planten één boom per inwoner en leggen een nieuw geboortebos aan. Ook begraafplaatsen worden stap voor stap vergroend, en we zorgen voor meer bloemen en kleur in onze leefomgeving.",
+    "ap_code": "AP-12",
+    "ap_short": "We maken Lierde groener en kleurrijker",
+    "ap_long": "De gemeente kiest voor extra groen, bomen en bloemen in het straatbeeld en nieuwe natuurcompensaties. Dit verhoogt de biodiversiteit, leefkwaliteit en klimaatbestendigheid.",
+    "ac_code": "ACT-29",
+    "ac_short": "Aanplant nieuw bos inclusief geboortebos",
+    "ac_long": "Een geboortebos zal worden aangeplant op de percelen te Laerebeke die bebost zullen worden in samenwerking met de Bosgroep Vlaamse Ardennen.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 2.94,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.94,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-2",
+    "bd_short": "We houden Lierde netjes en proper",
+    "bd_long": "Kwalitatieve omschrijving: Een verzorgde leefomgeving is belangrijk. Dit is een gedeelde verantwoordelijkheid. Samen met inwoners en intercommunale I.VL.A. blijven we sensibiliseren over afvalbeheer en correct sorteren. We onderzoeken de optimalisering van het recyclagepark in intercommunaal verband en pakken zwerfvuil systematisch aan via extra personeelsinzet, gerichte opruimacties en handhaving.",
+    "ap_code": "AP-3",
+    "ap_short": "We voeren een systematische en proactieve aanpak tegen zwerfvuil",
+    "ap_long": "Dit plan zet in op preventie én kordate handhaving. Via controles, personeel en een strak overtredersbeleid wil de gemeente het zwerfvuilprobleem structureel verminderen.",
+    "ac_code": "ACT-8",
+    "ac_short": "Versterken handhavingscapaciteit door bijkomende personeelsinzet voor gerichte controle/opruimacties",
+    "ac_long": "We zetten extra medewerkers in, voornamelijk via het systeem van Tijdelijke Werk Ervaring, voor opruimacties. Ook laten we ons graag bijstaan door de vele 'mooimakers'.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 1.47,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.47,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-8",
+    "bd_short": "We zetten Lierde sterker op de toeristische kaart",
+    "bd_long": "Kwalitatieve omschrijving: We spelen onze toeristische troeven uit.  Lierde heeft heel er heel wat, niet in het minst natuur, erfgoed en rust. We ontwikkelen voor elke deelgemeente een eigen toeristisch verhaal, met alvast aandacht voor de Kartuizersite, het Parkbos-Uilenbroek en de Sint-Ursmaruskerk als blikvangers.",
+    "ap_code": "AP-16",
+    "ap_short": "We optimaliseren het toeristisch potentieel van iedere deelgemeente",
+    "ap_long": "De troeven van elke deelgemeente worden beter ontsloten. Erfgoed, natuur en cultuur worden aantrekkelijker gepresenteerd om bezoekers en inwoners te laten genieten van het aanbod.",
+    "ac_code": "ACT-39",
+    "ac_short": "Het retabel van Sint-Jan de Doper in de kijker",
+    "ac_long": "Het retabel van Dint-Jan de Doper zal opnieuw in de kijker gezet worden als waardevol historisch erfgoed.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 5500.0,
+    "amount_per_capita": 0.81,
+    "yearly_amounts": {
+      "2026": 5500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.81,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lierde",
+    "nis_code": "45063",
+    "bd_code": "BD-10",
+    "bd_short": "We promoten Lierde als kind- en jeugdvriendelijke gemeente",
+    "bd_long": "Kwalitatieve omschrijving: We blijven investeren in kinderopvang, participatie en vrije tijd. Het Loket Kinderopvang wordt verder uitgebouwd, onthaalouders krijgen ondersteuning via subsidies en een speelgoedpremie. We zorgen voor kwaliteitsvolle opvang voor en na schooltijd en tijdens vakanties.",
+    "ap_code": "AP-21",
+    "ap_short": "We werken een lokaal beleid buitenschoolse kinderopvang uit",
+    "ap_long": "Dit plan wil voldoende, toegankelijke en kwaliteitsvolle opvang garanderen voor schooldagen én vakanties, in samenwerking met scholen en aanbieders.",
+    "ac_code": "ACT-46",
+    "ac_short": "Kwaliteitsvolle opvang tijdens de schoolvakanties",
+    "ac_long": "Tijdens de schoolvakanties voorziet de dienst vrije tijd in kwalitatieve opvang voor kinderen en jongeren tot en met 15 jaar met ondermeer de speelpleinwerking, creakampen en de verschillende sportkampen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 4200.0,
+    "amount_per_capita": 0.62,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 4200.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.62,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

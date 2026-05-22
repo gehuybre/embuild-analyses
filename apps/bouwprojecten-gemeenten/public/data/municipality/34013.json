@@ -2,158 +2,158 @@
   {
     "municipality": "Harelbeke",
     "nis_code": "34013",
-    "bd_code": "BDS",
+    "bd_code": "BDS 24",
     "bd_short": "Duurzame steden en gemeenschappen",
     "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
-    "ap_code": "D11",
-    "ap_short": "AP01 Duurzaam, bereikbaar en levendig stadscentrum",
-    "ap_long": "AP01 We ontwikkelen een goed bereikbaar, duurzaam en levendig stadscentrum",
-    "ac_code": "D11",
-    "ac_short": "01 Leieboorden als belevingsgebied",
-    "ac_long": "We richten de Leieboorden in als belevingsgebied waar natuur, ontspanning en ontmoeting samenkomen",
+    "ap_code": "D11/AP03",
+    "ap_short": "AP03 Duurzame, leefbare wijken en buurten",
+    "ap_long": "AP03 We creëren duurzame en leefbare wijken en buurten in zowel de inrichting van het publiek domein, energie en sociale betrokkenheid",
+    "ac_code": "D11/AP03_D11/AP03/02",
+    "ac_short": "02 Site De Mol",
+    "ac_long": "Site De Mol versterkt ons sociaal netwerk en geeft ruimte aan ontmoeting en ontspanning voor iedereen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 25340912.0,
+    "amount_per_capita": 827.74,
+    "yearly_amounts": {
+      "2026": 1363715.0,
+      "2027": 300000.0,
+      "2028": 1306659.0,
+      "2029": 3751289.0,
+      "2030": 4251289.0,
+      "2031": 14367960.0
+    },
+    "yearly_per_capita": {
+      "2026": 44.54,
+      "2027": 9.8,
+      "2028": 42.68,
+      "2029": 122.53,
+      "2030": 138.86,
+      "2031": 469.32
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 26",
+    "bd_short": "Sterke publieke diensten",
+    "bd_long": "SDG 16: Sterke publieke diensten",
+    "ap_code": "D16/CB",
+    "ap_short": "Sterke publieke diensten: complementair beleid",
+    "ap_long": "Complementair beleid",
+    "ac_code": "D16/CB_D16/CB",
+    "ac_short": "Sterke publieke diensten: complementair beleid",
+    "ac_long": "Complementair beleid",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 12747699.97,
+    "amount_per_capita": 416.39,
+    "yearly_amounts": {
+      "2026": 4139143.68,
+      "2027": 2046909.9,
+      "2028": 2044503.39,
+      "2029": 1558446.5,
+      "2030": 1483027.0,
+      "2031": 1475669.5
+    },
+    "yearly_per_capita": {
+      "2026": 135.2,
+      "2027": 66.86,
+      "2028": 66.78,
+      "2029": 50.91,
+      "2030": 48.44,
+      "2031": 48.2
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP03",
+    "ap_short": "AP03 Duurzame, leefbare wijken en buurten",
+    "ap_long": "AP03 We creëren duurzame en leefbare wijken en buurten in zowel de inrichting van het publiek domein, energie en sociale betrokkenheid",
+    "ac_code": "D11/AP03_D11/AP03/03",
+    "ac_short": "03 Multifunctionele vrijetijdssite Bavikhove",
+    "ac_long": "De multifunctionele vrijetijdssite in Bavikhove groeit uit tot een dynamische ontmoetingsplek",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 7616385.61,
+    "amount_per_capita": 248.78,
+    "yearly_amounts": {
+      "2026": 7616385.61,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 248.78,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 25",
+    "bd_short": "Leven op het land",
+    "bd_long": "SDG 15: Leven op het land",
+    "ap_code": "D15/AP01",
+    "ap_short": "AP01 Gezonde en nette omgeving",
+    "ap_long": "AP01 We zetten in op een gezonde en nette omgeving",
+    "ac_code": "D15/AP01_D15/AP01/03",
+    "ac_short": "03 Proper water en propere lucht",
+    "ac_long": "We doen duidelijke inspanningen voor proper water en propere lucht",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 35163658.0,
-    "amount_per_capita": 1147.18,
+    "total_amount": 7316405.98,
+    "amount_per_capita": 238.98,
     "yearly_amounts": {
-      "2026": 5451062.0,
-      "2027": 1265000.0,
-      "2028": 2398325.0,
-      "2029": 4411289.0,
-      "2030": 6511689.0,
-      "2031": 15126293.0
+      "2026": 5243513.98,
+      "2027": 992892.0,
+      "2028": 400000.0,
+      "2029": 680000.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 177.84,
-      "2027": 41.27,
-      "2028": 78.24,
-      "2029": 143.91,
-      "2030": 212.44,
-      "2031": 493.48
+      "2026": 171.27,
+      "2027": 32.43,
+      "2028": 13.07,
+      "2029": 22.21,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Harelbeke",
     "nis_code": "34013",
-    "bd_code": "BDS",
-    "bd_short": "BD 1 - Versterken excellente residentiële zorg",
-    "bd_long": "We versterken onze excellente residentiële zorg",
-    "ap_code": "AP1.1",
-    "ap_short": "Toekomstbestendige infrastructuur WZC en GAW",
-    "ap_long": "We investeren in een kwalitatieve en toekomstbestendige infrastructuur van de woonzorgcentra en de assistentiewoningen",
-    "ac_code": "AP1.1",
-    "ac_short": "Opfrissingswerken Ceder a/d Leie",
-    "ac_long": "We werken de opfrissingswerken Ceder a/d Leie af",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 22381700.0,
-    "amount_per_capita": 730.18,
-    "yearly_amounts": {
-      "2026": 1786700.0,
-      "2027": 220000.0,
-      "2028": 5000000.0,
-      "2029": 100000.0,
-      "2030": 100000.0,
-      "2031": 15175000.0
-    },
-    "yearly_per_capita": {
-      "2026": 58.29,
-      "2027": 7.18,
-      "2028": 163.12,
-      "2029": 3.26,
-      "2030": 3.26,
-      "2031": 495.07
-    }
-  },
-  {
-    "municipality": "Harelbeke",
-    "nis_code": "34013",
-    "bd_code": "BDS",
-    "bd_short": "Sterke publieke diensten",
-    "bd_long": "SDG 16: Sterke publieke diensten",
-    "ap_code": "D16",
-    "ap_short": "AP01 We verlagen bestaande drempels in onze dienstverlening",
-    "ap_long": "AP01 We verlagen bestaande drempels in onze dienstverlening",
-    "ac_code": "D16",
-    "ac_short": "01 Dienstverlening dichbij de mensen via antennepunten",
-    "ac_long": "We brengen onze dienstverlening dichter bij de mensen, met laagdrempelige antennepunten in de deelgebieden",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 12860889.0,
-    "amount_per_capita": 419.57,
-    "yearly_amounts": {
-      "2026": 2892332.0,
-      "2027": 2126910.0,
-      "2028": 3324503.0,
-      "2029": 1558447.0,
-      "2030": 1483027.0,
-      "2031": 1475670.0
-    },
-    "yearly_per_capita": {
-      "2026": 94.36,
-      "2027": 69.39,
-      "2028": 108.46,
-      "2029": 50.84,
-      "2030": 48.38,
-      "2031": 48.14
-    }
-  },
-  {
-    "municipality": "Harelbeke",
-    "nis_code": "34013",
-    "bd_code": "BDS",
-    "bd_short": "Leven op het land",
-    "bd_long": "SDG 15: Leven op het land",
-    "ap_code": "D15",
-    "ap_short": "AP01 Gezonde en nette omgeving",
-    "ap_long": "AP01 We zetten in op een gezonde en nette omgeving",
-    "ac_code": "D15",
-    "ac_short": "01 We zetten in op een net openbaar domein",
-    "ac_long": "We zetten sterk in op een net en aangenaam openbaar domein",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 7345193.0,
-    "amount_per_capita": 239.63,
-    "yearly_amounts": {
-      "2026": 3722688.0,
-      "2027": 1996505.0,
-      "2028": 724000.0,
-      "2029": 886000.0,
-      "2030": 10000.0,
-      "2031": 6000.0
-    },
-    "yearly_per_capita": {
-      "2026": 121.45,
-      "2027": 65.13,
-      "2028": 23.62,
-      "2029": 28.9,
-      "2030": 0.33,
-      "2031": 0.2
-    }
-  },
-  {
-    "municipality": "Harelbeke",
-    "nis_code": "34013",
-    "bd_code": "BDS",
+    "bd_code": "BDS 32",
     "bd_short": "Betaalbare en duurzame energie",
     "bd_long": "SDG 07: Betaalbare en duurzame energie",
-    "ap_code": "D07",
+    "ap_code": "D07/CB",
     "ap_short": "Betaalbare en duurzame energie: complementair beleid",
     "ap_long": "Complementair beleid",
-    "ac_code": "D07",
+    "ac_code": "D07/CB_D07/CB",
     "ac_short": "Betaalbare en duurzame energie: complementair beleid",
     "ac_long": "Complementair beleid",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 1831097.0,
-    "amount_per_capita": 59.74,
+    "total_amount": 2111165.87,
+    "amount_per_capita": 68.96,
     "yearly_amounts": {
-      "2026": 565298.0,
+      "2026": 845366.87,
       "2027": 565720.0,
       "2028": 562829.0,
       "2029": 46322.0,
@@ -161,33 +161,33 @@
       "2031": 45464.0
     },
     "yearly_per_capita": {
-      "2026": 18.44,
-      "2027": 18.46,
-      "2028": 18.36,
+      "2026": 27.61,
+      "2027": 18.48,
+      "2028": 18.38,
       "2029": 1.51,
-      "2030": 1.48,
-      "2031": 1.48
+      "2030": 1.49,
+      "2031": 1.49
     }
   },
   {
     "municipality": "Harelbeke",
     "nis_code": "34013",
-    "bd_code": "BDS",
+    "bd_code": "BDS 29",
     "bd_short": "Goede gezondheid en welzijn",
     "bd_long": "SDG 03: Goede gezondheid en welzijn",
-    "ap_code": "D03",
+    "ap_code": "D03/CB",
     "ap_short": "Goede gezondheid en welzijn: complementair beleid",
     "ap_long": "Complementair beleid",
-    "ac_code": "D03",
+    "ac_code": "D03/CB_D03/CB",
     "ac_short": "Goede gezondheid en welzijn: complementair beleid",
     "ac_long": "Complementair beleid",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1787260.0,
-    "amount_per_capita": 58.31,
+    "total_amount": 1946828.97,
+    "amount_per_capita": 63.59,
     "yearly_amounts": {
-      "2026": 1124260.0,
+      "2026": 1283828.97,
       "2027": 203000.0,
       "2028": 186000.0,
       "2029": 103000.0,
@@ -195,67 +195,271 @@
       "2031": 78000.0
     },
     "yearly_per_capita": {
-      "2026": 36.68,
-      "2027": 6.62,
-      "2028": 6.07,
+      "2026": 41.94,
+      "2027": 6.63,
+      "2028": 6.08,
       "2029": 3.36,
-      "2030": 3.03,
-      "2031": 2.54
+      "2030": 3.04,
+      "2031": 2.55
     }
   },
   {
     "municipality": "Harelbeke",
     "nis_code": "34013",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "",
-    "ap_short": "overigBeleid",
-    "ap_long": "overigBeleid",
-    "ac_code": "",
-    "ac_short": "overigBeleid zonder actie",
-    "ac_long": "overigBeleid zonder actie",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP04",
+    "ap_short": "AP04 Verkeersveilige, toegankelijke stad",
+    "ap_long": "AP04 De stad is verkeersveilig en toegankelijk voor elke weggebruiker",
+    "ac_code": "D11/AP04_D11/AP04/03",
+    "ac_short": "03 Gericht investeren in de verkeersveiligheid van onze stad",
+    "ac_long": "We investeren gericht in de verkeersveiligheid van onze stad, met speciale aandacht voor kwetsbare weggebruikers",
     "categories": [
-      "01-algemeen-bestuur"
+      "02-mobiliteit"
     ],
-    "total_amount": 1644188.0,
-    "amount_per_capita": 53.64,
+    "total_amount": 1724150.39,
+    "amount_per_capita": 56.32,
     "yearly_amounts": {
-      "2026": 366173.0,
-      "2027": 165000.0,
-      "2028": 246027.0,
-      "2029": 150338.0,
-      "2030": 255981.0,
-      "2031": 460669.0
+      "2026": 649150.39,
+      "2027": 375000.0,
+      "2028": 175000.0,
+      "2029": 175000.0,
+      "2030": 175000.0,
+      "2031": 175000.0
     },
     "yearly_per_capita": {
-      "2026": 11.95,
-      "2027": 5.38,
-      "2028": 8.03,
-      "2029": 4.9,
-      "2030": 8.35,
-      "2031": 15.03
+      "2026": 21.2,
+      "2027": 12.25,
+      "2028": 5.72,
+      "2029": 5.72,
+      "2030": 5.72,
+      "2031": 5.72
     }
   },
   {
     "municipality": "Harelbeke",
     "nis_code": "34013",
-    "bd_code": "BDS",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP02",
+    "ap_short": "AP02 Open ruimte verankeren",
+    "ap_long": "AP02 We verankeren de open ruimte die de stad rijk is",
+    "ac_code": "D11/AP02_D11/AP02/01",
+    "ac_short": "01 Versterken de contrasterende landschappen centrum en dorp",
+    "ac_long": "We versterken de unieke contrasterende landschappen van het stadscentrum en de dorpen, zodat elke plek zijn karakter behoudt en tegelijk verbonden blijft",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1495096.65,
+    "amount_per_capita": 48.84,
+    "yearly_amounts": {
+      "2026": 995096.65,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 500000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 32.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 16.33,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 26",
+    "bd_short": "Sterke publieke diensten",
+    "bd_long": "SDG 16: Sterke publieke diensten",
+    "ap_code": "D16/AP01",
+    "ap_short": "AP01 We verlagen bestaande drempels in onze dienstverlening",
+    "ap_long": "AP01 We verlagen bestaande drempels in onze dienstverlening",
+    "ac_code": "D16/AP01_D16/AP01/01",
+    "ac_short": "01 Dienstverlening dichbij de mensen via antennepunten",
+    "ac_long": "We brengen onze dienstverlening dichter bij de mensen, met laagdrempelige antennepunten in de deelgebieden",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1360000.0,
+    "amount_per_capita": 44.42,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 80000.0,
+      "2028": 1280000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.61,
+      "2028": 41.81,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP03",
+    "ap_short": "AP03 Duurzame, leefbare wijken en buurten",
+    "ap_long": "AP03 We creëren duurzame en leefbare wijken en buurten in zowel de inrichting van het publiek domein, energie en sociale betrokkenheid",
+    "ac_code": "D11/AP03_D11/AP03/04",
+    "ac_short": "04 Zwembadwater in de nabijheid van onze stad",
+    "ac_long": "We zorgen voor zwembadwater in de nabijheid van onze stad",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1300000.0,
+    "amount_per_capita": 42.46,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 1300000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 42.46,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 25",
+    "bd_short": "Leven op het land",
+    "bd_long": "SDG 15: Leven op het land",
+    "ap_code": "D15/AP02",
+    "ap_short": "AP02 Toegankelijk en beleefbaar groen",
+    "ap_long": "AP02 We voorzien toegankelijk en beleefbaar groen voor onze inwoners",
+    "ac_code": "D15/AP02_D15/AP02/01",
+    "ac_short": "01 Publieke groenzones en toegankelijke natuurgebieden",
+    "ac_long": "We richten publieke groenzones en toegankelijke natuurgebieden in",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1283612.5,
+    "amount_per_capita": 41.93,
+    "yearly_amounts": {
+      "2026": 127000.0,
+      "2027": 763612.5,
+      "2028": 193000.0,
+      "2029": 200000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.15,
+      "2027": 24.94,
+      "2028": 6.3,
+      "2029": 6.53,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP03",
+    "ap_short": "AP03 Duurzame, leefbare wijken en buurten",
+    "ap_long": "AP03 We creëren duurzame en leefbare wijken en buurten in zowel de inrichting van het publiek domein, energie en sociale betrokkenheid",
+    "ac_code": "D11/AP03_D11/AP03/01",
+    "ac_short": "01 Integrale aanpak van wijken",
+    "ac_long": "We zorgen voor de integrale aanpak van wijken",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1172152.75,
+    "amount_per_capita": 38.29,
+    "yearly_amounts": {
+      "2026": 322152.75,
+      "2027": 200000.0,
+      "2028": 200000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.52,
+      "2027": 6.53,
+      "2028": 6.53,
+      "2029": 4.9,
+      "2030": 4.9,
+      "2031": 4.9
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP04",
+    "ap_short": "AP04 Verkeersveilige, toegankelijke stad",
+    "ap_long": "AP04 De stad is verkeersveilig en toegankelijk voor elke weggebruiker",
+    "ac_code": "D11/AP04_D11/AP04/02",
+    "ac_short": "02 We stimuleren wandelen en fietsen in onze 15 minuten stad",
+    "ac_long": "We stimuleren wandelen en fietsen in onze 15 minuten stad",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 781871.33,
+    "amount_per_capita": 25.54,
+    "yearly_amounts": {
+      "2026": 181871.33,
+      "2027": 150000.0,
+      "2028": 150000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.94,
+      "2027": 4.9,
+      "2028": 4.9,
+      "2029": 3.27,
+      "2030": 3.27,
+      "2031": 3.27
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 27",
     "bd_short": "Geen armoede",
     "bd_long": "SDG 01: Geen armoede",
-    "ap_code": "D01",
+    "ap_code": "D01/CB",
     "ap_short": "Geen armoede: complementair beleid",
     "ap_long": "Complementair beleid",
-    "ac_code": "D01",
+    "ac_code": "D01/CB_D01/CB",
     "ac_short": "Geen armoede: complementair beleid",
     "ac_long": "Complementair beleid",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 695000.0,
-    "amount_per_capita": 22.67,
+    "total_amount": 765000.0,
+    "amount_per_capita": 24.99,
     "yearly_amounts": {
-      "2026": 75000.0,
+      "2026": 145000.0,
       "2027": 60000.0,
       "2028": 140000.0,
       "2029": 140000.0,
@@ -263,7 +467,7 @@
       "2031": 140000.0
     },
     "yearly_per_capita": {
-      "2026": 2.45,
+      "2026": 4.74,
       "2027": 1.96,
       "2028": 4.57,
       "2029": 4.57,
@@ -274,22 +478,124 @@
   {
     "municipality": "Harelbeke",
     "nis_code": "34013",
-    "bd_code": "BDS",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP03",
+    "ap_short": "AP03 Duurzame, leefbare wijken en buurten",
+    "ap_long": "AP03 We creëren duurzame en leefbare wijken en buurten in zowel de inrichting van het publiek domein, energie en sociale betrokkenheid",
+    "ac_code": "D11/AP03_D11/AP03/07",
+    "ac_short": "07 Duurzame ruimtelijke ontwikkeling samen met bedrijfsleven",
+    "ac_long": "We werken samen met het bedrijfsleven aan een duurzame en evenwichtige ruimtelijke ontwikkeling die ook voor de buurt voordelen oplevert",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 598999.0,
+    "amount_per_capita": 19.57,
+    "yearly_amounts": {
+      "2026": 99000.0,
+      "2027": 0,
+      "2028": 166666.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 333333.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.23,
+      "2027": 0,
+      "2028": 5.44,
+      "2029": 0,
+      "2030": 0,
+      "2031": 10.89
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 25",
+    "bd_short": "Leven op het land",
+    "bd_long": "SDG 15: Leven op het land",
+    "ap_code": "D15/AP02",
+    "ap_short": "AP02 Toegankelijk en beleefbaar groen",
+    "ap_long": "AP02 We voorzien toegankelijk en beleefbaar groen voor onze inwoners",
+    "ac_code": "D15/AP02_D15/AP02/02",
+    "ac_short": "02 Binnen 300 meter toegang tot publieke groenzone",
+    "ac_long": "Elke inwoner heeft binnen een afstand van 300 meter toegang tot een publieke groenzone",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 560000.0,
+    "amount_per_capita": 18.29,
+    "yearly_amounts": {
+      "2026": 377000.0,
+      "2027": 133000.0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.31,
+      "2027": 4.34,
+      "2028": 1.63,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 35",
+    "bd_short": "Schoon water en sanitair",
+    "bd_long": "SDG 06: Schoon water en sanitair",
+    "ap_code": "D06/CB",
+    "ap_short": "Schoon water en sanitair: complementair beleid",
+    "ap_long": "Complementair beleid",
+    "ac_code": "D06/CB_D06/CB",
+    "ac_short": "Schoon water en sanitair: complementair beleid",
+    "ac_long": "Complementair beleid",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 534171.79,
+    "amount_per_capita": 17.45,
+    "yearly_amounts": {
+      "2026": 534171.79,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.45,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 34",
     "bd_short": "Industrie, innovatie en infrastructuur",
     "bd_long": "SDG 09: Industrie, innovatie en infrastructuur",
-    "ap_code": "D09",
+    "ap_code": "D09/CB",
     "ap_short": "Industrie, innovatie en infrastructuur: complementair beleid",
     "ap_long": "Complementair beleid",
-    "ac_code": "D09",
+    "ac_code": "D09/CB_D09/CB",
     "ac_short": "Industrie, innovatie en infrastructuur: complementair beleid",
     "ac_long": "Complementair beleid",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 9.79,
+    "total_amount": 464478.7,
+    "amount_per_capita": 15.17,
     "yearly_amounts": {
-      "2026": 50000.0,
+      "2026": 214478.7,
       "2027": 50000.0,
       "2028": 50000.0,
       "2029": 50000.0,
@@ -297,7 +603,7 @@
       "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 1.63,
+      "2026": 7.01,
       "2027": 1.63,
       "2028": 1.63,
       "2029": 1.63,
@@ -308,22 +614,22 @@
   {
     "municipality": "Harelbeke",
     "nis_code": "34013",
-    "bd_code": "BDS",
+    "bd_code": "BDS 30",
     "bd_short": "Kwaliteitsonderwijs",
     "bd_long": "SDG 04: Kwaliteitsonderwijs",
-    "ap_code": "D04",
+    "ap_code": "D04/CB",
     "ap_short": "Kwaliteitsonderwijs: complementair beleid",
     "ap_long": "Complementair beleid",
-    "ac_code": "D04",
+    "ac_code": "D04/CB_D04/CB",
     "ac_short": "Kwaliteitsonderwijs: complementair beleid",
     "ac_long": "Complementair beleid",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 260000.0,
-    "amount_per_capita": 8.48,
+    "total_amount": 423101.48,
+    "amount_per_capita": 13.82,
     "yearly_amounts": {
-      "2026": 130000.0,
+      "2026": 293101.48,
       "2027": 50000.0,
       "2028": 20000.0,
       "2029": 20000.0,
@@ -331,7 +637,7 @@
       "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 4.24,
+      "2026": 9.57,
       "2027": 1.63,
       "2028": 0.65,
       "2029": 0.65,
@@ -342,32 +648,134 @@
   {
     "municipality": "Harelbeke",
     "nis_code": "34013",
-    "bd_code": "BDS",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP04",
+    "ap_short": "AP04 Verkeersveilige, toegankelijke stad",
+    "ap_long": "AP04 De stad is verkeersveilig en toegankelijk voor elke weggebruiker",
+    "ac_code": "D11/AP04_D11/AP04/01",
+    "ac_short": "01 De stationsomgeving als dé centrale draaischijf",
+    "ac_long": "De stationsomgeving is dé centrale draaischijf waar alle vervoersmiddelen vlot op elkaar aansluiten",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 13.07,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 400000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 13.07,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 25",
+    "bd_short": "Leven op het land",
+    "bd_long": "SDG 15: Leven op het land",
+    "ap_code": "D15/AP01",
+    "ap_short": "AP01 Gezonde en nette omgeving",
+    "ap_long": "AP01 We zetten in op een gezonde en nette omgeving",
+    "ac_code": "D15/AP01_D15/AP01/01",
+    "ac_short": "01 We zetten in op een net openbaar domein",
+    "ac_long": "We zetten sterk in op een net en aangenaam openbaar domein",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 344500.0,
+    "amount_per_capita": 11.25,
+    "yearly_amounts": {
+      "2026": 134500.0,
+      "2027": 107000.0,
+      "2028": 81000.0,
+      "2029": 6000.0,
+      "2030": 10000.0,
+      "2031": 6000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.39,
+      "2027": 3.5,
+      "2028": 2.65,
+      "2029": 0.2,
+      "2030": 0.33,
+      "2031": 0.2
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP01",
+    "ap_short": "AP01 Duurzaam, bereikbaar en levendig stadscentrum",
+    "ap_long": "AP01 We ontwikkelen een goed bereikbaar, duurzaam en levendig stadscentrum",
+    "ac_code": "D11/AP01_D11/AP01/02",
+    "ac_short": "02 Kernversterkend beleid voor de lokale economie en centrum",
+    "ac_long": "We voeren een kernversterkend beleid dat onze lokale economie doet groeien en het centrum aantrekkelijk houdt",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 279000.0,
+    "amount_per_capita": 9.11,
+    "yearly_amounts": {
+      "2026": 54000.0,
+      "2027": 225000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.76,
+      "2027": 7.35,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 23",
     "bd_short": "Ongelijkheid verminderen",
     "bd_long": "SDG 10: Ongelijkheid verminderen",
-    "ap_code": "D10",
+    "ap_code": "D10/AP03",
     "ap_short": "AP03 Kind- en jeugdvriendelijke stad",
     "ap_long": "AP03 Harelbeke is een kind- en jeugdvriendelijke stad",
-    "ac_code": "D10",
+    "ac_code": "D10/AP03_D10/AP03/01",
     "ac_short": "01 Toegankelijk aanbod voor kwetsbare kinderen, jongeren",
     "ac_long": "We creëren een toegankelijk aanbod voor kinderen en jongeren in kwetsbare situaties",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 170000.0,
-    "amount_per_capita": 5.55,
+    "total_amount": 190502.8,
+    "amount_per_capita": 6.22,
     "yearly_amounts": {
-      "2026": 15000.0,
+      "2026": 65502.8,
       "2027": 25000.0,
-      "2028": 55000.0,
+      "2028": 25000.0,
       "2029": 25000.0,
       "2030": 25000.0,
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 0.49,
+      "2026": 2.14,
       "2027": 0.82,
-      "2028": 1.79,
+      "2028": 0.82,
       "2029": 0.82,
       "2030": 0.82,
       "2031": 0.82
@@ -376,31 +784,269 @@
   {
     "municipality": "Harelbeke",
     "nis_code": "34013",
-    "bd_code": "BDS",
-    "bd_short": "BD 1 - Versterken excellente residentiële zorg",
-    "bd_long": "We versterken onze excellente residentiële zorg",
-    "ap_code": "AP1.2",
-    "ap_short": "Kwaliteit van leven en zorg in de residentiële zorg",
-    "ap_long": "We versterken de kwaliteit van leven en kwaliteit van zorg in de residentiële zorg",
-    "ac_code": "AP1.2",
-    "ac_short": "Kwaliteitsvol maaltijd(zorg)beleid",
-    "ac_long": "We garanderen smaakvolle, gezonde en persoonsgerichte maaltijdzorg voor elke bewoner",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP04",
+    "ap_short": "AP04 Verkeersveilige, toegankelijke stad",
+    "ap_long": "AP04 De stad is verkeersveilig en toegankelijk voor elke weggebruiker",
+    "ac_code": "D11/AP04_D11/AP04/04",
+    "ac_short": "04 Toegang tot duurzame vervoersmiddelen voor iedereen",
+    "ac_long": "Iedereen krijgt toegang tot duurzame vervoersmiddelen die eenvoudig, comfortabel en efficiënt te gebruiken zijn",
     "categories": [
-      "09-zorg-opvang"
+      "02-mobiliteit"
     ],
-    "total_amount": 100000.0,
-    "amount_per_capita": 3.26,
+    "total_amount": 140000.0,
+    "amount_per_capita": 4.57,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 60000.0,
+      "2030": 30000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.63,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1.96,
+      "2030": 0.98,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP01",
+    "ap_short": "AP01 Duurzaam, bereikbaar en levendig stadscentrum",
+    "ap_long": "AP01 We ontwikkelen een goed bereikbaar, duurzaam en levendig stadscentrum",
+    "ac_code": "D11/AP01_D11/AP01/01",
+    "ac_short": "01 Leieboorden als belevingsgebied",
+    "ac_long": "We richten de Leieboorden in als belevingsgebied waar natuur, ontspanning en ontmoeting samenkomen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 125000.0,
+    "amount_per_capita": 4.08,
     "yearly_amounts": {
       "2026": 0,
-      "2027": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 125000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 4.08,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/AP02",
+    "ap_short": "AP02 Open ruimte verankeren",
+    "ap_long": "AP02 We verankeren de open ruimte die de stad rijk is",
+    "ac_code": "D11/AP02_D11/AP02/02",
+    "ac_short": "02 Waterinfiltratie en overstromingsgevoelige gebieden",
+    "ac_long": "We maken waterinfiltratie mogelijk en vrijwaren overstromingsgevoelige gebieden (deels of helemaal)",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 94400.0,
+    "amount_per_capita": 3.08,
+    "yearly_amounts": {
+      "2026": 24000.0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 50000.0,
+      "2030": 5400.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.78,
+      "2027": 0.49,
+      "2028": 0,
+      "2029": 1.63,
+      "2030": 0.18,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 25",
+    "bd_short": "Leven op het land",
+    "bd_long": "SDG 15: Leven op het land",
+    "ap_code": "D15/AP01",
+    "ap_short": "AP01 Gezonde en nette omgeving",
+    "ap_long": "AP01 We zetten in op een gezonde en nette omgeving",
+    "ac_code": "D15/AP01_D15/AP01/04",
+    "ac_short": "04 Bestuurlijke handhaving en meer politiecontrole op straat",
+    "ac_long": "We zorgen via bestuurlijk handhaving voor een consequente aanpak, met meer zichtbare politiecontrole op straat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 48428.03,
+    "amount_per_capita": 1.58,
+    "yearly_amounts": {
+      "2026": 48428.03,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
+      "2026": 1.58,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 24",
+    "bd_short": "Duurzame steden en gemeenschappen",
+    "bd_long": "SDG 11: Duurzame steden en gemeenschappen",
+    "ap_code": "D11/CB",
+    "ap_short": "Duurzame steden en gemeenschappen: complementair beleid",
+    "ap_long": "Complementair beleid",
+    "ac_code": "D11/CB_D11/CB",
+    "ac_short": "Duurzame steden en gemeenschappen: complementair beleid",
+    "ac_long": "Complementair beleid",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 33353.54,
+    "amount_per_capita": 1.09,
+    "yearly_amounts": {
+      "2026": 33353.54,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 23",
+    "bd_short": "Ongelijkheid verminderen",
+    "bd_long": "SDG 10: Ongelijkheid verminderen",
+    "ap_code": "D10/AP03",
+    "ap_short": "AP03 Kind- en jeugdvriendelijke stad",
+    "ap_long": "AP03 Harelbeke is een kind- en jeugdvriendelijke stad",
+    "ac_code": "D10/AP03_D10/AP03/04",
+    "ac_short": "04 Verbinding scholen en lokale gemeenschap versterken",
+    "ac_long": "We versterken de verbinding van de scholen met de lokale gemeenschap zodat leren, spelen en samenleven hand in hand gaan",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.98,
+    "yearly_amounts": {
       "2026": 0,
-      "2027": 3.26,
+      "2027": 0,
+      "2028": 30000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.98,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 26",
+    "bd_short": "Sterke publieke diensten",
+    "bd_long": "SDG 16: Sterke publieke diensten",
+    "ap_code": "D16/AP01",
+    "ap_short": "AP01 We verlagen bestaande drempels in onze dienstverlening",
+    "ap_long": "AP01 We verlagen bestaande drempels in onze dienstverlening",
+    "ac_code": "D16/AP01_D16/AP01/02",
+    "ac_short": "02 Digitale dienstverlening vereenvoudigen en versterken",
+    "ac_long": "We vereenvoudigen en versterken onze digitale dienstverlening, zodat ze gebruiksvriendelijk en toegankelijk is voor iedereen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 14000.0,
+    "amount_per_capita": 0.46,
+    "yearly_amounts": {
+      "2026": 14000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Harelbeke",
+    "nis_code": "34013",
+    "bd_code": "BDS 25",
+    "bd_short": "Leven op het land",
+    "bd_long": "SDG 15: Leven op het land",
+    "ap_code": "D15/CB",
+    "ap_short": "Leven op het land: complementair beleid",
+    "ap_long": "Complementair beleid",
+    "ac_code": "D15/CB_D15/CB",
+    "ac_short": "Leven op het land: complementair beleid",
+    "ac_long": "Complementair beleid",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.33,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.33,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,

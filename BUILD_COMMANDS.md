@@ -36,6 +36,15 @@ pnpm build:single-preview -- nbb-rente
 `merge-outputs` now auto-refreshes portal metadata and rebuilds `portal` when an app metadata change would otherwise leave the homepage out of sync.
 For supported data-driven apps, each app `prebuild` also syncs the visible blog date and `Data beschikbaar tot en met …` label from the latest local dataset before the build starts.
 
+## Build one app as a standalone public site
+
+```bash
+pnpm build:standalone -- fin-indicatoren
+pnpm build:fin-indicatoren:standalone
+```
+
+This builds the app with `NEXT_PUBLIC_BASE_PATH=""` and writes a root-hostable static site to `dist-standalone/fin-indicatoren/`.
+
 ## Rebuild everything with merge in one line
 
 ```bash

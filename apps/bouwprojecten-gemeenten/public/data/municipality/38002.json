@@ -2,40 +2,6 @@
   {
     "municipality": "Alveringem",
     "nis_code": "38002",
-    "bd_code": "BD",
-    "bd_short": "Het gemeentelijk patrimonium duurzaam beheren en vernieuwen.",
-    "bd_long": "Commentaar:",
-    "ap_code": "AP",
-    "ap_short": "Onderhoud en renovatie van gebouwen versnellen.",
-    "ap_long": "Commentaar:",
-    "ac_code": "ACT",
-    "ac_short": "Optimaliseren en vergroenen technische installaties.",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 7760500.0,
-    "amount_per_capita": 1544.34,
-    "yearly_amounts": {
-      "2026": 3429000.0,
-      "2027": 2407250.0,
-      "2028": 1090250.0,
-      "2029": 586500.0,
-      "2030": 108500.0,
-      "2031": 139000.0
-    },
-    "yearly_per_capita": {
-      "2026": 682.37,
-      "2027": 479.04,
-      "2028": 216.96,
-      "2029": 116.71,
-      "2030": 21.59,
-      "2031": 27.66
-    }
-  },
-  {
-    "municipality": "Alveringem",
-    "nis_code": "38002",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
@@ -48,10 +14,10 @@
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 4953181.0,
-    "amount_per_capita": 985.68,
+    "total_amount": 5745519.6,
+    "amount_per_capita": 1154.07,
     "yearly_amounts": {
-      "2026": 1478637.0,
+      "2026": 2270975.6,
       "2027": 1514920.0,
       "2028": 390257.0,
       "2029": 384834.0,
@@ -59,12 +25,1066 @@
       "2031": 634937.0
     },
     "yearly_per_capita": {
-      "2026": 294.25,
-      "2027": 301.47,
-      "2028": 77.66,
-      "2029": 76.58,
-      "2030": 109.37,
-      "2031": 126.35
+      "2026": 456.16,
+      "2027": 304.29,
+      "2028": 78.39,
+      "2029": 77.3,
+      "2030": 110.39,
+      "2031": 127.54
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-7",
+    "bd_short": "Klimaatadaptatie en duurzaamheid integreren in gemeentelijk beleid en beheer.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-15",
+    "ap_short": "Waterbeheer en klimaatadaptatie verbeteren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-32",
+    "ac_short": "Beveiliging Stavele en Leisele tegen overstromingen.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2300000.0,
+    "amount_per_capita": 461.99,
+    "yearly_amounts": {
+      "2026": 1150000.0,
+      "2027": 1150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 230.99,
+      "2027": 230.99,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-6",
+    "bd_short": "Een aantrekkelijke en functionele infrastructuur voor jeugdwerking en -activiteiten garanderen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-12",
+    "ap_short": "Gebruik, organisatie en verbinding van gemeentelijke sites optimaliseren met aandacht voor BOA.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-24",
+    "ac_short": "Vernieuwen site technische dienst.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 401.73,
+    "yearly_amounts": {
+      "2026": 2000000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 401.73,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-6",
+    "bd_short": "Een aantrekkelijke en functionele infrastructuur voor jeugdwerking en -activiteiten garanderen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-12",
+    "ap_short": "Gebruik, organisatie en verbinding van gemeentelijke sites optimaliseren met aandacht voor BOA.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-25",
+    "ac_short": "Blok 4 op de jeugdsite herbouwen naar de huidige noden.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 180.78,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 900000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 180.78,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-11",
+    "bd_short": "De leefkwaliteit en woonomgeving in de dorpen versterken.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-23",
+    "ap_short": "Ruimte voor gemeenschapsactiviteiten voorzien.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-51",
+    "ac_short": "Renovatie van pastorie Hoogstade tot gemeenschapszaal in een groene setting.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 100.43,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 100.43,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-8",
+    "bd_short": "Het gemeentelijk patrimonium duurzaam beheren en vernieuwen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-16",
+    "ap_short": "Onderhoud en renovatie van gebouwen versnellen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-36",
+    "ac_short": "Energetische, esthetische en functionele renovatie van zaal Leisele.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 352000.0,
+    "amount_per_capita": 70.7,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 352000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 70.7,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-12",
+    "bd_short": "Sportinfrastructuur verbeteren en sportparticipatie stimuleren.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-24",
+    "ap_short": "Sportinfrastructuur uitbreiden en moderniseren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-53",
+    "ac_short": "Bouwen van bijkomende kleedkamers en voorzien van nieuwe sportvloer in de sportzaal.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 350000.0,
+    "amount_per_capita": 70.3,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 350000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 70.3,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-15",
+    "bd_short": "Energiezuinige en structureel onderhouden infrastructuur voor het WZC en de assistentiewoningen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-27",
+    "ap_short": "Opmaak meerjarenonderhoudsplan met prioriteit op veiligheid, toegankelijkheid en comfort.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-61",
+    "ac_short": "Renovatiewerken in het WZC met focus op comfort en hygiëne (kamers, badkamers, leefruimtes, keuken).",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 140000.0,
+    "amount_per_capita": 28.12,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 15000.0,
+      "2028": 55000.0,
+      "2029": 0,
+      "2030": 70000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.01,
+      "2028": 11.05,
+      "2029": 0,
+      "2030": 14.06,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-8",
+    "bd_short": "Het gemeentelijk patrimonium duurzaam beheren en vernieuwen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-19",
+    "ap_short": "Investeren in duurzaam en functioneel rollend materieel.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-45",
+    "ac_short": "Vervangingsaankoop vrachtwagen met containersysteem en kraan ter ondersteuning van de techn. dienst.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 125000.0,
+    "amount_per_capita": 25.11,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 125000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 25.11,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-5",
+    "bd_short": "Een verzorgd en functioneel openbaar domein creëren en onderhouden.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-10",
+    "ap_short": "Publieke ruimte herinrichten en aantrekkelijk maken.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-20",
+    "ac_short": "Grondverwerving ter aanleg van een groene parking bij de kerk van Oeren.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 20.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 20.09,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-15",
+    "bd_short": "Energiezuinige en structureel onderhouden infrastructuur voor het WZC en de assistentiewoningen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-28",
+    "ap_short": "Verminderen van energieverbruik en ecologische voetafdruk binnen het WZC.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-62",
+    "ac_short": "Verledden van verlichting WZC.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 99000.0,
+    "amount_per_capita": 19.89,
+    "yearly_amounts": {
+      "2026": 6500.0,
+      "2027": 26500.0,
+      "2028": 16500.0,
+      "2029": 16500.0,
+      "2030": 16500.0,
+      "2031": 16500.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.31,
+      "2027": 5.32,
+      "2028": 3.31,
+      "2029": 3.31,
+      "2030": 3.31,
+      "2031": 3.31
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-6",
+    "bd_short": "Een aantrekkelijke en functionele infrastructuur voor jeugdwerking en -activiteiten garanderen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-12",
+    "ap_short": "Gebruik, organisatie en verbinding van gemeentelijke sites optimaliseren met aandacht voor BOA.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-23",
+    "ac_short": "Grondverwerving ikv doorgang jeugdsite, technische dienst en sportterrein ifv overlappend gebruik fa",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 18.08,
+    "yearly_amounts": {
+      "2026": 90000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-5",
+    "bd_short": "Een verzorgd en functioneel openbaar domein creëren en onderhouden.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-7",
+    "ap_short": "Onderhoud en netheid van het openbaar domein verbeteren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-14",
+    "ac_short": "Herinrichten van gemeentelijke begraafplaats Alveringem.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 15.06,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 75000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 15.06,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-8",
+    "bd_short": "Het gemeentelijk patrimonium duurzaam beheren en vernieuwen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-16",
+    "ap_short": "Onderhoud en renovatie van gebouwen versnellen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-37",
+    "ac_short": "Energetische renovatie van zaal De Moote.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 15.06,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 75000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 15.06,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-14",
+    "bd_short": "Rekrutering en retentie van een sterke personeelsequipe in het WZC.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-26",
+    "ap_short": "Aanbieden van aantrekkelijke werkomstandigheden in het WZC.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-59",
+    "ac_short": "Bouw van overdekte fietsenstalling met oplaadmogelijkheid bij het WZC.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 70000.0,
+    "amount_per_capita": 14.06,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 70000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 14.06,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-12",
+    "bd_short": "Sportinfrastructuur verbeteren en sportparticipatie stimuleren.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-24",
+    "ap_short": "Sportinfrastructuur uitbreiden en moderniseren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-52",
+    "ac_short": "Eerste voetbalterrein voorzien van ledverlichting.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 65000.0,
+    "amount_per_capita": 13.06,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 65000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 13.06
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-8",
+    "bd_short": "Het gemeentelijk patrimonium duurzaam beheren en vernieuwen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-16",
+    "ap_short": "Onderhoud en renovatie van gebouwen versnellen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-33",
+    "ac_short": "Optimaliseren en vergroenen technische installaties.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 12.05,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.01,
+      "2027": 2.01,
+      "2028": 2.01,
+      "2029": 2.01,
+      "2030": 2.01,
+      "2031": 2.01
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-1",
+    "bd_short": "Cultuur, erfgoed en toerisme als motor van gemeenschapsleven.",
+    "bd_long": "Kwalitatieve omschrijving:  We koesteren ons erfgoed en zetten cultuur en toerisme in als verbindende kracht tussen inwoners en bezoekers.",
+    "ap_code": "AP-1",
+    "ap_short": "Culturele evenementen vernieuwen en versterken.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-1",
+    "ac_short": "Herinrichting van het kerkje van Oeren als cultuurplek.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 55000.0,
+    "amount_per_capita": 11.05,
+    "yearly_amounts": {
+      "2026": 55000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-5",
+    "bd_short": "Een verzorgd en functioneel openbaar domein creëren en onderhouden.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-9",
+    "ap_short": "Wegenis en infrastructuur verbeteren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-17",
+    "ac_short": "Heraanleg van het voetpad ter hoogte van de Hoogstraat 24-27.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 10.04,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 10.04,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-6",
+    "bd_short": "Een aantrekkelijke en functionele infrastructuur voor jeugdwerking en -activiteiten garanderen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-12",
+    "ap_short": "Gebruik, organisatie en verbinding van gemeentelijke sites optimaliseren met aandacht voor BOA.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-26",
+    "ac_short": "Bouwen van skate-infrastructuur op de cluster jeugdsite-sport-technische dienst.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 10.04,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 10.04,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-8",
+    "bd_short": "Het gemeentelijk patrimonium duurzaam beheren en vernieuwen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-16",
+    "ap_short": "Onderhoud en renovatie van gebouwen versnellen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-34",
+    "ac_short": "Inzet op verdere inventarisatie en asbestsanering van het patrimonium.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 10.04,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 10.04,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-2",
+    "bd_short": "Jeugd – ruimte om te groeien.",
+    "bd_long": "Kwalitatieve omschrijving: We bieden kinderen en jongeren kansen om zich te ontplooien, te ontmoeten en te experimenteren in veilige, toegankelijke ruimtes.",
+    "ap_code": "AP-29",
+    "ap_short": "Inclusieve jeugdwerking versterken.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-65",
+    "ac_short": "Aankoop bus ter ondersteuning van kinderopvang, jeugdactiviteiten en scholen. (BOA-beleidsprio 1)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 8.03,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-14",
+    "bd_short": "Rekrutering en retentie van een sterke personeelsequipe in het WZC.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-26",
+    "ap_short": "Aanbieden van aantrekkelijke werkomstandigheden in het WZC.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-58",
+    "ac_short": "Inrichten van een nieuwe personeelsruimte in het WZC.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 35000.0,
+    "amount_per_capita": 7.03,
+    "yearly_amounts": {
+      "2026": 17500.0,
+      "2027": 8750.0,
+      "2028": 8750.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.52,
+      "2027": 1.76,
+      "2028": 1.76,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-15",
+    "bd_short": "Energiezuinige en structureel onderhouden infrastructuur voor het WZC en de assistentiewoningen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-27",
+    "ap_short": "Opmaak meerjarenonderhoudsplan met prioriteit op veiligheid, toegankelijkheid en comfort.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-60",
+    "ac_short": "Verplichte aanpassingen aan noodverlichting doorvoeren.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 5.02,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.01,
+      "2027": 3.01,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-15",
+    "bd_short": "Energiezuinige en structureel onderhouden infrastructuur voor het WZC en de assistentiewoningen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-28",
+    "ap_short": "Verminderen van energieverbruik en ecologische voetafdruk binnen het WZC.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-63",
+    "ac_short": "Optimalisatie van ventilatie en koeling binnenruimtes WZC.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 5.02,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-5",
+    "bd_short": "Een verzorgd en functioneel openbaar domein creëren en onderhouden.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-7",
+    "ap_short": "Onderhoud en netheid van het openbaar domein verbeteren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-12",
+    "ac_short": "Vervangen van de huidige straatnaamborden door een uniform, sober en eenvoudig te plaatsen model.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 5.02,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 5.02
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-8",
+    "bd_short": "Het gemeentelijk patrimonium duurzaam beheren en vernieuwen.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-16",
+    "ap_short": "Onderhoud en renovatie van gebouwen versnellen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-38",
+    "ac_short": "Functionele renovatie van sanitaire ruimte gemeenteschool.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 5.02,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-11",
+    "bd_short": "De leefkwaliteit en woonomgeving in de dorpen versterken.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-22",
+    "ap_short": "Woonkwaliteit en ruimtelijke ordening verbeteren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-50",
+    "ac_short": "Opwaarderen van de molensite te Leisele.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 22500.0,
+    "amount_per_capita": 4.52,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 22500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 4.52
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-12",
+    "bd_short": "Sportinfrastructuur verbeteren en sportparticipatie stimuleren.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-24",
+    "ap_short": "Sportinfrastructuur uitbreiden en moderniseren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-54",
+    "ac_short": "Bouwen van een sportkooi op cluster jeugdsite – sportterrein.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 3.01,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 15000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 3.01,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-4",
+    "bd_short": "Heldere communicatie en betrokken bestuur.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-5",
+    "ap_short": "Communicatie verbeteren en standaardiseren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-8",
+    "ac_short": "Ontwikkelen van een eenduidig communicatieplan en huisstijl voor het lokaal bestuur.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 3.01,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.01,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-5",
+    "bd_short": "Een verzorgd en functioneel openbaar domein creëren en onderhouden.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-10",
+    "ap_short": "Publieke ruimte herinrichten en aantrekkelijk maken.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-19",
+    "ac_short": "Aanleg van een groene parking op de hoek Bergenstraat – Roesbruggestraat.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 3.01,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.01,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Alveringem",
+    "nis_code": "38002",
+    "bd_code": "BD-7",
+    "bd_short": "Klimaatadaptatie en duurzaamheid integreren in gemeentelijk beleid en beheer.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-14",
+    "ap_short": "Energie-efficiëntie en duurzame mobiliteit bevorderen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-29",
+    "ac_short": "Fiets-onderhoudspunten inrichten.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 12000.0,
+    "amount_per_capita": 2.41,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 12000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2.41,
+      "2031": 0
     }
   }
 ]

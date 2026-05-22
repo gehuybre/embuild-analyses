@@ -2,69 +2,205 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
     "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
     "ap_code": "AP211",
     "ap_short": "Wegen, fiets- en voetpaden en gescheiden rioleringen",
     "ap_long": "AP211 - Wegen, fiets- en voetpaden en gescheiden rioleringen worden aangelegd met aandacht voor (verkeers)veiligheid en toegankelijkheid.",
-    "ac_code": "AP211",
+    "ac_code": "AP211_AC2110",
     "ac_short": "VBR + GIP Schansstraat",
     "ac_long": "VBR + GIP Schansstraat",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 12769203.0,
-    "amount_per_capita": 1602.78,
+    "total_amount": 3057174.84,
+    "amount_per_capita": 383.73,
     "yearly_amounts": {
-      "2026": 2622280.0,
-      "2027": 4126923.0,
-      "2028": 3210000.0,
-      "2029": 1560000.0,
+      "2026": 47751.84,
+      "2027": 1009423.0,
+      "2028": 2000000.0,
+      "2029": 0,
       "2030": 0,
-      "2031": 1250000.0
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 329.15,
-      "2027": 518.01,
-      "2028": 402.92,
-      "2029": 195.81,
+      "2026": 5.99,
+      "2027": 126.7,
+      "2028": 251.04,
+      "2029": 0,
       "2030": 0,
-      "2031": 156.9
+      "2031": 0
     }
   },
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "ap_code": "AP211",
+    "ap_short": "Wegen, fiets- en voetpaden en gescheiden rioleringen",
+    "ap_long": "AP211 - Wegen, fiets- en voetpaden en gescheiden rioleringen worden aangelegd met aandacht voor (verkeers)veiligheid en toegankelijkheid.",
+    "ac_code": "AP211_AC2116",
+    "ac_short": "VBR Halensebaan",
+    "ac_long": "VBR Halensebaan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2480000.0,
+    "amount_per_capita": 311.28,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 210000.0,
+      "2028": 710000.0,
+      "2029": 1560000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 26.36,
+      "2028": 89.12,
+      "2029": 195.81,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 4",
+    "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "ap_code": "AP211",
+    "ap_short": "Wegen, fiets- en voetpaden en gescheiden rioleringen",
+    "ap_long": "AP211 - Wegen, fiets- en voetpaden en gescheiden rioleringen worden aangelegd met aandacht voor (verkeers)veiligheid en toegankelijkheid.",
+    "ac_code": "AP211_AC2119",
+    "ac_short": "VBR Dries",
+    "ac_long": "VBR Dries",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2347501.4,
+    "amount_per_capita": 294.65,
+    "yearly_amounts": {
+      "2026": 1347501.4,
+      "2027": 1000000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 169.14,
+      "2027": 125.52,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 4",
+    "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "ap_code": "AP211",
+    "ap_short": "Wegen, fiets- en voetpaden en gescheiden rioleringen",
+    "ap_long": "AP211 - Wegen, fiets- en voetpaden en gescheiden rioleringen worden aangelegd met aandacht voor (verkeers)veiligheid en toegankelijkheid.",
+    "ac_code": "AP211_AC2113",
+    "ac_short": "GIP Wittebos, Leedse Vroente, Kerkstraat enTerbeck",
+    "ac_long": "GIP Wittebos, Leedse Vroente, Kerkstraat enTerbeck",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1946828.99,
+    "amount_per_capita": 244.36,
+    "yearly_amounts": {
+      "2026": 496828.99,
+      "2027": 1450000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 62.36,
+      "2027": 182.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 5",
     "bd_short": "BD22 - Toekomstgericht beheer gemeentelijk patrimonium",
     "bd_long": "BD22 - We beheren het gemeentelijk patrimonium duurzaam, efficiënt en toekomstgericht",
     "ap_code": "AP222",
     "ap_short": "Renovatie gemeentelijke gebouwen",
     "ap_long": "Gemeentelijke gebouwen en erfgoed worden gerenoveerd en/of gerestaureerd met aandacht voor energiezuinigheid, -efficiëntie en comfort.",
-    "ac_code": "AP222",
-    "ac_short": "Beheer gemeentelijk patrimonium",
-    "ac_long": "Het lokaal bestuur beheert zijn patrimonium. Hieronder is begrepen: asbestverwijdering, aanleg parking Vruenpark, plaatsing buitenberging Doddelberg, dakherstel kleuterschool, dak Den Berg, herstelwerken Bergendal,",
+    "ac_code": "AP222_AC2223",
+    "ac_short": "Beheer erfgoed patrimonium",
+    "ac_long": "Het lokaal bestuur beheert het erfgoedpatrimonium.\nHieronder is begrepen: de herbestemming van de kerk van Hoeleden, de acties van de IOED, aanpak kapel Sint-Rochus, ...",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 2101300.0,
-    "amount_per_capita": 263.75,
+    "total_amount": 1585000.0,
+    "amount_per_capita": 198.95,
     "yearly_amounts": {
-      "2026": 1871000.0,
-      "2027": 178300.0,
-      "2028": 12000.0,
-      "2029": 14000.0,
-      "2030": 12000.0,
-      "2031": 14000.0
+      "2026": 1585000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 234.85,
-      "2027": 22.38,
-      "2028": 1.51,
-      "2029": 1.76,
-      "2030": 1.51,
-      "2031": 1.76
+      "2026": 198.95,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 4",
+    "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "ap_code": "AP211",
+    "ap_short": "Wegen, fiets- en voetpaden en gescheiden rioleringen",
+    "ap_long": "AP211 - Wegen, fiets- en voetpaden en gescheiden rioleringen worden aangelegd met aandacht voor (verkeers)veiligheid en toegankelijkheid.",
+    "ac_code": "AP211_AC2117",
+    "ac_short": "VBR Schipbroek",
+    "ac_long": "VBR Schipbroek",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1450000.0,
+    "amount_per_capita": 182.0,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 200000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 1250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25.1,
+      "2029": 0,
+      "2030": 0,
+      "2031": 156.9
     }
   },
   {
@@ -73,27 +209,27 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "",
+    "ap_code": "overigBeleid",
     "ap_short": "overigBeleid",
     "ap_long": "overigBeleid",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1220373.0,
-    "amount_per_capita": 153.18,
+    "total_amount": 1350164.84,
+    "amount_per_capita": 169.47,
     "yearly_amounts": {
-      "2026": 291331.0,
+      "2026": 421122.99,
       "2027": 198502.0,
-      "2028": 225714.0,
-      "2029": 135997.0,
-      "2030": 175936.0,
-      "2031": 192893.0
+      "2028": 225714.23,
+      "2029": 135996.56,
+      "2030": 175935.89,
+      "2031": 192893.17
     },
     "yearly_per_capita": {
-      "2026": 36.57,
+      "2026": 52.86,
       "2027": 24.92,
       "2028": 28.33,
       "2029": 17.07,
@@ -104,22 +240,22 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 19",
     "bd_short": "Technische BD",
     "bd_long": "Technische BD",
     "ap_code": "AP99",
     "ap_short": "Technisch AP",
     "ap_long": "Technisch AP",
-    "ac_code": "AP99",
+    "ac_code": "AP99_1",
     "ac_short": "Technische actie 1",
     "ac_long": "Technische actie 1",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1002384.0,
-    "amount_per_capita": 125.82,
+    "total_amount": 1062452.0,
+    "amount_per_capita": 133.36,
     "yearly_amounts": {
-      "2026": 177064.0,
+      "2026": 237132.0,
       "2027": 177064.0,
       "2028": 162064.0,
       "2029": 162064.0,
@@ -127,7 +263,7 @@
       "2031": 162064.0
     },
     "yearly_per_capita": {
-      "2026": 22.22,
+      "2026": 29.76,
       "2027": 22.22,
       "2028": 20.34,
       "2029": 20.34,
@@ -138,13 +274,13 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 12",
     "bd_short": "BD33 - Kwalitatief vrijetijdsaanbod",
     "bd_long": "BD33 - We investeren in een kwalitatief vrijetijdsaanbod dat verbindt, versterkt en toegankelijk is voor iedereen",
     "ap_code": "AP331",
     "ap_short": "Recreatiesite voetbal",
     "ap_long": "Een ruimtelijke analyse van de recreatiesite in Kortenaken wordt uitgevoerd, waarna fase 1 van de planmatige ontwikkeling van de site is gestart",
-    "ac_code": "AP331",
+    "ac_code": "AP331_AC3311",
     "ac_short": "Onderzoek gedeelde infrastructuur voetbalsite",
     "ac_long": "We onderzoeken de mogelijkheden naar gedeelde infrastructuur voor jeugd, sport, cultuur en zorg op de voetbalsite.",
     "categories": [
@@ -172,22 +308,56 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "ap_code": "AP211",
+    "ap_short": "Wegen, fiets- en voetpaden en gescheiden rioleringen",
+    "ap_long": "AP211 - Wegen, fiets- en voetpaden en gescheiden rioleringen worden aangelegd met aandacht voor (verkeers)veiligheid en toegankelijkheid.",
+    "ac_code": "AP211_AC2118",
+    "ac_short": "VBR Waanrode",
+    "ac_long": "VBR Waanrode",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 806303.87,
+    "amount_per_capita": 101.21,
+    "yearly_amounts": {
+      "2026": 536303.87,
+      "2027": 270000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 67.32,
+      "2027": 33.89,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 6",
     "bd_short": "BD23 - Klimaatactieplan",
     "bd_long": "BD23 - We voeren het klimaatactieplan uit met concrete maatregelen voor energie en waterbeheer",
     "ap_code": "AP233",
     "ap_short": "Aanpak wateroverlast/droogte en schadelijke dieren/planten",
     "ap_long": "De nodige acties worden ondernomen om wateroverlast en droogteproblematiek maximaal (preventief) te beperken en de bestrijding van schadelijke dieren en planten wordt uitgevoerd.",
-    "ac_code": "AP233",
+    "ac_code": "AP233_AC2331",
     "ac_short": "Hemelwaterplan",
     "ac_long": "Er wordt ingezet op de uitvoering van het hemelwaterplan.",
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 643966.0,
-    "amount_per_capita": 80.83,
+    "total_amount": 669967.1,
+    "amount_per_capita": 84.09,
     "yearly_amounts": {
-      "2026": 116500.0,
+      "2026": 142501.1,
       "2027": 367466.0,
       "2028": 40000.0,
       "2029": 40000.0,
@@ -195,7 +365,7 @@
       "2031": 40000.0
     },
     "yearly_per_capita": {
-      "2026": 14.62,
+      "2026": 17.89,
       "2027": 46.12,
       "2028": 5.02,
       "2029": 5.02,
@@ -206,13 +376,13 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
     "bd_short": "BD11 - Toegankelijke dienstverlening",
     "bd_long": "BD11 - We verbeteren de fysieke en digitale toegankelijkheid van onze dienstverlening",
     "ap_code": "AP112",
     "ap_short": "Infrastructuur van het onthaal",
     "ap_long": "De infrastructuur aan het onthaal is aangepast met o.a. een klantgeleidingssysteem en snelbalie om de toegankelijkheid van de dienstverlening te verbeteren.",
-    "ac_code": "AP112",
+    "ac_code": "AP112_AC1121",
     "ac_short": "Vernieuwing infrastructuur onthaal gemeentehuis",
     "ac_long": "De infrastructuur van het onthaal in het gemeentehuis wordt gewijzigd en uitgebreid met een wachtruimte en een snelbalie",
     "categories": [
@@ -240,32 +410,32 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "BD22 - Toekomstgericht beheer gemeentelijk patrimonium",
     "bd_long": "BD22 - We beheren het gemeentelijk patrimonium duurzaam, efficiënt en toekomstgericht",
-    "ap_code": "AP221",
-    "ap_short": "Patrimoniumanalyse en -optimalisatie",
-    "ap_long": "Een patrimoniumanalyse wordt uitgevoerd om keuzes te maken inzake behouden, verkopen, verhuren en afstoten van patrimonium met oog op optimalisatie en goed beheer van ons patrimonium volgens de huidige normen.",
-    "ac_code": "AP221",
-    "ac_short": "Torendraaierssite Waanrode",
-    "ac_long": "De Torendraaierssite wordt verkocht en het plein wordt heraangelegd.",
+    "ap_code": "AP222",
+    "ap_short": "Renovatie gemeentelijke gebouwen",
+    "ap_long": "Gemeentelijke gebouwen en erfgoed worden gerenoveerd en/of gerestaureerd met aandacht voor energiezuinigheid, -efficiëntie en comfort.",
+    "ac_code": "AP222_AC2222",
+    "ac_short": "Beheer gemeentelijk patrimonium",
+    "ac_long": "Het lokaal bestuur beheert zijn patrimonium. Hieronder is begrepen: asbestverwijdering, aanleg parking Vruenpark, plaatsing buitenberging Doddelberg, dakherstel kleuterschool, dak Den Berg, herstelwerken Bergendal,",
     "categories": [
-      "06-wonen-ruimte"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 331000.0,
-    "amount_per_capita": 41.55,
+    "total_amount": 414300.0,
+    "amount_per_capita": 52.0,
     "yearly_amounts": {
-      "2026": 21000.0,
-      "2027": 0,
-      "2028": 310000.0,
+      "2026": 261000.0,
+      "2027": 153300.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.64,
-      "2027": 0,
-      "2028": 38.91,
+      "2026": 32.76,
+      "2027": 19.24,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -274,13 +444,183 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "ap_code": "AP211",
+    "ap_short": "Wegen, fiets- en voetpaden en gescheiden rioleringen",
+    "ap_long": "AP211 - Wegen, fiets- en voetpaden en gescheiden rioleringen worden aangelegd met aandacht voor (verkeers)veiligheid en toegankelijkheid.",
+    "ac_code": "AP211_AC2112",
+    "ac_short": "GIP Eindestraat, Halensebaan en Tiensesteenweg",
+    "ac_long": "GIP Eindestraat, Halensebaan en Tiensesteenweg",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 50.21,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 12.55,
+      "2028": 37.66,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 4",
+    "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "ap_code": "AP211",
+    "ap_short": "Wegen, fiets- en voetpaden en gescheiden rioleringen",
+    "ap_long": "AP211 - Wegen, fiets- en voetpaden en gescheiden rioleringen worden aangelegd met aandacht voor (verkeers)veiligheid en toegankelijkheid.",
+    "ac_code": "AP211_AC2115",
+    "ac_short": "GIP Boterbergstraat-dorp",
+    "ac_long": "GIP Boterbergstraat-dorp",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 377071.01,
+    "amount_per_capita": 47.33,
+    "yearly_amounts": {
+      "2026": 377071.01,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 47.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 5",
+    "bd_short": "BD22 - Toekomstgericht beheer gemeentelijk patrimonium",
+    "bd_long": "BD22 - We beheren het gemeentelijk patrimonium duurzaam, efficiënt en toekomstgericht",
+    "ap_code": "AP221",
+    "ap_short": "Patrimoniumanalyse en -optimalisatie",
+    "ap_long": "Een patrimoniumanalyse wordt uitgevoerd om keuzes te maken inzake behouden, verkopen, verhuren en afstoten van patrimonium met oog op optimalisatie en goed beheer van ons patrimonium volgens de huidige normen.",
+    "ac_code": "AP221_AC2213",
+    "ac_short": "Torendraaierssite Waanrode",
+    "ac_long": "De Torendraaierssite wordt verkocht en het plein wordt heraangelegd.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 271000.0,
+    "amount_per_capita": 34.02,
+    "yearly_amounts": {
+      "2026": 21000.0,
+      "2027": 0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.64,
+      "2027": 0,
+      "2028": 31.38,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 4",
+    "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "ap_code": "AP211",
+    "ap_short": "Wegen, fiets- en voetpaden en gescheiden rioleringen",
+    "ap_long": "AP211 - Wegen, fiets- en voetpaden en gescheiden rioleringen worden aangelegd met aandacht voor (verkeers)veiligheid en toegankelijkheid.",
+    "ac_code": "AP211_AC2111",
+    "ac_short": "Fietspad Hoeledensebaan",
+    "ac_long": "Fietspad Hoeledensebaan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 195000.0,
+    "amount_per_capita": 24.48,
+    "yearly_amounts": {
+      "2026": 107500.0,
+      "2027": 87500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.49,
+      "2027": 10.98,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 19",
+    "bd_short": "Technische BD",
+    "bd_long": "Technische BD",
+    "ap_code": "AP99",
+    "ap_short": "Technisch AP",
+    "ap_long": "Technisch AP",
+    "ac_code": "AP99_3",
+    "ac_short": "Technische actie 3",
+    "ac_long": "Technische actie 3",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 97751.12,
+    "amount_per_capita": 12.27,
+    "yearly_amounts": {
+      "2026": 97751.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 4",
     "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
     "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
     "ap_code": "AP213",
     "ap_short": "Verkeersveilige maatregelen",
     "ap_long": "Er worden verkeersveilige maatregelen geïmplementeerd op het grondgebied, zoals herinrichting veilige schoolomgevingen, fietspaden, ...",
-    "ac_code": "AP213",
+    "ac_code": "AP213_AC2131",
     "ac_short": "Verkeersveilige maatregelen",
     "ac_long": "Er worden verkeersveilige maatregelen geïmplementeerd op het grondgebied zoals herinrichting veilige schoolomgevingen, fietspaden, ....",
     "categories": [
@@ -308,47 +648,13 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
-    "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
-    "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
-    "ap_code": "AP212",
-    "ap_short": "Trage wegen",
-    "ap_long": "Trage wegen worden heringericht en verbeterd voor veilige mobiliteit van voetgangers en fietsers.",
-    "ac_code": "AP212",
-    "ac_short": "Trage wegen",
-    "ac_long": "Trage wegen worden heringericht en verbeterd voor veilige mobiliteit van voetgangers en fietsers.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 80000.0,
-    "amount_per_capita": 10.04,
-    "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 15000.0,
-      "2028": 15000.0,
-      "2029": 15000.0,
-      "2030": 10000.0,
-      "2031": 10000.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.88,
-      "2027": 1.88,
-      "2028": 1.88,
-      "2029": 1.88,
-      "2030": 1.26,
-      "2031": 1.26
-    }
-  },
-  {
-    "municipality": "Kortenaken",
-    "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 18",
     "bd_short": "BD45 - Veilige en betrouwbare ICT-omgeving",
     "bd_long": "BD45 - We voorzien een veilige en betrouwbare ICT-omgeving waarmee we de dagelijkse werking en de continuïteit van onze dienstverlening verzekeren.",
     "ap_code": "AP453",
     "ap_short": "Update van ICT-architectuur",
     "ap_long": "De ICT-architectuur is geüpdatet om de werking van interne systemen veilig en stabiel te houden.",
-    "ac_code": "AP453",
+    "ac_code": "AP453_AC4531",
     "ac_short": "Vernieuwing server",
     "ac_long": "We vernieuwen de serveromgeving.",
     "categories": [
@@ -376,13 +682,47 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD21 - Wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "bd_long": "BD21 - We zorgen voor veilige, duurzame en toegankelijke wegen, fiets- en voetpaden, en gescheiden rioleringen",
+    "ap_code": "AP212",
+    "ap_short": "Trage wegen",
+    "ap_long": "Trage wegen worden heringericht en verbeterd voor veilige mobiliteit van voetgangers en fietsers.",
+    "ac_code": "AP212_AC2121",
+    "ac_short": "Trage wegen",
+    "ac_long": "Trage wegen worden heringericht en verbeterd voor veilige mobiliteit van voetgangers en fietsers.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 10.04,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.88,
+      "2027": 1.88,
+      "2028": 1.88,
+      "2029": 1.88,
+      "2030": 1.26,
+      "2031": 1.26
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 13",
     "bd_short": "BD34 - Buitenschoolse Activiteiten en Opvang (BOA)",
     "bd_long": "BD34 - We investeren in samenhangende en kwaliteitsvolle buitenschoolse activiteiten en opvang door een sterke regierol en doelgerichte financiering en investering",
     "ap_code": "AP342",
     "ap_short": "BOA financierings- en investeringsplan",
     "ap_long": "Er is een financierings- en investeringsplan met Vlaamse subsidies en lokale middelen uitgewerkt en uitgevoerd.",
-    "ac_code": "AP342",
+    "ac_code": "AP342_AC3421",
     "ac_short": "Inzet BOA en boost subsidie",
     "ac_long": "Met de BOA- en boost subsidie en eigen financiering wordt er gewerkt aan een gevarieerd aanbod van buitenschoolse opvang en activiteiten voor alle kinderen.",
     "categories": [
@@ -410,13 +750,81 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
+    "bd_short": "BD22 - Toekomstgericht beheer gemeentelijk patrimonium",
+    "bd_long": "BD22 - We beheren het gemeentelijk patrimonium duurzaam, efficiënt en toekomstgericht",
+    "ap_code": "AP221",
+    "ap_short": "Patrimoniumanalyse en -optimalisatie",
+    "ap_long": "Een patrimoniumanalyse wordt uitgevoerd om keuzes te maken inzake behouden, verkopen, verhuren en afstoten van patrimonium met oog op optimalisatie en goed beheer van ons patrimonium volgens de huidige normen.",
+    "ac_code": "AP221_AC2214",
+    "ac_short": "Gebouw jongensschool Stok",
+    "ac_long": "Het gebouw van de jongensschool te Stok wordt verkocht en het plein ervoor wordt heraangelegd.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 7.53,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 60000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 7.53,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 5",
+    "bd_short": "BD22 - Toekomstgericht beheer gemeentelijk patrimonium",
+    "bd_long": "BD22 - We beheren het gemeentelijk patrimonium duurzaam, efficiënt en toekomstgericht",
+    "ap_code": "AP222",
+    "ap_short": "Renovatie gemeentelijke gebouwen",
+    "ap_long": "Gemeentelijke gebouwen en erfgoed worden gerenoveerd en/of gerestaureerd met aandacht voor energiezuinigheid, -efficiëntie en comfort.",
+    "ac_code": "AP222_AC2224",
+    "ac_short": "Beheer begraafplaatsen",
+    "ac_long": "Kortenaken onderhoudt, verfraait en vergroent zijn begraafplaatsen. Er wordt een inventaris gemaakt en periodiek gebeuren er ontknekelingen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 3.77,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.63,
+      "2027": 0.63,
+      "2028": 0.63,
+      "2029": 0.63,
+      "2030": 0.63,
+      "2031": 0.63
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 1",
     "bd_short": "BD11 - Toegankelijke dienstverlening",
     "bd_long": "BD11 - We verbeteren de fysieke en digitale toegankelijkheid van onze dienstverlening",
     "ap_code": "AP111",
     "ap_short": "Toegankelijke gemeentelijke gebouwen",
     "ap_long": "De gemeentelijke gebouwen zijn toegankelijk gemaakt voor minder mobiele personen.",
-    "ac_code": "AP111",
+    "ac_code": "AP111_AC1112",
     "ac_short": "Vervanging trap noodwoning",
     "ac_long": "De draaitrap in de noodwoning wordt vervangen door een veilige trap",
     "categories": [
@@ -444,13 +852,47 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 19",
+    "bd_short": "Technische BD",
+    "bd_long": "Technische BD",
+    "ap_code": "AP99",
+    "ap_short": "Technisch AP",
+    "ap_long": "Technisch AP",
+    "ac_code": "AP99_2",
+    "ac_short": "Technische actie 2",
+    "ac_long": "Technische actie 2",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 21243.36,
+    "amount_per_capita": 2.67,
+    "yearly_amounts": {
+      "2026": 21243.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.67,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 9",
     "bd_short": "BD31 - Verbondenheid in buurten, wijken en verenigingen",
     "bd_long": "BD31 - We versterken de verbondenheid in buurten, wijken en verenigingen via ontmoeting, samenwerking en regie",
     "ap_code": "AP311",
     "ap_short": "Publieke ruimte als ontmoetingsplaats",
     "ap_long": "De publieke ruimte is ingericht als plaats die ontmoeting en verbinding stimuleert.",
-    "ac_code": "AP311",
+    "ac_code": "AP311_AC3111",
     "ac_short": "Organiseren ruimte voor ontmoeting",
     "ac_long": "We zetten in op het plaatsen van infrastructuur en organiseren van evenementen om mensen bij mekaar te brengen.",
     "categories": [
@@ -478,13 +920,13 @@
   {
     "municipality": "Kortenaken",
     "nis_code": "24054",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "BD12 -  Heldere communicatie",
     "bd_long": "BD12 - We communiceren helder, herkenbaar, doelgericht en dichtbij de inwoners",
     "ap_code": "AP121",
     "ap_short": "Extern communicatieplan",
     "ap_long": "Er wordt een extern communicatieplan opgesteld en geïmplementeerd om de gemeentelijke communicatie richting de burger te stroomlijnen.",
-    "ac_code": "AP121",
+    "ac_code": "AP121_AC1213",
     "ac_short": "Digitale informatieschermen",
     "ac_long": "De informatiezuilen worden aangevuld met digitale schermen.",
     "categories": [
@@ -504,6 +946,40 @@
       "2026": 0,
       "2027": 0,
       "2028": 0.63,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortenaken",
+    "nis_code": "24054",
+    "bd_code": "BDS 19",
+    "bd_short": "Technische BD",
+    "bd_long": "Technische BD",
+    "ap_code": "AP99",
+    "ap_short": "Technisch AP",
+    "ap_long": "Technisch AP",
+    "ac_code": "AP99_4",
+    "ac_short": "Technische actie 4",
+    "ac_long": "Technische actie 4",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1324.95,
+    "amount_per_capita": 0.17,
+    "yearly_amounts": {
+      "2026": 1324.95,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.17,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0

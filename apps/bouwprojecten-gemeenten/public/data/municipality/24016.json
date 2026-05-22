@@ -2,35 +2,953 @@
   {
     "municipality": "Boutersem",
     "nis_code": "24016",
-    "bd_code": "BD",
+    "bd_code": "BD-01",
+    "bd_short": "Het LB bevordert duurzame mobiliteit en verkeersveiligheid.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0101",
+    "ap_short": "Het LB verhoogt de verkeersveiligheid.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-010101",
+    "ac_short": "Het LB zet in op kwaliteitsvolle mobiliteitsinfrastructuur.",
+    "ac_long": "Projecten:\n- Het LB zorgt voor de aanleg van een fietspad vanaf de Leuvensesteenweg tot aan het kruispunt Lubbeeksestraat, inclusief heraanleg van het wegdek.\n- Het LB zorgt voor de aanleg van een vrijliggend dubbelrichtingsfietspad vanaf de Lubbeeksestraat tot de aansluiting op het fietspad aan de bebouwde kom van Kerkom.\n- Het LB zorgt voor de realisatie van de fietssnelweg F24, in samenwerking met de provincie, tot aan het station van Vertrijk en zoekt mee naar opties voor het verdere traject.\n- Het LB brengt fietspaden en/of fietssuggestiestroken langs de Malendriesstraat aan, met aanpassing van het wegdek. \n- Het LB richt de wegenis in de zone Klein-Heidestraat – Ooienbergstraat – Katspoelstraat opnieuw in, inclusief fietssuggestiestroken tussen de Waversesteenweg en de grens met Bierbeek.\n- Het LB onderzoekt de mogelijkheid van fietsstraten.\n- Het LB overlegt met AWV en MOW om knelpunten op fietspaden langs gewestwegen aan te pakken, o.a. aan het op¬en afrittencomplex; hierbij wordt de verbinding via de Velpestraat/ Redingenstraat als alternatief onderzocht, met eventuele provinciale subsidie.\n- Het LB realiseert een alternatief fietspad vanaf de Neervelpsestraat parallel aan de Smidstraat tot aan Camerveld. \n- Het LB maakt een plan op voor bijkomende fietsstallingen op strategische locaties, met aandacht voor bakfietsen, e-bikes en speedpedelecs.\n- Het LB volgt de voorbereiding van de doortocht Roosbeek op.\n- Het LB creëert een veiligere schoolomgevingen voor zwakke weggebruikers, zowel via lokale verbeteringen als via deelname aan bovenlokale oproepen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 8056503.74,
+    "amount_per_capita": 931.91,
+    "yearly_amounts": {
+      "2026": 5766503.74,
+      "2027": 1670000.0,
+      "2028": 155000.0,
+      "2029": 155000.0,
+      "2030": 155000.0,
+      "2031": 155000.0
+    },
+    "yearly_per_capita": {
+      "2026": 667.02,
+      "2027": 193.17,
+      "2028": 17.93,
+      "2029": 17.93,
+      "2030": 17.93,
+      "2031": 17.93
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-02",
+    "bd_short": "Het LB onderhoudt en vernieuwt haar infrastructuur en patrimonium.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0202",
+    "ap_short": "Het LB zorgt voor een goed onderhouden omgevingsinfrastructuur.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-020202",
+    "ac_short": "Het LB zet in op en investeert in goed en duurzaam onderhoud van haar wegen en landbouwwegen.",
+    "ac_long": "Projecten:\n• Het LB pakt het onderhoud van de landbouwwegen en waterlopen gestructureerd aan.\n• Het LB overlegt met alle partners in het kader van de ruilverkaveling om tot werkbare oplossingen (akkerpalen, onderhoud,...) te komen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4621853.79,
+    "amount_per_capita": 534.62,
+    "yearly_amounts": {
+      "2026": 1075853.79,
+      "2027": 1096000.0,
+      "2028": 1520000.0,
+      "2029": 310000.0,
+      "2030": 310000.0,
+      "2031": 310000.0
+    },
+    "yearly_per_capita": {
+      "2026": 124.45,
+      "2027": 126.78,
+      "2028": 175.82,
+      "2029": 35.86,
+      "2030": 35.86,
+      "2031": 35.86
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-02",
+    "bd_short": "Het LB onderhoudt en vernieuwt haar infrastructuur en patrimonium.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0201",
+    "ap_short": "Het LB bekijkt haar globale patrimonium en welke investeringen zullen gebeuren deze legislatuur.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-020101",
+    "ac_short": "Het LB zet in op onderhoud en renovatie van haar erfgoed.",
+    "ac_long": "Projecten:\n• Het LB sluit aan bij Erfgoedstichting Vlaams Brabant (ERF), de intergemeentelijke Onroerende Erfgoed Dienst Zuid- Hageland (IOED) en de hierbij aansluitende Erfgoedcel.\n• Het LB brengt de haalbaarheid in kaart van een renovatie van het gemeentehuis in samenwerking met ERF, om dit zo te koppelen aan concrete acties en termijnen om zo tot een degelijke renovatie van het gemeentehuis te komen.\n• Het LB werkt samen met IOED voor onderhoud/ instandhoudingswerken van volgend erfgoed;\no kerkhofmuur Neervelp\no orgel Roosbeek\no dak kerk Butsel,\no pastorie Vertrijk\n• Het LB werkt verder aan de ontwijding van de kerken van Boutersem, Willebringen en Kerkom conform het kerkenbeleidsplan\nHet LB volgt nauwgezet en in overleg de meerjarenplanning van Kerkfabriek Heilige Maria Boutersem op.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 3702657.21,
+    "amount_per_capita": 428.29,
+    "yearly_amounts": {
+      "2026": 351950.22,
+      "2027": 867139.09,
+      "2028": 642931.25,
+      "2029": 613545.55,
+      "2030": 613545.55,
+      "2031": 613545.55
+    },
+    "yearly_per_capita": {
+      "2026": 40.71,
+      "2027": 100.3,
+      "2028": 74.37,
+      "2029": 70.97,
+      "2030": 70.97,
+      "2031": 70.97
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-00",
+    "bd_short": "Overig beleid",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0000",
+    "ap_short": "Overig beleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-000000",
+    "ac_short": "Overig beleid",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2056000.0,
+    "amount_per_capita": 237.82,
+    "yearly_amounts": {
+      "2026": 653500.0,
+      "2027": 328500.0,
+      "2028": 328500.0,
+      "2029": 248500.0,
+      "2030": 248500.0,
+      "2031": 248500.0
+    },
+    "yearly_per_capita": {
+      "2026": 75.59,
+      "2027": 38.0,
+      "2028": 38.0,
+      "2029": 28.74,
+      "2030": 28.74,
+      "2031": 28.74
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-02",
+    "bd_short": "Het LB onderhoudt en vernieuwt haar infrastructuur en patrimonium.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0201",
+    "ap_short": "Het LB bekijkt haar globale patrimonium en welke investeringen zullen gebeuren deze legislatuur.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-020102",
+    "ac_short": "Het LB werkt een beleidsplan uit voor socioculturele en administratieve infrastructuur.",
+    "ac_long": "Projecten:\n• Het LB renoveert buurthuis Willebringen.\n• Het LB renoveert buurthuis Kerkom - Boerenzaal.\n• Het LB handhaaft de bruikbaarheid van de gemeentelijke feestzaal tot minstens het einde van de bestuursperiode.\n• Het LB onderzoekt de mogelijkheden om de socioculturele functie van de kerk van Roosbeek te optimaliseren.\n• Het LB stelt een proactief, haalbaar investeringsplan op voor het patrimonium van en rond wijkschool Neervelp met aandacht voor de pastorietuin (uitgave voorzien onder ACT-040101).",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1990000.0,
+    "amount_per_capita": 230.19,
+    "yearly_amounts": {
+      "2026": 215000.0,
+      "2027": 835000.0,
+      "2028": 835000.0,
+      "2029": 35000.0,
+      "2030": 35000.0,
+      "2031": 35000.0
+    },
+    "yearly_per_capita": {
+      "2026": 24.87,
+      "2027": 96.59,
+      "2028": 96.59,
+      "2029": 4.05,
+      "2030": 4.05,
+      "2031": 4.05
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-09",
+    "bd_short": "Het LB zorgt voor een socio-cultureel, toeristisch en sportief aanbod.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0901",
+    "ap_short": "Het LB stimuleert sport en beweging.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-090101",
+    "ac_short": "Het LB zet in op kwaliteitsvolle sportinfrastructuur.",
+    "ac_long": "Projecten:\n• Het LB vernieuwt de toplaag van het kunstgrasveld.\n• Het LB plant aan de site Kerkomsesteenweg twee extra polyvalente terreinen (gras) met verlichting, dit in combinatie met de plaatsing van een containerkantine en afdak langs het kunstgrasveld.\n• Het LB analyseert het bestaande masterplan site Kerkomsesteenweg en waar nodig wordt dit uitgebreid en/of aangepast.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 756696.72,
+    "amount_per_capita": 87.53,
+    "yearly_amounts": {
+      "2026": 406696.72,
+      "2027": 10000.0,
+      "2028": 310000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 47.04,
+      "2027": 1.16,
+      "2028": 35.86,
+      "2029": 1.16,
+      "2030": 1.16,
+      "2031": 1.16
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-04",
+    "bd_short": "Het LB zorgt voor kwaliteitsvol onderwijs en kinderopvang.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0401",
+    "ap_short": "Het LB investeert in toegankelijk en kwaliteitsvol onderwijs.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-040101",
+    "ac_short": "Het LB streeft een veilige en kwaliteitsvolle gemeentelijke onderwijsomgeving na.",
+    "ac_long": "Projecten:\n• Het LB zorgt voor voldoende onderwijscapaciteit door o.a. een duidelijke visie inzake leerlingenaantal per leerkracht / klas in de gemeentelijke basisschool (GBB).\n• Het LB ondersteunt de GBB  in de noden van de klas, school en speelplaatsinfrastructuur door het ter beschikking stellen van technisch personeel, logistiek personeel, een onderwijsambtenaar en/of financiële ondersteuning\n• Het LB behoudt haar gemeentelijk onderwijs met hoofdvestiging Boutersem en de wijkschool in Neervelp.\n• Het LB en de directie van de GBB maken duidelijke wederzijdse afspraken rond inzet personeel en financiële middelen en samenwerking tussen de inrichtende macht en de directie van de school voor een onderwijsbeleid op maat.\n• Het LB investeert in nodige, moderne onderwijs- en ICT-middelen in het kader van Digiwijs.\n• Het LB coördineert de school op vlak van cyberveiligheid, GDPR, ...\nPersoneelskosten voor onderwijs zitten onder ACT-070101.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 717000.0,
+    "amount_per_capita": 82.94,
+    "yearly_amounts": {
+      "2026": 227500.0,
+      "2027": 255000.0,
+      "2028": 35000.0,
+      "2029": 92000.0,
+      "2030": 72500.0,
+      "2031": 35000.0
+    },
+    "yearly_per_capita": {
+      "2026": 26.32,
+      "2027": 29.5,
+      "2028": 4.05,
+      "2029": 10.64,
+      "2030": 8.39,
+      "2031": 4.05
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-08",
+    "bd_short": "Het LB werkt een preventief veiligheidsbeleid uit en zet in op bestuurlijke handhaving.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0801",
+    "ap_short": "Het LB versterkt het veilig beleid en bestuurlijke handhaving.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-080102",
+    "ac_short": "Het LB bouwt interne expertise op rond bestuurlijke handhaving.",
+    "ac_long": "Projecten:\n• Het LB herwerkt het GAS-reglement in overleg met de politiezone om een uniform reglement op te stellen.\n• Het LB bouwt een buurtinformatienetwerk (BIN) uit voor elke deelgemeente.\n• Het LB streeft naar het aanstellen van minstens één sanctionerend ambtenaar binnen het gemeentepersoneel.\n• Het LB is een intergemeentelijke samenwerking opgestart rond ‘een noodplanambtenaar’ die in dienst zal treden voor de vier gemeenten in de politiezone.\n• Het LB volgt de dotaties aan politie en brandweer nauwgezet op.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 653055.68,
+    "amount_per_capita": 75.54,
+    "yearly_amounts": {
+      "2026": 99952.45,
+      "2027": 105226.26,
+      "2028": 107857.42,
+      "2029": 110552.9,
+      "2030": 113316.73,
+      "2031": 116149.92
+    },
+    "yearly_per_capita": {
+      "2026": 11.56,
+      "2027": 12.17,
+      "2028": 12.48,
+      "2029": 12.79,
+      "2030": 13.11,
+      "2031": 13.44
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-06",
+    "bd_short": "Het LB zet sterk in op milieu en duurzaamheid.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0601",
+    "ap_short": "Het LB voert een biodivers, natuurinclusief en klimaatrobuust beleid.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-060106",
+    "ac_short": "Het LB wapent zich tegen klimaatverandering.",
+    "ac_long": "Projecten:\n• Het LB werkt verder aan de acties in het klimaatactieplan.\n• Het LB werkt verder aan de acties in het hemelwater – en droogteplan.\n• Het LB doet beroep op de provinciaal erosiecoördinator voor het bestrijden van erosie op haar grondgebied.\n• Het LB pakt de statistische sectoren met de grootste hittekwetsbaarheid als eerste aan en zoekt actief naar plekken om te ontharden en te vergroenen.\n• Het LB werkt haalbare acties in het kader van ‘Door en door Boutersem’ verder uit.\n• Het LB streeft ernaar minstens 4.000 m² bijkomend te ontharden tegen het einde van de legislatuur.\n• Het LB zoekt actief naar locaties die gebruikt kunnen worden om ruimte te geven aan water (voor aanleg bufferbekken, natuurlijk overstromingsgebied,...) en streeft naar minstens 2.000 m³ extra hemelwateropvang tegen het einde van de legislatuur.\n• Het LB ondersteunt het project Waterlandschap 2.0 of gelijkaardige projecten met dezelfde doelstelling (voorbeeld project Moergracht).",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 601788.24,
+    "amount_per_capita": 69.61,
+    "yearly_amounts": {
+      "2026": 331788.24,
+      "2027": 110000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 38.38,
+      "2027": 12.72,
+      "2028": 4.63,
+      "2029": 4.63,
+      "2030": 4.63,
+      "2031": 4.63
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-07",
+    "bd_short": "Het LB heeft een professionele dienstverlening in een veilige (digitale) omgeving.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0703",
+    "ap_short": "Het LB zorgt voor een optimale ICT-omgeving.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-070301",
+    "ac_short": "Het LB voorziet periodieke vervanging van de hardware in al haar werkomgevingen (inclusief de GBB).",
+    "ac_long": "Projecten:\n• Het LB voorziet in 2028 een nieuwe serveromgeving en netwerkinfrastructuur.\n• Het LB vervangt de werkstations op basis van het principe: de garantieperiode van het toestel +1 jaar.\n• Het LB onderzoekt of de toegangscontrole voor nieuwbouw GBB en polyvalente zaal ook kan doorgetrokken worden naar de sporthal.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 502600.0,
+    "amount_per_capita": 58.14,
+    "yearly_amounts": {
+      "2026": 46000.0,
+      "2027": 43500.0,
+      "2028": 295000.0,
+      "2029": 68600.0,
+      "2030": 28500.0,
+      "2031": 21000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.32,
+      "2027": 5.03,
+      "2028": 34.12,
+      "2029": 7.94,
+      "2030": 3.3,
+      "2031": 2.43
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-03",
+    "bd_short": "Het LB ontwikkelt een ruimtelijke totaalvisie.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0302",
+    "ap_short": "Het LB zet in op een gediversifieerd en kwaliteitsvol woonbeleid.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-030201",
+    "ac_short": "Het LB wenst een actieve rol op te nemen in het bindend sociaal objectief (BSO).",
+    "ac_long": "In 2025/2026 heerst er een problematiek in de overheveling tussen woonmaatschappijen Woontrots en Dijledal. De gemeente merkt dat de overdracht problemen veroorzaakt in het onderhoud van bestaande en de bouw van nieuwe woningen. Het gemeentebestuur neemt de problematiek op samen met de IGS Wonen aan de Velpe en probeert het onderhoud voor onze inwoners te verzekeren en de overdracht van woningen en projectgronden te versnellen.\nProjecten:\n• Het LB zoekt actief naar woningen/gronden die interessant kunnen zijn voor Dijledal om een project te realiseren.\n• Het LB onderzoekt de mogelijkheden tot een sociaal beheersrecht en/of een voorkooprecht om sociale woningen te realiseren in 2026 en gebruikt dit indien mogelijk vanaf 2028 als een werkbaar instrument.\n• Het LB realiseert minstens een nieuwe noodwoning in 2027.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 52.05,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 450000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 52.05,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-04",
+    "bd_short": "Het LB zorgt voor kwaliteitsvol onderwijs en kinderopvang.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0401",
+    "ap_short": "Het LB investeert in toegankelijk en kwaliteitsvol onderwijs.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-040104",
+    "ac_short": "Het LB investeert in flankerend onderwijsbeleid.",
+    "ac_long": "Er wordt dor het LB verder gegaan dan het wettelijk voorziene kader door te zorgen voor structureel overleg tussen de schoolnetten op haar grondgebied.\nProjecten:\n• Het LB faciliteert het gebruik van de gemeentelijke sportinfrastructuur voor de Mozaïek en GO! De Notelaar door het gratis ter beschikking stellen van aantal sporthaluren.\n• Het LB streeft naar het organiseren van één voetgangers- en fietsersexamen over de schoolnetten heen, ze werkt hiertoe samen met de drie scholen, de politie en vrijwilligers.\n• Het LB stelt diensten (zoals Technische dienst en dienst Onderwijs) ter beschikking volgens een duidelijk afsprakenkader (aantal uren per trimester of aantal projecten per jaar).\n• Het LB voorziet aan Go! De Notelaar de aanleg van de parking met kort parkeren rond het start -en einduur van de school, een afsluiting rond de speelplaats en een veilige trage verbinding richting Leuvensesteenweg- kredieten onder ACT-010101.\n• Het LB engageert zich om de Mozaïek te ondersteunen in hun aanvraag voor een nieuwbouw en bekijkt de mogelijkheid tot het integreren van de naschoolse opvang in het nieuwe gebouw.\n• Het LB organiseert huiswerkbegeleiding bij elk onderwijsnet ( Zie ook BD- 11).\n• Het LB sensibiliseert alle scholen tot het inrichten van groene speelplaatsen.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 46.27,
+    "yearly_amounts": {
+      "2026": 350000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 40.49,
+      "2027": 1.16,
+      "2028": 1.16,
+      "2029": 1.16,
+      "2030": 1.16,
+      "2031": 1.16
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-06",
+    "bd_short": "Het LB zet sterk in op milieu en duurzaamheid.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0602",
+    "ap_short": "Het LB zet in op de energietransitie.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-060201",
+    "ac_short": "Het LB verhoogt de energie-efficiëntie van haar eigen gebouwen.",
+    "ac_long": "Projecten:\n• Het LB haalt de EPB-verplichting rond aandeel hernieuwbare energie.\no voor NR-gebouwen tegen 2028.\no voor kNR-gebouwen tegen 2030.\n• Prioriteit ligt bij site Kerkomsesteenweg die enorm energie-intensief is (gemeentelijke basisschool, sporthal, CC,...).\n• Het LB wil waar mogelijk efficiënt elektrificeren van het eigen gemeentelijk wagenpark en vervoersmiddelen.\n• Het LB finaliseert de verledding van de straatverlichting.\n• Het LB wil waar mogelijk op openbare gebouwen zonnepanelen voorzien, eventueel in samenwerking met energiecoöperatieven.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 270000.0,
+    "amount_per_capita": 31.23,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 65000.0,
+      "2028": 45000.0,
+      "2029": 45000.0,
+      "2030": 45000.0,
+      "2031": 45000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.89,
+      "2027": 7.52,
+      "2028": 5.21,
+      "2029": 5.21,
+      "2030": 5.21,
+      "2031": 5.21
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-01",
+    "bd_short": "Het LB bevordert duurzame mobiliteit en verkeersveiligheid.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0102",
+    "ap_short": "Het LB ontwikkelt een visie omtrent duurzame mobiliteit.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-010202",
+    "ac_short": "Het LB werkt een bredere visie en actualisatie rond voetwegen en trage wegen uit.",
+    "ac_long": "Projecten:\n• Het LB maakt een prioriteitenplan voor voetwegen op.\n• Het LB zorgt voor de realisatie van een trage verbinding tussen de site van de assistentiewoningen en de Leuvensesteenweg.\n• Het LB zorgt voor het afschaffen van doodlopende voetwegen buiten het blok van Ruilverkaveling Willebringen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 20.82,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.25,
+      "2027": 2.31,
+      "2028": 2.31,
+      "2029": 2.31,
+      "2030": 2.31,
+      "2031": 2.31
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-06",
+    "bd_short": "Het LB zet sterk in op milieu en duurzaamheid.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0601",
+    "ap_short": "Het LB voert een biodivers, natuurinclusief en klimaatrobuust beleid.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-060101",
+    "ac_short": "Het LB voert een actief bebossings- en toegankelijkheidsbeleid",
+    "ac_long": "Projecten:\n• Het LB zet in op de verdere uitwerking van de samenwerkingsovereenkomst rond de zandgroeve in Kerkom.\n• Het LB gaat de samenwerkingsovereenkomst met de Bosgroep Vlaams-Brabant aan.\n• Het LB realiseert drie hectare bijkomend bos op haar grondgebied in deze legislatuur.\n• Het LB maakt groene zones in haar bezit of beheer zoveel als mogelijk publiek toegankelijk.\n• Het LB maakt natuurbeheersplannen op voor bossen en andere biodiverse gebieden die ze in beheer heeft.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 172500.0,
+    "amount_per_capita": 19.95,
+    "yearly_amounts": {
+      "2026": 22500.0,
+      "2027": 0,
+      "2028": 75000.0,
+      "2029": 0,
+      "2030": 75000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.6,
+      "2027": 0,
+      "2028": 8.68,
+      "2029": 0,
+      "2030": 8.68,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-01",
+    "bd_short": "Het LB bevordert duurzame mobiliteit en verkeersveiligheid.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0102",
+    "ap_short": "Het LB ontwikkelt een visie omtrent duurzame mobiliteit.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-010201",
+    "ac_short": "Het LB zet sterk in op duurzame mobiliteit.",
+    "ac_long": "Projecten:\n• Het LB gaat over tot de aankoop van meettoestellen om verkeerstellingen (voertuigen en fietsen) uit te voeren.\n• Het LB organiseert een inwonersbevraging (participatie) over openbare verlichting en dimbeleid waarna het – in samenwerking met Fluvius- een dimplan opmaakt voor de openbare verlichting.\n• Het LB actualiseert het mobiliteitsplan (inclusief snelheidsplan, zwaar vervoersplan en parkeerbeleidsplan).\n• Het LB onderzoekt het algemeen afschaffen van de voorrang van rechts.\n• Het LB bouwt het openbaar vervoer binnen de vervoersregio (bus, vervoer op maat) uit.\n• Het LB overlegt met de NMBS over opwaardering van het station van Vertrijk en de stationsomgeving.\n• Het LB onderzoekt naar locaties voor kleinere hoppinpunten (o.a. carpoolparking, site Kerkomsesteenweg, dorpskernen).\n• Het LB voorziet extra laadpunten voor elektrische wagens en fietsen op openbaar domein.\n• Het LB faciliteert infosessies over duurzame mobiliteit in samenwerking met externe partners\n• Het LB zorgt voor de bekendmaking van het Hoppinsysteem via gemeentelijke communicatiekanalen.\n• Het LB organiseert jaarlijks infoavonden over duurzaam verplaatsen en alternatieven voor de auto (via de bibliotheek).",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 168139.85,
+    "amount_per_capita": 19.45,
+    "yearly_amounts": {
+      "2026": 38139.85,
+      "2027": 40000.0,
+      "2028": 20000.0,
+      "2029": 30000.0,
+      "2030": 10000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.41,
+      "2027": 4.63,
+      "2028": 2.31,
+      "2029": 3.47,
+      "2030": 1.16,
+      "2031": 3.47
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-02",
+    "bd_short": "Het LB onderhoudt en vernieuwt haar infrastructuur en patrimonium.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0202",
+    "ap_short": "Het LB zorgt voor een goed onderhouden omgevingsinfrastructuur.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-020201",
+    "ac_short": "Het LB zet in op goed onderhouden groen.",
+    "ac_long": "Projecten:\n• Het LB werkt samen met externe partners voor het aanvullend onderhoud van het groen met aandacht voor de bepalingen in het bermbeheersplan, het bijenplan,…\n• Het LB onderhoudt het Domein van Kwabeek volgens plan.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 17.35,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.89,
+      "2027": 2.89,
+      "2028": 2.89,
+      "2029": 2.89,
+      "2030": 2.89,
+      "2031": 2.89
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-09",
+    "bd_short": "Het LB zorgt voor een socio-cultureel, toeristisch en sportief aanbod.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0902",
+    "ap_short": "Het LB maakt prioriteit van activiteiten voor kinderen en jongeren in eigen dorp.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-090201",
+    "ac_short": "Het LB zet in op kwaliteitsvolle speelinfrastructuur en buitenspeelruimte.",
+    "ac_long": "Projecten:\n• Het LB creëert een langetermijnvisie met betrekking tot buitenspeelruimte en speelbossen om niet enkel in te zetten op de infrastructuur op de site Kerkomsesteenweg, maar ook op kleinschalige ontmoetingsplekken en/of speeltuinen in elke deelgemeente. \n• Het LB installeert een ontmoetingsruimte aan het station (korfbalterreinen).\n• Het LB zorgt voor het periodiek onderhoud van de speelterreinen en - toestellen en waar nodig worden deze aangevuld of vernieuwd.\n• Het LB behoudt de participatiemogelijkheid voor de jonge inwoners om hun ideeën en voorkeuren aan te geven door bv: enquêtes of peilingen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 17.35,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.89,
+      "2027": 2.89,
+      "2028": 2.89,
+      "2029": 2.89,
+      "2030": 2.89,
+      "2031": 2.89
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-01",
+    "bd_short": "Het LB bevordert duurzame mobiliteit en verkeersveiligheid.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0101",
+    "ap_short": "Het LB verhoogt de verkeersveiligheid.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-010104",
+    "ac_short": "Het LB  zet verder in op veiligheid rond schoolomgevingen en schoolroutes en werkt hiervoor samen me",
+    "ac_long": "Projecten:\n• Het LB wil in overleg met en samen met AWV een alternatief uitwerken voor de lange zone 30 in de Stationsstraat/Smidstraat, na realisatie van het parallelle fietspad.\n• Het LB organiseert acties rond de Week van de Mobiliteit.\n• Het LB sensibiliseert rond dodehoekongevallen.\n• Het LB organiseert en ondersteunt fiets- en voetgangersexamens in samenwerking met de politie en de scholen.\n• Het LB zorgt voor het verbeteren van de toegang tot De Mozaïek in overleg met de school, met aandacht voor de verkeersveiligheid in de Oude Baan en Lubbeeksestraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 12.72,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 110000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 12.72,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-06",
+    "bd_short": "Het LB zet sterk in op milieu en duurzaamheid.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0601",
+    "ap_short": "Het LB voert een biodivers, natuurinclusief en klimaatrobuust beleid.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-060102",
+    "ac_short": "Het LB zet in op biodiversiteit.",
+    "ac_long": "Projecten:\n• Het LB benut de biodiversiteitskansen van begraafplaatsen, borders, bermen,... ten volle door een inheemse en diverse aanplant en een goed beheer.\n• Het LB ontwikkelt een beheersplan voor de bufferstroken die in het kader van de ruilverkaveling aan haar toegewezen zijn.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 11.57,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-02",
+    "bd_short": "Het LB onderhoudt en vernieuwt haar infrastructuur en patrimonium.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0202",
+    "ap_short": "Het LB zorgt voor een goed onderhouden omgevingsinfrastructuur.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-020203",
+    "ac_short": "Het LB werkt een visieplan ter opwaardering van de begraafplaatsen uit.",
+    "ac_long": "Projecten:\n• Het LB maakt - in overleg met de erkende partners- werk van:\no de aankoop van ruststoelen\no de structurele aanpak van het onderhoud met oog op duurzaamheid\no het herstel en de herinrichting van de columbaria\no de overgangsfase van grafzerk naar kopzerk",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 6.94,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.16,
+      "2027": 1.16,
+      "2028": 1.16,
+      "2029": 1.16,
+      "2030": 1.16,
+      "2031": 1.16
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-05",
+    "bd_short": "Het LB zet actief in op communicatie en participatie.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0502",
+    "ap_short": "Het LB zet in op geïnformeerde en participerende inwoners.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-050202",
+    "ac_short": "Het LB zet systemen op waardoor inwoners volwaardig kunnen participeren aan de besluitvorming.",
+    "ac_long": "Projecten:\n• Het LB lanceert een digitaal participatieplatform en zet dit vanaf 2026 in bij alle diensten om projecten af te toetsen bij de inwoners. Een participatiereflex wordt hierbij geïmplementeerd. Bij elk project moet participatie overwogen worden.\n• Het LB zorgt dat iemand van de diensten voldoende tijd krijgt om in te zetten op participatie vanaf 2026.\n• Het LB herwerkt en versterkt het burgerparticipatiereglement in 2026.\n• Het LB schept een kader voor de huishoudelijke reglementen van de verschillende adviesraden in 2026.\n• Het LB verdeelt Boutersem in verschillende buurten en stimuleert dat een buurtwerking ontstaat die de stem vertolkt van inwoners in die buurt.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 6.94,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.16,
+      "2027": 1.16,
+      "2028": 1.16,
+      "2029": 1.16,
+      "2030": 1.16,
+      "2031": 1.16
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-06",
+    "bd_short": "Het LB zet sterk in op milieu en duurzaamheid.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0601",
+    "ap_short": "Het LB voert een biodivers, natuurinclusief en klimaatrobuust beleid.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-060104",
+    "ac_short": "Het LB zet in op een schone omgeving.",
+    "ac_long": "Projecten:\n• Het LB organiseert opnieuw zwerfvuilacties en ondersteunt alle vaste zwerfvuilvrijwilligers.\n• Het LB stimuleert verenigingen en organisatoren om geen wegwerpmaterialen te gebruiken bij evenementen.\n• Het LB streeft naar een zo hoog mogelijke riolerings- en zuiveringsgraad.\n• Het LB voorziet ondergrondse glasbollen aan de site Kerkomsesteenweg.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 6.94,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.63,
+      "2027": 2.31,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-07",
+    "bd_short": "Het LB heeft een professionele dienstverlening in een veilige (digitale) omgeving.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0704",
+    "ap_short": "Het LB zet in op een toegankelijke organisatie.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-070401",
+    "ac_short": "Het LB optimaliseert haar (digitale) dienstverlening.",
+    "ac_long": "Projecten:\n• Het LB bouwt het e-loket en digitale dienstverlening verder uit.\n• Het LB organiseert een snelbalie aan het onthaal en verruimt deze functie naar andere diensten buiten burgerzaken.\n• Het LB installeert bij dienst Burgerzaken een moderne betaalmethode ter aanvulling van huidige bancontact.\n• Het LB voert een uitgebreider afsprakenbeheersysteem in voor de dienst Burgerzaken dat nadien ook voor andere diensten kan uitgerold worden.\n• Het LB implementeert digital signage op de ledschermen aan het CC, in de sporthal en inkomhal van het gemeentehuis om burgers te informeren en de lokale economie te ondersteunen via ‘reclameboodschappen'.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 58000.0,
+    "amount_per_capita": 6.71,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 18000.0,
+      "2028": 30000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.16,
+      "2027": 2.08,
+      "2028": 3.47,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-04",
+    "bd_short": "Het LB zorgt voor kwaliteitsvol onderwijs en kinderopvang.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0401",
+    "ap_short": "Het LB investeert in toegankelijk en kwaliteitsvol onderwijs.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-040105",
+    "ac_short": "Het LB biedt deeltijds kunstonderwijs aan.",
+    "ac_long": "Project:\n• Het LB behoudt haar intergemeentelijke samenwerking met Academie Regio Tienen (ART).",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 57000.0,
+    "amount_per_capita": 6.59,
+    "yearly_amounts": {
+      "2026": 9500.0,
+      "2027": 9500.0,
+      "2028": 9500.0,
+      "2029": 9500.0,
+      "2030": 9500.0,
+      "2031": 9500.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.1,
+      "2027": 1.1,
+      "2028": 1.1,
+      "2029": 1.1,
+      "2030": 1.1,
+      "2031": 1.1
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-05",
+    "bd_short": "Het LB zet actief in op communicatie en participatie.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0501",
+    "ap_short": "Het LB biedt een gemeentelijk communicatieaanbod aan dat beantwoordt aan de hedendaagse behoeften.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-050102",
+    "ac_short": "Het LB herwerkt de huisstijl en de visuele identiteit.",
+    "ac_long": "Projecten:\n• Het LB herstructureert de Info Boutersem en de gemeentelijke communicatie met focus op inwoners, dienstverlening en verbinding.\n• Het LB voorziet duidelijke visuele bewegwijzering op de gemeentelijke (sport)sites.\n• Het LB zet een extern bureau in voor een rebranding.\n• Het LB zorgt voor een lokale adaptatie van communicatiematerialen in samenwerkingen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 12000.0,
+    "amount_per_capita": 1.39,
+    "yearly_amounts": {
+      "2026": 2000.0,
+      "2027": 2000.0,
+      "2028": 2000.0,
+      "2029": 2000.0,
+      "2030": 2000.0,
+      "2031": 2000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.23,
+      "2027": 0.23,
+      "2028": 0.23,
+      "2029": 0.23,
+      "2030": 0.23,
+      "2031": 0.23
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-07",
+    "bd_short": "Het LB heeft een professionele dienstverlening in een veilige (digitale) omgeving.",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-0703",
+    "ap_short": "Het LB zorgt voor een optimale ICT-omgeving.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-070302",
+    "ac_short": "Het LB blijft inzetten op een veilige digitale omgeving.",
+    "ac_long": "Projecten:\n• Het LB maakt een cybernoodplan op.\n• Het LB zet verder in op ‘phishing awareness’ en cybersecurity.\n• Het LB blijft verder sensibiliseren via het jaarlijks aanbieden van informatiesessies (ook naar de inwoners) , lokale verenigingen en scholen.\n• Het LB maakt de burger meer bewust van mogelijke gevaren door gerichte informatieve (communicatie)campagnes: info Boutersem en online media.\n• Het LB biedt trainingssessies en workshops aan voor de werknemers en mandatarissen.\n• Het LB zet verder in op digitaal informatiebeheer in de organisatie.\n• Het LB voldoet aan de NIS2 normen.\n• Het LB implementeert ‘best practices’ voor cybersecurity ter verbetering van de netwerkveiligheid\n• Het LB houdt op regelmatige basis een nodige audit en evaluaties.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 1.16,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 10000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1.16,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Boutersem",
+    "nis_code": "24016",
+    "bd_code": "BD-11",
     "bd_short": "Het LB ontwikkelt een uitgebreid welzijns- en seniorenbeleid.",
     "bd_long": "Commentaar:",
-    "ap_code": "AP",
+    "ap_code": "AP-1102",
     "ap_short": "Senioren worden ondersteund om actief en mobiel te blijven.",
     "ap_long": "Commentaar:",
-    "ac_code": "ACT",
+    "ac_code": "ACT-110203",
     "ac_short": "Het LB zet in op mobiliteitskansen voor mensen die minder mobiel zijn.",
     "ac_long": "Projecten:\n• Het LB bouwt de mindermobielencentrale verder uit door in te zetten op bekendmaking bij potentiële vrijwilligers en bij potentiële gebruikers.\n• Het LB zet in op het gebruik van het openbaar vervoer:\no door gesprekken aan te gaan met De Lijn en NMBS om zoveel mogelijke openbaar vervoer te voorzien, niet enkel in het centrum maar ook in de andere deelgemeenten;\no bushaltes stelselmatig toegankelijk in te richten bij heraanleg van wegen;\no inwoners te informeren over het aanbod openbaar vervoer;\no de hiaten in het vervoersaanbod zoveel als mogelijk trachten zelf in te vullen door bv. meerijbanken,...;\no door in te zetten op toegankelijkheid in eigen patrimonium en initiatieven te nemen",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 25369813.0,
-    "amount_per_capita": 2936.94,
+    "total_amount": 5800.0,
+    "amount_per_capita": 0.67,
     "yearly_amounts": {
-      "2026": 9160102.0,
-      "2027": 6134865.0,
-      "2028": 4556588.0,
-      "2029": 1879699.0,
-      "2030": 1867863.0,
-      "2031": 1770696.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 5800.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1060.42,
-      "2027": 710.2,
-      "2028": 527.49,
-      "2029": 217.6,
-      "2030": 216.23,
-      "2031": 204.99
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.67,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

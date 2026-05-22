@@ -2,35 +2,35 @@
   {
     "municipality": "Meise",
     "nis_code": "23050",
-    "bd_code": "BDS",
-    "bd_short": "BD6  Financieel gezond, klantgericht, efficiënt",
-    "bd_long": "Meise werkt als een wendbare, klantgerichte en financieel gezonde organisatie aan de toekomst",
-    "ap_code": "AP",
-    "ap_short": "Slim organiseren",
-    "ap_long": "We organiseren onze gemeente slim en hanteren een gezond financiëel beheer",
-    "ac_code": "AP",
-    "ac_short": "Kerkenbeleidsplan",
-    "ac_long": "We rollen het kerkenbeleidsplan uit en zetten in op een intensieve valorisatie  in de vorm van een nevenbestemming van alle kerkgebouwen met een gemeenschaps- of verenigingsdoel",
+    "bd_code": "BDS 2",
+    "bd_short": "BD2  Groene, nette, aangename gemeente",
+    "bd_long": "Meise bestendigt en versterkt haar groene karakter, klimaatbestendigheid en dierenwelzijn",
+    "ap_code": "AP 2.3",
+    "ap_short": "Proper,groen en klimaatbestendig",
+    "ap_long": "We zetten in op een proper, groen en klimaatbestendige infrastructuur",
+    "ac_code": "AP 2.3_AC 2.3.2",
+    "ac_short": "Rioleringsprojecten",
+    "ac_long": "De rioleringsprojecten worden uitgevoerd in kader van het hemel- en afvalwaterplan",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "03-natuur-milieu"
     ],
-    "total_amount": 38354701.0,
-    "amount_per_capita": 1832.62,
+    "total_amount": 17162398.03,
+    "amount_per_capita": 820.7,
     "yearly_amounts": {
-      "2026": 5900885.0,
-      "2027": 10757021.0,
-      "2028": 8212015.0,
-      "2029": 6860460.0,
-      "2030": 5504320.0,
-      "2031": 1120000.0
+      "2026": 5851042.03,
+      "2027": 5720361.0,
+      "2028": 1514715.0,
+      "2029": 1548760.0,
+      "2030": 2327520.0,
+      "2031": 200000.0
     },
     "yearly_per_capita": {
-      "2026": 281.95,
-      "2027": 513.98,
-      "2028": 392.38,
-      "2029": 327.8,
-      "2030": 263.0,
-      "2031": 53.51
+      "2026": 279.79,
+      "2027": 273.54,
+      "2028": 72.43,
+      "2029": 74.06,
+      "2030": 111.3,
+      "2031": 9.56
     }
   },
   {
@@ -39,32 +39,814 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "",
+    "ap_code": "overigBeleid",
     "ap_short": "overigBeleid",
     "ap_long": "overigBeleid",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 12958630.0,
-    "amount_per_capita": 619.18,
+    "total_amount": 16573785.6,
+    "amount_per_capita": 792.55,
     "yearly_amounts": {
-      "2026": 6533304.0,
-      "2027": 3552388.0,
-      "2028": 821817.0,
-      "2029": 547304.0,
-      "2030": 1000353.0,
-      "2031": 503464.0
+      "2026": 10148459.14,
+      "2027": 3552387.79,
+      "2028": 821816.79,
+      "2029": 547304.37,
+      "2030": 1000353.46,
+      "2031": 503464.05
     },
     "yearly_per_capita": {
-      "2026": 312.17,
-      "2027": 169.74,
-      "2028": 39.27,
-      "2029": 26.15,
-      "2030": 47.8,
-      "2031": 24.06
+      "2026": 485.29,
+      "2027": 169.87,
+      "2028": 39.3,
+      "2029": 26.17,
+      "2030": 47.84,
+      "2031": 24.08
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 4",
+    "bd_short": "BD4  Bruisende gemeente",
+    "bd_long": "Meise investeert in een bruisend gemeenschapsleven en maakt ruimte voor ontmoeting, cultuur en sport",
+    "ap_code": "AP 4.5",
+    "ap_short": "Sport- en sportinfrastructuur",
+    "ap_long": "We investeren in sport- en sportinfrastructuur en maken deze toegankelijk voor alle doelgroepen",
+    "ac_code": "AP 4.5_AC 4.5.5",
+    "ac_short": "opwaardering van de sportschuur",
+    "ac_long": "We realiseren een nieuwe sporthal met oog op multifunctioneel gebruik",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 5524116.21,
+    "amount_per_capita": 264.16,
+    "yearly_amounts": {
+      "2026": 24116.21,
+      "2027": 0,
+      "2028": 157300.0,
+      "2029": 3142700.0,
+      "2030": 2200000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.15,
+      "2027": 0,
+      "2028": 7.52,
+      "2029": 150.28,
+      "2030": 105.2,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 6",
+    "bd_short": "BD6  Financieel gezond, klantgericht, efficiënt",
+    "bd_long": "Meise werkt als een wendbare, klantgerichte en financieel gezonde organisatie aan de toekomst",
+    "ap_code": "AP 6.2",
+    "ap_short": "Patrimoniumbeheer",
+    "ap_long": "We zorgen voor een effectief en duurzaam patrimoniumbeheer",
+    "ac_code": "AP 6.2_AC 6.2.2",
+    "ac_short": "de loods",
+    "ac_long": "We richten de loods functioneler, efficiënter en duurzamer in",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 4832125.77,
+    "amount_per_capita": 231.07,
+    "yearly_amounts": {
+      "2026": 3182125.77,
+      "2027": 1650000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 152.17,
+      "2027": 78.9,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 1",
+    "bd_short": "BD1  Veilige buurt",
+    "bd_long": "Meise zorgt voor veilige en vlot bereikbare buurten en dorpskernen",
+    "ap_code": "AP 1.4",
+    "ap_short": "Schoolomgevingen",
+    "ap_long": "We creëren veilige en toegankelijke schoolomgevingen voor kinderen, ouders en buurtbewoners",
+    "ac_code": "AP 1.4_AC 1.4.1",
+    "ac_short": "schoolomgevingen",
+    "ac_long": "De schoolomgevingen in Westrode, Sint-Brixius en Meise worden onderzocht en bijgestuurd met oog op verkeersveiligheid",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4035567.32,
+    "amount_per_capita": 192.98,
+    "yearly_amounts": {
+      "2026": 235567.32,
+      "2027": 800000.0,
+      "2028": 3000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.26,
+      "2027": 38.26,
+      "2028": 143.46,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 1",
+    "bd_short": "BD1  Veilige buurt",
+    "bd_long": "Meise zorgt voor veilige en vlot bereikbare buurten en dorpskernen",
+    "ap_code": "AP 1.3",
+    "ap_short": "Duurzame mobiliteit",
+    "ap_long": "We bevorderen het gebruik van duurzame mobiliteit",
+    "ac_code": "AP 1.3_AC 1.3.2",
+    "ac_short": "Fiets- en voetpaden",
+    "ac_long": "De fiets- en voetpaden worden onderhouden en hersteld of vernieuwd op basis van een prioriteitenlijst. Wij bouwen hier ook een toegankelijkheidsreflex in",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3560341.01,
+    "amount_per_capita": 170.25,
+    "yearly_amounts": {
+      "2026": 1060341.01,
+      "2027": 500000.0,
+      "2028": 500000.0,
+      "2029": 500000.0,
+      "2030": 500000.0,
+      "2031": 500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 50.7,
+      "2027": 23.91,
+      "2028": 23.91,
+      "2029": 23.91,
+      "2030": 23.91,
+      "2031": 23.91
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 6",
+    "bd_short": "BD6  Financieel gezond, klantgericht, efficiënt",
+    "bd_long": "Meise werkt als een wendbare, klantgerichte en financieel gezonde organisatie aan de toekomst",
+    "ap_code": "AP 6.2",
+    "ap_short": "Patrimoniumbeheer",
+    "ap_long": "We zorgen voor een effectief en duurzaam patrimoniumbeheer",
+    "ac_code": "AP 6.2_AC 6.2.3",
+    "ac_short": "Cultuurhuis",
+    "ac_long": "We renoveren en herbestemmen het Cultuurhuis",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2500000.0,
+    "amount_per_capita": 119.55,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 1250000.0,
+      "2029": 1150000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.39,
+      "2027": 2.39,
+      "2028": 59.77,
+      "2029": 54.99,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 2",
+    "bd_short": "BD2  Groene, nette, aangename gemeente",
+    "bd_long": "Meise bestendigt en versterkt haar groene karakter, klimaatbestendigheid en dierenwelzijn",
+    "ap_code": "AP 2.3",
+    "ap_short": "Proper,groen en klimaatbestendig",
+    "ap_long": "We zetten in op een proper, groen en klimaatbestendige infrastructuur",
+    "ac_code": "AP 2.3_AC 2.3.8",
+    "ac_short": "de dorpskernen",
+    "ac_long": "We creëren bijkomende rustmogelijkheden (duurzame zitbanken) en vergroenen de dorpskernen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2150000.0,
+    "amount_per_capita": 102.81,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 1000000.0,
+      "2028": 1000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.17,
+      "2027": 47.82,
+      "2028": 47.82,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 6",
+    "bd_short": "BD6  Financieel gezond, klantgericht, efficiënt",
+    "bd_long": "Meise werkt als een wendbare, klantgerichte en financieel gezonde organisatie aan de toekomst",
+    "ap_code": "AP 6.2",
+    "ap_short": "Patrimoniumbeheer",
+    "ap_long": "We zorgen voor een effectief en duurzaam patrimoniumbeheer",
+    "ac_code": "AP 6.2_AC 6.2.1",
+    "ac_short": "gemeentelijk patrimonium",
+    "ac_long": "We stellen een onderhoudsplan voor het gemeentelijk patrimonium op",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2115345.49,
+    "amount_per_capita": 101.15,
+    "yearly_amounts": {
+      "2026": 515345.49,
+      "2027": 320000.0,
+      "2028": 320000.0,
+      "2029": 320000.0,
+      "2030": 320000.0,
+      "2031": 320000.0
+    },
+    "yearly_per_capita": {
+      "2026": 24.64,
+      "2027": 15.3,
+      "2028": 15.3,
+      "2029": 15.3,
+      "2030": 15.3,
+      "2031": 15.3
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 2",
+    "bd_short": "BD2  Groene, nette, aangename gemeente",
+    "bd_long": "Meise bestendigt en versterkt haar groene karakter, klimaatbestendigheid en dierenwelzijn",
+    "ap_code": "AP 2.3",
+    "ap_short": "Proper,groen en klimaatbestendig",
+    "ap_long": "We zetten in op een proper, groen en klimaatbestendige infrastructuur",
+    "ac_code": "AP 2.3_AC 2.3.3",
+    "ac_short": "bufferbekkens",
+    "ac_long": "We creëren ruimte voor water, o.a. door de aanleg van bufferbekkens (Heimbeekveld en 's Herenweg)",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 350000.0,
+    "amount_per_capita": 16.74,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 350000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 16.74,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 2",
+    "bd_short": "BD2  Groene, nette, aangename gemeente",
+    "bd_long": "Meise bestendigt en versterkt haar groene karakter, klimaatbestendigheid en dierenwelzijn",
+    "ap_code": "AP 2.3",
+    "ap_short": "Proper,groen en klimaatbestendig",
+    "ap_long": "We zetten in op een proper, groen en klimaatbestendige infrastructuur",
+    "ac_code": "AP 2.3_AC 2.3.4",
+    "ac_short": "Begraafplaatsen",
+    "ac_long": "De (natuur) begraafplaats(en) worden geoptimaliseerd en duurzaam heringericht met aandacht voor toegankelijkheid, indeling en doorsijpeling van hemelwater",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 321046.42,
+    "amount_per_capita": 15.35,
+    "yearly_amounts": {
+      "2026": 261046.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 60000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.48,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2.87,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 2",
+    "bd_short": "BD2  Groene, nette, aangename gemeente",
+    "bd_long": "Meise bestendigt en versterkt haar groene karakter, klimaatbestendigheid en dierenwelzijn",
+    "ap_code": "AP 2.3",
+    "ap_short": "Proper,groen en klimaatbestendig",
+    "ap_long": "We zetten in op een proper, groen en klimaatbestendige infrastructuur",
+    "ac_code": "AP 2.3_AC 2.3.9",
+    "ac_short": "onthardingsmogelijkheden",
+    "ac_long": "We zoeken actief op naar onthardingsmogelijkheden op het openbaar domein en moedigen de burger aan om hetzelfde te doen op het eigen perceel",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 14.35,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.39,
+      "2027": 2.39,
+      "2028": 2.39,
+      "2029": 2.39,
+      "2030": 2.39,
+      "2031": 2.39
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 4",
+    "bd_short": "BD4  Bruisende gemeente",
+    "bd_long": "Meise investeert in een bruisend gemeenschapsleven en maakt ruimte voor ontmoeting, cultuur en sport",
+    "ap_code": "AP 4.5",
+    "ap_short": "Sport- en sportinfrastructuur",
+    "ap_long": "We investeren in sport- en sportinfrastructuur en maken deze toegankelijk voor alle doelgroepen",
+    "ac_code": "AP 4.5_AC 4.5.4",
+    "ac_short": "sportsite De Nekker",
+    "ac_long": "Een nieuwe visie betreft sportsite De Nekker wordt opgemaakt i.s.m. de sportclubs",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 14.35,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 14.35,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 6",
+    "bd_short": "BD6  Financieel gezond, klantgericht, efficiënt",
+    "bd_long": "Meise werkt als een wendbare, klantgerichte en financieel gezonde organisatie aan de toekomst",
+    "ap_code": "AP 6.1",
+    "ap_short": "Slim organiseren",
+    "ap_long": "We organiseren onze gemeente slim en hanteren een gezond financiëel beheer",
+    "ac_code": "AP 6.1_AC 6.1.1",
+    "ac_short": "Kerkenbeleidsplan",
+    "ac_long": "We rollen het kerkenbeleidsplan uit en zetten in op een intensieve valorisatie  in de vorm van een nevenbestemming van alle kerkgebouwen met een gemeenschaps- of verenigingsdoel",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 14.35,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.39,
+      "2027": 2.39,
+      "2028": 2.39,
+      "2029": 2.39,
+      "2030": 2.39,
+      "2031": 2.39
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 4",
+    "bd_short": "BD4  Bruisende gemeente",
+    "bd_long": "Meise investeert in een bruisend gemeenschapsleven en maakt ruimte voor ontmoeting, cultuur en sport",
+    "ap_code": "AP 4.4",
+    "ap_short": "Jongeren",
+    "ap_long": "We zorgen voor een inspirerende en dynamische omgeving voor jongeren, waar zij zich kunnen ontwikkelen, ontmoeten en participeren",
+    "ac_code": "AP 4.4_AC 4.4.1",
+    "ac_short": "plan jeugdinfrastructuur",
+    "ac_long": "Plan jeugdinfrastructuur Meise Centrum",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 175000.0,
+    "amount_per_capita": 8.37,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 175000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 8.37,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 1",
+    "bd_short": "BD1  Veilige buurt",
+    "bd_long": "Meise zorgt voor veilige en vlot bereikbare buurten en dorpskernen",
+    "ap_code": "AP 1.2",
+    "ap_short": "Dorpskernen",
+    "ap_long": "We verbeteren de bereikbaarheid en toegankelijkheid van de dorpskernen",
+    "ac_code": "AP 1.2_AC 1.2.3",
+    "ac_short": "circulatieplan",
+    "ac_long": "Het circulatieplan voor centrum Wolvertem wordt geoptimaliseerd en uitgerold",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 5.26,
+    "yearly_amounts": {
+      "2026": 65000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.11,
+      "2027": 0.72,
+      "2028": 0.72,
+      "2029": 0.72,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 1",
+    "bd_short": "BD1  Veilige buurt",
+    "bd_long": "Meise zorgt voor veilige en vlot bereikbare buurten en dorpskernen",
+    "ap_code": "AP 1.3",
+    "ap_short": "Duurzame mobiliteit",
+    "ap_long": "We bevorderen het gebruik van duurzame mobiliteit",
+    "ac_code": "AP 1.3_AC 1.3.3",
+    "ac_short": "slimme verkeerslichten",
+    "ac_long": "De locaties voor slimme verkeerslichten worden gededecteerd en de lichten werden geïnstalleerd",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 4.3,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.39,
+      "2027": 0,
+      "2028": 0.96,
+      "2029": 0.96,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 2",
+    "bd_short": "BD2  Groene, nette, aangename gemeente",
+    "bd_long": "Meise bestendigt en versterkt haar groene karakter, klimaatbestendigheid en dierenwelzijn",
+    "ap_code": "AP 2.1",
+    "ap_short": "Natuur dichterbij",
+    "ap_long": "We brengen de natuur dichter bij de Meisenaar door ingrepen in de openbare ruimte",
+    "ac_code": "AP 2.1_AC 2.1.1",
+    "ac_short": "park Neromhof",
+    "ac_long": "Het park Neromhof wordt uitgebreid op basis van het beheerplan Neromhof",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 63000.0,
+    "amount_per_capita": 3.01,
+    "yearly_amounts": {
+      "2026": 14000.0,
+      "2027": 0,
+      "2028": 25000.0,
+      "2029": 4000.0,
+      "2030": 20000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.67,
+      "2027": 0,
+      "2028": 1.2,
+      "2029": 0.19,
+      "2030": 0.96,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 5",
+    "bd_short": "BD5  Zorg voor iedereen",
+    "bd_long": "Meise bouwt aan een zorgzame en gemeente waar iedereen kwaliteitsvol kan leren, wonen en leven",
+    "ap_code": "AP 5.2",
+    "ap_short": "Betaalbaar woonaanbod",
+    "ap_long": "We zetten in op een betaalbaar woonaanbod",
+    "ac_code": "AP 5.2_AC 5.2.1",
+    "ac_short": "het behalen van het BSO",
+    "ac_long": "In samenwerking met het Vlaams Woonanker onderzoeken we welke sites zich aandienen voor de realisatie van het BSO",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 2.39,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 4",
+    "bd_short": "BD4  Bruisende gemeente",
+    "bd_long": "Meise investeert in een bruisend gemeenschapsleven en maakt ruimte voor ontmoeting, cultuur en sport",
+    "ap_code": "AP 4.5",
+    "ap_short": "Sport- en sportinfrastructuur",
+    "ap_long": "We investeren in sport- en sportinfrastructuur en maken deze toegankelijk voor alle doelgroepen",
+    "ac_code": "AP 4.5_AC 4.5.3",
+    "ac_short": "optimaliseren het gebruik van het zwembad",
+    "ac_long": "We optimaliseren het gebruik van het zwembad en zetten in op extra beleving voor gezinnen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 35000.0,
+    "amount_per_capita": 1.67,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 35000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 1.67,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 1",
+    "bd_short": "BD1  Veilige buurt",
+    "bd_long": "Meise zorgt voor veilige en vlot bereikbare buurten en dorpskernen",
+    "ap_code": "AP 1.1",
+    "ap_short": "Veiligheidsgevoel",
+    "ap_long": "We implementeren slimme veiligheidstechnologieën en preventieve maatregelen om het veiligheidsgevoel te versterken",
+    "ac_code": "AP 1.1_AC 1.1.1",
+    "ac_short": "Camerabeleid",
+    "ac_long": "We analyseren en optimaliseren het huidige camerabeleid- en systemen en breiden uit waar nodig",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 33916.16,
+    "amount_per_capita": 1.62,
+    "yearly_amounts": {
+      "2026": 33916.16,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.62,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 4",
+    "bd_short": "BD4  Bruisende gemeente",
+    "bd_long": "Meise investeert in een bruisend gemeenschapsleven en maakt ruimte voor ontmoeting, cultuur en sport",
+    "ap_code": "AP 4.2",
+    "ap_short": "Evenementen",
+    "ap_long": "We organiseren en ondersteunen evenementen die bijdragen aan een levendige en inclusieve gemeenschap in Meise",
+    "ac_code": "AP 4.2_AC 4.2.1",
+    "ac_short": "organisatie van gemeentelijke evenementen",
+    "ac_long": "We voorzien bijkomende infrastructuur voor de organisatie van gemeentelijke evenementen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.43,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.43,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 5",
+    "bd_short": "BD5  Zorg voor iedereen",
+    "bd_long": "Meise bouwt aan een zorgzame en gemeente waar iedereen kwaliteitsvol kan leren, wonen en leven",
+    "ap_code": "AP 5.5",
+    "ap_short": "Onderwijs en onderwijsinfrastructuur",
+    "ap_long": "We investeren in onderwijs en onderwijsinfrastructuur",
+    "ac_code": "AP 5.5_AC 5.5.1",
+    "ac_short": "schoolinfrastructuur KlimOp",
+    "ac_long": "We maken een masterplan op voor de optimalisatie van schoolinfrastructuur KlimOp",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.43,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.43,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 2",
+    "bd_short": "BD2  Groene, nette, aangename gemeente",
+    "bd_long": "Meise bestendigt en versterkt haar groene karakter, klimaatbestendigheid en dierenwelzijn",
+    "ap_code": "AP 2.3",
+    "ap_short": "Proper,groen en klimaatbestendig",
+    "ap_long": "We zetten in op een proper, groen en klimaatbestendige infrastructuur",
+    "ac_code": "AP 2.3_AC 2.3.5",
+    "ac_short": "Zwerfvuil",
+    "ac_long": "Er zijn maatregelen gerealiseerd ter preventie van zwerfvuil zoals herevaluatie van het vuilbakkenplan en bewustmakingscampagnes",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.48,
+      "2028": 0.48,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Meise",
+    "nis_code": "23050",
+    "bd_code": "BDS 4",
+    "bd_short": "BD4  Bruisende gemeente",
+    "bd_long": "Meise investeert in een bruisend gemeenschapsleven en maakt ruimte voor ontmoeting, cultuur en sport",
+    "ap_code": "AP 4.4",
+    "ap_short": "Jongeren",
+    "ap_long": "We zorgen voor een inspirerende en dynamische omgeving voor jongeren, waar zij zich kunnen ontwikkelen, ontmoeten en participeren",
+    "ac_code": "AP 4.4_AC 4.4.3",
+    "ac_short": "de bib zet in op een jongerenhoek",
+    "ac_long": "De bib zet in op een jongerenhoek en bijkomende werking voor jeugd 12-15 jaar.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 9000.0,
+    "amount_per_capita": 0.43,
+    "yearly_amounts": {
+      "2026": 540.0,
+      "2027": 6660.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 1800.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0.32,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0.09,
+      "2031": 0
     }
   }
 ]

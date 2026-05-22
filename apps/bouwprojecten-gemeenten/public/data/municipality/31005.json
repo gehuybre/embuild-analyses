@@ -2,156 +2,122 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
     "bd_short": "BD17: Recurrent beleid",
-    "bd_long": "Commentaar:",
+    "bd_long": "BD17: Recurrent beleid",
     "ap_code": "AP1701RB",
     "ap_short": "Actieplan Recurrent beleid",
     "ap_long": "Actieplan Recurrent beleid",
-    "ac_code": "AP1701RB",
-    "ac_short": "Recurrent beleid dienst Communicatie en Citymarketing en sta",
-    "ac_long": "Recurrent beleid dienst Communicatie en Citymarketing en stadsdrukkerij.",
+    "ac_code": "AP1701RB_AP1701RB_AC0606003RB",
+    "ac_short": "Regulier beleid cluster Openbaar Domein.",
+    "ac_long": "Regulier beleid cluster Openbaar Domein.",
     "categories": [
-      "01-algemeen-bestuur"
+      "02-mobiliteit"
     ],
-    "total_amount": 170864708.0,
-    "amount_per_capita": 1425.31,
+    "total_amount": 57454415.84,
+    "amount_per_capita": 479.48,
     "yearly_amounts": {
-      "2026": 34298252.0,
-      "2027": 32858006.0,
-      "2028": 32531204.0,
-      "2029": 24888167.0,
-      "2030": 22532139.0,
-      "2031": 23756940.0
+      "2026": 3021471.84,
+      "2027": 10358250.0,
+      "2028": 12178913.0,
+      "2029": 11953734.0,
+      "2030": 8919059.0,
+      "2031": 11022988.0
     },
     "yearly_per_capita": {
-      "2026": 286.11,
-      "2027": 274.09,
-      "2028": 271.37,
-      "2029": 207.61,
-      "2030": 187.96,
-      "2031": 198.17
+      "2026": 25.22,
+      "2027": 86.44,
+      "2028": 101.64,
+      "2029": 99.76,
+      "2030": 74.43,
+      "2031": 91.99
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501021RB",
+    "ac_short": "Regulier onderhoud - Bouwkundig",
+    "ac_long": "Regulier onderhoud - Bouwkundig",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 32991682.03,
+    "amount_per_capita": 275.33,
+    "yearly_amounts": {
+      "2026": 1557407.03,
+      "2027": 6062260.0,
+      "2028": 5441681.0,
+      "2029": 6756397.0,
+      "2030": 6637045.0,
+      "2031": 6536892.0
+    },
+    "yearly_per_capita": {
+      "2026": 13.0,
+      "2027": 50.59,
+      "2028": 45.41,
+      "2029": 56.38,
+      "2030": 55.39,
+      "2031": 54.55
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 35",
     "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
     "bd_long": "Commentaar:",
     "ap_code": "AP1501",
     "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
     "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
-    "ac_code": "AP1501",
-    "ac_short": "Met ondersteuning van de Vlaamse overheid renoveren en richt",
-    "ac_long": "Met ondersteuning van de Vlaamse overheid renoveren en richten we het Groeningemuseum in.",
+    "ac_code": "AP1501_AP1501_AC1501005",
+    "ac_short": "We herbestemmen en verbouwen gefaseerd het voormalige Huize",
+    "ac_long": "We herbestemmen en verbouwen gefaseerd het voormalige Huize Minnewater.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 64959561.0,
-    "amount_per_capita": 541.88,
+    "total_amount": 31534049.15,
+    "amount_per_capita": 263.16,
     "yearly_amounts": {
-      "2026": 3986612.0,
-      "2027": 14747289.0,
-      "2028": 12923057.0,
-      "2029": 19293559.0,
-      "2030": 10470020.0,
-      "2031": 3539024.0
+      "2026": 1937328.15,
+      "2027": 6280622.0,
+      "2028": 7823057.0,
+      "2029": 10015998.0,
+      "2030": 5329020.0,
+      "2031": 148024.0
     },
     "yearly_per_capita": {
-      "2026": 33.26,
-      "2027": 123.02,
-      "2028": 107.8,
-      "2029": 160.94,
-      "2030": 87.34,
-      "2031": 29.52
+      "2026": 16.17,
+      "2027": 52.41,
+      "2028": 65.29,
+      "2029": 83.59,
+      "2030": 44.47,
+      "2031": 1.24
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD04",
-    "bd_long": "Zorg, welzijn en sociale inclusie: we zetten in op een warme stad",
-    "ap_code": "AP0403",
-    "ap_short": "We zetten in op een sterke publieke zorg via de WV Mintus",
-    "ap_long": "We zetten in op een sterke publieke zorg via de WV Mintus",
-    "ac_code": "AP0403",
-    "ac_short": "Aangepast, toegankelijk en kwaliteitsvol zorgaanbod",
-    "ac_long": "Aangepast, toegankelijk en kwaliteitsvol zorgaanbod",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 33280573.0,
-    "amount_per_capita": 277.62,
-    "yearly_amounts": {
-      "2026": 6195450.0,
-      "2027": 6358500.0,
-      "2028": 5532500.0,
-      "2029": 7509250.0,
-      "2030": 4364323.0,
-      "2031": 3320550.0
-    },
-    "yearly_per_capita": {
-      "2026": 51.68,
-      "2027": 53.04,
-      "2028": 46.15,
-      "2029": 62.64,
-      "2030": 36.41,
-      "2031": 27.7
-    }
-  },
-  {
-    "municipality": "Brugge",
-    "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD07: Klimaat, milieu en dierenwelzijn voor leefbaar Brugge",
-    "bd_long": "Commentaar:",
-    "ap_code": "AP0701",
-    "ap_short": "We maken van Brugge een stad die fossielvrij verwarmd wordt.",
-    "ap_long": "We maken van Brugge een stad die fossielvrij verwarmd wordt.",
-    "ac_code": "AP0701",
-    "ac_short": "Met de Vlaamse Mijn VerbouwPremie bieden we financiële steun",
-    "ac_long": "Met de Vlaamse Mijn VerbouwPremie bieden we financiële steun voor energiebesparende investeringen en renovatiewerken in woningen.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 15000000.0,
-    "amount_per_capita": 125.13,
-    "yearly_amounts": {
-      "2026": 2500000.0,
-      "2027": 2500000.0,
-      "2028": 2500000.0,
-      "2029": 2500000.0,
-      "2030": 2500000.0,
-      "2031": 2500000.0
-    },
-    "yearly_per_capita": {
-      "2026": 20.85,
-      "2027": 20.85,
-      "2028": 20.85,
-      "2029": 20.85,
-      "2030": 20.85,
-      "2031": 20.85
-    }
-  },
-  {
-    "municipality": "Brugge",
-    "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 26",
     "bd_short": "BD06: Propere wijken en verstandig groen",
     "bd_long": "Commentaar:",
     "ap_code": "AP0601",
     "ap_short": "We investeren in heraanleg van wegen, rioleringen en nutsvoo",
     "ap_long": "We investeren in heraanleg van wegen, rioleringen en nutsvoorzieningen.",
-    "ac_code": "AP0601",
+    "ac_code": "AP0601_AP0601_AC0601001",
     "ac_short": "We voorzien en realiseren een gecoördineerd actie- en werken",
     "ac_long": "We voorzien en realiseren een gecoördineerd actie- en werkenplan voor de maximaal geïntegreerde heraanleg van wegenis, riolering en nutsleidingen.",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 15000000.0,
-    "amount_per_capita": 125.13,
+    "amount_per_capita": 125.18,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -164,30 +130,98 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 12.51,
-      "2030": 62.56,
-      "2031": 50.05
+      "2029": 12.52,
+      "2030": 62.59,
+      "2031": 50.07
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 27",
+    "bd_short": "BD07: Klimaat, milieu en dierenwelzijn voor leefbaar Brugge",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0701",
+    "ap_short": "We maken van Brugge een stad die fossielvrij verwarmd wordt.",
+    "ap_long": "We maken van Brugge een stad die fossielvrij verwarmd wordt.",
+    "ac_code": "AP0701_AP0701_AC0701007NP",
+    "ac_short": "Met de Vlaamse Mijn VerbouwPremie bieden we financiële steun",
+    "ac_long": "Met de Vlaamse Mijn VerbouwPremie bieden we financiële steun voor energiebesparende investeringen en renovatiewerken in woningen.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 15000000.0,
+    "amount_per_capita": 125.18,
+    "yearly_amounts": {
+      "2026": 2500000.0,
+      "2027": 2500000.0,
+      "2028": 2500000.0,
+      "2029": 2500000.0,
+      "2030": 2500000.0,
+      "2031": 2500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.86,
+      "2027": 20.86,
+      "2028": 20.86,
+      "2029": 20.86,
+      "2030": 20.86,
+      "2031": 20.86
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1501",
+    "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
+    "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
+    "ac_code": "AP1501_AP1501_AC1501001",
+    "ac_short": "Met ondersteuning van de Vlaamse overheid renoveren en richt",
+    "ac_long": "Met ondersteuning van de Vlaamse overheid renoveren en richten we het Groeningemuseum in.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 14750000.0,
+    "amount_per_capita": 123.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 650000.0,
+      "2028": 2750000.0,
+      "2029": 4000000.0,
+      "2030": 4000000.0,
+      "2031": 3350000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 5.42,
+      "2028": 22.95,
+      "2029": 33.38,
+      "2030": 33.38,
+      "2031": 27.96
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 23",
     "bd_short": "BD03: Stadsontwikkeling gebeurt op maat van Brugge",
     "bd_long": "Commentaar:",
     "ap_code": "AP0307",
     "ap_short": "We ondersteunen en realiseren nieuwe stadsontwikkelingsproje",
     "ap_long": "We ondersteunen en realiseren nieuwe stadsontwikkelingsprojecten.",
-    "ac_code": "AP0307",
+    "ac_code": "AP0307_AP0307_AC0307004",
     "ac_short": "AWV en de Stad Brugge pakken gezamenlijk het complexe verkee",
     "ac_long": "AWV en de Stad Brugge pakken gezamenlijk het complexe verkeersknooppunt aan het Brugse station aan en maken van de stationsomgeving een uitnodigende toegangspoort tot onze stad.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 12948689.0,
-    "amount_per_capita": 108.02,
+    "total_amount": 13223007.2,
+    "amount_per_capita": 110.35,
     "yearly_amounts": {
-      "2026": 9483689.0,
+      "2026": 9758007.2,
       "2027": 2750000.0,
       "2028": 715000.0,
       "2029": 0,
@@ -195,9 +229,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 79.11,
-      "2027": 22.94,
-      "2028": 5.96,
+      "2026": 81.43,
+      "2027": 22.95,
+      "2028": 5.97,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -206,22 +240,56 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1007005RB",
+    "ac_short": "Recurrent beleid Cel Cultuurbeleid",
+    "ac_long": "Recurrent beleid Cel Cultuurbeleid",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 11222949.0,
+    "amount_per_capita": 93.66,
+    "yearly_amounts": {
+      "2026": 1835324.0,
+      "2027": 4515525.0,
+      "2028": 2605525.0,
+      "2029": 755525.0,
+      "2030": 755525.0,
+      "2031": 755525.0
+    },
+    "yearly_per_capita": {
+      "2026": 15.32,
+      "2027": 37.68,
+      "2028": 21.74,
+      "2029": 6.31,
+      "2030": 6.31,
+      "2031": 6.31
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 25",
     "bd_short": "BD05: Slimme mobiliteit en vlotte bereikbaarheid",
     "bd_long": "Commentaar:",
     "ap_code": "AP0502",
     "ap_short": "We bouwen verder aan Brugge fietsstad.",
     "ap_long": "We bouwen verder aan Brugge fietsstad.",
-    "ac_code": "AP0502",
+    "ac_code": "AP0502_AP0502_AC0502001",
     "ac_short": "We bouwen het (boven)lokaal netwerk aan fietspaden en fiets(",
     "ac_long": "We bouwen het (boven)lokaal netwerk aan fietspaden en fiets(snel)wegen verder uit.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 10132362.0,
-    "amount_per_capita": 84.52,
+    "total_amount": 9811270.94,
+    "amount_per_capita": 81.88,
     "yearly_amounts": {
-      "2026": 1050000.0,
+      "2026": 728908.94,
       "2027": 1650000.0,
       "2028": 1600000.0,
       "2029": 1944121.0,
@@ -229,65 +297,65 @@
       "2031": 1600000.0
     },
     "yearly_per_capita": {
-      "2026": 8.76,
-      "2027": 13.76,
+      "2026": 6.08,
+      "2027": 13.77,
       "2028": 13.35,
       "2029": 16.22,
-      "2030": 19.09,
+      "2030": 19.1,
       "2031": 13.35
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD08: Jeugd, sport en onderwijs",
-    "bd_long": "Commentaar:",
-    "ap_code": "AP0801",
-    "ap_short": "We voorzien ruimte en infrastructuur voor sport.",
-    "ap_long": "We voorzien ruimte en infrastructuur voor sport.",
-    "ac_code": "AP0801",
-    "ac_short": "We gaan partnerschappen aan om sportinfrastructuur uit te br",
-    "ac_long": "We gaan partnerschappen aan om sportinfrastructuur uit te breiden en ondersteunen de realisatie van topsportinfrastructuur in onze stad.",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501048RB",
+    "ac_short": "Recurrent beleid Eigendommen",
+    "ac_long": "Recurrent beleid Eigendommen",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 9064929.0,
-    "amount_per_capita": 75.62,
+    "total_amount": 8515000.0,
+    "amount_per_capita": 71.06,
     "yearly_amounts": {
-      "2026": 3256244.0,
-      "2027": 3922750.0,
-      "2028": 772935.0,
-      "2029": 591000.0,
-      "2030": 261000.0,
-      "2031": 261000.0
+      "2026": 8515000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 27.16,
-      "2027": 32.72,
-      "2028": 6.45,
-      "2029": 4.93,
-      "2030": 2.18,
-      "2031": 2.18
+      "2026": 71.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 25",
     "bd_short": "BD05: Slimme mobiliteit en vlotte bereikbaarheid",
     "bd_long": "Commentaar:",
     "ap_code": "AP0501",
     "ap_short": "We maken een voetgangersbeleid op en voeren dit uit.",
     "ap_long": "We maken een voetgangersbeleid op en voeren dit uit.",
-    "ac_code": "AP0501",
+    "ac_code": "AP0501_AP0501_AC0501002",
     "ac_short": "We zorgen dat voetpaden toegankelijk en maximaal obstakelvri",
     "ac_long": "We zorgen dat voetpaden toegankelijk en maximaal obstakelvrij zijn.",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 7800000.0,
-    "amount_per_capita": 65.07,
+    "amount_per_capita": 65.09,
     "yearly_amounts": {
       "2026": 1300000.0,
       "2027": 1300000.0,
@@ -297,31 +365,65 @@
       "2031": 1300000.0
     },
     "yearly_per_capita": {
-      "2026": 10.84,
-      "2027": 10.84,
-      "2028": 9.34,
+      "2026": 10.85,
+      "2027": 10.85,
+      "2028": 9.35,
       "2029": 12.35,
-      "2030": 10.84,
-      "2031": 10.84
+      "2030": 10.85,
+      "2031": 10.85
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1501",
+    "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
+    "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
+    "ac_code": "AP1501_AP1501_AC1501007",
+    "ac_short": "De plannen voor de volledige renovatie van het Belfort werke",
+    "ac_long": "De plannen voor de volledige renovatie van het Belfort werken we deze legislatuur uit.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 7732000.0,
+    "amount_per_capita": 64.53,
+    "yearly_amounts": {
+      "2026": 1882000.0,
+      "2027": 5000000.0,
+      "2028": 850000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.71,
+      "2027": 41.73,
+      "2028": 7.09,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
     "bd_short": "BD06: Propere wijken en verstandig groen",
     "bd_long": "Commentaar:",
     "ap_code": "AP0602",
     "ap_short": "We zetten in op voldoende straatmeubilair en aangepaste verl",
     "ap_long": "We zetten in op voldoende straatmeubilair en aangepaste verlichting.",
-    "ac_code": "AP0602",
+    "ac_code": "AP0602_AP0602_AC0602004",
     "ac_short": "Met \"Licht-als-een-dienst\" zetten we samen met Fluvius in op",
     "ac_long": "Met \"Licht-als-een-dienst\" zetten we samen met Fluvius in op duurzame straatverlichting.",
     "categories": [
       "06-wonen-ruimte"
     ],
     "total_amount": 7028190.0,
-    "amount_per_capita": 58.63,
+    "amount_per_capita": 58.65,
     "yearly_amounts": {
       "2026": 2242730.0,
       "2027": 2242730.0,
@@ -331,9 +433,9 @@
       "2031": 100000.0
     },
     "yearly_per_capita": {
-      "2026": 18.71,
-      "2027": 18.71,
-      "2028": 18.71,
+      "2026": 18.72,
+      "2027": 18.72,
+      "2028": 18.72,
       "2029": 0.83,
       "2030": 0.83,
       "2031": 0.83
@@ -342,156 +444,360 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD04",
-    "bd_long": "Zorg, welzijn en sociale inclusie: we zetten in op een warme stad",
-    "ap_code": "AP0409",
-    "ap_short": "De Bl Lelie biedt toegankelijke, kwaliteitsopvang regionaal",
-    "ap_long": "De Blauwe Lelie realiseert een regionaal aanbod aan toegankelijke en kwaliteitsvolle kinderopvang",
-    "ac_code": "AP0409",
-    "ac_short": "Opvang Brugse regio afgestemd op lokale noden",
-    "ac_long": "Opvang Brugse regio afgestemd op lokale noden",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1601009RB",
+    "ac_short": "Recurrent beleid Patrimonium zonder maatschappelijk doel",
+    "ac_long": "Recurrent beleid Patrimonium zonder maatschappelijk doel",
     "categories": [
-      "09-zorg-opvang"
+      "00-algemene-financiering"
     ],
-    "total_amount": 5830334.0,
-    "amount_per_capita": 48.64,
+    "total_amount": 6057500.0,
+    "amount_per_capita": 50.55,
     "yearly_amounts": {
-      "2026": 2137248.0,
-      "2027": 3183347.0,
-      "2028": 102847.0,
-      "2029": 116847.0,
-      "2030": 126847.0,
-      "2031": 163198.0
+      "2026": 57500.0,
+      "2027": 4000000.0,
+      "2028": 2000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 17.83,
-      "2027": 26.55,
-      "2028": 0.86,
-      "2029": 0.97,
-      "2030": 1.06,
-      "2031": 1.36
+      "2026": 0.48,
+      "2027": 33.38,
+      "2028": 16.69,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1601011RB",
+    "ac_short": "Recurrent beleid Fiscale en financiële diensten",
+    "ac_long": "Recurrent beleid Fiscale en financiële diensten",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 6000000.0,
+    "amount_per_capita": 50.07,
+    "yearly_amounts": {
+      "2026": 1000000.0,
+      "2027": 1000000.0,
+      "2028": 1000000.0,
+      "2029": 1000000.0,
+      "2030": 1000000.0,
+      "2031": 1000000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.35,
+      "2027": 8.35,
+      "2028": 8.35,
+      "2029": 8.35,
+      "2030": 8.35,
+      "2031": 8.35
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1102006RB",
+    "ac_short": "Recurrent beleid Informatica",
+    "ac_long": "Recurrent beleid Informatica",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 5097225.12,
+    "amount_per_capita": 42.54,
+    "yearly_amounts": {
+      "2026": 884267.12,
+      "2027": 724181.0,
+      "2028": 549095.0,
+      "2029": 549095.0,
+      "2030": 1224095.0,
+      "2031": 1166492.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.38,
+      "2027": 6.04,
+      "2028": 4.58,
+      "2029": 4.58,
+      "2030": 10.22,
+      "2031": 9.73
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
     "bd_short": "BD06: Propere wijken en verstandig groen",
     "bd_long": "Commentaar:",
     "ap_code": "AP0604",
     "ap_short": "We gaan voor nette en verzorgde groene wijken en buurten.",
     "ap_long": "We gaan voor nette en verzorgde groene wijken en buurten.",
-    "ac_code": "AP0604",
+    "ac_code": "AP0604_AP0604_AC0604003",
     "ac_short": "We onderhouden het openbare groen verzorgd en verstandig.",
     "ac_long": "We onderhouden het openbare groen verzorgd en verstandig.",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 5365830.0,
-    "amount_per_capita": 44.76,
+    "total_amount": 4993737.27,
+    "amount_per_capita": 41.67,
     "yearly_amounts": {
-      "2026": 755057.0,
+      "2026": 520964.27,
       "2027": 1016565.0,
       "2028": 1200000.0,
       "2029": 985000.0,
       "2030": 700000.0,
-      "2031": 709208.0
+      "2031": 571208.0
     },
     "yearly_per_capita": {
-      "2026": 6.3,
+      "2026": 4.35,
       "2027": 8.48,
       "2028": 10.01,
       "2029": 8.22,
       "2030": 5.84,
-      "2031": 5.92
+      "2031": 4.77
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD04",
-    "bd_long": "Zorg, welzijn en sociale inclusie: we zetten in op een warme stad",
-    "ap_code": "AP0406",
-    "ap_short": "We maken van elke buurt een zorgzame buurt",
-    "ap_long": "We maken van elke buurt een zorgzame buurt",
-    "ac_code": "AP0406",
-    "ac_short": "We zetten in op zorgzame buurten",
-    "ac_long": "We zetten in op zorgzame buurten",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0508001RB",
+    "ac_short": "We nemen concrete acties om het mobiliteitsbeleid van de sta",
+    "ac_long": "We nemen concrete acties om het mobiliteitsbeleid van de stad vorm te geven.(Recurrent beleid Mobiliteit)",
     "categories": [
-      "09-zorg-opvang"
+      "02-mobiliteit"
     ],
-    "total_amount": 5058985.0,
-    "amount_per_capita": 42.2,
+    "total_amount": 4868000.0,
+    "amount_per_capita": 40.63,
     "yearly_amounts": {
-      "2026": 3147185.0,
-      "2027": 1724800.0,
-      "2028": 10000.0,
-      "2029": 76000.0,
-      "2030": 96000.0,
-      "2031": 5000.0
+      "2026": 868000.0,
+      "2027": 800000.0,
+      "2028": 800000.0,
+      "2029": 800000.0,
+      "2030": 800000.0,
+      "2031": 800000.0
     },
     "yearly_per_capita": {
-      "2026": 26.25,
-      "2027": 14.39,
-      "2028": 0.08,
-      "2029": 0.63,
-      "2030": 0.8,
-      "2031": 0.04
+      "2026": 7.24,
+      "2027": 6.68,
+      "2028": 6.68,
+      "2029": 6.68,
+      "2030": 6.68,
+      "2031": 6.68
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "",
-    "ap_short": "overigBeleid",
-    "ap_long": "overigBeleid",
-    "ac_code": "",
-    "ac_short": "overigBeleid zonder actie",
-    "ac_long": "overigBeleid zonder actie",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1501",
+    "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
+    "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
+    "ac_code": "AP1501_AP1501_AC1501002",
+    "ac_short": "Met steun van de Vlaamse regering renoveren we de Biekorf, a",
+    "ac_long": "Met steun van de Vlaamse regering renoveren we de Biekorf, als hart van de Stadsrepubliek, tot een open cultureel huis.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 4968296.0,
-    "amount_per_capita": 41.44,
+    "total_amount": 4532000.0,
+    "amount_per_capita": 37.82,
     "yearly_amounts": {
-      "2026": 1766096.0,
-      "2027": 908300.0,
-      "2028": 639800.0,
-      "2029": 849800.0,
-      "2030": 273300.0,
-      "2031": 531000.0
+      "2026": 0,
+      "2027": 400000.0,
+      "2028": 1500000.0,
+      "2029": 2550000.0,
+      "2030": 41000.0,
+      "2031": 41000.0
     },
     "yearly_per_capita": {
-      "2026": 14.73,
-      "2027": 7.58,
-      "2028": 5.34,
-      "2029": 7.09,
-      "2030": 2.28,
-      "2031": 4.43
+      "2026": 0,
+      "2027": 3.34,
+      "2028": 12.52,
+      "2029": 21.28,
+      "2030": 0.34,
+      "2031": 0.34
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501049RB",
+    "ac_short": "Recurrent Beleid voor OEPC2/ESCO",
+    "ac_long": "Recurrent Beleid voor OEPC2/ESCO",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 4350000.0,
+    "amount_per_capita": 36.3,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 4350000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 36.3,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 28",
+    "bd_short": "BD08: Jeugd, sport en onderwijs",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0801",
+    "ap_short": "We voorzien ruimte en infrastructuur voor sport.",
+    "ap_long": "We voorzien ruimte en infrastructuur voor sport.",
+    "ac_code": "AP0801_AP0801_AC0801004",
+    "ac_short": "We ontwikkelen nieuwe sport- en beweegmogelijkheden.",
+    "ac_long": "We ontwikkelen nieuwe sport- en beweegmogelijkheden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4032329.0,
+    "amount_per_capita": 33.65,
+    "yearly_amounts": {
+      "2026": 304744.0,
+      "2027": 2900000.0,
+      "2028": 497585.0,
+      "2029": 330000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.54,
+      "2027": 24.2,
+      "2028": 4.15,
+      "2029": 2.75,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 24",
+    "bd_short": "BD04: Zorg, welzijn en sociale inclusie voor een warme stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0404",
+    "ap_short": "We zorgen ervoor dat iedereen een menswaardig leven kan leid",
+    "ap_long": "We zorgen ervoor dat iedereen een menswaardig leven kan leiden.",
+    "ac_code": "AP0404_AP0404_AC0404004",
+    "ac_short": "Vanuit het OCMW zetten we in op toegankelijke rechtenuitputt",
+    "ac_long": "Vanuit het OCMW zetten we in op toegankelijke rechtenuitputting, toekennen leefloon, maatschappelijke integratie en activering via individuele begeleiding en groepswerk.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3998981.46,
+    "amount_per_capita": 33.37,
+    "yearly_amounts": {
+      "2026": 3574981.46,
+      "2027": 114000.0,
+      "2028": 72500.0,
+      "2029": 92500.0,
+      "2030": 72500.0,
+      "2031": 72500.0
+    },
+    "yearly_per_capita": {
+      "2026": 29.83,
+      "2027": 0.95,
+      "2028": 0.61,
+      "2029": 0.77,
+      "2030": 0.61,
+      "2031": 0.61
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 28",
+    "bd_short": "BD08: Jeugd, sport en onderwijs",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0801",
+    "ap_short": "We voorzien ruimte en infrastructuur voor sport.",
+    "ap_long": "We voorzien ruimte en infrastructuur voor sport.",
+    "ac_code": "AP0801_AP0801_AC0801002",
+    "ac_short": "We gaan partnerschappen aan om sportinfrastructuur uit te br",
+    "ac_long": "We gaan partnerschappen aan om sportinfrastructuur uit te breiden en ondersteunen de realisatie van topsportinfrastructuur in onze stad.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3520849.55,
+    "amount_per_capita": 29.38,
+    "yearly_amounts": {
+      "2026": 2215849.55,
+      "2027": 261000.0,
+      "2028": 261000.0,
+      "2029": 261000.0,
+      "2030": 261000.0,
+      "2031": 261000.0
+    },
+    "yearly_per_capita": {
+      "2026": 18.49,
+      "2027": 2.18,
+      "2028": 2.18,
+      "2029": 2.18,
+      "2030": 2.18,
+      "2031": 2.18
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 25",
     "bd_short": "BD05: Slimme mobiliteit en vlotte bereikbaarheid",
     "bd_long": "Commentaar:",
     "ap_code": "AP0507",
     "ap_short": "We gebruiken data en innovatieve, slimme mobiliteitsoplossin",
     "ap_long": "We gebruiken data en innovatieve, slimme mobiliteitsoplossingen in het kader van ons mobiliteitsbeleid.",
-    "ac_code": "AP0507",
+    "ac_code": "AP0507_AP0507_AC0507001",
     "ac_short": "We moderniseren onze Bruggen en zorgen voor een vlotte verke",
     "ac_long": "We moderniseren onze Bruggen en zorgen voor een vlotte verkeersdoorstroming.",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 3505271.0,
-    "amount_per_capita": 29.24,
+    "amount_per_capita": 29.25,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -505,106 +811,140 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 27.11,
+      "2030": 27.12,
       "2031": 2.13
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD04",
-    "bd_long": "BD04: Zorg, welzijn en sociale inclusie: we zetten in op een warme stad",
-    "ap_code": "AP0410",
-    "ap_short": "Ruddersstove biedt maaltijdzorg voor zorgbehoevenden.",
-    "ap_long": "Ruddersstove biedt maaltijdzorg en richt zich hierbij prioritair naar mensen met een zorgbehoefte.",
-    "ac_code": "AP0410",
-    "ac_short": "Duurzame maaltijdzorg in Brugge, met focus op zorgnoden.",
-    "ac_long": "We bereiden en bezorgen maaltijden in de Brugse regio op een duurzame wijze en met prioritaire aandacht voor mensen met een zorgbehoefte en voor preventie op malnutritie. \"",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 3039650.0,
-    "amount_per_capita": 25.36,
-    "yearly_amounts": {
-      "2026": 719650.0,
-      "2027": 415000.0,
-      "2028": 733000.0,
-      "2029": 608000.0,
-      "2030": 263000.0,
-      "2031": 301000.0
-    },
-    "yearly_per_capita": {
-      "2026": 6.0,
-      "2027": 3.46,
-      "2028": 6.11,
-      "2029": 5.07,
-      "2030": 2.19,
-      "2031": 2.51
-    }
-  },
-  {
-    "municipality": "Brugge",
-    "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD04: Zorg, welzijn en sociale inclusie voor een warme stad",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
     "bd_long": "Commentaar:",
-    "ap_code": "AP0404",
-    "ap_short": "Beleid voor een menswaardig leven voor iedereen",
-    "ap_long": "Beleid voor een menswaardig leven voor iedereen",
-    "ac_code": "AP0404",
-    "ac_short": "Steun voor asielzoekers en daklozen via OCMW",
-    "ac_long": "Vanuit het OCMW zetten we in op opvang voor asielzoekers, tijdelijk ontheemden en dak- en thuislozen.",
+    "ap_code": "AP1501",
+    "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
+    "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
+    "ac_code": "AP1501_AP1501_AC1501012NP",
+    "ac_short": "We voorzien de nodige middelen voor de resterende kosten in",
+    "ac_long": "We voorzien de nodige middelen voor de resterende kosten in het kader van het nieuwbouwproject van het project BRUSK.",
     "categories": [
-      "09-zorg-opvang"
+      "06-wonen-ruimte"
     ],
-    "total_amount": 2574100.0,
-    "amount_per_capita": 21.47,
+    "total_amount": 2473227.29,
+    "amount_per_capita": 20.64,
     "yearly_amounts": {
-      "2026": 2085100.0,
-      "2027": 179000.0,
-      "2028": 72500.0,
-      "2029": 92500.0,
-      "2030": 72500.0,
-      "2031": 72500.0
+      "2026": 1273227.29,
+      "2027": 0,
+      "2028": 0,
+      "2029": 600000.0,
+      "2030": 600000.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 17.39,
-      "2027": 1.49,
-      "2028": 0.6,
-      "2029": 0.77,
-      "2030": 0.6,
-      "2031": 0.6
+      "2026": 10.63,
+      "2027": 0,
+      "2028": 0,
+      "2029": 5.01,
+      "2030": 5.01,
+      "2031": 0
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 28",
+    "bd_short": "BD08: Jeugd, sport en onderwijs",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0801",
+    "ap_short": "We voorzien ruimte en infrastructuur voor sport.",
+    "ap_long": "We voorzien ruimte en infrastructuur voor sport.",
+    "ac_code": "AP0801_AP0801_AC0801003",
+    "ac_short": "We investeren in voldoende zwem- en waterrecreatiemogelijkhe",
+    "ac_long": "We investeren in voldoende zwem- en waterrecreatiemogelijkheden in de stad.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2336100.0,
+    "amount_per_capita": 19.5,
+    "yearly_amounts": {
+      "2026": 1560000.0,
+      "2027": 761750.0,
+      "2028": 14350.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.02,
+      "2027": 6.36,
+      "2028": 0.12,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 30",
+    "bd_short": "BD10: Cultuur vormt de hartslag van onze stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1001",
+    "ap_short": "We investeren verder in state-of-the-art culturele infrastru",
+    "ap_long": "We investeren verder in state-of-the-art culturele infrastructuur.",
+    "ac_code": "AP1001_AP1001_AC1001002",
+    "ac_short": "We investeren in een gedifferentieerd aanbod aan tentoonstel",
+    "ac_long": "We investeren in een gedifferentieerd aanbod aan tentoonstellingsruimtes.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2272150.61,
+    "amount_per_capita": 18.96,
+    "yearly_amounts": {
+      "2026": 2272150.61,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.96,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 34",
     "bd_short": "BD14: Toerisme evolueert gunstig voor iedereen",
     "bd_long": "Commentaar:",
     "ap_code": "AP1401",
     "ap_short": "Toerisme draagt bij aan een aantrekkelijke beleefstad.",
     "ap_long": "Toerisme draagt bij aan een aantrekkelijke beleefstad.",
-    "ac_code": "AP1401",
-    "ac_short": "Met gerichte acties dragen we bij tot een kwalitatief belevi",
-    "ac_long": "Met gerichte acties dragen we bij tot een kwalitatief belevingsklimaat.",
+    "ac_code": "AP1401_AP1401_AC1401003",
+    "ac_short": "We connecteren met onze bezoekers, zowel fysiek als digitaal",
+    "ac_long": "We connecteren met onze bezoekers, zowel fysiek als digitaal, op plaatsen en tijdstippen waar ze op zoek zijn naar inspiratie en informatie.",
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 2424000.0,
-    "amount_per_capita": 20.22,
+    "total_amount": 2250000.0,
+    "amount_per_capita": 18.78,
     "yearly_amounts": {
-      "2026": 65250.0,
-      "2027": 358750.0,
+      "2026": 0,
+      "2027": 250000.0,
       "2028": 1250000.0,
       "2029": 500000.0,
       "2030": 250000.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.54,
-      "2027": 2.99,
+      "2026": 0,
+      "2027": 2.09,
       "2028": 10.43,
       "2029": 4.17,
       "2030": 2.09,
@@ -614,66 +954,32 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD10: Cultuur vormt de hartslag van onze stad",
-    "bd_long": "Commentaar:",
-    "ap_code": "AP1001",
-    "ap_short": "We investeren verder in state-of-the-art culturele infrastru",
-    "ap_long": "We investeren verder in state-of-the-art culturele infrastructuur.",
-    "ac_code": "AP1001",
-    "ac_short": "We investeren in een gedifferentieerd aanbod aan tentoonstel",
-    "ac_long": "We investeren in een gedifferentieerd aanbod aan tentoonstellingsruimtes.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 2150675.0,
-    "amount_per_capita": 17.94,
-    "yearly_amounts": {
-      "2026": 2150675.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 17.94,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brugge",
-    "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 26",
     "bd_short": "BD06: Propere wijken en verstandig groen",
     "bd_long": "Commentaar:",
     "ap_code": "AP0609",
     "ap_short": "We maken Brugge als slimme waterstad klimaatrobuust.",
     "ap_long": "We maken Brugge als slimme waterstad klimaatrobuust.",
-    "ac_code": "AP0609",
+    "ac_code": "AP0609_AP0609_AC0609002",
     "ac_short": "Met het Europees project Blue4Green maken we van Brugge de s",
     "ac_long": "Met het Europees project Blue4Green maken we van Brugge de slimme waterstad van morgen.",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 2148152.0,
-    "amount_per_capita": 17.92,
+    "total_amount": 2229225.65,
+    "amount_per_capita": 18.6,
     "yearly_amounts": {
-      "2026": 194181.0,
-      "2027": 1073594.0,
-      "2028": 880377.0,
+      "2026": 275254.45,
+      "2027": 1073594.32,
+      "2028": 880376.88,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.62,
+      "2026": 2.3,
       "2027": 8.96,
-      "2028": 7.34,
+      "2028": 7.35,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -682,54 +988,54 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
     "bd_long": "Commentaar:",
-    "ap_code": "AP0611",
-    "ap_short": "We maken het openbaar domein bespeelbaar voor kinderen en jo",
-    "ap_long": "We maken het openbaar domein bespeelbaar voor kinderen en jongeren.",
-    "ac_code": "AP0611",
-    "ac_short": "We vernieuwen de stedelijke speelruimte, en breiden die uit",
-    "ac_long": "We vernieuwen de stedelijke speelruimte, en breiden die uit waar nodig en mogelijk.",
+    "ap_code": "AP1501",
+    "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
+    "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
+    "ac_code": "AP1501_AP1501_AC1501013NP",
+    "ac_short": "We voeren de nodige bouwkundige werken uit in het Kustpark K",
+    "ac_long": "We voeren de nodige bouwkundige werken uit in het Kustpark Knapen.",
     "categories": [
-      "06-wonen-ruimte"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 2127999.0,
-    "amount_per_capita": 17.75,
+    "total_amount": 2127732.52,
+    "amount_per_capita": 17.76,
     "yearly_amounts": {
-      "2026": 330000.0,
-      "2027": 330000.0,
-      "2028": 330000.0,
-      "2029": 379333.0,
-      "2030": 379333.0,
-      "2031": 379333.0
+      "2026": 171.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2127561.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.75,
-      "2027": 2.75,
-      "2028": 2.75,
-      "2029": 3.16,
-      "2030": 3.16,
-      "2031": 3.16
+      "2026": 0.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 17.76,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 25",
     "bd_short": "BD05: Slimme mobiliteit en vlotte bereikbaarheid",
     "bd_long": "Commentaar:",
     "ap_code": "AP0503",
     "ap_short": "We zorgen voor openbaar vervoer op maat van de stad.",
     "ap_long": "We zorgen voor openbaar vervoer op maat van de stad.",
-    "ac_code": "AP0503",
+    "ac_code": "AP0503_AP0503_AC0503002",
     "ac_short": "We realiseren Hoppinpunten waar een groot aantal mobiliteits",
     "ac_long": "We realiseren Hoppinpunten waar een groot aantal mobiliteitsoplossingen samen komen.",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 2100000.0,
-    "amount_per_capita": 17.52,
+    "amount_per_capita": 17.53,
     "yearly_amounts": {
       "2026": 350000.0,
       "2027": 350000.0,
@@ -750,61 +1056,367 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD11: Efficiënte samenwerking en toekomstgericht bestuur",
-    "bd_long": "Commentaar:",
-    "ap_code": "AP1102",
-    "ap_short": "Sterk beleid dankzij data en innovatie",
-    "ap_long": "Sterk beleid dankzij data en innovatie",
-    "ac_code": "AP1102",
-    "ac_short": "We zetten in op de  innovatieve, datagedreven organisatie",
-    "ac_long": "We blijven onze voortrekkersrol als 'smart city' vervullen.",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501026RB",
+    "ac_short": "Recurrent beleid Monumentenzorg",
+    "ac_long": "Recurrent beleid Monumentenzorg",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1617814.0,
-    "amount_per_capita": 13.5,
+    "total_amount": 2055698.99,
+    "amount_per_capita": 17.16,
     "yearly_amounts": {
-      "2026": 286239.0,
-      "2027": 142315.0,
-      "2028": 142315.0,
-      "2029": 142315.0,
-      "2030": 502315.0,
-      "2031": 402315.0
+      "2026": 533198.99,
+      "2027": 304500.0,
+      "2028": 304500.0,
+      "2029": 304500.0,
+      "2030": 304500.0,
+      "2031": 304500.0
     },
     "yearly_per_capita": {
-      "2026": 2.39,
-      "2027": 1.19,
-      "2028": 1.19,
-      "2029": 1.19,
-      "2030": 4.19,
-      "2031": 3.36
+      "2026": 4.45,
+      "2027": 2.54,
+      "2028": 2.54,
+      "2029": 2.54,
+      "2030": 2.54,
+      "2031": 2.54
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 26",
     "bd_short": "BD06: Propere wijken en verstandig groen",
     "bd_long": "Commentaar:",
-    "ap_code": "AP0607",
-    "ap_short": "We zetten in op goed beheer van onze bossen",
-    "ap_long": "We zetten in op goed beheer van onze bossen",
-    "ac_code": "AP0607",
-    "ac_short": "We betrekken inwoners en partners bij het stedelijk beleid r",
-    "ac_long": "We betrekken inwoners en partners bij het stedelijk beleid rond natuur, bos en duurzame landbouw.",
+    "ap_code": "AP0611",
+    "ap_short": "We maken het openbaar domein bespeelbaar voor kinderen en jo",
+    "ap_long": "We maken het openbaar domein bespeelbaar voor kinderen en jongeren.",
+    "ac_code": "AP0611_AP0611_AC0611002",
+    "ac_short": "We vernieuwen de stedelijke speelruimte, en breiden die uit",
+    "ac_long": "We vernieuwen de stedelijke speelruimte, en breiden die uit waar nodig en mogelijk.",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 1521000.0,
-    "amount_per_capita": 12.69,
+    "total_amount": 2042999.0,
+    "amount_per_capita": 17.05,
+    "yearly_amounts": {
+      "2026": 245000.0,
+      "2027": 330000.0,
+      "2028": 330000.0,
+      "2029": 379333.0,
+      "2030": 379333.0,
+      "2031": 379333.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.04,
+      "2027": 2.75,
+      "2028": 2.75,
+      "2029": 3.17,
+      "2030": 3.17,
+      "2031": 3.17
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1501",
+    "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
+    "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
+    "ac_code": "AP1501_AP1501_AC1501008",
+    "ac_short": "We zoeken een alternatieve oplossing voor de archieven van S",
+    "ac_long": "We zoeken een alternatieve oplossing voor de archieven van Stad en OCMW.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 16.69,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 2000000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 16.69,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0404007RB",
+    "ac_short": "Recurrent beleid OCMW (maatschappelijke dienstverlening)",
+    "ac_long": "Recurrent beleid OCMW (maatschappelijke dienstverlening)",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1967400.0,
+    "amount_per_capita": 16.42,
+    "yearly_amounts": {
+      "2026": 327900.0,
+      "2027": 327900.0,
+      "2028": 327900.0,
+      "2029": 327900.0,
+      "2030": 327900.0,
+      "2031": 327900.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.74,
+      "2027": 2.74,
+      "2028": 2.74,
+      "2029": 2.74,
+      "2030": 2.74,
+      "2031": 2.74
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1104002RB",
+    "ac_short": "De dienst Algemeen Bestuur ondersteunt en coördineert de adm",
+    "ac_long": "De dienst Algemeen Bestuur ondersteunt en coördineert de administratieve processen. (Recurrent beleid Algemeen bestuur)",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1943281.0,
+    "amount_per_capita": 16.22,
+    "yearly_amounts": {
+      "2026": 485188.0,
+      "2027": 657693.0,
+      "2028": 200100.0,
+      "2029": 200100.0,
+      "2030": 200100.0,
+      "2031": 200100.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.05,
+      "2027": 5.49,
+      "2028": 1.67,
+      "2029": 1.67,
+      "2030": 1.67,
+      "2031": 1.67
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501052RB",
+    "ac_short": "Middelen voor kosten die beslist werden in vorig mjp",
+    "ac_long": "We voorzien de nodige middelen voor de resterende kosten die beslist werden in het vorig meerjarenplan.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1897848.78,
+    "amount_per_capita": 15.84,
+    "yearly_amounts": {
+      "2026": 1897848.78,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.84,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1403006RB",
+    "ac_short": "Recurrent beleid Toerisme: Bestemmingsontwikkeling (= projec",
+    "ac_long": "Recurrent beleid Toerisme: Bestemmingsontwikkeling (= projectwerking digitaal, onthaal)",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 1803300.0,
+    "amount_per_capita": 15.05,
+    "yearly_amounts": {
+      "2026": 90250.0,
+      "2027": 1100550.0,
+      "2028": 300000.0,
+      "2029": 312500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.75,
+      "2027": 9.18,
+      "2028": 2.5,
+      "2029": 2.61,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501020RB",
+    "ac_short": "Recurrent beleid Begijnhof - buitengewoon onderhoud",
+    "ac_long": "Recurrent beleid Begijnhof - buitengewoon onderhoud",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1800000.0,
+    "amount_per_capita": 15.02,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 450000.0,
+      "2028": 300000.0,
+      "2029": 300000.0,
+      "2030": 300000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.25,
+      "2027": 3.76,
+      "2028": 2.5,
+      "2029": 2.5,
+      "2030": 2.5,
+      "2031": 2.5
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501029RB",
+    "ac_short": "Recurrent beleid OEPC 2024",
+    "ac_long": "Recurrent beleid OEPC 2024",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1511349.15,
+    "amount_per_capita": 12.61,
+    "yearly_amounts": {
+      "2026": 1511349.15,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.61,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501041RB",
+    "ac_short": "Recurrent beleid Keuringen technische installaties",
+    "ac_long": "Recurrent beleid Keuringen technische installaties",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1292250.0,
+    "amount_per_capita": 10.78,
+    "yearly_amounts": {
+      "2026": 620250.0,
+      "2027": 269500.0,
+      "2028": 143500.0,
+      "2029": 122000.0,
+      "2030": 73500.0,
+      "2031": 63500.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.18,
+      "2027": 2.25,
+      "2028": 1.2,
+      "2029": 1.02,
+      "2030": 0.61,
+      "2031": 0.53
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0607",
+    "ap_short": "We voeren een ambitieus stedelijk beleid rond natuur, bos en",
+    "ap_long": "We voeren een ambitieus stedelijk beleid rond natuur, bos en duurzame landbouw.",
+    "ac_code": "AP0607_AP0607_AC0607004",
+    "ac_short": "We zetten in op een goed beheer van de stadsbossen en stedel",
+    "ac_long": "We zetten in op een goed beheer van de stadsbossen en stedelijke natuurgebieden.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 1260000.0,
+    "amount_per_capita": 10.52,
     "yearly_amounts": {
       "2026": 210000.0,
       "2027": 210000.0,
       "2028": 210000.0,
       "2029": 210000.0,
       "2030": 210000.0,
-      "2031": 471000.0
+      "2031": 210000.0
     },
     "yearly_per_capita": {
       "2026": 1.75,
@@ -812,28 +1424,28 @@
       "2028": 1.75,
       "2029": 1.75,
       "2030": 1.75,
-      "2031": 3.93
+      "2031": 1.75
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 30",
     "bd_short": "BD10: Cultuur vormt de hartslag van onze stad",
     "bd_long": "Commentaar:",
     "ap_code": "AP1003NP",
     "ap_short": "Musea Brugge staat in voor een zorgzaam beheer en diepgaand",
     "ap_long": "Musea Brugge staat in voor een zorgzaam beheer en diepgaand onderzoek van de collectie aan kunst en erfgoed.",
-    "ac_code": "AP1003NP",
+    "ac_code": "AP1003NP_AP1003NP_AC1003002NP",
     "ac_short": "Van inventaris tot inzicht - Musea Brugge bouwt aan de (digi",
     "ac_long": "Van inventaris tot inzicht - Musea Brugge bouwt aan de (digitale) toekomst.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1406116.0,
-    "amount_per_capita": 11.73,
+    "total_amount": 1239261.0,
+    "amount_per_capita": 10.34,
     "yearly_amounts": {
-      "2026": 486345.0,
+      "2026": 319490.0,
       "2027": 249464.0,
       "2028": 404807.0,
       "2029": 240000.0,
@@ -841,7 +1453,7 @@
       "2031": 12750.0
     },
     "yearly_per_capita": {
-      "2026": 4.06,
+      "2026": 2.67,
       "2027": 2.08,
       "2028": 3.38,
       "2029": 2.0,
@@ -852,13 +1464,251 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501028RB",
+    "ac_short": "Recurrent beleid Sportveldverlichting",
+    "ac_long": "Recurrent beleid Sportveldverlichting",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1236289.82,
+    "amount_per_capita": 10.32,
+    "yearly_amounts": {
+      "2026": 297289.82,
+      "2027": 260000.0,
+      "2028": 228000.0,
+      "2029": 176000.0,
+      "2030": 208000.0,
+      "2031": 67000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.48,
+      "2027": 2.17,
+      "2028": 1.9,
+      "2029": 1.47,
+      "2030": 1.74,
+      "2031": 0.56
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501024RB",
+    "ac_short": "Regulier onderhoud - Andere",
+    "ac_long": "Regulier onderhoud - Andere",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1052384.52,
+    "amount_per_capita": 8.78,
+    "yearly_amounts": {
+      "2026": 214109.52,
+      "2027": 396560.0,
+      "2028": 3097.0,
+      "2029": 10109.0,
+      "2030": 264222.0,
+      "2031": 164287.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.79,
+      "2027": 3.31,
+      "2028": 0.03,
+      "2029": 0.08,
+      "2030": 2.21,
+      "2031": 1.37
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 31",
+    "bd_short": "BD11: Efficiënte samenwerking en toekomstgericht bestuur",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1102",
+    "ap_short": "We zetten verder in op een innovatieve, datagedreven organis",
+    "ap_long": "We zetten verder in op een innovatieve, datagedreven organisatie en werken evidence based.",
+    "ac_code": "AP1102_AP1102_AC1102004",
+    "ac_short": "We zorgen voor een veilige en betrouwbare IT-infrastructuur.",
+    "ac_long": "We zorgen voor een veilige en betrouwbare IT-infrastructuur.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1001917.32,
+    "amount_per_capita": 8.36,
+    "yearly_amounts": {
+      "2026": 281917.32,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 380000.0,
+      "2031": 280000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.35,
+      "2027": 0.17,
+      "2028": 0.17,
+      "2029": 0.17,
+      "2030": 3.17,
+      "2031": 2.34
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0804004RB",
+    "ac_short": "Recurrent beleid Jeugddienst.",
+    "ac_long": "Recurrent beleid Jeugddienst.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 992500.0,
+    "amount_per_capita": 8.28,
+    "yearly_amounts": {
+      "2026": 583750.0,
+      "2027": 3750.0,
+      "2028": 198750.0,
+      "2029": 3750.0,
+      "2030": 198750.0,
+      "2031": 3750.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.87,
+      "2027": 0.03,
+      "2028": 1.66,
+      "2029": 0.03,
+      "2030": 1.66,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606024RB",
+    "ac_short": "Heraanleg Gemeneweidestraat-Kasteeldreef",
+    "ac_long": "Recurrent beleid Heraanleg Gemeneweidestraat-Kasteeldreef",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 938724.7,
+    "amount_per_capita": 7.83,
+    "yearly_amounts": {
+      "2026": 938724.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501033RB",
+    "ac_short": "Recurrent beleid Wagens",
+    "ac_long": "Recurrent beleid Wagens",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 937296.56,
+    "amount_per_capita": 7.82,
+    "yearly_amounts": {
+      "2026": 937296.56,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.82,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0807012RB",
+    "ac_short": "Recurrent beleid CVO SNT",
+    "ac_long": "Recurrent beleid CVO SNT",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 916338.9,
+    "amount_per_capita": 7.65,
+    "yearly_amounts": {
+      "2026": 148784.9,
+      "2027": 149356.0,
+      "2028": 150842.0,
+      "2029": 153807.0,
+      "2030": 155292.0,
+      "2031": 158257.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.24,
+      "2027": 1.25,
+      "2028": 1.26,
+      "2029": 1.28,
+      "2030": 1.3,
+      "2031": 1.32
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
     "bd_short": "BD06: Propere wijken en verstandig groen",
     "bd_long": "Commentaar:",
     "ap_code": "AP0610",
     "ap_short": "We onderhouden recreatie- en sportinfrastructuur.",
     "ap_long": "We onderhouden recreatie- en sportinfrastructuur.",
-    "ac_code": "AP0610",
+    "ac_code": "AP0610_AP0610_AC0610001",
     "ac_short": "We engageren verenigingen bij het beheer, onderhoud en de in",
     "ac_long": "We engageren verenigingen bij het beheer, onderhoud en de inrichting van sport- en recreatieterreinen.",
     "categories": [
@@ -886,251 +1736,1169 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD10: Cultuur vormt de hartslag van onze stad",
-    "bd_long": "Commentaar:",
-    "ap_code": "AP1010",
-    "ap_short": "We profileren Brugge verder als film- en boekenstad.",
-    "ap_long": "We profileren Brugge verder als film- en boekenstad.",
-    "ac_code": "AP1010",
-    "ac_short": "De bibliotheken blijven gastvrije en inspirerende huiskamer",
-    "ac_long": "De bibliotheken blijven gastvrije en inspirerende huiskamers in de wijken.",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1201006RB",
+    "ac_short": "Recurrent beleid Dienst Werk en Ondernemen",
+    "ac_long": "Recurrent beleid Dienst Werk en Ondernemen",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "05-ondernemen-werken"
     ],
-    "total_amount": 868952.0,
-    "amount_per_capita": 7.25,
+    "total_amount": 835102.0,
+    "amount_per_capita": 6.97,
     "yearly_amounts": {
-      "2026": 123442.0,
-      "2027": 123442.0,
-      "2028": 123442.0,
-      "2029": 166942.0,
-      "2030": 158242.0,
-      "2031": 173442.0
+      "2026": 198667.0,
+      "2027": 104667.0,
+      "2028": 187767.0,
+      "2029": 114667.0,
+      "2030": 114667.0,
+      "2031": 114667.0
     },
     "yearly_per_capita": {
-      "2026": 1.03,
-      "2027": 1.03,
-      "2028": 1.03,
-      "2029": 1.39,
-      "2030": 1.32,
-      "2031": 1.45
+      "2026": 1.66,
+      "2027": 0.87,
+      "2028": 1.57,
+      "2029": 0.96,
+      "2030": 0.96,
+      "2031": 0.96
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1104004RB",
+    "ac_short": "De Cluster Organisatie en Coördinatie ondersteunt de beleids",
+    "ac_long": "De Cluster Organisatie en Coördinatie ondersteunt de beleidsvoorbereiding, uitvoering en opvolging en realiseert een performante organisatiestructuur- en cultuur. (Recurrent beleid Strategische cel)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 834763.0,
+    "amount_per_capita": 6.97,
+    "yearly_amounts": {
+      "2026": 459763.0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.84,
+      "2027": 0.63,
+      "2028": 0.63,
+      "2029": 0.63,
+      "2030": 0.63,
+      "2031": 0.63
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1003012RB",
+    "ac_short": "Recurrent beleid Musea: Collectieonderzoek",
+    "ac_long": "Recurrent beleid Musea: Collectieonderzoek",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 823837.0,
+    "amount_per_capita": 6.88,
+    "yearly_amounts": {
+      "2026": 103562.0,
+      "2027": 144055.0,
+      "2028": 144055.0,
+      "2029": 144055.0,
+      "2030": 144055.0,
+      "2031": 144055.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.86,
+      "2027": 1.2,
+      "2028": 1.2,
+      "2029": 1.2,
+      "2030": 1.2,
+      "2031": 1.2
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 31",
+    "bd_short": "BD11: Efficiënte samenwerking en toekomstgericht bestuur",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1102",
+    "ap_short": "We zetten verder in op een innovatieve, datagedreven organis",
+    "ap_long": "We zetten verder in op een innovatieve, datagedreven organisatie en werken evidence based.",
+    "ac_code": "AP1102_AP1102_AC1102001",
+    "ac_short": "We blijven onze voortrekkersrol als 'smart city' vervullen.",
+    "ac_long": "We blijven onze voortrekkersrol als 'smart city' vervullen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 813894.0,
+    "amount_per_capita": 6.79,
+    "yearly_amounts": {
+      "2026": 202319.0,
+      "2027": 122315.0,
+      "2028": 122315.0,
+      "2029": 122315.0,
+      "2030": 122315.0,
+      "2031": 122315.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.69,
+      "2027": 1.02,
+      "2028": 1.02,
+      "2029": 1.02,
+      "2030": 1.02,
+      "2031": 1.02
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501027RB",
+    "ac_short": "Recurrent beleid Monumentenverlichting",
+    "ac_long": "Recurrent beleid Monumentenverlichting",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 765243.0,
+    "amount_per_capita": 6.39,
+    "yearly_amounts": {
+      "2026": 765243.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1601004RB",
+    "ac_short": "Recurrent beleid dienst Financiën",
+    "ac_long": "Recurrent beleid dienst Financiën",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 734408.32,
+    "amount_per_capita": 6.13,
+    "yearly_amounts": {
+      "2026": 299408.32,
+      "2027": 87000.0,
+      "2028": 87000.0,
+      "2029": 87000.0,
+      "2030": 87000.0,
+      "2031": 87000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.5,
+      "2027": 0.73,
+      "2028": 0.73,
+      "2029": 0.73,
+      "2030": 0.73,
+      "2031": 0.73
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606027RB",
+    "ac_short": "Heraanleg Leopold I-l",
+    "ac_long": "Heraanleg Leopold I-laan (= fase 2 Christus-Koning)",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 694614.0,
+    "amount_per_capita": 5.8,
+    "yearly_amounts": {
+      "2026": 694614.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0801006RB",
+    "ac_short": "Recurrent beleid Sportinfrastructuur",
+    "ac_long": "Recurrent beleid Sportinfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 684450.0,
+    "amount_per_capita": 5.71,
+    "yearly_amounts": {
+      "2026": 274200.0,
+      "2027": 29850.0,
+      "2028": 29850.0,
+      "2029": 29850.0,
+      "2030": 290850.0,
+      "2031": 29850.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.29,
+      "2027": 0.25,
+      "2028": 0.25,
+      "2029": 0.25,
+      "2030": 2.43,
+      "2031": 0.25
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0807009RB",
+    "ac_short": "Recurrent beleid  Kunsthumaniora",
+    "ac_long": "Recurrent beleid  Kunsthumaniora",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 673420.0,
+    "amount_per_capita": 5.62,
+    "yearly_amounts": {
+      "2026": 112238.0,
+      "2027": 112236.0,
+      "2028": 112238.0,
+      "2029": 112236.0,
+      "2030": 112236.0,
+      "2031": 112236.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.94,
+      "2027": 0.94,
+      "2028": 0.94,
+      "2029": 0.94,
+      "2030": 0.94,
+      "2031": 0.94
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501023RB",
+    "ac_short": "Regulier onderhoud - Elektriciteit",
+    "ac_long": "Regulier onderhoud - Elektriciteit",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 651520.65,
+    "amount_per_capita": 5.44,
+    "yearly_amounts": {
+      "2026": 651520.65,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606017RB",
+    "ac_short": "Heraanleg betonwegen",
+    "ac_long": "Recurrent beleid heraanleg betonwegen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 650000.0,
+    "amount_per_capita": 5.42,
+    "yearly_amounts": {
+      "2026": 650000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606018RB",
+    "ac_short": "Heraanleg afsvaltwegen",
+    "ac_long": "Recurrent beleid heraanleg asvaltwegen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 650000.0,
+    "amount_per_capita": 5.42,
+    "yearly_amounts": {
+      "2026": 650000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1104008RB",
+    "ac_short": "Recurrent beleid Erediensten",
+    "ac_long": "Recurrent beleid Erediensten",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 619833.45,
+    "amount_per_capita": 5.17,
+    "yearly_amounts": {
+      "2026": 619833.45,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1008018RB",
+    "ac_short": "Recurrent beleid Cultuurcentrum",
+    "ac_long": "Recurrent beleid Cultuurcentrum",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 613350.0,
+    "amount_per_capita": 5.12,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 17400.0,
+      "2028": 334950.0,
+      "2029": 261000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.15,
+      "2028": 2.8,
+      "2029": 2.18,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606029RB",
+    "ac_short": "Heraanleg Zwaanhofstr.",
+    "ac_long": "Heraanleg Zwaanhofstraat",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 584475.0,
+    "amount_per_capita": 4.88,
+    "yearly_amounts": {
+      "2026": 584475.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606030RB",
+    "ac_short": "Heraanleg Lisseweegse Stnwg fase 1 incl. Wulfsberge",
+    "ac_long": "Heraanleg Lisseweegse Steenweg fase 1 incl. Wulfsberge",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 562198.0,
+    "amount_per_capita": 4.69,
+    "yearly_amounts": {
+      "2026": 562198.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.69,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606022RB",
+    "ac_short": "Heraanleg Evendijk West",
+    "ac_long": "Recurrent beleid heraanleg Evendijk West",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 556600.0,
+    "amount_per_capita": 4.65,
+    "yearly_amounts": {
+      "2026": 556600.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.65,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 30",
+    "bd_short": "BD10: Cultuur vormt de hartslag van onze stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1010",
+    "ap_short": "We profileren Brugge verder als film- en boekenstad.",
+    "ap_long": "We profileren Brugge verder als film- en boekenstad.",
+    "ac_code": "AP1010_AP1010_AC1010001",
+    "ac_short": "De bibliotheken blijven gastvrije en inspirerende huiskamer",
+    "ac_long": "De bibliotheken blijven gastvrije en inspirerende huiskamers in de wijken.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 526807.83,
+    "amount_per_capita": 4.4,
+    "yearly_amounts": {
+      "2026": 159597.83,
+      "2027": 73442.0,
+      "2028": 73442.0,
+      "2029": 73442.0,
+      "2030": 73442.0,
+      "2031": 73442.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.33,
+      "2027": 0.61,
+      "2028": 0.61,
+      "2029": 0.61,
+      "2030": 0.61,
+      "2031": 0.61
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 30",
     "bd_short": "BD10: Cultuur vormt de hartslag van onze stad",
     "bd_long": "Commentaar:",
     "ap_code": "AP1008",
     "ap_short": "We zorgen voor een kwalitatief, toegankelijk en laagdrempeli",
     "ap_long": "We zorgen voor een kwalitatief, toegankelijk en laagdrempelig cultuuraanbod.",
-    "ac_code": "AP1008",
-    "ac_short": "We blijven inzetten op cultuurparticipatie van kansengroepen",
-    "ac_long": "We blijven inzetten op cultuurparticipatie van kansengroepen.",
+    "ac_code": "AP1008_AP1008_AC1008015NP",
+    "ac_short": "Het cultuurcentrum zorgt voor eeen professionele technische",
+    "ac_long": "Het cultuurcentrum zorgt voor eeen professionele technische ondersteuning van voorstellingen en events.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 516071.0,
-    "amount_per_capita": 4.3,
+    "total_amount": 500002.0,
+    "amount_per_capita": 4.17,
     "yearly_amounts": {
       "2026": 116667.0,
-      "2027": 124266.0,
+      "2027": 116667.0,
       "2028": 66667.0,
       "2029": 66667.0,
-      "2030": 75137.0,
+      "2030": 66667.0,
       "2031": 66667.0
     },
     "yearly_per_capita": {
       "2026": 0.97,
-      "2027": 1.04,
+      "2027": 0.97,
       "2028": 0.56,
       "2029": 0.56,
-      "2030": 0.63,
+      "2030": 0.56,
       "2031": 0.56
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD04",
-    "bd_long": "BD04 Zorg, welzijn en sociale inclusie: we zetten in op een warme stad",
-    "ap_code": "AP0408",
-    "ap_short": "Huis biedt zorg &steun vr pers. met beperk,thuis en in resid",
-    "ap_long": "Ons Huis voorziet zorg en ondersteuning voor personen met een beperking, zowel thuis als in een (semi)-residentiële setting.",
-    "ac_code": "AP0408",
-    "ac_short": "Aanbod zorgoploss vr pers.met beperking, afgest op zorgnoden",
-    "ac_long": "We bieden zorgoplossingen voor personen met een beperking, afgestemd op de zorgnoden die men ervaart.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 513340.0,
-    "amount_per_capita": 4.28,
-    "yearly_amounts": {
-      "2026": 223950.0,
-      "2027": 66110.0,
-      "2028": 36110.0,
-      "2029": 111110.0,
-      "2030": 36110.0,
-      "2031": 39950.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.87,
-      "2027": 0.55,
-      "2028": 0.3,
-      "2029": 0.93,
-      "2030": 0.3,
-      "2031": 0.33
-    }
-  },
-  {
-    "municipality": "Brugge",
-    "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD04",
-    "bd_long": "BD04 Zorg, welzijn en sociale inclusie: we zetten in op een warme stad",
-    "ap_code": "AP0405",
-    "ap_short": "Hulp-&dienstvel.vr pers. in armoede,focus dak- en thuislozen",
-    "ap_long": "We organiseren hulp- en dienstverlening voor personen in armoede, met focus op dak- en thuislozen",
-    "ac_code": "AP0405",
-    "ac_short": "Sas biedt vold. opvang & begel. voor dak- & thuislozen",
-    "ac_long": "De vereniging 't Sas biedt voldoende opvang en begeleiding voor dak- en thuislozen.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 390400.0,
-    "amount_per_capita": 3.26,
-    "yearly_amounts": {
-      "2026": 137960.0,
-      "2027": 35120.0,
-      "2028": 148120.0,
-      "2029": 35120.0,
-      "2030": 15120.0,
-      "2031": 18960.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.15,
-      "2027": 0.29,
-      "2028": 1.24,
-      "2029": 0.29,
-      "2030": 0.13,
-      "2031": 0.16
-    }
-  },
-  {
-    "municipality": "Brugge",
-    "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD08: Jeugd, sport en onderwijs",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
     "bd_long": "Commentaar:",
-    "ap_code": "AP0806",
-    "ap_short": "We creëren veilige, toegankelijke en aantrekkelijke ruimte w",
-    "ap_long": "We creëren veilige, toegankelijke en aantrekkelijke ruimte waar kinderen en jongeren kunnen spelen, experimenteren en hun eigen initiatieven kunnen ontwikkelen.",
-    "ac_code": "AP0806",
-    "ac_short": "We voorzien ruimte en infrastructuur voor kinderen en jonger",
-    "ac_long": "We voorzien ruimte en infrastructuur voor kinderen en jongeren.",
-    "categories": [
-      "08-onderwijs"
-    ],
-    "total_amount": 351000.0,
-    "amount_per_capita": 2.93,
-    "yearly_amounts": {
-      "2026": 237000.0,
-      "2027": 0,
-      "2028": 57000.0,
-      "2029": 0,
-      "2030": 57000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.98,
-      "2027": 0,
-      "2028": 0.48,
-      "2029": 0,
-      "2030": 0.48,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Brugge",
-    "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD01: Brugge is klantvriendelijk en gastvrij",
-    "bd_long": "Commentaar:",
-    "ap_code": "AP0102",
-    "ap_short": "We zetten in op een toegankelijke en klantgerichte dienstver",
-    "ap_long": "We zetten in op een toegankelijke en klantgerichte dienstverlening voor alle klanten van de Stad.",
-    "ac_code": "AP0102",
-    "ac_short": "We zetten verder in op een uitgebreide, klantgerichte en eff",
-    "ac_long": "We zetten verder in op een uitgebreide, klantgerichte en efficiënte dienstverlening op maat van onze inwoners en partners.",
+    "ap_code": "AP1501",
+    "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
+    "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
+    "ac_code": "AP1501_AP1501_AC1501050",
+    "ac_short": "We doen de nodige investeringen in de oude Stelplaats Site D",
+    "ac_long": "We doen de nodige investeringen in de oude Stelplaats Site De Lijn.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 341850.0,
-    "amount_per_capita": 2.85,
+    "total_amount": 500000.0,
+    "amount_per_capita": 4.17,
     "yearly_amounts": {
-      "2026": 56975.0,
-      "2027": 56975.0,
-      "2028": 56975.0,
-      "2029": 56975.0,
-      "2030": 56975.0,
-      "2031": 56975.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 500000.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.48,
-      "2027": 0.48,
-      "2028": 0.48,
-      "2029": 0.48,
-      "2030": 0.48,
-      "2031": 0.48
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 4.17,
+      "2031": 0
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD04",
-    "bd_long": "Zorg, welzijn en sociale inclusie: we zetten in op een warme stad",
-    "ap_code": "AP0411",
-    "ap_short": "WOK",
-    "ap_long": "We bieden aangepaste tewerkstelling en arbeidsbegeleiding aan via de welzijnsvereniging WOK aan mensen met een afstand tot de arbeidsmarkt",
-    "ac_code": "AP0411",
-    "ac_short": "We doen een aanbod van atelierwerking en groenwerking in de",
-    "ac_long": "We doen een aanbod van atelierwerking en groenwerking in de buurt voor kwetsbare gezinnen en voor instellingen met grotere tuinen.",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1501",
+    "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
+    "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
+    "ac_code": "AP1501_AP1501_AC1501051NP",
+    "ac_short": "We voeren de nodige herstellingen uit aan de Minnewaterbrug.",
+    "ac_long": "We voeren de nodige herstellingen uit aan de Minnewaterbrug.",
     "categories": [
-      "05-ondernemen-werken"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 299662.0,
-    "amount_per_capita": 2.5,
+    "total_amount": 500000.0,
+    "amount_per_capita": 4.17,
     "yearly_amounts": {
-      "2026": 166975.0,
-      "2027": 83553.0,
-      "2028": 15553.0,
-      "2029": 10553.0,
-      "2030": 10553.0,
-      "2031": 12475.0
+      "2026": 83333.0,
+      "2027": 416667.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.39,
-      "2027": 0.7,
-      "2028": 0.13,
-      "2029": 0.09,
-      "2030": 0.09,
-      "2031": 0.1
+      "2026": 0.7,
+      "2027": 3.48,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606025RB",
+    "ac_short": "Heraanleg en herstel ntuurstnverharding",
+    "ac_long": "Heraanleg en herstel natuursteenverharding",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 458333.33,
+    "amount_per_capita": 3.82,
+    "yearly_amounts": {
+      "2026": 458333.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.82,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606031RB",
+    "ac_short": "Heraanleg Jan Miraelstr",
+    "ac_long": "Heraanleg Jan Miraelstraat",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 450489.0,
+    "amount_per_capita": 3.76,
+    "yearly_amounts": {
+      "2026": 450489.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.76,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0101004RB",
+    "ac_short": "Recurrent beleid dienst Communicatie en Citymarketing en sta",
+    "ac_long": "Recurrent beleid dienst Communicatie en Citymarketing en stadsdrukkerij.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 425031.0,
+    "amount_per_capita": 3.55,
+    "yearly_amounts": {
+      "2026": 86681.0,
+      "2027": 80890.0,
+      "2028": 96990.0,
+      "2029": 53490.0,
+      "2030": 53490.0,
+      "2031": 53490.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.72,
+      "2027": 0.68,
+      "2028": 0.81,
+      "2029": 0.45,
+      "2030": 0.45,
+      "2031": 0.45
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1501",
+    "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
+    "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
+    "ac_code": "AP1501_AP1501_AC1501014NP",
+    "ac_short": "We voorzien de nodige middelen voor de resterende kosten in",
+    "ac_long": "We voorzien de nodige middelen voor de resterende kosten in het kader van het nieuwbouwproject \"Multifunctioneel centrum Scharphoutsite\" .",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 414853.6,
+    "amount_per_capita": 3.46,
+    "yearly_amounts": {
+      "2026": 414853.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501022RB",
+    "ac_short": "Regulier onderhoud - HVAC en Sanitair",
+    "ac_long": "Regulier onderhoud - HVAC en Sanitair",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 381680.06,
+    "amount_per_capita": 3.19,
+    "yearly_amounts": {
+      "2026": 381680.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.19,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0604015RB",
+    "ac_short": "Recurrent beleid Buurtpark Ten Boomgaarde",
+    "ac_long": "Recurrent beleid Buurtpark Ten Boomgaarde",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 371671.15,
+    "amount_per_capita": 3.1,
+    "yearly_amounts": {
+      "2026": 371671.15,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606026RB",
+    "ac_short": "Heraanleg Ontmijnersl, Hg Brabantl, Abdbijbekestr, Titecastr",
+    "ac_long": "Heraanleg Ontmijnerslaan, Hoog Brabantlaan, Abdijbekestraat, Titecastraat",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 365909.09,
+    "amount_per_capita": 3.05,
+    "yearly_amounts": {
+      "2026": 365909.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606023RB",
+    "ac_short": "Heraanleg Walweinstr en Julius&Maurits Sabbestr",
+    "ac_long": "Recurrent beleid heraanleg Walweinstraat en Julius & Maurits Sabbestraat",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 347710.45,
+    "amount_per_capita": 2.9,
+    "yearly_amounts": {
+      "2026": 347710.45,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.9,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0306003RB",
+    "ac_short": "Recurrent beleid Monumentenzorg",
+    "ac_long": "Recurrent beleid Monumentenzorg",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 333937.54,
+    "amount_per_capita": 2.79,
+    "yearly_amounts": {
+      "2026": 152687.54,
+      "2027": 36250.0,
+      "2028": 36250.0,
+      "2029": 36250.0,
+      "2030": 36250.0,
+      "2031": 36250.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.27,
+      "2027": 0.3,
+      "2028": 0.3,
+      "2029": 0.3,
+      "2030": 0.3,
+      "2031": 0.3
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606007RB",
+    "ac_short": "Verk.palen, fietsnietj., verk.sign., betteg., afvalm. binnst",
+    "ac_long": "Recurrent beleid verkeerspalen, fietsnietjes, verkeerssignalisatie, betontegels, afvalmanden binnenstad",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 333333.33,
+    "amount_per_capita": 2.78,
+    "yearly_amounts": {
+      "2026": 333333.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.78,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 25",
+    "bd_short": "BD05: Slimme mobiliteit en vlotte bereikbaarheid",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0502",
+    "ap_short": "We bouwen verder aan Brugge fietsstad.",
+    "ap_long": "We bouwen verder aan Brugge fietsstad.",
+    "ac_code": "AP0502_AP0502_AC0502004",
+    "ac_short": "Heraanleg fietspad Kolvestraat",
+    "ac_long": "We realiseren de heraanleg van het fietspad aan de Kolvestraat.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 321091.06,
+    "amount_per_capita": 2.68,
+    "yearly_amounts": {
+      "2026": 321091.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 30",
+    "bd_short": "BD10: Cultuur vormt de hartslag van onze stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1010",
+    "ap_short": "We profileren Brugge verder als film- en boekenstad.",
+    "ap_long": "We profileren Brugge verder als film- en boekenstad.",
+    "ac_code": "AP1010_AP1010_AC1010006NP",
+    "ac_short": "De bibliotheek beheert en onderhoudt een waardevolle erfgoed",
+    "ac_long": "De bibliotheek beheert en onderhoudt een waardevolle erfgoedcollectie.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 300646.28,
+    "amount_per_capita": 2.51,
+    "yearly_amounts": {
+      "2026": 50646.28,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.42,
+      "2027": 0.42,
+      "2028": 0.42,
+      "2029": 0.42,
+      "2030": 0.42,
+      "2031": 0.42
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1101010RB",
+    "ac_short": "Recurrent beleid Personeel en organisatie",
+    "ac_long": "Recurrent beleid Personeel en organisatie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 278240.0,
+    "amount_per_capita": 2.32,
+    "yearly_amounts": {
+      "2026": 54650.0,
+      "2027": 101790.0,
+      "2028": 30450.0,
+      "2029": 30450.0,
+      "2030": 30450.0,
+      "2031": 30450.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.46,
+      "2027": 0.85,
+      "2028": 0.25,
+      "2029": 0.25,
+      "2030": 0.25,
+      "2031": 0.25
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 33",
     "bd_short": "BD13: Zeebrugge: haven en leefbaarheid in harmonie",
     "bd_long": "Commentaar:",
     "ap_code": "AP1301",
     "ap_short": "We blijven volop inzetten op de verdere ontwikkeling van de",
     "ap_long": "We blijven volop inzetten op de verdere ontwikkeling van de haven.",
-    "ac_code": "AP1301",
+    "ac_code": "AP1301_AP1301_AC1301001",
     "ac_short": "We hebben aandacht voor het economisch belang van de visseri",
     "ac_long": "We hebben aandacht voor het economisch belang van de visserij in Zeebrugge.",
     "categories": [
@@ -1158,13 +2926,557 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0204001RB",
+    "ac_short": "We ondersteunen het woonbeleid van de Stad. (Recurrent belei",
+    "ac_long": "We ondersteunen het woonbeleid van de Stad. (Recurrent beleid Overig woonbeleid)",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 267500.0,
+    "amount_per_capita": 2.23,
+    "yearly_amounts": {
+      "2026": 158750.0,
+      "2027": 108750.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.32,
+      "2027": 0.91,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0607",
+    "ap_short": "We voeren een ambitieus stedelijk beleid rond natuur, bos en",
+    "ap_long": "We voeren een ambitieus stedelijk beleid rond natuur, bos en duurzame landbouw.",
+    "ac_code": "AP0607_AP0607_AC0607001",
+    "ac_short": "We betrekken inwoners en partners bij het stedelijk beleid r",
+    "ac_long": "We betrekken inwoners en partners bij het stedelijk beleid rond natuur, bos en duurzame landbouw.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 261000.0,
+    "amount_per_capita": 2.18,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 261000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 2.18
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 28",
+    "bd_short": "BD08: Jeugd, sport en onderwijs",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0806",
+    "ap_short": "We creëren veilige, toegankelijke en aantrekkelijke ruimte w",
+    "ap_long": "We creëren veilige, toegankelijke en aantrekkelijke ruimte waar kinderen en jongeren kunnen spelen, experimenteren en hun eigen initiatieven kunnen ontwikkelen.",
+    "ac_code": "AP0806_AP0806_AC0806002",
+    "ac_short": "We voorzien ruimte en infrastructuur voor kinderen en jonger",
+    "ac_long": "We voorzien ruimte en infrastructuur voor kinderen en jongeren.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 261000.0,
+    "amount_per_capita": 2.18,
+    "yearly_amounts": {
+      "2026": 147000.0,
+      "2027": 0,
+      "2028": 57000.0,
+      "2029": 0,
+      "2030": 57000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.23,
+      "2027": 0,
+      "2028": 0.48,
+      "2029": 0,
+      "2030": 0.48,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606009RB",
+    "ac_short": "Omgevingswerken Paul Gilson",
+    "ac_long": "Recurrent beleid omgevingswerken Paul Gilson",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 260793.72,
+    "amount_per_capita": 2.18,
+    "yearly_amounts": {
+      "2026": 260793.72,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.18,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501037RB",
+    "ac_short": "Recurrent beleid Soft Facilities",
+    "ac_long": "Recurrent beleid Soft Facilities",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 257250.0,
+    "amount_per_capita": 2.15,
+    "yearly_amounts": {
+      "2026": 205375.0,
+      "2027": 10375.0,
+      "2028": 10375.0,
+      "2029": 10375.0,
+      "2030": 10375.0,
+      "2031": 10375.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.71,
+      "2027": 0.09,
+      "2028": 0.09,
+      "2029": 0.09,
+      "2030": 0.09,
+      "2031": 0.09
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606010RB",
+    "ac_short": "Heraanleg van Leeg tot Zand",
+    "ac_long": "Recurrent beleid heraanleg van Leeg tot Zand",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 252940.47,
+    "amount_per_capita": 2.11,
+    "yearly_amounts": {
+      "2026": 252940.47,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.11,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606013RB",
+    "ac_short": "Heraanleg Dampoortkwartier",
+    "ac_long": "Recurrent beleid heraanleg Dampoortkwartier",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 251378.04,
+    "amount_per_capita": 2.1,
+    "yearly_amounts": {
+      "2026": 251378.04,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606015RB",
+    "ac_short": "Raamcontract wegmarkeringen",
+    "ac_long": "Recurrent beleid raamcontract wegmarkeringen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 2.09,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606034RB",
+    "ac_short": "Herstel Kaaimuur Spiegelrei",
+    "ac_long": "Herstel Kaaimuur Spiegelrei",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 2.09,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0807011RB",
+    "ac_short": "Recurrent beleid DKO Academie",
+    "ac_long": "Recurrent beleid DKO Academie",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 248854.1,
+    "amount_per_capita": 2.08,
+    "yearly_amounts": {
+      "2026": 58830.1,
+      "2027": 38005.0,
+      "2028": 38005.0,
+      "2029": 38005.0,
+      "2030": 38005.0,
+      "2031": 38004.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.49,
+      "2027": 0.32,
+      "2028": 0.32,
+      "2029": 0.32,
+      "2030": 0.32,
+      "2031": 0.32
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501042RB",
+    "ac_short": "Recurrent beleid Veiligheid algemeen",
+    "ac_long": "Recurrent beleid Veiligheid algemeen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 228774.28,
+    "amount_per_capita": 1.91,
+    "yearly_amounts": {
+      "2026": 228774.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.91,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 21",
+    "bd_short": "BD01: Brugge is klantvriendelijk en gastvrij",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0102",
+    "ap_short": "We zetten in op een toegankelijke en klantgerichte dienstver",
+    "ap_long": "We zetten in op een toegankelijke en klantgerichte dienstverlening voor alle klanten van de Stad.",
+    "ac_code": "AP0102_AP0102_AC0102007NP",
+    "ac_short": "We staan in voor een vlotte organisatie van de verkiezingen.",
+    "ac_long": "We staan in voor een vlotte organisatie van de verkiezingen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 221850.0,
+    "amount_per_capita": 1.85,
+    "yearly_amounts": {
+      "2026": 36975.0,
+      "2027": 36975.0,
+      "2028": 36975.0,
+      "2029": 36975.0,
+      "2030": 36975.0,
+      "2031": 36975.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.31,
+      "2027": 0.31,
+      "2028": 0.31,
+      "2029": 0.31,
+      "2030": 0.31,
+      "2031": 0.31
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1003016RB",
+    "ac_short": "Recurrent beleid Musea: Conservatie en restauratie",
+    "ac_long": "Recurrent beleid Musea: Conservatie en restauratie",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 216855.0,
+    "amount_per_capita": 1.81,
+    "yearly_amounts": {
+      "2026": 129355.0,
+      "2027": 52500.0,
+      "2028": 27500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.08,
+      "2027": 0.44,
+      "2028": 0.23,
+      "2029": 0.02,
+      "2030": 0.02,
+      "2031": 0.02
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0807010RB",
+    "ac_short": "Recurrent beleid DKO Conservatorium",
+    "ac_long": "Recurrent beleid DKO Conservatorium",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 214862.61,
+    "amount_per_capita": 1.79,
+    "yearly_amounts": {
+      "2026": 46820.61,
+      "2027": 33609.0,
+      "2028": 33608.0,
+      "2029": 33608.0,
+      "2030": 33608.0,
+      "2031": 33609.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.39,
+      "2027": 0.28,
+      "2028": 0.28,
+      "2029": 0.28,
+      "2030": 0.28,
+      "2031": 0.28
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606016RB",
+    "ac_short": "Heraanleg en herstel kleinschalige verharding",
+    "ac_long": "Recurrent beleid heraanleg en herstel kleinschalige verharding",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 208333.33,
+    "amount_per_capita": 1.74,
+    "yearly_amounts": {
+      "2026": 208333.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1011005RB",
+    "ac_short": "Recurrent beleid Archief",
+    "ac_long": "Recurrent beleid Archief",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 175400.0,
+    "amount_per_capita": 1.46,
+    "yearly_amounts": {
+      "2026": 34750.0,
+      "2027": 24650.0,
+      "2028": 94250.0,
+      "2029": 7250.0,
+      "2030": 7250.0,
+      "2031": 7250.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.29,
+      "2027": 0.21,
+      "2028": 0.79,
+      "2029": 0.06,
+      "2030": 0.06,
+      "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 25",
     "bd_short": "BD05: Slimme mobiliteit en vlotte bereikbaarheid",
     "bd_long": "Commentaar:",
     "ap_code": "AP0505",
     "ap_short": "We blijven sterk inzetten op verkeersveiligheid en leefbaarh",
     "ap_long": "We blijven sterk inzetten op verkeersveiligheid en leefbaarheid.",
-    "ac_code": "AP0505",
+    "ac_code": "AP0505_AP0505_AC0505002",
     "ac_short": "Op belangrijke verkeersknooppunten nemen we initiatieven ron",
     "ac_long": "Op belangrijke verkeersknooppunten nemen we initiatieven rond verkeersveiligheid.",
     "categories": [
@@ -1192,22 +3504,56 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_code": "BDS 34",
+    "bd_short": "BD14: Toerisme evolueert gunstig voor iedereen",
     "bd_long": "Commentaar:",
-    "ap_code": "AP0608",
-    "ap_short": "We optimaliseren onze natuureducatieve werking.",
-    "ap_long": "We optimaliseren onze natuureducatieve werking.",
-    "ac_code": "AP0608",
-    "ac_short": "We bouwen het natuurcentrum Beisbroek verder uit.",
-    "ac_long": "We bouwen het natuurcentrum Beisbroek verder uit.",
+    "ap_code": "AP1401",
+    "ap_short": "Toerisme draagt bij aan een aantrekkelijke beleefstad.",
+    "ap_long": "Toerisme draagt bij aan een aantrekkelijke beleefstad.",
+    "ac_code": "AP1401_AP1401_AC1401001",
+    "ac_short": "Met gerichte acties dragen we bij tot een kwalitatief belevi",
+    "ac_long": "Met gerichte acties dragen we bij tot een kwalitatief belevingsklimaat.",
     "categories": [
-      "03-natuur-milieu"
+      "05-ondernemen-werken"
     ],
-    "total_amount": 130500.0,
-    "amount_per_capita": 1.09,
+    "total_amount": 174000.0,
+    "amount_per_capita": 1.45,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 65250.0,
+      "2027": 108750.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.54,
+      "2027": 0.91,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501040RB",
+    "ac_short": "Recurrent beleid verwijderen Asbest",
+    "ac_long": "Recurrent beleid verwijderen Asbest",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 173140.4,
+    "amount_per_capita": 1.44,
+    "yearly_amounts": {
+      "2026": 42640.4,
       "2027": 130500.0,
       "2028": 0,
       "2029": 0,
@@ -1215,7 +3561,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.36,
       "2027": 1.09,
       "2028": 0,
       "2029": 0,
@@ -1226,13 +3572,489 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0608",
+    "ap_short": "We optimaliseren onze natuureducatieve werking.",
+    "ap_long": "We optimaliseren onze natuureducatieve werking.",
+    "ac_code": "AP0608_AP0608_AC0608001",
+    "ac_short": "We bouwen het natuurcentrum Beisbroek verder uit.",
+    "ac_long": "We bouwen het natuurcentrum Beisbroek verder uit.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 165787.15,
+    "amount_per_capita": 1.38,
+    "yearly_amounts": {
+      "2026": 35287.15,
+      "2027": 130500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.29,
+      "2027": 1.09,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0708001RB",
+    "ac_short": "We nemen initiatieven ter ondersteuning van het beleid inzak",
+    "ac_long": "We nemen initiatieven ter ondersteuning van het beleid inzake klimaat en leefmilieu.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 162624.0,
+    "amount_per_capita": 1.36,
+    "yearly_amounts": {
+      "2026": 162624.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501038RB",
+    "ac_short": "Recurrent beleid Brandveiligheid en -bestrijding",
+    "ac_long": "Recurrent beleid Brandveiligheid en -bestrijding",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 1.25,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0604",
+    "ap_short": "We gaan voor nette en verzorgde groene wijken en buurten.",
+    "ap_long": "We gaan voor nette en verzorgde groene wijken en buurten.",
+    "ac_code": "AP0604_AP0604_AC0604010NP",
+    "ac_short": "Samen met Vlaamse en Nederlandse partners zetten we in op kl",
+    "ac_long": "Samen met Vlaamse en Nederlandse partners zetten we in op klimaatrobuust stadsgroen (europees project).",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 138000.0,
+    "amount_per_capita": 1.15,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 138000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 1.15
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 28",
+    "bd_short": "BD08: Jeugd, sport en onderwijs",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0801",
+    "ap_short": "We voorzien ruimte en infrastructuur voor sport.",
+    "ap_long": "We voorzien ruimte en infrastructuur voor sport.",
+    "ac_code": "AP0801_AP0801_AC0801005",
+    "ac_short": "We waarderen de stedelijke sportinfrastructuur op, zodat ze",
+    "ac_long": "We waarderen de stedelijke sportinfrastructuur op, zodat ze verder ontwikkeld wordt aan de hedendaagse normen, kwaliteits- en comforteisen.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 130500.0,
+    "amount_per_capita": 1.09,
+    "yearly_amounts": {
+      "2026": 130500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 24",
+    "bd_short": "BD04: Zorg, welzijn en sociale inclusie voor een warme stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0404",
+    "ap_short": "We zorgen ervoor dat iedereen een menswaardig leven kan leid",
+    "ap_long": "We zorgen ervoor dat iedereen een menswaardig leven kan leiden.",
+    "ac_code": "AP0404_AP0404_AC0404003",
+    "ac_short": "Vanuit het OCMW zetten we in op opvang voor asielzoekers, ti",
+    "ac_long": "Vanuit het OCMW zetten we in op opvang voor asielzoekers, tijdelijk ontheemden en dak- en thuislozen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 130000.0,
+    "amount_per_capita": 1.08,
+    "yearly_amounts": {
+      "2026": 65000.0,
+      "2027": 65000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.54,
+      "2027": 0.54,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606021RB",
+    "ac_short": "Heraanleg Sint-Pieterskerklaan",
+    "ac_long": "Recurrent beleid heraanleg Sint-Pieterskerklaan",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 129343.63,
+    "amount_per_capita": 1.08,
+    "yearly_amounts": {
+      "2026": 129343.63,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 30",
+    "bd_short": "BD10: Cultuur vormt de hartslag van onze stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1010",
+    "ap_short": "We profileren Brugge verder als film- en boekenstad.",
+    "ap_long": "We profileren Brugge verder als film- en boekenstad.",
+    "ac_code": "AP1010_AP1010_AC1010005NP",
+    "ac_short": "Erfgoedcollecties worden digitaal beschikbaar en toegankelij",
+    "ac_long": "Erfgoedcollecties worden digitaal beschikbaar en toegankelijk gemaakt.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 128300.0,
+    "amount_per_capita": 1.07,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 43500.0,
+      "2030": 34800.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.36,
+      "2030": 0.29,
+      "2031": 0.42
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0604",
+    "ap_short": "We gaan voor nette en verzorgde groene wijken en buurten.",
+    "ap_long": "We gaan voor nette en verzorgde groene wijken en buurten.",
+    "ac_code": "AP0604_AP0604_AC0604019",
+    "ac_short": "We investeren in de aanplanting van nieuwe bomen",
+    "ac_long": "We investeren in de aanplanting van nieuwe bomen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 126000.0,
+    "amount_per_capita": 1.05,
+    "yearly_amounts": {
+      "2026": 126000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0102013RB",
+    "ac_short": "Recurrent beleid Klantgerichte dienstverlening en administra",
+    "ac_long": "Recurrent beleid Klantgerichte dienstverlening en administratieve vereenvoudiging",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 122180.0,
+    "amount_per_capita": 1.02,
+    "yearly_amounts": {
+      "2026": 33585.0,
+      "2027": 42775.0,
+      "2028": 7105.0,
+      "2029": 7105.0,
+      "2030": 24505.0,
+      "2031": 7105.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.28,
+      "2027": 0.36,
+      "2028": 0.06,
+      "2029": 0.06,
+      "2030": 0.2,
+      "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 21",
+    "bd_short": "BD01: Brugge is klantvriendelijk en gastvrij",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0102",
+    "ap_short": "We zetten in op een toegankelijke en klantgerichte dienstver",
+    "ap_long": "We zetten in op een toegankelijke en klantgerichte dienstverlening voor alle klanten van de Stad.",
+    "ac_code": "AP0102_AP0102_AC0102004",
+    "ac_short": "We zetten verder in op een uitgebreide, klantgerichte en eff",
+    "ac_long": "We zetten verder in op een uitgebreide, klantgerichte en efficiënte dienstverlening op maat van onze inwoners en partners.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 1.0,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.17,
+      "2027": 0.17,
+      "2028": 0.17,
+      "2029": 0.17,
+      "2030": 0.17,
+      "2031": 0.17
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606008RB",
+    "ac_short": "Afsluitingen",
+    "ac_long": "Recurrent beleid afsluitingen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 1.0,
+    "yearly_amounts": {
+      "2026": 120000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0602",
+    "ap_short": "We zetten in op voldoende straatmeubilair en aangepaste verl",
+    "ap_long": "We zetten in op voldoende straatmeubilair en aangepaste verlichting.",
+    "ac_code": "AP0602_AP0602_AC0602005",
+    "ac_short": "Voorzien aangepaste zitgelegenheden op het OD",
+    "ac_long": "We investeren in aangepaste zitgelegenheden op het Openbaar Domein",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 118027.07,
+    "amount_per_capita": 0.98,
+    "yearly_amounts": {
+      "2026": 118027.07,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.98,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 28",
+    "bd_short": "BD08: Jeugd, sport en onderwijs",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0807",
+    "ap_short": "We bieden kwaliteitsvol stedelijk onderwijs aan.",
+    "ap_long": "We bieden kwaliteitsvol stedelijk onderwijs aan.",
+    "ac_code": "AP0807_AP0807_AC0807016NP",
+    "ac_short": "Digiplan Vlaanderen ICT-infrastructuur vr MGMT & Ond.Pers",
+    "ac_long": "Via Digiplan Vlaanderen ICT-infrastructuur voor management en onderwijzend personeel.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 111326.68,
+    "amount_per_capita": 0.93,
+    "yearly_amounts": {
+      "2026": 111326.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 34",
     "bd_short": "BD14: Toerisme evolueert gunstig voor iedereen",
     "bd_long": "Commentaar:",
     "ap_code": "AP1402",
     "ap_short": "We bouwen een sterke partner- en sectorwerking uit.",
     "ap_long": "We bouwen een sterke partner- en sectorwerking uit.",
-    "ac_code": "AP1402",
+    "ac_code": "AP1402_AP1402_AC1402001",
     "ac_short": "We betrekken en informeren het partner- en sectornetwerk en",
     "ac_long": "We betrekken en informeren het partner- en sectornetwerk en stimuleren kennisuitwisseling en -deling.",
     "categories": [
@@ -1260,13 +4082,387 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0102014RB",
+    "ac_short": "Recurrent beleid Crematoria",
+    "ac_long": "Recurrent beleid Crematoria",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 104400.0,
+    "amount_per_capita": 0.87,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 104400.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.87,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0807005RB",
+    "ac_short": "Recurrent beleid Basisschool Brugge-Noord",
+    "ac_long": "Recurrent beleid Basisschool Brugge-Noord",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 103628.35,
+    "amount_per_capita": 0.86,
+    "yearly_amounts": {
+      "2026": 18514.35,
+      "2027": 17023.0,
+      "2028": 17022.0,
+      "2029": 17023.0,
+      "2030": 17023.0,
+      "2031": 17023.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.15,
+      "2027": 0.14,
+      "2028": 0.14,
+      "2029": 0.14,
+      "2030": 0.14,
+      "2031": 0.14
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0807007RB",
+    "ac_short": "Recurrent beleid Basisschool De Geluksvogel",
+    "ac_long": "Recurrent beleid Basisschool De Geluksvogel",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 102590.0,
+    "amount_per_capita": 0.86,
+    "yearly_amounts": {
+      "2026": 17098.0,
+      "2027": 17099.0,
+      "2028": 17098.0,
+      "2029": 17099.0,
+      "2030": 17098.0,
+      "2031": 17098.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.14,
+      "2027": 0.14,
+      "2028": 0.14,
+      "2029": 0.14,
+      "2030": 0.14,
+      "2031": 0.14
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606028RB",
+    "ac_short": "Heraanleg St.-Michielslaan",
+    "ac_long": "Heraanleg St.-Michielslaan",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 0.83,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606033RB",
+    "ac_short": "Heraanleg Visspaanstr",
+    "ac_long": "Heraanleg Visspaanstraat",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 97432.67,
+    "amount_per_capita": 0.81,
+    "yearly_amounts": {
+      "2026": 97432.67,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.81,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 28",
+    "bd_short": "BD08: Jeugd, sport en onderwijs",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0806",
+    "ap_short": "We creëren veilige, toegankelijke en aantrekkelijke ruimte w",
+    "ap_long": "We creëren veilige, toegankelijke en aantrekkelijke ruimte waar kinderen en jongeren kunnen spelen, experimenteren en hun eigen initiatieven kunnen ontwikkelen.",
+    "ac_code": "AP0806_AP0806_AC0806003",
+    "ac_short": "Binnen het Europees project RELAUNCHTOWIN zetten we in op he",
+    "ac_long": "Binnen het Europees project RELAUNCHTOWIN zetten we in op het smart ombouwen van de site Entrepot met aandacht voor het gebouw, de omgeving en kwetsbare groepen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 0.75,
+    "yearly_amounts": {
+      "2026": 90000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.75,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0604",
+    "ap_short": "We gaan voor nette en verzorgde groene wijken en buurten.",
+    "ap_long": "We gaan voor nette en verzorgde groene wijken en buurten.",
+    "ac_code": "AP0604_AP0604_AC0604005",
+    "ac_short": "We vernieuwen bestaande groene ruimte, en breiden die uit wa",
+    "ac_long": "We vernieuwen bestaande groene ruimte, en breiden die uit waar mogelijk.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 89383.33,
+    "amount_per_capita": 0.75,
+    "yearly_amounts": {
+      "2026": 89383.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.75,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0611",
+    "ap_short": "We maken het openbaar domein bespeelbaar voor kinderen en jo",
+    "ap_long": "We maken het openbaar domein bespeelbaar voor kinderen en jongeren.",
+    "ac_code": "AP0611_AP0611_AC0611003",
+    "ac_short": "Vernieuwen speeltoestellen speeplein Paul Gilsonstraat.",
+    "ac_long": "We vernieuwen de speeltoestellen op het speeplein aan de Paul Gilsonstraat.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 85000.0,
+    "amount_per_capita": 0.71,
+    "yearly_amounts": {
+      "2026": 85000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.71,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501035RB",
+    "ac_short": "Recurrent beleid Interne schoonmaak",
+    "ac_long": "Recurrent beleid Interne schoonmaak",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 78959.6,
+    "amount_per_capita": 0.66,
+    "yearly_amounts": {
+      "2026": 78959.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.66,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0807006RB",
+    "ac_short": "Recurrent beleid Basisschool De Triangel",
+    "ac_long": "Recurrent beleid Basisschool De Triangel",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 78256.68,
+    "amount_per_capita": 0.65,
+    "yearly_amounts": {
+      "2026": 16929.68,
+      "2027": 12265.0,
+      "2028": 12266.0,
+      "2029": 12265.0,
+      "2030": 12266.0,
+      "2031": 12265.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.14,
+      "2027": 0.1,
+      "2028": 0.1,
+      "2029": 0.1,
+      "2030": 0.1,
+      "2031": 0.1
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0607",
+    "ap_short": "We voeren een ambitieus stedelijk beleid rond natuur, bos en",
+    "ap_long": "We voeren een ambitieus stedelijk beleid rond natuur, bos en duurzame landbouw.",
+    "ac_code": "AP0607_AP0607_AC0607009NP",
+    "ac_short": "Beisbroek klimaatrobuust maken",
+    "ac_long": "We maken het stadsbos Beisbroek klimaatrobuust met innovatie en biodiversiteit binnen het Interregproject Klimaatrobuust Stadsgroen.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 76972.94,
+    "amount_per_capita": 0.64,
+    "yearly_amounts": {
+      "2026": 76972.94,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 27",
     "bd_short": "BD07: Klimaat, milieu en dierenwelzijn voor leefbaar Brugge",
     "bd_long": "Commentaar:",
     "ap_code": "AP0702",
     "ap_short": "We maken van Brugge een hernieuwbare elektriciteitsstad.",
     "ap_long": "We maken van Brugge een hernieuwbare elektriciteitsstad.",
-    "ac_code": "AP0702",
+    "ac_code": "AP0702_AP0702_AC0702001",
     "ac_short": "We gaan efficiënt en innovatief om met elektriciteit.",
     "ac_long": "We gaan efficiënt en innovatief om met elektriciteit.",
     "categories": [
@@ -1294,35 +4490,1429 @@
   {
     "municipality": "Brugge",
     "nis_code": "31005",
-    "bd_code": "BDS",
-    "bd_short": "BD04",
-    "bd_long": "Zorg, welzijn en sociale inclusie: we zetten in op een warme stad",
-    "ap_code": "AP0412",
-    "ap_short": "We geven (kwetsbare) kinderen, jongeren en gezinnen maximale",
-    "ap_long": "We geven (kwetsbare) kinderen, jongeren en gezinnen maximale ontwikkelingskansen.",
-    "ac_code": "AP0412",
-    "ac_short": "We organiseren onderwijsprojecten om kwetsbare gezinnen en s",
-    "ac_long": "We organiseren onderwijsprojecten om kwetsbare gezinnen en scholieren te ondersteunen.",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0604",
+    "ap_short": "We gaan voor nette en verzorgde groene wijken en buurten.",
+    "ap_long": "We gaan voor nette en verzorgde groene wijken en buurten.",
+    "ac_code": "AP0604_AP0604_AC0604018",
+    "ac_short": "Sportparken (drainage, dugouts, omheining, ...)",
+    "ac_long": "Verspreid over de diverse sportparken worden voorzien en vernieuwd, op basis van de noden: drainage terreinen, schuilhuisjes, dugouts, staantribunes, omheining, voetpaden, doelen, netten",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 66700.0,
+    "amount_per_capita": 0.56,
+    "yearly_amounts": {
+      "2026": 66700.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.56,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0807008RB",
+    "ac_short": "Recurrent beleid Buitengewone basisschool De Ganzenveer",
+    "ac_long": "Recurrent beleid Buitengewone basisschool De Ganzenveer",
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 56544.0,
-    "amount_per_capita": 0.47,
+    "total_amount": 62593.0,
+    "amount_per_capita": 0.52,
     "yearly_amounts": {
-      "2026": 11374.0,
-      "2027": 8449.0,
-      "2028": 8449.0,
-      "2029": 8449.0,
-      "2030": 8449.0,
-      "2031": 11374.0
+      "2026": 10432.0,
+      "2027": 10432.0,
+      "2028": 10432.0,
+      "2029": 10432.0,
+      "2030": 10433.0,
+      "2031": 10432.0
     },
     "yearly_per_capita": {
       "2026": 0.09,
-      "2027": 0.07,
-      "2028": 0.07,
-      "2029": 0.07,
-      "2030": 0.07,
+      "2027": 0.09,
+      "2028": 0.09,
+      "2029": 0.09,
+      "2030": 0.09,
       "2031": 0.09
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0706004RB",
+    "ac_short": "Recurrent beleid Overige milieubescherming",
+    "ac_long": "Recurrent beleid Overige milieubescherming",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 61770.0,
+    "amount_per_capita": 0.52,
+    "yearly_amounts": {
+      "2026": 10295.0,
+      "2027": 10295.0,
+      "2028": 10295.0,
+      "2029": 10295.0,
+      "2030": 10295.0,
+      "2031": 10295.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.09,
+      "2027": 0.09,
+      "2028": 0.09,
+      "2029": 0.09,
+      "2030": 0.09,
+      "2031": 0.09
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 33",
+    "bd_short": "BD13: Zeebrugge: haven en leefbaarheid in harmonie",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1302",
+    "ap_short": "We verhogen de leefbaarheid in Zeebrugge, Zwankendamme, Liss",
+    "ap_long": "We verhogen de leefbaarheid in Zeebrugge, Zwankendamme, Lissewege en Dudzele.",
+    "ac_code": "AP1302_AP1302_AC1302005NP",
+    "ac_short": "We realiseren uitkijkpunt op de Sint Georges day wandeling",
+    "ac_long": "We realiseren een uitkijkpunt op de Sint Georges day wandeling.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 0.5,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1103003RB",
+    "ac_short": "Recurrent beleid Arbeidsgeneeskundige dienst",
+    "ac_long": "Recurrent beleid Arbeidsgeneeskundige dienst",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 0.5,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.08,
+      "2027": 0.08,
+      "2028": 0.08,
+      "2029": 0.08,
+      "2030": 0.08,
+      "2031": 0.08
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1104003RB",
+    "ac_short": "Recurrent beleid Secretariaat.",
+    "ac_long": "Recurrent beleid Secretariaat.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 59828.0,
+    "amount_per_capita": 0.5,
+    "yearly_amounts": {
+      "2026": 59828.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0604011RB",
+    "ac_short": "Recurrent beleid Groene ruimte",
+    "ac_long": "Recurrent beleid Groene ruimte",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 59638.78,
+    "amount_per_capita": 0.5,
+    "yearly_amounts": {
+      "2026": 33538.78,
+      "2027": 5220.0,
+      "2028": 5220.0,
+      "2029": 5220.0,
+      "2030": 5220.0,
+      "2031": 5220.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.28,
+      "2027": 0.04,
+      "2028": 0.04,
+      "2029": 0.04,
+      "2030": 0.04,
+      "2031": 0.04
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606037RB",
+    "ac_short": "Veldhoendreef - verharden",
+    "ac_long": "Veldhoendreef - verharden",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 0.42,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606012RB",
+    "ac_short": "Aanleg parking Koolkerkse Steenweg",
+    "ac_long": "Recurrent beleid heraanleg Koolkerkse Steenweg",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 47000.74,
+    "amount_per_capita": 0.39,
+    "yearly_amounts": {
+      "2026": 47000.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 30",
+    "bd_short": "BD10: Cultuur vormt de hartslag van onze stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1003NP",
+    "ap_short": "Musea Brugge staat in voor een zorgzaam beheer en diepgaand",
+    "ap_long": "Musea Brugge staat in voor een zorgzaam beheer en diepgaand onderzoek van de collectie aan kunst en erfgoed.",
+    "ac_code": "AP1003NP_AP1003NP_AC1003005NP",
+    "ac_short": "Musea Brugge bewaart en herstelt kunst en erfgoed met zorg,",
+    "ac_long": "Musea Brugge bewaart en herstelt kunst en erfgoed met zorg, respect en vakmanschap.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 0.33,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0902009RB",
+    "ac_short": "Recurrent beleid Bestuurlijke preventie (incl. GAS)",
+    "ac_long": "Recurrent beleid Bestuurlijke preventie (incl. GAS)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 39150.0,
+    "amount_per_capita": 0.33,
+    "yearly_amounts": {
+      "2026": 19150.0,
+      "2027": 4000.0,
+      "2028": 4000.0,
+      "2029": 4000.0,
+      "2030": 4000.0,
+      "2031": 4000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.16,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0611",
+    "ap_short": "We maken het openbaar domein bespeelbaar voor kinderen en jo",
+    "ap_long": "We maken het openbaar domein bespeelbaar voor kinderen en jongeren.",
+    "ac_code": "AP0611_AP0611_AC0611004",
+    "ac_short": "Waar nodig vervangen we speeltoestellen.",
+    "ac_long": "Waar nodig vervangen we speeltoestellen.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 38262.55,
+    "amount_per_capita": 0.32,
+    "yearly_amounts": {
+      "2026": 38262.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.32,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 28",
+    "bd_short": "BD08: Jeugd, sport en onderwijs",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0807",
+    "ap_short": "We bieden kwaliteitsvol stedelijk onderwijs aan.",
+    "ap_long": "We bieden kwaliteitsvol stedelijk onderwijs aan.",
+    "ac_code": "AP0807_AP0807_AC0807017NP",
+    "ac_short": "Digiplan Vlaanderen ICT-infrastructuur vr leerlingen",
+    "ac_long": "Via Digiplan Vlaanderen voorzien we ICT-infrastructuur voor leerlingen.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 36526.94,
+    "amount_per_capita": 0.3,
+    "yearly_amounts": {
+      "2026": 36526.94,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.3,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606032RB",
+    "ac_short": "Leveren en plaatsen wegsign.",
+    "ac_long": "Leveren en plaatsen wegsignalisatie",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 33333.33,
+    "amount_per_capita": 0.28,
+    "yearly_amounts": {
+      "2026": 33333.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0301007RB",
+    "ac_short": "Recurrent beleid Gebiedsontwikkeling",
+    "ac_long": "Recurrent beleid Gebiedsontwikkeling",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 30450.0,
+    "amount_per_capita": 0.25,
+    "yearly_amounts": {
+      "2026": 5075.0,
+      "2027": 5075.0,
+      "2028": 5075.0,
+      "2029": 5075.0,
+      "2030": 5075.0,
+      "2031": 5075.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.04,
+      "2027": 0.04,
+      "2028": 0.04,
+      "2029": 0.04,
+      "2030": 0.04,
+      "2031": 0.04
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0803002RB",
+    "ac_short": "Recurrent beleid Sportpromotie en -evenementen",
+    "ac_long": "Recurrent beleid Sportpromotie en -evenementen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.25,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.04,
+      "2027": 0.04,
+      "2028": 0.04,
+      "2029": 0.04,
+      "2030": 0.04,
+      "2031": 0.04
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1101011RB",
+    "ac_short": "Recurrent beleid Personeel - algemeen",
+    "ac_long": "Recurrent beleid Personeel - algemeen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.25,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.25,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 33",
+    "bd_short": "BD13: Zeebrugge: haven en leefbaarheid in harmonie",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1302",
+    "ap_short": "We verhogen de leefbaarheid in Zeebrugge, Zwankendamme, Liss",
+    "ap_long": "We verhogen de leefbaarheid in Zeebrugge, Zwankendamme, Lissewege en Dudzele.",
+    "ac_code": "AP1302_AP1302_AC1302003",
+    "ac_short": "We blijven inzetten op de gebiedsgerichte werking in Zeebrug",
+    "ac_long": "We blijven inzetten op de gebiedsgerichte werking in Zeebrugge.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 28998.74,
+    "amount_per_capita": 0.24,
+    "yearly_amounts": {
+      "2026": 28998.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.24,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 26",
+    "bd_short": "BD06: Propere wijken en verstandig groen",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0611",
+    "ap_short": "We maken het openbaar domein bespeelbaar voor kinderen en jo",
+    "ap_long": "We maken het openbaar domein bespeelbaar voor kinderen en jongeren.",
+    "ac_code": "AP0611_AP0611_AC0611005",
+    "ac_short": "Ontw. Sint-Pietersplas als multif. recreatief geb",
+    "ac_long": "We ontwikkelen de Sint-Pietersplas verder als recreatief gebied waar spelen, zwemmen, watersporten, ontmoeting en beleving centraal staan.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 26793.32,
+    "amount_per_capita": 0.22,
+    "yearly_amounts": {
+      "2026": 26793.32,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.22,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0605003RB",
+    "ac_short": "Recurrent beleid Begraafplaatsen",
+    "ac_long": "Recurrent beleid Begraafplaatsen",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 26240.0,
+    "amount_per_capita": 0.22,
+    "yearly_amounts": {
+      "2026": 16870.0,
+      "2027": 9370.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.14,
+      "2027": 0.08,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0105002RB",
+    "ac_short": "Recurrent beleid Protocol & Events",
+    "ac_long": "Recurrent beleid Protocol & Events",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 23490.0,
+    "amount_per_capita": 0.2,
+    "yearly_amounts": {
+      "2026": 23490.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.2,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0807013RB",
+    "ac_short": "Recurrent beleid Administratieve dienst voor het Stedelijk o",
+    "ac_long": "Recurrent beleid Administratieve dienst voor het Stedelijk onderwijs",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 22500.0,
+    "amount_per_capita": 0.19,
+    "yearly_amounts": {
+      "2026": 3750.0,
+      "2027": 3750.0,
+      "2028": 3750.0,
+      "2029": 3750.0,
+      "2030": 3750.0,
+      "2031": 3750.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1012004RB",
+    "ac_short": "Recurrent beleid Evenementencel",
+    "ac_long": "Recurrent beleid Evenementencel",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 22500.0,
+    "amount_per_capita": 0.19,
+    "yearly_amounts": {
+      "2026": 3750.0,
+      "2027": 3750.0,
+      "2028": 3750.0,
+      "2029": 3750.0,
+      "2030": 3750.0,
+      "2031": 3750.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606036RB",
+    "ac_short": "Lod.Gill.pl - stadsaand. Wegen-riolerings- en omgevingswrkn",
+    "ac_long": "Lodewijjk Gilliodtsplein - stadsaandeel Wegen-, riolerings- en omgevingswerken (VMSW)",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.17,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 30",
+    "bd_short": "BD10: Cultuur vormt de hartslag van onze stad",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1008",
+    "ap_short": "We zorgen voor een kwalitatief, toegankelijk en laagdrempeli",
+    "ap_long": "We zorgen voor een kwalitatief, toegankelijk en laagdrempelig cultuuraanbod.",
+    "ac_code": "AP1008_AP1008_AC1008007",
+    "ac_short": "We blijven inzetten op cultuurparticipatie van kansengroepen",
+    "ac_long": "We blijven inzetten op cultuurparticipatie van kansengroepen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 16069.0,
+    "amount_per_capita": 0.13,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 7599.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 8470.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.06,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0.07,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1010011RB",
+    "ac_short": "Recurrent beleid Openbare bibliotheken",
+    "ac_long": "Recurrent beleid Openbare bibliotheken",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 16000.0,
+    "amount_per_capita": 0.13,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 16000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.13,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1501",
+    "ap_short": "We blijven ambitieus om ons patrimonium verder klaar te make",
+    "ap_long": "We blijven ambitieus om ons patrimonium verder klaar te maken voor de toekomst.",
+    "ac_code": "AP1501_AP1501_AC1501010NP",
+    "ac_short": "We voeren de nodige renovatiewerken uit in het stadsatelier",
+    "ac_long": "We voeren de nodige renovatiewerken uit in het stadsatelier in de Sint-Pieterskerklaan.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 15898.0,
+    "amount_per_capita": 0.13,
+    "yearly_amounts": {
+      "2026": 15898.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.13,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501031RB",
+    "ac_short": "Recurrent beleid Publiek Sanitair",
+    "ac_long": "Recurrent beleid Publiek Sanitair",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 14205.97,
+    "amount_per_capita": 0.12,
+    "yearly_amounts": {
+      "2026": 14205.97,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606011RB",
+    "ac_short": "Heraanleg Moerkerkse Steenweg",
+    "ac_long": "Recurrent beleid heraanleg Moerkerkse Steenweg",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 13971.25,
+    "amount_per_capita": 0.12,
+    "yearly_amounts": {
+      "2026": 13971.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 25",
+    "bd_short": "BD05: Slimme mobiliteit en vlotte bereikbaarheid",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP0504",
+    "ap_short": "We rollen een nieuw parkeerbeleid uit.",
+    "ap_long": "We rollen een nieuw parkeerbeleid uit.",
+    "ac_code": "AP0504_AP0504_AC0504001",
+    "ac_short": "Er wordt een nieuw parkeerbeleid ontwikkeld voor de binnenst",
+    "ac_long": "Er wordt een nieuw parkeerbeleid ontwikkeld voor de binnenstad en deelgemeentes.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 12667.7,
+    "amount_per_capita": 0.11,
+    "yearly_amounts": {
+      "2026": 12667.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.11,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1103001RB",
+    "ac_short": "De dienst IDPBW zet in op het bevorderen van de veiligheid e",
+    "ac_long": "De dienst IDPBW zet in op het bevorderen van de veiligheid en gezondheid van werknemers op de werkplek. (Recurrent beleid IDPBW)",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 12002.23,
+    "amount_per_capita": 0.1,
+    "yearly_amounts": {
+      "2026": 12002.23,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606006RB",
+    "ac_short": "Heraanleg Boomgaardstraat",
+    "ac_long": "Heraanleg Boomgaardstraat",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 9079.24,
+    "amount_per_capita": 0.08,
+    "yearly_amounts": {
+      "2026": 9079.24,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0604016RB",
+    "ac_short": "Recurrent beleid Stadspark Bleekweide",
+    "ac_long": "Recurrent beleid Stadspark Bleekweide",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 8143.22,
+    "amount_per_capita": 0.07,
+    "yearly_amounts": {
+      "2026": 8143.22,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.07,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606005RB",
+    "ac_short": "Verbeteren doorstr.openb.verv. thv. N367 Gistelse Steenweg",
+    "ac_long": "We verbeteren de doorstroming van het openbaar vervoer ter hoogte van de N367 Gistelse Steenweg",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 7898.7,
+    "amount_per_capita": 0.07,
+    "yearly_amounts": {
+      "2026": 7898.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.07,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606039RB",
+    "ac_short": "Heraanleg Sint-Jorisstraat/Vlamingdam",
+    "ac_long": "Heraanleg Sint-Jorisstraat/Vlamingdam",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 6500.0,
+    "amount_per_capita": 0.05,
+    "yearly_amounts": {
+      "2026": 6500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606042RB",
+    "ac_short": "Heraanl St-Anna en Joost de Damhouderstr",
+    "ac_long": "Heraanleg Sint-Anna en Joost de Damhouderstraat",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 4000.0,
+    "amount_per_capita": 0.03,
+    "yearly_amounts": {
+      "2026": 4000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606040RB",
+    "ac_short": "Heraanleg Filips De Goedel. en Karel de Stoutel.",
+    "ac_long": "Heraanleg Filips De Goedelaan en Karel de Stoutelaan",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 3048.0,
+    "amount_per_capita": 0.03,
+    "yearly_amounts": {
+      "2026": 3048.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501046RB",
+    "ac_short": "Recurrent beleid Data en rapportering",
+    "ac_long": "Recurrent beleid Data en rapportering",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 2924.4,
+    "amount_per_capita": 0.02,
+    "yearly_amounts": {
+      "2026": 2924.4,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606043RB",
+    "ac_short": "Heraanl Prins Leopoldstr",
+    "ac_long": "Heraanleg Prins Leopoldstraat",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 2265.0,
+    "amount_per_capita": 0.02,
+    "yearly_amounts": {
+      "2026": 2265.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC0606041RB",
+    "ac_short": "Heraanl Knotwl Hogew Meibooml R Beukendr Eikenl Iepenl",
+    "ac_long": "Heraanleg Knotwilgenlaan, Hogeweg, Meiboomlaan, Rode Beukendreef, Eikenlaan, Heraanleg Iepenlaan",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 2041.0,
+    "amount_per_capita": 0.02,
+    "yearly_amounts": {
+      "2026": 2041.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 37",
+    "bd_short": "BD17: Recurrent beleid",
+    "bd_long": "BD17: Recurrent beleid",
+    "ap_code": "AP1701RB",
+    "ap_short": "Actieplan Recurrent beleid",
+    "ap_long": "Actieplan Recurrent beleid",
+    "ac_code": "AP1701RB_AP1701RB_AC1501043RB",
+    "ac_short": "Recurrent beleid Beveiliging",
+    "ac_long": "Recurrent beleid Beveiliging",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 2040.89,
+    "amount_per_capita": 0.02,
+    "yearly_amounts": {
+      "2026": 2040.89,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brugge",
+    "nis_code": "31005",
+    "bd_code": "BDS 35",
+    "bd_short": "BD15: We maken ons patrimonium toekomstbestendig",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP1502",
+    "ap_short": "We zorgen voor voldoende wijk- en gemeenschapsinfrastructuur",
+    "ap_long": "We zorgen voor voldoende wijk- en gemeenschapsinfrastructuur voor de Brugse verenigingen.",
+    "ac_code": "AP1502_AP1502_AC1502004NP",
+    "ac_short": "We zorgen voor heropbouw jeugdcomplex Zandberg in Assebroek",
+    "ac_long": "We zorgen voor de heropbouw van het jeugdcomplex Zandberg in Assebroek",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1.21,
+    "amount_per_capita": 0.0,
+    "yearly_amounts": {
+      "2026": 1.21,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

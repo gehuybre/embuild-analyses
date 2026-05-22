@@ -2,22 +2,22 @@
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 212",
     "bd_short": "Verdere uitbouw Knokke-Heist",
     "bd_long": "Verdere uitbouw Knokke-Heist",
     "ap_code": "5.11.",
     "ap_short": "Projectzone Casino",
     "ap_long": "Projectzone Casino",
-    "ac_code": "5.11.",
+    "ac_code": "5.11._5.11.1.",
     "ac_short": "Ondergrond (parking, casino, publieke ruimte, Kursaal)",
     "ac_long": "Bouwen van ondergrond met rotatieve parking en casino, publieke ruimte en Kursaal",
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 83158484.0,
-    "amount_per_capita": 2572.37,
+    "total_amount": 82438484.0,
+    "amount_per_capita": 2549.0,
     "yearly_amounts": {
-      "2026": 11015725.0,
+      "2026": 10295725.0,
       "2027": 14734487.0,
       "2028": 17551972.0,
       "2029": 16819596.0,
@@ -25,145 +25,77 @@
       "2031": 16109002.0
     },
     "yearly_per_capita": {
-      "2026": 340.75,
-      "2027": 455.79,
-      "2028": 542.94,
-      "2029": 520.29,
-      "2030": 214.3,
-      "2031": 498.31
+      "2026": 318.34,
+      "2027": 455.59,
+      "2028": 542.71,
+      "2029": 520.06,
+      "2030": 214.2,
+      "2031": 498.09
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 209",
     "bd_short": "Veilige en nette gemeente",
     "bd_long": "Veilige en nette gemeente",
     "ap_code": "2.4.",
     "ap_short": "Veiligheidsgebouwen",
     "ap_long": "Veiligheidsgebouwen",
-    "ac_code": "2.4.",
-    "ac_short": "Bouw van een nieuwe brandweerkazerne",
-    "ac_long": "Bouw van een nieuwe brandweerkazerne",
+    "ac_code": "2.4._2.4.2.",
+    "ac_short": "Bouw van een nieuw politiegebouw",
+    "ac_long": "Bouw van een nieuw politiegebouw",
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 41272560.0,
-    "amount_per_capita": 1276.7,
+    "total_amount": 31259060.0,
+    "amount_per_capita": 966.53,
     "yearly_amounts": {
-      "2026": 7344220.0,
-      "2027": 10740004.0,
-      "2028": 13288590.0,
-      "2029": 9184311.0,
-      "2030": 670435.0,
-      "2031": 45000.0
+      "2026": 799220.0,
+      "2027": 7445004.0,
+      "2028": 13253590.0,
+      "2029": 9125811.0,
+      "2030": 635435.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 227.18,
-      "2027": 332.22,
-      "2028": 411.06,
-      "2029": 284.1,
-      "2030": 20.74,
-      "2031": 1.39
+      "2026": 24.71,
+      "2027": 230.2,
+      "2028": 409.8,
+      "2029": 282.17,
+      "2030": 19.65,
+      "2031": 0
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Verdere uitbouw Knokke-Heist",
-    "bd_long": "Verdere uitbouw Knokke-Heist",
-    "ap_code": "5.5.",
-    "ap_short": "Toekomstrobuuste waterstrategie",
-    "ap_long": "Toekomstrobuuste waterstrategie",
-    "ac_code": "5.5.",
-    "ac_short": "Hemelwater- en droogteplan",
-    "ac_long": "We zetten in op maximaal gebruik en het ter plaatse houden van hemelwater bij (nieuwe) projecten door o.a. ontharding en bufferbekkens",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 33341134.0,
-    "amount_per_capita": 1031.35,
-    "yearly_amounts": {
-      "2026": 5993777.0,
-      "2027": 10479989.0,
-      "2028": 11596106.0,
-      "2029": 5041262.0,
-      "2030": 115000.0,
-      "2031": 115000.0
-    },
-    "yearly_per_capita": {
-      "2026": 185.41,
-      "2027": 324.18,
-      "2028": 358.71,
-      "2029": 155.94,
-      "2030": 3.56,
-      "2031": 3.56
-    }
-  },
-  {
-    "municipality": "Knokke-Heist",
-    "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
-    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
-    "ap_code": "1.9.",
-    "ap_short": "Versterken vrijetijdsinfrastructuur",
-    "ap_long": "Versterken vrijetijdsinfrastructuur",
-    "ac_code": "1.9.",
-    "ac_short": "Diverse investeringen in cultuur- en ontmoetingscentra",
-    "ac_long": "Diverse investeringen in cultuur- en ontmoetingscentra",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 32108316.0,
-    "amount_per_capita": 993.22,
-    "yearly_amounts": {
-      "2026": 9304845.0,
-      "2027": 5230700.0,
-      "2028": 7855771.0,
-      "2029": 5485000.0,
-      "2030": 3430000.0,
-      "2031": 802000.0
-    },
-    "yearly_per_capita": {
-      "2026": 287.83,
-      "2027": 161.8,
-      "2028": 243.01,
-      "2029": 169.67,
-      "2030": 106.1,
-      "2031": 24.81
-    }
-  },
-  {
-    "municipality": "Knokke-Heist",
-    "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 208",
     "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
     "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
     "ap_code": "1.1.",
     "ap_short": "Kwaliteitsvol en betaalbaar woonaanbod",
     "ap_long": "Kwaliteitsvol en betaalbaar woonaanbod",
-    "ac_code": "1.1.",
-    "ac_short": "Vernieuwen sociaal patrimonium (OCMW)",
-    "ac_long": "Vernieuwen sociaal patrimonium (OCMW)",
+    "ac_code": "1.1._1.1.7.",
+    "ac_short": "Gezinsvriendelijk coöperatief woonproject Heulebrug",
+    "ac_long": "Gezinsvriendelijk coöperatief woonproject Heulebrug",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 19592270.0,
-    "amount_per_capita": 606.05,
+    "total_amount": 16629270.0,
+    "amount_per_capita": 514.18,
     "yearly_amounts": {
-      "2026": 7574090.0,
-      "2027": 9230635.0,
-      "2028": 2787545.0,
+      "2026": 5543090.0,
+      "2027": 8314635.0,
+      "2028": 2771545.0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 234.29,
-      "2027": 285.53,
-      "2028": 86.23,
+      "2026": 171.39,
+      "2027": 257.09,
+      "2028": 85.7,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -172,124 +104,124 @@
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
-    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
-    "ap_code": "3.1.",
-    "ap_short": "Duurzame en veilige infrastructuur",
-    "ap_long": "Duurzame en veilige infrastructuur",
-    "ac_code": "3.1.",
-    "ac_short": "Uitvoering van het masterplan fiets",
-    "ac_long": "Uitvoering van het masterplan fiets",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.5.",
+    "ap_short": "Toekomstrobuuste waterstrategie",
+    "ap_long": "Toekomstrobuuste waterstrategie",
+    "ac_code": "5.5._5.5.7.",
+    "ac_short": "Strategische RWA-as Bronlaan-Kustlaan",
+    "ac_long": "Strategische RWA-as Bronlaan-Kustlaan",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 13045459.0,
-    "amount_per_capita": 403.54,
+    "total_amount": 12656700.0,
+    "amount_per_capita": 391.35,
     "yearly_amounts": {
-      "2026": 3829059.0,
-      "2027": 2603400.0,
-      "2028": 1520000.0,
-      "2029": 2144000.0,
-      "2030": 2144000.0,
-      "2031": 805000.0
+      "2026": 0,
+      "2027": 2531340.0,
+      "2028": 6328350.0,
+      "2029": 3797010.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 118.45,
-      "2027": 80.53,
-      "2028": 47.02,
-      "2029": 66.32,
-      "2030": 66.32,
-      "2031": 24.9
+      "2026": 0,
+      "2027": 78.27,
+      "2028": 195.67,
+      "2029": 117.4,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Toekomstgericht wonen",
-    "bd_long": "Toekomstgericht wonen",
-    "ap_code": "2026",
-    "ap_short": "Nieuwbouw groep van assistentiewoningen",
-    "ap_long": "Nieuwbouw groep van assistentiewoningen",
-    "ac_code": "2026",
-    "ac_short": "Betaalbaarheid en toegankelijkheid",
-    "ac_long": "Betaalbaarheid en toegankelijkheid",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 12329000.0,
-    "amount_per_capita": 381.38,
-    "yearly_amounts": {
-      "2026": 329000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 12000000.0
-    },
-    "yearly_per_capita": {
-      "2026": 10.18,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 371.2
-    }
-  },
-  {
-    "municipality": "Knokke-Heist",
-    "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 208",
     "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
     "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
     "ap_code": "1.10.",
     "ap_short": "Versterken onderwijsinfrastructuur",
     "ap_long": "Versterken onderwijsinfrastructuur",
-    "ac_code": "1.10.",
+    "ac_code": "1.10._1.10.1",
     "ac_short": "Project gemeentelijk onderwijs het Anker",
     "ac_long": "Project gemeentelijk onderwijs het Anker",
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 10851623.0,
-    "amount_per_capita": 335.68,
+    "total_amount": 9849923.0,
+    "amount_per_capita": 304.56,
     "yearly_amounts": {
-      "2026": 650092.0,
-      "2027": 704993.0,
-      "2028": 3092350.0,
-      "2029": 4093357.0,
-      "2030": 2088044.0,
-      "2031": 222787.0
+      "2026": 68192.0,
+      "2027": 590193.0,
+      "2028": 3047350.0,
+      "2029": 3923357.0,
+      "2030": 2043044.0,
+      "2031": 177787.0
     },
     "yearly_per_capita": {
-      "2026": 20.11,
-      "2027": 21.81,
-      "2028": 95.66,
-      "2029": 126.62,
-      "2030": 64.59,
-      "2031": 6.89
+      "2026": 2.11,
+      "2027": 18.25,
+      "2028": 94.22,
+      "2029": 121.31,
+      "2030": 63.17,
+      "2031": 5.5
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 209",
+    "bd_short": "Veilige en nette gemeente",
+    "bd_long": "Veilige en nette gemeente",
+    "ap_code": "2.4.",
+    "ap_short": "Veiligheidsgebouwen",
+    "ap_long": "Veiligheidsgebouwen",
+    "ac_code": "2.4._2.4.1.",
+    "ac_short": "Bouw van een nieuwe brandweerkazerne",
+    "ac_long": "Bouw van een nieuwe brandweerkazerne",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 9750000.0,
+    "amount_per_capita": 301.47,
+    "yearly_amounts": {
+      "2026": 6500000.0,
+      "2027": 3250000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 200.98,
+      "2027": 100.49,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
     "bd_short": "Verdere uitbouw Knokke-Heist",
     "bd_long": "Verdere uitbouw Knokke-Heist",
     "ap_code": "5.13.",
     "ap_short": "Projectzone Westkapelle Dorp",
     "ap_long": "Projectzone Westkapelle Dorp",
-    "ac_code": "5.13.",
+    "ac_code": "5.13._5.13.1.",
     "ac_short": "Project dorpskernvernieuwing - aspect openbaar domein",
     "ac_long": "Project dorpskernvernieuwing - aspect openbaar domein",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 10093000.0,
-    "amount_per_capita": 312.21,
+    "total_amount": 9373000.0,
+    "amount_per_capita": 289.81,
     "yearly_amounts": {
-      "2026": 920000.0,
+      "2026": 200000.0,
       "2027": 200000.0,
       "2028": 2243250.0,
       "2029": 2243250.0,
@@ -297,201 +229,405 @@
       "2031": 2243250.0
     },
     "yearly_per_capita": {
-      "2026": 28.46,
-      "2027": 6.19,
-      "2028": 69.39,
-      "2029": 69.39,
-      "2030": 69.39,
-      "2031": 69.39
+      "2026": 6.18,
+      "2027": 6.18,
+      "2028": 69.36,
+      "2029": 69.36,
+      "2030": 69.36,
+      "2031": 69.36
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.5.",
+    "ac_short": "Open sportpark De Taeye en Laguna in Heist",
+    "ac_long": "We realiseren een open sportpark De Taeye en Laguna in Heist",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 8443000.0,
+    "amount_per_capita": 261.06,
+    "yearly_amounts": {
+      "2026": 1293000.0,
+      "2027": 2100000.0,
+      "2028": 2900000.0,
+      "2029": 2150000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 39.98,
+      "2027": 64.93,
+      "2028": 89.67,
+      "2029": 66.48,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.4.",
+    "ac_short": "Jeugdsite / Huis van het Kind",
+    "ac_long": "We realiseren een jeugdsite/Huis van het Kind in Heist met een dagelijkse publiekswerking en burelen voor de jeugddienst.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 8150000.0,
+    "amount_per_capita": 252.0,
+    "yearly_amounts": {
+      "2026": 400000.0,
+      "2027": 400000.0,
+      "2028": 3000000.0,
+      "2029": 2950000.0,
+      "2030": 1400000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.37,
+      "2027": 12.37,
+      "2028": 92.76,
+      "2029": 91.21,
+      "2030": 43.29,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 209",
+    "bd_short": "Veilige en nette gemeente",
+    "bd_long": "Veilige en nette gemeente",
+    "ap_code": "2.5.",
+    "ap_short": "Kwaliteitsvol materiaal technische diensten",
+    "ap_long": "Kwaliteitsvol materiaal technische diensten",
+    "ac_code": "2.5._2.5.1.",
+    "ac_short": "Divers uitbatingsmateriaal en voertuigen",
+    "ac_long": "Divers uitbatingsmateriaal en voertuigen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 6673500.0,
+    "amount_per_capita": 206.34,
+    "yearly_amounts": {
+      "2026": 2475500.0,
+      "2027": 1585000.0,
+      "2028": 1104000.0,
+      "2029": 620000.0,
+      "2030": 529000.0,
+      "2031": 360000.0
+    },
+    "yearly_per_capita": {
+      "2026": 76.54,
+      "2027": 49.01,
+      "2028": 34.14,
+      "2029": 19.17,
+      "2030": 16.36,
+      "2031": 11.13
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.5.",
+    "ap_short": "Toekomstrobuuste waterstrategie",
+    "ap_long": "Toekomstrobuuste waterstrategie",
+    "ac_code": "5.5._5.5.4.",
+    "ac_short": "Aquafinproject Zoutelaan-Oosthoekplein",
+    "ac_long": "Aquafinproject Zoutelaan-Oosthoekplein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 5646259.0,
+    "amount_per_capita": 174.58,
+    "yearly_amounts": {
+      "2026": 1505669.0,
+      "2027": 1505669.0,
+      "2028": 1505669.0,
+      "2029": 1129252.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 46.56,
+      "2027": 46.56,
+      "2028": 46.56,
+      "2029": 34.92,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.5.",
+    "ap_short": "Toekomstrobuuste waterstrategie",
+    "ap_long": "Toekomstrobuuste waterstrategie",
+    "ac_code": "5.5._5.5.6.",
+    "ac_short": "Strategische RWA-as Smedenstraat-Kragendijk",
+    "ac_long": "Strategische RWA-as Smedenstraat-Kragendijk",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 5077415.0,
+    "amount_per_capita": 156.99,
+    "yearly_amounts": {
+      "2026": 1974764.0,
+      "2027": 1974764.0,
+      "2028": 1127887.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 61.06,
+      "2027": 61.06,
+      "2028": 34.87,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.5.",
+    "ap_short": "Toekomstrobuuste waterstrategie",
+    "ap_long": "Toekomstrobuuste waterstrategie",
+    "ac_code": "5.5._5.5.5.",
+    "ac_short": "Strategische RWA-as Albertlaan-Gemeenteplein",
+    "ac_long": "Strategische RWA-as Albertlaan-Gemeenteplein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4116000.0,
+    "amount_per_capita": 127.27,
+    "yearly_amounts": {
+      "2026": 823200.0,
+      "2027": 2058000.0,
+      "2028": 1234800.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 25.45,
+      "2027": 63.63,
+      "2028": 38.18,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.10.",
+    "ap_short": "Belevingsstraten handelskern Knokke",
+    "ap_long": "Belevingsstraten handelskern Knokke",
+    "ac_code": "5.10._5.10.2",
+    "ac_short": "Herinrichting A. Verweeplein",
+    "ac_long": "Herinrichting A. Verweeplein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3960000.0,
+    "amount_per_capita": 122.44,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 1580000.0,
+      "2029": 2180000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.09,
+      "2027": 3.09,
+      "2028": 48.85,
+      "2029": 67.41,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.1.",
+    "ap_short": "Duurzame en veilige infrastructuur",
+    "ap_long": "Duurzame en veilige infrastructuur",
+    "ac_code": "3.1._3.1.14.",
+    "ac_short": "Structureel onderhoud openbaar domein",
+    "ac_long": "Structureel onderhoud openbaar domein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3900000.0,
+    "amount_per_capita": 120.59,
+    "yearly_amounts": {
+      "2026": 650000.0,
+      "2027": 650000.0,
+      "2028": 650000.0,
+      "2029": 650000.0,
+      "2030": 650000.0,
+      "2031": 650000.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.1,
+      "2027": 20.1,
+      "2028": 20.1,
+      "2029": 20.1,
+      "2030": 20.1,
+      "2031": 20.1
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.1.",
+    "ap_short": "Kustvisie",
+    "ap_long": "Kustvisie",
+    "ac_code": "5.1._5.1.3.",
+    "ac_short": "Verrommeling openbaar domein zeedijk",
+    "ac_long": "We gaan de verrommeling van het openbaar domein op de Zeedijk tegen en streven naar een sterke beeldkwaliteit",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3860000.0,
+    "amount_per_capita": 119.35,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 140000.0,
+      "2028": 1580000.0,
+      "2029": 1590000.0,
+      "2030": 250000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.55,
+      "2027": 4.33,
+      "2028": 48.85,
+      "2029": 49.16,
+      "2030": 7.73,
+      "2031": 7.73
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
     "bd_short": "Verdere uitbouw Knokke-Heist",
     "bd_long": "Verdere uitbouw Knokke-Heist",
     "ap_code": "5.7.",
     "ap_short": "Projectzone doortocht Heist",
     "ap_long": "Projectzone doortocht Heist",
-    "ac_code": "5.7.",
+    "ac_code": "5.7._5.7.1.",
     "ac_short": "Herinrichting Heldenplein met rotatieve parking",
     "ac_long": "Herinrichting Heldenplein met rotatieve parking",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 7173350.0,
-    "amount_per_capita": 221.9,
+    "total_amount": 3793350.0,
+    "amount_per_capita": 117.29,
     "yearly_amounts": {
-      "2026": 1740000.0,
-      "2027": 1740000.0,
+      "2026": 50000.0,
+      "2027": 50000.0,
       "2028": 50000.0,
       "2029": 1821675.0,
       "2030": 1821675.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 53.82,
-      "2027": 53.82,
+      "2026": 1.55,
+      "2027": 1.55,
       "2028": 1.55,
-      "2029": 56.35,
-      "2030": 56.35,
+      "2029": 56.33,
+      "2030": 56.33,
       "2031": 0
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Veilige en nette gemeente",
-    "bd_long": "Veilige en nette gemeente",
-    "ap_code": "2.3.",
-    "ap_short": "Afvalbeleidsplan",
-    "ap_long": "Afvalbeleidsplan",
-    "ac_code": "2.3.",
-    "ac_short": "Bouw van een nieuw recyclagepark",
-    "ac_long": "Bouw van een nieuw recyclagepark",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 6980966.0,
-    "amount_per_capita": 215.94,
-    "yearly_amounts": {
-      "2026": 5030966.0,
-      "2027": 1950000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 155.62,
-      "2027": 60.32,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Knokke-Heist",
-    "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Veilige en nette gemeente",
-    "bd_long": "Veilige en nette gemeente",
-    "ap_code": "2.5.",
-    "ap_short": "Kwaliteitsvol materiaal technische diensten",
-    "ap_long": "Kwaliteitsvol materiaal technische diensten",
-    "ac_code": "2.5.",
-    "ac_short": "Divers uitbatingsmateriaal en voertuigen",
-    "ac_long": "Divers uitbatingsmateriaal en voertuigen",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 6923500.0,
-    "amount_per_capita": 214.17,
-    "yearly_amounts": {
-      "2026": 2525500.0,
-      "2027": 1625000.0,
-      "2028": 1144000.0,
-      "2029": 660000.0,
-      "2030": 569000.0,
-      "2031": 400000.0
-    },
-    "yearly_per_capita": {
-      "2026": 78.12,
-      "2027": 50.27,
-      "2028": 35.39,
-      "2029": 20.42,
-      "2030": 17.6,
-      "2031": 12.37
-    }
-  },
-  {
-    "municipality": "Knokke-Heist",
-    "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 212",
     "bd_short": "Verdere uitbouw Knokke-Heist",
     "bd_long": "Verdere uitbouw Knokke-Heist",
-    "ap_code": "5.1.",
-    "ap_short": "Kustvisie",
-    "ap_long": "Kustvisie",
-    "ac_code": "5.1.",
-    "ac_short": "Kustlijn versterken tegen zeespiegelstijging",
-    "ac_long": "We zullen onze kustlijn versterken tegen de zeespiegelstijging, op basis van permanent studiewerk, via nature based solutions waar het kan en met harde maatregelen waar het moet.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 6368000.0,
-    "amount_per_capita": 196.98,
-    "yearly_amounts": {
-      "2026": 823000.0,
-      "2027": 1815000.0,
-      "2028": 1610000.0,
-      "2029": 1600000.0,
-      "2030": 260000.0,
-      "2031": 260000.0
-    },
-    "yearly_per_capita": {
-      "2026": 25.46,
-      "2027": 56.14,
-      "2028": 49.8,
-      "2029": 49.49,
-      "2030": 8.04,
-      "2031": 8.04
-    }
-  },
-  {
-    "municipality": "Knokke-Heist",
-    "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Verdere uitbouw Knokke-Heist",
-    "bd_long": "Verdere uitbouw Knokke-Heist",
-    "ap_code": "5.10.",
-    "ap_short": "Belevingsstraten handelskern Knokke",
-    "ap_long": "Belevingsstraten handelskern Knokke",
-    "ac_code": "5.10.",
-    "ac_short": "Herinrichting A. Verweeplein",
-    "ac_long": "Herinrichting A. Verweeplein",
+    "ap_code": "5.5.",
+    "ap_short": "Toekomstrobuuste waterstrategie",
+    "ap_long": "Toekomstrobuuste waterstrategie",
+    "ac_code": "5.5._5.5.8.",
+    "ac_short": "Strategische RWA-as GraafJansdijk-Paulusstraat",
+    "ac_long": "Strategische RWA-as GraafJansdijk-Paulusstraat",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 4410000.0,
-    "amount_per_capita": 136.42,
+    "total_amount": 3600360.0,
+    "amount_per_capita": 111.32,
     "yearly_amounts": {
-      "2026": 175000.0,
-      "2027": 175000.0,
-      "2028": 1655000.0,
-      "2029": 2255000.0,
-      "2030": 75000.0,
-      "2031": 75000.0
+      "2026": 1440144.0,
+      "2027": 2160216.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.41,
-      "2027": 5.41,
-      "2028": 51.19,
-      "2029": 69.75,
-      "2030": 2.32,
-      "2031": 2.32
+      "2026": 44.53,
+      "2027": 66.79,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 212",
     "bd_short": "Verdere uitbouw Knokke-Heist",
     "bd_long": "Verdere uitbouw Knokke-Heist",
     "ap_code": "5.16.",
     "ap_short": "Heroriëntering onderwijssites",
     "ap_long": "Heroriëntering onderwijssites",
-    "ac_code": "5.16.",
+    "ac_code": "5.16._5.16.2.",
     "ac_short": "Aankoop 't Kasteeltje en oude visserijschool",
     "ac_long": "Aankoop 't Kasteeltje en oude visserijschool",
     "categories": [
       "00-algemene-financiering"
     ],
     "total_amount": 3550000.0,
-    "amount_per_capita": 109.81,
+    "amount_per_capita": 109.77,
     "yearly_amounts": {
       "2026": 3550000.0,
       "2027": 0,
@@ -501,7 +637,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 109.81,
+      "2026": 109.77,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -512,20 +648,20 @@
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 212",
     "bd_short": "Verdere uitbouw Knokke-Heist",
     "bd_long": "Verdere uitbouw Knokke-Heist",
     "ap_code": "5.4.",
     "ap_short": "Uitrollen energietransitie",
     "ap_long": "Uitrollen energietransitie",
-    "ac_code": "5.4.",
+    "ac_code": "5.4._5.4.3.",
     "ac_short": "Verledding",
     "ac_long": "We realiseren de volledige verledding van de openbare verlichting tegen 2028, met aandacht voor energie-efficiëntie en lichtkwaliteit.",
     "categories": [
       "06-wonen-ruimte"
     ],
     "total_amount": 3421286.0,
-    "amount_per_capita": 105.83,
+    "amount_per_capita": 105.79,
     "yearly_amounts": {
       "2026": 893423.0,
       "2027": 894209.0,
@@ -535,169 +671,305 @@
       "2031": 610680.0
     },
     "yearly_per_capita": {
-      "2026": 27.64,
-      "2027": 27.66,
-      "2028": 27.38,
+      "2026": 27.62,
+      "2027": 27.65,
+      "2028": 27.37,
       "2029": 2.1,
       "2030": 2.16,
-      "2031": 18.89
+      "2031": 18.88
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.7.",
+    "ap_short": "Projectzone doortocht Heist",
+    "ap_long": "Projectzone doortocht Heist",
+    "ac_code": "5.7._5.7.2.",
+    "ac_short": "Herinrichting Vissershuldeplein",
+    "ac_long": "Herinrichting Vissershuldeplein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3380000.0,
+    "amount_per_capita": 104.51,
+    "yearly_amounts": {
+      "2026": 1690000.0,
+      "2027": 1690000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 52.25,
+      "2027": 52.25,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.3.",
+    "ac_short": "Renovatiewerken Scharpoord",
+    "ac_long": "Renovatiewerken Scharpoord",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3367815.53,
+    "amount_per_capita": 104.13,
+    "yearly_amounts": {
+      "2026": 2498844.48,
+      "2027": 243200.45,
+      "2028": 625770.6,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 77.26,
+      "2027": 7.52,
+      "2028": 19.35,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.13.",
+    "ac_short": "Renovatie Laguna",
+    "ac_long": "Renovatie Laguna",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2965000.0,
+    "amount_per_capita": 91.68,
+    "yearly_amounts": {
+      "2026": 550000.0,
+      "2027": 1060000.0,
+      "2028": 100000.0,
+      "2029": 55000.0,
+      "2030": 1200000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.01,
+      "2027": 32.78,
+      "2028": 3.09,
+      "2029": 1.7,
+      "2030": 37.1,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.1.",
+    "ap_short": "Kwaliteitsvol en betaalbaar woonaanbod",
+    "ap_long": "Kwaliteitsvol en betaalbaar woonaanbod",
+    "ac_code": "1.1._1.1.6.",
+    "ac_short": "Vernieuwen sociaal patrimonium (OCMW)",
+    "ac_long": "Vernieuwen sociaal patrimonium (OCMW)",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 2963000.0,
+    "amount_per_capita": 91.62,
+    "yearly_amounts": {
+      "2026": 2031000.0,
+      "2027": 916000.0,
+      "2028": 16000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 62.8,
+      "2027": 28.32,
+      "2028": 0.49,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 209",
+    "bd_short": "Veilige en nette gemeente",
+    "bd_long": "Veilige en nette gemeente",
+    "ap_code": "2.3.",
+    "ap_short": "Afvalbeleidsplan",
+    "ap_long": "Afvalbeleidsplan",
+    "ac_code": "2.3._2.3.5.",
+    "ac_short": "Bouw van een nieuw recyclagepark",
+    "ac_long": "Bouw van een nieuw recyclagepark",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2950000.0,
+    "amount_per_capita": 91.21,
+    "yearly_amounts": {
+      "2026": 2500000.0,
+      "2027": 450000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 77.3,
+      "2027": 13.91,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.1.",
+    "ap_short": "Duurzame en veilige infrastructuur",
+    "ap_long": "Duurzame en veilige infrastructuur",
+    "ac_code": "3.1._3.1.11.",
+    "ac_short": "Vernieuwing Haezegrasstraat - Graaf Jansdijk",
+    "ac_long": "Vernieuwing Haezegrasstraat - Graaf Jansdijk",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2678000.0,
+    "amount_per_capita": 82.8,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1339000.0,
+      "2030": 1339000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 41.4,
+      "2030": 41.4,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.1.",
+    "ap_short": "Duurzame en veilige infrastructuur",
+    "ap_long": "Duurzame en veilige infrastructuur",
+    "ac_code": "3.1._3.1.7.",
+    "ac_short": "Schoolomgeving Het Anker en fietsverbinding stadsrandbos",
+    "ac_long": "Schoolomgeving Het Anker en fietsverbinding stadsrandbos",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2462400.0,
+    "amount_per_capita": 76.14,
+    "yearly_amounts": {
+      "2026": 1539000.0,
+      "2027": 923400.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 47.59,
+      "2027": 28.55,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
     "bd_short": "Verdere uitbouw Knokke-Heist",
     "bd_long": "Verdere uitbouw Knokke-Heist",
     "ap_code": "5.2.",
     "ap_short": "Vergroeningsstrategie",
     "ap_long": "Vergroeningsstrategie",
-    "ac_code": "5.2.",
+    "ac_code": "5.2._5.2.1.",
     "ac_short": "Uitvoeren (natuur)beheerplannen",
     "ac_long": "We voeren (natuur)beheerplannen uit en volgen deze op voor onze eigen terreinen (Cantelmolinie, Park 58, Willemspark, bermbeheer, Stadsrandbos...) en voor terreinen van externen (Zwin, Groene Gordel Heist-West, Golf Zoute, Binnenduinen van Knokke...).",
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 3060141.0,
-    "amount_per_capita": 94.66,
+    "total_amount": 2460140.71,
+    "amount_per_capita": 76.07,
     "yearly_amounts": {
-      "2026": 2385141.0,
-      "2027": 135000.0,
-      "2028": 135000.0,
-      "2029": 135000.0,
-      "2030": 135000.0,
-      "2031": 135000.0
+      "2026": 2285140.71,
+      "2027": 35000.0,
+      "2028": 35000.0,
+      "2029": 35000.0,
+      "2030": 35000.0,
+      "2031": 35000.0
     },
     "yearly_per_capita": {
-      "2026": 73.78,
-      "2027": 4.18,
-      "2028": 4.18,
-      "2029": 4.18,
-      "2030": 4.18,
-      "2031": 4.18
+      "2026": 70.66,
+      "2027": 1.08,
+      "2028": 1.08,
+      "2029": 1.08,
+      "2030": 1.08,
+      "2031": 1.08
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "",
-    "ap_short": "overigBeleid",
-    "ap_long": "overigBeleid",
-    "ac_code": "",
-    "ac_short": "overigBeleid zonder actie",
-    "ac_long": "overigBeleid zonder actie",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 3051000.0,
-    "amount_per_capita": 94.38,
-    "yearly_amounts": {
-      "2026": 1109000.0,
-      "2027": 722000.0,
-      "2028": 310000.0,
-      "2029": 310000.0,
-      "2030": 310000.0,
-      "2031": 290000.0
-    },
-    "yearly_per_capita": {
-      "2026": 34.31,
-      "2027": 22.33,
-      "2028": 9.59,
-      "2029": 9.59,
-      "2030": 9.59,
-      "2031": 8.97
-    }
-  },
-  {
-    "municipality": "Knokke-Heist",
-    "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Wendbare en pro-actieve gemeente",
-    "bd_long": "Wendbare en pro-actieve gemeente",
-    "ap_code": "6.5.",
-    "ap_short": "Duurzaam financieel en facilitair beleid",
-    "ap_long": "Duurzaam financieel en facilitair beleid",
-    "ac_code": "6.5.",
-    "ac_short": "Uitrol van de werkplekstrategie",
-    "ac_long": "Uitrol van de werkplekstrategie",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 2868150.0,
-    "amount_per_capita": 88.72,
-    "yearly_amounts": {
-      "2026": 818500.0,
-      "2027": 926000.0,
-      "2028": 330000.0,
-      "2029": 205000.0,
-      "2030": 105000.0,
-      "2031": 483650.0
-    },
-    "yearly_per_capita": {
-      "2026": 25.32,
-      "2027": 28.64,
-      "2028": 10.21,
-      "2029": 6.34,
-      "2030": 3.25,
-      "2031": 14.96
-    }
-  },
-  {
-    "municipality": "Knokke-Heist",
-    "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Verdere uitbouw Knokke-Heist",
-    "bd_long": "Verdere uitbouw Knokke-Heist",
-    "ap_code": "5.8.",
-    "ap_short": "Projectzone stationsomgeving Knokke",
-    "ap_long": "Projectzone stationsomgeving Knokke",
-    "ac_code": "5.8.",
-    "ac_short": "Herinrichten openbaar domein Duinenwater",
-    "ac_long": "Herinrichten openbaar domein Duinenwater",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 2610000.0,
-    "amount_per_capita": 80.74,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 1130000.0,
-      "2028": 1130000.0,
-      "2029": 350000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 34.95,
-      "2028": 34.95,
-      "2029": 10.83,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Knokke-Heist",
-    "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 209",
     "bd_short": "Veilige en nette gemeente",
     "bd_long": "Veilige en nette gemeente",
     "ap_code": "2.7.",
     "ap_short": "Kwaliteitsvol materiaal veiligheidsdiensten",
     "ap_long": "Kwaliteitsvol materiaal veiligheidsdiensten",
-    "ac_code": "2.7.",
-    "ac_short": "Divers uitbatingsmateriaal veiligheidsdiensten",
-    "ac_long": "Divers uitbatingsmateriaal veiligheidsdiensten",
+    "ac_code": "2.7._2.7.2.",
+    "ac_short": "Investeringssubsidies zonale werking politie en brandweer",
+    "ac_long": "Investeringssubsidies zonale werking politie en brandweer",
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 2485600.0,
-    "amount_per_capita": 76.89,
+    "total_amount": 2265600.0,
+    "amount_per_capita": 70.05,
     "yearly_amounts": {
-      "2026": 597600.0,
+      "2026": 377600.0,
       "2027": 377600.0,
       "2028": 377600.0,
       "2029": 377600.0,
@@ -705,7 +977,7 @@
       "2031": 377600.0
     },
     "yearly_per_capita": {
-      "2026": 18.49,
+      "2026": 11.68,
       "2027": 11.68,
       "2028": 11.68,
       "2029": 11.68,
@@ -716,56 +988,260 @@
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Wendbare en pro-actieve gemeente",
-    "bd_long": "Wendbare en pro-actieve gemeente",
-    "ap_code": "6.4.",
-    "ap_short": "Digitale basisinfrastructuur",
-    "ap_long": "Digitale basisinfrastructuur",
-    "ac_code": "6.4.",
-    "ac_short": "Verdere uitbouw glasvezelnetwerk",
-    "ac_long": "We bouwen het glasvezelnetwerk verder uit en onderhoud het, zodat we beschikken over een performante backbone voor de gemeentelijke diensten en politie ifv de camerabewaking.",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.1.",
+    "ap_short": "Kustvisie",
+    "ap_long": "Kustvisie",
+    "ac_code": "5.1._5.1.4.",
+    "ac_short": "Nieuwe, evenwichtige en toekomstbestendige indeling strand",
+    "ac_long": "We streven naar een nieuwe, evenwichtige en toekomstbestendige indeling van het strand",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 2243800.0,
-    "amount_per_capita": 69.41,
+    "total_amount": 2265000.0,
+    "amount_per_capita": 70.03,
     "yearly_amounts": {
-      "2026": 1049300.0,
-      "2027": 349500.0,
-      "2028": 324500.0,
-      "2029": 219500.0,
-      "2030": 188000.0,
-      "2031": 113000.0
+      "2026": 550000.0,
+      "2027": 1655000.0,
+      "2028": 30000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 32.46,
-      "2027": 10.81,
-      "2028": 10.04,
-      "2029": 6.79,
-      "2030": 5.82,
-      "2031": 3.5
+      "2026": 17.01,
+      "2027": 51.17,
+      "2028": 0.93,
+      "2029": 0.31,
+      "2030": 0.31,
+      "2031": 0.31
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 213",
+    "bd_short": "Wendbare en pro-actieve gemeente",
+    "bd_long": "Wendbare en pro-actieve gemeente",
+    "ap_code": "6.5.",
+    "ap_short": "Duurzaam financieel en facilitair beleid",
+    "ap_long": "Duurzaam financieel en facilitair beleid",
+    "ac_code": "6.5._6.5.5.",
+    "ac_short": "Diverse investeringen in administratieve gebouwen",
+    "ac_long": "Diverse investeringen in administratieve gebouwen (dagelijks bestuur)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2243150.0,
+    "amount_per_capita": 69.36,
+    "yearly_amounts": {
+      "2026": 643500.0,
+      "2027": 776000.0,
+      "2028": 255000.0,
+      "2029": 130000.0,
+      "2030": 30000.0,
+      "2031": 408650.0
+    },
+    "yearly_per_capita": {
+      "2026": 19.9,
+      "2027": 23.99,
+      "2028": 7.88,
+      "2029": 4.02,
+      "2030": 0.93,
+      "2031": 12.64
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 209",
+    "bd_short": "Veilige en nette gemeente",
+    "bd_long": "Veilige en nette gemeente",
+    "ap_code": "2.3.",
+    "ap_short": "Afvalbeleidsplan",
+    "ap_long": "Afvalbeleidsplan",
+    "ac_code": "2.3._2.3.6.",
+    "ac_short": "Verdere uitrol van de ondergrondse afvalcontainers",
+    "ac_long": "Verdere uitrol van de ondergrondse afvalcontainers",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2100000.0,
+    "amount_per_capita": 64.93,
+    "yearly_amounts": {
+      "2026": 600000.0,
+      "2027": 1500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.55,
+      "2027": 46.38,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.16.",
+    "ac_short": "Vernieuwing kunstgrasvelden",
+    "ac_long": "Vernieuwing kunstgrasvelden",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 61.84,
+    "yearly_amounts": {
+      "2026": 130000.0,
+      "2027": 486000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 720000.0,
+      "2031": 664000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.02,
+      "2027": 15.03,
+      "2028": 0,
+      "2029": 0,
+      "2030": 22.26,
+      "2031": 20.53
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 209",
+    "bd_short": "Veilige en nette gemeente",
+    "bd_long": "Veilige en nette gemeente",
+    "ap_code": "2.3.",
+    "ap_short": "Afvalbeleidsplan",
+    "ap_long": "Afvalbeleidsplan",
+    "ac_code": "2.3._2.3.7.",
+    "ac_short": "Aankoop van afvalbakken",
+    "ac_long": "Aankoop van afvalbakken",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 1930966.0,
+    "amount_per_capita": 59.71,
+    "yearly_amounts": {
+      "2026": 1930966.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 59.71,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.12.",
+    "ac_short": "Renovatie Molenhoek",
+    "ac_long": "Renovatie Molenhoek",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1783000.0,
+    "amount_per_capita": 55.13,
+    "yearly_amounts": {
+      "2026": 1100500.0,
+      "2027": 132500.0,
+      "2028": 400000.0,
+      "2029": 150000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 34.03,
+      "2027": 4.1,
+      "2028": 12.37,
+      "2029": 4.64,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.6.",
+    "ac_short": "Ontwikkelen Community House als open huis",
+    "ac_long": "We ontwikkelen het community house als een open huis waar inwoner en bezoeker welkom is om te ontmoeten, verpozen, ontlenen, informeren en te leren.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1705000.0,
+    "amount_per_capita": 52.72,
+    "yearly_amounts": {
+      "2026": 1505000.0,
+      "2027": 200000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 46.53,
+      "2027": 6.18,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 209",
     "bd_short": "Veilige en nette gemeente",
     "bd_long": "Veilige en nette gemeente",
     "ap_code": "2.6.",
     "ap_short": "Diverse investeringen technische gebouwen",
     "ap_long": "Diverse investeringen technische gebouwen",
-    "ac_code": "2.6.",
+    "ac_code": "2.6._2.6.1.",
     "ac_short": "Diverse investeringen in technische gebouwen",
     "ac_long": "Diverse investeringen in technische gebouwen (dagelijks bestuur)",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 2129750.0,
-    "amount_per_capita": 65.88,
+    "total_amount": 1629750.0,
+    "amount_per_capita": 50.39,
     "yearly_amounts": {
-      "2026": 615000.0,
+      "2026": 115000.0,
       "2027": 195000.0,
       "2028": 839750.0,
       "2029": 310000.0,
@@ -773,9 +1249,9 @@
       "2031": 85000.0
     },
     "yearly_per_capita": {
-      "2026": 19.02,
+      "2026": 3.56,
       "2027": 6.03,
-      "2028": 25.98,
+      "2028": 25.97,
       "2029": 9.59,
       "2030": 2.63,
       "2031": 2.63
@@ -784,31 +1260,65 @@
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
-    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
-    "ap_code": "3.2.",
-    "ap_short": "Slim en efficiënt parkeerbeleid",
-    "ap_long": "Slim en efficiënt parkeerbeleid",
-    "ac_code": "3.2.",
-    "ac_short": "Randparking Natiënlaan",
-    "ac_long": "Randparking Natiënlaan",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.8.",
+    "ap_short": "Projectzone stationsomgeving Knokke",
+    "ap_long": "Projectzone stationsomgeving Knokke",
+    "ac_code": "5.8._5.8.3.",
+    "ac_short": "Herinrichten openbaar domein Duinenwater",
+    "ac_long": "Herinrichten openbaar domein Duinenwater",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 1450000.0,
-    "amount_per_capita": 44.85,
+    "total_amount": 1560000.0,
+    "amount_per_capita": 48.24,
     "yearly_amounts": {
-      "2026": 350000.0,
-      "2027": 1100000.0,
+      "2026": 0,
+      "2027": 780000.0,
+      "2028": 780000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 24.12,
+      "2028": 24.12,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.1.",
+    "ap_short": "Duurzame en veilige infrastructuur",
+    "ap_long": "Duurzame en veilige infrastructuur",
+    "ac_code": "3.1._3.1.12.",
+    "ac_short": "Heraanleg Maes en Boereboomplein en aanliggende straten",
+    "ac_long": "Heraanleg Maes en Boereboomplein en aanliggende straten",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1485059.0,
+    "amount_per_capita": 45.92,
+    "yearly_amounts": {
+      "2026": 1485059.0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 10.83,
-      "2027": 34.03,
+      "2026": 45.92,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -818,20 +1328,54 @@
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.1.",
+    "ap_short": "Duurzame en veilige infrastructuur",
+    "ap_long": "Duurzame en veilige infrastructuur",
+    "ac_code": "3.1._3.1.5.",
+    "ac_short": "Fietsverbinding Westkapellestraat",
+    "ac_long": "Fietsverbinding Westkapellestraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1430000.0,
+    "amount_per_capita": 44.22,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 715000.0,
+      "2028": 715000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 22.11,
+      "2028": 22.11,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
     "bd_short": "Verdere uitbouw Knokke-Heist",
     "bd_long": "Verdere uitbouw Knokke-Heist",
     "ap_code": "5.12.",
     "ap_short": "Projectzone koppelgebied Westkapelle",
     "ap_long": "Projectzone koppelgebied Westkapelle",
-    "ac_code": "5.12.",
+    "ac_code": "5.12._5.12.4.",
     "ac_short": "Aankoop gronden en gebouwen",
     "ac_long": "Aankoop gronden en gebouwen",
     "categories": [
       "00-algemene-financiering"
     ],
     "total_amount": 1400000.0,
-    "amount_per_capita": 43.31,
+    "amount_per_capita": 43.29,
     "yearly_amounts": {
       "2026": 1400000.0,
       "2027": 0,
@@ -841,7 +1385,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 43.31,
+      "2026": 43.29,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -852,54 +1396,88 @@
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
-    "bd_short": "Wendbare en pro-actieve gemeente",
-    "bd_long": "Wendbare en pro-actieve gemeente",
-    "ap_code": "6.3.",
-    "ap_short": "Veilige en slimme digitale technologie",
-    "ap_long": "Veilige en slimme digitale technologie",
-    "ac_code": "6.3.",
-    "ac_short": "Nieuwe technologieën en slimme toepassingen",
-    "ac_long": "We verkennen en benutten nieuwe technologieën en slimme toepassingen om de leefkwaliteit, duurzaamheid en efficiëntie in Knokke-Heist te versterken.",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.2.",
+    "ap_short": "Slim en efficiënt parkeerbeleid",
+    "ap_long": "Slim en efficiënt parkeerbeleid",
+    "ac_code": "3.2._3.2.3.",
+    "ac_short": "Randparking Natiënlaan",
+    "ac_long": "Randparking Natiënlaan",
     "categories": [
-      "01-algemeen-bestuur"
+      "02-mobiliteit"
     ],
-    "total_amount": 1305000.0,
-    "amount_per_capita": 40.37,
+    "total_amount": 1300000.0,
+    "amount_per_capita": 40.2,
     "yearly_amounts": {
-      "2026": 270000.0,
-      "2027": 400000.0,
-      "2028": 215000.0,
-      "2029": 165000.0,
-      "2030": 140000.0,
-      "2031": 115000.0
+      "2026": 200000.0,
+      "2027": 1100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.35,
-      "2027": 12.37,
-      "2028": 6.65,
-      "2029": 5.1,
-      "2030": 4.33,
-      "2031": 3.56
+      "2026": 6.18,
+      "2027": 34.01,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.5.",
+    "ap_short": "Toekomstrobuuste waterstrategie",
+    "ap_long": "Toekomstrobuuste waterstrategie",
+    "ac_code": "5.5._5.5.3.",
+    "ac_short": "Kwalitatief drinkwater",
+    "ac_long": "We garanderen de gewenste hoeveelheid kwalitatief drinkwater binnen een robuust, kwalitatief en redundant drinkwaternetwerk",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1284400.0,
+    "amount_per_capita": 39.71,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1284400.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 39.71,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 211",
     "bd_short": "Bruisende gemeente met balans voor iedereen",
     "bd_long": "Bruisende gemeente met balans voor iedereen",
     "ap_code": "4.5.",
     "ap_short": "Een actief beeldende kunstenbeleid",
     "ap_long": "Een actief beeldende kunstenbeleid",
-    "ac_code": "4.5.",
+    "ac_code": "4.5._4.5.4.",
     "ac_short": "Kunst op het openbaar domein",
     "ac_long": "We investeren in kunst op het openbaar domein via de aankoop van sculpturen van internationaal niveau.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 1200000.0,
-    "amount_per_capita": 37.12,
+    "amount_per_capita": 37.1,
     "yearly_amounts": {
       "2026": 200000.0,
       "2027": 200000.0,
@@ -909,92 +1487,1214 @@
       "2031": 200000.0
     },
     "yearly_per_capita": {
-      "2026": 6.19,
-      "2027": 6.19,
-      "2028": 6.19,
-      "2029": 6.19,
-      "2030": 6.19,
-      "2031": 6.19
+      "2026": 6.18,
+      "2027": 6.18,
+      "2028": 6.18,
+      "2029": 6.18,
+      "2030": 6.18,
+      "2031": 6.18
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.14.",
+    "ac_short": "Renovatie De Stormmeeuw",
+    "ac_long": "Renovatie De Stormmeeuw",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1135000.0,
+    "amount_per_capita": 35.09,
+    "yearly_amounts": {
+      "2026": 565000.0,
+      "2027": 0,
+      "2028": 500000.0,
+      "2029": 70000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.47,
+      "2027": 0,
+      "2028": 15.46,
+      "2029": 2.16,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 213",
+    "bd_short": "Wendbare en pro-actieve gemeente",
+    "bd_long": "Wendbare en pro-actieve gemeente",
+    "ap_code": "6.4.",
+    "ap_short": "Digitale basisinfrastructuur",
+    "ap_long": "Digitale basisinfrastructuur",
+    "ac_code": "6.4._6.4.1.",
+    "ac_short": "Verdere uitbouw glasvezelnetwerk",
+    "ac_long": "We bouwen het glasvezelnetwerk verder uit en onderhoud het, zodat we beschikken over een performante backbone voor de gemeentelijke diensten en politie ifv de camerabewaking.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1100000.0,
+    "amount_per_capita": 34.01,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 200000.0,
+      "2028": 250000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.73,
+      "2027": 6.18,
+      "2028": 7.73,
+      "2029": 4.64,
+      "2030": 4.64,
+      "2031": 3.09
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.8.",
+    "ap_short": "Projectzone stationsomgeving Knokke",
+    "ap_long": "Projectzone stationsomgeving Knokke",
+    "ac_code": "5.8._5.8.4.",
+    "ac_short": "Herinrichten Knokkestraat",
+    "ac_long": "Herinrichten Knokkestraat in functie van RWA en nieuwe scholencampus",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1050000.0,
+    "amount_per_capita": 32.47,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 350000.0,
+      "2028": 350000.0,
+      "2029": 350000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 10.82,
+      "2028": 10.82,
+      "2029": 10.82,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 213",
+    "bd_short": "Wendbare en pro-actieve gemeente",
+    "bd_long": "Wendbare en pro-actieve gemeente",
+    "ap_code": "6.3.",
+    "ap_short": "Veilige en slimme digitale technologie",
+    "ap_long": "Veilige en slimme digitale technologie",
+    "ac_code": "6.3._6.3.4.",
+    "ac_short": "Nieuwe technologieën en slimme toepassingen",
+    "ac_long": "We verkennen en benutten nieuwe technologieën en slimme toepassingen om de leefkwaliteit, duurzaamheid en efficiëntie in Knokke-Heist te versterken.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 850000.0,
+    "amount_per_capita": 26.28,
+    "yearly_amounts": {
+      "2026": 225000.0,
+      "2027": 150000.0,
+      "2028": 175000.0,
+      "2029": 125000.0,
+      "2030": 100000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.96,
+      "2027": 4.64,
+      "2028": 5.41,
+      "2029": 3.86,
+      "2030": 3.09,
+      "2031": 2.32
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 213",
+    "bd_short": "Wendbare en pro-actieve gemeente",
+    "bd_long": "Wendbare en pro-actieve gemeente",
+    "ap_code": "6.4.",
+    "ap_short": "Digitale basisinfrastructuur",
+    "ap_long": "Digitale basisinfrastructuur",
+    "ac_code": "6.4._6.4.4.",
+    "ac_short": "IT apparatuur en infrastructuurbeheer",
+    "ac_long": "IT apparatuur en infrastructuurbeheer",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 820800.0,
+    "amount_per_capita": 25.38,
+    "yearly_amounts": {
+      "2026": 506300.0,
+      "2027": 149500.0,
+      "2028": 44500.0,
+      "2029": 69500.0,
+      "2030": 38000.0,
+      "2031": 13000.0
+    },
+    "yearly_per_capita": {
+      "2026": 15.65,
+      "2027": 4.62,
+      "2028": 1.38,
+      "2029": 2.15,
+      "2030": 1.17,
+      "2031": 0.4
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.11.",
+    "ap_short": "Projectzone Casino",
+    "ap_long": "Projectzone Casino",
+    "ac_code": "5.11._5.11.3.",
+    "ac_short": "Integratie van het project in geheel Elizabetlaan en zeedijk",
+    "ac_long": "Integratie van het project in geheel Elizabetlaan en zeedijk",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 720000.0,
+    "amount_per_capita": 22.26,
+    "yearly_amounts": {
+      "2026": 720000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 22.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.13.",
+    "ap_short": "Projectzone Westkapelle Dorp",
+    "ap_long": "Projectzone Westkapelle Dorp",
+    "ac_code": "5.13._5.13.2.",
+    "ac_short": "Projectzone Kerk/site oude rusthuis",
+    "ac_long": "Projectzone Kerk/site oude rusthuis",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 720000.0,
+    "amount_per_capita": 22.26,
+    "yearly_amounts": {
+      "2026": 720000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 22.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.11.",
+    "ac_short": "Renovatie Museum Hey",
+    "ac_long": "Renovatie Museum Hey",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 715000.0,
+    "amount_per_capita": 22.11,
+    "yearly_amounts": {
+      "2026": 475000.0,
+      "2027": 120000.0,
+      "2028": 120000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.69,
+      "2027": 3.71,
+      "2028": 3.71,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 213",
+    "bd_short": "Wendbare en pro-actieve gemeente",
+    "bd_long": "Wendbare en pro-actieve gemeente",
+    "ap_code": "6.5.",
+    "ap_short": "Duurzaam financieel en facilitair beleid",
+    "ap_long": "Duurzaam financieel en facilitair beleid",
+    "ac_code": "6.5._6.5.4.",
+    "ac_short": "Uitrol van de werkplekstrategie",
+    "ac_long": "Uitrol van de werkplekstrategie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 625000.0,
+    "amount_per_capita": 19.32,
+    "yearly_amounts": {
+      "2026": 175000.0,
+      "2027": 150000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.41,
+      "2027": 4.64,
+      "2028": 2.32,
+      "2029": 2.32,
+      "2030": 2.32,
+      "2031": 2.32
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.2.",
+    "ap_short": "Vergroeningsstrategie",
+    "ap_long": "Vergroeningsstrategie",
+    "ac_code": "5.2._5.2.5.",
+    "ac_short": "Opwaardering van pleinen, perken en borders",
+    "ac_long": "We werken aan de opwaardering van pleinen, perken en borders.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 18.55,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.09,
+      "2027": 3.09,
+      "2028": 3.09,
+      "2029": 3.09,
+      "2030": 3.09,
+      "2031": 3.09
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.5.",
+    "ap_short": "Toekomstrobuuste waterstrategie",
+    "ap_long": "Toekomstrobuuste waterstrategie",
+    "ac_code": "5.5._5.5.1.",
+    "ac_short": "Hemelwater- en droogteplan",
+    "ac_long": "We zetten in op maximaal gebruik en het ter plaatse houden van hemelwater bij (nieuwe) projecten door o.a. ontharding en bufferbekkens",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 18.55,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.09,
+      "2027": 3.09,
+      "2028": 3.09,
+      "2029": 3.09,
+      "2030": 3.09,
+      "2031": 3.09
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.10.",
+    "ap_short": "Versterken onderwijsinfrastructuur",
+    "ap_long": "Versterken onderwijsinfrastructuur",
+    "ac_code": "1.10._1.10.4.",
+    "ac_short": "Diverse investeringen MAAK (dagelijks bestuur)",
+    "ac_long": "Diverse investeringen MAAK (dagelijks bestuur)",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 568700.0,
+    "amount_per_capita": 17.58,
+    "yearly_amounts": {
+      "2026": 437900.0,
+      "2027": 70800.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 13.54,
+      "2027": 2.19,
+      "2028": 0.46,
+      "2029": 0.46,
+      "2030": 0.46,
+      "2031": 0.46
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.9.",
+    "ac_short": "Diverse investeringen in sportinfrastructuur",
+    "ac_long": "Diverse investeringen in sportinfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 547000.0,
+    "amount_per_capita": 16.91,
+    "yearly_amounts": {
+      "2026": 115000.0,
+      "2027": 192000.0,
+      "2028": 60000.0,
+      "2029": 60000.0,
+      "2030": 60000.0,
+      "2031": 60000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.56,
+      "2027": 5.94,
+      "2028": 1.86,
+      "2029": 1.86,
+      "2030": 1.86,
+      "2031": 1.86
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.8.",
+    "ac_short": "Diverse investeringen in jeugdinfrastructuur",
+    "ac_long": "Diverse investeringen in jeugdinfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 510001.0,
+    "amount_per_capita": 15.77,
+    "yearly_amounts": {
+      "2026": 105001.0,
+      "2027": 247000.0,
+      "2028": 70000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 48000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.25,
+      "2027": 7.64,
+      "2028": 2.16,
+      "2029": 0.62,
+      "2030": 0.62,
+      "2031": 1.48
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.15.",
+    "ac_short": "Vernieuwing sportstrand Heist",
+    "ac_long": "Vernieuwing sportstrand Heist",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 15.46,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 209",
+    "bd_short": "Veilige en nette gemeente",
+    "bd_long": "Veilige en nette gemeente",
+    "ap_code": "2.6.",
+    "ap_short": "Diverse investeringen technische gebouwen",
+    "ap_long": "Diverse investeringen technische gebouwen",
+    "ac_code": "2.6._2.6.2.",
+    "ac_short": "Aanpassing beveiliging loodsen",
+    "ac_long": "Aanpassing beveiliging loodsen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 15.46,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
     "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
     "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
     "ap_code": "1.13.",
     "ap_short": "Kwaliteitsvol materiaal vrije tijd",
     "ap_long": "Kwaliteitsvol materiaal vrije tijd",
-    "ac_code": "1.13.",
+    "ac_code": "1.13._1.13.2",
+    "ac_short": "Divers uitbatingsmateriaal cultuur",
+    "ac_long": "Divers uitbatingsmateriaal cultuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 492000.0,
+    "amount_per_capita": 15.21,
+    "yearly_amounts": {
+      "2026": 82000.0,
+      "2027": 82000.0,
+      "2028": 82000.0,
+      "2029": 82000.0,
+      "2030": 82000.0,
+      "2031": 82000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.54,
+      "2027": 2.54,
+      "2028": 2.54,
+      "2029": 2.54,
+      "2030": 2.54,
+      "2031": 2.54
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 213",
+    "bd_short": "Wendbare en pro-actieve gemeente",
+    "bd_long": "Wendbare en pro-actieve gemeente",
+    "ap_code": "6.3.",
+    "ap_short": "Veilige en slimme digitale technologie",
+    "ap_long": "Veilige en slimme digitale technologie",
+    "ac_code": "6.3._6.3.6.",
+    "ac_short": "Digitale transformatie en databeleid",
+    "ac_long": "We creëren een veilig en duidelijk kader voor digitale transformatie met heldere verantwoordelijkheden, betrouwbare data en datagedreven beleid via governance, innovatie en opleiding.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 455000.0,
+    "amount_per_capita": 14.07,
+    "yearly_amounts": {
+      "2026": 45000.0,
+      "2027": 250000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.39,
+      "2027": 7.73,
+      "2028": 1.24,
+      "2029": 1.24,
+      "2030": 1.24,
+      "2031": 1.24
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.13.",
+    "ap_short": "Kwaliteitsvol materiaal vrije tijd",
+    "ap_long": "Kwaliteitsvol materiaal vrije tijd",
+    "ac_code": "1.13._1.13.1",
     "ac_short": "Divers uitbatingsmateriaal sport",
     "ac_long": "Divers uitbatingsmateriaal sport",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1102000.0,
-    "amount_per_capita": 34.09,
+    "total_amount": 450000.0,
+    "amount_per_capita": 13.91,
     "yearly_amounts": {
-      "2026": 267000.0,
-      "2027": 167000.0,
-      "2028": 167000.0,
-      "2029": 167000.0,
-      "2030": 167000.0,
-      "2031": 167000.0
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
     },
     "yearly_per_capita": {
-      "2026": 8.26,
-      "2027": 5.17,
-      "2028": 5.17,
-      "2029": 5.17,
-      "2030": 5.17,
-      "2031": 5.17
+      "2026": 2.32,
+      "2027": 2.32,
+      "2028": 2.32,
+      "2029": 2.32,
+      "2030": 2.32,
+      "2031": 2.32
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.10.",
+    "ap_short": "Belevingsstraten handelskern Knokke",
+    "ap_long": "Belevingsstraten handelskern Knokke",
+    "ac_code": "5.10._5.10.3",
+    "ac_short": "Aankoop terraswanden en parasols",
+    "ac_long": "Aankoop terraswanden en parasols",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 13.91,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.32,
+      "2027": 2.32,
+      "2028": 2.32,
+      "2029": 2.32,
+      "2030": 2.32,
+      "2031": 2.32
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
     "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
     "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
-    "ap_code": "1.12.",
-    "ap_short": "Kwaliteitsvol materiaal onderwijs",
-    "ap_long": "Kwaliteitsvol materiaal onderwijs",
-    "ac_code": "1.12.",
-    "ac_short": "Divers uitbatingsmateriaal De Pluim",
-    "ac_long": "Divers uitbatingsmateriaal De Pluim",
+    "ap_code": "1.10.",
+    "ap_short": "Versterken onderwijsinfrastructuur",
+    "ap_long": "Versterken onderwijsinfrastructuur",
+    "ac_code": "1.10._1.10.2.",
+    "ac_short": "Diverse investeringen De Pluim (dagelijks bestuur)",
+    "ac_long": "Diverse investeringen De Pluim (dagelijks bestuur)",
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 141000.0,
-    "amount_per_capita": 4.36,
+    "total_amount": 389000.0,
+    "amount_per_capita": 12.03,
     "yearly_amounts": {
-      "2026": 33500.0,
-      "2027": 27500.0,
-      "2028": 20000.0,
-      "2029": 20000.0,
-      "2030": 20000.0,
-      "2031": 20000.0
+      "2026": 122000.0,
+      "2027": 22000.0,
+      "2028": 30000.0,
+      "2029": 155000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 1.04,
-      "2027": 0.85,
-      "2028": 0.62,
-      "2029": 0.62,
-      "2030": 0.62,
-      "2031": 0.62
+      "2026": 3.77,
+      "2027": 0.68,
+      "2028": 0.93,
+      "2029": 4.79,
+      "2030": 0.93,
+      "2031": 0.93
     }
   },
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.5.",
+    "ap_short": "Toekomstrobuuste waterstrategie",
+    "ap_long": "Toekomstrobuuste waterstrategie",
+    "ac_code": "5.5._5.5.10.",
+    "ac_short": "We voeren gemeentelijk zoneringsplan uit",
+    "ac_long": "We voeren gemeentelijk zoneringsplan uit",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 360000.0,
+    "amount_per_capita": 11.13,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 150000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.64,
+      "2027": 4.64,
+      "2028": 0.46,
+      "2029": 0.46,
+      "2030": 0.46,
+      "2031": 0.46
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "overigBeleid",
+    "ap_short": "overigBeleid",
+    "ap_long": "overigBeleid",
+    "ac_code": "overigBeleid_NIHIL",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 337000.0,
+    "amount_per_capita": 10.42,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 187000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.64,
+      "2027": 5.78,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 213",
+    "bd_short": "Wendbare en pro-actieve gemeente",
+    "bd_long": "Wendbare en pro-actieve gemeente",
+    "ap_code": "6.4.",
+    "ap_short": "Digitale basisinfrastructuur",
+    "ap_long": "Digitale basisinfrastructuur",
+    "ac_code": "6.4._6.4.2.",
+    "ac_short": "Digital signage",
+    "ac_long": "We zetten digital signage in als een moderne, flexibele manier van communiceren via digitale schermen voor zowel informatieve als promotionele doeleinden.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 323000.0,
+    "amount_per_capita": 9.99,
+    "yearly_amounts": {
+      "2026": 293000.0,
+      "2027": 0,
+      "2028": 30000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.06,
+      "2027": 0,
+      "2028": 0.93,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.1.",
+    "ap_short": "Duurzame en veilige infrastructuur",
+    "ap_long": "Duurzame en veilige infrastructuur",
+    "ac_code": "3.1._3.1.8.",
+    "ac_short": "Aanleg fietsstraten en -stallingen",
+    "ac_long": "Aanleg fietsstraten en -stallingen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 9.28,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.55,
+      "2027": 1.55,
+      "2028": 1.55,
+      "2029": 1.55,
+      "2030": 1.55,
+      "2031": 1.55
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.1.",
+    "ap_short": "Duurzame en veilige infrastructuur",
+    "ap_long": "Duurzame en veilige infrastructuur",
+    "ac_code": "3.1._3.1.9.",
+    "ac_short": "Verhogen verkeersveiligheid",
+    "ac_long": "Verhogen verkeersveiligheid",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 9.28,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.55,
+      "2027": 1.55,
+      "2028": 1.55,
+      "2029": 1.55,
+      "2030": 1.55,
+      "2031": 1.55
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.9.",
+    "ap_short": "Versterken vrijetijdsinfrastructuur",
+    "ap_long": "Versterken vrijetijdsinfrastructuur",
+    "ac_code": "1.9._1.9.10.",
+    "ac_short": "Diverse investeringen in cultuur- en ontmoetingscentra",
+    "ac_long": "Diverse investeringen in cultuur- en ontmoetingscentra",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 287500.0,
+    "amount_per_capita": 8.89,
+    "yearly_amounts": {
+      "2026": 67500.0,
+      "2027": 50000.0,
+      "2028": 80000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.09,
+      "2027": 1.55,
+      "2028": 2.47,
+      "2029": 0.93,
+      "2030": 0.93,
+      "2031": 0.93
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 209",
+    "bd_short": "Veilige en nette gemeente",
+    "bd_long": "Veilige en nette gemeente",
+    "ap_code": "2.4.",
+    "ap_short": "Veiligheidsgebouwen",
+    "ap_long": "Veiligheidsgebouwen",
+    "ac_code": "2.4._2.4.3.",
+    "ac_short": "Diverse investeringen in veiligheidsgebouwen",
+    "ac_long": "Diverse investeringen in veiligheidsgebouwen (dagelijks bestuur)",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 263500.0,
+    "amount_per_capita": 8.15,
+    "yearly_amounts": {
+      "2026": 45000.0,
+      "2027": 45000.0,
+      "2028": 35000.0,
+      "2029": 58500.0,
+      "2030": 35000.0,
+      "2031": 45000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.39,
+      "2027": 1.39,
+      "2028": 1.08,
+      "2029": 1.81,
+      "2030": 1.08,
+      "2031": 1.39
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 209",
+    "bd_short": "Veilige en nette gemeente",
+    "bd_long": "Veilige en nette gemeente",
+    "ap_code": "2.5.",
+    "ap_short": "Kwaliteitsvol materiaal technische diensten",
+    "ap_long": "Kwaliteitsvol materiaal technische diensten",
+    "ac_code": "2.5._2.5.2.",
+    "ac_short": "Divers uitbatingsmateriaal Openbaar Domein",
+    "ac_long": "Divers uitbatingsmateriaal Openbaar Domein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 7.73,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 40000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.55,
+      "2027": 1.24,
+      "2028": 1.24,
+      "2029": 1.24,
+      "2030": 1.24,
+      "2031": 1.24
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.1.",
+    "ap_short": "Kustvisie",
+    "ap_long": "Kustvisie",
+    "ac_code": "5.1._5.1.1.",
+    "ac_short": "Kustlijn versterken tegen zeespiegelstijging",
+    "ac_long": "We zullen onze kustlijn versterken tegen de zeespiegelstijging, op basis van permanent studiewerk, via nature based solutions waar het kan en met harde maatregelen waar het moet.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 223000.0,
+    "amount_per_capita": 6.9,
+    "yearly_amounts": {
+      "2026": 223000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.9,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 209",
+    "bd_short": "Veilige en nette gemeente",
+    "bd_long": "Veilige en nette gemeente",
+    "ap_code": "2.7.",
+    "ap_short": "Kwaliteitsvol materiaal veiligheidsdiensten",
+    "ap_long": "Kwaliteitsvol materiaal veiligheidsdiensten",
+    "ac_code": "2.7._2.7.1.",
+    "ac_short": "Divers uitbatingsmateriaal veiligheidsdiensten",
+    "ac_long": "Divers uitbatingsmateriaal veiligheidsdiensten",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 220000.0,
+    "amount_per_capita": 6.8,
+    "yearly_amounts": {
+      "2026": 220000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.1.",
+    "ap_short": "Duurzame en veilige infrastructuur",
+    "ap_long": "Duurzame en veilige infrastructuur",
+    "ac_code": "3.1._3.1.1.",
+    "ac_short": "Uitvoering van het masterplan fiets",
+    "ac_long": "Uitvoering van het masterplan fiets",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 5.57,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.93,
+      "2027": 0.93,
+      "2028": 0.93,
+      "2029": 0.93,
+      "2030": 0.93,
+      "2031": 0.93
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.1.",
+    "ap_short": "Duurzame en veilige infrastructuur",
+    "ap_long": "Duurzame en veilige infrastructuur",
+    "ac_code": "3.1._3.1.6.",
+    "ac_short": "Fietsverbinding Spoorlijn Knokke",
+    "ac_long": "Fietsverbinding Spoorlijn Knokke",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 160000.0,
+    "amount_per_capita": 4.95,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 160000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 4.95,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.1.",
+    "ap_short": "Duurzame en veilige infrastructuur",
+    "ap_long": "Duurzame en veilige infrastructuur",
+    "ac_code": "3.1._3.1.13.",
+    "ac_short": "Halte-infrastructuur openbaar vervoer",
+    "ac_long": "Halte-infrastructuur openbaar vervoer",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 4.64,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.77,
+      "2027": 0.77,
+      "2028": 0.77,
+      "2029": 0.77,
+      "2030": 0.77,
+      "2031": 0.77
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 210",
+    "bd_short": "Duurzaam en innovatief mobiliteitssysteem",
+    "bd_long": "Duurzaam en innovatief mobiliteitssysteem",
+    "ap_code": "3.2.",
+    "ap_short": "Slim en efficiënt parkeerbeleid",
+    "ap_long": "Slim en efficiënt parkeerbeleid",
+    "ac_code": "3.2._3.2.4.",
+    "ac_short": "Ontwikkelen parkeergeleidingsysteem",
+    "ac_long": "Ontwikkelen parkeergeleidingsysteem",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 4.64,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
     "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
     "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
     "ap_code": "1.8.",
     "ap_short": "Erfgoedbeleid",
     "ap_long": "Erfgoedbeleid",
-    "ac_code": "1.8.",
+    "ac_code": "1.8._1.8.3.",
     "ac_short": "Schilderijencollectie binnen kunstenbeleid gemeente",
     "ac_long": "We zoeken met de schilderijencollectie van het museum aansluiting bij het kunstenbeleid van de gemeente.",
     "categories": [
@@ -1022,13 +2722,47 @@
   {
     "municipality": "Knokke-Heist",
     "nis_code": "31043",
-    "bd_code": "BDS",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.13.",
+    "ap_short": "Kwaliteitsvol materiaal vrije tijd",
+    "ap_long": "Kwaliteitsvol materiaal vrije tijd",
+    "ac_code": "1.13._1.13.5",
+    "ac_short": "Divers uitbatingsmateriaal jeugd",
+    "ac_long": "Divers uitbatingsmateriaal jeugd",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 3.09,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
     "bd_short": "Verdere uitbouw Knokke-Heist",
     "bd_long": "Verdere uitbouw Knokke-Heist",
     "ap_code": "5.6.",
     "ap_short": "Projectzone stationsomgeving Heist",
     "ap_long": "Projectzone stationsomgeving Heist",
-    "ac_code": "5.6.",
+    "ac_code": "5.6._5.6.4.",
     "ac_short": "Openbaar domein Heistlaan",
     "ac_long": "Openbaar domein Heistlaan",
     "categories": [
@@ -1047,6 +2781,210 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 3.09,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.12.",
+    "ap_short": "Kwaliteitsvol materiaal onderwijs",
+    "ap_long": "Kwaliteitsvol materiaal onderwijs",
+    "ac_code": "1.12._1.12.1.",
+    "ac_short": "Divers uitbatingsmateriaal De Pluim",
+    "ac_long": "Divers uitbatingsmateriaal De Pluim",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 66000.0,
+    "amount_per_capita": 2.04,
+    "yearly_amounts": {
+      "2026": 16000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.49,
+      "2027": 0.31,
+      "2028": 0.31,
+      "2029": 0.31,
+      "2030": 0.31,
+      "2031": 0.31
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.12.",
+    "ap_short": "Kwaliteitsvol materiaal onderwijs",
+    "ap_long": "Kwaliteitsvol materiaal onderwijs",
+    "ac_code": "1.12._1.12.3",
+    "ac_short": "Divers uitbatingsmateriaal MAAK",
+    "ac_long": "Divers uitbatingsmateriaal MAAK",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 1.86,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.31,
+      "2027": 0.31,
+      "2028": 0.31,
+      "2029": 0.31,
+      "2030": 0.31,
+      "2031": 0.31
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.13.",
+    "ap_short": "Kwaliteitsvol materiaal vrije tijd",
+    "ap_long": "Kwaliteitsvol materiaal vrije tijd",
+    "ac_code": "1.13._1.13.3",
+    "ac_short": "Divers uitbatingsmateriaal bibliotheek",
+    "ac_long": "Divers uitbatingsmateriaal bibliotheek",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 1.86,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.31,
+      "2027": 0.31,
+      "2028": 0.31,
+      "2029": 0.31,
+      "2030": 0.31,
+      "2031": 0.31
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.10.",
+    "ap_short": "Versterken onderwijsinfrastructuur",
+    "ap_long": "Versterken onderwijsinfrastructuur",
+    "ac_code": "1.10._1.10.3.",
+    "ac_short": "Diverse investeringen Het Anker (dagelijks bestuur)",
+    "ac_long": "Diverse investeringen Het Anker (dagelijks bestuur)",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 44000.0,
+    "amount_per_capita": 1.36,
+    "yearly_amounts": {
+      "2026": 22000.0,
+      "2027": 22000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.68,
+      "2027": 0.68,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 212",
+    "bd_short": "Verdere uitbouw Knokke-Heist",
+    "bd_long": "Verdere uitbouw Knokke-Heist",
+    "ap_code": "5.1.",
+    "ap_short": "Kustvisie",
+    "ap_long": "Kustvisie",
+    "ac_code": "5.1._5.1.2.",
+    "ac_short": "Herbekijken mobiliteitsstrategie en inrichting zeedijk",
+    "ac_long": "We herbekijken de mobiliteitsstrategie en inrichting van de zeedijk binnen het verhaal van kustvisie",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.62,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.62,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Knokke-Heist",
+    "nis_code": "31043",
+    "bd_code": "BDS 208",
+    "bd_short": "Balans wonen, werken, onderwijs en vrije tijd",
+    "bd_long": "Balans wonen, werken, onderwijs en vrije tijd",
+    "ap_code": "1.12.",
+    "ap_short": "Kwaliteitsvol materiaal onderwijs",
+    "ap_long": "Kwaliteitsvol materiaal onderwijs",
+    "ac_code": "1.12._1.12.2.",
+    "ac_short": "Divers uitbatingsmateriaal Het Anker",
+    "ac_long": "Divers uitbatingsmateriaal Het Anker",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.46,
+    "yearly_amounts": {
+      "2026": 7500.0,
+      "2027": 7500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.23,
+      "2027": 0.23,
       "2028": 0,
       "2029": 0,
       "2030": 0,

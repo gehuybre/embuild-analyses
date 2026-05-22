@@ -1,0 +1,112 @@
+name: Deploy fin-indicatoren public site
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "apps/fin-indicatoren/**"
+      - "packages/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - "turbo.json"
+      - "scripts/build-standalone-app.mjs"
+      - ".github/workflows/deploy-fin-indicatoren-public.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  deployments: write
+
+concurrency:
+  group: cloudflare-deploy-fin-indicatoren-public
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_DEPLOY_VERSION: ${{ github.sha }}
+      NODE_OPTIONS: "--max-old-space-size=4096"
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: pnpm
+
+      - name: Restore Next.js build cache
+        uses: actions/cache/restore@v4
+        with:
+          path: apps/**/.next/cache
+          key: standalone-fin-indicatoren-next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: |
+            standalone-fin-indicatoren-next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-
+            standalone-fin-indicatoren-next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build standalone fin-indicatoren site
+        run: pnpm build:standalone -- fin-indicatoren
+
+      - name: Save Next.js build cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: apps/**/.next/cache
+          key: standalone-fin-indicatoren-next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-${{ github.sha }}
+
+      - name: Upload standalone dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-standalone-fin-indicatoren
+          path: dist-standalone/fin-indicatoren/
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate configuration
+        run: |
+          missing=0
+          if [ -z "${{ vars.CLOUDFLARE_PAGES_PROJECT_FIN_INDICATOREN }}" ]; then
+            echo "::error::Missing repository variable CLOUDFLARE_PAGES_PROJECT_FIN_INDICATOREN"
+            missing=1
+          fi
+          if [ -z "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ]; then
+            echo "::error::Missing secret CLOUDFLARE_ACCOUNT_ID"
+            missing=1
+          fi
+          if [ -z "${{ secrets.CLOUDFLARE_API_TOKEN }}" ]; then
+            echo "::error::Missing secret CLOUDFLARE_API_TOKEN"
+            missing=1
+          fi
+          if [ "$missing" -eq 1 ]; then
+            echo "::error::Set missing values at https://github.com/${{ github.repository }}/settings"
+            exit 1
+          fi
+          echo "✓ All Cloudflare configuration present"
+
+      - name: Download standalone dist
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-standalone-fin-indicatoren
+          path: dist-standalone/fin-indicatoren/
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy dist-standalone/fin-indicatoren --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_FIN_INDICATOREN }} --branch=${{ github.ref_name }}
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}

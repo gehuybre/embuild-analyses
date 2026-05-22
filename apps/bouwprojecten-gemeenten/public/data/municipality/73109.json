@@ -2,69 +2,35 @@
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 37",
     "bd_short": "Patrimonium (PAT)",
     "bd_long": "Optimaliseren van het gemeentelijk patrimonium met aandacht voor de toekomstbestendigheid ervan",
     "ap_code": "PAT01",
     "ap_short": "Verduurzaming en toegankelijkheid",
     "ap_long": "Verduurzamen van het gemeentelijk patrimonium op het vlak van energie, toegankelijkheid en andere opgelegde normen",
-    "ac_code": "PAT01",
+    "ac_code": "PAT01_PAT01.1",
     "ac_short": "Ontwikkelen van een (gezamenlijk) concept om het politiegebouw en het gemeentehuis toekomstbestendig",
     "ac_long": "Ontwikkelen van een (gezamenlijk) concept om het politiegebouw en het gemeentehuis toekomstbestendig te maken en de realisatie hiervan",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 7040000.0,
-    "amount_per_capita": 1768.32,
+    "total_amount": 7000000.0,
+    "amount_per_capita": 1620.25,
     "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 5000.0,
-      "2028": 3505000.0,
-      "2029": 3505000.0,
-      "2030": 5000.0,
-      "2031": 5000.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 3500000.0,
+      "2029": 3500000.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.77,
-      "2027": 1.26,
-      "2028": 880.39,
-      "2029": 880.39,
-      "2030": 1.26,
-      "2031": 1.26
-    }
-  },
-  {
-    "municipality": "Voeren",
-    "nis_code": "73109",
-    "bd_code": "BDS",
-    "bd_short": "Infrastructuur (INFRA)",
-    "bd_long": "Verhogen van de verkeersveiligheid en het comfort van de inwoners door verbetering van de infrastructuur van wegen, pleinen, voet- en fietspaden",
-    "ap_code": "INFRA04",
-    "ap_short": "Rioleringsprojecten",
-    "ap_long": "Herinrichten van het openbaar domein bij rioleringswerken op de noden van de inwoners met betrekking tot veiligheid en comfort",
-    "ac_code": "INFRA04",
-    "ac_short": "Uitvoeren van het rioleringsproject \"Veurs/Veurzerveld\", inclusief het vernieuwen van de bovengronds",
-    "ac_long": "Uitvoeren van het rioleringsproject \"Veurs/Veurzerveld\", inclusief het vernieuwen van de bovengrondse weginrichting met plaatselijk aanleg van stoepen tegen 2028",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 2235000.0,
-    "amount_per_capita": 561.39,
-    "yearly_amounts": {
-      "2026": 400000.0,
-      "2027": 735000.0,
-      "2028": 700000.0,
-      "2029": 0,
-      "2030": 200000.0,
-      "2031": 200000.0
-    },
-    "yearly_per_capita": {
-      "2026": 100.47,
-      "2027": 184.62,
-      "2028": 175.83,
-      "2029": 0,
-      "2030": 50.24,
-      "2031": 50.24
+      "2026": 0,
+      "2027": 0,
+      "2028": 810.12,
+      "2029": 810.12,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -73,19 +39,19 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "",
+    "ap_code": "overigBeleid",
     "ap_short": "overigBeleid",
     "ap_long": "overigBeleid",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 1893131.0,
-    "amount_per_capita": 475.52,
+    "total_amount": 2504108.99,
+    "amount_per_capita": 579.61,
     "yearly_amounts": {
-      "2026": 393589.0,
+      "2026": 1004566.99,
       "2027": 307135.0,
       "2028": 310885.0,
       "2029": 350311.0,
@@ -93,33 +59,33 @@
       "2031": 283367.0
     },
     "yearly_per_capita": {
-      "2026": 98.86,
-      "2027": 77.15,
-      "2028": 78.09,
-      "2029": 87.99,
-      "2030": 62.25,
-      "2031": 71.18
+      "2026": 232.52,
+      "2027": 71.09,
+      "2028": 71.96,
+      "2029": 81.08,
+      "2030": 57.37,
+      "2031": 65.59
     }
   },
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 64",
     "bd_short": "Infrastructuur (INFRA)",
     "bd_long": "Verhogen van de verkeersveiligheid en het comfort van de inwoners door verbetering van de infrastructuur van wegen, pleinen, voet- en fietspaden",
     "ap_code": "INFRA01",
     "ap_short": "Weginfrastructuur",
     "ap_long": "Optimaliseren van de kwaliteit van verharde wegen en bruggen",
-    "ac_code": "INFRA01",
+    "ac_code": "INFRA01_INFRA01.1",
     "ac_short": "Vernieuwen en verbeteren van de weginfrastructuur volgens de prioritering opgenomen in het onderhoud",
     "ac_long": "Vernieuwen en verbeteren van de weginfrastructuur volgens de prioritering opgenomen in het onderhoudsplan voor wegen",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 1500000.0,
-    "amount_per_capita": 376.77,
+    "total_amount": 2092454.06,
+    "amount_per_capita": 484.33,
     "yearly_amounts": {
-      "2026": 250000.0,
+      "2026": 842454.06,
       "2027": 250000.0,
       "2028": 250000.0,
       "2029": 250000.0,
@@ -127,33 +93,135 @@
       "2031": 250000.0
     },
     "yearly_per_capita": {
-      "2026": 62.8,
-      "2027": 62.8,
-      "2028": 62.8,
-      "2029": 62.8,
-      "2030": 62.8,
-      "2031": 62.8
+      "2026": 195.0,
+      "2027": 57.87,
+      "2028": 57.87,
+      "2029": 57.87,
+      "2030": 57.87,
+      "2031": 57.87
     }
   },
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 64",
     "bd_short": "Infrastructuur (INFRA)",
     "bd_long": "Verhogen van de verkeersveiligheid en het comfort van de inwoners door verbetering van de infrastructuur van wegen, pleinen, voet- en fietspaden",
-    "ap_code": "INFRA02",
-    "ap_short": "Fietspaden",
-    "ap_long": "Heraanleggen van fietspaden als onderdeel van het functioneel fietsroutenetwerk",
-    "ac_code": "INFRA02",
-    "ac_short": "Aanleggen van het fietspad Stashaag tegen 2027",
-    "ac_long": "Aanleggen van het fietspad Stashaag tegen 2027",
+    "ap_code": "INFRA04",
+    "ap_short": "Rioleringsprojecten",
+    "ap_long": "Herinrichten van het openbaar domein bij rioleringswerken op de noden van de inwoners met betrekking tot veiligheid en comfort",
+    "ac_code": "INFRA04_INFRA04.2",
+    "ac_short": "Uitvoeren  van het rioleringsproject \"Berneauweg/Boomstraat\", inclusief het vernieuwen van de boveng",
+    "ac_long": "Uitvoeren  van het rioleringsproject \"Berneauweg/Boomstraat\", inclusief het vernieuwen van de bovengrondse weginrichting tegen 2027",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 870000.0,
-    "amount_per_capita": 218.53,
+    "total_amount": 1400000.0,
+    "amount_per_capita": 324.05,
     "yearly_amounts": {
-      "2026": 420000.0,
+      "2026": 0,
+      "2027": 700000.0,
+      "2028": 700000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 162.02,
+      "2028": 162.02,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 64",
+    "bd_short": "Infrastructuur (INFRA)",
+    "bd_long": "Verhogen van de verkeersveiligheid en het comfort van de inwoners door verbetering van de infrastructuur van wegen, pleinen, voet- en fietspaden",
+    "ap_code": "INFRA04",
+    "ap_short": "Rioleringsprojecten",
+    "ap_long": "Herinrichten van het openbaar domein bij rioleringswerken op de noden van de inwoners met betrekking tot veiligheid en comfort",
+    "ac_code": "INFRA04_INFRA04.4",
+    "ac_short": "Uitvoeren van het rioleringsproject \"Collector Voer fase 2\", inclusief het vernieuwen van de bovengr",
+    "ac_long": "Uitvoeren van het rioleringsproject \"Collector Voer fase 2\", inclusief het vernieuwen van de bovengrondse weginrichting met plaatselijke aanleg van stoepen tegen 2027",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 961205.7,
+    "amount_per_capita": 222.48,
+    "yearly_amounts": {
+      "2026": 961205.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 222.48,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 47",
+    "bd_short": "Kerken (KERK)",
+    "bd_long": "Verhogen van de functionele benutting van de kerken volgens de voorstellen van de inwoners",
+    "ap_code": "KERK02",
+    "ap_short": "Onderhoud en herstelling kerken",
+    "ap_long": "Opvolgen van de restauratie- en renovatiewerken aan kerken",
+    "ac_code": "KERK02_KERK02.2",
+    "ac_short": "Opvolgen van de herstellingswerken aan het hoofddak en toren van de kerk in Teuven",
+    "ac_long": "Opvolgen van de herstellingswerken aan het hoofddak en toren van de kerk in Teuven",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 494900.0,
+    "amount_per_capita": 114.55,
+    "yearly_amounts": {
+      "2026": 251650.0,
+      "2027": 243250.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 58.25,
+      "2027": 56.3,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 60",
+    "bd_short": "Parkeerbeleid (PARK)",
+    "bd_long": "Verminderen van de verkeersdrukte en de parkeerproblemen door de bezoekersstromen beter te reguleren",
+    "ap_code": "PARK01",
+    "ap_short": "Randparkings",
+    "ap_long": "Aanleggen en kwalitatief inrichten van (rand)parkings voor bezoekers",
+    "ac_code": "PARK01_PARK01.1",
+    "ac_short": "Aanleggen van een parking in de Boomstraat in 's-Gravenvoeren",
+    "ac_long": "Aanleggen van een parking in de Boomstraat in 's-Gravenvoeren",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 104.16,
+    "yearly_amounts": {
+      "2026": 0,
       "2027": 450000.0,
       "2028": 0,
       "2029": 0,
@@ -161,8 +229,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 105.5,
-      "2027": 113.03,
+      "2026": 0,
+      "2027": 104.16,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -172,31 +240,31 @@
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
-    "bd_short": "Parkeerbeleid (PARK)",
-    "bd_long": "Verminderen van de verkeersdrukte en de parkeerproblemen door de bezoekersstromen beter te reguleren",
-    "ap_code": "PARK01",
-    "ap_short": "Randparkings",
-    "ap_long": "Aanleggen en kwalitatief inrichten van (rand)parkings voor bezoekers",
-    "ac_code": "PARK01",
-    "ac_short": "Aanleggen van een parking in de Boomstraat in 's-Gravenvoeren",
-    "ac_long": "Aanleggen van een parking in de Boomstraat in 's-Gravenvoeren",
+    "bd_code": "BDS 64",
+    "bd_short": "Infrastructuur (INFRA)",
+    "bd_long": "Verhogen van de verkeersveiligheid en het comfort van de inwoners door verbetering van de infrastructuur van wegen, pleinen, voet- en fietspaden",
+    "ap_code": "INFRA02",
+    "ap_short": "Fietspaden",
+    "ap_long": "Heraanleggen van fietspaden als onderdeel van het functioneel fietsroutenetwerk",
+    "ac_code": "INFRA02_INFRA02.2",
+    "ac_short": "Heraanleggen van het fietspad Schophem - Mennekesput, inclusief de opmaak van een verantwoordingsnot",
+    "ac_long": "Heraanleggen van het fietspad Schophem - Mennekesput, inclusief de opmaak van een verantwoordingsnota",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 785000.0,
-    "amount_per_capita": 197.18,
+    "total_amount": 450000.0,
+    "amount_per_capita": 104.16,
     "yearly_amounts": {
-      "2026": 185000.0,
-      "2027": 600000.0,
+      "2026": 0,
+      "2027": 450000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 46.47,
-      "2027": 150.71,
+      "2026": 0,
+      "2027": 104.16,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -206,32 +274,32 @@
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
-    "bd_short": "Kerken (KERK)",
-    "bd_long": "Verhogen van de functionele benutting van de kerken volgens de voorstellen van de inwoners",
-    "ap_code": "KERK02",
-    "ap_short": "Onderhoud en herstelling kerken",
-    "ap_long": "Opvolgen van de restauratie- en renovatiewerken aan kerken",
-    "ac_code": "KERK02",
-    "ac_short": "Opvolgen van de herstellingswerken aan het dak en de plafonds aan de kerk in Moelingen en heraanleg",
-    "ac_long": "Opvolgen van de herstellingswerken aan het dak en de plafonds aan de kerk in Moelingen en heraanleg van het toegangspad naar de kerk",
+    "bd_code": "BDS 64",
+    "bd_short": "Infrastructuur (INFRA)",
+    "bd_long": "Verhogen van de verkeersveiligheid en het comfort van de inwoners door verbetering van de infrastructuur van wegen, pleinen, voet- en fietspaden",
+    "ap_code": "INFRA02",
+    "ap_short": "Fietspaden",
+    "ap_long": "Heraanleggen van fietspaden als onderdeel van het functioneel fietsroutenetwerk",
+    "ac_code": "INFRA02_INFRA02.1",
+    "ac_short": "Aanleggen van het fietspad Stashaag tegen 2027",
+    "ac_long": "Aanleggen van het fietspad Stashaag tegen 2027",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 536870.0,
-    "amount_per_capita": 134.85,
+    "total_amount": 420000.0,
+    "amount_per_capita": 97.21,
     "yearly_amounts": {
-      "2026": 271650.0,
-      "2027": 263250.0,
-      "2028": 1970.0,
+      "2026": 420000.0,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 68.23,
-      "2027": 66.12,
-      "2028": 0.49,
+      "2026": 97.21,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -240,22 +308,56 @@
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 64",
+    "bd_short": "Infrastructuur (INFRA)",
+    "bd_long": "Verhogen van de verkeersveiligheid en het comfort van de inwoners door verbetering van de infrastructuur van wegen, pleinen, voet- en fietspaden",
+    "ap_code": "INFRA04",
+    "ap_short": "Rioleringsprojecten",
+    "ap_long": "Herinrichten van het openbaar domein bij rioleringswerken op de noden van de inwoners met betrekking tot veiligheid en comfort",
+    "ac_code": "INFRA04_INFRA04.3",
+    "ac_short": "Uitvoeren van een rioleringsproject inclusief het vernieuwen van de bovengrondse weginrichting afhan",
+    "ac_long": "Uitvoeren van een rioleringsproject inclusief het vernieuwen van de bovengrondse weginrichting afhankelijk van opportuniteiten vanuit het Lokaal Pact en andere subsidiemogelijkheden",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 92.59,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 200000.0,
+      "2031": 200000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 46.29,
+      "2031": 46.29
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 51",
     "bd_short": "Vrije Tijd (VRI)",
     "bd_long": "Diversifiëren van een toegankelijk vrijetijdsaanbod, waardoor jong en oud kan genieten van een bruisende gemeenschap",
     "ap_code": "VRI01",
     "ap_short": "Sport- en spelinfrastructuur",
     "ap_long": "Vernieuwen en uitbreiden van sport- en spelinfrastructuur",
-    "ac_code": "VRI01",
+    "ac_code": "VRI01_VRI01.1",
     "ac_short": "Verhogen van de belevingswaarde van speelbossen, de speelboomgaard, speelveld Hoeneveldje, picknickp",
     "ac_long": "Verhogen van de belevingswaarde van speelbossen, de speelboomgaard, speelveld Hoeneveldje, picknickplaatsen, speelpleintjes,...",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 267432.0,
-    "amount_per_capita": 67.17,
+    "total_amount": 273586.5,
+    "amount_per_capita": 63.33,
     "yearly_amounts": {
-      "2026": 65000.0,
+      "2026": 71154.5,
       "2027": 80000.0,
       "2028": 30000.0,
       "2029": 30400.0,
@@ -263,33 +365,33 @@
       "2031": 31224.0
     },
     "yearly_per_capita": {
-      "2026": 16.33,
-      "2027": 20.09,
-      "2028": 7.54,
-      "2029": 7.64,
-      "2030": 7.74,
-      "2031": 7.84
+      "2026": 16.47,
+      "2027": 18.52,
+      "2028": 6.94,
+      "2029": 7.04,
+      "2030": 7.13,
+      "2031": 7.23
     }
   },
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 51",
     "bd_short": "Vrije Tijd (VRI)",
     "bd_long": "Diversifiëren van een toegankelijk vrijetijdsaanbod, waardoor jong en oud kan genieten van een bruisende gemeenschap",
     "ap_code": "VRI02",
     "ap_short": "Verenigingsleven",
     "ap_long": "Stimuleren van een levendig en kwaliteitsvol verenigingsleven",
-    "ac_code": "VRI02",
+    "ac_code": "VRI02_VRI02.3",
     "ac_short": "Stimuleren van duurzame investeringen aan verenigingslokalen",
     "ac_long": "Stimuleren van duurzame investeringen aan verenigingslokalen",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 216121.0,
-    "amount_per_capita": 54.29,
+    "total_amount": 240446.96,
+    "amount_per_capita": 55.65,
     "yearly_amounts": {
-      "2026": 60000.0,
+      "2026": 84325.96,
       "2027": 30000.0,
       "2028": 30600.0,
       "2029": 31212.0,
@@ -297,31 +399,99 @@
       "2031": 32473.0
     },
     "yearly_per_capita": {
-      "2026": 15.07,
-      "2027": 7.54,
-      "2028": 7.69,
-      "2029": 7.84,
-      "2030": 8.0,
-      "2031": 8.16
+      "2026": 19.52,
+      "2027": 6.94,
+      "2028": 7.08,
+      "2029": 7.22,
+      "2030": 7.37,
+      "2031": 7.52
     }
   },
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 43",
+    "bd_short": "Klimaatrobuustheid (KLI)",
+    "bd_long": "Klimaatrobuuster inrichten van het landschap en de inwoners nog beter wapenen tegen de steeds frequenter voorkomende extreme neerslag en langdurige droogteperiodes",
+    "ap_code": "KLI03",
+    "ap_short": "Erosie",
+    "ap_long": "Verminderen van erosie en het vertragen van de afstroming van water en modder volgens de principes in het erosiebestrijdingsplan",
+    "ac_code": "KLI03_KLI03.1",
+    "ac_short": "Aanleggen van erosiemaatregelen om afstromend water en modder te vertragen of af te leiden",
+    "ac_long": "Aanleggen van erosiemaatregelen om afstromend water en modder te vertragen of af te leiden",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 195942.3,
+    "amount_per_capita": 45.35,
+    "yearly_amounts": {
+      "2026": 95942.3,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 22.21,
+      "2027": 23.15,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 60",
+    "bd_short": "Parkeerbeleid (PARK)",
+    "bd_long": "Verminderen van de verkeersdrukte en de parkeerproblemen door de bezoekersstromen beter te reguleren",
+    "ap_code": "PARK01",
+    "ap_short": "Randparkings",
+    "ap_long": "Aanleggen en kwalitatief inrichten van (rand)parkings voor bezoekers",
+    "ac_code": "PARK01_PARK01.3",
+    "ac_short": "Onderzoeken van de mogelijkheid tot het aanleggen van een parking in Teuven",
+    "ac_long": "Onderzoeken van de mogelijkheid tot het aanleggen van een parking in Teuven",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 185000.0,
+    "amount_per_capita": 42.82,
+    "yearly_amounts": {
+      "2026": 185000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 42.82,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 51",
     "bd_short": "Vrije Tijd (VRI)",
     "bd_long": "Diversifiëren van een toegankelijk vrijetijdsaanbod, waardoor jong en oud kan genieten van een bruisende gemeenschap",
     "ap_code": "VRI04",
     "ap_short": "Cultuur en bib",
     "ap_long": "Uitbouwen van de bibliotheek als een moderne ontmoetingsruimte met aandacht voor laagdrempelige cultuurbeleving",
-    "ac_code": "VRI04",
+    "ac_code": "VRI04_VRI04.1",
     "ac_short": "Inrichten van de bibliotheek als aangename ontmoetingsplek die voldoet aan de moderne vereisten",
     "ac_long": "Inrichten van de bibliotheek als aangename ontmoetingsplek die voldoet aan de moderne vereisten",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 165000.0,
-    "amount_per_capita": 41.44,
+    "amount_per_capita": 38.19,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 80000.0,
@@ -331,42 +501,42 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 6.28,
-      "2027": 20.09,
-      "2028": 5.02,
-      "2029": 5.02,
-      "2030": 2.51,
-      "2031": 2.51
+      "2026": 5.79,
+      "2027": 18.52,
+      "2028": 4.63,
+      "2029": 4.63,
+      "2030": 2.31,
+      "2031": 2.31
     }
   },
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
-    "bd_short": "Klimaatrobuustheid (KLI)",
-    "bd_long": "Klimaatrobuuster inrichten van het landschap en de inwoners nog beter wapenen tegen de steeds frequenter voorkomende extreme neerslag en langdurige droogteperiodes",
-    "ap_code": "KLI03",
-    "ap_short": "Erosie",
-    "ap_long": "Verminderen van erosie en het vertragen van de afstroming van water en modder volgens de principes in het erosiebestrijdingsplan",
-    "ac_code": "KLI03",
-    "ac_short": "Aanleggen van erosiemaatregelen om afstromend water en modder te vertragen of af te leiden",
-    "ac_long": "Aanleggen van erosiemaatregelen om afstromend water en modder te vertragen of af te leiden",
+    "bd_code": "BDS 60",
+    "bd_short": "Parkeerbeleid (PARK)",
+    "bd_long": "Verminderen van de verkeersdrukte en de parkeerproblemen door de bezoekersstromen beter te reguleren",
+    "ap_code": "PARK01",
+    "ap_short": "Randparkings",
+    "ap_long": "Aanleggen en kwalitatief inrichten van (rand)parkings voor bezoekers",
+    "ac_code": "PARK01_PARK01.2",
+    "ac_short": "Aanleggen van een parking in Sint-Pieters-Voeren",
+    "ac_long": "Aanleggen van een parking in Sint-Pieters-Voeren",
     "categories": [
-      "03-natuur-milieu"
+      "02-mobiliteit"
     ],
-    "total_amount": 110000.0,
-    "amount_per_capita": 27.63,
+    "total_amount": 150000.0,
+    "amount_per_capita": 34.72,
     "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 100000.0,
+      "2026": 0,
+      "2027": 150000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.51,
-      "2027": 25.12,
+      "2026": 0,
+      "2027": 34.72,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -376,54 +546,20 @@
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
-    "bd_short": "Begraafplaatsen (BGP)",
-    "bd_long": "Vergroenen en toegankelijker maken van de begraafplaatsen met aandacht voor persoonlijke rouwbeleving",
-    "ap_code": "BGP01",
-    "ap_short": "Begraafplaatsen",
-    "ap_long": "Beheren, inrichten en optimaliseren van groene begraafplaatsen en natuurbegraafplaatsen",
-    "ac_code": "BGP01",
-    "ac_short": "Saneren, herinrichten en uitbreiden van de begraafplaats van Sint-Pieters-Voeren met de inrichting v",
-    "ac_long": "Saneren, herinrichten en uitbreiden van de begraafplaats van Sint-Pieters-Voeren met de inrichting van een natuurbegraafplaats",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 105200.0,
-    "amount_per_capita": 26.42,
-    "yearly_amounts": {
-      "2026": 89200.0,
-      "2027": 11200.0,
-      "2028": 1200.0,
-      "2029": 1200.0,
-      "2030": 1200.0,
-      "2031": 1200.0
-    },
-    "yearly_per_capita": {
-      "2026": 22.41,
-      "2027": 2.81,
-      "2028": 0.3,
-      "2029": 0.3,
-      "2030": 0.3,
-      "2031": 0.3
-    }
-  },
-  {
-    "municipality": "Voeren",
-    "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 45",
     "bd_short": "Afval (AFV)",
     "bd_long": "Reduceren van de hoeveelheid restafval per inwoner tegen 2030 ter bescherming van de natuurlijke grondstoffen, in uitvoering van de Vlaamse norm",
     "ap_code": "AFV01",
     "ap_short": "Milieupark",
     "ap_long": "Optimaliseren van de uitbating van het gemeentelijk milieupark",
-    "ac_code": "AFV01",
+    "ac_code": "AFV01_AFV01.1",
     "ac_short": "Vernieuwing van de software en hardware voor toegangscontrole en weegbruggen",
     "ac_long": "Vernieuwing van de software en hardware voor toegangscontrole en weegbruggen",
     "categories": [
       "03-natuur-milieu"
     ],
     "total_amount": 85000.0,
-    "amount_per_capita": 21.35,
+    "amount_per_capita": 19.67,
     "yearly_amounts": {
       "2026": 85000.0,
       "2027": 0,
@@ -433,7 +569,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 21.35,
+      "2026": 19.67,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -444,54 +580,54 @@
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
-    "bd_short": "Onroerend erfgoed (ERF)",
-    "bd_long": "Versterken van de waardering van het Voerense landschappelijk, archeologisch en bouwkundig erfgoed",
-    "ap_code": "ERF03",
-    "ap_short": "Ontsluiten erfgoed",
-    "ap_long": "Kwaliteitsvol behouden en ontsluiten van waardevol erfgoed",
-    "ac_code": "ERF03",
-    "ac_short": "Herstellen van de Sint-Annakapel",
-    "ac_long": "Herstellen van de Sint-Annakapel",
+    "bd_code": "BDS 48",
+    "bd_short": "Begraafplaatsen (BGP)",
+    "bd_long": "Vergroenen en toegankelijker maken van de begraafplaatsen met aandacht voor persoonlijke rouwbeleving",
+    "ap_code": "BGP01",
+    "ap_short": "Begraafplaatsen",
+    "ap_long": "Beheren, inrichten en optimaliseren van groene begraafplaatsen en natuurbegraafplaatsen",
+    "ac_code": "BGP01_BGP01.1",
+    "ac_short": "Saneren, herinrichten en uitbreiden van de begraafplaats van Sint-Pieters-Voeren met de inrichting v",
+    "ac_long": "Saneren, herinrichten en uitbreiden van de begraafplaats van Sint-Pieters-Voeren met de inrichting van een natuurbegraafplaats",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "09-zorg-opvang"
     ],
-    "total_amount": 60770.0,
-    "amount_per_capita": 15.26,
+    "total_amount": 82426.94,
+    "amount_per_capita": 19.08,
     "yearly_amounts": {
-      "2026": 22500.0,
-      "2027": 27550.0,
-      "2028": 2601.0,
-      "2029": 2653.0,
-      "2030": 2706.0,
-      "2031": 2760.0
+      "2026": 72426.94,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.65,
-      "2027": 6.92,
-      "2028": 0.65,
-      "2029": 0.67,
-      "2030": 0.68,
-      "2031": 0.69
+      "2026": 16.76,
+      "2027": 2.31,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 64",
     "bd_short": "Infrastructuur (INFRA)",
     "bd_long": "Verhogen van de verkeersveiligheid en het comfort van de inwoners door verbetering van de infrastructuur van wegen, pleinen, voet- en fietspaden",
     "ap_code": "INFRA03",
     "ap_short": "Veldwegen",
     "ap_long": "Verbeteren van de toegankelijkheid van veldwegen",
-    "ac_code": "INFRA03",
+    "ac_code": "INFRA03_INFRA03.1",
     "ac_short": "Heraanleggen/profileren van veldwegen volgens het onderhoudsplan voor wegen",
     "ac_long": "Heraanleggen/profileren van veldwegen volgens het onderhoudsplan voor wegen",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 48000.0,
-    "amount_per_capita": 12.06,
+    "amount_per_capita": 11.11,
     "yearly_amounts": {
       "2026": 8000.0,
       "2027": 8000.0,
@@ -501,43 +637,43 @@
       "2031": 8000.0
     },
     "yearly_per_capita": {
-      "2026": 2.01,
-      "2027": 2.01,
-      "2028": 2.01,
-      "2029": 2.01,
-      "2030": 2.01,
-      "2031": 2.01
+      "2026": 1.85,
+      "2027": 1.85,
+      "2028": 1.85,
+      "2029": 1.85,
+      "2030": 1.85,
+      "2031": 1.85
     }
   },
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
-    "bd_short": "Duurzame mobiliteit (DMOB)",
-    "bd_long": "Meer Voerenaars zetten in op duurzame mobiliteit",
-    "ap_code": "DMOB02",
-    "ap_short": "Openbaar vervoer",
-    "ap_long": "Verbeteren van de toegankelijkheid van het openbaar vervoer",
-    "ac_code": "DMOB02",
-    "ac_short": "Voorzien van minstens één toegankelijke halte bij de heraanleg van de wegenis in dorpscentra, volgen",
-    "ac_long": "Voorzien van minstens één toegankelijke halte bij de heraanleg van de wegenis in dorpscentra, volgens de richtlijnen van de Vlaamse Overheid",
+    "bd_code": "BDS 46",
+    "bd_short": "Onroerend erfgoed (ERF)",
+    "bd_long": "Versterken van de waardering van het Voerense landschappelijk, archeologisch en bouwkundig erfgoed",
+    "ap_code": "ERF03",
+    "ap_short": "Ontsluiten erfgoed",
+    "ap_long": "Kwaliteitsvol behouden en ontsluiten van waardevol erfgoed",
+    "ac_code": "ERF03_ERF03.1",
+    "ac_short": "Herstellen van de Sint-Annakapel",
+    "ac_long": "Herstellen van de Sint-Annakapel",
     "categories": [
-      "02-mobiliteit"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 40000.0,
-    "amount_per_capita": 10.05,
+    "total_amount": 45000.0,
+    "amount_per_capita": 10.42,
     "yearly_amounts": {
-      "2026": 5000.0,
-      "2027": 30000.0,
-      "2028": 5000.0,
+      "2026": 20000.0,
+      "2027": 25000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.26,
-      "2027": 7.54,
-      "2028": 1.26,
+      "2026": 4.63,
+      "2027": 5.79,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -546,20 +682,122 @@
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 47",
+    "bd_short": "Kerken (KERK)",
+    "bd_long": "Verhogen van de functionele benutting van de kerken volgens de voorstellen van de inwoners",
+    "ap_code": "KERK02",
+    "ap_short": "Onderhoud en herstelling kerken",
+    "ap_long": "Opvolgen van de restauratie- en renovatiewerken aan kerken",
+    "ac_code": "KERK02_KERK02.1",
+    "ac_short": "Opvolgen van de herstellingswerken aan het dak en de plafonds aan de kerk in Moelingen en heraanleg",
+    "ac_long": "Opvolgen van de herstellingswerken aan het dak en de plafonds aan de kerk in Moelingen en heraanleg van het toegangspad naar de kerk",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 41970.0,
+    "amount_per_capita": 9.71,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 1970.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.63,
+      "2027": 4.63,
+      "2028": 0.46,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 37",
+    "bd_short": "Patrimonium (PAT)",
+    "bd_long": "Optimaliseren van het gemeentelijk patrimonium met aandacht voor de toekomstbestendigheid ervan",
+    "ap_code": "PAT01",
+    "ap_short": "Verduurzaming en toegankelijkheid",
+    "ap_long": "Verduurzamen van het gemeentelijk patrimonium op het vlak van energie, toegankelijkheid en andere opgelegde normen",
+    "ac_code": "PAT01_PAT01.3",
+    "ac_short": "Verhogen van de fysieke toegankelijkheid van het gemeentelijk patrimonium",
+    "ac_long": "Verhogen van de fysieke toegankelijkheid van het gemeentelijk patrimonium",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 9.26,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.47,
+      "2027": 1.16,
+      "2028": 1.16,
+      "2029": 1.16,
+      "2030": 1.16,
+      "2031": 1.16
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 64",
+    "bd_short": "Infrastructuur (INFRA)",
+    "bd_long": "Verhogen van de verkeersveiligheid en het comfort van de inwoners door verbetering van de infrastructuur van wegen, pleinen, voet- en fietspaden",
+    "ap_code": "INFRA04",
+    "ap_short": "Rioleringsprojecten",
+    "ap_long": "Herinrichten van het openbaar domein bij rioleringswerken op de noden van de inwoners met betrekking tot veiligheid en comfort",
+    "ac_code": "INFRA04_INFRA04.1",
+    "ac_short": "Uitvoeren van het rioleringsproject \"Veurs/Veurzerveld\", inclusief het vernieuwen van de bovengronds",
+    "ac_long": "Uitvoeren van het rioleringsproject \"Veurs/Veurzerveld\", inclusief het vernieuwen van de bovengrondse weginrichting met plaatselijk aanleg van stoepen tegen 2028",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 35000.0,
+    "amount_per_capita": 8.1,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 35000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 8.1,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 61",
     "bd_short": "Verkeersveiligheid (VVEI)",
     "bd_long": "Veiliger maken van de voet- en fietspaden en schoolomgevingen voor alle weggebruikers",
     "ap_code": "VVEI04",
     "ap_short": "Veiligheid schoolroutes",
     "ap_long": "Creëren van veilige schoolroutes en -omgevingen",
-    "ac_code": "VVEI04",
+    "ac_code": "VVEI04_VVEI04.1",
     "ac_short": "Verhogen van de verkeersveiligheid voor schoolkinderen en andere zwakke weggebruikers",
     "ac_long": "Verhogen van de verkeersveiligheid voor schoolkinderen en andere zwakke weggebruikers",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 30000.0,
-    "amount_per_capita": 7.54,
+    "amount_per_capita": 6.94,
     "yearly_amounts": {
       "2026": 5000.0,
       "2027": 5000.0,
@@ -569,31 +807,65 @@
       "2031": 5000.0
     },
     "yearly_per_capita": {
-      "2026": 1.26,
-      "2027": 1.26,
-      "2028": 1.26,
-      "2029": 1.26,
-      "2030": 1.26,
-      "2031": 1.26
+      "2026": 1.16,
+      "2027": 1.16,
+      "2028": 1.16,
+      "2029": 1.16,
+      "2030": 1.16,
+      "2031": 1.16
     }
   },
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 62",
+    "bd_short": "Duurzame mobiliteit (DMOB)",
+    "bd_long": "Meer Voerenaars zetten in op duurzame mobiliteit",
+    "ap_code": "DMOB02",
+    "ap_short": "Openbaar vervoer",
+    "ap_long": "Verbeteren van de toegankelijkheid van het openbaar vervoer",
+    "ac_code": "DMOB02_DMOB02.2",
+    "ac_short": "Inrichting van één hoppinpunt aan de parking in 's-Gravenvoeren",
+    "ac_long": "Inrichting van één hoppinpunt aan de parking in 's-Gravenvoeren",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 5.79,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 5.79,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 61",
     "bd_short": "Verkeersveiligheid (VVEI)",
     "bd_long": "Veiliger maken van de voet- en fietspaden en schoolomgevingen voor alle weggebruikers",
     "ap_code": "VVEI03",
     "ap_short": "Fietsveiligheid",
     "ap_long": "Verbeteren van de fietsveiligheid en fietsinfrastructuur",
-    "ac_code": "VVEI03",
+    "ac_code": "VVEI03_VVEI03.1",
     "ac_short": "Aanleggen van bijkomende fietsstallingen en fietsinfrastructuur",
     "ac_long": "Aanleggen van bijkomende fietsstallingen en fietsinfrastructuur",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 23612.0,
-    "amount_per_capita": 5.93,
+    "amount_per_capita": 5.47,
     "yearly_amounts": {
       "2026": 8000.0,
       "2027": 3000.0,
@@ -603,31 +875,99 @@
       "2031": 3247.0
     },
     "yearly_per_capita": {
-      "2026": 2.01,
-      "2027": 0.75,
-      "2028": 0.77,
-      "2029": 0.78,
-      "2030": 0.8,
-      "2031": 0.82
+      "2026": 1.85,
+      "2027": 0.69,
+      "2028": 0.71,
+      "2029": 0.72,
+      "2030": 0.74,
+      "2031": 0.75
     }
   },
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 48",
+    "bd_short": "Begraafplaatsen (BGP)",
+    "bd_long": "Vergroenen en toegankelijker maken van de begraafplaatsen met aandacht voor persoonlijke rouwbeleving",
+    "ap_code": "BGP01",
+    "ap_short": "Begraafplaatsen",
+    "ap_long": "Beheren, inrichten en optimaliseren van groene begraafplaatsen en natuurbegraafplaatsen",
+    "ac_code": "BGP01_BGP01.4",
+    "ac_short": "Aanleggen van grafkelders in Sint-Martens-Voeren ter vervanging van begravingen in volle grond",
+    "ac_long": "Aanleggen van grafkelders in Sint-Martens-Voeren ter vervanging van begravingen in volle grond",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 4.63,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.63,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 46",
+    "bd_short": "Onroerend erfgoed (ERF)",
+    "bd_long": "Versterken van de waardering van het Voerense landschappelijk, archeologisch en bouwkundig erfgoed",
+    "ap_code": "ERF03",
+    "ap_short": "Ontsluiten erfgoed",
+    "ap_long": "Kwaliteitsvol behouden en ontsluiten van waardevol erfgoed",
+    "ac_code": "ERF03_ERF03.2",
+    "ac_short": "Behouden en restaureren van wegkruisjes en ander klein erfgoed door o.a. samenwerking met de Kruishe",
+    "ac_long": "Behouden en restaureren van wegkruisjes en ander klein erfgoed door o.a. samenwerking met de Kruisheren",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 15770.0,
+    "amount_per_capita": 3.65,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 2550.0,
+      "2028": 2601.0,
+      "2029": 2653.0,
+      "2030": 2706.0,
+      "2031": 2760.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.58,
+      "2027": 0.59,
+      "2028": 0.6,
+      "2029": 0.61,
+      "2030": 0.63,
+      "2031": 0.64
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 60",
     "bd_short": "Parkeerbeleid (PARK)",
     "bd_long": "Verminderen van de verkeersdrukte en de parkeerproblemen door de bezoekersstromen beter te reguleren",
     "ap_code": "PARK02",
     "ap_short": "Blauwe zones",
     "ap_long": "Invoeren van blauwe zones zoals voorzien in het parkeerbeleidsplan na aanleg van de (rand)parkings",
-    "ac_code": "PARK02",
+    "ac_code": "PARK02_PARK02.1",
     "ac_short": "Implementatie, signalisatie en bekendmaking van een blauwe zone in 's-Gravenvoeren, Sint-Martens-Voe",
     "ac_long": "Implementatie, signalisatie en bekendmaking van een blauwe zone in 's-Gravenvoeren, Sint-Martens-Voeren, Sint-Pieters-Voeren en Teuven",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 15000.0,
-    "amount_per_capita": 3.77,
+    "amount_per_capita": 3.47,
     "yearly_amounts": {
       "2026": 0,
       "2027": 3000.0,
@@ -638,30 +978,166 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0.75,
-      "2028": 0.75,
-      "2029": 0.75,
-      "2030": 0.75,
-      "2031": 0.75
+      "2027": 0.69,
+      "2028": 0.69,
+      "2029": 0.69,
+      "2030": 0.69,
+      "2031": 0.69
     }
   },
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 62",
+    "bd_short": "Duurzame mobiliteit (DMOB)",
+    "bd_long": "Meer Voerenaars zetten in op duurzame mobiliteit",
+    "ap_code": "DMOB02",
+    "ap_short": "Openbaar vervoer",
+    "ap_long": "Verbeteren van de toegankelijkheid van het openbaar vervoer",
+    "ac_code": "DMOB02_DMOB02.1",
+    "ac_short": "Voorzien van minstens één toegankelijke halte bij de heraanleg van de wegenis in dorpscentra, volgen",
+    "ac_long": "Voorzien van minstens één toegankelijke halte bij de heraanleg van de wegenis in dorpscentra, volgens de richtlijnen van de Vlaamse Overheid",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 3.47,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.16,
+      "2027": 1.16,
+      "2028": 1.16,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 48",
+    "bd_short": "Begraafplaatsen (BGP)",
+    "bd_long": "Vergroenen en toegankelijker maken van de begraafplaatsen met aandacht voor persoonlijke rouwbeleving",
+    "ap_code": "BGP01",
+    "ap_short": "Begraafplaatsen",
+    "ap_long": "Beheren, inrichten en optimaliseren van groene begraafplaatsen en natuurbegraafplaatsen",
+    "ac_code": "BGP01_BGP01.5",
+    "ac_short": "Inrichten van een koesterplek voor (sterren)kindjes door het aanbrengen van warme, natuurlijke eleme",
+    "ac_long": "Inrichten van een koesterplek voor (sterren)kindjes door het aanbrengen van warme, natuurlijke elementen op de begraafplaatsen",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 7200.0,
+    "amount_per_capita": 1.67,
+    "yearly_amounts": {
+      "2026": 1200.0,
+      "2027": 1200.0,
+      "2028": 1200.0,
+      "2029": 1200.0,
+      "2030": 1200.0,
+      "2031": 1200.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.28,
+      "2027": 0.28,
+      "2028": 0.28,
+      "2029": 0.28,
+      "2030": 0.28,
+      "2031": 0.28
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 59",
+    "bd_short": "Veiligheid (VEI)",
+    "bd_long": "Bouwen aan een weerbaardere en zorgzame gemeenschap, waar inwoners zich veilig voelen dankzij preventieve veiligheidsmaatregelen",
+    "ap_code": "VEI02",
+    "ap_short": "Integrale veiligheid",
+    "ap_long": "Voorbereiden en invoeren van preventieve acties en hulpmiddelen in het kader van integrale veiligheid",
+    "ac_code": "VEI02_VEI02.1",
+    "ac_short": "Uitbreiding van het bestaande ANPR-netwerk tegen 2030",
+    "ac_long": "Uitbreiding van het bestaande ANPR-netwerk tegen 2030",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 5109.57,
+    "amount_per_capita": 1.18,
+    "yearly_amounts": {
+      "2026": 5109.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.18,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 52",
+    "bd_short": "Toerisme (TOE)",
+    "bd_long": "Voeren is een gastvrije en duurzame toeristische bestemming waar bezoekers en inwoners op een toegankelijke en respectvolle manier kunnen genieten van het unieke landschap en erfgoed van de Voerstreek",
+    "ap_code": "TOE02",
+    "ap_short": "Hoogste punt",
+    "ap_long": "Ontsluiten van het hoogste punt van Vlaanderen via een trage weg en het artistiek aankleden ervan",
+    "ac_code": "TOE02_TOE02.1",
+    "ac_short": "Uitwerken en promoten van het wandelpad naar en van het hoogste punt van Vlaanderen",
+    "ac_long": "Uitwerken en promoten van het wandelpad naar en van het hoogste punt van Vlaanderen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 4275.0,
+    "amount_per_capita": 0.99,
+    "yearly_amounts": {
+      "2026": 4275.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.99,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 61",
     "bd_short": "Verkeersveiligheid (VVEI)",
     "bd_long": "Veiliger maken van de voet- en fietspaden en schoolomgevingen voor alle weggebruikers",
     "ap_code": "VVEI01",
     "ap_short": "Verkeersstromen",
     "ap_long": "Optimaliseren van verkeersstromen",
-    "ac_code": "VVEI01",
+    "ac_code": "VVEI01_VVEI01.2",
     "ac_short": "Analyseren en optimaliseren van verkeersstromen en snelheidsregimes op basis van verkeers- en snelhe",
     "ac_long": "Analyseren en optimaliseren van verkeersstromen en snelheidsregimes op basis van verkeers- en snelheidsdata",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 3300.0,
-    "amount_per_capita": 0.83,
+    "amount_per_capita": 0.76,
     "yearly_amounts": {
       "2026": 0,
       "2027": 3300.0,
@@ -672,7 +1148,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0.83,
+      "2027": 0.76,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -682,20 +1158,54 @@
   {
     "municipality": "Voeren",
     "nis_code": "73109",
-    "bd_code": "BDS",
+    "bd_code": "BDS 48",
+    "bd_short": "Begraafplaatsen (BGP)",
+    "bd_long": "Vergroenen en toegankelijker maken van de begraafplaatsen met aandacht voor persoonlijke rouwbeleving",
+    "ap_code": "BGP01",
+    "ap_short": "Begraafplaatsen",
+    "ap_long": "Beheren, inrichten en optimaliseren van groene begraafplaatsen en natuurbegraafplaatsen",
+    "ac_code": "BGP01_BGP01.2",
+    "ac_short": "Inrichten van een natuurbegraafplaats in Sint-Martens-Voeren",
+    "ac_long": "Inrichten van een natuurbegraafplaats in Sint-Martens-Voeren",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.69,
+    "yearly_amounts": {
+      "2026": 3000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.69,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Voeren",
+    "nis_code": "73109",
+    "bd_code": "BDS 60",
     "bd_short": "Parkeerbeleid (PARK)",
     "bd_long": "Verminderen van de verkeersdrukte en de parkeerproblemen door de bezoekersstromen beter te reguleren",
     "ap_code": "PARK03",
     "ap_short": "Bekendmaking parkeerbeleid",
     "ap_long": "Sensibiliseren van bezoekers met betrekking tot het parkeerbeleid",
-    "ac_code": "PARK03",
+    "ac_code": "PARK03_PARK03.1",
     "ac_short": "Voorzien van bewegwijzering naar de (rand)parkings na aanleg  van de parkings",
     "ac_long": "Voorzien van bewegwijzering naar de (rand)parkings na aanleg  van de parkings",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 2000.0,
-    "amount_per_capita": 0.5,
+    "amount_per_capita": 0.46,
     "yearly_amounts": {
       "2026": 0,
       "2027": 2000.0,
@@ -706,7 +1216,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0.5,
+      "2027": 0.46,
       "2028": 0,
       "2029": 0,
       "2030": 0,

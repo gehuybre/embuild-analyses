@@ -2,224 +2,326 @@
   {
     "municipality": "Ninove",
     "nis_code": "41048",
-    "bd_code": "BDS",
-    "bd_short": "3- Aantrekkelijke stad",
-    "bd_long": "Ninove ontwikkelen tot een aantrekkelijke stad",
-    "ap_code": "3",
-    "ap_short": "Infrastructuur ontspanning",
-    "ap_long": "Inzetten op infrastructuur voor ontspanning",
-    "ac_code": "3",
-    "ac_short": "Verhuur infrastructuur  CC De Plomblom",
-    "ac_long": "We faciliteren de verhuur van de infrastructuur van CC De Plomblom",
+    "bd_code": "BDS 7",
+    "bd_short": "7- Openbaar domein en patrimonium",
+    "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
+    "ap_code": "7/3",
+    "ap_short": "Patrimonium",
+    "ap_long": "We beheren ons patrimonium",
+    "ac_code": "7/3_7/3/3",
+    "ac_short": "Kwaliteitverhogende renovatie- en aanpassingswerken gebouwen",
+    "ac_long": "We verhogen de kwaliteit van de gebouwen door renovatie- en aanpassingswerken",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 22251648.0,
-    "amount_per_capita": 537.52,
+    "total_amount": 13868434.84,
+    "amount_per_capita": 333.52,
     "yearly_amounts": {
-      "2026": 7124648.0,
-      "2027": 1316000.0,
-      "2028": 1583500.0,
-      "2029": 1196000.0,
-      "2030": 5754500.0,
-      "2031": 5277000.0
+      "2026": 3482100.0,
+      "2027": 4008155.52,
+      "2028": 2705931.0,
+      "2029": 2694348.32,
+      "2030": 488650.0,
+      "2031": 489250.0
     },
     "yearly_per_capita": {
-      "2026": 172.1,
-      "2027": 31.79,
-      "2028": 38.25,
-      "2029": 28.89,
-      "2030": 139.01,
-      "2031": 127.47
+      "2026": 83.74,
+      "2027": 96.39,
+      "2028": 65.08,
+      "2029": 64.8,
+      "2030": 11.75,
+      "2031": 11.77
     }
   },
   {
     "municipality": "Ninove",
     "nis_code": "41048",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
+    "bd_short": "3- Aantrekkelijke stad",
+    "bd_long": "Ninove ontwikkelen tot een aantrekkelijke stad",
+    "ap_code": "3/2",
+    "ap_short": "Stadsontwikkeling",
+    "ap_long": "Inzetten op woonkwaliteit en stadsontwikkeling",
+    "ac_code": "3/2_3/2/7",
+    "ac_short": "Onderzoek nieuwe locatie  technische dienst",
+    "ac_long": "We verkennen de opties aangaande een nieuwe locatie voor de technische dienst en investeren in de uitwerking hiervan",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 10850000.0,
+    "amount_per_capita": 260.93,
+    "yearly_amounts": {
+      "2026": 5600000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 2575000.0,
+      "2031": 2575000.0
+    },
+    "yearly_per_capita": {
+      "2026": 134.68,
+      "2027": 1.2,
+      "2028": 1.2,
+      "2029": 0,
+      "2030": 61.93,
+      "2031": 61.93
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 3",
+    "bd_short": "3- Aantrekkelijke stad",
+    "bd_long": "Ninove ontwikkelen tot een aantrekkelijke stad",
+    "ap_code": "3/3",
+    "ap_short": "Netheid",
+    "ap_long": "Inzetten op netheid, wegenbeheer en parkeerbeleid",
+    "ac_code": "3/3_3/3/5",
+    "ac_short": "Beheer en onderhoud van de Ninoofse wegen",
+    "ac_long": "We zorgen voor het beheer en het onderhoud van de Ninoofse wegen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 5408648.0,
+    "amount_per_capita": 130.07,
+    "yearly_amounts": {
+      "2026": 978648.0,
+      "2027": 1020000.0,
+      "2028": 1020000.0,
+      "2029": 1020000.0,
+      "2030": 1020000.0,
+      "2031": 350000.0
+    },
+    "yearly_per_capita": {
+      "2026": 23.54,
+      "2027": 24.53,
+      "2028": 24.53,
+      "2029": 24.53,
+      "2030": 24.53,
+      "2031": 8.42
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 3",
+    "bd_short": "3- Aantrekkelijke stad",
+    "bd_long": "Ninove ontwikkelen tot een aantrekkelijke stad",
+    "ap_code": "3/1",
+    "ap_short": "Infrastructuur ontspanning",
+    "ap_long": "Inzetten op infrastructuur voor ontspanning",
+    "ac_code": "3/1_3/1/3",
+    "ac_short": "Onderzoek locaties bouw multifunctionele evenementenhal",
+    "ac_long": "We onderzoeken de mogelijke locaties voor de bouw van een multifunctionele evenementenhal",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 4500000.0,
+    "amount_per_capita": 108.22,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 2000000.0,
+      "2031": 2000000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.01,
+      "2027": 0,
+      "2028": 6.01,
+      "2029": 0,
+      "2030": 48.1,
+      "2031": 48.1
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 7",
     "bd_short": "7- Openbaar domein en patrimonium",
     "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
-    "ap_code": "7",
+    "ap_code": "7/1",
     "ap_short": "Technische dienst",
     "ap_long": "We optimaliseren de werking van de technische uitvoeringsdienst",
-    "ac_code": "7",
+    "ac_code": "7/1_7/1/1",
     "ac_short": "Modernisatie en uitbreiding voertuigen- en machinepark",
     "ac_long": "We moderniseren en breiden het voertuigen- en machinepark uit",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 21054316.0,
-    "amount_per_capita": 508.59,
+    "total_amount": 3781568.47,
+    "amount_per_capita": 90.94,
     "yearly_amounts": {
-      "2026": 4936232.0,
-      "2027": 6171036.0,
-      "2028": 3935831.0,
-      "2029": 3521343.0,
-      "2030": 1238404.0,
-      "2031": 1251470.0
+      "2026": 720000.0,
+      "2027": 1371400.0,
+      "2028": 442828.0,
+      "2029": 524284.56,
+      "2030": 495770.25,
+      "2031": 227285.66
     },
     "yearly_per_capita": {
-      "2026": 119.24,
-      "2027": 149.07,
-      "2028": 95.07,
-      "2029": 85.06,
-      "2030": 29.92,
-      "2031": 30.23
+      "2026": 17.32,
+      "2027": 32.98,
+      "2028": 10.65,
+      "2029": 12.61,
+      "2030": 11.92,
+      "2031": 5.47
     }
   },
   {
     "municipality": "Ninove",
     "nis_code": "41048",
-    "bd_code": "BDS",
+    "bd_code": "BDS 8",
     "bd_short": "8- Stadsontwikkeling",
     "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
-    "ap_code": "8",
-    "ap_short": "Klimaat",
-    "ap_long": "Inzetten op een klimaatadaptief en -robuust Ninove, met aandacht voor een strategisch waterbeleid",
-    "ac_code": "8",
-    "ac_short": "Uitvoer hemelwater- en droogteplan",
-    "ac_long": "We voeren waar mogelijk het hemelwater- en droogteplan uit",
+    "ap_code": "8/2",
+    "ap_short": "Ninoofse Ruimte",
+    "ap_long": "Duurzaam ordenen en ontwikkelen van de Ninoofse ruimte",
+    "ac_code": "8/2_8/2/4",
+    "ac_short": "Wegen- en rioleringswerken",
+    "ac_long": "We verbeteren de kwaliteit van het openbaar domein via wegen- en rioleringswerken",
     "categories": [
-      "03-natuur-milieu"
+      "02-mobiliteit"
     ],
-    "total_amount": 8071450.0,
-    "amount_per_capita": 194.98,
+    "total_amount": 2932500.0,
+    "amount_per_capita": 70.52,
     "yearly_amounts": {
-      "2026": 1434825.0,
-      "2027": 1563992.0,
-      "2028": 1638992.0,
-      "2029": 2213991.0,
-      "2030": 797325.0,
-      "2031": 422325.0
+      "2026": 727500.0,
+      "2027": 440000.0,
+      "2028": 590000.0,
+      "2029": 975000.0,
+      "2030": 200000.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 34.66,
-      "2027": 37.78,
-      "2028": 39.59,
-      "2029": 53.48,
-      "2030": 19.26,
-      "2031": 10.2
+      "2026": 17.5,
+      "2027": 10.58,
+      "2028": 14.19,
+      "2029": 23.45,
+      "2030": 4.81,
+      "2031": 0
     }
   },
   {
     "municipality": "Ninove",
     "nis_code": "41048",
-    "bd_code": "BDS",
-    "bd_short": "5- Vrije tijd en onderwijs",
-    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
-    "ap_code": "5",
-    "ap_short": "Bib",
-    "ap_long": "Uitbouwen van de bib als een laagdrempelig kennis-, info-, leer- en belevingscentrum",
-    "ac_code": "5",
-    "ac_short": "Bib als huiskamer van de stad",
-    "ac_long": "We maken van de bib de huiskamer van de stad in samenwerking met vrijetijds en andere stadsdiensten en externe partners door de organisatie van activiteiten over onder meer leesbevordering, e-inclusie, media-wijsheid, digitale geletterdheid maar ook meer algemene activiteiten",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 6304945.0,
-    "amount_per_capita": 152.3,
-    "yearly_amounts": {
-      "2026": 3804245.0,
-      "2027": 867000.0,
-      "2028": 434000.0,
-      "2029": 401700.0,
-      "2030": 399000.0,
-      "2031": 399000.0
-    },
-    "yearly_per_capita": {
-      "2026": 91.9,
-      "2027": 20.94,
-      "2028": 10.48,
-      "2029": 9.7,
-      "2030": 9.64,
-      "2031": 9.64
-    }
-  },
-  {
-    "municipality": "Ninove",
-    "nis_code": "41048",
-    "bd_code": "BDS",
-    "bd_short": "6- Dienstverlening",
-    "bd_long": "Een klantgerichte, proactieve, correcte en hedendaagse interne en externe dienstverlening realiseren",
-    "ap_code": "6",
-    "ap_short": "Informatica",
-    "ap_long": "Versterken van de organisatie door gericht te digitaliseren op een gebruiksvriendelijke en datagedreven manier",
-    "ac_code": "6",
-    "ac_short": "Verdere digitalisering van de dienstverlening",
-    "ac_long": "We maken werk van de verdere digitalisering van de dienstverlening",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 5122683.0,
-    "amount_per_capita": 123.74,
-    "yearly_amounts": {
-      "2026": 1042910.0,
-      "2027": 829848.0,
-      "2028": 968267.0,
-      "2029": 742403.0,
-      "2030": 707280.0,
-      "2031": 831975.0
-    },
-    "yearly_per_capita": {
-      "2026": 25.19,
-      "2027": 20.05,
-      "2028": 23.39,
-      "2029": 17.93,
-      "2030": 17.09,
-      "2031": 20.1
-    }
-  },
-  {
-    "municipality": "Ninove",
-    "nis_code": "41048",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "4- Groeikansen",
     "bd_long": "Groeikansen ontwikkelen voor en met de burger",
-    "ap_code": "4",
-    "ap_short": "Burger",
-    "ap_long": "Zorgen dat burgers, jong en oud, kunnen groeien",
-    "ac_code": "4",
-    "ac_short": "Buitenschoolse opvang en activiteiten volgens BOA-decreet",
-    "ac_long": "We investeren in kwaliteitsvolle buitenschoolse opvang en activiteiten met specifieke aandacht voor kleuters en kwetsbare groepen volgens het BOA-decreet",
+    "ap_code": "4/2",
+    "ap_short": "Administratie",
+    "ap_long": "Groeien als efficiëntere administratie en organisatie",
+    "ac_code": "4/2_4/2/6",
+    "ac_short": "Verplichte aankoopsom i.h.k.v de verkoop serviceflats",
+    "ac_long": "We betalen de verplichte aankoopsom in het kader van de verkoop van onze serviceflats",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 2625197.0,
-    "amount_per_capita": 63.41,
+    "total_amount": 2362137.34,
+    "amount_per_capita": 56.81,
     "yearly_amounts": {
-      "2026": 1318125.0,
-      "2027": 31500.0,
-      "2028": 1180982.0,
-      "2029": 31530.0,
-      "2030": 31530.0,
-      "2031": 31530.0
+      "2026": 1212685.83,
+      "2027": 0,
+      "2028": 1149451.51,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 31.84,
-      "2027": 0.76,
-      "2028": 28.53,
-      "2029": 0.76,
-      "2030": 0.76,
-      "2031": 0.76
+      "2026": 29.16,
+      "2027": 0,
+      "2028": 27.64,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Ninove",
     "nis_code": "41048",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
+    "bd_short": "6- Dienstverlening",
+    "bd_long": "Een klantgerichte, proactieve, correcte en hedendaagse interne en externe dienstverlening realiseren",
+    "ap_code": "6/1",
+    "ap_short": "Informatica",
+    "ap_long": "Versterken van de organisatie door gericht te digitaliseren op een gebruiksvriendelijke en datagedreven manier",
+    "ac_code": "6/1_6/1/3",
+    "ac_short": "Beheer en onderhoud  IT-infrastructuur",
+    "ac_long": "We beheren en onderhouden de IT-infrastructuur",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2120275.0,
+    "amount_per_capita": 50.99,
+    "yearly_amounts": {
+      "2026": 531350.0,
+      "2027": 345900.0,
+      "2028": 382250.0,
+      "2029": 264275.0,
+      "2030": 227000.0,
+      "2031": 369500.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.78,
+      "2027": 8.32,
+      "2028": 9.19,
+      "2029": 6.36,
+      "2030": 5.46,
+      "2031": 8.89
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 7",
+    "bd_short": "7- Openbaar domein en patrimonium",
+    "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
+    "ap_code": "7/3",
+    "ap_short": "Patrimonium",
+    "ap_long": "We beheren ons patrimonium",
+    "ac_code": "7/3_7/3/6",
+    "ac_short": "Duurzame investeringen gebouwen/infrastructuur",
+    "ac_long": "We zorgen voor duurzame en energiezuinige investeringen in onze gebouwen en infrastructuur",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2109809.0,
+    "amount_per_capita": 50.74,
+    "yearly_amounts": {
+      "2026": 542632.0,
+      "2027": 543000.0,
+      "2028": 539072.0,
+      "2029": 52651.0,
+      "2030": 51823.0,
+      "2031": 380631.0
+    },
+    "yearly_per_capita": {
+      "2026": 13.05,
+      "2027": 13.06,
+      "2028": 12.96,
+      "2029": 1.27,
+      "2030": 1.25,
+      "2031": 9.15
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 2",
     "bd_short": "2- Vlaamse identiteit",
     "bd_long": "De Vlaamse identiteit van Ninove bewaren en het Nederlandstalig karakter versterken",
-    "ap_code": "2",
+    "ap_code": "2/1",
     "ap_short": "Vlaamse identiteit",
     "ap_long": "Versterken van onze Vlaamse identiteit",
-    "ac_code": "2",
+    "ac_code": "2/1_2/1/9",
     "ac_short": "Onderhoud en restauratie onroerend erfgoed",
     "ac_long": "We onderhouden en restaureren het onroerend erfgoed",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 2091600.0,
-    "amount_per_capita": 50.53,
+    "amount_per_capita": 50.3,
     "yearly_amounts": {
       "2026": 30800.0,
       "2027": 30800.0,
@@ -231,8 +333,8 @@
     "yearly_per_capita": {
       "2026": 0.74,
       "2027": 0.74,
-      "2028": 24.88,
-      "2029": 24.16,
+      "2028": 24.77,
+      "2029": 24.05,
       "2030": 0,
       "2031": 0
     }
@@ -240,69 +342,1973 @@
   {
     "municipality": "Ninove",
     "nis_code": "41048",
-    "bd_code": "BDS",
-    "bd_short": "1- Veiligheid",
-    "bd_long": "De leefbaarheid van de stad verhogen door een versterkt integraal veiligheidsbeleid en het waarborgen van een effectieve hulpverlening bij noodsituaties",
-    "ap_code": "1",
-    "ap_short": "VEILIGHEIDSBELEID",
-    "ap_long": "Inzetten op versterkt integraal en geïntegreerd veiligheidsbeleid",
-    "ac_code": "1",
-    "ac_short": "Actief beleid AED's",
-    "ac_long": "We maken AED's (autonome externe defibrillatoren) beschikbaar in alle deelgemeenten en ontwikkelen een actief beleid rond plaatsing, toegankelijkheid en opleiding in reanimatietechnieken",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/9",
+    "ap_short": "Lokaal erfgoed",
+    "ap_long": "Bewaren, valoriseren en ontsluiten van het lokale erfgoed",
+    "ac_code": "5/9_5/9/5",
+    "ac_short": "Uitvoer kerkenbeleidsplan",
+    "ac_long": "We voeren het kerkenbeleidsplan verder uit",
     "categories": [
-      "04-veiligheidszorg"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1868000.0,
-    "amount_per_capita": 45.12,
+    "total_amount": 1800000.0,
+    "amount_per_capita": 43.29,
     "yearly_amounts": {
-      "2026": 378000.0,
-      "2027": 298000.0,
-      "2028": 298000.0,
-      "2029": 298000.0,
-      "2030": 298000.0,
-      "2031": 298000.0
+      "2026": 300000.0,
+      "2027": 300000.0,
+      "2028": 300000.0,
+      "2029": 300000.0,
+      "2030": 300000.0,
+      "2031": 300000.0
     },
     "yearly_per_capita": {
-      "2026": 9.13,
-      "2027": 7.2,
-      "2028": 7.2,
-      "2029": 7.2,
-      "2030": 7.2,
-      "2031": 7.2
+      "2026": 7.21,
+      "2027": 7.21,
+      "2028": 7.21,
+      "2029": 7.21,
+      "2030": 7.21,
+      "2031": 7.21
     }
   },
   {
     "municipality": "Ninove",
     "nis_code": "41048",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "1- Veiligheid",
+    "bd_long": "De leefbaarheid van de stad verhogen door een versterkt integraal veiligheidsbeleid en het waarborgen van een effectieve hulpverlening bij noodsituaties",
+    "ap_code": "1/1",
+    "ap_short": "VEILIGHEIDSBELEID",
+    "ap_long": "Inzetten op versterkt integraal en geïntegreerd veiligheidsbeleid",
+    "ac_code": "1/1_1/1/2",
+    "ac_short": "Geïntegreerd camerabeleid",
+    "ac_long": "We ontwikkelen en implementeren een geïntegreerd camerabeleid",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1690000.0,
+    "amount_per_capita": 40.64,
+    "yearly_amounts": {
+      "2026": 315000.0,
+      "2027": 275000.0,
+      "2028": 275000.0,
+      "2029": 275000.0,
+      "2030": 275000.0,
+      "2031": 275000.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.58,
+      "2027": 6.61,
+      "2028": 6.61,
+      "2029": 6.61,
+      "2030": 6.61,
+      "2031": 6.61
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/4",
+    "ap_short": "Doortocht Dender",
+    "ap_long": "Realiseren van de doortocht van de Dender conform het Strategisch Plan Dendervallei",
+    "ac_code": "8/4_8/4/3",
+    "ac_short": "Realisatie landschapsontwikkelingen",
+    "ac_long": "We realiseren landschapsontwikkelingen zoals de inrichting van de Burchtdamse Meersen en de heraanleg van het stadspark",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1560000.0,
+    "amount_per_capita": 37.52,
+    "yearly_amounts": {
+      "2026": 135000.0,
+      "2027": 451667.0,
+      "2028": 451667.0,
+      "2029": 451666.0,
+      "2030": 35000.0,
+      "2031": 35000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.25,
+      "2027": 10.86,
+      "2028": 10.86,
+      "2029": 10.86,
+      "2030": 0.84,
+      "2031": 0.84
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/5",
+    "ap_short": "Toerisme",
+    "ap_long": "Promoten van Ninove als een toeristisch aantrekkelijke stad",
+    "ac_code": "5/5_5/5/7",
+    "ac_short": "Hospitaalkapel als virtueel museum en tentoonstellingsruimte",
+    "ac_long": "We maken van het toeristisch bezoekerscentrum Hospitaalkapel een virtueel museum en tentoonstellingsruimte",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 1420582.0,
+    "amount_per_capita": 34.16,
+    "yearly_amounts": {
+      "2026": 1145582.0,
+      "2027": 275000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 27.55,
+      "2027": 6.61,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/2",
+    "ap_short": "Ninoofse Ruimte",
+    "ap_long": "Duurzaam ordenen en ontwikkelen van de Ninoofse ruimte",
+    "ac_code": "8/2_8/2/6",
+    "ac_short": "Aanleg voet- en fietspaden als veilige verbindingen",
+    "ac_long": "We leggen voet- en fietspaden aan als veilige verbindingen voor de zwakke weggebruiker",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1410000.0,
+    "amount_per_capita": 33.91,
+    "yearly_amounts": {
+      "2026": 270000.0,
+      "2027": 270000.0,
+      "2028": 270000.0,
+      "2029": 200000.0,
+      "2030": 200000.0,
+      "2031": 200000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.49,
+      "2027": 6.49,
+      "2028": 6.49,
+      "2029": 4.81,
+      "2030": 4.81,
+      "2031": 4.81
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 6",
+    "bd_short": "6- Dienstverlening",
+    "bd_long": "Een klantgerichte, proactieve, correcte en hedendaagse interne en externe dienstverlening realiseren",
+    "ap_code": "6/5",
+    "ap_short": "Overheidsopdrachten",
+    "ap_long": "Voeren van een efficiënt beleid voor het sociaal en duurzaam aanbesteden van werken, leveringen en diensten in lijn met de wetgeving op overheidsopdrachten",
+    "ac_code": "6/5_6/5/5",
+    "ac_short": "Werkingsmiddelen voor efficiënte en duurzame werking",
+    "ac_long": "We zorgen voor een efficiënte en duurzame werking door voldoende werkingsmiddelen te voorzien",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1392408.84,
+    "amount_per_capita": 33.49,
+    "yearly_amounts": {
+      "2026": 241559.97,
+      "2027": 243948.37,
+      "2028": 246017.24,
+      "2029": 218127.79,
+      "2030": 220280.24,
+      "2031": 222475.23
+    },
+    "yearly_per_capita": {
+      "2026": 5.81,
+      "2027": 5.87,
+      "2028": 5.92,
+      "2029": 5.25,
+      "2030": 5.3,
+      "2031": 5.35
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/1",
+    "ap_short": "Bib",
+    "ap_long": "Uitbouwen van de bib als een laagdrempelig kennis-, info-, leer- en belevingscentrum",
+    "ac_code": "5/1_5/1/4",
+    "ac_short": "Bib als huiskamer van de stad",
+    "ac_long": "We maken van de bib de huiskamer van de stad in samenwerking met vrijetijds en andere stadsdiensten en externe partners door de organisatie van activiteiten over onder meer leesbevordering, e-inclusie, media-wijsheid, digitale geletterdheid maar ook meer algemene activiteiten",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1340582.0,
+    "amount_per_capita": 32.24,
+    "yearly_amounts": {
+      "2026": 1340582.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 32.24,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 6",
+    "bd_short": "6- Dienstverlening",
+    "bd_long": "Een klantgerichte, proactieve, correcte en hedendaagse interne en externe dienstverlening realiseren",
+    "ap_code": "6/4",
+    "ap_short": "Financiën",
+    "ap_long": "Voeren van een gezond financieel beleid",
+    "ac_code": "6/4_6/4/3",
+    "ac_short": "Ondersteuning en betoelaging brandweer- en politiezone",
+    "ac_long": "We ondersteunen en betoelagen de brandweer- en politiezone",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1200000.0,
+    "amount_per_capita": 28.86,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 200000.0,
+      "2028": 200000.0,
+      "2029": 200000.0,
+      "2030": 200000.0,
+      "2031": 200000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.81,
+      "2027": 4.81,
+      "2028": 4.81,
+      "2029": 4.81,
+      "2030": 4.81,
+      "2031": 4.81
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 3",
+    "bd_short": "3- Aantrekkelijke stad",
+    "bd_long": "Ninove ontwikkelen tot een aantrekkelijke stad",
+    "ap_code": "3/1",
+    "ap_short": "Infrastructuur ontspanning",
+    "ap_long": "Inzetten op infrastructuur voor ontspanning",
+    "ac_code": "3/1_3/1/1",
+    "ac_short": "Verhuur infrastructuur  CC De Plomblom",
+    "ac_long": "We faciliteren de verhuur van de infrastructuur van CC De Plomblom",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 793000.0,
+    "amount_per_capita": 19.07,
+    "yearly_amounts": {
+      "2026": 91000.0,
+      "2027": 91000.0,
+      "2028": 88500.0,
+      "2029": 121000.0,
+      "2030": 104500.0,
+      "2031": 297000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.19,
+      "2027": 2.19,
+      "2028": 2.13,
+      "2029": 2.91,
+      "2030": 2.51,
+      "2031": 7.14
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 3",
+    "bd_short": "3- Aantrekkelijke stad",
+    "bd_long": "Ninove ontwikkelen tot een aantrekkelijke stad",
+    "ap_code": "3/3",
+    "ap_short": "Netheid",
+    "ap_long": "Inzetten op netheid, wegenbeheer en parkeerbeleid",
+    "ac_code": "3/3_3/3/2",
+    "ac_short": "Meer parkeergelegenheid",
+    "ac_long": "We creëren meer parkeergelegenheid",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 14.43,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 150000.0,
+      "2028": 100000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.81,
+      "2027": 3.61,
+      "2028": 2.4,
+      "2029": 1.2,
+      "2030": 1.2,
+      "2031": 1.2
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/6",
+    "ap_short": "Sport",
+    "ap_long": "Ontwikkelen, promoten en stimuleren van een levenslange sportparticipatie",
+    "ac_code": "5/6_5/6/5",
+    "ac_short": "Subsidiebeleid voor kwalitatieve uitbouw sportverenigingen",
+    "ac_long": "We ondersteunen via een doelgericht subsidiebeleid de kwalitatieve uitbouw van de sportverenigingen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 582343.0,
+    "amount_per_capita": 14.0,
+    "yearly_amounts": {
+      "2026": 582343.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/1",
+    "ap_short": "Klimaat",
+    "ap_long": "Inzetten op een klimaatadaptief en -robuust Ninove, met aandacht voor een strategisch waterbeleid",
+    "ac_code": "8/1_8/1/4",
+    "ac_short": "Uitvoer hemelwater- en droogteplan",
+    "ac_long": "We voeren waar mogelijk het hemelwater- en droogteplan uit",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 530000.0,
+    "amount_per_capita": 12.75,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 205000.0,
+      "2030": 205000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.72,
+      "2027": 0.72,
+      "2028": 0.72,
+      "2029": 4.93,
+      "2030": 4.93,
+      "2031": 0.72
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 9",
     "bd_short": "9- Sociaal beleid en ouderen",
     "bd_long": "Een integraal sociaal beleid voeren dat inzet op algemeen welzijn, armoedebestrijding, activering en gelijke kansen voor iedere Ninovieter",
-    "ap_code": "9",
+    "ap_code": "9/6",
+    "ap_short": "Woonzorgcentrum",
+    "ap_long": "Aanbieden van kwalitatief hoogstaande zorg op maat in ons woonzorgcentrum",
+    "ac_code": "9/6_9/6/4",
+    "ac_short": "Medische hulpmiddelen",
+    "ac_long": "We vervangen tijdig onze medische hulpmiddelen met aandacht voor ergonomie en duurzaamheid",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 494660.0,
+    "amount_per_capita": 11.9,
+    "yearly_amounts": {
+      "2026": 24000.0,
+      "2027": 36700.0,
+      "2028": 30008.0,
+      "2029": 111224.0,
+      "2030": 271648.0,
+      "2031": 21080.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.58,
+      "2027": 0.88,
+      "2028": 0.72,
+      "2029": 2.67,
+      "2030": 6.53,
+      "2031": 0.51
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/3",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Realiseren van een realistisch mobiliteitsbeleid voor Ninove",
+    "ac_code": "8/3_8/3/4",
+    "ac_short": "Optimaliseren van het vervoer in de regio",
+    "ac_long": "We optimaliseren het vervoer in de regio met aandacht voor Hoppinpunten en deelmobiliteit",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 391950.0,
+    "amount_per_capita": 9.43,
+    "yearly_amounts": {
+      "2026": 65325.0,
+      "2027": 65325.0,
+      "2028": 65325.0,
+      "2029": 65325.0,
+      "2030": 65325.0,
+      "2031": 65325.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.57,
+      "2027": 1.57,
+      "2028": 1.57,
+      "2029": 1.57,
+      "2030": 1.57,
+      "2031": 1.57
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/3",
+    "ap_short": "Jeugd",
+    "ap_long": "Ontwikkelen en stimuleren van een breed en toegankelijk vrijetijdsaanbod en speel- en ontmoetingsruimte voor kinderen en jongeren",
+    "ac_code": "5/3_5/3/2",
+    "ac_short": "Subsidiebeleid jeugdwerk en speelpleinwerkingen",
+    "ac_long": "We ondersteunen het particulier jeugdwerk en de particuliere speelpleinwerkingen via een doelgericht subsidiebeleid",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 390000.0,
+    "amount_per_capita": 9.38,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 80000.0,
+      "2028": 80000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.92,
+      "2027": 1.92,
+      "2028": 1.92,
+      "2029": 1.2,
+      "2030": 1.2,
+      "2031": 1.2
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/6",
+    "ap_short": "Sport",
+    "ap_long": "Ontwikkelen, promoten en stimuleren van een levenslange sportparticipatie",
+    "ac_code": "5/6_5/6/6",
+    "ac_short": "Onderhoud en  verhuur gemeentelijke sportinfrastructuur",
+    "ac_long": "We zorgen voor het onderhoud en de verhuur van de gemeentelijke sportinfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 361600.0,
+    "amount_per_capita": 8.7,
+    "yearly_amounts": {
+      "2026": 178600.0,
+      "2027": 97000.0,
+      "2028": 29000.0,
+      "2029": 19000.0,
+      "2030": 19000.0,
+      "2031": 19000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.3,
+      "2027": 2.33,
+      "2028": 0.7,
+      "2029": 0.46,
+      "2030": 0.46,
+      "2031": 0.46
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 7",
+    "bd_short": "7- Openbaar domein en patrimonium",
+    "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
+    "ap_code": "7/2",
+    "ap_short": "Openbaar domein",
+    "ap_long": "We beheren en onderhouden ons openbaar domein",
+    "ac_code": "7/2_7/2/4",
+    "ac_short": "Beheer en onderhoud  landbouwwegen",
+    "ac_long": "We beheren en onderhouden de landbouwwegen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 315406.05,
+    "amount_per_capita": 7.59,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 51000.0,
+      "2028": 52020.0,
+      "2029": 53060.4,
+      "2030": 54121.61,
+      "2031": 55204.04
+    },
+    "yearly_per_capita": {
+      "2026": 1.2,
+      "2027": 1.23,
+      "2028": 1.25,
+      "2029": 1.28,
+      "2030": 1.3,
+      "2031": 1.33
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/3",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Realiseren van een realistisch mobiliteitsbeleid voor Ninove",
+    "ac_code": "8/3_8/3/3",
+    "ac_short": "Verhogen verkeersveiligheid door veilige schoolomgevingen",
+    "ac_long": "We verhogen de verkeersveiligheid met aandacht voor veilige schoolomgevingen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 310000.0,
+    "amount_per_capita": 7.46,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 55000.0,
+      "2028": 55000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.92,
+      "2027": 1.32,
+      "2028": 1.32,
+      "2029": 0.96,
+      "2030": 0.96,
+      "2031": 0.96
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 7",
+    "bd_short": "7- Openbaar domein en patrimonium",
+    "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
+    "ap_code": "7/2",
+    "ap_short": "Openbaar domein",
+    "ap_long": "We beheren en onderhouden ons openbaar domein",
+    "ac_code": "7/2_7/2/8",
+    "ac_short": "Evaluatie kerkhoven en ontruiming of ontgraving waar nodig",
+    "ac_long": "We evalueren de beschikbare ruimte op elk actief kerkhof en nemen de nodige acties tot ontruiming of ontgraving waar nodig",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 7.21,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.4,
+      "2028": 2.4,
+      "2029": 2.4,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/4",
+    "ap_short": "Doortocht Dender",
+    "ap_long": "Realiseren van de doortocht van de Dender conform het Strategisch Plan Dendervallei",
+    "ac_code": "8/4_8/4/4",
+    "ac_short": "Inrichting Denderkaaien en bijhorend openbaar domein",
+    "ac_long": "We richten de Denderkaaien en het bijhorende openbaar domein opnieuw in",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 7.21,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.2,
+      "2027": 2.4,
+      "2028": 2.4,
+      "2029": 1.2,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 7",
+    "bd_short": "7- Openbaar domein en patrimonium",
+    "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
+    "ap_code": "7/3",
+    "ap_short": "Patrimonium",
+    "ap_long": "We beheren ons patrimonium",
+    "ac_code": "7/3_7/3/2",
+    "ac_short": "Beheer, onderhoud en herstel patrimonium",
+    "ac_long": "We zorgen voor het beheer, onderhoud en herstel van ons patrimonium",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 289243.62,
+    "amount_per_capita": 6.96,
+    "yearly_amounts": {
+      "2026": 77500.0,
+      "2027": 33100.0,
+      "2028": 31212.0,
+      "2029": 31836.24,
+      "2030": 82472.96,
+      "2031": 33122.42
+    },
+    "yearly_per_capita": {
+      "2026": 1.86,
+      "2027": 0.8,
+      "2028": 0.75,
+      "2029": 0.77,
+      "2030": 1.98,
+      "2031": 0.8
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 6",
+    "bd_short": "6- Dienstverlening",
+    "bd_long": "Een klantgerichte, proactieve, correcte en hedendaagse interne en externe dienstverlening realiseren",
+    "ap_code": "6/3",
+    "ap_short": "Communicatie",
+    "ap_long": "Uitbouwen van een communicatiebeleid op maat via diverse kanalen",
+    "ac_code": "6/3_6/3/4",
+    "ac_short": "Informeren bevolking digitaal, in print en via bannering",
+    "ac_long": "We informeren de bevolking digitaal, in print en via bannering",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 240000.0,
+    "amount_per_capita": 5.77,
+    "yearly_amounts": {
+      "2026": 65000.0,
+      "2027": 35000.0,
+      "2028": 35000.0,
+      "2029": 35000.0,
+      "2030": 35000.0,
+      "2031": 35000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.56,
+      "2027": 0.84,
+      "2028": 0.84,
+      "2029": 0.84,
+      "2030": 0.84,
+      "2031": 0.84
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/1",
+    "ap_short": "Klimaat",
+    "ap_long": "Inzetten op een klimaatadaptief en -robuust Ninove, met aandacht voor een strategisch waterbeleid",
+    "ac_code": "8/1_8/1/5",
+    "ac_short": "Ontharding en ruimte voor infiltratie/opvang hemelwater",
+    "ac_long": "We ontharden waar mogelijk en geven extra ruimte voor infiltratie en/of opvang van hemelwater",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 225000.0,
+    "amount_per_capita": 5.41,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 75000.0,
+      "2028": 0,
+      "2029": 150000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.8,
+      "2028": 0,
+      "2029": 3.61,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 4",
+    "bd_short": "4- Groeikansen",
+    "bd_long": "Groeikansen ontwikkelen voor en met de burger",
+    "ap_code": "4/2",
+    "ap_short": "Administratie",
+    "ap_long": "Groeien als efficiëntere administratie en organisatie",
+    "ac_code": "4/2_4/2/8",
+    "ac_short": "Performante dienstverlening door de technische dienst",
+    "ac_long": "We zetten in op een performante dienstverlening door de technische dienst",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 4.33,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.72,
+      "2027": 0.72,
+      "2028": 0.72,
+      "2029": 0.72,
+      "2030": 0.72,
+      "2031": 0.72
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/2",
+    "ap_short": "Ninoofse Ruimte",
+    "ap_long": "Duurzaam ordenen en ontwikkelen van de Ninoofse ruimte",
+    "ac_code": "8/2_8/2/3",
+    "ac_short": "Opmaak groenvisie (streefdoel 3-30-300 regel)",
+    "ac_long": "We maken werk van een ambitieuze en realistische groenvisie waarbij wordt gestreefd naar de implementatie van de 3-30-300 regel",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 4.33,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.72,
+      "2027": 0.72,
+      "2028": 0.72,
+      "2029": 0.72,
+      "2030": 0.72,
+      "2031": 0.72
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/7",
+    "ap_short": "Basisonderwijs",
+    "ap_long": "Aanbieden van een kwaliteitsvol stedelijk basisonderwijs",
+    "ac_code": "5/7_5/7/1",
+    "ac_short": "Dagelijkse werking  Ninoofse basisscholen",
+    "ac_long": "We faciliteren de dagelijkse werking van de Ninoofse basisscholen",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 160137.55,
+    "amount_per_capita": 3.85,
+    "yearly_amounts": {
+      "2026": 120137.55,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.89,
+      "2027": 0.96,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/8",
+    "ap_short": "Kunstonderwijs",
+    "ap_long": "Aanbieden van een kwaliteitsvol en creatief kunstonderwijs",
+    "ac_code": "5/8_5/8/2",
+    "ac_short": "Onderhoud (huur)instrumentarium",
+    "ac_long": "We stellen een goed onderhouden en degelijk (huur)instrumentarium ter beschikking",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 155000.0,
+    "amount_per_capita": 3.73,
+    "yearly_amounts": {
+      "2026": 45000.0,
+      "2027": 15000.0,
+      "2028": 20000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.08,
+      "2027": 0.36,
+      "2028": 0.48,
+      "2029": 0.6,
+      "2030": 0.6,
+      "2031": 0.6
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 9",
+    "bd_short": "9- Sociaal beleid en ouderen",
+    "bd_long": "Een integraal sociaal beleid voeren dat inzet op algemeen welzijn, armoedebestrijding, activering en gelijke kansen voor iedere Ninovieter",
+    "ap_code": "9/3",
+    "ap_short": "Huis van het Kind",
+    "ap_long": "Ontwikkelen van een geïntegreerd gezinsbeleid dankzij de doorontwikkeling van Huis van het Kind",
+    "ac_code": "9/3_9/3/9",
+    "ac_short": "Flankerend onderwijsbeleid",
+    "ac_long": "We geven het flankerend onderwijsbeleid vorm en werken concrete actieplannen uit om scholen te helpen bij het realiseren van hun bredere maatschappelijke opdracht",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 3.61,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.2,
+      "2028": 0.6,
+      "2029": 0.6,
+      "2030": 0.6,
+      "2031": 0.6
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 7",
+    "bd_short": "7- Openbaar domein en patrimonium",
+    "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
+    "ap_code": "7/3",
+    "ap_short": "Patrimonium",
+    "ap_long": "We beheren ons patrimonium",
+    "ac_code": "7/3_7/3/7",
+    "ac_short": "Optimalisering toegang en veiligheid van onze gebouwen",
+    "ac_long": "We optimaliseren de toegang en veiligheid van onze gebouwen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 2.89,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.48,
+      "2027": 0.48,
+      "2028": 0.48,
+      "2029": 0.48,
+      "2030": 0.48,
+      "2031": 0.48
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 1",
+    "bd_short": "1- Veiligheid",
+    "bd_long": "De leefbaarheid van de stad verhogen door een versterkt integraal veiligheidsbeleid en het waarborgen van een effectieve hulpverlening bij noodsituaties",
+    "ap_code": "1/2",
+    "ap_short": "Hulpverlening noodsituaties",
+    "ap_long": "Organiseren van een snelle en adequate multidisciplinaire hulpverlening bij noodsituaties",
+    "ac_code": "1/2_1/2/6",
+    "ac_short": "Uitrusten gemeentelijk crisiscentrum",
+    "ac_long": "We rusten het gemeentelijk crisiscentrum verder uit",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.4,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.2,
+      "2027": 0.24,
+      "2028": 0.24,
+      "2029": 0.24,
+      "2030": 0.24,
+      "2031": 0.24
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 3",
+    "bd_short": "3- Aantrekkelijke stad",
+    "bd_long": "Ninove ontwikkelen tot een aantrekkelijke stad",
+    "ap_code": "3/2",
+    "ap_short": "Stadsontwikkeling",
+    "ap_long": "Inzetten op woonkwaliteit en stadsontwikkeling",
+    "ac_code": "3/2_3/2/3",
+    "ac_short": "Acties erosiebestrijding om overlast te voorkomen",
+    "ac_long": "We nemen acties rond erosiebestrijding om water- en modderoverlast te voorkomen",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.4,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 75000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0.12,
+      "2028": 1.8,
+      "2029": 0.12,
+      "2030": 0.12,
+      "2031": 0.12
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 6",
+    "bd_short": "6- Dienstverlening",
+    "bd_long": "Een klantgerichte, proactieve, correcte en hedendaagse interne en externe dienstverlening realiseren",
+    "ap_code": "6/1",
+    "ap_short": "Informatica",
+    "ap_long": "Versterken van de organisatie door gericht te digitaliseren op een gebruiksvriendelijke en datagedreven manier",
+    "ac_code": "6/1_6/1/1",
+    "ac_short": "Verdere digitalisering van de dienstverlening",
+    "ac_long": "We maken werk van de verdere digitalisering van de dienstverlening",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.4,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.4,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/1",
+    "ap_short": "Klimaat",
+    "ap_long": "Inzetten op een klimaatadaptief en -robuust Ninove, met aandacht voor een strategisch waterbeleid",
+    "ac_code": "8/1_8/1/6",
+    "ac_short": "Inrichten groene ruimtes",
+    "ac_long": "We richten groene ruimtes in met aandacht voor het versterken van de biodiversiteit en natuurlijke ecosystemen",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.4,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.6,
+      "2027": 0.6,
+      "2028": 0.6,
+      "2029": 0.6,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 7",
+    "bd_short": "7- Openbaar domein en patrimonium",
+    "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
+    "ap_code": "7/2",
+    "ap_short": "Openbaar domein",
+    "ap_long": "We beheren en onderhouden ons openbaar domein",
+    "ac_code": "7/2_7/2/3",
+    "ac_short": "Beheer en onderhoud trage wegen",
+    "ac_long": "We beheren en onderhouden de trage wegen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 2.16,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.36,
+      "2027": 0.36,
+      "2028": 0.36,
+      "2029": 0.36,
+      "2030": 0.36,
+      "2031": 0.36
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 7",
+    "bd_short": "7- Openbaar domein en patrimonium",
+    "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
+    "ap_code": "7/2",
+    "ap_short": "Openbaar domein",
+    "ap_long": "We beheren en onderhouden ons openbaar domein",
+    "ac_code": "7/2_7/2/7",
+    "ac_short": "Beheer en onderhoud begraafplaatsen",
+    "ac_long": "We beheren en onderhouden onze begraafplaatsen",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 88313.69,
+    "amount_per_capita": 2.12,
+    "yearly_amounts": {
+      "2026": 14000.0,
+      "2027": 14280.0,
+      "2028": 14565.6,
+      "2029": 14856.91,
+      "2030": 15154.05,
+      "2031": 15457.13
+    },
+    "yearly_per_capita": {
+      "2026": 0.34,
+      "2027": 0.34,
+      "2028": 0.35,
+      "2029": 0.36,
+      "2030": 0.36,
+      "2031": 0.37
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/3",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Realiseren van een realistisch mobiliteitsbeleid voor Ninove",
+    "ac_code": "8/3_8/3/2",
+    "ac_short": "Strategische visie rond elektrische laadpalen en uitvoering",
+    "ac_long": "We ontwikkelen een strategische visie over elektrische laadpalen en voeren deze uit",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 78000.0,
+    "amount_per_capita": 1.88,
+    "yearly_amounts": {
+      "2026": 13000.0,
+      "2027": 13000.0,
+      "2028": 13000.0,
+      "2029": 13000.0,
+      "2030": 13000.0,
+      "2031": 13000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.31,
+      "2027": 0.31,
+      "2028": 0.31,
+      "2029": 0.31,
+      "2030": 0.31,
+      "2031": 0.31
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 9",
+    "bd_short": "9- Sociaal beleid en ouderen",
+    "bd_long": "Een integraal sociaal beleid voeren dat inzet op algemeen welzijn, armoedebestrijding, activering en gelijke kansen voor iedere Ninovieter",
+    "ap_code": "9/6",
+    "ap_short": "Woonzorgcentrum",
+    "ap_long": "Aanbieden van kwalitatief hoogstaande zorg op maat in ons woonzorgcentrum",
+    "ac_code": "9/6_9/6/8",
+    "ac_short": "kwalitatieve maaltijdzorg",
+    "ac_long": "We zetten in op persoonsgerichte kwalitatieve en smakelijke maaltijdzorg per bewoner",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 1.8,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 4",
+    "bd_short": "4- Groeikansen",
+    "bd_long": "Groeikansen ontwikkelen voor en met de burger",
+    "ap_code": "4/1",
+    "ap_short": "Burger",
+    "ap_long": "Zorgen dat burgers, jong en oud, kunnen groeien",
+    "ac_code": "4/1_4/1/1",
+    "ac_short": "Buitenschoolse opvang en activiteiten volgens BOA-decreet",
+    "ac_long": "We investeren in kwaliteitsvolle buitenschoolse opvang en activiteiten met specifieke aandacht voor kleuters en kwetsbare groepen volgens het BOA-decreet",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 73939.3,
+    "amount_per_capita": 1.78,
+    "yearly_amounts": {
+      "2026": 73939.3,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.78,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 1",
+    "bd_short": "1- Veiligheid",
+    "bd_long": "De leefbaarheid van de stad verhogen door een versterkt integraal veiligheidsbeleid en het waarborgen van een effectieve hulpverlening bij noodsituaties",
+    "ap_code": "1/1",
+    "ap_short": "VEILIGHEIDSBELEID",
+    "ap_long": "Inzetten op versterkt integraal en geïntegreerd veiligheidsbeleid",
+    "ac_code": "1/1_1/1/3",
+    "ac_short": "Werking van de gemeenschapswachten",
+    "ac_long": "We optimaliseren de werking van de gemeenschapswachten, rekening houdend met het inwonersaantal en de veiligheids- en leefbaarheidsvraagstukken binnen onze stad",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 63000.0,
+    "amount_per_capita": 1.52,
+    "yearly_amounts": {
+      "2026": 10500.0,
+      "2027": 10500.0,
+      "2028": 10500.0,
+      "2029": 10500.0,
+      "2030": 10500.0,
+      "2031": 10500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.25,
+      "2027": 0.25,
+      "2028": 0.25,
+      "2029": 0.25,
+      "2030": 0.25,
+      "2031": 0.25
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 7",
+    "bd_short": "7- Openbaar domein en patrimonium",
+    "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
+    "ap_code": "7/3",
+    "ap_short": "Patrimonium",
+    "ap_long": "We beheren ons patrimonium",
+    "ac_code": "7/3_7/3/10",
+    "ac_short": "Beheer Sociaal Huis als goede huisvader",
+    "ac_long": "We beheren het Sociaal Huis als goede huisvader",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 1.44,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.24,
+      "2027": 0.24,
+      "2028": 0.24,
+      "2029": 0.24,
+      "2030": 0.24,
+      "2031": 0.24
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 6",
+    "bd_short": "6- Dienstverlening",
+    "bd_long": "Een klantgerichte, proactieve, correcte en hedendaagse interne en externe dienstverlening realiseren",
+    "ap_code": "6/2",
+    "ap_short": "Burgerzaken",
+    "ap_long": "Verzekeren van een efficiënte en klantvriendelijke dienstverlening tijdens alle levensfasen van de burger",
+    "ac_code": "6/2_6/2/3",
+    "ac_short": "Organisatie verkiezingen",
+    "ac_long": "We organiseren verkiezingen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 0.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.48,
+      "2030": 0.48,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 9",
+    "bd_short": "9- Sociaal beleid en ouderen",
+    "bd_long": "Een integraal sociaal beleid voeren dat inzet op algemeen welzijn, armoedebestrijding, activering en gelijke kansen voor iedere Ninovieter",
+    "ap_code": "9/6",
+    "ap_short": "Woonzorgcentrum",
+    "ap_long": "Aanbieden van kwalitatief hoogstaande zorg op maat in ons woonzorgcentrum",
+    "ac_code": "9/6_9/6/11",
+    "ac_short": "Bewonerswas en wassen van plat linnen en werkkledij",
+    "ac_long": "We verzorgen de bewonerswas in eigen beheer en besteden het wassen van het plat linnen en werkkledij uit",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 32500.0,
+    "amount_per_capita": 0.78,
+    "yearly_amounts": {
+      "2026": 4500.0,
+      "2027": 28000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.11,
+      "2027": 0.67,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 7",
+    "bd_short": "7- Openbaar domein en patrimonium",
+    "bd_long": "Het Ninoofse openbaar domein en patrimonium op een performante manier beheren",
+    "ap_code": "7/3",
+    "ap_short": "Patrimonium",
+    "ap_long": "We beheren ons patrimonium",
+    "ac_code": "7/3_7/3/1",
+    "ac_short": "Poetsen van gebouwen",
+    "ac_long": "We poetsen de gebouwen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 31540.6,
+    "amount_per_capita": 0.76,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5100.0,
+      "2028": 5202.0,
+      "2029": 5306.04,
+      "2030": 5412.16,
+      "2031": 5520.4
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0.12,
+      "2028": 0.13,
+      "2029": 0.13,
+      "2030": 0.13,
+      "2031": 0.13
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/2",
+    "ap_short": "Cultuur",
+    "ap_long": "Ontwikkelen, promoten en stimuleren van een geïntegreerd cultuurbeleid en -aanbod",
+    "ac_code": "5/2_5/2/3",
+    "ac_short": "Bevorderen van werking rond beeldende kunst",
+    "ac_long": "We bevorderen een werking rond beeldende kunst, onder meer door het organiseren van diverse tentoonstellingen, het aanbieden van cursussen of het ondersteunen van lokale kunstenaars met bijzondere aandacht voor jongeren",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.72,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.72,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/2",
+    "ap_short": "Cultuur",
+    "ap_long": "Ontwikkelen, promoten en stimuleren van een geïntegreerd cultuurbeleid en -aanbod",
+    "ac_code": "5/2_5/2/5",
+    "ac_short": "Coördinatie samenwerking met UiTPAS",
+    "ac_long": "We coördineren de samenwerking met UiTPAS om algemene vrijetijdsparticipatie te bevorderen met bijzondere aandacht voor mensen in armoede",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.72,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0.12,
+      "2028": 0.12,
+      "2029": 0.12,
+      "2030": 0.12,
+      "2031": 0.12
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 6",
+    "bd_short": "6- Dienstverlening",
+    "bd_long": "Een klantgerichte, proactieve, correcte en hedendaagse interne en externe dienstverlening realiseren",
+    "ap_code": "6/3",
+    "ap_short": "Communicatie",
+    "ap_long": "Uitbouwen van een communicatiebeleid op maat via diverse kanalen",
+    "ac_code": "6/3_6/3/1",
+    "ac_short": "Toepassing huisstijl",
+    "ac_long": "We voorzien verdere toepassing van de huisstijl",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.72,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0.12,
+      "2028": 0.12,
+      "2029": 0.12,
+      "2030": 0.12,
+      "2031": 0.12
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/3",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Realiseren van een realistisch mobiliteitsbeleid voor Ninove",
+    "ac_code": "8/3_8/3/5",
+    "ac_short": "Opmaak en uitvoer visie fiets- en wandelinfrastructuur",
+    "ac_long": "We ontwikkelen een strategische visie over fiets- en wandelinfrastructuur en voeren deze uit",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.72,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0.12,
+      "2028": 0.12,
+      "2029": 0.12,
+      "2030": 0.12,
+      "2031": 0.12
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 9",
+    "bd_short": "9- Sociaal beleid en ouderen",
+    "bd_long": "Een integraal sociaal beleid voeren dat inzet op algemeen welzijn, armoedebestrijding, activering en gelijke kansen voor iedere Ninovieter",
+    "ap_code": "9/6",
+    "ap_short": "Woonzorgcentrum",
+    "ap_long": "Aanbieden van kwalitatief hoogstaande zorg op maat in ons woonzorgcentrum",
+    "ac_code": "9/6_9/6/1",
+    "ac_short": "Intelligente technologie in oproepsysteem en zorgdossier",
+    "ac_long": "We schakelen intelligente technologie in via ons oproepsysteem en zorgdossier in kader van bewonersveiligheid",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 26000.0,
+    "amount_per_capita": 0.63,
+    "yearly_amounts": {
+      "2026": 26000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.63,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/5",
+    "ap_short": "Toerisme",
+    "ap_long": "Promoten van Ninove als een toeristisch aantrekkelijke stad",
+    "ac_code": "5/5_5/5/6",
+    "ac_short": "Realisatie camperplaatsen",
+    "ac_long": "We realiseren camperplaatsen",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 0.6,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.6,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 8",
+    "bd_short": "8- Stadsontwikkeling",
+    "bd_long": "Ninove ontwikkelen tot een goed geordende, mobiele, economisch welvarende en klimaatrobuuste stad",
+    "ap_code": "8/5",
+    "ap_short": "Lokale economie",
+    "ap_long": "Stimuleren van de lokale economie",
+    "ac_code": "8/5_8/5/2",
+    "ac_short": "Ninove profileren als shoppingstad",
+    "ac_long": "We profileren Ninove als shoppingstad",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 24000.0,
+    "amount_per_capita": 0.58,
+    "yearly_amounts": {
+      "2026": 4000.0,
+      "2027": 4000.0,
+      "2028": 4000.0,
+      "2029": 4000.0,
+      "2030": 4000.0,
+      "2031": 4000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
+      "2027": 0.1,
+      "2028": 0.1,
+      "2029": 0.1,
+      "2030": 0.1,
+      "2031": 0.1
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 9",
+    "bd_short": "9- Sociaal beleid en ouderen",
+    "bd_long": "Een integraal sociaal beleid voeren dat inzet op algemeen welzijn, armoedebestrijding, activering en gelijke kansen voor iedere Ninovieter",
+    "ap_code": "9/2",
     "ap_short": "Algemene hulpverlening",
     "ap_long": "Via sociale initiatieven bouwen aan gelijke kansen en welzijn voor iedere Ninovieter",
-    "ac_code": "9",
+    "ac_code": "9/2_9/2/2",
     "ac_short": "Armoedebestrijding, activering en ontmoeting via De Mallaard",
     "ac_long": "We zetten in op armoedebestrijding, activering en ontmoeting via sociale stadshub De Mallaard",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 813060.0,
-    "amount_per_capita": 19.64,
+    "total_amount": 16500.0,
+    "amount_per_capita": 0.4,
     "yearly_amounts": {
-      "2026": 149900.0,
-      "2027": 117200.0,
-      "2028": 58008.0,
-      "2029": 139224.0,
-      "2030": 299648.0,
-      "2031": 49080.0
+      "2026": 2000.0,
+      "2027": 2500.0,
+      "2028": 3000.0,
+      "2029": 3000.0,
+      "2030": 3000.0,
+      "2031": 3000.0
     },
     "yearly_per_capita": {
-      "2026": 3.62,
-      "2027": 2.83,
-      "2028": 1.4,
-      "2029": 3.36,
-      "2030": 7.24,
-      "2031": 1.19
+      "2026": 0.05,
+      "2027": 0.06,
+      "2028": 0.07,
+      "2029": 0.07,
+      "2030": 0.07,
+      "2031": 0.07
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 1",
+    "bd_short": "1- Veiligheid",
+    "bd_long": "De leefbaarheid van de stad verhogen door een versterkt integraal veiligheidsbeleid en het waarborgen van een effectieve hulpverlening bij noodsituaties",
+    "ap_code": "1/1",
+    "ap_short": "VEILIGHEIDSBELEID",
+    "ap_long": "Inzetten op versterkt integraal en geïntegreerd veiligheidsbeleid",
+    "ac_code": "1/1_1/1/11",
+    "ac_short": "Actief beleid AED's",
+    "ac_long": "We maken AED's (autonome externe defibrillatoren) beschikbaar in alle deelgemeenten en ontwikkelen een actief beleid rond plaatsing, toegankelijkheid en opleiding in reanimatietechnieken",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.36,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 2500.0,
+      "2028": 2500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.06,
+      "2027": 0.06,
+      "2028": 0.06,
+      "2029": 0.06,
+      "2030": 0.06,
+      "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 5",
+    "bd_short": "5- Vrije tijd en onderwijs",
+    "bd_long": "Maximale kansen bieden op een unieke vrijetijdsbeleving en kwaliteitsvol onderwijs met een bovenlokale uitstraling",
+    "ap_code": "5/9",
+    "ap_short": "Lokaal erfgoed",
+    "ap_long": "Bewaren, valoriseren en ontsluiten van het lokale erfgoed",
+    "ac_code": "5/9_5/9/6",
+    "ac_short": "Beheer archiefdocumenten volgens regelgeving",
+    "ac_long": "We beheren de archiefdocumenten volgens de voorschriften in de regelgeving",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 9700.0,
+    "amount_per_capita": 0.23,
+    "yearly_amounts": {
+      "2026": 7000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2700.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.06,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 4",
+    "bd_short": "4- Groeikansen",
+    "bd_long": "Groeikansen ontwikkelen voor en met de burger",
+    "ap_code": "4/1",
+    "ap_short": "Burger",
+    "ap_long": "Zorgen dat burgers, jong en oud, kunnen groeien",
+    "ac_code": "4/1_4/1/4",
+    "ac_short": "Initiatieven om  digitale kloof te dichten",
+    "ac_long": "We nemen initiatieven om de digitale kloof te dichten",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 9120.0,
+    "amount_per_capita": 0.22,
+    "yearly_amounts": {
+      "2026": 1500.0,
+      "2027": 1500.0,
+      "2028": 1530.0,
+      "2029": 1530.0,
+      "2030": 1530.0,
+      "2031": 1530.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.04,
+      "2027": 0.04,
+      "2028": 0.04,
+      "2029": 0.04,
+      "2030": 0.04,
+      "2031": 0.04
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 9",
+    "bd_short": "9- Sociaal beleid en ouderen",
+    "bd_long": "Een integraal sociaal beleid voeren dat inzet op algemeen welzijn, armoedebestrijding, activering en gelijke kansen voor iedere Ninovieter",
+    "ap_code": "9/5",
+    "ap_short": "Zorg en gezondheid",
+    "ap_long": "Inzetten op zorg en gezondheid voor iedereen in Ninove",
+    "ac_code": "9/5_9/5/2",
+    "ac_short": "Inzet op dementievriendelijke stad",
+    "ac_long": "We zetten in op een dementievriendelijke stad",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 7000.0,
+    "amount_per_capita": 0.17,
+    "yearly_amounts": {
+      "2026": 7000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 9",
+    "bd_short": "9- Sociaal beleid en ouderen",
+    "bd_long": "Een integraal sociaal beleid voeren dat inzet op algemeen welzijn, armoedebestrijding, activering en gelijke kansen voor iedere Ninovieter",
+    "ap_code": "9/3",
+    "ap_short": "Huis van het Kind",
+    "ap_long": "Ontwikkelen van een geïntegreerd gezinsbeleid dankzij de doorontwikkeling van Huis van het Kind",
+    "ac_code": "9/3_9/3/3",
+    "ac_short": "Werking speelotheek en ruilhuis",
+    "ac_long": "We verstevigen de werking van de speelotheek en het ruilhuis",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.12,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 9",
+    "bd_short": "9- Sociaal beleid en ouderen",
+    "bd_long": "Een integraal sociaal beleid voeren dat inzet op algemeen welzijn, armoedebestrijding, activering en gelijke kansen voor iedere Ninovieter",
+    "ap_code": "9/6",
+    "ap_short": "Woonzorgcentrum",
+    "ap_long": "Aanbieden van kwalitatief hoogstaande zorg op maat in ons woonzorgcentrum",
+    "ac_code": "9/6_9/6/10",
+    "ac_short": "Extra service voor bewoners",
+    "ac_long": "We bieden een extra service aan onze bewoners hetzij in eigen beheer (kapsalon) hetzij via partners (o.a. pedicure, psycholoog,...)",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3200.0,
+    "amount_per_capita": 0.08,
+    "yearly_amounts": {
+      "2026": 3200.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Ninove",
+    "nis_code": "41048",
+    "bd_code": "BDS 9",
+    "bd_short": "9- Sociaal beleid en ouderen",
+    "bd_long": "Een integraal sociaal beleid voeren dat inzet op algemeen welzijn, armoedebestrijding, activering en gelijke kansen voor iedere Ninovieter",
+    "ap_code": "9/6",
+    "ap_short": "Woonzorgcentrum",
+    "ap_long": "Aanbieden van kwalitatief hoogstaande zorg op maat in ons woonzorgcentrum",
+    "ac_code": "9/6_9/6/5",
+    "ac_short": "Kwaliteitsvolle zorg",
+    "ac_long": "We bieden kwaliteitsvolle zorg aan",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3200.0,
+    "amount_per_capita": 0.08,
+    "yearly_amounts": {
+      "2026": 3200.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

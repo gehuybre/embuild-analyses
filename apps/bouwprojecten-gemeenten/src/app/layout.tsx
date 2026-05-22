@@ -17,7 +17,7 @@ const geistMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "Gemeentelijke bouwprojecten Vlaanderen 2026-2031",
-  description: "Doorzoekbare database van 7,134 concrete investeringsprojecten uit meerjarenplannen van Vlaamse gemeenten.",
+  description: "Doorzoekbare database van 12.251 concrete investeringsprojecten uit meerjarenplannen van Vlaamse gemeenten.",
 };
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";

@@ -14,23 +14,23 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 107846347.0,
-    "amount_per_capita": 1193.07,
+    "total_amount": 111570522.45,
+    "amount_per_capita": 1237.88,
     "yearly_amounts": {
-      "2026": 20792179.0,
-      "2027": 21012492.0,
-      "2028": 22348831.0,
-      "2029": 22896175.0,
-      "2030": 15050397.0,
+      "2026": 25718983.45,
+      "2027": 19049769.0,
+      "2028": 22413633.0,
+      "2029": 23481467.0,
+      "2030": 15160397.0,
       "2031": 5746273.0
     },
     "yearly_per_capita": {
-      "2026": 230.02,
-      "2027": 232.46,
-      "2028": 247.24,
-      "2029": 253.29,
-      "2030": 166.5,
-      "2031": 63.57
+      "2026": 285.35,
+      "2027": 211.36,
+      "2028": 248.68,
+      "2029": 260.53,
+      "2030": 168.21,
+      "2031": 63.76
     }
   },
   {
@@ -48,23 +48,57 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 42369571.0,
-    "amount_per_capita": 468.72,
+    "total_amount": 43200901.53,
+    "amount_per_capita": 479.32,
     "yearly_amounts": {
-      "2026": 6686538.0,
-      "2027": 13089650.0,
-      "2028": 6050402.0,
-      "2029": 5517981.0,
-      "2030": 11025000.0,
+      "2026": 8294954.65,
+      "2027": 12677866.63,
+      "2028": 5788045.09,
+      "2029": 5440771.62,
+      "2030": 10999263.54,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 73.97,
-      "2027": 144.81,
-      "2028": 66.93,
-      "2029": 61.04,
-      "2030": 121.97,
+      "2026": 92.03,
+      "2027": 140.66,
+      "2028": 64.22,
+      "2029": 60.37,
+      "2030": 122.04,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000006",
+    "bd_short": "Mechelen is een toegankelijke en bereikbare stad",
+    "bd_long": "Mechelen bouwt aan een stad die vlot bereikbaar is voor iedereen. We investeren in duurzame mobiliteit en toegankelijke infrastructuur. Voetgangers en fietsers krijgen meer ruimte en comfort, met veilige oversteekplaatsen, vernieuwde voet- en fietspaden en extra aandacht voor kwetsbare weggebruikers. We versterken het openbaar vervoer, breiden deelmobiliteit uit en verbeteren het parkeerbeleid.\nGrote infrastructuurprojecten zoals de heraanleg van de vesten, de Ontknoping van Battel, het masterplan Binnendijle en het nieuwe station maken de stad klaar voor de toekomst. Tegelijk zorgen we voor een betere doorstroming, minder hinder bij werken en meer groen en beleving in de publieke ruimte. Zo maken we van Mechelen een stad die beweegt, verbindt en uitnodigt.",
+    "ap_code": "AP000022",
+    "ap_short": "Openbare werken",
+    "ap_long": "Openbare Werken",
+    "ac_code": "AC000485",
+    "ac_short": "Mechelen blijft investeren in het vernieuwen van straten en pleinen (incl. riolering).",
+    "ac_long": "Mechelen blijft investeren in het vernieuwen van straten en pleinen (incl. riolering).",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 31905846.23,
+    "amount_per_capita": 354.0,
+    "yearly_amounts": {
+      "2026": 9375950.45,
+      "2027": 6507815.78,
+      "2028": 4852080.0,
+      "2029": 5970000.0,
+      "2030": 4325000.0,
+      "2031": 875000.0
+    },
+    "yearly_per_capita": {
+      "2026": 104.03,
+      "2027": 72.2,
+      "2028": 53.83,
+      "2029": 66.24,
+      "2030": 47.99,
+      "2031": 9.71
     }
   },
   {
@@ -82,91 +116,23 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 28599484.0,
-    "amount_per_capita": 316.39,
+    "total_amount": 27049847.95,
+    "amount_per_capita": 300.12,
     "yearly_amounts": {
-      "2026": 7061685.0,
-      "2027": 7160176.0,
-      "2028": 6390842.0,
-      "2029": 2404004.0,
+      "2026": 5973735.56,
+      "2027": 7006923.47,
+      "2028": 6217407.92,
+      "2029": 2269004.0,
       "2030": 4354168.0,
       "2031": 1228609.0
     },
     "yearly_per_capita": {
-      "2026": 78.12,
-      "2027": 79.21,
-      "2028": 70.7,
-      "2029": 26.59,
-      "2030": 48.17,
-      "2031": 13.59
-    }
-  },
-  {
-    "municipality": "Mechelen",
-    "nis_code": "12025",
-    "bd_code": "BD000006",
-    "bd_short": "Mechelen is een toegankelijke en bereikbare stad",
-    "bd_long": "Mechelen bouwt aan een stad die vlot bereikbaar is voor iedereen. We investeren in duurzame mobiliteit en toegankelijke infrastructuur. Voetgangers en fietsers krijgen meer ruimte en comfort, met veilige oversteekplaatsen, vernieuwde voet- en fietspaden en extra aandacht voor kwetsbare weggebruikers. We versterken het openbaar vervoer, breiden deelmobiliteit uit en verbeteren het parkeerbeleid.\nGrote infrastructuurprojecten zoals de heraanleg van de vesten, de Ontknoping van Battel, het masterplan Binnendijle en het nieuwe station maken de stad klaar voor de toekomst. Tegelijk zorgen we voor een betere doorstroming, minder hinder bij werken en meer groen en beleving in de publieke ruimte. Zo maken we van Mechelen een stad die beweegt, verbindt en uitnodigt.",
-    "ap_code": "AP000022",
-    "ap_short": "Openbare werken",
-    "ap_long": "Openbare werken",
-    "ac_code": "AC000485",
-    "ac_short": "Mechelen blijft investeren in het vernieuwen van straten en pleinen (incl. riolering).",
-    "ac_long": "Mechelen blijft investeren in het vernieuwen van straten en pleinen (incl. riolering).",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 24100000.0,
-    "amount_per_capita": 266.61,
-    "yearly_amounts": {
-      "2026": 3300000.0,
-      "2027": 4800000.0,
-      "2028": 4830000.0,
-      "2029": 5970000.0,
-      "2030": 4325000.0,
-      "2031": 875000.0
-    },
-    "yearly_per_capita": {
-      "2026": 36.51,
-      "2027": 53.1,
-      "2028": 53.43,
-      "2029": 66.04,
-      "2030": 47.85,
-      "2031": 9.68
-    }
-  },
-  {
-    "municipality": "Mechelen",
-    "nis_code": "12025",
-    "bd_code": "BD000005",
-    "bd_short": "Mechelen beweegt en groeit",
-    "bd_long": "Mechelen wil een stad zijn waar ruimte is om te bewegen, te spelen en te groeien. We investeren in sportinfrastructuur, jeugdwerking en publieke ruimte zodat elke Mechelaar – jong en oud – zich fysiek, mentaal en sociaal kan ontwikkelen. Door sport, spel en ontmoeting te stimuleren, bouwen we aan een gezonde en dynamische stad.",
-    "ap_code": "AP000019",
-    "ap_short": "Mechelen investeert in sport- en jeugdinfrastructuur",
-    "ap_long": "Mechelen investeert in sport- en jeugdinfrastructuur",
-    "ac_code": "AC000476",
-    "ac_short": "Mechelen investeert in sportinfrastructuur",
-    "ac_long": "Mechelen investeert in sportinfrastructuur",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 22726260.0,
-    "amount_per_capita": 251.41,
-    "yearly_amounts": {
-      "2026": 2022428.0,
-      "2027": 4764600.0,
-      "2028": 7837500.0,
-      "2029": 5937500.0,
-      "2030": 2126732.0,
-      "2031": 37500.0
-    },
-    "yearly_per_capita": {
-      "2026": 22.37,
-      "2027": 52.71,
-      "2028": 86.7,
-      "2029": 65.68,
-      "2030": 23.53,
-      "2031": 0.41
+      "2026": 66.28,
+      "2027": 77.74,
+      "2028": 68.98,
+      "2029": 25.17,
+      "2030": 48.31,
+      "2031": 13.63
     }
   },
   {
@@ -184,23 +150,23 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 21905000.0,
-    "amount_per_capita": 242.33,
+    "total_amount": 24567709.44,
+    "amount_per_capita": 272.58,
     "yearly_amounts": {
-      "2026": 3000000.0,
+      "2026": 5717352.44,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 6900000.0,
-      "2031": 12005000.0
+      "2030": 6873590.0,
+      "2031": 11976767.0
     },
     "yearly_per_capita": {
-      "2026": 33.19,
+      "2026": 63.43,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 76.33,
-      "2031": 132.81
+      "2030": 76.26,
+      "2031": 132.88
     }
   },
   {
@@ -218,10 +184,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 13996093.0,
-    "amount_per_capita": 154.83,
+    "total_amount": 15451390.14,
+    "amount_per_capita": 171.43,
     "yearly_amounts": {
-      "2026": 1837145.0,
+      "2026": 3292442.14,
       "2027": 1486206.0,
       "2028": 1789963.0,
       "2029": 2979646.0,
@@ -229,12 +195,46 @@
       "2031": 2090934.0
     },
     "yearly_per_capita": {
-      "2026": 20.32,
-      "2027": 16.44,
-      "2028": 19.8,
-      "2029": 32.96,
-      "2030": 42.17,
-      "2031": 23.13
+      "2026": 36.53,
+      "2027": 16.49,
+      "2028": 19.86,
+      "2029": 33.06,
+      "2030": 42.3,
+      "2031": 23.2
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000005",
+    "bd_short": "Mechelen beweegt en groeit",
+    "bd_long": "Mechelen wil een stad zijn waar ruimte is om te bewegen, te spelen en te groeien. We investeren in sportinfrastructuur, jeugdwerking en publieke ruimte zodat elke Mechelaar – jong en oud – zich fysiek, mentaal en sociaal kan ontwikkelen. Door sport, spel en ontmoeting te stimuleren, bouwen we aan een gezonde en dynamische stad.",
+    "ap_code": "AP000019",
+    "ap_short": "Mechelen investeert in sport- en jeugdinfrastructuur",
+    "ap_long": "Mechelen investeert in sport- en jeugdinfrastructuur",
+    "ac_code": "AC000476",
+    "ac_short": "Mechelen investeert in sportinfrastructuur",
+    "ac_long": "Mechelen investeert in sportinfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 13437780.0,
+    "amount_per_capita": 149.09,
+    "yearly_amounts": {
+      "2026": 2798548.0,
+      "2027": 2750000.0,
+      "2028": 5050000.0,
+      "2029": 1300000.0,
+      "2030": 1539232.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 31.05,
+      "2027": 30.51,
+      "2028": 56.03,
+      "2029": 14.42,
+      "2030": 17.08,
+      "2031": 0
     }
   },
   {
@@ -252,23 +252,23 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 10044532.0,
-    "amount_per_capita": 111.12,
+    "total_amount": 10970723.48,
+    "amount_per_capita": 121.72,
     "yearly_amounts": {
-      "2026": 2817447.0,
-      "2027": 1589040.0,
-      "2028": 1686327.0,
-      "2029": 1663908.0,
-      "2030": 1481080.0,
+      "2026": 3893638.48,
+      "2027": 1559040.0,
+      "2028": 1646327.0,
+      "2029": 1613908.0,
+      "2030": 1451080.0,
       "2031": 806730.0
     },
     "yearly_per_capita": {
-      "2026": 31.17,
-      "2027": 17.58,
-      "2028": 18.66,
-      "2029": 18.41,
-      "2030": 16.38,
-      "2031": 8.92
+      "2026": 43.2,
+      "2027": 17.3,
+      "2028": 18.27,
+      "2029": 17.91,
+      "2030": 16.1,
+      "2031": 8.95
     }
   },
   {
@@ -286,10 +286,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 7988040.0,
-    "amount_per_capita": 88.37,
+    "total_amount": 7150831.28,
+    "amount_per_capita": 79.34,
     "yearly_amounts": {
-      "2026": 4687000.0,
+      "2026": 3849791.28,
       "2027": 2838540.0,
       "2028": 462500.0,
       "2029": 0,
@@ -297,9 +297,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 51.85,
-      "2027": 31.4,
-      "2028": 5.12,
+      "2026": 42.71,
+      "2027": 31.49,
+      "2028": 5.13,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -308,67 +308,33 @@
   {
     "municipality": "Mechelen",
     "nis_code": "12025",
-    "bd_code": "BD000005",
-    "bd_short": "Mechelen beweegt en groeit",
-    "bd_long": "Mechelen wil een stad zijn waar ruimte is om te bewegen, te spelen en te groeien. We investeren in sportinfrastructuur, jeugdwerking en publieke ruimte zodat elke Mechelaar – jong en oud – zich fysiek, mentaal en sociaal kan ontwikkelen. Door sport, spel en ontmoeting te stimuleren, bouwen we aan een gezonde en dynamische stad.",
-    "ap_code": "AP000017",
-    "ap_short": "Sport",
-    "ap_long": "Sport",
-    "ac_code": "AC000467",
-    "ac_short": "Mechelen werkt met een zwemwaterplan aan extra zwemgelegenheden , onderzoekt samenwerkingen rond ...",
-    "ac_long": "Mechelen werkt met een zwemwaterplan aan extra zwemgelegenheden , onderzoekt samenwerkingen rond nieuwe zwembaden, en voorziet openlucht zweminfrastructuur aan het Keerdok en andere locaties.",
+    "bd_code": "BD000011",
+    "bd_short": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeris...",
+    "bd_long": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeristisch aanbod.\nMechelen zet haar rijke geschiedenis en erfgoed in als fundament voor een toekomstgericht en gastvrij stadsbeleid. We beschermen en restaureren waardevolle monumenten en maken ze toegankelijk voor bewoners en bezoekers. De stad bouwt een sterk toeristisch aanbod uit, met bijzondere aandacht voor de Mechelse gouden eeuw en het erfgoed van Margareta van Oostenrijk. We verbinden erfgoed, cultuur, natuur en gezinsvriendelijkheid tot een aantrekkelijk geheel en versterken Mechelen als bestemming voor toeristen, cultuurliefhebbers en congresgangers. Samen met partners zetten we Mechelen nationaal en internationaal op de kaart.",
+    "ap_code": "AP000042",
+    "ap_short": "Monumentenzorg",
+    "ap_long": "Monumentenzorg",
+    "ac_code": "AC000552",
+    "ac_short": "Mechelen vervult een voorbeeldfunctie in het onderhoud, de restauratie, het gebruik en de herbest...",
+    "ac_long": "Mechelen vervult een voorbeeldfunctie in het onderhoud, de restauratie, het gebruik en de herbestemming van bouwkundig erfgoed, en voert een krachtig herstelbeleid voor verwaarloosde monumenten.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "overige"
     ],
-    "total_amount": 5100000.0,
-    "amount_per_capita": 56.42,
+    "total_amount": 6080291.71,
+    "amount_per_capita": 67.46,
     "yearly_amounts": {
-      "2026": 5100000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
+      "2026": 5583854.06,
+      "2027": 189997.75,
+      "2028": 171439.9,
+      "2029": 135000.0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 56.42,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Mechelen",
-    "nis_code": "12025",
-    "bd_code": "BD000003",
-    "bd_short": "Mechelen is een zorgzame stad en een ambitieuze kansenfabriek",
-    "bd_long": "Mechelen biedt ondersteuning aan wie dat nodig heeft en creëert ontwikkelingskansen. We werken samen met partners aan een sterke armoedebestrijding, toegankelijke hulpverlening en een stimulerende leeromgeving, waarbij eigen verantwoordelijkheid en talentontwikkeling centraal staan.",
-    "ap_code": "AP000008",
-    "ap_short": "Zorg",
-    "ap_long": "Zorg",
-    "ac_code": "AC000425",
-    "ac_short": "Mechelen ondersteunt het Zorgbedrijf Rivierenland.",
-    "ac_long": "Mechelen ondersteunt het Zorgbedrijf Rivierenland.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 4800000.0,
-    "amount_per_capita": 53.1,
-    "yearly_amounts": {
-      "2026": 1600000.0,
-      "2027": 1600000.0,
-      "2028": 1600000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 17.7,
-      "2027": 17.7,
-      "2028": 17.7,
-      "2029": 0,
+      "2026": 61.95,
+      "2027": 2.11,
+      "2028": 1.9,
+      "2029": 1.5,
       "2030": 0,
       "2031": 0
     }
@@ -388,23 +354,91 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 4784427.0,
-    "amount_per_capita": 52.93,
+    "total_amount": 6063930.25,
+    "amount_per_capita": 67.28,
     "yearly_amounts": {
-      "2026": 984300.0,
-      "2027": 1337795.0,
-      "2028": 538333.0,
+      "2026": 2503803.25,
+      "2027": 1217795.0,
+      "2028": 418333.0,
       "2029": 1083333.0,
       "2030": 747333.0,
       "2031": 93333.0
     },
     "yearly_per_capita": {
-      "2026": 10.89,
-      "2027": 14.8,
-      "2028": 5.96,
-      "2029": 11.98,
-      "2030": 8.27,
-      "2031": 1.03
+      "2026": 27.78,
+      "2027": 13.51,
+      "2028": 4.64,
+      "2029": 12.02,
+      "2030": 8.29,
+      "2031": 1.04
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000003",
+    "bd_short": "Mechelen is een zorgzame stad en een ambitieuze kansenfabriek",
+    "bd_long": "Mechelen biedt ondersteuning aan wie dat nodig heeft en creëert ontwikkelingskansen. We werken samen met partners aan een sterke armoedebestrijding, toegankelijke hulpverlening en een stimulerende leeromgeving, waarbij eigen verantwoordelijkheid en talentontwikkeling centraal staan.",
+    "ap_code": "AP000008",
+    "ap_short": "Zorg",
+    "ap_long": "Zorg",
+    "ac_code": "AC000425",
+    "ac_short": "Mechelen ondersteunt het Zorgbedrijf Rivierenland.",
+    "ac_long": "Mechelen ondersteunt het Zorgbedrijf Rivierenland.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 5169117.07,
+    "amount_per_capita": 57.35,
+    "yearly_amounts": {
+      "2026": 1969117.07,
+      "2027": 1600000.0,
+      "2028": 1600000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 21.85,
+      "2027": 17.75,
+      "2028": 17.75,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000007",
+    "bd_short": "Mechelen bouwt aan morgen",
+    "bd_long": "Mechelen ontwikkelt zich als een toekomstgerichte stad met ruimte voor wonen, werken, leven en ontmoeten. We sturen ruimtelijke ontwikkelingen actief aan via duidelijke kaders, digitale dienstverlening en kwaliteitsvolle begeleiding. Via stadsvernieuwing creëren we nieuwe buurten op mensenmaat, met aandacht voor betaalbaar wonen, publieke voorzieningen, erfgoed, groen en water. Grote projecten zoals Ragheno, Keerdok, Nekkerspoel en de OVAM-site maken van Mechelen een stad die duurzaam groeit, met respect voor haar verleden én oog voor de generaties van morgen.",
+    "ap_code": "AP000027",
+    "ap_short": "Mechelen investeert in bouwen aan morgen,",
+    "ap_long": "Mechelen investeert in bouwen aan morgen,",
+    "ac_code": "AC000505",
+    "ac_short": "Mechelen investeert in Nekker Nova.",
+    "ac_long": "Mechelen investeert in Nekker Nova.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4657104.2,
+    "amount_per_capita": 51.67,
+    "yearly_amounts": {
+      "2026": 4657104.2,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 51.67,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -423,7 +457,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 3752320.0,
-    "amount_per_capita": 41.51,
+    "amount_per_capita": 41.63,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 2911120.0,
@@ -434,10 +468,10 @@
     },
     "yearly_per_capita": {
       "2026": 1.11,
-      "2027": 32.2,
+      "2027": 32.3,
       "2028": 1.66,
-      "2029": 5.16,
-      "2030": 1.38,
+      "2029": 5.17,
+      "2030": 1.39,
       "2031": 0
     }
   },
@@ -457,7 +491,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 3575175.0,
-    "amount_per_capita": 39.55,
+    "amount_per_capita": 39.67,
     "yearly_amounts": {
       "2026": 874502.0,
       "2027": 1124705.0,
@@ -467,12 +501,46 @@
       "2031": 601378.0
     },
     "yearly_per_capita": {
-      "2026": 9.67,
-      "2027": 12.44,
-      "2028": 3.64,
-      "2029": 3.58,
-      "2030": 3.56,
-      "2031": 6.65
+      "2026": 9.7,
+      "2027": 12.48,
+      "2028": 3.65,
+      "2029": 3.59,
+      "2030": 3.57,
+      "2031": 6.67
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000004",
+    "bd_short": "Mechelen is een bruisende stad",
+    "bd_long": "Mechelen is een stad waar cultuur leeft en mensen samenkomen. We stimuleren creativiteit, ondersteunen lokale kunstenaars en maken cultuur toegankelijk voor iedereen. Door te investeren in culturele infrastructuur, buurtgerichte initiatieven en vernieuwende projecten, versterken we de sociale samenhang en zetten we Mechelen op de kaart als culturele hotspot. Jaarlijkse evenementen, samenwerking met scholen en internationale uitwisselingen zorgen voor een dynamisch en inspirerend stadsleven waarin elke Mechelaar kan deelnemen en genieten.",
+    "ap_code": "AP000013",
+    "ap_short": "Cultuur",
+    "ap_long": "Cultuur",
+    "ac_code": "AC000450",
+    "ac_short": "Mechelen realiseert  de renovatie van mARTa, dat cultuur met de inwoners van de Heihoek verbindt.",
+    "ac_long": "Mechelen realiseert  de renovatie van mARTa, dat cultuur met de inwoners van de Heihoek verbindt.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2691246.7,
+    "amount_per_capita": 29.86,
+    "yearly_amounts": {
+      "2026": 2691246.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 29.86,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -490,10 +558,10 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 2600000.0,
-    "amount_per_capita": 28.76,
+    "total_amount": 2660000.0,
+    "amount_per_capita": 29.51,
     "yearly_amounts": {
-      "2026": 50000.0,
+      "2026": 110000.0,
       "2027": 300000.0,
       "2028": 2060000.0,
       "2029": 50000.0,
@@ -501,12 +569,148 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.55,
-      "2027": 3.32,
-      "2028": 22.79,
+      "2026": 1.22,
+      "2027": 3.33,
+      "2028": 22.86,
       "2029": 0.55,
       "2030": 1.55,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000006",
+    "bd_short": "Mechelen is een toegankelijke en bereikbare stad",
+    "bd_long": "Mechelen bouwt aan een stad die vlot bereikbaar is voor iedereen. We investeren in duurzame mobiliteit en toegankelijke infrastructuur. Voetgangers en fietsers krijgen meer ruimte en comfort, met veilige oversteekplaatsen, vernieuwde voet- en fietspaden en extra aandacht voor kwetsbare weggebruikers. We versterken het openbaar vervoer, breiden deelmobiliteit uit en verbeteren het parkeerbeleid.\nGrote infrastructuurprojecten zoals de heraanleg van de vesten, de Ontknoping van Battel, het masterplan Binnendijle en het nieuwe station maken de stad klaar voor de toekomst. Tegelijk zorgen we voor een betere doorstroming, minder hinder bij werken en meer groen en beleving in de publieke ruimte. Zo maken we van Mechelen een stad die beweegt, verbindt en uitnodigt.",
+    "ap_code": "AP000021",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Mobiliteit",
+    "ac_code": "AC000481",
+    "ac_short": "Mechelen investeert in veilige fietsinfrastructuur.",
+    "ac_long": "Mechelen investeert in veilige fietsinfrastructuur.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 2476120.3,
+    "amount_per_capita": 27.47,
+    "yearly_amounts": {
+      "2026": 2476120.3,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 27.47,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000003",
+    "bd_short": "Mechelen is een zorgzame stad en een ambitieuze kansenfabriek",
+    "bd_long": "Mechelen biedt ondersteuning aan wie dat nodig heeft en creëert ontwikkelingskansen. We werken samen met partners aan een sterke armoedebestrijding, toegankelijke hulpverlening en een stimulerende leeromgeving, waarbij eigen verantwoordelijkheid en talentontwikkeling centraal staan.",
+    "ap_code": "AP000008",
+    "ap_short": "Zorg",
+    "ap_long": "Zorg",
+    "ac_code": "AC000431",
+    "ac_short": "Mechelen maakt een masterplan kinderopvang op, zodat we een planmatige en significante stijging v...",
+    "ac_long": "Mechelen maakt een masterplan kinderopvang op, zodat we een planmatige en significante stijging van het aantal opvangplaatsen realiseren.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 2046667.0,
+    "amount_per_capita": 22.71,
+    "yearly_amounts": {
+      "2026": 546667.0,
+      "2027": 250000.0,
+      "2028": 250000.0,
+      "2029": 500000.0,
+      "2030": 500000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.07,
+      "2027": 2.77,
+      "2028": 2.77,
+      "2029": 5.55,
+      "2030": 5.55,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000012",
+    "bd_short": "Mechelen biedt toegankelijke dienstverlening, communiceert helder en betrekt inwoners actief bij ...",
+    "bd_long": "Mechelen biedt toegankelijke dienstverlening, communiceert helder en betrekt inwoners actief bij het beleid.\nMechelen bouwt aan een moderne, klantgerichte en toegankelijke stadsorganisatie. We investeren in heldere communicatie, digitale en fysieke dienstverlening op maat en een open dialoog met inwoners. Participatie, transparantie en efficiëntie staan centraal in onze werking. We versterken onze interne organisatie, zetten in op samenwerking en innovatie en zorgen voor een veilige, duurzame en toekomstgerichte infrastructuur. Zo maken we van Mechelen een stad die luistert, verbindt en vooruitkijkt.",
+    "ap_code": "AP000046",
+    "ap_short": "Dienstverlening",
+    "ap_long": "Dienstverlening",
+    "ac_code": "AC000583",
+    "ac_short": "Mechelen stelt personeel ter beschikking aan vzw Emmaüs en zorgt voor het uitvoeren en bewaken va...",
+    "ac_long": "Mechelen stelt personeel ter beschikking aan vzw Emmaüs en zorgt voor het uitvoeren en bewaken van de beheersovereenkomsten.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1800000.0,
+    "amount_per_capita": 19.97,
+    "yearly_amounts": {
+      "2026": 1800000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.97,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000005",
+    "bd_short": "Mechelen beweegt en groeit",
+    "bd_long": "Mechelen wil een stad zijn waar ruimte is om te bewegen, te spelen en te groeien. We investeren in sportinfrastructuur, jeugdwerking en publieke ruimte zodat elke Mechelaar – jong en oud – zich fysiek, mentaal en sociaal kan ontwikkelen. Door sport, spel en ontmoeting te stimuleren, bouwen we aan een gezonde en dynamische stad.",
+    "ap_code": "AP000017",
+    "ap_short": "Sport",
+    "ap_long": "Sport",
+    "ac_code": "AC000468",
+    "ac_short": "Mechelen ondersteunt Mechelse sportverenigingen en -organisaties, zowel op inhoudelijk, op logist...",
+    "ac_long": "Mechelen ondersteunt Mechelse sportverenigingen en -organisaties, zowel op inhoudelijk, op logistiek, als op financieel vlak.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1599538.37,
+    "amount_per_capita": 17.75,
+    "yearly_amounts": {
+      "2026": 858938.37,
+      "2027": 588120.0,
+      "2028": 38120.0,
+      "2029": 38120.0,
+      "2030": 38120.0,
+      "2031": 38120.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.53,
+      "2027": 6.53,
+      "2028": 0.42,
+      "2029": 0.42,
+      "2030": 0.42,
+      "2031": 0.42
     }
   },
   {
@@ -525,7 +729,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 1559800.0,
-    "amount_per_capita": 17.26,
+    "amount_per_capita": 17.31,
     "yearly_amounts": {
       "2026": 440000.0,
       "2027": 223960.0,
@@ -535,7 +739,7 @@
       "2031": 223960.0
     },
     "yearly_per_capita": {
-      "2026": 4.87,
+      "2026": 4.88,
       "2027": 2.48,
       "2028": 2.48,
       "2029": 2.48,
@@ -559,7 +763,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 1558000.0,
-    "amount_per_capita": 17.24,
+    "amount_per_capita": 17.29,
     "yearly_amounts": {
       "2026": 93000.0,
       "2027": 135000.0,
@@ -570,8 +774,8 @@
     },
     "yearly_per_capita": {
       "2026": 1.03,
-      "2027": 1.49,
-      "2028": 13.72,
+      "2027": 1.5,
+      "2028": 13.76,
       "2029": 0.55,
       "2030": 0.44,
       "2031": 0
@@ -592,10 +796,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1521500.0,
-    "amount_per_capita": 16.83,
+    "total_amount": 1526887.49,
+    "amount_per_capita": 16.94,
     "yearly_amounts": {
-      "2026": 566500.0,
+      "2026": 571887.49,
       "2027": 361000.0,
       "2028": 211000.0,
       "2029": 161000.0,
@@ -603,46 +807,12 @@
       "2031": 111000.0
     },
     "yearly_per_capita": {
-      "2026": 6.27,
-      "2027": 3.99,
-      "2028": 2.33,
-      "2029": 1.78,
+      "2026": 6.35,
+      "2027": 4.01,
+      "2028": 2.34,
+      "2029": 1.79,
       "2030": 1.23,
       "2031": 1.23
-    }
-  },
-  {
-    "municipality": "Mechelen",
-    "nis_code": "12025",
-    "bd_code": "BD000003",
-    "bd_short": "Mechelen is een zorgzame stad en een ambitieuze kansenfabriek",
-    "bd_long": "Mechelen biedt ondersteuning aan wie dat nodig heeft en creëert ontwikkelingskansen. We werken samen met partners aan een sterke armoedebestrijding, toegankelijke hulpverlening en een stimulerende leeromgeving, waarbij eigen verantwoordelijkheid en talentontwikkeling centraal staan.",
-    "ap_code": "AP000008",
-    "ap_short": "Zorg",
-    "ap_long": "Zorg",
-    "ac_code": "AC000431",
-    "ac_short": "Mechelen maakt een masterplan kinderopvang op, zodat we een planmatige en significante stijging v...",
-    "ac_long": "Mechelen maakt een masterplan kinderopvang op, zodat we een planmatige en significante stijging van het aantal opvangplaatsen realiseren.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 1500000.0,
-    "amount_per_capita": 16.59,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 250000.0,
-      "2028": 250000.0,
-      "2029": 500000.0,
-      "2030": 500000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 2.77,
-      "2028": 2.77,
-      "2029": 5.53,
-      "2030": 5.53,
-      "2031": 0
     }
   },
   {
@@ -661,7 +831,7 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 1336240.0,
-    "amount_per_capita": 14.78,
+    "amount_per_capita": 14.83,
     "yearly_amounts": {
       "2026": 1336240.0,
       "2027": 0,
@@ -671,7 +841,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 14.78,
+      "2026": 14.83,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -694,10 +864,10 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 1282920.0,
-    "amount_per_capita": 14.19,
+    "total_amount": 1289604.97,
+    "amount_per_capita": 14.31,
     "yearly_amounts": {
-      "2026": 213820.0,
+      "2026": 220504.97,
       "2027": 213820.0,
       "2028": 213820.0,
       "2029": 213820.0,
@@ -705,7 +875,7 @@
       "2031": 213820.0
     },
     "yearly_per_capita": {
-      "2026": 2.37,
+      "2026": 2.45,
       "2027": 2.37,
       "2028": 2.37,
       "2029": 2.37,
@@ -716,69 +886,69 @@
   {
     "municipality": "Mechelen",
     "nis_code": "12025",
-    "bd_code": "BD000005",
-    "bd_short": "Mechelen beweegt en groeit",
-    "bd_long": "Mechelen wil een stad zijn waar ruimte is om te bewegen, te spelen en te groeien. We investeren in sportinfrastructuur, jeugdwerking en publieke ruimte zodat elke Mechelaar – jong en oud – zich fysiek, mentaal en sociaal kan ontwikkelen. Door sport, spel en ontmoeting te stimuleren, bouwen we aan een gezonde en dynamische stad.",
-    "ap_code": "AP000019",
-    "ap_short": "Mechelen investeert in sport- en jeugdinfrastructuur",
-    "ap_long": "Mechelen investeert in sport- en jeugdinfrastructuur",
-    "ac_code": "AC000477",
-    "ac_short": "Mechelen investeert in jeugdinfrastructuur",
-    "ac_long": "Mechelen investeert in jeugdinfrastructuur",
+    "bd_code": "BD000006",
+    "bd_short": "Mechelen is een toegankelijke en bereikbare stad",
+    "bd_long": "Mechelen bouwt aan een stad die vlot bereikbaar is voor iedereen. We investeren in duurzame mobiliteit en toegankelijke infrastructuur. Voetgangers en fietsers krijgen meer ruimte en comfort, met veilige oversteekplaatsen, vernieuwde voet- en fietspaden en extra aandacht voor kwetsbare weggebruikers. We versterken het openbaar vervoer, breiden deelmobiliteit uit en verbeteren het parkeerbeleid.\nGrote infrastructuurprojecten zoals de heraanleg van de vesten, de Ontknoping van Battel, het masterplan Binnendijle en het nieuwe station maken de stad klaar voor de toekomst. Tegelijk zorgen we voor een betere doorstroming, minder hinder bij werken en meer groen en beleving in de publieke ruimte. Zo maken we van Mechelen een stad die beweegt, verbindt en uitnodigt.",
+    "ap_code": "AP000023",
+    "ap_short": "Mechelen investeert in een toegankelijke en bereikbare stad",
+    "ap_long": "Mechelen investeert in een toegankelijke en bereikbare stad",
+    "ac_code": "AC000488",
+    "ac_short": "Mechelen voorziet investeringspakketten voor het openbaar domein",
+    "ac_long": "Mechelen voorziet investeringspakketten voor het openbaar domein",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "overige"
     ],
-    "total_amount": 1174000.0,
-    "amount_per_capita": 12.99,
+    "total_amount": 1142106.49,
+    "amount_per_capita": 12.67,
     "yearly_amounts": {
-      "2026": 191500.0,
-      "2027": 291500.0,
-      "2028": 191500.0,
-      "2029": 266500.0,
-      "2030": 191500.0,
-      "2031": 41500.0
+      "2026": 1142106.49,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.12,
-      "2027": 3.22,
-      "2028": 2.12,
-      "2029": 2.95,
-      "2030": 2.12,
-      "2031": 0.46
+      "2026": 12.67,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Mechelen",
     "nis_code": "12025",
-    "bd_code": "BD000004",
-    "bd_short": "Mechelen is een bruisende stad",
-    "bd_long": "Mechelen is een stad waar cultuur leeft en mensen samenkomen. We stimuleren creativiteit, ondersteunen lokale kunstenaars en maken cultuur toegankelijk voor iedereen. Door te investeren in culturele infrastructuur, buurtgerichte initiatieven en vernieuwende projecten, versterken we de sociale samenhang en zetten we Mechelen op de kaart als culturele hotspot. Jaarlijkse evenementen, samenwerking met scholen en internationale uitwisselingen zorgen voor een dynamisch en inspirerend stadsleven waarin elke Mechelaar kan deelnemen en genieten.",
-    "ap_code": "AP000015",
-    "ap_short": "Mechelen investeert in cultuurinfrastructuur",
-    "ap_long": "Mechelen investeert in cultuurinfrastructuur",
-    "ac_code": "AC000465",
-    "ac_short": "Mechelen investeert in cultuurinfrastructuur",
-    "ac_long": "Mechelen investeert in cultuurinfrastructuur",
+    "bd_code": "BD000007",
+    "bd_short": "Mechelen bouwt aan morgen",
+    "bd_long": "Mechelen ontwikkelt zich als een toekomstgerichte stad met ruimte voor wonen, werken, leven en ontmoeten. We sturen ruimtelijke ontwikkelingen actief aan via duidelijke kaders, digitale dienstverlening en kwaliteitsvolle begeleiding. Via stadsvernieuwing creëren we nieuwe buurten op mensenmaat, met aandacht voor betaalbaar wonen, publieke voorzieningen, erfgoed, groen en water. Grote projecten zoals Ragheno, Keerdok, Nekkerspoel en de OVAM-site maken van Mechelen een stad die duurzaam groeit, met respect voor haar verleden én oog voor de generaties van morgen.",
+    "ap_code": "AP000027",
+    "ap_short": "Mechelen investeert in bouwen aan morgen,",
+    "ap_long": "Mechelen investeert in bouwen aan morgen,",
+    "ac_code": "AC000506",
+    "ac_short": "Mechelen investeert in Keerdok en maakt hiervan een stadswijk met een mix van functies",
+    "ac_long": "Mechelen investeert in Keerdok en maakt hiervan een stadswijk met een mix van functies",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 926697.0,
-    "amount_per_capita": 10.25,
+    "total_amount": 940571.65,
+    "amount_per_capita": 10.44,
     "yearly_amounts": {
-      "2026": 63269.0,
-      "2027": 458056.0,
-      "2028": 109412.0,
-      "2029": 109412.0,
-      "2030": 109412.0,
-      "2031": 77136.0
+      "2026": 940571.65,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.7,
-      "2027": 5.07,
-      "2028": 1.21,
-      "2029": 1.21,
-      "2030": 1.21,
-      "2031": 0.85
+      "2026": 10.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -797,7 +967,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 900000.0,
-    "amount_per_capita": 9.96,
+    "amount_per_capita": 9.99,
     "yearly_amounts": {
       "2026": 0,
       "2027": 900000.0,
@@ -808,7 +978,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 9.96,
+      "2027": 9.99,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -818,33 +988,33 @@
   {
     "municipality": "Mechelen",
     "nis_code": "12025",
-    "bd_code": "BD000004",
-    "bd_short": "Mechelen is een bruisende stad",
-    "bd_long": "Mechelen is een stad waar cultuur leeft en mensen samenkomen. We stimuleren creativiteit, ondersteunen lokale kunstenaars en maken cultuur toegankelijk voor iedereen. Door te investeren in culturele infrastructuur, buurtgerichte initiatieven en vernieuwende projecten, versterken we de sociale samenhang en zetten we Mechelen op de kaart als culturele hotspot. Jaarlijkse evenementen, samenwerking met scholen en internationale uitwisselingen zorgen voor een dynamisch en inspirerend stadsleven waarin elke Mechelaar kan deelnemen en genieten.",
-    "ap_code": "AP000013",
-    "ap_short": "Cultuur",
-    "ap_long": "Cultuur",
-    "ac_code": "AC000452",
-    "ac_short": "Mechelen ondersteunt professionele kunstenorganisaties.",
-    "ac_long": "Mechelen ondersteunt professionele kunstenorganisaties.",
+    "bd_code": "BD000008",
+    "bd_short": "Mechelen is een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "bd_long": "Mechelen kiest resoluut voor een duurzame toekomst. We pakken klimaatuitdagingen aan met een ambitieus beleid rond energie, circulaire economie en stadsvernieuwing. We investeren in warmtenetten, CO₂-neutrale stadsgebouwen, collectieve renovaties en hernieuwbare energie. Tegelijk vergroenen we de stad met meer bomen, geveltuinen, groene linten en parken en versterken we de biodiversiteit via natuurherstelprojecten zoals wetlands en stadsbossen.\nWe zetten in op gezonde lucht, proper water, duurzame verlichting en een doordacht rioleringsbeleid. Ook dierenwelzijn krijgt een prominente plaats in ons beleid. Zo bouwen we aan een klimaatbestendige, leefbare en zorgzame stad voor mens én dier.",
+    "ap_code": "AP000032",
+    "ap_short": "Mechelen investeert in een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "ap_long": "Mechelen investeert in een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "ac_code": "AC000520",
+    "ac_short": "Mechelen realiseert klimaatinvesteringen in het eigen patrimonium",
+    "ac_long": "Mechelen realiseert klimaatinvesteringen in het eigen patrimonium",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "09-zorg-opvang"
     ],
-    "total_amount": 835000.0,
-    "amount_per_capita": 9.24,
+    "total_amount": 888143.27,
+    "amount_per_capita": 9.85,
     "yearly_amounts": {
-      "2026": 215000.0,
-      "2027": 40000.0,
-      "2028": 40000.0,
-      "2029": 540000.0,
+      "2026": 888143.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.38,
-      "2027": 0.44,
-      "2028": 0.44,
-      "2029": 5.97,
+      "2026": 9.85,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -864,10 +1034,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 790000.0,
-    "amount_per_capita": 8.74,
+    "total_amount": 885395.69,
+    "amount_per_capita": 9.82,
     "yearly_amounts": {
-      "2026": 265000.0,
+      "2026": 360395.69,
       "2027": 65000.0,
       "2028": 65000.0,
       "2029": 265000.0,
@@ -875,10 +1045,10 @@
       "2031": 65000.0
     },
     "yearly_per_capita": {
-      "2026": 2.93,
+      "2026": 4.0,
       "2027": 0.72,
       "2028": 0.72,
-      "2029": 2.93,
+      "2029": 2.94,
       "2030": 0.72,
       "2031": 0.72
     }
@@ -886,34 +1056,68 @@
   {
     "municipality": "Mechelen",
     "nis_code": "12025",
-    "bd_code": "BD000011",
-    "bd_short": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeris...",
-    "bd_long": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeristisch aanbod.\nMechelen zet haar rijke geschiedenis en erfgoed in als fundament voor een toekomstgericht en gastvrij stadsbeleid. We beschermen en restaureren waardevolle monumenten en maken ze toegankelijk voor bewoners en bezoekers. De stad bouwt een sterk toeristisch aanbod uit, met bijzondere aandacht voor de Mechelse gouden eeuw en het erfgoed van Margareta van Oostenrijk. We verbinden erfgoed, cultuur, natuur en gezinsvriendelijkheid tot een aantrekkelijk geheel en versterken Mechelen als bestemming voor toeristen, cultuurliefhebbers en congresgangers. Samen met partners zetten we Mechelen nationaal en internationaal op de kaart.",
-    "ap_code": "AP000044",
-    "ap_short": "Mechelen investeert in haar erfgoed, monumenten en toeristisch aanbod.",
-    "ap_long": "Mechelen investeert in haar erfgoed, monumenten en toeristisch aanbod.",
-    "ac_code": "AC000557",
-    "ac_short": "Mechelen investeert in erfgoed.",
-    "ac_long": "Mechelen investeert in erfgoed.",
+    "bd_code": "BD000004",
+    "bd_short": "Mechelen is een bruisende stad",
+    "bd_long": "Mechelen is een stad waar cultuur leeft en mensen samenkomen. We stimuleren creativiteit, ondersteunen lokale kunstenaars en maken cultuur toegankelijk voor iedereen. Door te investeren in culturele infrastructuur, buurtgerichte initiatieven en vernieuwende projecten, versterken we de sociale samenhang en zetten we Mechelen op de kaart als culturele hotspot. Jaarlijkse evenementen, samenwerking met scholen en internationale uitwisselingen zorgen voor een dynamisch en inspirerend stadsleven waarin elke Mechelaar kan deelnemen en genieten.",
+    "ap_code": "AP000013",
+    "ap_short": "Cultuur",
+    "ap_long": "Cultuur",
+    "ac_code": "AC000452",
+    "ac_short": "Mechelen ondersteunt professionele kunstenorganisaties.",
+    "ac_long": "Mechelen ondersteunt professionele kunstenorganisaties.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 584019.0,
-    "amount_per_capita": 6.46,
+    "total_amount": 850000.0,
+    "amount_per_capita": 9.43,
     "yearly_amounts": {
-      "2026": 79209.0,
-      "2027": 167859.0,
-      "2028": 167724.0,
-      "2029": 67724.0,
-      "2030": 101503.0,
+      "2026": 230000.0,
+      "2027": 40000.0,
+      "2028": 40000.0,
+      "2029": 540000.0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.88,
-      "2027": 1.86,
-      "2028": 1.86,
-      "2029": 0.75,
-      "2030": 1.12,
+      "2026": 2.55,
+      "2027": 0.44,
+      "2028": 0.44,
+      "2029": 5.99,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000007",
+    "bd_short": "Mechelen bouwt aan morgen",
+    "bd_long": "Mechelen ontwikkelt zich als een toekomstgerichte stad met ruimte voor wonen, werken, leven en ontmoeten. We sturen ruimtelijke ontwikkelingen actief aan via duidelijke kaders, digitale dienstverlening en kwaliteitsvolle begeleiding. Via stadsvernieuwing creëren we nieuwe buurten op mensenmaat, met aandacht voor betaalbaar wonen, publieke voorzieningen, erfgoed, groen en water. Grote projecten zoals Ragheno, Keerdok, Nekkerspoel en de OVAM-site maken van Mechelen een stad die duurzaam groeit, met respect voor haar verleden én oog voor de generaties van morgen.",
+    "ap_code": "AP000027",
+    "ap_short": "Mechelen investeert in bouwen aan morgen,",
+    "ap_long": "Mechelen investeert in bouwen aan morgen,",
+    "ac_code": "AC000500",
+    "ac_short": "Mechelen koopt, verkoopt onroerende goederen of geeft er zakelijke of gebruiksrechten op aan derd...",
+    "ac_long": "Mechelen koopt, verkoopt onroerende goederen of geeft er zakelijke of gebruiksrechten op aan derden, afhankelijk van de strategische keuzes en doet dit op een kostenefficiënte manier.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 783020.0,
+    "amount_per_capita": 8.69,
+    "yearly_amounts": {
+      "2026": 783020.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.69,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -923,32 +1127,134 @@
     "bd_code": "BD000005",
     "bd_short": "Mechelen beweegt en groeit",
     "bd_long": "Mechelen wil een stad zijn waar ruimte is om te bewegen, te spelen en te groeien. We investeren in sportinfrastructuur, jeugdwerking en publieke ruimte zodat elke Mechelaar – jong en oud – zich fysiek, mentaal en sociaal kan ontwikkelen. Door sport, spel en ontmoeting te stimuleren, bouwen we aan een gezonde en dynamische stad.",
-    "ap_code": "AP000017",
-    "ap_short": "Sport",
-    "ap_long": "Sport",
-    "ac_code": "AC000468",
-    "ac_short": "Mechelen ondersteunt Mechelse sportverenigingen en -organisaties, zowel op inhoudelijk, op logist...",
-    "ac_long": "Mechelen ondersteunt Mechelse sportverenigingen en -organisaties, zowel op inhoudelijk, op logistiek, als op financieel vlak.",
+    "ap_code": "AP000019",
+    "ap_short": "Mechelen investeert in sport- en jeugdinfrastructuur",
+    "ap_long": "Mechelen investeert in sport- en jeugdinfrastructuur",
+    "ac_code": "AC000477",
+    "ac_short": "Mechelen investeert in jeugdinfrastructuur",
+    "ac_long": "Mechelen investeert in jeugdinfrastructuur",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 528720.0,
-    "amount_per_capita": 5.85,
+    "total_amount": 691000.0,
+    "amount_per_capita": 7.67,
     "yearly_amounts": {
-      "2026": 38120.0,
-      "2027": 38120.0,
-      "2028": 38120.0,
-      "2029": 338120.0,
-      "2030": 38120.0,
-      "2031": 38120.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 191500.0,
+      "2029": 266500.0,
+      "2030": 191500.0,
+      "2031": 41500.0
     },
     "yearly_per_capita": {
-      "2026": 0.42,
-      "2027": 0.42,
-      "2028": 0.42,
-      "2029": 3.74,
-      "2030": 0.42,
-      "2031": 0.42
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.12,
+      "2029": 2.96,
+      "2030": 2.12,
+      "2031": 0.46
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000009",
+    "bd_short": "Mechelen omarmt ondernemerschap, versterkt werkgelegenheid en toekomstgerichte landbouw",
+    "bd_long": "Mechelen zet  in op het versterken van werkgelegenheid en sociale tewerkstelling via innovatieve partnerschappen, intensieve begeleidingstrajecten en gerichte activeringsinitiatieven. \nDaarnaast ondersteunen we ondernemerschap met een proactief relatiebeheer, sterke netwerken en een vlot vergunningenbeleid. Zo bouwen we aan een toekomstgerichte economie waarin werk, ondernemen en landbouw elkaar versterken.",
+    "ap_code": "AP000035",
+    "ap_short": "Ondernemen",
+    "ap_long": "Ondernemen",
+    "ac_code": "AC000609",
+    "ac_short": "Mechelen werkt aan een actieplan rond het stimuleren van circulair ondernemerschap.",
+    "ac_long": "Mechelen werkt aan een actieplan rond het stimuleren van circulair ondernemerschap.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 589944.7,
+    "amount_per_capita": 6.55,
+    "yearly_amounts": {
+      "2026": 589944.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000005",
+    "bd_short": "Mechelen beweegt en groeit",
+    "bd_long": "Mechelen wil een stad zijn waar ruimte is om te bewegen, te spelen en te groeien. We investeren in sportinfrastructuur, jeugdwerking en publieke ruimte zodat elke Mechelaar – jong en oud – zich fysiek, mentaal en sociaal kan ontwikkelen. Door sport, spel en ontmoeting te stimuleren, bouwen we aan een gezonde en dynamische stad.",
+    "ap_code": "AP000018",
+    "ap_short": "Jeugd",
+    "ap_long": "Jeugd",
+    "ac_code": "AC000471",
+    "ac_short": "Mechelen focust in haar jeugdbeleid op het creëren van ruimte en kansen voor kinderen en jongeren.",
+    "ac_long": "Mechelen focust in haar jeugdbeleid op het creëren van ruimte en kansen voor kinderen en jongeren.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 513815.23,
+    "amount_per_capita": 5.7,
+    "yearly_amounts": {
+      "2026": 222315.23,
+      "2027": 291500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.47,
+      "2027": 3.23,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000008",
+    "bd_short": "Mechelen is een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "bd_long": "Mechelen kiest resoluut voor een duurzame toekomst. We pakken klimaatuitdagingen aan met een ambitieus beleid rond energie, circulaire economie en stadsvernieuwing. We investeren in warmtenetten, CO₂-neutrale stadsgebouwen, collectieve renovaties en hernieuwbare energie. Tegelijk vergroenen we de stad met meer bomen, geveltuinen, groene linten en parken en versterken we de biodiversiteit via natuurherstelprojecten zoals wetlands en stadsbossen.\nWe zetten in op gezonde lucht, proper water, duurzame verlichting en een doordacht rioleringsbeleid. Ook dierenwelzijn krijgt een prominente plaats in ons beleid. Zo bouwen we aan een klimaatbestendige, leefbare en zorgzame stad voor mens én dier.",
+    "ap_code": "AP000030",
+    "ap_short": "Natuur en groen",
+    "ap_long": "Natuur en groen",
+    "ac_code": "AC000330",
+    "ac_short": "Mechelen onthardt en vergroent de stad via het Europees project Klimaat robuust stadsgroen",
+    "ac_long": "Mechelen onthardt en vergroent de stad via het Europees project Klimaat robuust stadsgroen",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 402080.87,
+    "amount_per_capita": 4.46,
+    "yearly_amounts": {
+      "2026": 402080.87,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -967,7 +1273,7 @@
       "08-onderwijs"
     ],
     "total_amount": 360000.0,
-    "amount_per_capita": 3.98,
+    "amount_per_capita": 3.99,
     "yearly_amounts": {
       "2026": 360000.0,
       "2027": 0,
@@ -977,7 +1283,109 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.98,
+      "2026": 3.99,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000008",
+    "bd_short": "Mechelen is een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "bd_long": "Mechelen kiest resoluut voor een duurzame toekomst. We pakken klimaatuitdagingen aan met een ambitieus beleid rond energie, circulaire economie en stadsvernieuwing. We investeren in warmtenetten, CO₂-neutrale stadsgebouwen, collectieve renovaties en hernieuwbare energie. Tegelijk vergroenen we de stad met meer bomen, geveltuinen, groene linten en parken en versterken we de biodiversiteit via natuurherstelprojecten zoals wetlands en stadsbossen.\nWe zetten in op gezonde lucht, proper water, duurzame verlichting en een doordacht rioleringsbeleid. Ook dierenwelzijn krijgt een prominente plaats in ons beleid. Zo bouwen we aan een klimaatbestendige, leefbare en zorgzame stad voor mens én dier.",
+    "ap_code": "AP000030",
+    "ap_short": "Natuur en groen",
+    "ap_long": "Natuur en groen",
+    "ac_code": "AC000518",
+    "ac_short": "Mechelen zet in op vergroening en ontharding, toegang tot groen en vrijwaart rivier- en beekvalle...",
+    "ac_long": "Mechelen zet in op vergroening en ontharding, toegang tot groen en vrijwaart rivier- en beekvalleien om ruimte te geven aan water, waterbeheersing en natuurontwikkeling en werkt hiervoor een sterke regionale samenwerking uit.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 333760.17,
+    "amount_per_capita": 3.7,
+    "yearly_amounts": {
+      "2026": 333760.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000008",
+    "bd_short": "Mechelen is een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "bd_long": "Mechelen kiest resoluut voor een duurzame toekomst. We pakken klimaatuitdagingen aan met een ambitieus beleid rond energie, circulaire economie en stadsvernieuwing. We investeren in warmtenetten, CO₂-neutrale stadsgebouwen, collectieve renovaties en hernieuwbare energie. Tegelijk vergroenen we de stad met meer bomen, geveltuinen, groene linten en parken en versterken we de biodiversiteit via natuurherstelprojecten zoals wetlands en stadsbossen.\nWe zetten in op gezonde lucht, proper water, duurzame verlichting en een doordacht rioleringsbeleid. Ook dierenwelzijn krijgt een prominente plaats in ons beleid. Zo bouwen we aan een klimaatbestendige, leefbare en zorgzame stad voor mens én dier.",
+    "ap_code": "AP000029",
+    "ap_short": "Klimaat",
+    "ap_long": "Klimaat",
+    "ac_code": "AC000329",
+    "ac_short": "Mechelen vergroent de stad en verstevigt de stedelijke biodiversiteit via het stedenbeleid projec...",
+    "ac_long": "Mechelen vergroent de stad en verstevigt de stedelijke biodiversiteit via het stedenbeleid project Dijledroom",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 306572.45,
+    "amount_per_capita": 3.4,
+    "yearly_amounts": {
+      "2026": 306572.45,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.4,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000011",
+    "bd_short": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeris...",
+    "bd_long": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeristisch aanbod.\nMechelen zet haar rijke geschiedenis en erfgoed in als fundament voor een toekomstgericht en gastvrij stadsbeleid. We beschermen en restaureren waardevolle monumenten en maken ze toegankelijk voor bewoners en bezoekers. De stad bouwt een sterk toeristisch aanbod uit, met bijzondere aandacht voor de Mechelse gouden eeuw en het erfgoed van Margareta van Oostenrijk. We verbinden erfgoed, cultuur, natuur en gezinsvriendelijkheid tot een aantrekkelijk geheel en versterken Mechelen als bestemming voor toeristen, cultuurliefhebbers en congresgangers. Samen met partners zetten we Mechelen nationaal en internationaal op de kaart.",
+    "ap_code": "AP000041",
+    "ap_short": "Erfgoed",
+    "ap_long": "Erfgoed",
+    "ac_code": "AC000546",
+    "ac_short": "Mechelen zet in op een laagdrempelig en toegankelijk stadsarchief met een sterke publiekswerking,...",
+    "ac_long": "Mechelen zet in op een laagdrempelig en toegankelijk stadsarchief met een sterke publiekswerking, moderne werkingsmiddelen en ondersteuning van een geëngageerd vrijwilligersteam.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 281245.99,
+    "amount_per_capita": 3.12,
+    "yearly_amounts": {
+      "2026": 281245.99,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.12,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1003,16 +1411,16 @@
     "total_amount": 252776.0,
     "amount_per_capita": 2.8,
     "yearly_amounts": {
-      "2026": 126388.0,
-      "2027": 126388.0,
+      "2026": 109852.0,
+      "2027": 142924.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.4,
-      "2027": 1.4,
+      "2026": 1.22,
+      "2027": 1.59,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1028,16 +1436,50 @@
     "ap_code": "AP000030",
     "ap_short": "Natuur en groen",
     "ap_long": "Natuur en groen",
-    "ac_code": "AC000330",
-    "ac_short": "Mechelen onthardt en vergroent de stad via het Europees project Klimaat robuust stadsgroen",
-    "ac_long": "Mechelen onthardt en vergroent de stad via het Europees project Klimaat robuust stadsgroen",
+    "ac_code": "AC000603",
+    "ac_short": "Mechelen zet via het Europees project Waterland Wonderen in op het duurzaam ontsluiten van wetlands",
+    "ac_long": "Mechelen zet via het Europees project Waterland Wonderen in op het duurzaam ontsluiten van wetlands als eco-toeristisch gebied.",
     "categories": [
-      "03-natuur-milieu"
+      "overige"
     ],
-    "total_amount": 237500.0,
-    "amount_per_capita": 2.63,
+    "total_amount": 240000.0,
+    "amount_per_capita": 2.66,
     "yearly_amounts": {
-      "2026": 237500.0,
+      "2026": 0,
+      "2027": 120000.0,
+      "2028": 120000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.33,
+      "2028": 1.33,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000007",
+    "bd_short": "Mechelen bouwt aan morgen",
+    "bd_long": "Mechelen ontwikkelt zich als een toekomstgerichte stad met ruimte voor wonen, werken, leven en ontmoeten. We sturen ruimtelijke ontwikkelingen actief aan via duidelijke kaders, digitale dienstverlening en kwaliteitsvolle begeleiding. Via stadsvernieuwing creëren we nieuwe buurten op mensenmaat, met aandacht voor betaalbaar wonen, publieke voorzieningen, erfgoed, groen en water. Grote projecten zoals Ragheno, Keerdok, Nekkerspoel en de OVAM-site maken van Mechelen een stad die duurzaam groeit, met respect voor haar verleden én oog voor de generaties van morgen.",
+    "ap_code": "AP000027",
+    "ap_short": "Mechelen investeert in bouwen aan morgen,",
+    "ap_long": "Mechelen investeert in bouwen aan morgen,",
+    "ac_code": "AC000503",
+    "ac_short": "Mechelen ontwikkelt de wijk Ragheno to een echte buurt op mensenmaat",
+    "ac_long": "Mechelen ontwikkelt de wijk Ragheno to een echte buurt op mensenmaat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 219499.16,
+    "amount_per_capita": 2.44,
+    "yearly_amounts": {
+      "2026": 219499.16,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1045,7 +1487,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.63,
+      "2026": 2.44,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1069,7 +1511,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 200000.0,
-    "amount_per_capita": 2.21,
+    "amount_per_capita": 2.22,
     "yearly_amounts": {
       "2026": 0,
       "2027": 200000.0,
@@ -1080,7 +1522,143 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 2.21,
+      "2027": 2.22,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000003",
+    "bd_short": "Mechelen is een zorgzame stad en een ambitieuze kansenfabriek",
+    "bd_long": "Mechelen biedt ondersteuning aan wie dat nodig heeft en creëert ontwikkelingskansen. We werken samen met partners aan een sterke armoedebestrijding, toegankelijke hulpverlening en een stimulerende leeromgeving, waarbij eigen verantwoordelijkheid en talentontwikkeling centraal staan.",
+    "ap_code": "AP000009",
+    "ap_short": "Sociale zaken",
+    "ap_long": "Sociale zaken",
+    "ac_code": "AC000434",
+    "ac_short": "De Mechelse steunverlening is goed uitgewerkt opdat iedere Mechelaar een menswaardig bestaan kan ...",
+    "ac_long": "De Mechelse steunverlening is goed uitgewerkt opdat iedere Mechelaar een menswaardig bestaan kan leiden.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 180521.3,
+    "amount_per_capita": 2.0,
+    "yearly_amounts": {
+      "2026": 160521.3,
+      "2027": 0,
+      "2028": 20000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.78,
+      "2027": 0,
+      "2028": 0.22,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000012",
+    "bd_short": "Mechelen biedt toegankelijke dienstverlening, communiceert helder en betrekt inwoners actief bij ...",
+    "bd_long": "Mechelen biedt toegankelijke dienstverlening, communiceert helder en betrekt inwoners actief bij het beleid.\nMechelen bouwt aan een moderne, klantgerichte en toegankelijke stadsorganisatie. We investeren in heldere communicatie, digitale en fysieke dienstverlening op maat en een open dialoog met inwoners. Participatie, transparantie en efficiëntie staan centraal in onze werking. We versterken onze interne organisatie, zetten in op samenwerking en innovatie en zorgen voor een veilige, duurzame en toekomstgerichte infrastructuur. Zo maken we van Mechelen een stad die luistert, verbindt en vooruitkijkt.",
+    "ap_code": "AP000046",
+    "ap_short": "Dienstverlening",
+    "ap_long": "Dienstverlening",
+    "ac_code": "AC000561",
+    "ac_short": "Mechelen investeert in kwaliteitsvolle en toegankelijke begraafplaatsen door in te zetten op onde...",
+    "ac_long": "Mechelen investeert in kwaliteitsvolle en toegankelijke begraafplaatsen door in te zetten op onderhoud, vergroening, herdenkingswaarde en duurzame inrichting.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 178265.48,
+    "amount_per_capita": 1.98,
+    "yearly_amounts": {
+      "2026": 165765.48,
+      "2027": 2500.0,
+      "2028": 2500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.84,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000004",
+    "bd_short": "Mechelen is een bruisende stad",
+    "bd_long": "Mechelen is een stad waar cultuur leeft en mensen samenkomen. We stimuleren creativiteit, ondersteunen lokale kunstenaars en maken cultuur toegankelijk voor iedereen. Door te investeren in culturele infrastructuur, buurtgerichte initiatieven en vernieuwende projecten, versterken we de sociale samenhang en zetten we Mechelen op de kaart als culturele hotspot. Jaarlijkse evenementen, samenwerking met scholen en internationale uitwisselingen zorgen voor een dynamisch en inspirerend stadsleven waarin elke Mechelaar kan deelnemen en genieten.",
+    "ap_code": "AP000014",
+    "ap_short": "Evenementen",
+    "ap_long": "Evenementen",
+    "ac_code": "AC000461",
+    "ac_short": "Mechelen maakt van het evenementenloket  het centrale aanspreekpunt voor organisatoren en verenig...",
+    "ac_long": "Mechelen maakt van het evenementenloket  het centrale aanspreekpunt voor organisatoren en verenigingen, inclusief de verhuur van zalen en feestmateriaal.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 177404.0,
+    "amount_per_capita": 1.97,
+    "yearly_amounts": {
+      "2026": 27404.0,
+      "2027": 30000.0,
+      "2028": 40000.0,
+      "2029": 50000.0,
+      "2030": 30000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.3,
+      "2027": 0.33,
+      "2028": 0.44,
+      "2029": 0.55,
+      "2030": 0.33,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000009",
+    "bd_short": "Mechelen omarmt ondernemerschap, versterkt werkgelegenheid en toekomstgerichte landbouw",
+    "bd_long": "Mechelen zet  in op het versterken van werkgelegenheid en sociale tewerkstelling via innovatieve partnerschappen, intensieve begeleidingstrajecten en gerichte activeringsinitiatieven. \nDaarnaast ondersteunen we ondernemerschap met een proactief relatiebeheer, sterke netwerken en een vlot vergunningenbeleid. Zo bouwen we aan een toekomstgerichte economie waarin werk, ondernemen en landbouw elkaar versterken.",
+    "ap_code": "AP000036",
+    "ap_short": "Landbouw",
+    "ap_long": "Landbouw",
+    "ac_code": "AC000532",
+    "ac_short": "Mechelen ondersteunt landbouwers en lokale voedselproductie en geeft boeren een actieve rol in he...",
+    "ac_long": "Mechelen ondersteunt landbouwers en lokale voedselproductie en geeft boeren een actieve rol in het landschapsbeheer.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 174801.6,
+    "amount_per_capita": 1.94,
+    "yearly_amounts": {
+      "2026": 174801.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.94,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1102,10 +1680,10 @@
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 165000.0,
-    "amount_per_capita": 1.83,
+    "total_amount": 170000.0,
+    "amount_per_capita": 1.89,
     "yearly_amounts": {
-      "2026": 41600.0,
+      "2026": 46600.0,
       "2027": 38000.0,
       "2028": 38000.0,
       "2029": 35800.0,
@@ -1113,12 +1691,114 @@
       "2031": 5800.0
     },
     "yearly_per_capita": {
-      "2026": 0.46,
+      "2026": 0.52,
       "2027": 0.42,
       "2028": 0.42,
       "2029": 0.4,
       "2030": 0.06,
       "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000007",
+    "bd_short": "Mechelen bouwt aan morgen",
+    "bd_long": "Mechelen ontwikkelt zich als een toekomstgerichte stad met ruimte voor wonen, werken, leven en ontmoeten. We sturen ruimtelijke ontwikkelingen actief aan via duidelijke kaders, digitale dienstverlening en kwaliteitsvolle begeleiding. Via stadsvernieuwing creëren we nieuwe buurten op mensenmaat, met aandacht voor betaalbaar wonen, publieke voorzieningen, erfgoed, groen en water. Grote projecten zoals Ragheno, Keerdok, Nekkerspoel en de OVAM-site maken van Mechelen een stad die duurzaam groeit, met respect voor haar verleden én oog voor de generaties van morgen.",
+    "ap_code": "AP000027",
+    "ap_short": "Mechelen investeert in bouwen aan morgen,",
+    "ap_long": "Mechelen investeert in bouwen aan morgen,",
+    "ac_code": "AC000501",
+    "ac_short": "Mechelen renoveert verschillende gebouwen.",
+    "ac_long": "Mechelen renoveert verschillende gebouwen.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 159911.55,
+    "amount_per_capita": 1.77,
+    "yearly_amounts": {
+      "2026": 159911.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.77,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000011",
+    "bd_short": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeris...",
+    "bd_long": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeristisch aanbod.\nMechelen zet haar rijke geschiedenis en erfgoed in als fundament voor een toekomstgericht en gastvrij stadsbeleid. We beschermen en restaureren waardevolle monumenten en maken ze toegankelijk voor bewoners en bezoekers. De stad bouwt een sterk toeristisch aanbod uit, met bijzondere aandacht voor de Mechelse gouden eeuw en het erfgoed van Margareta van Oostenrijk. We verbinden erfgoed, cultuur, natuur en gezinsvriendelijkheid tot een aantrekkelijk geheel en versterken Mechelen als bestemming voor toeristen, cultuurliefhebbers en congresgangers. Samen met partners zetten we Mechelen nationaal en internationaal op de kaart.",
+    "ap_code": "AP000041",
+    "ap_short": "Erfgoed",
+    "ap_long": "Erfgoed",
+    "ac_code": "AC000544",
+    "ac_short": "Mechelen zet in op de inventarisatie, het onderhoud en de restauratie van alle kapellen op het gr...",
+    "ac_long": "Mechelen zet in op de inventarisatie, het onderhoud en de restauratie van alle kapellen op het grondgebied.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 146122.58,
+    "amount_per_capita": 1.62,
+    "yearly_amounts": {
+      "2026": 146122.58,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.62,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000006",
+    "bd_short": "Mechelen is een toegankelijke en bereikbare stad",
+    "bd_long": "Mechelen bouwt aan een stad die vlot bereikbaar is voor iedereen. We investeren in duurzame mobiliteit en toegankelijke infrastructuur. Voetgangers en fietsers krijgen meer ruimte en comfort, met veilige oversteekplaatsen, vernieuwde voet- en fietspaden en extra aandacht voor kwetsbare weggebruikers. We versterken het openbaar vervoer, breiden deelmobiliteit uit en verbeteren het parkeerbeleid.\nGrote infrastructuurprojecten zoals de heraanleg van de vesten, de Ontknoping van Battel, het masterplan Binnendijle en het nieuwe station maken de stad klaar voor de toekomst. Tegelijk zorgen we voor een betere doorstroming, minder hinder bij werken en meer groen en beleving in de publieke ruimte. Zo maken we van Mechelen een stad die beweegt, verbindt en uitnodigt.",
+    "ap_code": "AP000021",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Mobiliteit",
+    "ac_code": "AC000482",
+    "ac_short": "Mechelen zet in op bereikbaarheid, duurzame mobiliteit en faciliteert deelsystemen en (buurt)park...",
+    "ac_long": "Mechelen zet in op bereikbaarheid, duurzame mobiliteit en faciliteert deelsystemen en (buurt)parkeren voor auto’s en fietsen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 134349.54,
+    "amount_per_capita": 1.49,
+    "yearly_amounts": {
+      "2026": 134349.54,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.49,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -1170,10 +1850,10 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 0.55,
+    "total_amount": 96414.52,
+    "amount_per_capita": 1.07,
     "yearly_amounts": {
-      "2026": 25000.0,
+      "2026": 71414.52,
       "2027": 25000.0,
       "2028": 0,
       "2029": 0,
@@ -1181,7 +1861,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.28,
+      "2026": 0.79,
       "2027": 0.28,
       "2028": 0,
       "2029": 0,
@@ -1192,32 +1872,32 @@
   {
     "municipality": "Mechelen",
     "nis_code": "12025",
-    "bd_code": "BD000003",
-    "bd_short": "Mechelen is een zorgzame stad en een ambitieuze kansenfabriek",
-    "bd_long": "Mechelen biedt ondersteuning aan wie dat nodig heeft en creëert ontwikkelingskansen. We werken samen met partners aan een sterke armoedebestrijding, toegankelijke hulpverlening en een stimulerende leeromgeving, waarbij eigen verantwoordelijkheid en talentontwikkeling centraal staan.",
-    "ap_code": "AP000009",
-    "ap_short": "Sociale zaken",
-    "ap_long": "Sociale zaken",
-    "ac_code": "AC000434",
-    "ac_short": "De Mechelse steunverlening is goed uitgewerkt opdat iedere Mechelaar een menswaardig bestaan kan ...",
-    "ac_long": "De Mechelse steunverlening is goed uitgewerkt opdat iedere Mechelaar een menswaardig bestaan kan leiden.",
+    "bd_code": "BD000004",
+    "bd_short": "Mechelen is een bruisende stad",
+    "bd_long": "Mechelen is een stad waar cultuur leeft en mensen samenkomen. We stimuleren creativiteit, ondersteunen lokale kunstenaars en maken cultuur toegankelijk voor iedereen. Door te investeren in culturele infrastructuur, buurtgerichte initiatieven en vernieuwende projecten, versterken we de sociale samenhang en zetten we Mechelen op de kaart als culturele hotspot. Jaarlijkse evenementen, samenwerking met scholen en internationale uitwisselingen zorgen voor een dynamisch en inspirerend stadsleven waarin elke Mechelaar kan deelnemen en genieten.",
+    "ap_code": "AP000013",
+    "ap_short": "Cultuur",
+    "ap_long": "Cultuur",
+    "ac_code": "AC000449",
+    "ac_short": "Het Conservatorium, de Academie voor beeldende kunsten en de Beiaardschool beschikken over (1) ee...",
+    "ac_long": "Het Conservatorium, de Academie voor beeldende kunsten en de Beiaardschool beschikken over (1) een aangepaste, hedendaagse, duurzame infrastructuur en (2) de nodige werkingsmiddelen om een  artistiek-pedagogisch niveau te garanderen en (3) een professionele administratieve omkadering om te kunnen voorzien in een optimale schoolwerking en service aan de leerlingen en leerkrachten.",
     "categories": [
-      "05-ondernemen-werken"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 0.22,
+    "total_amount": 90849.5,
+    "amount_per_capita": 1.01,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 90849.5,
       "2027": 0,
-      "2028": 20000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 1.01,
       "2027": 0,
-      "2028": 0.22,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1226,35 +1906,307 @@
   {
     "municipality": "Mechelen",
     "nis_code": "12025",
-    "bd_code": "BD000001",
-    "bd_short": "Via audits, adviesverlening en specifieke controles draagt Audio bij tot een doelgerichte, effici...",
-    "bd_long": "Via audits, adviesverlening en specifieke controles draagt Audio bij tot een doelgerichte, efficiënte en risicobewuste organisatie van haar deelgenoten. Audio werkt als partner mee aan de bewustmaking van de meerwaarde van interne audit als essentieel onderdeel van een goed beheer en verdere ontwikkeling van de organisatie van de lokale besturen en lokale entiteiten. Audio neemt daarbij de rol op als derde pijler van de drie verdedigingslijnen van de interne controle. Audio voert haar opdrachten uit op een klantvriendelijke, kwalitatief hoogstaande en kostendekkende manier. Daarbij laat Audio zich leiden door de Standaarden van het IIA als kompas en past het volgende waarden toe: integriteit en ethiek, efficiëntie en effectiviteit, onafhankelijkheid en objectiviteit. Audio beoogt geleidelijk aan te groeien zodat de opdrachten kwaliteitsvol en professioneel kunnen worden gewaarborgd. Daarbij staat steeds specifiek een aanpak voorop die rekening houdt met de maturiteit inzake organisatiebeheer en -ontwikkeling van iedere deelgenoot. Audio levert als het ware maatwerk voor de lokale besturen. Audio kiest resoluut voor kwaliteitsbewaking en -verbetering die is gebaseerd op meerdere bouwstenen met name, de rol van het team en het management, de feedback via de klantentevredenheidsbevragingen en de betrokkenheid van de raad van bestuur.",
-    "ap_code": "AP000001",
-    "ap_short": "Via audits, adviesverlening en specifieke controles draagt Audio bij tot een doelgerichte, effici...",
-    "ap_long": "Via audits, adviesverlening en specifieke controles draagt Audio bij tot een doelgerichte, efficiënte en risicobewuste organisatie van haar deelgenoten.",
-    "ac_code": "AC000001",
-    "ac_short": "Via audits, adviesverlening en specifieke controles draagt Audio bij tot een doelgerichte, effici...",
-    "ac_long": "Via audits, adviesverlening en specifieke controles draagt Audio bij tot een doelgerichte, efficiënte en risicobewuste organisatie van haar deelgenoten.",
+    "bd_code": "BD000004",
+    "bd_short": "Mechelen is een bruisende stad",
+    "bd_long": "Mechelen is een stad waar cultuur leeft en mensen samenkomen. We stimuleren creativiteit, ondersteunen lokale kunstenaars en maken cultuur toegankelijk voor iedereen. Door te investeren in culturele infrastructuur, buurtgerichte initiatieven en vernieuwende projecten, versterken we de sociale samenhang en zetten we Mechelen op de kaart als culturele hotspot. Jaarlijkse evenementen, samenwerking met scholen en internationale uitwisselingen zorgen voor een dynamisch en inspirerend stadsleven waarin elke Mechelaar kan deelnemen en genieten.",
+    "ap_code": "AP000013",
+    "ap_short": "Cultuur",
+    "ap_long": "Cultuur",
+    "ac_code": "AC000458",
+    "ac_short": "Mechelen ontwikkelt een lange termijn visie inzake cultuurinfrastructuur, die zorgt voor meer rui...",
+    "ac_long": "Mechelen ontwikkelt een lange termijn visie inzake cultuurinfrastructuur, die zorgt voor meer ruimte voor artistieke ontplooiing en een nog rijker cultureel aanbod",
     "categories": [
-      "01-algemeen-bestuur"
+      "overige"
     ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 0.22,
+    "total_amount": 88711.08,
+    "amount_per_capita": 0.98,
     "yearly_amounts": {
-      "2026": 3000.0,
-      "2027": 5000.0,
-      "2028": 3000.0,
-      "2029": 3000.0,
-      "2030": 3000.0,
-      "2031": 3000.0
+      "2026": 88711.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.03,
-      "2027": 0.06,
-      "2028": 0.03,
-      "2029": 0.03,
-      "2030": 0.03,
-      "2031": 0.03
+      "2026": 0.98,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000006",
+    "bd_short": "Mechelen is een toegankelijke en bereikbare stad",
+    "bd_long": "Mechelen bouwt aan een stad die vlot bereikbaar is voor iedereen. We investeren in duurzame mobiliteit en toegankelijke infrastructuur. Voetgangers en fietsers krijgen meer ruimte en comfort, met veilige oversteekplaatsen, vernieuwde voet- en fietspaden en extra aandacht voor kwetsbare weggebruikers. We versterken het openbaar vervoer, breiden deelmobiliteit uit en verbeteren het parkeerbeleid.\nGrote infrastructuurprojecten zoals de heraanleg van de vesten, de Ontknoping van Battel, het masterplan Binnendijle en het nieuwe station maken de stad klaar voor de toekomst. Tegelijk zorgen we voor een betere doorstroming, minder hinder bij werken en meer groen en beleving in de publieke ruimte. Zo maken we van Mechelen een stad die beweegt, verbindt en uitnodigt.",
+    "ap_code": "AP000023",
+    "ap_short": "Mechelen investeert in een toegankelijke en bereikbare stad",
+    "ap_long": "Mechelen investeert in een toegankelijke en bereikbare stad",
+    "ac_code": "AC000489",
+    "ac_short": "Mechelen investeert mee in de nieuwe stationsomgeving.",
+    "ac_long": "Mechelen investeert mee in de nieuwe stationsomgeving.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 76938.59,
+    "amount_per_capita": 0.85,
+    "yearly_amounts": {
+      "2026": 76938.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.85,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000008",
+    "bd_short": "Mechelen is een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "bd_long": "Mechelen kiest resoluut voor een duurzame toekomst. We pakken klimaatuitdagingen aan met een ambitieus beleid rond energie, circulaire economie en stadsvernieuwing. We investeren in warmtenetten, CO₂-neutrale stadsgebouwen, collectieve renovaties en hernieuwbare energie. Tegelijk vergroenen we de stad met meer bomen, geveltuinen, groene linten en parken en versterken we de biodiversiteit via natuurherstelprojecten zoals wetlands en stadsbossen.\nWe zetten in op gezonde lucht, proper water, duurzame verlichting en een doordacht rioleringsbeleid. Ook dierenwelzijn krijgt een prominente plaats in ons beleid. Zo bouwen we aan een klimaatbestendige, leefbare en zorgzame stad voor mens én dier.",
+    "ap_code": "AP000032",
+    "ap_short": "Mechelen investeert in een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "ap_long": "Mechelen investeert in een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "ac_code": "AC000604",
+    "ac_short": "Mechelen zet via het EFRO-project Warme Harten voor Cultuur in op de energetische renovatie van het",
+    "ac_long": "Mechelen zet via het EFRO-project Warme Harten voor Cultuur in op de energetische renovatie van het eigen patrimonium, met renovaties van de Minderbroederskerk en mARTa.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 65994.18,
+    "amount_per_capita": 0.73,
+    "yearly_amounts": {
+      "2026": 28000.0,
+      "2027": 36000.0,
+      "2028": 1994.18,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.31,
+      "2027": 0.4,
+      "2028": 0.02,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000007",
+    "bd_short": "Mechelen bouwt aan morgen",
+    "bd_long": "Mechelen ontwikkelt zich als een toekomstgerichte stad met ruimte voor wonen, werken, leven en ontmoeten. We sturen ruimtelijke ontwikkelingen actief aan via duidelijke kaders, digitale dienstverlening en kwaliteitsvolle begeleiding. Via stadsvernieuwing creëren we nieuwe buurten op mensenmaat, met aandacht voor betaalbaar wonen, publieke voorzieningen, erfgoed, groen en water. Grote projecten zoals Ragheno, Keerdok, Nekkerspoel en de OVAM-site maken van Mechelen een stad die duurzaam groeit, met respect voor haar verleden én oog voor de generaties van morgen.",
+    "ap_code": "AP000027",
+    "ap_short": "Mechelen investeert in bouwen aan morgen,",
+    "ap_long": "Mechelen investeert in bouwen aan morgen,",
+    "ac_code": "AC000502",
+    "ac_short": "Mechelen zorgt – samen met het Vlaamse Gewest – voor de transformatie van de Vesten (R12) naar kw...",
+    "ac_long": "Mechelen zorgt – samen met het Vlaamse Gewest – voor de transformatie van de Vesten (R12) naar kwalitatieve verblijfsruimte.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 60500.0,
+    "amount_per_capita": 0.67,
+    "yearly_amounts": {
+      "2026": 60500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.67,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000011",
+    "bd_short": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeris...",
+    "bd_long": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeristisch aanbod.\nMechelen zet haar rijke geschiedenis en erfgoed in als fundament voor een toekomstgericht en gastvrij stadsbeleid. We beschermen en restaureren waardevolle monumenten en maken ze toegankelijk voor bewoners en bezoekers. De stad bouwt een sterk toeristisch aanbod uit, met bijzondere aandacht voor de Mechelse gouden eeuw en het erfgoed van Margareta van Oostenrijk. We verbinden erfgoed, cultuur, natuur en gezinsvriendelijkheid tot een aantrekkelijk geheel en versterken Mechelen als bestemming voor toeristen, cultuurliefhebbers en congresgangers. Samen met partners zetten we Mechelen nationaal en internationaal op de kaart.",
+    "ap_code": "AP000041",
+    "ap_short": "Erfgoed",
+    "ap_long": "Erfgoed",
+    "ac_code": "AC000548",
+    "ac_short": "Mechelen versterkt de ontsluiting van de kerken en zet verder in op de restauratie van de kunst i...",
+    "ac_long": "Mechelen versterkt de ontsluiting van de kerken en zet verder in op de restauratie van de kunst in de kerken.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 55298.5,
+    "amount_per_capita": 0.61,
+    "yearly_amounts": {
+      "2026": 55298.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.61,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000012",
+    "bd_short": "Mechelen biedt toegankelijke dienstverlening, communiceert helder en betrekt inwoners actief bij ...",
+    "bd_long": "Mechelen biedt toegankelijke dienstverlening, communiceert helder en betrekt inwoners actief bij het beleid.\nMechelen bouwt aan een moderne, klantgerichte en toegankelijke stadsorganisatie. We investeren in heldere communicatie, digitale en fysieke dienstverlening op maat en een open dialoog met inwoners. Participatie, transparantie en efficiëntie staan centraal in onze werking. We versterken onze interne organisatie, zetten in op samenwerking en innovatie en zorgen voor een veilige, duurzame en toekomstgerichte infrastructuur. Zo maken we van Mechelen een stad die luistert, verbindt en vooruitkijkt.",
+    "ap_code": "AP000049",
+    "ap_short": "Digitale stad",
+    "ap_long": "Digitale stad",
+    "ac_code": "AC000264",
+    "ac_short": "Mechelen zet in op het vereenvoudigen van (interbestuurlijke) processen van de dienst burgerzaken...",
+    "ac_long": "Mechelen zet in op het vereenvoudigen van (interbestuurlijke) processen van de dienst burgerzaken via Gemeentehuis van de toekomst oproep 3.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 51388.7,
+    "amount_per_capita": 0.57,
+    "yearly_amounts": {
+      "2026": 51388.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000011",
+    "bd_short": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeris...",
+    "bd_long": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeristisch aanbod.\nMechelen zet haar rijke geschiedenis en erfgoed in als fundament voor een toekomstgericht en gastvrij stadsbeleid. We beschermen en restaureren waardevolle monumenten en maken ze toegankelijk voor bewoners en bezoekers. De stad bouwt een sterk toeristisch aanbod uit, met bijzondere aandacht voor de Mechelse gouden eeuw en het erfgoed van Margareta van Oostenrijk. We verbinden erfgoed, cultuur, natuur en gezinsvriendelijkheid tot een aantrekkelijk geheel en versterken Mechelen als bestemming voor toeristen, cultuurliefhebbers en congresgangers. Samen met partners zetten we Mechelen nationaal en internationaal op de kaart.",
+    "ap_code": "AP000041",
+    "ap_short": "Erfgoed",
+    "ap_long": "Erfgoed",
+    "ac_code": "AC000550",
+    "ac_short": "Mechelen zet in op een efficiënte en dynamische museale bedrijfsvoering en een adequate logistiek...",
+    "ac_long": "Mechelen zet in op een efficiënte en dynamische museale bedrijfsvoering en een adequate logistieke omkadering.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.33,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000008",
+    "bd_short": "Mechelen is een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "bd_long": "Mechelen kiest resoluut voor een duurzame toekomst. We pakken klimaatuitdagingen aan met een ambitieus beleid rond energie, circulaire economie en stadsvernieuwing. We investeren in warmtenetten, CO₂-neutrale stadsgebouwen, collectieve renovaties en hernieuwbare energie. Tegelijk vergroenen we de stad met meer bomen, geveltuinen, groene linten en parken en versterken we de biodiversiteit via natuurherstelprojecten zoals wetlands en stadsbossen.\nWe zetten in op gezonde lucht, proper water, duurzame verlichting en een doordacht rioleringsbeleid. Ook dierenwelzijn krijgt een prominente plaats in ons beleid. Zo bouwen we aan een klimaatbestendige, leefbare en zorgzame stad voor mens én dier.",
+    "ap_code": "AP000029",
+    "ap_short": "Klimaat",
+    "ap_long": "Klimaat",
+    "ac_code": "AC000325",
+    "ac_short": "Stad Mechelen faciliteert circulair bouwen via het Europees project Preuse.",
+    "ac_long": "Stad Mechelen faciliteert circulair bouwen via het Europees project Preuse.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 27000.0,
+    "amount_per_capita": 0.3,
+    "yearly_amounts": {
+      "2026": 27000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.3,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000006",
+    "bd_short": "Mechelen is een toegankelijke en bereikbare stad",
+    "bd_long": "Mechelen bouwt aan een stad die vlot bereikbaar is voor iedereen. We investeren in duurzame mobiliteit en toegankelijke infrastructuur. Voetgangers en fietsers krijgen meer ruimte en comfort, met veilige oversteekplaatsen, vernieuwde voet- en fietspaden en extra aandacht voor kwetsbare weggebruikers. We versterken het openbaar vervoer, breiden deelmobiliteit uit en verbeteren het parkeerbeleid.\nGrote infrastructuurprojecten zoals de heraanleg van de vesten, de Ontknoping van Battel, het masterplan Binnendijle en het nieuwe station maken de stad klaar voor de toekomst. Tegelijk zorgen we voor een betere doorstroming, minder hinder bij werken en meer groen en beleving in de publieke ruimte. Zo maken we van Mechelen een stad die beweegt, verbindt en uitnodigt.",
+    "ap_code": "AP000021",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Mobiliteit",
+    "ac_code": "AC000313",
+    "ac_short": "Mechelen zet in op basisbereikbaarheid door het creëren van overstappunten met uitgebreide dienst...",
+    "ac_long": "Mechelen zet in op basisbereikbaarheid door het creëren van overstappunten met uitgebreide dienstverlening via het Europees project MoLoHubs",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 26417.1,
+    "amount_per_capita": 0.29,
+    "yearly_amounts": {
+      "2026": 26417.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.29,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -1266,29 +2218,199 @@
     "ap_code": "AP000046",
     "ap_short": "Dienstverlening",
     "ap_long": "Dienstverlening",
-    "ac_code": "AC000561",
-    "ac_short": "Mechelen investeert in kwaliteitsvolle en toegankelijke begraafplaatsen door in te zetten op onde...",
-    "ac_long": "Mechelen investeert in kwaliteitsvolle en toegankelijke begraafplaatsen door in te zetten op onderhoud, vergroening, herdenkingswaarde en duurzame inrichting.",
+    "ac_code": "AC000607",
+    "ac_short": "Mechelen zet in op klantgerichte dienstverlening via het EFRO-project MOKIT",
+    "ac_long": "Mechelen zet in op klantgerichte dienstverlening via het EFRO-project MOKIT.",
     "categories": [
-      "09-zorg-opvang"
+      "overige"
     ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 0.17,
+    "total_amount": 22680.0,
+    "amount_per_capita": 0.25,
     "yearly_amounts": {
-      "2026": 2500.0,
-      "2027": 2500.0,
-      "2028": 2500.0,
-      "2029": 2500.0,
-      "2030": 2500.0,
-      "2031": 2500.0
+      "2026": 22680.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000011",
+    "bd_short": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeris...",
+    "bd_long": "Mechelen koestert haar erfgoed, beschermt monumenten en verwelkomt bezoekers met een sterk toeristisch aanbod.\nMechelen zet haar rijke geschiedenis en erfgoed in als fundament voor een toekomstgericht en gastvrij stadsbeleid. We beschermen en restaureren waardevolle monumenten en maken ze toegankelijk voor bewoners en bezoekers. De stad bouwt een sterk toeristisch aanbod uit, met bijzondere aandacht voor de Mechelse gouden eeuw en het erfgoed van Margareta van Oostenrijk. We verbinden erfgoed, cultuur, natuur en gezinsvriendelijkheid tot een aantrekkelijk geheel en versterken Mechelen als bestemming voor toeristen, cultuurliefhebbers en congresgangers. Samen met partners zetten we Mechelen nationaal en internationaal op de kaart.",
+    "ap_code": "AP000041",
+    "ap_short": "Erfgoed",
+    "ap_long": "Erfgoed",
+    "ac_code": "AC000542",
+    "ac_short": "Mechelen zet met Depot Rato in op een kwalitatief en rationeel collectiebeheer dat maximaal wordt...",
+    "ac_long": "Mechelen zet met Depot Rato in op een kwalitatief en rationeel collectiebeheer dat maximaal wordt ontsloten.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 21581.32,
+    "amount_per_capita": 0.24,
+    "yearly_amounts": {
+      "2026": 21581.32,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.24,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000008",
+    "bd_short": "Mechelen is een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "bd_long": "Mechelen kiest resoluut voor een duurzame toekomst. We pakken klimaatuitdagingen aan met een ambitieus beleid rond energie, circulaire economie en stadsvernieuwing. We investeren in warmtenetten, CO₂-neutrale stadsgebouwen, collectieve renovaties en hernieuwbare energie. Tegelijk vergroenen we de stad met meer bomen, geveltuinen, groene linten en parken en versterken we de biodiversiteit via natuurherstelprojecten zoals wetlands en stadsbossen.\nWe zetten in op gezonde lucht, proper water, duurzame verlichting en een doordacht rioleringsbeleid. Ook dierenwelzijn krijgt een prominente plaats in ons beleid. Zo bouwen we aan een klimaatbestendige, leefbare en zorgzame stad voor mens én dier.",
+    "ap_code": "AP000030",
+    "ap_short": "Natuur en groen",
+    "ap_long": "Natuur en groen",
+    "ac_code": "AC000517",
+    "ac_short": "Mechelen investeert in natuurbeleving en educatie om inwoners en toeristen sterker te verbinden m...",
+    "ac_long": "Mechelen investeert in natuurbeleving en educatie om inwoners en toeristen sterker te verbinden met de natuur in en rond de stad.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 20500.0,
+    "amount_per_capita": 0.23,
+    "yearly_amounts": {
+      "2026": 20500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.23,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000008",
+    "bd_short": "Mechelen is een duurzame en diervriendelijke stad en zet in op natuurherstel",
+    "bd_long": "Mechelen kiest resoluut voor een duurzame toekomst. We pakken klimaatuitdagingen aan met een ambitieus beleid rond energie, circulaire economie en stadsvernieuwing. We investeren in warmtenetten, CO₂-neutrale stadsgebouwen, collectieve renovaties en hernieuwbare energie. Tegelijk vergroenen we de stad met meer bomen, geveltuinen, groene linten en parken en versterken we de biodiversiteit via natuurherstelprojecten zoals wetlands en stadsbossen.\nWe zetten in op gezonde lucht, proper water, duurzame verlichting en een doordacht rioleringsbeleid. Ook dierenwelzijn krijgt een prominente plaats in ons beleid. Zo bouwen we aan een klimaatbestendige, leefbare en zorgzame stad voor mens én dier.",
+    "ap_code": "AP000030",
+    "ap_short": "Natuur en groen",
+    "ap_long": "Natuur en groen",
+    "ac_code": "AC000326",
+    "ac_short": "Stad Mechelen onthardt en vergroent de binnenstad via het Europees project GreenDense.",
+    "ac_long": "Stad Mechelen onthardt en vergroent de binnenstad via het Europees project GreenDense.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.06,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000012",
+    "bd_short": "Mechelen biedt toegankelijke dienstverlening, communiceert helder en betrekt inwoners actief bij ...",
+    "bd_long": "Mechelen biedt toegankelijke dienstverlening, communiceert helder en betrekt inwoners actief bij het beleid.\nMechelen bouwt aan een moderne, klantgerichte en toegankelijke stadsorganisatie. We investeren in heldere communicatie, digitale en fysieke dienstverlening op maat en een open dialoog met inwoners. Participatie, transparantie en efficiëntie staan centraal in onze werking. We versterken onze interne organisatie, zetten in op samenwerking en innovatie en zorgen voor een veilige, duurzame en toekomstgerichte infrastructuur. Zo maken we van Mechelen een stad die luistert, verbindt en vooruitkijkt.",
+    "ap_code": "AP000046",
+    "ap_short": "Dienstverlening",
+    "ap_long": "Dienstverlening",
+    "ac_code": "AC000565",
+    "ac_short": "De Mechelse dienstverlening is transparant, efficiënt en klantgericht, kwaliteitsvol, voortdurend...",
+    "ac_long": "De Mechelse dienstverlening is transparant, efficiënt en klantgericht, kwaliteitsvol, voortdurend geoptimaliseerd en afgestemd op de verschillende doelgroepen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2596.0,
+    "amount_per_capita": 0.03,
+    "yearly_amounts": {
+      "2026": 2596.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0.03,
-      "2027": 0.03,
-      "2028": 0.03,
-      "2029": 0.03,
-      "2030": 0.03,
-      "2031": 0.03
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mechelen",
+    "nis_code": "12025",
+    "bd_code": "BD000007",
+    "bd_short": "Mechelen bouwt aan morgen",
+    "bd_long": "Mechelen ontwikkelt zich als een toekomstgerichte stad met ruimte voor wonen, werken, leven en ontmoeten. We sturen ruimtelijke ontwikkelingen actief aan via duidelijke kaders, digitale dienstverlening en kwaliteitsvolle begeleiding. Via stadsvernieuwing creëren we nieuwe buurten op mensenmaat, met aandacht voor betaalbaar wonen, publieke voorzieningen, erfgoed, groen en water. Grote projecten zoals Ragheno, Keerdok, Nekkerspoel en de OVAM-site maken van Mechelen een stad die duurzaam groeit, met respect voor haar verleden én oog voor de generaties van morgen.",
+    "ap_code": "AP000026",
+    "ap_short": "Stadsvernieuwing",
+    "ap_long": "Stadsvernieuwing",
+    "ac_code": "AC000498",
+    "ac_short": "Mechelen houdt de regie van grote stadsprojecten in eigen handen.",
+    "ac_long": "Mechelen houdt de regie van grote stadsprojecten in eigen handen.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 597.62,
+    "amount_per_capita": 0.01,
+    "yearly_amounts": {
+      "2026": 597.62,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.01,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

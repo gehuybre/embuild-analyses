@@ -5,32 +5,202 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "Gelijkblijvend beleid algemene administratie",
+    "ap_code": "GBB-TD",
+    "ap_short": "Gelijkblijvend beleid technische dienst",
     "ap_long": "Commentaar:",
-    "ac_code": "GBB",
-    "ac_short": "Gelijkblijvend beleid algemene administratie",
+    "ac_code": "GBB-TD",
+    "ac_short": "Gelijkblijvend beleid technische dienst",
     "ac_long": "Commentaar:",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 26073202.0,
-    "amount_per_capita": 1986.8,
+    "total_amount": 14470000.0,
+    "amount_per_capita": 1100.85,
     "yearly_amounts": {
-      "2026": 5376658.0,
-      "2027": 9291192.0,
-      "2028": 3901641.0,
-      "2029": 2896649.0,
-      "2030": 3090882.0,
-      "2031": 1516180.0
+      "2026": 1195000.0,
+      "2027": 6345000.0,
+      "2028": 2428000.0,
+      "2029": 1812000.0,
+      "2030": 2145000.0,
+      "2031": 545000.0
     },
     "yearly_per_capita": {
-      "2026": 409.71,
-      "2027": 708.0,
-      "2028": 297.31,
-      "2029": 220.73,
-      "2030": 235.53,
-      "2031": 115.53
+      "2026": 90.91,
+      "2027": 482.71,
+      "2028": 184.72,
+      "2029": 137.85,
+      "2030": 163.19,
+      "2031": 41.46
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-FD",
+    "ap_short": "Gelijkblijvend beleid financiële dienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-FD",
+    "ac_short": "Gelijkblijvend beleid financiële dienst",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3682202.0,
+    "amount_per_capita": 280.13,
+    "yearly_amounts": {
+      "2026": 1076658.0,
+      "2027": 726192.0,
+      "2028": 690641.0,
+      "2029": 399649.0,
+      "2030": 392882.0,
+      "2031": 396180.0
+    },
+    "yearly_per_capita": {
+      "2026": 81.91,
+      "2027": 55.25,
+      "2028": 52.54,
+      "2029": 30.4,
+      "2030": 29.89,
+      "2031": 30.14
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-TD",
+    "ap_short": "Gelijkblijvend beleid technische dienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-16",
+    "ac_short": "Wegeniswerken ihkv het plattelandsfonds",
+    "ac_long": "Voor wegen waar geen rioleringswerken gepland zijn, wordt 3 miljoen euro uitgetrokken voor herstellingswerken. Één van de onderdelen binnen dit budget is de verbreding van de toegang tot de site Albatros vanaf de Staatsbaan. Dit verhoogt de toegankelijkheid van de site en draagt bij aan een vlottere verkeersdoorstroming.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3000000.0,
+    "amount_per_capita": 228.23,
+    "yearly_amounts": {
+      "2026": 800000.0,
+      "2027": 800000.0,
+      "2028": 0,
+      "2029": 600000.0,
+      "2030": 400000.0,
+      "2031": 400000.0
+    },
+    "yearly_per_capita": {
+      "2026": 60.86,
+      "2027": 60.86,
+      "2028": 0,
+      "2029": 45.65,
+      "2030": 30.43,
+      "2031": 30.43
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEBOUW",
+    "ap_short": "Gelijkblijvend beleid dienst gebouwen",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-GEBOUW",
+    "ac_short": "Gelijkblijvend beleid dienst gebouwen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2905000.0,
+    "amount_per_capita": 221.01,
+    "yearly_amounts": {
+      "2026": 1550000.0,
+      "2027": 875000.0,
+      "2028": 100000.0,
+      "2029": 180000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 117.92,
+      "2027": 66.57,
+      "2028": 7.61,
+      "2029": 13.69,
+      "2030": 7.61,
+      "2031": 7.61
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-TD",
+    "ap_short": "Gelijkblijvend beleid technische dienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-PR",
+    "ac_short": "Gelijkblijvend beleid publieke ruimte",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1940000.0,
+    "amount_per_capita": 147.59,
+    "yearly_amounts": {
+      "2026": 1000000.0,
+      "2027": 700000.0,
+      "2028": 240000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 76.08,
+      "2027": 53.25,
+      "2028": 18.26,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-TD",
+    "ap_short": "Gelijkblijvend beleid technische dienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-17",
+    "ac_short": "Bovenlokale fietsroute",
+    "ac_long": "Het dossier rond het bovenlokaal fietspad richting Diksmuide sleept al jaren aan. Kortemark is bereid haar deel van het traject te realiseren, maar de Vlaamse overheid stelt als voorwaarde dat ook Diksmuide over een vergunning beschikt voor haar grondgebied vooraleer Kortemark aan de werken mag starten. Recent werd dit dossier terug opgenomen door Diksmuide waardoor we de aanleg van dit fietspad deze legislatuur terug kunnen verderzetten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1200000.0,
+    "amount_per_capita": 91.29,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 300000.0,
+      "2029": 900000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 22.82,
+      "2029": 68.47,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -39,32 +209,644 @@
     "bd_code": "VISIE",
     "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
     "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
-    "ap_code": "AP",
+    "ap_code": "AP-3",
+    "ap_short": "Nieuwbouw pastorie met behoud van de pastorietuin als levendige ontmoetingsplek.",
+    "ap_long": "De pastorie van Kortemark is een gebouw met een rijke geschiedenis en een sterke symbolische waarde binnen het dorpsbeeld. De huidige staat van het gebouw laat echter geen grootschalige renovatie toe die financieel en duurzaam verantwoord is. Na grondige afwegingen kiest de gemeente daarom voor een vervangingsnieuwbouw, waarbij het nieuwe gebouw wordt opgetrokken in een stijl die nauw aansluit bij het karakter en de uitstraling van de oorspronkelijke pastorie. Zo blijft de historische identiteit van de plek behouden, terwijl we tegelijk inzetten op duurzaamheid en functionaliteit.\nDe nieuwe pastorie wordt een multifunctioneel en toegankelijk gebouw, ontworpen met het oog op flexibel gebruik door zowel interne gemeentelijke diensten als externe partners en verenigingen. Er komt ruimte voor vergaderingen, kleinschalige evenementen, workshops en informele ontmoetingen. Het gebouw zal een verbindende rol spelen in de gemeenschap, als plek waar mensen samenkomen rond cultuur, zorg, educatie en participatie.\nDe waardevolle pastorietuin blijft volledig behouden en wordt verder uitgebouwd als groene ontmoetingsplek. Dankzij de inzet van een sterke vrijwilligerswerking en een rijk aanbod aan activiteiten blijft deze tuin een levendige en gedragen plek in het hart van Kortemark. Hier kunnen inwoners genieten van rust, natuur en verbondenheid in een groene long die het nieuwe gebouw perfect aanvult.\nMet deze aanpak slaat Kortemark een brug tussen erfgoed en toekomst, tussen behoud en vernieuwing, en tussen gebouw en gemeenschap.",
+    "ac_code": "ACT-8",
+    "ac_short": "Een nieuw hoofdstuk voor de pastorie van Kortemark.",
+    "ac_long": "De  pastorie in Kortemark wordt vervangen door een nieuw gebouw in een stijl die het historische karakter respecteert. Een grondige renovatie bleek financieel niet haalbaar, waardoor gekozen wordt voor een vervangingsnieuwbouw. Het nieuwe gebouw wordt multifunctioneel en toegankelijk, met ruimte voor diverse activiteiten en ontmoetingen, zowel voor gemeentelijke diensten als externe gebruikers.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1180000.0,
+    "amount_per_capita": 89.77,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 1080000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 7.61,
+      "2029": 82.16,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "VISIE",
+    "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
+    "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
+    "ap_code": "AP-1",
     "ap_short": "Groenblauwe dooradering: de Krekebeek als ruggengraat doorheen het centrum",
     "ap_long": "De zone achter het gemeentehuis wordt heringericht tot een groen-blauw park dat inspeelt op klimaatuitdagingen en levenskwaliteit. Het park verbindt water, natuur en recreatie, met aandacht voor ecologie, waterbeleving, spel en een vlotte overgang naar het natuurgebied Talpe’s Putten. Aan de stationsomgeving wordt de beek opengelegd door de VMM en worden de oevers groen ingericht met een belevingsplek. In het binnengebied, de zone tussen de Stationsstraat en de Nieuwstraat worden de oude cinema, het oude politiekantoor en de aanpalende woning gesloopt en wordt een parkgebied ontwikkeld.",
-    "ac_code": "ACT",
+    "ac_code": "ACT-2",
     "ac_short": "Een groene oase achter het gemeentehuis.",
     "ac_long": "Achter het gemeentehuis van Kortemark wordt een belangrijke stap gezet richting een meer duurzame en uitnodigende publieke ruimte. De technische loods die zich op deze locatie bevond, werd inmiddels gesloopt, waardoor er ruimte vrijkwam voor een nieuwe invulling van het terrein. Tegelijk werd de omgeving onthard, wat bijdraagt aan een betere waterdoorlaatbaarheid en een aangenamere leefomgeving.\nIn samenwerking met Atelier Arne Deruyter wordt momenteel een ontwerp uitgewerkt dat inzet op waterbeleving, ecologie, spel en ontmoeting. Het wordt een plek waar natuur en mens elkaar vinden, met aandacht voor biodiversiteit en speelse elementen die jong en oud aanspreken.\nDe uitvoering van dit project is gepland in 2026. Het resultaat zal een groene, toegankelijke en multifunctionele ruimte zijn waar rust, spel en natuur centraal staan. Een waardevolle toevoeging aan het hart van onze gemeente.\nDe laatste schijf van de subsidie van 240.000 euro vanuit Vlaanderen wordt in 2026 hiervoor verwacht.",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 10415000.0,
-    "amount_per_capita": 793.63,
+    "total_amount": 1100000.0,
+    "amount_per_capita": 83.69,
     "yearly_amounts": {
-      "2026": 1760000.0,
-      "2027": 2675000.0,
-      "2028": 1500000.0,
-      "2029": 3680000.0,
-      "2030": 400000.0,
-      "2031": 400000.0
+      "2026": 700000.0,
+      "2027": 400000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 134.11,
-      "2027": 203.84,
-      "2028": 114.3,
-      "2029": 280.42,
-      "2030": 30.48,
-      "2031": 30.48
+      "2026": 53.25,
+      "2027": 30.43,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "VISIE",
+    "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
+    "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
+    "ap_code": "AP-4",
+    "ap_short": "Versterken van sociaal leven via ontmoetingsplekken en ondersteuning van initiatief",
+    "ap_long": "De gemeente stimuleert verbinding en betrokkenheid door ontmoetingsplekken te creëren en lokale initiatiefnemers actief te ondersteunen met advies en logistieke hulp. Zo groeit Kortemark als warme, kindvriendelijke en levendige dorpsgemeenschap. Uit de omgevingsanalyse blijkt ook dat er een groot tekort is aan opvangplaatsen voor kinderen van 0 tot 3 jaar. Ook daar wil het lokaal bestuur een regierol opnemen om starters te ondersteunen.",
+    "ac_code": "ACT-10",
+    "ac_short": "Herstellingswerken voor een toekomstbestendige theaterzaal.",
+    "ac_long": "De Beuk speelt een centrale rol als ontmoetings- en cultuurhuis in Kortemark. In een eerdere fase werd de foyer reeds grondig gerenoveerd, waardoor bezoekers nu al kunnen genieten van een frisse en uitnodigende inkomruimte. In deze legislatuur zetten we de volgende stap: de renovatie van het overige gedeelte van het gebouw staat gepland.\nDeze renovatie zal niet alleen het comfort en de uitstraling van De Beuk verbeteren, maar ook bijdragen aan een betere functionaliteit en toegankelijkheid. Zo maken we van De Beuk een eigentijdse en veelzijdige locatie die klaar is voor de toekomst, met ruimte voor cultuur, ontmoeting en gemeenschapsactiviteiten.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1100000.0,
+    "amount_per_capita": 83.69,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 700000.0,
+      "2029": 400000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 53.25,
+      "2029": 30.43,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-FD",
+    "ap_short": "Gelijkblijvend beleid financiële dienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-FIN",
+    "ac_short": "Gelijkblijvend beleid fin. dienst",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 840000.0,
+    "amount_per_capita": 63.91,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 260000.0,
+      "2028": 200000.0,
+      "2029": 180000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.22,
+      "2027": 19.78,
+      "2028": 15.22,
+      "2029": 13.69,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "VISIE",
+    "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
+    "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
+    "ap_code": "AP-4",
+    "ap_short": "Versterken van sociaal leven via ontmoetingsplekken en ondersteuning van initiatief",
+    "ap_long": "De gemeente stimuleert verbinding en betrokkenheid door ontmoetingsplekken te creëren en lokale initiatiefnemers actief te ondersteunen met advies en logistieke hulp. Zo groeit Kortemark als warme, kindvriendelijke en levendige dorpsgemeenschap. Uit de omgevingsanalyse blijkt ook dat er een groot tekort is aan opvangplaatsen voor kinderen van 0 tot 3 jaar. Ook daar wil het lokaal bestuur een regierol opnemen om starters te ondersteunen.",
+    "ac_code": "ACT-12",
+    "ac_short": "Sportsite Kortemark groeit mee met haar verenigingen.",
+    "ac_long": "Kortemark investeert doelgericht in sport en beweging. Zo wordt het derde voetbalplein verlegd, waardoor Tennis Kortemark de kans krijgt om uit te breiden met nieuwe padelterreinen. Deze herinrichting betekent dat de huidige kleedkamers van het derde plein verdwijnen.\nIn overleg met SVD Kortemark voorzien we de bouw van nieuwe kleedkamers, een secretariaat en een berging, geïntegreerd in de bestaande infrastructuur. Daarnaast komt er een nieuwe tribune aan het gebouw, en waar nodig wordt de omheining van het voetbalterrein hersteld om de veiligheid en uitstraling te verbeteren.\nDeze investering is gepland voor 2027. SVD Kortemark zal gedurende 20 jaar jaarlijks een bijdrage van 6.000 euro terugbetalen aan het lokaal bestuur, waarmee de club actief mee investeert in de toekomst van haar accommodatie.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 725000.0,
+    "amount_per_capita": 55.16,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 725000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 55.16,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "VISIE",
+    "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
+    "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
+    "ap_code": "AP-1",
+    "ap_short": "Groenblauwe dooradering: de Krekebeek als ruggengraat doorheen het centrum",
+    "ap_long": "De zone achter het gemeentehuis wordt heringericht tot een groen-blauw park dat inspeelt op klimaatuitdagingen en levenskwaliteit. Het park verbindt water, natuur en recreatie, met aandacht voor ecologie, waterbeleving, spel en een vlotte overgang naar het natuurgebied Talpe’s Putten. Aan de stationsomgeving wordt de beek opengelegd door de VMM en worden de oevers groen ingericht met een belevingsplek. In het binnengebied, de zone tussen de Stationsstraat en de Nieuwstraat worden de oude cinema, het oude politiekantoor en de aanpalende woning gesloopt en wordt een parkgebied ontwikkeld.",
+    "ac_code": "ACT-4",
+    "ac_short": "Groene toegangspoort tot Kortemark.",
+    "ac_long": "Op deze strategische locatie aan het station in Kortemark werden recent twee woningen gesloopt om ruimte te maken voor een nieuw project dat inzet op waterbeleving en publieke toegankelijkheid. In samenwerking met de Vlaamse Milieumaatschappij (VMM) werken we aan de openlegging van de beek, met als doel een aantrekkelijke belevingsplek te creëren waar natuur, rust en ontmoeting centraal staan.\nHet ontwerp voorziet niet alleen in ecologische meerwaarde, maar ook in praktische toegankelijkheid: een toegankelijke bushalte wordt geïntegreerd in het geheel, waardoor de site vlot bereikbaar wordt voor iedereen.\nDe uitvoering van dit project is voorzien in 2027. Kortemark investeert hiermee in een kwalitatieve publieke ruimte die uitnodigt tot genieten, verbinden en beleven, met water als verbindend element.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 700000.0,
+    "amount_per_capita": 53.25,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 600000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.61,
+      "2027": 45.65,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-ADM",
+    "ap_short": "Gelijkblijvend beleid algemene administratie",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-ADM",
+    "ac_short": "Gelijkblijvend beleid algemene administratie",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 530000.0,
+    "amount_per_capita": 40.32,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 255000.0,
+      "2031": 255000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.38,
+      "2027": 0.38,
+      "2028": 0.38,
+      "2029": 0.38,
+      "2030": 19.4,
+      "2031": 19.4
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-ICT",
+    "ap_short": "Gelijkblijvend beleid ICT",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-ICT",
+    "ac_short": "Gelijkblijvend beleid ICT",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 34.24,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.71,
+      "2027": 5.71,
+      "2028": 5.71,
+      "2029": 5.71,
+      "2030": 5.71,
+      "2031": 5.71
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "VISIE",
+    "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
+    "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
+    "ap_code": "AP-4",
+    "ap_short": "Versterken van sociaal leven via ontmoetingsplekken en ondersteuning van initiatief",
+    "ap_long": "De gemeente stimuleert verbinding en betrokkenheid door ontmoetingsplekken te creëren en lokale initiatiefnemers actief te ondersteunen met advies en logistieke hulp. Zo groeit Kortemark als warme, kindvriendelijke en levendige dorpsgemeenschap. Uit de omgevingsanalyse blijkt ook dat er een groot tekort is aan opvangplaatsen voor kinderen van 0 tot 3 jaar. Ook daar wil het lokaal bestuur een regierol opnemen om starters te ondersteunen.",
+    "ac_code": "ACT-14",
+    "ac_short": "Nieuwe speelplekken voor kleine avonturiers.",
+    "ac_long": "Kinderen en jongeren zijn een essentiële doelgroep in onze beleidsvisie. We geloven dat ontmoeting en spel bijdragen aan hun ontwikkeling én aan de sociale cohesie binnen onze gemeente. Daarom voorzien we over de zes jaar van het meerjarenplan een investering van 450.000 euro in speelzones verspreid over het volledige grondgebied.\nDeze speelzones zijn meer dan enkel speelplekken: ze zijn ontmoetingsplaatsen waar kinderen, jongeren en gezinnen samenkomen. Op de site van De Kouter wordt het speelplein verlegd en worden skatetoestellen toegevoegd, zodat ook oudere kinderen en jongeren zich aangesproken voelen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 34.24,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 150000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.61,
+      "2027": 11.41,
+      "2028": 7.61,
+      "2029": 7.61,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-CULT",
+    "ap_short": "Gelijkblijvend beleid cultuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-CULT",
+    "ac_short": "Gelijkblijvend beleid cultuur",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 440000.0,
+    "amount_per_capita": 33.47,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 140000.0,
+      "2028": 60000.0,
+      "2029": 60000.0,
+      "2030": 60000.0,
+      "2031": 60000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.56,
+      "2027": 10.65,
+      "2028": 4.56,
+      "2029": 4.56,
+      "2030": 4.56,
+      "2031": 4.56
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "VISIE",
+    "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
+    "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
+    "ap_code": "AP-2",
+    "ap_short": "De site aan het OC Gildezaal als speelse ontmoetingsplek voor kinderen",
+    "ap_long": "De oude meisjesschool maakt plaats voor een nieuwe groenzone die ruimte biedt voor spel, ontmoeting en ontspanning. Deze herontwikkeling creëert een aantrekkelijke en toegankelijke plek voor buurtbewoners van alle leeftijden. Het speelplein uit de Azalealaan wordt verplaatst naar deze locatie, waardoor het een centrale en beter geïntegreerde plek krijgt binnen de nieuwe inrichting.\nDoor deze verschuiving komt de huidige speelpleinsite vrij. Deze wordt verkocht, wat kansen biedt voor andere ruimtelijke ontwikkelingen die aansluiten bij de noden en toekomstvisie van de gemeente.",
+    "ac_code": "ACT-7",
+    "ac_short": "Sloop en herinrichting oude gemeenteschool Handzame",
+    "ac_long": "Het oude schoolgebouw wordt gesloopt, een beslissing die voortkomt uit bouwtechnische en energetische beperkingen. Het gebouw voldoet niet langer aan de hedendaagse normen op vlak van duurzaamheid, veiligheid en functionaliteit, waardoor renovatie geen haalbare optie is.\nNa de sloop krijgt het terrein een nieuwe invulling als een groene ontmoetingsplek met een speelse insteek. Er wordt ruimte gecreëerd voor kinderen om te spelen, buurtbewoners om elkaar te ontmoeten, en voor activiteiten die de sociale cohesie versterken. Zo transformeert een verouderde infrastructuur tot een levendige zone waar spel, ontspanning en verbinding centraal staan.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 30.43,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 400000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 30.43,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-MOBIL",
+    "ap_short": "Gelijkblijvend beleid mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-MOBIL",
+    "ac_short": "Gelijkblijvend beleid mobiliteit",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 366000.0,
+    "amount_per_capita": 27.84,
+    "yearly_amounts": {
+      "2026": 65000.0,
+      "2027": 65000.0,
+      "2028": 3000.0,
+      "2029": 85000.0,
+      "2030": 63000.0,
+      "2031": 85000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.95,
+      "2027": 4.95,
+      "2028": 0.23,
+      "2029": 6.47,
+      "2030": 4.79,
+      "2031": 6.47
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "VISIE",
+    "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
+    "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
+    "ap_code": "AP-4",
+    "ap_short": "Versterken van sociaal leven via ontmoetingsplekken en ondersteuning van initiatief",
+    "ap_long": "De gemeente stimuleert verbinding en betrokkenheid door ontmoetingsplekken te creëren en lokale initiatiefnemers actief te ondersteunen met advies en logistieke hulp. Zo groeit Kortemark als warme, kindvriendelijke en levendige dorpsgemeenschap. Uit de omgevingsanalyse blijkt ook dat er een groot tekort is aan opvangplaatsen voor kinderen van 0 tot 3 jaar. Ook daar wil het lokaal bestuur een regierol opnemen om starters te ondersteunen.",
+    "ac_code": "ACT-11",
+    "ac_short": "Ruimte voor het jeugdhuis in Kortemark.",
+    "ac_long": "Het jeugdhuis van Kortemark voldoet niet langer aan de hedendaagse normen. Samen met het bestuur gaan we op zoek naar een alternatieve oplossing. Hiervoor werd 300.000 euro voorzien in het meerjarenplan voor 2028. Dit sluit aan bij onze visie op participatie en eigenaarschap: jongeren verdienen een plek die hen ondersteunt in hun groei, waar ze zich thuis voelen en waar ze mee vorm kunnen geven aan hun leefomgeving.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 22.82,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 22.82,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-VT",
+    "ap_short": "Gelijkblijvend beleid vrije tijd",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-VT",
+    "ac_short": "Gelijkblijvend beleid vrije tijd",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 15.22,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 7.61,
+      "2028": 7.61,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-SPORT",
+    "ap_short": "Gelijkblijvend beleid sport",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-SPORT",
+    "ac_short": "Gelijkblijvend beleid sport",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 11.41,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.41,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-TD",
+    "ap_short": "Gelijkblijvend beleid technische dienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-OW",
+    "ac_short": "Gelijkblijvend Beleid Openbare Werken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.61,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 7.61,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "VISIE",
+    "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
+    "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
+    "ap_code": "AP-3",
+    "ap_short": "Nieuwbouw pastorie met behoud van de pastorietuin als levendige ontmoetingsplek.",
+    "ap_long": "De pastorie van Kortemark is een gebouw met een rijke geschiedenis en een sterke symbolische waarde binnen het dorpsbeeld. De huidige staat van het gebouw laat echter geen grootschalige renovatie toe die financieel en duurzaam verantwoord is. Na grondige afwegingen kiest de gemeente daarom voor een vervangingsnieuwbouw, waarbij het nieuwe gebouw wordt opgetrokken in een stijl die nauw aansluit bij het karakter en de uitstraling van de oorspronkelijke pastorie. Zo blijft de historische identiteit van de plek behouden, terwijl we tegelijk inzetten op duurzaamheid en functionaliteit.\nDe nieuwe pastorie wordt een multifunctioneel en toegankelijk gebouw, ontworpen met het oog op flexibel gebruik door zowel interne gemeentelijke diensten als externe partners en verenigingen. Er komt ruimte voor vergaderingen, kleinschalige evenementen, workshops en informele ontmoetingen. Het gebouw zal een verbindende rol spelen in de gemeenschap, als plek waar mensen samenkomen rond cultuur, zorg, educatie en participatie.\nDe waardevolle pastorietuin blijft volledig behouden en wordt verder uitgebouwd als groene ontmoetingsplek. Dankzij de inzet van een sterke vrijwilligerswerking en een rijk aanbod aan activiteiten blijft deze tuin een levendige en gedragen plek in het hart van Kortemark. Hier kunnen inwoners genieten van rust, natuur en verbondenheid in een groene long die het nieuwe gebouw perfect aanvult.\nMet deze aanpak slaat Kortemark een brug tussen erfgoed en toekomst, tussen behoud en vernieuwing, en tussen gebouw en gemeenschap.",
+    "ac_code": "ACT-9",
+    "ac_short": "De pastorietuin: verdere ontwikkeling van een groene plek voor ontmoeting en rust.",
+    "ac_long": "De pastorietuin blijft behouden als groene ontmoetingsplek, gedragen door een sterke vrijwilligerswerking en een gevarieerd aanbod aan activiteiten. Zo blijft de site een levendige en verbindende plek in het hart van de gemeente. Na de werken aan het gebouw wordt budget voorzien om te tuin verder op te waarderen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.61,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 7.61,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "VISIE",
+    "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
+    "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
+    "ap_code": "AP-4",
+    "ap_short": "Versterken van sociaal leven via ontmoetingsplekken en ondersteuning van initiatief",
+    "ap_long": "De gemeente stimuleert verbinding en betrokkenheid door ontmoetingsplekken te creëren en lokale initiatiefnemers actief te ondersteunen met advies en logistieke hulp. Zo groeit Kortemark als warme, kindvriendelijke en levendige dorpsgemeenschap. Uit de omgevingsanalyse blijkt ook dat er een groot tekort is aan opvangplaatsen voor kinderen van 0 tot 3 jaar. Ook daar wil het lokaal bestuur een regierol opnemen om starters te ondersteunen.",
+    "ac_code": "ACT-1",
+    "ac_short": "Een kindvriendelijke invulling voor de site van OC Hemelsdaele.",
+    "ac_long": "Op de site van OC Hemelsdaele staan enkele belangrijke veranderingen gepland. Het gedeelte van het gebouw waar het museum vroeger gevestigd was, zal worden gesloopt. Dit biedt ruimte voor een herinrichting van de site, waarbij het museum een nieuwe, betekenisvolle plek krijgt in de herbestemde kerk. Deze verhuis biedt niet alleen kansen voor een betere ontsluiting van het erfgoed, maar versterkt ook de culturele invulling van de kerk als ontmoetingsplaats.\nDaarnaast krijgt het speelplein een prominentere plaats op de vernieuwde OC-site. Door het strategisch te herpositioneren wordt het speelplein beter zichtbaar en toegankelijk voor kinderen en gezinnen, wat bijdraagt aan een levendige en uitnodigende omgeving voor jong en oud.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.61,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 7.61,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kortemark",
+    "nis_code": "32011",
+    "bd_code": "VISIE",
+    "bd_short": "In Kortemark staan ontmoeting en verbondenheid centraal.",
+    "bd_long": "Kwalitatieve omschrijving: Onze plattelandsgemeente, rijk aan open ruimte, wil zich verder ontwikkelen tot een plek waar verbinding en ontmoeting centraal staan. Jeugd- en kindvriendelijkheid is daarbij een rode draad doorheen elke beslissing en nieuwe stap. We streven naar een groene en levendige omgeving die sociale interactie stimuleert. Onze strategische ligging in het hart van West-Vlaanderen, met uitstekende bereikbaarheid en de aanwezigheid van een eigen treinstation, biedt ons unieke kansen.\n\nWe zetten in op initiatief dat verbinding creëert: in de eerste plaats door plaatselijke organisatoren te ondersteunen en te adviseren, zodat zij in de beste omstandigheden hun evenement aan de inwoners kunnen presenteren. Daarnaast voorziet de gemeente ook in een eigen aanbod aan activiteiten die voor iedereen toegankelijk zijn. Kortemark is een dorp. De troeven van een dorp willen we benutten en koesteren: mensen kennen elkaar hier nog bij naam. Bij projecten richten we de beschikbare open ruimte zo in dat ontmoeting gestimuleerd wordt en dat elke inwoner zich hierin betrokken voelt.",
+    "ap_code": "AP-1",
+    "ap_short": "Groenblauwe dooradering: de Krekebeek als ruggengraat doorheen het centrum",
+    "ap_long": "De zone achter het gemeentehuis wordt heringericht tot een groen-blauw park dat inspeelt op klimaatuitdagingen en levenskwaliteit. Het park verbindt water, natuur en recreatie, met aandacht voor ecologie, waterbeleving, spel en een vlotte overgang naar het natuurgebied Talpe’s Putten. Aan de stationsomgeving wordt de beek opengelegd door de VMM en worden de oevers groen ingericht met een belevingsplek. In het binnengebied, de zone tussen de Stationsstraat en de Nieuwstraat worden de oude cinema, het oude politiekantoor en de aanpalende woning gesloopt en wordt een parkgebied ontwikkeld.",
+    "ac_code": "ACT-3",
+    "ac_short": "Ontwikkeling binnengebied tussen Stationsstraat en Nieuwstraat als groene ontmoetingsplek.",
+    "ac_long": "De gemeente Kortemark en de Vlaamse Milieumaatschappij (VMM) zijn samen eigenaar van drie percelen die in de komende jaren een nieuwe invulling krijgen. In 2026 staat de sloop van de bestaande gebouwen op deze gronden gepland. Na de afbraak zal het gebied tijdelijk worden ingezaaid als groene zone, waardoor het al snel een aangenamere uitstraling krijgt en ruimte biedt voor natuurontwikkeling. In de daaropvolgende jaren gaan we samen met VMM actief op zoek naar mogelijkheden om deze locatie verder te transformeren tot een volwaardige parkomgeving. Daarbij wordt onderzocht hoe open water, biodiversiteit en recreatie op een harmonieuze manier kunnen worden geïntegreerd, zodat het terrein evolueert tot een aantrekkelijke plek voor ontspanning, ontmoeting en ecologische meerwaarde.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 4.56,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.56,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

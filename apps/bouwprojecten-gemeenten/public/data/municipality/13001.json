@@ -14,23 +14,23 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 8384560.0,
-    "amount_per_capita": 613.12,
+    "total_amount": 9937466.74,
+    "amount_per_capita": 727.4,
     "yearly_amounts": {
-      "2026": 2713214.0,
-      "2027": 2228347.0,
-      "2028": 864075.0,
-      "2029": 1076881.0,
-      "2030": 728766.0,
-      "2031": 773277.0
+      "2026": 4351121.52,
+      "2027": 2211346.55,
+      "2028": 847075.05,
+      "2029": 1059881.2,
+      "2030": 711766.27,
+      "2031": 756276.15
     },
     "yearly_per_capita": {
-      "2026": 198.4,
-      "2027": 162.95,
-      "2028": 63.19,
-      "2029": 78.75,
-      "2030": 53.29,
-      "2031": 56.55
+      "2026": 318.49,
+      "2027": 161.87,
+      "2028": 62.0,
+      "2029": 77.58,
+      "2030": 52.1,
+      "2031": 55.36
     }
   },
   {
@@ -48,10 +48,10 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 5550000.0,
-    "amount_per_capita": 405.84,
+    "total_amount": 5575000.0,
+    "amount_per_capita": 408.08,
     "yearly_amounts": {
-      "2026": 100000.0,
+      "2026": 125000.0,
       "2027": 100000.0,
       "2028": 350000.0,
       "2029": 2500000.0,
@@ -59,11 +59,45 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.31,
-      "2027": 7.31,
-      "2028": 25.59,
-      "2029": 182.81,
-      "2030": 182.81,
+      "2026": 9.15,
+      "2027": 7.32,
+      "2028": 25.62,
+      "2029": 182.99,
+      "2030": 182.99,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Arendonk",
+    "nis_code": "13001",
+    "bd_code": "BD000003",
+    "bd_short": "Leefbare gemeente",
+    "bd_long": "We bouwen aan een klimaatrobuuste, leefbare en ondernemingsvriendelijke gemeente door een duurzame ruimtelijke ontwikkeling en mobiliteit, toekomstgericht wonen en een versterking van landbouw, natuur en erfgoed.",
+    "ap_code": "AP000013",
+    "ap_short": "Patrimonium en openbare werken",
+    "ap_long": "We investeren gericht in prioritaire infrastructuurprojecten, ontwikkelen een toekomstvisie voor strategische sites (DONA, zwembad, Garve), voeren een doordacht patrimoniumbeleid en versterken het duurzaam en klimaatbestendig beheer van de openbare ruimte.",
+    "ac_code": "AC000044",
+    "ac_short": "Restauratie Onze-Lieve-Vrouw kerk en heraanleg omgeving",
+    "ac_long": "De Onze-Lieve-Vrouw kerk in het centrum wordt gerestaureerd en de omgeving heraangelegd.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 4962886.01,
+    "amount_per_capita": 363.27,
+    "yearly_amounts": {
+      "2026": 2769173.76,
+      "2027": 1910382.04,
+      "2028": 283330.21,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 202.7,
+      "2027": 139.84,
+      "2028": 20.74,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -83,7 +117,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 4803000.0,
-    "amount_per_capita": 351.22,
+    "amount_per_capita": 351.57,
     "yearly_amounts": {
       "2026": 150000.0,
       "2027": 150000.0,
@@ -93,44 +127,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 10.97,
-      "2027": 10.97,
-      "2028": 33.95,
-      "2029": 295.33,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Arendonk",
-    "nis_code": "13001",
-    "bd_code": "BD000003",
-    "bd_short": "Leefbare gemeente",
-    "bd_long": "We bouwen aan een klimaatrobuuste, leefbare en ondernemingsvriendelijke gemeente door een duurzame ruimtelijke ontwikkeling en mobiliteit, toekomstgericht wonen en een versterking van landbouw, natuur en erfgoed.",
-    "ap_code": "AP000013",
-    "ap_short": "Patrimonium en openbare werken",
-    "ap_long": "We investeren gericht in prioritaire infrastructuurprojecten, ontwikkelen een toekomstvisie voor strategische sites (DONA, zwembad, Garve), voeren een doordacht patrimoniumbeleid en versterken het duurzaam en klimaatbestendig beheer van de openbare ruimte.",
-    "ac_code": "AC000044",
-    "ac_short": "Restauratie Onze-Lieve-Vrouw kerk en heraanleg omgeving",
-    "ac_long": "De Onze-Lieve-Vrouw kerk in het centrum wordt gerestaureerd en de omgeving heraangelegd.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 4599893.0,
-    "amount_per_capita": 336.37,
-    "yearly_amounts": {
-      "2026": 2406181.0,
-      "2027": 1910382.0,
-      "2028": 283330.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 175.95,
-      "2027": 139.7,
-      "2028": 20.72,
-      "2029": 0,
+      "2026": 10.98,
+      "2027": 10.98,
+      "2028": 33.99,
+      "2029": 295.62,
       "2030": 0,
       "2031": 0
     }
@@ -151,7 +151,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 1870000.0,
-    "amount_per_capita": 136.74,
+    "amount_per_capita": 136.88,
     "yearly_amounts": {
       "2026": 633000.0,
       "2027": 377000.0,
@@ -161,12 +161,12 @@
       "2031": 250000.0
     },
     "yearly_per_capita": {
-      "2026": 46.29,
-      "2027": 27.57,
+      "2026": 46.33,
+      "2027": 27.6,
       "2028": 0,
-      "2029": 18.28,
-      "2030": 26.32,
-      "2031": 18.28
+      "2029": 18.3,
+      "2030": 26.35,
+      "2031": 18.3
     }
   },
   {
@@ -184,10 +184,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 600000.0,
-    "amount_per_capita": 43.88,
+    "total_amount": 653881.58,
+    "amount_per_capita": 47.86,
     "yearly_amounts": {
-      "2026": 300000.0,
+      "2026": 353881.58,
       "2027": 300000.0,
       "2028": 0,
       "2029": 0,
@@ -195,43 +195,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 21.94,
-      "2027": 21.94,
+      "2026": 25.9,
+      "2027": 21.96,
       "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Arendonk",
-    "nis_code": "13001",
-    "bd_code": "BD000007",
-    "bd_short": "AGB Arendonk",
-    "bd_long": "We streven naar een duurzaam en efficiënt beheer van onze sportinfrastructuur, met als doel het aanbieden van kwaliteitsvolle, veilige en toegankelijke sportvoorzieningen voor alle sporters. Hierbij wordt actief ingespeeld op veranderende noden en maatschappelijke evoluties, door te investeren in innovatieve en toekomstgerichte infrastructuur die sportparticipatie stimuleert en inclusie bevordert.",
-    "ap_code": "AP000034",
-    "ap_short": "AGB Arendonk",
-    "ap_long": "We optimaliseren onze onderhoudsprocessen en maken de infrastructuur energiezuinig. We garanderen veiligheid, comfort en toegankelijkheid voor iedereen. We voorzien ruimte voor nieuwe trends en noden.",
-    "ac_code": "AC000160",
-    "ac_short": "Sportpark Heikant verder uitbouwen",
-    "ac_long": "Sportpark Heikant verder uitbouwen: parkings inrichten, verlichting velden verledden, outdoorzone aan sporthal invulling geven ...",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 370000.0,
-    "amount_per_capita": 27.06,
-    "yearly_amounts": {
-      "2026": 270000.0,
-      "2027": 0,
-      "2028": 100000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 19.74,
-      "2027": 0,
-      "2028": 7.31,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -253,7 +219,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 350000.0,
-    "amount_per_capita": 25.59,
+    "amount_per_capita": 25.62,
     "yearly_amounts": {
       "2026": 0,
       "2027": 350000.0,
@@ -264,7 +230,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 25.59,
+      "2027": 25.62,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -287,7 +253,7 @@
       "08-onderwijs"
     ],
     "total_amount": 280000.0,
-    "amount_per_capita": 20.47,
+    "amount_per_capita": 20.5,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 180000.0,
@@ -297,8 +263,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.31,
-      "2027": 13.16,
+      "2026": 7.32,
+      "2027": 13.18,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -321,7 +287,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 265000.0,
-    "amount_per_capita": 19.38,
+    "amount_per_capita": 19.4,
     "yearly_amounts": {
       "2026": 15000.0,
       "2027": 125000.0,
@@ -332,8 +298,8 @@
     },
     "yearly_per_capita": {
       "2026": 1.1,
-      "2027": 9.14,
-      "2028": 9.14,
+      "2027": 9.15,
+      "2028": 9.15,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -342,35 +308,35 @@
   {
     "municipality": "Arendonk",
     "nis_code": "13001",
-    "bd_code": "BD000007",
-    "bd_short": "AGB Arendonk",
-    "bd_long": "We streven naar een duurzaam en efficiënt beheer van onze sportinfrastructuur, met als doel het aanbieden van kwaliteitsvolle, veilige en toegankelijke sportvoorzieningen voor alle sporters. Hierbij wordt actief ingespeeld op veranderende noden en maatschappelijke evoluties, door te investeren in innovatieve en toekomstgerichte infrastructuur die sportparticipatie stimuleert en inclusie bevordert.",
-    "ap_code": "AP000034",
-    "ap_short": "AGB Arendonk",
-    "ap_long": "We optimaliseren onze onderhoudsprocessen en maken de infrastructuur energiezuinig. We garanderen veiligheid, comfort en toegankelijkheid voor iedereen. We voorzien ruimte voor nieuwe trends en noden.",
-    "ac_code": "AC000159",
-    "ac_short": "Onderzoeken hoe het zwembad behouden kan blijven (renovatie/nieuwbouw)",
-    "ac_long": "Onderzoeken hoe het zwembad behouden kan blijven (renovatie/nieuwbouw). De VLAREM-vergunning van het zwembad loopt af op 31 mei 2030. Link met bovenlokaal masterplan sportregio van belang.",
+    "bd_code": "BD000003",
+    "bd_short": "Leefbare gemeente",
+    "bd_long": "We bouwen aan een klimaatrobuuste, leefbare en ondernemingsvriendelijke gemeente door een duurzame ruimtelijke ontwikkeling en mobiliteit, toekomstgericht wonen en een versterking van landbouw, natuur en erfgoed.",
+    "ap_code": "AP000014",
+    "ap_short": "Mobiliteit",
+    "ap_long": "We voeren het regionaal mobiliteitsplan mee uit en verbeteren de verkeersveiligheid in Arendonk door duurzame vervoersmodi te stimuleren en infrastructuur te vernieuwen.",
+    "ac_code": "AC000054",
+    "ac_short": "Inventaris staat voetpaden en trage wegen en nieuw afwegingskader heraanleg en onderhoud",
+    "ac_long": "We maken een inventaris op van de staat van voetpaden en trage wegen. We organiseren een meldpunt voor klachten. We stemmen onderhoud en vernieuwing af op basis van een nieuw afwegingskader waarin we heraanleg en onderhoud afwegen tegen ontharding (extra ruimte voor groen en infiltratie).",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 130000.0,
-    "amount_per_capita": 9.51,
+    "total_amount": 190000.0,
+    "amount_per_capita": 13.91,
     "yearly_amounts": {
-      "2026": 30000.0,
-      "2027": 0,
-      "2028": 100000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 90000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 2.19,
-      "2027": 0,
-      "2028": 7.31,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 6.59,
+      "2027": 1.46,
+      "2028": 1.46,
+      "2029": 1.46,
+      "2030": 1.46,
+      "2031": 1.46
     }
   },
   {
@@ -416,40 +382,6 @@
     "ap_code": "AP000014",
     "ap_short": "Mobiliteit",
     "ap_long": "We voeren het regionaal mobiliteitsplan mee uit en verbeteren de verkeersveiligheid in Arendonk door duurzame vervoersmodi te stimuleren en infrastructuur te vernieuwen.",
-    "ac_code": "AC000054",
-    "ac_short": "Inventaris staat voetpaden en trage wegen en nieuw afwegingskader heraanleg en onderhoud",
-    "ac_long": "We maken een inventaris op van de staat van voetpaden en trage wegen. We organiseren een meldpunt voor klachten. We stemmen onderhoud en vernieuwing af op basis van een nieuw afwegingskader waarin we heraanleg en onderhoud afwegen tegen ontharding (extra ruimte voor groen en infiltratie).",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 120000.0,
-    "amount_per_capita": 8.78,
-    "yearly_amounts": {
-      "2026": 20000.0,
-      "2027": 20000.0,
-      "2028": 20000.0,
-      "2029": 20000.0,
-      "2030": 20000.0,
-      "2031": 20000.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.46,
-      "2027": 1.46,
-      "2028": 1.46,
-      "2029": 1.46,
-      "2030": 1.46,
-      "2031": 1.46
-    }
-  },
-  {
-    "municipality": "Arendonk",
-    "nis_code": "13001",
-    "bd_code": "BD000003",
-    "bd_short": "Leefbare gemeente",
-    "bd_long": "We bouwen aan een klimaatrobuuste, leefbare en ondernemingsvriendelijke gemeente door een duurzame ruimtelijke ontwikkeling en mobiliteit, toekomstgericht wonen en een versterking van landbouw, natuur en erfgoed.",
-    "ap_code": "AP000014",
-    "ap_short": "Mobiliteit",
-    "ap_long": "We voeren het regionaal mobiliteitsplan mee uit en verbeteren de verkeersveiligheid in Arendonk door duurzame vervoersmodi te stimuleren en infrastructuur te vernieuwen.",
     "ac_code": "AC000058",
     "ac_short": "Inrichtingsvisie voor De Daries en de dorpsstraten De Maaskens en Schoolstraat",
     "ac_long": "De afgelopen jaren werd de voormalige gewestweg Begijnhof / Wampenberg heringericht. We maken deze legislatuur werk van de opmaak van een inrichtingsvisie voor De Daries met meer ruimte voor fietsers, publiek groen en water (retentiestraat). Deze straat heeft een groot onthardingspotentieel (HWDP). Ook de inrichting van de dorpsstraten De Maaskens en Schoolstraat is verouderd. We maken hiervoor een nieuwe inrichtingsvisie op, waarvan de uitvoering kan gekoppeld worden aan de realisatie van het masterplan Schoolstraat.",
@@ -457,7 +389,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 7.31,
+    "amount_per_capita": 7.32,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -515,6 +447,40 @@
     "bd_code": "BD000003",
     "bd_short": "Leefbare gemeente",
     "bd_long": "We bouwen aan een klimaatrobuuste, leefbare en ondernemingsvriendelijke gemeente door een duurzame ruimtelijke ontwikkeling en mobiliteit, toekomstgericht wonen en een versterking van landbouw, natuur en erfgoed.",
+    "ap_code": "AP000014",
+    "ap_short": "Mobiliteit",
+    "ap_long": "We voeren het regionaal mobiliteitsplan mee uit en verbeteren de verkeersveiligheid in Arendonk door duurzame vervoersmodi te stimuleren en infrastructuur te vernieuwen.",
+    "ac_code": "AC000057",
+    "ac_short": "Uitvoering actieplannen en verkeersveiligheidsplannen van het regionaal mobiliteitsplan",
+    "ac_long": "We rollen de uitvoering van de actieplannen en verkeersveiligheidsplannen van het regionaal mobiliteitsplan uit. Zo verbeteren we de toegankelijkheid en de fietsenstallingen aan bushaltes, realiseren we een zone 30 in de kern, richten we het hoppin punt aan de Wezenstraat in en versterken we het opgestarte autodeelsysteem.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 58500.0,
+    "amount_per_capita": 4.28,
+    "yearly_amounts": {
+      "2026": 58500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Arendonk",
+    "nis_code": "13001",
+    "bd_code": "BD000003",
+    "bd_short": "Leefbare gemeente",
+    "bd_long": "We bouwen aan een klimaatrobuuste, leefbare en ondernemingsvriendelijke gemeente door een duurzame ruimtelijke ontwikkeling en mobiliteit, toekomstgericht wonen en een versterking van landbouw, natuur en erfgoed.",
     "ap_code": "AP000013",
     "ap_short": "Patrimonium en openbare werken",
     "ap_long": "We investeren gericht in prioritaire infrastructuurprojecten, ontwikkelen een toekomstvisie voor strategische sites (DONA, zwembad, Garve), voeren een doordacht patrimoniumbeleid en versterken het duurzaam en klimaatbestendig beheer van de openbare ruimte.",
@@ -525,7 +491,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 55000.0,
-    "amount_per_capita": 4.02,
+    "amount_per_capita": 4.03,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 30000.0,
@@ -536,7 +502,7 @@
     },
     "yearly_per_capita": {
       "2026": 1.83,
-      "2027": 2.19,
+      "2027": 2.2,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -592,10 +558,10 @@
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 25000.0,
-    "amount_per_capita": 1.83,
+    "total_amount": 40000.0,
+    "amount_per_capita": 2.93,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 15000.0,
       "2027": 15000.0,
       "2028": 10000.0,
       "2029": 0,
@@ -603,7 +569,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 1.1,
       "2027": 1.1,
       "2028": 0.73,
       "2029": 0,
@@ -626,15 +592,15 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 9463.0,
+    "total_amount": 9462.18,
     "amount_per_capita": 0.69,
     "yearly_amounts": {
       "2026": 1500.0,
       "2027": 1530.0,
-      "2028": 1561.0,
-      "2029": 1592.0,
-      "2030": 1624.0,
-      "2031": 1656.0
+      "2028": 1560.6,
+      "2029": 1591.81,
+      "2030": 1623.65,
+      "2031": 1656.12
     },
     "yearly_per_capita": {
       "2026": 0.11,
@@ -643,40 +609,6 @@
       "2029": 0.12,
       "2030": 0.12,
       "2031": 0.12
-    }
-  },
-  {
-    "municipality": "Arendonk",
-    "nis_code": "13001",
-    "bd_code": "BD000003",
-    "bd_short": "Leefbare gemeente",
-    "bd_long": "We bouwen aan een klimaatrobuuste, leefbare en ondernemingsvriendelijke gemeente door een duurzame ruimtelijke ontwikkeling en mobiliteit, toekomstgericht wonen en een versterking van landbouw, natuur en erfgoed.",
-    "ap_code": "AP000014",
-    "ap_short": "Mobiliteit",
-    "ap_long": "We voeren het regionaal mobiliteitsplan mee uit en verbeteren de verkeersveiligheid in Arendonk door duurzame vervoersmodi te stimuleren en infrastructuur te vernieuwen.",
-    "ac_code": "AC000057",
-    "ac_short": "Uitvoering actieplannen en verkeersveiligheidsplannen van het regionaal mobiliteitsplan",
-    "ac_long": "We rollen de uitvoering van de actieplannen en verkeersveiligheidsplannen van het regionaal mobiliteitsplan uit. Zo verbeteren we de toegankelijkheid en de fietsenstallingen aan bushaltes, realiseren we een zone 30 in de kern, richten we het hoppin punt aan de Wezenstraat in en versterken we het opgestarte autodeelsysteem.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 8500.0,
-    "amount_per_capita": 0.62,
-    "yearly_amounts": {
-      "2026": 8500.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.62,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
     }
   },
   {

@@ -5,7 +5,7 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 const metadata = {
   title: "Gemeentelijke bouwprojecten Vlaanderen 2026-2031",
   date: "2026-01-09",
-  summary: "Doorzoekbare database van 7,134 concrete investeringsprojecten uit meerjarenplannen van Vlaamse gemeenten.",
+  summary: "Doorzoekbare database van 12.251 concrete investeringsprojecten uit meerjarenplannen van Vlaamse gemeenten.",
   tags: ["gemeente","bouwprojecten","aannemers","investeringen","meerjarenplan"],
   source: {
     provider: "Agentschap Binnenlands Bestuur",

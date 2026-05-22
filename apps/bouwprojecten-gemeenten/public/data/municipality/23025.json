@@ -2,35 +2,35 @@
   {
     "municipality": "Grimbergen",
     "nis_code": "23025",
-    "bd_code": "BD",
-    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
-    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
-    "ap_code": "AP",
-    "ap_short": "We investeren in menselijk kapitaal en een veilige werkomgeving.",
-    "ap_long": "We investeren in menselijk kapitaal en een veilige werkomgeving.",
-    "ac_code": "ACT",
-    "ac_short": "We werken verder aan de invoering van de Welzijnscodex.",
-    "ac_long": "We werken verder aan de verplichte uitvoering van de  Welzijnscodex voor gemeente en OCMW.",
+    "bd_code": "BD-2",
+    "bd_short": "We werken aan een toegankelijke dienstverlening met kansen voor elke inwoner om deel te nemen.",
+    "bd_long": "Kwalitatieve omschrijving: We werken samen aan een toegankelijke dienstverlening, die elke inwoner de kans biedt om actief deel te nemen aan het bruisende Grimbergse gemeenschapsleven.",
+    "ap_code": "AP-12",
+    "ap_short": "We investeren verder in laagdrempelig en wederzijds contact met inwoners.",
+    "ap_long": "We investeren verder in laagdrempelig en wederzijds contact met inwoners.",
+    "ac_code": "ACT-44",
+    "ac_short": "We voeren de verplichte renovatie van het gemeentehuis uit.",
+    "ac_long": "We vernieuwen het gemeentehuis om te voldoen aan de brandveiligheidsvereisen en de energetische optimalisatie.",
     "categories": [
-      "04-veiligheidszorg"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 78302558.0,
-    "amount_per_capita": 1910.71,
+    "total_amount": 8522037.01,
+    "amount_per_capita": 208.57,
     "yearly_amounts": {
-      "2026": 19222727.0,
-      "2027": 19031565.0,
-      "2028": 12318726.0,
-      "2029": 9949557.0,
-      "2030": 10263675.0,
-      "2031": 7516308.0
+      "2026": 447037.01,
+      "2027": 4250000.0,
+      "2028": 3825000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 469.07,
-      "2027": 464.4,
-      "2028": 300.6,
-      "2029": 242.79,
-      "2030": 250.45,
-      "2031": 183.41
+      "2026": 10.94,
+      "2027": 104.02,
+      "2028": 93.62,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -39,32 +39,2480 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
+    "ap_code": "GBB-FIN",
+    "ap_short": "Gelijkblijvend beleid - Financiële dienst",
+    "ap_long": "Gelijkblijvend beleid - Financiële dienst",
+    "ac_code": "GBB-FIN",
+    "ac_short": "Gelijkblijvend beleid - Financiële dienst",
+    "ac_long": "Gelijkblijvend beleid - Financiële dienst",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 8065895.98,
+    "amount_per_capita": 197.41,
+    "yearly_amounts": {
+      "2026": 1805568.83,
+      "2027": 1306665.24,
+      "2028": 1191818.82,
+      "2029": 1320710.56,
+      "2030": 1334860.11,
+      "2031": 1106272.42
+    },
+    "yearly_per_capita": {
+      "2026": 44.19,
+      "2027": 31.98,
+      "2028": 29.17,
+      "2029": 32.32,
+      "2030": 32.67,
+      "2031": 27.08
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-70",
+    "ac_short": "Wegenis-en rioleringswerken en aanleg fietspad: Warandestraat- Zijpstraat.",
+    "ac_long": "Wegenis-en rioleringswerken en aanleg fietspad: Warandestraat- Zijpstraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7728482.69,
+    "amount_per_capita": 189.15,
+    "yearly_amounts": {
+      "2026": 4256834.69,
+      "2027": 3371648.0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 104.18,
+      "2027": 82.52,
+      "2028": 2.45,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-W&W",
+    "ap_short": "Gelijkblijvend beleid - Wegen en Water",
+    "ap_long": "Gelijkblijvend beleid - Wegen en Water",
+    "ac_code": "GBB-W&W",
+    "ac_short": "Gelijkblijvend beleid - Wegen en water",
+    "ac_long": "Gelijkblijvend beleid - Wegen en water",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7599769.96,
+    "amount_per_capita": 186.0,
+    "yearly_amounts": {
+      "2026": 1528256.0,
+      "2027": 1108834.67,
+      "2028": 1448276.4,
+      "2029": 1150340.22,
+      "2030": 1174400.07,
+      "2031": 1189662.6
+    },
+    "yearly_per_capita": {
+      "2026": 37.4,
+      "2027": 27.14,
+      "2028": 35.45,
+      "2029": 28.15,
+      "2030": 28.74,
+      "2031": 29.12
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-69",
+    "ac_short": "Wegenis- en rioleringswerken en aanleg fietspad: Beigem- GUP 19:",
+    "ac_long": "Wegenis- en rioleringswerken en aanleg fietspad: Beigem- GUP 19:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7460294.68,
+    "amount_per_capita": 182.59,
+    "yearly_amounts": {
+      "2026": 105317.85,
+      "2027": 95023.06,
+      "2028": 2070376.0,
+      "2029": 2874308.79,
+      "2030": 1786978.09,
+      "2031": 528290.89
+    },
+    "yearly_per_capita": {
+      "2026": 2.58,
+      "2027": 2.33,
+      "2028": 50.67,
+      "2029": 70.35,
+      "2030": 43.74,
+      "2031": 12.93
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-3",
+    "bd_short": "We werken aan een financieel sterke gemeente om de professionele dienstverlening te behouden.",
+    "bd_long": "Kwalitatieve omschrijving: We werken aan een financieel sterke gemeente zodat Grimbergenaren duurzaam kunnen genieten van een vlotte en professionele dienstverlening.",
+    "ap_code": "AP-15",
+    "ap_short": "We zoeken naar samenwerkingsverbanden met derden.",
+    "ap_long": "We zoeken naar samenwerkingsverbanden met derden en streven naar behoud van de kwaliteit van de dienstverlening.",
+    "ac_code": "ACT-50",
+    "ac_short": "We onderzoeken de best mogelijke manier om kwalitatief onderwijs aan te bieden.",
+    "ac_long": "We onderzoeken of een andere scholenkoepel in de 4 gemeentelijke basisscholen verder kwalitatief onderwijs zou kunnen aanbieden en passen de werking van de gemeentelijke basisscholen aan om volledig kostendekkend te kunnen werken.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 6800000.0,
+    "amount_per_capita": 166.43,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 1800000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2500000.0,
+      "2031": 2500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 44.05,
+      "2028": 0,
+      "2029": 0,
+      "2030": 61.19,
+      "2031": 61.19
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-1",
+    "bd_short": "We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen.",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen waar het goed is om te wonen, te leven en zich te verplaatsen",
+    "ap_code": "AP-5",
+    "ap_short": "We investeren in een veilig, duurzaam en goed onderhouden gemeentelijk patrimonium.",
+    "ap_long": "We maken werk van een inhaalbeweging in het onderhoud en de veiligheid van onze gebouwen en zetten de eerste, maar belangrijke, stappen richting de verplichte duurzaamheidsdoelstellingen voor ons gemeentelijk patrimonium.",
+    "ac_code": "ACT-20",
+    "ac_short": "We maken onze gebouwen duurzaam en toekomstbestendig.",
+    "ac_long": "We voeren energetische renovaties uit, investeren in hernieuwbare energie en werken het achterstallig onderhoud weg op basis van een lange termijn onderhoudsplan.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 5999999.99,
+    "amount_per_capita": 146.85,
+    "yearly_amounts": {
+      "2026": 176470.59,
+      "2027": 705882.35,
+      "2028": 1235294.12,
+      "2029": 705882.35,
+      "2030": 1588235.29,
+      "2031": 1588235.29
+    },
+    "yearly_per_capita": {
+      "2026": 4.32,
+      "2027": 17.28,
+      "2028": 30.23,
+      "2029": 17.28,
+      "2030": 38.87,
+      "2031": 38.87
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-2",
+    "bd_short": "We werken aan een toegankelijke dienstverlening met kansen voor elke inwoner om deel te nemen.",
+    "bd_long": "Kwalitatieve omschrijving: We werken samen aan een toegankelijke dienstverlening, die elke inwoner de kans biedt om actief deel te nemen aan het bruisende Grimbergse gemeenschapsleven.",
+    "ap_code": "AP-6",
+    "ap_short": "We investeren als gangmaker in gemeenschapsinfrastructuur.",
+    "ap_long": "We investeren als gangmaker in gemeenschapsinfrastructuur waar verschillende doelgroepen elkaar vinden en verbinden.",
+    "ac_code": "ACT-22",
+    "ac_short": "We herbestemmen de Sint-Amanduskerk deels als bibliotheek van de toekomst.",
+    "ac_long": "We geven de Sint-Amanduskerk een nieuw leven: een deel wordt de bibliotheek van de toekomst en ontmoetingsplek waarnaast een apart lithurgisch gedeelte behouden blijft.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 5915406.69,
+    "amount_per_capita": 144.78,
+    "yearly_amounts": {
+      "2026": 431783.48,
+      "2027": 1565450.55,
+      "2028": 2170792.18,
+      "2029": 1729482.31,
+      "2030": 17898.17,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.57,
+      "2027": 38.31,
+      "2028": 53.13,
+      "2029": 42.33,
+      "2030": 0.44,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-71",
+    "ac_short": "Wegenis- en rioleringswerken : Humbeek-Sas GIP G19725",
+    "ac_long": "Wegenis- en rioleringswerken : Humbeek-Sas GIP G19725",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3566490.56,
+    "amount_per_capita": 87.29,
+    "yearly_amounts": {
+      "2026": 2136490.56,
+      "2027": 1430000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 52.29,
+      "2027": 35.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-2",
+    "bd_short": "We werken aan een toegankelijke dienstverlening met kansen voor elke inwoner om deel te nemen.",
+    "bd_long": "Kwalitatieve omschrijving: We werken samen aan een toegankelijke dienstverlening, die elke inwoner de kans biedt om actief deel te nemen aan het bruisende Grimbergse gemeenschapsleven.",
+    "ap_code": "AP-9",
+    "ap_short": "We voorzien toegankelijke en klantvriendelijke infrastructuur op de CC-site.",
+    "ap_long": "We voorzien toegankelijke, klantvriendelijke infrastructuur op de CC-site waar verschillende dienstverleningen zijn samengebracht.",
+    "ac_code": "ACT-33",
+    "ac_short": "We voorzien een renovatieproject voor het Sociaal Huis op de CC-site.",
+    "ac_long": "We renoveren het sociaal huis tot een moderne en klantgerichte werkplek, die efficiëntie en professionaliteit bevordert en samenwerking met sociale partners faciliteert zodat inwoners vlot en doelgericht geholpen worden.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3106177.29,
+    "amount_per_capita": 76.02,
+    "yearly_amounts": {
+      "2026": 74401.29,
+      "2027": 66792.0,
+      "2028": 345092.0,
+      "2029": 1380368.0,
+      "2030": 1161600.0,
+      "2031": 77924.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.82,
+      "2027": 1.63,
+      "2028": 8.45,
+      "2029": 33.78,
+      "2030": 28.43,
+      "2031": 1.91
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-68",
+    "ac_short": "Wegenis/rioleringswerken, aanleg fietspad: Verbrande Brugsesteenweg, Kareelstraat, Humbeeksesteenweg",
+    "ac_long": "Wegenis- en rioleringswerken en aanleg fietspad : Verbrande Brugsesteenweg, Kareelstraat, Humbeeksesteenweg",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3081303.04,
+    "amount_per_capita": 75.41,
+    "yearly_amounts": {
+      "2026": 2331303.04,
+      "2027": 750000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 57.06,
+      "2027": 18.36,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-21",
+    "ap_short": "Investeren in duurzame mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-89",
+    "ac_short": "We verbeteren de veiligheid van de actieve weggebruikers en voorzien fiets- en voetpaden.",
+    "ac_long": "We verbeteren de veiligheid van de actieve weggebruiker in de omgeving van scholen en vrijetijdsinfrastructuur en de routes daarnaar toe en voorzien budget voor fiets-en voetpaden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2956729.74,
+    "amount_per_capita": 72.36,
+    "yearly_amounts": {
+      "2026": 1672948.25,
+      "2027": 1283781.49,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 40.94,
+      "2027": 31.42,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-21",
+    "ap_short": "Investeren in duurzame mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-88",
+    "ac_short": "We vernieuwen en vergroenen de gemeentelijke vloot.",
+    "ac_long": "We vernieuwen en vergroenen de gemeentelijke vloot en zetten verder in op extra laadpalen aan onze gemeentelijke gebouwen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2920529.22,
+    "amount_per_capita": 71.48,
+    "yearly_amounts": {
+      "2026": 696529.22,
+      "2027": 410000.0,
+      "2028": 492500.0,
+      "2029": 398000.0,
+      "2030": 510500.0,
+      "2031": 413000.0
+    },
+    "yearly_per_capita": {
+      "2026": 17.05,
+      "2027": 10.03,
+      "2028": 12.05,
+      "2029": 9.74,
+      "2030": 12.49,
+      "2031": 10.11
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-19",
+    "ap_short": "Verderzetten van de bestaande (ver)bouwprojecten en beheer infrastructuur",
+    "ap_long": "Verderzetten van de bestaande (ver)bouwprojecten en beheer infrastructuur",
+    "ac_code": "ACT-62",
+    "ac_short": "We financieren de uitbating van het zwembad deels verder.",
+    "ac_long": "We financieren de uitbating van het zwembad deels verder.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2896388.67,
+    "amount_per_capita": 70.89,
+    "yearly_amounts": {
+      "2026": 421559.12,
+      "2027": 441620.43,
+      "2028": 462684.8,
+      "2029": 499897.58,
+      "2030": 523121.05,
+      "2031": 547505.69
+    },
+    "yearly_per_capita": {
+      "2026": 10.32,
+      "2027": 10.81,
+      "2028": 11.32,
+      "2029": 12.23,
+      "2030": 12.8,
+      "2031": 13.4
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEB",
+    "ap_short": "Gelijkblijvend beleid - Gebouwen",
+    "ap_long": "Gelijkblijvend beleid - Gebouwen",
+    "ac_code": "GBB-GEB",
+    "ac_short": "Gelijkblijvend beleid - gebouwen",
+    "ac_long": "Gelijkblijvend beleid - Gebouwen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2890456.05,
+    "amount_per_capita": 70.74,
+    "yearly_amounts": {
+      "2026": 2138904.92,
+      "2027": 401132.38,
+      "2028": 60075.0,
+      "2029": 222843.75,
+      "2030": 40000.0,
+      "2031": 27500.0
+    },
+    "yearly_per_capita": {
+      "2026": 52.35,
+      "2027": 9.82,
+      "2028": 1.47,
+      "2029": 5.45,
+      "2030": 0.98,
+      "2031": 0.67
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-1",
+    "bd_short": "We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen.",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen waar het goed is om te wonen, te leven en zich te verplaatsen",
+    "ap_code": "AP-2",
+    "ap_short": "We richten het openbaar domein duurzaam in, ook met ruimte voor groen en blauw.",
+    "ap_long": "We richten het openbaar domein duurzaam in, ook met ruimte voor groen en blauw.",
+    "ac_code": "ACT-9",
+    "ac_short": "We doen een inhaalbeweging in het regulier onderhoud van de wegen.",
+    "ac_long": "We realiseren een inhaalbeweging in het regulier onderhoud van onze wegen niet gekoppeld aan rioleringsprojecten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2675000.0,
+    "amount_per_capita": 65.47,
+    "yearly_amounts": {
+      "2026": 445000.0,
+      "2027": 445000.0,
+      "2028": 445000.0,
+      "2029": 445000.0,
+      "2030": 445000.0,
+      "2031": 450000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.89,
+      "2027": 10.89,
+      "2028": 10.89,
+      "2029": 10.89,
+      "2030": 10.89,
+      "2031": 11.01
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-1",
+    "bd_short": "We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen.",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen waar het goed is om te wonen, te leven en zich te verplaatsen",
+    "ap_code": "AP-5",
+    "ap_short": "We investeren in een veilig, duurzaam en goed onderhouden gemeentelijk patrimonium.",
+    "ap_long": "We maken werk van een inhaalbeweging in het onderhoud en de veiligheid van onze gebouwen en zetten de eerste, maar belangrijke, stappen richting de verplichte duurzaamheidsdoelstellingen voor ons gemeentelijk patrimonium.",
+    "ac_code": "ACT-19",
+    "ac_short": "We investeren in de veiligheid en de basisnormen van het gemeentelijk patrimonium.",
+    "ac_long": "We zorgen dat onze gebouwen veilig, gezond en toegankelijk zijn voor iedereen en investeren in brandveiligheid, asbestsanering, legionellabeheersing en toegankelijkheid.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2500000.01,
+    "amount_per_capita": 61.19,
+    "yearly_amounts": {
+      "2026": 73529.41,
+      "2027": 294117.65,
+      "2028": 514705.88,
+      "2029": 294117.65,
+      "2030": 661764.71,
+      "2031": 661764.71
+    },
+    "yearly_per_capita": {
+      "2026": 1.8,
+      "2027": 7.2,
+      "2028": 12.6,
+      "2029": 7.2,
+      "2030": 16.2,
+      "2031": 16.2
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-19",
+    "ap_short": "Verderzetten van de bestaande (ver)bouwprojecten en beheer infrastructuur",
+    "ap_long": "Verderzetten van de bestaande (ver)bouwprojecten en beheer infrastructuur",
+    "ac_code": "ACT-60",
+    "ac_short": "We renoveren de Liermolen en bouwen deze erfgoedsite verder uit.",
+    "ac_long": "We bouwen de gerenoveerde Liermolen uit tot een volwaardige erfgoedsite voor de werking van het MOT en polyvalent breder gebruik, aangevuld met een horeca zaak en erfgoedtoerisme. De horeca zaak en de overnachtingen worden uitgebaat door een externe partner.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2261642.47,
+    "amount_per_capita": 55.35,
+    "yearly_amounts": {
+      "2026": 2154802.04,
+      "2027": 106840.43,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 52.74,
+      "2027": 2.61,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-2",
+    "bd_short": "We werken aan een toegankelijke dienstverlening met kansen voor elke inwoner om deel te nemen.",
+    "bd_long": "Kwalitatieve omschrijving: We werken samen aan een toegankelijke dienstverlening, die elke inwoner de kans biedt om actief deel te nemen aan het bruisende Grimbergse gemeenschapsleven.",
+    "ap_code": "AP-6",
+    "ap_short": "We investeren als gangmaker in gemeenschapsinfrastructuur.",
+    "ap_long": "We investeren als gangmaker in gemeenschapsinfrastructuur waar verschillende doelgroepen elkaar vinden en verbinden.",
+    "ac_code": "ACT-23",
+    "ac_short": "We richten het vredegerecht en buitenomgeving deels in als jeugdhub.",
+    "ac_long": "Het vredegerecht wordt gerenoveerd met als focus jongeren. KSA als Grimbergse jeugdbeweging wordt samen met het Overkophuis een structurele gebruiker. Andere ruimtes zijn polyvalent te huren. De buitenomgeving wordt na afloop van de renovatie ingericht als veilige, inclusieve en aangename ontmoetings- en speelplek.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2135997.0,
+    "amount_per_capita": 52.28,
+    "yearly_amounts": {
+      "2026": 2060272.06,
+      "2027": 67405.6,
+      "2028": 8319.34,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 50.42,
+      "2027": 1.65,
+      "2028": 0.2,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-2",
+    "bd_short": "We werken aan een toegankelijke dienstverlening met kansen voor elke inwoner om deel te nemen.",
+    "bd_long": "Kwalitatieve omschrijving: We werken samen aan een toegankelijke dienstverlening, die elke inwoner de kans biedt om actief deel te nemen aan het bruisende Grimbergse gemeenschapsleven.",
+    "ap_code": "AP-6",
+    "ap_short": "We investeren als gangmaker in gemeenschapsinfrastructuur.",
+    "ap_long": "We investeren als gangmaker in gemeenschapsinfrastructuur waar verschillende doelgroepen elkaar vinden en verbinden.",
+    "ac_code": "ACT-21",
+    "ac_short": "We vormen de gemeentelijke loods in Strombeek-Bever om tot een jeugdhub.",
+    "ac_long": "De gemeentelijke loods in Strombeek-Bever wordt heringericht met als focus jongeren. Bestaande Strombeekse jeugd- en buurtwerkingen worden geclusterd in een kwalitatieve ruimte en leggen verbinding met andere sectoren en domeinen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1987966.48,
+    "amount_per_capita": 48.65,
+    "yearly_amounts": {
+      "2026": 1563361.14,
+      "2027": 415267.16,
+      "2028": 0,
+      "2029": 9338.18,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 38.26,
+      "2027": 10.16,
+      "2028": 0,
+      "2029": 0.23,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-INF",
+    "ap_short": "Gelijkblijvend beleid - informatica",
+    "ap_long": "Gelijkblijvend beleid - Informatica",
+    "ac_code": "GBB-INF",
+    "ac_short": "Gelijkblijvend beleid - informatica",
+    "ac_long": "Gelijkblijvend beleid - Informatica",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1895436.59,
+    "amount_per_capita": 46.39,
+    "yearly_amounts": {
+      "2026": 538436.59,
+      "2027": 327200.0,
+      "2028": 217100.0,
+      "2029": 386300.0,
+      "2030": 209300.0,
+      "2031": 217100.0
+    },
+    "yearly_per_capita": {
+      "2026": 13.18,
+      "2027": 8.01,
+      "2028": 5.31,
+      "2029": 9.45,
+      "2030": 5.12,
+      "2031": 5.31
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-19",
+    "ap_short": "Verderzetten van de bestaande (ver)bouwprojecten en beheer infrastructuur",
+    "ap_long": "Verderzetten van de bestaande (ver)bouwprojecten en beheer infrastructuur",
+    "ac_code": "ACT-58",
+    "ac_short": "We voeren werken uit om het Prinsenkasteel in stand te houden.",
+    "ac_long": "We voeren werken uit om het Prinsenkasteel in stand te houden met het oog op een verhoogde ontsluiting.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1641881.79,
+    "amount_per_capita": 40.18,
+    "yearly_amounts": {
+      "2026": 1641881.79,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 40.18,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-1",
+    "bd_short": "We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen.",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen waar het goed is om te wonen, te leven en zich te verplaatsen",
+    "ap_code": "AP-2",
+    "ap_short": "We richten het openbaar domein duurzaam in, ook met ruimte voor groen en blauw.",
+    "ap_long": "We richten het openbaar domein duurzaam in, ook met ruimte voor groen en blauw.",
+    "ac_code": "ACT-8",
+    "ac_short": "We zetten de onthardings -en vergroeningsprojecten verder samen met externe partner.",
+    "ac_long": "We realiseren, samen met externe partners,  onthardings-en vergroeningsprojecten die bijdragen aan waterbeheer, biodiversiteit en een aantrekkelijkere leefomgeving en die tevens een opportuniteit beiden voor de veiligheid van de actieve weggebruikers.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1522609.91,
+    "amount_per_capita": 37.27,
+    "yearly_amounts": {
+      "2026": 397609.91,
+      "2027": 325000.0,
+      "2028": 275000.0,
+      "2029": 225000.0,
+      "2030": 225000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.73,
+      "2027": 7.95,
+      "2028": 6.73,
+      "2029": 5.51,
+      "2030": 5.51,
+      "2031": 1.84
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-2",
+    "bd_short": "We werken aan een toegankelijke dienstverlening met kansen voor elke inwoner om deel te nemen.",
+    "bd_long": "Kwalitatieve omschrijving: We werken samen aan een toegankelijke dienstverlening, die elke inwoner de kans biedt om actief deel te nemen aan het bruisende Grimbergse gemeenschapsleven.",
+    "ap_code": "AP-9",
+    "ap_short": "We voorzien toegankelijke en klantvriendelijke infrastructuur op de CC-site.",
+    "ap_long": "We voorzien toegankelijke, klantvriendelijke infrastructuur op de CC-site waar verschillende dienstverleningen zijn samengebracht.",
+    "ac_code": "ACT-32",
+    "ac_short": "We voorzien instandhoudingswerken van het CC en bereiden de renovatie ervan voor.",
+    "ac_long": "We doen de nodige instandhoudingswerken aan het CC en bereiden de renovatie van het CC voor zodat het nog meer een open huis kan worden voor cultuur en ontmoeting.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1004055.45,
+    "amount_per_capita": 24.57,
+    "yearly_amounts": {
+      "2026": 304055.45,
+      "2027": 450000.0,
+      "2028": 0,
+      "2029": 250000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.44,
+      "2027": 11.01,
+      "2028": 0,
+      "2029": 6.12,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-VTINFR",
+    "ap_short": "Gelijkblijvend beleid - Vrijetijdsinfrastructuur",
+    "ap_long": "Gelijkblijvend beleid - Vrijetijdsinfrastructuur",
+    "ac_code": "GBB-VTINFR",
+    "ac_short": "Gelijkblijvend beleid - Vrijetijdsinfrastructuur",
+    "ac_long": "Gelijkblijvend beleid - Vrijetijdsinfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 940648.07,
+    "amount_per_capita": 23.02,
+    "yearly_amounts": {
+      "2026": 376648.07,
+      "2027": 107500.0,
+      "2028": 93000.0,
+      "2029": 126000.0,
+      "2030": 95500.0,
+      "2031": 142000.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.22,
+      "2027": 2.63,
+      "2028": 2.28,
+      "2029": 3.08,
+      "2030": 2.34,
+      "2031": 3.48
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-3",
+    "bd_short": "We werken aan een financieel sterke gemeente om de professionele dienstverlening te behouden.",
+    "bd_long": "Kwalitatieve omschrijving: We werken aan een financieel sterke gemeente zodat Grimbergenaren duurzaam kunnen genieten van een vlotte en professionele dienstverlening.",
+    "ap_code": "AP-15",
+    "ap_short": "We zoeken naar samenwerkingsverbanden met derden.",
+    "ap_long": "We zoeken naar samenwerkingsverbanden met derden en streven naar behoud van de kwaliteit van de dienstverlening.",
+    "ac_code": "ACT-49",
+    "ac_short": "We onderzoeken de integratie van het wzc in een OCMW-vereniging met externe partners.",
+    "ac_long": "We onderzoeken de integratie van het wzc in een OCMW-vereniging met externe partners.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 22.03,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 900000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 22.03,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-73",
+    "ac_short": "Rioleringswerken : Rodenbachlaan.",
+    "ac_long": "Rioleringswerken : Rodenbachlaan.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 841296.35,
+    "amount_per_capita": 20.59,
+    "yearly_amounts": {
+      "2026": 841296.35,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 20.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-1",
+    "bd_short": "We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen.",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen waar het goed is om te wonen, te leven en zich te verplaatsen",
+    "ap_code": "AP-1",
+    "ap_short": "We richten Grimbergen aantrekkelijk en toekomstbestendig in.",
+    "ap_long": "We richten Grimbergen aantrekkelijk en toekomstbestendig in.",
+    "ac_code": "ACT-5",
+    "ac_short": "We werken verder aan het landinrichtingsplan Oostelijke Maalbeekvallei.",
+    "ac_long": "We vergroten de toegankelijkheid en natuurwaarden van de Maalbeekvallei en vrijwaren en versterken de natuurwetenschappelijke, historische, esthetische en sociaal-culturele waarden van het landschap",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 801299.39,
+    "amount_per_capita": 19.61,
+    "yearly_amounts": {
+      "2026": 576299.39,
+      "2027": 225000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.1,
+      "2027": 5.51,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-2",
+    "bd_short": "We werken aan een toegankelijke dienstverlening met kansen voor elke inwoner om deel te nemen.",
+    "bd_long": "Kwalitatieve omschrijving: We werken samen aan een toegankelijke dienstverlening, die elke inwoner de kans biedt om actief deel te nemen aan het bruisende Grimbergse gemeenschapsleven.",
+    "ap_code": "AP-9",
+    "ap_short": "We voorzien toegankelijke en klantvriendelijke infrastructuur op de CC-site.",
+    "ap_long": "We voorzien toegankelijke, klantvriendelijke infrastructuur op de CC-site waar verschillende dienstverleningen zijn samengebracht.",
+    "ac_code": "ACT-34",
+    "ac_short": "We starten een renovatieproject voor de academie en ateliers op de CC-site.",
+    "ac_long": "We starten een renovatieproject voor de Strombeekse tak van de gemeentelijke academie en ateliers op waar talent en creativiteit alle ruimte krijgen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 700000.0,
+    "amount_per_capita": 17.13,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 350000.0,
+      "2031": 350000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 8.57,
+      "2031": 8.57
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-85",
+    "ac_short": "Investeren in verkeersregulerende maatregelen",
+    "ac_long": "Investeren in verkeersregulerende maatregelen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 644925.86,
+    "amount_per_capita": 15.78,
+    "yearly_amounts": {
+      "2026": 169925.86,
+      "2027": 250000.0,
+      "2028": 50000.0,
+      "2029": 125000.0,
+      "2030": 50000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.16,
+      "2027": 6.12,
+      "2028": 1.22,
+      "2029": 3.06,
+      "2030": 1.22,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-J",
+    "ap_short": "Gelijkblijvend beleid - Jeugd",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-J",
+    "ac_short": "Gelijkblijvend beleid - Jeugd",
+    "ac_long": "Gelijkblijvend beleid - Jeugd",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 597405.37,
+    "amount_per_capita": 14.62,
+    "yearly_amounts": {
+      "2026": 184405.37,
+      "2027": 80000.0,
+      "2028": 82150.0,
+      "2029": 81600.0,
+      "2030": 85250.0,
+      "2031": 84000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.51,
+      "2027": 1.96,
+      "2028": 2.01,
+      "2029": 2.0,
+      "2030": 2.09,
+      "2031": 2.06
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-80",
+    "ac_short": "Eindfactuur: Erosie en rioleringswerken Veldkantstraat tussen Hoeveland en Humbeeksesteenweg.",
+    "ac_long": "Eindfactuur: Erosie en rioleringswerken Veldkantstraat tussen Hoeveland en Humbeeksesteenweg.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 510738.72,
+    "amount_per_capita": 12.5,
+    "yearly_amounts": {
+      "2026": 510738.72,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-84",
+    "ac_short": "Plaatsen IBA's volgens zoneringsplan.",
+    "ac_long": "Plaatsen IBA's volgens zoneringsplan.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 481291.6,
+    "amount_per_capita": 11.78,
+    "yearly_amounts": {
+      "2026": 201291.6,
+      "2027": 140000.0,
+      "2028": 140000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.93,
+      "2027": 3.43,
+      "2028": 3.43,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-1",
+    "bd_short": "We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen.",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen waar het goed is om te wonen, te leven en zich te verplaatsen",
+    "ap_code": "AP-1",
+    "ap_short": "We richten Grimbergen aantrekkelijk en toekomstbestendig in.",
+    "ap_long": "We richten Grimbergen aantrekkelijk en toekomstbestendig in.",
+    "ac_code": "ACT-6",
+    "ac_short": "We starten het landinrichtingsplan Groene Noordrand op.",
+    "ac_long": "We starten het landinrichtingsplan Groene Noordrand op.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 447401.94,
+    "amount_per_capita": 10.95,
+    "yearly_amounts": {
+      "2026": 372401.94,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.11,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 1.84
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-MIL",
+    "ap_short": "Gelijkblijvend beleid - Milieu",
+    "ap_long": "Gelijkblijvend beleid - Milieu",
+    "ac_code": "GBB-MIL",
+    "ac_short": "Gelijkblijvend beleid - Milieu",
+    "ac_long": "Gelijkblijvend beleid - Milieu",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 446676.3,
+    "amount_per_capita": 10.93,
+    "yearly_amounts": {
+      "2026": 361176.3,
+      "2027": 1500.0,
+      "2028": 66000.0,
+      "2029": 6000.0,
+      "2030": 6000.0,
+      "2031": 6000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.84,
+      "2027": 0.04,
+      "2028": 1.62,
+      "2029": 0.15,
+      "2030": 0.15,
+      "2031": 0.15
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GROEN",
+    "ap_short": "Gelijkblijvend beleid - Groen",
+    "ap_long": "Gelijkblijvend beleid - Groen",
+    "ac_code": "GBB-GROEN",
+    "ac_short": "Gelijkblijvend beleid - Groen",
+    "ac_long": "Gelijkblijvend beleid - Groen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 428529.83,
+    "amount_per_capita": 10.49,
+    "yearly_amounts": {
+      "2026": 236029.83,
+      "2027": 6500.0,
+      "2028": 166500.0,
+      "2029": 6500.0,
+      "2030": 6500.0,
+      "2031": 6500.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.78,
+      "2027": 0.16,
+      "2028": 4.08,
+      "2029": 0.16,
+      "2030": 0.16,
+      "2031": 0.16
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-86",
+    "ac_short": "Vervangen en vernieuwen schuilhuizen (clear channel)",
+    "ac_long": "Vervangen en vernieuwen schuilhuizen (clear channel)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 400471.62,
+    "amount_per_capita": 9.8,
+    "yearly_amounts": {
+      "2026": 304660.92,
+      "2027": 19162.14,
+      "2028": 19162.14,
+      "2029": 19162.14,
+      "2030": 19162.14,
+      "2031": 19162.14
+    },
+    "yearly_per_capita": {
+      "2026": 7.46,
+      "2027": 0.47,
+      "2028": 0.47,
+      "2029": 0.47,
+      "2030": 0.47,
+      "2031": 0.47
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BELO",
+    "ap_short": "Gelijkblijvend beleid - Beleidsondersteuning",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-BELO",
+    "ac_short": "Gelijkblijvend beleid - Beleidsondersteuning",
+    "ac_long": "Gelijkblijvend beleid - Beleidsondersteuning",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 325000.0,
+    "amount_per_capita": 7.95,
+    "yearly_amounts": {
+      "2026": 230500.0,
+      "2027": 38700.0,
+      "2028": 38700.0,
+      "2029": 5700.0,
+      "2030": 5700.0,
+      "2031": 5700.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.64,
+      "2027": 0.95,
+      "2028": 0.95,
+      "2029": 0.14,
+      "2030": 0.14,
+      "2031": 0.14
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-1",
+    "bd_short": "We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen.",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen waar het goed is om te wonen, te leven en zich te verplaatsen",
+    "ap_code": "AP-3",
+    "ap_short": "We bouwen verder aan een nette, leefbare en veilige gemeente.",
+    "ap_long": "We bouwen verder aan een leefbare en aantrekkelijke gemeente door te investeren in  netheid, duurzaamheid en veiligheid voor iedereen.",
+    "ac_code": "ACT-10",
+    "ac_short": "We onderzoeken nieuwe manieren van begraven zoals een natuurbegraafplaats in Humbeek.",
+    "ac_long": "We onderzoeken nieuwe manieren van begraven zoals een natuurbegraafplaats in Humbeek.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 6.12,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 25000.0,
+      "2030": 225000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.61,
+      "2030": 5.51,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-21",
+    "ap_short": "Investeren in duurzame mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-87",
+    "ac_short": "We investeren in veilige en comfortabele fietsstallingen.",
+    "ac_long": "We investeren in veilige en comfortabele fietsstallingen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 210000.0,
+    "amount_per_capita": 5.14,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 27575.0,
+      "2028": 42000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 30425.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.47,
+      "2027": 0.67,
+      "2028": 1.03,
+      "2029": 0.61,
+      "2030": 0.61,
+      "2031": 0.74
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-AC",
+    "ap_short": "Gelijkblijvend beleid - academie",
+    "ap_long": "Gelijkblijvend beleid - academie",
+    "ac_code": "GBB-AC",
+    "ac_short": "Gelijkblijvend beleid -Academie",
+    "ac_long": "Gelijkblijvend beleid -Academie",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 168453.78,
+    "amount_per_capita": 4.12,
+    "yearly_amounts": {
+      "2026": 35453.78,
+      "2027": 25000.0,
+      "2028": 34000.0,
+      "2029": 19000.0,
+      "2030": 30000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.87,
+      "2027": 0.61,
+      "2028": 0.83,
+      "2029": 0.47,
+      "2030": 0.73,
+      "2031": 0.61
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-MOB",
+    "ap_short": "Gelijkblijvend beleid - Mobiliteit",
+    "ap_long": "Gelijkblijvend beleid - Mobiliteit",
+    "ac_code": "GBB-MOB",
+    "ac_short": "Gelijkblijvend beleid - Mobiliteit",
+    "ac_long": "Gelijkblijvend beleid - Mobiliteit",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 160147.1,
+    "amount_per_capita": 3.92,
+    "yearly_amounts": {
+      "2026": 110147.1,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.7,
+      "2027": 0,
+      "2028": 1.22,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-1",
+    "bd_short": "We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen.",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen waar het goed is om te wonen, te leven en zich te verplaatsen",
+    "ap_code": "AP-1",
+    "ap_short": "We richten Grimbergen aantrekkelijk en toekomstbestendig in.",
+    "ap_long": "We richten Grimbergen aantrekkelijk en toekomstbestendig in.",
+    "ac_code": "ACT-7",
+    "ac_short": "We werken een gezamenlijke visie uit voor de sites Rode Poort en Singel.",
+    "ac_long": "We werken een gezamenlijke visie uit voor de sites Rode Poort en Singel, met het oog op toekomstige vrijetijdsinfrastructuur en stedelijke ontwikkeling en met aandacht voor trage verbindingen en groene publieke ruimte.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 3.67,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.67,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-75",
+    "ac_short": "Erosiewerken: Populierendal",
+    "ac_long": "Erosiewerken: Populierendal",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 143954.75,
+    "amount_per_capita": 3.52,
+    "yearly_amounts": {
+      "2026": 22533.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 121421.75,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2.97,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-77",
+    "ac_short": "Eindfactuur: Sparrenlaan",
+    "ac_long": "Eindfactuur: Sparrenlaan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 138326.38,
+    "amount_per_capita": 3.39,
+    "yearly_amounts": {
+      "2026": 138326.38,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-22",
+    "ap_short": "Onderhoud van groen en begraafplaatsen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-92",
+    "ac_short": "We zetten in op reiniging via de aankoop van efficiëntere robuuste uniforme straatvuilnisbakken.",
+    "ac_long": "We zetten in op reiniging via de aankoop van efficiëntere robuuste uniforme straatvuilnisbakken.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 136333.12,
+    "amount_per_capita": 3.34,
+    "yearly_amounts": {
+      "2026": 36333.12,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.89,
+      "2027": 0.49,
+      "2028": 0.49,
+      "2029": 0.49,
+      "2030": 0.49,
+      "2031": 0.49
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-1",
+    "bd_short": "We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen.",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen waar het goed is om te wonen, te leven en zich te verplaatsen",
+    "ap_code": "AP-3",
+    "ap_short": "We bouwen verder aan een nette, leefbare en veilige gemeente.",
+    "ap_long": "We bouwen verder aan een leefbare en aantrekkelijke gemeente door te investeren in  netheid, duurzaamheid en veiligheid voor iedereen.",
+    "ac_code": "ACT-15",
+    "ac_short": "We zetten meer in op nabijheid van de politiewerking met het politiesteunpunt aan het CC.",
+    "ac_long": "We verstrekken de dienstverlening, veiligheid en operationele efficiëntie voor onze inwoners door het politiesteunpunt in Strombeek-Bever.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 123701.74,
+    "amount_per_capita": 3.03,
+    "yearly_amounts": {
+      "2026": 123701.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-78",
+    "ac_short": "Eindfactuur: N202 + N211 - wegen- en rioleringswerken en overstortbekken",
+    "ac_long": "Eindfactuur: N202 + N211 - wegen- en rioleringswerken en overstortbekken",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 120087.28,
+    "amount_per_capita": 2.94,
+    "yearly_amounts": {
+      "2026": 120087.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.94,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-RO",
+    "ap_short": "Gelijkblijvend beleid -  RO: stedenbouw",
+    "ap_long": "Gelijkblijvend beleid -  RO: stedenbouw",
+    "ac_code": "GBB-RO",
+    "ac_short": "Gelijkblijvend beleid - RO: stedenbouw",
+    "ac_long": "Gelijkblijvend beleid - RO: stedenbouw",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 2.94,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 120000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.94,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-EV",
+    "ap_short": "Gelijkblijvend beleid - Evenementencel",
+    "ap_long": "Gelijkblijvend beleid - Evenementencel",
+    "ac_code": "GBB-EV",
+    "ac_short": "Gelijkblijvend beleid - Evenementencel",
+    "ac_long": "Gelijkblijvend beleid - Evenementencel",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 115183.09,
+    "amount_per_capita": 2.82,
+    "yearly_amounts": {
+      "2026": 36183.09,
+      "2027": 23500.0,
+      "2028": 6000.0,
+      "2029": 27500.0,
+      "2030": 16000.0,
+      "2031": 6000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.89,
+      "2027": 0.58,
+      "2028": 0.15,
+      "2029": 0.67,
+      "2030": 0.39,
+      "2031": 0.15
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-TBS",
+    "ap_short": "Gelijkblijvend beleid - Ter Biest",
+    "ap_long": "Gelijkblijvend beleid - Ter Biest",
+    "ac_code": "GBB-TBS",
+    "ac_short": "Gelijkblijvend beleid - Ter Biest",
+    "ac_long": "Gelijkblijvend beleid - Ter Biest",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 109670.65,
+    "amount_per_capita": 2.68,
+    "yearly_amounts": {
+      "2026": 109670.65,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-76",
+    "ac_short": "Afwerken van de Lakensestraat",
+    "ac_long": "Afwerken van de Lakensestraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 105871.51,
+    "amount_per_capita": 2.59,
+    "yearly_amounts": {
+      "2026": 105871.51,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-67",
+    "ac_short": "Ontwerp Riolerings- en wegeniswerken Landhuizenlaan - Ijsvogellaan",
+    "ac_long": "Ontwerp Riolerings- en wegeniswerken Landhuizenlaan - Ijsvogellaan",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 2.45
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-19",
+    "ap_short": "Verderzetten van de bestaande (ver)bouwprojecten en beheer infrastructuur",
+    "ap_long": "Verderzetten van de bestaande (ver)bouwprojecten en beheer infrastructuur",
+    "ac_code": "ACT-61",
+    "ac_short": "We houden het erfgoed in stand met aandacht voor klein en waardevol erfgoed.",
+    "ac_long": "We houden het erfgoed in stand met aandacht voor klein en waardevol erfgoed zoals kapellen en monumenten.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 95000.0,
+    "amount_per_capita": 2.33,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 20000.0,
+      "2030": 15000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.49,
+      "2027": 0.98,
+      "2028": 0,
+      "2029": 0.49,
+      "2030": 0.37,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-MAG",
+    "ap_short": "Gelijkblijvend beleid - Magazijn",
+    "ap_long": "Gelijkblijvend beleid - Magazijn",
+    "ac_code": "GBB-MAG",
+    "ac_short": "Gelijkblijvend beleid - Magazijn",
+    "ac_long": "Gelijkblijvend beleid - Magazijn",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 86867.48,
+    "amount_per_capita": 2.13,
+    "yearly_amounts": {
+      "2026": 30867.48,
+      "2027": 10000.0,
+      "2028": 7500.0,
+      "2029": 22000.0,
+      "2030": 9500.0,
+      "2031": 7000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.76,
+      "2027": 0.24,
+      "2028": 0.18,
+      "2029": 0.54,
+      "2030": 0.23,
+      "2031": 0.17
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-72",
+    "ac_short": "Wegenis-en rioleringswerken Benedestraat - fase 2",
+    "ac_long": "Wegenis-en rioleringswerken Benedestraat - fase 2",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 1.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 80000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 1.96
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-OND",
+    "ap_short": "Gelijkblijvend beleid - Onderwijs (algemeen) & buurtwerking",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-OND",
+    "ac_short": "Gelijkblijvend beleid - Onderwijs (Algemeen) & buurtwerking",
+    "ac_long": "Gelijkblijvend beleid - Onderwijs (Algemeen) & buurtwerking",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 76399.26,
+    "amount_per_capita": 1.87,
+    "yearly_amounts": {
+      "2026": 76399.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.87,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-2",
+    "bd_short": "We werken aan een toegankelijke dienstverlening met kansen voor elke inwoner om deel te nemen.",
+    "bd_long": "Kwalitatieve omschrijving: We werken samen aan een toegankelijke dienstverlening, die elke inwoner de kans biedt om actief deel te nemen aan het bruisende Grimbergse gemeenschapsleven.",
+    "ap_code": "AP-9",
+    "ap_short": "We voorzien toegankelijke en klantvriendelijke infrastructuur op de CC-site.",
+    "ap_long": "We voorzien toegankelijke, klantvriendelijke infrastructuur op de CC-site waar verschillende dienstverleningen zijn samengebracht.",
+    "ac_code": "ACT-31",
+    "ac_short": "We integreren het lokaal dienstencentrum in het CC.",
+    "ac_long": "We integreren het lokaal dienstencentrum in het CC om zo één levendige ontmoetingsplek voor jong en oud te creëren waar individuen en verenigingen in synergie samen activiteiten organiseren en beleven.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 1.84,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 55000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.49,
+      "2028": 1.35,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-A&F",
     "ap_short": "Gelijkblijvend beleid - Aankoop en facility",
     "ap_long": "Gelijkblijvend beleid - Aankoop en facility",
-    "ac_code": "GBB",
+    "ac_code": "GBB-A&F",
     "ac_short": "Gelijkblijvend beleid - Aankoop en facility",
     "ac_long": "Gelijkblijvend beleid - Aankoop en facility",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 24270205.0,
-    "amount_per_capita": 592.23,
+    "total_amount": 67057.0,
+    "amount_per_capita": 1.64,
     "yearly_amounts": {
-      "2026": 7313808.0,
-      "2027": 4176035.0,
-      "2028": 3487620.0,
-      "2029": 3397996.0,
-      "2030": 3050010.0,
-      "2031": 2844736.0
+      "2026": 19557.0,
+      "2027": 9500.0,
+      "2028": 9500.0,
+      "2029": 9500.0,
+      "2030": 9500.0,
+      "2031": 9500.0
     },
     "yearly_per_capita": {
-      "2026": 178.47,
-      "2027": 101.9,
-      "2028": 85.1,
-      "2029": 82.92,
-      "2030": 74.43,
-      "2031": 69.42
+      "2026": 0.48,
+      "2027": 0.23,
+      "2028": 0.23,
+      "2029": 0.23,
+      "2030": 0.23,
+      "2031": 0.23
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-2",
+    "bd_short": "We werken aan een toegankelijke dienstverlening met kansen voor elke inwoner om deel te nemen.",
+    "bd_long": "Kwalitatieve omschrijving: We werken samen aan een toegankelijke dienstverlening, die elke inwoner de kans biedt om actief deel te nemen aan het bruisende Grimbergse gemeenschapsleven.",
+    "ap_code": "AP-12",
+    "ap_short": "We investeren verder in laagdrempelig en wederzijds contact met inwoners.",
+    "ap_long": "We investeren verder in laagdrempelig en wederzijds contact met inwoners.",
+    "ac_code": "ACT-42",
+    "ac_short": "We vormen de gemeentelijke webstek om naar een participatief en gepersonaliseerd platform.",
+    "ac_long": "We vormen de gemeentelijke webstek om naar een interactief en gepersonaliseerd platform en geven zo een boost aan de digitale dienstverlening.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 47800.0,
+    "amount_per_capita": 1.17,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 47800.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.17,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-81",
+    "ac_short": "Eindfactuur: We leggen het Otto De Mentockplein opnieuw aan.",
+    "ac_long": "Eindfactuur: We leggen het Otto De Mentockplein opnieuw aan.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 44024.99,
+    "amount_per_capita": 1.08,
+    "yearly_amounts": {
+      "2026": 44024.99,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-79",
+    "ac_short": "Eindfactuur: Wegeniswerken Beiaardlaan/Lagesteenweg/Bakkerstraat",
+    "ac_long": "Eindfactuur: Wegeniswerken Beiaardlaan/Lagesteenweg/Bakkerstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 40440.44,
+    "amount_per_capita": 0.99,
+    "yearly_amounts": {
+      "2026": 40440.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.99,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-T&E",
+    "ap_short": "Gelijkblijvend beleid -  Toerisme en erfgoed",
+    "ap_long": "Gelijkblijvend beleid -  Toerisme en erfgoed",
+    "ac_code": "GBB-T&E",
+    "ac_short": "Gelijkblijvend beleid - Toerisme en erfgoed",
+    "ac_long": "Gelijkblijvend beleid - Toerisme en erfgoed",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 34901.38,
+    "amount_per_capita": 0.85,
+    "yearly_amounts": {
+      "2026": 23401.38,
+      "2027": 1500.0,
+      "2028": 3500.0,
+      "2029": 1500.0,
+      "2030": 5000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.57,
+      "2027": 0.04,
+      "2028": 0.09,
+      "2029": 0.04,
+      "2030": 0.12,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-18",
+    "ap_short": "We investeren in menselijk kapitaal en een veilige werkomgeving.",
+    "ap_long": "We investeren in menselijk kapitaal en een veilige werkomgeving.",
+    "ac_code": "ACT-56",
+    "ac_short": "We werken verder aan de invoering van de Welzijnscodex.",
+    "ac_long": "We werken verder aan de verplichte uitvoering van de  Welzijnscodex voor gemeente en OCMW.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 31567.88,
+    "amount_per_capita": 0.77,
+    "yearly_amounts": {
+      "2026": 16567.88,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.41,
+      "2027": 0.37,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-HAND",
+    "ap_short": "Gelijkblijvend beleid - Handhaving",
+    "ap_long": "Gelijkblijvend beleid - Handhaving",
+    "ac_code": "GBB-HAND",
+    "ac_short": "Gelijkblijvend beleid - Handhaving",
+    "ac_long": "Gelijkblijvend beleid - Handhaving",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 21000.0,
+    "amount_per_capita": 0.51,
+    "yearly_amounts": {
+      "2026": 12000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 9000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.29,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0.22,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-66",
+    "ac_short": "Voorbereiding: We leggen de Temse- en Boechoutlaan opnieuw aan. Wegenis-en rioleringswerken",
+    "ac_long": "Voorbereiding: We leggen de Temse- en Boechoutlaan opnieuw aan. Wegenis-en rioleringswerken",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.49,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.49,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-20",
+    "ap_short": "Onderhoud en beheer van wegenis en riolering.",
+    "ap_long": "Onderhoud en beheer van wegenis en riolering.",
+    "ac_code": "ACT-82",
+    "ac_short": "Factuur voor het ontwerp: Merodestraat - Spaanse Lindebaan",
+    "ac_long": "Factuur voor het ontwerp: Merodestraat - Spaanse Lindebaan",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 18987.54,
+    "amount_per_capita": 0.46,
+    "yearly_amounts": {
+      "2026": 1993.77,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 16993.77,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0.42,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-1",
+    "bd_short": "We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen.",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen verder aan een aangenaam, groen, veilig en gezond Grimbergen waar het goed is om te wonen, te leven en zich te verplaatsen",
+    "ap_code": "AP-3",
+    "ap_short": "We bouwen verder aan een nette, leefbare en veilige gemeente.",
+    "ap_long": "We bouwen verder aan een leefbare en aantrekkelijke gemeente door te investeren in  netheid, duurzaamheid en veiligheid voor iedereen.",
+    "ac_code": "ACT-13",
+    "ac_short": "We blijven innoveren in de strijd tegen sluikstort.",
+    "ac_long": "We versterken de strijd tegen sluikstorten door de inzet van mobiele camerabewaking en bijkomende GAS-vaststellers van Intradura.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 17000.0,
+    "amount_per_capita": 0.42,
+    "yearly_amounts": {
+      "2026": 17000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-PO",
+    "ap_short": "Gelijkblijvend beleid - Personeel & Organisatie",
+    "ap_long": "Gelijkblijvend beleid - Personeel & Organisatie",
+    "ac_code": "GBB-PO",
+    "ac_short": "Gelijkblijvend beleid - Personeel & Organisatie",
+    "ac_long": "Gelijkblijvend beleid - Personeel & Organisatie",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 6725.34,
+    "amount_per_capita": 0.16,
+    "yearly_amounts": {
+      "2026": 6725.34,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.16,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-29",
+    "ap_short": "Een toekomstbestendig vrijetijdsbeleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-120",
+    "ac_short": "We behouden de basiswerking van de UiT-pas maar deze wordt niet verder uitgebreid.",
+    "ac_long": "We behouden de basiswerking van de UiT-pas maar deze wordt niet verder uitgebreid zodat er geen aparte coördinator meer nodig is.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 5425.52,
+    "amount_per_capita": 0.13,
+    "yearly_amounts": {
+      "2026": 2425.52,
+      "2027": 1000.0,
+      "2028": 0,
+      "2029": 1000.0,
+      "2030": 1000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.06,
+      "2027": 0.02,
+      "2028": 0,
+      "2029": 0.02,
+      "2030": 0.02,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-C&F",
+    "ap_short": "Gelijkblijvend beleid - Cultuur en feestelijkheden",
+    "ap_long": "Gelijkblijvend beleid - Cultuur en feestelijkheden",
+    "ac_code": "GBB-C&F",
+    "ac_short": "Gelijkblijvend beleid - Cultuur en feestelijkheden",
+    "ac_long": "Gelijkblijvend beleid - Cultuur en feestelijkheden",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.07,
+    "yearly_amounts": {
+      "2026": 1000.0,
+      "2027": 0,
+      "2028": 1000.0,
+      "2029": 0,
+      "2030": 1000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.02,
+      "2027": 0,
+      "2028": 0.02,
+      "2029": 0,
+      "2030": 0.02,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "BD-4",
+    "bd_short": "Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "bd_long": "Kwalitatieve omschrijving: Niet-prioritaire acties in functie van de opvolging van de budgetten binnen de administratie",
+    "ap_code": "AP-25",
+    "ap_short": "Ondersteuning blijven bieden aan inwoners die het nodig hebben.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-98",
+    "ac_short": "We werken rond lokaal gezondheidsbeleid samen met Gezondheidsmakers.",
+    "ac_long": "We werken rond lokaal gezondheidsbeleid samen met Gezondheidsmakers.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.07,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 3000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.07,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-BIB",
+    "ap_short": "Gelijkblijvend beleid - Bibliotheek",
+    "ap_long": "Gelijkblijvend beleid - Bibliotheek",
+    "ac_code": "GBB-BIB",
+    "ac_short": "Gelijkblijvend beleid - Bibliotheek",
+    "ac_long": "Gelijkblijvend beleid - Bibliotheek",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2351.01,
+    "amount_per_capita": 0.06,
+    "yearly_amounts": {
+      "2026": 2351.01,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Grimbergen",
+    "nis_code": "23025",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-TBR",
+    "ap_short": "Gelijkblijvend beleid - Ter Borre",
+    "ap_long": "Gelijkblijvend beleid - Ter Borre",
+    "ac_code": "GBB-TBR",
+    "ac_short": "Gelijkblijvend beleid - Ter Borre",
+    "ac_long": "Gelijkblijvend beleid - Ter Borre",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 2250.0,
+    "amount_per_capita": 0.06,
+    "yearly_amounts": {
+      "2026": 2250.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

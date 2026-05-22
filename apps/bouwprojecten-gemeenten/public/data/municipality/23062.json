@@ -15,7 +15,7 @@
       "08-onderwijs"
     ],
     "total_amount": 23175000.0,
-    "amount_per_capita": 882.67,
+    "amount_per_capita": 881.22,
     "yearly_amounts": {
       "2026": 10075000.0,
       "2027": 13000000.0,
@@ -25,9 +25,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 383.73,
-      "2027": 495.13,
-      "2028": 3.81,
+      "2026": 383.1,
+      "2027": 494.32,
+      "2028": 3.8,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -48,10 +48,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 15972559.0,
-    "amount_per_capita": 608.35,
+    "total_amount": 15961559.0,
+    "amount_per_capita": 606.93,
     "yearly_amounts": {
-      "2026": 3221734.0,
+      "2026": 3210734.0,
       "2027": 470825.0,
       "2028": 5000000.0,
       "2029": 7280000.0,
@@ -59,10 +59,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 122.71,
-      "2027": 17.93,
-      "2028": 190.44,
-      "2029": 277.27,
+      "2026": 122.09,
+      "2027": 17.9,
+      "2028": 190.12,
+      "2029": 276.82,
       "2030": 0,
       "2031": 0
     }
@@ -82,10 +82,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 10578409.0,
-    "amount_per_capita": 402.9,
+    "total_amount": 10578408.62,
+    "amount_per_capita": 402.24,
     "yearly_amounts": {
-      "2026": 1025059.0,
+      "2026": 1025058.62,
       "2027": 4350000.0,
       "2028": 4903350.0,
       "2029": 200000.0,
@@ -93,10 +93,10 @@
       "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 39.04,
-      "2027": 165.68,
-      "2028": 186.75,
-      "2029": 7.62,
+      "2026": 38.98,
+      "2027": 165.41,
+      "2028": 186.45,
+      "2029": 7.6,
       "2030": 1.9,
       "2031": 1.9
     }
@@ -117,7 +117,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 4910000.0,
-    "amount_per_capita": 187.01,
+    "amount_per_capita": 186.7,
     "yearly_amounts": {
       "2026": 935000.0,
       "2027": 685000.0,
@@ -127,12 +127,12 @@
       "2031": 685000.0
     },
     "yearly_per_capita": {
-      "2026": 35.61,
-      "2027": 26.09,
-      "2028": 35.61,
-      "2029": 27.99,
-      "2030": 35.61,
-      "2031": 26.09
+      "2026": 35.55,
+      "2027": 26.05,
+      "2028": 35.55,
+      "2029": 27.95,
+      "2030": 35.55,
+      "2031": 26.05
     }
   },
   {
@@ -150,10 +150,10 @@
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 3051200.0,
-    "amount_per_capita": 116.21,
+    "total_amount": 3062200.0,
+    "amount_per_capita": 116.44,
     "yearly_amounts": {
-      "2026": 2263200.0,
+      "2026": 2274200.0,
       "2027": 554000.0,
       "2028": 56500.0,
       "2029": 42000.0,
@@ -161,11 +161,11 @@
       "2031": 36000.0
     },
     "yearly_per_capita": {
-      "2026": 86.2,
-      "2027": 21.1,
+      "2026": 86.48,
+      "2027": 21.07,
       "2028": 2.15,
       "2029": 1.6,
-      "2030": 3.79,
+      "2030": 3.78,
       "2031": 1.37
     }
   },
@@ -185,7 +185,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 3040000.0,
-    "amount_per_capita": 115.78,
+    "amount_per_capita": 115.6,
     "yearly_amounts": {
       "2026": 1165000.0,
       "2027": 603000.0,
@@ -195,12 +195,12 @@
       "2031": 150000.0
     },
     "yearly_per_capita": {
-      "2026": 44.37,
-      "2027": 22.97,
-      "2028": 10.36,
-      "2029": 24.57,
-      "2030": 7.81,
-      "2031": 5.71
+      "2026": 44.3,
+      "2027": 22.93,
+      "2028": 10.34,
+      "2029": 24.53,
+      "2030": 7.8,
+      "2031": 5.7
     }
   },
   {
@@ -218,10 +218,10 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 2197000.0,
-    "amount_per_capita": 83.68,
+    "total_amount": 2184141.5,
+    "amount_per_capita": 83.05,
     "yearly_amounts": {
-      "2026": 942000.0,
+      "2026": 929141.5,
       "2027": 1135000.0,
       "2028": 30000.0,
       "2029": 30000.0,
@@ -229,8 +229,8 @@
       "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 35.88,
-      "2027": 43.23,
+      "2026": 35.33,
+      "2027": 43.16,
       "2028": 1.14,
       "2029": 1.14,
       "2030": 1.14,
@@ -253,7 +253,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1515000.0,
-    "amount_per_capita": 57.7,
+    "amount_per_capita": 57.61,
     "yearly_amounts": {
       "2026": 275000.0,
       "2027": 355000.0,
@@ -263,11 +263,11 @@
       "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 10.47,
-      "2027": 13.52,
-      "2028": 26.28,
+      "2026": 10.46,
+      "2027": 13.5,
+      "2028": 26.24,
       "2029": 2.09,
-      "2030": 4.57,
+      "2030": 4.56,
       "2031": 0.76
     }
   },
@@ -286,10 +286,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1513214.0,
-    "amount_per_capita": 57.63,
+    "total_amount": 1513214.2,
+    "amount_per_capita": 57.54,
     "yearly_amounts": {
-      "2026": 662154.0,
+      "2026": 662154.2,
       "2027": 404437.0,
       "2028": 224033.0,
       "2029": 80730.0,
@@ -297,11 +297,11 @@
       "2031": 24730.0
     },
     "yearly_per_capita": {
-      "2026": 25.22,
-      "2027": 15.4,
-      "2028": 8.53,
+      "2026": 25.18,
+      "2027": 15.38,
+      "2028": 8.52,
       "2029": 3.07,
-      "2030": 4.46,
+      "2030": 4.45,
       "2031": 0.94
     }
   },
@@ -318,10 +318,10 @@
     "ac_short": "We maken werk van een klimaatneutraal waterbeleid",
     "ac_long": "We voeren het hemelwater- en droogteplan uit en maken zo werk van een klimaatneutraal waterbeleid waarbij we onze gemeente klaar maken voor de toekomst in functie van droogteperiodes, maar ook overstromingen",
     "categories": [
-      "03-natuur-milieu"
+      "02-mobiliteit"
     ],
     "total_amount": 1448800.0,
-    "amount_per_capita": 55.18,
+    "amount_per_capita": 55.09,
     "yearly_amounts": {
       "2026": 697000.0,
       "2027": 36800.0,
@@ -331,12 +331,12 @@
       "2031": 230000.0
     },
     "yearly_per_capita": {
-      "2026": 26.55,
+      "2026": 26.5,
       "2027": 1.4,
-      "2028": 7.58,
-      "2029": 5.6,
+      "2028": 7.57,
+      "2029": 5.59,
       "2030": 5.29,
-      "2031": 8.76
+      "2031": 8.75
     }
   },
   {
@@ -354,23 +354,23 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 1329885.0,
-    "amount_per_capita": 50.65,
+    "total_amount": 1329884.58,
+    "amount_per_capita": 50.57,
     "yearly_amounts": {
-      "2026": 208193.0,
-      "2027": 213398.0,
-      "2028": 218733.0,
-      "2029": 224202.0,
-      "2030": 229807.0,
-      "2031": 235552.0
+      "2026": 208193.4,
+      "2027": 213398.24,
+      "2028": 218733.17,
+      "2029": 224201.53,
+      "2030": 229806.54,
+      "2031": 235551.7
     },
     "yearly_per_capita": {
-      "2026": 7.93,
-      "2027": 8.13,
-      "2028": 8.33,
-      "2029": 8.54,
-      "2030": 8.75,
-      "2031": 8.97
+      "2026": 7.92,
+      "2027": 8.11,
+      "2028": 8.32,
+      "2029": 8.53,
+      "2030": 8.74,
+      "2031": 8.96
     }
   },
   {
@@ -388,10 +388,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 1178000.0,
-    "amount_per_capita": 44.87,
+    "total_amount": 1190858.5,
+    "amount_per_capita": 45.28,
     "yearly_amounts": {
-      "2026": 518000.0,
+      "2026": 530858.5,
       "2027": 132000.0,
       "2028": 132000.0,
       "2029": 132000.0,
@@ -399,12 +399,12 @@
       "2031": 132000.0
     },
     "yearly_per_capita": {
-      "2026": 19.73,
-      "2027": 5.03,
-      "2028": 5.03,
-      "2029": 5.03,
-      "2030": 5.03,
-      "2031": 5.03
+      "2026": 20.19,
+      "2027": 5.02,
+      "2028": 5.02,
+      "2029": 5.02,
+      "2030": 5.02,
+      "2031": 5.02
     }
   },
   {
@@ -423,7 +423,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 1125500.0,
-    "amount_per_capita": 42.87,
+    "amount_per_capita": 42.8,
     "yearly_amounts": {
       "2026": 278000.0,
       "2027": 151500.0,
@@ -433,9 +433,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 10.59,
-      "2027": 5.77,
-      "2028": 25.75,
+      "2026": 10.57,
+      "2027": 5.76,
+      "2028": 25.7,
       "2029": 0.38,
       "2030": 0.38,
       "2031": 0
@@ -457,7 +457,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 984000.0,
-    "amount_per_capita": 37.48,
+    "amount_per_capita": 37.42,
     "yearly_amounts": {
       "2026": 164000.0,
       "2027": 150000.0,
@@ -467,12 +467,12 @@
       "2031": 150000.0
     },
     "yearly_per_capita": {
-      "2026": 6.25,
-      "2027": 5.71,
-      "2028": 8.38,
-      "2029": 5.71,
-      "2030": 5.71,
-      "2031": 5.71
+      "2026": 6.24,
+      "2027": 5.7,
+      "2028": 8.37,
+      "2029": 5.7,
+      "2030": 5.7,
+      "2031": 5.7
     }
   },
   {
@@ -491,7 +491,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 935000.0,
-    "amount_per_capita": 35.61,
+    "amount_per_capita": 35.55,
     "yearly_amounts": {
       "2026": 500000.0,
       "2027": 435000.0,
@@ -501,8 +501,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 19.04,
-      "2027": 16.57,
+      "2026": 19.01,
+      "2027": 16.54,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -525,7 +525,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 884500.0,
-    "amount_per_capita": 33.69,
+    "amount_per_capita": 33.63,
     "yearly_amounts": {
       "2026": 385000.0,
       "2027": 359500.0,
@@ -535,8 +535,8 @@
       "2031": 35000.0
     },
     "yearly_per_capita": {
-      "2026": 14.66,
-      "2027": 13.69,
+      "2026": 14.64,
+      "2027": 13.67,
       "2028": 1.33,
       "2029": 1.33,
       "2030": 1.33,
@@ -559,7 +559,7 @@
       "08-onderwijs"
     ],
     "total_amount": 732200.0,
-    "amount_per_capita": 27.89,
+    "amount_per_capita": 27.84,
     "yearly_amounts": {
       "2026": 142200.0,
       "2027": 26000.0,
@@ -569,9 +569,9 @@
       "2031": 26000.0
     },
     "yearly_per_capita": {
-      "2026": 5.42,
+      "2026": 5.41,
       "2027": 0.99,
-      "2028": 16.38,
+      "2028": 16.35,
       "2029": 1.75,
       "2030": 2.36,
       "2031": 0.99
@@ -593,7 +593,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 666000.0,
-    "amount_per_capita": 25.37,
+    "amount_per_capita": 25.32,
     "yearly_amounts": {
       "2026": 193000.0,
       "2027": 178000.0,
@@ -603,11 +603,11 @@
       "2031": 35000.0
     },
     "yearly_per_capita": {
-      "2026": 7.35,
-      "2027": 6.78,
-      "2028": 2.67,
-      "2029": 4.57,
-      "2030": 2.67,
+      "2026": 7.34,
+      "2027": 6.77,
+      "2028": 2.66,
+      "2029": 4.56,
+      "2030": 2.66,
       "2031": 1.33
     }
   },
@@ -627,7 +627,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 615000.0,
-    "amount_per_capita": 23.42,
+    "amount_per_capita": 23.39,
     "yearly_amounts": {
       "2026": 90000.0,
       "2027": 225000.0,
@@ -637,12 +637,12 @@
       "2031": 75000.0
     },
     "yearly_per_capita": {
-      "2026": 3.43,
-      "2027": 8.57,
-      "2028": 2.86,
-      "2029": 2.86,
-      "2030": 2.86,
-      "2031": 2.86
+      "2026": 3.42,
+      "2027": 8.56,
+      "2028": 2.85,
+      "2029": 2.85,
+      "2030": 2.85,
+      "2031": 2.85
     }
   },
   {
@@ -661,7 +661,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 475000.0,
-    "amount_per_capita": 18.09,
+    "amount_per_capita": 18.06,
     "yearly_amounts": {
       "2026": 475000.0,
       "2027": 0,
@@ -671,7 +671,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 18.09,
+      "2026": 18.06,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -695,7 +695,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 404000.0,
-    "amount_per_capita": 15.39,
+    "amount_per_capita": 15.36,
     "yearly_amounts": {
       "2026": 404000.0,
       "2027": 0,
@@ -705,7 +705,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 15.39,
+      "2026": 15.36,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -729,7 +729,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 360000.0,
-    "amount_per_capita": 13.71,
+    "amount_per_capita": 13.69,
     "yearly_amounts": {
       "2026": 60000.0,
       "2027": 0,
@@ -739,9 +739,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.29,
+      "2026": 2.28,
       "2027": 0,
-      "2028": 11.43,
+      "2028": 11.41,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -763,7 +763,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 318865.0,
-    "amount_per_capita": 12.14,
+    "amount_per_capita": 12.12,
     "yearly_amounts": {
       "2026": 97865.0,
       "2027": 105000.0,
@@ -773,8 +773,8 @@
       "2031": 40500.0
     },
     "yearly_per_capita": {
-      "2026": 3.73,
-      "2027": 4.0,
+      "2026": 3.72,
+      "2027": 3.99,
       "2028": 1.73,
       "2029": 0.57,
       "2030": 0.57,
@@ -797,7 +797,7 @@
       "08-onderwijs"
     ],
     "total_amount": 286750.0,
-    "amount_per_capita": 10.92,
+    "amount_per_capita": 10.9,
     "yearly_amounts": {
       "2026": 108000.0,
       "2027": 138750.0,
@@ -831,7 +831,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 275000.0,
-    "amount_per_capita": 10.47,
+    "amount_per_capita": 10.46,
     "yearly_amounts": {
       "2026": 0,
       "2027": 275000.0,
@@ -842,7 +842,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 10.47,
+      "2027": 10.46,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -865,7 +865,7 @@
       "08-onderwijs"
     ],
     "total_amount": 240750.0,
-    "amount_per_capita": 9.17,
+    "amount_per_capita": 9.15,
     "yearly_amounts": {
       "2026": 53000.0,
       "2027": 25000.0,
@@ -877,9 +877,9 @@
     "yearly_per_capita": {
       "2026": 2.02,
       "2027": 0.95,
-      "2028": 2.29,
-      "2029": 2.85,
-      "2030": 1.07,
+      "2028": 2.28,
+      "2029": 2.84,
+      "2030": 1.06,
       "2031": 0
     }
   },
@@ -899,7 +899,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 208000.0,
-    "amount_per_capita": 7.92,
+    "amount_per_capita": 7.91,
     "yearly_amounts": {
       "2026": 200000.0,
       "2027": 0,
@@ -909,7 +909,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.62,
+      "2026": 7.6,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -932,10 +932,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 186667.0,
-    "amount_per_capita": 7.11,
+    "total_amount": 186666.67,
+    "amount_per_capita": 7.1,
     "yearly_amounts": {
-      "2026": 186667.0,
+      "2026": 186666.67,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -943,7 +943,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.11,
+      "2026": 7.1,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -967,7 +967,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 175000.0,
-    "amount_per_capita": 6.67,
+    "amount_per_capita": 6.65,
     "yearly_amounts": {
       "2026": 70000.0,
       "2027": 70000.0,
@@ -977,8 +977,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.67,
-      "2027": 2.67,
+      "2026": 2.66,
+      "2027": 2.66,
       "2028": 0,
       "2029": 1.33,
       "2030": 0,
@@ -1001,7 +1001,7 @@
       "08-onderwijs"
     ],
     "total_amount": 170000.0,
-    "amount_per_capita": 6.47,
+    "amount_per_capita": 6.46,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 0,
@@ -1035,7 +1035,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 5.71,
+    "amount_per_capita": 5.7,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1047,41 +1047,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 5.71,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Overijse",
-    "nis_code": "23062",
-    "bd_code": "BD000005",
-    "bd_short": "Overijse is een ondernemende, authentieke, duurzame gemeente",
-    "bd_long": "Overijse is een ondernemende, authentieke, duurzame gemeente met een robuust natuurlijk landschap en een toekomstgericht woonbeleid",
-    "ap_code": "AP000025",
-    "ap_short": "Kernversterking op een kwaliteitsvolle manier invullen",
-    "ap_long": "We vullen kernversterking in op een kwaliteitsvolle manier",
-    "ac_code": "AC000128",
-    "ac_short": "We maken werk van een gebiedsgerichte projectwerking, strategisch en intergemeentelijk waar mogelijk",
-    "ac_long": "We maken werk van een gebiedsgerichte projectwerking, strategisch en intergemeentelijk waar mogelijk",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 100000.0,
-    "amount_per_capita": 3.81,
-    "yearly_amounts": {
-      "2026": 100000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 3.81,
-      "2027": 0,
-      "2028": 0,
+      "2028": 5.7,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1103,7 +1069,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 3.81,
+    "amount_per_capita": 3.8,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
@@ -1113,7 +1079,41 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.81,
+      "2026": 3.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Overijse",
+    "nis_code": "23062",
+    "bd_code": "BD000005",
+    "bd_short": "Overijse is een ondernemende, authentieke, duurzame gemeente",
+    "bd_long": "Overijse is een ondernemende, authentieke, duurzame gemeente met een robuust natuurlijk landschap en een toekomstgericht woonbeleid",
+    "ap_code": "AP000025",
+    "ap_short": "Kernversterking op een kwaliteitsvolle manier invullen",
+    "ap_long": "We vullen kernversterking in op een kwaliteitsvolle manier",
+    "ac_code": "AC000128",
+    "ac_short": "We maken werk van een gebiedsgerichte projectwerking, strategisch en intergemeentelijk waar mogelijk",
+    "ac_long": "We maken werk van een gebiedsgerichte projectwerking, strategisch en intergemeentelijk waar mogelijk",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 3.8,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.8,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1137,7 +1137,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 83900.0,
-    "amount_per_capita": 3.2,
+    "amount_per_capita": 3.19,
     "yearly_amounts": {
       "2026": 22700.0,
       "2027": 14800.0,
@@ -1151,7 +1151,7 @@
       "2027": 0.56,
       "2028": 0.41,
       "2029": 0.3,
-      "2030": 0.88,
+      "2030": 0.87,
       "2031": 0.18
     }
   },
@@ -1215,8 +1215,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.07,
-      "2027": 0.88,
+      "2026": 1.06,
+      "2027": 0.87,
       "2028": 0.27,
       "2029": 0.57,
       "2030": 0,
@@ -1239,7 +1239,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 60000.0,
-    "amount_per_capita": 2.29,
+    "amount_per_capita": 2.28,
     "yearly_amounts": {
       "2026": 10000.0,
       "2027": 10000.0,
@@ -1260,35 +1260,35 @@
   {
     "municipality": "Overijse",
     "nis_code": "23062",
-    "bd_code": "BD000005",
-    "bd_short": "Overijse is een ondernemende, authentieke, duurzame gemeente",
-    "bd_long": "Overijse is een ondernemende, authentieke, duurzame gemeente met een robuust natuurlijk landschap en een toekomstgericht woonbeleid",
-    "ap_code": "AP000027",
-    "ap_short": "Landschap als watermachine: groen, robuust, biodivers en volgens de 3-30-300 regel",
-    "ap_long": "We benaderen ons landschap als watermachine: groen, robuust, biodivers en volgens de 3-30-300 regel",
-    "ac_code": "AC000190",
-    "ac_short": "We bepalen de onthardings- en vergroeningsprioriteiten voor onze gemeente",
-    "ac_long": "We bepalen de onthardings- en vergroeningsprioriteiten voor onze gemeente",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP000000",
+    "ap_short": "Regulier Beleid",
+    "ap_long": "Regulier beleid",
+    "ac_code": "AC000000",
+    "ac_short": "Regulier beleid",
+    "ac_long": "Regulier beleid",
     "categories": [
-      "03-natuur-milieu"
+      "01-algemeen-bestuur"
     ],
     "total_amount": 50000.0,
     "amount_per_capita": 1.9,
     "yearly_amounts": {
-      "2026": 50000.0,
+      "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2029": 20000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
     },
     "yearly_per_capita": {
-      "2026": 1.9,
+      "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2029": 0.76,
+      "2030": 0.57,
+      "2031": 0.57
     }
   },
   {
@@ -1328,35 +1328,35 @@
   {
     "municipality": "Overijse",
     "nis_code": "23062",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000000",
-    "ap_short": "Regulier beleid",
-    "ap_long": "Regulier beleid",
-    "ac_code": "AC000000",
-    "ac_short": "Regulier beleid",
-    "ac_long": "Regulier beleid",
+    "bd_code": "BD000005",
+    "bd_short": "Overijse is een ondernemende, authentieke, duurzame gemeente",
+    "bd_long": "Overijse is een ondernemende, authentieke, duurzame gemeente met een robuust natuurlijk landschap en een toekomstgericht woonbeleid",
+    "ap_code": "AP000027",
+    "ap_short": "Landschap als watermachine: groen, robuust, biodivers en volgens de 3-30-300 regel",
+    "ap_long": "We benaderen ons landschap als watermachine: groen, robuust, biodivers en volgens de 3-30-300 regel",
+    "ac_code": "AC000190",
+    "ac_short": "We bepalen de onthardings- en vergroeningsprioriteiten voor onze gemeente",
+    "ac_long": "We bepalen de onthardings- en vergroeningsprioriteiten voor onze gemeente",
     "categories": [
-      "01-algemeen-bestuur"
+      "03-natuur-milieu"
     ],
     "total_amount": 50000.0,
     "amount_per_capita": 1.9,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 50000.0,
       "2027": 0,
       "2028": 0,
-      "2029": 20000.0,
-      "2030": 15000.0,
-      "2031": 15000.0
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 1.9,
       "2027": 0,
       "2028": 0,
-      "2029": 0.76,
-      "2030": 0.57,
-      "2031": 0.57
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {

@@ -14,57 +14,839 @@
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 41833991.0,
-    "amount_per_capita": 1792.07,
+    "total_amount": 37936127.0,
+    "amount_per_capita": 1621.81,
     "yearly_amounts": {
-      "2026": 8944231.0,
-      "2027": 7409134.0,
-      "2028": 11481410.0,
-      "2029": 8188373.0,
-      "2030": 3540514.0,
-      "2031": 2270329.0
+      "2026": 8192207.0,
+      "2027": 6637366.0,
+      "2028": 10313281.0,
+      "2029": 7802574.0,
+      "2030": 3076986.0,
+      "2031": 1913713.0
     },
     "yearly_per_capita": {
-      "2026": 383.15,
-      "2027": 317.39,
-      "2028": 491.84,
-      "2029": 350.77,
-      "2030": 151.67,
-      "2031": 97.26
+      "2026": 350.23,
+      "2027": 283.75,
+      "2028": 440.9,
+      "2029": 333.57,
+      "2030": 131.54,
+      "2031": 81.81
     }
   },
   {
     "municipality": "Tervuren",
     "nis_code": "24104",
-    "bd_code": "BDS",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-05",
+    "ap_short": "Aanpakken van rioleringsnoden en wateruitdagingen.",
+    "ap_long": "Aanpakken van rioleringsnoden en wateruitdagingen via ontharding, erosiebestrijding en herwaardering van natuurlijke waterstructuren.",
+    "ac_code": "ACT-15",
+    "ac_short": "We renoveren minstens één straat per jaar met een gescheiden riolering.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 13100000.0,
+    "amount_per_capita": 560.04,
+    "yearly_amounts": {
+      "2026": 3000000.0,
+      "2027": 1700000.0,
+      "2028": 3200000.0,
+      "2029": 3500000.0,
+      "2030": 0,
+      "2031": 1700000.0
+    },
+    "yearly_per_capita": {
+      "2026": 128.25,
+      "2027": 72.68,
+      "2028": 136.8,
+      "2029": 149.63,
+      "2030": 0,
+      "2031": 72.68
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-03",
+    "ap_short": "Investeren in infrastructuur die veilige, vlotte en duurzame mobiliteit bevordert.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-06",
+    "ac_short": "Op basis van de voetpadenstrategie wordt in minstens één straat het voetpad vernieuwd of aangelegd.",
+    "ac_long": "Jaarlijks wordt, op basis van de prioriteiten in de voetpadenstrategie, in minstens één straat het voetpad vernieuwd of aangelegd.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3000000.0,
+    "amount_per_capita": 128.25,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 500000.0,
+      "2028": 500000.0,
+      "2029": 500000.0,
+      "2030": 500000.0,
+      "2031": 500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 21.38,
+      "2027": 21.38,
+      "2028": 21.38,
+      "2029": 21.38,
+      "2030": 21.38,
+      "2031": 21.38
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-07",
+    "ap_short": "Infrastructuur toekomstbestendig en klimaatneutraal maken tegen 2045 via doordacht gebouwenbeheer.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-21",
+    "ac_short": "We stemmen stapsgewijs het patrimonium af op de Vlaamse Klimaatstrategie van 2045.",
+    "ac_long": "We stemmen stapsgewijs het patrimonium af op de Vlaamse Klimaatstrategie van 2045 door gerichte investeringen aan ons patrimonium te voorzien en uit te voeren. We doen dit op basis van conditiestaatmetingen van de patrimoniumstudie, en het daaruitvolgend actieplan.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 958740.0,
+    "amount_per_capita": 40.99,
+    "yearly_amounts": {
+      "2026": 87290.0,
+      "2027": 174290.0,
+      "2028": 174290.0,
+      "2029": 174290.0,
+      "2030": 174290.0,
+      "2031": 174290.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.73,
+      "2027": 7.45,
+      "2028": 7.45,
+      "2029": 7.45,
+      "2030": 7.45,
+      "2031": 7.45
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-04",
+    "ap_short": "Verminderen van de verkeersdruk en verbeteren van de leefbaarheid in woonkernen en schoolomgevingen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-11",
+    "ac_short": "We voeren maatregelen in Moorsel uit om de verkeersveiligheid en de leefbaarheid te verbeteren.",
+    "ac_long": "We voeren tegen einde 2028 de infrastructuurmaatregelen in Moorsel uit om de verkeersveiligheid en de leefbaarheid te verbeteren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 740000.0,
+    "amount_per_capita": 31.64,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 300000.0,
+      "2028": 140000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.83,
+      "2027": 12.83,
+      "2028": 5.99,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-03",
+    "ap_short": "Investeren in infrastructuur die veilige, vlotte en duurzame mobiliteit bevordert.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-05",
+    "ac_short": "Opstelllen van een goedgekeurde fietspadenstrategie en gefaseerde uitvoering.",
+    "ac_long": "Tegen einde 2026 stellen we een goedgekeurde fietspadenstrategie op die het volledige gewenste netwerk omvat, en realiseren we jaarlijks op basis daarvan minstens één ontbrekend deel of investeren we in het herstel of de verbetering van bestaande fietsinfrastructuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 720000.0,
+    "amount_per_capita": 30.78,
+    "yearly_amounts": {
+      "2026": 120000.0,
+      "2027": 120000.0,
+      "2028": 120000.0,
+      "2029": 120000.0,
+      "2030": 120000.0,
+      "2031": 120000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.13,
+      "2027": 5.13,
+      "2028": 5.13,
+      "2029": 5.13,
+      "2030": 5.13,
+      "2031": 5.13
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-05",
+    "ap_short": "Aanpakken van rioleringsnoden en wateruitdagingen.",
+    "ap_long": "Aanpakken van rioleringsnoden en wateruitdagingen via ontharding, erosiebestrijding en herwaardering van natuurlijke waterstructuren.",
+    "ac_code": "ACT-17",
+    "ac_short": "Tegen 2030 realiseren we minstens 20.776 m² extra onthard openbaar domein.",
+    "ac_long": "Tegen 2030 realiseren we minstens 20.776 m² extra onthard openbaar domein, op basis van de voorstellen vermeld in het hemelwater- en droogteplan.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 25.65,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 75000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 125000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.14,
+      "2027": 3.21,
+      "2028": 4.28,
+      "2029": 4.28,
+      "2030": 5.34,
+      "2031": 6.41
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-06",
+    "ap_short": "Versnellen van de energietransitie via slimme verlichting en laadinfrastructuur.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-19",
+    "ac_short": "Tegen 2030 streven we naar het verLEDden van alle openbare verlichting.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 25.65,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.28,
+      "2027": 4.28,
+      "2028": 4.28,
+      "2029": 4.28,
+      "2030": 4.28,
+      "2031": 4.28
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-05",
     "bd_short": "Tervuren investeert in toegankelijke en kwaliteitsvolle infrastructuur.",
     "bd_long": "Kwalitatieve omschrijving: Tervuren investeert in toegankelijke en kwaliteitsvolle infrastructuur die gedeeld gebruik mogelijk maakt, ruimte rechtvaardig verdeelt en sociale cohesie en gemeenschapsleven versterkt.",
-    "ap_code": "AP",
-    "ap_short": "Gemeenschapsvoorzieningen inrichten als plekken van ontmoeting en samenleven.",
+    "ap_code": "AP-32",
+    "ap_short": "Zorginfrastructuur verbeteren in functie van warme, toegankelijke en toekomstgerichte zorg.",
     "ap_long": "Commentaar:",
-    "ac_code": "ACT",
-    "ac_short": "We starten de studie voor de renovatie van de polyvalente zaal in Vossem en zetten volgende stappen.",
-    "ac_long": "In 2026 realiseren we de studie voor de renovatie van de polyvalente zaal in Vossem op basis van het voorafgaand particiaptietraject en plaatsen we het lastenboek in de markt. We starten in 2027 met de bouw van de polyvalente zaal.",
+    "ac_code": "ACT-90",
+    "ac_short": "We ontwikkelen een masterplan voor de woonzorgsite Zoniën.",
+    "ac_long": "We ontwikkelen een masterplan voor de woonzorgsite Zoniën, klaar voor uitvoering in het MJP 2032-2037. In 2026 stelt een multidisciplinaire werkgroep een plan van eisen op voor het woonzorgcentrum, kortverblijf en dagverzorging, met behoud van capaciteit. Er worden hierbij diverse woonvormen onderzocht, inclusief de integratie van een medisch centrum, multidisciplinair zorgkabinet en lokalen voor Kind en Gezin. Uiterlijk in 2028 keurt de OCMW-raad een aangepast zorgstrategisch plan goed, dat wordt ingediend bij het Agentschap Zorg als basis voor de realisatie van het masterplan. Uiterlijk in 2030 wordt een ontwerper aangesteld die de uiteindelijke bouwwerken uittekent en de werf in goede banen leidt.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 25.65,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 600000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 25.65
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-05",
+    "bd_short": "Tervuren investeert in toegankelijke en kwaliteitsvolle infrastructuur.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren investeert in toegankelijke en kwaliteitsvolle infrastructuur die gedeeld gebruik mogelijk maakt, ruimte rechtvaardig verdeelt en sociale cohesie en gemeenschapsleven versterkt.",
+    "ap_code": "AP-30",
+    "ap_short": "Sport- en jeugdinfrastructuur versterken door de ontwikkeling van de site Polygoon.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-86",
+    "ac_short": "De gemeente een studiebureau aan voor een masterplan voor site Polygoon.",
+    "ac_long": "In 2026 stelt de gemeente een studiebureau aan voor een masterplan voor site Polygoon, met focus op geïntegreerd waterbeheer en toekomstige sportinfrastructuur (half synthetisch hockeyveld, golf-oefenveld, ...). Het plan wordt eind 2026 afgerond en dient als basis voor verdere keuzes en investeringen.  In het najaar van 2027 wordt het bestek van het halve hockyeveld met bijhorend vooronderzoek opgemaakt; de aanleg vindt plaats in de zomer van 2028.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 30677927.0,
-    "amount_per_capita": 1314.17,
+    "total_amount": 595000.0,
+    "amount_per_capita": 25.44,
     "yearly_amounts": {
-      "2026": 4498830.0,
-      "2027": 5038210.0,
-      "2028": 6694887.0,
-      "2029": 5617000.0,
-      "2030": 3489500.0,
-      "2031": 5339500.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 595000.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 192.72,
-      "2027": 215.82,
-      "2028": 286.79,
-      "2029": 240.62,
-      "2030": 149.48,
-      "2031": 228.73
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 25.44,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-03",
+    "ap_short": "Investeren in infrastructuur die veilige, vlotte en duurzame mobiliteit bevordert.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-07",
+    "ac_short": "We onderzoeken verfraaiing Markt en opwaardering Leuvensesteenweg en voeren de werken uit.",
+    "ac_long": "Tegen einde 2027 voeren we een haalbaarheidsstudie uit met ontwerpprincipes voor de verfraaiing van de Markt en de opwaardering van de Leuvensesteenweg vanaf de rotonde. Vanaf 2028 tot en met 2030 voeren we de werken uit.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 21.38,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 300000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 4.28,
+      "2029": 4.28,
+      "2030": 12.83,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-07",
+    "ap_short": "Infrastructuur toekomstbestendig en klimaatneutraal maken tegen 2045 via doordacht gebouwenbeheer.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-23",
+    "ac_short": "We werken aan een toekomstvisie voor de (her)huisvesting van de dienst WEB.",
+    "ac_long": "We werken aan een toekomstvisie voor de (her)huisvesting van de dienst WEB. Daarbij staat energiezuinige infrastructuur centraal, met aangepaste administratieve, logistieke en technische ruimtes, evenals plaats voor gecentraliseerde opslag van materialen en voertuigen. De opmaak van deze visie start in 2027. De bestaande studie wordt geactualiseerd en het overleg met InterLeuven wordt opnieuw opgestart. Aanpassingen op de huidige site van WEB blijven noodzakelijk in functie van een nieuwe milieuvergunning, instandhoudingswerken (stabiliteit) en overige wettelijke bepalingen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 10.69,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 100000.0,
+      "2028": 75000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.21,
+      "2027": 4.28,
+      "2028": 3.21,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-04",
+    "ap_short": "Verminderen van de verkeersdruk en verbeteren van de leefbaarheid in woonkernen en schoolomgevingen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-10",
+    "ac_short": "We voeren een onderzoek naar het gebruik van slimme camera’s en we voorzien buitenpoorten.",
+    "ac_long": "We voeren tegen eind 2028 een onderzoek naar het gebruik van slimme camera’s om sluipverkeer te detecteren en aan te pakken. Daarnaast voorzien we tegen 2031 buitenpoorten aan de Overijsesteenweg, Veeweidestraat, Groenlaan en Hondsbergen om sluipverkeer te weren, af te remmen en te ontmoedigen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 230000.0,
+    "amount_per_capita": 9.83,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 70000.0,
+      "2029": 100000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.99,
+      "2029": 4.28,
+      "2030": 1.28,
+      "2031": 1.28
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-05",
+    "ap_short": "Aanpakken van rioleringsnoden en wateruitdagingen.",
+    "ap_long": "Aanpakken van rioleringsnoden en wateruitdagingen via ontharding, erosiebestrijding en herwaardering van natuurlijke waterstructuren.",
+    "ac_code": "ACT-13",
+    "ac_short": "We herwaarderen strategische waterlopen Maesdelleloop en Ravenstein.",
+    "ac_long": "Tegen 2028 herwaarderen we strategische waterlopen Maesdelleloop en Ravenstein door het realiseren van ecologische opwaarderingen, onthardingen en bufferzones in de aanpalende woonwijken Arboretum en Ravenstein.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 190000.0,
+    "amount_per_capita": 8.12,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 180000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.43,
+      "2027": 0,
+      "2028": 7.7,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-03",
+    "bd_short": "Tervuren bouwt aan een warme en zorgzame samenleving.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een warme en zorgzame samenleving waarin elk kind, gezin en kwetsbare inwoner kansen krijgt om volwaardig deel te nemen aan het maatschappelijk leven.",
+    "ap_code": "AP-18",
+    "ap_short": "Toegankelijke en kwalitatieve kinderopvang stimuleren en ondersteunen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-51",
+    "ac_short": "Er wordt een subsidiereglement uitgewerkt voor nieuwe vergunde kinderopvangplaatsen.",
+    "ac_long": "Er wordt een subsidiereglement uitgewerkt waarbij kinderopvanginitiatieven voor nieuwe vergunde kinderopvangplaatsen (T1 en T2) een investeringssubsidie kunnen bekomen via de gemeente. Via deze weg krijgen starters financieel een duwtje in de rug en heeft de gemeente een positieve impact op het aantal kinderopvangplaatsen in de gemeente om zo bij te dragen aan het wegwerken van het tekort aan kinderopvangplaatsen. Daarnaast worden starters ook actief ondersteund en administratief begeleid op hun traject richting vergunning en erkenning, met als ultieme doel het aantal kinderopvangplaatsen dat werkt met inkomenstarief tegen eind 2031 te verhogen met 50 plaatsen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 186677.0,
+    "amount_per_capita": 7.98,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 80000.0,
+      "2028": 26677.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.42,
+      "2027": 3.42,
+      "2028": 1.14,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-05",
+    "ap_short": "Aanpakken van rioleringsnoden en wateruitdagingen.",
+    "ap_long": "Aanpakken van rioleringsnoden en wateruitdagingen via ontharding, erosiebestrijding en herwaardering van natuurlijke waterstructuren.",
+    "ac_code": "ACT-18",
+    "ac_short": "We verhogen de zuiveringsgraad door het beheer van IBA's te optimaliseren tegen 2030.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 6.41,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.07,
+      "2027": 1.07,
+      "2028": 1.07,
+      "2029": 1.07,
+      "2030": 1.07,
+      "2031": 1.07
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-06",
+    "ap_short": "Versnellen van de energietransitie via slimme verlichting en laadinfrastructuur.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-20",
+    "ac_short": "We installeren tegen eind 2030 in elke deelgemeente minstens één elektrisch fietsenlaadpunt.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.28,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.07,
+      "2028": 1.07,
+      "2029": 1.07,
+      "2030": 1.07,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-04",
+    "bd_short": "Tervuren bouwt aan een goedwerkende en professionele organisatie.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een goedwerkende en professionele organisatie met een daadkrachtige en inclusieve dienstverlening die afgestemd is op de noden van haar inwoners.",
+    "ap_code": "AP-23",
+    "ap_short": "Klantgerichte en toegankelijke dienstverlening optimaliseren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-72",
+    "ac_short": "Vanaf 2030 bieden we een natuurbegraafplaats aan en staan we in voor het duurzaam beheer ervan.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.28,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 100000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 4.28,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-04",
+    "ap_short": "Verminderen van de verkeersdruk en verbeteren van de leefbaarheid in woonkernen en schoolomgevingen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-12",
+    "ac_short": "We bouwen een netwerk van verkeerssensoren uit om het verkeer op cruciale wegen te monitoren.",
+    "ac_long": "We bouwen tegen 2028 een netwerk van verkeerssensoren uit om het verkeer op de meest cruciale wegen permanent te monitoren. Door gegevens te verzamelen over de verkeersstromen en het aantal weggebruikers, kunnen verkeersingrepen of reglementaire verkeersmaatregelen onderbouwd worden met data.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 57830.0,
+    "amount_per_capita": 2.47,
+    "yearly_amounts": {
+      "2026": 27830.0,
+      "2027": 6000.0,
+      "2028": 6000.0,
+      "2029": 6000.0,
+      "2030": 6000.0,
+      "2031": 6000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.19,
+      "2027": 0.26,
+      "2028": 0.26,
+      "2029": 0.26,
+      "2030": 0.26,
+      "2031": 0.26
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-07",
+    "ap_short": "Infrastructuur toekomstbestendig en klimaatneutraal maken tegen 2045 via doordacht gebouwenbeheer.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-22",
+    "ac_short": "Gebouwen met een jaarlijks elektriciteitsverbruik van meer dan 100 MWh zullen zonnepanelen krijgen.",
+    "ac_long": "Gebouwen binnen het gemeentelijk patrimonium die op één EAN-afnamepunt een jaarlijks elektriciteitsverbruik hebben van meer dan 100 MWh, zullen vanaf 2026 voorzien worden van zonnepanelen met een wattpiek van 18,50 Wp per m², om te voldoen aan de regelgeving tegen 2030. Gebouwen met een jaarlijks verbruik van meer dan 250 MWh krijgen prioriteit om te voldoen aan de verplichting tegen 1 april 2026. Met behulp van de conditiestaatmetingen uit de patrimoniumstudie brengen we gericht in kaart welke gebouwen aan deze verplichtingen onderworpen zijn, zodat de nodige investeringen doelgericht kunnen worden ingepland.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50750.0,
+    "amount_per_capita": 2.17,
+    "yearly_amounts": {
+      "2026": 7250.0,
+      "2027": 14500.0,
+      "2028": 14500.0,
+      "2029": 14500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.31,
+      "2027": 0.62,
+      "2028": 0.62,
+      "2029": 0.62,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-01",
+    "bd_short": "Tervuren bouwt aan een duurzame en leefbare gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een duurzame en leefbare gemeente waar wonen, mobiliteit, ruimte en milieu op een evenwichtige manier worden afgestemd op de noden van haar inwoners en de uitdagingen van het klimaat.",
+    "ap_code": "AP-03",
+    "ap_short": "Investeren in infrastructuur die veilige, vlotte en duurzame mobiliteit bevordert.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-08",
+    "ac_short": "We voeren een dynamische zone 30 in rondom alle basisscholen langs verbindingswegen.",
+    "ac_long": "Tegen einde 2029 voeren we een dynamische zone 30 in rondom alle basisscholen langs verbindingswegen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 45000.0,
+    "amount_per_capita": 1.92,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 45000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1.92,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-04",
+    "bd_short": "Tervuren bouwt aan een goedwerkende en professionele organisatie.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een goedwerkende en professionele organisatie met een daadkrachtige en inclusieve dienstverlening die afgestemd is op de noden van haar inwoners.",
+    "ap_code": "AP-23",
+    "ap_short": "Klantgerichte en toegankelijke dienstverlening optimaliseren.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-68",
+    "ac_short": "We investeren in het nodige materiaal om in openlucht te huwen.",
+    "ac_long": "Vanaf de zomer van 2026 bieden we de mogelijkheid om in openlucht te huwen. We investeren in het nodige materiaal, zoals een tent, stoelen en banken, en peilen nadien via bevragingen naar de tevredenheid van de koppels om het concept verder te verfijnen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 1.07,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.07,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-02",
+    "bd_short": "Tervuren is een vurige en bruisende gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren is een vurige en bruisende gemeente waar ontmoeting, creativiteit en verbondenheid centraal staan, met extra aandacht voor inclusie, cultuur, jeugd, toerisme, sport en ondernemerschap.",
+    "ap_code": "AP-14",
+    "ap_short": "Waarderen, ontsluiten en herbestemmen van erfgoed via samenwerking met lokale en hogere overheden.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-36",
+    "ac_short": "We plannen de studie voor de restauratie van de Kapel Onze-Lieve-Vrouw ter Nood (Sint-Rochuskapel).",
+    "ac_long": "We plannen de studie voor de restauratie van de Kapel Onze-Lieve-Vrouw ter Nood (Sint-Rochuskapel). Afhankelijk van de hoogdringendheid van de bevindingen in het verslag van Monumentenwacht worden de werken uitgevoerd in 2026.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.86,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.86,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-02",
+    "bd_short": "Tervuren is een vurige en bruisende gemeente.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren is een vurige en bruisende gemeente waar ontmoeting, creativiteit en verbondenheid centraal staan, met extra aandacht voor inclusie, cultuur, jeugd, toerisme, sport en ondernemerschap.",
+    "ap_code": "AP-14",
+    "ap_short": "Waarderen, ontsluiten en herbestemmen van erfgoed via samenwerking met lokale en hogere overheden.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-37",
+    "ac_short": "We plannen de renovatie van de beschermde graven en oorlogsgraven.",
+    "ac_long": "We plannen de renovatie van de beschermde graven en oorlogsgraven, voor zover ze gemeentelijke eigendom zijn en dit vanaf 2028.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.86,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.21,
+      "2029": 0.21,
+      "2030": 0.21,
+      "2031": 0.21
+    }
+  },
+  {
+    "municipality": "Tervuren",
+    "nis_code": "24104",
+    "bd_code": "BDS-03",
+    "bd_short": "Tervuren bouwt aan een warme en zorgzame samenleving.",
+    "bd_long": "Kwalitatieve omschrijving: Tervuren bouwt aan een warme en zorgzame samenleving waarin elk kind, gezin en kwetsbare inwoner kansen krijgt om volwaardig deel te nemen aan het maatschappelijk leven.",
+    "ap_code": "AP-22",
+    "ap_short": "Persoonsgerichte ouderenzorg waarin levenskwaliteit, verbondenheid en inspraak centraal staan.",
+    "ap_long": "Inzetten op persoonsgerichte ouderenzorg waarin levenskwaliteit, verbondenheid en inspraak centraal staan.",
+    "ac_code": "ACT-62",
+    "ac_short": "We voorzien rust- en picknickbanken op strategische locaties.",
+    "ac_long": "We voorzien extra rust- en picknickbanken op strategische locaties, met bijzondere aandacht voor de noden van ouderen. Dit kadert in de verdere uitrol van het actieplan van de seniorenadviesraad (SAR).",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 18000.0,
+    "amount_per_capita": 0.77,
+    "yearly_amounts": {
+      "2026": 3000.0,
+      "2027": 3000.0,
+      "2028": 3000.0,
+      "2029": 3000.0,
+      "2030": 3000.0,
+      "2031": 3000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.13,
+      "2027": 0.13,
+      "2028": 0.13,
+      "2029": 0.13,
+      "2030": 0.13,
+      "2031": 0.13
     }
   }
 ]

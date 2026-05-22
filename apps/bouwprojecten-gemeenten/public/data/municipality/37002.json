@@ -2,40 +2,6 @@
   {
     "municipality": "Dentergem",
     "nis_code": "37002",
-    "bd_code": "BD",
-    "bd_short": "Dentergem investeert in en stimuleert een kwaliteitsvol en laagdrempelig vrijetijdsaanbod.",
-    "bd_long": "Kwalitatieve omschrijving: Dentergem biedt een gevariëerd en inclusief vrijetijdsaanbod.\nDentergem streeft naar een evenwichtige ontwikkeling van toerisme die versterkt op vlak van natuur-, cultuur- en erfgoedbeleving en die bijdraagt aan de lokale economie.\nDentergem ondersteunt de verenigingen  als motoren van de beleving in onze gemeente.",
-    "ap_code": "AP",
-    "ap_short": "Dentergem biedt een gevarieerd en inclusief vrijetijdsaanbod aan.",
-    "ap_long": "Commentaar:",
-    "ac_code": "ACT",
-    "ac_short": "Dentergem zet in op het bevorderen van gezondheid via een gevarieerd en inclusief sportaanbod.",
-    "ac_long": "Dentergem zet in op het bevorderen van een gezonde levensstijl en stimuleert sportdeelname door een gevarieerd en inclusief sportaanbod voor alle leeftijden.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 22914236.0,
-    "amount_per_capita": 2577.85,
-    "yearly_amounts": {
-      "2026": 6096360.0,
-      "2027": 6312565.0,
-      "2028": 4829086.0,
-      "2029": 3325865.0,
-      "2030": 1489090.0,
-      "2031": 861270.0
-    },
-    "yearly_per_capita": {
-      "2026": 685.84,
-      "2027": 710.16,
-      "2028": 543.27,
-      "2029": 374.16,
-      "2030": 167.52,
-      "2031": 96.89
-    }
-  },
-  {
-    "municipality": "Dentergem",
-    "nis_code": "37002",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
@@ -49,7 +15,7 @@
       "00-algemene-financiering"
     ],
     "total_amount": 11330419.0,
-    "amount_per_capita": 1274.67,
+    "amount_per_capita": 1273.94,
     "yearly_amounts": {
       "2026": 2109467.0,
       "2027": 1608858.0,
@@ -59,12 +25,930 @@
       "2031": 1275587.0
     },
     "yearly_per_capita": {
-      "2026": 237.32,
-      "2027": 181.0,
-      "2028": 402.18,
-      "2029": 149.02,
-      "2030": 161.65,
-      "2031": 143.5
+      "2026": 237.18,
+      "2027": 180.89,
+      "2028": 401.95,
+      "2029": 148.93,
+      "2030": 161.56,
+      "2031": 143.42
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-5",
+    "bd_short": "Dentergem zet in op een denderende woon - en leefomgeving.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem zet verder in op aangename groenzones en een nette gemeente.\nDentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.\nEr wordt een studie uitgevoerd om het patrimonium van de gemeente in kaart te brengen en te evalueren en dit met het oog op een toekomstgerichte en efficiente inzet van het gemeentelijk patrimonium.",
+    "ap_code": "AP-14",
+    "ap_short": "Dentergem zet zich in voor een klimaatbestendige publieke openbare ruimte.",
+    "ap_long": "Dentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.",
+    "ac_code": "ACT-34",
+    "ac_short": "Dentergem verhoogt de zuiveringsgraad van haar afvalwater.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 6385430.0,
+    "amount_per_capita": 717.95,
+    "yearly_amounts": {
+      "2026": 3025430.0,
+      "2027": 1575000.0,
+      "2028": 165000.0,
+      "2029": 975000.0,
+      "2030": 520000.0,
+      "2031": 125000.0
+    },
+    "yearly_per_capita": {
+      "2026": 340.17,
+      "2027": 177.09,
+      "2028": 18.55,
+      "2029": 109.62,
+      "2030": 58.47,
+      "2031": 14.05
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-4",
+    "bd_short": "Dentergem kiest voor veilige en duurzame mobiliteit voor iedereen.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem neemt verder gerichte maatregelen om het comfort en de veiligheid van alle weggebruikers te verhogen. Duurzame mobiiteit is hierbij een te volgen leidraad.\nDit behelst eveneens gerichte ingrepen aan de openbare wegen in het kader van verkeersveiligheid en de zwakke weggebruiker.",
+    "ap_code": "AP-11",
+    "ap_short": "Dentergem bewaakt via gerichte ingrepen de verkeersveiligheid,  bovenal voor zwakke weggebruikers.",
+    "ap_long": "Dentergem plant gerichte ingrepen aan de openbare wegen in het kader van verkeersveiligheid en ten bate van de zwakke weggebruikers.",
+    "ac_code": "ACT-27",
+    "ac_short": "Dentergem zorgt voor de (her)aanleg van fiets- en voetpaden.",
+    "ac_long": "Dentergem zorgt voor de (her)aanleg van fiets-en voetpaden op (verbindings)wegen in functie van de veiligheid van zwakke weggebruikers.\nVolgende projecten worden uitgerold : aanleg fietsstraten in de buurt van de scholen, aanleg voet- en fietspad aan de N305 en aanleg voet- en fietspad aan de Markegemsesteenweg.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4151003.0,
+    "amount_per_capita": 466.72,
+    "yearly_amounts": {
+      "2026": 656002.0,
+      "2027": 532500.0,
+      "2028": 1112501.0,
+      "2029": 1625000.0,
+      "2030": 112500.0,
+      "2031": 112500.0
+    },
+    "yearly_per_capita": {
+      "2026": 73.76,
+      "2027": 59.87,
+      "2028": 125.08,
+      "2029": 182.71,
+      "2030": 12.65,
+      "2031": 12.65
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-4",
+    "bd_short": "Dentergem kiest voor veilige en duurzame mobiliteit voor iedereen.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem neemt verder gerichte maatregelen om het comfort en de veiligheid van alle weggebruikers te verhogen. Duurzame mobiiteit is hierbij een te volgen leidraad.\nDit behelst eveneens gerichte ingrepen aan de openbare wegen in het kader van verkeersveiligheid en de zwakke weggebruiker.",
+    "ap_code": "AP-11",
+    "ap_short": "Dentergem bewaakt via gerichte ingrepen de verkeersveiligheid,  bovenal voor zwakke weggebruikers.",
+    "ap_long": "Dentergem plant gerichte ingrepen aan de openbare wegen in het kader van verkeersveiligheid en ten bate van de zwakke weggebruikers.",
+    "ac_code": "ACT-29",
+    "ac_short": "Dentergem vernieuwt de wegen.",
+    "ac_long": "Dentergem vernieuwt de wegen in het kader van onderhoud en bereikbaarheid.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3935000.0,
+    "amount_per_capita": 442.43,
+    "yearly_amounts": {
+      "2026": 935000.0,
+      "2027": 450000.0,
+      "2028": 648000.0,
+      "2029": 648000.0,
+      "2030": 678000.0,
+      "2031": 576000.0
+    },
+    "yearly_per_capita": {
+      "2026": 105.13,
+      "2027": 50.6,
+      "2028": 72.86,
+      "2029": 72.86,
+      "2030": 76.23,
+      "2031": 64.76
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-6",
+    "bd_short": "Dentergem investeert in kwaliteitsvolle, multifunctionele infrastructuur voor vrije tijd.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem investeert in een nieuwe bibliotheek als cultureel knooppunt.\nDe vrijetijdsinfrastructuur wordt mee opgenomen in de geplande studie van het gemeentelijk patrimonium.",
+    "ap_code": "AP-17",
+    "ap_short": "Dentergem investeert in toekomstbestendige en duurzame voorzieningen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-42",
+    "ac_short": "Dentergem investeert in een nieuwe bibliotheek als cultureel knooppunt.",
+    "ac_long": "Het reeds gestarte project inzake de nieuwe bibliotkeek samen met andere ruimtes voor gemeenschapsvoorzieningen wordt verder uitgevoerd.\nIn de ruimte zal ook een nieuwe locatie voor kinderopvang ondergebracht worden en dit volgens de voorschriften van de Vlaamse overheid.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3350000.0,
+    "amount_per_capita": 376.66,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 1550000.0,
+      "2028": 1550000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 28.11,
+      "2027": 174.27,
+      "2028": 174.27,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-5",
+    "bd_short": "Dentergem zet in op een denderende woon - en leefomgeving.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem zet verder in op aangename groenzones en een nette gemeente.\nDentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.\nEr wordt een studie uitgevoerd om het patrimonium van de gemeente in kaart te brengen en te evalueren en dit met het oog op een toekomstgerichte en efficiente inzet van het gemeentelijk patrimonium.",
+    "ap_code": "AP-15",
+    "ap_short": "Dentergem zet in op een duurzame woon - en leefomgeving.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-41",
+    "ac_short": "Dentergem zorgt voor noodwoningen.",
+    "ac_long": "In dit kader wordt het reeds gestarte project inzake de nieuwe noodwoningen op de site van het Sociaal Huis verder afgewerkt.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 2072000.0,
+    "amount_per_capita": 232.97,
+    "yearly_amounts": {
+      "2026": 162000.0,
+      "2027": 1010000.0,
+      "2028": 900000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.21,
+      "2027": 113.56,
+      "2028": 101.19,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-6",
+    "bd_short": "Dentergem investeert in kwaliteitsvolle, multifunctionele infrastructuur voor vrije tijd.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem investeert in een nieuwe bibliotheek als cultureel knooppunt.\nDe vrijetijdsinfrastructuur wordt mee opgenomen in de geplande studie van het gemeentelijk patrimonium.",
+    "ap_code": "AP-17",
+    "ap_short": "Dentergem investeert in toekomstbestendige en duurzame voorzieningen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-46",
+    "ac_short": "Dentergem zet in op een veilige, aantrekkelijke sportomgeving en op duurzame sportinfrastructuur.",
+    "ac_long": "Dentergem zet in op een veilige en aantrekkelijke sportomgeving en investeert in duurzame sportinfrastructuur. \nDentergem optimaliseert de bestaande sportinfrastructuur.\n\nVoor wat betreft het patrimonium inzake sport voert Dentergem een diepgaande studie uit met betrekking tot het gemeentelijk patrimonium in zijn geheel met als doel te komen tot een doordachte en toekomstgerichte aanpak van het gemeentelijk patrimonium.\nOm deze aanpak te kunnen realiseren, wordt er een ' infrastructuurfonds' voorzien van € 5.000.000 . Dit bedrag is voorlopig opgenomen onder de Actie GBB ( gelijkblijvend beleid). De budgetten kunnen immers nog geen concrete bestemming krijgen. Dit kan pas gebeuren na de studie.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 603000.0,
+    "amount_per_capita": 67.8,
+    "yearly_amounts": {
+      "2026": 139500.0,
+      "2027": 297000.0,
+      "2028": 76500.0,
+      "2029": 0,
+      "2030": 90000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.68,
+      "2027": 33.39,
+      "2028": 8.6,
+      "2029": 0,
+      "2030": 10.12,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-6",
+    "bd_short": "Dentergem investeert in kwaliteitsvolle, multifunctionele infrastructuur voor vrije tijd.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem investeert in een nieuwe bibliotheek als cultureel knooppunt.\nDe vrijetijdsinfrastructuur wordt mee opgenomen in de geplande studie van het gemeentelijk patrimonium.",
+    "ap_code": "AP-17",
+    "ap_short": "Dentergem investeert in toekomstbestendige en duurzame voorzieningen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-45",
+    "ac_short": "Dentergem verzorgt haar kerkelijk erfgoed en zet in op multifunctioneel gebruik.",
+    "ac_long": "Dentergem verzorgt haar kerkeljk erfgoed zodat de kerken toegankelijk zijn voor bezoekers en voor gebruikers.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 536000.0,
+    "amount_per_capita": 60.27,
+    "yearly_amounts": {
+      "2026": 13500.0,
+      "2027": 345000.0,
+      "2028": 157500.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.52,
+      "2027": 38.79,
+      "2028": 17.71,
+      "2029": 0,
+      "2030": 0,
+      "2031": 2.25
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-7",
+    "bd_short": "Dentergem investeert in en stimuleert een kwaliteitsvol en laagdrempelig vrijetijdsaanbod.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem biedt een gevariëerd en inclusief vrijetijdsaanbod.\nDentergem streeft naar een evenwichtige ontwikkeling van toerisme die versterkt op vlak van natuur-, cultuur- en erfgoedbeleving en die bijdraagt aan de lokale economie.\nDentergem ondersteunt de verenigingen  als motoren van de beleving in onze gemeente.",
+    "ap_code": "AP-19",
+    "ap_short": "Dentergem versterkt haar toeristische aantrekkingskracht die bijdraagt aan de lokale economie.",
+    "ap_long": "Dentergem streeft naar een evenwichtige ontwikkeling van toerisme die versterkt op vlak van natuur, cultuur en erfgoedbeleving en die bijdraagt aan de loklale economie.",
+    "ac_code": "ACT-51",
+    "ac_short": "De Baliekouter wordt verder ontwikkeld.",
+    "ac_long": "Dentergem investeert in toeristische hotspots. De  Baliekouter wordt verder ontwikkeld als een toeristische trekpleister.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 370000.0,
+    "amount_per_capita": 41.6,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 275000.0,
+      "2028": 45000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.62,
+      "2027": 30.92,
+      "2028": 5.06,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-1",
+    "bd_short": "Dentergem voorziet kwalitatieve kinderopvang en ondersteuning van de scholen.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem investeert in kwaliteitsvolle kinderopvang afgestemd op de noden van kinderen en jongeren. Samen met de lokale stakeholders werkt Dentergem een sterk en kwalitatief Buitenschoolse Opvang en Activiteiten - beleid uit.\nDentergem ondersteunt de scholen in functie van een eigentijdse en toekomstgerichte leeromgeving voor de schoolgaande jeugd.\nDe infrastructuur wordt mee opgenomen in de geplandede studie van het gemeentelijk patrimonium.",
+    "ap_code": "AP-2",
+    "ap_short": "Dentergem ondersteunt de scholen.",
+    "ap_long": "Dentergem ondersteunt de scholen in functie van een eigentijdse en toekomstgerichte leeromgeving voor de schoolgaande jeugd.",
+    "ac_code": "ACT-05",
+    "ac_short": "Dentergem bewaakt de infrastructuur van de schoolgebouwen - en omgeving.",
+    "ac_long": "Dentergem onderzoekt de nodige infrastructuurwerken aan de schoolgebouwen- en omgeving en voert ze stapsgewijs uit.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 338198.0,
+    "amount_per_capita": 38.03,
+    "yearly_amounts": {
+      "2026": 128183.0,
+      "2027": 50625.0,
+      "2028": 86625.0,
+      "2029": 28755.0,
+      "2030": 43200.0,
+      "2031": 810.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.41,
+      "2027": 5.69,
+      "2028": 9.74,
+      "2029": 3.23,
+      "2030": 4.86,
+      "2031": 0.09
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-3",
+    "bd_short": "Dentergem versterkt haar klantgerichte dienstverlening.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem versterkt haar klantgerichte werking door in te zetten op heldere dienstverlening en een toekomstbestendige interne werking.\nHiertoe wordt ingezet op een toekomstgericht personeelsbeleid - en bestand en een vernieuwd dienstverleningsconcept met aandacht voor het fysieke en digitale contact.",
+    "ap_code": "AP-10",
+    "ap_short": "Dentergem vernieuwt haar dienstverleningconcept, fysiek en digitaal.",
+    "ap_long": "Dentergem vernieuwt haar dienstverleningsconcept met aandacht voor het fysieke en digitale aanbod.",
+    "ac_code": "ACT-26",
+    "ac_short": "Dentergem richt een toegankelijk onthaal in.",
+    "ac_long": "Zelfs bij verdere digitale uitbouw van de dienstverlening blijft het menselijke contact centraal staan.\nIn het gemeentehuis wordt daarom een warm en gastvrij onthaal voorzien, waar iedereen terecht kan met vragen of advies.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 267500.0,
+    "amount_per_capita": 30.08,
+    "yearly_amounts": {
+      "2026": 257500.0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 28.95,
+      "2027": 1.12,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-1",
+    "bd_short": "Dentergem voorziet kwalitatieve kinderopvang en ondersteuning van de scholen.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem investeert in kwaliteitsvolle kinderopvang afgestemd op de noden van kinderen en jongeren. Samen met de lokale stakeholders werkt Dentergem een sterk en kwalitatief Buitenschoolse Opvang en Activiteiten - beleid uit.\nDentergem ondersteunt de scholen in functie van een eigentijdse en toekomstgerichte leeromgeving voor de schoolgaande jeugd.\nDe infrastructuur wordt mee opgenomen in de geplandede studie van het gemeentelijk patrimonium.",
+    "ap_code": "AP-2",
+    "ap_short": "Dentergem ondersteunt de scholen.",
+    "ap_long": "Dentergem ondersteunt de scholen in functie van een eigentijdse en toekomstgerichte leeromgeving voor de schoolgaande jeugd.",
+    "ac_code": "ACT-06",
+    "ac_short": "Dentergem ondersteunt de scholen met hun communicatiekanalen.",
+    "ac_long": "Dentergem ondersteunt de scholen in het verkrijgen van meer naambekendheid en degelijke communicatiekanalen. \nEr wordt ingezet op digitale tools in het dagelijks klasgebeuren.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 112995.0,
+    "amount_per_capita": 12.7,
+    "yearly_amounts": {
+      "2026": 27135.0,
+      "2027": 19440.0,
+      "2028": 12960.0,
+      "2029": 25110.0,
+      "2030": 15390.0,
+      "2031": 12960.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.05,
+      "2027": 2.19,
+      "2028": 1.46,
+      "2029": 2.82,
+      "2030": 1.73,
+      "2031": 1.46
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-5",
+    "bd_short": "Dentergem zet in op een denderende woon - en leefomgeving.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem zet verder in op aangename groenzones en een nette gemeente.\nDentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.\nEr wordt een studie uitgevoerd om het patrimonium van de gemeente in kaart te brengen en te evalueren en dit met het oog op een toekomstgerichte en efficiente inzet van het gemeentelijk patrimonium.",
+    "ap_code": "AP-13",
+    "ap_short": "Dentergem zet in op toekomstgerichte groenzones.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-32",
+    "ac_short": "Dentergem bouwt aan toekomstgerichte begraafplaatsen.",
+    "ac_long": "Dentergem bouwt aan toekomstgerichte begraafplaatsen met het oog op vergroening en rust.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 106110.0,
+    "amount_per_capita": 11.93,
+    "yearly_amounts": {
+      "2026": 106110.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-5",
+    "bd_short": "Dentergem zet in op een denderende woon - en leefomgeving.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem zet verder in op aangename groenzones en een nette gemeente.\nDentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.\nEr wordt een studie uitgevoerd om het patrimonium van de gemeente in kaart te brengen en te evalueren en dit met het oog op een toekomstgerichte en efficiente inzet van het gemeentelijk patrimonium.",
+    "ap_code": "AP-15",
+    "ap_short": "Dentergem zet in op een duurzame woon - en leefomgeving.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-40",
+    "ac_short": "Dentergem voert een studie inzake het patrimonium uit.",
+    "ac_long": "Dentergem voert een diepgaande studie uit met betrekking tot het gemeentelijk patrimonium met als doel te komen tot een doordachte en toekomstgerichte aanpak van het gemeentelijk patrimonium.\nOm deze aanpak aan patrimonium te kunnen realiseren, wordt er een ' infrastructuurfonds' voorzien van € 5.000.000 . Dit bedrag is voorlopig opgenomen onder de Actie GBB ( gelijkblijvend beleid). De budgetten kunnen immers nog geen concrete bestemming krijgen;  worden pas beslist in functie van de studie.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 11.24,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.24,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-1",
+    "bd_short": "Dentergem voorziet kwalitatieve kinderopvang en ondersteuning van de scholen.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem investeert in kwaliteitsvolle kinderopvang afgestemd op de noden van kinderen en jongeren. Samen met de lokale stakeholders werkt Dentergem een sterk en kwalitatief Buitenschoolse Opvang en Activiteiten - beleid uit.\nDentergem ondersteunt de scholen in functie van een eigentijdse en toekomstgerichte leeromgeving voor de schoolgaande jeugd.\nDe infrastructuur wordt mee opgenomen in de geplandede studie van het gemeentelijk patrimonium.",
+    "ap_code": "AP-1",
+    "ap_short": "Dentergem investeert in kwaliteitsvolle kinderopvang in samenwerking met lokale partners.",
+    "ap_long": "Dentergem investeert in kwaliteitsvolle kinderopvang afgestemd op de noden van kinderen, jongeren en ouders en dit in nauwe samenwerking met lokale partners.",
+    "ac_code": "ACT-03",
+    "ac_short": "Dentergem optimaliseert opvang- en speelinfrastructuur",
+    "ac_long": "Dentergem investeert in aantrekkelijke en veilige opvang - en speelinfrastructuur voor kinderen en jongeren.\nDentergem voert een diepgaande studie uit met betrekking tot het gemeentelijk patrimonium met als doel te komen tot een doordachte en toekomstgerichte aanpak van het gemeentelijk patrimonium.\nOm deze aanpak te kunnen realiseren, wordt er een ' infrastructuurfonds' voorzien van € 5.000.000 . Dit bedrag is voorlopig opgenomen onder de Actie GBB ( gelijkblijvend beleid). De budgetten kunnen immers nog geen concrete bestemming krijgen;  worden pas beslist in functie van de resultaten van de  studie.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 95000.0,
+    "amount_per_capita": 10.68,
+    "yearly_amounts": {
+      "2026": 45000.0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.06,
+      "2027": 0,
+      "2028": 5.62,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-5",
+    "bd_short": "Dentergem zet in op een denderende woon - en leefomgeving.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem zet verder in op aangename groenzones en een nette gemeente.\nDentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.\nEr wordt een studie uitgevoerd om het patrimonium van de gemeente in kaart te brengen en te evalueren en dit met het oog op een toekomstgerichte en efficiente inzet van het gemeentelijk patrimonium.",
+    "ap_code": "AP-14",
+    "ap_short": "Dentergem zet zich in voor een klimaatbestendige publieke openbare ruimte.",
+    "ap_long": "Dentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.",
+    "ac_code": "ACT-35",
+    "ac_short": "Dentergem zet actief in op het versterken van de biodiversiteit en op ontharding.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 8.43,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 10000.0,
+      "2030": 5000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.25,
+      "2027": 2.25,
+      "2028": 2.25,
+      "2029": 1.12,
+      "2030": 0.56,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-7",
+    "bd_short": "Dentergem investeert in en stimuleert een kwaliteitsvol en laagdrempelig vrijetijdsaanbod.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem biedt een gevariëerd en inclusief vrijetijdsaanbod.\nDentergem streeft naar een evenwichtige ontwikkeling van toerisme die versterkt op vlak van natuur-, cultuur- en erfgoedbeleving en die bijdraagt aan de lokale economie.\nDentergem ondersteunt de verenigingen  als motoren van de beleving in onze gemeente.",
+    "ap_code": "AP-19",
+    "ap_short": "Dentergem versterkt haar toeristische aantrekkingskracht die bijdraagt aan de lokale economie.",
+    "ap_long": "Dentergem streeft naar een evenwichtige ontwikkeling van toerisme die versterkt op vlak van natuur, cultuur en erfgoedbeleving en die bijdraagt aan de loklale economie.",
+    "ac_code": "ACT-50",
+    "ac_short": "Dentergem zet in op kwalitatieve toeristische infrastructuur.",
+    "ac_long": "Dentergem zet in op het verder ontwikkelen van kwalitatieve toeristische infrastructuur door het verbeteren van routes en het creëren van rustpunten langs wandel- en fietswegen.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 72000.0,
+    "amount_per_capita": 8.1,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 44000.0,
+      "2028": 0,
+      "2029": 14000.0,
+      "2030": 0,
+      "2031": 14000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 4.95,
+      "2028": 0,
+      "2029": 1.57,
+      "2030": 0,
+      "2031": 1.57
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-4",
+    "bd_short": "Dentergem kiest voor veilige en duurzame mobiliteit voor iedereen.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem neemt verder gerichte maatregelen om het comfort en de veiligheid van alle weggebruikers te verhogen. Duurzame mobiiteit is hierbij een te volgen leidraad.\nDit behelst eveneens gerichte ingrepen aan de openbare wegen in het kader van verkeersveiligheid en de zwakke weggebruiker.",
+    "ap_code": "AP-12",
+    "ap_short": "Dentergem zet actief in op duurzame mobiliteit en openbaar vervoer.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-31",
+    "ac_short": "Dentergem promoot duurzame mobiliteit bij haar inwoners.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 6.75,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.37,
+      "2027": 3.37,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-5",
+    "bd_short": "Dentergem zet in op een denderende woon - en leefomgeving.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem zet verder in op aangename groenzones en een nette gemeente.\nDentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.\nEr wordt een studie uitgevoerd om het patrimonium van de gemeente in kaart te brengen en te evalueren en dit met het oog op een toekomstgerichte en efficiente inzet van het gemeentelijk patrimonium.",
+    "ap_code": "AP-14",
+    "ap_short": "Dentergem zet zich in voor een klimaatbestendige publieke openbare ruimte.",
+    "ap_long": "Dentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.",
+    "ac_code": "ACT-36",
+    "ac_short": "Dentergem pakt overstromingsgevoelige plaatsen aan en zet in op bufferzones voor de landbouw.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 6.75,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 60000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 6.75,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-5",
+    "bd_short": "Dentergem zet in op een denderende woon - en leefomgeving.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem zet verder in op aangename groenzones en een nette gemeente.\nDentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.\nEr wordt een studie uitgevoerd om het patrimonium van de gemeente in kaart te brengen en te evalueren en dit met het oog op een toekomstgerichte en efficiente inzet van het gemeentelijk patrimonium.",
+    "ap_code": "AP-15",
+    "ap_short": "Dentergem zet in op een duurzame woon - en leefomgeving.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-38",
+    "ac_short": "Dentergem stimuleert een afvalarme en nette omgeving.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50500.0,
+    "amount_per_capita": 5.68,
+    "yearly_amounts": {
+      "2026": 50500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-4",
+    "bd_short": "Dentergem kiest voor veilige en duurzame mobiliteit voor iedereen.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem neemt verder gerichte maatregelen om het comfort en de veiligheid van alle weggebruikers te verhogen. Duurzame mobiiteit is hierbij een te volgen leidraad.\nDit behelst eveneens gerichte ingrepen aan de openbare wegen in het kader van verkeersveiligheid en de zwakke weggebruiker.",
+    "ap_code": "AP-12",
+    "ap_short": "Dentergem zet actief in op duurzame mobiliteit en openbaar vervoer.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-30",
+    "ac_short": "Dentergem beheert de Hoppin-punten.",
+    "ac_long": "Dentergem beheert de Hoppin- punten en onderzoekt de aanleg van nieuwe punten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 5.62,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.62,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-7",
+    "bd_short": "Dentergem investeert in en stimuleert een kwaliteitsvol en laagdrempelig vrijetijdsaanbod.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem biedt een gevariëerd en inclusief vrijetijdsaanbod.\nDentergem streeft naar een evenwichtige ontwikkeling van toerisme die versterkt op vlak van natuur-, cultuur- en erfgoedbeleving en die bijdraagt aan de lokale economie.\nDentergem ondersteunt de verenigingen  als motoren van de beleving in onze gemeente.",
+    "ap_code": "AP-18",
+    "ap_short": "Dentergem biedt een gevarieerd en inclusief vrijetijdsaanbod aan.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-47",
+    "ac_short": "Dentergem zet in op het bevorderen van gezondheid via een gevarieerd en inclusief sportaanbod.",
+    "ac_long": "Dentergem zet in op het bevorderen van een gezonde levensstijl en stimuleert sportdeelname door een gevarieerd en inclusief sportaanbod voor alle leeftijden.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 36000.0,
+    "amount_per_capita": 4.05,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 36000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 4.05,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-2",
+    "bd_short": "Dentergem biedt ondersteuning aan inwoners op maat van elke levensfase.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem biedt zorgzame en nabije ondersteuning op maat van elke levensfase, met aandacht voor verbondenheid, zelfredzaamheid en welzijn.\nHierbij ondersteunt Dentergem in zorg en opvoeding. Tegengaan van armoede is hierbij een streefdoel. Toegankelijke en proactieve dienstverlening vanuit het Sociaal Huis is primordiaal.\nDentergem zet in op initiatieven die senioren helpen om sociaal actief en zelfstandig te blijven.",
+    "ap_code": "AP-6",
+    "ap_short": "Dentergem biedt een toegankelijke en proactieve dienstverlening aan vanuit het Sociaal Huis.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-15",
+    "ac_short": "Dentergem zet in op de ( mentale) gezondheid van de inwoners.",
+    "ac_long": "Dentergem zet actief in op sensibilisering en  preventie en gaat actief op zoek naar samenwerkingsverbanden in het kader van ( mentale) gezondheid.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 2.25,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-4",
+    "bd_short": "Dentergem kiest voor veilige en duurzame mobiliteit voor iedereen.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem neemt verder gerichte maatregelen om het comfort en de veiligheid van alle weggebruikers te verhogen. Duurzame mobiiteit is hierbij een te volgen leidraad.\nDit behelst eveneens gerichte ingrepen aan de openbare wegen in het kader van verkeersveiligheid en de zwakke weggebruiker.",
+    "ap_code": "AP-11",
+    "ap_short": "Dentergem bewaakt via gerichte ingrepen de verkeersveiligheid,  bovenal voor zwakke weggebruikers.",
+    "ap_long": "Dentergem plant gerichte ingrepen aan de openbare wegen in het kader van verkeersveiligheid en ten bate van de zwakke weggebruikers.",
+    "ac_code": "ACT-28",
+    "ac_short": "Dentergem werkt het mobiliteitsplan verder uit.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 2.25,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 20000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2.25,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-2",
+    "bd_short": "Dentergem biedt ondersteuning aan inwoners op maat van elke levensfase.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem biedt zorgzame en nabije ondersteuning op maat van elke levensfase, met aandacht voor verbondenheid, zelfredzaamheid en welzijn.\nHierbij ondersteunt Dentergem in zorg en opvoeding. Tegengaan van armoede is hierbij een streefdoel. Toegankelijke en proactieve dienstverlening vanuit het Sociaal Huis is primordiaal.\nDentergem zet in op initiatieven die senioren helpen om sociaal actief en zelfstandig te blijven.",
+    "ap_code": "AP-3",
+    "ap_short": "Dentergem ondersteunt gezinnen.",
+    "ap_long": "Dentergem  biedt gezinnen de nodige en aangepaste ondersteuning in zorg en opvoeding.",
+    "ac_code": "ACT-07",
+    "ac_short": "Dentergem bouwt het Huis van het Kind verder uit.",
+    "ac_long": "Dentergem bouwt het Huis van het Kind verder uit als laagdrempelig aanspreekpunt voor gezinnen, met een geïntegreerd aanbod rond opvoeding, gezondheid, vrije tijd en gezinsondersteuning.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 18000.0,
+    "amount_per_capita": 2.02,
+    "yearly_amounts": {
+      "2026": 18000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-5",
+    "bd_short": "Dentergem zet in op een denderende woon - en leefomgeving.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem zet verder in op aangename groenzones en een nette gemeente.\nDentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.\nEr wordt een studie uitgevoerd om het patrimonium van de gemeente in kaart te brengen en te evalueren en dit met het oog op een toekomstgerichte en efficiente inzet van het gemeentelijk patrimonium.",
+    "ap_code": "AP-14",
+    "ap_short": "Dentergem zet zich in voor een klimaatbestendige publieke openbare ruimte.",
+    "ap_long": "Dentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.",
+    "ac_code": "ACT-37",
+    "ac_short": "Dentergem sensibiliseert de inwoners actief rond klimaat en biedt concrete stimulansen terzake aan.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 1.69,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 0,
+      "2028": 5000.0,
+      "2029": 0,
+      "2030": 5000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.56,
+      "2027": 0,
+      "2028": 0.56,
+      "2029": 0,
+      "2030": 0.56,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-5",
+    "bd_short": "Dentergem zet in op een denderende woon - en leefomgeving.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem zet verder in op aangename groenzones en een nette gemeente.\nDentergem zet zich in voor een klimaatbestendige publieke ruimte in navolging van haar klimaatplan.\nEr wordt een studie uitgevoerd om het patrimonium van de gemeente in kaart te brengen en te evalueren en dit met het oog op een toekomstgerichte en efficiente inzet van het gemeentelijk patrimonium.",
+    "ap_code": "AP-15",
+    "ap_short": "Dentergem zet in op een duurzame woon - en leefomgeving.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-39",
+    "ac_short": "Dentergem zet in op dierenwelzijn.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 8000.0,
+    "amount_per_capita": 0.9,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 8000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.9,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dentergem",
+    "nis_code": "37002",
+    "bd_code": "BD-6",
+    "bd_short": "Dentergem investeert in kwaliteitsvolle, multifunctionele infrastructuur voor vrije tijd.",
+    "bd_long": "Kwalitatieve omschrijving: Dentergem investeert in een nieuwe bibliotheek als cultureel knooppunt.\nDe vrijetijdsinfrastructuur wordt mee opgenomen in de geplande studie van het gemeentelijk patrimonium.",
+    "ap_code": "AP-17",
+    "ap_short": "Dentergem investeert in toekomstbestendige en duurzame voorzieningen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-44",
+    "ac_short": "Dentergem zet in op kunst in openbare ruimte.",
+    "ac_long": "dentergem zet in op kunst in het straatbeeld om de leefomgeving te verrijken en de identiteit en geschiedenis zichtbaar te maken.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 7500.0,
+    "amount_per_capita": 0.84,
+    "yearly_amounts": {
+      "2026": 7500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.84,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

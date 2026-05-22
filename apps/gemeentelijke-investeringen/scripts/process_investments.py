@@ -13,6 +13,7 @@ Data structure:
 """
 import pandas as pd
 import shutil
+from numbers import Number
 from pathlib import Path
 
 APP_DIR = Path(__file__).resolve().parent.parent
@@ -67,6 +68,132 @@ def resolve_input_path(*candidates: str) -> Path:
         if path.exists():
             return path
     return DATA_DIR / candidates[0]
+
+
+def parse_numeric(value):
+    """Parse values exactly like the original semicolon CSV pipeline."""
+    if pd.isna(value) or value == '':
+        return None
+
+    value_str = str(value).strip().replace('.', '').replace(',', '.')
+    if not value_str:
+        return None
+
+    try:
+        return float(value_str)
+    except ValueError:
+        return None
+
+
+def format_csv_number(value):
+    """Format workbook numbers for the semicolon CSV parser."""
+    if pd.isna(value) or value == '':
+        return ''
+    if isinstance(value, Number):
+        number = f'{float(value):.15g}'
+        if '.' not in number:
+            number = f'{number}.0'
+        return number.replace('.', ',')
+    return str(value)
+
+
+def convert_bv_workbook_to_wide_csv(workbook_path, csv_path):
+    """
+    Convert a tidy BV workbook export to the wide CSV format used by BBC-DR CSV exports.
+    """
+    print(f"Converteer BV workbook naar CSV: {workbook_path.name} -> {csv_path.name}")
+
+    df = pd.read_excel(workbook_path, sheet_name=0, header=None)
+    header_idx = -1
+    for i, row in df.iterrows():
+        if str(row.iloc[0]).strip() == 'NIS-code':
+            header_idx = i
+            break
+
+    if header_idx == -1:
+        raise ValueError(f"'NIS-code' header row not found in {workbook_path}")
+
+    headers = [str(value).strip() for value in df.iloc[header_idx].tolist()]
+    data = df.iloc[header_idx + 1:].copy()
+    data.columns = headers
+
+    required_cols = [
+        'NIS-code',
+        'Type rapport',
+        'Rapportjaar',
+        'Boekjaar',
+        'BV_domein',
+        'BV_subdomein',
+        'Beleidsveld',
+        'Uitgave',
+        'Uitgave per inwoner',
+    ]
+    missing_cols = [col for col in required_cols if col not in data.columns]
+    if missing_cols:
+        raise ValueError(f"Ontbrekende kolommen in {workbook_path.name}: {missing_cols}")
+
+    data = data[required_cols].copy()
+    data['NIS-code'] = data['NIS-code'].astype(str).str.split('.').str[0].str.strip()
+    data = data[data['NIS-code'].str.isdigit()]
+
+    meta_cols = ['Type rapport', 'Rapportjaar', 'Boekjaar', 'BV_domein', 'BV_subdomein', 'Beleidsveld']
+    combinations = data[meta_cols].drop_duplicates()
+    combination_records = combinations.to_dict('records')
+    combination_keys = [tuple(record[col] for col in meta_cols) for record in combination_records]
+
+    csv_rows = []
+    for meta_col in meta_cols:
+        row = [meta_col]
+        for record in combination_records:
+            row.extend([record[meta_col], record[meta_col]])
+        csv_rows.append(row)
+
+    value_types = []
+    for _ in combination_records:
+        value_types.extend(['Uitgave', 'Uitgave per inwoner'])
+    csv_rows.append(['NIS-code'] + value_types)
+
+    value_lookup = {}
+    for _, source_row in data.iterrows():
+        key = tuple(source_row[col] for col in meta_cols)
+        nis_code = source_row['NIS-code']
+        value_lookup[(nis_code, key, 'Uitgave')] = source_row['Uitgave']
+        value_lookup[(nis_code, key, 'Uitgave per inwoner')] = source_row['Uitgave per inwoner']
+
+    for nis_code in sorted(data['NIS-code'].unique()):
+        out_row = [nis_code]
+        for combo in combination_keys:
+            out_row.append(format_csv_number(value_lookup.get((nis_code, combo, 'Uitgave'), '')))
+            out_row.append(format_csv_number(value_lookup.get((nis_code, combo, 'Uitgave per inwoner'), '')))
+        csv_rows.append(out_row)
+
+    csv_path.parent.mkdir(parents=True, exist_ok=True)
+    pd.DataFrame(csv_rows).to_csv(csv_path, sep=';', header=False, index=False)
+    print(f"CSV opgeslagen naar: {csv_path}")
+
+
+def ensure_converted_bv_workbook_csv(workbook_name, csv_name, current_csv_name=None):
+    workbook_path = DATA_DIR / workbook_name
+    csv_path = DATA_DIR / csv_name
+    current_csv_path = DATA_DIR / current_csv_name if current_csv_name else None
+
+    if not workbook_path.exists():
+        return
+
+    source_mtime = max(workbook_path.stat().st_mtime, Path(__file__).stat().st_mtime)
+    needs_snapshot = not csv_path.exists() or csv_path.stat().st_mtime < source_mtime
+    needs_current = current_csv_path is not None and (
+        not current_csv_path.exists() or current_csv_path.stat().st_mtime < source_mtime
+    )
+
+    if needs_snapshot:
+        convert_bv_workbook_to_wide_csv(workbook_path, csv_path)
+
+    if needs_current:
+        if not csv_path.exists():
+            convert_bv_workbook_to_wide_csv(workbook_path, csv_path)
+        shutil.copy2(csv_path, current_csv_path)
+        print(f"Actuele BV CSV bijgewerkt: {current_csv_path}")
 
 def process_rek_file(file_path, rapportjaar):
     """
@@ -240,10 +367,8 @@ def process_bv_file(file_path, rapportjaar, chunk_size=200):
                 # Verify meta_idx is within bounds
                 if meta_idx >= len(nis_code_header): continue
 
-                value_str = str(value).replace('.', '').replace(',', '.')
-                try:
-                    value_num = float(value_str)
-                except:
+                value_num = parse_numeric(value)
+                if value_num is None:
                     continue
                 
                 # Filter out zero values to drastically reduce data size
@@ -309,6 +434,7 @@ def process_bv_file(file_path, rapportjaar, chunk_size=200):
 
 def main():
     """Verwerk alle REK en BV bestanden."""
+    ensure_converted_bv_workbook_csv('MJP BV 2026-05.xlsx', 'MJP BV 2026-05 MVA.csv', 'MJP BV 2026 MVA.csv')
 
     rek_files = [
         (resolve_input_path('mjp rek 2014.csv', 'MJP REK 2014.csv'), 2014),
@@ -319,7 +445,7 @@ def main():
     bv_files = [
         (resolve_input_path('MJP BV 2014 MVA.csv', 'mjp 2014 bv.csv'), 2014),
         (resolve_input_path('MJP BV 2020 MVA.csv', 'mjp 2020 bv.csv'), 2020),
-        (resolve_input_path('MJP BV 2026 MVA.csv', 'mjp bv 26.csv'), 2026),
+        (resolve_input_path('MJP BV 2026 MVA.csv', 'MJP BV 2026-05 MVA.csv', 'mjp bv 26.csv'), 2026),
     ]
 
     # Verwerk REK bestanden

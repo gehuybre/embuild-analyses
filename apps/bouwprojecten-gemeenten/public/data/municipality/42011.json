@@ -8,116 +8,82 @@
     "ap_code": "",
     "ap_short": "",
     "ap_long": "",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 9603673.0,
-    "amount_per_capita": 468.89,
+    "total_amount": 10086022.14,
+    "amount_per_capita": 490.03,
     "yearly_amounts": {
-      "2026": 1654155.0,
-      "2027": 1466797.0,
-      "2028": 2042697.0,
-      "2029": 2490389.0,
-      "2030": 804845.0,
-      "2031": 1144790.0
+      "2026": 2136504.36,
+      "2027": 1466796.9,
+      "2028": 2042696.61,
+      "2029": 2490389.49,
+      "2030": 804844.43,
+      "2031": 1144790.35
     },
     "yearly_per_capita": {
-      "2026": 80.76,
-      "2027": 71.62,
-      "2028": 99.73,
-      "2029": 121.59,
-      "2030": 39.3,
-      "2031": 55.89
+      "2026": 103.8,
+      "2027": 71.26,
+      "2028": 99.24,
+      "2029": 121.0,
+      "2030": 39.1,
+      "2031": 55.62
     }
   },
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 29",
     "bd_short": "Veilig fietsverkeer",
     "bd_long": "In Lebbeke is er meer en veiliger fietsverkeer",
     "ap_code": "7",
     "ap_short": "Weginfrastructuur",
     "ap_long": "We voorzien veilige en goed onderhouden weginfrastructuur, ook voor onze zwakke weggebruikers",
-    "ac_code": "7",
-    "ac_short": "Fietssnelwegen",
-    "ac_long": "Investeren in de aanleg van en voorzien van ruimte voor fietssnelwegen",
+    "ac_code": "7_16",
+    "ac_short": "Gemeentelijke projecten aan de weginfrastructuur",
+    "ac_long": "Gemeentelijke projecten aan de weginfrastructuur",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 7687700.0,
-    "amount_per_capita": 375.35,
+    "total_amount": 3893724.13,
+    "amount_per_capita": 189.18,
     "yearly_amounts": {
-      "2026": 2608700.0,
-      "2027": 1575000.0,
-      "2028": 1047000.0,
-      "2029": 1157000.0,
-      "2030": 650000.0,
-      "2031": 650000.0
+      "2026": 893724.13,
+      "2027": 600000.0,
+      "2028": 600000.0,
+      "2029": 600000.0,
+      "2030": 600000.0,
+      "2031": 600000.0
     },
     "yearly_per_capita": {
-      "2026": 127.37,
-      "2027": 76.9,
-      "2028": 51.12,
-      "2029": 56.49,
-      "2030": 31.74,
-      "2031": 31.74
+      "2026": 43.42,
+      "2027": 29.15,
+      "2028": 29.15,
+      "2029": 29.15,
+      "2030": 29.15,
+      "2031": 29.15
     }
   },
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
-    "bd_short": "Ruim vrijetijdsaanbod",
-    "bd_long": "In Lebbeke is er een ruim vrijetijdsaanbod voor jong en oud",
-    "ap_code": "17",
-    "ap_short": "VT - infrastructuur en materialen",
-    "ap_long": "We beleven vrije tijd in een optimale, toegankelijke infrastructuur en met kwalitatieve materialen",
-    "ac_code": "17",
-    "ac_short": "Exploitatie patrimonium",
-    "ac_long": "We hebben aandacht voor de gerichte exploitatie van ons patrimonium",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 3547500.0,
-    "amount_per_capita": 173.2,
-    "yearly_amounts": {
-      "2026": 545000.0,
-      "2027": 722500.0,
-      "2028": 987500.0,
-      "2029": 772500.0,
-      "2030": 382500.0,
-      "2031": 137500.0
-    },
-    "yearly_per_capita": {
-      "2026": 26.61,
-      "2027": 35.28,
-      "2028": 48.21,
-      "2029": 37.72,
-      "2030": 18.68,
-      "2031": 6.71
-    }
-  },
-  {
-    "municipality": "Lebbeke",
-    "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 33",
     "bd_short": "Iedereen kan zich ontwikkelen en ontplooien",
     "bd_long": "In Lebbeke heeft iedereen van jong tot oud de kans om zich te ontwikkelen en ontplooien",
     "ap_code": "18",
     "ap_short": "(gemeentelijk) onderwijs",
     "ap_long": "We verzekeren (gemeentelijk) onderwijs in een veilige, hygiënische en uitdagende omgeving",
-    "ac_code": "18",
+    "ac_code": "18_53",
     "ac_short": "OPEN SCHOOL' op de site van het Puzzeltje",
     "ac_long": "Realisatie van een 'OPEN SCHOOL' op de site van het Puzzeltje",
     "categories": [
       "08-onderwijs"
     ],
     "total_amount": 2389974.0,
-    "amount_per_capita": 116.69,
+    "amount_per_capita": 116.12,
     "yearly_amounts": {
       "2026": 0,
       "2027": 300000.0,
@@ -128,9 +94,9 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 14.65,
+      "2027": 14.58,
       "2028": 0,
-      "2029": 102.04,
+      "2029": 101.54,
       "2030": 0,
       "2031": 0
     }
@@ -138,22 +104,22 @@
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 27",
     "bd_short": "Optimale (interne) werking",
     "bd_long": "Lebbeke heeft alles in huis voor een optimale (interne) werking",
     "ap_code": "3",
     "ap_short": "Infrastructuur faciliteert professionele werking",
     "ap_long": "Onze gemeentelijke infrastructuur moet een professionele werking faciliteren",
-    "ac_code": "3",
+    "ac_code": "3_6",
     "ac_short": "Optimalisatie gemeentelijk patrimonium",
     "ac_long": "Optimalisatie gemeentelijk patrimonium",
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 1820000.0,
-    "amount_per_capita": 88.86,
+    "total_amount": 2129913.15,
+    "amount_per_capita": 103.48,
     "yearly_amounts": {
-      "2026": 1820000.0,
+      "2026": 2129913.15,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -161,7 +127,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 88.86,
+      "2026": 103.48,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -172,88 +138,360 @@
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 32",
+    "bd_short": "Ruim vrijetijdsaanbod",
+    "bd_long": "In Lebbeke is er een ruim vrijetijdsaanbod voor jong en oud",
+    "ap_code": "17",
+    "ap_short": "VT - infrastructuur en materialen",
+    "ap_long": "We beleven vrije tijd in een optimale, toegankelijke infrastructuur en met kwalitatieve materialen",
+    "ac_code": "17_47",
+    "ac_short": "Exploitatie patrimonium",
+    "ac_long": "We hebben aandacht voor de gerichte exploitatie van ons patrimonium",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1812500.0,
+    "amount_per_capita": 88.06,
+    "yearly_amounts": {
+      "2026": 162500.0,
+      "2027": 450000.0,
+      "2028": 300000.0,
+      "2029": 650000.0,
+      "2030": 250000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.9,
+      "2027": 21.86,
+      "2028": 14.58,
+      "2029": 31.58,
+      "2030": 12.15,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 32",
+    "bd_short": "Ruim vrijetijdsaanbod",
+    "bd_long": "In Lebbeke is er een ruim vrijetijdsaanbod voor jong en oud",
+    "ap_code": "17",
+    "ap_short": "VT - infrastructuur en materialen",
+    "ap_long": "We beleven vrije tijd in een optimale, toegankelijke infrastructuur en met kwalitatieve materialen",
+    "ac_code": "17_48",
+    "ac_short": "Optimaliseren bestaande (eigen) vrijetijdsinfrastructuur",
+    "ac_long": "Optimaliseren van de bestaande (eigen) vrijetijdsinfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1659682.33,
+    "amount_per_capita": 80.64,
+    "yearly_amounts": {
+      "2026": 437182.33,
+      "2027": 242500.0,
+      "2028": 667500.0,
+      "2029": 92500.0,
+      "2030": 112500.0,
+      "2031": 107500.0
+    },
+    "yearly_per_capita": {
+      "2026": 21.24,
+      "2027": 11.78,
+      "2028": 32.43,
+      "2029": 4.49,
+      "2030": 5.47,
+      "2031": 5.22
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 29",
+    "bd_short": "Veilig fietsverkeer",
+    "bd_long": "In Lebbeke is er meer en veiliger fietsverkeer",
+    "ap_code": "7",
+    "ap_short": "Weginfrastructuur",
+    "ap_long": "We voorzien veilige en goed onderhouden weginfrastructuur, ook voor onze zwakke weggebruikers",
+    "ac_code": "7_15",
+    "ac_short": "Fietspaden en fietssuggestiestroken",
+    "ac_long": "Het aanbrengen of opwaarderen van fietspaden of fietssuggestiestroken in straten met hoog gebruik waar momenteel geen fietspad, of geen fietspad dat aan de normen voldoet, aanwezig is",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1427655.94,
+    "amount_per_capita": 69.36,
+    "yearly_amounts": {
+      "2026": 502655.94,
+      "2027": 925000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 24.42,
+      "2027": 44.94,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 29",
+    "bd_short": "Veilig fietsverkeer",
+    "bd_long": "In Lebbeke is er meer en veiliger fietsverkeer",
+    "ap_code": "7",
+    "ap_short": "Weginfrastructuur",
+    "ap_long": "We voorzien veilige en goed onderhouden weginfrastructuur, ook voor onze zwakke weggebruikers",
+    "ac_code": "7_18",
+    "ac_short": "Weginfrastructuur in combinatie met werken van rioolbeheer",
+    "ac_long": "Onderhoud en herstel van de weginfrastructuur in combinatie met werken van rioolbeheer",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1270000.0,
+    "amount_per_capita": 61.7,
+    "yearly_amounts": {
+      "2026": 1270000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 61.7,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 29",
+    "bd_short": "Veilig fietsverkeer",
+    "bd_long": "In Lebbeke is er meer en veiliger fietsverkeer",
+    "ap_code": "7",
+    "ap_short": "Weginfrastructuur",
+    "ap_long": "We voorzien veilige en goed onderhouden weginfrastructuur, ook voor onze zwakke weggebruikers",
+    "ac_code": "7_17",
+    "ac_short": "Gescheiden rioleringsstelsels in te optimaliseren gebieden",
+    "ac_long": "Aanleg van gescheiden rioleringsstelsels in te optimaliseren gebieden",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 833700.0,
+    "amount_per_capita": 40.51,
+    "yearly_amounts": {
+      "2026": 436700.0,
+      "2027": 0,
+      "2028": 397000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 21.22,
+      "2027": 0,
+      "2028": 19.29,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 32",
     "bd_short": "Ruim vrijetijdsaanbod",
     "bd_long": "In Lebbeke is er een ruim vrijetijdsaanbod voor jong en oud",
     "ap_code": "16",
     "ap_short": "Bruisend verenigingsleven",
     "ap_long": "Het bruisende verenigingsleven krijgt alle kansen in Lebbeke",
-    "ac_code": "16",
-    "ac_short": "Ondersteuning verenigingen",
-    "ac_long": "Uitrollen van een doelgericht logistiek en inhoudelijk ondersteuningsbeleid op maat van de verenigingen",
+    "ac_code": "16_45",
+    "ac_short": "Subsidiebeleid",
+    "ac_long": "Uitrollen van een doelgericht en effectief subsidiebeleid op maat van onze verenigingen en burgers",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 765000.0,
-    "amount_per_capita": 37.35,
+    "total_amount": 750000.0,
+    "amount_per_capita": 36.44,
     "yearly_amounts": {
-      "2026": 752500.0,
-      "2027": 2500.0,
-      "2028": 2500.0,
-      "2029": 2500.0,
-      "2030": 2500.0,
-      "2031": 2500.0
+      "2026": 750000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 36.74,
-      "2027": 0.12,
-      "2028": 0.12,
-      "2029": 0.12,
-      "2030": 0.12,
-      "2031": 0.12
+      "2026": 36.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 31",
     "bd_short": "Groene & open ruimtes",
     "bd_long": "In Lebbeke komt iedereen tot rust in onze groene & open ruimtes",
     "ap_code": "13",
     "ap_short": "Creëren en bestendigen groene ruimtes in de buurt",
     "ap_long": "Waar de kans zich voordoet, creëren en bestendigen we groene ruimtes in de buurt van ieders woning",
-    "ac_code": "13",
-    "ac_short": "We voeren de klimaatactieplannen uit",
-    "ac_long": "We voeren de klimaatactieplannen uit",
+    "ac_code": "13_37",
+    "ac_short": "Meer ruimte voor water",
+    "ac_long": "Meer ruimte voor water",
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 628000.0,
-    "amount_per_capita": 30.66,
+    "total_amount": 538000.0,
+    "amount_per_capita": 26.14,
     "yearly_amounts": {
-      "2026": 578000.0,
-      "2027": 10000.0,
-      "2028": 10000.0,
-      "2029": 10000.0,
-      "2030": 10000.0,
-      "2031": 10000.0
+      "2026": 538000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 28.22,
-      "2027": 0.49,
-      "2028": 0.49,
-      "2029": 0.49,
-      "2030": 0.49,
-      "2031": 0.49
+      "2026": 26.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 29",
+    "bd_short": "Veilig fietsverkeer",
+    "bd_long": "In Lebbeke is er meer en veiliger fietsverkeer",
+    "ap_code": "7",
+    "ap_short": "Weginfrastructuur",
+    "ap_long": "We voorzien veilige en goed onderhouden weginfrastructuur, ook voor onze zwakke weggebruikers",
+    "ac_code": "7_14",
+    "ac_short": "Fietssnelwegen",
+    "ac_long": "Investeren in de aanleg van en voorzien van ruimte voor fietssnelwegen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 507000.0,
+    "amount_per_capita": 24.63,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 507000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 24.63,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 29",
+    "bd_short": "Veilig fietsverkeer",
+    "bd_long": "In Lebbeke is er meer en veiliger fietsverkeer",
+    "ap_code": "7",
+    "ap_short": "Weginfrastructuur",
+    "ap_long": "We voorzien veilige en goed onderhouden weginfrastructuur, ook voor onze zwakke weggebruikers",
+    "ac_code": "7_19",
+    "ac_short": "Uitvoeren van het hemelwater- en droogteplan",
+    "ac_long": "Uitvoeren van het hemelwater- en droogteplan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 300896.8,
+    "amount_per_capita": 14.62,
+    "yearly_amounts": {
+      "2026": 50896.8,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.47,
+      "2027": 2.43,
+      "2028": 2.43,
+      "2029": 2.43,
+      "2030": 2.43,
+      "2031": 2.43
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 30",
+    "bd_short": "Wonen, werken, winkelen & leven",
+    "bd_long": "Iedereen woont, werkt, winkelt & leeft graag in Lebbeke",
+    "ap_code": "9",
+    "ap_short": "Lebbeke wordt aantrekkelijker",
+    "ap_long": "Lebbeke wordt aantrekkelijker voor inwoners en toeristen",
+    "ac_code": "9_24",
+    "ac_short": "Calvarieberg op het kerkhof van Lebbeke: renoveren monument",
+    "ac_long": "Calvarieberg op het kerkhof van Lebbeke: renoveren monument",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 267404.57,
+    "amount_per_capita": 12.99,
+    "yearly_amounts": {
+      "2026": 267404.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.99,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 31",
     "bd_short": "Groene & open ruimtes",
     "bd_long": "In Lebbeke komt iedereen tot rust in onze groene & open ruimtes",
     "ap_code": "14",
     "ap_short": "Integraal tragewegenbeleid",
     "ap_long": "Het gemeentebestuur wil een integraal tragewegenbeleid uitwerken en toepassen",
-    "ac_code": "14",
+    "ac_code": "14_38",
     "ac_short": "We maken werk van een geïntegreerd tragewegenbeleid",
     "ac_long": "We maken werk van een geïntegreerd tragewegenbeleid",
     "categories": [
       "03-natuur-milieu"
     ],
     "total_amount": 234000.0,
-    "amount_per_capita": 11.42,
+    "amount_per_capita": 11.37,
     "yearly_amounts": {
       "2026": 39000.0,
       "2027": 39000.0,
@@ -263,31 +501,31 @@
       "2031": 39000.0
     },
     "yearly_per_capita": {
-      "2026": 1.9,
-      "2027": 1.9,
-      "2028": 1.9,
-      "2029": 1.9,
-      "2030": 1.9,
-      "2031": 1.9
+      "2026": 1.89,
+      "2027": 1.89,
+      "2028": 1.89,
+      "2029": 1.89,
+      "2030": 1.89,
+      "2031": 1.89
     }
   },
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 27",
     "bd_short": "Optimale (interne) werking",
     "bd_long": "Lebbeke heeft alles in huis voor een optimale (interne) werking",
     "ap_code": "2",
     "ap_short": "ICT faciliteert professionele werking",
     "ap_long": "Onze ICT-omgeving en ons databeheersysteem moeten een professionele werking faciliteren",
-    "ac_code": "2",
+    "ac_code": "2_4",
     "ac_short": "Cyberweerbaarheid",
     "ac_long": "Cyberweerbaarheid",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 7.32,
+    "amount_per_capita": 7.29,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -299,7 +537,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 7.32,
+      "2028": 7.29,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -308,20 +546,54 @@
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 32",
+    "bd_short": "Ruim vrijetijdsaanbod",
+    "bd_long": "In Lebbeke is er een ruim vrijetijdsaanbod voor jong en oud",
+    "ap_code": "17",
+    "ap_short": "VT - infrastructuur en materialen",
+    "ap_long": "We beleven vrije tijd in een optimale, toegankelijke infrastructuur en met kwalitatieve materialen",
+    "ac_code": "17_51",
+    "ac_short": "Optimaliseren van het uitleenaanbod",
+    "ac_long": "Optimaliseren van het uitleenaanbod",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 5.83,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.97,
+      "2027": 0.97,
+      "2028": 0.97,
+      "2029": 0.97,
+      "2030": 0.97,
+      "2031": 0.97
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 35",
     "bd_short": "Zorg voor iedereen van jong tot oud",
     "bd_long": "Lebbeke draagt zorg voor iedereen van jong tot oud",
     "ap_code": "22",
     "ap_short": "Kinderopvang en buitenschoolse activiteiten",
     "ap_long": "We faciliteren kwaliteitsvolle kinderopvang en buitenschoolse activiteiten",
-    "ac_code": "22",
+    "ac_code": "22_65",
     "ac_short": "Renovaties en infrastructuuraanpassingen 't Kwakkeltje",
     "ac_long": "Realiseren van noodzakelijke renovaties en infrastructuuraanpassingen in kinderopvang 't Kwakkeltje",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 110000.0,
-    "amount_per_capita": 5.37,
+    "amount_per_capita": 5.34,
     "yearly_amounts": {
       "2026": 110000.0,
       "2027": 0,
@@ -331,7 +603,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.37,
+      "2026": 5.34,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -342,20 +614,20 @@
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 35",
     "bd_short": "Zorg voor iedereen van jong tot oud",
     "bd_long": "Lebbeke draagt zorg voor iedereen van jong tot oud",
     "ap_code": "21",
     "ap_short": "Hvhk als laagdrempelig platform voor kinderen en opvoeders",
     "ap_long": "Ons Huis van het Kind is een laagdrempelig platform voor alle kinderen en opvoeders",
-    "ac_code": "21",
+    "ac_code": "21_60",
     "ac_short": "Toegankelijke locatie voor het Huis van het Kind",
     "ac_long": "Realiseren van een toegankelijke locatie voor het Huis van het Kind",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 4.88,
+    "amount_per_capita": 4.86,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
@@ -365,7 +637,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.88,
+      "2026": 4.86,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -376,22 +648,56 @@
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 31",
+    "bd_short": "Groene & open ruimtes",
+    "bd_long": "In Lebbeke komt iedereen tot rust in onze groene & open ruimtes",
+    "ap_code": "13",
+    "ap_short": "Creëren en bestendigen groene ruimtes in de buurt",
+    "ap_long": "Waar de kans zich voordoet, creëren en bestendigen we groene ruimtes in de buurt van ieders woning",
+    "ac_code": "13_36",
+    "ac_short": "Ontmoetingsplaats tussen Meerskant en Denderstraat",
+    "ac_long": "Creëren van een ontmoetingsplaats tussen Meerskant en Denderstraat",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 99352.65,
+    "amount_per_capita": 4.83,
+    "yearly_amounts": {
+      "2026": 99352.65,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 29",
     "bd_short": "Veilig fietsverkeer",
     "bd_long": "In Lebbeke is er meer en veiliger fietsverkeer",
     "ap_code": "6",
     "ap_short": "Stimuleren duurzame mobiliteit",
     "ap_long": "We zetten ons in om het gebruik van duurzame mobiliteit te stimuleren",
-    "ac_code": "6",
+    "ac_code": "6_12",
     "ac_short": "Onderzoeken en inrichten van Hoppinpunten",
     "ac_long": "Onderzoeken en inrichten van Hoppinpunten",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 80000.0,
-    "amount_per_capita": 3.91,
+    "total_amount": 85000.0,
+    "amount_per_capita": 4.13,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 25000.0,
       "2027": 15000.0,
       "2028": 15000.0,
       "2029": 15000.0,
@@ -399,7 +705,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.98,
+      "2026": 1.21,
       "2027": 0.73,
       "2028": 0.73,
       "2029": 0.73,
@@ -410,20 +716,20 @@
   {
     "municipality": "Lebbeke",
     "nis_code": "42011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 32",
     "bd_short": "Ruim vrijetijdsaanbod",
     "bd_long": "In Lebbeke is er een ruim vrijetijdsaanbod voor jong en oud",
     "ap_code": "15",
     "ap_short": "Verbindend en breed vrijetijdsaanbod",
     "ap_long": "Gemeente Lebbeke werkt een verbindend en breed vrijetijdsaanbod uit",
-    "ac_code": "15",
+    "ac_code": "15_43",
     "ac_short": "Erfgoed en toerisme",
     "ac_long": "Uitrollen van een strategisch erfgoed- en toerismebeleid",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 70000.0,
-    "amount_per_capita": 3.42,
+    "amount_per_capita": 3.4,
     "yearly_amounts": {
       "2026": 30000.0,
       "2027": 40000.0,
@@ -434,11 +740,113 @@
     },
     "yearly_per_capita": {
       "2026": 1.46,
-      "2027": 1.95,
+      "2027": 1.94,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 31",
+    "bd_short": "Groene & open ruimtes",
+    "bd_long": "In Lebbeke komt iedereen tot rust in onze groene & open ruimtes",
+    "ap_code": "13",
+    "ap_short": "Creëren en bestendigen groene ruimtes in de buurt",
+    "ap_long": "Waar de kans zich voordoet, creëren en bestendigen we groene ruimtes in de buurt van ieders woning",
+    "ac_code": "13_33",
+    "ac_short": "We voeren de klimaatactieplannen uit",
+    "ac_long": "We voeren de klimaatactieplannen uit",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 2.92,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.49,
+      "2027": 0.49,
+      "2028": 0.49,
+      "2029": 0.49,
+      "2030": 0.49,
+      "2031": 0.49
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 32",
+    "bd_short": "Ruim vrijetijdsaanbod",
+    "bd_long": "In Lebbeke is er een ruim vrijetijdsaanbod voor jong en oud",
+    "ap_code": "17",
+    "ap_short": "VT - infrastructuur en materialen",
+    "ap_long": "We beleven vrije tijd in een optimale, toegankelijke infrastructuur en met kwalitatieve materialen",
+    "ac_code": "17_50",
+    "ac_short": "Natuurlijk (her)inrichten van de speelpleinen",
+    "ac_long": "Natuurlijk (her)inrichten van de speelpleinen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.46,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 10000.0,
+      "2030": 0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.49,
+      "2028": 0,
+      "2029": 0.49,
+      "2030": 0,
+      "2031": 0.49
+    }
+  },
+  {
+    "municipality": "Lebbeke",
+    "nis_code": "42011",
+    "bd_code": "BDS 32",
+    "bd_short": "Ruim vrijetijdsaanbod",
+    "bd_long": "In Lebbeke is er een ruim vrijetijdsaanbod voor jong en oud",
+    "ap_code": "16",
+    "ap_short": "Bruisend verenigingsleven",
+    "ap_long": "Het bruisende verenigingsleven krijgt alle kansen in Lebbeke",
+    "ac_code": "16_44",
+    "ac_short": "Ondersteuning verenigingen",
+    "ac_long": "Uitrollen van een doelgericht logistiek en inhoudelijk ondersteuningsbeleid op maat van de verenigingen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.73,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 2500.0,
+      "2028": 2500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.12,
+      "2027": 0.12,
+      "2028": 0.12,
+      "2029": 0.12,
+      "2030": 0.12,
+      "2031": 0.12
     }
   }
 ]

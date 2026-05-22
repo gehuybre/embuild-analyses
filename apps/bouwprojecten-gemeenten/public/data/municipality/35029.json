@@ -2,88 +2,20 @@
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
-    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
-    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
-    "ap_code": "2G01",
-    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
-    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
-    "ac_code": "2G01",
-    "ac_short": "Onderhoudswerken wegen volgens prioriteitenlijst.",
-    "ac_long": "Onderhoudswerken wegen volgens prioriteitenlijst.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 17119960.0,
-    "amount_per_capita": 1316.72,
-    "yearly_amounts": {
-      "2026": 1699310.0,
-      "2027": 5352150.0,
-      "2028": 4400000.0,
-      "2029": 2798500.0,
-      "2030": 570000.0,
-      "2031": 2300000.0
-    },
-    "yearly_per_capita": {
-      "2026": 130.7,
-      "2027": 411.64,
-      "2028": 338.41,
-      "2029": 215.24,
-      "2030": 43.84,
-      "2031": 176.9
-    }
-  },
-  {
-    "municipality": "De Haan",
-    "nis_code": "35029",
-    "bd_code": "BDS",
-    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
-    "bd_long": "Doordacht omgaan met eigen patrimonium",
-    "ap_code": "2C01",
-    "ap_short": "Patrimonium beheren",
-    "ap_long": "Patrimonium beheren",
-    "ac_code": "2C01",
-    "ac_short": "Onderdak voor redders en boten op strand.",
-    "ac_long": "Onderdak voor redders en boten op strand.",
-    "categories": [
-      "04-veiligheidszorg"
-    ],
-    "total_amount": 16308000.0,
-    "amount_per_capita": 1254.28,
-    "yearly_amounts": {
-      "2026": 7163000.0,
-      "2027": 7135000.0,
-      "2028": 1560000.0,
-      "2029": 150000.0,
-      "2030": 150000.0,
-      "2031": 150000.0
-    },
-    "yearly_per_capita": {
-      "2026": 550.92,
-      "2027": 548.76,
-      "2028": 119.98,
-      "2029": 11.54,
-      "2030": 11.54,
-      "2031": 11.54
-    }
-  },
-  {
-    "municipality": "De Haan",
-    "nis_code": "35029",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "",
+    "ap_code": "overigBeleid",
     "ap_short": "overigBeleid",
     "ap_long": "overigBeleid",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 14340191.0,
-    "amount_per_capita": 1102.93,
+    "amount_per_capita": 1101.74,
     "yearly_amounts": {
       "2026": 3355614.0,
       "2027": 1490200.0,
@@ -93,31 +25,65 @@
       "2031": 5525844.0
     },
     "yearly_per_capita": {
-      "2026": 258.09,
-      "2027": 114.61,
-      "2028": 65.04,
-      "2029": 188.8,
-      "2030": 51.39,
-      "2031": 425.0
+      "2026": 257.81,
+      "2027": 114.49,
+      "2028": 64.97,
+      "2029": 188.59,
+      "2030": 51.33,
+      "2031": 424.54
     }
   },
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-04",
+    "ac_short": "Gemeentehuis GLV + 1e verdieping + verwarming.",
+    "ac_long": "Gemeentehuis GLV + 1e verdieping + verwarming.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 7060000.0,
+    "amount_per_capita": 542.41,
+    "yearly_amounts": {
+      "2026": 3560000.0,
+      "2027": 3500000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 273.51,
+      "2027": 268.9,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 5",
     "bd_short": "2A. Inzetten op betaalbaar wonen",
     "bd_long": "Inzetten op betaalbaar wonen",
     "ap_code": "2A01",
     "ap_short": "Uitwerken nieuwe of vernieuwde instrumenten betaalbaar wonen",
     "ap_long": "Uitwerken nieuwe of vernieuwde instrumenten voor betaalbaar wonen",
-    "ac_code": "2A01",
+    "ac_code": "2A01_2A01-02",
     "ac_short": "Nieuwe instrumenten zoeken.",
     "ac_long": "Nieuwe instrumenten zoeken (bv. 'Bescheiden VerhuurKantoor BVK).",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 5010000.0,
-    "amount_per_capita": 385.33,
+    "amount_per_capita": 384.91,
     "yearly_amounts": {
       "2026": 835000.0,
       "2027": 835000.0,
@@ -127,42 +93,110 @@
       "2031": 835000.0
     },
     "yearly_per_capita": {
-      "2026": 64.22,
-      "2027": 64.22,
-      "2028": 64.22,
-      "2029": 64.22,
-      "2030": 64.22,
-      "2031": 64.22
+      "2026": 64.15,
+      "2027": 64.15,
+      "2028": 64.15,
+      "2029": 64.15,
+      "2030": 64.15,
+      "2031": 64.15
     }
   },
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
-    "bd_short": "2F. Afvalbeleid",
-    "bd_long": "Afvalbeleid",
-    "ap_code": "2F01",
-    "ap_short": "Doorgedreven afvalbeleid invoeren",
-    "ap_long": "Doorgedreven afvalbeleid invoeren",
-    "ac_code": "2F01",
-    "ac_short": "Uitbreiding ondergrondse afvalstraten.",
-    "ac_long": "Uitbreiding ondergrondse afvalstraten (rest, glas, papier/karton).",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-02",
+    "ac_short": "Nieuwe Steenweg.",
+    "ac_long": "Nieuwe Steenweg.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 2560000.0,
-    "amount_per_capita": 196.89,
+    "total_amount": 4200000.0,
+    "amount_per_capita": 322.68,
     "yearly_amounts": {
-      "2026": 535000.0,
-      "2027": 2025000.0,
+      "2026": 100000.0,
+      "2027": 2100000.0,
+      "2028": 2000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.68,
+      "2027": 161.34,
+      "2028": 153.66,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-13",
+    "ac_short": "Renovatie gemeentehuis Wenduine.",
+    "ac_long": "Renovatie gemeentehuis Wenduine.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 4000000.0,
+    "amount_per_capita": 307.31,
+    "yearly_amounts": {
+      "2026": 1500000.0,
+      "2027": 2000000.0,
+      "2028": 500000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 115.24,
+      "2027": 153.66,
+      "2028": 38.41,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-11",
+    "ac_short": "Landelijke wegen - gedeelte Bredeweg",
+    "ac_long": "Landelijke wegen - gedeelte Bredeweg tussen Kloosterstraat en Vijfwegestraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2436150.0,
+    "amount_per_capita": 187.17,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 2436150.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 41.15,
-      "2027": 155.75,
+      "2026": 0,
+      "2027": 187.17,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -172,20 +206,54 @@
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-01",
+    "ac_short": "Onderhoudswerken wegen volgens prioriteitenlijst.",
+    "ac_long": "Onderhoudswerken wegen volgens prioriteitenlijst.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2385310.0,
+    "amount_per_capita": 183.26,
+    "yearly_amounts": {
+      "2026": 609310.0,
+      "2027": 516000.0,
+      "2028": 360000.0,
+      "2029": 300000.0,
+      "2030": 300000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 46.81,
+      "2027": 39.64,
+      "2028": 27.66,
+      "2029": 23.05,
+      "2030": 23.05,
+      "2031": 23.05
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 9",
     "bd_short": "2E. Duurzaam beleid stimuleren",
     "bd_long": "Duurzaam beleid stimuleren",
     "ap_code": "2E05",
     "ap_short": "Duurzaamheid openbare werken, wagen- en machinepark",
     "ap_long": "Duurzaamheid openbare werken, wagen- en machinepark",
-    "ac_code": "2E05",
+    "ac_code": "2E05_2E05-01",
     "ac_short": "Beperken voertuigen en vergroenen wagen- en machinepark.",
     "ac_long": "Beperken aantal voertuigen en vergroenen wagen- en machinepark.",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 2250000.0,
-    "amount_per_capita": 173.05,
+    "amount_per_capita": 172.86,
     "yearly_amounts": {
       "2026": 405000.0,
       "2027": 445000.0,
@@ -195,31 +263,31 @@
       "2031": 400000.0
     },
     "yearly_per_capita": {
-      "2026": 31.15,
-      "2027": 34.23,
-      "2028": 11.54,
-      "2029": 34.61,
-      "2030": 30.76,
-      "2031": 30.76
+      "2026": 31.12,
+      "2027": 34.19,
+      "2028": 11.52,
+      "2029": 34.57,
+      "2030": 30.73,
+      "2031": 30.73
     }
   },
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 19",
     "bd_short": "3G. Buitenschoolse kinderopvang",
     "bd_long": "Buitenschoolse kinderopvang organiseren",
     "ap_code": "3G02",
     "ap_short": "Herlokaliseren buitenschoolse kinderopvang",
     "ap_long": "Herlokaliseren buitenschoolse kinderopvang",
-    "ac_code": "3G02",
+    "ac_code": "3G02_3G02-01",
     "ac_short": "Herlokaliseren buitenschoolse kinderopvang.",
     "ac_long": "Herlokaliseren buitenschoolse kinderopvang.",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 2120000.0,
-    "amount_per_capita": 163.05,
+    "amount_per_capita": 162.88,
     "yearly_amounts": {
       "2026": 120000.0,
       "2027": 1000000.0,
@@ -229,9 +297,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.23,
-      "2027": 76.91,
-      "2028": 76.91,
+      "2026": 9.22,
+      "2027": 76.83,
+      "2028": 76.83,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -240,20 +308,88 @@
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 10",
+    "bd_short": "2F. Afvalbeleid",
+    "bd_long": "Afvalbeleid",
+    "ap_code": "2F01",
+    "ap_short": "Doorgedreven afvalbeleid invoeren",
+    "ap_long": "Doorgedreven afvalbeleid invoeren",
+    "ac_code": "2F01_2F01-03",
+    "ac_short": "Herlocalisatie en bouw nieuw recyclagepark.",
+    "ac_long": "Herlokalisatie en bouw nieuw recyclagepark.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 153.66,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 1800000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.37,
+      "2027": 138.29,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-14",
+    "ac_short": "Herinrichting Zeedijk-De Haan.",
+    "ac_long": "Herinrichting Zeedijk-De Haan.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 153.66,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 2000000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 153.66
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
     "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
     "bd_long": "Doordacht omgaan met eigen patrimonium",
     "ap_code": "2C02",
     "ap_short": "Verwerven van terreinen waar zinvol",
     "ap_long": "Verwerven van terreinen waar zinvol",
-    "ac_code": "2C02",
+    "ac_code": "2C02_2C02-01",
     "ac_short": "Aankoop gronden bij opportuniteit.",
     "ac_long": "Aankoop gronden bij opportuniteit.",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 1800000.0,
-    "amount_per_capita": 138.44,
+    "amount_per_capita": 138.29,
     "yearly_amounts": {
       "2026": 300000.0,
       "2027": 300000.0,
@@ -263,31 +399,99 @@
       "2031": 300000.0
     },
     "yearly_per_capita": {
-      "2026": 23.07,
-      "2027": 23.07,
-      "2028": 23.07,
-      "2029": 23.07,
-      "2030": 23.07,
-      "2031": 23.07
+      "2026": 23.05,
+      "2027": 23.05,
+      "2028": 23.05,
+      "2029": 23.05,
+      "2030": 23.05,
+      "2031": 23.05
     }
   },
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-09",
+    "ac_short": "Sluizenstraat.",
+    "ac_long": "Sluizenstraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1798500.0,
+    "amount_per_capita": 138.18,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1798500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 138.18,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-05",
+    "ac_short": "Watertoren + pomphuis Wenduine.",
+    "ac_long": "Watertoren + pomphuis Wenduine.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1755000.0,
+    "amount_per_capita": 134.83,
+    "yearly_amounts": {
+      "2026": 585000.0,
+      "2027": 585000.0,
+      "2028": 585000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 44.94,
+      "2027": 44.94,
+      "2028": 44.94,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 9",
     "bd_short": "2E. Duurzaam beleid stimuleren",
     "bd_long": "Duurzaam beleid stimuleren",
     "ap_code": "2E03",
     "ap_short": "Doordacht beleid voeren rond openbare verlichting",
     "ap_long": "Doordacht beleid voeren rond openbare verlichting",
-    "ac_code": "2E03",
+    "ac_code": "2E03_2E03-01",
     "ac_short": "LED en dimbare openbare verlichting verder uitrollen.",
     "ac_long": "LED en dimbare openbare verlichting verder uitrollen.",
     "categories": [
       "06-wonen-ruimte"
     ],
     "total_amount": 1548390.0,
-    "amount_per_capita": 119.09,
+    "amount_per_capita": 118.96,
     "yearly_amounts": {
       "2026": 1063237.0,
       "2027": 47938.0,
@@ -297,31 +501,31 @@
       "2031": 279019.0
     },
     "yearly_per_capita": {
-      "2026": 81.78,
-      "2027": 3.69,
-      "2028": 6.29,
+      "2026": 81.69,
+      "2027": 3.68,
+      "2028": 6.28,
       "2029": 2.94,
       "2030": 2.94,
-      "2031": 21.46
+      "2031": 21.44
     }
   },
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 12",
     "bd_short": "2H. Werking politie verbeteren",
     "bd_long": "Werking politie verbeteren",
     "ap_code": "2H02",
     "ap_short": "Toekomst van de brandweer",
     "ap_long": "Toekomst van de brandweer",
-    "ac_code": "2H02",
+    "ac_code": "2H02_2H02-01",
     "ac_short": "Herlokaliseren kazerne.",
     "ac_long": "Herlokaliseren kazerne.",
     "categories": [
       "04-veiligheidszorg"
     ],
     "total_amount": 1500000.0,
-    "amount_per_capita": 115.37,
+    "amount_per_capita": 115.24,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -333,7 +537,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 115.37,
+      "2028": 115.24,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -342,20 +546,20 @@
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "1D. Dienstverlening optimaliseren",
     "bd_long": "Dienstverlening optimaliseren",
     "ap_code": "1D01",
     "ap_short": "Gemeentelijke diensten versterken waar nodig",
     "ap_long": "Gemeentelijke diensten versterken waar nodig",
-    "ac_code": "1D01",
+    "ac_code": "1D01_1D01-08",
     "ac_short": "ICT - hard- en software actueel houden.",
     "ac_long": "ICT - hard- en software actueel houden.",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 1250000.0,
-    "amount_per_capita": 96.14,
+    "amount_per_capita": 96.04,
     "yearly_amounts": {
       "2026": 224800.0,
       "2027": 254000.0,
@@ -365,31 +569,235 @@
       "2031": 120000.0
     },
     "yearly_per_capita": {
-      "2026": 17.29,
-      "2027": 19.54,
-      "2028": 24.03,
-      "2029": 13.38,
-      "2030": 12.68,
-      "2031": 9.23
+      "2026": 17.27,
+      "2027": 19.51,
+      "2028": 24.0,
+      "2029": 13.37,
+      "2030": 12.66,
+      "2031": 9.22
     }
   },
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-04",
+    "ac_short": "Aanleg verlaagde stoepen en voorzieningen slechtzienden.",
+    "ac_long": "Aanleg verlaagde stoepen en voorzieningen slechtzienden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 76.83,
+    "yearly_amounts": {
+      "2026": 400000.0,
+      "2027": 300000.0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 30.73,
+      "2027": 23.05,
+      "2028": 23.05,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-14",
+    "ac_short": "Renovatie eigen patrimonium.",
+    "ac_long": "Renovatie eigen patrimonium.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 69.15,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 150000.0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 11.52,
+      "2027": 11.52,
+      "2028": 11.52,
+      "2029": 11.52,
+      "2030": 11.52,
+      "2031": 11.52
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-02",
+    "ac_short": "Onderdak voor redders en boten op strand.",
+    "ac_long": "Onderdak voor redders en boten op strand.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 800000.0,
+    "amount_per_capita": 61.46,
+    "yearly_amounts": {
+      "2026": 400000.0,
+      "2027": 400000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 30.73,
+      "2027": 30.73,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-08",
+    "ac_short": "Duinenweg.",
+    "ac_long": "Duinenweg.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 765000.0,
+    "amount_per_capita": 58.77,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 765000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 58.77,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-10",
+    "ac_short": "Harendijke - wegenwerken Geraniumlaan, Lemallaan.",
+    "ac_long": "Harendijke - wegenwerken Geraniumlaan, Lemallaan.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 700000.0,
+    "amount_per_capita": 53.78,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 700000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 53.78,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-07",
+    "ac_short": "Vijfwegestraat.",
+    "ac_long": "Vijfwegestraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 590000.0,
+    "amount_per_capita": 45.33,
+    "yearly_amounts": {
+      "2026": 590000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 45.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 8",
     "bd_short": "2D. Mobiliteit verbeteren",
     "bd_long": "Mobiliteit verbeteren",
     "ap_code": "2D02",
     "ap_short": "Uitwerken mobiliteitsplan",
     "ap_long": "Uitwerken mobiliteitsplan",
-    "ac_code": "2D02",
+    "ac_code": "2D02_2D02-01",
     "ac_short": "Inzetten op fietspaden, vervoersregio, ...",
     "ac_long": "Inzetten op fietspaden, vervoersregio, ...",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 555000.0,
-    "amount_per_capita": 42.69,
+    "amount_per_capita": 42.64,
     "yearly_amounts": {
       "2026": 335000.0,
       "2027": 220000.0,
@@ -399,8 +807,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 25.77,
-      "2027": 16.92,
+      "2026": 25.74,
+      "2027": 16.9,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -410,20 +818,20 @@
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 14",
     "bd_short": "3B. Speelweefsel voor kinderen en jongeren",
     "bd_long": "Speelweefsel voor kinderen en jongeren",
     "ap_code": "3B01",
     "ap_short": "Onderhoud van de speelterreinen en speelzones",
     "ap_long": "Onderhoud van de speelterreinen en speelzones",
-    "ac_code": "3B01",
+    "ac_code": "3B01_3B01-01",
     "ac_short": "Aankoop, vervangen en herstellen speeltoestellen.",
     "ac_long": "Aankoop, vervangen en herstellen speeltoestellen.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 528700.0,
-    "amount_per_capita": 40.66,
+    "amount_per_capita": 40.62,
     "yearly_amounts": {
       "2026": 138700.0,
       "2027": 150000.0,
@@ -433,67 +841,203 @@
       "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 10.67,
-      "2027": 11.54,
-      "2028": 6.92,
-      "2029": 3.85,
-      "2030": 3.85,
-      "2031": 3.85
+      "2026": 10.66,
+      "2027": 11.52,
+      "2028": 6.91,
+      "2029": 3.84,
+      "2030": 3.84,
+      "2031": 3.84
     }
   },
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
-    "bd_short": "4B. Versterken van het toeristisch beleid",
-    "bd_long": "Versterken van het toeristisch beleid",
-    "ap_code": "4B02",
-    "ap_short": "Toeristisch-culturele infrastructuur",
-    "ap_long": "Toeristisch-culturele infrastructuur",
-    "ac_code": "4B02",
-    "ac_short": "Aankoop kunstwerken voor de openbare ruimte.",
-    "ac_long": "Aankoop kunstwerken voor de openbare ruimte.",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-12",
+    "ac_short": "Herinrichting Albrecht Rodenbachlaan.",
+    "ac_long": "Herinrichting Albrecht Rodenbachlaan.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 472141.0,
-    "amount_per_capita": 36.31,
+    "total_amount": 500000.0,
+    "amount_per_capita": 38.41,
     "yearly_amounts": {
-      "2026": 235000.0,
-      "2027": 105700.0,
-      "2028": 56414.0,
-      "2029": 37142.0,
-      "2030": 37885.0,
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 500000.0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 18.07,
-      "2027": 8.13,
-      "2028": 4.34,
-      "2029": 2.86,
-      "2030": 2.91,
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 38.41,
+      "2030": 0,
       "2031": 0
     }
   },
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-13",
+    "ac_short": "Herinrichting Wancourstraat.",
+    "ac_long": "Herinrichting Wancourstraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 475000.0,
+    "amount_per_capita": 36.49,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 275000.0,
+      "2029": 200000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 21.13,
+      "2029": 15.37,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 10",
+    "bd_short": "2F. Afvalbeleid",
+    "bd_long": "Afvalbeleid",
+    "ap_code": "2F01",
+    "ap_short": "Doorgedreven afvalbeleid invoeren",
+    "ap_long": "Doorgedreven afvalbeleid invoeren",
+    "ac_code": "2F01_2F01-02",
+    "ac_short": "Uitbreiding ondergrondse afvalstraten.",
+    "ac_long": "Uitbreiding ondergrondse afvalstraten (rest, glas, papier/karton).",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 34.57,
+    "yearly_amounts": {
+      "2026": 225000.0,
+      "2027": 225000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.29,
+      "2027": 17.29,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-11",
+    "ac_short": "Kerk Sint-Monica : renovatie gevels.",
+    "ac_long": "Kerk Sint-Monica : renovatie gevels.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 425000.0,
+    "amount_per_capita": 32.65,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 200000.0,
+      "2028": 125000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.68,
+      "2027": 15.37,
+      "2028": 9.6,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-12",
+    "ac_short": "Sint-Blasiuskerk - schilderwerken en sacristie.",
+    "ac_long": "Sint-Blasiuskerk - schilderwerken en sacristie.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 380000.0,
+    "amount_per_capita": 29.19,
+    "yearly_amounts": {
+      "2026": 380000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 29.19,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 10",
     "bd_short": "2F. Afvalbeleid",
     "bd_long": "Afvalbeleid",
     "ap_code": "2F02",
     "ap_short": "Doorgedreven milieu- en groenbeleid invoeren",
     "ap_long": "Doorgedreven milieu- en groenbeleid invoeren",
-    "ac_code": "2F02",
-    "ac_short": "Inrichting groenzones.",
-    "ac_long": "Inrichting groenzones.",
+    "ac_code": "2F02_2F02-12",
+    "ac_short": "Asbest verwijderen stimuleren.",
+    "ac_long": "Asbest verwijderen stimuleren.",
     "categories": [
-      "02-mobiliteit"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 345000.0,
-    "amount_per_capita": 26.53,
+    "total_amount": 320000.0,
+    "amount_per_capita": 24.59,
     "yearly_amounts": {
-      "2026": 95000.0,
+      "2026": 70000.0,
       "2027": 0,
       "2028": 0,
       "2029": 250000.0,
@@ -501,10 +1045,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.31,
+      "2026": 5.38,
       "2027": 0,
       "2028": 0,
-      "2029": 19.23,
+      "2029": 19.21,
       "2030": 0,
       "2031": 0
     }
@@ -512,20 +1056,190 @@
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-06",
+    "ac_short": "Watertoren De Haan.",
+    "ac_long": "Watertoren De Haan.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 23.05,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.37,
+      "2027": 7.68,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-09",
+    "ac_short": "Herbestemmen school Vlissegem.",
+    "ac_long": "Herbestemmen school Vlissegem.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 23.05,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 200000.0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 15.37,
+      "2028": 7.68,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 11",
+    "bd_short": "2G. Heraanleg wegenis : meer aandacht voor groen,",
+    "bd_long": "Bij heraanleg wegenis meer aandacht voor groen, rustplaatsen, mindervaliden, duurzame materialen promoten",
+    "ap_code": "2G01",
+    "ap_short": "Prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ap_long": "Opmaak prioriteitenlijst heraanleg wegen, voetpaden, fietspaden",
+    "ac_code": "2G01_2G01-15",
+    "ac_short": "Herinrichting Schoolstraat.",
+    "ac_long": "Herinrichting Schoolstraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 270000.0,
+    "amount_per_capita": 20.74,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 270000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 20.74,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 21",
+    "bd_short": "4B. Versterken van het toeristisch beleid",
+    "bd_long": "Versterken van het toeristisch beleid",
+    "ap_code": "4B02",
+    "ap_short": "Toeristisch-culturele infrastructuur",
+    "ap_long": "Toeristisch-culturele infrastructuur",
+    "ac_code": "4B02_4B02-02",
+    "ac_short": "Deelname aan Beaufort.",
+    "ac_long": "Deelname aan Beaufort.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 182141.0,
+    "amount_per_capita": 13.99,
+    "yearly_amounts": {
+      "2026": 35000.0,
+      "2027": 35700.0,
+      "2028": 36414.0,
+      "2029": 37142.0,
+      "2030": 37885.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.69,
+      "2027": 2.74,
+      "2028": 2.8,
+      "2029": 2.85,
+      "2030": 2.91,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-03",
+    "ac_short": "La Potinière : aanpassingswerken.",
+    "ac_long": "La Potinière : aanpassingswerken.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 163000.0,
+    "amount_per_capita": 12.52,
+    "yearly_amounts": {
+      "2026": 163000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 3",
     "bd_short": "1C. Externe communicatie : open dialoog met de burger",
     "bd_long": "Externe communicatie : open dialoog met de burger",
     "ap_code": "1C04",
     "ap_short": "Website verder uitbouwen",
     "ap_long": "Website verder uitbouwen als platform voor informatie en dialoog",
-    "ac_code": "1C04",
+    "ac_code": "1C04_1C04-03",
     "ac_short": "(Digitale) infoborden.",
     "ac_long": "(Digitale) infoborden.",
     "categories": [
       "05-ondernemen-werken"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 11.54,
+    "amount_per_capita": 11.52,
     "yearly_amounts": {
       "2026": 0,
       "2027": 150000.0,
@@ -536,7 +1250,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 11.54,
+      "2027": 11.52,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -546,20 +1260,224 @@
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 10",
+    "bd_short": "2F. Afvalbeleid",
+    "bd_long": "Afvalbeleid",
+    "ap_code": "2F01",
+    "ap_short": "Doorgedreven afvalbeleid invoeren",
+    "ap_long": "Doorgedreven afvalbeleid invoeren",
+    "ac_code": "2F01_2F01-04",
+    "ac_short": "Vernieuwen afvalbakken op openbaar domein.",
+    "ac_long": "Vernieuwen afvalbakken op openbaar domein.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 8.45,
+    "yearly_amounts": {
+      "2026": 110000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.45,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 21",
+    "bd_short": "4B. Versterken van het toeristisch beleid",
+    "bd_long": "Versterken van het toeristisch beleid",
+    "ap_code": "4B02",
+    "ap_short": "Toeristisch-culturele infrastructuur",
+    "ap_long": "Toeristisch-culturele infrastructuur",
+    "ac_code": "4B02_4B02-07",
+    "ac_short": "Herwaarderen trage wegen.",
+    "ac_long": "Herwaarderen trage wegen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.68,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.84,
+      "2027": 3.84,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 21",
+    "bd_short": "4B. Versterken van het toeristisch beleid",
+    "bd_long": "Versterken van het toeristisch beleid",
+    "ap_code": "4B02",
+    "ap_short": "Toeristisch-culturele infrastructuur",
+    "ap_long": "Toeristisch-culturele infrastructuur",
+    "ac_code": "4B02_4B02-08",
+    "ac_short": "Onderzoek naar alternatief traject Wenduine - Congolaan.",
+    "ac_long": "Toeristische impulsen: onderzoek naar alternatief traject Wenduine - Congolaan.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.68,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-10",
+    "ac_short": "Herwaarderingsplan Vlissegem + kerkhofmuur.",
+    "ac_long": "Herwaarderingsplan Vlissegem + kerkhofmuur.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 7.68,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 7.68,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 21",
+    "bd_short": "4B. Versterken van het toeristisch beleid",
+    "bd_long": "Versterken van het toeristisch beleid",
+    "ap_code": "4B02",
+    "ap_short": "Toeristisch-culturele infrastructuur",
+    "ap_long": "Toeristisch-culturele infrastructuur",
+    "ac_code": "4B02_4B02-01",
+    "ac_short": "Aankoop kunstwerken voor de openbare ruimte.",
+    "ac_long": "Aankoop kunstwerken voor de openbare ruimte.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 6.91,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.84,
+      "2027": 1.54,
+      "2028": 1.54,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-08",
+    "ac_short": "Sanitair Torrekin.",
+    "ac_long": "Sanitair Torrekin.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 5.76,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.76,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 13",
     "bd_short": "3A. Het verenigingsleven opwaarderen",
     "bd_long": "Het verenigingsleven opwaarderen",
     "ap_code": "3A01",
     "ap_short": "Ondersteunen van en samenwerken met jeugdverenigingen",
     "ap_long": "Ondersteunen van en samenwerken met jeugdverenigingen",
-    "ac_code": "3A01",
+    "ac_code": "3A01_3A01-01",
     "ac_short": "Huisvesting jeugdverenigingen in goede staat houden.",
     "ac_long": "Huisvesting jeugdverenigingen in goede staat houden.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 3.85,
+    "amount_per_capita": 3.84,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -571,7 +1489,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 3.85,
+      "2028": 3.84,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -580,13 +1498,47 @@
   {
     "municipality": "De Haan",
     "nis_code": "35029",
-    "bd_code": "BDS",
+    "bd_code": "BDS 7",
+    "bd_short": "2C. Doordacht omgaan met eigen patrimonium",
+    "bd_long": "Doordacht omgaan met eigen patrimonium",
+    "ap_code": "2C01",
+    "ap_short": "Patrimonium beheren",
+    "ap_long": "Patrimonium beheren",
+    "ac_code": "2C01_2C01-07",
+    "ac_short": "Overdekte fietsplaats bibliotheek en OCMW.",
+    "ac_long": "Overdekte fietsplaats bibliotheek en OCMW.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.84,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.84,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 9",
     "bd_short": "2E. Duurzaam beleid stimuleren",
     "bd_long": "Duurzaam beleid stimuleren",
     "ap_code": "2E02",
     "ap_short": "Duurzaamheid en alternatieve energie stimuleren",
     "ap_long": "Duurzaamheid en alternatieve energie stimuleren",
-    "ac_code": "2E02",
+    "ac_code": "2E02_2E02-02",
     "ac_short": "Voorzien van oplaadpunten.",
     "ac_long": "Voorzien van oplaadpunten.",
     "categories": [
@@ -604,6 +1556,40 @@
     },
     "yearly_per_capita": {
       "2026": 3.61,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "De Haan",
+    "nis_code": "35029",
+    "bd_code": "BDS 10",
+    "bd_short": "2F. Afvalbeleid",
+    "bd_long": "Afvalbeleid",
+    "ap_code": "2F02",
+    "ap_short": "Doorgedreven milieu- en groenbeleid invoeren",
+    "ap_long": "Doorgedreven milieu- en groenbeleid invoeren",
+    "ac_code": "2F02_2F02-02",
+    "ac_short": "Inrichting groenzones.",
+    "ac_long": "Inrichting groenzones.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 1.92,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.92,
       "2027": 0,
       "2028": 0,
       "2029": 0,

@@ -15,7 +15,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 4250000.0,
-    "amount_per_capita": 270.83,
+    "amount_per_capita": 271.24,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 1000000.0,
@@ -25,10 +25,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 15.93,
-      "2027": 63.72,
-      "2028": 127.45,
-      "2029": 63.72,
+      "2026": 15.96,
+      "2027": 63.82,
+      "2028": 127.64,
+      "2029": 63.82,
       "2030": 0,
       "2031": 0
     }
@@ -49,7 +49,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 2500000.0,
-    "amount_per_capita": 159.31,
+    "amount_per_capita": 159.55,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -61,42 +61,8 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 31.86,
-      "2029": 127.45,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.1",
-    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
-    "ap_long": "Commentaar:",
-    "ac_code": "A4.1.4301",
-    "ac_short": "Krankhoeve: renovatie",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 1300000.0,
-    "amount_per_capita": 82.84,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 700000.0,
-      "2028": 600000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 44.61,
-      "2028": 38.23,
-      "2029": 0,
+      "2028": 31.91,
+      "2029": 127.64,
       "2030": 0,
       "2031": 0
     }
@@ -116,10 +82,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1181000.0,
-    "amount_per_capita": 75.26,
+    "total_amount": 2131000.0,
+    "amount_per_capita": 136.0,
     "yearly_amounts": {
-      "2026": 1181000.0,
+      "2026": 2131000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -127,12 +93,80 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 75.26,
+      "2026": 136.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.1",
+    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A4.1.4301",
+    "ac_short": "Krankhoeve: renovatie",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1476277.95,
+    "amount_per_capita": 94.22,
+    "yearly_amounts": {
+      "2026": 176277.95,
+      "2027": 700000.0,
+      "2028": 600000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.25,
+      "2027": 44.67,
+      "2028": 38.29,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-7.31",
+    "ap_short": "Regulier beleid technische uitvoeringsdienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "A7.31.19",
+    "ac_short": "Jaarlijkse vernieuwingen asfaltverhardingen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1220000.0,
+    "amount_per_capita": 77.86,
+    "yearly_amounts": {
+      "2026": 570000.0,
+      "2027": 130000.0,
+      "2028": 130000.0,
+      "2029": 130000.0,
+      "2030": 130000.0,
+      "2031": 130000.0
+    },
+    "yearly_per_capita": {
+      "2026": 36.38,
+      "2027": 8.3,
+      "2028": 8.3,
+      "2029": 8.3,
+      "2030": 8.3,
+      "2031": 8.3
     }
   },
   {
@@ -151,7 +185,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1150000.0,
-    "amount_per_capita": 73.28,
+    "amount_per_capita": 73.39,
     "yearly_amounts": {
       "2026": 650000.0,
       "2027": 500000.0,
@@ -161,8 +195,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 41.42,
-      "2027": 31.86,
+      "2026": 41.48,
+      "2027": 31.91,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -185,7 +219,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 1103934.0,
-    "amount_per_capita": 70.35,
+    "amount_per_capita": 70.45,
     "yearly_amounts": {
       "2026": 183989.0,
       "2027": 183989.0,
@@ -195,12 +229,46 @@
       "2031": 183989.0
     },
     "yearly_per_capita": {
-      "2026": 11.72,
-      "2027": 11.72,
-      "2028": 11.72,
-      "2029": 11.72,
-      "2030": 11.72,
-      "2031": 11.72
+      "2026": 11.74,
+      "2027": 11.74,
+      "2028": 11.74,
+      "2029": 11.74,
+      "2030": 11.74,
+      "2031": 11.74
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.4",
+    "ap_short": "We streven naar een waterzuiveringsgraad van 90% en een maximale regenwaterinfiltratie.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.4.16",
+    "ac_short": "Riolerings-en wegenwerken Weynesbaan, Groothoflei, Weyneshoflei, de Tinstraat en de Veldstraat.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1094942.83,
+    "amount_per_capita": 69.88,
+    "yearly_amounts": {
+      "2026": 1094942.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 69.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -219,7 +287,7 @@
       "08-onderwijs"
     ],
     "total_amount": 1025000.0,
-    "amount_per_capita": 65.32,
+    "amount_per_capita": 65.42,
     "yearly_amounts": {
       "2026": 1025000.0,
       "2027": 0,
@@ -229,7 +297,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 65.32,
+      "2026": 65.42,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -243,41 +311,7 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid technische uitvoeringsdienst",
-    "ap_long": "Commentaar:",
-    "ac_code": "A7.31.19",
-    "ac_short": "Jaarlijkse vernieuwingen asfaltverhardingen",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 1020000.0,
-    "amount_per_capita": 65.0,
-    "yearly_amounts": {
-      "2026": 370000.0,
-      "2027": 130000.0,
-      "2028": 130000.0,
-      "2029": 130000.0,
-      "2030": 130000.0,
-      "2031": 130000.0
-    },
-    "yearly_per_capita": {
-      "2026": 23.58,
-      "2027": 8.28,
-      "2028": 8.28,
-      "2029": 8.28,
-      "2030": 8.28,
-      "2031": 8.28
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
+    "ap_code": "AP-7.51",
     "ap_short": "Regulier beleid dienst financiën",
     "ap_long": "Commentaar:",
     "ac_code": "A7.51.21",
@@ -287,7 +321,7 @@
       "00-algemene-financiering"
     ],
     "total_amount": 900000.0,
-    "amount_per_capita": 57.35,
+    "amount_per_capita": 57.44,
     "yearly_amounts": {
       "2026": 150000.0,
       "2027": 150000.0,
@@ -297,12 +331,80 @@
       "2031": 150000.0
     },
     "yearly_per_capita": {
-      "2026": 9.56,
-      "2027": 9.56,
-      "2028": 9.56,
-      "2029": 9.56,
-      "2030": 9.56,
-      "2031": 9.56
+      "2026": 9.57,
+      "2027": 9.57,
+      "2028": 9.57,
+      "2029": 9.57,
+      "2030": 9.57,
+      "2031": 9.57
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.6",
+    "ap_short": "We streven ernaar om het roerend en onroerend erfgoed in onze gemeente.",
+    "ap_long": "We streven ernaar om het roerend en onroerend erfgoed in onze gemeente duurzaam te behouden, te beschermen en te waarderen.",
+    "ac_code": "A4.6.3203",
+    "ac_short": "Herstelling kerkhofmuur Sint-Martinuskerk",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 850000.0,
+    "amount_per_capita": 54.25,
+    "yearly_amounts": {
+      "2026": 850000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 54.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.4",
+    "ap_short": "We streven naar een waterzuiveringsgraad van 90% en een maximale regenwaterinfiltratie.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.4.15",
+    "ac_short": "Muizensteenweg, Populierenlaan en Korte Schommenstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 824125.16,
+    "amount_per_capita": 52.6,
+    "yearly_amounts": {
+      "2026": 824125.16,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 52.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -321,7 +423,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 800000.0,
-    "amount_per_capita": 50.98,
+    "amount_per_capita": 51.06,
     "yearly_amounts": {
       "2026": 600000.0,
       "2027": 200000.0,
@@ -331,8 +433,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 38.23,
-      "2027": 12.74,
+      "2026": 38.29,
+      "2027": 12.76,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -355,7 +457,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 716040.0,
-    "amount_per_capita": 45.63,
+    "amount_per_capita": 45.7,
     "yearly_amounts": {
       "2026": 164160.0,
       "2027": 219240.0,
@@ -365,12 +467,12 @@
       "2031": 83160.0
     },
     "yearly_per_capita": {
-      "2026": 10.46,
-      "2027": 13.97,
-      "2028": 5.3,
-      "2029": 5.3,
-      "2030": 5.3,
-      "2031": 5.3
+      "2026": 10.48,
+      "2027": 13.99,
+      "2028": 5.31,
+      "2029": 5.31,
+      "2030": 5.31,
+      "2031": 5.31
     }
   },
   {
@@ -389,7 +491,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 710000.0,
-    "amount_per_capita": 45.24,
+    "amount_per_capita": 45.31,
     "yearly_amounts": {
       "2026": 410000.0,
       "2027": 300000.0,
@@ -399,8 +501,76 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 26.13,
-      "2027": 19.12,
+      "2026": 26.17,
+      "2027": 19.15,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD6",
+    "bd_short": "Bestuurskracht verhogen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden verhoogt haar bestuurskracht door het optimaliseren van haar processen en het opleiden van personeel.",
+    "ap_code": "AP6.4",
+    "ap_short": "We investeren in digitalisering en in een gedegen cybersecuritybeleid.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A6.4.03",
+    "ac_short": "Diverse ICT-investeringen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 641200.0,
+    "amount_per_capita": 40.92,
+    "yearly_amounts": {
+      "2026": 390300.0,
+      "2027": 63400.0,
+      "2028": 49000.0,
+      "2029": 51500.0,
+      "2030": 50000.0,
+      "2031": 37000.0
+    },
+    "yearly_per_capita": {
+      "2026": 24.91,
+      "2027": 4.05,
+      "2028": 3.13,
+      "2029": 3.29,
+      "2030": 3.19,
+      "2031": 2.36
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.4",
+    "ap_short": "We streven naar een waterzuiveringsgraad van 90% en een maximale regenwaterinfiltratie.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.4.03",
+    "ac_short": "Riolerings- en wegenwerken De Bergen - Boeimeerstraat - Vijverstraat en Koningin Astridlaan",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 626281.32,
+    "amount_per_capita": 39.97,
+    "yearly_amounts": {
+      "2026": 376281.32,
+      "2027": 250000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 24.01,
+      "2027": 15.96,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -422,10 +592,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 605000.0,
-    "amount_per_capita": 38.55,
+    "total_amount": 609000.0,
+    "amount_per_capita": 38.87,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 4000.0,
       "2027": 605000.0,
       "2028": 0,
       "2029": 0,
@@ -433,8 +603,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 38.55,
+      "2026": 0.26,
+      "2027": 38.61,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -457,7 +627,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 600000.0,
-    "amount_per_capita": 38.23,
+    "amount_per_capita": 38.29,
     "yearly_amounts": {
       "2026": 600000.0,
       "2027": 0,
@@ -467,46 +637,12 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 38.23,
+      "2026": 38.29,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD6",
-    "bd_short": "Bestuurskracht verhogen",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden verhoogt haar bestuurskracht door het optimaliseren van haar processen en het opleiden van personeel.",
-    "ap_code": "AP6.4",
-    "ap_short": "We investeren in digitalisering en in een gedegen cybersecuritybeleid.",
-    "ap_long": "Commentaar:",
-    "ac_code": "A6.4.03",
-    "ac_short": "Diverse ICT-investeringen",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 513200.0,
-    "amount_per_capita": 32.7,
-    "yearly_amounts": {
-      "2026": 262300.0,
-      "2027": 63400.0,
-      "2028": 49000.0,
-      "2029": 51500.0,
-      "2030": 50000.0,
-      "2031": 37000.0
-    },
-    "yearly_per_capita": {
-      "2026": 16.71,
-      "2027": 4.04,
-      "2028": 3.12,
-      "2029": 3.28,
-      "2030": 3.19,
-      "2031": 2.36
     }
   },
   {
@@ -518,25 +654,59 @@
     "ap_code": "AP2.4",
     "ap_short": "We streven naar een waterzuiveringsgraad van 90% en een maximale regenwaterinfiltratie.",
     "ap_long": "Commentaar:",
-    "ac_code": "A2.4.03",
-    "ac_short": "Riolerings- en wegenwerken De Bergen - Boeimeerstraat - Vijverstraat en Koningin Astridlaan",
+    "ac_code": "A2.4.18",
+    "ac_short": "Riolering- en wegenwerken Rijmenam centrum",
     "ac_long": "Commentaar:",
     "categories": [
-      "02-mobiliteit"
+      "overige"
     ],
-    "total_amount": 500000.0,
-    "amount_per_capita": 31.86,
+    "total_amount": 564061.76,
+    "amount_per_capita": 36.0,
     "yearly_amounts": {
-      "2026": 250000.0,
-      "2027": 250000.0,
+      "2026": 564061.76,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 15.93,
-      "2027": 15.93,
+      "2026": 36.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.6",
+    "ap_short": "We streven ernaar om het roerend en onroerend erfgoed in onze gemeente.",
+    "ap_long": "We streven ernaar om het roerend en onroerend erfgoed in onze gemeente duurzaam te behouden, te beschermen en te waarderen.",
+    "ac_code": "A4.6.3204",
+    "ac_short": "Kerk St Martinus: buitengewoon onderhoud",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 31.91,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 31.91,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -558,10 +728,10 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 435000.0,
-    "amount_per_capita": 27.72,
+    "total_amount": 454380.28,
+    "amount_per_capita": 29.0,
     "yearly_amounts": {
-      "2026": 310000.0,
+      "2026": 329380.28,
       "2027": 25000.0,
       "2028": 25000.0,
       "2029": 25000.0,
@@ -569,46 +739,12 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 19.75,
-      "2027": 1.59,
-      "2028": 1.59,
-      "2029": 1.59,
-      "2030": 1.59,
-      "2031": 1.59
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.6",
-    "ap_short": "We streven ernaar om het roerend en onroerend erfgoed in onze gemeente.",
-    "ap_long": "We streven ernaar om het roerend en onroerend erfgoed in onze gemeente duurzaam te behouden, te beschermen en te waarderen.",
-    "ac_code": "A4.6.3203",
-    "ac_short": "Herstelling kerkhofmuur Sint-Martinuskerk",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 425000.0,
-    "amount_per_capita": 27.08,
-    "yearly_amounts": {
-      "2026": 425000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 27.08,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 21.02,
+      "2027": 1.6,
+      "2028": 1.6,
+      "2029": 1.6,
+      "2030": 1.6,
+      "2031": 1.6
     }
   },
   {
@@ -627,7 +763,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 410000.0,
-    "amount_per_capita": 26.13,
+    "amount_per_capita": 26.17,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -640,7 +776,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 26.13,
+      "2029": 26.17,
       "2030": 0,
       "2031": 0
     }
@@ -661,7 +797,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 400000.0,
-    "amount_per_capita": 25.49,
+    "amount_per_capita": 25.53,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -673,7 +809,41 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 25.49,
+      "2028": 25.53,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.4",
+    "ap_short": "We streven naar een waterzuiveringsgraad van 90% en een maximale regenwaterinfiltratie.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.4.17",
+    "ac_short": "Riolerings- en wegenwerken Rivierenlaan, Dennenlaan, Taboralaan, Raambeeklaan, Watermolenstraat, Kle",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 374230.69,
+    "amount_per_capita": 23.88,
+    "yearly_amounts": {
+      "2026": 374230.69,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 23.88,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -695,7 +865,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 320000.0,
-    "amount_per_capita": 20.39,
+    "amount_per_capita": 20.42,
     "yearly_amounts": {
       "2026": 60000.0,
       "2027": 260000.0,
@@ -705,42 +875,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.82,
-      "2027": 16.57,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.1",
-    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
-    "ap_long": "Commentaar:",
-    "ac_code": "A4.1.3203",
-    "ac_short": "De Splinter: uitvoering buitenaanleg",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 19.12,
-    "yearly_amounts": {
-      "2026": 300000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 19.12,
-      "2027": 0,
+      "2026": 3.83,
+      "2027": 16.59,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -763,7 +899,7 @@
       "00-algemene-financiering"
     ],
     "total_amount": 300000.0,
-    "amount_per_capita": 19.12,
+    "amount_per_capita": 19.15,
     "yearly_amounts": {
       "2026": 0,
       "2027": 100000.0,
@@ -774,8 +910,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 6.37,
-      "2028": 12.74,
+      "2027": 6.38,
+      "2028": 12.76,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -784,31 +920,31 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD2",
-    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
-    "ap_code": "AP2.4",
-    "ap_short": "We streven naar een waterzuiveringsgraad van 90% en een maximale regenwaterinfiltratie.",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.1",
+    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
     "ap_long": "Commentaar:",
-    "ac_code": "A2.4.04",
-    "ac_short": "Riolerings- en wegenwerken Tinstraat en Veldweg",
+    "ac_code": "A4.1.3203",
+    "ac_short": "De Splinter: uitvoering buitenaanleg",
     "ac_long": "Commentaar:",
     "categories": [
-      "02-mobiliteit"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 250000.0,
-    "amount_per_capita": 15.93,
+    "total_amount": 300000.0,
+    "amount_per_capita": 19.15,
     "yearly_amounts": {
-      "2026": 150000.0,
-      "2027": 100000.0,
+      "2026": 300000.0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.56,
-      "2027": 6.37,
+      "2026": 19.15,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -830,10 +966,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 241600.0,
-    "amount_per_capita": 15.4,
+    "total_amount": 298498.27,
+    "amount_per_capita": 19.05,
     "yearly_amounts": {
-      "2026": 70600.0,
+      "2026": 127498.27,
       "2027": 30000.0,
       "2028": 20000.0,
       "2029": 18000.0,
@@ -841,11 +977,11 @@
       "2031": 35000.0
     },
     "yearly_per_capita": {
-      "2026": 4.5,
+      "2026": 8.14,
       "2027": 1.91,
-      "2028": 1.27,
+      "2028": 1.28,
       "2029": 1.15,
-      "2030": 4.33,
+      "2030": 4.34,
       "2031": 2.23
     }
   },
@@ -864,10 +1000,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 240000.0,
-    "amount_per_capita": 15.29,
+    "total_amount": 268679.18,
+    "amount_per_capita": 17.15,
     "yearly_amounts": {
-      "2026": 40000.0,
+      "2026": 68679.18,
       "2027": 40000.0,
       "2028": 40000.0,
       "2029": 40000.0,
@@ -875,7 +1011,7 @@
       "2031": 40000.0
     },
     "yearly_per_capita": {
-      "2026": 2.55,
+      "2026": 4.38,
       "2027": 2.55,
       "2028": 2.55,
       "2029": 2.55,
@@ -889,19 +1025,19 @@
     "bd_code": "BD2",
     "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
     "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
-    "ap_code": "AP2.5",
-    "ap_short": "We zetten ons in voor het verbeteren van ecosysteemdiensten",
-    "ap_long": "We zetten ons in voor het verbeteren van ecosysteemdiensten, wat cruciaal is voor een duurzaam klimaat, verhoging van de biodiversiteit en de levenskwaliteit van onze inwoners.",
-    "ac_code": "A2.5.0601",
-    "ac_short": "Aankoop gronden voor groenblauwe netwerken (incl. plantgoed)",
+    "ap_code": "AP2.4",
+    "ap_short": "We streven naar een waterzuiveringsgraad van 90% en een maximale regenwaterinfiltratie.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.4.04",
+    "ac_short": "Riolerings- en wegenwerken Tinstraat en Veldweg",
     "ac_long": "Commentaar:",
     "categories": [
-      "03-natuur-milieu"
+      "02-mobiliteit"
     ],
-    "total_amount": 200000.0,
-    "amount_per_capita": 12.74,
+    "total_amount": 250000.0,
+    "amount_per_capita": 15.96,
     "yearly_amounts": {
-      "2026": 100000.0,
+      "2026": 150000.0,
       "2027": 100000.0,
       "2028": 0,
       "2029": 0,
@@ -909,8 +1045,42 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.37,
-      "2027": 6.37,
+      "2026": 9.57,
+      "2027": 6.38,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.5",
+    "ap_short": "We spelen onze toeristische troeven uit.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A4.5.5",
+    "ac_short": "Aanleg parking kasteeldomein Zellaer",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 210000.0,
+    "amount_per_capita": 13.4,
+    "yearly_amounts": {
+      "2026": 210000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.4,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -932,10 +1102,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 180000.0,
-    "amount_per_capita": 11.47,
+    "total_amount": 207530.49,
+    "amount_per_capita": 13.24,
     "yearly_amounts": {
-      "2026": 30000.0,
+      "2026": 57530.49,
       "2027": 30000.0,
       "2028": 30000.0,
       "2029": 30000.0,
@@ -943,12 +1113,182 @@
       "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 1.91,
+      "2026": 3.67,
       "2027": 1.91,
       "2028": 1.91,
       "2029": 1.91,
       "2030": 1.91,
       "2031": 1.91
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.5",
+    "ap_short": "We zetten ons in voor het verbeteren van ecosysteemdiensten",
+    "ap_long": "We zetten ons in voor het verbeteren van ecosysteemdiensten, wat cruciaal is voor een duurzaam klimaat, verhoging van de biodiversiteit en de levenskwaliteit van onze inwoners.",
+    "ac_code": "A2.5.0601",
+    "ac_short": "Aankoop gronden voor groenblauwe netwerken (incl. plantgoed)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 12.76,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.38,
+      "2027": 6.38,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD1",
+    "bd_short": "Professionele, toekomstgerichte organisatie",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden stelt zich op als een professionele, toekomstgerichte organisatie die kwalitatieve diensten en producten aanbiedt. \n Kwantitatieve omschrijving: We gaan hierbij steeds oplossingsgericht te werk en zetten onze klanten/inwoners op hartelijke wijze centraal.",
+    "ap_code": "AP1.1",
+    "ap_short": "We werken verder aan de optimalisatie van onze dienstverlening",
+    "ap_long": "Commentaar:",
+    "ac_code": "A1.1.3201",
+    "ac_short": "Gemeentehuis: aanpassingswerken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 199213.79,
+    "amount_per_capita": 12.71,
+    "yearly_amounts": {
+      "2026": 49213.79,
+      "2027": 150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.14,
+      "2027": 9.57,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.5",
+    "ap_short": "We zetten ons in voor het verbeteren van ecosysteemdiensten",
+    "ap_long": "We zetten ons in voor het verbeteren van ecosysteemdiensten, wat cruciaal is voor een duurzaam klimaat, verhoging van de biodiversiteit en de levenskwaliteit van onze inwoners.",
+    "ac_code": "A2.5.0501",
+    "ac_short": "Ontharding verharde bermen en kleinere projecten",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 190526.5,
+    "amount_per_capita": 12.16,
+    "yearly_amounts": {
+      "2026": 120526.5,
+      "2027": 0,
+      "2028": 35000.0,
+      "2029": 0,
+      "2030": 35000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.69,
+      "2027": 0,
+      "2028": 2.23,
+      "2029": 0,
+      "2030": 2.23,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.7",
+    "ap_short": "We zeten ons in voor het verhogen van de verkeersveiligheid;",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.7.34105",
+    "ac_short": "Bonheiden werkt het netwerk van veilige en comfortabele fietsroutes verder uit.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 188326.07,
+    "amount_per_capita": 12.02,
+    "yearly_amounts": {
+      "2026": 38326.07,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.45,
+      "2027": 3.19,
+      "2028": 0,
+      "2029": 3.19,
+      "2030": 0,
+      "2031": 3.19
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.7",
+    "ap_short": "We zeten ons in voor het verhogen van de verkeersveiligheid;",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.7.34101",
+    "ac_short": "Oversteekplaats voor fietsers beveiligen.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 11.49,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 60000.0,
+      "2029": 0,
+      "2030": 60000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.83,
+      "2027": 0,
+      "2028": 3.83,
+      "2029": 0,
+      "2030": 3.83,
+      "2031": 0
     }
   },
   {
@@ -967,7 +1307,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 175000.0,
-    "amount_per_capita": 11.15,
+    "amount_per_capita": 11.17,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 25000.0,
@@ -978,30 +1318,98 @@
     },
     "yearly_per_capita": {
       "2026": 3.19,
-      "2027": 1.59,
-      "2028": 1.59,
-      "2029": 1.59,
-      "2030": 1.59,
-      "2031": 1.59
+      "2027": 1.6,
+      "2028": 1.6,
+      "2029": 1.6,
+      "2030": 1.6,
+      "2031": 1.6
     }
   },
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD6",
-    "bd_short": "Bestuurskracht verhogen",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden verhoogt haar bestuurskracht door het optimaliseren van haar processen en het opleiden van personeel.",
-    "ap_code": "AP6.4",
-    "ap_short": "We investeren in digitalisering en in een gedegen cybersecuritybeleid.",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.1",
+    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
     "ap_long": "Commentaar:",
-    "ac_code": "A6.4.2602",
-    "ac_short": "Kosten voor verkiezingen: vernieuwen stemcomputers",
+    "ac_code": "A4.1.4303",
+    "ac_short": "Site Krankhoeve: berghok + hangar smidse",
     "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 170000.0,
+    "amount_per_capita": 10.85,
+    "yearly_amounts": {
+      "2026": 95000.0,
+      "2027": 75000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.06,
+      "2027": 4.79,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-7.31",
+    "ap_short": "Regulier beleid technische uitvoeringsdienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "A7.31.20",
+    "ac_short": "Jaarlijkse vernieuwingen betonverhardingen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 9.56,
+    "amount_per_capita": 9.57,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.6,
+      "2027": 1.6,
+      "2028": 1.6,
+      "2029": 1.6,
+      "2030": 1.6,
+      "2031": 1.6
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-7.31",
+    "ap_short": "Regulier beleid technische uitvoeringsdienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "A7.31.29",
+    "ac_short": "Vervanging werktuigdrager Holder met aanbouw",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 9.57,
     "yearly_amounts": {
       "2026": 0,
       "2027": 150000.0,
@@ -1012,7 +1420,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 9.56,
+      "2027": 9.57,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1035,7 +1443,7 @@
       "08-onderwijs"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 9.56,
+    "amount_per_capita": 9.57,
     "yearly_amounts": {
       "2026": 0,
       "2027": 40000.0,
@@ -1047,7 +1455,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 2.55,
-      "2028": 7.01,
+      "2028": 7.02,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1056,88 +1464,20 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.1",
-    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
+    "bd_code": "BD6",
+    "bd_short": "Bestuurskracht verhogen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden verhoogt haar bestuurskracht door het optimaliseren van haar processen en het opleiden van personeel.",
+    "ap_code": "AP6.4",
+    "ap_short": "We investeren in digitalisering en in een gedegen cybersecuritybeleid.",
     "ap_long": "Commentaar:",
-    "ac_code": "A4.1.4303",
-    "ac_short": "Site Krankhoeve: berghok + hangar smidse",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 150000.0,
-    "amount_per_capita": 9.56,
-    "yearly_amounts": {
-      "2026": 75000.0,
-      "2027": 75000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 4.78,
-      "2027": 4.78,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD2",
-    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
-    "ap_code": "AP2.7",
-    "ap_short": "We zeten ons in voor het verhogen van de verkeersveiligheid;",
-    "ap_long": "Commentaar:",
-    "ac_code": "A2.7.34105",
-    "ac_short": "Bonheiden werkt het netwerk van veilige en comfortabele fietsroutes verder uit.",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 150000.0,
-    "amount_per_capita": 9.56,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 50000.0,
-      "2028": 0,
-      "2029": 50000.0,
-      "2030": 0,
-      "2031": 50000.0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 3.19,
-      "2028": 0,
-      "2029": 3.19,
-      "2030": 0,
-      "2031": 3.19
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD1",
-    "bd_short": "Professionele, toekomstgerichte organisatie",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden stelt zich op als een professionele, toekomstgerichte organisatie die kwalitatieve diensten en producten aanbiedt. \n Kwantitatieve omschrijving: We gaan hierbij steeds oplossingsgericht te werk en zetten onze klanten/inwoners op hartelijke wijze centraal.",
-    "ap_code": "AP1.1",
-    "ap_short": "We werken verder aan de optimalisatie van onze dienstverlening",
-    "ap_long": "Commentaar:",
-    "ac_code": "A1.1.3201",
-    "ac_short": "Gemeentehuis: aanpassingswerken",
+    "ac_code": "A6.4.2602",
+    "ac_short": "Kosten voor verkiezingen: vernieuwen stemcomputers",
     "ac_long": "Commentaar:",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 9.56,
+    "amount_per_capita": 9.57,
     "yearly_amounts": {
       "2026": 0,
       "2027": 150000.0,
@@ -1148,7 +1488,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 9.56,
+      "2027": 9.57,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1161,62 +1501,28 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid technische uitvoeringsdienst",
+    "ap_code": "AP-12",
+    "ap_short": "Onderhoud patrimonium",
     "ap_long": "Commentaar:",
-    "ac_code": "A7.31.20",
-    "ac_short": "Jaarlijkse vernieuwingen betonverhardingen",
+    "ac_code": "A12.322.18",
+    "ac_short": "Renovatie van de gevel en het dak van de burelen van de technische uitvoeringsdienst",
     "ac_long": "Commentaar:",
     "categories": [
-      "02-mobiliteit"
+      "overige"
     ],
-    "total_amount": 150000.0,
-    "amount_per_capita": 9.56,
+    "total_amount": 140000.0,
+    "amount_per_capita": 8.93,
     "yearly_amounts": {
-      "2026": 25000.0,
-      "2027": 25000.0,
-      "2028": 25000.0,
-      "2029": 25000.0,
-      "2030": 25000.0,
-      "2031": 25000.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.59,
-      "2027": 1.59,
-      "2028": 1.59,
-      "2029": 1.59,
-      "2030": 1.59,
-      "2031": 1.59
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid technische uitvoeringsdienst",
-    "ap_long": "Commentaar:",
-    "ac_code": "A7.31.29",
-    "ac_short": "Vervanging werktuigdrager Holder met aanbouw",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 150000.0,
-    "amount_per_capita": 9.56,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 150000.0,
+      "2026": 140000.0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 9.56,
+      "2026": 8.93,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1239,7 +1545,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 130000.0,
-    "amount_per_capita": 8.28,
+    "amount_per_capita": 8.3,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1252,41 +1558,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 8.28,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.1",
-    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
-    "ap_long": "Commentaar:",
-    "ac_code": "A4.1.4310",
-    "ac_short": "Krankhoeve velum vernieuwen",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 120000.0,
-    "amount_per_capita": 7.65,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 120000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 7.65,
-      "2029": 0,
+      "2029": 8.3,
       "2030": 0,
       "2031": 0
     }
@@ -1306,10 +1578,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 120000.0,
-    "amount_per_capita": 7.65,
+    "total_amount": 124750.0,
+    "amount_per_capita": 7.96,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 24750.0,
       "2027": 20000.0,
       "2028": 20000.0,
       "2029": 20000.0,
@@ -1317,45 +1589,45 @@
       "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 1.27,
-      "2027": 1.27,
-      "2028": 1.27,
-      "2029": 1.27,
-      "2030": 1.27,
-      "2031": 1.27
+      "2026": 1.58,
+      "2027": 1.28,
+      "2028": 1.28,
+      "2029": 1.28,
+      "2030": 1.28,
+      "2031": 1.28
     }
   },
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD2",
-    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
-    "ap_code": "AP2.7",
-    "ap_short": "We zeten ons in voor het verhogen van de verkeersveiligheid;",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.1",
+    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
     "ap_long": "Commentaar:",
-    "ac_code": "A2.7.34101",
-    "ac_short": "Oversteekplaats voor fietsers beveiligen.",
+    "ac_code": "A4.1.4310",
+    "ac_short": "Krankhoeve velum vernieuwen",
     "ac_long": "Commentaar:",
     "categories": [
-      "02-mobiliteit"
+      "07-cultuur-vrije-tijd"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 7.65,
+    "amount_per_capita": 7.66,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
-      "2028": 60000.0,
+      "2028": 120000.0,
       "2029": 0,
-      "2030": 60000.0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 3.82,
+      "2028": 7.66,
       "2029": 0,
-      "2030": 3.82,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -1375,7 +1647,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 116420.0,
-    "amount_per_capita": 7.42,
+    "amount_per_capita": 7.43,
     "yearly_amounts": {
       "2026": 0,
       "2027": 21420.0,
@@ -1386,11 +1658,45 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 1.36,
-      "2028": 6.05,
+      "2027": 1.37,
+      "2028": 6.06,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD5",
+    "bd_short": "Levenslang leren bevorderen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
+    "ap_code": "AP5.1",
+    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A5.1.2418",
+    "ac_short": "Gebo: De gemeente kiest voor touchscreens in de klassen van de lagere school.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 115119.38,
+    "amount_per_capita": 7.35,
+    "yearly_amounts": {
+      "2026": 32619.38,
+      "2027": 16500.0,
+      "2028": 16500.0,
+      "2029": 16500.0,
+      "2030": 16500.0,
+      "2031": 16500.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.08,
+      "2027": 1.05,
+      "2028": 1.05,
+      "2029": 1.05,
+      "2030": 1.05,
+      "2031": 1.05
     }
   },
   {
@@ -1409,7 +1715,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 112000.0,
-    "amount_per_capita": 7.14,
+    "amount_per_capita": 7.15,
     "yearly_amounts": {
       "2026": 112000.0,
       "2027": 0,
@@ -1419,79 +1725,11 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.14,
+      "2026": 7.15,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.5",
-    "ap_short": "We spelen onze toeristische troeven uit.",
-    "ap_long": "Commentaar:",
-    "ac_code": "A4.5.5",
-    "ac_short": "Aanleg parking kasteeldomein Zellaer",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 110000.0,
-    "amount_per_capita": 7.01,
-    "yearly_amounts": {
-      "2026": 110000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 7.01,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD2",
-    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
-    "ap_code": "AP2.5",
-    "ap_short": "We zetten ons in voor het verbeteren van ecosysteemdiensten",
-    "ap_long": "We zetten ons in voor het verbeteren van ecosysteemdiensten, wat cruciaal is voor een duurzaam klimaat, verhoging van de biodiversiteit en de levenskwaliteit van onze inwoners.",
-    "ac_code": "A2.5.0501",
-    "ac_short": "Ontharding verharde bermen en kleinere projecten",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 105000.0,
-    "amount_per_capita": 6.69,
-    "yearly_amounts": {
-      "2026": 35000.0,
-      "2027": 0,
-      "2028": 35000.0,
-      "2029": 0,
-      "2030": 35000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 2.23,
-      "2027": 0,
-      "2028": 2.23,
-      "2029": 0,
-      "2030": 2.23,
       "2031": 0
     }
   },
@@ -1511,7 +1749,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 104394.0,
-    "amount_per_capita": 6.65,
+    "amount_per_capita": 6.66,
     "yearly_amounts": {
       "2026": 17399.0,
       "2027": 17399.0,
@@ -1532,20 +1770,20 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.1",
-    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.4",
+    "ap_short": "We streven naar een waterzuiveringsgraad van 90% en een maximale regenwaterinfiltratie.",
     "ap_long": "Commentaar:",
-    "ac_code": "A4.1.3202",
-    "ac_short": "De Splinter: meubilair en uitrusting",
+    "ac_code": "A2.4.12",
+    "ac_short": "Riolerings- en wegenwerken Harentslei - Krankhoeflei - Krankhoefpad - Peulisbaan - Scherpstuklei - H",
     "ac_long": "Commentaar:",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "overige"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 6.37,
+    "amount_per_capita": 6.38,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
@@ -1555,7 +1793,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.37,
+      "2026": 6.38,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1579,7 +1817,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 6.37,
+    "amount_per_capita": 6.38,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1592,7 +1830,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 6.37,
+      "2029": 6.38,
       "2030": 0,
       "2031": 0
     }
@@ -1613,7 +1851,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 6.37,
+    "amount_per_capita": 6.38,
     "yearly_amounts": {
       "2026": 0,
       "2027": 100000.0,
@@ -1624,7 +1862,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 6.37,
+      "2027": 6.38,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1647,7 +1885,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 6.37,
+    "amount_per_capita": 6.38,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1659,7 +1897,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 6.37,
+      "2028": 6.38,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1668,35 +1906,69 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD5",
-    "bd_short": "Levenslang leren bevorderen",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
-    "ap_code": "AP5.1",
-    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.1",
+    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
     "ap_long": "Commentaar:",
-    "ac_code": "A5.1.2418",
-    "ac_short": "Gebo: De gemeente kiest voor touchscreens in de klassen van de lagere school.",
+    "ac_code": "A4.1.3202",
+    "ac_short": "De Splinter: meubilair en uitrusting",
     "ac_long": "Commentaar:",
     "categories": [
-      "08-onderwijs"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 99000.0,
-    "amount_per_capita": 6.31,
+    "total_amount": 100000.0,
+    "amount_per_capita": 6.38,
     "yearly_amounts": {
-      "2026": 16500.0,
-      "2027": 16500.0,
-      "2028": 16500.0,
-      "2029": 16500.0,
-      "2030": 16500.0,
-      "2031": 16500.0
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.05,
-      "2027": 1.05,
-      "2028": 1.05,
-      "2029": 1.05,
-      "2030": 1.05,
-      "2031": 1.05
+      "2026": 6.38,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD1",
+    "bd_short": "Professionele, toekomstgerichte organisatie",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden stelt zich op als een professionele, toekomstgerichte organisatie die kwalitatieve diensten en producten aanbiedt. \n Kwantitatieve omschrijving: We gaan hierbij steeds oplossingsgericht te werk en zetten onze klanten/inwoners op hartelijke wijze centraal.",
+    "ap_code": "AP1.3",
+    "ap_short": "We stimuleren actieve burgerparticipatie in het beleidsproces",
+    "ap_long": "We stimuleren actieve burgerparticipatie in het beleidsproces door het inzetten van verschillende kanalen.",
+    "ac_code": "A1.3.4302",
+    "ac_short": "Burgerbudget",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 5.74,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.91,
+      "2028": 0,
+      "2029": 1.91,
+      "2030": 1.91,
+      "2031": 0
     }
   },
   {
@@ -1736,34 +2008,68 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD1",
-    "bd_short": "Professionele, toekomstgerichte organisatie",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden stelt zich op als een professionele, toekomstgerichte organisatie die kwalitatieve diensten en producten aanbiedt. \n Kwantitatieve omschrijving: We gaan hierbij steeds oplossingsgericht te werk en zetten onze klanten/inwoners op hartelijke wijze centraal.",
-    "ap_code": "AP1.3",
-    "ap_short": "We stimuleren actieve burgerparticipatie in het beleidsproces",
-    "ap_long": "We stimuleren actieve burgerparticipatie in het beleidsproces door het inzetten van verschillende kanalen.",
-    "ac_code": "A1.3.4302",
-    "ac_short": "Burgerbudget",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.1",
+    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A4.1.4101",
+    "ac_short": "Inrichting bibliotheek i.k.v. de bibliotheek als verblijfsruimte voor diverse doeleinden",
     "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 90000.0,
-    "amount_per_capita": 5.74,
+    "total_amount": 88641.33,
+    "amount_per_capita": 5.66,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 30000.0,
+      "2026": 88641.33,
+      "2027": 0,
       "2028": 0,
-      "2029": 30000.0,
-      "2030": 30000.0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 1.91,
+      "2026": 5.66,
+      "2027": 0,
       "2028": 0,
-      "2029": 1.91,
-      "2030": 1.91,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.1",
+    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A4.1.4312",
+    "ac_short": "'t Blikveld: vernieuwen vloer podiumzaal",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 87500.0,
+    "amount_per_capita": 5.58,
+    "yearly_amounts": {
+      "2026": 87500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.58,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -1817,7 +2123,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 80000.0,
-    "amount_per_capita": 5.1,
+    "amount_per_capita": 5.11,
     "yearly_amounts": {
       "2026": 80000.0,
       "2027": 0,
@@ -1827,7 +2133,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.1,
+      "2026": 5.11,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1838,32 +2144,32 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "AGBPB",
+    "bd_code": "BD5",
+    "bd_short": "Levenslang leren bevorderen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
+    "ap_code": "AP5.1",
+    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
     "ap_long": "Commentaar:",
-    "ac_code": "A16.18",
-    "ac_short": "AGBPB: Onderhoud ramen (gemeentehuis en bibliotheek)",
+    "ac_code": "A5.1.3203",
+    "ac_short": "Gebo: Relighting - Blok per Blok",
     "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "overige"
     ],
     "total_amount": 80000.0,
-    "amount_per_capita": 5.1,
+    "amount_per_capita": 5.11,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 30000.0,
-      "2028": 50000.0,
+      "2026": 80000.0,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 1.91,
-      "2028": 3.19,
+      "2026": 5.11,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1885,7 +2191,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 75000.0,
-    "amount_per_capita": 4.78,
+    "amount_per_capita": 4.79,
     "yearly_amounts": {
       "2026": 75000.0,
       "2027": 0,
@@ -1895,7 +2201,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.78,
+      "2026": 4.79,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1919,7 +2225,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 75000.0,
-    "amount_per_capita": 4.78,
+    "amount_per_capita": 4.79,
     "yearly_amounts": {
       "2026": 75000.0,
       "2027": 0,
@@ -1929,7 +2235,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.78,
+      "2026": 4.79,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1943,7 +2249,7 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
+    "ap_code": "AP-7.31",
     "ap_short": "Regulier beleid technische uitvoeringsdienst",
     "ap_long": "Commentaar:",
     "ac_code": "A7.31.23",
@@ -1953,7 +2259,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 71000.0,
-    "amount_per_capita": 4.52,
+    "amount_per_capita": 4.53,
     "yearly_amounts": {
       "2026": 0,
       "2027": 71000.0,
@@ -1964,7 +2270,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 4.52,
+      "2027": 4.53,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1977,19 +2283,19 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid technische uitvoeringsdienst",
+    "ap_code": "AP-12",
+    "ap_short": "Onderhoud patrimonium",
     "ap_long": "Commentaar:",
-    "ac_code": "A7.31.22",
-    "ac_short": "Vervanging Fiat Ducato 2011",
+    "ac_code": "A12.322.16",
+    "ac_short": "POB: relighting",
     "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "overige"
     ],
-    "total_amount": 62000.0,
-    "amount_per_capita": 3.95,
+    "total_amount": 63000.0,
+    "amount_per_capita": 4.02,
     "yearly_amounts": {
-      "2026": 62000.0,
+      "2026": 63000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1997,7 +2303,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.95,
+      "2026": 4.02,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2008,20 +2314,54 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.5",
-    "ap_short": "We spelen onze toeristische troeven uit.",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-7.31",
+    "ap_short": "Regulier beleid technische uitvoeringsdienst",
     "ap_long": "Commentaar:",
-    "ac_code": "A4.5.6",
-    "ac_short": "Vlonderpad Cassenbroek",
+    "ac_code": "A7.31.22",
+    "ac_short": "Vervanging Fiat Ducato 2011",
     "ac_long": "Commentaar:",
     "categories": [
-      "02-mobiliteit"
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 62000.0,
+    "amount_per_capita": 3.96,
+    "yearly_amounts": {
+      "2026": 62000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.96,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-12",
+    "ap_short": "Onderhoud patrimonium",
+    "ap_long": "Commentaar:",
+    "ac_code": "A12.322.05",
+    "ac_short": "Diverse gebouwen: brandbestrijdingsmiddelen en noodverlichting",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
     ],
     "total_amount": 60000.0,
-    "amount_per_capita": 3.82,
+    "amount_per_capita": 3.83,
     "yearly_amounts": {
       "2026": 60000.0,
       "2027": 0,
@@ -2031,12 +2371,80 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.82,
+      "2026": 3.83,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-12",
+    "ap_short": "Onderhoud patrimonium",
+    "ap_long": "Commentaar:",
+    "ac_code": "A12.322.12",
+    "ac_short": "OCMW: Imeldalaan 3,5 & 7: Afkoppelingswerken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 3.83,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-7.322",
+    "ap_short": "Regulier beleid technische dienst patrimonium",
+    "ap_long": "Commentaar:",
+    "ac_code": "A7.322.1",
+    "ac_short": "Meubilair",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 3.83,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0.64,
+      "2028": 0.64,
+      "2029": 0.64,
+      "2030": 0.64,
+      "2031": 0.64
     }
   },
   {
@@ -2055,7 +2463,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 60000.0,
-    "amount_per_capita": 3.82,
+    "amount_per_capita": 3.83,
     "yearly_amounts": {
       "2026": 60000.0,
       "2027": 0,
@@ -2065,7 +2473,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.82,
+      "2026": 3.83,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2089,7 +2497,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 60000.0,
-    "amount_per_capita": 3.82,
+    "amount_per_capita": 3.83,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -2101,7 +2509,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 3.82,
+      "2028": 3.83,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -2110,35 +2518,69 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid technische dienst patrimonium",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.5",
+    "ap_short": "We spelen onze toeristische troeven uit.",
     "ap_long": "Commentaar:",
-    "ac_code": "A7.322.1",
-    "ac_short": "Meubilair",
+    "ac_code": "A4.5.6",
+    "ac_short": "Vlonderpad Cassenbroek",
     "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "02-mobiliteit"
     ],
     "total_amount": 60000.0,
-    "amount_per_capita": 3.82,
+    "amount_per_capita": 3.83,
     "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 10000.0,
-      "2028": 10000.0,
-      "2029": 10000.0,
-      "2030": 10000.0,
-      "2031": 10000.0
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.64,
-      "2027": 0.64,
-      "2028": 0.64,
-      "2029": 0.64,
-      "2030": 0.64,
-      "2031": 0.64
+      "2026": 3.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.8",
+    "ap_short": "We zetten ons in voor de toegankelijkheid van de publieke ruimte.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.8.2304",
+    "ac_short": "Bevorderen rolstoeltoegankelijkheid",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 59095.12,
+    "amount_per_capita": 3.77,
+    "yearly_amounts": {
+      "2026": 59095.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.77,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -2191,7 +2633,7 @@
       "08-onderwijs"
     ],
     "total_amount": 57000.0,
-    "amount_per_capita": 3.63,
+    "amount_per_capita": 3.64,
     "yearly_amounts": {
       "2026": 28000.0,
       "2027": 10000.0,
@@ -2201,7 +2643,7 @@
       "2031": 3000.0
     },
     "yearly_per_capita": {
-      "2026": 1.78,
+      "2026": 1.79,
       "2027": 0.64,
       "2028": 0.64,
       "2029": 0.19,
@@ -2212,14 +2654,116 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD6",
-    "bd_short": "Bestuurskracht verhogen",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden verhoogt haar bestuurskracht door het optimaliseren van haar processen en het opleiden van personeel.",
-    "ap_code": "AP6.4",
-    "ap_short": "We investeren in digitalisering en in een gedegen cybersecuritybeleid.",
+    "bd_code": "BD5",
+    "bd_short": "Levenslang leren bevorderen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
+    "ap_code": "AP5.1",
+    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
     "ap_long": "Commentaar:",
-    "ac_code": "A6.4.07",
-    "ac_short": "Project Datamigratie",
+    "ac_code": "A5.1.2419",
+    "ac_short": "Gebo: informaticakosten en vervangingstraject laptops",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 55784.79,
+    "amount_per_capita": 3.56,
+    "yearly_amounts": {
+      "2026": 11784.79,
+      "2027": 13000.0,
+      "2028": 7000.0,
+      "2029": 2000.0,
+      "2030": 7000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.75,
+      "2027": 0.83,
+      "2028": 0.45,
+      "2029": 0.13,
+      "2030": 0.45,
+      "2031": 0.96
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-15",
+    "ap_short": "Begraafplaatsen",
+    "ap_long": "Commentaar:",
+    "ac_code": "A15.3",
+    "ac_short": "Begraafplaatsen ontruimingen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.19,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 25000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.6,
+      "2028": 0,
+      "2029": 1.6,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-7.31",
+    "ap_short": "Regulier beleid technische uitvoeringsdienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "A7.31.21",
+    "ac_short": "Straatmeubilair (o.a. fietsenstallingen, zitbanken,...)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.19,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 10000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.28,
+      "2027": 0.64,
+      "2028": 0.32,
+      "2029": 0.32,
+      "2030": 0.32,
+      "2031": 0.32
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.5",
+    "ap_short": "We zetten ons in voor het verbeteren van ecosysteemdiensten",
+    "ap_long": "We zetten ons in voor het verbeteren van ecosysteemdiensten, wat cruciaal is voor een duurzaam klimaat, verhoging van de biodiversiteit en de levenskwaliteit van onze inwoners.",
+    "ac_code": "A2.5.1016",
+    "ac_short": "Aankoop accu machines voor de groendienst en oplaadkast",
     "ac_long": "Commentaar:",
     "categories": [
       "01-algemeen-bestuur"
@@ -2227,17 +2771,51 @@
     "total_amount": 50000.0,
     "amount_per_capita": 3.19,
     "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 7000.0,
+      "2028": 7000.0,
+      "2029": 7000.0,
+      "2030": 7000.0,
+      "2031": 7000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.96,
+      "2027": 0.45,
+      "2028": 0.45,
+      "2029": 0.45,
+      "2030": 0.45,
+      "2031": 0.45
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD3",
+    "bd_short": "Zorgzame en inclusieve samenleving",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden bouwt aan een zorgzame en inclusieve samenleving",
+    "ap_code": "AP3.2",
+    "ap_short": "We ijveren actief voor het verhoging van het aantal kinderopvangplaatsen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A3.2.01",
+    "ac_short": "Investeringssubsidie voor creëren nieuwe kinderopvangplaatsen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.19,
+    "yearly_amounts": {
       "2026": 0,
-      "2027": 0,
-      "2028": 50000.0,
+      "2027": 50000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0,
-      "2028": 3.19,
+      "2027": 3.19,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -2280,48 +2858,14 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD3",
-    "bd_short": "Zorgzame en inclusieve samenleving",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden bouwt aan een zorgzame en inclusieve samenleving",
-    "ap_code": "AP3.2",
-    "ap_short": "We ijveren actief voor het verhoging van het aantal kinderopvangplaatsen.",
+    "bd_code": "BD6",
+    "bd_short": "Bestuurskracht verhogen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden verhoogt haar bestuurskracht door het optimaliseren van haar processen en het opleiden van personeel.",
+    "ap_code": "AP6.4",
+    "ap_short": "We investeren in digitalisering en in een gedegen cybersecuritybeleid.",
     "ap_long": "Commentaar:",
-    "ac_code": "A3.2.01",
-    "ac_short": "Investeringssubsidie voor creëren nieuwe kinderopvangplaatsen",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 3.19,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 50000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 3.19,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD2",
-    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
-    "ap_code": "AP2.5",
-    "ap_short": "We zetten ons in voor het verbeteren van ecosysteemdiensten",
-    "ap_long": "We zetten ons in voor het verbeteren van ecosysteemdiensten, wat cruciaal is voor een duurzaam klimaat, verhoging van de biodiversiteit en de levenskwaliteit van onze inwoners.",
-    "ac_code": "A2.5.1016",
-    "ac_short": "Aankoop accu machines voor de groendienst en oplaadkast",
+    "ac_code": "A6.4.07",
+    "ac_short": "Project Datamigratie",
     "ac_long": "Commentaar:",
     "categories": [
       "01-algemeen-bestuur"
@@ -2329,88 +2873,20 @@
     "total_amount": 50000.0,
     "amount_per_capita": 3.19,
     "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 7000.0,
-      "2028": 7000.0,
-      "2029": 7000.0,
-      "2030": 7000.0,
-      "2031": 7000.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.96,
-      "2027": 0.45,
-      "2028": 0.45,
-      "2029": 0.45,
-      "2030": 0.45,
-      "2031": 0.45
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Begraafplaatsen",
-    "ap_long": "Commentaar:",
-    "ac_code": "A15.3",
-    "ac_short": "Begraafplaatsen ontruimingen",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 3.19,
-    "yearly_amounts": {
       "2026": 0,
-      "2027": 25000.0,
-      "2028": 0,
-      "2029": 25000.0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 1.59,
-      "2028": 0,
-      "2029": 1.59,
+      "2027": 0,
+      "2028": 3.19,
+      "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid technische uitvoeringsdienst",
-    "ap_long": "Commentaar:",
-    "ac_code": "A7.31.21",
-    "ac_short": "Straatmeubilair (o.a. fietsenstallingen, zitbanken,...)",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 3.19,
-    "yearly_amounts": {
-      "2026": 20000.0,
-      "2027": 10000.0,
-      "2028": 5000.0,
-      "2029": 5000.0,
-      "2030": 5000.0,
-      "2031": 5000.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.27,
-      "2027": 0.64,
-      "2028": 0.32,
-      "2029": 0.32,
-      "2030": 0.32,
-      "2031": 0.32
     }
   },
   {
@@ -2450,35 +2926,35 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD5",
-    "bd_short": "Levenslang leren bevorderen",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
-    "ap_code": "AP5.1",
-    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
+    "bd_code": "BD1",
+    "bd_short": "Professionele, toekomstgerichte organisatie",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden stelt zich op als een professionele, toekomstgerichte organisatie die kwalitatieve diensten en producten aanbiedt. \n Kwantitatieve omschrijving: We gaan hierbij steeds oplossingsgericht te werk en zetten onze klanten/inwoners op hartelijke wijze centraal.",
+    "ap_code": "AP1.1",
+    "ap_short": "We werken verder aan de optimalisatie van onze dienstverlening",
     "ap_long": "Commentaar:",
-    "ac_code": "A5.1.2419",
-    "ac_short": "Gebo: informaticakosten en vervangingstraject laptops",
+    "ac_code": "A1.1.1301",
+    "ac_short": "Om de burger vlotter te helpen schaft de gemeente een klantgeleidingssysteem aan.",
     "ac_long": "Commentaar:",
     "categories": [
-      "08-onderwijs"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 45000.0,
-    "amount_per_capita": 2.87,
+    "total_amount": 45338.83,
+    "amount_per_capita": 2.89,
     "yearly_amounts": {
-      "2026": 1000.0,
-      "2027": 13000.0,
+      "2026": 8338.83,
+      "2027": 7500.0,
       "2028": 7000.0,
-      "2029": 2000.0,
-      "2030": 7000.0,
-      "2031": 15000.0
+      "2029": 7500.0,
+      "2030": 7500.0,
+      "2031": 7500.0
     },
     "yearly_per_capita": {
-      "2026": 0.06,
-      "2027": 0.83,
+      "2026": 0.53,
+      "2027": 0.48,
       "2028": 0.45,
-      "2029": 0.13,
-      "2030": 0.45,
-      "2031": 0.96
+      "2029": 0.48,
+      "2030": 0.48,
+      "2031": 0.48
     }
   },
   {
@@ -2487,7 +2963,7 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
+    "ap_code": "AP-7.31",
     "ap_short": "Regulier beleid technische uitvoeringsdienst",
     "ap_long": "Commentaar:",
     "ac_code": "A7.31.18",
@@ -2518,35 +2994,35 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD1",
-    "bd_short": "Professionele, toekomstgerichte organisatie",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden stelt zich op als een professionele, toekomstgerichte organisatie die kwalitatieve diensten en producten aanbiedt. \n Kwantitatieve omschrijving: We gaan hierbij steeds oplossingsgericht te werk en zetten onze klanten/inwoners op hartelijke wijze centraal.",
-    "ap_code": "AP1.1",
-    "ap_short": "We werken verder aan de optimalisatie van onze dienstverlening",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-16",
+    "ap_short": "AGBPB",
     "ap_long": "Commentaar:",
-    "ac_code": "A1.1.1301",
-    "ac_short": "Om de burger vlotter te helpen schaft de gemeente een klantgeleidingssysteem aan.",
+    "ac_code": "A16.18",
+    "ac_short": "AGBPB: Onderhoud ramen (gemeentehuis en bibliotheek)",
     "ac_long": "Commentaar:",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 44500.0,
-    "amount_per_capita": 2.84,
+    "total_amount": 40000.0,
+    "amount_per_capita": 2.55,
     "yearly_amounts": {
-      "2026": 7500.0,
-      "2027": 7500.0,
-      "2028": 7000.0,
-      "2029": 7500.0,
-      "2030": 7500.0,
-      "2031": 7500.0
+      "2026": 0,
+      "2027": 15000.0,
+      "2028": 25000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.48,
-      "2027": 0.48,
-      "2028": 0.45,
-      "2029": 0.48,
-      "2030": 0.48,
-      "2031": 0.48
+      "2026": 0,
+      "2027": 0.96,
+      "2028": 1.6,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -2586,6 +3062,40 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
+    "bd_code": "BD5",
+    "bd_short": "Levenslang leren bevorderen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
+    "ap_code": "AP5.1",
+    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A5.1.2514",
+    "ac_short": "Gekko: informaticakosten en vervangingstraject laptops",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 39000.0,
+    "amount_per_capita": 2.49,
+    "yearly_amounts": {
+      "2026": 6000.0,
+      "2027": 10000.0,
+      "2028": 5000.0,
+      "2029": 4000.0,
+      "2030": 2000.0,
+      "2031": 12000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.38,
+      "2027": 0.64,
+      "2028": 0.32,
+      "2029": 0.26,
+      "2030": 0.13,
+      "2031": 0.77
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
     "bd_code": "BD1",
     "bd_short": "Professionele, toekomstgerichte organisatie",
     "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden stelt zich op als een professionele, toekomstgerichte organisatie die kwalitatieve diensten en producten aanbiedt. \n Kwantitatieve omschrijving: We gaan hierbij steeds oplossingsgericht te werk en zetten onze klanten/inwoners op hartelijke wijze centraal.",
@@ -2599,7 +3109,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 36605.0,
-    "amount_per_capita": 2.33,
+    "amount_per_capita": 2.34,
     "yearly_amounts": {
       "2026": 0,
       "2027": 36605.0,
@@ -2610,7 +3120,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 2.33,
+      "2027": 2.34,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -2633,7 +3143,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 35691.0,
-    "amount_per_capita": 2.27,
+    "amount_per_capita": 2.28,
     "yearly_amounts": {
       "2026": 35691.0,
       "2027": 0,
@@ -2643,46 +3153,12 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.27,
+      "2026": 2.28,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD5",
-    "bd_short": "Levenslang leren bevorderen",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
-    "ap_code": "AP5.1",
-    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
-    "ap_long": "Commentaar:",
-    "ac_code": "A5.1.2514",
-    "ac_short": "Gekko: informaticakosten en vervangingstraject laptops",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "08-onderwijs"
-    ],
-    "total_amount": 35000.0,
-    "amount_per_capita": 2.23,
-    "yearly_amounts": {
-      "2026": 2000.0,
-      "2027": 10000.0,
-      "2028": 5000.0,
-      "2029": 4000.0,
-      "2030": 2000.0,
-      "2031": 12000.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.13,
-      "2027": 0.64,
-      "2028": 0.32,
-      "2029": 0.25,
-      "2030": 0.13,
-      "2031": 0.76
     }
   },
   {
@@ -2725,7 +3201,7 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
+    "ap_code": "AP-7.522",
     "ap_short": "Regulier beleid GIS",
     "ap_long": "Commentaar:",
     "ac_code": "A7.522.02",
@@ -2759,29 +3235,29 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "AGBPB",
+    "ap_code": "AP-12",
+    "ap_short": "Onderhoud patrimonium",
     "ap_long": "Commentaar:",
-    "ac_code": "A16.22",
-    "ac_short": "AGBPB: Feestzaal: Behandeling zijgevel rechts (uitslijpen voegen, opnieuw voegen, hydrofuge behandel",
+    "ac_code": "A12.322.15",
+    "ac_short": "Technische uitvoeringsdienst: relighting",
     "ac_long": "Commentaar:",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "overige"
     ],
-    "total_amount": 32000.0,
-    "amount_per_capita": 2.04,
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.91,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 16000.0,
-      "2028": 16000.0,
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 1.02,
-      "2028": 1.02,
+      "2026": 1.91,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -2793,7 +3269,41 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
+    "ap_code": "AP-12",
+    "ap_short": "Onderhoud patrimonium",
+    "ap_long": "Commentaar:",
+    "ac_code": "A12.322.17",
+    "ac_short": "'t Kranske: buitengewoon onderhoud",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.91,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.91,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-15",
     "ap_short": "Begraafplaatsen",
     "ap_long": "Commentaar:",
     "ac_code": "A15.4",
@@ -2824,22 +3334,22 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.1",
-    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.7",
+    "ap_short": "We zeten ons in voor het verhogen van de verkeersveiligheid;",
     "ap_long": "Commentaar:",
-    "ac_code": "A4.1.4101",
-    "ac_short": "Inrichting bibliotheek i.k.v. de bibliotheek als verblijfsruimte voor diverse doeleinden",
+    "ac_code": "A2.7.34115",
+    "ac_short": "Bonheiden investeert in fietsparkeerinfrastructuur",
     "ac_long": "Commentaar:",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "overige"
     ],
-    "total_amount": 25000.0,
-    "amount_per_capita": 1.59,
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.91,
     "yearly_amounts": {
-      "2026": 25000.0,
+      "2026": 30000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2847,7 +3357,75 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.59,
+      "2026": 1.91,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD6",
+    "bd_short": "Bestuurskracht verhogen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden verhoogt haar bestuurskracht door het optimaliseren van haar processen en het opleiden van personeel.",
+    "ap_code": "AP6.4",
+    "ap_short": "We investeren in digitalisering en in een gedegen cybersecuritybeleid.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A6.4.2514",
+    "ac_short": "De gemeente voert een systeem van werken op afspraak in en schaft hiervoor een afsprakenmodule aan.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 27000.0,
+    "amount_per_capita": 1.72,
+    "yearly_amounts": {
+      "2026": 27000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.72,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-16",
+    "ap_short": "AGBPB",
+    "ap_long": "Commentaar:",
+    "ac_code": "A16.23",
+    "ac_short": "AGBPB: Bliksembeveiliging bibliotheek en gemeentehuis",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 26000.0,
+    "amount_per_capita": 1.66,
+    "yearly_amounts": {
+      "2026": 26000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.66,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2871,7 +3449,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 25000.0,
-    "amount_per_capita": 1.59,
+    "amount_per_capita": 1.6,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 0,
@@ -2881,7 +3459,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.59,
+      "2026": 1.6,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2895,7 +3473,7 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
+    "ap_code": "AP-14",
     "ap_short": "Kerkfabrieken",
     "ap_long": "Commentaar:",
     "ac_code": "A14.03",
@@ -2939,7 +3517,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 22500.0,
-    "amount_per_capita": 1.43,
+    "amount_per_capita": 1.44,
     "yearly_amounts": {
       "2026": 7500.0,
       "2027": 0,
@@ -2960,20 +3538,20 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.1",
-    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-7.31",
+    "ap_short": "Regulier beleid technische uitvoeringsdienst",
     "ap_long": "Commentaar:",
-    "ac_code": "A4.1.4207",
-    "ac_short": "vzw Berentrode: Ledverlichting voetbalterrein Waverseseteenweg",
+    "ac_code": "A7.31.26",
+    "ac_short": "Aankoop bladzuigmachine achterop vrachtwagen",
     "ac_long": "Commentaar:",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
     "total_amount": 20000.0,
-    "amount_per_capita": 1.27,
+    "amount_per_capita": 1.28,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 0,
@@ -2983,7 +3561,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.27,
+      "2026": 1.28,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2994,20 +3572,20 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD4",
-    "bd_short": "Divers aanbod op het gebied van vrije tijd",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
-    "ap_code": "AP4.1",
-    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-7.31",
+    "ap_short": "Regulier beleid technische uitvoeringsdienst",
     "ap_long": "Commentaar:",
-    "ac_code": "A4.1.4309",
-    "ac_short": "'t Blikveld: vervanging hoogtewerker",
+    "ac_code": "A7.31.28",
+    "ac_short": "Aankoop zoutstrooier voor fietspaden op werkdrager",
     "ac_long": "Commentaar:",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
     "total_amount": 20000.0,
-    "amount_per_capita": 1.27,
+    "amount_per_capita": 1.28,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 0,
@@ -3017,7 +3595,41 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.27,
+      "2026": 1.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD1",
+    "bd_short": "Professionele, toekomstgerichte organisatie",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden stelt zich op als een professionele, toekomstgerichte organisatie die kwalitatieve diensten en producten aanbiedt. \n Kwantitatieve omschrijving: We gaan hierbij steeds oplossingsgericht te werk en zetten onze klanten/inwoners op hartelijke wijze centraal.",
+    "ap_code": "AP1.2",
+    "ap_short": "We zetten in op het informeren van onze burgers",
+    "ap_long": "Commentaar:",
+    "ac_code": "A1.2.1312",
+    "ac_short": "Bouw nieuwe website",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.28,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.28,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -3041,7 +3653,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 20000.0,
-    "amount_per_capita": 1.27,
+    "amount_per_capita": 1.28,
     "yearly_amounts": {
       "2026": 0,
       "2027": 5000.0,
@@ -3062,122 +3674,20 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD1",
-    "bd_short": "Professionele, toekomstgerichte organisatie",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden stelt zich op als een professionele, toekomstgerichte organisatie die kwalitatieve diensten en producten aanbiedt. \n Kwantitatieve omschrijving: We gaan hierbij steeds oplossingsgericht te werk en zetten onze klanten/inwoners op hartelijke wijze centraal.",
-    "ap_code": "AP1.2",
-    "ap_short": "We zetten in op het informeren van onze burgers",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.1",
+    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
     "ap_long": "Commentaar:",
-    "ac_code": "A1.2.1312",
-    "ac_short": "Bouw nieuwe website",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 1.27,
-    "yearly_amounts": {
-      "2026": 20000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.27,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Onderhoud patrimonium",
-    "ap_long": "Commentaar:",
-    "ac_code": "A12.322.12",
-    "ac_short": "OCMW: Imeldalaan 3: Afkoppelingswerken",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 1.27,
-    "yearly_amounts": {
-      "2026": 20000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.27,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "AGBPB",
-    "ap_long": "Commentaar:",
-    "ac_code": "A16.19",
-    "ac_short": "AGBPB: POB: Airco serverlokaal",
+    "ac_code": "A4.1.4207",
+    "ac_short": "vzw Berentrode: Ledverlichting voetbalterrein Waverseseteenweg",
     "ac_long": "Commentaar:",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 20000.0,
-    "amount_per_capita": 1.27,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 20000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 1.27,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid technische uitvoeringsdienst",
-    "ap_long": "Commentaar:",
-    "ac_code": "A7.31.26",
-    "ac_short": "Aankoop bladzuigmachine achterop vrachtwagen",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 1.27,
+    "amount_per_capita": 1.28,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 0,
@@ -3187,7 +3697,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.27,
+      "2026": 1.28,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -3198,20 +3708,20 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid technische uitvoeringsdienst",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.1",
+    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
     "ap_long": "Commentaar:",
-    "ac_code": "A7.31.28",
-    "ac_short": "Aankoop zoutstrooier voor fietspaden op werkdrager",
+    "ac_code": "A4.1.4309",
+    "ac_short": "'t Blikveld: vervanging hoogtewerker",
     "ac_long": "Commentaar:",
     "categories": [
-      "02-mobiliteit"
+      "07-cultuur-vrije-tijd"
     ],
     "total_amount": 20000.0,
-    "amount_per_capita": 1.27,
+    "amount_per_capita": 1.28,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 0,
@@ -3221,7 +3731,109 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.27,
+      "2026": 1.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.5",
+    "ap_short": "We zetten ons in voor het verbeteren van ecosysteemdiensten",
+    "ap_long": "We zetten ons in voor het verbeteren van ecosysteemdiensten, wat cruciaal is voor een duurzaam klimaat, verhoging van de biodiversiteit en de levenskwaliteit van onze inwoners.",
+    "ac_code": "A2.5.1019",
+    "ac_short": "Groene daken/groene gevels",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 19656.45,
+    "amount_per_capita": 1.25,
+    "yearly_amounts": {
+      "2026": 19656.45,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD5",
+    "bd_short": "Levenslang leren bevorderen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
+    "ap_code": "AP5.1",
+    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A5.1.2506",
+    "ac_short": "Gekko: aankoop klasmeubilair (vervangingsinvestering)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 19543.8,
+    "amount_per_capita": 1.25,
+    "yearly_amounts": {
+      "2026": 7043.8,
+      "2027": 2500.0,
+      "2028": 2500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.45,
+      "2027": 0.16,
+      "2028": 0.16,
+      "2029": 0.16,
+      "2030": 0.16,
+      "2031": 0.16
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.4",
+    "ap_short": "We streven naar een waterzuiveringsgraad van 90% en een maximale regenwaterinfiltratie.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.4.19",
+    "ac_short": "Bonheiden investeert in de bovenaanleg bij de collectorwerken in de Weynesbaan.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 19096.68,
+    "amount_per_capita": 1.22,
+    "yearly_amounts": {
+      "2026": 19096.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.22,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -3235,7 +3847,7 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
+    "ap_code": "AP-12",
     "ap_short": "Onderhoud patrimonium",
     "ap_long": "Commentaar:",
     "ac_code": "A12.322.13",
@@ -3258,6 +3870,108 @@
       "2026": 1.08,
       "2027": 0,
       "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-16",
+    "ap_short": "AGBPB",
+    "ap_long": "Commentaar:",
+    "ac_code": "A16.22",
+    "ac_short": "AGBPB: Feestzaal: Behandeling zijgevel rechts (uitslijpen voegen, opnieuw voegen, hydrofuge behandel",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 16000.0,
+    "amount_per_capita": 1.02,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 16000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.02,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-15",
+    "ap_short": "Begraafplaatsen",
+    "ap_long": "Commentaar:",
+    "ac_code": "A15.1",
+    "ac_short": "Herinrichting van de  foetusweide met aanleg van een sterretjestuin/koesterplek",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.96,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.10",
+    "ap_short": "We voeren een integraal beleid rond afval en circulariteit.",
+    "ap_long": "We voeren een integraal beleid rond afval en circulariteit, met een verhoogde aandacht voor afvalpreventie en hergebruik van materialen.",
+    "ac_code": "A2.10.4202",
+    "ac_short": "Vernieuwen afvalbakken sportcentra & speel/buurtpleinen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 15000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.96,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -3300,66 +4014,32 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD5",
-    "bd_short": "Levenslang leren bevorderen",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
-    "ap_code": "AP5.1",
-    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
+    "bd_code": "BD4",
+    "bd_short": "Divers aanbod op het gebied van vrije tijd",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden bevordert verbinding en faciliteert een divers aanbod op het gebied van vrije tijd.",
+    "ap_code": "AP4.1",
+    "ap_short": "We blijven investeren in toegankelijke en kwalitatieve vrijetijds-infrastructuur.",
     "ap_long": "Commentaar:",
-    "ac_code": "A5.1.2506",
-    "ac_short": "Gekko: aankoop klasmeubilair (vervangingsinvestering)",
+    "ac_code": "A4.1.4213",
+    "ac_short": "vzw Berentrode: nooddeuren",
     "ac_long": "Commentaar:",
     "categories": [
-      "08-onderwijs"
+      "overige"
     ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 0.96,
+    "total_amount": 14000.0,
+    "amount_per_capita": 0.89,
     "yearly_amounts": {
-      "2026": 2500.0,
-      "2027": 2500.0,
-      "2028": 2500.0,
-      "2029": 2500.0,
-      "2030": 2500.0,
-      "2031": 2500.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.16,
-      "2027": 0.16,
-      "2028": 0.16,
-      "2029": 0.16,
-      "2030": 0.16,
-      "2031": 0.16
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD2",
-    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
-    "ap_code": "AP2.10",
-    "ap_short": "We voeren een integraal beleid rond afval en circulariteit.",
-    "ap_long": "We voeren een integraal beleid rond afval en circulariteit, met een verhoogde aandacht voor afvalpreventie en hergebruik van materialen.",
-    "ac_code": "A2.10.4202",
-    "ac_short": "Vernieuwen afvalbakken sportcentra & speel/buurtpleinen",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 0.96,
-    "yearly_amounts": {
-      "2026": 0,
+      "2026": 14000.0,
       "2027": 0,
-      "2028": 15000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.89,
       "2027": 0,
-      "2028": 0.96,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -3371,20 +4051,88 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Begraafplaatsen",
+    "ap_code": "AP-7.31",
+    "ap_short": "Regulier beleid technische uitvoeringsdienst",
     "ap_long": "Commentaar:",
-    "ac_code": "A15.1",
-    "ac_short": "Herinrichting van de  foetusweide met aanleg van een sterretjestuin/koesterplek",
+    "ac_code": "A7.31.25",
+    "ac_short": "Aankoop hogedrukreiniger met toebehoren",
     "ac_long": "Commentaar:",
     "categories": [
-      "09-zorg-opvang"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 0.96,
+    "total_amount": 12000.0,
+    "amount_per_capita": 0.77,
+    "yearly_amounts": {
+      "2026": 12000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.77,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.6",
+    "ap_short": "We intensiveren onze inspanningen voor de noodzakelijke energie- en klimaattransitie.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.6.0906",
+    "ac_short": "Gentiaan:  verwarmingsketel",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 12000.0,
+    "amount_per_capita": 0.77,
+    "yearly_amounts": {
+      "2026": 12000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.77,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.8",
+    "ap_short": "We zetten ons in voor de toegankelijkheid van de publieke ruimte.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.8.2302",
+    "ac_short": "Picknickbanken voor personen in een rolstoel",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 12000.0,
+    "amount_per_capita": 0.77,
     "yearly_amounts": {
       "2026": 0,
-      "2027": 15000.0,
+      "2027": 12000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -3392,7 +4140,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0.96,
+      "2027": 0.77,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -3415,7 +4163,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 12000.0,
-    "amount_per_capita": 0.76,
+    "amount_per_capita": 0.77,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -3427,7 +4175,41 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 0.76,
+      "2028": 0.77,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD6",
+    "bd_short": "Bestuurskracht verhogen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden verhoogt haar bestuurskracht door het optimaliseren van haar processen en het opleiden van personeel.",
+    "ap_code": "AP6.4",
+    "ap_short": "We investeren in digitalisering en in een gedegen cybersecuritybeleid.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A6.4.2551",
+    "ac_short": "Software financiën (Schaubroeck)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 12000.0,
+    "amount_per_capita": 0.77,
+    "yearly_amounts": {
+      "2026": 12000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.77,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -3439,53 +4221,19 @@
     "bd_code": "BD2",
     "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
     "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
-    "ap_code": "AP2.8",
-    "ap_short": "We zetten ons in voor de toegankelijkheid van de publieke ruimte.",
-    "ap_long": "Commentaar:",
-    "ac_code": "A2.8.2302",
-    "ac_short": "Picknickbanken voor personen in een rolstoel",
+    "ap_code": "AP2.5",
+    "ap_short": "We zetten ons in voor het verbeteren van ecosysteemdiensten",
+    "ap_long": "We zetten ons in voor het verbeteren van ecosysteemdiensten, wat cruciaal is voor een duurzaam klimaat, verhoging van de biodiversiteit en de levenskwaliteit van onze inwoners.",
+    "ac_code": "A2.5.1013",
+    "ac_short": "Afsluiting rond perken (om blad te laten liggen)",
     "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "03-natuur-milieu"
     ],
-    "total_amount": 12000.0,
-    "amount_per_capita": 0.76,
+    "total_amount": 11000.0,
+    "amount_per_capita": 0.7,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 12000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0.76,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid technische uitvoeringsdienst",
-    "ap_long": "Commentaar:",
-    "ac_code": "A7.31.25",
-    "ac_short": "Aankoop hogedrukreiniger met toebehoren",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 12000.0,
-    "amount_per_capita": 0.76,
-    "yearly_amounts": {
-      "2026": 12000.0,
+      "2026": 11000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -3493,7 +4241,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.76,
+      "2026": 0.7,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -3538,22 +4286,22 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD2",
-    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
-    "ap_code": "AP2.5",
-    "ap_short": "We zetten ons in voor het verbeteren van ecosysteemdiensten",
-    "ap_long": "We zetten ons in voor het verbeteren van ecosysteemdiensten, wat cruciaal is voor een duurzaam klimaat, verhoging van de biodiversiteit en de levenskwaliteit van onze inwoners.",
-    "ac_code": "A2.5.1013",
-    "ac_short": "Afsluiting rond perken (om blad te laten liggen)",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-12",
+    "ap_short": "Onderhoud patrimonium",
+    "ap_long": "Commentaar:",
+    "ac_code": "A12.322.10",
+    "ac_short": "OCMW: Imeldalaan 3: Renovatie badkamer 1e verdieping",
     "ac_long": "Commentaar:",
     "categories": [
-      "03-natuur-milieu"
+      "09-zorg-opvang"
     ],
-    "total_amount": 11000.0,
-    "amount_per_capita": 0.7,
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.64,
     "yearly_amounts": {
-      "2026": 11000.0,
+      "2026": 10000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -3561,7 +4309,109 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.7,
+      "2026": 0.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-12",
+    "ap_short": "Onderhoud patrimonium",
+    "ap_long": "Commentaar:",
+    "ac_code": "A12.322.11",
+    "ac_short": "OCMW: Imeldalaan 3: Keukenrenovatie gelijkvloers",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.64,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-16",
+    "ap_short": "AGBPB",
+    "ap_long": "Commentaar:",
+    "ac_code": "A16.19",
+    "ac_short": "AGBPB: POB: Airco serverlokaal",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.64,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.64,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-7.31",
+    "ap_short": "Regulier beleid technische uitvoeringsdienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "A7.31.27",
+    "ac_short": "Aankoop optrekcontainer voor vrachtwagen met toebehoren",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.64,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -3640,108 +4490,6 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Onderhoud patrimonium",
-    "ap_long": "Commentaar:",
-    "ac_code": "A12.322.10",
-    "ac_short": "OCMW: Imeldalaan 3: Renovatie badkamer 1e verdieping",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 10000.0,
-    "amount_per_capita": 0.64,
-    "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.64,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Onderhoud patrimonium",
-    "ap_long": "Commentaar:",
-    "ac_code": "A12.322.11",
-    "ac_short": "OCMW: Imeldalaan 3: Keukenrenovatie gelijkvloers",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 10000.0,
-    "amount_per_capita": 0.64,
-    "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.64,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid technische uitvoeringsdienst",
-    "ap_long": "Commentaar:",
-    "ac_code": "A7.31.27",
-    "ac_short": "Aankoop optrekcontainer voor vrachtwagen met toebehoren",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 10000.0,
-    "amount_per_capita": 0.64,
-    "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.64,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
     "bd_code": "BD2",
     "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
     "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
@@ -3767,6 +4515,74 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0.64,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD2",
+    "bd_short": "Robuuste, toekomstbestendige en gezonde leefruimte",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden creëert een robuuste, toekomstbestendige en gezonde leefruimte",
+    "ap_code": "AP2.4",
+    "ap_short": "We streven naar een waterzuiveringsgraad van 90% en een maximale regenwaterinfiltratie.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A2.4.20",
+    "ac_short": "Marthe: investeringstoelage",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 8580.0,
+    "amount_per_capita": 0.55,
+    "yearly_amounts": {
+      "2026": 8580.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-12",
+    "ap_short": "Onderhoud patrimonium",
+    "ap_long": "Commentaar:",
+    "ac_code": "A12.322.14",
+    "ac_short": "De buitenaanleg van de technische uitvoeringsdienst wordt aangepast conform de milieuwetgeving.",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 8000.0,
+    "amount_per_capita": 0.51,
+    "yearly_amounts": {
+      "2026": 8000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.51,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -3813,7 +4629,7 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
+    "ap_code": "AP-15",
     "ap_short": "Begraafplaatsen",
     "ap_long": "Commentaar:",
     "ac_code": "A15.5",
@@ -3881,48 +4697,14 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "AGBPB",
+    "ap_code": "AP-12",
+    "ap_short": "Onderhoud patrimonium",
     "ap_long": "Commentaar:",
-    "ac_code": "A16.21",
-    "ac_short": "AGBPB: Feestzaal: Vervangen optische detectoren door thermische detectoren in de zaal",
+    "ac_code": "A12.31.02",
+    "ac_short": "Onderhoud en herstel van gebouwen LOI",
     "ac_long": "Commentaar:",
     "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 6000.0,
-    "amount_per_capita": 0.38,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 3000.0,
-      "2028": 3000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0.19,
-      "2028": 0.19,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "BD5",
-    "bd_short": "Levenslang leren bevorderen",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
-    "ap_code": "AP5.1",
-    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
-    "ap_long": "Commentaar:",
-    "ac_code": "A5.1.3202",
-    "ac_short": "Gebo: Aanpassen afvoer keuken blok F naar riolering Schommen",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "08-onderwijs"
+      "09-zorg-opvang"
     ],
     "total_amount": 5000.0,
     "amount_per_capita": 0.32,
@@ -3946,31 +4728,31 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "BD3",
-    "bd_short": "Zorgzame en inclusieve samenleving",
-    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden bouwt aan een zorgzame en inclusieve samenleving",
-    "ap_code": "AP3.3",
-    "ap_short": "We verhogen de levenskwaliteit.",
-    "ap_long": "We verhogen de levenskwaliteit door nabij, participatief, verbindend, geïntegreerd en open te werken.",
-    "ac_code": "A3.3.2311",
-    "ac_short": "We voeren de UiTPAS met kansentarief in",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-7.33",
+    "ap_short": "Regulier beleid poetsdienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "A7.33.03",
+    "ac_short": "Koffiemachines (huur / aankoop)",
     "ac_long": "Commentaar:",
     "categories": [
-      "09-zorg-opvang"
+      "01-algemeen-bestuur"
     ],
     "total_amount": 5000.0,
     "amount_per_capita": 0.32,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 5000.0,
+      "2026": 5000.0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0.32,
+      "2026": 0.32,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -4014,17 +4796,51 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Onderhoud patrimonium",
-    "ap_long": "Commentaar:",
-    "ac_code": "A12.31.02",
-    "ac_short": "Onderhoud en herstel van gebouwen LOI",
+    "bd_code": "BD3",
+    "bd_short": "Zorgzame en inclusieve samenleving",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden bouwt aan een zorgzame en inclusieve samenleving",
+    "ap_code": "AP3.3",
+    "ap_short": "We verhogen de levenskwaliteit.",
+    "ap_long": "We verhogen de levenskwaliteit door nabij, participatief, verbindend, geïntegreerd en open te werken.",
+    "ac_code": "A3.3.2311",
+    "ac_short": "We voeren de UiTPAS met kansentarief in",
     "ac_long": "Commentaar:",
     "categories": [
       "09-zorg-opvang"
+    ],
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.32,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 5000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.32,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD5",
+    "bd_short": "Levenslang leren bevorderen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur streeft ernaar levenslang leren te bevorderen door een divers en toegankelijk aanbod van onderwijs- en opleidingsmogelijkheden te organiseren en te ondersteunen",
+    "ap_code": "AP5.1",
+    "ap_short": "We blijven investeren in onze eigen gemeentescholen.",
+    "ap_long": "Commentaar:",
+    "ac_code": "A5.1.3202",
+    "ac_short": "Gebo: Aanpassen afvoer keuken blok F naar riolering Schommen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
     ],
     "total_amount": 5000.0,
     "amount_per_capita": 0.32,
@@ -4048,51 +4864,17 @@
   {
     "municipality": "Bonheiden",
     "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "AGBPB",
+    "bd_code": "BD6",
+    "bd_short": "Bestuurskracht verhogen",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur van Bonheiden verhoogt haar bestuurskracht door het optimaliseren van haar processen en het opleiden van personeel.",
+    "ap_code": "AP6.4",
+    "ap_short": "We investeren in digitalisering en in een gedegen cybersecuritybeleid.",
     "ap_long": "Commentaar:",
-    "ac_code": "A16.20",
-    "ac_short": "AGBPB: Feestzaal: Aanleg padje afvalcontainers (omgevingsvergunning + aanleg)",
+    "ac_code": "A6.4.08",
+    "ac_short": "Dienstencentrum: scherm + clickshare",
     "ac_long": "Commentaar:",
     "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 5000.0,
-    "amount_per_capita": 0.32,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 5000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0.32,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Bonheiden",
-    "nis_code": "12005",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Regulier beleid poetsdienst",
-    "ap_long": "Commentaar:",
-    "ac_code": "A7.33.03",
-    "ac_short": "Koffiemachines (huur / aankoop)",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "01-algemeen-bestuur"
+      "overige"
     ],
     "total_amount": 5000.0,
     "amount_per_capita": 0.32,
@@ -4197,7 +4979,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 4000.0,
-    "amount_per_capita": 0.25,
+    "amount_per_capita": 0.26,
     "yearly_amounts": {
       "2026": 2000.0,
       "2027": 0,
@@ -4213,6 +4995,40 @@
       "2029": 0,
       "2030": 0,
       "2031": 0.13
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "BD3",
+    "bd_short": "Zorgzame en inclusieve samenleving",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur Bonheiden bouwt aan een zorgzame en inclusieve samenleving",
+    "ap_code": "AP3.6",
+    "ap_short": "We streven ernaar om de gezondheid en het welzijn van de inwoners te bevorderen.",
+    "ap_long": "We streven ernaar om de gezondheid en het welzijn van de inwoners te bevorderen door hen actief te motiveren en te ondersteunen bij het aannemen van een gezonde levensstijl.",
+    "ac_code": "A3.6.2304",
+    "ac_short": "Aankoop AED-toestellen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 3975.74,
+    "amount_per_capita": 0.25,
+    "yearly_amounts": {
+      "2026": 3975.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -4243,6 +5059,40 @@
     "yearly_per_capita": {
       "2026": 0.24,
       "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bonheiden",
+    "nis_code": "12005",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-16",
+    "ap_short": "AGBPB",
+    "ap_long": "Commentaar:",
+    "ac_code": "A16.21",
+    "ac_short": "AGBPB: Feestzaal: Vervangen optische detectoren door thermische detectoren in de zaal",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.19,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 3000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.19,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -4289,7 +5139,7 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
+    "ap_code": "AP-15",
     "ap_short": "Begraafplaatsen",
     "ap_long": "Commentaar:",
     "ac_code": "A15.2",

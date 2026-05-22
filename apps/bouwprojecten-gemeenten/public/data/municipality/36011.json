@@ -2,35 +2,307 @@
   {
     "municipality": "Lichtervelde",
     "nis_code": "36011",
-    "bd_code": "BD8",
-    "bd_short": "Een betrokken, krachtdadige en efficiënte gemeente met de burger centraal",
-    "bd_long": "Kwalitatieve omschrijving: We streven naar optimale dienstverlening met oog voor innovatie en informatieveiligheid, zoals online betalingen, centraal contacpunt... \nWe staan voor een democratisch Lichtervelde met dialoog en samenwerking met lokale en bovenlokale partners.",
-    "ap_code": "AP21",
-    "ap_short": "Investeren - in optimale dienstverlening en organisatiebeheersing, innovatie en informatieveiligheid",
-    "ap_long": "We zetten in op een digitalisering van de uitgaande facturen (online betalingen). \nBinnen een EFRO-project realiseren we samen met bovenlokale partners een centraal meldpunt. \nEn voor het bieden van een optimale dienstverlening zetten we verdere stappen in de aanpassing van het gemeentehuis binnen het service design traject.",
-    "ac_code": "ACT",
-    "ac_short": "Dienstverlening - project centraal contactpunt en koppelingen",
+    "bd_code": "BD5",
+    "bd_short": "Zorgzame, verbindende en toegankelijke gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Het zorgbeleid is coherent en doelgroepgericht, met extra focus op ouderen en kwetsbare groepen. \nDaarbij zetten we in op het uitbreiden van het woonzorgcentrum, een nieuw centrum voor dagverzorging, huisvestingsaanbod voor senioren, thuiszorg, een infopunt dementie, mantelzorg, e-inclusie, een lokaal dienstencentrum met oog voor buurtgerichte zorg... \n\nWe streven naar het aanbieden van een sterke sociale hulp- en dienstverlening binnen de snel evoluerende context (armoedebeleid...).\nDe opvang van vluchtelingen is af te stemmen op de federale beleidsintenties. We werken vanuit een regionale betrokkenheid.",
+    "ap_code": "AP13",
+    "ap_short": "Investeren - in een coherent en doelgericht zorgaanbod met focus op kwetsbare gezinnen & ouderen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-13.1",
+    "ac_short": "Zorgbeleid - woonzorgcentrum uitbreiden",
     "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "09-zorg-opvang"
     ],
-    "total_amount": 26466840.0,
-    "amount_per_capita": 2840.0,
+    "total_amount": 6260971.51,
+    "amount_per_capita": 669.03,
     "yearly_amounts": {
-      "2026": 9776527.0,
-      "2027": 7006000.0,
-      "2028": 2554259.0,
-      "2029": 2298450.0,
-      "2030": 3837030.0,
-      "2031": 994574.0
+      "2026": 4165971.51,
+      "2027": 2095000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1049.06,
-      "2027": 751.77,
-      "2028": 274.08,
-      "2029": 246.63,
-      "2030": 411.73,
-      "2031": 106.72
+      "2026": 445.17,
+      "2027": 223.87,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD5",
+    "bd_short": "Zorgzame, verbindende en toegankelijke gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Het zorgbeleid is coherent en doelgroepgericht, met extra focus op ouderen en kwetsbare groepen. \nDaarbij zetten we in op het uitbreiden van het woonzorgcentrum, een nieuw centrum voor dagverzorging, huisvestingsaanbod voor senioren, thuiszorg, een infopunt dementie, mantelzorg, e-inclusie, een lokaal dienstencentrum met oog voor buurtgerichte zorg... \n\nWe streven naar het aanbieden van een sterke sociale hulp- en dienstverlening binnen de snel evoluerende context (armoedebeleid...).\nDe opvang van vluchtelingen is af te stemmen op de federale beleidsintenties. We werken vanuit een regionale betrokkenheid.",
+    "ap_code": "AP13",
+    "ap_short": "Investeren - in een coherent en doelgericht zorgaanbod met focus op kwetsbare gezinnen & ouderen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-13.2",
+    "ac_short": "Zorgbeleid - huisvesting voor ouderen: evaluatie en up-to-date houden patrimonium",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3577160.0,
+    "amount_per_capita": 382.25,
+    "yearly_amounts": {
+      "2026": 260000.0,
+      "2027": 1993000.0,
+      "2028": 30000.0,
+      "2029": 1234160.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 27.78,
+      "2027": 212.97,
+      "2028": 3.21,
+      "2029": 131.88,
+      "2030": 3.21,
+      "2031": 3.21
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP6",
+    "ap_short": "Investeren - in de herinrichting van het recyclagepark",
+    "ap_long": "Verruiming recyclagepark zodoende de circulatie te optimaliseren en bijkomende ruimte te voorzien voor toekomstige fracties.",
+    "ac_code": "ACT-6.1",
+    "ac_short": "Recyclagepark - Investeren in de herinrichting",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 1930180.44,
+    "amount_per_capita": 206.26,
+    "yearly_amounts": {
+      "2026": 1930180.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 206.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD7",
+    "bd_short": "Lichtervelde leeft, een gemeente vol beleving",
+    "bd_long": "Kwalitatieve omschrijving: Lichtervelde leeft! \nWe steunen en werken samen met verenigingen, organiseren gemeentelijke feestelijkheden zoals Lichterveldse feeste, kerstmarkt, nieuwjaarsreceptie, Margarethafeesten en septemberkermis.\nWe zetten in op cultuur, jumelage, toerisme, sport (studie sportinfrastructuur) en een nieuwe bibliotheek met openbib-principe.",
+    "ap_code": "AP20",
+    "ap_short": "Investeren - in een nieuwe bibliotheek",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-20.1",
+    "ac_short": "Een nieuwe  bibliotheek",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1909000.0,
+    "amount_per_capita": 203.99,
+    "yearly_amounts": {
+      "2026": 1000000.0,
+      "2027": 909000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 106.86,
+      "2027": 97.13,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP4",
+    "ap_short": "Investeren - in rioleringsprojecten",
+    "ap_long": "Geplande rioleringsprojecten 2026 - 2031:\n- 2026 - vervolg Koolskampstraat\n- 2026 - project Delta: Mosselstraat - Nieuwe Veldstraat - Leenstraat - Oude Bruggeweg\n- 2028 - West- en Bollestraat\n- 2030 - Kasteel- en Ketelbuiserstraat",
+    "ac_code": "ACT-4.4",
+    "ac_short": "Rioleringsproject - Kasteelstraat - Ketelbuiserstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1863981.0,
+    "amount_per_capita": 199.18,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 1863981.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 199.18,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD3",
+    "bd_short": "Genieten van Groen",
+    "bd_long": "Kwalitatieve omschrijving: We investeren optimaal in groene, gezellige plekken doorheen de gemeente. Plaatsen voor recreatie, om tot rust te komen, te spelen of een babbeltje te slaan...\nZo willen we bijdragen aan fysiek, mentaal en sociaal welzijn.",
+    "ap_code": "AP10",
+    "ap_short": "Investeren - in recreatieve groenprojecten",
+    "ap_long": "2026: Pinkstervallei\n2027: mogelijke aankoop gronden\n2028: recreatievoorzieningen in de  Huwynsbossen\n20230: uitvoering plannen Wulleput",
+    "ac_code": "ACT-10.1",
+    "ac_short": "Groen - site aan de Wulleputstraat - Nieuwstraat: invulling RUP en mogelijke aankoop gronden",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 1700000.0,
+    "amount_per_capita": 181.66,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 700000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 1000000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 74.8,
+      "2028": 0,
+      "2029": 0,
+      "2030": 106.86,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD2",
+    "bd_short": "Veilige Mobiliteit als prioriteit",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een veilige wegeninfrastructuur, die inspeelt op de noden van de verschillende weggebruikers.  \nMobiliteit is meer en meer een uitdaging. \nInzetten op kwalitatieve openbare wegen is dan ook een prioriteit, zodat onze inwoners veilig onderweg kunnen zijn.\nWe investeren in onze openbare wegen en infrastructuur, structureel en pro-actief. \nZowel voor functionele als recreatieve verplaatsingen. \nDit in lijn met de feedback uit de burgerbevraging 2025 waarbij het  verkeersveiligheid en een goeie staat van alle types wegen als prioriteit 1 en 2 worden aangegeven.\nMogelijk maatregelen:\n- structurele investeringen in onze wegen, zowel qua onderhoud als preventieve werken \n- het realiseren van fietsinfrastructuur en -belijning\n- oog voor wandelopportuniteiten en het opwaarderen van trage wegen\n- aanleg rond de begraafplaats",
+    "ap_code": "AP9",
+    "ap_short": "Investeren - in een infrastructuurplan wegen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-9.1",
+    "ac_short": "Mobiliteit - investeren in kwalitatieve en veilige wegen",
+    "ac_long": "Er is nood aan een structurele aanpak van wegenwerken aan de hand van een totaalplan met een overzicht van de nodige wegen- en mobiliteitswerken.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1598636.24,
+    "amount_per_capita": 170.83,
+    "yearly_amounts": {
+      "2026": 348636.24,
+      "2027": 250000.0,
+      "2028": 250000.0,
+      "2029": 250000.0,
+      "2030": 250000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 37.25,
+      "2027": 26.71,
+      "2028": 26.71,
+      "2029": 26.71,
+      "2030": 26.71,
+      "2031": 26.71
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP1",
+    "ap_short": "Investeren - in het realiseren van het Patrimonium Masterplan",
+    "ap_long": "Het patrimoniumplan werd uitgewerkt met een langetermijnperspectief van 2025 - 2050, waarvan we nu de eerste fase uitrollen. \nDaarbij gaat veel aandacht naar energie-optimalisaties (zonnepanelen …) omwille van een optimaal terugverdieneffect.\n\nOnderdelen:\n- uitvoeren gemaakte keuzes uit het patrimoniumplan binnen het beschikbare budget \n- financieel- en projectbeheer, met stappenplan (wat, wanneer, hoeveel, hoe)\n- gebouwenmanagement digitaliseren en optimaliseren, met link naar meldingen in het centraal contactpunt in het EFRO-project met implementatie Topdesk,...\n- samenwerking als een optie bekijken cfr Farys \n- energie-optimalisaties met monitoring ROI",
+    "ac_code": "ACT-1.1",
+    "ac_short": "Patrimonium - verduurzamen bestaande patrimonium en toekomstgerichte aanpak nieuwe patrimonium",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1546000.0,
+    "amount_per_capita": 165.2,
+    "yearly_amounts": {
+      "2026": 205000.0,
+      "2027": 147000.0,
+      "2028": 250000.0,
+      "2029": 249000.0,
+      "2030": 350000.0,
+      "2031": 345000.0
+    },
+    "yearly_per_capita": {
+      "2026": 21.91,
+      "2027": 15.71,
+      "2028": 26.71,
+      "2029": 26.61,
+      "2030": 37.4,
+      "2031": 36.87
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD5",
+    "bd_short": "Zorgzame, verbindende en toegankelijke gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Het zorgbeleid is coherent en doelgroepgericht, met extra focus op ouderen en kwetsbare groepen. \nDaarbij zetten we in op het uitbreiden van het woonzorgcentrum, een nieuw centrum voor dagverzorging, huisvestingsaanbod voor senioren, thuiszorg, een infopunt dementie, mantelzorg, e-inclusie, een lokaal dienstencentrum met oog voor buurtgerichte zorg... \n\nWe streven naar het aanbieden van een sterke sociale hulp- en dienstverlening binnen de snel evoluerende context (armoedebeleid...).\nDe opvang van vluchtelingen is af te stemmen op de federale beleidsintenties. We werken vanuit een regionale betrokkenheid.",
+    "ap_code": "AP13",
+    "ap_short": "Investeren - in een coherent en doelgericht zorgaanbod met focus op kwetsbare gezinnen & ouderen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-13.4",
+    "ac_short": "Zorgbeleid - bouw van een Centrum voor Dagverzorging De Korenbloem",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1376000.0,
+    "amount_per_capita": 147.04,
+    "yearly_amounts": {
+      "2026": 1000000.0,
+      "2027": 376000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 106.86,
+      "2027": 40.18,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -48,10 +320,10 @@
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 496000.0,
-    "amount_per_capita": 53.22,
+    "total_amount": 1281439.2,
+    "amount_per_capita": 136.93,
     "yearly_amounts": {
-      "2026": 141000.0,
+      "2026": 926439.2,
       "2027": 65000.0,
       "2028": 95000.0,
       "2029": 65000.0,
@@ -59,12 +331,726 @@
       "2031": 65000.0
     },
     "yearly_per_capita": {
-      "2026": 15.13,
-      "2027": 6.97,
-      "2028": 10.19,
-      "2029": 6.97,
-      "2030": 6.97,
-      "2031": 6.97
+      "2026": 99.0,
+      "2027": 6.95,
+      "2028": 10.15,
+      "2029": 6.95,
+      "2030": 6.95,
+      "2031": 6.95
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP4",
+    "ap_short": "Investeren - in rioleringsprojecten",
+    "ap_long": "Geplande rioleringsprojecten 2026 - 2031:\n- 2026 - vervolg Koolskampstraat\n- 2026 - project Delta: Mosselstraat - Nieuwe Veldstraat - Leenstraat - Oude Bruggeweg\n- 2028 - West- en Bollestraat\n- 2030 - Kasteel- en Ketelbuiserstraat",
+    "ac_code": "ACT-4.3",
+    "ac_short": "Rioleringsproject - Weststraat - Bollestraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1104224.0,
+    "amount_per_capita": 118.0,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1104224.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 118.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD5",
+    "bd_short": "Zorgzame, verbindende en toegankelijke gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Het zorgbeleid is coherent en doelgroepgericht, met extra focus op ouderen en kwetsbare groepen. \nDaarbij zetten we in op het uitbreiden van het woonzorgcentrum, een nieuw centrum voor dagverzorging, huisvestingsaanbod voor senioren, thuiszorg, een infopunt dementie, mantelzorg, e-inclusie, een lokaal dienstencentrum met oog voor buurtgerichte zorg... \n\nWe streven naar het aanbieden van een sterke sociale hulp- en dienstverlening binnen de snel evoluerende context (armoedebeleid...).\nDe opvang van vluchtelingen is af te stemmen op de federale beleidsintenties. We werken vanuit een regionale betrokkenheid.",
+    "ap_code": "AP13",
+    "ap_short": "Investeren - in een coherent en doelgericht zorgaanbod met focus op kwetsbare gezinnen & ouderen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-13.5",
+    "ac_short": "Zorgbeleid - uitbreiding van het Lokaal Dienstencentrum De Ploeg",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1010000.0,
+    "amount_per_capita": 107.93,
+    "yearly_amounts": {
+      "2026": 1010000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 107.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP2",
+    "ap_short": "Investeren - in verledding van de openbare verlichting",
+    "ap_long": "De verdere verledding van de openbare verlichting loopt cfr CBS 25/08/2025 met input van Fluvius. \nTimerplan op te volgen met strategische brandregimes van de openbare verlichting vanaf 2026 met dimmen of langer laten branden op strategische plaatsen.",
+    "ac_code": "ACT-2.1",
+    "ac_short": "Verledding - van de openbare verlichting",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 989499.0,
+    "amount_per_capita": 105.74,
+    "yearly_amounts": {
+      "2026": 262289.0,
+      "2027": 259453.0,
+      "2028": 257423.0,
+      "2029": 36980.0,
+      "2030": 37904.0,
+      "2031": 135450.0
+    },
+    "yearly_per_capita": {
+      "2026": 28.03,
+      "2027": 27.72,
+      "2028": 27.51,
+      "2029": 3.95,
+      "2030": 4.05,
+      "2031": 14.47
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP4",
+    "ap_short": "Investeren - in rioleringsprojecten",
+    "ap_long": "Geplande rioleringsprojecten 2026 - 2031:\n- 2026 - vervolg Koolskampstraat\n- 2026 - project Delta: Mosselstraat - Nieuwe Veldstraat - Leenstraat - Oude Bruggeweg\n- 2028 - West- en Bollestraat\n- 2030 - Kasteel- en Ketelbuiserstraat",
+    "ac_code": "ACT-4.2",
+    "ac_short": "Rioleringsproject - Mosselstraat - Nieuwe Veldstraat - Leenstraat - Oude Bruggeweg",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 876300.2,
+    "amount_per_capita": 93.64,
+    "yearly_amounts": {
+      "2026": 876300.2,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 93.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD5",
+    "bd_short": "Zorgzame, verbindende en toegankelijke gemeente",
+    "bd_long": "Kwalitatieve omschrijving: Het zorgbeleid is coherent en doelgroepgericht, met extra focus op ouderen en kwetsbare groepen. \nDaarbij zetten we in op het uitbreiden van het woonzorgcentrum, een nieuw centrum voor dagverzorging, huisvestingsaanbod voor senioren, thuiszorg, een infopunt dementie, mantelzorg, e-inclusie, een lokaal dienstencentrum met oog voor buurtgerichte zorg... \n\nWe streven naar het aanbieden van een sterke sociale hulp- en dienstverlening binnen de snel evoluerende context (armoedebeleid...).\nDe opvang van vluchtelingen is af te stemmen op de federale beleidsintenties. We werken vanuit een regionale betrokkenheid.",
+    "ap_code": "AP14",
+    "ap_short": "Investeren - in hulp- en veiligheidsdiensten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-14.1",
+    "ac_short": "Investering - financiering hulp- en veiligheidsdiensten (Politiezone en hulpverleningszone)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 681846.0,
+    "amount_per_capita": 72.86,
+    "yearly_amounts": {
+      "2026": 104608.0,
+      "2027": 108047.0,
+      "2028": 111612.0,
+      "2029": 115310.0,
+      "2030": 119145.0,
+      "2031": 123124.0
+    },
+    "yearly_per_capita": {
+      "2026": 11.18,
+      "2027": 11.55,
+      "2028": 11.93,
+      "2029": 12.32,
+      "2030": 12.73,
+      "2031": 13.16
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP4",
+    "ap_short": "Investeren - in rioleringsprojecten",
+    "ap_long": "Geplande rioleringsprojecten 2026 - 2031:\n- 2026 - vervolg Koolskampstraat\n- 2026 - project Delta: Mosselstraat - Nieuwe Veldstraat - Leenstraat - Oude Bruggeweg\n- 2028 - West- en Bollestraat\n- 2030 - Kasteel- en Ketelbuiserstraat",
+    "ac_code": "ACT-4.1",
+    "ac_short": "Rioleringsproject - Koolskampstraat - Leysafortstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 304462.3,
+    "amount_per_capita": 32.53,
+    "yearly_amounts": {
+      "2026": 304462.3,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 32.53,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD7",
+    "bd_short": "Lichtervelde leeft, een gemeente vol beleving",
+    "bd_long": "Kwalitatieve omschrijving: Lichtervelde leeft! \nWe steunen en werken samen met verenigingen, organiseren gemeentelijke feestelijkheden zoals Lichterveldse feeste, kerstmarkt, nieuwjaarsreceptie, Margarethafeesten en septemberkermis.\nWe zetten in op cultuur, jumelage, toerisme, sport (studie sportinfrastructuur) en een nieuwe bibliotheek met openbib-principe.",
+    "ap_code": "AP19",
+    "ap_short": "Investeren - in een sportbeleid op maat van de noden",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-19.2",
+    "ac_short": "Sport - investeren in infrastructuur",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 290000.0,
+    "amount_per_capita": 30.99,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 60000.0,
+      "2028": 80000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.41,
+      "2027": 6.41,
+      "2028": 8.55,
+      "2029": 3.21,
+      "2030": 3.21,
+      "2031": 3.21
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD8",
+    "bd_short": "Een betrokken, krachtdadige en efficiënte gemeente met de burger centraal",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar optimale dienstverlening met oog voor innovatie en informatieveiligheid, zoals online betalingen, centraal contacpunt... \nWe staan voor een democratisch Lichtervelde met dialoog en samenwerking met lokale en bovenlokale partners.",
+    "ap_code": "AP21",
+    "ap_short": "Investeren - in optimale dienstverlening en organisatiebeheersing, innovatie en informatieveiligheid",
+    "ap_long": "We zetten in op een digitalisering van de uitgaande facturen (online betalingen). \nBinnen een EFRO-project realiseren we samen met bovenlokale partners een centraal meldpunt. \nEn voor het bieden van een optimale dienstverlening zetten we verdere stappen in de aanpassing van het gemeentehuis binnen het service design traject.",
+    "ac_code": "ACT-21.3",
+    "ac_short": "Dienstverlening - inzetten op service design",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 275755.96,
+    "amount_per_capita": 29.47,
+    "yearly_amounts": {
+      "2026": 275755.96,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 29.47,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD2",
+    "bd_short": "Veilige Mobiliteit als prioriteit",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een veilige wegeninfrastructuur, die inspeelt op de noden van de verschillende weggebruikers.  \nMobiliteit is meer en meer een uitdaging. \nInzetten op kwalitatieve openbare wegen is dan ook een prioriteit, zodat onze inwoners veilig onderweg kunnen zijn.\nWe investeren in onze openbare wegen en infrastructuur, structureel en pro-actief. \nZowel voor functionele als recreatieve verplaatsingen. \nDit in lijn met de feedback uit de burgerbevraging 2025 waarbij het  verkeersveiligheid en een goeie staat van alle types wegen als prioriteit 1 en 2 worden aangegeven.\nMogelijk maatregelen:\n- structurele investeringen in onze wegen, zowel qua onderhoud als preventieve werken \n- het realiseren van fietsinfrastructuur en -belijning\n- oog voor wandelopportuniteiten en het opwaarderen van trage wegen\n- aanleg rond de begraafplaats",
+    "ap_code": "AP9",
+    "ap_short": "Investeren - in een infrastructuurplan wegen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-9.2",
+    "ac_short": "Mobiliteit - fietsinfrastructuur en -belijning realiseren",
+    "ac_long": "Dit gaat om zaken zoals:\n- het vernieuwen van de belijning van fietsstraten\n- het voorzien van fietsenstallingen: fietsbeugels aan de begraafplaats, een overdekte fietsenstalling aan OC De Schouw\n- in samenwerking met de Provincie West-Vlaanderen de fietssnelweg F32 richting Torhout realiseren \n- het aanbrengen van thermoplastmarkeringen voor het duidelijker maken van zone 30 en de fietsstratenzone",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 260000.0,
+    "amount_per_capita": 27.78,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 110000.0,
+      "2029": 0,
+      "2030": 75000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.01,
+      "2027": 0,
+      "2028": 11.75,
+      "2029": 0,
+      "2030": 8.01,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP7",
+    "ap_short": "Investeren - in moderniseren van werkmateriaal van de technische dienst",
+    "ap_long": "Daarbij is de modernisering van het materiaal van de technische dienst voorzien en de aankoop van 3 kipwagens en 1 wiellader.",
+    "ac_code": "ACT-7.2",
+    "ac_short": "Modernisatie - vervangen van de oude voertuigen van de technische dienst",
+    "ac_long": "Voorziene aankopen: \n- 3 kipwagens\n- 1 wiellader",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 245000.0,
+    "amount_per_capita": 26.18,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 145000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 10.69,
+      "2029": 15.49,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP3",
+    "ap_short": "Investeren - in waterbeheersing in het kader van het hemelwaterplan",
+    "ap_long": "Uitvoeren van maatregelen uit het hemelwaterplan met ontharding, grasdallen, meer meetplaatsen voor live monitoring...",
+    "ac_code": "ACT-3.1",
+    "ac_short": "Hemelwaterplan - maatregelen selecteren en uitvoeren",
+    "ac_long": "Maatregelen nemen in het kader van het Hemelwaterplan zoals bv.:\n- ontharding, grasdalen,...\n- Pelikaanberm en Pinkstervallei, incl. aankoop gronden en gecontroleerde overstroming op de Drielindenbeek\n- meer meetplaatsen voor live monitoring\n- ...",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 21.37,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 5.34,
+      "2029": 5.34,
+      "2030": 5.34,
+      "2031": 5.34
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP8",
+    "ap_short": "Investeren - in het optimaliseren van de begraafplaats",
+    "ap_long": "Dit gaat om de aanpak van paden, plaatsgebrek, verwijderen van verlopen concessies en restauratie van historische graven, het rolstoeltoegankelijk maken...",
+    "ac_code": "ACT-8.1",
+    "ac_short": "Begraafplaats - optimaliseren",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 21.37,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 10.69,
+      "2029": 10.69,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD2",
+    "bd_short": "Veilige Mobiliteit als prioriteit",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een veilige wegeninfrastructuur, die inspeelt op de noden van de verschillende weggebruikers.  \nMobiliteit is meer en meer een uitdaging. \nInzetten op kwalitatieve openbare wegen is dan ook een prioriteit, zodat onze inwoners veilig onderweg kunnen zijn.\nWe investeren in onze openbare wegen en infrastructuur, structureel en pro-actief. \nZowel voor functionele als recreatieve verplaatsingen. \nDit in lijn met de feedback uit de burgerbevraging 2025 waarbij het  verkeersveiligheid en een goeie staat van alle types wegen als prioriteit 1 en 2 worden aangegeven.\nMogelijk maatregelen:\n- structurele investeringen in onze wegen, zowel qua onderhoud als preventieve werken \n- het realiseren van fietsinfrastructuur en -belijning\n- oog voor wandelopportuniteiten en het opwaarderen van trage wegen\n- aanleg rond de begraafplaats",
+    "ap_code": "AP9",
+    "ap_short": "Investeren - in een infrastructuurplan wegen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-9.3",
+    "ac_short": "Mobiliteit - oog voor wandelopportuniteiten en opwaardering trage wegen",
+    "ac_long": "Hierbij denken we aan:\n- de 't Goedtermeersweg\n- toegankelijke aansluiting Drielindenpad op Fonteinestraat\n- pad aan Papes Putten",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 127000.0,
+    "amount_per_capita": 13.57,
+    "yearly_amounts": {
+      "2026": 55000.0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 57000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.88,
+      "2027": 1.6,
+      "2028": 0,
+      "2029": 6.09,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD6",
+    "bd_short": "Warm opgroeien in Lichtervelde",
+    "bd_long": "Kwalitatieve omschrijving: We investeren verder in buitenschoolse kinderopvang met integratie van het Buitenschoolse Opvang en Activiteiten (BOA)-decreet. \nWe ondersteunen kinderen in hun educatieve en creatieve ontplooiing via (kunst-) onderwijs en jeugdwerking, \nen bij het opgroeien met Huis van het Kind.",
+    "ap_code": "AP15",
+    "ap_short": "Investeren - in buitenschoolse kinderopvang De Duiventil en opvolgen BOA-decreet",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-15.2",
+    "ac_short": "BOOST-acties: investeren in de fysieke en digitale infrastructuur voor BOA",
+    "ac_long": "BOOST-acties: investeren in de fysieke en digitale infrastructuur voor BOA\n- onderhoud van het gebouw cfr patrimoniumplan en aankoop middelen (speelplein, meubilair,…) om de werking te verbeteren\n- realisatie nieuw speelplein aan Ouderwijk\n- digitalisering werking buitenschoolse kinderopvang\n- procesbegeleiding voor verrijken aanbod\n- opmaken lokaal erkennings- en handhavingskader\n- organisatie van activiteiten om maatschappelijke thema's aan te kaarten\nRapporteringscode: OPG-BOA2",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 123630.0,
+    "amount_per_capita": 13.21,
+    "yearly_amounts": {
+      "2026": 123630.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.21,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD1",
+    "bd_short": "Een duurzaam en toekomstgericht patrimoniumbeleid",
+    "bd_long": "Kwalitatieve omschrijving: We zetten sterk in op een duurzaam en toekomstgericht patrimoniumbeleid.\nDoel is bouwen voor mensen, en het kunnen huisvesten en aanbieden van een kwalitatieve dienstverlening.  \n\nInhoudelijk focussen we op het moderniseren van de gebouwen, op riolerings- en waterbeheersingsprojecten, de verdere verledding van de openbare verlichting... \nDit conform de feedback uit de burgerbevraging 2025 waarbij het openbaar domein, waterbeheersing… als belangrijke prioriteiten worden aangegeven.",
+    "ap_code": "AP7",
+    "ap_short": "Investeren - in moderniseren van werkmateriaal van de technische dienst",
+    "ap_long": "Daarbij is de modernisering van het materiaal van de technische dienst voorzien en de aankoop van 3 kipwagens en 1 wiellader.",
+    "ac_code": "ACT-7.1",
+    "ac_short": "Modernisatie - van het werkmateriaal van de technische dienst",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 12.82,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.14,
+      "2027": 2.14,
+      "2028": 2.14,
+      "2029": 2.14,
+      "2030": 2.14,
+      "2031": 2.14
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD3",
+    "bd_short": "Genieten van Groen",
+    "bd_long": "Kwalitatieve omschrijving: We investeren optimaal in groene, gezellige plekken doorheen de gemeente. Plaatsen voor recreatie, om tot rust te komen, te spelen of een babbeltje te slaan...\nZo willen we bijdragen aan fysiek, mentaal en sociaal welzijn.",
+    "ap_code": "AP10",
+    "ap_short": "Investeren - in recreatieve groenprojecten",
+    "ap_long": "2026: Pinkstervallei\n2027: mogelijke aankoop gronden\n2028: recreatievoorzieningen in de  Huwynsbossen\n20230: uitvoering plannen Wulleput",
+    "ac_code": "ACT-10.2",
+    "ac_short": "Groen - recreatie voorzien in de Huwynsbossen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 70000.0,
+    "amount_per_capita": 7.48,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 70000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 7.48,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD6",
+    "bd_short": "Warm opgroeien in Lichtervelde",
+    "bd_long": "Kwalitatieve omschrijving: We investeren verder in buitenschoolse kinderopvang met integratie van het Buitenschoolse Opvang en Activiteiten (BOA)-decreet. \nWe ondersteunen kinderen in hun educatieve en creatieve ontplooiing via (kunst-) onderwijs en jeugdwerking, \nen bij het opgroeien met Huis van het Kind.",
+    "ap_code": "AP16",
+    "ap_short": "Investeren - in de ontplooiing van kinderen - via onderwijs en kunstonderwijs",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-16.1",
+    "ac_short": "Kinderen ondersteunen in hun ontplooiing  - onderwijs en kunstonderwijs",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 66000.0,
+    "amount_per_capita": 7.05,
+    "yearly_amounts": {
+      "2026": 11000.0,
+      "2027": 11000.0,
+      "2028": 11000.0,
+      "2029": 11000.0,
+      "2030": 11000.0,
+      "2031": 11000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.18,
+      "2027": 1.18,
+      "2028": 1.18,
+      "2029": 1.18,
+      "2030": 1.18,
+      "2031": 1.18
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD8",
+    "bd_short": "Een betrokken, krachtdadige en efficiënte gemeente met de burger centraal",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar optimale dienstverlening met oog voor innovatie en informatieveiligheid, zoals online betalingen, centraal contacpunt... \nWe staan voor een democratisch Lichtervelde met dialoog en samenwerking met lokale en bovenlokale partners.",
+    "ap_code": "AP21",
+    "ap_short": "Investeren - in optimale dienstverlening en organisatiebeheersing, innovatie en informatieveiligheid",
+    "ap_long": "We zetten in op een digitalisering van de uitgaande facturen (online betalingen). \nBinnen een EFRO-project realiseren we samen met bovenlokale partners een centraal meldpunt. \nEn voor het bieden van een optimale dienstverlening zetten we verdere stappen in de aanpassing van het gemeentehuis binnen het service design traject.",
+    "ac_code": "ACT-21.1",
+    "ac_short": "Dienstverlening - project centraal contactpunt en koppelingen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 62500.0,
+    "amount_per_capita": 6.68,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 62500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 6.68,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD3",
+    "bd_short": "Genieten van Groen",
+    "bd_long": "Kwalitatieve omschrijving: We investeren optimaal in groene, gezellige plekken doorheen de gemeente. Plaatsen voor recreatie, om tot rust te komen, te spelen of een babbeltje te slaan...\nZo willen we bijdragen aan fysiek, mentaal en sociaal welzijn.",
+    "ap_code": "AP10",
+    "ap_short": "Investeren - in recreatieve groenprojecten",
+    "ap_long": "2026: Pinkstervallei\n2027: mogelijke aankoop gronden\n2028: recreatievoorzieningen in de  Huwynsbossen\n20230: uitvoering plannen Wulleput",
+    "ac_code": "ACT-10.3",
+    "ac_short": "Groen - Pinkstervallei: aankoop gronden en medefinanciering van de recreatieve inrichting",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 4.27,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD8",
+    "bd_short": "Een betrokken, krachtdadige en efficiënte gemeente met de burger centraal",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar optimale dienstverlening met oog voor innovatie en informatieveiligheid, zoals online betalingen, centraal contacpunt... \nWe staan voor een democratisch Lichtervelde met dialoog en samenwerking met lokale en bovenlokale partners.",
+    "ap_code": "AP21",
+    "ap_short": "Investeren - in optimale dienstverlening en organisatiebeheersing, innovatie en informatieveiligheid",
+    "ap_long": "We zetten in op een digitalisering van de uitgaande facturen (online betalingen). \nBinnen een EFRO-project realiseren we samen met bovenlokale partners een centraal meldpunt. \nEn voor het bieden van een optimale dienstverlening zetten we verdere stappen in de aanpassing van het gemeentehuis binnen het service design traject.",
+    "ac_code": "ACT-21.2",
+    "ac_short": "Dienstverlening - online betalingen uitgaande facturen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 2.14,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lichtervelde",
+    "nis_code": "36011",
+    "bd_code": "BD2",
+    "bd_short": "Veilige Mobiliteit als prioriteit",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een veilige wegeninfrastructuur, die inspeelt op de noden van de verschillende weggebruikers.  \nMobiliteit is meer en meer een uitdaging. \nInzetten op kwalitatieve openbare wegen is dan ook een prioriteit, zodat onze inwoners veilig onderweg kunnen zijn.\nWe investeren in onze openbare wegen en infrastructuur, structureel en pro-actief. \nZowel voor functionele als recreatieve verplaatsingen. \nDit in lijn met de feedback uit de burgerbevraging 2025 waarbij het  verkeersveiligheid en een goeie staat van alle types wegen als prioriteit 1 en 2 worden aangegeven.\nMogelijk maatregelen:\n- structurele investeringen in onze wegen, zowel qua onderhoud als preventieve werken \n- het realiseren van fietsinfrastructuur en -belijning\n- oog voor wandelopportuniteiten en het opwaarderen van trage wegen\n- aanleg rond de begraafplaats",
+    "ap_code": "AP9",
+    "ap_short": "Investeren - in een infrastructuurplan wegen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-9.4",
+    "ac_short": "Mobiliteit - aanleg rond de begraafplaats",
+    "ac_long": "Dit gaat om de aanleg van de parkeerplaats aan de Hoogewielkestraat langs de begraafplaats in steenslag voor het beperken van de impact op de bomen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 1.07,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.07,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

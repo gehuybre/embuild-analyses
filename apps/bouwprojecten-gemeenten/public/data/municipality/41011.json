@@ -2,35 +2,35 @@
   {
     "municipality": "Denderleeuw",
     "nis_code": "41011",
-    "bd_code": "BDS",
-    "bd_short": "BD09 - Een sterk team tot jouw dienst",
-    "bd_long": "Een sterk team tot jouw dienst",
-    "ap_code": "AP",
-    "ap_short": "Imago versterken van ons lokaal bestuur",
-    "ap_long": "Imago versterken van ons lokaal bestuur",
-    "ac_code": "AP",
-    "ac_short": "Inzetten op beeldcommunicatie",
-    "ac_long": "Inzetten op beeldcommunicatie",
+    "bd_code": "BDS 53",
+    "bd_short": "BD01 - Denderleeuw in beweging",
+    "bd_long": "Denderleeuw in beweging",
+    "ap_code": "AP-100",
+    "ap_short": "Een aangename dorpskern in het centrum",
+    "ap_long": "Een aangename dorpskern in het centrum",
+    "ac_code": "AP-100_A-10002",
+    "ac_short": "Uitvoeren RUP Centrum: herinrichting dorp Denderleeuw",
+    "ac_long": "Uitvoeren RUP Centrum: herinrichting dorp Denderleeuw",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 29843129.0,
-    "amount_per_capita": 1376.87,
+    "total_amount": 13327804.3,
+    "amount_per_capita": 614.9,
     "yearly_amounts": {
-      "2026": 11863645.0,
-      "2027": 7010705.0,
-      "2028": 4284307.0,
-      "2029": 2155508.0,
-      "2030": 2519704.0,
-      "2031": 2009260.0
+      "2026": 7027804.3,
+      "2027": 4600000.0,
+      "2028": 1700000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 547.35,
-      "2027": 323.45,
-      "2028": 197.67,
-      "2029": 99.45,
-      "2030": 116.25,
-      "2031": 92.7
+      "2026": 324.24,
+      "2027": 212.23,
+      "2028": 78.43,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -39,22 +39,22 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "",
+    "ap_code": "overigBeleid",
     "ap_short": "overigBeleid",
     "ap_long": "overigBeleid",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 5778399.0,
+    "total_amount": 5778399.33,
     "amount_per_capita": 266.6,
     "yearly_amounts": {
-      "2026": 2003171.0,
-      "2027": 1127830.0,
-      "2028": 813097.0,
-      "2029": 577396.0,
+      "2026": 2003170.51,
+      "2027": 1127830.2,
+      "2028": 813097.15,
+      "2029": 577396.47,
       "2030": 695905.0,
       "2031": 561000.0
     },
@@ -65,6 +65,1162 @@
       "2029": 26.64,
       "2030": 32.11,
       "2031": 25.88
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-804",
+    "ap_short": "Onze verplichtingen als riolering- en wegbeheerder opnemen",
+    "ap_long": "Onze verplichtingen als riolering- en wegbeheerder opnemen",
+    "ac_code": "AP-804_A-80402",
+    "ac_short": "Systematische vernieuwing rioleringsnet obv rioolinventaris",
+    "ac_long": "Systematische vernieuwing van het rioleringsnet op basis van een rioolinventarisatie tegen 2027",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2935000.0,
+    "amount_per_capita": 135.41,
+    "yearly_amounts": {
+      "2026": 400000.0,
+      "2027": 500000.0,
+      "2028": 900000.0,
+      "2029": 535000.0,
+      "2030": 300000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 18.45,
+      "2027": 23.07,
+      "2028": 41.52,
+      "2029": 24.68,
+      "2030": 13.84,
+      "2031": 13.84
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 56",
+    "bd_short": "BD04 - Een veilige gemeente om te wonen en te leven",
+    "bd_long": "Een veilige gemeente om te wonen en te leven",
+    "ap_code": "AP-403",
+    "ap_short": "Slimme mobiliteitskeuze met focus op zwakke weggebruiker",
+    "ap_long": "Slimme mobiliteitskeuzes met focus op zwakke weggebruikers en toegankelijkheid",
+    "ac_code": "AP-403_A-40301",
+    "ac_short": "Bijkomende investering in vernieuwing voetpaden en trage weg",
+    "ac_long": "Bijkomende investering in vernieuwing van voetpaden en trage wegen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2650000.0,
+    "amount_per_capita": 122.26,
+    "yearly_amounts": {
+      "2026": 525000.0,
+      "2027": 425000.0,
+      "2028": 425000.0,
+      "2029": 425000.0,
+      "2030": 425000.0,
+      "2031": 425000.0
+    },
+    "yearly_per_capita": {
+      "2026": 24.22,
+      "2027": 19.61,
+      "2028": 19.61,
+      "2029": 19.61,
+      "2030": 19.61,
+      "2031": 19.61
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 53",
+    "bd_short": "BD01 - Denderleeuw in beweging",
+    "bd_long": "Denderleeuw in beweging",
+    "ap_code": "AP-101",
+    "ap_short": "Een vernieuwde stationsomgeving",
+    "ap_long": "Een vernieuwde stationsomgeving",
+    "ac_code": "AP-101_A-10101",
+    "ac_short": "Vernieuwing Spoorweglaan met aanleg fietssnelweg",
+    "ac_long": "Vernieuwing Spoorweglaan met aanleg fietssnelweg",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2100000.0,
+    "amount_per_capita": 96.89,
+    "yearly_amounts": {
+      "2026": 825000.0,
+      "2027": 275000.0,
+      "2028": 100000.0,
+      "2029": 500000.0,
+      "2030": 400000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 38.06,
+      "2027": 12.69,
+      "2028": 4.61,
+      "2029": 23.07,
+      "2030": 18.45,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 58",
+    "bd_short": "BD06 - Denderleeuw voor jong en oud",
+    "bd_long": "Denderleeuw voor jong en oud",
+    "ap_code": "AP-601",
+    "ap_short": "Denderleeuw, onderwijsgemeente",
+    "ap_long": "Denderleeuw, onderwijsgemeente",
+    "ac_code": "AP-601_A-60103",
+    "ac_short": "Verder investeren in kwaliteitsvolle gemeentelijke scholen",
+    "ac_long": "Verder investeren in kwaliteitsvolle gemeentelijke basisscholen, zowel qua gebouwen als qua ICT",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 1032000.0,
+    "amount_per_capita": 47.61,
+    "yearly_amounts": {
+      "2026": 110000.0,
+      "2027": 100000.0,
+      "2028": 420000.0,
+      "2029": 126000.0,
+      "2030": 200000.0,
+      "2031": 76000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.08,
+      "2027": 4.61,
+      "2028": 19.38,
+      "2029": 5.81,
+      "2030": 9.23,
+      "2031": 3.51
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 53",
+    "bd_short": "BD01 - Denderleeuw in beweging",
+    "bd_long": "Denderleeuw in beweging",
+    "ap_code": "AP-101",
+    "ap_short": "Een vernieuwde stationsomgeving",
+    "ap_long": "Een vernieuwde stationsomgeving",
+    "ac_code": "AP-101_A-10104",
+    "ac_short": "Heraanleg Stationsplein",
+    "ac_long": "Heraanleg Stationsplein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 46.14,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 500000.0,
+      "2031": 400000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 4.61,
+      "2030": 23.07,
+      "2031": 18.45
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 56",
+    "bd_short": "BD04 - Een veilige gemeente om te wonen en te leven",
+    "bd_long": "Een veilige gemeente om te wonen en te leven",
+    "ap_code": "AP-400",
+    "ap_short": "Lokale veiligheidsdiensten versterken in hun werking",
+    "ap_long": "Lokale veiligheidsdiensten versterken in hun werking",
+    "ac_code": "AP-400_A-40003",
+    "ac_short": "Mee inzetten op een aanwezige en aanspreekbare politie",
+    "ac_long": "Mee inzetten op een aanwezige en aanspreekbare politie",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 968303.0,
+    "amount_per_capita": 44.67,
+    "yearly_amounts": {
+      "2026": 267053.0,
+      "2027": 140250.0,
+      "2028": 140250.0,
+      "2029": 140250.0,
+      "2030": 140250.0,
+      "2031": 140250.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.32,
+      "2027": 6.47,
+      "2028": 6.47,
+      "2029": 6.47,
+      "2030": 6.47,
+      "2031": 6.47
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 56",
+    "bd_short": "BD04 - Een veilige gemeente om te wonen en te leven",
+    "bd_long": "Een veilige gemeente om te wonen en te leven",
+    "ap_code": "AP-403",
+    "ap_short": "Slimme mobiliteitskeuze met focus op zwakke weggebruiker",
+    "ap_long": "Slimme mobiliteitskeuzes met focus op zwakke weggebruikers en toegankelijkheid",
+    "ac_code": "AP-403_A-40303",
+    "ac_short": "Veiligheidsgevoel versterken door beter te verlichten",
+    "ac_long": "Veiligheidsgevoel versterken door straten, pleinen en oversteekplaatsen beter te verlichten",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 910522.0,
+    "amount_per_capita": 42.01,
+    "yearly_amounts": {
+      "2026": 235288.0,
+      "2027": 235455.0,
+      "2028": 233557.0,
+      "2029": 21758.0,
+      "2030": 21454.0,
+      "2031": 163010.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.86,
+      "2027": 10.86,
+      "2028": 10.78,
+      "2029": 1.0,
+      "2030": 0.99,
+      "2031": 7.52
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 56",
+    "bd_short": "BD04 - Een veilige gemeente om te wonen en te leven",
+    "bd_long": "Een veilige gemeente om te wonen en te leven",
+    "ap_code": "AP-403",
+    "ap_short": "Slimme mobiliteitskeuze met focus op zwakke weggebruiker",
+    "ap_long": "Slimme mobiliteitskeuzes met focus op zwakke weggebruikers en toegankelijkheid",
+    "ac_code": "AP-403_A-40302",
+    "ac_short": "Blijven inzetten op veilige schoolomgevingen",
+    "ac_long": "Blijven inzetten op veilige schoolomgevingen en verplaatsingen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 730000.0,
+    "amount_per_capita": 33.68,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 80000.0,
+      "2030": 330000.0,
+      "2031": 230000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.38,
+      "2027": 1.38,
+      "2028": 1.38,
+      "2029": 3.69,
+      "2030": 15.23,
+      "2031": 10.61
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-801",
+    "ap_short": "Efficiënt gemeentelijk gebouwenbeheer",
+    "ap_long": "Efficiënt gemeentelijk gebouwenbeheer",
+    "ac_code": "AP-801_A-80101",
+    "ac_short": "Afbouw van leegstaand patrimonium",
+    "ac_long": "Afbouw van leegstaand patrimonium in eigendom van het lokaal bestuur",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 585000.0,
+    "amount_per_capita": 26.99,
+    "yearly_amounts": {
+      "2026": 260000.0,
+      "2027": 140000.0,
+      "2028": 95000.0,
+      "2029": 75000.0,
+      "2030": 15000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.0,
+      "2027": 6.46,
+      "2028": 4.38,
+      "2029": 3.46,
+      "2030": 0.69,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 57",
+    "bd_short": "BD05 - Motor voor verenigingen, evenementen en lokale handel",
+    "bd_long": "Motor voor verenigingen, evenementen en lokale handel",
+    "ap_code": "AP-501",
+    "ap_short": "Masterplan voor vrijetijdsinfrastructuur",
+    "ap_long": "Masterplan voor vrijetijdsinfrastructuur",
+    "ac_code": "AP-501_A-50102",
+    "ac_short": "Opwaarderen sportinfrastructuur Walleken",
+    "ac_long": "Opwaarderen sportinfrastructuur Walleken en aanpak geluidshinder voor omwonenden",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 560000.0,
+    "amount_per_capita": 25.84,
+    "yearly_amounts": {
+      "2026": 560000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 25.84,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-804",
+    "ap_short": "Onze verplichtingen als riolering- en wegbeheerder opnemen",
+    "ap_long": "Onze verplichtingen als riolering- en wegbeheerder opnemen",
+    "ac_code": "AP-804_A-80403",
+    "ac_short": "Rijbanen in beton stelselmatig vervangen door asfalt",
+    "ac_long": "Rijbanen in beton stelselmatig vervangen door asfalt",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 550000.0,
+    "amount_per_capita": 25.38,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 300000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.53,
+      "2027": 13.84,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-802",
+    "ap_short": "Klimaatambities met oog op de toekomst",
+    "ap_long": "Klimaatambities met oog op de toekomst",
+    "ac_code": "AP-802_A-80203",
+    "ac_short": "Bevordering van energiezuinig gemeentelijk patrimonium",
+    "ac_long": "Maatregelen ter bevordering van energiezuinig gemeentelijk patrimonium",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 395000.0,
+    "amount_per_capita": 18.22,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 75000.0,
+      "2028": 130000.0,
+      "2029": 50000.0,
+      "2030": 20000.0,
+      "2031": 110000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.46,
+      "2027": 3.46,
+      "2028": 6.0,
+      "2029": 2.31,
+      "2030": 0.92,
+      "2031": 5.08
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 57",
+    "bd_short": "BD05 - Motor voor verenigingen, evenementen en lokale handel",
+    "bd_long": "Motor voor verenigingen, evenementen en lokale handel",
+    "ap_code": "AP-501",
+    "ap_short": "Masterplan voor vrijetijdsinfrastructuur",
+    "ap_long": "Masterplan voor vrijetijdsinfrastructuur",
+    "ac_code": "AP-501_A-50101",
+    "ac_short": "Meer toegankelijke culturele infrastructuur",
+    "ac_long": "Meer toegankelijke culturele infrastructuur voor inwoners en verenigingen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 354500.0,
+    "amount_per_capita": 16.36,
+    "yearly_amounts": {
+      "2026": 324500.0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.97,
+      "2027": 1.38,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 58",
+    "bd_short": "BD06 - Denderleeuw voor jong en oud",
+    "bd_long": "Denderleeuw voor jong en oud",
+    "ap_code": "AP-603",
+    "ap_short": "Geïntegreerd aanbod voor gezinnen vanuit Huis van het Kind",
+    "ap_long": "Geïntegreerd aanbod voor gezinnen vanuit Huis van het Kind",
+    "ac_code": "AP-603_A-60304",
+    "ac_short": "Opnemen van een regie- en handhavingsrol in de BKO",
+    "ac_long": "Opnemen van een regie- en handhavingsrol in de buitenschoolse kinderopvang",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 249000.0,
+    "amount_per_capita": 11.49,
+    "yearly_amounts": {
+      "2026": 249000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.49,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 54",
+    "bd_short": "BD02 - Fier op mijn wijk",
+    "bd_long": "Fier op mijn wijk",
+    "ap_code": "AP-202",
+    "ap_short": "Vrijwaring en verfraaiing van groene open ruimte",
+    "ap_long": "Vrijwaring en verfraaiing van groene open ruimte",
+    "ac_code": "AP-202_A-20202",
+    "ac_short": "Ruimte voor spelen en ontmoeten aantrekkelijk inrichten",
+    "ac_long": "Ruimte voor spelen en ontmoeten aantrekkelijk inrichten en onderhouden",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 215000.0,
+    "amount_per_capita": 9.92,
+    "yearly_amounts": {
+      "2026": 140000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.46,
+      "2027": 0.69,
+      "2028": 0.69,
+      "2029": 0.69,
+      "2030": 0.69,
+      "2031": 0.69
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 61",
+    "bd_short": "BD09 - Een sterk team tot jouw dienst",
+    "bd_long": "Een sterk team tot jouw dienst",
+    "ap_code": "AP-902",
+    "ap_short": "Maximaal digitaal op de werkvloer",
+    "ap_long": "Maximaal digitaal op de werkvloer",
+    "ac_code": "AP-902_A-90203",
+    "ac_short": "Microsoft 365 optimaal inzetten als centraal platform",
+    "ac_long": "Microsoft 365 optimaal inzetten als centraal platform voor alle medewerkers, naast ruimte voor domeinspecifieke software",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 170000.0,
+    "amount_per_capita": 7.84,
+    "yearly_amounts": {
+      "2026": 45000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.08,
+      "2027": 1.15,
+      "2028": 1.15,
+      "2029": 1.15,
+      "2030": 1.15,
+      "2031": 1.15
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-805",
+    "ap_short": "Zorg dragen voor het gemeentelijk onroerend erfgoed",
+    "ap_long": "Zorg dragen voor het gemeentelijk onroerend erfgoed",
+    "ac_code": "AP-805_A-80502",
+    "ac_short": "Renovatiewerken buitenschil kerk Sint-Amandus Iddergem",
+    "ac_long": "Renovatiewerken buitenschil kerk Sint-Amandus Iddergem",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 6.92,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 75000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 3.46,
+      "2031": 3.46
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-804",
+    "ap_short": "Onze verplichtingen als riolering- en wegbeheerder opnemen",
+    "ap_long": "Onze verplichtingen als riolering- en wegbeheerder opnemen",
+    "ac_code": "AP-804_A-80401",
+    "ac_short": "Behalen van de reductiedoelstellingen afvalwater tegen 2035",
+    "ac_long": "Behalen van de reductiedoelstellingen afvalwater tegen 2035",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 132000.0,
+    "amount_per_capita": 6.09,
+    "yearly_amounts": {
+      "2026": 132000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 57",
+    "bd_short": "BD05 - Motor voor verenigingen, evenementen en lokale handel",
+    "bd_long": "Motor voor verenigingen, evenementen en lokale handel",
+    "ap_code": "AP-500",
+    "ap_short": "Een aantrekkelijk vrijetijdsaanbod voor iedereen",
+    "ap_long": "Een aantrekkelijk vrijetijdsaanbod voor iedereen",
+    "ac_code": "AP-500_A-50003",
+    "ac_short": "Zuurstof verenigingen ikv dagelijkse werking en activiteiten",
+    "ac_long": "Zuurstof aan verenigingen voor hun dagelijkse werking en activiteiten",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 5.54,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.92,
+      "2027": 0.92,
+      "2028": 0.92,
+      "2029": 0.92,
+      "2030": 0.92,
+      "2031": 0.92
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 56",
+    "bd_short": "BD04 - Een veilige gemeente om te wonen en te leven",
+    "bd_long": "Een veilige gemeente om te wonen en te leven",
+    "ap_code": "AP-404",
+    "ap_short": "Streng optreden tegen fraude en overtredingen",
+    "ap_long": "Streng optreden tegen fraude en overtredingen",
+    "ac_code": "AP-404_A-40401",
+    "ac_short": "Gerichte inzet van camerabeveiliging",
+    "ac_long": "Gerichte inzet van camerabeveiliging",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 4.15,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.69,
+      "2027": 0.69,
+      "2028": 0.69,
+      "2029": 0.69,
+      "2030": 0.69,
+      "2031": 0.69
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-802",
+    "ap_short": "Klimaatambities met oog op de toekomst",
+    "ap_long": "Klimaatambities met oog op de toekomst",
+    "ac_code": "AP-802_A-80201",
+    "ac_short": "Landschappelijk erfgoed, natuurreservaten verder ontwikkelen",
+    "ac_long": "Biodiversiteit stimuleren, landschappelijk erfgoed en natuurreservaten verder ontwikkelen",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 3.69,
+    "yearly_amounts": {
+      "2026": 55000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.54,
+      "2027": 0.23,
+      "2028": 0.23,
+      "2029": 0.23,
+      "2030": 0.23,
+      "2031": 0.23
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-802",
+    "ap_short": "Klimaatambities met oog op de toekomst",
+    "ap_long": "Klimaatambities met oog op de toekomst",
+    "ac_code": "AP-802_A-80202",
+    "ac_short": "Circulaire economie verder ontplooien",
+    "ac_long": "Circulaire economie verder ontplooien",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 3.69,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.69,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 61",
+    "bd_short": "BD09 - Een sterk team tot jouw dienst",
+    "bd_long": "Een sterk team tot jouw dienst",
+    "ap_code": "AP-903",
+    "ap_short": "Onze dienstverlening dichter bij de burger brengen",
+    "ap_long": "Onze dienstverlening dichter bij de burger brengen",
+    "ac_code": "AP-903_A-90301",
+    "ac_short": "Bevorderen van toegankelijke hulp- en dienstverlening",
+    "ac_long": "Bevorderen van toegankelijke hulp- en dienstverlening en aanpakken van onderbescherming",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 3.46,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 61",
+    "bd_short": "BD09 - Een sterk team tot jouw dienst",
+    "bd_long": "Een sterk team tot jouw dienst",
+    "ap_code": "AP-903",
+    "ap_short": "Onze dienstverlening dichter bij de burger brengen",
+    "ap_long": "Onze dienstverlening dichter bij de burger brengen",
+    "ac_code": "AP-903_A-90303",
+    "ac_short": "Herinrichting van de loketruimte",
+    "ac_long": "Herinrichting van de loketruimte in functie van ergonomie en klantvriendelijkheid",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 3.46,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 61",
+    "bd_short": "BD09 - Een sterk team tot jouw dienst",
+    "bd_long": "Een sterk team tot jouw dienst",
+    "ap_code": "AP-903",
+    "ap_short": "Onze dienstverlening dichter bij de burger brengen",
+    "ap_long": "Onze dienstverlening dichter bij de burger brengen",
+    "ac_code": "AP-903_A-90302",
+    "ac_short": "Digitale dienstverlening versterken",
+    "ac_long": "Digitale dienstverlening versterken voor burgers, verenigingen, ondernemingen en bezoekers",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 2.77,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.46,
+      "2027": 0.46,
+      "2028": 0.46,
+      "2029": 0.46,
+      "2030": 0.46,
+      "2031": 0.46
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 61",
+    "bd_short": "BD09 - Een sterk team tot jouw dienst",
+    "bd_long": "Een sterk team tot jouw dienst",
+    "ap_code": "AP-902",
+    "ap_short": "Maximaal digitaal op de werkvloer",
+    "ap_long": "Maximaal digitaal op de werkvloer",
+    "ac_code": "AP-902_A-90201",
+    "ac_short": "Continue aandacht voor informatieveiligheid en cybersecurity",
+    "ac_long": "Continue aandacht voor informatieveiligheid en cybersecurity",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 47000.0,
+    "amount_per_capita": 2.17,
+    "yearly_amounts": {
+      "2026": 27000.0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.25,
+      "2027": 0.92,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 53",
+    "bd_short": "BD01 - Denderleeuw in beweging",
+    "bd_long": "Denderleeuw in beweging",
+    "ap_code": "AP-101",
+    "ap_short": "Een vernieuwde stationsomgeving",
+    "ap_long": "Een vernieuwde stationsomgeving",
+    "ac_code": "AP-101_A-10102",
+    "ac_short": "Strategisch project Denderknoop",
+    "ac_long": "Met Strategisch project Denderknoop naar een toekomstgerichte woon-werkomgeving",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 45000.0,
+    "amount_per_capita": 2.08,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 45000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.08,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 53",
+    "bd_short": "BD01 - Denderleeuw in beweging",
+    "bd_long": "Denderleeuw in beweging",
+    "ap_code": "AP-101",
+    "ap_short": "Een vernieuwde stationsomgeving",
+    "ap_long": "Een vernieuwde stationsomgeving",
+    "ac_code": "AP-101_A-10103",
+    "ac_short": "Verfraaiing van de stationstunnel",
+    "ac_long": "Verfraaiing van de stationstunnel via een participatief kunstproject",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 32000.0,
+    "amount_per_capita": 1.48,
+    "yearly_amounts": {
+      "2026": 32000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.48,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 57",
+    "bd_short": "BD05 - Motor voor verenigingen, evenementen en lokale handel",
+    "bd_long": "Motor voor verenigingen, evenementen en lokale handel",
+    "ap_code": "AP-501",
+    "ap_short": "Masterplan voor vrijetijdsinfrastructuur",
+    "ap_long": "Masterplan voor vrijetijdsinfrastructuur",
+    "ac_code": "AP-501_A-50103",
+    "ac_short": "Renovatie chirolokalen Denderleeuw",
+    "ac_long": "Vervolmaking jeugdinfrastructuur: renovatie chirolokalen Denderleeuw",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.38,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.38,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-803",
+    "ap_short": "Ontharden en vergroenen waar mogelijk",
+    "ap_long": "Ontharden en vergroenen waar mogelijk",
+    "ac_code": "AP-803_A-80301",
+    "ac_short": "Uitvoeren van acties uit hemelwater- en droogteplan",
+    "ac_long": "Uitvoeren van acties uit hemelwater- en droogteplan",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.38,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.38,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 61",
+    "bd_short": "BD09 - Een sterk team tot jouw dienst",
+    "bd_long": "Een sterk team tot jouw dienst",
+    "ap_code": "AP-901",
+    "ap_short": "Imago versterken van ons lokaal bestuur",
+    "ap_long": "Imago versterken van ons lokaal bestuur",
+    "ac_code": "AP-901_A-90101",
+    "ac_short": "Inzetten op beeldcommunicatie",
+    "ac_long": "Inzetten op beeldcommunicatie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 1.15,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.46,
+      "2027": 0.23,
+      "2028": 0.23,
+      "2029": 0.23,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 57",
+    "bd_short": "BD05 - Motor voor verenigingen, evenementen en lokale handel",
+    "bd_long": "Motor voor verenigingen, evenementen en lokale handel",
+    "ap_code": "AP-500",
+    "ap_short": "Een aantrekkelijk vrijetijdsaanbod voor iedereen",
+    "ap_long": "Een aantrekkelijk vrijetijdsaanbod voor iedereen",
+    "ac_code": "AP-500_A-50001",
+    "ac_short": "Eigen en gevarieerd gemeentelijk vrijetijdsaanbod",
+    "ac_long": "Eigen en gevarieerd gemeentelijk vrijetijdsaanbod, aanvullend op het aanbod van andere organisatoren",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.69,
+    "yearly_amounts": {
+      "2026": 4000.0,
+      "2027": 0,
+      "2028": 8000.0,
+      "2029": 0,
+      "2030": 3000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.18,
+      "2027": 0,
+      "2028": 0.37,
+      "2029": 0,
+      "2030": 0.14,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-801",
+    "ap_short": "Efficiënt gemeentelijk gebouwenbeheer",
+    "ap_long": "Efficiënt gemeentelijk gebouwenbeheer",
+    "ac_code": "AP-801_A-80102",
+    "ac_short": "Gefaseerde asbestverwijdering",
+    "ac_long": "Gefaseerde asbestverwijdering in gemeentelijke gebouwen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.69,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 7500.0,
+      "2029": 7500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.35,
+      "2029": 0.35,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Denderleeuw",
+    "nis_code": "41011",
+    "bd_code": "BDS 60",
+    "bd_short": "BD08 - Duurzaam patrimonium- en gebouwenbeheer",
+    "bd_long": "Duurzaam patrimonium- en gebouwenbeheer",
+    "ap_code": "AP-801",
+    "ap_short": "Efficiënt gemeentelijk gebouwenbeheer",
+    "ap_long": "Efficiënt gemeentelijk gebouwenbeheer",
+    "ac_code": "AP-801_A-80104",
+    "ac_short": "Toegang tot gemeentelijke kantoren",
+    "ac_long": "Toegang tot gemeentelijke kantoren via beveiligde digitale sloten",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.46,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

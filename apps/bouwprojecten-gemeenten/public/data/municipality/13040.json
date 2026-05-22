@@ -2,40 +2,6 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000086",
-    "ac_short": "Reguliere werking (0953-03) Woonzorgcentrum De Nieuwe Vliet",
-    "ac_long": "Reguliere werking (0953-03) Woonzorgcentrum De Nieuwe Vliet",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 27500000.0,
-    "amount_per_capita": 552.08,
-    "yearly_amounts": {
-      "2026": 3500000.0,
-      "2027": 0,
-      "2028": 11500000.0,
-      "2029": 12500000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 70.27,
-      "2027": 0,
-      "2028": 230.87,
-      "2029": 250.95,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
     "bd_code": "BD000014",
     "bd_short": "BD 14 Turnhout beheert met visie",
     "bd_long": "BD 14 Turnhout beheert met visie",
@@ -48,23 +14,23 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 23383976.0,
-    "amount_per_capita": 469.45,
+    "total_amount": 24690727.23,
+    "amount_per_capita": 496.64,
     "yearly_amounts": {
-      "2026": 8865728.0,
-      "2027": 983000.0,
-      "2028": 3256160.0,
-      "2029": 1474483.0,
-      "2030": 702973.0,
-      "2031": 8101632.0
+      "2026": 10272478.94,
+      "2027": 963000.0,
+      "2028": 3236160.0,
+      "2029": 1454483.4,
+      "2030": 682972.65,
+      "2031": 8081632.24
     },
     "yearly_per_capita": {
-      "2026": 177.99,
-      "2027": 19.73,
-      "2028": 65.37,
-      "2029": 29.6,
-      "2030": 14.11,
-      "2031": 162.65
+      "2026": 206.63,
+      "2027": 19.37,
+      "2028": 65.09,
+      "2029": 29.26,
+      "2030": 13.74,
+      "2031": 162.56
     }
   },
   {
@@ -82,23 +48,23 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 18983163.0,
-    "amount_per_capita": 381.1,
+    "total_amount": 19774798.22,
+    "amount_per_capita": 397.76,
     "yearly_amounts": {
-      "2026": 4231000.0,
+      "2026": 5022635.8,
       "2027": 1887400.0,
       "2028": 4727808.0,
-      "2029": 3494224.0,
-      "2030": 3943649.0,
-      "2031": 699082.0
+      "2029": 3494224.16,
+      "2030": 3943648.64,
+      "2031": 699081.62
     },
     "yearly_per_capita": {
-      "2026": 84.94,
-      "2027": 37.89,
-      "2028": 94.91,
-      "2029": 70.15,
-      "2030": 79.17,
-      "2031": 14.03
+      "2026": 101.03,
+      "2027": 37.96,
+      "2028": 95.1,
+      "2029": 70.28,
+      "2030": 79.32,
+      "2031": 14.06
     }
   },
   {
@@ -116,23 +82,23 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 13813356.0,
-    "amount_per_capita": 277.31,
+    "total_amount": 15338960.97,
+    "amount_per_capita": 308.54,
     "yearly_amounts": {
-      "2026": 2375000.0,
+      "2026": 3900605.29,
       "2027": 1046000.0,
-      "2028": 3181458.0,
-      "2029": 2105898.0,
-      "2030": 3108000.0,
+      "2028": 3181456.66,
+      "2029": 2105898.67,
+      "2030": 3108000.35,
       "2031": 1997000.0
     },
     "yearly_per_capita": {
-      "2026": 47.68,
-      "2027": 21.0,
-      "2028": 63.87,
-      "2029": 42.28,
-      "2030": 62.4,
-      "2031": 40.09
+      "2026": 78.46,
+      "2027": 21.04,
+      "2028": 63.99,
+      "2029": 42.36,
+      "2030": 62.52,
+      "2031": 40.17
     }
   },
   {
@@ -151,7 +117,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 10219500.0,
-    "amount_per_capita": 205.16,
+    "amount_per_capita": 205.56,
     "yearly_amounts": {
       "2026": 5337500.0,
       "2027": 3020000.0,
@@ -161,9 +127,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 107.15,
-      "2027": 60.63,
-      "2028": 37.38,
+      "2026": 107.36,
+      "2027": 60.75,
+      "2028": 37.45,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -184,57 +150,23 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 8855482.0,
-    "amount_per_capita": 177.78,
+    "total_amount": 9483222.76,
+    "amount_per_capita": 190.75,
     "yearly_amounts": {
-      "2026": 1952213.0,
-      "2027": 1735213.0,
-      "2028": 1500878.0,
-      "2029": 1166514.0,
-      "2030": 1125639.0,
-      "2031": 1375025.0
+      "2026": 2579953.81,
+      "2027": 1735213.4,
+      "2028": 1500877.6,
+      "2029": 1166514.18,
+      "2030": 1125638.96,
+      "2031": 1375024.81
     },
     "yearly_per_capita": {
-      "2026": 39.19,
-      "2027": 34.84,
-      "2028": 30.13,
-      "2029": 23.42,
-      "2030": 22.6,
-      "2031": 27.6
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000006",
-    "bd_short": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
-    "bd_long": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
-    "ap_code": "AP000030",
-    "ap_short": "6.2 We onderhouden ons openbaar domein",
-    "ap_long": "6.2 We onderhouden ons openbaar domein",
-    "ac_code": "AC000109",
-    "ac_short": "6.2.3 We onderhouden ons rioleringsstelsel, zowel in het centrum als in landelijke zones",
-    "ac_long": "6.2.3 We onderhouden ons rioleringsstelsel, zowel in het centrum als in landelijke zones",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 8187000.0,
-    "amount_per_capita": 164.36,
-    "yearly_amounts": {
-      "2026": 1930000.0,
-      "2027": 100000.0,
-      "2028": 1402000.0,
-      "2029": 1728000.0,
-      "2030": 1693000.0,
-      "2031": 1334000.0
-    },
-    "yearly_per_capita": {
-      "2026": 38.75,
-      "2027": 2.01,
-      "2028": 28.15,
-      "2029": 34.69,
-      "2030": 33.99,
-      "2031": 26.78
+      "2026": 51.89,
+      "2027": 34.9,
+      "2028": 30.19,
+      "2029": 23.46,
+      "2030": 22.64,
+      "2031": 27.66
     }
   },
   {
@@ -252,23 +184,57 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 8142428.0,
-    "amount_per_capita": 163.47,
+    "total_amount": 8280254.59,
+    "amount_per_capita": 166.55,
     "yearly_amounts": {
-      "2026": 985370.0,
-      "2027": 1158077.0,
-      "2028": 1337299.0,
-      "2029": 1523226.0,
-      "2030": 1553691.0,
-      "2031": 1584765.0
+      "2026": 1123196.98,
+      "2027": 1158077.4,
+      "2028": 1337298.95,
+      "2029": 1523226.14,
+      "2030": 1553690.65,
+      "2031": 1584764.47
     },
     "yearly_per_capita": {
-      "2026": 19.78,
-      "2027": 23.25,
-      "2028": 26.85,
-      "2029": 30.58,
-      "2030": 31.19,
-      "2031": 31.82
+      "2026": 22.59,
+      "2027": 23.29,
+      "2028": 26.9,
+      "2029": 30.64,
+      "2030": 31.25,
+      "2031": 31.88
+    }
+  },
+  {
+    "municipality": "Turnhout",
+    "nis_code": "13040",
+    "bd_code": "BD000006",
+    "bd_short": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
+    "bd_long": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
+    "ap_code": "AP000030",
+    "ap_short": "6.2 We onderhouden ons openbaar domein",
+    "ap_long": "6.2 We onderhouden ons openbaar domein",
+    "ac_code": "AC000109",
+    "ac_short": "6.2.3 We onderhouden ons rioleringsstelsel, zowel in het centrum als in landelijke zones",
+    "ac_long": "6.2.3 We onderhouden ons rioleringsstelsel, zowel in het centrum als in landelijke zones",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 8187000.0,
+    "amount_per_capita": 164.68,
+    "yearly_amounts": {
+      "2026": 1930000.0,
+      "2027": 100000.0,
+      "2028": 1402000.0,
+      "2029": 1728000.0,
+      "2030": 1693000.0,
+      "2031": 1334000.0
+    },
+    "yearly_per_capita": {
+      "2026": 38.82,
+      "2027": 2.01,
+      "2028": 28.2,
+      "2029": 34.76,
+      "2030": 34.05,
+      "2031": 26.83
     }
   },
   {
@@ -286,23 +252,23 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 6206243.0,
-    "amount_per_capita": 124.6,
+    "total_amount": 6206243.62,
+    "amount_per_capita": 124.84,
     "yearly_amounts": {
       "2026": 30000.0,
       "2027": 30600.0,
       "2028": 5631212.0,
-      "2029": 395836.0,
-      "2030": 85473.0,
-      "2031": 33122.0
+      "2029": 395836.24,
+      "2030": 85472.96,
+      "2031": 33122.42
     },
     "yearly_per_capita": {
       "2026": 0.6,
-      "2027": 0.61,
-      "2028": 113.05,
-      "2029": 7.95,
+      "2027": 0.62,
+      "2028": 113.27,
+      "2029": 7.96,
       "2030": 1.72,
-      "2031": 0.66
+      "2031": 0.67
     }
   },
   {
@@ -320,23 +286,23 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 6104400.0,
-    "amount_per_capita": 122.55,
+    "total_amount": 5721464.18,
+    "amount_per_capita": 115.08,
     "yearly_amounts": {
-      "2026": 1429500.0,
-      "2027": 755600.0,
-      "2028": 1006900.0,
-      "2029": 4000.0,
-      "2030": 2907200.0,
-      "2031": 1200.0
+      "2026": 1609464.18,
+      "2027": 612000.0,
+      "2028": 1003000.0,
+      "2029": 0,
+      "2030": 2497000.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 28.7,
-      "2027": 15.17,
-      "2028": 20.21,
-      "2029": 0.08,
-      "2030": 58.36,
-      "2031": 0.02
+      "2026": 32.37,
+      "2027": 12.31,
+      "2028": 20.17,
+      "2029": 0,
+      "2030": 50.23,
+      "2031": 0
     }
   },
   {
@@ -355,7 +321,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 5620333.0,
-    "amount_per_capita": 112.83,
+    "amount_per_capita": 113.05,
     "yearly_amounts": {
       "2026": 909833.0,
       "2027": 942100.0,
@@ -365,12 +331,12 @@
       "2031": 942100.0
     },
     "yearly_per_capita": {
-      "2026": 18.27,
-      "2027": 18.91,
-      "2028": 18.91,
-      "2029": 18.91,
-      "2030": 18.91,
-      "2031": 18.91
+      "2026": 18.3,
+      "2027": 18.95,
+      "2028": 18.95,
+      "2029": 18.95,
+      "2030": 18.95,
+      "2031": 18.95
     }
   },
   {
@@ -389,7 +355,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 4619920.0,
-    "amount_per_capita": 92.75,
+    "amount_per_capita": 92.93,
     "yearly_amounts": {
       "2026": 629593.0,
       "2027": 841987.0,
@@ -399,12 +365,12 @@
       "2031": 765846.0
     },
     "yearly_per_capita": {
-      "2026": 12.64,
-      "2027": 16.9,
-      "2028": 15.29,
-      "2029": 15.51,
-      "2030": 17.04,
-      "2031": 15.37
+      "2026": 12.66,
+      "2027": 16.94,
+      "2028": 15.32,
+      "2029": 15.54,
+      "2030": 17.07,
+      "2031": 15.4
     }
   },
   {
@@ -422,23 +388,23 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 3259528.0,
-    "amount_per_capita": 65.44,
+    "total_amount": 3525326.01,
+    "amount_per_capita": 70.91,
     "yearly_amounts": {
-      "2026": 836000.0,
+      "2026": 1101797.36,
       "2027": 791720.0,
-      "2028": 349574.0,
-      "2029": 547566.0,
-      "2030": 363697.0,
-      "2031": 370971.0
+      "2028": 349574.4,
+      "2029": 547565.89,
+      "2030": 363697.21,
+      "2031": 370971.15
     },
     "yearly_per_capita": {
-      "2026": 16.78,
-      "2027": 15.89,
-      "2028": 7.02,
-      "2029": 10.99,
-      "2030": 7.3,
-      "2031": 7.45
+      "2026": 22.16,
+      "2027": 15.93,
+      "2028": 7.03,
+      "2029": 11.01,
+      "2030": 7.32,
+      "2031": 7.46
     }
   },
   {
@@ -456,23 +422,23 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 3248632.0,
-    "amount_per_capita": 65.22,
+    "total_amount": 3248632.22,
+    "amount_per_capita": 65.34,
     "yearly_amounts": {
       "2026": 0,
       "2027": 2694500.0,
       "2028": 0,
-      "2029": 26530.0,
+      "2029": 26530.2,
       "2030": 500000.0,
-      "2031": 27602.0
+      "2031": 27602.02
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 54.09,
+      "2027": 54.2,
       "2028": 0,
       "2029": 0.53,
-      "2030": 10.04,
-      "2031": 0.55
+      "2030": 10.06,
+      "2031": 0.56
     }
   },
   {
@@ -491,7 +457,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 3218000.0,
-    "amount_per_capita": 64.6,
+    "amount_per_capita": 64.73,
     "yearly_amounts": {
       "2026": 1260000.0,
       "2027": 918000.0,
@@ -501,12 +467,46 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 25.3,
-      "2027": 18.43,
-      "2028": 20.88,
+      "2026": 25.34,
+      "2027": 18.47,
+      "2028": 20.92,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Turnhout",
+    "nis_code": "13040",
+    "bd_code": "BD000010",
+    "bd_short": "BD 10 Turnhout wordt klimaatneutraal",
+    "bd_long": "BD 10 Turnhout wordt klimaatneutraal",
+    "ap_code": "AP000086",
+    "ap_short": "10.5 Om onze stad klimaatrobuust te maken zetten we in op de realisatie van integrale groen- en",
+    "ap_long": "10.5 Om onze stad klimaatrobuust te maken tegen de aankomende klimaatverandering zetten we stevig in op de realisatie van ons integrale groen- en waterplan",
+    "ac_code": "AC000350",
+    "ac_short": "10.5.4 Door te ontharden en vergroenen streven we ernaar om in de binnenstad de 3-30-300 maatrege",
+    "ac_long": "10.5.4 Door te ontharden en vergroenen streven we ernaar om in de binnenstad de 3-30-300 maatregel maximaal te realiseren",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2630878.53,
+    "amount_per_capita": 52.92,
+    "yearly_amounts": {
+      "2026": 392028.18,
+      "2027": 65404.0,
+      "2028": 440231.55,
+      "2029": 503945.5,
+      "2030": 611024.41,
+      "2031": 618244.89
+    },
+    "yearly_per_capita": {
+      "2026": 7.89,
+      "2027": 1.32,
+      "2028": 8.86,
+      "2029": 10.14,
+      "2030": 12.29,
+      "2031": 12.44
     }
   },
   {
@@ -524,21 +524,21 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 2627558.0,
-    "amount_per_capita": 52.75,
+    "total_amount": 2627557.33,
+    "amount_per_capita": 52.85,
     "yearly_amounts": {
       "2026": 244000.0,
       "2027": 129880.0,
-      "2028": 1810778.0,
-      "2029": 346693.0,
-      "2030": 47627.0,
-      "2031": 48580.0
+      "2028": 1810777.6,
+      "2029": 346693.15,
+      "2030": 47627.02,
+      "2031": 48579.56
     },
     "yearly_per_capita": {
-      "2026": 4.9,
+      "2026": 4.91,
       "2027": 2.61,
-      "2028": 36.35,
-      "2029": 6.96,
+      "2028": 36.42,
+      "2029": 6.97,
       "2030": 0.96,
       "2031": 0.98
     }
@@ -559,7 +559,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 2457135.0,
-    "amount_per_capita": 49.33,
+    "amount_per_capita": 49.42,
     "yearly_amounts": {
       "2026": 664113.0,
       "2027": 664515.0,
@@ -569,12 +569,12 @@
       "2031": 384114.0
     },
     "yearly_per_capita": {
-      "2026": 13.33,
-      "2027": 13.34,
-      "2028": 13.23,
-      "2029": 0.86,
+      "2026": 13.36,
+      "2027": 13.37,
+      "2028": 13.26,
+      "2029": 0.87,
       "2030": 0.85,
-      "2031": 7.71
+      "2031": 7.73
     }
   },
   {
@@ -593,7 +593,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 2445200.0,
-    "amount_per_capita": 49.09,
+    "amount_per_capita": 49.18,
     "yearly_amounts": {
       "2026": 1415000.0,
       "2027": 510000.0,
@@ -603,9 +603,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 28.41,
-      "2027": 10.24,
-      "2028": 10.44,
+      "2026": 28.46,
+      "2027": 10.26,
+      "2028": 10.46,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -626,23 +626,57 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 2388485.0,
-    "amount_per_capita": 47.95,
+    "total_amount": 2395966.35,
+    "amount_per_capita": 48.19,
     "yearly_amounts": {
-      "2026": 105000.0,
+      "2026": 112481.94,
       "2027": 66100.0,
       "2028": 275302.0,
-      "2029": 280608.0,
-      "2030": 1369934.0,
-      "2031": 291541.0
+      "2029": 280608.04,
+      "2030": 1369933.77,
+      "2031": 291540.6
     },
     "yearly_per_capita": {
-      "2026": 2.11,
+      "2026": 2.26,
       "2027": 1.33,
-      "2028": 5.53,
-      "2029": 5.63,
-      "2030": 27.5,
-      "2031": 5.85
+      "2028": 5.54,
+      "2029": 5.64,
+      "2030": 27.56,
+      "2031": 5.86
+    }
+  },
+  {
+    "municipality": "Turnhout",
+    "nis_code": "13040",
+    "bd_code": "BD000014",
+    "bd_short": "BD 14 Turnhout beheert met visie",
+    "bd_long": "BD 14 Turnhout beheert met visie",
+    "ap_code": "AP000072",
+    "ap_short": "14.2 Het vastgoedplan begeleidt ons bij strategische keuzes voor het stedelijk patrimonium",
+    "ap_long": "14.2 Het vastgoedplan begeleidt ons bij strategische keuzes voor het stedelijk patrimonium",
+    "ac_code": "AC000290",
+    "ac_short": "14.2.3 We onderhouden en beheren ons stedelijk patrimonium",
+    "ac_long": "14.2.3 We onderhouden en beheren ons stedelijk patrimonium",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2203452.9,
+    "amount_per_capita": 44.32,
+    "yearly_amounts": {
+      "2026": 2203452.9,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 44.32,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -660,57 +694,23 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 2346466.0,
-    "amount_per_capita": 47.11,
+    "total_amount": 1596466.14,
+    "amount_per_capita": 32.11,
     "yearly_amounts": {
-      "2026": 260408.0,
-      "2027": 262616.0,
-      "2028": 264868.0,
-      "2029": 1017166.0,
-      "2030": 269509.0,
-      "2031": 271899.0
+      "2026": 260407.86,
+      "2027": 262616.02,
+      "2028": 264868.34,
+      "2029": 267165.7,
+      "2030": 269509.02,
+      "2031": 271899.2
     },
     "yearly_per_capita": {
-      "2026": 5.23,
-      "2027": 5.27,
-      "2028": 5.32,
-      "2029": 20.42,
-      "2030": 5.41,
-      "2031": 5.46
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000010",
-    "bd_short": "BD 10 Turnhout wordt klimaatneutraal",
-    "bd_long": "BD 10 Turnhout wordt klimaatneutraal",
-    "ap_code": "AP000086",
-    "ap_short": "10.5 Om onze stad klimaatrobuust te maken zetten we in op de realisatie van integrale groen- en",
-    "ap_long": "10.5 Om onze stad klimaatrobuust te maken tegen de aankomende klimaatverandering zetten we stevig in op de realisatie van ons integrale groen- en waterplan",
-    "ac_code": "AC000350",
-    "ac_short": "10.5.4 Door te ontharden en vergroenen streven we ernaar om in de binnenstad de 3-30-300 maatrege",
-    "ac_long": "10.5.4 Door te ontharden en vergroenen streven we ernaar om in de binnenstad de 3-30-300 maatregel maximaal te realiseren",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 2319051.0,
-    "amount_per_capita": 46.56,
-    "yearly_amounts": {
-      "2026": 80200.0,
-      "2027": 65404.0,
-      "2028": 440232.0,
-      "2029": 503946.0,
-      "2030": 611024.0,
-      "2031": 618245.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.61,
-      "2027": 1.31,
-      "2028": 8.84,
-      "2029": 10.12,
-      "2030": 12.27,
-      "2031": 12.41
+      "2026": 5.24,
+      "2027": 5.28,
+      "2028": 5.33,
+      "2029": 5.37,
+      "2030": 5.42,
+      "2031": 5.47
     }
   },
   {
@@ -729,7 +729,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 1460000.0,
-    "amount_per_capita": 29.31,
+    "amount_per_capita": 29.37,
     "yearly_amounts": {
       "2026": 1460000.0,
       "2027": 0,
@@ -739,7 +739,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 29.31,
+      "2026": 29.37,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -750,103 +750,35 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
-    "bd_code": "BD000003",
-    "bd_short": "Welzijnszorg Kempen investeert in een krachtige interne werking.",
-    "bd_long": "Welzijnszorg Kempen investeert in een krachtige interne werking als stevige ruggensteun voor duurzame samenwerking en maatschappelijke impact.",
-    "ap_code": "AP000008",
-    "ap_short": "Welzijnszorg Kempen zet volop in op organisatiebeheer en -optimalisatie.",
-    "ap_long": "Welzijnszorg Kempen zet volop in op organisatiebeheer en -optimalisatie, teneinde de missie en visie duurzaam en effectief te realiseren.",
-    "ac_code": "AC000076",
-    "ac_short": "Algemene financiering",
-    "ac_long": "Algemene financiering",
+    "bd_code": "BD000007",
+    "bd_short": "BD 07 Turnhout ademt ondernemerschap",
+    "bd_long": "BD 07 Turnhout ademt ondernemerschap",
+    "ap_code": "AP000031",
+    "ap_short": "7.1 We ondersteunen Turnhoutse ondernemers",
+    "ap_long": "7.1 We ondersteunen Turnhoutse ondernemers",
+    "ac_code": "AC000114",
+    "ac_short": "7.1.2 We zetten in op diverse premiestelsels ifv handelspanden",
+    "ac_long": "7.1.2 We zetten in op diverse premiestelsels ifv handelspanden",
     "categories": [
-      "01-algemeen-bestuur"
+      "05-ondernemen-werken"
     ],
-    "total_amount": 1432104.0,
-    "amount_per_capita": 28.75,
+    "total_amount": 910100.21,
+    "amount_per_capita": 18.31,
     "yearly_amounts": {
-      "2026": 154814.0,
-      "2027": 305094.0,
-      "2028": 224594.0,
-      "2029": 245094.0,
-      "2030": 421914.0,
-      "2031": 80594.0
+      "2026": 291612.95,
+      "2027": 121200.0,
+      "2028": 122424.0,
+      "2029": 123672.48,
+      "2030": 124945.93,
+      "2031": 126244.85
     },
     "yearly_per_capita": {
-      "2026": 3.11,
-      "2027": 6.13,
-      "2028": 4.51,
-      "2029": 4.92,
-      "2030": 8.47,
-      "2031": 1.62
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000014",
-    "bd_short": "BD 14 Turnhout beheert met visie",
-    "bd_long": "BD 14 Turnhout beheert met visie",
-    "ap_code": "AP000072",
-    "ap_short": "14.2 Het vastgoedplan begeleidt ons bij strategische keuzes voor het stedelijk patrimonium",
-    "ap_long": "14.2 Het vastgoedplan begeleidt ons bij strategische keuzes voor het stedelijk patrimonium",
-    "ac_code": "AC000290",
-    "ac_short": "14.2.3 We onderhouden en beheren ons stedelijk patrimonium",
-    "ac_long": "14.2.3 We onderhouden en beheren ons stedelijk patrimonium",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 1026474.0,
-    "amount_per_capita": 20.61,
-    "yearly_amounts": {
-      "2026": 915000.0,
-      "2027": 25500.0,
-      "2028": 15606.0,
-      "2029": 26530.0,
-      "2030": 16236.0,
-      "2031": 27602.0
-    },
-    "yearly_per_capita": {
-      "2026": 18.37,
-      "2027": 0.51,
-      "2028": 0.31,
-      "2029": 0.53,
-      "2030": 0.33,
-      "2031": 0.55
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000006",
-    "bd_short": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
-    "bd_long": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
-    "ap_code": "AP000027",
-    "ap_short": "6.4 We voorzien voldoende en maximaal aaneengesloten groen aan de rand van de stad",
-    "ap_long": "6.4 We voorzien voldoende en maximaal aaneengesloten groen aan de rand van de stad",
-    "ac_code": "AC000094",
-    "ac_short": "6.4.1 We geven het stadspark een nieuw elan",
-    "ac_long": "6.4.1 We geven het stadspark een nieuw elan",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 972490.0,
-    "amount_per_capita": 19.52,
-    "yearly_amounts": {
-      "2026": 174750.0,
-      "2027": 300000.0,
-      "2028": 172740.0,
-      "2029": 325000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 3.51,
-      "2027": 6.02,
-      "2028": 3.47,
-      "2029": 6.52,
-      "2030": 0,
-      "2031": 0
+      "2026": 5.87,
+      "2027": 2.44,
+      "2028": 2.46,
+      "2029": 2.49,
+      "2030": 2.51,
+      "2031": 2.54
     }
   },
   {
@@ -865,7 +797,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 899875.0,
-    "amount_per_capita": 18.07,
+    "amount_per_capita": 18.1,
     "yearly_amounts": {
       "2026": 0,
       "2027": 269875.0,
@@ -876,9 +808,9 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 5.42,
-      "2028": 9.64,
-      "2029": 3.01,
+      "2027": 5.43,
+      "2028": 9.65,
+      "2029": 3.02,
       "2030": 0,
       "2031": 0
     }
@@ -898,23 +830,23 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 883137.0,
-    "amount_per_capita": 17.73,
+    "total_amount": 883136.94,
+    "amount_per_capita": 17.76,
     "yearly_amounts": {
       "2026": 140000.0,
       "2027": 142800.0,
       "2028": 145656.0,
-      "2029": 148569.0,
-      "2030": 151541.0,
-      "2031": 154571.0
+      "2029": 148569.12,
+      "2030": 151540.5,
+      "2031": 154571.32
     },
     "yearly_per_capita": {
-      "2026": 2.81,
+      "2026": 2.82,
       "2027": 2.87,
-      "2028": 2.92,
-      "2029": 2.98,
-      "2030": 3.04,
-      "2031": 3.1
+      "2028": 2.93,
+      "2029": 2.99,
+      "2030": 3.05,
+      "2031": 3.11
     }
   },
   {
@@ -933,7 +865,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 800000.0,
-    "amount_per_capita": 16.06,
+    "amount_per_capita": 16.09,
     "yearly_amounts": {
       "2026": 200000.0,
       "2027": 200000.0,
@@ -954,6 +886,40 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
+    "bd_code": "BD000006",
+    "bd_short": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
+    "bd_long": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
+    "ap_code": "AP000027",
+    "ap_short": "6.4 We voorzien voldoende en maximaal aaneengesloten groen aan de rand van de stad",
+    "ap_long": "6.4 We voorzien voldoende en maximaal aaneengesloten groen aan de rand van de stad",
+    "ac_code": "AC000094",
+    "ac_short": "6.4.1 We geven het stadspark een nieuw elan",
+    "ac_long": "6.4.1 We geven het stadspark een nieuw elan",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 797740.0,
+    "amount_per_capita": 16.05,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 300000.0,
+      "2028": 172740.0,
+      "2029": 325000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 6.03,
+      "2028": 3.47,
+      "2029": 6.54,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Turnhout",
+    "nis_code": "13040",
     "bd_code": "BD000005",
     "bd_short": "BD 05 Turnhout is een bereikbare stad",
     "bd_long": "BD 05 Turnhout is een bereikbare stad",
@@ -966,15 +932,15 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 756975.0,
-    "amount_per_capita": 15.2,
+    "total_amount": 756974.52,
+    "amount_per_capita": 15.23,
     "yearly_amounts": {
       "2026": 120000.0,
       "2027": 122400.0,
       "2028": 124848.0,
-      "2029": 127345.0,
-      "2030": 129892.0,
-      "2031": 132490.0
+      "2029": 127344.96,
+      "2030": 129891.86,
+      "2031": 132489.7
     },
     "yearly_per_capita": {
       "2026": 2.41,
@@ -983,74 +949,6 @@
       "2029": 2.56,
       "2030": 2.61,
       "2031": 2.66
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000006",
-    "bd_short": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
-    "bd_long": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
-    "ap_code": "AP000027",
-    "ap_short": "6.4 We voorzien voldoende en maximaal aaneengesloten groen aan de rand van de stad",
-    "ap_long": "6.4 We voorzien voldoende en maximaal aaneengesloten groen aan de rand van de stad",
-    "ac_code": "AC000096",
-    "ac_short": "6.4.3 We richten stadsrandbos De Wieltjes in",
-    "ac_long": "6.4.3 We richten stadsrandbos De Wieltjes in",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 740894.0,
-    "amount_per_capita": 14.87,
-    "yearly_amounts": {
-      "2026": 446000.0,
-      "2027": 88000.0,
-      "2028": 78750.0,
-      "2029": 40000.0,
-      "2030": 38144.0,
-      "2031": 50000.0
-    },
-    "yearly_per_capita": {
-      "2026": 8.95,
-      "2027": 1.77,
-      "2028": 1.58,
-      "2029": 0.8,
-      "2030": 0.77,
-      "2031": 1.0
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000007",
-    "bd_short": "BD 07 Turnhout ademt ondernemerschap",
-    "bd_long": "BD 07 Turnhout ademt ondernemerschap",
-    "ap_code": "AP000031",
-    "ap_short": "7.1 We ondersteunen Turnhoutse ondernemers",
-    "ap_long": "7.1 We ondersteunen Turnhoutse ondernemers",
-    "ac_code": "AC000114",
-    "ac_short": "7.1.2 We zetten in op diverse premiestelsels ifv handelspanden",
-    "ac_long": "7.1.2 We zetten in op diverse premiestelsels ifv handelspanden",
-    "categories": [
-      "05-ondernemen-werken"
-    ],
-    "total_amount": 738487.0,
-    "amount_per_capita": 14.83,
-    "yearly_amounts": {
-      "2026": 120000.0,
-      "2027": 121200.0,
-      "2028": 122424.0,
-      "2029": 123672.0,
-      "2030": 124946.0,
-      "2031": 126245.0
-    },
-    "yearly_per_capita": {
-      "2026": 2.41,
-      "2027": 2.43,
-      "2028": 2.46,
-      "2029": 2.48,
-      "2030": 2.51,
-      "2031": 2.53
     }
   },
   {
@@ -1068,20 +966,20 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 723112.0,
-    "amount_per_capita": 14.52,
+    "total_amount": 723111.24,
+    "amount_per_capita": 14.55,
     "yearly_amounts": {
-      "2026": 32167.0,
+      "2026": 32166.67,
       "2027": 32810.0,
-      "2028": 553666.0,
-      "2029": 34136.0,
-      "2030": 34818.0,
-      "2031": 35515.0
+      "2028": 553666.2,
+      "2029": 34135.53,
+      "2030": 34818.24,
+      "2031": 35514.6
     },
     "yearly_per_capita": {
       "2026": 0.65,
       "2027": 0.66,
-      "2028": 11.12,
+      "2028": 11.14,
       "2029": 0.69,
       "2030": 0.7,
       "2031": 0.71
@@ -1102,22 +1000,22 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 665507.0,
-    "amount_per_capita": 13.36,
+    "total_amount": 665506.75,
+    "amount_per_capita": 13.39,
     "yearly_amounts": {
       "2026": 105500.0,
       "2027": 107610.0,
-      "2028": 109762.0,
-      "2029": 111957.0,
-      "2030": 114197.0,
-      "2031": 116481.0
+      "2028": 109762.2,
+      "2029": 111957.44,
+      "2030": 114196.59,
+      "2031": 116480.52
     },
     "yearly_per_capita": {
       "2026": 2.12,
       "2027": 2.16,
-      "2028": 2.2,
+      "2028": 2.21,
       "2029": 2.25,
-      "2030": 2.29,
+      "2030": 2.3,
       "2031": 2.34
     }
   },
@@ -1136,23 +1034,23 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 632703.0,
-    "amount_per_capita": 12.7,
+    "total_amount": 632703.02,
+    "amount_per_capita": 12.73,
     "yearly_amounts": {
       "2026": 125000.0,
       "2027": 75500.0,
       "2028": 26010.0,
-      "2029": 251530.0,
-      "2030": 127061.0,
-      "2031": 27602.0
+      "2029": 251530.2,
+      "2030": 127060.8,
+      "2031": 27602.02
     },
     "yearly_per_capita": {
       "2026": 2.51,
       "2027": 1.52,
       "2028": 0.52,
-      "2029": 5.05,
-      "2030": 2.55,
-      "2031": 0.55
+      "2029": 5.06,
+      "2030": 2.56,
+      "2031": 0.56
     }
   },
   {
@@ -1171,7 +1069,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 500000.0,
-    "amount_per_capita": 10.04,
+    "amount_per_capita": 10.06,
     "yearly_amounts": {
       "2026": 500000.0,
       "2027": 0,
@@ -1181,7 +1079,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 10.04,
+      "2026": 10.06,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1192,103 +1090,35 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
-    "bd_code": "BD000002",
-    "bd_short": "Welzijnszorg Kempen zorgt voor meer welzijn in de Kempen.",
-    "bd_long": "Welzijnszorg Kempen zorgt voor meer welzijn in de Kempen door onze dienstverlening nabij en op maat van de gemeenten te organiseren.",
-    "ap_code": "AP000004",
-    "ap_short": "Rolmobiel staat borg voor kwalitatief vervoer op maat van mensen met een mobiliteitsbeperking.",
-    "ap_long": "Rolmobiel staat borg voor kwalitatief vervoer op maat van mensen met een mobiliteitsbeperking door een performant assetmanagement, een goed geregelde samenwerking met de betrokken stakeholders en andere spelers in het vervoerslandschap.",
-    "ac_code": "AC000032",
-    "ac_short": "Algemene financiering",
-    "ac_long": "Algemene financiering",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 455000.0,
-    "amount_per_capita": 9.13,
-    "yearly_amounts": {
-      "2026": 130000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 195000.0,
-      "2030": 65000.0,
-      "2031": 65000.0
-    },
-    "yearly_per_capita": {
-      "2026": 2.61,
-      "2027": 0,
-      "2028": 0,
-      "2029": 3.91,
-      "2030": 1.3,
-      "2031": 1.3
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000002",
-    "bd_short": "Welzijnszorg Kempen zorgt voor meer welzijn in de Kempen.",
-    "bd_long": "Welzijnszorg Kempen zorgt voor meer welzijn in de Kempen door onze dienstverlening nabij en op maat van de gemeenten te organiseren.",
-    "ap_code": "AP000007",
-    "ap_short": "Thuiszorg Kempen verzorgt gezinszorg en zorgpoetsen bij de meest kwetsbare gezinnen in de Kempen.",
-    "ap_long": "Thuiszorg Kempen verzorgt gezinszorg en zorgpoetsen bij de meest kwetsbare gezinnen in de Kempen in nauwe samenwerking met de sociale dienst van het lokaal bestuur.",
-    "ac_code": "AC000051",
-    "ac_short": "Algemene financiering",
-    "ac_long": "Algemene financiering",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 384100.0,
-    "amount_per_capita": 7.71,
-    "yearly_amounts": {
-      "2026": 95550.0,
-      "2027": 160750.0,
-      "2028": 10750.0,
-      "2029": 10750.0,
-      "2030": 95550.0,
-      "2031": 10750.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.92,
-      "2027": 3.23,
-      "2028": 0.22,
-      "2029": 0.22,
-      "2030": 1.92,
-      "2031": 0.22
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000010",
-    "bd_short": "BD 10 Turnhout wordt klimaatneutraal",
-    "bd_long": "BD 10 Turnhout wordt klimaatneutraal",
-    "ap_code": "AP000086",
-    "ap_short": "10.5 Om onze stad klimaatrobuust te maken zetten we in op de realisatie van integrale groen- en",
-    "ap_long": "10.5 Om onze stad klimaatrobuust te maken tegen de aankomende klimaatverandering zetten we stevig in op de realisatie van ons integrale groen- en waterplan",
-    "ac_code": "AC000348",
-    "ac_short": "10.5.2 We moedigen private partijen aan om hun terrein te ontharden, vergroenen en water lokaal",
-    "ac_long": "10.5.2 We moedigen private partijen aan om hun terrein te ontharden, vergroenen en water lokaal vast te houden",
+    "bd_code": "BD000006",
+    "bd_short": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
+    "bd_long": "BD 06 Turnhout zet kaai hert in op openbare ruimte",
+    "ap_code": "AP000027",
+    "ap_short": "6.4 We voorzien voldoende en maximaal aaneengesloten groen aan de rand van de stad",
+    "ap_long": "6.4 We voorzien voldoende en maximaal aaneengesloten groen aan de rand van de stad",
+    "ac_code": "AC000096",
+    "ac_short": "6.4.3 We richten stadsrandbos De Wieltjes in",
+    "ac_long": "6.4.3 We richten stadsrandbos De Wieltjes in",
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 315406.0,
-    "amount_per_capita": 6.33,
+    "total_amount": 362894.0,
+    "amount_per_capita": 7.3,
     "yearly_amounts": {
-      "2026": 50000.0,
-      "2027": 51000.0,
-      "2028": 52020.0,
-      "2029": 53060.0,
-      "2030": 54122.0,
-      "2031": 55204.0
+      "2026": 68000.0,
+      "2027": 88000.0,
+      "2028": 78750.0,
+      "2029": 40000.0,
+      "2030": 38144.0,
+      "2031": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 1.0,
-      "2027": 1.02,
-      "2028": 1.04,
-      "2029": 1.07,
-      "2030": 1.09,
-      "2031": 1.11
+      "2026": 1.37,
+      "2027": 1.77,
+      "2028": 1.58,
+      "2029": 0.8,
+      "2030": 0.77,
+      "2031": 1.01
     }
   },
   {
@@ -1306,20 +1136,54 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 315406.0,
-    "amount_per_capita": 6.33,
+    "total_amount": 315406.05,
+    "amount_per_capita": 6.34,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 51000.0,
       "2028": 52020.0,
-      "2029": 53060.0,
-      "2030": 54122.0,
-      "2031": 55204.0
+      "2029": 53060.4,
+      "2030": 54121.61,
+      "2031": 55204.04
     },
     "yearly_per_capita": {
-      "2026": 1.0,
-      "2027": 1.02,
-      "2028": 1.04,
+      "2026": 1.01,
+      "2027": 1.03,
+      "2028": 1.05,
+      "2029": 1.07,
+      "2030": 1.09,
+      "2031": 1.11
+    }
+  },
+  {
+    "municipality": "Turnhout",
+    "nis_code": "13040",
+    "bd_code": "BD000010",
+    "bd_short": "BD 10 Turnhout wordt klimaatneutraal",
+    "bd_long": "BD 10 Turnhout wordt klimaatneutraal",
+    "ap_code": "AP000086",
+    "ap_short": "10.5 Om onze stad klimaatrobuust te maken zetten we in op de realisatie van integrale groen- en",
+    "ap_long": "10.5 Om onze stad klimaatrobuust te maken tegen de aankomende klimaatverandering zetten we stevig in op de realisatie van ons integrale groen- en waterplan",
+    "ac_code": "AC000348",
+    "ac_short": "10.5.2 We moedigen private partijen aan om hun terrein te ontharden, vergroenen en water lokaal",
+    "ac_long": "10.5.2 We moedigen private partijen aan om hun terrein te ontharden, vergroenen en water lokaal vast te houden",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 315406.05,
+    "amount_per_capita": 6.34,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 51000.0,
+      "2028": 52020.0,
+      "2029": 53060.4,
+      "2030": 54121.61,
+      "2031": 55204.04
+    },
+    "yearly_per_capita": {
+      "2026": 1.01,
+      "2027": 1.03,
+      "2028": 1.05,
       "2029": 1.07,
       "2030": 1.09,
       "2031": 1.11
@@ -1341,7 +1205,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 5.02,
+    "amount_per_capita": 5.03,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1355,7 +1219,7 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 5.02,
+      "2030": 5.03,
       "2031": 0
     }
   },
@@ -1374,15 +1238,15 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 220784.0,
-    "amount_per_capita": 4.43,
+    "total_amount": 220784.24,
+    "amount_per_capita": 4.44,
     "yearly_amounts": {
       "2026": 35000.0,
       "2027": 35700.0,
       "2028": 36414.0,
-      "2029": 37142.0,
-      "2030": 37885.0,
-      "2031": 38643.0
+      "2029": 37142.28,
+      "2030": 37885.13,
+      "2031": 38642.83
     },
     "yearly_per_capita": {
       "2026": 0.7,
@@ -1408,18 +1272,18 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 211540.0,
-    "amount_per_capita": 4.25,
+    "total_amount": 218379.25,
+    "amount_per_capita": 4.39,
     "yearly_amounts": {
-      "2026": 60000.0,
+      "2026": 66838.65,
       "2027": 5100.0,
       "2028": 80202.0,
-      "2029": 55306.0,
-      "2030": 5412.0,
-      "2031": 5520.0
+      "2029": 55306.04,
+      "2030": 5412.16,
+      "2031": 5520.4
     },
     "yearly_per_capita": {
-      "2026": 1.2,
+      "2026": 1.34,
       "2027": 0.1,
       "2028": 1.61,
       "2029": 1.11,
@@ -1442,13 +1306,13 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 206121.0,
-    "amount_per_capita": 4.14,
+    "total_amount": 206120.6,
+    "amount_per_capita": 4.15,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
       "2028": 0,
-      "2029": 106121.0,
+      "2029": 106120.6,
       "2030": 0,
       "2031": 0
     },
@@ -1476,15 +1340,15 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 157703.0,
+    "total_amount": 157703.02,
     "amount_per_capita": 3.17,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 25500.0,
       "2028": 26010.0,
-      "2029": 26530.0,
-      "2030": 27061.0,
-      "2031": 27602.0
+      "2029": 26530.2,
+      "2030": 27060.8,
+      "2031": 27602.02
     },
     "yearly_per_capita": {
       "2026": 0.5,
@@ -1492,7 +1356,7 @@
       "2028": 0.52,
       "2029": 0.53,
       "2030": 0.54,
-      "2031": 0.55
+      "2031": 0.56
     }
   },
   {
@@ -1510,19 +1374,19 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 150831.0,
+    "total_amount": 150831.21,
     "amount_per_capita": 3.03,
     "yearly_amounts": {
       "2026": 97750.0,
       "2027": 10200.0,
       "2028": 10404.0,
-      "2029": 10612.0,
-      "2030": 10824.0,
-      "2031": 11041.0
+      "2029": 10612.08,
+      "2030": 10824.32,
+      "2031": 11040.81
     },
     "yearly_per_capita": {
-      "2026": 1.96,
-      "2027": 0.2,
+      "2026": 1.97,
+      "2027": 0.21,
       "2028": 0.21,
       "2029": 0.21,
       "2030": 0.22,
@@ -1545,7 +1409,7 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 3.01,
+    "amount_per_capita": 3.02,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1559,40 +1423,6 @@
       "2027": 0,
       "2028": 1.51,
       "2029": 1.51,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000068",
-    "ac_short": "Reguliere werking (0951-02)  Lokaal Dienstencentrum Albert van Dyck",
-    "ac_long": "Reguliere werking (0951-02)  Lokaal Dienstencentrum Albert van Dyck",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 115000.0,
-    "amount_per_capita": 2.31,
-    "yearly_amounts": {
-      "2026": 35000.0,
-      "2027": 15000.0,
-      "2028": 65000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.7,
-      "2027": 0.3,
-      "2028": 1.3,
-      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -1623,42 +1453,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.3,
-      "2027": 0.91,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000013",
-    "bd_short": "BD 13 Turnhout denkt slim en werkt efficiënt",
-    "bd_long": "BD 13 Turnhout denkt slim en werkt efficiënt",
-    "ap_code": "AP000067",
-    "ap_short": "13.2 We garanderen een kwaliteitsvolle en toegankelijke dienstverlening",
-    "ap_long": "13.2 We garanderen een kwaliteitsvolle en toegankelijke dienstverlening",
-    "ac_code": "AC000268",
-    "ac_short": "13.2.2 We optimaliseren  de toegang tot gemeentelijke diensten",
-    "ac_long": "13.2.2 We optimaliseren  de toegang tot gemeentelijke diensten",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 100000.0,
-    "amount_per_capita": 2.01,
-    "yearly_amounts": {
-      "2026": 100000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 2.01,
-      "2027": 0,
+      "2026": 1.31,
+      "2027": 0.92,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1702,34 +1498,34 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000078",
-    "ac_short": "Reguliere werking (0953-99) Overhead woonzorgcentrum",
-    "ac_long": "Reguliere werking (0953-99) Overhead woonzorgcentrum",
+    "bd_code": "BD000013",
+    "bd_short": "BD 13 Turnhout denkt slim en werkt efficiënt",
+    "bd_long": "BD 13 Turnhout denkt slim en werkt efficiënt",
+    "ap_code": "AP000067",
+    "ap_short": "13.2 We garanderen een kwaliteitsvolle en toegankelijke dienstverlening",
+    "ap_long": "13.2 We garanderen een kwaliteitsvolle en toegankelijke dienstverlening",
+    "ac_code": "AC000268",
+    "ac_short": "13.2.2 We optimaliseren  de toegang tot gemeentelijke diensten",
+    "ac_long": "13.2.2 We optimaliseren  de toegang tot gemeentelijke diensten",
     "categories": [
-      "09-zorg-opvang"
+      "01-algemeen-bestuur"
     ],
     "total_amount": 100000.0,
     "amount_per_capita": 2.01,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 100000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 100000.0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 2.01,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 2.01,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -1748,15 +1544,15 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 94621.0,
+    "total_amount": 94621.81,
     "amount_per_capita": 1.9,
     "yearly_amounts": {
       "2026": 15000.0,
       "2027": 15300.0,
       "2028": 15606.0,
-      "2029": 15918.0,
-      "2030": 16236.0,
-      "2031": 16561.0
+      "2029": 15918.12,
+      "2030": 16236.48,
+      "2031": 16561.21
     },
     "yearly_per_capita": {
       "2026": 0.3,
@@ -1770,35 +1566,35 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
-    "bd_code": "BD000004",
-    "bd_short": "BD 04 Turnhout is een warme en zorgzame stad",
-    "bd_long": "BD 04 Turnhout is een warme en zorgzame stad",
-    "ap_code": "AP000017",
-    "ap_short": "4.3 We geven kansen aan al onze inwoners om deel te nemen aan de samenleving",
-    "ap_long": "4.3 We geven kansen aan al onze inwoners om deel te nemen aan de samenleving",
-    "ac_code": "AC000062",
-    "ac_short": "4.3.1 We hebben aandacht voor vrijetijdsparticipatie",
-    "ac_long": "4.3.1 We hebben aandacht voor vrijetijdsparticipatie",
+    "bd_code": "BD000013",
+    "bd_short": "BD 13 Turnhout denkt slim en werkt efficiënt",
+    "bd_long": "BD 13 Turnhout denkt slim en werkt efficiënt",
+    "ap_code": "AP000070",
+    "ap_short": "13.5 We versnellen het proces van digitale transformatie door inzet van slimme technologie, data",
+    "ap_long": "13.5 We versnellen het proces van digitale transformatie door inzet van slimme technologie, data en efficiënte processen",
+    "ac_code": "AC000282",
+    "ac_short": "13.5.3 We digitaliseren en automatiseren processen om slimmer, sneller en efficiënter te werken",
+    "ac_long": "13.5.3 We digitaliseren en automatiseren processen om slimmer, sneller en efficiënter te werken",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 82000.0,
+    "total_amount": 81873.25,
     "amount_per_capita": 1.65,
     "yearly_amounts": {
-      "2026": 25000.0,
-      "2027": 18000.0,
-      "2028": 25000.0,
-      "2029": 7000.0,
-      "2030": 0,
-      "2031": 7000.0
+      "2026": 31873.25,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 0.5,
-      "2027": 0.36,
-      "2028": 0.5,
-      "2029": 0.14,
-      "2030": 0,
-      "2031": 0.14
+      "2026": 0.64,
+      "2027": 0.2,
+      "2028": 0.2,
+      "2029": 0.2,
+      "2030": 0.2,
+      "2031": 0.2
     }
   },
   {
@@ -1817,7 +1613,7 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 60000.0,
-    "amount_per_capita": 1.2,
+    "amount_per_capita": 1.21,
     "yearly_amounts": {
       "2026": 60000.0,
       "2027": 0,
@@ -1827,76 +1623,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.2,
+      "2026": 1.21,
       "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000013",
-    "bd_short": "BD 13 Turnhout denkt slim en werkt efficiënt",
-    "bd_long": "BD 13 Turnhout denkt slim en werkt efficiënt",
-    "ap_code": "AP000070",
-    "ap_short": "13.5 We versnellen het proces van digitale transformatie door inzet van slimme technologie, data",
-    "ap_long": "13.5 We versnellen het proces van digitale transformatie door inzet van slimme technologie, data en efficiënte processen",
-    "ac_code": "AC000282",
-    "ac_short": "13.5.3 We digitaliseren en automatiseren processen om slimmer, sneller en efficiënter te werken",
-    "ac_long": "13.5.3 We digitaliseren en automatiseren processen om slimmer, sneller en efficiënter te werken",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 60000.0,
-    "amount_per_capita": 1.2,
-    "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 10000.0,
-      "2028": 10000.0,
-      "2029": 10000.0,
-      "2030": 10000.0,
-      "2031": 10000.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.2,
-      "2027": 0.2,
-      "2028": 0.2,
-      "2029": 0.2,
-      "2030": 0.2,
-      "2031": 0.2
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000069",
-    "ac_short": "Reguliere werking (0951-03) Lokaal Dienstencentrum De Schoor",
-    "ac_long": "Reguliere werking (0951-03) Lokaal Dienstencentrum De Schoor",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 59500.0,
-    "amount_per_capita": 1.19,
-    "yearly_amounts": {
-      "2026": 26500.0,
-      "2027": 33000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.53,
-      "2027": 0.66,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1918,15 +1646,15 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 50465.0,
-    "amount_per_capita": 1.01,
+    "total_amount": 50464.97,
+    "amount_per_capita": 1.02,
     "yearly_amounts": {
       "2026": 8000.0,
       "2027": 8160.0,
-      "2028": 8323.0,
-      "2029": 8490.0,
-      "2030": 8659.0,
-      "2031": 8833.0
+      "2028": 8323.2,
+      "2029": 8489.66,
+      "2030": 8659.46,
+      "2031": 8832.65
     },
     "yearly_per_capita": {
       "2026": 0.16,
@@ -1935,40 +1663,6 @@
       "2029": 0.17,
       "2030": 0.17,
       "2031": 0.18
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "BD000011",
-    "bd_short": "BD 11 Turnhout valideert haar open ruimte",
-    "bd_long": "BD 11 Turnhout valideert haar open ruimte",
-    "ap_code": "AP000057",
-    "ap_short": "11.1 We valideren het Turnhouts vennengebied",
-    "ap_long": "11.1 We valideren het Turnhouts vennengebied",
-    "ac_code": "AC000232",
-    "ac_short": "11.1.6 We investeren in het potentieel van de Klein Engelandhoeve als bezoekerscentrum en",
-    "ac_long": "11.1.6 We investeren in het potentieel van de Klein Engelandhoeve als bezoekerscentrum en trekpleister voor zowel binnenlandse als buitenlandse toeristen",
-    "categories": [
-      "05-ondernemen-werken"
-    ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 1.0,
-    "yearly_amounts": {
-      "2026": 50000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
     }
   },
   {
@@ -1987,7 +1681,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 1.0,
+    "amount_per_capita": 1.01,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1999,7 +1693,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 1.0,
+      "2028": 1.01,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -2008,35 +1702,35 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000064",
-    "ac_short": "Reguliere werking (0119-03)  Facility",
-    "ac_long": "Reguliere werking (0119-03)  Facility",
+    "bd_code": "BD000011",
+    "bd_short": "BD 11 Turnhout valideert haar open ruimte",
+    "bd_long": "BD 11 Turnhout valideert haar open ruimte",
+    "ap_code": "AP000057",
+    "ap_short": "11.1 We valideren het Turnhouts vennengebied",
+    "ap_long": "11.1 We valideren het Turnhouts vennengebied",
+    "ac_code": "AC000232",
+    "ac_short": "11.1.6 We investeren in het potentieel van de Klein Engelandhoeve als bezoekerscentrum en",
+    "ac_long": "11.1.6 We investeren in het potentieel van de Klein Engelandhoeve als bezoekerscentrum en trekpleister voor zowel binnenlandse als buitenlandse toeristen",
     "categories": [
-      "01-algemeen-bestuur"
+      "05-ondernemen-werken"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 1.0,
+    "amount_per_capita": 1.01,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 50000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 50000.0
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 1.01,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 1.0
+      "2031": 0
     }
   },
   {
@@ -2055,7 +1749,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 45000.0,
-    "amount_per_capita": 0.9,
+    "amount_per_capita": 0.91,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 5000.0,
@@ -2076,40 +1770,6 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000073",
-    "ac_short": "Reguliere werking (0952-04) Assistentiewoningen Houthaven",
-    "ac_long": "Reguliere werking (0952-04) Assistentiewoningen Houthaven",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 40000.0,
-    "amount_per_capita": 0.8,
-    "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 30000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.2,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0.6,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
     "bd_code": "BD000005",
     "bd_short": "BD 05 Turnhout is een bereikbare stad",
     "bd_long": "BD 05 Turnhout is een bereikbare stad",
@@ -2122,10 +1782,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 34000.0,
-    "amount_per_capita": 0.68,
+    "total_amount": 44430.0,
+    "amount_per_capita": 0.89,
     "yearly_amounts": {
-      "2026": 34000.0,
+      "2026": 44430.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2133,109 +1793,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.68,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000070",
-    "ac_short": "Reguliere werking (0951-04)  Dienstencentrum De Wissel",
-    "ac_long": "Reguliere werking (0951-04)  Dienstencentrum De Wissel",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 32500.0,
-    "amount_per_capita": 0.65,
-    "yearly_amounts": {
-      "2026": 16000.0,
-      "2027": 6500.0,
-      "2028": 10000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.32,
-      "2027": 0.13,
-      "2028": 0.2,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000097",
-    "ac_short": "Reguliere werking (0945-07) Kinderdagverblijf Parkwijk",
-    "ac_long": "Reguliere werking (0945-07) Kinderdagverblijf Parkwijk",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 30000.0,
-    "amount_per_capita": 0.6,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 30000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0.6,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Turnhout",
-    "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000093",
-    "ac_short": "Reguliere werking (0945-04) Kinderdagverblijf De Kleine Wending",
-    "ac_long": "Reguliere werking (0945-04) Kinderdagverblijf De Kleine Wending",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 28750.0,
-    "amount_per_capita": 0.58,
-    "yearly_amounts": {
-      "2026": 28750.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.58,
+      "2026": 0.89,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2280,6 +1838,40 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
+    "bd_code": "BD000004",
+    "bd_short": "BD 04 Turnhout is een warme en zorgzame stad",
+    "bd_long": "BD 04 Turnhout is een warme en zorgzame stad",
+    "ap_code": "AP000017",
+    "ap_short": "4.3 We geven kansen aan al onze inwoners om deel te nemen aan de samenleving",
+    "ap_long": "4.3 We geven kansen aan al onze inwoners om deel te nemen aan de samenleving",
+    "ac_code": "AC000062",
+    "ac_short": "4.3.1 We hebben aandacht voor vrijetijdsparticipatie",
+    "ac_long": "4.3.1 We hebben aandacht voor vrijetijdsparticipatie",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 0.5,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.5,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Turnhout",
+    "nis_code": "13040",
     "bd_code": "BD000014",
     "bd_short": "BD 14 Turnhout beheert met visie",
     "bd_long": "BD 14 Turnhout beheert met visie",
@@ -2314,22 +1906,22 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000071",
-    "ac_short": "Reguliere werking (0952-01) Assistentiewoningen Albert van Dyck",
-    "ac_long": "Reguliere werking (0952-01) Assistentiewoningen Albert van Dyck",
+    "bd_code": "BD000005",
+    "bd_short": "BD 05 Turnhout is een bereikbare stad",
+    "bd_long": "BD 05 Turnhout is een bereikbare stad",
+    "ap_code": "AP000020",
+    "ap_short": "5.1 We ondersteunen de modal shift door slim ruimtegebruik en het creëren van parkeerclusters",
+    "ap_long": "5.1 We ondersteunen de modal shift door slim ruimtegebruik en het creëren van parkeerclusters op weg naar de bestemming",
+    "ac_code": "AC000069",
+    "ac_short": "5.1.1 We voorzien voldoende laagdrempelige en bereikbare fietsenstallingen",
+    "ac_long": "5.1.1 We voorzien voldoende laagdrempelige en bereikbare fietsenstallingen",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 17525.0,
+    "total_amount": 17279.73,
     "amount_per_capita": 0.35,
     "yearly_amounts": {
-      "2026": 17525.0,
+      "2026": 17279.73,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2382,32 +1974,32 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
-    "bd_code": "BD000009",
-    "bd_short": "BD 09 Turnhout bruist van leven",
-    "bd_long": "BD 09 Turnhout bruist van leven",
-    "ap_code": "AP000076",
-    "ap_short": "9.2 We voorzien in vrijetijdsinfrastructuur",
-    "ap_long": "9.2 We voorzien in vrijetijdsinfrastructuur",
-    "ac_code": "AC000311",
-    "ac_short": "9.2.4 We stellen leegstaande panden ter beschikking voor culturele experimenten en tijdelijke ateli",
-    "ac_long": "9.2.4 We stellen leegstaande panden ter beschikking voor culturele experimenten en tijdelijke ateliers",
+    "bd_code": "BD000008",
+    "bd_short": "BD 08 Turnhout maakt het verschil in onderwijs",
+    "bd_long": "BD 08 Turnhout maakt het verschil in onderwijs",
+    "ap_code": "AP000040",
+    "ap_short": "8.5 We zorgen voor een professionele beleidsvoering in onze eigen onderwijsinstellingen",
+    "ap_long": "8.5 We zorgen voor een professionele beleidsvoering in onze eigen onderwijsinstellingen",
+    "ac_code": "AC000150",
+    "ac_short": "8.5.2 We versterken de werking van de basisschool in de Parkwijk",
+    "ac_long": "8.5.2 We versterken de werking van de basisschool in de Parkwijk",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "05-ondernemen-werken"
     ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 0.3,
+    "total_amount": 15317.94,
+    "amount_per_capita": 0.31,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 15317.94,
       "2027": 0,
-      "2028": 15000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.31,
       "2027": 0,
-      "2028": 0.3,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -2450,32 +2042,32 @@
   {
     "municipality": "Turnhout",
     "nis_code": "13040",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000014",
-    "ap_short": "Reguliere werking",
-    "ap_long": "Reguliere werking",
-    "ac_code": "AC000072",
-    "ac_short": "Reguliere werking (0952-02) Assistentiewoningen De Dijk",
-    "ac_long": "Reguliere werking (0952-02) Assistentiewoningen De Dijk",
+    "bd_code": "BD000009",
+    "bd_short": "BD 09 Turnhout bruist van leven",
+    "bd_long": "BD 09 Turnhout bruist van leven",
+    "ap_code": "AP000076",
+    "ap_short": "9.2 We voorzien in vrijetijdsinfrastructuur",
+    "ap_long": "9.2 We voorzien in vrijetijdsinfrastructuur",
+    "ac_code": "AC000311",
+    "ac_short": "9.2.4 We stellen leegstaande panden ter beschikking voor culturele experimenten en tijdelijke ateli",
+    "ac_long": "9.2.4 We stellen leegstaande panden ter beschikking voor culturele experimenten en tijdelijke ateliers",
     "categories": [
-      "09-zorg-opvang"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 10750.0,
-    "amount_per_capita": 0.22,
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.3,
     "yearly_amounts": {
-      "2026": 3000.0,
-      "2027": 7750.0,
-      "2028": 0,
+      "2026": 0,
+      "2027": 0,
+      "2028": 15000.0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.06,
-      "2027": 0.16,
-      "2028": 0,
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.3,
       "2029": 0,
       "2030": 0,
       "2031": 0

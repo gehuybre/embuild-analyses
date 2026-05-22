@@ -15,7 +15,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 11558223.0,
-    "amount_per_capita": 604.25,
+    "amount_per_capita": 603.13,
     "yearly_amounts": {
       "2026": 558223.0,
       "2027": 2200000.0,
@@ -25,46 +25,12 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 29.18,
-      "2027": 115.01,
-      "2028": 287.53,
-      "2029": 172.52,
+      "2026": 29.13,
+      "2027": 114.8,
+      "2028": 287.0,
+      "2029": 172.2,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Sint-Genesius-Rode",
-    "nis_code": "23101",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "gelijkblijvend beleid - gemeente",
-    "ap_long": "Commentaar:",
-    "ac_code": "GGBB",
-    "ac_short": "gemeente - gelijkblijvend beleid - interne zaken - facility",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 8058447.0,
-    "amount_per_capita": 421.29,
-    "yearly_amounts": {
-      "2026": 1285653.0,
-      "2027": 1381996.0,
-      "2028": 1356305.0,
-      "2029": 1356478.0,
-      "2030": 1364359.0,
-      "2031": 1313656.0
-    },
-    "yearly_per_capita": {
-      "2026": 67.21,
-      "2027": 72.25,
-      "2028": 70.91,
-      "2029": 70.92,
-      "2030": 71.33,
-      "2031": 68.68
     }
   },
   {
@@ -80,12 +46,12 @@
     "ac_short": "Verrichtingen zonder beleidsdoelstelling",
     "ac_long": "Commentaar:",
     "categories": [
-      "02-mobiliteit"
+      "00-algemene-financiering"
     ],
-    "total_amount": 6550000.0,
-    "amount_per_capita": 342.43,
+    "total_amount": 7604000.0,
+    "amount_per_capita": 396.79,
     "yearly_amounts": {
-      "2026": 6550000.0,
+      "2026": 7604000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -93,7 +59,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 342.43,
+      "2026": 396.79,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -117,7 +83,7 @@
       "08-onderwijs"
     ],
     "total_amount": 5000000.0,
-    "amount_per_capita": 261.4,
+    "amount_per_capita": 260.91,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -129,9 +95,9 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 52.28,
-      "2029": 130.7,
-      "2030": 78.42,
+      "2028": 52.18,
+      "2029": 130.46,
+      "2030": 78.27,
       "2031": 0
     }
   },
@@ -151,7 +117,7 @@
       "00-algemene-financiering"
     ],
     "total_amount": 3500000.0,
-    "amount_per_capita": 182.98,
+    "amount_per_capita": 182.64,
     "yearly_amounts": {
       "2026": 0,
       "2027": 3500000.0,
@@ -162,11 +128,45 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 182.98,
+      "2027": 182.64,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEMEEN",
+    "ap_short": "gelijkblijvend beleid - gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GGBB-PR-OW",
+    "ac_short": "gemeente - gelijkblijvend beleid - publieke ruimte - openbare werken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3000000.0,
+    "amount_per_capita": 156.55,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 500000.0,
+      "2028": 500000.0,
+      "2029": 500000.0,
+      "2030": 500000.0,
+      "2031": 500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 26.09,
+      "2027": 26.09,
+      "2028": 26.09,
+      "2029": 26.09,
+      "2030": 26.09,
+      "2031": 26.09
     }
   },
   {
@@ -185,7 +185,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 2740000.0,
-    "amount_per_capita": 143.24,
+    "amount_per_capita": 142.98,
     "yearly_amounts": {
       "2026": 150000.0,
       "2027": 595000.0,
@@ -195,12 +195,12 @@
       "2031": 625000.0
     },
     "yearly_per_capita": {
-      "2026": 7.84,
-      "2027": 31.11,
-      "2028": 31.11,
-      "2029": 7.84,
-      "2030": 32.67,
-      "2031": 32.67
+      "2026": 7.83,
+      "2027": 31.05,
+      "2028": 31.05,
+      "2029": 7.83,
+      "2030": 32.61,
+      "2031": 32.61
     }
   },
   {
@@ -219,7 +219,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 2500000.0,
-    "amount_per_capita": 130.7,
+    "amount_per_capita": 130.46,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -232,9 +232,43 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 26.14,
-      "2030": 65.35,
-      "2031": 39.21
+      "2029": 26.09,
+      "2030": 65.23,
+      "2031": 39.14
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "13",
+    "bd_short": "Sint-Genesius-Rode versterkt de maatregelen rond duurzaamheid",
+    "bd_long": "Commentaar:",
+    "ap_code": "13.03",
+    "ap_short": "We voeren de acties van het lokale klimaatplan uit",
+    "ap_long": "Commentaar:",
+    "ac_code": "13.03.04",
+    "ac_short": "Verledden van de openbare verlichting",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 2200000.0,
+    "amount_per_capita": 114.8,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 400000.0,
+      "2028": 400000.0,
+      "2029": 400000.0,
+      "2030": 400000.0,
+      "2031": 400000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.44,
+      "2027": 20.87,
+      "2028": 20.87,
+      "2029": 20.87,
+      "2030": 20.87,
+      "2031": 20.87
     }
   },
   {
@@ -253,7 +287,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 2178000.0,
-    "amount_per_capita": 113.86,
+    "amount_per_capita": 113.65,
     "yearly_amounts": {
       "2026": 0,
       "2027": 435600.0,
@@ -264,45 +298,11 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 22.77,
-      "2028": 56.93,
-      "2029": 34.16,
+      "2027": 22.73,
+      "2028": 56.83,
+      "2029": 34.1,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Sint-Genesius-Rode",
-    "nis_code": "23101",
-    "bd_code": "13",
-    "bd_short": "Sint-Genesius-Rode versterkt de maatregelen rond duurzaamheid",
-    "bd_long": "Commentaar:",
-    "ap_code": "13.03",
-    "ap_short": "We voeren de acties van het lokale klimaatplan uit",
-    "ap_long": "Commentaar:",
-    "ac_code": "13.03.04",
-    "ac_short": "Verledden van de openbare verlichting",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 2100000.0,
-    "amount_per_capita": 109.79,
-    "yearly_amounts": {
-      "2026": 100000.0,
-      "2027": 400000.0,
-      "2028": 400000.0,
-      "2029": 400000.0,
-      "2030": 400000.0,
-      "2031": 400000.0
-    },
-    "yearly_per_capita": {
-      "2026": 5.23,
-      "2027": 20.91,
-      "2028": 20.91,
-      "2029": 20.91,
-      "2030": 20.91,
-      "2031": 20.91
     }
   },
   {
@@ -320,10 +320,10 @@
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 1986000.0,
-    "amount_per_capita": 103.83,
+    "total_amount": 2003500.0,
+    "amount_per_capita": 104.55,
     "yearly_amounts": {
-      "2026": 878000.0,
+      "2026": 895500.0,
       "2027": 928000.0,
       "2028": 180000.0,
       "2029": 0,
@@ -331,9 +331,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 45.9,
-      "2027": 48.51,
-      "2028": 9.41,
+      "2026": 46.73,
+      "2027": 48.42,
+      "2028": 9.39,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -355,7 +355,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 1832800.0,
-    "amount_per_capita": 95.82,
+    "amount_per_capita": 95.64,
     "yearly_amounts": {
       "2026": 209650.0,
       "2027": 796650.0,
@@ -365,9 +365,9 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 10.96,
-      "2027": 41.65,
-      "2028": 41.64,
+      "2026": 10.94,
+      "2027": 41.57,
+      "2028": 41.56,
       "2029": 0.52,
       "2030": 0.52,
       "2031": 0.52
@@ -389,7 +389,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 1744275.0,
-    "amount_per_capita": 91.19,
+    "amount_per_capita": 91.02,
     "yearly_amounts": {
       "2026": 280000.0,
       "2027": 284200.0,
@@ -399,12 +399,12 @@
       "2031": 301640.0
     },
     "yearly_per_capita": {
-      "2026": 14.64,
-      "2027": 14.86,
-      "2028": 15.08,
-      "2029": 15.31,
-      "2030": 15.54,
-      "2031": 15.77
+      "2026": 14.61,
+      "2027": 14.83,
+      "2028": 15.05,
+      "2029": 15.28,
+      "2030": 15.51,
+      "2031": 15.74
     }
   },
   {
@@ -413,64 +413,166 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "GBB",
-    "ap_short": "gelijkblijvend beleid - ocmw",
+    "ap_code": "GBB-GEMEEN",
+    "ap_short": "gelijkblijvend beleid - gemeente",
     "ap_long": "Commentaar:",
-    "ac_code": "OGBB",
-    "ac_short": "ocmw - gelijkblijvend beleid - interne zaken - facility",
+    "ac_code": "GGBB-IZ-FA",
+    "ac_short": "gemeente - gelijkblijvend beleid - interne zaken - facility",
     "ac_long": "Commentaar:",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1640000.0,
-    "amount_per_capita": 85.74,
+    "total_amount": 1571000.0,
+    "amount_per_capita": 81.98,
     "yearly_amounts": {
-      "2026": 65000.0,
-      "2027": 315000.0,
-      "2028": 315000.0,
-      "2029": 315000.0,
-      "2030": 315000.0,
-      "2031": 315000.0
+      "2026": 196000.0,
+      "2027": 275000.0,
+      "2028": 275000.0,
+      "2029": 275000.0,
+      "2030": 275000.0,
+      "2031": 275000.0
     },
     "yearly_per_capita": {
-      "2026": 3.4,
-      "2027": 16.47,
-      "2028": 16.47,
-      "2029": 16.47,
-      "2030": 16.47,
-      "2031": 16.47
+      "2026": 10.23,
+      "2027": 14.35,
+      "2028": 14.35,
+      "2029": 14.35,
+      "2030": 14.35,
+      "2031": 14.35
     }
   },
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
-    "bd_code": "11",
-    "bd_short": "Sint-Genesius-Rode behoudt zijn eigenheid als groene en open gemeente",
-    "bd_long": "Commentaar:",
-    "ap_code": "11.03",
-    "ap_short": "We voeren op strategische locaties hefboomprojecten uit als motor v verdere ruimtelijke ontwikkeling",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEMEEN",
+    "ap_short": "gelijkblijvend beleid - gemeente",
     "ap_long": "Commentaar:",
-    "ac_code": "11.03.02",
-    "ac_short": "Herinrichten van de centrumzone De Hoek",
+    "ac_code": "GGBB-IZ-FI",
+    "ac_short": "gemeente - gelijkblijvend beleid - interne zaken - financiën",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1481779.78,
+    "amount_per_capita": 77.32,
+    "yearly_amounts": {
+      "2026": 233986.31,
+      "2027": 266995.97,
+      "2028": 241304.81,
+      "2029": 241477.73,
+      "2030": 249358.84,
+      "2031": 248656.12
+    },
+    "yearly_per_capita": {
+      "2026": 12.21,
+      "2027": 13.93,
+      "2028": 12.59,
+      "2029": 12.6,
+      "2030": 13.01,
+      "2031": 12.98
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-OCMW",
+    "ap_short": "gelijkblijvend beleid - ocmw",
+    "ap_long": "Commentaar:",
+    "ac_code": "OGBB-IZ-FA",
+    "ac_short": "ocmw - gelijkblijvend beleid - interne zaken - facility",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1250000.0,
+    "amount_per_capita": 65.23,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 250000.0,
+      "2028": 250000.0,
+      "2029": 250000.0,
+      "2030": 250000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 13.05,
+      "2028": 13.05,
+      "2029": 13.05,
+      "2030": 13.05,
+      "2031": 13.05
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "16",
+    "bd_short": "Sint-Genesius-Rode voert mobiliteitsbeleid dat leidt tot betere doorstroming en verkeersvrije wijken",
+    "bd_long": "Commentaar:",
+    "ap_code": "16.02",
+    "ap_short": "We realiseren een mobiliteitsplan",
+    "ap_long": "Het mobiliteitsplan zal oog hebben voor de uitbouw van een netwerk van voet- en fietsverbindigen, de doorstroming van het verkeer en het parkeerbeleid.",
+    "ac_code": "16.02.03",
+    "ac_short": "Afbakenen functioneel netwerk van voet- en fietswegen rondom scholen, sportinfrastructuur & zorgsite",
+    "ac_long": "met voldoende banken voor senioren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1034000.0,
+    "amount_per_capita": 53.96,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 295000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 239000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.44,
+      "2027": 15.39,
+      "2028": 5.22,
+      "2029": 5.22,
+      "2030": 5.22,
+      "2031": 12.47
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "06",
+    "bd_short": "Sint-Genesius-Rode neemt een regierol op rond zorgtoegankelijkheid en preventieve gezondheidszorg",
+    "bd_long": "Kwalitatieve omschrijving: In samenwerking met de eerstelijnszone",
+    "ap_code": "06.01",
+    "ap_short": "We bouwen een gemeenschappelijke eerstelijnspraktijkruimte uit",
+    "ap_long": "Commentaar:",
+    "ac_code": "06.01.02",
+    "ac_short": "Uitvoeren haalbaarheidsstudie en realisatie van een project op basis hiervan",
     "ac_long": "Commentaar:",
     "categories": [
       "00-algemene-financiering"
     ],
     "total_amount": 1000000.0,
-    "amount_per_capita": 52.28,
+    "amount_per_capita": 52.18,
     "yearly_amounts": {
       "2026": 0,
-      "2027": 0,
-      "2028": 200000.0,
-      "2029": 800000.0,
+      "2027": 200000.0,
+      "2028": 800000.0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0,
-      "2028": 10.46,
-      "2029": 41.82,
+      "2027": 10.44,
+      "2028": 41.75,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -491,7 +593,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 1000000.0,
-    "amount_per_capita": 52.28,
+    "amount_per_capita": 52.18,
     "yearly_amounts": {
       "2026": 0,
       "2027": 200000.0,
@@ -502,8 +604,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 10.46,
-      "2028": 41.82,
+      "2027": 10.44,
+      "2028": 41.75,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -512,33 +614,33 @@
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
-    "bd_code": "06",
-    "bd_short": "Sint-Genesius-Rode neemt een regierol op rond zorgtoegankelijkheid en preventieve gezondheidszorg",
-    "bd_long": "Kwalitatieve omschrijving: In samenwerking met de eerstelijnszone",
-    "ap_code": "06.01",
-    "ap_short": "We bouwen een gemeenschappelijke eerstelijnspraktijkruimte uit",
+    "bd_code": "11",
+    "bd_short": "Sint-Genesius-Rode behoudt zijn eigenheid als groene en open gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "11.03",
+    "ap_short": "We voeren op strategische locaties hefboomprojecten uit als motor v verdere ruimtelijke ontwikkeling",
     "ap_long": "Commentaar:",
-    "ac_code": "06.01.02",
-    "ac_short": "Uitvoeren haalbaarheidsstudie en realisatie van een project op basis hiervan",
+    "ac_code": "11.03.02",
+    "ac_short": "Herinrichten van de centrumzone De Hoek",
     "ac_long": "Commentaar:",
     "categories": [
       "00-algemene-financiering"
     ],
     "total_amount": 1000000.0,
-    "amount_per_capita": 52.28,
+    "amount_per_capita": 52.18,
     "yearly_amounts": {
       "2026": 0,
-      "2027": 200000.0,
-      "2028": 800000.0,
-      "2029": 0,
+      "2027": 0,
+      "2028": 200000.0,
+      "2029": 800000.0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 10.46,
-      "2028": 41.82,
-      "2029": 0,
+      "2027": 0,
+      "2028": 10.44,
+      "2029": 41.75,
       "2030": 0,
       "2031": 0
     }
@@ -546,35 +648,35 @@
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
-    "bd_code": "16",
-    "bd_short": "Sint-Genesius-Rode voert mobiliteitsbeleid dat leidt tot betere doorstroming en verkeersvrije wijken",
-    "bd_long": "Commentaar:",
-    "ap_code": "16.02",
-    "ap_short": "We realiseren een mobiliteitsplan",
-    "ap_long": "Het mobiliteitsplan zal oog hebben voor de uitbouw van een netwerk van voet- en fietsverbindigen, de doorstroming van het verkeer en het parkeerbeleid.",
-    "ac_code": "16.02.03",
-    "ac_short": "Afbakenen functioneel netwerk van voet- en fietswegen rondom scholen, sportinfrastructuur & zorgsite",
-    "ac_long": "met voldoende banken voor senioren.",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEMEEN",
+    "ap_short": "gelijkblijvend beleid - gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GGBB-PR-TD",
+    "ac_short": "gemeente - gelijkblijvend beleid - publieke ruimte - technische dienst",
+    "ac_long": "Commentaar:",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 934000.0,
-    "amount_per_capita": 48.83,
+    "total_amount": 940000.0,
+    "amount_per_capita": 49.05,
     "yearly_amounts": {
-      "2026": 100000.0,
-      "2027": 295000.0,
-      "2028": 100000.0,
-      "2029": 100000.0,
-      "2030": 100000.0,
-      "2031": 239000.0
+      "2026": 165000.0,
+      "2027": 165000.0,
+      "2028": 165000.0,
+      "2029": 165000.0,
+      "2030": 165000.0,
+      "2031": 115000.0
     },
     "yearly_per_capita": {
-      "2026": 5.23,
-      "2027": 15.42,
-      "2028": 5.23,
-      "2029": 5.23,
-      "2030": 5.23,
-      "2031": 12.49
+      "2026": 8.61,
+      "2027": 8.61,
+      "2028": 8.61,
+      "2029": 8.61,
+      "2030": 8.61,
+      "2031": 6.0
     }
   },
   {
@@ -593,7 +695,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 808890.0,
-    "amount_per_capita": 42.29,
+    "amount_per_capita": 42.21,
     "yearly_amounts": {
       "2026": 12000.0,
       "2027": 12000.0,
@@ -605,10 +707,10 @@
     "yearly_per_capita": {
       "2026": 0.63,
       "2027": 0.63,
-      "2028": 6.95,
-      "2029": 13.28,
-      "2030": 1.2,
-      "2031": 19.6
+      "2028": 6.94,
+      "2029": 13.25,
+      "2030": 1.19,
+      "2031": 19.57
     }
   },
   {
@@ -627,7 +729,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 725000.0,
-    "amount_per_capita": 37.9,
+    "amount_per_capita": 37.83,
     "yearly_amounts": {
       "2026": 0,
       "2027": 145000.0,
@@ -638,11 +740,79 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 7.58,
-      "2028": 7.58,
-      "2029": 7.58,
-      "2030": 7.58,
-      "2031": 7.58
+      "2027": 7.57,
+      "2028": 7.57,
+      "2029": 7.57,
+      "2030": 7.57,
+      "2031": 7.57
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEMEEN",
+    "ap_short": "gelijkblijvend beleid - gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GGBB-LB-SP",
+    "ac_short": "gemeente - gelijkblijvend beleid - leven en beleven - sport",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 645000.0,
+    "amount_per_capita": 33.66,
+    "yearly_amounts": {
+      "2026": 495000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 25.83,
+      "2027": 1.57,
+      "2028": 1.57,
+      "2029": 1.57,
+      "2030": 1.57,
+      "2031": 1.57
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEMEEN",
+    "ap_short": "gelijkblijvend beleid - gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GGBB-IZ-OB",
+    "ac_short": "gemeente - gelijkblijvend beleid - interne zaken - operationeel beheer",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 608500.0,
+    "amount_per_capita": 31.75,
+    "yearly_amounts": {
+      "2026": 108500.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.66,
+      "2027": 5.22,
+      "2028": 5.22,
+      "2029": 5.22,
+      "2030": 5.22,
+      "2031": 5.22
     }
   },
   {
@@ -661,7 +831,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 500000.0,
-    "amount_per_capita": 26.14,
+    "amount_per_capita": 26.09,
     "yearly_amounts": {
       "2026": 0,
       "2027": 250000.0,
@@ -672,8 +842,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 13.07,
-      "2028": 13.07,
+      "2027": 13.05,
+      "2028": 13.05,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -694,19 +864,19 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 424536.0,
-    "amount_per_capita": 22.19,
+    "total_amount": 424535.0,
+    "amount_per_capita": 22.15,
     "yearly_amounts": {
-      "2026": 212268.0,
-      "2027": 212268.0,
+      "2026": 212267.5,
+      "2027": 212267.5,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 11.1,
-      "2027": 11.1,
+      "2026": 11.08,
+      "2027": 11.08,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -729,7 +899,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 400000.0,
-    "amount_per_capita": 20.91,
+    "amount_per_capita": 20.87,
     "yearly_amounts": {
       "2026": 0,
       "2027": 400000.0,
@@ -740,8 +910,76 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 20.91,
+      "2027": 20.87,
       "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-OCMW",
+    "ap_short": "gelijkblijvend beleid - ocmw",
+    "ap_long": "Commentaar:",
+    "ac_code": "OGBB-ZO-WZ",
+    "ac_short": "ocmw - gelijkblijven beleid - zorg - woonzorgcentrum",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 385000.0,
+    "amount_per_capita": 20.09,
+    "yearly_amounts": {
+      "2026": 210000.0,
+      "2027": 35000.0,
+      "2028": 35000.0,
+      "2029": 35000.0,
+      "2030": 35000.0,
+      "2031": 35000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.96,
+      "2027": 1.83,
+      "2028": 1.83,
+      "2029": 1.83,
+      "2030": 1.83,
+      "2031": 1.83
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "05",
+    "bd_short": "SGR versterkt de maatschappelijke hulpverlening gericht op het versterken van de zelfredzaamheid",
+    "bd_long": "Commentaar:",
+    "ap_code": "05.02",
+    "ap_short": "We versterken de werking van het buurthuis door gezamelijke huisvesting",
+    "ap_long": "We versterken de werking van het buurthuis door gezamelijke huisvesting met de sociale kruidenier, vestiaire solidaire en repair café",
+    "ac_code": "05.02.01",
+    "ac_short": "Herhuisvesten en eventueel bundelen van deze initiatieven in het voordeel van de Rodenaar",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 13.05,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 13.05,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -763,7 +1001,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 13.07,
+    "amount_per_capita": 13.05,
     "yearly_amounts": {
       "2026": 0,
       "2027": 250000.0,
@@ -774,7 +1012,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 13.07,
+      "2027": 13.05,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -784,35 +1022,35 @@
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
-    "bd_code": "05",
-    "bd_short": "SGR versterkt de maatschappelijke hulpverlening gericht op het versterken van de zelfredzaamheid",
-    "bd_long": "Commentaar:",
-    "ap_code": "05.02",
-    "ap_short": "We versterken de werking van het buurthuis door gezamelijke huisvesting",
-    "ap_long": "We versterken de werking van het buurthuis door gezamelijke huisvesting met de sociale kruidenier, vestiaire solidaire en repair café",
-    "ac_code": "05.02.01",
-    "ac_short": "Herhuisvesten en eventueel bundelen van deze initiatieven in het voordeel van de Rodenaar",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-OCMW",
+    "ap_short": "gelijkblijvend beleid - ocmw",
+    "ap_long": "Commentaar:",
+    "ac_code": "OGBB-ZO-DC",
+    "ac_short": "ocmw - gelijkblijvend beleid - zorg - lokaal dienstencentrum",
     "ac_long": "Commentaar:",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "09-zorg-opvang"
     ],
-    "total_amount": 250000.0,
-    "amount_per_capita": 13.07,
+    "total_amount": 211090.01,
+    "amount_per_capita": 11.02,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 250000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 61090.01,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 13.07,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 3.19,
+      "2027": 1.57,
+      "2028": 1.57,
+      "2029": 1.57,
+      "2030": 1.57,
+      "2031": 1.57
     }
   },
   {
@@ -831,7 +1069,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 200000.0,
-    "amount_per_capita": 10.46,
+    "amount_per_capita": 10.44,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -852,20 +1090,54 @@
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
-    "bd_code": "11",
-    "bd_short": "Sint-Genesius-Rode behoudt zijn eigenheid als groene en open gemeente",
-    "bd_long": "Commentaar:",
-    "ap_code": "11.04",
-    "ap_short": "We vormen de begraafplaats om tot een waardige gedenkplek en groen rustpunt",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEMEEN",
+    "ap_short": "gelijkblijvend beleid - gemeente",
     "ap_long": "Commentaar:",
-    "ac_code": "11.04.01",
-    "ac_short": "Bouwen van afscheidssite waar families in alle intimiteit van de overledene afscheid kunnen nemen",
+    "ac_code": "GGBB-LB-KI",
+    "ac_short": "gemeente - gelijkblijvend beleid - leven en beleven - kinderopvang",
     "ac_long": "Commentaar:",
     "categories": [
       "09-zorg-opvang"
     ],
+    "total_amount": 186667.0,
+    "amount_per_capita": 9.74,
+    "yearly_amounts": {
+      "2026": 186667.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB1",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB1",
+    "ac_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
     "total_amount": 150000.0,
-    "amount_per_capita": 7.84,
+    "amount_per_capita": 7.83,
     "yearly_amounts": {
       "2026": 150000.0,
       "2027": 0,
@@ -875,7 +1147,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.84,
+      "2026": 7.83,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -899,7 +1171,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 7.84,
+    "amount_per_capita": 7.83,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -911,7 +1183,41 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 7.84,
+      "2028": 7.83,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "11",
+    "bd_short": "Sint-Genesius-Rode behoudt zijn eigenheid als groene en open gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "11.04",
+    "ap_short": "We vormen de begraafplaats om tot een waardige gedenkplek en groen rustpunt",
+    "ap_long": "Commentaar:",
+    "ac_code": "11.04.01",
+    "ac_short": "Bouwen van afscheidssite waar families in alle intimiteit van de overledene afscheid kunnen nemen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 7.83,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.83,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -933,7 +1239,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 130000.0,
-    "amount_per_capita": 6.8,
+    "amount_per_capita": 6.78,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -945,7 +1251,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 6.8,
+      "2028": 6.78,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -954,35 +1260,69 @@
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
-    "bd_code": "17",
-    "bd_short": "Sint-Genesius-Rode wordt een dementievriendelijke gemeente",
-    "bd_long": "Commentaar:",
-    "ap_code": "17.02",
-    "ap_short": "We ontwikkelen een visie voor mensen met dementie binnen het woonzorgcentrum",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEMEEN",
+    "ap_short": "gelijkblijvend beleid - gemeente",
     "ap_long": "Commentaar:",
-    "ac_code": "17.02.03",
-    "ac_short": "Inzetten op elektronische middelen zoals een nachtbewakingssysteem",
-    "ac_long": "Dit om de kwaliteit van de zorg te verbeteren.",
+    "ac_code": "GGBB-LB-BI",
+    "ac_short": "gemeente - gelijkblijvend beleid - leven en beleven -bibliotheek",
+    "ac_long": "Commentaar:",
     "categories": [
-      "09-zorg-opvang"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 100000.0,
-    "amount_per_capita": 5.23,
+    "total_amount": 115000.0,
+    "amount_per_capita": 6.0,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 100000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 40000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 5.23,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 2.09,
+      "2027": 0.78,
+      "2028": 0.78,
+      "2029": 0.78,
+      "2030": 0.78,
+      "2031": 0.78
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEMEEN",
+    "ap_short": "gelijkblijvend beleid - gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GGBB-LB-WA",
+    "ac_short": "gemeente - gelijkblijvend beleid - leven en beleven - gbs Wauterbos",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 105000.0,
+    "amount_per_capita": 5.48,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.57,
+      "2027": 0.78,
+      "2028": 0.78,
+      "2029": 0.78,
+      "2030": 0.78,
+      "2031": 0.78
     }
   },
   {
@@ -1001,7 +1341,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 5.23,
+    "amount_per_capita": 5.22,
     "yearly_amounts": {
       "2026": 16625.0,
       "2027": 16675.0,
@@ -1022,6 +1362,74 @@
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
+    "bd_code": "17",
+    "bd_short": "Sint-Genesius-Rode wordt een dementievriendelijke gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "17.02",
+    "ap_short": "We ontwikkelen een visie voor mensen met dementie binnen het woonzorgcentrum",
+    "ap_long": "Commentaar:",
+    "ac_code": "17.02.03",
+    "ac_short": "Inzetten op elektronische middelen zoals een nachtbewakingssysteem",
+    "ac_long": "Dit om de kwaliteit van de zorg te verbeteren.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 5.22,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 5.22,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-GEMEEN",
+    "ap_short": "gelijkblijvend beleid - gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GGBB-LB-VR",
+    "ac_short": "gemeente - gelijkblijvend beleid - leven en beleven - gbs Vredelaan",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 4.7,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.78,
+      "2027": 0.78,
+      "2028": 0.78,
+      "2029": 0.78,
+      "2030": 0.78,
+      "2031": 0.78
+    }
+  },
+  {
+    "municipality": "Sint-Genesius-Rode",
+    "nis_code": "23101",
     "bd_code": "03",
     "bd_short": "Sint-Genesius-Rode versterkt band tussen burger & bestuur door actieve communicatie & participatie",
     "bd_long": "Commentaar:",
@@ -1035,7 +1443,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 80000.0,
-    "amount_per_capita": 4.18,
+    "amount_per_capita": 4.17,
     "yearly_amounts": {
       "2026": 40000.0,
       "2027": 40000.0,
@@ -1069,7 +1477,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 75000.0,
-    "amount_per_capita": 3.92,
+    "amount_per_capita": 3.91,
     "yearly_amounts": {
       "2026": 0,
       "2027": 37500.0,
@@ -1090,14 +1498,14 @@
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
-    "bd_code": "09",
-    "bd_short": "Sint-Genesius-Rode stimuleert sport en beweging voor alle inwoners",
+    "bd_code": "01",
+    "bd_short": "Sint-Genesius-Rode bouwt aan een efficiënte, betrouwbare en doelgerichte administratie",
     "bd_long": "Commentaar:",
-    "ap_code": "09.02",
-    "ap_short": "We verbeteren de infrastructuur",
+    "ap_code": "01.03",
+    "ap_short": "We digitaliseren processen om efficiënter te werken en de dienstverlening te verbeteren",
     "ap_long": "Commentaar:",
-    "ac_code": "09.02.05",
-    "ac_short": "Voorzien van podiuminfrastuctuur in het cultureel centrum",
+    "ac_code": "01.03.04",
+    "ac_short": "Opstarten selfscanning in de bibliotheek in functie van verbeterde dienstverlening door personeel",
     "ac_long": "Commentaar:",
     "categories": [
       "07-cultuur-vrije-tijd"
@@ -1124,14 +1532,14 @@
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
-    "bd_code": "01",
-    "bd_short": "Sint-Genesius-Rode bouwt aan een efficiënte, betrouwbare en doelgerichte administratie",
+    "bd_code": "09",
+    "bd_short": "Sint-Genesius-Rode stimuleert sport en beweging voor alle inwoners",
     "bd_long": "Commentaar:",
-    "ap_code": "01.03",
-    "ap_short": "We digitaliseren processen om efficiënter te werken en de dienstverlening te verbeteren",
+    "ap_code": "09.02",
+    "ap_short": "We verbeteren de infrastructuur",
     "ap_long": "Commentaar:",
-    "ac_code": "01.03.04",
-    "ac_short": "Opstarten selfscanning in de bibliotheek in functie van verbeterde dienstverlening door personeel",
+    "ac_code": "09.02.05",
+    "ac_short": "Voorzien van podiuminfrastuctuur in het cultureel centrum",
     "ac_long": "Commentaar:",
     "categories": [
       "07-cultuur-vrije-tijd"
@@ -1205,7 +1613,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 25000.0,
-    "amount_per_capita": 1.31,
+    "amount_per_capita": 1.3,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 0,
@@ -1215,7 +1623,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.31,
+      "2026": 1.3,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1226,35 +1634,35 @@
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
-    "bd_code": "20",
-    "bd_short": "Sint-Genesius-Rode stimuleert buurthulp als noodzakelijke schakel in nabije en warme zorg",
+    "bd_code": "03",
+    "bd_short": "Sint-Genesius-Rode versterkt band tussen burger & bestuur door actieve communicatie & participatie",
     "bd_long": "Commentaar:",
-    "ap_code": "20.01",
-    "ap_short": "We ondersteunen buurtgerichte wijkinitiatieven die op wijkniveau zorgvragers ondersteunen",
-    "ap_long": "Via een subsidieoproep ondersteunen we buurtgerichte wijkinitiatieven die op wijkniveau zorgvragers ondersteunen via aanwezigheid, klusjes, transport, ...",
-    "ac_code": "20.01.04",
-    "ac_short": "Aankoop van een bijkomende Riksja fiets voor vrijwilligers",
+    "ap_code": "03.03",
+    "ap_short": "We ontwikkelen een sterker onthaal",
+    "ap_long": "Commentaar:",
+    "ac_code": "03.03.02",
+    "ac_short": "Opzetten van een centrale onthaalfunctie binnen het gemeentehuis met uniforme signalisatie",
     "ac_long": "Commentaar:",
     "categories": [
-      "09-zorg-opvang"
+      "01-algemeen-bestuur"
     ],
     "total_amount": 15000.0,
     "amount_per_capita": 0.78,
     "yearly_amounts": {
-      "2026": 15000.0,
+      "2026": 0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 0
+      "2031": 15000.0
     },
     "yearly_per_capita": {
-      "2026": 0.78,
+      "2026": 0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 0
+      "2031": 0.78
     }
   },
   {
@@ -1294,35 +1702,35 @@
   {
     "municipality": "Sint-Genesius-Rode",
     "nis_code": "23101",
-    "bd_code": "03",
-    "bd_short": "Sint-Genesius-Rode versterkt band tussen burger & bestuur door actieve communicatie & participatie",
+    "bd_code": "20",
+    "bd_short": "Sint-Genesius-Rode stimuleert buurthulp als noodzakelijke schakel in nabije en warme zorg",
     "bd_long": "Commentaar:",
-    "ap_code": "03.03",
-    "ap_short": "We ontwikkelen een sterker onthaal",
-    "ap_long": "Commentaar:",
-    "ac_code": "03.03.02",
-    "ac_short": "Opzetten van een centrale onthaalfunctie binnen het gemeentehuis met uniforme signalisatie",
+    "ap_code": "20.01",
+    "ap_short": "We ondersteunen buurtgerichte wijkinitiatieven die op wijkniveau zorgvragers ondersteunen",
+    "ap_long": "Via een subsidieoproep ondersteunen we buurtgerichte wijkinitiatieven die op wijkniveau zorgvragers ondersteunen via aanwezigheid, klusjes, transport, ...",
+    "ac_code": "20.01.04",
+    "ac_short": "Aankoop van een bijkomende Riksja fiets voor vrijwilligers",
     "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "09-zorg-opvang"
     ],
     "total_amount": 15000.0,
     "amount_per_capita": 0.78,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 15000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 15000.0
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.78,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 0.78
+      "2031": 0
     }
   },
   {

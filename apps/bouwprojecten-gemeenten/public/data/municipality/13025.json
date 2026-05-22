@@ -2,35 +2,2313 @@
   {
     "municipality": "Mol",
     "nis_code": "13025",
-    "bd_code": "BDS",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/10",
+    "ap_short": "Afdeling Gebouwen",
+    "ap_long": "Afdeling Gebouwen",
+    "ac_code": "AP 5/10_5/10/8",
+    "ac_short": "Kwaliteit, comfort en veiligheid gebouwen",
+    "ac_long": "We investeren in de kwaliteit, het comfort en de veiligheid van onze gebouwen.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 17628118.67,
+    "amount_per_capita": 448.05,
+    "yearly_amounts": {
+      "2026": 4652170.73,
+      "2027": 2279000.0,
+      "2028": 2014229.5,
+      "2029": 3081162.47,
+      "2030": 3561180.97,
+      "2031": 2040375.0
+    },
+    "yearly_per_capita": {
+      "2026": 118.24,
+      "2027": 57.92,
+      "2028": 51.2,
+      "2029": 78.31,
+      "2030": 90.51,
+      "2031": 51.86
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 10",
+    "bd_short": "BDS 2: Een levendig, ondernemend en aantrekkelijk Mol",
+    "bd_long": "Een levendig, ondernemend en aantrekkelijk Mol",
+    "ap_code": "AP 2/1",
+    "ap_short": "Vrije tijd voor iedereen",
+    "ap_long": "We ondersteunen sport- en jeugdverenigingen én investeren in open ruimte voor ontmoeting en spel.",
+    "ac_code": "AP 2/1_2/1/3",
+    "ac_short": "Duurzame, gedeelde en toekomstgerichte sportsite Donk",
+    "ac_long": "We realiseren de herontwikkeling van de sportsite Donk tot een duurzame, gedeelde en toekomstgerichte sportomgeving, in samenwerking met sportclubs en met aandacht voor asbestsanering, ontharding, waterbuffering en groen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 12710255.45,
+    "amount_per_capita": 323.05,
+    "yearly_amounts": {
+      "2026": 3870255.45,
+      "2027": 4840000.0,
+      "2028": 4000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 98.37,
+      "2027": 123.02,
+      "2028": 101.67,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/17",
+    "ac_short": "Hedendaagse inrichting van verkeersinfrastructuur",
+    "ac_long": "De inrichting van onze verkeersinfrastructuur beantwoordt aan de hedendaagse noden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 10473919.23,
+    "amount_per_capita": 266.21,
+    "yearly_amounts": {
+      "2026": 2142019.23,
+      "2027": 982500.0,
+      "2028": 969000.0,
+      "2029": 1505500.0,
+      "2030": 2443100.0,
+      "2031": 2431800.0
+    },
+    "yearly_per_capita": {
+      "2026": 54.44,
+      "2027": 24.97,
+      "2028": 24.63,
+      "2029": 38.26,
+      "2030": 62.1,
+      "2031": 61.81
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 12",
+    "bd_short": "BDS 4: Groen, duurzaam en klaar voor morgen",
+    "bd_long": "Groen, duurzaam en klaar voor morgen",
+    "ap_code": "AP 4/1",
+    "ap_short": "Duurzame energie, vergroening en klimaat",
+    "ap_long": "We zetten concrete stappen naar een koolstofarme gemeente. We vergroenen onze gemeente en versterken samen met inwoners de biodiversiteit.",
+    "ac_code": "AP 4/1_4/1/2",
+    "ac_short": "Energie-efficiënt en milieuvriendelijk wagenpark",
+    "ac_long": "We verduurzamen ons wagenpark en materieel door in te zetten op energie-efficiënte en milieuvriendelijke alternatieven.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 8062327.54,
+    "amount_per_capita": 204.92,
+    "yearly_amounts": {
+      "2026": 1575827.54,
+      "2027": 864800.0,
+      "2028": 882100.0,
+      "2029": 1564500.0,
+      "2030": 1543000.0,
+      "2031": 1632100.0
+    },
+    "yearly_per_capita": {
+      "2026": 40.05,
+      "2027": 21.98,
+      "2028": 22.42,
+      "2029": 39.76,
+      "2030": 39.22,
+      "2031": 41.48
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 10",
+    "bd_short": "BDS 2: Een levendig, ondernemend en aantrekkelijk Mol",
+    "bd_long": "Een levendig, ondernemend en aantrekkelijk Mol",
+    "ap_code": "AP 2/3",
+    "ap_short": "Mol bruist van cultuur, toerisme en verenigingen",
+    "ap_long": "We versterken cultuurbeleving en zetten onze troeven in de kijker.",
+    "ac_code": "AP 2/3_2/3/2",
+    "ac_short": "Kunstencampus De Zwaan",
+    "ac_long": "We ontwikkelen de Kunstencampus De Zwaan als bruisende plek voor kunst, onderwijs, creatie, ontmoeting en experiment.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 5740000.0,
+    "amount_per_capita": 145.89,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 240000.0,
+      "2028": 200000.0,
+      "2029": 0,
+      "2030": 500000.0,
+      "2031": 4800000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 6.1,
+      "2028": 5.08,
+      "2029": 0,
+      "2030": 12.71,
+      "2031": 122.0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 9",
     "bd_short": "BDS 1: Iedereen telt mee",
     "bd_long": "Iedereen tel meer: bouwen aan welzijn, ontmoeting en verbondenheid",
-    "ap_code": "AP",
+    "ap_code": "AP 1/1",
     "ap_short": "Krachtig sociaal beleid tegen armoede en uitsluiting",
     "ap_long": "We bouwen aan een sterke, toegankelijke en nabije hulpverlening die inzet op activering, inkomensondersteuning en het versterken van rechten. Met structurele samenwerkingen en outreachend werk ondersteunen we kwetsbare groepen en vergroten we hun zelfstandigheid en maatschappelijke deelname.",
-    "ac_code": "AP",
+    "ac_code": "AP 1/1_1/1/3",
     "ac_short": "Laagdrempelig Welzijnsonthaal in Welzijnshuis Ten Hove",
     "ac_long": "We bouwen het Welzijnshuis op de site Ten Hove: één centrale plek waar elke inwoner met een welzijnsvraag terechtkan, in nauwe samenwerking met welzijnspartners.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 104426347.0,
-    "amount_per_capita": 2664.88,
+    "total_amount": 5328000.0,
+    "amount_per_capita": 135.42,
     "yearly_amounts": {
-      "2026": 16958098.0,
-      "2027": 18894738.0,
-      "2028": 20768553.0,
-      "2029": 13190966.0,
-      "2030": 14402412.0,
-      "2031": 20211580.0
+      "2026": 0,
+      "2027": 1776000.0,
+      "2028": 3552000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 432.76,
-      "2027": 482.18,
-      "2028": 530.0,
-      "2029": 336.62,
-      "2030": 367.54,
-      "2031": 515.78
+      "2026": 0,
+      "2027": 45.14,
+      "2028": 90.28,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/10",
+    "ap_short": "Afdeling Gebouwen",
+    "ap_long": "Afdeling Gebouwen",
+    "ac_code": "AP 5/10_5/10/6",
+    "ac_short": "'t Getouw als duurzaam en energievriendelijk gebouw",
+    "ac_long": "We renoveren 't Getouw tot een duurzaam, energievriendelijk en toekomstbestendig gebouw.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 4263214.32,
+    "amount_per_capita": 108.36,
+    "yearly_amounts": {
+      "2026": 1263214.32,
+      "2027": 1000000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 2000000.0
+    },
+    "yearly_per_capita": {
+      "2026": 32.11,
+      "2027": 25.42,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 50.83
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 11",
+    "bd_short": "BDS 3: Veiligheid voorop",
+    "bd_long": "Veiligheid voorop: samen zorgen voor een veilige gemeente",
+    "ap_code": "AP 3/2",
+    "ap_short": "Slimme en veilige mobiliteit",
+    "ap_long": "We investeren in verkeersinfrastructuur die veiligheid, logica en duurzaamheid combineert.",
+    "ac_code": "AP 3/2_3/2/1",
+    "ac_short": "Spoor Oost: veiligheid, doorstroming en leefbaarheid",
+    "ac_long": "Met het oog op verkeersveiligheid voeren we het mobiliteitsproject Spoor Oost gefaseerd uit via een doordacht stappenplan, met onder meer vernieuwingen aan de Kapellestraat en het kasseigedeelte van de Rozenberg, het invoeren van éénrichtingsverkeer in de Leenhofstraat en het voorzien van verkeerslichten aan de spooroverweg Rozenberg in samenwerking met AWV.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3789061.45,
+    "amount_per_capita": 96.31,
+    "yearly_amounts": {
+      "2026": 309061.45,
+      "2027": 500000.0,
+      "2028": 1600000.0,
+      "2029": 300000.0,
+      "2030": 150000.0,
+      "2031": 930000.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.86,
+      "2027": 12.71,
+      "2028": 40.67,
+      "2029": 7.63,
+      "2030": 3.81,
+      "2031": 23.64
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 9",
+    "bd_short": "BDS 1: Iedereen telt mee",
+    "bd_long": "Iedereen tel meer: bouwen aan welzijn, ontmoeting en verbondenheid",
+    "ap_code": "AP 1/3",
+    "ap_short": "Iedereen telt mee",
+    "ap_long": "We bouwen aan een leeftijdsvriendelijke gemeente waar elke inwoner meetelt. We investeren in gelijke kansen en een sterk aanbod voor kinderen en jongeren, zetten in op een toekomstgerichte seniorenwerking en zorgen ervoor dat ook mensen met een beperking hun plek vinden. We creëren ruimte voor ontmoeting, ondersteuning en participatie, op maat van elke levensfase.",
+    "ac_code": "AP 1/3_1/3/3",
+    "ac_short": "Een jeugdhuis, met Overkop-huis en buitenruimte",
+    "ac_long": "We bouwen een nieuw jeugdhuis met een aantrekkelijk ingerichte buitenruimte, waar ook een regionaal OverKop-huis een plek krijgt. Jongeren vinden er ruimte voor ontmoeting, vrije tijd en laagdrempelige ondersteuning.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3580000.0,
+    "amount_per_capita": 90.99,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1000000.0,
+      "2029": 1730000.0,
+      "2030": 850000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25.42,
+      "2029": 43.97,
+      "2030": 21.6,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 12",
+    "bd_short": "BDS 4: Groen, duurzaam en klaar voor morgen",
+    "bd_long": "Groen, duurzaam en klaar voor morgen",
+    "ap_code": "AP 4/1",
+    "ap_short": "Duurzame energie, vergroening en klimaat",
+    "ap_long": "We zetten concrete stappen naar een koolstofarme gemeente. We vergroenen onze gemeente en versterken samen met inwoners de biodiversiteit.",
+    "ac_code": "AP 4/1_4/1/1",
+    "ac_short": "Duurzame energietransitie met aandacht voor energiearmoede",
+    "ac_long": "We zetten in op een duurzame energietransitie door energiebesparing, hernieuwbare technieken en aandacht voor energiearmoede.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 3113022.54,
+    "amount_per_capita": 79.12,
+    "yearly_amounts": {
+      "2026": 677922.54,
+      "2027": 520500.0,
+      "2028": 531200.0,
+      "2029": 462200.0,
+      "2030": 423500.0,
+      "2031": 497700.0
+    },
+    "yearly_per_capita": {
+      "2026": 17.23,
+      "2027": 13.23,
+      "2028": 13.5,
+      "2029": 11.75,
+      "2030": 10.76,
+      "2031": 12.65
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 10",
+    "bd_short": "BDS 2: Een levendig, ondernemend en aantrekkelijk Mol",
+    "bd_long": "Een levendig, ondernemend en aantrekkelijk Mol",
+    "ap_code": "AP 2/3",
+    "ap_short": "Mol bruist van cultuur, toerisme en verenigingen",
+    "ap_long": "We versterken cultuurbeleving en zetten onze troeven in de kijker.",
+    "ac_code": "AP 2/3_2/3/3",
+    "ac_short": "Financiële steun voor verenigingen",
+    "ac_long": "We ondersteunen verenigingen financieel met renteloze leningen, nominatieve, werkings- en investeringssubsidies, en maken het aanvragen ervan eenvoudiger en toegankelijker.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3092436.02,
+    "amount_per_capita": 78.6,
+    "yearly_amounts": {
+      "2026": 992436.02,
+      "2027": 740000.0,
+      "2028": 340000.0,
+      "2029": 340000.0,
+      "2030": 340000.0,
+      "2031": 340000.0
+    },
+    "yearly_per_capita": {
+      "2026": 25.22,
+      "2027": 18.81,
+      "2028": 8.64,
+      "2029": 8.64,
+      "2030": 8.64,
+      "2031": 8.64
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 11",
+    "bd_short": "BDS 3: Veiligheid voorop",
+    "bd_long": "Veiligheid voorop: samen zorgen voor een veilige gemeente",
+    "ap_code": "AP 3/3",
+    "ap_short": "Integrale veiligheid in de gemeente",
+    "ap_long": "We werken aan een veilig Mol via preventie, infrastructuur en samenwerking.",
+    "ac_code": "AP 3/3_3/3/1",
+    "ac_short": "Veiligheidsbeleid voor een veilige en leefbare gemeente",
+    "ac_long": "We investeren in een veilige en leefbare gemeente via een geïntegreerd veiligheidsbeleid: kwalitatieve uitrusting voor onze politiediensten, de versterking van het lokaal overlastteam en het wijkondersteuningsteam, een vernieuwd GAS-reglement, structureel overleg tussen verschillende gemeentediensten en de politiezone een doordacht informatietraject rond BIN-systemen in onze gehuchten én onderzoek naar ondermijnende criminaliteit.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 3053299.43,
+    "amount_per_capita": 77.6,
+    "yearly_amounts": {
+      "2026": 788795.63,
+      "2027": 511204.4,
+      "2028": 401660.6,
+      "2029": 466908.0,
+      "2030": 453738.8,
+      "2031": 430992.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.05,
+      "2027": 12.99,
+      "2028": 10.21,
+      "2029": 11.87,
+      "2030": 11.53,
+      "2031": 10.95
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/16",
+    "ap_short": "Afdeling Financiën",
+    "ap_long": "Afdeling Financiën",
+    "ac_code": "AP 5/16_5/16/3",
+    "ac_short": "Financieel beheer",
+    "ac_long": "We beheren onze financiële uitgaven.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 2759380.31,
+    "amount_per_capita": 70.13,
+    "yearly_amounts": {
+      "2026": 382120.31,
+      "2027": 461679.0,
+      "2028": 468463.0,
+      "2029": 475326.0,
+      "2030": 482326.0,
+      "2031": 489466.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.71,
+      "2027": 11.73,
+      "2028": 11.91,
+      "2029": 12.08,
+      "2030": 12.26,
+      "2031": 12.44
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/16",
+    "ap_short": "Afdeling Financiën",
+    "ap_long": "Afdeling Financiën",
+    "ac_code": "AP 5/16_5/16/2",
+    "ac_short": "thesauriebeheer",
+    "ac_long": "We beheren onze thesaurie.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 2184149.88,
+    "amount_per_capita": 55.51,
+    "yearly_amounts": {
+      "2026": 585044.34,
+      "2027": 585395.56,
+      "2028": 581307.32,
+      "2029": 42127.3,
+      "2030": 41277.29,
+      "2031": 348998.07
+    },
+    "yearly_per_capita": {
+      "2026": 14.87,
+      "2027": 14.88,
+      "2028": 14.77,
+      "2029": 1.07,
+      "2030": 1.05,
+      "2031": 8.87
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/23",
+    "ac_short": "Egelsvennen: duurzame en verbonden woonwijk",
+    "ac_long": "Samen met de sociale huisvestingsmaatschappij maken we van Egelsvennen opnieuw een duurzame en verbonden woonwijk: zij renoveren de woningen, wij vernieuwen het openbaar domein volgens het masterplan.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 50.83,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 2000000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 50.83
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/18",
+    "ap_short": "Afdeling ICT",
+    "ap_long": "Afdeling ICT",
+    "ac_code": "AP 5/18_5/18/1",
+    "ac_short": "ICT-netwerk",
+    "ac_long": "We zorgen voor een stabiele en performante ICT-netwerk en server omgeving.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1837600.0,
+    "amount_per_capita": 46.71,
+    "yearly_amounts": {
+      "2026": 234000.0,
+      "2027": 181300.0,
+      "2028": 508800.0,
+      "2029": 526500.0,
+      "2030": 254400.0,
+      "2031": 132600.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.95,
+      "2027": 4.61,
+      "2028": 12.93,
+      "2029": 13.38,
+      "2030": 6.47,
+      "2031": 3.37
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/28",
+    "ac_short": "Duurzame fietsverbinding Heipad",
+    "ac_long": "We vernieuwen het huidige Heipad als duurzame fietsverbinding van en naar Heidehuizen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1617400.0,
+    "amount_per_capita": 41.11,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 450000.0,
+      "2030": 1167400.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 11.44,
+      "2030": 29.67,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/15",
+    "ap_short": "Afdeling Personeel en bestuurszaken",
+    "ap_long": "Afdeling Personeel en bestuurszaken",
+    "ac_code": "AP 5/15_5/15/4",
+    "ac_short": "Inrichten gemeentelijk leerplichtonderwijs",
+    "ac_long": "We richten kwaliteitsvol gemeentelijk leerplichtonderwijs in.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 1542939.29,
+    "amount_per_capita": 39.22,
+    "yearly_amounts": {
+      "2026": 461807.29,
+      "2027": 203706.75,
+      "2028": 209784.25,
+      "2029": 216027.5,
+      "2030": 222491.75,
+      "2031": 229121.75
+    },
+    "yearly_per_capita": {
+      "2026": 11.74,
+      "2027": 5.18,
+      "2028": 5.33,
+      "2029": 5.49,
+      "2030": 5.66,
+      "2031": 5.82
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/27",
+    "ac_short": "Fase III van rioleringsproject Wezel",
+    "ac_long": "We realiseren een nieuwe fase van het rioleringsproject in Wezel (III) en voorzien hierdoor het volledige gehucht stapsgewijs van een duurzaam gescheiden rioolstelsel.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1522121.63,
+    "amount_per_capita": 38.69,
+    "yearly_amounts": {
+      "2026": 322121.63,
+      "2027": 0,
+      "2028": 1200000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.19,
+      "2027": 0,
+      "2028": 30.5,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/12",
+    "ap_short": "Afdeling Ruimtelijke ordening",
+    "ap_long": "Afdeling Ruimtelijke ordening",
+    "ac_code": "AP 5/12_5/12/1",
+    "ac_short": "Een performant vergunningenbeleid",
+    "ac_long": "We voeren een performant vergunningenbeleid en handhaven dit.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1377779.98,
+    "amount_per_capita": 35.02,
+    "yearly_amounts": {
+      "2026": 224999.98,
+      "2027": 200000.0,
+      "2028": 200000.0,
+      "2029": 200000.0,
+      "2030": 200000.0,
+      "2031": 352780.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.72,
+      "2027": 5.08,
+      "2028": 5.08,
+      "2029": 5.08,
+      "2030": 5.08,
+      "2031": 8.97
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/18",
+    "ap_short": "Afdeling ICT",
+    "ap_long": "Afdeling ICT",
+    "ac_code": "AP 5/18_5/18/2",
+    "ac_short": "ICT-middelen.",
+    "ac_long": "We voorzien onze medewerkers van gepaste ICT-middelen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1026207.0,
+    "amount_per_capita": 26.08,
+    "yearly_amounts": {
+      "2026": 259347.0,
+      "2027": 198510.0,
+      "2028": 121225.0,
+      "2029": 89150.0,
+      "2030": 177275.0,
+      "2031": 180700.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.59,
+      "2027": 5.05,
+      "2028": 3.08,
+      "2029": 2.27,
+      "2030": 4.51,
+      "2031": 4.59
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/17",
+    "ap_short": "Afdeling Communicatie, dienstverlening en toerisme",
+    "ap_long": "Afdeling Communicatie, dienstverlening en toerisme",
+    "ac_code": "AP 5/17_5/17/3",
+    "ac_short": "Toeristische producten",
+    "ac_long": "WWe ontwikkelen, onderhouden en verkopen onze toeristische producten, zowel het tijdelijk als het permanent aanbod.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 993455.86,
+    "amount_per_capita": 25.25,
+    "yearly_amounts": {
+      "2026": 551550.86,
+      "2027": 325710.0,
+      "2028": 35720.0,
+      "2029": 26730.0,
+      "2030": 27325.0,
+      "2031": 26420.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.02,
+      "2027": 8.28,
+      "2028": 0.91,
+      "2029": 0.68,
+      "2030": 0.69,
+      "2031": 0.67
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/4",
+    "ac_short": "Bijenvriendelijk onderhoud en vernieuwing gemeentelijk groen",
+    "ac_long": "Het onderhoud en de vernieuwing van de gemeentelijke groenvoorzieningen gebeurt op een onderhoudsvriendelijke, ecologische en bijenvriendelijke manier.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 904074.66,
+    "amount_per_capita": 22.98,
+    "yearly_amounts": {
+      "2026": 185358.72,
+      "2027": 127151.0,
+      "2028": 123901.1,
+      "2029": 203219.72,
+      "2030": 130037.8,
+      "2031": 134406.32
+    },
+    "yearly_per_capita": {
+      "2026": 4.71,
+      "2027": 3.23,
+      "2028": 3.15,
+      "2029": 5.17,
+      "2030": 3.31,
+      "2031": 3.42
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/24",
+    "ac_short": "Heraanleg Hofstede met een vlotte en veilige West-circulatie",
+    "ac_long": "We leggen Hofstede opnieuw aan met veilige fietspaden, een gescheiden rioleringsstelsel en een heringericht kruispunt met de Nijverheidsstraat, voor een vlotte en veilige West-circulatie rond het Centrum.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 901200.0,
+    "amount_per_capita": 22.91,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 650000.0,
+      "2028": 251200.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 16.52,
+      "2028": 6.38,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 11",
+    "bd_short": "BDS 3: Veiligheid voorop",
+    "bd_long": "Veiligheid voorop: samen zorgen voor een veilige gemeente",
+    "ap_code": "AP 3/2",
+    "ap_short": "Slimme en veilige mobiliteit",
+    "ap_long": "We investeren in verkeersinfrastructuur die veiligheid, logica en duurzaamheid combineert.",
+    "ac_code": "AP 3/2_3/2/2",
+    "ac_short": "Hangarstraat: Veilige fietsschakel",
+    "ac_long": "We vernieuwen de Hangarstraat met bijzondere aandacht voor een veilig, comfortabel en logisch traject van de fietsostrade, zodat fietsen een vlotte en aantrekkelijke keuze wordt.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 785486.05,
+    "amount_per_capita": 19.96,
+    "yearly_amounts": {
+      "2026": 450486.05,
+      "2027": 335000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.45,
+      "2027": 8.51,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/13",
+    "ap_short": "Afdeling Facilitaire ondersteuning",
+    "ap_long": "Afdeling Facilitaire ondersteuning",
+    "ac_code": "AP 5/13_5/13/3",
+    "ac_short": "Aankoop technische benodigdheden",
+    "ac_long": "We kopen materialen en technische benodigdheden.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 769900.71,
+    "amount_per_capita": 19.57,
+    "yearly_amounts": {
+      "2026": 246600.71,
+      "2027": 98800.0,
+      "2028": 101600.0,
+      "2029": 104600.0,
+      "2030": 107600.0,
+      "2031": 110700.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.27,
+      "2027": 2.51,
+      "2028": 2.58,
+      "2029": 2.66,
+      "2030": 2.73,
+      "2031": 2.81
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/15",
+    "ap_short": "Afdeling Personeel en bestuurszaken",
+    "ap_long": "Afdeling Personeel en bestuurszaken",
+    "ac_code": "AP 5/15_5/15/5",
+    "ac_short": "Inrichten gemeentelijk deeltijds kunstonderwijs",
+    "ac_long": "We richten kwaliteitsvol deeltijds kunstonderwijs in.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 733025.9,
+    "amount_per_capita": 18.63,
+    "yearly_amounts": {
+      "2026": 150877.9,
+      "2027": 109688.25,
+      "2028": 112960.75,
+      "2029": 116322.5,
+      "2030": 119803.25,
+      "2031": 123373.25
+    },
+    "yearly_per_capita": {
+      "2026": 3.83,
+      "2027": 2.79,
+      "2028": 2.87,
+      "2029": 2.96,
+      "2030": 3.05,
+      "2031": 3.14
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/17",
+    "ap_short": "Afdeling Communicatie, dienstverlening en toerisme",
+    "ap_long": "Afdeling Communicatie, dienstverlening en toerisme",
+    "ac_code": "AP 5/17_5/17/4",
+    "ac_short": "Toeristische marketing",
+    "ac_long": "We zetten Visit Mol via online en offline marketing op de kaart als toeristische trekpleister.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 706546.24,
+    "amount_per_capita": 17.96,
+    "yearly_amounts": {
+      "2026": 124046.24,
+      "2027": 86500.0,
+      "2028": 236500.0,
+      "2029": 86500.0,
+      "2030": 86500.0,
+      "2031": 86500.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.15,
+      "2027": 2.2,
+      "2028": 6.01,
+      "2029": 2.2,
+      "2030": 2.2,
+      "2031": 2.2
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/3",
+    "ap_short": "Afdeling Senioren en woonzorgcentrum Ten Hove",
+    "ap_long": "Afdeling Senioren en woonzorgcentrum Ten Hove",
+    "ac_code": "AP 5/3_5/3/1",
+    "ac_short": "Woonzorgcentrum",
+    "ac_long": "We organiseren een woonzorgcentrum voor 132 bewoners.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 614975.0,
+    "amount_per_capita": 15.63,
+    "yearly_amounts": {
+      "2026": 236000.0,
+      "2027": 116825.0,
+      "2028": 57925.0,
+      "2029": 111075.0,
+      "2030": 61325.0,
+      "2031": 31825.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.0,
+      "2027": 2.97,
+      "2028": 1.47,
+      "2029": 2.82,
+      "2030": 1.56,
+      "2031": 0.81
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/13",
+    "ac_short": "Net en veilig openbaar domein",
+    "ac_long": "We staan in voor de netheid en de veiligheid van het openbaar domein.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 597406.02,
+    "amount_per_capita": 15.18,
+    "yearly_amounts": {
+      "2026": 111192.02,
+      "2027": 90550.0,
+      "2028": 93176.5,
+      "2029": 96479.5,
+      "2030": 99467.5,
+      "2031": 106540.5
+    },
+    "yearly_per_capita": {
+      "2026": 2.83,
+      "2027": 2.3,
+      "2028": 2.37,
+      "2029": 2.45,
+      "2030": 2.53,
+      "2031": 2.71
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/7",
+    "ap_short": "Afdeling Cultuur",
+    "ap_long": "Afdeling Cultuur",
+    "ac_code": "AP 5/7_5/7/8",
+    "ac_short": "Efficiënt beheer van de EVA vzw cultuur Mol.",
+    "ac_long": "We optimaliseren de werking van de EVA vzw Cultuurcentrum Mol.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 558969.73,
+    "amount_per_capita": 14.21,
+    "yearly_amounts": {
+      "2026": 71517.23,
+      "2027": 29060.0,
+      "2028": 115825.0,
+      "2029": 82400.0,
+      "2030": 118790.0,
+      "2031": 141377.5
+    },
+    "yearly_per_capita": {
+      "2026": 1.82,
+      "2027": 0.74,
+      "2028": 2.94,
+      "2029": 2.09,
+      "2030": 3.02,
+      "2031": 3.59
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 10",
+    "bd_short": "BDS 2: Een levendig, ondernemend en aantrekkelijk Mol",
+    "bd_long": "Een levendig, ondernemend en aantrekkelijk Mol",
+    "ap_code": "AP 2/1",
+    "ap_short": "Vrije tijd voor iedereen",
+    "ap_long": "We ondersteunen sport- en jeugdverenigingen én investeren in open ruimte voor ontmoeting en spel.",
+    "ac_code": "AP 2/1_2/1/1",
+    "ac_short": "Vrij toegankelijke speel- en sportplekken",
+    "ac_long": "We investeren in bestaande en nieuwe vrij toegankelijke speel- en sportplekken, zodat er voldoende ruimte is waar kinderen en jongeren spontaan kunnen spelen, sporten en elkaar ontmoeten.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 549100.0,
+    "amount_per_capita": 13.96,
+    "yearly_amounts": {
+      "2026": 85000.0,
+      "2027": 87550.0,
+      "2028": 90100.0,
+      "2029": 92735.0,
+      "2030": 95455.0,
+      "2031": 98260.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.16,
+      "2027": 2.23,
+      "2028": 2.29,
+      "2029": 2.36,
+      "2030": 2.43,
+      "2031": 2.5
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/6",
+    "ac_short": "Beleid begraafplaatsen",
+    "ac_long": "Het beleid van de begraafplaatsen wordt op een doordachte manier uitgevoerd.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 536103.2,
+    "amount_per_capita": 13.63,
+    "yearly_amounts": {
+      "2026": 159912.2,
+      "2027": 145790.0,
+      "2028": 85580.0,
+      "2029": 46880.0,
+      "2030": 48270.0,
+      "2031": 49671.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.06,
+      "2027": 3.71,
+      "2028": 2.18,
+      "2029": 1.19,
+      "2030": 1.23,
+      "2031": 1.26
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 9",
+    "bd_short": "BDS 1: Iedereen telt mee",
+    "bd_long": "Iedereen tel meer: bouwen aan welzijn, ontmoeting en verbondenheid",
+    "ap_code": "AP 1/2",
+    "ap_short": "Zorgzame en verbonden buurten",
+    "ap_long": "We brengen mensen en hulp samen in warme wijken en dorpen.",
+    "ac_code": "AP 1/2_1/2/5",
+    "ac_short": "Laagdrempelige infrastructuur voor ontmoeting",
+    "ac_long": "We ondersteunen en werken samen met partners die over infrastructuur beschikken om laagdrempelige ontmoeting mogelijk te maken.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 12.71,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.54,
+      "2028": 2.54,
+      "2029": 2.54,
+      "2030": 2.54,
+      "2031": 2.54
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/10",
+    "ap_short": "Afdeling Gebouwen",
+    "ap_long": "Afdeling Gebouwen",
+    "ac_code": "AP 5/10_5/10/7",
+    "ac_short": "Onderzoek centralisatie uitvoeringsdiensten",
+    "ac_long": "We onderzoeken de centralisatie van de uitvoeringsdiensten.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 478382.74,
+    "amount_per_capita": 12.16,
+    "yearly_amounts": {
+      "2026": 478382.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.16,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/13",
+    "ap_short": "Afdeling Facilitaire ondersteuning",
+    "ap_long": "Afdeling Facilitaire ondersteuning",
+    "ac_code": "AP 5/13_5/13/2",
+    "ac_short": "Beheer veiligheidsmateriaal voor medewerkers",
+    "ac_long": "We beheren de PBM's (persoonlijke beschermingsmaterialen) en EHBO-materiaal voor onze werklieden.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 465637.3,
+    "amount_per_capita": 11.83,
+    "yearly_amounts": {
+      "2026": 101437.3,
+      "2027": 67500.0,
+      "2028": 70100.0,
+      "2029": 72800.0,
+      "2030": 75500.0,
+      "2031": 78300.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.58,
+      "2027": 1.72,
+      "2028": 1.78,
+      "2029": 1.85,
+      "2030": 1.92,
+      "2031": 1.99
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 11",
+    "bd_short": "BDS 3: Veiligheid voorop",
+    "bd_long": "Veiligheid voorop: samen zorgen voor een veilige gemeente",
+    "ap_code": "AP 3/1",
+    "ap_short": "Verkeersveiligheid voor jong en oud",
+    "ap_long": "We kiezen voor veilige schoolomgevingen, trage wegen en buurten op mensenmaat.",
+    "ac_code": "AP 3/1_3/1/1",
+    "ac_short": "Verkeersveilige en kindvriendelijke schoolomgevingen",
+    "ac_long": "We maken elk jaar drie schoolomgevingen verkeersveilig en kindvriendelijk, in nauw overleg met scholen, ouders en buurtbewoners.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 459359.36,
+    "amount_per_capita": 11.68,
+    "yearly_amounts": {
+      "2026": 186812.86,
+      "2027": 126128.5,
+      "2028": 126315.5,
+      "2029": 6502.5,
+      "2030": 6698.0,
+      "2031": 6902.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.75,
+      "2027": 3.21,
+      "2028": 3.21,
+      "2029": 0.17,
+      "2030": 0.17,
+      "2031": 0.18
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/4",
+    "ap_short": "Afdeling Jeugd en sport",
+    "ap_long": "Afdeling Jeugd en sport",
+    "ac_code": "AP 5/4_5/4/7",
+    "ac_short": "Exploitatie sport- en jeugdinfrastructuur",
+    "ac_long": "We beheren en exploiteren onze sport- en jeugdinfrastructuur op een zo efficiënt mogelijke manier.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 309785.0,
+    "amount_per_capita": 7.87,
+    "yearly_amounts": {
+      "2026": 107400.0,
+      "2027": 38420.0,
+      "2028": 39440.0,
+      "2029": 40460.0,
+      "2030": 41480.0,
+      "2031": 42585.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.73,
+      "2027": 0.98,
+      "2028": 1.0,
+      "2029": 1.03,
+      "2030": 1.05,
+      "2031": 1.08
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/21",
+    "ac_short": "Ontmoetingsplek voor de kerk van Ginderbuiten",
+    "ac_long": "We maken van het plein voor de kerk van Ginderbuiten een groene, uitnodigende ontmoetingsplek.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 7.63,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 300000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 7.63,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 9",
+    "bd_short": "BDS 1: Iedereen telt mee",
+    "bd_long": "Iedereen tel meer: bouwen aan welzijn, ontmoeting en verbondenheid",
+    "ap_code": "AP 1/2",
+    "ap_short": "Zorgzame en verbonden buurten",
+    "ap_long": "We brengen mensen en hulp samen in warme wijken en dorpen.",
+    "ac_code": "AP 1/2_1/2/4",
+    "ac_short": "Een bankenplan voor rust, ontmoeting en verbondenheid",
+    "ac_long": "We werken een gedragen bankenplan uit dat op het openbaar domein inzet op rust, ontmoeting en verbondenheid, samen met inwoners.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 287555.0,
+    "amount_per_capita": 7.31,
+    "yearly_amounts": {
+      "2026": 102000.0,
+      "2027": 35020.0,
+      "2028": 36040.0,
+      "2029": 37060.0,
+      "2030": 38165.0,
+      "2031": 39270.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.59,
+      "2027": 0.89,
+      "2028": 0.92,
+      "2029": 0.94,
+      "2030": 0.97,
+      "2031": 1.0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/14",
+    "ac_short": "Uitleendienst met veilig en degelijk materiaal",
+    "ac_long": "We ondersteunen verenigingen en gemeentelijke diensten met een kwaliteitsvolle uitleendienst en breiden het aanbod uit met materialen die de veiligheid verhogen bij evenementen en activiteiten.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 260200.0,
+    "amount_per_capita": 6.61,
+    "yearly_amounts": {
+      "2026": 83230.0,
+      "2027": 32980.0,
+      "2028": 31620.0,
+      "2029": 31110.0,
+      "2030": 54315.0,
+      "2031": 26945.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.12,
+      "2027": 0.84,
+      "2028": 0.8,
+      "2029": 0.79,
+      "2030": 1.38,
+      "2031": 0.68
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/19",
+    "ap_short": "Afdeling Organisatieontwikkeling",
+    "ap_long": "Afdeling Organisatieontwikkeling",
+    "ac_code": "AP 5/19_5/19/2",
+    "ac_short": "Klimaatbestendige gemeente",
+    "ac_long": "We versterken het groen-blauwe netwerk en maken onze gemeente klimaatbestendiger via ontharding, ecologisch beheer en ondersteuning van vergroening op privé- en publiek domein.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 258736.39,
+    "amount_per_capita": 6.58,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 41200.0,
+      "2028": 42436.0,
+      "2029": 43709.08,
+      "2030": 45020.35,
+      "2031": 46370.96
+    },
+    "yearly_per_capita": {
+      "2026": 1.02,
+      "2027": 1.05,
+      "2028": 1.08,
+      "2029": 1.11,
+      "2030": 1.14,
+      "2031": 1.18
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 10",
+    "bd_short": "BDS 2: Een levendig, ondernemend en aantrekkelijk Mol",
+    "bd_long": "Een levendig, ondernemend en aantrekkelijk Mol",
+    "ap_code": "AP 2/1",
+    "ap_short": "Vrije tijd voor iedereen",
+    "ap_long": "We ondersteunen sport- en jeugdverenigingen én investeren in open ruimte voor ontmoeting en spel.",
+    "ac_code": "AP 2/1_2/1/2",
+    "ac_short": "Vereenvoudigde ondersteuning",
+    "ac_long": "We vereenvoudigen en verbeteren de ondersteuningsinitiatieven voor sport- en jeugdverenigingen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 243194.0,
+    "amount_per_capita": 6.18,
+    "yearly_amounts": {
+      "2026": 38894.0,
+      "2027": 38600.0,
+      "2028": 39700.0,
+      "2029": 40800.0,
+      "2030": 42000.0,
+      "2031": 43200.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.99,
+      "2027": 0.98,
+      "2028": 1.01,
+      "2029": 1.04,
+      "2030": 1.07,
+      "2031": 1.1
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/15",
+    "ap_short": "Afdeling Personeel en bestuurszaken",
+    "ap_long": "Afdeling Personeel en bestuurszaken",
+    "ac_code": "AP 5/15_5/15/2",
+    "ac_short": "Optimalisering informatiebeheer",
+    "ac_long": "We optimaliseren het informatiebeheer van het lokaal bestuur.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 5.08,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 200000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 5.08,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/14",
+    "ap_short": "Afdeling Staf ruimte",
+    "ap_long": "Afdeling Staf ruimte",
+    "ac_code": "AP 5/14_5/14/4",
+    "ac_short": "Aan- en verkoop van onroerende goederen.",
+    "ac_long": "Aan- en verkoop van onroerende goederen.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 176600.0,
+    "amount_per_capita": 4.49,
+    "yearly_amounts": {
+      "2026": 85000.0,
+      "2027": 21400.0,
+      "2028": 16800.0,
+      "2029": 17300.0,
+      "2030": 17800.0,
+      "2031": 18300.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.16,
+      "2027": 0.54,
+      "2028": 0.43,
+      "2029": 0.44,
+      "2030": 0.45,
+      "2031": 0.47
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/8",
+    "ac_short": "Actieve aanpak zwerfvuil en sluikstorten",
+    "ac_long": "We pakken zwerfvuil en sluikstorten actief aan en zetten het project met netheidsverantwoordelijken en verenigingen verder om samen werk te maken van een propere gemeente.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 3.81,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0.64,
+      "2028": 0.64,
+      "2029": 0.64,
+      "2030": 0.64,
+      "2031": 0.64
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/5",
+    "ac_short": "Groene ontmoetingsplaatsen voor alle leeftijden",
+    "ac_long": "In de wijken en gehuchten zijn er groene ontmoetingsplaatsen voor alle leeftijden.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 135255.99,
+    "amount_per_capita": 3.44,
+    "yearly_amounts": {
+      "2026": 66405.99,
+      "2027": 13090.0,
+      "2028": 13430.0,
+      "2029": 13770.0,
+      "2030": 14110.0,
+      "2031": 14450.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.69,
+      "2027": 0.33,
+      "2028": 0.34,
+      "2029": 0.35,
+      "2030": 0.36,
+      "2031": 0.37
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/17",
+    "ap_short": "Afdeling Communicatie, dienstverlening en toerisme",
+    "ap_long": "Afdeling Communicatie, dienstverlening en toerisme",
+    "ac_code": "AP 5/17_5/17/5",
+    "ac_short": "Geïntegreerde langetermijnvisie voor Postel",
+    "ac_long": "We werken aan een geïntegreerde langetermijnvisie voor Postel, waarbij we onze toeristische ambities verzoenen met mobiliteit, het dorpskarakter en economische ontwikkeling rond dit unieke abdijgehucht.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.54,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.27,
+      "2027": 0,
+      "2028": 1.27,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 9",
+    "bd_short": "BDS 1: Iedereen telt mee",
+    "bd_long": "Iedereen tel meer: bouwen aan welzijn, ontmoeting en verbondenheid",
+    "ap_code": "AP 1/3",
+    "ap_short": "Iedereen telt mee",
+    "ap_long": "We bouwen aan een leeftijdsvriendelijke gemeente waar elke inwoner meetelt. We investeren in gelijke kansen en een sterk aanbod voor kinderen en jongeren, zetten in op een toekomstgerichte seniorenwerking en zorgen ervoor dat ook mensen met een beperking hun plek vinden. We creëren ruimte voor ontmoeting, ondersteuning en participatie, op maat van elke levensfase.",
+    "ac_code": "AP 1/3_1/3/1",
+    "ac_short": "Kwalitatieve kinderopvang samen met partners",
+    "ac_long": "We voorzien conform het nieuwe BOA-decreet kwalitatieve opvang voor kinderen, in samenwerking met partners.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 2.29,
+    "yearly_amounts": {
+      "2026": 90000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.29,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/7",
+    "ap_short": "Afdeling Cultuur",
+    "ap_long": "Afdeling Cultuur",
+    "ac_code": "AP 5/7_5/7/5",
+    "ac_short": "Bovenlokale erkenning van Jakob Smitsmuseum",
+    "ac_long": "We streven naar een bovenlokale erkenning van het Jakob Smitsmuseum. Door verder te bouwen an de kwaliteit, uitstraling en werking, streven we naar een bovenlokale erkenning van het Jakob Smitsmuseum.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 75938.49,
+    "amount_per_capita": 1.93,
+    "yearly_amounts": {
+      "2026": 75938.49,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/10",
+    "ap_short": "Afdeling Gebouwen",
+    "ap_long": "Afdeling Gebouwen",
+    "ac_code": "AP 5/10_5/10/10",
+    "ac_short": "Propere OCMW gebouwen",
+    "ac_long": "We houden de OCMW gebouwen proper",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 66750.0,
+    "amount_per_capita": 1.7,
+    "yearly_amounts": {
+      "2026": 36250.0,
+      "2027": 5900.0,
+      "2028": 6000.0,
+      "2029": 6100.0,
+      "2030": 6200.0,
+      "2031": 6300.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.92,
+      "2027": 0.15,
+      "2028": 0.15,
+      "2029": 0.16,
+      "2030": 0.16,
+      "2031": 0.16
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/7",
+    "ap_short": "Afdeling Cultuur",
+    "ap_long": "Afdeling Cultuur",
+    "ac_code": "AP 5/7_5/7/7",
+    "ac_short": "Goed onderhouden cultuurinfrastructuur",
+    "ac_long": "We onderhouden onze cultuurinfrastructuur en voeren tijdig onderhoud en vervangingsinvesteringen uit.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 63492.5,
+    "amount_per_capita": 1.61,
+    "yearly_amounts": {
+      "2026": 45492.5,
+      "2027": 5000.0,
+      "2028": 0,
+      "2029": 13000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.16,
+      "2027": 0.13,
+      "2028": 0,
+      "2029": 0.33,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/7",
+    "ap_short": "Afdeling Cultuur",
+    "ap_long": "Afdeling Cultuur",
+    "ac_code": "AP 5/7_5/7/2",
+    "ac_short": "Hedendaags collectiebeleid en -beheer",
+    "ac_long": "We voeren een hedendaags collectiebeleid en staan in voor een goed collectiebeheer van al onze collecties en zorgen ervoor dat deze optimaal toegankelijk zijn voor een breed publiek.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 1.53,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 60000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.53,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/15",
+    "ac_short": "Goed onderhouden wegen, fiets- en voetpaden",
+    "ac_long": "We onderhouden onze wegen, fietspaden en voetpaden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 52074.09,
+    "amount_per_capita": 1.32,
+    "yearly_amounts": {
+      "2026": 37074.09,
+      "2027": 3000.0,
+      "2028": 3000.0,
+      "2029": 3000.0,
+      "2030": 3000.0,
+      "2031": 3000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.94,
+      "2027": 0.08,
+      "2028": 0.08,
+      "2029": 0.08,
+      "2030": 0.08,
+      "2031": 0.08
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/8",
+    "ap_short": "Afdeling Kinderopvang en Huis van het kind",
+    "ap_long": "Afdeling Kinderopvang en Huis van het kind",
+    "ac_code": "AP 5/8_5/8/5",
+    "ac_short": "Kwalitatieve buitenschoolse kinderopvang",
+    "ac_long": "We voorzien kwalitatieve kinderopvang voor kinderen, in aangepaste kindvriendelijke infrastructuur.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 49730.0,
+    "amount_per_capita": 1.26,
+    "yearly_amounts": {
+      "2026": 8590.0,
+      "2027": 9840.0,
+      "2028": 9600.0,
+      "2029": 9600.0,
+      "2030": 9600.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.22,
+      "2027": 0.25,
+      "2028": 0.24,
+      "2029": 0.24,
+      "2030": 0.24,
+      "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/6",
+    "ap_short": "Afdeling BalDeMoRe",
+    "ap_long": "Afdeling BalDeMoRe",
+    "ac_code": "AP 5/6_5/6/5",
+    "ac_short": "Faciliteren van regionale digitale inclusie",
+    "ac_long": "We coördineren, faciliteren en ondersteunen regionaal acties rond digitale inclusie.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 35627.03,
+    "amount_per_capita": 0.91,
+    "yearly_amounts": {
+      "2026": 35627.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.91,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/10",
+    "ap_short": "Afdeling Gebouwen",
+    "ap_long": "Afdeling Gebouwen",
+    "ac_code": "AP 5/10_5/10/9",
+    "ac_short": "Propere gemeentelijke gebouwen",
+    "ac_long": "We houden de gemeentelijke gebouwen proper.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 26369.71,
+    "amount_per_capita": 0.67,
+    "yearly_amounts": {
+      "2026": 26369.71,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.67,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/3",
+    "ac_short": "Werken aan natuurbehoud en -ontwikkeling",
+    "ac_long": "Samen met externe partners werken we aan natuurbehoud en - ontwikkeling.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 0.64,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.64,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/11",
+    "ap_short": "Afdeling Ondernemen",
+    "ap_long": "Afdeling Ondernemen",
+    "ac_code": "AP 5/11_5/11/4",
+    "ac_short": "Werking lokale economie",
+    "ac_long": "We ondersteunen de werking van de lokale economie.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 22250.0,
+    "amount_per_capita": 0.57,
+    "yearly_amounts": {
+      "2026": 3400.0,
+      "2027": 3500.0,
+      "2028": 3600.0,
+      "2029": 3700.0,
+      "2030": 3800.0,
+      "2031": 4250.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.09,
+      "2027": 0.09,
+      "2028": 0.09,
+      "2029": 0.09,
+      "2030": 0.1,
+      "2031": 0.11
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/15",
+    "ap_short": "Afdeling Personeel en bestuurszaken",
+    "ap_long": "Afdeling Personeel en bestuurszaken",
+    "ac_code": "AP 5/15_5/15/8",
+    "ac_short": "Inzetten op welzijn",
+    "ac_long": "We zetten in op het welzijn van onze medewerkers door het nemen van acties die hun fysiek en psychisch welbevinden, hun draagkracht en veerkracht vergroten.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 20348.39,
+    "amount_per_capita": 0.52,
+    "yearly_amounts": {
+      "2026": 20348.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/9",
+    "ap_short": "Afdeling Openbaar domein",
+    "ap_long": "Afdeling Openbaar domein",
+    "ac_code": "AP 5/9_5/9/10",
+    "ac_short": "Verkeerseducatief centrum",
+    "ac_long": "We ondersteunen de werking van het verkeerseducatief centrum zodat kinderen op een speelse en doeltreffende manier leren omgaan met verkeerssituaties en zich bewust worden van de gevaren op de weg.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 18000.0,
+    "amount_per_capita": 0.46,
+    "yearly_amounts": {
+      "2026": 8000.0,
+      "2027": 2000.0,
+      "2028": 2000.0,
+      "2029": 2000.0,
+      "2030": 2000.0,
+      "2031": 2000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.2,
+      "2027": 0.05,
+      "2028": 0.05,
+      "2029": 0.05,
+      "2030": 0.05,
+      "2031": 0.05
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/16",
+    "ap_short": "Afdeling Financiën",
+    "ap_long": "Afdeling Financiën",
+    "ac_code": "AP 5/16_5/16/4",
+    "ac_short": "Beheer administratieve facilitaire middelen",
+    "ac_long": "We beheren de administratieve facilitaire middelen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.38,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 3000.0,
+      "2028": 3000.0,
+      "2029": 3000.0,
+      "2030": 3000.0,
+      "2031": 3000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.08,
+      "2028": 0.08,
+      "2029": 0.08,
+      "2030": 0.08,
+      "2031": 0.08
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/3",
+    "ap_short": "Afdeling Senioren en woonzorgcentrum Ten Hove",
+    "ap_long": "Afdeling Senioren en woonzorgcentrum Ten Hove",
+    "ac_code": "AP 5/3_5/3/2",
+    "ac_short": "Serviceflats",
+    "ac_long": "We baten 89 serviceflats uit.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 10318.75,
+    "amount_per_capita": 0.26,
+    "yearly_amounts": {
+      "2026": 1500.0,
+      "2027": 2188.75,
+      "2028": 2210.0,
+      "2029": 2210.0,
+      "2030": 2210.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.04,
+      "2027": 0.06,
+      "2028": 0.06,
+      "2029": 0.06,
+      "2030": 0.06,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/2",
+    "ap_short": "Afdeling Staf mens en leven",
+    "ap_long": "Afdeling Staf mens en leven",
+    "ac_code": "AP 5/2_5/2/4",
+    "ac_short": "Versterken van wereldburgerschap",
+    "ac_long": "We versterken het wereldburgerschap door middel van onze engagementen in de stedenbanden en als Faire Gemeente, door onze samenwerking in de mondiale raad, én door initiatieven in samenwerking met diverse partners.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 8500.0,
+    "amount_per_capita": 0.22,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 4250.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 4250.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.11,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0.11,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/2",
+    "ap_short": "Afdeling Staf mens en leven",
+    "ap_long": "Afdeling Staf mens en leven",
+    "ac_code": "AP 5/2_5/2/5",
+    "ac_short": "Digitale vaardigheden versterken",
+    "ac_long": "We ondersteunen burgers in het versterken van hun digitale vaardigheden, teneinde op een veilige manier deel te kunnen nemen aan het digitale maatschappelijke leven.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 8062.89,
+    "amount_per_capita": 0.2,
+    "yearly_amounts": {
+      "2026": 3062.89,
+      "2027": 1000.0,
+      "2028": 1000.0,
+      "2029": 1000.0,
+      "2030": 1000.0,
+      "2031": 1000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.08,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/2",
+    "ap_short": "Afdeling Staf mens en leven",
+    "ap_long": "Afdeling Staf mens en leven",
+    "ac_code": "AP 5/2_5/2/3",
+    "ac_short": "Inclusieve samenleving",
+    "ac_long": "We dragen bij aan een inclusieve samenleving door nieuwe inwoners warm te onthalen, ontmoeting dialoog tussen verschillende bevolkingsgroepen te stimuleren, en door mensen en groepen handvaten te bieden in het omgaan met verschil.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 8000.0,
+    "amount_per_capita": 0.2,
+    "yearly_amounts": {
+      "2026": 2000.0,
+      "2027": 2000.0,
+      "2028": 1000.0,
+      "2029": 1000.0,
+      "2030": 1000.0,
+      "2031": 1000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.05,
+      "2027": 0.05,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 9",
+    "bd_short": "BDS 1: Iedereen telt mee",
+    "bd_long": "Iedereen tel meer: bouwen aan welzijn, ontmoeting en verbondenheid",
+    "ap_code": "AP 1/3",
+    "ap_short": "Iedereen telt mee",
+    "ap_long": "We bouwen aan een leeftijdsvriendelijke gemeente waar elke inwoner meetelt. We investeren in gelijke kansen en een sterk aanbod voor kinderen en jongeren, zetten in op een toekomstgerichte seniorenwerking en zorgen ervoor dat ook mensen met een beperking hun plek vinden. We creëren ruimte voor ontmoeting, ondersteuning en participatie, op maat van elke levensfase.",
+    "ac_code": "AP 1/3_1/3/4",
+    "ac_short": "Leeftijdsvriendelijke gemeente",
+    "ac_long": "We bouwen Mol verder uit als een leeftijdsvriendelijke, toegankelijke gemeente met een flexibele en toekomstgerichte seniorenwerking, die inspeelt op maatschappelijke evoluties en uitdagingen en vorm krijgt in co-creatie met burgers, medewerkers en partners.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 6000.0,
+    "amount_per_capita": 0.15,
+    "yearly_amounts": {
+      "2026": 1000.0,
+      "2027": 1000.0,
+      "2028": 1000.0,
+      "2029": 1000.0,
+      "2030": 1000.0,
+      "2031": 1000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0.03,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Mol",
+    "nis_code": "13025",
+    "bd_code": "BDS 13",
+    "bd_short": "BDS 5: Dichtbij, betrouwbaar en toekomstgericht",
+    "bd_long": "We zorgen voor een sterke, toegankelijke en betrouwbare gemeentelijke werking die luistert, verbindt en vooruitgaat",
+    "ap_code": "AP 5/2",
+    "ap_short": "Afdeling Staf mens en leven",
+    "ap_long": "Afdeling Staf mens en leven",
+    "ac_code": "AP 5/2_5/2/2",
+    "ac_short": "Behoud en hervorming UITPAS",
+    "ac_long": "We verlagen drempels om deel te nemen aan het socio - culturele en sportieve leven, door in te zetten op UiTPAS en Rap Op Stap, en door ondersteuning aan inwoners en organisatoren.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 4754.1,
+    "amount_per_capita": 0.12,
+    "yearly_amounts": {
+      "2026": 1254.1,
+      "2027": 500.0,
+      "2028": 1000.0,
+      "2029": 500.0,
+      "2030": 1000.0,
+      "2031": 500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0.01,
+      "2028": 0.03,
+      "2029": 0.01,
+      "2030": 0.03,
+      "2031": 0.01
     }
   }
 ]

@@ -2,69 +2,307 @@
   {
     "municipality": "Puurs-Sint-Amands",
     "nis_code": "12041",
+    "bd_code": "02.",
+    "bd_short": "Veilige, duurzame mobiliteitsinfrastructuur met verbeterde wegen, fietspaden, openbaar vervoer en pe",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands investeert in veilige, duurzame mobiliteitsinfrastructuur met verbeterde wegen, fietspaden, openbaar vervoer en een performant water- en rioleringsbeheer: We zetten actief in op duurzame mobiliteit via veilige fietsinfrastructuur, betere verbindingen en een doordacht mobiliteitsplan. Bovenlokale projecten volgen we nauw op om de bereikbaarheid en het openbaar vervoer te verbeteren. In samenwerking met Hidrorio vernieuwen en onderhouden we wegen, fietspaden, waterlopen en riolering. Zo bouwen we aan een veilige en goed bereikbare gemeente met toekomstgerichte infrastructuur.",
+    "ap_code": "02-02",
+    "ap_short": "Vernieuwen en onderhouden wegen, fietspaden, waterlopen en riolering, uitgevoerd i.s.m. HidroRio",
+    "ap_long": "Vernieuwen en onderhouden van wegen, fietspaden,  waterlopen en riolering, uitgevoerd in samenwerking met HidroRio. Het lokaal bestuur vernieuwt en onderhoudt wegen, fietspaden, waterlopen en riolering in nauwe samenwerking met Hidrorio. We voeren grootschalige infrastructuurprojecten uit in alle deelkernen, met aandacht voor verkeersveiligheid, klimaatbestendigheid en leefkwaliteit. Via studies, heraanleg en koppeling aan woonontwikkelingen realiseren we een toekomstgerichte publieke ruimte. Regelmatig onderhoud waarborgt de duurzaamheid van het wegennet.",
+    "ac_code": "G-02-0201",
+    "ac_short": "Uitvoeren weg- en rioleringsprojecten",
+    "ac_long": "De komende jaren staan er in verschillende deelgemeenten van Puurs-Sint-Amands heel wat infrastructurele projecten op de planning. Eerst en vooral voeren we verschillende riolerings- en wegeniswerken uit. Daarnaast bereiden we ook de toekomst voor door technische studies op te stellen en aanbestedingsdossiers voor te bereiden voor de heraanleg van straten en fietspaden in de volgende legislatuur. Ze dragen bij aan een betere leefomgeving, verhoogde verkeersveiligheid en een klimaatbestendige inrichting van de publieke ruimte. \nIn deze legislatuur staan volgende riolerings- en wegenwerken op de planning. In Breendonk vernieuwen we de Wachtingsstraat en de Zavelstraat. We pakken hierbij zowel de weg als riolering aan. In Liezele werken we het project in de Wolfstraat, Walsingen en Liezelebroek af. We voeren daarnaast fase twee van de heraanleg Liezele-Dorp uit. Naar het einde van de legislatuur pakken we de Achterheide en Overheide aan met een gescheiden rioleringsstelsel en nieuw wegdek. In Lippelo ondernemen we ingrepen aan de Dendermondsesteenweg en de Kasteeldreef. In Kalfort vernieuwen we de Haagstraat. In Oppuurs richten we de omgeving rond de jeugdsite in en realiseren we rioleringswerken, regenwaterbuffer en een nieuw voetpad in Nijvendries en (een deel van) de Voorststraat, en Kattestraat (Noord). De parking aan de Graanmolens vernieuwen en optimaliseren we. In Puurs vernieuwen we de Robert Verbelenstraat en de  A. Tersagostraat en pakken we ook het Beiaardhof grondig aan. In het centrum zetten we ontwikkeling van het Forum verder met fase twee: een ondergrondse parking en een groene ontmoetingsruimte die het kloppend hart van Puurs versterkt. In Ruisbroek pakken we de Nieuwstraat aan en verbeteren we de riolering aan de N16 tussen Pullaar en Schoonmansveld. In de Donkstraat bouwen we een nieuwe brug over de gebuisloop en bouwen we de site Familieheem uit tot een volwaardige woon- en leefplek.  In Sint-Amands voorzien we een nieuwe parking aan de Jan Van Droogenbroeckstraat en vernieuwen we de wegenis en riolering in de Keten, Pandgatheide en Oude Heirbaan.\nDaarnaast werken we in deze legislatuur ook aan de voorbereiding van toekomstige wegen- en rioleringswerken. Hiervoor maken we voorbereidende technische studies op en stellen we aanbestedingsdossiers op. \nIn Breendonk plannen we de vernieuwing van Hoogheide. In Liezele starten we de voorbereiding voor de Vincetstraat en de omgeving aan de kerk. In Oppuurs werken we de plannen uit voor fase 2 van Kattestraat Zuid en Meir. Voor Sint-Amands treffen we voorbereidingen voor Larendries, Dorekensstraat, Calleboutstraat, Boonhof, Valk, Hoekstraat en Kuitegemstraat. Daarnaast voeren we een technische studie uit voor de Kaai, Kaaimuur en de Oude Kerkstraat. In Puurs starten we de voorbereiding voor de Hof-ten-Berglaan en vergroenen we het Dorpshart, de Hoogstraat en het Kerkplein. Ook bekijken we de mogelijkheid om de Schutterhofstraat her in te richten als tuinstraat na het voltooien van het project oud gemeentehuis. In Lippelo hertekenen we Lippelodorp en de kerkomgeving. Ten slotte bereiden we de heraanleg van de Gansbroekstraat met nieuwe fietspaden in Ruisbroek voor.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 21166153.0,
+    "amount_per_capita": 767.71,
+    "yearly_amounts": {
+      "2026": 5404180.0,
+      "2027": 4259695.0,
+      "2028": 5827278.0,
+      "2029": 1900000.0,
+      "2030": 1200000.0,
+      "2031": 2575000.0
+    },
+    "yearly_per_capita": {
+      "2026": 196.01,
+      "2027": 154.5,
+      "2028": 211.36,
+      "2029": 68.91,
+      "2030": 43.52,
+      "2031": 93.4
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "03.",
+    "bd_short": "Kwalitatieve en betaalbare woningen en bouwplekken in aangename buurten en woonkernen, met aandacht",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands zorgt voor kwalitatieve en betaalbare woningen en bouwplekken in aangename buurten en woonkernen, met aandacht voor  kernversterking. We realiseren nieuwe woonontwikkelingen en zetten in op betaalbare, diverse woonvormen voor verschillende doelgroepen. Via masterplannen en dorpskernvernieuwing versterken we de leefkwaliteit en publieke ruimte. Alternatieve woonconcepten en sociale doelstellingen krijgen een plaats in het woonbeleid. Zo bouwen we aan duurzame, verbonden en aantrekkelijke woonkernen.",
+    "ap_code": "03-02",
+    "ap_short": "Uitvoeren van dorpskernvernieuwing met focus op het verbeteren van openbare ruimte",
+    "ap_long": "Het lokaal bestuur vernieuwt actief de dorpskernen met bijzondere aandacht voor een aantrekkelijke, groene en toegankelijke publieke ruimte. We bereiden projecten voor in Lippelo, Oppuurs, Puurs en Sint-Amands, telkens met oog voor water, groen, erfgoed en ontmoeting. Deze ingrepen versterken de leefkwaliteit en zorgen voor een verbonden en toekomstgericht dorpsweefsel.",
+    "ac_code": "G-03-0201",
+    "ac_short": "Uitvoeren van dorpskernvernieuwing met focus op het verbeteren van openbare ruimte",
+    "ac_long": "Het lokaal bestuur zet sterk in op dorpskernvernieuwing met bijzondere aandacht voor het verbeteren van de openbare ruimte en het versterken van de leefkwaliteit. In Lippelo bereiden we de studie voor van de herinrichting van de publieke ruimte rond de kerk en samenhang met de heraanleg van Lippelodorp. In Oppuurs stellen wij een aanbestedingsdossier op voor een nieuw dorpsplein rond de kerk met aandacht voor water en groen langs de beek, gekoppeld aan een verenigingsgebouw en de kerk. In Puurs pakken we het Forum (Hondsmarkt), de studie voor het Dorpshart en het Kerkplein aan met focus op vergroening. Van de Schuttershofstraat maken we een tuinstraat. In Sint-Amands voeren we de studie voor de vernieuwde kaai, de dorpsas op de zorgsite en een serene plek voor afscheid aan het water uit. Deze projecten dragen bij aan een aantrekkelijker, groener en meer verbonden dorpsweefsel.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 9988810.0,
+    "amount_per_capita": 362.3,
+    "yearly_amounts": {
+      "2026": 3263810.0,
+      "2027": 4150000.0,
+      "2028": 1425000.0,
+      "2029": 900000.0,
+      "2030": 200000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 118.38,
+      "2027": 150.52,
+      "2028": 51.69,
+      "2029": 32.64,
+      "2030": 7.25,
+      "2031": 1.81
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "05.",
+    "bd_short": "Puurs-Sint-Amands verstrekt de bruisende en inclusieve vrijetijdsgemeenschap",
+    "bd_long": "Kwalitatieve omschrijving: We stimuleren ontmoeting en gemeenschapsvorming via buurtinitiatieven, interculturele uitwisseling en evenementen. Het vrijetijdsaanbod is breed en toegankelijk, met aandacht voor sport, jeugd, cultuur en vakantieactiviteiten. We ondersteunen verenigingen financieel en logistiek en investeren in duurzame infrastructuur. Cocreatie en samenwerking staan centraal in de uitbouw van een levendige vrijetijdsgemeente.",
+    "ap_code": "05-04",
+    "ap_short": "Vrijetijdsinfrastructuur duurzaam versterken",
+    "ap_long": "Het lokaal bestuur investeert in duurzame en multifunctionele vrijetijdsinfrastructuur die ontmoeting, jeugdwerking en sport ondersteunt. We optimaliseren gemeenschapscentra zoals De Nieuwe Ark en realiseren een nieuw bredeschoolgebouw in Ruisbroek met polyvalente zaal. In Kalfort bouwen we in cocreatie een nieuw zwembad in Sportpark De Schans, gericht op schoolzwemmen en privélessen. Jeugd- en sportinfrastructuur worden vernieuwd in samenwerking met gebruikers, met aandacht voor gedeeld gebruik, duurzaamheid en toekomstgerichte noden in alle deelkernen.",
+    "ac_code": "G-05-0403",
+    "ac_short": "Optimaliseren van sportinfrastructuur in de leefgemeenschappen, onder meer via cocreatie",
+    "ac_long": "In het kader van het optimaliseren van sportinfrastructuur binnen de leefgemeenschappen zet het lokaal bestuur sterk in op cocreatie en samenwerking met clubs, scholen en private partners. Zo maken we deze legislatuur werk van een uitbreiding van Sportpark De Schans. Zo realiseren we samen met MovePassion een zwembad waarbij we voor de exploitatie rekenen op overheidssubsidies. Daarnaast voorzien we ook ruimte voor een padelhal, een judohal, een sportstrip en een sportlus van 1,5 kilometer. Voor de effectieve uitvoering maken we eerst werk van een Ruimtelijke Uitvoeringsplan. \nDe heraanleg en vernieuwing van de voetbalinfrastructuur in Lippelo, Oppuurs en Sint-Amands versterkt de sportieve werking met investeringen in kunstgrasvelden en aangepaste accommodaties. Binnen deze legislatuur realiseren we zowel de renovatie van Klimax I met het oog op een topsporterkenning als de modernisering van de sporthallen in Breendonk (Vrijhals) en Sint-Amands.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 8250000.0,
+    "amount_per_capita": 299.23,
+    "yearly_amounts": {
+      "2026": 600000.0,
+      "2027": 750000.0,
+      "2028": 900000.0,
+      "2029": 3000000.0,
+      "2030": 2500000.0,
+      "2031": 500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 21.76,
+      "2027": 27.2,
+      "2028": 32.64,
+      "2029": 108.81,
+      "2030": 90.68,
+      "2031": 18.14
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "06.",
+    "bd_short": "Puurs-Sint-Amands zet erfgoed, cultuur en toerisme in als motor van beleving en identiteit",
+    "bd_long": "Kwalitatieve omschrijving: We versterken erfgoed en toerisme via musea, restauraties en een toekomstgericht kerkenbeleid. Cultuur krijgt vorm via een breed programma, educatie en toegankelijke infrastructuur. cc Binder, de bibliotheek en de Kunstacademie zijn centrale pijlers in ons cultuurbeleid. Kunstbeleving en regionale samenwerking zorgen voor een dynamisch en herkenbaar aanbod. Zo bouwen we aan een gemeente met een sterke culturele identiteit en belevingswaarde.",
+    "ap_code": "06-01",
+    "ap_short": "Erfgoed en toerisme verbinden in een geïntegreerde beleving",
+    "ap_long": "Het lokaal bestuur verbindt erfgoed en toerisme in een geïntegreerde beleving die lokale identiteit en gastvrijheid versterkt. We investeren museale sites zoals het Fort van Liezele en restaureren erfgoedlocaties zoals het Veerhuis en het Seinhuisje. Via een strategisch kerkenbeleidsplan en duurzaam beheer geven we erfgoed een toekomstgerichte invulling. Zo bouwen we aan een sterk en beleefbaar erfgoedlandschap.",
+    "ac_code": "G-06-0101",
+    "ac_short": "In stand houden en versterken van onze musea",
+    "ac_long": "Het lokaal bestuur zet in op het behoud en de versterking van museale erfgoedlocaties, met een restauratieprogramma voor het historische Fort van Liezele. Voor het fort bereiden we tegen augustus 2026 een subsidieaanvraag voor, gericht op dakwerken, en gevelrenovaties. Daarnaast herstellen we de vloer van het fortcafé. Deze gefaseerde aanpak garandeert de duurzame instandhouding van het gebouw. \nMet  Water en Woord werkt de gemeente aan een eigentijds verbeeldingscentrum  dat de lokale identiteit en de watergebonden geschiedenis op een vernieuwende manier tot leven brengt. Daarbij wordt het Emile Verhaerenmuseum geïntegreerd in dit bredere verhaal, zodat kunst, literatuur, natuur en erfgoed elkaar versterken. Het verbeeldingscentrum Water en Woord vormt een nieuwe culturele en toeristische trekpleister, waar bezoekers de rijke relatie tussen mens, water en landschap kunnen beleven. De integratie van het Emile Verhaerenmuseum zorgt voor een inhoudelijke verdieping rond de figuur van Verhaeren en zijn band met de Schelde.\n De gemeente zoekt actief naar partnerschappen binnen cultuur, toerisme, onderwijs en natuurbeheer om dit project te realiseren. Via een klaverbladfinanciering – met bijdragen van de gemeente, hogere overheden, private partners en Europese middelen – wordt het centrum duurzaam uitgebouwd tot één van de onthaalpoorten van het Nationaal Park Scheldevallei en het ankerpunt in de ruime regio.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 5000000.0,
+    "amount_per_capita": 181.35,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 400000.0,
+      "2030": 3400000.0,
+      "2031": 1200000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 14.51,
+      "2030": 123.32,
+      "2031": 43.52
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "01.",
+    "bd_short": "Kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap e",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands staat garant voor een kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap en de natuur.\nWe voeren een milieubeleid met focus op afvalreductie, zwerfvuilbestrijding en burgerparticipatie. Via RUP’s en masterplannen sturen we op een toekomstgerichte ruimtelijke inrichting. Klimaatrobuuste groenzones, waterbeheer en bosuitbreiding versterken de open ruimte. Klimaatadaptatie en -mitigatie maken onze leefomgeving weerbaar en duurzaam. Zo bouwen we aan een gezonde en harmonieuze leefomgeving voor iedereen.",
+    "ap_code": "01-03",
+    "ap_short": "Creëren van klimaatrobuuste groene ruimtes met aandacht voor water",
+    "ap_long": "Het lokaal bestuur versterkt de leefomgeving met toegankelijke, klimaatrobuuste groenzones en een doordacht waterbeheer. We realiseren nieuwe parken en groene verbindingen nabij woonkernen, voeren landinrichtingsplannen uit en verbeteren de waterhuishouding in het buitengebied. Via bosuitbreiding verhogen we de biodiversiteit en leefkwaliteit. Deze geïntegreerde aanpak maakt onze open ruimte veerkrachtiger en aantrekkelijker.",
+    "ac_code": "G-01-0301",
+    "ac_short": "Voorzien in klimaatbestendige toegankelijke groene ruimte in de nabijheid van de woonkernen",
+    "ac_long": "We zetten in op groene projecten die bijdragen aan klimaatbestendige, toegankelijke groenzones in de directe nabijheid van de woonkernen. Naast onze bestaande groendomeinen, zoals Hof ter Zielbeek, Hof van Coolhem, Tekbroek, Poortersbossen, Lippelobos en Steenbossen maken we werk van nieuwe groeninitiatieven.\nIn Kalfort ontwikkelen we een parkgebied tussen de spoorlijn en de N16. Centraal komen open parkweiden waar je kunt sporten, spelen of ontspannen, omringd door een bos dat fungeert als natuurlijke geluidsbuffer en biodiversiteit bevordert. Een centrale as verbindt het park met de omgeving en maakt het toegankelijk voor fietsers, voetgangers en hulpdiensten.  Zo ontstaat een levendig, multifunctioneel park dat ruimte biedt aan natuur, ontmoeting en recreatie.\nRond Puurs-centrum ontstaat de Groene Ring, een 9 kilometer lange natuurgordel, toegankelijk voor wandelaars en grotendeels ook voor fietsers, met nieuwe verbindingen en toegangspoorten. Het nieuwe Vlietnatuurpad verbindt Lippelo met Puurs via Oppuurs in de Vlietvallei. Zowel in de Groene Ring als in het vlietnatuurpark vind je paden met diverse recreatiepunten zoals vlonderpaden, picknickbanken, speelelementen en kunstwerken, die uitnodigen tot rust en beleving. Zo ontstaat een groene, verbindende route doorheen beekvalleien en landschappen, die natuur, ontspanning en ontmoeting samenbrengt.\nIn Loutersveld bereiden we de samentuin en volkstuinen verder voor met het oog op publieke toegankelijkheid. Het aangeplante voedselbos ondersteunt lokale voedselproductie en draagt bij aan een groene, duurzame leefomgeving.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 4924000.0,
+    "amount_per_capita": 178.6,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 695000.0,
+      "2028": 2514000.0,
+      "2029": 1400000.0,
+      "2030": 300000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.54,
+      "2027": 25.21,
+      "2028": 91.18,
+      "2029": 50.78,
+      "2030": 10.88,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "06.",
+    "bd_short": "Puurs-Sint-Amands zet erfgoed, cultuur en toerisme in als motor van beleving en identiteit",
+    "bd_long": "Kwalitatieve omschrijving: We versterken erfgoed en toerisme via musea, restauraties en een toekomstgericht kerkenbeleid. Cultuur krijgt vorm via een breed programma, educatie en toegankelijke infrastructuur. cc Binder, de bibliotheek en de Kunstacademie zijn centrale pijlers in ons cultuurbeleid. Kunstbeleving en regionale samenwerking zorgen voor een dynamisch en herkenbaar aanbod. Zo bouwen we aan een gemeente met een sterke culturele identiteit en belevingswaarde.",
+    "ap_code": "06-01",
+    "ap_short": "Erfgoed en toerisme verbinden in een geïntegreerde beleving",
+    "ap_long": "Het lokaal bestuur verbindt erfgoed en toerisme in een geïntegreerde beleving die lokale identiteit en gastvrijheid versterkt. We investeren museale sites zoals het Fort van Liezele en restaureren erfgoedlocaties zoals het Veerhuis en het Seinhuisje. Via een strategisch kerkenbeleidsplan en duurzaam beheer geven we erfgoed een toekomstgerichte invulling. Zo bouwen we aan een sterk en beleefbaar erfgoedlandschap.",
+    "ac_code": "G-06-0103",
+    "ac_short": "Duurzaam beheren van ons lokaal erfgoed",
+    "ac_long": "We realiseren de uitvoering van het kerkenbeleidsplan welke de lange termijnvisie en het strategisch kader voor alle kerken in onze gemeente voorstelt. Zo renoveren we de kerk van Kalfort, herstellen we de dakstructuur van de kerk van Sint-Amands en passen we inrichting aan van de kerk van Oppuurs zodat ze ook kan functioneren als polyvalente ruimte.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3510000.0,
+    "amount_per_capita": 127.31,
+    "yearly_amounts": {
+      "2026": 290000.0,
+      "2027": 220000.0,
+      "2028": 150000.0,
+      "2029": 950000.0,
+      "2030": 1500000.0,
+      "2031": 400000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.52,
+      "2027": 7.98,
+      "2028": 5.44,
+      "2029": 34.46,
+      "2030": 54.41,
+      "2031": 14.51
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "02.",
+    "bd_short": "Veilige, duurzame mobiliteitsinfrastructuur met verbeterde wegen, fietspaden, openbaar vervoer en pe",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands investeert in veilige, duurzame mobiliteitsinfrastructuur met verbeterde wegen, fietspaden, openbaar vervoer en een performant water- en rioleringsbeheer: We zetten actief in op duurzame mobiliteit via veilige fietsinfrastructuur, betere verbindingen en een doordacht mobiliteitsplan. Bovenlokale projecten volgen we nauw op om de bereikbaarheid en het openbaar vervoer te verbeteren. In samenwerking met Hidrorio vernieuwen en onderhouden we wegen, fietspaden, waterlopen en riolering. Zo bouwen we aan een veilige en goed bereikbare gemeente met toekomstgerichte infrastructuur.",
+    "ap_code": "02-01",
+    "ap_short": "Duurzame mobiliteit via veilige infrastructuur, vlotte verbindingen en slimme vervoersoplossingen",
+    "ap_long": "Actief inzetten op duurzame mobiliteit via veilige infrastructuur, vlotte verbindingen en slimme vervoersoplossingen: Het lokaal bestuur zet actief in op duurzame mobiliteit via veilige fietsinfrastructuur, vlotte verbindingen en doordacht beleid. We realiseren nieuwe fietspaden, versterken het fietsbeleid en pakken missing links aan. Via het mobiliteitsplan sturen we op circulatie, parkeren en basisbereikbaarheid. Tegelijk verdedigen we onze belangen in bovenlokale projecten om de doorstroming en het openbaar vervoer te verbeteren.",
+    "ac_code": "G-02-0101",
+    "ac_short": "Inzetten op betere fietsverbindingen en fietsinfrastructuur",
+    "ac_long": "Het lokaal bestuur zet sterk in op het verbeteren van fietsverbindingen en fietsinfrastructuur om duurzaam vervoer te stimuleren. Zo plannen we nieuwe fietspaden in de Wolfstraat, Robert Verbelenstraat, Lichterstraat, Theo Andriesstraat en het verder optimaliseren van fietssnelwegen (rechttrekken fietssnelweg tussen Reststraat en Zeutestraat en verbredingen in Kalfort en Oppuurs). Voor de Gansbroekstraat bereiden we een aanbestedingsdossier voor tegen het einde van de legislatuur. Daarnaast voorzien we samen met sjabi+ een centrale fietsparking in Puurs centrum om het fietsgebruik verder aan te moedigen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3466226.0,
+    "amount_per_capita": 125.72,
+    "yearly_amounts": {
+      "2026": 211615.0,
+      "2027": 1254611.0,
+      "2028": 900000.0,
+      "2029": 300000.0,
+      "2030": 700000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.68,
+      "2027": 45.51,
+      "2028": 32.64,
+      "2029": 10.88,
+      "2030": 25.39,
+      "2031": 3.63
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
     "bd_code": "10.",
     "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
     "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
-    "ap_code": "10",
+    "ap_code": "10-01",
     "ap_short": "Realiseren van een performant strategisch en organisatiemanagement",
     "ap_long": "Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. Ons organisatiemanagement vertrekt vanuit een externe focus: naast de wettelijk verplichte taken heeft het bestuur in dit meerjarenplan zijn eigen opdracht vormgegeven. We houden de regie in handen. We bekijken wat we in eigen beheer doen en wat we uitbesteden, eventueel via cocreatie met andere maatschappelijke en bestuurlijke partners.",
-    "ac_code": "G",
+    "ac_code": "G-10-0105",
     "ac_short": "Bewerkstelligen van een performant en doeltreffend juridisch beleid en patrimoniumbeheer",
     "ac_long": "Het lokaal bestuur streeft naar een professioneel, transparant en toekomstgericht beheer van zijn juridische dossiers en patrimonium. Een sterk juridisch beleid vormt de basis voor rechtszekere besluitvorming, een correcte toepassing van regelgeving en het beperken van juridische risico’s.\nDaarnaast wordt gestreefd naar een efficiënt, duurzaam en strategisch patrimoniumbeheer dat de maatschappelijke en financiële waarde van het gemeentelijke patrimonium optimaliseert.\nDoor interne processen te professionaliseren, juridische risico’s te beperken en het gebruik van patrimonium te stroomlijnen, wordt bijgedragen aan een moderne en betrouwbare dienstverlening aan inwoners en partners.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 76478457.0,
-    "amount_per_capita": 2776.77,
+    "total_amount": 3059750.0,
+    "amount_per_capita": 110.98,
     "yearly_amounts": {
-      "2026": 15158109.0,
-      "2027": 16298517.0,
-      "2028": 14090282.0,
-      "2029": 12491840.0,
-      "2030": 11689291.0,
-      "2031": 6750418.0
+      "2026": 1509750.0,
+      "2027": 950000.0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
     },
     "yearly_per_capita": {
-      "2026": 550.36,
-      "2027": 591.76,
-      "2028": 511.59,
-      "2029": 453.55,
-      "2030": 424.41,
-      "2031": 245.09
+      "2026": 54.76,
+      "2027": 34.46,
+      "2028": 5.44,
+      "2029": 5.44,
+      "2030": 5.44,
+      "2031": 5.44
     }
   },
   {
     "municipality": "Puurs-Sint-Amands",
     "nis_code": "12041",
-    "bd_code": "10.",
-    "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
-    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
-    "ap_code": "10",
-    "ap_short": "Een performante digitale infrastructuur/werking voor veilige, efficiënte en innovatieve werkomgeving",
-    "ap_long": "Realiseren van een performante digitale infrastructuur en werking om een veilige, efficiënte en innovatieve werkomgeving te waarborgen: Wij streven naar een betrouwbare en performante netwerkstructuur, waarbij data veilig beheerd en gemakkelijk toegankelijk is. Onze werkmiddelen ondersteunen de uitvoering van de doelstellingen optimaal. De digitale werkplek wordt effectief, efficiënt en correct gebruikt. Incidenten en problemen worden voorkomen en efficiënt en klantvriendelijk behandeld. We stimuleren innovatie en zetten hier gericht op in om continue verbetering te waarborgen.",
-    "ac_code": "O",
-    "ac_short": "Digitale oplossingen ondersteunen de doelstellingen van de organisatie",
-    "ac_long": "We zoeken een optimale balans tussen toepassingen die volledig zijn afgestemd op de behoeften en wensen van de gebruikers, kostenefficiëntie, duurzaamheid en beheersbaarheid. De balans vinden wordt verder bemoeilijkt door de bijna monopoliep6ositie van enkele dienstenleveranciers. Dit vereist een geïntegreerde benadering waarbij technologie-innovatie en duurzaamheid centraal staan. Het is essentieel om systematische methodologieën en effectieve tools te ontwikkelen die organisaties helpen bij het evalueren en maximaliseren van de potentiële voordelen van nieuwe technologieën. Bovendien is het belangrijk om strategieën te ontwikkelen om de afhankelijkheid van één leverancier te verminderen en concurrentie te bevorderen, wat kan bijdragen aan een meer evenwichtige en veerkrachtige technologische infrastructuur.",
+    "bd_code": "04.",
+    "bd_short": "Een warme, zorgzame gemeente waar iedereen optimaal kan deelnemen aan de samenleving",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands is een warme, zorgzame gemeente waar iedereen optimaal kan deelnemen aan de samenleving, dankzij hulpverlening op maat, een netwerk van welzijnsvoorzieningen en in samenwerking met welzijnsactoren. We garanderen sociale grondrechten via toegankelijke hulpverlening, activering en woonbegeleiding. Thuiszorg en ouderenzorg worden versterkt om zelfstandig wonen mogelijk te maken. Via dienstencentra, Huis van het Kind en buitenschoolse opvang bouwen we aan warme buurten. Vrijwilligers en participatie zorgen voor betrokkenheid en inclusie. We werken samen met lokale partners aan een gedragen en geïntegreerd welzijnsbeleid.",
+    "ap_code": "04-04",
+    "ap_short": "Aanbieden diverse diensten om te kunnen leven, werken en wonen in warme en zorgzame buurten",
+    "ap_long": "Aanbieden van diverse diensten en samenwerkingsverbanden die ervoor zorgen dat elke inwoner kan leven, werken en wonen in warme en zorgzame buurten. Het lokaal bestuur bouwt aan warme en zorgzame buurten via buurtgerichte dienstencentra, sterke samenwerking met scholen en een uitgebouwd Huis van het Kind. We investeren in kwaliteitsvolle buitenschoolse opvang en versterken onze regierol in het afstemmen van opvang en activiteiten voor kinderen. Via preventie, gezondheidsbeleid en samenwerking binnen de eerstelijnszone creëren we een geïntegreerd netwerk van zorg en ondersteuning, dicht bij de burger.",
+    "ac_code": "O-04-0401",
+    "ac_short": "Uitbouwen van buurtgerichte lokale dienstencentra en antennepunten",
+    "ac_long": "De lokale dienstencentra willen eenzaamheid voorkomen door naast hun werking in de dienstencentra en antennepunten de buurt te versterken. Het buurtweefsel ondersteunen om te werken aan warme en zorgzame buurten. We zetten pro-actief in op outreachende projecten zoals de huisbezoeken 80+. Naast het verderzetten van de bestaande werking in de huidige dienstencentra in Ruisbroek, Breendonk en Puurs starten we in Sint-Amands met een nieuwe antennewerking in De Bollaard.",
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 4509199.0,
-    "amount_per_capita": 163.72,
+    "total_amount": 2550000.0,
+    "amount_per_capita": 92.49,
     "yearly_amounts": {
-      "2026": 740199.0,
-      "2027": 818295.0,
-      "2028": 1731725.0,
-      "2029": 1001755.0,
-      "2030": 114390.0,
-      "2031": 102835.0
+      "2026": 150000.0,
+      "2027": 500000.0,
+      "2028": 1200000.0,
+      "2029": 700000.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 26.88,
-      "2027": 29.71,
-      "2028": 62.88,
-      "2029": 36.37,
-      "2030": 4.15,
-      "2031": 3.73
+      "2026": 5.44,
+      "2027": 18.14,
+      "2028": 43.52,
+      "2029": 25.39,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -73,30 +311,710 @@
     "bd_code": "10.",
     "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
     "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
-    "ap_code": "10",
+    "ap_code": "10-06",
+    "ap_short": "Realiseren van een performant facilitair beleid",
+    "ap_long": "Het lokaal bestuur bouwt aan een performant facilitair beleid dat inzet op veiligheid, efficiëntie en duurzaamheid.",
+    "ac_code": "G-10-0601",
+    "ac_short": "Bewerkstelligen van een performant en doeltreffend facilitair beheer",
+    "ac_long": "We streven naar een efficiënt en toekomstgericht facilitair beheer dat bijdraagt aan een kwalitatieve werkomgeving. Door optimalisatie van gebouwen, infrastructuur en ondersteunende diensten verhogen we de gebruikerstevredenheid. We zetten in op duurzaamheid, kostenbeheersing en slimme technologieën. Het facilitair beheer ondersteunt de werking van de organisatie op een doeltreffende manier.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2432022.0,
+    "amount_per_capita": 88.21,
+    "yearly_amounts": {
+      "2026": 791022.0,
+      "2027": 367000.0,
+      "2028": 300000.0,
+      "2029": 350000.0,
+      "2030": 334000.0,
+      "2031": 290000.0
+    },
+    "yearly_per_capita": {
+      "2026": 28.69,
+      "2027": 13.31,
+      "2028": 10.88,
+      "2029": 12.69,
+      "2030": 12.11,
+      "2031": 10.52
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "10.",
+    "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
+    "ap_code": "10-02",
+    "ap_short": "Realiseren van een correct en doeltreffend financieel beleid",
+    "ap_long": "We realiseren een correct en doeltreffend financieel beleid door een zorgvuldige planning, strikte naleving van regelgeving en transparante rapportering. Zo zorgen we voor een duurzaam beheer van publieke middelen en ondersteunen wij beleidskeuzes met betrouwbare financiële inzichten.",
+    "ac_code": "G-10-0201",
+    "ac_short": "Voeren van een correct financieel / fiscaal beheer en transparante rapportering",
+    "ac_long": "We nemen als gemeente Puurs-Sint-Amands actief verantwoordelijkheid op voor een correct financieel-fiscaal beheer en een transparante rapportering. We registreren alle financiële transacties zorgvuldig en tijdig conform de geldende boekhoudkundige normen. We leven onze fiscale verplichtingen stipt na, met correcte aangiften en een strikte toepassing van de relevante wetgeving. Via duidelijke en betrouwbare rapportering bieden we een helder inzicht in de financiële situatie van onze gemeente. Interne controles en financiële analyses ondersteunen het beleid en dragen bij aan een duurzame en verantwoorde besluitvorming. Daarbij leggen we ook verantwoording af aan onze burgers, zodat zij op een transparante manier kunnen volgen hoe we publieke middelen beheren en inzetten.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2230985.0,
+    "amount_per_capita": 80.92,
+    "yearly_amounts": {
+      "2026": 661150.0,
+      "2027": 655753.0,
+      "2028": 161861.0,
+      "2029": 162937.0,
+      "2030": 163066.0,
+      "2031": 426218.0
+    },
+    "yearly_per_capita": {
+      "2026": 23.98,
+      "2027": 23.78,
+      "2028": 5.87,
+      "2029": 5.91,
+      "2030": 5.91,
+      "2031": 15.46
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "02.",
+    "bd_short": "Veilige, duurzame mobiliteitsinfrastructuur met verbeterde wegen, fietspaden, openbaar vervoer en pe",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands investeert in veilige, duurzame mobiliteitsinfrastructuur met verbeterde wegen, fietspaden, openbaar vervoer en een performant water- en rioleringsbeheer: We zetten actief in op duurzame mobiliteit via veilige fietsinfrastructuur, betere verbindingen en een doordacht mobiliteitsplan. Bovenlokale projecten volgen we nauw op om de bereikbaarheid en het openbaar vervoer te verbeteren. In samenwerking met Hidrorio vernieuwen en onderhouden we wegen, fietspaden, waterlopen en riolering. Zo bouwen we aan een veilige en goed bereikbare gemeente met toekomstgerichte infrastructuur.",
+    "ap_code": "02-02",
+    "ap_short": "Vernieuwen en onderhouden wegen, fietspaden, waterlopen en riolering, uitgevoerd i.s.m. HidroRio",
+    "ap_long": "Vernieuwen en onderhouden van wegen, fietspaden,  waterlopen en riolering, uitgevoerd in samenwerking met HidroRio. Het lokaal bestuur vernieuwt en onderhoudt wegen, fietspaden, waterlopen en riolering in nauwe samenwerking met Hidrorio. We voeren grootschalige infrastructuurprojecten uit in alle deelkernen, met aandacht voor verkeersveiligheid, klimaatbestendigheid en leefkwaliteit. Via studies, heraanleg en koppeling aan woonontwikkelingen realiseren we een toekomstgerichte publieke ruimte. Regelmatig onderhoud waarborgt de duurzaamheid van het wegennet.",
+    "ac_code": "G-02-0202",
+    "ac_short": "Onderhouden van de wegeninfrastructuur",
+    "ac_long": "Het onderhoud van de wegeninfrastructuur omvat een breed scala aan ingrepen die bijdragen aan veilige en kwalitatieve openbare ruimte. Dit gaat van afbraakwerken en grondsanering tot het plaatsen van, straatmeubilair en verkeerssignalisatie. Daarnaast voeren we ook technische werken uit zoals voegvullingen, herstellingen aan betonvakken, vluchtheuvels, kasseistroken, slem- en saneringswerken, asfalt- en klinkerwerken. Deze acties zorgen voor een duurzaam en goed onderhouden wegennet.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2020000.0,
+    "amount_per_capita": 73.27,
+    "yearly_amounts": {
+      "2026": 420000.0,
+      "2027": 320000.0,
+      "2028": 320000.0,
+      "2029": 320000.0,
+      "2030": 320000.0,
+      "2031": 320000.0
+    },
+    "yearly_per_capita": {
+      "2026": 15.23,
+      "2027": 11.61,
+      "2028": 11.61,
+      "2029": 11.61,
+      "2030": 11.61,
+      "2031": 11.61
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "05.",
+    "bd_short": "Puurs-Sint-Amands verstrekt de bruisende en inclusieve vrijetijdsgemeenschap",
+    "bd_long": "Kwalitatieve omschrijving: We stimuleren ontmoeting en gemeenschapsvorming via buurtinitiatieven, interculturele uitwisseling en evenementen. Het vrijetijdsaanbod is breed en toegankelijk, met aandacht voor sport, jeugd, cultuur en vakantieactiviteiten. We ondersteunen verenigingen financieel en logistiek en investeren in duurzame infrastructuur. Cocreatie en samenwerking staan centraal in de uitbouw van een levendige vrijetijdsgemeente.",
+    "ap_code": "05-04",
+    "ap_short": "Vrijetijdsinfrastructuur duurzaam versterken",
+    "ap_long": "Het lokaal bestuur investeert in duurzame en multifunctionele vrijetijdsinfrastructuur die ontmoeting, jeugdwerking en sport ondersteunt. We optimaliseren gemeenschapscentra zoals De Nieuwe Ark en realiseren een nieuw bredeschoolgebouw in Ruisbroek met polyvalente zaal. In Kalfort bouwen we in cocreatie een nieuw zwembad in Sportpark De Schans, gericht op schoolzwemmen en privélessen. Jeugd- en sportinfrastructuur worden vernieuwd in samenwerking met gebruikers, met aandacht voor gedeeld gebruik, duurzaamheid en toekomstgerichte noden in alle deelkernen.",
+    "ac_code": "G-05-0401",
+    "ac_short": "Optimaliseren van ontmoetingsplaatsen/gemeenschapscentra in de leefgemeenschappen",
+    "ac_long": "Samen met o.a.  sjabi+ realiseren we een nieuw bredeschoolgebouw in Ruisbroek, met als doel het optimaliseren van ontmoetingsplaatsen binnen de leefgemeenschap. De polyvalente zaal zal overdag dienst doen voor de school en ’s avonds toegankelijk zijn voor het verenigingsleven, waardoor de ruimte efficiënt benut wordt en de verbinding met de buurt versterkt wordt. Deze herontwikkeling van de Familieheem-site draagt bij aan een duurzame en toegankelijke invulling van gemeenschapsinfrastructuur.\nIn elke leefgemeenschap zorgen we voor een passende ontmoetingsruimte al dan niet in samenwerking met verschillende partners. We actualiseren De Nieuwe Ark in Ruisbroek en de parochiezaal in Lippelo. In Oppuurs realiseren we nieuwe gemeenschapsinfrastructuur.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1682000.0,
+    "amount_per_capita": 61.01,
+    "yearly_amounts": {
+      "2026": 117000.0,
+      "2027": 325000.0,
+      "2028": 240000.0,
+      "2029": 820000.0,
+      "2030": 140000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.24,
+      "2027": 11.79,
+      "2028": 8.7,
+      "2029": 29.74,
+      "2030": 5.08,
+      "2031": 1.45
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "01.",
+    "bd_short": "Kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap e",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands staat garant voor een kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap en de natuur.\nWe voeren een milieubeleid met focus op afvalreductie, zwerfvuilbestrijding en burgerparticipatie. Via RUP’s en masterplannen sturen we op een toekomstgerichte ruimtelijke inrichting. Klimaatrobuuste groenzones, waterbeheer en bosuitbreiding versterken de open ruimte. Klimaatadaptatie en -mitigatie maken onze leefomgeving weerbaar en duurzaam. Zo bouwen we aan een gezonde en harmonieuze leefomgeving voor iedereen.",
+    "ap_code": "01-03",
+    "ap_short": "Creëren van klimaatrobuuste groene ruimtes met aandacht voor water",
+    "ap_long": "Het lokaal bestuur versterkt de leefomgeving met toegankelijke, klimaatrobuuste groenzones en een doordacht waterbeheer. We realiseren nieuwe parken en groene verbindingen nabij woonkernen, voeren landinrichtingsplannen uit en verbeteren de waterhuishouding in het buitengebied. Via bosuitbreiding verhogen we de biodiversiteit en leefkwaliteit. Deze geïntegreerde aanpak maakt onze open ruimte veerkrachtiger en aantrekkelijker.",
+    "ac_code": "G-01-0302",
+    "ac_short": "Uitvoeren van landinrichtingsplannen i.s.m. VLM",
+    "ac_long": "Een landinrichtingsplan (LIP) is een gebiedsgerichte studie die werd opgesteld door de Vlaamse Landmaatschappij in samenwerking met lokale partners. Het plan onderzoekt de waarde, mogelijkheden en noden van een gebied, met aandacht voor klimaat, erfgoed, recreatie en mobiliteit. Op basis daarvan worden concrete ingrepen uitgewerkt, in overleg met eigenaars en binnen de kwaliteitskaders van de Vlaamse overheid.\nHet LIP voor de Molenbeekvallei focust op het behoud van het natuurlijk overstromingsgebied, versterking van zachte recreatie via een erfgoedwandelroute, aanplant van erfgoedbomen en ingrepen voor fauna zoals amfibietunnels. Het LIP voor de Scheldeboorden omvat de bouw van de dijkmodules, de aanleg van het beekpad, de omgevingsaanleg rond de molensite, educatieve elementen en verbeterde mobiliteit aan de Kuitegemstraat. Versterken van natuur is ook een belangrijke insteek.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1600369.0,
+    "amount_per_capita": 58.05,
+    "yearly_amounts": {
+      "2026": 1100369.0,
+      "2027": 250000.0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 39.91,
+      "2027": 9.07,
+      "2028": 9.07,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "10.",
+    "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
+    "ap_code": "10-04",
     "ap_short": "Een performante digitale infrastructuur/werking voor veilige, efficiënte en innovatieve werkomgeving",
     "ap_long": "Realiseren van een performante digitale infrastructuur en werking om een veilige, efficiënte en innovatieve werkomgeving te waarborgen: Wij streven naar een betrouwbare en performante netwerkstructuur, waarbij data veilig beheerd en gemakkelijk toegankelijk is. Onze werkmiddelen ondersteunen de uitvoering van de doelstellingen optimaal. De digitale werkplek wordt effectief, efficiënt en correct gebruikt. Incidenten en problemen worden voorkomen en efficiënt en klantvriendelijk behandeld. We stimuleren innovatie en zetten hier gericht op in om continue verbetering te waarborgen.",
-    "ac_code": "A",
+    "ac_code": "G-10-0406",
+    "ac_short": "Digitale oplossingen ondersteunen de doelstellingen van de organisatie",
+    "ac_long": "We zoeken een optimale balans tussen toepassingen die volledig zijn afgestemd op de behoeften en wensen van de gebruikers, kostenefficiëntie, duurzaamheid en beheersbaarheid. De balans vinden wordt verder bemoeilijkt door de bijna monopoliep6ositie van enkele dienstenleveranciers. Dit vereist een geïntegreerde benadering waarbij technologie-innovatie en duurzaamheid centraal staan. Het is essentieel om systematische methodologieën en effectieve tools te ontwikkelen die organisaties helpen bij het evalueren en maximaliseren van de potentiële voordelen van nieuwe technologieën. Bovendien is het belangrijk om strategieën te ontwikkelen om de afhankelijkheid van één leverancier te verminderen en concurrentie te bevorderen, wat kan bijdragen aan een meer evenwichtige en veerkrachtige technologische infrastructuur.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1465810.0,
+    "amount_per_capita": 53.17,
+    "yearly_amounts": {
+      "2026": 411095.0,
+      "2027": 264715.0,
+      "2028": 124050.0,
+      "2029": 423650.0,
+      "2030": 121150.0,
+      "2031": 121150.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.91,
+      "2027": 9.6,
+      "2028": 4.5,
+      "2029": 15.37,
+      "2030": 4.39,
+      "2031": 4.39
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "04.",
+    "bd_short": "Een warme, zorgzame gemeente waar iedereen optimaal kan deelnemen aan de samenleving",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands is een warme, zorgzame gemeente waar iedereen optimaal kan deelnemen aan de samenleving, dankzij hulpverlening op maat, een netwerk van welzijnsvoorzieningen en in samenwerking met welzijnsactoren. We garanderen sociale grondrechten via toegankelijke hulpverlening, activering en woonbegeleiding. Thuiszorg en ouderenzorg worden versterkt om zelfstandig wonen mogelijk te maken. Via dienstencentra, Huis van het Kind en buitenschoolse opvang bouwen we aan warme buurten. Vrijwilligers en participatie zorgen voor betrokkenheid en inclusie. We werken samen met lokale partners aan een gedragen en geïntegreerd welzijnsbeleid.",
+    "ap_code": "04-03",
+    "ap_short": "Garanderen van een betaalbaar aanbod aan residentiële ouderenzorg op het grondgebied",
+    "ap_long": "Het lokaal bestuur garandeert betaalbare en kwaliteitsvolle ouderenzorg via een doeltreffend beheer van het Zorgbedrijf Klein-Brabant. We zetten in op warme, bewonersgerichte zorg, participatie en een efficiënte organisatiestructuur. Via financiële monitoring bewaken we de betaalbaarheid. Daarnaast verbeteren we stapsgewijs de infrastructuur, met aandacht voor comfort, veiligheid en energie-efficiëntie.",
+    "ac_code": "O-04-0302",
+    "ac_short": "Optimaliseren infrastuctuur van het Zorgbedrijf Klein-Brabant",
+    "ac_long": "We zetten de nodige stappen om ervoor te zorgen dat de gebouwen die in erfpacht zijn van het zorgbedrijf voldoen aan de voorwaarden van het woonzorgdecreet. We garanderen de veiligheid, het comfort en de autonomie van de bewoners waarbij we aandacht hebben voor de creatie van een huiselijke sfeer.\nWe investeren in energie-efficiëntie en versterken de digitale infrastructuur.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1284756.0,
+    "amount_per_capita": 46.6,
+    "yearly_amounts": {
+      "2026": 550856.0,
+      "2027": 295795.0,
+      "2028": 168725.0,
+      "2029": 89255.0,
+      "2030": 89790.0,
+      "2031": 90335.0
+    },
+    "yearly_per_capita": {
+      "2026": 19.98,
+      "2027": 10.73,
+      "2028": 6.12,
+      "2029": 3.24,
+      "2030": 3.26,
+      "2031": 3.28
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "01.",
+    "bd_short": "Kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap e",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands staat garant voor een kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap en de natuur.\nWe voeren een milieubeleid met focus op afvalreductie, zwerfvuilbestrijding en burgerparticipatie. Via RUP’s en masterplannen sturen we op een toekomstgerichte ruimtelijke inrichting. Klimaatrobuuste groenzones, waterbeheer en bosuitbreiding versterken de open ruimte. Klimaatadaptatie en -mitigatie maken onze leefomgeving weerbaar en duurzaam. Zo bouwen we aan een gezonde en harmonieuze leefomgeving voor iedereen.",
+    "ap_code": "01-04",
+    "ap_short": "Versterken van klimaatmaatregelen en duurzame ontwikkeling",
+    "ap_long": "Het lokaal bestuur versterkt zijn klimaatbeleid met gerichte maatregelen rond adaptatie en mitigatie. We vergroenen woonwijken, ontharden publieke ruimte en wapenen ons tegen droogte en hittestress. Tegelijk zetten we in op CO₂-reductie via een duurzaam patrimonium, een energiezuinig wagenpark en hernieuwbare energie.",
+    "ac_code": "G-01-0402",
+    "ac_short": "Inzetten op klimaatmitigatie (warmteplan, wagenpark en gebouwenpatrimonium, hernieuwbare energie …)",
+    "ac_long": "Inzetten op klimaatmitigatie (opstellen warmteplan, verduurzamen  wagenpark en gebouwenpatrimonium, hernieuwbare energie …): Om de klimaatdoelstellingen uit het Lokaal Energie- en Klimaatplan te behalen, moet Puurs-Sint-Amands tegen 2030 nog voor 94.615 ton aan extra CO₂-reductiemaatregelen nemen. Vervoer is de grootste uitstoter, gevolgd door industrie en huishoudens, waarbij vooral bij huishoudens al een duidelijke daling merkbaar is. Hernieuwbare energie draagt bij tot vermeden uitstoot, maar het zonnepotentieel wordt nog onvoldoende benut. Voor het eigen patrimonium streeft het lokaal bestuur naar een CO₂-reductie van 50%, waarvan bijna de helft (21%) gerealiseerd is. Concrete acties zijn het opstellen van een warmteplan, het plaatsen van LED-verlichting in gemeentelijke gebouwen, en het verduurzamen van het gebouwenpatrimonium via renovaties, automatisering en energieprestatie-opvolging. Ook verduurzamen we het wagenpark, met focus op elektrificatie, laadpaalinfrastructuur en deelmobiliteit. Tot slot zet het lokaal bestuur in op het verhogen van het aandeel hernieuwbare energie, onder meer via eigen zonnepaneleninstallaties en ondersteuning van lokale initiatieven.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 1106210.0,
+    "amount_per_capita": 40.12,
+    "yearly_amounts": {
+      "2026": 556210.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 150000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.17,
+      "2027": 3.63,
+      "2028": 3.63,
+      "2029": 5.44,
+      "2030": 3.63,
+      "2031": 3.63
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "05.",
+    "bd_short": "Puurs-Sint-Amands verstrekt de bruisende en inclusieve vrijetijdsgemeenschap",
+    "bd_long": "Kwalitatieve omschrijving: We stimuleren ontmoeting en gemeenschapsvorming via buurtinitiatieven, interculturele uitwisseling en evenementen. Het vrijetijdsaanbod is breed en toegankelijk, met aandacht voor sport, jeugd, cultuur en vakantieactiviteiten. We ondersteunen verenigingen financieel en logistiek en investeren in duurzame infrastructuur. Cocreatie en samenwerking staan centraal in de uitbouw van een levendige vrijetijdsgemeente.",
+    "ap_code": "05-03",
+    "ap_short": "Het verenigingsleven financieel en logistiek versterken en ondersteunen",
+    "ap_long": "Het lokaal bestuur ondersteunt het verenigingsleven financieel, logistiek en inhoudelijk om de sociale cohesie te versterken. We voorzien subsidies per beleidsdomein, denken mee met verenigingen en bieden praktische ondersteuning. Zo creëren we ruimte voor groei, samenwerking en inclusie binnen sport, cultuur, jeugd en andere sectoren van het verenigingsleven.",
+    "ac_code": "G-05-0301",
+    "ac_short": "Het verenigingsleven financieel en logistiek versterken en ondersteunen",
+    "ac_long": "We bieden kansen aan verenigingen om al dan niet in cocreatie met het lokaal bestuur een continue werking op te zetten en ontmoeting te ondersteunen. Dit doen we door per beleidsdomein subsidies uit te reiken, met een positieve, realistische kijk mee te denken en logistiek te ondersteunen. Door verenigingen te ondersteunen in hun groei en hun impact, investeren we in verbondenheid, inclusie en levenskwaliteit. We geloven in de kracht van mensen die zich engageren – in sportclubs, culturele verenigingen, jeugdwerkingen, ouderenverenigingen en zoveel meer. Hun inzet verdient erkenning én versterking.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 971937.0,
+    "amount_per_capita": 35.25,
+    "yearly_amounts": {
+      "2026": 331937.0,
+      "2027": 260000.0,
+      "2028": 35000.0,
+      "2029": 155000.0,
+      "2030": 155000.0,
+      "2031": 35000.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.04,
+      "2027": 9.43,
+      "2028": 1.27,
+      "2029": 5.62,
+      "2030": 5.62,
+      "2031": 1.27
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "03.",
+    "bd_short": "Kwalitatieve en betaalbare woningen en bouwplekken in aangename buurten en woonkernen, met aandacht",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands zorgt voor kwalitatieve en betaalbare woningen en bouwplekken in aangename buurten en woonkernen, met aandacht voor  kernversterking. We realiseren nieuwe woonontwikkelingen en zetten in op betaalbare, diverse woonvormen voor verschillende doelgroepen. Via masterplannen en dorpskernvernieuwing versterken we de leefkwaliteit en publieke ruimte. Alternatieve woonconcepten en sociale doelstellingen krijgen een plaats in het woonbeleid. Zo bouwen we aan duurzame, verbonden en aantrekkelijke woonkernen.",
+    "ap_code": "03-01",
+    "ap_short": "Inzetten op  een kwalitatief, betaalbaar en duurzaam woningaanbod",
+    "ap_long": "Het lokaal bestuur zet in op een kwalitatief, betaalbaar en duurzaam woningaanbod dat inspeelt op de noden van diverse doelgroepen. We realiseren nieuwe woonontwikkelingen binnen masterplannen en onderzoeken alternatieve woonvormen zoals meer-generatiewonen en tiny houses. Tegelijk zetten we in op sociale doelstellingen en duurzame dorpsontwikkeling, met aandacht voor leefkwaliteit, mobiliteit en publieke ruimte.",
+    "ac_code": "G-03-0102",
+    "ac_short": "Realiseren van nieuwe woonontwikkeling",
+    "ac_long": "Het lokaal bestuur bereidt verschillende nieuwe woonontwikkelingen voor om tegemoet te komen aan de groeiende woonbehoefte en de vraag naar diverse woonvormen. In Kalfort ontwikkelen we een woonzone aan het nieuwe dorpspark. In Haverblok streven we naar een gepaste woonontwikkeling die rekening houdt met de watergevoeligheid in de omgeving. In Puurs-centrum plannen we meerdere projecten waaronder het Ursulinenpad/Forum, het binnengebied Hooiveld/Hof-ten-Berglaan en den Hasselt (Kerkhofstraat). In Lippelo verdichten we de kern met de ontwikkeling van site aan het oud-gemeentehuis. Op termijn komt er een beperkte woonontwikkeling aan het Kossaardhof in Liezele. Deze ontwikkelingen maken deel uit van bredere masterplannen waarin ook aandacht is voor leefkwaliteit, groen, mobiliteit en publieke ruimte. Zo zetten we niet alleen in op bijkomende woningen, maar ook op een geïntegreerde en duurzame dorpsontwikkeling.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 850000.0,
+    "amount_per_capita": 30.83,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 800000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 29.02,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 1.81
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "05.",
+    "bd_short": "Puurs-Sint-Amands verstrekt de bruisende en inclusieve vrijetijdsgemeenschap",
+    "bd_long": "Kwalitatieve omschrijving: We stimuleren ontmoeting en gemeenschapsvorming via buurtinitiatieven, interculturele uitwisseling en evenementen. Het vrijetijdsaanbod is breed en toegankelijk, met aandacht voor sport, jeugd, cultuur en vakantieactiviteiten. We ondersteunen verenigingen financieel en logistiek en investeren in duurzame infrastructuur. Cocreatie en samenwerking staan centraal in de uitbouw van een levendige vrijetijdsgemeente.",
+    "ap_code": "05-04",
+    "ap_short": "Vrijetijdsinfrastructuur duurzaam versterken",
+    "ap_long": "Het lokaal bestuur investeert in duurzame en multifunctionele vrijetijdsinfrastructuur die ontmoeting, jeugdwerking en sport ondersteunt. We optimaliseren gemeenschapscentra zoals De Nieuwe Ark en realiseren een nieuw bredeschoolgebouw in Ruisbroek met polyvalente zaal. In Kalfort bouwen we in cocreatie een nieuw zwembad in Sportpark De Schans, gericht op schoolzwemmen en privélessen. Jeugd- en sportinfrastructuur worden vernieuwd in samenwerking met gebruikers, met aandacht voor gedeeld gebruik, duurzaamheid en toekomstgerichte noden in alle deelkernen.",
+    "ac_code": "G-05-0402",
+    "ac_short": "Optimaliseren van jeugdinfrastructuur in de leefgemeenschappen",
+    "ac_long": "We maken een visienota over het fuifbeleid in onze gemeente waarin we de behoeften en noden van de jongeren vertalen.  Automatisering en renovatie zijn alvast noodzakelijke investeringen waarmee we het JOC WIJland aanpassen aan de vraag. In de oefening vergeten we zeker de combinatie met de kinderopvang en vakantiewerking niet. Zo kunnen kinderen en jongeren ook de komende jaren optimaal genieten van een kwalitatieve, aangepaste infrastructuur. We blijven investeren in de jeugdwerkinfrastructuur. Samen met de jeugdverenigingen zorgen we voor kwalitatieve infrastructuur waarbij de realisatie in Sint-Amands en Kalfort recent werd afgewerkt. In Oppuurs worden de laatste voorbereidingen getroffen om nieuwe infrastructuur te realiseren en ook Breendonk staat in de startblokken om op termijn nieuwe infrastructuur te realiseren.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 622955.0,
+    "amount_per_capita": 22.59,
+    "yearly_amounts": {
+      "2026": 282955.0,
+      "2027": 80000.0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.26,
+      "2027": 2.9,
+      "2028": 9.07,
+      "2029": 0,
+      "2030": 0.36,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "06.",
+    "bd_short": "Puurs-Sint-Amands zet erfgoed, cultuur en toerisme in als motor van beleving en identiteit",
+    "bd_long": "Kwalitatieve omschrijving: We versterken erfgoed en toerisme via musea, restauraties en een toekomstgericht kerkenbeleid. Cultuur krijgt vorm via een breed programma, educatie en toegankelijke infrastructuur. cc Binder, de bibliotheek en de Kunstacademie zijn centrale pijlers in ons cultuurbeleid. Kunstbeleving en regionale samenwerking zorgen voor een dynamisch en herkenbaar aanbod. Zo bouwen we aan een gemeente met een sterke culturele identiteit en belevingswaarde.",
+    "ap_code": "06-01",
+    "ap_short": "Erfgoed en toerisme verbinden in een geïntegreerde beleving",
+    "ap_long": "Het lokaal bestuur verbindt erfgoed en toerisme in een geïntegreerde beleving die lokale identiteit en gastvrijheid versterkt. We investeren museale sites zoals het Fort van Liezele en restaureren erfgoedlocaties zoals het Veerhuis en het Seinhuisje. Via een strategisch kerkenbeleidsplan en duurzaam beheer geven we erfgoed een toekomstgerichte invulling. Zo bouwen we aan een sterk en beleefbaar erfgoedlandschap.",
+    "ac_code": "G-06-0102",
+    "ac_short": "Opzetten, evalueren en bijsturen van een geïntegreerd toeristisch beleid",
+    "ac_long": "De toeristische onthaalpunten, gelegen aan de Kaai en park en museum Fort Liezele, vormen de toegangspoorten tot een rijke toeristische ervaring.\nGroendomein Hof van Coolhem blijft een aantrekkelijke plek en zet onze asperge speciaal in de kijker. We houden alle accommodatie en infrastructuur dan ook in goede staat. \nWe renoveren het Seinhuisje in Puurs centrum waar de stoomtrein vertrekt en aankomt.\nIn Sint-Amands staat de invulling van het Veerhuis tot vakantiewoning en van molenbelt onder de nieuwe Gansakkermolen, in samenwerking met het Kempens Landschap, op het programma.\nWe versterken en breiden onze wandel- en fietsnetwerken uit met o.a. de realisatie van de actualisatie van het middelpunt Vlaanderen i.s.m. de gemeente Buggenhout, de realisatie van het Vlietpad tussen Lippelo-Oppuurs-Puurs en het verder afwerken van de Groene ring rond Puurs centrum.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 612000.0,
+    "amount_per_capita": 22.2,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 512000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.63,
+      "2028": 0,
+      "2029": 18.57,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "10.",
+    "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
+    "ap_code": "10-04",
+    "ap_short": "Een performante digitale infrastructuur/werking voor veilige, efficiënte en innovatieve werkomgeving",
+    "ap_long": "Realiseren van een performante digitale infrastructuur en werking om een veilige, efficiënte en innovatieve werkomgeving te waarborgen: Wij streven naar een betrouwbare en performante netwerkstructuur, waarbij data veilig beheerd en gemakkelijk toegankelijk is. Onze werkmiddelen ondersteunen de uitvoering van de doelstellingen optimaal. De digitale werkplek wordt effectief, efficiënt en correct gebruikt. Incidenten en problemen worden voorkomen en efficiënt en klantvriendelijk behandeld. We stimuleren innovatie en zetten hier gericht op in om continue verbetering te waarborgen.",
+    "ac_code": "G-10-0403",
+    "ac_short": "Werkmiddelen ondersteunen de uitvoering van de doelstellingen",
+    "ac_long": "Medewerkers beschikken over werkmiddelen die hen in staat stellen hun taken efficiënt uit te voeren. Deze middelen zijn afgestemd op de aard van hun werkzaamheden en ingericht met oog voor de beheersbaarheid en continuïteit binnen de organisatie.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 554350.0,
+    "amount_per_capita": 20.11,
+    "yearly_amounts": {
+      "2026": 99100.0,
+      "2027": 91050.0,
+      "2028": 91050.0,
+      "2029": 91050.0,
+      "2030": 91050.0,
+      "2031": 91050.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.59,
+      "2027": 3.3,
+      "2028": 3.3,
+      "2029": 3.3,
+      "2030": 3.3,
+      "2031": 3.3
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "02.",
+    "bd_short": "Veilige, duurzame mobiliteitsinfrastructuur met verbeterde wegen, fietspaden, openbaar vervoer en pe",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands investeert in veilige, duurzame mobiliteitsinfrastructuur met verbeterde wegen, fietspaden, openbaar vervoer en een performant water- en rioleringsbeheer: We zetten actief in op duurzame mobiliteit via veilige fietsinfrastructuur, betere verbindingen en een doordacht mobiliteitsplan. Bovenlokale projecten volgen we nauw op om de bereikbaarheid en het openbaar vervoer te verbeteren. In samenwerking met Hidrorio vernieuwen en onderhouden we wegen, fietspaden, waterlopen en riolering. Zo bouwen we aan een veilige en goed bereikbare gemeente met toekomstgerichte infrastructuur.",
+    "ap_code": "02-01",
+    "ap_short": "Duurzame mobiliteit via veilige infrastructuur, vlotte verbindingen en slimme vervoersoplossingen",
+    "ap_long": "Actief inzetten op duurzame mobiliteit via veilige infrastructuur, vlotte verbindingen en slimme vervoersoplossingen: Het lokaal bestuur zet actief in op duurzame mobiliteit via veilige fietsinfrastructuur, vlotte verbindingen en doordacht beleid. We realiseren nieuwe fietspaden, versterken het fietsbeleid en pakken missing links aan. Via het mobiliteitsplan sturen we op circulatie, parkeren en basisbereikbaarheid. Tegelijk verdedigen we onze belangen in bovenlokale projecten om de doorstroming en het openbaar vervoer te verbeteren.",
+    "ac_code": "G-02-0104",
+    "ac_short": "Uitvoeren mobiliteitsplan met o.a. parkeerleidraad, en fietsbeleidsplan",
+    "ac_long": "Het parkeerbeleid ligt sinds begin 2025 vast via een nieuwe concessie, die we in de tweede helft van de legislatuur zullen evalueren in functie van verschuivende parkeercapaciteit, zoals de aangepaste ondergrondse parking in de kern van Puurs. Tegelijk versterken we het fietsbeleid: we pakken missing links en gebrekkige infrastructuur aan, verbeteren bebording en onderzoeken fietszones. Ook fietsparkeren krijgt aandacht, onder meer bij de heraanleg van het Forum. Binnen Basisbereikbaarheid werken we hoppinpunten uit. Tot slot pakken we sluipverkeer aan via fysieke ingrepen, circulatiemaatregelen en trajectcontroles, in samenwerking met de politie, om de leefbaarheid in de kernen te verbeteren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 516448.0,
+    "amount_per_capita": 18.73,
+    "yearly_amounts": {
+      "2026": 82798.0,
+      "2027": 153650.0,
+      "2028": 100000.0,
+      "2029": 60000.0,
+      "2030": 60000.0,
+      "2031": 60000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.0,
+      "2027": 5.57,
+      "2028": 3.63,
+      "2029": 2.18,
+      "2030": 2.18,
+      "2031": 2.18
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "01.",
+    "bd_short": "Kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap e",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands staat garant voor een kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap en de natuur.\nWe voeren een milieubeleid met focus op afvalreductie, zwerfvuilbestrijding en burgerparticipatie. Via RUP’s en masterplannen sturen we op een toekomstgerichte ruimtelijke inrichting. Klimaatrobuuste groenzones, waterbeheer en bosuitbreiding versterken de open ruimte. Klimaatadaptatie en -mitigatie maken onze leefomgeving weerbaar en duurzaam. Zo bouwen we aan een gezonde en harmonieuze leefomgeving voor iedereen.",
+    "ap_code": "01-04",
+    "ap_short": "Versterken van klimaatmaatregelen en duurzame ontwikkeling",
+    "ap_long": "Het lokaal bestuur versterkt zijn klimaatbeleid met gerichte maatregelen rond adaptatie en mitigatie. We vergroenen woonwijken, ontharden publieke ruimte en wapenen ons tegen droogte en hittestress. Tegelijk zetten we in op CO₂-reductie via een duurzaam patrimonium, een energiezuinig wagenpark en hernieuwbare energie.",
+    "ac_code": "O-01-0402",
+    "ac_short": "Inzetten op klimaatmitigatie (warmteplan, wagenpark en gebouwenpatrimonium, hernieuwbare energie …)",
+    "ac_long": "Om de klimaatdoelstellingen uit het Lokaal Energie- en Klimaatplan te behalen, moet Puurs-Sint-Amands tegen 2030 nog voor 94.615 ton aan extra CO₂-reductiemaatregelen nemen. Vervoer is de grootste uitstoter, gevolgd door industrie en huishoudens, waarbij vooral bij huishoudens al een duidelijke daling merkbaar is. Hernieuwbare energie draagt bij tot vermeden uitstoot, maar het zonnepotentieel wordt nog onvoldoende benut. Voor het eigen patrimonium streeft het lokaal bestuur naar een CO₂-reductie van 50%, waarvan bijna de helft (21%) gerealiseerd is. Concrete acties zijn het opstellen van een warmteplan, het plaatsen van LED-verlichting in gemeentelijke gebouwen, en het verduurzamen van het gebouwenpatrimonium via renovaties, automatisering en energieprestatie-opvolging. Ook verduurzamen we het wagenpark, met focus op elektrificatie, laadpaalinfrastructuur en deelmobiliteit. Tot slot zet het lokaal bestuur in op het verhogen van het aandeel hernieuwbare energie, onder meer via eigen zonnepaneleninstallaties en ondersteuning van lokale initiatieven.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 480000.0,
+    "amount_per_capita": 17.41,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 280000.0,
+      "2029": 200000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 10.16,
+      "2029": 7.25,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "09.",
+    "bd_short": "Een veilige leefomgeving door inzet van politie, brandweer, andere diensten en integrale veiligheids",
+    "bd_long": "Kwalitatieve omschrijving:  Puurs-Sint-Amands zorgt voor een veilige leefomgeving door effectieve samenwerking met politie, brandweer en andere veiligheidsdiensten, en zet in op integrale veiligheidsmaatregelen, crisisbeheer en preventie. We versterken de publieke en civiele veiligheid via samenwerking met politiezone, hulpverleningszone en de gemeente Bornem. Preventie, toezicht en noodplanning staan centraal in ons veiligheidsbeleid. Via overleg en gezamenlijke acties verhogen we het veiligheidsgevoel bij inwoners. Integrale en gecoördineerde aanpak zorgt voor een doeltreffende respons op lokale veiligheidsuitdagingen.",
+    "ap_code": "09-01",
+    "ap_short": "Publieke veilgheid is geregeld op regionaal gebied",
+    "ap_long": "Het lokaal bestuur versterkt de publieke en civiele veiligheid via nauwe samenwerking met de Politiezone Rivierenland en Hulpverleningszone Rivierenland. We zetten in op preventie, toezicht en noodplanning, en verhogen het veiligheidsgevoel via overleg en gezamenlijke acties. Samen met Bornem bouwen we aan een geïntegreerd veiligheidsbeleid dat inzet op samenwerking, bewustwording en gedeelde verantwoordelijkheid tussen bestuur, partners en inwoners.",
+    "ac_code": "G-09-0101",
+    "ac_short": "De publieke veiligheid verhogen samen met de Politiezone Rivierenland",
+    "ac_long": "Het lokaal bestuur wil in nauwe samenwerking met de Politiezone Rivierenland de publieke veiligheid bevorderen door een geïntegreerd veiligheidsbeleid te voeren dat inzet op preventie, toezicht en handhaving. De nadruk ligt op het voorkomen van overlast en criminaliteit, het verhogen van verkeersveiligheid en het versterken van het veiligheidsgevoel bij inwoners.\nDoor structureel overleg en gezamenlijke initiatieven wordt een efficiënte en gecoördineerde aanpak van veiligheidsvraagstukken gerealiseerd. Daarnaast wordt gewerkt aan bewustwording en burgerparticipatie, zodat veiligheid een gedeelde verantwoordelijkheid wordt tussen bestuur, politie en inwoners. Minstens één keer per jaar brengt de korpschef uitgebreid verslag uit in de gemeenteraadscommissie over de politiewerking en de veiligheidssituatie in de gemeente.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 16.32,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.72,
+      "2027": 2.72,
+      "2028": 2.72,
+      "2029": 2.72,
+      "2030": 2.72,
+      "2031": 2.72
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "06.",
+    "bd_short": "Puurs-Sint-Amands zet erfgoed, cultuur en toerisme in als motor van beleving en identiteit",
+    "bd_long": "Kwalitatieve omschrijving: We versterken erfgoed en toerisme via musea, restauraties en een toekomstgericht kerkenbeleid. Cultuur krijgt vorm via een breed programma, educatie en toegankelijke infrastructuur. cc Binder, de bibliotheek en de Kunstacademie zijn centrale pijlers in ons cultuurbeleid. Kunstbeleving en regionale samenwerking zorgen voor een dynamisch en herkenbaar aanbod. Zo bouwen we aan een gemeente met een sterke culturele identiteit en belevingswaarde.",
+    "ap_code": "06-02",
+    "ap_short": "Cultuur versterken via programmatie, educatie en infrastructuur",
+    "ap_long": "Het lokaal bestuur versterkt cultuur via een breed programma, educatie en toegankelijke infrastructuur. Cultuur Centrum Binder ontwikkelt een geïntegreerd aanbod met focus op film, familie, jongeren en scholen, afgestemd op regionale noden. Via bibliotheek, gemeenschapscentra en Kunstacademie bouwen we aan een sterk educatief netwerk. We stimuleren kunstbeleving en investeren in infrastructuur om cultuurparticipatie voor alle doelgroepen te bevorderen.",
+    "ac_code": "G-06-0205",
+    "ac_short": "Onderhouden en versterken van cc Binder, Bibliotheek, Kunstacademie als infrastructuurdragers",
+    "ac_long": "Puurs-Sint-Amands investeert in het onderhouden en versterken van cc Binder, de bibliotheek en de kunstacademie als centrale infrastructuurdragers van het lokale cultuurbeleid. Deze gebouwen vormen de ruggengraat van een toegankelijk en kwalitatief vrijetijdsaanbod. Regelmatig onderhoud, duurzame renovaties en functionele aanpassingen zorgen voor een optimale gebruikerservaring. De infrastructuur stemmen we af op de noden van diverse doelgroepen en toekomstige ontwikkelingen. We stimuleren samenwerking tussen de instellingen om synergie en efficiëntie te bevorderen. Zo blijven deze locaties toekomstbestendig en maatschappelijk relevant.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 326740.0,
+    "amount_per_capita": 11.85,
+    "yearly_amounts": {
+      "2026": 214240.0,
+      "2027": 22500.0,
+      "2028": 22500.0,
+      "2029": 22500.0,
+      "2030": 22500.0,
+      "2031": 22500.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.77,
+      "2027": 0.82,
+      "2028": 0.82,
+      "2029": 0.82,
+      "2030": 0.82,
+      "2031": 0.82
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "03.",
+    "bd_short": "Kwalitatieve en betaalbare woningen en bouwplekken in aangename buurten en woonkernen, met aandacht",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands zorgt voor kwalitatieve en betaalbare woningen en bouwplekken in aangename buurten en woonkernen, met aandacht voor  kernversterking. We realiseren nieuwe woonontwikkelingen en zetten in op betaalbare, diverse woonvormen voor verschillende doelgroepen. Via masterplannen en dorpskernvernieuwing versterken we de leefkwaliteit en publieke ruimte. Alternatieve woonconcepten en sociale doelstellingen krijgen een plaats in het woonbeleid. Zo bouwen we aan duurzame, verbonden en aantrekkelijke woonkernen.",
+    "ap_code": "03-01",
+    "ap_short": "Inzetten op  een kwalitatief, betaalbaar en duurzaam woningaanbod",
+    "ap_long": "Het lokaal bestuur zet in op een kwalitatief, betaalbaar en duurzaam woningaanbod dat inspeelt op de noden van diverse doelgroepen. We realiseren nieuwe woonontwikkelingen binnen masterplannen en onderzoeken alternatieve woonvormen zoals meer-generatiewonen en tiny houses. Tegelijk zetten we in op sociale doelstellingen en duurzame dorpsontwikkeling, met aandacht voor leefkwaliteit, mobiliteit en publieke ruimte.",
+    "ac_code": "G-03-0101",
+    "ac_short": "Divers en betaalbaar woonaanbod afhankelijk van de woonnoden van de verschillende doelgroepen",
+    "ac_long": "Zorgen voor een divers en betaalbaar woonaanbod afhankelijk van de woonnoden van de verschillende doelgroepen. Om het woonaanbod in Puurs-Sint-Amands betaalbaarder en diverser te maken, onderzoeken we hoe alternatieve woonvormen zoals meer-generatiewonen, tiny houses, seniorenwoningen en andere concepten kunnen integreren, zowel voor verhuur als verkoop. Het lokaal bestuur stimuleert en faciliteert de sociale woonmaatschappij Woonveer om de doelstelling van het Bindend Sociaal Objectief te halen. Jaarlijks legt Woonveer de gemeenteraad een voortgangsrapportage voor. Het project Schoubroeck voorziet vier extra units om de wachtlijst voor het woonwagenterrein weg te werken. In het binnengebied Hooiveld en op de zorgsite  Sint-Amands streven we naar de bouw van kleinschalige sociale woningen voor senioren.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 10.88,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "10.",
+    "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
+    "ap_code": "10-04",
+    "ap_short": "Een performante digitale infrastructuur/werking voor veilige, efficiënte en innovatieve werkomgeving",
+    "ap_long": "Realiseren van een performante digitale infrastructuur en werking om een veilige, efficiënte en innovatieve werkomgeving te waarborgen: Wij streven naar een betrouwbare en performante netwerkstructuur, waarbij data veilig beheerd en gemakkelijk toegankelijk is. Onze werkmiddelen ondersteunen de uitvoering van de doelstellingen optimaal. De digitale werkplek wordt effectief, efficiënt en correct gebruikt. Incidenten en problemen worden voorkomen en efficiënt en klantvriendelijk behandeld. We stimuleren innovatie en zetten hier gericht op in om continue verbetering te waarborgen.",
+    "ac_code": "G-10-0401",
     "ac_short": "Het netwerk is betrouwbaar en performant",
     "ac_long": "De organisatie zet in op de beschikbaarheid van onze digitale communicatie en digitale oplossingen. Hiervoor is een snel en betrouwbaar netwerk een kritische succes factor. We streven daarom naar een betrouwbare en performante netwerkinfrastructuur.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 3527950.0,
-    "amount_per_capita": 128.09,
+    "total_amount": 260695.0,
+    "amount_per_capita": 9.46,
     "yearly_amounts": {
-      "2026": 870500.0,
-      "2027": 459250.0,
-      "2028": 1768200.0,
-      "2029": 350000.0,
+      "2026": 79195.0,
+      "2027": 36300.0,
+      "2028": 36300.0,
+      "2029": 36300.0,
+      "2030": 36300.0,
+      "2031": 36300.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.87,
+      "2027": 1.32,
+      "2028": 1.32,
+      "2029": 1.32,
+      "2030": 1.32,
+      "2031": 1.32
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "01.",
+    "bd_short": "Kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap e",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands staat garant voor een kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap en de natuur.\nWe voeren een milieubeleid met focus op afvalreductie, zwerfvuilbestrijding en burgerparticipatie. Via RUP’s en masterplannen sturen we op een toekomstgerichte ruimtelijke inrichting. Klimaatrobuuste groenzones, waterbeheer en bosuitbreiding versterken de open ruimte. Klimaatadaptatie en -mitigatie maken onze leefomgeving weerbaar en duurzaam. Zo bouwen we aan een gezonde en harmonieuze leefomgeving voor iedereen.",
+    "ap_code": "01-03",
+    "ap_short": "Creëren van klimaatrobuuste groene ruimtes met aandacht voor water",
+    "ap_long": "Het lokaal bestuur versterkt de leefomgeving met toegankelijke, klimaatrobuuste groenzones en een doordacht waterbeheer. We realiseren nieuwe parken en groene verbindingen nabij woonkernen, voeren landinrichtingsplannen uit en verbeteren de waterhuishouding in het buitengebied. Via bosuitbreiding verhogen we de biodiversiteit en leefkwaliteit. Deze geïntegreerde aanpak maakt onze open ruimte veerkrachtiger en aantrekkelijker.",
+    "ac_code": "G-01-0303",
+    "ac_short": "Versterken van het waterbeheer",
+    "ac_long": "Het hemelwater- en droogteplan vormt de basis voor acties zoals het riviercontract van de Vliet-Molenbeek, met aandacht voor overstromingsresistent verbouwen, buffering in woonkernen en sensibilisering rond regenwateropvang. Bij werken op openbaar domein leggen we buffer- en infiltratiebekkens en collectieve hemelwaterputten aan. Daarnaast stimuleren we Blue Deal-projecten, onderzoeken we ruimte voor water  in Lippelodorp en Tekbroek, verbeteren we de doorstroom van de Klaverbeek en herinrichten we de dorpsloop in Sint-Amands.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 245000.0,
+    "amount_per_capita": 8.89,
+    "yearly_amounts": {
+      "2026": 45000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 200000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.63,
+      "2027": 0,
+      "2028": 0,
+      "2029": 7.25,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "07.",
+    "bd_short": "Puurs-Sint-Amands stimuleert en ondersteunt het ondernemerschap op maat.",
+    "bd_long": "Kwalitatieve omschrijving: We versterken dorpscentra via kernversterkend beleid, ondersteuning van handel en horeca, en aantrekkelijke publieke ruimte. Markten, kermissen en ambulante handel zorgen voor levendige ontmoetingsplekken. Starterssteun, leegstandsbestrijding en samenwerking met ondernemers stimuleren lokaal ondernemerschap. Zo bouwen we aan bruisende kernen met een sterk economisch en sociaal weefsel.",
+    "ap_code": "07-02",
+    "ap_short": "Levendige dorpscentra en bloeiende lokale handel versterken",
+    "ap_long": "Het lokaal bestuur versterkt levendige dorpscentra en ondersteunt een bloeiende lokale handel. We voeren een kernversterkend beleid met aandacht voor leegstandsbestrijding, starterssteun en aantrekkelijke publieke ruimte. Via een flexibel terrassenbeleid en samenwerking met horeca-uitbaters stimuleren we beleving en ondernemerschap. Zo creëren we bruisende kernen waar handel, horeca en ontmoeting samenkomen.",
+    "ac_code": "G-07-0201",
+    "ac_short": "Voeren van een kernversterkend beleid om het kernwinkelgebied op de commerciële kaart te zetten",
+    "ac_long": "Voeren van een kernversterkend beleid om het kernwinkelgebied op de commerciële kaart te zetten en om een basisaanbod in de leefgemeenschappen te garanderen: We zetten volop in op een levendig en aantrekkelijk centrum, met een sterk handelsaanbod en een uitnodigend openbaar domein. Via actief makelaarschap en een doordacht pandenbeleid bestrijden we leegstand en trekken we nieuwe ondernemers aan. Met subsidies voor starters en verfraaiing ondersteunen we onze handelaars. We streven naar kwaliteit, variatie en beleving met een bruisend centrum waar bezoekers kunnen genieten van gezellig winkelen, lekker tafelen en sfeervolle evenementen, in een verzorgde en aantrekkelijke openbare ruimte die uitnodigt tot ontmoeting. Daarnaast zetten we in op het behoud en de versterking van een basisaanbod in elke leefgemeenschap, met nabijgelegen buurtwinkels en toegankelijke geldautomaten die voorzien in de dagelijkse behoeften van onze inwoners en bijdragen aan de leefbaarheid van de leefgemeenschappen.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 240000.0,
+    "amount_per_capita": 8.7,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 40000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
       "2030": 40000.0,
       "2031": 40000.0
     },
     "yearly_per_capita": {
-      "2026": 31.61,
-      "2027": 16.67,
-      "2028": 64.2,
-      "2029": 12.71,
+      "2026": 1.45,
+      "2027": 1.45,
+      "2028": 1.45,
+      "2029": 1.45,
       "2030": 1.45,
       "2031": 1.45
     }
@@ -104,35 +1022,375 @@
   {
     "municipality": "Puurs-Sint-Amands",
     "nis_code": "12041",
+    "bd_code": "01.",
+    "bd_short": "Kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap e",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands staat garant voor een kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap en de natuur.\nWe voeren een milieubeleid met focus op afvalreductie, zwerfvuilbestrijding en burgerparticipatie. Via RUP’s en masterplannen sturen we op een toekomstgerichte ruimtelijke inrichting. Klimaatrobuuste groenzones, waterbeheer en bosuitbreiding versterken de open ruimte. Klimaatadaptatie en -mitigatie maken onze leefomgeving weerbaar en duurzaam. Zo bouwen we aan een gezonde en harmonieuze leefomgeving voor iedereen.",
+    "ap_code": "01-03",
+    "ap_short": "Creëren van klimaatrobuuste groene ruimtes met aandacht voor water",
+    "ap_long": "Het lokaal bestuur versterkt de leefomgeving met toegankelijke, klimaatrobuuste groenzones en een doordacht waterbeheer. We realiseren nieuwe parken en groene verbindingen nabij woonkernen, voeren landinrichtingsplannen uit en verbeteren de waterhuishouding in het buitengebied. Via bosuitbreiding verhogen we de biodiversiteit en leefkwaliteit. Deze geïntegreerde aanpak maakt onze open ruimte veerkrachtiger en aantrekkelijker.",
+    "ac_code": "G-01-0304",
+    "ac_short": "Uitbreiden van het bosareaal",
+    "ac_long": "Door actief het bosareaal uit te breiden, zowel via wijkgroen, als groen in de nabijheid van de woonkernen, draagt het lokaal bestuur bij aan klimaatbestendige groengebieden volgens de visie ‘Groenblauwe structuren als uitgangspunt’ uit het beleidsplan Ruimte en Mobiliteit. Dit gebeurt na de verdere aanplant van de Steenbossen, via bosuitbreiding binnen de diverse masterplannen en de beboom-actie waarbij we minstens één boom per inwoner aanplanten de komende legislatuur (30 000 bomen).",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 215000.0,
+    "amount_per_capita": 7.8,
+    "yearly_amounts": {
+      "2026": 152500.0,
+      "2027": 12500.0,
+      "2028": 12500.0,
+      "2029": 12500.0,
+      "2030": 12500.0,
+      "2031": 12500.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.53,
+      "2027": 0.45,
+      "2028": 0.45,
+      "2029": 0.45,
+      "2030": 0.45,
+      "2031": 0.45
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
     "bd_code": "10.",
     "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
     "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
-    "ap_code": "10",
-    "ap_short": "Een performante digitale infrastructuur/werking voor veilige, efficiënte en innovatieve werkomgeving",
-    "ap_long": "Realiseren van een performante digitale infrastructuur en werking om een veilige, efficiënte en innovatieve werkomgeving te waarborgen: Wij streven naar een betrouwbare en performante netwerkstructuur, waarbij data veilig beheerd en gemakkelijk toegankelijk is. Onze werkmiddelen ondersteunen de uitvoering van de doelstellingen optimaal. De digitale werkplek wordt effectief, efficiënt en correct gebruikt. Incidenten en problemen worden voorkomen en efficiënt en klantvriendelijk behandeld. We stimuleren innovatie en zetten hier gericht op in om continue verbetering te waarborgen.",
-    "ac_code": "Z",
-    "ac_short": "Het netwerk is betrouwbaar en performant",
-    "ac_long": "De organisatie zet in op de beschikbaarheid van onze digitale communicatie en digitale oplossingen. Hiervoor is een snel en betrouwbaar netwerk een kritische succes factor. We streven daarom naar een betrouwbare en performante netwerkinfrastructuur.",
+    "ap_code": "10-05",
+    "ap_short": "Realiseren van een performant communicatiebeleid",
+    "ap_long": "Het lokaal bestuur bouwt aan een performant communicatiebeleid met moderne, toegankelijke en verbindende kanalen. We versterken onze digitale communicatie via een vernieuwde website, nieuwsbrieven, sociale media en AI-ondersteuning. Tegelijk blijven we inzetten op printmedia zoals PSSST en UIT om ook minder digitaal vaardige inwoners te bereiken. Heldere taal, storytelling en interne communicatie zorgen voor betrokkenheid bij zowel inwoners als medewerkers.",
+    "ac_code": "G-10-0501",
+    "ac_short": "Blijvend ontwikkelen van kwaliteitsvolle en verbindende communicatiekanalen",
+    "ac_long": "> zie ook 08.01.03 Inzetten op moderne en inclusieve communicatiekanalen\nWe bouwen onze website verder uit tot een digitale en levendige kennisplatform. We investeren in digitale infoborden in elke woonkern en in een virtuele assistent en AI-ondersteuning om burgers sneller en efficiënter te informeren en te helpen.  \nWe zetten sterk in op communicatie in klare taal, zodat iedereen onze boodschap begrijpt.  Niet enkel via digitale kanalen zoals nieuwsbrieven en sociale media maar ook via aantrekkelijke printkanalen zoals magazines PSSST en UIT. Zo bereiken we ook onze niet of minder digitaalvaardige inwoners. Qua content zetten in op informatie, verbinding en storytelling. Communicatie voor, over en door onze inwoners en stakeholders zorgt voor extra verbondenheid en fierheid. \nOok via doorgedreven digitale interne communicatie informeren we onze werknemers én zorgen we voor verbinding. Medewerkers die minder digitaal vaardig zijn, ondersteunen we en sporen we aan om de communicatiekanalen te volgen. \nDe komende jaren versterken we onze communicatiemix met enkele digitale infoborden in de publieke ruimte. Zo zetten we in op push-communicatie met goed overwogen overheidsboodschappen in combinatie met aankondigingen van verenigingen.  Digitale borden brengen informatie makkelijk tot bij niet-digitaalvaardige inwoners maar zorgen ook voor herhaling en sensibilisering voor iedereen.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 763466.0,
-    "amount_per_capita": 27.72,
+    "total_amount": 197230.0,
+    "amount_per_capita": 7.15,
     "yearly_amounts": {
-      "2026": 367156.0,
-      "2027": 78205.0,
-      "2028": 78725.0,
-      "2029": 79255.0,
-      "2030": 79790.0,
-      "2031": 80335.0
+      "2026": 197230.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 13.33,
-      "2027": 2.84,
-      "2028": 2.86,
-      "2029": 2.88,
-      "2030": 2.9,
-      "2031": 2.92
+      "2026": 7.15,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "09.",
+    "bd_short": "Een veilige leefomgeving door inzet van politie, brandweer, andere diensten en integrale veiligheids",
+    "bd_long": "Kwalitatieve omschrijving:  Puurs-Sint-Amands zorgt voor een veilige leefomgeving door effectieve samenwerking met politie, brandweer en andere veiligheidsdiensten, en zet in op integrale veiligheidsmaatregelen, crisisbeheer en preventie. We versterken de publieke en civiele veiligheid via samenwerking met politiezone, hulpverleningszone en de gemeente Bornem. Preventie, toezicht en noodplanning staan centraal in ons veiligheidsbeleid. Via overleg en gezamenlijke acties verhogen we het veiligheidsgevoel bij inwoners. Integrale en gecoördineerde aanpak zorgt voor een doeltreffende respons op lokale veiligheidsuitdagingen.",
+    "ap_code": "09-01",
+    "ap_short": "Publieke veilgheid is geregeld op regionaal gebied",
+    "ap_long": "Het lokaal bestuur versterkt de publieke en civiele veiligheid via nauwe samenwerking met de Politiezone Rivierenland en Hulpverleningszone Rivierenland. We zetten in op preventie, toezicht en noodplanning, en verhogen het veiligheidsgevoel via overleg en gezamenlijke acties. Samen met Bornem bouwen we aan een geïntegreerd veiligheidsbeleid dat inzet op samenwerking, bewustwording en gedeelde verantwoordelijkheid tussen bestuur, partners en inwoners.",
+    "ac_code": "G-09-0102",
+    "ac_short": "De civiele veiligheid verhogen samen met de hulpverleningszone Rivierenland",
+    "ac_long": "Het lokaal bestuur wil, in nauwe samenwerking met de Hulpverleningszone Rivierenland, zorgen voor een doeltreffende en goed georganiseerde aanpak van noodsituaties, brandveiligheid en rampenpreventie. \nHet bestuur streeft naar een veilig leef- en werkklimaat door te investeren in een efficiënte nood- en interventiestructuur, duidelijke communicatiekanalen en een nauwe afstemming tussen de lokale diensten en de hulpverleningszone. Naast operationele samenwerking wordt ingezet op preventieve maatregelen, zoals brandpreventiecampagnes, risicoanalyses van gemeentelijke infrastructuur en ondersteuning van vrijwilligers binnen de civiele hulpverlening.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 184200.0,
+    "amount_per_capita": 6.68,
+    "yearly_amounts": {
+      "2026": 30700.0,
+      "2027": 30700.0,
+      "2028": 30700.0,
+      "2029": 30700.0,
+      "2030": 30700.0,
+      "2031": 30700.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.11,
+      "2027": 1.11,
+      "2028": 1.11,
+      "2029": 1.11,
+      "2030": 1.11,
+      "2031": 1.11
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "10.",
+    "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
+    "ap_code": "10-04",
+    "ap_short": "Een performante digitale infrastructuur/werking voor veilige, efficiënte en innovatieve werkomgeving",
+    "ap_long": "Realiseren van een performante digitale infrastructuur en werking om een veilige, efficiënte en innovatieve werkomgeving te waarborgen: Wij streven naar een betrouwbare en performante netwerkstructuur, waarbij data veilig beheerd en gemakkelijk toegankelijk is. Onze werkmiddelen ondersteunen de uitvoering van de doelstellingen optimaal. De digitale werkplek wordt effectief, efficiënt en correct gebruikt. Incidenten en problemen worden voorkomen en efficiënt en klantvriendelijk behandeld. We stimuleren innovatie en zetten hier gericht op in om continue verbetering te waarborgen.",
+    "ac_code": "G-10-0402",
+    "ac_short": "Data worden veilig beheerd en zijn gemakkelijk toegankelijk",
+    "ac_long": "Het is de verantwoordelijkheid van de organisatie om gegevens die zij beheert op een veilige en zorgvuldige manier te beschermen. \nDe organisatie waarborgt de kernprincipes van informatieveiligheid: Vertrouwelijkheid, integriteit en beschikbaarheid en vult deze aan met traceerbaarheid en authenticiteit van identiteit. Ze ziet er ook op toe dat de leveranciers voldoen aan de kernprincipes van informatieveiligheid. \nTegelijkertijd zorgt de organisatie ervoor dat relevante belanghebbenden gegevens en informatie snel en eenvoudig kunnen raadplegen, zodat burgers effectief en tijdig worden geholpen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 144712.0,
+    "amount_per_capita": 5.25,
+    "yearly_amounts": {
+      "2026": 138178.0,
+      "2027": 2178.0,
+      "2028": 2178.0,
+      "2029": 2178.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.01,
+      "2027": 0.08,
+      "2028": 0.08,
+      "2029": 0.08,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "10.",
+    "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
+    "ap_code": "10-04",
+    "ap_short": "Een performante digitale infrastructuur/werking voor veilige, efficiënte en innovatieve werkomgeving",
+    "ap_long": "Realiseren van een performante digitale infrastructuur en werking om een veilige, efficiënte en innovatieve werkomgeving te waarborgen: Wij streven naar een betrouwbare en performante netwerkstructuur, waarbij data veilig beheerd en gemakkelijk toegankelijk is. Onze werkmiddelen ondersteunen de uitvoering van de doelstellingen optimaal. De digitale werkplek wordt effectief, efficiënt en correct gebruikt. Incidenten en problemen worden voorkomen en efficiënt en klantvriendelijk behandeld. We stimuleren innovatie en zetten hier gericht op in om continue verbetering te waarborgen.",
+    "ac_code": "O-10-0406",
+    "ac_short": "Digitale oplossingen ondersteunen de doelstellingen van de organisatie",
+    "ac_long": "We zoeken een optimale balans tussen toepassingen die volledig zijn afgestemd op de behoeften en wensen van de gebruikers, kostenefficiëntie, duurzaamheid en beheersbaarheid. De balans vinden wordt verder bemoeilijkt door de bijna monopoliep6ositie van enkele dienstenleveranciers. Dit vereist een geïntegreerde benadering waarbij technologie-innovatie en duurzaamheid centraal staan. Het is essentieel om systematische methodologieën en effectieve tools te ontwikkelen die organisaties helpen bij het evalueren en maximaliseren van de potentiële voordelen van nieuwe technologieën. Bovendien is het belangrijk om strategieën te ontwikkelen om de afhankelijkheid van één leverancier te verminderen en concurrentie te bevorderen, wat kan bijdragen aan een meer evenwichtige en veerkrachtige technologische infrastructuur.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 123143.0,
+    "amount_per_capita": 4.47,
+    "yearly_amounts": {
+      "2026": 50543.0,
+      "2027": 0,
+      "2028": 60500.0,
+      "2029": 0,
+      "2030": 12100.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.83,
+      "2027": 0,
+      "2028": 2.19,
+      "2029": 0,
+      "2030": 0.44,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "01.",
+    "bd_short": "Kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap e",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands staat garant voor een kwalitatieve, verzorgde en duurzame leefomgeving met respect voor en in harmonie met het landschap en de natuur.\nWe voeren een milieubeleid met focus op afvalreductie, zwerfvuilbestrijding en burgerparticipatie. Via RUP’s en masterplannen sturen we op een toekomstgerichte ruimtelijke inrichting. Klimaatrobuuste groenzones, waterbeheer en bosuitbreiding versterken de open ruimte. Klimaatadaptatie en -mitigatie maken onze leefomgeving weerbaar en duurzaam. Zo bouwen we aan een gezonde en harmonieuze leefomgeving voor iedereen.",
+    "ap_code": "01-04",
+    "ap_short": "Versterken van klimaatmaatregelen en duurzame ontwikkeling",
+    "ap_long": "Het lokaal bestuur versterkt zijn klimaatbeleid met gerichte maatregelen rond adaptatie en mitigatie. We vergroenen woonwijken, ontharden publieke ruimte en wapenen ons tegen droogte en hittestress. Tegelijk zetten we in op CO₂-reductie via een duurzaam patrimonium, een energiezuinig wagenpark en hernieuwbare energie.",
+    "ac_code": "G-01-0401",
+    "ac_short": "Inzetten op klimaatadaptie (ontharden, aanpakken droogte- en hittestress, waterrobuste inrichting …)",
+    "ac_long": "Door het Burgemeestersconvenant 2030 en het Lokaal Energie- en Klimaatplan engageert het lokaal bestuur om zich beter te wapenen tegen de gevolgen van klimaatverandering. Klimaatadaptatie krijgt concreet vorm via ontharding, groenaanplant en slim waterbeheer en 1 boom per inwoner tegen 2030. Om de leefomgeving klimaatrobuuster en aangenamer te maken, zetten we actief in op het vergroenen van woonwijken.  Bij heraanleg van stoepen en parkings kiezen we voor waterdoorlatende materialen. Verder sensibiliseren we inwoners en bedrijven om, net als de scholen, ook zelf actie te ondernemen en hun omgeving klimaatbestendiger te maken.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 4.35,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.73,
+      "2027": 0.73,
+      "2028": 0.73,
+      "2029": 0.73,
+      "2030": 0.73,
+      "2031": 0.73
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "04.",
+    "bd_short": "Een warme, zorgzame gemeente waar iedereen optimaal kan deelnemen aan de samenleving",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands is een warme, zorgzame gemeente waar iedereen optimaal kan deelnemen aan de samenleving, dankzij hulpverlening op maat, een netwerk van welzijnsvoorzieningen en in samenwerking met welzijnsactoren. We garanderen sociale grondrechten via toegankelijke hulpverlening, activering en woonbegeleiding. Thuiszorg en ouderenzorg worden versterkt om zelfstandig wonen mogelijk te maken. Via dienstencentra, Huis van het Kind en buitenschoolse opvang bouwen we aan warme buurten. Vrijwilligers en participatie zorgen voor betrokkenheid en inclusie. We werken samen met lokale partners aan een gedragen en geïntegreerd welzijnsbeleid.",
+    "ap_code": "04-01",
+    "ap_short": "Garanderen van sociale grondrechten via sterk sociaal beleid",
+    "ap_long": "Het lokaal bestuur garandeert sociale grondrechten via toegankelijke hulpverlening, activering en woonondersteuning. We pakken onderbescherming aan via outreachend werk en projectwerking, en begeleiden kwetsbare inwoners richting werk via trajecten op maat. Tegelijk verbeteren we de woonsituatie van diverse doelgroepen en ondersteunen we de integratie van vluchtelingen. Zo bouwen we aan een inclusief en rechtvaardig sociaal beleid.",
+    "ac_code": "O-04-0103",
+    "ac_short": "Inzetten op pro-actieve woonbegeleiding en inzetten op een betere woonsituatie voor diverse doelgroe",
+    "ac_long": "Het OCMW combineert regisseurs- en actorrol in het woonbeleid: beheer van noodwoningen, crisiswoningen, woonbegeleiding en burenbemiddeling. Via Woonveer worden sociale woningen ter beschikking gesteld als noodwoningen naast onze eigen noodwoningen. De problematiek van dak-en thuislozen pakken we samen met het CAW regionaal aan.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 2.18,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.36,
+      "2027": 0.36,
+      "2028": 0.36,
+      "2029": 0.36,
+      "2030": 0.36,
+      "2031": 0.36
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "02.",
+    "bd_short": "Veilige, duurzame mobiliteitsinfrastructuur met verbeterde wegen, fietspaden, openbaar vervoer en pe",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands investeert in veilige, duurzame mobiliteitsinfrastructuur met verbeterde wegen, fietspaden, openbaar vervoer en een performant water- en rioleringsbeheer: We zetten actief in op duurzame mobiliteit via veilige fietsinfrastructuur, betere verbindingen en een doordacht mobiliteitsplan. Bovenlokale projecten volgen we nauw op om de bereikbaarheid en het openbaar vervoer te verbeteren. In samenwerking met Hidrorio vernieuwen en onderhouden we wegen, fietspaden, waterlopen en riolering. Zo bouwen we aan een veilige en goed bereikbare gemeente met toekomstgerichte infrastructuur.",
+    "ap_code": "02-01",
+    "ap_short": "Duurzame mobiliteit via veilige infrastructuur, vlotte verbindingen en slimme vervoersoplossingen",
+    "ap_long": "Actief inzetten op duurzame mobiliteit via veilige infrastructuur, vlotte verbindingen en slimme vervoersoplossingen: Het lokaal bestuur zet actief in op duurzame mobiliteit via veilige fietsinfrastructuur, vlotte verbindingen en doordacht beleid. We realiseren nieuwe fietspaden, versterken het fietsbeleid en pakken missing links aan. Via het mobiliteitsplan sturen we op circulatie, parkeren en basisbereikbaarheid. Tegelijk verdedigen we onze belangen in bovenlokale projecten om de doorstroming en het openbaar vervoer te verbeteren.",
+    "ac_code": "G-02-0102",
+    "ac_short": "Optimaliseren van een netwerk trage wegen",
+    "ac_long": "Het realiseren van een netwerk trage wegen zal de leefbaarheid in en tussen de kernen verbeteren. De focus ligt vooral op het herwaarderen van het bestaande netwerk. Het opstellen van een trage wegenplan, het plaatsen van bebording en een onderhoudsplan zullen ervoor zorgen dat we ook duurzaam verplaatsingsgedrag stimuleren. Er liggen hier eveneens kansen om te ontharden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.09,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.18,
+      "2027": 0.18,
+      "2028": 0.18,
+      "2029": 0.18,
+      "2030": 0.18,
+      "2031": 0.18
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "04.",
+    "bd_short": "Een warme, zorgzame gemeente waar iedereen optimaal kan deelnemen aan de samenleving",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands is een warme, zorgzame gemeente waar iedereen optimaal kan deelnemen aan de samenleving, dankzij hulpverlening op maat, een netwerk van welzijnsvoorzieningen en in samenwerking met welzijnsactoren. We garanderen sociale grondrechten via toegankelijke hulpverlening, activering en woonbegeleiding. Thuiszorg en ouderenzorg worden versterkt om zelfstandig wonen mogelijk te maken. Via dienstencentra, Huis van het Kind en buitenschoolse opvang bouwen we aan warme buurten. Vrijwilligers en participatie zorgen voor betrokkenheid en inclusie. We werken samen met lokale partners aan een gedragen en geïntegreerd welzijnsbeleid.",
+    "ap_code": "04-01",
+    "ap_short": "Garanderen van sociale grondrechten via sterk sociaal beleid",
+    "ap_long": "Het lokaal bestuur garandeert sociale grondrechten via toegankelijke hulpverlening, activering en woonondersteuning. We pakken onderbescherming aan via outreachend werk en projectwerking, en begeleiden kwetsbare inwoners richting werk via trajecten op maat. Tegelijk verbeteren we de woonsituatie van diverse doelgroepen en ondersteunen we de integratie van vluchtelingen. Zo bouwen we aan een inclusief en rechtvaardig sociaal beleid.",
+    "ac_code": "O-04-0104",
+    "ac_short": "Inzetten op begeleiding en integratie van vluchtelingen in functie van bovenlokaal beleid",
+    "ac_long": "Binnen het lokaal opvanginitiatief (LOI) organiseren we 23 opvangplaatsen met materiële hulp en begeleiding. Initiatieven zoals taalondersteuning, babbeluurtjes en oefenkansen Nederlands verankeren we structureel.\nWe behouden de LOI-werking zolang federale afbouwplannen niet concreet zijn.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.09,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.36,
+      "2027": 0.36,
+      "2028": 0.36,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "10.",
+    "bd_short": "Een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde fi",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands ontwikkelt zich verder als een performante en efficiënte organisatie die inzet op innovatie, resultaatgerichtheid en gezonde financiële basis. We bouwen aan een slagkrachtige organisatie met aandacht voor strategisch management, financieel beleid en HR. We versterken de digitale infrastructuur, communicatie en facilitair beheer met oog op efficiëntie, informatieveiligheid en duurzaamheid. We zetten in op datagedreven sturing, kwaliteitsvolle interne processen en continue verbetering. Zo realiseren we een moderne, veilige en toekomstgerichte interne organisatie.",
+    "ap_code": "10-04",
+    "ap_short": "Een performante digitale infrastructuur/werking voor veilige, efficiënte en innovatieve werkomgeving",
+    "ap_long": "Realiseren van een performante digitale infrastructuur en werking om een veilige, efficiënte en innovatieve werkomgeving te waarborgen: Wij streven naar een betrouwbare en performante netwerkstructuur, waarbij data veilig beheerd en gemakkelijk toegankelijk is. Onze werkmiddelen ondersteunen de uitvoering van de doelstellingen optimaal. De digitale werkplek wordt effectief, efficiënt en correct gebruikt. Incidenten en problemen worden voorkomen en efficiënt en klantvriendelijk behandeld. We stimuleren innovatie en zetten hier gericht op in om continue verbetering te waarborgen.",
+    "ac_code": "G-10-0405",
+    "ac_short": "Incidenten en problemen worden voorkomen en efficiënt en klantvriendelijk behandeld",
+    "ac_long": "We trachten incidenten en problemen met de digitale infrastructuur en werking in eerste instantie te voorkomen. Waar deze zicht toch voordoen behandelen we deze klantvriendelijk en efficiënt. We hoeden hier steeds rekening met de organisatorische kost.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 29645.0,
+    "amount_per_capita": 1.08,
+    "yearly_amounts": {
+      "2026": 7865.0,
+      "2027": 7865.0,
+      "2028": 7865.0,
+      "2029": 3025.0,
+      "2030": 3025.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.29,
+      "2027": 0.29,
+      "2028": 0.29,
+      "2029": 0.11,
+      "2030": 0.11,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Puurs-Sint-Amands",
+    "nis_code": "12041",
+    "bd_code": "04.",
+    "bd_short": "Een warme, zorgzame gemeente waar iedereen optimaal kan deelnemen aan de samenleving",
+    "bd_long": "Kwalitatieve omschrijving: Puurs-Sint-Amands is een warme, zorgzame gemeente waar iedereen optimaal kan deelnemen aan de samenleving, dankzij hulpverlening op maat, een netwerk van welzijnsvoorzieningen en in samenwerking met welzijnsactoren. We garanderen sociale grondrechten via toegankelijke hulpverlening, activering en woonbegeleiding. Thuiszorg en ouderenzorg worden versterkt om zelfstandig wonen mogelijk te maken. Via dienstencentra, Huis van het Kind en buitenschoolse opvang bouwen we aan warme buurten. Vrijwilligers en participatie zorgen voor betrokkenheid en inclusie. We werken samen met lokale partners aan een gedragen en geïntegreerd welzijnsbeleid.",
+    "ap_code": "04-04",
+    "ap_short": "Aanbieden diverse diensten om te kunnen leven, werken en wonen in warme en zorgzame buurten",
+    "ap_long": "Aanbieden van diverse diensten en samenwerkingsverbanden die ervoor zorgen dat elke inwoner kan leven, werken en wonen in warme en zorgzame buurten. Het lokaal bestuur bouwt aan warme en zorgzame buurten via buurtgerichte dienstencentra, sterke samenwerking met scholen en een uitgebouwd Huis van het Kind. We investeren in kwaliteitsvolle buitenschoolse opvang en versterken onze regierol in het afstemmen van opvang en activiteiten voor kinderen. Via preventie, gezondheidsbeleid en samenwerking binnen de eerstelijnszone creëren we een geïntegreerd netwerk van zorg en ondersteuning, dicht bij de burger.",
+    "ac_code": "O-04-0405",
+    "ac_short": "Uitbouwen van een lokaal preventie- en gezondheidsbeleid",
+    "ac_long": "Puurs-Sint-Amands ondertekende het charter \"Gezonde Gemeente\", waarbij we streven om het gezondheidsthema te integreren in alle beleidsdomeinen. Dit betekent dat gezondheid niet enkel een thema is binnen welzijn, maar ook meeweegt in ruimtelijke ordening, mobiliteit, sport, jeugd, onderwijs en milieu. We blijven preventies stimuleren door campagnes rond vb. beweging, mentale gezondheid, rookstop, valpreventie bij ouderen, enz. Ook hiervoor vertrekken we vanuit een intense samenwerking met lokale en regionale partners zoals met de intergemeentelijke preventiewerker van de eerstelijnszone Klein-Brabant Vaartland.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.54,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 2500.0,
+      "2028": 2500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.09,
+      "2027": 0.09,
+      "2028": 0.09,
+      "2029": 0.09,
+      "2030": 0.09,
+      "2031": 0.09
     }
   }
 ]

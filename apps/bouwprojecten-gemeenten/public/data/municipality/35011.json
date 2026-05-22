@@ -2,22 +2,22 @@
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
     "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
     "ap_code": "1.4.1",
     "ap_short": "Nieuwe Zeedijk",
     "ap_long": "De gemeente Middelkerke wil de zeedijk heraanleggen met aandacht voor kustveiligheid, esthetiek, toegankelijkheid en multifunctioneel gebruik, inclusief ruimte voor voetgangers, fietsers, horeca en evenementen.",
-    "ac_code": "1.4.1",
+    "ac_code": "1.4.1_1.4.1.1",
     "ac_short": "Nieuwe zeedijk",
     "ac_long": "De gemeente Middelkerke wil de zeedijk heraanleggen met aandacht voor kustveiligheid, esthetiek, toegankelijkheid en multifunctioneel gebruik, inclusief ruimte voor voetgangers, fietsers, horeca en evenementen.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 35000000.0,
-    "amount_per_capita": 1729.97,
+    "total_amount": 35066740.95,
+    "amount_per_capita": 1730.92,
     "yearly_amounts": {
-      "2026": 5000000.0,
+      "2026": 5066740.95,
       "2027": 9000000.0,
       "2028": 9000000.0,
       "2029": 9000000.0,
@@ -25,11 +25,11 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 247.14,
-      "2027": 444.85,
-      "2028": 444.85,
-      "2029": 444.85,
-      "2030": 148.28,
+      "2026": 250.1,
+      "2027": 444.25,
+      "2028": 444.25,
+      "2029": 444.25,
+      "2030": 148.08,
       "2031": 0
     }
   },
@@ -42,50 +42,50 @@
     "ap_code": "",
     "ap_short": "",
     "ap_long": "",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 28494597.0,
-    "amount_per_capita": 1408.42,
+    "total_amount": 33408630.15,
+    "amount_per_capita": 1649.07,
     "yearly_amounts": {
-      "2026": 9024492.0,
-      "2027": 8027282.0,
-      "2028": 5246863.0,
-      "2029": 2637160.0,
-      "2030": 1921900.0,
-      "2031": 1636900.0
+      "2026": 14293525.15,
+      "2027": 7956282.0,
+      "2028": 5175863.0,
+      "2029": 2566160.0,
+      "2030": 1850900.0,
+      "2031": 1565900.0
     },
     "yearly_per_capita": {
-      "2026": 446.06,
-      "2027": 396.77,
-      "2028": 259.34,
-      "2029": 130.35,
-      "2030": 95.0,
-      "2031": 80.91
+      "2026": 705.54,
+      "2027": 392.73,
+      "2028": 255.48,
+      "2029": 126.67,
+      "2030": 91.36,
+      "2031": 77.29
     }
   },
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
     "bd_short": "Verbonden: altijd dichtbij, snel, digitaal en efficiënt",
     "bd_long": "We investeren in een moderne, toegankelijke en efficiënte dienstverlening, met bijzondere aandacht voor de bouw van een nieuw gemeentehuis en verdere digitalisering van processen en loketten. Zo kunnen inwoners, ondernemers en bezoekers hun zaken vlot en",
     "ap_code": "1.1.1",
     "ap_short": "Een nieuw gemeentehuis",
     "ap_long": "Middelkerke bouwt een toekomstbestendig gemeentehuis waar toegankelijke efficiënte dienstverlening en een eigentijdse werkomgeving vooropstaan.",
-    "ac_code": "1.1.1",
+    "ac_code": "1.1.1_1.1.1.1",
     "ac_short": "Bouw nieuw gemeentehuis",
     "ac_long": "Bouw nieuw gemeentehuis",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 25000000.0,
-    "amount_per_capita": 1235.69,
+    "total_amount": 25024660.97,
+    "amount_per_capita": 1235.23,
     "yearly_amounts": {
-      "2026": 5000000.0,
+      "2026": 5024660.97,
       "2027": 9000000.0,
       "2028": 9000000.0,
       "2029": 2000000.0,
@@ -93,10 +93,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 247.14,
-      "2027": 444.85,
-      "2028": 444.85,
-      "2029": 98.86,
+      "2026": 248.02,
+      "2027": 444.25,
+      "2028": 444.25,
+      "2029": 98.72,
       "2030": 0,
       "2031": 0
     }
@@ -104,88 +104,54 @@
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "Jong: toekomst voor gezinnen en jeugd",
     "bd_long": "We creëren een stimulerende omgeving voor de jongste generaties. Dit doen we door te investeren in kwalitatieve kinderopvang, moderne onderwijsinfrastructuur en diverse jeugdvoorzieningen, zodat gezinnen en kinderen alle kansen krijgen om zich te ontwikkelen.",
     "ap_code": "1.5.1",
     "ap_short": "Een integraal jeugdbeleid",
     "ap_long": "Tegen eind 2028 ontwikkelt en implementeert het lokaal bestuur Middelkerke een integraal jeugdbeleid, dat inzet op kwaliteitsvolle opvang, duurzame infrastructuur, mobiliteit, mentaal welzijn en reglementaire verankering. Dit beleid wordt afgestemd op de noden van kinderen, jongeren en hun gezinnen, en wordt gerealiseerd via concrete projecten, beleidskeuzes en samenwerking met onderwijs- en welzijnspartners.",
-    "ac_code": "1.5.1",
-    "ac_short": "Hoeve Pruvost",
-    "ac_long": "Realiseren van een multifunctionele jeugdsite op Hoeve Pruvost, in co-creatie met jongeren en jeugdverenigingen.",
+    "ac_code": "1.5.1_1.5.1.6",
+    "ac_short": "Nieuwe school Leffinge",
+    "ac_long": "Het bouwen van een nieuwe school in Leffinge.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "08-onderwijs"
     ],
-    "total_amount": 13343573.0,
-    "amount_per_capita": 659.54,
+    "total_amount": 8703572.67,
+    "amount_per_capita": 429.61,
     "yearly_amounts": {
-      "2026": 490000.0,
-      "2027": 2290000.0,
-      "2028": 1740000.0,
-      "2029": 40000.0,
-      "2030": 8743573.0,
-      "2031": 40000.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 8703572.67,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 24.22,
-      "2027": 113.19,
-      "2028": 86.0,
-      "2029": 1.98,
-      "2030": 432.17,
-      "2031": 1.98
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 429.61,
+      "2031": 0
     }
   },
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
-    "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
-    "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
-    "ap_code": "1.4.2",
-    "ap_short": "Heraanleg straten en landelijke wegen",
-    "ap_long": "Tegen eind 2031 een veilige, duurzame en toekomstgerichte heraanleg realiseren van straten en landelijke wegen in Middelkerke, met aandacht voor mobiliteit, riolering, bovenbouw en leefkwaliteit.",
-    "ac_code": "1.4.2",
-    "ac_short": "Heraanleg landelijke wegen",
-    "ac_long": "Heraanleg landelijke wegen",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 7350000.0,
-    "amount_per_capita": 363.29,
-    "yearly_amounts": {
-      "2026": 1700000.0,
-      "2027": 2700000.0,
-      "2028": 400000.0,
-      "2029": 520000.0,
-      "2030": 1630000.0,
-      "2031": 400000.0
-    },
-    "yearly_per_capita": {
-      "2026": 84.03,
-      "2027": 133.45,
-      "2028": 19.77,
-      "2029": 25.7,
-      "2030": 80.57,
-      "2031": 19.77
-    }
-  },
-  {
-    "municipality": "Middelkerke",
-    "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
     "bd_short": "Leeft: Sterke dorpen en kernen in een vitale gemeenschap",
     "bd_long": "We versterken de leefbaarheid en aantrekkelijkheid van onze dorpskernen. Door gerichte investeringen in de publieke voorzieningen en het ondersteunen van sport, cultuur en het verenigingsleven, bouwen we mee aan de sociale cohesie en vitaliteit van onze g",
     "ap_code": "1.3.2",
     "ap_short": "Kwalitatief, toegankelijk en toekomstgericht sporbeleid",
     "ap_long": "Tegen eind 2031 bouwt het lokaal bestuur Middelkerke aan een kwalitatieve, toegankelijke en toekomstgerichte sportinfrastructuur en -werking, door te investeren in  sportaccommodaties.",
-    "ac_code": "1.3.2",
+    "ac_code": "1.3.2_1.3.2.1",
     "ac_short": "Nieuwe sporthal De Barloke",
     "ac_long": "Tegen 2031 wordt een nieuwe sporthal De Barloke gebouwd, om veiligheid, comfort, duurzaamheid en gebruiksgemak te verhogen.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 7250000.0,
-    "amount_per_capita": 358.35,
+    "amount_per_capita": 357.86,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 2150000.0,
@@ -196,8 +162,8 @@
     },
     "yearly_per_capita": {
       "2026": 4.94,
-      "2027": 106.27,
-      "2028": 247.14,
+      "2027": 106.13,
+      "2028": 246.8,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -206,20 +172,54 @@
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
+    "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
+    "ap_code": "1.4.2",
+    "ap_short": "Heraanleg straten en landelijke wegen",
+    "ap_long": "Tegen eind 2031 een veilige, duurzame en toekomstgerichte heraanleg realiseren van straten en landelijke wegen in Middelkerke, met aandacht voor mobiliteit, riolering, bovenbouw en leefkwaliteit.",
+    "ac_code": "1.4.2_1.4.2.3",
+    "ac_short": "Spermaliestraat, Leffingestraat en Fleriskotstraat",
+    "ac_long": "Heraanleg van de Spermaliestraat, Leffingestraat en Fleriskotstraat (inclusief fietspad) met aandacht voor mobiliteit, riolering en verkeersveiligheid.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 5037856.76,
+    "amount_per_capita": 248.67,
+    "yearly_amounts": {
+      "2026": 2737856.76,
+      "2027": 2300000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 135.14,
+      "2027": 113.53,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 4",
     "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
     "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
     "ap_code": "1.4.6",
     "ap_short": "Ontsluitingsweg \"Recht naar Zee\"",
     "ap_long": "De gemeente Middelkerke wil een nieuwe ontsluitingsweg \"Recht naar Zee\" realiseren die veilige en vlotte toegang biedt tot de kust voor toeristen, met aandacht voor verkeersveiligheid, landschappelijke integratie en multimodale bereikbaarheid.",
-    "ac_code": "1.4.6",
+    "ac_code": "1.4.6_1.4.6.1",
     "ac_short": "Ontsluitingsweg Recht naar zee",
     "ac_long": "De gemeente Middelkerke realiseert een nieuwe ontsluitingsweg \"Recht naar Zee\" die veilige en vlotte toegang biedt tot de kust voor toeristen, met aandacht voor verkeersveiligheid, landschappelijke integratie en multimodale bereikbaarheid.",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 4000000.0,
-    "amount_per_capita": 197.71,
+    "amount_per_capita": 197.44,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -233,29 +233,29 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 197.71,
+      "2030": 197.44,
       "2031": 0
     }
   },
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
     "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
     "ap_code": "1.4.3",
     "ap_short": "Herinrichting dorpskernen",
     "ap_long": "Tegen eind 2031 de verkeersveiligheid, leefbaarheid en ruimtelijke kwaliteit verbeteren in de dorpskernen van Lombardsijde via de studie, herinrichting en uitvoering van een doortocht.",
-    "ac_code": "1.4.3",
+    "ac_code": "1.4.3_1.4.3.1",
     "ac_short": "Doortocht Lombardsijde",
     "ac_long": "Herinrichting van de doortocht Lombardsijde met veilige oversteekplaatsen, fietsinfrastructuur en heraanleg van het openbaar domein.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 3500000.0,
-    "amount_per_capita": 173.0,
+    "total_amount": 3653019.64,
+    "amount_per_capita": 180.32,
     "yearly_amounts": {
-      "2026": 2000000.0,
+      "2026": 2153019.64,
       "2027": 1500000.0,
       "2028": 0,
       "2029": 0,
@@ -263,8 +263,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 98.86,
-      "2027": 74.14,
+      "2026": 106.27,
+      "2027": 74.04,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -274,22 +274,22 @@
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
     "bd_short": "Verbonden: altijd dichtbij, snel, digitaal en efficiënt",
     "bd_long": "We investeren in een moderne, toegankelijke en efficiënte dienstverlening, met bijzondere aandacht voor de bouw van een nieuw gemeentehuis en verdere digitalisering van processen en loketten. Zo kunnen inwoners, ondernemers en bezoekers hun zaken vlot en",
     "ap_code": "1.1.4",
     "ap_short": "Een professioneel gebouwenbeheer",
     "ap_long": "Tegen eind 2031 een professioneel, duurzaam en datagestuurd gebouwenbeheer realiseren dat voldoet aan de wettelijke verplichtingen en noden van de organisatie.",
-    "ac_code": "1.1.4",
+    "ac_code": "1.1.4_1.1.4.1",
     "ac_short": "Investeringsplan voor energiedoelstellingen",
     "ac_long": "Opmaak van een investeringsplan op lange termijn om de energiedoelstellingen te halen (o.a. verlichting, verwarming, isolatie-productie-energie).",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 3000000.0,
-    "amount_per_capita": 148.28,
+    "total_amount": 3492951.17,
+    "amount_per_capita": 172.41,
     "yearly_amounts": {
-      "2026": 300000.0,
+      "2026": 792951.17,
       "2027": 540000.0,
       "2028": 540000.0,
       "2029": 540000.0,
@@ -297,65 +297,133 @@
       "2031": 540000.0
     },
     "yearly_per_capita": {
-      "2026": 14.83,
-      "2027": 26.69,
-      "2028": 26.69,
-      "2029": 26.69,
-      "2030": 26.69,
-      "2031": 26.69
+      "2026": 39.14,
+      "2027": 26.65,
+      "2028": 26.65,
+      "2029": 26.65,
+      "2030": 26.65,
+      "2031": 26.65
     }
   },
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
+    "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
+    "ap_code": "1.4.2",
+    "ap_short": "Heraanleg straten en landelijke wegen",
+    "ap_long": "Tegen eind 2031 een veilige, duurzame en toekomstgerichte heraanleg realiseren van straten en landelijke wegen in Middelkerke, met aandacht voor mobiliteit, riolering, bovenbouw en leefkwaliteit.",
+    "ac_code": "1.4.2_1.4.2.1",
+    "ac_short": "Heraanleg landelijke wegen",
+    "ac_long": "Heraanleg landelijke wegen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2546737.41,
+    "amount_per_capita": 125.71,
+    "yearly_amounts": {
+      "2026": 546737.41,
+      "2027": 400000.0,
+      "2028": 400000.0,
+      "2029": 400000.0,
+      "2030": 400000.0,
+      "2031": 400000.0
+    },
+    "yearly_per_capita": {
+      "2026": 26.99,
+      "2027": 19.74,
+      "2028": 19.74,
+      "2029": 19.74,
+      "2030": 19.74,
+      "2031": 19.74
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 5",
+    "bd_short": "Jong: toekomst voor gezinnen en jeugd",
+    "bd_long": "We creëren een stimulerende omgeving voor de jongste generaties. Dit doen we door te investeren in kwalitatieve kinderopvang, moderne onderwijsinfrastructuur en diverse jeugdvoorzieningen, zodat gezinnen en kinderen alle kansen krijgen om zich te ontwikkelen.",
+    "ap_code": "1.5.1",
+    "ap_short": "Een integraal jeugdbeleid",
+    "ap_long": "Tegen eind 2028 ontwikkelt en implementeert het lokaal bestuur Middelkerke een integraal jeugdbeleid, dat inzet op kwaliteitsvolle opvang, duurzame infrastructuur, mobiliteit, mentaal welzijn en reglementaire verankering. Dit beleid wordt afgestemd op de noden van kinderen, jongeren en hun gezinnen, en wordt gerealiseerd via concrete projecten, beleidskeuzes en samenwerking met onderwijs- en welzijnspartners.",
+    "ac_code": "1.5.1_1.5.1.2",
+    "ac_short": "Hoeve Pruvost",
+    "ac_long": "Realiseren van een multifunctionele jeugdsite op Hoeve Pruvost, in co-creatie met jongeren en jeugdverenigingen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2500000.0,
+    "amount_per_capita": 123.4,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 2250000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.34,
+      "2027": 111.06,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 4",
     "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
     "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
     "ap_code": "1.4.4",
     "ap_short": "Afvalbeheer, netheid en sluikstortpreventie",
     "ap_long": "Tegen eind 2027 realiseren we een significante verbetering in afvalbeheer, netheid en sluikstortpreventie binnen de gemeente door de implementatie van gerichte acties.",
-    "ac_code": "1.4.4",
-    "ac_short": "Gemeentebreed veegplan",
-    "ac_long": "Tegen maart 2027 wordt een gemeentebreed veegplan uitgerold, met vaste routes en een vooraf gedefinieerde veegfrequentie per zone (bv. wekelijks in centrum, maandelijks in landelijke zones).",
+    "ac_code": "1.4.4_1.4.4.2",
+    "ac_short": "Extra sorteerstraten",
+    "ac_long": "Tegen 31 december 2031 installeert het lokaal bestuur bijkomende sorteerstraten op strategische locaties, op basis van analyse van gebruik, bereikbaarheid en sluikstortgevoeligheid. Hiervoor wordt een spreidingsplan opgemaakt.",
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 2225000.0,
-    "amount_per_capita": 109.98,
+    "total_amount": 1950000.0,
+    "amount_per_capita": 96.25,
     "yearly_amounts": {
-      "2026": 200000.0,
-      "2027": 515000.0,
-      "2028": 515000.0,
-      "2029": 515000.0,
-      "2030": 465000.0,
-      "2031": 15000.0
+      "2026": 0,
+      "2027": 500000.0,
+      "2028": 500000.0,
+      "2029": 500000.0,
+      "2030": 450000.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.89,
-      "2027": 25.46,
-      "2028": 25.46,
-      "2029": 25.46,
-      "2030": 22.98,
-      "2031": 0.74
+      "2026": 0,
+      "2027": 24.68,
+      "2028": 24.68,
+      "2029": 24.68,
+      "2030": 22.21,
+      "2031": 0
     }
   },
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
     "bd_short": "Verbonden: altijd dichtbij, snel, digitaal en efficiënt",
     "bd_long": "We investeren in een moderne, toegankelijke en efficiënte dienstverlening, met bijzondere aandacht voor de bouw van een nieuw gemeentehuis en verdere digitalisering van processen en loketten. Zo kunnen inwoners, ondernemers en bezoekers hun zaken vlot en",
     "ap_code": "1.1.5",
     "ap_short": "Investeringstoelage renovatie politiekantoor",
     "ap_long": "De gemeente kent een investeringstoelage toe voor de renovatie van het politiekantoor",
-    "ac_code": "1.1.5",
+    "ac_code": "1.1.5_1.1.5.1",
     "ac_short": "Renovatie politiekantoor",
     "ac_long": "De gemeente kent een investeringstoelage toe voor de renovatie van het politiekantoor",
     "categories": [
       "04-veiligheidszorg"
     ],
     "total_amount": 1900000.0,
-    "amount_per_capita": 93.91,
+    "amount_per_capita": 93.79,
     "yearly_amounts": {
       "2026": 1000000.0,
       "2027": 900000.0,
@@ -365,8 +433,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 49.43,
-      "2027": 44.48,
+      "2026": 49.36,
+      "2027": 44.42,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -376,20 +444,54 @@
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
+    "bd_short": "Jong: toekomst voor gezinnen en jeugd",
+    "bd_long": "We creëren een stimulerende omgeving voor de jongste generaties. Dit doen we door te investeren in kwalitatieve kinderopvang, moderne onderwijsinfrastructuur en diverse jeugdvoorzieningen, zodat gezinnen en kinderen alle kansen krijgen om zich te ontwikkelen.",
+    "ap_code": "1.5.1",
+    "ap_short": "Een integraal jeugdbeleid",
+    "ap_long": "Tegen eind 2028 ontwikkelt en implementeert het lokaal bestuur Middelkerke een integraal jeugdbeleid, dat inzet op kwaliteitsvolle opvang, duurzame infrastructuur, mobiliteit, mentaal welzijn en reglementaire verankering. Dit beleid wordt afgestemd op de noden van kinderen, jongeren en hun gezinnen, en wordt gerealiseerd via concrete projecten, beleidskeuzes en samenwerking met onderwijs- en welzijnspartners.",
+    "ac_code": "1.5.1_1.5.1.4",
+    "ac_short": "3 gecentraliseerde groepsopvangen",
+    "ac_long": "Oprichten van drie gecentraliseerde groepsopvangen in Middelkerke, afgestemd op de groeiende opvangnoden en in lijn met de ruimtelijke en pedagogische visie van het lokaal bestuur.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1900000.0,
+    "amount_per_capita": 93.79,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 0,
+      "2028": 1700000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.87,
+      "2027": 0,
+      "2028": 83.91,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 7",
     "bd_short": "Sterk: een efficiënte en mensgerichte organisatie",
     "bd_long": "We bouwen aan een robuuste en efficiënte organisatie gedragen door een gemotiveerd team. Door te investeren in een moderne werkomgeving, persoonlijke ontwikkeling en welzijn op het werk, zorgen we voor een slagkrachtig en servicegericht lokaal bestuur.",
     "ap_code": "1.7.2",
     "ap_short": "Fleetplan",
     "ap_long": "Tegen 30 juni 2026 stelt het lokaal bestuur Middelkerke een geïntegreerd fleetplan op voor alle dienstvoertuigen, met als doel een efficiënt, duurzaam en kostenbewust wagenpark uit te bouwen tegen 2030. Vanaf 2027 wordt het plan jaarlijks geëvalueerd en bijgestuurd op basis van gebruiksdata, onderhoudskosten en evoluerende noden per dienst.",
-    "ac_code": "1.7.2",
+    "ac_code": "1.7.2_1.7.2.1",
     "ac_short": "Strategisch fleetplan",
     "ac_long": "Tegen 30 juni 2026 wordt een strategisch fleetplan opgesteld met duidelijke keuzes vervangingsritme en inzet per dienst, afgestemd op mobiliteitsnoden.",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 1500000.0,
-    "amount_per_capita": 74.14,
+    "amount_per_capita": 74.04,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 250000.0,
@@ -399,31 +501,65 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 12.36,
-      "2027": 12.36,
-      "2028": 29.66,
-      "2029": 12.36,
-      "2030": 7.41,
+      "2026": 12.34,
+      "2027": 12.34,
+      "2028": 29.62,
+      "2029": 12.34,
+      "2030": 7.4,
       "2031": 0
     }
   },
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
+    "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
+    "ap_code": "1.4.2",
+    "ap_short": "Heraanleg straten en landelijke wegen",
+    "ap_long": "Tegen eind 2031 een veilige, duurzame en toekomstgerichte heraanleg realiseren van straten en landelijke wegen in Middelkerke, met aandacht voor mobiliteit, riolering, bovenbouw en leefkwaliteit.",
+    "ac_code": "1.4.2_1.4.2.2",
+    "ac_short": "Kerkstraat en De Smet De Naeyerstraat",
+    "ac_long": "Herinrichting van de Kerkstraat en de De Smet de Naeyerstraat met focus op verkeersveiligheid, toegankelijkheid en esthetiek.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1200000.0,
+    "amount_per_capita": 59.23,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 120000.0,
+      "2030": 1080000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 5.92,
+      "2030": 53.31,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 3",
     "bd_short": "Leeft: Sterke dorpen en kernen in een vitale gemeenschap",
     "bd_long": "We versterken de leefbaarheid en aantrekkelijkheid van onze dorpskernen. Door gerichte investeringen in de publieke voorzieningen en het ondersteunen van sport, cultuur en het verenigingsleven, bouwen we mee aan de sociale cohesie en vitaliteit van onze g",
     "ap_code": "1.3.3",
     "ap_short": "Duurzaam erfgoed",
     "ap_long": "Tegen eind 2031 voert het lokaal bestuur Middelkerke een gefaseerd en duurzaam restauratie- en onderhoudsprogramma voor erfgoedgebouwen, met als doel de historische waarde, veiligheid en publieke toegankelijkheid van gemeentelijke monumenten te behouden en versterken.",
-    "ac_code": "1.3.3",
+    "ac_code": "1.3.3_1.3.3.1",
     "ac_short": "Onderhoud erfgoedgebouwen",
     "ac_long": "Tegen eind 2026 werkt het lokaal bestuur een masterplan uit voor de renovatie of herinrichting van het gemeentehuis, met een gedragen visie, kostenraming en gefaseerde uitvoeringsplanning. Hierbij wordt het archief opgenomen.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 1000000.0,
-    "amount_per_capita": 49.43,
+    "amount_per_capita": 49.36,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -435,143 +571,313 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 12.36,
-      "2029": 12.36,
-      "2030": 24.71,
+      "2028": 12.34,
+      "2029": 12.34,
+      "2030": 24.68,
       "2031": 0
     }
   },
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
-    "bd_short": "Leeft: Sterke dorpen en kernen in een vitale gemeenschap",
-    "bd_long": "We versterken de leefbaarheid en aantrekkelijkheid van onze dorpskernen. Door gerichte investeringen in de publieke voorzieningen en het ondersteunen van sport, cultuur en het verenigingsleven, bouwen we mee aan de sociale cohesie en vitaliteit van onze g",
-    "ap_code": "1.3.1",
-    "ap_short": "Toegankelijke cultuurbeleving",
-    "ap_long": "Tegen eind 2031 versterkt het lokaal bestuur Middelkerke haar culturele infrastructuur, publiekswerking door te investeren in toegankelijke cultuurbeleving.",
-    "ac_code": "1.3.1",
-    "ac_short": "Beaufort",
-    "ac_long": "Tegen 2031 wordt kunst in de publieke ruimte zichtbaar versterkt via participatie aan Beaufort.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 969161.0,
-    "amount_per_capita": 47.9,
-    "yearly_amounts": {
-      "2026": 431000.0,
-      "2027": 146800.0,
-      "2028": 182616.0,
-      "2029": 83448.0,
-      "2030": 84297.0,
-      "2031": 41000.0
-    },
-    "yearly_per_capita": {
-      "2026": 21.3,
-      "2027": 7.26,
-      "2028": 9.03,
-      "2029": 4.12,
-      "2030": 4.17,
-      "2031": 2.03
-    }
-  },
-  {
-    "municipality": "Middelkerke",
-    "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
     "bd_short": "Zorgzaam: welzijn en goede zorg voor iedereen",
     "bd_long": "We anticiperen op de demografische ontwikkelingen aan de kust door mee te bouwen aan een toekomstgerichte zorg- en welzijnssector. Door in te zetten op innovatie, kwaliteit, samenwerking en de uitbreiding van voorzieningen, waarborgen we een warm en ondersteunend netwerk voor al onze inwoners.",
     "ap_code": "1.6.1",
     "ap_short": "Een betaalbare zorgomgeving voor ouderen",
     "ap_long": "Tegen eind 2031 realiseren we een toekomstgerichte en betaalbare zorgomgeving voor ouderen in Middelkerke, door het woonzorgcentrum, het centrum voor dagverzorging en de ondersteunende diensten kwalitatief, toegankelijk en efficiënt in te richten. We zorgen voor aangepaste infrastructuur, moderne zorgtechnologie, en een correct afgestemde personeels- en prijsstructuur.",
-    "ac_code": "1.6.1",
-    "ac_short": "Dementievriendelijke tuin in De Ril",
-    "ac_long": "Tegen eind 2026 wordt een rolstoeltoegankelijke en dementievriendelijke tuin gerealiseerd in het WZC De Ril.",
+    "ac_code": "1.6.1_1.6.1.2",
+    "ac_short": "Investeringen in meubilair en zorgtechnologie",
+    "ac_long": "Tegen eind 2031 verbeteren we het comfort, de toegankelijkheid en de beleving in het woonzorgcentrum en het centrum voor dagverzorging, door investeringen in comfortabel en veilig meubilair en zorgtechnologie.",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 625000.0,
-    "amount_per_capita": 30.89,
+    "total_amount": 420000.0,
+    "amount_per_capita": 20.73,
     "yearly_amounts": {
-      "2026": 160000.0,
+      "2026": 55000.0,
       "2027": 55000.0,
       "2028": 27500.0,
       "2029": 27500.0,
-      "2030": 327500.0,
+      "2030": 227500.0,
       "2031": 27500.0
     },
     "yearly_per_capita": {
-      "2026": 7.91,
-      "2027": 2.72,
+      "2026": 2.71,
+      "2027": 2.71,
       "2028": 1.36,
       "2029": 1.36,
-      "2030": 16.19,
+      "2030": 11.23,
       "2031": 1.36
     }
   },
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "Verbonden: altijd dichtbij, snel, digitaal en efficiënt",
+    "bd_long": "We investeren in een moderne, toegankelijke en efficiënte dienstverlening, met bijzondere aandacht voor de bouw van een nieuw gemeentehuis en verdere digitalisering van processen en loketten. Zo kunnen inwoners, ondernemers en bezoekers hun zaken vlot en",
+    "ap_code": "1.1.4",
+    "ap_short": "Een professioneel gebouwenbeheer",
+    "ap_long": "Tegen eind 2031 een professioneel, duurzaam en datagestuurd gebouwenbeheer realiseren dat voldoet aan de wettelijke verplichtingen en noden van de organisatie.",
+    "ac_code": "1.1.4_1.1.4.2",
+    "ac_short": "Loods gemeentelijke werkhuizen",
+    "ac_long": "Realisatie loods gemeentelijke werkhuizen (afwerken Fluviusgebouw)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 366607.22,
+    "amount_per_capita": 18.1,
+    "yearly_amounts": {
+      "2026": 366607.22,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 4",
     "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
     "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
     "ap_code": "1.4.5",
     "ap_short": "Duurzaam, toegankelijk en toekomstgericht mobiliteitsbeleid",
     "ap_long": "Tegen eind 2031 een duurzaam, toegankelijk en toekomstgericht mobiliteitsbeleid realiseren dat inzet op deelmobiliteit, fietsvoorzieningen en openbaar vervoer.",
-    "ac_code": "1.4.5",
-    "ac_short": "Toegankelijke haltes",
-    "ac_long": "In 2026 legt Middelkerke 8 bushaltes aan volgens het masterplan toegankelijke haltes, met als doel de toegankelijkheid met 100% te verhogen.",
+    "ac_code": "1.4.5_1.4.5.2",
+    "ac_short": "Bijkomende fietsinfrastructuur",
+    "ac_long": "Tegen eind 2029 installeert Middelkerke 100 extra fietsstallingen, verspreid over de gemeente.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 555000.0,
-    "amount_per_capita": 27.43,
+    "total_amount": 300000.0,
+    "amount_per_capita": 14.81,
     "yearly_amounts": {
-      "2026": 53000.0,
-      "2027": 158000.0,
-      "2028": 128000.0,
+      "2026": 28000.0,
+      "2027": 28000.0,
+      "2028": 28000.0,
       "2029": 94000.0,
       "2030": 28000.0,
       "2031": 94000.0
     },
     "yearly_per_capita": {
-      "2026": 2.62,
-      "2027": 7.81,
-      "2028": 6.33,
-      "2029": 4.65,
+      "2026": 1.38,
+      "2027": 1.38,
+      "2028": 1.38,
+      "2029": 4.64,
       "2030": 1.38,
-      "2031": 4.65
+      "2031": 4.64
     }
   },
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
-    "bd_short": "Bruist: toerisme en lokale economie versterkt",
-    "bd_long": "We zetten in op de verdere ontwikkeling van Middelkerke als vooraanstaande toeristische bestemming. Door de zeedijk te vernieuwen, attractieve evenementen te organiseren en ondernemerschap te ondersteunen, stimuleren we een bloeiende lokale economie en een levendige kustbeleving.",
-    "ap_code": "1.2.1",
-    "ap_short": "Toeristisch profiel",
-    "ap_long": "Tegen eind 2031 versterkt het lokaal bestuur Middelkerke zijn toeristisch profiel door te investeren in kwalitatieve beleving en duurzame infrastructuur.",
-    "ac_code": "1.2.1",
-    "ac_short": "Toeristisch onthaal",
-    "ac_long": "Tegen eind 2028 beschikt Middelkerke over een hedendaags en gastvrij toeristisch onthaal, gekoppeld aan een sterk uitgebouwd recreatief netwerk.",
+    "bd_code": "BDS 3",
+    "bd_short": "Leeft: Sterke dorpen en kernen in een vitale gemeenschap",
+    "bd_long": "We versterken de leefbaarheid en aantrekkelijkheid van onze dorpskernen. Door gerichte investeringen in de publieke voorzieningen en het ondersteunen van sport, cultuur en het verenigingsleven, bouwen we mee aan de sociale cohesie en vitaliteit van onze g",
+    "ap_code": "1.3.1",
+    "ap_short": "Toegankelijke cultuurbeleving",
+    "ap_long": "Tegen eind 2031 versterkt het lokaal bestuur Middelkerke haar culturele infrastructuur, publiekswerking door te investeren in toegankelijke cultuurbeleving.",
+    "ac_code": "1.3.1_1.3.1.3",
+    "ac_short": "Opfrissing hinterlandzalen",
+    "ac_long": "Tegen 2031 wordt geïnvesteerd om de hinterlandzalen adequaat uit te rusten, o.a. gemeenschapszalen Wilskerke en Mannekensvere.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 500000.0,
-    "amount_per_capita": 24.71,
+    "total_amount": 279000.0,
+    "amount_per_capita": 13.77,
+    "yearly_amounts": {
+      "2026": 19000.0,
+      "2027": 84000.0,
+      "2028": 119000.0,
+      "2029": 19000.0,
+      "2030": 19000.0,
+      "2031": 19000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.94,
+      "2027": 4.15,
+      "2028": 5.87,
+      "2029": 0.94,
+      "2030": 0.94,
+      "2031": 0.94
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 4",
+    "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
+    "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
+    "ap_code": "1.4.7",
+    "ap_short": "Aangename, groene en biodiverse leefomgeving",
+    "ap_long": "De leefomgeving in Middelkerke aangenamer, groener en biodiverser maken tegen eind 2026, met aandacht voor duurzaamheid, esthetiek en betrokkenheid van inwoners.",
+    "ac_code": "1.4.7_1.4.7.1",
+    "ac_short": "Vervanging bloembakken",
+    "ac_long": "Tegen eind 2027 worden de bloembakken op het openbaar domein vervangen.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 265000.0,
+    "amount_per_capita": 13.08,
+    "yearly_amounts": {
+      "2026": 265000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 5",
+    "bd_short": "Jong: toekomst voor gezinnen en jeugd",
+    "bd_long": "We creëren een stimulerende omgeving voor de jongste generaties. Dit doen we door te investeren in kwalitatieve kinderopvang, moderne onderwijsinfrastructuur en diverse jeugdvoorzieningen, zodat gezinnen en kinderen alle kansen krijgen om zich te ontwikkelen.",
+    "ap_code": "1.5.1",
+    "ap_short": "Een integraal jeugdbeleid",
+    "ap_long": "Tegen eind 2028 ontwikkelt en implementeert het lokaal bestuur Middelkerke een integraal jeugdbeleid, dat inzet op kwaliteitsvolle opvang, duurzame infrastructuur, mobiliteit, mentaal welzijn en reglementaire verankering. Dit beleid wordt afgestemd op de noden van kinderen, jongeren en hun gezinnen, en wordt gerealiseerd via concrete projecten, beleidskeuzes en samenwerking met onderwijs- en welzijnspartners.",
+    "ac_code": "1.5.1_1.5.1.8",
+    "ac_short": "Beheer van speelpleinen",
+    "ac_long": "Tegen eind 2026 stelt het lokaal bestuur een gestructureerd beheersplan op voor alle gemeentelijke speelpleinen, met daarin een jaarlijkse inspectie- en onderhoudskalender, een overzicht van verantwoordelijkheden en een meldpunt voor gebreken. Vanaf 2027 worden alle speelpleinen minstens 2 keer per jaar gecontroleerd op veiligheid en gebruikskwaliteit, en wordt er jaarlijks een evaluatie gemaakt op basis van meldingen, inspectieverslagen en gebruikersfeedback.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 259709.69,
+    "amount_per_capita": 12.82,
+    "yearly_amounts": {
+      "2026": 59709.69,
+      "2027": 40000.0,
+      "2028": 40000.0,
+      "2029": 40000.0,
+      "2030": 40000.0,
+      "2031": 40000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.95,
+      "2027": 1.97,
+      "2028": 1.97,
+      "2029": 1.97,
+      "2030": 1.97,
+      "2031": 1.97
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 4",
+    "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
+    "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
+    "ap_code": "1.4.5",
+    "ap_short": "Duurzaam, toegankelijk en toekomstgericht mobiliteitsbeleid",
+    "ap_long": "Tegen eind 2031 een duurzaam, toegankelijk en toekomstgericht mobiliteitsbeleid realiseren dat inzet op deelmobiliteit, fietsvoorzieningen en openbaar vervoer.",
+    "ac_code": "1.4.5_1.4.5.1",
+    "ac_short": "Toegankelijke haltes",
+    "ac_long": "In 2026 legt Middelkerke 8 bushaltes aan volgens het masterplan toegankelijke haltes, met als doel de toegankelijkheid met 100% te verhogen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 255000.0,
+    "amount_per_capita": 12.59,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 130000.0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.23,
+      "2027": 6.42,
+      "2028": 4.94,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 3",
+    "bd_short": "Leeft: Sterke dorpen en kernen in een vitale gemeenschap",
+    "bd_long": "We versterken de leefbaarheid en aantrekkelijkheid van onze dorpskernen. Door gerichte investeringen in de publieke voorzieningen en het ondersteunen van sport, cultuur en het verenigingsleven, bouwen we mee aan de sociale cohesie en vitaliteit van onze g",
+    "ap_code": "1.3.1",
+    "ap_short": "Toegankelijke cultuurbeleving",
+    "ap_long": "Tegen eind 2031 versterkt het lokaal bestuur Middelkerke haar culturele infrastructuur, publiekswerking door te investeren in toegankelijke cultuurbeleving.",
+    "ac_code": "1.3.1_1.3.1.2",
+    "ac_short": "Beaufort",
+    "ac_long": "Tegen 2031 wordt kunst in de publieke ruimte zichtbaar versterkt via participatie aan Beaufort.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 208161.0,
+    "amount_per_capita": 10.27,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 40800.0,
+      "2028": 41616.0,
+      "2029": 42448.0,
+      "2030": 43297.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.97,
+      "2027": 2.01,
+      "2028": 2.05,
+      "2029": 2.1,
+      "2030": 2.14,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 1",
+    "bd_short": "Verbonden: altijd dichtbij, snel, digitaal en efficiënt",
+    "bd_long": "We investeren in een moderne, toegankelijke en efficiënte dienstverlening, met bijzondere aandacht voor de bouw van een nieuw gemeentehuis en verdere digitalisering van processen en loketten. Zo kunnen inwoners, ondernemers en bezoekers hun zaken vlot en",
+    "ap_code": "1.1.3",
+    "ap_short": "Herkenbare, gerichte en multimediale communicatie",
+    "ap_long": "Tegen eind 2031 versterkt de dienst CPO de externe communicatie van het lokaal bestuur Middelkerke door het uitrollen van een doelgerichte, herkenbare en multimediale communicatiestrategie.",
+    "ac_code": "1.1.3_1.1.3.1",
+    "ac_short": "Vernieuwde en gebruiksvriendelijke website",
+    "ac_long": "Tegen 1 januari 2029 lanceert het lokaal bestuur Middelkerke een volledig vernieuwde en gebruiksvriendelijke website, afgestemd op de noden van burgers en medewerkers.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 9.87,
     "yearly_amounts": {
       "2026": 0,
-      "2027": 75000.0,
-      "2028": 425000.0,
+      "2027": 200000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 3.71,
-      "2028": 21.01,
+      "2027": 9.87,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -580,22 +886,56 @@
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "Verbonden: altijd dichtbij, snel, digitaal en efficiënt",
+    "bd_long": "We investeren in een moderne, toegankelijke en efficiënte dienstverlening, met bijzondere aandacht voor de bouw van een nieuw gemeentehuis en verdere digitalisering van processen en loketten. Zo kunnen inwoners, ondernemers en bezoekers hun zaken vlot en",
+    "ap_code": "1.1.3",
+    "ap_short": "Herkenbare, gerichte en multimediale communicatie",
+    "ap_long": "Tegen eind 2031 versterkt de dienst CPO de externe communicatie van het lokaal bestuur Middelkerke door het uitrollen van een doelgerichte, herkenbare en multimediale communicatiestrategie.",
+    "ac_code": "1.1.3_1.1.3.2",
+    "ac_short": "Digitale schermen op het openbaar domein",
+    "ac_long": "Uiterlijk tegen 31 december 2028 worden op minimaal 5 strategische locaties in het openbaar domein digitale schermen geplaatst, die wekelijks geüpdatet worden met relevante informatie voor burgers en bezoekers.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 8.88,
+    "yearly_amounts": {
+      "2026": 72000.0,
+      "2027": 72000.0,
+      "2028": 36000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.55,
+      "2027": 3.55,
+      "2028": 1.78,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 4",
     "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
     "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
     "ap_code": "1.4.7",
     "ap_short": "Aangename, groene en biodiverse leefomgeving",
     "ap_long": "De leefomgeving in Middelkerke aangenamer, groener en biodiverser maken tegen eind 2026, met aandacht voor duurzaamheid, esthetiek en betrokkenheid van inwoners.",
-    "ac_code": "1.4.7",
-    "ac_short": "Vervanging bloembakken",
-    "ac_long": "Tegen eind 2027 worden de bloembakken op het openbaar domein vervangen.",
+    "ac_code": "1.4.7_1.4.7.2",
+    "ac_short": "Emissievrije en geluidsarme machines",
+    "ac_long": "Tegen eind 2028 wordt een nieuw onderhoudsplan ingevoerd waarbij het openbaar groen op een structurele manier wordt beheerd (meer natuurvriendelijke maaiperiodes, meer geluidsarme en emissievrije machines). Dit beheersplan bestaat uit een onderhoudsfiche per zone.",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 435000.0,
-    "amount_per_capita": 21.5,
+    "total_amount": 170000.0,
+    "amount_per_capita": 8.39,
     "yearly_amounts": {
-      "2026": 365000.0,
+      "2026": 100000.0,
       "2027": 70000.0,
       "2028": 0,
       "2029": 0,
@@ -603,7 +943,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 18.04,
+      "2026": 4.94,
       "2027": 3.46,
       "2028": 0,
       "2029": 0,
@@ -614,32 +954,100 @@
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
-    "bd_short": "Verbonden: altijd dichtbij, snel, digitaal en efficiënt",
-    "bd_long": "We investeren in een moderne, toegankelijke en efficiënte dienstverlening, met bijzondere aandacht voor de bouw van een nieuw gemeentehuis en verdere digitalisering van processen en loketten. Zo kunnen inwoners, ondernemers en bezoekers hun zaken vlot en",
-    "ap_code": "1.1.3",
-    "ap_short": "Herkenbare, gerichte en multimediale communicatie",
-    "ap_long": "Tegen eind 2031 versterkt de dienst CPO de externe communicatie van het lokaal bestuur Middelkerke door het uitrollen van een doelgerichte, herkenbare en multimediale communicatiestrategie.",
-    "ac_code": "1.1.3",
-    "ac_short": "Vernieuwde en gebruiksvriendelijke website",
-    "ac_long": "Tegen 1 januari 2029 lanceert het lokaal bestuur Middelkerke een volledig vernieuwde en gebruiksvriendelijke website, afgestemd op de noden van burgers en medewerkers.",
+    "bd_code": "BDS 4",
+    "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
+    "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
+    "ap_code": "1.4.2",
+    "ap_short": "Heraanleg straten en landelijke wegen",
+    "ap_long": "Tegen eind 2031 een veilige, duurzame en toekomstgerichte heraanleg realiseren van straten en landelijke wegen in Middelkerke, met aandacht voor mobiliteit, riolering, bovenbouw en leefkwaliteit.",
+    "ac_code": "1.4.2_1.4.2.6",
+    "ac_short": "Hofstraat",
+    "ac_long": "Studie voor de vernieuwing van de bovenbouw en rioleringsinfrastructuur van de Hofstraat.",
     "categories": [
-      "01-algemeen-bestuur"
+      "03-natuur-milieu"
     ],
-    "total_amount": 380000.0,
-    "amount_per_capita": 18.78,
+    "total_amount": 150000.0,
+    "amount_per_capita": 7.4,
     "yearly_amounts": {
-      "2026": 72000.0,
-      "2027": 272000.0,
-      "2028": 36000.0,
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 150000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 7.4,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 4",
+    "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
+    "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
+    "ap_code": "1.4.4",
+    "ap_short": "Afvalbeheer, netheid en sluikstortpreventie",
+    "ap_long": "Tegen eind 2027 realiseren we een significante verbetering in afvalbeheer, netheid en sluikstortpreventie binnen de gemeente door de implementatie van gerichte acties.",
+    "ac_code": "1.4.4_1.4.4.3",
+    "ac_short": "Nieuwe containers",
+    "ac_long": "Tegen eind juni 2026 koopt het bestuur nieuwe containers aan voor het recyclagepark.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 115000.0,
+    "amount_per_capita": 5.68,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.97,
+      "2027": 0.74,
+      "2028": 0.74,
+      "2029": 0.74,
+      "2030": 0.74,
+      "2031": 0.74
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 6",
+    "bd_short": "Zorgzaam: welzijn en goede zorg voor iedereen",
+    "bd_long": "We anticiperen op de demografische ontwikkelingen aan de kust door mee te bouwen aan een toekomstgerichte zorg- en welzijnssector. Door in te zetten op innovatie, kwaliteit, samenwerking en de uitbreiding van voorzieningen, waarborgen we een warm en ondersteunend netwerk voor al onze inwoners.",
+    "ap_code": "1.6.1",
+    "ap_short": "Een betaalbare zorgomgeving voor ouderen",
+    "ap_long": "Tegen eind 2031 realiseren we een toekomstgerichte en betaalbare zorgomgeving voor ouderen in Middelkerke, door het woonzorgcentrum, het centrum voor dagverzorging en de ondersteunende diensten kwalitatief, toegankelijk en efficiënt in te richten. We zorgen voor aangepaste infrastructuur, moderne zorgtechnologie, en een correct afgestemde personeels- en prijsstructuur.",
+    "ac_code": "1.6.1_1.6.1.1",
+    "ac_short": "Dementievriendelijke tuin in De Ril",
+    "ac_long": "Tegen eind 2026 wordt een rolstoeltoegankelijke en dementievriendelijke tuin gerealiseerd in het WZC De Ril.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 105000.0,
+    "amount_per_capita": 5.18,
+    "yearly_amounts": {
+      "2026": 105000.0,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.56,
-      "2027": 13.44,
-      "2028": 1.78,
+      "2026": 5.18,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -648,13 +1056,81 @@
   {
     "municipality": "Middelkerke",
     "nis_code": "35011",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
+    "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
+    "ap_code": "1.4.4",
+    "ap_short": "Afvalbeheer, netheid en sluikstortpreventie",
+    "ap_long": "Tegen eind 2027 realiseren we een significante verbetering in afvalbeheer, netheid en sluikstortpreventie binnen de gemeente door de implementatie van gerichte acties.",
+    "ac_code": "1.4.4_1.4.4.1",
+    "ac_short": "Gemeentebreed veegplan",
+    "ac_long": "Tegen maart 2027 wordt een gemeentebreed veegplan uitgerold, met vaste routes en een vooraf gedefinieerde veegfrequentie per zone (bv. wekelijks in centrum, maandelijks in landelijke zones).",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.94,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.94,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 6",
+    "bd_short": "Zorgzaam: welzijn en goede zorg voor iedereen",
+    "bd_long": "We anticiperen op de demografische ontwikkelingen aan de kust door mee te bouwen aan een toekomstgerichte zorg- en welzijnssector. Door in te zetten op innovatie, kwaliteit, samenwerking en de uitbreiding van voorzieningen, waarborgen we een warm en ondersteunend netwerk voor al onze inwoners.",
+    "ap_code": "1.6.1",
+    "ap_short": "Een betaalbare zorgomgeving voor ouderen",
+    "ap_long": "Tegen eind 2031 realiseren we een toekomstgerichte en betaalbare zorgomgeving voor ouderen in Middelkerke, door het woonzorgcentrum, het centrum voor dagverzorging en de ondersteunende diensten kwalitatief, toegankelijk en efficiënt in te richten. We zorgen voor aangepaste infrastructuur, moderne zorgtechnologie, en een correct afgestemde personeels- en prijsstructuur.",
+    "ac_code": "1.6.1_1.6.1.3",
+    "ac_short": "Extra kamers kortverblijf en nachtopvang wzc",
+    "ac_long": "Tegen eind 2030 worden bijkomende kamers ingericht voor kortverblijf en nachtopvang in het WZC De Ril.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.94,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 100000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 4.94,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 6",
     "bd_short": "Zorgzaam: welzijn en goede zorg voor iedereen",
     "bd_long": "We anticiperen op de demografische ontwikkelingen aan de kust door mee te bouwen aan een toekomstgerichte zorg- en welzijnssector. Door in te zetten op innovatie, kwaliteit, samenwerking en de uitbreiding van voorzieningen, waarborgen we een warm en ondersteunend netwerk voor al onze inwoners.",
     "ap_code": "1.6.4",
     "ap_short": "Versterken van kwetsbare inwoners",
     "ap_long": "Tegen eind 2031 ontwikkelt en implementeert het lokaal bestuur Middelkerke een geïntegreerd beleid rond welzijn, werk en zorgzame buurten, met als doel de sociale en economische weerbaarheid van kwetsbare inwoners te versterken.",
-    "ac_code": "1.6.4",
+    "ac_code": "1.6.4_1.6.4.7",
     "ac_short": "Uitbreiding noodwoningcapaciteit",
     "ac_long": "Uitbreiden van het aantal beschikbare noodwoningen en verbeteren van de kwaliteit van tijdelijke opvang.",
     "categories": [
@@ -676,6 +1152,40 @@
       "2028": 0,
       "2029": 0,
       "2030": 4.94,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Middelkerke",
+    "nis_code": "35011",
+    "bd_code": "BDS 4",
+    "bd_short": "Aantrekkelijk: een kwalitatieve leefomgeving voor iedereen",
+    "bd_long": "We creëren samen een veilige en nette leefomgeving door het beheer van het openbaar domein te optimaliseren. Door een proactieve aanpak van zwerfvuil en andere vormen van vervuiling van de openbare ruimte, verhogen we de norm voor de kwaliteit en aantrekk",
+    "ap_code": "1.4.4",
+    "ap_short": "Afvalbeheer, netheid en sluikstortpreventie",
+    "ap_long": "Tegen eind 2027 realiseren we een significante verbetering in afvalbeheer, netheid en sluikstortpreventie binnen de gemeente door de implementatie van gerichte acties.",
+    "ac_code": "1.4.4_1.4.4.4",
+    "ac_short": "Mobiele camera's",
+    "ac_long": "Vanaf april 2027 zet het bestuur 5 mobiele camera's in op wisselende sluikstortgevoelige locaties, met maandelijkse verplaatsing en opvolging van effectiviteit (minstens 20% daling van meldingen in eerste 6 maanden).",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 2.96,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.96,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   }

@@ -14,10 +14,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 6218683.0,
-    "amount_per_capita": 903.25,
+    "total_amount": 6822661.97,
+    "amount_per_capita": 992.29,
     "yearly_amounts": {
-      "2026": 1460558.0,
+      "2026": 2064536.97,
       "2027": 1629939.0,
       "2028": 1874374.0,
       "2029": 747637.0,
@@ -25,137 +25,1157 @@
       "2031": 255453.0
     },
     "yearly_per_capita": {
-      "2026": 212.14,
-      "2027": 236.75,
-      "2028": 272.25,
-      "2029": 108.59,
-      "2030": 36.42,
-      "2031": 37.1
+      "2026": 300.27,
+      "2027": 237.06,
+      "2028": 272.61,
+      "2029": 108.74,
+      "2030": 36.47,
+      "2031": 37.15
     }
   },
   {
     "municipality": "Kluisbergen",
     "nis_code": "45060",
-    "bd_code": "BD",
+    "bd_code": "BD-INFRA",
     "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
     "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
-    "ap_code": "AP",
+    "ap_code": "AP-INFRA-1",
     "ap_short": "Sterke infrastructuur",
     "ap_long": "Commentaar:",
-    "ac_code": "INFRA",
-    "ac_short": "Wegeniswerken Avelgemstraat",
-    "ac_long": "In synergie met de werken van Elia, zal de gemeente de wegenis in de Avelgemstraat heraanleggen.\nHierbij zal de nodige aandacht besteed worden aan zowel de veiligheid van de weggebruikers als de functionaliteit voor de bedrijven die in deze straat gelegen zijn.",
+    "ac_code": "INFRA-22",
+    "ac_short": "Renovatie site Kloosterstraat",
+    "ac_long": "Op basis van de haalbaarheidsstudie/visiebepaling zal de site in de Kloosterstraat gerenoveerd worden.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 2440000.0,
+    "amount_per_capita": 354.87,
+    "yearly_amounts": {
+      "2026": 240000.0,
+      "2027": 0,
+      "2028": 2000000.0,
+      "2029": 0,
+      "2030": 200000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 34.91,
+      "2027": 0,
+      "2028": 290.88,
+      "2029": 0,
+      "2030": 29.09,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-GROEN",
+    "bd_short": "Kluisbergen, een groene en duurzame gemeente voor morgen",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen kiest voor een groene en duurzame toekomst, met een duidelijk ruimtelijk beleid en bijhorende plannen om de ontwikkeling van de gemeente richting te geven. De gemeente vergroent stap voor stap met initiatieven zoals onthardings- en vergroeningsprojecten, de aanplant van een geboortebos,  jaarlijkse boom- en bloemenacties,…\nDuurzaamheid krijgt concrete invulling via energieneutrale gebouwen, extra laadpalen, stapsgewijze uitvoering van de gemeentelijke klimaatplannen, verledde openbare verlichting...  Eigen medewerkers en inwoners worden actief betrokken d.m.v. vormingen en sensibiliseringscampagnes, korte keten-acties, …\n Landbouwers spelen een centrale rol in landschapsbeheer, educatie en erosieaanpak, waardoor Kluisbergen uitgroeit tot een veerkrachtige gemeente waar natuur, landbouw en leefbaarheid in harmonie samenkomen.",
+    "ap_code": "AP-GROEN-3",
+    "ap_short": "Een duurzame gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GROEN-20",
+    "ac_short": "Verledden Openbare verlichting",
+    "ac_long": "Kluisbergen zet verder in op de verledding van de openbare verlichting.\nDe gemeente streeft ernaar om, samen met Fluvius,  tegen 2028 de volledige openbare verlichting te verledden.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 991370.85,
+    "amount_per_capita": 144.19,
+    "yearly_amounts": {
+      "2026": 394203.85,
+      "2027": 213503.0,
+      "2028": 212874.0,
+      "2029": 25122.0,
+      "2030": 24798.0,
+      "2031": 120870.0
+    },
+    "yearly_per_capita": {
+      "2026": 57.33,
+      "2027": 31.05,
+      "2028": 30.96,
+      "2029": 3.65,
+      "2030": 3.61,
+      "2031": 17.58
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-GROEN",
+    "bd_short": "Kluisbergen, een groene en duurzame gemeente voor morgen",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen kiest voor een groene en duurzame toekomst, met een duidelijk ruimtelijk beleid en bijhorende plannen om de ontwikkeling van de gemeente richting te geven. De gemeente vergroent stap voor stap met initiatieven zoals onthardings- en vergroeningsprojecten, de aanplant van een geboortebos,  jaarlijkse boom- en bloemenacties,…\nDuurzaamheid krijgt concrete invulling via energieneutrale gebouwen, extra laadpalen, stapsgewijze uitvoering van de gemeentelijke klimaatplannen, verledde openbare verlichting...  Eigen medewerkers en inwoners worden actief betrokken d.m.v. vormingen en sensibiliseringscampagnes, korte keten-acties, …\n Landbouwers spelen een centrale rol in landschapsbeheer, educatie en erosieaanpak, waardoor Kluisbergen uitgroeit tot een veerkrachtige gemeente waar natuur, landbouw en leefbaarheid in harmonie samenkomen.",
+    "ap_code": "AP-GROEN-3",
+    "ap_short": "Een duurzame gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GROEN-16",
+    "ac_short": "In kaart brengen en optimaliseren van het energieverbruik in de gemeentelijke gebouwen",
+    "ac_long": "Het energieverbruik in de gemeentelijk gebouwen zal in kaart gebracht en gemonitord worden.  Waar mogelijk zullen maatregelen genomen worden i.k.v. rationeel energieverbruik. \nDit kan gaan over het plaatsen van digitale meters of het voorzien van een Energy Management Systeem (een combinatie van hardware en software die het energieverbruik van een gebouw, installatie of woning meet, analyseert en optimaliseert).  Op die manier wil de gemeente rationeler omspringen met het energieverbruik in haar eigen patrimonium.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 874000.0,
+    "amount_per_capita": 127.11,
+    "yearly_amounts": {
+      "2026": 874000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 127.11,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-GROEN",
+    "bd_short": "Kluisbergen, een groene en duurzame gemeente voor morgen",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen kiest voor een groene en duurzame toekomst, met een duidelijk ruimtelijk beleid en bijhorende plannen om de ontwikkeling van de gemeente richting te geven. De gemeente vergroent stap voor stap met initiatieven zoals onthardings- en vergroeningsprojecten, de aanplant van een geboortebos,  jaarlijkse boom- en bloemenacties,…\nDuurzaamheid krijgt concrete invulling via energieneutrale gebouwen, extra laadpalen, stapsgewijze uitvoering van de gemeentelijke klimaatplannen, verledde openbare verlichting...  Eigen medewerkers en inwoners worden actief betrokken d.m.v. vormingen en sensibiliseringscampagnes, korte keten-acties, …\n Landbouwers spelen een centrale rol in landschapsbeheer, educatie en erosieaanpak, waardoor Kluisbergen uitgroeit tot een veerkrachtige gemeente waar natuur, landbouw en leefbaarheid in harmonie samenkomen.",
+    "ap_code": "AP-GROEN-3",
+    "ap_short": "Een duurzame gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GROEN-18",
+    "ac_short": "Gemeentelijke gebouwen energieneutraal maken a.d.h.v. de patrimoniumstudie",
+    "ac_long": "Op basis van de patrimoniumstudie zullen verschillende maatregelen geïmplementeerd worden om de gemeentelijke gebouwen energieneutraal te maken.  Dit kan bijv. gaan over het plaatsen van zonnepanelen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 700000.0,
+    "amount_per_capita": 101.81,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 14.54,
+      "2028": 21.82,
+      "2029": 21.82,
+      "2030": 21.82,
+      "2031": 21.82
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-9",
+    "ac_short": "Wegenis- en rioleringswerken Poletsestraat",
+    "ac_long": "Samen met Farys wordt de riolering in de Poletsestraat aangepakt. \nTegelijkertijd zal ook de wegenis heraangelegd worden met de nodige aandacht voor alle weggebruikers.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 5827500.0,
-    "amount_per_capita": 846.43,
+    "total_amount": 606020.25,
+    "amount_per_capita": 88.14,
     "yearly_amounts": {
-      "2026": 2202500.0,
-      "2027": 1165000.0,
-      "2028": 2106500.0,
-      "2029": 24500.0,
-      "2030": 309000.0,
-      "2031": 20000.0
+      "2026": 606020.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 319.91,
-      "2027": 169.21,
-      "2028": 305.96,
-      "2029": 3.56,
-      "2030": 44.88,
-      "2031": 2.9
+      "2026": 88.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Kluisbergen",
     "nis_code": "45060",
-    "bd_code": "BD",
-    "bd_short": "Kluisbergen, een groene en duurzame gemeente voor morgen",
-    "bd_long": "Kwalitatieve omschrijving: Kluisbergen kiest voor een groene en duurzame toekomst, met een duidelijk ruimtelijk beleid en bijhorende plannen om de ontwikkeling van de gemeente richting te geven. De gemeente vergroent stap voor stap met initiatieven zoals onthardings- en vergroeningsprojecten, de aanplant van een geboortebos,  jaarlijkse boom- en bloemenacties,…\nDuurzaamheid krijgt concrete invulling via energieneutrale gebouwen, extra laadpalen, stapsgewijze uitvoering van de gemeentelijke klimaatplannen, verledde openbare verlichting...  Eigen medewerkers en inwoners worden actief betrokken d.m.v. vormingen en sensibiliseringscampagnes, korte keten-acties, …\n Landbouwers spelen een centrale rol in landschapsbeheer, educatie en erosieaanpak, waardoor Kluisbergen uitgroeit tot een veerkrachtige gemeente waar natuur, landbouw en leefbaarheid in harmonie samenkomen.",
-    "ap_code": "AP",
-    "ap_short": "Een groene gemeente",
-    "ap_long": "Commentaar:",
-    "ac_code": "GROEN",
-    "ac_short": "Herinrichten en vergroenen parking Paddenbroek en renovatie knuppelpad",
-    "ac_long": "Het natuurreservaat Paddenbroek vormt een pareltje binnen onze gemeente, die we moeten koesteren.\nEr wordt dan ook ingezet op het herinrichten en vergroenen van de parking van Paddenbroek zodat deze een mooie toegangspoort vormt tot het reservaat.\nOok het knuppelpad zal, waar nodig, hersteld worden, zodat wandelaars/vissers/... kunnen blijven genieten van dit mooie stukje natuur.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 2015993.0,
-    "amount_per_capita": 292.82,
-    "yearly_amounts": {
-      "2026": 213326.0,
-      "2027": 363503.0,
-      "2028": 625874.0,
-      "2029": 367622.0,
-      "2030": 174798.0,
-      "2031": 270870.0
-    },
-    "yearly_per_capita": {
-      "2026": 30.99,
-      "2027": 52.8,
-      "2028": 90.91,
-      "2029": 53.4,
-      "2030": 25.39,
-      "2031": 39.34
-    }
-  },
-  {
-    "municipality": "Kluisbergen",
-    "nis_code": "45060",
-    "bd_code": "BD",
+    "bd_code": "BD-ZORG",
     "bd_short": "Een warme en zorgzame gemeente: samen sterk voor welzijn en solidariteit",
     "bd_long": "Kwalitatieve omschrijving: Kluisbergen streeft naar een warme en  zorgzame gemeente waar welzijn, solidariteit en betrokkenheid centraal staan.  Iedereen verdient hierbij kansen en ondersteuning. We versterken (sociale) tewerkstelling, stimuleren vrijwilligerswerk en zetten ons in voor de meest kwetsbaren. Van jongeren tot senioren: we bieden aangepaste diensten, activiteiten en programma’s die bijdragen aan een sterk sociaal netwerk. In Kluisbergen laten we niemand achter en bouwen we samen aan een gemeente waar jong en oud zich verbonden voelen, talenten gewaardeerd worden en solidariteit het sociale weefsel versterkt, kortom aan een warme en zorgzame gemeente!",
-    "ap_code": "AP",
+    "ap_code": "AP-ZORG-1",
     "ap_short": "Aandacht voor senioren en jeugd",
     "ap_long": "Commentaar:",
-    "ac_code": "ZORG",
+    "ac_code": "ZORG-17",
     "ac_short": "Investeren in jeugdlokalen",
     "ac_long": "De gemeente onderzoekt de nood aan investeringen in bestaande of nieuwe jeugdlokalen en gaat hierover in gesprek met de jeugdverenigingen.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 43.57,
+    "total_amount": 596522.04,
+    "amount_per_capita": 86.76,
+    "yearly_amounts": {
+      "2026": 316522.04,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 280000.0
+    },
+    "yearly_per_capita": {
+      "2026": 46.04,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 40.72
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-10",
+    "ac_short": "Wegeniswerken Avelgemstraat",
+    "ac_long": "In synergie met de werken van Elia, zal de gemeente de wegenis in de Avelgemstraat heraanleggen.\nHierbij zal de nodige aandacht besteed worden aan zowel de veiligheid van de weggebruikers als de functionaliteit voor de bedrijven die in deze straat gelegen zijn.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 580000.0,
+    "amount_per_capita": 84.36,
+    "yearly_amounts": {
+      "2026": 580000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 84.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-5",
+    "ac_short": "Uitvoeren optimalisatieplan infrastructuur voetbal Kluisbergen",
+    "ac_long": "Op basis van het optimalisatieplan zullen de nodige werken uitgevoerd worden.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 65.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 450000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 65.45,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-14",
+    "ac_short": "Wegenis- en rioleringswerken Dwarsstraat/Bloemenlaan",
+    "ac_long": "De wegenis- en rioleringswerken in de Dwarsstraat/Bloemenlaan worden verdergezet.\nNa afloop van deze werken zullen beide straten ingericht worden als fietsstraat.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 438039.9,
+    "amount_per_capita": 63.71,
+    "yearly_amounts": {
+      "2026": 438039.9,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 63.71,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-6",
+    "ac_short": "Optimaliseren infrastructuur GBS De Start (Berchem en Ruien)",
+    "ac_long": "In GBS De Start Berchem wordt zowel geïnvesteerd in het herstel van het dak als in het vernieuwen van het schrijnwerk waar nodig.\nIn GBS De Start Ruien worden o.a. ingebouwde kasten voorzien zodanig dat optimaal gebruik kan gemaakt worden van de beschikbare ruimte.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 414668.57,
+    "amount_per_capita": 60.31,
+    "yearly_amounts": {
+      "2026": 185668.57,
+      "2027": 210000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 19000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 27.0,
+      "2027": 30.54,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2.76,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-13",
+    "ac_short": "Wegenis- en rioleringswerken Marvijlestraat",
+    "ac_long": "De wegenis- en rioleringswerken in de Marvijlestraat worden verdergezet.\nHierbij wordt o.a. extra parkeergelegenheid voorzien in de Marvijlestraat en wordt ook de voetweg tussen de Marvijlestraat en de Grote Herreweg heraangelegd.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 287337.19,
+    "amount_per_capita": 41.79,
+    "yearly_amounts": {
+      "2026": 287337.19,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 41.79,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-43",
+    "ac_short": "Park- en parkeerzone Molenstraat",
+    "ac_long": "De park- en parkeerzone in de Molenstraat zal (gefaseerd) aangelegd worden.  \nDoor de aanleg van de parking zal de parkeerdruk in de Molenstraat afnemen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 243315.99,
+    "amount_per_capita": 35.39,
+    "yearly_amounts": {
+      "2026": 243315.99,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 35.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-ORG",
+    "bd_short": "Kluisbergen spreekt en luistert:een sterke organisatie met heldere communicatie en actieve burgerpar",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen streeft naar een toekomstgericht gemeentebestuur dat actief luistert naar en communiceert met haar inwoners.  Er wordt ingezet op het uitrollen van een sterk organisatiebeheersingssysteem zodat de gemeente gewapend is tegen de huidige en toekomstige uitdagingen.  Professionalisering van de werking staat hierbij centraal.\nVoor inwoners wordt communicatie eenvoudiger, transparanter en toegankelijker gemaakt.  Er wordt ingezet op verschillende digitale communicatiekanalen zodat de burger steeds op de hoogte blijft.  Door burgerbevragingen en inspraakmomenten te organiseren, geven we inwoners een directe stem in het beleid. Samen maken we van Kluisbergen een gemeente waar betrokkenheid en inspraak centraal staan!",
+    "ap_code": "AP-ORG-1",
+    "ap_short": "Een sterke organisatie",
+    "ap_long": "Commentaar:",
+    "ac_code": "ORG-1",
+    "ac_short": "Herinrichten en optimalisatie ruimtegebruik gemeentehuis",
+    "ac_long": "Verschillende lokalen in het gemeentehuis zullen opgeknapt worden en er zal nagegaan worden in de welke mate de burelen anders ingedeeld/verdeeld kunnen worden teneinde de verschillende ruimtes in het gemeentehuis optimaal te kunnen gebruiken zodanig dat alle medewerkers een aangename werkplek hebben.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 230595.96,
+    "amount_per_capita": 33.54,
+    "yearly_amounts": {
+      "2026": 130595.96,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.99,
+      "2027": 0,
+      "2028": 14.54,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-2",
+    "ap_short": "Vlotte en veilige mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-35",
+    "ac_short": "Verder uitwerken Hoppinpunten",
+    "ac_long": "Er wordt verder geïnvesteerd in de Hoppinpunten.\nZo wordt de locatie voor het Hoppinpunt in Ruien vastgelegd en de nodige infrastructuur voorzien (bushalte, fietsstalling, nietjes, afvalbak,....).",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 228681.0,
+    "amount_per_capita": 33.26,
+    "yearly_amounts": {
+      "2026": 158681.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 70000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 23.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 10.18,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-3",
+    "ac_short": "Aanpassen van de inkom van de sporthal",
+    "ac_long": "Door een aantal infrastructurele aanpassingen wordt de inkom van de sporthal aantrekkelijker gemaakt.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 210000.0,
+    "amount_per_capita": 30.54,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 29.09,
+      "2027": 0,
+      "2028": 1.45,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-2",
+    "ac_short": "Vernieuwen van de vloer van de sporthal",
+    "ac_long": "Om de kwaliteit van de sportbelevenis te verbeteren, investeert de gemeente in een nieuwe vloer voor de sporthal.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 195000.0,
+    "amount_per_capita": 28.36,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 195000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 28.36,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-GROEN",
+    "bd_short": "Kluisbergen, een groene en duurzame gemeente voor morgen",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen kiest voor een groene en duurzame toekomst, met een duidelijk ruimtelijk beleid en bijhorende plannen om de ontwikkeling van de gemeente richting te geven. De gemeente vergroent stap voor stap met initiatieven zoals onthardings- en vergroeningsprojecten, de aanplant van een geboortebos,  jaarlijkse boom- en bloemenacties,…\nDuurzaamheid krijgt concrete invulling via energieneutrale gebouwen, extra laadpalen, stapsgewijze uitvoering van de gemeentelijke klimaatplannen, verledde openbare verlichting...  Eigen medewerkers en inwoners worden actief betrokken d.m.v. vormingen en sensibiliseringscampagnes, korte keten-acties, …\n Landbouwers spelen een centrale rol in landschapsbeheer, educatie en erosieaanpak, waardoor Kluisbergen uitgroeit tot een veerkrachtige gemeente waar natuur, landbouw en leefbaarheid in harmonie samenkomen.",
+    "ap_code": "AP-GROEN-2",
+    "ap_short": "Een groene gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GROEN-5",
+    "ac_short": "Herinrichten en vergroenen parking Paddenbroek en renovatie knuppelpad",
+    "ac_long": "Het natuurreservaat Paddenbroek vormt een pareltje binnen onze gemeente, die we moeten koesteren.\nEr wordt dan ook ingezet op het herinrichten en vergroenen van de parking van Paddenbroek zodat deze een mooie toegangspoort vormt tot het reservaat.\nOok het knuppelpad zal, waar nodig, hersteld worden, zodat wandelaars/vissers/... kunnen blijven genieten van dit mooie stukje natuur.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 175000.0,
+    "amount_per_capita": 25.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 175000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 25.45,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-GROEN",
+    "bd_short": "Kluisbergen, een groene en duurzame gemeente voor morgen",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen kiest voor een groene en duurzame toekomst, met een duidelijk ruimtelijk beleid en bijhorende plannen om de ontwikkeling van de gemeente richting te geven. De gemeente vergroent stap voor stap met initiatieven zoals onthardings- en vergroeningsprojecten, de aanplant van een geboortebos,  jaarlijkse boom- en bloemenacties,…\nDuurzaamheid krijgt concrete invulling via energieneutrale gebouwen, extra laadpalen, stapsgewijze uitvoering van de gemeentelijke klimaatplannen, verledde openbare verlichting...  Eigen medewerkers en inwoners worden actief betrokken d.m.v. vormingen en sensibiliseringscampagnes, korte keten-acties, …\n Landbouwers spelen een centrale rol in landschapsbeheer, educatie en erosieaanpak, waardoor Kluisbergen uitgroeit tot een veerkrachtige gemeente waar natuur, landbouw en leefbaarheid in harmonie samenkomen.",
+    "ap_code": "AP-GROEN-2",
+    "ap_short": "Een groene gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GROEN-6",
+    "ac_short": "Ontharding en vergroening van de site Brugzavel",
+    "ac_long": "De site Brugzavel met de feestzaal, de bibliotheek en feestzaal Brugzavel krijgt een groenere uitstraling, waarbij enerzijds ontharding en anderzijds mooie groenaanleg centraal staan.\nWe zorgen er hierbij voor dat de site functioneel blijft voor de gebruikers.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 21.82,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 150000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 21.82,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-15",
+    "ac_short": "Weg achter kerk Berchem",
+    "ac_long": "De weg achter de kerk van Berchem wordt heraangelegd.\nHierbij zal ervoor gezorgd worden dat de bewoners en bezoekers van De Bolster vlot hun site kunnen bereiken.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 16.0,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 110000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 16.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-8",
+    "ac_short": "Schilderen gevels Academie",
+    "ac_long": "Tegelijkertijd met het schrijnwerk wordt ook de gevel van de Academie volledig opgefrist.\nZo krijgt het gebouw opnieuw de uitstraling die het verdient.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 16.0,
+    "yearly_amounts": {
+      "2026": 110000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-16",
+    "ac_short": "Toegankelijk maken van bushaltes",
+    "ac_long": "De gemeente zet verder in op het toegankelijk maken van de bushaltes.\nHierbij zullen de meest strategische bushaltes eerst aan bod komen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 14.54,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.91,
+      "2028": 2.91,
+      "2029": 2.91,
+      "2030": 2.91,
+      "2031": 2.91
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-2",
+    "ap_short": "Vlotte en veilige mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-23",
+    "ac_short": "Verbeteringen rondom schoolomgevingen, inclusief voetwegen",
+    "ac_long": "De gemeente investeert verder in het creëren van veilige schoolomgevingen, zowel in Berchem als in Ruien.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 94291.44,
+    "amount_per_capita": 13.71,
+    "yearly_amounts": {
+      "2026": 44291.44,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.44,
+      "2027": 7.27,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-2",
+    "ap_short": "Vlotte en veilige mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-41",
+    "ac_short": "Evaluatie voetwegenplan",
+    "ac_long": "Het huidige voetwegenplan zal geëvalueerd worden.  Hierbij zal o.a. het onderhoud/beheer van de voetwegen onder de loep genomen worden, zal nagegaan worden of in het kader van het landinrichtingsproject Rond Ronse bepaalde opportuniteiten zijn voor de voetwegen die momenteel de status 'in overweging' hebben, of er eventueel nieuwe opportuniteiten zijn....",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 13.09,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.82,
+      "2027": 0,
+      "2028": 7.27,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-GROEN",
+    "bd_short": "Kluisbergen, een groene en duurzame gemeente voor morgen",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen kiest voor een groene en duurzame toekomst, met een duidelijk ruimtelijk beleid en bijhorende plannen om de ontwikkeling van de gemeente richting te geven. De gemeente vergroent stap voor stap met initiatieven zoals onthardings- en vergroeningsprojecten, de aanplant van een geboortebos,  jaarlijkse boom- en bloemenacties,…\nDuurzaamheid krijgt concrete invulling via energieneutrale gebouwen, extra laadpalen, stapsgewijze uitvoering van de gemeentelijke klimaatplannen, verledde openbare verlichting...  Eigen medewerkers en inwoners worden actief betrokken d.m.v. vormingen en sensibiliseringscampagnes, korte keten-acties, …\n Landbouwers spelen een centrale rol in landschapsbeheer, educatie en erosieaanpak, waardoor Kluisbergen uitgroeit tot een veerkrachtige gemeente waar natuur, landbouw en leefbaarheid in harmonie samenkomen.",
+    "ap_code": "AP-GROEN-2",
+    "ap_short": "Een groene gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GROEN-8",
+    "ac_short": "Ontharding en vergroening van het Ruienplein",
+    "ac_long": "Er wordt werk gemaakt van het ontharden en vergroenen van het Ruienplein.\nHet plein wordt een mooie groene oase in de dorpskern van Ruien, waar het aangenaam vertoeven is voor jong en oud.\nBij de aanleg wordt rekening gehouden met de talrijke activiteiten die door de verenigingen worden georganiseerd.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 11.64,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 80000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 11.64,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-11",
+    "ac_short": "Wegeniswerken Scheldestraat",
+    "ac_long": "Aansluitend aan de werken in de Avelgemstraat zal ook het wegdek van de Scheldestraat vernieuwd worden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 8.73,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 60000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 8.73,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-GROEN",
+    "bd_short": "Kluisbergen, een groene en duurzame gemeente voor morgen",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen kiest voor een groene en duurzame toekomst, met een duidelijk ruimtelijk beleid en bijhorende plannen om de ontwikkeling van de gemeente richting te geven. De gemeente vergroent stap voor stap met initiatieven zoals onthardings- en vergroeningsprojecten, de aanplant van een geboortebos,  jaarlijkse boom- en bloemenacties,…\nDuurzaamheid krijgt concrete invulling via energieneutrale gebouwen, extra laadpalen, stapsgewijze uitvoering van de gemeentelijke klimaatplannen, verledde openbare verlichting...  Eigen medewerkers en inwoners worden actief betrokken d.m.v. vormingen en sensibiliseringscampagnes, korte keten-acties, …\n Landbouwers spelen een centrale rol in landschapsbeheer, educatie en erosieaanpak, waardoor Kluisbergen uitgroeit tot een veerkrachtige gemeente waar natuur, landbouw en leefbaarheid in harmonie samenkomen.",
+    "ap_code": "AP-GROEN-3",
+    "ap_short": "Een duurzame gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GROEN-19",
+    "ac_short": "Uitvoeren acties i.k.v. LEKP, mitigatie- en adaptatieplan en hemelwater- en droogteplan",
+    "ac_long": "De gemeente beschikt over verschillende klimaatplannen:\nHet klimaatmitigatieplan: via de realisatie van dit plan wil de gemeente Kluisbergen de CO2-uitstoot binnen de gemeente tegen 2030 met 40% doen afnemen (tov 2011)\nHet klimaatadaptatieplan: het doel van dit actieplan is om onze gemeente voor te bereiden op de negatieve impact van klimaatverandering (zoals hitte, droogte, wateroverlast, verlies van biodiversiteit) \nHet hemelwater- en droogteplan: via dit plan willen we onze gemeente waterrobuster maken en bereiden we ons specifiek voor op zowel wateroverlast als op periodes van droogte waarin er een tekort aan hemelwater is, wat kan leiden tot problemen zoals verminderde watervoorraden, droogtegerelateerde schade aan ecosystemen, landbouw en bewoonde gebieden.\nKluisbergen ondertekende ook het lokaal energie en klimaatpact waardoor we van de Vlaamse Overheid subsidies ontvangen voor de realisatie van onze klimaatdoelstellingen.\nIn de komende jaren zullen verschillende acties uitgevoerd worden in uitvoering van deze plannen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 53000.0,
+    "amount_per_capita": 7.71,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 10000.0,
+      "2028": 33000.0,
+      "2029": 10000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.45,
+      "2028": 4.8,
+      "2029": 1.45,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-17",
+    "ac_short": "Opsmukken interieur gemeentelijke zalen",
+    "ac_long": "De verschillende gemeentelijke zalen zullen worden verfraaid.\nZo zal het GOC Berchem verder worden ingericht als vergaderaccommodatie en zullen de nodige werken uitgevoerd worden aan o.a. de toog van feestzaal Brugzavel.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 7.27,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 7.27,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-21",
+    "ac_short": "Uitwerken visie bestemming gebouw Kloosterstraat",
+    "ac_long": "Samen met een studiebureau/architect zal een haalbaarheidsstudie uitgewerkt worden op basis waarvan de visie op de bestemming van het kloostergebouw kan opgemaakt worden, dit met het oog op een gedragen en uitvoerbare invulling.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 7.27,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-GROEN",
+    "bd_short": "Kluisbergen, een groene en duurzame gemeente voor morgen",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen kiest voor een groene en duurzame toekomst, met een duidelijk ruimtelijk beleid en bijhorende plannen om de ontwikkeling van de gemeente richting te geven. De gemeente vergroent stap voor stap met initiatieven zoals onthardings- en vergroeningsprojecten, de aanplant van een geboortebos,  jaarlijkse boom- en bloemenacties,…\nDuurzaamheid krijgt concrete invulling via energieneutrale gebouwen, extra laadpalen, stapsgewijze uitvoering van de gemeentelijke klimaatplannen, verledde openbare verlichting...  Eigen medewerkers en inwoners worden actief betrokken d.m.v. vormingen en sensibiliseringscampagnes, korte keten-acties, …\n Landbouwers spelen een centrale rol in landschapsbeheer, educatie en erosieaanpak, waardoor Kluisbergen uitgroeit tot een veerkrachtige gemeente waar natuur, landbouw en leefbaarheid in harmonie samenkomen.",
+    "ap_code": "AP-GROEN-3",
+    "ap_short": "Een duurzame gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GROEN-22",
+    "ac_short": "Opmaak en uitwerken vuilnisbakkenplan",
+    "ac_long": "De locaties/het aantal vuilnisbakken worden in kaart gebracht en waar nodig aangepast.  \nHet type vuilnisbak kan aangepast worden naargelang de locatie.  Verder zal er ook ingezet worden op het scheiden van afval op drukke locaties en zal ook de ophaalroute van de vuilnisbakken door de gemeentelijke technische dienst geoptimaliseerd worden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 5.82,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 5.82,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-2",
+    "ap_short": "Vlotte en veilige mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-24",
+    "ac_short": "Verbeteringen in de dorpskernen (inrichting verblijfsgebieden)",
+    "ac_long": "In uitvoering van de mobiliteitsstudie wordt werk gemaakt van het inrichten van de verblijfsgebieden in de verschillende deelgemeenten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 5.82,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.91,
+      "2028": 2.91,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-7",
+    "ac_short": "Aanpakken schrijnwerk van de Academie",
+    "ac_long": "Het schrijnwerk van de Academie wordt volledig onder handen genomen zodanig dat het opnieuw bestand is tegen weer en wind voor de komende jaren.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 4.36,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-1",
+    "ap_short": "Sterke infrastructuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-12",
+    "ac_short": "Wegenis- en rioleringswerken Opperij",
+    "ac_long": "De riolering in Opperij wordt heraangelegd en tegelijkertijd zal ook de bovenbouw aangepakt worden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 3.64,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-ZORG",
+    "bd_short": "Een warme en zorgzame gemeente: samen sterk voor welzijn en solidariteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen streeft naar een warme en  zorgzame gemeente waar welzijn, solidariteit en betrokkenheid centraal staan.  Iedereen verdient hierbij kansen en ondersteuning. We versterken (sociale) tewerkstelling, stimuleren vrijwilligerswerk en zetten ons in voor de meest kwetsbaren. Van jongeren tot senioren: we bieden aangepaste diensten, activiteiten en programma’s die bijdragen aan een sterk sociaal netwerk. In Kluisbergen laten we niemand achter en bouwen we samen aan een gemeente waar jong en oud zich verbonden voelen, talenten gewaardeerd worden en solidariteit het sociale weefsel versterkt, kortom aan een warme en zorgzame gemeente!",
+    "ap_code": "AP-ZORG-1",
+    "ap_short": "Aandacht voor senioren en jeugd",
+    "ap_long": "Commentaar:",
+    "ac_code": "ZORG-18",
+    "ac_short": "Uitbreiden/optimaliseren van de gemeentelijke speelterreinen",
+    "ac_long": "De bestaande speelterreinen worden uitgebreid/geoptimaliseerd waar en wanneer nodig.\nHierbij kunnen extra speeltoestellen voorzien worden, extra picknicktafels geïnstalleerd worden of kunnen bijkomende schaduwplekken gecreëerd worden.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 2.91,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 20000.0,
-      "2031": 280000.0
+      "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 2.9,
-      "2031": 40.67
+      "2030": 2.91,
+      "2031": 0
     }
   },
   {
     "municipality": "Kluisbergen",
     "nis_code": "45060",
-    "bd_code": "BD",
+    "bd_code": "BD-ORG",
     "bd_short": "Kluisbergen spreekt en luistert:een sterke organisatie met heldere communicatie en actieve burgerpar",
     "bd_long": "Kwalitatieve omschrijving: Kluisbergen streeft naar een toekomstgericht gemeentebestuur dat actief luistert naar en communiceert met haar inwoners.  Er wordt ingezet op het uitrollen van een sterk organisatiebeheersingssysteem zodat de gemeente gewapend is tegen de huidige en toekomstige uitdagingen.  Professionalisering van de werking staat hierbij centraal.\nVoor inwoners wordt communicatie eenvoudiger, transparanter en toegankelijker gemaakt.  Er wordt ingezet op verschillende digitale communicatiekanalen zodat de burger steeds op de hoogte blijft.  Door burgerbevragingen en inspraakmomenten te organiseren, geven we inwoners een directe stem in het beleid. Samen maken we van Kluisbergen een gemeente waar betrokkenheid en inspraak centraal staan!",
-    "ap_code": "AP",
+    "ap_code": "AP-ORG-1",
     "ap_short": "Een sterke organisatie",
     "ap_long": "Commentaar:",
-    "ac_code": "ORG",
-    "ac_short": "Herinrichten en optimalisatie ruimtegebruik gemeentehuis",
-    "ac_long": "Verschillende lokalen in het gemeentehuis zullen opgeknapt worden en er zal nagegaan worden in de welke mate de burelen anders ingedeeld/verdeeld kunnen worden teneinde de verschillende ruimtes in het gemeentehuis optimaal te kunnen gebruiken zodanig dat alle medewerkers een aangename werkplek hebben.",
+    "ac_code": "ORG-2",
+    "ac_short": "Herinrichten archief technische dienst naar vergaderruimte",
+    "ac_long": "Om het gebrek aan vergaderruimte in de technische dienst op te vangen, zal het huidige archief verbouwd worden tot vergaderruimte.  Door de verdere digitalisering van het archief zal er immers steeds minder archiefruimte noodzakelijk zijn.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 115000.0,
-    "amount_per_capita": 16.7,
+    "total_amount": 15000.0,
+    "amount_per_capita": 2.18,
     "yearly_amounts": {
       "2026": 0,
       "2027": 15000.0,
-      "2028": 100000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -163,7 +1183,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 2.18,
-      "2028": 14.52,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -172,33 +1192,237 @@
   {
     "municipality": "Kluisbergen",
     "nis_code": "45060",
-    "bd_code": "BD",
+    "bd_code": "BD-VTO",
     "bd_short": "Kluisbergen leeft: Ondernemen, toerisme, cultuur en evenementen in de spotlights",
     "bd_long": "Kwalitatieve omschrijving: Kluisbergen is dé plek waar cultuur, toerisme, ondernemen en evenementen samenkomen! Met nieuwe trekpleisters, een Raad van Toerisme, meer ondersteuning voor erfgoed en lokale initiatieven, samenwerkingen met de lokale middenstand, zetten we onze regio op de kaart. Van wielerkoersen tot culturele events: we maken van Kluisbergen een levendige en gastvrije bestemming waar ondernemerschap, toerisme, cultuur en verenigingsleven hand in hand gaan en waar altijd iets te beleven valt.",
-    "ap_code": "AP",
+    "ap_code": "AP-VTO-3",
+    "ap_short": "Verder investeren in cultuur en vrije tijd",
+    "ap_long": "Commentaar:",
+    "ac_code": "VTO-14",
+    "ac_short": "Verbeteren van de bibliotheekinfrastructuur",
+    "ac_long": "Er wordt ingezet op het verder verbeteren van de bibliotheekinfrastructuur (uitbreiding balie, optimaliseren verlichting, aanpassingen inkom,...).  Dit zorgt voor een nog modernere en beter toegankelijke voorziening voor bezoekers.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 1.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.45,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-2",
+    "ap_short": "Vlotte en veilige mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-42",
+    "ac_short": "Voorzien van extra fietsstallingen op strategische plaatsen",
+    "ac_long": "Op verschillende strategische locaties (bijv. scholen, bushaltes, bos, bib,...) worden extra fietsstallingen voorzien.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 9000.0,
+    "amount_per_capita": 1.31,
+    "yearly_amounts": {
+      "2026": 4500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 4500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.65,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.65,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-GROEN",
+    "bd_short": "Kluisbergen, een groene en duurzame gemeente voor morgen",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen kiest voor een groene en duurzame toekomst, met een duidelijk ruimtelijk beleid en bijhorende plannen om de ontwikkeling van de gemeente richting te geven. De gemeente vergroent stap voor stap met initiatieven zoals onthardings- en vergroeningsprojecten, de aanplant van een geboortebos,  jaarlijkse boom- en bloemenacties,…\nDuurzaamheid krijgt concrete invulling via energieneutrale gebouwen, extra laadpalen, stapsgewijze uitvoering van de gemeentelijke klimaatplannen, verledde openbare verlichting...  Eigen medewerkers en inwoners worden actief betrokken d.m.v. vormingen en sensibiliseringscampagnes, korte keten-acties, …\n Landbouwers spelen een centrale rol in landschapsbeheer, educatie en erosieaanpak, waardoor Kluisbergen uitgroeit tot een veerkrachtige gemeente waar natuur, landbouw en leefbaarheid in harmonie samenkomen.",
+    "ap_code": "AP-GROEN-2",
+    "ap_short": "Een groene gemeente",
+    "ap_long": "Commentaar:",
+    "ac_code": "GROEN-9",
+    "ac_short": "Vergroening van de binnenplaats van GOC Kwaremont",
+    "ac_long": "Het GOC Kwaremont wordt opgewaardeerd door van het binnenpleintje een gezellige groene plaats te maken.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 7500.0,
+    "amount_per_capita": 1.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 7500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1.09,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-2",
+    "ap_short": "Vlotte en veilige mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-38",
+    "ac_short": "Voorzien van veiligheids- en preventiesignalisatie",
+    "ac_long": "Er wordt geïnvesteerd in bijkomende digitale snelheidsinformatieborden en verplaatsbare snelheidsinformatieborden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 7500.0,
+    "amount_per_capita": 1.09,
+    "yearly_amounts": {
+      "2026": 4000.0,
+      "2027": 0,
+      "2028": 3500.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.58,
+      "2027": 0,
+      "2028": 0.51,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-VTO",
+    "bd_short": "Kluisbergen leeft: Ondernemen, toerisme, cultuur en evenementen in de spotlights",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen is dé plek waar cultuur, toerisme, ondernemen en evenementen samenkomen! Met nieuwe trekpleisters, een Raad van Toerisme, meer ondersteuning voor erfgoed en lokale initiatieven, samenwerkingen met de lokale middenstand, zetten we onze regio op de kaart. Van wielerkoersen tot culturele events: we maken van Kluisbergen een levendige en gastvrije bestemming waar ondernemerschap, toerisme, cultuur en verenigingsleven hand in hand gaan en waar altijd iets te beleven valt.",
+    "ap_code": "AP-VTO-2",
     "ap_short": "Verder investeren in toerisme",
     "ap_long": "Commentaar:",
-    "ac_code": "VTO",
+    "ac_code": "VTO-5",
     "ac_short": "Creëren van een netwerk van zitbanken/picknickbanken als toeristische trekpleister",
     "ac_long": "Het creëren van een netwerk van zit- en picknickbanken versterkt de aantrekkelijkheid van toeristische plekken. \nHierdoor kunnen bezoekers comfortabel genieten van de omgeving en worden rustpunten tegelijk als trekpleisters benut.",
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 18500.0,
-    "amount_per_capita": 2.69,
+    "total_amount": 6000.0,
+    "amount_per_capita": 0.87,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 6000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.87,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-INFRA",
+    "bd_short": "Kluisbergen bouwt aan de toekomst: sterke infrastructuur en vlotte en veilige mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen investeert volop in een moderne en toekomstgerichte infrastructuur, met veilige, vlotte en duurzame mobiliteit. Sport- en onderwijsvoorzieningen, zoals de sporthal, voetbalvelden, GBS De Start en de Academie, worden vernieuwd en geoptimaliseerd zodat inwoners kunnen rekenen op kwaliteitsvolle faciliteiten. Tegelijk werkt de gemeente aan het onderhoud en de verfraaiing van publieke gebouwen en sites, terwijl wegenis- en rioleringswerken buurten veiliger en aangenamer maken. Mobiliteit staat centraal met veilige schoolomgevingen, verbeterde kruispunten, fietsroutes en extra voorzieningen voor fietsen en autodelen. Door al deze inspanningen willen we een leefbare, veilige en toekomstgerichte gemeente creëren, waar iedereen een plek heeft waar het goed is om te werken, te ontspannen,…",
+    "ap_code": "AP-INFRA-2",
+    "ap_short": "Vlotte en veilige mobiliteit",
+    "ap_long": "Commentaar:",
+    "ac_code": "INFRA-32",
+    "ac_short": "Voorzien van meeneembankjes/liftbankjes op strategische locaties",
+    "ac_long": "Er zal onderzocht worden op welke locatie eventueel een meeneembankje of liftbankje kan georganiseerd worden.\nPersonen die erop gaan zitten, geven aan dat ze een lift nodig hebben naar een bepaalde locatie. Door elkaar een lift te geven, helpen bewoners elkaar en leren ze elkaar beter kennen.  De banken zijn een goed alternatief op plaatsen waar het aanbod van het openbaar vervoer beperkt is.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.44,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 3000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.44,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kluisbergen",
+    "nis_code": "45060",
+    "bd_code": "BD-VTO",
+    "bd_short": "Kluisbergen leeft: Ondernemen, toerisme, cultuur en evenementen in de spotlights",
+    "bd_long": "Kwalitatieve omschrijving: Kluisbergen is dé plek waar cultuur, toerisme, ondernemen en evenementen samenkomen! Met nieuwe trekpleisters, een Raad van Toerisme, meer ondersteuning voor erfgoed en lokale initiatieven, samenwerkingen met de lokale middenstand, zetten we onze regio op de kaart. Van wielerkoersen tot culturele events: we maken van Kluisbergen een levendige en gastvrije bestemming waar ondernemerschap, toerisme, cultuur en verenigingsleven hand in hand gaan en waar altijd iets te beleven valt.",
+    "ap_code": "AP-VTO-3",
+    "ap_short": "Verder investeren in cultuur en vrije tijd",
+    "ap_long": "Commentaar:",
+    "ac_code": "VTO-15",
+    "ac_short": "Openstellen van de tuin van het gemeentehuis voor huwelijken",
+    "ac_long": "Als alternatief voor de raadzaal, wordt ook de mogelijkheid geboden om een huwelijk te voltrekken in de tuin van het gemeentehuis.\nDit biedt koppels een sfeervolle locatie voor hun huwelijksplechtigheid en zo kunnen zij hun speciale dag vieren in een prachtige omgeving.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2500.0,
+    "amount_per_capita": 0.36,
     "yearly_amounts": {
       "2026": 2500.0,
       "2027": 0,
-      "2028": 10000.0,
-      "2029": 6000.0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0.36,
       "2027": 0,
-      "2028": 1.45,
-      "2029": 0.87,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }

@@ -2,69 +2,1123 @@
   {
     "municipality": "Hoogstraten",
     "nis_code": "13014",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
     "bd_short": "1/3 Sterke, veilige en betrouwbare organisatie",
     "bd_long": "We bouwen aan een sterke, veilige en betrouwbare organisatie, die iedereen mee neemt en waar elke werknemer zich verantwoordelijk en trots voelt.",
-    "ap_code": "1",
+    "ap_code": "1/3/2",
     "ap_short": "Veilige stad",
     "ap_long": "We werken aan een integraal veiligheidsbeleid en investeren in infrastructuur voor onze veiligheidsdiensten.",
-    "ac_code": "1",
+    "ac_code": "1/3/2_1/3/2/2",
     "ac_short": "Een nieuwe brandweerkazerne",
     "ac_long": "We investeren in een nieuwe brandweerkazerne in Minderhout.",
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 47348757.0,
-    "amount_per_capita": 2098.3,
+    "total_amount": 11190000.0,
+    "amount_per_capita": 495.44,
     "yearly_amounts": {
-      "2026": 26555088.0,
-      "2027": 10404921.0,
-      "2028": 2980500.0,
-      "2029": 2145000.0,
-      "2030": 3778248.0,
-      "2031": 1485000.0
+      "2026": 9190000.0,
+      "2027": 2000000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1176.81,
-      "2027": 461.1,
-      "2028": 132.08,
-      "2029": 95.06,
-      "2030": 167.44,
-      "2031": 65.81
+      "2026": 406.89,
+      "2027": 88.55,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Hoogstraten",
     "nis_code": "13014",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/2",
+    "ap_short": "Gebouwrenovaties en energie-investeringen",
+    "ap_long": "Met gebouwrenovaties en energie-investeringen maken we onze gebouwen klaar voor de toekomst.",
+    "ac_code": "1/2/2_1/2/2/1",
+    "ac_short": "Renovatie en structureel onderhoud van onze gebouwen",
+    "ac_long": "We zorgen voor een systematisch beheer van onze gebouwen, gebaseerd op het strategisch vastgoedplan van de stad.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 5062350.0,
+    "amount_per_capita": 224.14,
+    "yearly_amounts": {
+      "2026": 2061102.0,
+      "2027": 1362500.0,
+      "2028": 380500.0,
+      "2029": 595000.0,
+      "2030": 478248.0,
+      "2031": 185000.0
+    },
+    "yearly_per_capita": {
+      "2026": 91.26,
+      "2027": 60.33,
+      "2028": 16.85,
+      "2029": 26.34,
+      "2030": 21.17,
+      "2031": 8.19
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/1",
+    "ap_short": "Wegen, publieke ruimte en waterhuishouding",
+    "ap_long": "We beheren en vernieuwen onze wegen en de publieke ruimte en verhogen de rioleringsgraad in Hoogstraten",
+    "ac_code": "1/2/1_1/2/1/5",
+    "ac_short": "Beheer van onze openbare wegen",
+    "ac_long": "We beheren ons gemeentelijk wegenareaal door onderhoudsinvesteringen op basis van de vastgestelde conditie van de wegen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4158128.08,
+    "amount_per_capita": 184.1,
+    "yearly_amounts": {
+      "2026": 1297447.8,
+      "2027": 660680.28,
+      "2028": 550000.0,
+      "2029": 550000.0,
+      "2030": 550000.0,
+      "2031": 550000.0
+    },
+    "yearly_per_capita": {
+      "2026": 57.45,
+      "2027": 29.25,
+      "2028": 24.35,
+      "2029": 24.35,
+      "2030": 24.35,
+      "2031": 24.35
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/2",
+    "ap_short": "Gebouwrenovaties en energie-investeringen",
+    "ap_long": "Met gebouwrenovaties en energie-investeringen maken we onze gebouwen klaar voor de toekomst.",
+    "ac_code": "1/2/2_1/2/2/2",
+    "ac_short": "Restauratie Sint-Katharinakerk",
+    "ac_long": "We voltooien de restauratie van de Sint-Katharinakerk met de laatste fase : het interieur.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3888180.73,
+    "amount_per_capita": 172.15,
+    "yearly_amounts": {
+      "2026": 3222195.89,
+      "2027": 465984.84,
+      "2028": 200000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 142.66,
+      "2027": 20.63,
+      "2028": 8.86,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 4",
     "bd_short": "R. Samen bouwen aan een stevige basisdienstverlening",
     "bd_long": "We bouwen samen aan een stevige basisdienstverlening voor een stad die leeft, groeit en verbindt.",
-    "ap_code": "R",
+    "ap_code": "R/1",
     "ap_short": "Regulier afdeling burger",
     "ap_long": "Regulier afdeling burger",
-    "ac_code": "R",
+    "ac_code": "R/1_R/1/1",
     "ac_short": "Woonzorg",
     "ac_long": "Woonzorg",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 13855395.0,
-    "amount_per_capita": 614.01,
+    "total_amount": 3671808.38,
+    "amount_per_capita": 162.57,
     "yearly_amounts": {
-      "2026": 3026865.0,
-      "2027": 2094636.0,
-      "2028": 3357775.0,
-      "2029": 1586195.0,
-      "2030": 2214867.0,
-      "2031": 1575057.0
+      "2026": 403634.73,
+      "2027": 353634.73,
+      "2028": 1853634.73,
+      "2029": 353634.73,
+      "2030": 353634.73,
+      "2031": 353634.73
     },
     "yearly_per_capita": {
-      "2026": 134.14,
-      "2027": 92.83,
-      "2028": 148.8,
-      "2029": 70.29,
-      "2030": 98.15,
-      "2031": 69.8
+      "2026": 17.87,
+      "2027": 15.66,
+      "2028": 82.07,
+      "2029": 15.66,
+      "2030": 15.66,
+      "2031": 15.66
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/1",
+    "ap_short": "Wegen, publieke ruimte en waterhuishouding",
+    "ap_long": "We beheren en vernieuwen onze wegen en de publieke ruimte en verhogen de rioleringsgraad in Hoogstraten",
+    "ac_code": "1/2/1_1/2/1/1",
+    "ac_short": "Rioleringsproject en fietspad Hoogeind - Meersel",
+    "ac_long": "We optimaliseren het rioleringssysteem Meerselsebergen en we realiseren het fietspad Hoogeind - Meersel.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3175304.28,
+    "amount_per_capita": 140.59,
+    "yearly_amounts": {
+      "2026": 3175304.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 140.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 4",
+    "bd_short": "R. Samen bouwen aan een stevige basisdienstverlening",
+    "bd_long": "We bouwen samen aan een stevige basisdienstverlening voor een stad die leeft, groeit en verbindt.",
+    "ap_code": "R/4",
+    "ap_short": "Algemene diensTverlening",
+    "ap_long": "Algemene dienstverlening",
+    "ac_code": "R/4_R/4/1",
+    "ac_short": "Veiligheid, hulpverlening en handhaving",
+    "ac_long": "Veiligheid, hulpverlening en handhaving",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 3061903.91,
+    "amount_per_capita": 135.57,
+    "yearly_amounts": {
+      "2026": 450116.91,
+      "2027": 526186.0,
+      "2028": 541656.0,
+      "2029": 521351.0,
+      "2030": 529049.0,
+      "2031": 493545.0
+    },
+    "yearly_per_capita": {
+      "2026": 19.93,
+      "2027": 23.3,
+      "2028": 23.98,
+      "2029": 23.08,
+      "2030": 23.42,
+      "2031": 21.85
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/3",
+    "ap_short": "Verkeersveiligheid en fietsinfrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid, met bijzondere aandacht voor fiets- en schoolroutes.",
+    "ac_code": "1/2/3_1/2/3/2",
+    "ac_short": "Fietsinfrastructuur en mobiliteitsmaatregelen",
+    "ac_long": "We investeren in verkeersveiligheid door mobiliteitsmaatregelen en betere fietsinfrastructuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2596529.69,
+    "amount_per_capita": 114.96,
+    "yearly_amounts": {
+      "2026": 596529.69,
+      "2027": 600000.0,
+      "2028": 350000.0,
+      "2029": 350000.0,
+      "2030": 350000.0,
+      "2031": 350000.0
+    },
+    "yearly_per_capita": {
+      "2026": 26.41,
+      "2027": 26.57,
+      "2028": 15.5,
+      "2029": 15.5,
+      "2030": 15.5,
+      "2031": 15.5
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 4",
+    "bd_short": "R. Samen bouwen aan een stevige basisdienstverlening",
+    "bd_long": "We bouwen samen aan een stevige basisdienstverlening voor een stad die leeft, groeit en verbindt.",
+    "ap_code": "R/2",
+    "ap_short": "Regulier afdeling ruimte",
+    "ap_long": "Regulier afdeling ruimte",
+    "ac_code": "R/2_R/2/3",
+    "ac_short": "Openbaar domein",
+    "ac_long": "Openbaar domein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2562074.36,
+    "amount_per_capita": 113.44,
+    "yearly_amounts": {
+      "2026": 852844.36,
+      "2027": 399320.0,
+      "2028": 396999.0,
+      "2029": 71674.0,
+      "2030": 571249.0,
+      "2031": 269988.0
+    },
+    "yearly_per_capita": {
+      "2026": 37.76,
+      "2027": 17.68,
+      "2028": 17.58,
+      "2029": 3.17,
+      "2030": 25.29,
+      "2031": 11.95
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/4",
+    "ap_short": "instrumenten en plannen voor ruimtelijke kwaliteit",
+    "ap_long": "We creëren instrumenten voor onze regierol in ruimtelijke planning en zetten in op gebiedsgerichte ontwikkeling.",
+    "ac_code": "1/2/4_1/2/4/2",
+    "ac_short": "Masterplan dorpskern Minderhout",
+    "ac_long": "We finaliseren een masterplan voor de publieke functies en de openbare ruimte in de dorpskern van Minderhout en brengen dit tot uitvoering.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 2550000.0,
+    "amount_per_capita": 112.9,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 1900000.0,
+      "2028": 600000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.21,
+      "2027": 84.12,
+      "2028": 26.57,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 1",
+    "bd_short": "1/1 Warme, zorgzame en bruisende stad",
+    "bd_long": "We bouwen samen aan een zorgzame, warme stad, die leeft en bruist en waar elke inwoner zich thuis voelt.",
+    "ap_code": "1/1/3",
+    "ap_short": "Zelfontplooiing en vrije tijd",
+    "ap_long": "We investeren in cultuur- en sportinfrastructuur in Hoogstraten.",
+    "ac_code": "1/1/3_1/1/3/2",
+    "ac_short": "Nieuwe sport- en vrijetijdsinfrastructuur",
+    "ac_long": "We investeren in nieuwe sport en vrijetijdsinfrastructuur voor verenigingen in Hoogstraten op basis van behoeften en clustermogelijkheden.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2500000.0,
+    "amount_per_capita": 110.69,
+    "yearly_amounts": {
+      "2026": 1000000.0,
+      "2027": 750000.0,
+      "2028": 500000.0,
+      "2029": 250000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 44.28,
+      "2027": 33.21,
+      "2028": 22.14,
+      "2029": 11.07,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 1",
+    "bd_short": "1/1 Warme, zorgzame en bruisende stad",
+    "bd_long": "We bouwen samen aan een zorgzame, warme stad, die leeft en bruist en waar elke inwoner zich thuis voelt.",
+    "ap_code": "1/1/3",
+    "ap_short": "Zelfontplooiing en vrije tijd",
+    "ap_long": "We investeren in cultuur- en sportinfrastructuur in Hoogstraten.",
+    "ac_code": "1/1/3_1/1/3/1",
+    "ac_short": "Een nieuw cultuurhuis",
+    "ac_long": "We werken een plan van aanpak uit voor een centraal cultuurhuis met koppelkansen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 88.55,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2000000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 88.55,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/2",
+    "ap_short": "Gebouwrenovaties en energie-investeringen",
+    "ap_long": "Met gebouwrenovaties en energie-investeringen maken we onze gebouwen klaar voor de toekomst.",
+    "ac_code": "1/2/2_1/2/2/3",
+    "ac_short": "Inrichting voor breder gebruik van de Sint-Katharinakerk",
+    "ac_long": "We richten de Sint-Katharinakerk in voor een bredere ontsluiting als sluitstuk van de volledige restauratie van de Sint Katharinakerk vanaf 2028.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1929028.35,
+    "amount_per_capita": 85.41,
+    "yearly_amounts": {
+      "2026": 1650000.0,
+      "2027": 279028.35,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 73.05,
+      "2027": 12.35,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 4",
+    "bd_short": "R. Samen bouwen aan een stevige basisdienstverlening",
+    "bd_long": "We bouwen samen aan een stevige basisdienstverlening voor een stad die leeft, groeit en verbindt.",
+    "ap_code": "R/2",
+    "ap_short": "Regulier afdeling ruimte",
+    "ap_long": "Regulier afdeling ruimte",
+    "ac_code": "R/2_R/2/4",
+    "ac_short": "Facilitair en logistiek",
+    "ac_long": "Facilitair en logistiek",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1815396.32,
+    "amount_per_capita": 80.38,
+    "yearly_amounts": {
+      "2026": 500202.07,
+      "2027": 300000.0,
+      "2028": 253000.0,
+      "2029": 250000.0,
+      "2030": 250000.0,
+      "2031": 262194.25
+    },
+    "yearly_per_capita": {
+      "2026": 22.15,
+      "2027": 13.28,
+      "2028": 11.2,
+      "2029": 11.07,
+      "2030": 11.07,
+      "2031": 11.61
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 4",
+    "bd_short": "R. Samen bouwen aan een stevige basisdienstverlening",
+    "bd_long": "We bouwen samen aan een stevige basisdienstverlening voor een stad die leeft, groeit en verbindt.",
+    "ap_code": "R/3",
+    "ap_short": "Regulier afdeling interne diensten",
+    "ap_long": "Regulier afdeling interne diensten",
+    "ac_code": "R/3_R/3/1",
+    "ac_short": "Administratie",
+    "ac_long": "Administratie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1694718.0,
+    "amount_per_capita": 75.03,
+    "yearly_amounts": {
+      "2026": 454600.0,
+      "2027": 332900.0,
+      "2028": 202890.0,
+      "2029": 234440.0,
+      "2030": 350788.0,
+      "2031": 119100.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.13,
+      "2027": 14.74,
+      "2028": 8.98,
+      "2029": 10.38,
+      "2030": 15.53,
+      "2031": 5.27
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/1",
+    "ap_short": "Wegen, publieke ruimte en waterhuishouding",
+    "ap_long": "We beheren en vernieuwen onze wegen en de publieke ruimte en verhogen de rioleringsgraad in Hoogstraten",
+    "ac_code": "1/2/1_1/2/1/3",
+    "ac_short": "Rioleringsproject Hinnenboomstraat-Achteraard",
+    "ac_long": "We leggen riolering aan in Hinnenboomstraat-Achteraard en optimaliseren het regenwaterstelsel.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 1536728.12,
+    "amount_per_capita": 68.04,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 1536728.12,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 68.04,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/1",
+    "ap_short": "Wegen, publieke ruimte en waterhuishouding",
+    "ap_long": "We beheren en vernieuwen onze wegen en de publieke ruimte en verhogen de rioleringsgraad in Hoogstraten",
+    "ac_code": "1/2/1_1/2/1/4",
+    "ac_short": "Rioleringsproject Heerle",
+    "ac_long": "We leggen riolering aan in Heerle en optimaliseren het regenwaterstelsel.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 808613.69,
+    "amount_per_capita": 35.8,
+    "yearly_amounts": {
+      "2026": 808613.69,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 35.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/2",
+    "ap_short": "Gebouwrenovaties en energie-investeringen",
+    "ap_long": "Met gebouwrenovaties en energie-investeringen maken we onze gebouwen klaar voor de toekomst.",
+    "ac_code": "1/2/2_1/2/2/6",
+    "ac_short": "Restauratie historisch stadhuis",
+    "ac_long": "We restaureren de buitenschil van het historisch stadhuis",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 767892.86,
+    "amount_per_capita": 34.0,
+    "yearly_amounts": {
+      "2026": 767892.86,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 34.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/1",
+    "ap_short": "Wegen, publieke ruimte en waterhuishouding",
+    "ap_long": "We beheren en vernieuwen onze wegen en de publieke ruimte en verhogen de rioleringsgraad in Hoogstraten",
+    "ac_code": "1/2/1_1/2/1/7",
+    "ac_short": "Kindvriendelijke publieke ruimte",
+    "ac_long": "Met de uitvoering van het Masterplan Kindvriendelijke ruimte creëren we meer speel-, sport- en ontmoetingskansen voor kinderen en jongeren, met de nadruk op avontuurlijk en natuurlijk spelen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 625000.0,
+    "amount_per_capita": 27.67,
+    "yearly_amounts": {
+      "2026": 125000.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.53,
+      "2027": 4.43,
+      "2028": 4.43,
+      "2029": 4.43,
+      "2030": 4.43,
+      "2031": 4.43
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 1",
+    "bd_short": "1/1 Warme, zorgzame en bruisende stad",
+    "bd_long": "We bouwen samen aan een zorgzame, warme stad, die leeft en bruist en waar elke inwoner zich thuis voelt.",
+    "ap_code": "1/1/4",
+    "ap_short": "Ondernemen en innovatie",
+    "ap_long": "We ondersteunen een positief ondernemersklimaat met één aanspreekpunt. Daarnaast zetten we in op een meer aangename en veilige omgeving op onze bedrijventerreinen.",
+    "ac_code": "1/1/4_1/1/4/2",
+    "ac_short": "Bedrijventerreinen: Inrichting en infrastructuur",
+    "ac_long": "We verbeteren de leefbaarheid op bedrijventerreinen door te zorgen voor een schone en veilige omgeving, een sociaal en economisch ondernemersklimaat en structurele samenwerking tussen bedrijven, overheid en partners.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 26.57,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.43,
+      "2027": 4.43,
+      "2028": 4.43,
+      "2029": 4.43,
+      "2030": 4.43,
+      "2031": 4.43
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/1",
+    "ap_short": "Wegen, publieke ruimte en waterhuishouding",
+    "ap_long": "We beheren en vernieuwen onze wegen en de publieke ruimte en verhogen de rioleringsgraad in Hoogstraten",
+    "ac_code": "1/2/1_1/2/1/6",
+    "ac_short": "Beheer van onze groene publieke ruimte",
+    "ac_long": "We onderhouden en beheren ons openbaar groen volgens een vastgelegde beeldkwaliteitsnorm en zorgen voor extra groene zones op strategische plaatsen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 26.57,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.43,
+      "2027": 4.43,
+      "2028": 4.43,
+      "2029": 4.43,
+      "2030": 4.43,
+      "2031": 4.43
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/3",
+    "ap_short": "Verkeersveiligheid en fietsinfrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid, met bijzondere aandacht voor fiets- en schoolroutes.",
+    "ac_code": "1/2/3_1/2/3/3",
+    "ac_short": "Veilige schoolroutes en -omgevingen",
+    "ac_long": "We beveiligen schoolroutes en -omgevingen in Hoogstraten, in samenwerking met de scholen, ouders en kinderen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 26.57,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.43,
+      "2027": 4.43,
+      "2028": 4.43,
+      "2029": 4.43,
+      "2030": 4.43,
+      "2031": 4.43
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/1",
+    "ap_short": "Wegen, publieke ruimte en waterhuishouding",
+    "ap_long": "We beheren en vernieuwen onze wegen en de publieke ruimte en verhogen de rioleringsgraad in Hoogstraten",
+    "ac_code": "1/2/1_1/2/1/2",
+    "ac_short": "Rioleringsproject Hal",
+    "ac_long": "We leggen riolering aan in Hal en optimaliseren het regenwaterstelsel.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 542000.0,
+    "amount_per_capita": 24.0,
+    "yearly_amounts": {
+      "2026": 542000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 24.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/2",
+    "ap_short": "Gebouwrenovaties en energie-investeringen",
+    "ap_long": "Met gebouwrenovaties en energie-investeringen maken we onze gebouwen klaar voor de toekomst.",
+    "ac_code": "1/2/2_1/2/2/5",
+    "ac_short": "Collectieve en duurzame verwarming op site stede akkers",
+    "ac_long": "We ontwikkelen een collectieve, duurzame verwarming op site stede akkers.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 22.14,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 22.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 4",
+    "bd_short": "R. Samen bouwen aan een stevige basisdienstverlening",
+    "bd_long": "We bouwen samen aan een stevige basisdienstverlening voor een stad die leeft, groeit en verbindt.",
+    "ap_code": "R/3",
+    "ap_short": "Regulier afdeling interne diensten",
+    "ap_long": "Regulier afdeling interne diensten",
+    "ac_code": "R/3_R/3/3",
+    "ac_short": "Onderwijs",
+    "ac_long": "Onderwijs",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 473051.0,
+    "amount_per_capita": 20.94,
+    "yearly_amounts": {
+      "2026": 222000.0,
+      "2027": 56000.0,
+      "2028": 33000.0,
+      "2029": 78500.0,
+      "2030": 83551.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.83,
+      "2027": 2.48,
+      "2028": 1.46,
+      "2029": 3.48,
+      "2030": 3.7,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 1",
+    "bd_short": "1/1 Warme, zorgzame en bruisende stad",
+    "bd_long": "We bouwen samen aan een zorgzame, warme stad, die leeft en bruist en waar elke inwoner zich thuis voelt.",
+    "ap_code": "1/1/1",
+    "ap_short": "Zorgen en wonen",
+    "ap_long": "We helpen inwoners zo lang mogelijk, goed thuis te wonen, maar bieden daarnaast ook verschillende woonzorgvormen aan.",
+    "ac_code": "1/1/1_1/1/1/4",
+    "ac_short": "Buurtgerichte zorg in elk dorp",
+    "ac_long": "We zetten in op buurtgerichte zorg om mensen zo lang en comfortabel mogelijk thuis te laten wonen in elk dorp.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 19.92,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 450000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 19.92,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/3",
+    "ap_short": "Verkeersveiligheid en fietsinfrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid, met bijzondere aandacht voor fiets- en schoolroutes.",
+    "ac_code": "1/2/3_1/2/3/1",
+    "ac_short": "Sturing van vrachtverkeer in de kernen",
+    "ac_long": "Afhankelijk van het bestemmingsonderzoek wordt de vrachtwagensluis gerealiseerd in de noord-zuid richting van Hoogstraten. In Meersel-Dreef wordt een vrachtwagenluwe zone gepland.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 19.92,
+    "yearly_amounts": {
+      "2026": 450000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.92,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 2",
+    "bd_short": "1/2 Aantrekkelijke, toegankelijke en veerkrachtige stad",
+    "bd_long": "We bouwen aan een aantrekkelijke en veerkrachtige stad, die haar veelzijdigheid en haar unieke dorpen koestert en waar iedereen zich veilig en vlot kan verplaatsen.",
+    "ap_code": "1/2/3",
+    "ap_short": "Verkeersveiligheid en fietsinfrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid, met bijzondere aandacht voor fiets- en schoolroutes.",
+    "ac_code": "1/2/3_1/2/3/4",
+    "ac_short": "Schoolstraat Minderhout",
+    "ac_long": "We creëren meer ruimte voor fietsers en stappers in de Schoolstraat in Minderhout",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 430671.42,
+    "amount_per_capita": 19.07,
+    "yearly_amounts": {
+      "2026": 430671.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.07,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 1",
+    "bd_short": "1/1 Warme, zorgzame en bruisende stad",
+    "bd_long": "We bouwen samen aan een zorgzame, warme stad, die leeft en bruist en waar elke inwoner zich thuis voelt.",
+    "ap_code": "1/1/2",
+    "ap_short": "Welzijn bij diverse doelgroepen",
+    "ap_long": "Als er specifieke welzijnsnoden naar boven komen voor bepaalde doelgroepen, werken we daarrond door in te zetten op nabijheid en maatwerk.",
+    "ac_code": "1/1/2_1/1/2/2",
+    "ac_short": "Regierol binnen Buitenschoolse Opvang en Activiteiten (BOA)",
+    "ac_long": "We nemen de regierol op in het realiseren van duurzame en kwaliteitsvolle buitenschoolse opvang en activiteiten (BOA).",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 388330.0,
+    "amount_per_capita": 17.19,
+    "yearly_amounts": {
+      "2026": 388330.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.19,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 4",
+    "bd_short": "R. Samen bouwen aan een stevige basisdienstverlening",
+    "bd_long": "We bouwen samen aan een stevige basisdienstverlening voor een stad die leeft, groeit en verbindt.",
+    "ap_code": "R/1",
+    "ap_short": "Regulier afdeling burger",
+    "ap_long": "Regulier afdeling burger",
+    "ac_code": "R/1_R/1/3",
+    "ac_short": "Werken en vrije tijd",
+    "ac_long": "Werken en vrije tijd",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 255793.9,
+    "amount_per_capita": 11.33,
+    "yearly_amounts": {
+      "2026": 105793.9,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.68,
+      "2027": 1.33,
+      "2028": 1.33,
+      "2029": 1.33,
+      "2030": 1.33,
+      "2031": 1.33
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 4",
+    "bd_short": "R. Samen bouwen aan een stevige basisdienstverlening",
+    "bd_long": "We bouwen samen aan een stevige basisdienstverlening voor een stad die leeft, groeit en verbindt.",
+    "ap_code": "R/2",
+    "ap_short": "Regulier afdeling ruimte",
+    "ap_long": "Regulier afdeling ruimte",
+    "ac_code": "R/2_R/2/2",
+    "ac_short": "Gebouwen",
+    "ac_long": "Gebouwen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 141077.55,
+    "amount_per_capita": 6.25,
+    "yearly_amounts": {
+      "2026": 16077.55,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.71,
+      "2027": 1.11,
+      "2028": 1.11,
+      "2029": 1.11,
+      "2030": 1.11,
+      "2031": 1.11
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 4",
+    "bd_short": "R. Samen bouwen aan een stevige basisdienstverlening",
+    "bd_long": "We bouwen samen aan een stevige basisdienstverlening voor een stad die leeft, groeit en verbindt.",
+    "ap_code": "R/1",
+    "ap_short": "Regulier afdeling burger",
+    "ap_long": "Regulier afdeling burger",
+    "ac_code": "R/1_R/1/2",
+    "ac_short": "WELZIJN",
+    "ac_long": "Welzijn",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 129571.62,
+    "amount_per_capita": 5.74,
+    "yearly_amounts": {
+      "2026": 21595.27,
+      "2027": 21595.27,
+      "2028": 21595.27,
+      "2029": 21595.27,
+      "2030": 21595.27,
+      "2031": 21595.27
+    },
+    "yearly_per_capita": {
+      "2026": 0.96,
+      "2027": 0.96,
+      "2028": 0.96,
+      "2029": 0.96,
+      "2030": 0.96,
+      "2031": 0.96
+    }
+  },
+  {
+    "municipality": "Hoogstraten",
+    "nis_code": "13014",
+    "bd_code": "BDS 4",
+    "bd_short": "R. Samen bouwen aan een stevige basisdienstverlening",
+    "bd_long": "We bouwen samen aan een stevige basisdienstverlening voor een stad die leeft, groeit en verbindt.",
+    "ap_code": "R/3",
+    "ap_short": "Regulier afdeling interne diensten",
+    "ap_long": "Regulier afdeling interne diensten",
+    "ac_code": "R/3_R/3/2",
+    "ac_short": "Personeel",
+    "ac_long": "Personeel",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 2.21,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.21,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

@@ -2,40 +2,6 @@
   {
     "municipality": "Brakel",
     "nis_code": "45059",
-    "bd_code": "BD",
-    "bd_short": "Een sociale,  activerende en veilige gemeente",
-    "bd_long": "Commentaar:",
-    "ap_code": "AP",
-    "ap_short": "Opvang voor onze kinderen",
-    "ap_long": "Commentaar:",
-    "ac_code": "ACT",
-    "ac_short": "Integratie van BOA middelen",
-    "ac_long": "Commentaar:",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 19346222.0,
-    "amount_per_capita": 1244.79,
-    "yearly_amounts": {
-      "2026": 1486751.0,
-      "2027": 1231803.0,
-      "2028": 4966480.0,
-      "2029": 10649995.0,
-      "2030": 466971.0,
-      "2031": 544222.0
-    },
-    "yearly_per_capita": {
-      "2026": 95.66,
-      "2027": 79.26,
-      "2028": 319.56,
-      "2029": 685.25,
-      "2030": 30.05,
-      "2031": 35.02
-    }
-  },
-  {
-    "municipality": "Brakel",
-    "nis_code": "45059",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
@@ -48,23 +14,703 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 9209260.0,
-    "amount_per_capita": 592.55,
+    "total_amount": 9567275.72,
+    "amount_per_capita": 616.86,
     "yearly_amounts": {
-      "2026": 1338132.0,
-      "2027": 2164072.0,
+      "2026": 1796147.72,
+      "2027": 2064072.0,
       "2028": 1302686.0,
       "2029": 2492637.0,
       "2030": 1387576.0,
       "2031": 524157.0
     },
     "yearly_per_capita": {
-      "2026": 86.1,
-      "2027": 139.24,
-      "2028": 83.82,
-      "2029": 160.38,
-      "2030": 89.28,
-      "2031": 33.73
+      "2026": 115.81,
+      "2027": 133.08,
+      "2028": 83.99,
+      "2029": 160.71,
+      "2030": 89.46,
+      "2031": 33.8
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-3",
+    "bd_short": "De beste dienstverlening aan onze burgers",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-9",
+    "ap_short": "Minder, maar beter uitgeruste gebouwen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-42",
+    "ac_short": "Vrijetijdscentrum",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 7000000.0,
+    "amount_per_capita": 451.33,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 300000.0,
+      "2028": 3000000.0,
+      "2029": 3500000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.9,
+      "2027": 19.34,
+      "2028": 193.43,
+      "2029": 225.66,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-3",
+    "bd_short": "De beste dienstverlening aan onze burgers",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-9",
+    "ap_short": "Minder, maar beter uitgeruste gebouwen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-40",
+    "ac_short": "Renovatie sportcentrum \"De Rijdt\"",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 6000000.0,
+    "amount_per_capita": 386.85,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 6000000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 386.85,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3",
+    "ap_short": "Opwaardering  dorpskernen en diverse straten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-14",
+    "ac_short": "Jaarlijkse asfalteringen en diverse werken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2525575.99,
+    "amount_per_capita": 162.84,
+    "yearly_amounts": {
+      "2026": 525575.99,
+      "2027": 400000.0,
+      "2028": 400000.0,
+      "2029": 400000.0,
+      "2030": 400000.0,
+      "2031": 400000.0
+    },
+    "yearly_per_capita": {
+      "2026": 33.89,
+      "2027": 25.79,
+      "2028": 25.79,
+      "2029": 25.79,
+      "2030": 25.79,
+      "2031": 25.79
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3",
+    "ap_short": "Opwaardering  dorpskernen en diverse straten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-15",
+    "ac_short": "Renovatie Haeyershoek",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1584845.0,
+    "amount_per_capita": 102.18,
+    "yearly_amounts": {
+      "2026": 69663.0,
+      "2027": 233162.0,
+      "2028": 1017355.0,
+      "2029": 258005.0,
+      "2030": 0,
+      "2031": 6660.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.49,
+      "2027": 15.03,
+      "2028": 65.59,
+      "2029": 16.64,
+      "2030": 0,
+      "2031": 0.43
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3",
+    "ap_short": "Opwaardering  dorpskernen en diverse straten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-13",
+    "ac_short": "Sint-Martensstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 32.24,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 500000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 32.24,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-3",
+    "bd_short": "De beste dienstverlening aan onze burgers",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-10",
+    "ap_short": "(Sport)infrastuctuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-130",
+    "ac_short": "Nieuwe sportinfrastructuur",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 350000.0,
+    "amount_per_capita": 22.57,
+    "yearly_amounts": {
+      "2026": 350000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 22.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3",
+    "ap_short": "Opwaardering  dorpskernen en diverse straten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-12",
+    "ac_short": "Tenbossestraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 19.34,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 300000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 19.34,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3",
+    "ap_short": "Opwaardering  dorpskernen en diverse straten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-17",
+    "ac_short": "Ronsesestraat Fase 2",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 272000.0,
+    "amount_per_capita": 17.54,
+    "yearly_amounts": {
+      "2026": 41000.0,
+      "2027": 95000.0,
+      "2028": 32000.0,
+      "2029": 52000.0,
+      "2030": 51000.0,
+      "2031": 1000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.64,
+      "2027": 6.13,
+      "2028": 2.06,
+      "2029": 3.35,
+      "2030": 3.29,
+      "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-4",
+    "ap_short": "Veilige wegen / voetpaden met vernieuwing riolering",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-70",
+    "ac_short": "Omschakeling OV naar LED verlichting",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 213867.0,
+    "amount_per_capita": 13.79,
+    "yearly_amounts": {
+      "2026": 17088.0,
+      "2027": 17131.0,
+      "2028": 15625.0,
+      "2029": 14490.0,
+      "2030": 14471.0,
+      "2031": 135062.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.1,
+      "2027": 1.1,
+      "2028": 1.01,
+      "2029": 0.93,
+      "2030": 0.93,
+      "2031": 8.71
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-3",
+    "bd_short": "De beste dienstverlening aan onze burgers",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-9",
+    "ap_short": "Minder, maar beter uitgeruste gebouwen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-46",
+    "ac_short": "Asbestverwijdering gebouwen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 210000.0,
+    "amount_per_capita": 13.54,
+    "yearly_amounts": {
+      "2026": 210000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.54,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3",
+    "ap_short": "Opwaardering  dorpskernen en diverse straten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-19",
+    "ac_short": "Kasteeldreef",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 169000.0,
+    "amount_per_capita": 10.9,
+    "yearly_amounts": {
+      "2026": 145000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 24000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.35,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1.55,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3",
+    "ap_short": "Opwaardering  dorpskernen en diverse straten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-10",
+    "ac_short": "Dorpsplein Everbeek-Boven",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 6.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 6.45,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3",
+    "ap_short": "Opwaardering  dorpskernen en diverse straten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-134",
+    "ac_short": "Kunst op het openbaar domein",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 6.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 6.45,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-3",
+    "bd_short": "De beste dienstverlening aan onze burgers",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-10",
+    "ap_short": "(Sport)infrastuctuur",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-49",
+    "ac_short": "Beachvolley terrein op De Rijdt",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 53010.0,
+    "amount_per_capita": 3.42,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 53010.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.42,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-3",
+    "ap_short": "Opwaardering  dorpskernen en diverse straten",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-135",
+    "ac_short": "Fietspad Ronsesestraat- deel A",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 50492.92,
+    "amount_per_capita": 3.26,
+    "yearly_amounts": {
+      "2026": 50492.92,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-3",
+    "bd_short": "De beste dienstverlening aan onze burgers",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-9",
+    "ap_short": "Minder, maar beter uitgeruste gebouwen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-43",
+    "ac_short": "Rationalisatie energiegebruik in gemeentelijke gebouwen (en verduurzamen)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 43500.0,
+    "amount_per_capita": 2.8,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 31500.0,
+      "2028": 500.0,
+      "2029": 500.0,
+      "2030": 500.0,
+      "2031": 500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 2.03,
+      "2028": 0.03,
+      "2029": 0.03,
+      "2030": 0.03,
+      "2031": 0.03
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-5",
+    "bd_short": "Een sociale,  activerende en veilige gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-22",
+    "ap_short": "Opvang voor onze kinderen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-98",
+    "ac_short": "Integratie van BOA middelen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 17000.0,
+    "amount_per_capita": 1.1,
+    "yearly_amounts": {
+      "2026": 12000.0,
+      "2027": 1000.0,
+      "2028": 1000.0,
+      "2029": 1000.0,
+      "2030": 1000.0,
+      "2031": 1000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.77,
+      "2027": 0.06,
+      "2028": 0.06,
+      "2029": 0.06,
+      "2030": 0.06,
+      "2031": 0.06
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-3",
+    "bd_short": "De beste dienstverlening aan onze burgers",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-7",
+    "ap_short": "Toegankelijkheid gemeente en OCMW-huis",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-30",
+    "ac_short": "Redesign inrichting gemeentehuis",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 12000.0,
+    "amount_per_capita": 0.77,
+    "yearly_amounts": {
+      "2026": 12000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.77,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-2",
+    "bd_short": "Een nette en aangename gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-2",
+    "ap_short": "Een net openbaar domein",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-8",
+    "ac_short": "Sterrenweide in Nederbrakel",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 11000.0,
+    "amount_per_capita": 0.71,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 1000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0.06,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Brakel",
+    "nis_code": "45059",
+    "bd_code": "BD-4",
+    "bd_short": "Een feestelijke, ondernemende,  aantrekkelijke en duurzame gemeente",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-19",
+    "ap_short": "Toerisme",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-90",
+    "ac_short": "Het verplaatsen van de kampeerplaatsen voor campers",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.64,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

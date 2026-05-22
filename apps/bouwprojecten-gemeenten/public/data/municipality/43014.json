@@ -2,35 +2,1021 @@
   {
     "municipality": "Sint-Laureins",
     "nis_code": "43014",
-    "bd_code": "BD",
+    "bd_code": "BD-02",
+    "bd_short": "Versterken van de aantrekkelijkheid van de gemeente",
+    "bd_long": "Kwalitatieve omschrijving: De aantrekkelijkheid van de gemeente als plaats om te wonen, werken, ondernemen en leven versterken en duurzaam verankeren, met bijzondere aandacht voor woonkwaliteit, toegankelijke mobiliteit, een ondersteunend economisch klimaat (en het behoud en versterken van levendige dorpskernen).",
+    "ap_code": "AP-09",
+    "ap_short": "Werken aan duurzame en toegankelijke mobiliteit",
+    "ap_long": "Versterken van duurzame en toegankelijke mobiliteit door te investeren in infrastructuur, netwerkuitbreiding en innovatieve vervoersoplossingen. Het beleid omvat het verbeteren en onderhouden van lokale wegen en belangrijke verbindingen, het uitbouwen van veilige fiets- en tragewegennetwerken, het ontwikkelen van een breed gedragen mobiliteitsvisie en het optimaliseren van gedeelde vervoersoplossingen voor inwoners en bezoekers. Zo wordt een geïntegreerde en toekomstgerichte aanpak gecreëerd die verkeersveiligheid, leefkwaliteit en duurzame verplaatsingen bevordert. Door planmatige uitvoering en aandacht voor comfort en toegankelijkheid ontstaat een efficiënt, veilig en aantrekkelijk mobiliteitsaanbod dat de verschillende kernen en voorzieningen met elkaar verbindt.",
+    "ac_code": "AC-23",
+    "ac_short": "Uitbouwen en verbeteren van fiets- en tragewegennetwerken voor veilige en toegankelijke verbindingen",
+    "ac_long": "Aanleggen van een samenhangend netwerk van goed onderhouden en veilige fiets- en trage wegen en verbeteren van bestaande routes, zodat belangrijke woon-werk-, school- en recreatieve verbindingen toegankelijk zijn voor alle gebruikers. Hierbij ligt de nadruk op alternatieve verbindingen waar hoofdfietsroutes niet kunnen worden gerealiseerd, inclusief bewegwijzering, oversteekpunten en een planmatig onderhoud. Door te investeren in dit netwerk bevordert de gemeente duurzame mobiliteit, veilige verplaatsingen en een aantrekkelijke infrastructuur voor recreatie en actieve mobiliteit binnen en tussen de kernen.\nDeelacties: Fietspaden en trage wegen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4954000.0,
+    "amount_per_capita": 696.91,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 110000.0,
+      "2029": 0,
+      "2030": 2270000.0,
+      "2031": 2574000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 15.47,
+      "2029": 0,
+      "2030": 319.34,
+      "2031": 362.1
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-02",
+    "bd_short": "Versterken van de aantrekkelijkheid van de gemeente",
+    "bd_long": "Kwalitatieve omschrijving: De aantrekkelijkheid van de gemeente als plaats om te wonen, werken, ondernemen en leven versterken en duurzaam verankeren, met bijzondere aandacht voor woonkwaliteit, toegankelijke mobiliteit, een ondersteunend economisch klimaat (en het behoud en versterken van levendige dorpskernen).",
+    "ap_code": "AP-09",
+    "ap_short": "Werken aan duurzame en toegankelijke mobiliteit",
+    "ap_long": "Versterken van duurzame en toegankelijke mobiliteit door te investeren in infrastructuur, netwerkuitbreiding en innovatieve vervoersoplossingen. Het beleid omvat het verbeteren en onderhouden van lokale wegen en belangrijke verbindingen, het uitbouwen van veilige fiets- en tragewegennetwerken, het ontwikkelen van een breed gedragen mobiliteitsvisie en het optimaliseren van gedeelde vervoersoplossingen voor inwoners en bezoekers. Zo wordt een geïntegreerde en toekomstgerichte aanpak gecreëerd die verkeersveiligheid, leefkwaliteit en duurzame verplaatsingen bevordert. Door planmatige uitvoering en aandacht voor comfort en toegankelijkheid ontstaat een efficiënt, veilig en aantrekkelijk mobiliteitsaanbod dat de verschillende kernen en voorzieningen met elkaar verbindt.",
+    "ac_code": "AC-22",
+    "ac_short": "Verbeteren van lokale weginfrastructuur en belangrijke verbindingen",
+    "ac_long": "Lokale weginfrastructuur en belangrijke verbindingsassen systematisch verbeteren en onderhouden, zodat mobiliteit voor gebruikers veilig, vlot en duurzaam verloopt. Hierbij ligt de focus op de kwaliteit en het comfort van wegen, de zichtbaarheid en functionaliteit van signalering, verlichting en andere voorzieningen, en een planmatig beheer van onderhoud en uitvoering. Door te investeren in een goed beheerde en toegankelijke infrastructuur wordt bijdragen aan een efficiënte verkeersdoorstroming, verhoogde verkeersveiligheid en een toegankelijke verbinding tussen de verschillende kernen en voorzieningen.\nDeelacties: Voetpaden en wegen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4667299.81,
+    "amount_per_capita": 656.58,
+    "yearly_amounts": {
+      "2026": 1007299.81,
+      "2027": 600000.0,
+      "2028": 830000.0,
+      "2029": 710000.0,
+      "2030": 760000.0,
+      "2031": 760000.0
+    },
+    "yearly_per_capita": {
+      "2026": 141.7,
+      "2027": 84.41,
+      "2028": 116.76,
+      "2029": 99.88,
+      "2030": 106.91,
+      "2031": 106.91
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-04",
+    "bd_short": "Doorontwikkelen van een sociaal, inclusief beleid met een ruim en toegankelijk welzijnsaanbod",
+    "bd_long": "Kwalitatieve omschrijving: Een sociaal en inclusief welzijnsbeleid doorontwikkelen dat gericht is op het versterken van de zelfredzaamheid en maatschappelijke participatie van kwetsbare groepen, en (verder) uitbouwen van een ruim aanbod van  welzijnsvoorzieningen en -initiatieven met bijzondere aandacht voor aansluiting bij de leefwereld van inwoners in het algemeen en kwetsbare doelgroepen in het bijzonder.",
+    "ap_code": "AP-19",
+    "ap_short": "Aanbieden van kwaliteitsvolle zorgvoorzieningen in een toekomstbestendige infrastructuur",
+    "ap_long": "Investeren in een toekomstgerichte en kwaliteitsvolle infrastructuur voor het woonzorgcentrum (WZC), zodat bewoners optimale zorg en een aangename leefomgeving ervaren. Het beleid omvat het herinrichten van kamers en gemeenschappelijke ruimtes met oog voor comfort, veiligheid en energie-efficiëntie, gecombineerd met aanpassingen zoals verbeterde toegankelijkheid en ondersteunende technologie. Daarnaast wordt het binnen- en buitenterrein opgewaardeerd om een warme, toegankelijke en bewoners- en bezoekersvriendelijke omgeving te creëren, met aandacht voor groen, speelmogelijkheden en gemeenschapsruimtes. Door deze aanpak ontstaat een WZC dat zowel vandaag als in de toekomst voldoet aan hoge kwaliteitsnormen, een stimulerende leefomgeving biedt en het welzijn van bewoners, bezoekers en personeel versterkt.",
+    "ac_code": "AC-53",
+    "ac_short": "Infrastructuur van het WZC aanpassen aan huidige en toekomstige zorg",
+    "ac_long": "Uitvoeren van een grootschalig en gefaseerd herinrichtingsproject in het WZC om de infrastructuur toekomstbestendig te maken en optimaal af te stemmen op de zorgnoden van bewoners. Centraal staat de heroriëntatie van de kamers naar grotere, functionele verblijven, gecombineerd met aanpassingen zoals dwaaldetectie, verbeterde toegankelijkheid en energie-efficiënte oplossingen. Het project wordt in meerdere fasen uitgevoerd, zodat het comfort, de veiligheid en de woonkwaliteit van bewoners wordt gegarandeerd, terwijl personeel in een efficiënte en aangename werkomgeving kan functioneren. Op deze manier ontstaat een zorgomgeving die zowel vandaag als in de toekomst voldoet aan de hoge kwaliteits- en welzijnsnormen.\nDeelacties: Heroriënteren kamers WZC - Dwaaldetectie",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 3015000.0,
+    "amount_per_capita": 424.14,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 0,
+      "2028": 750000.0,
+      "2029": 750000.0,
+      "2030": 750000.0,
+      "2031": 750000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.11,
+      "2027": 0,
+      "2028": 105.51,
+      "2029": 105.51,
+      "2030": 105.51,
+      "2031": 105.51
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-04",
+    "bd_short": "Doorontwikkelen van een sociaal, inclusief beleid met een ruim en toegankelijk welzijnsaanbod",
+    "bd_long": "Kwalitatieve omschrijving: Een sociaal en inclusief welzijnsbeleid doorontwikkelen dat gericht is op het versterken van de zelfredzaamheid en maatschappelijke participatie van kwetsbare groepen, en (verder) uitbouwen van een ruim aanbod van  welzijnsvoorzieningen en -initiatieven met bijzondere aandacht voor aansluiting bij de leefwereld van inwoners in het algemeen en kwetsbare doelgroepen in het bijzonder.",
+    "ap_code": "AP-18",
+    "ap_short": "Aanbieden van kwaliteitsvolle ondersteuning voor elk kind op vlak van kinderopvang en onderwijs",
+    "ap_long": "Inzetten op een samenhangend en kwalitatief netwerk dat elk kind en elke jongere toegang biedt tot opvang, onderwijs en vrijetijdsbesteding. Het beleid omvat planmatige ontwikkeling van voorschoolse en naschoolse opvang, jeugdwerking en speel- en leeromgevingen, afgestemd op de noden van gezinnen en in samenwerking met lokale partners. Daarnaast wordt geïnvesteerd in veilige, duurzame en toekomstgerichte schoolinfrastructuur die ruimte biedt voor geïntegreerde opvang en vrijetijdservaringen. Leerkrachten worden versterkt via professionalisering en kennisdeling om krachtige leeromgevingen te creëren, terwijl kindgerichte omgevingen voorzien in speel-, beweeg- en ontmoetingskansen. Zo wil de gemeente een toegankelijke, inclusieve en stimulerende omgeving creëren waarin kinderen zich optimaal kunnen ontwikkelen en participeren.",
+    "ac_code": "AC-50",
+    "ac_short": "Investeren in kwaliteitsvol onderwijs via veilige, duurzame en toekomstgerichte schoolinfrastructuur",
+    "ac_long": "Investeren in veilige, duurzame en toekomstgerichte schoolinfrastructuur die het pedagogisch project van de gemeenteschool ondersteunt en tegelijk ruimte biedt voor een geïntegreerde opvang- en vrijetijdservaring. De geplande nieuwbouw Watervliet vormt het centrale aandachtspunt en wordt gerealiseerd met focus op energieprestaties, functionaliteit en comfort. Daarnaast worden noodzakelijke renovaties uitgevoerd aan bestaande gebouwen, zoals het isoleren en vervangen van daken en goten, en wordt ergonomisch meubilair voorzien voor een aangename leer- en leefomgeving. Waar mogelijk wordt infrastructuur gedeeld met naschoolse opvang en vrijetijdspartners, of algemene opengesteld, zodat kinderen en jongeren kunnen deelnemen aan spel, ontmoeting en activiteiten in een veilige, toegankelijke en inclusieve omgeving.\nDeelacties: Nieuwbouw school Watervliet - Ergonomisch meubilair",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 2599599.79,
+    "amount_per_capita": 365.7,
+    "yearly_amounts": {
+      "2026": 249599.79,
+      "2027": 1725000.0,
+      "2028": 610000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 35.11,
+      "2027": 242.67,
+      "2028": 85.81,
+      "2029": 0.7,
+      "2030": 0.7,
+      "2031": 0.7
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-03",
+    "bd_short": "Verder uitbouwen van een uitnodigende plattelandsgemeente",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente verder uitbouwen tot een uitnodigende plattelandsgemeente, waar inwoners en bezoekers kunnen genieten van een gevarieerd en toegankelijk aanbod van activiteiten, evenementen en belevingen, ondersteund door actieve verenigingen, en lokale partners die samen de sociale en culturele dynamiek van de gemeenschap versterken.",
+    "ap_code": "AP-12",
+    "ap_short": "Publieke ruimte en infrastructuur ontwikkelen met aandacht voor identiteit, bewoners en bezoekers",
+    "ap_long": "Versterken van publieke ruimte en vrijetijdsvoorzieningen als uitnodigende plekken voor inwoners en bezoekers. Het beleid omvat het planmatig onderhouden, waarderen en ontwikkelen van sport-, jeugd- en culturele voorzieningen, bibliotheek, muziekschool, kunstprojecten, speeltuigen en andere belevingselementen. Daarnaast wordt ingezet op toeristisch-recreatieve projecten die de unieke identiteit, rust en natuurbeleving van de plattelandsgemeente benadrukken. Bij uitvoering wordt samengewerkt met lokale partners en verenigingen, zodat de infrastructuur zowel sociale, culturele als toeristische activiteiten ondersteunt. Zo draagt de gemeente bij aan een uitnodigende, levendige en herkenbare plattelandsgemeente waarin ontmoeting, participatie en beleving centraal staan.",
+    "ac_code": "AC-38",
+    "ac_short": "Realiseren van toeristisch-recreatieve projecten",
+    "ac_long": "Inzetten op toeristisch-recreatieve projecten die de unieke identiteit, natuurbeleving en rust van de plattelandsgemeente zichtbaar maken. Dit omvat zowel kleinere initiatieven, zoals rustbanken, wandelroutes en belevingswandelingen, als grotere gesubsidieerde projecten, zoals de herbestemming van de Onze-Lieve-Vrouw Hemelvaartkerk in Watervliet tot een belevingssite rond landschap en erfgoed. Bij de uitvoering wordt samengewerkt met lokale partners en verenigingen, met als doel de aantrekkelijkheid van de gemeente voor inwoners en bezoekers te versterken en de sociale, culturele en natuurlijke kwaliteiten van de omgeving te accentueren.\nDeelacties: Rustbanken, wandelroutes en belevingsroutes - Nevenbestemming kerk Watervliet - Ontmoetingsplaats site Graafjansdijk",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 1268490.0,
+    "amount_per_capita": 178.45,
+    "yearly_amounts": {
+      "2026": 703490.0,
+      "2027": 545000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 98.96,
+      "2027": 76.67,
+      "2028": 0.7,
+      "2029": 0.7,
+      "2030": 0.7,
+      "2031": 0.7
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-01",
+    "bd_short": "Investeren in toekomstbestendige en bereikbare dienstverlening",
+    "bd_long": "Kwalitatieve omschrijving: Doelgericht investeren in een toekomstbestendige en meer bereikbare dienstverlening, met aandacht voor zowel fysieke als digitale toegankelijkheid, zodat de dienstverlening meegroeit met de veranderende samenstelling en verwachtingen van de bevolking.",
+    "ap_code": "AP-04",
+    "ap_short": "Investeren in uitrusting en infrastructuur voor (kwaliteitsvolle) hulp- en dienstverlening",
+    "ap_long": "Inzetten op een duurzame, veilige en efficiënte ondersteuning van de gemeentelijke diensten door te investeren in moderne uitrusting en kwalitatief patrimoniumbeheer. Het beleid omvat het vernieuwen van technische uitrusting en voertuigen die cruciaal zijn voor de dagelijkse werking van de diensten, zodat medewerkers hun taken effectief en veilig kunnen uitvoeren; en het duurzaam onderhouden en verduurzamen van het gemeentelijk patrimonium, met aandacht voor energie-efficiëntie, erfgoedwaarde, kwaliteit en toekomstgericht gebruik. Zo wordt gewaarborgd dat zowel materieel als infrastructuur bijdragen aan een efficiënte, kwaliteitsvolle en toekomstbestendige dienstverlening.",
+    "ac_code": "AC-OB1",
+    "ac_short": "_Inzetten op uitrusting en infrastructuur voor hulp- en dienstverlening (overig beleid)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1200717.48,
+    "amount_per_capita": 168.91,
+    "yearly_amounts": {
+      "2026": 525717.48,
+      "2027": 135000.0,
+      "2028": 135000.0,
+      "2029": 135000.0,
+      "2030": 135000.0,
+      "2031": 135000.0
+    },
+    "yearly_per_capita": {
+      "2026": 73.96,
+      "2027": 18.99,
+      "2028": 18.99,
+      "2029": 18.99,
+      "2030": 18.99,
+      "2031": 18.99
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-02",
+    "bd_short": "Versterken van de aantrekkelijkheid van de gemeente",
+    "bd_long": "Kwalitatieve omschrijving: De aantrekkelijkheid van de gemeente als plaats om te wonen, werken, ondernemen en leven versterken en duurzaam verankeren, met bijzondere aandacht voor woonkwaliteit, toegankelijke mobiliteit, een ondersteunend economisch klimaat (en het behoud en versterken van levendige dorpskernen).",
+    "ap_code": "AP-11",
+    "ap_short": "Een gezonde, veilige en gebruiksvriendelijke leefomgeving realiseren",
+    "ap_long": "Inzetten op een gezonde, veilige en toekomstbestendige leefomgeving voor alle inwoners en lokale actoren. Het beleid omvat het stimuleren van duurzaam bouwen en energiezuinige renovaties, het ondersteunen van energie-efficiënt ondernemerschap, en het natuurinclusief inrichten van publieke ruimtes en gemeentelijke domeinen. Daarnaast wordt aandacht besteed aan het verfraaien en toekomstbestendig beheren van begraafplaatsen en religieus erfgoed, het uniform en duurzaam organiseren van afvalbeheer, veilige asbestafbouw, noodplanning en een toegankelijke schoolomgeving. Zo draagt de gemeente bij aan een veerkrachtige, klimaatbewuste en gebruiksvriendelijke omgeving die het welzijn, de veiligheid en de leefkwaliteit voor huidige en toekomstige generaties versterkt.",
+    "ac_code": "AC-OB2",
+    "ac_short": "_Een gezonde, veilige en gebruiksvriendelijke omgeving realiseren (overig beleid)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 1051962.02,
+    "amount_per_capita": 147.99,
+    "yearly_amounts": {
+      "2026": 160740.41,
+      "2027": 135331.41,
+      "2028": 189825.21,
+      "2029": 226146.58,
+      "2030": 178346.53,
+      "2031": 161571.88
+    },
+    "yearly_per_capita": {
+      "2026": 22.61,
+      "2027": 19.04,
+      "2028": 26.7,
+      "2029": 31.81,
+      "2030": 25.09,
+      "2031": 22.73
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-02",
+    "bd_short": "Versterken van de aantrekkelijkheid van de gemeente",
+    "bd_long": "Kwalitatieve omschrijving: De aantrekkelijkheid van de gemeente als plaats om te wonen, werken, ondernemen en leven versterken en duurzaam verankeren, met bijzondere aandacht voor woonkwaliteit, toegankelijke mobiliteit, een ondersteunend economisch klimaat (en het behoud en versterken van levendige dorpskernen).",
+    "ap_code": "AP-10",
+    "ap_short": "De ruimtelijke en landschappelijke kwaliteit versterken",
+    "ap_long": "Versterken van de ruimtelijke en landschappelijke kwaliteit door een geïntegreerde aanpak van groenbeheer, klimaatadaptatie en waterhuishouding. Het beleid omvat het versterken van het groenblauwe netwerk, het inventariseren en planmatig beheren van bomen, ecologische structuren en waterlopen, en het realiseren van klimaatbestendige infrastructuur met aandacht voor infiltratie, bufferzones en ontharding. Beleidskeuzes worden afgestemd op biodiversiteit, klimaatrobuustheid, onderhoudscapaciteit en de landschappelijke identiteit van de dorpen. Zo ontstaat een aantrekkelijke, veerkrachtige en toekomstbestendige leefomgeving die natuur, landschap en infrastructuur duurzaam combineert.",
+    "ac_code": "AC-27",
+    "ac_short": "Realiseren van klimaatadaptieve infrastructuur met focus op duurzame waterhuishouding",
+    "ac_long": "Een klimaatbestendige infrastructuur realiseren die bijdraagt aan een duurzame en doordachte waterhuishouding. Dit omvat het planmatig aanpakken van rioleringsprojecten, waarbij aandacht wordt besteed aan infiltratie, bufferzones en het afkoppelen van hemelwater. De uitvoering van deze projecten wordt afgestemd op de bredere ruimtelijke visie, waarbij klimaatadaptatie, ontharding en behoud van de landschappelijke identiteit centraal staan. Beheer en coördinatie van deze projecten verlopen afgestemd via RIOpact, zodat een gestructureerde en toekomstgerichte aanpak wordt gewaarborgd. Door deze geïntegreerde aanpak wil de gemeente zowel de waterhuishouding verbeteren als de leefomgeving veerkrachtiger en toekomstbestendig maken.\nDeelacties: Rioleringsprojecten - Zoneringsplan - RIOPact",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 915728.46,
+    "amount_per_capita": 128.82,
+    "yearly_amounts": {
+      "2026": 915728.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 128.82,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-01",
+    "bd_short": "Investeren in toekomstbestendige en bereikbare dienstverlening",
+    "bd_long": "Kwalitatieve omschrijving: Doelgericht investeren in een toekomstbestendige en meer bereikbare dienstverlening, met aandacht voor zowel fysieke als digitale toegankelijkheid, zodat de dienstverlening meegroeit met de veranderende samenstelling en verwachtingen van de bevolking.",
+    "ap_code": "AP-04",
+    "ap_short": "Investeren in uitrusting en infrastructuur voor (kwaliteitsvolle) hulp- en dienstverlening",
+    "ap_long": "Inzetten op een duurzame, veilige en efficiënte ondersteuning van de gemeentelijke diensten door te investeren in moderne uitrusting en kwalitatief patrimoniumbeheer. Het beleid omvat het vernieuwen van technische uitrusting en voertuigen die cruciaal zijn voor de dagelijkse werking van de diensten, zodat medewerkers hun taken effectief en veilig kunnen uitvoeren; en het duurzaam onderhouden en verduurzamen van het gemeentelijk patrimonium, met aandacht voor energie-efficiëntie, erfgoedwaarde, kwaliteit en toekomstgericht gebruik. Zo wordt gewaarborgd dat zowel materieel als infrastructuur bijdragen aan een efficiënte, kwaliteitsvolle en toekomstbestendige dienstverlening.",
+    "ac_code": "AC-12",
+    "ac_short": "Verduurzamen en onderhouden van eigen patrimonium (erfgoed, kwaliteit, toekomstgericht gebruik)",
+    "ac_long": "Het eigen patrimonium duurzaam beheren en onderhouden, met aandacht voor erfgoed, kwaliteit en toekomstgericht gebruik. Dit omvat investeringen in energiezuinige maatregelen, zoals zonnepanelen, stookplaatsrenovaties en verledding, evenals renovaties van gebouwen en ruimtes met erfgoedwaarde. Daarnaast wordt gewerkt aan een strategische visie op het patrimonium, zodat het gebruik en de inrichting van de gebouwen aansluiten bij de behoeften van de gemeente en haar inwoners. Zo wil de gemeente haar patrimonium functioneel, duurzaam en cultureel waardevol houden voor de lange termijn.\nDeelacties: Erfgoedprojecten (renovatie trap) - Strategisch verduurzamen patrimonium",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 865579.84,
+    "amount_per_capita": 121.77,
+    "yearly_amounts": {
+      "2026": 381204.56,
+      "2027": 173804.01,
+      "2028": 173115.85,
+      "2029": 13028.45,
+      "2030": 14504.0,
+      "2031": 109922.97
+    },
+    "yearly_per_capita": {
+      "2026": 53.63,
+      "2027": 24.45,
+      "2028": 24.35,
+      "2029": 1.83,
+      "2030": 2.04,
+      "2031": 15.46
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-01",
+    "bd_short": "Investeren in toekomstbestendige en bereikbare dienstverlening",
+    "bd_long": "Kwalitatieve omschrijving: Doelgericht investeren in een toekomstbestendige en meer bereikbare dienstverlening, met aandacht voor zowel fysieke als digitale toegankelijkheid, zodat de dienstverlening meegroeit met de veranderende samenstelling en verwachtingen van de bevolking.",
+    "ap_code": "AP-04",
+    "ap_short": "Investeren in uitrusting en infrastructuur voor (kwaliteitsvolle) hulp- en dienstverlening",
+    "ap_long": "Inzetten op een duurzame, veilige en efficiënte ondersteuning van de gemeentelijke diensten door te investeren in moderne uitrusting en kwalitatief patrimoniumbeheer. Het beleid omvat het vernieuwen van technische uitrusting en voertuigen die cruciaal zijn voor de dagelijkse werking van de diensten, zodat medewerkers hun taken effectief en veilig kunnen uitvoeren; en het duurzaam onderhouden en verduurzamen van het gemeentelijk patrimonium, met aandacht voor energie-efficiëntie, erfgoedwaarde, kwaliteit en toekomstgericht gebruik. Zo wordt gewaarborgd dat zowel materieel als infrastructuur bijdragen aan een efficiënte, kwaliteitsvolle en toekomstbestendige dienstverlening.",
+    "ac_code": "AC-11",
+    "ac_short": "Moderniseren van uitrusting ter ondersteuning van efficiënte/kwaliteitsvolle hulp-en dienstverlening",
+    "ac_long": "Vernieuwen van het materieel en technische uitrusting zodat de dienstverlening efficiënter, veiliger en duurzamer verloopt. Prioriteit ligt bij voertuigen en werkmiddelen die dringend aan vervanging toe zijn en die het dagelijks werk van de technische dienst ondersteunen. Door te investeren in kwalitatief en betrouwbaar materiaal kan de gemeente haar diensten optimaal laten functioneren en medewerkers in staat stellen hun taken veilig en effectief uit te voeren.\nDeelacties: Vernieuwen wagenpark en technisch materiaal technische dienst",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 839854.8,
+    "amount_per_capita": 118.15,
+    "yearly_amounts": {
+      "2026": 589854.8,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 82.98,
+      "2027": 7.03,
+      "2028": 7.03,
+      "2029": 7.03,
+      "2030": 7.03,
+      "2031": 7.03
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-03",
+    "bd_short": "Verder uitbouwen van een uitnodigende plattelandsgemeente",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente verder uitbouwen tot een uitnodigende plattelandsgemeente, waar inwoners en bezoekers kunnen genieten van een gevarieerd en toegankelijk aanbod van activiteiten, evenementen en belevingen, ondersteund door actieve verenigingen, en lokale partners die samen de sociale en culturele dynamiek van de gemeenschap versterken.",
+    "ap_code": "AP-12",
+    "ap_short": "Publieke ruimte en infrastructuur ontwikkelen met aandacht voor identiteit, bewoners en bezoekers",
+    "ap_long": "Versterken van publieke ruimte en vrijetijdsvoorzieningen als uitnodigende plekken voor inwoners en bezoekers. Het beleid omvat het planmatig onderhouden, waarderen en ontwikkelen van sport-, jeugd- en culturele voorzieningen, bibliotheek, muziekschool, kunstprojecten, speeltuigen en andere belevingselementen. Daarnaast wordt ingezet op toeristisch-recreatieve projecten die de unieke identiteit, rust en natuurbeleving van de plattelandsgemeente benadrukken. Bij uitvoering wordt samengewerkt met lokale partners en verenigingen, zodat de infrastructuur zowel sociale, culturele als toeristische activiteiten ondersteunt. Zo draagt de gemeente bij aan een uitnodigende, levendige en herkenbare plattelandsgemeente waarin ontmoeting, participatie en beleving centraal staan.",
+    "ac_code": "AC-36",
+    "ac_short": "Onderhouden, waarderen en ontwikkelen van vrijetijdsinfrastructuur (ontmoeting/beleving)",
+    "ac_long": "Inzetten op het planmatig onderhouden, waarderen en ontwikkelen van de vrijetijdsvoorzieningen en publieke ruimtes, zodat inwoners en bezoekers kunnen genieten van toegankelijke, veilige en kwaliteitsvolle plekken. Dit omvat sport- en jeugdvoorzieningen, bibliotheek, muziekschool, kunstwerken en lokale kunstprojecten, culturele en toeristische voorzieningen, evenals speeltuigen en andere belevingselementen die uitnodigen tot ontmoeting en participatie. Bij de ontwikkeling en het onderhoud wordt bijzondere aandacht besteed aan de lokale identiteit, landschapsbeleving en gemeenschapsvorming. Zo wil de gemeente deze voorzieningen versterken als levendige, uitnodigende plekken die sociale, culturele en toeristische activiteiten ondersteunen en het leven in de plattelandsgemeente verrijken.\nDeelacties: Speeltuigen en inclusieve speelomgevingen - Onderhouds- en aanpassingsprojecten infrastructuur en voorzieningen - Kunstwerken",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 544332.2,
+    "amount_per_capita": 76.57,
+    "yearly_amounts": {
+      "2026": 124332.2,
+      "2027": 0,
+      "2028": 305000.0,
+      "2029": 80000.0,
+      "2030": 35000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.49,
+      "2027": 0,
+      "2028": 42.91,
+      "2029": 11.25,
+      "2030": 4.92,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-02",
+    "bd_short": "Versterken van de aantrekkelijkheid van de gemeente",
+    "bd_long": "Kwalitatieve omschrijving: De aantrekkelijkheid van de gemeente als plaats om te wonen, werken, ondernemen en leven versterken en duurzaam verankeren, met bijzondere aandacht voor woonkwaliteit, toegankelijke mobiliteit, een ondersteunend economisch klimaat (en het behoud en versterken van levendige dorpskernen).",
+    "ap_code": "AP-05",
+    "ap_short": "Woonkwaliteit versterken door slim ruimtegebruik en groen(e publieke ruimte)",
+    "ap_long": "Inzetten op het versterken van de woonkwaliteit en leefbaarheid in alle kernen door een doordachte combinatie van planmatig ruimtegebruik, aandacht voor groen en behoud van publieke ruimte. Het omvat maatregelen die bijdragen aan duurzame, groene en klimaatbestendige woonomgevingen, het stimuleren van biodiversiteit en het ondersteunen van kwalitatieve verdichting met respect voor comfort en leefbaarheid. Daarnaast wordt de publieke ruimte in woonomgevingen en dorpskernen versterkt door aandacht voor comfort, verblijfswaarde, mobiliteit en visuele kwaliteit, zodat de woonomgeving aantrekkelijk, functioneel en sociaal levendig blijft voor huidige en toekomstige bewoners.",
+    "ac_code": "AC-14",
+    "ac_short": "Versterken van de kwaliteit en functie van publieke ruimte in woonomgevingen en dorpskernen",
+    "ac_long": "De leefkwaliteit en aantrekkelijkheid van de woonomgevingen en dorpskernen versterken door doordacht ingerichte publieke ruimtes. Hierbij wordt aandacht besteed aan comfort, verblijfswaarde, mobiliteit, parkeren, groenvoorziening en visuele kwaliteit, met respect voor het karakter en de identiteit van elke kern. Door planmatige investeringen in pleinen, straatmeubilair en andere publieke voorzieningen wil de gemeente lokale handel, ontmoeting en duurzame verplaatsingen ondersteunen. Zo ontstaan aantrekkelijke, herkenbare en levendige dorpskernen die goed aansluiten bij de behoeften van inwoners en het eigen karakter van de gemeente benadrukken.\nDeelacties: Verfraaiing dorpskern Sint-Margriete - Inrichting publieke ruimtes, met doordacht parkeren",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 394017.61,
+    "amount_per_capita": 55.43,
+    "yearly_amounts": {
+      "2026": 34017.61,
+      "2027": 315000.0,
+      "2028": 45000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.79,
+      "2027": 44.31,
+      "2028": 6.33,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-03",
+    "bd_short": "Verder uitbouwen van een uitnodigende plattelandsgemeente",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente verder uitbouwen tot een uitnodigende plattelandsgemeente, waar inwoners en bezoekers kunnen genieten van een gevarieerd en toegankelijk aanbod van activiteiten, evenementen en belevingen, ondersteund door actieve verenigingen, en lokale partners die samen de sociale en culturele dynamiek van de gemeenschap versterken.",
+    "ap_code": "AP-15",
+    "ap_short": "Stimuleren van dynamische en toegankelijke vrijetijdsbesteding voor jongeren",
+    "ap_long": "Inzetten op een aantrekkelijk en inclusief vrijetijdsaanbod voor kinderen en jongeren dat ontmoeting, participatie en sociale verbondenheid stimuleert. Het beleid omvat het verder ontwikkelen van het Huis van het Kind als een veilige, warme en toegankelijke ontmoetingsplek waar vrijetijdsbesteding, begeleiding en gemeenschapsvorming samenkomen. Daarnaast wordt ingezet op het faciliteren en onderhouden van jongereninfrastructuur voor verenigingen en andere initiatieven, zodat bestaande locaties kwalitatief en veilig blijven en nieuwe projecten extra ruimte bieden voor ontplooiing en recreatie. Door deze geïntegreerde aanpak ontstaat een samenhangend netwerk van voorzieningen dat bijdraagt aan een bruisend, inclusief en toekomstgericht vrijetijdsaanbod voor jongeren in de gemeente.",
+    "ac_code": "AC-44",
+    "ac_short": "Faciliteren van jongereninfrastructuur voor oa vrijetijdsverenigingen",
+    "ac_long": "Ondersteunen van zowel bestaande als nieuwe vrijetijdslocaties voor jongerenverenigingen. Bestaande locaties worden onderhouden en waar nodig verder ontwikkeld om hun toegankelijkheid, veiligheid en kwaliteit te waarborgen. Tegelijk wordt een concreet nieuw project gerealiseerd dat extra ruimte biedt voor ontmoeting, ontplooiing en vrije tijd. Op deze manier ontstaat een samenhangend netwerk van voorzieningen dat bijdraagt aan een bruisend en inclusief vrijetijdsaanbod voor jongeren in de gemeente.\nDeelacties: Project jeugdinfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 360000.0,
+    "amount_per_capita": 50.64,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 60000.0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 8.44,
+      "2028": 42.2,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-06",
     "bd_short": "Een toekomstgerichte en wendbare organisatie uitbouwen",
     "bd_long": "Kwalitatieve omschrijving: Een toekomstgerichte en wendbare organisatie uitbouwen met strategische profilering, duidelijke kerntaken en een interne werking die efficiënt, veerkrachtig en mensgericht is, zodat het lokaal bestuur zowel kwalitatieve dienst- als hulpverlening biedt als een aantrekkelijke werkgever is.",
-    "ap_code": "AP",
+    "ap_code": "AP-24",
+    "ap_short": "Inzetten op ICT als strategische hefboom voor een moderne organisatie",
+    "ap_long": "Versterken van de organisatie via strategisch gebruik van ICT, gericht op efficiëntie, veiligheid en innovatie. Het beleid omvat het centraliseren, standaardiseren en optimaliseren van IT-beheer, het monitoren en automatiseren van systemen en applicaties, en het optimaal inzetten van nieuwe technologieën zoals AI en digitale beveiligingsoplossingen. Door deze maatregelen worden interne processen gestroomlijnd, de digitale weerbaarheid verhoogd en de ondersteuning van medewerkers verbeterd. Zo wordt ICT ingezet als hefboom voor een wendbare, moderne en toekomstgerichte organisatie.",
+    "ac_code": "AC-OB6",
+    "ac_short": "_Inzetten op ICT als strategische hefboom voor een moderne organisatie (overig beleid)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 230646.92,
+    "amount_per_capita": 32.45,
+    "yearly_amounts": {
+      "2026": 55646.92,
+      "2027": 35000.0,
+      "2028": 35000.0,
+      "2029": 35000.0,
+      "2030": 35000.0,
+      "2031": 35000.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.83,
+      "2027": 4.92,
+      "2028": 4.92,
+      "2029": 4.92,
+      "2030": 4.92,
+      "2031": 4.92
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-02",
+    "bd_short": "Versterken van de aantrekkelijkheid van de gemeente",
+    "bd_long": "Kwalitatieve omschrijving: De aantrekkelijkheid van de gemeente als plaats om te wonen, werken, ondernemen en leven versterken en duurzaam verankeren, met bijzondere aandacht voor woonkwaliteit, toegankelijke mobiliteit, een ondersteunend economisch klimaat (en het behoud en versterken van levendige dorpskernen).",
+    "ap_code": "AP-11",
+    "ap_short": "Een gezonde, veilige en gebruiksvriendelijke leefomgeving realiseren",
+    "ap_long": "Inzetten op een gezonde, veilige en toekomstbestendige leefomgeving voor alle inwoners en lokale actoren. Het beleid omvat het stimuleren van duurzaam bouwen en energiezuinige renovaties, het ondersteunen van energie-efficiënt ondernemerschap, en het natuurinclusief inrichten van publieke ruimtes en gemeentelijke domeinen. Daarnaast wordt aandacht besteed aan het verfraaien en toekomstbestendig beheren van begraafplaatsen en religieus erfgoed, het uniform en duurzaam organiseren van afvalbeheer, veilige asbestafbouw, noodplanning en een toegankelijke schoolomgeving. Zo draagt de gemeente bij aan een veerkrachtige, klimaatbewuste en gebruiksvriendelijke omgeving die het welzijn, de veiligheid en de leefkwaliteit voor huidige en toekomstige generaties versterkt.",
+    "ac_code": "AC-31",
+    "ac_short": "Verfraaien en toekomstbestendig beheren van begraafplaatsen en religieus erfgoed",
+    "ac_long": "Inzetten op het verfraaien en zorgvuldig beheren van begraafplaatsen en religieus erfgoed, met respect voor hun historische en emotionele waarde. Er wordt gestart met het opmaken van een geïntegreerd beheersplan, ondersteund door een digitale inventaris, dat richting geeft aan toekomstige ingrepen en onderhoud. Op basis daarvan worden stelselmatig saneringen uitgevoerd, graven opgeschoond en groenstructuren verzorgd, zodat de begraafplaatsen behouden blijven als serene, nette en toegankelijke plekken van herinnering. Daarnaast wordt gewerkt aan het opmaken van beheerplannen voor de kerken. Zo blijft het religieus erfgoed een herkenbare en betekenisvolle rol spelen in het dorpsbeeld en de lokale gemeenschap.\nDeelacties: Beheersplan kerk en begraafplaats STJ-Eremo - Verfraaien begraafplaatsen - Erfgoedborden, religieus erfgoed",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 185791.51,
+    "amount_per_capita": 26.14,
+    "yearly_amounts": {
+      "2026": 55791.51,
+      "2027": 50000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.85,
+      "2027": 7.03,
+      "2028": 2.81,
+      "2029": 2.81,
+      "2030": 2.81,
+      "2031": 2.81
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-06",
+    "bd_short": "Een toekomstgerichte en wendbare organisatie uitbouwen",
+    "bd_long": "Kwalitatieve omschrijving: Een toekomstgerichte en wendbare organisatie uitbouwen met strategische profilering, duidelijke kerntaken en een interne werking die efficiënt, veerkrachtig en mensgericht is, zodat het lokaal bestuur zowel kwalitatieve dienst- als hulpverlening biedt als een aantrekkelijke werkgever is.",
+    "ap_code": "AP-26",
+    "ap_short": "Versterken van een veilige en gezonde leef- en werkomgeving voor alle medewerkers (en inwoners)",
+    "ap_long": "Inzetten op een veilige, gezonde en respectvolle omgeving voor zowel medewerkers als inwoners. Het beleid omvat het structureel verankeren en opvolgen van preventie- en veiligheidsmaatregelen, het bevorderen van fysieke en mentale gezondheid van medewerkers via welzijnsprogramma’s, en het ontwikkelen van een geïntegreerd beleid rond agressie en grensoverschrijdend gedrag. Door deze aanpak wordt een veilige, ondersteunende en constructieve leef- en werkomgeving gecreëerd, die bijdraagt aan welzijn, efficiëntie en de kwaliteit van dienstverlening voor iedereen.",
+    "ac_code": "AC-77",
+    "ac_short": "Bevorderen van fysieke en mentale gezondheid van de medewerkers",
+    "ac_long": "Een integraal welzijnsprogramma uitvoeren dat de fysieke en mentale gezondheid van medewerkers bevordert en het aanwezigheidsbeleid ondersteunt. Hiertoe worden initiatieven opgezet rond onder meer bewegen op het werk, gezonde voeding, preventief psychosociaal beleid, stressreductie, workshops en teambuildingactiviteiten. Op regelmatige basis worden werkdruk, teamdynamiek en veiligheidsbeleving bevraagd, en medewerkers actief betrokken bij verbetertrajecten., zodat het welzijn continu wordt versterkt en werkgerelateerd ziekteverzuim structureel kan dalen.\nDeelacties: Welzijnsprogramma - Preventief Psychosociaal beleid - Welzijnsbevragingen - Verbetertrajecten",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 125642.26,
+    "amount_per_capita": 17.67,
+    "yearly_amounts": {
+      "2026": 25642.26,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.61,
+      "2027": 2.81,
+      "2028": 2.81,
+      "2029": 2.81,
+      "2030": 2.81,
+      "2031": 2.81
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-02",
+    "bd_short": "Versterken van de aantrekkelijkheid van de gemeente",
+    "bd_long": "Kwalitatieve omschrijving: De aantrekkelijkheid van de gemeente als plaats om te wonen, werken, ondernemen en leven versterken en duurzaam verankeren, met bijzondere aandacht voor woonkwaliteit, toegankelijke mobiliteit, een ondersteunend economisch klimaat (en het behoud en versterken van levendige dorpskernen).",
+    "ap_code": "AP-11",
+    "ap_short": "Een gezonde, veilige en gebruiksvriendelijke leefomgeving realiseren",
+    "ap_long": "Inzetten op een gezonde, veilige en toekomstbestendige leefomgeving voor alle inwoners en lokale actoren. Het beleid omvat het stimuleren van duurzaam bouwen en energiezuinige renovaties, het ondersteunen van energie-efficiënt ondernemerschap, en het natuurinclusief inrichten van publieke ruimtes en gemeentelijke domeinen. Daarnaast wordt aandacht besteed aan het verfraaien en toekomstbestendig beheren van begraafplaatsen en religieus erfgoed, het uniform en duurzaam organiseren van afvalbeheer, veilige asbestafbouw, noodplanning en een toegankelijke schoolomgeving. Zo draagt de gemeente bij aan een veerkrachtige, klimaatbewuste en gebruiksvriendelijke omgeving die het welzijn, de veiligheid en de leefkwaliteit voor huidige en toekomstige generaties versterkt.",
+    "ac_code": "AC-30",
+    "ac_short": "Natuurinclusief inrichten en ecologisch beheren van publieke ruimtes en domeinen",
+    "ac_long": "Inzetten op een natuurvriendelijke en klimaatrobuuste inrichting van haar publieke ruimtes en domeinen. Door ecologisch maaibeheer verder uit te breiden, het gebruik van inheemse beplanting te stimuleren en exoten planmatig te bestrijden, wordt de biodiversiteit versterkt en de ecologische samenhang vergroot. Daarnaast worden gemeentelijke infrastructuren en terreinen waar mogelijk vergroend en onthard om waterbuffering te bevorderen en hittestress te beperken. Met deze aanpak streeft de gemeente naar een duurzaam en aantrekkelijk openbaar domein dat bijdraagt aan de leefkwaliteit, klimaatbestendigheid en de landschappelijke identiteit.\nDeelacties: Uitbreiden ecologisch maaien",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 12.66,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.11,
+      "2027": 2.11,
+      "2028": 2.11,
+      "2029": 2.11,
+      "2030": 2.11,
+      "2031": 2.11
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-05",
+    "bd_short": "Optimaliseren van middelenbeheer en samenwerking",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur optimaliseren door inkomsten en subsidies efficiënter te beheren en actief in te zetten, met een duidelijke focus op het aantrekken van middelen die ten goede komen aan lokale initiatieven, en door samenwerkingen kritisch te evalueren en de rol van de gemeente in deze samenwerkingen helder af te bakenen.",
+    "ap_code": "AP-20",
+    "ap_short": "Efficiënt en strategisch beheren van middelen, inkomsten en subsidies",
+    "ap_long": "Versterken van het middelenbeheer en de strategische inzet van gemeentelijke inkomsten en subsidies, zodat beschikbare middelen maximaal bijdragen aan lokale initiatieven en beleidsdoelstellingen. Het beleid omvat het systematisch opvolgen en benutten van inkomende subsidiestromen, het evalueren en optimaliseren van reglementen en tarieven, het planmatig beheren en benutten van het patrimonium, en het implementeren van beheersmaatregelen ter bescherming van gemeentelijke activa. Door deze aanpak worden middelen efficiënt aangewend, worden gebouwen en terreinen optimaal ingezet, en ontstaat een betrouwbare, toekomstgerichte en financieel duurzame organisatie die lokale projecten, dienstverlening en maatschappelijke noden ondersteunt.",
+    "ac_code": "AC-OB5",
+    "ac_short": "_Efficiënt en strategisch beheren van middelen, inkomsten en subsidies (overig beleid)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 88000.0,
+    "amount_per_capita": 12.38,
+    "yearly_amounts": {
+      "2026": 56500.0,
+      "2027": 5250.0,
+      "2028": 5250.0,
+      "2029": 14000.0,
+      "2030": 3500.0,
+      "2031": 3500.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.95,
+      "2027": 0.74,
+      "2028": 0.74,
+      "2029": 1.97,
+      "2030": 0.49,
+      "2031": 0.49
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-01",
+    "bd_short": "Investeren in toekomstbestendige en bereikbare dienstverlening",
+    "bd_long": "Kwalitatieve omschrijving: Doelgericht investeren in een toekomstbestendige en meer bereikbare dienstverlening, met aandacht voor zowel fysieke als digitale toegankelijkheid, zodat de dienstverlening meegroeit met de veranderende samenstelling en verwachtingen van de bevolking.",
+    "ap_code": "AP-03",
+    "ap_short": "Garanderen van toegankelijke communicatie en informatiedeling",
+    "ap_long": "Het beleid zet in op duidelijke, toegankelijke en inclusieve communicatie, zodat alle inwoners vlot informatie kunnen ontvangen over gemeentelijk beleid, activiteiten en dienstverlening. Het beleid omvat het optimaliseren van multimediale communicatiekanalen, zowel gedrukt als digitaal, met aandacht voor gebruiksvriendelijkheid en laagdrempeligheid; het versterken van de zichtbaarheid van het lokaal bestuur via strategisch promomateriaal en communicatiedragers; het verlagen van digitale drempels door gerichte vorming en begeleiding van inwoners en medewerkers; en het versterken van interne communicatie en digitale competenties van medewerkers, zodat de organisatie efficiënt, toekomstgericht en verbonden blijft. Zo wordt transparante, inclusieve en toegankelijke informatiedeling systematisch geborgd en de betrokkenheid van de gemeenschap vergroot.",
+    "ac_code": "AC-08",
+    "ac_short": "Verhogen van fysieke zichtbaarheid van het bestuur via promomateriaal/communicatiedragers",
+    "ac_long": "De zichtbaarheid in de dorpskernen en binnen de gemeente versterken, zodat inwoners en bezoekers beter geïnformeerd zijn over lokale activiteiten, projecten en gemeentelijke initiatieven. Hiertoe worden digitale en andere communicatiedragers ingezet, waarbij beeldmateriaal systematisch wordt verzameld en weergegeven binnen de bestaande herkenbare visuele stijl. Dit zorgt ervoor dat het gemeentelijk beleid en vrijetijdsaanbod duidelijk en aantrekkelijk zichtbaar zijn in het straatbeeld en via verschillende kanalen. Zo wil de gemeente een toegankelijke presentatie van haar werking realiseren die betrokkenheid en herkenbaarheid bij de gemeenschap vergroot.\nDeelacties: Digitale schermen dorpskern(en) - Fotodatabank en zichtbaar maken in het straatbeeld ism Dienst Communicatie (Toerisme, Vrije Tijd)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 10.55,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-03",
+    "bd_short": "Verder uitbouwen van een uitnodigende plattelandsgemeente",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente verder uitbouwen tot een uitnodigende plattelandsgemeente, waar inwoners en bezoekers kunnen genieten van een gevarieerd en toegankelijk aanbod van activiteiten, evenementen en belevingen, ondersteund door actieve verenigingen, en lokale partners die samen de sociale en culturele dynamiek van de gemeenschap versterken.",
+    "ap_code": "AP-14",
+    "ap_short": "Uitwerken van een aantrekkelijk, actueel en uitnodigend vrijetijdsaanbod",
+    "ap_long": "Inzetten op een vrijetijdsaanbod dat toegankelijk, laagdrempelig en uitnodigend is voor alle inwoners, met respect voor de eigenheid van de plattelandsgemeente. Het beleid omvat initiatieven die inclusie, participatie en sociale verbondenheid bevorderen, zoals rolstoeltoegankelijke wandel- en fietsroutes, sport- en jeugdactiviteiten, en gebruik van de UITPAS. Daarnaast wordt het unieke waterrijke karakter van de gemeente benut voor belevingsgerichte projecten, zoals kano- en peddelroutes, zwemvoorzieningen en historische gidsbeurten, waardoor educatie, recreatie en toeristische profilering samenkomen. Door deze aanpak wordt het lokaal eigenaarschap versterkt en ontstaat een gevarieerd, samenhangend vrijetijdsaanbod dat inwoners en bezoekers actief betrekt en de aantrekkelijkheid van de gemeente vergroot.",
+    "ac_code": "AC-OB3",
+    "ac_short": "_Verder uitbouwen van een uitnodigende plattelandsgemeente (overig beleid)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 73776.03,
+    "amount_per_capita": 10.38,
+    "yearly_amounts": {
+      "2026": 23776.03,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.34,
+      "2027": 1.41,
+      "2028": 1.41,
+      "2029": 1.41,
+      "2030": 1.41,
+      "2031": 1.41
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-02",
+    "bd_short": "Versterken van de aantrekkelijkheid van de gemeente",
+    "bd_long": "Kwalitatieve omschrijving: De aantrekkelijkheid van de gemeente als plaats om te wonen, werken, ondernemen en leven versterken en duurzaam verankeren, met bijzondere aandacht voor woonkwaliteit, toegankelijke mobiliteit, een ondersteunend economisch klimaat (en het behoud en versterken van levendige dorpskernen).",
+    "ap_code": "AP-10",
+    "ap_short": "De ruimtelijke en landschappelijke kwaliteit versterken",
+    "ap_long": "Versterken van de ruimtelijke en landschappelijke kwaliteit door een geïntegreerde aanpak van groenbeheer, klimaatadaptatie en waterhuishouding. Het beleid omvat het versterken van het groenblauwe netwerk, het inventariseren en planmatig beheren van bomen, ecologische structuren en waterlopen, en het realiseren van klimaatbestendige infrastructuur met aandacht voor infiltratie, bufferzones en ontharding. Beleidskeuzes worden afgestemd op biodiversiteit, klimaatrobuustheid, onderhoudscapaciteit en de landschappelijke identiteit van de dorpen. Zo ontstaat een aantrekkelijke, veerkrachtige en toekomstbestendige leefomgeving die natuur, landschap en infrastructuur duurzaam combineert.",
+    "ac_code": "AC-26",
+    "ac_short": "Versterken van het groenblauwe netwerk met aandacht voor beheer, en klimaatrobuustheid",
+    "ac_long": "Versterken van een samenhangend groenblauw netwerk door ecologische structuren, waterlopen en het bomenbestand planmatig in kaart te brengen, en gericht te beheren. Het streven is om een overzicht te creëren van bestaande bomen en natuurwaarden, waarna gericht beheer en onderhoud kan worden gepland, met aandacht voor biodiversiteit, natuurverweving en klimaatrobuustheid. Beleidskeuzes worden afgestemd op klimaatdoelstellingen, onderhoudscapaciteit en de landschappelijke eigenheid van de dorpen. Op deze manier draagt de gemeente bij aan een robuuste, ecologisch waardevolle en aantrekkelijke leefomgeving.\nDeelacties: Uitvoeren hemelwater- en droogteplan - Beheersplannen oa bomen en natuurwaarden",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 67426.59,
+    "amount_per_capita": 9.49,
+    "yearly_amounts": {
+      "2026": 67426.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.49,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-03",
+    "bd_short": "Verder uitbouwen van een uitnodigende plattelandsgemeente",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente verder uitbouwen tot een uitnodigende plattelandsgemeente, waar inwoners en bezoekers kunnen genieten van een gevarieerd en toegankelijk aanbod van activiteiten, evenementen en belevingen, ondersteund door actieve verenigingen, en lokale partners die samen de sociale en culturele dynamiek van de gemeenschap versterken.",
+    "ap_code": "AP-14",
+    "ap_short": "Uitwerken van een aantrekkelijk, actueel en uitnodigend vrijetijdsaanbod",
+    "ap_long": "Inzetten op een vrijetijdsaanbod dat toegankelijk, laagdrempelig en uitnodigend is voor alle inwoners, met respect voor de eigenheid van de plattelandsgemeente. Het beleid omvat initiatieven die inclusie, participatie en sociale verbondenheid bevorderen, zoals rolstoeltoegankelijke wandel- en fietsroutes, sport- en jeugdactiviteiten, en gebruik van de UITPAS. Daarnaast wordt het unieke waterrijke karakter van de gemeente benut voor belevingsgerichte projecten, zoals kano- en peddelroutes, zwemvoorzieningen en historische gidsbeurten, waardoor educatie, recreatie en toeristische profilering samenkomen. Door deze aanpak wordt het lokaal eigenaarschap versterkt en ontstaat een gevarieerd, samenhangend vrijetijdsaanbod dat inwoners en bezoekers actief betrekt en de aantrekkelijkheid van de gemeente vergroot.",
+    "ac_code": "AC-42",
+    "ac_short": "Benutten van het waterthema om beleving, lokaal eigenaarschap en profilering te versterken",
+    "ac_long": "Benutten van het waterthema om inwoners en bezoekers op een actieve en belevingsgerichte manier te betrekken bij de lokale omgeving. Dit omvat onder meer watergerelateerde projecten zoals wandelbruggen, kano- of peddelroutes, zwemvoorzieningen en gidsbeurten op de kreken en kanalen. Daarnaast wordt de historische context van inpoldering en verdwenen dorpen zichtbaar gemaakt. Door deze initiatieven worden zowel recreatie, educatie als toeristische profilering gecombineerd, en wordt lokaal eigenaarschap en betrokkenheid bij het unieke waterlandschap van de gemeente versterkt.\nDeelacties: Wandelbrug Boerekreek - Aanbod waterrecreatie (steigers, Peddelroute) - Zwemvoorzieningen (zwemwateren)",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 8.44,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-04",
+    "bd_short": "Doorontwikkelen van een sociaal, inclusief beleid met een ruim en toegankelijk welzijnsaanbod",
+    "bd_long": "Kwalitatieve omschrijving: Een sociaal en inclusief welzijnsbeleid doorontwikkelen dat gericht is op het versterken van de zelfredzaamheid en maatschappelijke participatie van kwetsbare groepen, en (verder) uitbouwen van een ruim aanbod van  welzijnsvoorzieningen en -initiatieven met bijzondere aandacht voor aansluiting bij de leefwereld van inwoners in het algemeen en kwetsbare doelgroepen in het bijzonder.",
+    "ap_code": "AP-18",
+    "ap_short": "Aanbieden van kwaliteitsvolle ondersteuning voor elk kind op vlak van kinderopvang en onderwijs",
+    "ap_long": "Inzetten op een samenhangend en kwalitatief netwerk dat elk kind en elke jongere toegang biedt tot opvang, onderwijs en vrijetijdsbesteding. Het beleid omvat planmatige ontwikkeling van voorschoolse en naschoolse opvang, jeugdwerking en speel- en leeromgevingen, afgestemd op de noden van gezinnen en in samenwerking met lokale partners. Daarnaast wordt geïnvesteerd in veilige, duurzame en toekomstgerichte schoolinfrastructuur die ruimte biedt voor geïntegreerde opvang en vrijetijdservaringen. Leerkrachten worden versterkt via professionalisering en kennisdeling om krachtige leeromgevingen te creëren, terwijl kindgerichte omgevingen voorzien in speel-, beweeg- en ontmoetingskansen. Zo wil de gemeente een toegankelijke, inclusieve en stimulerende omgeving creëren waarin kinderen zich optimaal kunnen ontwikkelen en participeren.",
+    "ac_code": "AC-52",
+    "ac_short": "Versterken van kindgerichte omgevingen met ruimte voor spel, beweging en ontmoeting",
+    "ac_long": "Kindgerichte leer- en leefomgevingen op en rond de schoolsite versterken, met bijzondere aandacht voor spel, beweging en ontmoeting. Via een doordacht speelplaatsenbeleid worden speelinfrastructuur, inrichting en gebruik systematisch afgestemd op de ontwikkelingsnoden van kinderen. Observatiemodellen voor kleuters ondersteunen een gerichte aanpak op maat, zodat zowel de pedagogische ontwikkeling als de sociale interactie van kinderen optimaal wordt ondersteund. Op deze manier wordt bijgedragen aan veilige, stimulerende en uitnodigende omgevingen waar kinderen zich kunnen ontplooien en samen spelen.\nDeelacties: Speelplaatsenbeleid - Observatie kleuters",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 8.44,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 20000.0,
+      "2030": 0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.81,
+      "2028": 0,
+      "2029": 2.81,
+      "2030": 0,
+      "2031": 2.81
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-06",
+    "bd_short": "Een toekomstgerichte en wendbare organisatie uitbouwen",
+    "bd_long": "Kwalitatieve omschrijving: Een toekomstgerichte en wendbare organisatie uitbouwen met strategische profilering, duidelijke kerntaken en een interne werking die efficiënt, veerkrachtig en mensgericht is, zodat het lokaal bestuur zowel kwalitatieve dienst- als hulpverlening biedt als een aantrekkelijke werkgever is.",
+    "ap_code": "AP-25",
+    "ap_short": "Verhogen van digitale transformatie en administratieve efficiëntie binnen diensten",
+    "ap_long": "Digitaliseren en optimaliseren van administratieve en communicatieve processen om de organisatie efficiënter, gebruiksvriendelijker en toekomstgericht te maken. Het beleid omvat het stroomlijnen van backofficeprocessen, het afstemmen van administratieve procedures op wettelijke vereisten, en het ontwikkelen van uniforme, digitale tools voor aanvragen, reserveringen en meldingen. Daarnaast wordt een flexibel bereikbaarheidssysteem opgezet dat interne samenwerking en externe communicatie ondersteunt. Door deze maatregelen ontstaat een moderne, wendbare en goed toegankelijke organisatie die zowel medewerkers als inwoners ten goede komt.",
+    "ac_code": "AC-75",
+    "ac_short": "Uitbouwen van een flexibel en dynamisch bereikbaarheidssysteem voor interne en externe communicatie",
+    "ac_long": "Een flexibel en toekomstgericht bereikbaarheidssysteem uitbouwen dat interne samenwerking en externe communicatie versterkt. Het huidige telefoniesysteem wordt geëvalueerd en vervangen door een geïntegreerd VoIP- of cloudgebaseerd platform dat naadloos samenwerkt met andere communicatietools zoals e-mail, chat en agenda. Medewerkers worden ondersteund bij het gebruik, zodat bereikbaarheid, efficiëntie en gebruiksgemak merkbaar verbeteren voor zowel medewerkers als burgers. Dit systeem heeft als doel een wendbare en moderne communicatiestructuur te creëren.\nDeelacties: Telefoniesysteem",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 55000.0,
+    "amount_per_capita": 7.74,
+    "yearly_amounts": {
+      "2026": 55000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-01",
+    "bd_short": "Investeren in toekomstbestendige en bereikbare dienstverlening",
+    "bd_long": "Kwalitatieve omschrijving: Doelgericht investeren in een toekomstbestendige en meer bereikbare dienstverlening, met aandacht voor zowel fysieke als digitale toegankelijkheid, zodat de dienstverlening meegroeit met de veranderende samenstelling en verwachtingen van de bevolking.",
+    "ap_code": "AP-02",
+    "ap_short": "Bereikbaarheid van de diensten van het lokaal bestuur verbeteren",
+    "ap_long": "Inzetten op een toegankelijke, klantgerichte en efficiënte dienstverlening, waarbij inwoners vlot en comfortabel toegang hebben tot de gemeentelijke diensten. Het beleid omvat het ontwikkelen van een gemeentebreed kader voor onthaal en eerstelijnsdienstverlening, met afspraken over bereikbaarheid, openingstijden, inloopmomenten en dienstverlening op afspraak, zodat de werkwijze breed gedragen wordt door de betrokken diensten. Daarnaast worden publieksruimtes zo ingericht dat ze gebruiksvriendelijk, comfortabel en inclusief zijn, met aandacht voor privacy en duidelijke oriëntatie. Zo wordt een omgeving gecreëerd die het contact tussen inwoners en het lokaal bestuur vergemakkelijkt en de kwaliteit van de dienstverlening versterkt.",
+    "ac_code": "AC-06",
+    "ac_short": "Aanpassen van publieksruimtes om dienstverlening comfortabeler te maken",
+    "ac_long": "De publieksruimtes, zoals onthaalbalies, wachtruimtes en vergaderlokalen, zo inrichten dat ze comfortabel, toegankelijk en gebruiksvriendelijk zijn voor iedereen. Bij de aanpassingen wordt aandacht besteed aan privacy, duidelijke oriëntatie en een aangename beleving, zodat inwoners zich welkom en goed ondersteund voelen bij hun contacten met de gemeente. Het doel is een klantgerichte omgeving te creëren die de dienstverlening versterkt en het bezoek aan gemeentelijke diensten vlotter en aangenamer maakt.\nDeelacties: Aanpassingen gemeentehuis - Aanbevelingen audit onthaal met aandacht voor onthaalbalies, wachtruimtes, vergaderlokalen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 7.03,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-03",
+    "bd_short": "Verder uitbouwen van een uitnodigende plattelandsgemeente",
+    "bd_long": "Kwalitatieve omschrijving: De gemeente verder uitbouwen tot een uitnodigende plattelandsgemeente, waar inwoners en bezoekers kunnen genieten van een gevarieerd en toegankelijk aanbod van activiteiten, evenementen en belevingen, ondersteund door actieve verenigingen, en lokale partners die samen de sociale en culturele dynamiek van de gemeenschap versterken.",
+    "ap_code": "AP-14",
+    "ap_short": "Uitwerken van een aantrekkelijk, actueel en uitnodigend vrijetijdsaanbod",
+    "ap_long": "Inzetten op een vrijetijdsaanbod dat toegankelijk, laagdrempelig en uitnodigend is voor alle inwoners, met respect voor de eigenheid van de plattelandsgemeente. Het beleid omvat initiatieven die inclusie, participatie en sociale verbondenheid bevorderen, zoals rolstoeltoegankelijke wandel- en fietsroutes, sport- en jeugdactiviteiten, en gebruik van de UITPAS. Daarnaast wordt het unieke waterrijke karakter van de gemeente benut voor belevingsgerichte projecten, zoals kano- en peddelroutes, zwemvoorzieningen en historische gidsbeurten, waardoor educatie, recreatie en toeristische profilering samenkomen. Door deze aanpak wordt het lokaal eigenaarschap versterkt en ontstaat een gevarieerd, samenhangend vrijetijdsaanbod dat inwoners en bezoekers actief betrekt en de aantrekkelijkheid van de gemeente vergroot.",
+    "ac_code": "AC-41",
+    "ac_short": "Stimuleren van inclusief en laagdrempelig vrijetijdsaanbod en -activiteiten voor alle inwoners",
+    "ac_long": "Inzetten op een vrijetijdsaanbod dat toegankelijk is voor alle inwoners, ongeacht leeftijd, fysieke mogelijkheden of socio-economische achtergrond. Hierbij ligt de nadruk op laagdrempelige en inclusieve activiteiten, zoals rolstoeltoegankelijke fiets- en wandelroutes, participatie in sport- en jeugdinitiatieven, en het gebruik van de UITPAS om deelname en kansen te vergroten. Ook de bibliotheek wordt zo georganiseerd dat deze voor iedereen vlot bereikbaar en bruikbaar is. Door deze aanpak wil de gemeente gelijke toegang tot vrijetijdsmogelijkheden stimuleren en sociale inclusie en participatie in het lokale vrijetijdsleven bevorderen.\nDeelacties: UiTPas - Drempelvrije Bib - Aandacht voor laagdrempelig en inclusief aanbod (toegankelijkheid)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 7.03,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 7.03,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-05",
+    "bd_short": "Optimaliseren van middelenbeheer en samenwerking",
+    "bd_long": "Kwalitatieve omschrijving: Het lokaal bestuur optimaliseren door inkomsten en subsidies efficiënter te beheren en actief in te zetten, met een duidelijke focus op het aantrekken van middelen die ten goede komen aan lokale initiatieven, en door samenwerkingen kritisch te evalueren en de rol van de gemeente in deze samenwerkingen helder af te bakenen.",
+    "ap_code": "AP-20",
+    "ap_short": "Efficiënt en strategisch beheren van middelen, inkomsten en subsidies",
+    "ap_long": "Versterken van het middelenbeheer en de strategische inzet van gemeentelijke inkomsten en subsidies, zodat beschikbare middelen maximaal bijdragen aan lokale initiatieven en beleidsdoelstellingen. Het beleid omvat het systematisch opvolgen en benutten van inkomende subsidiestromen, het evalueren en optimaliseren van reglementen en tarieven, het planmatig beheren en benutten van het patrimonium, en het implementeren van beheersmaatregelen ter bescherming van gemeentelijke activa. Door deze aanpak worden middelen efficiënt aangewend, worden gebouwen en terreinen optimaal ingezet, en ontstaat een betrouwbare, toekomstgerichte en financieel duurzame organisatie die lokale projecten, dienstverlening en maatschappelijke noden ondersteunt.",
+    "ac_code": "AC-58",
+    "ac_short": "Beschermen van activa via beheersmaatregelen",
+    "ac_long": "Eigen activa beschermen door een reeks beheersmaatregelen te implementeren die registratie, controle en onderhoud van eigendommen systematisch waarborgen. Concreet wordt onder meer ingezet op de verdere uitrol van elektronische cilinders in gemeentelijke gebouwen om toegangsbeheer, veiligheid en controle te versterken. Deze maatregelen maken deel uit van een bredere aanpak van organisatiebeheersing, gericht op het voorkomen van verlies, schade of ongeoorloofd gebruik van gemeentelijke middelen.\nDeelacties: Elektronische cilinders",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 5.63,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.41,
+      "2027": 1.41,
+      "2028": 1.41,
+      "2029": 1.41,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-02",
+    "bd_short": "Versterken van de aantrekkelijkheid van de gemeente",
+    "bd_long": "Kwalitatieve omschrijving: De aantrekkelijkheid van de gemeente als plaats om te wonen, werken, ondernemen en leven versterken en duurzaam verankeren, met bijzondere aandacht voor woonkwaliteit, toegankelijke mobiliteit, een ondersteunend economisch klimaat (en het behoud en versterken van levendige dorpskernen).",
+    "ap_code": "AP-11",
+    "ap_short": "Een gezonde, veilige en gebruiksvriendelijke leefomgeving realiseren",
+    "ap_long": "Inzetten op een gezonde, veilige en toekomstbestendige leefomgeving voor alle inwoners en lokale actoren. Het beleid omvat het stimuleren van duurzaam bouwen en energiezuinige renovaties, het ondersteunen van energie-efficiënt ondernemerschap, en het natuurinclusief inrichten van publieke ruimtes en gemeentelijke domeinen. Daarnaast wordt aandacht besteed aan het verfraaien en toekomstbestendig beheren van begraafplaatsen en religieus erfgoed, het uniform en duurzaam organiseren van afvalbeheer, veilige asbestafbouw, noodplanning en een toegankelijke schoolomgeving. Zo draagt de gemeente bij aan een veerkrachtige, klimaatbewuste en gebruiksvriendelijke omgeving die het welzijn, de veiligheid en de leefkwaliteit voor huidige en toekomstige generaties versterkt.",
+    "ac_code": "AC-32",
+    "ac_short": "Uitbouwen van een uniform, duurzaam en toekomstgericht afvalbeleid",
+    "ac_long": "Een uniform, duurzaam en gebruiksvriendelijk afvalbeleid realiseren. Dit omvat het zorgen voor toegankelijke inzamelsystemen, het hanteren van duidelijke en consistente tarieven, en het investeren in efficiënte infrastructuur, zoals ondergrondse glascontainers. Ook het gemeentelijk milieupark wordt geëvalueerd met het oog op toekomstige optimalisaties en samenwerking. Met deze aanpak streeft de gemeente naar een kostenefficiënt, ecologisch verantwoord en overzichtelijk afvalbeleid dat bijdraagt aan een duurzamere leefomgeving voor alle inwoners.\nDeelacties: Ondergrondse glascontainers - Uniforme tarieven",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 3.52,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-02",
+    "bd_short": "Versterken van de aantrekkelijkheid van de gemeente",
+    "bd_long": "Kwalitatieve omschrijving: De aantrekkelijkheid van de gemeente als plaats om te wonen, werken, ondernemen en leven versterken en duurzaam verankeren, met bijzondere aandacht voor woonkwaliteit, toegankelijke mobiliteit, een ondersteunend economisch klimaat (en het behoud en versterken van levendige dorpskernen).",
+    "ap_code": "AP-09",
+    "ap_short": "Werken aan duurzame en toegankelijke mobiliteit",
+    "ap_long": "Versterken van duurzame en toegankelijke mobiliteit door te investeren in infrastructuur, netwerkuitbreiding en innovatieve vervoersoplossingen. Het beleid omvat het verbeteren en onderhouden van lokale wegen en belangrijke verbindingen, het uitbouwen van veilige fiets- en tragewegennetwerken, het ontwikkelen van een breed gedragen mobiliteitsvisie en het optimaliseren van gedeelde vervoersoplossingen voor inwoners en bezoekers. Zo wordt een geïntegreerde en toekomstgerichte aanpak gecreëerd die verkeersveiligheid, leefkwaliteit en duurzame verplaatsingen bevordert. Door planmatige uitvoering en aandacht voor comfort en toegankelijkheid ontstaat een efficiënt, veilig en aantrekkelijk mobiliteitsaanbod dat de verschillende kernen en voorzieningen met elkaar verbindt.",
+    "ac_code": "AC-25",
+    "ac_short": "Optimaliseren van duurzame vervoersoplossingen voor bewoners en bezoekers",
+    "ac_long": "Het bestaande aanbod van gedeelde vervoersoplossingen, zoals deelwagens en deelfietsen, evalueren om te leren van ervaringen en inzicht te krijgen in de werking en bruikbaarheid ervan voor inwoners en bezoekers. Op basis van deze evaluatie worden waar mogelijk verbeteringen onderzocht en toekomstgerichte stappen gepland om het aanbod efficiënter, toegankelijker en gebruiksvriendelijker te maken. Zo wordt bijdragen aan duurzame en toegankelijke verplaatsingen, die de mobiliteit en leefkwaliteit in de gemeente ondersteunen.\nDeelacties: Evalueren gedeelde vervoersoplossingen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 2.81,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.81,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Laureins",
+    "nis_code": "43014",
+    "bd_code": "BD-06",
+    "bd_short": "Een toekomstgerichte en wendbare organisatie uitbouwen",
+    "bd_long": "Kwalitatieve omschrijving: Een toekomstgerichte en wendbare organisatie uitbouwen met strategische profilering, duidelijke kerntaken en een interne werking die efficiënt, veerkrachtig en mensgericht is, zodat het lokaal bestuur zowel kwalitatieve dienst- als hulpverlening biedt als een aantrekkelijke werkgever is.",
+    "ap_code": "AP-23",
     "ap_short": "Versterken van interne werking door organisatiebeheersing, kerntakenduiding en planmatig werken",
     "ap_long": "Versterken van de interne werking door het systematisch verankeren van organisatiebeheersing, duidelijke kerntaken en planmatig werken. Het beleid omvat het projectmatig werken met duidelijke kaders en (eventuele) ondersteunende tools, het implementeren van een efficiënt monitorings- en rapportagesysteem, het optimaliseren van fysiek en digitaal archiefbeheer, en het verduidelijken van kerntaken en prioriteiten binnen de organisatie. Door deze maatregelen wordt de interne werking transparanter, gestructureerder en efficiënter, waardoor samenwerking tussen diensten wordt versterkt en de organisatie wendbaar en toekomstgericht blijft.",
-    "ac_code": "AC",
+    "ac_code": "AC-68",
     "ac_short": "Structureel fysiek en digitaal archiefbeheer implementeren en optimaliseren via externe archivaris",
     "ac_long": "Bestendigen van samenwerking met de externe archivaris van Welzijnsband Meetjesland om de expertise op het vlak van archiefbeheer in huis te halen en het archiefbeheer op een hoger kwaliteitsniveau te brengen. Dit traject zorgt ervoor dat zowel papieren als digitale archieven nog meer en beter gestructureerd beheerd worden, nieuwe wetgeving correct wordt opgevolgd, er wordt geïnvesteerd in geschikte archiefrekken en de archiefruimtes structureel gemonitord op temperatuur en luchtvochtigheid, zodat het archief veilig, toegankelijk en gebruiksvriendelijk blijft.\nDeelacties: Implementatie Serieregister, Archiefbeheersysteem, Optimalisatie fysiek en digitaal beheer",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 22843565.0,
-    "amount_per_capita": 3215.67,
+    "total_amount": 10000.0,
+    "amount_per_capita": 1.41,
     "yearly_amounts": {
-      "2026": 4172469.0,
-      "2027": 3954385.0,
-      "2028": 3618191.0,
-      "2029": 2118174.0,
-      "2030": 4306351.0,
-      "2031": 4673995.0
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 587.36,
-      "2027": 556.66,
-      "2028": 509.33,
-      "2029": 298.17,
-      "2030": 606.2,
-      "2031": 657.95
+      "2026": 1.41,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

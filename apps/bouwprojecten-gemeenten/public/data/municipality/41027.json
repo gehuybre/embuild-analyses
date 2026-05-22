@@ -2,22 +2,22 @@
   {
     "municipality": "Herzele",
     "nis_code": "41027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "Focus op het onderhoud en gebruik van de publieke ruimte",
     "bd_long": "Het onderhoud van de wegen is een kerntaak  voor een gemeente. Daarom wordt er hier dan ook serieus werk van gemaakt. Met het mobiliteitsplan wordt gewerkt aan een vlot en veilig verkeer op de Herzeelse wegen en een duurzame visie op de verplaatsingen in onze gemeente.",
     "ap_code": "2.1",
     "ap_short": "Wegen en publiek domein",
     "ap_long": "Er worden werken gerealiseerd in de Houtemstraat, de Kouterstraat, de Stationsstraat, de Hoogstraat, de Eikestraat, de Steenhuizestraat, het project Daalkouterlaan, de Mutsaardstraat-Roeselarestraat, de Ledebergstraat, Ransbeekstraat, de Lavenderstraat, de Populierestraat en de Doornstraat, alsook enkele overlagingswerken en het onderhoud van de landbouwwegen. Er is ook een algemeen krediet voor het onderhoud en de herstelling van de wegen en voetpaden voorzien.",
-    "ac_code": "2.1",
+    "ac_code": "2.1_2.1.1",
     "ac_short": "Wegenwerken",
     "ac_long": "Wegen- en rioleringswerken",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 4570626.0,
-    "amount_per_capita": 236.13,
+    "total_amount": 4310626.0,
+    "amount_per_capita": 220.98,
     "yearly_amounts": {
-      "2026": 770626.0,
+      "2026": 510626.0,
       "2027": 550000.0,
       "2028": 850000.0,
       "2029": 1300000.0,
@@ -25,79 +25,11 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 39.81,
-      "2027": 28.41,
-      "2028": 43.91,
-      "2029": 67.16,
-      "2030": 56.83,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Herzele",
-    "nis_code": "41027",
-    "bd_code": "BDS",
-    "bd_short": "Focus op een veilige, alerte en zorgzame gemeente",
-    "bd_long": "Deze beleidsdoelstelling richt zich op de inwoners en hun bekommernissen.",
-    "ap_code": "4.1",
-    "ap_short": "Veilig Herzele",
-    "ap_long": "We investeren in meer politie, meer brandweer en adequate hulpverlening.",
-    "ac_code": "4.1",
-    "ac_short": "Politie",
-    "ac_long": "Meer politie",
-    "categories": [
-      "04-veiligheidszorg"
-    ],
-    "total_amount": 2410277.0,
-    "amount_per_capita": 124.52,
-    "yearly_amounts": {
-      "2026": 513690.0,
-      "2027": 387401.0,
-      "2028": 474321.0,
-      "2029": 387272.0,
-      "2030": 333005.0,
-      "2031": 314588.0
-    },
-    "yearly_per_capita": {
-      "2026": 26.54,
-      "2027": 20.01,
-      "2028": 24.51,
-      "2029": 20.01,
-      "2030": 17.2,
-      "2031": 16.25
-    }
-  },
-  {
-    "municipality": "Herzele",
-    "nis_code": "41027",
-    "bd_code": "BDS",
-    "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
-    "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
-    "ap_code": "6.10",
-    "ap_short": "Jeugd",
-    "ap_long": "We werken aan een kind- en jeugdvriendelijke toekomst .",
-    "ac_code": "6.10",
-    "ac_short": "Lokalen KSA",
-    "ac_long": "Nieuwe jeugdlokalen voor KSA Hillegem",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 2200000.0,
-    "amount_per_capita": 113.66,
-    "yearly_amounts": {
-      "2026": 800000.0,
-      "2027": 1100000.0,
-      "2028": 300000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 41.33,
-      "2027": 56.83,
-      "2028": 15.5,
-      "2029": 0,
-      "2030": 0,
+      "2026": 26.18,
+      "2027": 28.2,
+      "2028": 43.58,
+      "2029": 66.64,
+      "2030": 56.39,
       "2031": 0
     }
   },
@@ -107,132 +39,200 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "",
+    "ap_code": "overigBeleid",
     "ap_short": "overigBeleid",
     "ap_long": "overigBeleid",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 2124565.0,
-    "amount_per_capita": 109.76,
+    "total_amount": 2112564.66,
+    "amount_per_capita": 108.3,
     "yearly_amounts": {
-      "2026": 503535.0,
-      "2027": 561749.0,
-      "2028": 390024.0,
-      "2029": 170435.0,
-      "2030": 172585.0,
-      "2031": 326237.0
+      "2026": 503534.85,
+      "2027": 549748.75,
+      "2028": 390023.72,
+      "2029": 170434.6,
+      "2030": 172585.21,
+      "2031": 326237.53
     },
     "yearly_per_capita": {
-      "2026": 26.01,
-      "2027": 29.02,
-      "2028": 20.15,
-      "2029": 8.81,
-      "2030": 8.92,
-      "2031": 16.85
+      "2026": 25.81,
+      "2027": 28.18,
+      "2028": 19.99,
+      "2029": 8.74,
+      "2030": 8.85,
+      "2031": 16.72
     }
   },
   {
     "municipality": "Herzele",
     "nis_code": "41027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
+    "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
+    "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
+    "ap_code": "6.10",
+    "ap_short": "Jeugd",
+    "ap_long": "We werken aan een kind- en jeugdvriendelijke toekomst .",
+    "ac_code": "6.10_6.10.5",
+    "ac_short": "Oud Ter Leen",
+    "ac_long": "Een nieuw leven voor oud WZC Ter Leen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 102.53,
+    "yearly_amounts": {
+      "2026": 800000.0,
+      "2027": 1000000.0,
+      "2028": 200000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 41.01,
+      "2027": 51.26,
+      "2028": 10.25,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 4",
+    "bd_short": "Focus op een veilige, alerte en zorgzame gemeente",
+    "bd_long": "Deze beleidsdoelstelling richt zich op de inwoners en hun bekommernissen.",
+    "ap_code": "4.1",
+    "ap_short": "Veilig Herzele",
+    "ap_long": "We investeren in meer politie, meer brandweer en adequate hulpverlening.",
+    "ac_code": "4.1_4.1.2",
+    "ac_short": "Brandweer",
+    "ac_long": "Perfomante brandweer",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1523965.75,
+    "amount_per_capita": 78.13,
+    "yearly_amounts": {
+      "2026": 358046.0,
+      "2027": 226764.0,
+      "2028": 297337.68,
+      "2029": 218611.26,
+      "2030": 214125.0,
+      "2031": 209081.81
+    },
+    "yearly_per_capita": {
+      "2026": 18.36,
+      "2027": 11.63,
+      "2028": 15.24,
+      "2029": 11.21,
+      "2030": 10.98,
+      "2031": 10.72
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 4",
+    "bd_short": "Focus op een veilige, alerte en zorgzame gemeente",
+    "bd_long": "Deze beleidsdoelstelling richt zich op de inwoners en hun bekommernissen.",
+    "ap_code": "4.1",
+    "ap_short": "Veilig Herzele",
+    "ap_long": "We investeren in meer politie, meer brandweer en adequate hulpverlening.",
+    "ac_code": "4.1_4.1.1",
+    "ac_short": "Politie",
+    "ac_long": "Meer politie",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 886309.84,
+    "amount_per_capita": 45.44,
+    "yearly_amounts": {
+      "2026": 155643.64,
+      "2027": 160636.6,
+      "2028": 176982.6,
+      "2029": 168661.0,
+      "2030": 118880.0,
+      "2031": 105506.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.98,
+      "2027": 8.24,
+      "2028": 9.07,
+      "2029": 8.65,
+      "2030": 6.09,
+      "2031": 5.41
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 3",
     "bd_short": "Focus op een groene woongemeente",
     "bd_long": "Herzele is een mooie gemeente, met verdichte kernen in het noorden, een uitgestrekt centrum met de gemeenschapsvoorzieningen en in het zuiden dorpen met een landelijk karakter. De ruimtelijke ordening moet rekening houden met deze verschillen.",
     "ap_code": "3.4",
     "ap_short": "Kernen",
     "ap_long": "Renovaties en verbeteringen bewaren de uitstraling van de dorpen.",
-    "ac_code": "3.4",
+    "ac_code": "3.4_3.4.1",
     "ac_short": "Monumenten",
     "ac_long": "Onderhoud van monumenten",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1535000.0,
-    "amount_per_capita": 79.3,
+    "total_amount": 715000.0,
+    "amount_per_capita": 36.65,
     "yearly_amounts": {
-      "2026": 410000.0,
-      "2027": 370000.0,
-      "2028": 145000.0,
-      "2029": 295000.0,
-      "2030": 145000.0,
-      "2031": 170000.0
+      "2026": 290000.0,
+      "2027": 100000.0,
+      "2028": 25000.0,
+      "2029": 225000.0,
+      "2030": 75000.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 21.18,
-      "2027": 19.12,
-      "2028": 7.49,
-      "2029": 15.24,
-      "2030": 7.49,
-      "2031": 8.78
+      "2026": 14.87,
+      "2027": 5.13,
+      "2028": 1.28,
+      "2029": 11.53,
+      "2030": 3.84,
+      "2031": 0
     }
   },
   {
     "municipality": "Herzele",
     "nis_code": "41027",
-    "bd_code": "BDS",
-    "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
-    "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
-    "ap_code": "6.3",
-    "ap_short": "Infrastructuur en publieke ruimte",
-    "ap_long": "Renovatie, behoud en ontwikkeling van de multifunctionele publieke ruimte en voorzieningen.",
-    "ac_code": "6.3",
-    "ac_short": "Vernieuwing sport- en speelpleinen",
-    "ac_long": "Vernieuwing sport- en speelpleintjes De Steenoven, Ressegem, Schauwbroeck",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 1205500.0,
-    "amount_per_capita": 62.28,
-    "yearly_amounts": {
-      "2026": 207500.0,
-      "2027": 428000.0,
-      "2028": 430000.0,
-      "2029": 40000.0,
-      "2030": 50000.0,
-      "2031": 50000.0
-    },
-    "yearly_per_capita": {
-      "2026": 10.72,
-      "2027": 22.11,
-      "2028": 22.22,
-      "2029": 2.07,
-      "2030": 2.58,
-      "2031": 2.58
-    }
-  },
-  {
-    "municipality": "Herzele",
-    "nis_code": "41027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "Focus op een veilige, alerte en zorgzame gemeente",
     "bd_long": "Deze beleidsdoelstelling richt zich op de inwoners en hun bekommernissen.",
     "ap_code": "4.6",
     "ap_short": "Zorgzaam Herzele - regie kinderopvang",
     "ap_long": "We benutten onze regierol m.b.t. de kinderopvang optimaal.",
-    "ac_code": "4.6",
+    "ac_code": "4.6_4.6.2",
     "ac_short": "Infrastructuur BKO",
     "ac_long": "Aanpassen infrastructuur BKO - i.f.v. BOA",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 1010000.0,
-    "amount_per_capita": 52.18,
+    "total_amount": 700000.0,
+    "amount_per_capita": 35.89,
     "yearly_amounts": {
-      "2026": 110000.0,
-      "2027": 200000.0,
+      "2026": 0,
+      "2027": 0,
       "2028": 450000.0,
       "2029": 250000.0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.68,
-      "2027": 10.33,
-      "2028": 23.25,
-      "2029": 12.92,
+      "2026": 0,
+      "2027": 0,
+      "2028": 23.07,
+      "2029": 12.82,
       "2030": 0,
       "2031": 0
     }
@@ -240,20 +240,122 @@
   {
     "municipality": "Herzele",
     "nis_code": "41027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
+    "bd_short": "Focus op een groene woongemeente",
+    "bd_long": "Herzele is een mooie gemeente, met verdichte kernen in het noorden, een uitgestrekt centrum met de gemeenschapsvoorzieningen en in het zuiden dorpen met een landelijk karakter. De ruimtelijke ordening moet rekening houden met deze verschillen.",
+    "ap_code": "3.4",
+    "ap_short": "Kernen",
+    "ap_long": "Renovaties en verbeteringen bewaren de uitstraling van de dorpen.",
+    "ac_code": "3.4_3.4.2",
+    "ac_short": "Kerkhoven",
+    "ac_long": "Onderhoud en vergroening kerkhoven",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 620000.0,
+    "amount_per_capita": 31.78,
+    "yearly_amounts": {
+      "2026": 70000.0,
+      "2027": 170000.0,
+      "2028": 70000.0,
+      "2029": 70000.0,
+      "2030": 70000.0,
+      "2031": 170000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.59,
+      "2027": 8.72,
+      "2028": 3.59,
+      "2029": 3.59,
+      "2030": 3.59,
+      "2031": 8.72
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 6",
+    "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
+    "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
+    "ap_code": "6.3",
+    "ap_short": "Infrastructuur en publieke ruimte",
+    "ap_long": "Renovatie, behoud en ontwikkeling van de multifunctionele publieke ruimte en voorzieningen.",
+    "ac_code": "6.3_6.3.3",
+    "ac_short": "Vernieuwing kunstgrasveld",
+    "ac_long": "Vernieuwing toplaag kunstgrasveld Borsbeke, verlichting Finse Piste en heraanleg parking Tramzate",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 23.07,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 100000.0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 50000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.56,
+      "2027": 5.13,
+      "2028": 12.82,
+      "2029": 0,
+      "2030": 2.56,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 4",
+    "bd_short": "Focus op een veilige, alerte en zorgzame gemeente",
+    "bd_long": "Deze beleidsdoelstelling richt zich op de inwoners en hun bekommernissen.",
+    "ap_code": "4.6",
+    "ap_short": "Zorgzaam Herzele - regie kinderopvang",
+    "ap_long": "We benutten onze regierol m.b.t. de kinderopvang optimaal.",
+    "ac_code": "4.6_4.6.3",
+    "ac_short": "Infrastructuur KDV",
+    "ac_long": "Aanpassen infrastructuur KDV - i.f.v. VIPA",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 310000.0,
+    "amount_per_capita": 15.89,
+    "yearly_amounts": {
+      "2026": 110000.0,
+      "2027": 200000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.64,
+      "2027": 10.25,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 3",
     "bd_short": "Focus op een groene woongemeente",
     "bd_long": "Herzele is een mooie gemeente, met verdichte kernen in het noorden, een uitgestrekt centrum met de gemeenschapsvoorzieningen en in het zuiden dorpen met een landelijk karakter. De ruimtelijke ordening moet rekening houden met deze verschillen.",
     "ap_code": "3.2",
     "ap_short": "Een groene woongemeente",
     "ap_long": "Gerichte acties zorgen voor een duurzame ontwikkeling van diverse groene delen van onze gemeente.",
-    "ac_code": "3.2",
+    "ac_code": "3.2_3.2.1",
     "ac_short": "Bossen",
     "ac_long": "Aankoop bossen en gronden voor bebossing",
     "categories": [
       "06-wonen-ruimte"
     ],
     "total_amount": 300000.0,
-    "amount_per_capita": 15.5,
+    "amount_per_capita": 15.38,
     "yearly_amounts": {
       "2026": 80000.0,
       "2027": 80000.0,
@@ -263,10 +365,10 @@
       "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 4.13,
-      "2027": 4.13,
-      "2028": 3.1,
-      "2029": 2.07,
+      "2026": 4.1,
+      "2027": 4.1,
+      "2028": 3.08,
+      "2029": 2.05,
       "2030": 1.03,
       "2031": 1.03
     }
@@ -274,88 +376,88 @@
   {
     "municipality": "Herzele",
     "nis_code": "41027",
-    "bd_code": "BDS",
-    "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
-    "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
-    "ap_code": "6.9",
-    "ap_short": "Klimaatbewust",
-    "ap_long": "We bouwen aan een klimaatbestendige gemeente en klimaatbewuste gemeenschap.",
-    "ac_code": "6.9",
-    "ac_short": "Zonnepanelen",
-    "ac_long": "Zonnepanelen op  gemeentelijke gebouwen",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 275000.0,
-    "amount_per_capita": 14.21,
-    "yearly_amounts": {
-      "2026": 125000.0,
-      "2027": 75000.0,
-      "2028": 75000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 6.46,
-      "2027": 3.87,
-      "2028": 3.87,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Herzele",
-    "nis_code": "41027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "Focus op dienstverlening en beleidsvoerend vermogen",
     "bd_long": "We beschikken over een uitgebreide en brede dienstverlening. De gemeente streeft naar een kwalitatieve, efficiënte en toegankelijke dienstverlening in al haar diensten.",
     "ap_code": "5.2",
     "ap_short": "Digitale en technische uitrusting",
     "ap_long": "Investeren in de technische uitrusting en digitale inrichting van de diensten voor een efficiënte en toekomstgerichte werking.",
-    "ac_code": "5.2",
+    "ac_code": "5.2_5.2.2",
     "ac_short": "Technische uitrusting",
     "ac_long": "Technische uitrusting en inrichting van de diensten",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 261354.0,
-    "amount_per_capita": 13.5,
+    "total_amount": 261354.04,
+    "amount_per_capita": 13.4,
     "yearly_amounts": {
       "2026": 185746.0,
       "2027": 9000.0,
       "2028": 29000.0,
       "2029": 9100.0,
       "2030": 19202.0,
-      "2031": 9306.0
+      "2031": 9306.04
     },
     "yearly_per_capita": {
-      "2026": 9.6,
+      "2026": 9.52,
       "2027": 0.46,
-      "2028": 1.5,
+      "2028": 1.49,
       "2029": 0.47,
-      "2030": 0.99,
+      "2030": 0.98,
       "2031": 0.48
     }
   },
   {
     "municipality": "Herzele",
     "nis_code": "41027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "Focus op het onderhoud en gebruik van de publieke ruimte",
+    "bd_long": "Het onderhoud van de wegen is een kerntaak  voor een gemeente. Daarom wordt er hier dan ook serieus werk van gemaakt. Met het mobiliteitsplan wordt gewerkt aan een vlot en veilig verkeer op de Herzeelse wegen en een duurzame visie op de verplaatsingen in onze gemeente.",
+    "ap_code": "2.1",
+    "ap_short": "Wegen en publiek domein",
+    "ap_long": "Er worden werken gerealiseerd in de Houtemstraat, de Kouterstraat, de Stationsstraat, de Hoogstraat, de Eikestraat, de Steenhuizestraat, het project Daalkouterlaan, de Mutsaardstraat-Roeselarestraat, de Ledebergstraat, Ransbeekstraat, de Lavenderstraat, de Populierestraat en de Doornstraat, alsook enkele overlagingswerken en het onderhoud van de landbouwwegen. Er is ook een algemeen krediet voor het onderhoud en de herstelling van de wegen en voetpaden voorzien.",
+    "ac_code": "2.1_2.1.2",
+    "ac_short": "Stationsstraat",
+    "ac_long": "Herstel betonplaten Stationsstraat en Hoogstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 260000.0,
+    "amount_per_capita": 13.33,
+    "yearly_amounts": {
+      "2026": 260000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 1",
     "bd_short": "Focus op een financieel gezonde gemeente",
     "bd_long": "Een financieel gezonde gemeente is in staat om haar actuele en toekomstige taken te vervullen en de uitdagingen van de maatschappelijke opgaven aan te gaan.",
     "ap_code": "1.3",
     "ap_short": "Betere exploitatieresultaten",
     "ap_long": "We zorgen ervoor dat het exploitatiesaldo groeit.",
-    "ac_code": "1.3",
+    "ac_code": "1.3_1.3.3",
     "ac_short": "Onderwijs",
     "ac_long": "Optimaliseren van de financiering van het gemeentelijk onderwijs, met behoud van de kwaliteit",
     "categories": [
       "08-onderwijs"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 12.92,
+    "amount_per_capita": 12.82,
     "yearly_amounts": {
       "2026": 150000.0,
       "2027": 60000.0,
@@ -365,31 +467,201 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 7.75,
-      "2027": 3.1,
-      "2028": 0.52,
-      "2029": 0.52,
-      "2030": 0.52,
-      "2031": 0.52
+      "2026": 7.69,
+      "2027": 3.08,
+      "2028": 0.51,
+      "2029": 0.51,
+      "2030": 0.51,
+      "2031": 0.51
     }
   },
   {
     "municipality": "Herzele",
     "nis_code": "41027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
+    "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
+    "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
+    "ap_code": "6.9",
+    "ap_short": "Klimaatbewust",
+    "ap_long": "We bouwen aan een klimaatbestendige gemeente en klimaatbewuste gemeenschap.",
+    "ac_code": "6.9_6.9.1",
+    "ac_short": "Zonnepanelen",
+    "ac_long": "Zonnepanelen op  gemeentelijke gebouwen",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 225000.0,
+    "amount_per_capita": 11.53,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.84,
+      "2027": 3.84,
+      "2028": 3.84,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 6",
+    "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
+    "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
+    "ap_code": "6.3",
+    "ap_short": "Infrastructuur en publieke ruimte",
+    "ap_long": "Renovatie, behoud en ontwikkeling van de multifunctionele publieke ruimte en voorzieningen.",
+    "ac_code": "6.3_6.3.5",
+    "ac_short": "Verbeteringen WF",
+    "ac_long": "Waterwerend maken gevels De Wattenfabriek en airco Grote Zaal",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 210000.0,
+    "amount_per_capita": 10.77,
+    "yearly_amounts": {
+      "2026": 130000.0,
+      "2027": 80000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.66,
+      "2027": 4.1,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 3",
+    "bd_short": "Focus op een groene woongemeente",
+    "bd_long": "Herzele is een mooie gemeente, met verdichte kernen in het noorden, een uitgestrekt centrum met de gemeenschapsvoorzieningen en in het zuiden dorpen met een landelijk karakter. De ruimtelijke ordening moet rekening houden met deze verschillen.",
+    "ap_code": "3.4",
+    "ap_short": "Kernen",
+    "ap_long": "Renovaties en verbeteringen bewaren de uitstraling van de dorpen.",
+    "ac_code": "3.4_3.4.3",
+    "ac_short": "Natuurbegraafplaats",
+    "ac_long": "Inrichten natuurbegraafplaats Sint-Lievens-Esse",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 10.25,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 100000.0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.56,
+      "2027": 5.13,
+      "2028": 2.56,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 6",
+    "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
+    "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
+    "ap_code": "6.10",
+    "ap_short": "Jeugd",
+    "ap_long": "We werken aan een kind- en jeugdvriendelijke toekomst .",
+    "ac_code": "6.10_6.10.1",
+    "ac_short": "Lokalen KSA",
+    "ac_long": "Nieuwe jeugdlokalen voor KSA Hillegem",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 10.25,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 5.13,
+      "2028": 5.13,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 6",
+    "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
+    "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
+    "ap_code": "6.3",
+    "ap_short": "Infrastructuur en publieke ruimte",
+    "ap_long": "Renovatie, behoud en ontwikkeling van de multifunctionele publieke ruimte en voorzieningen.",
+    "ac_code": "6.3_6.3.2",
+    "ac_short": "Vernieuwing sport- en speelpleinen",
+    "ac_long": "Vernieuwing sport- en speelpleintjes De Steenoven, Ressegem, Schauwbroeck",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 140000.0,
+    "amount_per_capita": 7.18,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 5.13,
+      "2028": 1.03,
+      "2029": 1.03,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 6",
     "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
     "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
     "ap_code": "6.2",
     "ap_short": "Ondersteuning",
     "ap_long": "Ondersteuning van verenigingen, organisaties en projecten met sociale cohesie als doel .",
-    "ac_code": "6.2",
+    "ac_code": "6.2_6.2.4",
     "ac_short": "Investeringssubsidies",
     "ac_long": "Verenigingen krijgen investeringssubsidies voor verbeteringen aan eigen infrastructuur",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 137500.0,
-    "amount_per_capita": 7.1,
+    "amount_per_capita": 7.05,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 0,
@@ -399,10 +671,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.17,
+      "2026": 5.13,
       "2027": 0,
       "2028": 0,
-      "2029": 1.94,
+      "2029": 1.92,
       "2030": 0,
       "2031": 0
     }
@@ -410,20 +682,20 @@
   {
     "municipality": "Herzele",
     "nis_code": "41027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "Focus op een veilige, alerte en zorgzame gemeente",
     "bd_long": "Deze beleidsdoelstelling richt zich op de inwoners en hun bekommernissen.",
     "ap_code": "4.7",
     "ap_short": "Zorgzaam Herzele - inclusieve en solidaire samenleving",
     "ap_long": "We bouwen aan een inclusieve en solidaire samenleving",
-    "ac_code": "4.7",
+    "ac_code": "4.7_4.7.5",
     "ac_short": "Crisiswoning",
     "ac_long": "Inbreng van een bruikbare crisiswoning in CON-PANACEA",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 6.2,
+    "amount_per_capita": 6.15,
     "yearly_amounts": {
       "2026": 40000.0,
       "2027": 40000.0,
@@ -433,31 +705,31 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 2.07,
-      "2027": 2.07,
-      "2028": 0.52,
-      "2029": 0.52,
-      "2030": 0.52,
-      "2031": 0.52
+      "2026": 2.05,
+      "2027": 2.05,
+      "2028": 0.51,
+      "2029": 0.51,
+      "2030": 0.51,
+      "2031": 0.51
     }
   },
   {
     "municipality": "Herzele",
     "nis_code": "41027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
     "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
     "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
     "ap_code": "6.4",
     "ap_short": "Erfgoed",
     "ap_long": "Erfgoedvisie: aandacht voor het verleden, met een blik naar morgen.",
-    "ac_code": "6.4",
+    "ac_code": "6.4_6.4.2",
     "ac_short": "Kerken Hillegem en Ressegem",
     "ac_long": "Aanpassingen voor herbestemming kerken Hillegem en Ressegem",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 110000.0,
-    "amount_per_capita": 5.68,
+    "amount_per_capita": 5.64,
     "yearly_amounts": {
       "2026": 80000.0,
       "2027": 0,
@@ -467,9 +739,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.13,
+      "2026": 4.1,
       "2027": 0,
-      "2028": 1.55,
+      "2028": 1.54,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -478,20 +750,54 @@
   {
     "municipality": "Herzele",
     "nis_code": "41027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
+    "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
+    "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
+    "ap_code": "6.9",
+    "ap_short": "Klimaatbewust",
+    "ap_long": "We bouwen aan een klimaatbestendige gemeente en klimaatbewuste gemeenschap.",
+    "ac_code": "6.9_6.9.5",
+    "ac_short": "Hoppin",
+    "ac_long": "Aanleg Hoppin-punt Groenlaan",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 2.56,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.56,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Herzele",
+    "nis_code": "41027",
+    "bd_code": "BDS 6",
     "bd_short": "Focus op vrije tijd, verbinding, dynamiek en de toekomst",
     "bd_long": "We bouwen aan een gemeente waar alle vormen van vrije tijd toegankelijk, divers en bloeiend zijn voor iedereen, ongeacht leeftijd, achtergrond of interesses. Zo versterken we de gemeenschap en bieden we iedereen de kans om te participeren en te genieten van een rijk verenigingsleven.",
     "ap_code": "6.8",
     "ap_short": "Dynamiek",
     "ap_long": "Ondersteuning en versterking van lokale verenigingen en evenementen.",
-    "ac_code": "6.8",
+    "ac_code": "6.8_6.8.1",
     "ac_short": "Schepenhuis",
     "ac_long": "Een keuken voor het Schepenhuis",
     "categories": [
       "05-ondernemen-werken"
     ],
     "total_amount": 25000.0,
-    "amount_per_capita": 1.29,
+    "amount_per_capita": 1.28,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 0,
@@ -501,7 +807,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.29,
+      "2026": 1.28,
       "2027": 0,
       "2028": 0,
       "2029": 0,

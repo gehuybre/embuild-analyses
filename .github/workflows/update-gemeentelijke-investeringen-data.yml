@@ -33,7 +33,7 @@ jobs:
       - name: Install Python dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install pandas numpy pyarrow
+          pip install pandas numpy pyarrow openpyxl
 
       - name: Check raw input availability
         id: raw_inputs
@@ -43,7 +43,6 @@ jobs:
           for f in \
             "MJP BV 2014 MVA.csv" \
             "MJP BV 2020 MVA.csv" \
-            "MJP BV 2026 MVA.csv" \
             "mjp rek 2014.csv" \
             "mjp rek 2020.csv" \
             "mjp rek 2026.csv"
@@ -53,6 +52,13 @@ jobs:
               missing=1
             fi
           done
+
+          if [ ! -f "${APP_ROOT}/data/MJP BV 2026-05 MVA.csv" ] && \
+             [ ! -f "${APP_ROOT}/data/MJP BV 2026-05.xlsx" ] && \
+             [ ! -f "${APP_ROOT}/data/MJP BV 2026 MVA.csv" ]; then
+            echo "::notice::Missing raw input: ${APP_ROOT}/data/MJP BV 2026-05 MVA.csv, ${APP_ROOT}/data/MJP BV 2026-05.xlsx or ${APP_ROOT}/data/MJP BV 2026 MVA.csv"
+            missing=1
+          fi
 
           if [ "${missing}" -eq 0 ]; then
             echo "raw_ready=true" >> "${GITHUB_OUTPUT}"

@@ -2,69 +2,2041 @@
   {
     "municipality": "Oudenaarde",
     "nis_code": "45035",
-    "bd_code": "PBD",
-    "bd_short": "Wonen, leven en ondernemen in de stad",
-    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
-    "ap_code": "AP",
-    "ap_short": "Ruimte",
-    "ap_long": "Ruimte: de afdeling Ruimte werkt afdelings- en dienstoverschrijdend en heeft een brede visie op stadsontwikkeling.",
-    "ac_code": "A",
-    "ac_short": "We maken werk van de inrichting van het Watergevoelig Open Ruimte Gebied (WORG) Schapendries",
-    "ac_long": "We laten een haalbaarheidsstudie uitvoeren om het gebied rond de Maarkebeek tussen N60 en N8 overstromingsveiliger te maken en zo de omwonenden maximaal te beschermen tegen overstromingen en wateroverlast. Hiervoor worden de gronden aangekocht, die noodzakelijk zijn voor de verlegging, verbreding en hermeandering van de Maarkebeek (volgens het riviercontract). Voor dit project werken we samen met de Vlaamse Milieumaatschappij.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 64809609.0,
-    "amount_per_capita": 1941.6,
-    "yearly_amounts": {
-      "2026": 14627790.0,
-      "2027": 14087912.0,
-      "2028": 13075777.0,
-      "2029": 9299927.0,
-      "2030": 8407802.0,
-      "2031": 5310401.0
-    },
-    "yearly_per_capita": {
-      "2026": 438.23,
-      "2027": 422.05,
-      "2028": 391.73,
-      "2029": 278.61,
-      "2030": 251.89,
-      "2031": 159.09
-    }
-  },
-  {
-    "municipality": "Oudenaarde",
-    "nis_code": "45035",
-    "bd_code": "OBD",
+    "bd_code": "OBD-4",
     "bd_short": "Overig beleid - Ruimte",
     "bd_long": "Commentaar:",
-    "ap_code": "AP",
+    "ap_code": "AP-OB-4",
     "ap_short": "Overig beleid - Ruimte",
     "ap_long": "Commentaar:",
-    "ac_code": "OB",
+    "ac_code": "OB-A&O",
     "ac_short": "Overig beleid - Administratie en overheidsopdrachten",
     "ac_long": "Commentaar:",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 32268361.0,
-    "amount_per_capita": 966.71,
+    "total_amount": 17709510.75,
+    "amount_per_capita": 529.51,
     "yearly_amounts": {
-      "2026": 10408139.0,
-      "2027": 7678415.0,
-      "2028": 6252099.0,
-      "2029": 3365312.0,
-      "2030": 2283826.0,
-      "2031": 2280570.0
+      "2026": 8242014.75,
+      "2027": 3683496.0,
+      "2028": 1702500.0,
+      "2029": 1477500.0,
+      "2030": 1441500.0,
+      "2031": 1162500.0
     },
     "yearly_per_capita": {
-      "2026": 311.81,
-      "2027": 230.03,
-      "2028": 187.3,
-      "2029": 100.82,
-      "2030": 68.42,
-      "2031": 68.32
+      "2026": 246.43,
+      "2027": 110.14,
+      "2028": 50.9,
+      "2029": 44.18,
+      "2030": 43.1,
+      "2031": 34.76
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-2",
+    "ap_short": "Gebouwen",
+    "ap_long": "Gebouwen: door de opmaak en uitvoering van een strategische visie rond patrimoniumbeheer kan er maximaal en efficiënter gebruik gemaakt worden van de vele gebouwen, niet alleen voor de stadsdiensten maar ook voor de vele verenigingen. Daar zetten we op in.",
+    "ac_code": "A-4-2-1",
+    "ac_short": "We zetten verder in op de realisatie van een eigentijdse cultuursite met een regionale uitstraling",
+    "ac_long": "We zullen doorgaan met de ontwikkeling van een moderne cultuursite met een regionale uitstraling, zoals vastgelegd in de goedgekeurde ontwerpplannen. Dit project omvat de bouw van een eigentijds cultuurhuis met zowel een grote als een kleine theaterzaal, inclusief de benodigde theatertechnieken.\nDaarnaast zal de site een cultuurcafé, een cultuurstraat, kantoren voor de dienst Cultuur, vergaderlokalen en een cultuurplein bevatten. Hiermee streven we naar een dynamische en veelzijdige culturele ontmoetingsplek voor de regio.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 16524385.14,
+    "amount_per_capita": 494.08,
+    "yearly_amounts": {
+      "2026": 7201985.14,
+      "2027": 7087323.0,
+      "2028": 1760077.0,
+      "2029": 475000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 215.34,
+      "2027": 211.91,
+      "2028": 52.63,
+      "2029": 14.2,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-2C",
+    "bd_short": "Overig beleid - Financiële dienst",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-2C",
+    "ap_short": "Overig beleid - Financiële dienst",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-FIN",
+    "ac_short": "Overig beleid - Financiële dienst",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 10736889.44,
+    "amount_per_capita": 321.03,
+    "yearly_amounts": {
+      "2026": 1318912.51,
+      "2027": 3278468.77,
+      "2028": 3910549.55,
+      "2029": 1338762.27,
+      "2030": 296425.78,
+      "2031": 593770.56
+    },
+    "yearly_per_capita": {
+      "2026": 39.44,
+      "2027": 98.03,
+      "2028": 116.92,
+      "2029": 40.03,
+      "2030": 8.86,
+      "2031": 17.75
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-9",
+    "ap_short": "Openbaar Domein - Mobiliteit",
+    "ap_long": "Openbaar Domein - Mobiliteit: we geloven dat mobiliteit niet alleen gaat om verplaatsing, maar ook om duurzaamheid, veiligheid en het verbeteren van levenskwaliteit. Verkeersveiligheid en -leefbaarheid zijn thema’s waarvan mensen wakker liggen. We werken een nieuwe en slimme mobiliteitsvisie uit. Luisterbereidheid, participatie en draagvlak creëren voor maatregelen die we willen nemen, is zeker bij mobiliteitsbeleid de sleutel tot succes.",
+    "ac_code": "A-4-9-1",
+    "ac_short": "Investeringsproject openbaar domein: wegwerken van de missing links van de fietssnelweg F45",
+    "ac_long": "We investeren verder in ruime, veilige en comfortabele fietspaden in het centrum en deelgemeentes. \n\nFietstunnel N8: we leggen een fietstunnel aan onder de Dokter Honoré Dewolfstraat. We vernieuwen de verharding in een deel van de Armenlos en de Ronseweg en leggen een fietsstraat aan. In de Ronseweg zetten we in op ontharding en infiltratie door de aanleg van wadi's en gebruik van waterdoorlatende materialen. \n\nVerbinding Ronseweg-Vontstraat: we leggen een nieuw fietspad aan tussen de Ronseweg en de Vontstraat als veilige aansluiting naar de fietstunnel. \n\nFietsbrug N60: het Agentschap Wegen en Verkeer plant de aanleg een nieuwe fietsersbrug over de N60 ter hoogte van de N457. Het fietspad tussen Onderbos en de Watermolenstraat wordt vernieuwd en de kruispunten worden veiliger gemaakt.\n\nFietshelling Mathijs Casteleinstraat: we maken een veiligere fietsverbinding vanaf de brug van de Mathijs Casteleinstraat naar het fietspad langs de Schelde.\n\nFietsverbinding Melden-Kluisbergen: we voorzien verlichting (cfr. deel in Kluisbergen). We herstellen slechte delen verharding.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 8490000.0,
+    "amount_per_capita": 253.85,
+    "yearly_amounts": {
+      "2026": 2450000.0,
+      "2027": 2225000.0,
+      "2028": 1750000.0,
+      "2029": 1965000.0,
+      "2030": 100000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 73.25,
+      "2027": 66.53,
+      "2028": 52.32,
+      "2029": 58.75,
+      "2030": 2.99,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-2",
+    "ap_short": "Gebouwen",
+    "ap_long": "Gebouwen: door de opmaak en uitvoering van een strategische visie rond patrimoniumbeheer kan er maximaal en efficiënter gebruik gemaakt worden van de vele gebouwen, niet alleen voor de stadsdiensten maar ook voor de vele verenigingen. Daar zetten we op in.",
+    "ac_code": "A-4-2-2",
+    "ac_short": "We realiseren een duurzaam en klimaatadaptief sportpark op de site Rodelos",
+    "ac_long": "Er wordt een duurzaam, modern voetbal- en atletiekstadion en baseballveld voorzien. Op de vrije plaatsen wordt maximaal ingezet op ongebonden sporten. Hiermee willen we voldoen aan de behoeften van de burgers en willen we  sport en recreatie in de regio bevorderen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 8476400.0,
+    "amount_per_capita": 253.44,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2010000.0,
+      "2029": 2486400.0,
+      "2030": 3130000.0,
+      "2031": 850000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 60.1,
+      "2029": 74.34,
+      "2030": 93.59,
+      "2031": 25.41
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-10",
+    "ap_short": "Openbaar domein",
+    "ap_long": "Openbaar Domein: we streven naar een duurzamere en aantrekkelijkere leefomgeving. We zetten verder in op aantrekkelijke straten met extra groen en op goed beheer van het water.",
+    "ac_code": "A-4-10-3",
+    "ac_short": "Investeringsproject openbaar domein: aansluitingen Weldenstraat",
+    "ac_long": "Aansluitingen Weldenstraat: Ronsen Heerweg, Meerhem, Vleesstraat, Mattenbosstraat, Oude Hulst, Roosstraat, Olmstraat, Schuisplanklos.\nWe blijven investeren in de aanleg van een gescheiden riolering om de impact van huishoudelijk afvalwater op waterlopen te verminderen en een betere waterkwaliteit te bekomen. \nWe vernieuwen de rijweg en optimaliseren het grachtenstelsel om het regenwater te bufferen en te laten infiltreren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4080000.0,
+    "amount_per_capita": 121.99,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 170000.0,
+      "2029": 1300000.0,
+      "2030": 1280000.0,
+      "2031": 1330000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 5.08,
+      "2029": 38.87,
+      "2030": 38.27,
+      "2031": 39.77
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-2",
+    "bd_short": "Veilige en efficiënte stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een veilige en efficiënte stad die aandacht heeft voor communicatie en participatie.",
+    "ap_code": "AP-2-4",
+    "ap_short": "Integrale veiligheid en preventie",
+    "ap_long": "Integrale veiligheid en preventie: Oudenaarde moet een veilige stad blijven voor al haar burgers. We staan voor grote veiligheidsuitdagingen. We maken een integraal veiligheidsplan op met bijzondere aandacht voor kwetsbare plekken waarbij we aandacht hebben voor de volledige veiligheidsketen, van preventie tot handhaving.",
+    "ac_code": "A-2-4-1",
+    "ac_short": "We zorgen voor een correcte geactualiseerde dotatie voor de brandweer",
+    "ac_long": "Een correcte dotatie, berekend op het nieuwe meerjarenplan van de brandweerzone, is essentieel om ervoor te zorgen dat de brandweer over de nodige middelen en financiering beschikt om haar taken effectief en efficiënt uit te voeren.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 3664880.57,
+    "amount_per_capita": 109.58,
+    "yearly_amounts": {
+      "2026": 1370262.66,
+      "2027": 440429.0,
+      "2028": 577499.67,
+      "2029": 434856.5,
+      "2030": 425932.0,
+      "2031": 415900.74
+    },
+    "yearly_per_capita": {
+      "2026": 40.97,
+      "2027": 13.17,
+      "2028": 17.27,
+      "2029": 13.0,
+      "2030": 12.74,
+      "2031": 12.44
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-9",
+    "ap_short": "Openbaar Domein - Mobiliteit",
+    "ap_long": "Openbaar Domein - Mobiliteit: we geloven dat mobiliteit niet alleen gaat om verplaatsing, maar ook om duurzaamheid, veiligheid en het verbeteren van levenskwaliteit. Verkeersveiligheid en -leefbaarheid zijn thema’s waarvan mensen wakker liggen. We werken een nieuwe en slimme mobiliteitsvisie uit. Luisterbereidheid, participatie en draagvlak creëren voor maatregelen die we willen nemen, is zeker bij mobiliteitsbeleid de sleutel tot succes.",
+    "ac_code": "A-4-9-2",
+    "ac_short": "We vernieuwen de bovenlokale functionele fietsroutes",
+    "ac_long": "We investeren verder in ruime, veilige en comfortabele fietspaden in het centrum en deelgemeentes. \n\nProject collector Volkaartbeekstraat: we leggen een gescheiden fietspad aan en vernieuwen de rijweg in een deel van de Wortegemstraat. We investeren in de aanleg van een gescheiden rioleringsstelsel en zetten in op infltratie en buffering door middel van bredere en diepere grachten.\n\nProject Wortegemstraat-Beverestraat-Deinzestraat: we richten de straat in met aandacht voor de zachte weggebruiker en zetten in op ontharding, infiltratie en vergroening. We leggen een gescheiden rioleringsstelsel aan.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2669000.0,
+    "amount_per_capita": 79.8,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 460000.0,
+      "2028": 958000.0,
+      "2029": 121000.0,
+      "2030": 250000.0,
+      "2031": 880000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 13.75,
+      "2028": 28.64,
+      "2029": 3.62,
+      "2030": 7.47,
+      "2031": 26.31
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-10",
+    "ap_short": "Openbaar domein",
+    "ap_long": "Openbaar Domein: we streven naar een duurzamere en aantrekkelijkere leefomgeving. We zetten verder in op aantrekkelijke straten met extra groen en op goed beheer van het water.",
+    "ac_code": "A-4-10-6",
+    "ac_short": "Investeringsproject openbaar domein: herinrichting N8-Fase 1: deel grens Horebeke tot Holleweg",
+    "ac_long": "We blijven investeren in de aanleg van gescheiden riolering om de impact van huishoudelijk afvalwater op waterlopen te verminderen en een betere waterkwaliteit te bekomen.\n\nWe vernieuwen de rijweg, leggen een gescheiden fietspad aan en optimaliseren het grachtenstelsel om regenwater te bufferen en te laten infiltreren. Voor dit project werken we samen met het Agentschap Wegen en Verkeer.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2569840.0,
+    "amount_per_capita": 76.84,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1008170.0,
+      "2030": 1058170.0,
+      "2031": 503500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 30.14,
+      "2030": 31.64,
+      "2031": 15.05
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-10",
+    "ap_short": "Openbaar domein",
+    "ap_long": "Openbaar Domein: we streven naar een duurzamere en aantrekkelijkere leefomgeving. We zetten verder in op aantrekkelijke straten met extra groen en op goed beheer van het water.",
+    "ac_code": "A-4-10-4",
+    "ac_short": "Investeringsproject openbaar domein: Galgestraat-Vlaanderenstraat",
+    "ac_long": "We blijven investeren in de aanleg van een gescheiden riolering om de zuiveringsefficiëntie van de bestaande afvalwaterzuiveringsinstallaties te verhogen.\n\nWe vernieuwen de rijweg en de voetpaden en zetten in op fietsvoorzieningen. We ontharden waar mogelijk en zetten in op infiltratie en vergroening. We verhogen de veiligheid met snelheidsremmende maatregelen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2420000.0,
+    "amount_per_capita": 72.36,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 958000.0,
+      "2028": 1462000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 28.64,
+      "2028": 43.71,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-1",
+    "bd_short": "Bruisende stad voor inwoners en bezoekers",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een bruisende stad voor haar inwoners én voor haar bezoekers.",
+    "ap_code": "AP-1-6",
+    "ap_short": "Sport",
+    "ap_long": "Sport: sport en beweging vormen het kloppend hart van een gezonde en gelukkige samenleving. Sport heeft een sterke sociale, verbindende en emancipatorische functie. Zowel de sporter die lid is van een sportclub als de ongebonden sporter vindt zijn plek in onze stad.",
+    "ac_code": "A-1-6-1",
+    "ac_short": "We benutten maximaal de sportinfrastructuur en trachten de sportsite 't Sportkot te verwerven",
+    "ac_long": "We zorgen ervoor dat de bestaande sportinfrastructuur in Oudenaarde optimaal wordt gebruikt. Hiervoor gaan we in overleg met scholen en sportclubs en stellen, indien nodig, samenwerkingsovereenkomsten op.\nEr wordt getracht de sportsite ''t Sportkot' aan te kopen om de continuiteit van de werking van de Oudenaardse indoor sportclubs te verzekeren.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 59.8,
+    "yearly_amounts": {
+      "2026": 2000000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 59.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-2",
+    "ap_short": "Gebouwen",
+    "ap_long": "Gebouwen: door de opmaak en uitvoering van een strategische visie rond patrimoniumbeheer kan er maximaal en efficiënter gebruik gemaakt worden van de vele gebouwen, niet alleen voor de stadsdiensten maar ook voor de vele verenigingen. Daar zetten we op in.",
+    "ac_code": "A-4-2-6",
+    "ac_short": "We ontwikkelen een visie rond gebouwenbeheer en voeren het strategisch patrimoniumplan uit",
+    "ac_long": "Wij beheren ons patrimonium met een sterke focus op duurzaamheid, rationeel energieverbruik en het gebruik van hernieuwbare energie. Bij elke nieuwbouw of renovatie worden deze aspecten grondig onderzocht en toegepast om een optimale toegankelijkheid, conditiestaat en veiligheid te waarborgen.\n\nOnze inventaris van de gebouwen wordt geactualiseerd en we ontwikkelen een strategische visie. Conditiestaatmetingen en asbestinventarissen zullen voor alle gebouwen opgemaakt worden. Aan de hand van die resultaten wordt een prioriteitenlijst opgesteld van de aan te pakken gebouwen. Op basis van de strategische visie wordt onderzocht of er gebouwen of gronden, die minder relevant zijn voor de stad, verkocht kunnen worden.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1753830.0,
+    "amount_per_capita": 52.44,
+    "yearly_amounts": {
+      "2026": 95130.0,
+      "2027": 124000.0,
+      "2028": 324000.0,
+      "2029": 389000.0,
+      "2030": 677700.0,
+      "2031": 144000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.84,
+      "2027": 3.71,
+      "2028": 9.69,
+      "2029": 11.63,
+      "2030": 20.26,
+      "2031": 4.31
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-2A",
+    "bd_short": "Overig beleid - Interne dienstverlening",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-2A",
+    "ap_short": "Overig beleid - Interne dienstverlening",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-ICT",
+    "ac_short": "Overig beleid - ICT",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1494538.82,
+    "amount_per_capita": 44.69,
+    "yearly_amounts": {
+      "2026": 302038.82,
+      "2027": 238500.0,
+      "2028": 238500.0,
+      "2029": 238500.0,
+      "2030": 238500.0,
+      "2031": 238500.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.03,
+      "2027": 7.13,
+      "2028": 7.13,
+      "2029": 7.13,
+      "2030": 7.13,
+      "2031": 7.13
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-4",
+    "bd_short": "Overig beleid - Ruimte",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-4",
+    "ap_short": "Overig beleid - Ruimte",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-TECH",
+    "ac_short": "Overig beleid - technische dienst",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1413810.54,
+    "amount_per_capita": 42.27,
+    "yearly_amounts": {
+      "2026": 696060.54,
+      "2027": 220950.0,
+      "2028": 184950.0,
+      "2029": 103950.0,
+      "2030": 103950.0,
+      "2031": 103950.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.81,
+      "2027": 6.61,
+      "2028": 5.53,
+      "2029": 3.11,
+      "2030": 3.11,
+      "2031": 3.11
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-10",
+    "ap_short": "Openbaar domein",
+    "ap_long": "Openbaar Domein: we streven naar een duurzamere en aantrekkelijkere leefomgeving. We zetten verder in op aantrekkelijke straten met extra groen en op goed beheer van het water.",
+    "ac_code": "A-4-10-5",
+    "ac_short": "Investeringsproject openbaar domein: Diependale - Desiré Waelkensstraat",
+    "ac_long": "We blijven investeren in de aanleg van een gescheiden riolering om de impact van huishoudelijk water op de waterlopen te verminderen en de zuiveringsefficiëntie van de bestaande afvalwaterzuiveringsinstallaties te verhogen. \nDit project is nodig om het regenwater van de N8 te vermazen en te kunnen bufferen en moet uitgevoerd zijn voor de start van fase 2 van de N8. We vernieuwen de verharding en zetten waar mogelijk in op infiltratie en vergroening. We leggen een bufferzone voor regenwater aan in de Desiré Waelkensstraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1385000.0,
+    "amount_per_capita": 41.41,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 692500.0,
+      "2031": 692500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 20.71,
+      "2031": 20.71
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-2",
+    "ap_short": "Gebouwen",
+    "ap_long": "Gebouwen: door de opmaak en uitvoering van een strategische visie rond patrimoniumbeheer kan er maximaal en efficiënter gebruik gemaakt worden van de vele gebouwen, niet alleen voor de stadsdiensten maar ook voor de vele verenigingen. Daar zetten we op in.",
+    "ac_code": "A-4-2-3",
+    "ac_short": "We voorzien een nieuw ontmoetingscentrum in Ename",
+    "ac_long": "Er wordt een nieuw ontmoetingscentrum in Ename gerealiseerd. Dit centrum zal een belangrijke rol spelen in het versterken van de gemeenschap en het bieden van een plek voor diverse activiteiten en evenementen.\nHet ontmoetingscentrum zal verschillende faciliteiten bieden, zoals vergaderruimtes, recreatieve voorzieningen en culturele ruimtes. Deze investering beoogt de sociale cohesie in Ename te bevorderen. Tevens wordt onderzocht naar een compatibele invulling van de pastorie.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1348700.0,
+    "amount_per_capita": 40.33,
+    "yearly_amounts": {
+      "2026": 205000.0,
+      "2027": 665000.0,
+      "2028": 478700.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.13,
+      "2027": 19.88,
+      "2028": 14.31,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-6",
+    "ap_short": "Omgeving - Milieu en Klimaat",
+    "ap_long": "Omgeving - Milieu en Klimaat: de klimaatcrisis vraagt om dringende actie, ook op stedelijk vlak. We reduceren de CO2-uitstoot en maken onze stad tegelijk weerbaar voor de gevolgen van extremere weersomstandigheden. We streven naar een goed en gezond leven voor iedereen, vandaag en in de toekomst. We streven naar meer natuur en biodiversiteit in de stad. We maken werk van een sterk regionaal afvalbeleid waardoor we nog beter kunnen recycleren en de dienstverlening aan de burger verbetert.",
+    "ac_code": "A-4-6-1",
+    "ac_short": "We werken een strategisch plan uit voor de vernieuwing van het wagenpark",
+    "ac_long": "Dit plan omvat de vervanging van oude voertuigen door meer recente modellen. Het doel is om de efficiëntie en duurzaamheid van ons wagenpark te verbeteren en minder milieubelastend te zijn. Het strategisch plan biedt een duidelijke visie en een gestructureerde aanpak voor het bereiken van deze doelstellingen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1109000.0,
+    "amount_per_capita": 33.16,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 315000.0,
+      "2028": 180000.0,
+      "2029": 108000.0,
+      "2030": 252000.0,
+      "2031": 54000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.98,
+      "2027": 9.42,
+      "2028": 5.38,
+      "2029": 3.23,
+      "2030": 7.53,
+      "2031": 1.61
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-10",
+    "ap_short": "Openbaar domein",
+    "ap_long": "Openbaar Domein: we streven naar een duurzamere en aantrekkelijkere leefomgeving. We zetten verder in op aantrekkelijke straten met extra groen en op goed beheer van het water.",
+    "ac_code": "A-4-10-1",
+    "ac_short": "We leggen de stedelijke begraafplaats Meulewal heraan",
+    "ac_long": "We vormen de begraafplaats om tot een parkbegraafplaats. We ontharden de weinig gebruikte paden en vernieuwen alle andere paden. Tertiaire en secundaire paden leggen aan we met waterdoorlatende materialen. De riolering supprimeren we grotendeels. De overgebleven riolering gebruiken we om de regenwaterputten te vullen die gebruikt kunnen worden om planten water te geven. We vernieuwen de parking en leggen ze grotendeels waterdoorlatend aan. We planten daarenboven extra bomen aan en voorzien op verschillende plaatsen natuurlijke speelelementen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1106660.0,
+    "amount_per_capita": 33.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 365160.0,
+      "2028": 741500.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 10.92,
+      "2028": 22.17,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-1",
+    "bd_short": "Bruisende stad voor inwoners en bezoekers",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een bruisende stad voor haar inwoners én voor haar bezoekers.",
+    "ap_code": "AP-1-3",
+    "ap_short": "Cultuur en erfgoed",
+    "ap_long": "Cultuur en erfgoed: we bouwen Oudenaarde verder uit tot dé toonaangevende regionale cultuurstad met een ruim en toegankelijk aanbod voor beeldende kunst en erfgoed.",
+    "ac_code": "A-1-3-1",
+    "ac_short": "We ontwikkelen een exploitatieplan voor de Woekersite en voeren dit uit",
+    "ac_long": "We streven ernaar om de Woekersite optimaal te exploiteren door een gedetailleerd exploitatieplan te ontwikkelen en uit te voeren. Voor het uitbaten van het cultuurcafé bij de Woekersite onderzoeken we verschillende mogelijkheden, zoals het verlenen van een concessie. \nOns exploitatieplan omvat ook een uitgebreide communicatie- en brandingstrategie om de Woekersite te promoten en een personeelsplan om ervoor te zorgen dat we over de juiste middelen en mensen beschikken om onze doelen te bereiken.\nWe ondersteunen ook livestream-initiatieven die gericht zijn op het aanbieden van optredens en voorstellingen aan oudere mensen in woonzorgcentra, mensen die immobiel zijn of die in een ziekenhuis liggen. Dit zorgt ervoor dat iedereen kan genieten van culturele evenementen, ongeacht hun fysieke beperkingen.\nDaarnaast stellen we ons, na de oplevering van de Woekersite, kandidaat als organisator van het Landjuweelfestival, wat een belangrijke culturele bijdrage zal leveren aan de stad.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1080000.0,
+    "amount_per_capita": 32.29,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1080000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 32.29,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-10",
+    "ap_short": "Openbaar domein",
+    "ap_long": "Openbaar Domein: we streven naar een duurzamere en aantrekkelijkere leefomgeving. We zetten verder in op aantrekkelijke straten met extra groen en op goed beheer van het water.",
+    "ac_code": "A-4-10-2",
+    "ac_short": "We voeren het hemelwater- en droogteplan uit en moedigen ontharding aan",
+    "ac_long": "We zetten in op ontharding om het hemelwater ter plaatse te laten infiltreren. \nWe gebruiken het hemelwater- en droogteplan als tool om toekomstige investeringsprojecten zo klimaatrobuust mogelijk en efficiënt te ontwerpen.\nBedrijven, scholen, inwoners,… worden aangemoedigd om hieraan mee te helpen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 980000.0,
+    "amount_per_capita": 29.3,
+    "yearly_amounts": {
+      "2026": 180000.0,
+      "2027": 160000.0,
+      "2028": 160000.0,
+      "2029": 160000.0,
+      "2030": 160000.0,
+      "2031": 160000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.38,
+      "2027": 4.78,
+      "2028": 4.78,
+      "2029": 4.78,
+      "2030": 4.78,
+      "2031": 4.78
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-10",
+    "ap_short": "Openbaar domein",
+    "ap_long": "Openbaar Domein: we streven naar een duurzamere en aantrekkelijkere leefomgeving. We zetten verder in op aantrekkelijke straten met extra groen en op goed beheer van het water.",
+    "ac_code": "A-4-10-7",
+    "ac_short": "Investeringsproject openbaar domein: aanleg historische tuin van het Zwartzusterklooster",
+    "ac_long": "We richten de tuin opnieuw in en zorgen voor een maximale ontharding, behoud van historisch groen, aanleg van verbindingspaden in waterdoorlatende materialen en aanplanting van nieuw groen met aandacht voor fauna en flora.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 762000.0,
+    "amount_per_capita": 22.78,
+    "yearly_amounts": {
+      "2026": 382000.0,
+      "2027": 380000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.42,
+      "2027": 11.36,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-9",
+    "ap_short": "Openbaar Domein - Mobiliteit",
+    "ap_long": "Openbaar Domein - Mobiliteit: we geloven dat mobiliteit niet alleen gaat om verplaatsing, maar ook om duurzaamheid, veiligheid en het verbeteren van levenskwaliteit. Verkeersveiligheid en -leefbaarheid zijn thema’s waarvan mensen wakker liggen. We werken een nieuwe en slimme mobiliteitsvisie uit. Luisterbereidheid, participatie en draagvlak creëren voor maatregelen die we willen nemen, is zeker bij mobiliteitsbeleid de sleutel tot succes.",
+    "ac_code": "A-4-9-5",
+    "ac_short": "We werken verder aan de inrichting van Hoppin-punten en toegankelijke bushaltes",
+    "ac_long": "We streven ernaar om 3 Hoppin-punten aan te pakken. Op deze punten worden telkens een deelwagen en deelfietsen voorzien. \n- Edelare\n- Smallendam\n- Bergstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 648331.02,
+    "amount_per_capita": 19.38,
+    "yearly_amounts": {
+      "2026": 306331.02,
+      "2027": 0,
+      "2028": 342000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.16,
+      "2027": 0,
+      "2028": 10.23,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-2",
+    "ap_short": "Gebouwen",
+    "ap_long": "Gebouwen: door de opmaak en uitvoering van een strategische visie rond patrimoniumbeheer kan er maximaal en efficiënter gebruik gemaakt worden van de vele gebouwen, niet alleen voor de stadsdiensten maar ook voor de vele verenigingen. Daar zetten we op in.",
+    "ac_code": "A-4-2-5",
+    "ac_short": "De site Maagdendale wordt verder ontwikkeld tot een site voor de Academie voor Beeldende Kunst",
+    "ac_long": "De historische gebouwen op de site Maagdendale worden energetisch aangepakt zodat er op een duurzame manier kwalitatief kunst kan aangeboden worden. Eveneens wordt er een nieuwe plaats gezocht voor het keramiekatelier.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 630000.0,
+    "amount_per_capita": 18.84,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 225000.0,
+      "2028": 225000.0,
+      "2029": 0,
+      "2030": 180000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 6.73,
+      "2028": 6.73,
+      "2029": 0,
+      "2030": 5.38,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-2",
+    "ap_short": "Gebouwen",
+    "ap_long": "Gebouwen: door de opmaak en uitvoering van een strategische visie rond patrimoniumbeheer kan er maximaal en efficiënter gebruik gemaakt worden van de vele gebouwen, niet alleen voor de stadsdiensten maar ook voor de vele verenigingen. Daar zetten we op in.",
+    "ac_code": "A-4-2-4",
+    "ac_short": "We starten instandhoudingswerken aan Huis de Lalaing en verkennen toekomstige functies",
+    "ac_long": "In het kader van erfgoedzorg worden de instandhoudingswerken voor het Huis de Lalaing opgestart en de mogelijke functies van het gebouw verder onderzocht. Dit zorgt ervoor dat het historische karakter van het pand behouden blijft, terwijl er tegelijkertijd gekeken wordt naar manieren om het gebouw een nieuwe bestemming te geven.\n\nDe instandhoudingswerken omvatten onder andere dak- en gevelwerken, die in verschillende fases zullen worden uitgevoerd. Eerst zal er een studie worden uitgevoerd om de huidige staat van het gebouw in kaart te brengen, waarna de daadwerkelijke instandhoudingswerken aan de gebouwenschil zullen volgen. Hierdoor wordt het Huis de Lalaing beschermd tegen verder verval en kan het voor toekomstige generaties behouden blijven.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 610000.0,
+    "amount_per_capita": 18.24,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 350000.0,
+      "2029": 260000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 10.46,
+      "2029": 7.77,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-9",
+    "ap_short": "Openbaar Domein - Mobiliteit",
+    "ap_long": "Openbaar Domein - Mobiliteit: we geloven dat mobiliteit niet alleen gaat om verplaatsing, maar ook om duurzaamheid, veiligheid en het verbeteren van levenskwaliteit. Verkeersveiligheid en -leefbaarheid zijn thema’s waarvan mensen wakker liggen. We werken een nieuwe en slimme mobiliteitsvisie uit. Luisterbereidheid, participatie en draagvlak creëren voor maatregelen die we willen nemen, is zeker bij mobiliteitsbeleid de sleutel tot succes.",
+    "ac_code": "A-4-9-9",
+    "ac_short": "We voeren de geactualiseerde tragewegenplannen uit",
+    "ac_long": "We maken een investeringsplan op, inclusief acties, aan de hand van de geactualiseerde inventaris van de trage wegen. We focussen hierbij onder andere op degelijk onderhoud van bestaande wegen, herstelling van verdwenen verbindingen, realisatie van ontbrekende schakels, vergroten van de herkenbaarheid door het plaatsen van naambordjes, verhogen van de veiligheid bij kruisingen, ecologische versterking voor de verbetering van de biodiversiteit en het tegengaan van erosie.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 540000.0,
+    "amount_per_capita": 16.15,
+    "yearly_amounts": {
+      "2026": 90000.0,
+      "2027": 90000.0,
+      "2028": 90000.0,
+      "2029": 90000.0,
+      "2030": 90000.0,
+      "2031": 90000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.69,
+      "2027": 2.69,
+      "2028": 2.69,
+      "2029": 2.69,
+      "2030": 2.69,
+      "2031": 2.69
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-1",
+    "ap_short": "Ruimte",
+    "ap_long": "Ruimte: de afdeling Ruimte werkt afdelings- en dienstoverschrijdend en heeft een brede visie op stadsontwikkeling.",
+    "ac_code": "A-4-1-1",
+    "ac_short": "We maken werk van de inrichting van het Watergevoelig Open Ruimte Gebied (WORG) Schapendries",
+    "ac_long": "We laten een haalbaarheidsstudie uitvoeren om het gebied rond de Maarkebeek tussen N60 en N8 overstromingsveiliger te maken en zo de omwonenden maximaal te beschermen tegen overstromingen en wateroverlast. Hiervoor worden de gronden aangekocht, die noodzakelijk zijn voor de verlegging, verbreding en hermeandering van de Maarkebeek (volgens het riviercontract). Voor dit project werken we samen met de Vlaamse Milieumaatschappij.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 14.95,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.95,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-4",
+    "bd_short": "Overig beleid - Ruimte",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-4",
+    "ap_short": "Overig beleid - Ruimte",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-MOB",
+    "ac_short": "Overig beleid - mobiliteit",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 432000.0,
+    "amount_per_capita": 12.92,
+    "yearly_amounts": {
+      "2026": 72000.0,
+      "2027": 72000.0,
+      "2028": 72000.0,
+      "2029": 72000.0,
+      "2030": 72000.0,
+      "2031": 72000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.15,
+      "2027": 2.15,
+      "2028": 2.15,
+      "2029": 2.15,
+      "2030": 2.15,
+      "2031": 2.15
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-2",
+    "ap_short": "Gebouwen",
+    "ap_long": "Gebouwen: door de opmaak en uitvoering van een strategische visie rond patrimoniumbeheer kan er maximaal en efficiënter gebruik gemaakt worden van de vele gebouwen, niet alleen voor de stadsdiensten maar ook voor de vele verenigingen. Daar zetten we op in.",
+    "ac_code": "A-4-2-10",
+    "ac_short": "We richten de buurtschuur op de site 'Saffrou' in",
+    "ac_long": "In overleg met de ruime buurt wordt gezocht naar een geschikte bestemming die aansluit bij de noden en wensen van de gemeenschap. Dit participatief proces zorgt ervoor dat de buurtschuur een plek wordt die actief bijdraagt aan het sociale leven in de wijk.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 403400.0,
+    "amount_per_capita": 12.06,
+    "yearly_amounts": {
+      "2026": 403400.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-10",
+    "ap_short": "Openbaar domein",
+    "ap_long": "Openbaar Domein: we streven naar een duurzamere en aantrekkelijkere leefomgeving. We zetten verder in op aantrekkelijke straten met extra groen en op goed beheer van het water.",
+    "ac_code": "A-4-10-8",
+    "ac_short": "Investeringsproject openbaar domein: Lucien Vandefonteynelaan-Aalststraat-Bergstraat",
+    "ac_long": "We blijven investeren in de aanleg van een gescheiden riolering om de impact van huishoudelijk water op de waterlopen te verminderen en de zuiveringsefficiëntie van de bestaande afvalwaterzuiveringsinstallaties te verhogen. \n\nDit project is nodig om het regenwater van de N8 te vermazen en te kunnen bufferen en moet uitgevoerd zijn voor fase 2 van de N8 start. We vernieuwen de verharding en zetten waar mogelijk in op infiltratie en vergroening.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 11.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 200000.0,
+      "2029": 200000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 5.98,
+      "2029": 5.98,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-3B",
+    "bd_short": "Overig beleid - Woonzorg",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-3B",
+    "ap_short": "Overig beleid - Woonzorg",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-WZORG",
+    "ac_short": "Overig beleid - Woonzorg",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 377343.56,
+    "amount_per_capita": 11.28,
+    "yearly_amounts": {
+      "2026": 253593.56,
+      "2027": 52650.0,
+      "2028": 24750.0,
+      "2029": 24750.0,
+      "2030": 21600.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.58,
+      "2027": 1.57,
+      "2028": 0.74,
+      "2029": 0.74,
+      "2030": 0.65,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-9",
+    "ap_short": "Openbaar Domein - Mobiliteit",
+    "ap_long": "Openbaar Domein - Mobiliteit: we geloven dat mobiliteit niet alleen gaat om verplaatsing, maar ook om duurzaamheid, veiligheid en het verbeteren van levenskwaliteit. Verkeersveiligheid en -leefbaarheid zijn thema’s waarvan mensen wakker liggen. We werken een nieuwe en slimme mobiliteitsvisie uit. Luisterbereidheid, participatie en draagvlak creëren voor maatregelen die we willen nemen, is zeker bij mobiliteitsbeleid de sleutel tot succes.",
+    "ac_code": "A-4-9-4",
+    "ac_short": "We starten met de uitvoering van het mobiliteitsplan",
+    "ac_long": "Het actieplan, dat op basis van het mobiliteitsplan werd opgesteld, zal gefaseerd uitgevoerd worden, rekening houdend met de aangeduide prioriteiten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 360285.32,
+    "amount_per_capita": 10.77,
+    "yearly_amounts": {
+      "2026": 90285.32,
+      "2027": 54000.0,
+      "2028": 54000.0,
+      "2029": 54000.0,
+      "2030": 54000.0,
+      "2031": 54000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.7,
+      "2027": 1.61,
+      "2028": 1.61,
+      "2029": 1.61,
+      "2030": 1.61,
+      "2031": 1.61
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-3",
+    "bd_short": "Warme stad voor iedereen",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een warme stad waarin niemand wordt achtergelaten.",
+    "ap_code": "AP-3-8",
+    "ap_short": "Woonzorg",
+    "ap_long": "Woonzorg: ouderenzorg moet georganiseerd worden via een getrapt systeem waarbij ouderen zo lang mogelijk thuis kunnen blijven in hun vertrouwde omgeving, dit met ondersteuning aan huis om ouderen en mensen met speciale zorgbehoeften zo lang mogelijk zelfstandig te laten wonen.\nOuderen die niet meer zelfstandig kunnen wonen, moeten in alle veiligheid en comfort kunnen leven. Hierbij spelen onze woonzorgcentra een belangrijke rol.",
+    "ac_code": "A-3-8-1",
+    "ac_short": "We zorgen voor een degelijke infrastructuur voor woonzorg die tegemoetkomt aan de hedendaagse noden",
+    "ac_long": "Volgende infrastructuuraanpassingen worden hiertoe in de komende jaren voorzien: vernieuwen van de keukenvloer, heraanleg van de terrassen in de groep van assistentiewoningen (GAW), rolstoeltoegankelijkheid van GAW verbeteren ter hoogte van de inkom, vernieuwen van het oproepsysteem in de woonzorgcentra en voorzien van mobiele oproepsystemen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 284900.0,
+    "amount_per_capita": 8.52,
+    "yearly_amounts": {
+      "2026": 73400.0,
+      "2027": 157500.0,
+      "2028": 54000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.19,
+      "2027": 4.71,
+      "2028": 1.61,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-1",
+    "bd_short": "Overig beleid - Vrije tijd",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-1",
+    "ap_short": "Overig beleid - Vrije tijd",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-PARCOUR",
+    "ac_short": "Overig beleid - PARCOUR",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 236791.04,
+    "amount_per_capita": 7.08,
+    "yearly_amounts": {
+      "2026": 133291.04,
+      "2027": 20700.0,
+      "2028": 20700.0,
+      "2029": 20700.0,
+      "2030": 20700.0,
+      "2031": 20700.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.99,
+      "2027": 0.62,
+      "2028": 0.62,
+      "2029": 0.62,
+      "2030": 0.62,
+      "2031": 0.62
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-6",
+    "ap_short": "Omgeving - Milieu en Klimaat",
+    "ap_long": "Omgeving - Milieu en Klimaat: de klimaatcrisis vraagt om dringende actie, ook op stedelijk vlak. We reduceren de CO2-uitstoot en maken onze stad tegelijk weerbaar voor de gevolgen van extremere weersomstandigheden. We streven naar een goed en gezond leven voor iedereen, vandaag en in de toekomst. We streven naar meer natuur en biodiversiteit in de stad. We maken werk van een sterk regionaal afvalbeleid waardoor we nog beter kunnen recycleren en de dienstverlening aan de burger verbetert.",
+    "ac_code": "A-4-6-5",
+    "ac_short": "We brengen de glasbollen maximaal ondergronds om overlast en zwerfvuil te reduceren",
+    "ac_long": "De stad Oudenaarde heeft een duidelijk planningskader opgesteld voor het ondergronds plaatsen van glasbollen. Volgens het planningskader worden de glasbollen in fases ondergronds gebracht. Het ondergronds plaatsen van glasbollen heeft als voornaamste doel om de overlast en het zwerfvuil te verminderen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 229500.0,
+    "amount_per_capita": 6.86,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 76500.0,
+      "2028": 0,
+      "2029": 76500.0,
+      "2030": 0,
+      "2031": 76500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.29,
+      "2028": 0,
+      "2029": 2.29,
+      "2030": 0,
+      "2031": 2.29
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-2",
+    "ap_short": "Gebouwen",
+    "ap_long": "Gebouwen: door de opmaak en uitvoering van een strategische visie rond patrimoniumbeheer kan er maximaal en efficiënter gebruik gemaakt worden van de vele gebouwen, niet alleen voor de stadsdiensten maar ook voor de vele verenigingen. Daar zetten we op in.",
+    "ac_code": "A-4-2-7",
+    "ac_short": "We pakken de infrastructurele noden van het stadhuis aan",
+    "ac_long": "De dienst MOU verhuist naar het Glazen Huis naast het stadhuis. Deze verhuisbeweging zal de efficiëntie van de dienst verbeteren en ruimte vrijmaken in het stadhuis voor andere essentiële activiteiten. De prioritair aan te pakken problematieken worden opgelijst en stapsgewijs aangepakt. Met deze aanpak zorgen we ervoor dat het stadhuis functioneel en operationeel blijft, terwijl de werkomstandigheden voor de werknemers verbeteren.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 215000.0,
+    "amount_per_capita": 6.43,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 35000.0,
+      "2028": 35000.0,
+      "2029": 35000.0,
+      "2030": 35000.0,
+      "2031": 35000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.2,
+      "2027": 1.05,
+      "2028": 1.05,
+      "2029": 1.05,
+      "2030": 1.05,
+      "2031": 1.05
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-1",
+    "bd_short": "Overig beleid - Vrije tijd",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-1",
+    "ap_short": "Overig beleid - Vrije tijd",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-SPORT",
+    "ac_short": "Overig beleid - Sport",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 213119.07,
+    "amount_per_capita": 6.37,
+    "yearly_amounts": {
+      "2026": 38119.07,
+      "2027": 35000.0,
+      "2028": 35000.0,
+      "2029": 35000.0,
+      "2030": 35000.0,
+      "2031": 35000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.14,
+      "2027": 1.05,
+      "2028": 1.05,
+      "2029": 1.05,
+      "2030": 1.05,
+      "2031": 1.05
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-3A",
+    "bd_short": "Overig beleid - Mens",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-3A",
+    "ap_short": "Overig beleid - Mens",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-SOC",
+    "ac_short": "Overig beleid - sociale dienst",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 208961.28,
+    "amount_per_capita": 6.25,
+    "yearly_amounts": {
+      "2026": 55961.28,
+      "2027": 36000.0,
+      "2028": 36000.0,
+      "2029": 27000.0,
+      "2030": 27000.0,
+      "2031": 27000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.67,
+      "2027": 1.08,
+      "2028": 1.08,
+      "2029": 0.81,
+      "2030": 0.81,
+      "2031": 0.81
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-1",
+    "bd_short": "Overig beleid - Vrije tijd",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-1",
+    "ap_short": "Overig beleid - Vrije tijd",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-JEUGD",
+    "ac_short": "Overig beleid - Jeugd",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 160184.13,
+    "amount_per_capita": 4.79,
+    "yearly_amounts": {
+      "2026": 69434.13,
+      "2027": 18150.0,
+      "2028": 18150.0,
+      "2029": 18150.0,
+      "2030": 18150.0,
+      "2031": 18150.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.08,
+      "2027": 0.54,
+      "2028": 0.54,
+      "2029": 0.54,
+      "2030": 0.54,
+      "2031": 0.54
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-1",
+    "bd_short": "Bruisende stad voor inwoners en bezoekers",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een bruisende stad voor haar inwoners én voor haar bezoekers.",
+    "ap_code": "AP-1-7",
+    "ap_short": "Toerisme en evenementen",
+    "ap_long": "Toerisme en evenementen: we spelen onze toeristische troeven als stad verder uit. Toerisme is een wezenlijk onderdeel van de lokale economie van onze stad. Toerisme draagt bij tot een positief imago van Oudenaarde en leidt tot belangrijke meerinkomsten voor onze lokale middenstand en handelaars.\nWe geloven in de kracht van grote en kleinschalige evenementen en feesten om mensen samen te brengen, voor verbinding te zorgen en samenleven te bevorderen. We zetten als stad dan ook verder in op de ondersteuning hiervan.",
+    "ac_code": "A-1-7-4",
+    "ac_short": "We ondersteunen de initiatieven rond het Landschapspark Vlaamse Ardennen",
+    "ac_long": "We dragen actief bij aan de verschillende projecten en samenwerkingsverbanden die gericht zijn op het behoud en de ontwikkeling van het Landschapspark Vlaamse Ardennen. Dit omvat onder andere het ondersteunen van initiatieven die gericht zijn op natuurbehoud, recreatie, cultuur en erfgoed binnen de regio.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 158500.0,
+    "amount_per_capita": 4.74,
+    "yearly_amounts": {
+      "2026": 158500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-11",
+    "ap_short": "Technische dienst",
+    "ap_long": "Technische dienst: we streven naar een efficiënt en doelmatig beheer van haar openbaar domein. Netheid, toegankelijkheid en vergroening van het openbaar domein, zowel in het centrum als in de deelgemeentes zijn daarbij de uitgangspunten, in samenspraak met inwoners en ondernemers.",
+    "ac_code": "A-4-11-1",
+    "ac_short": "We maken een vuilnisbakkenplan op voor het ganse grondgebied",
+    "ac_long": "Het plan heeft als doel de efficiëntie van afvalbeheer te verbeteren en een schonere omgeving te creëren. In dit kader worden de huidige ophaalrondes in kaart gebracht en geëvalueerd. Door zorgvuldig te analyseren hoe en wanneer afval wordt opgehaald, kunnen we betere routes en tijdschema's vaststellen die zowel kosteneffectief als milieuvriendelijk zijn. Daarnaast onderzoeken we de potentiële voordelen van het gebruik van sensoren in onze vuilnisbakken. Deze sensoren zouden ons in staat stellen realtime gegevens te verzamelen over de vullingsgraad van elke vuilnisbak, waardoor we dynamischer kunnen reageren op de behoeften van verschillende gebieden.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 140000.0,
+    "amount_per_capita": 4.19,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 22500.0,
+      "2028": 22500.0,
+      "2029": 22500.0,
+      "2030": 22500.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.75,
+      "2027": 0.67,
+      "2028": 0.67,
+      "2029": 0.67,
+      "2030": 0.67,
+      "2031": 0.75
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-1",
+    "bd_short": "Overig beleid - Vrije tijd",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-1",
+    "ap_short": "Overig beleid - Vrije tijd",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-CULT",
+    "ac_short": "Overig beleid - Cultuur en erfgoed",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 117000.0,
+    "amount_per_capita": 3.5,
+    "yearly_amounts": {
+      "2026": 103500.0,
+      "2027": 13500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.09,
+      "2027": 0.4,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-1",
+    "bd_short": "Bruisende stad voor inwoners en bezoekers",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een bruisende stad voor haar inwoners én voor haar bezoekers.",
+    "ap_code": "AP-1-3",
+    "ap_short": "Cultuur en erfgoed",
+    "ap_long": "Cultuur en erfgoed: we bouwen Oudenaarde verder uit tot dé toonaangevende regionale cultuurstad met een ruim en toegankelijk aanbod voor beeldende kunst en erfgoed.",
+    "ac_code": "A-1-3-4",
+    "ac_short": "We ontwikkelen een actieplan 'Beeldende kunsten' en voeren dit gefaseerd uit",
+    "ac_long": "We streven ernaar om de beeldende kunsten in Oudenaarde te bevorderen door een gedetailleerd actieplan te ontwikkelen en dit gefaseerd uit te voeren. Dit actieplan zal verschillende initiatieven omvatten die zowel professionele als amateurkunstenaars ondersteunen en stimuleren.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 95000.0,
+    "amount_per_capita": 2.84,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 45000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.49,
+      "2027": 1.35,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-1",
+    "bd_short": "Bruisende stad voor inwoners en bezoekers",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een bruisende stad voor haar inwoners én voor haar bezoekers.",
+    "ap_code": "AP-1-5",
+    "ap_short": "MOU",
+    "ap_long": "MOU: het museum van Oudenaarde en de Vlaamse Ardennen neemt haar rol als bovenlokaal museum op.",
+    "ac_code": "A-1-5-1",
+    "ac_short": "We voeren het museumbeleidsplan van het MOU uit",
+    "ac_long": "We voeren het museumbeleidsplan gefaseerd uit, afgestemd op wat het gebouw aankan. Daarnaast ontwikkelen we een tentoonstellingsprogramma dat zowel ambitieus als realistisch is.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 2.69,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 90000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.69,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-1",
+    "bd_short": "Bruisende stad voor inwoners en bezoekers",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een bruisende stad voor haar inwoners én voor haar bezoekers.",
+    "ap_code": "AP-1-6",
+    "ap_short": "Sport",
+    "ap_long": "Sport: sport en beweging vormen het kloppend hart van een gezonde en gelukkige samenleving. Sport heeft een sterke sociale, verbindende en emancipatorische functie. Zowel de sporter die lid is van een sportclub als de ongebonden sporter vindt zijn plek in onze stad.",
+    "ac_code": "A-1-6-2",
+    "ac_short": "We zoeken naar een geschikte locatie voor zwemmen in openlucht in de stad",
+    "ac_long": "We gaan op zoek naar een plek binnen de stad Oudenaarde waar mensen in de openlucht kunnen zwemmen. Het doel is om een veilige en toegankelijke zwemgelegenheid te creëren waar inwoners en bezoekers kunnen genieten van zwemmen en recreëren in de buitenlucht.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 2.69,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 90000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2.69,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-9",
+    "ap_short": "Openbaar Domein - Mobiliteit",
+    "ap_long": "Openbaar Domein - Mobiliteit: we geloven dat mobiliteit niet alleen gaat om verplaatsing, maar ook om duurzaamheid, veiligheid en het verbeteren van levenskwaliteit. Verkeersveiligheid en -leefbaarheid zijn thema’s waarvan mensen wakker liggen. We werken een nieuwe en slimme mobiliteitsvisie uit. Luisterbereidheid, participatie en draagvlak creëren voor maatregelen die we willen nemen, is zeker bij mobiliteitsbeleid de sleutel tot succes.",
+    "ac_code": "A-4-9-6",
+    "ac_short": "Investeringsproject openbaar domein: vervollediging van de fietsring",
+    "ac_long": "We investeren verder in ruime, veilige en comfortabele fietspaden in het centrum en deelgemeentes. We onderzoeken hierbij hoe we de voorrangsregels duidelijker en uniform kunnen maken, bijvoorbeeld via uniforme signalisatie of kleurgebruik eigen aan ‘de fietsring van Oudenaarde’.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 85000.0,
+    "amount_per_capita": 2.54,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 45000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.35,
+      "2028": 0.6,
+      "2029": 0.6,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-1",
+    "bd_short": "Bruisende stad voor inwoners en bezoekers",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een bruisende stad voor haar inwoners én voor haar bezoekers.",
+    "ap_code": "AP-1-6",
+    "ap_short": "Sport",
+    "ap_long": "Sport: sport en beweging vormen het kloppend hart van een gezonde en gelukkige samenleving. Sport heeft een sterke sociale, verbindende en emancipatorische functie. Zowel de sporter die lid is van een sportclub als de ongebonden sporter vindt zijn plek in onze stad.",
+    "ac_code": "A-1-6-3",
+    "ac_short": "We investeren in ongebonden sport- en recreatieplekken zodat iedereen vrij kan sporten en bewegen",
+    "ac_long": "We zetten ons in om meer ongebonden sport- en recreatieplekken te creëren, zoals multifunctionele sportplekken, buitensportfaciliteiten en speelpleinen. Dit doen we door een inventaris op te stellen van de bestaande openbare speelpleinen en recreatieplekken en een plan van aanpak te ontwikkelen voor het herstel en de vernieuwing ervan. Daarnaast gaan we in dialoog met scholen om hun sportinfrastructuur open te stellen voor de buurt, zodat deze faciliteiten optimaal benut kunnen worden.\n\nInclusiviteit is een belangrijke norm in ons beleid, waarbij we speciale aandacht besteden aan meisjes als doelgroep. We willen ervoor zorgen dat iedereen, ongeacht geslacht, leeftijd of achtergrond, de mogelijkheid heeft om vrij te sporten en te bewegen in een veilige en toegankelijke omgeving.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 2.24,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.24,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-6",
+    "ap_short": "Omgeving - Milieu en Klimaat",
+    "ap_long": "Omgeving - Milieu en Klimaat: de klimaatcrisis vraagt om dringende actie, ook op stedelijk vlak. We reduceren de CO2-uitstoot en maken onze stad tegelijk weerbaar voor de gevolgen van extremere weersomstandigheden. We streven naar een goed en gezond leven voor iedereen, vandaag en in de toekomst. We streven naar meer natuur en biodiversiteit in de stad. We maken werk van een sterk regionaal afvalbeleid waardoor we nog beter kunnen recycleren en de dienstverlening aan de burger verbetert.",
+    "ac_code": "A-4-6-3",
+    "ac_short": "We ontwikkelen een visie en actieplan voor ecologisch beheer met focus op natuureducatie",
+    "ac_long": "We werken aan een strategische visie voor het beheer van ecologisch waardevolle gebieden, met een bijzondere nadruk op natuureducatie. Het bijbehorende actieplan wordt uitgevoerd met een primaire focus op de gebieden die eigendom zijn van de stad, maar ook op alle gebieden die onder de Europese instandhoudingsdoelstellingen vallen. Waar zich kansen voordoen, wordt er geïnvesteerd in de uitbreiding van bos- en natuurgebieden om het milieu te versterken.\n\nDaarnaast worden hagen en houtkanten aangeplant om het landschap robuuster en klimaatbestendiger te maken, wat tegelijkertijd de biodiversiteit verhoogt. Het actieplan omvat specifieke maatregelen om deze doelen te bereiken, waarbij natuureducatie een centrale rol speelt om de gemeenschap bewust te maken van het belang van natuurbehoud en -beheer.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 64610.97,
+    "amount_per_capita": 1.93,
+    "yearly_amounts": {
+      "2026": 64610.97,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.93,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-1",
+    "bd_short": "Overig beleid - Vrije tijd",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-1",
+    "ap_short": "Overig beleid - Vrije tijd",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-KABK",
+    "ac_short": "Overig beleid - Koninklijke Academie voor beeldende kunst",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 54000.0,
+    "amount_per_capita": 1.61,
+    "yearly_amounts": {
+      "2026": 9000.0,
+      "2027": 9000.0,
+      "2028": 9000.0,
+      "2029": 9000.0,
+      "2030": 9000.0,
+      "2031": 9000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.27,
+      "2027": 0.27,
+      "2028": 0.27,
+      "2029": 0.27,
+      "2030": 0.27,
+      "2031": 0.27
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-4",
+    "bd_short": "Overig beleid - Ruimte",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-4",
+    "ap_short": "Overig beleid - Ruimte",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-MILIEU",
+    "ac_short": "overig beleid - milieu",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 41750.0,
+    "amount_per_capita": 1.25,
+    "yearly_amounts": {
+      "2026": 41750.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-3",
+    "bd_short": "Warme stad voor iedereen",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een warme stad waarin niemand wordt achtergelaten.",
+    "ap_code": "AP-3-5",
+    "ap_short": "LDC en materiële hulp",
+    "ap_long": "LDC en materiële hulp: we streven naar een inclusieve en toegankelijke omgeving waar iedereen de nodige middelen en zorg kan ontvangen om een waardig en zelfstandig leven te leiden.",
+    "ac_code": "A-3-5-4",
+    "ac_short": "We zorgen voor een betere regionale samenwerking voor de verwerking en verdeling materiële hulp",
+    "ac_long": "Oudenaarde zet zich in om de samenwerking met omliggende gemeenten en organisaties te verbeteren om materiële hulp effectiever te verwerken en te verdelen. Dit betekent dat er een gecoördineerde aanpak wordt gehanteerd waarbij verschillende partijen, zoals overheden, bedrijven, supermarkten, private initiatieven en vzw's, samenwerken om voedseloverschotten en andere materiële hulpbronnen te verzamelen en te distribueren.\nDoor deze samenwerking kunnen middelen efficiënter worden ingezet en wordt ervoor gezorgd dat hulp terechtkomt bij degenen die het het meest nodig hebben.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 40500.0,
+    "amount_per_capita": 1.21,
+    "yearly_amounts": {
+      "2026": 40500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.21,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-2",
+    "bd_short": "Veilige en efficiënte stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een veilige en efficiënte stad die aandacht heeft voor communicatie en participatie.",
+    "ap_code": "AP-2-4",
+    "ap_short": "Integrale veiligheid en preventie",
+    "ap_long": "Integrale veiligheid en preventie: Oudenaarde moet een veilige stad blijven voor al haar burgers. We staan voor grote veiligheidsuitdagingen. We maken een integraal veiligheidsplan op met bijzondere aandacht voor kwetsbare plekken waarbij we aandacht hebben voor de volledige veiligheidsketen, van preventie tot handhaving.",
+    "ac_code": "A-2-4-2",
+    "ac_short": "We installeren een veiligheidshub in het hart van de stad",
+    "ac_long": "Met de veiligheidshub op een centrale plek in de stad, willen we de visibiliteit van onder andere de politiediensten, de gemeenschapsdienst en het jeugdopbouwwerk verhogen.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 36000.0,
+    "amount_per_capita": 1.08,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 36000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.08,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-3A",
+    "bd_short": "Overig beleid - Mens",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-3A",
+    "ap_short": "Overig beleid - Mens",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-BURGER",
+    "ac_short": "Overig beleid - burgerzaken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 35100.0,
+    "amount_per_capita": 1.05,
+    "yearly_amounts": {
+      "2026": 35100.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-4",
+    "ap_short": "Omgeving - Economie",
+    "ap_long": "Omgeving - Economie: we maken van Oudenaarde een bruisende regionale economische aantrekkingspool. We zetten in op ruimte voor ondernemers/handelaars/horeca, op bereikbaarheid en op geschoolde werknemers. We ondersteunen ondernemende jongeren en startende ondernemers en helpen hen groeien. We voeren een krachtig beleid tegen leegstand en we vergeten handelaars en ondernemers in onze deelgemeenten niet.",
+    "ac_code": "A-4-4-9",
+    "ac_short": "We stimuleren handel en middenstand in onze kern en deelgemeenten",
+    "ac_long": "We doen dit samen met Oudenaarde Winkelstad vzw en organisaties zoals Agentschap Ondernemen, UNIZO en Voka. We zetten het project 'Ondernemen 2.0' verder, in samenwerking met de provincie Oost-Vlaanderen, waarbij we begeleidende trainingssessies aanbieden. Daarnaast organiseren we netwerkevenementen om ondernemers te inspireren en te verbinden.\n\nIn het kader van 'citymarketing' worden er promotionele activiteiten georganiseerd. We zetten ook verder in op centrummanagement waarbij het kernwinkelgebied wordt geëvalueerd. Daarnaast zullen ook de winkelgebieden in de deelgemeenten  bepaald worden. Hiervoor wordt intensief samengewerkt met de verschillende handelsverenigingen.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 27000.0,
+    "amount_per_capita": 0.81,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 27000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.81,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-3A",
+    "bd_short": "Overig beleid - Mens",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-3A",
+    "ap_short": "Overig beleid - Mens",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-LDC",
+    "ac_short": "Overig beleid - Lokaal dienstencentrum",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 26645.0,
+    "amount_per_capita": 0.8,
+    "yearly_amounts": {
+      "2026": 26645.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-3",
+    "ap_short": "Omgeving - Dierenwelzijn",
+    "ap_long": "Omgeving - Dierenwelzijn: als lokaal bestuur zijn we verantwoordelijk voor het verbeteren van het welzijn van dieren op ons grondgebied. De burger hecht hier, terecht, ook steeds meer belang aan. We ontwikkelen hierrond een visie met de nodige ondersteuning voor de uitrol van concrete maatregelen.",
+    "ac_code": "A-4-3-1",
+    "ac_short": "We installeren een bijkomende hondenlosloopweide op een strategische plaats in de stad",
+    "ac_long": "Om de beste locatie te bepalen, wordt er een beperkte locatiestudie uitgevoerd. Dit onderzoek brengt potentiële locaties in kaart, inclusief mogelijke tijdelijke locaties. Op basis van het onderzoek wordt er een extra hondenlosloopweide gerealiseerd.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 24500.0,
+    "amount_per_capita": 0.73,
+    "yearly_amounts": {
+      "2026": 2000.0,
+      "2027": 0,
+      "2028": 22500.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.06,
+      "2027": 0,
+      "2028": 0.67,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-2",
+    "bd_short": "Veilige en efficiënte stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een veilige en efficiënte stad die aandacht heeft voor communicatie en participatie.",
+    "ap_code": "AP-2-4",
+    "ap_short": "Integrale veiligheid en preventie",
+    "ap_long": "Integrale veiligheid en preventie: Oudenaarde moet een veilige stad blijven voor al haar burgers. We staan voor grote veiligheidsuitdagingen. We maken een integraal veiligheidsplan op met bijzondere aandacht voor kwetsbare plekken waarbij we aandacht hebben voor de volledige veiligheidsketen, van preventie tot handhaving.",
+    "ac_code": "A-2-4-4",
+    "ac_short": "We voeren het veiligheidsplan uit met bijzondere aandacht voor kwetsbare buurten",
+    "ac_long": "Het lokale veiligheidsplan en bijhorend actieplan wordt gefaseerd uitgevoerd. Er worden camera's geplaatst op cruciale en strategische plaatsen in de stad. We herwaarderen de infrastructuur van de stationsbuurt om verloedering tegen te gaan en de veiligheid te verhogen. We gaan hiervoor terug met de NMBS aan tafel zitten.\n\nHet veiligheidsoverleg met alle betrokken actoren wordt structureel georganiseerd en het aantal incidenten, meldingen en controles worden systematisch opgevolgd. Waar nodig en wenselijk wordt extra communicatie voorzien.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 18500.0,
+    "amount_per_capita": 0.55,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 4500.0,
+      "2028": 4500.0,
+      "2029": 4500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.15,
+      "2027": 0.13,
+      "2028": 0.13,
+      "2029": 0.13,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-2A",
+    "bd_short": "Overig beleid - Interne dienstverlening",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-2A",
+    "ap_short": "Overig beleid - Interne dienstverlening",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-VEILIG",
+    "ac_short": "Overig beleid - Integrale veiligheid en noodplanning",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 7938.0,
+    "amount_per_capita": 0.24,
+    "yearly_amounts": {
+      "2026": 7938.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.24,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-1",
+    "bd_short": "Overig beleid - Vrije tijd",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-1",
+    "ap_short": "Overig beleid - Vrije tijd",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-TOER&EV",
+    "ac_short": "Overig beleid - Toerisme en evenementen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 5697.17,
+    "amount_per_capita": 0.17,
+    "yearly_amounts": {
+      "2026": 5697.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "PBD-4",
+    "bd_short": "Wonen, leven en ondernemen in de stad",
+    "bd_long": "Kwalitatieve omschrijving: Stad Oudenaarde wordt een plek waar het goed is om te wonen, te leven en te ondernemen.",
+    "ap_code": "AP-4-6",
+    "ap_short": "Omgeving - Milieu en Klimaat",
+    "ap_long": "Omgeving - Milieu en Klimaat: de klimaatcrisis vraagt om dringende actie, ook op stedelijk vlak. We reduceren de CO2-uitstoot en maken onze stad tegelijk weerbaar voor de gevolgen van extremere weersomstandigheden. We streven naar een goed en gezond leven voor iedereen, vandaag en in de toekomst. We streven naar meer natuur en biodiversiteit in de stad. We maken werk van een sterk regionaal afvalbeleid waardoor we nog beter kunnen recycleren en de dienstverlening aan de burger verbetert.",
+    "ac_code": "A-4-6-7",
+    "ac_short": "We zetten in op preventie, sensibilisering én sanctionering inzake zwerfvuil en sluikstorten",
+    "ac_long": "Om de pakkans van sluikstorters te verhogen, worden er extra maatregelen genomen. Zo wordt er intensief samengewerkt met IVLA (Intercommunale VLaamse Ardennen) om de verwerking van camerabeelden te verbeteren. Daarnaast wordt er een specifieke procedure uitgewerkt voor de identificatie van zwerfvuil en worden er nieuwe sluikstortcamera's aangeschaft en ingezet in probleemgebieden.\n\nVerder worden buurtverenigingen geactiveerd om betrokken te raken bij ruimacties, wat niet alleen de gemeenschapszin versterkt maar ook de effectiviteit van de acties verhoogt. Sensibiliseringscampagnes worden georganiseerd om burgers bewust te maken van de problematiek en hen te activeren zich in te zetten voor een propere leefomgeving. Deze integrale aanpak moet leiden tot een schonere stad en een afname van zwerfvuil en sluikstorten.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 4500.0,
+    "amount_per_capita": 0.13,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 4500.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.13,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudenaarde",
+    "nis_code": "45035",
+    "bd_code": "OBD-2B",
+    "bd_short": "Overig beleid - Organisatie",
+    "bd_long": "Commentaar:",
+    "ap_code": "AP-OB-2B",
+    "ap_short": "Overig beleid - Organisatie",
+    "ap_long": "Commentaar:",
+    "ac_code": "OB-COMM",
+    "ac_short": "Overig beleid - Communicatie",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1000.0,
+    "amount_per_capita": 0.03,
+    "yearly_amounts": {
+      "2026": 1000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

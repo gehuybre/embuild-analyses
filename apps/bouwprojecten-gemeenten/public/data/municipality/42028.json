@@ -2,103 +2,783 @@
   {
     "municipality": "Zele",
     "nis_code": "42028",
-    "bd_code": "BDS",
-    "bd_short": "BD 4: Kwalitatief en professioneel dienstenaanbod.",
-    "bd_long": "We bouwen verder aan een performant dienstverleningsconcept waarbij de burger centraal staat, zodat die makkelijk de weg vindt naar een efficiënte, professionele en proactieve dienstverlening.",
-    "ap_code": "AP",
-    "ap_short": "Performante dienstverlening",
-    "ap_long": "We bouwen verder aan een performant dienstverleningsconcept waarbij de burger centraal staat zodat die makkelijk de weg vindt naar een efficiënte, professionele en proactieve dienstverlening.",
-    "ac_code": "AP",
-    "ac_short": "Kwalitatieve onthaalinfrastructuur",
-    "ac_long": "We investeren in een grondige aanpassing van het onthaal in het gemeentehuis zodat dit beter aansluit met het vernieuwd dienstverleningsconcept.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 15333000.0,
-    "amount_per_capita": 707.15,
-    "yearly_amounts": {
-      "2026": 2615500.0,
-      "2027": 2765500.0,
-      "2028": 4721500.0,
-      "2029": 3558500.0,
-      "2030": 1326000.0,
-      "2031": 346000.0
-    },
-    "yearly_per_capita": {
-      "2026": 120.63,
-      "2027": 127.54,
-      "2028": 217.75,
-      "2029": 164.12,
-      "2030": 61.15,
-      "2031": 15.96
-    }
-  },
-  {
-    "municipality": "Zele",
-    "nis_code": "42028",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "",
+    "ap_code": "overigBeleid",
     "ap_short": "overigBeleid",
     "ap_long": "overigBeleid",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 7010043.0,
-    "amount_per_capita": 323.3,
+    "total_amount": 8353400.18,
+    "amount_per_capita": 384.81,
     "yearly_amounts": {
-      "2026": 2665556.0,
-      "2027": 1351516.0,
-      "2028": 1087222.0,
-      "2029": 740372.0,
-      "2030": 428869.0,
-      "2031": 736508.0
+      "2026": 4008912.11,
+      "2027": 1351516.75,
+      "2028": 1087222.3,
+      "2029": 740371.86,
+      "2030": 428869.23,
+      "2031": 736507.93
     },
     "yearly_per_capita": {
-      "2026": 122.93,
-      "2027": 62.33,
-      "2028": 50.14,
-      "2029": 34.15,
-      "2030": 19.78,
-      "2031": 33.97
+      "2026": 184.67,
+      "2027": 62.26,
+      "2028": 50.08,
+      "2029": 34.11,
+      "2030": 19.76,
+      "2031": 33.93
     }
   },
   {
     "municipality": "Zele",
     "nis_code": "42028",
-    "bd_code": "BDS",
-    "bd_short": "AGB BD 1",
-    "bd_long": "Zele als een hechte, uitnodigende gemeenschap.",
-    "ap_code": "AGB",
-    "ap_short": "Exploitatie en onderhoud van kwaliteitsvolle vrijetijdsinfra",
-    "ap_long": "Het AGB Zele is een partner voor het lokaal bestuur, de lokale verenigingen en het middenveld door in te staan voor het exploiteren en onderhouden van kwaliteitsvolle vrijetijdsinfrastructuur en wanneer nodig het oprichten van nieuwe infrastructuren.",
-    "ac_code": "AGB",
-    "ac_short": "Theatertechnische uitrusting De Wiek onderhouden",
-    "ac_long": "De kwaliteit van de theatertechnische uitrusting van De Wiek wordt op punt gehouden door middel van onderhoud, vervangingsinvesteringen en aanvullingen van het aanwezige materiaal om optimaal tegemoet te kunnen komen aan de noden van bezoekende gezelschappen en lokale verenigingen. De vervangingsinvesteringen en uitbreidingen worden gespreid over de jaren.",
+    "bd_code": "BDS 27",
+    "bd_short": "BD 3:  Kwalitatieve en betaalbare zorg en ondersteuning.",
+    "bd_long": "Elke Zelenaar heeft toegang tot een kwalitatief en betaalbaar zorg- en ondersteuningsaanbod waardoor hij maximaal kansen krijgt om zich te ontwikkelen, kan blijven deelnemen aan de samenleving of zich omringd weet in geval van aanhoudende zorgnood.",
+    "ap_code": "AP 3.3",
+    "ap_short": "Ondersteunen om te empoweren",
+    "ap_long": "Met acties die inspelen op diverse levensdomeinen zorgen we voor toegankelijke, tijdige en doelgerichte begeleiding, ondersteuning en advies aan elke Zelenaar die dit nodig heeft. Zo willen we mensen empoweren zodat zij maximaal kunnen deelnemen aan en bijdragen tot het maatschappelijk leven in Zele.",
+    "ac_code": "AP 3.3_A 3.3.1",
+    "ac_short": "Bouw sociaal huis",
+    "ac_long": "We bouwen een sociaal huis dat onderdak biedt aan de teams Sociale Dienst en Samenleven & Opgroeien, die een geïntegreerde werking uitbouwen. De dienst- en hulpverlening in het sociaal huis wordt uitgebreid met partners die actief zijn binnen de brede welzijnssector. Zo wordt een laagdrempelig huis nagestreefd waar iedere Zelenaar kan langskomen voor begeleiding, steun of advies.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 3975000.0,
+    "amount_per_capita": 183.11,
+    "yearly_amounts": {
+      "2026": 575000.0,
+      "2027": 600000.0,
+      "2028": 2000000.0,
+      "2029": 800000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 26.49,
+      "2027": 27.64,
+      "2028": 92.13,
+      "2029": 36.85,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 25",
+    "bd_short": "BD 1: Zele kenmerkt zich als een hechte gemeenschap.",
+    "bd_long": "Zele kenmerkt zich als een hechte, uitnodigende gemeenschap. waar verantwoordelijkheidszin, respectvolle dialoog en ontmoeting tussen Zelenaars worden gewaardeerd en gestimuleerd.",
+    "ap_code": "AP 1.1",
+    "ap_short": "Kwaliteitsvolle vrijetijdsinfrastructuur",
+    "ap_long": "Gemeente Zele investeert samen met het AGB Zele op diverse manieren in het oprichten, opwaarderen en ondersteunen van kwaliteitsvolle ruimtes voor vrijetijdsbeleving, zowel binnen als buiten. Zo komen we tegemoet aan de wensen en noden van zowel de georganiseerde als particuliere Zelenaar die wil sporten, spelen en beleven.",
+    "ac_code": "AP 1.1_A 1.1.1",
+    "ac_short": "Het polyvalent belevingscentrum krijgt een invulling",
+    "ac_long": "Een voortraject met (toekomstige) betrokken gebruikers en buren leidt tot een ontwerp voor de site. Minstens een polyvalente zaal/fuifruimte met aanvullende faciliteiten krijgt er een plaats.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 296400.0,
-    "amount_per_capita": 13.67,
+    "total_amount": 2500000.0,
+    "amount_per_capita": 115.17,
     "yearly_amounts": {
-      "2026": 88700.0,
-      "2027": 78500.0,
-      "2028": 48200.0,
-      "2029": 38000.0,
-      "2030": 33000.0,
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 200000.0,
+      "2029": 1500000.0,
+      "2030": 700000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 4.61,
+      "2028": 9.21,
+      "2029": 69.1,
+      "2030": 32.25,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.5",
+    "ap_short": "Straten & pleinen",
+    "ap_long": "Straten en pleinen worden duurzaam en klimaatrobuust (her)ingericht, als ruggengraat voor een verkeersveilige lokale mobiliteit, de versterking van de ruimtelijke (beeld)kwaliteit en ter bevordering van de sociale cohesie.",
+    "ac_code": "AP 2.5_A 2.5.1",
+    "ac_short": "Heraanleg van de schoolomgeving Kapellestraat - Rotstraat",
+    "ac_long": "Door de renovatie van de Kapellestraat en een deel van de Rotstraat realiseren we een kwalitatieve schoolomgeving met een sterk toegenomen leefbaarheid.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 92.13,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 900000.0,
+      "2028": 900000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.21,
+      "2027": 41.46,
+      "2028": 41.46,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.5",
+    "ap_short": "Straten & pleinen",
+    "ap_long": "Straten en pleinen worden duurzaam en klimaatrobuust (her)ingericht, als ruggengraat voor een verkeersveilige lokale mobiliteit, de versterking van de ruimtelijke (beeld)kwaliteit en ter bevordering van de sociale cohesie.",
+    "ac_code": "AP 2.5_A 2.5.2",
+    "ac_short": "Project: vernieuwen Drieputtenstraat",
+    "ac_long": "De broodnodige renovatie van de Drieputtenstraat zal de leefbaarheid en beeldkwaliteit verhogen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1300000.0,
+    "amount_per_capita": 59.89,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 65000.0,
+      "2028": 617500.0,
+      "2029": 617500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.99,
+      "2028": 28.45,
+      "2029": 28.45,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.5",
+    "ap_short": "Straten & pleinen",
+    "ap_long": "Straten en pleinen worden duurzaam en klimaatrobuust (her)ingericht, als ruggengraat voor een verkeersveilige lokale mobiliteit, de versterking van de ruimtelijke (beeld)kwaliteit en ter bevordering van de sociale cohesie.",
+    "ac_code": "AP 2.5_A 2.5.4",
+    "ac_short": "Stockaanbesteding voetpaden en infrastructuur",
+    "ac_long": "Met dit volgehouden investeringsprogramma vernieuwen we voetpaden en voeren kleinere aanpassingen en herstellingen uit aan de weg- en rioleringsinfrastructuur, aanpassingen schoolroutes, verbetering fietsveiligheid,",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1200000.0,
+    "amount_per_capita": 55.28,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 200000.0,
+      "2028": 200000.0,
+      "2029": 200000.0,
+      "2030": 200000.0,
+      "2031": 200000.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.21,
+      "2027": 9.21,
+      "2028": 9.21,
+      "2029": 9.21,
+      "2030": 9.21,
+      "2031": 9.21
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 27",
+    "bd_short": "BD 3:  Kwalitatieve en betaalbare zorg en ondersteuning.",
+    "bd_long": "Elke Zelenaar heeft toegang tot een kwalitatief en betaalbaar zorg- en ondersteuningsaanbod waardoor hij maximaal kansen krijgt om zich te ontwikkelen, kan blijven deelnemen aan de samenleving of zich omringd weet in geval van aanhoudende zorgnood.",
+    "ap_code": "AP 3.6",
+    "ap_short": "Thuis- en mantelzorg",
+    "ap_long": "CWZ De Bron voert een actief ondersteunend beleid naar thuis- en mantelzorg.",
+    "ac_code": "AP 3.6_A.3.6.4",
+    "ac_short": "Investeringen CWZ De Bron",
+    "ac_long": "We investeren in het onderhoud en de uitrusting van CWZ De Bron",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 772000.0,
+    "amount_per_capita": 35.56,
+    "yearly_amounts": {
+      "2026": 325500.0,
+      "2027": 66500.0,
+      "2028": 79000.0,
+      "2029": 141000.0,
+      "2030": 101000.0,
+      "2031": 59000.0
+    },
+    "yearly_per_capita": {
+      "2026": 14.99,
+      "2027": 3.06,
+      "2028": 3.64,
+      "2029": 6.5,
+      "2030": 4.65,
+      "2031": 2.72
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 28",
+    "bd_short": "BD 4: Kwalitatief en professioneel dienstenaanbod.",
+    "bd_long": "We bouwen verder aan een performant dienstverleningsconcept waarbij de burger centraal staat, zodat die makkelijk de weg vindt naar een efficiënte, professionele en proactieve dienstverlening.",
+    "ap_code": "AP 4.5",
+    "ap_short": "Planmatige aanpak ondersteunende diensten",
+    "ap_long": "We zorgen voor een afsprakenkader met betrekking tot de ondersteunende dienstverlening van de teams ICT, communicatie en beheer van gebouwen & Facility.",
+    "ac_code": "AP 4.5_A 4.5.3",
+    "ac_short": "Maximaal digitaal & integratie AI",
+    "ac_long": "We zetten het digitaliseringsproject verder en integreren dit maximaal met bestaande toepassingen en de gemeenteapp. Waar wenselijk en haalbaar implementeren we mogelijke toepassingen van artificiële intelligentie, zowel in de front-, mid- als backoffice",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 682000.0,
+    "amount_per_capita": 31.42,
+    "yearly_amounts": {
+      "2026": 31000.0,
+      "2027": 289000.0,
+      "2028": 75000.0,
+      "2029": 160000.0,
+      "2030": 80000.0,
+      "2031": 47000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.43,
+      "2027": 13.31,
+      "2028": 3.45,
+      "2029": 7.37,
+      "2030": 3.69,
+      "2031": 2.17
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.2",
+    "ap_short": "Levend water",
+    "ap_long": "We realiseren de gemeentelijke saneringsverplichting inzake waterzuivering en werken een lokaal waterbeleid uit, in uitvoering van  het hemelwater en droogteplan, dat voorziet in ruimte voor water en blauwgroene netwerken.",
+    "ac_code": "AP 2.2_A 2.2.2",
+    "ac_short": "Realisatie van kleinere collectief te saneren clusters",
+    "ac_long": "In uitvoering van de saneringsverplichting en conform het zoneringsplan waterzuivering saneren we collectief kleinere clusters.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 470000.0,
+    "amount_per_capita": 21.65,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 40000.0,
+      "2028": 310000.0,
+      "2029": 60000.0,
+      "2030": 10000.0,
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 4.09,
-      "2027": 3.62,
-      "2028": 2.22,
-      "2029": 1.75,
-      "2030": 1.52,
+      "2026": 1.84,
+      "2027": 1.84,
+      "2028": 14.28,
+      "2029": 2.76,
+      "2030": 0.46,
       "2031": 0.46
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.5",
+    "ap_short": "Straten & pleinen",
+    "ap_long": "Straten en pleinen worden duurzaam en klimaatrobuust (her)ingericht, als ruggengraat voor een verkeersveilige lokale mobiliteit, de versterking van de ruimtelijke (beeld)kwaliteit en ter bevordering van de sociale cohesie.",
+    "ac_code": "AP 2.5_A 2.5.5",
+    "ac_short": "Vernieuwing en onderhoud van asfaltwegen en landelijke wegen",
+    "ac_long": "Met dit volgehouden investeringsprogramma vernieuwen we asfaltwegen en landelijke wegen en voorzien in structureel onderhoud.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 20.73,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 150000.0,
+      "2029": 0,
+      "2030": 150000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.91,
+      "2027": 0,
+      "2028": 6.91,
+      "2029": 0,
+      "2030": 6.91,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.5",
+    "ap_short": "Straten & pleinen",
+    "ap_long": "Straten en pleinen worden duurzaam en klimaatrobuust (her)ingericht, als ruggengraat voor een verkeersveilige lokale mobiliteit, de versterking van de ruimtelijke (beeld)kwaliteit en ter bevordering van de sociale cohesie.",
+    "ac_code": "AP 2.5_A 2.5.6",
+    "ac_short": "Wagen- en machinepark",
+    "ac_long": "We vervangen een deel van het wagen- en machinepark voor de gemeentelijke diensten om het onderhoud van de publieke ruimte (openbaar domein, publieke domeinen en publieke gebouwen) te continueren en verbeteren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 20.73,
+    "yearly_amounts": {
+      "2026": 145000.0,
+      "2027": 150000.0,
+      "2028": 70000.0,
+      "2029": 50000.0,
+      "2030": 35000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.68,
+      "2027": 6.91,
+      "2028": 3.22,
+      "2029": 2.3,
+      "2030": 1.61,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.10",
+    "ap_short": "versterken lokale economie",
+    "ap_long": "Gemeente Zele stimuleert haar lokale economie via datagedreven, participatief en toekomstgericht beleid dat focust op herontwikkeling van infrastructuur, stimuleren van ondernemerschap en het optimaliseren van het handelsapparaat.",
+    "ac_code": "AP 2.10_A 2.10.3",
+    "ac_short": "Infrastructuur en ruimtelijke economie bedrijventerreinen",
+    "ac_long": "Het voortraject omtrent de opwaardering en renovatie van bedrijventerrein N47 tot een klimaatrobuuste economische hub wordt verder doorlopen en leidt tot een nieuwe subsidieaanvraag met het oog op de uitvoering van de noodzakelijke infrastructuurwerken in de volgende beleidscyclus.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 434000.0,
+    "amount_per_capita": 19.99,
+    "yearly_amounts": {
+      "2026": 434000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.99,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 28",
+    "bd_short": "BD 4: Kwalitatief en professioneel dienstenaanbod.",
+    "bd_long": "We bouwen verder aan een performant dienstverleningsconcept waarbij de burger centraal staat, zodat die makkelijk de weg vindt naar een efficiënte, professionele en proactieve dienstverlening.",
+    "ap_code": "AP 4.1",
+    "ap_short": "Performante dienstverlening",
+    "ap_long": "We bouwen verder aan een performant dienstverleningsconcept waarbij de burger centraal staat zodat die makkelijk de weg vindt naar een efficiënte, professionele en proactieve dienstverlening.",
+    "ac_code": "AP 4.1_A 4.1.3",
+    "ac_short": "Kwalitatieve onthaalinfrastructuur",
+    "ac_long": "We investeren in een grondige aanpassing van het onthaal in het gemeentehuis zodat dit beter aansluit met het vernieuwd dienstverleningsconcept.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 11.52,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.9",
+    "ap_short": "Woonbeleid",
+    "ap_long": "Een aangepast woonbeleid zet in op woningdifferentiatie, gebaseerd op de toekomstige woonnoden, gekoppeld aan een verduurzaming van het woningenbestand, verhoogde woonkwaliteit en betaalbaar en sociaal wonen.",
+    "ac_code": "AP 2.9_A 2.9.3",
+    "ac_short": "Woonprojecten Thuisbouwer",
+    "ac_long": "Gemeente Zele staat in voor haar aandeel in de aanleg van infrastructuur van woonprojecten van de Thuisbouwer.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 175000.0,
+    "amount_per_capita": 8.06,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 175000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 8.06,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.6",
+    "ap_short": "Mobiliteit",
+    "ap_long": "We verfijnen het lokale mobiliteitsbeleid verder, gebaseerd op het STOP-principe en door in te zetten op alternatieve, groene vervoersmodi.",
+    "ac_code": "AP 2.6_A 2.6.5",
+    "ac_short": "Kwalitatieve fietsinfrastructuur",
+    "ac_long": "We investeren in verbeterde en bijkomende kwalitatieve fietsinfrastructuur (fietsenstallingen, fietssuggestiestroken,...) en schoolroutes.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 130000.0,
+    "amount_per_capita": 5.99,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.61,
+      "2027": 1.38,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.4",
+    "ap_short": "Openbare netheid",
+    "ap_long": "De gemeente zet bijkomend in op zwerfvuilbestrijding (sensibilisering en handhaving), in combinatie met een doorgedreven onderhoudsstrategie voor de woonkern.",
+    "ac_code": "AP 2.4_A 2.4.1",
+    "ac_short": "Veegonderhoud",
+    "ac_long": "We investeren extra in materiaal voor veegonderhoud van straten en pleinen (onkruid- en zwerfvuilbestrijding), onder meer door de aankoop van een nieuwe veegwagen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.61,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 90000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.46,
+      "2027": 0,
+      "2028": 4.15,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.5",
+    "ap_short": "Straten & pleinen",
+    "ap_long": "Straten en pleinen worden duurzaam en klimaatrobuust (her)ingericht, als ruggengraat voor een verkeersveilige lokale mobiliteit, de versterking van de ruimtelijke (beeld)kwaliteit en ter bevordering van de sociale cohesie.",
+    "ac_code": "AP 2.5_A 2.5.3",
+    "ac_short": "Investering in kleinere wegen- en rioleringsprojecten",
+    "ac_long": "Door gerichte investeringen onderhouden en verbeteren we ons patrimonium waar nodig.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.61,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 4.61,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 27",
+    "bd_short": "BD 3:  Kwalitatieve en betaalbare zorg en ondersteuning.",
+    "bd_long": "Elke Zelenaar heeft toegang tot een kwalitatief en betaalbaar zorg- en ondersteuningsaanbod waardoor hij maximaal kansen krijgt om zich te ontwikkelen, kan blijven deelnemen aan de samenleving of zich omringd weet in geval van aanhoudende zorgnood.",
+    "ap_code": "AP 3.9",
+    "ap_short": "Schoolinfrastructuur De Sprong",
+    "ap_long": "Schoolinfrastructuur De Sprong wordt heringericht als klimaatbewuste en multifunctionele leer- en ontmoetingsplek in gedeeld gebruik met partners (opvang, onderwijspartners, vrije tijd,).",
+    "ac_code": "AP 3.9_A 3.9.1",
+    "ac_short": "Vergroening en ontharding van de speelplaats",
+    "ac_long": "Op de speelplaats van de gemeentelijke basisschool wordt de opgestuwde betonlaag (boomwortels) verwijderd en d een ontharde en uitdagende, natuurlijke speelomgeving aangelegd.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 4.15,
+    "yearly_amounts": {
+      "2026": 90000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.15,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 27",
+    "bd_short": "BD 3:  Kwalitatieve en betaalbare zorg en ondersteuning.",
+    "bd_long": "Elke Zelenaar heeft toegang tot een kwalitatief en betaalbaar zorg- en ondersteuningsaanbod waardoor hij maximaal kansen krijgt om zich te ontwikkelen, kan blijven deelnemen aan de samenleving of zich omringd weet in geval van aanhoudende zorgnood.",
+    "ap_code": "AP 3.9",
+    "ap_short": "Schoolinfrastructuur De Sprong",
+    "ap_long": "Schoolinfrastructuur De Sprong wordt heringericht als klimaatbewuste en multifunctionele leer- en ontmoetingsplek in gedeeld gebruik met partners (opvang, onderwijspartners, vrije tijd,).",
+    "ac_code": "AP 3.9_A 3.9.2",
+    "ac_short": "Hedendaagse en multifunctionele inrichting van de lokalen",
+    "ac_long": "Lokalen in de gemeentelijke lagere school worden (her-)ingericht in functie van een efficïente en multifunctionele schoolwerking, rekening houdend met hedendaagse onderwijsnoden en/of kansen voor gedeeld gebruik met partners (bv. co-teaching, kunstonderwijs, kinderopvang, BOA, ...).",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 90000.0,
+    "amount_per_capita": 4.15,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.46,
+      "2027": 0.92,
+      "2028": 0.92,
+      "2029": 0.92,
+      "2030": 0.92,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 25",
+    "bd_short": "BD 1: Zele kenmerkt zich als een hechte gemeenschap.",
+    "bd_long": "Zele kenmerkt zich als een hechte, uitnodigende gemeenschap. waar verantwoordelijkheidszin, respectvolle dialoog en ontmoeting tussen Zelenaars worden gewaardeerd en gestimuleerd.",
+    "ap_code": "AP 1.3",
+    "ap_short": "Ruim en divers aanbod vrijetijdsbeleving",
+    "ap_long": "Zele heeft heel wat troeven om te ontdekken en te beleven. Als gemeente zetten we in op het maximaal ontsluiten, waarderen en maximaliseren van deze troeven zodat er een gedifferentieerd aanbod is waar elke Zelenaar en bezoeker van Zele zijn gading in vindt.",
+    "ac_code": "AP 1.3_A 1.3.1",
+    "ac_short": "Kunst in Publieke Ruimte",
+    "ac_long": "Het bestaande Zeelse kunstpatrimonium wordt maximaal ontsloten en verder uitgebreid met nieuwe kunstprojecten die participatief worden opgezet en cultuurbeleving aanmoedigen. We zetten specifiek in op kunst in het straatbeeld in zowel beeldende vorm als via podiumkunsten en andere initiatieven. Het bestaande kunstpatrimonium wordt optimaal beheerd.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 2.3,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.46,
+      "2027": 0.46,
+      "2028": 0.46,
+      "2029": 0.46,
+      "2030": 0.46,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.2",
+    "ap_short": "Levend water",
+    "ap_long": "We realiseren de gemeentelijke saneringsverplichting inzake waterzuivering en werken een lokaal waterbeleid uit, in uitvoering van  het hemelwater en droogteplan, dat voorziet in ruimte voor water en blauwgroene netwerken.",
+    "ac_code": "AP 2.2_A 2.2.5",
+    "ac_short": "Voorbereiding rioleringsproject Hoekstraat/Kil",
+    "ac_long": "We bereiden het rioleringsproject Hoekstraat/Kil voor in het kader van de saneringsverplichting tegen 2033.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 2.3,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 20000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0.92,
+      "2031": 1.38
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 25",
+    "bd_short": "BD 1: Zele kenmerkt zich als een hechte gemeenschap.",
+    "bd_long": "Zele kenmerkt zich als een hechte, uitnodigende gemeenschap. waar verantwoordelijkheidszin, respectvolle dialoog en ontmoeting tussen Zelenaars worden gewaardeerd en gestimuleerd.",
+    "ap_code": "AP 1.1",
+    "ap_short": "Kwaliteitsvolle vrijetijdsinfrastructuur",
+    "ap_long": "Gemeente Zele investeert samen met het AGB Zele op diverse manieren in het oprichten, opwaarderen en ondersteunen van kwaliteitsvolle ruimtes voor vrijetijdsbeleving, zowel binnen als buiten. Zo komen we tegemoet aan de wensen en noden van zowel de georganiseerde als particuliere Zelenaar die wil sporten, spelen en beleven.",
+    "ac_code": "AP 1.1_A 1.1.4",
+    "ac_short": "De bibliotheeksite wordt futureproof",
+    "ac_long": "De bibliotheek wordt een open huis om maximaal zijn taak als derde plek waar te maken. Hiervoor wordt ingezet op de nodige softwarematige (Open Bib) en infrastructurele aanpassingen om het gebouw ook open te stellen buiten de reguliere openingsuren en zowel uitlenen, informatievergaring en ontmoeting mogelijk te maken op het ritme dat de Zelenaar zelf verkiest.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 1.84,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.92,
+      "2027": 0.92,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Zele",
+    "nis_code": "42028",
+    "bd_code": "BDS 26",
+    "bd_short": "BD 2: De Zeelse ruimte wordt duurzaam ontwikkeld.",
+    "bd_long": "De Zeelse ruimte, straten en pleinen zijn duurzaam ontwikkeld tot een aantrekkelijke, klimaatrobuuste en (verkeers)veilige omgeving om kwalitatief te wonen, leven en werken.",
+    "ap_code": "AP 2.7",
+    "ap_short": "Kerken & begraafplaatsen",
+    "ap_long": "We ontwikkelen onze begraafplaatsen verder tot groene rust- en ontmoetingsplaatsen en werken in samenspraak met het Centraal Kerkbestuur een toekomstvisie uit op de bestemming van kerkgebouwen.",
+    "ac_code": "AP 2.7_A 2.7.1",
+    "ac_short": "Begraafplaatsen",
+    "ac_long": "De Zeelse begraafplaatsen worden verder vergroend en aantrekkelijk ingericht. Tevens worden de nodige budgetten voorzien om bijkomende ruimte op de begraafplaatsen te creëren.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 1.15,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.15,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

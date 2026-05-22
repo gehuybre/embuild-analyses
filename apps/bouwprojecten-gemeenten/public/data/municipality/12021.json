@@ -2,226 +2,566 @@
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/04",
+    "ac_short": "Restauratie fase 2/3/4/5 begijnhof",
+    "ac_long": "Restauratie fase 2/3/4/5 begijnhof",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 18779090.31,
+    "amount_per_capita": 469.52,
+    "yearly_amounts": {
+      "2026": 7081450.31,
+      "2027": 3794039.0,
+      "2028": 3794039.0,
+      "2029": 4109562.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 177.05,
+      "2027": 94.86,
+      "2028": 94.86,
+      "2029": 102.75,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/03",
+    "ac_short": "Restauratie Sint-Gummaruskerk",
+    "ac_long": "Restauratie Sint-Gummaruskerk",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 13128598.47,
+    "amount_per_capita": 328.24,
+    "yearly_amounts": {
+      "2026": 8992312.47,
+      "2027": 4136011.0,
+      "2028": 275.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 224.83,
+      "2027": 103.41,
+      "2028": 0.01,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/05",
+    "ac_short": "Restauratie H. Geestgebouw",
+    "ac_long": "Restauratie H. Geestgebouw",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 8359238.61,
+    "amount_per_capita": 209.0,
+    "yearly_amounts": {
+      "2026": 208818.61,
+      "2027": 3124312.0,
+      "2028": 3124312.0,
+      "2029": 1901796.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.22,
+      "2027": 78.11,
+      "2028": 78.11,
+      "2029": 47.55,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
     "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
     "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
-    "ap_code": "LB03",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/09",
+    "ac_short": "Werken Marnixdreef - Fietspad - Bist",
+    "ac_long": "Werken Marnixdreef - Fietspad - Bist",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 8110700.0,
+    "amount_per_capita": 202.79,
+    "yearly_amounts": {
+      "2026": 642700.0,
+      "2027": 5000000.0,
+      "2028": 2468000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.07,
+      "2027": 125.01,
+      "2028": 61.71,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/02/KAP",
     "ap_short": "Aantrekkelijk, duurzaam en goed onderhouden openbaar domein",
     "ap_long": "We zorgen ervoor dat ons openbaar domein (wegen, voetpaden, grachten, pleinen, parken, groenzones en bossen) goed ingericht en onderhouden is. Het moet veilig, aangenaam en duurzaam zijn. We zetten in op proactief onderhoud, zodat iedereen kan genieten van groen in de buurt en beschermd is tegen wateroverlast.",
-    "ac_code": "LB03",
+    "ac_code": "LB03/02/KAP_LB03/02/KAP/03",
+    "ac_short": "Klimaatbestendige en goed onderhouden waterinfrastructuur",
+    "ac_long": "Klimaatbestendige en goed onderhouden waterinfrastructuur",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 6189881.69,
+    "amount_per_capita": 154.76,
+    "yearly_amounts": {
+      "2026": 1480286.15,
+      "2027": 1348744.14,
+      "2028": 945429.02,
+      "2029": 734613.9,
+      "2030": 899806.18,
+      "2031": 781002.3
+    },
+    "yearly_per_capita": {
+      "2026": 37.01,
+      "2027": 33.72,
+      "2028": 23.64,
+      "2029": 18.37,
+      "2030": 22.5,
+      "2031": 19.53
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/02/KAP",
+    "ap_short": "Aantrekkelijk, duurzaam en goed onderhouden openbaar domein",
+    "ap_long": "We zorgen ervoor dat ons openbaar domein (wegen, voetpaden, grachten, pleinen, parken, groenzones en bossen) goed ingericht en onderhouden is. Het moet veilig, aangenaam en duurzaam zijn. We zetten in op proactief onderhoud, zodat iedereen kan genieten van groen in de buurt en beschermd is tegen wateroverlast.",
+    "ac_code": "LB03/02/KAP_LB03/02/KAP/01",
     "ac_short": "Toegankelijke en goed onderhouden weginfrastructuur",
     "ac_long": "Toegankelijke en goed onderhouden weginfrastructuur",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 49503842.0,
-    "amount_per_capita": 1236.57,
+    "total_amount": 4703082.69,
+    "amount_per_capita": 117.59,
     "yearly_amounts": {
-      "2026": 7405432.0,
-      "2027": 13301173.0,
-      "2028": 11162255.0,
-      "2029": 7807249.0,
-      "2030": 5590936.0,
-      "2031": 4236797.0
+      "2026": 841837.89,
+      "2027": 772248.96,
+      "2028": 772248.96,
+      "2029": 772248.96,
+      "2030": 772248.96,
+      "2031": 772248.96
     },
     "yearly_per_capita": {
-      "2026": 184.98,
-      "2027": 332.25,
-      "2028": 278.82,
-      "2029": 195.02,
-      "2030": 139.66,
-      "2031": 105.83
+      "2026": 21.05,
+      "2027": 19.31,
+      "2028": 19.31,
+      "2029": 19.31,
+      "2030": 19.31,
+      "2031": 19.31
     }
   },
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
-    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
-    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
-    "ap_code": "LB04",
-    "ap_short": "Financieel en zakelijk vastgoedbeheer",
-    "ap_long": "We gaan verstandig om met het geld en het beheer van ons vastgoed. We kiezen voor duurzame oplossingen, zetten middelen efficiënt in en nemen beslissingen op een transparante manier.",
-    "ac_code": "LB04",
-    "ac_short": "Middelen voor huur stadskantoor en Sociaal Huis",
-    "ac_long": "Middelen voor huur stadskantoor en Sociaal Huis",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/08",
+    "ac_short": "Werken fietspad Kesselsesteenweg",
+    "ac_long": "Werken fietspad Kesselsesteenweg",
     "categories": [
-      "01-algemeen-bestuur"
+      "02-mobiliteit"
     ],
-    "total_amount": 47862845.0,
-    "amount_per_capita": 1195.58,
+    "total_amount": 4667000.0,
+    "amount_per_capita": 116.69,
     "yearly_amounts": {
-      "2026": 13683209.0,
-      "2027": 13746781.0,
-      "2028": 9602815.0,
-      "2029": 8091217.0,
-      "2030": 1415171.0,
-      "2031": 1323652.0
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 1287000.0,
+      "2029": 3370000.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 341.8,
-      "2027": 343.38,
-      "2028": 239.87,
-      "2029": 202.11,
-      "2030": 35.35,
-      "2031": 33.06
+      "2026": 0.25,
+      "2027": 0,
+      "2028": 32.18,
+      "2029": 84.26,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "Doordacht beheer van de financiële middelen",
     "bd_long": "We beheren onze financiële middelen op een moderne, transparante en efficiënte manier. We zetten ze optimaal in en nemen weloverwogen beslissingen op basis van de noden van onze organisatie, onze klanten en onze kerntaken. We bekijken welke subsidies onze werking extra kunnen ondersteunen. We evalueren geregeld onze financiële situatie.",
-    "ap_code": "W02",
+    "ap_code": "W02/01/KAP",
     "ap_short": "Modern financieel beheer",
     "ap_long": "We beheren onze algemene financiering op een efficiënte manier, zodat onze organisatie vlot kan blijven werken. We vergelijken onze financiële situatie met het Vlaamse gemiddelde en sturen bij waar mogelijk.",
-    "ac_code": "W02",
-    "ac_short": "Werkingsmiddelen financieel beheer",
-    "ac_long": "Werkingsmiddelen financieel beheer",
+    "ac_code": "W02/01/KAP_W02/01/KAP/04",
+    "ac_short": "Financiële ondersteuning structurele partners",
+    "ac_long": "Financiële ondersteuning structurele partners",
     "categories": [
-      "00-algemene-financiering"
+      "04-veiligheidszorg"
     ],
-    "total_amount": 5260080.0,
-    "amount_per_capita": 131.39,
+    "total_amount": 4360079.6,
+    "amount_per_capita": 109.01,
     "yearly_amounts": {
-      "2026": 982584.0,
+      "2026": 682584.0,
       "2027": 827084.0,
-      "2028": 992834.0,
+      "2028": 692834.0,
       "2029": 705839.0,
-      "2030": 1019104.0,
-      "2031": 732635.0
+      "2030": 719104.1,
+      "2031": 732634.5
     },
     "yearly_per_capita": {
-      "2026": 24.54,
-      "2027": 20.66,
-      "2028": 24.8,
-      "2029": 17.63,
-      "2030": 25.46,
-      "2031": 18.3
+      "2026": 17.07,
+      "2027": 20.68,
+      "2028": 17.32,
+      "2029": 17.65,
+      "2030": 17.98,
+      "2031": 18.32
     }
   },
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/10",
+    "ac_short": "Werken Mechelbaan - Beukheuvel - Soeteweide",
+    "ac_long": "Werken Mechelbaan - Beukheuvel - Soeteweide",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4111766.64,
+    "amount_per_capita": 102.8,
+    "yearly_amounts": {
+      "2026": 125766.64,
+      "2027": 0,
+      "2028": 600000.0,
+      "2029": 1100000.0,
+      "2030": 1190000.0,
+      "2031": 1096000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.14,
+      "2027": 0,
+      "2028": 15.0,
+      "2029": 27.5,
+      "2030": 29.75,
+      "2031": 27.4
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 8",
     "bd_short": "Efficiënte inzet facilitaire middelen",
     "bd_long": "We zorgen ervoor dat onze medewerkers over de nodige middelen beschikken om hun werk veilig, efficiënt en kwaliteitsvol te kunnen uitvoeren. We onderhouden, herstellen en vervangen deze middelen tijdig.",
-    "ap_code": "W08",
-    "ap_short": "Facilitaire middelen voor gebouwen",
-    "ap_long": "We zorgen ervoor dat alle gebouwen goed uitgerust zijn en voorzien zijn van de nodige facilitaire middelen.",
-    "ac_code": "W08",
-    "ac_short": "Kantoormeubilair en uitrusting",
-    "ac_long": "Kantoormeubilair en uitrusting",
+    "ap_code": "W08/02/KAP",
+    "ap_short": "Facilitaire middelen voor rollend materieel",
+    "ap_long": "We zorgen voor een goed beheer van onze dienstwagens en -fietsen, zodat onze medewerkers ze veilig kunnen gebruiken.",
+    "ac_code": "W08/02/KAP_W08/02/KAP/01",
+    "ac_short": "Optimalisatie rollend materieel en dienstfietsen",
+    "ac_long": "Optimalisatie rollend materieel en dienstfietsen",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 3883656.0,
-    "amount_per_capita": 97.01,
+    "total_amount": 3557157.02,
+    "amount_per_capita": 88.94,
     "yearly_amounts": {
-      "2026": 756582.0,
-      "2027": 1060680.0,
-      "2028": 611699.0,
-      "2029": 672455.0,
-      "2030": 339559.0,
-      "2031": 442681.0
+      "2026": 730316.33,
+      "2027": 981617.4,
+      "2028": 557134.2,
+      "2029": 613739.03,
+      "2030": 292581.0,
+      "2031": 381769.06
     },
     "yearly_per_capita": {
-      "2026": 18.9,
-      "2027": 26.49,
-      "2028": 15.28,
-      "2029": 16.8,
-      "2030": 8.48,
-      "2031": 11.06
+      "2026": 18.26,
+      "2027": 24.54,
+      "2028": 13.93,
+      "2029": 15.34,
+      "2030": 7.32,
+      "2031": 9.55
     }
   },
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
-    "bd_short": "Aantrekkelijke toeristische belevingsplek en erfgoed",
-    "bd_long": "We zorgen goed voor het historische erfgoed in onze stad en stellen het open voor iedereen. We brengen het verleden tot leven en versterken Lier als aantrekkelijke toeristische bestemming met een rijk cultureel aanbod.",
-    "ap_code": "LV04",
-    "ap_short": "Behoud en borgen van onze collectie",
-    "ap_long": "We zetten in op het behoud en veilig bewaren van onze erfgoedcollectie. We dragen zorg voor het erfgoed dat we al in bezit hebben, zodat het ook voor toekomstige generaties bewaard blijft.",
-    "ac_code": "LV04",
-    "ac_short": "Conservatie en restauratie van kunstwerken",
-    "ac_long": "Conservatie en restauratie van kunstwerken",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/19",
+    "ac_short": "Werken Eeuwfeestlaan (ovonde tot Zagerijstraat)",
+    "ac_long": "Werken Eeuwfeestlaan (ovonde tot Zagerijstraat)",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "03-natuur-milieu"
     ],
-    "total_amount": 2318621.0,
-    "amount_per_capita": 57.92,
+    "total_amount": 3478000.0,
+    "amount_per_capita": 86.96,
     "yearly_amounts": {
-      "2026": 62000.0,
-      "2027": 72300.0,
-      "2028": 1045606.0,
-      "2029": 1045918.0,
-      "2030": 46236.0,
-      "2031": 46561.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 2415000.0,
+      "2031": 963000.0
     },
     "yearly_per_capita": {
-      "2026": 1.55,
-      "2027": 1.81,
-      "2028": 26.12,
-      "2029": 26.13,
-      "2030": 1.15,
-      "2031": 1.16
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.25,
+      "2029": 1.25,
+      "2030": 60.38,
+      "2031": 24.08
     }
   },
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
-    "bd_short": "ICT en informatiebeheer",
-    "bd_long": "We bouwen stap voor stap aan een gedragen en professioneel informatiebeheer binnen onze organisatie. Dit doen we door een centraal informatiebeheerbeleid uit te rollen dat duidelijke richtlijnen en verantwoordelijkheden vastlegt voor het omgaan met informatie. Tegelijkertijd implementeren we een uniforme en logische structuur voor digitale documenten, zodat informatie makkelijk terug te vinden, correct gearchiveerd en veilig bewaard wordt. Op die manier zorgen we voor een toegankelijke, betrouwbare en efficiënte informatievoorziening die de werking van de organisatie versterkt en bijdraagt aan het realiseren van onze strategische doelstellingen.",
-    "ap_code": "W04",
-    "ap_short": "Efficiënte archiefwerking",
-    "ap_long": "We digitaliseren papieren archiefdocumenten en ontsluiten ze via een centraal, digitaal systeem dat toegankelijk is voor medewerkers en inwoners. We zorgen ervoor dat ze toegankelijk blijven voor toekomstige generaties.",
-    "ac_code": "W04",
-    "ac_short": "Informatie digitaliseren en ontsluiten",
-    "ac_long": "Informatie digitaliseren en ontsluiten",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/04",
+    "ac_short": "Werken Eeuwfeestlaan (Bareelstraat tot Guldensporenlaan)",
+    "ac_long": "Werken Eeuwfeestlaan (Bareelstraat tot Guldensporenlaan)",
     "categories": [
-      "01-algemeen-bestuur"
+      "02-mobiliteit"
     ],
-    "total_amount": 2275859.0,
-    "amount_per_capita": 56.85,
+    "total_amount": 3180000.0,
+    "amount_per_capita": 79.51,
     "yearly_amounts": {
-      "2026": 324000.0,
-      "2027": 347480.0,
-      "2028": 517090.0,
-      "2029": 361171.0,
-      "2030": 350708.0,
-      "2031": 375410.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 2110000.0,
+      "2029": 1070000.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.09,
-      "2027": 8.68,
-      "2028": 12.92,
-      "2029": 9.02,
-      "2030": 8.76,
-      "2031": 9.38
+      "2026": 0,
+      "2027": 0,
+      "2028": 52.75,
+      "2029": 26.75,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/11",
+    "ac_short": "Werken Werf-Bril-Katten-Klooster-Deense-Volmolenstraat",
+    "ac_long": "Werken Werf-Bril-Katten-Klooster-Deense-Volmolenstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3150000.0,
+    "amount_per_capita": 78.76,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 2150000.0,
+      "2028": 1000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 53.75,
+      "2028": 25.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/06",
+    "ac_short": "Werken Huibrechtstraat-Koning Albertstraat",
+    "ac_long": "Werken Huibrechtstraat-Koning Albertstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2822000.0,
+    "amount_per_capita": 70.56,
+    "yearly_amounts": {
+      "2026": 2150000.0,
+      "2027": 672000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 53.75,
+      "2027": 16.8,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/02/KAP",
+    "ap_short": "Aantrekkelijk, duurzaam en goed onderhouden openbaar domein",
+    "ap_long": "We zorgen ervoor dat ons openbaar domein (wegen, voetpaden, grachten, pleinen, parken, groenzones en bossen) goed ingericht en onderhouden is. Het moet veilig, aangenaam en duurzaam zijn. We zetten in op proactief onderhoud, zodat iedereen kan genieten van groen in de buurt en beschermd is tegen wateroverlast.",
+    "ac_code": "LB03/02/KAP_LB03/02/KAP/04",
+    "ac_short": "Openbare verlichting en nutsleidingen beheren",
+    "ac_long": "Openbare verlichting en nutsleidingen beheren",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 2667174.0,
+    "amount_per_capita": 66.69,
+    "yearly_amounts": {
+      "2026": 805321.0,
+      "2027": 685696.0,
+      "2028": 681625.0,
+      "2029": 63308.0,
+      "2030": 62567.0,
+      "2031": 368657.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.13,
+      "2027": 17.14,
+      "2028": 17.04,
+      "2029": 1.58,
+      "2030": 1.56,
+      "2031": 9.22
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/01",
+    "ac_short": "Renovatie Noodwoningen OCMW",
+    "ac_long": "Renovatie Noodwoningen OCMW",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 2143600.4,
+    "amount_per_capita": 53.59,
+    "yearly_amounts": {
+      "2026": 1743600.4,
+      "2027": 400000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 43.59,
+      "2027": 10.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 18",
     "bd_short": "Zorgbeleid en residentiële zorg",
     "bd_long": "We voeren een zorgbeleid gericht op het ondersteunen van de zelfredzaamheid, waar het kan, tot kwaliteitsvolle residentiële zorg, waar het moet.",
-    "ap_code": "S02",
+    "ap_code": "S02/05/KAP",
     "ap_short": "Algemeen, financieel en structureel beleid WZC Paradijs",
     "ap_long": "We voeren algemeen, financieel en infrastructureel beleid ter ondersteuning van de werking van WZC Paradijs.",
-    "ac_code": "S02",
+    "ac_code": "S02/05/KAP_S02/05/KAP/01",
     "ac_short": "Gebouwen- en omgevingsbeheer",
     "ac_long": "Gebouwen- en omgevingsbeheer",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 2090000.0,
-    "amount_per_capita": 52.21,
+    "total_amount": 2099657.02,
+    "amount_per_capita": 52.5,
     "yearly_amounts": {
-      "2026": 185000.0,
+      "2026": 194657.02,
       "2027": 835000.0,
       "2028": 950000.0,
       "2029": 10000.0,
@@ -229,9 +569,9 @@
       "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 4.62,
-      "2027": 20.86,
-      "2028": 23.73,
+      "2026": 4.87,
+      "2027": 20.88,
+      "2028": 23.75,
       "2029": 0.25,
       "2030": 2.25,
       "2031": 0.5
@@ -240,33 +580,237 @@
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
-    "bd_short": "Stadsontwikkeling",
-    "bd_long": "Realiseren van stadsontwikkeling via diverse projecten en processen",
-    "ap_code": "01",
-    "ap_short": "Vastgoedtransacties in eigen beheer",
-    "ap_long": "Realiseren van aankopen/verkopen van gronden en panden in het kader van projecten in eigen beheer",
-    "ac_code": "01",
-    "ac_short": "Vastgoedtransacties",
-    "ac_long": "vastgoedtransacties",
+    "bd_code": "BDS 12",
+    "bd_short": "Aantrekkelijke toeristische belevingsplek en erfgoed",
+    "bd_long": "We zorgen goed voor het historische erfgoed in onze stad en stellen het open voor iedereen. We brengen het verleden tot leven en versterken Lier als aantrekkelijke toeristische bestemming met een rijk cultureel aanbod.",
+    "ap_code": "LV04/06/SAP",
+    "ap_short": "Toegankelijke cultuur en erfgoed",
+    "ap_long": "We laten bezoekers en inwoners cultuur en erfgoed ontdekken, beleven en waarderen. We maken ons erfgoed zichtbaar en creëren een plek waar cultuur mensen samenbrengt.",
+    "ac_code": "LV04/06/SAP_LV04/06/SAP/03",
+    "ac_short": "Uitbreiding museum binnengebied",
+    "ac_long": "Uitbreiding museum binnengebied",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 50.0,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1000000.0,
+      "2029": 1000000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25.0,
+      "2029": 25.0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/15",
+    "ac_short": "Werken Nazaretdreef - Kanaalstraat",
+    "ac_long": "Werken Nazaretdreef - Kanaalstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1655000.0,
+    "amount_per_capita": 41.38,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 1655000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 41.38,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/02/KAP",
+    "ap_short": "Technisch beheer en onderhoud gebouwen en onroerend erfgoed",
+    "ap_long": "We verzorgen het technisch beheer en het onderhoud van onze gebouwen en ons onroerend erfgoed. Dit betekent dat we ervoor zorgen dat alles goed werkt, veilig is en in goede staat blijft, zodat deze eigendommen duurzaam kunnen blijven gebruikt worden.",
+    "ac_code": "LB04/02/KAP_LB04/02/KAP/05",
+    "ac_short": "Kleine investeringswerken gebouwen en onroerend erfgoed",
+    "ac_long": "Kleine investeringswerken gebouwen en onroerend erfgoed",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1254615.92,
+    "amount_per_capita": 31.37,
+    "yearly_amounts": {
+      "2026": 325694.92,
+      "2027": 178500.0,
+      "2028": 182070.0,
+      "2029": 185711.0,
+      "2030": 189426.0,
+      "2031": 193214.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.14,
+      "2027": 4.46,
+      "2028": 4.55,
+      "2029": 4.64,
+      "2030": 4.74,
+      "2031": 4.83
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/01/KAP",
+    "ap_short": "Financieel en zakelijk vastgoedbeheer",
+    "ap_long": "We gaan verstandig om met het geld en het beheer van ons vastgoed. We kiezen voor duurzame oplossingen, zetten middelen efficiënt in en nemen beslissingen op een transparante manier.",
+    "ac_code": "LB04/01/KAP_LB04/01/KAP/01",
+    "ac_short": "Middelen voor huur stadskantoor en Sociaal Huis",
+    "ac_long": "Middelen voor huur stadskantoor en Sociaal Huis",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1252332.33,
+    "amount_per_capita": 31.31,
+    "yearly_amounts": {
+      "2026": 198527.0,
+      "2027": 202497.54,
+      "2028": 206547.49,
+      "2029": 210678.44,
+      "2030": 214892.01,
+      "2031": 219189.85
+    },
+    "yearly_per_capita": {
+      "2026": 4.96,
+      "2027": 5.06,
+      "2028": 5.16,
+      "2029": 5.27,
+      "2030": 5.37,
+      "2031": 5.48
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 14",
+    "bd_short": "Beheer stedelijke vrijetijdsinfrastructuren",
+    "bd_long": "We beheren stedelijke gebouwen en ruimtes voor sport, jeugd, cultuur en vrije tijd als een goede huisvader.",
+    "ap_code": "LV06/01/KAP",
+    "ap_short": "Stedelijke vrijetijdsinfrastructuur ter beschikking stellen",
+    "ap_long": "We zorgen ervoor dat verenigingen, organisaties en andere groepen de stedelijke vrijetijdsinfrastructuur kunnen gebruiken. We onderhouden ze en doen de nodige investeringen.",
+    "ac_code": "LV06/01/KAP_LV06/01/KAP/07",
+    "ac_short": "Modernisering Netestadion",
+    "ac_long": "Modernisering Netestadion",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1240000.0,
+    "amount_per_capita": 31.0,
+    "yearly_amounts": {
+      "2026": 1240000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 31.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/02/KAP",
+    "ap_short": "Aantrekkelijk, duurzaam en goed onderhouden openbaar domein",
+    "ap_long": "We zorgen ervoor dat ons openbaar domein (wegen, voetpaden, grachten, pleinen, parken, groenzones en bossen) goed ingericht en onderhouden is. Het moet veilig, aangenaam en duurzaam zijn. We zetten in op proactief onderhoud, zodat iedereen kan genieten van groen in de buurt en beschermd is tegen wateroverlast.",
+    "ac_code": "LB03/02/KAP_LB03/02/KAP/02",
+    "ac_short": "Klimaatbestendig en goed onderhouden openbaar groen",
+    "ac_long": "Klimaatbestendig en goed onderhouden openbaar groen",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 1750000.0,
-    "amount_per_capita": 43.71,
+    "total_amount": 1213783.83,
+    "amount_per_capita": 30.35,
     "yearly_amounts": {
-      "2026": 1000000.0,
-      "2027": 600000.0,
-      "2028": 150000.0,
-      "2029": 0,
+      "2026": 425100.83,
+      "2027": 151160.0,
+      "2028": 154383.0,
+      "2029": 157671.0,
+      "2030": 161024.0,
+      "2031": 164445.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.63,
+      "2027": 3.78,
+      "2028": 3.86,
+      "2029": 3.94,
+      "2030": 4.03,
+      "2031": 4.11
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/06/SAP",
+    "ap_short": "Klimaatbestendig blauw netwerk",
+    "ap_long": "We zetten strategisch in op een klimaatbestendig blauw netwerk, dat de basis vormt voor een gezonde en duurzame leefomgeving.",
+    "ac_code": "LB03/06/SAP_LB03/06/SAP/02",
+    "ac_short": "Onthardingsprojecten uitvoeren",
+    "ac_long": "Onthardingsprojecten uitvoeren",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1200000.0,
+    "amount_per_capita": 30.0,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 300000.0,
+      "2028": 300000.0,
+      "2029": 300000.0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 24.98,
-      "2027": 14.99,
-      "2028": 3.75,
-      "2029": 0,
+      "2026": 7.5,
+      "2027": 7.5,
+      "2028": 7.5,
+      "2029": 7.5,
       "2030": 0,
       "2031": 0
     }
@@ -274,166 +818,846 @@
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
-    "bd_short": "Beheer stedelijke vrijetijdsinfrastructuren",
-    "bd_long": "We beheren stedelijke gebouwen en ruimtes voor sport, jeugd, cultuur en vrije tijd als een goede huisvader.",
-    "ap_code": "LV06",
-    "ap_short": "Stedelijke vrijetijdsinfrastructuur ter beschikking stellen",
-    "ap_long": "We zorgen ervoor dat verenigingen, organisaties en andere groepen de stedelijke vrijetijdsinfrastructuur kunnen gebruiken. We onderhouden ze en doen de nodige investeringen.",
-    "ac_code": "LV06",
-    "ac_short": "Aankoop personenlift",
-    "ac_long": "Aankoop personenlift",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/02",
+    "ac_short": "Restauratie begijnhofwoningen (buiten MJPO)",
+    "ac_long": "Restauratie begijnhofwoningen (buiten MJPO)",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1683000.0,
-    "amount_per_capita": 42.04,
+    "total_amount": 1200000.0,
+    "amount_per_capita": 30.0,
     "yearly_amounts": {
-      "2026": 1490000.0,
-      "2027": 55000.0,
-      "2028": 34000.0,
-      "2029": 55000.0,
-      "2030": 49000.0,
+      "2026": 300000.0,
+      "2027": 400000.0,
+      "2028": 200000.0,
+      "2029": 200000.0,
+      "2030": 100000.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 37.22,
-      "2027": 1.37,
-      "2028": 0.85,
-      "2029": 1.37,
-      "2030": 1.22,
+      "2026": 7.5,
+      "2027": 10.0,
+      "2028": 5.0,
+      "2029": 5.0,
+      "2030": 2.5,
       "2031": 0
     }
   },
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/05/SAP",
+    "ap_short": "Verduurzamen gebouwen en onroerend erfgoed",
+    "ap_long": "We maken onze gebouwen en onroerend erfgoed klaar voor de toekomst en dragen bij aan de klimaatdoelstellingen. We doen dat met maatregelen om het energieverbruik te verlagen, het comfort te verbeteren en de ecologische impact te verminderen. Zo investeren we onder meer in isolatie, zonnepanelen, energiezuinige installaties, relighting en duurzame technieken.",
+    "ac_code": "LB04/05/SAP_LB04/05/SAP/04",
+    "ac_short": "Relighting",
+    "ac_long": "Relighting",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1130000.0,
+    "amount_per_capita": 28.25,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 26000.0,
+      "2028": 126000.0,
+      "2029": 226000.0,
+      "2030": 326000.0,
+      "2031": 426000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.65,
+      "2028": 3.15,
+      "2029": 5.65,
+      "2030": 8.15,
+      "2031": 10.65
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/02",
+    "ac_short": "Werken Lisp 1 (Sterrenstr.-Maanstr.-Komeetstr.-Hemelplein)",
+    "ac_long": "Werken Lisp 1 (Sterrenstr.-Maanstr.-Komeetstr.-Hemelplein)",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1120697.83,
+    "amount_per_capita": 28.02,
+    "yearly_amounts": {
+      "2026": 1120697.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 28.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 4",
+    "bd_short": "ICT en informatiebeheer",
+    "bd_long": "We bouwen stap voor stap aan een gedragen en professioneel informatiebeheer binnen onze organisatie. Dit doen we door een centraal informatiebeheerbeleid uit te rollen dat duidelijke richtlijnen en verantwoordelijkheden vastlegt voor het omgaan met informatie. Tegelijkertijd implementeren we een uniforme en logische structuur voor digitale documenten, zodat informatie makkelijk terug te vinden, correct gearchiveerd en veilig bewaard wordt. Op die manier zorgen we voor een toegankelijke, betrouwbare en efficiënte informatievoorziening die de werking van de organisatie versterkt en bijdraagt aan het realiseren van onze strategische doelstellingen.",
+    "ap_code": "W04/03/KAP",
+    "ap_short": "Stabiele en veilige ICT omgeving",
+    "ap_long": "We voorzien de juiste digitale werkmiddelen voor alle medewerkers, een goed onderhouden IT-infrastructuur, en een doorgedreven beveiligingsbeleid.",
+    "ac_code": "W04/03/KAP_W04/03/KAP/06",
+    "ac_short": "Vernieuwing verouderde IT-apparatuur",
+    "ac_long": "Vernieuwing verouderde IT-apparatuur",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1118579.46,
+    "amount_per_capita": 27.97,
+    "yearly_amounts": {
+      "2026": 216197.46,
+      "2027": 173400.0,
+      "2028": 176868.0,
+      "2029": 180406.0,
+      "2030": 184014.0,
+      "2031": 187694.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.41,
+      "2027": 4.34,
+      "2028": 4.42,
+      "2029": 4.51,
+      "2030": 4.6,
+      "2031": 4.69
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/05/SAP",
+    "ap_short": "Verduurzamen gebouwen en onroerend erfgoed",
+    "ap_long": "We maken onze gebouwen en onroerend erfgoed klaar voor de toekomst en dragen bij aan de klimaatdoelstellingen. We doen dat met maatregelen om het energieverbruik te verlagen, het comfort te verbeteren en de ecologische impact te verminderen. Zo investeren we onder meer in isolatie, zonnepanelen, energiezuinige installaties, relighting en duurzame technieken.",
+    "ac_code": "LB04/05/SAP_LB04/05/SAP/01",
+    "ac_short": "Gebouwschil verduurzamen",
+    "ac_long": "Gebouwschil verduurzamen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1095280.91,
+    "amount_per_capita": 27.38,
+    "yearly_amounts": {
+      "2026": 325602.91,
+      "2027": 147900.0,
+      "2028": 150858.0,
+      "2029": 153875.0,
+      "2030": 156953.0,
+      "2031": 160092.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.14,
+      "2027": 3.7,
+      "2028": 3.77,
+      "2029": 3.85,
+      "2030": 3.92,
+      "2031": 4.0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/03",
+    "ac_short": "Werken Berlaarsestraat en Kluizeplein (Arch. Normaalschool)",
+    "ac_long": "Werken Berlaarsestraat en Kluizeplein (Arch. Normaalschool)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1048256.79,
+    "amount_per_capita": 26.21,
+    "yearly_amounts": {
+      "2026": 948256.79,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 23.71,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2.5,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/07",
+    "ac_short": "Werken stadhuis",
+    "ac_long": "Werken stadhuis",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 936495.22,
+    "amount_per_capita": 23.41,
+    "yearly_amounts": {
+      "2026": 88498.22,
+      "2027": 430635.0,
+      "2028": 417362.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.21,
+      "2027": 10.77,
+      "2028": 10.43,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 2",
+    "bd_short": "Doordacht beheer van de financiële middelen",
+    "bd_long": "We beheren onze financiële middelen op een moderne, transparante en efficiënte manier. We zetten ze optimaal in en nemen weloverwogen beslissingen op basis van de noden van onze organisatie, onze klanten en onze kerntaken. We bekijken welke subsidies onze werking extra kunnen ondersteunen. We evalueren geregeld onze financiële situatie.",
+    "ap_code": "W02/01/KAP",
+    "ap_short": "Modern financieel beheer",
+    "ap_long": "We beheren onze algemene financiering op een efficiënte manier, zodat onze organisatie vlot kan blijven werken. We vergelijken onze financiële situatie met het Vlaamse gemiddelde en sturen bij waar mogelijk.",
+    "ac_code": "W02/01/KAP_W02/01/KAP/03",
+    "ac_short": "Werkingsmiddelen financieel beheer",
+    "ac_long": "Werkingsmiddelen financieel beheer",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 900000.0,
+    "amount_per_capita": 22.5,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 300000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.5,
+      "2027": 0,
+      "2028": 7.5,
+      "2029": 0,
+      "2030": 7.5,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/02/KAP",
+    "ap_short": "Technisch beheer en onderhoud gebouwen en onroerend erfgoed",
+    "ap_long": "We verzorgen het technisch beheer en het onderhoud van onze gebouwen en ons onroerend erfgoed. Dit betekent dat we ervoor zorgen dat alles goed werkt, veilig is en in goede staat blijft, zodat deze eigendommen duurzaam kunnen blijven gebruikt worden.",
+    "ac_code": "LB04/02/KAP_LB04/02/KAP/06",
+    "ac_short": "Renovatie OCMW-woningen",
+    "ac_long": "Renovatie OCMW-woningen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 791478.26,
+    "amount_per_capita": 19.79,
+    "yearly_amounts": {
+      "2026": 366828.26,
+      "2027": 81600.0,
+      "2028": 83232.0,
+      "2029": 84897.0,
+      "2030": 86595.0,
+      "2031": 88326.0
+    },
+    "yearly_per_capita": {
+      "2026": 9.17,
+      "2027": 2.04,
+      "2028": 2.08,
+      "2029": 2.12,
+      "2030": 2.17,
+      "2031": 2.21
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 4",
+    "bd_short": "ICT en informatiebeheer",
+    "bd_long": "We bouwen stap voor stap aan een gedragen en professioneel informatiebeheer binnen onze organisatie. Dit doen we door een centraal informatiebeheerbeleid uit te rollen dat duidelijke richtlijnen en verantwoordelijkheden vastlegt voor het omgaan met informatie. Tegelijkertijd implementeren we een uniforme en logische structuur voor digitale documenten, zodat informatie makkelijk terug te vinden, correct gearchiveerd en veilig bewaard wordt. Op die manier zorgen we voor een toegankelijke, betrouwbare en efficiënte informatievoorziening die de werking van de organisatie versterkt en bijdraagt aan het realiseren van onze strategische doelstellingen.",
+    "ap_code": "W04/03/KAP",
+    "ap_short": "Stabiele en veilige ICT omgeving",
+    "ap_long": "We voorzien de juiste digitale werkmiddelen voor alle medewerkers, een goed onderhouden IT-infrastructuur, en een doorgedreven beveiligingsbeleid.",
+    "ac_code": "W04/03/KAP_W04/03/KAP/05",
+    "ac_short": "Vernieuwing netwerkcomponenten, datacenter en serverpark",
+    "ac_long": "Vernieuwing netwerkcomponenten, datacenter en serverpark",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 780241.43,
+    "amount_per_capita": 19.51,
+    "yearly_amounts": {
+      "2026": 149052.43,
+      "2027": 86700.0,
+      "2028": 268434.0,
+      "2029": 90202.0,
+      "2030": 92006.0,
+      "2031": 93847.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.73,
+      "2027": 2.17,
+      "2028": 6.71,
+      "2029": 2.26,
+      "2030": 2.3,
+      "2031": 2.35
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/09",
+    "ac_short": "Dakwerken en reorganisatie Podiumacademie",
+    "ac_long": "Dakwerken en reorganisatie Podiumacademie",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 684629.0,
+    "amount_per_capita": 17.12,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 68463.0,
+      "2028": 479240.0,
+      "2029": 136926.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.71,
+      "2028": 11.98,
+      "2029": 3.42,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/01",
+    "ac_short": "Afwerken projecten vorige legislatuur",
+    "ac_long": "Afwerken projecten vorige legislatuur",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 617586.18,
+    "amount_per_capita": 15.44,
+    "yearly_amounts": {
+      "2026": 602586.18,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 15.07,
+      "2027": 0.38,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/08",
+    "ac_short": "Werken leescafé en Colibrant",
+    "ac_long": "Werken leescafé en Colibrant",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 536335.0,
+    "amount_per_capita": 13.41,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 80450.0,
+      "2029": 455885.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.01,
+      "2029": 11.4,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 11",
     "bd_short": "Beleving in de stad voor jongeren en kinderen",
     "bd_long": "We zorgen er met een boeiend aanbod voor dat kinderen en jongeren zich welkom voelen in onze stad, er zich kunnen uitleven en nieuwe dingen kunnen ontdekken.",
-    "ap_code": "LV03",
-    "ap_short": "Speelruimtes aantrekkelijk en dynamisch inrichten",
-    "ap_long": "We zorgen voor veilige en aantrekkelijke speelinfrastructuur in jeugdcentrum Moevement en op de locaties van de buitenschoolse kinderopvang (BKO), zodat kinderen zich daar veilig kunnen uitleven.",
-    "ac_code": "LV03",
-    "ac_short": "Speluitrusting voor BKO-locaties",
-    "ac_long": "Speluitrusting voor BKO-locaties",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 750465.0,
-    "amount_per_capita": 18.75,
-    "yearly_amounts": {
-      "2026": 208000.0,
-      "2027": 258160.0,
-      "2028": 28323.0,
-      "2029": 108490.0,
-      "2030": 38659.0,
-      "2031": 108833.0
-    },
-    "yearly_per_capita": {
-      "2026": 5.2,
-      "2027": 6.45,
-      "2028": 0.71,
-      "2029": 2.71,
-      "2030": 0.97,
-      "2031": 2.72
-    }
-  },
-  {
-    "municipality": "Lier",
-    "nis_code": "12021",
-    "bd_code": "BDS",
-    "bd_short": "Ondersteunen stakeholders bij beleving in de stad",
-    "bd_long": "We ondersteunen en begeleiden onze stakeholders, zoals lokale ondernemers, verenigingen en culturele organisaties. Door hun bijdrage kunnen we de beleving in de stad versterken.",
-    "ap_code": "LV05",
-    "ap_short": "Vrijetijdsmanagement optimaliseren",
-    "ap_long": "We verbeteren de planning, organisatie en promotie van alles wat met vrije tijd te maken heeft.  We willen vlotter samenwerken, duidelijker communiceren en beter kunnen inspelen op de wensen van inwoners, verenigingen en andere partners.",
-    "ac_code": "LV05",
-    "ac_short": "Uitbreiding dienstverlening Bib",
-    "ac_long": "Uitbreiding dienstverlening Bib",
+    "ap_code": "LV03/05/SAP",
+    "ap_short": "Label kindvriendelijke stad behalen",
+    "ap_long": "We zetten in op een kindvriendelijk beleid en willen in 2026 het label Kindvriendelijke Stad behalen. In alles wat we doen, ook bij het maken en uitvoeren van het beleid, hebben we aandacht voor kinderen en jongeren.",
+    "ac_code": "LV03/05/SAP_LV03/05/SAP/04",
+    "ac_short": "Aantrekkelijke sport- en speelruimte",
+    "ac_long": "Aantrekkelijke sport- en speelruimte",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 697381.0,
-    "amount_per_capita": 17.42,
+    "total_amount": 535472.4,
+    "amount_per_capita": 13.39,
     "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 495200.0,
-      "2028": 150404.0,
-      "2029": 13712.0,
-      "2030": 13924.0,
-      "2031": 14141.0
+      "2026": 185472.4,
+      "2027": 100000.0,
+      "2028": 20000.0,
+      "2029": 100000.0,
+      "2030": 30000.0,
+      "2031": 100000.0
     },
     "yearly_per_capita": {
-      "2026": 0.25,
-      "2027": 12.37,
-      "2028": 3.76,
-      "2029": 0.34,
-      "2030": 0.35,
-      "2031": 0.35
+      "2026": 4.64,
+      "2027": 2.5,
+      "2028": 0.5,
+      "2029": 2.5,
+      "2030": 0.75,
+      "2031": 2.5
     }
   },
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/05/SAP",
+    "ap_short": "Verduurzamen gebouwen en onroerend erfgoed",
+    "ap_long": "We maken onze gebouwen en onroerend erfgoed klaar voor de toekomst en dragen bij aan de klimaatdoelstellingen. We doen dat met maatregelen om het energieverbruik te verlagen, het comfort te verbeteren en de ecologische impact te verminderen. Zo investeren we onder meer in isolatie, zonnepanelen, energiezuinige installaties, relighting en duurzame technieken.",
+    "ac_code": "LB04/05/SAP_LB04/05/SAP/03",
+    "ac_short": "HVAC-installaties",
+    "ac_long": "HVAC-installaties",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 521459.18,
+    "amount_per_capita": 13.04,
+    "yearly_amounts": {
+      "2026": 268728.18,
+      "2027": 46800.0,
+      "2028": 48636.0,
+      "2029": 50509.0,
+      "2030": 52419.0,
+      "2031": 54367.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.72,
+      "2027": 1.17,
+      "2028": 1.22,
+      "2029": 1.26,
+      "2030": 1.31,
+      "2031": 1.36
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/13",
+    "ac_short": "Werken Heilige Familiekerk",
+    "ac_long": "Werken Heilige Familiekerk",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 459900.0,
+    "amount_per_capita": 11.5,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 229950.0,
+      "2028": 229950.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 5.75,
+      "2028": 5.75,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 19",
     "bd_short": "Veilige, goed bereikbare en propere stad",
     "bd_long": "We willen van onze stad een fijne plek maken om te wonen, te werken en te bezoeken. We zorgen ervoor dat iedereen zich op een veilige en duurzame manier kan verplaatsen. We gaan preventief te werk en zorgen er zo voor dat onze inwoners zich veilig voelen in een propere stad.",
-    "ap_code": "LB01",
-    "ap_short": "Preventieve acties om de leefkwaliteit te versterken",
-    "ap_long": "We versterken de leefkwaliteit door gezondheidsprojecten te ondersteunen, veiligheidsinitiatieven op te zetten en in te zetten op monitoring van het leefmilieu.",
-    "ac_code": "LB01",
-    "ac_short": "Ongedierte in onze stad bestrijden",
-    "ac_long": "Ongedierte in onze stad bestrijden",
+    "ap_code": "LB01/04/KAP",
+    "ap_short": "Openbaar domein inrichten met zwakke weggebruiker centraal",
+    "ap_long": "We willen het openbaar domein zo inrichten dat het veilig, aangenaam en toegankelijk is voor iedereen. We geven extra aandacht aan zwakke weggebruikers zoals voetgangers, fietsers, kinderen, ouderen en mensen met een beperking.",
+    "ac_code": "LB01/04/KAP_LB01/04/KAP/04",
+    "ac_short": "Verkeersveilige (weg)infrastructuur",
+    "ac_long": "Verkeersveilige (weg)infrastructuur",
     "categories": [
-      "04-veiligheidszorg"
+      "02-mobiliteit"
     ],
-    "total_amount": 555851.0,
-    "amount_per_capita": 13.88,
+    "total_amount": 451528.1,
+    "amount_per_capita": 11.29,
     "yearly_amounts": {
-      "2026": 210391.0,
-      "2027": 70670.0,
-      "2028": 64550.0,
-      "2029": 71741.0,
-      "2030": 65642.0,
-      "2031": 72857.0
+      "2026": 238178.0,
+      "2027": 41879.16,
+      "2028": 42266.76,
+      "2029": 42662.11,
+      "2030": 43065.37,
+      "2031": 43476.7
     },
     "yearly_per_capita": {
-      "2026": 5.26,
-      "2027": 1.77,
-      "2028": 1.61,
-      "2029": 1.79,
-      "2030": 1.64,
-      "2031": 1.82
+      "2026": 5.95,
+      "2027": 1.05,
+      "2028": 1.06,
+      "2029": 1.07,
+      "2030": 1.08,
+      "2031": 1.09
     }
   },
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/05/SAP",
+    "ap_short": "Klimaatbestendig groen netwerk",
+    "ap_long": "We zettenstrategisch in op meer en duurzamer openbaar groen. Bij elk project houden we rekening met biodiversiteit, toegankelijkheid en onderhoud op lange termijn.",
+    "ac_code": "LB03/05/SAP_LB03/05/SAP/03",
+    "ac_short": "Parken ontwikkelen en onderhouden",
+    "ac_long": "Parken ontwikkelen en onderhouden",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 11.25,
+    "yearly_amounts": {
+      "2026": 90000.0,
+      "2027": 0,
+      "2028": 360000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.25,
+      "2027": 0,
+      "2028": 9.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 4",
+    "bd_short": "ICT en informatiebeheer",
+    "bd_long": "We bouwen stap voor stap aan een gedragen en professioneel informatiebeheer binnen onze organisatie. Dit doen we door een centraal informatiebeheerbeleid uit te rollen dat duidelijke richtlijnen en verantwoordelijkheden vastlegt voor het omgaan met informatie. Tegelijkertijd implementeren we een uniforme en logische structuur voor digitale documenten, zodat informatie makkelijk terug te vinden, correct gearchiveerd en veilig bewaard wordt. Op die manier zorgen we voor een toegankelijke, betrouwbare en efficiënte informatievoorziening die de werking van de organisatie versterkt en bijdraagt aan het realiseren van onze strategische doelstellingen.",
+    "ap_code": "W04/02/KAP",
+    "ap_short": "Inzet op verdere digitalisering",
+    "ap_long": "We stimuleren en ondersteunen verdere digitalisering om onze klanten nog efficiënter te kunnen helpen. We verliezen daarbij een klantgerichte dienstverlening niet uit het oog.",
+    "ac_code": "W04/02/KAP_W04/02/KAP/01",
+    "ac_short": "Aankopen voor digitaliseringsprojecten",
+    "ac_long": "Aankopen voor digitaliseringsprojecten",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 429109.44,
+    "amount_per_capita": 10.73,
+    "yearly_amounts": {
+      "2026": 110622.44,
+      "2027": 61200.0,
+      "2028": 62424.0,
+      "2029": 63672.0,
+      "2030": 64946.0,
+      "2031": 66245.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.77,
+      "2027": 1.53,
+      "2028": 1.56,
+      "2029": 1.59,
+      "2030": 1.62,
+      "2031": 1.66
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/04/SAP",
+    "ap_short": "Strategisch beleid vastgoed",
+    "ap_long": "We maken doordachte keuzes over het gebruik, het beheer, het onderhoud en de ontwikkeling van ons vastgoed. We zorgen voor een duurzaam, efficiënt en verantwoord vastgoedbeleid, waarbij we rekening houden met de erfgoedwaarde, functionaliteit, energiezuinigheid en maatschappelijke meerwaarde van de gebouwen, groenden en onroerend erfgoed.",
+    "ac_code": "LB04/04/SAP_LB04/04/SAP/02",
+    "ac_short": "Masterplannen opstellen voor onze gebouwen",
+    "ac_long": "Masterplannen opstellen voor onze gebouwen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 418446.0,
+    "amount_per_capita": 10.46,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 51000.0,
+      "2028": 77020.0,
+      "2029": 78560.0,
+      "2030": 80132.0,
+      "2031": 81734.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.25,
+      "2027": 1.28,
+      "2028": 1.93,
+      "2029": 1.96,
+      "2030": 2.0,
+      "2031": 2.04
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/06/SAP",
+    "ap_short": "Klimaatbestendig blauw netwerk",
+    "ap_long": "We zetten strategisch in op een klimaatbestendig blauw netwerk, dat de basis vormt voor een gezonde en duurzame leefomgeving.",
+    "ac_code": "LB03/06/SAP_LB03/06/SAP/05",
+    "ac_short": "Waterbeheer Binnennete",
+    "ac_long": "Waterbeheer Binnennete",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 415150.0,
+    "amount_per_capita": 10.38,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 50000.0,
+      "2028": 315150.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.25,
+      "2027": 1.25,
+      "2028": 7.88,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/02/KAP",
+    "ap_short": "Technisch beheer en onderhoud gebouwen en onroerend erfgoed",
+    "ap_long": "We verzorgen het technisch beheer en het onderhoud van onze gebouwen en ons onroerend erfgoed. Dit betekent dat we ervoor zorgen dat alles goed werkt, veilig is en in goede staat blijft, zodat deze eigendommen duurzaam kunnen blijven gebruikt worden.",
+    "ac_code": "LB04/02/KAP_LB04/02/KAP/04",
+    "ac_short": "Veiligheid gebouwen en onroerend erfgoed",
+    "ac_long": "Veiligheid gebouwen en onroerend erfgoed",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 404999.03,
+    "amount_per_capita": 10.13,
+    "yearly_amounts": {
+      "2026": 68000.03,
+      "2027": 95900.0,
+      "2028": 97818.0,
+      "2029": 46818.0,
+      "2030": 47754.0,
+      "2031": 48709.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.7,
+      "2027": 2.4,
+      "2028": 2.45,
+      "2029": 1.17,
+      "2030": 1.19,
+      "2031": 1.22
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 13",
+    "bd_short": "Ondersteunen stakeholders bij beleving in de stad",
+    "bd_long": "We ondersteunen en begeleiden onze stakeholders, zoals lokale ondernemers, verenigingen en culturele organisaties. Door hun bijdrage kunnen we de beleving in de stad versterken.",
+    "ap_code": "LV05/02/KAP",
+    "ap_short": "Lierse erkende verenigingen en organisaties ondersteunen",
+    "ap_long": "We ondersteunen erkende Lierse verenigingen en organisaties in hun dagelijkse werking en bij het organiseren van activiteiten en evenementen. Zo stimuleren we een levendig verenigingsleven en unieke evenementen in onze stad.",
+    "ac_code": "LV05/02/KAP_LV05/02/KAP/04",
+    "ac_short": "Toelage Lierse SK voor kunstgrasveld",
+    "ac_long": "Toelage Lierse SK voor kunstgrasveld",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 10.0,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 400000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 10.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/05/SAP",
+    "ap_short": "Verduurzamen gebouwen en onroerend erfgoed",
+    "ap_long": "We maken onze gebouwen en onroerend erfgoed klaar voor de toekomst en dragen bij aan de klimaatdoelstellingen. We doen dat met maatregelen om het energieverbruik te verlagen, het comfort te verbeteren en de ecologische impact te verminderen. Zo investeren we onder meer in isolatie, zonnepanelen, energiezuinige installaties, relighting en duurzame technieken.",
+    "ac_code": "LB04/05/SAP_LB04/05/SAP/02",
+    "ac_short": "PV-installaties",
+    "ac_long": "PV-installaties",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 398442.23,
+    "amount_per_capita": 9.96,
+    "yearly_amounts": {
+      "2026": 245422.23,
+      "2027": 0,
+      "2028": 0,
+      "2029": 50000.0,
+      "2030": 51000.0,
+      "2031": 52020.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1.25,
+      "2030": 1.28,
+      "2031": 1.3
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 15",
     "bd_short": "Ondersteunend beleid Academies",
     "bd_long": "Wij voeren met de Beeld- en Podiumacademie een ondersteunend beleid en spelen, naast onze educatieve opdracht, een actieve rol in sociaal-maatschappelijke evoluties. Zo versterken we de banden tussen onderwijs, vrije tijd en welzijn, en benadrukken we de meerwaarde die de academies bieden aan het culturele leven in Lier en de regio.",
-    "ap_code": "LV07",
+    "ap_code": "LV07/02/KAP",
     "ap_short": "De academies efficiënt organiseren",
     "ap_long": "We bereiken een ruim en divers publiek door in te zetten op een efficiënte werking van de academies. Door een kwaliteitsvolle werking en toegankelijk aanbod maken we kunst- en muziekonderwijs bereikbaar voor iedereen.",
-    "ac_code": "LV07",
+    "ac_code": "LV07/02/KAP_LV07/02/KAP/06",
     "ac_short": "Onderhoud en vernieuwing didactisch materiaal",
     "ac_long": "Onderhoud en vernieuwing didactisch materiaal",
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 346946.0,
-    "amount_per_capita": 8.67,
+    "total_amount": 350131.84,
+    "amount_per_capita": 8.75,
     "yearly_amounts": {
-      "2026": 55000.0,
+      "2026": 58185.19,
       "2027": 56100.0,
       "2028": 57222.0,
-      "2029": 58366.0,
-      "2030": 59534.0,
-      "2031": 60724.0
+      "2029": 58366.44,
+      "2030": 59533.77,
+      "2031": 60724.44
     },
     "yearly_per_capita": {
-      "2026": 1.37,
+      "2026": 1.45,
       "2027": 1.4,
       "2028": 1.43,
       "2029": 1.46,
@@ -444,22 +1668,1348 @@
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
-    "bd_short": "Toegankelijk vrijetijdsaanbod",
-    "bd_long": "We zorgen voor een mooi, betaalbaar en toegankelijk aanbod aan vrije tijd voor al onze inwoners, ongeacht hun leeftijd of achtergrond, met of zonder beperking. Iedereen moet kunnen deelnemen aan sport, cultuur, natuur en ontspanning.",
-    "ap_code": "LV02",
-    "ap_short": "Beleid gericht op levenslang en levensbreed leesplezier",
-    "ap_long": "We voeren met bib de Fé een sterk leesbevorderingsbeleid dat inzet op leesplezier in elke levensfase en context. We maken lezen toegankelijk voor iedereen en besteden extra aandacht aan wie minder makkelijk toegang heeft tot boeken en taal.",
-    "ac_code": "LV02",
-    "ac_short": "Uitnodigende leesomgeving voor kinderen en jongeren",
-    "ac_long": "Uitnodigende leesomgeving voor kinderen en jongeren",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/15",
+    "ac_short": "Werken in het kader van masterplan Fort",
+    "ac_long": "Werken in het kader van masterplan Fort",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 333173.0,
+    "amount_per_capita": 8.33,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 333173.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 8.33,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 8",
+    "bd_short": "Efficiënte inzet facilitaire middelen",
+    "bd_long": "We zorgen ervoor dat onze medewerkers over de nodige middelen beschikken om hun werk veilig, efficiënt en kwaliteitsvol te kunnen uitvoeren. We onderhouden, herstellen en vervangen deze middelen tijdig.",
+    "ap_code": "W08/03/KAP",
+    "ap_short": "Facilitaire middelen voor medewerkers en materieel",
+    "ap_long": "We garanderen de duurzaamheid en een optimale inzetbaarheid van onze werk- en signalisatiekledij, persoonlijke beschermingsmiddelen, gereedschappen, verbruiksmaterialen, machineonderdelen en materiaal voor speeltoestellen.",
+    "ac_code": "W08/03/KAP_W08/03/KAP/02",
+    "ac_short": "Beheer verbruiksmaterialen, machines en installaties",
+    "ac_long": "Beheer verbruiksmaterialen, machines en installaties",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 331372.61,
+    "amount_per_capita": 8.29,
+    "yearly_amounts": {
+      "2026": 83582.0,
+      "2027": 68863.4,
+      "2028": 44160.66,
+      "2029": 48104.11,
+      "2030": 36154.06,
+      "2031": 50508.38
+    },
+    "yearly_per_capita": {
+      "2026": 2.09,
+      "2027": 1.72,
+      "2028": 1.1,
+      "2029": 1.2,
+      "2030": 0.9,
+      "2031": 1.26
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/02/KAP",
+    "ap_short": "Aantrekkelijk, duurzaam en goed onderhouden openbaar domein",
+    "ap_long": "We zorgen ervoor dat ons openbaar domein (wegen, voetpaden, grachten, pleinen, parken, groenzones en bossen) goed ingericht en onderhouden is. Het moet veilig, aangenaam en duurzaam zijn. We zetten in op proactief onderhoud, zodat iedereen kan genieten van groen in de buurt en beschermd is tegen wateroverlast.",
+    "ac_code": "LB03/02/KAP_LB03/02/KAP/05",
+    "ac_short": "Kleine investeringswerken openbaar domein",
+    "ac_long": "Kleine investeringswerken openbaar domein",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 327185.76,
+    "amount_per_capita": 8.18,
+    "yearly_amounts": {
+      "2026": 75050.01,
+      "2027": 48450.0,
+      "2028": 49419.0,
+      "2029": 50407.38,
+      "2030": 51415.53,
+      "2031": 52443.84
+    },
+    "yearly_per_capita": {
+      "2026": 1.88,
+      "2027": 1.21,
+      "2028": 1.24,
+      "2029": 1.26,
+      "2030": 1.29,
+      "2031": 1.31
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/17",
+    "ac_short": "Werken in Lantaarnstraat",
+    "ac_long": "Werken in Lantaarnstraat",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 275000.0,
+    "amount_per_capita": 6.88,
+    "yearly_amounts": {
+      "2026": 275000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/05/SAP",
+    "ap_short": "Klimaatbestendig groen netwerk",
+    "ap_long": "We zettenstrategisch in op meer en duurzamer openbaar groen. Bij elk project houden we rekening met biodiversiteit, toegankelijkheid en onderhoud op lange termijn.",
+    "ac_code": "LB03/05/SAP_LB03/05/SAP/02",
+    "ac_short": "Bossen duurzaam beheren en uitbreiden",
+    "ac_long": "Bossen duurzaam beheren en uitbreiden",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 266790.36,
+    "amount_per_capita": 6.67,
+    "yearly_amounts": {
+      "2026": 7790.36,
+      "2027": 259000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.19,
+      "2027": 6.48,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 14",
+    "bd_short": "Beheer stedelijke vrijetijdsinfrastructuren",
+    "bd_long": "We beheren stedelijke gebouwen en ruimtes voor sport, jeugd, cultuur en vrije tijd als een goede huisvader.",
+    "ap_code": "LV06/01/KAP",
+    "ap_short": "Stedelijke vrijetijdsinfrastructuur ter beschikking stellen",
+    "ap_long": "We zorgen ervoor dat verenigingen, organisaties en andere groepen de stedelijke vrijetijdsinfrastructuur kunnen gebruiken. We onderhouden ze en doen de nodige investeringen.",
+    "ac_code": "LV06/01/KAP_LV06/01/KAP/04",
+    "ac_short": "Onderhoud Sportpark Lier",
+    "ac_long": "Onderhoud Sportpark Lier",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 42000.0,
-    "amount_per_capita": 1.05,
+    "total_amount": 250000.0,
+    "amount_per_capita": 6.25,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 250000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/06",
+    "ac_short": "Werken Den Bril",
+    "ac_long": "Werken Den Bril",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 234200.0,
+    "amount_per_capita": 5.86,
+    "yearly_amounts": {
+      "2026": 34200.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 200000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.86,
+      "2027": 0,
+      "2028": 0,
+      "2029": 5.0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/07",
+    "ac_short": "Werken Kozak",
+    "ac_long": "Werken Kozak",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 208156.22,
+    "amount_per_capita": 5.2,
+    "yearly_amounts": {
+      "2026": 208156.22,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.2,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 13",
+    "bd_short": "Ondersteunen stakeholders bij beleving in de stad",
+    "bd_long": "We ondersteunen en begeleiden onze stakeholders, zoals lokale ondernemers, verenigingen en culturele organisaties. Door hun bijdrage kunnen we de beleving in de stad versterken.",
+    "ap_code": "LV05/02/KAP",
+    "ap_short": "Lierse erkende verenigingen en organisaties ondersteunen",
+    "ap_long": "We ondersteunen erkende Lierse verenigingen en organisaties in hun dagelijkse werking en bij het organiseren van activiteiten en evenementen. Zo stimuleren we een levendig verenigingsleven en unieke evenementen in onze stad.",
+    "ac_code": "LV05/02/KAP_LV05/02/KAP/08",
+    "ac_short": "Aankoop en onderhoud feestmateriaal",
+    "ac_long": "Aankoop en onderhoud feestmateriaal",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 163959.46,
+    "amount_per_capita": 4.1,
+    "yearly_amounts": {
+      "2026": 25878.46,
+      "2027": 95200.0,
+      "2028": 10404.0,
+      "2029": 10612.0,
+      "2030": 10824.0,
+      "2031": 11041.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.65,
+      "2027": 2.38,
+      "2028": 0.26,
+      "2029": 0.27,
+      "2030": 0.27,
+      "2031": 0.28
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 12",
+    "bd_short": "Aantrekkelijke toeristische belevingsplek en erfgoed",
+    "bd_long": "We zorgen goed voor het historische erfgoed in onze stad en stellen het open voor iedereen. We brengen het verleden tot leven en versterken Lier als aantrekkelijke toeristische bestemming met een rijk cultureel aanbod.",
+    "ap_code": "LV04/02/KAP",
+    "ap_short": "Behoud en borgen van onze collectie",
+    "ap_long": "We zetten in op het behoud en veilig bewaren van onze erfgoedcollectie. We dragen zorg voor het erfgoed dat we al in bezit hebben, zodat het ook voor toekomstige generaties bewaard blijft.",
+    "ac_code": "LV04/02/KAP_LV04/02/KAP/01",
+    "ac_short": "Conservatie en restauratie van kunstwerken",
+    "ac_long": "Conservatie en restauratie van kunstwerken",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 162947.8,
+    "amount_per_capita": 4.07,
+    "yearly_amounts": {
+      "2026": 35947.8,
+      "2027": 47000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.9,
+      "2027": 1.18,
+      "2028": 0.5,
+      "2029": 0.5,
+      "2030": 0.5,
+      "2031": 0.5
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/17",
+    "ac_short": "Extra kleedkamers en sanitair Sporthal Spui",
+    "ac_long": "Extra kleedkamers en sanitair Sporthal Spui",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 155006.0,
+    "amount_per_capita": 3.88,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 155006.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 3.88,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 11",
+    "bd_short": "Beleving in de stad voor jongeren en kinderen",
+    "bd_long": "We zorgen er met een boeiend aanbod voor dat kinderen en jongeren zich welkom voelen in onze stad, er zich kunnen uitleven en nieuwe dingen kunnen ontdekken.",
+    "ap_code": "LV03/03/KAP",
+    "ap_short": "BOA-decreet uitvoeren",
+    "ap_long": "We bouwen het opvang- en vrijetijdsaanbod voor schoolgaande kinderen verder uit. Zo geven we hen extra kansen om zich te ontwikkelen, te spelen en hun creativiteit te ontdekken.",
+    "ac_code": "LV03/03/KAP_LV03/03/KAP/06",
+    "ac_short": "Busvervoer voor BKO en jeugdactiviteiten",
+    "ac_long": "Busvervoer voor BKO en jeugdactiviteiten",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 3.75,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.75,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 11",
+    "bd_short": "Beleving in de stad voor jongeren en kinderen",
+    "bd_long": "We zorgen er met een boeiend aanbod voor dat kinderen en jongeren zich welkom voelen in onze stad, er zich kunnen uitleven en nieuwe dingen kunnen ontdekken.",
+    "ap_code": "LV03/05/SAP",
+    "ap_short": "Label kindvriendelijke stad behalen",
+    "ap_long": "We zetten in op een kindvriendelijk beleid en willen in 2026 het label Kindvriendelijke Stad behalen. In alles wat we doen, ook bij het maken en uitvoeren van het beleid, hebben we aandacht voor kinderen en jongeren.",
+    "ac_code": "LV03/05/SAP_LV03/05/SAP/01",
+    "ac_short": "Speelkansen voor kinderen en jongeren",
+    "ac_long": "Speelkansen voor kinderen en jongeren",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 3.75,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.75,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/13",
+    "ac_short": "Werken Hockeyweg",
+    "ac_long": "Werken Hockeyweg",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 3.75,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.75,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/05/SAP",
+    "ap_short": "Klimaatbestendig groen netwerk",
+    "ap_long": "We zettenstrategisch in op meer en duurzamer openbaar groen. Bij elk project houden we rekening met biodiversiteit, toegankelijkheid en onderhoud op lange termijn.",
+    "ac_code": "LB03/05/SAP_LB03/05/SAP/01",
+    "ac_short": "Stadsvesten versterken en vergroenen",
+    "ac_long": "Stadsvesten versterken en vergroenen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 3.75,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.63,
+      "2027": 0.63,
+      "2028": 0.63,
+      "2029": 0.63,
+      "2030": 0.63,
+      "2031": 0.63
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 13",
+    "bd_short": "Ondersteunen stakeholders bij beleving in de stad",
+    "bd_long": "We ondersteunen en begeleiden onze stakeholders, zoals lokale ondernemers, verenigingen en culturele organisaties. Door hun bijdrage kunnen we de beleving in de stad versterken.",
+    "ap_code": "LV05/01/KAP",
+    "ap_short": "Vrijetijdsmanagement optimaliseren",
+    "ap_long": "We verbeteren de planning, organisatie en promotie van alles wat met vrije tijd te maken heeft.  We willen vlotter samenwerken, duidelijker communiceren en beter kunnen inspelen op de wensen van inwoners, verenigingen en andere partners.",
+    "ac_code": "LV05/01/KAP_LV05/01/KAP/03",
+    "ac_short": "Uitbreiding dienstverlening Bib",
+    "ac_long": "Uitbreiding dienstverlening Bib",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 149300.0,
+    "amount_per_capita": 3.73,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 140000.0,
+      "2029": 3100.0,
+      "2030": 3100.0,
+      "2031": 3100.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 3.5,
+      "2029": 0.08,
+      "2030": 0.08,
+      "2031": 0.08
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 14",
+    "bd_short": "Beheer stedelijke vrijetijdsinfrastructuren",
+    "bd_long": "We beheren stedelijke gebouwen en ruimtes voor sport, jeugd, cultuur en vrije tijd als een goede huisvader.",
+    "ap_code": "LV06/02/KAP",
+    "ap_short": "Technische infrastructuur CC onderhouden en moderniseren",
+    "ap_long": "We zorgen voor het onderhoud en de vernieuwing van de (theater)technische infrastructuur in onze culturele centra. Zo blijft alles veilig en up-to-date.",
+    "ac_code": "LV06/02/KAP_LV06/02/KAP/02",
+    "ac_short": "Aankoop en onderhoud theatertechnisch materiaal CC De Mol",
+    "ac_long": "Aankoop en onderhoud theatertechnisch materiaal CC De Mol",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 147135.8,
+    "amount_per_capita": 3.68,
+    "yearly_amounts": {
+      "2026": 9135.8,
+      "2027": 15000.0,
+      "2028": 34000.0,
+      "2029": 55000.0,
+      "2030": 34000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.23,
+      "2027": 0.38,
+      "2028": 0.85,
+      "2029": 1.38,
+      "2030": 0.85,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 19",
+    "bd_short": "Veilige, goed bereikbare en propere stad",
+    "bd_long": "We willen van onze stad een fijne plek maken om te wonen, te werken en te bezoeken. We zorgen ervoor dat iedereen zich op een veilige en duurzame manier kan verplaatsen. We gaan preventief te werk en zorgen er zo voor dat onze inwoners zich veilig voelen in een propere stad.",
+    "ap_code": "LB01/03/KAP",
+    "ap_short": "Vlot bereikbare stad",
+    "ap_long": "We zorgen voor een vlotte bereikbaarheid van onze stad en voor vlot vervoer voor iedereen. Daarbij zoeken we een goed evenwicht tussen duurzame mobiliteit, bereikbaarheid en leefkwaliteit.",
+    "ac_code": "LB01/03/KAP_LB01/03/KAP/02",
+    "ac_short": "Bereikbaarheid van de stad verbeteren",
+    "ac_long": "Bereikbaarheid van de stad verbeteren",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 134156.86,
+    "amount_per_capita": 3.35,
+    "yearly_amounts": {
+      "2026": 22000.0,
+      "2027": 22140.0,
+      "2028": 22282.8,
+      "2029": 22428.46,
+      "2030": 22577.03,
+      "2031": 22728.57
+    },
+    "yearly_per_capita": {
+      "2026": 0.55,
+      "2027": 0.55,
+      "2028": 0.56,
+      "2029": 0.56,
+      "2030": 0.56,
+      "2031": 0.57
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/12",
+    "ac_short": "Werken aula afscheidscentrum Kloosterheide",
+    "ac_long": "Werken aula afscheidscentrum Kloosterheide",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 122043.77,
+    "amount_per_capita": 3.05,
+    "yearly_amounts": {
+      "2026": 122043.77,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/05/SAP",
+    "ap_short": "Klimaatbestendig groen netwerk",
+    "ap_long": "We zettenstrategisch in op meer en duurzamer openbaar groen. Bij elk project houden we rekening met biodiversiteit, toegankelijkheid en onderhoud op lange termijn.",
+    "ac_code": "LB03/05/SAP_LB03/05/SAP/04",
+    "ac_short": "Bomen aanplanten en klimaatbomenactie",
+    "ac_long": "Bomen aanplanten en klimaatbomenactie",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 120046.7,
+    "amount_per_capita": 3.0,
+    "yearly_amounts": {
+      "2026": 20298.7,
+      "2027": 13874.0,
+      "2028": 44000.0,
+      "2029": 14000.0,
+      "2030": 13874.0,
+      "2031": 14000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.51,
+      "2027": 0.35,
+      "2028": 1.1,
+      "2029": 0.35,
+      "2030": 0.35,
+      "2031": 0.35
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/10",
+    "ac_short": "Renovatie vloer op volle grond Beeldacademie",
+    "ac_long": "Renovatie vloer op volle grond Beeldacademie",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 2.75,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 110000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2.75,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/14",
+    "ac_short": "Restauratie interieur Jezuiëtenkerk",
+    "ac_long": "Restauratie interieur Jezuiëtenkerk",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 108544.48,
+    "amount_per_capita": 2.71,
+    "yearly_amounts": {
+      "2026": 108544.48,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.71,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/11",
+    "ac_short": "Renovatie Zimmertoren en dakrestauratie Schippershuis",
+    "ac_long": "Renovatie Zimmertoren en dakrestauratie Schippershuis",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.5,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.5,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 12",
+    "bd_short": "Aantrekkelijke toeristische belevingsplek en erfgoed",
+    "bd_long": "We zorgen goed voor het historische erfgoed in onze stad en stellen het open voor iedereen. We brengen het verleden tot leven en versterken Lier als aantrekkelijke toeristische bestemming met een rijk cultureel aanbod.",
+    "ap_code": "LV04/02/KAP",
+    "ap_short": "Behoud en borgen van onze collectie",
+    "ap_long": "We zetten in op het behoud en veilig bewaren van onze erfgoedcollectie. We dragen zorg voor het erfgoed dat we al in bezit hebben, zodat het ook voor toekomstige generaties bewaard blijft.",
+    "ac_code": "LV04/02/KAP_LV04/02/KAP/04",
+    "ac_short": "Beheer roerend erfgoed in publieke ruimte",
+    "ac_long": "Beheer roerend erfgoed in publieke ruimte",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 94621.0,
+    "amount_per_capita": 2.37,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 15300.0,
+      "2028": 15606.0,
+      "2029": 15918.0,
+      "2030": 16236.0,
+      "2031": 16561.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.38,
+      "2027": 0.38,
+      "2028": 0.39,
+      "2029": 0.4,
+      "2030": 0.41,
+      "2031": 0.41
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 14",
+    "bd_short": "Beheer stedelijke vrijetijdsinfrastructuren",
+    "bd_long": "We beheren stedelijke gebouwen en ruimtes voor sport, jeugd, cultuur en vrije tijd als een goede huisvader.",
+    "ap_code": "LV06/01/KAP",
+    "ap_short": "Stedelijke vrijetijdsinfrastructuur ter beschikking stellen",
+    "ap_long": "We zorgen ervoor dat verenigingen, organisaties en andere groepen de stedelijke vrijetijdsinfrastructuur kunnen gebruiken. We onderhouden ze en doen de nodige investeringen.",
+    "ac_code": "LV06/01/KAP_LV06/01/KAP/01",
+    "ac_short": "Onderhoud vrijetijdsinfrastructuur",
+    "ac_long": "Onderhoud vrijetijdsinfrastructuur",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 90368.41,
+    "amount_per_capita": 2.26,
+    "yearly_amounts": {
+      "2026": 90368.41,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.26,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 19",
+    "bd_short": "Veilige, goed bereikbare en propere stad",
+    "bd_long": "We willen van onze stad een fijne plek maken om te wonen, te werken en te bezoeken. We zorgen ervoor dat iedereen zich op een veilige en duurzame manier kan verplaatsen. We gaan preventief te werk en zorgen er zo voor dat onze inwoners zich veilig voelen in een propere stad.",
+    "ap_code": "LB01/04/KAP",
+    "ap_short": "Openbaar domein inrichten met zwakke weggebruiker centraal",
+    "ap_long": "We willen het openbaar domein zo inrichten dat het veilig, aangenaam en toegankelijk is voor iedereen. We geven extra aandacht aan zwakke weggebruikers zoals voetgangers, fietsers, kinderen, ouderen en mensen met een beperking.",
+    "ac_code": "LB01/04/KAP_LB01/04/KAP/02",
+    "ac_short": "Trajectcontroles",
+    "ac_long": "Trajectcontroles",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 85586.0,
+    "amount_per_capita": 2.14,
+    "yearly_amounts": {
+      "2026": 65633.0,
+      "2027": 6651.0,
+      "2028": 0,
+      "2029": 6651.0,
+      "2030": 0,
+      "2031": 6651.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.64,
+      "2027": 0.17,
+      "2028": 0,
+      "2029": 0.17,
+      "2030": 0,
+      "2031": 0.17
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 4",
+    "bd_short": "ICT en informatiebeheer",
+    "bd_long": "We bouwen stap voor stap aan een gedragen en professioneel informatiebeheer binnen onze organisatie. Dit doen we door een centraal informatiebeheerbeleid uit te rollen dat duidelijke richtlijnen en verantwoordelijkheden vastlegt voor het omgaan met informatie. Tegelijkertijd implementeren we een uniforme en logische structuur voor digitale documenten, zodat informatie makkelijk terug te vinden, correct gearchiveerd en veilig bewaard wordt. Op die manier zorgen we voor een toegankelijke, betrouwbare en efficiënte informatievoorziening die de werking van de organisatie versterkt en bijdraagt aan het realiseren van onze strategische doelstellingen.",
+    "ap_code": "W04/01/KAP",
+    "ap_short": "Efficiënte archiefwerking",
+    "ap_long": "We digitaliseren papieren archiefdocumenten en ontsluiten ze via een centraal, digitaal systeem dat toegankelijk is voor medewerkers en inwoners. We zorgen ervoor dat ze toegankelijk blijven voor toekomstige generaties.",
+    "ac_code": "W04/01/KAP_W04/01/KAP/01",
+    "ac_short": "Informatie digitaliseren en ontsluiten",
+    "ac_long": "Informatie digitaliseren en ontsluiten",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 70954.84,
+    "amount_per_capita": 1.77,
+    "yearly_amounts": {
+      "2026": 18927.84,
+      "2027": 17000.0,
+      "2028": 0,
+      "2029": 17340.0,
+      "2030": 0,
+      "2031": 17687.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.47,
+      "2027": 0.43,
+      "2028": 0,
+      "2029": 0.43,
+      "2030": 0,
+      "2031": 0.44
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 4",
+    "bd_short": "ICT en informatiebeheer",
+    "bd_long": "We bouwen stap voor stap aan een gedragen en professioneel informatiebeheer binnen onze organisatie. Dit doen we door een centraal informatiebeheerbeleid uit te rollen dat duidelijke richtlijnen en verantwoordelijkheden vastlegt voor het omgaan met informatie. Tegelijkertijd implementeren we een uniforme en logische structuur voor digitale documenten, zodat informatie makkelijk terug te vinden, correct gearchiveerd en veilig bewaard wordt. Op die manier zorgen we voor een toegankelijke, betrouwbare en efficiënte informatievoorziening die de werking van de organisatie versterkt en bijdraagt aan het realiseren van onze strategische doelstellingen.",
+    "ap_code": "W04/01/KAP",
+    "ap_short": "Efficiënte archiefwerking",
+    "ap_long": "We digitaliseren papieren archiefdocumenten en ontsluiten ze via een centraal, digitaal systeem dat toegankelijk is voor medewerkers en inwoners. We zorgen ervoor dat ze toegankelijk blijven voor toekomstige generaties.",
+    "ac_code": "W04/01/KAP_W04/01/KAP/02",
+    "ac_short": "Archiefbeheer en -bewaring",
+    "ac_long": "Archiefbeheer en -bewaring",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 63212.67,
+    "amount_per_capita": 1.58,
+    "yearly_amounts": {
+      "2026": 15438.67,
+      "2027": 9180.0,
+      "2028": 9364.0,
+      "2029": 9551.0,
+      "2030": 9742.0,
+      "2031": 9937.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.39,
+      "2027": 0.23,
+      "2028": 0.23,
+      "2029": 0.24,
+      "2030": 0.24,
+      "2031": 0.25
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 8",
+    "bd_short": "Efficiënte inzet facilitaire middelen",
+    "bd_long": "We zorgen ervoor dat onze medewerkers over de nodige middelen beschikken om hun werk veilig, efficiënt en kwaliteitsvol te kunnen uitvoeren. We onderhouden, herstellen en vervangen deze middelen tijdig.",
+    "ap_code": "W08/01/KAP",
+    "ap_short": "Facilitaire middelen voor gebouwen",
+    "ap_long": "We zorgen ervoor dat alle gebouwen goed uitgerust zijn en voorzien zijn van de nodige facilitaire middelen.",
+    "ac_code": "W08/01/KAP_W08/01/KAP/02",
+    "ac_short": "Kantoormeubilair en uitrusting",
+    "ac_long": "Kantoormeubilair en uitrusting",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 62444.4,
+    "amount_per_capita": 1.56,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10200.0,
+      "2028": 10404.0,
+      "2029": 10612.08,
+      "2030": 10824.32,
+      "2031": 10404.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.25,
+      "2027": 0.26,
+      "2028": 0.26,
+      "2029": 0.27,
+      "2030": 0.27,
+      "2031": 0.26
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 17",
+    "bd_short": "Sociaal en ondersteunend beleid",
+    "bd_long": "We voeren een sociaal en ondersteunend beleid voor elk individue.",
+    "ap_code": "S01/06/KAP",
+    "ap_short": "Betaalbaar en aangepast woonaanbod",
+    "ap_long": "We zetten in op een betaalbaar en aangepast woonaanbod en op woonzekerheid",
+    "ac_code": "S01/06/KAP_S01/06/KAP/12",
+    "ac_short": "Uitvoering LOI",
+    "ac_long": "Uitvoering LOI",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 62043.22,
+    "amount_per_capita": 1.55,
+    "yearly_amounts": {
+      "2026": 62043.22,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 12",
+    "bd_short": "Aantrekkelijke toeristische belevingsplek en erfgoed",
+    "bd_long": "We zorgen goed voor het historische erfgoed in onze stad en stellen het open voor iedereen. We brengen het verleden tot leven en versterken Lier als aantrekkelijke toeristische bestemming met een rijk cultureel aanbod.",
+    "ap_code": "LV04/03/KAP",
+    "ap_short": "Erfgoed herkennen, verzamelen, waarderen en herbestemmen",
+    "ap_long": "We weten welk erfgoed er is en wat we (willen) doorgeven aan toekomstige generaties. We beschrijven de waarde van de verschillende deelcollecties en koppelen hieraan acties.",
+    "ac_code": "LV04/03/KAP_LV04/03/KAP/02",
+    "ac_short": "Uitbouw en actualisatie collectie",
+    "ac_long": "Uitbouw en actualisatie collectie",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 1.5,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.25,
+      "2027": 0.25,
+      "2028": 0.25,
+      "2029": 0.25,
+      "2030": 0.25,
+      "2031": 0.25
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 13",
+    "bd_short": "Ondersteunen stakeholders bij beleving in de stad",
+    "bd_long": "We ondersteunen en begeleiden onze stakeholders, zoals lokale ondernemers, verenigingen en culturele organisaties. Door hun bijdrage kunnen we de beleving in de stad versterken.",
+    "ap_code": "LV05/02/KAP",
+    "ap_short": "Lierse erkende verenigingen en organisaties ondersteunen",
+    "ap_long": "We ondersteunen erkende Lierse verenigingen en organisaties in hun dagelijkse werking en bij het organiseren van activiteiten en evenementen. Zo stimuleren we een levendig verenigingsleven en unieke evenementen in onze stad.",
+    "ac_code": "LV05/02/KAP_LV05/02/KAP/03",
+    "ac_short": "Werkingssubsidies voor verenigingen",
+    "ac_long": "Werkingssubsidies voor verenigingen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 52303.14,
+    "amount_per_capita": 1.31,
+    "yearly_amounts": {
+      "2026": 52303.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.31,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 11",
+    "bd_short": "Beleving in de stad voor jongeren en kinderen",
+    "bd_long": "We zorgen er met een boeiend aanbod voor dat kinderen en jongeren zich welkom voelen in onze stad, er zich kunnen uitleven en nieuwe dingen kunnen ontdekken.",
+    "ap_code": "LV03/01/KAP",
+    "ap_short": "Speelruimtes aantrekkelijk en dynamisch inrichten",
+    "ap_long": "We zorgen voor veilige en aantrekkelijke speelinfrastructuur in jeugdcentrum Moevement en op de locaties van de buitenschoolse kinderopvang (BKO), zodat kinderen zich daar veilig kunnen uitleven.",
+    "ac_code": "LV03/01/KAP_LV03/01/KAP/02",
+    "ac_short": "Speluitrusting voor BKO-locaties",
+    "ac_long": "Speluitrusting voor BKO-locaties",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 50464.97,
+    "amount_per_capita": 1.26,
+    "yearly_amounts": {
+      "2026": 8000.0,
+      "2027": 8160.0,
+      "2028": 8323.2,
+      "2029": 8489.66,
+      "2030": 8659.46,
+      "2031": 8832.65
+    },
+    "yearly_per_capita": {
+      "2026": 0.2,
+      "2027": 0.2,
+      "2028": 0.21,
+      "2029": 0.21,
+      "2030": 0.22,
+      "2031": 0.22
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/03/KAP",
+    "ap_short": "Verbeteringswerken aan gebouwen en onroerend erfgoed",
+    "ap_long": "We willen ervoor zorgen dat onze gebouwen en erfgoed in goede staat blijven en bewaard blijven voor de toekomst. Daarom werken we aan projecten om onze gebouwen en onroerend erfgoed te herstellen, verbeteren en duurzaam te onderhouden. Zo houden we onze gebouwen veilig, bruikbaar en milieuvriendelijk.",
+    "ac_code": "LB04/03/KAP_LB04/03/KAP/16",
+    "ac_short": "Werken aan inkom en onthaal Stadsmuseum",
+    "ac_long": "Werken aan inkom en onthaal Stadsmuseum",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 1.25,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.25,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 5",
+    "bd_short": "Ontwikkeling van medewerkers",
+    "bd_long": "We willen mensen aantrekken die gemotiveerd zijn en goed bij onze organisatie passen. We bieden kansen aan medewerkers om zich te ontwikkelen en bij te leren. We zorgen samen voor een sterke en betrokken organisatie, waarin iedereen zich gewaardeerd en gehoord voelt.",
+    "ap_code": "W05/03/KAP",
+    "ap_short": "Ondersteunende HR-softwarepaketten",
+    "ap_long": "We zorgen voor de optimalisering van personeelsbeleid door aankoop van HR-pakketten en samenwerkingen met verschillende leveranciers. We maken gebruik van de helpdeskfunctionaliteiten van de verschillende softwarepakketten.",
+    "ac_code": "W05/03/KAP_W05/03/KAP/01",
+    "ac_short": "Investeringen HR-software",
+    "ac_long": "Investeringen HR-software",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 0.75,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.75,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 14",
+    "bd_short": "Beheer stedelijke vrijetijdsinfrastructuren",
+    "bd_long": "We beheren stedelijke gebouwen en ruimtes voor sport, jeugd, cultuur en vrije tijd als een goede huisvader.",
+    "ap_code": "LV06/02/KAP",
+    "ap_short": "Technische infrastructuur CC onderhouden en moderniseren",
+    "ap_long": "We zorgen voor het onderhoud en de vernieuwing van de (theater)technische infrastructuur in onze culturele centra. Zo blijft alles veilig en up-to-date.",
+    "ac_code": "LV06/02/KAP_LV06/02/KAP/04",
+    "ac_short": "Ondersteuning jeugdcentrum Moevement",
+    "ac_long": "Ondersteuning jeugdcentrum Moevement",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 29813.4,
+    "amount_per_capita": 0.75,
+    "yearly_amounts": {
+      "2026": 14813.4,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.37,
+      "2027": 0.38,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 16",
+    "bd_short": "Bedrijvigheid en een gezond economisch klimaat",
+    "bd_long": "We zorgen voor bedrijvigheid en een gezond economisch klimaat.",
+    "ap_code": "LV08/02/KAP",
+    "ap_short": "Horeca- en winkelstad promoten",
+    "ap_long": "Wij promoten onze handelszones, horeca en unieke sfeer via campagnes en evenementen.",
+    "ac_code": "LV08/02/KAP_LV08/02/KAP/05",
+    "ac_short": "Maandelijks belevingsevenement in winkelstraten",
+    "ac_long": "Maandelijks belevingsevenement in winkelstraten",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 25232.48,
+    "amount_per_capita": 0.63,
+    "yearly_amounts": {
+      "2026": 4000.0,
+      "2027": 4080.0,
+      "2028": 4161.6,
+      "2029": 4244.83,
+      "2030": 4329.73,
+      "2031": 4416.32
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
+      "2027": 0.1,
+      "2028": 0.1,
+      "2029": 0.11,
+      "2030": 0.11,
+      "2031": 0.11
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/05/SAP",
+    "ap_short": "Verduurzamen gebouwen en onroerend erfgoed",
+    "ap_long": "We maken onze gebouwen en onroerend erfgoed klaar voor de toekomst en dragen bij aan de klimaatdoelstellingen. We doen dat met maatregelen om het energieverbruik te verlagen, het comfort te verbeteren en de ecologische impact te verminderen. Zo investeren we onder meer in isolatie, zonnepanelen, energiezuinige installaties, relighting en duurzame technieken.",
+    "ac_code": "LB04/05/SAP_LB04/05/SAP/05",
+    "ac_short": "Elektrische laadpalen aan gebouwen",
+    "ac_long": "Elektrische laadpalen aan gebouwen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 0.63,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.63,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 1",
+    "bd_short": "Gepaste en optimale dienstverlening",
+    "bd_long": "We willen al onze klanten (inwoners, ondernemers, bezoekers) zo goed mogelijk helpen. We stemmen daarom onze dienstverlening af op maat van elk van hen. We zetten in op digitalisering maar toegankelijkheid en persoonlijk contact blijven belangrijk. We voorzien middelen voor personeel en mandatarissen zodat ze hun werk zo efficiënt mogelijk kunnen uitvoeren. We  verzekeren onze organisatie optimaal. We volgen de beleidsdoelstellingen in dit meerjarenplan nauwgezet op en brengen hierover transparant verslag uit.",
+    "ap_code": "W01/02/KAP",
+    "ap_short": "Begrijpbare, bereikbare en proactieve dienstverlening",
+    "ap_long": "We voorzien een snelle, toegankelijke dienstverlening op maat van onze klanten. We doen dat door onze kerntaken efficiënt te organiseren en onze klantgerichte processen te optimaliseren.",
+    "ac_code": "W01/02/KAP_W01/02/KAP/03",
+    "ac_short": "Gebruiksvriendelijke, toegankelijke dienstverleningskanalen",
+    "ac_long": "Gebruiksvriendelijke, toegankelijke dienstverleningskanalen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 22884.73,
+    "amount_per_capita": 0.57,
+    "yearly_amounts": {
+      "2026": 22884.73,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 10",
+    "bd_short": "Toegankelijk vrijetijdsaanbod",
+    "bd_long": "We zorgen voor een mooi, betaalbaar en toegankelijk aanbod aan vrije tijd voor al onze inwoners, ongeacht hun leeftijd of achtergrond, met of zonder beperking. Iedereen moet kunnen deelnemen aan sport, cultuur, natuur en ontspanning.",
+    "ap_code": "LV02/02/KAP",
+    "ap_short": "Laagdrempelige toegang tot digitale technologie",
+    "ap_long": "We zorgen in bib de Fé voor laagdrempelige toegang tot digitale technologie en helpen mensen om sterker en zelfstandiger te worden in de digitale wereld.",
+    "ac_code": "LV02/02/KAP_LV02/02/KAP/02",
+    "ac_short": "Vernieuwing interneteiland in digipunt bib",
+    "ac_long": "Vernieuwing interneteiland in digipunt bib",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 22000.0,
+    "amount_per_capita": 0.55,
+    "yearly_amounts": {
+      "2026": 0,
       "2027": 0,
       "2028": 22000.0,
       "2029": 0,
@@ -467,7 +3017,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.5,
+      "2026": 0,
       "2027": 0,
       "2028": 0.55,
       "2029": 0,
@@ -478,47 +3028,217 @@
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
-    "bd_short": "Bedrijvigheid en een gezond economisch klimaat",
-    "bd_long": "We zorgen voor bedrijvigheid en een gezond economisch klimaat.",
-    "ap_code": "LV08",
-    "ap_short": "Horeca- en winkelstad promoten",
-    "ap_long": "Wij promoten onze handelszones, horeca en unieke sfeer via campagnes en evenementen.",
-    "ac_code": "LV08",
-    "ac_short": "Vernieuwing muziekinstallatie in kernwinkelgebied",
-    "ac_long": "Vernieuwing muziekinstallatie in kernwinkelgebied",
+    "bd_code": "BDS 10",
+    "bd_short": "Toegankelijk vrijetijdsaanbod",
+    "bd_long": "We zorgen voor een mooi, betaalbaar en toegankelijk aanbod aan vrije tijd voor al onze inwoners, ongeacht hun leeftijd of achtergrond, met of zonder beperking. Iedereen moet kunnen deelnemen aan sport, cultuur, natuur en ontspanning.",
+    "ap_code": "LV02/01/KAP",
+    "ap_short": "Beleid gericht op levenslang en levensbreed leesplezier",
+    "ap_long": "We voeren met bib de Fé een sterk leesbevorderingsbeleid dat inzet op leesplezier in elke levensfase en context. We maken lezen toegankelijk voor iedereen en besteden extra aandacht aan wie minder makkelijk toegang heeft tot boeken en taal.",
+    "ac_code": "LV02/01/KAP_LV02/01/KAP/08",
+    "ac_short": "Uitnodigende leesomgeving voor kinderen en jongeren",
+    "ac_long": "Uitnodigende leesomgeving voor kinderen en jongeren",
     "categories": [
-      "05-ondernemen-werken"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 35233.0,
-    "amount_per_capita": 0.88,
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.5,
     "yearly_amounts": {
-      "2026": 4000.0,
-      "2027": 6080.0,
-      "2028": 6162.0,
-      "2029": 6245.0,
-      "2030": 6330.0,
-      "2031": 6416.0
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.1,
-      "2027": 0.15,
-      "2028": 0.15,
-      "2029": 0.16,
-      "2030": 0.16,
-      "2031": 0.16
+      "2026": 0.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
+    "bd_code": "BDS 14",
+    "bd_short": "Beheer stedelijke vrijetijdsinfrastructuren",
+    "bd_long": "We beheren stedelijke gebouwen en ruimtes voor sport, jeugd, cultuur en vrije tijd als een goede huisvader.",
+    "ap_code": "LV06/01/KAP",
+    "ap_short": "Stedelijke vrijetijdsinfrastructuur ter beschikking stellen",
+    "ap_long": "We zorgen ervoor dat verenigingen, organisaties en andere groepen de stedelijke vrijetijdsinfrastructuur kunnen gebruiken. We onderhouden ze en doen de nodige investeringen.",
+    "ac_code": "LV06/01/KAP_LV06/01/KAP/03",
+    "ac_short": "Aankoop personenlift",
+    "ac_long": "Aankoop personenlift",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.5,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.5,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 14",
+    "bd_short": "Beheer stedelijke vrijetijdsinfrastructuren",
+    "bd_long": "We beheren stedelijke gebouwen en ruimtes voor sport, jeugd, cultuur en vrije tijd als een goede huisvader.",
+    "ap_code": "LV06/02/KAP",
+    "ap_short": "Technische infrastructuur CC onderhouden en moderniseren",
+    "ap_long": "We zorgen voor het onderhoud en de vernieuwing van de (theater)technische infrastructuur in onze culturele centra. Zo blijft alles veilig en up-to-date.",
+    "ac_code": "LV06/02/KAP_LV06/02/KAP/03",
+    "ac_short": "Onderhoud CC Vleeshuis en exporuimte Stadsmuseum",
+    "ac_long": "Onderhoud CC Vleeshuis en exporuimte Stadsmuseum",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.5,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 5000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 15000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.13,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0.38,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/12",
+    "ac_short": "Werken site GAS-fabriek",
+    "ac_long": "Werken site GAS-fabriek",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 19822.0,
+    "amount_per_capita": 0.5,
+    "yearly_amounts": {
+      "2026": 19822.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 12",
+    "bd_short": "Aantrekkelijke toeristische belevingsplek en erfgoed",
+    "bd_long": "We zorgen goed voor het historische erfgoed in onze stad en stellen het open voor iedereen. We brengen het verleden tot leven en versterken Lier als aantrekkelijke toeristische bestemming met een rijk cultureel aanbod.",
+    "ap_code": "LV04/02/KAP",
+    "ap_short": "Behoud en borgen van onze collectie",
+    "ap_long": "We zetten in op het behoud en veilig bewaren van onze erfgoedcollectie. We dragen zorg voor het erfgoed dat we al in bezit hebben, zodat het ook voor toekomstige generaties bewaard blijft.",
+    "ac_code": "LV04/02/KAP_LV04/02/KAP/02",
+    "ac_short": "Duurzaam collectiebeheer, efficiënt depot en infrastructuur",
+    "ac_long": "Duurzaam collectiebeheer, efficiënt depot en infrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 17000.0,
+    "amount_per_capita": 0.43,
+    "yearly_amounts": {
+      "2026": 17000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.43,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 12",
+    "bd_short": "Aantrekkelijke toeristische belevingsplek en erfgoed",
+    "bd_long": "We zorgen goed voor het historische erfgoed in onze stad en stellen het open voor iedereen. We brengen het verleden tot leven en versterken Lier als aantrekkelijke toeristische bestemming met een rijk cultureel aanbod.",
+    "ap_code": "LV04/06/SAP",
+    "ap_short": "Toegankelijke cultuur en erfgoed",
+    "ap_long": "We laten bezoekers en inwoners cultuur en erfgoed ontdekken, beleven en waarderen. We maken ons erfgoed zichtbaar en creëren een plek waar cultuur mensen samenbrengt.",
+    "ac_code": "LV04/06/SAP_LV04/06/SAP/01",
+    "ac_short": "Ontsluiten begijnhof",
+    "ac_long": "Beheer toeristisch infopunt en museale kijkwoning",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 12861.34,
+    "amount_per_capita": 0.32,
+    "yearly_amounts": {
+      "2026": 12861.34,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.32,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 3",
     "bd_short": "Duidelijke en inclusieve communicatie",
     "bd_long": "We zetten in op een communicatiebeleid dat helder, toegankelijk en inclusief is. Zo zorgen we ervoor dat al onze klanten, en in het bijzonder Lierenaars, de informatie krijgen die ze nodig hebben om volwaardig te kunnen deelnemen aan de maatschappij. We gebruiken duidelijke taal, kiezen voor een mix van kanalen en houden rekening met specifieke noden.",
-    "ap_code": "W03",
+    "ap_code": "W03/01/KAP",
     "ap_short": "Laagdrempelige en heldere communicatie",
     "ap_long": "We willen al onze klanten correct en tijdig informeren. Met heldere communicatie bouwen we aan vertrouwen en betrokkenheid. We zorgen ervoor dat onze informatie makkelijk te vinden is en duidelijk te begrijpen voor iedereen. We gebruiken een mix aan online en offline kanalen om zoveel mogelijk mensen te bereiken.",
-    "ac_code": "W03",
+    "ac_code": "W03/01/KAP_W03/01/KAP/04",
     "ac_short": "Communicatie via on- en offline kanalen",
     "ac_long": "Communicatie via on- en offline kanalen",
     "categories": [
@@ -546,13 +3266,217 @@
   {
     "municipality": "Lier",
     "nis_code": "12021",
-    "bd_code": "BDS",
+    "bd_code": "BDS 16",
+    "bd_short": "Bedrijvigheid en een gezond economisch klimaat",
+    "bd_long": "We zorgen voor bedrijvigheid en een gezond economisch klimaat.",
+    "ap_code": "LV08/02/KAP",
+    "ap_short": "Horeca- en winkelstad promoten",
+    "ap_long": "Wij promoten onze handelszones, horeca en unieke sfeer via campagnes en evenementen.",
+    "ac_code": "LV08/02/KAP_LV08/02/KAP/03",
+    "ac_short": "Vernieuwing muziekinstallatie in kernwinkelgebied",
+    "ac_long": "Vernieuwing muziekinstallatie in kernwinkelgebied",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.25,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 2000.0,
+      "2028": 2000.0,
+      "2029": 2000.0,
+      "2030": 2000.0,
+      "2031": 2000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.05,
+      "2028": 0.05,
+      "2029": 0.05,
+      "2030": 0.05,
+      "2031": 0.05
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/06/SAP",
+    "ap_short": "Klimaatbestendig blauw netwerk",
+    "ap_long": "We zetten strategisch in op een klimaatbestendig blauw netwerk, dat de basis vormt voor een gezonde en duurzame leefomgeving.",
+    "ac_code": "LB03/06/SAP_LB03/06/SAP/01",
+    "ac_short": "Vrije zwemzone",
+    "ac_long": "Vrije zwemzone",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.25,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 19",
+    "bd_short": "Veilige, goed bereikbare en propere stad",
+    "bd_long": "We willen van onze stad een fijne plek maken om te wonen, te werken en te bezoeken. We zorgen ervoor dat iedereen zich op een veilige en duurzame manier kan verplaatsen. We gaan preventief te werk en zorgen er zo voor dat onze inwoners zich veilig voelen in een propere stad.",
+    "ap_code": "LB01/01/KAP",
+    "ap_short": "Preventieve acties om de leefkwaliteit te versterken",
+    "ap_long": "We versterken de leefkwaliteit door gezondheidsprojecten te ondersteunen, veiligheidsinitiatieven op te zetten en in te zetten op monitoring van het leefmilieu.",
+    "ac_code": "LB01/01/KAP_LB01/01/KAP/05",
+    "ac_short": "Ongedierte in onze stad bestrijden",
+    "ac_long": "Ongedierte in onze stad bestrijden",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 6700.0,
+    "amount_per_capita": 0.17,
+    "yearly_amounts": {
+      "2026": 6700.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 21",
+    "bd_short": "Aangenaam, goed onderhouden toekomstgericht openbaar domein",
+    "bd_long": "We zorgen voor een aangenaam en goed onderhouden openbaar domein door het tijdig te onderhouden en te vernieuwen. Met een doordachte en preventieve aanpak sporen we gebreken sneller op en pakken we ze aan voordat ze voor overlast zorgen. We letten daarbij niet alleen op wat zichtbaar is, maar houden ook rekening met veiligheid, toegankelijkheid en duurzaamheid. Zo zorgen we ervoor dat straten, pleinen en andere publieke ruimtes in goede staat blijven en aangepast zijn aan de noden van vandaag én morgen.",
+    "ap_code": "LB03/03/KAP",
+    "ap_short": "Duurzame wegeninfrastructuur",
+    "ap_long": "We realiseren wegenprojecten die voldoen aan vooraf vastgelegde duurzaamheidscriteria, met aandacht voor veiligheid, toegankelijkheid en langetermijnbeheer.",
+    "ac_code": "LB03/03/KAP_LB03/03/KAP/05",
+    "ac_short": "Werken aan stationsomgeving (parkzone met speelspoor)",
+    "ac_long": "Werken aan stationsomgeving (parkzone met speelspoor)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.13,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 5000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.13,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 19",
+    "bd_short": "Veilige, goed bereikbare en propere stad",
+    "bd_long": "We willen van onze stad een fijne plek maken om te wonen, te werken en te bezoeken. We zorgen ervoor dat iedereen zich op een veilige en duurzame manier kan verplaatsen. We gaan preventief te werk en zorgen er zo voor dat onze inwoners zich veilig voelen in een propere stad.",
+    "ap_code": "LB01/02/KAP",
+    "ap_short": "Aanpak criminaliteit en verstoring openbare orde",
+    "ap_long": "We pakken milieu- en stedenbouwkundige misdrijven en ondermijning multidiscipilair aan, in nauwe samenwerking met externe partners. We ondersteunen buurtinformatienetwerken (BIN's), passen de politiecodex aan waar nodig, innen GAS-boetes, stimuleren woonveiligheid en verankeren leefmilieumonitoring als vast onderdeel van ons veiligheids- en preventieplan.",
+    "ac_code": "LB01/02/KAP_LB01/02/KAP/02",
+    "ac_short": "GAS-boetes innen",
+    "ac_long": "GAS-boetes innen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 3476.45,
+    "amount_per_capita": 0.09,
+    "yearly_amounts": {
+      "2026": 3476.45,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 19",
+    "bd_short": "Veilige, goed bereikbare en propere stad",
+    "bd_long": "We willen van onze stad een fijne plek maken om te wonen, te werken en te bezoeken. We zorgen ervoor dat iedereen zich op een veilige en duurzame manier kan verplaatsen. We gaan preventief te werk en zorgen er zo voor dat onze inwoners zich veilig voelen in een propere stad.",
+    "ap_code": "LB01/05/KAP",
+    "ap_short": "Propere stad",
+    "ap_long": "Wij werken aan een efficiënt afvalbeleid. We doen dat door sluikstort en zwerfvuil beter aan te pakken, door hergebruik aan te moedigen en door inwoners actief te stimuleren om ons hierbij te helpen. We werken ook nauw samen met IVAREM.",
+    "ac_code": "LB01/05/KAP_LB01/05/KAP/01",
+    "ac_short": "Beheer publieke vuilnisbakken",
+    "ac_long": "Beheer publieke vuilnisbakken",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1814.4,
+    "amount_per_capita": 0.05,
+    "yearly_amounts": {
+      "2026": 1814.4,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.05,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 1",
     "bd_short": "Gepaste en optimale dienstverlening",
     "bd_long": "We willen al onze klanten (inwoners, ondernemers, bezoekers) zo goed mogelijk helpen. We stemmen daarom onze dienstverlening af op maat van elk van hen. We zetten in op digitalisering maar toegankelijkheid en persoonlijk contact blijven belangrijk. We voorzien middelen voor personeel en mandatarissen zodat ze hun werk zo efficiënt mogelijk kunnen uitvoeren. We  verzekeren onze organisatie optimaal. We volgen de beleidsdoelstellingen in dit meerjarenplan nauwgezet op en brengen hierover transparant verslag uit.",
-    "ap_code": "W01",
+    "ap_code": "W01/02/KAP",
     "ap_short": "Begrijpbare, bereikbare en proactieve dienstverlening",
     "ap_long": "We voorzien een snelle, toegankelijke dienstverlening op maat van onze klanten. We doen dat door onze kerntaken efficiënt te organiseren en onze klantgerichte processen te optimaliseren.",
-    "ac_code": "W01",
+    "ac_code": "W01/02/KAP_W01/02/KAP/02",
     "ac_short": "Klantbeleving, kwaliteit en bereikbaarheid",
     "ac_long": "Klantbeleving, kwaliteit en bereikbaarheid",
     "categories": [
@@ -570,6 +3494,40 @@
     },
     "yearly_per_capita": {
       "2026": 0.04,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Lier",
+    "nis_code": "12021",
+    "bd_code": "BDS 22",
+    "bd_short": "Kostenefficiënt en toekomstbestendig patrimonium",
+    "bd_long": "We kiezen bewust welke gebouwen en gronden we behouden als strategisch vastgoed op basis van onze beleidsdoelstellingen en de beschikbare middelen. Zo kunnen we ons patrimonium op een kostenefficiënte en toekomstgerichte manier beheren en onderhouden.",
+    "ap_code": "LB04/02/KAP",
+    "ap_short": "Technisch beheer en onderhoud gebouwen en onroerend erfgoed",
+    "ap_long": "We verzorgen het technisch beheer en het onderhoud van onze gebouwen en ons onroerend erfgoed. Dit betekent dat we ervoor zorgen dat alles goed werkt, veilig is en in goede staat blijft, zodat deze eigendommen duurzaam kunnen blijven gebruikt worden.",
+    "ac_code": "LB04/02/KAP_LB04/02/KAP/02",
+    "ac_short": "Onderhoud aan gebouwen",
+    "ac_long": "Onderhoud aan gebouwen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1236.62,
+    "amount_per_capita": 0.03,
+    "yearly_amounts": {
+      "2026": 1236.62,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.03,
       "2027": 0,
       "2028": 0,
       "2029": 0,

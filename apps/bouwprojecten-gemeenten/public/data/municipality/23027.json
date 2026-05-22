@@ -2,69 +2,69 @@
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "BD04_LEEFBAAR",
     "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
     "ap_code": "AP11",
     "ap_short": "Infrastructuur voor jeugd en cultuur versterken",
     "ap_long": "We investeren in infrastructuur en voorzieningen voor jeugd, sport, cultuur en verenigingen: We versterken het sociaal weefsel van Halle met duurzame en toegankelijke plekken die ontmoeting, ontspanning en engagement mogelijk maken.",
-    "ac_code": "AP11",
-    "ac_short": "Bouw van een evenementenhal als bruisende ontmoetingsplek",
-    "ac_long": "AC042_Bouw van een evenementenhal als bruisende ontmoetingsplek",
+    "ac_code": "AP11_AC254",
+    "ac_short": "Realisatie nieuw sportcomplex",
+    "ac_long": "AC254_Realisatie nieuw sportcomplex",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 28446464.0,
-    "amount_per_capita": 645.0,
+    "total_amount": 17500000.0,
+    "amount_per_capita": 396.37,
     "yearly_amounts": {
-      "2026": 2196464.0,
-      "2027": 5010000.0,
-      "2028": 4527432.0,
-      "2029": 8181284.0,
-      "2030": 8281284.0,
-      "2031": 250000.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 1597432.0,
+      "2029": 7951284.0,
+      "2030": 7951284.0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 49.8,
-      "2027": 113.6,
-      "2028": 102.66,
-      "2029": 185.5,
-      "2030": 187.77,
-      "2031": 5.67
+      "2026": 0,
+      "2027": 0,
+      "2028": 36.18,
+      "2029": 180.1,
+      "2030": 180.1,
+      "2031": 0
     }
   },
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "BD04_LEEFBAAR",
     "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
     "ap_code": "AP13",
     "ap_short": "Veerkracht via duurzaam beheer versterken",
     "ap_long": "We versterken de natuurlijke veerkracht van onze stad via duurzaam water-, groen- en afvalbeheer: We vergroten de weerbaarheid van onze stad tegen klimaatverandering door in te zetten op biodiversiteit, waterkwaliteit en duurzaam beheer van onze omgeving.",
-    "ac_code": "AP13",
-    "ac_short": "Hemelwater, droogte en erosie integraal aanpakken",
-    "ac_long": "AC279_Hemelwater, droogte en erosie integraal aanpakken",
+    "ac_code": "AP13_AC440",
+    "ac_short": "Vernieuwen van wegen en rioleringen",
+    "ac_long": "AC440_Vernieuwen van wegen en rioleringen met focus op klimaatadaptatie",
     "categories": [
-      "03-natuur-milieu"
+      "02-mobiliteit"
     ],
-    "total_amount": 16599098.0,
-    "amount_per_capita": 376.37,
+    "total_amount": 16476098.0,
+    "amount_per_capita": 373.18,
     "yearly_amounts": {
-      "2026": 3013000.0,
-      "2027": 4295583.0,
-      "2028": 2491244.0,
-      "2029": 1879178.0,
-      "2030": 1955673.0,
-      "2031": 2964420.0
+      "2026": 2990000.0,
+      "2027": 4275583.0,
+      "2028": 2471244.0,
+      "2029": 1859178.0,
+      "2030": 1935673.0,
+      "2031": 2944420.0
     },
     "yearly_per_capita": {
-      "2026": 68.32,
-      "2027": 97.4,
-      "2028": 56.49,
-      "2029": 42.61,
-      "2030": 44.34,
-      "2031": 67.22
+      "2026": 67.72,
+      "2027": 96.84,
+      "2028": 55.97,
+      "2029": 42.11,
+      "2030": 43.84,
+      "2031": 66.69
     }
   },
   {
@@ -73,266 +73,504 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "",
+    "ap_code": "overigBeleid",
     "ap_short": "overigBeleid",
     "ap_long": "overigBeleid",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 14994901.0,
-    "amount_per_capita": 340.0,
+    "total_amount": 14994904.33,
+    "amount_per_capita": 339.63,
     "yearly_amounts": {
-      "2026": 5451329.0,
-      "2027": 2896985.0,
-      "2028": 2278246.0,
-      "2029": 1642363.0,
-      "2030": 1255140.0,
-      "2031": 1470838.0
+      "2026": 5451329.32,
+      "2027": 2896986.15,
+      "2028": 2278246.41,
+      "2029": 1642362.84,
+      "2030": 1255140.79,
+      "2031": 1470838.82
     },
     "yearly_per_capita": {
-      "2026": 123.6,
-      "2027": 65.69,
-      "2028": 51.66,
-      "2029": 37.24,
-      "2030": 28.46,
-      "2031": 33.35
+      "2026": 123.47,
+      "2027": 65.62,
+      "2028": 51.6,
+      "2029": 37.2,
+      "2030": 28.43,
+      "2031": 33.31
     }
   },
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "BD05_BEREIKBAAR",
     "bd_long": "We werken aan een vlot en veilig bereikbare stad: Halle is vlot, veilig en duurzaam bereikbaar voor alle verkeersdeelnemers. Door te investeren in toegankelijke infrastructuur, slimme mobiliteitsoplossingen en een strategisch parkeerbeleid maken we verplaatsingen comfortabeler en milieuvriendelijker. Iedereen - van voetganger tot automobilist - bereikt zijn bestemming op een efficiënte en toegankelijke manier.",
     "ap_code": "AP15",
     "ap_short": "Veilige en duurzame infrastructuur bouwen",
     "ap_long": "We bouwen aan een veilige, toegankelijke en duurzame infrastructuur voor alle weggebruikers: We investeren in een vlot, veilig en toekomstgericht mobiliteitsnetwerk door zowel infrastructuur te verbeteren als duurzame en slimme mobiliteitsoplossingen te stimuleren.",
-    "ac_code": "AP15",
-    "ac_short": "Veiligheid en doorstroming verbeteren op schoolroutes",
-    "ac_long": "AC146_Verkeersveiligheid en doorstroming verbeteren op schoolroutes",
+    "ac_code": "AP15_AC438",
+    "ac_short": "Uitvoeren van jaarlijks structureel wegenonderhoud",
+    "ac_long": "AC438_Uitvoeren van jaarlijks structureel wegenonderhoud",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 13646774.0,
-    "amount_per_capita": 309.43,
+    "total_amount": 8471312.45,
+    "amount_per_capita": 191.87,
     "yearly_amounts": {
-      "2026": 1305000.0,
-      "2027": 3888600.0,
-      "2028": 3948272.0,
-      "2029": 2009137.0,
-      "2030": 1216220.0,
-      "2031": 1279545.0
+      "2026": 900000.0,
+      "2027": 2800000.0,
+      "2028": 2856000.0,
+      "2029": 913120.0,
+      "2030": 471382.4,
+      "2031": 530810.05
     },
     "yearly_per_capita": {
-      "2026": 29.59,
-      "2027": 88.17,
-      "2028": 89.52,
-      "2029": 45.56,
-      "2030": 27.58,
-      "2031": 29.01
+      "2026": 20.38,
+      "2027": 63.42,
+      "2028": 64.69,
+      "2029": 20.68,
+      "2030": 10.68,
+      "2031": 12.02
     }
   },
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "BD04_LEEFBAAR",
     "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
     "ap_code": "AP10",
     "ap_short": "Publieke ruimte en patrimonium verbeteren",
     "ap_long": "We investeren in kwaliteitsvolle publieke ruimte en duurzaam patrimoniumbeheer: We investeren in een nette, groene en aantrekkelijke publieke ruimte en beheren stedelijke gebouwen en infrastructuur op een duurzame en toekomstgerichte manier.",
-    "ac_code": "AP10",
+    "ac_code": "AP10_AC080",
     "ac_short": "Kerkenpatrimonium optimaliseren",
     "ac_long": "AC080_Kerkenpatrimonium optimaliseren via onderhoud en herbestemming",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 12491202.0,
-    "amount_per_capita": 283.23,
+    "total_amount": 7372292.0,
+    "amount_per_capita": 166.98,
     "yearly_amounts": {
-      "2026": 6593585.0,
-      "2027": 2818072.0,
-      "2028": 1445000.0,
-      "2029": 881279.0,
-      "2030": 278266.0,
-      "2031": 475000.0
+      "2026": 2244818.0,
+      "2027": 2413000.0,
+      "2028": 1295000.0,
+      "2029": 869474.0,
+      "2030": 275000.0,
+      "2031": 275000.0
     },
     "yearly_per_capita": {
-      "2026": 149.5,
-      "2027": 63.9,
-      "2028": 32.76,
-      "2029": 19.98,
-      "2030": 6.31,
-      "2031": 10.77
+      "2026": 50.85,
+      "2027": 54.65,
+      "2028": 29.33,
+      "2029": 19.69,
+      "2030": 6.23,
+      "2031": 6.23
     }
   },
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP11",
+    "ap_short": "Infrastructuur voor jeugd en cultuur versterken",
+    "ap_long": "We investeren in infrastructuur en voorzieningen voor jeugd, sport, cultuur en verenigingen: We versterken het sociaal weefsel van Halle met duurzame en toegankelijke plekken die ontmoeting, ontspanning en engagement mogelijk maken.",
+    "ac_code": "AP11_AC042",
+    "ac_short": "Bouw van een evenementenhal als bruisende ontmoetingsplek",
+    "ac_long": "AC042_Bouw van een evenementenhal als bruisende ontmoetingsplek",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 6000000.0,
+    "amount_per_capita": 135.9,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 3500000.0,
+      "2028": 2000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.32,
+      "2027": 79.27,
+      "2028": 45.3,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 7",
     "bd_short": "BD07_AMBITIEUS",
     "bd_long": "We bouwen aan een toekomstgerichte organisatie: De stadsorganisatie is toekomstgericht, efficiënt en flexibel, met betrokken medewerkers, slimme systemen en een sterke focus op innovatie, samenwerking en kwaliteit. Halle is klaar om haar ambities waar te maken en flexibel in te spelen op toekomstige uitdagingen, met een verantwoorde inzet van middelen en een cultuur van continue verbetering.",
     "ap_code": "AP21",
     "ap_short": "Digitale transformatie en patrimoniumbeheer",
     "ap_long": "We maken onze organisatie fit voor de toekomst via digitale transformatie, veilig informatiebeheer en duurzaam patrimonium: We versterken onze organisatie door te investeren in digitale transformatie, datagedreven werken, veilig informatiebeheer en duurzaam patrimonium. Zo bouwen we aan een efficiënte en toekomstgerichte stadsorganisatie.",
-    "ac_code": "AP21",
-    "ac_short": "Datagedreven werken verankeren",
-    "ac_long": "AC603_Datagedreven werken verankeren door data slim in te zetten",
+    "ac_code": "AP21_AC614",
+    "ac_short": "Verduurzamen en optimaliseren van ons patrimonium",
+    "ac_long": "AC614_Verduurzamen en optimaliseren van ons patrimonium en onze middelen met slimme ingrepen en bewust gebruik",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 5800040.0,
-    "amount_per_capita": 131.51,
+    "total_amount": 4395000.0,
+    "amount_per_capita": 99.55,
     "yearly_amounts": {
-      "2026": 1748000.0,
-      "2027": 760000.0,
-      "2028": 960200.0,
-      "2029": 1455404.0,
-      "2030": 445612.0,
-      "2031": 430824.0
+      "2026": 1485000.0,
+      "2027": 730000.0,
+      "2028": 645000.0,
+      "2029": 940000.0,
+      "2030": 180000.0,
+      "2031": 415000.0
     },
     "yearly_per_capita": {
-      "2026": 39.63,
-      "2027": 17.23,
-      "2028": 21.77,
-      "2029": 33.0,
-      "2030": 10.1,
-      "2031": 9.77
+      "2026": 33.64,
+      "2027": 16.53,
+      "2028": 14.61,
+      "2029": 21.29,
+      "2030": 4.08,
+      "2031": 9.4
     }
   },
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP10",
+    "ap_short": "Publieke ruimte en patrimonium verbeteren",
+    "ap_long": "We investeren in kwaliteitsvolle publieke ruimte en duurzaam patrimoniumbeheer: We investeren in een nette, groene en aantrekkelijke publieke ruimte en beheren stedelijke gebouwen en infrastructuur op een duurzame en toekomstgerichte manier.",
+    "ac_code": "AP10_AC617",
+    "ac_short": "Uitbreiding historisch stadhuis en vernieuwen Possozplein",
+    "ac_long": "AC617_Uitbreiding historisch stadhuis en vernieuwen deel Possozplein",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3828910.13,
+    "amount_per_capita": 86.72,
+    "yearly_amounts": {
+      "2026": 3698766.68,
+      "2027": 115071.72,
+      "2028": 0,
+      "2029": 11805.38,
+      "2030": 3266.35,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 83.78,
+      "2027": 2.61,
+      "2028": 0,
+      "2029": 0.27,
+      "2030": 0.07,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 5",
+    "bd_short": "BD05_BEREIKBAAR",
+    "bd_long": "We werken aan een vlot en veilig bereikbare stad: Halle is vlot, veilig en duurzaam bereikbaar voor alle verkeersdeelnemers. Door te investeren in toegankelijke infrastructuur, slimme mobiliteitsoplossingen en een strategisch parkeerbeleid maken we verplaatsingen comfortabeler en milieuvriendelijker. Iedereen - van voetganger tot automobilist - bereikt zijn bestemming op een efficiënte en toegankelijke manier.",
+    "ap_code": "AP15",
+    "ap_short": "Veilige en duurzame infrastructuur bouwen",
+    "ap_long": "We bouwen aan een veilige, toegankelijke en duurzame infrastructuur voor alle weggebruikers: We investeren in een vlot, veilig en toekomstgericht mobiliteitsnetwerk door zowel infrastructuur te verbeteren als duurzame en slimme mobiliteitsoplossingen te stimuleren.",
+    "ac_code": "AP15_AC602",
+    "ac_short": "Fietsinfrastructuur verbeteren voor comfort en veiligheid",
+    "ac_long": "AC602_Fietsinfrastructuur verbeteren voor meer comfort, veiligheid en bereikbaarheid",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3590000.0,
+    "amount_per_capita": 81.31,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 830000.0,
+      "2028": 830000.0,
+      "2029": 830000.0,
+      "2030": 475000.0,
+      "2031": 475000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.4,
+      "2027": 18.8,
+      "2028": 18.8,
+      "2029": 18.8,
+      "2030": 10.76,
+      "2031": 10.76
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 1",
     "bd_short": "BD01_VEILIG",
     "bd_long": "We streven naar een veilige stad: Veiligheid is onze prioriteit. We pakken overlast, criminaliteit en polarisatie daadkrachtig aan via een geïntegreerde aanpak van preventie en handhaving, in nauwe samenwerking met de Politiezone en lokale partners. Moderne technologieën versterken het toezicht en de slagkracht van onze veiligheidsdiensten.",
     "ap_code": "AP01",
     "ap_short": "Toezicht verhogen en veiligheidsgevoel versterken",
     "ap_long": "We verhogen het toezicht en verbeteren het veiligheidsgevoel in de publieke ruimte: We versterken de veiligheid in de publieke ruimte via gerichte maatregelen zoals cameratoezicht en controles. Het bestuur neemt hierin het voortouw, met ondersteuning van lokale netwerken.",
-    "ac_code": "AP01",
-    "ac_short": "Overlast en zwerfvuil aanpakken via handhaving en camera's",
-    "ac_long": "AC329_Overlast en zwerfvuil aanpakken via handhaving en cameratoezicht",
+    "ac_code": "AP01_AC584",
+    "ac_short": "Goed uitgeruste en moderne brandweer",
+    "ac_long": "AC584_Goed uitgeruste en moderne brandweer",
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 3997372.0,
-    "amount_per_capita": 90.64,
+    "total_amount": 1989070.65,
+    "amount_per_capita": 45.05,
     "yearly_amounts": {
-      "2026": 603090.0,
-      "2027": 684026.0,
-      "2028": 667192.0,
-      "2029": 674015.0,
-      "2030": 680975.0,
-      "2031": 688074.0
+      "2026": 265833.95,
+      "2027": 329817.15,
+      "2028": 337982.56,
+      "2029": 344806.07,
+      "2030": 351766.02,
+      "2031": 358864.9
     },
     "yearly_per_capita": {
-      "2026": 13.67,
-      "2027": 15.51,
-      "2028": 15.13,
-      "2029": 15.28,
-      "2030": 15.44,
-      "2031": 15.6
+      "2026": 6.02,
+      "2027": 7.47,
+      "2028": 7.66,
+      "2029": 7.81,
+      "2030": 7.97,
+      "2031": 8.13
     }
   },
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "BD01_VEILIG",
+    "bd_long": "We streven naar een veilige stad: Veiligheid is onze prioriteit. We pakken overlast, criminaliteit en polarisatie daadkrachtig aan via een geïntegreerde aanpak van preventie en handhaving, in nauwe samenwerking met de Politiezone en lokale partners. Moderne technologieën versterken het toezicht en de slagkracht van onze veiligheidsdiensten.",
+    "ap_code": "AP01",
+    "ap_short": "Toezicht verhogen en veiligheidsgevoel versterken",
+    "ap_long": "We verhogen het toezicht en verbeteren het veiligheidsgevoel in de publieke ruimte: We versterken de veiligheid in de publieke ruimte via gerichte maatregelen zoals cameratoezicht en controles. Het bestuur neemt hierin het voortouw, met ondersteuning van lokale netwerken.",
+    "ac_code": "AP01_AC583",
+    "ac_short": "Zichtbaarheid van politie verhogen met extra manschappen",
+    "ac_long": "AC583_Zichtbaarheid van politie verhogen met extra manschappen",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1864302.8,
+    "amount_per_capita": 42.23,
+    "yearly_amounts": {
+      "2026": 293256.0,
+      "2027": 314209.36,
+      "2028": 314209.36,
+      "2029": 314209.36,
+      "2030": 314209.36,
+      "2031": 314209.36
+    },
+    "yearly_per_capita": {
+      "2026": 6.64,
+      "2027": 7.12,
+      "2028": 7.12,
+      "2029": 7.12,
+      "2030": 7.12,
+      "2031": 7.12
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP11",
+    "ap_short": "Infrastructuur voor jeugd en cultuur versterken",
+    "ap_long": "We investeren in infrastructuur en voorzieningen voor jeugd, sport, cultuur en verenigingen: We versterken het sociaal weefsel van Halle met duurzame en toegankelijke plekken die ontmoeting, ontspanning en engagement mogelijk maken.",
+    "ac_code": "AP11_AC253",
+    "ac_short": "Lamme Guiche ontwikkelen tot volwaardige hockeysite",
+    "ac_long": "AC253_Lamme Guiche ontwikkelen tot volwaardige hockeysite",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1800000.0,
+    "amount_per_capita": 40.77,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 1050000.0,
+      "2028": 650000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.26,
+      "2027": 23.78,
+      "2028": 14.72,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 5",
+    "bd_short": "BD05_BEREIKBAAR",
+    "bd_long": "We werken aan een vlot en veilig bereikbare stad: Halle is vlot, veilig en duurzaam bereikbaar voor alle verkeersdeelnemers. Door te investeren in toegankelijke infrastructuur, slimme mobiliteitsoplossingen en een strategisch parkeerbeleid maken we verplaatsingen comfortabeler en milieuvriendelijker. Iedereen - van voetganger tot automobilist - bereikt zijn bestemming op een efficiënte en toegankelijke manier.",
+    "ap_code": "AP15",
+    "ap_short": "Veilige en duurzame infrastructuur bouwen",
+    "ap_long": "We bouwen aan een veilige, toegankelijke en duurzame infrastructuur voor alle weggebruikers: We investeren in een vlot, veilig en toekomstgericht mobiliteitsnetwerk door zowel infrastructuur te verbeteren als duurzame en slimme mobiliteitsoplossingen te stimuleren.",
+    "ac_code": "AP15_AC147",
+    "ac_short": "Jaarlijkse vernieuwing van voetpaden en oversteekplaatsen",
+    "ac_long": "AC147_Jaarlijkse vernieuwing van voetpaden en oversteekplaatsen met aandacht voor toegankelijkheid",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1135461.77,
+    "amount_per_capita": 25.72,
+    "yearly_amounts": {
+      "2026": 180000.0,
+      "2027": 183600.0,
+      "2028": 187272.0,
+      "2029": 191017.44,
+      "2030": 194837.79,
+      "2031": 198734.54
+    },
+    "yearly_per_capita": {
+      "2026": 4.08,
+      "2027": 4.16,
+      "2028": 4.24,
+      "2029": 4.33,
+      "2030": 4.41,
+      "2031": 4.5
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 7",
+    "bd_short": "BD07_AMBITIEUS",
+    "bd_long": "We bouwen aan een toekomstgerichte organisatie: De stadsorganisatie is toekomstgericht, efficiënt en flexibel, met betrokken medewerkers, slimme systemen en een sterke focus op innovatie, samenwerking en kwaliteit. Halle is klaar om haar ambities waar te maken en flexibel in te spelen op toekomstige uitdagingen, met een verantwoorde inzet van middelen en een cultuur van continue verbetering.",
+    "ap_code": "AP21",
+    "ap_short": "Digitale transformatie en patrimoniumbeheer",
+    "ap_long": "We maken onze organisatie fit voor de toekomst via digitale transformatie, veilig informatiebeheer en duurzaam patrimonium: We versterken onze organisatie door te investeren in digitale transformatie, datagedreven werken, veilig informatiebeheer en duurzaam patrimonium. Zo bouwen we aan een efficiënte en toekomstgerichte stadsorganisatie.",
+    "ac_code": "AP21_AC613",
+    "ac_short": "Informatiebeheer en cybersecurity versterken",
+    "ac_long": "AC613_Informatiebeheer en cybersecurity versterken met duurzame archivering en veilige infrastructuur",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1080000.0,
+    "amount_per_capita": 24.46,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 300000.0,
+      "2029": 500000.0,
+      "2030": 250000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.68,
+      "2027": 0,
+      "2028": 6.79,
+      "2029": 11.32,
+      "2030": 5.66,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 6",
     "bd_short": "BD06_NABIJ",
     "bd_long": "We zorgen voor een stad waar dienstverlening nabij en toegankelijk is: Elke Hallenaar ervaart toegankelijke, klantgerichte en kwaliteitsvolle dienstverlening, zowel digitaal als fysiek. We ondersteunen initiatieven die buurtbewoners dichter bij elkaar brengen en zorgen ervoor dat wijken en deelgemeenten beschikken over nabije voorzieningen en een sterk sociaal weefsel. De dienstverlening wordt voortdurend verbeterd en is toegankelijk voor iedereen, met bijzondere aandacht voor mensen met een beperking, alleenstaanden en andere kwetsbare groepen.",
     "ap_code": "AP20",
     "ap_short": "Toegankelijke voorzieningen voor Hallenaar",
     "ap_long": "We zorgen voor toegankelijke voorzieningen en waardige plekken voor elke Hallenaar: We investeren in toegankelijke en waardige voorzieningen die bijdragen aan het welzijn van onze inwoners en inspelen op hun diverse noden.",
-    "ac_code": "AP20",
-    "ac_short": "Uitbreiding begraafplaats Buizingen",
-    "ac_long": "AC321_Uitbreiding begraafplaats Buizingen",
+    "ac_code": "AP20_AC429",
+    "ac_short": "Rouwvoorzieningen op alle stedelijke begraafplaatsen",
+    "ac_long": "AC429_Rouwvoorzieningen op alle stedelijke begraafplaatsen",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 1772000.0,
-    "amount_per_capita": 40.18,
+    "total_amount": 992000.0,
+    "amount_per_capita": 22.47,
     "yearly_amounts": {
-      "2026": 517000.0,
-      "2027": 622000.0,
-      "2028": 155000.0,
-      "2029": 170000.0,
-      "2030": 153000.0,
-      "2031": 155000.0
+      "2026": 337000.0,
+      "2027": 142000.0,
+      "2028": 125000.0,
+      "2029": 140000.0,
+      "2030": 123000.0,
+      "2031": 125000.0
     },
     "yearly_per_capita": {
-      "2026": 11.72,
-      "2027": 14.1,
-      "2028": 3.51,
-      "2029": 3.85,
-      "2030": 3.47,
-      "2031": 3.51
+      "2026": 7.63,
+      "2027": 3.22,
+      "2028": 2.83,
+      "2029": 3.17,
+      "2030": 2.79,
+      "2031": 2.83
     }
   },
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
-    "bd_short": "BD05_BEREIKBAAR",
-    "bd_long": "We werken aan een vlot en veilig bereikbare stad: Halle is vlot, veilig en duurzaam bereikbaar voor alle verkeersdeelnemers. Door te investeren in toegankelijke infrastructuur, slimme mobiliteitsoplossingen en een strategisch parkeerbeleid maken we verplaatsingen comfortabeler en milieuvriendelijker. Iedereen - van voetganger tot automobilist - bereikt zijn bestemming op een efficiënte en toegankelijke manier.",
-    "ap_code": "AP14",
-    "ap_short": "Parkeren en mobiliteit strategisch sturen",
-    "ap_long": "We sturen parkeren en mobiliteit strategisch aan met toekomstgerichte plannen: We zorgen voor een evenwichtige en toekomstgerichte aanpak van parkeren en bereikbaarheid. We ontwikkelen beleidskaders en voeren studies uit om mobiliteitshubs en parkeervoorzieningen strategisch te plannen en af te stemmen op de noden van bewoners, bezoekers en bedrijven.",
-    "ac_code": "AP14",
-    "ac_short": "Trajectcontroles voor veilig verkeer",
-    "ac_long": "AC330_Trajectcontroles voor veilig verkeer",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP11",
+    "ap_short": "Infrastructuur voor jeugd en cultuur versterken",
+    "ap_long": "We investeren in infrastructuur en voorzieningen voor jeugd, sport, cultuur en verenigingen: We versterken het sociaal weefsel van Halle met duurzame en toegankelijke plekken die ontmoeting, ontspanning en engagement mogelijk maken.",
+    "ac_code": "AP11_AC497",
+    "ac_short": "Subsidiereglementen herwerken als hefboom voor verenigingen",
+    "ac_long": "AC497_Subsidiereglementen herwerken als hefboom voor verenigingen",
     "categories": [
-      "04-veiligheidszorg"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1358341.0,
-    "amount_per_capita": 30.8,
+    "total_amount": 900000.0,
+    "amount_per_capita": 20.38,
     "yearly_amounts": {
-      "2026": 309000.0,
-      "2027": 310580.0,
-      "2028": 282192.0,
-      "2029": 283835.0,
-      "2030": 85512.0,
-      "2031": 87222.0
+      "2026": 150000.0,
+      "2027": 150000.0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
     },
     "yearly_per_capita": {
-      "2026": 7.01,
-      "2027": 7.04,
-      "2028": 6.4,
-      "2029": 6.44,
-      "2030": 1.94,
-      "2031": 1.98
+      "2026": 3.4,
+      "2027": 3.4,
+      "2028": 3.4,
+      "2029": 3.4,
+      "2030": 3.4,
+      "2031": 3.4
     }
   },
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
     "bd_short": "BD03_ONDERNEMEND",
     "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
     "ap_code": "AP09",
     "ap_short": "Evenementen en stadsbeleving versterken",
     "ap_long": "We versterken evenementen en lokale activiteiten als motor voor ontmoeting en stadsbeleving: We maken van Halle een bruisende stad door te investeren in evenementen, infrastructuur en samenwerking met verenigingen en partners. Zo creëren we een levendige stad waar ontmoeting en beleving centraal staan.",
-    "ac_code": "AP09",
-    "ac_short": "Basisinfrastructuur voor evenementen",
-    "ac_long": "AC114_Basisinfrastructuur voor evenementen",
+    "ac_code": "AP09_AC591",
+    "ac_short": "Infrastructuur voor Halse carnavalsverenigingen",
+    "ac_long": "AC591_Infrastructuur voor Halse carnavalsverenigingen",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 860000.0,
-    "amount_per_capita": 19.5,
+    "total_amount": 850000.0,
+    "amount_per_capita": 19.25,
     "yearly_amounts": {
       "2026": 850000.0,
-      "2027": 10000.0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 19.27,
-      "2027": 0.23,
+      "2026": 19.25,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -342,54 +580,122 @@
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
-    "bd_short": "BD03_ONDERNEMEND",
-    "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
-    "ap_code": "AP08",
-    "ap_short": "Toerisme en recreatie via erfgoed versterken",
-    "ap_long": "We versterken toerisme en recreatie via natuur, water en erfgoed: We zetten onze troeven zoals erfgoed, natuur en waterbeleving in als motor voor toerisme en recreatie. Door te investeren in infrastructuur, promotie en samenwerking maken we van Halle een aantrekkelijke bestemming voor inwoners en bezoekers.",
-    "ac_code": "AP08",
-    "ac_short": "Herinrichting toerismekantoor",
-    "ac_long": "AC055_Herinrichting toerismekantoor als belevingsvolle toegangspoort",
+    "bd_code": "BDS 5",
+    "bd_short": "BD05_BEREIKBAAR",
+    "bd_long": "We werken aan een vlot en veilig bereikbare stad: Halle is vlot, veilig en duurzaam bereikbaar voor alle verkeersdeelnemers. Door te investeren in toegankelijke infrastructuur, slimme mobiliteitsoplossingen en een strategisch parkeerbeleid maken we verplaatsingen comfortabeler en milieuvriendelijker. Iedereen - van voetganger tot automobilist - bereikt zijn bestemming op een efficiënte en toegankelijke manier.",
+    "ap_code": "AP14",
+    "ap_short": "Parkeren en mobiliteit strategisch sturen",
+    "ap_long": "We sturen parkeren en mobiliteit strategisch aan met toekomstgerichte plannen: We zorgen voor een evenwichtige en toekomstgerichte aanpak van parkeren en bereikbaarheid. We ontwikkelen beleidskaders en voeren studies uit om mobiliteitshubs en parkeervoorzieningen strategisch te plannen en af te stemmen op de noden van bewoners, bezoekers en bedrijven.",
+    "ac_code": "AP14_AC330",
+    "ac_short": "Trajectcontroles voor veilig verkeer",
+    "ac_long": "AC330_Trajectcontroles voor veilig verkeer",
     "categories": [
-      "05-ondernemen-werken"
+      "04-veiligheidszorg"
     ],
-    "total_amount": 800100.0,
-    "amount_per_capita": 18.14,
+    "total_amount": 800000.0,
+    "amount_per_capita": 18.12,
     "yearly_amounts": {
-      "2026": 63000.0,
-      "2027": 95000.0,
-      "2028": 425000.0,
-      "2029": 210000.0,
-      "2030": 7100.0,
+      "2026": 200000.0,
+      "2027": 200000.0,
+      "2028": 200000.0,
+      "2029": 200000.0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.43,
-      "2027": 2.15,
-      "2028": 9.64,
-      "2029": 4.76,
-      "2030": 0.16,
+      "2026": 4.53,
+      "2027": 4.53,
+      "2028": 4.53,
+      "2029": 4.53,
+      "2030": 0,
       "2031": 0
     }
   },
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP11",
+    "ap_short": "Infrastructuur voor jeugd en cultuur versterken",
+    "ap_long": "We investeren in infrastructuur en voorzieningen voor jeugd, sport, cultuur en verenigingen: We versterken het sociaal weefsel van Halle met duurzame en toegankelijke plekken die ontmoeting, ontspanning en engagement mogelijk maken.",
+    "ac_code": "AP11_AC575",
+    "ac_short": "Masterplan voor recreatiegebied Stroppen",
+    "ac_long": "AC575_Masterplan voor recreatiegebied Stroppen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 655000.0,
+    "amount_per_capita": 14.84,
+    "yearly_amounts": {
+      "2026": 655000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.84,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP10",
+    "ap_short": "Publieke ruimte en patrimonium verbeteren",
+    "ap_long": "We investeren in kwaliteitsvolle publieke ruimte en duurzaam patrimoniumbeheer: We investeren in een nette, groene en aantrekkelijke publieke ruimte en beheren stedelijke gebouwen en infrastructuur op een duurzame en toekomstgerichte manier.",
+    "ac_code": "AP10_AC225",
+    "ac_short": "Batterijpark koppelen aan grootverbruikers voor slim energie",
+    "ac_long": "AC225_Batterijpark koppelen aan grootverbruikers voor slim energiebeheer",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 650000.0,
+    "amount_per_capita": 14.72,
+    "yearly_amounts": {
+      "2026": 650000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.72,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 4",
     "bd_short": "BD04_LEEFBAAR",
     "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
     "ap_code": "AP12",
     "ap_short": "Gezinsvriendelijke stad en opvang uitbouwen",
     "ap_long": "We bouwen aan een gezinsvriendelijke stad met kwaliteitsvolle en toegankelijke opvang en activiteiten: We versterken het aanbod en de kwaliteit van kinderopvang en gezinsvriendelijke activiteiten in Halle. Door te investeren in infrastructuur, regie en samenwerking zorgen we voor een toegankelijk, betaalbaar en betrouwbaar aanbod dat gezinnen ondersteunt.",
-    "ac_code": "AP12",
+    "ac_code": "AP12_AC217",
     "ac_short": "Uitbreiden van het kinderopvangaanbod",
     "ac_long": "AC217_Uitbreiden van het kinderopvangaanbod",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 600000.0,
-    "amount_per_capita": 13.6,
+    "amount_per_capita": 13.59,
     "yearly_amounts": {
       "2026": 400000.0,
       "2027": 200000.0,
@@ -399,7 +705,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.07,
+      "2026": 9.06,
       "2027": 4.53,
       "2028": 0,
       "2029": 0,
@@ -410,31 +716,167 @@
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP11",
+    "ap_short": "Infrastructuur voor jeugd en cultuur versterken",
+    "ap_long": "We investeren in infrastructuur en voorzieningen voor jeugd, sport, cultuur en verenigingen: We versterken het sociaal weefsel van Halle met duurzame en toegankelijke plekken die ontmoeting, ontspanning en engagement mogelijk maken.",
+    "ac_code": "AP11_AC446",
+    "ac_short": "Instandhouding van speelruimten en -infrastructuur",
+    "ac_long": "AC446_Instandhouding van speelruimten en -infrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 11.32,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 80000.0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 100000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.66,
+      "2027": 1.81,
+      "2028": 1.13,
+      "2029": 0,
+      "2030": 2.26,
+      "2031": 0.45
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 5",
+    "bd_short": "BD05_BEREIKBAAR",
+    "bd_long": "We werken aan een vlot en veilig bereikbare stad: Halle is vlot, veilig en duurzaam bereikbaar voor alle verkeersdeelnemers. Door te investeren in toegankelijke infrastructuur, slimme mobiliteitsoplossingen en een strategisch parkeerbeleid maken we verplaatsingen comfortabeler en milieuvriendelijker. Iedereen - van voetganger tot automobilist - bereikt zijn bestemming op een efficiënte en toegankelijke manier.",
+    "ap_code": "AP14",
+    "ap_short": "Parkeren en mobiliteit strategisch sturen",
+    "ap_long": "We sturen parkeren en mobiliteit strategisch aan met toekomstgerichte plannen: We zorgen voor een evenwichtige en toekomstgerichte aanpak van parkeren en bereikbaarheid. We ontwikkelen beleidskaders en voeren studies uit om mobiliteitshubs en parkeervoorzieningen strategisch te plannen en af te stemmen op de noden van bewoners, bezoekers en bedrijven.",
+    "ac_code": "AP14_AC386",
+    "ac_short": "Herinrichten van straten met focus op leesbare infrastruct",
+    "ac_long": "AC386_Herinrichten van straten met focus op leesbare infrastructuur voor intuïtief en veilig gebruik",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 498341.55,
+    "amount_per_capita": 11.29,
+    "yearly_amounts": {
+      "2026": 79000.0,
+      "2027": 80580.0,
+      "2028": 82191.6,
+      "2029": 83835.43,
+      "2030": 85512.14,
+      "2031": 87222.38
+    },
+    "yearly_per_capita": {
+      "2026": 1.79,
+      "2027": 1.83,
+      "2028": 1.86,
+      "2029": 1.9,
+      "2030": 1.94,
+      "2031": 1.98
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP11",
+    "ap_short": "Infrastructuur voor jeugd en cultuur versterken",
+    "ap_long": "We investeren in infrastructuur en voorzieningen voor jeugd, sport, cultuur en verenigingen: We versterken het sociaal weefsel van Halle met duurzame en toegankelijke plekken die ontmoeting, ontspanning en engagement mogelijk maken.",
+    "ac_code": "AP11_AC168",
+    "ac_short": "Verbeteren van bestaande sport- en beweeginfrastructuur",
+    "ac_long": "AC168_Verbeteren van bestaande sport- en beweeginfrastructuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 480000.0,
+    "amount_per_capita": 10.87,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 80000.0,
+      "2028": 80000.0,
+      "2029": 80000.0,
+      "2030": 80000.0,
+      "2031": 80000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.81,
+      "2027": 1.81,
+      "2028": 1.81,
+      "2029": 1.81,
+      "2030": 1.81,
+      "2031": 1.81
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 5",
+    "bd_short": "BD05_BEREIKBAAR",
+    "bd_long": "We werken aan een vlot en veilig bereikbare stad: Halle is vlot, veilig en duurzaam bereikbaar voor alle verkeersdeelnemers. Door te investeren in toegankelijke infrastructuur, slimme mobiliteitsoplossingen en een strategisch parkeerbeleid maken we verplaatsingen comfortabeler en milieuvriendelijker. Iedereen - van voetganger tot automobilist - bereikt zijn bestemming op een efficiënte en toegankelijke manier.",
+    "ap_code": "AP15",
+    "ap_short": "Veilige en duurzame infrastructuur bouwen",
+    "ap_long": "We bouwen aan een veilige, toegankelijke en duurzame infrastructuur voor alle weggebruikers: We investeren in een vlot, veilig en toekomstgericht mobiliteitsnetwerk door zowel infrastructuur te verbeteren als duurzame en slimme mobiliteitsoplossingen te stimuleren.",
+    "ac_code": "AP15_AC146",
+    "ac_short": "Veiligheid en doorstroming verbeteren op schoolroutes",
+    "ac_long": "AC146_Verkeersveiligheid en doorstroming verbeteren op schoolroutes",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 450000.0,
+    "amount_per_capita": 10.19,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.7,
+      "2027": 1.7,
+      "2028": 1.7,
+      "2029": 1.7,
+      "2030": 1.7,
+      "2031": 1.7
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 6",
     "bd_short": "BD06_NABIJ",
     "bd_long": "We zorgen voor een stad waar dienstverlening nabij en toegankelijk is: Elke Hallenaar ervaart toegankelijke, klantgerichte en kwaliteitsvolle dienstverlening, zowel digitaal als fysiek. We ondersteunen initiatieven die buurtbewoners dichter bij elkaar brengen en zorgen ervoor dat wijken en deelgemeenten beschikken over nabije voorzieningen en een sterk sociaal weefsel. De dienstverlening wordt voortdurend verbeterd en is toegankelijk voor iedereen, met bijzondere aandacht voor mensen met een beperking, alleenstaanden en andere kwetsbare groepen.",
-    "ap_code": "AP16",
-    "ap_short": "Digitale en klantgerichte diensten bouwen",
-    "ap_long": "We bouwen aan digitale en klantgerichte stadsdiensten op maat: We optimaliseren onze dienstverlening en communicatie om beter aan te sluiten bij de behoeften van onze inwoners. Door digitale tools, centrale balies en klantgerichte processen verhogen we de kwaliteit en toegankelijkheid van onze diensten.",
-    "ac_code": "AP16",
-    "ac_short": "Digitale inschrijftool voor vrijetijdsaanbod",
-    "ac_long": "AC075_Digitale inschrijftool voor vrijetijdsaanbod",
+    "ap_code": "AP20",
+    "ap_short": "Toegankelijke voorzieningen voor Hallenaar",
+    "ap_long": "We zorgen voor toegankelijke voorzieningen en waardige plekken voor elke Hallenaar: We investeren in toegankelijke en waardige voorzieningen die bijdragen aan het welzijn van onze inwoners en inspelen op hun diverse noden.",
+    "ac_code": "AP20_AC321",
+    "ac_short": "Uitbreiding begraafplaats Buizingen",
+    "ac_long": "AC321_Uitbreiding begraafplaats Buizingen",
     "categories": [
-      "01-algemeen-bestuur"
+      "09-zorg-opvang"
     ],
-    "total_amount": 221000.0,
-    "amount_per_capita": 5.01,
+    "total_amount": 450000.0,
+    "amount_per_capita": 10.19,
     "yearly_amounts": {
-      "2026": 159000.0,
-      "2027": 62000.0,
+      "2026": 0,
+      "2027": 450000.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.61,
-      "2027": 1.41,
+      "2026": 0,
+      "2027": 10.19,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -444,13 +886,217 @@
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP11",
+    "ap_short": "Infrastructuur voor jeugd en cultuur versterken",
+    "ap_long": "We investeren in infrastructuur en voorzieningen voor jeugd, sport, cultuur en verenigingen: We versterken het sociaal weefsel van Halle met duurzame en toegankelijke plekken die ontmoeting, ontspanning en engagement mogelijk maken.",
+    "ac_code": "AP11_AC471",
+    "ac_short": "Nieuwe jeugdlokalen voor scouts Sint-Rochus & AKABE",
+    "ac_long": "AC471_Nieuwe jeugdlokalen voor scouts Sint-Rochus & AKABE",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 411463.95,
+    "amount_per_capita": 9.32,
+    "yearly_amounts": {
+      "2026": 411463.95,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.32,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP10",
+    "ap_short": "Publieke ruimte en patrimonium verbeteren",
+    "ap_long": "We investeren in kwaliteitsvolle publieke ruimte en duurzaam patrimoniumbeheer: We investeren in een nette, groene en aantrekkelijke publieke ruimte en beheren stedelijke gebouwen en infrastructuur op een duurzame en toekomstgerichte manier.",
+    "ac_code": "AP10_AC619",
+    "ac_short": "Aanleg van een promenade aan de Suikerkaai",
+    "ac_long": "AC619_Aanleg van een promenade aan de Suikerkaai",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 9.06,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 250000.0,
+      "2028": 150000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 5.66,
+      "2028": 3.4,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 3",
+    "bd_short": "BD03_ONDERNEMEND",
+    "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
+    "ap_code": "AP08",
+    "ap_short": "Toerisme en recreatie via erfgoed versterken",
+    "ap_long": "We versterken toerisme en recreatie via natuur, water en erfgoed: We zetten onze troeven zoals erfgoed, natuur en waterbeleving in als motor voor toerisme en recreatie. Door te investeren in infrastructuur, promotie en samenwerking maken we van Halle een aantrekkelijke bestemming voor inwoners en bezoekers.",
+    "ac_code": "AP08_AC056",
+    "ac_short": "Historisch stadhuis inrichten als museale belevingsplek",
+    "ac_long": "AC056_Historisch stadhuis (bovenverdiepingen) inrichten als museale belevingsplek voor Halse identiteit",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 6.79,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 100000.0,
+      "2029": 200000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.26,
+      "2029": 4.53,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 3",
+    "bd_short": "BD03_ONDERNEMEND",
+    "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
+    "ap_code": "AP08",
+    "ap_short": "Toerisme en recreatie via erfgoed versterken",
+    "ap_long": "We versterken toerisme en recreatie via natuur, water en erfgoed: We zetten onze troeven zoals erfgoed, natuur en waterbeleving in als motor voor toerisme en recreatie. Door te investeren in infrastructuur, promotie en samenwerking maken we van Halle een aantrekkelijke bestemming voor inwoners en bezoekers.",
+    "ac_code": "AP08_AC197",
+    "ac_short": "Uitkijktoren realiseren als toeristische trekpleister",
+    "ac_long": "AC197_Uitkijktoren realiseren als toeristische en educatieve trekpleister",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 6.79,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 300000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 6.79,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP10",
+    "ap_short": "Publieke ruimte en patrimonium verbeteren",
+    "ap_long": "We investeren in kwaliteitsvolle publieke ruimte en duurzaam patrimoniumbeheer: We investeren in een nette, groene en aantrekkelijke publieke ruimte en beheren stedelijke gebouwen en infrastructuur op een duurzame en toekomstgerichte manier.",
+    "ac_code": "AP10_AC441",
+    "ac_short": "Ontharden en vergroenen zwembadplein",
+    "ac_long": "AC441_Ontharden en vergroenen zwembadplein",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 4.53,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 200000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 4.53
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP11",
+    "ap_short": "Infrastructuur voor jeugd en cultuur versterken",
+    "ap_long": "We investeren in infrastructuur en voorzieningen voor jeugd, sport, cultuur en verenigingen: We versterken het sociaal weefsel van Halle met duurzame en toegankelijke plekken die ontmoeting, ontspanning en engagement mogelijk maken.",
+    "ac_code": "AP11_AC434",
+    "ac_short": "Renovatie hoofdgebouw Joepie voor betere speelpleinwerking",
+    "ac_long": "AC434_Renovatie hoofdgebouw Joepie voor betere speelpleinwerking",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 4.53,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.13,
+      "2027": 3.4,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 6",
     "bd_short": "BD06_NABIJ",
     "bd_long": "We zorgen voor een stad waar dienstverlening nabij en toegankelijk is: Elke Hallenaar ervaart toegankelijke, klantgerichte en kwaliteitsvolle dienstverlening, zowel digitaal als fysiek. We ondersteunen initiatieven die buurtbewoners dichter bij elkaar brengen en zorgen ervoor dat wijken en deelgemeenten beschikken over nabije voorzieningen en een sterk sociaal weefsel. De dienstverlening wordt voortdurend verbeterd en is toegankelijk voor iedereen, met bijzondere aandacht voor mensen met een beperking, alleenstaanden en andere kwetsbare groepen.",
     "ap_code": "AP17",
     "ap_short": "Toegankelijke zorg en ondersteuning bieden",
     "ap_long": "We bouwen aan toegankelijke en inclusieve zorg en woonondersteuning: We versterken de zorg en woonondersteuning voor kwetsbare doelgroepen via toegankelijke dienstverlening en samenwerking met partners. We zetten in op nabijheid, preventie en zorg op maat.",
-    "ac_code": "AP17",
+    "ac_code": "AP17_AC621",
     "ac_short": "Vervanging bedden woonzorgcentrum Zonnig Huis",
     "ac_long": "AC621_Vervanging bedden woonzorgcentrum Zonnig Huis",
     "categories": [
@@ -478,13 +1124,81 @@
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
+    "bd_short": "BD06_NABIJ",
+    "bd_long": "We zorgen voor een stad waar dienstverlening nabij en toegankelijk is: Elke Hallenaar ervaart toegankelijke, klantgerichte en kwaliteitsvolle dienstverlening, zowel digitaal als fysiek. We ondersteunen initiatieven die buurtbewoners dichter bij elkaar brengen en zorgen ervoor dat wijken en deelgemeenten beschikken over nabije voorzieningen en een sterk sociaal weefsel. De dienstverlening wordt voortdurend verbeterd en is toegankelijk voor iedereen, met bijzondere aandacht voor mensen met een beperking, alleenstaanden en andere kwetsbare groepen.",
+    "ap_code": "AP20",
+    "ap_short": "Toegankelijke voorzieningen voor Hallenaar",
+    "ap_long": "We zorgen voor toegankelijke voorzieningen en waardige plekken voor elke Hallenaar: We investeren in toegankelijke en waardige voorzieningen die bijdragen aan het welzijn van onze inwoners en inspelen op hun diverse noden.",
+    "ac_code": "AP20_AC409",
+    "ac_short": "Stedelijke gebouwen toegankelijker maken via screening",
+    "ac_long": "AC409_Stedelijke gebouwen toegankelijker maken via screening en aanpassingen",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 4.08,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 30000.0,
+      "2029": 30000.0,
+      "2030": 30000.0,
+      "2031": 30000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.68,
+      "2027": 0.68,
+      "2028": 0.68,
+      "2029": 0.68,
+      "2030": 0.68,
+      "2031": 0.68
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 7",
+    "bd_short": "BD07_AMBITIEUS",
+    "bd_long": "We bouwen aan een toekomstgerichte organisatie: De stadsorganisatie is toekomstgericht, efficiënt en flexibel, met betrokken medewerkers, slimme systemen en een sterke focus op innovatie, samenwerking en kwaliteit. Halle is klaar om haar ambities waar te maken en flexibel in te spelen op toekomstige uitdagingen, met een verantwoorde inzet van middelen en een cultuur van continue verbetering.",
+    "ap_code": "AP21",
+    "ap_short": "Digitale transformatie en patrimoniumbeheer",
+    "ap_long": "We maken onze organisatie fit voor de toekomst via digitale transformatie, veilig informatiebeheer en duurzaam patrimonium: We versterken onze organisatie door te investeren in digitale transformatie, datagedreven werken, veilig informatiebeheer en duurzaam patrimonium. Zo bouwen we aan een efficiënte en toekomstgerichte stadsorganisatie.",
+    "ac_code": "AP21_AC605",
+    "ac_short": "Procesoptimalisatie en risicobeheersing",
+    "ac_long": "AC605_Procesoptimalisatie en risicobeheersing systematisch aanpakken",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 170000.0,
+    "amount_per_capita": 3.85,
+    "yearly_amounts": {
+      "2026": 170000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.85,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 3",
     "bd_short": "BD03_ONDERNEMEND",
     "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
     "ap_code": "AP07",
     "ap_short": "Ondernemingsvriendelijk klimaat stimuleren",
     "ap_long": "We stimuleren een ondernemingsvriendelijk handelsklimaat: We versterken het ondernemerschap in Halle met een helder beleid en een ondersteunende aanpak die lokale initiatieven ruimte geeft om te groeien.",
-    "ac_code": "AP07",
+    "ac_code": "AP07_AC361",
     "ac_short": "VISUALO-schermen voor lokale handel en stadscommunicatie",
     "ac_long": "AC361_VISUALO-schermen inzetten voor lokale handel en stadscommunicatie",
     "categories": [
@@ -512,20 +1226,190 @@
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
+    "bd_short": "BD06_NABIJ",
+    "bd_long": "We zorgen voor een stad waar dienstverlening nabij en toegankelijk is: Elke Hallenaar ervaart toegankelijke, klantgerichte en kwaliteitsvolle dienstverlening, zowel digitaal als fysiek. We ondersteunen initiatieven die buurtbewoners dichter bij elkaar brengen en zorgen ervoor dat wijken en deelgemeenten beschikken over nabije voorzieningen en een sterk sociaal weefsel. De dienstverlening wordt voortdurend verbeterd en is toegankelijk voor iedereen, met bijzondere aandacht voor mensen met een beperking, alleenstaanden en andere kwetsbare groepen.",
+    "ap_code": "AP20",
+    "ap_short": "Toegankelijke voorzieningen voor Hallenaar",
+    "ap_long": "We zorgen voor toegankelijke voorzieningen en waardige plekken voor elke Hallenaar: We investeren in toegankelijke en waardige voorzieningen die bijdragen aan het welzijn van onze inwoners en inspelen op hun diverse noden.",
+    "ac_code": "AP20_AC492",
+    "ac_short": "Toekomstplan uitwerken voor huisvesting Rode Kruis",
+    "ac_long": "AC492_Toekomstplan uitwerken voor huisvesting Rode Kruis",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 3.4,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.4,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 1",
+    "bd_short": "BD01_VEILIG",
+    "bd_long": "We streven naar een veilige stad: Veiligheid is onze prioriteit. We pakken overlast, criminaliteit en polarisatie daadkrachtig aan via een geïntegreerde aanpak van preventie en handhaving, in nauwe samenwerking met de Politiezone en lokale partners. Moderne technologieën versterken het toezicht en de slagkracht van onze veiligheidsdiensten.",
+    "ap_code": "AP01",
+    "ap_short": "Toezicht verhogen en veiligheidsgevoel versterken",
+    "ap_long": "We verhogen het toezicht en verbeteren het veiligheidsgevoel in de publieke ruimte: We versterken de veiligheid in de publieke ruimte via gerichte maatregelen zoals cameratoezicht en controles. Het bestuur neemt hierin het voortouw, met ondersteuning van lokale netwerken.",
+    "ac_code": "AP01_AC329",
+    "ac_short": "Overlast en zwerfvuil aanpakken via handhaving en camera's",
+    "ac_long": "AC329_Overlast en zwerfvuil aanpakken via handhaving en cameratoezicht",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 144000.0,
+    "amount_per_capita": 3.26,
+    "yearly_amounts": {
+      "2026": 44000.0,
+      "2027": 40000.0,
+      "2028": 15000.0,
+      "2029": 15000.0,
+      "2030": 15000.0,
+      "2031": 15000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.0,
+      "2027": 0.91,
+      "2028": 0.34,
+      "2029": 0.34,
+      "2030": 0.34,
+      "2031": 0.34
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP13",
+    "ap_short": "Veerkracht via duurzaam beheer versterken",
+    "ap_long": "We versterken de natuurlijke veerkracht van onze stad via duurzaam water-, groen- en afvalbeheer: We vergroten de weerbaarheid van onze stad tegen klimaatverandering door in te zetten op biodiversiteit, waterkwaliteit en duurzaam beheer van onze omgeving.",
+    "ac_code": "AP13_AC279",
+    "ac_short": "Hemelwater, droogte en erosie integraal aanpakken",
+    "ac_long": "AC279_Hemelwater, droogte en erosie integraal aanpakken",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 123000.0,
+    "amount_per_capita": 2.79,
+    "yearly_amounts": {
+      "2026": 23000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.52,
+      "2027": 0.45,
+      "2028": 0.45,
+      "2029": 0.45,
+      "2030": 0.45,
+      "2031": 0.45
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 7",
+    "bd_short": "BD07_AMBITIEUS",
+    "bd_long": "We bouwen aan een toekomstgerichte organisatie: De stadsorganisatie is toekomstgericht, efficiënt en flexibel, met betrokken medewerkers, slimme systemen en een sterke focus op innovatie, samenwerking en kwaliteit. Halle is klaar om haar ambities waar te maken en flexibel in te spelen op toekomstige uitdagingen, met een verantwoorde inzet van middelen en een cultuur van continue verbetering.",
+    "ap_code": "AP21",
+    "ap_short": "Digitale transformatie en patrimoniumbeheer",
+    "ap_long": "We maken onze organisatie fit voor de toekomst via digitale transformatie, veilig informatiebeheer en duurzaam patrimonium: We versterken onze organisatie door te investeren in digitale transformatie, datagedreven werken, veilig informatiebeheer en duurzaam patrimonium. Zo bouwen we aan een efficiënte en toekomstgerichte stadsorganisatie.",
+    "ac_code": "AP21_AC603",
+    "ac_short": "Datagedreven werken verankeren",
+    "ac_long": "AC603_Datagedreven werken verankeren door data slim in te zetten",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 100040.4,
+    "amount_per_capita": 2.27,
+    "yearly_amounts": {
+      "2026": 48000.0,
+      "2027": 10000.0,
+      "2028": 10200.0,
+      "2029": 10404.0,
+      "2030": 10612.08,
+      "2031": 10824.32
+    },
+    "yearly_per_capita": {
+      "2026": 1.09,
+      "2027": 0.23,
+      "2028": 0.23,
+      "2029": 0.24,
+      "2030": 0.24,
+      "2031": 0.25
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 3",
+    "bd_short": "BD03_ONDERNEMEND",
+    "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
+    "ap_code": "AP08",
+    "ap_short": "Toerisme en recreatie via erfgoed versterken",
+    "ap_long": "We versterken toerisme en recreatie via natuur, water en erfgoed: We zetten onze troeven zoals erfgoed, natuur en waterbeleving in als motor voor toerisme en recreatie. Door te investeren in infrastructuur, promotie en samenwerking maken we van Halle een aantrekkelijke bestemming voor inwoners en bezoekers.",
+    "ac_code": "AP08_AC055",
+    "ac_short": "Herinrichting toerismekantoor",
+    "ac_long": "AC055_Herinrichting toerismekantoor als belevingsvolle toegangspoort",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 2.26,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 80000.0,
+      "2028": 20000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.81,
+      "2028": 0.45,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 7",
     "bd_short": "BD07_AMBITIEUS",
     "bd_long": "We bouwen aan een toekomstgerichte organisatie: De stadsorganisatie is toekomstgericht, efficiënt en flexibel, met betrokken medewerkers, slimme systemen en een sterke focus op innovatie, samenwerking en kwaliteit. Halle is klaar om haar ambities waar te maken en flexibel in te spelen op toekomstige uitdagingen, met een verantwoorde inzet van middelen en een cultuur van continue verbetering.",
     "ap_code": "AP22",
     "ap_short": "Samenhang en slagkracht van organisatie versterken",
     "ap_long": "We versterken de samenhang en slagkracht van onze organisatie: We bouwen aan een krachtige organisatie met duidelijke interne communicatie, een gedragen projectaanpak en sterk personeelsbeleid. Via samenwerking en een open organisatiecultuur versterken we betrokkenheid, integriteit en inzetbaarheid.",
-    "ac_code": "AP22",
+    "ac_code": "AP22_AC608",
     "ac_short": "Sterk en toekomstgericht personeelsbeleid",
     "ac_long": "AC608_Sterk en toekomstgericht personeelsbeleid met focus op prestaties en strategie",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 96000.0,
-    "amount_per_capita": 2.18,
+    "amount_per_capita": 2.17,
     "yearly_amounts": {
       "2026": 66000.0,
       "2027": 6000.0,
@@ -535,7 +1419,7 @@
       "2031": 6000.0
     },
     "yearly_per_capita": {
-      "2026": 1.5,
+      "2026": 1.49,
       "2027": 0.14,
       "2028": 0.14,
       "2029": 0.14,
@@ -546,13 +1430,353 @@
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
+    "bd_short": "BD06_NABIJ",
+    "bd_long": "We zorgen voor een stad waar dienstverlening nabij en toegankelijk is: Elke Hallenaar ervaart toegankelijke, klantgerichte en kwaliteitsvolle dienstverlening, zowel digitaal als fysiek. We ondersteunen initiatieven die buurtbewoners dichter bij elkaar brengen en zorgen ervoor dat wijken en deelgemeenten beschikken over nabije voorzieningen en een sterk sociaal weefsel. De dienstverlening wordt voortdurend verbeterd en is toegankelijk voor iedereen, met bijzondere aandacht voor mensen met een beperking, alleenstaanden en andere kwetsbare groepen.",
+    "ap_code": "AP16",
+    "ap_short": "Digitale en klantgerichte diensten bouwen",
+    "ap_long": "We bouwen aan digitale en klantgerichte stadsdiensten op maat: We optimaliseren onze dienstverlening en communicatie om beter aan te sluiten bij de behoeften van onze inwoners. Door digitale tools, centrale balies en klantgerichte processen verhogen we de kwaliteit en toegankelijkheid van onze diensten.",
+    "ac_code": "AP16_AC124",
+    "ac_short": "Implementatie van een onbemande bibliotheek",
+    "ac_long": "AC124_Implementatie van een onbemande bibliotheek",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 89000.0,
+    "amount_per_capita": 2.02,
+    "yearly_amounts": {
+      "2026": 89000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 6",
+    "bd_short": "BD06_NABIJ",
+    "bd_long": "We zorgen voor een stad waar dienstverlening nabij en toegankelijk is: Elke Hallenaar ervaart toegankelijke, klantgerichte en kwaliteitsvolle dienstverlening, zowel digitaal als fysiek. We ondersteunen initiatieven die buurtbewoners dichter bij elkaar brengen en zorgen ervoor dat wijken en deelgemeenten beschikken over nabije voorzieningen en een sterk sociaal weefsel. De dienstverlening wordt voortdurend verbeterd en is toegankelijk voor iedereen, met bijzondere aandacht voor mensen met een beperking, alleenstaanden en andere kwetsbare groepen.",
+    "ap_code": "AP16",
+    "ap_short": "Digitale en klantgerichte diensten bouwen",
+    "ap_long": "We bouwen aan digitale en klantgerichte stadsdiensten op maat: We optimaliseren onze dienstverlening en communicatie om beter aan te sluiten bij de behoeften van onze inwoners. Door digitale tools, centrale balies en klantgerichte processen verhogen we de kwaliteit en toegankelijkheid van onze diensten.",
+    "ac_code": "AP16_AC085",
+    "ac_short": "CRM-systeem voor klantgerichte dienstverlening",
+    "ac_long": "AC085_CRM-systeem voor klantgerichte dienstverlening",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 62000.0,
+    "amount_per_capita": 1.4,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 62000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.4,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 5",
+    "bd_short": "BD05_BEREIKBAAR",
+    "bd_long": "We werken aan een vlot en veilig bereikbare stad: Halle is vlot, veilig en duurzaam bereikbaar voor alle verkeersdeelnemers. Door te investeren in toegankelijke infrastructuur, slimme mobiliteitsoplossingen en een strategisch parkeerbeleid maken we verplaatsingen comfortabeler en milieuvriendelijker. Iedereen - van voetganger tot automobilist - bereikt zijn bestemming op een efficiënte en toegankelijke manier.",
+    "ap_code": "AP14",
+    "ap_short": "Parkeren en mobiliteit strategisch sturen",
+    "ap_long": "We sturen parkeren en mobiliteit strategisch aan met toekomstgerichte plannen: We zorgen voor een evenwichtige en toekomstgerichte aanpak van parkeren en bereikbaarheid. We ontwikkelen beleidskaders en voeren studies uit om mobiliteitshubs en parkeervoorzieningen strategisch te plannen en af te stemmen op de noden van bewoners, bezoekers en bedrijven.",
+    "ac_code": "AP14_AC573",
+    "ac_short": "Mobiliteitsknelpunten stationsomgevingen aanpakken",
+    "ac_long": "AC573_Mobiliteitsknelpunten stationsomgevingen aanpakken",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 1.36,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.68,
+      "2027": 0.68,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 6",
+    "bd_short": "BD06_NABIJ",
+    "bd_long": "We zorgen voor een stad waar dienstverlening nabij en toegankelijk is: Elke Hallenaar ervaart toegankelijke, klantgerichte en kwaliteitsvolle dienstverlening, zowel digitaal als fysiek. We ondersteunen initiatieven die buurtbewoners dichter bij elkaar brengen en zorgen ervoor dat wijken en deelgemeenten beschikken over nabije voorzieningen en een sterk sociaal weefsel. De dienstverlening wordt voortdurend verbeterd en is toegankelijk voor iedereen, met bijzondere aandacht voor mensen met een beperking, alleenstaanden en andere kwetsbare groepen.",
+    "ap_code": "AP16",
+    "ap_short": "Digitale en klantgerichte diensten bouwen",
+    "ap_long": "We bouwen aan digitale en klantgerichte stadsdiensten op maat: We optimaliseren onze dienstverlening en communicatie om beter aan te sluiten bij de behoeften van onze inwoners. Door digitale tools, centrale balies en klantgerichte processen verhogen we de kwaliteit en toegankelijkheid van onze diensten.",
+    "ac_code": "AP16_AC222",
+    "ac_short": "Geïntegreerd reservatiesysteem voor zalen en materiaal",
+    "ac_long": "AC222_Geïntegreerd reservatiesysteem voor zalen en materiaal",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 55000.0,
+    "amount_per_capita": 1.25,
+    "yearly_amounts": {
+      "2026": 55000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 7",
+    "bd_short": "BD07_AMBITIEUS",
+    "bd_long": "We bouwen aan een toekomstgerichte organisatie: De stadsorganisatie is toekomstgericht, efficiënt en flexibel, met betrokken medewerkers, slimme systemen en een sterke focus op innovatie, samenwerking en kwaliteit. Halle is klaar om haar ambities waar te maken en flexibel in te spelen op toekomstige uitdagingen, met een verantwoorde inzet van middelen en een cultuur van continue verbetering.",
+    "ap_code": "AP21",
+    "ap_short": "Digitale transformatie en patrimoniumbeheer",
+    "ap_long": "We maken onze organisatie fit voor de toekomst via digitale transformatie, veilig informatiebeheer en duurzaam patrimonium: We versterken onze organisatie door te investeren in digitale transformatie, datagedreven werken, veilig informatiebeheer en duurzaam patrimonium. Zo bouwen we aan een efficiënte en toekomstgerichte stadsorganisatie.",
+    "ac_code": "AP21_AC611",
+    "ac_short": "Digitale transformatie realiseren",
+    "ac_long": "AC611_Digitale transformatie realiseren met AI, automatisering en een efficiënt softwarelandschap",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 55000.0,
+    "amount_per_capita": 1.25,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 20000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.34,
+      "2027": 0.45,
+      "2028": 0.11,
+      "2029": 0.11,
+      "2030": 0.11,
+      "2031": 0.11
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 3",
+    "bd_short": "BD03_ONDERNEMEND",
+    "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
+    "ap_code": "AP08",
+    "ap_short": "Toerisme en recreatie via erfgoed versterken",
+    "ap_long": "We versterken toerisme en recreatie via natuur, water en erfgoed: We zetten onze troeven zoals erfgoed, natuur en waterbeleving in als motor voor toerisme en recreatie. Door te investeren in infrastructuur, promotie en samenwerking maken we van Halle een aantrekkelijke bestemming voor inwoners en bezoekers.",
+    "ac_code": "AP08_AC582",
+    "ac_short": "Ondersteunen van toerisme via kwalitatieve camperplaatsen",
+    "ac_long": "AC582_Ondersteunen van toerisme via kwalitatieve camperplaatsen op de Suikerkaai",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 45000.0,
+    "amount_per_capita": 1.02,
+    "yearly_amounts": {
+      "2026": 35000.0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.79,
+      "2027": 0.23,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 4",
+    "bd_short": "BD04_LEEFBAAR",
+    "bd_long": "We bouwen aan een aangename stad voor jong en oud: Een thuis voor iedereen, met een nette, kwaliteitsvolle en aantrekkelijke leefomgeving in stad en deelgemeenten. Met een langetermijnvisie op stadsvernieuwing en patrimoniumbeheer investeren we in duurzame, energiezuinige en toegankelijke gebouwen en publieke ruimtes. Sterke voorzieningen en een groene, gezonde omgeving versterken de levenskwaliteit en veerkracht van elke Hallenaar.",
+    "ap_code": "AP10",
+    "ap_short": "Publieke ruimte en patrimonium verbeteren",
+    "ap_long": "We investeren in kwaliteitsvolle publieke ruimte en duurzaam patrimoniumbeheer: We investeren in een nette, groene en aantrekkelijke publieke ruimte en beheren stedelijke gebouwen en infrastructuur op een duurzame en toekomstgerichte manier.",
+    "ac_code": "AP10_AC618",
+    "ac_short": "Verwijderen van kunstwerk op het Bevrijdingsplein",
+    "ac_long": "AC618_Verwijderen van kunstwerk op het Bevrijdingsplein en herinrichting van het middeneiland",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 0.91,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.91,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 3",
+    "bd_short": "BD03_ONDERNEMEND",
+    "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
+    "ap_code": "AP08",
+    "ap_short": "Toerisme en recreatie via erfgoed versterken",
+    "ap_long": "We versterken toerisme en recreatie via natuur, water en erfgoed: We zetten onze troeven zoals erfgoed, natuur en waterbeleving in als motor voor toerisme en recreatie. Door te investeren in infrastructuur, promotie en samenwerking maken we van Halle een aantrekkelijke bestemming voor inwoners en bezoekers.",
+    "ac_code": "AP08_AC057",
+    "ac_short": "Sint-Martinusbasiliek ontsluiten",
+    "ac_long": "AC057_Sint-Martinusbasiliek ontsluiten met torenbezoek, schatkamer en beiaardconcerten",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 28000.0,
+    "amount_per_capita": 0.63,
+    "yearly_amounts": {
+      "2026": 28000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.63,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 3",
+    "bd_short": "BD03_ONDERNEMEND",
+    "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
+    "ap_code": "AP08",
+    "ap_short": "Toerisme en recreatie via erfgoed versterken",
+    "ap_long": "We versterken toerisme en recreatie via natuur, water en erfgoed: We zetten onze troeven zoals erfgoed, natuur en waterbeleving in als motor voor toerisme en recreatie. Door te investeren in infrastructuur, promotie en samenwerking maken we van Halle een aantrekkelijke bestemming voor inwoners en bezoekers.",
+    "ac_code": "AP08_AC258",
+    "ac_short": "Waterbeleving op kanaal en open water",
+    "ac_long": "AC258_Waterbeleving versterken via zwemrecreatie, pleziervaart en ontmoetingsplekken op en rond het kanaal en open water",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 0.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 10000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.11,
+      "2028": 0.11,
+      "2029": 0.23,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 6",
+    "bd_short": "BD06_NABIJ",
+    "bd_long": "We zorgen voor een stad waar dienstverlening nabij en toegankelijk is: Elke Hallenaar ervaart toegankelijke, klantgerichte en kwaliteitsvolle dienstverlening, zowel digitaal als fysiek. We ondersteunen initiatieven die buurtbewoners dichter bij elkaar brengen en zorgen ervoor dat wijken en deelgemeenten beschikken over nabije voorzieningen en een sterk sociaal weefsel. De dienstverlening wordt voortdurend verbeterd en is toegankelijk voor iedereen, met bijzondere aandacht voor mensen met een beperking, alleenstaanden en andere kwetsbare groepen.",
+    "ap_code": "AP16",
+    "ap_short": "Digitale en klantgerichte diensten bouwen",
+    "ap_long": "We bouwen aan digitale en klantgerichte stadsdiensten op maat: We optimaliseren onze dienstverlening en communicatie om beter aan te sluiten bij de behoeften van onze inwoners. Door digitale tools, centrale balies en klantgerichte processen verhogen we de kwaliteit en toegankelijkheid van onze diensten.",
+    "ac_code": "AP16_AC075",
+    "ac_short": "Digitale inschrijftool voor vrijetijdsaanbod",
+    "ac_long": "AC075_Digitale inschrijftool voor vrijetijdsaanbod",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.34,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.34,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 2",
     "bd_short": "BD02_VLAAMS",
     "bd_long": "We bevorderen het Nederlands en versterken onze Vlaamse identiteit: In onze Vlaamse stad is het Nederlands stevig verankerd als verbindende factor. We bevorderen het gebruik van het Nederlands in alle aspecten van de samenleving en dragen het Nederlandstalige karakter zichtbaar uit in het straatbeeld, de dienstverlening en het vrijetijdsleven. De stad geeft het goede voorbeeld door de taalwetten strikt toe te passen. We ondersteunen initiatieven die anderstaligen en nieuwkomers stimuleren om volwaardig te integreren in de Vlaamse gemeenschap.",
     "ap_code": "AP04",
     "ap_short": "Nederlands en Vlaamse identiteit versterken",
     "ap_long": "We versterken het gebruik van het Nederlands en de Vlaamse identiteit in publieke ruimte, dienstverlening en beleid: We maken het Nederlands zichtbaar en vanzelfsprekend in het straatbeeld, de communicatie en de dienstverlening van de stad. We versterken het Vlaamse karakter en zorgen we voor een herkenbare en verbindende taalomgeving in Halle.",
-    "ac_code": "AP04",
+    "ac_code": "AP04_AC491",
     "ac_short": "Eerbetoon aan Paul Severs met kunstwerk op symbolische plek",
     "ac_long": "AC491_Eerbetoon aan Paul Severs met kunstwerk op symbolische plek",
     "categories": [
@@ -580,13 +1804,81 @@
   {
     "municipality": "Halle",
     "nis_code": "23027",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
+    "bd_short": "BD03_ONDERNEMEND",
+    "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
+    "ap_code": "AP09",
+    "ap_short": "Evenementen en stadsbeleving versterken",
+    "ap_long": "We versterken evenementen en lokale activiteiten als motor voor ontmoeting en stadsbeleving: We maken van Halle een bruisende stad door te investeren in evenementen, infrastructuur en samenwerking met verenigingen en partners. Zo creëren we een levendige stad waar ontmoeting en beleving centraal staan.",
+    "ac_code": "AP09_AC114",
+    "ac_short": "Basisinfrastructuur voor evenementen",
+    "ac_long": "AC114_Basisinfrastructuur voor evenementen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.23,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.23,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 3",
+    "bd_short": "BD03_ONDERNEMEND",
+    "bd_long": "We zijn een dynamische stad die aantrekt en onderneemt: Halle groeit uit tot een dynamische, economisch sterke stad met een herkenbaar stadsmerk, een levendig handelscentrum en een aantrekkelijk toeristisch aanbod. We versterken de lokale economie en maken van toerisme een sterke pijler door de unieke troeven van onze stad, streek en erfgoed maximaal te benutten. Zo creëren we een stad waar inwoners, ondernemers en bezoekers volop kunnen genieten van een breed en kwalitatief aanbod aan culturele, recreatieve en verbindende activiteiten.",
+    "ap_code": "AP08",
+    "ap_short": "Toerisme en recreatie via erfgoed versterken",
+    "ap_long": "We versterken toerisme en recreatie via natuur, water en erfgoed: We zetten onze troeven zoals erfgoed, natuur en waterbeleving in als motor voor toerisme en recreatie. Door te investeren in infrastructuur, promotie en samenwerking maken we van Halle een aantrekkelijke bestemming voor inwoners en bezoekers.",
+    "ac_code": "AP08_AC066",
+    "ac_short": "Erfgoed zichtbaar maken via karaktervolle informatieborden",
+    "ac_long": "AC066_Erfgoed zichtbaar maken via karaktervolle informatieborden",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 7100.0,
+    "amount_per_capita": 0.16,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 7100.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0.16,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Halle",
+    "nis_code": "23027",
+    "bd_code": "BDS 6",
     "bd_short": "BD06_NABIJ",
     "bd_long": "We zorgen voor een stad waar dienstverlening nabij en toegankelijk is: Elke Hallenaar ervaart toegankelijke, klantgerichte en kwaliteitsvolle dienstverlening, zowel digitaal als fysiek. We ondersteunen initiatieven die buurtbewoners dichter bij elkaar brengen en zorgen ervoor dat wijken en deelgemeenten beschikken over nabije voorzieningen en een sterk sociaal weefsel. De dienstverlening wordt voortdurend verbeterd en is toegankelijk voor iedereen, met bijzondere aandacht voor mensen met een beperking, alleenstaanden en andere kwetsbare groepen.",
     "ap_code": "AP19",
     "ap_short": "Sociale ondersteuning en activering versterken",
     "ap_long": "We versterken nabije sociale ondersteuning en activering: We zetten in op activering, werkgelegenheid en toegankelijke ondersteuning voor wie het moeilijk heeft. Via samenwerking met partners en gerichte begeleiding versterken we de zelfredzaamheid en participatiekansen van kwetsbare Hallenaren.",
-    "ac_code": "AP19",
+    "ac_code": "AP19_AC128",
     "ac_short": "Mobiele dienstverlening voor kwetsbare doelgroepen",
     "ac_long": "AC128_Mobiele dienstverlening voor kwetsbare doelgroepen via MobiKit",
     "categories": [

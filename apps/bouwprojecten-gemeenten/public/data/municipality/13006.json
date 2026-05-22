@@ -14,10 +14,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 7435000.0,
-    "amount_per_capita": 741.99,
+    "total_amount": 10170084.95,
+    "amount_per_capita": 1014.23,
     "yearly_amounts": {
-      "2026": 5785000.0,
+      "2026": 8520084.95,
       "2027": 1500000.0,
       "2028": 150000.0,
       "2029": 0,
@@ -25,9 +25,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 577.33,
-      "2027": 149.7,
-      "2028": 14.97,
+      "2026": 849.68,
+      "2027": 149.59,
+      "2028": 14.96,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -48,10 +48,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 2380000.0,
-    "amount_per_capita": 237.52,
+    "total_amount": 2473284.62,
+    "amount_per_capita": 246.65,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 93284.62,
       "2027": 0,
       "2028": 0,
       "2029": 500000.0,
@@ -59,12 +59,12 @@
       "2031": 380000.0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 9.3,
       "2027": 0,
       "2028": 0,
-      "2029": 49.9,
-      "2030": 149.7,
-      "2031": 37.92
+      "2029": 49.86,
+      "2030": 149.59,
+      "2031": 37.9
     }
   },
   {
@@ -82,10 +82,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 2342250.0,
-    "amount_per_capita": 233.75,
+    "total_amount": 2400864.76,
+    "amount_per_capita": 239.43,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 58614.76,
       "2027": 100000.0,
       "2028": 1882250.0,
       "2029": 360000.0,
@@ -93,10 +93,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 9.98,
-      "2028": 187.84,
-      "2029": 35.93,
+      "2026": 5.85,
+      "2027": 9.97,
+      "2028": 187.71,
+      "2029": 35.9,
       "2030": 0,
       "2031": 0
     }
@@ -117,7 +117,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 1448085.0,
-    "amount_per_capita": 144.51,
+    "amount_per_capita": 144.41,
     "yearly_amounts": {
       "2026": 0,
       "2027": 799283.0,
@@ -128,8 +128,76 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 79.77,
-      "2028": 64.75,
+      "2027": 79.71,
+      "2028": 64.7,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000072",
+    "ap_short": "20.6 Onderhouden, vernieuwen en uitbreiden van verhardingen.",
+    "ap_long": "20.6 Onderhouden, vernieuwen en uitbreiden van verhardingen .",
+    "ac_code": "AC000208",
+    "ac_short": "Vernieuwen en uitbreiden van verhardingen",
+    "ac_long": "Vernieuwen en uitbreiden van verhardingen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1351652.19,
+    "amount_per_capita": 134.8,
+    "yearly_amounts": {
+      "2026": 426652.19,
+      "2027": 305000.0,
+      "2028": 5000.0,
+      "2029": 305000.0,
+      "2030": 5000.0,
+      "2031": 305000.0
+    },
+    "yearly_per_capita": {
+      "2026": 42.55,
+      "2027": 30.42,
+      "2028": 0.5,
+      "2029": 30.42,
+      "2030": 0.5,
+      "2031": 30.42
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000070",
+    "ap_short": "20.4 Onderhouden, vernieuwen en uitbreiden van de vrijetijdsinfrastructuur",
+    "ap_long": "20.4 Onderhouden, vernieuwen en uitbreiden van de vrijetijdsinfrastructuur.",
+    "ac_code": "AC000196",
+    "ac_short": "Onderhoud van sportinfrastructuur en sportterreinen",
+    "ac_long": "Onderhoud van sportinfrastructuur en sportterreinen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1114842.53,
+    "amount_per_capita": 111.18,
+    "yearly_amounts": {
+      "2026": 1064842.53,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 106.19,
+      "2027": 4.99,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -150,10 +218,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1060000.0,
-    "amount_per_capita": 105.79,
+    "total_amount": 1060000.7,
+    "amount_per_capita": 105.71,
     "yearly_amounts": {
-      "2026": 510000.0,
+      "2026": 510000.7,
       "2027": 510000.0,
       "2028": 10000.0,
       "2029": 10000.0,
@@ -161,8 +229,8 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 50.9,
-      "2027": 50.9,
+      "2026": 50.86,
+      "2027": 50.86,
       "2028": 1.0,
       "2029": 1.0,
       "2030": 1.0,
@@ -175,65 +243,31 @@
     "bd_code": "BD000020",
     "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
     "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "ap_code": "AP000072",
-    "ap_short": "20.6 Onderhouden, vernieuwen en uitbreiden van verhardingen.",
-    "ap_long": "20.6 Onderhouden, vernieuwen en uitbreiden van verhardingen .",
-    "ac_code": "AC000208",
-    "ac_short": "Vernieuwen en uitbreiden van verhardingen",
-    "ac_long": "Vernieuwen en uitbreiden van verhardingen",
+    "ap_code": "AP000077",
+    "ap_short": "20.11 Onderhouden en vernieuwen van het wagenpark",
+    "ap_long": "20.11 Onderhouden en vernieuwen van het wagenpark.",
+    "ac_code": "AC000221",
+    "ac_short": "Vernieuwen van het wagenpark",
+    "ac_long": "Vernieuwen van het wagenpark",
     "categories": [
-      "02-mobiliteit"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 986500.0,
-    "amount_per_capita": 98.45,
+    "total_amount": 1035031.0,
+    "amount_per_capita": 103.22,
     "yearly_amounts": {
-      "2026": 61500.0,
-      "2027": 305000.0,
-      "2028": 5000.0,
-      "2029": 305000.0,
-      "2030": 5000.0,
-      "2031": 305000.0
-    },
-    "yearly_per_capita": {
-      "2026": 6.14,
-      "2027": 30.44,
-      "2028": 0.5,
-      "2029": 30.44,
-      "2030": 0.5,
-      "2031": 30.44
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000020",
-    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "ap_code": "AP000070",
-    "ap_short": "20.4 Onderhouden, vernieuwen en uitbreiden van de vrijetijdsinfrastructuur",
-    "ap_long": "20.4 Onderhouden, vernieuwen en uitbreiden van de vrijetijdsinfrastructuur.",
-    "ac_code": "AC000196",
-    "ac_short": "Onderhoud van sportinfrastructuur en sportterreinen",
-    "ac_long": "Onderhoud van sportinfrastructuur en sportterreinen",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 857500.0,
-    "amount_per_capita": 85.58,
-    "yearly_amounts": {
-      "2026": 807500.0,
-      "2027": 50000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
+      "2026": 565031.0,
+      "2027": 115000.0,
+      "2028": 270000.0,
+      "2029": 40000.0,
+      "2030": 45000.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 80.59,
-      "2027": 4.99,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
+      "2026": 56.35,
+      "2027": 11.47,
+      "2028": 26.93,
+      "2029": 3.99,
+      "2030": 4.49,
       "2031": 0
     }
   },
@@ -253,7 +287,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 855000.0,
-    "amount_per_capita": 85.33,
+    "amount_per_capita": 85.27,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -267,42 +301,42 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 85.33,
+      "2030": 85.27,
       "2031": 0
     }
   },
   {
     "municipality": "Dessel",
     "nis_code": "13006",
-    "bd_code": "BD000020",
-    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "ap_code": "AP000077",
-    "ap_short": "20.11 Onderhouden en vernieuwen van het wagenpark",
-    "ap_long": "20.11 Onderhouden en vernieuwen van het wagenpark.",
-    "ac_code": "AC000221",
-    "ac_short": "Vernieuwen van het wagenpark",
-    "ac_long": "Vernieuwen van het wagenpark",
+    "bd_code": "BD000025",
+    "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
+    "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
+    "ap_code": "AP000091",
+    "ap_short": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
+    "ap_long": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
+    "ac_code": "AC000290",
+    "ac_short": "Clients en randapparatuur: desktops, laptops, beeldschermen, BIO boxen, raadzaal micro's,…",
+    "ac_long": "Clients en randapparatuur: desktops, laptops, beeldschermen, BIO boxen, raadzaal micro's,…",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 720000.0,
-    "amount_per_capita": 71.85,
+    "total_amount": 676703.91,
+    "amount_per_capita": 67.49,
     "yearly_amounts": {
-      "2026": 250000.0,
-      "2027": 115000.0,
-      "2028": 270000.0,
-      "2029": 40000.0,
-      "2030": 45000.0,
-      "2031": 0
+      "2026": 310073.91,
+      "2027": 54450.0,
+      "2028": 83170.0,
+      "2029": 168615.0,
+      "2030": 9680.0,
+      "2031": 50715.0
     },
     "yearly_per_capita": {
-      "2026": 24.95,
-      "2027": 11.48,
-      "2028": 26.95,
-      "2029": 3.99,
-      "2030": 4.49,
-      "2031": 0
+      "2026": 30.92,
+      "2027": 5.43,
+      "2028": 8.29,
+      "2029": 16.82,
+      "2030": 0.97,
+      "2031": 5.06
     }
   },
   {
@@ -320,10 +354,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 600000.0,
-    "amount_per_capita": 59.88,
+    "total_amount": 600722.14,
+    "amount_per_capita": 59.91,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 722.14,
       "2027": 0,
       "2028": 150000.0,
       "2029": 450000.0,
@@ -331,10 +365,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.07,
       "2027": 0,
-      "2028": 14.97,
-      "2029": 44.91,
+      "2028": 14.96,
+      "2029": 44.88,
       "2030": 0,
       "2031": 0
     }
@@ -354,57 +388,23 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 592135.0,
-    "amount_per_capita": 59.09,
+    "total_amount": 592135.4,
+    "amount_per_capita": 59.05,
     "yearly_amounts": {
       "2026": 123800.0,
-      "2027": 105725.0,
-      "2028": 83070.0,
+      "2027": 105725.2,
+      "2028": 83069.8,
       "2029": 96564.0,
-      "2030": 93840.0,
+      "2030": 93840.4,
       "2031": 89136.0
     },
     "yearly_per_capita": {
       "2026": 12.35,
-      "2027": 10.55,
-      "2028": 8.29,
-      "2029": 9.64,
+      "2027": 10.54,
+      "2028": 8.28,
+      "2029": 9.63,
       "2030": 9.36,
-      "2031": 8.9
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000025",
-    "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "ap_code": "AP000091",
-    "ap_short": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
-    "ap_long": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
-    "ac_code": "AC000290",
-    "ac_short": "Clients en randapparatuur: desktops, laptops, beeldschermen, BIO boxen, raadzaal micro's,…",
-    "ac_long": "Clients en randapparatuur: desktops, laptops, beeldschermen, BIO boxen, raadzaal micro's,…",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 572814.0,
-    "amount_per_capita": 57.17,
-    "yearly_amounts": {
-      "2026": 206184.0,
-      "2027": 54450.0,
-      "2028": 83170.0,
-      "2029": 168615.0,
-      "2030": 9680.0,
-      "2031": 50715.0
-    },
-    "yearly_per_capita": {
-      "2026": 20.58,
-      "2027": 5.43,
-      "2028": 8.3,
-      "2029": 16.83,
-      "2030": 0.97,
-      "2031": 5.06
+      "2031": 8.89
     }
   },
   {
@@ -422,10 +422,10 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 564201.0,
-    "amount_per_capita": 56.31,
+    "total_amount": 567242.27,
+    "amount_per_capita": 56.57,
     "yearly_amounts": {
-      "2026": 157412.0,
+      "2026": 160453.27,
       "2027": 137491.0,
       "2028": 136496.0,
       "2029": 10278.0,
@@ -433,12 +433,46 @@
       "2031": 112390.0
     },
     "yearly_per_capita": {
-      "2026": 15.71,
-      "2027": 13.72,
-      "2028": 13.62,
-      "2029": 1.03,
+      "2026": 16.0,
+      "2027": 13.71,
+      "2028": 13.61,
+      "2029": 1.02,
       "2030": 1.01,
-      "2031": 11.22
+      "2031": 11.21
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000025",
+    "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
+    "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
+    "ap_code": "AP000090",
+    "ap_short": "25.3 We implementeren de noodzakelijke en vereiste software.",
+    "ap_long": "25.3 We implementeren de noodzakelijke en vereiste software.",
+    "ac_code": "AC000284",
+    "ac_short": "Software: licenties, abonnementen, configuratie en installatie",
+    "ac_long": "Software: licenties, abonnementen, configuratie en installatie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 526600.13,
+    "amount_per_capita": 52.52,
+    "yearly_amounts": {
+      "2026": 282180.13,
+      "2027": 25410.0,
+      "2028": 161535.0,
+      "2029": 18150.0,
+      "2030": 21175.0,
+      "2031": 18150.0
+    },
+    "yearly_per_capita": {
+      "2026": 28.14,
+      "2027": 2.53,
+      "2028": 16.11,
+      "2029": 1.81,
+      "2030": 2.11,
+      "2031": 1.81
     }
   },
   {
@@ -457,7 +491,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 421028.0,
-    "amount_per_capita": 42.02,
+    "amount_per_capita": 41.99,
     "yearly_amounts": {
       "2026": 86246.0,
       "2027": 64182.0,
@@ -467,12 +501,46 @@
       "2031": 69626.0
     },
     "yearly_per_capita": {
-      "2026": 8.61,
-      "2027": 6.41,
-      "2028": 6.56,
+      "2026": 8.6,
+      "2027": 6.4,
+      "2028": 6.55,
       "2029": 6.68,
-      "2030": 6.82,
-      "2031": 6.95
+      "2030": 6.81,
+      "2031": 6.94
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000074",
+    "ap_short": "20.8 Werken aan nutsleidingen",
+    "ap_long": "20.8 Werken aan nutsleidingen",
+    "ac_code": "AC000215",
+    "ac_short": "Diverse werken aan nutsleidingen",
+    "ac_long": "Diverse werken aan nutsleidingen",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 354779.72,
+    "amount_per_capita": 35.38,
+    "yearly_amounts": {
+      "2026": 81579.72,
+      "2027": 125200.0,
+      "2028": 148000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.14,
+      "2027": 12.49,
+      "2028": 14.76,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -491,7 +559,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 329369.0,
-    "amount_per_capita": 32.87,
+    "amount_per_capita": 32.85,
     "yearly_amounts": {
       "2026": 0,
       "2027": 230558.0,
@@ -502,8 +570,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 23.01,
-      "2028": 9.86,
+      "2027": 22.99,
+      "2028": 9.85,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -515,63 +583,29 @@
     "bd_code": "BD000025",
     "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
     "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "ap_code": "AP000090",
-    "ap_short": "25.3 We implementeren de noodzakelijke en vereiste software.",
-    "ap_long": "25.3 We implementeren de noodzakelijke en vereiste software.",
-    "ac_code": "AC000284",
-    "ac_short": "Software: licenties, abonnementen, configuratie en installatie",
-    "ac_long": "Software: licenties, abonnementen, configuratie en installatie",
+    "ap_code": "AP000091",
+    "ap_short": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
+    "ap_long": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
+    "ac_code": "AC000286",
+    "ac_short": "Serveromgeving: hardware, onderhoudscontracten, monitoring,…",
+    "ac_long": "Serveromgeving: hardware, onderhoudscontracten, monitoring,…",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 291005.0,
-    "amount_per_capita": 29.04,
+    "total_amount": 235806.79,
+    "amount_per_capita": 23.52,
     "yearly_amounts": {
-      "2026": 46585.0,
-      "2027": 25410.0,
-      "2028": 161535.0,
-      "2029": 18150.0,
-      "2030": 21175.0,
-      "2031": 18150.0
-    },
-    "yearly_per_capita": {
-      "2026": 4.65,
-      "2027": 2.54,
-      "2028": 16.12,
-      "2029": 1.81,
-      "2030": 2.11,
-      "2031": 1.81
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000020",
-    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "ap_code": "AP000074",
-    "ap_short": "20.8 Werken aan nutsleidingen",
-    "ap_long": "20.8 Werken aan nutsleidingen",
-    "ac_code": "AC000215",
-    "ac_short": "Diverse werken aan nutsleidingen",
-    "ac_long": "Diverse werken aan nutsleidingen",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 273200.0,
-    "amount_per_capita": 27.26,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 125200.0,
-      "2028": 148000.0,
+      "2026": 24056.79,
+      "2027": 0,
+      "2028": 211750.0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 12.49,
-      "2028": 14.77,
+      "2026": 2.4,
+      "2027": 0,
+      "2028": 21.12,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -592,10 +626,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 230505.0,
-    "amount_per_capita": 23.0,
+    "total_amount": 230579.59,
+    "amount_per_capita": 22.99,
     "yearly_amounts": {
-      "2026": 3630.0,
+      "2026": 3704.59,
       "2027": 7865.0,
       "2028": 211750.0,
       "2029": 7260.0,
@@ -603,146 +637,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.36,
+      "2026": 0.37,
       "2027": 0.78,
-      "2028": 21.13,
+      "2028": 21.12,
       "2029": 0.72,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000025",
-    "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "ap_code": "AP000091",
-    "ap_short": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
-    "ap_long": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
-    "ac_code": "AC000286",
-    "ac_short": "Serveromgeving: hardware, onderhoudscontracten, monitoring,…",
-    "ac_long": "Serveromgeving: hardware, onderhoudscontracten, monitoring,…",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 215380.0,
-    "amount_per_capita": 21.49,
-    "yearly_amounts": {
-      "2026": 3630.0,
-      "2027": 0,
-      "2028": 211750.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.36,
-      "2027": 0,
-      "2028": 21.13,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000020",
-    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "ap_code": "AP000067",
-    "ap_short": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
-    "ap_long": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
-    "ac_code": "AC000188",
-    "ac_short": "Administratieve gebouwen: A.C., bibliotheek, oud gemeentehuis",
-    "ac_long": "Administratieve gebouwen: A.C., bibliotheek, oud gemeentehuis",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 186000.0,
-    "amount_per_capita": 18.56,
-    "yearly_amounts": {
-      "2026": 26000.0,
-      "2027": 6000.0,
-      "2028": 56000.0,
-      "2029": 86000.0,
-      "2030": 6000.0,
-      "2031": 6000.0
-    },
-    "yearly_per_capita": {
-      "2026": 2.59,
-      "2027": 0.6,
-      "2028": 5.59,
-      "2029": 8.58,
-      "2030": 0.6,
-      "2031": 0.6
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000020",
-    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "ap_code": "AP000067",
-    "ap_short": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
-    "ap_long": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
-    "ac_code": "AC000187",
-    "ac_short": "sociaal huis",
-    "ac_long": "Sociaal huis",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 177000.0,
-    "amount_per_capita": 17.66,
-    "yearly_amounts": {
-      "2026": 169500.0,
-      "2027": 1500.0,
-      "2028": 1500.0,
-      "2029": 1500.0,
-      "2030": 1500.0,
-      "2031": 1500.0
-    },
-    "yearly_per_capita": {
-      "2026": 16.92,
-      "2027": 0.15,
-      "2028": 0.15,
-      "2029": 0.15,
-      "2030": 0.15,
-      "2031": 0.15
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000025",
-    "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "ap_code": "AP000091",
-    "ap_short": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
-    "ap_long": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
-    "ac_code": "AC000292",
-    "ac_short": "Digiborden",
-    "ac_long": "Digiborden",
-    "categories": [
-      "08-onderwijs"
-    ],
-    "total_amount": 165000.0,
-    "amount_per_capita": 16.47,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 85000.0,
-      "2028": 50000.0,
-      "2029": 30000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 8.48,
-      "2028": 4.99,
-      "2029": 2.99,
       "2030": 0,
       "2031": 0
     }
@@ -762,10 +660,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 160000.0,
-    "amount_per_capita": 15.97,
+    "total_amount": 193978.52,
+    "amount_per_capita": 19.34,
     "yearly_amounts": {
-      "2026": 30000.0,
+      "2026": 63978.52,
       "2027": 80000.0,
       "2028": 30000.0,
       "2029": 20000.0,
@@ -773,10 +671,214 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.99,
+      "2026": 6.38,
       "2027": 7.98,
       "2028": 2.99,
-      "2029": 2.0,
+      "2029": 1.99,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000025",
+    "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
+    "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
+    "ap_code": "AP000091",
+    "ap_short": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
+    "ap_long": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
+    "ac_code": "AC000292",
+    "ac_short": "Digiborden",
+    "ac_long": "Digiborden",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 193135.06,
+    "amount_per_capita": 19.26,
+    "yearly_amounts": {
+      "2026": 28135.06,
+      "2027": 85000.0,
+      "2028": 50000.0,
+      "2029": 30000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.81,
+      "2027": 8.48,
+      "2028": 4.99,
+      "2029": 2.99,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000067",
+    "ap_short": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
+    "ap_long": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
+    "ac_code": "AC000188",
+    "ac_short": "Administratieve gebouwen: A.C., bibliotheek, oud gemeentehuis",
+    "ac_long": "Administratieve gebouwen: A.C., bibliotheek, oud gemeentehuis",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 187394.52,
+    "amount_per_capita": 18.69,
+    "yearly_amounts": {
+      "2026": 27394.52,
+      "2027": 6000.0,
+      "2028": 56000.0,
+      "2029": 86000.0,
+      "2030": 6000.0,
+      "2031": 6000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.73,
+      "2027": 0.6,
+      "2028": 5.58,
+      "2029": 8.58,
+      "2030": 0.6,
+      "2031": 0.6
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000067",
+    "ap_short": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
+    "ap_long": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
+    "ac_code": "AC000187",
+    "ac_short": "Sociaal huis",
+    "ac_long": "Sociaal huis",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 187000.0,
+    "amount_per_capita": 18.65,
+    "yearly_amounts": {
+      "2026": 179500.0,
+      "2027": 1500.0,
+      "2028": 1500.0,
+      "2029": 1500.0,
+      "2030": 1500.0,
+      "2031": 1500.0
+    },
+    "yearly_per_capita": {
+      "2026": 17.9,
+      "2027": 0.15,
+      "2028": 0.15,
+      "2029": 0.15,
+      "2030": 0.15,
+      "2031": 0.15
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP000097",
+    "ap_short": "27.2 Diverse uitgaven m.b.t. de dagelijkse werking",
+    "ap_long": "27.2 Diverse uitgaven m.b.t. de dagelijkse werking",
+    "ac_code": "AC000314",
+    "ac_short": "Financiële ondersteuning van de kerkfabrieken (eredienstendecreet)",
+    "ac_long": "Financiële ondersteuning van de kerkfabrieken (eredienstendecreet)",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 165585.54,
+    "amount_per_capita": 16.51,
+    "yearly_amounts": {
+      "2026": 103085.54,
+      "2027": 12500.0,
+      "2028": 12500.0,
+      "2029": 12500.0,
+      "2030": 12500.0,
+      "2031": 12500.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.28,
+      "2027": 1.25,
+      "2028": 1.25,
+      "2029": 1.25,
+      "2030": 1.25,
+      "2031": 1.25
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000019",
+    "bd_short": "19. We betrekken alle mogelijke partners om van Dessel een aangename gemeente te maken waar het goed",
+    "bd_long": "19. We betrekken alle mogelijke partners om van Dessel een aangename gemeente te maken waar het goed en veilig is om te wonen.",
+    "ap_code": "AP000062",
+    "ap_short": "19.3 We streven naar een goede ruimtelijke ordening",
+    "ap_long": "19.3 We streven naar een goede ruimtelijke ordening.",
+    "ac_code": "AC000176",
+    "ac_short": "Opmaken van onteigeningen en opstellen rooilijnplannen",
+    "ac_long": "Opmaken van onteigeningen en opstellen rooilijnplannen",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 165000.0,
+    "amount_per_capita": 16.45,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.96,
+      "2027": 1.5,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000067",
+    "ap_short": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
+    "ap_long": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
+    "ac_code": "AC000189",
+    "ac_short": "Tentoonstellingen/ Kunst",
+    "ac_long": "Tentoonstellingen/ Kunst",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 164621.27,
+    "amount_per_capita": 16.42,
+    "yearly_amounts": {
+      "2026": 164621.27,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -796,10 +898,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 148000.0,
-    "amount_per_capita": 14.77,
+    "total_amount": 156340.09,
+    "amount_per_capita": 15.59,
     "yearly_amounts": {
-      "2026": 75000.0,
+      "2026": 83340.09,
       "2027": 53000.0,
       "2028": 20000.0,
       "2029": 0,
@@ -807,79 +909,11 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.48,
+      "2026": 8.31,
       "2027": 5.29,
-      "2028": 2.0,
+      "2028": 1.99,
       "2029": 0,
       "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000097",
-    "ap_short": "27.2 Diverse uitgaven m.b.t. de dagelijkse werking",
-    "ap_long": "27.2 Diverse uitgaven m.b.t. de dagelijkse werking",
-    "ac_code": "AC000314",
-    "ac_short": "Financiële ondersteuning van de kerkfabrieken (eredienstendecreet)",
-    "ac_long": "Financiële ondersteuning van de kerkfabrieken (eredienstendecreet)",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 125000.0,
-    "amount_per_capita": 12.47,
-    "yearly_amounts": {
-      "2026": 62500.0,
-      "2027": 12500.0,
-      "2028": 12500.0,
-      "2029": 12500.0,
-      "2030": 12500.0,
-      "2031": 12500.0
-    },
-    "yearly_per_capita": {
-      "2026": 6.24,
-      "2027": 1.25,
-      "2028": 1.25,
-      "2029": 1.25,
-      "2030": 1.25,
-      "2031": 1.25
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000025",
-    "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "ap_code": "AP000091",
-    "ap_short": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
-    "ap_long": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
-    "ac_code": "AC000287",
-    "ac_short": "(cyber)beveiliging: firewall, antivirus, antimalware, VPN, Ciport, NIS2 wetgeving, monitoring,…",
-    "ac_long": "(cyber)beveiliging: firewall, antivirus, antimalware, VPN, Ciport, NIS2 wetgeving, monitoring,…",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 121000.0,
-    "amount_per_capita": 12.08,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 121000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 12.08,
       "2031": 0
     }
   },
@@ -898,10 +932,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 120000.0,
-    "amount_per_capita": 11.98,
+    "total_amount": 134832.29,
+    "amount_per_capita": 13.45,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 34832.29,
       "2027": 20000.0,
       "2028": 20000.0,
       "2029": 20000.0,
@@ -909,12 +943,12 @@
       "2031": 20000.0
     },
     "yearly_per_capita": {
-      "2026": 2.0,
-      "2027": 2.0,
-      "2028": 2.0,
-      "2029": 2.0,
-      "2030": 2.0,
-      "2031": 2.0
+      "2026": 3.47,
+      "2027": 1.99,
+      "2028": 1.99,
+      "2029": 1.99,
+      "2030": 1.99,
+      "2031": 1.99
     }
   },
   {
@@ -932,10 +966,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 118192.0,
-    "amount_per_capita": 11.8,
+    "total_amount": 132357.34,
+    "amount_per_capita": 13.2,
     "yearly_amounts": {
-      "2026": 12844.0,
+      "2026": 27009.34,
       "2027": 79698.0,
       "2028": 8250.0,
       "2029": 4100.0,
@@ -943,7 +977,7 @@
       "2031": 6700.0
     },
     "yearly_per_capita": {
-      "2026": 1.28,
+      "2026": 2.69,
       "2027": 7.95,
       "2028": 0.82,
       "2029": 0.41,
@@ -966,10 +1000,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 108900.0,
-    "amount_per_capita": 10.87,
+    "total_amount": 123419.03,
+    "amount_per_capita": 12.31,
     "yearly_amounts": {
-      "2026": 18150.0,
+      "2026": 32669.03,
       "2027": 18150.0,
       "2028": 18150.0,
       "2029": 18150.0,
@@ -977,12 +1011,80 @@
       "2031": 18150.0
     },
     "yearly_per_capita": {
-      "2026": 1.81,
+      "2026": 3.26,
       "2027": 1.81,
       "2028": 1.81,
       "2029": 1.81,
       "2030": 1.81,
       "2031": 1.81
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000071",
+    "ap_short": "20.5 Onderhouden, vernieuwen en uitbreiden van diverse gebouwen/privaat patrimonium.",
+    "ap_long": "20.5 Onderhouden, vernieuwen en uitbreiden van diverse gebouwen/privaat patrimonium.",
+    "ac_code": "AC000203",
+    "ac_short": "Woningen in beheer van het OCMW (Hofstraat 10, Berkestraat, Turnhoutsebaan 16, …",
+    "ac_long": "Woningen in beheer van het OCMW (Hofstraat 10, Lorzestraat 39, Berkestraat 13, Turnhoutsebaan 16, Eikestraat,...)",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 122019.78,
+    "amount_per_capita": 12.17,
+    "yearly_amounts": {
+      "2026": 122019.78,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.17,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000025",
+    "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
+    "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
+    "ap_code": "AP000091",
+    "ap_short": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
+    "ap_long": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
+    "ac_code": "AC000287",
+    "ac_short": "(cyber)beveiliging: firewall, antivirus, antimalware, VPN, Ciport, NIS2 wetgeving, monitoring,…",
+    "ac_long": "(cyber)beveiliging: firewall, antivirus, antimalware, VPN, Ciport, NIS2 wetgeving, monitoring,…",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 121000.0,
+    "amount_per_capita": 12.07,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 121000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 12.07,
+      "2031": 0
     }
   },
   {
@@ -1000,10 +1102,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 107000.0,
-    "amount_per_capita": 10.68,
+    "total_amount": 119465.16,
+    "amount_per_capita": 11.91,
     "yearly_amounts": {
-      "2026": 26000.0,
+      "2026": 38465.16,
       "2027": 21000.0,
       "2028": 19000.0,
       "2029": 14000.0,
@@ -1011,11 +1113,113 @@
       "2031": 12500.0
     },
     "yearly_per_capita": {
-      "2026": 2.59,
-      "2027": 2.1,
-      "2028": 1.9,
+      "2026": 3.84,
+      "2027": 2.09,
+      "2028": 1.89,
       "2029": 1.4,
       "2030": 1.45,
+      "2031": 1.25
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000070",
+    "ap_short": "20.4 Onderhouden, vernieuwen en uitbreiden van de vrijetijdsinfrastructuur",
+    "ap_long": "20.4 Onderhouden, vernieuwen en uitbreiden van de vrijetijdsinfrastructuur.",
+    "ac_code": "AC000195",
+    "ac_short": "Onderhoud van speelterreinen",
+    "ac_long": "Onderhoud van speelterreinen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 80937.0,
+    "amount_per_capita": 8.07,
+    "yearly_amounts": {
+      "2026": 25937.0,
+      "2027": 5000.0,
+      "2028": 20000.0,
+      "2029": 5000.0,
+      "2030": 20000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 2.59,
+      "2027": 0.5,
+      "2028": 1.99,
+      "2029": 0.5,
+      "2030": 1.99,
+      "2031": 0.5
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000071",
+    "ap_short": "20.5 Onderhouden, vernieuwen en uitbreiden van diverse gebouwen/privaat patrimonium.",
+    "ap_long": "20.5 Onderhouden, vernieuwen en uitbreiden van diverse gebouwen/privaat patrimonium.",
+    "ac_code": "AC000202",
+    "ac_short": "Diverse gebouwen (De rusthuif, wijkpost politie, Hannekestraat 5, Hannekestraat 7, …)",
+    "ac_long": "Diverse gebouwen (De rusthuif, wijkpost politie, Hannekestraat 5, Hannekestraat 7, …)",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 78185.04,
+    "amount_per_capita": 7.8,
+    "yearly_amounts": {
+      "2026": 53185.04,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.3,
+      "2027": 0.5,
+      "2028": 0.5,
+      "2029": 0.5,
+      "2030": 0.5,
+      "2031": 0.5
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP000097",
+    "ap_short": "27.2 Diverse uitgaven m.b.t. de dagelijkse werking",
+    "ap_long": "27.2 Diverse uitgaven m.b.t. de dagelijkse werking",
+    "ac_code": "AC000320",
+    "ac_short": "Diverse technische kosten materiaal/materieel",
+    "ac_long": "Diverse technische kosten materiaal/materieel",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 75860.72,
+    "amount_per_capita": 7.57,
+    "yearly_amounts": {
+      "2026": 13360.72,
+      "2027": 12500.0,
+      "2028": 12500.0,
+      "2029": 12500.0,
+      "2030": 12500.0,
+      "2031": 12500.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.33,
+      "2027": 1.25,
+      "2028": 1.25,
+      "2029": 1.25,
+      "2030": 1.25,
       "2031": 1.25
     }
   },
@@ -1056,69 +1260,35 @@
   {
     "municipality": "Dessel",
     "nis_code": "13006",
-    "bd_code": "BD000020",
-    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "ap_code": "AP000070",
-    "ap_short": "20.4 Onderhouden, vernieuwen en uitbreiden van de vrijetijdsinfrastructuur",
-    "ap_long": "20.4 Onderhouden, vernieuwen en uitbreiden van de vrijetijdsinfrastructuur.",
-    "ac_code": "AC000195",
-    "ac_short": "Onderhoud van speelterreinen",
-    "ac_long": "Onderhoud van speelterreinen",
+    "bd_code": "BD000016",
+    "bd_short": "16. We werken participatief om onze organisatie en werking te versterken.",
+    "bd_long": "16. We werken participatief om onze organisatie en werking te versterken.",
+    "ap_code": "AP000052",
+    "ap_short": "16.1 We maken inspraak mogelijk door het opzetten van structurele adviesorganen en het ad hoc betrek",
+    "ap_long": "16.1 We maken inspraak mogelijk door het opzetten van structurele adviesorganen en het ad hoc betrekken van inwoners en andere belanghebbenden.",
+    "ac_code": "AC000336",
+    "ac_short": "We betrekken sportverenigingen bij de uitbating van sportinfrastructuur",
+    "ac_long": "We betrekken sportverenigingen bij de uitbating van sportinfrastructuur",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "overige"
     ],
-    "total_amount": 75000.0,
-    "amount_per_capita": 7.48,
+    "total_amount": 54319.34,
+    "amount_per_capita": 5.42,
     "yearly_amounts": {
-      "2026": 20000.0,
-      "2027": 5000.0,
-      "2028": 20000.0,
-      "2029": 5000.0,
-      "2030": 20000.0,
-      "2031": 5000.0
+      "2026": 54319.34,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.0,
-      "2027": 0.5,
-      "2028": 2.0,
-      "2029": 0.5,
-      "2030": 2.0,
-      "2031": 0.5
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "",
-    "bd_short": "",
-    "bd_long": "",
-    "ap_code": "AP000097",
-    "ap_short": "27.2 Diverse uitgaven m.b.t. de dagelijkse werking",
-    "ap_long": "27.2 Diverse uitgaven m.b.t. de dagelijkse werking",
-    "ac_code": "AC000320",
-    "ac_short": "Diverse technische kosten materiaal/materieel",
-    "ac_long": "Diverse technische kosten materiaal/materieel",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 75000.0,
-    "amount_per_capita": 7.48,
-    "yearly_amounts": {
-      "2026": 12500.0,
-      "2027": 12500.0,
-      "2028": 12500.0,
-      "2029": 12500.0,
-      "2030": 12500.0,
-      "2031": 12500.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.25,
-      "2027": 1.25,
-      "2028": 1.25,
-      "2029": 1.25,
-      "2030": 1.25,
-      "2031": 1.25
+      "2026": 5.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -1136,10 +1306,10 @@
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 4.99,
+    "total_amount": 53800.0,
+    "amount_per_capita": 5.37,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 3800.0,
       "2027": 50000.0,
       "2028": 0,
       "2029": 0,
@@ -1147,7 +1317,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.38,
       "2027": 4.99,
       "2028": 0,
       "2029": 0,
@@ -1226,6 +1396,40 @@
   {
     "municipality": "Dessel",
     "nis_code": "13006",
+    "bd_code": "BD000024",
+    "bd_short": "24. We informeren en communiceren op een duidelijke, transparante, toegankelijke en herkenbare manie",
+    "bd_long": "24. We informeren en communiceren op een duidelijke, transparante, toegankelijke en herkenbare manier en we promoten onze werking.",
+    "ap_code": "AP000084",
+    "ap_short": "24.1 We communiceren op een transparante en duidelijke manier waarbij we gebruik maken van een zo op",
+    "ap_long": "24.1 We communiceren op een transparante en duidelijke manier waarbij we gebruik maken van een zo optimaal mogelijke communicatiemix.",
+    "ac_code": "AC000264",
+    "ac_short": "We gebruiken de website/intranet als volwaardig communicatiemiddel en houden de informatie actueel",
+    "ac_long": "We gebruiken de website en het intranet als volwaardig communicatiemiddel en houden de informatie actueel",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 36000.0,
+    "amount_per_capita": 3.59,
+    "yearly_amounts": {
+      "2026": 36000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
     "bd_code": "BD000020",
     "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
     "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
@@ -1238,10 +1442,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 31000.0,
-    "amount_per_capita": 3.09,
+    "total_amount": 32802.03,
+    "amount_per_capita": 3.27,
     "yearly_amounts": {
-      "2026": 26000.0,
+      "2026": 27802.03,
       "2027": 1000.0,
       "2028": 1000.0,
       "2029": 1000.0,
@@ -1249,80 +1453,12 @@
       "2031": 1000.0
     },
     "yearly_per_capita": {
-      "2026": 2.59,
+      "2026": 2.77,
       "2027": 0.1,
       "2028": 0.1,
       "2029": 0.1,
       "2030": 0.1,
       "2031": 0.1
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000020",
-    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "ap_code": "AP000067",
-    "ap_short": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
-    "ap_long": "20.1 Onderhouden, vernieuwen en uitbreiden van de administratieve gebouwen.",
-    "ac_code": "AC000189",
-    "ac_short": "Tentoonstellingen/ Kunst",
-    "ac_long": "Tentoonstellingen/ Kunst",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 30000.0,
-    "amount_per_capita": 2.99,
-    "yearly_amounts": {
-      "2026": 30000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 2.99,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000020",
-    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "ap_code": "AP000071",
-    "ap_short": "20.5 Onderhouden, vernieuwen en uitbreiden van diverse gebouwen/privaat patrimonium.",
-    "ap_long": "20.5 Onderhouden, vernieuwen en uitbreiden van diverse gebouwen/privaat patrimonium.",
-    "ac_code": "AC000202",
-    "ac_short": "Diverse gebouwen (De rusthuif, wijkpost politie, Hannekestraat 5, Hannekestraat 7, …)",
-    "ac_long": "Diverse gebouwen (De rusthuif, wijkpost politie, Hannekestraat 5, Hannekestraat 7, …)",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 30000.0,
-    "amount_per_capita": 2.99,
-    "yearly_amounts": {
-      "2026": 5000.0,
-      "2027": 5000.0,
-      "2028": 5000.0,
-      "2029": 5000.0,
-      "2030": 5000.0,
-      "2031": 5000.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.5,
-      "2027": 0.5,
-      "2028": 0.5,
-      "2029": 0.5,
-      "2030": 0.5,
-      "2031": 0.5
     }
   },
   {
@@ -1396,34 +1532,34 @@
   {
     "municipality": "Dessel",
     "nis_code": "13006",
-    "bd_code": "BD000019",
-    "bd_short": "19. We betrekken alle mogelijke partners om van Dessel een aangename gemeente te maken waar het goed",
-    "bd_long": "19. We betrekken alle mogelijke partners om van Dessel een aangename gemeente te maken waar het goed en veilig is om te wonen.",
-    "ap_code": "AP000062",
-    "ap_short": "19.3 We streven naar een goede ruimtelijke ordening",
-    "ap_long": "19.3 We streven naar een goede ruimtelijke ordening.",
-    "ac_code": "AC000176",
-    "ac_short": "Opmaken van onteigeningen en opstellen rooilijnplannen",
-    "ac_long": "Opmaken van onteigeningen en opstellen rooilijnplannen",
+    "bd_code": "BD000025",
+    "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
+    "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
+    "ap_code": "AP000091",
+    "ap_short": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
+    "ap_long": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
+    "ac_code": "AC000294",
+    "ac_short": "Telecom",
+    "ac_long": "Telecom",
     "categories": [
-      "06-wonen-ruimte"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 1.5,
+    "total_amount": 17792.94,
+    "amount_per_capita": 1.77,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 15000.0,
+      "2026": 7792.94,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 0,
+      "2030": 10000.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 1.5,
+      "2026": 0.78,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 0,
+      "2030": 1.0,
       "2031": 0
     }
   },
@@ -1442,10 +1578,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 14000.0,
+    "total_amount": 14023.6,
     "amount_per_capita": 1.4,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 23.6,
       "2027": 7000.0,
       "2028": 0,
       "2029": 0,
@@ -1453,7 +1589,7 @@
       "2031": 7000.0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.0,
       "2027": 0.7,
       "2028": 0,
       "2029": 0,
@@ -1476,10 +1612,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 12000.0,
-    "amount_per_capita": 1.2,
+    "total_amount": 13815.0,
+    "amount_per_capita": 1.38,
     "yearly_amounts": {
-      "2026": 2000.0,
+      "2026": 3815.0,
       "2027": 2000.0,
       "2028": 2000.0,
       "2029": 2000.0,
@@ -1487,7 +1623,7 @@
       "2031": 2000.0
     },
     "yearly_per_capita": {
-      "2026": 0.2,
+      "2026": 0.38,
       "2027": 0.2,
       "2028": 0.2,
       "2029": 0.2,
@@ -1498,34 +1634,68 @@
   {
     "municipality": "Dessel",
     "nis_code": "13006",
-    "bd_code": "BD000025",
-    "bd_short": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "bd_long": "25. We beheren de ICT-omgeving om deze af te stemmen op de noden van de organisatie.",
-    "ap_code": "AP000091",
-    "ap_short": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
-    "ap_long": "25.4 We investeren in de voor onze organisatie noodzakelijke ICT-infrastructuur.",
-    "ac_code": "AC000294",
-    "ac_short": "Telecom",
-    "ac_long": "Telecom",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000070",
+    "ap_short": "20.4 Onderhouden, vernieuwen en uitbreiden van de vrijetijdsinfrastructuur",
+    "ap_long": "20.4 Onderhouden, vernieuwen en uitbreiden van de vrijetijdsinfrastructuur.",
+    "ac_code": "AC000197",
+    "ac_short": "Sas4-Toren",
+    "ac_long": "Sas4-Toren",
     "categories": [
-      "01-algemeen-bestuur"
+      "05-ondernemen-werken"
     ],
     "total_amount": 10000.0,
     "amount_per_capita": 1.0,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 10000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 10000.0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 1.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 1.0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000008",
+    "bd_short": "8. We zetten in op toegankelijkheid en zorgen voor een inclusieve samenleving.",
+    "bd_long": "8. We zetten in op toegankelijkheid en zorgen voor een inclusieve samenleving.",
+    "ap_code": "AP000033",
+    "ap_short": "8.3 We voeren een gericht e-inclusiebeleid om de digitale kloof te verkleinen en uitsluiting tegen t",
+    "ap_long": "8.3 We voeren een gericht e-inclusiebeleid om de digitale kloof te verkleinen en uitsluiting tegen te gaan over de beleidsdomeinen heen.",
+    "ac_code": "AC000077",
+    "ac_short": "We zetten in op de verdere uitbouw van digipunten binnen onze gemeente waar mensen terecht kunnen me",
+    "ac_long": "We zetten in op de verdere uitbouw van digipunten binnen onze gemeente waar mensen terecht kunnen met digitale vragen (bv.  bib, lokaal dienstencentrum, buurthuis Brasel).",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 9500.0,
+    "amount_per_capita": 0.95,
+    "yearly_amounts": {
+      "2026": 9500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.95,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -1544,10 +1714,10 @@
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 5000.0,
-    "amount_per_capita": 0.5,
+    "total_amount": 9344.14,
+    "amount_per_capita": 0.93,
     "yearly_amounts": {
-      "2026": 5000.0,
+      "2026": 9344.14,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1555,7 +1725,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.5,
+      "2026": 0.93,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1578,10 +1748,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 5000.0,
-    "amount_per_capita": 0.5,
+    "total_amount": 6814.67,
+    "amount_per_capita": 0.68,
     "yearly_amounts": {
-      "2026": 2500.0,
+      "2026": 4314.67,
       "2027": 0,
       "2028": 0,
       "2029": 2500.0,
@@ -1589,44 +1759,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.25,
+      "2026": 0.43,
       "2027": 0,
       "2028": 0,
       "2029": 0.25,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Dessel",
-    "nis_code": "13006",
-    "bd_code": "BD000020",
-    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
-    "ap_code": "AP000071",
-    "ap_short": "20.5 Onderhouden, vernieuwen en uitbreiden van diverse gebouwen/privaat patrimonium.",
-    "ap_long": "20.5 Onderhouden, vernieuwen en uitbreiden van diverse gebouwen/privaat patrimonium.",
-    "ac_code": "AC000343",
-    "ac_short": "Lokaal Dienstencentrum (LDC 't Scholeke)",
-    "ac_long": "Lokaal Dienstencentrum (LDC 't Scholeke)",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 2500.0,
-    "amount_per_capita": 0.25,
-    "yearly_amounts": {
-      "2026": 2500.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.25,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -1646,10 +1782,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1000.0,
-    "amount_per_capita": 0.1,
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.3,
     "yearly_amounts": {
-      "2026": 1000.0,
+      "2026": 3000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1657,7 +1793,41 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.1,
+      "2026": 0.3,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Dessel",
+    "nis_code": "13006",
+    "bd_code": "BD000020",
+    "bd_short": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "bd_long": "20. We beheren de gemeentelijke infrastructuur verantwoord en zorgvuldig.",
+    "ap_code": "AP000071",
+    "ap_short": "20.5 Onderhouden, vernieuwen en uitbreiden van diverse gebouwen/privaat patrimonium.",
+    "ap_long": "20.5 Onderhouden, vernieuwen en uitbreiden van diverse gebouwen/privaat patrimonium.",
+    "ac_code": "AC000343",
+    "ac_short": "Lokaal Dienstencentrum (LDC 't Scholeke)",
+    "ac_long": "Lokaal Dienstencentrum (LDC 't Scholeke)",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 2682.75,
+    "amount_per_capita": 0.27,
+    "yearly_amounts": {
+      "2026": 2682.75,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.27,
       "2027": 0,
       "2028": 0,
       "2029": 0,

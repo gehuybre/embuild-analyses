@@ -2,156 +2,156 @@
   {
     "municipality": "Liedekerke",
     "nis_code": "23044",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "Liedekerke, transparant, toegankelijk en kwaliteitsvol",
     "bd_long": "Liedekerke, transparant, toegankelijk en kwaliteitsvol",
     "ap_code": "BD05AP05",
-    "ap_short": "Regulier beleid",
+    "ap_short": "Regulier Beleid",
     "ap_long": "Regulier beleid",
-    "ac_code": "BD05AP05",
+    "ac_code": "BD05AP05_BD05AP05AC01",
     "ac_short": "Regulier beleid",
     "ac_long": "Regulier beleid",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 5047722.0,
-    "amount_per_capita": 352.14,
+    "total_amount": 5710113.77,
+    "amount_per_capita": 397.66,
     "yearly_amounts": {
-      "2026": 1235107.0,
-      "2027": 1068654.0,
-      "2028": 809193.0,
+      "2026": 1897497.92,
+      "2027": 1068654.22,
+      "2028": 809193.22,
       "2029": 642067.0,
-      "2030": 645327.0,
-      "2031": 647374.0
+      "2030": 645327.3,
+      "2031": 647374.11
     },
     "yearly_per_capita": {
-      "2026": 86.16,
-      "2027": 74.55,
-      "2028": 56.45,
-      "2029": 44.79,
-      "2030": 45.02,
-      "2031": 45.16
+      "2026": 132.14,
+      "2027": 74.42,
+      "2028": 56.35,
+      "2029": 44.71,
+      "2030": 44.94,
+      "2031": 45.08
     }
   },
   {
     "municipality": "Liedekerke",
     "nis_code": "23044",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "Liedekerke, leefbaar, duurzaam en toekomstgericht",
     "bd_long": "Liedekerke, leefbaar, duurzaam en toekomstgericht",
     "ap_code": "BD02AP01",
     "ap_short": "Mobiliteit",
     "ap_long": "Vlotte en veilige mobiliteit",
-    "ac_code": "BD02AP01",
+    "ac_code": "BD02AP01_BD02AP01AC02",
     "ac_short": "Heraanleg wegen en rioleringen",
     "ac_long": "Heraanleg van lokale wegen en rioleringen, met prioriteit voor schoolomgevingen en woonkernen, om de klimaatbestendigheid te verhogen en de verkeersveiligheid te verbeteren met aandacht voor zachte mobiliteit.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 4453213.0,
-    "amount_per_capita": 310.66,
+    "total_amount": 4558469.41,
+    "amount_per_capita": 317.45,
     "yearly_amounts": {
-      "2026": 273611.0,
+      "2026": 378867.17,
       "2027": 574000.0,
-      "2028": 924392.0,
+      "2028": 924392.24,
       "2029": 893200.0,
       "2030": 1284829.0,
       "2031": 503181.0
     },
     "yearly_per_capita": {
-      "2026": 19.09,
-      "2027": 40.04,
-      "2028": 64.49,
-      "2029": 62.31,
-      "2030": 89.63,
-      "2031": 35.1
+      "2026": 26.38,
+      "2027": 39.97,
+      "2028": 64.38,
+      "2029": 62.2,
+      "2030": 89.48,
+      "2031": 35.04
     }
   },
   {
     "municipality": "Liedekerke",
     "nis_code": "23044",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "Liedekerke, leefbaar, duurzaam en toekomstgericht",
     "bd_long": "Liedekerke, leefbaar, duurzaam en toekomstgericht",
     "ap_code": "BD02AP04",
     "ap_short": "Klimaat",
     "ap_long": "Klimaatbestendig maken van Liedekerke tegen 2031",
-    "ac_code": "BD02AP04",
+    "ac_code": "BD02AP04_BD02AP04AC04",
+    "ac_short": "Openbare verlichting",
+    "ac_long": "We streven naar een energie-efficiënt en duurzaam verlichtingsbeleid waarbij openbare verlichting slim wordt gedimd of gedoofd waar en wanneer dit mogelijk is, zonder afbreuk te doen aan verkeersveiligheid en sociale veiligheid.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 749487.64,
+    "amount_per_capita": 52.19,
+    "yearly_amounts": {
+      "2026": 210109.71,
+      "2027": 210230.72,
+      "2028": 208987.81,
+      "2029": 14231.82,
+      "2030": 14018.59,
+      "2031": 91908.99
+    },
+    "yearly_per_capita": {
+      "2026": 14.63,
+      "2027": 14.64,
+      "2028": 14.55,
+      "2029": 0.99,
+      "2030": 0.98,
+      "2031": 6.4
+    }
+  },
+  {
+    "municipality": "Liedekerke",
+    "nis_code": "23044",
+    "bd_code": "BDS 2",
+    "bd_short": "Liedekerke, leefbaar, duurzaam en toekomstgericht",
+    "bd_long": "Liedekerke, leefbaar, duurzaam en toekomstgericht",
+    "ap_code": "BD02AP04",
+    "ap_short": "Klimaat",
+    "ap_long": "Klimaatbestendig maken van Liedekerke tegen 2031",
+    "ac_code": "BD02AP04_BD02AP04AC01",
     "ac_short": "Elektrificeren wagenpark",
     "ac_long": "Ingebruikname van 1 elektrisch voertuig per jaar en dit om naar een 50% elektrisch wagenpark te gaan.",
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 1269489.0,
-    "amount_per_capita": 88.56,
+    "total_amount": 520000.0,
+    "amount_per_capita": 36.21,
     "yearly_amounts": {
-      "2026": 405110.0,
-      "2027": 275231.0,
-      "2028": 273988.0,
-      "2029": 79232.0,
-      "2030": 79019.0,
-      "2031": 156909.0
+      "2026": 195000.0,
+      "2027": 65000.0,
+      "2028": 65000.0,
+      "2029": 65000.0,
+      "2030": 65000.0,
+      "2031": 65000.0
     },
     "yearly_per_capita": {
-      "2026": 28.26,
-      "2027": 19.2,
-      "2028": 19.11,
-      "2029": 5.53,
-      "2030": 5.51,
-      "2031": 10.95
+      "2026": 13.58,
+      "2027": 4.53,
+      "2028": 4.53,
+      "2029": 4.53,
+      "2030": 4.53,
+      "2031": 4.53
     }
   },
   {
     "municipality": "Liedekerke",
     "nis_code": "23044",
-    "bd_code": "BDS",
-    "bd_short": "Liedekerke, veilig, proper en aantrekkelijk",
-    "bd_long": "Liedekerke, veilig, proper en aantrekkelijk",
-    "ap_code": "BD01AP01",
-    "ap_short": "Nette omgeving",
-    "ap_long": "Samen inzetten op een nette omgeving",
-    "ac_code": "BD01AP01",
-    "ac_short": "Groenonderhoud",
-    "ac_long": "De efficiëntie van het groenonderhoud verhogen teneinde burgermeldingen correct en tijdig te kunnen behandelen.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 351550.0,
-    "amount_per_capita": 24.52,
-    "yearly_amounts": {
-      "2026": 278650.0,
-      "2027": 19900.0,
-      "2028": 15100.0,
-      "2029": 10200.0,
-      "2030": 15700.0,
-      "2031": 12000.0
-    },
-    "yearly_per_capita": {
-      "2026": 19.44,
-      "2027": 1.39,
-      "2028": 1.05,
-      "2029": 0.71,
-      "2030": 1.1,
-      "2031": 0.84
-    }
-  },
-  {
-    "municipality": "Liedekerke",
-    "nis_code": "23044",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
     "bd_short": "Liedekerke, ondernemend, ondersteunend en verbindend",
     "bd_long": "Liedekerke, ondernemend, ondersteunend en verbindend",
     "ap_code": "BD03AP01",
     "ap_short": "Ontmoetings- en ontplooiingskansen",
     "ap_long": "Buurtgerichte, laagdrempelige ontmoetings- en ontplooiingskansen",
-    "ac_code": "BD03AP01",
+    "ac_code": "BD03AP01_BD03AP01AC02",
     "ac_short": "Ontmoetingsplekken",
     "ac_long": "De bestaande ontmoetingsplekken verder ontwikkelen volgens de behoeften van de huidige gebruikers én actief drempels wegwerken voor mensen die ze vandaag nog niet gebruiken, zodat iedereen zich welkom en aangesproken voelt.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 300000.0,
-    "amount_per_capita": 20.93,
+    "amount_per_capita": 20.89,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -164,7 +164,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 20.93,
+      "2029": 20.89,
       "2030": 0,
       "2031": 0
     }
@@ -172,20 +172,88 @@
   {
     "municipality": "Liedekerke",
     "nis_code": "23044",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "Liedekerke, veilig, proper en aantrekkelijk",
+    "bd_long": "Liedekerke, veilig, proper en aantrekkelijk",
+    "ap_code": "BD01AP01",
+    "ap_short": "Nette omgeving",
+    "ap_long": "Samen inzetten op een nette omgeving",
+    "ac_code": "BD01AP01_BD01AP01AC02",
+    "ac_short": "Afvalbeleid",
+    "ac_long": "Het afvalbeleid planmatig aanpakken en structureren met als doel minder werkuren te besteden aan de ophaling van zwerfvuil met een beter resultaat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 170150.0,
+    "amount_per_capita": 11.85,
+    "yearly_amounts": {
+      "2026": 114750.0,
+      "2027": 8000.0,
+      "2028": 13100.0,
+      "2029": 9100.0,
+      "2030": 14500.0,
+      "2031": 10700.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.99,
+      "2027": 0.56,
+      "2028": 0.91,
+      "2029": 0.63,
+      "2030": 1.01,
+      "2031": 0.75
+    }
+  },
+  {
+    "municipality": "Liedekerke",
+    "nis_code": "23044",
+    "bd_code": "BDS 1",
+    "bd_short": "Liedekerke, veilig, proper en aantrekkelijk",
+    "bd_long": "Liedekerke, veilig, proper en aantrekkelijk",
+    "ap_code": "BD01AP01",
+    "ap_short": "Nette omgeving",
+    "ap_long": "Samen inzetten op een nette omgeving",
+    "ac_code": "BD01AP01_BD01AP01AC01",
+    "ac_short": "Groenonderhoud",
+    "ac_long": "De efficiëntie van het groenonderhoud verhogen teneinde burgermeldingen correct en tijdig te kunnen behandelen.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 122000.0,
+    "amount_per_capita": 8.5,
+    "yearly_amounts": {
+      "2026": 122000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Liedekerke",
+    "nis_code": "23044",
+    "bd_code": "BDS 5",
     "bd_short": "Liedekerke, transparant, toegankelijk en kwaliteitsvol",
     "bd_long": "Liedekerke, transparant, toegankelijk en kwaliteitsvol",
     "ap_code": "BD05AP03",
     "ap_short": "Dienstverlening",
     "ap_long": "Toegankelijke en verwelkomende dienstverlening",
-    "ac_code": "BD05AP03",
+    "ac_code": "BD05AP03_BD05AP03AC02",
     "ac_short": "Balieplein",
     "ac_long": "Het balieplein opfrissen tot toegankelijke warme loketten en een aangename werkplek.",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 8.37,
+    "amount_per_capita": 8.36,
     "yearly_amounts": {
       "2026": 120000.0,
       "2027": 0,
@@ -195,7 +263,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.37,
+      "2026": 8.36,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -206,13 +274,81 @@
   {
     "municipality": "Liedekerke",
     "nis_code": "23044",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "Liedekerke, leefbaar, duurzaam en toekomstgericht",
+    "bd_long": "Liedekerke, leefbaar, duurzaam en toekomstgericht",
+    "ap_code": "BD02AP01",
+    "ap_short": "Mobiliteit",
+    "ap_long": "Vlotte en veilige mobiliteit",
+    "ac_code": "BD02AP01_BD02AP01AC03",
+    "ac_short": "Hoppinpunten",
+    "ac_long": "We richten minimaal twee bushaltes als Hoppinpunt om de toegankelijkheid te verhogen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 4.18,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.18,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Liedekerke",
+    "nis_code": "23044",
+    "bd_code": "BDS 1",
+    "bd_short": "Liedekerke, veilig, proper en aantrekkelijk",
+    "bd_long": "Liedekerke, veilig, proper en aantrekkelijk",
+    "ap_code": "BD01AP01",
+    "ap_short": "Nette omgeving",
+    "ap_long": "Samen inzetten op een nette omgeving",
+    "ac_code": "BD01AP01_BD01AP01AC04",
+    "ac_short": "Vlaggenmasten",
+    "ac_long": "We vervangen verouderde vlaggenmasten en vlaggen op gemeentelijke locaties en plaatsen we nieuwe masten op strategische plekken.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30100.0,
+    "amount_per_capita": 2.1,
+    "yearly_amounts": {
+      "2026": 30100.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Liedekerke",
+    "nis_code": "23044",
+    "bd_code": "BDS 2",
     "bd_short": "Liedekerke, leefbaar, duurzaam en toekomstgericht",
     "bd_long": "Liedekerke, leefbaar, duurzaam en toekomstgericht",
     "ap_code": "BD02AP03",
     "ap_short": "Waterbeheer",
     "ap_long": "Investeren in een geïntegreerd en toekomstig waterbeheer",
-    "ac_code": "BD02AP03",
+    "ac_code": "BD02AP03_BD02AP03AC05",
     "ac_short": "Erosiebestrijdingsplan",
     "ac_long": "Aquafin voert het erosiebestrijdingsplan voor de Begonialaan uit, met als doel de afstroming en modderoverlast bij hevige regenval met minstens 70% te verminderen.",
     "categories": [
@@ -235,6 +371,74 @@
       "2029": 0,
       "2030": 0,
       "2031": 0
+    }
+  },
+  {
+    "municipality": "Liedekerke",
+    "nis_code": "23044",
+    "bd_code": "BDS 1",
+    "bd_short": "Liedekerke, veilig, proper en aantrekkelijk",
+    "bd_long": "Liedekerke, veilig, proper en aantrekkelijk",
+    "ap_code": "BD01AP01",
+    "ap_short": "Nette omgeving",
+    "ap_long": "Samen inzetten op een nette omgeving",
+    "ac_code": "BD01AP01_BD01AP01AC03",
+    "ac_short": "Zwerfvuilcamera's",
+    "ac_long": "Er worden minimaal 3 zwerfvuilcamera's aangekocht en op strategische locaties met hoge overlast geplaatst als afradingseffect tegen sluikstorten en vandalisme.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.39,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.7,
+      "2027": 0.7,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Liedekerke",
+    "nis_code": "23044",
+    "bd_code": "BDS 1",
+    "bd_short": "Liedekerke, veilig, proper en aantrekkelijk",
+    "bd_long": "Liedekerke, veilig, proper en aantrekkelijk",
+    "ap_code": "BD01AP01",
+    "ap_short": "Nette omgeving",
+    "ap_long": "Samen inzetten op een nette omgeving",
+    "ac_code": "BD01AP01_BD01AP01AC05",
+    "ac_short": "Hondenpoeppalen",
+    "ac_long": "We plaatsen 15 bijkomende hondenpoeppalen op strategische locaties in de gemeente (zoals hondenlosloopzones, parken en drukbezochte wandelroutes) om de netheid en burgerzin te bevorderen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 9300.0,
+    "amount_per_capita": 0.65,
+    "yearly_amounts": {
+      "2026": 1800.0,
+      "2027": 1900.0,
+      "2028": 2000.0,
+      "2029": 1100.0,
+      "2030": 1200.0,
+      "2031": 1300.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.13,
+      "2027": 0.13,
+      "2028": 0.14,
+      "2029": 0.08,
+      "2030": 0.08,
+      "2031": 0.09
     }
   }
 ]

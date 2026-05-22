@@ -2,10 +2,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.02",
@@ -14,10 +14,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 7640001.0,
-    "amount_per_capita": 640.91,
+    "total_amount": 10032847.79,
+    "amount_per_capita": 844.55,
     "yearly_amounts": {
-      "2026": 1.0,
+      "2026": 2392847.79,
       "2027": 1140000.0,
       "2028": 3000000.0,
       "2029": 3500000.0,
@@ -25,10 +25,44 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.0,
-      "2027": 95.63,
-      "2028": 251.67,
-      "2029": 293.61,
+      "2026": 201.43,
+      "2027": 95.96,
+      "2028": 252.54,
+      "2029": 294.62,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-12",
+    "bd_short": "Inzetten op schoon water en rioleringen",
+    "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren versterken we onze inzet voor een duurzaam en toekomstgericht waterbeheer. Door te investeren in de aanleg van een kwaliteitsvol gescheiden rioleringsstelsel en het actualiseren van ons hemelwater- en droogteplan, willen we de gevolgen van wateroverlast en droogte zoveel mogelijk beperken. Regelmatig onderhoud van baangrachten en gerichte ingrepen in de waterhuishouding moeten bijdragen aan een klimaatrobuuste leefomgeving voor onze inwoners.",
+    "ap_code": "AP-21",
+    "ap_short": "Duurzaam waterbeheer",
+    "ap_long": "Commentaar:",
+    "ac_code": "AP21.01",
+    "ac_short": "Aanleg kwaliteitsvol gescheiden rioleringsstelsel",
+    "ac_long": "We realiseren de aanleg van een kwaliteitsvol gescheiden rioleringsstelsel conform de opgelegde reductiedoelstellingen voor 2027 en 2033. Deze ingreep draagt bij aan een betere waterkwaliteit, een efficiënte afvoer van afval- en regenwater en een klimaatbestendige infrastructuur. Onder dit actiepunt vallen verschillende rioleringsprojecten. Door deze projecten uit te voeren, versterken we de leefbaarheid en veiligheid in onze gemeente en voldoen we aan de wettelijke verplichtingen inzake rioleringsbeheer.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 3327589.57,
+    "amount_per_capita": 280.11,
+    "yearly_amounts": {
+      "2026": 1894747.57,
+      "2027": 721340.0,
+      "2028": 711502.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 159.5,
+      "2027": 60.72,
+      "2028": 59.89,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -42,72 +76,38 @@
     "ap_code": "GBB",
     "ap_short": "Verrichtingen zonder beleidsdoelstelling",
     "ap_long": "Commentaar:",
-    "ac_code": "GBB",
-    "ac_short": "Verrichtingen zonder beleidsdoelstelling - College",
+    "ac_code": "GBB-GR",
+    "ac_short": "Verrichtingen zonder beleidsdoelstelling - Gemeenteraad",
     "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "04-veiligheidszorg"
     ],
-    "total_amount": 2928211.0,
-    "amount_per_capita": 245.65,
+    "total_amount": 2736870.54,
+    "amount_per_capita": 230.39,
     "yearly_amounts": {
-      "2026": 1026883.0,
-      "2027": 503097.0,
-      "2028": 504224.0,
-      "2029": 261681.0,
-      "2030": 263525.0,
-      "2031": 368801.0
+      "2026": 1590777.54,
+      "2027": 224789.0,
+      "2028": 226949.0,
+      "2029": 229163.0,
+      "2030": 231433.0,
+      "2031": 233759.0
     },
     "yearly_per_capita": {
-      "2026": 86.14,
-      "2027": 42.2,
-      "2028": 42.3,
-      "2029": 21.95,
-      "2030": 22.11,
-      "2031": 30.94
+      "2026": 133.91,
+      "2027": 18.92,
+      "2028": 19.1,
+      "2029": 19.29,
+      "2030": 19.48,
+      "2031": 19.68
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Inzetten op schoon water en rioleringen",
-    "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren versterken we onze inzet voor een duurzaam en toekomstgericht waterbeheer. Door te investeren in de aanleg van een kwaliteitsvol gescheiden rioleringsstelsel en het actualiseren van ons hemelwater- en droogteplan, willen we de gevolgen van wateroverlast en droogte zoveel mogelijk beperken. Regelmatig onderhoud van baangrachten en gerichte ingrepen in de waterhuishouding moeten bijdragen aan een klimaatrobuuste leefomgeving voor onze inwoners.",
-    "ap_code": "AP",
-    "ap_short": "Duurzaam waterbeheer",
-    "ap_long": "Commentaar:",
-    "ac_code": "AP21.01",
-    "ac_short": "Aanleg kwaliteitsvol gescheiden rioleringsstelsel",
-    "ac_long": "We realiseren de aanleg van een kwaliteitsvol gescheiden rioleringsstelsel conform de opgelegde reductiedoelstellingen voor 2027 en 2033. Deze ingreep draagt bij aan een betere waterkwaliteit, een efficiënte afvoer van afval- en regenwater en een klimaatbestendige infrastructuur. Onder dit actiepunt vallen verschillende rioleringsprojecten. Door deze projecten uit te voeren, versterken we de leefbaarheid en veiligheid in onze gemeente en voldoen we aan de wettelijke verplichtingen inzake rioleringsbeheer.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 2568152.0,
-    "amount_per_capita": 215.44,
-    "yearly_amounts": {
-      "2026": 1135310.0,
-      "2027": 721340.0,
-      "2028": 711502.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 95.24,
-      "2027": 60.51,
-      "2028": 59.69,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Moorslede",
-    "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-8",
     "bd_short": "Op weg naar meer duurzame mobiliteit en inzetten op verkeersveiligheid",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten zeer sterk in op een veilig en toegankelijk openbaar domein. Door de kwaliteit van onze infrastructuur systematisch in kaart te brengen en gerichte verbeteracties te plannen, willen we voetgangers, fietsers en andere weggebruikers meer comfort en veiligheid bieden. We versterken ons netwerk van trage wegen, verbeteren voet- en fietspaden, pakken landelijke gemeentewegen aan en onderzoeken bijkomende maatregelen zoals trajectcontroles. Zo bouwen we stap voor stap aan een duurzame, inclusieve en leefbare mobiliteit voor iedereen.",
-    "ap_code": "AP",
+    "ap_code": "AP-14",
     "ap_short": "Duurzame mobiliteit",
     "ap_long": "Commentaar:",
     "ac_code": "AP14.04",
@@ -116,10 +116,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 2000000.0,
-    "amount_per_capita": 167.78,
+    "total_amount": 2287424.86,
+    "amount_per_capita": 192.55,
     "yearly_amounts": {
-      "2026": 250000.0,
+      "2026": 537424.86,
       "2027": 250000.0,
       "2028": 250000.0,
       "2029": 250000.0,
@@ -127,21 +127,55 @@
       "2031": 250000.0
     },
     "yearly_per_capita": {
-      "2026": 20.97,
-      "2027": 20.97,
-      "2028": 20.97,
-      "2029": 20.97,
-      "2030": 62.92,
-      "2031": 20.97
+      "2026": 45.24,
+      "2027": 21.04,
+      "2028": 21.04,
+      "2029": 21.04,
+      "2030": 63.13,
+      "2031": 21.04
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-CBS",
+    "ac_short": "Verrichtingen zonder beleidsdoelstelling - College",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1088445.89,
+    "amount_per_capita": 91.62,
+    "yearly_amounts": {
+      "2026": 333210.89,
+      "2027": 278308.0,
+      "2028": 277275.0,
+      "2029": 32518.0,
+      "2030": 32092.0,
+      "2031": 135042.0
+    },
+    "yearly_per_capita": {
+      "2026": 28.05,
+      "2027": 23.43,
+      "2028": 23.34,
+      "2029": 2.74,
+      "2030": 2.7,
+      "2031": 11.37
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-8",
     "bd_short": "Op weg naar meer duurzame mobiliteit en inzetten op verkeersveiligheid",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten zeer sterk in op een veilig en toegankelijk openbaar domein. Door de kwaliteit van onze infrastructuur systematisch in kaart te brengen en gerichte verbeteracties te plannen, willen we voetgangers, fietsers en andere weggebruikers meer comfort en veiligheid bieden. We versterken ons netwerk van trage wegen, verbeteren voet- en fietspaden, pakken landelijke gemeentewegen aan en onderzoeken bijkomende maatregelen zoals trajectcontroles. Zo bouwen we stap voor stap aan een duurzame, inclusieve en leefbare mobiliteit voor iedereen.",
-    "ap_code": "AP",
+    "ap_code": "AP-14",
     "ap_short": "Duurzame mobiliteit",
     "ap_long": "Commentaar:",
     "ac_code": "AP14.01",
@@ -150,10 +184,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 920000.0,
-    "amount_per_capita": 77.18,
+    "total_amount": 1020000.0,
+    "amount_per_capita": 85.86,
     "yearly_amounts": {
-      "2026": 180000.0,
+      "2026": 280000.0,
       "2027": 140000.0,
       "2028": 180000.0,
       "2029": 140000.0,
@@ -161,21 +195,21 @@
       "2031": 140000.0
     },
     "yearly_per_capita": {
-      "2026": 15.1,
-      "2027": 11.74,
-      "2028": 15.1,
-      "2029": 11.74,
-      "2030": 11.74,
-      "2031": 11.74
+      "2026": 23.57,
+      "2027": 11.78,
+      "2028": 15.15,
+      "2029": 11.78,
+      "2030": 11.78,
+      "2031": 11.78
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.10",
@@ -184,10 +218,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 800000.0,
-    "amount_per_capita": 67.11,
+    "total_amount": 832510.84,
+    "amount_per_capita": 70.08,
     "yearly_amounts": {
-      "2026": 20000.0,
+      "2026": 52510.84,
       "2027": 0,
       "2028": 780000.0,
       "2029": 0,
@@ -195,9 +229,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.68,
+      "2026": 4.42,
       "2027": 0,
-      "2028": 65.43,
+      "2028": 65.66,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -206,10 +240,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-8",
     "bd_short": "Op weg naar meer duurzame mobiliteit en inzetten op verkeersveiligheid",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten zeer sterk in op een veilig en toegankelijk openbaar domein. Door de kwaliteit van onze infrastructuur systematisch in kaart te brengen en gerichte verbeteracties te plannen, willen we voetgangers, fietsers en andere weggebruikers meer comfort en veiligheid bieden. We versterken ons netwerk van trage wegen, verbeteren voet- en fietspaden, pakken landelijke gemeentewegen aan en onderzoeken bijkomende maatregelen zoals trajectcontroles. Zo bouwen we stap voor stap aan een duurzame, inclusieve en leefbare mobiliteit voor iedereen.",
-    "ap_code": "AP",
+    "ap_code": "AP-14",
     "ap_short": "Duurzame mobiliteit",
     "ap_long": "Commentaar:",
     "ac_code": "AP14.03",
@@ -219,7 +253,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 768080.0,
-    "amount_per_capita": 64.43,
+    "amount_per_capita": 64.66,
     "yearly_amounts": {
       "2026": 105000.0,
       "2027": 0,
@@ -229,21 +263,21 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.81,
+      "2026": 8.84,
       "2027": 0,
-      "2028": 10.56,
-      "2029": 12.59,
-      "2030": 32.48,
+      "2028": 10.59,
+      "2029": 12.63,
+      "2030": 32.59,
       "2031": 0
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-15",
     "bd_short": "Een klantgerichte en toegankelijke (digitale) dienstverlening",
     "bd_long": "Kwalitatieve omschrijving: \nKlant is koning. We zetten sterk in op een moderne, toegankelijke en klantgerichte dienstverlening. Door verder te digitaliseren, processen te vereenvoudigen en onze organisatie beter te structureren, willen we inwoners, verenigingen en bezoekers vlotter, transparanter en efficiënter ondersteunen. We bouwen aan gebruiksvriendelijke digitale platforms, centraliseren contactpunten en versterken de vrijetijdsdienst, terwijl we tegelijk investeren in inclusieve ondersteuning en een toekomstgericht administratief centrum. Zo creëren we een dienstverlening die klaar is voor de noden van vandaag én morgen.",
-    "ap_code": "AP",
+    "ap_code": "AP-25",
     "ap_short": "Klantgerichte dienstverlening",
     "ap_long": "Commentaar:",
     "ac_code": "AP25.05",
@@ -253,7 +287,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 750000.0,
-    "amount_per_capita": 62.92,
+    "amount_per_capita": 63.13,
     "yearly_amounts": {
       "2026": 0,
       "2027": 150000.0,
@@ -264,20 +298,20 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 12.58,
-      "2028": 12.58,
-      "2029": 12.58,
-      "2030": 12.58,
-      "2031": 12.58
+      "2027": 12.63,
+      "2028": 12.63,
+      "2029": 12.63,
+      "2030": 12.63,
+      "2031": 12.63
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-5",
     "bd_short": "Een aantrekkelijk aanbod en faciliteiten voor jonge inwoners en gezinnen",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten doelgericht in op het versterken van onze leefomgeving, het ondersteunen van gezinnen en ondernemers, het creëren van kwaliteitsvolle ontspannings- en ontmoetingsruimtes. We werken verder aan een meer groene en biodiverse gemeente, investeren in toegankelijke infrastructuur en veilige vrijetijdsomgeving, bouwen aan een inclusief aanbod voor kinderen, jongeren en kwetsbare gezinnen. Tegelijk stimuleren we lokaal ondernemerschap en moderniseren we onze voorzieningen zodat inwoners, verenigingen en bezoekers kunnen genieten van een duurzame, zorgzame en toekomstgerichte gemeente.",
-    "ap_code": "AP",
+    "ap_code": "AP-07",
     "ap_short": "Aangename groene omgeving",
     "ap_long": "Commentaar:",
     "ac_code": "AP07.04",
@@ -286,10 +320,10 @@
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 542800.0,
-    "amount_per_capita": 45.54,
+    "total_amount": 612800.0,
+    "amount_per_capita": 51.58,
     "yearly_amounts": {
-      "2026": 39500.0,
+      "2026": 109500.0,
       "2027": 15300.0,
       "2028": 12000.0,
       "2029": 476000.0,
@@ -297,10 +331,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.31,
-      "2027": 1.28,
+      "2026": 9.22,
+      "2027": 1.29,
       "2028": 1.01,
-      "2029": 39.93,
+      "2029": 40.07,
       "2030": 0,
       "2031": 0
     }
@@ -308,10 +342,44 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-11",
+    "bd_short": "Omgaan met klimaatverandering en ontharden in onze gemeente",
+    "bd_long": "Kwalitatieve omschrijving: \nWe zetten in op een klimaatbestendige, duurzame en zorgzame leefomgeving. We nemen maatregelen om erosie, bodem- en waterproblemen aan te pakken, versterken ons afval- en natuurbeheer, en investeren in een efficiënte en milieuvriendelijke omgang met energie en ruimte. Daarnaast bouwen we verder aan een diervriendelijke gemeente en ondersteunen we biodiversiteit door doordacht groenbeheer. Met deze integrale aanpak willen we onze omgeving beter beschermen, de impact van klimaatverandering beperken en de leefkwaliteit voor alle inwoners verhogen.",
+    "ap_code": "AP-19",
+    "ap_short": "Burgemeestersconvenant en klimaatplan, LEKP",
+    "ap_long": "Commentaar:",
+    "ac_code": "AP19.01",
+    "ac_short": "Acties uit het Klimaatplan 2030, Burgemeestersconvenant en LEKP, verduurzaming gem. initiatieven",
+    "ac_long": "De acties uit het Klimaatplan 2030, het Burgemeestersconvenant en het Lokaal Energie- en Klimaatplan (of de opvolger hiervan) worden uitgevoerd om de verduurzaming van onze gemeente te bevorderen. Hierbij wordt o.a. samengewerkt met lokale landbouwers om korte ketenacties te realiseren. Daarnaast wordt het masterplan voor openbare verlichting verder geïmplementeerd en wordt ingezet op het plaatsen van zonnepanelen, warmtekrachtkoppelingen (WKK) en/of warmtepompen. Duurzame mobiliteit wordt gestimuleerd door het bevorderen van deelmobiliteit en het voorzien van laadinfrastructuur voor elektrische voertuigen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 493711.19,
+    "amount_per_capita": 41.56,
+    "yearly_amounts": {
+      "2026": 243711.19,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.52,
+      "2027": 4.21,
+      "2028": 4.21,
+      "2029": 4.21,
+      "2030": 4.21,
+      "2031": 4.21
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.16",
@@ -321,7 +389,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 305000.0,
-    "amount_per_capita": 25.59,
+    "amount_per_capita": 25.67,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 250000.0,
@@ -331,8 +399,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.19,
-      "2027": 20.97,
+      "2026": 4.21,
+      "2027": 21.04,
       "2028": 0.42,
       "2029": 0,
       "2030": 0,
@@ -342,44 +410,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Omgaan met klimaatverandering en ontharden in onze gemeente",
-    "bd_long": "Kwalitatieve omschrijving: \nWe zetten in op een klimaatbestendige, duurzame en zorgzame leefomgeving. We nemen maatregelen om erosie, bodem- en waterproblemen aan te pakken, versterken ons afval- en natuurbeheer, en investeren in een efficiënte en milieuvriendelijke omgang met energie en ruimte. Daarnaast bouwen we verder aan een diervriendelijke gemeente en ondersteunen we biodiversiteit door doordacht groenbeheer. Met deze integrale aanpak willen we onze omgeving beter beschermen, de impact van klimaatverandering beperken en de leefkwaliteit voor alle inwoners verhogen.",
-    "ap_code": "AP",
-    "ap_short": "Burgemeestersconvenant en klimaatplan, LEKP",
-    "ap_long": "Commentaar:",
-    "ac_code": "AP19.01",
-    "ac_short": "Acties uit het Klimaatplan 2030, Burgemeestersconvenant en LEKP, verduurzaming gem. initiatieven",
-    "ac_long": "De acties uit het Klimaatplan 2030, het Burgemeestersconvenant en het Lokaal Energie- en Klimaatplan (of de opvolger hiervan) worden uitgevoerd om de verduurzaming van onze gemeente te bevorderen. Hierbij wordt o.a. samengewerkt met lokale landbouwers om korte ketenacties te realiseren. Daarnaast wordt het masterplan voor openbare verlichting verder geïmplementeerd en wordt ingezet op het plaatsen van zonnepanelen, warmtekrachtkoppelingen (WKK) en/of warmtepompen. Duurzame mobiliteit wordt gestimuleerd door het bevorderen van deelmobiliteit en het voorzien van laadinfrastructuur voor elektrische voertuigen.",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 300000.0,
-    "amount_per_capita": 25.17,
-    "yearly_amounts": {
-      "2026": 50000.0,
-      "2027": 50000.0,
-      "2028": 50000.0,
-      "2029": 50000.0,
-      "2030": 50000.0,
-      "2031": 50000.0
-    },
-    "yearly_per_capita": {
-      "2026": 4.19,
-      "2027": 4.19,
-      "2028": 4.19,
-      "2029": 4.19,
-      "2030": 4.19,
-      "2031": 4.19
-    }
-  },
-  {
-    "municipality": "Moorslede",
-    "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.15",
@@ -389,7 +423,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 252000.0,
-    "amount_per_capita": 21.14,
+    "amount_per_capita": 21.21,
     "yearly_amounts": {
       "2026": 2000.0,
       "2027": 250000.0,
@@ -400,7 +434,7 @@
     },
     "yearly_per_capita": {
       "2026": 0.17,
-      "2027": 20.97,
+      "2027": 21.04,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -410,10 +444,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-15",
     "bd_short": "Een klantgerichte en toegankelijke (digitale) dienstverlening",
     "bd_long": "Kwalitatieve omschrijving: \nKlant is koning. We zetten sterk in op een moderne, toegankelijke en klantgerichte dienstverlening. Door verder te digitaliseren, processen te vereenvoudigen en onze organisatie beter te structureren, willen we inwoners, verenigingen en bezoekers vlotter, transparanter en efficiënter ondersteunen. We bouwen aan gebruiksvriendelijke digitale platforms, centraliseren contactpunten en versterken de vrijetijdsdienst, terwijl we tegelijk investeren in inclusieve ondersteuning en een toekomstgericht administratief centrum. Zo creëren we een dienstverlening die klaar is voor de noden van vandaag én morgen.",
-    "ap_code": "AP",
+    "ap_code": "AP-25",
     "ap_short": "Klantgerichte dienstverlening",
     "ap_long": "Commentaar:",
     "ac_code": "AP25.03",
@@ -423,7 +457,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 20.97,
+    "amount_per_capita": 21.04,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 0,
@@ -433,7 +467,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 20.97,
+      "2026": 21.04,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -444,10 +478,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.13",
@@ -457,7 +491,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 231500.0,
-    "amount_per_capita": 19.42,
+    "amount_per_capita": 19.49,
     "yearly_amounts": {
       "2026": 128500.0,
       "2027": 103000.0,
@@ -467,8 +501,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 10.78,
-      "2027": 8.64,
+      "2026": 10.82,
+      "2027": 8.67,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -478,10 +512,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-4",
     "bd_short": "Verder bouwen aan een performante organisatiestructuur",
     "bd_long": "Kwalitatieve omschrijving: \nOm de dagelijkse werking verder te versterken, investeren we de komende jaren gericht in modern en duurzaam materiaal, een veilige en betrouwbare IT-infrastructuur en een goed uitgebouwd preventie- en welzijnsbeleid. Door zowel onze technische uitrusting als onze digitale en administratieve ondersteuning te optimaliseren, willen we efficiënter werken, de veiligheid verhogen en een gezonde werkomgeving voor medewerkers garanderen. Deze inspanningen vormen de basis voor een toekomstgerichte organisatie die kwaliteitsvolle dienstverlening kan blijven bieden.",
-    "ap_code": "AP",
+    "ap_code": "AP-05",
     "ap_short": "Operationele efficiëntie",
     "ap_long": "Commentaar:",
     "ac_code": "AP05.03",
@@ -491,7 +525,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 205700.0,
-    "amount_per_capita": 17.26,
+    "amount_per_capita": 17.32,
     "yearly_amounts": {
       "2026": 15125.0,
       "2027": 30250.0,
@@ -502,20 +536,20 @@
     },
     "yearly_per_capita": {
       "2026": 1.27,
-      "2027": 2.54,
-      "2028": 5.84,
-      "2029": 3.05,
-      "2030": 3.3,
+      "2027": 2.55,
+      "2028": 5.86,
+      "2029": 3.06,
+      "2030": 3.31,
       "2031": 1.27
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.12",
@@ -525,7 +559,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 175500.0,
-    "amount_per_capita": 14.72,
+    "amount_per_capita": 14.77,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -537,19 +571,53 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 6.75,
+      "2028": 6.78,
       "2029": 0,
-      "2030": 4.19,
-      "2031": 3.78
+      "2030": 4.21,
+      "2031": 3.79
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-0",
+    "bd_short": "Opname en uitvoering van de Vlaamse beleidsprioriteiten",
+    "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren zetten we in op het versterken van kansen voor inwoners met een afstand tot de arbeidsmarkt. Via tijdelijke werkervaring en lokale diensteneconomie ondersteunen we werkzoekenden bij het opbouwen van competenties binnen een realistische werkomgeving. Tegelijk nemen we een verbindende regierol op in de uitbouw van een kwalitatief, toegankelijk en warm netwerk van buitenschoolse opvang en activiteiten. Door partners te coördineren en gezinnen centraal te zetten, creëren we meer ontwikkelingskansen voor kinderen en een inclusieve omgeving waarin iedereen kan groeien.",
+    "ap_code": "AP-00",
+    "ap_short": "Uitvoeren Vlaamse beleidsprioriteiten",
+    "ap_long": "Commentaar:",
+    "ac_code": "AP00.05",
+    "ac_short": "Boost OPG-BOA2: erkend aanbod financieren",
+    "ac_long": "We creëren letterlijk en figuurlijk ruimte voor kinderen: om te spelen, te bewegen, tot rust te komen, zich creatief te uiten en anderen te ontmoeten. Het aanbod is laagdrempelig, op maat en op tempo van elk kind en elk gezin – met bijzondere aandacht voor kwetsbare situaties. We zorgen dat het aanbod gekend is d.m.v. duidelijke, bereikbare en transparante communicatie die inspeelt op de leefwereld van ouders en kinderen. Tegelijk willen we ouders ontzorgen: we leggen de BOA-puzzel voor hen en maken de combinatie van werk en gezin haalbaar. Onze aanpak is er één van samenwerking. Gemeentelijke diensten, scholen, verenigingen en andere lokale partners bundelen de krachten om een geïntegreerd, toegankelijk en betaalbaar BOA-aanbod te realiseren.\nWe bouwen aan een beleid dat niet alleen een praktische oplossing biedt, maar ook een maatschappelijke meerwaarde creëert voor alle kinderen van Moorslede. Zo maken we samen van Moorslede een warme en inclusieve speel- en leefgemeente voor elk kind.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 160002.0,
+    "amount_per_capita": 13.47,
+    "yearly_amounts": {
+      "2026": 160002.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.47,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-4",
     "bd_short": "Verder bouwen aan een performante organisatiestructuur",
     "bd_long": "Kwalitatieve omschrijving: \nOm de dagelijkse werking verder te versterken, investeren we de komende jaren gericht in modern en duurzaam materiaal, een veilige en betrouwbare IT-infrastructuur en een goed uitgebouwd preventie- en welzijnsbeleid. Door zowel onze technische uitrusting als onze digitale en administratieve ondersteuning te optimaliseren, willen we efficiënter werken, de veiligheid verhogen en een gezonde werkomgeving voor medewerkers garanderen. Deze inspanningen vormen de basis voor een toekomstgerichte organisatie die kwaliteitsvolle dienstverlening kan blijven bieden.",
-    "ap_code": "AP",
+    "ap_code": "AP-04",
     "ap_short": "Arbeids- en beschermingsmiddelen",
     "ap_long": "Commentaar:",
     "ac_code": "AP04.01",
@@ -559,7 +627,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 158865.0,
-    "amount_per_capita": 13.33,
+    "amount_per_capita": 13.37,
     "yearly_amounts": {
       "2026": 128865.0,
       "2027": 15000.0,
@@ -569,7 +637,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 10.81,
+      "2026": 10.85,
       "2027": 1.26,
       "2028": 1.26,
       "2029": 0,
@@ -580,10 +648,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.06",
@@ -592,10 +660,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 155000.0,
-    "amount_per_capita": 13.0,
+    "total_amount": 158492.14,
+    "amount_per_capita": 13.34,
     "yearly_amounts": {
-      "2026": 5000.0,
+      "2026": 8492.14,
       "2027": 0,
       "2028": 150000.0,
       "2029": 0,
@@ -603,9 +671,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.42,
+      "2026": 0.71,
       "2027": 0,
-      "2028": 12.58,
+      "2028": 12.63,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -614,10 +682,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-4",
     "bd_short": "Verder bouwen aan een performante organisatiestructuur",
     "bd_long": "Kwalitatieve omschrijving: \nOm de dagelijkse werking verder te versterken, investeren we de komende jaren gericht in modern en duurzaam materiaal, een veilige en betrouwbare IT-infrastructuur en een goed uitgebouwd preventie- en welzijnsbeleid. Door zowel onze technische uitrusting als onze digitale en administratieve ondersteuning te optimaliseren, willen we efficiënter werken, de veiligheid verhogen en een gezonde werkomgeving voor medewerkers garanderen. Deze inspanningen vormen de basis voor een toekomstgerichte organisatie die kwaliteitsvolle dienstverlening kan blijven bieden.",
-    "ap_code": "AP",
+    "ap_code": "AP-05",
     "ap_short": "Operationele efficiëntie",
     "ap_long": "Commentaar:",
     "ac_code": "AP05.01",
@@ -626,10 +694,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 150000.0,
-    "amount_per_capita": 12.58,
+    "total_amount": 155914.0,
+    "amount_per_capita": 13.12,
     "yearly_amounts": {
-      "2026": 55000.0,
+      "2026": 60914.0,
       "2027": 45000.0,
       "2028": 0,
       "2029": 50000.0,
@@ -637,10 +705,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.61,
-      "2027": 3.78,
+      "2026": 5.13,
+      "2027": 3.79,
       "2028": 0,
-      "2029": 4.19,
+      "2029": 4.21,
       "2030": 0,
       "2031": 0
     }
@@ -648,44 +716,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Opname en uitvoering van de Vlaamse beleidsprioriteiten",
-    "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren zetten we in op het versterken van kansen voor inwoners met een afstand tot de arbeidsmarkt. Via tijdelijke werkervaring en lokale diensteneconomie ondersteunen we werkzoekenden bij het opbouwen van competenties binnen een realistische werkomgeving. Tegelijk nemen we een verbindende regierol op in de uitbouw van een kwalitatief, toegankelijk en warm netwerk van buitenschoolse opvang en activiteiten. Door partners te coördineren en gezinnen centraal te zetten, creëren we meer ontwikkelingskansen voor kinderen en een inclusieve omgeving waarin iedereen kan groeien.",
-    "ap_code": "AP",
-    "ap_short": "Uitvoeren Vlaamse beleidsprioriteiten",
-    "ap_long": "Commentaar:",
-    "ac_code": "AP00.05",
-    "ac_short": "Boost OPG-BOA2: erkend aanbod financieren",
-    "ac_long": "We creëren letterlijk en figuurlijk ruimte voor kinderen: om te spelen, te bewegen, tot rust te komen, zich creatief te uiten en anderen te ontmoeten. Het aanbod is laagdrempelig, op maat en op tempo van elk kind en elk gezin – met bijzondere aandacht voor kwetsbare situaties. We zorgen dat het aanbod gekend is d.m.v. duidelijke, bereikbare en transparante communicatie die inspeelt op de leefwereld van ouders en kinderen. Tegelijk willen we ouders ontzorgen: we leggen de BOA-puzzel voor hen en maken de combinatie van werk en gezin haalbaar. Onze aanpak is er één van samenwerking. Gemeentelijke diensten, scholen, verenigingen en andere lokale partners bundelen de krachten om een geïntegreerd, toegankelijk en betaalbaar BOA-aanbod te realiseren.\nWe bouwen aan een beleid dat niet alleen een praktische oplossing biedt, maar ook een maatschappelijke meerwaarde creëert voor alle kinderen van Moorslede. Zo maken we samen van Moorslede een warme en inclusieve speel- en leefgemeente voor elk kind.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 150000.0,
-    "amount_per_capita": 12.58,
-    "yearly_amounts": {
-      "2026": 150000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 12.58,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Moorslede",
-    "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-5",
     "bd_short": "Een aantrekkelijk aanbod en faciliteiten voor jonge inwoners en gezinnen",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten doelgericht in op het versterken van onze leefomgeving, het ondersteunen van gezinnen en ondernemers, het creëren van kwaliteitsvolle ontspannings- en ontmoetingsruimtes. We werken verder aan een meer groene en biodiverse gemeente, investeren in toegankelijke infrastructuur en veilige vrijetijdsomgeving, bouwen aan een inclusief aanbod voor kinderen, jongeren en kwetsbare gezinnen. Tegelijk stimuleren we lokaal ondernemerschap en moderniseren we onze voorzieningen zodat inwoners, verenigingen en bezoekers kunnen genieten van een duurzame, zorgzame en toekomstgerichte gemeente.",
-    "ap_code": "AP",
+    "ap_code": "AP-07",
     "ap_short": "Aangename groene omgeving",
     "ap_long": "Commentaar:",
     "ac_code": "AP07.02",
@@ -695,7 +729,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 140000.0,
-    "amount_per_capita": 11.74,
+    "amount_per_capita": 11.78,
     "yearly_amounts": {
       "2026": 15000.0,
       "2027": 15000.0,
@@ -707,19 +741,19 @@
     "yearly_per_capita": {
       "2026": 1.26,
       "2027": 1.26,
-      "2028": 3.36,
+      "2028": 3.37,
       "2029": 1.26,
-      "2030": 3.36,
+      "2030": 3.37,
       "2031": 1.26
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.17",
@@ -729,7 +763,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 135000.0,
-    "amount_per_capita": 11.33,
+    "amount_per_capita": 11.36,
     "yearly_amounts": {
       "2026": 0,
       "2027": 135000.0,
@@ -740,7 +774,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 11.33,
+      "2027": 11.36,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -750,10 +784,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-11",
     "bd_short": "Omgaan met klimaatverandering en ontharden in onze gemeente",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten in op een klimaatbestendige, duurzame en zorgzame leefomgeving. We nemen maatregelen om erosie, bodem- en waterproblemen aan te pakken, versterken ons afval- en natuurbeheer, en investeren in een efficiënte en milieuvriendelijke omgang met energie en ruimte. Daarnaast bouwen we verder aan een diervriendelijke gemeente en ondersteunen we biodiversiteit door doordacht groenbeheer. Met deze integrale aanpak willen we onze omgeving beter beschermen, de impact van klimaatverandering beperken en de leefkwaliteit voor alle inwoners verhogen.",
-    "ap_code": "AP",
+    "ap_code": "AP-18",
     "ap_short": "Beschermen bodem en milieu",
     "ap_long": "Commentaar:",
     "ac_code": "AP18.04",
@@ -763,7 +797,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 10.07,
+    "amount_per_capita": 10.1,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 20000.0,
@@ -784,10 +818,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-5",
     "bd_short": "Een aantrekkelijk aanbod en faciliteiten voor jonge inwoners en gezinnen",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten doelgericht in op het versterken van onze leefomgeving, het ondersteunen van gezinnen en ondernemers, het creëren van kwaliteitsvolle ontspannings- en ontmoetingsruimtes. We werken verder aan een meer groene en biodiverse gemeente, investeren in toegankelijke infrastructuur en veilige vrijetijdsomgeving, bouwen aan een inclusief aanbod voor kinderen, jongeren en kwetsbare gezinnen. Tegelijk stimuleren we lokaal ondernemerschap en moderniseren we onze voorzieningen zodat inwoners, verenigingen en bezoekers kunnen genieten van een duurzame, zorgzame en toekomstgerichte gemeente.",
-    "ap_code": "AP",
+    "ap_code": "AP-10",
     "ap_short": "Een kwalitatief, op elkaar afgestemd vrijetijdsaanbod voor iedereen",
     "ap_long": "Commentaar:",
     "ac_code": "AP10.02",
@@ -797,7 +831,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 107000.0,
-    "amount_per_capita": 8.98,
+    "amount_per_capita": 9.01,
     "yearly_amounts": {
       "2026": 57000.0,
       "2027": 50000.0,
@@ -807,8 +841,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.78,
-      "2027": 4.19,
+      "2026": 4.8,
+      "2027": 4.21,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -818,10 +852,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-4",
     "bd_short": "Verder bouwen aan een performante organisatiestructuur",
     "bd_long": "Kwalitatieve omschrijving: \nOm de dagelijkse werking verder te versterken, investeren we de komende jaren gericht in modern en duurzaam materiaal, een veilige en betrouwbare IT-infrastructuur en een goed uitgebouwd preventie- en welzijnsbeleid. Door zowel onze technische uitrusting als onze digitale en administratieve ondersteuning te optimaliseren, willen we efficiënter werken, de veiligheid verhogen en een gezonde werkomgeving voor medewerkers garanderen. Deze inspanningen vormen de basis voor een toekomstgerichte organisatie die kwaliteitsvolle dienstverlening kan blijven bieden.",
-    "ap_code": "AP",
+    "ap_code": "AP-05",
     "ap_short": "Operationele efficiëntie",
     "ap_long": "Commentaar:",
     "ac_code": "AP05.06",
@@ -831,7 +865,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 102500.0,
-    "amount_per_capita": 8.6,
+    "amount_per_capita": 8.63,
     "yearly_amounts": {
       "2026": 2500.0,
       "2027": 20000.0,
@@ -852,20 +886,54 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
+    "ap_short": "Infrastructuur veilig en toekomstgericht maken",
+    "ap_long": "Commentaar:",
+    "ac_code": "AP16.05",
+    "ac_short": "Brandweerarsenaal",
+    "ac_long": "We voeren ingrepen uit in het kader van brandveiligheid en energie-efficiëntie. De elektrische installatie wordt conform de geldende regelgeving geplaatst, de achtergevel geïsoleerd en zonnepanelen geïnstalleerd. Deze maatregelen verlagen structureel de energiekosten.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 87765.64,
+    "amount_per_capita": 7.39,
+    "yearly_amounts": {
+      "2026": 77765.64,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.55,
+      "2027": 0.84,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-9",
+    "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
+    "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.04",
-    "ac_short": "bibliotheek",
+    "ac_short": "Bibliotheek",
     "ac_long": "We voorzien het conform plaatsen van de elektrische installatie, de installatie van zonnepanelen en de vernieuwing van het dak. Indien nodig wordt ook ventilatie geplaatst. Deze ingrepen beogen een daling van de energiekosten en een optimaal gebruik van opgewekte elektriciteit.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 82500.0,
-    "amount_per_capita": 6.92,
+    "amount_per_capita": 6.94,
     "yearly_amounts": {
       "2026": 2500.0,
       "2027": 80000.0,
@@ -876,7 +944,7 @@
     },
     "yearly_per_capita": {
       "2026": 0.21,
-      "2027": 6.71,
+      "2027": 6.73,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -886,10 +954,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-4",
     "bd_short": "Verder bouwen aan een performante organisatiestructuur",
     "bd_long": "Kwalitatieve omschrijving: \nOm de dagelijkse werking verder te versterken, investeren we de komende jaren gericht in modern en duurzaam materiaal, een veilige en betrouwbare IT-infrastructuur en een goed uitgebouwd preventie- en welzijnsbeleid. Door zowel onze technische uitrusting als onze digitale en administratieve ondersteuning te optimaliseren, willen we efficiënter werken, de veiligheid verhogen en een gezonde werkomgeving voor medewerkers garanderen. Deze inspanningen vormen de basis voor een toekomstgerichte organisatie die kwaliteitsvolle dienstverlening kan blijven bieden.",
-    "ap_code": "AP",
+    "ap_code": "AP-05",
     "ap_short": "Operationele efficiëntie",
     "ap_long": "Commentaar:",
     "ac_code": "AP05.05",
@@ -899,7 +967,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 80000.0,
-    "amount_per_capita": 6.71,
+    "amount_per_capita": 6.73,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -912,7 +980,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 6.71,
+      "2029": 6.73,
       "2030": 0,
       "2031": 0
     }
@@ -920,10 +988,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-0",
     "bd_short": "Opname en uitvoering van de Vlaamse beleidsprioriteiten",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren zetten we in op het versterken van kansen voor inwoners met een afstand tot de arbeidsmarkt. Via tijdelijke werkervaring en lokale diensteneconomie ondersteunen we werkzoekenden bij het opbouwen van competenties binnen een realistische werkomgeving. Tegelijk nemen we een verbindende regierol op in de uitbouw van een kwalitatief, toegankelijk en warm netwerk van buitenschoolse opvang en activiteiten. Door partners te coördineren en gezinnen centraal te zetten, creëren we meer ontwikkelingskansen voor kinderen en een inclusieve omgeving waarin iedereen kan groeien.",
-    "ap_code": "AP",
+    "ap_code": "AP-00",
     "ap_short": "Uitvoeren Vlaamse beleidsprioriteiten",
     "ap_long": "Commentaar:",
     "ac_code": "AP00.07",
@@ -933,7 +1001,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 75500.0,
-    "amount_per_capita": 6.33,
+    "amount_per_capita": 6.36,
     "yearly_amounts": {
       "2026": 0,
       "2027": 58500.0,
@@ -944,20 +1012,54 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 4.91,
+      "2027": 4.92,
       "2028": 0,
-      "2029": 0.71,
+      "2029": 0.72,
       "2030": 0,
-      "2031": 0.71
+      "2031": 0.72
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-5",
+    "bd_short": "Een aantrekkelijk aanbod en faciliteiten voor jonge inwoners en gezinnen",
+    "bd_long": "Kwalitatieve omschrijving: \nWe zetten doelgericht in op het versterken van onze leefomgeving, het ondersteunen van gezinnen en ondernemers, het creëren van kwaliteitsvolle ontspannings- en ontmoetingsruimtes. We werken verder aan een meer groene en biodiverse gemeente, investeren in toegankelijke infrastructuur en veilige vrijetijdsomgeving, bouwen aan een inclusief aanbod voor kinderen, jongeren en kwetsbare gezinnen. Tegelijk stimuleren we lokaal ondernemerschap en moderniseren we onze voorzieningen zodat inwoners, verenigingen en bezoekers kunnen genieten van een duurzame, zorgzame en toekomstgerichte gemeente.",
+    "ap_code": "AP-10",
+    "ap_short": "Een kwalitatief, op elkaar afgestemd vrijetijdsaanbod voor iedereen",
+    "ap_long": "Commentaar:",
+    "ac_code": "AP10.03",
+    "ac_short": "Optimaliseren cultuurinfrastructuur",
+    "ac_long": "We zetten in op de opwaardering van de bestaande vergader- en evenementeninfrastructuur. Dit gebeurt via gerichte investeringen in comfort, inrichting, technische uitrusting en energie-efficiëntie. Daarnaast wordt gestreefd naar meer autonomie voor gebruikers door de installatie van zelfbedieningspanelen voor licht en geluid. Deze acties moeten het gebruiksgemak, het comfort en de duurzaamheid van de zalen verhogen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 61510.91,
+    "amount_per_capita": 5.18,
+    "yearly_amounts": {
+      "2026": 21510.91,
+      "2027": 9000.0,
+      "2028": 12000.0,
+      "2029": 19000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.81,
+      "2027": 0.76,
+      "2028": 1.01,
+      "2029": 1.6,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-17",
     "bd_short": "Moorslede als bestuurskrachtig lokaal bestuur",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten sterk in op het verder professionaliseren van onze organisatie. We moderniseren onze huisstijl, versterken ons intern beheerssysteem en actualiseren de rechtspositieregeling en het arbeidsreglement. Door te investeren in duidelijke communicatie, risicobeheer, permanente vorming en een duurzaam HR-beleid bouwen we aan een transparante, efficiënte en toekomstgerichte organisatie die klaar is voor nieuwe uitdagingen.",
-    "ap_code": "AP",
+    "ap_code": "AP-28",
     "ap_short": "Nieuwe huisstijl",
     "ap_long": "Commentaar:",
     "ac_code": "AP28.01",
@@ -966,10 +1068,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 55000.0,
-    "amount_per_capita": 4.61,
+    "total_amount": 60000.0,
+    "amount_per_capita": 5.05,
     "yearly_amounts": {
-      "2026": 55000.0,
+      "2026": 60000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -977,7 +1079,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.61,
+      "2026": 5.05,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -988,10 +1090,44 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-RVMW",
+    "ac_short": "Verrichtingen zonder beleidsdoelstelling - Raad  voor Maatschappelijk Welzijn",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 58267.2,
+    "amount_per_capita": 4.9,
+    "yearly_amounts": {
+      "2026": 58267.2,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.9,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-2",
     "bd_short": "Projectmatig en organisatiebreed gestructureerd werken o.b.v. processen",
     "bd_long": "Kwalitatieve omschrijving: \nOm onze organisatie verder te professionaliseren en onze werking efficiënter te maken, investeren we gericht in digitale ondersteuning. Door verschillende gespecialiseerde softwaretoepassingen te implementeren, willen we processen stroomlijnen, verantwoordelijkheden verduidelijken en de kwaliteit van onze rapportering en opvolging verhogen. Deze digitale versterking moet niet alleen onze dagelijkse werking ondersteunen, maar ook bijdragen aan een meer strategische, toekomstgerichte aanpak binnen de organisatie.",
-    "ap_code": "AP",
+    "ap_code": "AP-02",
     "ap_short": "Aankoop software",
     "ap_long": "Commentaar:",
     "ac_code": "AP02.02",
@@ -1000,10 +1136,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 51400.0,
-    "amount_per_capita": 4.31,
+    "total_amount": 56900.0,
+    "amount_per_capita": 4.79,
     "yearly_amounts": {
-      "2026": 30000.0,
+      "2026": 35500.0,
       "2027": 21400.0,
       "2028": 0,
       "2029": 0,
@@ -1011,7 +1147,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.52,
+      "2026": 2.99,
       "2027": 1.8,
       "2028": 0,
       "2029": 0,
@@ -1022,44 +1158,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
-    "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
-    "ap_short": "Infrastructuur veilig en toekomstgericht maken",
-    "ap_long": "Commentaar:",
-    "ac_code": "AP16.03",
-    "ac_short": "Berging begraafplaats Moorslede en Dadizele",
-    "ac_long": "We plannen tegen 2030 de vernieuwing van de bergingen op de begraafplaatsen van Moorslede en Dadizele om de werkomstandigheden en efficiëntie van de technische diensten te verbeteren. In Moorslede wordt een nieuwe berging voorzien wegens structurele gebreken. Voor Dadizele wordt gekozen tussen een nieuwe berging of een herindeling van de bestaande ruimte. De uitvoering gebeurt via een totaalaannemer of in eigen beheer, afhankelijk van de situatie.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 4.19,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 50000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 4.19,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Moorslede",
-    "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-5",
     "bd_short": "Een aantrekkelijk aanbod en faciliteiten voor jonge inwoners en gezinnen",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten doelgericht in op het versterken van onze leefomgeving, het ondersteunen van gezinnen en ondernemers, het creëren van kwaliteitsvolle ontspannings- en ontmoetingsruimtes. We werken verder aan een meer groene en biodiverse gemeente, investeren in toegankelijke infrastructuur en veilige vrijetijdsomgeving, bouwen aan een inclusief aanbod voor kinderen, jongeren en kwetsbare gezinnen. Tegelijk stimuleren we lokaal ondernemerschap en moderniseren we onze voorzieningen zodat inwoners, verenigingen en bezoekers kunnen genieten van een duurzame, zorgzame en toekomstgerichte gemeente.",
-    "ap_code": "AP",
+    "ap_code": "AP-10",
     "ap_short": "Een kwalitatief, op elkaar afgestemd vrijetijdsaanbod voor iedereen",
     "ap_long": "Commentaar:",
     "ac_code": "AP10.05",
@@ -1069,7 +1171,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 4.19,
+    "amount_per_capita": 4.21,
     "yearly_amounts": {
       "2026": 0,
       "2027": 10000.0,
@@ -1090,78 +1192,44 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Een aantrekkelijk aanbod en faciliteiten voor jonge inwoners en gezinnen",
-    "bd_long": "Kwalitatieve omschrijving: \nWe zetten doelgericht in op het versterken van onze leefomgeving, het ondersteunen van gezinnen en ondernemers, het creëren van kwaliteitsvolle ontspannings- en ontmoetingsruimtes. We werken verder aan een meer groene en biodiverse gemeente, investeren in toegankelijke infrastructuur en veilige vrijetijdsomgeving, bouwen aan een inclusief aanbod voor kinderen, jongeren en kwetsbare gezinnen. Tegelijk stimuleren we lokaal ondernemerschap en moderniseren we onze voorzieningen zodat inwoners, verenigingen en bezoekers kunnen genieten van een duurzame, zorgzame en toekomstgerichte gemeente.",
-    "ap_code": "AP",
-    "ap_short": "Een kwalitatief, op elkaar afgestemd vrijetijdsaanbod voor iedereen",
-    "ap_long": "Commentaar:",
-    "ac_code": "AP10.03",
-    "ac_short": "Optimaliseren cultuurinfrastructuur",
-    "ac_long": "We zetten in op de opwaardering van de bestaande vergader- en evenementeninfrastructuur. Dit gebeurt via gerichte investeringen in comfort, inrichting, technische uitrusting en energie-efficiëntie. Daarnaast wordt gestreefd naar meer autonomie voor gebruikers door de installatie van zelfbedieningspanelen voor licht en geluid. Deze acties moeten het gebruiksgemak, het comfort en de duurzaamheid van de zalen verhogen.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 46800.0,
-    "amount_per_capita": 3.93,
-    "yearly_amounts": {
-      "2026": 6800.0,
-      "2027": 9000.0,
-      "2028": 12000.0,
-      "2029": 19000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.57,
-      "2027": 0.76,
-      "2028": 1.01,
-      "2029": 1.59,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Moorslede",
-    "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
-    "ac_code": "AP16.05",
-    "ac_short": "Brandweerarsenaal",
-    "ac_long": "We voeren ingrepen uit in het kader van brandveiligheid en energie-efficiëntie. De elektrische installatie wordt conform de geldende regelgeving geplaatst, de achtergevel geïsoleerd en zonnepanelen geïnstalleerd. Deze maatregelen verlagen structureel de energiekosten.",
+    "ac_code": "AP16.03",
+    "ac_short": "Berging begraafplaats Moorslede en Dadizele",
+    "ac_long": "We plannen tegen 2030 de vernieuwing van de bergingen op de begraafplaatsen van Moorslede en Dadizele om de werkomstandigheden en efficiëntie van de technische diensten te verbeteren. In Moorslede wordt een nieuwe berging voorzien wegens structurele gebreken. Voor Dadizele wordt gekozen tussen een nieuwe berging of een herindeling van de bestaande ruimte. De uitvoering gebeurt via een totaalaannemer of in eigen beheer, afhankelijk van de situatie.",
     "categories": [
-      "04-veiligheidszorg"
+      "09-zorg-opvang"
     ],
-    "total_amount": 42500.0,
-    "amount_per_capita": 3.57,
+    "total_amount": 50000.0,
+    "amount_per_capita": 4.21,
     "yearly_amounts": {
-      "2026": 32500.0,
-      "2027": 10000.0,
+      "2026": 0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 0,
+      "2030": 50000.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.73,
-      "2027": 0.84,
+      "2026": 0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 0,
+      "2030": 4.21,
       "2031": 0
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.14",
@@ -1170,10 +1238,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 35000.0,
-    "amount_per_capita": 2.94,
+    "total_amount": 45000.0,
+    "amount_per_capita": 3.79,
     "yearly_amounts": {
-      "2026": 5000.0,
+      "2026": 15000.0,
       "2027": 5000.0,
       "2028": 5000.0,
       "2029": 5000.0,
@@ -1181,7 +1249,7 @@
       "2031": 10000.0
     },
     "yearly_per_capita": {
-      "2026": 0.42,
+      "2026": 1.26,
       "2027": 0.42,
       "2028": 0.42,
       "2029": 0.42,
@@ -1192,10 +1260,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-4",
     "bd_short": "Verder bouwen aan een performante organisatiestructuur",
     "bd_long": "Kwalitatieve omschrijving: \nOm de dagelijkse werking verder te versterken, investeren we de komende jaren gericht in modern en duurzaam materiaal, een veilige en betrouwbare IT-infrastructuur en een goed uitgebouwd preventie- en welzijnsbeleid. Door zowel onze technische uitrusting als onze digitale en administratieve ondersteuning te optimaliseren, willen we efficiënter werken, de veiligheid verhogen en een gezonde werkomgeving voor medewerkers garanderen. Deze inspanningen vormen de basis voor een toekomstgerichte organisatie die kwaliteitsvolle dienstverlening kan blijven bieden.",
-    "ap_code": "AP",
+    "ap_code": "AP-06",
     "ap_short": "Verhogen welzijn medewerkers",
     "ap_long": "Commentaar:",
     "ac_code": "AP06.01",
@@ -1205,7 +1273,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 30000.0,
-    "amount_per_capita": 2.52,
+    "amount_per_capita": 2.53,
     "yearly_amounts": {
       "2026": 5000.0,
       "2027": 5000.0,
@@ -1226,33 +1294,33 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Een klantgerichte en toegankelijke (digitale) dienstverlening",
-    "bd_long": "Kwalitatieve omschrijving: \nKlant is koning. We zetten sterk in op een moderne, toegankelijke en klantgerichte dienstverlening. Door verder te digitaliseren, processen te vereenvoudigen en onze organisatie beter te structureren, willen we inwoners, verenigingen en bezoekers vlotter, transparanter en efficiënter ondersteunen. We bouwen aan gebruiksvriendelijke digitale platforms, centraliseren contactpunten en versterken de vrijetijdsdienst, terwijl we tegelijk investeren in inclusieve ondersteuning en een toekomstgericht administratief centrum. Zo creëren we een dienstverlening die klaar is voor de noden van vandaag én morgen.",
-    "ap_code": "AP",
-    "ap_short": "Klantgerichte dienstverlening",
+    "bd_code": "OD-2",
+    "bd_short": "Projectmatig en organisatiebreed gestructureerd werken o.b.v. processen",
+    "bd_long": "Kwalitatieve omschrijving: \nOm onze organisatie verder te professionaliseren en onze werking efficiënter te maken, investeren we gericht in digitale ondersteuning. Door verschillende gespecialiseerde softwaretoepassingen te implementeren, willen we processen stroomlijnen, verantwoordelijkheden verduidelijken en de kwaliteit van onze rapportering en opvolging verhogen. Deze digitale versterking moet niet alleen onze dagelijkse werking ondersteunen, maar ook bijdragen aan een meer strategische, toekomstgerichte aanpak binnen de organisatie.",
+    "ap_code": "AP-02",
+    "ap_short": "Aankoop software",
     "ap_long": "Commentaar:",
-    "ac_code": "AP25.04",
-    "ac_short": "Een toekomstgericht dienstverleningsconcept met focus op digitale en klantgerichte infrastructuur",
-    "ac_long": "Ontwikkelen van een geïntegreerd dienstverleningsconcept dat inzet op verdere digitalisering via een sterker digitaal loket en het implementeren van een klantgeleidingssysteem dat bezoekers vlot doorheen het onthaal- en dienstverleningsproces begeleidt. Tegelijk wordt gewerkt aan de bouw van een nieuw administratief centrum dat praktisch, functioneel en afgestemd is op moderne, klantgerichte dienstverlening, met aandacht voor duurzaamheid, efficiënt ruimtegebruik en een optimale beleving voor de burger.",
+    "ac_code": "AP02.03",
+    "ac_short": "Implementeren oftware voor projectwerking en -opvolging",
+    "ac_long": "Met de implementatie van een gerichte softwaretoepassing willen we een geïntegreerde aanpak voor project- en procesmanagement invoeren. Hierbij willen we komen tot een uniforme, transparante en efficiënte manier om zowel operationele als strategische projecten op te volgen, te rapporteren en te sturen.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 25000.0,
-    "amount_per_capita": 2.1,
+    "total_amount": 28665.0,
+    "amount_per_capita": 2.41,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 28665.0,
       "2027": 0,
       "2028": 0,
-      "2029": 25000.0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 2.41,
       "2027": 0,
       "2028": 0,
-      "2029": 2.1,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -1260,10 +1328,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-11",
     "bd_short": "Omgaan met klimaatverandering en ontharden in onze gemeente",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten in op een klimaatbestendige, duurzame en zorgzame leefomgeving. We nemen maatregelen om erosie, bodem- en waterproblemen aan te pakken, versterken ons afval- en natuurbeheer, en investeren in een efficiënte en milieuvriendelijke omgang met energie en ruimte. Daarnaast bouwen we verder aan een diervriendelijke gemeente en ondersteunen we biodiversiteit door doordacht groenbeheer. Met deze integrale aanpak willen we onze omgeving beter beschermen, de impact van klimaatverandering beperken en de leefkwaliteit voor alle inwoners verhogen.",
-    "ap_code": "AP",
+    "ap_code": "AP-20",
     "ap_short": "Inzetten op biodiversiteit en dierenwelzijn",
     "ap_long": "Commentaar:",
     "ac_code": "AP20.01",
@@ -1294,33 +1362,33 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Een aantrekkelijk aanbod en faciliteiten voor jonge inwoners en gezinnen",
-    "bd_long": "Kwalitatieve omschrijving: \nWe zetten doelgericht in op het versterken van onze leefomgeving, het ondersteunen van gezinnen en ondernemers, het creëren van kwaliteitsvolle ontspannings- en ontmoetingsruimtes. We werken verder aan een meer groene en biodiverse gemeente, investeren in toegankelijke infrastructuur en veilige vrijetijdsomgeving, bouwen aan een inclusief aanbod voor kinderen, jongeren en kwetsbare gezinnen. Tegelijk stimuleren we lokaal ondernemerschap en moderniseren we onze voorzieningen zodat inwoners, verenigingen en bezoekers kunnen genieten van een duurzame, zorgzame en toekomstgerichte gemeente.",
-    "ap_code": "AP",
-    "ap_short": "Een kwalitatief, op elkaar afgestemd vrijetijdsaanbod voor iedereen",
+    "bd_code": "OD-15",
+    "bd_short": "Een klantgerichte en toegankelijke (digitale) dienstverlening",
+    "bd_long": "Kwalitatieve omschrijving: \nKlant is koning. We zetten sterk in op een moderne, toegankelijke en klantgerichte dienstverlening. Door verder te digitaliseren, processen te vereenvoudigen en onze organisatie beter te structureren, willen we inwoners, verenigingen en bezoekers vlotter, transparanter en efficiënter ondersteunen. We bouwen aan gebruiksvriendelijke digitale platforms, centraliseren contactpunten en versterken de vrijetijdsdienst, terwijl we tegelijk investeren in inclusieve ondersteuning en een toekomstgericht administratief centrum. Zo creëren we een dienstverlening die klaar is voor de noden van vandaag én morgen.",
+    "ap_code": "AP-25",
+    "ap_short": "Klantgerichte dienstverlening",
     "ap_long": "Commentaar:",
-    "ac_code": "AP10.01",
-    "ac_short": "Automatiseren van de toegang tot de vrijetijdsinfrastructuur",
-    "ac_long": "We wensen een toegangscontrolesysteem uit te werken voor de verschillende socio-culturele zalen. Dit met als doel het voorzien in een gecontroleerde toegang, het verhogen van de verantwoordelijkheid bij schade en het realiseren van een efficiëntere inzet van het poetspersoneel.",
+    "ac_code": "AP25.04",
+    "ac_short": "Een toekomstgericht dienstverleningsconcept met focus op digitale en klantgerichte infrastructuur",
+    "ac_long": "Ontwikkelen van een geïntegreerd dienstverleningsconcept dat inzet op verdere digitalisering via een sterker digitaal loket en het implementeren van een klantgeleidingssysteem dat bezoekers vlot doorheen het onthaal- en dienstverleningsproces begeleidt. Tegelijk wordt gewerkt aan de bouw van een nieuw administratief centrum dat praktisch, functioneel en afgestemd is op moderne, klantgerichte dienstverlening, met aandacht voor duurzaamheid, efficiënt ruimtegebruik en een optimale beleving voor de burger.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 1.68,
+    "total_amount": 25000.0,
+    "amount_per_capita": 2.1,
     "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 10000.0,
+      "2026": 0,
+      "2027": 0,
       "2028": 0,
-      "2029": 0,
+      "2029": 25000.0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.84,
-      "2027": 0.84,
+      "2026": 0,
+      "2027": 0,
       "2028": 0,
-      "2029": 0,
+      "2029": 2.1,
       "2030": 0,
       "2031": 0
     }
@@ -1328,10 +1396,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-11",
     "bd_short": "Omgaan met klimaatverandering en ontharden in onze gemeente",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten in op een klimaatbestendige, duurzame en zorgzame leefomgeving. We nemen maatregelen om erosie, bodem- en waterproblemen aan te pakken, versterken ons afval- en natuurbeheer, en investeren in een efficiënte en milieuvriendelijke omgang met energie en ruimte. Daarnaast bouwen we verder aan een diervriendelijke gemeente en ondersteunen we biodiversiteit door doordacht groenbeheer. Met deze integrale aanpak willen we onze omgeving beter beschermen, de impact van klimaatverandering beperken en de leefkwaliteit voor alle inwoners verhogen.",
-    "ap_code": "AP",
+    "ap_code": "AP-18",
     "ap_short": "Beschermen bodem en milieu",
     "ap_long": "Commentaar:",
     "ac_code": "AP18.03",
@@ -1362,10 +1430,44 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-5",
+    "bd_short": "Een aantrekkelijk aanbod en faciliteiten voor jonge inwoners en gezinnen",
+    "bd_long": "Kwalitatieve omschrijving: \nWe zetten doelgericht in op het versterken van onze leefomgeving, het ondersteunen van gezinnen en ondernemers, het creëren van kwaliteitsvolle ontspannings- en ontmoetingsruimtes. We werken verder aan een meer groene en biodiverse gemeente, investeren in toegankelijke infrastructuur en veilige vrijetijdsomgeving, bouwen aan een inclusief aanbod voor kinderen, jongeren en kwetsbare gezinnen. Tegelijk stimuleren we lokaal ondernemerschap en moderniseren we onze voorzieningen zodat inwoners, verenigingen en bezoekers kunnen genieten van een duurzame, zorgzame en toekomstgerichte gemeente.",
+    "ap_code": "AP-10",
+    "ap_short": "Een kwalitatief, op elkaar afgestemd vrijetijdsaanbod voor iedereen",
+    "ap_long": "Commentaar:",
+    "ac_code": "AP10.01",
+    "ac_short": "Automatiseren van de toegang tot de vrijetijdsinfrastructuur",
+    "ac_long": "We wensen een toegangscontrolesysteem uit te werken voor de verschillende socio-culturele zalen. Dit met als doel het voorzien in een gecontroleerde toegang, het verhogen van de verantwoordelijkheid bij schade en het realiseren van een efficiëntere inzet van het poetspersoneel.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.68,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.84,
+      "2027": 0.84,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-4",
     "bd_short": "Verder bouwen aan een performante organisatiestructuur",
     "bd_long": "Kwalitatieve omschrijving: \nOm de dagelijkse werking verder te versterken, investeren we de komende jaren gericht in modern en duurzaam materiaal, een veilige en betrouwbare IT-infrastructuur en een goed uitgebouwd preventie- en welzijnsbeleid. Door zowel onze technische uitrusting als onze digitale en administratieve ondersteuning te optimaliseren, willen we efficiënter werken, de veiligheid verhogen en een gezonde werkomgeving voor medewerkers garanderen. Deze inspanningen vormen de basis voor een toekomstgerichte organisatie die kwaliteitsvolle dienstverlening kan blijven bieden.",
-    "ap_code": "AP",
+    "ap_code": "AP-05",
     "ap_short": "Operationele efficiëntie",
     "ap_long": "Commentaar:",
     "ac_code": "AP05.04",
@@ -1396,22 +1498,22 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Projectmatig en organisatiebreed gestructureerd werken o.b.v. processen",
-    "bd_long": "Kwalitatieve omschrijving: \nOm onze organisatie verder te professionaliseren en onze werking efficiënter te maken, investeren we gericht in digitale ondersteuning. Door verschillende gespecialiseerde softwaretoepassingen te implementeren, willen we processen stroomlijnen, verantwoordelijkheden verduidelijken en de kwaliteit van onze rapportering en opvolging verhogen. Deze digitale versterking moet niet alleen onze dagelijkse werking ondersteunen, maar ook bijdragen aan een meer strategische, toekomstgerichte aanpak binnen de organisatie.",
-    "ap_code": "AP",
-    "ap_short": "Aankoop software",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB",
+    "ap_short": "Verrichtingen zonder beleidsdoelstelling",
     "ap_long": "Commentaar:",
-    "ac_code": "AP02.03",
-    "ac_short": "Implementeren oftware voor projectwerking en -opvolging",
-    "ac_long": "Met de implementatie van een gerichte softwaretoepassing willen we een geïntegreerde aanpak voor project- en procesmanagement invoeren. Hierbij willen we komen tot een uniforme, transparante en efficiënte manier om zowel operationele als strategische projecten op te volgen, te rapporteren en te sturen.",
+    "ac_code": "GBB-VB",
+    "ac_short": "Verrichtingen zonder beleidsdoelstelling - Vast Bureau",
+    "ac_long": "Commentaar:",
     "categories": [
-      "01-algemeen-bestuur"
+      "09-zorg-opvang"
     ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 1.26,
+    "total_amount": 15500.0,
+    "amount_per_capita": 1.3,
     "yearly_amounts": {
-      "2026": 15000.0,
+      "2026": 15500.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1419,7 +1521,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.26,
+      "2026": 1.3,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1430,10 +1532,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-14",
     "bd_short": "Een nauwe betrokkenheid van de inwoners bij het gemeentelijk beleid",
     "bd_long": "Kwalitatieve omschrijving: \nInspraak blijft belangrijk: we versterken onze communicatie, participatie en dienstverlening om inwoners nog beter te betrekken bij het lokale beleid. We moderniseren onze sociale mediastrategie, bereiden onze infrastructuur voor op toekomstige verkiezingen en bouwen aan een stevige basis voor gemeenschapsvorming. Door duidelijke communicatie, vernieuwde participatie-instrumenten en een sterk vrijwilligersbeleid willen we de betrokkenheid en samenhorigheid binnen onze gemeente verder vergroten.",
-    "ap_code": "AP",
+    "ap_code": "AP-23",
     "ap_short": "Informatie en participatie",
     "ap_long": "Commentaar:",
     "ac_code": "AP23.02",
@@ -1464,10 +1566,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-16",
     "bd_short": "Een sterkere autonomie via sterke partnerschappen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren versterken we onze focus op veiligheid, crisisbeheer en professionele organisatieontwikkeling. We investeren in moderne camerabewaking, bouwen aan een hartveilige gemeente en optimaliseren onze nood- en interventieplanning. Daarnaast zetten we in op sterke samenwerkingen, betere handhaving en een meer datagedreven werking. Zo creëren we een veilige, wendbare en efficiënt ondersteunde organisatie die sneller kan inspelen op noden en beter onderbouwde beleidskeuzes kan maken.",
-    "ap_code": "AP",
+    "ap_code": "AP-26",
     "ap_short": "Versterken van lokale veiligheid en paraatheid",
     "ap_long": "Commentaar:",
     "ac_code": "AP26.01",
@@ -1477,7 +1579,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 11500.0,
-    "amount_per_capita": 0.96,
+    "amount_per_capita": 0.97,
     "yearly_amounts": {
       "2026": 8000.0,
       "2027": 0,
@@ -1498,10 +1600,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.08",
@@ -1511,7 +1613,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 11000.0,
-    "amount_per_capita": 0.92,
+    "amount_per_capita": 0.93,
     "yearly_amounts": {
       "2026": 3000.0,
       "2027": 0,
@@ -1532,10 +1634,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-5",
     "bd_short": "Een aantrekkelijk aanbod en faciliteiten voor jonge inwoners en gezinnen",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten doelgericht in op het versterken van onze leefomgeving, het ondersteunen van gezinnen en ondernemers, het creëren van kwaliteitsvolle ontspannings- en ontmoetingsruimtes. We werken verder aan een meer groene en biodiverse gemeente, investeren in toegankelijke infrastructuur en veilige vrijetijdsomgeving, bouwen aan een inclusief aanbod voor kinderen, jongeren en kwetsbare gezinnen. Tegelijk stimuleren we lokaal ondernemerschap en moderniseren we onze voorzieningen zodat inwoners, verenigingen en bezoekers kunnen genieten van een duurzame, zorgzame en toekomstgerichte gemeente.",
-    "ap_code": "AP",
+    "ap_code": "AP-10",
     "ap_short": "Een kwalitatief, op elkaar afgestemd vrijetijdsaanbod voor iedereen",
     "ap_long": "Commentaar:",
     "ac_code": "AP10.04",
@@ -1545,7 +1647,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 8500.0,
-    "amount_per_capita": 0.71,
+    "amount_per_capita": 0.72,
     "yearly_amounts": {
       "2026": 8500.0,
       "2027": 0,
@@ -1555,7 +1657,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.71,
+      "2026": 0.72,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1566,10 +1668,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-4",
     "bd_short": "Verder bouwen aan een performante organisatiestructuur",
     "bd_long": "Kwalitatieve omschrijving: \nOm de dagelijkse werking verder te versterken, investeren we de komende jaren gericht in modern en duurzaam materiaal, een veilige en betrouwbare IT-infrastructuur en een goed uitgebouwd preventie- en welzijnsbeleid. Door zowel onze technische uitrusting als onze digitale en administratieve ondersteuning te optimaliseren, willen we efficiënter werken, de veiligheid verhogen en een gezonde werkomgeving voor medewerkers garanderen. Deze inspanningen vormen de basis voor een toekomstgerichte organisatie die kwaliteitsvolle dienstverlening kan blijven bieden.",
-    "ap_code": "AP",
+    "ap_code": "AP-05",
     "ap_short": "Operationele efficiëntie",
     "ap_long": "Commentaar:",
     "ac_code": "AP05.02",
@@ -1600,10 +1702,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-5",
     "bd_short": "Een aantrekkelijk aanbod en faciliteiten voor jonge inwoners en gezinnen",
     "bd_long": "Kwalitatieve omschrijving: \nWe zetten doelgericht in op het versterken van onze leefomgeving, het ondersteunen van gezinnen en ondernemers, het creëren van kwaliteitsvolle ontspannings- en ontmoetingsruimtes. We werken verder aan een meer groene en biodiverse gemeente, investeren in toegankelijke infrastructuur en veilige vrijetijdsomgeving, bouwen aan een inclusief aanbod voor kinderen, jongeren en kwetsbare gezinnen. Tegelijk stimuleren we lokaal ondernemerschap en moderniseren we onze voorzieningen zodat inwoners, verenigingen en bezoekers kunnen genieten van een duurzame, zorgzame en toekomstgerichte gemeente.",
-    "ap_code": "AP",
+    "ap_code": "AP-07",
     "ap_short": "Aangename groene omgeving",
     "ap_long": "Commentaar:",
     "ac_code": "AP07.03",
@@ -1623,21 +1725,55 @@
       "2031": 1250.0
     },
     "yearly_per_capita": {
-      "2026": 0.1,
-      "2027": 0.1,
-      "2028": 0.1,
-      "2029": 0.1,
-      "2030": 0.1,
-      "2031": 0.1
+      "2026": 0.11,
+      "2027": 0.11,
+      "2028": 0.11,
+      "2029": 0.11,
+      "2030": 0.11,
+      "2031": 0.11
     }
   },
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
+    "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
+    "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
+    "ap_code": "AP-16",
+    "ap_short": "Infrastructuur veilig en toekomstgericht maken",
+    "ap_long": "Commentaar:",
+    "ac_code": "AP16.01",
+    "ac_short": "4Link",
+    "ac_long": "We zorgen voor het conform plaatsen en keuren van de elektrische installatie in het gebouw, in overeenstemming met de geldende wettelijke normen en veiligheidsvoorschriften.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 6999.8,
+    "amount_per_capita": 0.59,
+    "yearly_amounts": {
+      "2026": 6999.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.59,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-15",
     "bd_short": "Een klantgerichte en toegankelijke (digitale) dienstverlening",
     "bd_long": "Kwalitatieve omschrijving: \nKlant is koning. We zetten sterk in op een moderne, toegankelijke en klantgerichte dienstverlening. Door verder te digitaliseren, processen te vereenvoudigen en onze organisatie beter te structureren, willen we inwoners, verenigingen en bezoekers vlotter, transparanter en efficiënter ondersteunen. We bouwen aan gebruiksvriendelijke digitale platforms, centraliseren contactpunten en versterken de vrijetijdsdienst, terwijl we tegelijk investeren in inclusieve ondersteuning en een toekomstgericht administratief centrum. Zo creëren we een dienstverlening die klaar is voor de noden van vandaag én morgen.",
-    "ap_code": "AP",
+    "ap_code": "AP-24",
     "ap_short": "Digitale dienstverlening",
     "ap_long": "Commentaar:",
     "ac_code": "AP24.03",
@@ -1647,7 +1783,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 5300.0,
-    "amount_per_capita": 0.44,
+    "amount_per_capita": 0.45,
     "yearly_amounts": {
       "2026": 5300.0,
       "2027": 0,
@@ -1657,7 +1793,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.44,
+      "2026": 0.45,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1668,78 +1804,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
-    "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
-    "ap_short": "Infrastructuur veilig en toekomstgericht maken",
-    "ap_long": "Commentaar:",
-    "ac_code": "AP16.09",
-    "ac_short": "Gemeentedepot",
-    "ac_long": "We vernieuwen in 2026 de elektrische installatie en plaatsen deze conform met het oog op brandveiligheid. Tegelijkertijd wordt de verlichting vervangen door energiezuinige LED-verlichting en het dak waterdicht gemaakt. Deze maatregelen verlagen het brandrisico, verbeteren de energie-efficiëntie en beperken onderhoudskosten.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 5000.0,
-    "amount_per_capita": 0.42,
-    "yearly_amounts": {
-      "2026": 5000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.42,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Moorslede",
-    "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Een klantgerichte en toegankelijke (digitale) dienstverlening",
-    "bd_long": "Kwalitatieve omschrijving: \nKlant is koning. We zetten sterk in op een moderne, toegankelijke en klantgerichte dienstverlening. Door verder te digitaliseren, processen te vereenvoudigen en onze organisatie beter te structureren, willen we inwoners, verenigingen en bezoekers vlotter, transparanter en efficiënter ondersteunen. We bouwen aan gebruiksvriendelijke digitale platforms, centraliseren contactpunten en versterken de vrijetijdsdienst, terwijl we tegelijk investeren in inclusieve ondersteuning en een toekomstgericht administratief centrum. Zo creëren we een dienstverlening die klaar is voor de noden van vandaag én morgen.",
-    "ap_code": "AP",
-    "ap_short": "Klantgerichte dienstverlening",
-    "ap_long": "Commentaar:",
-    "ac_code": "AP25.02",
-    "ac_short": "Ondersteunen van verenigingen",
-    "ac_long": "We willen de verenigingen, die zorgen voor een bloeiende vrijetijdsbeleving, ondersteunen door middel van gerichte subsidies, geschikte logistieke middelen en het opleiden van medewerkers om dit mogelijk te maken. Daarnaast worden de initiatieven die door de hoger overheid uitgewerkt worden van kortbij opgevolgd en geïmplementeerd (bijv. het Verenigingenloket).",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 5000.0,
-    "amount_per_capita": 0.42,
-    "yearly_amounts": {
-      "2026": 5000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.42,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Moorslede",
-    "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-1",
     "bd_short": "Optimaliseren van de informatiedoorstroming doorheen de organisatie",
     "bd_long": "Kwalitatieve omschrijving: \nOm onze externe en interne communicatie te versterken, zetten we de komende periode in op een aantal belangrijke organisatorische verbeteringen. We willen zowel de informatiedoorstroming naar het publiek als binnen de organisatie efficiënter, consistenter en toegankelijker maken. Daarom nemen we twee grote initiatieven op: de uitwerking van een gestructureerd communicatieplan en de ontwikkeling van een centraal intranetplatform.",
-    "ap_code": "AP",
+    "ap_code": "AP-01",
     "ap_short": "Slim en transparant communiceren",
     "ap_long": "Commentaar:",
     "ac_code": "AP01.02",
@@ -1770,10 +1838,78 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-15",
+    "bd_short": "Een klantgerichte en toegankelijke (digitale) dienstverlening",
+    "bd_long": "Kwalitatieve omschrijving: \nKlant is koning. We zetten sterk in op een moderne, toegankelijke en klantgerichte dienstverlening. Door verder te digitaliseren, processen te vereenvoudigen en onze organisatie beter te structureren, willen we inwoners, verenigingen en bezoekers vlotter, transparanter en efficiënter ondersteunen. We bouwen aan gebruiksvriendelijke digitale platforms, centraliseren contactpunten en versterken de vrijetijdsdienst, terwijl we tegelijk investeren in inclusieve ondersteuning en een toekomstgericht administratief centrum. Zo creëren we een dienstverlening die klaar is voor de noden van vandaag én morgen.",
+    "ap_code": "AP-25",
+    "ap_short": "Klantgerichte dienstverlening",
+    "ap_long": "Commentaar:",
+    "ac_code": "AP25.02",
+    "ac_short": "Ondersteunen van verenigingen",
+    "ac_long": "We willen de verenigingen, die zorgen voor een bloeiende vrijetijdsbeleving, ondersteunen door middel van gerichte subsidies, geschikte logistieke middelen en het opleiden van medewerkers om dit mogelijk te maken. Daarnaast worden de initiatieven die door de hoger overheid uitgewerkt worden van kortbij opgevolgd en geïmplementeerd (bijv. het Verenigingenloket).",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.42,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
+    "ap_short": "Infrastructuur veilig en toekomstgericht maken",
+    "ap_long": "Commentaar:",
+    "ac_code": "AP16.09",
+    "ac_short": "Gemeentedepot",
+    "ac_long": "We vernieuwen in 2026 de elektrische installatie en plaatsen deze conform met het oog op brandveiligheid. Tegelijkertijd wordt de verlichting vervangen door energiezuinige LED-verlichting en het dak waterdicht gemaakt. Deze maatregelen verlagen het brandrisico, verbeteren de energie-efficiëntie en beperken onderhoudskosten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.42,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Moorslede",
+    "nis_code": "36012",
+    "bd_code": "OD-9",
+    "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
+    "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.18",
@@ -1804,44 +1940,10 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
-    "ap_short": "Infrastructuur veilig en toekomstgericht maken",
-    "ap_long": "Commentaar:",
-    "ac_code": "AP16.01",
-    "ac_short": "4Link",
-    "ac_long": "We zorgen voor het conform plaatsen en keuren van de elektrische installatie in het gebouw, in overeenstemming met de geldende wettelijke normen en veiligheidsvoorschriften.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 3000.0,
-    "amount_per_capita": 0.25,
-    "yearly_amounts": {
-      "2026": 3000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.25,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Moorslede",
-    "nis_code": "36012",
-    "bd_code": "OD",
-    "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
-    "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.07",
@@ -1872,14 +1974,14 @@
   {
     "municipality": "Moorslede",
     "nis_code": "36012",
-    "bd_code": "OD",
+    "bd_code": "OD-9",
     "bd_short": "Een vastgoedstrategie voor onze gemeentelijke gebouwen",
     "bd_long": "Kwalitatieve omschrijving: \nDe komende jaren werken we aan een toekomstgerichte vastgoedstrategie die inzet op veiligheid, energie-efficiëntie en duurzaamheid van onze gemeentelijke gebouwen. Door systematisch de staat van onze infrastructuur in kaart te brengen en gerichte renovaties en nieuwbouwprojecten te realiseren, zorgen we voor conforme en kwalitatieve gebouwen die beantwoorden aan wettelijke normen en maatschappelijke verwachtingen. We investeren in energiemaatregelen zoals isolatie, zonnepanelen en efficiënte verwarmingssystemen… Daarnaast voorzien we in de vernieuwing van verouderde installaties, het optimaliseren van werk- en ontmoetingsruimtes en het creëren van multifunctionele infrastructuur. Zo bouwen we stap voor stap aan een duurzaam patrimonium dat bijdraagt aan een veilige, comfortabele en klantgerichte dienstverlening.",
-    "ap_code": "AP",
+    "ap_code": "AP-16",
     "ap_short": "Infrastructuur veilig en toekomstgericht maken",
     "ap_long": "Commentaar:",
     "ac_code": "AP16.11",
-    "ac_short": "sociaal huis",
+    "ac_short": "Sociaal huis",
     "ac_long": "We installeren akoestische panelen in de raadszaal om de geluidskwaliteit en verstaanbaarheid te verbeteren. Deze ingreep draagt bij aan een comfortabele en professionele vergaderomgeving.",
     "categories": [
       "01-algemeen-bestuur"

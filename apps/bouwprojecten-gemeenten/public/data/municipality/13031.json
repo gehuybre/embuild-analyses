@@ -15,7 +15,7 @@
       "08-onderwijs"
     ],
     "total_amount": 7504700.0,
-    "amount_per_capita": 497.33,
+    "amount_per_capita": 491.96,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -27,9 +27,9 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 21.7,
-      "2029": 131.92,
-      "2030": 343.71,
+      "2028": 21.47,
+      "2029": 130.49,
+      "2030": 340.0,
       "2031": 0
     }
   },
@@ -49,7 +49,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 3550000.0,
-    "amount_per_capita": 235.26,
+    "amount_per_capita": 232.72,
     "yearly_amounts": {
       "2026": 0,
       "2027": 750000.0,
@@ -60,9 +60,43 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 49.7,
+      "2027": 49.17,
       "2028": 0,
-      "2029": 185.56,
+      "2029": 183.55,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oud-Turnhout",
+    "nis_code": "13031",
+    "bd_code": "BD000006",
+    "bd_short": "We zijn een bruisende gemeente",
+    "bd_long": "6. We zijn een bruisende gemeente waar iedereen volop kan genieten van een rijk, laagdrempelig en divers vrijetijdsaanbod en zetten extra in op de samenwerking met vrijwilligers en verenigingen.",
+    "ap_code": "AP000030",
+    "ap_short": "We ondersteunen en waarderen onze verenigingen en gemeenschapsvormende initiatieven",
+    "ap_long": "6.5 We ondersteunen en waarderen onze verenigingen en gemeenschapsvormende initiatieven.",
+    "ac_code": "AC000123",
+    "ac_short": "We bouwen een nieuwe Heischuur en richten deze duurzaam in",
+    "ac_long": "6.5.1 We bouwen een nieuwe Heischuur en richten deze duurzaam in.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3264880.96,
+    "amount_per_capita": 214.02,
+    "yearly_amounts": {
+      "2026": 3264880.96,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 214.02,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -83,7 +117,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 2950615.0,
-    "amount_per_capita": 195.54,
+    "amount_per_capita": 193.42,
     "yearly_amounts": {
       "2026": 339342.0,
       "2027": 385948.0,
@@ -95,48 +129,14 @@
       "2033": 367447.0
     },
     "yearly_per_capita": {
-      "2026": 22.49,
-      "2027": 25.58,
-      "2028": 24.28,
-      "2029": 24.46,
-      "2030": 25.68,
-      "2031": 24.35,
-      "2032": 24.35,
-      "2033": 24.35
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
-    "bd_code": "BD000006",
-    "bd_short": "We zijn een bruisende gemeente",
-    "bd_long": "6. We zijn een bruisende gemeente waar iedereen volop kan genieten van een rijk, laagdrempelig en divers vrijetijdsaanbod en zetten extra in op de samenwerking met vrijwilligers en verenigingen.",
-    "ap_code": "AP000030",
-    "ap_short": "We ondersteunen en waarderen onze verenigingen en gemeenschapsvormende initiatieven",
-    "ap_long": "6.5 We ondersteunen en waarderen onze verenigingen en gemeenschapsvormende initiatieven.",
-    "ac_code": "AC000123",
-    "ac_short": "We bouwen een nieuwe Heischuur en richten deze duurzaam in",
-    "ac_long": "6.5.1 We bouwen een nieuwe Heischuur en richten deze duurzaam in.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 1836400.0,
-    "amount_per_capita": 121.7,
-    "yearly_amounts": {
-      "2026": 1836400.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 121.7,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 22.25,
+      "2027": 25.3,
+      "2028": 24.02,
+      "2029": 24.19,
+      "2030": 25.41,
+      "2031": 24.09,
+      "2032": 24.09,
+      "2033": 24.09
     }
   },
   {
@@ -155,7 +155,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 1328000.0,
-    "amount_per_capita": 88.01,
+    "amount_per_capita": 87.06,
     "yearly_amounts": {
       "2026": 166000.0,
       "2027": 166000.0,
@@ -167,14 +167,14 @@
       "2033": 166000.0
     },
     "yearly_per_capita": {
-      "2026": 11.0,
-      "2027": 11.0,
-      "2028": 11.0,
-      "2029": 11.0,
-      "2030": 11.0,
-      "2031": 11.0,
-      "2032": 11.0,
-      "2033": 11.0
+      "2026": 10.88,
+      "2027": 10.88,
+      "2028": 10.88,
+      "2029": 10.88,
+      "2030": 10.88,
+      "2031": 10.88,
+      "2032": 10.88,
+      "2033": 10.88
     }
   },
   {
@@ -193,7 +193,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 1088450.0,
-    "amount_per_capita": 72.13,
+    "amount_per_capita": 71.35,
     "yearly_amounts": {
       "2026": 326200.0,
       "2027": 86250.0,
@@ -205,14 +205,14 @@
       "2033": 70250.0
     },
     "yearly_per_capita": {
-      "2026": 21.62,
-      "2027": 5.72,
-      "2028": 5.39,
-      "2029": 4.73,
-      "2030": 6.64,
-      "2031": 18.72,
-      "2032": 4.66,
-      "2033": 4.66
+      "2026": 21.38,
+      "2027": 5.65,
+      "2028": 5.33,
+      "2029": 4.68,
+      "2030": 6.57,
+      "2031": 18.52,
+      "2032": 4.61,
+      "2033": 4.61
     }
   },
   {
@@ -230,10 +230,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1030000.0,
-    "amount_per_capita": 68.26,
+    "total_amount": 1045000.0,
+    "amount_per_capita": 68.5,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 15000.0,
       "2027": 93000.0,
       "2028": 937000.0,
       "2029": 0,
@@ -241,9 +241,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 6.16,
-      "2028": 62.09,
+      "2026": 0.98,
+      "2027": 6.1,
+      "2028": 61.42,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -265,7 +265,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 920000.0,
-    "amount_per_capita": 60.97,
+    "amount_per_capita": 60.31,
     "yearly_amounts": {
       "2026": 115000.0,
       "2027": 115000.0,
@@ -277,14 +277,48 @@
       "2033": 115000.0
     },
     "yearly_per_capita": {
-      "2026": 7.62,
-      "2027": 7.62,
-      "2028": 7.62,
-      "2029": 7.62,
-      "2030": 7.62,
-      "2031": 7.62,
-      "2032": 7.62,
-      "2033": 7.62
+      "2026": 7.54,
+      "2027": 7.54,
+      "2028": 7.54,
+      "2029": 7.54,
+      "2030": 7.54,
+      "2031": 7.54,
+      "2032": 7.54,
+      "2033": 7.54
+    }
+  },
+  {
+    "municipality": "Oud-Turnhout",
+    "nis_code": "13031",
+    "bd_code": "BD000004",
+    "bd_short": "We streven naar een klimaatrobuust Oud-Turnhout",
+    "bd_long": "4. We streven naar een klimaatrobuust Oud-Turnhout, met aandacht voor een duurzaam patrimonium, open ruimte, natuur, groen en water.",
+    "ap_code": "AP000017",
+    "ap_short": "We voeren werken uit aan de riolering en wegen",
+    "ap_long": "4.4 We voeren werken uit aan de riolering en wegen.",
+    "ac_code": "AC000073",
+    "ac_short": "We doen onderhoud aan de wegen excl. rioleringswerken",
+    "ac_long": "4.4.4 We doen onderhoud aan de wegen excl. rioleringswerken.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 645538.13,
+    "amount_per_capita": 42.32,
+    "yearly_amounts": {
+      "2026": 445538.13,
+      "2027": 200000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 29.21,
+      "2027": 13.11,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -303,7 +337,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 615000.0,
-    "amount_per_capita": 40.76,
+    "amount_per_capita": 40.32,
     "yearly_amounts": {
       "2026": 615000.0,
       "2027": 0,
@@ -313,7 +347,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 40.76,
+      "2026": 40.32,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -330,25 +364,25 @@
     "ap_code": "AP000017",
     "ap_short": "We voeren werken uit aan de riolering en wegen",
     "ap_long": "4.4 We voeren werken uit aan de riolering en wegen.",
-    "ac_code": "AC000073",
-    "ac_short": "We doen onderhoud aan de wegen excl. rioleringswerken",
-    "ac_long": "4.4.4 We doen onderhoud aan de wegen excl. rioleringswerken.",
+    "ac_code": "AC000070",
+    "ac_short": "We pakken de riolering op de Steenweg op Sevendonk - tweede fase - aan",
+    "ac_long": "4.4.1 We pakken de riolering op de Steenweg op Sevendonk - tweede fase - aan.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 570000.0,
-    "amount_per_capita": 37.77,
+    "total_amount": 595565.0,
+    "amount_per_capita": 39.04,
     "yearly_amounts": {
-      "2026": 370000.0,
-      "2027": 200000.0,
+      "2026": 212065.0,
+      "2027": 383500.0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 24.52,
-      "2027": 13.25,
+      "2026": 13.9,
+      "2027": 25.14,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -371,7 +405,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 483900.0,
-    "amount_per_capita": 32.07,
+    "amount_per_capita": 31.72,
     "yearly_amounts": {
       "2026": 161300.0,
       "2027": 161300.0,
@@ -381,9 +415,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 10.69,
-      "2027": 10.69,
-      "2028": 10.69,
+      "2026": 10.57,
+      "2027": 10.57,
+      "2028": 10.57,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -404,10 +438,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 450000.0,
-    "amount_per_capita": 29.82,
+    "total_amount": 454730.0,
+    "amount_per_capita": 29.81,
     "yearly_amounts": {
-      "2026": 100000.0,
+      "2026": 104730.0,
       "2027": 50000.0,
       "2028": 50000.0,
       "2029": 50000.0,
@@ -417,48 +451,14 @@
       "2033": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 6.63,
-      "2027": 3.31,
-      "2028": 3.31,
-      "2029": 3.31,
-      "2030": 3.31,
-      "2031": 3.31,
-      "2032": 3.31,
-      "2033": 3.31
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
-    "bd_code": "BD000004",
-    "bd_short": "We streven naar een klimaatrobuust Oud-Turnhout",
-    "bd_long": "4. We streven naar een klimaatrobuust Oud-Turnhout, met aandacht voor een duurzaam patrimonium, open ruimte, natuur, groen en water.",
-    "ap_code": "AP000017",
-    "ap_short": "We voeren werken uit aan de riolering en wegen",
-    "ap_long": "4.4 We voeren werken uit aan de riolering en wegen.",
-    "ac_code": "AC000070",
-    "ac_short": "We pakken de riolering op de Steenweg op Sevendonk - tweede fase - aan",
-    "ac_long": "4.4.1 We pakken de riolering op de Steenweg op Sevendonk - tweede fase - aan.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 403500.0,
-    "amount_per_capita": 26.74,
-    "yearly_amounts": {
-      "2026": 20000.0,
-      "2027": 383500.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.33,
-      "2027": 25.41,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 6.87,
+      "2027": 3.28,
+      "2028": 3.28,
+      "2029": 3.28,
+      "2030": 3.28,
+      "2031": 3.28,
+      "2032": 3.28,
+      "2033": 3.28
     }
   },
   {
@@ -476,10 +476,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 402200.0,
-    "amount_per_capita": 26.65,
+    "total_amount": 421200.0,
+    "amount_per_capita": 27.61,
     "yearly_amounts": {
-      "2026": 52200.0,
+      "2026": 71200.0,
       "2027": 50000.0,
       "2028": 50000.0,
       "2029": 50000.0,
@@ -489,14 +489,14 @@
       "2033": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 3.46,
-      "2027": 3.31,
-      "2028": 3.31,
-      "2029": 3.31,
-      "2030": 3.31,
-      "2031": 3.31,
-      "2032": 3.31,
-      "2033": 3.31
+      "2026": 4.67,
+      "2027": 3.28,
+      "2028": 3.28,
+      "2029": 3.28,
+      "2030": 3.28,
+      "2031": 3.28,
+      "2032": 3.28,
+      "2033": 3.28
     }
   },
   {
@@ -515,7 +515,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 400000.0,
-    "amount_per_capita": 26.51,
+    "amount_per_capita": 26.22,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 50000.0,
@@ -527,14 +527,48 @@
       "2033": 50000.0
     },
     "yearly_per_capita": {
-      "2026": 3.31,
-      "2027": 3.31,
-      "2028": 3.31,
-      "2029": 3.31,
-      "2030": 3.31,
-      "2031": 3.31,
-      "2032": 3.31,
-      "2033": 3.31
+      "2026": 3.28,
+      "2027": 3.28,
+      "2028": 3.28,
+      "2029": 3.28,
+      "2030": 3.28,
+      "2031": 3.28,
+      "2032": 3.28,
+      "2033": 3.28
+    }
+  },
+  {
+    "municipality": "Oud-Turnhout",
+    "nis_code": "13031",
+    "bd_code": "BD000003",
+    "bd_short": "We stimuleren aangename woonkernen via toekomstbestendige woonvormen en warme sociale netwerken",
+    "bd_long": "3. We stimuleren aangename woonkernen waar toekomstbestendige woonvormen en warme sociale netwerken ervoor zorgen dat iedereen zich thuis voelt.",
+    "ap_code": "AP000011",
+    "ap_short": "We maken werk van de herinrichting van de dorpskern",
+    "ap_long": "3.3 We maken werk van de herinrichting van de dorpskern.",
+    "ac_code": "AC000046",
+    "ac_short": "We voeren ingrepen op het dorpsplein uit en geven een toekomstgerichte invulling",
+    "ac_long": "3.3.2 We voeren ingrepen op het dorpsplein uit in functie van verkeersveiligheid door en geven een toekomstgerichte invulling van het dorpsplein vorm.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 269670.0,
+    "amount_per_capita": 17.68,
+    "yearly_amounts": {
+      "2026": 269670.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -553,7 +587,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 260000.0,
-    "amount_per_capita": 17.23,
+    "amount_per_capita": 17.04,
     "yearly_amounts": {
       "2026": 10000.0,
       "2027": 0,
@@ -566,8 +600,8 @@
       "2026": 0.66,
       "2027": 0,
       "2028": 0,
-      "2029": 9.94,
-      "2030": 6.63,
+      "2029": 9.83,
+      "2030": 6.56,
       "2031": 0
     }
   },
@@ -587,7 +621,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 258000.0,
-    "amount_per_capita": 17.1,
+    "amount_per_capita": 16.91,
     "yearly_amounts": {
       "2026": 258000.0,
       "2027": 0,
@@ -597,50 +631,12 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 17.1,
+      "2026": 16.91,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
-    "bd_code": "BD000006",
-    "bd_short": "We zijn een bruisende gemeente",
-    "bd_long": "6. We zijn een bruisende gemeente waar iedereen volop kan genieten van een rijk, laagdrempelig en divers vrijetijdsaanbod en zetten extra in op de samenwerking met vrijwilligers en verenigingen.",
-    "ap_code": "AP000033",
-    "ap_short": "Regulier beleid - werking bruisende gemeente",
-    "ap_long": "6.8 Regulier beleid - werking bruisende gemeente",
-    "ac_code": "AC000142",
-    "ac_short": "Infrastructuur en uitrusting sport",
-    "ac_long": "6.8.1 Infrastructuur en uitrusting sport",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 202000.0,
-    "amount_per_capita": 13.39,
-    "yearly_amounts": {
-      "2026": 23750.0,
-      "2027": 23750.0,
-      "2028": 23750.0,
-      "2029": 23750.0,
-      "2030": 23750.0,
-      "2031": 27750.0,
-      "2032": 27750.0,
-      "2033": 27750.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.57,
-      "2027": 1.57,
-      "2028": 1.57,
-      "2029": 1.57,
-      "2030": 1.57,
-      "2031": 1.84,
-      "2032": 1.84,
-      "2033": 1.84
     }
   },
   {
@@ -658,10 +654,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 201500.0,
-    "amount_per_capita": 13.35,
+    "total_amount": 206790.0,
+    "amount_per_capita": 13.56,
     "yearly_amounts": {
-      "2026": 31750.0,
+      "2026": 37040.0,
       "2027": 24250.0,
       "2028": 24250.0,
       "2029": 24250.0,
@@ -671,90 +667,14 @@
       "2033": 24250.0
     },
     "yearly_per_capita": {
-      "2026": 2.1,
-      "2027": 1.61,
-      "2028": 1.61,
-      "2029": 1.61,
-      "2030": 1.61,
-      "2031": 1.61,
-      "2032": 1.61,
-      "2033": 1.61
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
-    "bd_code": "BD000009",
-    "bd_short": "We ondersteunen de ontwikkeling van kinderen en jongeren als ons kapitaal van morgen",
-    "bd_long": "9. We ondersteunen de ontwikkeling van kinderen en jongeren als ons kapitaal van morgen.",
-    "ap_code": "AP000058",
-    "ap_short": "Regulier beleid - werking kinderen en jongeren",
-    "ap_long": "9.6 Regulier beleid - werking kinderen en jongeren",
-    "ac_code": "AC000268",
-    "ac_short": "We voorzien investeringssubsidies voor jeugdsector",
-    "ac_long": "9.6.9 We voorzien investeringssubsidies voor jeugdsector.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 200000.0,
-    "amount_per_capita": 13.25,
-    "yearly_amounts": {
-      "2026": 25000.0,
-      "2027": 25000.0,
-      "2028": 25000.0,
-      "2029": 25000.0,
-      "2030": 25000.0,
-      "2031": 25000.0,
-      "2032": 25000.0,
-      "2033": 25000.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.66,
-      "2027": 1.66,
-      "2028": 1.66,
-      "2029": 1.66,
-      "2030": 1.66,
-      "2031": 1.66,
-      "2032": 1.66,
-      "2033": 1.66
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
-    "bd_code": "BD000005",
-    "bd_short": "We zetten in op verkeersveilige (woon)buurten",
-    "bd_long": "5. We zetten in op verkeersveilige (woon)buurten en versterken de wandel-, fiets- en parkeerinfrastructuur.",
-    "ap_code": "AP000020",
-    "ap_short": "We zetten verdere stappen in de implementatie van het (inter)gemeentelijk mobiliteitsplan",
-    "ap_long": "5.1 We zetten verdere stappen in de implementatie van het (inter)gemeentelijk mobiliteitsplan.",
-    "ac_code": "AC000093",
-    "ac_short": "We zetten in op openbaar vervoer",
-    "ac_long": "5.1.4 We zetten in op openbaar vervoer.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 200000.0,
-    "amount_per_capita": 13.25,
-    "yearly_amounts": {
-      "2026": 25000.0,
-      "2027": 25000.0,
-      "2028": 25000.0,
-      "2029": 25000.0,
-      "2030": 25000.0,
-      "2031": 25000.0,
-      "2032": 25000.0,
-      "2033": 25000.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.66,
-      "2027": 1.66,
-      "2028": 1.66,
-      "2029": 1.66,
-      "2030": 1.66,
-      "2031": 1.66,
-      "2032": 1.66,
-      "2033": 1.66
+      "2026": 2.43,
+      "2027": 1.59,
+      "2028": 1.59,
+      "2029": 1.59,
+      "2030": 1.59,
+      "2031": 1.59,
+      "2032": 1.59,
+      "2033": 1.59
     }
   },
   {
@@ -773,7 +693,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 200000.0,
-    "amount_per_capita": 13.25,
+    "amount_per_capita": 13.11,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 25000.0,
@@ -785,48 +705,90 @@
       "2033": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 1.66,
-      "2027": 1.66,
-      "2028": 1.66,
-      "2029": 1.66,
-      "2030": 1.66,
-      "2031": 1.66,
-      "2032": 1.66,
-      "2033": 1.66
+      "2026": 1.64,
+      "2027": 1.64,
+      "2028": 1.64,
+      "2029": 1.64,
+      "2030": 1.64,
+      "2031": 1.64,
+      "2032": 1.64,
+      "2033": 1.64
     }
   },
   {
     "municipality": "Oud-Turnhout",
     "nis_code": "13031",
-    "bd_code": "BD000003",
-    "bd_short": "We stimuleren aangename woonkernen via toekomstbestendige woonvormen en warme sociale netwerken",
-    "bd_long": "3. We stimuleren aangename woonkernen waar toekomstbestendige woonvormen en warme sociale netwerken ervoor zorgen dat iedereen zich thuis voelt.",
-    "ap_code": "AP000011",
-    "ap_short": "We maken werk van de herinrichting van de dorpskern",
-    "ap_long": "3.3 We maken werk van de herinrichting van de dorpskern.",
-    "ac_code": "AC000046",
-    "ac_short": "We voeren ingrepen op het dorpsplein uit en geven een toekomstgerichte invulling",
-    "ac_long": "3.3.2 We voeren ingrepen op het dorpsplein uit in functie van verkeersveiligheid door en geven een toekomstgerichte invulling van het dorpsplein vorm.",
+    "bd_code": "BD000005",
+    "bd_short": "We zetten in op verkeersveilige (woon)buurten",
+    "bd_long": "5. We zetten in op verkeersveilige (woon)buurten en versterken de wandel-, fiets- en parkeerinfrastructuur.",
+    "ap_code": "AP000020",
+    "ap_short": "We zetten verdere stappen in de implementatie van het (inter)gemeentelijk mobiliteitsplan",
+    "ap_long": "5.1 We zetten verdere stappen in de implementatie van het (inter)gemeentelijk mobiliteitsplan.",
+    "ac_code": "AC000093",
+    "ac_short": "We zetten in op openbaar vervoer",
+    "ac_long": "5.1.4 We zetten in op openbaar vervoer.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 194000.0,
-    "amount_per_capita": 12.86,
+    "total_amount": 200000.0,
+    "amount_per_capita": 13.11,
     "yearly_amounts": {
-      "2026": 194000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0,
+      "2032": 25000.0,
+      "2033": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 12.86,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 1.64,
+      "2027": 1.64,
+      "2028": 1.64,
+      "2029": 1.64,
+      "2030": 1.64,
+      "2031": 1.64,
+      "2032": 1.64,
+      "2033": 1.64
+    }
+  },
+  {
+    "municipality": "Oud-Turnhout",
+    "nis_code": "13031",
+    "bd_code": "BD000009",
+    "bd_short": "We ondersteunen de ontwikkeling van kinderen en jongeren als ons kapitaal van morgen",
+    "bd_long": "9. We ondersteunen de ontwikkeling van kinderen en jongeren als ons kapitaal van morgen.",
+    "ap_code": "AP000058",
+    "ap_short": "Regulier beleid - werking kinderen en jongeren",
+    "ap_long": "9.6 Regulier beleid - werking kinderen en jongeren",
+    "ac_code": "AC000268",
+    "ac_short": "We voorzien investeringssubsidies voor jeugdsector",
+    "ac_long": "9.6.9 We voorzien investeringssubsidies voor jeugdsector.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 13.11,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0,
+      "2032": 25000.0,
+      "2033": 25000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.64,
+      "2027": 1.64,
+      "2028": 1.64,
+      "2029": 1.64,
+      "2030": 1.64,
+      "2031": 1.64,
+      "2032": 1.64,
+      "2033": 1.64
     }
   },
   {
@@ -845,7 +807,7 @@
       "08-onderwijs"
     ],
     "total_amount": 176000.0,
-    "amount_per_capita": 11.66,
+    "amount_per_capita": 11.54,
     "yearly_amounts": {
       "2026": 22000.0,
       "2027": 22000.0,
@@ -857,14 +819,14 @@
       "2033": 22000.0
     },
     "yearly_per_capita": {
-      "2026": 1.46,
-      "2027": 1.46,
-      "2028": 1.46,
-      "2029": 1.46,
-      "2030": 1.46,
-      "2031": 1.46,
-      "2032": 1.46,
-      "2033": 1.46
+      "2026": 1.44,
+      "2027": 1.44,
+      "2028": 1.44,
+      "2029": 1.44,
+      "2030": 1.44,
+      "2031": 1.44,
+      "2032": 1.44,
+      "2033": 1.44
     }
   },
   {
@@ -883,7 +845,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 175000.0,
-    "amount_per_capita": 11.6,
+    "amount_per_capita": 11.47,
     "yearly_amounts": {
       "2026": 175000.0,
       "2027": 0,
@@ -893,7 +855,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 11.6,
+      "2026": 11.47,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -917,7 +879,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 9.94,
+    "amount_per_capita": 9.83,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -934,7 +896,7 @@
       "2029": 0,
       "2030": 0,
       "2031": 0,
-      "2032": 9.94
+      "2032": 9.83
     }
   },
   {
@@ -953,7 +915,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 9.94,
+    "amount_per_capita": 9.83,
     "yearly_amounts": {
       "2026": 150000.0,
       "2027": 0,
@@ -963,7 +925,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.94,
+      "2026": 9.83,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -986,10 +948,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 140000.0,
-    "amount_per_capita": 9.28,
+    "total_amount": 141250.0,
+    "amount_per_capita": 9.26,
     "yearly_amounts": {
-      "2026": 17500.0,
+      "2026": 18750.0,
       "2027": 17500.0,
       "2028": 17500.0,
       "2029": 17500.0,
@@ -999,14 +961,14 @@
       "2033": 17500.0
     },
     "yearly_per_capita": {
-      "2026": 1.16,
-      "2027": 1.16,
-      "2028": 1.16,
-      "2029": 1.16,
-      "2030": 1.16,
-      "2031": 1.16,
-      "2032": 1.16,
-      "2033": 1.16
+      "2026": 1.23,
+      "2027": 1.15,
+      "2028": 1.15,
+      "2029": 1.15,
+      "2030": 1.15,
+      "2031": 1.15,
+      "2032": 1.15,
+      "2033": 1.15
     }
   },
   {
@@ -1025,7 +987,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 125000.0,
-    "amount_per_capita": 8.28,
+    "amount_per_capita": 8.19,
     "yearly_amounts": {
       "2026": 125000.0,
       "2027": 0,
@@ -1035,7 +997,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.28,
+      "2026": 8.19,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1059,7 +1021,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 7.95,
+    "amount_per_capita": 7.87,
     "yearly_amounts": {
       "2026": 15000.0,
       "2027": 15000.0,
@@ -1071,14 +1033,14 @@
       "2033": 15000.0
     },
     "yearly_per_capita": {
-      "2026": 0.99,
-      "2027": 0.99,
-      "2028": 0.99,
-      "2029": 0.99,
-      "2030": 0.99,
-      "2031": 0.99,
-      "2032": 0.99,
-      "2033": 0.99
+      "2026": 0.98,
+      "2027": 0.98,
+      "2028": 0.98,
+      "2029": 0.98,
+      "2030": 0.98,
+      "2031": 0.98,
+      "2032": 0.98,
+      "2033": 0.98
     }
   },
   {
@@ -1097,7 +1059,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 110000.0,
-    "amount_per_capita": 7.29,
+    "amount_per_capita": 7.21,
     "yearly_amounts": {
       "2026": 19000.0,
       "2027": 13000.0,
@@ -1109,14 +1071,14 @@
       "2033": 13000.0
     },
     "yearly_per_capita": {
-      "2026": 1.26,
-      "2027": 0.86,
-      "2028": 0.86,
-      "2029": 0.86,
-      "2030": 0.86,
-      "2031": 0.86,
-      "2032": 0.86,
-      "2033": 0.86
+      "2026": 1.25,
+      "2027": 0.85,
+      "2028": 0.85,
+      "2029": 0.85,
+      "2030": 0.85,
+      "2031": 0.85,
+      "2032": 0.85,
+      "2033": 0.85
     }
   },
   {
@@ -1135,7 +1097,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 96000.0,
-    "amount_per_capita": 6.36,
+    "amount_per_capita": 6.29,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 46000.0,
@@ -1145,8 +1107,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.31,
-      "2027": 3.05,
+      "2026": 3.28,
+      "2027": 3.02,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1169,7 +1131,7 @@
       "08-onderwijs"
     ],
     "total_amount": 93800.0,
-    "amount_per_capita": 6.22,
+    "amount_per_capita": 6.15,
     "yearly_amounts": {
       "2026": 20300.0,
       "2027": 10500.0,
@@ -1181,14 +1143,14 @@
       "2033": 10500.0
     },
     "yearly_per_capita": {
-      "2026": 1.35,
-      "2027": 0.7,
-      "2028": 0.7,
-      "2029": 0.7,
-      "2030": 0.7,
-      "2031": 0.7,
-      "2032": 0.7,
-      "2033": 0.7
+      "2026": 1.33,
+      "2027": 0.69,
+      "2028": 0.69,
+      "2029": 0.69,
+      "2030": 0.69,
+      "2031": 0.69,
+      "2032": 0.69,
+      "2033": 0.69
     }
   },
   {
@@ -1207,7 +1169,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 90000.0,
-    "amount_per_capita": 5.96,
+    "amount_per_capita": 5.9,
     "yearly_amounts": {
       "2026": 60000.0,
       "2027": 0,
@@ -1218,13 +1180,51 @@
       "2032": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 3.98,
+      "2026": 3.93,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0,
-      "2032": 1.99
+      "2032": 1.97
+    }
+  },
+  {
+    "municipality": "Oud-Turnhout",
+    "nis_code": "13031",
+    "bd_code": "BD000008",
+    "bd_short": "We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod",
+    "bd_long": "8. We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod.",
+    "ap_code": "AP000051",
+    "ap_short": "Regulier beleid - werking toegankelijk en laagdrempelig zorg- en welzijnsaanbod",
+    "ap_long": "8.15 Regulier beleid - werking toegankelijk en laagdrempelig zorg- en welzijnsaanbod",
+    "ac_code": "AC000229",
+    "ac_short": "Infrastructuur en uitrusting lokaal dienstencentrum",
+    "ac_long": "8.15.1 Infrastructuur en uitrusting lokaal dienstencentrum",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 81025.0,
+    "amount_per_capita": 5.31,
+    "yearly_amounts": {
+      "2026": 17525.0,
+      "2027": 38000.0,
+      "2028": 4250.0,
+      "2029": 4250.0,
+      "2030": 4250.0,
+      "2031": 4250.0,
+      "2032": 4250.0,
+      "2033": 4250.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.15,
+      "2027": 2.49,
+      "2028": 0.28,
+      "2029": 0.28,
+      "2030": 0.28,
+      "2031": 0.28,
+      "2032": 0.28,
+      "2033": 0.28
     }
   },
   {
@@ -1243,7 +1243,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 80000.0,
-    "amount_per_capita": 5.3,
+    "amount_per_capita": 5.24,
     "yearly_amounts": {
       "2026": 10000.0,
       "2027": 10000.0,
@@ -1281,7 +1281,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 80000.0,
-    "amount_per_capita": 5.3,
+    "amount_per_capita": 5.24,
     "yearly_amounts": {
       "2026": 10000.0,
       "2027": 10000.0,
@@ -1306,73 +1306,39 @@
   {
     "municipality": "Oud-Turnhout",
     "nis_code": "13031",
-    "bd_code": "BD000008",
-    "bd_short": "We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod",
-    "bd_long": "8. We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod.",
-    "ap_code": "AP000051",
-    "ap_short": "Regulier beleid - werking toegankelijk en laagdrempelig zorg- en welzijnsaanbod",
-    "ap_long": "8.15 Regulier beleid - werking toegankelijk en laagdrempelig zorg- en welzijnsaanbod",
-    "ac_code": "AC000229",
-    "ac_short": "Infrastructuur en uitrusting lokaal dienstencentrum",
-    "ac_long": "8.15.1 Infrastructuur en uitrusting lokaal dienstencentrum",
+    "bd_code": "BD000003",
+    "bd_short": "We stimuleren aangename woonkernen via toekomstbestendige woonvormen en warme sociale netwerken",
+    "bd_long": "3. We stimuleren aangename woonkernen waar toekomstbestendige woonvormen en warme sociale netwerken ervoor zorgen dat iedereen zich thuis voelt.",
+    "ap_code": "AP000012",
+    "ap_short": "Regulier beleid - werking aangename woonkernen",
+    "ap_long": "3.4 Regulier beleid - werking aangename woonkernen",
+    "ac_code": "AC000048",
+    "ac_short": "Infrastructuur en uitrusting assistentiewoningen",
+    "ac_long": "3.4.1 Infrastructuur en uitrusting assistentiewoningen",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 78000.0,
-    "amount_per_capita": 5.17,
-    "yearly_amounts": {
-      "2026": 14500.0,
-      "2027": 38000.0,
-      "2028": 4250.0,
-      "2029": 4250.0,
-      "2030": 4250.0,
-      "2031": 4250.0,
-      "2032": 4250.0,
-      "2033": 4250.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.96,
-      "2027": 2.52,
-      "2028": 0.28,
-      "2029": 0.28,
-      "2030": 0.28,
-      "2031": 0.28,
-      "2032": 0.28,
-      "2033": 0.28
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
-    "bd_code": "BD000006",
-    "bd_short": "We zijn een bruisende gemeente",
-    "bd_long": "6. We zijn een bruisende gemeente waar iedereen volop kan genieten van een rijk, laagdrempelig en divers vrijetijdsaanbod en zetten extra in op de samenwerking met vrijwilligers en verenigingen.",
-    "ap_code": "AP000031",
-    "ap_short": "We bouwen onze bibliotheek uit tot een inspirerende en toegankelijke 'derde plek'",
-    "ap_long": "6.6 We bouwen onze bibliotheek uit tot een inspirerende en toegankelijke 'derde plek', waar iedereen welkom is om te ontwikkelen, ontmoeten en ontspannen.",
-    "ac_code": "AC000133",
-    "ac_short": "We doen de nodige infrastructurele aanpassingen en renovaties in de bib",
-    "ac_long": "6.6.3 We doen de nodige infrastructurele aanpassingen en renovaties in de bib.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
     "total_amount": 70000.0,
-    "amount_per_capita": 4.64,
+    "amount_per_capita": 4.59,
     "yearly_amounts": {
-      "2026": 30000.0,
-      "2027": 40000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 35000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0,
+      "2032": 5000.0,
+      "2033": 5000.0
     },
     "yearly_per_capita": {
-      "2026": 1.99,
-      "2027": 2.65,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 2.29,
+      "2027": 0.33,
+      "2028": 0.33,
+      "2029": 0.33,
+      "2030": 0.33,
+      "2031": 0.33,
+      "2032": 0.33,
+      "2033": 0.33
     }
   },
   {
@@ -1391,7 +1357,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 70000.0,
-    "amount_per_capita": 4.64,
+    "amount_per_capita": 4.59,
     "yearly_amounts": {
       "2026": 70000.0,
       "2027": 0,
@@ -1401,7 +1367,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.64,
+      "2026": 4.59,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1412,39 +1378,35 @@
   {
     "municipality": "Oud-Turnhout",
     "nis_code": "13031",
-    "bd_code": "BD000003",
-    "bd_short": "We stimuleren aangename woonkernen via toekomstbestendige woonvormen en warme sociale netwerken",
-    "bd_long": "3. We stimuleren aangename woonkernen waar toekomstbestendige woonvormen en warme sociale netwerken ervoor zorgen dat iedereen zich thuis voelt.",
-    "ap_code": "AP000012",
-    "ap_short": "Regulier beleid - werking aangename woonkernen",
-    "ap_long": "3.4 Regulier beleid - werking aangename woonkernen",
-    "ac_code": "AC000048",
-    "ac_short": "Infrastructuur en uitrusting assistentiewoningen",
-    "ac_long": "3.4.1 Infrastructuur en uitrusting assistentiewoningen",
+    "bd_code": "BD000006",
+    "bd_short": "We zijn een bruisende gemeente",
+    "bd_long": "6. We zijn een bruisende gemeente waar iedereen volop kan genieten van een rijk, laagdrempelig en divers vrijetijdsaanbod en zetten extra in op de samenwerking met vrijwilligers en verenigingen.",
+    "ap_code": "AP000031",
+    "ap_short": "We bouwen onze bibliotheek uit tot een inspirerende en toegankelijke 'derde plek'",
+    "ap_long": "6.6 We bouwen onze bibliotheek uit tot een inspirerende en toegankelijke 'derde plek', waar iedereen welkom is om te ontwikkelen, ontmoeten en ontspannen.",
+    "ac_code": "AC000133",
+    "ac_short": "We doen de nodige infrastructurele aanpassingen en renovaties in de bib",
+    "ac_long": "6.6.3 We doen de nodige infrastructurele aanpassingen en renovaties in de bib.",
     "categories": [
-      "09-zorg-opvang"
+      "07-cultuur-vrije-tijd"
     ],
     "total_amount": 70000.0,
-    "amount_per_capita": 4.64,
+    "amount_per_capita": 4.59,
     "yearly_amounts": {
-      "2026": 35000.0,
-      "2027": 5000.0,
-      "2028": 5000.0,
-      "2029": 5000.0,
-      "2030": 5000.0,
-      "2031": 5000.0,
-      "2032": 5000.0,
-      "2033": 5000.0
+      "2026": 30000.0,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.32,
-      "2027": 0.33,
-      "2028": 0.33,
-      "2029": 0.33,
-      "2030": 0.33,
-      "2031": 0.33,
-      "2032": 0.33,
-      "2033": 0.33
+      "2026": 1.97,
+      "2027": 2.62,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -1463,7 +1425,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 62000.0,
-    "amount_per_capita": 4.11,
+    "amount_per_capita": 4.06,
     "yearly_amounts": {
       "2026": 7750.0,
       "2027": 7750.0,
@@ -1488,44 +1450,6 @@
   {
     "municipality": "Oud-Turnhout",
     "nis_code": "13031",
-    "bd_code": "BD000008",
-    "bd_short": "We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod",
-    "bd_long": "8. We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod.",
-    "ap_code": "AP000047",
-    "ap_short": "We voorzien woonmogelijkheden en woonhulp bestemd voor kwetsbare doelgroepen",
-    "ap_long": "8.11 We voorzien woonmogelijkheden en woonhulp bestemd voor kwetsbare doelgroepen.",
-    "ac_code": "AC000205",
-    "ac_short": "We hebben LOI woningen ter beschikking",
-    "ac_long": "8.11.1 We hebben LOI woningen ter beschikking.",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 60000.0,
-    "amount_per_capita": 3.98,
-    "yearly_amounts": {
-      "2026": 7500.0,
-      "2027": 7500.0,
-      "2028": 7500.0,
-      "2029": 7500.0,
-      "2030": 7500.0,
-      "2031": 7500.0,
-      "2032": 7500.0,
-      "2033": 7500.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.5,
-      "2027": 0.5,
-      "2028": 0.5,
-      "2029": 0.5,
-      "2030": 0.5,
-      "2031": 0.5,
-      "2032": 0.5,
-      "2033": 0.5
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
     "bd_code": "BD000001",
     "bd_short": "We zorgen voor een klantgerichte en optimaal digitale dienstverlening",
     "bd_long": "1. We zorgen voor een klantgerichte en optimaal digitale dienstverlening met aandacht voor maatwerk, toegankelijkheid en nabijheid",
@@ -1539,7 +1463,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 60000.0,
-    "amount_per_capita": 3.98,
+    "amount_per_capita": 3.93,
     "yearly_amounts": {
       "2026": 0,
       "2027": 30000.0,
@@ -1551,12 +1475,50 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 1.99,
+      "2027": 1.97,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0,
-      "2032": 1.99
+      "2032": 1.97
+    }
+  },
+  {
+    "municipality": "Oud-Turnhout",
+    "nis_code": "13031",
+    "bd_code": "BD000008",
+    "bd_short": "We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod",
+    "bd_long": "8. We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod.",
+    "ap_code": "AP000047",
+    "ap_short": "We voorzien woonmogelijkheden en woonhulp bestemd voor kwetsbare doelgroepen",
+    "ap_long": "8.11 We voorzien woonmogelijkheden en woonhulp bestemd voor kwetsbare doelgroepen.",
+    "ac_code": "AC000205",
+    "ac_short": "We hebben LOI woningen ter beschikking",
+    "ac_long": "8.11.1 We hebben LOI woningen ter beschikking.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 3.93,
+    "yearly_amounts": {
+      "2026": 7500.0,
+      "2027": 7500.0,
+      "2028": 7500.0,
+      "2029": 7500.0,
+      "2030": 7500.0,
+      "2031": 7500.0,
+      "2032": 7500.0,
+      "2033": 7500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.49,
+      "2027": 0.49,
+      "2028": 0.49,
+      "2029": 0.49,
+      "2030": 0.49,
+      "2031": 0.49,
+      "2032": 0.49,
+      "2033": 0.49
     }
   },
   {
@@ -1575,7 +1537,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 52000.0,
-    "amount_per_capita": 3.45,
+    "amount_per_capita": 3.41,
     "yearly_amounts": {
       "2026": 52000.0,
       "2027": 0,
@@ -1585,10 +1547,82 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.45,
+      "2026": 3.41,
       "2027": 0,
       "2028": 0,
       "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oud-Turnhout",
+    "nis_code": "13031",
+    "bd_code": "BD000006",
+    "bd_short": "We zijn een bruisende gemeente",
+    "bd_long": "6. We zijn een bruisende gemeente waar iedereen volop kan genieten van een rijk, laagdrempelig en divers vrijetijdsaanbod en zetten extra in op de samenwerking met vrijwilligers en verenigingen.",
+    "ap_code": "AP000033",
+    "ap_short": "Regulier beleid - werking bruisende gemeente",
+    "ap_long": "6.8 Regulier beleid - werking bruisende gemeente",
+    "ac_code": "AC000146",
+    "ac_short": "Infrastructuur en uitrusting toerisme",
+    "ac_long": "6.8.5 Infrastructuur en uitrusting toerisme",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 50539.07,
+    "amount_per_capita": 3.31,
+    "yearly_amounts": {
+      "2026": 20789.07,
+      "2027": 4250.0,
+      "2028": 4250.0,
+      "2029": 4250.0,
+      "2030": 4250.0,
+      "2031": 4250.0,
+      "2032": 4250.0,
+      "2033": 4250.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.36,
+      "2027": 0.28,
+      "2028": 0.28,
+      "2029": 0.28,
+      "2030": 0.28,
+      "2031": 0.28,
+      "2032": 0.28,
+      "2033": 0.28
+    }
+  },
+  {
+    "municipality": "Oud-Turnhout",
+    "nis_code": "13031",
+    "bd_code": "BD000004",
+    "bd_short": "We streven naar een klimaatrobuust Oud-Turnhout",
+    "bd_long": "4. We streven naar een klimaatrobuust Oud-Turnhout, met aandacht voor een duurzaam patrimonium, open ruimte, natuur, groen en water.",
+    "ap_code": "AP000018",
+    "ap_short": "Regulier beleid - we onderhouden het openbaar domein",
+    "ap_long": "4.5 Regulier beleid - we onderhouden het openbaar domein.",
+    "ac_code": "AC000079",
+    "ac_short": "We richten een vergund TOP terrein Eigen (nadat Aquafin het terrein heeft ingericht) in",
+    "ac_long": "4.5.6 We richten een vergund TOP terrein Eigen (nadat Aquafin het terrein heeft ingericht) in.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.28,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 3.28,
       "2030": 0,
       "2031": 0
     }
@@ -1609,7 +1643,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 3.31,
+    "amount_per_capita": 3.28,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1621,7 +1655,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 3.31,
+      "2028": 3.28,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1643,7 +1677,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 3.31,
+    "amount_per_capita": 3.28,
     "yearly_amounts": {
       "2026": 15000.0,
       "2027": 5000.0,
@@ -1655,7 +1689,7 @@
       "2033": 5000.0
     },
     "yearly_per_capita": {
-      "2026": 0.99,
+      "2026": 0.98,
       "2027": 0.33,
       "2028": 0.33,
       "2029": 0.33,
@@ -1663,40 +1697,6 @@
       "2031": 0.33,
       "2032": 0.33,
       "2033": 0.33
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
-    "bd_code": "BD000004",
-    "bd_short": "We streven naar een klimaatrobuust Oud-Turnhout",
-    "bd_long": "4. We streven naar een klimaatrobuust Oud-Turnhout, met aandacht voor een duurzaam patrimonium, open ruimte, natuur, groen en water.",
-    "ap_code": "AP000018",
-    "ap_short": "Regulier beleid - we onderhouden het openbaar domein",
-    "ap_long": "4.5 Regulier beleid - we onderhouden het openbaar domein.",
-    "ac_code": "AC000079",
-    "ac_short": "We richten een vergund TOP terrein Eigen (nadat Aquafin het terrein heeft ingericht) in",
-    "ac_long": "4.5.6 We richten een vergund TOP terrein Eigen (nadat Aquafin het terrein heeft ingericht) in.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 3.31,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 50000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 3.31,
-      "2030": 0,
-      "2031": 0
     }
   },
   {
@@ -1715,7 +1715,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 45000.0,
-    "amount_per_capita": 2.98,
+    "amount_per_capita": 2.95,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1727,7 +1727,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 2.98,
+      "2028": 2.95,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1749,7 +1749,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 44000.0,
-    "amount_per_capita": 2.92,
+    "amount_per_capita": 2.88,
     "yearly_amounts": {
       "2026": 5500.0,
       "2027": 5500.0,
@@ -1787,7 +1787,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 42000.0,
-    "amount_per_capita": 2.78,
+    "amount_per_capita": 2.75,
     "yearly_amounts": {
       "2026": 5250.0,
       "2027": 5250.0,
@@ -1799,14 +1799,14 @@
       "2033": 5250.0
     },
     "yearly_per_capita": {
-      "2026": 0.35,
-      "2027": 0.35,
-      "2028": 0.35,
-      "2029": 0.35,
-      "2030": 0.35,
-      "2031": 0.35,
-      "2032": 0.35,
-      "2033": 0.35
+      "2026": 0.34,
+      "2027": 0.34,
+      "2028": 0.34,
+      "2029": 0.34,
+      "2030": 0.34,
+      "2031": 0.34,
+      "2032": 0.34,
+      "2033": 0.34
     }
   },
   {
@@ -1825,7 +1825,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 40000.0,
-    "amount_per_capita": 2.65,
+    "amount_per_capita": 2.62,
     "yearly_amounts": {
       "2026": 5000.0,
       "2027": 5000.0,
@@ -1863,7 +1863,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 40000.0,
-    "amount_per_capita": 2.65,
+    "amount_per_capita": 2.62,
     "yearly_amounts": {
       "2026": 5000.0,
       "2027": 5000.0,
@@ -1901,7 +1901,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 37000.0,
-    "amount_per_capita": 2.45,
+    "amount_per_capita": 2.43,
     "yearly_amounts": {
       "2026": 0,
       "2027": 25000.0,
@@ -1914,47 +1914,13 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 1.66,
+      "2027": 1.64,
       "2028": 0.13,
       "2029": 0.13,
       "2030": 0.13,
       "2031": 0.13,
       "2032": 0.13,
       "2033": 0.13
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
-    "bd_code": "BD000006",
-    "bd_short": "We zijn een bruisende gemeente",
-    "bd_long": "6. We zijn een bruisende gemeente waar iedereen volop kan genieten van een rijk, laagdrempelig en divers vrijetijdsaanbod en zetten extra in op de samenwerking met vrijwilligers en verenigingen.",
-    "ap_code": "AP000026",
-    "ap_short": "We faciliteren een breed sportaanbod en zorgen voor een toekomstbestendige sportinfrastructuur",
-    "ap_long": "6.1 We organiseren en faciliteren een gevarieerd sportaanbod voor verschillende doelgroepen en zorgen voor een toekomstbestendige sportinfrastructuur.",
-    "ac_code": "AC000110",
-    "ac_short": "We zorgen voor kwaliteitsvolle en toegankelijke sportinfrastructuur en -uitrusting",
-    "ac_long": "6.1.2 We zorgen voor kwaliteitsvolle en toegankelijke sportinfrastructuur en -uitrusting.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 35000.0,
-    "amount_per_capita": 2.32,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 35000.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 2.32,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
     }
   },
   {
@@ -1973,45 +1939,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 34000.0,
-    "amount_per_capita": 2.25,
-    "yearly_amounts": {
-      "2026": 4250.0,
-      "2027": 4250.0,
-      "2028": 4250.0,
-      "2029": 4250.0,
-      "2030": 4250.0,
-      "2031": 4250.0,
-      "2032": 4250.0,
-      "2033": 4250.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.28,
-      "2027": 0.28,
-      "2028": 0.28,
-      "2029": 0.28,
-      "2030": 0.28,
-      "2031": 0.28,
-      "2032": 0.28,
-      "2033": 0.28
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
-    "bd_code": "BD000006",
-    "bd_short": "We zijn een bruisende gemeente",
-    "bd_long": "6. We zijn een bruisende gemeente waar iedereen volop kan genieten van een rijk, laagdrempelig en divers vrijetijdsaanbod en zetten extra in op de samenwerking met vrijwilligers en verenigingen.",
-    "ap_code": "AP000033",
-    "ap_short": "Regulier beleid - werking bruisende gemeente",
-    "ap_long": "6.8 Regulier beleid - werking bruisende gemeente",
-    "ac_code": "AC000146",
-    "ac_short": "Infrastructuur en uitrusting toerisme",
-    "ac_long": "6.8.5 Infrastructuur en uitrusting toerisme",
-    "categories": [
-      "05-ondernemen-werken"
-    ],
-    "total_amount": 34000.0,
-    "amount_per_capita": 2.25,
+    "amount_per_capita": 2.23,
     "yearly_amounts": {
       "2026": 4250.0,
       "2027": 4250.0,
@@ -2049,7 +1977,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 32000.0,
-    "amount_per_capita": 2.12,
+    "amount_per_capita": 2.1,
     "yearly_amounts": {
       "2026": 4000.0,
       "2027": 4000.0,
@@ -2061,14 +1989,14 @@
       "2033": 4000.0
     },
     "yearly_per_capita": {
-      "2026": 0.27,
-      "2027": 0.27,
-      "2028": 0.27,
-      "2029": 0.27,
-      "2030": 0.27,
-      "2031": 0.27,
-      "2032": 0.27,
-      "2033": 0.27
+      "2026": 0.26,
+      "2027": 0.26,
+      "2028": 0.26,
+      "2029": 0.26,
+      "2030": 0.26,
+      "2031": 0.26,
+      "2032": 0.26,
+      "2033": 0.26
     }
   },
   {
@@ -2087,7 +2015,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 32000.0,
-    "amount_per_capita": 2.12,
+    "amount_per_capita": 2.1,
     "yearly_amounts": {
       "2026": 4000.0,
       "2027": 4000.0,
@@ -2099,14 +2027,14 @@
       "2033": 4000.0
     },
     "yearly_per_capita": {
-      "2026": 0.27,
-      "2027": 0.27,
-      "2028": 0.27,
-      "2029": 0.27,
-      "2030": 0.27,
-      "2031": 0.27,
-      "2032": 0.27,
-      "2033": 0.27
+      "2026": 0.26,
+      "2027": 0.26,
+      "2028": 0.26,
+      "2029": 0.26,
+      "2030": 0.26,
+      "2031": 0.26,
+      "2032": 0.26,
+      "2033": 0.26
     }
   },
   {
@@ -2125,7 +2053,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 32000.0,
-    "amount_per_capita": 2.12,
+    "amount_per_capita": 2.1,
     "yearly_amounts": {
       "2026": 4000.0,
       "2027": 4000.0,
@@ -2137,14 +2065,14 @@
       "2033": 4000.0
     },
     "yearly_per_capita": {
-      "2026": 0.27,
-      "2027": 0.27,
-      "2028": 0.27,
-      "2029": 0.27,
-      "2030": 0.27,
-      "2031": 0.27,
-      "2032": 0.27,
-      "2033": 0.27
+      "2026": 0.26,
+      "2027": 0.26,
+      "2028": 0.26,
+      "2029": 0.26,
+      "2030": 0.26,
+      "2031": 0.26,
+      "2032": 0.26,
+      "2033": 0.26
     }
   },
   {
@@ -2163,7 +2091,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 30000.0,
-    "amount_per_capita": 1.99,
+    "amount_per_capita": 1.97,
     "yearly_amounts": {
       "2026": 3750.0,
       "2027": 3750.0,
@@ -2201,7 +2129,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 28000.0,
-    "amount_per_capita": 1.86,
+    "amount_per_capita": 1.84,
     "yearly_amounts": {
       "2026": 3500.0,
       "2027": 3500.0,
@@ -2239,7 +2167,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 25000.0,
-    "amount_per_capita": 1.66,
+    "amount_per_capita": 1.64,
     "yearly_amounts": {
       "2026": 0,
       "2027": 25000.0,
@@ -2250,7 +2178,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 1.66,
+      "2027": 1.64,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -2260,20 +2188,20 @@
   {
     "municipality": "Oud-Turnhout",
     "nis_code": "13031",
-    "bd_code": "BD000008",
-    "bd_short": "We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod",
-    "bd_long": "8. We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod.",
-    "ap_code": "AP000047",
-    "ap_short": "We voorzien woonmogelijkheden en woonhulp bestemd voor kwetsbare doelgroepen",
-    "ap_long": "8.11 We voorzien woonmogelijkheden en woonhulp bestemd voor kwetsbare doelgroepen.",
-    "ac_code": "AC000207",
-    "ac_short": "We beheren bejaardenwoningen",
-    "ac_long": "8.11.3 We beheren bejaardenwoningen.",
+    "bd_code": "BD000001",
+    "bd_short": "We zorgen voor een klantgerichte en optimaal digitale dienstverlening",
+    "bd_long": "1. We zorgen voor een klantgerichte en optimaal digitale dienstverlening met aandacht voor maatwerk, toegankelijkheid en nabijheid",
+    "ap_code": "AP000002",
+    "ap_short": "We optimaliseren het afvalbeleid in functie van een propere gemeente",
+    "ap_long": "1.2 We optimaliseren het afvalbeleid in functie van een propere gemeente.",
+    "ac_code": "AC000007",
+    "ac_short": "We evalueren het vuilbakkenplan en sturen indien nodig bij",
+    "ac_long": "1.2.3 We evalueren het vuilbakkenplan en sturen indien nodig bij.",
     "categories": [
-      "09-zorg-opvang"
+      "03-natuur-milieu"
     ],
     "total_amount": 24000.0,
-    "amount_per_capita": 1.59,
+    "amount_per_capita": 1.57,
     "yearly_amounts": {
       "2026": 3000.0,
       "2027": 3000.0,
@@ -2298,20 +2226,20 @@
   {
     "municipality": "Oud-Turnhout",
     "nis_code": "13031",
-    "bd_code": "BD000001",
-    "bd_short": "We zorgen voor een klantgerichte en optimaal digitale dienstverlening",
-    "bd_long": "1. We zorgen voor een klantgerichte en optimaal digitale dienstverlening met aandacht voor maatwerk, toegankelijkheid en nabijheid",
-    "ap_code": "AP000002",
-    "ap_short": "We optimaliseren het afvalbeleid in functie van een propere gemeente",
-    "ap_long": "1.2 We optimaliseren het afvalbeleid in functie van een propere gemeente.",
-    "ac_code": "AC000007",
-    "ac_short": "We evalueren het vuilbakkenplan en sturen indien nodig bij",
-    "ac_long": "1.2.3 We evalueren het vuilbakkenplan en sturen indien nodig bij.",
+    "bd_code": "BD000008",
+    "bd_short": "We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod",
+    "bd_long": "8. We zorgen voor een toegankelijk en laagdrempelig zorg- en welzijnsaanbod.",
+    "ap_code": "AP000047",
+    "ap_short": "We voorzien woonmogelijkheden en woonhulp bestemd voor kwetsbare doelgroepen",
+    "ap_long": "8.11 We voorzien woonmogelijkheden en woonhulp bestemd voor kwetsbare doelgroepen.",
+    "ac_code": "AC000207",
+    "ac_short": "We beheren bejaardenwoningen",
+    "ac_long": "8.11.3 We beheren bejaardenwoningen.",
     "categories": [
-      "03-natuur-milieu"
+      "09-zorg-opvang"
     ],
     "total_amount": 24000.0,
-    "amount_per_capita": 1.59,
+    "amount_per_capita": 1.57,
     "yearly_amounts": {
       "2026": 3000.0,
       "2027": 3000.0,
@@ -2349,7 +2277,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 20000.0,
-    "amount_per_capita": 1.33,
+    "amount_per_capita": 1.31,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -2363,7 +2291,7 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 1.33,
+      "2030": 1.31,
       "2031": 0
     }
   },
@@ -2383,7 +2311,7 @@
       "05-ondernemen-werken"
     ],
     "total_amount": 15000.0,
-    "amount_per_capita": 0.99,
+    "amount_per_capita": 0.98,
     "yearly_amounts": {
       "2026": 0,
       "2027": 15000.0,
@@ -2394,7 +2322,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0.99,
+      "2027": 0.98,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -2404,22 +2332,22 @@
   {
     "municipality": "Oud-Turnhout",
     "nis_code": "13031",
-    "bd_code": "BD000004",
-    "bd_short": "We streven naar een klimaatrobuust Oud-Turnhout",
-    "bd_long": "4. We streven naar een klimaatrobuust Oud-Turnhout, met aandacht voor een duurzaam patrimonium, open ruimte, natuur, groen en water.",
-    "ap_code": "AP000018",
-    "ap_short": "Regulier beleid - we onderhouden het openbaar domein",
-    "ap_long": "4.5 Regulier beleid - we onderhouden het openbaar domein.",
-    "ac_code": "AC000082",
-    "ac_short": "We plaatsen een kooiladder aan de sporthal",
-    "ac_long": "4.5.9 We plaatsen een kooiladder aan de sporthal.",
+    "bd_code": "BD000003",
+    "bd_short": "We stimuleren aangename woonkernen via toekomstbestendige woonvormen en warme sociale netwerken",
+    "bd_long": "3. We stimuleren aangename woonkernen waar toekomstbestendige woonvormen en warme sociale netwerken ervoor zorgen dat iedereen zich thuis voelt.",
+    "ap_code": "AP000011",
+    "ap_short": "We maken werk van de herinrichting van de dorpskern",
+    "ap_long": "3.3 We maken werk van de herinrichting van de dorpskern.",
+    "ac_code": "AC000047",
+    "ac_short": "We leggen een Hoppinpunt aan",
+    "ac_long": "3.3.3 We leggen een Hoppinpunt aan.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 12970.0,
-    "amount_per_capita": 0.86,
+    "total_amount": 12000.0,
+    "amount_per_capita": 0.79,
     "yearly_amounts": {
-      "2026": 12970.0,
+      "2026": 12000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2427,7 +2355,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.86,
+      "2026": 0.79,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -2451,7 +2379,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 12000.0,
-    "amount_per_capita": 0.8,
+    "amount_per_capita": 0.79,
     "yearly_amounts": {
       "2026": 1500.0,
       "2027": 1500.0,
@@ -2471,40 +2399,6 @@
       "2031": 0.1,
       "2032": 0.1,
       "2033": 0.1
-    }
-  },
-  {
-    "municipality": "Oud-Turnhout",
-    "nis_code": "13031",
-    "bd_code": "BD000003",
-    "bd_short": "We stimuleren aangename woonkernen via toekomstbestendige woonvormen en warme sociale netwerken",
-    "bd_long": "3. We stimuleren aangename woonkernen waar toekomstbestendige woonvormen en warme sociale netwerken ervoor zorgen dat iedereen zich thuis voelt.",
-    "ap_code": "AP000011",
-    "ap_short": "We maken werk van de herinrichting van de dorpskern",
-    "ap_long": "3.3 We maken werk van de herinrichting van de dorpskern.",
-    "ac_code": "AC000047",
-    "ac_short": "We leggen een Hoppinpunt aan",
-    "ac_long": "3.3.3 We leggen een Hoppinpunt aan.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 12000.0,
-    "amount_per_capita": 0.8,
-    "yearly_amounts": {
-      "2026": 12000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.8,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
     }
   },
   {
@@ -2543,6 +2437,40 @@
       "2031": 0.08,
       "2032": 0.08,
       "2033": 0.08
+    }
+  },
+  {
+    "municipality": "Oud-Turnhout",
+    "nis_code": "13031",
+    "bd_code": "BD000004",
+    "bd_short": "We streven naar een klimaatrobuust Oud-Turnhout",
+    "bd_long": "4. We streven naar een klimaatrobuust Oud-Turnhout, met aandacht voor een duurzaam patrimonium, open ruimte, natuur, groen en water.",
+    "ap_code": "AP000015",
+    "ap_short": "We onderhouden en moderniseren het huidig patrimonium",
+    "ap_long": "4.2 We onderhouden en moderniseren het huidig patrimonium.",
+    "ac_code": "AC000059",
+    "ac_short": "We voeren klimaatmaatregelen m.b.t. patrimonium verder uit",
+    "ac_long": "4.2.3 We voeren klimaatmaatregelen m.b.t. patrimonium verder uit.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 6301.68,
+    "amount_per_capita": 0.41,
+    "yearly_amounts": {
+      "2026": 6301.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.41,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

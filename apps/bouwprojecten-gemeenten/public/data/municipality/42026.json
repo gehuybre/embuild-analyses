@@ -8,82 +8,48 @@
     "ap_code": "",
     "ap_short": "",
     "ap_long": "",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 10758294.0,
-    "amount_per_capita": 877.95,
+    "total_amount": 11059957.61,
+    "amount_per_capita": 900.22,
     "yearly_amounts": {
-      "2026": 2171192.0,
-      "2027": 773000.0,
-      "2028": 2416581.0,
-      "2029": 2362309.0,
-      "2030": 1632536.0,
-      "2031": 1402676.0
+      "2026": 2472856.17,
+      "2027": 772999.74,
+      "2028": 2416580.51,
+      "2029": 2362308.81,
+      "2030": 1632536.14,
+      "2031": 1402676.24
     },
     "yearly_per_capita": {
-      "2026": 177.18,
-      "2027": 63.08,
-      "2028": 197.21,
-      "2029": 192.78,
-      "2030": 133.23,
-      "2031": 114.47
+      "2026": 201.28,
+      "2027": 62.92,
+      "2028": 196.7,
+      "2029": 192.28,
+      "2030": 132.88,
+      "2031": 114.17
     }
   },
   {
     "municipality": "Wichelen",
     "nis_code": "42026",
-    "bd_code": "BDS",
-    "bd_short": "100.1 Wichelen is een veilige gemeente",
-    "bd_long": "100.1 Wichelen is een veilige gemeente met goed uitgeruste infrastructuur die duurzame mobiliteit stimuleert",
-    "ap_code": "100.1.6",
-    "ap_short": "LB Wichelen bouwt haar brandweerkorps verder uit",
-    "ap_long": "LB Wichelen bouwt haar brandweerkorps verder uit zodat het toekomstbestendig is",
-    "ac_code": "100.1.6",
-    "ac_short": "Aankoop grond voor brandweerkazerne",
-    "ac_long": "LB Wichelen koopt grond aan voor de bouw van een nieuwe brandweerkazerne",
-    "categories": [
-      "04-veiligheidszorg"
-    ],
-    "total_amount": 1530000.0,
-    "amount_per_capita": 124.86,
-    "yearly_amounts": {
-      "2026": 530000.0,
-      "2027": 0,
-      "2028": 50000.0,
-      "2029": 0,
-      "2030": 450000.0,
-      "2031": 500000.0
-    },
-    "yearly_per_capita": {
-      "2026": 43.25,
-      "2027": 0,
-      "2028": 4.08,
-      "2029": 0,
-      "2030": 36.72,
-      "2031": 40.8
-    }
-  },
-  {
-    "municipality": "Wichelen",
-    "nis_code": "42026",
-    "bd_code": "BDS",
+    "bd_code": "BDS 40",
     "bd_short": "100.1 Wichelen is een veilige gemeente",
     "bd_long": "100.1 Wichelen is een veilige gemeente met goed uitgeruste infrastructuur die duurzame mobiliteit stimuleert",
     "ap_code": "100.1.5",
     "ap_short": "LB Wichelen zorgt vr de duurzame herinricht vd wegen en riol",
     "ap_long": "LB Wichelen zorgt voor een duurzame herinrichting van de wegen en rioleringen",
-    "ac_code": "100.1.5",
+    "ac_code": "100.1.5_100.1.5.1",
     "ac_short": "Collector Bruinbeke/SK fase 2",
     "ac_long": "LB Wichelen zet in op de herinrichting van de Collector Bruinbeke/Serskamp (Suikerstraat/Onnebossen/Verhoogstraat/Krakeelstraat)",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 1200000.0,
-    "amount_per_capita": 97.93,
+    "amount_per_capita": 97.67,
     "yearly_amounts": {
       "2026": 25000.0,
       "2027": 375000.0,
@@ -93,10 +59,10 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.04,
-      "2027": 30.6,
-      "2028": 32.64,
-      "2029": 32.64,
+      "2026": 2.03,
+      "2027": 30.52,
+      "2028": 32.56,
+      "2029": 32.56,
       "2030": 0,
       "2031": 0
     }
@@ -104,88 +70,190 @@
   {
     "municipality": "Wichelen",
     "nis_code": "42026",
-    "bd_code": "BDS",
+    "bd_code": "BDS 40",
+    "bd_short": "100.1 Wichelen is een veilige gemeente",
+    "bd_long": "100.1 Wichelen is een veilige gemeente met goed uitgeruste infrastructuur die duurzame mobiliteit stimuleert",
+    "ap_code": "100.1.6",
+    "ap_short": "LB Wichelen bouwt haar brandweerkorps verder uit",
+    "ap_long": "LB Wichelen bouwt haar brandweerkorps verder uit zodat het toekomstbestendig is",
+    "ac_code": "100.1.6_100.1.6.3",
+    "ac_short": "Bouw duurzame en toekomstgerichte brandweerkazerne",
+    "ac_long": "LB Wichelen bouwt een duurzame en toekomstgerichte brandweerkazerne",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 81.39,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 450000.0,
+      "2031": 500000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 4.07,
+      "2029": 0,
+      "2030": 36.63,
+      "2031": 40.7
+    }
+  },
+  {
+    "municipality": "Wichelen",
+    "nis_code": "42026",
+    "bd_code": "BDS 40",
     "bd_short": "100.1 Wichelen is een veilige gemeente",
     "bd_long": "100.1 Wichelen is een veilige gemeente met goed uitgeruste infrastructuur die duurzame mobiliteit stimuleert",
     "ap_code": "100.1.4",
     "ap_short": "LB Wichelen verbetert de bestaande weginfrastructuur",
     "ap_long": "LB Wichelen verbetert de bestaande weginfrastructuur",
-    "ac_code": "100.1.4",
-    "ac_short": "Sloping Wassalon Serskampse Dreef en een leefbare herinricht",
-    "ac_long": "LB Wichelen sloopt het wassalon aan de Serskampse Dreef en zorgt voor een leefbare herinrichting van het openbaar domein",
+    "ac_code": "100.1.4_100.1.4.2",
+    "ac_short": "Wegenrenovaties obv wegenrenovatieplan",
+    "ac_long": "LB Wichelen voert wegenrenovaties uit op basis van het wegenrenovatieplan (herstellen tov herinrichten afwegen)",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 915000.0,
-    "amount_per_capita": 74.67,
+    "total_amount": 875000.0,
+    "amount_per_capita": 71.22,
     "yearly_amounts": {
       "2026": 175000.0,
-      "2027": 215000.0,
+      "2027": 175000.0,
       "2028": 175000.0,
       "2029": 175000.0,
       "2030": 175000.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 14.28,
-      "2027": 17.55,
-      "2028": 14.28,
-      "2029": 14.28,
-      "2030": 14.28,
+      "2026": 14.24,
+      "2027": 14.24,
+      "2028": 14.24,
+      "2029": 14.24,
+      "2030": 14.24,
       "2031": 0
     }
   },
   {
     "municipality": "Wichelen",
     "nis_code": "42026",
-    "bd_code": "BDS",
+    "bd_code": "BDS 40",
+    "bd_short": "100.1 Wichelen is een veilige gemeente",
+    "bd_long": "100.1 Wichelen is een veilige gemeente met goed uitgeruste infrastructuur die duurzame mobiliteit stimuleert",
+    "ap_code": "100.1.6",
+    "ap_short": "LB Wichelen bouwt haar brandweerkorps verder uit",
+    "ap_long": "LB Wichelen bouwt haar brandweerkorps verder uit zodat het toekomstbestendig is",
+    "ac_code": "100.1.6_100.1.6.1",
+    "ac_short": "Aankoop grond voor brandweerkazerne",
+    "ac_long": "LB Wichelen koopt grond aan voor de bouw van een nieuwe brandweerkazerne",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 530000.0,
+    "amount_per_capita": 43.14,
+    "yearly_amounts": {
+      "2026": 530000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 43.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wichelen",
+    "nis_code": "42026",
+    "bd_code": "BDS 40",
     "bd_short": "100.1 Wichelen is een veilige gemeente",
     "bd_long": "100.1 Wichelen is een veilige gemeente met goed uitgeruste infrastructuur die duurzame mobiliteit stimuleert",
     "ap_code": "100.1.2",
     "ap_short": "LB Wichelen creëert een veilig fiets- en wandelnetwerk",
     "ap_long": "LB Wichelen creëert een veilig fiets- en wandelnetwerk op haar grondgebied",
-    "ac_code": "100.1.2",
+    "ac_code": "100.1.2_100.1.2.1",
     "ac_short": "Fietsvriendelijke Krakeelstraat",
     "ac_long": "LB Wichelen zet in op het fietsvriendelijk maken van de Krakeelstraat",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 830000.0,
-    "amount_per_capita": 67.73,
+    "total_amount": 500000.0,
+    "amount_per_capita": 40.7,
     "yearly_amounts": {
-      "2026": 100000.0,
+      "2026": 0,
       "2027": 0,
-      "2028": 610000.0,
+      "2028": 500000.0,
       "2029": 0,
-      "2030": 120000.0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 8.16,
+      "2026": 0,
       "2027": 0,
-      "2028": 49.78,
+      "2028": 40.7,
       "2029": 0,
-      "2030": 9.79,
+      "2030": 0,
       "2031": 0
     }
   },
   {
     "municipality": "Wichelen",
     "nis_code": "42026",
-    "bd_code": "BDS",
+    "bd_code": "BDS 40",
+    "bd_short": "100.1 Wichelen is een veilige gemeente",
+    "bd_long": "100.1 Wichelen is een veilige gemeente met goed uitgeruste infrastructuur die duurzame mobiliteit stimuleert",
+    "ap_code": "100.1.2",
+    "ap_short": "LB Wichelen creëert een veilig fiets- en wandelnetwerk",
+    "ap_long": "LB Wichelen creëert een veilig fiets- en wandelnetwerk op haar grondgebied",
+    "ac_code": "100.1.2_100.1.2.2",
+    "ac_short": "Vernieuwing en vergroening voetpaden",
+    "ac_long": "LB Wichelen zet de vernieuwing en vergroening van voetpaden in haar kernen verder",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 330000.0,
+    "amount_per_capita": 26.86,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 0,
+      "2028": 110000.0,
+      "2029": 0,
+      "2030": 120000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.14,
+      "2027": 0,
+      "2028": 8.95,
+      "2029": 0,
+      "2030": 9.77,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wichelen",
+    "nis_code": "42026",
+    "bd_code": "BDS 41",
     "bd_short": "100.2 Wichelen is een klimaatvriendelijke gemeente",
     "bd_long": "100.2 Wichelen is een klimaatvriendelijke gemeente met een aangename, veilige en gezonde leefomgeving voor iedereen",
     "ap_code": "100.2.4",
     "ap_short": "LB Wichelen reduceert haar CO2 uitstoot en energieverbruik",
     "ap_long": "LB Wichelen reduceert haar CO2 uitstoot en energieverbruik",
-    "ac_code": "100.2.4",
+    "ac_code": "100.2.4_100.2.4.1",
     "ac_short": "Verduurzaming van haar wagenpark",
     "ac_long": "LB Wichelen zet verder in op de verduurzaming van haar wagenpark",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 280000.0,
-    "amount_per_capita": 22.85,
+    "amount_per_capita": 22.79,
     "yearly_amounts": {
       "2026": 40000.0,
       "2027": 80000.0,
@@ -196,30 +264,30 @@
     },
     "yearly_per_capita": {
       "2026": 3.26,
-      "2027": 6.53,
+      "2027": 6.51,
       "2028": 0,
-      "2029": 6.53,
+      "2029": 6.51,
       "2030": 0,
-      "2031": 6.53
+      "2031": 6.51
     }
   },
   {
     "municipality": "Wichelen",
     "nis_code": "42026",
-    "bd_code": "BDS",
+    "bd_code": "BDS 40",
     "bd_short": "100.1 Wichelen is een veilige gemeente",
     "bd_long": "100.1 Wichelen is een veilige gemeente met goed uitgeruste infrastructuur die duurzame mobiliteit stimuleert",
     "ap_code": "100.1.1",
     "ap_short": "LB Wichelen creëert een veilige schoolomgeving",
     "ap_long": "LB Wichelen creëert een veilige schoolomgeving waar duurzame mobiliteit aangemoedigd wordt",
-    "ac_code": "100.1.1",
+    "ac_code": "100.1.1_100.1.1.1",
     "ac_short": "Parking naast park Doornweg",
     "ac_long": "De schoolomgeving van Wichelen wordt veiliger gemaakt via de herinrichting en groene aanleg van de parking naast het park aan de Doornweg",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 20.4,
+    "amount_per_capita": 20.35,
     "yearly_amounts": {
       "2026": 200000.0,
       "2027": 50000.0,
@@ -229,8 +297,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 16.32,
-      "2027": 4.08,
+      "2026": 16.28,
+      "2027": 4.07,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -240,20 +308,54 @@
   {
     "municipality": "Wichelen",
     "nis_code": "42026",
-    "bd_code": "BDS",
+    "bd_code": "BDS 44",
+    "bd_short": "200.3 Wichelen streeft naar veilige digitale omgeving",
+    "bd_long": "200.3 LB Wichelen streeft naar een veilige digitale omgeving via het implementeren van geavanceerde cyberbeveiligingsmaatregelen",
+    "ap_code": "200.3.1",
+    "ap_short": "LB bevordert een cultuur van cyberveilig gedrag",
+    "ap_long": "LB Wichelen bevordert een cultuur van cyberveilig gedrag, waarbij elke medewerker actief bijdraagt aan de beveiliging van de digitale omgeving",
+    "ac_code": "200.3.1_200.3.1.2",
+    "ac_short": "De opmaak van een bedrijfscontinuïteitsplan",
+    "ac_long": "De opmaak van een bedrijfscontinuïteitsplan garandeert de continuïteit van diensten en minimaliseert cyberdreigingen",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 8.14,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.51,
+      "2027": 1.63,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wichelen",
+    "nis_code": "42026",
+    "bd_code": "BDS 48",
     "bd_short": "300.3 Wichelen zet verder in op een lokaal sociaal beleid",
     "bd_long": "300.3 Lokaal Bestuur Wichelen zet verder in op een sterk lokaal sociaal beleid",
     "ap_code": "300.3.4",
     "ap_short": "LB Wichelen creëert een inclusieve samenleving",
     "ap_long": "LB Wichelen creëert een inclusieve samenleving waar iedereen volwaardig aan kan deelnemen en zichzelf kan zijn",
-    "ac_code": "300.3.4",
+    "ac_code": "300.3.4_300.3.4.1",
     "ac_short": "Lokaal bestuur Wich. realiseert een inclusief speelterrein",
     "ac_long": "LB Wichelen realiseert een inclusief en verbindend speelterrein aan het klooster in Serskamp waar elk kind volop kan spelen en zich welkom voelt",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 8.16,
+    "amount_per_capita": 8.14,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -265,7 +367,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 8.16,
+      "2028": 8.14,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -274,90 +376,22 @@
   {
     "municipality": "Wichelen",
     "nis_code": "42026",
-    "bd_code": "BDS",
-    "bd_short": "200.3 Wichelen streeft naar veilige digitale omgeving",
-    "bd_long": "200.3 LB Wichelen streeft naar een veilige digitale omgeving via het implementeren van geavanceerde cyberbeveiligingsmaatregelen",
-    "ap_code": "200.3.1",
-    "ap_short": "LB bevordert een cultuur van cyberveilig gedrag",
-    "ap_long": "LB Wichelen bevordert een cultuur van cyberveilig gedrag, waarbij elke medewerker actief bijdraagt aan de beveiliging van de digitale omgeving",
-    "ac_code": "200.3.1",
-    "ac_short": "De opmaak van een bedrijfscontinuïteitsplan",
-    "ac_long": "De opmaak van een bedrijfscontinuïteitsplan garandeert de continuïteit van diensten en minimaliseert cyberdreigingen",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 100000.0,
-    "amount_per_capita": 8.16,
-    "yearly_amounts": {
-      "2026": 80000.0,
-      "2027": 20000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 6.53,
-      "2027": 1.63,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Wichelen",
-    "nis_code": "42026",
-    "bd_code": "BDS",
-    "bd_short": "100.2 Wichelen is een klimaatvriendelijke gemeente",
-    "bd_long": "100.2 Wichelen is een klimaatvriendelijke gemeente met een aangename, veilige en gezonde leefomgeving voor iedereen",
-    "ap_code": "100.2.7",
-    "ap_short": "LB Wichelen werkt aan klimaatvriendelijke scholen",
-    "ap_long": "LB Wichelen werkt aan klimaatvriendelijke scholen",
-    "ac_code": "100.2.7",
-    "ac_short": "Speelplaats school SK wordt groener ingericht",
-    "ac_long": "LB Wichelen richt de speelplaats van de school in SK groener in, in samenwerking met MOS en RLSD",
-    "categories": [
-      "08-onderwijs"
-    ],
-    "total_amount": 40000.0,
-    "amount_per_capita": 3.26,
-    "yearly_amounts": {
-      "2026": 40000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 3.26,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Wichelen",
-    "nis_code": "42026",
-    "bd_code": "BDS",
+    "bd_code": "BDS 46",
     "bd_short": "300.1 Wichelen brengt mensen samen",
     "bd_long": "300.1 LB Wichelen brengt mensen samen en versterkt de sociale cohesie via cultuur, sport, evenementen en de uitbouw van een organisatiebrede vrijwilligerswerking",
     "ap_code": "300.1.2",
     "ap_short": "LB Wich verhoogt het aantal sportactiviteiten voor inwoners",
     "ap_long": "Lokaal Bestuur Wichelen verhoogt het aantal sportactiviteiten voor inwoners",
-    "ac_code": "300.1.2",
+    "ac_code": "300.1.2_300.1.2.1",
     "ac_short": "LB Wichelen breidt bestaande speeltuintjes uit met sportelem",
     "ac_long": "LB Wichelen breidt bestaande speeltuintjes uit met sportelementen",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 30000.0,
-    "amount_per_capita": 2.45,
+    "total_amount": 67646.15,
+    "amount_per_capita": 5.51,
     "yearly_amounts": {
-      "2026": 10000.0,
+      "2026": 47646.15,
       "2027": 0,
       "2028": 10000.0,
       "2029": 0,
@@ -365,33 +399,67 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.82,
+      "2026": 3.88,
       "2027": 0,
-      "2028": 0.82,
+      "2028": 0.81,
       "2029": 0,
-      "2030": 0.82,
+      "2030": 0.81,
       "2031": 0
     }
   },
   {
     "municipality": "Wichelen",
     "nis_code": "42026",
-    "bd_code": "BDS",
-    "bd_short": "200.1 Wichelen zet in op de digit. van haar interne werking",
-    "bd_long": "200.1 LB Wichelen zet actief in op de digitalisering en optimalisering van haar interne werking met als doel een efficiëntere organisatie te realiseren die slagkrachtiger is, beter inspeelt op veranderende noden en een klantgerichte, kwaliteitsvolle dienstverlening garandeert voor haar inwoners",
-    "ap_code": "200.1.1",
-    "ap_short": "LB Wichelen digitaliseert haar processen en werkingsmethodes",
-    "ap_long": "LB Wichelen digitaliseert haar processen en werkingsmethodes (de interne werking)",
-    "ac_code": "200.1.1",
-    "ac_short": "Digitaal systeem voor interne postregistratie",
-    "ac_long": "Het lokaal bestuur rolt het digitaal systeem voor interne postregistratie (op papier en digitaal) verder uit en verbetert waar nodig",
+    "bd_code": "BDS 40",
+    "bd_short": "100.1 Wichelen is een veilige gemeente",
+    "bd_long": "100.1 Wichelen is een veilige gemeente met goed uitgeruste infrastructuur die duurzame mobiliteit stimuleert",
+    "ap_code": "100.1.4",
+    "ap_short": "LB Wichelen verbetert de bestaande weginfrastructuur",
+    "ap_long": "LB Wichelen verbetert de bestaande weginfrastructuur",
+    "ac_code": "100.1.4_100.1.4.1",
+    "ac_short": "Sloping Wassalon Serskampse Dreef en een leefbare herinricht",
+    "ac_long": "LB Wichelen sloopt het wassalon aan de Serskampse Dreef en zorgt voor een leefbare herinrichting van het openbaar domein",
     "categories": [
-      "01-algemeen-bestuur"
+      "02-mobiliteit"
     ],
-    "total_amount": 10000.0,
-    "amount_per_capita": 0.82,
+    "total_amount": 40000.0,
+    "amount_per_capita": 3.26,
     "yearly_amounts": {
-      "2026": 10000.0,
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.26,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wichelen",
+    "nis_code": "42026",
+    "bd_code": "BDS 41",
+    "bd_short": "100.2 Wichelen is een klimaatvriendelijke gemeente",
+    "bd_long": "100.2 Wichelen is een klimaatvriendelijke gemeente met een aangename, veilige en gezonde leefomgeving voor iedereen",
+    "ap_code": "100.2.7",
+    "ap_short": "LB Wichelen werkt aan klimaatvriendelijke scholen",
+    "ap_long": "LB Wichelen werkt aan klimaatvriendelijke scholen",
+    "ac_code": "100.2.7_100.2.7.1",
+    "ac_short": "Speelplaats school SK wordt groener ingericht",
+    "ac_long": "LB Wichelen richt de speelplaats van de school in SK groener in, in samenwerking met MOS en RLSD",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.63,
+    "yearly_amounts": {
+      "2026": 20000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -399,7 +467,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.82,
+      "2026": 1.63,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -410,20 +478,54 @@
   {
     "municipality": "Wichelen",
     "nis_code": "42026",
-    "bd_code": "BDS",
+    "bd_code": "BDS 41",
+    "bd_short": "100.2 Wichelen is een klimaatvriendelijke gemeente",
+    "bd_long": "100.2 Wichelen is een klimaatvriendelijke gemeente met een aangename, veilige en gezonde leefomgeving voor iedereen",
+    "ap_code": "100.2.7",
+    "ap_short": "LB Wichelen werkt aan klimaatvriendelijke scholen",
+    "ap_long": "LB Wichelen werkt aan klimaatvriendelijke scholen",
+    "ac_code": "100.2.7_100.2.7.3",
+    "ac_short": "LB Wichelen voert energieadviezen voor de schoolgebouwen uit",
+    "ac_long": "LB Wichelen voert de aanbevelingen uit de energie-adviezen voor de schoolgebouwen De Meander en de Rozelaar uit",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.63,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.63,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wichelen",
+    "nis_code": "42026",
+    "bd_code": "BDS 41",
     "bd_short": "100.2 Wichelen is een klimaatvriendelijke gemeente",
     "bd_long": "100.2 Wichelen is een klimaatvriendelijke gemeente met een aangename, veilige en gezonde leefomgeving voor iedereen",
     "ap_code": "100.2.5",
     "ap_short": "LB Wichelen reduceert haar CO2 uitstoot op haar grondgebied",
     "ap_long": "LB Wichelen reduceert haar CO2 uitstoot op haar grondgebied",
-    "ac_code": "100.2.5",
+    "ac_code": "100.2.5_100.2.5.1",
     "ac_short": "Aankoop gronden voor bebossing",
     "ac_long": "LB Wichelen koopt gronden aan voor bebossing",
     "categories": [
       "03-natuur-milieu"
     ],
     "total_amount": 10000.0,
-    "amount_per_capita": 0.82,
+    "amount_per_capita": 0.81,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -436,7 +538,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 0.82,
+      "2029": 0.81,
       "2030": 0,
       "2031": 0
     }
@@ -444,13 +546,47 @@
   {
     "municipality": "Wichelen",
     "nis_code": "42026",
-    "bd_code": "BDS",
+    "bd_code": "BDS 42",
+    "bd_short": "200.1 Wichelen zet in op de digit. van haar interne werking",
+    "bd_long": "200.1 LB Wichelen zet actief in op de digitalisering en optimalisering van haar interne werking met als doel een efficiëntere organisatie te realiseren die slagkrachtiger is, beter inspeelt op veranderende noden en een klantgerichte, kwaliteitsvolle dienstverlening garandeert voor haar inwoners",
+    "ap_code": "200.1.1",
+    "ap_short": "LB Wichelen digitaliseert haar processen en werkingsmethodes",
+    "ap_long": "LB Wichelen digitaliseert haar processen en werkingsmethodes (de interne werking)",
+    "ac_code": "200.1.1_200.1.1.3",
+    "ac_short": "Digitaal systeem voor interne postregistratie",
+    "ac_long": "Het lokaal bestuur rolt het digitaal systeem voor interne postregistratie (op papier en digitaal) verder uit en verbetert waar nodig",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.81,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.81,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wichelen",
+    "nis_code": "42026",
+    "bd_code": "BDS 42",
     "bd_short": "200.1 Wichelen zet in op de digit. van haar interne werking",
     "bd_long": "200.1 LB Wichelen zet actief in op de digitalisering en optimalisering van haar interne werking met als doel een efficiëntere organisatie te realiseren die slagkrachtiger is, beter inspeelt op veranderende noden en een klantgerichte, kwaliteitsvolle dienstverlening garandeert voor haar inwoners",
     "ap_code": "200.1.2",
     "ap_short": "Producten en diensten max.digitaal beschikbaar",
     "ap_long": "Het LB Wichelen streeft ernaar om elk product en elke dienst maximaal digitaal beschikbaar te maken, van aanvraag tot afhandeling, met oog voor inclusieve alternatieven",
-    "ac_code": "200.1.2",
+    "ac_code": "200.1.2_200.1.2.2",
     "ac_short": "LB Wichelen implementeert dig.afsprakenmodule",
     "ac_long": "LB Wichelen implementeert een digitale afsprakenmodule waarmee burgers eenvoudig online een afspraak kunnen maken voor gemeentelijke dienstverlening",
     "categories": [

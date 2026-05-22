@@ -2,54 +2,122 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 32",
     "bd_short": "S4B1 Mobiliteitsinfrastructuur",
     "bd_long": "Tijdens de legislatuur (2026-2031) optimaliseren we onze mobiliteitsinfrastructuur, met bijzondere aandacht voor veilige en trage verbindingen.",
     "ap_code": "S4B1P1",
     "ap_short": "Infrastructuur vernieuwen",
     "ap_long": "We vernieuwen de infrastructuur voor auto's, fietsers en wandelaars op diverse assen, met bijzondere aandacht voor schoolomgevingen.",
-    "ac_code": "S4B1P1",
-    "ac_short": "Elektriciteitskabels ondergronds",
-    "ac_long": "In 2026 vervangt Fluvius de bovengrondse elektriciteitskabels in de Weg naar Opitter door ondergrondse kabels.",
+    "ac_code": "S4B1P1_S4B1P1A18",
+    "ac_short": "Wegenwerken uitvoeren",
+    "ac_long": "We ronden de wegenwerken uit het vorige meerjarenplan af, voeren onderhoudswerken uit en bereiden nieuwe wegenwerken voor.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 18798600.0,
-    "amount_per_capita": 780.95,
+    "total_amount": 10920770.0,
+    "amount_per_capita": 452.11,
     "yearly_amounts": {
-      "2026": 5248080.0,
-      "2027": 969130.0,
-      "2028": 3506830.0,
-      "2029": 5276610.0,
-      "2030": 2800000.0,
+      "2026": 7021970.0,
+      "2027": 500010.0,
+      "2028": 1400830.0,
+      "2029": 500010.0,
+      "2030": 500000.0,
       "2031": 997950.0
     },
     "yearly_per_capita": {
-      "2026": 218.02,
-      "2027": 40.26,
-      "2028": 145.68,
-      "2029": 219.21,
-      "2030": 116.32,
-      "2031": 41.46
+      "2026": 290.7,
+      "2027": 20.7,
+      "2028": 57.99,
+      "2029": 20.7,
+      "2030": 20.7,
+      "2031": 41.31
     }
   },
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 39",
+    "bd_short": "S5B3 Cultuur",
+    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
+    "ap_code": "S5B3P3",
+    "ap_short": "Natuurpoorten versterken",
+    "ap_long": "We versterken de rol en uitbating van de Commanderij Gruitrode en andere poorten tot de natuur (Bosbeek, Duinengordel), steeds met het belang van de natuur voorop.",
+    "ac_code": "S5B3P3_S5B3P3A07",
+    "ac_short": "Restauratie hoeve",
+    "ac_long": "We ronden in 2026 de restauratie van de hoeve van de Commanderij af.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 7120670.0,
+    "amount_per_capita": 294.79,
+    "yearly_amounts": {
+      "2026": 7095670.0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 293.76,
+      "2027": 1.03,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 32",
+    "bd_short": "S4B1 Mobiliteitsinfrastructuur",
+    "bd_long": "Tijdens de legislatuur (2026-2031) optimaliseren we onze mobiliteitsinfrastructuur, met bijzondere aandacht voor veilige en trage verbindingen.",
+    "ap_code": "S4B1P1",
+    "ap_short": "Infrastructuur vernieuwen",
+    "ap_long": "We vernieuwen de infrastructuur voor auto's, fietsers en wandelaars op diverse assen, met bijzondere aandacht voor schoolomgevingen.",
+    "ac_code": "S4B1P1_S4B1P1A08",
+    "ac_short": "Weg naar Opoeteren",
+    "ac_long": "We leggen uiterlijk in 2028 nieuwe wegen, fietspaden en riolering aan langs de Weg naar Opoeteren en leggen nieuwe wegenis en riolering in de Vinkenkantstraat, Molenweg, Cousenstraat, Weg naar Dorne en Verlengstraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 6914500.0,
+    "amount_per_capita": 286.26,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 4614500.0,
+      "2030": 2300000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 191.04,
+      "2030": 95.22,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 52",
     "bd_short": "S8B3 Subsidie-efficiëntie",
     "bd_long": "We verhogen de efficiëntie van de gemeentelijke werking door de subsidie-inkomsten te maximaliseren, samenwerkingen te onderzoeken en de levenscycluskost mee te nemen in alle grote investeringsbeslissingen.",
     "ap_code": "S8B3P1",
     "ap_short": "Subsidie-efficiëntie verhogen",
     "ap_long": "We verhogen de efficiëntie van de gemeentelijke werking door de subsidie-inkomsten te maximaliseren, samenwerkingen te onderzoeken en de levenscycluskost mee te nemen in alle grote investeringsbeslissingen.",
-    "ac_code": "S8B3P1",
+    "ac_code": "S8B3P1_S8B3P1A04",
     "ac_short": "Bijdragen partners",
     "ac_long": "We dragen financieel bij aan intergemeentelijke samenwerkingsverbanden, lokale kerkfabrieken en het autonoom gemeentebedrijf.",
     "categories": [
       "04-veiligheidszorg"
     ],
     "total_amount": 6137180.0,
-    "amount_per_capita": 254.96,
+    "amount_per_capita": 254.07,
     "yearly_amounts": {
       "2026": 1001720.0,
       "2027": 943700.0,
@@ -59,78 +127,44 @@
       "2031": 935290.0
     },
     "yearly_per_capita": {
-      "2026": 41.61,
-      "2027": 39.2,
-      "2028": 56.43,
-      "2029": 40.05,
-      "2030": 38.8,
-      "2031": 38.85
+      "2026": 41.47,
+      "2027": 39.07,
+      "2028": 56.24,
+      "2029": 39.91,
+      "2030": 38.67,
+      "2031": 38.72
     }
   },
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S5B3 Cultuur",
-    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
-    "ap_code": "S5B3P3",
-    "ap_short": "Natuurpoorten versterken",
-    "ap_long": "We versterken de rol en uitbating van de Commanderij Gruitrode en andere poorten tot de natuur (Bosbeek, Duinengordel), steeds met het belang van de natuur voorop.",
-    "ac_code": "S5B3P3",
-    "ac_short": "Commanderij onthaal",
-    "ac_long": "Tegen 1 september 2026 rusten we Commanderij Gruitrode uit met een toeristisch onthaal.",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "",
+    "ap_short": "",
+    "ap_long": "",
+    "ac_code": "overigBeleid_NIHIL",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 3589520.0,
-    "amount_per_capita": 149.12,
+    "total_amount": 3280740.0,
+    "amount_per_capita": 135.82,
     "yearly_amounts": {
-      "2026": 1560520.0,
-      "2027": 25000.0,
+      "2026": 3280740.0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 1000000.0,
-      "2031": 1004000.0
-    },
-    "yearly_per_capita": {
-      "2026": 64.83,
-      "2027": 1.04,
-      "2028": 0,
-      "2029": 0,
-      "2030": 41.54,
-      "2031": 41.71
-    }
-  },
-  {
-    "municipality": "Oudsbergen",
-    "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S5B3 Cultuur",
-    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
-    "ap_code": "S5B3P4",
-    "ap_short": "Kerkenplan uitvoeren",
-    "ap_long": "We voeren het kerkenplan uit, starten neven- of herbestemmingstrajecten op en onderhouden de religieuze gebouwen.",
-    "ac_code": "S5B3P4",
-    "ac_short": "Kerk Meeuwen restaureren",
-    "ac_long": "Uiterlijk in 2029 restaureren we het exterieur van de kerk in Meeuwen.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 3396400.0,
-    "amount_per_capita": 141.1,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 1030000.0,
-      "2028": 1666400.0,
-      "2029": 700000.0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 42.79,
-      "2028": 69.23,
-      "2029": 29.08,
+      "2026": 135.82,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -138,90 +172,294 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 17",
     "bd_short": "S1B5 Interne werking",
     "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
     "ap_code": "S1B5P3",
     "ap_short": "Werkomgeving verbeteren",
     "ap_long": "We zorgen voor ergonomische werkplekken voor onze medewerkers, voorzien hen van de nodige materialen, voertuigen en gereedschappen om hun taken te kunnen uitvoeren en onderhouden en beheren onze gebouwen.",
-    "ac_code": "S1B5P3",
+    "ac_code": "S1B5P3_S1B5P3A03",
     "ac_short": "Gebouwen onderhouden",
     "ac_long": "We beheren onze gebouwen en het openbaar domein en voorzien materialen voor de exploitatie en het onderhoud.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 3198100.0,
-    "amount_per_capita": 132.86,
+    "total_amount": 3094060.0,
+    "amount_per_capita": 128.09,
     "yearly_amounts": {
-      "2026": 670450.0,
-      "2027": 288500.0,
-      "2028": 1221550.0,
-      "2029": 294100.0,
-      "2030": 238000.0,
-      "2031": 485500.0
+      "2026": 800410.0,
+      "2027": 242500.0,
+      "2028": 1170550.0,
+      "2029": 251100.0,
+      "2030": 187000.0,
+      "2031": 442500.0
     },
     "yearly_per_capita": {
-      "2026": 27.85,
-      "2027": 11.99,
-      "2028": 50.75,
-      "2029": 12.22,
-      "2030": 9.89,
-      "2031": 20.17
+      "2026": 33.14,
+      "2027": 10.04,
+      "2028": 48.46,
+      "2029": 10.4,
+      "2030": 7.74,
+      "2031": 18.32
     }
   },
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 39",
+    "bd_short": "S5B3 Cultuur",
+    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
+    "ap_code": "S5B3P4",
+    "ap_short": "Kerkenplan uitvoeren",
+    "ap_long": "We voeren het kerkenplan uit, starten neven- of herbestemmingstrajecten op en onderhouden de religieuze gebouwen.",
+    "ac_code": "S5B3P4_S5B3P4A01",
+    "ac_short": "Kerk Meeuwen restaureren",
+    "ac_long": "Uiterlijk in 2029 restaureren we het exterieur van de kerk in Meeuwen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2246400.0,
+    "amount_per_capita": 93.0,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 1010000.0,
+      "2028": 1236400.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 41.81,
+      "2028": 51.19,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 32",
+    "bd_short": "S4B1 Mobiliteitsinfrastructuur",
+    "bd_long": "Tijdens de legislatuur (2026-2031) optimaliseren we onze mobiliteitsinfrastructuur, met bijzondere aandacht voor veilige en trage verbindingen.",
+    "ap_code": "S4B1P1",
+    "ap_short": "Infrastructuur vernieuwen",
+    "ap_long": "We vernieuwen de infrastructuur voor auto's, fietsers en wandelaars op diverse assen, met bijzondere aandacht voor schoolomgevingen.",
+    "ac_code": "S4B1P1_S4B1P1A09",
+    "ac_short": "Fietspad Weg naar Opitter",
+    "ac_long": "We leggen voor 1 januari 2028 fietspaden aan in de Weg naar Opitter.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2230210.0,
+    "amount_per_capita": 92.33,
+    "yearly_amounts": {
+      "2026": 1821090.0,
+      "2027": 409120.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 75.39,
+      "2027": 16.94,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 39",
+    "bd_short": "S5B3 Cultuur",
+    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
+    "ap_code": "S5B3P3",
+    "ap_short": "Natuurpoorten versterken",
+    "ap_long": "We versterken de rol en uitbating van de Commanderij Gruitrode en andere poorten tot de natuur (Bosbeek, Duinengordel), steeds met het belang van de natuur voorop.",
+    "ac_code": "S5B3P3_S5B3P3A04",
+    "ac_short": "Fase 2 Commanderij",
+    "ac_long": "We maken tegen eind 2030 een totaalplan op voor fase 2 van de Commanderij en voeren dringende restauratiewerken uit aan het exterieur van het bestaande kasteel.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2000000.0,
+    "amount_per_capita": 82.8,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 1000000.0,
+      "2031": 1000000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 41.4,
+      "2031": 41.4
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 21",
     "bd_short": "S2B3 Klimaat en groen",
     "bd_long": "We investeren in een klimaatvriendelijke en groene leefomgeving door de CO2-uitstoot te verminderen tegen 2030.",
     "ap_code": "S2B3P2",
     "ap_short": "Duurzaamheidsplan uitvoeren",
     "ap_long": "We voeren het duurzaamheidsplan SURE2050 voor het gemeentelijk patrimonium gefaseerd uit.",
-    "ac_code": "S2B3P2",
-    "ac_short": "Elektrische installaties",
-    "ac_long": "Tegen het einde van 2031 voeren we een risico-analyse uit van de elektrische installatie in alle gemeentelijke gebouwen en verhelpen we de vastgestelde gebreken.",
+    "ac_code": "S2B3P2_S2B3P2A09",
+    "ac_short": "Gemeentehuizen verbouwen",
+    "ac_long": "We verbouwen beide gemeentehuizen voor 2030 om de dienstverlening en het comfort voor medewerkers en bezoekers te verbeteren.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 2473000.0,
-    "amount_per_capita": 102.74,
+    "total_amount": 1651440.0,
+    "amount_per_capita": 68.37,
     "yearly_amounts": {
-      "2026": 85000.0,
-      "2027": 1020000.0,
-      "2028": 600000.0,
-      "2029": 736000.0,
-      "2030": 16000.0,
-      "2031": 16000.0
+      "2026": 251440.0,
+      "2027": 1000000.0,
+      "2028": 400000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.53,
-      "2027": 42.37,
-      "2028": 24.93,
-      "2029": 30.58,
-      "2030": 0.66,
-      "2031": 0.66
+      "2026": 10.41,
+      "2027": 41.4,
+      "2028": 16.56,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 32",
+    "bd_short": "S4B1 Mobiliteitsinfrastructuur",
+    "bd_long": "Tijdens de legislatuur (2026-2031) optimaliseren we onze mobiliteitsinfrastructuur, met bijzondere aandacht voor veilige en trage verbindingen.",
+    "ap_code": "S4B1P1",
+    "ap_short": "Infrastructuur vernieuwen",
+    "ap_long": "We vernieuwen de infrastructuur voor auto's, fietsers en wandelaars op diverse assen, met bijzondere aandacht voor schoolomgevingen.",
+    "ac_code": "S4B1P1_S4B1P1A02",
+    "ac_short": "Dorpsstraat heraanleg",
+    "ac_long": "Tegen het einde van 2029 leggen we de Dorpsstraat van de N719 tot de Kiëstraat opnieuw aan met aandacht voor het zwakke weggebruiker, vergroening, ontharding en het RUP Rijkswachtkazerne.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1217100.0,
+    "amount_per_capita": 50.39,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1105000.0,
+      "2029": 112100.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 45.75,
+      "2029": 4.64,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 39",
+    "bd_short": "S5B3 Cultuur",
+    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
+    "ap_code": "S5B3P3",
+    "ap_short": "Natuurpoorten versterken",
+    "ap_long": "We versterken de rol en uitbating van de Commanderij Gruitrode en andere poorten tot de natuur (Bosbeek, Duinengordel), steeds met het belang van de natuur voorop.",
+    "ac_code": "S5B3P3_S5B3P3A03",
+    "ac_short": "Interieur afwerken",
+    "ac_long": "Tegen 1 september 2026 voorzien we Commanderij Gruitrode van interieurafwerkingen, zoals schilderwerken, meubels, akoestische afwerking en keuken.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1210000.0,
+    "amount_per_capita": 50.09,
+    "yearly_amounts": {
+      "2026": 1210000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 50.09,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 38",
+    "bd_short": "S5B2 Vrijetijdsleven",
+    "bd_long": "We bevorderen een levendig en toegankelijk vrijetijdsleven door kaders en toekomstplannen uit te werken, reglementen te herzien en nieuwe initiatieven te lanceren.",
+    "ap_code": "S5B2P2",
+    "ap_short": "Verenigingen faciliteren",
+    "ap_long": "We ondersteunen verenigingen en andere vrijetijdspartners, leggen hiervoor duidelijke afspraken en reglementen vast die we regelmatig evalueren en zorgen voor een centraal ondersteuningspunt.",
+    "ac_code": "S5B2P2_S5B2P2A02",
+    "ac_short": "Infrastructuursubsidies herzien",
+    "ac_long": "Tegen 1 maart 2026 willen we het infrastructuursubsidiereglement herzien, verbeteren en vereenvoudigen, met een vast jaarlijks budget voor infrastructuursubsidies.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 1209120.0,
+    "amount_per_capita": 50.06,
+    "yearly_amounts": {
+      "2026": 1209120.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 50.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 38",
     "bd_short": "S5B2 Vrijetijdsleven",
     "bd_long": "We bevorderen een levendig en toegankelijk vrijetijdsleven door kaders en toekomstplannen uit te werken, reglementen te herzien en nieuwe initiatieven te lanceren.",
     "ap_code": "S5B2P5",
     "ap_short": "Vrijetijdsaanbod creëren",
     "ap_long": "We bevorderen het vrijetijdsleven door zelf een aanbod te creëren en te faciliteren waar mogelijk of nodig.",
-    "ac_code": "S5B2P5",
+    "ac_code": "S5B2P5_S5B2P5A01",
     "ac_short": "Vrije tijd faciliteren",
     "ac_long": "We bevorderen het vrijetijdsleven door zelf een aanbod te creëren en te faciliteren waar mogelijk of nodig.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1268090.0,
-    "amount_per_capita": 52.68,
+    "total_amount": 1128950.0,
+    "amount_per_capita": 46.74,
     "yearly_amounts": {
-      "2026": 158790.0,
+      "2026": 19650.0,
       "2027": 1026800.0,
       "2028": 12500.0,
       "2029": 40000.0,
@@ -229,8 +467,8 @@
       "2031": 15000.0
     },
     "yearly_per_capita": {
-      "2026": 6.6,
-      "2027": 42.66,
+      "2026": 0.81,
+      "2027": 42.51,
       "2028": 0.52,
       "2029": 1.66,
       "2030": 0.62,
@@ -240,56 +478,22 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S2B1 Dorpskernen versterken",
-    "bd_long": "We versterken de dorpskernen en buurten door strategische planning, herinrichtingen en investeringen in openbare ruimte op maat van kinderen en jongeren.",
-    "ap_code": "S2B1P2",
-    "ap_short": "Dorpskernen herinrichten",
-    "ap_long": "We werken strategische plannen uit voor de herinrichting van dorpskernen en voeren ze uit.",
-    "ac_code": "S2B1P2",
-    "ac_short": "VONA-percelen kopen",
-    "ac_long": "We kopen in 2026 drie landbouwpercelen achter de VONA-site voor de toekomstige inplanting van volkstuintjes en de ontwikkeling van het project Poort tot de Bosbeek.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 903870.0,
-    "amount_per_capita": 37.55,
-    "yearly_amounts": {
-      "2026": 33570.0,
-      "2027": 0,
-      "2028": 870300.0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.39,
-      "2027": 0,
-      "2028": 36.15,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Oudsbergen",
-    "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 40",
     "bd_short": "S5B4 Kindvriendelijkheid",
     "bd_long": "We bestendigen en versterken Oudsbergen als 'Kindvriendelijke Gemeente' door te investeren in kwaliteitsvolle en veilige (speel)ruimte en een vrijetijdsaanbod op maat van alle kinderen en jongeren.",
     "ap_code": "S5B4P2",
     "ap_short": "Sport- en speelterreinen",
     "ap_long": "We investeren jaarlijks in sport- en speelterreinen zodat er in elke buurt veilige en aangename speelplekken zijn.",
-    "ac_code": "S5B4P2",
+    "ac_code": "S5B4P2_S5B4P2A01",
     "ac_short": "Sport- en speelvelden",
     "ac_long": "We investeren elk jaar in sport- en speelterreinen in de Oudsbergse buurten.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 850000.0,
-    "amount_per_capita": 35.31,
+    "total_amount": 1106840.0,
+    "amount_per_capita": 45.82,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 256840.0,
       "2027": 15000.0,
       "2028": 710000.0,
       "2029": 75000.0,
@@ -297,67 +501,33 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 10.63,
       "2027": 0.62,
-      "2028": 29.5,
-      "2029": 3.12,
-      "2030": 2.08,
+      "2028": 29.39,
+      "2029": 3.1,
+      "2030": 2.07,
       "2031": 0
     }
   },
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S1B5 Interne werking",
-    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
-    "ap_code": "S1B5P1",
-    "ap_short": "ICT-systemen waarborgen",
-    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
-    "ac_code": "S1B5P1",
-    "ac_short": "Burgeradmin software",
-    "ac_long": "In 2026 nemen we een nieuwe, geïntegreerde softwaretoepassing voor de dienst burgeradministratie in gebruik.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 785660.0,
-    "amount_per_capita": 32.64,
-    "yearly_amounts": {
-      "2026": 401660.0,
-      "2027": 179000.0,
-      "2028": 35000.0,
-      "2029": 120000.0,
-      "2030": 50000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 16.69,
-      "2027": 7.44,
-      "2028": 1.45,
-      "2029": 4.99,
-      "2030": 2.08,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Oudsbergen",
-    "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 23",
     "bd_short": "S2B5 Ruimtelijk beheer",
     "bd_long": "We beheren onze ruimte op een duurzame en toekomstgerichte manier door actief te sturen op ruimtelijk rendement, waarbij we nieuwe ontwikkelingen maximaal binnen de woonkernen concentreren en de open ruimte vrijwaren van bijkomende bebouwing.",
     "ap_code": "S2B5P1",
     "ap_short": "Kernversterking realiseren",
     "ap_long": "We werken strategische visies en plannen uit om kernversterking en -verdichting te realiseren en de grenzen van de waardevolle open ruimte vast te leggen.",
-    "ac_code": "S2B5P1",
+    "ac_code": "S2B5P1_S2B5P1A05",
     "ac_short": "Grondverwerving",
     "ac_long": "We voorzien een jaarlijks budget en gebruiken het om kleinschalige en strategische gronden te verwerven of te ruilen die nodig zijn voor lopende of komende projecten.",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 700000.0,
-    "amount_per_capita": 29.08,
+    "total_amount": 955880.0,
+    "amount_per_capita": 39.57,
     "yearly_amounts": {
-      "2026": 150000.0,
+      "2026": 405880.0,
       "2027": 50000.0,
       "2028": 180000.0,
       "2029": 140000.0,
@@ -365,31 +535,235 @@
       "2031": 90000.0
     },
     "yearly_per_capita": {
-      "2026": 6.23,
-      "2027": 2.08,
-      "2028": 7.48,
-      "2029": 5.82,
-      "2030": 3.74,
-      "2031": 3.74
+      "2026": 16.8,
+      "2027": 2.07,
+      "2028": 7.45,
+      "2029": 5.8,
+      "2030": 3.73,
+      "2031": 3.73
     }
   },
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 19",
+    "bd_short": "S2B1 Dorpskernen versterken",
+    "bd_long": "We versterken de dorpskernen en buurten door strategische planning, herinrichtingen en investeringen in openbare ruimte op maat van kinderen en jongeren.",
+    "ap_code": "S2B1P2",
+    "ap_short": "Dorpskernen herinrichten",
+    "ap_long": "We werken strategische plannen uit voor de herinrichting van dorpskernen en voeren ze uit.",
+    "ac_code": "S2B1P2_S2B1P2A03",
+    "ac_short": "Masterplan Nieuwe Kempen",
+    "ac_long": "We werken het masterplan Nieuwe Kempen uit en zorgen voor een uitwerking op het terrein tegen het einde van 2031.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 870300.0,
+    "amount_per_capita": 36.03,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 870300.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 36.03,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 39",
+    "bd_short": "S5B3 Cultuur",
+    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
+    "ap_code": "S5B3P4",
+    "ap_short": "Kerkenplan uitvoeren",
+    "ap_long": "We voeren het kerkenplan uit, starten neven- of herbestemmingstrajecten op en onderhouden de religieuze gebouwen.",
+    "ac_code": "S5B3P4_S5B3P4A02",
+    "ac_short": "Kerk Gruitrode dak",
+    "ac_long": "Voor 2030 restaureren we het dak van de kerk in Gruitrode.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 855000.0,
+    "amount_per_capita": 35.4,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 340000.0,
+      "2029": 495000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.83,
+      "2028": 14.08,
+      "2029": 20.49,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 39",
+    "bd_short": "S5B3 Cultuur",
+    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
+    "ap_code": "S5B3P3",
+    "ap_short": "Natuurpoorten versterken",
+    "ap_long": "We versterken de rol en uitbating van de Commanderij Gruitrode en andere poorten tot de natuur (Bosbeek, Duinengordel), steeds met het belang van de natuur voorop.",
+    "ac_code": "S5B3P3_S5B3P3A02",
+    "ac_short": "Theatertechniek installeren",
+    "ac_long": "Tegen 1 september 2026 voorzien we Commanderij Gruitrode van theatertechnische uitrusting nodig voor het verhuur.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 710000.0,
+    "amount_per_capita": 29.39,
+    "yearly_amounts": {
+      "2026": 710000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 29.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 32",
+    "bd_short": "S4B1 Mobiliteitsinfrastructuur",
+    "bd_long": "Tijdens de legislatuur (2026-2031) optimaliseren we onze mobiliteitsinfrastructuur, met bijzondere aandacht voor veilige en trage verbindingen.",
+    "ap_code": "S4B1P1",
+    "ap_short": "Infrastructuur vernieuwen",
+    "ap_long": "We vernieuwen de infrastructuur voor auto's, fietsers en wandelaars op diverse assen, met bijzondere aandacht voor schoolomgevingen.",
+    "ac_code": "S4B1P1_S4B1P1A10",
+    "ac_short": "Weg naar Zwartberg voorbereiden",
+    "ac_long": "We starten de voorbereidingen voor de heraanleg van wegenis en riolering in de Weg naar Zwartberg, maar gaan nog niet over tot de uitvoering.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 700000.0,
+    "amount_per_capita": 28.98,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 650000.0,
+      "2029": 50000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 26.91,
+      "2029": 2.07,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P3",
+    "ap_short": "Werkomgeving verbeteren",
+    "ap_long": "We zorgen voor ergonomische werkplekken voor onze medewerkers, voorzien hen van de nodige materialen, voertuigen en gereedschappen om hun taken te kunnen uitvoeren en onderhouden en beheren onze gebouwen.",
+    "ac_code": "S1B5P3_S1B5P3A02",
+    "ac_short": "Voertuigenplan uitvoeren",
+    "ac_long": "We voeren jaarlijks de voorziene investeringen in het voertuigenplan uit om ons wagenpark up-to-date te houden.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 659230.0,
+    "amount_per_capita": 27.29,
+    "yearly_amounts": {
+      "2026": 659230.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 27.29,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 13",
+    "bd_short": "S1B1 Digitale diensten",
+    "bd_long": "Tegen 2029 versterken en digitaliseren we onze dienstverlening, zodat de indicator 'tevredenheid over digitale diensten' in de gemeentemonitor boven het Vlaamse gemiddelde scoort.",
+    "ap_code": "S1B1P2",
+    "ap_short": "Digitale dienstverlening versterken",
+    "ap_long": "We zetten in op toegankelijke, gebruiksvriendelijke en geïntegreerde digitale dienstverlening, die zo goed is dat mensen ze verkiezen te gebruiken.",
+    "ac_code": "S1B1P2_S1B1P2A06",
+    "ac_short": "Digitale kanalen beheren",
+    "ac_long": "We beheren, monitoren en verbeteren onze digitale communicatie- en dienstverleningskanalen gedurende de hele beleidsperiode.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 401390.0,
+    "amount_per_capita": 16.62,
+    "yearly_amounts": {
+      "2026": 386390.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.0,
+      "2027": 0.21,
+      "2028": 0.21,
+      "2029": 0.21,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 19",
     "bd_short": "S2B1 Dorpskernen versterken",
     "bd_long": "We versterken de dorpskernen en buurten door strategische planning, herinrichtingen en investeringen in openbare ruimte op maat van kinderen en jongeren.",
     "ap_code": "S2B1P1",
     "ap_short": "Openbare ruimte verfraaien",
     "ap_long": "We richten de openbare ruimte aantrekkelijk in, waar mogelijk vanuit de noden van kinderen en jongeren.",
-    "ac_code": "S2B1P1",
+    "ac_code": "S2B1P1_S2B1P1A02",
     "ac_short": "Phil Bosmansplein heraanleg",
     "ac_long": "Voor 1 januari 2029 slopen we Cultuurpunt en leggen we het Phil Bosmansplein opnieuw aan, met aandacht voor ontharding.",
     "categories": [
       "06-wonen-ruimte"
     ],
     "total_amount": 400000.0,
-    "amount_per_capita": 16.62,
+    "amount_per_capita": 16.56,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -401,7 +775,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 16.62,
+      "2028": 16.56,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -410,32 +784,168 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S5B1 Sport en recreatie",
-    "bd_long": "We investeren in een moderne en diverse sport- en recreatie-infrastructuur.",
-    "ap_code": "S5B1P1",
-    "ap_short": "Vrijetijdsinfrastructuur optimaliseren",
-    "ap_long": "We onderhouden, ondersteunen en optimaliseren de vrijetijdsinfrastructuur in onze gemeente.",
-    "ac_code": "S5B1P1",
-    "ac_short": "LED-verlichting Ichter",
-    "ac_long": "We vervangen tegen het einde van 2027 de verlichting van de zaal, de zaalbrug en het portaal van den Ichter door LED-verlichting.",
+    "bd_code": "BDS 26",
+    "bd_short": "S3B3 Kinderopvang",
+    "bd_long": "We investeren in kwaliteitsvolle en toegankelijke kinderopvang en recreatiemogelijkheden voor alle kinderen, waarbij we de tevredenheid verhogen door beter in te spelen op de noden van gezinnen.",
+    "ap_code": "S3B3P1",
+    "ap_short": "Kinderopvang waarborgen",
+    "ap_long": "We garanderen toegankelijke buitenschoolse kinderopvang (BKO) en bestendigen de ondersteuning aan gezinnen, scholen en kinderopvanglocaties.",
+    "ac_code": "S3B3P1_S3B3P1A07",
+    "ac_short": "Kinderopvang",
+    "ac_long": "We organiseren buitenschoolse kinderopvang op verschillende locaties, ondersteunen scholen en werken samen met partners voor opvoedingsondersteuning en onderwijs.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 374600.0,
+    "amount_per_capita": 15.51,
+    "yearly_amounts": {
+      "2026": 368050.0,
+      "2027": 1310.0,
+      "2028": 1310.0,
+      "2029": 1310.0,
+      "2030": 1310.0,
+      "2031": 1310.0
+    },
+    "yearly_per_capita": {
+      "2026": 15.24,
+      "2027": 0.05,
+      "2028": 0.05,
+      "2029": 0.05,
+      "2030": 0.05,
+      "2031": 0.05
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 21",
+    "bd_short": "S2B3 Klimaat en groen",
+    "bd_long": "We investeren in een klimaatvriendelijke en groene leefomgeving door de CO2-uitstoot te verminderen tegen 2030.",
+    "ap_code": "S2B3P2",
+    "ap_short": "Duurzaamheidsplan uitvoeren",
+    "ap_long": "We voeren het duurzaamheidsplan SURE2050 voor het gemeentelijk patrimonium gefaseerd uit.",
+    "ac_code": "S2B3P2_S2B3P2A10",
+    "ac_short": "HVAC vernieuwen",
+    "ac_long": "We vernieuwen de HVAC-installaties in gemeentehuis Opglabbeek, bibliotheek Meeuwen, sportschuur Louwel, 't Heem en den Ichter tegen het einde van 2030.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 325000.0,
+    "amount_per_capita": 13.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 75000.0,
+      "2029": 250000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 3.1,
+      "2029": 10.35,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 39",
+    "bd_short": "S5B3 Cultuur",
+    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
+    "ap_code": "S5B3P4",
+    "ap_short": "Kerkenplan uitvoeren",
+    "ap_long": "We voeren het kerkenplan uit, starten neven- of herbestemmingstrajecten op en onderhouden de religieuze gebouwen.",
+    "ac_code": "S5B3P4_S5B3P4A03",
+    "ac_short": "Pastorij renoveren",
+    "ac_long": "We renoveren de pastorij in Meeuwen, zodat we vanaf 1 oktober 2029 de pastoor hier kunnen huisvesten.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 177000.0,
-    "amount_per_capita": 7.35,
+    "total_amount": 295000.0,
+    "amount_per_capita": 12.21,
     "yearly_amounts": {
       "2026": 0,
-      "2027": 55000.0,
-      "2028": 122000.0,
+      "2027": 0,
+      "2028": 90000.0,
+      "2029": 205000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 3.73,
+      "2029": 8.49,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P1",
+    "ap_short": "ICT-systemen waarborgen",
+    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
+    "ac_code": "S1B5P1_S1B5P1A04",
+    "ac_short": "Geïntegreerd HRM-pakket",
+    "ac_long": "Oudsbergen beschikt tegen 1 januari 2027 over één geïntegreerd softwarepakket voor de loonverwerking voor alle medewerkers, de budgetopmaak en opvolging van de meerjarenplanning 2026-2031, de automatische rapportering over budgetbeheer en de registratie en opvolging van opleidingen en persoonlijke ontwikkelingsplannen van medewerkers.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 229900.0,
+    "amount_per_capita": 9.52,
+    "yearly_amounts": {
+      "2026": 229900.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 9.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 32",
+    "bd_short": "S4B1 Mobiliteitsinfrastructuur",
+    "bd_long": "Tijdens de legislatuur (2026-2031) optimaliseren we onze mobiliteitsinfrastructuur, met bijzondere aandacht voor veilige en trage verbindingen.",
+    "ap_code": "S4B1P1",
+    "ap_short": "Infrastructuur vernieuwen",
+    "ap_long": "We vernieuwen de infrastructuur voor auto's, fietsers en wandelaars op diverse assen, met bijzondere aandacht voor schoolomgevingen.",
+    "ac_code": "S4B1P1_S4B1P1A05",
+    "ac_short": "Fietspad herstellen",
+    "ac_long": "We herstellen in 2027 de slechte stukken fietspad langs de Weg naar Ellikom en Betonweg.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 216000.0,
+    "amount_per_capita": 8.94,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 216000.0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 2.28,
-      "2028": 5.07,
+      "2027": 0,
+      "2028": 8.94,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -444,20 +954,54 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 39",
+    "bd_short": "S5B3 Cultuur",
+    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
+    "ap_code": "S5B3P3",
+    "ap_short": "Natuurpoorten versterken",
+    "ap_long": "We versterken de rol en uitbating van de Commanderij Gruitrode en andere poorten tot de natuur (Bosbeek, Duinengordel), steeds met het belang van de natuur voorop.",
+    "ac_code": "S5B3P3_S5B3P3A01",
+    "ac_short": "Commanderij onthaal",
+    "ac_long": "Tegen 1 september 2026 rusten we Commanderij Gruitrode uit met een toeristisch onthaal.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 8.28,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 21",
     "bd_short": "S2B3 Klimaat en groen",
     "bd_long": "We investeren in een klimaatvriendelijke en groene leefomgeving door de CO2-uitstoot te verminderen tegen 2030.",
     "ap_code": "S2B3P3",
     "ap_short": "Afvalbeheer optimaliseren",
     "ap_long": "We zetten inwoners, bezoekers en medewerkers aan om afval zo goed mogelijk te sorteren en waar mogelijk te vermijden.",
-    "ac_code": "S2B3P3",
+    "ac_code": "S2B3P3_S2B3P3A02",
     "ac_short": "Recyclagepark Opglabbeek",
     "ac_long": "We ondersteunen Limburg.net om ten laatste in 2027 een nieuw recyclagepark te openen in Opglabbeek.",
     "categories": [
       "03-natuur-milieu"
     ],
     "total_amount": 176510.0,
-    "amount_per_capita": 7.33,
+    "amount_per_capita": 7.31,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -469,7 +1013,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 7.33,
+      "2028": 7.31,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -478,22 +1022,226 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P1",
+    "ap_short": "ICT-systemen waarborgen",
+    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
+    "ac_code": "S1B5P1_S1B5P1A13",
+    "ac_short": "Hybride cloud migratie",
+    "ac_long": "We migreren de lokale serverinfrastructuur voor het einde van 2029 naar hybride cloudinfrastructuur.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 175000.0,
+    "amount_per_capita": 7.24,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 5000.0,
+      "2029": 120000.0,
+      "2030": 50000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0.21,
+      "2029": 4.97,
+      "2030": 2.07,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P1",
+    "ap_short": "ICT-systemen waarborgen",
+    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
+    "ac_code": "S1B5P1_S1B5P1A14",
+    "ac_short": "Digitale stemmaterialen",
+    "ac_long": "We vervangen ten laatste in 2029 de digitale stemmaterialen zodat de Oudsbergenaren digitaal kunnen blijven stemmen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 164000.0,
+    "amount_per_capita": 6.79,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 164000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 6.79,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 21",
     "bd_short": "S2B3 Klimaat en groen",
     "bd_long": "We investeren in een klimaatvriendelijke en groene leefomgeving door de CO2-uitstoot te verminderen tegen 2030.",
     "ap_code": "S2B3P1",
     "ap_short": "Klimaatrobuustheid verhogen",
     "ap_long": "We maken Oudsbergen klimaatrobuuster door een gemeentelijk onthardingsprogramma te lanceren en zelf het goede voorbeeld te geven door te ontharden en te vergroenen.",
-    "ac_code": "S2B3P1",
+    "ac_code": "S2B3P1_S2B3P1A06",
+    "ac_short": "Groen Oudsbergen",
+    "ac_long": "We zetten in op een groen, klimaatrobuust, net en biodivers Oudsbergen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 140000.0,
+    "amount_per_capita": 5.8,
+    "yearly_amounts": {
+      "2026": 140000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 32",
+    "bd_short": "S4B1 Mobiliteitsinfrastructuur",
+    "bd_long": "Tijdens de legislatuur (2026-2031) optimaliseren we onze mobiliteitsinfrastructuur, met bijzondere aandacht voor veilige en trage verbindingen.",
+    "ap_code": "S4B1P1",
+    "ap_short": "Infrastructuur vernieuwen",
+    "ap_long": "We vernieuwen de infrastructuur voor auto's, fietsers en wandelaars op diverse assen, met bijzondere aandacht voor schoolomgevingen.",
+    "ac_code": "S4B1P1_S4B1P1A04",
+    "ac_short": "Dorpsplein herinrichten",
+    "ac_long": "We creëren voor 1 januari 2029 een veilige route voor zwakke weggebruikers over het Dorpsplein, waarbij we parkeerverkeer en doorgaand verkeer scheiden en het plein ontharden.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 130000.0,
+    "amount_per_capita": 5.38,
+    "yearly_amounts": {
+      "2026": 35000.0,
+      "2027": 25000.0,
+      "2028": 70000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.45,
+      "2027": 1.03,
+      "2028": 2.9,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 36",
+    "bd_short": "S4B5 Anders verplaatsen",
+    "bd_long": "We realiseren een duurzaam mobiliteitsgedrag door verplaatsingen met de fiets en het openbaar vervoer te promoten en ondersteunen.",
+    "ap_code": "S4B5P1",
+    "ap_short": "Fietsgebruik promoten",
+    "ap_long": "We promoten en ondersteunen verplaatsingen met de fiets en met het openbaar vervoer.",
+    "ac_code": "S4B5P1_S4B5P1A01",
+    "ac_short": "Fietsenstallingen bouwen",
+    "ac_long": "We realiseren tegen 31 december 2028 overdekte en/of beveiligde fietsenstallingen aan openbare gebouwen binnen de gemeente.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 4.97,
+    "yearly_amounts": {
+      "2026": 90000.0,
+      "2027": 15000.0,
+      "2028": 15000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.73,
+      "2027": 0.62,
+      "2028": 0.62,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 22",
+    "bd_short": "S2B4 Dierenwelzijn",
+    "bd_long": "We promoten het dierenwelzijn en de biodiversiteit, om het groene en diervriendelijke karakter van Oudsbergen te behouden.",
+    "ap_code": "S2B4P2",
+    "ap_short": "Dierenwelzijn waarborgen",
+    "ap_long": "We voeren acties voor dierenwelzijn uit die we nadien evalueren.",
+    "ac_code": "S2B4P2_S2B4P2A01",
+    "ac_short": "Dierenasiel bijdrage",
+    "ac_long": "We dragen in 2026 en 2027 financieel bij aan de bouw van het nieuwe dierenasiel in Genk.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 113250.0,
+    "amount_per_capita": 4.69,
+    "yearly_amounts": {
+      "2026": 102950.0,
+      "2027": 10300.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.26,
+      "2027": 0.43,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 21",
+    "bd_short": "S2B3 Klimaat en groen",
+    "bd_long": "We investeren in een klimaatvriendelijke en groene leefomgeving door de CO2-uitstoot te verminderen tegen 2030.",
+    "ap_code": "S2B3P1",
+    "ap_short": "Klimaatrobuustheid verhogen",
+    "ap_long": "We maken Oudsbergen klimaatrobuuster door een gemeentelijk onthardingsprogramma te lanceren en zelf het goede voorbeeld te geven door te ontharden en te vergroenen.",
+    "ac_code": "S2B3P1_S2B3P1A04",
     "ac_short": "Jaarlijks ontharden",
     "ac_long": "We ontharden elk jaar minimaal 500m² op openbaar domein.",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 170000.0,
-    "amount_per_capita": 7.06,
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.14,
     "yearly_amounts": {
-      "2026": 86500.0,
+      "2026": 16500.0,
       "2027": 16500.0,
       "2028": 16500.0,
       "2029": 16500.0,
@@ -501,99 +1249,167 @@
       "2031": 17500.0
     },
     "yearly_per_capita": {
-      "2026": 3.59,
-      "2027": 0.69,
-      "2028": 0.69,
-      "2029": 0.69,
-      "2030": 0.69,
-      "2031": 0.73
+      "2026": 0.68,
+      "2027": 0.68,
+      "2028": 0.68,
+      "2029": 0.68,
+      "2030": 0.68,
+      "2031": 0.72
     }
   },
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S1B1 Digitale diensten",
-    "bd_long": "Tegen 2029 versterken en digitaliseren we onze dienstverlening, zodat de indicator 'tevredenheid over digitale diensten' in de gemeentemonitor boven het Vlaamse gemiddelde scoort.",
-    "ap_code": "S1B1P2",
-    "ap_short": "Digitale dienstverlening versterken",
-    "ap_long": "We zetten in op toegankelijke, gebruiksvriendelijke en geïntegreerde digitale dienstverlening, die zo goed is dat mensen ze verkiezen te gebruiken.",
-    "ac_code": "S1B1P2",
-    "ac_short": "Digitale documentverzending",
-    "ac_long": "In 2026 integreren we een toepassing voor digitale, geautomatiseerde verzending van documenten via meerdere kanalen, zodat er minder manuele handelingen nodig zijn voor uitgaande post.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 107420.0,
-    "amount_per_capita": 4.46,
-    "yearly_amounts": {
-      "2026": 78420.0,
-      "2027": 19000.0,
-      "2028": 5000.0,
-      "2029": 5000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 3.26,
-      "2027": 0.79,
-      "2028": 0.21,
-      "2029": 0.21,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Oudsbergen",
-    "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S4B5 Anders verplaatsen",
-    "bd_long": "We realiseren een duurzaam mobiliteitsgedrag door verplaatsingen met de fiets en het openbaar vervoer te promoten en ondersteunen.",
-    "ap_code": "S4B5P1",
-    "ap_short": "Fietsgebruik promoten",
-    "ap_long": "We promoten en ondersteunen verplaatsingen met de fiets en met het openbaar vervoer.",
-    "ac_code": "S4B5P1",
-    "ac_short": "Fietsenstallingen bouwen",
-    "ac_long": "We realiseren tegen 31 december 2028 overdekte en/of beveiligde fietsenstallingen aan openbare gebouwen binnen de gemeente.",
+    "bd_code": "BDS 32",
+    "bd_short": "S4B1 Mobiliteitsinfrastructuur",
+    "bd_long": "Tijdens de legislatuur (2026-2031) optimaliseren we onze mobiliteitsinfrastructuur, met bijzondere aandacht voor veilige en trage verbindingen.",
+    "ap_code": "S4B1P1",
+    "ap_short": "Infrastructuur vernieuwen",
+    "ap_long": "We vernieuwen de infrastructuur voor auto's, fietsers en wandelaars op diverse assen, met bijzondere aandacht voor schoolomgevingen.",
+    "ac_code": "S4B1P1_S4B1P1A14",
+    "ac_short": "Leemkuilstraat veiligheid",
+    "ac_long": "We verhogen uiterlijk tegen 31 december 2028 de veiligheid voor fietsers in de Leemkuilstraat tot aan de ingang van Sentower Park.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 60000.0,
-    "amount_per_capita": 2.49,
+    "total_amount": 100000.0,
+    "amount_per_capita": 4.14,
     "yearly_amounts": {
-      "2026": 17500.0,
-      "2027": 17500.0,
-      "2028": 17500.0,
-      "2029": 2500.0,
-      "2030": 2500.0,
-      "2031": 2500.0
+      "2026": 0,
+      "2027": 35000.0,
+      "2028": 65000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.73,
-      "2027": 0.73,
-      "2028": 0.73,
-      "2029": 0.1,
-      "2030": 0.1,
-      "2031": 0.1
+      "2026": 0,
+      "2027": 1.45,
+      "2028": 2.69,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 32",
+    "bd_short": "S4B1 Mobiliteitsinfrastructuur",
+    "bd_long": "Tijdens de legislatuur (2026-2031) optimaliseren we onze mobiliteitsinfrastructuur, met bijzondere aandacht voor veilige en trage verbindingen.",
+    "ap_code": "S4B1P1",
+    "ap_short": "Infrastructuur vernieuwen",
+    "ap_long": "We vernieuwen de infrastructuur voor auto's, fietsers en wandelaars op diverse assen, met bijzondere aandacht voor schoolomgevingen.",
+    "ac_code": "S4B1P1_S4B1P1A01",
+    "ac_short": "Elektriciteitskabels ondergronds",
+    "ac_long": "In 2026 vervangt Fluvius de bovengrondse elektriciteitskabels in de Weg naar Opitter door ondergrondse kabels.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 93830.0,
+    "amount_per_capita": 3.88,
+    "yearly_amounts": {
+      "2026": 93830.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P1",
+    "ap_short": "ICT-systemen waarborgen",
+    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
+    "ac_code": "S1B5P1_S1B5P1A11",
+    "ac_short": "2016 servers migreren",
+    "ac_long": "We migreren voor einde 2026 de verouderde 2016 servers naar ondersteunde versies.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 70000.0,
+    "amount_per_capita": 2.9,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 30000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.66,
+      "2027": 0,
+      "2028": 1.24,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 39",
+    "bd_short": "S5B3 Cultuur",
+    "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
+    "ap_code": "S5B3P3",
+    "ap_short": "Natuurpoorten versterken",
+    "ap_long": "We versterken de rol en uitbating van de Commanderij Gruitrode en andere poorten tot de natuur (Bosbeek, Duinengordel), steeds met het belang van de natuur voorop.",
+    "ac_code": "S5B3P3_S5B3P3A06",
+    "ac_short": "ICT Commanderij",
+    "ac_long": "We realiseren in 2026 de noodzakelijke en toekomstgerichte ICT-infrastructuur voor de Commanderij.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 46000.0,
+    "amount_per_capita": 1.9,
+    "yearly_amounts": {
+      "2026": 42000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 4000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.74,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0.17
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 15",
     "bd_short": "S1B3 Personeelsbeleid",
     "bd_long": "Tegen eind 2030 versterken we het personeelsbeleid, waarbij we een duurzaam en wendbaar personeelskader uitbouwen, met een medewerkerstevredenheid van 75% en een daling van het personeelsverloop met 5%.",
     "ap_code": "S1B3P2",
     "ap_short": "Strategisch personeelsplan",
     "ap_long": "We maken een strategisch personeelsplan op dat inzet op gemotiveerde werknemers en een doordachte aanpak van uitbestedingen.",
-    "ac_code": "S1B3P2",
+    "ac_code": "S1B3P2_S1B3P2A03",
     "ac_short": "Ergonomisch meubilair",
     "ac_long": "Tegen het einde van 2031 vervangen we alle bureaus en bureaustoelen van medewerkers die dat wensen door ergonomische modellen, zodat er minder lichamelijke klachten zijn.",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 45000.0,
-    "amount_per_capita": 1.87,
+    "amount_per_capita": 1.86,
     "yearly_amounts": {
       "2026": 7500.0,
       "2027": 7500.0,
@@ -614,54 +1430,156 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S1B2 Loketdiensten",
-    "bd_long": "We optimaliseren onze fysieke en persoonlijke dienstverlening tegen 2031, zodat de indicator 'tevredenheid over loketdiensten' in de gemeentemonitor boven het Vlaamse gemiddelde scoort.",
-    "ap_code": "S1B2P1",
-    "ap_short": "Fysieke dienstverlening garanderen",
-    "ap_long": "We garanderen en optimaliseren de fysieke dienstverlening en bieden persoonlijke contacten op locatie aan voor wie dat nodig heeft.",
-    "ac_code": "S1B2P1",
-    "ac_short": "Mobiele burgerdienst",
-    "ac_long": "We bieden vanaf 1 september 2026 dienstverlening van burgeradministratie op locatie aan door twee mobio-kits aan te kopen en er een afsprakennota over op te stellen.",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P1",
+    "ap_short": "ICT-systemen waarborgen",
+    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
+    "ac_code": "S1B5P1_S1B5P1A08",
+    "ac_short": "NIS2 compliance",
+    "ac_long": "Voor 1 januari 2028 voldoen we aan de NIS2-wetgeving om ons te kunnen verdedigen tegen cyberaanvallen.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 44340.0,
-    "amount_per_capita": 1.84,
+    "total_amount": 40000.0,
+    "amount_per_capita": 1.66,
     "yearly_amounts": {
-      "2026": 19840.0,
-      "2027": 8500.0,
-      "2028": 2500.0,
-      "2029": 8500.0,
-      "2030": 2500.0,
-      "2031": 2500.0
+      "2026": 30000.0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.82,
-      "2027": 0.35,
-      "2028": 0.1,
-      "2029": 0.35,
-      "2030": 0.1,
-      "2031": 0.1
+      "2026": 1.24,
+      "2027": 0.41,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 32",
+    "bd_short": "S4B1 Mobiliteitsinfrastructuur",
+    "bd_long": "Tijdens de legislatuur (2026-2031) optimaliseren we onze mobiliteitsinfrastructuur, met bijzondere aandacht voor veilige en trage verbindingen.",
+    "ap_code": "S4B1P1",
+    "ap_short": "Infrastructuur vernieuwen",
+    "ap_long": "We vernieuwen de infrastructuur voor auto's, fietsers en wandelaars op diverse assen, met bijzondere aandacht voor schoolomgevingen.",
+    "ac_code": "S4B1P1_S4B1P1A07",
+    "ac_short": "Trage verbinding sportzone",
+    "ac_long": "We leggen in 2026 een veilige trage verbinding aan tussen de dorpskern van Meeuwen en de sportzone, zodat inwoners veilig toegang hebben tot de sportaccommodaties.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 1.66,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.66,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P1",
+    "ap_short": "ICT-systemen waarborgen",
+    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
+    "ac_code": "S1B5P1_S1B5P1A15",
+    "ac_short": "Nieuwe firewall",
+    "ac_long": "We vervangen voor 1 maart 2027 onze bestaande firewall door een nieuwe, performantere oplossing, die voldoet aan alle actuele beveiligingsvereisten.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 38000.0,
+    "amount_per_capita": 1.57,
+    "yearly_amounts": {
+      "2026": 38000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 19",
+    "bd_short": "S2B1 Dorpskernen versterken",
+    "bd_long": "We versterken de dorpskernen en buurten door strategische planning, herinrichtingen en investeringen in openbare ruimte op maat van kinderen en jongeren.",
+    "ap_code": "S2B1P2",
+    "ap_short": "Dorpskernen herinrichten",
+    "ap_long": "We werken strategische plannen uit voor de herinrichting van dorpskernen en voeren ze uit.",
+    "ac_code": "S2B1P2_S2B1P2A01",
+    "ac_short": "VONA-percelen kopen",
+    "ac_long": "We kopen in 2026 drie landbouwpercelen achter de VONA-site voor de toekomstige inplanting van volkstuintjes en de ontwikkeling van het project Poort tot de Bosbeek.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 33570.0,
+    "amount_per_capita": 1.39,
+    "yearly_amounts": {
+      "2026": 33570.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 15",
     "bd_short": "S1B3 Personeelsbeleid",
     "bd_long": "Tegen eind 2030 versterken we het personeelsbeleid, waarbij we een duurzaam en wendbaar personeelskader uitbouwen, met een medewerkerstevredenheid van 75% en een daling van het personeelsverloop met 5%.",
     "ap_code": "S1B3P1",
     "ap_short": "Personeelsontwikkeling bevorderen",
     "ap_long": "We laten onze medewerkers groeien in vertrouwen, door permanente evaluatie en feedback, persoonlijke ontwikkelingsplannen op maat en regelmatige vormingen en opleidingen.",
-    "ac_code": "S1B3P1",
+    "ac_code": "S1B3P1_S1B3P1A02",
     "ac_short": "Vormingsbeleid opstellen",
     "ac_long": "Tegen eind 2029 hebben we een goedgekeurd vormingsbeleid met een jaarlijkse kalender en duidelijke procedures en heeft minstens 80% van de medewerkers een persoonlijk ontwikkelingsplan.",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 30000.0,
-    "amount_per_capita": 1.25,
+    "amount_per_capita": 1.24,
     "yearly_amounts": {
       "2026": 0,
       "2027": 15000.0,
@@ -682,13 +1600,285 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 21",
+    "bd_short": "S2B3 Klimaat en groen",
+    "bd_long": "We investeren in een klimaatvriendelijke en groene leefomgeving door de CO2-uitstoot te verminderen tegen 2030.",
+    "ap_code": "S2B3P2",
+    "ap_short": "Duurzaamheidsplan uitvoeren",
+    "ap_long": "We voeren het duurzaamheidsplan SURE2050 voor het gemeentelijk patrimonium gefaseerd uit.",
+    "ac_code": "S2B3P2_S2B3P2A11",
+    "ac_short": "LED-verlichting",
+    "ac_long": "We vervangen gefaseerd traditionele halogeenverlichting door LED-verlichting in de gemeentelijke gebouwen, zodat eind 2031 alle verlichting vernieuwd is.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.24,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.21,
+      "2027": 0.21,
+      "2028": 0.21,
+      "2029": 0.21,
+      "2030": 0.21,
+      "2031": 0.21
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 14",
+    "bd_short": "S1B2 Loketdiensten",
+    "bd_long": "We optimaliseren onze fysieke en persoonlijke dienstverlening tegen 2031, zodat de indicator 'tevredenheid over loketdiensten' in de gemeentemonitor boven het Vlaamse gemiddelde scoort.",
+    "ap_code": "S1B2P1",
+    "ap_short": "Fysieke dienstverlening garanderen",
+    "ap_long": "We garanderen en optimaliseren de fysieke dienstverlening en bieden persoonlijke contacten op locatie aan voor wie dat nodig heeft.",
+    "ac_code": "S1B2P1_S1B2P1A07",
+    "ac_short": "Urnekelders voorzien",
+    "ac_long": "We voorzien 150 urnekelders in Meeuwen voor 1 november 2027 en 90 urnekelders in Opglabbeek voor 1 november 2029.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 27000.0,
+    "amount_per_capita": 1.12,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 8500.0,
+      "2028": 2500.0,
+      "2029": 8500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
+      "2027": 0.35,
+      "2028": 0.1,
+      "2029": 0.35,
+      "2030": 0.1,
+      "2031": 0.1
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P1",
+    "ap_short": "ICT-systemen waarborgen",
+    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
+    "ac_code": "S1B5P1_S1B5P1A02",
+    "ac_short": "Burgeradmin software",
+    "ac_long": "In 2026 nemen we een nieuwe, geïntegreerde softwaretoepassing voor de dienst burgeradministratie in gebruik.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 25760.0,
+    "amount_per_capita": 1.07,
+    "yearly_amounts": {
+      "2026": 25760.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.07,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 21",
+    "bd_short": "S2B3 Klimaat en groen",
+    "bd_long": "We investeren in een klimaatvriendelijke en groene leefomgeving door de CO2-uitstoot te verminderen tegen 2030.",
+    "ap_code": "S2B3P2",
+    "ap_short": "Duurzaamheidsplan uitvoeren",
+    "ap_long": "We voeren het duurzaamheidsplan SURE2050 voor het gemeentelijk patrimonium gefaseerd uit.",
+    "ac_code": "S2B3P2_S2B3P2A02",
+    "ac_short": "Elektrische installaties",
+    "ac_long": "Tegen het einde van 2031 voeren we een risico-analyse uit van de elektrische installaties in alle gemeentelijke gebouwen en verhelpen we de vastgestelde gebreken.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 24000.0,
+    "amount_per_capita": 0.99,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 3000.0,
+      "2030": 3000.0,
+      "2031": 3000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.21,
+      "2027": 0.21,
+      "2028": 0.21,
+      "2029": 0.12,
+      "2030": 0.12,
+      "2031": 0.12
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P1",
+    "ap_short": "ICT-systemen waarborgen",
+    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
+    "ac_code": "S1B5P1_S1B5P1A06",
+    "ac_short": "Zero Trust architectuur",
+    "ac_long": "Uiterlijk tegen 31 december 2026 hebben we een 'Zero Trust'-architectuur opgezet en zijn alle apparaten die eigendom zijn van de organisatie geregistreerd en beheerd.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 18000.0,
+    "amount_per_capita": 0.75,
+    "yearly_amounts": {
+      "2026": 18000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.75,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 14",
+    "bd_short": "S1B2 Loketdiensten",
+    "bd_long": "We optimaliseren onze fysieke en persoonlijke dienstverlening tegen 2031, zodat de indicator 'tevredenheid over loketdiensten' in de gemeentemonitor boven het Vlaamse gemiddelde scoort.",
+    "ap_code": "S1B2P1",
+    "ap_short": "Fysieke dienstverlening garanderen",
+    "ap_long": "We garanderen en optimaliseren de fysieke dienstverlening en bieden persoonlijke contacten op locatie aan voor wie dat nodig heeft.",
+    "ac_code": "S1B2P1_S1B2P1A04",
+    "ac_short": "Mobiele burgerdienst",
+    "ac_long": "We bieden vanaf 1 september 2026 dienstverlening van burgeradministratie op locatie aan door twee mobio-kits aan te kopen en er een afsprakennota over op te stellen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15340.0,
+    "amount_per_capita": 0.64,
+    "yearly_amounts": {
+      "2026": 15340.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P1",
+    "ap_short": "ICT-systemen waarborgen",
+    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
+    "ac_code": "S1B5P1_S1B5P1A07",
+    "ac_short": "Onderhoud digitaal volgen",
+    "ac_long": "Vanaf 2027 gebruiken we een digitale planningstool om het onderhoud en beheer van het openbare domein efficiënt en papierloos op te volgen en minimum 90% van de werktijd van de werkploegen te registreren.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.62,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 5000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.41,
+      "2027": 0.21,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 36",
+    "bd_short": "S4B5 Anders verplaatsen",
+    "bd_long": "We realiseren een duurzaam mobiliteitsgedrag door verplaatsingen met de fiets en het openbaar vervoer te promoten en ondersteunen.",
+    "ap_code": "S4B5P1",
+    "ap_short": "Fietsgebruik promoten",
+    "ap_long": "We promoten en ondersteunen verplaatsingen met de fiets en met het openbaar vervoer.",
+    "ac_code": "S4B5P1_S4B5P1A02",
+    "ac_short": "Bushaltes schuilhuisjes",
+    "ac_long": "We voorzien bij grote wegenwerken in 2028 en 2031 schuilhuisjes aan de haltehavens voor bussen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.62,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 2500.0,
+      "2028": 2500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
+      "2027": 0.1,
+      "2028": 0.1,
+      "2029": 0.1,
+      "2030": 0.1,
+      "2031": 0.1
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 44",
     "bd_short": "S7B2 Economische infrastructuur",
     "bd_long": "We investeren in toekomstgerichte en sociale economische infrastructuur door de uitbreiding van het bedrijventerrein te faciliteren en tewerkstelling voor iedereen te stimuleren.",
     "ap_code": "S7B2P2",
     "ap_short": "Bedrijventerreinen veilig maken",
     "ap_long": "We zorgen voor een veilige verkeerssituatie op de bedrijventerreinen en duidelijke signalisatie.",
-    "ac_code": "S7B2P2",
+    "ac_code": "S7B2P2_S7B2P2A01",
     "ac_short": "Bedrijvensignalisatie",
     "ac_long": "Ten laatste in het voorjaar van 2027 nemen we een nieuwe, duidelijke, uniforme en strakke bedrijfssignalisatie in gebruik op het industrieterrein van Opglabbeek, waardoor de zichtbaarheid en toegankelijkheid van de bedrijven wordt bevorderd.",
     "categories": [
@@ -716,31 +1906,31 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S2B4 Dierenwelzijn",
-    "bd_long": "We promoten het dierenwelzijn en de biodiversiteit, om het groene en diervriendelijke karakter van Oudsbergen te behouden.",
-    "ap_code": "S2B4P2",
-    "ap_short": "Dierenwelzijn waarborgen",
-    "ap_long": "We voeren acties voor dierenwelzijn uit die we nadien evalueren.",
-    "ac_code": "S2B4P2",
-    "ac_short": "Dierenasiel bijdrage",
-    "ac_long": "We dragen in 2026 en 2027 financieel bij aan de bouw van het nieuwe dierenasiel in Genk.",
+    "bd_code": "BDS 17",
+    "bd_short": "S1B5 Interne werking",
+    "bd_long": "We versterken de interne werking door de implementatie van een robuust systeem voor organisatiebeheersing, betrouwbare ICT en veilige en goed uitgeruste werkplekken, wat leidt tot een efficiëntere, effectievere en meer integere organisatie.",
+    "ap_code": "S1B5P1",
+    "ap_short": "ICT-systemen waarborgen",
+    "ap_long": "Gedurende de hele beleidsperiode garanderen we betrouwbare en performante interne ICT-systemen met een uptime van minimum 99,5%, waarbij alle kritieke diensten 24/7 beschikbaar zijn en medewerkers vlot digitaal kunnen werken.",
+    "ac_code": "S1B5P1_S1B5P1A16",
+    "ac_short": "Back-up zonder tapes",
+    "ac_long": "We vervangen voor 1 januari 2027 onze bestaande back-up-oplossing met tapes, door een systeem dat klaar is voor de toekomst en makkelijk is in onderhoud.",
     "categories": [
-      "04-veiligheidszorg"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 10300.0,
-    "amount_per_capita": 0.43,
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.41,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 10300.0,
+      "2026": 10000.0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0.43,
+      "2026": 0.41,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -750,20 +1940,20 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 39",
     "bd_short": "S5B3 Cultuur",
     "bd_long": "We koesteren het lokale culturele leven en erfgoed door de rol van de Commanderij te versterken, een toekomstplan voor de kerken uit te voeren en duurzame huisvesting voor de heemkundige kringen te realiseren.",
     "ap_code": "S5B3P1",
     "ap_short": "Heemkunde huisvesten",
     "ap_long": "We huisvesten de heemkundige kringen op een duurzame locatie, met een plan van aanpak klaar tegen eind 2026.",
-    "ac_code": "S5B3P1",
+    "ac_code": "S5B3P1_S5B3P1A01",
     "ac_short": "Heemkringen huisvesten",
     "ac_long": "We bieden de drie heemkundige kringen in Oudsbergen tegen 1 januari 2027 een duurzame en geschikte huisvesting.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 10000.0,
-    "amount_per_capita": 0.42,
+    "amount_per_capita": 0.41,
     "yearly_amounts": {
       "2026": 0,
       "2027": 10000.0,
@@ -774,7 +1964,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0.42,
+      "2027": 0.41,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -784,47 +1974,81 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S3B3 Kinderopvang",
-    "bd_long": "We investeren in kwaliteitsvolle en toegankelijke kinderopvang en recreatiemogelijkheden voor alle kinderen, waarbij we de tevredenheid verhogen door beter in te spelen op de noden van gezinnen.",
-    "ap_code": "S3B3P1",
-    "ap_short": "Kinderopvang waarborgen",
-    "ap_long": "We garanderen toegankelijke buitenschoolse kinderopvang (BKO) en bestendigen de ondersteuning aan gezinnen, scholen en kinderopvanglocaties.",
-    "ac_code": "S3B3P1",
-    "ac_short": "Kinderopvang",
-    "ac_long": "We organiseren buitenschoolse kinderopvang op verschillende locaties, ondersteunen scholen en werken samen met partners voor opvoedingsondersteuning en onderwijs.",
+    "bd_code": "BDS 13",
+    "bd_short": "S1B1 Digitale diensten",
+    "bd_long": "Tegen 2029 versterken en digitaliseren we onze dienstverlening, zodat de indicator 'tevredenheid over digitale diensten' in de gemeentemonitor boven het Vlaamse gemiddelde scoort.",
+    "ap_code": "S1B1P2",
+    "ap_short": "Digitale dienstverlening versterken",
+    "ap_long": "We zetten in op toegankelijke, gebruiksvriendelijke en geïntegreerde digitale dienstverlening, die zo goed is dat mensen ze verkiezen te gebruiken.",
+    "ac_code": "S1B1P2_S1B1P2A01",
+    "ac_short": "Digitale documentverzending",
+    "ac_long": "In 2026 integreren we een toepassing voor digitale, geautomatiseerde verzending van documenten via meerdere kanalen, zodat er minder manuele handelingen nodig zijn voor uitgaande post.",
     "categories": [
-      "08-onderwijs"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 7860.0,
+    "total_amount": 8000.0,
     "amount_per_capita": 0.33,
     "yearly_amounts": {
-      "2026": 1310.0,
-      "2027": 1310.0,
-      "2028": 1310.0,
-      "2029": 1310.0,
-      "2030": 1310.0,
-      "2031": 1310.0
+      "2026": 0,
+      "2027": 8000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.05,
-      "2027": 0.05,
-      "2028": 0.05,
-      "2029": 0.05,
-      "2030": 0.05,
-      "2031": 0.05
+      "2026": 0,
+      "2027": 0.33,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 26",
+    "bd_short": "S3B3 Kinderopvang",
+    "bd_long": "We investeren in kwaliteitsvolle en toegankelijke kinderopvang en recreatiemogelijkheden voor alle kinderen, waarbij we de tevredenheid verhogen door beter in te spelen op de noden van gezinnen.",
+    "ap_code": "S3B3P1",
+    "ap_short": "Kinderopvang waarborgen",
+    "ap_long": "We garanderen toegankelijke buitenschoolse kinderopvang (BKO) en bestendigen de ondersteuning aan gezinnen, scholen en kinderopvanglocaties.",
+    "ac_code": "S3B3P1_S3B3P1A01",
+    "ac_short": "Integraal sociaal beleid",
+    "ac_long": "We nemen voor 1 september 2027 een centraal, intergemeentelijk zoek- en inschrijvingsplatform in gebruik voor buitenschoolse opvang en activiteiten.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 7460.0,
+    "amount_per_capita": 0.31,
+    "yearly_amounts": {
+      "2026": 7460.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.31,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 25",
     "bd_short": "S3B2 Toegankelijke zorg",
     "bd_long": "We garanderen een toegankelijk, preventief en inclusief zorgaanbod, waarbij we specifieke noden detecteren en aanpakken en de cruciale rol van mantelzorgers erkennen en versterken.",
     "ap_code": "S3B2P2",
     "ap_short": "Hulpverlening toegankelijk maken",
     "ap_long": "We verlagen de drempel voor hulpbehoevenden om contact te houden met de maatschappelijk assistenten.",
-    "ac_code": "S3B2P2",
+    "ac_code": "S3B2P2_S3B2P2A01",
     "ac_short": "Chatten met hulpverlener",
     "ac_long": "We implementeren tegen 30 juni 2026 een chattoepassing voor maatschappelijk werkers om contact te onderhouden met cliënten die al in begeleiding zijn.",
     "categories": [
@@ -852,13 +2076,81 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 46",
+    "bd_short": "S7B4 Toerisme",
+    "bd_long": "We ontwikkelen Oudsbergen verder als gastvrije toeristische bestemming, wat moet leiden tot 10% meer websitebezoek op toeristische pagina's en de realisatie van minstens 5 toeristische producten.",
+    "ap_code": "S7B4P1",
+    "ap_short": "Toerisme versterken",
+    "ap_long": "We versterken toeristische ankerpunten en realiseren nieuwe belevingsvolle plekken langs het fietsroutenetwerk.",
+    "ac_code": "S7B4P1_S7B4P1A01",
+    "ac_short": "Commanderij zoektocht",
+    "ac_long": "We ontwikkelen tegen 1 september 2028 een interactieve zoektocht in de Commanderij voor (school)kinderen.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 6710.0,
+    "amount_per_capita": 0.28,
+    "yearly_amounts": {
+      "2026": 6710.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.28,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 13",
+    "bd_short": "S1B1 Digitale diensten",
+    "bd_long": "Tegen 2029 versterken en digitaliseren we onze dienstverlening, zodat de indicator 'tevredenheid over digitale diensten' in de gemeentemonitor boven het Vlaamse gemiddelde scoort.",
+    "ap_code": "S1B1P2",
+    "ap_short": "Digitale dienstverlening versterken",
+    "ap_long": "We zetten in op toegankelijke, gebruiksvriendelijke en geïntegreerde digitale dienstverlening, die zo goed is dat mensen ze verkiezen te gebruiken.",
+    "ac_code": "S1B1P2_S1B1P2A02",
+    "ac_short": "Digitaal burgerloket",
+    "ac_long": "In de loop van 2027 implementeren we een gebruiksvriendelijk digitaal loket voor burgers, ondernemingen en verenigingen, als portaal voor online dienstverlening.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 6000.0,
+    "amount_per_capita": 0.25,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 6000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.25,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 30",
     "bd_short": "S3B7 Gezondheidsaanbod",
     "bd_long": "We zetten, in samenwerking met de eerstelijnsactoren, in op een toekomstbestendig en toegankelijk lokaal gezondheidsaanbod, met bijzondere aandacht voor de huisartsenzorg.",
     "ap_code": "S3B7P2",
     "ap_short": "Gezondheidsbevordering",
     "ap_long": "We zetten jaarlijks initiatieven en sensibiliseringsacties op om de gezondheid van de inwoners te bevorderen.",
-    "ac_code": "S3B7P2",
+    "ac_code": "S3B7P2_S3B7P2A01",
     "ac_short": "Gezondheidsacties",
     "ac_long": "We zetten jaarlijks initiatieven en sensibiliseringsacties op om de gezondheid van de inwoners te bevorderen.",
     "categories": [
@@ -886,13 +2178,47 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
+    "bd_code": "BDS 46",
+    "bd_short": "S7B4 Toerisme",
+    "bd_long": "We ontwikkelen Oudsbergen verder als gastvrije toeristische bestemming, wat moet leiden tot 10% meer websitebezoek op toeristische pagina's en de realisatie van minstens 5 toeristische producten.",
+    "ap_code": "S7B4P2",
+    "ap_short": "Citymarketing uitvoeren",
+    "ap_long": "We voeren acties uit het citymarketingplan uit en realiseren jaarlijkse (digitale) campagnes om de aantrekkingskracht van Oudsbergen te vergroten.",
+    "ac_code": "S7B4P2_S7B4P2A04",
+    "ac_short": "Citymarketingcampagnes",
+    "ac_long": "We investeren jaarlijks in toeristische en citymarketingcampages om de aantrekkingskracht van Oudsbergen te vergroten.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.21,
+    "yearly_amounts": {
+      "2026": 2500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 2500.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0.1,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 13",
     "bd_short": "S1B1 Digitale diensten",
     "bd_long": "Tegen 2029 versterken en digitaliseren we onze dienstverlening, zodat de indicator 'tevredenheid over digitale diensten' in de gemeentemonitor boven het Vlaamse gemiddelde scoort.",
     "ap_code": "S1B1P1",
     "ap_short": "Klantreizen optimaliseren",
     "ap_long": "We beschrijven de klantreizen en processen van de belangrijkste gemeentelijke producten en diensten, om de digitale en fysieke dienstverlening te optimaliseren en de gebruiksvriendelijkheid te verhogen.",
-    "ac_code": "S1B1P1",
+    "ac_code": "S1B1P1_S1B1P1A03",
     "ac_short": "LPDC voor producten",
     "ac_long": "We beheren onze producten vanaf 2027 niet meer in Igen, maar wel in de LPDC en nemen op die manier ook het Vlaamse verenigingsloket en het e-loket ondernemers in gebruik.",
     "categories": [
@@ -920,33 +2246,67 @@
   {
     "municipality": "Oudsbergen",
     "nis_code": "72042",
-    "bd_code": "BDS",
-    "bd_short": "S7B4 Toerisme",
-    "bd_long": "We ontwikkelen Oudsbergen verder als gastvrije toeristische bestemming, wat moet leiden tot 10% meer websitebezoek op toeristische pagina's en de realisatie van minstens 5 toeristische producten.",
-    "ap_code": "S7B4P2",
-    "ap_short": "Citymarketing uitvoeren",
-    "ap_long": "We voeren acties uit het citymarketingplan uit en realiseren jaarlijkse (digitale) campagnes om de aantrekkingskracht van Oudsbergen te vergroten.",
-    "ac_code": "S7B4P2",
-    "ac_short": "Citymarketingcampagnes",
-    "ac_long": "We investeren jaarlijks in toeristische en citymarketingcampages om de aantrekkingskracht van Oudsbergen te vergroten.",
+    "bd_code": "BDS 38",
+    "bd_short": "S5B2 Vrijetijdsleven",
+    "bd_long": "We bevorderen een levendig en toegankelijk vrijetijdsleven door kaders en toekomstplannen uit te werken, reglementen te herzien en nieuwe initiatieven te lanceren.",
+    "ap_code": "S5B2P5",
+    "ap_short": "Vrijetijdsaanbod creëren",
+    "ap_long": "We bevorderen het vrijetijdsleven door zelf een aanbod te creëren en te faciliteren waar mogelijk of nodig.",
+    "ac_code": "S5B2P5_S5B2P5A02",
+    "ac_short": "Veilig fuiven",
+    "ac_long": "We stimuleren een positief fuifklimaat en kopen preventiemateriaal gericht op (veilig) fuiven aan.",
     "categories": [
-      "05-ondernemen-werken"
+      "overige"
     ],
     "total_amount": 2500.0,
     "amount_per_capita": 0.1,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 2500.0,
       "2027": 0,
       "2028": 0,
-      "2029": 2500.0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 0.1,
       "2027": 0,
       "2028": 0,
-      "2029": 0.1,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oudsbergen",
+    "nis_code": "72042",
+    "bd_code": "BDS 14",
+    "bd_short": "S1B2 Loketdiensten",
+    "bd_long": "We optimaliseren onze fysieke en persoonlijke dienstverlening tegen 2031, zodat de indicator 'tevredenheid over loketdiensten' in de gemeentemonitor boven het Vlaamse gemiddelde scoort.",
+    "ap_code": "S1B2P1",
+    "ap_short": "Fysieke dienstverlening garanderen",
+    "ap_long": "We garanderen en optimaliseren de fysieke dienstverlening en bieden persoonlijke contacten op locatie aan voor wie dat nodig heeft.",
+    "ac_code": "S1B2P1_S1B2P1A06",
+    "ac_short": "Nieuw afsprakensysteem",
+    "ac_long": "We vervangen voor 1 januari 2028 het huidige afsprakensysteem door een gebruiksvriendelijke toepassing in de cloud.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 2000.0,
+    "amount_per_capita": 0.08,
+    "yearly_amounts": {
+      "2026": 2000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }

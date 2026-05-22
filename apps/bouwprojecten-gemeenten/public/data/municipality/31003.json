@@ -2,35 +2,137 @@
   {
     "municipality": "Beernem",
     "nis_code": "31003",
-    "bd_code": "BD",
-    "bd_short": "Met een efficiënt werkende technische dienst",
-    "bd_long": "Kwalitatieve omschrijving: We versterken de werking van onze technische dienst door te investeren in moderne uitrusting, duurzame voertuigen en slimme uitbesteding. Zo verhogen we de efficiëntie, beperken we de ecologische impact en garanderen we een kwalitatieve uitvoering van taken in de openbare ruimte. Door het combineren van interne capaciteit met externe expertise zorgen we voor een flexibele, toekomstgerichte en milieubewuste aanpak van het gemeentelijk beheer.",
-    "ap_code": "AP",
-    "ap_short": "Vervangen rollend materiaal en voorzien van de nodige gereedschappen en werktuigen",
-    "ap_long": "De gemeente investeert in een toekomstgerichte en efficiënte uitrusting voor haar technische diensten. Door voertuigen en werktuigen tijdig te vervangen en te kiezen voor elektrische alternatieven, beperken we de ecologische impact. Tegelijk zorgen we voor veilige en vlotte uitvoering van werken op hoogte via een structurele huur van een hoogtewerker.",
-    "ac_code": "AC",
-    "ac_short": "Aankoop voertuigen",
-    "ac_long": "Om de werking te optimaliseren worden deze legislatuur voer- en werktuigen vervangen waar nodig. We kiezen zo veel mogelijk voor elektrische voer- en werktuigen.",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-WERK",
+    "ap_short": "Verrichtingen binnen werkingsbudget",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-RIOL",
+    "ac_short": "Riolering",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 3520000.0,
+    "amount_per_capita": 214.2,
+    "yearly_amounts": {
+      "2026": 3270000.0,
+      "2027": 50000.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 50000.0
+    },
+    "yearly_per_capita": {
+      "2026": 198.99,
+      "2027": 3.04,
+      "2028": 3.04,
+      "2029": 3.04,
+      "2030": 3.04,
+      "2031": 3.04
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-15",
+    "bd_short": "Met zuiver water",
+    "bd_long": "Kwalitatieve omschrijving: Beernem zet in op een duurzaam, toekomstgericht waterbeleid dat inzet op het bufferen, zuiveren en efficiënt beheren van water, met oog voor waterveiligheid, volksgezondheid, landbouw, natuur en klimaatadaptatie.",
+    "ap_code": "AP-15.2",
+    "ap_short": "Waterzuivering verderzetten",
+    "ap_long": "Water wordt steeds schaarser en kostbaarder. Daarom is het essentieel om afvalwater via een riolering naar een waterzuiveringsinstallatie te leiden. Zo worden schadelijke stoffen verwijderd voordat het water terug in rivieren of de natuur terechtkomt. Dit draagt bij aan een betere rivierkwaliteit en helpt overstromingen te voorkomen. Een gescheiden rioolstelsel zorgt bovendien voor een efficiëntere zuivering.",
+    "ac_code": "AC-15.2.2",
+    "ac_short": "Aansluiting riolering in zijstraten Akkerstraat en Beverhoutsveldstraat",
+    "ac_long": "Gelet op de omvang van het dossier werd het rioleringsproject Akkerstraat-Beverhoutsveldstraat opgesplitst in twee afzonderlijke dossiers. Het eerste dossier omvat de aanleg van riolering en fietspaden langs de as Akkerstraat-Beverhoutsveldstraat en is in het najaar in 2025 in uitvoering. Dit dossier bevat ook een bovengemeentelijk luik. Het tweede dossier is de aanleg van riolering in delen van de zijstraten.\n\nBeide dossiers vormen samen het voorbehoud voor het bovengemeentelijk project. Hierdoor heeft de VMM beslist dat de uitbetaling van de subsidie voor het eerste dossier afhankelijk is van de effectieve uitvoering van het tweede dossier. De uiterste datum voor het indienen van het gunningsdossier van dit tweede dossier is vastgesteld op 29 september 2028. Indien het tweede dossier niet wordt uitgevoerd, komt ook de subsidie voor het eerste dossier in gevaar.\n\nDe uitvoering van het tweede dossier is afhankelijk van de voltooiing van het eerste, aangezien de omleidingen voor bewoners van beide projecten elkaar niet mogen hinderen. Daardoor kunnen de werken aan het tweede dossier ten vroegste starten in de loop van 2027.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 3460000.0,
+    "amount_per_capita": 210.55,
+    "yearly_amounts": {
+      "2026": 460000.0,
+      "2027": 2000000.0,
+      "2028": 1000000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 27.99,
+      "2027": 121.71,
+      "2028": 60.85,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-WERK",
+    "ap_short": "Verrichtingen binnen werkingsbudget",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-TD",
+    "ac_short": "technische dienst",
+    "ac_long": "Commentaar:",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 14082117.0,
-    "amount_per_capita": 852.52,
+    "total_amount": 2918440.04,
+    "amount_per_capita": 177.6,
     "yearly_amounts": {
-      "2026": 2254117.0,
-      "2027": 4598000.0,
-      "2028": 3910000.0,
-      "2029": 2560000.0,
-      "2030": 365000.0,
-      "2031": 395000.0
+      "2026": 1458440.04,
+      "2027": 292000.0,
+      "2028": 292000.0,
+      "2029": 292000.0,
+      "2030": 292000.0,
+      "2031": 292000.0
     },
     "yearly_per_capita": {
-      "2026": 136.46,
-      "2027": 278.36,
-      "2028": 236.71,
-      "2029": 154.98,
-      "2030": 22.1,
-      "2031": 23.91
+      "2026": 88.75,
+      "2027": 17.77,
+      "2028": 17.77,
+      "2029": 17.77,
+      "2030": 17.77,
+      "2031": 17.77
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-15",
+    "bd_short": "Met zuiver water",
+    "bd_long": "Kwalitatieve omschrijving: Beernem zet in op een duurzaam, toekomstgericht waterbeleid dat inzet op het bufferen, zuiveren en efficiënt beheren van water, met oog voor waterveiligheid, volksgezondheid, landbouw, natuur en klimaatadaptatie.",
+    "ap_code": "AP-15.2",
+    "ap_short": "Waterzuivering verderzetten",
+    "ap_long": "Water wordt steeds schaarser en kostbaarder. Daarom is het essentieel om afvalwater via een riolering naar een waterzuiveringsinstallatie te leiden. Zo worden schadelijke stoffen verwijderd voordat het water terug in rivieren of de natuur terechtkomt. Dit draagt bij aan een betere rivierkwaliteit en helpt overstromingen te voorkomen. Een gescheiden rioolstelsel zorgt bovendien voor een efficiëntere zuivering.",
+    "ac_code": "AC-15.2.1",
+    "ac_short": "Aansluiting Kasteelhoek, Boereweg, Lijsterhoek / sanering Sint-Joris",
+    "ac_long": "Binnen gemeente Beernem zijn er twee rioleringsprojecten waarvoor subsidies via de Vlaamse Milieumaatschappij (VMM) mogelijk zijn. Deze subsidies zijn onderhevig aan het subsidiëringsbesluit van 2023, dat stelt dat het gunningsdossier uiterlijk vijf jaar na opname in het subsidieprogramma moet worden ingediend. Bij overschrijding van deze termijn vermindert het subsidiebedrag met 5 % per begonnen jaar. Uitzonderingen zijn enkel voorzien bij vertragingen door beroepsprocedures in het kader van de omgevingsvergunning of gerechtelijke procedures bij grondverwerving. Voor projecten uit GIP 2020/2 tot en met GIP 2023 met expliciete deadlines kan het niet naleven van de termijnen leiden tot schrapping van het subsidiedossier.\n\nHet project Aansluiting Kasteelhoek, Boereweg, Lijsterhoek voorziet de aanleg van een gescheiden rioleringsstelsel waarbij de vuilvracht van het bestaande grachtenstelsel wordt afgekoppeld en aangesloten op de DWA-leiding in de Akkerstraat. De Boereweg maakt deel uit van een bovengemeentelijk dossier. De deadline voor het indienen van het gunningsdossier is vastgesteld op 15 september 2027. De uitvoering moet afgestemd worden op geplande werken in de Akkerstraat, Beverhoutsveldstraat en zijstraten, waarbij de omleidingswegen overlappen met de werkzone van dit project.\n\nHet project Sanering Sint-Joris omvat rioleringswerken op zeven locaties: Galgeveld, ’t Hof, Citroenstraat, Oedelemsteenweg, Kauter, Eiland en Sint-Jorisstraat. Deze zones zijn nog niet aangesloten op een RWZI. De deadline voor het indienen van het gunningsdossier is 30 juni 2027. De voortgang van dit project hangt in grote mate af van het tijdig afronden van de noodzakelijke grondverwervingen.\n\nEr is budget voorzien voor één van beide projecten. We maken de keuze afhankelijk van de verdere studie, onteigeningsprocedure en afstemming op andere projecten.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2610000.0,
+    "amount_per_capita": 158.83,
+    "yearly_amounts": {
+      "2026": 230000.0,
+      "2027": 250000.0,
+      "2028": 750000.0,
+      "2029": 1380000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.0,
+      "2027": 15.21,
+      "2028": 45.64,
+      "2029": 83.98,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -48,23 +150,1825 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 5768910.0,
-    "amount_per_capita": 349.24,
+    "total_amount": 2526046.2,
+    "amount_per_capita": 153.72,
     "yearly_amounts": {
-      "2026": 1845899.0,
-      "2027": 1152052.0,
-      "2028": 828548.0,
-      "2029": 679946.0,
-      "2030": 556204.0,
-      "2031": 706261.0
+      "2026": 1262935.2,
+      "2027": 499072.0,
+      "2028": 350568.0,
+      "2029": 86966.0,
+      "2030": 88224.0,
+      "2031": 238281.0
     },
     "yearly_per_capita": {
-      "2026": 111.75,
-      "2027": 69.74,
-      "2028": 50.16,
-      "2029": 41.16,
-      "2030": 33.67,
-      "2031": 42.76
+      "2026": 76.85,
+      "2027": 30.37,
+      "2028": 21.33,
+      "2029": 5.29,
+      "2030": 5.37,
+      "2031": 14.5
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-13",
+    "bd_short": "Duurzaam",
+    "bd_long": "Kwalitatieve omschrijving: We maken van Beernem een klimaatrobuuste, gezonde en aantrekkelijke gemeente door het openbaar domein te ontharden en te vergroenen, infrastructuur duurzaam te renoveren, water slim te beheren en energie en uitstoot te reduceren. We doen dit via gerichte investeringen, slimme regelgeving en consequente handhaving, in nauwe afstemming met partners en inwoners.",
+    "ap_code": "AP-13.2",
+    "ap_short": "Duurzame wegenrenovatie",
+    "ap_long": "Het structureel verbeteren van de kwaliteit, veiligheid en het comfort van de gemeentelijke wegeninfrastructuur. Hierbij wordt aandacht besteed aan het gebruik van duurzame materialen, het verhogen van het fietscomfort, het verbeteren van de toegankelijkheid van het openbaar domein en het integreren van klimaatadaptieve maatregelen. De uitvoering gebeurt op basis van prioriteiten en met een efficiënte inzet van de beschikbare middelen. Voor de uitvoering van deze werken wordt er afgestemd met nutsmaatschappijen en eventuele rioolherstellingen worden mee uitgevoerd.",
+    "ac_code": "AC-13.2.3",
+    "ac_short": "Onderhoud en heraanleg van asfaltwegen",
+    "ac_long": "Deze actie kadert in het beleidsdoel om de wegeninfrastructuur duurzaam te verbeteren. Asfaltverhardingen in slechte staat veroorzaken hinder en verhogen het risico op schade en ongevallen. Een duurzame heraanleg en structureel onderhoud draagt bij aan een langere levensduur, verhoogt de kwaliteit, het rijcomfort en de veiligheid en maakt het openbaar domein toekomstbestendig. \n\nHierbij wordt aandacht besteed aan het gebruik van duurzame technieken, het verhogen van het fietscomfort, het verbeteren van de toegankelijkheid van het openbaar domein en het integreren van klimaatadaptieve maatregelen. De vernieuwing van asfaltverhardingen gebeurt op basis van prioriteiten uit de wegeninventaris en met een efficiënte inzet van de beschikbare middelen. Voor de uitvoering van deze werken wordt afgestemd met nutsmaatschappijen en eventuele rioolherstellingen worden mee uitgevoerd.\n\nWe onderzoeken of we een raamcontract kunnen opmaken voor het uitvoeren van kleine herstellingen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1359368.0,
+    "amount_per_capita": 82.72,
+    "yearly_amounts": {
+      "2026": 544368.0,
+      "2027": 235000.0,
+      "2028": 120000.0,
+      "2029": 220000.0,
+      "2030": 120000.0,
+      "2031": 120000.0
+    },
+    "yearly_per_capita": {
+      "2026": 33.13,
+      "2027": 14.3,
+      "2028": 7.3,
+      "2029": 13.39,
+      "2030": 7.3,
+      "2031": 7.3
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-20",
+    "bd_short": "Sociaal en zorgzaam voor mensen die het moeilijk hebben",
+    "bd_long": "Kwalitatieve omschrijving: Beernem wil een warme, inclusieve en solidaire gemeente zijn waar iedereen die het moeilijk heeft, tijdig en waardig geholpen wordt. Het meerjarenplan gaat uit van een inclusieve aanpak, waarbij de noden van specifieke doelgroepen, ook die van personen met een beperking, geïntegreerd zijn in de verschillende beleidsdomeinen.. Dat garandeert dat er in verschillende beleidsdomeinen aandacht is voor deze specifieke doelgroepen. We versterken ons sociaal beleid door jaarlijks extra middelen te voorzien voor armoedebestrijding en door een schepen met mandaat over alle relevante beleidsdomeinen aan te stellen. We bouwen een nieuw sociaal huis, richten een centraal zorgloket en een zorgcoach op, en optimaliseren de bereikbaarheid en dienstverlening.\n\nWe investeren in outreachend werk via buurtambassadeurs, buurtbuddy’s en dorpspunten, zodat inwoners zich verbonden en veilig voelen in hun wijk. We zetten in op vroegtijdige detectie van kinderarmoede, ondersteunen gezinnen met tussenkomsten in kinderopvang, schoolfacturen en starterspakketten, en streven naar 100 % kleuterparticipatie. Initiatieven als ‘Stop lege brooddozen’ en de brugfiguur zorgen voor gelijke kansen voor elk kind.\n\nWe renoveren onze OCMW-woningen in de Herfststraat en Hoveniersstraat met energiezuinige technieken en zonnepanelen, en blijven investeren in een goed uitgebouwde klusjesdienst, poetsdienst en Proper & Net voor een nette leefomgeving en sociale tewerkstelling. Via REMI- en MELISA-tools bieden we menswaardig inkomen en schuldhulp zonder wachtlijsten.\n\nWe versterken de sociale superette ‘Den Uniek’ en werken samen met De Voedselploeg en lokale handelaars voor voedselhulp. We zetten in op duurzame tewerkstelling via Emino vzw, artikel 60/61, sociale clausules in aanbestedingen, Werkkracht10 en diverse activeringsprojecten. Samenwerking met partners als Covias, welzijnsorganisaties, vrijwilligers en naburige gemeenten garandeert een breed en kwalitatief aanbod van hulp en zorg.\n\nTot slot maken we vrije tijd toegankelijk via het UiTPAS-systeem en laagdrempelige activiteiten, en zorgen we voor automatische toekenning van gemeentelijke premies. Zo bouwen we aan een gemeente waar iedereen kan rekenen op steun, kansen en een menswaardig bestaan.",
+    "ap_code": "AP-20.2",
+    "ap_short": "Optimaliseren van de dienstverlening en bereikbaarheid van het sociaal huis",
+    "ap_long": "Het personeel van het sociaal huis dient op een deftige manier gehuisvest te worden. In het gebouw in de Bloemendalestraat 130 is momenteel een acuut gebrek aan plaats. Het ontvangen van mensen is geen evidentie.  Een nieuw sociaal huis is noodzakelijk om kwalitatieve dienstverlening te garanderen, in een omgeving die privacy, bereikbaarheid en duurzaamheid combineert. Tevens moet dit nieuw gebouw voldoen aan de normen inzake duurzaamheid, isolatie …",
+    "ac_code": "AC-20.2.1",
+    "ac_short": "Bouw van een nieuw sociaal huis",
+    "ac_long": "Tegen eind 2028 realiseren we de bouw van een nieuw sociaal huis dat voldoet aan de huidige duurzaamheids- en isolatienormen, voldoende ruimte biedt voor het aantal medewerkers, en vlot bereikbaar is voor alle inwoners.\n\nNadat de bouw van het nieuw sociaal huis gerealiseerd is, wordt de huidige huisvesting verkocht.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1200000.0,
+    "amount_per_capita": 73.02,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 1100000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 6.09,
+      "2028": 66.94,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-WERK",
+    "ap_short": "Verrichtingen binnen werkingsbudget",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-SPORT",
+    "ac_short": "Sport",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 788930.0,
+    "amount_per_capita": 48.01,
+    "yearly_amounts": {
+      "2026": 379030.0,
+      "2027": 215980.0,
+      "2028": 55980.0,
+      "2029": 45980.0,
+      "2030": 45980.0,
+      "2031": 45980.0
+    },
+    "yearly_per_capita": {
+      "2026": 23.07,
+      "2027": 13.14,
+      "2028": 3.41,
+      "2029": 2.8,
+      "2030": 2.8,
+      "2031": 2.8
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-7",
+    "bd_short": "Met een betere mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem wil een veilig, leefbaar en duurzaam mobiliteitsbeleid uitbouwen. We nemen maatregelen om de verkeersveiligheid te verhogen, voeren een doordacht parkeerbeleid en investeren in kwalitatieve fietsverbindingen. Daarnaast versterken we het openbaar vervoer en deelmobiliteit, en zetten we in op verkeerseducatie en sensibilisering. Zo zorgen we voor vlotte, veilige en duurzame verplaatsingen die de leefbaarheid en verbondenheid van onze dorpen versterken.",
+    "ap_code": "AP-7.2",
+    "ap_short": "Herinrichting straten en pleinen",
+    "ap_long": "Gemeente Beernem wil de kwaliteit, veiligheid en leefbaarheid van haar straten en pleinen verbeteren. Via monitoring, vernieuwing, vergroening en herinrichting wordt ingezet op een verkeersveilige, duurzame en aantrekkelijke openbare ruimte.",
+    "ac_code": "AC-7.2.3",
+    "ac_short": "Vernieuwen van de Wellingstraat (gemeenteweg)",
+    "ac_long": "We vernieuwen de Wellingstraat, het gedeelte tussen het kruispunt met de Parkstraat en de brug over de spoorweg. Deze vernieuwing kadert binnen een ruimer mobiliteitsproject voor het vierkant Parkstraat – Wellingstraat – H. d’Ydewallestraat – Stationsstraat, met als doel de doorstroming en verkeersveiligheid te verbeteren. Dit project is opgenomen in het mobiliteitsplan dat werd goedgekeurd door de gemeenteraad op 22 februari 2018. Een studiebureau werd reeds aangesteld en het voorontwerp werd afgetoetst bij de bewoners.\n\nDe herinrichting moet leiden tot een meetbare verbetering van de verkeersveiligheid, met een daling van het aantal meldingen van gevaarlijke situaties. \n\nHet ontwerp is afgestemd met bewoners via participatie.\n\nDe werken aan de Wellingstraat starten pas nadat de Vlaamse Overheid het kruispunt H. d’Ydewallestraat/Wingene Steenweg heeft ingericht als lichtengeregeld kruispunt, voorzien in de tweede helft van 2026. De uitvoering van de Wellingstraat zelf is gepland voor voorjaar 2027.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 650000.0,
+    "amount_per_capita": 39.55,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 650000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 39.55,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-WERK",
+    "ap_short": "Verrichtingen binnen werkingsbudget",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-MIL",
+    "ac_short": "Milieu",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 615000.0,
+    "amount_per_capita": 37.42,
+    "yearly_amounts": {
+      "2026": 615000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 37.42,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-WERK",
+    "ap_short": "Verrichtingen binnen werkingsbudget",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-PAT-TD",
+    "ac_short": "Patrimonium (privaat)",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 588520.0,
+    "amount_per_capita": 35.81,
+    "yearly_amounts": {
+      "2026": 98520.0,
+      "2027": 85000.0,
+      "2028": 70000.0,
+      "2029": 195000.0,
+      "2030": 70000.0,
+      "2031": 70000.0
+    },
+    "yearly_per_capita": {
+      "2026": 6.0,
+      "2027": 5.17,
+      "2028": 4.26,
+      "2029": 11.87,
+      "2030": 4.26,
+      "2031": 4.26
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-9",
+    "bd_short": "Met een efficiënt werkende technische dienst",
+    "bd_long": "Kwalitatieve omschrijving: We versterken de werking van onze technische dienst door te investeren in moderne uitrusting, duurzame voertuigen en slimme uitbesteding. Zo verhogen we de efficiëntie, beperken we de ecologische impact en garanderen we een kwalitatieve uitvoering van taken in de openbare ruimte. Door het combineren van interne capaciteit met externe expertise zorgen we voor een flexibele, toekomstgerichte en milieubewuste aanpak van het gemeentelijk beheer.",
+    "ap_code": "AP-9.1",
+    "ap_short": "Vervangen rollend materiaal en voorzien van de nodige gereedschappen en werktuigen",
+    "ap_long": "De gemeente investeert in een toekomstgerichte en efficiënte uitrusting voor haar technische diensten. Door voertuigen en werktuigen tijdig te vervangen en te kiezen voor elektrische alternatieven, beperken we de ecologische impact. Tegelijk zorgen we voor veilige en vlotte uitvoering van werken op hoogte via een structurele huur van een hoogtewerker.",
+    "ac_code": "AC-9.1.1",
+    "ac_short": "Aankoop voertuigen",
+    "ac_long": "Om de werking te optimaliseren worden deze legislatuur voer- en werktuigen vervangen waar nodig. We kiezen zo veel mogelijk voor elektrische voer- en werktuigen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 560000.0,
+    "amount_per_capita": 34.08,
+    "yearly_amounts": {
+      "2026": 130000.0,
+      "2027": 130000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 75000.0,
+      "2031": 75000.0
+    },
+    "yearly_per_capita": {
+      "2026": 7.91,
+      "2027": 7.91,
+      "2028": 4.56,
+      "2029": 4.56,
+      "2030": 4.56,
+      "2031": 4.56
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-18",
+    "bd_short": "In beweging en gezond",
+    "bd_long": "Kwalitatieve omschrijving: Beernem kiest  voor gezondheid: we stimuleren beweging, investeren in preventie en mentaal welzijn, en bouwen aan een inclusieve, zorgzame en veerkrachtige gemeenschap waar iedereen zich goed kan voelen.",
+    "ap_code": "AP-18.1",
+    "ap_short": "Optimalisatie- en efficiëntieoefening van onze voetbalaccommodaties",
+    "ap_long": "Gemeente Beernem zet de komende jaren sterk in op het verbeteren en verduurzamen van haar sportinfrastructuur. In het kader van de toenemende drukte op de voetbalaccommodaties door samenwerkingen en fusies tussen verenigingen, worden drie gerichte acties ondernomen die leiden tot een efficiënter gebruik van de accommodaties.",
+    "ac_code": "AC-18.1.2",
+    "ac_short": "Kunstgrasveld voetbal Drogenbrood",
+    "ac_long": "Door de toenemende drukte op de voetbalaccommodatie in Beernem is er nood aan bijkomende en meer flexibele speelcapaciteit.\n\nDe aanleg van een kunstgrasveld op terrein 2 in Drogenbrood biedt een structurele oplossing. Dit terrein is momenteel in slechte staat, met veel stenen in de bodem, wat de jaarlijkse heraanleg bemoeilijkt.\n\nDaarnaast investeert Vlaanderen actief in sportinfrastructuur via een subsidiereglement voor kunstgrasvelden, met prioriteit voor jeugdsportactiviteiten. De indienperiode loopt tot 31 december 2025, of eerder indien het jaarlijks budget van € 3 miljoen bereikt is. De subsidie bedraagt maximaal 20 % van het aanvaarde investeringsbedrag, wat in dit geval neerkomt op maximaal € 110.000. De minister kondigde aan dat er ook in 2026 en 2027 een nieuw voorstel van subsidiereglement zal worden voorgelegd voor investeringen in kunstgrasvelden.\n\nDe aanleg wordt afgestemd met de betrokken club en de sportdienst, waarbij rekening wordt gehouden met de gebruiksintensiteit.\n\nDe voorbereiding start in 2025. De uitvoering en ingebruikname is voorzien in 2027, zodat het terrein operationeel is voor het sportseizoen 2027–2028.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 550000.0,
+    "amount_per_capita": 33.47,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 550000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 33.47,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-23",
+    "bd_short": "Zorgzaam voor onze kinderen en jongeren",
+    "bd_long": "Kwalitatieve omschrijving: We willen dat elk kind en elke jongere in Beernem kan opgroeien in een omgeving waar zorg, veiligheid en kansen centraal staan. Door samen te werken met gezinnen, partners en verenigingen bouwen we aan een netwerk van ondersteuning, opvang en ontspanning. We streven naar een gemeente waar kinderen en jongeren zich thuis voelen, hun talenten kunnen ontwikkelen en waar hun welzijn en participatie voorop staan.",
+    "ap_code": "AP-23.7",
+    "ap_short": "Optimaliseren infrastructuur voor de jeugdverenigingen",
+    "ap_long": "Goede infrastructuur voor jeugdverenigingen is fundamenteel voor hun werking en groei. Jeugdverenigingen hebben nood aan een goed uitgeruste en veilige locatie.",
+    "ac_code": "AC-23.7.1",
+    "ac_short": "Nieuwbouw jeugdlokaal Beukendreef (Oranje)",
+    "ac_long": "We bouwen een nieuwbouw voor jeugdvereniging Oranje, die het gebouw zal delen met de BKO en eventueel andere gebruikers. We willen hiermee een duurzame en multifunctionele infrastructuur realiseren die voldoet aan de noden van de verschillende gebruikers.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 400000.0,
+    "amount_per_capita": 24.34,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 400000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 24.34,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-16",
+    "bd_short": "Afvalarm",
+    "bd_long": "Kwalitatieve omschrijving: Het gemeentebestuur streeft naar een significante vermindering van de afvalproductie en een optimalisatie van het afvalbeheer in Beernem en de omliggende gemeenten. Dit gebeurt via een reeks gerichte acties die inzetten op preventie, sortering, hergebruik en intergemeentelijke samenwerking. De doelstelling sluit aan bij het Lokaal Materialenplan en het Materialenplan 2023–2030, met als ambitie om het restafval per inwoner terug te dringen tot 90 kg per jaar tegen 2030. \n\nDe acties zijn financieel onderbouwd, worden gefaseerd ingevoerd en zijn gericht op gedragsverandering bij inwoners, ondernemers en bezoekers. Het beleid draagt bij aan een circulaire toekomst en een propere leefomgeving.",
+    "ap_code": "AP-16.2",
+    "ap_short": "Een intergemeentelijk recyclagepark",
+    "ap_long": "We vormen het gemeentelijk recyclagepark om tot een intergemeentelijk recyclagepark.\n\nBeernem droeg op 01/07/2023 het beheer van het recyclagepark over aan IVBO. Hiertoe sloot IVBO met de gemeente een beheersovereenkomst af m.b.t. de uitbating van het recyclagepark en een bruikleenovereenkomst m.b.t. de gronden en gebouwen van het recyclagepark. \n\nHet doel van de overdracht van het beheer van het recyclagepark aan IVBO is om de gemeentelijke recyclageparken om te vormen tot intergemeentelijke recyclageparken. Hierbij gaat IVBO voor de recyclageparken over tot een uniforme uitbating onder uniforme voorwaarden (tarief, sorteerregels, infrastructuur, etc.). Dit betekent ook dat inwoners, na de invoering van de intergemeentelijke recyclageparken, over de gemeentegrenzen heen een recyclagepark kunnen bezoeken.\n\nTiming opstart intergemeentelijke werking: \n–1 januari 2026: opstart intergemeentelijke werking recyclageparken Beernem, Brugge, Oostkamp en Zedelgem.\n–Januari/februari 2026: herinrichting recyclagepark Beernem. De inwoners van Beernem kunnen tijdens de sluiting terecht op de recyclageparken van Brugge en Oostkamp.\n–Maart/april 2026: herinrichting recyclagepark Zedelgem. De inwoners van Zedelgem kunnen tijdens de sluiting terecht op de recyclageparken van Beernem, Brugge en Oostkamp. \n–Vanaf mei 2026: de inwoners van Beernem, Brugge, Oostkamp en Zedelgem kunnen terecht op alle recyclageparken in die 4 gemeenten.",
+    "ac_code": "AC-16.2.2",
+    "ac_short": "Herinrichting van het recyclagepark met twee weegbruggen",
+    "ac_long": "De wettelijke verplichting (Lokaal Materialenplan 2023-2030) stelt dat het restafvalcijfer van Beernem tegen 2030 moet dalen tot 90 kg/inwoner/jaar (2024: 130 kg/inwoner).\n\nVoor de omvorming tot intergemeentelijk recyclagepark en de correcte registratie van het ingezameld afval is een gewichtsDifTar-systeem een must. Hiertoe worden 2 weegbruggen geïnstalleerd. Dit vereist de herinrichting van het recyclagepark.\n\nDe vooropgestelde herinrichting in 2026 omvat 5 onderdelen:\n–Herinrichting met indeling in een gratis zone en een betalende zone\n–Installatie 2 weegbruggen (incl. hardware, software, slagbomen) voor de betalende zone\n–Behoud afdak en bijplaatsen extra overkapping voor elektro en KGA\n–Vervangen portiershuis\n–Plaatsen verlichtingsarmaturen i.f.v. zichtbaarheid/veiligheid ‘s avonds in de winterperiode",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 388745.0,
+    "amount_per_capita": 23.66,
+    "yearly_amounts": {
+      "2026": 388745.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 23.66,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-20",
+    "bd_short": "Sociaal en zorgzaam voor mensen die het moeilijk hebben",
+    "bd_long": "Kwalitatieve omschrijving: Beernem wil een warme, inclusieve en solidaire gemeente zijn waar iedereen die het moeilijk heeft, tijdig en waardig geholpen wordt. Het meerjarenplan gaat uit van een inclusieve aanpak, waarbij de noden van specifieke doelgroepen, ook die van personen met een beperking, geïntegreerd zijn in de verschillende beleidsdomeinen.. Dat garandeert dat er in verschillende beleidsdomeinen aandacht is voor deze specifieke doelgroepen. We versterken ons sociaal beleid door jaarlijks extra middelen te voorzien voor armoedebestrijding en door een schepen met mandaat over alle relevante beleidsdomeinen aan te stellen. We bouwen een nieuw sociaal huis, richten een centraal zorgloket en een zorgcoach op, en optimaliseren de bereikbaarheid en dienstverlening.\n\nWe investeren in outreachend werk via buurtambassadeurs, buurtbuddy’s en dorpspunten, zodat inwoners zich verbonden en veilig voelen in hun wijk. We zetten in op vroegtijdige detectie van kinderarmoede, ondersteunen gezinnen met tussenkomsten in kinderopvang, schoolfacturen en starterspakketten, en streven naar 100 % kleuterparticipatie. Initiatieven als ‘Stop lege brooddozen’ en de brugfiguur zorgen voor gelijke kansen voor elk kind.\n\nWe renoveren onze OCMW-woningen in de Herfststraat en Hoveniersstraat met energiezuinige technieken en zonnepanelen, en blijven investeren in een goed uitgebouwde klusjesdienst, poetsdienst en Proper & Net voor een nette leefomgeving en sociale tewerkstelling. Via REMI- en MELISA-tools bieden we menswaardig inkomen en schuldhulp zonder wachtlijsten.\n\nWe versterken de sociale superette ‘Den Uniek’ en werken samen met De Voedselploeg en lokale handelaars voor voedselhulp. We zetten in op duurzame tewerkstelling via Emino vzw, artikel 60/61, sociale clausules in aanbestedingen, Werkkracht10 en diverse activeringsprojecten. Samenwerking met partners als Covias, welzijnsorganisaties, vrijwilligers en naburige gemeenten garandeert een breed en kwalitatief aanbod van hulp en zorg.\n\nTot slot maken we vrije tijd toegankelijk via het UiTPAS-systeem en laagdrempelige activiteiten, en zorgen we voor automatische toekenning van gemeentelijke premies. Zo bouwen we aan een gemeente waar iedereen kan rekenen op steun, kansen en een menswaardig bestaan.",
+    "ap_code": "AP-20.3",
+    "ap_short": "Renovatie patrimonium sociaal huis",
+    "ap_long": "We doen een energetische renovatie van onze OCMW-woningen.",
+    "ac_code": "AC-20.3.2",
+    "ac_short": "Renovatie OCMW-woningen in de Hoveniersstraat",
+    "ac_long": "De verwarmingsinstallaties in de OCMW-woningen in de Hoveniersststraat worden vernieuwd en op elk dak worden zonnepanelen geïnstalleerd.\n\nDit project is de eerste concrete stap richting een CO₂-neutraal patrimonium van het OCMW en kadert binnen het halen van de energiedoelstellingen en in het kader van het strategisch vastgoedplan.\n\nDe nieuwe verwarmingssystemen zullen energiezuinig zijn, bij voorkeur op basis van een warmtepomp of hybride technologie.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 368781.71,
+    "amount_per_capita": 22.44,
+    "yearly_amounts": {
+      "2026": 288781.71,
+      "2027": 0,
+      "2028": 80000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.57,
+      "2027": 0,
+      "2028": 4.87,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-8",
+    "bd_short": "Met meer ontmoetingskansen",
+    "bd_long": "Kwalitatieve omschrijving: We versterken de sociale cohesie en het gemeenschapsgevoel in Beernem door te investeren in toegankelijke ontmoetingsplekken, verbindende activiteiten en laagdrempelige dienstverlening. Via de bibliotheek, gemeenschapscentra, buurtgerichte zorg en samenwerking met partners creëren we kansen voor ontmoeting, kunst, cultuur ontwikkeling en inclusie voor alle inwoners.",
+    "ap_code": "AP-8.3",
+    "ap_short": "Investeren in bestaande en nieuwe gemeenschapscentra",
+    "ap_long": "We voorzien veilige, toegankelijke en goed uitgeruste ruimtes voor cultuur, ontmoeting en gemeenschapsvorming door de bestaande locaties beter uit te rusten en te investeren in extra locaties.",
+    "ac_code": "AC-8.3.1",
+    "ac_short": "Renovatie Bargegebouw",
+    "ac_long": "Het dak (dakbedekking en isolatie) en het buitenschrijnwerk van het Bargegebouw worden volledig gerenoveerd. Zo maken we het gebouw wind- en waterdicht en meer energie-efficiënt conform de huidige normen. We verwachten een daling van het warmteverlies van het gebouw met minstens 20 %.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 350000.0,
+    "amount_per_capita": 21.3,
+    "yearly_amounts": {
+      "2026": 350000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 21.3,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-WERK",
+    "ap_short": "Verrichtingen binnen werkingsbudget",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-ERF",
+    "ac_short": "Erfgoed",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 312400.0,
+    "amount_per_capita": 19.01,
+    "yearly_amounts": {
+      "2026": 312400.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 19.01,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-8",
+    "bd_short": "Met meer ontmoetingskansen",
+    "bd_long": "Kwalitatieve omschrijving: We versterken de sociale cohesie en het gemeenschapsgevoel in Beernem door te investeren in toegankelijke ontmoetingsplekken, verbindende activiteiten en laagdrempelige dienstverlening. Via de bibliotheek, gemeenschapscentra, buurtgerichte zorg en samenwerking met partners creëren we kansen voor ontmoeting, kunst, cultuur ontwikkeling en inclusie voor alle inwoners.",
+    "ap_code": "AP-8.3",
+    "ap_short": "Investeren in bestaande en nieuwe gemeenschapscentra",
+    "ap_long": "We voorzien veilige, toegankelijke en goed uitgeruste ruimtes voor cultuur, ontmoeting en gemeenschapsvorming door de bestaande locaties beter uit te rusten en te investeren in extra locaties.",
+    "ac_code": "AC-8.3.5",
+    "ac_short": "Renovatie parochiezaal Oostveld",
+    "ac_long": "De parochiezaal van Oostveld wordt gerenoveerd met als doel het gebouw energiezuinig, veilig, functioneel en toegankelijk te maken. Het is de bedoeling om het energieverbruik met minstens 25 % te doen dalen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 250000.0,
+    "amount_per_capita": 15.21,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 125000.0,
+      "2028": 125000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 7.61,
+      "2028": 7.61,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-WERK",
+    "ap_short": "Verrichtingen binnen werkingsbudget",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-SCH-TD",
+    "ac_short": "Gemeenteschool - gebouwen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 238453.0,
+    "amount_per_capita": 14.51,
+    "yearly_amounts": {
+      "2026": 238453.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.51,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-15",
+    "bd_short": "Met zuiver water",
+    "bd_long": "Kwalitatieve omschrijving: Beernem zet in op een duurzaam, toekomstgericht waterbeleid dat inzet op het bufferen, zuiveren en efficiënt beheren van water, met oog voor waterveiligheid, volksgezondheid, landbouw, natuur en klimaatadaptatie.",
+    "ap_code": "AP-15.1",
+    "ap_short": "Herwaardering van onze (baan)grachten en waterlopen",
+    "ap_long": "Gemeente Beernem investeert in duurzame en doordachte regenwaterbuffering om wateroverlast te beperken en het beheer van bufferbekkens te optimaliseren. Door samen te werken met partners zoals de provincie en Aquafin zorgen we voor een toekomstgerichte aanpak die rekening houdt met zowel hydrologische als agrarische belangen.",
+    "ac_code": "AC-15.1.1.",
+    "ac_short": "Plan van aanpak voor het bufferbekken Smallemate",
+    "ac_long": "Momenteel wordt het bufferbekken Smallemate niet onderhouden. We onderzoeken de mogelijkheden om het onderhoud van het bufferbeken Smallemate over te dragen aan de provincie. Dit betekent dat het bufferbekken in goede staat moet zijn en dat er ook erfdienstbaarheden moeten voorzien zijn om het bekken te kunnen onderhouden.\n\nWe stellen een plan van aanpak op met e stappen, betrokken partijen en deadlines.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 235000.0,
+    "amount_per_capita": 14.3,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 35000.0,
+      "2028": 60000.0,
+      "2029": 120000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.22,
+      "2027": 2.13,
+      "2028": 3.65,
+      "2029": 7.3,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-3",
+    "bd_short": "Onze landbouwers tellen mee",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem wil landbouwers ondersteunen als partners in een duurzame, leefbare en economisch sterke gemeente. We investeren in infrastructuur, samenwerking en promotie om de sector toekomstgericht te versterken. Via initiatieven zoals een centraal captatiepunt, jaarlijkse netwerkmomenten, stimulansen voor landbouwverbreding en de renovatie van dreven en duikers in het Beverhoutsveld zetten we in op klimaatadaptatie, erfgoedzorg en lokale voedselproductie. Zo bouwen we aan een veerkrachtige landbouwsector die stevig verankerd is in onze gemeenschap en bijdraagt aan een kwaliteitsvolle leefomgeving.",
+    "ap_code": "AP-3.1",
+    "ap_short": "Samen voor een toekomstgerichte landbouw",
+    "ap_long": "Het lokaal bestuur erkent de waarde van landbouwers als actieve partners in een duurzame, leefbare en economisch sterke gemeente. We willen hun werking versterken door te investeren in infrastructuur, samenwerking en promotie. Via gerichte acties zoals de aanleg van een centraal captatiepunt, het organiseren van jaarlijkse netwerkmomenten, het stimuleren van landbouwverbreding en het renoveren van dreven en duikers in het Beverhoutsveld, bouwen we aan een toekomstgerichte landbouwsector. Deze doelstelling draagt bij aan klimaatadaptatie, erfgoedzorg, lokale voedselproductie en een versterkte band tussen landbouwers en de gemeenschap.",
+    "ac_code": "AC-3.1.4",
+    "ac_short": "Renovatieprogramma voor dreven en duikers in Beverhoutsveld",
+    "ac_long": "Het Beverhoutsveld is als ankerplaats in de landschapsatlas een heel waardevol, levend en evoluerend historisch landschap. Veel dreven en duikers zijn verouderd en voldoen niet meer aan de huidige veiligheids- en gebruikseisen. Dit kan leiden tot verminderde functionaliteit en verhoogde risico's voor gebruikers. Duikers kunnen instorten door het zwaardere landbouwmaterieel. De huidige dreven zijn ook hier niet meer op voorzien.  Door te investeren in de herstellingen en modernisering van deze duikers en dreven, kunnen landbouwers en loonwerkers beter toegang krijgen tot de percelen en kan het historische landschap bewaard blijven. Tot slot is dit ook bevorderlijk voor de vele wandelaars en fietser in het gebied.\n\nEr moet een behoud en herstel van dreven als historische, landschappelijk en ecologisch waardevolle structuren zijn alsook renovatie/restauratie en versterking van duikers om waterafvoer en klimaatadaptatie te verzekeren maar ook aangepast aan het huidig en zwaardere landbouwmateriaal. De gemeente verhoogt hiermee ook de veiligheid omdat we investeren in stabiele en goed onderhouden infrastructuur.\n\nWe voeren dit gefaseerd uit en steeds met respect en maximaal behoud van de natuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 213000.0,
+    "amount_per_capita": 12.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 53000.0,
+      "2028": 0,
+      "2029": 60000.0,
+      "2030": 0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.23,
+      "2028": 0,
+      "2029": 3.65,
+      "2030": 0,
+      "2031": 6.09
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-13",
+    "bd_short": "Duurzaam",
+    "bd_long": "Kwalitatieve omschrijving: We maken van Beernem een klimaatrobuuste, gezonde en aantrekkelijke gemeente door het openbaar domein te ontharden en te vergroenen, infrastructuur duurzaam te renoveren, water slim te beheren en energie en uitstoot te reduceren. We doen dit via gerichte investeringen, slimme regelgeving en consequente handhaving, in nauwe afstemming met partners en inwoners.",
+    "ap_code": "AP-13.1",
+    "ap_short": "Verfraaiing en klimaatadaptieve inrichting van het openbaar domein",
+    "ap_long": "Het inrichten van een duurzaam, toegankelijk en aantrekkelijk openbaar domein met aandacht voor ontharding, vergroening, verkeersveiligheid en toegankelijkheid. De herinrichting versterkt de ruimtelijke en de leefkwaliteit, stimuleert ontmoeting en draagt bij aan een klimaatadaptieve omgeving.",
+    "ac_code": "AC-13.1.1",
+    "ac_short": "Heraanleg van het gemeenteplein",
+    "ac_long": "Het gemeenteplein in Beernem wordt heraangelegd tot een aantrekkelijke, toegankelijke en multifunctionele publieke ruimte met aandacht voor ontharding, vergroening, toegankelijkheid en integratie van een ceremoniële ruimte, afgestemd op de noden van diverse gebruikers.\n\nHet gemeenteplein is immers verouderd en voldoet niet meer aan de huidige noden op vlak van duurzaamheid, toegankelijkheid en beleving. De heraanleg is nodig om het plein te transformeren tot een klimaatadaptieve, onderhoudsvriendelijke, groene en multifunctionele ruimte.  \n\nBij de volledige heraanleg van het gemeenteplein met ontharding, aanleg van groenzones en inrichting van een ceremoniële ruimte wordt bij het ontwerp aandacht besteed aan de toegankelijkheid en de noden van de diverse gebruikers. Deze werken worden afgestemd met de nutsmaatschappijen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 195000.0,
+    "amount_per_capita": 11.87,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 195000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 11.87,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-7",
+    "bd_short": "Met een betere mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem wil een veilig, leefbaar en duurzaam mobiliteitsbeleid uitbouwen. We nemen maatregelen om de verkeersveiligheid te verhogen, voeren een doordacht parkeerbeleid en investeren in kwalitatieve fietsverbindingen. Daarnaast versterken we het openbaar vervoer en deelmobiliteit, en zetten we in op verkeerseducatie en sensibilisering. Zo zorgen we voor vlotte, veilige en duurzame verplaatsingen die de leefbaarheid en verbondenheid van onze dorpen versterken.",
+    "ap_code": "AP-7.3",
+    "ap_short": "Uitbreiden van het fietspadennet",
+    "ap_long": "Gemeente Beernem wil het fietsverkeer stimuleren en de verkeersveiligheid verhogen door het fietspadennet uit te breiden. In samenwerking met provincie West-Vlaanderen worden nieuwe fietspaden aangelegd op strategische locaties, en wordt er actief geijverd voor bijkomende infrastructuur langs gewestwegen. We blijven ijveren voor de aanleg van een veilige fietsverbinding tussen Beernem en Wingene.",
+    "ac_code": "AC-7.3.2",
+    "ac_short": "Fietspad in de Beekstraat",
+    "ac_long": "Gemeente Beernem wenst een veilig fietspad aan te leggen in de Beekstraat, tussen het rondpunt Den Doorn en de grens met Oostkamp. De provincie treedt op als bouwheer en heeft reeds een studie opgestart. De gemeente engageert zich om de nodige onteigeningen op te starten en voorziet hiervoor de nodige kredieten.\n\nHet doel is bereikt wanneer de onteigeningsprocedure is opgestart en afgerond, en het fietspad effectief is aangelegd. De voortgang wordt gemeten aan de hand van de status van de studie, het aantal afgeronde onteigeningen en de start van de werken.\n\nDe samenwerking met de provincie en de betrokken gemeenten is realistisch en gebaseerd op bestaande engagementen. Gemeente Beernem neemt een actieve rol op in het proces door de onteigeningen te faciliteren.\n\nHoewel de timing van de werken onzeker is door andere geplande infrastructuurprojecten en de impact daarvan op de bereikbaarheid van de E40, is het opstarten van de onteigeningen een haalbare en noodzakelijke eerste stap binnen deze legislatuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 9.13,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 4.56,
+      "2028": 4.56,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-8",
+    "bd_short": "Met meer ontmoetingskansen",
+    "bd_long": "Kwalitatieve omschrijving: We versterken de sociale cohesie en het gemeenschapsgevoel in Beernem door te investeren in toegankelijke ontmoetingsplekken, verbindende activiteiten en laagdrempelige dienstverlening. Via de bibliotheek, gemeenschapscentra, buurtgerichte zorg en samenwerking met partners creëren we kansen voor ontmoeting, kunst, cultuur ontwikkeling en inclusie voor alle inwoners.",
+    "ap_code": "AP-8.3",
+    "ap_short": "Investeren in bestaande en nieuwe gemeenschapscentra",
+    "ap_long": "We voorzien veilige, toegankelijke en goed uitgeruste ruimtes voor cultuur, ontmoeting en gemeenschapsvorming door de bestaande locaties beter uit te rusten en te investeren in extra locaties.",
+    "ac_code": "AC-8.3.7",
+    "ac_short": "Renovatie van stookplaats en ventilatiesysteem van O.C. De Kleine Beer",
+    "ac_long": "Een grondige renovatie van de stookplaats en het ventilatiesysteem is noodzakelijk om de bedrijfszekerheid te garanderen, het energieverbruik te verminderen en het binnenklimaat te verbeteren. Door de integratie van een gebouwenbeheersysteem (GBS) kan het technisch beheer bovendien efficiënter verlopen: temperatuur en ventilatie worden dan per ruimte gestuurd en opgevolgd.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 9.13,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 75000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.56,
+      "2027": 4.56,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-WERK",
+    "ap_short": "Verrichtingen binnen werkingsbudget",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-RECY",
+    "ac_short": "Recyclagepark",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 137413.0,
+    "amount_per_capita": 8.36,
+    "yearly_amounts": {
+      "2026": 137413.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-7",
+    "bd_short": "Met een betere mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem wil een veilig, leefbaar en duurzaam mobiliteitsbeleid uitbouwen. We nemen maatregelen om de verkeersveiligheid te verhogen, voeren een doordacht parkeerbeleid en investeren in kwalitatieve fietsverbindingen. Daarnaast versterken we het openbaar vervoer en deelmobiliteit, en zetten we in op verkeerseducatie en sensibilisering. Zo zorgen we voor vlotte, veilige en duurzame verplaatsingen die de leefbaarheid en verbondenheid van onze dorpen versterken.",
+    "ap_code": "AP-7.4",
+    "ap_short": "Duurzame mobiliteit",
+    "ap_long": "Gemeente Beernem wil de mobiliteit duurzamer, toegankelijker en toekomstgericht maken. Via gerichte investeringen in laadinfrastructuur, deelmobiliteit, Hoppinpunten en toegankelijke haltes wordt het aanbod verbreed en de overstap naar milieuvriendelijke vervoersmiddelen vergemakkelijkt. \nWe blijven ijveren voor het verbeteren van het aanbod openbaar vervoer. Hiervoor onderhandelen we met NMBS bv. voor extra piekuurtreinen en een halfuurfrequentie van en naar Brugge en met De Lijn bv. voor een beter ontsluiting van Oostveld.",
+    "ac_code": "AC-7.4.2",
+    "ac_short": "Inrichten Hoppinpunten",
+    "ac_long": "Gemeente Beernem streeft ernaar om tegen 2030 alle Hoppinpunten op haar grondgebied in te richten, in uitvoering van het decreet basisbereikbaarheid. \n\nBinnen de vervoerregio Brugge zijn 5 Hoppinpunten vastgelegd op ons grondgebied. 2 ervan werden reeds gerealiseerd in samenwerking met het Vlaamse Gewest (Hoppinpunt Oedelem Dorp en Hoppinpunt Beernem).\n\nEr zijn nog 3 Hoppinpunten, gelegen langs gemeentewegen, in te richten. \n–Hoppinpunt Beernem Station (regionaal): Dit werd reeds grotendeels voorzien bij de herinrichting van de stationsomgeving. Hier gaat het voornamelijk nog om het realiseren van een toegankelijke halte voor de opstappers richting Brugge en het plaatsen van een hoppinzuil.\n–Hoppinpunt Sint-Joris (lokaal): We onderzoeken nog de meest geschikte locatie voor de praktische inpassing van het hoppinpunt in het openbaar domein. Daarna richten we ook deze locatie in.\n–Hoppinpunt Oedelem Oostveld (buurt): We onderzoeken de mogelijkheid om het hoppinpunt in te richten aan de voorzijde van de kerk. Hiervoor starten we onderhandelingen op met de eigenaar. Daarna maken we een ontwerp op dat in uitvoering kan gaan. Na de inrichting overleggen we met de vervoerregioraad om ook in Oostveld elektrische fietsen te bekomen.\n\nDe gemeente beschikt over de nodige ondersteuning van het Vlaamse Gewest en de vervoerregio.\n\nVoor een lokaal Hoppinpunt en buurthoppinpunt kan 100 % subsidie bekomen worden, voor een regionaal hoppinpunt 50 %.\n\nDe regionale en lokale Hoppinpunten zijn prioritair. Deze worden eerst aangepakt. Voor het ontwerp en de begeleiding voor de uitwerking van de hoppinpunten Sint-Joris en Station werd reeds een studiebureau aangesteld.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 135000.0,
+    "amount_per_capita": 8.22,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 5000.0,
+      "2029": 70000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.65,
+      "2027": 0,
+      "2028": 0.3,
+      "2029": 4.26,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-7",
+    "bd_short": "Met een betere mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem wil een veilig, leefbaar en duurzaam mobiliteitsbeleid uitbouwen. We nemen maatregelen om de verkeersveiligheid te verhogen, voeren een doordacht parkeerbeleid en investeren in kwalitatieve fietsverbindingen. Daarnaast versterken we het openbaar vervoer en deelmobiliteit, en zetten we in op verkeerseducatie en sensibilisering. Zo zorgen we voor vlotte, veilige en duurzame verplaatsingen die de leefbaarheid en verbondenheid van onze dorpen versterken.",
+    "ap_code": "AP-7.1",
+    "ap_short": "Maatregelen om de verkeersveiligheid te verhogen",
+    "ap_long": "Gemeente Beernem wil de verkeersveiligheid verhogen door gerichte infrastructurele en technologische maatregelen. Dit actieplan bundelt twee concrete acties die bijdragen aan het weren van zwaar verkeer uit woonzones en het verbeteren van handhaving en monitoring. Met deze acties zet Beernem concrete stappen richting een veiliger en leefbaarder verkeer. Door infrastructuur en technologie te combineren, wordt zowel de fysieke als de digitale verkeersomgeving geoptimaliseerd. Dit draagt bij aan een duurzame mobiliteitsvisie waarin veiligheid centraal staat.",
+    "ac_code": "AC-7.1.2",
+    "ac_short": "ANPR-camera’s",
+    "ac_long": "De gemeente plaatst bijkomende ANPR-camera’s op strategische locaties binnen het grondgebied. Deze camera’s dienen enerzijds voor het monitoren van voertuigen in het kader van algemene veiligheid en het voorkomen van inbraken, en anderzijds voor het controleren van snelheden ter bevordering van de verkeersveiligheid (plaatselijk of via trajectcontrole).\n\nDe doelstelling wordt gedragen door de betrokken diensten en gerealiseerd in nauwe samenwerking met politiezone Het Houtsche, die mee de locaties bepaalt.\n\nDe uitbreiding is haalbaar binnen het beschikbare budget en de technische mogelijkheden. De samenwerking met de politiezone zorgt voor een onderbouwde en efficiënte plaatsing.\n\nMogelijk te onderzoeken locaties:\n–Sijselestraat\n–Knesselarestraat\n–Kauter (ANPR) of Sint-Jorisstraat t.h.v. Industriepark (combinatie met trajectcontrole)\n–…",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 7.3,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 60000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 60000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.65,
+      "2028": 0,
+      "2029": 0,
+      "2030": 3.65,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-7",
+    "bd_short": "Met een betere mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem wil een veilig, leefbaar en duurzaam mobiliteitsbeleid uitbouwen. We nemen maatregelen om de verkeersveiligheid te verhogen, voeren een doordacht parkeerbeleid en investeren in kwalitatieve fietsverbindingen. Daarnaast versterken we het openbaar vervoer en deelmobiliteit, en zetten we in op verkeerseducatie en sensibilisering. Zo zorgen we voor vlotte, veilige en duurzame verplaatsingen die de leefbaarheid en verbondenheid van onze dorpen versterken.",
+    "ap_code": "AP-7.2",
+    "ap_short": "Herinrichting straten en pleinen",
+    "ap_long": "Gemeente Beernem wil de kwaliteit, veiligheid en leefbaarheid van haar straten en pleinen verbeteren. Via monitoring, vernieuwing, vergroening en herinrichting wordt ingezet op een verkeersveilige, duurzame en aantrekkelijke openbare ruimte.",
+    "ac_code": "AC-7.2.2",
+    "ac_short": "Vernieuwen van het Pelderijn",
+    "ac_long": "We vernieuwen de omgeving van het Pelderijn om:\n–De beschermde boom op het plein te behouden en zijn gezondheid te verbeteren.\n–Het verkeersconflict tussen fietsers en automobilisten op het kruispunt met de Kerkstraat aan te pakken.\n–Een aangename en veilige ontmoetingsplaats te creëren voor buurtbewoners, met behoud van voldoende ruimte voor festiviteiten zoals de kermis.\n\nWe nemen hierbij het begin van de Kooldreef mee om de parkeermogelijkheden te faciliteren en te verbeteren.\n\nDe boomgezondheid wordt jaarlijks geëvalueerd. Verkeersveiligheid wordt gemeten via een daling van meldingen en klachten met minstens 50 % binnen het eerste jaar na herinrichting. Minstens 80 % van de bevraagde buurtbewoners ervaart het plein als aangenamer.\n\nHet ontwerp wordt afgestemd via participatie met stakeholders zoals de school, het feestcomité en buurtbewoners.\n\nDe combinatie van ecologische, verkeerskundige, sociale en erfgoeddoelstellingen is haalbaar binnen het beschikbare budget en de expertise van het aangestelde studiebureau.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 7.3,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 120000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 7.3,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-WERK",
+    "ap_short": "Verrichtingen binnen werkingsbudget",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-TOE",
+    "ac_short": "Toerisme",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 116395.69,
+    "amount_per_capita": 7.08,
+    "yearly_amounts": {
+      "2026": 116395.69,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-8",
+    "bd_short": "Met meer ontmoetingskansen",
+    "bd_long": "Kwalitatieve omschrijving: We versterken de sociale cohesie en het gemeenschapsgevoel in Beernem door te investeren in toegankelijke ontmoetingsplekken, verbindende activiteiten en laagdrempelige dienstverlening. Via de bibliotheek, gemeenschapscentra, buurtgerichte zorg en samenwerking met partners creëren we kansen voor ontmoeting, kunst, cultuur ontwikkeling en inclusie voor alle inwoners.",
+    "ap_code": "AP-8.3",
+    "ap_short": "Investeren in bestaande en nieuwe gemeenschapscentra",
+    "ap_long": "We voorzien veilige, toegankelijke en goed uitgeruste ruimtes voor cultuur, ontmoeting en gemeenschapsvorming door de bestaande locaties beter uit te rusten en te investeren in extra locaties.",
+    "ac_code": "AC-8.3.3",
+    "ac_short": "Vervangen van verouderd en onveilig materiaal in O.C. De Kleine Beer",
+    "ac_long": "De zelfrijdende hoogtewerker, de geluidsmonitors, de theatergordijnen en de tafels en stoelen worden vervangen door veilige en kwaliteitsvolle materialen via een gefaseerde uitvoering. Door deze materialen te vernieuwen, garanderen we een veilige, comfortabele en professionele omgeving.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 6.69,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 35000.0,
+      "2028": 35000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.43,
+      "2027": 2.13,
+      "2028": 2.13,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "GBB-WERK",
+    "ap_short": "Verrichtingen binnen werkingsbudget",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-OCMW",
+    "ac_short": "Verrichtingen binnen werkingsbudget OCMW",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 105926.0,
+    "amount_per_capita": 6.45,
+    "yearly_amounts": {
+      "2026": 55926.0,
+      "2027": 10000.0,
+      "2028": 10000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 3.4,
+      "2027": 0.61,
+      "2028": 0.61,
+      "2029": 0.61,
+      "2030": 0.61,
+      "2031": 0.61
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-20",
+    "bd_short": "Sociaal en zorgzaam voor mensen die het moeilijk hebben",
+    "bd_long": "Kwalitatieve omschrijving: Beernem wil een warme, inclusieve en solidaire gemeente zijn waar iedereen die het moeilijk heeft, tijdig en waardig geholpen wordt. Het meerjarenplan gaat uit van een inclusieve aanpak, waarbij de noden van specifieke doelgroepen, ook die van personen met een beperking, geïntegreerd zijn in de verschillende beleidsdomeinen.. Dat garandeert dat er in verschillende beleidsdomeinen aandacht is voor deze specifieke doelgroepen. We versterken ons sociaal beleid door jaarlijks extra middelen te voorzien voor armoedebestrijding en door een schepen met mandaat over alle relevante beleidsdomeinen aan te stellen. We bouwen een nieuw sociaal huis, richten een centraal zorgloket en een zorgcoach op, en optimaliseren de bereikbaarheid en dienstverlening.\n\nWe investeren in outreachend werk via buurtambassadeurs, buurtbuddy’s en dorpspunten, zodat inwoners zich verbonden en veilig voelen in hun wijk. We zetten in op vroegtijdige detectie van kinderarmoede, ondersteunen gezinnen met tussenkomsten in kinderopvang, schoolfacturen en starterspakketten, en streven naar 100 % kleuterparticipatie. Initiatieven als ‘Stop lege brooddozen’ en de brugfiguur zorgen voor gelijke kansen voor elk kind.\n\nWe renoveren onze OCMW-woningen in de Herfststraat en Hoveniersstraat met energiezuinige technieken en zonnepanelen, en blijven investeren in een goed uitgebouwde klusjesdienst, poetsdienst en Proper & Net voor een nette leefomgeving en sociale tewerkstelling. Via REMI- en MELISA-tools bieden we menswaardig inkomen en schuldhulp zonder wachtlijsten.\n\nWe versterken de sociale superette ‘Den Uniek’ en werken samen met De Voedselploeg en lokale handelaars voor voedselhulp. We zetten in op duurzame tewerkstelling via Emino vzw, artikel 60/61, sociale clausules in aanbestedingen, Werkkracht10 en diverse activeringsprojecten. Samenwerking met partners als Covias, welzijnsorganisaties, vrijwilligers en naburige gemeenten garandeert een breed en kwalitatief aanbod van hulp en zorg.\n\nTot slot maken we vrije tijd toegankelijk via het UiTPAS-systeem en laagdrempelige activiteiten, en zorgen we voor automatische toekenning van gemeentelijke premies. Zo bouwen we aan een gemeente waar iedereen kan rekenen op steun, kansen en een menswaardig bestaan.",
+    "ap_code": "AP-20.3",
+    "ap_short": "Renovatie patrimonium sociaal huis",
+    "ap_long": "We doen een energetische renovatie van onze OCMW-woningen.",
+    "ac_code": "AC-20.3.1",
+    "ac_short": "Renovatie OCMW-woningen in de Herfststraat",
+    "ac_long": "De verwarmingsinstallaties in de 8 OCMW-woningen in de Herfststraat worden vernieuwd en op elk dak worden zonnepanelen geïnstalleerd.\n\nDit project is de eerste concrete stap richting een CO₂-neutraal patrimonium van het OCMW en kadert binnen het halen van de energiedoelstellingen en in het kader van het strategisch vastgoedplan.\n\nDe nieuwe verwarmingssystemen zullen energiezuinig zijn, bij voorkeur op basis van een warmtepomp of hybride technologie.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 6.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 100000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 6.09,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-21",
+    "bd_short": "Wonen in Beernem moet voor iedereen betaalbaar en aantrekkelijk blijven",
+    "bd_long": "Kwalitatieve omschrijving: Beernem zet zich in voor een woonbeleid waarin iedereen, ongeacht inkomen of situatie, toegang heeft tot een betaalbare, kwaliteitsvolle en duurzame woning. We werken samen met partners om woonproblemen aan te pakken, het aanbod te vergroten en kwetsbare inwoners actief te ondersteunen, zodat wonen in Beernem voor iedereen haalbaar en aantrekkelijk blijft.",
+    "ap_code": "AP-21.1",
+    "ap_short": "Een gemeente waar het betaalbaar is om te wonen",
+    "ap_long": "Wonen is een basisrecht, maar was nog nooit zo duur. Steeds meer mensen hebben het moeilijk om een vaste, betaalbare huurwoning te vinden. In vele gevallen zijn het mensen met een gemiddeld of laag inkomen die in slecht geïsoleerde, energieverslindende en ongezonde woningen leven.\n\nDe huurprijzen stijgen, het aanbod aan betaalbare en kwalitatieve woningen daalt en starters worden verdrongen door investeerders. Dak- en thuisloosheid blijft onderbelicht in landelijke gemeenten, terwijl het OCMW steeds vaker geconfronteerd wordt met woonproblemen. \n\nGemeente Beernem wil inzetten op doorgangswoningen, begeleiding en innovatieve woonvormen om structurele woononzekerheid aan te pakken en dakloosheid te voorkomen. Via reglementering, grondenbeleid en samenwerking met partners streven we naar een eerlijker en toegankelijker woonaanbod voor iedereen. Zo streven we ernaar dat elk huishouden toegang heeft tot een betaalbare woning. Het aanbod van de woningen moet groter worden en de kwaliteit van de woningen moet beter.",
+    "ac_code": "AC-21.1.7",
+    "ac_short": "Doorgangswoningen en housing first",
+    "ac_long": "Dak- en thuisloosheid in landelijke gemeenten blijft vaak onder de radar. De focus ligt meestal op zichtbare dakloosheid, terwijl veel mensen in kwetsbare situaties tijdelijk op een sofa slapen of andere onstabiele woonvormen zoeken. Het gebrek aan geschikte woningen maakt het probleem in plattelandsgemeenten extra complex.\n\nGemeente Beernem investeert daarom al sinds 2000 in doorgangswoningen. Die bieden mensen in een noodsituatie tijdelijk onderdak, zodat ze in alle rust kunnen zoeken naar een betaalbare en kwaliteitsvolle woning. \n\nVandaag beschikt het OCMW over 16 seniorenwoningen. Vijf daarvan zijn al omgevormd tot doorgangswoning. In de toekomst bekijken we of we woningen die vrijkomen, kunnen inzetten als doorgangswoning. Zo spelen we flexibel in op de noden van mensen zonder dak boven hun hoofd.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 6.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 6.09,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-23",
+    "bd_short": "Zorgzaam voor onze kinderen en jongeren",
+    "bd_long": "Kwalitatieve omschrijving: We willen dat elk kind en elke jongere in Beernem kan opgroeien in een omgeving waar zorg, veiligheid en kansen centraal staan. Door samen te werken met gezinnen, partners en verenigingen bouwen we aan een netwerk van ondersteuning, opvang en ontspanning. We streven naar een gemeente waar kinderen en jongeren zich thuis voelen, hun talenten kunnen ontwikkelen en waar hun welzijn en participatie voorop staan.",
+    "ap_code": "AP-23.4",
+    "ap_short": "Speelpleinen opwaarderen en zorgen voor kindvriendelijke open ruimtes",
+    "ap_long": "We willen niet enkel de bestaande speelpleinen opwaarderen, maar ook zorgen voor kindvriendelijke open ruimtes.",
+    "ac_code": "AC-23.4.1",
+    "ac_short": "Nieuw speelplein Kleuterweelde",
+    "ac_long": "We leggen een nieuw speelplein aan in Kleuterweelde nadat de verenigingen die gelokaliseerd zijn in het gebouw een nieuwe locatie hebben gekregen en na de sloop van het gebouw. We doen de aanleg van het nieuwe speelplein met inspraak van de buurtbewoners.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 6.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 6.09
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-3",
+    "bd_short": "Onze landbouwers tellen mee",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem wil landbouwers ondersteunen als partners in een duurzame, leefbare en economisch sterke gemeente. We investeren in infrastructuur, samenwerking en promotie om de sector toekomstgericht te versterken. Via initiatieven zoals een centraal captatiepunt, jaarlijkse netwerkmomenten, stimulansen voor landbouwverbreding en de renovatie van dreven en duikers in het Beverhoutsveld zetten we in op klimaatadaptatie, erfgoedzorg en lokale voedselproductie. Zo bouwen we aan een veerkrachtige landbouwsector die stevig verankerd is in onze gemeenschap en bijdraagt aan een kwaliteitsvolle leefomgeving.",
+    "ap_code": "AP-3.1",
+    "ap_short": "Samen voor een toekomstgerichte landbouw",
+    "ap_long": "Het lokaal bestuur erkent de waarde van landbouwers als actieve partners in een duurzame, leefbare en economisch sterke gemeente. We willen hun werking versterken door te investeren in infrastructuur, samenwerking en promotie. Via gerichte acties zoals de aanleg van een centraal captatiepunt, het organiseren van jaarlijkse netwerkmomenten, het stimuleren van landbouwverbreding en het renoveren van dreven en duikers in het Beverhoutsveld, bouwen we aan een toekomstgerichte landbouwsector. Deze doelstelling draagt bij aan klimaatadaptatie, erfgoedzorg, lokale voedselproductie en een versterkte band tussen landbouwers en de gemeenschap.",
+    "ac_code": "AC-3.1.1",
+    "ac_short": "Realiseren van een captatiepunt langs het kanaal in Sint-Joris",
+    "ac_long": "Door de toenemende droogteperiodes en de nood aan efficiënt watergebruik in de landbouw, is de realisatie van een captatiepunt langs het kanaal een strategische maatregel. Dit captatiepunt moet landbouwers voorzien van toegankelijk, gecontroleerd en duurzaam water voor irrigatie en gewasbescherming. Nu kunnen de landbouwers capteren maar is er geen infrastructuur voorzien. Dit zorg voor hinder.\n\nDe gemeente richt één centraal captatiepunt in langs het kanaal, uitgerust met een pompinstallatie, een toegangssysteem en duidelijke gebruiksinstructies. De bedoeling is om de site te verharden zodat er geen overlast is van zand en stof op de rijweg en voor de omwonenden. Door gebruik te maken van een interne pompinstallatie moeten de landbouwer de pomp van hun machines niet aan te leggen. Op deze manier beperken we ook de geluidshinder. \n\nWe zorgen ook voor de nodige signalisatie en richtlijnen. \n\nVia een meter in de pomp kunnen we registeren hoeveel m³ water ze oppompen. Sensors aan de ingang meten ook hoeveel gebruikers er zijn.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 6.09,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 6.09,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-23",
+    "bd_short": "Zorgzaam voor onze kinderen en jongeren",
+    "bd_long": "Kwalitatieve omschrijving: We willen dat elk kind en elke jongere in Beernem kan opgroeien in een omgeving waar zorg, veiligheid en kansen centraal staan. Door samen te werken met gezinnen, partners en verenigingen bouwen we aan een netwerk van ondersteuning, opvang en ontspanning. We streven naar een gemeente waar kinderen en jongeren zich thuis voelen, hun talenten kunnen ontwikkelen en waar hun welzijn en participatie voorop staan.",
+    "ap_code": "AP-23.4",
+    "ap_short": "Speelpleinen opwaarderen en zorgen voor kindvriendelijke open ruimtes",
+    "ap_long": "We willen niet enkel de bestaande speelpleinen opwaarderen, maar ook zorgen voor kindvriendelijke open ruimtes.",
+    "ac_code": "AC-23.4.2",
+    "ac_short": "Vervangen van versleten toestellen op Lindemeers en Hommels",
+    "ac_long": "Versleten en onveilige speeltoestellen op de openbare speelpleinen worden vervangen door nieuwe, veilige en duurzame toestellen die geschikt zijn voor verschillende leeftijdsgroepen. We doen dit met inspraak van de buurtbewoners.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 3.65,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 40000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.22,
+      "2028": 2.43,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-7",
+    "bd_short": "Met een betere mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem wil een veilig, leefbaar en duurzaam mobiliteitsbeleid uitbouwen. We nemen maatregelen om de verkeersveiligheid te verhogen, voeren een doordacht parkeerbeleid en investeren in kwalitatieve fietsverbindingen. Daarnaast versterken we het openbaar vervoer en deelmobiliteit, en zetten we in op verkeerseducatie en sensibilisering. Zo zorgen we voor vlotte, veilige en duurzame verplaatsingen die de leefbaarheid en verbondenheid van onze dorpen versterken.",
+    "ap_code": "AP-7.4",
+    "ap_short": "Duurzame mobiliteit",
+    "ap_long": "Gemeente Beernem wil de mobiliteit duurzamer, toegankelijker en toekomstgericht maken. Via gerichte investeringen in laadinfrastructuur, deelmobiliteit, Hoppinpunten en toegankelijke haltes wordt het aanbod verbreed en de overstap naar milieuvriendelijke vervoersmiddelen vergemakkelijkt. \nWe blijven ijveren voor het verbeteren van het aanbod openbaar vervoer. Hiervoor onderhandelen we met NMBS bv. voor extra piekuurtreinen en een halfuurfrequentie van en naar Brugge en met De Lijn bv. voor een beter ontsluiting van Oostveld.",
+    "ac_code": "AC-7.4.1",
+    "ac_short": "Laadinfrastructuur voor elektrische wagens",
+    "ac_long": "We volgen de uitrol van laadpalen op openbaar domein zoals bepaald door de Vlaamse Overheid. Daarnaast zorgen we ervoor dat al onze niet-residentiële gebouwen met een parking van meer dan 20 plaatsen over minstens één laadpaal beschikken.\n\nElke betrokken locatie wordt geëvalueerd op basis van het aantal parkeerplaatsen. Voor locaties met meer dan 20 plaatsen wordt minstens één laadpaal geïnstalleerd. \n\nDe doelstelling sluit aan bij de Vlaamse regelgeving en is haalbaar binnen de beschikbare middelen en via strategische locatie-aanvragen. Voor parkings die niet weerhouden worden als strategische locatie, voorzien we zelf de nodige budgetten. We schatten in dat dit mogelijks om een 5 à 6-tal locaties zal gaan.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 3.65,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 10000.0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.22,
+      "2028": 1.22,
+      "2029": 0.61,
+      "2030": 0.61,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-7",
+    "bd_short": "Met een betere mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem wil een veilig, leefbaar en duurzaam mobiliteitsbeleid uitbouwen. We nemen maatregelen om de verkeersveiligheid te verhogen, voeren een doordacht parkeerbeleid en investeren in kwalitatieve fietsverbindingen. Daarnaast versterken we het openbaar vervoer en deelmobiliteit, en zetten we in op verkeerseducatie en sensibilisering. Zo zorgen we voor vlotte, veilige en duurzame verplaatsingen die de leefbaarheid en verbondenheid van onze dorpen versterken.",
+    "ap_code": "AP-7.4",
+    "ap_short": "Duurzame mobiliteit",
+    "ap_long": "Gemeente Beernem wil de mobiliteit duurzamer, toegankelijker en toekomstgericht maken. Via gerichte investeringen in laadinfrastructuur, deelmobiliteit, Hoppinpunten en toegankelijke haltes wordt het aanbod verbreed en de overstap naar milieuvriendelijke vervoersmiddelen vergemakkelijkt. \nWe blijven ijveren voor het verbeteren van het aanbod openbaar vervoer. Hiervoor onderhandelen we met NMBS bv. voor extra piekuurtreinen en een halfuurfrequentie van en naar Brugge en met De Lijn bv. voor een beter ontsluiting van Oostveld.",
+    "ac_code": "AC-7.4.4",
+    "ac_short": "Toegankelijke inrichting haltes De Lijn",
+    "ac_long": "We willen de toegankelijkheid van de haltes van De Lijn verbeteren, met focus op de 16 haltes langs gemeentewegen binnen onze gemeente.\n\nDit sluit aan bij het engagement dat de gemeente nam via het masterplan toegankelijkheid, goedgekeurd in de gemeenteraad van 26 januari 2023, om tegen 2030 50 % van de haltes langs het kernnet en aanvullend net toegankelijk te maken.\n\nTegen 2030 moeten dus minstens 8 van deze 16 haltes toegankelijk zijn. Momenteel zijn er al 4 haltes toegankelijk, 2 haltes zullen toegankelijk aangelegd worden binnen de inrichting Hoppinpunt Sint-Joris.\n\nWe voorzien om ook de halte aan het station toegankelijk te maken en minstens 2 andere nog te selecteren andere haltes.\n\nGezien er al 4 haltes toegankelijk zijn (o.a. door recente wegenwerken), is het haalbaar om minstens 4 extra haltes toegankelijk te maken tegen 2030.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 55000.0,
+    "amount_per_capita": 3.35,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 30000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.52,
+      "2027": 0,
+      "2028": 1.83,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-15",
+    "bd_short": "Met zuiver water",
+    "bd_long": "Kwalitatieve omschrijving: Beernem zet in op een duurzaam, toekomstgericht waterbeleid dat inzet op het bufferen, zuiveren en efficiënt beheren van water, met oog voor waterveiligheid, volksgezondheid, landbouw, natuur en klimaatadaptatie.",
+    "ap_code": "AP-15.4",
+    "ap_short": "Voorkomen van puntvervuilingen",
+    "ap_long": "Gemeente Beernem versterkt de milieuvriendelijke en veilige omgang met gewasbeschermingsmiddelen door het voorzien en optimaliseren van vulpunten voor spuittoestellen. Met strategische infrastructuur, duidelijke procedures en gerichte sensibilisering beperken we puntvervuiling en ondersteunen we landbouwers in een duurzame praktijk.",
+    "ac_code": "AC-15.4.1",
+    "ac_short": "Bijkomend vulpunt",
+    "ac_long": "Momenteel hebben we één vulpunt voor spuittoestellen. Hierdoor moeten landbouwers en loonwerkers vaak grote afstanden afleggen om het vulpunt te bereiken. Een extra vulpunt vermindert bovendien de puntvervuiling die ontstaat door het vullen en reinigen van de spuittoestellen. Kleine hoeveelheden gewasbeschermingsmiddelen komen tijdens het vullen, reinigen en lozen namelijk terecht in het milieu. Zo draagt deze actie bij aan de bescherming van bodem- en oppervlaktewater. \n\nEen bijkomend vulpunt op een strategisch gekozen locatie met de juiste infrastructuur kan deze risico’s beperken. We informeren de gebruikers over het belang van de correcte procedures en voorzien opleidingen rond het veilig en milieuvriendelijk gebruik van spuittoestellen.\n\nDe keuze van de locatie is belangrijk. Het vulpunt houdt voldoende afstand van waterlopen en kwetsbare natuurgebieden en is vlot bereikbaar voor landbouwvoertuigen. Waar mogelijk sluit het vulpunt aan op bestaande infrastructuur.\n\nHet vulpunt is uitgerust met een vloeistofdichte vloer met opvangsysteem, een spoelplaats met opvang voor restvloeistoffen, een gesloten systeem voor het vullen van spuittoestellen en informatieborden met correcte vul- en reinigingsprocedures.\n\nWe evalueren het vulpunt jaarlijks en voeren aanpassingen door waar nodig. Sensoren meten het gebruik.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.04,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 3.04,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-18",
+    "bd_short": "In beweging en gezond",
+    "bd_long": "Kwalitatieve omschrijving: Beernem kiest  voor gezondheid: we stimuleren beweging, investeren in preventie en mentaal welzijn, en bouwen aan een inclusieve, zorgzame en veerkrachtige gemeenschap waar iedereen zich goed kan voelen.",
+    "ap_code": "AP-18.8",
+    "ap_short": "Openbare toiletten",
+    "ap_long": "Openbare toiletten zijn een essentieel onderdeel van een toegankelijke en inclusieve publieke ruimte. Ze dragen bij aan de mobiliteit en het comfort van kwetsbare doelgroepen, zoals ouderen, mensen met gezondheidsproblemen, kinderen, zwangere vrouwen en personen met een beperking. Ze zijn ook cruciaal binnen een gender- en inclusiebeleid, zeker voor wie geen toegang heeft tot private faciliteiten.",
+    "ac_code": "AC-18.8.1",
+    "ac_short": "Onderzoek naar renovatie bestaande openbare toiletten of plaatsen nieuw openbaar toilet",
+    "ac_long": "We maken een inventarisatie en evaluatie van de bestaande openbare toiletten in Beernem en maken een plan van aanpak op. Hierbij toetsen we een aantal zaken af:\n–renovatie, vernieuwing of uitbreiding van het aanbod\n–plaatsing van (mobiele of vaste) nieuwe openbare toiletten op strategische locaties\n–goede toegankelijkheid en hygiëne van de beschikbare infrastructuur\n–duidelijke zichtbaarheid van openbare toiletten\n–…",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.04,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.52,
+      "2029": 1.52,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-25",
+    "bd_short": "Zorgzaam voor ons erfgoed en begraafparken",
+    "bd_long": "Kwalitatieve omschrijving: We engageren ons om op een zorgzame, toekomstgerichte en participatieve manier om te gaan met ons erfgoed en begraafparken. We beschermen, beheren en ontsluiten ons onroerend, roerend en immaterieel erfgoed, en maken onze begraafparken toegankelijk, duurzaam en betekenisvol voor alle inwoners. Dit doen we door te investeren in onderhoud, digitalisering, herbestemming, participatie en bewustmaking, met respect voor traditie, natuur en hedendaagse noden.",
+    "ap_code": "AP-25.5",
+    "ap_short": "Bouwen van een archiefruimte voor gemeentelijk archief, Heemkring en verenigingen.",
+    "ap_long": "We bewaren het historisch en administratief erfgoed van de gemeente, de Heemkring Bos en Beverveld en lokale verenigingen duurzaam door het realiseren van een centrale, uitgeruste en toegankelijke archiefruimte.",
+    "ac_code": "AC-25.5.1",
+    "ac_short": "Bouw van archiefruimte voor gemeentelijk archief, Heemkring en verenigingen",
+    "ac_long": "Het gemeentelijk archief, de erfgoedcollectie van de Heemkring Bos en Beverveld en het archiefmateriaal van lokale verenigingen zijn momenteel verspreid ondergebracht in minder geschikte ruimtes die niet voldoende beveiligd zijn tegen schade door vocht, licht of temperatuurschommelingen.\n\nOm het historisch en administratief erfgoed duurzaam te bewaren, wil de gemeente een centrale, goed uitgeruste en toegankelijke archiefruimte bouwen. De ruimte voldoet aan minstens de minimale archiefrichtlijnen inzake temperatuur, luchtvochtigheid, verlichting, brandveiligheid en beveiliging.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.04,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 3.04,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-26",
+    "bd_short": "veilig en wettelijk in orde",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem garandeert dat haar gebouwen, infrastructuur en woningen veilig, gezond, toegankelijk en volledig conform de geldende wet- en regelgeving zijn. Dit gebeurt door systematisch te investeren in wettelijke attesten, structureel onderhoud, digitalisering van toegangsbeheer, brandveiligheid, energetische renovaties enz. \n\nWe streven naar een kwalitatief, veilig en gezond woonaanbod voor alle inwoners, door actief in te zetten op handhaving van minimale woonnormen, interventie bij onveilige situaties en het afdwingen van wettelijke conformiteit bij verhuurwoningen.",
+    "ap_code": "AP-26.1",
+    "ap_short": "De openbare gebouwen zijn wettelijk in orde en veilig",
+    "ap_long": "Gemeente Beernem zorgt ervoor dat alle gemeentelijke gebouwen voldoen aan de wettelijke verplichtingen inzake veiligheid, energieprestatie en toegankelijkheid, en dat ze in goede staat verkeren voor gebruik door personeel en publiek.",
+    "ac_code": "AC-26.1.8",
+    "ac_short": "Herstellen zinken dak van het gemeentehuis",
+    "ac_long": "Het zinken dak van het gemeentehuis vertoont slijtage, met losgekomen delen en gaten door beschadiging aan de onderliggende verbindingen. Om verdere schade aan de dakstructuur en mogelijke waterinfiltratie te vermijden, worden gerichte herstellingswerken uitgevoerd aan de beschadigde dakzones.\n\nAlle vastgestelde schadezones worden hersteld, waarbij het zink stevig opnieuw wordt bevestigd of vervangen. Na uitvoering is het dak opnieuw volledig waterdicht en voldoet het aan de technische normen voor zinken dakbedekking.\n\nDe werken worden uitgevoerd met het vrijgemaakte budget in de meerjarenplanning en gebeuren in samenwerking met een erkende aannemer gespecialiseerd in zink- en dakwerken.\n\nDe noodzakelijke herstellingen zijn technisch goed uitvoerbaar, zonder ingrijpende dakvernieuwing. De werken kunnen uitgevoerd worden met minimale impact op de werking van het gemeentehuis.\n\nDe herstellingswerken worden gepland, uitgevoerd en opgeleverd uiterlijk tegen 31 december 2026.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.04,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.04,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-7",
+    "bd_short": "Met een betere mobiliteit",
+    "bd_long": "Kwalitatieve omschrijving: Gemeente Beernem wil een veilig, leefbaar en duurzaam mobiliteitsbeleid uitbouwen. We nemen maatregelen om de verkeersveiligheid te verhogen, voeren een doordacht parkeerbeleid en investeren in kwalitatieve fietsverbindingen. Daarnaast versterken we het openbaar vervoer en deelmobiliteit, en zetten we in op verkeerseducatie en sensibilisering. Zo zorgen we voor vlotte, veilige en duurzame verplaatsingen die de leefbaarheid en verbondenheid van onze dorpen versterken.",
+    "ap_code": "AP-7.3",
+    "ap_short": "Uitbreiden van het fietspadennet",
+    "ap_long": "Gemeente Beernem wil het fietsverkeer stimuleren en de verkeersveiligheid verhogen door het fietspadennet uit te breiden. In samenwerking met provincie West-Vlaanderen worden nieuwe fietspaden aangelegd op strategische locaties, en wordt er actief geijverd voor bijkomende infrastructuur langs gewestwegen. We blijven ijveren voor de aanleg van een veilige fietsverbinding tussen Beernem en Wingene.",
+    "ac_code": "AC-7.3.1",
+    "ac_short": "Afgescheiden fietspad in de Torenweg",
+    "ac_long": "Gemeente Beernem wenst een veilig fietspad aan te leggen in de Torenweg. De provincie treedt op als bouwheer en heeft reeds een studie opgestart. De Vlaamse Landmaatschappij (VLM) is betrokken in het kader van het landinrichtingsproject Bulskampveld en staat in voor de onderhandelingen rond de aankoop van de nodige gronden. De kostprijs voor de grondverwerving wordt gedeeld: 50 % ten laste van de gemeente, 50 % ten laste van VLM.\n\nHet doel is bereikt wanneer de onteigeningsprocedure is opgestart, de gronden zijn verworven en de werken zijn uitgevoerd. De voortgang wordt gemeten aan de hand van het aantal afgeronde onderhandelingen, de vordering van de studie en de uit te voeren werken .\n\nDe samenwerking met de provincie en VLM is afgestemd en financieel gedragen door beide partijen. De gemeente engageert zich om haar aandeel in de grondverwerving te voorzien.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 3.04,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.04,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-8",
+    "bd_short": "Met meer ontmoetingskansen",
+    "bd_long": "Kwalitatieve omschrijving: We versterken de sociale cohesie en het gemeenschapsgevoel in Beernem door te investeren in toegankelijke ontmoetingsplekken, verbindende activiteiten en laagdrempelige dienstverlening. Via de bibliotheek, gemeenschapscentra, buurtgerichte zorg en samenwerking met partners creëren we kansen voor ontmoeting, kunst, cultuur ontwikkeling en inclusie voor alle inwoners.",
+    "ap_code": "AP-8.3",
+    "ap_short": "Investeren in bestaande en nieuwe gemeenschapscentra",
+    "ap_long": "We voorzien veilige, toegankelijke en goed uitgeruste ruimtes voor cultuur, ontmoeting en gemeenschapsvorming door de bestaande locaties beter uit te rusten en te investeren in extra locaties.",
+    "ac_code": "AC-8.3.4",
+    "ac_short": "Aankoop parochiezaal Oostveld",
+    "ac_long": "We kopen de parochiezaal van Oostveld aan zodat dit deel kan uitmaken van ons gemeenschapscentrum.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 44000.0,
+    "amount_per_capita": 2.68,
+    "yearly_amounts": {
+      "2026": 44000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.68,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-12",
+    "bd_short": "Ten dienste van en met meer inspraak voor elke inwoner",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen aan een toegankelijke, klantgerichte en herkenbare gemeentelijke dienstverlening die aansluit bij de noden van elke inwoner. Door efficiënte werkprocessen, duidelijke communicatie en ruimte voor inspraak verhogen we de betrokkenheid en tevredenheid. We investeren in digitale en fysieke toegankelijkheid, beperken hinder bij werken, en creëren nieuwe mogelijkheden voor interactie en beleving. Samen met inwoners en partners maken we van Beernem een gemeente die luistert en verbindt.",
+    "ap_code": "AP-12.2",
+    "ap_short": "De zichtbaarheid en de herkenbaarheid van Beernem verhogen",
+    "ap_long": "We versterken de digitale communicatie van de gemeente met strategische infoschermen, een performante website en krachtige beeldondersteuning, zodat we inwoners vlot kunnen informeren via diverse kanalen.",
+    "ac_code": "AC-12.2.1",
+    "ac_short": "Digitale infoborden",
+    "ac_long": "We onderzoeken het plaatsen van een of meerdere digitale infoschermen op strategische plaatsen in de gemeente.\n\nDigitale infoschermen kunnen de communicatiemix versterken. Het vernieuwd stationskruispunt met stilstaand verkeer door verkeerslichten kan hiervoor een strategische locatie zijn. Bij positieve evaluatie van het eerste scherm, worden andere strategische locaties onderzocht. \n\nWe houden rekening met de richtlijnen van Agentschap Wegen en Verkeer en het Vlaams gewest. \n\nDe voorkeur gaat naar een systeem waarbij de lokale handelaars advertentietijd aankopen, waardoor het gemeentebestuur geen investering moet doen. De infoschermen tonen afwisselend advertenties van lokale handelaars, periodiek weerkerende landbouwactiviteiten en boodschappen van het lokaal bestuur (nieuwsberichten, evenementen, mobiliteit, noodplanning).",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 2.43,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.43,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-20",
+    "bd_short": "Sociaal en zorgzaam voor mensen die het moeilijk hebben",
+    "bd_long": "Kwalitatieve omschrijving: Beernem wil een warme, inclusieve en solidaire gemeente zijn waar iedereen die het moeilijk heeft, tijdig en waardig geholpen wordt. Het meerjarenplan gaat uit van een inclusieve aanpak, waarbij de noden van specifieke doelgroepen, ook die van personen met een beperking, geïntegreerd zijn in de verschillende beleidsdomeinen.. Dat garandeert dat er in verschillende beleidsdomeinen aandacht is voor deze specifieke doelgroepen. We versterken ons sociaal beleid door jaarlijks extra middelen te voorzien voor armoedebestrijding en door een schepen met mandaat over alle relevante beleidsdomeinen aan te stellen. We bouwen een nieuw sociaal huis, richten een centraal zorgloket en een zorgcoach op, en optimaliseren de bereikbaarheid en dienstverlening.\n\nWe investeren in outreachend werk via buurtambassadeurs, buurtbuddy’s en dorpspunten, zodat inwoners zich verbonden en veilig voelen in hun wijk. We zetten in op vroegtijdige detectie van kinderarmoede, ondersteunen gezinnen met tussenkomsten in kinderopvang, schoolfacturen en starterspakketten, en streven naar 100 % kleuterparticipatie. Initiatieven als ‘Stop lege brooddozen’ en de brugfiguur zorgen voor gelijke kansen voor elk kind.\n\nWe renoveren onze OCMW-woningen in de Herfststraat en Hoveniersstraat met energiezuinige technieken en zonnepanelen, en blijven investeren in een goed uitgebouwde klusjesdienst, poetsdienst en Proper & Net voor een nette leefomgeving en sociale tewerkstelling. Via REMI- en MELISA-tools bieden we menswaardig inkomen en schuldhulp zonder wachtlijsten.\n\nWe versterken de sociale superette ‘Den Uniek’ en werken samen met De Voedselploeg en lokale handelaars voor voedselhulp. We zetten in op duurzame tewerkstelling via Emino vzw, artikel 60/61, sociale clausules in aanbestedingen, Werkkracht10 en diverse activeringsprojecten. Samenwerking met partners als Covias, welzijnsorganisaties, vrijwilligers en naburige gemeenten garandeert een breed en kwalitatief aanbod van hulp en zorg.\n\nTot slot maken we vrije tijd toegankelijk via het UiTPAS-systeem en laagdrempelige activiteiten, en zorgen we voor automatische toekenning van gemeentelijke premies. Zo bouwen we aan een gemeente waar iedereen kan rekenen op steun, kansen en een menswaardig bestaan.",
+    "ap_code": "AP-20.5",
+    "ap_short": "Inzetten op sociale tewerkstelling",
+    "ap_long": "We blijven inzetten op sociale tewerkstelling via inzetten van personeel in de klusjesdienst, de poetsdienst aan huis en de dienst proper en net.",
+    "ac_code": "AC-20.5.3",
+    "ac_short": "Proper en Net",
+    "ac_long": "Een nette en verzorgde openbare ruimte is essentieel voor de leefbaarheid, de veiligheid en het imago van de gemeente. De dienst Proper en Net speelt hierin een centrale rol door het dagelijks opruimen van zwerfvuil, het verwijderen van sluikstorten, het ledigen van vuilnisbakken en het onderhouden van publieke zones zoals begraafplaatsen, bushokjes, verkeersborden, speeltuinen en glas-/textielcontainers.\n\nOm deze taken efficiënt en structureel uit te voeren, zijn twee voltijdse equivalenten (VTE) medewerkers noodzakelijk. Hierbij wordt prioritair gezocht naar kandidaten met het statuut ‘individueel maatwerk’, zodat de actie ook bijdraagt aan sociale tewerkstelling. \n\nDe werking wordt ondersteund door een realistische en haalbare weekplanning, opgesteld en opgevolgd door het sociaal huis, met dagelijkse terugkoppeling naar de technische dienst. \n\nDaarnaast wordt onderzocht of via het systeem ‘Mooie Straat’ een digitale registratie van uitgevoerde taken mogelijk is, wat de transparantie en rapportering ten goede komt. \n\nTot slot is de vervanging van het verouderde voertuig (15 jaar oud) cruciaal om de continuïteit en duurzaamheid van de werking te garanderen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 2.43,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.43,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-18",
+    "bd_short": "In beweging en gezond",
+    "bd_long": "Kwalitatieve omschrijving: Beernem kiest  voor gezondheid: we stimuleren beweging, investeren in preventie en mentaal welzijn, en bouwen aan een inclusieve, zorgzame en veerkrachtige gemeenschap waar iedereen zich goed kan voelen.",
+    "ap_code": "AP-18.1",
+    "ap_short": "Optimalisatie- en efficiëntieoefening van onze voetbalaccommodaties",
+    "ap_long": "Gemeente Beernem zet de komende jaren sterk in op het verbeteren en verduurzamen van haar sportinfrastructuur. In het kader van de toenemende drukte op de voetbalaccommodaties door samenwerkingen en fusies tussen verenigingen, worden drie gerichte acties ondernomen die leiden tot een efficiënter gebruik van de accommodaties.",
+    "ac_code": "AC-18.1.1",
+    "ac_short": "Extra verlichting voetbal Drogenbrood",
+    "ac_long": "De voetbalaccommodatie in Beernem wordt steeds intensiever gebruikt door samenwerkingen en fusies tussen voetbalverenigingen. Om het stijgende aantal trainingen en wedstrijden op te vangen, wordt voorgesteld om verlichting te voorzien op terrein 3 in sportsite Drogenbrood. Hierdoor kan het terrein ook 's avonds gebruikt worden, wat de speelcapaciteit aanzienlijk verhoogt. Door terrein 3 te verlichten, stijgt het aantal beschikbare speeluren. Dit maakt het mogelijk om extra trainingen en wedstrijden in de avonduren te organiseren.\n\nDe installatie van verlichting gebeurt in overleg met de betrokken club en de sportdienst. Er wordt rekening gehouden met de buurtbewoners, lichtvervuiling en de bestaande planning van de terreinen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 35000.0,
+    "amount_per_capita": 2.13,
+    "yearly_amounts": {
+      "2026": 35000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.13,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-23",
+    "bd_short": "Zorgzaam voor onze kinderen en jongeren",
+    "bd_long": "Kwalitatieve omschrijving: We willen dat elk kind en elke jongere in Beernem kan opgroeien in een omgeving waar zorg, veiligheid en kansen centraal staan. Door samen te werken met gezinnen, partners en verenigingen bouwen we aan een netwerk van ondersteuning, opvang en ontspanning. We streven naar een gemeente waar kinderen en jongeren zich thuis voelen, hun talenten kunnen ontwikkelen en waar hun welzijn en participatie voorop staan.",
+    "ap_code": "AP-23.7",
+    "ap_short": "Optimaliseren infrastructuur voor de jeugdverenigingen",
+    "ap_long": "Goede infrastructuur voor jeugdverenigingen is fundamenteel voor hun werking en groei. Jeugdverenigingen hebben nood aan een goed uitgeruste en veilige locatie.",
+    "ac_code": "AC-23.7.3",
+    "ac_short": "Jeugdlokaal Beekstraat",
+    "ac_long": "Het oude deel van het jeugdlokaal Beekstraat (deel van de Stekkertjes) wordt gesloopt. De Stekkertjes krijgen een andere locatie, in samenspraak met de gemeente. KLJ Oedelem blijft in het jeugdlokaal. De sloopwerken starten zodra een andere locatie gevonden is voor de Stekkertjes, waarna de renovatiewerken van het overgebleven deel van het jeugdlokaal kunnen aanvangen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.83,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 30000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.83,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-8",
+    "bd_short": "Met meer ontmoetingskansen",
+    "bd_long": "Kwalitatieve omschrijving: We versterken de sociale cohesie en het gemeenschapsgevoel in Beernem door te investeren in toegankelijke ontmoetingsplekken, verbindende activiteiten en laagdrempelige dienstverlening. Via de bibliotheek, gemeenschapscentra, buurtgerichte zorg en samenwerking met partners creëren we kansen voor ontmoeting, kunst, cultuur ontwikkeling en inclusie voor alle inwoners.",
+    "ap_code": "AP-8.3",
+    "ap_short": "Investeren in bestaande en nieuwe gemeenschapscentra",
+    "ap_long": "We voorzien veilige, toegankelijke en goed uitgeruste ruimtes voor cultuur, ontmoeting en gemeenschapsvorming door de bestaande locaties beter uit te rusten en te investeren in extra locaties.",
+    "ac_code": "AC-8.3.8",
+    "ac_short": "Vervangen van de automatische schuifdeuren van O.C. De Kleine Beer",
+    "ac_long": "Door het vervangen van de automatische schuifdeuren investeren we in een duurzame en veilige onthaalinfrastructuur voor een veelgebruikt gemeenschapsgebouw.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.83,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-8",
+    "bd_short": "Met meer ontmoetingskansen",
+    "bd_long": "Kwalitatieve omschrijving: We versterken de sociale cohesie en het gemeenschapsgevoel in Beernem door te investeren in toegankelijke ontmoetingsplekken, verbindende activiteiten en laagdrempelige dienstverlening. Via de bibliotheek, gemeenschapscentra, buurtgerichte zorg en samenwerking met partners creëren we kansen voor ontmoeting, kunst, cultuur ontwikkeling en inclusie voor alle inwoners.",
+    "ap_code": "AP-8.2",
+    "ap_short": "Moderniseren en toegankelijker maken van de bibliotheek",
+    "ap_long": "We willen de hoofdbibliotheek moderniseren door te investeren in infrastructuur, ICT-systemen en dienstverlening. Het doel is de toegankelijkheid te vergroten, het gebruiksgemak te verbeteren en de privacy en veiligheid te waarborgen. We willen de hoofdbibliotheek moderniseren door te investeren in infrastructuur, ICT-systemen en dienstverlening. Het doel is de toegankelijkheid te vergroten, het gebruiksgemak te verbeteren en de privacy en veiligheid te waarborgen.",
+    "ac_code": "AC-8.2.2",
+    "ac_short": "Inleverbus bibliotheek",
+    "ac_long": "De automatische inleverbus van de hoofdbibliotheek wordt vervangen door een gebruiksvriendelijker en energiezuiniger model dat 24/7 toegankelijk is. Deze inleverbus wordt gekoppeld aan het bibliotheeksysteem zodat ingeleverde materialen onmiddellijk worden geregistreerd.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 27830.0,
+    "amount_per_capita": 1.69,
+    "yearly_amounts": {
+      "2026": 27830.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.69,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-13",
+    "bd_short": "Duurzaam",
+    "bd_long": "Kwalitatieve omschrijving: We maken van Beernem een klimaatrobuuste, gezonde en aantrekkelijke gemeente door het openbaar domein te ontharden en te vergroenen, infrastructuur duurzaam te renoveren, water slim te beheren en energie en uitstoot te reduceren. We doen dit via gerichte investeringen, slimme regelgeving en consequente handhaving, in nauwe afstemming met partners en inwoners.",
+    "ap_code": "AP-13.6",
+    "ap_short": "Hemelwater- en droogteplan",
+    "ap_long": "Het hemelwater- en droogteplan vormt de basis voor het gemeentelijk beleid.\n\nOok in Vlaanderen neemt de noodzaak toe om wateroverlast, verdroging en hittestress structureel aan te pakken. De opmaak en uitvoering van een hemelwater- en droogteplan is bijgevolg van belang voor zowel klimaatadaptatie als het voldoen aan wettelijke verplichtingen (Hemelwaterverordening, Integraal Waterbeleid, Blue Deal). \n\nTegen eind 2024 moesten Vlaamse gemeenten over een hemelwater- en droogteplan (HWDP) beschikken wanneer ze een beroep willen doen op watergerelateerde subsidies.\n\nBij de opmaak van een hemelwater- en droogteplan wordt nagegaan waar het water weg moet en waar het kan gebufferd of geïnfiltreerd worden, met een blik op de lange termijn.\n\nHierbij wordt de ladder van Lansink gevolgd: hergebruik - infiltratie - bufferen met vertraagde afvoer - lozen in de regenwaterafvoer. Bestrijding van droogte maakt ook standaard deel uit van het hemelwater- en droogteplan.\n\nHet hemelwater- en droogteplan is geen statisch document: vanuit reflectie dient het plan om de 6 jaar een update te krijgen. Het huidige plan is gericht op kennisopbouw, leefbaarheid, mitigatie. Tegen 2030 moet het plan meer focus leggen op acties met grotere impact, op beleid en verder uitdiepen van handhaving.",
+    "ac_code": "AC-13.6.2",
+    "ac_short": "Groendak op (de uitbreiding van) het gemeentehuis",
+    "ac_long": "Er wordt een groendak aangelegd op (de uitbreiding van) het gemeentehuis. Het vergroenen van dit dak heeft een grote impact op het klimaat, hitte-effect en biodiversiteit. Dit draagt bij tot de doelstellingen in het burgemeesterconvenant en het lokaal energie- en klimaatpact. Dit omvat streefdoelen inzake hergebruik, infiltratie en buffering van hemelwater. Voor de realisatie wordt beroep gedaan op externe expertise.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 1.52,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.52,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-15",
+    "bd_short": "Met zuiver water",
+    "bd_long": "Kwalitatieve omschrijving: Beernem zet in op een duurzaam, toekomstgericht waterbeleid dat inzet op het bufferen, zuiveren en efficiënt beheren van water, met oog voor waterveiligheid, volksgezondheid, landbouw, natuur en klimaatadaptatie.",
+    "ap_code": "AP-15.3",
+    "ap_short": "Optimaliseren waterhuishouding site Drogenbrood",
+    "ap_long": "We richten de sportsite Drogenbrood waterneutraal in zodat we het regenwater maximaal op eigen terrein houden en laten infiltreren. Dit doen we aan de hand van maatregelen zoals infiltratie, buffering, hergebruik van hemelwater en aanpassing van drainagesystemen. We leggen een wadi aan en maken een globaal rioleringsplan op.",
+    "ac_code": "AC-15.3.1",
+    "ac_short": "Aanleg van een wadi op de site Drogenbrood",
+    "ac_long": "Om de waterhuishouding van de site te optimaliseren, leggen we in samenwerking met Farys een wadi aan. Dit draagt bij aan een waterneutrale inrichting, verhoogt de infiltratiecapaciteit en voorkomt afvoer van hemelwater. \n\nDe wadi komt aan de noordzijde van de site, met aansluiting van drainage en overloop naar de bestaande gracht. We herprofileren de gracht en compartimenteren die met minstens vier tussenschotten. \n\nMet deze actie voldoen we aan de bindende voorwaarde uit de meldingsakte OMV_2023018911 en aan de geldende hemelwaterverordening. Het ontwerp en de uitvoering voldoet aan de geldende regelgeving.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 1.52,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-15",
+    "bd_short": "Met zuiver water",
+    "bd_long": "Kwalitatieve omschrijving: Beernem zet in op een duurzaam, toekomstgericht waterbeleid dat inzet op het bufferen, zuiveren en efficiënt beheren van water, met oog voor waterveiligheid, volksgezondheid, landbouw, natuur en klimaatadaptatie.",
+    "ap_code": "AP-15.4",
+    "ap_short": "Voorkomen van puntvervuilingen",
+    "ap_long": "Gemeente Beernem versterkt de milieuvriendelijke en veilige omgang met gewasbeschermingsmiddelen door het voorzien en optimaliseren van vulpunten voor spuittoestellen. Met strategische infrastructuur, duidelijke procedures en gerichte sensibilisering beperken we puntvervuiling en ondersteunen we landbouwers in een duurzame praktijk.",
+    "ac_code": "AC-15.4.2",
+    "ac_short": "Optimaliseren van het vulpunt voor de spuittoestellen in het Beverhoutsveld",
+    "ac_long": "Het vulpunt voor spuittoestellen in het Beverhoutsveld krijgt een upgrade om te voldoen aan de nieuwe VLAREM-interpretatie. Er komt een actief systeem met een betrouwbare wateraansluiting zodat landbouwers steeds garantie op water hebben. Er komt ook een afsluitbare installatie om misbruik (bv. spoelen) te voorkomen. Een ANPR-camera registreert het gebruik en een badge-systeem kan de toegang regelen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 1.52,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.52,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-18",
+    "bd_short": "In beweging en gezond",
+    "bd_long": "Kwalitatieve omschrijving: Beernem kiest  voor gezondheid: we stimuleren beweging, investeren in preventie en mentaal welzijn, en bouwen aan een inclusieve, zorgzame en veerkrachtige gemeenschap waar iedereen zich goed kan voelen.",
+    "ap_code": "AP-18.2",
+    "ap_short": "Bestaande sportcentra en -terreinen onderhouden",
+    "ap_long": "We zetten in op het duurzaam versterken van de bestaande sportinfrastructuur zodat deze beantwoordt aan de groeiende noden van verenigingen en inwoners.\n\nZo wordt de bestaande infrastructuur niet alleen onderhouden maar ook toekomstgericht versterkt, met oog voor zowel sportieve groei als veilige en kwalitatieve omgevingen voor alle gebruikers.",
+    "ac_code": "AC-18.2.1",
+    "ac_short": "Aanleg 3 padel -en 1 tennisterrein door TC Smash, ballenvanger en  pad door gemeente op Den Akker",
+    "ac_long": "TC Smash wenst drie bijkomende padelterreinen en één extra tennisterrein aan te leggen op de site Den Akker. Deze uitbreiding is noodzakelijk gezien de sterke groei van de club sinds de aanleg van de eerste padelterreinen. \n\nDe club zal deze nieuwe sportinfrastructuur volledig zelf financieren. De gemeente voorziet in de financiering van een nieuwe ballenvanger en een verbindingspad.\n\nDaarnaast wordt de bestaande dolomietverharding rond de tennisterreinen, die onderhoudsintensief is, verwijderd. De buitenste omheining en dolomiet worden opgebroken en de vrijgekomen zone wordt ingezaaid met gras.\n\nDe investering is gedragen door zowel de club (voor de sportinfrastructuur) als de gemeente (voor de omgevingsaanpassing en veiligheid). Dit voorstel is afgestemd met de betrokken diensten en gebruikers.\n\nDe uitvoering van de werken is gepland in 2028.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.22,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 20000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.22,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-8",
+    "bd_short": "Met meer ontmoetingskansen",
+    "bd_long": "Kwalitatieve omschrijving: We versterken de sociale cohesie en het gemeenschapsgevoel in Beernem door te investeren in toegankelijke ontmoetingsplekken, verbindende activiteiten en laagdrempelige dienstverlening. Via de bibliotheek, gemeenschapscentra, buurtgerichte zorg en samenwerking met partners creëren we kansen voor ontmoeting, kunst, cultuur ontwikkeling en inclusie voor alle inwoners.",
+    "ap_code": "AP-8.2",
+    "ap_short": "Moderniseren en toegankelijker maken van de bibliotheek",
+    "ap_long": "We willen de hoofdbibliotheek moderniseren door te investeren in infrastructuur, ICT-systemen en dienstverlening. Het doel is de toegankelijkheid te vergroten, het gebruiksgemak te verbeteren en de privacy en veiligheid te waarborgen. We willen de hoofdbibliotheek moderniseren door te investeren in infrastructuur, ICT-systemen en dienstverlening. Het doel is de toegankelijkheid te vergroten, het gebruiksgemak te verbeteren en de privacy en veiligheid te waarborgen.",
+    "ac_code": "AC-8.2.4",
+    "ac_short": "Uitleentoestellen bibliotheek",
+    "ac_long": "De bibliotheek vervangt de drie bestaande uitleentoestellen door nieuwe toestellen met bancontact. Deze toestellen bieden leden de mogelijkheid om tijdens het zelfuitleenproces openstaande kosten (boetes, lidgelden, reserveringskosten) rechtstreeks te betalen, zowel met bankkaart als cash.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 19965.0,
+    "amount_per_capita": 1.21,
+    "yearly_amounts": {
+      "2026": 19965.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.21,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-8",
+    "bd_short": "Met meer ontmoetingskansen",
+    "bd_long": "Kwalitatieve omschrijving: We versterken de sociale cohesie en het gemeenschapsgevoel in Beernem door te investeren in toegankelijke ontmoetingsplekken, verbindende activiteiten en laagdrempelige dienstverlening. Via de bibliotheek, gemeenschapscentra, buurtgerichte zorg en samenwerking met partners creëren we kansen voor ontmoeting, kunst, cultuur ontwikkeling en inclusie voor alle inwoners.",
+    "ap_code": "AP-8.2",
+    "ap_short": "Moderniseren en toegankelijker maken van de bibliotheek",
+    "ap_long": "We willen de hoofdbibliotheek moderniseren door te investeren in infrastructuur, ICT-systemen en dienstverlening. Het doel is de toegankelijkheid te vergroten, het gebruiksgemak te verbeteren en de privacy en veiligheid te waarborgen. We willen de hoofdbibliotheek moderniseren door te investeren in infrastructuur, ICT-systemen en dienstverlening. Het doel is de toegankelijkheid te vergroten, het gebruiksgemak te verbeteren en de privacy en veiligheid te waarborgen.",
+    "ac_code": "AC-8.2.1",
+    "ac_short": "Open Plus",
+    "ac_long": "De openingsuren van de hoofdbibliotheek worden uitgebreid via het Open Plussysteem. Leden kunnen buiten de bemande openingsuren de hoofdbibliotheek bezoeken en materialen uitlenen. De onbemande openingsuren bedragen minimaal 15 uren per week. Zo zorgen we voor een toegankelijkheid die beter afgestemd is op werkenden, studenten en gezinnen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 19057.0,
+    "amount_per_capita": 1.16,
+    "yearly_amounts": {
+      "2026": 19057.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.16,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Beernem",
+    "nis_code": "31003",
+    "bd_code": "BD-12",
+    "bd_short": "Ten dienste van en met meer inspraak voor elke inwoner",
+    "bd_long": "Kwalitatieve omschrijving: We bouwen aan een toegankelijke, klantgerichte en herkenbare gemeentelijke dienstverlening die aansluit bij de noden van elke inwoner. Door efficiënte werkprocessen, duidelijke communicatie en ruimte voor inspraak verhogen we de betrokkenheid en tevredenheid. We investeren in digitale en fysieke toegankelijkheid, beperken hinder bij werken, en creëren nieuwe mogelijkheden voor interactie en beleving. Samen met inwoners en partners maken we van Beernem een gemeente die luistert en verbindt.",
+    "ap_code": "AP-12.2",
+    "ap_short": "De zichtbaarheid en de herkenbaarheid van Beernem verhogen",
+    "ap_long": "We versterken de digitale communicatie van de gemeente met strategische infoschermen, een performante website en krachtige beeldondersteuning, zodat we inwoners vlot kunnen informeren via diverse kanalen.",
+    "ac_code": "AC-12.2.2",
+    "ac_short": "Vernieuwen gemeentelijk website",
+    "ac_long": "We vernieuwen de gemeentelijke website en bouwen een hedendaagse, performante website.\n\nWe bouwen een nieuwe, hedendaagse website om de digitale dienstverlening en de informatiestroom te optimaliseren. Een performante website heeft onder meer volgende kenmerken:\n–Klantgerichte, intuïtieve structuur\n–Visueel aantrekkelijk\n–Performante zoekfunctie\n–Responsief voor gebruik smartphones\n–Conform de strengste toegankelijkheidsnormen (WCAG)\n–Integratie van LPDC\n–Integratie van Mijn Burgerprofiel\n–AI-chatfunctie\n–Inclusief vernieuwd intranet\n\nDe verschillende overheden (gemeentelijk, Vlaams, Europees …) willen een lokaal digitaal ondernemersloket aanbieden om ondernemers vlot te begeleiden (Q&A, subsidiemogelijkheden, vergunningen en wetgeving, info startups). Bij de opbouw van de nieuwe website wordt onderzocht wat de mogelijkheden zijn voor een digitaal ondernemersloket, al dan niet geïntegreerd in de gemeentelijke website.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 14520.0,
+    "amount_per_capita": 0.88,
+    "yearly_amounts": {
+      "2026": 14520.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

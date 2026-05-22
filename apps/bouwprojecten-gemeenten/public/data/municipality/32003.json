@@ -2,90 +2,56 @@
   {
     "municipality": "Diksmuide",
     "nis_code": "32003",
-    "bd_code": "BDS",
-    "bd_short": "Leefbaar Diksmuide",
-    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
-    "ap_code": "1",
-    "ap_short": "Groen-blauwe leefomgeving",
-    "ap_long": "Onze leefomgeving staat onder toenemende druk door de gevolgen van klimaatverandering, verharding en ruimtelijke versnippering. Hitte, droogte en wateroverlast hebben een directe impact op de leefkwaliteit van onze inwoners. Tegelijk is de natuur versnipperd en is er nog onvoldoende kwalitatieve en toegankelijke groene ruimte in de nabijheid van woonkernen.\nDaarom investeren we gericht in een samenhangende, klimaatrobuuste groen-blauwe leefomgeving die bijdraagt aan een gezonde, veerkrachtige en aantrekkelijke stad - ook voor toekomstige generaties. Via ontharding, vergroening, ecologische verbindingen en het herstel van biodiversiteit versterken we de leefkwaliteit in het centrum, de dorpen en het platteland.",
-    "ac_code": "1",
-    "ac_short": "Versterken van groene verbindingen en ecologische corridors",
-    "ac_long": "Tegen 2030 versterken we onze groene corridors tussen het stadscentrum, de dorpen en het buitengebied. We doen dit door in te zetten op ecologisch bermbeheer en het stimuleren van het herstel en aanleg van hagen, bomen en bloemenranden langs routes en perceelranden.",
-    "categories": [
-      "06-wonen-ruimte"
-    ],
-    "total_amount": 14722468.0,
-    "amount_per_capita": 839.18,
-    "yearly_amounts": {
-      "2026": 2091234.0,
-      "2027": 2461234.0,
-      "2028": 2815000.0,
-      "2029": 3865000.0,
-      "2030": 2520000.0,
-      "2031": 970000.0
-    },
-    "yearly_per_capita": {
-      "2026": 119.2,
-      "2027": 140.29,
-      "2028": 160.46,
-      "2029": 220.31,
-      "2030": 143.64,
-      "2031": 55.29
-    }
-  },
-  {
-    "municipality": "Diksmuide",
-    "nis_code": "32003",
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
     "ap_code": "",
     "ap_short": "",
     "ap_long": "",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 12594727.0,
-    "amount_per_capita": 717.9,
+    "total_amount": 20181694.82,
+    "amount_per_capita": 1153.6,
     "yearly_amounts": {
-      "2026": 5140221.0,
-      "2027": 1999119.0,
-      "2028": 1689337.0,
-      "2029": 1350036.0,
-      "2030": 1364544.0,
-      "2031": 1051470.0
+      "2026": 12727188.04,
+      "2027": 1999118.7,
+      "2028": 1689336.87,
+      "2029": 1350036.57,
+      "2030": 1364544.71,
+      "2031": 1051469.93
     },
     "yearly_per_capita": {
-      "2026": 292.99,
-      "2027": 113.95,
-      "2028": 96.29,
-      "2029": 76.95,
-      "2030": 77.78,
-      "2031": 59.93
+      "2026": 727.49,
+      "2027": 114.27,
+      "2028": 96.56,
+      "2029": 77.17,
+      "2030": 78.0,
+      "2031": 60.1
     }
   },
   {
     "municipality": "Diksmuide",
     "nis_code": "32003",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
     "bd_short": "Diksmuide op mensenmaat",
     "bd_long": "We bouwen aan een stad waar iedereen zich thuis voelt en kansen krijgt om mee te doen. Dat doen we door barrières weg te nemen, mensen met elkaar te verbinden en ondersteuning te bieden waar nodig. Met een sterk kansenbeleid zetten we in op digitale en taalkennis, stimuleren we werk en activering, en versterken we sociale interactie, ook voor nieuwkomers. We maken buurten hechter met vrijwilligerswerking, netwerken en groene ontmoetingsplekken. We zorgen voor toegankelijke dienstverlening en geven senioren extra mogelijkheden tot ontmoeting, sport en advies dicht bij huis.",
-    "ap_code": "3",
-    "ap_short": "Buurten versterken",
-    "ap_long": "We versterken onze (zorgzame) buurten voor een betere levenskwaliteit van mensen. We verbinden mensen door ontmoeting en het kleine helpen te faciliteren.",
-    "ac_code": "3",
-    "ac_short": "OC Nieuwkapelle",
-    "ac_long": "We gaan in overleg met het centraal kerkbestuur om via medegebruik in de kerk van Nieuwkapelle een ontmoetingscentrum voor de dorpelingen in te richten.",
+    "ap_code": "3/3",
+    "ap_short": "Toegankelijke hulp- en dienstverlening",
+    "ap_long": "We maken werk van nabije en toegankelijke zorg en ondersteuning met het sociaal huis als centrale uitvalsbasis. We versterken ook onze dienstverlening door digitale aanvragen, een mobiel loket en een 24-uurs automaat in te voeren.",
+    "ac_code": "3/3_1/3/3/1",
+    "ac_short": "Nieuw sociaal huis",
+    "ac_long": "We investeren in een nieuw sociaal huis, een centrale plek voor nabije en toegankelijke dienstverlening van onze eigen diensten en van externe partners.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 6330000.0,
-    "amount_per_capita": 360.81,
+    "total_amount": 6000000.0,
+    "amount_per_capita": 342.96,
     "yearly_amounts": {
-      "2026": 6330000.0,
+      "2026": 6000000.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -93,7 +59,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 360.81,
+      "2026": 342.96,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -104,69 +70,851 @@
   {
     "municipality": "Diksmuide",
     "nis_code": "32003",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "Diksmuide op kindermaat",
     "bd_long": "We bouwen aan een stad waar kinderen en jongeren alle kansen krijgen om te spelen, te leren en hun talenten te ontwikkelen. We zorgen voor ruimte om elkaar te ontmoeten, veilige en inspirerende plekken, en ondersteuning voor gezinnen en verenigingen. Zo creëren we samen een warme omgeving waarin elk kind zich kan ontplooien en thuis voelt.",
-    "ap_code": "4",
+    "ap_code": "4/1",
     "ap_short": "Goed in je vel",
     "ap_long": "We willen dat kinderen en jongeren zich goed in hun vel voelen en investeren daarom in hun welzijn en gezondheid. Daarbij hebben we specifieke aandacht voor het versterken van hun weerbaarheid en veerkracht, en voor kinderen en jongeren die opgroeien in kwetsbare omstandigheden of kinderarmoede ervaren. Zo maken we van Diksmuide een plek waar elk kind en elke jongere de kans krijgt om zich positief te ontwikkelen.",
-    "ac_code": "4",
+    "ac_code": "4/1_1/4/1/6",
     "ac_short": "Nieuwe school Keiem",
     "ac_long": "We bouwen in 2028 een nieuwe school in Keiem.",
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 6225000.0,
-    "amount_per_capita": 354.83,
+    "total_amount": 5250000.0,
+    "amount_per_capita": 300.09,
     "yearly_amounts": {
-      "2026": 1045000.0,
-      "2027": 780000.0,
-      "2028": 2100000.0,
-      "2029": 2100000.0,
-      "2030": 100000.0,
-      "2031": 100000.0
+      "2026": 570000.0,
+      "2027": 680000.0,
+      "2028": 2000000.0,
+      "2029": 2000000.0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 59.57,
-      "2027": 44.46,
-      "2028": 119.7,
-      "2029": 119.7,
-      "2030": 5.7,
-      "2031": 5.7
+      "2026": 32.58,
+      "2027": 38.87,
+      "2028": 114.32,
+      "2029": 114.32,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Diksmuide",
     "nis_code": "32003",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/3",
+    "ap_short": "Duurzame mobiliteit",
+    "ap_long": "We zetten de komende jaren sterk in op duurzame en zachte mobiliteit. We ontwikkelen een toekomstgerichte mobiliteitsvisie die inzet op veilige, toegankelijke en milieuvriendelijke verplaatsingen voor iedereen. Met gerichte investeringen in fietsinfrastructuur, snelheidsremmende maatregelen in dorpskernen en kwaliteitsvolle voetpaden, streven we tegen 2031 naar een duidelijke toename van actieve en gedeelde vervoersvormen.",
+    "ac_code": "1/3_2/1/3/2",
+    "ac_short": "Renovatie wegen",
+    "ac_long": "We voeren vanaf 2026 jaarlijks onderhoudswerken en (gedeeltelijke) heraanleg uit van wegen met aandacht voor duurzame materialen en verhoogd comfort voor alle weggebruikers.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4800000.0,
+    "amount_per_capita": 274.37,
+    "yearly_amounts": {
+      "2026": 725000.0,
+      "2027": 725000.0,
+      "2028": 725000.0,
+      "2029": 1225000.0,
+      "2030": 700000.0,
+      "2031": 700000.0
+    },
+    "yearly_per_capita": {
+      "2026": 41.44,
+      "2027": 41.44,
+      "2028": 41.44,
+      "2029": 70.02,
+      "2030": 40.01,
+      "2031": 40.01
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/1",
+    "ap_short": "Groen-blauwe leefomgeving",
+    "ap_long": "Onze leefomgeving staat onder toenemende druk door de gevolgen van klimaatverandering, verharding en ruimtelijke versnippering. Hitte, droogte en wateroverlast hebben een directe impact op de leefkwaliteit van onze inwoners. Tegelijk is de natuur versnipperd en is er nog onvoldoende kwalitatieve en toegankelijke groene ruimte in de nabijheid van woonkernen.\nDaarom investeren we gericht in een samenhangende, klimaatrobuuste groen-blauwe leefomgeving die bijdraagt aan een gezonde, veerkrachtige en aantrekkelijke stad - ook voor toekomstige generaties. Via ontharding, vergroening, ecologische verbindingen en het herstel van biodiversiteit versterken we de leefkwaliteit in het centrum, de dorpen en het platteland.",
+    "ac_code": "1/1_1/1/1/4",
+    "ac_short": "Uitbreiding rioleringsnet",
+    "ac_long": "Tegen 2027 realiseren we de aansluiting van groene clusters uit het zoneringsplan op de riolering, in uitvoering van de reductiedoelstellingen opgelegd door de Vlaamse Milieumaatschappij (VMM). Groene clusters zijn woongebieden waar aansluiting op de riolering technisch en economisch haalbaar is. Door deze clusters aan te sluiten voldoen we aan de opgelegde normen en verbeteren we de waterkwaliteit door de verhoogde zuiveringsgraad van het afvalwater.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 4750000.0,
+    "amount_per_capita": 271.51,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 500000.0,
+      "2028": 1150000.0,
+      "2029": 1500000.0,
+      "2030": 1500000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.72,
+      "2027": 28.58,
+      "2028": 65.73,
+      "2029": 85.74,
+      "2030": 85.74,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/3",
+    "ap_short": "Duurzame mobiliteit",
+    "ap_long": "We zetten de komende jaren sterk in op duurzame en zachte mobiliteit. We ontwikkelen een toekomstgerichte mobiliteitsvisie die inzet op veilige, toegankelijke en milieuvriendelijke verplaatsingen voor iedereen. Met gerichte investeringen in fietsinfrastructuur, snelheidsremmende maatregelen in dorpskernen en kwaliteitsvolle voetpaden, streven we tegen 2031 naar een duidelijke toename van actieve en gedeelde vervoersvormen.",
+    "ac_code": "1/3_1/1/3/4",
+    "ac_short": "Fietspaden",
+    "ac_long": "We stellen een ontwerper of studiebureau aan om tegen eind 2030 vier strategische fietspadtracés technisch uit te werken om veilige en comfortabele fietsverbindingen tussen woonkernen en voorzieningen te realiseren:\n- Spoorwegtracé\n- Lampernisse - Lettenburg\n- IJzerdijk - IJzerboomgaard\n- Kaaskerke - Centrum",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1842468.0,
+    "amount_per_capita": 105.32,
+    "yearly_amounts": {
+      "2026": 846234.0,
+      "2027": 846234.0,
+      "2028": 50000.0,
+      "2029": 50000.0,
+      "2030": 50000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 48.37,
+      "2027": 48.37,
+      "2028": 2.86,
+      "2029": 2.86,
+      "2030": 2.86,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/3",
+    "ap_short": "Duurzame mobiliteit",
+    "ap_long": "We zetten de komende jaren sterk in op duurzame en zachte mobiliteit. We ontwikkelen een toekomstgerichte mobiliteitsvisie die inzet op veilige, toegankelijke en milieuvriendelijke verplaatsingen voor iedereen. Met gerichte investeringen in fietsinfrastructuur, snelheidsremmende maatregelen in dorpskernen en kwaliteitsvolle voetpaden, streven we tegen 2031 naar een duidelijke toename van actieve en gedeelde vervoersvormen.",
+    "ac_code": "1/3_1/1/3/3",
+    "ac_short": "Voet- en wandelpaden",
+    "ac_long": "We voeren jaarlijks herstellingen uit van bestaande voet- en wandelpaden in de stad en dorpen met specifieke aandacht voor veiligheid en toegankelijkheid.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1600000.0,
+    "amount_per_capita": 91.46,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 300000.0,
+      "2028": 250000.0,
+      "2029": 250000.0,
+      "2030": 250000.0,
+      "2031": 250000.0
+    },
+    "yearly_per_capita": {
+      "2026": 17.15,
+      "2027": 17.15,
+      "2028": 14.29,
+      "2029": 14.29,
+      "2030": 14.29,
+      "2031": 14.29
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/1",
+    "ap_short": "Groen-blauwe leefomgeving",
+    "ap_long": "Onze leefomgeving staat onder toenemende druk door de gevolgen van klimaatverandering, verharding en ruimtelijke versnippering. Hitte, droogte en wateroverlast hebben een directe impact op de leefkwaliteit van onze inwoners. Tegelijk is de natuur versnipperd en is er nog onvoldoende kwalitatieve en toegankelijke groene ruimte in de nabijheid van woonkernen.\nDaarom investeren we gericht in een samenhangende, klimaatrobuuste groen-blauwe leefomgeving die bijdraagt aan een gezonde, veerkrachtige en aantrekkelijke stad - ook voor toekomstige generaties. Via ontharding, vergroening, ecologische verbindingen en het herstel van biodiversiteit versterken we de leefkwaliteit in het centrum, de dorpen en het platteland.",
+    "ac_code": "1/1_1/1/1/3",
+    "ac_short": "Stadskernvernieuwing fase 3",
+    "ac_long": "Tegen eind 2029 realiseren we in 6 straten van het stadscentrum een heraanleg van de wegenis en de aanleg van een gescheiden rioleringsstelsel, waarbij het volledige openbaar domein wordt vernieuwd. Het gaat om de Kwadestraat, Vismarkt, Kiekenstraat, Sint-Niklaasstraat, Torenstraat en Van Pouckestraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1200000.0,
+    "amount_per_capita": 68.59,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 600000.0,
+      "2029": 600000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 34.3,
+      "2029": 34.3,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/1",
+    "ap_short": "Groen-blauwe leefomgeving",
+    "ap_long": "Onze leefomgeving staat onder toenemende druk door de gevolgen van klimaatverandering, verharding en ruimtelijke versnippering. Hitte, droogte en wateroverlast hebben een directe impact op de leefkwaliteit van onze inwoners. Tegelijk is de natuur versnipperd en is er nog onvoldoende kwalitatieve en toegankelijke groene ruimte in de nabijheid van woonkernen.\nDaarom investeren we gericht in een samenhangende, klimaatrobuuste groen-blauwe leefomgeving die bijdraagt aan een gezonde, veerkrachtige en aantrekkelijke stad - ook voor toekomstige generaties. Via ontharding, vergroening, ecologische verbindingen en het herstel van biodiversiteit versterken we de leefkwaliteit in het centrum, de dorpen en het platteland.",
+    "ac_code": "1/1_1/1/1/5",
+    "ac_short": "Realisatie Vestingpark",
+    "ac_long": "In 2026 breiden we het Vestingpark uit als extra groene long en richten we het in tot een toegankelijke, groene ontmoetingsplek in het stadscentrum, met ruimte voor spelen, picknicken en ontspanning. Zo bekomen we een toegankelijke wandel- en fietslus van het station naar de zorgsite rond het Yserheem en de Sint-Sebastiaanwijk.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 819986.83,
+    "amount_per_capita": 46.87,
+    "yearly_amounts": {
+      "2026": 819986.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 46.87,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 4",
+    "bd_short": "Diksmuide op kindermaat",
+    "bd_long": "We bouwen aan een stad waar kinderen en jongeren alle kansen krijgen om te spelen, te leren en hun talenten te ontwikkelen. We zorgen voor ruimte om elkaar te ontmoeten, veilige en inspirerende plekken, en ondersteuning voor gezinnen en verenigingen. Zo creëren we samen een warme omgeving waarin elk kind zich kan ontplooien en thuis voelt.",
+    "ap_code": "4/2",
+    "ap_short": "Ruimte om jong te zijn",
+    "ap_long": "We willen inzetten op duurzame, verkeersveilige en leefbare ruimtes voor kinderen en jongeren. Ze moeten kunnen gedijen in een veilige, gezonde omgeving die ze vrij kunnen ontdekken.",
+    "ac_code": "4/2_1/4/2/2",
+    "ac_short": "Verkeersveilige schoolomgevingen",
+    "ac_long": "We implementeren jaarlijks een integrale aanpak van verkeersveiligheid in twee schoolomgevingen in Diksmuide. De focus ligt op het verhogen van de veiligheid van schoolkinderen binnen een straal van 100 meter rond de schooltoegang, of tot het eerste kruispunt. We voeren kleinschalige ingrepen uit (signalisatie, wegmarkering, snelheidsremmers, ...), ondersteund door Vlaamse subsidies.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 34.3,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 100000.0,
+      "2031": 100000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.72,
+      "2027": 5.72,
+      "2028": 5.72,
+      "2029": 5.72,
+      "2030": 5.72,
+      "2031": 5.72
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 2",
     "bd_short": "Bruisend Diksmuide",
     "bd_long": "We maken van Diksmuide een bruisende stad waar leven, ontmoeting en beleving centraal staan. Met gerichte toeristische, sportieve en culturele impulsen versterken we het vrijetijdsaanbod voor inwoners en bezoekers. Een evenementenportfolio draagt bij aan de levendigheid van de stad en stimuleert verbondenheid binnen de gemeenschap.",
-    "ap_code": "2",
+    "ap_code": "2/3",
+    "ap_short": "Ruimte voor cultuur en erfgoed",
+    "ap_long": "We geven cultuur en erfgoed een prominente plaats. Met initiatieven zoals investeringen in infrastructuur en een versterking van het aanbod maken we cultuur en erfgoed breed toegankelijk voor alle leeftijden.",
+    "ac_code": "2/3_1/2/3/2",
+    "ac_short": "Ruimte voor Kadens",
+    "ac_long": "Tegen september 2027 creëren we extra les- en repetitieruimte voor Kadens door te investeren in de huur van containers of het herinrichten van vrijkomende stedelijke ruimtes. Deze tijdelijke uitbreiding maakt het mogelijk om alle leerlingen kwaliteitsvol onderwijs te bieden. Daarbij besteden we bijzondere aandacht aan een veilige en vlotte toegang voor de leerlingen van de cultuursite. Tegelijk blijven we actief zoeken naar subsidiemogelijkheden om het structurele plaatsgebrek op lange termijn op te lossen.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 429734.62,
+    "amount_per_capita": 24.56,
+    "yearly_amounts": {
+      "2026": 229734.62,
+      "2027": 200000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.13,
+      "2027": 11.43,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 2",
+    "bd_short": "Bruisend Diksmuide",
+    "bd_long": "We maken van Diksmuide een bruisende stad waar leven, ontmoeting en beleving centraal staan. Met gerichte toeristische, sportieve en culturele impulsen versterken we het vrijetijdsaanbod voor inwoners en bezoekers. Een evenementenportfolio draagt bij aan de levendigheid van de stad en stimuleert verbondenheid binnen de gemeenschap.",
+    "ap_code": "2/3",
+    "ap_short": "Ruimte voor cultuur en erfgoed",
+    "ap_long": "We geven cultuur en erfgoed een prominente plaats. Met initiatieven zoals investeringen in infrastructuur en een versterking van het aanbod maken we cultuur en erfgoed breed toegankelijk voor alle leeftijden.",
+    "ac_code": "2/3_2/2/3/1",
+    "ac_short": "Cultuurplekken",
+    "ac_long": "We investeren in de technische uitrusting van CC Kruispunt en de cultuurplekken van morgen op basis van een globaal lange termijnplan met focus op gedeeld gebruik.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 375000.0,
+    "amount_per_capita": 21.44,
+    "yearly_amounts": {
+      "2026": 210000.0,
+      "2027": 33000.0,
+      "2028": 33000.0,
+      "2029": 33000.0,
+      "2030": 33000.0,
+      "2031": 33000.0
+    },
+    "yearly_per_capita": {
+      "2026": 12.0,
+      "2027": 1.89,
+      "2028": 1.89,
+      "2029": 1.89,
+      "2030": 1.89,
+      "2031": 1.89
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 4",
+    "bd_short": "Diksmuide op kindermaat",
+    "bd_long": "We bouwen aan een stad waar kinderen en jongeren alle kansen krijgen om te spelen, te leren en hun talenten te ontwikkelen. We zorgen voor ruimte om elkaar te ontmoeten, veilige en inspirerende plekken, en ondersteuning voor gezinnen en verenigingen. Zo creëren we samen een warme omgeving waarin elk kind zich kan ontplooien en thuis voelt.",
+    "ap_code": "4/2",
+    "ap_short": "Ruimte om jong te zijn",
+    "ap_long": "We willen inzetten op duurzame, verkeersveilige en leefbare ruimtes voor kinderen en jongeren. Ze moeten kunnen gedijen in een veilige, gezonde omgeving die ze vrij kunnen ontdekken.",
+    "ac_code": "4/2_1/4/2/3",
+    "ac_short": "Opwaardering jeugdlokalen",
+    "ac_long": "We investeren in de opwaardering van onze jeugdlokalen. Zo kopen we speelgrond aan voor de Chiro van Woumen, vernieuwen we het dak van Chiro Esen en KLJ Vladslo-Esen en kopen we opslagcontainers aan voor de Chiro's van Keiem en Leke.  We voorzien in 2026 een alternatieve locatie / nieuw lokaal voor KLJ Beerst-Keiem-Leke.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 365000.0,
+    "amount_per_capita": 20.86,
+    "yearly_amounts": {
+      "2026": 365000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 20.86,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 2",
+    "bd_short": "Bruisend Diksmuide",
+    "bd_long": "We maken van Diksmuide een bruisende stad waar leven, ontmoeting en beleving centraal staan. Met gerichte toeristische, sportieve en culturele impulsen versterken we het vrijetijdsaanbod voor inwoners en bezoekers. Een evenementenportfolio draagt bij aan de levendigheid van de stad en stimuleert verbondenheid binnen de gemeenschap.",
+    "ap_code": "2/1",
     "ap_short": "Toeristische impulsen",
     "ap_long": "We versterken de toeristische aantrekkingskracht in Diksmuide door water als unieke troef te benutten en onze digitale zichtbaarheid te vergroten. Tegelijk investeren we in infrastructuur om bezoekers comfortabel en gastvrij te ontvangen. Zo creëren we een aantrekkelijk en toegankelijk aanbod dat zowel inwoners als toeristen aanspreekt.",
-    "ac_code": "2",
+    "ac_code": "2/1_1/2/1/2",
+    "ac_short": "Fiets- en wandelnetwerk",
+    "ac_long": "We zetten deze legislatuur in op kwalitatieve recreatieve verbindingen door nieuwe wandelverbindingen te realiseren en kwaliteitsgrepen uit te voeren aan het aanwezige fiets- en wandelnetwerk.\n In Diksmuide blijven we ijveren voor het ontsluiten van de stadswandeling vanaf het Begijnhof naar de Galileistraat en de Oostendestraat. \n In Vladslo bekijkt het agentschap Natuur en Bos (ANB) voor ons de ontsluiting van het Welfvenestbos richting Brugse Heirweg en richting Koekelare.\n Daar zit ook de verbinding van het Praetbos naar de Praetweg (dreef) in hun scope.\n In Woumen wensen we een verbinding tussen de provinciale domeinen Blankaart en Ijzerboomgaard door een verbinding tussen de Oostdijk en de ventweg langs de omleidingsweg.\n In Kaaskerke gaat het om de verbinding Passerelleweg - Oud-Stuivekenspad. \n In Oudekapelle herstellen we de verbinding tussen de beide delen van de Sleestraat. \n In Esen ambiëren we de ontsluiting van de zuideroever van de Handzamevaart tussen de Vladslostraat en de Einsdijk. \n In Beerst kijken we naar de verbinding Paddestraat - Ommegangstraat. \n In Oostkerke focussen we op de noordelijke lus (Oude A-vaart - spoorweg) \n In Keiem focussen we op de verbinding Zijdelingstraat - Duivelswalestraat.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 358000.0,
+    "amount_per_capita": 20.46,
+    "yearly_amounts": {
+      "2026": 71600.0,
+      "2027": 71600.0,
+      "2028": 71600.0,
+      "2029": 71600.0,
+      "2030": 71600.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.09,
+      "2027": 4.09,
+      "2028": 4.09,
+      "2029": 4.09,
+      "2030": 4.09,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 2",
+    "bd_short": "Bruisend Diksmuide",
+    "bd_long": "We maken van Diksmuide een bruisende stad waar leven, ontmoeting en beleving centraal staan. Met gerichte toeristische, sportieve en culturele impulsen versterken we het vrijetijdsaanbod voor inwoners en bezoekers. Een evenementenportfolio draagt bij aan de levendigheid van de stad en stimuleert verbondenheid binnen de gemeenschap.",
+    "ap_code": "2/1",
+    "ap_short": "Toeristische impulsen",
+    "ap_long": "We versterken de toeristische aantrekkingskracht in Diksmuide door water als unieke troef te benutten en onze digitale zichtbaarheid te vergroten. Tegelijk investeren we in infrastructuur om bezoekers comfortabel en gastvrij te ontvangen. Zo creëren we een aantrekkelijk en toegankelijk aanbod dat zowel inwoners als toeristen aanspreekt.",
+    "ac_code": "2/1_1/2/1/4",
+    "ac_short": "Wayfindingproject",
+    "ac_long": "We willen bezoekers op een vlotte en aantrekkelijke manier naar het hart van Diksmuide leiden. Via het project ademroute, stimuleren we duurzame verplaatsingen en een aangename ontdekking van het centrum.",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 322465.0,
+    "amount_per_capita": 18.43,
+    "yearly_amounts": {
+      "2026": 322465.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.43,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 3",
+    "bd_short": "Diksmuide op mensenmaat",
+    "bd_long": "We bouwen aan een stad waar iedereen zich thuis voelt en kansen krijgt om mee te doen. Dat doen we door barrières weg te nemen, mensen met elkaar te verbinden en ondersteuning te bieden waar nodig. Met een sterk kansenbeleid zetten we in op digitale en taalkennis, stimuleren we werk en activering, en versterken we sociale interactie, ook voor nieuwkomers. We maken buurten hechter met vrijwilligerswerking, netwerken en groene ontmoetingsplekken. We zorgen voor toegankelijke dienstverlening en geven senioren extra mogelijkheden tot ontmoeting, sport en advies dicht bij huis.",
+    "ap_code": "3/2",
+    "ap_short": "Buurten versterken",
+    "ap_long": "We versterken onze (zorgzame) buurten voor een betere levenskwaliteit van mensen. We verbinden mensen door ontmoeting en het kleine helpen te faciliteren.",
+    "ac_code": "3/2_1/3/2/3",
+    "ac_short": "OC Nieuwkapelle",
+    "ac_long": "We gaan in overleg met het centraal kerkbestuur om via medegebruik in de kerk van Nieuwkapelle een ontmoetingscentrum voor de dorpelingen in te richten.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 17.15,
+    "yearly_amounts": {
+      "2026": 300000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.15,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/5",
+    "ap_short": "Veilige leefomgeving",
+    "ap_long": "We creëren in Diksmuide een veilige leefomgeving voor alle inwoners, met aandacht voor zowel sociale als fysieke veiligheid. We zetten sterk in op de samenwerking met de verschillende hulpdiensten en op bestuurlijke handhaving om criminaliteit, vandalisme en overlast effectief aan te pakken.",
+    "ac_code": "1/5_1/1/5/1",
+    "ac_short": "Locatieprospectie brandweerkazerne Leke",
+    "ac_long": "Tegen eind 2029 voeren we een locatieprospectie uit, selecteren we een geschikte site en stellen we indien nodig een RUP op, om zo de ruimtelijke en functionele randvoorwaarden te creëren voor een nieuwe brandweerkazerne die voldoet aan de huidige normen inzake bereikbaarheid, veiligheid en mobiliteit.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 200000.0,
+    "amount_per_capita": 11.43,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 200000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 11.43,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 2",
+    "bd_short": "Bruisend Diksmuide",
+    "bd_long": "We maken van Diksmuide een bruisende stad waar leven, ontmoeting en beleving centraal staan. Met gerichte toeristische, sportieve en culturele impulsen versterken we het vrijetijdsaanbod voor inwoners en bezoekers. Een evenementenportfolio draagt bij aan de levendigheid van de stad en stimuleert verbondenheid binnen de gemeenschap.",
+    "ap_code": "2/1",
+    "ap_short": "Toeristische impulsen",
+    "ap_long": "We versterken de toeristische aantrekkingskracht in Diksmuide door water als unieke troef te benutten en onze digitale zichtbaarheid te vergroten. Tegelijk investeren we in infrastructuur om bezoekers comfortabel en gastvrij te ontvangen. Zo creëren we een aantrekkelijk en toegankelijk aanbod dat zowel inwoners als toeristen aanspreekt.",
+    "ac_code": "2/1_2/2/1/1",
+    "ac_short": "Digitale promoborden",
+    "ac_long": "We kopen in 2027 vier mobiele digitale promoborden aan.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 162000.0,
+    "amount_per_capita": 9.26,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 162000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 9.26,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/3",
+    "ap_short": "Duurzame mobiliteit",
+    "ap_long": "We zetten de komende jaren sterk in op duurzame en zachte mobiliteit. We ontwikkelen een toekomstgerichte mobiliteitsvisie die inzet op veilige, toegankelijke en milieuvriendelijke verplaatsingen voor iedereen. Met gerichte investeringen in fietsinfrastructuur, snelheidsremmende maatregelen in dorpskernen en kwaliteitsvolle voetpaden, streven we tegen 2031 naar een duidelijke toename van actieve en gedeelde vervoersvormen.",
+    "ac_code": "1/3_2/1/3/1",
+    "ac_short": "Fietsinfrastructuur",
+    "ac_long": "We breiden de fietsinfrastructuur in Diksmuide uit door nieuwe fietsenstallingen, laadinfrastructuur en fietskluizen te voorzien op strategische plaatsen om duurzame verplaatsingen te stimuleren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 6.86,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.14,
+      "2027": 1.14,
+      "2028": 1.14,
+      "2029": 1.14,
+      "2030": 1.14,
+      "2031": 1.14
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/1",
+    "ap_short": "Groen-blauwe leefomgeving",
+    "ap_long": "Onze leefomgeving staat onder toenemende druk door de gevolgen van klimaatverandering, verharding en ruimtelijke versnippering. Hitte, droogte en wateroverlast hebben een directe impact op de leefkwaliteit van onze inwoners. Tegelijk is de natuur versnipperd en is er nog onvoldoende kwalitatieve en toegankelijke groene ruimte in de nabijheid van woonkernen.\nDaarom investeren we gericht in een samenhangende, klimaatrobuuste groen-blauwe leefomgeving die bijdraagt aan een gezonde, veerkrachtige en aantrekkelijke stad - ook voor toekomstige generaties. Via ontharding, vergroening, ecologische verbindingen en het herstel van biodiversiteit versterken we de leefkwaliteit in het centrum, de dorpen en het platteland.",
+    "ac_code": "1/1_1/1/1/1",
+    "ac_short": "Versterken van groene verbindingen en ecologische corridors",
+    "ac_long": "Tegen 2030 versterken we onze groene corridors tussen het stadscentrum, de dorpen en het buitengebied. We doen dit door in te zetten op ecologisch bermbeheer en het stimuleren van het herstel en aanleg van hagen, bomen en bloemenranden langs routes en perceelranden.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 4.57,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.14,
+      "2027": 1.14,
+      "2028": 1.14,
+      "2029": 1.14,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/3",
+    "ap_short": "Duurzame mobiliteit",
+    "ap_long": "We zetten de komende jaren sterk in op duurzame en zachte mobiliteit. We ontwikkelen een toekomstgerichte mobiliteitsvisie die inzet op veilige, toegankelijke en milieuvriendelijke verplaatsingen voor iedereen. Met gerichte investeringen in fietsinfrastructuur, snelheidsremmende maatregelen in dorpskernen en kwaliteitsvolle voetpaden, streven we tegen 2031 naar een duidelijke toename van actieve en gedeelde vervoersvormen.",
+    "ac_code": "1/3_1/1/3/2",
+    "ac_short": "Optimalisatie blauwe zone",
+    "ac_long": "We stellen in 2026 via heraanbesteding een parkeerfirma aan voor de handhaving van de blauwe zone. Daarnaast voeren we gerichte maatregelen in  zoals sensoren aan shop&go-plaatsen en controle op misbruik van parkeerschijven  om de rotatiegraad en beschikbaarheid van parkeerplaatsen in het winkelcentrum merkbaar te verhogen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 4.57,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 2",
+    "bd_short": "Bruisend Diksmuide",
+    "bd_long": "We maken van Diksmuide een bruisende stad waar leven, ontmoeting en beleving centraal staan. Met gerichte toeristische, sportieve en culturele impulsen versterken we het vrijetijdsaanbod voor inwoners en bezoekers. Een evenementenportfolio draagt bij aan de levendigheid van de stad en stimuleert verbondenheid binnen de gemeenschap.",
+    "ap_code": "2/1",
+    "ap_short": "Toeristische impulsen",
+    "ap_long": "We versterken de toeristische aantrekkingskracht in Diksmuide door water als unieke troef te benutten en onze digitale zichtbaarheid te vergroten. Tegelijk investeren we in infrastructuur om bezoekers comfortabel en gastvrij te ontvangen. Zo creëren we een aantrekkelijk en toegankelijk aanbod dat zowel inwoners als toeristen aanspreekt.",
+    "ac_code": "2/1_1/2/1/3",
+    "ac_short": "Onthaal campers & touringcars",
+    "ac_long": "Tegen eind 2028 voorzien we parkeer- en overnachtingsfaciliteiten voor campers en parkeermogelijkheden voor touringcars nabij het stadscentrum.",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 70000.0,
+    "amount_per_capita": 4.0,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 70000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 4.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 1",
+    "bd_short": "Leefbaar Diksmuide",
+    "bd_long": "Tegen 2031 versterken we de leefbaarheid in onze stad, dorpen en het platteland door een gezonde, veilige en toekomstgerichte leefomgeving te creëren. We maken ruimte voor groen en water, stimuleren betaalbaar en kwaliteitsvol wonen, versterken duurzame mobiliteit en zorgen voor een nette en ordentelijke openbare ruimte. We bouwen aan een stad die aantrekkelijk, toegankelijk en weerbaar is, met respect voor mens, natuur én bedrijvigheid.",
+    "ap_code": "1/1",
+    "ap_short": "Groen-blauwe leefomgeving",
+    "ap_long": "Onze leefomgeving staat onder toenemende druk door de gevolgen van klimaatverandering, verharding en ruimtelijke versnippering. Hitte, droogte en wateroverlast hebben een directe impact op de leefkwaliteit van onze inwoners. Tegelijk is de natuur versnipperd en is er nog onvoldoende kwalitatieve en toegankelijke groene ruimte in de nabijheid van woonkernen.\nDaarom investeren we gericht in een samenhangende, klimaatrobuuste groen-blauwe leefomgeving die bijdraagt aan een gezonde, veerkrachtige en aantrekkelijke stad - ook voor toekomstige generaties. Via ontharding, vergroening, ecologische verbindingen en het herstel van biodiversiteit versterken we de leefkwaliteit in het centrum, de dorpen en het platteland.",
+    "ac_code": "1/1_1/1/1/2",
+    "ac_short": "Vergroening Grote en Kleine Dijk",
+    "ac_long": "In 2027 voeren we een doelgericht onthardings- en vergroeningsproject uit ter hoogte van de Grote en Kleine Dijk, waarbij verharding wordt vervangen door klimaatrobuust groen.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 2.86,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.86,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 2",
+    "bd_short": "Bruisend Diksmuide",
+    "bd_long": "We maken van Diksmuide een bruisende stad waar leven, ontmoeting en beleving centraal staan. Met gerichte toeristische, sportieve en culturele impulsen versterken we het vrijetijdsaanbod voor inwoners en bezoekers. Een evenementenportfolio draagt bij aan de levendigheid van de stad en stimuleert verbondenheid binnen de gemeenschap.",
+    "ap_code": "2/2",
+    "ap_short": "Sportieve impulsen",
+    "ap_long": "We stimuleren een actieve en gezonde levensstijl door de sportieve beleving in Diksmuide uit te breiden en toegankelijker te maken voor iedereen. Zo versterken we het sportieve karakter van onze stad want sporters beleven meer.",
+    "ac_code": "2/2_1/2/2/1",
+    "ac_short": "Zwemmen in openlucht",
+    "ac_long": "We onderzoeken tegen de zomer van 2027 de mogelijkheid tot een vrije zwemzone in openbaar water en in open lucht voor tijdens warme zomerdagen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 2.29,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.29,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 3",
+    "bd_short": "Diksmuide op mensenmaat",
+    "bd_long": "We bouwen aan een stad waar iedereen zich thuis voelt en kansen krijgt om mee te doen. Dat doen we door barrières weg te nemen, mensen met elkaar te verbinden en ondersteuning te bieden waar nodig. Met een sterk kansenbeleid zetten we in op digitale en taalkennis, stimuleren we werk en activering, en versterken we sociale interactie, ook voor nieuwkomers. We maken buurten hechter met vrijwilligerswerking, netwerken en groene ontmoetingsplekken. We zorgen voor toegankelijke dienstverlening en geven senioren extra mogelijkheden tot ontmoeting, sport en advies dicht bij huis.",
+    "ap_code": "3/2",
+    "ap_short": "Buurten versterken",
+    "ap_long": "We versterken onze (zorgzame) buurten voor een betere levenskwaliteit van mensen. We verbinden mensen door ontmoeting en het kleine helpen te faciliteren.",
+    "ac_code": "3/2_2/3/2/1",
+    "ac_short": "Nieuwe volkstuintjes",
+    "ac_long": "In 2026 leggen we 20 bijkomende volkstuintjes aan.",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 1.71,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.71,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 2",
+    "bd_short": "Bruisend Diksmuide",
+    "bd_long": "We maken van Diksmuide een bruisende stad waar leven, ontmoeting en beleving centraal staan. Met gerichte toeristische, sportieve en culturele impulsen versterken we het vrijetijdsaanbod voor inwoners en bezoekers. Een evenementenportfolio draagt bij aan de levendigheid van de stad en stimuleert verbondenheid binnen de gemeenschap.",
+    "ap_code": "2/1",
+    "ap_short": "Toeristische impulsen",
+    "ap_long": "We versterken de toeristische aantrekkingskracht in Diksmuide door water als unieke troef te benutten en onze digitale zichtbaarheid te vergroten. Tegelijk investeren we in infrastructuur om bezoekers comfortabel en gastvrij te ontvangen. Zo creëren we een aantrekkelijk en toegankelijk aanbod dat zowel inwoners als toeristen aanspreekt.",
+    "ac_code": "2/1_1/2/1/1",
     "ac_short": "Water als troef",
     "ac_long": "Water is een belangrijke troef om toeristen aan te trekken, we versterken deze legislatuur dan ook het watergebonden recreatief aanbod.",
     "categories": [
       "05-ondernemen-werken"
     ],
-    "total_amount": 1410000.0,
-    "amount_per_capita": 80.37,
+    "total_amount": 15000.0,
+    "amount_per_capita": 0.86,
     "yearly_amounts": {
-      "2026": 471600.0,
-      "2027": 521600.0,
-      "2028": 174600.0,
-      "2029": 104600.0,
-      "2030": 104600.0,
-      "2031": 33000.0
+      "2026": 0,
+      "2027": 15000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 26.88,
-      "2027": 29.73,
-      "2028": 9.95,
-      "2029": 5.96,
-      "2030": 5.96,
-      "2031": 1.88
+      "2026": 0,
+      "2027": 0.86,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Diksmuide",
+    "nis_code": "32003",
+    "bd_code": "BDS 4",
+    "bd_short": "Diksmuide op kindermaat",
+    "bd_long": "We bouwen aan een stad waar kinderen en jongeren alle kansen krijgen om te spelen, te leren en hun talenten te ontwikkelen. We zorgen voor ruimte om elkaar te ontmoeten, veilige en inspirerende plekken, en ondersteuning voor gezinnen en verenigingen. Zo creëren we samen een warme omgeving waarin elk kind zich kan ontplooien en thuis voelt.",
+    "ap_code": "4/2",
+    "ap_short": "Ruimte om jong te zijn",
+    "ap_long": "We willen inzetten op duurzame, verkeersveilige en leefbare ruimtes voor kinderen en jongeren. Ze moeten kunnen gedijen in een veilige, gezonde omgeving die ze vrij kunnen ontdekken.",
+    "ac_code": "4/2_1/4/2/1",
+    "ac_short": "Buitenspeelbeleid",
+    "ac_long": "We werken een strategie uit om buitenspelen en buiten zijn te stimuleren en voorzien hiervoor de nodige impulsen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.57,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

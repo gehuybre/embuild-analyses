@@ -14,10 +14,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 5244034.0,
-    "amount_per_capita": 381.16,
+    "total_amount": 6271131.22,
+    "amount_per_capita": 455.99,
     "yearly_amounts": {
-      "2026": 423027.0,
+      "2026": 1450124.22,
       "2027": 906842.0,
       "2028": 1279060.0,
       "2029": 747620.0,
@@ -25,12 +25,12 @@
       "2031": 629926.0
     },
     "yearly_per_capita": {
-      "2026": 30.75,
-      "2027": 65.91,
-      "2028": 92.97,
-      "2029": 54.34,
-      "2030": 91.41,
-      "2031": 45.79
+      "2026": 105.44,
+      "2027": 65.94,
+      "2028": 93.0,
+      "2029": 54.36,
+      "2030": 91.44,
+      "2031": 45.8
     }
   },
   {
@@ -48,10 +48,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 2640000.0,
-    "amount_per_capita": 191.89,
+    "total_amount": 2911528.82,
+    "amount_per_capita": 211.71,
     "yearly_amounts": {
-      "2026": 490000.0,
+      "2026": 761528.82,
       "2027": 550000.0,
       "2028": 400000.0,
       "2029": 400000.0,
@@ -59,12 +59,46 @@
       "2031": 400000.0
     },
     "yearly_per_capita": {
-      "2026": 35.62,
-      "2027": 39.98,
-      "2028": 29.07,
-      "2029": 29.07,
-      "2030": 29.07,
-      "2031": 29.07
+      "2026": 55.37,
+      "2027": 39.99,
+      "2028": 29.09,
+      "2029": 29.09,
+      "2030": 29.09,
+      "2031": 29.09
+    }
+  },
+  {
+    "municipality": "Bocholt",
+    "nis_code": "72003",
+    "bd_code": "BD000004",
+    "bd_short": "Integrale en duurzame mobiliteit met bijzondere aandacht voor zachte weggebruiker en ontsluiting",
+    "bd_long": "BD04 Bocholt zet in op integrale en duurzame mobiliteit met bijzondere aandacht voor de zachte weggebruiker en de ontsluiting van Bocholt.",
+    "ap_code": "AP000012",
+    "ap_short": "Bocholt werkt doelgericht verder aan de modal shift",
+    "ap_long": "BD04AP01 Bocholt werkt doelgericht verder aan de modal shift door alternatieven voor autoverkeer actief te versterken en te promoten",
+    "ac_code": "AC000021",
+    "ac_short": "Bocholt zet in op veilige en aangename infrastructuur en verbindingen voor fietsers en voetgangers",
+    "ac_long": "BD04AP01A01 Bocholt blijft inzetten op veilige en aangename infrastructuur en verbindingen voor fietsers en voetgangers",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2789236.8,
+    "amount_per_capita": 202.81,
+    "yearly_amounts": {
+      "2026": 860486.8,
+      "2027": 640000.0,
+      "2028": 1000000.0,
+      "2029": 288750.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 62.57,
+      "2027": 46.54,
+      "2028": 72.71,
+      "2029": 21.0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -83,7 +117,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 2500000.0,
-    "amount_per_capita": 181.71,
+    "amount_per_capita": 181.78,
     "yearly_amounts": {
       "2026": 0,
       "2027": 500000.0,
@@ -94,79 +128,11 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 36.34,
-      "2028": 36.34,
-      "2029": 36.34,
-      "2030": 36.34,
-      "2031": 36.34
-    }
-  },
-  {
-    "municipality": "Bocholt",
-    "nis_code": "72003",
-    "bd_code": "BD000002",
-    "bd_short": "Verduurzamen van het patrimonium en het klimaatbestendig inrichten van het grondgebied",
-    "bd_long": "BD02 Bocholt zet in op het verduurzamen van het patrimonium en het klimaatbestendig inrichten van het grondgebied met aandacht voor maatschappelijk verantwoord ondernemen.",
-    "ap_code": "AP000006",
-    "ap_short": "Bocholt ontwikkelt toekomstgerichte visie voor verduurzaming en planmatig onderhoud van patrimonium",
-    "ap_long": "BD02AP01 Bocholt ontwikkelt een toekomstgerichte visie voor de verduurzaming en het planmatig onderhoud van haar patrimonium",
-    "ac_code": "AC000011",
-    "ac_short": "Bocholt zorgt voor een efficiënt en duurzaam beheer van het patrimonium",
-    "ac_long": "BD02AP01A03 Bocholt zorgt voor een efficiënt en duurzaam beheer van het patrimonium",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 2343000.0,
-    "amount_per_capita": 170.3,
-    "yearly_amounts": {
-      "2026": 473000.0,
-      "2027": 508000.0,
-      "2028": 418000.0,
-      "2029": 428000.0,
-      "2030": 218000.0,
-      "2031": 298000.0
-    },
-    "yearly_per_capita": {
-      "2026": 34.38,
-      "2027": 36.92,
-      "2028": 30.38,
-      "2029": 31.11,
-      "2030": 15.85,
-      "2031": 21.66
-    }
-  },
-  {
-    "municipality": "Bocholt",
-    "nis_code": "72003",
-    "bd_code": "BD000004",
-    "bd_short": "Integrale en duurzame mobiliteit met bijzondere aandacht voor zachte weggebruiker en ontsluiting",
-    "bd_long": "BD04 Bocholt zet in op integrale en duurzame mobiliteit met bijzondere aandacht voor de zachte weggebruiker en de ontsluiting van Bocholt.",
-    "ap_code": "AP000012",
-    "ap_short": "Bocholt werkt doelgericht verder aan de modal shift",
-    "ap_long": "BD04AP01 Bocholt werkt doelgericht verder aan de modal shift door alternatieven voor autoverkeer actief te versterken en te promoten",
-    "ac_code": "AC000021",
-    "ac_short": "Bocholt zet in op veilige en aangename infrastructuur en verbindingen voor fietsers en voetgangers",
-    "ac_long": "BD04AP01A01 Bocholt blijft inzetten op veilige en aangename infrastructuur en verbindingen voor fietsers en voetgangers",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 2223750.0,
-    "amount_per_capita": 161.63,
-    "yearly_amounts": {
-      "2026": 295000.0,
-      "2027": 640000.0,
-      "2028": 1000000.0,
-      "2029": 288750.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 21.44,
-      "2027": 46.52,
-      "2028": 72.68,
-      "2029": 20.99,
-      "2030": 0,
-      "2031": 0
+      "2027": 36.36,
+      "2028": 36.36,
+      "2029": 36.36,
+      "2030": 36.36,
+      "2031": 36.36
     }
   },
   {
@@ -184,10 +150,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1355000.0,
-    "amount_per_capita": 98.49,
+    "total_amount": 1772195.78,
+    "amount_per_capita": 128.86,
     "yearly_amounts": {
-      "2026": 540000.0,
+      "2026": 957195.78,
       "2027": 280000.0,
       "2028": 290000.0,
       "2029": 40000.0,
@@ -195,12 +161,12 @@
       "2031": 165000.0
     },
     "yearly_per_capita": {
-      "2026": 39.25,
-      "2027": 20.35,
-      "2028": 21.08,
+      "2026": 69.6,
+      "2027": 20.36,
+      "2028": 21.09,
       "2029": 2.91,
       "2030": 2.91,
-      "2031": 11.99
+      "2031": 12.0
     }
   },
   {
@@ -218,23 +184,23 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1249450.0,
-    "amount_per_capita": 90.82,
+    "total_amount": 1121381.52,
+    "amount_per_capita": 81.54,
     "yearly_amounts": {
-      "2026": 215500.0,
-      "2027": 235000.0,
-      "2028": 299950.0,
-      "2029": 153000.0,
-      "2030": 158000.0,
-      "2031": 188000.0
+      "2026": 182431.52,
+      "2027": 168000.0,
+      "2028": 292950.0,
+      "2029": 146000.0,
+      "2030": 151000.0,
+      "2031": 181000.0
     },
     "yearly_per_capita": {
-      "2026": 15.66,
-      "2027": 17.08,
-      "2028": 21.8,
-      "2029": 11.12,
-      "2030": 11.48,
-      "2031": 13.66
+      "2026": 13.27,
+      "2027": 12.22,
+      "2028": 21.3,
+      "2029": 10.62,
+      "2030": 10.98,
+      "2031": 13.16
     }
   },
   {
@@ -253,7 +219,7 @@
       "04-veiligheidszorg"
     ],
     "total_amount": 866609.0,
-    "amount_per_capita": 62.99,
+    "amount_per_capita": 63.01,
     "yearly_amounts": {
       "2026": 249331.0,
       "2027": 127203.0,
@@ -263,46 +229,12 @@
       "2031": 112461.0
     },
     "yearly_per_capita": {
-      "2026": 18.12,
+      "2026": 18.13,
       "2027": 9.25,
       "2028": 8.27,
       "2029": 11.06,
       "2030": 8.12,
-      "2031": 8.17
-    }
-  },
-  {
-    "municipality": "Bocholt",
-    "nis_code": "72003",
-    "bd_code": "BD000007",
-    "bd_short": "Klantvriendelijke, inclusieve en kwaliteitsvolle dienstverlening",
-    "bd_long": "BD07 Bocholt zet in op klantvriendelijke, inclusieve en kwaliteitsvolle dienstverlening.",
-    "ap_code": "AP000024",
-    "ap_short": "Bocholt verhoogt de veiligheid op haar grondgebied in samenwerking met de veiligheidsdiensten",
-    "ap_long": "BD07AP02 Lokaal bestuur Bocholt verhoogt de veiligheid op haar grondgebied in samenwerking met de veiligheidsdiensten",
-    "ac_code": "AC000047",
-    "ac_short": "Bocholt verhoogt zichtbaarheid van politiediensten in het straatbeeld en zet in op sensibilisering",
-    "ac_long": "BD07AP02A01 Bocholt verhoogt de zichtbaarheid van de politiediensten in het straatbeeld en zet in op sensibilisering",
-    "categories": [
-      "04-veiligheidszorg"
-    ],
-    "total_amount": 475782.0,
-    "amount_per_capita": 34.58,
-    "yearly_amounts": {
-      "2026": 41525.0,
-      "2027": 45838.0,
-      "2028": 242704.0,
-      "2029": 55504.0,
-      "2030": 44808.0,
-      "2031": 45403.0
-    },
-    "yearly_per_capita": {
-      "2026": 3.02,
-      "2027": 3.33,
-      "2028": 17.64,
-      "2029": 4.03,
-      "2030": 3.26,
-      "2031": 3.3
+      "2031": 8.18
     }
   },
   {
@@ -320,10 +252,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 439500.0,
-    "amount_per_capita": 31.94,
+    "total_amount": 700333.81,
+    "amount_per_capita": 50.92,
     "yearly_amounts": {
-      "2026": 19500.0,
+      "2026": 280333.81,
       "2027": 30000.0,
       "2028": 100000.0,
       "2029": 30000.0,
@@ -331,12 +263,148 @@
       "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 1.42,
+      "2026": 20.38,
       "2027": 2.18,
       "2028": 7.27,
       "2029": 2.18,
       "2030": 16.72,
       "2031": 2.18
+    }
+  },
+  {
+    "municipality": "Bocholt",
+    "nis_code": "72003",
+    "bd_code": "BD000002",
+    "bd_short": "Verduurzamen van het patrimonium en het klimaatbestendig inrichten van het grondgebied",
+    "bd_long": "BD02 Bocholt zet in op het verduurzamen van het patrimonium en het klimaatbestendig inrichten van het grondgebied met aandacht voor maatschappelijk verantwoord ondernemen.",
+    "ap_code": "AP000006",
+    "ap_short": "Bocholt ontwikkelt toekomstgerichte visie voor verduurzaming en planmatig onderhoud van patrimonium",
+    "ap_long": "BD02AP01 Bocholt ontwikkelt een toekomstgerichte visie voor de verduurzaming en het planmatig onderhoud van haar patrimonium",
+    "ac_code": "AC000011",
+    "ac_short": "Bocholt zorgt voor een efficiënt en duurzaam beheer van het patrimonium",
+    "ac_long": "BD02AP01A03 Bocholt zorgt voor een efficiënt en duurzaam beheer van het patrimonium",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 638429.36,
+    "amount_per_capita": 46.42,
+    "yearly_amounts": {
+      "2026": 448429.36,
+      "2027": 108000.0,
+      "2028": 18000.0,
+      "2029": 28000.0,
+      "2030": 18000.0,
+      "2031": 18000.0
+    },
+    "yearly_per_capita": {
+      "2026": 32.61,
+      "2027": 7.85,
+      "2028": 1.31,
+      "2029": 2.04,
+      "2030": 1.31,
+      "2031": 1.31
+    }
+  },
+  {
+    "municipality": "Bocholt",
+    "nis_code": "72003",
+    "bd_code": "BD000004",
+    "bd_short": "Integrale en duurzame mobiliteit met bijzondere aandacht voor zachte weggebruiker en ontsluiting",
+    "bd_long": "BD04 Bocholt zet in op integrale en duurzame mobiliteit met bijzondere aandacht voor de zachte weggebruiker en de ontsluiting van Bocholt.",
+    "ap_code": "AP000013",
+    "ap_short": "Bocholt werkt een toekomstgerichte mobiliteitsvisie uit",
+    "ap_long": "BD04AP02 Bocholt werkt een toekomstgerichte mobiliteitsvisie uit waarbij duurzaam en veilig verplaatsen centraal staan",
+    "ac_code": "AC000025",
+    "ac_short": "Bocholt investeert in de heraanleg van wegen en strategische mobiliteitsprojecten",
+    "ac_long": "BD04AP02A03 Bocholt investeert in de heraanleg van wegen en strategische mobiliteitsprojecten",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 607750.0,
+    "amount_per_capita": 44.19,
+    "yearly_amounts": {
+      "2026": 320000.0,
+      "2027": 287750.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 23.27,
+      "2027": 20.92,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bocholt",
+    "nis_code": "72003",
+    "bd_code": "BD000004",
+    "bd_short": "Integrale en duurzame mobiliteit met bijzondere aandacht voor zachte weggebruiker en ontsluiting",
+    "bd_long": "BD04 Bocholt zet in op integrale en duurzame mobiliteit met bijzondere aandacht voor de zachte weggebruiker en de ontsluiting van Bocholt.",
+    "ap_code": "AP000013",
+    "ap_short": "Bocholt werkt een toekomstgerichte mobiliteitsvisie uit",
+    "ap_long": "BD04AP02 Bocholt werkt een toekomstgerichte mobiliteitsvisie uit waarbij duurzaam en veilig verplaatsen centraal staan",
+    "ac_code": "AC000066",
+    "ac_short": "Bocholt zorgt voor een efficiënt beheer van de N76h Dorpsstraat",
+    "ac_long": "BD04AP02A05 Bocholt zorgt voor een efficiënt beheer van de N76h Dorpsstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 596686.97,
+    "amount_per_capita": 43.39,
+    "yearly_amounts": {
+      "2026": 596686.97,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 43.39,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bocholt",
+    "nis_code": "72003",
+    "bd_code": "BD000007",
+    "bd_short": "Klantvriendelijke, inclusieve en kwaliteitsvolle dienstverlening",
+    "bd_long": "BD07 Bocholt zet in op klantvriendelijke, inclusieve en kwaliteitsvolle dienstverlening.",
+    "ap_code": "AP000024",
+    "ap_short": "Bocholt verhoogt de veiligheid op haar grondgebied in samenwerking met de veiligheidsdiensten",
+    "ap_long": "BD07AP02 Lokaal bestuur Bocholt verhoogt de veiligheid op haar grondgebied in samenwerking met de veiligheidsdiensten",
+    "ac_code": "AC000047",
+    "ac_short": "Bocholt verhoogt zichtbaarheid van politiediensten in het straatbeeld en zet in op sensibilisering",
+    "ac_long": "BD07AP02A01 Bocholt verhoogt de zichtbaarheid van de politiediensten in het straatbeeld en zet in op sensibilisering",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 484977.02,
+    "amount_per_capita": 35.26,
+    "yearly_amounts": {
+      "2026": 50721.09,
+      "2027": 45837.71,
+      "2028": 242703.81,
+      "2029": 55503.9,
+      "2030": 44807.58,
+      "2031": 45402.93
+    },
+    "yearly_per_capita": {
+      "2026": 3.69,
+      "2027": 3.33,
+      "2028": 17.65,
+      "2029": 4.04,
+      "2030": 3.26,
+      "2031": 3.3
     }
   },
   {
@@ -355,7 +423,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 350000.0,
-    "amount_per_capita": 25.44,
+    "amount_per_capita": 25.45,
     "yearly_amounts": {
       "2026": 15000.0,
       "2027": 15000.0,
@@ -376,35 +444,35 @@
   {
     "municipality": "Bocholt",
     "nis_code": "72003",
-    "bd_code": "BD000004",
-    "bd_short": "Integrale en duurzame mobiliteit met bijzondere aandacht voor zachte weggebruiker en ontsluiting",
-    "bd_long": "BD04 Bocholt zet in op integrale en duurzame mobiliteit met bijzondere aandacht voor de zachte weggebruiker en de ontsluiting van Bocholt.",
-    "ap_code": "AP000013",
-    "ap_short": "Bocholt werkt een toekomstgerichte mobiliteitsvisie uit",
-    "ap_long": "BD04AP02 Bocholt werkt een toekomstgerichte mobiliteitsvisie uit waarbij duurzaam en veilig verplaatsen centraal staan",
-    "ac_code": "AC000025",
-    "ac_short": "Bocholt investeert in de heraanleg van wegen en strategische mobiliteitsprojecten",
-    "ac_long": "BD04AP02A03 Bocholt investeert in de heraanleg van wegen en strategische mobiliteitsprojecten",
+    "bd_code": "BD000001",
+    "bd_short": "Ontmoeting, verbinding en beleving voor jong en oud",
+    "bd_long": "BD01 Bocholt zet in op ontmoeting, verbinding en beleving voor jong en oud met bijzondere aandacht voor het bruisende verenigingsleven en een stimulerend vrijwilligersbeleid.",
+    "ap_code": "AP000003",
+    "ap_short": "Bocholt versterkt het bruisende verenigingsleven",
+    "ap_long": "BD01AP03 Bocholt versterkt het bruisende verenigingsleven (via logistieke, administratieve en financiële ondersteuning)",
+    "ac_code": "AC000006",
+    "ac_short": "Bocholt werkt aan de ondersteuning voor cultuur-, sport- en jeugdverenigingen",
+    "ac_long": "BD01AP03A02 Bocholt werkt aan een modernisering en objectivering van de ondersteuning voor cultuur-, sport- en jeugdverenigingen met bijzondere aandacht voor het vrijwilligersbeleid",
     "categories": [
-      "02-mobiliteit"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 287750.0,
-    "amount_per_capita": 20.92,
+    "total_amount": 286487.77,
+    "amount_per_capita": 20.83,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 287750.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 161487.77,
+      "2027": 25000.0,
+      "2028": 25000.0,
+      "2029": 25000.0,
+      "2030": 25000.0,
+      "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 20.92,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 11.74,
+      "2027": 1.82,
+      "2028": 1.82,
+      "2029": 1.82,
+      "2030": 1.82,
+      "2031": 1.82
     }
   },
   {
@@ -422,10 +490,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 224800.0,
-    "amount_per_capita": 16.34,
+    "total_amount": 269800.0,
+    "amount_per_capita": 19.62,
     "yearly_amounts": {
-      "2026": 133300.0,
+      "2026": 178300.0,
       "2027": 18300.0,
       "2028": 18300.0,
       "2029": 18300.0,
@@ -433,7 +501,7 @@
       "2031": 18300.0
     },
     "yearly_per_capita": {
-      "2026": 9.69,
+      "2026": 12.96,
       "2027": 1.33,
       "2028": 1.33,
       "2029": 1.33,
@@ -456,10 +524,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 210000.0,
-    "amount_per_capita": 15.26,
+    "total_amount": 251429.74,
+    "amount_per_capita": 18.28,
     "yearly_amounts": {
-      "2026": 35000.0,
+      "2026": 76429.74,
       "2027": 35000.0,
       "2028": 35000.0,
       "2029": 35000.0,
@@ -467,7 +535,7 @@
       "2031": 35000.0
     },
     "yearly_per_capita": {
-      "2026": 2.54,
+      "2026": 5.56,
       "2027": 2.54,
       "2028": 2.54,
       "2029": 2.54,
@@ -490,10 +558,10 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 200000.0,
-    "amount_per_capita": 14.54,
+    "total_amount": 236676.22,
+    "amount_per_capita": 17.21,
     "yearly_amounts": {
-      "2026": 200000.0,
+      "2026": 236676.22,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -501,7 +569,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 14.54,
+      "2026": 17.21,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -512,35 +580,103 @@
   {
     "municipality": "Bocholt",
     "nis_code": "72003",
-    "bd_code": "BD000001",
-    "bd_short": "Ontmoeting, verbinding en beleving voor jong en oud",
-    "bd_long": "BD01 Bocholt zet in op ontmoeting, verbinding en beleving voor jong en oud met bijzondere aandacht voor het bruisende verenigingsleven en een stimulerend vrijwilligersbeleid.",
-    "ap_code": "AP000003",
-    "ap_short": "Bocholt versterkt het bruisende verenigingsleven",
-    "ap_long": "BD01AP03 Bocholt versterkt het bruisende verenigingsleven (via logistieke, administratieve en financiële ondersteuning)",
-    "ac_code": "AC000006",
-    "ac_short": "Bocholt werkt aan de ondersteuning voor cultuur-, sport- en jeugdverenigingen",
-    "ac_long": "BD01AP03A02 Bocholt werkt aan een modernisering en objectivering van de ondersteuning voor cultuur-, sport- en jeugdverenigingen met bijzondere aandacht voor het vrijwilligersbeleid",
+    "bd_code": "BD000003",
+    "bd_short": "Integraal ruimtelijk beleid met aandacht voor betaalbaar, kwalitatief en aangepast wonen",
+    "bd_long": "BD03 Bocholt zet in op een integraal ruimtelijk beleid met aandacht voor betaalbaar, kwalitatief en aangepast wonen in een duurzame omgeving.",
+    "ap_code": "AP000009",
+    "ap_short": "Bocholt ondersteunt betaalbaar en aangepast wonen voor al haar inwoners",
+    "ap_long": "BD03AP01 Bocholt ondersteunt betaalbaar en aangepast wonen voor al haar inwoners",
+    "ac_code": "AC000016",
+    "ac_short": "Bocholt ambieert een betaalbare en duurzame woningmarkt",
+    "ac_long": "BD03AP01A01 Bocholt ambieert een betaalbare en duurzame woningmarkt",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 165000.0,
-    "amount_per_capita": 11.99,
+    "total_amount": 97957.89,
+    "amount_per_capita": 7.12,
     "yearly_amounts": {
-      "2026": 40000.0,
-      "2027": 25000.0,
-      "2028": 25000.0,
-      "2029": 25000.0,
-      "2030": 25000.0,
-      "2031": 25000.0
+      "2026": 97957.89,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.91,
-      "2027": 1.82,
-      "2028": 1.82,
-      "2029": 1.82,
-      "2030": 1.82,
-      "2031": 1.82
+      "2026": 7.12,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bocholt",
+    "nis_code": "72003",
+    "bd_code": "BD000002",
+    "bd_short": "Verduurzamen van het patrimonium en het klimaatbestendig inrichten van het grondgebied",
+    "bd_long": "BD02 Bocholt zet in op het verduurzamen van het patrimonium en het klimaatbestendig inrichten van het grondgebied met aandacht voor maatschappelijk verantwoord ondernemen.",
+    "ap_code": "AP000006",
+    "ap_short": "Bocholt ontwikkelt toekomstgerichte visie voor verduurzaming en planmatig onderhoud van patrimonium",
+    "ap_long": "BD02AP01 Bocholt ontwikkelt een toekomstgerichte visie voor de verduurzaming en het planmatig onderhoud van haar patrimonium",
+    "ac_code": "AC000055",
+    "ac_short": "Bocholt zorgt voor een efficiënt en duurzaam beheer van het patrimonium: Dorpshuis (inloophuis)",
+    "ac_long": "BD02AP01A04 Bocholt zorgt voor een efficiënt en duurzaam beheer van het patrimonium: Dorpshuis (inloophuis)",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 75980.53,
+    "amount_per_capita": 5.52,
+    "yearly_amounts": {
+      "2026": 75980.53,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Bocholt",
+    "nis_code": "72003",
+    "bd_code": "BD000005",
+    "bd_short": "Zorg en welzijn voor iedereen door te informeren, begeleiden en  ondersteunen",
+    "bd_long": "BD05 Bocholt zet in op zorg en welzijn voor iedereen door toegankelijk, doelgericht en preventief te informeren, te begeleiden en te ondersteunen.",
+    "ap_code": "AP000030",
+    "ap_short": "Bocholt maakt werk van een maximale toegankelijkheid van de lokale sociale hulp- en dienstverlening",
+    "ap_long": "BD05AP06 Bocholt maakt werk van een maximale toegankelijkheid van de lokale sociale hulp- en dienstverlening en besteed daarbij bijzondere aandacht aan onderbescherming",
+    "ac_code": "AC000059",
+    "ac_short": "Bocholt realiseert een inloophuis",
+    "ac_long": "BD05AP06A01 Bocholt realiseert een inloophuis",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 30277.89,
+    "amount_per_capita": 2.2,
+    "yearly_amounts": {
+      "2026": 17777.89,
+      "2027": 2500.0,
+      "2028": 2500.0,
+      "2029": 2500.0,
+      "2030": 2500.0,
+      "2031": 2500.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.29,
+      "2027": 0.18,
+      "2028": 0.18,
+      "2029": 0.18,
+      "2030": 0.18,
+      "2031": 0.18
     }
   },
   {
@@ -575,40 +711,6 @@
       "2029": 0,
       "2030": 0,
       "2031": 0
-    }
-  },
-  {
-    "municipality": "Bocholt",
-    "nis_code": "72003",
-    "bd_code": "BD000005",
-    "bd_short": "Zorg en welzijn voor iedereen door te informeren, begeleiden en  ondersteunen",
-    "bd_long": "BD05 Bocholt zet in op zorg en welzijn voor iedereen door toegankelijk, doelgericht en preventief te informeren, te begeleiden en te ondersteunen.",
-    "ap_code": "AP000030",
-    "ap_short": "Bocholt maakt werk van een maximale toegankelijkheid van de lokale sociale hulp- en dienstverlening",
-    "ap_long": "BD05AP06 Bocholt maakt werk van een maximale toegankelijkheid van de lokale sociale hulp- en dienstverlening en besteed daarbij bijzondere aandacht aan onderbescherming",
-    "ac_code": "AC000059",
-    "ac_short": "Bocholt realiseert een inloophuis",
-    "ac_long": "BD05AP06A01 Bocholt realiseert een inloophuis",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 17500.0,
-    "amount_per_capita": 1.27,
-    "yearly_amounts": {
-      "2026": 5000.0,
-      "2027": 2500.0,
-      "2028": 2500.0,
-      "2029": 2500.0,
-      "2030": 2500.0,
-      "2031": 2500.0
-    },
-    "yearly_per_capita": {
-      "2026": 0.36,
-      "2027": 0.18,
-      "2028": 0.18,
-      "2029": 0.18,
-      "2030": 0.18,
-      "2031": 0.18
     }
   },
   {
@@ -711,40 +813,6 @@
       "2029": 0.11,
       "2030": 0.11,
       "2031": 0.11
-    }
-  },
-  {
-    "municipality": "Bocholt",
-    "nis_code": "72003",
-    "bd_code": "BD000002",
-    "bd_short": "Verduurzamen van het patrimonium en het klimaatbestendig inrichten van het grondgebied",
-    "bd_long": "BD02 Bocholt zet in op het verduurzamen van het patrimonium en het klimaatbestendig inrichten van het grondgebied met aandacht voor maatschappelijk verantwoord ondernemen.",
-    "ap_code": "AP000006",
-    "ap_short": "Bocholt ontwikkelt toekomstgerichte visie voor verduurzaming en planmatig onderhoud van patrimonium",
-    "ap_long": "BD02AP01 Bocholt ontwikkelt een toekomstgerichte visie voor de verduurzaming en het planmatig onderhoud van haar patrimonium",
-    "ac_code": "AC000055",
-    "ac_short": "Bocholt zorgt voor een efficiënt en duurzaam beheer van het patrimonium: Dorpshuis (inloophuis)",
-    "ac_long": "BD02AP01A04 Bocholt zorgt voor een efficiënt en duurzaam beheer van het patrimonium: Dorpshuis (inloophuis)",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 3000.0,
-    "amount_per_capita": 0.22,
-    "yearly_amounts": {
-      "2026": 3000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.22,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
     }
   }
 ]

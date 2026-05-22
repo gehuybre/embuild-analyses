@@ -15,7 +15,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 10704228.0,
-    "amount_per_capita": 880.33,
+    "amount_per_capita": 877.65,
     "yearly_amounts": {
       "2026": 0,
       "2027": 340000.0,
@@ -26,9 +26,9 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 27.96,
-      "2028": 417.96,
-      "2029": 434.41,
+      "2027": 27.88,
+      "2028": 416.69,
+      "2029": 433.09,
       "2030": 0,
       "2031": 0
     }
@@ -49,7 +49,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 3021202.0,
-    "amount_per_capita": 248.47,
+    "amount_per_capita": 247.71,
     "yearly_amounts": {
       "2026": 499820.0,
       "2027": 501398.0,
@@ -59,12 +59,12 @@
       "2031": 507010.0
     },
     "yearly_per_capita": {
-      "2026": 41.11,
-      "2027": 41.24,
-      "2028": 41.36,
-      "2029": 41.48,
-      "2030": 41.59,
-      "2031": 41.7
+      "2026": 40.98,
+      "2027": 41.11,
+      "2028": 41.23,
+      "2029": 41.35,
+      "2030": 41.46,
+      "2031": 41.57
     }
   },
   {
@@ -82,10 +82,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 2400000.0,
-    "amount_per_capita": 197.38,
+    "total_amount": 2530431.29,
+    "amount_per_capita": 207.47,
     "yearly_amounts": {
-      "2026": 400000.0,
+      "2026": 530431.29,
       "2027": 400000.0,
       "2028": 400000.0,
       "2029": 400000.0,
@@ -93,12 +93,12 @@
       "2031": 400000.0
     },
     "yearly_per_capita": {
-      "2026": 32.9,
-      "2027": 32.9,
-      "2028": 32.9,
-      "2029": 32.9,
-      "2030": 32.9,
-      "2031": 32.9
+      "2026": 43.49,
+      "2027": 32.8,
+      "2028": 32.8,
+      "2029": 32.8,
+      "2030": 32.8,
+      "2031": 32.8
     }
   },
   {
@@ -117,7 +117,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 2099528.0,
-    "amount_per_capita": 172.67,
+    "amount_per_capita": 172.14,
     "yearly_amounts": {
       "2026": 1144473.0,
       "2027": 629270.0,
@@ -127,9 +127,9 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 94.12,
-      "2027": 51.75,
-      "2028": 25.92,
+      "2026": 93.84,
+      "2027": 51.59,
+      "2028": 25.84,
       "2029": 0,
       "2030": 0.87,
       "2031": 0
@@ -148,10 +148,10 @@
     "ac_short": "We richten de Markt en Kloosterstraat opnieuw in.",
     "ac_long": "De Markt en Kloosterstraat worden heringericht. In 2027 stellen we een aannemer aan en gaan de werken in uitvoering.",
     "categories": [
-      "06-wonen-ruimte"
+      "02-mobiliteit"
     ],
     "total_amount": 1540000.0,
-    "amount_per_capita": 126.65,
+    "amount_per_capita": 126.27,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -163,9 +163,9 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 3.29,
+      "2028": 3.28,
       "2029": 0,
-      "2030": 123.36,
+      "2030": 122.99,
       "2031": 0
     }
   },
@@ -184,10 +184,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 1020000.0,
-    "amount_per_capita": 83.89,
+    "total_amount": 1132827.68,
+    "amount_per_capita": 92.88,
     "yearly_amounts": {
-      "2026": 350000.0,
+      "2026": 462827.68,
       "2027": 250000.0,
       "2028": 0,
       "2029": 0,
@@ -195,12 +195,12 @@
       "2031": 170000.0
     },
     "yearly_per_capita": {
-      "2026": 28.78,
-      "2027": 20.56,
+      "2026": 37.95,
+      "2027": 20.5,
       "2028": 0,
       "2029": 0,
-      "2030": 20.56,
-      "2031": 13.98
+      "2030": 20.5,
+      "2031": 13.94
     }
   },
   {
@@ -219,7 +219,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 845000.0,
-    "amount_per_capita": 69.49,
+    "amount_per_capita": 69.28,
     "yearly_amounts": {
       "2026": 253500.0,
       "2027": 591500.0,
@@ -229,8 +229,42 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 20.85,
-      "2027": 48.65,
+      "2026": 20.78,
+      "2027": 48.5,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000602",
+    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
+    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
+    "ap_code": "AP060207",
+    "ap_short": "We onderhouden gebouwen met erfgoedwaarde om de beeldkwaliteit van Retie te bewaren",
+    "ap_long": "Gebouwen met erfgoedwaarde zijn beeldbepalend in een dorp. We onderhouden ze zodat ze op een kwalitatieve manier in stand gehouden worden.",
+    "ac_code": "AC620707",
+    "ac_short": "We restaureren de toren van de Sint-Martinuskerk  in samenspraak met de kerkfabriek",
+    "ac_long": "We restaureren de toren van de Sint-Martinuskerk  in samenspraak met de kerkfabriek.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 700530.0,
+    "amount_per_capita": 57.44,
+    "yearly_amounts": {
+      "2026": 350530.0,
+      "2027": 350000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 28.74,
+      "2027": 28.7,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -252,57 +286,23 @@
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 594649.0,
-    "amount_per_capita": 48.91,
+    "total_amount": 594648.15,
+    "amount_per_capita": 48.76,
     "yearly_amounts": {
-      "2026": 142474.0,
-      "2027": 94511.0,
-      "2028": 81361.0,
-      "2029": 94642.0,
-      "2030": 91760.0,
-      "2031": 89901.0
+      "2026": 142473.52,
+      "2027": 94510.84,
+      "2028": 81361.05,
+      "2029": 94641.81,
+      "2030": 91760.38,
+      "2031": 89900.55
     },
     "yearly_per_capita": {
-      "2026": 11.72,
-      "2027": 7.77,
-      "2028": 6.69,
-      "2029": 7.78,
-      "2030": 7.55,
-      "2031": 7.39
-    }
-  },
-  {
-    "municipality": "Retie",
-    "nis_code": "13036",
-    "bd_code": "BD000602",
-    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
-    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
-    "ap_code": "AP060207",
-    "ap_short": "We onderhouden gebouwen met erfgoedwaarde om de beeldkwaliteit van Retie te bewaren",
-    "ap_long": "Gebouwen met erfgoedwaarde zijn beeldbepalend in een dorp. We onderhouden ze zodat ze op een kwalitatieve manier in stand gehouden worden.",
-    "ac_code": "AC620707",
-    "ac_short": "We restaureren de toren van de Sint-Martinuskerk  in samenspraak met de kerkfabriek",
-    "ac_long": "We restaureren de toren van de Sint-Martinuskerk  in samenspraak met de kerkfabriek.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 515000.0,
-    "amount_per_capita": 42.35,
-    "yearly_amounts": {
-      "2026": 165000.0,
-      "2027": 350000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 13.57,
-      "2027": 28.78,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2026": 11.68,
+      "2027": 7.75,
+      "2028": 6.67,
+      "2029": 7.76,
+      "2030": 7.52,
+      "2031": 7.37
     }
   },
   {
@@ -320,10 +320,10 @@
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 370243.0,
-    "amount_per_capita": 30.45,
+    "total_amount": 475243.0,
+    "amount_per_capita": 38.97,
     "yearly_amounts": {
-      "2026": 370243.0,
+      "2026": 475243.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -331,7 +331,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 30.45,
+      "2026": 38.97,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -355,7 +355,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 300000.0,
-    "amount_per_capita": 24.67,
+    "amount_per_capita": 24.6,
     "yearly_amounts": {
       "2026": 0,
       "2027": 150000.0,
@@ -366,8 +366,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 12.34,
-      "2028": 12.34,
+      "2027": 12.3,
+      "2028": 12.3,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -389,7 +389,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 250000.0,
-    "amount_per_capita": 20.56,
+    "amount_per_capita": 20.5,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -402,7 +402,7 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 20.56,
+      "2029": 20.5,
       "2030": 0,
       "2031": 0
     }
@@ -423,7 +423,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 207000.0,
-    "amount_per_capita": 17.02,
+    "amount_per_capita": 16.97,
     "yearly_amounts": {
       "2026": 26000.0,
       "2027": 16500.0,
@@ -433,12 +433,12 @@
       "2031": 16500.0
     },
     "yearly_per_capita": {
-      "2026": 2.14,
-      "2027": 1.36,
-      "2028": 1.36,
-      "2029": 1.36,
-      "2030": 9.46,
-      "2031": 1.36
+      "2026": 2.13,
+      "2027": 1.35,
+      "2028": 1.35,
+      "2029": 1.35,
+      "2030": 9.43,
+      "2031": 1.35
     }
   },
   {
@@ -457,7 +457,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 201400.0,
-    "amount_per_capita": 16.56,
+    "amount_per_capita": 16.51,
     "yearly_amounts": {
       "2026": 156400.0,
       "2027": 0,
@@ -467,12 +467,46 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 12.86,
+      "2026": 12.82,
       "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 1.64,
-      "2031": 2.06
+      "2031": 2.05
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000601",
+    "bd_short": "We richten onze kernen veilig in voor de zwakke weggebruiker",
+    "bd_long": "Als landelijke gemeente beschikken we over heel wat kilometers gemeentewegen. Een sterk mobiliteitsplan garandeert een verkeersveilig en -leefbaar Retie, waarbij veilige schoolomgevingen speciale aandacht krijgen.",
+    "ap_code": "AP060103",
+    "ap_short": "We voeren grote infrastructuurwerken uit om de verkeersveiligheid en de doorstroming te vergroten",
+    "ap_long": "Via grote infrastructuurwerken vergroten we de verkeerveiligheid, versterken we de doorstroming en creëren we aantrekkelijke verblijfszones.",
+    "ac_code": "AC610301",
+    "ac_short": "We werken verder aan de plannen voor de heraanleg van de R18",
+    "ac_long": "Er wordt verder gewerkt aan de plannen voor de heraanleg van de R18.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 197114.0,
+    "amount_per_capita": 16.16,
+    "yearly_amounts": {
+      "2026": 197114.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.16,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -490,10 +524,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 186667.0,
-    "amount_per_capita": 15.35,
+    "total_amount": 186666.67,
+    "amount_per_capita": 15.31,
     "yearly_amounts": {
-      "2026": 186667.0,
+      "2026": 186666.67,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -501,7 +535,41 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 15.35,
+      "2026": 15.31,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000602",
+    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
+    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
+    "ap_code": "AP060207",
+    "ap_short": "We onderhouden gebouwen met erfgoedwaarde om de beeldkwaliteit van Retie te bewaren",
+    "ap_long": "Gebouwen met erfgoedwaarde zijn beeldbepalend in een dorp. We onderhouden ze zodat ze op een kwalitatieve manier in stand gehouden worden.",
+    "ac_code": "AC620711",
+    "ac_short": "We restaureren windmolen De Heerser",
+    "ac_long": "In 2026 starten de restauratiewerken aan windmolen De Heerser.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 180000.0,
+    "amount_per_capita": 14.76,
+    "yearly_amounts": {
+      "2026": 180000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 14.76,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -524,10 +592,10 @@
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 170600.0,
-    "amount_per_capita": 14.03,
+    "total_amount": 172433.04,
+    "amount_per_capita": 14.14,
     "yearly_amounts": {
-      "2026": 33300.0,
+      "2026": 35133.04,
       "2027": 30000.0,
       "2028": 29000.0,
       "2029": 19000.0,
@@ -535,9 +603,9 @@
       "2031": 28500.0
     },
     "yearly_per_capita": {
-      "2026": 2.74,
-      "2027": 2.47,
-      "2028": 2.39,
+      "2026": 2.88,
+      "2027": 2.46,
+      "2028": 2.38,
       "2029": 1.56,
       "2030": 2.53,
       "2031": 2.34
@@ -546,32 +614,100 @@
   {
     "municipality": "Retie",
     "nis_code": "13036",
-    "bd_code": "BD000602",
-    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
-    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
-    "ap_code": "AP060208",
-    "ap_short": "We maken onze begraafplaatsen klaar voor de toekomst",
-    "ap_long": "We onderhouden onze begraafplaatsen en richten ze toekomstbestendig in.",
-    "ac_code": "AC620803",
-    "ac_short": "We laten de begraafplaats herinrichten op basis van de toekomstvisie",
-    "ac_long": "We maken de begraafplaats klaar voor de toekomst en stellen hiervoor een aannemer aan.",
+    "bd_code": "BD000303",
+    "bd_short": "We bieden een gevarieerd naschools aanbod voor alle kinderen in Retie aan",
+    "bd_long": "Ook buiten de schooltijd is Retie een aantrekkelijke plek voor kinderen. Ravot, FikFak en Kidzzzkompas zijn sterke merken die een kwaliteitsvolle tijdsbesteding garanderen voor kinderen.",
+    "ap_code": "AP030302",
+    "ap_short": "We creëren ruimte voor jongeren",
+    "ap_long": "Tieners hebben nood aan andere plekken dan kinderen. We voorzien verschillende plekken en activiteiten waar ze zelfstandig kunnen zijn en de wereld ontdekken. De renovatie van jeugdklub 2470 zorgt alvast voor een ankerplaats.",
+    "ac_code": "AC330204",
+    "ac_short": "We renoveren JK2470 en bouwen dit uit tot een open huis voor alle jongeren",
+    "ac_long": "We renoveren JK2470 en bouwen dit uit tot een open huis voor alle jongeren uit Retie en de ruime regio.",
     "categories": [
-      "09-zorg-opvang"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 150000.0,
-    "amount_per_capita": 12.34,
+    "total_amount": 164911.16,
+    "amount_per_capita": 13.52,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 164911.16,
       "2027": 0,
-      "2028": 150000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
+      "2026": 13.52,
       "2027": 0,
-      "2028": 12.34,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000601",
+    "bd_short": "We richten onze kernen veilig in voor de zwakke weggebruiker",
+    "bd_long": "Als landelijke gemeente beschikken we over heel wat kilometers gemeentewegen. Een sterk mobiliteitsplan garandeert een verkeersveilig en -leefbaar Retie, waarbij veilige schoolomgevingen speciale aandacht krijgen.",
+    "ap_code": "AP060103",
+    "ap_short": "We voeren grote infrastructuurwerken uit om de verkeersveiligheid en de doorstroming te vergroten",
+    "ap_long": "Via grote infrastructuurwerken vergroten we de verkeerveiligheid, versterken we de doorstroming en creëren we aantrekkelijke verblijfszones.",
+    "ac_code": "AC610304",
+    "ac_short": "We doen de nodige grondverwerving voor de aanleg van het fietspad Zanddijkdreef",
+    "ac_long": "We doen de nodige grondverwerving voor het fietspad Zanddijkdreef.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 164000.0,
+    "amount_per_capita": 13.45,
+    "yearly_amounts": {
+      "2026": 164000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.45,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000105",
+    "bd_short": "Ruimte voor dienstverlening",
+    "bd_long": "Een sterke dienstverlening vraagt om goede infrastructuur. Met de bouw van meander, het huis van de burger, centraliseren we onze gemeentelijke dienstverlening en geven we alle Retienaren een aantrekkelijke ontmoetingsplek. Daarnaast blijven we ook aandacht hebben voor het onderhoud van onze andere plekken van waaruit we de dienstverlening aan onze burgers garanderen.",
+    "ap_code": "AP010502",
+    "ap_short": "We onderhouden en herstellen de huidige gebouwen van de gemeentelijke administratie en verzekeren ze",
+    "ap_long": "We onderhouden onze gebouwen, voorzien de nodige attesten en verzekeringen en zetten ons patrimonium zo efficiënt mogelijk in.",
+    "ac_code": "AC150203",
+    "ac_short": "We renoveren het dak van het historisch gedeelte van het gemeentehuis",
+    "ac_long": "We renoveren het dak van het historisch gedeelte van het gemeentehuis",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 12.3,
+    "yearly_amounts": {
+      "2026": 150000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 12.3,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -593,7 +729,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 12.34,
+    "amount_per_capita": 12.3,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -607,39 +743,39 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 12.34,
+      "2030": 12.3,
       "2031": 0
     }
   },
   {
     "municipality": "Retie",
     "nis_code": "13036",
-    "bd_code": "BD000105",
-    "bd_short": "Ruimte voor dienstverlening",
-    "bd_long": "Een sterke dienstverlening vraagt om goede infrastructuur. Met de bouw van meander, het huis van de burger, centraliseren we onze gemeentelijke dienstverlening en geven we alle Retienaren een aantrekkelijke ontmoetingsplek. Daarnaast blijven we ook aandacht hebben voor het onderhoud van onze andere plekken van waaruit we de dienstverlening aan onze burgers garanderen.",
-    "ap_code": "AP010502",
-    "ap_short": "We onderhouden en herstellen de huidige gebouwen van de gemeentelijke administratie en verzekeren ze",
-    "ap_long": "We onderhouden onze gebouwen, voorzien de nodige attesten en verzekeringen en zetten ons patrimonium zo efficiënt mogelijk in.",
-    "ac_code": "AC150203",
-    "ac_short": "We renoveren het dak van het historisch gedeelte van het gemeentehuis",
-    "ac_long": "We renoveren het dak van het historisch gedeelte van het gemeentehuis",
+    "bd_code": "BD000602",
+    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
+    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
+    "ap_code": "AP060208",
+    "ap_short": "We maken onze begraafplaatsen klaar voor de toekomst",
+    "ap_long": "We onderhouden onze begraafplaatsen en richten ze toekomstbestendig in.",
+    "ac_code": "AC620803",
+    "ac_short": "We laten de begraafplaats herinrichten op basis van de toekomstvisie",
+    "ac_long": "We maken de begraafplaats klaar voor de toekomst en stellen hiervoor een aannemer aan.",
     "categories": [
-      "01-algemeen-bestuur"
+      "09-zorg-opvang"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 12.34,
+    "amount_per_capita": 12.3,
     "yearly_amounts": {
-      "2026": 150000.0,
+      "2026": 0,
       "2027": 0,
-      "2028": 0,
+      "2028": 150000.0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 12.34,
+      "2026": 0,
       "2027": 0,
-      "2028": 0,
+      "2028": 12.3,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -661,7 +797,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 135000.0,
-    "amount_per_capita": 11.1,
+    "amount_per_capita": 11.07,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 25000.0,
@@ -672,11 +808,11 @@
     },
     "yearly_per_capita": {
       "2026": 1.64,
-      "2027": 2.06,
+      "2027": 2.05,
       "2028": 1.64,
-      "2029": 2.06,
+      "2029": 2.05,
       "2030": 1.64,
-      "2031": 2.06
+      "2031": 2.05
     }
   },
   {
@@ -695,7 +831,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 120500.0,
-    "amount_per_capita": 9.91,
+    "amount_per_capita": 9.88,
     "yearly_amounts": {
       "2026": 23500.0,
       "2027": 70000.0,
@@ -706,8 +842,8 @@
     },
     "yearly_per_capita": {
       "2026": 1.93,
-      "2027": 5.76,
-      "2028": 0.99,
+      "2027": 5.74,
+      "2028": 0.98,
       "2029": 0.41,
       "2030": 0.41,
       "2031": 0.41
@@ -729,7 +865,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 120000.0,
-    "amount_per_capita": 9.87,
+    "amount_per_capita": 9.84,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -741,10 +877,10 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 2.47,
-      "2029": 2.47,
-      "2030": 2.47,
-      "2031": 2.47
+      "2028": 2.46,
+      "2029": 2.46,
+      "2030": 2.46,
+      "2031": 2.46
     }
   },
   {
@@ -763,7 +899,7 @@
       "08-onderwijs"
     ],
     "total_amount": 114770.0,
-    "amount_per_capita": 9.44,
+    "amount_per_capita": 9.41,
     "yearly_amounts": {
       "2026": 31484.0,
       "2027": 13000.0,
@@ -773,46 +909,12 @@
       "2031": 5000.0
     },
     "yearly_per_capita": {
-      "2026": 2.59,
+      "2026": 2.58,
       "2027": 1.07,
-      "2028": 2.4,
+      "2028": 2.39,
       "2029": 0.41,
-      "2030": 2.56,
+      "2030": 2.55,
       "2031": 0.41
-    }
-  },
-  {
-    "municipality": "Retie",
-    "nis_code": "13036",
-    "bd_code": "BD000302",
-    "bd_short": "We creëren kwaliteitsvolle onderwijskansen",
-    "bd_long": "We kiezen er bewust voor om gemeentelijk onderwijs aan te bieden. Onze leerlingen krijgen kwaliteitsvolle leer- en onderwijskansen in een moderne en aantrekkelijke omgeving. De bibliotheek is daarbij een belangrijke partner die meewerkt aan een stimulerende lees- en leercultuur.",
-    "ap_code": "AP030202",
-    "ap_short": "We investeren in onze schoolinfrastructuur",
-    "ap_long": "Naast het regulier onderhoud van onze schoolinfrastructuur zetten we de volgende jaren sterk in op de verduurzaming van de gebouwen en de creatie van aantrekkelijke speelruimtes.",
-    "ac_code": "AC320204",
-    "ac_short": "We  zorgen voor verkoeling in de klassen van GBR centrum",
-    "ac_long": "We  zoeken manier om de klassen van GBR centrum koeler te maken tijdens de zomerperiode: luifels, zonweringen,...",
-    "categories": [
-      "08-onderwijs"
-    ],
-    "total_amount": 100000.0,
-    "amount_per_capita": 8.22,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 100000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 8.22,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
     }
   },
   {
@@ -831,7 +933,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 100000.0,
-    "amount_per_capita": 8.22,
+    "amount_per_capita": 8.2,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -844,7 +946,75 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 8.22,
+      "2029": 8.2,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000302",
+    "bd_short": "We creëren kwaliteitsvolle onderwijskansen",
+    "bd_long": "We kiezen er bewust voor om gemeentelijk onderwijs aan te bieden. Onze leerlingen krijgen kwaliteitsvolle leer- en onderwijskansen in een moderne en aantrekkelijke omgeving. De bibliotheek is daarbij een belangrijke partner die meewerkt aan een stimulerende lees- en leercultuur.",
+    "ap_code": "AP030202",
+    "ap_short": "We investeren in onze schoolinfrastructuur",
+    "ap_long": "Naast het regulier onderhoud van onze schoolinfrastructuur zetten we de volgende jaren sterk in op de verduurzaming van de gebouwen en de creatie van aantrekkelijke speelruimtes.",
+    "ac_code": "AC320204",
+    "ac_short": "We  zorgen voor verkoeling in de klassen van GBR centrum",
+    "ac_long": "We  zoeken manier om de klassen van GBR centrum koeler te maken tijdens de zomerperiode: luifels, zonweringen,...",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 8.2,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 8.2,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000602",
+    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
+    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
+    "ap_code": "AP060210",
+    "ap_short": "We stimuleren duurzaamheid en milieuvriendelijkheid",
+    "ap_long": "We groeien verder naar een Klimaatneutrale organisatie en inspireren onze inwoners om hun energieverbruik te optimaliseren.",
+    "ac_code": "AC621001",
+    "ac_short": "We groeien verder naar een klimaatneutrale organisatie tegen 2030",
+    "ac_long": "We groeien verder naar een klimaatneutrale organisatie tegen 2029",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 97319.61,
+    "amount_per_capita": 7.98,
+    "yearly_amounts": {
+      "2026": 97319.61,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 7.98,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -865,7 +1035,7 @@
       "03-natuur-milieu"
     ],
     "total_amount": 88000.0,
-    "amount_per_capita": 7.24,
+    "amount_per_capita": 7.22,
     "yearly_amounts": {
       "2026": 8000.0,
       "2027": 16000.0,
@@ -876,45 +1046,11 @@
     },
     "yearly_per_capita": {
       "2026": 0.66,
-      "2027": 1.32,
-      "2028": 1.32,
-      "2029": 1.32,
-      "2030": 1.32,
-      "2031": 1.32
-    }
-  },
-  {
-    "municipality": "Retie",
-    "nis_code": "13036",
-    "bd_code": "BD000602",
-    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
-    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
-    "ap_code": "AP060207",
-    "ap_short": "We onderhouden gebouwen met erfgoedwaarde om de beeldkwaliteit van Retie te bewaren",
-    "ap_long": "Gebouwen met erfgoedwaarde zijn beeldbepalend in een dorp. We onderhouden ze zodat ze op een kwalitatieve manier in stand gehouden worden.",
-    "ac_code": "AC620701",
-    "ac_short": "We onderhouden pastorie De Vest",
-    "ac_long": "We onderhouden pastorie De Vest tot de herbestemming.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 75000.0,
-    "amount_per_capita": 6.17,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 75000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 6.17,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
+      "2027": 1.31,
+      "2028": 1.31,
+      "2029": 1.31,
+      "2030": 1.31,
+      "2031": 1.31
     }
   },
   {
@@ -933,7 +1069,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 75000.0,
-    "amount_per_capita": 6.17,
+    "amount_per_capita": 6.15,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -947,7 +1083,41 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 6.17,
+      "2030": 6.15,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000602",
+    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
+    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
+    "ap_code": "AP060207",
+    "ap_short": "We onderhouden gebouwen met erfgoedwaarde om de beeldkwaliteit van Retie te bewaren",
+    "ap_long": "Gebouwen met erfgoedwaarde zijn beeldbepalend in een dorp. We onderhouden ze zodat ze op een kwalitatieve manier in stand gehouden worden.",
+    "ac_code": "AC620701",
+    "ac_short": "We onderhouden pastorie De Vest",
+    "ac_long": "We onderhouden pastorie De Vest tot de herbestemming.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 6.15,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 75000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 6.15,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
       "2031": 0
     }
   },
@@ -967,7 +1137,7 @@
       "08-onderwijs"
     ],
     "total_amount": 72000.0,
-    "amount_per_capita": 5.92,
+    "amount_per_capita": 5.9,
     "yearly_amounts": {
       "2026": 4000.0,
       "2027": 65000.0,
@@ -978,7 +1148,7 @@
     },
     "yearly_per_capita": {
       "2026": 0.33,
-      "2027": 5.35,
+      "2027": 5.33,
       "2028": 0.25,
       "2029": 0,
       "2030": 0,
@@ -1001,7 +1171,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 65000.0,
-    "amount_per_capita": 5.35,
+    "amount_per_capita": 5.33,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1015,7 +1185,7 @@
       "2027": 0,
       "2028": 0,
       "2029": 0,
-      "2030": 5.35,
+      "2030": 5.33,
       "2031": 0
     }
   },
@@ -1035,7 +1205,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 60000.0,
-    "amount_per_capita": 4.93,
+    "amount_per_capita": 4.92,
     "yearly_amounts": {
       "2026": 10000.0,
       "2027": 10000.0,
@@ -1062,6 +1232,40 @@
     "ap_code": "AP010503",
     "ap_short": "De werkplaats wordt onderhouden en beschikt over het juiste materieel",
     "ap_long": "Uitbreiding en onderhoud werkplaats, machine- en wagenpark, aankoop, inventarisatie en huur materiaal dat we maar sporadisch nodig hebben.",
+    "ac_code": "AC150303",
+    "ac_short": "We voorzien voldoende kleed- en pauzeruimtes voor onze medewerkers in de werkplaats",
+    "ac_long": "Het huidige personeelsbestand is groter geworden, waardoor de huidige kleedruimtes niet langer voldoen. Ook de lunchruimte wordt te klein.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 59505.33,
+    "amount_per_capita": 4.88,
+    "yearly_amounts": {
+      "2026": 29505.33,
+      "2027": 30000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.42,
+      "2027": 2.46,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000105",
+    "bd_short": "Ruimte voor dienstverlening",
+    "bd_long": "Een sterke dienstverlening vraagt om goede infrastructuur. Met de bouw van meander, het huis van de burger, centraliseren we onze gemeentelijke dienstverlening en geven we alle Retienaren een aantrekkelijke ontmoetingsplek. Daarnaast blijven we ook aandacht hebben voor het onderhoud van onze andere plekken van waaruit we de dienstverlening aan onze burgers garanderen.",
+    "ap_code": "AP010503",
+    "ap_short": "De werkplaats wordt onderhouden en beschikt over het juiste materieel",
+    "ap_long": "Uitbreiding en onderhoud werkplaats, machine- en wagenpark, aankoop, inventarisatie en huur materiaal dat we maar sporadisch nodig hebben.",
     "ac_code": "AC150302",
     "ac_short": "We versterken het elektriciteitsnet van de werkplaats in functie van elektrische voertuigen",
     "ac_long": "Uitbreiding en verzwaring van elektrisch net op de werkplaats i.f.v. uitbreiding elektrische vloot.",
@@ -1069,7 +1273,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 4.11,
+    "amount_per_capita": 4.1,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1082,7 +1286,41 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 4.11,
+      "2029": 4.1,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000302",
+    "bd_short": "We creëren kwaliteitsvolle onderwijskansen",
+    "bd_long": "We kiezen er bewust voor om gemeentelijk onderwijs aan te bieden. Onze leerlingen krijgen kwaliteitsvolle leer- en onderwijskansen in een moderne en aantrekkelijke omgeving. De bibliotheek is daarbij een belangrijke partner die meewerkt aan een stimulerende lees- en leercultuur.",
+    "ap_code": "AP030202",
+    "ap_short": "We investeren in onze schoolinfrastructuur",
+    "ap_long": "Naast het regulier onderhoud van onze schoolinfrastructuur zetten we de volgende jaren sterk in op de verduurzaming van de gebouwen en de creatie van aantrekkelijke speelruimtes.",
+    "ac_code": "AC320206",
+    "ac_short": "We passen de HVAC in GBR Schoonbroek aan",
+    "ac_long": "We gaan voor energiezuinige oplossingen in het gebouw van GBR Schoonbroek door de HVAC aan te passen in 2026.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 4.1,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.1,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -1103,7 +1341,7 @@
       "08-onderwijs"
     ],
     "total_amount": 49000.0,
-    "amount_per_capita": 4.03,
+    "amount_per_capita": 4.02,
     "yearly_amounts": {
       "2026": 15500.0,
       "2027": 1000.0,
@@ -1137,7 +1375,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 45000.0,
-    "amount_per_capita": 3.7,
+    "amount_per_capita": 3.69,
     "yearly_amounts": {
       "2026": 7500.0,
       "2027": 7500.0,
@@ -1147,12 +1385,46 @@
       "2031": 7500.0
     },
     "yearly_per_capita": {
-      "2026": 0.62,
-      "2027": 0.62,
-      "2028": 0.62,
-      "2029": 0.62,
-      "2030": 0.62,
-      "2031": 0.62
+      "2026": 0.61,
+      "2027": 0.61,
+      "2028": 0.61,
+      "2029": 0.61,
+      "2030": 0.61,
+      "2031": 0.61
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000701",
+    "bd_short": "We zorgen voor een kwalitatief vrijetijdsaanbod samen met verenigingen en buurten",
+    "bd_long": "Een sterk verenigingsleven, tradities en evenementen doen een dorp leven. We ondersteunen initiatiefnemers met inspraak, infrastructuur en geld om Retie bruisend te houden en het samenhorigheidsgevoel te versterken. Toeristische producten en ondernemers geven bezoekers de kans om mee te genieten van deze troeven.",
+    "ap_code": "AP070104",
+    "ap_short": "We ondersteunen onze verenigingen",
+    "ap_long": "We ondersteunen onze verenigingen financieel en logistiek.",
+    "ac_code": "AC710411",
+    "ac_short": "We onderhouden en vervangen de materialen van de gemeentelijke uitleendienst",
+    "ac_long": "We onderhouden en vervangen de materialen van de gemeentelijke uitleendienst.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 41601.04,
+    "amount_per_capita": 3.41,
+    "yearly_amounts": {
+      "2026": 23601.04,
+      "2027": 5000.0,
+      "2028": 1500.0,
+      "2029": 5000.0,
+      "2030": 1500.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 1.94,
+      "2027": 0.41,
+      "2028": 0.12,
+      "2029": 0.41,
+      "2030": 0.12,
+      "2031": 0.41
     }
   },
   {
@@ -1171,7 +1443,7 @@
       "08-onderwijs"
     ],
     "total_amount": 40000.0,
-    "amount_per_capita": 3.29,
+    "amount_per_capita": 3.28,
     "yearly_amounts": {
       "2026": 40000.0,
       "2027": 0,
@@ -1181,42 +1453,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 3.29,
+      "2026": 3.28,
       "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Retie",
-    "nis_code": "13036",
-    "bd_code": "BD000105",
-    "bd_short": "Ruimte voor dienstverlening",
-    "bd_long": "Een sterke dienstverlening vraagt om goede infrastructuur. Met de bouw van meander, het huis van de burger, centraliseren we onze gemeentelijke dienstverlening en geven we alle Retienaren een aantrekkelijke ontmoetingsplek. Daarnaast blijven we ook aandacht hebben voor het onderhoud van onze andere plekken van waaruit we de dienstverlening aan onze burgers garanderen.",
-    "ap_code": "AP010503",
-    "ap_short": "De werkplaats wordt onderhouden en beschikt over het juiste materieel",
-    "ap_long": "Uitbreiding en onderhoud werkplaats, machine- en wagenpark, aankoop, inventarisatie en huur materiaal dat we maar sporadisch nodig hebben.",
-    "ac_code": "AC150303",
-    "ac_short": "We voorzien voldoende kleed- en pauzeruimtes voor onze medewerkers in de werkplaats",
-    "ac_long": "Het huidige personeelsbestand is groter geworden, waardoor de huidige kleedruimtes niet langer voldoen. Ook de lunchruimte wordt te klein.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 35000.0,
-    "amount_per_capita": 2.88,
-    "yearly_amounts": {
-      "2026": 5000.0,
-      "2027": 30000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.41,
-      "2027": 2.47,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1239,7 +1477,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 35000.0,
-    "amount_per_capita": 2.88,
+    "amount_per_capita": 2.87,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1260,22 +1498,56 @@
   {
     "municipality": "Retie",
     "nis_code": "13036",
-    "bd_code": "BD000602",
-    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
-    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
-    "ap_code": "AP060205",
-    "ap_short": "We organiseren een Lokaal OpvangInitiatief (LOI) in de gemeente",
-    "ap_long": "We onderhouden de woningen die gebruikt worden in het kader van een Lokaal OpvangInitiatief.",
-    "ac_code": "AC620503",
-    "ac_short": "We voorzien veilig en robuust buitenschrijnwerk en een nieuwe keuken in LOI Kerkhofstraat 2A",
-    "ac_long": "We voorzien veilig en robuust buitenschrijnwerk en een nieuwe keuken in LOI Kerkhofstraat 2A in 2026.",
+    "bd_code": "BD000502",
+    "bd_short": "We beheren onze open ruimte ecologisch",
+    "bd_long": "Zowel in de kernen als in het buitengebied spelen groen-blauwe netwerken een belangrijke rol. We geven water voldoende ruimte en garanderen een kwaliteitsvol onderhoud van het aanwezige groen.",
+    "ap_code": "AP050201",
+    "ap_short": "Op het openbaar domein maken we ruimte voor water",
+    "ap_long": "We zetten gericht onthardingsprojecten op in de publieke ruimte. In groenzones gaan we bewust om met de waterhuishouding.",
+    "ac_code": "AC520101",
+    "ac_short": "We beheren de parkomgeving van 't Schijf",
+    "ac_long": "We nemen beheersmaatregelen om bezoekers blijvend te laten genieten van de parkOmgeving van 't Schijf",
     "categories": [
-      "09-zorg-opvang"
+      "06-wonen-ruimte"
     ],
-    "total_amount": 30000.0,
-    "amount_per_capita": 2.47,
+    "total_amount": 34193.92,
+    "amount_per_capita": 2.8,
     "yearly_amounts": {
-      "2026": 30000.0,
+      "2026": 24193.92,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.98,
+      "2027": 0.82,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000701",
+    "bd_short": "We zorgen voor een kwalitatief vrijetijdsaanbod samen met verenigingen en buurten",
+    "bd_long": "Een sterk verenigingsleven, tradities en evenementen doen een dorp leven. We ondersteunen initiatiefnemers met inspraak, infrastructuur en geld om Retie bruisend te houden en het samenhorigheidsgevoel te versterken. Toeristische producten en ondernemers geven bezoekers de kans om mee te genieten van deze troeven.",
+    "ap_code": "AP070102",
+    "ap_short": "We voorzien kwalitatieve vrijetijdsinfrastructuur",
+    "ap_long": "We onderhouden onze vrijetijdsinfrastructuur en versterken het aanbod via gerichte investeringen.",
+    "ac_code": "AC710202",
+    "ac_short": "De sporthal Boesdijkhof wordt goed onderhouden en beschikt over kwalitatieve materialen",
+    "ac_long": "De sporthal Boesdijkhof wordt goed onderhouden en beschikt over kwalitatieve materialen",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 32288.95,
+    "amount_per_capita": 2.65,
+    "yearly_amounts": {
+      "2026": 32288.95,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1283,7 +1555,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.47,
+      "2026": 2.65,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1307,7 +1579,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 30000.0,
-    "amount_per_capita": 2.47,
+    "amount_per_capita": 2.46,
     "yearly_amounts": {
       "2026": 5000.0,
       "2027": 5000.0,
@@ -1328,6 +1600,40 @@
   {
     "municipality": "Retie",
     "nis_code": "13036",
+    "bd_code": "BD000602",
+    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
+    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
+    "ap_code": "AP060205",
+    "ap_short": "We organiseren een Lokaal OpvangInitiatief (LOI) in de gemeente",
+    "ap_long": "We onderhouden de woningen die gebruikt worden in het kader van een Lokaal OpvangInitiatief.",
+    "ac_code": "AC620503",
+    "ac_short": "We voorzien veilig en robuust buitenschrijnwerk en een nieuwe keuken in LOI Kerkhofstraat 2A",
+    "ac_long": "We voorzien veilig en robuust buitenschrijnwerk en een nieuwe keuken in LOI Kerkhofstraat 2A in 2026.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 2.46,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.46,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
     "bd_code": "BD000401",
     "bd_short": "We bouwen mee aan een kwalitatief zorgaanbod",
     "bd_long": "Naast het residentiële zorgaanbod dat we aanbieden of mee faciliteren ondersteunen we Retienaren om zo lang mogelijk thuis te blijven wonen.",
@@ -1340,22 +1646,22 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 28728.0,
+    "total_amount": 28729.08,
     "amount_per_capita": 2.36,
     "yearly_amounts": {
-      "2026": 4554.0,
-      "2027": 4645.0,
-      "2028": 4738.0,
-      "2029": 4833.0,
-      "2030": 4930.0,
-      "2031": 5028.0
+      "2026": 4554.3,
+      "2027": 4645.39,
+      "2028": 4738.29,
+      "2029": 4833.06,
+      "2030": 4929.72,
+      "2031": 5028.32
     },
     "yearly_per_capita": {
       "2026": 0.37,
       "2027": 0.38,
       "2028": 0.39,
       "2029": 0.4,
-      "2030": 0.41,
+      "2030": 0.4,
       "2031": 0.41
     }
   },
@@ -1375,7 +1681,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 26000.0,
-    "amount_per_capita": 2.14,
+    "amount_per_capita": 2.13,
     "yearly_amounts": {
       "2026": 20000.0,
       "2027": 0,
@@ -1409,7 +1715,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 25000.0,
-    "amount_per_capita": 2.06,
+    "amount_per_capita": 2.05,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1424,7 +1730,7 @@
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 2.06
+      "2031": 2.05
     }
   },
   {
@@ -1443,7 +1749,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 22500.0,
-    "amount_per_capita": 1.85,
+    "amount_per_capita": 1.84,
     "yearly_amounts": {
       "2026": 0,
       "2027": 7500.0,
@@ -1454,11 +1760,11 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0.62,
+      "2027": 0.61,
       "2028": 0,
-      "2029": 0.62,
+      "2029": 0.61,
       "2030": 0,
-      "2031": 0.62
+      "2031": 0.61
     }
   },
   {
@@ -1498,35 +1804,103 @@
   {
     "municipality": "Retie",
     "nis_code": "13036",
-    "bd_code": "BD000701",
-    "bd_short": "We zorgen voor een kwalitatief vrijetijdsaanbod samen met verenigingen en buurten",
-    "bd_long": "Een sterk verenigingsleven, tradities en evenementen doen een dorp leven. We ondersteunen initiatiefnemers met inspraak, infrastructuur en geld om Retie bruisend te houden en het samenhorigheidsgevoel te versterken. Toeristische producten en ondernemers geven bezoekers de kans om mee te genieten van deze troeven.",
-    "ap_code": "AP070104",
-    "ap_short": "We ondersteunen onze verenigingen",
-    "ap_long": "We ondersteunen onze verenigingen financieel en logistiek.",
-    "ac_code": "AC710411",
-    "ac_short": "We onderhouden en vervangen de materialen van de gemeentelijke uitleendienst",
-    "ac_long": "We onderhouden en vervangen de materialen van de gemeentelijke uitleendienst.",
+    "bd_code": "BD000602",
+    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
+    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
+    "ap_code": "AP060208",
+    "ap_short": "We maken onze begraafplaatsen klaar voor de toekomst",
+    "ap_long": "We onderhouden onze begraafplaatsen en richten ze toekomstbestendig in.",
+    "ac_code": "AC620801",
+    "ac_short": "We onderhouden de begraafplaatsen en zorgen voor een troostrijke locatie",
+    "ac_long": "We onderhouden de begraafplaatsen en zorgen voor een troostrijke locatie.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "overige"
     ],
-    "total_amount": 19500.0,
-    "amount_per_capita": 1.6,
+    "total_amount": 18650.0,
+    "amount_per_capita": 1.53,
     "yearly_amounts": {
-      "2026": 1500.0,
-      "2027": 5000.0,
-      "2028": 1500.0,
-      "2029": 5000.0,
-      "2030": 1500.0,
-      "2031": 5000.0
+      "2026": 18650.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.12,
+      "2026": 1.53,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000302",
+    "bd_short": "We creëren kwaliteitsvolle onderwijskansen",
+    "bd_long": "We kiezen er bewust voor om gemeentelijk onderwijs aan te bieden. Onze leerlingen krijgen kwaliteitsvolle leer- en onderwijskansen in een moderne en aantrekkelijke omgeving. De bibliotheek is daarbij een belangrijke partner die meewerkt aan een stimulerende lees- en leercultuur.",
+    "ap_code": "AP030202",
+    "ap_short": "We investeren in onze schoolinfrastructuur",
+    "ap_long": "Naast het regulier onderhoud van onze schoolinfrastructuur zetten we de volgende jaren sterk in op de verduurzaming van de gebouwen en de creatie van aantrekkelijke speelruimtes.",
+    "ac_code": "AC320203",
+    "ac_short": "We creëren extra klasruimte en fietsenstalling in GBR centrum",
+    "ac_long": "We creëren extra klasruimte en fietsenstalling in GBR centrum.",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 1.23,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 5000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.82,
       "2027": 0.41,
-      "2028": 0.12,
-      "2029": 0.41,
-      "2030": 0.12,
-      "2031": 0.41
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
+    "bd_code": "BD000601",
+    "bd_short": "We richten onze kernen veilig in voor de zwakke weggebruiker",
+    "bd_long": "Als landelijke gemeente beschikken we over heel wat kilometers gemeentewegen. Een sterk mobiliteitsplan garandeert een verkeersveilig en -leefbaar Retie, waarbij veilige schoolomgevingen speciale aandacht krijgen.",
+    "ap_code": "AP060105",
+    "ap_short": "We zetten in op algemene en specifieke vormen van deelmobiliteit",
+    "ap_long": "We ondersteunen verschillende vormen van deelmobiliteit zodat onze inwoners bewust kiezen hoe ze zich verplaatsen.",
+    "ac_code": "AC610503",
+    "ac_short": "We laten laadpalen plaatsen op het openbaar domein",
+    "ac_long": "We ondersteunen de electrificatie van het private wagenpark door het laten plaatsen van laadpalen op openbaar domein.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 15000.0,
+    "amount_per_capita": 1.23,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 0,
+      "2028": 5000.0,
+      "2029": 0,
+      "2030": 5000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.41,
+      "2027": 0,
+      "2028": 0.41,
+      "2029": 0,
+      "2030": 0.41,
+      "2031": 0
     }
   },
   {
@@ -1634,74 +2008,6 @@
   {
     "municipality": "Retie",
     "nis_code": "13036",
-    "bd_code": "BD000601",
-    "bd_short": "We richten onze kernen veilig in voor de zwakke weggebruiker",
-    "bd_long": "Als landelijke gemeente beschikken we over heel wat kilometers gemeentewegen. Een sterk mobiliteitsplan garandeert een verkeersveilig en -leefbaar Retie, waarbij veilige schoolomgevingen speciale aandacht krijgen.",
-    "ap_code": "AP060105",
-    "ap_short": "We zetten in op algemene en specifieke vormen van deelmobiliteit",
-    "ap_long": "We ondersteunen verschillende vormen van deelmobiliteit zodat onze inwoners bewust kiezen hoe ze zich verplaatsen.",
-    "ac_code": "AC610503",
-    "ac_short": "We laten laadpalen plaatsen op het openbaar domein",
-    "ac_long": "We ondersteunen de electrificatie van het private wagenpark door het laten plaatsen van laadpalen op openbaar domein.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 1.23,
-    "yearly_amounts": {
-      "2026": 5000.0,
-      "2027": 0,
-      "2028": 5000.0,
-      "2029": 0,
-      "2030": 5000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.41,
-      "2027": 0,
-      "2028": 0.41,
-      "2029": 0,
-      "2030": 0.41,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Retie",
-    "nis_code": "13036",
-    "bd_code": "BD000302",
-    "bd_short": "We creëren kwaliteitsvolle onderwijskansen",
-    "bd_long": "We kiezen er bewust voor om gemeentelijk onderwijs aan te bieden. Onze leerlingen krijgen kwaliteitsvolle leer- en onderwijskansen in een moderne en aantrekkelijke omgeving. De bibliotheek is daarbij een belangrijke partner die meewerkt aan een stimulerende lees- en leercultuur.",
-    "ap_code": "AP030202",
-    "ap_short": "We investeren in onze schoolinfrastructuur",
-    "ap_long": "Naast het regulier onderhoud van onze schoolinfrastructuur zetten we de volgende jaren sterk in op de verduurzaming van de gebouwen en de creatie van aantrekkelijke speelruimtes.",
-    "ac_code": "AC320203",
-    "ac_short": "We creëren extra klasruimte en fietsenstalling in GBR centrum",
-    "ac_long": "We creëren extra klasruimte en fietsenstalling in GBR centrum.",
-    "categories": [
-      "08-onderwijs"
-    ],
-    "total_amount": 15000.0,
-    "amount_per_capita": 1.23,
-    "yearly_amounts": {
-      "2026": 10000.0,
-      "2027": 5000.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.82,
-      "2027": 0.41,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Retie",
-    "nis_code": "13036",
     "bd_code": "BD000501",
     "bd_short": "We realiseren een brede beleving van de open ruimte",
     "bd_long": "Retie beschikt over veel open ruimte. Door die open ruimte toegankelijk te maken en kwaliteitsvol in te richten, kunnen inwoners en bezoekers ten volle genieten van de Retiese troeven.",
@@ -1715,7 +2021,7 @@
       "06-wonen-ruimte"
     ],
     "total_amount": 12000.0,
-    "amount_per_capita": 0.99,
+    "amount_per_capita": 0.98,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -1727,7 +2033,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 0.99,
+      "2028": 0.98,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -1770,31 +2076,31 @@
   {
     "municipality": "Retie",
     "nis_code": "13036",
-    "bd_code": "BD000502",
-    "bd_short": "We beheren onze open ruimte ecologisch",
-    "bd_long": "Zowel in de kernen als in het buitengebied spelen groen-blauwe netwerken een belangrijke rol. We geven water voldoende ruimte en garanderen een kwaliteitsvol onderhoud van het aanwezige groen.",
-    "ap_code": "AP050201",
-    "ap_short": "Op het openbaar domein maken we ruimte voor water",
-    "ap_long": "We zetten gericht onthardingsprojecten op in de publieke ruimte. In groenzones gaan we bewust om met de waterhuishouding.",
-    "ac_code": "AC520101",
-    "ac_short": "We beheren de parkomgeving van 't Schijf",
-    "ac_long": "We nemen beheersmaatregelen om bezoekers blijvend te laten genieten van de parkOmgeving van 't Schijf",
+    "bd_code": "BD000303",
+    "bd_short": "We bieden een gevarieerd naschools aanbod voor alle kinderen in Retie aan",
+    "bd_long": "Ook buiten de schooltijd is Retie een aantrekkelijke plek voor kinderen. Ravot, FikFak en Kidzzzkompas zijn sterke merken die een kwaliteitsvolle tijdsbesteding garanderen voor kinderen.",
+    "ap_code": "AP030302",
+    "ap_short": "We creëren ruimte voor jongeren",
+    "ap_long": "Tieners hebben nood aan andere plekken dan kinderen. We voorzien verschillende plekken en activiteiten waar ze zelfstandig kunnen zijn en de wereld ontdekken. De renovatie van jeugdklub 2470 zorgt alvast voor een ankerplaats.",
+    "ac_code": "AC330202",
+    "ac_short": "We creëren ontmoetingsplekken voor tieners en jongeren.",
+    "ac_long": "We creëren ontmoetingsplekken voor tieners en jongeren.",
     "categories": [
-      "06-wonen-ruimte"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 10000.0,
-    "amount_per_capita": 0.82,
+    "total_amount": 10852.6,
+    "amount_per_capita": 0.89,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 10000.0,
+      "2026": 10852.6,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0.82,
+      "2026": 0.89,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -1838,6 +2144,40 @@
   {
     "municipality": "Retie",
     "nis_code": "13036",
+    "bd_code": "BD000602",
+    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
+    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
+    "ap_code": "AP060207",
+    "ap_short": "We onderhouden gebouwen met erfgoedwaarde om de beeldkwaliteit van Retie te bewaren",
+    "ap_long": "Gebouwen met erfgoedwaarde zijn beeldbepalend in een dorp. We onderhouden ze zodat ze op een kwalitatieve manier in stand gehouden worden.",
+    "ac_code": "AC620704",
+    "ac_short": "We finaliseren de restauratie van de Sint-Pieterskapel",
+    "ac_long": "De St. Pieterskapel wordt gerestaureerd tegen einde 2027.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 8882.48,
+    "amount_per_capita": 0.73,
+    "yearly_amounts": {
+      "2026": 6382.48,
+      "2027": 2500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.52,
+      "2027": 0.2,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Retie",
+    "nis_code": "13036",
     "bd_code": "BD000303",
     "bd_short": "We bieden een gevarieerd naschools aanbod voor alle kinderen in Retie aan",
     "bd_long": "Ook buiten de schooltijd is Retie een aantrekkelijke plek voor kinderen. Ravot, FikFak en Kidzzzkompas zijn sterke merken die een kwaliteitsvolle tijdsbesteding garanderen voor kinderen.",
@@ -1851,7 +2191,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 7000.0,
-    "amount_per_capita": 0.58,
+    "amount_per_capita": 0.57,
     "yearly_amounts": {
       "2026": 5000.0,
       "2027": 1000.0,
@@ -1906,40 +2246,6 @@
   {
     "municipality": "Retie",
     "nis_code": "13036",
-    "bd_code": "BD000602",
-    "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
-    "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
-    "ap_code": "AP060204",
-    "ap_short": "We stellen woningen ter beschikking voor specifieke doelgroepen",
-    "ap_long": "We onderhouden onze woongelegenheden De Peper en Ter Sneeuw.",
-    "ac_code": "AC620406",
-    "ac_short": "We vervangen de gordijnen en vliegenramen in De Peper en Ter Sneeuw",
-    "ac_long": "De verduistering en vliegenramen in appartementsgebouw De Peper en Ter Sneeuw worden vervangen in 2026,",
-    "categories": [
-      "09-zorg-opvang"
-    ],
-    "total_amount": 5000.0,
-    "amount_per_capita": 0.41,
-    "yearly_amounts": {
-      "2026": 5000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0.41,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Retie",
-    "nis_code": "13036",
     "bd_code": "BD000303",
     "bd_short": "We bieden een gevarieerd naschools aanbod voor alle kinderen in Retie aan",
     "bd_long": "Ook buiten de schooltijd is Retie een aantrekkelijke plek voor kinderen. Ravot, FikFak en Kidzzzkompas zijn sterke merken die een kwaliteitsvolle tijdsbesteding garanderen voor kinderen.",
@@ -1977,28 +2283,28 @@
     "bd_code": "BD000602",
     "bd_short": "We zorgen mee voor kwalitatief en betaalbaar wonen in de kernen",
     "bd_long": "Welvarende en goed uitgeruste kernen zorgen voor een aantrekkelijke woon- en werkomgeving. We sluiten een Woonpact en experimenteren met verschillende instrumenten om wonen betaalbaar te houden in onze gemeente. Daarnaast ondersteunen we lokale handelaars om onze kernen levendig en veerkrachtig te houden.",
-    "ap_code": "AP060207",
-    "ap_short": "We onderhouden gebouwen met erfgoedwaarde om de beeldkwaliteit van Retie te bewaren",
-    "ap_long": "Gebouwen met erfgoedwaarde zijn beeldbepalend in een dorp. We onderhouden ze zodat ze op een kwalitatieve manier in stand gehouden worden.",
-    "ac_code": "AC620704",
-    "ac_short": "We finaliseren de restauratie van de Sint-Pieterskapel",
-    "ac_long": "De St. Pieterskapel wordt gerestaureerd tegen einde 2027.",
+    "ap_code": "AP060204",
+    "ap_short": "We stellen woningen ter beschikking voor specifieke doelgroepen",
+    "ap_long": "We onderhouden onze woongelegenheden De Peper en Ter Sneeuw.",
+    "ac_code": "AC620406",
+    "ac_short": "We vervangen de gordijnen en vliegenramen in De Peper en Ter Sneeuw",
+    "ac_long": "De verduistering en vliegenramen in appartementsgebouw De Peper en Ter Sneeuw worden vervangen in 2026,",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "09-zorg-opvang"
     ],
-    "total_amount": 2500.0,
-    "amount_per_capita": 0.21,
+    "total_amount": 5000.0,
+    "amount_per_capita": 0.41,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 2500.0,
+      "2026": 5000.0,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0.21,
+      "2026": 0.41,
+      "2027": 0,
       "2028": 0,
       "2029": 0,
       "2030": 0,

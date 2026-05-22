@@ -2,124 +2,22 @@
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
-    "bd_short": "I Openbare werken",
-    "bd_long": "Een veilige, duurzame en efficiënte openbare infrastructuur waarborgen. Het verlengen van de levensduur van wegen, rioleringssystemen en de groene domeinen door het implementeren van een proactief onderhoudsprogramma dat gericht is op het minimaliseren van storingen.",
-    "ap_code": "I4",
-    "ap_short": "Actieplan Openbare werken - investeringsprojecten",
-    "ap_long": "Uitvoeren van investeringsprojecten in het openbaar domein op vlak van infrastructuur.",
-    "ac_code": "I4",
-    "ac_short": "Heirweg",
-    "ac_long": "Heirweg: aanleg nieuwe riolering en weginfrastructuur (incl. fietspaden).",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 5080876.0,
-    "amount_per_capita": 492.58,
-    "yearly_amounts": {
-      "2026": 2627000.0,
-      "2027": 1152600.0,
-      "2028": 694987.0,
-      "2029": 318362.0,
-      "2030": 287927.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 254.68,
-      "2027": 111.74,
-      "2028": 67.38,
-      "2029": 30.86,
-      "2030": 27.91,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Wielsbeke",
-    "nis_code": "37017",
-    "bd_code": "BDS",
-    "bd_short": "R Patrimonium",
-    "bd_long": "Patrimonium van het lokaal bestuur optimaal benutten en klaarmaken voor de toekomst via gerichte investeringen.",
-    "ap_code": "R2",
-    "ap_short": "Actieplan Patrimonium - toekomstgericht bestendigen",
-    "ap_long": "Gemeentelijk patrimonium maximaal benutten en bestendigen voor de toekomst.",
-    "ac_code": "R2",
-    "ac_short": "Patrimonium klaar voor toekomst",
-    "ac_long": "Patrimonium klaar voor de toekomst: inzetten op (brand)veiligheid, energiezuinigheid, duurzaamheid en optimalisatie.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 3505304.0,
-    "amount_per_capita": 339.83,
-    "yearly_amounts": {
-      "2026": 377500.0,
-      "2027": 664210.0,
-      "2028": 1512058.0,
-      "2029": 324199.0,
-      "2030": 230929.0,
-      "2031": 396408.0
-    },
-    "yearly_per_capita": {
-      "2026": 36.6,
-      "2027": 64.39,
-      "2028": 146.59,
-      "2029": 31.43,
-      "2030": 22.39,
-      "2031": 38.43
-    }
-  },
-  {
-    "municipality": "Wielsbeke",
-    "nis_code": "37017",
-    "bd_code": "BDS",
-    "bd_short": "I Openbare werken",
-    "bd_long": "Een veilige, duurzame en efficiënte openbare infrastructuur waarborgen. Het verlengen van de levensduur van wegen, rioleringssystemen en de groene domeinen door het implementeren van een proactief onderhoudsprogramma dat gericht is op het minimaliseren van storingen.",
-    "ap_code": "I1",
-    "ap_short": "Actieplan Openbare werken - openbaar domein",
-    "ap_long": "In kaart brengen van de huidige situatie van het openbaar domein.",
-    "ac_code": "I1",
-    "ac_short": "Inventarisatie openbaar domein",
-    "ac_long": "Inventariseren en in kaart brengen van het openbaar domein en de knelpunten. Dit door middel van een efficiënte meldingstool monitoren welke punten prioritaire aandacht moeten krijgen. Focus op propere en goede wegen, fietspaden en voetpaden + de groenvoorziening hierrond.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 2033512.0,
-    "amount_per_capita": 197.15,
-    "yearly_amounts": {
-      "2026": 584500.0,
-      "2027": 334050.0,
-      "2028": 505634.0,
-      "2029": 202691.0,
-      "2030": 204038.0,
-      "2031": 202599.0
-    },
-    "yearly_per_capita": {
-      "2026": 56.67,
-      "2027": 32.39,
-      "2028": 49.02,
-      "2029": 19.65,
-      "2030": 19.78,
-      "2031": 19.64
-    }
-  },
-  {
-    "municipality": "Wielsbeke",
-    "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 12",
     "bd_short": "L Ouderenhuisvesting",
     "bd_long": "Het woonzorgcentrum Ter Lembeek biedt een veilige woon- en leefomgeving voor senioren die niet meer zelfstandig thuis kunnen wonen. Het lokaal dienstencentrum Ter Lembeek werkt als laagdrempelige ontmoetingsplaats voor burgers. Daarnaast ondersteunen we zelfstandig wonen voor senioren.",
     "ap_code": "L1",
     "ap_short": "Actieplan Ouderenhuisvesting - woonzorgcentrum",
     "ap_long": "Het WZC Ter Lembeek biedt een veilige woon- en leefomgeving aan, geïntegreerd in de buurt, voor de Wielsbeekse senioren die niet meer zelfstandig thuis kunnen wonen. Gelukkige bewoners is onze dagelijkse zorg.",
-    "ac_code": "L1",
+    "ac_code": "L1_L14",
     "ac_short": "Infrastructuur WZC",
     "ac_long": "Het WZC bereidt een transitie voor naar een hedendaagse infrastructuur en aangepaste organisatievorm gebaseerd op kleinschalig genormaliseerd wonen en blijft ondertussen de werking op de huidige locatie zo goed als mogelijk organiseren.",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 1985573.0,
-    "amount_per_capita": 192.5,
+    "total_amount": 1985572.5,
+    "amount_per_capita": 191.8,
     "yearly_amounts": {
-      "2026": 175367.0,
+      "2026": 175366.5,
       "2027": 190263.0,
       "2028": 410838.0,
       "2029": 933639.0,
@@ -127,44 +25,44 @@
       "2031": 137733.0
     },
     "yearly_per_capita": {
-      "2026": 17.0,
-      "2027": 18.45,
-      "2028": 39.83,
-      "2029": 90.51,
-      "2030": 13.35,
-      "2031": 13.35
+      "2026": 16.94,
+      "2027": 18.38,
+      "2028": 39.69,
+      "2029": 90.19,
+      "2030": 13.3,
+      "2031": 13.3
     }
   },
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
-    "bd_short": "B Sport",
-    "bd_long": "De inwoners zijn fysiek actief en gezond.",
-    "ap_code": "B1",
-    "ap_short": "Actieplan Sport - sportinfrastructuur",
-    "ap_long": "De gemeenschap heeft toegang tot kwaliteitsvolle sportinfrastructuur en -materialen.",
-    "ac_code": "B1",
-    "ac_short": "Sportinfrastructuur en -materiaal",
-    "ac_long": "Beschikbaarheid van kwalitatieve sportinfrastructuur- en materialen.",
+    "bd_code": "BDS 9",
+    "bd_short": "I Openbare werken",
+    "bd_long": "Een veilige, duurzame en efficiënte openbare infrastructuur waarborgen. Het verlengen van de levensduur van wegen, rioleringssystemen en de groene domeinen door het implementeren van een proactief onderhoudsprogramma dat gericht is op het minimaliseren van storingen.",
+    "ap_code": "I4",
+    "ap_short": "Actieplan Openbare werken - investeringsprojecten",
+    "ap_long": "Uitvoeren van investeringsprojecten in het openbaar domein op vlak van infrastructuur.",
+    "ac_code": "I4_I43",
+    "ac_short": "Rijksweg",
+    "ac_long": "N357 Rijksweg: aanleg nieuwe riolering en weginfrastructuur (incl. fietspaden).",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 1874793.0,
-    "amount_per_capita": 181.76,
+    "total_amount": 1967500.0,
+    "amount_per_capita": 190.06,
     "yearly_amounts": {
-      "2026": 670000.0,
-      "2027": 805800.0,
-      "2028": 213282.0,
-      "2029": 185711.0,
+      "2026": 1967500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 64.96,
-      "2027": 78.12,
-      "2028": 20.68,
-      "2029": 18.0,
+      "2026": 190.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -172,54 +70,190 @@
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 9",
+    "bd_short": "I Openbare werken",
+    "bd_long": "Een veilige, duurzame en efficiënte openbare infrastructuur waarborgen. Het verlengen van de levensduur van wegen, rioleringssystemen en de groene domeinen door het implementeren van een proactief onderhoudsprogramma dat gericht is op het minimaliseren van storingen.",
+    "ap_code": "I4",
+    "ap_short": "Actieplan Openbare werken - investeringsprojecten",
+    "ap_long": "Uitvoeren van investeringsprojecten in het openbaar domein op vlak van infrastructuur.",
+    "ac_code": "I4_I41",
+    "ac_short": "Heirweg",
+    "ac_long": "Heirweg: aanleg nieuwe riolering en weginfrastructuur (incl. fietspaden).",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1852180.0,
+    "amount_per_capita": 178.92,
+    "yearly_amounts": {
+      "2026": 491500.0,
+      "2027": 1152600.0,
+      "2028": 208080.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 47.48,
+      "2027": 111.34,
+      "2028": 20.1,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 9",
+    "bd_short": "I Openbare werken",
+    "bd_long": "Een veilige, duurzame en efficiënte openbare infrastructuur waarborgen. Het verlengen van de levensduur van wegen, rioleringssystemen en de groene domeinen door het implementeren van een proactief onderhoudsprogramma dat gericht is op het minimaliseren van storingen.",
+    "ap_code": "I1",
+    "ap_short": "Actieplan Openbare werken - openbaar domein",
+    "ap_long": "In kaart brengen van de huidige situatie van het openbaar domein.",
+    "ac_code": "I1_I11",
+    "ac_short": "Inventarisatie openbaar domein",
+    "ac_long": "Inventariseren en in kaart brengen van het openbaar domein en de knelpunten. Dit door middel van een efficiënte meldingstool monitoren welke punten prioritaire aandacht moeten krijgen. Focus op propere en goede wegen, fietspaden en voetpaden + de groenvoorziening hierrond.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1575333.01,
+    "amount_per_capita": 152.17,
+    "yearly_amounts": {
+      "2026": 337000.0,
+      "2027": 176970.0,
+      "2028": 495230.4,
+      "2029": 186772.61,
+      "2030": 187801.97,
+      "2031": 191558.03
+    },
+    "yearly_per_capita": {
+      "2026": 32.55,
+      "2027": 17.09,
+      "2028": 47.84,
+      "2029": 18.04,
+      "2030": 18.14,
+      "2031": 18.5
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 5",
     "bd_short": "E Veiligheid",
     "bd_long": "Veiligheid garanderen via politie en brandweer.",
     "ap_code": "E2",
     "ap_short": "Actieplan Veiligheid - brandweer",
     "ap_long": "Veiligheid garanderen via de hulpverleningszone.",
-    "ac_code": "E2",
+    "ac_code": "E2_E21",
     "ac_short": "Brandweer",
     "ac_long": "Steun aan de hulpverleningszone voor dagelijkse werking en investeringen.",
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 1087020.0,
-    "amount_per_capita": 105.38,
+    "total_amount": 1087019.86,
+    "amount_per_capita": 105.0,
     "yearly_amounts": {
-      "2026": 299614.0,
-      "2027": 392052.0,
-      "2028": 225554.0,
+      "2026": 299613.64,
+      "2027": 392052.29,
+      "2028": 225553.93,
       "2029": 56600.0,
       "2030": 56600.0,
       "2031": 56600.0
     },
     "yearly_per_capita": {
-      "2026": 29.05,
-      "2027": 38.01,
-      "2028": 21.87,
-      "2029": 5.49,
-      "2030": 5.49,
-      "2031": 5.49
+      "2026": 28.94,
+      "2027": 37.87,
+      "2028": 21.79,
+      "2029": 5.47,
+      "2030": 5.47,
+      "2031": 5.47
     }
   },
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 18",
+    "bd_short": "R Patrimonium",
+    "bd_long": "Patrimonium van het lokaal bestuur optimaal benutten en klaarmaken voor de toekomst via gerichte investeringen.",
+    "ap_code": "R2",
+    "ap_short": "Actieplan Patrimonium - toekomstgericht bestendigen",
+    "ap_long": "Gemeentelijk patrimonium maximaal benutten en bestendigen voor de toekomst.",
+    "ac_code": "R2_R21",
+    "ac_short": "Patrimonium klaar voor toekomst",
+    "ac_long": "Patrimonium klaar voor de toekomst: inzetten op (brand)veiligheid, energiezuinigheid, duurzaamheid en optimalisatie.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 1074258.73,
+    "amount_per_capita": 103.77,
+    "yearly_amounts": {
+      "2026": 49900.0,
+      "2027": 307210.0,
+      "2028": 143932.2,
+      "2029": 218078.44,
+      "2030": 122686.26,
+      "2031": 232451.83
+    },
+    "yearly_per_capita": {
+      "2026": 4.82,
+      "2027": 29.68,
+      "2028": 13.9,
+      "2029": 21.07,
+      "2030": 11.85,
+      "2031": 22.45
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 2",
+    "bd_short": "B Sport",
+    "bd_long": "De inwoners zijn fysiek actief en gezond.",
+    "ap_code": "B1",
+    "ap_short": "Actieplan Sport - sportinfrastructuur",
+    "ap_long": "De gemeenschap heeft toegang tot kwaliteitsvolle sportinfrastructuur en -materialen.",
+    "ac_code": "B1_B11",
+    "ac_short": "Sportinfrastructuur en -materiaal",
+    "ac_long": "Beschikbaarheid van kwalitatieve sportinfrastructuur- en materialen.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1011511.4,
+    "amount_per_capita": 97.71,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 805800.0,
+      "2028": 0,
+      "2029": 185711.4,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.93,
+      "2027": 77.84,
+      "2028": 0,
+      "2029": 17.94,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 7",
     "bd_short": "G Klimaat",
     "bd_long": "Het bevorderen van klimaatmitigatie en adaptatie, gericht op de vermindering van CO2-uitstoot en aanpassing aan de gevolgen van klimaatverandering zoals droogte en overstromingen.",
     "ap_code": "G1",
     "ap_short": "Actieplan Klimaat - klimaatplan",
     "ap_long": "Uitvoering klimaatplan.",
-    "ac_code": "G1",
+    "ac_code": "G1_G12",
     "ac_short": "Duurzame gemeente",
     "ac_long": "Versneld inzetten op het verledden van openbare verlichting en duurzame vernieuwing van het gemeentelijke wagenpark.",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 963106.0,
-    "amount_per_capita": 93.37,
+    "amount_per_capita": 93.03,
     "yearly_amounts": {
       "2026": 270134.0,
       "2027": 225325.0,
@@ -229,65 +263,133 @@
       "2031": 135019.0
     },
     "yearly_per_capita": {
-      "2026": 26.19,
-      "2027": 21.84,
-      "2028": 28.31,
-      "2029": 1.99,
-      "2030": 1.95,
-      "2031": 13.09
+      "2026": 26.09,
+      "2027": 21.77,
+      "2028": 28.21,
+      "2029": 1.98,
+      "2030": 1.94,
+      "2031": 13.04
     }
   },
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
-    "bd_short": "G Klimaat",
-    "bd_long": "Het bevorderen van klimaatmitigatie en adaptatie, gericht op de vermindering van CO2-uitstoot en aanpassing aan de gevolgen van klimaatverandering zoals droogte en overstromingen.",
-    "ap_code": "G3",
-    "ap_short": "Actieplan Klimaat - vergroening",
-    "ap_long": "Vergroening van openbare ruimte.",
-    "ac_code": "G3",
-    "ac_short": "Speelbos",
-    "ac_long": "Realisatie van een speelbos.",
+    "bd_code": "BDS 18",
+    "bd_short": "R Patrimonium",
+    "bd_long": "Patrimonium van het lokaal bestuur optimaal benutten en klaarmaken voor de toekomst via gerichte investeringen.",
+    "ap_code": "R2",
+    "ap_short": "Actieplan Patrimonium - toekomstgericht bestendigen",
+    "ap_long": "Gemeentelijk patrimonium maximaal benutten en bestendigen voor de toekomst.",
+    "ac_code": "R2_R22",
+    "ac_short": "Kerken",
+    "ac_long": "Masterplan kerken: uitwerking en opstart realisatie",
     "categories": [
-      "03-natuur-milieu"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 544616.0,
-    "amount_per_capita": 52.8,
+    "total_amount": 887138.0,
+    "amount_per_capita": 85.7,
     "yearly_amounts": {
-      "2026": 465000.0,
-      "2027": 12750.0,
-      "2028": 13005.0,
-      "2029": 26530.0,
-      "2030": 13530.0,
-      "2031": 13801.0
+      "2026": 8000.0,
+      "2027": 0,
+      "2028": 879138.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 45.08,
-      "2027": 1.24,
-      "2028": 1.26,
-      "2029": 2.57,
-      "2030": 1.31,
-      "2031": 1.34
+      "2026": 0.77,
+      "2027": 0,
+      "2028": 84.92,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 9",
+    "bd_short": "I Openbare werken",
+    "bd_long": "Een veilige, duurzame en efficiënte openbare infrastructuur waarborgen. Het verlengen van de levensduur van wegen, rioleringssystemen en de groene domeinen door het implementeren van een proactief onderhoudsprogramma dat gericht is op het minimaliseren van storingen.",
+    "ap_code": "I4",
+    "ap_short": "Actieplan Openbare werken - investeringsprojecten",
+    "ap_long": "Uitvoeren van investeringsprojecten in het openbaar domein op vlak van infrastructuur.",
+    "ac_code": "I4_I45",
+    "ac_short": "Dorpskern Ooigem",
+    "ac_long": "Dorpskernvernieuwing Ooigem realiseren (incl. Hoppinpunt).",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 738725.62,
+    "amount_per_capita": 71.36,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 312120.0,
+      "2029": 318362.4,
+      "2030": 108243.22,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 30.15,
+      "2029": 30.75,
+      "2030": 10.46,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 2",
+    "bd_short": "B Sport",
+    "bd_long": "De inwoners zijn fysiek actief en gezond.",
+    "ap_code": "B1",
+    "ap_short": "Actieplan Sport - sportinfrastructuur",
+    "ap_long": "De gemeenschap heeft toegang tot kwaliteitsvolle sportinfrastructuur en -materialen.",
+    "ac_code": "B1_B13",
+    "ac_short": "Kunstgrasveld",
+    "ac_long": "Investeren in een kunstgrasveld.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 600000.0,
+    "amount_per_capita": 57.96,
+    "yearly_amounts": {
+      "2026": 600000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 57.96,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 5",
     "bd_short": "E Veiligheid",
     "bd_long": "Veiligheid garanderen via politie en brandweer.",
     "ap_code": "E1",
     "ap_short": "Actieplan Veiligheid - politie",
     "ap_long": "Veiligheid garanderen via de politie.",
-    "ac_code": "E1",
+    "ac_code": "E1_E11",
     "ac_short": "Politiezone",
     "ac_long": "Steun aan de politiezone voor dagelijkse werking en investeringen. Focus op wijkwerking en een goed lokaal veiligheidsplan.",
     "categories": [
       "04-veiligheidszorg"
     ],
     "total_amount": 511005.0,
-    "amount_per_capita": 49.54,
+    "amount_per_capita": 49.36,
     "yearly_amounts": {
       "2026": 77425.0,
       "2027": 92910.0,
@@ -297,99 +399,201 @@
       "2031": 108395.0
     },
     "yearly_per_capita": {
-      "2026": 7.51,
-      "2027": 9.01,
-      "2028": 7.51,
-      "2029": 7.51,
-      "2030": 7.51,
-      "2031": 10.51
+      "2026": 7.48,
+      "2027": 8.97,
+      "2028": 7.48,
+      "2029": 7.48,
+      "2030": 7.48,
+      "2031": 10.47
     }
   },
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 12",
     "bd_short": "L Ouderenhuisvesting",
     "bd_long": "Het woonzorgcentrum Ter Lembeek biedt een veilige woon- en leefomgeving voor senioren die niet meer zelfstandig thuis kunnen wonen. Het lokaal dienstencentrum Ter Lembeek werkt als laagdrempelige ontmoetingsplaats voor burgers. Daarnaast ondersteunen we zelfstandig wonen voor senioren.",
     "ap_code": "L2",
     "ap_short": "Actieplan Ouderenhuisvesting - lokaal dienstencentrum",
     "ap_long": "Het LDC Ter Lembeek is een ontmoetingsplaats waar elke burger op een laagdrempelige manier de nodige informatie en ondersteuning vindt die helpt om zo lang mogelijk zelfstandig thuis te wonen.",
-    "ac_code": "L2",
-    "ac_short": "LDC restaurant en cafetaria",
-    "ac_long": "Het LDC organiseert een dagelijks restaurant en cafetaria waar burgers (jong en oud) kunnen genieten van een smaakvolle en gezonde maaltijd of drankje, gecombineerd met een gezellige babbel.",
+    "ac_code": "L2_L24",
+    "ac_short": "LDC activiteiten",
+    "ac_long": "Het LDC organiseert educatieve, recreatieve en vormende activiteiten, waarbij het ontmoeten altijd centraal staat. Door middel van antennepunten of mobiele werking wil het LDC zichtbaar en actief zijn op verschillende locaties in de gemeente.",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 502407.0,
-    "amount_per_capita": 48.71,
+    "total_amount": 497326.5,
+    "amount_per_capita": 48.04,
     "yearly_amounts": {
-      "2026": 47212.0,
-      "2027": 92463.0,
-      "2028": 91463.0,
+      "2026": 45211.5,
+      "2027": 90423.0,
+      "2028": 90423.0,
       "2029": 90423.0,
       "2030": 90423.0,
       "2031": 90423.0
     },
     "yearly_per_capita": {
-      "2026": 4.58,
-      "2027": 8.96,
-      "2028": 8.87,
-      "2029": 8.77,
-      "2030": 8.77,
-      "2031": 8.77
+      "2026": 4.37,
+      "2027": 8.73,
+      "2028": 8.73,
+      "2029": 8.73,
+      "2030": 8.73,
+      "2031": 8.73
     }
   },
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 9",
+    "bd_short": "I Openbare werken",
+    "bd_long": "Een veilige, duurzame en efficiënte openbare infrastructuur waarborgen. Het verlengen van de levensduur van wegen, rioleringssystemen en de groene domeinen door het implementeren van een proactief onderhoudsprogramma dat gericht is op het minimaliseren van storingen.",
+    "ap_code": "I1",
+    "ap_short": "Actieplan Openbare werken - openbaar domein",
+    "ap_long": "In kaart brengen van de huidige situatie van het openbaar domein.",
+    "ac_code": "I1_I12",
+    "ac_short": "Inventarisatie eigen middelen technische dienst",
+    "ac_long": "Inventariseren en in kaart brengen van de eigen middelen waarover onze diensten beschikken en de mogelijkheden waartoe zij in staat zijn.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 458179.41,
+    "amount_per_capita": 44.26,
+    "yearly_amounts": {
+      "2026": 247500.0,
+      "2027": 157080.0,
+      "2028": 10404.0,
+      "2029": 15918.12,
+      "2030": 16236.48,
+      "2031": 11040.81
+    },
+    "yearly_per_capita": {
+      "2026": 23.91,
+      "2027": 15.17,
+      "2028": 1.01,
+      "2029": 1.54,
+      "2030": 1.57,
+      "2031": 1.07
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 7",
+    "bd_short": "G Klimaat",
+    "bd_long": "Het bevorderen van klimaatmitigatie en adaptatie, gericht op de vermindering van CO2-uitstoot en aanpassing aan de gevolgen van klimaatverandering zoals droogte en overstromingen.",
+    "ap_code": "G3",
+    "ap_short": "Actieplan Klimaat - vergroening",
+    "ap_long": "Vergroening van openbare ruimte.",
+    "ac_code": "G3_G31",
+    "ac_short": "Speelbos",
+    "ac_long": "Realisatie van een speelbos.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 440000.0,
+    "amount_per_capita": 42.5,
+    "yearly_amounts": {
+      "2026": 440000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 42.5,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 18",
+    "bd_short": "R Patrimonium",
+    "bd_long": "Patrimonium van het lokaal bestuur optimaal benutten en klaarmaken voor de toekomst via gerichte investeringen.",
+    "ap_code": "R2",
+    "ap_short": "Actieplan Patrimonium - toekomstgericht bestendigen",
+    "ap_long": "Gemeentelijk patrimonium maximaal benutten en bestendigen voor de toekomst.",
+    "ac_code": "R2_R23",
+    "ac_short": "Oude sporthal Hernieuwenburg",
+    "ac_long": "Oude sporthal Hernieuwenburg afbreken & herinrichting als recreatiezone.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 384948.0,
+    "amount_per_capita": 37.19,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 384948.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 37.19,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 17",
     "bd_short": "Q Burgerzaken",
     "bd_long": "De gemeente streeft naar een correcte, integrale, moderne en laagdrempelige dienstverlening die aansluit bij de behoeften van al haar inwoners. Dit wordt bereikt door het implementeren van innovatieve technologieën, het verbeteren van interne processen, en het bevorderen van een cultuur van klantgerichtheid en inclusiviteit. De gemeente zet zich in om alle inwoners, ongeacht hun achtergrond of digitale vaardigheden, gemakkelijk toegang te bieden tot gemeentelijke diensten en informatie.\nHet creëren van serene en respectvolle begraafplaatsen die dienen als plaatsen van bezinning en troost voor alle bezoekers, met oog voor graven van lokaal historisch belang of culturele waarde.",
     "ap_code": "Q2",
     "ap_short": "Actieplan Burgerzaken - begraafplaatsen",
     "ap_long": "Het verbeteren van de infrastructuur en de voorzieningen op de begraafplaatsen.",
-    "ac_code": "Q2",
+    "ac_code": "Q2_Q21",
     "ac_short": "Begraafplaatsen",
     "ac_long": "Toekomstvisie op de indeling van begraafplaatsen uitwerken en uitvoeren. O.m. ontknekelen, comfortabele banken, bomen/groen, troostrijke plekken en informatieborden. Historische graven bewaren.",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 357243.0,
-    "amount_per_capita": 34.63,
+    "total_amount": 357243.62,
+    "amount_per_capita": 34.51,
     "yearly_amounts": {
       "2026": 45000.0,
       "2027": 183600.0,
       "2028": 31212.0,
-      "2029": 31836.0,
-      "2030": 32473.0,
-      "2031": 33122.0
+      "2029": 31836.24,
+      "2030": 32472.96,
+      "2031": 33122.42
     },
     "yearly_per_capita": {
-      "2026": 4.36,
-      "2027": 17.8,
-      "2028": 3.03,
-      "2029": 3.09,
-      "2030": 3.15,
-      "2031": 3.21
+      "2026": 4.35,
+      "2027": 17.74,
+      "2028": 3.02,
+      "2029": 3.08,
+      "2030": 3.14,
+      "2031": 3.2
     }
   },
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 8",
     "bd_short": "H Afval",
     "bd_long": "De gemeente streeft ernaar om de afvalproductie te verminderen, de recyclage te verhogen en burgers te sensibiliseren over duurzaam afvalbeheer. Dit draagt bij aan een schonere leefomgeving en een lagere ecologische voetafdruk.",
     "ap_code": "H2",
     "ap_short": "Actieplan Afval - recyclagepark",
     "ap_long": "Uitbreiding van recyclage en gescheiden inzameling.",
-    "ac_code": "H2",
+    "ac_code": "H2_H21",
     "ac_short": "Recyclagepark",
     "ac_long": "Optimalisatie naar het meest efficiënte en effectieve gebruik van het recyclagepark.",
     "categories": [
       "03-natuur-milieu"
     ],
     "total_amount": 331500.0,
-    "amount_per_capita": 32.14,
+    "amount_per_capita": 32.02,
     "yearly_amounts": {
       "2026": 0,
       "2027": 331500.0,
@@ -400,7 +604,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 32.14,
+      "2027": 32.02,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -410,92 +614,92 @@
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 19",
     "bd_short": "S ICT",
     "bd_long": "Via informatie- en communicatietechnologie de veiligheid en continuïteit van de werking garanderen. Streven naar een zo efficiënt mogelijke werking. \nBeheerbaarheid van de eigen ICT-werking garanderen.",
     "ap_code": "S1",
     "ap_short": "Actieplan ICT - ICT-veiligheid",
     "ap_long": "Veiligheid en continuïteit van de werking garanderen.",
-    "ac_code": "S1",
+    "ac_code": "S1_S11",
     "ac_short": "Informatieveiligheid",
     "ac_long": "Informatieveiligheid inbedden in de organisatie om verlies van data te voorkomen & de continuïteit van de werking te garanderen.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 248221.0,
-    "amount_per_capita": 24.06,
+    "total_amount": 248220.65,
+    "amount_per_capita": 23.98,
     "yearly_amounts": {
       "2026": 86500.0,
       "2027": 40800.0,
-      "2028": 32473.0,
-      "2029": 33785.0,
-      "2030": 27061.0,
-      "2031": 27602.0
+      "2028": 32472.96,
+      "2029": 33784.87,
+      "2030": 27060.8,
+      "2031": 27602.02
     },
     "yearly_per_capita": {
-      "2026": 8.39,
-      "2027": 3.96,
-      "2028": 3.15,
-      "2029": 3.28,
-      "2030": 2.62,
-      "2031": 2.68
+      "2026": 8.36,
+      "2027": 3.94,
+      "2028": 3.14,
+      "2029": 3.26,
+      "2030": 2.61,
+      "2031": 2.67
     }
   },
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
-    "bd_short": "A Jeugd",
-    "bd_long": "Kinderen en jongeren kunnen een volwaardige rol opnemen in de gemeenschap waarin ze zich ten volle kunnen ontwikkelen.",
-    "ap_code": "A3",
-    "ap_short": "Actieplan Jeugd - plaats in publieke ruimte",
-    "ap_long": "Kinderen en jongeren hebben een plaats in de publieke ruimte.",
-    "ac_code": "A3",
-    "ac_short": "Jeugd in publieke ruimte",
-    "ac_long": "Kinderen en jongeren hebben een plaats in de publieke ruimte, o.m. via veilige mobiliteit, voldoende ontmoetingsplaatsen en degelijke jeugdinfrastructuur.",
-    "categories": [
-      "07-cultuur-vrije-tijd"
-    ],
-    "total_amount": 215150.0,
-    "amount_per_capita": 20.86,
-    "yearly_amounts": {
-      "2026": 15000.0,
-      "2027": 178500.0,
-      "2028": 5412.0,
-      "2029": 5306.0,
-      "2030": 5412.0,
-      "2031": 5520.0
-    },
-    "yearly_per_capita": {
-      "2026": 1.45,
-      "2027": 17.31,
-      "2028": 0.52,
-      "2029": 0.51,
-      "2030": 0.52,
-      "2031": 0.54
-    }
-  },
-  {
-    "municipality": "Wielsbeke",
-    "nis_code": "37017",
-    "bd_code": "BDS",
-    "bd_short": "G Klimaat",
-    "bd_long": "Het bevorderen van klimaatmitigatie en adaptatie, gericht op de vermindering van CO2-uitstoot en aanpassing aan de gevolgen van klimaatverandering zoals droogte en overstromingen.",
-    "ap_code": "G4",
-    "ap_short": "Actieplan Klimaat - trage wegen",
-    "ap_long": "Trage wegen.",
-    "ac_code": "G4",
-    "ac_short": "Trage wegen",
-    "ac_long": "Het netwerk van trage wegen verder uitbouwen en de toegankelijkheid ervan waarborgen.",
+    "bd_code": "BDS 9",
+    "bd_short": "I Openbare werken",
+    "bd_long": "Een veilige, duurzame en efficiënte openbare infrastructuur waarborgen. Het verlengen van de levensduur van wegen, rioleringssystemen en de groene domeinen door het implementeren van een proactief onderhoudsprogramma dat gericht is op het minimaliseren van storingen.",
+    "ap_code": "I4",
+    "ap_short": "Actieplan Openbare werken - investeringsprojecten",
+    "ap_long": "Uitvoeren van investeringsprojecten in het openbaar domein op vlak van infrastructuur.",
+    "ac_code": "I4_I47",
+    "ac_short": "Reynaertstraat",
+    "ac_long": "Reynaertstraat: aanleg nieuwe riolering en weginfrastructuur.",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 83232.0,
-    "amount_per_capita": 8.07,
+    "total_amount": 179683.74,
+    "amount_per_capita": 17.36,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
-      "2028": 83232.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 179683.74,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 17.36,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 9",
+    "bd_short": "I Openbare werken",
+    "bd_long": "Een veilige, duurzame en efficiënte openbare infrastructuur waarborgen. Het verlengen van de levensduur van wegen, rioleringssystemen en de groene domeinen door het implementeren van een proactief onderhoudsprogramma dat gericht is op het minimaliseren van storingen.",
+    "ap_code": "I4",
+    "ap_short": "Actieplan Openbare werken - investeringsprojecten",
+    "ap_long": "Uitvoeren van investeringsprojecten in het openbaar domein op vlak van infrastructuur.",
+    "ac_code": "I4_I46",
+    "ac_short": "Kruishoek",
+    "ac_long": "Kruishoek: aanleg nieuwe riolering en weginfrastructuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 174787.2,
+    "amount_per_capita": 16.88,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 174787.2,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -503,7 +707,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 8.07,
+      "2028": 16.88,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -512,20 +716,88 @@
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 9",
+    "bd_short": "I Openbare werken",
+    "bd_long": "Een veilige, duurzame en efficiënte openbare infrastructuur waarborgen. Het verlengen van de levensduur van wegen, rioleringssystemen en de groene domeinen door het implementeren van een proactief onderhoudsprogramma dat gericht is op het minimaliseren van storingen.",
+    "ap_code": "I4",
+    "ap_short": "Actieplan Openbare werken - investeringsprojecten",
+    "ap_long": "Uitvoeren van investeringsprojecten in het openbaar domein op vlak van infrastructuur.",
+    "ac_code": "I4_I42",
+    "ac_short": "Grote Molstenstraat",
+    "ac_long": "Grote Molstenstraat: aanleg nieuwe riolering en weginfrastructuur.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 168000.0,
+    "amount_per_capita": 16.23,
+    "yearly_amounts": {
+      "2026": 168000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.23,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 7",
+    "bd_short": "G Klimaat",
+    "bd_long": "Het bevorderen van klimaatmitigatie en adaptatie, gericht op de vermindering van CO2-uitstoot en aanpassing aan de gevolgen van klimaatverandering zoals droogte en overstromingen.",
+    "ap_code": "G3",
+    "ap_short": "Actieplan Klimaat - vergroening",
+    "ap_long": "Vergroening van openbare ruimte.",
+    "ac_code": "G3_G32",
+    "ac_short": "Bomenbeheerplan",
+    "ac_long": "Implementatie van het boombeheerplan en aanplanting van nieuwe bomen. Meer samenwerking met externe partners voor onderhoud en uitbreiding van groenvoorzieningen.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 104616.61,
+    "amount_per_capita": 10.11,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 12750.0,
+      "2028": 13005.0,
+      "2029": 26530.2,
+      "2030": 13530.4,
+      "2031": 13801.01
+    },
+    "yearly_per_capita": {
+      "2026": 2.41,
+      "2027": 1.23,
+      "2028": 1.26,
+      "2029": 2.56,
+      "2030": 1.31,
+      "2031": 1.33
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 13",
     "bd_short": "M Sociale dienst",
     "bd_long": "Het lokaal bestuur wenst een warme en zorgzame gemeente te zijn die inzet op een open sociaal huis voor elke burger. We zetten in op een integrale en multidisciplinaire aanpak om dienstverlening te verbeteren. We ontwikkelen en implementeren een geïntegreerd woonbeleid dat inspeelt op de diverse woonbehoeften van de inwoners, met speciale aandacht voor energie-efficiëntie, sociale inclusie en crisisopvang.",
     "ap_code": "M3",
     "ap_short": "Actieplan Sociale dienst - cliënt dossiers",
     "ap_long": "Bevorderen van een multidisciplinaire en integrale aanpak van cliënt dossiers om zelfredzaamheid op alle levensdomeinen te bevorderen.",
-    "ac_code": "M3",
+    "ac_code": "M3_M31",
     "ac_short": "Client dossiers",
     "ac_long": "De kwetsbare burger op een allesomvattende manier benaderen door in te zetten op kwalitatief sociaal onderzoek, rechtenverkenning, sociale activering, samenwerking met interne en externe partners en dit ter bevordering van de zelfredzaamheid op alle levensdomeinen.",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 83232.0,
-    "amount_per_capita": 8.07,
+    "amount_per_capita": 8.04,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -537,7 +809,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 8.07,
+      "2028": 8.04,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -546,54 +818,54 @@
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
-    "bd_short": "C Cultuur",
-    "bd_long": "Het bevorderen van de cultuurparticipatie en het versterken van de culturele identiteit van alle inwoners.",
-    "ap_code": "C1",
-    "ap_short": "Actieplan Cultuur - cultuuraanbod",
-    "ap_long": "De gemeenschap kan deelnemen aan een gevarieerd cultuuraanbod.",
-    "ac_code": "C1",
-    "ac_short": "Cultuurprogramma",
-    "ac_long": "Organiseren  en regisseren van voorstellingen, workshops, evenementen en projecten en ontwikkelen van educatieve pakketten die aansluiten bij deze culturele evenementen (in degelijke infrastructuur).",
+    "bd_code": "BDS 7",
+    "bd_short": "G Klimaat",
+    "bd_long": "Het bevorderen van klimaatmitigatie en adaptatie, gericht op de vermindering van CO2-uitstoot en aanpassing aan de gevolgen van klimaatverandering zoals droogte en overstromingen.",
+    "ap_code": "G4",
+    "ap_short": "Actieplan Klimaat - trage wegen",
+    "ap_long": "Trage wegen.",
+    "ac_code": "G4_G41",
+    "ac_short": "Trage wegen",
+    "ac_long": "Het netwerk van trage wegen verder uitbouwen en de toegankelijkheid ervan waarborgen.",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 80783.0,
-    "amount_per_capita": 7.83,
+    "total_amount": 83232.0,
+    "amount_per_capita": 8.04,
     "yearly_amounts": {
-      "2026": 53500.0,
-      "2027": 1020.0,
-      "2028": 19768.0,
-      "2029": 1061.0,
-      "2030": 4330.0,
-      "2031": 1104.0
+      "2026": 0,
+      "2027": 0,
+      "2028": 83232.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 5.19,
-      "2027": 0.1,
-      "2028": 1.92,
-      "2029": 0.1,
-      "2030": 0.42,
-      "2031": 0.11
+      "2026": 0,
+      "2027": 0,
+      "2028": 8.04,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 16",
     "bd_short": "P Communicatie",
     "bd_long": "Communicatie intern in de organisatie en extern naar burgers bevorderen. Inspraak en participatie als uitgangspunt bij de beslissingsprocessen.",
     "ap_code": "P3",
     "ap_short": "Actieplan Communicatie - externe communicatie",
     "ap_long": "Externe communicatie bevorderen.",
-    "ac_code": "P3",
+    "ac_code": "P3_P31",
     "ac_short": "Externe communicatie",
     "ac_long": "Mix van verschillende communicatiekanalen regelmatig evalueren en optimaliseren om een zo breed mogelijk publiek te bereiken.",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 78030.0,
-    "amount_per_capita": 7.56,
+    "amount_per_capita": 7.54,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -605,7 +877,7 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 7.56,
+      "2028": 7.54,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -614,61 +886,27 @@
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
-    "bd_short": "Q Burgerzaken",
-    "bd_long": "De gemeente streeft naar een correcte, integrale, moderne en laagdrempelige dienstverlening die aansluit bij de behoeften van al haar inwoners. Dit wordt bereikt door het implementeren van innovatieve technologieën, het verbeteren van interne processen, en het bevorderen van een cultuur van klantgerichtheid en inclusiviteit. De gemeente zet zich in om alle inwoners, ongeacht hun achtergrond of digitale vaardigheden, gemakkelijk toegang te bieden tot gemeentelijke diensten en informatie.\nHet creëren van serene en respectvolle begraafplaatsen die dienen als plaatsen van bezinning en troost voor alle bezoekers, met oog voor graven van lokaal historisch belang of culturele waarde.",
-    "ap_code": "Q1",
-    "ap_short": "Actieplan Burgerzaken - dienstverlening",
-    "ap_long": "Het bevorderen van een klantgerichte en inclusieve dienstverlening door het optimaliseren van digitale en fysieke toegang tot gemeentelijke diensten voor alle inwoners.",
-    "ac_code": "Q1",
-    "ac_short": "E-loket burgerzaken",
-    "ac_long": "Verder inzetten op digitaliseren door aanvraagprocessen producten/diensten burgerzaken op het e-loket uit te breiden en een koppeling te voorzien met mijn burgerprofiel en de e-box.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 71100.0,
-    "amount_per_capita": 6.89,
-    "yearly_amounts": {
-      "2026": 40500.0,
-      "2027": 30600.0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 3.93,
-      "2027": 2.97,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Wielsbeke",
-    "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 7",
     "bd_short": "G Klimaat",
     "bd_long": "Het bevorderen van klimaatmitigatie en adaptatie, gericht op de vermindering van CO2-uitstoot en aanpassing aan de gevolgen van klimaatverandering zoals droogte en overstromingen.",
     "ap_code": "G2",
     "ap_short": "Actieplan Klimaat - ontharding",
     "ap_long": "Waterbeheer en ontharding.",
-    "ac_code": "G2",
+    "ac_code": "G2_G21",
     "ac_short": "Ontharding",
     "ac_long": "Opvolgen van een hemelwater- en droogteplan om beter voorbereid te zijn op de gevolgen van klimaatverandering. Stimuleren van onthardingsprojecten en vergroening van de openbare ruimte. Uitvoeren van inrichtingswerken aan bestaande groene zones.",
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 63081.0,
-    "amount_per_capita": 6.12,
+    "total_amount": 63081.21,
+    "amount_per_capita": 6.09,
     "yearly_amounts": {
       "2026": 10000.0,
       "2027": 10200.0,
       "2028": 10404.0,
-      "2029": 10612.0,
-      "2030": 10824.0,
-      "2031": 11041.0
+      "2029": 10612.08,
+      "2030": 10824.32,
+      "2031": 11040.81
     },
     "yearly_per_capita": {
       "2026": 0.97,
@@ -682,20 +920,54 @@
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
+    "bd_short": "A Jeugd",
+    "bd_long": "Kinderen en jongeren kunnen een volwaardige rol opnemen in de gemeenschap waarin ze zich ten volle kunnen ontwikkelen.",
+    "ap_code": "A3",
+    "ap_short": "Actieplan Jeugd - plaats in publieke ruimte",
+    "ap_long": "Kinderen en jongeren hebben een plaats in de publieke ruimte.",
+    "ac_code": "A3_A31",
+    "ac_short": "Jeugd in publieke ruimte",
+    "ac_long": "Kinderen en jongeren hebben een plaats in de publieke ruimte, o.m. via veilige mobiliteit, voldoende ontmoetingsplaatsen en degelijke jeugdinfrastructuur.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 62150.76,
+    "amount_per_capita": 6.0,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 25500.0,
+      "2028": 5412.16,
+      "2029": 5306.04,
+      "2030": 5412.16,
+      "2031": 5520.4
+    },
+    "yearly_per_capita": {
+      "2026": 1.45,
+      "2027": 2.46,
+      "2028": 0.52,
+      "2029": 0.51,
+      "2030": 0.52,
+      "2031": 0.53
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 2",
     "bd_short": "B Sport",
     "bd_long": "De inwoners zijn fysiek actief en gezond.",
     "ap_code": "B2",
     "ap_short": "Actieplan Sport - sportaanbod",
     "ap_long": "De gemeenschap kan deelnemen aan een gevarieerd sportaanbod.",
-    "ac_code": "B2",
+    "ac_code": "B2_B23",
     "ac_short": "Individueel sporten",
     "ac_long": "Actief stimuleren en activeren van de individuele sporter.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 45000.0,
-    "amount_per_capita": 4.36,
+    "amount_per_capita": 4.35,
     "yearly_amounts": {
       "2026": 45000.0,
       "2027": 0,
@@ -705,7 +977,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.36,
+      "2026": 4.35,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -716,66 +988,100 @@
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 17",
+    "bd_short": "Q Burgerzaken",
+    "bd_long": "De gemeente streeft naar een correcte, integrale, moderne en laagdrempelige dienstverlening die aansluit bij de behoeften van al haar inwoners. Dit wordt bereikt door het implementeren van innovatieve technologieën, het verbeteren van interne processen, en het bevorderen van een cultuur van klantgerichtheid en inclusiviteit. De gemeente zet zich in om alle inwoners, ongeacht hun achtergrond of digitale vaardigheden, gemakkelijk toegang te bieden tot gemeentelijke diensten en informatie.\nHet creëren van serene en respectvolle begraafplaatsen die dienen als plaatsen van bezinning en troost voor alle bezoekers, met oog voor graven van lokaal historisch belang of culturele waarde.",
+    "ap_code": "Q1",
+    "ap_short": "Actieplan Burgerzaken - dienstverlening",
+    "ap_long": "Het bevorderen van een klantgerichte en inclusieve dienstverlening door het optimaliseren van digitale en fysieke toegang tot gemeentelijke diensten voor alle inwoners.",
+    "ac_code": "Q1_Q11",
+    "ac_short": "E-loket burgerzaken",
+    "ac_long": "Verder inzetten op digitaliseren door aanvraagprocessen producten/diensten burgerzaken op het e-loket uit te breiden en een koppeling te voorzien met mijn burgerprofiel en de e-box.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 41100.0,
+    "amount_per_capita": 3.97,
+    "yearly_amounts": {
+      "2026": 10500.0,
+      "2027": 30600.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.01,
+      "2027": 2.96,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 13",
     "bd_short": "M Sociale dienst",
     "bd_long": "Het lokaal bestuur wenst een warme en zorgzame gemeente te zijn die inzet op een open sociaal huis voor elke burger. We zetten in op een integrale en multidisciplinaire aanpak om dienstverlening te verbeteren. We ontwikkelen en implementeren een geïntegreerd woonbeleid dat inspeelt op de diverse woonbehoeften van de inwoners, met speciale aandacht voor energie-efficiëntie, sociale inclusie en crisisopvang.",
     "ap_code": "M5",
     "ap_short": "Actieplan Sociale dienst - sociale huisvesting",
     "ap_long": "Inzetten op sociale huisvesting en crisishuisvesting.",
-    "ac_code": "M5",
+    "ac_code": "M5_M51",
     "ac_short": "Sociale huisvesting",
     "ac_long": "In samenwerking met Vivus en de woonwinkel zorgen voor voldoende geschikte en betaalbare huisvesting. Tijdelijke huisvesting voorzien waar nodig.",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 39424.0,
-    "amount_per_capita": 3.82,
+    "total_amount": 39425.75,
+    "amount_per_capita": 3.81,
     "yearly_amounts": {
       "2026": 6250.0,
       "2027": 6375.0,
-      "2028": 6502.0,
-      "2029": 6632.0,
-      "2030": 6765.0,
-      "2031": 6900.0
+      "2028": 6502.5,
+      "2029": 6632.56,
+      "2030": 6765.19,
+      "2031": 6900.5
     },
     "yearly_per_capita": {
-      "2026": 0.61,
+      "2026": 0.6,
       "2027": 0.62,
       "2028": 0.63,
       "2029": 0.64,
-      "2030": 0.66,
+      "2030": 0.65,
       "2031": 0.67
     }
   },
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 12",
     "bd_short": "L Ouderenhuisvesting",
     "bd_long": "Het woonzorgcentrum Ter Lembeek biedt een veilige woon- en leefomgeving voor senioren die niet meer zelfstandig thuis kunnen wonen. Het lokaal dienstencentrum Ter Lembeek werkt als laagdrempelige ontmoetingsplaats voor burgers. Daarnaast ondersteunen we zelfstandig wonen voor senioren.",
     "ap_code": "L3",
     "ap_short": "Actieplan Ouderenhuisvesting - zelfstandig wonen",
     "ap_long": "We bieden ondersteuning op vlak van zelfstandig wonen voor senioren door het aanbieden van een gepaste woonvorm.",
-    "ac_code": "L3",
+    "ac_code": "L3_L31",
     "ac_short": "Assistentiewoningen",
     "ac_long": "De groep van assistentiewoningen Den Dries blijft de goeie wisselwerking met het WZC behouden na de start van de nieuwe welzijnsvereniging",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 37848.0,
-    "amount_per_capita": 3.67,
+    "total_amount": 37848.72,
+    "amount_per_capita": 3.66,
     "yearly_amounts": {
       "2026": 6000.0,
       "2027": 6120.0,
-      "2028": 6242.0,
-      "2029": 6367.0,
-      "2030": 6495.0,
-      "2031": 6624.0
+      "2028": 6242.4,
+      "2029": 6367.25,
+      "2030": 6494.59,
+      "2031": 6624.48
     },
     "yearly_per_capita": {
       "2026": 0.58,
       "2027": 0.59,
-      "2028": 0.61,
+      "2028": 0.6,
       "2029": 0.62,
       "2030": 0.63,
       "2031": 0.64
@@ -784,27 +1090,27 @@
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 20",
     "bd_short": "T Personeel",
     "bd_long": "Een aantrekkelijke werkgever zijn en blijven voor huidige en toekomstige medewerkers. \nInterne samenwerking en communicatie bevorderen.",
     "ap_code": "T1",
     "ap_short": "Actieplan Personeel - aantrekkelijke werkgever",
     "ap_long": "We zorgen dat we een aantrekkelijke werkgever zijn en profileren ons ook zo.",
-    "ac_code": "T1",
+    "ac_code": "T1_T11",
     "ac_short": "Strategisch HR-beleid",
     "ac_long": "Strategisch HR-beleid uitwerken en doorvoeren met onder meer ruimte voor flexibele arbeidsvoorwaarden en verloningsmogelijkheden.",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 33370.0,
-    "amount_per_capita": 3.24,
+    "total_amount": 33370.3,
+    "amount_per_capita": 3.22,
     "yearly_amounts": {
       "2026": 15000.0,
       "2027": 7650.0,
       "2028": 2601.0,
-      "2029": 2653.0,
-      "2030": 2706.0,
-      "2031": 2760.0
+      "2029": 2653.02,
+      "2030": 2706.08,
+      "2031": 2760.2
     },
     "yearly_per_capita": {
       "2026": 1.45,
@@ -818,20 +1124,54 @@
   {
     "municipality": "Wielsbeke",
     "nis_code": "37017",
-    "bd_code": "BDS",
+    "bd_code": "BDS 17",
+    "bd_short": "Q Burgerzaken",
+    "bd_long": "De gemeente streeft naar een correcte, integrale, moderne en laagdrempelige dienstverlening die aansluit bij de behoeften van al haar inwoners. Dit wordt bereikt door het implementeren van innovatieve technologieën, het verbeteren van interne processen, en het bevorderen van een cultuur van klantgerichtheid en inclusiviteit. De gemeente zet zich in om alle inwoners, ongeacht hun achtergrond of digitale vaardigheden, gemakkelijk toegang te bieden tot gemeentelijke diensten en informatie.\nHet creëren van serene en respectvolle begraafplaatsen die dienen als plaatsen van bezinning en troost voor alle bezoekers, met oog voor graven van lokaal historisch belang of culturele waarde.",
+    "ap_code": "Q1",
+    "ap_short": "Actieplan Burgerzaken - dienstverlening",
+    "ap_long": "Het bevorderen van een klantgerichte en inclusieve dienstverlening door het optimaliseren van digitale en fysieke toegang tot gemeentelijke diensten voor alle inwoners.",
+    "ac_code": "Q1_Q12",
+    "ac_short": "Fysiek loket gemeentehuis",
+    "ac_long": "Het creëren van een inclusieve en comfortabele werkomgeving door het gemeentehuis bouwfysisch aan te passen om de fysieke toegankelijkheid en de akoestiek te verbeteren en het creëren van privéruimtes om vertrouwelijk gesprekken te kunnen voeren.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 2.9,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.9,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 3",
     "bd_short": "C Cultuur",
     "bd_long": "Het bevorderen van de cultuurparticipatie en het versterken van de culturele identiteit van alle inwoners.",
     "ap_code": "C4",
     "ap_short": "Actieplan Cultuur - toerisme",
     "ap_long": "Toeristische beleving creëren op tactische locaties in elke deelgemeente.",
-    "ac_code": "C4",
+    "ac_code": "C4_C41",
     "ac_short": "Toerisme infrastructuur",
     "ac_long": "Opwaardering van de omgeving d.m.v. toeristische infrastructuur en de organisatie van evenementen.",
     "categories": [
       "05-ondernemen-werken"
     ],
     "total_amount": 25960.0,
-    "amount_per_capita": 2.52,
+    "amount_per_capita": 2.51,
     "yearly_amounts": {
       "2026": 2500.0,
       "2027": 23460.0,
@@ -844,6 +1184,40 @@
       "2026": 0.24,
       "2027": 2.27,
       "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wielsbeke",
+    "nis_code": "37017",
+    "bd_code": "BDS 12",
+    "bd_short": "L Ouderenhuisvesting",
+    "bd_long": "Het woonzorgcentrum Ter Lembeek biedt een veilige woon- en leefomgeving voor senioren die niet meer zelfstandig thuis kunnen wonen. Het lokaal dienstencentrum Ter Lembeek werkt als laagdrempelige ontmoetingsplaats voor burgers. Daarnaast ondersteunen we zelfstandig wonen voor senioren.",
+    "ap_code": "L2",
+    "ap_short": "Actieplan Ouderenhuisvesting - lokaal dienstencentrum",
+    "ap_long": "Het LDC Ter Lembeek is een ontmoetingsplaats waar elke burger op een laagdrempelige manier de nodige informatie en ondersteuning vindt die helpt om zo lang mogelijk zelfstandig thuis te wonen.",
+    "ac_code": "L2_L21",
+    "ac_short": "LDC restaurant en cafetaria",
+    "ac_long": "Het LDC organiseert een dagelijks restaurant en cafetaria waar burgers (jong en oud) kunnen genieten van een smaakvolle en gezonde maaltijd of drankje, gecombineerd met een gezellige babbel.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 5080.4,
+    "amount_per_capita": 0.49,
+    "yearly_amounts": {
+      "2026": 2000.0,
+      "2027": 2040.0,
+      "2028": 1040.4,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.19,
+      "2027": 0.2,
+      "2028": 0.1,
       "2029": 0,
       "2030": 0,
       "2031": 0

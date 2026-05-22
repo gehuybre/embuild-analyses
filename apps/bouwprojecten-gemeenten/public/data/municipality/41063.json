@@ -2,135 +2,169 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "BD14: Integraal waterbeleid",
     "bd_long": "Integraal waterbeleid",
     "ap_code": "AP143",
     "ap_short": "Riolering en zuivering",
     "ap_long": "Rioleringsgraad en  zuiveringsgraad verhogen ism FARYS (Aquario)",
-    "ac_code": "AP143",
+    "ac_code": "AP143_A143-1",
     "ac_short": "Investeringstoelage Aquario",
     "ac_long": "Voorzien van investeringstoelage in het kader van rioleringsprojecten aan Aquario m.b.t. de acties A143-2 tot A143-8",
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 8021551.0,
-    "amount_per_capita": 723.81,
+    "total_amount": 7111551.0,
+    "amount_per_capita": 640.58,
     "yearly_amounts": {
-      "2026": 200000.0,
-      "2027": 899923.0,
-      "2028": 4228455.0,
+      "2026": 0,
+      "2027": 564923.0,
+      "2028": 3853455.0,
       "2029": 1252242.0,
       "2030": 1440931.0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 18.05,
-      "2027": 81.2,
-      "2028": 381.55,
-      "2029": 112.99,
-      "2030": 130.02,
+      "2026": 0,
+      "2027": 50.89,
+      "2028": 347.11,
+      "2029": 112.8,
+      "2030": 129.79,
       "2031": 0
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "BD12: Houtem voert een duurzaam mobiliteitsbeleid",
     "bd_long": "Houtem voert een duurzaam mobiliteitsbeleid",
     "ap_code": "AP122",
     "ap_short": "Veilige fietsinfrastructuur aanleggen",
     "ap_long": "Aanleggen van veilige fietsinfrastructuur",
-    "ac_code": "AP122",
-    "ac_short": "Fietspaden i.h.k.v. rioleringsdossiers",
-    "ac_long": "Aanleggen van fietspaden in het kader van uitvoering van rioleringsdossiers (Bruisbeke, Ijshoute, Keiberg, Nederweg, Mgr. Meulemanstraat en Wettersesteenweg,...)",
+    "ac_code": "AP122_A122-3",
+    "ac_short": "Aanleggen afzonderlijke fietspaden na rioolonderzoek",
+    "ac_long": "Aanleggen afzonderlijke fietspaden na rioolonderzoek Klein Zottegem en Vlierstraat",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 4118520.0,
-    "amount_per_capita": 371.63,
+    "total_amount": 2436200.0,
+    "amount_per_capita": 219.44,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 1000000.0,
-      "2028": 1308520.0,
+      "2026": 626200.0,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
       "2030": 810000.0,
       "2031": 1000000.0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 90.23,
-      "2028": 118.07,
+      "2026": 56.41,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
-      "2030": 73.09,
-      "2031": 90.23
+      "2030": 72.96,
+      "2031": 90.08
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "BD12: Houtem voert een duurzaam mobiliteitsbeleid",
+    "bd_long": "Houtem voert een duurzaam mobiliteitsbeleid",
+    "ap_code": "AP122",
+    "ap_short": "Veilige fietsinfrastructuur aanleggen",
+    "ap_long": "Aanleggen van veilige fietsinfrastructuur",
+    "ac_code": "AP122_A122-1",
+    "ac_short": "Fietspaden i.h.k.v. rioleringsdossiers",
+    "ac_long": "Aanleggen van fietspaden in het kader van uitvoering van rioleringsdossiers (Bruisbeke, Ijshoute, Keiberg, Nederweg, Mgr. Meulemanstraat en Wettersesteenweg,...)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 2308520.0,
+    "amount_per_capita": 207.94,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 1000000.0,
+      "2028": 1308520.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 90.08,
+      "2028": 117.87,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 14",
     "bd_short": "BD42: Onderhoud wegen en openbaar domein",
     "bd_long": "De gemeente verzekert het onderhoud, de bereikbaarheid en de toegankelijkheid van wegen, voetpaden en het openbaar domein",
     "ap_code": "AP421",
     "ap_short": "Onderhoud van de wegen",
     "ap_long": "Wegen worden onderhouden op basis van inventaris met ouderdom, staat  als criterium.",
-    "ac_code": "AP421",
-    "ac_short": "Aankopen en onderhouden van materialen TD",
-    "ac_long": "Aankopen en onderhouden van materialen voor de technische dienst in het kader van onderhoud van het openbaar domein",
+    "ac_code": "AP421_A421-11",
+    "ac_short": "Centrale locatie technische buitendiensten",
+    "ac_long": "Onderzoeken van de mogelijkheid tot het voorzien van een centrale locatie voor de technische buitendiensten, confrom het vastgoedplan",
     "categories": [
-      "02-mobiliteit"
+      "01-algemeen-bestuur"
     ],
-    "total_amount": 2560000.0,
-    "amount_per_capita": 231.0,
+    "total_amount": 1632330.0,
+    "amount_per_capita": 147.03,
     "yearly_amounts": {
-      "2026": 1750000.0,
-      "2027": 210000.0,
-      "2028": 150000.0,
-      "2029": 150000.0,
-      "2030": 150000.0,
-      "2031": 150000.0
+      "2026": 1632330.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 157.91,
-      "2027": 18.95,
-      "2028": 13.54,
-      "2029": 13.54,
-      "2030": 13.54,
-      "2031": 13.54
+      "2026": 147.03,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 18",
     "bd_short": "BD51: Beheer Erfgoed",
     "bd_long": "Beheer Erfgoed",
     "ap_code": "AP513",
     "ap_short": "Ondersteuning kerkfabrieken",
     "ap_long": "De gemeente ondersteunt de kerkfabrieken in de restauratiewerken van de kerken",
-    "ac_code": "AP513",
+    "ac_code": "AP513_A513-2",
     "ac_short": "Toekennen investeringstoelagen kerken",
     "ac_long": "Toekennen investeringstoelagen kerken",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 1517724.0,
-    "amount_per_capita": 136.95,
+    "total_amount": 1523048.41,
+    "amount_per_capita": 137.19,
     "yearly_amounts": {
-      "2026": 1468678.0,
+      "2026": 1474002.91,
       "2027": 0,
       "2028": 0,
-      "2029": 49046.0,
+      "2029": 49045.5,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 132.52,
+      "2026": 132.77,
       "2027": 0,
       "2028": 0,
-      "2029": 4.43,
+      "2029": 4.42,
       "2030": 0,
       "2031": 0
     }
@@ -138,56 +172,22 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
-    "bd_short": "BD53: Veiligheid van grondgebied en inwoners",
-    "bd_long": "Veiligheid van grondgebied en inwoners",
-    "ap_code": "AP531",
-    "ap_short": "Veiligheid van de burgers",
-    "ap_long": "Inzetten op de veiligheid van de burgers, eventueel in samenwerking met partnerbesturen",
-    "ac_code": "AP531",
-    "ac_short": "Toelagen politiezone Zottegem-Herzele-Sint-Lievens-Houtem",
-    "ac_long": "Toelagen aan politiezone Zottegem-Herzele-Sint-Lievens-Houtem",
-    "categories": [
-      "04-veiligheidszorg"
-    ],
-    "total_amount": 1432698.0,
-    "amount_per_capita": 129.28,
-    "yearly_amounts": {
-      "2026": 337542.0,
-      "2027": 225538.0,
-      "2028": 276993.0,
-      "2029": 221225.0,
-      "2030": 190892.0,
-      "2031": 180508.0
-    },
-    "yearly_per_capita": {
-      "2026": 30.46,
-      "2027": 20.35,
-      "2028": 24.99,
-      "2029": 19.96,
-      "2030": 17.22,
-      "2031": 16.29
-    }
-  },
-  {
-    "municipality": "Sint-Lievens-Houtem",
-    "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 18",
     "bd_short": "BD51: Beheer Erfgoed",
     "bd_long": "Beheer Erfgoed",
     "ap_code": "AP512",
     "ap_short": "Beheer pastorijen",
     "ap_long": "De gemeente beheert de pastorijen",
-    "ac_code": "AP512",
+    "ac_code": "AP512_A512-2",
     "ac_short": "Uitvoeren beheersplannen en restauratie pastorieën",
     "ac_long": "Uitvoeren beheersplannen en restauratie pastorieën",
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 1200000.0,
-    "amount_per_capita": 108.28,
+    "total_amount": 1251548.89,
+    "amount_per_capita": 112.74,
     "yearly_amounts": {
-      "2026": 950000.0,
+      "2026": 1001548.89,
       "2027": 250000.0,
       "2028": 0,
       "2029": 0,
@@ -195,8 +195,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 85.72,
-      "2027": 22.56,
+      "2026": 90.22,
+      "2027": 22.52,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -206,22 +206,56 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 55",
+    "bd_short": "BD34: Infrastructuur vrijetijdsdiensten",
+    "bd_long": "Aanpassen infrastuctuur vrijetijdsdiensten",
+    "ap_code": "AP341",
+    "ap_short": "Aanpassen infrastructuur vrijetijdsdiensten",
+    "ap_long": "De infrastructuur van de vrijetijdsdiensten wordt aangepast aan de huidige normen",
+    "ac_code": "AP341_A341-1",
+    "ac_short": "Uitbreiden cultuurcentrum",
+    "ac_long": "Uitbreiden cultuurcentrum met nieuwe lokalen academie, berging, foyer en aanpassen sanitair",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 1132255.85,
+    "amount_per_capita": 101.99,
+    "yearly_amounts": {
+      "2026": 982255.85,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 100000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 88.48,
+      "2027": 4.5,
+      "2028": 0,
+      "2029": 0,
+      "2030": 9.01,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 54",
     "bd_short": "BD11: Duurzame infrastructuur en klimaatneutraal patrimonium",
     "bd_long": "Duurzame infrastructuur en klimaatneutraal patrimonium",
     "ap_code": "AP112",
     "ap_short": "Uitbouwen duurzaam patrimonium",
     "ap_long": "Duurzaam patrimonium",
-    "ac_code": "AP112",
+    "ac_code": "AP112_A112-3",
     "ac_short": "Opstellen strategisch vastgoedplan",
     "ac_long": "Opstellen van een strategisch vastgoedplan, waaruit een planmatige en gefaseerde energie-efficiënte renovatie met oog voor circulariteit en biogebaseerde materialen, van het gemeentelijk patrimonium volgt.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 845000.0,
-    "amount_per_capita": 76.25,
+    "total_amount": 1008900.0,
+    "amount_per_capita": 90.88,
     "yearly_amounts": {
-      "2026": 100000.0,
+      "2026": 263900.0,
       "2027": 240000.0,
       "2028": 305000.0,
       "2029": 0,
@@ -229,67 +263,101 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 9.02,
-      "2027": 21.66,
-      "2028": 27.52,
+      "2026": 23.77,
+      "2027": 21.62,
+      "2028": 27.47,
       "2029": 0,
-      "2030": 18.05,
+      "2030": 18.02,
       "2031": 0
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
-    "bd_short": "BD34: Infrastructuur vrijetijdsdiensten",
-    "bd_long": "Aanpassen infrastuctuur vrijetijdsdiensten",
-    "ap_code": "AP341",
-    "ap_short": "Aanpassen infrastructuur vrijetijdsdiensten",
-    "ap_long": "De infrastructuur van de vrijetijdsdiensten wordt aangepast aan de huidige normen",
-    "ac_code": "AP341",
-    "ac_short": "Uitbreiden cultuurcentrum",
-    "ac_long": "Uitbreiden cultuurcentrum met nieuwe lokalen academie, berging, foyer en aanpassen sanitair",
+    "bd_code": "BDS 14",
+    "bd_short": "BD42: Onderhoud wegen en openbaar domein",
+    "bd_long": "De gemeente verzekert het onderhoud, de bereikbaarheid en de toegankelijkheid van wegen, voetpaden en het openbaar domein",
+    "ap_code": "AP421",
+    "ap_short": "Onderhoud van de wegen",
+    "ap_long": "Wegen worden onderhouden op basis van inventaris met ouderdom, staat  als criterium.",
+    "ac_code": "AP421_A421-5",
+    "ac_short": "Onderhouden van de wegen door derden",
+    "ac_long": "Onderhouden van de wegen door derden (onderhoud aan asfalt- en betonwegen, extern onderhoud)",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "02-mobiliteit"
     ],
-    "total_amount": 725000.0,
-    "amount_per_capita": 65.42,
+    "total_amount": 972000.0,
+    "amount_per_capita": 87.55,
     "yearly_amounts": {
-      "2026": 475000.0,
-      "2027": 70000.0,
-      "2028": 80000.0,
-      "2029": 0,
-      "2030": 100000.0,
-      "2031": 0
+      "2026": 222000.0,
+      "2027": 150000.0,
+      "2028": 150000.0,
+      "2029": 150000.0,
+      "2030": 150000.0,
+      "2031": 150000.0
     },
     "yearly_per_capita": {
-      "2026": 42.86,
-      "2027": 6.32,
-      "2028": 7.22,
-      "2029": 0,
-      "2030": 9.02,
-      "2031": 0
+      "2026": 20.0,
+      "2027": 13.51,
+      "2028": 13.51,
+      "2029": 13.51,
+      "2030": 13.51,
+      "2031": 13.51
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 20",
+    "bd_short": "BD53: Veiligheid van grondgebied en inwoners",
+    "bd_long": "Veiligheid van grondgebied en inwoners",
+    "ap_code": "AP531",
+    "ap_short": "Veiligheid van de burgers",
+    "ap_long": "Inzetten op de veiligheid van de burgers, eventueel in samenwerking met partnerbesturen",
+    "ac_code": "AP531_A531-3",
+    "ac_short": "Toelagen hulpverleningszone Vlaamse Ardennen",
+    "ac_long": "Toelagen aan Hulpverleningszone Vlaamse Ardennen",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 903143.72,
+    "amount_per_capita": 81.35,
+    "yearly_amounts": {
+      "2026": 214870.0,
+      "2027": 136085.0,
+      "2028": 178437.62,
+      "2029": 127304.2,
+      "2030": 124692.0,
+      "2031": 121754.9
+    },
+    "yearly_per_capita": {
+      "2026": 19.35,
+      "2027": 12.26,
+      "2028": 16.07,
+      "2029": 11.47,
+      "2030": 11.23,
+      "2031": 10.97
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 54",
     "bd_short": "BD11: Duurzame infrastructuur en klimaatneutraal patrimonium",
     "bd_long": "Duurzame infrastructuur en klimaatneutraal patrimonium",
     "ap_code": "AP113",
     "ap_short": "Rationaliseren openbare verlichting",
     "ap_long": "Openbare verlichting",
-    "ac_code": "AP113",
+    "ac_code": "AP113_A113-1",
     "ac_short": "Totaal verledden openbare verlichting",
     "ac_long": "Totaal verledden van de openbare verlichting en  monumentverlichting tegen 2027 in samenwerking met Fluvius en nadien uitrol slim doof- en dimbeleid.",
     "categories": [
       "06-wonen-ruimte"
     ],
-    "total_amount": 499959.0,
-    "amount_per_capita": 45.11,
+    "total_amount": 571959.0,
+    "amount_per_capita": 51.52,
     "yearly_amounts": {
-      "2026": 158851.0,
+      "2026": 230851.0,
       "2027": 158959.0,
       "2028": 16940.0,
       "2029": 16353.0,
@@ -297,31 +365,201 @@
       "2031": 130198.0
     },
     "yearly_per_capita": {
-      "2026": 14.33,
-      "2027": 14.34,
+      "2026": 20.79,
+      "2027": 14.32,
       "2028": 1.53,
-      "2029": 1.48,
+      "2029": 1.47,
       "2030": 1.68,
-      "2031": 11.75
+      "2031": 11.73
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 14",
+    "bd_short": "BD42: Onderhoud wegen en openbaar domein",
+    "bd_long": "De gemeente verzekert het onderhoud, de bereikbaarheid en de toegankelijkheid van wegen, voetpaden en het openbaar domein",
+    "ap_code": "AP422",
+    "ap_short": "Uitbreiding wegenis",
+    "ap_long": "De gemeentelijke wegenis wordt uitgebreid naar aanleiding van nieuwe infrastructuurwerken of projecten",
+    "ac_code": "AP422_A422-3",
+    "ac_short": "Uitvoeren van grondinnames",
+    "ac_long": "Uitvoeren van grondinnames in het kader van bouw- of wegenprojecten",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 510839.2,
+    "amount_per_capita": 46.01,
+    "yearly_amounts": {
+      "2026": 510839.2,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 46.01,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 20",
+    "bd_short": "BD53: Veiligheid van grondgebied en inwoners",
+    "bd_long": "Veiligheid van grondgebied en inwoners",
+    "ap_code": "AP531",
+    "ap_short": "Veiligheid van de burgers",
+    "ap_long": "Inzetten op de veiligheid van de burgers, eventueel in samenwerking met partnerbesturen",
+    "ac_code": "AP531_A531-2",
+    "ac_short": "Toelagen politiezone Zottegem-Herzele-Sint-Lievens-Houtem",
+    "ac_long": "Toelagen aan politiezone Zottegem-Herzele-Sint-Lievens-Houtem",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 493554.1,
+    "amount_per_capita": 44.46,
+    "yearly_amounts": {
+      "2026": 86672.35,
+      "2027": 89452.75,
+      "2028": 98555.25,
+      "2029": 93921.25,
+      "2030": 66200.0,
+      "2031": 58752.5
+    },
+    "yearly_per_capita": {
+      "2026": 7.81,
+      "2027": 8.06,
+      "2028": 8.88,
+      "2029": 8.46,
+      "2030": 5.96,
+      "2031": 5.29
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 4",
+    "bd_short": "BD14: Integraal waterbeleid",
+    "bd_long": "Integraal waterbeleid",
+    "ap_code": "AP143",
+    "ap_short": "Riolering en zuivering",
+    "ap_long": "Rioleringsgraad en  zuiveringsgraad verhogen ism FARYS (Aquario)",
+    "ac_code": "AP143_A143-8",
+    "ac_short": "Collector Kouterkesbeek",
+    "ac_long": "Collector Kouterkesbeek: aansluiten Bruisbeke, Blareveld, Bockstale en IJshoute op RWZI Bavegem",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 475000.0,
+    "amount_per_capita": 42.79,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 375000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 9.01,
+      "2028": 33.78,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 55",
+    "bd_short": "BD34: Infrastructuur vrijetijdsdiensten",
+    "bd_long": "Aanpassen infrastuctuur vrijetijdsdiensten",
+    "ap_code": "AP341",
+    "ap_short": "Aanpassen infrastructuur vrijetijdsdiensten",
+    "ap_long": "De infrastructuur van de vrijetijdsdiensten wordt aangepast aan de huidige normen",
+    "ac_code": "AP341_A341-5",
+    "ac_short": "Verder ontwikkelen recreatiedomein Livinispark en skatepark",
+    "ac_long": "Verder ontwikkelen recreatiedomein Livinispark en skatepark",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 457953.08,
+    "amount_per_capita": 41.25,
+    "yearly_amounts": {
+      "2026": 457953.08,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 41.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 4",
+    "bd_short": "BD14: Integraal waterbeleid",
+    "bd_long": "Integraal waterbeleid",
+    "ap_code": "AP143",
+    "ap_short": "Riolering en zuivering",
+    "ap_long": "Rioleringsgraad en  zuiveringsgraad verhogen ism FARYS (Aquario)",
+    "ac_code": "AP143_A143-2",
+    "ac_short": "Aansluiten Keiberg, Windgat en deel Nederweg op RWZI Bavegem",
+    "ac_long": "Aansluiten Keiberg, Windgat en deel Nederweg op RWZI Bavegem",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 435000.0,
+    "amount_per_capita": 39.18,
+    "yearly_amounts": {
+      "2026": 200000.0,
+      "2027": 235000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 18.02,
+      "2027": 21.17,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 9",
     "bd_short": "BD24: Uitbouw sociale dienstverlening",
     "bd_long": "Uitbouw sociale dienstverlening",
     "ap_code": "AP243",
     "ap_short": "Thuiswonen",
     "ap_long": "Houtem verandert eenzaamheid in verbondenheid en ondersteunt ouderen in het thuiswonen.",
-    "ac_code": "AP243",
+    "ac_code": "AP243_A243-1",
     "ac_short": "oprichting en uitbouw van een lokaal dienstencentrum",
     "ac_long": "Participeren in de oprichting en uitbouw van een lokaal dienstencentrum in samenwerking met een externe partner",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 400000.0,
-    "amount_per_capita": 36.09,
+    "amount_per_capita": 36.03,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -334,30 +572,30 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 18.05,
-      "2030": 18.05,
+      "2029": 18.02,
+      "2030": 18.02,
       "2031": 0
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 16",
     "bd_short": "BD44: Bereikbare, moderne en toegankelijke dienstverlening",
     "bd_long": "De gemeente biedt zijn burgers een bereikbare, moderne en toegankelijke dienstverlening aan.",
     "ap_code": "AP445",
     "ap_short": "Dienstverlening is betrouwbaar",
     "ap_long": "Dienstverlening is betrouwbaar, deskundig en eigentijds",
-    "ac_code": "AP445",
-    "ac_short": "Moderniseren vergaderinfrastructuur",
-    "ac_long": "Moderniseren en professionaliseren van de vergaderinfrastructuur",
+    "ac_code": "AP445_A445-7",
+    "ac_short": "Beheren IT-materiaal",
+    "ac_long": "Beheren IT-materiaal",
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 295000.0,
-    "amount_per_capita": 26.62,
+    "total_amount": 325869.93,
+    "amount_per_capita": 29.35,
     "yearly_amounts": {
-      "2026": 50000.0,
+      "2026": 80869.93,
       "2027": 35000.0,
       "2028": 80000.0,
       "2029": 60000.0,
@@ -365,33 +603,33 @@
       "2031": 30000.0
     },
     "yearly_per_capita": {
-      "2026": 4.51,
-      "2027": 3.16,
-      "2028": 7.22,
-      "2029": 5.41,
-      "2030": 3.61,
-      "2031": 2.71
+      "2026": 7.28,
+      "2027": 3.15,
+      "2028": 7.21,
+      "2029": 5.4,
+      "2030": 3.6,
+      "2031": 2.7
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 3",
     "bd_short": "BD13: Duurzaam landschapbeheer en biodiversiteit",
     "bd_long": "Houtem wil de open ruimte meer zichtbaar maken",
     "ap_code": "AP135",
     "ap_short": "Duurzame woonomgeving",
     "ap_long": "Voorzien van duurzame (woon)omgeving met voldoende wijkvoorzieningen voor de bewoners",
-    "ac_code": "AP135",
+    "ac_code": "AP135_A135-1",
     "ac_short": "Uitvoeren project eilandbos",
     "ac_long": "Uitvoeren project eilandbos (verhogen zichtbaarheid, toegankelijkheid, verwevenheid recreatie-natuur)",
     "categories": [
       "03-natuur-milieu"
     ],
-    "total_amount": 200000.0,
-    "amount_per_capita": 18.05,
+    "total_amount": 281310.49,
+    "amount_per_capita": 25.34,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 81310.49,
       "2027": 200000.0,
       "2028": 0,
       "2029": 0,
@@ -399,8 +637,8 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 18.05,
+      "2026": 7.32,
+      "2027": 18.02,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -410,20 +648,88 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "BD12: Houtem voert een duurzaam mobiliteitsbeleid",
+    "bd_long": "Houtem voert een duurzaam mobiliteitsbeleid",
+    "ap_code": "AP124",
+    "ap_short": "Verduurzamen gemeentelijk wagenpark",
+    "ap_long": "Verduurzamen gemeentelijk wagenpark",
+    "ac_code": "AP124_A124-4",
+    "ac_short": "Milieuvriendelijkere alternatieven wagenpark",
+    "ac_long": "Vervangen gemeentelijk wagenpark door milieuvriendelijkere alternatieven",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 248138.68,
+    "amount_per_capita": 22.35,
+    "yearly_amounts": {
+      "2026": 133138.68,
+      "2027": 0,
+      "2028": 40000.0,
+      "2029": 0,
+      "2030": 75000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 11.99,
+      "2027": 0,
+      "2028": 3.6,
+      "2029": 0,
+      "2030": 6.76,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "",
+    "ap_short": "",
+    "ap_long": "",
+    "ac_code": "overigBeleid_NIHIL",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 226008.54,
+    "amount_per_capita": 20.36,
+    "yearly_amounts": {
+      "2026": 226008.54,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 20.36,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 18",
     "bd_short": "BD51: Beheer Erfgoed",
     "bd_long": "Beheer Erfgoed",
     "ap_code": "AP511",
     "ap_short": "Herbestemming kerken",
     "ap_long": "De gemeente maakt werk van de herbestemming van de kerken",
-    "ac_code": "AP511",
+    "ac_code": "AP511_A511-1",
     "ac_short": "Herbestemmen kerken Letterhoutem en Zonnegem",
     "ac_long": "Herbestemmen kerken Letterhoutem en Zonnegem volgens de haalbaarheidsstudie",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 200000.0,
-    "amount_per_capita": 18.05,
+    "amount_per_capita": 18.02,
     "yearly_amounts": {
       "2026": 0,
       "2027": 50000.0,
@@ -434,8 +740,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 4.51,
-      "2028": 13.54,
+      "2027": 4.5,
+      "2028": 13.51,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -444,124 +750,226 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
-    "bd_short": "BD12: Houtem voert een duurzaam mobiliteitsbeleid",
-    "bd_long": "Houtem voert een duurzaam mobiliteitsbeleid",
-    "ap_code": "AP124",
-    "ap_short": "Verduurzamen gemeentelijk wagenpark",
-    "ap_long": "Verduurzamen gemeentelijk wagenpark",
-    "ac_code": "AP124",
-    "ac_short": "Milieuvriendelijkere alternatieven wagenpark",
-    "ac_long": "Vervangen gemeentelijk wagenpark door milieuvriendelijkere alternatieven",
+    "bd_code": "BDS 55",
+    "bd_short": "BD34: Infrastructuur vrijetijdsdiensten",
+    "bd_long": "Aanpassen infrastuctuur vrijetijdsdiensten",
+    "ap_code": "AP341",
+    "ap_short": "Aanpassen infrastructuur vrijetijdsdiensten",
+    "ap_long": "De infrastructuur van de vrijetijdsdiensten wordt aangepast aan de huidige normen",
+    "ac_code": "AP341_A341-3",
+    "ac_short": "Up-to-date houden technische installaties vijetijdssites",
+    "ac_long": "Up-to-date houden technische installaties vijetijdssites",
     "categories": [
-      "02-mobiliteit"
+      "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 190000.0,
-    "amount_per_capita": 17.14,
+    "total_amount": 183625.58,
+    "amount_per_capita": 16.54,
     "yearly_amounts": {
-      "2026": 75000.0,
+      "2026": 183625.58,
       "2027": 0,
-      "2028": 40000.0,
+      "2028": 0,
       "2029": 0,
-      "2030": 75000.0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 6.77,
+      "2026": 16.54,
       "2027": 0,
-      "2028": 3.61,
+      "2028": 0,
       "2029": 0,
-      "2030": 6.77,
+      "2030": 0,
       "2031": 0
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 55",
+    "bd_short": "BD34: Infrastructuur vrijetijdsdiensten",
+    "bd_long": "Aanpassen infrastuctuur vrijetijdsdiensten",
+    "ap_code": "AP341",
+    "ap_short": "Aanpassen infrastructuur vrijetijdsdiensten",
+    "ap_long": "De infrastructuur van de vrijetijdsdiensten wordt aangepast aan de huidige normen",
+    "ac_code": "AP341_A341-8",
+    "ac_short": "Renoveren gebouwen vrijetijdsdiensten",
+    "ac_long": "Renoveren gebouwen vrijetijdsdiensten",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 152450.0,
+    "amount_per_capita": 13.73,
+    "yearly_amounts": {
+      "2026": 152450.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.73,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 55",
+    "bd_short": "BD34: Infrastructuur vrijetijdsdiensten",
+    "bd_long": "Aanpassen infrastuctuur vrijetijdsdiensten",
+    "ap_code": "AP341",
+    "ap_short": "Aanpassen infrastructuur vrijetijdsdiensten",
+    "ap_long": "De infrastructuur van de vrijetijdsdiensten wordt aangepast aan de huidige normen",
+    "ac_code": "AP341_A341-7",
+    "ac_short": "Opwaarderen infrastuctuur bibliotheek",
+    "ac_long": "Opwaarderen bestaande bibliotheekinfrastuctuur",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 100000.0,
+    "amount_per_capita": 9.01,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 20000.0,
+      "2028": 80000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 1.8,
+      "2028": 7.21,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 8",
     "bd_short": "BD23: Kwalitatief onderwijs met aangepaste zorg",
     "bd_long": "Kwalitatief onderwijs met aandacht voor aangepaste zorg en kansarmoede",
     "ap_code": "AP234",
     "ap_short": "Infrastructuur scholen",
     "ap_long": "Investeren in de infrastructuur en de uitrusting van de gemeentescholen",
-    "ac_code": "AP234",
+    "ac_code": "AP234_A234-1",
     "ac_short": "Voorzien van nieuwbouw voor afdeling Vlierzele",
     "ac_long": "Voorzien van nieuwbouw voor afdeling Vlierzele",
     "categories": [
       "08-onderwijs"
     ],
-    "total_amount": 152000.0,
-    "amount_per_capita": 13.72,
+    "total_amount": 100000.0,
+    "amount_per_capita": 9.01,
     "yearly_amounts": {
       "2026": 0,
-      "2027": 3000.0,
-      "2028": 23000.0,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
-      "2030": 71000.0,
-      "2031": 55000.0
+      "2030": 50000.0,
+      "2031": 50000.0
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 0.27,
-      "2028": 2.08,
+      "2027": 0,
+      "2028": 0,
       "2029": 0,
-      "2030": 6.41,
-      "2031": 4.96
+      "2030": 4.5,
+      "2031": 4.5
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 18",
     "bd_short": "BD51: Beheer Erfgoed",
     "bd_long": "Beheer Erfgoed",
     "ap_code": "AP515",
     "ap_short": "Beheer begraafplaatsen",
     "ap_long": "De gemeente onderhoudt en voert beheerswerkzaamheden uit op de begraafplaatsen - ontruiming - onderhoud",
-    "ac_code": "AP515",
-    "ac_short": "Ontruimingen en  visie funerair erfgoed",
-    "ac_long": "Verder uitvoeren van ontruimingen en visie ontwikkelen over funerair erfgoed (gedenkstenen)",
+    "ac_code": "AP515_A515-2",
+    "ac_short": "Aanpassen infrastructuur kerkhof",
+    "ac_long": "Aanpassen infrastructuur kerkhof (wachtruimtes, kerkhofmuren, vergroening ...)",
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 120000.0,
-    "amount_per_capita": 10.83,
+    "total_amount": 99000.0,
+    "amount_per_capita": 8.92,
     "yearly_amounts": {
-      "2026": 5000.0,
+      "2026": 29000.0,
       "2027": 0,
-      "2028": 10000.0,
+      "2028": 0,
       "2029": 70000.0,
-      "2030": 35000.0,
+      "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.45,
+      "2026": 2.61,
       "2027": 0,
-      "2028": 0.9,
-      "2029": 6.32,
-      "2030": 3.16,
+      "2028": 0,
+      "2029": 6.31,
+      "2030": 0,
       "2031": 0
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD14: Integraal waterbeleid",
+    "bd_long": "Integraal waterbeleid",
+    "ap_code": "AP142",
+    "ap_short": "Doelgerichte erosiebestrijding",
+    "ap_long": "Doelgericht erosie bestrijden",
+    "ac_code": "AP142_A142-3",
+    "ac_short": "Onteigeningen uitvoeren in het kader van erosiebestrijding",
+    "ac_long": "Onteigeningen uitvoeren in het kader van erosiebestrijding",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 84800.0,
+    "amount_per_capita": 7.64,
+    "yearly_amounts": {
+      "2026": 34800.0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 25000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.13,
+      "2027": 2.25,
+      "2028": 0,
+      "2029": 2.25,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 11",
     "bd_short": "BD32: Aantrekkingskracht dorpskernen en markt vergroten",
     "bd_long": "Aantrekkingskracht dorpskernen en Marktplein vergroten",
     "ap_code": "AP322",
     "ap_short": "Evenementen (organisatoren en projecten)",
     "ap_long": "Evenementen (organisatoren en projecten)",
-    "ac_code": "AP322",
+    "ac_code": "AP322_A322-4",
     "ac_short": "Optimaliseren van de uitleendienst",
     "ac_long": "Optimaliseren van de uitleendienst (aanbod en stockage) en verhuur",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 82000.0,
-    "amount_per_capita": 7.4,
+    "total_amount": 83900.0,
+    "amount_per_capita": 7.56,
     "yearly_amounts": {
-      "2026": 57500.0,
+      "2026": 59400.0,
       "2027": 14500.0,
       "2028": 2500.0,
       "2029": 2500.0,
@@ -569,7 +977,7 @@
       "2031": 2500.0
     },
     "yearly_per_capita": {
-      "2026": 5.19,
+      "2026": 5.35,
       "2027": 1.31,
       "2028": 0.23,
       "2029": 0.23,
@@ -580,22 +988,22 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 15",
     "bd_short": "BD43: Verkeersveiligheid",
     "bd_long": "De gemeente draagt verkeersveiligheid hoog in het vaandel.",
     "ap_code": "AP432",
     "ap_short": "Bewegwijzering en promotie trage wegen",
     "ap_long": "Bewegwijzering en promotie trage wegen",
-    "ac_code": "AP432",
+    "ac_code": "AP432_A432-2",
     "ac_short": "structureel onderhoud van trage wegen",
     "ac_long": "Uitvoeren van structureel onderhoud van trage wegen",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 75000.0,
-    "amount_per_capita": 6.77,
+    "total_amount": 80127.19,
+    "amount_per_capita": 7.22,
     "yearly_amounts": {
-      "2026": 0,
+      "2026": 5127.19,
       "2027": 25000.0,
       "2028": 0,
       "2029": 25000.0,
@@ -603,67 +1011,101 @@
       "2031": 25000.0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 2.26,
+      "2026": 0.46,
+      "2027": 2.25,
       "2028": 0,
-      "2029": 2.26,
+      "2029": 2.25,
       "2030": 0,
-      "2031": 2.26
+      "2031": 2.25
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
-    "bd_short": "BD12: Houtem voert een duurzaam mobiliteitsbeleid",
-    "bd_long": "Houtem voert een duurzaam mobiliteitsbeleid",
-    "ap_code": "AP123",
-    "ap_short": "Alternatieve vervoerswijzen",
-    "ap_long": "Alternatieve vervoerswijzen promoten",
-    "ac_code": "AP123",
-    "ac_short": "Hoppinpunten uitwerken",
-    "ac_long": "Verder uitwerken hoppinpunten: combimobiliteit & toegankelijkheid en laadpunten",
+    "bd_code": "BDS 14",
+    "bd_short": "BD42: Onderhoud wegen en openbaar domein",
+    "bd_long": "De gemeente verzekert het onderhoud, de bereikbaarheid en de toegankelijkheid van wegen, voetpaden en het openbaar domein",
+    "ap_code": "AP421",
+    "ap_short": "Onderhoud van de wegen",
+    "ap_long": "Wegen worden onderhouden op basis van inventaris met ouderdom, staat  als criterium.",
+    "ac_code": "AP421_A421-10",
+    "ac_short": "Aankopen en onderhouden van materialen TD",
+    "ac_long": "Aankopen en onderhouden van materialen voor de technische dienst in het kader van onderhoud van het openbaar domein",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 65700.0,
-    "amount_per_capita": 5.93,
+    "total_amount": 80075.0,
+    "amount_per_capita": 7.21,
     "yearly_amounts": {
-      "2026": 20700.0,
-      "2027": 5000.0,
-      "2028": 5000.0,
-      "2029": 25000.0,
-      "2030": 5000.0,
-      "2031": 5000.0
+      "2026": 20075.0,
+      "2027": 60000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.87,
-      "2027": 0.45,
-      "2028": 0.45,
-      "2029": 2.26,
-      "2030": 0.45,
-      "2031": 0.45
+      "2026": 1.81,
+      "2027": 5.4,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
+    "bd_short": "BD14: Integraal waterbeleid",
+    "bd_long": "Integraal waterbeleid",
+    "ap_code": "AP141",
+    "ap_short": "Ruimte aan water",
+    "ap_long": "Ruimte geven aan water",
+    "ac_code": "AP141_A141-1",
+    "ac_short": "Focus op onthardingsprojecten",
+    "ac_long": "Uitwerking actiepunten uit het Hemelwater- en droogteplan en de klimaatadaptatiescan met de focus op onthardingsprojecten",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 7.21,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 10000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 5.4,
+      "2027": 0,
+      "2028": 0.9,
+      "2029": 0,
+      "2030": 0.9,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 15",
     "bd_short": "BD43: Verkeersveiligheid",
     "bd_long": "De gemeente draagt verkeersveiligheid hoog in het vaandel.",
     "ap_code": "AP436",
     "ap_short": "Maatregelen verkeersveiligheid",
     "ap_long": "De gemeente neemt maatregelen ter bevordering van de verkeersveiligheid",
-    "ac_code": "AP436",
+    "ac_code": "AP436_A436-1",
     "ac_short": "Infrastructurele maatregelen verkeersveiligheid",
     "ac_long": "Infrastructurele maatregelen nemen ter bevordering van de verkeersveiligheid",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 60000.0,
-    "amount_per_capita": 5.41,
+    "total_amount": 65900.0,
+    "amount_per_capita": 5.94,
     "yearly_amounts": {
-      "2026": 5000.0,
+      "2026": 10900.0,
       "2027": 30000.0,
       "2028": 0,
       "2029": 12500.0,
@@ -671,8 +1113,8 @@
       "2031": 12500.0
     },
     "yearly_per_capita": {
-      "2026": 0.45,
-      "2027": 2.71,
+      "2026": 0.98,
+      "2027": 2.7,
       "2028": 0,
       "2029": 1.13,
       "2030": 0,
@@ -682,33 +1124,67 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
-    "bd_short": "BD14: Integraal waterbeleid",
-    "bd_long": "Integraal waterbeleid",
-    "ap_code": "AP142",
-    "ap_short": "Doelgerichte erosiebestrijding",
-    "ap_long": "Doelgericht erosie bestrijden",
-    "ac_code": "AP142",
-    "ac_short": "Onteigeningen uitvoeren in het kader van erosiebestrijding",
-    "ac_long": "Onteigeningen uitvoeren in het kader van erosiebestrijding",
+    "bd_code": "BDS 18",
+    "bd_short": "BD51: Beheer Erfgoed",
+    "bd_long": "Beheer Erfgoed",
+    "ap_code": "AP515",
+    "ap_short": "Beheer begraafplaatsen",
+    "ap_long": "De gemeente onderhoudt en voert beheerswerkzaamheden uit op de begraafplaatsen - ontruiming - onderhoud",
+    "ac_code": "AP515_A515-1",
+    "ac_short": "Ontruimingen en  visie funerair erfgoed",
+    "ac_long": "Verder uitvoeren van ontruimingen en visie ontwikkelen over funerair erfgoed (gedenkstenen)",
     "categories": [
-      "03-natuur-milieu"
+      "09-zorg-opvang"
     ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 4.51,
+    "total_amount": 65017.99,
+    "amount_per_capita": 5.86,
     "yearly_amounts": {
-      "2026": 0,
-      "2027": 25000.0,
+      "2026": 40017.99,
+      "2027": 0,
       "2028": 0,
-      "2029": 25000.0,
+      "2029": 0,
+      "2030": 25000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 2.25,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 16",
+    "bd_short": "BD44: Bereikbare, moderne en toegankelijke dienstverlening",
+    "bd_long": "De gemeente biedt zijn burgers een bereikbare, moderne en toegankelijke dienstverlening aan.",
+    "ap_code": "AP443",
+    "ap_short": "Externe communicatie",
+    "ap_long": "Externe communicatie zorgt voor goed geïnformeerde en betrokken burgers",
+    "ac_code": "AP443_A443-6",
+    "ac_short": "Digitale infoborden op strategische plaatsen",
+    "ac_long": "Voorzien van digitale infoborden op strategische plaatsen in de gemeente",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 61800.0,
+    "amount_per_capita": 5.57,
+    "yearly_amounts": {
+      "2026": 61800.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0,
-      "2027": 2.26,
+      "2026": 5.57,
+      "2027": 0,
       "2028": 0,
-      "2029": 2.26,
+      "2029": 0,
       "2030": 0,
       "2031": 0
     }
@@ -716,20 +1192,54 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 20",
+    "bd_short": "BD53: Veiligheid van grondgebied en inwoners",
+    "bd_long": "Veiligheid van grondgebied en inwoners",
+    "ap_code": "AP531",
+    "ap_short": "Veiligheid van de burgers",
+    "ap_long": "Inzetten op de veiligheid van de burgers, eventueel in samenwerking met partnerbesturen",
+    "ac_code": "AP531_A531-7",
+    "ac_short": "Camerabewaking en controleborden",
+    "ac_long": "Inzetten op camerabewaking, digitale controleborden, GAS-5-wetgeving verkeer,",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 50500.0,
+    "amount_per_capita": 4.55,
+    "yearly_amounts": {
+      "2026": 50500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.55,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 18",
     "bd_short": "BD51: Beheer Erfgoed",
     "bd_long": "Beheer Erfgoed",
     "ap_code": "AP514",
     "ap_short": "Ondersteuning heemkundige kring",
     "ap_long": "De gemeente ondersteunt de heemkundige kring",
-    "ac_code": "AP514",
+    "ac_code": "AP514_A514-1",
     "ac_short": "Uitbouwen van het fysiek en digitaal archief",
     "ac_long": "Uitbouwen van het fysiek en digitaal archief",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 4.51,
+    "amount_per_capita": 4.5,
     "yearly_amounts": {
       "2026": 0,
       "2027": 25000.0,
@@ -740,8 +1250,8 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 2.26,
-      "2028": 2.26,
+      "2027": 2.25,
+      "2028": 2.25,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -750,20 +1260,20 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
-    "bd_short": "BD44: Bereikbare, moderne en toegankelijke dienstverlening",
-    "bd_long": "De gemeente biedt zijn burgers een bereikbare, moderne en toegankelijke dienstverlening aan.",
-    "ap_code": "AP443",
-    "ap_short": "Externe communicatie",
-    "ap_long": "Externe communicatie zorgt voor goed geïnformeerde en betrokken burgers",
-    "ac_code": "AP443",
-    "ac_short": "Digitale infoborden op strategische plaatsen",
-    "ac_long": "Voorzien van digitale infoborden op strategische plaatsen in de gemeente",
+    "bd_code": "BDS 55",
+    "bd_short": "BD34: Infrastructuur vrijetijdsdiensten",
+    "bd_long": "Aanpassen infrastuctuur vrijetijdsdiensten",
+    "ap_code": "AP341",
+    "ap_short": "Aanpassen infrastructuur vrijetijdsdiensten",
+    "ap_long": "De infrastructuur van de vrijetijdsdiensten wordt aangepast aan de huidige normen",
+    "ac_code": "AP341_A341-6",
+    "ac_short": "Voorzien van airco in alle lokalen vrijetijdsdiensten",
+    "ac_long": "Voorzien van airco in alle lokalen vrijetijdsdiensten",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
     ],
     "total_amount": 50000.0,
-    "amount_per_capita": 4.51,
+    "amount_per_capita": 4.5,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 0,
@@ -773,7 +1283,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 4.51,
+      "2026": 4.5,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -784,22 +1294,22 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 15",
     "bd_short": "BD43: Verkeersveiligheid",
     "bd_long": "De gemeente draagt verkeersveiligheid hoog in het vaandel.",
     "ap_code": "AP435",
     "ap_short": "Infrastructuur voor de zwakke weggebruikers",
     "ap_long": "De gemeente voorziet infrastructuur voor zwakke weggebruiker",
-    "ac_code": "AP435",
+    "ac_code": "AP435_A435-2",
     "ac_short": "Voorzien in aangepast straatmeubilair",
     "ac_long": "De gemeente voorziet in aangepast straatmeubilair",
     "categories": [
       "02-mobiliteit"
     ],
-    "total_amount": 45000.0,
-    "amount_per_capita": 4.06,
+    "total_amount": 46425.88,
+    "amount_per_capita": 4.18,
     "yearly_amounts": {
-      "2026": 15000.0,
+      "2026": 16425.88,
       "2027": 0,
       "2028": 15000.0,
       "2029": 0,
@@ -807,7 +1317,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 1.35,
+      "2026": 1.48,
       "2027": 0,
       "2028": 1.35,
       "2029": 0,
@@ -818,22 +1328,90 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
+    "bd_short": "BD12: Houtem voert een duurzaam mobiliteitsbeleid",
+    "bd_long": "Houtem voert een duurzaam mobiliteitsbeleid",
+    "ap_code": "AP123",
+    "ap_short": "Alternatieve vervoerswijzen",
+    "ap_long": "Alternatieve vervoerswijzen promoten",
+    "ac_code": "AP123_A123-4",
+    "ac_short": "Voorzien van fietsenstallingen",
+    "ac_long": "Voorzien kwalitatieve (overdekt, beveiligd, comfortabel), goed gesitueerde fietsenstallingen",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 3.6,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 20000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 1.8,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 8",
+    "bd_short": "BD23: Kwalitatief onderwijs met aangepaste zorg",
+    "bd_long": "Kwalitatief onderwijs met aandacht voor aangepaste zorg en kansarmoede",
+    "ap_code": "AP234",
+    "ap_short": "Infrastructuur scholen",
+    "ap_long": "Investeren in de infrastructuur en de uitrusting van de gemeentescholen",
+    "ac_code": "AP234_A234-5",
+    "ac_short": "Digitaliseren van de klaslokalen",
+    "ac_long": "Digitaliseren van de klaslokalen (smartboard/tablets/laptop leerkrachten )",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 39000.0,
+    "amount_per_capita": 3.51,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 18000.0,
+      "2029": 0,
+      "2030": 21000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 1.62,
+      "2029": 0,
+      "2030": 1.89,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 6",
     "bd_short": "BD21: Aandacht voor alle kinderen en jongeren",
     "bd_long": "Aandacht voor alle kinderen en jongeren",
     "ap_code": "AP212",
     "ap_short": "Ondersteuning jeugdverenigingen",
     "ap_long": "Ondersteunen jeugdverenigingen op logistiek en financieel vlak",
-    "ac_code": "AP212",
+    "ac_code": "AP212_A212-1",
     "ac_short": "Voorzien van nieuwbouwproject jeugdcomplex 't Hemelrijk",
     "ac_long": "Voorzien van nieuwbouwproject jeugdcomplex 't Hemelrijk",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 30000.0,
-    "amount_per_capita": 2.71,
+    "total_amount": 32300.0,
+    "amount_per_capita": 2.91,
     "yearly_amounts": {
-      "2026": 30000.0,
+      "2026": 32300.0,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -841,7 +1419,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.71,
+      "2026": 2.91,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -852,17 +1430,187 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
-    "bd_short": "BD14: Integraal waterbeleid",
-    "bd_long": "Integraal waterbeleid",
-    "ap_code": "AP141",
-    "ap_short": "Ruimte aan water",
-    "ap_long": "Ruimte geven aan water",
-    "ac_code": "AP141",
-    "ac_short": "Focus op onthardingsprojecten",
-    "ac_long": "Uitwerking actiepunten uit het Hemelwater- en droogteplan en de klimaatadaptatiescan met de focus op onthardingsprojecten",
+    "bd_code": "BDS 2",
+    "bd_short": "BD12: Houtem voert een duurzaam mobiliteitsbeleid",
+    "bd_long": "Houtem voert een duurzaam mobiliteitsbeleid",
+    "ap_code": "AP123",
+    "ap_short": "Alternatieve vervoerswijzen",
+    "ap_long": "Alternatieve vervoerswijzen promoten",
+    "ac_code": "AP123_A123-1",
+    "ac_short": "Hoppinpunten uitwerken",
+    "ac_long": "Verder uitwerken hoppinpunten: combimobiliteit & toegankelijkheid en laadpunten",
     "categories": [
-      "03-natuur-milieu"
+      "02-mobiliteit"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 2.7,
+    "yearly_amounts": {
+      "2026": 5000.0,
+      "2027": 5000.0,
+      "2028": 5000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.45,
+      "2027": 0.45,
+      "2028": 0.45,
+      "2029": 0.45,
+      "2030": 0.45,
+      "2031": 0.45
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 17",
+    "bd_short": "BD45: Optimaliseren van de interne werking",
+    "bd_long": "Optimaliseren van de interne werking.",
+    "ap_code": "AP452",
+    "ap_short": "Facilitaire middelen",
+    "ap_long": "Facilitaire middelen",
+    "ac_code": "AP452_A452-4",
+    "ac_short": "werk- en kantoormaterialen",
+    "ac_long": "Voorzien van moderne en efficiënte werk- en kantoormaterialen voor de medewerkers en inventariseren ervan",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 27880.14,
+    "amount_per_capita": 2.51,
+    "yearly_amounts": {
+      "2026": 27880.14,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.51,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 16",
+    "bd_short": "BD44: Bereikbare, moderne en toegankelijke dienstverlening",
+    "bd_long": "De gemeente biedt zijn burgers een bereikbare, moderne en toegankelijke dienstverlening aan.",
+    "ap_code": "AP445",
+    "ap_short": "Dienstverlening is betrouwbaar",
+    "ap_long": "Dienstverlening is betrouwbaar, deskundig en eigentijds",
+    "ac_code": "AP445_A445-19",
+    "ac_short": "Moderniseren vergaderinfrastructuur",
+    "ac_long": "Moderniseren en professionaliseren van de vergaderinfrastructuur",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 2.25,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 55",
+    "bd_short": "BD34: Infrastructuur vrijetijdsdiensten",
+    "bd_long": "Aanpassen infrastuctuur vrijetijdsdiensten",
+    "ap_code": "AP341",
+    "ap_short": "Aanpassen infrastructuur vrijetijdsdiensten",
+    "ap_long": "De infrastructuur van de vrijetijdsdiensten wordt aangepast aan de huidige normen",
+    "ac_code": "AP341_A341-4",
+    "ac_short": "Herstellings- en inrichtingswerken aan ontmoetingscentra",
+    "ac_long": "Herstellings- en inrichtingswerken aan ontmoetingscentra",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 2.25,
+    "yearly_amounts": {
+      "2026": 25000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 8",
+    "bd_short": "BD23: Kwalitatief onderwijs met aangepaste zorg",
+    "bd_long": "Kwalitatief onderwijs met aandacht voor aangepaste zorg en kansarmoede",
+    "ap_code": "AP234",
+    "ap_short": "Infrastructuur scholen",
+    "ap_long": "Investeren in de infrastructuur en de uitrusting van de gemeentescholen",
+    "ac_code": "AP234_A234-4",
+    "ac_short": "Vernieuwen meubilair",
+    "ac_long": "Vernieuwen meubilair binnen en buiten de klaslokalen",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 20700.0,
+    "amount_per_capita": 1.86,
+    "yearly_amounts": {
+      "2026": 10700.0,
+      "2027": 0,
+      "2028": 5000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 5000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.96,
+      "2027": 0,
+      "2028": 0.45,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0.45
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 18",
+    "bd_short": "BD51: Beheer Erfgoed",
+    "bd_long": "Beheer Erfgoed",
+    "ap_code": "AP515",
+    "ap_short": "Beheer begraafplaatsen",
+    "ap_long": "De gemeente onderhoudt en voert beheerswerkzaamheden uit op de begraafplaatsen - ontruiming - onderhoud",
+    "ac_code": "AP515_A515-3",
+    "ac_short": "Aankopen urnen- en grafkelders",
+    "ac_long": "Aankopen graf- en urnenkelders",
+    "categories": [
+      "09-zorg-opvang"
     ],
     "total_amount": 20000.0,
     "amount_per_capita": 1.8,
@@ -886,13 +1634,47 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
+    "bd_code": "BDS 17",
+    "bd_short": "BD45: Optimaliseren van de interne werking",
+    "bd_long": "Optimaliseren van de interne werking.",
+    "ap_code": "AP452",
+    "ap_short": "Facilitaire middelen",
+    "ap_long": "Facilitaire middelen",
+    "ac_code": "AP452_A452-2",
+    "ac_short": "kostenefficiënt facilitair beheer",
+    "ac_long": "Een aanvaardbaar en kostenefficiënt facilitair beheer voeren en onderhouden van de gemeentelijke gronden, gebouwen en technische installaties, conform het vastgoedplan",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 19400.0,
+    "amount_per_capita": 1.75,
+    "yearly_amounts": {
+      "2026": 19400.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.75,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 16",
     "bd_short": "BD44: Bereikbare, moderne en toegankelijke dienstverlening",
     "bd_long": "De gemeente biedt zijn burgers een bereikbare, moderne en toegankelijke dienstverlening aan.",
     "ap_code": "AP441",
     "ap_short": "Dienstverlening is mensgericht",
     "ap_long": "Dienstverlening en het onthaal van burgers zijn mensgericht",
-    "ac_code": "AP441",
+    "ac_code": "AP441_A441-5",
     "ac_short": "Voorzien van klantengeleidingszuilen",
     "ac_long": "Voorzien van geavanceerde klantengeleidingszuilen",
     "categories": [
@@ -920,17 +1702,51 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
-    "bd_short": "BD45: Optimaliseren van de interne werking",
-    "bd_long": "Optimaliseren van de interne werking.",
-    "ap_code": "AP452",
-    "ap_short": "Facilitaire middelen",
-    "ap_long": "Facilitaire middelen",
-    "ac_code": "AP452",
-    "ac_short": "kostenefficiënt facilitair beheer",
-    "ac_long": "Een aanvaardbaar en kostenefficiënt facilitair beheer voeren en onderhouden van de gemeentelijke gronden, gebouwen en technische installaties, conform het vastgoedplan",
+    "bd_code": "BDS 6",
+    "bd_short": "BD21: Aandacht voor alle kinderen en jongeren",
+    "bd_long": "Aandacht voor alle kinderen en jongeren",
+    "ap_code": "AP215",
+    "ap_short": "Speelruimteplan",
+    "ap_long": "Voorzien in ontmoetingsplaatsen zoals speelpleintjes en speelbossen, vergader- en repetitielokalen (speelruimteplan)",
+    "ac_code": "AP215_A215-3",
+    "ac_short": "Onderhouden infrastructuur speelterreinen",
+    "ac_long": "Onderhouden van de huidige infrastuctuur voor speelterreinen",
     "categories": [
-      "01-algemeen-bestuur"
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 12000.0,
+    "amount_per_capita": 1.08,
+    "yearly_amounts": {
+      "2026": 6000.0,
+      "2027": 0,
+      "2028": 6000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.54,
+      "2027": 0,
+      "2028": 0.54,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 10",
+    "bd_short": "BD31: De vrijetijdsdiensten dragen bij tot vorming burgers",
+    "bd_long": "De vrijetijdsdiensten dragen bij tot vorming van de burgers",
+    "ap_code": "AP314",
+    "ap_short": "Programma-aanbod vrije tijd uitwerken",
+    "ap_long": "Programma-aanbod Vrije tijd uitwerken",
+    "ac_code": "AP314_A314-12",
+    "ac_short": "Online reservatiemogelijkheden uitbreiden en optimaliseren",
+    "ac_long": "Online reservatie- en inschrijvingsmogelijkheden uitbreiden en optimaliseren",
+    "categories": [
+      "overige"
     ],
     "total_amount": 10000.0,
     "amount_per_capita": 0.9,
@@ -954,32 +1770,168 @@
   {
     "municipality": "Sint-Lievens-Houtem",
     "nis_code": "41063",
-    "bd_code": "BDS",
-    "bd_short": "BD21: Aandacht voor alle kinderen en jongeren",
-    "bd_long": "Aandacht voor alle kinderen en jongeren",
-    "ap_code": "AP215",
-    "ap_short": "Speelruimteplan",
-    "ap_long": "Voorzien in ontmoetingsplaatsen zoals speelpleintjes en speelbossen, vergader- en repetitielokalen (speelruimteplan)",
-    "ac_code": "AP215",
-    "ac_short": "Onderhouden infrastructuur speelterreinen",
-    "ac_long": "Onderhouden van de huidige infrastuctuur voor speelterreinen",
+    "bd_code": "BDS 16",
+    "bd_short": "BD44: Bereikbare, moderne en toegankelijke dienstverlening",
+    "bd_long": "De gemeente biedt zijn burgers een bereikbare, moderne en toegankelijke dienstverlening aan.",
+    "ap_code": "AP441",
+    "ap_short": "Dienstverlening is mensgericht",
+    "ap_long": "Dienstverlening en het onthaal van burgers zijn mensgericht",
+    "ac_code": "AP441_A441-1",
+    "ac_short": "Centrale frontoffice",
+    "ac_long": "Implementeren van een professionele, centrale frontoffice (telefonisch / balie) met een actuele productencatalogus via het intranet",
     "categories": [
-      "07-cultuur-vrije-tijd"
+      "overige"
     ],
-    "total_amount": 7000.0,
-    "amount_per_capita": 0.63,
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.9,
     "yearly_amounts": {
-      "2026": 1000.0,
+      "2026": 10000.0,
       "2027": 0,
-      "2028": 6000.0,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 0.09,
+      "2026": 0.9,
       "2027": 0,
-      "2028": 0.54,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 17",
+    "bd_short": "BD45: Optimaliseren van de interne werking",
+    "bd_long": "Optimaliseren van de interne werking.",
+    "ap_code": "AP454",
+    "ap_short": "Beheren van administratieve verplichtingen",
+    "ap_long": "Beheren van administratieve verplichtingen in de verschillende levensfasen.",
+    "ac_code": "AP454_A454-1",
+    "ac_short": "Beheren materies burgerzaken en registers",
+    "ac_long": "Beheren materies burgerzaken en registers",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 9975.0,
+    "amount_per_capita": 0.9,
+    "yearly_amounts": {
+      "2026": 9975.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.9,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 21",
+    "bd_short": "BD54: Belang van de winterjaarmarkt",
+    "bd_long": "Belang van de winterjaarmarkt",
+    "ap_code": "AP541",
+    "ap_short": "Authenticiteit WJM",
+    "ap_long": "De authenticiteit van Houtem Jaarmarkt als cultureel erfgoed vrijwaren",
+    "ac_code": "AP541_A541-1",
+    "ac_short": "Verzekeren van de inhoudelijke aspecten van het evenement",
+    "ac_long": "Verzekeren van de inhoudelijke aspecten van het evenement",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 9800.0,
+    "amount_per_capita": 0.88,
+    "yearly_amounts": {
+      "2026": 9800.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.88,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 8",
+    "bd_short": "BD23: Kwalitatief onderwijs met aangepaste zorg",
+    "bd_long": "Kwalitatief onderwijs met aandacht voor aangepaste zorg en kansarmoede",
+    "ap_code": "AP231",
+    "ap_short": "Kwaliteitsvol onderwijs",
+    "ap_long": "Verder inzetten op kwaliteitsvol onderwijs met aandacht voor kansengroepen",
+    "ac_code": "AP231_A231-1",
+    "ac_short": "Dagelijkse werking directie en leerkrachten",
+    "ac_long": "Ondersteunen van de directie en leerkrachten bij de dagelijkse werking van de school, het pedagogisch project, de didactische middelen",
+    "categories": [
+      "overige"
+    ],
+    "total_amount": 6000.0,
+    "amount_per_capita": 0.54,
+    "yearly_amounts": {
+      "2026": 6000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.54,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Sint-Lievens-Houtem",
+    "nis_code": "41063",
+    "bd_code": "BDS 8",
+    "bd_short": "BD23: Kwalitatief onderwijs met aangepaste zorg",
+    "bd_long": "Kwalitatief onderwijs met aandacht voor aangepaste zorg en kansarmoede",
+    "ap_code": "AP234",
+    "ap_short": "Infrastructuur scholen",
+    "ap_long": "Investeren in de infrastructuur en de uitrusting van de gemeentescholen",
+    "ac_code": "AP234_A234-6",
+    "ac_short": "Creëren van een centrale materialenbank",
+    "ac_long": "Creëren van een centrale materialenbank",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 3000.0,
+    "amount_per_capita": 0.27,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 3000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.27,
+      "2028": 0,
       "2029": 0,
       "2030": 0,
       "2031": 0

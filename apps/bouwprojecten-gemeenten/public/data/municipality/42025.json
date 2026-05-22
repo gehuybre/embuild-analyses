@@ -2,35 +2,885 @@
   {
     "municipality": "Wetteren",
     "nis_code": "42025",
-    "bd_code": "BDS",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "",
+    "ap_short": "",
+    "ap_long": "",
+    "ac_code": "overigBeleid_NIHIL",
+    "ac_short": "overigBeleid zonder actie",
+    "ac_long": "overigBeleid zonder actie",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 26962408.31,
+    "amount_per_capita": 971.14,
+    "yearly_amounts": {
+      "2026": 10295097.31,
+      "2027": 8972629.0,
+      "2028": 3379260.0,
+      "2029": 1869676.0,
+      "2030": 1184351.0,
+      "2031": 1261395.0
+    },
+    "yearly_per_capita": {
+      "2026": 370.81,
+      "2027": 323.18,
+      "2028": 121.72,
+      "2029": 67.34,
+      "2030": 42.66,
+      "2031": 45.43
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 4",
+    "bd_short": "Beleving",
+    "bd_long": "Een gevarieerd belevingsaanbod",
+    "ap_code": "beleving01",
+    "ap_short": "Een gevarieerd aanbod voor sport, cultuur en ontmoeting",
+    "ap_long": "Een gevarieerd aanbod voor sport, cultuur en ontmoeting",
+    "ac_code": "beleving01_beleving0103",
+    "ac_short": "Dasseveld uitbouwen als sport- en recreatiesite",
+    "ac_long": "Dasseveld wordt uitgebouwd tot een volwaardige sport- en recreatiesite met een functioneel servicegebouw.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3025000.0,
+    "amount_per_capita": 108.96,
+    "yearly_amounts": {
+      "2026": 2025000.0,
+      "2027": 1000000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 72.94,
+      "2027": 36.02,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 4",
+    "bd_short": "Beleving",
+    "bd_long": "Een gevarieerd belevingsaanbod",
+    "ap_code": "beleving01",
+    "ap_short": "Een gevarieerd aanbod voor sport, cultuur en ontmoeting",
+    "ap_long": "Een gevarieerd aanbod voor sport, cultuur en ontmoeting",
+    "ac_code": "beleving01_beleving0101",
+    "ac_short": "De Warande verder ontwikkelen",
+    "ac_long": "We ontwikkelen De Warande verder als groene pool in het centrum voor sport, ontspanning en ontmoeting.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 3000000.0,
+    "amount_per_capita": 108.05,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 1500000.0,
+      "2028": 1500000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 54.03,
+      "2028": 54.03,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 4",
+    "bd_short": "Beleving",
+    "bd_long": "Een gevarieerd belevingsaanbod",
+    "ap_code": "beleving03",
+    "ap_short": "Toegankelijke activiteiten",
+    "ap_long": "Toegankelijke activiteiten: een waaier aan mogelijkheden en slim infrastructuurgebruik",
+    "ac_code": "beleving03_beleving0303",
+    "ac_short": "Feestzaal Cordonnier renoveren",
+    "ac_long": "Op de campus Cordonnier gaan we voor een multifunctionele renovatie van de bestaande gemeentelijke feestzaal, aangepast aan de noden van vandaag.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 2722500.0,
+    "amount_per_capita": 98.06,
+    "yearly_amounts": {
+      "2026": 302500.0,
+      "2027": 1815000.0,
+      "2028": 605000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.9,
+      "2027": 65.37,
+      "2028": 21.79,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 2",
+    "bd_short": "ruimte",
+    "bd_long": "Een aantrekkelijke, groene, klimaatrobuuste publieke ruimte voor iedereen",
+    "ap_code": "ruimte03",
+    "ap_short": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ap_long": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ac_code": "ruimte03_ruimte0301",
+    "ac_short": "N462, van N9 tot Evenkouter (afwerking)",
+    "ac_long": "N462, van N9 tot Evenkouter (afwerking)",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1755774.8,
+    "amount_per_capita": 63.24,
+    "yearly_amounts": {
+      "2026": 1755774.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 63.24,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 6",
+    "bd_short": "zorgzaam",
+    "bd_long": "Een zorgzame gemeente",
+    "ap_code": "zorgzaam04",
+    "ap_short": "Kinderopvang",
+    "ap_long": "Kinderopvang",
+    "ac_code": "zorgzaam04_zorgzaam0401",
+    "ac_short": "Kinderopvangaanbod bestendigen",
+    "ac_long": "Tegen 2030 realiseren we een versterking van het kinderopvangaanbod van het lokaal bestuur door het bestendigen van de Dienst Voor Onthaalouders via een impulsbeleid dat het belang van kinderopvang onderstreept en inspeelt op de noden van de sector, én door het uitbreiden van de groepsopvangcapaciteit van kinderdagverblijf De Kleine Prins van 60 naar 90 plaatsen.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1689561.18,
+    "amount_per_capita": 60.86,
+    "yearly_amounts": {
+      "2026": 1654561.18,
+      "2027": 35000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 59.59,
+      "2027": 1.26,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 2",
+    "bd_short": "ruimte",
+    "bd_long": "Een aantrekkelijke, groene, klimaatrobuuste publieke ruimte voor iedereen",
+    "ap_code": "ruimte03",
+    "ap_short": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ap_long": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ac_code": "ruimte03_ruimte0309",
+    "ac_short": "Kleine Smetledestraat",
+    "ac_long": "Kleine Smetledestraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1124132.22,
+    "amount_per_capita": 40.49,
+    "yearly_amounts": {
+      "2026": 757902.22,
+      "2027": 366230.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 27.3,
+      "2027": 13.19,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 7",
+    "bd_short": "waarden",
+    "bd_long": "Een waardengedreven lokaal bestuur",
+    "ap_code": "waarden01",
+    "ap_short": "Patrimoniumvisie",
+    "ap_long": "Patrimoniumvisie",
+    "ac_code": "waarden01_waarden0102",
+    "ac_short": "Energieverbruik patrimonium verlagen",
+    "ac_long": "We zetten verder in op het verlagen van ons eigen energieverbruik zowel binnen het patrimonium als het wagenpark.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 873315.17,
+    "amount_per_capita": 31.46,
+    "yearly_amounts": {
+      "2026": 235315.17,
+      "2027": 392000.0,
+      "2028": 246000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.48,
+      "2027": 14.12,
+      "2028": 8.86,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 2",
+    "bd_short": "ruimte",
+    "bd_long": "Een aantrekkelijke, groene, klimaatrobuuste publieke ruimte voor iedereen",
+    "ap_code": "ruimte03",
+    "ap_short": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ap_long": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ac_code": "ruimte03_ruimte0304",
+    "ac_short": "Kapellendries - Kalkensteenweg",
+    "ac_long": "Kapellendries - Kalkensteenweg",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 799514.68,
+    "amount_per_capita": 28.8,
+    "yearly_amounts": {
+      "2026": 749514.68,
+      "2027": 50000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 27.0,
+      "2027": 1.8,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 2",
+    "bd_short": "ruimte",
+    "bd_long": "Een aantrekkelijke, groene, klimaatrobuuste publieke ruimte voor iedereen",
+    "ap_code": "ruimte02",
+    "ap_short": "Een groene en klimaatrobuuste publieke ruimte voor iedereen",
+    "ap_long": "Een groene en klimaatrobuuste publieke ruimte voor iedereen",
+    "ac_code": "ruimte02_ruimte0201",
+    "ac_short": "Aanpak droogte en wateroverlast via ontharding",
+    "ac_long": "We binden de strijd aan tegen droogte en (zowel fluviale als pluviale) wateroverlast. We gaan concreet aan de slag met de Blue Deal door 1.000 m² te ontharden per jaar en 5.000 m³ bijkomende waterbufferingscapaciteit te creëren tegen 2031.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 593063.29,
+    "amount_per_capita": 21.36,
+    "yearly_amounts": {
+      "2026": 93063.29,
+      "2027": 125000.0,
+      "2028": 125000.0,
+      "2029": 125000.0,
+      "2030": 125000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.35,
+      "2027": 4.5,
+      "2028": 4.5,
+      "2029": 4.5,
+      "2030": 4.5,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 2",
+    "bd_short": "ruimte",
+    "bd_long": "Een aantrekkelijke, groene, klimaatrobuuste publieke ruimte voor iedereen",
+    "ap_code": "ruimte03",
+    "ap_short": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ap_long": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ac_code": "ruimte03_ruimte0313",
+    "ac_short": "Stuyvenberg (afwerking)",
+    "ac_long": "Stuyvenberg (afwerking)",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 464411.25,
+    "amount_per_capita": 16.73,
+    "yearly_amounts": {
+      "2026": 464411.25,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 16.73,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 2",
+    "bd_short": "ruimte",
+    "bd_long": "Een aantrekkelijke, groene, klimaatrobuuste publieke ruimte voor iedereen",
+    "ap_code": "ruimte03",
+    "ap_short": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ap_long": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ac_code": "ruimte03_ruimte0308",
+    "ac_short": "Dorenhofweg",
+    "ac_long": "Dorenhofweg",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 431750.0,
+    "amount_per_capita": 15.55,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 381750.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.8,
+      "2027": 13.75,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 5",
+    "bd_short": "VEILIG",
+    "bd_long": "Proper en veilig Wetteren",
+    "ap_code": "veilig01",
+    "ap_short": "Een propere en veilige gemeente",
+    "ap_long": "Een propere en veilige gemeente",
+    "ac_code": "veilig01_veilig0101",
+    "ac_short": "Veiligheid verhogen",
+    "ac_long": "We zetten in op een kordate aanpak van overlastfenomenen (zoals sluikstort, zwerfvuil, overlast dieren) met aandacht voor het centrum.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 370000.0,
+    "amount_per_capita": 13.33,
+    "yearly_amounts": {
+      "2026": 120000.0,
+      "2027": 120000.0,
+      "2028": 70000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.32,
+      "2027": 4.32,
+      "2028": 2.52,
+      "2029": 0.72,
+      "2030": 0.72,
+      "2031": 0.72
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 4",
+    "bd_short": "Beleving",
+    "bd_long": "Een gevarieerd belevingsaanbod",
+    "ap_code": "beleving03",
+    "ap_short": "Toegankelijke activiteiten",
+    "ap_long": "Toegankelijke activiteiten: een waaier aan mogelijkheden en slim infrastructuurgebruik",
+    "ac_code": "beleving03_beleving0302",
+    "ac_short": "Speelweefselplan verder uitrollen",
+    "ac_long": "We blijven verder investeren in de uitrol van het speelweefselplan en garanderen zo ruimte voor kinderen en jongeren om te spelen en elkaar te ontmoeten.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 355492.05,
+    "amount_per_capita": 12.8,
+    "yearly_amounts": {
+      "2026": 135492.05,
+      "2027": 75000.0,
+      "2028": 60000.0,
+      "2029": 45000.0,
+      "2030": 40000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.88,
+      "2027": 2.7,
+      "2028": 2.16,
+      "2029": 1.62,
+      "2030": 1.44,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 3",
+    "bd_short": "onderweg",
+    "bd_long": "Veilig en vlot onderweg in Wetteren",
+    "ap_code": "onderweg01",
+    "ap_short": "Vlot en veilig",
+    "ap_long": "Vlot en veilig, met aandacht voor de buurtbewoners en alle gebruikers van het openbaar domein",
+    "ac_code": "onderweg01_onderweg0104",
+    "ac_short": "Trage wegen versterken en prioriteren",
+    "ac_long": "We onderhouden en verbeteren de bestaande trage wegen en promoten zo het gebruik van actieve vervoersmodi.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 300000.0,
+    "amount_per_capita": 10.81,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 100000.0,
+      "2028": 100000.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.6,
+      "2028": 3.6,
+      "2029": 3.6,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 2",
+    "bd_short": "ruimte",
+    "bd_long": "Een aantrekkelijke, groene, klimaatrobuuste publieke ruimte voor iedereen",
+    "ap_code": "ruimte03",
+    "ap_short": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ap_long": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ac_code": "ruimte03_ruimte0307",
+    "ac_short": "Smetledesteenweg",
+    "ac_long": "Smetledesteenweg",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 279239.92,
+    "amount_per_capita": 10.06,
+    "yearly_amounts": {
+      "2026": 279239.92,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 10.06,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 3",
+    "bd_short": "onderweg",
+    "bd_long": "Veilig en vlot onderweg in Wetteren",
+    "ap_code": "onderweg02",
+    "ap_short": "STOP-principe",
+    "ap_long": "STOP-principe",
+    "ac_code": "onderweg02_onderweg0202",
+    "ac_short": "Woon-schoolverkeer veiliger maken",
+    "ac_long": "We verhogen doorlopend de verkeersveiligheid van scholieren, zowel op de route naar school als aan de schoolpoorten.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 225000.0,
+    "amount_per_capita": 8.1,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 75000.0,
+      "2028": 75000.0,
+      "2029": 75000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.7,
+      "2028": 2.7,
+      "2029": 2.7,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 4",
+    "bd_short": "Beleving",
+    "bd_long": "Een gevarieerd belevingsaanbod",
+    "ap_code": "beleving04",
+    "ap_short": "Wijken en wijkwerking versterken",
+    "ap_long": "Wijken en wijkwerking versterken",
+    "ac_code": "beleving04_beleving0402",
+    "ac_short": "Buurtinitiatieven financieel en logistiek steunen",
+    "ac_long": "Tegen 2031 ondersteunt het lokaal bestuur informele buurtinitiatieven via een laagdrempelig subsidiereglement, met als doel de sociale cohesie in alle deelwijken van de gemeente te versterken.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 120000.0,
+    "amount_per_capita": 4.32,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0.72,
+      "2027": 0.72,
+      "2028": 0.72,
+      "2029": 0.72,
+      "2030": 0.72,
+      "2031": 0.72
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 2",
+    "bd_short": "ruimte",
+    "bd_long": "Een aantrekkelijke, groene, klimaatrobuuste publieke ruimte voor iedereen",
+    "ap_code": "ruimte01",
+    "ap_short": "Een aantrekkelijke en leefbare publieke ruimte",
+    "ap_long": "Een aantrekkelijke en leefbare publieke ruimte",
+    "ac_code": "ruimte01_ruimte0104",
+    "ac_short": "Gedenkplekken inrichten en behouden",
+    "ac_long": "We maken voldoende ruimte voor gedenkplekken in ons openbaar domein. We organiseren driejaarlijks een aanplantactie in het geboortebos, creëren rouwplaatsen op de begraafplaatsen en richten onze begraafplaatsen in als kwalitatieve groenzone.",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 3.96,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 80000.0,
+      "2028": 25000.0,
+      "2029": 0,
+      "2030": 5000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.88,
+      "2028": 0.9,
+      "2029": 0,
+      "2030": 0.18,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 4",
+    "bd_short": "Beleving",
+    "bd_long": "Een gevarieerd belevingsaanbod",
+    "ap_code": "beleving01",
+    "ap_short": "Een gevarieerd aanbod voor sport, cultuur en ontmoeting",
+    "ap_long": "Een gevarieerd aanbod voor sport, cultuur en ontmoeting",
+    "ac_code": "beleving01_beleving0102",
+    "ac_short": "Activiteiten en evenementen stimuleren",
+    "ac_long": "We stimuleren activiteiten en evenementen in de gemeente waarmee we Wetteren beter op de kaart zetten. Dit doen we zowel vanuit een actorrol als een regierol met aandacht voor de verschillende wijken.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 60000.0,
+    "amount_per_capita": 2.16,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 20000.0,
+      "2029": 0,
+      "2030": 20000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.72,
+      "2027": 0,
+      "2028": 0.72,
+      "2029": 0,
+      "2030": 0.72,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 3",
+    "bd_short": "onderweg",
+    "bd_long": "Veilig en vlot onderweg in Wetteren",
+    "ap_code": "onderweg01",
+    "ap_short": "Vlot en veilig",
+    "ap_long": "Vlot en veilig, met aandacht voor de buurtbewoners en alle gebruikers van het openbaar domein",
+    "ac_code": "onderweg01_onderweg0103",
+    "ac_short": "Sluipverkeer en snelheid verminderen",
+    "ac_long": "We beperken het doorgaand verkeer door woonwijken en woonstraten door slimme maatregelen. Door middel van infrastructurele ingrepen en meer handhaving pakken we overdreven snelheden aan.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 1.44,
+    "yearly_amounts": {
+      "2026": 40000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.44,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 3",
+    "bd_short": "onderweg",
+    "bd_long": "Veilig en vlot onderweg in Wetteren",
+    "ap_code": "onderweg02",
+    "ap_short": "STOP-principe",
+    "ap_long": "STOP-principe",
+    "ac_code": "onderweg02_onderweg0201",
+    "ac_short": "Realiseren duurzame mobiliteitsingrepen",
+    "ac_long": "We realiseren verschillende duurzame mobiliteitsingrepen die een modal split richting aangepast weggebruik ten goede komen.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 1.44,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 20000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.72,
+      "2027": 0.72,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 2",
+    "bd_short": "ruimte",
+    "bd_long": "Een aantrekkelijke, groene, klimaatrobuuste publieke ruimte voor iedereen",
+    "ap_code": "ruimte03",
+    "ap_short": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ap_long": "Een toekomstgericht wegenis- en rioleringsstelsel",
+    "ac_code": "ruimte03_ruimte0302",
+    "ac_short": "Biezeweg - Neerhonderd - Biezen (afwerking)",
+    "ac_long": "Biezeweg - Neerhonderd - Biezen (afwerking)",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 32274.9,
+    "amount_per_capita": 1.16,
+    "yearly_amounts": {
+      "2026": 32274.9,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.16,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 4",
+    "bd_short": "Beleving",
+    "bd_long": "Een gevarieerd belevingsaanbod",
+    "ap_code": "beleving02",
+    "ap_short": "Stimuleren van economische bedrijvigheid",
+    "ap_long": "Stimuleren van economische bedrijvigheid",
+    "ac_code": "beleving02_beleving0204",
+    "ac_short": "Centrum en dorpskernen aantrekkelijk maken",
+    "ac_long": "We verfraaien het uitzicht van onze dorpskernen en winkelstraten tegen 2030.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 17000.0,
+    "amount_per_capita": 0.61,
+    "yearly_amounts": {
+      "2026": 17000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.61,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 7",
+    "bd_short": "waarden",
+    "bd_long": "Een waardengedreven lokaal bestuur",
+    "ap_code": "waarden03",
+    "ap_short": "Organisatieontwikkeling",
+    "ap_long": "Organisatieontwikkeling",
+    "ac_code": "waarden03_waarden0301",
+    "ac_short": "Datagedreven beleid via governance model ondersteunen",
+    "ac_long": "We ontwikkelen een data governance model en werken een uniform kader uit voor een meer datagedreven beleid over alle beleidsdomeinen heen.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 14300.0,
+    "amount_per_capita": 0.52,
+    "yearly_amounts": {
+      "2026": 14300.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.52,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Wetteren",
+    "nis_code": "42025",
+    "bd_code": "BDS 8",
     "bd_short": "netwerk",
     "bd_long": "Lokaal bestuur als netwerkorganisatie",
-    "ap_code": "",
+    "ap_code": "netwerk01",
     "ap_short": "Lokaal bestuur als netwerkorganisatie",
     "ap_long": "Lokaal bestuur als netwerkorganisatie",
-    "ac_code": "",
+    "ac_code": "netwerk01_netwerk0101",
     "ac_short": "Participatiebeleid lokaal uitwerken",
     "ac_long": "We versterken de betrokkenheid van lokale belanghebbenden (burgers, verenigingen, ondernemers, ) door een gedragen participatie- en ondersteuningsbeleid en het uitbouwen van onze adviesraden.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 42772432.0,
-    "amount_per_capita": 1545.51,
+    "total_amount": 8500.0,
+    "amount_per_capita": 0.31,
     "yearly_amounts": {
-      "2026": 16410641.0,
-      "2027": 15166109.0,
-      "2028": 6225260.0,
-      "2029": 2254676.0,
-      "2030": 1414351.0,
-      "2031": 1301395.0
+      "2026": 0,
+      "2027": 8500.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 592.97,
-      "2027": 548.0,
-      "2028": 224.94,
-      "2029": 81.47,
-      "2030": 51.11,
-      "2031": 47.02
+      "2026": 0,
+      "2027": 0.31,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]

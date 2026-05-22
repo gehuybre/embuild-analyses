@@ -15,7 +15,7 @@
       "08-onderwijs"
     ],
     "total_amount": 12157000.0,
-    "amount_per_capita": 1067.79,
+    "amount_per_capita": 1067.58,
     "yearly_amounts": {
       "2026": 390000.0,
       "2027": 1224000.0,
@@ -25,11 +25,11 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 34.26,
-      "2027": 107.51,
-      "2028": 274.04,
-      "2029": 426.87,
-      "2030": 225.12,
+      "2026": 34.25,
+      "2027": 107.49,
+      "2028": 273.99,
+      "2029": 426.79,
+      "2030": 225.07,
       "2031": 0
     }
   },
@@ -49,7 +49,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 6775000.0,
-    "amount_per_capita": 595.07,
+    "amount_per_capita": 594.95,
     "yearly_amounts": {
       "2026": 295000.0,
       "2027": 3060000.0,
@@ -60,8 +60,8 @@
     },
     "yearly_per_capita": {
       "2026": 25.91,
-      "2027": 268.77,
-      "2028": 300.39,
+      "2027": 268.72,
+      "2028": 300.33,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -82,10 +82,10 @@
     "categories": [
       "00-algemene-financiering"
     ],
-    "total_amount": 3096549.0,
-    "amount_per_capita": 271.98,
+    "total_amount": 3171014.15,
+    "amount_per_capita": 278.47,
     "yearly_amounts": {
-      "2026": 1520043.0,
+      "2026": 1594508.15,
       "2027": 353790.0,
       "2028": 353239.0,
       "2029": 396413.0,
@@ -93,12 +93,46 @@
       "2031": 279877.0
     },
     "yearly_per_capita": {
-      "2026": 133.51,
+      "2026": 140.02,
       "2027": 31.07,
-      "2028": 31.03,
-      "2029": 34.82,
-      "2030": 16.97,
+      "2028": 31.02,
+      "2029": 34.81,
+      "2030": 16.96,
       "2031": 24.58
+    }
+  },
+  {
+    "municipality": "Oud-Heverlee",
+    "nis_code": "24086",
+    "bd_code": "BD000001",
+    "bd_short": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
+    "bd_long": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
+    "ap_code": "AP000002",
+    "ap_short": "We investeren in de verdere ontwikkeling van het Zoet Water.",
+    "ap_long": "We investeren in de verdere ontwikkeling van het Zoet Water, het hart van het nationaal park Brabantse Wouden.",
+    "ac_code": "AC000005",
+    "ac_short": "We voeren de geplande werken aan het Zoet Water uit samen met onze partners en subsidieverleners.",
+    "ac_long": "We voeren de geplande werken aan het Zoet Water uit samen met onze partners en subsidieverleners zoals het Agentschap voor Natuur en Bos, de provincie Vlaams-Brabant, het Agentschap Onroerend Erfgoed en het SP Walden. Dit betreft de herinrichtingswerken aan de vijvers, het apart leggen van de Vaalbeek en de herinrichting van de oevers.",
+    "categories": [
+      "03-natuur-milieu"
+    ],
+    "total_amount": 2450517.57,
+    "amount_per_capita": 215.2,
+    "yearly_amounts": {
+      "2026": 2450517.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 215.2,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   },
   {
@@ -117,7 +151,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1990500.0,
-    "amount_per_capita": 174.83,
+    "amount_per_capita": 174.8,
     "yearly_amounts": {
       "2026": 65000.0,
       "2027": 65000.0,
@@ -130,42 +164,8 @@
       "2026": 5.71,
       "2027": 5.71,
       "2028": 5.71,
-      "2029": 78.65,
-      "2030": 79.05,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Oud-Heverlee",
-    "nis_code": "24086",
-    "bd_code": "BD000001",
-    "bd_short": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
-    "bd_long": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
-    "ap_code": "AP000002",
-    "ap_short": "We investeren in de verdere ontwikkeling van het Zoet Water.",
-    "ap_long": "We investeren in de verdere ontwikkeling van het Zoet Water, het hart van het nationaal park Brabantse Wouden.",
-    "ac_code": "AC000005",
-    "ac_short": "We voeren de geplande werken aan het Zoet Water uit samen met onze partners en subsidieverleners.",
-    "ac_long": "We voeren de geplande werken aan het Zoet Water uit samen met onze partners en subsidieverleners zoals het Agentschap voor Natuur en Bos, de provincie Vlaams-Brabant, het Agentschap Onroerend Erfgoed en het SP Walden. Dit betreft de herinrichtingswerken aan de vijvers, het apart leggen van de Vaalbeek en de herinrichting van de oevers.",
-    "categories": [
-      "03-natuur-milieu"
-    ],
-    "total_amount": 1637000.0,
-    "amount_per_capita": 143.78,
-    "yearly_amounts": {
-      "2026": 1637000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 143.78,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
+      "2029": 78.64,
+      "2030": 79.03,
       "2031": 0
     }
   },
@@ -185,7 +185,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 1290500.0,
-    "amount_per_capita": 113.35,
+    "amount_per_capita": 113.33,
     "yearly_amounts": {
       "2026": 305000.0,
       "2027": 305500.0,
@@ -195,11 +195,11 @@
       "2031": 84000.0
     },
     "yearly_per_capita": {
-      "2026": 26.79,
+      "2026": 26.78,
       "2027": 26.83,
-      "2028": 15.9,
+      "2028": 15.89,
       "2029": 7.2,
-      "2030": 29.25,
+      "2030": 29.24,
       "2031": 7.38
     }
   },
@@ -219,7 +219,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 944880.0,
-    "amount_per_capita": 82.99,
+    "amount_per_capita": 82.98,
     "yearly_amounts": {
       "2026": 85000.0,
       "2027": 699720.0,
@@ -229,10 +229,44 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 7.47,
-      "2027": 61.46,
-      "2028": 14.07,
+      "2026": 7.46,
+      "2027": 61.45,
+      "2028": 14.06,
       "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oud-Heverlee",
+    "nis_code": "24086",
+    "bd_code": "BD000001",
+    "bd_short": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
+    "bd_long": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
+    "ap_code": "AP000002",
+    "ap_short": "We investeren in de verdere ontwikkeling van het Zoet Water.",
+    "ap_long": "We investeren in de verdere ontwikkeling van het Zoet Water, het hart van het nationaal park Brabantse Wouden.",
+    "ac_code": "AC000007",
+    "ac_short": "De omgevingsaanleg van het zuidelijk deel van de site Zoet Water wordt verder uitgewerkt.",
+    "ac_long": "De omgevingsaanleg van het zuidelijk deel van de site Zoet Water wordt verder uitgewerkt als aantrekkelijke onthaalzone tot het Zoet Waterpark en de Roosenberg met aandacht voor parkeren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 893236.24,
+    "amount_per_capita": 78.44,
+    "yearly_amounts": {
+      "2026": 252036.24,
+      "2027": 20400.0,
+      "2028": 20800.0,
+      "2029": 600000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 22.13,
+      "2027": 1.79,
+      "2028": 1.83,
+      "2029": 52.69,
       "2030": 0,
       "2031": 0
     }
@@ -253,7 +287,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 825000.0,
-    "amount_per_capita": 72.46,
+    "amount_per_capita": 72.45,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 775000.0,
@@ -264,7 +298,7 @@
     },
     "yearly_per_capita": {
       "2026": 4.39,
-      "2027": 68.07,
+      "2027": 68.06,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -286,10 +320,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 814000.0,
-    "amount_per_capita": 71.5,
+    "total_amount": 812000.0,
+    "amount_per_capita": 71.31,
     "yearly_amounts": {
-      "2026": 130000.0,
+      "2026": 128000.0,
       "2027": 132000.0,
       "2028": 135000.0,
       "2029": 137000.0,
@@ -297,12 +331,12 @@
       "2031": 140000.0
     },
     "yearly_per_capita": {
-      "2026": 11.42,
+      "2026": 11.24,
       "2027": 11.59,
       "2028": 11.86,
       "2029": 12.03,
-      "2030": 12.3,
-      "2031": 12.3
+      "2030": 12.29,
+      "2031": 12.29
     }
   },
   {
@@ -321,7 +355,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 784000.0,
-    "amount_per_capita": 68.86,
+    "amount_per_capita": 68.85,
     "yearly_amounts": {
       "2026": 10000.0,
       "2027": 10000.0,
@@ -334,7 +368,7 @@
       "2026": 0.88,
       "2027": 0.88,
       "2028": 1.76,
-      "2029": 65.35,
+      "2029": 65.34,
       "2030": 0,
       "2031": 0
     }
@@ -355,7 +389,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 705000.0,
-    "amount_per_capita": 61.92,
+    "amount_per_capita": 61.91,
     "yearly_amounts": {
       "2026": 335000.0,
       "2027": 120000.0,
@@ -389,7 +423,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 702700.0,
-    "amount_per_capita": 61.72,
+    "amount_per_capita": 61.71,
     "yearly_amounts": {
       "2026": 152000.0,
       "2027": 40800.0,
@@ -401,43 +435,9 @@
     "yearly_per_capita": {
       "2026": 13.35,
       "2027": 3.58,
-      "2028": 20.1,
+      "2028": 20.09,
       "2029": 23.74,
       "2030": 0.95,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Oud-Heverlee",
-    "nis_code": "24086",
-    "bd_code": "BD000001",
-    "bd_short": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
-    "bd_long": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
-    "ap_code": "AP000002",
-    "ap_short": "We investeren in de verdere ontwikkeling van het Zoet Water.",
-    "ap_long": "We investeren in de verdere ontwikkeling van het Zoet Water, het hart van het nationaal park Brabantse Wouden.",
-    "ac_code": "AC000007",
-    "ac_short": "De omgevingsaanleg van het zuidelijk deel van de site Zoet Water wordt verder uitgewerkt.",
-    "ac_long": "De omgevingsaanleg van het zuidelijk deel van de site Zoet Water wordt verder uitgewerkt als aantrekkelijke onthaalzone tot het Zoet Waterpark en de Roosenberg met aandacht voor parkeren.",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 661200.0,
-    "amount_per_capita": 58.08,
-    "yearly_amounts": {
-      "2026": 20000.0,
-      "2027": 20400.0,
-      "2028": 20800.0,
-      "2029": 600000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.76,
-      "2027": 1.79,
-      "2028": 1.83,
-      "2029": 52.7,
-      "2030": 0,
       "2031": 0
     }
   },
@@ -456,10 +456,10 @@
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 650000.0,
-    "amount_per_capita": 57.09,
+    "total_amount": 625000.0,
+    "amount_per_capita": 54.89,
     "yearly_amounts": {
-      "2026": 25000.0,
+      "2026": 0,
       "2027": 25000.0,
       "2028": 25000.0,
       "2029": 250000.0,
@@ -467,11 +467,11 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 2.2,
+      "2026": 0,
       "2027": 2.2,
       "2028": 2.2,
-      "2029": 21.96,
-      "2030": 28.55,
+      "2029": 21.95,
+      "2030": 28.54,
       "2031": 0
     }
   },
@@ -491,7 +491,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 534000.0,
-    "amount_per_capita": 46.9,
+    "amount_per_capita": 46.89,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -505,7 +505,7 @@
       "2027": 0,
       "2028": 1.76,
       "2029": 5.62,
-      "2030": 39.53,
+      "2030": 39.52,
       "2031": 0
     }
   },
@@ -525,7 +525,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 506000.0,
-    "amount_per_capita": 44.44,
+    "amount_per_capita": 44.43,
     "yearly_amounts": {
       "2026": 280000.0,
       "2027": 226000.0,
@@ -559,7 +559,7 @@
       "02-mobiliteit"
     ],
     "total_amount": 469400.0,
-    "amount_per_capita": 41.23,
+    "amount_per_capita": 41.22,
     "yearly_amounts": {
       "2026": 50000.0,
       "2027": 142800.0,
@@ -593,7 +593,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 422000.0,
-    "amount_per_capita": 37.07,
+    "amount_per_capita": 37.06,
     "yearly_amounts": {
       "2026": 134500.0,
       "2027": 34500.0,
@@ -661,7 +661,7 @@
       "01-algemeen-bestuur"
     ],
     "total_amount": 383000.0,
-    "amount_per_capita": 33.64,
+    "amount_per_capita": 33.63,
     "yearly_amounts": {
       "2026": 93100.0,
       "2027": 0,
@@ -709,7 +709,7 @@
       "2027": 3.58,
       "2028": 0,
       "2029": 0,
-      "2030": 14.62,
+      "2030": 14.61,
       "2031": 4.74
     }
   },
@@ -750,6 +750,40 @@
   {
     "municipality": "Oud-Heverlee",
     "nis_code": "24086",
+    "bd_code": "BD000002",
+    "bd_short": "We investeren in ons gebouwenpatrimonium, met nadruk op duurzaam veelzijdig efficiënt ruimtegebruik",
+    "bd_long": "We investeren fors in ons gebouwenpatrimonium, met de nadruk op duurzaam, veelzijdig en efficiënt ruimtegebruik.",
+    "ap_code": "AP000007",
+    "ap_short": "We investeren in onze gemeentelijke gebouwen en werken aan een toekomstvisie voor ons patrimonium.",
+    "ap_long": "We investeren gericht in onze gemeentelijke gebouwen en werken aan een toekomstvisie voor ons ganse patrimonium.",
+    "ac_code": "AC000135",
+    "ac_short": "De parochiezaal wordt gerenoveerd of vernieuwbouwd",
+    "ac_long": "De parochiezaal wordt gerenoveerd of vernieuwbouwd",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 250424.83,
+    "amount_per_capita": 21.99,
+    "yearly_amounts": {
+      "2026": 250424.83,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 21.99,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oud-Heverlee",
+    "nis_code": "24086",
     "bd_code": "BD000001",
     "bd_short": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
     "bd_long": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
@@ -774,7 +808,7 @@
     },
     "yearly_per_capita": {
       "2026": 1.76,
-      "2027": 16.13,
+      "2027": 16.12,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -796,10 +830,10 @@
     "categories": [
       "01-algemeen-bestuur"
     ],
-    "total_amount": 159000.0,
-    "amount_per_capita": 13.97,
+    "total_amount": 175577.0,
+    "amount_per_capita": 15.42,
     "yearly_amounts": {
-      "2026": 91000.0,
+      "2026": 107577.0,
       "2027": 5000.0,
       "2028": 33000.0,
       "2029": 5000.0,
@@ -807,7 +841,7 @@
       "2031": 5000.0
     },
     "yearly_per_capita": {
-      "2026": 7.99,
+      "2026": 9.45,
       "2027": 0.44,
       "2028": 2.9,
       "2029": 0.44,
@@ -846,7 +880,7 @@
       "2028": 2.28,
       "2029": 2.33,
       "2030": 2.37,
-      "2031": 2.42
+      "2031": 2.41
     }
   },
   {
@@ -865,7 +899,7 @@
       "09-zorg-opvang"
     ],
     "total_amount": 147500.0,
-    "amount_per_capita": 12.96,
+    "amount_per_capita": 12.95,
     "yearly_amounts": {
       "2026": 80000.0,
       "2027": 30000.0,
@@ -876,7 +910,7 @@
     },
     "yearly_per_capita": {
       "2026": 7.03,
-      "2027": 2.64,
+      "2027": 2.63,
       "2028": 0.88,
       "2029": 0.88,
       "2030": 0.88,
@@ -1192,40 +1226,6 @@
   {
     "municipality": "Oud-Heverlee",
     "nis_code": "24086",
-    "bd_code": "BD000003",
-    "bd_short": "Kwaliteitsvolle ruimtelijke ordening met aandacht voor landelijke karakter en klimaatuitdagingen",
-    "bd_long": "We behouden het landelijke en groene karakter van onze gemeente door in te zetten op een kwaliteitsvolle ruimtelijke ordening met aandacht voor de klimaatuitdagingen.",
-    "ap_code": "AP000016",
-    "ap_short": "We voeren een diervriendelijk beleid voor landbouw, huis- en wilde dieren.",
-    "ap_long": "We voeren een diervriendelijk beleid voor landbouw, huis- en wilde dieren.",
-    "ac_code": "AC000060",
-    "ac_short": "We werken actief mee aan het onderzoek naar een erkend intergemeentelijk dierenopvangcentrum.",
-    "ac_long": "We werken actief mee aan het onderzoek naar een erkend intergemeentelijk dierenopvangcentrum.",
-    "categories": [
-      "04-veiligheidszorg"
-    ],
-    "total_amount": 50000.0,
-    "amount_per_capita": 4.39,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 50000.0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 4.39,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Oud-Heverlee",
-    "nis_code": "24086",
     "bd_code": "BD000001",
     "bd_short": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
     "bd_long": "We werken aan een aantrekkelijke, toegankelijke en veilige gemeente.",
@@ -1260,6 +1260,40 @@
   {
     "municipality": "Oud-Heverlee",
     "nis_code": "24086",
+    "bd_code": "BD000003",
+    "bd_short": "Kwaliteitsvolle ruimtelijke ordening met aandacht voor landelijke karakter en klimaatuitdagingen",
+    "bd_long": "We behouden het landelijke en groene karakter van onze gemeente door in te zetten op een kwaliteitsvolle ruimtelijke ordening met aandacht voor de klimaatuitdagingen.",
+    "ap_code": "AP000016",
+    "ap_short": "We voeren een diervriendelijk beleid voor landbouw, huis- en wilde dieren.",
+    "ap_long": "We voeren een diervriendelijk beleid voor landbouw, huis- en wilde dieren.",
+    "ac_code": "AC000060",
+    "ac_short": "We werken actief mee aan het onderzoek naar een erkend intergemeentelijk dierenopvangcentrum.",
+    "ac_long": "We werken actief mee aan het onderzoek naar een erkend intergemeentelijk dierenopvangcentrum.",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 4.39,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 50000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 4.39,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oud-Heverlee",
+    "nis_code": "24086",
     "bd_code": "BD000005",
     "bd_short": "We maken van Oud-Heverlee een warme gemeente voor elke inwoner.",
     "bd_long": "We maken van Oud-Heverlee een warme gemeente voor elke inwoner.",
@@ -1272,10 +1306,10 @@
     "categories": [
       "09-zorg-opvang"
     ],
-    "total_amount": 35000.0,
-    "amount_per_capita": 3.07,
+    "total_amount": 42000.0,
+    "amount_per_capita": 3.69,
     "yearly_amounts": {
-      "2026": 15000.0,
+      "2026": 22000.0,
       "2027": 4000.0,
       "2028": 4000.0,
       "2029": 4000.0,
@@ -1283,7 +1317,7 @@
       "2031": 4000.0
     },
     "yearly_per_capita": {
-      "2026": 1.32,
+      "2026": 1.93,
       "2027": 0.35,
       "2028": 0.35,
       "2029": 0.35,
@@ -1307,7 +1341,7 @@
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 30000.0,
-    "amount_per_capita": 2.64,
+    "amount_per_capita": 2.63,
     "yearly_amounts": {
       "2026": 5000.0,
       "2027": 5000.0,
@@ -1352,40 +1386,6 @@
     },
     "yearly_per_capita": {
       "2026": 2.2,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Oud-Heverlee",
-    "nis_code": "24086",
-    "bd_code": "BD000004",
-    "bd_short": "We zorgen voor een slagkrachtige, financieel robuuste en toekomstbestendige organisatie.",
-    "bd_long": "We zorgen ervoor dat Oud-Heverlee een slagkrachtige, financieel robuuste en toekomstbestendige organisatie is.",
-    "ap_code": "AP000023",
-    "ap_short": "We voeren een toekomstgericht HR-beleid.",
-    "ap_long": "We voeren een toekomstgericht HR-beleid met de klemtoon op kwalitatieve dienstverlening en welzijn van de medewerkers.",
-    "ac_code": "AC000081",
-    "ac_short": "De personeelsnoden worden afgestemd op de toekomstige uitdagingen.",
-    "ac_long": "De personeelsnoden worden afgestemd op de toekomstige uitdagingen, rekening houdend met de gewenste beleidsdoelstellingen, de gewenste en aanwezige competenties en het werkingskader.",
-    "categories": [
-      "01-algemeen-bestuur"
-    ],
-    "total_amount": 20000.0,
-    "amount_per_capita": 1.76,
-    "yearly_amounts": {
-      "2026": 20000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 1.76,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -1441,6 +1441,40 @@
     "ac_long": "We werken samen met diverse partners, federaal, intergemeentelijk, lokaal, verenigingen, VZW's,... om het gemeentelijk overstromingsplan te realiseren.",
     "categories": [
       "03-natuur-milieu"
+    ],
+    "total_amount": 20000.0,
+    "amount_per_capita": 1.76,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.76,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Oud-Heverlee",
+    "nis_code": "24086",
+    "bd_code": "BD000004",
+    "bd_short": "We zorgen voor een slagkrachtige, financieel robuuste en toekomstbestendige organisatie.",
+    "bd_long": "We zorgen ervoor dat Oud-Heverlee een slagkrachtige, financieel robuuste en toekomstbestendige organisatie is.",
+    "ap_code": "AP000023",
+    "ap_short": "We voeren een toekomstgericht HR-beleid.",
+    "ap_long": "We voeren een toekomstgericht HR-beleid met de klemtoon op kwalitatieve dienstverlening en welzijn van de medewerkers.",
+    "ac_code": "AC000081",
+    "ac_short": "De personeelsnoden worden afgestemd op de toekomstige uitdagingen.",
+    "ac_long": "De personeelsnoden worden afgestemd op de toekomstige uitdagingen, rekening houdend met de gewenste beleidsdoelstellingen, de gewenste en aanwezige competenties en het werkingskader.",
+    "categories": [
+      "01-algemeen-bestuur"
     ],
     "total_amount": 20000.0,
     "amount_per_capita": 1.76,

@@ -8,14 +8,14 @@
     "ap_code": "",
     "ap_short": "",
     "ap_long": "",
-    "ac_code": "",
+    "ac_code": "overigBeleid_NIHIL",
     "ac_short": "overigBeleid zonder actie",
     "ac_long": "overigBeleid zonder actie",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 11320093.0,
-    "amount_per_capita": 543.11,
+    "amount_per_capita": 542.86,
     "yearly_amounts": {
       "2026": 4638562.0,
       "2027": 2594903.0,
@@ -25,31 +25,31 @@
       "2031": 877757.0
     },
     "yearly_per_capita": {
-      "2026": 222.55,
-      "2027": 124.5,
-      "2028": 57.01,
-      "2029": 53.87,
-      "2030": 43.07,
-      "2031": 42.11
+      "2026": 222.44,
+      "2027": 124.44,
+      "2028": 56.99,
+      "2029": 53.84,
+      "2030": 43.05,
+      "2031": 42.09
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
     "bd_short": "1.6",
     "bd_long": "Sport als verbindende kracht: we investeren in een actieve en sportieve stad",
     "ap_code": "1.6.2",
     "ap_short": "1.6.2",
     "ap_long": "We verfraaien Sportcentrum Benny Vansteelant en voorzien voldoende kleedkamers, bergingen, een kantine en een nieuwe sportvloer in de Mast",
-    "ac_code": "1.6.2",
+    "ac_code": "1.6.2_1.6.2",
     "ac_short": "Actie 1.6.2",
     "ac_long": "We verfraaien Sportcentrum Benny Vansteelant en voorzien voldoende kleedkamers, bergingen, een kantine en een nieuwe sportvloer in de Mast",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 3300000.0,
-    "amount_per_capita": 158.33,
+    "amount_per_capita": 158.25,
     "yearly_amounts": {
       "2026": 0,
       "2027": 3300000.0,
@@ -60,7 +60,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 158.33,
+      "2027": 158.25,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -70,20 +70,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 8",
     "bd_short": "2.2",
     "bd_long": "We maken van Torhout een toegankelijke en verkeersveilige stad",
     "ap_code": "2.2.9",
     "ap_short": "2.2.9",
     "ap_long": "We starten fase 1 op van de dorpskernvernieuwing in Wijnendale",
-    "ac_code": "2.2.9",
+    "ac_code": "2.2.9_2.2.9",
     "ac_short": "Actie 2.2.9",
     "ac_long": "We starten fase 1 op van de dorpskernvernieuwing in Wijnendale",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 3000000.0,
-    "amount_per_capita": 143.93,
+    "amount_per_capita": 143.87,
     "yearly_amounts": {
       "2026": 0,
       "2027": 800000.0,
@@ -94,30 +94,30 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 38.38,
-      "2028": 47.98,
-      "2029": 47.98,
-      "2030": 9.6,
+      "2027": 38.36,
+      "2028": 47.96,
+      "2029": 47.96,
+      "2030": 9.59,
       "2031": 0
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 7",
     "bd_short": "2.1",
     "bd_long": "We streven naar een veilige stad",
     "ap_code": "2.1.3",
     "ap_short": "2.1.3",
     "ap_long": "We zetten mee onze schouders onder een nieuwe brandweerkazerne voor Hulpverleningszone 1",
-    "ac_code": "2.1.3",
+    "ac_code": "2.1.3_2.1.3",
     "ac_short": "Actie 2.1.3",
     "ac_long": "We zetten mee onze schouders onder een nieuwe brandweerkazerne voor Hulpverleningszone 1",
     "categories": [
       "04-veiligheidszorg"
     ],
     "total_amount": 2586520.0,
-    "amount_per_capita": 124.09,
+    "amount_per_capita": 124.04,
     "yearly_amounts": {
       "2026": 1305520.0,
       "2027": 305000.0,
@@ -127,10 +127,10 @@
       "2031": 91500.0
     },
     "yearly_per_capita": {
-      "2026": 62.64,
+      "2026": 62.61,
       "2027": 14.63,
       "2028": 4.39,
-      "2029": 33.66,
+      "2029": 33.64,
       "2030": 4.39,
       "2031": 4.39
     }
@@ -138,20 +138,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 8",
     "bd_short": "2.2",
     "bd_long": "We maken van Torhout een toegankelijke en verkeersveilige stad",
     "ap_code": "2.2.14",
     "ap_short": "2.2.14",
     "ap_long": "We voeren elk jaar onderhoud en herstel uit op wegen",
-    "ac_code": "2.2.14",
+    "ac_code": "2.2.14_2.2.14",
     "ac_short": "Actie 2.2.14",
     "ac_long": "We voeren elk jaar onderhoud en herstel uit op wegen",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 2400000.0,
-    "amount_per_capita": 115.15,
+    "amount_per_capita": 115.09,
     "yearly_amounts": {
       "2026": 400000.0,
       "2027": 400000.0,
@@ -161,31 +161,31 @@
       "2031": 400000.0
     },
     "yearly_per_capita": {
-      "2026": 19.19,
-      "2027": 19.19,
-      "2028": 19.19,
-      "2029": 19.19,
-      "2030": 19.19,
-      "2031": 19.19
+      "2026": 19.18,
+      "2027": 19.18,
+      "2028": 19.18,
+      "2029": 19.18,
+      "2030": 19.18,
+      "2031": 19.18
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 8",
     "bd_short": "2.2",
     "bd_long": "We maken van Torhout een toegankelijke en verkeersveilige stad",
     "ap_code": "2.2.8",
     "ap_short": "2.2.8",
     "ap_long": "We vernieuwen de Driekoningenstraat, de Pottebezemstraat en de Berg op Zoomstraat",
-    "ac_code": "2.2.8",
+    "ac_code": "2.2.8_2.2.8",
     "ac_short": "Actie 2.2.8",
     "ac_long": "We vernieuwen de Driekoningenstraat, de Pottebezemstraat en de Berg-op-Zoomstraat",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 2400000.0,
-    "amount_per_capita": 115.15,
+    "amount_per_capita": 115.09,
     "yearly_amounts": {
       "2026": 1000000.0,
       "2027": 400000.0,
@@ -195,31 +195,31 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 47.98,
-      "2027": 19.19,
+      "2026": 47.96,
+      "2027": 19.18,
       "2028": 0,
-      "2029": 23.99,
-      "2030": 23.99,
+      "2029": 23.98,
+      "2030": 23.98,
       "2031": 0
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "1.2",
     "bd_long": "We voorzien in toegankelijke publieke gebouwen waar mensen elkaar kunnen ontmoeten",
     "ap_code": "1.2.2",
     "ap_short": "1.2.2",
     "ap_long": "We ontwikkelen het jeugd- en speelcentrum De Warande",
-    "ac_code": "1.2.2",
+    "ac_code": "1.2.2_1.2.2",
     "ac_short": "Actie 1.2.2",
     "ac_long": "We ontwikkelen het jeugd- en speelcentrum De Warande",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 2050000.0,
-    "amount_per_capita": 98.35,
+    "amount_per_capita": 98.31,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 1050000.0,
@@ -230,8 +230,8 @@
     },
     "yearly_per_capita": {
       "2026": 11.99,
-      "2027": 50.38,
-      "2028": 35.98,
+      "2027": 50.35,
+      "2028": 35.97,
       "2029": 0,
       "2030": 0,
       "2031": 0
@@ -240,20 +240,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "1.4",
     "bd_long": "We ondersteunen verenigingen en vrijwilligers in hun verbindende rol",
     "ap_code": "1.4.3",
     "ap_short": "1.4.3",
     "ap_long": "We voorzien een nieuw bouw- en onderhoudsfonds voor Torhoutse cultuur- en sportverenigingen",
-    "ac_code": "1.4.3",
+    "ac_code": "1.4.3_1.4.3",
     "ac_short": "Actie 1.4.3",
     "ac_long": "We voorzien een nieuw bouw- en onderhoudsfonds voor Torhoutse cultuur- en sportverenigingen",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 1950286.0,
-    "amount_per_capita": 93.57,
+    "amount_per_capita": 93.53,
     "yearly_amounts": {
       "2026": 1100286.0,
       "2027": 150000.0,
@@ -263,31 +263,31 @@
       "2031": 150000.0
     },
     "yearly_per_capita": {
-      "2026": 52.79,
-      "2027": 7.2,
-      "2028": 9.6,
-      "2029": 7.2,
-      "2030": 9.6,
-      "2031": 7.2
+      "2026": 52.76,
+      "2027": 7.19,
+      "2028": 9.59,
+      "2029": 7.19,
+      "2030": 9.59,
+      "2031": 7.19
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 18",
     "bd_short": "5.1",
     "bd_long": "We zetten verder in op een toekomstgerichte stadsplanning",
     "ap_code": "5.1.2",
     "ap_short": "5.1.2",
     "ap_long": "We ontwikkelen strategische sites om onze ruimtelijke en maatschappelijke doelstellingen te realiseren en verwerven gronden waar dat nodig is",
-    "ac_code": "5.1.2",
+    "ac_code": "5.1.2_5.1.2",
     "ac_short": "Actie 5.1.2",
     "ac_long": "We ontwikkelen strategische sites om onze ruimtelijke en maatschappelijke doelstellingen te realiseren en verwerven gronden waar dat nodig is",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 1695852.0,
-    "amount_per_capita": 81.36,
+    "amount_per_capita": 81.33,
     "yearly_amounts": {
       "2026": 135852.0,
       "2027": 80000.0,
@@ -297,31 +297,31 @@
       "2031": 80000.0
     },
     "yearly_per_capita": {
-      "2026": 6.52,
+      "2026": 6.51,
       "2027": 3.84,
       "2028": 3.84,
       "2029": 3.84,
-      "2030": 59.49,
+      "2030": 59.46,
       "2031": 3.84
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 8",
     "bd_short": "2.2",
     "bd_long": "We maken van Torhout een toegankelijke en verkeersveilige stad",
     "ap_code": "2.2.10",
     "ap_short": "2.2.10",
     "ap_long": "We vernieuwen de Heidestraat, de Waterhoekweg en delen van de Hogestraat, Hillestraat  en Steenveldstraat en verhogen de verkeersveiligheid",
-    "ac_code": "2.2.10",
+    "ac_code": "2.2.10_2.2.10",
     "ac_short": "Actie 2.2.10",
     "ac_long": "We vernieuwen de Heidestraat, de Waterhoekweg en delen van de Hogestraat, Hillestraat  en Steenveldstraat en verhogen de verkeersveiligheid",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 1250000.0,
-    "amount_per_capita": 59.97,
+    "amount_per_capita": 59.94,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -334,28 +334,28 @@
       "2026": 0,
       "2027": 0,
       "2028": 0,
-      "2029": 38.38,
-      "2030": 21.59,
+      "2029": 38.36,
+      "2030": 21.58,
       "2031": 0
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
     "bd_short": "1.1",
     "bd_long": "We zorgen voor aangename groene ontmoetingsplekken in het hart van het Houtland",
     "ap_code": "1.1.3",
     "ap_short": "1.1.3",
     "ap_long": "We zetten de vernieuwing van de stadskern verder richting Stationsstraat en vergroenen het voorplein aan het station",
-    "ac_code": "1.1.3",
+    "ac_code": "1.1.3_1.1.3",
     "ac_short": "Actie 1.1.3",
     "ac_long": "We zetten de vernieuwing van de stadskern verder richting Stationsstraat en vergroenen het voorplein aan het station",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 1200000.0,
-    "amount_per_capita": 57.57,
+    "amount_per_capita": 57.55,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -367,29 +367,29 @@
     "yearly_per_capita": {
       "2026": 0,
       "2027": 0,
-      "2028": 9.6,
-      "2029": 23.99,
-      "2030": 23.99,
+      "2028": 9.59,
+      "2029": 23.98,
+      "2030": 23.98,
       "2031": 0
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
     "bd_short": "1.1",
     "bd_long": "We zorgen voor aangename groene ontmoetingsplekken in het hart van het Houtland",
     "ap_code": "1.1.5",
     "ap_short": "1.1.5",
     "ap_long": "We ontwikkelen een eigen stadstuin op de Blekerijsite in samenwerking met Thuiswest",
-    "ac_code": "1.1.5",
+    "ac_code": "1.1.5_1.1.5",
     "ac_short": "Actie 1.1.5",
     "ac_long": "We ontwikkelen een eigen stadstuin op de Blekerijsite in samenwerking met Thuiswest",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 1200000.0,
-    "amount_per_capita": 57.57,
+    "amount_per_capita": 57.55,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 650000.0,
@@ -400,7 +400,7 @@
     },
     "yearly_per_capita": {
       "2026": 11.99,
-      "2027": 31.19,
+      "2027": 31.17,
       "2028": 14.39,
       "2029": 0,
       "2030": 0,
@@ -410,20 +410,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 6",
     "bd_short": "1.6",
     "bd_long": "Sport als verbindende kracht: we investeren in een actieve en sportieve stad",
     "ap_code": "1.6.3",
     "ap_short": "1.6.3",
     "ap_long": "We vernieuwen het kunstgrasveld aan de Velodroom en voorzien een extra kunstgrasveld",
-    "ac_code": "1.6.3",
+    "ac_code": "1.6.3_1.6.3",
     "ac_short": "Actie 1.6.3",
     "ac_long": "We vernieuwen het kunstgrasveld aan de Velodroom en voorzien een extra kunstgrasveld bij het sportstadion",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 1000000.0,
-    "amount_per_capita": 47.98,
+    "amount_per_capita": 47.96,
     "yearly_amounts": {
       "2026": 250000.0,
       "2027": 0,
@@ -435,7 +435,7 @@
     "yearly_per_capita": {
       "2026": 11.99,
       "2027": 0,
-      "2028": 23.99,
+      "2028": 23.98,
       "2029": 0,
       "2030": 11.99,
       "2031": 0
@@ -444,20 +444,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 8",
     "bd_short": "2.2",
     "bd_long": "We maken van Torhout een toegankelijke en verkeersveilige stad",
     "ap_code": "2.2.2",
     "ap_short": "2.2.2",
     "ap_long": "We investeren in veilige, comfortabele en goed verbonden fietspaden",
-    "ac_code": "2.2.2",
+    "ac_code": "2.2.2_2.2.2",
     "ac_short": "Actie 2.2.2",
     "ac_long": "We investeren in veilige, comfortabele en goed verbonden fietspaden",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 930000.0,
-    "amount_per_capita": 44.62,
+    "amount_per_capita": 44.6,
     "yearly_amounts": {
       "2026": 0,
       "2027": 230000.0,
@@ -471,27 +471,27 @@
       "2027": 11.03,
       "2028": 0,
       "2029": 0,
-      "2030": 16.79,
-      "2031": 16.79
+      "2030": 16.78,
+      "2031": 16.78
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "1.5",
     "bd_long": "We stimuleren inwoners om aan cultuurbeleving in de ruime zin te doen",
     "ap_code": "1.5.1",
     "ap_short": "1.5.1",
     "ap_long": "Het Cultuurcentrum en het Vrijetijdshuis vormen samen het nieuwe Cultuurhuis",
-    "ac_code": "1.5.1",
+    "ac_code": "1.5.1_1.5.1",
     "ac_short": "Actie 1.5.1",
     "ac_long": "Het Cultuurcentrum en het Vrijetijdshuis vormen samen het nieuwe Cultuurhuis",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 800000.0,
-    "amount_per_capita": 38.38,
+    "amount_per_capita": 38.36,
     "yearly_amounts": {
       "2026": 800000.0,
       "2027": 0,
@@ -501,7 +501,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 38.38,
+      "2026": 38.36,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -512,20 +512,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 19",
     "bd_short": "5.2",
     "bd_long": "We zorgen voor onze leefomgeving die bestand is tegen klimaatverandering, met aandacht voor waterbeheer, duurzaamheid en kwaliteit van de publieke ruimte",
     "ap_code": "5.2.4",
     "ap_short": "5.2.4",
     "ap_long": "We voeren duurzame investeringen uit binnen ons eigen patrimonium",
-    "ac_code": "5.2.4",
+    "ac_code": "5.2.4_5.2.4",
     "ac_short": "Actie 5.2.4",
     "ac_long": "We voeren duurzame investeringen uit binnen ons eigen patrimonium",
     "categories": [
       "00-algemene-financiering"
     ],
     "total_amount": 751996.0,
-    "amount_per_capita": 36.08,
+    "amount_per_capita": 36.06,
     "yearly_amounts": {
       "2026": 201996.0,
       "2027": 100000.0,
@@ -538,7 +538,7 @@
       "2026": 9.69,
       "2027": 4.8,
       "2028": 4.8,
-      "2029": 7.2,
+      "2029": 7.19,
       "2030": 4.8,
       "2031": 4.8
     }
@@ -546,54 +546,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
-    "bd_short": "5.1",
-    "bd_long": "We zetten verder in op een toekomstgerichte stadsplanning",
-    "ap_code": "5.1.3",
-    "ap_short": "5.1.3",
-    "ap_long": "We ontwikkelen een gedragen toekomstvisie op ons stadspatrimonium",
-    "ac_code": "5.1.3",
-    "ac_short": "Actie 5.1.3",
-    "ac_long": "We ontwikkelen een gedragen toekomstvisie op ons stadspatrimonium",
-    "categories": [
-      "00-algemene-financiering"
-    ],
-    "total_amount": 750000.0,
-    "amount_per_capita": 35.98,
-    "yearly_amounts": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 750000.0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 35.98,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Torhout",
-    "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
     "bd_short": "1.1",
     "bd_long": "We zorgen voor aangename groene ontmoetingsplekken in het hart van het Houtland",
     "ap_code": "1.1.1",
     "ap_short": "1.1.1",
     "ap_long": "We richten het Ravenhofpark opnieuw in en maken een verbinding naar de leestuin van de bibliotheek",
-    "ac_code": "1.1.1",
+    "ac_code": "1.1.1_1.1.1",
     "ac_short": "We richten het Ravenhofpark opnieuw in en maken een verbindi",
     "ac_long": "Het Ravenhofpark, een van de verborgen tuinen uit het masterplan Stadskernvernieuwing, vormen we om tot een veilige en uitnodigende plek vol leven. Het park wordt verbonden met de leestuin van de bib, die we zullen openen en integreren tot één samenhangend geheel.",
     "categories": [
       "06-wonen-ruimte"
     ],
     "total_amount": 750000.0,
-    "amount_per_capita": 35.98,
+    "amount_per_capita": 35.97,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -607,27 +573,61 @@
       "2027": 0,
       "2028": 14.39,
       "2029": 14.39,
-      "2030": 7.2,
+      "2030": 7.19,
       "2031": 0
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 18",
+    "bd_short": "5.1",
+    "bd_long": "We zetten verder in op een toekomstgerichte stadsplanning",
+    "ap_code": "5.1.3",
+    "ap_short": "5.1.3",
+    "ap_long": "We ontwikkelen een gedragen toekomstvisie op ons stadspatrimonium",
+    "ac_code": "5.1.3_5.1.3",
+    "ac_short": "Actie 5.1.3",
+    "ac_long": "We ontwikkelen een gedragen toekomstvisie op ons stadspatrimonium",
+    "categories": [
+      "00-algemene-financiering"
+    ],
+    "total_amount": 750000.0,
+    "amount_per_capita": 35.97,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 750000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 35.97,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Torhout",
+    "nis_code": "31033",
+    "bd_code": "BDS 1",
     "bd_short": "1.1",
     "bd_long": "We zorgen voor aangename groene ontmoetingsplekken in het hart van het Houtland",
     "ap_code": "1.1.2",
     "ap_short": "1.1.2",
     "ap_long": "We maken onze groene ontmoetingsplekken in de wijken aantrekkelijker",
-    "ac_code": "1.1.2",
+    "ac_code": "1.1.2_1.1.2",
     "ac_short": "Actie 1.1.2",
     "ac_long": "We maken onze groene ontmoetingsplekken in de wijken aantrekkelijker",
     "categories": [
       "06-wonen-ruimte"
     ],
     "total_amount": 736376.0,
-    "amount_per_capita": 35.33,
+    "amount_per_capita": 35.31,
     "yearly_amounts": {
       "2026": 236376.0,
       "2027": 100000.0,
@@ -648,20 +648,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 8",
     "bd_short": "2.2",
     "bd_long": "We maken van Torhout een toegankelijke en verkeersveilige stad",
     "ap_code": "2.2.1",
     "ap_short": "2.2.1",
     "ap_long": "We leggen toegankelijke voetpaden aan in het kader van onderhoudswerken",
-    "ac_code": "2.2.1",
+    "ac_code": "2.2.1_2.2.1",
     "ac_short": "Actie 2.2.1",
     "ac_long": "We leggen toegankelijke voetpaden aan in het kader van onderhoudswerken",
     "categories": [
       "02-mobiliteit"
     ],
     "total_amount": 600000.0,
-    "amount_per_capita": 28.79,
+    "amount_per_capita": 28.77,
     "yearly_amounts": {
       "2026": 100000.0,
       "2027": 100000.0,
@@ -682,54 +682,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
-    "bd_short": "5.2",
-    "bd_long": "We zorgen voor onze leefomgeving die bestand is tegen klimaatverandering, met aandacht voor waterbeheer, duurzaamheid en kwaliteit van de publieke ruimte",
-    "ap_code": "5.2.3",
-    "ap_short": "5.2.3",
-    "ap_long": "We vernieuwen de riolering in de Landstraat en Zomerstraat",
-    "ac_code": "5.2.3",
-    "ac_short": "Actie 5.2.3",
-    "ac_long": "We vernieuwen de riolering in de Landstraat en Zomerstraat",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 500000.0,
-    "amount_per_capita": 23.99,
-    "yearly_amounts": {
-      "2026": 500000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 23.99,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Torhout",
-    "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 11",
     "bd_short": "3.2",
     "bd_long": "We ondersteunen verantwoord ondernemerschap voor een krachtige lokale economie",
     "ap_code": "3.2.1",
     "ap_short": "3.2.1",
     "ap_long": "Samen met de WVI voorzien we een duurzame herontwikkeling van het bedrijventerrein Torhout Noord",
-    "ac_code": "3.2.1",
+    "ac_code": "3.2.1_3.2.1",
     "ac_short": "Actie 3.2.1",
     "ac_long": "Samen met de WVI voorzien we een duurzame herontwikkeling van het bedrijventerrein Torhout Noord",
     "categories": [
       "05-ondernemen-werken"
     ],
     "total_amount": 500000.0,
-    "amount_per_capita": 23.99,
+    "amount_per_capita": 23.98,
     "yearly_amounts": {
       "2026": 0,
       "2027": 0,
@@ -744,26 +710,60 @@
       "2028": 0,
       "2029": 0,
       "2030": 0,
-      "2031": 23.99
+      "2031": 23.98
     }
   },
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 19",
+    "bd_short": "5.2",
+    "bd_long": "We zorgen voor onze leefomgeving die bestand is tegen klimaatverandering, met aandacht voor waterbeheer, duurzaamheid en kwaliteit van de publieke ruimte",
+    "ap_code": "5.2.3",
+    "ap_short": "5.2.3",
+    "ap_long": "We vernieuwen de riolering in de Landstraat en Zomerstraat",
+    "ac_code": "5.2.3_5.2.3",
+    "ac_short": "Actie 5.2.3",
+    "ac_long": "We vernieuwen de riolering in de Landstraat en Zomerstraat",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 500000.0,
+    "amount_per_capita": 23.98,
+    "yearly_amounts": {
+      "2026": 500000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 23.98,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Torhout",
+    "nis_code": "31033",
+    "bd_code": "BDS 1",
     "bd_short": "1.1",
     "bd_long": "We zorgen voor aangename groene ontmoetingsplekken in het hart van het Houtland",
     "ap_code": "1.1.4",
     "ap_short": "1.1.4",
     "ap_long": "We verhogen het speelplezier door de speelpleinen in o.a. Wijnendale en de Goede Herder te renoveren, overdekte chillplaatsen en een mobiel speelplein in het centrum te voorzien",
-    "ac_code": "1.1.4",
+    "ac_code": "1.1.4_1.1.4",
     "ac_short": "Actie 1.1.4",
     "ac_long": "We verhogen het speelplezier door de renovatie van de speelpleinen in onder andere Wijnendale en de Goede Herder. We leggen overdekte chillplaatsen aan en voorzien een mobiel speelplein in het centrum.",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
     "total_amount": 493048.0,
-    "amount_per_capita": 23.66,
+    "amount_per_capita": 23.64,
     "yearly_amounts": {
       "2026": 193048.0,
       "2027": 60000.0,
@@ -784,20 +784,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 8",
     "bd_short": "2.2",
     "bd_long": "We maken van Torhout een toegankelijke en verkeersveilige stad",
     "ap_code": "2.2.6",
     "ap_short": "2.2.6",
     "ap_long": "We kiezen bewust voor elektrische voertuigen binnen onze organisatie",
-    "ac_code": "2.2.6",
+    "ac_code": "2.2.6_2.2.6",
     "ac_short": "Actie 2.2.6",
     "ac_long": "We kiezen bewust voor elektrische voertuigen binnen onze organisatie",
     "categories": [
       "01-algemeen-bestuur"
     ],
     "total_amount": 356874.0,
-    "amount_per_capita": 17.12,
+    "amount_per_capita": 17.11,
     "yearly_amounts": {
       "2026": 76874.0,
       "2027": 160000.0,
@@ -808,9 +808,9 @@
     },
     "yearly_per_capita": {
       "2026": 3.69,
-      "2027": 7.68,
+      "2027": 7.67,
       "2028": 0,
-      "2029": 5.76,
+      "2029": 5.75,
       "2030": 0,
       "2031": 0
     }
@@ -818,13 +818,13 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "1.2",
     "bd_long": "We voorzien in toegankelijke publieke gebouwen waar mensen elkaar kunnen ontmoeten",
     "ap_code": "1.2.4",
     "ap_short": "1.2.4",
     "ap_long": "We zorgen voor extra zitplekken, fietsnietjes en picknicktafels in het centrum en de wijken en openbare toiletten in het centrum",
-    "ac_code": "1.2.4",
+    "ac_code": "1.2.4_1.2.4",
     "ac_short": "Actie 1.2.4",
     "ac_long": "We zorgen voor extra zitplekken, fietsnietjes en picknicktafels in het centrum en de wijken en een openbaar toilet in het centrum",
     "categories": [
@@ -852,20 +852,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 12",
     "bd_short": "3.3",
     "bd_long": "We ondersteunen en promoten de landbouw in Torhout",
     "ap_code": "3.3.1",
     "ap_short": "3.3.1",
     "ap_long": "We leggen een captatiebekken aan in de Parkstraat om water te bufferen voor landbouw",
-    "ac_code": "3.3.1",
+    "ac_code": "3.3.1_3.3.1",
     "ac_short": "Actie 3.3.1",
     "ac_long": "We leggen een captatiebekken aan in de Parkstraat om water te bufferen voor landbouw",
     "categories": [
       "03-natuur-milieu"
     ],
     "total_amount": 286502.0,
-    "amount_per_capita": 13.75,
+    "amount_per_capita": 13.74,
     "yearly_amounts": {
       "2026": 286502.0,
       "2027": 0,
@@ -875,7 +875,7 @@
       "2031": 0
     },
     "yearly_per_capita": {
-      "2026": 13.75,
+      "2026": 13.74,
       "2027": 0,
       "2028": 0,
       "2029": 0,
@@ -886,20 +886,20 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 1",
     "bd_short": "1.1",
     "bd_long": "We zorgen voor aangename groene ontmoetingsplekken in het hart van het Houtland",
     "ap_code": "1.1.6",
     "ap_short": "1.1.6",
     "ap_long": "We maken van de begraafplaatsen Stiltepark De Warande en het Oud Kerkhof parkbegraafplaatsen",
-    "ac_code": "1.1.6",
+    "ac_code": "1.1.6_1.1.6",
     "ac_short": "Actie 1.1.6",
     "ac_long": "We maken van de begraafplaatsen Stiltepark De Warande en het Oud Kerkhof parkbegraafplaatsen",
     "categories": [
       "09-zorg-opvang"
     ],
     "total_amount": 150000.0,
-    "amount_per_capita": 7.2,
+    "amount_per_capita": 7.19,
     "yearly_amounts": {
       "2026": 0,
       "2027": 150000.0,
@@ -910,7 +910,7 @@
     },
     "yearly_per_capita": {
       "2026": 0,
-      "2027": 7.2,
+      "2027": 7.19,
       "2028": 0,
       "2029": 0,
       "2030": 0,
@@ -920,13 +920,13 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "1.5",
     "bd_long": "We stimuleren inwoners om aan cultuurbeleving in de ruime zin te doen",
     "ap_code": "1.5.8",
     "ap_short": "1.5.8",
     "ap_long": "We werken samen met Westtoer om onze toeristische troeven op de kaart te brengen",
-    "ac_code": "1.5.8",
+    "ac_code": "1.5.8_1.5.8",
     "ac_short": "Actie 1.5.8",
     "ac_long": "We werken samen met Westtoer en andere partners om onze toeristische troeven op de kaart te brengen",
     "categories": [
@@ -954,81 +954,13 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
-    "bd_short": "2.2",
-    "bd_long": "We maken van Torhout een toegankelijke en verkeersveilige stad",
-    "ap_code": "2.2.11",
-    "ap_short": "2.2.11",
-    "ap_long": "We voeren de heraanleg van de schoolomgeving van de Goede Herder uit",
-    "ac_code": "2.2.11",
-    "ac_short": "Actie 2.2.11",
-    "ac_long": "We voeren de heraanleg van de schoolomgeving van de Goede Herder uit",
-    "categories": [
-      "02-mobiliteit"
-    ],
-    "total_amount": 75000.0,
-    "amount_per_capita": 3.6,
-    "yearly_amounts": {
-      "2026": 75000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 3.6,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Torhout",
-    "nis_code": "31033",
-    "bd_code": "BDS",
-    "bd_short": "1.5",
-    "bd_long": "We stimuleren inwoners om aan cultuurbeleving in de ruime zin te doen",
-    "ap_code": "1.5.9",
-    "ap_short": "1.5.9",
-    "ap_long": "We ontwikkelen een mobilhomepark als extra toeristische troef",
-    "ac_code": "1.5.9",
-    "ac_short": "Actie 1.5.9",
-    "ac_long": "We ontwikkelen een camperplaats als extra toeristische troef",
-    "categories": [
-      "05-ondernemen-werken"
-    ],
-    "total_amount": 75000.0,
-    "amount_per_capita": 3.6,
-    "yearly_amounts": {
-      "2026": 75000.0,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    },
-    "yearly_per_capita": {
-      "2026": 3.6,
-      "2027": 0,
-      "2028": 0,
-      "2029": 0,
-      "2030": 0,
-      "2031": 0
-    }
-  },
-  {
-    "municipality": "Torhout",
-    "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 2",
     "bd_short": "1.2",
     "bd_long": "We voorzien in toegankelijke publieke gebouwen waar mensen elkaar kunnen ontmoeten",
     "ap_code": "1.2.3",
     "ap_short": "1.2.3",
     "ap_long": "We brengen het jeugdhuis onder in de vroegere Mazzel in de Zuidstraat",
-    "ac_code": "1.2.3",
+    "ac_code": "1.2.3_1.2.3",
     "ac_short": "Actie 1.2.3",
     "ac_long": "We brengen het jeugdhuis onder in de vroegere Mazzel in de Zuidstraat",
     "categories": [
@@ -1056,13 +988,81 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
+    "bd_short": "1.5",
+    "bd_long": "We stimuleren inwoners om aan cultuurbeleving in de ruime zin te doen",
+    "ap_code": "1.5.9",
+    "ap_short": "1.5.9",
+    "ap_long": "We ontwikkelen een mobilhomepark als extra toeristische troef",
+    "ac_code": "1.5.9_1.5.9",
+    "ac_short": "Actie 1.5.9",
+    "ac_long": "We ontwikkelen een camperplaats als extra toeristische troef",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 3.6,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Torhout",
+    "nis_code": "31033",
+    "bd_code": "BDS 8",
+    "bd_short": "2.2",
+    "bd_long": "We maken van Torhout een toegankelijke en verkeersveilige stad",
+    "ap_code": "2.2.11",
+    "ap_short": "2.2.11",
+    "ap_long": "We voeren de heraanleg van de schoolomgeving van de Goede Herder uit",
+    "ac_code": "2.2.11_2.2.11",
+    "ac_short": "Actie 2.2.11",
+    "ac_long": "We voeren de heraanleg van de schoolomgeving van de Goede Herder uit",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 75000.0,
+    "amount_per_capita": 3.6,
+    "yearly_amounts": {
+      "2026": 75000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 3.6,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Torhout",
+    "nis_code": "31033",
+    "bd_code": "BDS 5",
     "bd_short": "1.5",
     "bd_long": "We stimuleren inwoners om aan cultuurbeleving in de ruime zin te doen",
     "ap_code": "1.5.17",
     "ap_short": "1.5.17",
     "ap_long": "We willen de bib inrichten als een tweede thuis: een aangename ontmoetingsplaats, een open huis voor alle leeftijden",
-    "ac_code": "1.5.17",
+    "ac_code": "1.5.17_1.5.17",
     "ac_short": "Actie 1.5.17",
     "ac_long": "We willen de bib inrichten als een tweede thuis: een aangename ontmoetingsplaats, een open huis voor alle leeftijden",
     "categories": [
@@ -1090,13 +1090,13 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 5",
     "bd_short": "1.5",
     "bd_long": "We stimuleren inwoners om aan cultuurbeleving in de ruime zin te doen",
     "ap_code": "1.5.4",
     "ap_short": "1.5.4",
     "ap_long": "We lanceren een streetartproject in 2028 en verankeren ART62 als jaarlijks initiatief, samen met gemeenten uit de regio",
-    "ac_code": "1.5.4",
+    "ac_code": "1.5.4_1.5.4",
     "ac_short": "Actie 1.5.4",
     "ac_long": "We lanceren een streetartproject in 2028 en verankeren ART62 als jaarlijks initiatief, samen met gemeenten uit de regio",
     "categories": [
@@ -1124,13 +1124,13 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 7",
     "bd_short": "2.1",
     "bd_long": "We streven naar een veilige stad",
     "ap_code": "2.1.5",
     "ap_short": "2.1.5",
     "ap_long": "We kopen extra mobiele camera's aan in de strijd tegen zwerfvuil en vandalisme",
-    "ac_code": "2.1.5",
+    "ac_code": "2.1.5_2.1.5",
     "ac_short": "Actie 2.1.5",
     "ac_long": "We kopen extra mobiele camera's aan in de strijd tegen vandalisme en overlast",
     "categories": [
@@ -1158,13 +1158,13 @@
   {
     "municipality": "Torhout",
     "nis_code": "31033",
-    "bd_code": "BDS",
+    "bd_code": "BDS 4",
     "bd_short": "1.4",
     "bd_long": "We ondersteunen verenigingen en vrijwilligers in hun verbindende rol",
     "ap_code": "1.4.5",
     "ap_short": "1.4.5",
     "ap_long": "We verruimen het aanbod van de uitleendienst en gaan op zoek naar een wachtruimte waar verenigingen de geleende spullen meteen na hun evenement kunnen opbergen",
-    "ac_code": "1.4.5",
+    "ac_code": "1.4.5_1.4.5",
     "ac_short": "Actie 1.4.5",
     "ac_long": "We gaan op zoek naar een wachtruimte waar verenigingen de geleende spullen meteen na hun evenement kunnen opbergen en verruimen indien nodig het aanbod van de uitleendienst",
     "categories": [

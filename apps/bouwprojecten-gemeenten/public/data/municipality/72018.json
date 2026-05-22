@@ -2,35 +2,137 @@
   {
     "municipality": "Kinrooi",
     "nis_code": "72018",
-    "bd_code": "BD",
-    "bd_short": "WE CREËREN EEN AANTREKKELIJK EN LEEFBAAR KINROOI VOOR JONG EN OUD",
-    "bd_long": "Kwalitatieve omschrijving: We willen van Kinrooi een gemeente maken waarin iedereen zich thuis kan voelen in alle leeftijdsfasen. We gaan daarom maximaal investeren in een op maat gemaakt woonaanbod, geven onze inwoners een stem in beleidsvoering en ontwikkelen een vrijetijdsaanbod waarin iedereen kansen krijgt om actief deel te nemen aan het sociale, culturele en economische leven.",
-    "ap_code": "AP",
-    "ap_short": "We zorgen voor een divers en laagdrempelig vrijetijdsaanbod",
-    "ap_long": "Het kwalitatief, toegankelijk en breed vrijetijdsaanbod willen we de komende jaren nog inclusiever maken. We voorzien ontspanningsmogelijkheden tot in de buurten, versterken de mogelijkheid tot het ontlenen van materialen en zorgen er via verschillende platformen voor dat inwoners de keuze hebben om het vrijetijdsaanbod af te stemmen op de professionele situatie, ongeacht afkomst of socio-economische situatie.",
-    "ac_code": "ACT",
-    "ac_short": "We voorzien maximaal faciliteiten voor spelen en sporten in Kinrooi",
+    "bd_code": "BD-2",
+    "bd_short": "WE ZORGEN VOOR BETAALBAAR EN FUNCTIONEEL PATRIMONIUM",
+    "bd_long": "Kwalitatieve omschrijving: We analyseren het bestaande patrimonium en beoordelen welke gebouwen nog in aanmerking komen voor renovatie. \nUit dit onderzoek kan blijken dat renovatie voor bepaalde gebouwen niet wenselijk is, waardoor wordt besloten deze te verkopen. \nWe kijken kritisch naar de nodige ruimte voor alle gemeentelijke functies om indien nodig over te gaan tot nieuw patrimonium.",
+    "ap_code": "AP-2.1",
+    "ap_short": "We renoveren patrimonium ifv duurzaamheid en functionaliteit",
+    "ap_long": "We investeren in de renovatie van ons patrimonium, met aandacht voor duurzaamheid, energiezuinigheid en functionaliteit. Zo verlengen we de levensduur van onze gebouwen en maken we ze toekomstbestendig voor alle gebruikers.",
+    "ac_code": "ACT-2.1.5",
+    "ac_short": "We renoveren en actualiseren de assistentiewoningen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 1800000.0,
+    "amount_per_capita": 146.88,
+    "yearly_amounts": {
+      "2026": 50000.0,
+      "2027": 1750000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.08,
+      "2027": 142.8,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-1",
+    "bd_short": "WE CREËREN EEN DUIDELIJK KADER VOOR WONEN, LEVEN EN ONDERNEMEN",
+    "bd_long": "Kwalitatieve omschrijving: We ontwikkelen een helder en toekomstgericht kader dat richting geeft aan wonen en leven in onze gemeente. \nZo zorgen we voor kwaliteitsvolle en klimaatrobuuste woonomgevingen met ruimte voor lokale voorzieningen en ondernemingen.",
+    "ap_code": "AP-1.1",
+    "ap_short": "We zorgen voor een duidelijke ruimtelijke ordening waarbij elke functie een logische plek krijgt",
+    "ap_long": "We streven naar een doordachte ruimtelijke ordening waarin wonen, werken, natuur en voorzieningen logisch met elkaar verweven zijn. Door gericht onderzoek te doen willen we elke functie een passende plek geven. We trachten zo een overzichtelijke,  leefbare en toekomstgerichte gemeente te creëren voor iedereen.",
+    "ac_code": "ACT-1.1.2",
+    "ac_short": "We zorgen voor een optimale invulling van de landbouwgronden in de brede omgeving van Molenbeersel",
+    "ac_long": "We zetten in op een duurzame en doordachte benutting van de landbouwgronden rond Molenbeersel. Door landbouw, natuur en leefbaarheid zorgvuldig op elkaar af te stemmen, versterken we zowel de lokale landbouwsector als de kwaliteit van onze open ruimte. Dit doen we als gemeente samen met de Vlaamse Landmaatschappij binnen de ruilverkaveling van Molenbeersel.",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 1651047.73,
+    "amount_per_capita": 134.73,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 437474.32,
+      "2028": 530199.09,
+      "2029": 683374.32,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 35.7,
+      "2028": 43.27,
+      "2029": 55.76,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.1",
+    "ap_short": "We verbeteren de verkeersveiligheid door ingrepen in de infrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid door gerichte ingrepen in de infrastructuur. Met doordachte aanpassingen aan wegen, kruispunten en schoolomgevingen maken we het verkeer overzichtelijker, veiliger en toegankelijker voor iedereen.",
+    "ac_code": "ACT-3.1.5",
+    "ac_short": "Voor kwaliteitsvolle gemeentewegen zorgen we jaarlijks voor de nodige bestrijkingen en overlagingen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1600000.0,
+    "amount_per_capita": 130.56,
+    "yearly_amounts": {
+      "2026": 250000.0,
+      "2027": 250000.0,
+      "2028": 250000.0,
+      "2029": 250000.0,
+      "2030": 300000.0,
+      "2031": 300000.0
+    },
+    "yearly_per_capita": {
+      "2026": 20.4,
+      "2027": 20.4,
+      "2028": 20.4,
+      "2029": 20.4,
+      "2030": 24.48,
+      "2031": 24.48
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-1",
+    "bd_short": "WE CREËREN EEN DUIDELIJK KADER VOOR WONEN, LEVEN EN ONDERNEMEN",
+    "bd_long": "Kwalitatieve omschrijving: We ontwikkelen een helder en toekomstgericht kader dat richting geeft aan wonen en leven in onze gemeente. \nZo zorgen we voor kwaliteitsvolle en klimaatrobuuste woonomgevingen met ruimte voor lokale voorzieningen en ondernemingen.",
+    "ap_code": "AP-1.3",
+    "ap_short": "We voorzien aantrekkelijke dorpskernen met ruimte voor groen, verenigingen, wonen en dienstverlening",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-1.3.3",
+    "ac_short": "We kennen investeringssubsidies toe voor multifunctionele centra in de dorpskernen",
     "ac_long": "Commentaar:",
     "categories": [
       "07-cultuur-vrije-tijd"
     ],
-    "total_amount": 15000639.0,
-    "amount_per_capita": 1228.31,
+    "total_amount": 1242500.0,
+    "amount_per_capita": 101.39,
     "yearly_amounts": {
-      "2026": 3947792.0,
-      "2027": 4683774.0,
-      "2028": 1890699.0,
-      "2029": 1517874.0,
-      "2030": 1354500.0,
-      "2031": 1606000.0
+      "2026": 192500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 1050000.0
     },
     "yearly_per_capita": {
-      "2026": 323.26,
-      "2027": 383.52,
-      "2028": 154.82,
-      "2029": 124.29,
-      "2030": 110.91,
-      "2031": 131.51
+      "2026": 15.71,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 85.68
     }
   },
   {
@@ -39,32 +141,1222 @@
     "bd_code": "",
     "bd_short": "",
     "bd_long": "",
-    "ap_code": "AP",
-    "ap_short": "Gelijkblijvend beleid",
+    "ap_code": "AP-GBB",
+    "ap_short": "gelijkblijvend beleid",
     "ap_long": "Commentaar:",
-    "ac_code": "GBB",
+    "ac_code": "GBB-FIN",
     "ac_short": "Financiën",
     "ac_long": "Commentaar:",
     "categories": [
       "04-veiligheidszorg"
     ],
-    "total_amount": 1389128.0,
-    "amount_per_capita": 113.75,
+    "total_amount": 1153127.7,
+    "amount_per_capita": 94.1,
     "yearly_amounts": {
-      "2026": 581394.0,
-      "2027": 253717.0,
-      "2028": 237433.0,
-      "2029": 68762.0,
-      "2030": 58852.0,
-      "2031": 188970.0
+      "2026": 345394.28,
+      "2027": 253717.27,
+      "2028": 237432.74,
+      "2029": 68761.85,
+      "2030": 58851.98,
+      "2031": 188969.58
     },
     "yearly_per_capita": {
-      "2026": 47.61,
-      "2027": 20.78,
-      "2028": 19.44,
-      "2029": 5.63,
-      "2030": 4.82,
-      "2031": 15.47
+      "2026": 28.18,
+      "2027": 20.7,
+      "2028": 19.38,
+      "2029": 5.61,
+      "2030": 4.8,
+      "2031": 15.42
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.1",
+    "ap_short": "We verbeteren de verkeersveiligheid door ingrepen in de infrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid door gerichte ingrepen in de infrastructuur. Met doordachte aanpassingen aan wegen, kruispunten en schoolomgevingen maken we het verkeer overzichtelijker, veiliger en toegankelijker voor iedereen.",
+    "ac_code": "ACT-3.1.6",
+    "ac_short": "Occasioneel voeren we kleine herstellingswerken uit aan de gemeentewegen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 1000000.0,
+    "amount_per_capita": 81.6,
+    "yearly_amounts": {
+      "2026": 125000.0,
+      "2027": 175000.0,
+      "2028": 175000.0,
+      "2029": 175000.0,
+      "2030": 175000.0,
+      "2031": 175000.0
+    },
+    "yearly_per_capita": {
+      "2026": 10.2,
+      "2027": 14.28,
+      "2028": 14.28,
+      "2029": 14.28,
+      "2030": 14.28,
+      "2031": 14.28
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.1",
+    "ap_short": "We verbeteren de verkeersveiligheid door ingrepen in de infrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid door gerichte ingrepen in de infrastructuur. Met doordachte aanpassingen aan wegen, kruispunten en schoolomgevingen maken we het verkeer overzichtelijker, veiliger en toegankelijker voor iedereen.",
+    "ac_code": "ACT-3.1.4",
+    "ac_short": "We gaan over tot heraanleg van de Binnenweg",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 800000.0,
+    "amount_per_capita": 65.28,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 800000.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 65.28,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.1",
+    "ap_short": "We verbeteren de verkeersveiligheid door ingrepen in de infrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid door gerichte ingrepen in de infrastructuur. Met doordachte aanpassingen aan wegen, kruispunten en schoolomgevingen maken we het verkeer overzichtelijker, veiliger en toegankelijker voor iedereen.",
+    "ac_code": "ACT-3.1.2",
+    "ac_short": "We gaan over tot overname en herinrichting van de Drietak",
+    "ac_long": "We nemen de Drietak over en richten deze opnieuw in met extra aandacht voor fietsers en groen. Door meer ruimte te creëren voor zachte weggebruikers maken we van deze route een veilige en comfortabele verbinding voor iedereen. \nGroen speelt hier ook een centrale rol waardoor we respectvol omgaan met de bestaande bomen en nieuw groen integreren.",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 673000.0,
+    "amount_per_capita": 54.92,
+    "yearly_amounts": {
+      "2026": 60000.0,
+      "2027": 613000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.9,
+      "2027": 50.02,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-1",
+    "bd_short": "WE CREËREN EEN DUIDELIJK KADER VOOR WONEN, LEVEN EN ONDERNEMEN",
+    "bd_long": "Kwalitatieve omschrijving: We ontwikkelen een helder en toekomstgericht kader dat richting geeft aan wonen en leven in onze gemeente. \nZo zorgen we voor kwaliteitsvolle en klimaatrobuuste woonomgevingen met ruimte voor lokale voorzieningen en ondernemingen.",
+    "ap_code": "AP-1.3",
+    "ap_short": "We voorzien aantrekkelijke dorpskernen met ruimte voor groen, verenigingen, wonen en dienstverlening",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-1.3.1",
+    "ac_short": "We zorgen voor een optimale inrichting van Kinrooi centrum met oog voor de hedendaagse uitdagingen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 438000.0,
+    "amount_per_capita": 35.74,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 378000.0,
+      "2028": 50000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.82,
+      "2027": 30.85,
+      "2028": 4.08,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-7",
+    "bd_short": "WE CREËREN EEN AANTREKKELIJK EN LEEFBAAR KINROOI VOOR JONG EN OUD",
+    "bd_long": "Kwalitatieve omschrijving: We willen van Kinrooi een gemeente maken waarin iedereen zich thuis kan voelen in alle leeftijdsfasen. We gaan daarom maximaal investeren in een op maat gemaakt woonaanbod, geven onze inwoners een stem in beleidsvoering en ontwikkelen een vrijetijdsaanbod waarin iedereen kansen krijgt om actief deel te nemen aan het sociale, culturele en economische leven.",
+    "ap_code": "AP-7.3",
+    "ap_short": "We creëren een gevarieerd woonaanbod dat maximaal tegemoet komt aan alle Kinrooise doelgroepen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-7.3.3",
+    "ac_short": "We zorgen voor een kwaliteitsvolle, veilige en comfortabele infrastructuur in het woonzorgcentrum",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 379000.0,
+    "amount_per_capita": 30.93,
+    "yearly_amounts": {
+      "2026": 108000.0,
+      "2027": 58000.0,
+      "2028": 102000.0,
+      "2029": 37000.0,
+      "2030": 37000.0,
+      "2031": 37000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.81,
+      "2027": 4.73,
+      "2028": 8.32,
+      "2029": 3.02,
+      "2030": 3.02,
+      "2031": 3.02
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-2",
+    "bd_short": "WE ZORGEN VOOR BETAALBAAR EN FUNCTIONEEL PATRIMONIUM",
+    "bd_long": "Kwalitatieve omschrijving: We analyseren het bestaande patrimonium en beoordelen welke gebouwen nog in aanmerking komen voor renovatie. \nUit dit onderzoek kan blijken dat renovatie voor bepaalde gebouwen niet wenselijk is, waardoor wordt besloten deze te verkopen. \nWe kijken kritisch naar de nodige ruimte voor alle gemeentelijke functies om indien nodig over te gaan tot nieuw patrimonium.",
+    "ap_code": "AP-2.1",
+    "ap_short": "We renoveren patrimonium ifv duurzaamheid en functionaliteit",
+    "ap_long": "We investeren in de renovatie van ons patrimonium, met aandacht voor duurzaamheid, energiezuinigheid en functionaliteit. Zo verlengen we de levensduur van onze gebouwen en maken we ze toekomstbestendig voor alle gebruikers.",
+    "ac_code": "ACT-2.1.6",
+    "ac_short": "We renoveren en actualiseren het Administratief Centrum",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 375000.0,
+    "amount_per_capita": 30.6,
+    "yearly_amounts": {
+      "2026": 20000.0,
+      "2027": 140000.0,
+      "2028": 215000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.63,
+      "2027": 11.42,
+      "2028": 17.54,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-2",
+    "bd_short": "WE ZORGEN VOOR BETAALBAAR EN FUNCTIONEEL PATRIMONIUM",
+    "bd_long": "Kwalitatieve omschrijving: We analyseren het bestaande patrimonium en beoordelen welke gebouwen nog in aanmerking komen voor renovatie. \nUit dit onderzoek kan blijken dat renovatie voor bepaalde gebouwen niet wenselijk is, waardoor wordt besloten deze te verkopen. \nWe kijken kritisch naar de nodige ruimte voor alle gemeentelijke functies om indien nodig over te gaan tot nieuw patrimonium.",
+    "ap_code": "AP-2.1",
+    "ap_short": "We renoveren patrimonium ifv duurzaamheid en functionaliteit",
+    "ap_long": "We investeren in de renovatie van ons patrimonium, met aandacht voor duurzaamheid, energiezuinigheid en functionaliteit. Zo verlengen we de levensduur van onze gebouwen en maken we ze toekomstbestendig voor alle gebruikers.",
+    "ac_code": "ACT-2.1.4",
+    "ac_short": "We renoveren en actualiseren de sporthallen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 330000.0,
+    "amount_per_capita": 26.93,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 200000.0,
+      "2028": 0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.45,
+      "2027": 16.32,
+      "2028": 0,
+      "2029": 8.16,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.1",
+    "ap_short": "We verbeteren de verkeersveiligheid door ingrepen in de infrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid door gerichte ingrepen in de infrastructuur. Met doordachte aanpassingen aan wegen, kruispunten en schoolomgevingen maken we het verkeer overzichtelijker, veiliger en toegankelijker voor iedereen.",
+    "ac_code": "ACT-3.1.1",
+    "ac_short": "We verbreden de Landweg",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 280000.0,
+    "amount_per_capita": 22.85,
+    "yearly_amounts": {
+      "2026": 30000.0,
+      "2027": 0,
+      "2028": 250000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 2.45,
+      "2027": 0,
+      "2028": 20.4,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.3",
+    "ap_short": "We verbeteren de verkeersveiligheid door handhaving",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-3.3.1",
+    "ac_short": "We plaatsen een trajectcontrole in de Belestraat om de snelheid te handhaven",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "04-veiligheidszorg"
+    ],
+    "total_amount": 260000.0,
+    "amount_per_capita": 21.22,
+    "yearly_amounts": {
+      "2026": 260000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 21.22,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-1",
+    "bd_short": "WE CREËREN EEN DUIDELIJK KADER VOOR WONEN, LEVEN EN ONDERNEMEN",
+    "bd_long": "Kwalitatieve omschrijving: We ontwikkelen een helder en toekomstgericht kader dat richting geeft aan wonen en leven in onze gemeente. \nZo zorgen we voor kwaliteitsvolle en klimaatrobuuste woonomgevingen met ruimte voor lokale voorzieningen en ondernemingen.",
+    "ap_code": "AP-1.2",
+    "ap_short": "We zorgen voor klimaatrobuuste woonomgeving met aandacht voor duurzame energiebronnen en hittestress",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-1.2.1",
+    "ac_short": "We ontharden en vergroenen de speelplaatsen van de gemeentelijke basisscholen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 244500.0,
+    "amount_per_capita": 19.95,
+    "yearly_amounts": {
+      "2026": 219500.0,
+      "2027": 25000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.91,
+      "2027": 2.04,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.1",
+    "ap_short": "We verbeteren de verkeersveiligheid door ingrepen in de infrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid door gerichte ingrepen in de infrastructuur. Met doordachte aanpassingen aan wegen, kruispunten en schoolomgevingen maken we het verkeer overzichtelijker, veiliger en toegankelijker voor iedereen.",
+    "ac_code": "ACT-3.1.7",
+    "ac_short": "We zorgen voor een toegankelijke en conflictvrije bereikbaarheid van de Vissenakkeroever",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 220000.0,
+    "amount_per_capita": 17.95,
+    "yearly_amounts": {
+      "2026": 220000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 17.95,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-4",
+    "bd_short": "WE GROEIEN UIT TOT EEN PERFORMANTE ORGANISATIE DIE AANTREKKELIJK IS VOOR MEDEWERKERS",
+    "bd_long": "Kwalitatieve omschrijving: De organisatie kiest voor een duurzame versterking van haar interne werking, personeelsbeleid en welzijnscultuur. Dit wordt gerealiseerd door het optimaliseren van interne organisatie en processen, het versterken van het personeelsbeleid met nadruk op gedeelde waarden, leiderschap, coaching en evaluatie, en het bevorderen van een veilige, gezonde en aangename werkomgeving. De focus ligt op een toekomstgerichte, betrokken en professionele organisatiecultuur waar medewerkers duurzaam inzetbaar zijn en zich gewaardeerd voelen.",
+    "ap_code": "AP-4.3",
+    "ap_short": "We bevorderen een veilige, gezonde en aangename werkomgeving",
+    "ap_long": "Er worden diverse facilitaire, technische en preventieve maatregelen voorzien die bijdragen aan een duurzaam arbeidsveiligheids - en welzijnsbeleid. Deze maatregelen zijn noodzakelijk om te voldoen aan de geldende wet-en regelgeving, om risico's te beheersen en om optimale arbeidsomstandigheden voor alle medewerkers te waarborgen.",
+    "ac_code": "ACT-4.3.2",
+    "ac_short": "We zorgen voor optimale werkuitrusting voor het personeel het lokaal bestuur",
+    "ac_long": "Het lokaal bestuur Kinrooi draagt zorg voor de optimale werkuitrusting voor personeel van het lokaal bestuur, inclusief persoonlijke beschermingsmiddelen zoals veiligheidsschoenen, gehoorbescherming, veiligheidsbrillen en andere noodzakelijke uitrusting ter bevordering van veiligheid en gezondheid op de werkplek.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 197000.0,
+    "amount_per_capita": 16.08,
+    "yearly_amounts": {
+      "2026": 72000.0,
+      "2027": 49000.0,
+      "2028": 54000.0,
+      "2029": 4000.0,
+      "2030": 14000.0,
+      "2031": 4000.0
+    },
+    "yearly_per_capita": {
+      "2026": 5.88,
+      "2027": 4.0,
+      "2028": 4.41,
+      "2029": 0.33,
+      "2030": 1.14,
+      "2031": 0.33
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-GBB",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-KINR",
+    "ac_short": "Gemeenteschool Kinrooi",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 167200.0,
+    "amount_per_capita": 13.64,
+    "yearly_amounts": {
+      "2026": 167200.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 13.64,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-4",
+    "bd_short": "WE GROEIEN UIT TOT EEN PERFORMANTE ORGANISATIE DIE AANTREKKELIJK IS VOOR MEDEWERKERS",
+    "bd_long": "Kwalitatieve omschrijving: De organisatie kiest voor een duurzame versterking van haar interne werking, personeelsbeleid en welzijnscultuur. Dit wordt gerealiseerd door het optimaliseren van interne organisatie en processen, het versterken van het personeelsbeleid met nadruk op gedeelde waarden, leiderschap, coaching en evaluatie, en het bevorderen van een veilige, gezonde en aangename werkomgeving. De focus ligt op een toekomstgerichte, betrokken en professionele organisatiecultuur waar medewerkers duurzaam inzetbaar zijn en zich gewaardeerd voelen.",
+    "ap_code": "AP-4.1",
+    "ap_short": "We optimaliseren de interne organisatie en de processen",
+    "ap_long": "Het lokaal bestuur Kinrooi investeert doelgericht in moderne digitale tools en infrastructuur om de organisatie sterker, efficiënter en toekomstbestendig te maken.             \nTegelijkertijd optimaliseren we onze interne processen, zodat samenwerking, doorlooptijden en dienstverlening merkbaar verbeteren en meetbaar resultaat opleveren.",
+    "ac_code": "ACT-4.1.1",
+    "ac_short": "We streven naar moderne, performante en toekomstgerichte software- en hardwareoplossingen",
+    "ac_long": "We investeren in toekomstgerichte software, hardware en een gebruiksvriendelijk intranet om interne communicatie en digitale werkprocessen te versterken. Tegelijkertijd brengen we de huidige processen per dienst in kaart en analyseren we deze om knelpunten en kansen te identificeren. \nOp basis hiervan optimaliseren en stroomlijnen we onze werking om efficiëntie, kwaliteit en samenwerking te verbeteren.",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 155000.0,
+    "amount_per_capita": 12.65,
+    "yearly_amounts": {
+      "2026": 55000.0,
+      "2027": 20000.0,
+      "2028": 20000.0,
+      "2029": 20000.0,
+      "2030": 20000.0,
+      "2031": 20000.0
+    },
+    "yearly_per_capita": {
+      "2026": 4.49,
+      "2027": 1.63,
+      "2028": 1.63,
+      "2029": 1.63,
+      "2030": 1.63,
+      "2031": 1.63
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-2",
+    "bd_short": "WE ZORGEN VOOR BETAALBAAR EN FUNCTIONEEL PATRIMONIUM",
+    "bd_long": "Kwalitatieve omschrijving: We analyseren het bestaande patrimonium en beoordelen welke gebouwen nog in aanmerking komen voor renovatie. \nUit dit onderzoek kan blijken dat renovatie voor bepaalde gebouwen niet wenselijk is, waardoor wordt besloten deze te verkopen. \nWe kijken kritisch naar de nodige ruimte voor alle gemeentelijke functies om indien nodig over te gaan tot nieuw patrimonium.",
+    "ap_code": "AP-2.1",
+    "ap_short": "We renoveren patrimonium ifv duurzaamheid en functionaliteit",
+    "ap_long": "We investeren in de renovatie van ons patrimonium, met aandacht voor duurzaamheid, energiezuinigheid en functionaliteit. Zo verlengen we de levensduur van onze gebouwen en maken we ze toekomstbestendig voor alle gebruikers.",
+    "ac_code": "ACT-2.1.7",
+    "ac_short": "We renoveren en actualiseren het woonzorgcentrum",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 12.24,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 12.24,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-2",
+    "bd_short": "WE ZORGEN VOOR BETAALBAAR EN FUNCTIONEEL PATRIMONIUM",
+    "bd_long": "Kwalitatieve omschrijving: We analyseren het bestaande patrimonium en beoordelen welke gebouwen nog in aanmerking komen voor renovatie. \nUit dit onderzoek kan blijken dat renovatie voor bepaalde gebouwen niet wenselijk is, waardoor wordt besloten deze te verkopen. \nWe kijken kritisch naar de nodige ruimte voor alle gemeentelijke functies om indien nodig over te gaan tot nieuw patrimonium.",
+    "ap_code": "AP-2.1",
+    "ap_short": "We renoveren patrimonium ifv duurzaamheid en functionaliteit",
+    "ap_long": "We investeren in de renovatie van ons patrimonium, met aandacht voor duurzaamheid, energiezuinigheid en functionaliteit. Zo verlengen we de levensduur van onze gebouwen en maken we ze toekomstbestendig voor alle gebruikers.",
+    "ac_code": "ACT-2.1.8",
+    "ac_short": "We voorzien bijkomende wegvernieuwing waar rioolbeheerder Fluvius nieuwe rioleringen aanlegt",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 150000.0,
+    "amount_per_capita": 12.24,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 150000.0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 12.24,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-1",
+    "bd_short": "WE CREËREN EEN DUIDELIJK KADER VOOR WONEN, LEVEN EN ONDERNEMEN",
+    "bd_long": "Kwalitatieve omschrijving: We ontwikkelen een helder en toekomstgericht kader dat richting geeft aan wonen en leven in onze gemeente. \nZo zorgen we voor kwaliteitsvolle en klimaatrobuuste woonomgevingen met ruimte voor lokale voorzieningen en ondernemingen.",
+    "ap_code": "AP-1.1",
+    "ap_short": "We zorgen voor een duidelijke ruimtelijke ordening waarbij elke functie een logische plek krijgt",
+    "ap_long": "We streven naar een doordachte ruimtelijke ordening waarin wonen, werken, natuur en voorzieningen logisch met elkaar verweven zijn. Door gericht onderzoek te doen willen we elke functie een passende plek geven. We trachten zo een overzichtelijke,  leefbare en toekomstgerichte gemeente te creëren voor iedereen.",
+    "ac_code": "ACT-1.1.3",
+    "ac_short": "We ontgraven oude kerkhoven in functie van ruimtelijke invulling",
+    "ac_long": "We bekijken de herbestemming van oude kerkhoven om ruimte vrij te maken voor nieuwe, zorgvuldig geplande ontwikkelingen. Zo bewaren we waardevolle kennis over het verleden op een respectvolle manier terwijl we kansen creëren voor de toekomst van onze gemeente.",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 148400.0,
+    "amount_per_capita": 12.11,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 48400.0,
+      "2029": 100000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 3.95,
+      "2029": 8.16,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.1",
+    "ap_short": "We verbeteren de verkeersveiligheid door ingrepen in de infrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid door gerichte ingrepen in de infrastructuur. Met doordachte aanpassingen aan wegen, kruispunten en schoolomgevingen maken we het verkeer overzichtelijker, veiliger en toegankelijker voor iedereen.",
+    "ac_code": "ACT-3.1.3",
+    "ac_short": "Na analyse passen we de verkeersinfrastructuur aan ikv verkeersveiligheid",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 140000.0,
+    "amount_per_capita": 11.42,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 130000.0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.82,
+      "2027": 0,
+      "2028": 0,
+      "2029": 10.61,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-2",
+    "bd_short": "WE ZORGEN VOOR BETAALBAAR EN FUNCTIONEEL PATRIMONIUM",
+    "bd_long": "Kwalitatieve omschrijving: We analyseren het bestaande patrimonium en beoordelen welke gebouwen nog in aanmerking komen voor renovatie. \nUit dit onderzoek kan blijken dat renovatie voor bepaalde gebouwen niet wenselijk is, waardoor wordt besloten deze te verkopen. \nWe kijken kritisch naar de nodige ruimte voor alle gemeentelijke functies om indien nodig over te gaan tot nieuw patrimonium.",
+    "ap_code": "AP-2.1",
+    "ap_short": "We renoveren patrimonium ifv duurzaamheid en functionaliteit",
+    "ap_long": "We investeren in de renovatie van ons patrimonium, met aandacht voor duurzaamheid, energiezuinigheid en functionaliteit. Zo verlengen we de levensduur van onze gebouwen en maken we ze toekomstbestendig voor alle gebruikers.",
+    "ac_code": "ACT-2.1.2",
+    "ac_short": "We renoveren en actualiseren de buitenschoolse kinderopvang",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 137500.0,
+    "amount_per_capita": 11.22,
+    "yearly_amounts": {
+      "2026": 100000.0,
+      "2027": 5500.0,
+      "2028": 12000.0,
+      "2029": 5000.0,
+      "2030": 5000.0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 8.16,
+      "2027": 0.45,
+      "2028": 0.98,
+      "2029": 0.41,
+      "2030": 0.41,
+      "2031": 0.82
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-7",
+    "bd_short": "WE CREËREN EEN AANTREKKELIJK EN LEEFBAAR KINROOI VOOR JONG EN OUD",
+    "bd_long": "Kwalitatieve omschrijving: We willen van Kinrooi een gemeente maken waarin iedereen zich thuis kan voelen in alle leeftijdsfasen. We gaan daarom maximaal investeren in een op maat gemaakt woonaanbod, geven onze inwoners een stem in beleidsvoering en ontwikkelen een vrijetijdsaanbod waarin iedereen kansen krijgt om actief deel te nemen aan het sociale, culturele en economische leven.",
+    "ap_code": "AP-7.1",
+    "ap_short": "We zorgen voor een divers en laagdrempelig vrijetijdsaanbod",
+    "ap_long": "Het kwalitatief, toegankelijk en breed vrijetijdsaanbod willen we de komende jaren nog inclusiever maken. We voorzien ontspanningsmogelijkheden tot in de buurten, versterken de mogelijkheid tot het ontlenen van materialen en zorgen er via verschillende platformen voor dat inwoners de keuze hebben om het vrijetijdsaanbod af te stemmen op de professionele situatie, ongeacht afkomst of socio-economische situatie.",
+    "ac_code": "ACT-7.1.1",
+    "ac_short": "We voorzien maximaal faciliteiten voor spelen en sporten in Kinrooi",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 110000.0,
+    "amount_per_capita": 8.98,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 30000.0,
+      "2028": 80000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 2.45,
+      "2028": 6.53,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-7",
+    "bd_short": "WE CREËREN EEN AANTREKKELIJK EN LEEFBAAR KINROOI VOOR JONG EN OUD",
+    "bd_long": "Kwalitatieve omschrijving: We willen van Kinrooi een gemeente maken waarin iedereen zich thuis kan voelen in alle leeftijdsfasen. We gaan daarom maximaal investeren in een op maat gemaakt woonaanbod, geven onze inwoners een stem in beleidsvoering en ontwikkelen een vrijetijdsaanbod waarin iedereen kansen krijgt om actief deel te nemen aan het sociale, culturele en economische leven.",
+    "ap_code": "AP-7.3",
+    "ap_short": "We creëren een gevarieerd woonaanbod dat maximaal tegemoet komt aan alle Kinrooise doelgroepen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-7.3.1",
+    "ac_short": "We verkopen bouwgronden in de Hoogveldstraat",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 107000.0,
+    "amount_per_capita": 8.73,
+    "yearly_amounts": {
+      "2026": 15000.0,
+      "2027": 76000.0,
+      "2028": 16000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 1.22,
+      "2027": 6.2,
+      "2028": 1.31,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-7",
+    "bd_short": "WE CREËREN EEN AANTREKKELIJK EN LEEFBAAR KINROOI VOOR JONG EN OUD",
+    "bd_long": "Kwalitatieve omschrijving: We willen van Kinrooi een gemeente maken waarin iedereen zich thuis kan voelen in alle leeftijdsfasen. We gaan daarom maximaal investeren in een op maat gemaakt woonaanbod, geven onze inwoners een stem in beleidsvoering en ontwikkelen een vrijetijdsaanbod waarin iedereen kansen krijgt om actief deel te nemen aan het sociale, culturele en economische leven.",
+    "ap_code": "AP-7.3",
+    "ap_short": "We creëren een gevarieerd woonaanbod dat maximaal tegemoet komt aan alle Kinrooise doelgroepen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-7.3.2",
+    "ac_short": "We verkopen bouwgronden in  Linssenhof",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "06-wonen-ruimte"
+    ],
+    "total_amount": 105000.0,
+    "amount_per_capita": 8.57,
+    "yearly_amounts": {
+      "2026": 105000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 8.57,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-6",
+    "bd_short": "WE ZORGEN VOOR DIENSTVERLENING OP MAAT VAN ONZE INWONERS",
+    "bd_long": "Kwalitatieve omschrijving: We bieden flexibele, actuele en op maat gemaakte dienstverlening die meebeweegt met de veranderingen van de huidige samenleving. \nDaarnaast zetten we in op acties om de fysieke en mentale gezondheid te bevorderen.",
+    "ap_code": "AP-6.1",
+    "ap_short": "We zetten in op toegankelijke en efficiënte dienstverlening dmv digitalisering",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-6.1.1",
+    "ac_short": "We voorzien zelfscanbalies in de bibliotheek",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 80000.0,
+    "amount_per_capita": 6.53,
+    "yearly_amounts": {
+      "2026": 80000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 6.53,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-GBB",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-OPH",
+    "ac_short": "Gemeenteschool Ophoven",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "08-onderwijs"
+    ],
+    "total_amount": 58800.0,
+    "amount_per_capita": 4.8,
+    "yearly_amounts": {
+      "2026": 58800.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.8,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-2",
+    "bd_short": "WE ZORGEN VOOR BETAALBAAR EN FUNCTIONEEL PATRIMONIUM",
+    "bd_long": "Kwalitatieve omschrijving: We analyseren het bestaande patrimonium en beoordelen welke gebouwen nog in aanmerking komen voor renovatie. \nUit dit onderzoek kan blijken dat renovatie voor bepaalde gebouwen niet wenselijk is, waardoor wordt besloten deze te verkopen. \nWe kijken kritisch naar de nodige ruimte voor alle gemeentelijke functies om indien nodig over te gaan tot nieuw patrimonium.",
+    "ap_code": "AP-2.1",
+    "ap_short": "We renoveren patrimonium ifv duurzaamheid en functionaliteit",
+    "ap_long": "We investeren in de renovatie van ons patrimonium, met aandacht voor duurzaamheid, energiezuinigheid en functionaliteit. Zo verlengen we de levensduur van onze gebouwen en maken we ze toekomstbestendig voor alle gebruikers.",
+    "ac_code": "ACT-2.1.1",
+    "ac_short": "We renoveren en actualiseren de gemeentelijke bibliotheek",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 56500.0,
+    "amount_per_capita": 4.61,
+    "yearly_amounts": {
+      "2026": 56500.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 4.61,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-7",
+    "bd_short": "WE CREËREN EEN AANTREKKELIJK EN LEEFBAAR KINROOI VOOR JONG EN OUD",
+    "bd_long": "Kwalitatieve omschrijving: We willen van Kinrooi een gemeente maken waarin iedereen zich thuis kan voelen in alle leeftijdsfasen. We gaan daarom maximaal investeren in een op maat gemaakt woonaanbod, geven onze inwoners een stem in beleidsvoering en ontwikkelen een vrijetijdsaanbod waarin iedereen kansen krijgt om actief deel te nemen aan het sociale, culturele en economische leven.",
+    "ap_code": "AP-7.1",
+    "ap_short": "We zorgen voor een divers en laagdrempelig vrijetijdsaanbod",
+    "ap_long": "Het kwalitatief, toegankelijk en breed vrijetijdsaanbod willen we de komende jaren nog inclusiever maken. We voorzien ontspanningsmogelijkheden tot in de buurten, versterken de mogelijkheid tot het ontlenen van materialen en zorgen er via verschillende platformen voor dat inwoners de keuze hebben om het vrijetijdsaanbod af te stemmen op de professionele situatie, ongeacht afkomst of socio-economische situatie.",
+    "ac_code": "ACT-7.1.2",
+    "ac_short": "We zorgen voor  een tijdige vervanging en vernieuwing van het uitleenmateriaal",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 50000.0,
+    "amount_per_capita": 4.08,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 40000.0,
+      "2028": 10000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 3.26,
+      "2028": 0.82,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-5",
+    "bd_short": "WE ZETTEN KINROOI OP DE KAART OP BASIS VAN ONZE LOKALE TROEVEN",
+    "bd_long": "Kwalitatieve omschrijving: We willen Kinrooi op de kaart zetten op basis van haar sterktes en de opportuniteiten verder uitdiepen. \nHiervoor richten we ons in de eerste plaats op het toerisme en de landbouw. Op vlak van ondernemerschap werken we samen met Unizo Kinrooi om op deze kansen in te spelen.",
+    "ap_code": "AP-5.1",
+    "ap_short": "We ontwikkelen een toeristisch aanbod op maat van Kinrooi en haar inwoners",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-5.1.1",
+    "ac_short": "We voorzien toeristische initiatieven op basis van actuele noden",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 40000.0,
+    "amount_per_capita": 3.26,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 40000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 3.26,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.2",
+    "ap_short": "Sensibiliseren en promoten van duurzame vervoersmiddelen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-3.2.2",
+    "ac_short": "We optimaliseren het fietsroutenetwerk adhv het provinciaal adviesboek",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 30000.0,
+    "amount_per_capita": 2.45,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 10000.0,
+      "2028": 0,
+      "2029": 10000.0,
+      "2030": 0,
+      "2031": 10000.0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.82,
+      "2028": 0,
+      "2029": 0.82,
+      "2030": 0,
+      "2031": 0.82
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.1",
+    "ap_short": "We verbeteren de verkeersveiligheid door ingrepen in de infrastructuur",
+    "ap_long": "We verhogen de verkeersveiligheid door gerichte ingrepen in de infrastructuur. Met doordachte aanpassingen aan wegen, kruispunten en schoolomgevingen maken we het verkeer overzichtelijker, veiliger en toegankelijker voor iedereen.",
+    "ac_code": "ACT-3.1.8",
+    "ac_short": "Kinrooi streeft naar veilige en toegankelijke voetpaden door aanpassings- of herstellingen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "02-mobiliteit"
+    ],
+    "total_amount": 25000.0,
+    "amount_per_capita": 2.04,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 25000.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0,
+      "2028": 2.04,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-6",
+    "bd_short": "WE ZORGEN VOOR DIENSTVERLENING OP MAAT VAN ONZE INWONERS",
+    "bd_long": "Kwalitatieve omschrijving: We bieden flexibele, actuele en op maat gemaakte dienstverlening die meebeweegt met de veranderingen van de huidige samenleving. \nDaarnaast zetten we in op acties om de fysieke en mentale gezondheid te bevorderen.",
+    "ap_code": "AP-6.1",
+    "ap_short": "We zetten in op toegankelijke en efficiënte dienstverlening dmv digitalisering",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-6.1.2",
+    "ac_short": "We implementeren klantvriendelijke digitale toepassingen voor reserveringen en inschrijvingen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 17500.0,
+    "amount_per_capita": 1.43,
+    "yearly_amounts": {
+      "2026": 7000.0,
+      "2027": 0,
+      "2028": 3500.0,
+      "2029": 3500.0,
+      "2030": 3500.0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.57,
+      "2027": 0,
+      "2028": 0.29,
+      "2029": 0.29,
+      "2030": 0.29,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-6",
+    "bd_short": "WE ZORGEN VOOR DIENSTVERLENING OP MAAT VAN ONZE INWONERS",
+    "bd_long": "Kwalitatieve omschrijving: We bieden flexibele, actuele en op maat gemaakte dienstverlening die meebeweegt met de veranderingen van de huidige samenleving. \nDaarnaast zetten we in op acties om de fysieke en mentale gezondheid te bevorderen.",
+    "ap_code": "AP-6.2",
+    "ap_short": "We zetten in op de fysieke en mentale gezondheid van onze inwoners",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-6.2.1",
+    "ac_short": "We voorzien nieuwe AED toestellen en vervangen tijdig de oude toestellen",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 16400.0,
+    "amount_per_capita": 1.34,
+    "yearly_amounts": {
+      "2026": 0,
+      "2027": 6800.0,
+      "2028": 9600.0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0,
+      "2027": 0.55,
+      "2028": 0.78,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "",
+    "bd_short": "",
+    "bd_long": "",
+    "ap_code": "AP-GBB",
+    "ap_short": "gelijkblijvend beleid",
+    "ap_long": "Commentaar:",
+    "ac_code": "GBB-SD",
+    "ac_short": "Sociale dienst",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "09-zorg-opvang"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.82,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.82,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-7",
+    "bd_short": "WE CREËREN EEN AANTREKKELIJK EN LEEFBAAR KINROOI VOOR JONG EN OUD",
+    "bd_long": "Kwalitatieve omschrijving: We willen van Kinrooi een gemeente maken waarin iedereen zich thuis kan voelen in alle leeftijdsfasen. We gaan daarom maximaal investeren in een op maat gemaakt woonaanbod, geven onze inwoners een stem in beleidsvoering en ontwikkelen een vrijetijdsaanbod waarin iedereen kansen krijgt om actief deel te nemen aan het sociale, culturele en economische leven.",
+    "ap_code": "AP-7.1",
+    "ap_short": "We zorgen voor een divers en laagdrempelig vrijetijdsaanbod",
+    "ap_long": "Het kwalitatief, toegankelijk en breed vrijetijdsaanbod willen we de komende jaren nog inclusiever maken. We voorzien ontspanningsmogelijkheden tot in de buurten, versterken de mogelijkheid tot het ontlenen van materialen en zorgen er via verschillende platformen voor dat inwoners de keuze hebben om het vrijetijdsaanbod af te stemmen op de professionele situatie, ongeacht afkomst of socio-economische situatie.",
+    "ac_code": "ACT-7.1.4",
+    "ac_short": "We implementeren de UIT pas ter promotie van cultuur-, sport- en jeugdactiviteiten",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "07-cultuur-vrije-tijd"
+    ],
+    "total_amount": 10000.0,
+    "amount_per_capita": 0.82,
+    "yearly_amounts": {
+      "2026": 10000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.82,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-1",
+    "bd_short": "WE CREËREN EEN DUIDELIJK KADER VOOR WONEN, LEVEN EN ONDERNEMEN",
+    "bd_long": "Kwalitatieve omschrijving: We ontwikkelen een helder en toekomstgericht kader dat richting geeft aan wonen en leven in onze gemeente. \nZo zorgen we voor kwaliteitsvolle en klimaatrobuuste woonomgevingen met ruimte voor lokale voorzieningen en ondernemingen.",
+    "ap_code": "AP-1.3",
+    "ap_short": "We voorzien aantrekkelijke dorpskernen met ruimte voor groen, verenigingen, wonen en dienstverlening",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-1.3.2",
+    "ac_short": "We voorzien de nodige uitrusting om de dorpskernen aantrekkelijk te maken",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "01-algemeen-bestuur"
+    ],
+    "total_amount": 8000.0,
+    "amount_per_capita": 0.65,
+    "yearly_amounts": {
+      "2026": 8000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.65,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    }
+  },
+  {
+    "municipality": "Kinrooi",
+    "nis_code": "72018",
+    "bd_code": "BD-3",
+    "bd_short": "WE ZORGEN VOOR EEN VERKEERSVEILIGE GEMEENTE",
+    "bd_long": "Kwalitatieve omschrijving: We streven naar een gemeente waar elke weggebruiker zich veilig en comfortabel voelt. Dit doen we door gerichte infrastructurele ingrepen. \nWe willen meer mensen aan het fietsen krijgen door sensibilisering en optimalisatie van de fietsinfrastructuur. \nDaar waar infrastructurele maatregelen niet voldoende zijn, zullen we verder inzetten op handhaving.",
+    "ap_code": "AP-3.2",
+    "ap_short": "Sensibiliseren en promoten van duurzame vervoersmiddelen",
+    "ap_long": "Commentaar:",
+    "ac_code": "ACT-3.2.1",
+    "ac_short": "We voorzien fietslaadpunten op startlocaties van fietsroutes in de gemeente",
+    "ac_long": "Commentaar:",
+    "categories": [
+      "05-ondernemen-werken"
+    ],
+    "total_amount": 4000.0,
+    "amount_per_capita": 0.33,
+    "yearly_amounts": {
+      "2026": 4000.0,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
+    },
+    "yearly_per_capita": {
+      "2026": 0.33,
+      "2027": 0,
+      "2028": 0,
+      "2029": 0,
+      "2030": 0,
+      "2031": 0
     }
   }
 ]
