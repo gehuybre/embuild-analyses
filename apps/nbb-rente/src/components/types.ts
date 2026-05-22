@@ -17,6 +17,7 @@ export interface NbbRenteMetadata {
   observationCount: number
   fetchedAt: string
   responseSha256: string
+  dataSha256: string
   description?: string
   series: {
     frequency: string
@@ -90,7 +91,9 @@ export interface InflationForecastMetadata {
   comparisonPeriodEnd: string | null
   fetchedAt: string
   responseSha256: string
+  dataSha256: string
   sourcePageSha256?: string
+  sourcePageDataSha256?: string
   description?: string
   sourcePage?: InflationSourcePage
 }

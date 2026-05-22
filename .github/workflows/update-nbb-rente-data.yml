@@ -36,13 +36,67 @@ jobs:
       - name: Verify expected output files
         run: |
           set -euo pipefail
-          test -f "${APP_ROOT}/public/data/interest_rates.json"
-          test -f "${APP_ROOT}/public/data/interest_rates.csv"
-          test -f "${APP_ROOT}/public/data/metadata.json"
-          test -f "${APP_ROOT}/public/data/inflation_forecasts.json"
-          test -f "${APP_ROOT}/public/data/inflation_forecasts.csv"
-          test -f "${APP_ROOT}/public/data/inflation_forecasts_metadata.json"
+          for f in \
+            interest_rates.json \
+            interest_rates.csv \
+            metadata.json \
+            inflation_forecasts.json \
+            inflation_forecasts.csv \
+            inflation_forecasts_metadata.json
+          do
+            test -f "${APP_ROOT}/public/data/${f}" || { echo "Missing ${f}"; exit 1; }
+          done
           test -f "${APP_ROOT}/data/.remote_metadata.json"
+
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          app_root = Path(os.environ["APP_ROOT"])
+          data_dir = app_root / "public" / "data"
+
+          def load_json(path):
+              with path.open(encoding="utf-8") as handle:
+                  return json.load(handle)
+
+          def fail(message):
+              raise SystemExit(message)
+
+          interest = load_json(data_dir / "interest_rates.json")
+          interest_meta = load_json(data_dir / "metadata.json")
+          if not isinstance(interest, list) or len(interest) < 100:
+              fail("interest_rates.json has too few observations")
+          if len({row["period"] for row in interest}) != len(interest):
+              fail("interest_rates.json contains duplicate periods")
+          if interest != sorted(interest, key=lambda row: int(row["sortValue"])):
+              fail("interest_rates.json is not sorted by sortValue")
+
+          latest_interest = interest[-1]
+          if interest_meta.get("latestPeriod") != latest_interest.get("period"):
+              fail("metadata latestPeriod does not match interest_rates.json")
+          if interest_meta.get("observationCount") != len(interest):
+              fail("metadata observationCount does not match interest_rates.json")
+          if abs(float(interest_meta.get("latestRate")) - float(latest_interest.get("rate"))) > 1e-9:
+              fail("metadata latestRate does not match interest_rates.json")
+
+          forecasts = load_json(data_dir / "inflation_forecasts.json")
+          forecast_meta = load_json(data_dir / "inflation_forecasts_metadata.json")
+          if not isinstance(forecasts, list) or len(forecasts) < 3:
+              fail("inflation_forecasts.json has too few forecast vintages")
+          if len({row["forecastMonth"] for row in forecasts}) != len(forecasts):
+              fail("inflation_forecasts.json contains duplicate forecast months")
+          if forecasts != sorted(forecasts, key=lambda row: int(row["forecastSortValue"])):
+              fail("inflation_forecasts.json is not sorted by forecastSortValue")
+
+          latest_forecast = forecasts[-1]
+          if forecast_meta.get("latestForecastMonth") != latest_forecast.get("forecastMonth"):
+              fail("forecast metadata latestForecastMonth does not match inflation_forecasts.json")
+          if forecast_meta.get("forecastCount") != len(forecasts):
+              fail("forecast metadata forecastCount does not match inflation_forecasts.json")
+          if not latest_forecast.get("monthlyPoints"):
+              fail("latest inflation forecast has no monthly points")
+          PY
 
       - name: Sync visible metadata
         run: python scripts/update_analysis_data_status.py "${ANALYSIS_SLUG}"
@@ -66,6 +120,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "chore(data): update nbb-rente data (auto)"
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push origin HEAD:main
             echo "changed=true" >> "${GITHUB_OUTPUT}"
           fi

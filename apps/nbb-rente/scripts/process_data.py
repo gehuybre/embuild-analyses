@@ -93,6 +93,14 @@ SHEET_MONTHS = {
     "Dec": 12,
 }
 
+PERIOD_RE = re.compile(r"^\d{4}-(0[1-9]|1[0-2])$")
+MIN_NBB_OBSERVATIONS = int(os.environ.get("NBB_MIN_OBSERVATIONS", "100"))
+MAX_NBB_STALENESS_MONTHS = int(os.environ.get("NBB_MAX_STALENESS_MONTHS", "6"))
+MIN_INFLATION_FORECASTS = int(os.environ.get("INFLATION_MIN_FORECASTS", "3"))
+MAX_INFLATION_FORECAST_STALENESS_MONTHS = int(
+    os.environ.get("INFLATION_FORECAST_MAX_STALENESS_MONTHS", "4")
+)
+
 
 def parse_curl_headers(raw_headers: str) -> dict[str, str]:
     blocks = [block for block in re.split(r"\r?\n\r?\n", raw_headers.strip()) if block.strip()]
@@ -184,15 +192,63 @@ def fetch_inflation_source_page() -> tuple[bytes, dict[str, str]]:
     )
 
 
-def period_to_sort_value(period: str) -> int:
+def parse_period_parts(period: str) -> tuple[int, int]:
+    if not PERIOD_RE.fullmatch(period):
+        raise ValueError(f"Unexpected period format: {period}")
     year, month = period.split("-", 1)
-    return int(year) * 100 + int(month)
+    return int(year), int(month)
+
+
+def period_to_sort_value(period: str) -> int:
+    year, month = parse_period_parts(period)
+    return year * 100 + month
+
+
+def period_month_distance(period: str, reference_date: date) -> int:
+    year, month = parse_period_parts(period)
+    return (reference_date.year - year) * 12 + reference_date.month - month
 
 
 def month_end_iso(period: str) -> str:
-    year, month = (int(part) for part in period.split("-", 1))
+    year, month = parse_period_parts(period)
     last_day = calendar.monthrange(year, month)[1]
     return f"{year:04d}-{month:02d}-{last_day:02d}"
+
+
+def validate_nbb_points(points: list[dict[str, float | int | str]]) -> None:
+    if len(points) < MIN_NBB_OBSERVATIONS:
+        raise ValueError(
+            f"Only {len(points)} NBB observations found; expected at least {MIN_NBB_OBSERVATIONS}."
+        )
+
+    seen_periods: set[str] = set()
+    previous_sort_value: int | None = None
+    for point in points:
+        period = str(point["period"])
+        sort_value = period_to_sort_value(period)
+        if sort_value != int(point["sortValue"]):
+            raise ValueError(f"Sort value mismatch for NBB period {period}.")
+        if period in seen_periods:
+            raise ValueError(f"Duplicate NBB period found: {period}")
+        if previous_sort_value is not None and sort_value <= previous_sort_value:
+            raise ValueError("NBB observations are not strictly sorted.")
+
+        rate = float(point["rate"])
+        if not 0 <= rate <= 20:
+            raise ValueError(f"Implausible NBB rate for {period}: {rate}")
+
+        seen_periods.add(period)
+        previous_sort_value = sort_value
+
+    latest_period = str(points[-1]["period"])
+    latest_age = period_month_distance(latest_period, datetime.now(UTC).date())
+    if latest_age < 0:
+        raise ValueError(f"NBB latest period is in the future: {latest_period}")
+    if latest_age > MAX_NBB_STALENESS_MONTHS:
+        raise ValueError(
+            f"NBB latest period {latest_period} is {latest_age} months old; "
+            f"maximum allowed is {MAX_NBB_STALENESS_MONTHS}."
+        )
 
 
 def load_nbb_points(xml_bytes: bytes) -> list[dict[str, float | int | str]]:
@@ -622,6 +678,120 @@ def parse_inflation_workbook(
     return forecasts, metadata
 
 
+def validate_inflation_forecasts(forecasts: list[dict[str, object]]) -> None:
+    if len(forecasts) < MIN_INFLATION_FORECASTS:
+        raise ValueError(
+            f"Only {len(forecasts)} inflation forecast vintages found; "
+            f"expected at least {MIN_INFLATION_FORECASTS}."
+        )
+
+    seen_forecast_months: set[str] = set()
+    previous_sort_value: int | None = None
+    for forecast in forecasts:
+        forecast_month = str(forecast["forecastMonth"])
+        sort_value = period_to_sort_value(forecast_month)
+        if sort_value != int(forecast["forecastSortValue"]):
+            raise ValueError(f"Sort value mismatch for forecast month {forecast_month}.")
+        if forecast_month in seen_forecast_months:
+            raise ValueError(f"Duplicate inflation forecast month found: {forecast_month}")
+        if previous_sort_value is not None and sort_value <= previous_sort_value:
+            raise ValueError("Inflation forecast vintages are not strictly sorted.")
+
+        monthly_points = forecast.get("monthlyPoints")
+        if not isinstance(monthly_points, list) or not monthly_points:
+            raise ValueError(f"No monthly points found for forecast {forecast_month}.")
+
+        seen_monthly_periods: set[str] = set()
+        previous_monthly_sort_value: int | None = None
+        for point in monthly_points:
+            if not isinstance(point, dict):
+                raise ValueError(f"Malformed monthly point in forecast {forecast_month}.")
+            period = str(point.get("period"))
+            monthly_sort_value = period_to_sort_value(period)
+            if monthly_sort_value != int(point.get("sortValue", 0)):
+                raise ValueError(
+                    f"Sort value mismatch for forecast {forecast_month}, period {period}."
+                )
+            if period in seen_monthly_periods:
+                raise ValueError(
+                    f"Duplicate monthly period {period} in forecast {forecast_month}."
+                )
+            if (
+                previous_monthly_sort_value is not None
+                and monthly_sort_value <= previous_monthly_sort_value
+            ):
+                raise ValueError(f"Monthly points are not sorted for forecast {forecast_month}.")
+
+            seen_monthly_periods.add(period)
+            previous_monthly_sort_value = monthly_sort_value
+
+        seen_forecast_months.add(forecast_month)
+        previous_sort_value = sort_value
+
+    latest_forecast_month = str(forecasts[-1]["forecastMonth"])
+    latest_age = period_month_distance(latest_forecast_month, datetime.now(UTC).date())
+    if latest_age < -1:
+        raise ValueError(f"Latest inflation forecast is unexpectedly in the future: {latest_forecast_month}")
+    if latest_age > MAX_INFLATION_FORECAST_STALENESS_MONTHS:
+        raise ValueError(
+            f"Latest inflation forecast {latest_forecast_month} is {latest_age} months old; "
+            f"maximum allowed is {MAX_INFLATION_FORECAST_STALENESS_MONTHS}."
+        )
+
+
+def load_previous_remote_metadata() -> dict[str, object]:
+    if not REMOTE_METADATA_FILE.exists():
+        return {}
+
+    try:
+        payload = json.loads(REMOTE_METADATA_FILE.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+
+    return payload if isinstance(payload, dict) else {}
+
+
+def preserve_metadata_if_unchanged(
+    metadata_payload: dict[str, object],
+    remote_metadata: dict[str, object],
+    previous_remote_metadata: dict[str, object],
+    source_key: str,
+    identity_fields: tuple[str, ...],
+    fallback_identity_fields: tuple[str, ...] = (),
+) -> None:
+    previous_source_metadata = previous_remote_metadata.get(source_key)
+    if not isinstance(previous_source_metadata, dict):
+        return
+
+    def fields_match(fields: tuple[str, ...]) -> bool:
+        return bool(fields) and all(
+            field in previous_source_metadata
+            and field in remote_metadata
+            and previous_source_metadata.get(field) == remote_metadata.get(field)
+            for field in fields
+        )
+
+    if not fields_match(identity_fields) and not fields_match(fallback_identity_fields):
+        return
+
+    # Some source responses change their envelope while the parsed data stays identical.
+    # Preserve the last semantic refresh metadata so scheduled runs do not create noise commits.
+    previous_fetched_at = previous_source_metadata.get("fetched_at")
+    if isinstance(previous_fetched_at, str):
+        metadata_payload["fetchedAt"] = previous_fetched_at
+        remote_metadata["fetched_at"] = previous_fetched_at
+
+    previous_response_sha256 = previous_source_metadata.get("response_sha256")
+    if isinstance(previous_response_sha256, str):
+        metadata_payload["responseSha256"] = previous_response_sha256
+        remote_metadata["response_sha256"] = previous_response_sha256
+
+    previous_landing_response_sha256 = previous_source_metadata.get("landing_response_sha256")
+    if isinstance(previous_landing_response_sha256, str):
+        metadata_payload["sourcePageSha256"] = previous_landing_response_sha256
+        remote_metadata["landing_response_sha256"] = previous_landing_response_sha256
+
+
 def extract_frontmatter(content: str) -> tuple[str, str] | None:
     match = re.match(r"^---\n(.*?)\n---\n?", content, re.DOTALL)
     if not match:
@@ -691,11 +861,22 @@ def write_csv(path: Path, rows: list[dict[str, float | int | str | None]], field
             writer.writerow(row)
 
 
+def canonical_sha256(payload: object) -> str:
+    canonical_json = json.dumps(
+        payload,
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    )
+    return hashlib.sha256(canonical_json.encode("utf-8")).hexdigest()
+
+
 def build_nbb_metadata(
     points: list[dict[str, float | int | str]],
     xml_bytes: bytes,
 ) -> tuple[dict[str, object], dict[str, object]]:
     response_sha256 = hashlib.sha256(xml_bytes).hexdigest()
+    data_sha256 = canonical_sha256(points)
     fetched_at = datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     latest_point = points[-1]
@@ -723,6 +904,7 @@ def build_nbb_metadata(
         "observationCount": len(points),
         "fetchedAt": fetched_at,
         "responseSha256": response_sha256,
+        "dataSha256": data_sha256,
         "description": description,
         "series": {
             "frequency": "M",
@@ -741,6 +923,7 @@ def build_nbb_metadata(
         "source_publication_date": publication_date,
         "latest_rate": latest_rate,
         "response_sha256": response_sha256,
+        "data_sha256": data_sha256,
         "fetched_at": fetched_at,
         "observation_count": len(points),
     }
@@ -759,6 +942,8 @@ def build_inflation_metadata(
 ) -> tuple[dict[str, object], dict[str, object]]:
     response_sha256 = hashlib.sha256(workbook_bytes).hexdigest()
     source_page_sha256 = hashlib.sha256(source_page_bytes).hexdigest()
+    data_sha256 = canonical_sha256(forecasts)
+    source_page_data_sha256 = canonical_sha256(source_page_summary)
     fetched_at = datetime.now(UTC).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
     metadata_payload = {
@@ -766,7 +951,9 @@ def build_inflation_metadata(
         "sourcePage": source_page_summary,
         "fetchedAt": fetched_at,
         "responseSha256": response_sha256,
+        "dataSha256": data_sha256,
         "sourcePageSha256": source_page_sha256,
+        "sourcePageDataSha256": source_page_data_sha256,
     }
 
     latest_forecast = forecasts[-1]
@@ -779,6 +966,8 @@ def build_inflation_metadata(
         "latest_forecast_month": latest_forecast["forecastMonth"],
         "latest_source_publication_date": latest_forecast["sourcePublicationDate"],
         "response_sha256": response_sha256,
+        "data_sha256": data_sha256,
+        "source_page_data_sha256": source_page_data_sha256,
         "fetched_at": fetched_at,
         "forecast_count": len(forecasts),
     }
@@ -825,9 +1014,11 @@ def main() -> int:
         print(f"Failed to fetch remote data: {exc}", file=sys.stderr)
         return 1
 
-    nbb_points = load_nbb_points(xml_bytes)
-    if not nbb_points:
-        print("No NBB observations found for the requested series.", file=sys.stderr)
+    try:
+        nbb_points = load_nbb_points(xml_bytes)
+        validate_nbb_points(nbb_points)
+    except (ValueError, ET.ParseError) as exc:
+        print(f"Failed to parse NBB data: {exc}", file=sys.stderr)
         return 1
 
     try:
@@ -835,11 +1026,13 @@ def main() -> int:
             inflation_workbook_bytes,
             inflation_headers,
         )
+        validate_inflation_forecasts(inflation_forecasts)
     except (ValueError, KeyError, zipfile.BadZipFile, ET.ParseError) as exc:
         print(f"Failed to parse inflation workbook: {exc}", file=sys.stderr)
         return 1
     inflation_source_page_summary = parse_inflation_source_page(inflation_source_page_bytes)
 
+    previous_remote_metadata = load_previous_remote_metadata()
     nbb_metadata, nbb_remote_metadata = build_nbb_metadata(nbb_points, xml_bytes)
     inflation_metadata, inflation_remote_metadata = build_inflation_metadata(
         inflation_forecasts,
@@ -849,6 +1042,22 @@ def main() -> int:
         inflation_source_page_bytes,
         inflation_source_page_headers,
         inflation_source_page_summary,
+    )
+    preserve_metadata_if_unchanged(
+        nbb_metadata,
+        nbb_remote_metadata,
+        previous_remote_metadata,
+        "nbb",
+        ("data_sha256",),
+        ("latest_period", "latest_rate", "observation_count"),
+    )
+    preserve_metadata_if_unchanged(
+        inflation_metadata,
+        inflation_remote_metadata,
+        previous_remote_metadata,
+        "inflation_forecasts",
+        ("data_sha256", "source_page_data_sha256"),
+        ("latest_forecast_month", "workbook_last_modified", "forecast_count"),
     )
 
     write_json(SERIES_FILE, nbb_points)

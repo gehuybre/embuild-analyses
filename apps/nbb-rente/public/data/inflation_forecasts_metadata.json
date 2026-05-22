@@ -3,43 +3,47 @@
   "sourceTitle": "Consumptieprijsindex - inflatievooruitzichten",
   "sourceUrl": "https://www.plan.be/nl/data/indexcijfer-der-consumptieprijzen",
   "sourceDownloadUrl": "https://www.plan.be/sites/default/files/documents/DATA_FOR_InflationHistory.xlsx",
-  "workbookLastModified": "Tue, 07 Apr 2026 11:41:26 GMT",
-  "latestForecastMonth": "2026-04",
-  "latestForecastLabel": "april 2026",
-  "latestSourcePublicationDate": "2026-04-07",
+  "workbookLastModified": "Tue, 05 May 2026 11:43:46 GMT",
+  "latestForecastMonth": "2026-05",
+  "latestForecastLabel": "mei 2026",
+  "latestSourcePublicationDate": "2026-05-05",
   "forecastCount": 12,
   "comparableBaseIndexLabel": "Index (2025=100)",
   "comparableForecastMonths": [
     "2026-02",
     "2026-03",
-    "2026-04"
+    "2026-04",
+    "2026-05"
   ],
   "comparableForecastLabels": [
     "februari 2026",
     "maart 2026",
-    "april 2026"
+    "april 2026",
+    "mei 2026"
   ],
-  "comparableForecastCount": 3,
+  "comparableForecastCount": 4,
   "excludedForecastLabels": [
     "januari 2026"
   ],
   "comparisonPeriodStart": "2026-01",
   "comparisonPeriodEnd": "2027-12",
-  "description": "Het Federaal Planbureau publiceert elke maand een nieuwe inflatieprognose. Deze vergelijking toont februari 2026, maart 2026 en april 2026 op basis van index (2025=100). Laatste update: 7 april 2026. Prognoses met een andere indexbasis, zoals januari 2026, worden niet meegetoond.",
+  "description": "Het Federaal Planbureau publiceert elke maand een nieuwe inflatieprognose. Deze vergelijking toont februari 2026, maart 2026, april 2026 en mei 2026 op basis van index (2025=100). Laatste update: 5 mei 2026. Prognoses met een andere indexbasis, zoals januari 2026, worden niet meegetoond.",
   "sourcePage": {
-    "title": "Indexcijfer der consumptieprijzen - Inflatievooruitzichten [07/04/2026]",
-    "publicationDate": "2026-04-07",
+    "title": "Indexcijfer der consumptieprijzen - Inflatievooruitzichten [05/05/2026]",
+    "publicationDate": "2026-05-05",
     "inflationOutlook": [
-      "Inflatie: gemiddeld 3.2% in 2026 en 2.9% in 2027, tegenover 2,47% in 2025 en 3,14% in 2024.",
-      "Groei van de gezondheidsindex: gemiddeld 3.0% in 2026 en 3.1% in 2027, tegenover 2,63% in 2025 en 3,28% in 2024."
+      "Inflatie: gemiddeld 3,5% in 2026 en 3,0% in 2027, tegenover 2,47% in 2025 en 3,14% in 2024.",
+      "Groei van de gezondheidsindex: gemiddeld 3,2% in 2026 en 3,3% in 2027, tegenover 2,63% in 2025 en 3,28% in 2024."
     ],
     "pivotalIndex": [
-      "De volgende overschrijding van de spilindex (100,28, basisjaar 2025) zou plaatsvinden in juli 2026. Als gevolg daarvan zouden de sociale uitkeringen en de wedden van het overheidspersoneel in oktober 2026 geïndexeerd worden. Aangezien die indexering zal worden berekend overeenkomstig de modaliteiten van de maatregel 'centenindex', zal het indexeringspercentage van 2% slechts toegepast worden op de schijf tot 2000 euro bruto per maand voor de sociale uitkeringen en op de schijf tot 4000 euro bruto per maand voor de overheidswedden.",
-      "De daaropvolgende spilindexen (102,29 en 104,34, basisjaar 2025) worden respectievelijk overschreden in december 2026 en november 2027."
+      "De volgende overschrijding van de spilindex (100,28, basisjaar 2025) zou plaatsvinden in juni 2026. Als gevolg daarvan zouden de sociale uitkeringen en de wedden van het overheidspersoneel in september 2026 geïndexeerd worden. Aangezien die indexering zal worden berekend overeenkomstig de modaliteiten van de maatregel 'centenindex', zal het indexeringspercentage van 2% slechts toegepast worden op de schijf tot 2000 euro bruto per maand voor de sociale uitkeringen en op de schijf tot 4000 euro bruto per maand voor de overheidswedden.",
+      "De daaropvolgende spilindexen (102,29 en 104,34, basisjaar 2025) worden respectievelijk overschreden in december 2026 en augustus 2027."
     ],
-    "nextUpdate": "5 mei 2026 om 14u."
+    "nextUpdate": "2 juni 2026 om 14u."
   },
-  "fetchedAt": "2026-05-04T21:56:14Z",
-  "responseSha256": "b232acc6d1758e1658616c97e0bbc36be54d284d363445afe8450f6b0ce31d48",
-  "sourcePageSha256": "273129bae5f2887c3695a8eafe91eb26a16118ae5f76712a7e28352b5597e50b"
+  "fetchedAt": "2026-05-22T12:56:00Z",
+  "responseSha256": "66c538517a496249e7fdbcd9bbaddb902310d945e477497514704602ba14958a",
+  "dataSha256": "0dfd06d63e8c1941902f3b60244094f9267756d09c17914b54ca4d407d30578f",
+  "sourcePageSha256": "3a4765b0f8647193aa2e06d5f6f4b293eedbfd18b030000f38444fbb7d2a822b",
+  "sourcePageDataSha256": "252af5b4a791f1b77f6f1824f741818ccbfba2ba233a4bc4a9145646f461ae49"
 }
