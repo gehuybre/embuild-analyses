@@ -44,6 +44,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          token: ""
 
       - name: Detect apps that need a rebuild
         id: detect
@@ -66,6 +67,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          token: ""
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
