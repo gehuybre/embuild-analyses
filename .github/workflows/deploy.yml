@@ -41,10 +41,12 @@ jobs:
       reason: ${{ steps.detect.outputs.reason }}
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ""
+        run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --prune --no-tags origin "+refs/heads/*:refs/remotes/origin/*"
+          git checkout --force "${GITHUB_SHA}"
 
       - name: Detect apps that need a rebuild
         id: detect
@@ -66,9 +68,12 @@ jobs:
       BUILD_APPS_CONCURRENCY: "2"
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          token: ""
+        run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "${GITHUB_SHA}"
+          git checkout --force FETCH_HEAD
 
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
