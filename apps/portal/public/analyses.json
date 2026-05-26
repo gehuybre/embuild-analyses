@@ -1,8 +1,22 @@
 [
   {
+    "slug": "vacatures",
+    "title": "Vacatures in de bouw",
+    "date": "2026-05-26",
+    "summary": "Evolutie van door VDAB ontvangen vacatures in de bouwsector, met uitsplitsing naar beroep en beroepsgroep.",
+    "tags": [
+      "arbeidsmarkt",
+      "bouw",
+      "vacatures",
+      "VDAB"
+    ],
+    "sourcePublicationDate": "2026-04-30",
+    "url": "/analyses/vacatures/"
+  },
+  {
     "slug": "faillissementen",
     "title": "Faillissementen in de bouwsector",
-    "date": "2026-04-18",
+    "date": "2026-05-22",
     "summary": "Maandelijkse evolutie van faillissementen in de Belgische bouwsector, met vergelijking met andere sectoren en regionale spreiding.",
     "tags": [
       "economie",
@@ -12,6 +26,46 @@
     ],
     "sourcePublicationDate": "2026-04-17",
     "url": "/analyses/faillissementen/"
+  },
+  {
+    "slug": "nbb-rente",
+    "title": "Hypothecaire rente in België",
+    "date": "2026-05-22",
+    "summary": "Evolutie van de Belgische hypothecaire rente op nieuwe contracten met een initiële rentevaste periode van meer dan 10 jaar, aangevuld met recente inflatieprognoses van het Federaal Planbureau.",
+    "tags": [
+      "rente",
+      "hypotheken",
+      "inflatie",
+      "nbb",
+      "woningmarkt"
+    ],
+    "sourcePublicationDate": "2026-03-31",
+    "url": "/analyses/nbb-rente/"
+  },
+  {
+    "slug": "vastgoed-verkopen",
+    "title": "Verkoop van vastgoed in België",
+    "date": "2026-05-07",
+    "summary": "Analyse van vastgoedtransacties en prijzen per type woning, regio en provincie.",
+    "tags": [
+      "vastgoed",
+      "woningmarkt",
+      "prijzen"
+    ],
+    "sourcePublicationDate": "2026-04-30",
+    "url": "/analyses/vastgoed-verkopen/"
+  },
+  {
+    "slug": "vergunningen-goedkeuringen",
+    "title": "Vergunningen goedkeuringen",
+    "date": "2026-04-30",
+    "summary": "Analyse van de goedgekeurde bouwvergunningen.",
+    "tags": [
+      "vergunningen",
+      "bouw"
+    ],
+    "sourcePublicationDate": "2026-04-30",
+    "url": "/analyses/vergunningen-goedkeuringen/"
   },
   {
     "slug": "fin-indicatoren",
@@ -26,21 +80,6 @@
     "url": "/analyses/fin-indicatoren/"
   },
   {
-    "slug": "nbb-rente",
-    "title": "Hypothecaire rente in België",
-    "date": "2026-04-13",
-    "summary": "Evolutie van de Belgische hypothecaire rente op nieuwe contracten met een initiële rentevaste periode van meer dan 10 jaar, aangevuld met recente inflatieprognoses van het Federaal Planbureau.",
-    "tags": [
-      "rente",
-      "hypotheken",
-      "inflatie",
-      "nbb",
-      "woningmarkt"
-    ],
-    "sourcePublicationDate": "2026-02-28",
-    "url": "/analyses/nbb-rente/"
-  },
-  {
     "slug": "prijsherziening-index-i-2021",
     "title": "Prijsherzieningsindex I 2021",
     "date": "2026-04-01",
@@ -53,18 +92,6 @@
     ],
     "sourcePublicationDate": "2025-01-30",
     "url": "/analyses/prijsherziening-index-i-2021/"
-  },
-  {
-    "slug": "vergunningen-goedkeuringen",
-    "title": "Vergunningen goedkeuringen",
-    "date": "2026-04-01",
-    "summary": "Analyse van de goedgekeurde bouwvergunningen.",
-    "tags": [
-      "vergunningen",
-      "bouw"
-    ],
-    "sourcePublicationDate": "2026-04-01",
-    "url": "/analyses/vergunningen-goedkeuringen/"
   },
   {
     "slug": "starters-stoppers",
@@ -173,7 +200,7 @@
     "slug": "bouwprojecten-gemeenten",
     "title": "Gemeentelijke bouwprojecten Vlaanderen 2026-2031",
     "date": "2026-01-09",
-    "summary": "Doorzoekbare database van 7,134 concrete investeringsprojecten uit meerjarenplannen van Vlaamse gemeenten.",
+    "summary": "Doorzoekbare database van 12.251 concrete investeringsprojecten uit meerjarenplannen van Vlaamse gemeenten.",
     "tags": [
       "gemeente",
       "bouwprojecten",
@@ -214,23 +241,10 @@
     "url": "/analyses/energiekaart-premies/"
   },
   {
-    "slug": "vastgoed-verkopen",
-    "title": "Verkoop van vastgoed in België",
-    "date": "2025-09-30",
-    "summary": "Analyse van vastgoedtransacties en prijzen per type woning, regio en provincie.",
-    "tags": [
-      "vastgoed",
-      "woningmarkt",
-      "prijzen"
-    ],
-    "sourcePublicationDate": "2025-12-18",
-    "url": "/analyses/vastgoed-verkopen/"
-  },
-  {
     "slug": "gip-projecten",
     "title": "Geïntegreerd Investeringsprogramma 2025-2029",
     "date": "2025-07-14",
-    "summary": "€7,4 miljard investeringen in Vlaamse infrastructuur verdeeld over 774 projecten in mobiliteit, openbare werken, asset management en waterbeheersing.",
+    "summary": "€7,51 miljard investeringen voor 2025-2027 uit het Vlaamse GIP, verdeeld over 777 (deel)projecten in mobiliteit, openbare werken, asset management en waterbeheersing.",
     "tags": [
       "infrastructuur",
       "mobiliteit",

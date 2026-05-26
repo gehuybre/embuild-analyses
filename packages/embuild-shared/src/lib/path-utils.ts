@@ -75,6 +75,11 @@ export function getBasePath(): string {
     return runtimeBasePath.value
   }
 
+  const compiledBasePath = process.env.NEXT_PUBLIC_BASE_PATH || ""
+  if (compiledBasePath) {
+    return compiledBasePath
+  }
+
   if (window.location.hostname === "gehuybre.github.io") {
     if (window.location.pathname.startsWith('/data-blog')) {
       return '/data-blog';

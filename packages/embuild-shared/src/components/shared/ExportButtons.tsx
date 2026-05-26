@@ -20,6 +20,18 @@ type ExportData = {
   [key: string]: string | number | Array<string | number> | null | undefined
 }
 
+function csvCell(value: string | number | null | undefined): string {
+  const text = value === null || value === undefined ? "" : String(value)
+  if (/[",\n\r]/.test(text)) {
+    return `"${text.replace(/"/g, '""')}"`
+  }
+  return text
+}
+
+function csvRow(values: Array<string | number | null | undefined>): string {
+  return values.map(csvCell).join(",")
+}
+
 interface ExportButtonsProps {
   /** Data to export as CSV */
   data: ExportData[]
@@ -107,15 +119,15 @@ export function ExportButtons({
 
       if (additionalColumns.length > 0) {
         // Multi-column export: include all additional columns
-        const columnValues = additionalColumns.map(col => row[col] ?? "")
-        return [...periodValues, ...columnValues].join(",")
+        const columnValues = additionalColumns.map((col) => row[col] as string | number | null | undefined)
+        return csvRow([...periodValues, ...columnValues])
       } else {
         // Single value export: use the value field
-        return [...periodValues, row.value].join(",")
+        return csvRow([...periodValues, row.value])
       }
     })
 
-    const csv = [...metadata, headers.join(","), ...rows].join("\n")
+    const csv = [...metadata, csvRow(headers), ...rows].join("\n")
 
     // Create and trigger download
     const blob = new Blob([csv], { type: "text/csv;charset=utf-8;" })

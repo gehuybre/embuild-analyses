@@ -1,0 +1,122 @@
+[
+  {
+    "period_end": "2017-12-31",
+    "period_year": 2017,
+    "period_month": 12,
+    "period_label": "januari 2017 - december 2017",
+    "period_short": "Dec 2017",
+    "vacatures": 18973,
+    "source_file": "vacatures_201712_all.xlsx",
+    "previous_period_vacatures": null,
+    "change_abs": null,
+    "change_pct": null
+  },
+  {
+    "period_end": "2018-12-31",
+    "period_year": 2018,
+    "period_month": 12,
+    "period_label": "januari 2018 - december 2018",
+    "period_short": "Dec 2018",
+    "vacatures": 24299,
+    "source_file": "vacatures_201812_all.xlsx",
+    "previous_period_vacatures": 18973.0,
+    "change_abs": 5326.0,
+    "change_pct": 28.1
+  },
+  {
+    "period_end": "2019-12-31",
+    "period_year": 2019,
+    "period_month": 12,
+    "period_label": "januari 2019 - december 2019",
+    "period_short": "Dec 2019",
+    "vacatures": 18821,
+    "source_file": "vacatures_201912_all.xlsx",
+    "previous_period_vacatures": 24299.0,
+    "change_abs": -5478.0,
+    "change_pct": -22.5
+  },
+  {
+    "period_end": "2020-12-31",
+    "period_year": 2020,
+    "period_month": 12,
+    "period_label": "januari 2020 - december 2020",
+    "period_short": "Dec 2020",
+    "vacatures": 17272,
+    "source_file": "vacatures_202012_all.xlsx",
+    "previous_period_vacatures": 18821.0,
+    "change_abs": -1549.0,
+    "change_pct": -8.2
+  },
+  {
+    "period_end": "2021-12-31",
+    "period_year": 2021,
+    "period_month": 12,
+    "period_label": "januari 2021 - december 2021",
+    "period_short": "Dec 2021",
+    "vacatures": 21293,
+    "source_file": "vacatures_202112_all.xlsx",
+    "previous_period_vacatures": 17272.0,
+    "change_abs": 4021.0,
+    "change_pct": 23.3
+  },
+  {
+    "period_end": "2022-12-31",
+    "period_year": 2022,
+    "period_month": 12,
+    "period_label": "januari 2022 - december 2022",
+    "period_short": "Dec 2022",
+    "vacatures": 25025,
+    "source_file": "vacatures_202212_all.xlsx",
+    "previous_period_vacatures": 21293.0,
+    "change_abs": 3732.0,
+    "change_pct": 17.5
+  },
+  {
+    "period_end": "2023-12-31",
+    "period_year": 2023,
+    "period_month": 12,
+    "period_label": "januari 2023 - december 2023",
+    "period_short": "Dec 2023",
+    "vacatures": 21201,
+    "source_file": "vacatures_202312_all.xlsx",
+    "previous_period_vacatures": 25025.0,
+    "change_abs": -3824.0,
+    "change_pct": -15.3
+  },
+  {
+    "period_end": "2024-12-31",
+    "period_year": 2024,
+    "period_month": 12,
+    "period_label": "januari 2024 - december 2024",
+    "period_short": "Dec 2024",
+    "vacatures": 18169,
+    "source_file": "vacatures_202412_all.xlsx",
+    "previous_period_vacatures": 21201.0,
+    "change_abs": -3032.0,
+    "change_pct": -14.3
+  },
+  {
+    "period_end": "2025-12-31",
+    "period_year": 2025,
+    "period_month": 12,
+    "period_label": "januari 2025 - december 2025",
+    "period_short": "Dec 2025",
+    "vacatures": 18363,
+    "source_file": "vacatures_202512_all.xlsx",
+    "previous_period_vacatures": 18169.0,
+    "change_abs": 194.0,
+    "change_pct": 1.1
+  },
+  {
+    "period_end": "2026-04-30",
+    "period_year": 2026,
+    "period_month": 4,
+    "period_label": "mei 2025 - april 2026",
+    "period_short": "Apr 2026",
+    "vacatures": 17868,
+    "source_file": "vacatures_202604_all.xlsx",
+    "previous_period_vacatures": 18363.0,
+    "change_abs": -495.0,
+    "change_pct": -2.7
+  }
+]

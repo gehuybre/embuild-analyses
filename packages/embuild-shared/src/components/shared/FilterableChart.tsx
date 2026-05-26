@@ -275,11 +275,19 @@ export function FilterableChart<TData = UnknownRecord>({
   const showLegend = visibleLegendItemCount > 1
 
   const isHorizontalLayout = layout === "horizontal" && chartType === "bar" && !hasSeries
+  const chartHeight = isHorizontalLayout
+    ? Math.max(400, chartData.length * 34 + 90)
+    : 400
   const chartMargin = isHorizontalLayout
     ? { ...CHART_THEME.margin, left: 20, right: 20 }
     : yAxisLabel
       ? { ...CHART_THEME.margin, left: 28 }
       : CHART_THEME.margin
+
+  const formatCategoryTick = (value: unknown) => {
+    const text = String(value ?? "")
+    return text.length > 28 ? `${text.slice(0, 25)}...` : text
+  }
 
   const formatTooltipValue = (value: any) => {
     const numeric = typeof value === "number" ? value : Number(value)
@@ -485,8 +493,10 @@ export function FilterableChart<TData = UnknownRecord>({
         fontSize={CHART_THEME.fontSize}
         tickLine={false}
         axisLine={false}
-        width={160}
+        width={210}
         interval={0}
+        tickMargin={8}
+        tickFormatter={formatCategoryTick}
       />
       {hasSeries ? (
         <Tooltip content={<CustomTooltip />} shared={false} trigger="hover" />
@@ -769,7 +779,7 @@ export function FilterableChart<TData = UnknownRecord>({
           <span className="font-bold">{computedYAxisLabelAbove.boldText}</span>
         </div>
       )}
-      <div ref={containerRef} style={{ height: '400px', width: '100%', minWidth: 0 }}>
+      <div ref={containerRef} style={{ height: `${chartHeight}px`, width: '100%', minWidth: 0 }}>
         {showChart ? (
           <ResponsiveContainer width="100%" height="100%" minWidth={0}>
             {renderChart()}

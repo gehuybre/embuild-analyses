@@ -205,6 +205,23 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
     },
   },
   {
+    slug: "vacatures",
+    sections: {
+      evolutie: {
+        type: "custom",
+        title: "Evolutie ontvangen vacatures",
+        component: "VacaturesEmbed",
+        height: 560,
+      },
+      "top-beroepen": {
+        type: "custom",
+        title: "Top beroepen met meeste vacatures",
+        component: "VacaturesEmbed",
+        height: 620,
+      },
+    },
+  },
+  {
     slug: "huishoudensgroei",
     sections: {
       evolutie: {
