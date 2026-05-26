@@ -42,14 +42,16 @@ jobs:
           git fetch --depth=1 origin "${GITHUB_SHA}"
           git checkout --force FETCH_HEAD
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "20"
           cache: pnpm
+
+      - name: Setup pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@10.33.0 --activate
 
       - name: Restore Next.js build cache
         uses: actions/cache/restore@v4
@@ -118,9 +120,7 @@ jobs:
 
       - name: Deploy to Cloudflare Pages
         if: steps.config.outputs.deploy_enabled == 'true'
-        uses: cloudflare/wrangler-action@v3
-        with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          command: pages deploy dist-standalone/fin-indicatoren --project-name=${{ vars.CLOUDFLARE_PAGES_PROJECT_FIN_INDICATOREN }} --branch=${{ github.ref_name }}
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+        run: npx --yes wrangler@4.79.0 pages deploy dist-standalone/fin-indicatoren --project-name="${{ vars.CLOUDFLARE_PAGES_PROJECT_FIN_INDICATOREN }}" --branch="${{ github.ref_name }}"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

@@ -120,6 +120,8 @@ jobs:
 
       - name: Commit and push changes
         id: commit_changes
+        env:
+          PUSH_TOKEN: ${{ secrets.DATA_UPDATE_TOKEN || github.token }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -134,8 +136,13 @@ jobs:
           else
             git commit -m "chore(data): update vacatures data (auto)"
             git pull --rebase origin "${GITHUB_REF_NAME}"
-            git push origin HEAD:main
-            echo "changed=true" >> "${GITHUB_OUTPUT}"
+            git remote set-url origin "https://x-access-token:${PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+            if git push origin HEAD:main; then
+              echo "changed=true" >> "${GITHUB_OUTPUT}"
+            else
+              echo "::warning::Could not push generated data. Fix repository token access or set DATA_UPDATE_TOKEN."
+              echo "changed=false" >> "${GITHUB_OUTPUT}"
+            fi
           fi
 
       - name: Trigger deploy
