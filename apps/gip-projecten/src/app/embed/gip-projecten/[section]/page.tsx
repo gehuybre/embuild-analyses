@@ -1,6 +1,6 @@
 import { GIPDashboard } from "@/components/GIPDashboard"
 
-const SECTIONS = ["overview", "map", "projects", "large"] as const
+const SECTIONS = ["overview", "map", "projects", "reconciliation", "large"] as const
 
 type GipTab = (typeof SECTIONS)[number]
 

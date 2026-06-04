@@ -1,0 +1,93 @@
+{
+  "default_version": "2026",
+  "versions": [
+    {
+      "version": "2025",
+      "label": "GIP 2025",
+      "is_default": false,
+      "metadata_path": "/data/metadata_2025.json",
+      "data_path": "/data/gip_data_2025.json",
+      "projects_csv_path": "/data/projects_2025.csv",
+      "metadata": {
+        "version": "2025",
+        "title": "Geïntegreerd Investeringsprogramma 2025-2027",
+        "source": "Vlaamse Regering - GIP 2025-2029, bijlage 4BIS",
+        "source_files": [
+          "VR_2025_1407_MED.0277-4_GIP_2025-2029_van_het_beleidsdomein_MOW_-_bijlage_BIS_g3zk8e.pdf",
+          "3_-_BIJLAGE_-_GIP_-_Grote_Projecten_yvc7un.pdf"
+        ],
+        "years": [
+          2025,
+          2026,
+          2027
+        ],
+        "period_label": "2025-2027",
+        "processed_at": "2026-05-27T10:59:21+00:00",
+        "allocation_count": 777,
+        "unique_project_count": 722,
+        "infrastructure_feature_count": 556,
+        "infrastructure_line_count": 85,
+        "infrastructure_osm_line_count": 74,
+        "infrastructure_point_count": 495,
+        "total_budget": 7510150847.73,
+        "by_year": {
+          "2025": 2585429280.69,
+          "2026": 2423646670.3,
+          "2027": 2501074896.74
+        },
+        "stated_total": {
+          "2025": 2585429280.69,
+          "2026": 2423646670.31,
+          "2027": 2501074896.75
+        },
+        "mapped_allocation_count": 556,
+        "mapped_budget_total": 3659533303.21,
+        "mapped_budget_share": 0.4873,
+        "municipality_count": 188
+      }
+    },
+    {
+      "version": "2026",
+      "label": "GIP 2026",
+      "is_default": true,
+      "metadata_path": "/data/metadata_2026.json",
+      "data_path": "/data/gip_data_2026.json",
+      "projects_csv_path": "/data/projects_2026.csv",
+      "metadata": {
+        "version": "2026",
+        "title": "Geïntegreerd Investeringsprogramma 2026",
+        "source": "Vlaamse Regering - GIP MOW 2026, mededeling en bijlage 2",
+        "source_files": [
+          "VR 2026 2205 MED.0202-1 GIP MOW 2026 - mededeling BIS.pdf",
+          "VR_2026 2025_1407_MED.0277-4_GIP_2025-2029_van_het_beleidsdomein_MOW_-_bijlage_BIS_g3zk8e.pdf"
+        ],
+        "years": [
+          2026
+        ],
+        "period_label": "2026",
+        "processed_at": "2026-05-27T11:00:09+00:00",
+        "allocation_count": 605,
+        "unique_project_count": 552,
+        "infrastructure_feature_count": 401,
+        "infrastructure_line_count": 46,
+        "infrastructure_osm_line_count": 36,
+        "infrastructure_point_count": 381,
+        "total_budget": 3685246893.0,
+        "by_year": {
+          "2025": 0.0,
+          "2026": 3685246893.0,
+          "2027": 0.0
+        },
+        "stated_total": {
+          "2025": 0.0,
+          "2026": 3685246893.0,
+          "2027": 0.0
+        },
+        "mapped_allocation_count": 401,
+        "mapped_budget_total": 2704634625.0,
+        "mapped_budget_share": 0.7339,
+        "municipality_count": 161
+      }
+    }
+  ]
+}

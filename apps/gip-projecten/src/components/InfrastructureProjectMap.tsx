@@ -353,12 +353,14 @@ export function InfrastructureProjectMap({
   selectedProgram,
   selectedBudgetKey,
   formatBudget,
+  years = [2025, 2026, 2027],
   large = false,
 }: {
   features: InfrastructureFeature[]
   selectedProgram: string
   selectedBudgetKey: BudgetKey
   formatBudget: (value: number) => string
+  years?: InvestmentYear[]
   large?: boolean
 }) {
   const svgRef = useRef<SVGSVGElement | null>(null)
@@ -585,7 +587,7 @@ export function InfrastructureProjectMap({
   if (loadError) {
     return (
       <div className="rounded-md border border-destructive/30 p-4 text-sm text-destructive">
-        Kon de basiskaart niet laden: {loadError}
+        Kon de kaartgegevens niet laden. Herlaad de pagina of probeer het later opnieuw.
       </div>
     )
   }
@@ -598,7 +600,7 @@ export function InfrastructureProjectMap({
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-3 text-xs text-muted-foreground">
         <span className="font-medium text-foreground">Startjaar investering</span>
-        {([2025, 2026, 2027] as InvestmentYear[]).map((year) => (
+        {years.map((year) => (
           <span key={year} className="inline-flex items-center gap-1.5">
             <span
               className="h-2.5 w-2.5 rounded-full"

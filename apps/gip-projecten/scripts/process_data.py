@@ -35,10 +35,13 @@ PORTAL_MAP_PATH = ANALYSES_DIR / "apps" / "portal" / "public" / "maps" / "belgiu
 OVERPASS_URL = "https://overpass-api.de/api/interpreter"
 INFRASTRUCTURE_BASEMAP_CACHE = OSM_CACHE_DIR / "flanders_infrastructure_basemap.json"
 
-MAIN_TABLE_PDF = SOURCE_DIR / "VR_2025_1407_MED.0277-4_GIP_2025-2029_van_het_beleidsdomein_MOW_-_bijlage_BIS_g3zk8e.pdf"
-BIG_PROJECTS_PDF = SOURCE_DIR / "3_-_BIJLAGE_-_GIP_-_Grote_Projecten_yvc7un.pdf"
+MAIN_TABLE_2025_PDF = SOURCE_DIR / "VR_2025_1407_MED.0277-4_GIP_2025-2029_van_het_beleidsdomein_MOW_-_bijlage_BIS_g3zk8e.pdf"
+MAIN_TABLE_2026_PDF = SOURCE_DIR / "VR_2026 2025_1407_MED.0277-4_GIP_2025-2029_van_het_beleidsdomein_MOW_-_bijlage_BIS_g3zk8e.pdf"
+MEDEDELING_2026_PDF = SOURCE_DIR / "VR 2026 2205 MED.0202-1 GIP MOW 2026 - mededeling BIS.pdf"
+BIG_PROJECTS_2025_PDF = SOURCE_DIR / "3_-_BIJLAGE_-_GIP_-_Grote_Projecten_yvc7un.pdf"
 
 YEARS = [2025, 2026, 2027]
+DEFAULT_VERSION = "2026"
 LONG_TERM_YEARS = list(range(2025, 2041))
 PROVINCE_ORDER = ["antwerpen", "vlaams_brabant", "west_vlaanderen", "oost_vlaanderen", "limburg"]
 PROVINCE_DEFINITIONS = {
@@ -98,11 +101,16 @@ def load_keyword_config() -> dict[str, list[str]]:
 def parse_euro(text: str) -> float:
     match = re.search(r"(\d{1,3}(?:\.\d{3})*,\d{2})", text)
     if not match:
+        match = re.search(r"(\d{1,3}(?:\.\d{3})+|\d+)", text)
+    if not match:
         return 0.0
-    return float(match.group(1).replace(".", "").replace(",", "."))
+    value = match.group(1)
+    if "," in value:
+        return float(value.replace(".", "").replace(",", "."))
+    return float(value.replace(".", ""))
 
 
-def parse_main_table() -> tuple[list[dict[str, Any]], dict[str, float]]:
+def parse_main_table_2025() -> tuple[list[dict[str, Any]], dict[str, float]]:
     columns = [
         ("programma", 0, 112),
         ("subprogramma", 112, 218),
@@ -123,7 +131,7 @@ def parse_main_table() -> tuple[list[dict[str, Any]], dict[str, float]]:
         return None
 
     lines: dict[tuple[int, int], list[tuple[float, str]]] = defaultdict(list)
-    for row in extract_tsv(MAIN_TABLE_PDF):
+    for row in extract_tsv(MAIN_TABLE_2025_PDF):
         if row.get("level") != "5":
             continue
         text = row.get("text", "")
@@ -203,6 +211,118 @@ def parse_main_table() -> tuple[list[dict[str, Any]], dict[str, float]]:
     return data_rows, total_row
 
 
+def parse_main_table_2026() -> tuple[list[dict[str, Any]], dict[str, float]]:
+    columns = [
+        ("programma", 0, 124),
+        ("subprogramma", 124, 254),
+        ("entiteit", 254, 434),
+        ("project", 434, 658),
+        ("deelproject", 658, 882),
+        ("locatie", 882, 1035),
+        ("b2026", 1035, 1300),
+    ]
+    text_columns = ["programma", "subprogramma", "entiteit", "project", "deelproject", "locatie"]
+    context_columns = ["programma", "subprogramma", "entiteit", "project"]
+    money_re = re.compile(r"\d{1,3}(?:\.\d{3})+")
+
+    def column_for_x(x: float) -> str | None:
+        for name, start, end in columns:
+            if start <= x < end:
+                return name
+        return None
+
+    lines: dict[tuple[int, int], list[tuple[float, str]]] = defaultdict(list)
+    for row in extract_tsv(MAIN_TABLE_2026_PDF):
+        if row.get("level") != "5":
+            continue
+        text = row.get("text", "")
+        if not text or text.startswith("###"):
+            continue
+        lines[(int(row["page_num"]), round(float(row["top"])))].append((float(row["left"]), text))
+
+    context = {key: "" for key in context_columns}
+    pending = {key: [] for key, _, _ in columns}
+    data_rows: list[dict[str, Any]] = []
+    total_row: dict[str, float] | None = None
+    last_row: dict[str, Any] | None = None
+
+    for page, y in sorted(lines):
+        line = {key: [] for key, _, _ in columns}
+        for left, text in sorted(lines[(page, y)]):
+            column = column_for_x(left)
+            if column:
+                line[column].append(text)
+
+        all_text = compact_text([text for values in line.values() for text in values])
+        if any(
+            header in all_text
+            for header in ["OverkoepelendProgramma", "Budget 2026", "VR 2026", "GIP 2026"]
+        ):
+            continue
+
+        has_budget = bool(money_re.search(compact_text(line["b2026"])))
+        if not has_budget:
+            if last_row is not None and any(line[column] for column in text_columns):
+                for column in text_columns:
+                    continuation = compact_text(line[column])
+                    if not continuation:
+                        continue
+                    last_row[column] = compact_text([str(last_row.get(column, "")), continuation])
+                    if column in context_columns:
+                        context[column] = last_row[column]
+                continue
+
+            if any(line[column] for column in text_columns):
+                for column, _, _ in columns:
+                    if line[column]:
+                        pending[column].extend(line[column])
+            continue
+
+        merged = {column: compact_text(pending[column] + line[column]) for column, _, _ in columns}
+        pending = {key: [] for key, _, _ in columns}
+
+        for column in context_columns:
+            if merged[column]:
+                context[column] = merged[column]
+            else:
+                merged[column] = context[column]
+
+        budget2026 = parse_euro(merged["b2026"])
+        if budget2026 <= 0:
+            continue
+
+        budgets = {f"budget{year}": 0.0 for year in YEARS}
+        budgets["budget2026"] = budget2026
+
+        if merged["programma"] == "Totaal":
+            total_row = budgets
+            continue
+
+        row = {
+            "id": f"gip-{len(data_rows) + 1:04d}",
+            "programma": merged["programma"],
+            "subprogramma": merged["subprogramma"],
+            "entiteit": merged["entiteit"],
+            "project": merged["project"],
+            "deelproject": merged["deelproject"],
+            "locatie": merged["locatie"],
+            **budgets,
+        }
+        row["budget_total"] = round(sum(budgets.values()), 2)
+        data_rows.append(row)
+        last_row = row
+
+    if total_row is None:
+        raise RuntimeError("Could not find the GIP 2026 total row in the PDF.")
+
+    parsed_total = round(sum(row["budget_total"] for row in data_rows), 2)
+    stated_total = round(sum(total_row.values()), 2)
+    if abs(parsed_total - stated_total) > 0.05:
+        raise RuntimeError(f"Parsed total {parsed_total} does not match PDF total {stated_total}.")
+
+    return data_rows, total_row
+
+
 def parse_mio_value(text: str) -> int | None:
     if text == "-":
         return 0
@@ -211,7 +331,10 @@ def parse_mio_value(text: str) -> int | None:
     return None
 
 
-def parse_big_projects() -> list[dict[str, Any]]:
+def parse_big_projects(pdf_path: Path | None) -> list[dict[str, Any]]:
+    if pdf_path is None:
+        return []
+
     year_centers = [287, 320, 352, 385, 417, 450, 482, 515, 548, 580, 613, 645, 678, 710, 743, 775]
 
     def year_for_x(x: float) -> int | None:
@@ -223,7 +346,7 @@ def parse_big_projects() -> list[dict[str, Any]]:
         return None
 
     lines: dict[int, list[tuple[float, str]]] = defaultdict(list)
-    for row in extract_tsv(BIG_PROJECTS_PDF):
+    for row in extract_tsv(pdf_path):
         if row.get("level") != "5":
             continue
         text = row.get("text", "")
@@ -1324,7 +1447,7 @@ def write_json(filename: str, payload: Any) -> None:
         )
 
 
-def write_projects_csv(rows: list[dict[str, Any]]) -> None:
+def write_projects_csv(rows: list[dict[str, Any]], filename: str = "projects.csv") -> None:
     headers = [
         "id",
         "programma",
@@ -1344,7 +1467,7 @@ def write_projects_csv(rows: list[dict[str, Any]]) -> None:
     ]
     for directory in [RESULTS_DIR, PUBLIC_DATA_DIR]:
         directory.mkdir(parents=True, exist_ok=True)
-        with (directory / "projects.csv").open("w", encoding="utf-8", newline="") as handle:
+        with (directory / filename).open("w", encoding="utf-8", newline="") as handle:
             writer = csv.DictWriter(handle, fieldnames=headers)
             writer.writeheader()
             for row in rows:
@@ -1357,13 +1480,59 @@ def write_projects_csv(rows: list[dict[str, Any]]) -> None:
                 })
 
 
-def main() -> None:
-    rows, stated_total = parse_main_table()
+def parse_main_table_for_version(version: str) -> tuple[list[dict[str, Any]], dict[str, float]]:
+    if version == "2025":
+        return parse_main_table_2025()
+    if version == "2026":
+        return parse_main_table_2026()
+    raise ValueError(f"Unknown GIP version: {version}")
+
+
+def source_files_for_version(version: str) -> list[str]:
+    if version == "2025":
+        return [MAIN_TABLE_2025_PDF.name, BIG_PROJECTS_2025_PDF.name]
+    if version == "2026":
+        return [MEDEDELING_2026_PDF.name, MAIN_TABLE_2026_PDF.name]
+    raise ValueError(f"Unknown GIP version: {version}")
+
+
+def years_for_version(version: str) -> list[int]:
+    if version == "2026":
+        return [2026]
+    return YEARS
+
+
+def title_for_version(version: str) -> str:
+    if version == "2026":
+        return "Geïntegreerd Investeringsprogramma 2026"
+    return "Geïntegreerd Investeringsprogramma 2025-2027"
+
+
+def source_for_version(version: str) -> str:
+    if version == "2026":
+        return "Vlaamse Regering - GIP MOW 2026, mededeling en bijlage 2"
+    return "Vlaamse Regering - GIP 2025-2029, bijlage 4BIS"
+
+
+def period_label_for_version(version: str) -> str:
+    years = years_for_version(version)
+    if len(years) == 1:
+        return str(years[0])
+    return f"{years[0]}-{years[-1]}"
+
+
+def big_projects_pdf_for_version(version: str) -> Path | None:
+    if version == "2025":
+        return BIG_PROJECTS_2025_PDF
+    return None
+
+
+def build_bundle(version: str) -> dict[str, Any]:
+    rows, stated_total = parse_main_table_for_version(version)
     municipality_summary, geo_metadata = build_geo_summary(rows)
     infrastructure_features = build_infrastructure_features(rows)
-    infrastructure_basemap = build_infrastructure_basemap()
-    province_boundaries = build_province_boundaries()
-    big_projects = parse_big_projects()
+    big_projects = parse_big_projects(big_projects_pdf_for_version(version))
+    data_years = years_for_version(version)
 
     total_budget = round(sum(row["budget_total"] for row in rows), 2)
     by_year = {
@@ -1372,9 +1541,12 @@ def main() -> None:
     }
 
     metadata = {
-        "title": "Geïntegreerd Investeringsprogramma 2025-2027",
-        "source": "Vlaamse Regering - GIP 2025-2029, bijlage 4BIS",
-        "source_files": [MAIN_TABLE_PDF.name, BIG_PROJECTS_PDF.name],
+        "version": version,
+        "title": title_for_version(version),
+        "source": source_for_version(version),
+        "source_files": source_files_for_version(version),
+        "years": data_years,
+        "period_label": period_label_for_version(version),
         "processed_at": datetime.now(UTC).isoformat(timespec="seconds"),
         "allocation_count": len(rows),
         "unique_project_count": len({row["project"] for row in rows}),
@@ -1390,7 +1562,7 @@ def main() -> None:
         **geo_metadata,
     }
 
-    bundle = {
+    return {
         "metadata": metadata,
         "projects": rows,
         "programSummary": summarize(rows, "programma"),
@@ -1401,15 +1573,49 @@ def main() -> None:
         "bigProjects": big_projects,
     }
 
-    write_json("gip_data.json", bundle)
-    write_json("metadata.json", metadata)
+
+def write_bundle(version: str, bundle: dict[str, Any], latest: bool = False) -> None:
+    write_json(f"gip_data_{version}.json", bundle)
+    write_json(f"metadata_{version}.json", bundle["metadata"])
+    write_projects_csv(bundle["projects"], f"projects_{version}.csv")
+
+    if latest:
+        write_json("gip_data.json", bundle)
+        write_json("metadata.json", bundle["metadata"])
+        write_projects_csv(bundle["projects"])
+
+
+def main() -> None:
+    version_bundles: dict[str, dict[str, Any]] = {}
+    for version in ["2025", "2026"]:
+        bundle = build_bundle(version)
+        version_bundles[version] = bundle
+        write_bundle(version, bundle, latest=version == DEFAULT_VERSION)
+
+    infrastructure_basemap = build_infrastructure_basemap()
+    province_boundaries = build_province_boundaries()
     write_json("infrastructure_basemap.json", infrastructure_basemap)
     write_json("province_boundaries.json", province_boundaries)
-    write_projects_csv(rows)
 
-    print(f"Processed {len(rows)} GIP (deel)projecten")
-    print(f"Total budget: {total_budget:,.2f}")
-    print(f"Mapped (deel)projecten: {geo_metadata['mapped_allocation_count']}")
+    versions = [
+        {
+            "version": version,
+            "label": f"GIP {version}",
+            "is_default": version == DEFAULT_VERSION,
+            "metadata_path": f"/data/metadata_{version}.json",
+            "data_path": f"/data/gip_data_{version}.json",
+            "projects_csv_path": f"/data/projects_{version}.csv",
+            "metadata": version_bundles[version]["metadata"],
+        }
+        for version in ["2025", "2026"]
+    ]
+    write_json("versions.json", {"default_version": DEFAULT_VERSION, "versions": versions})
+
+    for version, bundle in version_bundles.items():
+        metadata = bundle["metadata"]
+        print(f"Processed GIP {version}: {metadata['allocation_count']} (deel)projecten")
+        print(f"Total budget GIP {version}: {metadata['total_budget']:,.2f}")
+        print(f"Mapped (deel)projecten GIP {version}: {metadata['mapped_allocation_count']}")
 
 
 if __name__ == "__main__":

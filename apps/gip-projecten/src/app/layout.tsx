@@ -16,8 +16,8 @@ const geistMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Geïntegreerd Investeringsprogramma 2025-2029",
-  description: "€7,51 miljard investeringen voor 2025-2027 uit het Vlaamse GIP, verdeeld over 777 (deel)projecten in mobiliteit, openbare werken, asset management en waterbeheersing.",
+  title: "Geïntegreerd Investeringsprogramma MOW",
+  description: "Vergelijk GIP 2025-2027 met de actualisatie GIP 2026 voor mobiliteit, openbare werken, asset management en waterbeheersing.",
 };
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";

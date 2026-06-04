@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { ArrowLeft } from "lucide-react"
 import { Button } from "@embuild/shared/components/ui/button"
 import {
@@ -20,6 +20,7 @@ import {
 type Year = 2025 | 2026 | 2027
 type YearBudgetKey = "budget2025" | "budget2026" | "budget2027"
 type BudgetKey = YearBudgetKey | "budget_total"
+type GipVersion = "2025" | "2026"
 
 type SummaryRow = {
   name: string
@@ -27,14 +28,20 @@ type SummaryRow = {
 }
 
 type GipBundle = {
+  metadata: {
+    years?: Year[]
+    period_label?: string
+  }
   programSummary: SummaryRow[]
   infrastructureFeatures: InfrastructureFeature[]
 }
 
 const YEARS: Year[] = [2025, 2026, 2027]
+const VERSION_OPTIONS: GipVersion[] = ["2025", "2026"]
 const ALL_PROGRAMS = "all"
 const DATA_PATHS = {
-  gip: "/data/gip_data.json",
+  gip2025: "/data/gip_data_2025.json",
+  gip2026: "/data/gip_data_2026.json",
 } as const
 
 const compactFormatter = new Intl.NumberFormat("nl-BE", {
@@ -43,6 +50,16 @@ const compactFormatter = new Intl.NumberFormat("nl-BE", {
 
 function budgetKeyForYear(year: Year): YearBudgetKey {
   return `budget${year}` as YearBudgetKey
+}
+
+function yearsForMetadata(metadata?: GipBundle["metadata"]): Year[] {
+  const years = metadata?.years?.filter((year): year is Year => YEARS.includes(year))
+  return years?.length ? years : YEARS
+}
+
+function periodLabel(years: Year[], metadata?: GipBundle["metadata"]) {
+  if (metadata?.period_label) return metadata.period_label
+  return years.length === 1 ? String(years[0]) : `${years[0]}-${years[years.length - 1]}`
 }
 
 function formatEuroCompact(value: number) {
@@ -60,12 +77,30 @@ function formatEuroCompact(value: number) {
 }
 
 export function GIPMapStandalone() {
-  const { data: bundle, loading, error } = useJsonBundle<{ gip: GipBundle }>(DATA_PATHS)
+  const { data: bundle, loading, error } = useJsonBundle<{ gip2025: GipBundle; gip2026: GipBundle }>(DATA_PATHS)
+  const [selectedVersion, setSelectedVersion] = useState<GipVersion>("2026")
   const [selectedProgram, setSelectedProgram] = useState(ALL_PROGRAMS)
   const [selectedBudgetKey, setSelectedBudgetKey] = useState<BudgetKey>("budget_total")
-  const gip = bundle?.gip
+  const gip = selectedVersion === "2025" ? bundle?.gip2025 : bundle?.gip2026
+  const visibleYears = yearsForMetadata(gip?.metadata)
+  const activePeriodLabel = periodLabel(visibleYears, gip?.metadata)
 
   const programs = useMemo(() => gip?.programSummary ?? [], [gip])
+
+  useEffect(() => {
+    if (selectedBudgetKey === "budget_total") return
+    const visibleBudgetKeys = visibleYears.map(budgetKeyForYear)
+    if (!visibleBudgetKeys.includes(selectedBudgetKey)) {
+      setSelectedBudgetKey("budget_total")
+    }
+  }, [selectedBudgetKey, visibleYears])
+
+  useEffect(() => {
+    if (selectedProgram === ALL_PROGRAMS) return
+    if (!programs.some((program) => program.name === selectedProgram)) {
+      setSelectedProgram(ALL_PROGRAMS)
+    }
+  }, [programs, selectedProgram])
 
   if (loading) {
     return <div className="p-6 text-sm text-muted-foreground">Kaart laden...</div>
@@ -90,6 +125,23 @@ export function GIPMapStandalone() {
             </p>
           </div>
           <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+            <div className="inline-flex overflow-hidden rounded-md border bg-background">
+              {VERSION_OPTIONS.map((version) => (
+                <button
+                  key={version}
+                  type="button"
+                  onClick={() => setSelectedVersion(version)}
+                  className={`px-3 py-2 text-sm font-medium ${
+                    selectedVersion === version
+                      ? "bg-primary text-primary-foreground"
+                      : "text-muted-foreground hover:bg-muted hover:text-foreground"
+                  }`}
+                  aria-pressed={selectedVersion === version}
+                >
+                  {version}
+                </button>
+              ))}
+            </div>
             <Select value={selectedProgram} onValueChange={setSelectedProgram}>
               <SelectTrigger className="w-full sm:w-[280px]">
                 <SelectValue placeholder="Programma" />
@@ -108,8 +160,8 @@ export function GIPMapStandalone() {
                 <SelectValue placeholder="Budget" />
               </SelectTrigger>
               <SelectContent>
-                <SelectItem value="budget_total">2025-2027</SelectItem>
-                {YEARS.map((year) => (
+                <SelectItem value="budget_total">{activePeriodLabel}</SelectItem>
+                {visibleYears.length > 1 && visibleYears.map((year) => (
                   <SelectItem key={year} value={budgetKeyForYear(year)}>
                     {year}
                   </SelectItem>
@@ -130,6 +182,7 @@ export function GIPMapStandalone() {
           selectedProgram={selectedProgram}
           selectedBudgetKey={selectedBudgetKey}
           formatBudget={formatEuroCompact}
+          years={visibleYears}
           large
         />
       </div>
