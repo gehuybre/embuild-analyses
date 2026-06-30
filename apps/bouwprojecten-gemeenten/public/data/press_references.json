@@ -1,5 +1,41 @@
 {
-  "query": "bouwprojecten gemeenten aanbesteding investeringsproject overheidsopdracht",
-  "generated_at": "2026-06-30T08:28:53.443230+00:00",
-  "references": []
+  "query": "gemeenterapport|relancebeleid bouwsector|bouwproject|investeringen",
+  "generated_at": "2026-06-30T08:39:21.870835+00:00",
+  "references": [
+    {
+      "id": "ceec2097a9f8559bf3c7ad501b206cf0a850e7b3",
+      "title": "Nieuwe lokale besturen krijgen van bouwsector gemeenterapport op maat",
+      "date": "2025-02-08",
+      "url": "https://www.embuildvlaanderen.be/press-room/lokale-besturen-krijgen-gemeenterapport-van-bouw/",
+      "excerpt": "Embuild Vlaanderen heeft een gemeenterapport klaar voor elk nieuw schepencollege. Bij het begin van hun ambtstermijn krijgen alle lokale besturen cijfermateriaal voorgeschoteld over de verwachte huishoudensgroei, woningprijzen en de klimaatrisico's op het vlak van water en hitte. Daaruit blijkt dat voor alle steden en gemeenten werk op de plank ligt om meer woningaanbod en een klimaatrobuuste woonomgeving te realiseren. Maar hoe meer verstedelijkt hoe groter de uitdaging. In de toekomst vind je in grotere steden de grootste toename aan huishoudens, die bovendien het grootste risico lopen op wateroverlast en hittestress. Daarom wil de bouwfederatie samenwerken met de lokale besturen. Niet alleen om de uitdagingen in kaart te brengen, maar vooral om gezamenlijk tot oplossingen te komen."
+    },
+    {
+      "id": "fdb216d7d000db50e11c09d3729b092ee0046979",
+      "title": "VCB dringt aan op gemeentelijk relancebeleid",
+      "date": "2021-03-01T00:00:00Z",
+      "url": "https://www.embuildvlaanderen.be/press-room/vcb-dringt-aan-op-gemeentelijk-relancebeleid/",
+      "excerpt": "Lagere gemeentelijke investeringen zetten Vlaamse relance op losse schroeven"
+    },
+    {
+      "id": "c722865deb7e6b852558b3219820eeb2e3e252ca",
+      "title": "VCB pleit voor begrotingsnorm van 5%",
+      "date": "2019-05-02T00:00:00Z",
+      "url": "https://www.embuildvlaanderen.be/press-room/vcb-pleit-voor-begrotingsnorm-van-5/",
+      "excerpt": "Begrotingsnorm draagt bij tot werk(en)zekerheid"
+    },
+    {
+      "id": "73aa0b3f3a3756a0bc1d6fbbbf5590c8d810d36e",
+      "title": "Scholen nu voorbereiden op komende winter",
+      "date": "2022-09-23",
+      "url": "https://www.embuildvlaanderen.be/press-room/scholen-komende-winter/",
+      "excerpt": "Het Vlaams relancebeleid voorziet daartoe momenteel 20 miljoen euro."
+    },
+    {
+      "id": "50cc631179e5d2a492be10b8b7f79cce332bdb4f",
+      "title": "Circulair bouwen zet forse stappen vooruit",
+      "date": "2021-05-25",
+      "url": "https://www.embuildvlaanderen.be/press-room/circulair-bouwen-zet-forse-stappen-vooruit/",
+      "excerpt": "Een goede zaak want de bouwsector heeft een belangrijke impact op het totale materialengebruik in Vlaanderen: zo'n 30 tot 40% van ons afval komt uit de bouw."
+    }
+  ]
 }

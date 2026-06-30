@@ -1,5 +1,41 @@
 {
-  "query": "prijsherziening bouwkostenindex bouwmaterialen contractprijzen",
-  "generated_at": "2026-06-30T08:28:53.837439+00:00",
-  "references": []
+  "query": "bouwmaterialen prijs|prijsstijging|inflatie|kostenstijging|duurder",
+  "generated_at": "2026-06-30T08:39:22.289622+00:00",
+  "references": [
+    {
+      "id": "97c5239d06a027d3bb014be3af7001284b1b2ec8",
+      "title": "\"Vlaanderen kan 15% besparen op bouwmaterialen door meer in te zetten op hergebruik en recyclage\"",
+      "date": "2025-12-09T00:00:00Z",
+      "url": "https://www.embuildvlaanderen.be/press-room/circulaire-sloopteams/",
+      "excerpt": "De Vlaamse bouwsector heeft elk jaar zo'n 100 miljoen ton bouwmaterialen nodig om voldoende woningen, scholen, zorggebouwen, kantoren, wegen en andere infrastructuur te realiseren.* De primaire grondstoffen voor die bouwmaterialen worden echter steeds schaarser en duurder en de verwerking ervan vraa"
+    },
+    {
+      "id": "293a1ef91a5743030753367188203cf37bd533a7",
+      "title": "Problematiek bouwmaterialen: ga met uw aannemer na wat alternatieven zijn",
+      "date": "2021-07-09T00:00:00Z",
+      "url": "https://www.embuildvlaanderen.be/press-room/problematiek-bouwmaterialen-ga-met-uw-aannemer-na-wat-alternatieven-zijn/",
+      "excerpt": "Vandaag hebben verschillende kranten bericht over de leveringsproblemen en prijsstijgingen bij veelgebruikte isolatiematerialen zoals PUR/PIR op basis van de recente enquête van de Confederatie Bouw onder haar leden. De Vlaamse Confederatie Bouw (VCB) wijst er bijkomend op dat in de huidige context "
+    },
+    {
+      "id": "b1cc49466b89c428b997b36d00e9245c20592030",
+      "title": "Prijzen van bouwmaterialen 4,3% hoger op slechts 4 maanden tijd",
+      "date": "2021-05-17T00:00:00Z",
+      "url": "https://www.embuildvlaanderen.be/press-room/prijzen-van-bouwmaterialen-4,3-hoger-op-slechts-4-maanden-tijd/",
+      "excerpt": "Vooral hogere prijzen bij staalproducten, kunststoffen en natuursteen"
+    },
+    {
+      "id": "28b17207111aee3debe8df09a4986513e3a6fc11",
+      "title": "Modulair en off-site bouwen is grote troef voor woonuitdaging",
+      "date": "2026-02-10",
+      "url": "https://www.embuildvlaanderen.be/press-room/modulair-off-site-bouwen-troef-om-wooncrisis-aan-te-pakken/",
+      "excerpt": "\"Bij industriële woningbouw worden standaardmodules of onderdelen off-site in grote ateliers geprefabriceerd om ze zeer snel in elkaar te zetten op de werf. Deze aanpak brengt allerlei voordelen, zoals een snellere bouwtijd, verhoogde kwaliteit, het uitsluiten van faalkosten, een vermindering van het gebruik van bouwmaterialen, lagere energiekosten enz. Hoe groter het volume aan woonmodules, hoe lager de kostprijs. Deze nichemarkt is in volle evolutie. Verwacht wordt dat de modulaire woningbouwers de komende jaren enkel aan belang zullen winnen \", zegt Caroline Deiteren van Embuild Vlaanderen."
+    },
+    {
+      "id": "9adc00544c81ef55106e476a8960c86f5174f66c",
+      "title": "Obstakels voor betaalbaar woningaanbod moeten weg",
+      "date": "2025-03-19",
+      "url": "https://www.embuildvlaanderen.be/press-room/obstakels-voor-betaalbaar-woningaanbod-moeten-weg/",
+      "excerpt": "In één jaar tijd is huren bijna 8% duurder geworden (bron: huurbarometer Dewaele vastgoedgroep)."
+    }
+  ]
 }

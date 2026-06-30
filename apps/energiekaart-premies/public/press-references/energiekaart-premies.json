@@ -1,5 +1,41 @@
 {
-  "query": "renovatiepremie energiepremie energiesubsidie subsidie renovatie",
-  "generated_at": "2026-06-30T08:28:53.479197+00:00",
-  "references": []
+  "query": "renovatiepremie|energiepremie|verbouwpremie|premieverhog|energierenovatie",
+  "generated_at": "2026-06-30T08:39:21.924338+00:00",
+  "references": [
+    {
+      "id": "869cd15409b62331bff447b60c20679bf80214ba",
+      "title": "Energierenovatie is vooral goed voor de portefeuille van laagste inkomens",
+      "date": "2023-03-14T00:00:00Z",
+      "url": "https://www.embuildvlaanderen.be/press-room/batibouw-energierenovatie-portefeuille/",
+      "excerpt": "Bij de opening van Batibouw beklemtoont Embuild Vlaanderen dat je woning future-proof maken al lang niet meer stopt bij louter isoleren. Stap één is grondig asbest verwijderen; vervolgens doorgedreven energetisch renoveren en fossielvrij verwarmen en koelen. Als sluitstuk maak je het hele perceel wa"
+    },
+    {
+      "id": "948df89725fa8bd57cf795d7332b0daf3707033c",
+      "title": "Stijgend aantal energierenovaties beschermt huishoudens tegen energiecrisis",
+      "date": "2022-04-08T00:00:00Z",
+      "url": "https://www.embuildvlaanderen.be/press-room/stijgend-aantal-energierenovaties-beschermt-huishoudens-tegen-energiecrisis/",
+      "excerpt": "Vandaag zien isolatiebedrijven hun activiteiten zienderogen toenemen. Die trend stemt overeen met het stijgend aantal energetische renovaties in Vlaanderen. Uit de laatste cijfers blijken ingrijpende renovatievergunningen zich op recordhoogte te bevinden. De stijgende energieprijzen trekken momentee"
+    },
+    {
+      "id": "a1f82dee4ca91476095707791dd60c4367bad366",
+      "title": "One-stop-shop voor verbouwpremies is noodzakelijk voor renovatiegolf",
+      "date": "2022-02-08T00:00:00Z",
+      "url": "https://www.embuildvlaanderen.be/press-room/one-stop-shop-voor-verbouwpremies-is-noodzakelijk-voor-renovatiegolf/",
+      "excerpt": "De Vlaamse Confederatie Bouw (VCB) is tevreden met de komst van 'Mijn Verbouwpremie'. Onder die noemer lanceert de Vlaamse regering vanaf oktober 2022 één digitaal loket voor alle woon- en energiepremies. Het kluwen aan uiteenlopende premies is een oud zeer. Vandaag gaat een renovatieproject gepaard"
+    },
+    {
+      "id": "5febc861adca2413035e08fd99736a1de176cf94",
+      "title": "Premieverhogingen bij energetische werken stimuleren relance in de bouw",
+      "date": "2020-10-30T00:00:00Z",
+      "url": "https://www.embuildvlaanderen.be/press-room/premieverhogingen-bij-energetische-werken-stimuleren-relance-in-de-bouw/",
+      "excerpt": "Goed voor het klimaat en voor economische heropleving"
+    },
+    {
+      "id": "a33d8a05efc60e965230c5318400c71eac9e094c",
+      "title": "Vlaamse Confederatie Bouw tevreden met invoering labelpremie en verhoging bedrag energielening",
+      "date": "2020-07-10T00:00:00Z",
+      "url": "https://www.embuildvlaanderen.be/press-room/vlaamse-confederatie-bouw-tevreden-met-invoering-labelpremie-en-verhoging-bedrag-energielening/",
+      "excerpt": "Bijkomende maatregelen zijn nog nodig om langetermijndoelstelling te halen."
+    }
+  ]
 }

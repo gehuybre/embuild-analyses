@@ -232,7 +232,7 @@
         "steunmaatregel",
         "premies"
       ],
-      "approval_query": "renovatiepremie|energiepremie|energiesubsidie|renovatiesubsidie"
+      "approval_query": "renovatiepremie|energiepremie|verbouwpremie|premieverhog|energierenovatie|renovatiesubsidie"
     },
     "gip-projecten": {
       "title": "GIP-projecten openbare werken",
@@ -276,7 +276,7 @@
         "materiaalkosten",
         "inflatie"
       ],
-      "approval_query": "prijsherziening|bouwkostenindex bouwmaterialen|contractprijzen|materiaalkosten"
+      "approval_query": "bouwmaterialen prijs|prijsstijging|inflatie|kostenstijging|duurder|besparen|hergebruik"
     },
     "fin-indicatoren": {
       "title": "Financiële indicatoren bouwsector",
@@ -318,7 +318,7 @@
         "investeringsproject",
         "gemeentelijk"
       ],
-      "approval_query": "bouwproject|bouwprojecten aanbesteding|investeringsproject|gemeentelijk"
+      "approval_query": "gemeenterapport|relancebeleid bouwsector|bouwproject|investeringen"
     }
   }
 }

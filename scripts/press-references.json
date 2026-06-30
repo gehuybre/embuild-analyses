@@ -58,7 +58,7 @@
     },
     "energiekaart-premies": {
       "limit": 5,
-      "query": "renovatiepremie energiepremie energiesubsidie subsidie renovatie"
+      "query": "renovatiepremie|energiepremie|verbouwpremie|premieverhog|energierenovatie"
     },
     "gip-projecten": {
       "limit": 5,
@@ -70,7 +70,7 @@
     },
     "prijsherziening-index-i-2021": {
       "limit": 5,
-      "query": "prijsherziening bouwkostenindex bouwmaterialen contractprijzen"
+      "query": "bouwmaterialen prijs|prijsstijging|inflatie|kostenstijging|duurder"
     },
     "fin-indicatoren": {
       "limit": 5,
@@ -82,7 +82,7 @@
     },
     "bouwprojecten-gemeenten": {
       "limit": 5,
-      "query": "bouwprojecten gemeenten aanbesteding investeringsproject overheidsopdracht"
+      "query": "gemeenterapport|relancebeleid bouwsector|bouwproject|investeringen"
     }
   }
 }
