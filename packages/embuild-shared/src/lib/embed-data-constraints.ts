@@ -27,16 +27,6 @@ export interface EmbedDataConstraints {
   availableYears?: number[]
 }
 
-/**
- * Helper function to generate a range of years
- */
-function generateYearRange(start: number, end: number): number[] {
-  const years: number[] = []
-  for (let year = start; year <= end; year++) {
-    years.push(year)
-  }
-  return years
-}
 
 const NON_METRIC_KEYS = new Set(["m", "y", "q", "mo"])
 
@@ -89,9 +79,8 @@ function aggregateToArrondissement<T extends { y: number }>(data: T[]): T[] {
  */
 export const ANALYSIS_DATA_CONSTRAINTS: Record<string, EmbedDataConstraints> = {
   "vergunningen-goedkeuringen": {
-    minYear: 2019, // Filter to 2019+ (blog applies y > 2018)
-    geoAggregation: "arrondissement", // Aggregate to arrondissement level
-    availableYears: generateYearRange(2019, 2025), // For time slider
+    minYear: 2019,
+    geoAggregation: "arrondissement",
   },
   // Add other analyses as needed
   // "starters-stoppers": { ... },
