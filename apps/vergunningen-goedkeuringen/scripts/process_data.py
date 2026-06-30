@@ -21,6 +21,7 @@ DATA_DIR = APP_DIR / "data"
 OUTPUT_DIR = APP_DIR / "public" / "data"
 
 INPUT_URL = os.environ.get("INPUT_URL") or os.environ.get("BV_DATA_URL")
+INPUT_LOCAL_FILE = os.environ.get("INPUT_LOCAL_FILE")  # skip download if pre-fetched
 REMOTE_METADATA_PATH = DATA_DIR / ".remote_metadata.json"
 
 
@@ -114,14 +115,19 @@ def validate_download(path: Path) -> None:
 
 
 def process_data() -> None:
-    if not INPUT_URL:
-        raise RuntimeError("INPUT_URL environment variable is required")
-
-    fname = os.environ.get("INPUT_FILENAME") or Path(INPUT_URL).name or "BV_opendata_latest.zip"
-    download_path = DATA_DIR / fname
-
-    download_file(INPUT_URL, download_path)
-    validate_download(download_path)
+    if INPUT_LOCAL_FILE:
+        download_path = Path(INPUT_LOCAL_FILE)
+        if not download_path.exists():
+            raise FileNotFoundError(f"INPUT_LOCAL_FILE not found: {download_path}")
+        print(f"Using pre-fetched file: {download_path}")
+        validate_download(download_path)
+    elif INPUT_URL:
+        fname = os.environ.get("INPUT_FILENAME") or Path(INPUT_URL).name or "BV_opendata_latest.zip"
+        download_path = DATA_DIR / fname
+        download_file(INPUT_URL, download_path)
+        validate_download(download_path)
+    else:
+        raise RuntimeError("Either INPUT_URL or INPUT_LOCAL_FILE environment variable is required")
     input_file = resolve_downloaded_input(download_path)
 
     print(f"Reading {input_file}...")

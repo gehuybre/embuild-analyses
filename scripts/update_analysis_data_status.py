@@ -275,6 +275,19 @@ def update_content_date(content_path: Path, updated_date: str) -> bool:
     return True
 
 
+def update_content_body_date(content_path: Path, data_label: str, exact_through_label: str) -> bool:
+    """Replace the (data: ...) period indicator in the MDX body text."""
+    content = content_path.read_text(encoding="utf-8")
+    replacement = f"(data: {data_label}; data beschikbaar tot en met {exact_through_label})"
+    updated = re.sub(r"\(data:\s*[^)]+\)", replacement, content, count=1)
+    if updated == content:
+        print(f"No body text change needed for {content_path}")
+        return False
+    content_path.write_text(updated, encoding="utf-8")
+    print(f"Updated body text in {content_path} to {data_label}")
+    return True
+
+
 def process_slug(repo_root: Path, slug: str, updated_date: str) -> int:
     status = get_status_for_slug(repo_root, slug)
     app_root = repo_root / "apps" / slug
@@ -287,6 +300,9 @@ def process_slug(repo_root: Path, slug: str, updated_date: str) -> int:
     changed = update_page_metadata(page_path, status, updated_date)
     if changed and content_path.exists():
         update_content_date(content_path, updated_date)
+
+    if content_path.exists() and status.content_exact_through_label:
+        update_content_body_date(content_path, status.data_availability_label, status.content_exact_through_label)
 
     return 0
 

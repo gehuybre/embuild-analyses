@@ -71,9 +71,31 @@ jobs:
 
           echo "changed=true" >> "${GITHUB_OUTPUT}"
 
+      - name: Pre-fetch data from GitHub Release cache
+        id: prefetch
+        if: steps.check_remote.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          dest="${APP_ROOT}/data/TF_BUILDING_PERMITS.zip"
+          if gh release download statbel-bouwvergunningen-cache \
+              --repo "${GITHUB_REPOSITORY}" \
+              --asset "TF_BUILDING_PERMITS.zip" \
+              --dir "${APP_ROOT}/data" \
+              --clobber 2>/dev/null; then
+            echo "input_local_file=${dest}" >> "${GITHUB_OUTPUT}"
+            echo "Using GitHub Release cache (statbel.fgov.be is not reachable from runners)"
+          else
+            echo "input_local_file=" >> "${GITHUB_OUTPUT}"
+            echo "No cache release found; will download from Statbel directly"
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}
+
       - name: Download and process data
         if: steps.check_remote.outputs.changed == 'true'
         run: python "${APP_ROOT}/scripts/process_data.py"
+        env:
+          INPUT_LOCAL_FILE: ${{ steps.prefetch.outputs.input_local_file }}
 
       - name: Verify generated outputs
         if: steps.check_remote.outputs.changed == 'true'
