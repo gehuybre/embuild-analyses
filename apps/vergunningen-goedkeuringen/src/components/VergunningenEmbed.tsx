@@ -225,6 +225,7 @@ export function VergunningenEmbed({
       metric={metric}
       label={label}
       viewType={viewType}
+      yAxisStartFromZero={true}
       getMunicipalityCode={(d) => Number(d.m)}
       timeRange={effectiveTimeRange}
       geoLevel={effectiveGeoLevel}

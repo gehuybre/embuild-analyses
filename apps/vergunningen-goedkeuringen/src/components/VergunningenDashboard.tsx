@@ -526,6 +526,7 @@ export function VergunningenDashboard() {
           label="Aantal"
           slug="vergunningen-goedkeuringen"
           sectionId="renovatie"
+          yAxisStartFromZero={true}
           dataSource="Statbel - Bouwvergunningen"
           dataSourceUrl="https://statbel.fgov.be/nl/themas/bouwen-wonen/bouwvergunningen"
           showMap={true}
@@ -566,6 +567,7 @@ export function VergunningenDashboard() {
             label="Aantal"
             slug="vergunningen-goedkeuringen"
             sectionId={`nieuwbouw-${nieuwbouwMetric || 'dwell'}`}
+            yAxisStartFromZero={true}
             dataSource="Statbel - Bouwvergunningen"
             dataSourceUrl="https://statbel.fgov.be/nl/themas/bouwen-wonen/bouwvergunningen"
             showMap={true}

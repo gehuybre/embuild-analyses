@@ -52,6 +52,7 @@ interface EmbeddableSectionProps<TData extends object = UnknownRecord> {
   showProvinceBoundaries?: boolean
   colorScheme?: "blue" | "orange" | "orangeDecile" | "green" | "purple" | "red"
   colorScaleMode?: "positive" | "negative" | "all"
+  yAxisStartFromZero?: boolean
 }
 
 export function EmbeddableSection<TData extends object = UnknownRecord>({
@@ -77,6 +78,7 @@ export function EmbeddableSection<TData extends object = UnknownRecord>({
   showProvinceBoundaries,
   colorScheme = "blue",
   colorScaleMode = "positive",
+  yAxisStartFromZero = false,
 }: EmbeddableSectionProps<TData>) {
   const municipalityCodeGetter =
     getMunicipalityCode ?? ((d: unknown) => Number((d as Record<string, unknown>)?.m))
@@ -279,6 +281,7 @@ export function EmbeddableSection<TData extends object = UnknownRecord>({
             data={chartData}
             chartType={chartType as any}
             showMovingAverage={showMovingAverage}
+            yAxisStartFromZero={yAxisStartFromZero}
           />
         </div>
       )}

@@ -82,6 +82,10 @@ interface FilterableChartProps<TData = UnknownRecord> {
    * Label to highlight in the chart (e.g., a specific municipality)
    */
   highlightLabel?: string | null
+  /**
+   * If true, the Y-axis always starts at 0. Default: false (auto-scaled).
+   */
+  yAxisStartFromZero?: boolean
 }
 
 export function FilterableChart<TData = UnknownRecord>({
@@ -102,6 +106,7 @@ export function FilterableChart<TData = UnknownRecord>({
   chartType = 'composed',
   layout = 'vertical',
   highlightLabel,
+  yAxisStartFromZero = false,
 }: FilterableChartProps<TData>) {
   const [mounted, setMounted] = useState(false)
   const [containerReady, setContainerReady] = useState(false)
@@ -238,19 +243,22 @@ export function FilterableChart<TData = UnknownRecord>({
     if (numericValues.length === 0) return null
     let min = Math.min(...numericValues)
     let max = Math.max(...numericValues)
-    if (min === max) {
+    if (yAxisStartFromZero) {
+      min = 0
+      const padding = max * 0.05
+      max += padding
+    } else if (min === max) {
       const pad = min === 0 ? 1 : Math.abs(min) * 0.1
       min -= pad
       max += pad
     } else {
-      // Add padding to prevent series from being too close to edges
       const range = max - min
       const padding = range * 0.1
       min -= padding
       max += padding
     }
     return { min, max }
-  }, [chartData, hasSeries, series])
+  }, [chartData, hasSeries, series, yAxisStartFromZero])
 
   const lineSeries = useMemo(() => {
     if (!hasSeries) return []

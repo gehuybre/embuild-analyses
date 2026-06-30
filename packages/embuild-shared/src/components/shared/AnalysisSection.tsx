@@ -67,7 +67,9 @@ interface AnalysisSectionProps<TData extends UnknownRecord = UnknownRecord> {
   mapColorScheme?: "blue" | "orange" | "orangeDecile" | "green" | "purple" | "red"
   /** Color scale mode for map (default: "positive") */
   mapColorScaleMode?: "positive" | "negative" | "all"
-} 
+  /** If true, the Y-axis starts at 0. Default: false. */
+  yAxisStartFromZero?: boolean
+}
 
 type AggregatedPoint = {
   label: string
@@ -101,6 +103,7 @@ export function AnalysisSection<TData extends UnknownRecord = UnknownRecord>({
   showProvinceBoundaries = true,
   mapColorScheme = "blue",
   mapColorScaleMode = "positive",
+  yAxisStartFromZero = false,
 }: AnalysisSectionProps<TData>) {
   const {
     setLevel,
@@ -336,6 +339,7 @@ export function AnalysisSection<TData extends UnknownRecord = UnknownRecord>({
                 yAxisLabelAbove={label ?? "Aantal"}
                 chartType={chartType}
                 showMovingAverage={showMovingAverage}
+                yAxisStartFromZero={yAxisStartFromZero}
               />
             </CardContent>
           </Card>
