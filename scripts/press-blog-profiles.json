@@ -101,6 +101,224 @@
         "renovatie"
       ],
       "approval_query": "vergunning goedkeur|afgeleverd|aflevering|toegekend|vergund|bekrachtigd|vergunningsprocedure"
+    },
+    "vacatures": {
+      "title": "Vacatures in de bouwsector",
+      "summary": "Evolutie van openstaande vacatures in de bouwsector op basis van VDAB-data. Focus op arbeidskrapte, knelpuntberoepen en aanwerving.",
+      "tags": ["arbeidsmarkt", "vacatures", "bouwsector", "VDAB"],
+      "keywords": [
+        "vacatures",
+        "openstaande betrekkingen",
+        "knelpuntberoep",
+        "arbeidskrapte",
+        "beroepstekort",
+        "VDAB",
+        "aanwerving"
+      ],
+      "approval_query": "vacatures|knelpuntberoep|beroepstekort arbeidsmarkt|bouwsector|bouwbedrijf"
+    },
+    "starters-stoppers": {
+      "title": "Starters en stoppers in de bouwsector",
+      "summary": "Evolutie van het aantal startende en stoppende ondernemingen in de bouwsector, met overlevingskansen en sectorvergelijking.",
+      "tags": ["bouwsector", "starters", "stoppers", "ondernemingen"],
+      "keywords": [
+        "starters",
+        "stoppers",
+        "startende ondernemingen",
+        "bedrijfsstopzetting",
+        "overlevingskans",
+        "bouwbedrijven"
+      ],
+      "approval_query": "starters|stoppers bouwsector|bouwbedrijf|aannemerij"
+    },
+    "vastgoed-verkopen": {
+      "title": "Vastgoedverkopen in België",
+      "summary": "Analyse van het volume en de prijzen van vastgoedtransacties in België, met focus op woningmarkt en eigendomsmarkt.",
+      "tags": ["vastgoed", "woningmarkt", "transacties", "prijzen"],
+      "keywords": [
+        "vastgoed",
+        "woningverkoop",
+        "vastgoedprijzen",
+        "woningmarkt",
+        "huizenprijzen",
+        "eigendomsmarkt",
+        "immobiliën"
+      ],
+      "approval_query": "vastgoed|woningverkoop|vastgoedprijzen woningmarkt|huizenprijzen|eigendomsmarkt"
+    },
+    "huishoudensgroei": {
+      "title": "Huishoudensgroei in Vlaanderen",
+      "summary": "Prognoses voor de groei van het aantal huishoudens per gemeente tot 2040, met impact op woningbehoefte en bouwproductie.",
+      "tags": ["huishoudens", "demografie", "woonbehoefte", "prognose"],
+      "keywords": [
+        "huishoudensgroei",
+        "huishoudensvorming",
+        "woonbehoefte",
+        "woonvraag",
+        "bevolkingsgroei",
+        "demografisch",
+        "woningtekort"
+      ],
+      "approval_query": "huishoudensgroei|huishoudensvorming|woonbehoefte bevolkingsgroei|demografisch|woningtekort"
+    },
+    "bouwondernemers": {
+      "title": "Zelfstandige bouwondernemers",
+      "summary": "Analyse van het aantal zelfstandige ondernemers in de bouwsector, met evolutie per activiteit en regio.",
+      "tags": ["zelfstandigen", "aannemers", "bouwsector", "ondernemers"],
+      "keywords": [
+        "zelfstandige",
+        "bouwondernemers",
+        "aannemers",
+        "bouwbedrijven",
+        "kmo",
+        "mkb",
+        "ondernemerschap"
+      ],
+      "approval_query": "zelfstandige aannemers|bouwbedrijf|bouwondernemer"
+    },
+    "gemeentelijke-investeringen": {
+      "title": "Gemeentelijke investeringen in Vlaanderen",
+      "summary": "Analyse van de investeringsuitgaven van Vlaamse gemeenten, met focus op meerjarenplannen en lokale overheidsbestedingen in bouwgerelateerde domeinen.",
+      "tags": ["gemeenten", "investeringen", "lokale overheid", "meerjarenplan"],
+      "keywords": [
+        "gemeentelijke investeringen",
+        "meerjarenplan",
+        "lokale besturen",
+        "gemeentefinanciën",
+        "lokale overheid",
+        "openbare werken"
+      ],
+      "approval_query": "gemeentelijke investeringen|meerjarenplan|lokale besturen|lokale financiën"
+    },
+    "gebouwenpark": {
+      "title": "Evolutie van het Belgische gebouwenpark",
+      "summary": "Analyse van de evolutie van het gebouwenpark in België: nieuwbouw, renovatie, sloop en kwaliteit van de woningvoorraad.",
+      "tags": ["gebouwen", "woningbestand", "renovatie", "nieuwbouw"],
+      "keywords": [
+        "gebouwenpark",
+        "woningbestand",
+        "bouwproductie",
+        "nieuwbouwproductie",
+        "renovatiedoelstelling",
+        "gebouwkwaliteit",
+        "renovatiegolf"
+      ],
+      "approval_query": "gebouwenpark|woningbestand|bouwproductie|renovatiedoelstelling|gebouwkwaliteit"
+    },
+    "epc-labelverdeling": {
+      "title": "EPC-labelverdeling van woningen",
+      "summary": "Verdeling van EPC-energielabels in de Vlaamse woningvoorraad, met evolutie per label en vergelijking tussen regio's.",
+      "tags": ["EPC", "energielabel", "energieprestatie", "renovatie"],
+      "keywords": [
+        "EPC",
+        "energielabel",
+        "energieprestatie",
+        "energieklasse",
+        "energierenovatie",
+        "klimaatneutraal",
+        "isolatie"
+      ],
+      "approval_query": "EPC|energielabel|energieprestatie|energieklasse|energierenovatie"
+    },
+    "energiekaart-premies": {
+      "title": "Energiepremies voor renovatie",
+      "summary": "Overzicht en analyse van energiepremies en subsidies voor energetische renovatie van woningen in Vlaanderen.",
+      "tags": ["energiepremies", "renovatie", "subsidies", "woning"],
+      "keywords": [
+        "renovatiepremie",
+        "energiepremie",
+        "energiesubsidie",
+        "renovatiesubsidie",
+        "steunmaatregel",
+        "premies"
+      ],
+      "approval_query": "renovatiepremie|energiepremie|energiesubsidie|renovatiesubsidie"
+    },
+    "gip-projecten": {
+      "title": "GIP-projecten openbare werken",
+      "summary": "Analyse van het Geïntegreerd Investeringsprogramma (GIP) van het departement Mobiliteit en Openbare Werken in Vlaanderen.",
+      "tags": ["openbare werken", "infrastructuur", "GIP", "mobiliteit"],
+      "keywords": [
+        "GIP",
+        "investeringsprogramma",
+        "openbare werken",
+        "wegenbouw",
+        "infrastructuurwerken",
+        "mobiliteitsinfrastructuur",
+        "weginfrastructuur"
+      ],
+      "approval_query": "GIP|investeringsprogramma openbare werken|infrastructuurwerken|wegenbouw"
+    },
+    "nbb-rente": {
+      "title": "Hypotheekrente en woonkredieten",
+      "summary": "Evolutie van hypotheekrentevoeten en de markt voor woonkredieten in België, op basis van NBB-data.",
+      "tags": ["hypotheekrente", "woonkrediet", "rentevoet", "NBB"],
+      "keywords": [
+        "hypotheekrente",
+        "woonkrediet",
+        "woonlening",
+        "rentevoet",
+        "hypotheek",
+        "rente",
+        "betaalbaarheid"
+      ],
+      "approval_query": "hypotheekrente|woonkrediet|woonlening rentevoet|rente"
+    },
+    "prijsherziening-index-i-2021": {
+      "title": "Prijsherzieningsindex voor aannemingscontracten",
+      "summary": "Evolutie van de prijsherzieningsindex I-2021 voor bouwcontracten, met onderbrekende componenten voor lonen en materialen.",
+      "tags": ["prijsherziening", "bouwkostenindex", "contracten", "inflatie"],
+      "keywords": [
+        "prijsherziening",
+        "bouwkostenindex",
+        "bouwmaterialen",
+        "contractprijzen",
+        "materiaalkosten",
+        "inflatie"
+      ],
+      "approval_query": "prijsherziening|bouwkostenindex bouwmaterialen|contractprijzen|materiaalkosten"
+    },
+    "fin-indicatoren": {
+      "title": "Financiële indicatoren bouwsector",
+      "summary": "Financiële gezondheid van de bouwsector: rentabiliteit, solvabiliteit, schuldratio en winstgevendheid van bouwbedrijven.",
+      "tags": ["financieel", "bouwsector", "rentabiliteit", "solvabiliteit"],
+      "keywords": [
+        "rentabiliteit",
+        "winstgevendheid",
+        "solvabiliteit",
+        "schuldratio",
+        "financieel",
+        "bouwbedrijven"
+      ],
+      "approval_query": "rentabiliteit|winstgevendheid|solvabiliteit bouwbedrijven|bouwsector|bouwonderneming"
+    },
+    "bedrijventerreinen-vlaanderen": {
+      "title": "Bedrijventerreinen in Vlaanderen",
+      "summary": "Analyse van de beschikbaarheid en bezettingsgraad van bedrijventerreinen en industrieterreinen in Vlaanderen.",
+      "tags": ["bedrijventerreinen", "industrieterreinen", "beschikbaarheid", "Vlaanderen"],
+      "keywords": [
+        "bedrijventerrein",
+        "industrieterrein",
+        "beschikbaarheid",
+        "bezettingsgraad",
+        "kavel",
+        "KMO-zone"
+      ],
+      "approval_query": "bedrijventerrein|industrieterrein beschikbaarheid|bezettingsgraad|kavel"
+    },
+    "bouwprojecten-gemeenten": {
+      "title": "Bouwprojecten van Vlaamse gemeenten",
+      "summary": "Databank van bouwprojecten en investeringsprojecten van Vlaamse gemeenten, met overheidsopdrachten en aanbestedingen.",
+      "tags": ["bouwprojecten", "gemeenten", "aanbesteding", "overheidsopdracht"],
+      "keywords": [
+        "bouwproject",
+        "bouwprojecten",
+        "aanbesteding",
+        "overheidsopdracht",
+        "investeringsproject",
+        "gemeentelijk"
+      ],
+      "approval_query": "bouwproject|bouwprojecten aanbesteding|investeringsproject|gemeentelijk"
     }
   }
 }

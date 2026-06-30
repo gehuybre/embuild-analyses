@@ -23,6 +23,66 @@
     "vergunningen-goedkeuringen": {
       "limit": 5,
       "query": "vergunning|vergunningen"
+    },
+    "vacatures": {
+      "limit": 5,
+      "query": "vacatures bouwsector arbeidsmarkt knelpuntberoep"
+    },
+    "starters-stoppers": {
+      "limit": 5,
+      "query": "starters|stoppers bouwsector bouwbedrijven"
+    },
+    "vastgoed-verkopen": {
+      "limit": 5,
+      "query": "vastgoed woningmarkt verkopen woningprijzen"
+    },
+    "huishoudensgroei": {
+      "limit": 5,
+      "query": "huishoudens woonbehoefte bevolkingsgroei woningtekort"
+    },
+    "bouwondernemers": {
+      "limit": 5,
+      "query": "zelfstandige aannemers bouwbedrijven ondernemers"
+    },
+    "gemeentelijke-investeringen": {
+      "limit": 5,
+      "query": "gemeenten gemeentelijke investeringen meerjarenplan lokale besturen"
+    },
+    "gebouwenpark": {
+      "limit": 5,
+      "query": "gebouwenpark woningbestand renovatie bouwproductie nieuwbouw"
+    },
+    "epc-labelverdeling": {
+      "limit": 5,
+      "query": "EPC energielabel energieprestatie renovatie"
+    },
+    "energiekaart-premies": {
+      "limit": 5,
+      "query": "renovatiepremie energiepremie energiesubsidie subsidie renovatie"
+    },
+    "gip-projecten": {
+      "limit": 5,
+      "query": "openbare werken investeringen infrastructuur GIP"
+    },
+    "nbb-rente": {
+      "limit": 5,
+      "query": "hypotheekrente woonkrediet rentevoet lening"
+    },
+    "prijsherziening-index-i-2021": {
+      "limit": 5,
+      "query": "prijsherziening bouwkostenindex bouwmaterialen contractprijzen"
+    },
+    "fin-indicatoren": {
+      "limit": 5,
+      "query": "rentabiliteit winstgevendheid solvabiliteit bouwbedrijven financieel"
+    },
+    "bedrijventerreinen-vlaanderen": {
+      "limit": 5,
+      "query": "bedrijventerrein industrieterrein beschikbaarheid bezettingsgraad"
+    },
+    "bouwprojecten-gemeenten": {
+      "limit": 5,
+      "query": "bouwprojecten gemeenten aanbesteding investeringsproject overheidsopdracht"
     }
   }
 }
