@@ -4,9 +4,9 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 
 const metadata = {
   title: "Vergunningen goedkeuringen",
-  date: "2026-06-01",
+  date: "2026-06-30",
   summary: "Analyse van de goedgekeurde bouwvergunningen.",
-  dataAvailabilityLabel: "februari 2026",
+  dataAvailabilityLabel: "maart 2026",
   tags: ["vergunningen","bouw"],
   source: {
     provider: "Statbel",
