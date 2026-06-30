@@ -4,15 +4,15 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 
 const metadata = {
   title: "Hypothecaire rente in België",
-  date: "2026-05-22",
+  date: "2026-06-30",
   summary: "Evolutie van de Belgische hypothecaire rente op nieuwe contracten met een initiële rentevaste periode van meer dan 10 jaar, aangevuld met recente inflatieprognoses van het Federaal Planbureau.",
-  dataAvailabilityLabel: "maart 2026",
+  dataAvailabilityLabel: "april 2026",
   tags: ["rente","hypotheken","inflatie","nbb","woningmarkt"],
   source: {
     provider: "Nationale Bank van België (NBB)",
     title: "MFI rentetarieven (MIR) - hypothecaire rente op nieuwe contracten (> 10 jaar rentevast)",
     url: "https://nsidisseminate-stat.nbb.be/rest/data/BE2,DF_MIR,1.0/M.R_N.2250.A2C.A_P.Z.Z?startPeriod=2015-01&dimensionAtObservation=AllDimensions",
-    publicationDate: "2026-03-31",
+    publicationDate: "2026-04-30",
   },
 }
 
