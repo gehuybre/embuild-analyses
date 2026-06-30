@@ -87,6 +87,15 @@ export function VergunningenEmbed({
 
   const { metric, label } = getMetricAndLabel(section)
 
+  const sectionTitle: Record<string, string> = {
+    renovatie: "Renovatie (gebouwen)",
+    "nieuwbouw-dwell": "Nieuwbouw (woningen totaal)",
+    "nieuwbouw-apt": "Nieuwbouw (appartementen)",
+    "nieuwbouw-house": "Nieuwbouw (eengezinswoningen)",
+    nieuwbouw: "Nieuwbouw (woningen totaal)",
+  }
+  const title = sectionTitle[section] ?? `Vergunningen - ${section}`
+
   // Parse timeRange from URL - default to "monthly" to match dashboard defaults
   const effectiveTimeRange: TimeRange =
     (urlTimeRange === "monthly" || urlTimeRange === "quarterly" || urlTimeRange === "yearly")
@@ -219,7 +228,7 @@ export function VergunningenEmbed({
     <EmbeddableSection
       slug="vergunningen-goedkeuringen"
       section={section}
-      title={`Vergunningen - ${section}`}
+      title={title}
       data={data}
       municipalities={municipalities}
       metric={metric}
