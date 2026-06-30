@@ -16,7 +16,8 @@
         "personeel",
         "knelpuntberoepen",
         "bouwonderwijs"
-      ]
+      ],
+      "approval_query": "arbeiders|bedienden|tewerkstelling|arbeidsmarkt|vacatures|werknemers|arbeidskrachten|knelpuntberoep"
     },
     "betaalbaar-arr": {
       "title": "Betaalbaar wonen per arrondissement",
@@ -34,7 +35,8 @@
         "nieuwbouw",
         "huishoudens",
         "arrondissement"
-      ]
+      ],
+      "approval_query": "woning|woonaanbod|wooncrisis betaalbaar|wooncrisis|woonlasten|woonaanbod|woningprijzen|woningnood"
     },
     "faillissementen": {
       "title": "Faillissementen in de bouwsector",
@@ -47,7 +49,8 @@
         "starters",
         "bedrijfsstopzetting",
         "bouwbedrijven"
-      ]
+      ],
+      "approval_query": "faillissement|faillissementen"
     },
     "inschrijvingen-onderwijs": {
       "title": "Inschrijvingen in het hoger onderwijs in Vlaanderen",
@@ -64,7 +67,8 @@
         "opleidingen",
         "bouwopleidingen",
         "ingenieur"
-      ]
+      ],
+      "approval_query": "ingenieur|bouwopleid|bouwonderwijs student|studenten|inschrijving|opleiding|hogeschool|universiteit|jongeren|leerling"
     },
     "vergunningen-aanvragen": {
       "title": "Vergunningen voor woningen",
@@ -79,7 +83,8 @@
         "renovatie",
         "sloop",
         "woning"
-      ]
+      ],
+      "approval_query": "vergunningsaanvraag|vergunningsaanvragen|vergunningenbeleid"
     },
     "vergunningen-goedkeuringen": {
       "title": "Vergunningen goedkeuringen",
@@ -94,7 +99,8 @@
         "woning",
         "nieuwbouw",
         "renovatie"
-      ]
+      ],
+      "approval_query": "vergunning goedkeur|afgeleverd|aflevering|toegekend|vergund|bekrachtigd|vergunningsprocedure"
     }
   }
 }
