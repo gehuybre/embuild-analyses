@@ -306,8 +306,7 @@ export function NbbInflatieSection({
 
           {metadata.sourcePage ? (
             <div className="rounded-md border bg-muted/20 p-4">
-              <div className="grid gap-4 lg:grid-cols-3">
-                <SourcePageSummary title="Inflatievooruitzichten" items={metadata.sourcePage.inflationOutlook} />
+              <div className="grid gap-4 lg:grid-cols-2">
                 <SourcePageSummary title="Spilindex" items={metadata.sourcePage.pivotalIndex} />
                 {metadata.sourcePage.nextUpdate ? (
                   <div className="space-y-2">
