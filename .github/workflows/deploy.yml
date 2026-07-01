@@ -93,6 +93,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Validate embed consistency
+        run: node scripts/validate_embed_consistency.js
+
       - name: Log rebuild plan
         run: |
           echo "${{ needs.detect.outputs.reason }}"

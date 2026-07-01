@@ -15,7 +15,8 @@
     "typecheck": "turbo run typecheck",
     "deploy": "turbo run build && node scripts/merge-outputs.mjs",
     "docs": "node scripts/generate-docs.mjs",
-    "docs:check": "node scripts/generate-docs.mjs --check"
+    "docs:check": "node scripts/generate-docs.mjs --check",
+    "validate:embeds": "node scripts/validate_embed_consistency.js"
   },
   "devDependencies": {
     "turbo": "^2",

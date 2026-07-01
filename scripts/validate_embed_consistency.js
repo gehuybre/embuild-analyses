@@ -129,6 +129,8 @@ function getRouteCandidates(slug, section) {
   return [
     path.join(appDir, "src", "app", "embed", slug, section, "page.tsx"),
     path.join(appDir, "src", "app", "embed", slug, section, "page.mdx"),
+    path.join(appDir, "src", "app", "embed", slug, "[section]", "page.tsx"),
+    path.join(appDir, "src", "app", "embed", slug, "[section]", "page.mdx"),
     path.join(appDir, "src", "app", "embed", "[slug]", "[section]", "page.tsx"),
     path.join(appDir, "src", "app", "embed", "[slug]", "[section]", "page.mdx"),
   ]
