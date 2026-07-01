@@ -95,7 +95,6 @@ jobs:
 
       - name: Validate embed consistency
         run: node scripts/validate_embed_consistency.js
-        continue-on-error: true
 
       - name: Log rebuild plan
         run: |
