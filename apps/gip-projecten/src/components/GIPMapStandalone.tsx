@@ -78,6 +78,7 @@ function formatEuroCompact(value: number) {
 
 export function GIPMapStandalone() {
   const { data: bundle, loading, error } = useJsonBundle<{ gip2025: GipBundle; gip2026: GipBundle }>(DATA_PATHS)
+  const basePath = getBasePath()
   const [selectedVersion, setSelectedVersion] = useState<GipVersion>("2026")
   const [selectedProgram, setSelectedProgram] = useState(ALL_PROGRAMS)
   const [selectedBudgetKey, setSelectedBudgetKey] = useState<BudgetKey>("budget_total")
@@ -168,12 +169,14 @@ export function GIPMapStandalone() {
                 ))}
               </SelectContent>
             </Select>
-            <Button asChild variant="outline" size="sm" className="gap-2">
-              <a href={getBasePath() || "/"}>
-                <ArrowLeft className="h-4 w-4" />
-                Terug
-              </a>
-            </Button>
+            {basePath && (
+              <Button asChild variant="outline" size="sm" className="gap-2">
+                <a href={basePath}>
+                  <ArrowLeft className="h-4 w-4" />
+                  Terug
+                </a>
+              </Button>
+            )}
           </div>
         </div>
 

@@ -16,8 +16,10 @@ const metadata = {
 }
 
 export default function Page() {
+  const isStandaloneBuild = process.env.NEXT_PUBLIC_BASE_PATH === ""
+
   return (
-    <AnalysisLayout {...metadata}>
+    <AnalysisLayout {...metadata} hideBackLink={isStandaloneBuild}>
       <GIPDashboard />
       <PressReferences slug="gip-projecten" />
     </AnalysisLayout>
