@@ -1,26 +1,26 @@
 {
   "nbb": {
     "url": "https://nsidisseminate-stat.nbb.be/rest/data/BE2,DF_MIR,1.0/M.R_N.2250.A2C.A_P.Z.Z?startPeriod=2015-01&dimensionAtObservation=AllDimensions",
-    "latest_period": "2026-04",
-    "source_publication_date": "2026-04-30",
+    "latest_period": "2026-05",
+    "source_publication_date": "2026-05-31",
     "latest_rate": 3.41,
-    "response_sha256": "323bc5b61c8ac3086229cdf0d4706569a69d103d07d01e1dbe673a8e962fe503",
-    "data_sha256": "8aa2787e9480698e112f8894c5e4a69ba9e607bd142ce7b660f20e8b963f59a8",
-    "fetched_at": "2026-06-30T23:04:21Z",
-    "observation_count": 136
+    "response_sha256": "9bcd12e0a21163a1d572ab8097e84bad5b4bb45812d306f5fe554c3e0d6fb3f2",
+    "data_sha256": "f7686cd84e67cabe67731891643da41c7833a5658d8730e09c382afc2dfcf366",
+    "fetched_at": "2026-07-11T05:21:12Z",
+    "observation_count": 137
   },
   "inflation_forecasts": {
     "landing_url": "https://www.plan.be/nl/data/indexcijfer-der-consumptieprijzen",
     "download_url": "https://www.plan.be/sites/default/files/documents/DATA_FOR_InflationHistory.xlsx",
-    "landing_last_modified": "Tue, 30 Jun 2026 10:17:03 GMT",
-    "landing_response_sha256": "e99951491844a05e1ecf1f5415897431d6d48acbe144d2e62d7f86f1f780e7d4",
-    "workbook_last_modified": "Tue, 02 Jun 2026 11:47:00 GMT",
-    "latest_forecast_month": "2026-06",
-    "latest_source_publication_date": "2026-06-02",
-    "response_sha256": "b94fae63def749eb3d5be9a8d7ffd06a8a2aff42160f912f8176ed389be49025",
-    "data_sha256": "455b45288422e56b836991e98c27831c7b292cadcac36f7da2ddad7e7abe4f1f",
-    "source_page_data_sha256": "b8f1c032b44f5ec15ba7963aa2811c3477721358de30d8176380e805c7e276ba",
-    "fetched_at": "2026-06-30T23:04:21Z",
+    "landing_last_modified": "Sat, 11 Jul 2026 05:15:13 GMT",
+    "landing_response_sha256": "5fa760a1dab11f0e4a906095860e17af175467f017b16792ced47ac51d0b0d2f",
+    "workbook_last_modified": "Tue, 07 Jul 2026 11:44:49 GMT",
+    "latest_forecast_month": "2026-07",
+    "latest_source_publication_date": "2026-07-07",
+    "response_sha256": "41ed9a302d05106414454048a26e6281cf3afe813c324ca1833580bd2fdd088e",
+    "data_sha256": "19f50783ee6a3b3cb2b6c842daeb4176c9778bb4c23e6a503b01e58f1076635f",
+    "source_page_data_sha256": "c7d637a840c213fb0c2048f1ce2d051b3fef1d6838be5ca0d5a886a5805ddeab",
+    "fetched_at": "2026-07-11T05:21:12Z",
     "forecast_count": 12
   }
 }
