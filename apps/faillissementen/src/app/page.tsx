@@ -4,9 +4,9 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 
 const metadata = {
   title: "Faillissementen in de bouwsector",
-  date: "2026-07-01",
+  date: "2026-08-01",
   summary: "Maandelijkse evolutie van faillissementen in de Belgische bouwsector, met vergelijking met andere sectoren en regionale spreiding.",
-  dataAvailabilityLabel: "mei 2026",
+  dataAvailabilityLabel: "juni 2026",
   tags: ["economie","bedrijven","bouw","faillissementen"],
   source: {
     provider: "Statbel",
