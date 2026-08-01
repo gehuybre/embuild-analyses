@@ -1,18 +1,18 @@
 {
   "nbb": {
     "url": "https://nsidisseminate-stat.nbb.be/rest/data/BE2,DF_MIR,1.0/M.R_N.2250.A2C.A_P.Z.Z?startPeriod=2015-01&dimensionAtObservation=AllDimensions",
-    "latest_period": "2026-05",
-    "source_publication_date": "2026-05-31",
-    "latest_rate": 3.41,
-    "response_sha256": "9bcd12e0a21163a1d572ab8097e84bad5b4bb45812d306f5fe554c3e0d6fb3f2",
-    "data_sha256": "f7686cd84e67cabe67731891643da41c7833a5658d8730e09c382afc2dfcf366",
-    "fetched_at": "2026-07-11T05:21:12Z",
-    "observation_count": 137
+    "latest_period": "2026-06",
+    "source_publication_date": "2026-06-30",
+    "latest_rate": 3.47,
+    "response_sha256": "5e57e6d901f3345466d154b8280799a8a665b2ad1d97feb9113383939bb3c11c",
+    "data_sha256": "72ef8dc96bec0ab7bb6725023949553e52fed16a0f1a915c1aba0f029f68bb72",
+    "fetched_at": "2026-08-01T05:25:48Z",
+    "observation_count": 138
   },
   "inflation_forecasts": {
     "landing_url": "https://www.plan.be/nl/data/indexcijfer-der-consumptieprijzen",
     "download_url": "https://www.plan.be/sites/default/files/documents/DATA_FOR_InflationHistory.xlsx",
-    "landing_last_modified": "Fri, 17 Jul 2026 08:45:15 GMT",
+    "landing_last_modified": "Mon, 27 Jul 2026 08:36:45 GMT",
     "landing_response_sha256": "5fa760a1dab11f0e4a906095860e17af175467f017b16792ced47ac51d0b0d2f",
     "workbook_last_modified": "Tue, 07 Jul 2026 11:44:49 GMT",
     "latest_forecast_month": "2026-07",
