@@ -289,13 +289,16 @@ export function CorrelatiesSection({ data }: CorrelatiesSectionProps) {
         d.HH_available &&
         d.Huizen_totaal_2025 != null
       )
-      .map(d => ({
-        x: (d.hh_1_2025 ?? 0) + (d.hh_2_2025 ?? 0) + (d.hh_3_2025 ?? 0) + (d["hh_4+_2025"] ?? 0),
-        y: d.Huizen_totaal_2025 ?? 0,
-        z: d.Huizen_totaal_2025 ?? 1000,
-        name: d.TX_REFNIS_NL,
-        code: d.CD_REFNIS,
-      }))
+      .map(d => {
+        const totaalWoongelegenheden = (d.Huizen_totaal_2025 ?? 0) + (d.Appartementen_2025 ?? 0)
+        return {
+          x: (d.hh_1_2025 ?? 0) + (d.hh_2_2025 ?? 0) + (d.hh_3_2025 ?? 0) + (d["hh_4+_2025"] ?? 0),
+          y: totaalWoongelegenheden,
+          z: totaalWoongelegenheden || 1000,
+          name: d.TX_REFNIS_NL,
+          code: d.CD_REFNIS,
+        }
+      })
       .filter(p => p.x > 0 && p.y > 0)
 
     if (points.length === 0) {
