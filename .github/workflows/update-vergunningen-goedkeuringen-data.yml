@@ -79,7 +79,7 @@ jobs:
           dest="${APP_ROOT}/data/TF_BUILDING_PERMITS.zip"
           if gh release download statbel-bouwvergunningen-cache \
               --repo "${GITHUB_REPOSITORY}" \
-              --asset "TF_BUILDING_PERMITS.zip" \
+              --pattern "TF_BUILDING_PERMITS.zip" \
               --dir "${APP_ROOT}/data" \
               --clobber 2>/dev/null; then
             echo "input_local_file=${dest}" >> "${GITHUB_OUTPUT}"
