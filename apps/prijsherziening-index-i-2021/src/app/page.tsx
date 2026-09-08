@@ -4,9 +4,9 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 
 const metadata = {
   title: "Prijsherzieningsindex I 2021",
-  date: "2026-06-01",
+  date: "2026-09-08",
   summary: "Maandelijkse evolutie van de prijsherzieningsindex I 2021 voor de bouwsector, met calculator voor prijsherziening.",
-  dataAvailabilityLabel: "maart 2026",
+  dataAvailabilityLabel: "juli 2026",
   tags: ["bouw","prijzen","indexen","prijsherziening"],
   source: {
     provider: "FOD Economie",

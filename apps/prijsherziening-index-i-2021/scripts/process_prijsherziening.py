@@ -36,6 +36,7 @@ REMOTE_METADATA_FILE = DATA_DIR / ".remote_metadata.json"
 EXCEL_FILENAME = "prix-construction-Indice-I-2021.xlsx"
 EXPECTED_SHEET_NAME = "I_2021 (Nl)"
 MIN_VALID_XLSX_BYTES = 10_000
+MAX_STALE_DAYS = 45
 REQUEST_HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -43,7 +44,15 @@ REQUEST_HEADERS = {
         "Chrome/122.0.0.0 Safari/537.36"
     ),
     "Accept": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,*/*;q=0.8",
+    "Accept-Language": "nl-BE,nl;q=0.9,en;q=0.8",
 }
+FILE_REQUEST_HEADERS = {**REQUEST_HEADERS, "Referer": SOURCE_PAGE_URL}
+
+# The site's WAF appears to serve a small HTML page instead of the workbook to
+# requests without a browser-like session (e.g. GitHub Actions runner IPs). A
+# GET on the source page first, reusing its cookies for the file request,
+# mimics a real visit and gets past this in testing.
+SESSION = requests.Session()
 
 # Component name simplification mapping
 COMPONENT_NAMES = {
@@ -96,8 +105,16 @@ def _write_remote_metadata(url: str, response: requests.Response, content: bytes
     REMOTE_METADATA_FILE.write_text(json.dumps(payload, indent=2), encoding="utf-8")
 
 
+def _warm_up_session() -> None:
+    """Visit the source page to pick up any session cookies the WAF expects."""
+    try:
+        SESSION.get(SOURCE_PAGE_URL, headers=REQUEST_HEADERS, timeout=120)
+    except requests.RequestException as exc:
+        print(f"Could not warm up session on source page: {exc}")
+
+
 def _find_source_page_workbook_url() -> str | None:
-    response = requests.get(SOURCE_PAGE_URL, headers=REQUEST_HEADERS, timeout=120)
+    response = SESSION.get(SOURCE_PAGE_URL, headers=REQUEST_HEADERS, timeout=120)
     response.raise_for_status()
     html = response.text
     candidates = re.findall(r"""href=["']([^"']+\.xlsx(?:\?[^"']*)?)["']""", html, flags=re.I)
@@ -109,7 +126,7 @@ def _find_source_page_workbook_url() -> str | None:
 
 
 def _download_candidate(url: str) -> tuple[requests.Response, bytes]:
-    response = requests.get(url, headers=REQUEST_HEADERS, timeout=120)
+    response = SESSION.get(url, headers=FILE_REQUEST_HEADERS, timeout=120)
     response.raise_for_status()
     content = response.content
     _validate_xlsx_response(url, response, content)
@@ -121,6 +138,8 @@ def download_data() -> str:
 
     Returns path to downloaded file.
     """
+    _warm_up_session()
+
     configured_url = os.environ.get("INPUT_URL", DATA_URL)
     candidate_urls = [configured_url]
     if not os.environ.get("INPUT_URL"):
@@ -169,6 +188,19 @@ def _has_existing_public_outputs() -> bool:
             "prijsherziening_data.csv",
         )
     )
+
+
+def _existing_data_age_days() -> float | None:
+    """Age in days of the last successful refresh, based on metadata.json."""
+    metadata_path = RESULTS_DIR / "metadata.json"
+    if not metadata_path.exists():
+        return None
+    try:
+        metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+        last_updated = datetime.fromisoformat(metadata["last_updated"])
+    except (json.JSONDecodeError, KeyError, ValueError):
+        return None
+    return (datetime.now() - last_updated).total_seconds() / 86400
 
 
 def _warn_and_skip_unavailable_source(exc: Exception) -> None:
@@ -361,9 +393,15 @@ if __name__ == "__main__":
     try:
         excel_path = download_data()
     except SourceUnavailable as exc:
-        if _has_existing_public_outputs():
+        age_days = _existing_data_age_days()
+        if _has_existing_public_outputs() and age_days is not None and age_days <= MAX_STALE_DAYS:
             _warn_and_skip_unavailable_source(exc)
             sys.exit(0)
+        if age_days is not None:
+            raise SourceUnavailable(
+                f"Source unavailable and existing data is already {age_days:.0f} days old "
+                f"(limit {MAX_STALE_DAYS}). Failing instead of silently staying stale. {exc}"
+            ) from exc
         raise
 
     process_data(excel_path)

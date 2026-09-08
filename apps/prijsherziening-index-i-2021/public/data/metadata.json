@@ -1,8 +1,8 @@
 {
-  "last_updated": "2026-05-04T23:05:35.236179",
+  "last_updated": "2026-09-08T10:34:17.791440",
   "data_source": "https://economie.fgov.be/sites/default/files/Files/Entreprises/prix-construction-Indice-I-2021.xlsx",
-  "latest_data_date": "2026-03-01T00:00:00",
-  "total_records": 1976,
+  "latest_data_date": "2026-07-01T00:00:00",
+  "total_records": 2096,
   "components": [
     "081",
     "161",
@@ -40,6 +40,6 @@
     "min_year": 2020,
     "max_year": 2026,
     "min_month": 11,
-    "max_month": 3
+    "max_month": 7
   }
 }
