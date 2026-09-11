@@ -3,10 +3,10 @@
   "sourceTitle": "Consumptieprijsindex - inflatievooruitzichten",
   "sourceUrl": "https://www.plan.be/nl/data/indexcijfer-der-consumptieprijzen",
   "sourceDownloadUrl": "https://www.plan.be/sites/default/files/documents/DATA_FOR_InflationHistory.xlsx",
-  "workbookLastModified": "Tue, 07 Jul 2026 11:44:49 GMT",
-  "latestForecastMonth": "2026-07",
-  "latestForecastLabel": "juli 2026",
-  "latestSourcePublicationDate": "2026-07-07",
+  "workbookLastModified": "Tue, 01 Sep 2026 11:44:09 GMT",
+  "latestForecastMonth": "2026-09",
+  "latestForecastLabel": "september 2026",
+  "latestSourcePublicationDate": "2026-09-01",
   "forecastCount": 12,
   "comparableBaseIndexLabel": "Index (2025=100)",
   "comparableForecastMonths": [
@@ -15,7 +15,8 @@
     "2026-04",
     "2026-05",
     "2026-06",
-    "2026-07"
+    "2026-07",
+    "2026-09"
   ],
   "comparableForecastLabels": [
     "februari 2026",
@@ -23,31 +24,32 @@
     "april 2026",
     "mei 2026",
     "juni 2026",
-    "juli 2026"
+    "juli 2026",
+    "september 2026"
   ],
-  "comparableForecastCount": 6,
+  "comparableForecastCount": 7,
   "excludedForecastLabels": [
     "januari 2026"
   ],
   "comparisonPeriodStart": "2026-01",
   "comparisonPeriodEnd": "2027-12",
-  "description": "Het Federaal Planbureau publiceert elke maand een nieuwe inflatieprognose. Deze vergelijking toont februari 2026, maart 2026, april 2026, mei 2026, juni 2026 en juli 2026 op basis van index (2025=100). Laatste update: 7 juli 2026. Prognoses met een andere indexbasis, zoals januari 2026, worden niet meegetoond.",
+  "description": "Het Federaal Planbureau publiceert elke maand een nieuwe inflatieprognose. Deze vergelijking toont februari 2026, maart 2026, april 2026, mei 2026, juni 2026, juli 2026 en september 2026 op basis van index (2025=100). Laatste update: 1 september 2026. Prognoses met een andere indexbasis, zoals januari 2026, worden niet meegetoond.",
   "sourcePage": {
-    "title": "Indexcijfer der consumptieprijzen - Inflatievooruitzichten [07/07/2026]",
-    "publicationDate": "2026-07-07",
+    "title": "Indexcijfer der consumptieprijzen - Inflatievooruitzichten [01/09/2026]",
+    "publicationDate": "2026-09-01",
     "inflationOutlook": [
-      "Inflatie: gemiddeld 3,1% in 2026 en 2,7% in 2027, tegenover 2,47% in 2025 en 3,14% in 2024.",
-      "Groei van de gezondheidsindex: gemiddeld 2,9% in 2026 en 2,9% in 2027, tegenover 2,63% in 2025 en 3,28% in 2024."
+      "Inflatie: gemiddeld 3,6% in 2026 en 3,4% in 2027, tegenover 2,47% in 2025 en 3,14% in 2024.",
+      "Groei van de gezondheidsindex: gemiddeld 3,2% in 2026 en 3,4% in 2027, tegenover 2,63% in 2025 en 3,28% in 2024."
     ],
     "pivotalIndex": [
       "Een overschrijding van de spilindex (100,28, basisjaar 2025) vond plaats in juni 2026. Als gevolg daarvan zullen de sociale uitkeringen en de wedden van het overheidspersoneel in september 2026 geïndexeerd worden. Aangezien die indexering zal worden berekend overeenkomstig de modaliteiten van de maatregel 'centenindex', zal het indexeringspercentage van 2% slechts toegepast worden op de schijf tot 2000 euro bruto per maand voor de sociale uitkeringen en op de schijf tot 4000 euro bruto per maand voor de overheidswedden.",
-      "De daaropvolgende spilindexen (102,29 en 104,34, basisjaar 2025) worden respectievelijk overschreden in januari en december 2027."
+      "De daaropvolgende spilindexen (102,29 en 104,34, basisjaar 2025) worden respectievelijk overschreden in december 2026 en juli 2027."
     ],
-    "nextUpdate": "1 september 2026 om 14u."
+    "nextUpdate": "6 oktober 2026 om 14u."
   },
-  "fetchedAt": "2026-07-11T05:21:12Z",
-  "responseSha256": "41ed9a302d05106414454048a26e6281cf3afe813c324ca1833580bd2fdd088e",
-  "dataSha256": "19f50783ee6a3b3cb2b6c842daeb4176c9778bb4c23e6a503b01e58f1076635f",
-  "sourcePageSha256": "5fa760a1dab11f0e4a906095860e17af175467f017b16792ced47ac51d0b0d2f",
-  "sourcePageDataSha256": "c7d637a840c213fb0c2048f1ce2d051b3fef1d6838be5ca0d5a886a5805ddeab"
+  "fetchedAt": "2026-09-11T04:29:46Z",
+  "responseSha256": "3f21ce7bf0362e01aaac2695cf46a0c030cd6d2d52500252f8e5b672a2554aaf",
+  "dataSha256": "b001f71b487c6cf47f85885995128119acb89b713a8b2bfb45ad4029624c8d5d",
+  "sourcePageSha256": "42570397e36c13154cd1e242a544d7681c99d8fd2707617cca30b8e1ee17a24a",
+  "sourcePageDataSha256": "71bb4ebbef0186f54bce217371984175ee1381999d1e2aadf45e922385215f37"
 }
