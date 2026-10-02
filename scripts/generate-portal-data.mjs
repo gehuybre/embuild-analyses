@@ -11,6 +11,7 @@
 
 import { readdirSync, readFileSync, writeFileSync, existsSync } from "node:fs"
 import { join } from "node:path"
+import { isPublishedToSite } from "./site-apps.mjs"
 
 const ROOT = join(import.meta.dirname, "..")
 const APPS_DIR = join(ROOT, "apps")
@@ -43,6 +44,7 @@ const entries = []
 
 for (const slug of readdirSync(APPS_DIR).sort()) {
   if (slug === "portal") continue
+  if (!isPublishedToSite(slug)) continue
   const pagePath = join(APPS_DIR, slug, "src", "app", "page.tsx")
   if (!existsSync(pagePath)) continue
 

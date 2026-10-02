@@ -6,6 +6,7 @@
     "build": "turbo run build",
     "build:single-preview": "node scripts/build-single-app-preview.mjs",
     "build:standalone": "node scripts/build-standalone-app.mjs",
+    "check:standalone": "node scripts/check-standalone-sync.mjs",
     "build:fin-indicatoren:standalone": "node scripts/build-standalone-app.mjs fin-indicatoren",
     "build:merge": "node scripts/merge-outputs.mjs",
     "dev": "turbo run dev",

@@ -1,0 +1,494 @@
+[
+  {
+    "id": "vivendo",
+    "naam": "Vivendo",
+    "url": "https://www.vivendo.be/",
+    "werkingsgebied_label": "Brugge-regio",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      234,
+      206,
+      229
+    ]
+  },
+  {
+    "id": "sw",
+    "naam": "SW+",
+    "url": "https://swplus.be/",
+    "werkingsgebied_label": "Kortrijk-regio",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      243,
+      151,
+      156
+    ]
+  },
+  {
+    "id": "zetus",
+    "naam": "Zetus",
+    "url": "https://www.zetus.be/",
+    "werkingsgebied_label": "Kust-Noord",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      183,
+      214,
+      146
+    ]
+  },
+  {
+    "id": "woonstart",
+    "naam": "Woonstart",
+    "url": "https://www.woonstart.be/",
+    "werkingsgebied_label": "Midwest-Oost",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      181,
+      194,
+      150
+    ]
+  },
+  {
+    "id": "thuiswest",
+    "naam": "Thuiswest",
+    "url": "https://www.thuiswest.be/",
+    "werkingsgebied_label": "Midwest-West",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      230,
+      233,
+      156
+    ]
+  },
+  {
+    "id": "woonsprong",
+    "naam": "Woonsprong",
+    "url": "https://www.woonsprong.be/",
+    "werkingsgebied_label": "Oostende-regio",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      169,
+      191,
+      215
+    ]
+  },
+  {
+    "id": "wm-ijzer-en-zee",
+    "naam": "WM IJzer en Zee",
+    "url": "https://www.ijzerenzee.be/",
+    "werkingsgebied_label": "Westhoek-Noord",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      249,
+      186,
+      133
+    ]
+  },
+  {
+    "id": "ons-onderdak",
+    "naam": "Ons Onderdak",
+    "url": "https://onsonderdak.be/",
+    "werkingsgebied_label": "Westhoek-Zuid",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      189,
+      192,
+      225
+    ]
+  },
+  {
+    "id": "wm-vivus",
+    "naam": "WM Vivus",
+    "url": "https://www.vivus.be/",
+    "werkingsgebied_label": "Z-W-Vlaanderen-Midden",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      145,
+      146,
+      200
+    ]
+  },
+  {
+    "id": "mpuls-menen-wervik",
+    "naam": "!Mpuls Menen-Wervik",
+    "url": "https://www.wm-impuls.be/",
+    "werkingsgebied_label": "Z-W-Vlaanderen-West",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      224,
+      218,
+      196
+    ]
+  },
+  {
+    "id": "wm-elan",
+    "naam": "WM Elan",
+    "url": "https://wmelan.be/",
+    "werkingsgebied_label": "Z-W-Vlaanderen-Zuid",
+    "provincie_legende": "WEST-VLAANDEREN",
+    "kleur": [
+      253,
+      203,
+      140
+    ]
+  },
+  {
+    "id": "stek-92",
+    "naam": "Stek 92",
+    "url": "https://stek92.be/",
+    "werkingsgebied_label": "Denderregio-Midden",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      237,
+      173,
+      129
+    ]
+  },
+  {
+    "id": "de-thuisbouwer",
+    "naam": "de Thuisbouwer",
+    "url": "https://dethuisbouwer.be/",
+    "werkingsgebied_label": "Denderregio-Noord",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      159,
+      191,
+      232
+    ]
+  },
+  {
+    "id": "wm-dender-zuid",
+    "naam": "WM Dender-Zuid",
+    "url": "https://www.shm-denderstreek.be/",
+    "werkingsgebied_label": "Denderregio-Zuid",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      249,
+      243,
+      173
+    ]
+  },
+  {
+    "id": "wm-meetjesland",
+    "naam": "WM Meetjesland",
+    "url": "https://www.woonmee.be/",
+    "werkingsgebied_label": "Gent/Meetjesland",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      192,
+      198,
+      230
+    ]
+  },
+  {
+    "id": "woonpijler",
+    "naam": "Woonpijler",
+    "url": "https://www.woonpijler.be/",
+    "werkingsgebied_label": "Gent-Oost",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      194,
+      225,
+      193
+    ]
+  },
+  {
+    "id": "thuispunt-gent",
+    "naam": "Thuispunt Gent",
+    "url": "https://thuispuntgent.be/",
+    "werkingsgebied_label": "Gent-stad",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      242,
+      150,
+      127
+    ]
+  },
+  {
+    "id": "dimensa-wm",
+    "naam": "Dimensa WM",
+    "url": "https://www.dimensa.be/nl",
+    "werkingsgebied_label": "Gent-Zuid",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      231,
+      209,
+      172
+    ]
+  },
+  {
+    "id": "wm-vlaamse-ardennen",
+    "naam": "WM Vlaamse Ardennen",
+    "url": "https://wmvla.be/",
+    "werkingsgebied_label": "Vlaamse Ardennen",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      198,
+      128,
+      103
+    ]
+  },
+  {
+    "id": "woonst",
+    "naam": "WoonST",
+    "url": "https://woonst.be/",
+    "werkingsgebied_label": "Waasland-Midden",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      245,
+      201,
+      226
+    ]
+  },
+  {
+    "id": "woonpunt-waas",
+    "naam": "Woonpunt Waas",
+    "url": "https://www.woonpuntwaas.be/",
+    "werkingsgebied_label": "Waasland-Oost",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      171,
+      186,
+      157
+    ]
+  },
+  {
+    "id": "tuinwijk",
+    "naam": "Tuinwijk",
+    "url": "https://tuinwijk.be/welkom-aan-de-svk-huurders-uit-waasland-west/",
+    "werkingsgebied_label": "Waasland-West",
+    "provincie_legende": "OOST-VLAANDEREN",
+    "kleur": [
+      223,
+      220,
+      153
+    ]
+  },
+  {
+    "id": "de-voorkempen-h-e",
+    "naam": "De Voorkempen - H.E.",
+    "url": "https://www.devoorkempen-he.be/",
+    "werkingsgebied_label": "Antwerpen-Midden/Noord",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      176,
+      211,
+      143
+    ]
+  },
+  {
+    "id": "woonkade-rupelstreek",
+    "naam": "Woonkade Rupelstreek",
+    "url": "https://www.woonkade.be/",
+    "werkingsgebied_label": "Antwerpen-Rupel",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      218,
+      161,
+      202
+    ]
+  },
+  {
+    "id": "woonhaven-antwerpen",
+    "naam": "Woonhaven Antwerpen",
+    "url": "https://woonhaven.be/",
+    "werkingsgebied_label": "Antwerpen-stad",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      255,
+      230,
+      150
+    ]
+  },
+  {
+    "id": "thuisrand",
+    "naam": "Thuisrand",
+    "url": "https://thuisrand.be/",
+    "werkingsgebied_label": "Antwerpen-Zuidrand",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      203,
+      209,
+      235
+    ]
+  },
+  {
+    "id": "woonboog",
+    "naam": "Woonboog",
+    "url": "https://www.woonboog.be/",
+    "werkingsgebied_label": "Kempen-Midden",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      247,
+      204,
+      170
+    ]
+  },
+  {
+    "id": "wm-de-noorderkempen",
+    "naam": "WM De Noorderkempen",
+    "url": "https://www.denoorderkempen.be/Naar-Woonmaatschappij-de-Noorderkempen",
+    "werkingsgebied_label": "Kempen-Noord",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      204,
+      233,
+      241
+    ]
+  },
+  {
+    "id": "leefgoed",
+    "naam": "LeefGoed",
+    "url": "https://leefgoed.be/",
+    "werkingsgebied_label": "Kempen-Zuid",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      163,
+      193,
+      201
+    ]
+  },
+  {
+    "id": "woonstroom",
+    "naam": "Woonstroom",
+    "url": "https://woonstroom.be/",
+    "werkingsgebied_label": "Rivierenland-Midden",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      226,
+      147,
+      152
+    ]
+  },
+  {
+    "id": "woonschakel-berg-en-nete",
+    "naam": "Woonschakel Berg en Nete",
+    "url": "https://www.woonschakelbergennete.be/",
+    "werkingsgebied_label": "Rivierenland-Oost",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      199,
+      195,
+      186
+    ]
+  },
+  {
+    "id": "woonveer-klein-brabant",
+    "naam": "Woonveer Klein-Brabant",
+    "url": "https://woonveer.be/",
+    "werkingsgebied_label": "Rivierenland-West",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      227,
+      201,
+      142
+    ]
+  },
+  {
+    "id": "wm-rivierenland",
+    "naam": "WM Rivierenland",
+    "url": "https://wmwoonland.be",
+    "werkingsgebied_label": "Willebroek/Mechelen",
+    "provincie_legende": "ANTWERPEN",
+    "kleur": [
+      195,
+      222,
+      181
+    ]
+  },
+  {
+    "id": "providentia",
+    "naam": "Providentia",
+    "url": "https://www.providentia.be/",
+    "werkingsgebied_label": "Halle/Vilvoorde-Midden",
+    "provincie_legende": "VLAAMS-BRABANT",
+    "kleur": [
+      228,
+      189,
+      220
+    ]
+  },
+  {
+    "id": "het-vlaamse-woonanker",
+    "naam": "Het Vlaamse Woonanker",
+    "url": "https://www.volkshuisvesting.be/",
+    "werkingsgebied_label": "Halle/Vilvoorde-Noord",
+    "provincie_legende": "VLAAMS-BRABANT",
+    "kleur": [
+      212,
+      234,
+      222
+    ]
+  },
+  {
+    "id": "inter-vilvoordse-mij-voor-huisvesting",
+    "naam": "Inter-Vilvoordse Mij. voor Huisvesting",
+    "url": "https://intervilvoordse.be/",
+    "werkingsgebied_label": "Halle/Vilvoorde-Oost",
+    "provincie_legende": "VLAAMS-BRABANT",
+    "kleur": [
+      156,
+      162,
+      212
+    ]
+  },
+  {
+    "id": "woonpunt-zennevallei",
+    "naam": "Woonpunt Zennevallei",
+    "url": "https://www.wpz.be/",
+    "werkingsgebied_label": "Halle/Vilvoorde-Zuid",
+    "provincie_legende": "VLAAMS-BRABANT",
+    "kleur": [
+      196,
+      172,
+      146
+    ]
+  },
+  {
+    "id": "dijledal",
+    "naam": "Dijledal",
+    "url": "https://www.dijledal.be/",
+    "werkingsgebied_label": "Oost-Brabant-Midden",
+    "provincie_legende": "VLAAMS-BRABANT",
+    "kleur": [
+      239,
+      146,
+      141
+    ]
+  },
+  {
+    "id": "kanvaz",
+    "naam": "KANVAZ",
+    "url": "https://www.kanvaz.be/",
+    "werkingsgebied_label": "Oost-Brabant-Oost",
+    "provincie_legende": "VLAAMS-BRABANT",
+    "kleur": [
+      195,
+      228,
+      233
+    ]
+  },
+  {
+    "id": "woontrots",
+    "naam": "Woontrots",
+    "url": "https://www.woontrots.be/",
+    "werkingsgebied_label": "Oost-Brabant-West",
+    "provincie_legende": "VLAAMS-BRABANT",
+    "kleur": [
+      248,
+      246,
+      207
+    ]
+  },
+  {
+    "id": "wonen-in-limburg-wil",
+    "naam": "Wonen in Limburg (WiL)",
+    "url": "https://wil.be/nl",
+    "werkingsgebied_label": "Limburg",
+    "provincie_legende": "LIMBURG",
+    "kleur": [
+      218,
+      232,
+      196
+    ]
+  }
+]

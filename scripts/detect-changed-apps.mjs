@@ -3,6 +3,7 @@
 import { appendFileSync, existsSync, readdirSync } from "node:fs"
 import { spawnSync } from "node:child_process"
 import { join } from "node:path"
+import { isPublishedToSite } from "./site-apps.mjs"
 
 const ROOT = join(import.meta.dirname, "..")
 const APPS_DIR = join(ROOT, "apps")
@@ -35,6 +36,7 @@ function parseArgs(argv) {
 function discoverApps() {
   return readdirSync(APPS_DIR)
     .filter((slug) => existsSync(join(APPS_DIR, slug, "package.json")))
+    .filter(isPublishedToSite)
     .sort()
 }
 

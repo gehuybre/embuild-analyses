@@ -571,6 +571,29 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
       },
     },
   },
+  {
+    slug: "sociaal-wonen",
+    sections: {
+      kaart: {
+        type: "custom",
+        title: "Sociale huurplanning: kaart per woonmaatschappij",
+        component: "SociaalWonenEmbed",
+        height: 700,
+      },
+      tabel: {
+        type: "custom",
+        title: "Sociale huurplanning: tabel per woonmaatschappij en gemeente",
+        component: "SociaalWonenEmbed",
+        height: 650,
+      },
+      projecten: {
+        type: "custom",
+        title: "Sociale huurplanning: projecten korte termijn",
+        component: "SociaalWonenEmbed",
+        height: 650,
+      },
+    },
+  },
 ]
 
 /**
