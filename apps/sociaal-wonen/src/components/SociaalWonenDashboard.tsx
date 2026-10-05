@@ -128,7 +128,6 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
   const kaart = (
     <div className="space-y-3">
       <div className="flex flex-wrap items-center gap-3">
-        <Segmented label="Kaartweergave" value={state.modus} onChange={(v) => set({ modus: v })} options={[{ v: "wm", l: "Per woonmaatschappij" }, { v: "gemeente", l: "Per gemeente" }]} />
         <Segmented label="Meetwaarde" value={state.metric} onChange={(v) => set({ metric: v })} options={[{ v: "huur", l: "Huurwoningen" }, { v: "kostprijs", l: "Kostprijs" }]} />
       </div>
       <WerkingsgebiedMap
@@ -137,7 +136,7 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
         wms={wms}
         data={byNis}
         horizon={horizon}
-        modus={state.modus}
+        modus="wm"
         metric={state.metric}
         wm={state.wm}
         selectedNis={state.gemeente}
@@ -149,6 +148,7 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
         wmId={state.wm}
         gemeenten={gemeenten}
         wms={wms}
+        types={m.types}
         rows={rowsPanel}
         onClear={() => set({ gemeente: "", wm: state.gemeente ? state.wm : "" })}
         onSelectWm={(id) => set({ wm: id })}
@@ -224,7 +224,7 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
         <details className="rounded-lg border p-3 text-muted-foreground">
           <summary className="cursor-pointer font-medium text-foreground">Over de cijfers</summary>
           <ul className="mt-2 list-disc space-y-1 pl-5">
-            <li><strong>Korte termijn (KT):</strong> verrichtingen die klaar zijn voor aanbesteding. <strong>Lange termijn (LT):</strong> verrichtingen waarvoor een voorontwerp werd geadviseerd. Sommige projecten komen in beide planningen voor, daarom worden KT en LT nooit opgeteld.</li>
+            <li><strong>Korte termijn (KT):</strong> verrichtingen die klaar zijn voor aanbesteding. <strong>Lange termijn (LT):</strong> verrichtingen waarvoor een voorontwerp werd geadviseerd.</li>
             <li><strong>Huurwoningen:</strong> aantal huurwoningen dat zal gerealiseerd worden. Bij renovatie gaat het om bestaande woningen waarvan de ingreep ook beperkt kan zijn (bv. raamcontracten of beperkte renovatie), dus het aantal woningen zegt daar weinig over de omvang van de werken. Vergelijk bedragen per woning daarom alleen binnen hetzelfde soort werken. <strong>Kostprijs:</strong> geraamde kostprijs van de werken. <strong>Max. prijs VMSW:</strong> FS4-plafond. <strong>Subsidiabel (UP):</strong> subsidiabel bedrag, berekend op basis van kostprijs en maximumprijs.</li>
             <li><strong>Types:</strong> {Object.entries(m.types).filter(([k]) => k !== "ONBEKEND").map(([k, v]) => `${k} = ${v.toLowerCase()}`).join("; ")}.</li>
             <li>De kaart toont het werkingsgebied van elke woonmaatschappij (stand januari 2025, afgeleid uit de kaart &quot;Woonmaatschappijen in kaart&quot;). De planning kan ook projecten buiten dat gebied bevatten. De tabel toont altijd de woonmaatschappij uit de planning.</li>

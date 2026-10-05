@@ -5,6 +5,7 @@ import { Button, buttonVariants } from "@embuild/shared/components/ui/button"
 import { cn } from "@embuild/shared/lib/utils"
 import { sumRows } from "@/lib/filters"
 import { fmtEurCompact, fmtInt, titleCaseProv } from "@/lib/format"
+import { TYPE_ORDER } from "@/lib/types"
 import type { AggRow, Gemeente, Horizon, Woonmaatschappij } from "@/lib/types"
 
 interface Props {
@@ -12,6 +13,8 @@ interface Props {
   wmId: string
   gemeenten: Gemeente[]
   wms: Woonmaatschappij[]
+  /** Codes en omschrijvingen van de types verrichting (meta.types). */
+  types: Record<string, string>
   /** Rijen per horizon, gefilterd op alles behalve gemeente en woonmaatschappij. */
   rows: Record<Horizon, AggRow[]>
   onClear: () => void
@@ -32,7 +35,37 @@ function WebsiteButton({ wm, primary }: { wm: Woonmaatschappij; primary?: boolea
   )
 }
 
-export function DetailPanel({ nis, wmId, gemeenten, wms, rows, onClear, onSelectWm }: Props) {
+const GROEP_LABEL: Record<string, string> = { nieuwbouw: "Nieuwbouw", renovatie: "Renovatie" }
+
+/** Verdeling van de geaggregeerde rijen over een dimensie (soort werken, type verrichting, procedure). */
+function Breakdown({ title, rows, keyOf, label, order }: { title: string; rows: AggRow[]; keyOf: (r: AggRow) => string; label: (k: string) => string; order?: (a: string, b: string) => number }) {
+  const groups = new Map<string, AggRow[]>()
+  rows.forEach((r) => groups.set(keyOf(r), [...(groups.get(keyOf(r)) ?? []), r]))
+  const list = Array.from(groups.entries()).map(([k, g]) => ({ k, t: sumRows(g) }))
+  list.sort((a, b) => (order ? order(a.k, b.k) : b.t.huur - a.t.huur))
+  return (
+    <div className="mt-3">
+      <div className="text-xs font-medium text-muted-foreground">{title}</div>
+      <table className="mt-1 w-full text-xs tabular-nums">
+        <thead className="sr-only">
+          <tr><th scope="col">{title}</th><th scope="col">Huurwoningen</th><th scope="col">Kostprijs</th><th scope="col">Verrichtingen</th></tr>
+        </thead>
+        <tbody>
+          {list.map(({ k, t }) => (
+            <tr key={k} className="border-t first:border-t-0 align-top">
+              <th scope="row" className="py-1 pr-2 text-left font-normal">{label(k)}</th>
+              <td className="py-1 pr-2 text-right">{fmtInt(t.huur)} won.</td>
+              <td className="py-1 pr-2 text-right">{fmtEurCompact(t.kostprijs)}</td>
+              <td className="py-1 text-right text-muted-foreground">{fmtInt(t.n)} verr.</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  )
+}
+
+export function DetailPanel({ nis, wmId, gemeenten, wms, types, rows, onClear, onSelectWm }: Props) {
   const wmById = new Map(wms.map((w) => [w.id, w]))
   const gem = nis ? gemeenten.find((g) => g.nis === nis) : undefined
   const areaWm = gem ? wmById.get(gem.wm_id) : undefined
@@ -84,6 +117,18 @@ export function DetailPanel({ nis, wmId, gemeenten, wms, rows, onClear, onSelect
               ) : (
                 <>
                   <p className="mt-1 text-sm font-medium tabular-nums">{fmtInt(t.huur)} huurwoningen · {fmtEurCompact(t.kostprijs)}</p>
+                  <p className="text-xs tabular-nums text-muted-foreground">
+                    Subsidiabel bedrag {fmtEurCompact(t.bedrag_up)} · {fmtInt(t.n)} {t.n === 1 ? "verrichting" : "verrichtingen"}
+                  </p>
+                  <Breakdown title="Soort werken" rows={r} keyOf={(x) => x.groep} label={(k) => GROEP_LABEL[k] ?? k} />
+                  <Breakdown
+                    title="Type verrichting"
+                    rows={r}
+                    keyOf={(x) => x.type}
+                    label={(k) => (types[k] ? `${types[k]} (${k})` : k)}
+                    order={(a, b) => TYPE_ORDER.indexOf(a as (typeof TYPE_ORDER)[number]) - TYPE_ORDER.indexOf(b as (typeof TYPE_ORDER)[number])}
+                  />
+                  <Breakdown title="Procedure" rows={r} keyOf={(x) => x.procedure ?? ""} label={(k) => k || "Geen specifieke procedure"} />
                   {gem && (
                     <ul className="mt-2 space-y-1.5 text-sm">
                       {Array.from(perWm.entries()).map(([id, list]) => {
