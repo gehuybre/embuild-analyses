@@ -97,7 +97,7 @@ export function ProjectTable({ projects, wms, gemeenten, meta, pageSize = DEFAUL
                 <SortableHead label="Project" k="omschrijving" sort={sort} onSort={onSort} />
                 <SortableHead label="Type" k="type" sort={sort} onSort={onSort} />
                 <SortableHead label="Procedure" k="procedure" sort={sort} onSort={onSort} />
-                <SortableHead label="Huur" k="huur" sort={sort} onSort={onSort} align="right" />
+                <SortableHead label="Huurwoningen" k="huur" sort={sort} onSort={onSort} align="right" />
                 <SortableHead label="Kostprijs" k="kostprijs" sort={sort} onSort={onSort} align="right" />
                 <SortableHead label="Subsidiabel (UP)" k="up" sort={sort} onSort={onSort} align="right" title="Bedrag UP: subsidiabel bedrag" />
                 <SortableHead label="Opname programmatie" k="datum" sort={sort} onSort={onSort} />
