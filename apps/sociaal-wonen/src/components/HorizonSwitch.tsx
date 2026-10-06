@@ -6,7 +6,6 @@ import type { Horizon, Meta } from "@/lib/types"
 
 interface Props {
   horizon: Horizon
-  onChange: (h: Horizon) => void
   /** Totalen per horizon met dezelfde filters. Naast elkaar getoond, nooit opgeteld. */
   totals: Record<Horizon, Totals>
   /** Uitsplitsing naar soort werken: het grootste deel is renovatie, dat mag het totaal niet als nieuwbouw laten lezen. */
@@ -19,20 +18,16 @@ const COPY: Record<Horizon, { titel: string; uitleg: string }> = {
   lt: { titel: "Lange termijn", uitleg: "Voorontwerp geadviseerd. Timing en bedragen nog minder zeker, enkel cijfers per gemeente." },
 }
 
-export function HorizonSwitch({ horizon, onChange, totals, perGroep, meta }: Props) {
+export function HorizonSwitch({ horizon, totals, perGroep, meta }: Props) {
   return (
-    <div role="radiogroup" aria-label="Planningshorizon" className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+    <div role="group" aria-label="Totalen per planning" className="grid grid-cols-1 gap-2 sm:grid-cols-2">
       {(["kt", "lt"] as Horizon[]).map((h) => {
         const active = h === horizon
         const t = totals[h]
         return (
-          <button
+          <div
             key={h}
-            type="button"
-            role="radio"
-            aria-checked={active}
-            onClick={() => onChange(h)}
-            className={`rounded-lg border p-3 text-left transition-colors ${active ? "border-primary bg-primary/5 ring-1 ring-primary" : "hover:bg-muted/60"}`}
+            className={`rounded-lg border p-3 text-left ${active ? "border-primary bg-primary/5 ring-1 ring-primary" : ""}`}
           >
             <div className="flex items-baseline justify-between gap-2">
               <span className="font-semibold">{COPY[h].titel}</span>
@@ -45,7 +40,7 @@ export function HorizonSwitch({ horizon, onChange, totals, perGroep, meta }: Pro
               waarvan nieuwbouw {fmtInt(perGroep[h].nieuwbouw.huur)} · renovatie {fmtInt(perGroep[h].renovatie.huur)}
             </div>
             <div className="mt-0.5 text-xs text-muted-foreground">{COPY[h].uitleg}</div>
-          </button>
+          </div>
         )
       })}
     </div>
