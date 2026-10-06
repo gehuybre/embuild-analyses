@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import json
 import sys
+import zipfile
 from pathlib import Path
 
 XLSX_NAME = "sociaal-wonen-alle-gegevens.xlsx"
@@ -40,14 +41,56 @@ def walk_keys(obj, found: set):
             walk_keys(v, found)
 
 
+def read_xlsx_sheet(path: Path, sheet: str) -> tuple[list[str], list[list]]:
+    """Leest een blad uit een xlsx met enkel de standaardbibliotheek (de CI heeft geen openpyxl)."""
+    import re
+    import xml.etree.ElementTree as ET
+    ns = {"m": "http://schemas.openxmlformats.org/spreadsheetml/2006/main",
+          "r": "http://schemas.openxmlformats.org/officeDocument/2006/relationships"}
+    with zipfile.ZipFile(path) as z:
+        wb = ET.fromstring(z.read("xl/workbook.xml"))
+        names = [s.get("name") for s in wb.find("m:sheets", ns)]
+        if sheet not in names:
+            return names, []
+        target = f"xl/worksheets/sheet{names.index(sheet) + 1}.xml"
+        shared = []
+        if "xl/sharedStrings.xml" in z.namelist():
+            for si in ET.fromstring(z.read("xl/sharedStrings.xml")).findall("m:si", ns):
+                shared.append("".join(t.text or "" for t in si.iter(f"{{{ns['m']}}}t")))
+        rows = []
+        for row in ET.fromstring(z.read(target)).find("m:sheetData", ns):
+            cells: dict[int, object] = {}
+            for c in row:
+                col = 0
+                for ch in re.match(r"[A-Z]+", c.get("r")).group():
+                    col = col * 26 + ord(ch) - 64
+                v = c.find("m:v", ns)
+                if c.get("t") == "inlineStr":
+                    val = "".join(t.text or "" for t in c.iter(f"{{{ns['m']}}}t"))
+                elif v is None or v.text is None:
+                    continue
+                elif c.get("t") == "s":
+                    val = shared[int(v.text)]
+                elif c.get("t") in ("str", "b", "e"):
+                    val = v.text
+                else:
+                    val = float(v.text)
+                cells[col - 1] = val
+            width = max(cells) + 1 if cells else 0
+            rows.append([cells.get(i) for i in range(width)])
+    return names, rows
+
+
+def cell(row: list, i: int):
+    return row[i] if i < len(row) else None
+
+
 def check_xlsx():
     """De download is een tidy xlsx. Geen dossier-ID's, en LT (geen projectniveau) enkel geaggregeerd."""
-    import openpyxl
-    wb = openpyxl.load_workbook(DATA / XLSX_NAME, read_only=True, data_only=True)
-    if wb.sheetnames != ["Gegevens", "Toelichting"]:
-        err(f"{XLSX_NAME}: verwacht bladen Gegevens en Toelichting, gevonden {wb.sheetnames}")
+    names, rows = read_xlsx_sheet(DATA / XLSX_NAME, "Gegevens")
+    if names != ["Gegevens", "Toelichting"]:
+        err(f"{XLSX_NAME}: verwacht bladen Gegevens en Toelichting, gevonden {names}")
         return
-    rows = list(wb["Gegevens"].iter_rows(values_only=True))
     header = [str(h) for h in rows[0]]
     bad = {h for h in header if h.strip().lower() in NEVER_KEYS}
     if bad:
@@ -61,15 +104,15 @@ def check_xlsx():
     project_labels = {meta["horizons"][h]["label"] for h in meta["projectdetails_horizons"]}
     sums: dict[str, list[float]] = {}
     for r in rows[1:]:
-        planning = r[ix["Planning"]]
+        planning = cell(r, ix["Planning"])
         project_level = planning in project_labels
-        if r[ix["Niveau"]] != ("Project" if project_level else "Geaggregeerd"):
-            err(f"{XLSX_NAME}: onverwacht niveau {r[ix['Niveau']]!r} bij {planning}")
-        if not project_level and (r[ix["Projectomschrijving"]] or r[ix["Datum opname programmatie"]]):
+        if cell(r, ix["Niveau"]) != ("Project" if project_level else "Geaggregeerd"):
+            err(f"{XLSX_NAME}: onverwacht niveau {cell(r, ix['Niveau'])!r} bij {planning}")
+        if not project_level and (cell(r, ix["Projectomschrijving"]) or cell(r, ix["Datum opname programmatie"])):
             err(f"{XLSX_NAME}: {planning} bevat projectdetails")
         s = sums.setdefault(planning, [0, 0])
-        s[0] += r[ix["Huurwoningen"]] or 0
-        s[1] += r[ix["Kostprijs (EUR)"]] or 0
+        s[0] += cell(r, ix["Huurwoningen"]) or 0
+        s[1] += cell(r, ix["Kostprijs (EUR)"]) or 0
     ctl = meta["controletotalen"]
     for hz, h in meta["horizons"].items():
         huur = sum(v for k, v in ctl.items() if k.startswith(f"{hz}.") and k.endswith(".huur"))
