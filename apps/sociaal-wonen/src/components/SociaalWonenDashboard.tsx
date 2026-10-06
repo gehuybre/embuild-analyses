@@ -117,10 +117,12 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
   const current = rowsF[horizon]
   const totalsH = { kt: sumRows(rowsF.kt), lt: sumRows(rowsF.lt) }
   const totals = totalsH[horizon]
-  const perGroep = {
-    nieuwbouw: sumRows(current.filter((r) => r.groep === "nieuwbouw")),
-    renovatie: sumRows(current.filter((r) => r.groep === "renovatie")),
-  }
+  const groepen = (rows: typeof current) => ({
+    nieuwbouw: sumRows(rows.filter((r) => r.groep === "nieuwbouw")),
+    renovatie: sumRows(rows.filter((r) => r.groep === "renovatie")),
+  })
+  const perGroepH = { kt: groepen(rowsF.kt), lt: groepen(rowsF.lt) }
+  const perGroep = perGroepH[horizon]
   const zonderGemeente = current.filter((r) => !r.nis).reduce((s, r) => s + r.huur, 0)
   const tab: Tab = section ?? (state.tab === "projecten" && horizon === "lt" ? "tabel" : state.tab)
   const showFilters = !embed || state.filters
@@ -195,7 +197,7 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
 
   return (
     <div className="not-prose space-y-4 text-sm">
-      {showFilters && <HorizonSwitch horizon={horizon} onChange={(h) => set({ horizon: h })} totals={totalsH} meta={m} />}
+      {showFilters && <HorizonSwitch horizon={horizon} onChange={(h) => set({ horizon: h })} totals={totalsH} perGroep={perGroepH} meta={m} />}
       {showFilters && <FilterBar state={state} set={set} wms={wms} gemeenten={gemeenten} meta={m} procedures={procedures} />}
       <SummaryTiles totals={totals} perGroep={perGroep} wmCount={new Set(current.map((r) => r.wm)).size} gemeenteCount={new Set(current.filter((r) => r.nis).map((r) => r.nis)).size} zonderGemeente={zonderGemeente} />
 
