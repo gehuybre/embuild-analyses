@@ -16,6 +16,7 @@ import { isPublishedToSite } from "./site-apps.mjs"
 const ROOT = join(import.meta.dirname, "..")
 const APPS_DIR = join(ROOT, "apps")
 const OUTPUT = join(APPS_DIR, "portal", "public", "analyses.json")
+const VERSIONS_CONFIG = join(import.meta.dirname, "analysis-versions.json")
 
 function extractField(source, fieldName) {
   const quoted = new RegExp(`${fieldName}:\\s*"([^"]*)"`)
@@ -73,15 +74,75 @@ for (const slug of readdirSync(APPS_DIR).sort()) {
   })
 }
 
-// Sort by date descending (newest first)
-entries.sort((a, b) => b.date.localeCompare(a.date))
+/**
+ * Versiegroepen (scripts/analysis-versions.json): meerdere apps met dezelfde analyse in verschillende
+ * versies verschijnen als een kaart met een versiekiezer. De groep krijgt de metadata van de
+ * standaardversie en een `versions`-lijst; de losse versies staan niet apart in de lijst.
+ */
+function loadVersionGroups() {
+  if (!existsSync(VERSIONS_CONFIG)) return {}
+  return JSON.parse(readFileSync(VERSIONS_CONFIG, "utf-8"))
+}
 
-const nextOutput = JSON.stringify(entries, null, 2) + "\n"
+function applyVersionGroups(allEntries, groups) {
+  const bySlug = new Map(allEntries.map((entry) => [entry.slug, entry]))
+  const grouped = new Set()
+  const groupEntries = []
+
+  for (const [groupSlug, group] of Object.entries(groups)) {
+    const versions = []
+    for (const { slug, label } of group.versions ?? []) {
+      const entry = bySlug.get(slug)
+      if (!entry) {
+        console.warn(`⚠ versiegroep ${groupSlug}: app '${slug}' niet gevonden of niet gepubliceerd — overgeslagen`)
+        continue
+      }
+      versions.push({ entry, label })
+    }
+    if (versions.length === 0) continue
+
+    for (const { entry } of versions) grouped.add(entry.slug)
+
+    const fallback = versions[0]
+    const defaultVersion = versions.find(({ entry }) => entry.slug === group.default) ?? fallback
+    if (group.default && defaultVersion !== versions.find(({ entry }) => entry.slug === group.default)) {
+      console.warn(`⚠ versiegroep ${groupSlug}: standaardversie '${group.default}' niet beschikbaar — gebruik '${fallback.entry.slug}'`)
+    }
+
+    if (versions.length === 1) {
+      groupEntries.push(defaultVersion.entry)
+      continue
+    }
+
+    groupEntries.push({
+      ...defaultVersion.entry,
+      slug: groupSlug,
+      defaultVersion: defaultVersion.entry.slug,
+      versions: versions.map(({ entry, label }) => ({
+        slug: entry.slug,
+        label,
+        date: entry.date,
+        summary: entry.summary,
+        url: entry.url,
+        ...(entry.sourcePublicationDate ? { sourcePublicationDate: entry.sourcePublicationDate } : {}),
+      })),
+    })
+  }
+
+  return [...allEntries.filter((entry) => !grouped.has(entry.slug)), ...groupEntries]
+}
+
+const publishedEntries = applyVersionGroups(entries, loadVersionGroups())
+
+// Sort by date descending (newest first)
+publishedEntries.sort((a, b) => b.date.localeCompare(a.date))
+
+const nextOutput = JSON.stringify(publishedEntries, null, 2) + "\n"
 const currentOutput = existsSync(OUTPUT) ? readFileSync(OUTPUT, "utf-8") : null
 
 if (currentOutput === nextOutput) {
-  console.log(`✓ analyses.json already up to date with ${entries.length} entries`)
+  console.log(`✓ analyses.json already up to date with ${publishedEntries.length} entries`)
 } else {
   writeFileSync(OUTPUT, nextOutput)
-  console.log(`✓ Generated analyses.json with ${entries.length} entries`)
+  console.log(`✓ Generated analyses.json with ${publishedEntries.length} entries`)
 }

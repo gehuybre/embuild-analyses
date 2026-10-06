@@ -102,6 +102,28 @@ Result:
 
 This means adding a new app automatically adds it to the portal listing on next build.
 
+### Multiple versions of one analysis
+
+When an analysis gets a new data version next to the old one (a copy of the app under a new slug, e.g.
+`gemeentelijke-investeringen-2026-09`), list both in `scripts/analysis-versions.json`:
+
+```json
+{
+  "gemeentelijke-investeringen": {
+    "default": "gemeentelijke-investeringen-2026-09",
+    "versions": [
+      { "slug": "gemeentelijke-investeringen-2026-09", "label": "September 2026" },
+      { "slug": "gemeentelijke-investeringen", "label": "Mei 2026" }
+    ]
+  }
+}
+```
+
+`generate-portal-data.mjs` then folds the versions into one portal card with a version selector (`default` decides
+which version the card opens first). Each version keeps its own app, URLs and embeds. A new version also needs its own
+entry in `embed-config.ts` (same sections, new slug), in `analysis-defaults.ts`, and an embed route under
+`src/app/embed/<slug>/[section]/`.
+
 ## Maps
 
 Shared GeoJSON files live in `apps/portal/public/maps/`:

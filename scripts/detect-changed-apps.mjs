@@ -151,7 +151,7 @@ function main() {
         continue
       }
 
-      if (file === "scripts/generate-portal-data.mjs") {
+      if (file === "scripts/generate-portal-data.mjs" || file === "scripts/analysis-versions.json") {
         addSlug("portal")
         continue
       }

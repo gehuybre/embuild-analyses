@@ -30,6 +30,7 @@ See [BUILD_COMMANDS.md](BUILD_COMMANDS.md) for more commands.
 | faillissementen | Faillissementen in de bouwsector | 3042 | MDX |
 | gebouwenpark | Gebouwenpark 2025 | 3089 | MDX |
 | gemeentelijke-investeringen | Gemeentelijke investeringen in Vlaanderen | 3064 | MDX, Maps |
+| gemeentelijke-investeringen-2026-09 | Gemeentelijke investeringen in Vlaanderen | 3065 | MDX, Maps |
 | gip-projecten | Geïntegreerd Investeringsprogramma 2025-2029 | 3002 | MDX |
 | huishoudensgroei | Huishoudensgroei per gemeente | 3040 | MDX, Maps |
 | inschrijvingen-onderwijs | Inschrijvingen in het hoger onderwijs in Vlaanderen | 3086 | MDX, Maps |

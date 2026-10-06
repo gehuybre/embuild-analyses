@@ -77,6 +77,13 @@ The portal listing updates automatically — `generate-portal-data.mjs` runs dur
 
 If the analysis has a refresh script, add a thin GitHub Actions workflow in `.github/workflows/update-my-new-analysis-data.yml` that calls `apps/{slug}/scripts/...` and commits files from `apps/{slug}/public/data/`. See the existing app-local workflows as templates.
 
+## 8. (Optional) Add a new version next to an existing analysis
+
+Copy the existing app to `apps/{slug}-{yyyy-mm}`, give it its own name, port, basePath, embed route directory
+(`src/app/embed/{new-slug}/`) and `slug="..."` props, register the new slug in `embed-config.ts` and `analysis-defaults.ts`,
+and list both apps in `scripts/analysis-versions.json` so the portal shows one card with a version selector.
+See [ARCHITECTURE.md](ARCHITECTURE.md#multiple-versions-of-one-analysis) and `apps/gemeentelijke-investeringen-2026-09/README.md`.
+
 ## Checklist
 
 - [ ] `package.json` name matches directory name

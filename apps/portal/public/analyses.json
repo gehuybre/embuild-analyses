@@ -1,5 +1,92 @@
 [
   {
+    "slug": "gemeentelijke-investeringen",
+    "title": "Gemeentelijke investeringen in Vlaanderen",
+    "date": "2026-10-06",
+    "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033). Versie september 2026.",
+    "tags": [
+      "gemeente",
+      "investeringen",
+      "financiën",
+      "beleidsdomein",
+      "meerjarenplan"
+    ],
+    "url": "/analyses/gemeentelijke-investeringen-2026-09/",
+    "defaultVersion": "gemeentelijke-investeringen-2026-09",
+    "versions": [
+      {
+        "slug": "gemeentelijke-investeringen-2026-09",
+        "label": "September 2026",
+        "date": "2026-10-06",
+        "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033). Versie september 2026.",
+        "url": "/analyses/gemeentelijke-investeringen-2026-09/"
+      },
+      {
+        "slug": "gemeentelijke-investeringen",
+        "label": "Mei 2026",
+        "date": "2026-01-07",
+        "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033).",
+        "url": "/analyses/gemeentelijke-investeringen/",
+        "sourcePublicationDate": "2025-12-31"
+      }
+    ]
+  },
+  {
+    "slug": "faillissementen",
+    "title": "Faillissementen in de bouwsector",
+    "date": "2026-10-01",
+    "summary": "Maandelijkse evolutie van faillissementen in de Belgische bouwsector, met vergelijking met andere sectoren en regionale spreiding.",
+    "tags": [
+      "economie",
+      "bedrijven",
+      "bouw",
+      "faillissementen"
+    ],
+    "sourcePublicationDate": "2026-04-17",
+    "url": "/analyses/faillissementen/"
+  },
+  {
+    "slug": "nbb-rente",
+    "title": "Hypothecaire rente in België",
+    "date": "2026-09-11",
+    "summary": "Evolutie van de Belgische hypothecaire rente op nieuwe contracten met een initiële rentevaste periode van meer dan 10 jaar, aangevuld met recente inflatieprognoses van het Federaal Planbureau.",
+    "tags": [
+      "rente",
+      "hypotheken",
+      "inflatie",
+      "nbb",
+      "woningmarkt"
+    ],
+    "sourcePublicationDate": "2026-07-31",
+    "url": "/analyses/nbb-rente/"
+  },
+  {
+    "slug": "prijsherziening-index-i-2021",
+    "title": "Prijsherzieningsindex I 2021",
+    "date": "2026-09-08",
+    "summary": "Maandelijkse evolutie van de prijsherzieningsindex I 2021 voor de bouwsector, met calculator voor prijsherziening.",
+    "tags": [
+      "bouw",
+      "prijzen",
+      "indexen",
+      "prijsherziening"
+    ],
+    "sourcePublicationDate": "2025-01-30",
+    "url": "/analyses/prijsherziening-index-i-2021/"
+  },
+  {
+    "slug": "vergunningen-goedkeuringen",
+    "title": "Vergunningen goedkeuringen",
+    "date": "2026-09-08",
+    "summary": "Analyse van de goedgekeurde bouwvergunningen.",
+    "tags": [
+      "vergunningen",
+      "bouw"
+    ],
+    "sourcePublicationDate": "2026-06-30",
+    "url": "/analyses/vergunningen-goedkeuringen/"
+  },
+  {
     "slug": "vacatures",
     "title": "Vacatures in de bouw",
     "date": "2026-05-26",
@@ -12,20 +99,6 @@
     ],
     "sourcePublicationDate": "2026-04-30",
     "url": "/analyses/vacatures/"
-  },
-  {
-    "slug": "faillissementen",
-    "title": "Faillissementen in de bouwsector",
-    "date": "2026-05-22",
-    "summary": "Maandelijkse evolutie van faillissementen in de Belgische bouwsector, met vergelijking met andere sectoren en regionale spreiding.",
-    "tags": [
-      "economie",
-      "bedrijven",
-      "bouw",
-      "faillissementen"
-    ],
-    "sourcePublicationDate": "2026-04-17",
-    "url": "/analyses/faillissementen/"
   },
   {
     "slug": "gip-projecten",
@@ -42,21 +115,6 @@
     "url": "/analyses/gip-projecten/"
   },
   {
-    "slug": "nbb-rente",
-    "title": "Hypothecaire rente in België",
-    "date": "2026-05-22",
-    "summary": "Evolutie van de Belgische hypothecaire rente op nieuwe contracten met een initiële rentevaste periode van meer dan 10 jaar, aangevuld met recente inflatieprognoses van het Federaal Planbureau.",
-    "tags": [
-      "rente",
-      "hypotheken",
-      "inflatie",
-      "nbb",
-      "woningmarkt"
-    ],
-    "sourcePublicationDate": "2026-03-31",
-    "url": "/analyses/nbb-rente/"
-  },
-  {
     "slug": "vastgoed-verkopen",
     "title": "Verkoop van vastgoed in België",
     "date": "2026-05-07",
@@ -70,18 +128,6 @@
     "url": "/analyses/vastgoed-verkopen/"
   },
   {
-    "slug": "vergunningen-goedkeuringen",
-    "title": "Vergunningen goedkeuringen",
-    "date": "2026-04-30",
-    "summary": "Analyse van de goedgekeurde bouwvergunningen.",
-    "tags": [
-      "vergunningen",
-      "bouw"
-    ],
-    "sourcePublicationDate": "2026-04-30",
-    "url": "/analyses/vergunningen-goedkeuringen/"
-  },
-  {
     "slug": "fin-indicatoren",
     "title": "Financiële indicatoren in de bouwsector",
     "date": "2026-04-15",
@@ -92,20 +138,6 @@
       "NBB"
     ],
     "url": "/analyses/fin-indicatoren/"
-  },
-  {
-    "slug": "prijsherziening-index-i-2021",
-    "title": "Prijsherzieningsindex I 2021",
-    "date": "2026-04-01",
-    "summary": "Maandelijkse evolutie van de prijsherzieningsindex I 2021 voor de bouwsector, met calculator voor prijsherziening.",
-    "tags": [
-      "bouw",
-      "prijzen",
-      "indexen",
-      "prijsherziening"
-    ],
-    "sourcePublicationDate": "2025-01-30",
-    "url": "/analyses/prijsherziening-index-i-2021/"
   },
   {
     "slug": "starters-stoppers",
@@ -224,21 +256,6 @@
     ],
     "sourcePublicationDate": "2025-12-31",
     "url": "/analyses/bouwprojecten-gemeenten/"
-  },
-  {
-    "slug": "gemeentelijke-investeringen",
-    "title": "Gemeentelijke investeringen in Vlaanderen",
-    "date": "2026-01-07",
-    "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033).",
-    "tags": [
-      "gemeente",
-      "investeringen",
-      "financiën",
-      "beleidsdomein",
-      "meerjarenplan"
-    ],
-    "sourcePublicationDate": "2025-12-31",
-    "url": "/analyses/gemeentelijke-investeringen/"
   },
   {
     "slug": "energiekaart-premies",

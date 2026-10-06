@@ -259,6 +259,21 @@ const ANALYSIS_DEFAULTS = {
   },
 
   /**
+   * Gemeentelijke Investeringen, versie september 2026 (zelfde defaults als de versie van mei 2026)
+   *
+   * Defaults:
+   * - selectedPerspective: 'BV' (policy field perspective)
+   * - selectedReportYear: 2026 (latest reporting standard)
+   */
+  'gemeentelijke-investeringen-2026-09': {
+    selectedPerspective: 'BV',
+    selectedReportYear: 2026,
+    selectedField: null,
+    selectedMunicipality: null,
+    currentView: 'chart',
+  },
+
+  /**
    * Bouwprojecten Gemeenten (Construction Projects Municipalities)
    *
    * Defaults:

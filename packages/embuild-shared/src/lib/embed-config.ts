@@ -410,6 +410,65 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
     },
   },
   {
+    slug: "gemeentelijke-investeringen-2026-09",
+    sections: {
+      "investments-bv": {
+        type: "custom",
+        title: "Investeringen per beleidsdomein",
+        component: "InvesteringenEmbed",
+        height: 700,
+      },
+      "investments-bv-indexed": {
+        type: "custom",
+        title: "Geindexeerde investeringsbedragen",
+        component: "InvesteringenBVIndexedEmbed",
+        height: 700,
+      },
+      "investments-bv-top-fields": {
+        type: "custom",
+        title: "Top Beleidsvelden (BV)",
+        component: "InvesteringenEmbed",
+        height: 700,
+      },
+      "investments-bv-difference": {
+        type: "custom",
+        title: "Verschil Investeringen per Beleidsdomein (Vlaanderen)",
+        component: "InvesteringenBVDifferenceEmbed",
+        height: 700,
+      },
+      "investments-rek": {
+        type: "custom",
+        title: "Investeringen per Economische Rekening (REK)",
+        component: "InvesteringenEmbed",
+        height: 700,
+      },
+      "bv-category-breakdown": {
+        type: "custom",
+        title: "Verdeling per Beleidsveld (BV)",
+        component: "InvesteringenCategoryEmbed",
+        height: 800,
+      },
+      "rek-category-breakdown": {
+        type: "custom",
+        title: "Verdeling per Algemene Rekening (REK)",
+        component: "InvesteringenCategoryEmbed",
+        height: 800,
+      },
+      "investments-bv-distribution": {
+        type: "custom",
+        title: "Gemeentelijke Investeringen per Domein - Verdeling",
+        component: "InvesteringenBVScatterEmbed",
+        height: 800,
+      },
+      "investments-rek-distribution": {
+        type: "custom",
+        title: "Gemeentelijke Investeringen per Rekening - Verdeling",
+        component: "InvesteringenREKScatterEmbed",
+        height: 800,
+      },
+    },
+  },
+  {
     slug: "bouwprojecten-gemeenten",
     sections: {
       projectbrowser: {

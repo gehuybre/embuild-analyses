@@ -68,6 +68,7 @@ describe('getAnalysisDefaults', () => {
       'energiekaart-premies',
       'vergunningen-aanvragen',
       'gemeentelijke-investeringen',
+      'gemeentelijke-investeringen-2026-09',
       'bouwprojecten-gemeenten',
       'bouwondernemers',
       'betaalbaar-arr',
@@ -188,6 +189,14 @@ describe('Specific analysis defaults', () => {
 
       expect(defaults.selectedPerspective).toBe('BV')
       expect(defaults.selectedReportYear).toBe(2026)
+    })
+  })
+
+  describe('gemeentelijke-investeringen-2026-09', () => {
+    it('has the same defaults as the previous version', () => {
+      expect(getAnalysisDefaults('gemeentelijke-investeringen-2026-09')).toEqual(
+        getAnalysisDefaults('gemeentelijke-investeringen')
+      )
     })
   })
 

@@ -15,6 +15,7 @@ on:
       - "scripts/detect-changed-apps.mjs"
       - "scripts/merge-outputs.mjs"
       - "scripts/generate-portal-data.mjs"
+      - "scripts/analysis-versions.json"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
     inputs:
