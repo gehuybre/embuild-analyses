@@ -364,7 +364,6 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
     lines = [
         ("Sociale huurplanning Vlaanderen: alle gegevens", "titel"),
         (f"Bron: VMSW, korte termijnplanning (KTP) en meerjarenplanning (MJP) sociale huur, peildatum {date.fromisoformat(peildatum()).strftime('%d.%m.%Y')}.", None),
-        (f"Bronbestanden: {', '.join(h['file'] for h in HORIZONS.values())}. Werkingsgebieden: Woonmaatschappijen in kaart (januari 2025).", None),
         ("", None),
         ("Planningen", "kop"),
         *[(f"{h['label']}: {h['omschrijving']}.", None) for h in HORIZONS.values()],
