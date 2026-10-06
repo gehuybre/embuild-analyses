@@ -17,7 +17,6 @@ import re
 import subprocess
 import sys
 import time
-import zipfile
 from collections import Counter, defaultdict
 from datetime import date, datetime
 from pathlib import Path
@@ -291,83 +290,121 @@ def resolve_gemeente_wm(munis, legend, overrides, labels, data_by_nis):
     return out, review
 
 
-DOWNLOAD_NAME = "sociaal-wonen-alle-gegevens.zip"
-AMOUNT_COLS = {"Huur", "Koop", "Kostprijs", "Maximumprijs VMSW", "Bedrag UP", "FS4", "SSI"}
-# Kolommen die een project identificeren; bij horizons zonder projectdetails (LT) nooit in de download.
-PROJECT_COLS = {"projectomschrijving", "woonproject", "verrichting", "identificatie"}
+DOWNLOAD_NAME = "sociaal-wonen-alle-gegevens.xlsx"
+PROV_LABEL = {"ANTWERPEN": "Antwerpen", "LIMBURG": "Limburg", "OOST-VLAANDEREN": "Oost-Vlaanderen",
+              "VLAAMS-BRABANT": "Vlaams-Brabant", "WEST-VLAANDEREN": "West-Vlaanderen"}
+VELDOMSCHRIJVING = {
+    "huur": "Aantal huurwoningen dat zal gerealiseerd worden",
+    "kostprijs": "Geraamde kostprijs van de werken",
+    "maximumprijs_vmsw": "FS4-plafond",
+    "bedrag_up": "Subsidiabel bedrag (berekend op basis van kostprijs en maximumprijs)",
+    "datum_beslissing": "Datum opname programmatie",
+}
+DOWNLOAD_COLUMNS = ["Planning", "Niveau", "Woonmaatschappij", "Provincie", "NIS-code", "Gemeente", "Soort werken", "Type (code)",
+                    "Type verrichting", "Procedure", "Projectomschrijving", "Datum opname programmatie", "Aantal verrichtingen",
+                    "Huurwoningen", "Kostprijs (EUR)", "Maximumprijs VMSW (EUR)", "Bedrag UP (EUR)"]
 
 
-def _clean_value(header: str, v):
-    if v is None:
-        return ""
-    if isinstance(v, datetime):
-        return v.date().isoformat()
-    if isinstance(v, str):
-        v = v.strip()
-        if header in AMOUNT_COLS and v:
-            n = num(v, f"download kolom {header}")
-            return "" if n is None else (int(n) if float(n).is_integer() else round(n, 2))
-        return v
-    if isinstance(v, float):
-        return int(v) if v.is_integer() else round(v, 2)
-    return v
+def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[str]:
+    """Een xlsx met alle gegevens op een blad (tidy: een rij per waarneming) plus een blad Toelichting.
 
+    KT staat op projectniveau, LT geaggregeerd (zie PROJECT_LEVEL_HORIZONS). Geen dossier-ID's, ook niet voor KT."""
+    from openpyxl.styles import Alignment, Font, PatternFill
+    from openpyxl.utils import get_column_letter
+    from openpyxl.worksheet.table import Table, TableStyleInfo
 
-def sheet_csv(ws, drop_project_cols: bool) -> str | None:
-    """Datablad (header op rij 4) naar CSV. Lege kolommen en de totaalrij vallen weg."""
-    header_cells = [c.value for c in ws[4]]
-    names = []
-    for i, h in enumerate(header_cells):
-        names.append(str(h).strip() if h else ("Code initiatiefnemer" if i == 3 else None))
+    wm_name = {w["id"]: w["naam"] for w in wms}
+    gem_name = {g["nis"]: g["naam"] for g in gemeenten}
     rows = []
-    for r in ws.iter_rows(min_row=5, max_col=len(names), values_only=True):
-        if not r[0] and not r[2]:
-            continue  # totaalrij of lege rij
-        rows.append(r)
-    keep = [i for i, n in enumerate(names)
-            if n and any(r[i] not in (None, "") for r in rows)
-            and not (drop_project_cols and n.lower() in PROJECT_COLS)]
-    import io
-    buf = io.StringIO(newline="")
-    w = csv.writer(buf)
-    w.writerow([names[i] for i in keep])
+    for hz, recs in all_records.items():
+        label = HORIZONS[hz]["label"]
+        if hz in PROJECT_LEVEL_HORIZONS:
+            for r in sorted(recs, key=lambda r: (wm_name.get(r["wm"], r["wm"]), r["nis"] or "", r["omschrijving"] or "")):
+                rows.append([label, "Project", wm_name.get(r["wm"], r["wm"]), PROV_LABEL.get(r["provincie"], r["provincie"]),
+                             r["nis"], gem_name.get(r["nis"]) if r["nis"] else NO_MUNI.get(r["status"]),
+                             r["groep"].capitalize(), r["type"], TYPES.get(r["type"], r["type"]), r["procedure"],
+                             r["omschrijving"], date.fromisoformat(r["datum"]) if r["datum"] else None, 1, r["huur"], *(round(r[k], 2) if r[k] is not None else None for k in ("kostprijs", "maximumprijs_vmsw", "bedrag_up"))])
+        else:
+            for a in aggregate(recs):
+                rows.append([label, "Geaggregeerd", wm_name.get(a["wm"], a["wm"]), PROV_LABEL.get(a["provincie"], a["provincie"]),
+                             a["nis"], gem_name.get(a["nis"]) if a["nis"] else a["gemeente_label"],
+                             a["groep"].capitalize(), a["type"], TYPES.get(a["type"], a["type"]), a["procedure"],
+                             None, None, a["n"], a["huur"], a["kostprijs"], a["maximumprijs_vmsw"], a["bedrag_up"]])
+
+    wb = openpyxl.Workbook()
+    wb.properties.creator = "Embuild Vlaanderen"
+    wb.properties.created = wb.properties.modified = datetime.fromisoformat(peildatum())  # herhaalbare metadata
+    ws = wb.active
+    ws.title = "Gegevens"
+    ws.append(DOWNLOAD_COLUMNS)
     for r in rows:
-        w.writerow([_clean_value(names[i], r[i]) for i in keep])
-    return buf.getvalue()
+        ws.append(r)
+    last = len(rows) + 1
+    for c in ws[1]:
+        c.font = Font(bold=True, color="FFFFFF")
+        c.fill = PatternFill("solid", fgColor="1F3A5F")
+        c.alignment = Alignment(wrap_text=True, vertical="center")
+    for i, name in enumerate(DOWNLOAD_COLUMNS, start=1):
+        letter = get_column_letter(i)
+        width = min(60, max(len(name), *(len(str(r[i - 1] or "")) for r in rows)) + 2) if rows else len(name) + 2
+        ws.column_dimensions[letter].width = width
+        if name == "Datum opname programmatie":
+            for cell in ws[letter][1:]:
+                cell.number_format = "yyyy-mm-dd"
+        elif name in ("Huurwoningen", "Aantal verrichtingen") or name.endswith("(EUR)"):
+            for cell in ws[letter][1:]:
+                cell.number_format = "#,##0"
+    ws.freeze_panes = "A2"
+    ws.row_dimensions[1].height = 32
+    tab = Table(displayName="Gegevens", ref=f"A1:{get_column_letter(len(DOWNLOAD_COLUMNS))}{max(last, 2)}")
+    tab.tableStyleInfo = TableStyleInfo(name="TableStyleLight1", showRowStripes=True)
+    ws.add_table(tab)
 
-
-def text_sheet_csv(ws) -> str:
-    import io
-    buf = io.StringIO(newline="")
-    w = csv.writer(buf)
-    for r in ws.iter_rows(values_only=True):
-        cells = ["" if c is None else str(c) for c in r]
-        if any(cells):
-            while cells and not cells[-1]:
-                cells.pop()
-            w.writerow(cells)
-    return buf.getvalue()
-
-
-def build_download_zip():
-    """Alle bladen van KTP en MJP als CSV in een zip. MJP zonder projectidentificerende kolommen."""
-    files: dict[str, str] = {}
-    for hz, h in HORIZONS.items():
-        stem = Path(h["file"]).stem
-        wb = openpyxl.load_workbook(DATA / h["file"], data_only=True)
-        drop = hz not in PROJECT_LEVEL_HORIZONS
-        for sheet in wb.sheetnames:
-            ws = wb[sheet]
-            body = text_sheet_csv(ws) if sheet.lower() == "toelichting" else sheet_csv(ws, drop)
-            files[f"{stem} - {sheet}.csv"] = body
+    t = wb.create_sheet("Toelichting")
+    lines = [
+        ("Sociale huurplanning Vlaanderen: alle gegevens", "titel"),
+        (f"Bron: VMSW, korte termijnplanning (KTP) en meerjarenplanning (MJP) sociale huur, peildatum {date.fromisoformat(peildatum()).strftime('%d.%m.%Y')}.", None),
+        (f"Bronbestanden: {', '.join(h['file'] for h in HORIZONS.values())}. Werkingsgebieden: Woonmaatschappijen in kaart (januari 2025).", None),
+        ("", None),
+        ("Planningen", "kop"),
+        *[(f"{h['label']}: {h['omschrijving']}.", None) for h in HORIZONS.values()],
+        ("KT en LT zijn twee afzonderlijke planningen. Tel ze niet bij elkaar op.", None),
+        ("", None),
+        ("Opbouw van het blad Gegevens", "kop"),
+        ("Een rij per waarneming. Kolom Planning onderscheidt korte en lange termijn, kolom Niveau zegt waarvoor een rij staat.", None),
+        ("Niveau Project (enkel korte termijn): een rij per verrichting, met projectomschrijving en datum opname programmatie.", None),
+        ("Niveau Geaggregeerd (lange termijn): een rij per combinatie van woonmaatschappij, gemeente, soort werken, type en procedure. Projectdetails zijn voor de lange termijn niet beschikbaar.", None),
+        ("Interne dossiernummers (Woonproject, Verrichting) staan niet in dit bestand. De SSI-bladen zijn niet inbegrepen, omdat ze overlappen met de gewone planning.", None),
+        ("", None),
+        ("Kolommen", "kop"),
+        ("Huurwoningen: " + VELDOMSCHRIJVING["huur"] + ". Bij renovatie gaat het om bestaande woningen waarvan de ingreep beperkt kan zijn (bv. raamcontracten of beperkte renovatie). Vergelijk bedragen per woning daarom enkel binnen hetzelfde soort werken.", None),
+        ("Kostprijs (EUR): " + VELDOMSCHRIJVING["kostprijs"] + ".", None),
+        ("Maximumprijs VMSW (EUR): " + VELDOMSCHRIJVING["maximumprijs_vmsw"] + ". Niet voor elke rij ingevuld.", None),
+        ("Bedrag UP (EUR): " + VELDOMSCHRIJVING["bedrag_up"] + ".", None),
+        ("Datum opname programmatie: " + VELDOMSCHRIJVING["datum_beslissing"] + " (kolom Datum Beslissing in de bron).", None),
+        ("Procedure: de kolom Extra info uit de bron, bv. CBO, Modulair Wonen, Design & Build, raamcontract, beperkte renovatie. Leeg als niets vermeld is.", None),
+        ("Aantal verrichtingen: aantal verrichtingen achter de rij (1 bij niveau Project).", None),
+        ("Provincie en gemeente zijn afgeleid uit de NIS-code van de gemeente, niet uit de bronkolom. Rijen zonder eenduidige gemeente hebben geen NIS-code.", None),
+        ("Herhaalde huurwaarden binnen een verrichting zijn niet gecorrigeerd, zodat de totalen overeenkomen met de totaalrijen van VMSW.", None),
+        ("", None),
+        ("Types verrichting", "kop"),
+        *[(f"{k}: {v}", None) for k, v in TYPES.items() if k != "ONBEKEND"],
+    ]
+    t.column_dimensions["A"].width = 120
+    for text, kind in lines:
+        t.append([text])
+        c = t.cell(row=t.max_row, column=1)
+        c.alignment = Alignment(wrap_text=True, vertical="top")
+        if kind == "titel":
+            c.font = Font(bold=True, size=14)
+        elif kind == "kop":
+            c.font = Font(bold=True, color="1F3A5F")
     OUT.mkdir(parents=True, exist_ok=True)
-    with zipfile.ZipFile(OUT / DOWNLOAD_NAME, "w", zipfile.ZIP_DEFLATED) as z:
-        for name in sorted(files):
-            zi = zipfile.ZipInfo(name, date_time=(1980, 1, 1, 0, 0, 0))  # vaste datum: herhaalbare bytes
-            zi.compress_type = zipfile.ZIP_DEFLATED
-            data = files[name].encode("utf-8")
-            z.writestr(zi, (b"\xef\xbb\xbf" + data) if name.endswith(".csv") else data)
-    return sorted(files)
+    wb.save(OUT / DOWNLOAD_NAME)
+    old_zip = OUT / "sociaal-wonen-alle-gegevens.zip"
+    if old_zip.exists():
+        old_zip.unlink()  # vervangen door de xlsx
+    return [f"{DOWNLOAD_NAME}: {len(rows)} rijen"]
 
 
 def write_json(name: str, obj):
@@ -475,10 +512,9 @@ def main():
         projects.sort(key=lambda p: (p["wm"], p["nis"] or "", p["projectomschrijving"]))
         write_json(f"{hz}_projects.json", {"horizon": hz, "peildatum": HORIZONS[hz]["peildatum"], "projecten": projects})
 
-    members = build_download_zip()
-    print(f"Download: {DOWNLOAD_NAME} ({len(members)} bestanden)")
     write_json("woonmaatschappijen.json", wms)
     write_json("gemeenten.json", gemeenten)
+    print("Download:", build_download_xlsx(all_records, wms, gemeenten)[0])
 
     control = {f"{hz}.{g}.{k}": round(sum((r[k] or 0) for r in recs if r["groep"] == g))
                for hz, recs in all_records.items() for g in SHEETS.values()
@@ -491,13 +527,7 @@ def main():
         "horizons": {k: {"label": v["label"], "omschrijving": v["omschrijving"], "peildatum": v["peildatum"]} for k, v in HORIZONS.items()},
         "projectdetails_horizons": sorted(PROJECT_LEVEL_HORIZONS),
         "types": TYPES,
-        "veldomschrijving": {
-            "huur": "Aantal huurwoningen dat zal gerealiseerd worden",
-            "kostprijs": "Geraamde kostprijs van de werken",
-            "maximumprijs_vmsw": "FS4-plafond",
-            "bedrag_up": "Subsidiabel bedrag (berekend op basis van kostprijs en maximumprijs)",
-            "datum_beslissing": "Datum opname programmatie",
-        },
+        "veldomschrijving": VELDOMSCHRIJVING,
         "controletotalen": control,
     })
 

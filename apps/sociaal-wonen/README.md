@@ -32,7 +32,7 @@ python3 scripts/process_data.py           # eenmalig: verwerken + valideren
 python3 scripts/process_data.py --watch   # blijft draaien en verwerkt elke nieuwe of gewijzigde xlsx/pdf vanzelf
 ```
 
-Verwerking = ETL, kaartgeometrie, download-zip, kwaliteitsrapport en validatie. Een nieuwe werkingsgebieden-PDF wordt automatisch opnieuw uitgelezen.
+Verwerking = ETL, kaartgeometrie, download-xlsx, kwaliteitsrapport en validatie. Een nieuwe werkingsgebieden-PDF wordt automatisch opnieuw uitgelezen.
 Daarna: committen en pushen om de site en de standalone versie te publiceren.
 
 Het script stopt met een duidelijke melding (en gokt niet) bij een onbekende initiatiefnemer, gemeente of type, of als de totalen niet
@@ -42,8 +42,11 @@ Zie `reference/kwaliteitsrapport.md` voor wat er is afgeleid of gecorrigeerd.
 
 ### Download alle gegevens
 
-`public/data/sociaal-wonen-alle-gegevens.zip` bevat alle bladen als CSV. De LT-bladen (MJP) bevatten geen Projectomschrijving en geen
-dossiernummers (Woonproject, Verrichting/Identificatie). De validator controleert dat.
+`public/data/sociaal-wonen-alle-gegevens.xlsx` wordt bij elke run opnieuw gemaakt uit de bronbestanden. Blad `Gegevens`: alle cijfers in
+tidy formaat (een rij per waarneming, als Excel-tabel, klaar voor draaitabellen). Kolom `Planning` (korte/lange termijn) en `Niveau`:
+KT staat op projectniveau, LT geaggregeerd (geen projectomschrijving, geen datum). Blad `Toelichting`: definities, kolomuitleg en types.
+Er staan geen dossiernummers (Woonproject, Verrichting) in en de SSI-bladen zijn niet inbegrepen. De validator controleert de bladen,
+de kolommen, het ontbreken van projectdetails bij LT en dat de totalen overeenkomen met de controletotalen.
 
 ### Werkingsgebied per gemeente
 

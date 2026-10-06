@@ -210,8 +210,8 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
               {horizon === "kt" && <TabsTrigger value="projecten">Projecten</TabsTrigger>}
             </TabsList>
             <div className="flex flex-wrap gap-2">
-              <a href={getDataPath("/data/sociaal-wonen-alle-gegevens.zip")} download className={cn(buttonVariants({ variant: "outline", size: "sm" }), "no-underline")}>
-                <Download className="mr-1.5 h-4 w-4" /> Download alle gegevens
+              <a href={getDataPath("/data/sociaal-wonen-alle-gegevens.xlsx")} download className={cn(buttonVariants({ variant: "outline", size: "sm" }), "no-underline")}>
+                <Download className="mr-1.5 h-4 w-4" /> Download alle gegevens (xlsx)
               </a>
               <EmbedShare state={state} section={tab} />
             </div>
@@ -238,8 +238,8 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
         {embed && (
           <>
             {" "}
-            <a className="underline underline-offset-2" href={getDataPath("/data/sociaal-wonen-alle-gegevens.zip")} download>
-              Download alle gegevens
+            <a className="underline underline-offset-2" href={getDataPath("/data/sociaal-wonen-alle-gegevens.xlsx")} download>
+              Download alle gegevens (xlsx)
             </a>
             {" · "}
             <a className="underline underline-offset-2" href={`${window.location.origin}${getBasePath()}/`} target="_blank" rel="noopener noreferrer">

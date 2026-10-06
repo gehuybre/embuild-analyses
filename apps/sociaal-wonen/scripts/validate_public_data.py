@@ -7,17 +7,14 @@ Kwaliteit: referenties kloppen, totalen kloppen, elke gemeente heeft een woonmaa
 """
 from __future__ import annotations
 
-import csv
-import io
 import json
 import sys
-import zipfile
 from pathlib import Path
 
-ZIP_NAME = "sociaal-wonen-alle-gegevens.zip"
+XLSX_NAME = "sociaal-wonen-alle-gegevens.xlsx"
 DATA = Path(__file__).resolve().parents[1] / "public/data"
 EXPECTED = {"meta.json", "woonmaatschappijen.json", "gemeenten.json", "kt_aggregated.json", "lt_aggregated.json",
-            "kt_projects.json", "map.json", ZIP_NAME}
+            "kt_projects.json", "map.json", XLSX_NAME}
 PROJECT_FILES = {"kt_projects.json"}
 # velden die een project identificeren of beschrijven
 PROJECT_KEYS = {"projectomschrijving", "omschrijving", "projectnaam", "datum_beslissing",
@@ -43,35 +40,58 @@ def walk_keys(obj, found: set):
             walk_keys(v, found)
 
 
-def check_zip():
-    """LT-bladen in de download mogen geen projectidentificerende kolommen hebben."""
-    z = zipfile.ZipFile(DATA / ZIP_NAME)
-    names = z.namelist()
-    if not any("KTP" in n for n in names) or not any("MJP" in n for n in names):
-        err("download-zip mist KTP- of MJP-bestanden")
-    for n in names:
-        if not n.endswith(".csv"):
-            continue
-        header = next(csv.reader(io.StringIO(z.read(n).decode("utf-8-sig"))), [])
-        if "MJP" in n and "Toelichting" not in n:
-            bad = {h for h in header if h.strip().lower() in NEVER_KEYS | {"projectomschrijving"}}
-            if bad:
-                err(f"{n}: LT-download bevat verboden kolommen {sorted(bad)}")
+def check_xlsx():
+    """De download is een tidy xlsx. Geen dossier-ID's, en LT (geen projectniveau) enkel geaggregeerd."""
+    import openpyxl
+    wb = openpyxl.load_workbook(DATA / XLSX_NAME, read_only=True, data_only=True)
+    if wb.sheetnames != ["Gegevens", "Toelichting"]:
+        err(f"{XLSX_NAME}: verwacht bladen Gegevens en Toelichting, gevonden {wb.sheetnames}")
+        return
+    rows = list(wb["Gegevens"].iter_rows(values_only=True))
+    header = [str(h) for h in rows[0]]
+    bad = {h for h in header if h.strip().lower() in NEVER_KEYS}
+    if bad:
+        err(f"{XLSX_NAME}: verboden kolommen {sorted(bad)}")
+    for need in ("Planning", "Niveau", "Projectomschrijving", "Datum opname programmatie", "Huurwoningen", "Kostprijs (EUR)"):
+        if need not in header:
+            err(f"{XLSX_NAME}: kolom {need} ontbreekt")
+            return
+    ix = {h: i for i, h in enumerate(header)}
+    meta = json.loads((DATA / "meta.json").read_text(encoding="utf-8"))
+    project_labels = {meta["horizons"][h]["label"] for h in meta["projectdetails_horizons"]}
+    sums: dict[str, list[float]] = {}
+    for r in rows[1:]:
+        planning = r[ix["Planning"]]
+        project_level = planning in project_labels
+        if r[ix["Niveau"]] != ("Project" if project_level else "Geaggregeerd"):
+            err(f"{XLSX_NAME}: onverwacht niveau {r[ix['Niveau']]!r} bij {planning}")
+        if not project_level and (r[ix["Projectomschrijving"]] or r[ix["Datum opname programmatie"]]):
+            err(f"{XLSX_NAME}: {planning} bevat projectdetails")
+        s = sums.setdefault(planning, [0, 0])
+        s[0] += r[ix["Huurwoningen"]] or 0
+        s[1] += r[ix["Kostprijs (EUR)"]] or 0
+    ctl = meta["controletotalen"]
+    for hz, h in meta["horizons"].items():
+        huur = sum(v for k, v in ctl.items() if k.startswith(f"{hz}.") and k.endswith(".huur"))
+        kost = sum(v for k, v in ctl.items() if k.startswith(f"{hz}.") and k.endswith(".kostprijs"))
+        got = sums.get(h["label"], [0, 0])
+        if abs(got[0] - huur) > 1 or abs(got[1] - kost) > 5:
+            err(f"{XLSX_NAME}: totalen {h['label']} wijken af (huur {got[0]} vs {huur}, kostprijs {got[1]} vs {kost})")
 
 
 def main() -> int:
     if not DATA.exists():
         print("public/data ontbreekt; draai eerst scripts/process_data.py", file=sys.stderr)
         return 1
-    files = {p.name for p in DATA.glob("*.json")} | ({ZIP_NAME} if (DATA / ZIP_NAME).exists() else set())
+    files = {p.name for p in DATA.glob("*.json")} | ({XLSX_NAME} if (DATA / XLSX_NAME).exists() else set())
     for name in sorted(EXPECTED - files):
         err(f"ontbrekend bestand: {name}")
     for name in sorted(files - EXPECTED):
         err(f"onverwacht bestand in public/data: {name} (projectdata mag enkel in kt_projects.json)")
     if errors:
         return report()
-    check_zip()
-    files = {f for f in files if f.endswith(".json")}  # de zip is hierboven apart gecontroleerd
+    check_xlsx()
+    files = {f for f in files if f.endswith(".json")}  # de xlsx is hierboven apart gecontroleerd
 
     load = lambda n: json.loads((DATA / n).read_text(encoding="utf-8"))  # noqa: E731
     meta, wms, gem = load("meta.json"), load("woonmaatschappijen.json"), load("gemeenten.json")
