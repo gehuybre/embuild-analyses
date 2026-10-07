@@ -4,7 +4,7 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 
 const metadata = {
   title: "Gemeentelijke investeringen in Vlaanderen",
-  date: "2026-01-07",
+  date: "2026-05-20",
   summary: "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033).",
   dataAvailabilityLabel: "2026",
   tags: ["gemeente","investeringen","financiën","beleidsdomein","meerjarenplan"],

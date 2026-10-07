@@ -103,6 +103,13 @@ function applyVersionGroups(allEntries, groups) {
 
     for (const { entry } of versions) grouped.add(entry.slug)
 
+    // Optionele vergelijkingspagina: staat niet apart in de lijst, maar als link op de kaart.
+    const comparisonEntry = group.comparison ? bySlug.get(group.comparison.slug) : undefined
+    if (group.comparison && !comparisonEntry) {
+      console.warn(`⚠ versiegroep ${groupSlug}: vergelijkingsapp '${group.comparison.slug}' niet gevonden of niet gepubliceerd — overgeslagen`)
+    }
+    if (comparisonEntry) grouped.add(comparisonEntry.slug)
+
     const fallback = versions[0]
     const defaultVersion = versions.find(({ entry }) => entry.slug === group.default) ?? fallback
     if (group.default && defaultVersion !== versions.find(({ entry }) => entry.slug === group.default)) {
@@ -118,6 +125,9 @@ function applyVersionGroups(allEntries, groups) {
       ...defaultVersion.entry,
       slug: groupSlug,
       defaultVersion: defaultVersion.entry.slug,
+      ...(comparisonEntry
+        ? { comparison: { label: group.comparison.label ?? "Vergelijk de versies", url: comparisonEntry.url } }
+        : {}),
       versions: versions.map(({ entry, label }) => ({
         slug: entry.slug,
         label,

@@ -69,6 +69,7 @@ describe('getAnalysisDefaults', () => {
       'vergunningen-aanvragen',
       'gemeentelijke-investeringen',
       'gemeentelijke-investeringen-2026-09',
+      'gemeentelijke-investeringen-2026-02',
       'bouwprojecten-gemeenten',
       'bouwondernemers',
       'betaalbaar-arr',
@@ -192,11 +193,9 @@ describe('Specific analysis defaults', () => {
     })
   })
 
-  describe('gemeentelijke-investeringen-2026-09', () => {
+  describe.each(['gemeentelijke-investeringen-2026-09', 'gemeentelijke-investeringen-2026-02'])('%s', (slug) => {
     it('has the same defaults as the previous version', () => {
-      expect(getAnalysisDefaults('gemeentelijke-investeringen-2026-09')).toEqual(
-        getAnalysisDefaults('gemeentelijke-investeringen')
-      )
+      expect(getAnalysisDefaults(slug)).toEqual(getAnalysisDefaults('gemeentelijke-investeringen'))
     })
   })
 

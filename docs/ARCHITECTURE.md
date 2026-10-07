@@ -124,6 +124,12 @@ which version the card opens first). Each version keeps its own app, URLs and em
 entry in `embed-config.ts` (same sections, new slug), in `analysis-defaults.ts`, and an embed route under
 `src/app/embed/<slug>/[section]/`.
 
+Optioneel krijgt de groep een `comparison`-veld (`{ "slug", "label" }`) dat naar een aparte vergelijkingsapp wijst
+(bv. `gemeentelijke-investeringen-vergelijking`). Die app staat niet apart in het portaal, maar als link op de kaart.
+Haar data komt uit `scripts/build_comparison_data.py` in de vergelijkingsapp, die de parquet-bestanden van de versies
+leest; draai dat script opnieuw na elke nieuwe export. Een versie die uit oudere bestanden is gereconstrueerd
+(`gemeentelijke-investeringen-2026-02`) volgt hetzelfde patroon.
+
 ## Maps
 
 Shared GeoJSON files live in `apps/portal/public/maps/`:

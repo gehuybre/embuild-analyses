@@ -10,10 +10,13 @@ import { InvesteringenREKSection } from "./InvesteringenREKSection"
 import { InvesteringenBVCategorySection } from "./InvesteringenBVCategorySection"
 import { InvesteringenREKCategorySection } from "./InvesteringenREKCategorySection"
 import { DeferredSection } from "./DeferredSection"
+import { VersionNotice } from "./VersionNotice"
 
 export function InvesteringenDashboard() {
   return (
     <div className="space-y-16">
+      <VersionNotice />
+
       {/* Summary Stats */}
       <div className="grid gap-4 md:grid-cols-3">
         <Card>

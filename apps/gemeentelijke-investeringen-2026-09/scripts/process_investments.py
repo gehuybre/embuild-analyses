@@ -192,13 +192,14 @@ REK_NIVEAU_3_MATERIAL = 'I.1.B Investeringen in materiële vaste activa'
 
 def rek_niveau_3(alg_rekening):
     """
-    De export bevat enkel I.1.B.1 en I.1.D (zie README). Niveau 3 volgt uit de rekening:
-    REK664 is de toegestane investeringssubsidie, alle andere REK22x en REK27x zijn materiële vaste activa.
+    De export bevat enkel I.1.B (I.1.B.1 en I.1.B.2.a) en I.1.D (zie README). Niveau 3 volgt uit de rekening:
+    REK664 is de toegestane investeringssubsidie, alle andere REK22x (gemeenschapsgoederen), REK26x (onroerende
+    goederen, I.1.B.2.a) en REK27x zijn materiële vaste activa.
     """
     code = str(alg_rekening).split(' ', 1)[0]
     if code == 'REK664':
         return REK_NIVEAU_3_SUBSIDIES
-    if code.startswith(('REK22', 'REK27')):
+    if code.startswith(('REK22', 'REK26', 'REK27')):
         return REK_NIVEAU_3_MATERIAL
     raise ValueError(f"Onverwachte rekening in REK-export: {alg_rekening}")
 

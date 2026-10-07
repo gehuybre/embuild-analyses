@@ -11,8 +11,8 @@ Beide versies staan naast elkaar op de site en in het portaal (versiekiezer op d
 
 ## Brongegevens
 
-`data/MJP BV 2026 MVA v september.xlsx` (BBC-DR export, alle drie rapportjaren in een tidy tabel, met extra
-opsplitsing op Niveau 8). Toegepaste filters, zoals vermeld in cel A1 van de export:
+`data/MJP BV 2026 MVA v september.xlsx` (BBC-DR export van 7 oktober 2026, alle drie rapportjaren in een tidy tabel,
+oorspronkelijk `data-5.xlsx`). Toegepaste filters, zoals vermeld in cel A1 van de export:
 
 - Meest recente: Ja
 - Type rapport: Meerjarenplan
@@ -20,10 +20,15 @@ opsplitsing op Niveau 8). Toegepaste filters, zoals vermeld in cel A1 van de exp
 - Rapportjaar: 2014, 2020 en 2026
 - Type bestuur: Gemeente en OCMW of District
 - Niveau 2: I.1 Investeringsuitgaven
-- Opgenomen op niveau 4 en 5: I.1.D Toegestane investeringssubsidies, I.1.B.1.a Terreinen en gebouwen,
-  I.1.B.1.b Wegen en overige infrastructuur, I.1.B.1.e Erfgoed
-- Rijen: NIS-code; kolommen: Rapportjaar, Boekjaar en Niveau 8; waarden: Uitgave en Uitgave per inwoner;
+- Opgenomen op niveau 4 en 5: I.1.B.1 Gemeenschapsgoederen en bedrijfsmatige materiële vaste activa (zonder
+  I.1.B.1.c Roerende goederen en I.1.B.1.d Leasing), **I.1.B.2.a Onroerende goederen** en I.1.D Toegestane
+  investeringssubsidies
+- Rijen: NIS-code; kolommen: Rapportjaar, Boekjaar en Niveau 2; waarden: Uitgave en Uitgave per inwoner;
   dimensie: Beleidsveld (BV)
+
+Dit is dezelfde scope als de versie van mei 2026 (I.1.A financiële en I.1.C immateriële vaste activa vallen in beide weg
+bij de BV). Een eerdere septemberexport zonder I.1.B.2.a staat nog in `data/` onder de naam
+`... (zonder I.1.B.2.a).xlsx`, maar wordt niet meer gebruikt.
 
 De map `data/` staat in .gitignore (zoals bij de vorige versie). Enkel de verwerkte bestanden in `public/data/` worden
 gepubliceerd.
@@ -42,27 +47,42 @@ februari 2026).
 
 ## Verschillen met de vorige versie (controle)
 
-Voor 2014 en 2020 zijn de cijfers grotendeels dezelfde: 91 tot 93% van de cellen (gemeente x beleidsveld x boekjaar) is op de
-euro identiek. De Vlaamse totalen liggen wel lager: 2014 -0,65%, 2020 -1,32%, 2026 -0,81%. Het verschil zit bijna volledig in
-het beleidsveld 0050 Patrimonium zonder maatschappelijk doel (-86 M voor 2014, -158 M voor 2020, -168 M voor 2026).
+De scope is gelijk aan die van mei 2026, dus de totalen zijn vergelijkbaar. Binnen de legislatuur van elk rapportjaar
+(versie september tegenover versie mei, na de correctie hieronder): 2014 +0,13%, 2020 +0,13%, 2026 +0,72%.
 
-Oorzaak: de vorige export (mei 2026) nam ook **I.1.B.2.a Onroerende goederen** (Andere materiële vaste activa) op. Deze export
-doet dat niet. De pagina vermeldt dit expliciet. Wie de cijfers volledig vergelijkbaar wil, exporteert opnieuw met dat filter
-erbij en draait de scripts opnieuw.
+- **2014 en 2020**: 99,1% van de cellen is op de euro gelijk. De restverschillen (+18 M in 2014, +22 M in 2020) zijn
+  enkel positief, zitten in de BV (de REK is voor 2014 identiek) en liggen vooral bij de beleidsvelden Musea en Overig
+  kunst- en cultuurbeleid in enkele steden (Brugge, Gent). De oorzaak is niet vastgesteld.
+- **2026**: echte verschuivingen (o.a. Wegen +42 M, Gewoon basisonderwijs +25 M, Gebiedsontwikkeling +18 M), waarschijnlijk
+  doordat gemeenten hun plan sinds mei hebben aangepast (het filter Meest recente is Ja). Dat laatste is een hypothese,
+  geen vastgestelde oorzaak.
 
-Buiten dat zijn er echte verschuivingen in 2026 (o.a. Wegen +35 M, Gewoon basisonderwijs +25 M).
+`scripts/compare_with_previous_version.py` toont de details.
+
+### Correctie van de versie van mei 2026 (7 oktober 2026)
+
+Een eerste vergelijking toonde voor 2014 en 2020 veel grotere verschillen (+1,21% en +0,73%). Die kwamen uit de verwerking
+van mei, niet uit de data. `process_investments.py` las de CSV in blokken met `pd.read_csv`; kolommen waarvan alle
+waarden op een getal leken (bv. `990.000`) werden als decimaal getal ingelezen (990,0) en daarna door de Nederlandse
+getalparser tot 9.900 herleid. Gehele getallen onder 1.000 in zulke kolommen (bv. `23`) werden tien keer te groot (230).
+Voorbeeld: Dendermonde, Dienstencentra, boekjaar 2019: 990.000 in de export, 9.900 in de oude parquet. De CSV's worden nu
+als tekst ingelezen (`dtype=str`) in de verwerking van de mei-app, en de mei-app is herberekend en opnieuw gepubliceerd.
+Gevolg: 2014 +1,1% en 2020 +0,6% in de mei-app; 2026 ongewijzigd, want die komt uit een xlsx-conversie zonder dit probleem.
+De januari-exports (versie februari 2026) werden vóór de correctie al apart zonder de fout ingelezen en komen voor 2014 en
+2020 op de euro overeen met de gecorrigeerde mei-versie. De REK van mei is niet getroffen (geen enkele cel met die
+verhouding bij de 45 rekeningen die ook in de REK van september voorkomen).
 
 ## Economische rekening (REK)
 
-`data/MJP REK 2026 MVA v september.xlsx` heeft dezelfde filters als de BV-export (I.1.B.1 zonder I.1.B.1.c Roerende goederen
-en I.1.B.1.d Leasing, plus I.1.D), met Rapportjaar, Boekjaar en Alg. rekening als kolommen en NIS-code als rij. Het totaal per
-gemeente, rapportjaar en boekjaar is op de euro gelijk aan het BV-bestand (5.897 cellen gecontroleerd). Verschillen in
-de totalen per rapportjaar (circa 0,1%) komen doordat waarden van 0 of lager per rekening, respectievelijk per beleidsveld,
-worden weggelaten.
+`data/MJP REK 2026 MVA v september.xlsx` (oorspronkelijk `data-6.xlsx`) heeft dezelfde filters als de BV-export, met
+Rapportjaar, Boekjaar en Alg. rekening als kolommen en NIS-code als rij. De totalen over alle cellen zijn op de euro gelijk
+aan die van de BV-export (51.917 M). Per gemeente, rapportjaar en boekjaar wijken 306 van 5.878 cellen meer dan 1 euro af,
+omdat cellen met een netto waarde van 0 of lager per rekening, respectievelijk per beleidsveld, worden weggelaten (grote
+negatieve posten, bv. verkopen van onroerende goederen).
 
 De scope is smaller dan in de vorige versie, die ook I.1.A (financiële vaste activa) en I.1.C (immateriële vaste activa)
 bevatte. De REK toont daarom twee categorieën in plaats van vier. Niveau 3 wordt afgeleid uit de rekening (REK664 is
-I.1.D, de overige rekeningen zijn I.1.B).
+I.1.D, de overige rekeningen REK22x, REK26x en REK27x zijn I.1.B).
 
 Een eerdere REK-export zonder Rapportjaar-kolom (boekjaren 2020, 2026 en 2027 waren opgeteld over twee plannen) is niet
 gebruikt.

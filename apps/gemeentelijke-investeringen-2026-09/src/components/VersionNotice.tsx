@@ -1,6 +1,7 @@
 import { Badge } from "@embuild/shared/components/ui/badge"
 
 const PREVIOUS_VERSION_URL = "/analyses/gemeentelijke-investeringen/"
+const COMPARISON_URL = "/analyses/gemeentelijke-investeringen-vergelijking/"
 
 export function VersionNotice() {
   return (
@@ -14,6 +15,9 @@ export function VersionNotice() {
         <a href={PREVIOUS_VERSION_URL} className="text-primary hover:underline">
           Bekijk de vorige versie (mei 2026)
         </a>
+        <a href={COMPARISON_URL} className="text-primary hover:underline">
+          Vergelijk de twee versies
+        </a>
       </div>
       <ul className="m-0 list-disc space-y-1 pl-5 text-muted-foreground">
         <li>
@@ -21,11 +25,16 @@ export function VersionNotice() {
           september 2026 uit de BBC-DR-gegevens zijn gehaald.
         </li>
         <li>
-          De investeringsuitgaven omvatten terreinen en gebouwen, wegen en overige infrastructuur, erfgoed
-          en toegestane investeringssubsidies. Financiële en immateriële vaste activa, roerende goederen, leasing en
-          andere onroerende goederen (I.1.B.2.a) zijn in deze versie niet opgenomen. Daardoor zijn de totalen lager dan in de
-          versie van mei 2026, vooral bij het beleidsveld Patrimonium zonder maatschappelijk doel. De REK toont enkel
-          nog de categorieën materiële vaste activa en toegestane investeringssubsidies.
+          De investeringsuitgaven omvatten terreinen en gebouwen, wegen en overige infrastructuur, erfgoed,
+          onroerende goederen (I.1.B.2.a) en toegestane investeringssubsidies, net als in de versie van mei 2026. De
+          totalen zijn dus vergelijkbaar. Financiële en immateriële vaste activa, roerende goederen en leasing zijn niet
+          opgenomen. De REK toont daardoor enkel de categorieën materiële vaste activa en toegestane
+          investeringssubsidies.
+        </li>
+        <li>
+          De versie van mei 2026 is op 7 oktober 2026 gecorrigeerd voor een verwerkingsfout bij de rapportjaren 2014 en
+          2020 (totalen ongeveer 1,1% en 0,6% te laag). Beide versies zijn nu vergelijkbaar; het verschil is uitgelegd
+          in de vergelijking.
         </li>
       </ul>
     </aside>

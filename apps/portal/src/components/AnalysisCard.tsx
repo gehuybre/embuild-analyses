@@ -26,6 +26,7 @@ export interface Analysis {
   sourcePublicationDate?: string
   url: string
   defaultVersion?: string
+  comparison?: { label: string; url: string }
   versions?: AnalysisVersion[]
 }
 
@@ -104,6 +105,14 @@ function VersionedCard({ analysis, versions }: { analysis: Analysis; versions: A
               </button>
             )
           })}
+          {analysis.comparison && (
+            <Link
+              href={analysis.comparison.url}
+              className="ml-auto text-sm text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+            >
+              {analysis.comparison.label}
+            </Link>
+          )}
         </div>
       </CardContent>
       <CardFooter className="flex flex-wrap gap-2">

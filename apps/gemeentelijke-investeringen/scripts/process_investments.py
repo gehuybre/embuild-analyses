@@ -71,7 +71,13 @@ def resolve_input_path(*candidates: str) -> Path:
 
 
 def parse_numeric(value):
-    """Parse values exactly like the original semicolon CSV pipeline."""
+    """
+    Parse Nederlandse getallen ("990.000", "21,63") uit de semicolon-CSV.
+
+    De CSV's moeten als tekst worden ingelezen (`dtype=str`). Anders leest pandas kolommen met enkel getalachtige
+    waarden als decimaal getal in ("990.000" wordt 990,0) en geeft deze functie 9.900, en worden gehele getallen onder
+    1.000 ("23") tien keer te groot (230).
+    """
     if pd.isna(value) or value == '':
         return None
 
@@ -205,7 +211,7 @@ def process_rek_file(file_path, rapportjaar):
     print(f"{'='*60}")
 
     # Lees metadata om NIS-code rij te vinden
-    df_preview = pd.read_csv(file_path, sep=';', nrows=30, header=None)
+    df_preview = pd.read_csv(file_path, sep=';', dtype=str, nrows=30, header=None)
     nis_row_idx = -1
     for i, row in df_preview.iterrows():
         if str(row[0]).strip() == 'NIS-code':
@@ -219,7 +225,7 @@ def process_rek_file(file_path, rapportjaar):
     else:
         print(f"NIS-code rij gevonden op index {nis_row_idx}")
 
-    df = pd.read_csv(file_path, sep=';', header=None)
+    df = pd.read_csv(file_path, sep=';', dtype=str, header=None)
     df = df.rename(columns={0: 'Index_col'})
 
     # Metadata rijen (0 tot nis_row_idx-1)
@@ -318,7 +324,7 @@ def process_bv_file(file_path, rapportjaar, chunk_size=200):
     print(f"{'='*60}")
 
     # Lees metadata om NIS-code rij te vinden
-    df_preview = pd.read_csv(file_path, sep=';', nrows=30, header=None)
+    df_preview = pd.read_csv(file_path, sep=';', dtype=str, nrows=30, header=None)
     nis_row_idx = -1
     for i, row in df_preview.iterrows():
         if str(row[0]).strip() == 'NIS-code':
@@ -332,14 +338,14 @@ def process_bv_file(file_path, rapportjaar, chunk_size=200):
     else:
         print(f"NIS-code rij gevonden op index {nis_row_idx}")
 
-    df_header = pd.read_csv(file_path, sep=';', nrows=nis_row_idx, header=None)
+    df_header = pd.read_csv(file_path, sep=';', dtype=str, nrows=nis_row_idx, header=None)
     metadata = {}
     for i in range(nis_row_idx):
         row_name = str(df_header.iloc[i, 0]).strip()
         if pd.notna(row_name) and row_name != 'nan':
             metadata[row_name] = df_header.iloc[i, 1:].tolist()
     
-    nis_code_header = pd.read_csv(file_path, sep=';', skiprows=nis_row_idx, nrows=1, header=None).iloc[0, 1:].tolist()
+    nis_code_header = pd.read_csv(file_path, sep=';', dtype=str, skiprows=nis_row_idx, nrows=1, header=None).iloc[0, 1:].tolist()
 
     # Required output columns
     required_cols = ['NIS_code', 'Rapportjaar', 'Boekjaar', 'BV_domein', 'BV_subdomein', 'Beleidsveld', 'Totaal', 'Per_inwoner']
@@ -348,7 +354,7 @@ def process_bv_file(file_path, rapportjaar, chunk_size=200):
     all_chunks = []
     chunk_num = 0
 
-    for df_chunk in pd.read_csv(file_path, sep=';', skiprows=nis_row_idx+1, chunksize=chunk_size, header=None):
+    for df_chunk in pd.read_csv(file_path, sep=';', dtype=str, skiprows=nis_row_idx+1, chunksize=chunk_size, header=None):
         chunk_num += 1
         tidy_rows = []
         for gemeente_idx in range(len(df_chunk)):
