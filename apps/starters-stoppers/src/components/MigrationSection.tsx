@@ -21,19 +21,24 @@ import { FilterableTable } from "@embuild/shared/components/shared/FilterableTab
 import { CHART_SERIES_COLORS } from "@embuild/shared/lib/chart-theme"
 import { cn } from "@embuild/shared/lib/utils"
 import {
-  MIGRATION_ALL,
   MIGRATION_DIM_OPTIONS,
   MIGRATION_REGION_OPTIONS,
   MigrationData,
   MigrationDim,
   MigrationMatrix,
+  MigrationSelection,
   buildMigrationMatrix,
   buildMigrationSeries,
+  migrationCategoryLabels,
   migrationCategoryOptions,
   migrationFilterItems,
   migrationTitle,
+  normalizeCounterparts,
+  normalizeMigrationRegions,
 } from "@/lib/migration"
+import { joinList } from "@/lib/selection"
 import { EmbedFilters } from "@/components/EmbedFilters"
+import { MultiSelectInline } from "@/components/MultiSelectInline"
 
 const SOURCE_TITLE = "Statbel - Migratie van btw-plichtige ondernemingen"
 const NUMBER_FORMAT = new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 0 })
@@ -97,21 +102,7 @@ function SelectInline({
 export type MigrationVariant = "flows" | "balance" | "matrix"
 
 type Series = ReturnType<typeof buildMigrationSeries>
-type FilterState = { region: string; counterpart: string | null; dim: MigrationDim; category: string | null }
-
-function useMigrationState(data: MigrationData, initial?: Partial<FilterState>) {
-  const [region, setRegion] = React.useState(initial?.region ?? "2000")
-  const [counterpart, setCounterpart] = React.useState<string | null>(initial?.counterpart ?? null)
-  const [dim, setDim] = React.useState<MigrationDim>(initial?.dim ?? "tot")
-  const [category, setCategory] = React.useState<string | null>(initial?.category ?? null)
-
-  const series = React.useMemo(
-    () => buildMigrationSeries(data, { dim, category, region, counterpart }),
-    [category, counterpart, data, dim, region]
-  )
-
-  return { region, setRegion, counterpart, setCounterpart, dim, setDim, category, setCategory, series }
-}
+type FilterState = MigrationSelection
 
 export function buildMigrationChartData(series: Series) {
   return series.map((point) => ({ ...point, label: String(point.year) }))
@@ -247,10 +238,10 @@ export function MigrationEmbed({
   data,
   viewType,
   variant = "flows",
-  region,
-  counterpart,
+  regions,
+  counterparts,
   dim,
-  category,
+  categories,
   year,
 }: FilterState & {
   data: MigrationData
@@ -259,27 +250,22 @@ export function MigrationEmbed({
   year?: number | null
 }) {
   const series = React.useMemo(
-    () => buildMigrationSeries(data, { dim, category, region, counterpart }),
-    [category, counterpart, data, dim, region]
+    () => buildMigrationSeries(data, { dim, categories, regions, counterparts }),
+    [categories, counterparts, data, dim, regions]
   )
-  const isAll = region === MIGRATION_ALL
+  const isAll = regions.length === 0
   const matrixYear = year && data.years.includes(year) ? year : data.latestYear
-  const matrix = React.useMemo(() => buildMigrationMatrix(data, { dim, category, year: matrixYear }), [category, data, dim, matrixYear])
+  const matrix = React.useMemo(() => buildMigrationMatrix(data, { dim, categories, year: matrixYear }), [categories, data, dim, matrixYear])
   const isMatrix = variant === "matrix"
-  const filters = migrationFilterItems(data, { region, counterpart, dim, category, year: isMatrix ? matrixYear : null, omitRegion: isMatrix })
-  const baseTitle = migrationTitle(region, counterpart)
-  const title =
-    variant === "balance"
-      ? `Saldo - ${baseTitle}`
-      : isMatrix
-        ? `Herkomst en bestemming ${matrixYear}`
-        : baseTitle
+  const filters = migrationFilterItems(data, { regions, counterparts, dim, categories, year: isMatrix ? matrixYear : null, omitRegion: isMatrix })
+  const baseTitle = migrationTitle({ regions, counterparts })
+  const title = variant === "balance" ? `Saldo - ${baseTitle}` : isMatrix ? `Herkomst en bestemming ${matrixYear}` : baseTitle
 
   let content: React.ReactNode
   if (isMatrix) {
     content = <MigrationMatrixTable matrix={matrix} />
   } else if (variant === "balance" && isAll) {
-    content = <p className="text-sm text-muted-foreground">Het saldo is enkel beschikbaar voor een afzonderlijk gewest.</p>
+    content = <p className="text-sm text-muted-foreground">Het saldo is enkel beschikbaar voor een of meer gekozen gewesten.</p>
   } else if (viewType === "table") {
     content = <MigrationTable series={series} isAll={isAll} />
   } else {
@@ -322,8 +308,8 @@ function MigrationMatrixCard({
     [data.years]
   )
   const matrix = React.useMemo(
-    () => buildMigrationMatrix(data, { dim: filters.dim, category: filters.category, year: Number(year) }),
-    [data, filters.category, filters.dim, year]
+    () => buildMigrationMatrix(data, { dim: filters.dim, categories: filters.categories, year: Number(year) }),
+    [data, filters.categories, filters.dim, year]
   )
   const exportRows = React.useMemo(() => matrixExportRows(matrix), [matrix])
   const title = `Herkomst en bestemming ${year}`
@@ -345,7 +331,7 @@ function MigrationMatrixCard({
             dataSourceUrl={data.sourceUrl}
             embedParams={{
               dim: filters.dim === "tot" ? null : filters.dim,
-              category: filters.category,
+              category: joinList(filters.categories),
               year,
             }}
           />
@@ -359,30 +345,36 @@ function MigrationMatrixCard({
 }
 
 export function MigrationSection({ data }: { data: MigrationData }) {
-  const { region, setRegion, counterpart, setCounterpart, dim, setDim, category, setCategory, series } = useMigrationState(data)
-  const isAll = region === MIGRATION_ALL
+  const [regions, setRegionsState] = React.useState<string[]>(["2000"])
+  const [counterparts, setCounterparts] = React.useState<string[]>([])
+  const [dim, setDim] = React.useState<MigrationDim>("tot")
+  const [categories, setCategories] = React.useState<string[]>([])
+
+  const series = React.useMemo(
+    () => buildMigrationSeries(data, { dim, categories, regions, counterparts }),
+    [categories, counterparts, data, dim, regions]
+  )
+  const isAll = regions.length === 0
   const dimOption = MIGRATION_DIM_OPTIONS.find((option) => option.code === dim) ?? MIGRATION_DIM_OPTIONS[0]
   const categoryOptions = React.useMemo(() => migrationCategoryOptions(data, dim), [data, dim])
 
-  const regionOptions: Option[] = [
-    { code: MIGRATION_ALL, label: "Alle gewesten" },
-    ...MIGRATION_REGION_OPTIONS.map((option) => ({ code: option.code, label: option.label })),
-  ]
-  const counterpartOptions: Option[] = [
-    { code: "", label: "Alle andere gewesten" },
-    ...MIGRATION_REGION_OPTIONS.filter((option) => option.code !== region).map((option) => ({ code: option.code, label: option.label })),
-  ]
+  function setRegions(next: string[]) {
+    const normalized = normalizeMigrationRegions(next)
+    setRegionsState(normalized)
+    setCounterparts((current) => normalizeCounterparts(current, normalized))
+  }
+
+  const counterpartOptions = MIGRATION_REGION_OPTIONS.filter((option) => !regions.includes(option.code))
   const dimOptions: Option[] = MIGRATION_DIM_OPTIONS.map((option) => ({ code: option.code, label: option.label }))
-  const categoryChoices: Option[] = [{ code: "", label: dimOption.allLabel }, ...categoryOptions]
-  const categoryLabel = category ? categoryOptions.find((option) => option.code === category)?.label ?? null : null
-  const title = migrationTitle(region, counterpart, categoryLabel)
-  const filters: FilterState = { region, counterpart, dim, category }
+  const categoryLabels = migrationCategoryLabels(data, dim, categories)
+  const title = migrationTitle({ regions, counterparts }, dim === "tot" ? [] : categoryLabels)
+  const filters: FilterState = { regions, counterparts, dim, categories }
   const exportTitle = filterText(migrationFilterItems(data, filters))
   const baseParams = {
-    region,
-    counterpart,
+    region: regions.length > 0 ? joinList(regions) : "all", // expliciet, anders zou een embed zonder gewest op een standaard terugvallen
+    counterpart: joinList(counterparts),
     dim: dim === "tot" ? null : dim,
-    category,
+    category: joinList(categories),
   }
 
   const flowHeaders = isAll ? ["Jaar"] : ["Jaar", "Instroom", "Uitstroom"]
@@ -417,34 +409,46 @@ export function MigrationSection({ data }: { data: MigrationData }) {
             <TabsTrigger value="table">Tabel</TabsTrigger>
           </TabsList>
           <div className="flex flex-wrap items-center gap-2">
-            <SelectInline
-              value={region}
-              onChange={(value) => {
-                setRegion(value)
-                setCounterpart(null)
-              }}
-              options={regionOptions}
+            <MultiSelectInline
+              groups={[{ heading: "Gewest", options: MIGRATION_REGION_OPTIONS }]}
+              selected={regions}
+              onChange={setRegions}
+              allLabel="Alle gewesten"
+              noun="gewesten"
             />
             {!isAll ? (
-              <SelectInline value={counterpart ?? ""} onChange={(value) => setCounterpart(value || null)} options={counterpartOptions} />
+              <MultiSelectInline
+                groups={[{ heading: "Tegenpartij", options: counterpartOptions }]}
+                selected={counterparts}
+                onChange={(next) => setCounterparts(normalizeCounterparts(next, regions))}
+                allLabel="Alle andere gewesten"
+                noun="gewesten"
+              />
             ) : null}
             <SelectInline
               value={dim}
               onChange={(value) => {
                 setDim(value as MigrationDim)
-                setCategory(null)
+                setCategories([])
               }}
               options={dimOptions}
             />
             {dim !== "tot" ? (
-              <SelectInline value={category ?? ""} onChange={(value) => setCategory(value || null)} options={categoryChoices} searchable />
+              <MultiSelectInline
+                groups={[{ heading: dimOption.label, options: categoryOptions }]}
+                selected={categories}
+                onChange={setCategories}
+                allLabel={dimOption.allLabel}
+                noun={dimOption.noun}
+                searchable
+              />
             ) : null}
           </div>
         </div>
 
         <p className="mb-4 text-sm text-muted-foreground">
           Aantal btw-plichtige ondernemingen waarvan de maatschappelijke zetel van het ene gewest naar het andere verhuisde, per jaar vanaf {data.years[0]} tot en met {data.latestYear}.
-          Verhuizingen binnen een gewest zijn niet inbegrepen. De uitsplitsingen naar werknemersklasse, sector en rechtsvorm zijn aparte Statbel-tabellen en kunnen dus niet gecombineerd worden.
+          Verhuizingen binnen een gewest zijn niet inbegrepen; bij meerdere gekozen gewesten tellen enkel verhuizingen over de grens van die groep. De uitsplitsingen naar werknemersklasse, sector en rechtsvorm zijn aparte Statbel-tabellen en kunnen dus niet gecombineerd worden.
         </p>
 
         <TabsContent value="chart">

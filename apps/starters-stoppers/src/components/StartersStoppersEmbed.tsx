@@ -3,11 +3,27 @@
 import { useMemo } from "react"
 import { FilterableChart } from "@embuild/shared/components/shared/FilterableChart"
 import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
-import { PROVINCES, ProvinceCode, REGIONS, RegionCode } from "@embuild/shared/lib/geo-utils"
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
 import { FilterItem, MigrationData, MigrationDim } from "@/lib/migration"
+import {
+  aggregateAnnualRows,
+  expectedCells,
+  filterEnterpriseRows,
+  filterGeoSectorRows,
+  filterNationalSectorRows,
+  filterSurvivalRows,
+  geoLabels,
+  keepCompleteGroups,
+  labelsFor,
+  describeGeos,
+  enterpriseGeoNotes,
+  formatYearRanges,
+  isArrondissement,
+} from "@/lib/selection"
+import { useLazyJson } from "@/lib/use-lazy-json"
 import { EmbedFilters } from "@/components/EmbedFilters"
 import { MigrationEmbed, MigrationVariant } from "@/components/MigrationSection"
+import { BankruptcyEmbed, BankruptcyVariant } from "@/components/BankruptcyView"
 
 type SectionType =
   | "starters"
@@ -18,6 +34,11 @@ type SectionType =
   | "migration"
   | "migration-balance"
   | "migration-matrix"
+  | "bankruptcies"
+  | "bankruptcies-workers"
+  | "bankruptcies-rate"
+  | "bankruptcies-by-age"
+  | "bankruptcies-by-size"
 type ViewType = "chart" | "table"
 type TimeRange = "yearly" | "quarterly" | "monthly"
 type StopHorizon = 1 | 2 | 3 | 4 | 5
@@ -65,6 +86,8 @@ type EnterpriseWorkerClassRow = {
 type EnterpriseLookups = {
   latestYear: number
   years: number[]
+  provinceYears?: number[]
+  arrondissementYears?: number[]
   workerClasses: Array<{ code: string; nl: string }>
 }
 
@@ -93,59 +116,9 @@ const PROVISIONAL_NOTE =
   "* Voorlopig: geschat uit de maandcijfers, gekalibreerd op het verschil tussen maand- en jaarreeks in de laatste drie jaren. Wordt vervangen zodra Statbel het jaarcijfer publiceert."
 
 const MONTH_NAMES_SHORT = ["jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"]
-const MONTHLY_REGION_OPTIONS: Array<{ code: RegionCode; label: string }> = [
-  { code: "1000", label: "België" },
-  { code: "2000", label: "Vlaanderen" },
-  { code: "3000", label: "Wallonië" },
-  { code: "4000", label: "Brussel" },
-]
-
-const BRUSSELS_PROVINCE_CODE = "21000"
-
-// Brussel is zowel gewest als "provincie"; in de data bestaat het enkel als gewest.
-function resolveGeoCode(region: RegionCode, province: ProvinceCode | null): string {
-  return province && String(province) !== BRUSSELS_PROVINCE_CODE ? String(province) : region
-}
-
-function formatYearRanges(years: number[]) {
-  if (years.length === 0) return ""
-  const sorted = [...years].sort((a, b) => a - b)
-  const ranges: string[] = []
-  let start = sorted[0]
-  let previous = sorted[0]
-
-  for (let index = 1; index < sorted.length; index += 1) {
-    const year = sorted[index]
-    if (year === previous + 1) {
-      previous = year
-      continue
-    }
-    ranges.push(start === previous ? String(start) : `${start}-${previous}`)
-    start = year
-    previous = year
-  }
-
-  ranges.push(start === previous ? String(start) : `${start}-${previous}`)
-  return ranges.join(", ")
-}
 
 function survivalKeyForHorizon(horizon: StopHorizon): SurvivalKey {
   return `s${horizon}` as SurvivalKey
-}
-
-function filterMonthlyRows(rows: MonthlyFlowRow[], sector: string | null) {
-  const code = sector ?? "ALL"
-  return rows.filter((row) => row.n1 === code)
-}
-
-function filterRegionalMonthlyRows(rows: RegionalMonthlyFlowRow[], sector: string | null, region: string) {
-  const code = sector ?? "ALL"
-  return rows.filter((row) => row.g === region && row.n1 === code)
-}
-
-function filterAnnualRows(rows: AnnualFlowRow[], sector: string | null, region: string) {
-  const code = sector ?? "ALL"
-  return rows.filter((row) => row.g === region && row.n1 === code)
 }
 
 function aggregateMonthlyMetric(rows: MonthlyFlowRow[], metric: "fr" | "st", timeRange: TimeRange): ChartPoint[] {
@@ -185,21 +158,6 @@ function aggregateMonthlyMetric(rows: MonthlyFlowRow[], metric: "fr" | "st", tim
   }
 
   return Array.from(grouped.values()).sort((a, b) => a.sortValue - b.sortValue)
-}
-
-function aggregateAnnualMetric(rows: AnnualFlowRow[], metric: "fr" | "st"): ChartPoint[] {
-  return rows
-    .map((row) => {
-      const provisional = row.p === 1
-      const label = provisional ? `${row.y}*` : String(row.y)
-      return { sortValue: row.y, periodCells: [provisional ? label : row.y], value: row[metric], label, provisional }
-    })
-    .sort((a, b) => a.sortValue - b.sortValue)
-}
-
-function filterEnterpriseRows(rows: EnterpriseWorkerClassRow[], sector: string | null, region: string, workerClass: string | null) {
-  const code = sector ?? "ALL"
-  return rows.filter((row) => row.g === region && row.n1 === code && (!workerClass || row.w === workerClass))
 }
 
 function aggregateEnterpriseCountsByYear(rows: EnterpriseWorkerClassRow[]): ChartPoint[] {
@@ -243,32 +201,6 @@ function formatPct(value: number) {
   return new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 1 }).format(value) + "%"
 }
 
-function formatMonthlyRegionLabel(regionCode: RegionCode) {
-  return MONTHLY_REGION_OPTIONS.find((option) => option.code === regionCode)?.label ?? "België"
-}
-
-function formatGeoLabel(region: RegionCode, province: ProvinceCode | null) {
-  if (province && String(province) !== BRUSSELS_PROVINCE_CODE) {
-    return PROVINCES.find((item) => String(item.code) === String(province))?.name ?? "Provincie"
-  }
-  return formatMonthlyRegionLabel(region)
-}
-
-function filterSurvivalRowsByGeo(rows: VatSurvivalRow[], region: RegionCode | null, province: ProvinceCode | null) {
-  if (province) {
-    return rows.filter((row) => row.p && String(row.p) === String(province))
-  }
-  if (region && region !== "1000") {
-    return rows.filter((row) => row.r && String(row.r) === String(region))
-  }
-  return rows
-}
-
-function filterSurvivalRowsBySector(rows: VatSurvivalRow[], sector: string | null) {
-  if (!sector) return rows
-  return rows.filter((row) => row.n1 === sector)
-}
-
 function aggregateSurvivalRateByYear(rows: VatSurvivalRow[], horizon: StopHorizon): ChartPoint[] {
   const key = survivalKeyForHorizon(horizon)
   const grouped = new Map<number, { fr: number; surv: number }>()
@@ -296,14 +228,14 @@ interface StartersStoppersEmbedProps {
   section: SectionType
   viewType: ViewType
   horizon?: StopHorizon
-  region?: RegionCode | null
-  province?: ProvinceCode | null
-  sector?: string | null
-  workerClass?: string | null
+  geos?: string[]
+  sectors?: string[]
+  workerClasses?: string[]
   timeRange?: TimeRange
-  counterpart?: string | null
+  migrationRegions?: string[]
+  counterparts?: string[]
   migrationDim?: MigrationDim
-  category?: string | null
+  categories?: string[]
   year?: number | null
 }
 
@@ -311,14 +243,14 @@ export function StartersStoppersEmbed({
   section,
   viewType,
   horizon = 1,
-  region = null,
-  province = null,
-  sector = null,
-  workerClass = null,
+  geos = [],
+  sectors = [],
+  workerClasses = [],
   timeRange = "yearly",
-  counterpart = null,
+  migrationRegions = [],
+  counterparts = [],
   migrationDim = "tot",
-  category = null,
+  categories = [],
   year = null,
 }: StartersStoppersEmbedProps) {
   const { data: bundle, loading, error } = useJsonBundle<{
@@ -358,109 +290,92 @@ export function StartersStoppersEmbed({
     [bundle]
   )
   const yearlyRows = useMemo(() => [...(bundle?.yearlyRaw ?? []), ...(bundle?.yearlyProvincialRaw ?? [])], [bundle])
+  const isEnterpriseSection = section === "enterprises" || section === "enterprises-no-staff"
+  const arrondissementData = useLazyJson<EnterpriseWorkerClassRow[]>(
+    "/data/vat_enterprises_worker_class_arrondissements.json",
+    isEnterpriseSection && geos.some(isArrondissement)
+  )
   const enterpriseRows = useMemo(
-    () => [...(bundle?.enterpriseRaw ?? []), ...(bundle?.enterpriseProvincialRaw ?? [])],
-    [bundle]
+    () => [...(bundle?.enterpriseRaw ?? []), ...(bundle?.enterpriseProvincialRaw ?? []), ...(arrondissementData.data ?? [])],
+    [arrondissementData.data, bundle]
   )
   const survivalRows = useMemo(() => bundle?.survivalRaw ?? [], [bundle])
-  const selectedRegion = region ?? "1000"
-  const selectedGeo = resolveGeoCode(selectedRegion, province)
   const enterpriseAvailableYears = bundle?.monthlySummary?.enterpriseCounts?.availableYears ?? bundle?.enterpriseLookups?.years ?? []
   const workerClassLabels = useMemo(() => new Map((bundle?.enterpriseLookups?.workerClasses ?? []).map((row) => [row.code, row.nl])), [bundle])
 
   const data = useMemo(() => {
-    if (section === "starters") {
-      if (timeRange === "yearly") {
-        return aggregateAnnualMetric(filterAnnualRows(yearlyRows, sector, selectedGeo), "fr")
-      }
-      return aggregateMonthlyMetric(
-        selectedGeo === "1000"
-          ? filterMonthlyRows(monthlyRows, sector)
-          : filterRegionalMonthlyRows(monthlyRegionalRows, sector, selectedGeo),
-        "fr",
-        timeRange
+    if (section === "starters" || section === "stoppers") {
+      const metric = section === "starters" ? "fr" : "st"
+      if (timeRange === "yearly") return aggregateAnnualRows(yearlyRows, metric, geos, sectors)
+      const rows =
+        geos.length === 0
+          ? filterNationalSectorRows(monthlyRows, sectors)
+          : filterGeoSectorRows(monthlyRegionalRows, geos, sectors)
+      const complete = keepCompleteGroups(
+        rows,
+        (row) => row.period,
+        (row) => `${(row as Partial<RegionalMonthlyFlowRow>).g ?? "1000"}|${row.n1}`,
+        expectedCells(geos, sectors)
       )
-    }
-    if (section === "stoppers") {
-      if (timeRange === "yearly") {
-        return aggregateAnnualMetric(filterAnnualRows(yearlyRows, sector, selectedGeo), "st")
-      }
-      return aggregateMonthlyMetric(
-        selectedGeo === "1000"
-          ? filterMonthlyRows(monthlyRows, sector)
-          : filterRegionalMonthlyRows(monthlyRegionalRows, sector, selectedGeo),
-        "st",
-        timeRange
-      )
+      return aggregateMonthlyMetric(complete, metric, timeRange)
     }
     if (section === "enterprises") {
-      return aggregateEnterpriseCountsByYear(filterEnterpriseRows(enterpriseRows, sector, selectedGeo, workerClass))
+      return aggregateEnterpriseCountsByYear(filterEnterpriseRows(enterpriseRows, geos, sectors, workerClasses))
     }
     if (section === "enterprises-no-staff") {
-      return aggregateEnterpriseNoEmployeeShareByYear(filterEnterpriseRows(enterpriseRows, sector, selectedGeo, null))
+      return aggregateEnterpriseNoEmployeeShareByYear(filterEnterpriseRows(enterpriseRows, geos, sectors, []))
     }
-    return aggregateSurvivalRateByYear(
-      filterSurvivalRowsByGeo(filterSurvivalRowsBySector(survivalRows, sector), region, province),
-      horizon
-    )
-  }, [enterpriseRows, horizon, monthlyRegionalRows, monthlyRows, province, region, sector, section, selectedGeo, survivalRows, timeRange, workerClass, yearlyRows])
+    return aggregateSurvivalRateByYear(filterSurvivalRows(survivalRows, geos, sectors), horizon)
+  }, [enterpriseRows, geos, horizon, monthlyRegionalRows, monthlyRows, sectors, section, survivalRows, timeRange, workerClasses, yearlyRows])
 
+  const geoSuffix = geos.length > 0 ? ` - ${describeGeos(geos)}` : ""
   const title = useMemo(() => {
-    if (section === "starters") {
-      return selectedRegion !== "1000" ? `Aantal starters - ${formatGeoLabel(selectedRegion, province)}` : "Aantal starters"
-    }
-    if (section === "stoppers") {
-      return selectedRegion !== "1000" ? `Aantal stoppers - ${formatGeoLabel(selectedRegion, province)}` : "Aantal stoppers"
-    }
-    if (section === "enterprises-no-staff") {
-      const base = "Aandeel ondernemingen zonder personeel"
-      return selectedRegion !== "1000" ? `${base} - ${formatGeoLabel(selectedRegion, province)}` : base
-    }
+    if (section === "starters") return `Aantal starters${geoSuffix}`
+    if (section === "stoppers") return `Aantal stoppers${geoSuffix}`
+    if (section === "enterprises-no-staff") return `Aandeel ondernemingen zonder personeel${geoSuffix}`
     if (section === "enterprises") {
       const yearSuffix = enterpriseAvailableYears.length > 0 ? ` (${formatYearRanges(enterpriseAvailableYears)})` : ""
-      const workerClassSuffix = workerClass ? ` - ${workerClassLabels.get(workerClass) ?? workerClass}` : ""
-      const baseTitle = `Aantal ondernemingen${yearSuffix}${workerClassSuffix}`
-      return selectedRegion !== "1000" ? `${baseTitle} - ${formatGeoLabel(selectedRegion, province)}` : baseTitle
+      return `Aantal ondernemingen${yearSuffix}${geoSuffix}`
     }
-
-    const locationParts: string[] = []
-    if (province) {
-      const provinceMatch = PROVINCES.find((item) => String(item.code) === String(province))
-      if (provinceMatch) locationParts.push(provinceMatch.name)
-    } else if (region && region !== "1000") {
-      const regionMatch = REGIONS.find((item) => item.code === region)
-      if (regionMatch) locationParts.push(regionMatch.name)
-    }
-
-    const baseTitle = `Overlevingskans na ${horizon} jaar`
-    return locationParts.length > 0 ? `${baseTitle} - ${locationParts.join(", ")}` : baseTitle
-  }, [enterpriseAvailableYears, horizon, province, region, section, selectedRegion, workerClass, workerClassLabels])
+    return `Overlevingskans na ${horizon} jaar${geoSuffix}`
+  }, [enterpriseAvailableYears, geoSuffix, horizon, section])
 
   const filterItems = useMemo<FilterItem[]>(() => {
-    const location = province || (region && region !== "1000") ? formatGeoLabel(selectedRegion, province) : "België"
-    const sectorCode = sector ?? null
-    const sectorName = sectorCode
-      ? section === "survival"
-        ? bundle?.survivalLookups?.nace_lvl1?.find((row) => String(row.code) === sectorCode)?.nl
-        : bundle?.monthlyLookups?.sectors?.find((row) => row.code === sectorCode)?.nl
-      : null
-    const sectorValue = sectorCode ? (sectorName ? `${sectorCode} — ${sectorName}` : sectorCode) : "Alle sectoren"
+    const sectorOptions =
+      section === "survival"
+        ? (bundle?.survivalLookups?.nace_lvl1 ?? []).map((row) => ({ code: String(row.code), label: `${row.code} — ${row.nl ?? row.en ?? ""}`.trim() }))
+        : (bundle?.monthlyLookups?.sectors ?? []).map((row) => ({ code: row.code, label: `${row.code} — ${row.nl}` }))
 
     const items: FilterItem[] = [
-      { label: "Locatie", value: location },
-      { label: "Sector", value: sectorValue },
+      { label: "Locatie", value: geoLabels(geos).join(", ") },
+      { label: "Sector", value: sectors.length > 0 ? labelsFor(sectors, sectorOptions).join(", ") : "Alle sectoren" },
     ]
     if (section === "starters" || section === "stoppers") {
       items.push({ label: "Periode", value: timeRange === "yearly" ? "Per jaar" : timeRange === "quarterly" ? "Per kwartaal" : "Per maand" })
     }
     if (section === "enterprises") {
-      items.push({ label: "Werknemersklasse", value: workerClass ? workerClassLabels.get(workerClass) ?? workerClass : "Alle grootteklassen" })
+      items.push({
+        label: "Werknemersklasse",
+        value: workerClasses.length > 0 ? workerClasses.map((code) => workerClassLabels.get(code) ?? code).join(", ") : "Alle grootteklassen",
+      })
     }
     if (section === "survival") {
       items.push({ label: "Horizon", value: `na ${horizon} jaar` })
     }
     return items
-  }, [bundle, horizon, province, region, sector, section, selectedRegion, timeRange, workerClass, workerClassLabels])
+  }, [bundle, geos, horizon, sectors, section, timeRange, workerClassLabels, workerClasses])
+
+  const geoNotes = useMemo(() => {
+    if (!isEnterpriseSection) return []
+    const notes = enterpriseGeoNotes(geos, enterpriseAvailableYears, [
+      ...(bundle?.enterpriseLookups?.provinceYears ?? []).filter(
+        (year) => !geos.some(isArrondissement) || (bundle?.enterpriseLookups?.arrondissementYears ?? []).includes(year)
+      ),
+    ])
+    if (arrondissementData.loading) notes.unshift("Arrondissementsgegevens worden geladen...")
+    if (arrondissementData.error) notes.unshift(arrondissementData.error)
+    return notes
+  }, [arrondissementData.error, arrondissementData.loading, bundle, enterpriseAvailableYears, geos, isEnterpriseSection])
 
   if (loading) {
     return <div className="p-4">Data laden...</div>
@@ -474,6 +389,28 @@ export function StartersStoppersEmbed({
     )
   }
 
+  const bankruptcyVariants: Partial<Record<SectionType, BankruptcyVariant>> = {
+    bankruptcies: "count",
+    "bankruptcies-workers": "workers",
+    "bankruptcies-rate": "rate",
+    "bankruptcies-by-age": "age",
+    "bankruptcies-by-size": "size",
+  }
+  const bankruptcyVariant = bankruptcyVariants[section]
+  if (bankruptcyVariant) {
+    return (
+      <BankruptcyEmbed
+        variant={bankruptcyVariant}
+        viewType={viewType}
+        geos={geos}
+        sectors={sectors}
+        timeRange={timeRange}
+        enterpriseRows={enterpriseRows}
+        sectorOptions={(bundle.monthlyLookups?.sectors ?? []).map((row) => ({ code: row.code, label: `${row.code} — ${row.nl}` }))}
+      />
+    )
+  }
+
   if (section === "migration" || section === "migration-balance" || section === "migration-matrix") {
     const variant: MigrationVariant = section === "migration-balance" ? "balance" : section === "migration-matrix" ? "matrix" : "flows"
     return (
@@ -481,10 +418,10 @@ export function StartersStoppersEmbed({
         data={bundle.migration}
         viewType={viewType}
         variant={variant}
-        region={region ?? "2000"}
-        counterpart={counterpart}
+        regions={migrationRegions}
+        counterparts={counterparts}
         dim={migrationDim}
-        category={category}
+        categories={categories}
         year={year}
       />
     )
@@ -522,6 +459,11 @@ export function StartersStoppersEmbed({
       )}
 
       {data.some((point) => point.provisional) ? <p className="mt-3 text-xs text-muted-foreground">{PROVISIONAL_NOTE}</p> : null}
+      {geoNotes.map((note) => (
+        <p key={note} className="mt-3 text-xs text-muted-foreground">
+          {note}
+        </p>
+      ))}
 
       <div className="mt-4 text-center text-xs text-muted-foreground">
         <span>Bron: Statbel</span>

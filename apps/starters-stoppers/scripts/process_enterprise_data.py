@@ -333,12 +333,13 @@ def build_enterprise_records(frame: pd.DataFrame, dataset_year: int) -> pd.DataF
     return pd.concat([regional, regional_totals, belgium, belgium_totals], ignore_index=True)
 
 
-def build_province_records(frame: pd.DataFrame) -> pd.DataFrame:
-    """Aantal ondernemingen per provincie (zonder Brussel), sector en werknemersklasse voor één jaarbestand."""
+def build_province_records(frame: pd.DataFrame, level: str = "province") -> pd.DataFrame:
+    """Aantal ondernemingen per provincie of arrondissement (zonder Brussel), sector en werknemersklasse voor één jaarbestand."""
     frame = frame.copy()
     frame["arr"] = frame["CD_ADM_DSTR_REFNIS"].map(normalize_arrondissement)
-    frame["g"] = frame["arr"].map(arrondissement_to_province)
-    frame = frame[frame["g"].notna() & frame["g"].ne("21000")].copy()
+    frame["g"] = frame["arr"] if level == "arrondissement" else frame["arr"].map(arrondissement_to_province)
+    frame = frame[frame["g"].notna() & frame["arr"].map(arrondissement_to_province).notna()]
+    frame = frame[frame["arr"].ne("21000")].copy()
 
     frame["n1"] = frame["TX_NACE_NL_LVL1"].map(lambda value: parse_sector_label(value)[0])
     frame["w"] = frame["CD_NIS_STAT_UNT_CLS"].astype(str).str.strip().str.zfill(2)
@@ -381,9 +382,13 @@ def obtain_enterprise_source(year: int) -> Path | None:
     return None
 
 
-def refresh_province_records(years: list[int]) -> list[int]:
-    """Vult het provinciale ondernemingsbestand aan met jaren die er nog niet in zitten; geeft de jaren met data terug."""
-    target = RESULTS_DIR / "vat_enterprises_worker_class_provinces.json"
+def refresh_province_records(
+    years: list[int],
+    level: str = "province",
+    filename: str = "vat_enterprises_worker_class_provinces.json",
+) -> list[int]:
+    """Vult het provinciale (of arrondissementele) ondernemingsbestand aan met jaren die er nog niet in zitten; geeft de jaren met data terug."""
+    target = RESULTS_DIR / filename
     existing: list[dict[str, Any]] = json.loads(target.read_text(encoding="utf-8")) if target.exists() else []
     have_years = {int(row["y"]) for row in existing}
 
@@ -393,7 +398,7 @@ def refresh_province_records(years: list[int]) -> list[int]:
         if source is None:
             print(f"Geen provinciaal bronbestand beschikbaar voor {year}; jaar overgeslagen")
             continue
-        frame = build_province_records(read_enterprise_source(source))
+        frame = build_province_records(read_enterprise_source(source), level)
         frame["y"] = year
         new_frames.append(frame)
 
@@ -540,6 +545,9 @@ def process_data() -> None:
 
     province_years = refresh_province_records(available_years)
     lookups["provinceYears"] = province_years
+    lookups["arrondissementYears"] = refresh_province_records(
+        available_years, "arrondissement", "vat_enterprises_worker_class_arrondissements.json"
+    )
 
     (RESULTS_DIR / "vat_enterprises_worker_class.json").write_text(
         json.dumps(records, ensure_ascii=False, separators=(",", ":")),

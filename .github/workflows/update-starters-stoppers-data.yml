@@ -45,6 +45,14 @@ jobs:
       - name: Refresh migration between regions
         run: python "${APP_ROOT}/scripts/process_migration_data.py"
 
+      - name: Refresh bankruptcies
+        run: |
+          set -euo pipefail
+          # Zelfde bronbestand en URL-resolutie als de faillissementen-app; valt terug op de statische URL
+          INPUT_URL="$(python scripts/resolve_statbel_bankruptcies_url.py --meta-file apps/faillissementen/data/.remote_metadata.json || true)"
+          export INPUT_URL
+          python "${APP_ROOT}/scripts/process_bankruptcy_data.py"
+
       - name: Verify generated outputs
         run: |
           set -euo pipefail
@@ -58,6 +66,10 @@ jobs:
           test -f "${APP_ROOT}/public/data/vat_enterprises_worker_class.json"
           test -f "${APP_ROOT}/public/data/vat_enterprises_lookups.json"
           test -f "${APP_ROOT}/public/data/vat_migration.json"
+          test -f "${APP_ROOT}/public/data/vat_enterprises_worker_class_arrondissements.json"
+          test -f "${APP_ROOT}/public/data/bankruptcies_monthly.json"
+          test -f "${APP_ROOT}/public/data/bankruptcies_breakdown.json"
+          test -f "${APP_ROOT}/public/data/bankruptcies_lookups.json"
           test -f "${APP_ROOT}/public/data/summary.json"
           test -f "${APP_ROOT}/data/.remote_metadata.json"
 

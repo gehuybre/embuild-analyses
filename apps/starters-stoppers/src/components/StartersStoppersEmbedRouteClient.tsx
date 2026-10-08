@@ -4,9 +4,10 @@ import { useMemo } from "react"
 import { useSearchParams } from "next/navigation"
 import { StartersStoppersEmbed } from "@/components/StartersStoppersEmbed"
 import type { MigrationDim } from "@/lib/migration"
+import { normalizeCounterparts, normalizeMigrationRegions } from "@/lib/migration"
+import { geoFromParams, parseList } from "@/lib/selection"
 
 const SLUG = "starters-stoppers"
-const REGION_CODES = ["1000", "2000", "3000", "4000"] as const
 
 function prefixedParam(searchParams: URLSearchParams, key: string): string | null {
   return searchParams.get(`${SLUG}.${key}`) ?? searchParams.get(key)
@@ -18,39 +19,47 @@ export function StartersStoppersEmbedRouteClient({ section }: { section: string 
   const viewType = useMemo(() => {
     const view = prefixedParam(searchParams, "view")
     return view === "table" ? "table" : "chart"
-  }, [searchParams])
+  }, [searchParams, section])
 
+  // Meerdere waarden staan kommagescheiden in de URL, bv. region=2000,3000&sector=F,G
   const filters = useMemo(() => {
-    const region = prefixedParam(searchParams, "region")
     const timeRange = prefixedParam(searchParams, "timeRange")
     const horizon = Number(prefixedParam(searchParams, "horizon"))
+    const regionParam = prefixedParam(searchParams, "region")
+    const migrationRegionList = normalizeMigrationRegions(parseList(regionParam))
     return {
-      region: REGION_CODES.find((code) => code === region) ?? null,
-      province: prefixedParam(searchParams, "province"),
-      sector: prefixedParam(searchParams, "sector"),
-      workerClass: prefixedParam(searchParams, "workerClass"),
+      // arrondissementen bestaan enkel voor de ondernemingstellingen
+      geos: geoFromParams(
+        regionParam,
+        prefixedParam(searchParams, "province"),
+        prefixedParam(searchParams, "arrondissement"),
+        section.startsWith("enterprises")
+      ),
+      sectors: parseList(prefixedParam(searchParams, "sector")),
+      workerClasses: parseList(prefixedParam(searchParams, "workerClass")),
       timeRange: timeRange === "monthly" || timeRange === "quarterly" ? timeRange : "yearly",
       horizon: horizon >= 1 && horizon <= 5 ? horizon : 1,
-      counterpart: prefixedParam(searchParams, "counterpart"),
+      migrationRegions: migrationRegionList, // "all" of geen waarde = alle gewesten
+      counterparts: normalizeCounterparts(parseList(prefixedParam(searchParams, "counterpart")), migrationRegionList),
       migrationDim: ((["cls", "nace", "type"] as const).find((value) => value === prefixedParam(searchParams, "dim")) ?? "tot") as MigrationDim,
-      category: prefixedParam(searchParams, "category"),
+      categories: parseList(prefixedParam(searchParams, "category")),
       year: Number(prefixedParam(searchParams, "year")) || null,
     }
-  }, [searchParams])
+  }, [searchParams, section])
 
   return (
     <StartersStoppersEmbed
       section={section as any}
       viewType={viewType as any}
-      region={filters.region}
-      province={filters.province}
-      sector={filters.sector}
-      workerClass={filters.workerClass}
+      geos={filters.geos}
+      sectors={filters.sectors}
+      workerClasses={filters.workerClasses}
       timeRange={filters.timeRange as any}
       horizon={filters.horizon as any}
-      counterpart={filters.counterpart}
+      migrationRegions={filters.migrationRegions}
+      counterparts={filters.counterparts}
       migrationDim={filters.migrationDim}
-      category={filters.category}
+      categories={filters.categories}
       year={filters.year}
     />
   )

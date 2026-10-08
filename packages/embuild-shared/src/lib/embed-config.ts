@@ -152,6 +152,31 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         title: "Aandeel ondernemingen zonder personeel",
         component: "StartersStoppersEmbed",
       },
+      bankruptcies: {
+        type: "custom",
+        title: "Aantal faillissementen",
+        component: "StartersStoppersEmbed",
+      },
+      "bankruptcies-workers": {
+        type: "custom",
+        title: "Aantal getroffen werknemers bij faillissementen",
+        component: "StartersStoppersEmbed",
+      },
+      "bankruptcies-rate": {
+        type: "custom",
+        title: "Faillissementen per 1.000 btw-plichtige ondernemingen",
+        component: "StartersStoppersEmbed",
+      },
+      "bankruptcies-by-age": {
+        type: "custom",
+        title: "Faillissementen naar leeftijd van de onderneming",
+        component: "StartersStoppersEmbed",
+      },
+      "bankruptcies-by-size": {
+        type: "custom",
+        title: "Faillissementen naar werknemersklasse",
+        component: "StartersStoppersEmbed",
+      },
       migration: {
         type: "custom",
         title: "Migratie van ondernemingen tussen gewesten",

@@ -16,9 +16,34 @@ const metadata = {
   },
 }
 
+// Bronnen per grafiek, naast de hoofdbron. Beide migratiegrafieken komen uit dezelfde Statbel-tabel.
+const MIGRATION_SOURCE = {
+  provider: "Statbel",
+  title: "Migratie van btw-plichtige ondernemingen tussen de gewesten (move_nl.xlsx)",
+  url: "https://statbel.fgov.be/sites/default/files/files/documents/Ondernemingen/7.4%20BTW-plichtige%20ondernemers/7.4.1%20Jaarevolutie/Migratie/move_nl.xlsx",
+}
+
+const BANKRUPTCY_SOURCE = {
+  provider: "Statbel",
+  title: "Maandelijkse faillissementen",
+  url: "https://statbel.fgov.be/nl/themas/ondernemingen/faillissementen/maandelijkse-faillissementen",
+}
+
+const additionalSources = [
+  { label: "Faillissementen (aantal, getroffen werknemers, leeftijd, werknemersklasse)", ...BANKRUPTCY_SOURCE },
+  {
+    label: "Faillissementen per 1.000 ondernemingen",
+    provider: "Statbel",
+    title: "Maandelijkse faillissementen en btw-plichtige ondernemingen per werknemersklasse",
+    url: "https://statbel.fgov.be/en/themes/enterprises/vat-registered-businesses/vat-registered-enterprises",
+  },
+  { label: "Instroom en uitstroom", ...MIGRATION_SOURCE },
+  { label: "Herkomst en bestemming", ...MIGRATION_SOURCE },
+]
+
 export default function Page() {
   return (
-    <AnalysisLayout {...metadata}>
+    <AnalysisLayout {...metadata} additionalSources={additionalSources}>
       <StartersStoppersDashboard />
       <PressReferences slug="starters-stoppers" />
     </AnalysisLayout>

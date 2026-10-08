@@ -11,6 +11,9 @@ type SourceInfo = {
   publicationDate?: string
 }
 
+/** Extra bron die onder de hoofdbron getoond wordt, bv. per grafiek: `label` is de grafiek of sectie waarvoor ze geldt. */
+type AdditionalSource = SourceInfo & { label?: string }
+
 function formatDate(isoDate: string) {
   return format(parseISO(isoDate), 'd MMMM yyyy', { locale: nl })
 }
@@ -22,6 +25,7 @@ export function AnalysisLayout({
   dataAvailabilityLabel,
   tags,
   source,
+  additionalSources,
   hideBackLink,
   children,
 }: {
@@ -31,6 +35,7 @@ export function AnalysisLayout({
   dataAvailabilityLabel?: string
   tags?: string[]
   source?: SourceInfo
+  additionalSources?: AdditionalSource[]
   hideBackLink?: boolean
   children: ReactNode
 }) {
@@ -94,6 +99,33 @@ export function AnalysisLayout({
               <span className="ml-2">({formatDate(source.publicationDate)})</span>
             )}
           </div>
+          {!!additionalSources?.length && (
+            <ul className="mt-2 space-y-1 text-sm text-muted-foreground">
+              {additionalSources.map((item) => (
+                <li key={`${item.label ?? ''}${item.url ?? item.title}`}>
+                  {item.label && <span className="font-medium">{item.label}:</span>}{' '}
+                  {item.url ? (
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 text-primary hover:underline"
+                    >
+                      {item.provider}
+                      {item.title && ` - ${item.title}`}
+                      <ExternalLink className="h-3 w-3" />
+                    </a>
+                  ) : (
+                    <span>
+                      {item.provider}
+                      {item.title && ` - ${item.title}`}
+                    </span>
+                  )}
+                  {item.publicationDate && <span className="ml-2">({formatDate(item.publicationDate)})</span>}
+                </li>
+              ))}
+            </ul>
+          )}
         </footer>
       )}
     </article>
