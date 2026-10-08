@@ -77,5 +77,36 @@
     "minYear": 2005,
     "sourceUrl": "https://statbel.fgov.be/nl/themas/ondernemingen/faillissementen/maandelijkse-faillissementen",
     "updatedAt": "2026-10-08T10:08:09.978916+00:00"
+  },
+  "arrondissementFlows": {
+    "years": [
+      2008,
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "count": 42,
+    "sourceUrls": [
+      "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6"
+    ],
+    "notes": [
+      "Jaarfoto op 31 december; geen maand- of kwartaalcijfers en geen voorlopige schatting.",
+      "Henegouwse arrondissementgrenzen wijzigen in 2018; vergelijk niet over deze grens.",
+      "Een punt in de Statbel-tabel wordt als ontbrekende waarde bewaard, niet als nul."
+    ]
   }
 }

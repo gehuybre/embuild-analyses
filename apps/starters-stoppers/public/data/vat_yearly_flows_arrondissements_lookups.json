@@ -1,0 +1,832 @@
+{
+  "years": [
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "arrondissements": [
+    {
+      "code": "11000",
+      "label": "Antwerpen",
+      "provinceCode": "10000"
+    },
+    {
+      "code": "12000",
+      "label": "Mechelen",
+      "provinceCode": "10000"
+    },
+    {
+      "code": "13000",
+      "label": "Turnhout",
+      "provinceCode": "10000"
+    },
+    {
+      "code": "23000",
+      "label": "Halle-Vilvoorde",
+      "provinceCode": "20001"
+    },
+    {
+      "code": "24000",
+      "label": "Leuven",
+      "provinceCode": "20001"
+    },
+    {
+      "code": "31000",
+      "label": "Brugge",
+      "provinceCode": "30000"
+    },
+    {
+      "code": "32000",
+      "label": "Diksmuide",
+      "provinceCode": "30000"
+    },
+    {
+      "code": "33000",
+      "label": "Ieper",
+      "provinceCode": "30000"
+    },
+    {
+      "code": "34000",
+      "label": "Kortrijk",
+      "provinceCode": "30000"
+    },
+    {
+      "code": "35000",
+      "label": "Oostende",
+      "provinceCode": "30000"
+    },
+    {
+      "code": "36000",
+      "label": "Roeselare",
+      "provinceCode": "30000"
+    },
+    {
+      "code": "37000",
+      "label": "Tielt",
+      "provinceCode": "30000"
+    },
+    {
+      "code": "38000",
+      "label": "Veurne",
+      "provinceCode": "30000"
+    },
+    {
+      "code": "41000",
+      "label": "Aalst",
+      "provinceCode": "40000"
+    },
+    {
+      "code": "42000",
+      "label": "Dendermonde",
+      "provinceCode": "40000"
+    },
+    {
+      "code": "43000",
+      "label": "Eeklo",
+      "provinceCode": "40000"
+    },
+    {
+      "code": "44000",
+      "label": "Gent",
+      "provinceCode": "40000"
+    },
+    {
+      "code": "45000",
+      "label": "Oudenaarde",
+      "provinceCode": "40000"
+    },
+    {
+      "code": "46000",
+      "label": "Sint-Niklaas",
+      "provinceCode": "40000"
+    },
+    {
+      "code": "71000",
+      "label": "Hasselt",
+      "provinceCode": "70000"
+    },
+    {
+      "code": "72000",
+      "label": "Maaseik",
+      "provinceCode": "70000"
+    },
+    {
+      "code": "73000",
+      "label": "Tongeren",
+      "provinceCode": "70000"
+    },
+    {
+      "code": "25000",
+      "label": "Nijvel",
+      "provinceCode": "20002"
+    },
+    {
+      "code": "51000",
+      "label": "Aat",
+      "provinceCode": "50000"
+    },
+    {
+      "code": "52000",
+      "label": "Charleroi",
+      "provinceCode": "50000"
+    },
+    {
+      "code": "53000",
+      "label": "Bergen",
+      "provinceCode": "50000"
+    },
+    {
+      "code": "55000",
+      "label": "Zinnik",
+      "provinceCode": "50000"
+    },
+    {
+      "code": "56000",
+      "label": "Thuin",
+      "provinceCode": "50000"
+    },
+    {
+      "code": "57000",
+      "label": "Doornik-Moeskroen",
+      "provinceCode": "50000"
+    },
+    {
+      "code": "58000",
+      "label": "La Louvière",
+      "provinceCode": "50000"
+    },
+    {
+      "code": "61000",
+      "label": "Hoei",
+      "provinceCode": "60000"
+    },
+    {
+      "code": "62000",
+      "label": "Luik",
+      "provinceCode": "60000"
+    },
+    {
+      "code": "63000",
+      "label": "Verviers",
+      "provinceCode": "60000"
+    },
+    {
+      "code": "64000",
+      "label": "Borgworm",
+      "provinceCode": "60000"
+    },
+    {
+      "code": "81000",
+      "label": "Aarlen",
+      "provinceCode": "80000"
+    },
+    {
+      "code": "82000",
+      "label": "Bastenaken",
+      "provinceCode": "80000"
+    },
+    {
+      "code": "83000",
+      "label": "Marche-en-Famenne",
+      "provinceCode": "80000"
+    },
+    {
+      "code": "84000",
+      "label": "Neufchâteau",
+      "provinceCode": "80000"
+    },
+    {
+      "code": "85000",
+      "label": "Virton",
+      "provinceCode": "80000"
+    },
+    {
+      "code": "91000",
+      "label": "Dinant",
+      "provinceCode": "90000"
+    },
+    {
+      "code": "92000",
+      "label": "Namen",
+      "provinceCode": "90000"
+    },
+    {
+      "code": "93000",
+      "label": "Philippeville",
+      "provinceCode": "90000"
+    }
+  ],
+  "sourceUrls": [
+    "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+    "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6"
+  ],
+  "notes": [
+    "Jaarfoto op 31 december; geen maand- of kwartaalcijfers en geen voorlopige schatting.",
+    "Henegouwse arrondissementgrenzen wijzigen in 2018; vergelijk niet over deze grens.",
+    "Een punt in de Statbel-tabel wordt als ontbrekende waarde bewaard, niet als nul."
+  ],
+  "snapshots": [
+    {
+      "file": "fr-11000.html",
+      "sha256": "95971f6d02adcdc3c46b7013b92008e8fbce22cfabb9b611073481306a4eab44",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Antwerpen",
+      "retrievedAt": "2026-10-08T12:57:29.172765+00:00"
+    },
+    {
+      "file": "fr-12000.html",
+      "sha256": "b75aa2b42a74111b2905a798cb347f8ce4aaf61708cfb87e1e39375fc300de21",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Mechelen",
+      "retrievedAt": "2026-10-08T12:57:34.062806+00:00"
+    },
+    {
+      "file": "fr-13000.html",
+      "sha256": "675ba20305509315ff213859b713d42af7953160438fb9bbfb14e40030f73059",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Turnhout",
+      "retrievedAt": "2026-10-08T12:57:37.014244+00:00"
+    },
+    {
+      "file": "fr-23000.html",
+      "sha256": "128b59116d5b75dec3898ee6747873e47289aee4f44cd6920642e6db6ddd8989",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Halle-Vilvoorde",
+      "retrievedAt": "2026-10-08T12:57:40.967391+00:00"
+    },
+    {
+      "file": "fr-24000.html",
+      "sha256": "40d8d164eb0c47f80074fd489289e369e8ef4959798115b982d1f60614f2f8cf",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Leuven",
+      "retrievedAt": "2026-10-08T12:57:43.058921+00:00"
+    },
+    {
+      "file": "fr-31000.html",
+      "sha256": "9bb708c3987dc751bd61723c14a11caf03e9a0e84681f181006e14b09fedce4e",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Brugge",
+      "retrievedAt": "2026-10-08T12:57:47.679046+00:00"
+    },
+    {
+      "file": "fr-32000.html",
+      "sha256": "2a61e93143390531a8df24d292d4c223cf2796b0e6fdcda56a8d18cd32408c16",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Diksmuide",
+      "retrievedAt": "2026-10-08T12:57:51.820246+00:00"
+    },
+    {
+      "file": "fr-33000.html",
+      "sha256": "e95b85d73548c68c74147ca97378975ca31a8079887a7d981a0c283ec8f19e97",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Ieper",
+      "retrievedAt": "2026-10-08T12:57:55.271801+00:00"
+    },
+    {
+      "file": "fr-34000.html",
+      "sha256": "6f3c11e825dfd7f9f443b5027f62520f5967c3496f2bb17127939a36df6c3642",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Kortrijk",
+      "retrievedAt": "2026-10-08T12:57:59.395307+00:00"
+    },
+    {
+      "file": "fr-35000.html",
+      "sha256": "9a359c80530ab1827fc98b19dad8670cde38bcfe5926a221fc299a8a0fd850ca",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Oostende",
+      "retrievedAt": "2026-10-08T12:58:02.926545+00:00"
+    },
+    {
+      "file": "fr-36000.html",
+      "sha256": "e5981bb046b1e2fec1e406872a1d3b749271c3d0d11cc1b4156b066762e0114a",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Roeselare",
+      "retrievedAt": "2026-10-08T12:58:06.848256+00:00"
+    },
+    {
+      "file": "fr-37000.html",
+      "sha256": "981e548d6621580aebd0e6d7bf6990fff87fe9ee82020aacc71d364af2853dd8",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Tielt",
+      "retrievedAt": "2026-10-08T12:58:10.589147+00:00"
+    },
+    {
+      "file": "fr-38000.html",
+      "sha256": "095a9155b4ede941aa9a91b9bc87427052d336751294fd7c11e4ef2a0a19c04a",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Veurne",
+      "retrievedAt": "2026-10-08T12:58:13.851948+00:00"
+    },
+    {
+      "file": "fr-41000.html",
+      "sha256": "184d3e5baa91eb8e64035afbc60fac8a2c0cf9e2fcc6302e9bc36c35782d80ba",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Aalst",
+      "retrievedAt": "2026-10-08T12:58:17.363296+00:00"
+    },
+    {
+      "file": "fr-42000.html",
+      "sha256": "262a035f29222f052f0ccbc99ad4d00f32545961d97228dfff1059c5c1096b2a",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Dendermonde",
+      "retrievedAt": "2026-10-08T12:58:20.800863+00:00"
+    },
+    {
+      "file": "fr-43000.html",
+      "sha256": "fc5fe14cb5c52209e6a619efbf5b8bebd382a75d5b0c5aeeccdc9d1ba7033140",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Eeklo",
+      "retrievedAt": "2026-10-08T12:58:24.232437+00:00"
+    },
+    {
+      "file": "fr-44000.html",
+      "sha256": "621f8d92f2100c4740c374b1e4245339a15d02b809c00d8dd0a1132c5044349a",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Gent",
+      "retrievedAt": "2026-10-08T12:58:27.984642+00:00"
+    },
+    {
+      "file": "fr-45000.html",
+      "sha256": "2480e3850a69f5784086ab380358bbba0dafd9b28b1c979b339c4e45c87f8bf9",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Oudenaarde",
+      "retrievedAt": "2026-10-08T12:58:30.704717+00:00"
+    },
+    {
+      "file": "fr-46000.html",
+      "sha256": "41b71d2d48455a8133c670f7ece5391ebf05e090081e7300107b2aca7559f82e",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Sint-Niklaas",
+      "retrievedAt": "2026-10-08T12:58:34.708314+00:00"
+    },
+    {
+      "file": "fr-71000.html",
+      "sha256": "4245fa2a1f818141ae45f2418a269c09570f635f40d259e9839ef5f4f664a5a4",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Hasselt",
+      "retrievedAt": "2026-10-08T12:58:37.632012+00:00"
+    },
+    {
+      "file": "fr-72000.html",
+      "sha256": "6e0ebe01f7d7e3bc284e0aa83ad429a24f63f27db2c14fa1893b97777d45fa60",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Maaseik",
+      "retrievedAt": "2026-10-08T12:58:41.455933+00:00"
+    },
+    {
+      "file": "fr-73000.html",
+      "sha256": "e2aef394a44a3982fb99be3d797a8d398221ea186e6246c6d646687ca7258e83",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Tongeren",
+      "retrievedAt": "2026-10-08T12:58:44.885334+00:00"
+    },
+    {
+      "file": "fr-25000.html",
+      "sha256": "4ef90d4c163d54a49098436aaa68cb1553e0980b65a3c54312b42e46c3f2fcb5",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Nijvel",
+      "retrievedAt": "2026-10-08T12:58:48.337857+00:00"
+    },
+    {
+      "file": "fr-51000.html",
+      "sha256": "b76c3b1c1d88500834d52956a66fd28ac6b4cda993be5c7677293742ff03eadf",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Aat",
+      "retrievedAt": "2026-10-08T12:58:50.984101+00:00"
+    },
+    {
+      "file": "fr-52000.html",
+      "sha256": "1f1ca266f2960f5d549ca8357ab8c7119a3d01dae810013d2a2cd0e737598a22",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Charleroi",
+      "retrievedAt": "2026-10-08T12:58:54.215816+00:00"
+    },
+    {
+      "file": "fr-53000.html",
+      "sha256": "c70169815b8a05ab653f63a8421e6e26c7ac674bfe864e0867320af6fd15e3b7",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Bergen",
+      "retrievedAt": "2026-10-08T12:58:56.821226+00:00"
+    },
+    {
+      "file": "fr-55000.html",
+      "sha256": "16b544d0db4d59b3bd36432eb8b9f27f33d16508388b40b9230e244802db2000",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Zinnik",
+      "retrievedAt": "2026-10-08T12:59:00.120616+00:00"
+    },
+    {
+      "file": "fr-56000.html",
+      "sha256": "526a57cfb4e06fb589ea1b5988a8b3863048ab6df62c5701bb8c3f108fe7d67f",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Thuin",
+      "retrievedAt": "2026-10-08T12:59:03.138327+00:00"
+    },
+    {
+      "file": "fr-57000.html",
+      "sha256": "aa2967d2b7c1fc67c4d4c102bdf86efb2ba022e1d101d975c4e0598f430b36d6",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Doornik-Moeskroen",
+      "retrievedAt": "2026-10-08T12:59:06.494166+00:00"
+    },
+    {
+      "file": "fr-58000.html",
+      "sha256": "433ca0fdfd3ac53e659412b8c91130df702a4c1fda1d1f68a06cd0f1033af91a",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement La Louvière",
+      "retrievedAt": "2026-10-08T12:59:09.341467+00:00"
+    },
+    {
+      "file": "fr-61000.html",
+      "sha256": "25b26c78664d2bf09f285543d2d68876df4b2fc55bfb6b6c7848c055917e44e5",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Hoei",
+      "retrievedAt": "2026-10-08T12:59:12.083891+00:00"
+    },
+    {
+      "file": "fr-62000.html",
+      "sha256": "1e05b6c052d9467e7390b3d35777bc0baf0d425170ef1cd1e31e2d3466ddb89a",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Luik",
+      "retrievedAt": "2026-10-08T12:59:15.875741+00:00"
+    },
+    {
+      "file": "fr-63000.html",
+      "sha256": "607559a0152744f536183f537451f30dfcb9669e9ed446067db55c874fd6284c",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Verviers",
+      "retrievedAt": "2026-10-08T12:59:19.295230+00:00"
+    },
+    {
+      "file": "fr-64000.html",
+      "sha256": "64ae85bec0ec75b8d7844e442338b3e7f8acdc60a3d7dcdc9b12265ae479a083",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Borgworm",
+      "retrievedAt": "2026-10-08T12:59:21.995193+00:00"
+    },
+    {
+      "file": "fr-81000.html",
+      "sha256": "d1954909912ddf6e53b1ef3a2cf8512cbcad6ce81b5b62d9e49e529c83468cd8",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Aarlen",
+      "retrievedAt": "2026-10-08T12:59:25.603361+00:00"
+    },
+    {
+      "file": "fr-82000.html",
+      "sha256": "84204f754e6e7adfc2674df3eb622a64bff5f27a5b43a2a06f70ea180f7e13d5",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Bastenaken",
+      "retrievedAt": "2026-10-08T12:59:29.446989+00:00"
+    },
+    {
+      "file": "fr-83000.html",
+      "sha256": "53b132f1ef72f8d6799fa28b7d07912538a644cfce5a47b6b9a9e6c98ede1c69",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Marche-en-Famenne",
+      "retrievedAt": "2026-10-08T12:59:31.983245+00:00"
+    },
+    {
+      "file": "fr-84000.html",
+      "sha256": "326f9dc3a19ed2b54dc1097466d8db0f8990c2796622e5d587a0e21be0761a66",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Neufchâteau",
+      "retrievedAt": "2026-10-08T12:59:36.099553+00:00"
+    },
+    {
+      "file": "fr-85000.html",
+      "sha256": "a9a22e0220b8abdd874e483eea858175a193f6af343eebac02acb6ac59e5adfd",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Virton",
+      "retrievedAt": "2026-10-08T12:59:39.522866+00:00"
+    },
+    {
+      "file": "fr-91000.html",
+      "sha256": "99536bf89be6d2c5ac2d85758b393acd9f645fbca12724370caf36a58d3816b4",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Dinant",
+      "retrievedAt": "2026-10-08T12:59:41.993619+00:00"
+    },
+    {
+      "file": "fr-92000.html",
+      "sha256": "6587d42381164a86b0c6ad512646e4a721097b6cdda0ba83e23f055900ad27f3",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Namen",
+      "retrievedAt": "2026-10-08T12:59:45.927134+00:00"
+    },
+    {
+      "file": "fr-93000.html",
+      "sha256": "eebc2d54b2316cd45c88d6047a00cca0adc83b48f239cd2bf5bb2a6c661128e6",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=800863d8-d5ec-40ff-9add-c42fb4cca782",
+      "selection": "Arrondissement Philippeville",
+      "retrievedAt": "2026-10-08T12:59:49.488548+00:00"
+    },
+    {
+      "file": "st-11000.html",
+      "sha256": "8f440839a45c70703031ea5a9a8178c1cf169e07e46d5051dc053d4ac8c367c2",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Antwerpen",
+      "retrievedAt": "2026-10-08T12:59:55.485784+00:00"
+    },
+    {
+      "file": "st-12000.html",
+      "sha256": "a60653046c20ef9f07d3e4c4f6a2b08315769315b6f81a6b539d92c7f83b90ab",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Mechelen",
+      "retrievedAt": "2026-10-08T12:59:59.683001+00:00"
+    },
+    {
+      "file": "st-13000.html",
+      "sha256": "910c417201720907ab7d49b49136b16c27bf64f31187ab1daab62d195eb815f2",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Turnhout",
+      "retrievedAt": "2026-10-08T13:00:03.924150+00:00"
+    },
+    {
+      "file": "st-23000.html",
+      "sha256": "abfa58d6c09edf45faaab5363a38fff1c9f1b1936eefc53989c0397d8fec2f71",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Halle-Vilvoorde",
+      "retrievedAt": "2026-10-08T13:00:06.743656+00:00"
+    },
+    {
+      "file": "st-24000.html",
+      "sha256": "1fc12d7e9135400f0872bf96a110b85db502b755fc45b50cde3a17f8a857546b",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Leuven",
+      "retrievedAt": "2026-10-08T13:00:10.578194+00:00"
+    },
+    {
+      "file": "st-31000.html",
+      "sha256": "97e8a8c6782d6a0acc725306ddefe3c86806ddea096fb51a4998073ea235a1b9",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Brugge",
+      "retrievedAt": "2026-10-08T13:00:13.236371+00:00"
+    },
+    {
+      "file": "st-32000.html",
+      "sha256": "e71ee82107fbca0a960801f184bdd92b13f96e1c24c6e7e3dbd2d37c09a67fd7",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Diksmuide",
+      "retrievedAt": "2026-10-08T13:00:16.172337+00:00"
+    },
+    {
+      "file": "st-33000.html",
+      "sha256": "cc82b7883b4ff46532b3eaa02a5c7ad1be340a67386f0aa086416c320bc47ca0",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Ieper",
+      "retrievedAt": "2026-10-08T13:00:18.960456+00:00"
+    },
+    {
+      "file": "st-34000.html",
+      "sha256": "324ef1bb592ecf7ea2d3a39c9e2e0c23ad8e969f6b3d5f23c7d1d2c70ad73ebe",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Kortrijk",
+      "retrievedAt": "2026-10-08T13:00:22.188149+00:00"
+    },
+    {
+      "file": "st-35000.html",
+      "sha256": "fdc22a0e8b1af19b35fdea1ee5aef34fac1a76f4e39c1ecd770f4cfba251931c",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Oostende",
+      "retrievedAt": "2026-10-08T13:00:24.554176+00:00"
+    },
+    {
+      "file": "st-36000.html",
+      "sha256": "d4407028e1a28bd1517b667654960b7ba2bc598f9387bf87726ca88c0f2ea1fd",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Roeselare",
+      "retrievedAt": "2026-10-08T13:00:27.153568+00:00"
+    },
+    {
+      "file": "st-37000.html",
+      "sha256": "5b77f9efd81ff424d6eb5d048cc79025b50f2a7a050ee0bc9fb08c9533eafedf",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Tielt",
+      "retrievedAt": "2026-10-08T13:00:29.974920+00:00"
+    },
+    {
+      "file": "st-38000.html",
+      "sha256": "13e758f8b6ef573e5295884ebfc91f613070e981e02dc0b7205c7d74bc35acc0",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Veurne",
+      "retrievedAt": "2026-10-08T13:00:32.821516+00:00"
+    },
+    {
+      "file": "st-41000.html",
+      "sha256": "104e53005835043bc027a919606d41ff78da7066ab1a9df81f31e6b77ebece00",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Aalst",
+      "retrievedAt": "2026-10-08T13:00:36.022261+00:00"
+    },
+    {
+      "file": "st-42000.html",
+      "sha256": "bcc40ddc5a50ababc1c1eba67d0ee706fd9c668b66395655878ce97c6414ffd4",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Dendermonde",
+      "retrievedAt": "2026-10-08T13:00:39.896800+00:00"
+    },
+    {
+      "file": "st-43000.html",
+      "sha256": "7c5e1e98fc81df6b076bc4b2093ec7bb86640c8489fd6d54a0a83be256b94a69",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Eeklo",
+      "retrievedAt": "2026-10-08T13:00:43.430294+00:00"
+    },
+    {
+      "file": "st-44000.html",
+      "sha256": "9bdcf04229d13a00983f95fb9c9cf19897a924201e2002cec22e4959f5eae94c",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Gent",
+      "retrievedAt": "2026-10-08T13:00:46.601459+00:00"
+    },
+    {
+      "file": "st-45000.html",
+      "sha256": "6d2de33ed6c7116405e70cbc7f970c7b6d17f17d629de136157c14bb9d9746f8",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Oudenaarde",
+      "retrievedAt": "2026-10-08T13:00:49.989018+00:00"
+    },
+    {
+      "file": "st-46000.html",
+      "sha256": "d3f2eca4140525fe2e31ea8450a59a45d1fb6e142d719f433ef112981f881d00",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Sint-Niklaas",
+      "retrievedAt": "2026-10-08T13:00:52.546257+00:00"
+    },
+    {
+      "file": "st-71000.html",
+      "sha256": "285873d1764c5630733a500ebddf9f0a142f7bcdccaa4481ab8d6b3ec3af2789",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Hasselt",
+      "retrievedAt": "2026-10-08T13:00:56.191231+00:00"
+    },
+    {
+      "file": "st-72000.html",
+      "sha256": "a6edb83dc8807babd990674d175241490e25425672aab132a0bda1c31ca5a2d0",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Maaseik",
+      "retrievedAt": "2026-10-08T13:00:59.520364+00:00"
+    },
+    {
+      "file": "st-73000.html",
+      "sha256": "1d6c6f977d9628360051348e442e0c510e552436e211483a9fd0f72674cd9711",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Tongeren",
+      "retrievedAt": "2026-10-08T13:01:02.964374+00:00"
+    },
+    {
+      "file": "st-25000.html",
+      "sha256": "51475cb6797e285b392dc8a3631f4c79b162d361d293b583999aee01c47e3efe",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Nijvel",
+      "retrievedAt": "2026-10-08T13:01:06.477023+00:00"
+    },
+    {
+      "file": "st-51000.html",
+      "sha256": "7a3e4bd35e9484aff8f92961b7eaac645f1de13bfa330b1da03a3a5ff5a19065",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Aat",
+      "retrievedAt": "2026-10-08T13:01:09.444335+00:00"
+    },
+    {
+      "file": "st-52000.html",
+      "sha256": "a1a88a061c156f1638e24c239394b402e6f8bb7d6fbae1edfbbc15ec1c6a4623",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Charleroi",
+      "retrievedAt": "2026-10-08T13:01:12.347959+00:00"
+    },
+    {
+      "file": "st-53000.html",
+      "sha256": "290681642afdafdb1aea81a132d85b6f11d8cbf6032638a704673d3beeb358a0",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Bergen",
+      "retrievedAt": "2026-10-08T13:01:15.081344+00:00"
+    },
+    {
+      "file": "st-55000.html",
+      "sha256": "cb8fe53d72da6382d06c021d92c93fc457ba9ef4f2016132bc07c116a26d2fe6",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Zinnik",
+      "retrievedAt": "2026-10-08T13:01:17.990313+00:00"
+    },
+    {
+      "file": "st-56000.html",
+      "sha256": "10f8c9bb1e1225c0d535823c450cb0c0dfb7137103ee7dd8f91ced52d7d4ce86",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Thuin",
+      "retrievedAt": "2026-10-08T13:01:21.365961+00:00"
+    },
+    {
+      "file": "st-57000.html",
+      "sha256": "952a93a2c97f376d2dde28964950d8f34e3725ef8ce0b6512504587ab7ce3062",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Doornik-Moeskroen",
+      "retrievedAt": "2026-10-08T13:01:23.942681+00:00"
+    },
+    {
+      "file": "st-58000.html",
+      "sha256": "73c2bd7fafa4d22bb38e38fb58b4b148b151804e1a00cd72889e7ee62cda5ef8",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement La Louvière",
+      "retrievedAt": "2026-10-08T13:01:26.575920+00:00"
+    },
+    {
+      "file": "st-61000.html",
+      "sha256": "c934a4788d072553d9548b476bac03ad52213508d1d5059e59bdb7a77ef7d565",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Hoei",
+      "retrievedAt": "2026-10-08T13:01:29.140352+00:00"
+    },
+    {
+      "file": "st-62000.html",
+      "sha256": "886ee5bfa8c09fdee1f49ba0200f4dc8b81f46ade70437e585bd11e6274e558d",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Luik",
+      "retrievedAt": "2026-10-08T13:01:32.378445+00:00"
+    },
+    {
+      "file": "st-63000.html",
+      "sha256": "b0a14facc5c2531b0122a79f9b850717c4529b4dac63d1b783b8890c8497cad8",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Verviers",
+      "retrievedAt": "2026-10-08T13:01:34.959281+00:00"
+    },
+    {
+      "file": "st-64000.html",
+      "sha256": "ecb144a68a1230dc60dd1036463f92cca9c54f0605769af414d5cb964aa1abed",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Borgworm",
+      "retrievedAt": "2026-10-08T13:01:37.251725+00:00"
+    },
+    {
+      "file": "st-81000.html",
+      "sha256": "8ef6a531527a85f69c86ffc2eb36bed521dca8d082afc339407121c2bba923ad",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Aarlen",
+      "retrievedAt": "2026-10-08T13:01:39.614450+00:00"
+    },
+    {
+      "file": "st-82000.html",
+      "sha256": "056930f2ba43ff001f99496775a16dbe00baef32f42b97aae5fd60d258b5f2db",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Bastenaken",
+      "retrievedAt": "2026-10-08T13:01:42.106144+00:00"
+    },
+    {
+      "file": "st-83000.html",
+      "sha256": "fc970bcea5d213df5b4ddc9a2533e565d51695bcb533ee004e8936b4fb058461",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Marche-en-Famenne",
+      "retrievedAt": "2026-10-08T13:01:44.869682+00:00"
+    },
+    {
+      "file": "st-84000.html",
+      "sha256": "c91fb9429bbb1ba6195fef49ca965fa0f594b1ff431b686f4f05af582e332c86",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Neufchâteau",
+      "retrievedAt": "2026-10-08T13:01:48.269492+00:00"
+    },
+    {
+      "file": "st-85000.html",
+      "sha256": "d1ee8e76005fe4844d05b3d21f77f100e164357d8e1cf39a1113c1a64919c79a",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Virton",
+      "retrievedAt": "2026-10-08T13:01:50.826101+00:00"
+    },
+    {
+      "file": "st-91000.html",
+      "sha256": "b10bc2155f9b8bf902de8c738fa2cb0b88dcbe8434a85030fdc456cdc916bba5",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Dinant",
+      "retrievedAt": "2026-10-08T13:01:53.419617+00:00"
+    },
+    {
+      "file": "st-92000.html",
+      "sha256": "70f0d46228478ef8ed7a0cd4de7391fdf80442264146a2a60dbf094bc91d9513",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Namen",
+      "retrievedAt": "2026-10-08T13:01:55.877082+00:00"
+    },
+    {
+      "file": "st-93000.html",
+      "sha256": "705d0ba9d4b3fb7aa18a47a78334f4c30c91677ed58fef32e4aa981ac3bd888d",
+      "viewUrl": "https://bestat.statbel.fgov.be/bestat/crosstable.xhtml?view=85c773d0-06ed-4e02-9e91-87124e2684d6",
+      "selection": "Arrondissement Philippeville",
+      "retrievedAt": "2026-10-08T13:01:58.719912+00:00"
+    }
+  ]
+}

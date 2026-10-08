@@ -124,14 +124,26 @@ export function GeoMultiFilter({
   selected,
   onChange,
   allowArrondissements = false,
+  arrondissementOptions,
 }: {
   selected: string[]
   onChange: (next: string[]) => void
   allowArrondissements?: boolean
+  arrondissementOptions?: Option[]
 }) {
   return (
     <MultiSelectInline
-      groups={allowArrondissements ? GEO_GROUPS_WITH_ARRONDISSEMENTEN : GEO_GROUPS}
+      groups={allowArrondissements
+        ? GEO_GROUPS_WITH_ARRONDISSEMENTEN.map((group) => ({
+            ...group,
+            options: group.heading.startsWith("Arrondissementen") && arrondissementOptions
+              ? group.options.flatMap((option) => {
+                  const sourceOption = arrondissementOptions.find((item) => item.code === option.code)
+                  return sourceOption ? [sourceOption] : []
+                }).sort((a, b) => a.label.localeCompare(b.label, "nl"))
+              : group.options,
+          })).filter((group) => group.options.length > 0)
+        : GEO_GROUPS}
       selected={selected}
       onChange={(next) => onChange(normalizeGeos(next, allowArrondissements))}
       allLabel="België"

@@ -37,6 +37,10 @@ import {
   REDRAWN_ARRONDISSEMENTS,
   labelsFor,
   aggregateAnnualRows,
+  ArrondissementFlowLookups,
+  arrondissementFlowNotes,
+  flowArrondissementOptions,
+  Option,
 } from "@/lib/selection"
 import { GeoMultiFilter, MultiSelectInline } from "@/components/MultiSelectInline"
 import { useLazyJson } from "@/lib/use-lazy-json"
@@ -85,8 +89,8 @@ type AnnualFlowRow = {
   y: number
   g: string
   n1: string
-  fr: number
-  st: number
+  fr: number | null
+  st: number | null
   p?: number // 1 = voorlopig, geschat uit de maandcijfers
 }
 
@@ -297,16 +301,18 @@ function aggregateSurvivalRateByYear(rows: VatSurvivalRow[], key: SurvivalKey): 
 function TimeRangeTabs({
   value,
   onChange,
+  yearlyOnly = false,
 }: {
   value: TimeRange
   onChange: (value: TimeRange) => void
+  yearlyOnly?: boolean
 }) {
   return (
     <Tabs value={value} onValueChange={(next) => onChange(next as TimeRange)}>
       <TabsList className="h-9">
         <TabsTrigger value="yearly" className="text-xs px-2">Jaar</TabsTrigger>
-        <TabsTrigger value="quarterly" className="text-xs px-2">Kwartaal</TabsTrigger>
-        <TabsTrigger value="monthly" className="text-xs px-2">Maand</TabsTrigger>
+        <TabsTrigger value="quarterly" className="text-xs px-2" disabled={yearlyOnly}>Kwartaal</TabsTrigger>
+        <TabsTrigger value="monthly" className="text-xs px-2" disabled={yearlyOnly}>Maand</TabsTrigger>
       </TabsList>
     </Tabs>
   )
@@ -350,6 +356,7 @@ function MonthlyMetricSection({
   onSelectSectors,
   sectorOptions,
   coverageNote,
+  arrondissementOptions,
   slug,
   sectionId,
 }: {
@@ -364,17 +371,18 @@ function MonthlyMetricSection({
   onSelectSectors: (value: string[]) => void
   sectorOptions: Array<{ code: string; label: string }>
   coverageNote: string
+  arrondissementOptions: Option[]
   slug: string
   sectionId: string
 }) {
   const [currentView, setCurrentView] = React.useState<"chart" | "table">("chart")
-  const locationLabel = describeGeos(selectedGeos)
+  const locationLabel = describeGeos(selectedGeos, arrondissementOptions)
   const exportTitle = title + (selectedGeos.length > 0 ? ` - ${locationLabel}` : "")
   const periodHeader = timeRange === "yearly" ? "Jaar" : "Periode"
   const timeRangeLabel = timeRange === "yearly" ? "Per jaar" : timeRange === "quarterly" ? "Per kwartaal" : "Per maand"
   const sectorLabel = selectedSectors.length > 0 ? labelsFor(selectedSectors, sectorOptions).join(", ") : "Alle sectoren"
   const hasProvisional = data.some((point) => point.provisional)
-  const exportFullTitle = `${exportTitle} (Locatie: ${geoLabelsText(selectedGeos)}; Sector: ${sectorLabel}; Periode: ${timeRangeLabel})${hasProvisional ? " - * voorlopig, geschat uit de maandcijfers" : ""}`
+  const exportFullTitle = `${exportTitle} (Locatie: ${geoLabels(selectedGeos, arrondissementOptions).join(", ")}; Sector: ${sectorLabel}; Periode: ${timeRangeLabel})${hasProvisional ? " - * voorlopig, geschat uit de maandcijfers" : ""}`
   const exportSource = timeRange === "yearly"
     ? {
         title: "Statbel - Jaarlijkse evolutie van de btw-plichtige ondernemingen",
@@ -419,9 +427,17 @@ function MonthlyMetricSection({
             <TabsTrigger value="table">Tabel</TabsTrigger>
           </TabsList>
           <div className="flex flex-wrap items-center gap-2">
-            <GeoMultiFilter selected={selectedGeos} onChange={onSelectGeos} />
+            <GeoMultiFilter
+              selected={selectedGeos}
+              onChange={(next) => {
+                if (next.some(isArrondissement)) onTimeRangeChange("yearly")
+                onSelectGeos(next)
+              }}
+              allowArrondissements
+              arrondissementOptions={arrondissementOptions}
+            />
             <SectorMultiFilter selected={selectedSectors} onChange={onSelectSectors} options={sectorOptions} />
-            <TimeRangeTabs value={timeRange} onChange={onTimeRangeChange} />
+            <TimeRangeTabs value={timeRange} onChange={onTimeRangeChange} yearlyOnly={selectedGeos.some(isArrondissement)} />
           </div>
         </div>
 
@@ -745,6 +761,7 @@ function InnerDashboard() {
     survivalRaw: VatSurvivalRow[]
     survivalLookups: any
     migration: MigrationData
+    arrondissementFlowLookups: ArrondissementFlowLookups
   }>({
     monthlyRaw: "/data/vat_monthly_flows.json",
     monthlyRegionalRaw: "/data/vat_monthly_flows_regions.json",
@@ -759,6 +776,7 @@ function InnerDashboard() {
     survivalRaw: "/data/vat_survivals.json",
     survivalLookups: "/data/lookups.json",
     migration: "/data/vat_migration.json",
+    arrondissementFlowLookups: "/data/vat_yearly_flows_arrondissements_lookups.json",
   })
 
   const monthlyRows = React.useMemo(() => bundle?.monthlyRaw ?? [], [bundle])
@@ -767,9 +785,13 @@ function InnerDashboard() {
     () => [...(bundle?.monthlyRegionalRaw ?? []), ...(bundle?.monthlyProvincialRaw ?? [])],
     [bundle]
   )
+  const needsFlowArrondissements = monthlyGeos.some(isArrondissement)
+  const arrondissementFlows = useLazyJson<AnnualFlowRow[]>(
+    "/data/vat_yearly_flows_arrondissements.json", needsFlowArrondissements
+  )
   const yearlyRows = React.useMemo(
-    () => [...(bundle?.yearlyRaw ?? []), ...(bundle?.yearlyProvincialRaw ?? [])],
-    [bundle]
+    () => [...(bundle?.yearlyRaw ?? []), ...(bundle?.yearlyProvincialRaw ?? []), ...(arrondissementFlows.data ?? [])],
+    [bundle, arrondissementFlows.data]
   )
   // Arrondissementen (4 MB) worden pas geladen als er een gekozen is.
   const needsArrondissements = enterpriseGeos.some(isArrondissement)
@@ -791,7 +813,7 @@ function InnerDashboard() {
   const enterpriseSourceUrl = bundle?.monthlySummary?.enterpriseCounts?.sourceUrl ?? bundle?.enterpriseLookups?.sourceUrl
 
   const flowSeries = React.useMemo(() => {
-    const dimensions = [geoDimension(monthlyGeos), { selected: monthlySectors, options: monthlySectorOptions }]
+    const dimensions = [geoDimension(monthlyGeos, flowArrondissementOptions(bundle?.arrondissementFlowLookups)), { selected: monthlySectors, options: monthlySectorOptions }]
     const compute = (metric: "fr" | "st") => compareSelections(dimensions, ([geos, sectors]) => {
       if (monthlyTimeRange === "yearly") return aggregateAnnualRows(yearlyRows, metric, geos, sectors)
       const rows = geos.length === 0
@@ -802,7 +824,7 @@ function InnerDashboard() {
       return aggregateMonthlyMetric(complete, metric, monthlyTimeRange)
     })
     return { starters: compute("fr"), stoppers: compute("st") }
-  }, [monthlyGeos, monthlySectors, monthlySectorOptions, monthlyTimeRange, yearlyRows, monthlyRows, monthlyRegionalRows])
+  }, [bundle, monthlyGeos, monthlySectors, monthlySectorOptions, monthlyTimeRange, yearlyRows, monthlyRows, monthlyRegionalRows])
   const startersSeries = flowSeries.starters
   const stoppersSeries = flowSeries.stoppers
 
@@ -832,13 +854,16 @@ function InnerDashboard() {
     const geoLevel = isProvince ? "gewest en provincie" : "gewest"
 
     if (monthlyTimeRange === "yearly") {
-      return `Jaarcijfers per sector en ${geoLevel} lopen van ${yearlyMinYear} tot en met ${yearlyMaxYear}. Deze jaarlijkse starters en stoppers zijn Statbel-jaarfoto's op 31 december en verschillen dus van de som van maandcijfers.`
+      const notes = arrondissementFlowNotes(monthlyGeos, bundle?.arrondissementFlowLookups)
+      if (needsFlowArrondissements && arrondissementFlows.loading) notes.push("Arrondissementscijfers worden geladen...")
+      if (needsFlowArrondissements && arrondissementFlows.error) notes.push(arrondissementFlows.error)
+      return [`Jaarcijfers per sector en ${geoLevel} lopen van ${yearlyMinYear} tot en met ${yearlyMaxYear}. Deze jaarlijkse starters en stoppers zijn Statbel-jaarfoto's op 31 december en verschillen dus van de som van maandcijfers.`, ...notes].join(" ")
     }
 
     return isProvince
       ? `Kwartaal- en maanddata per provincie starten in ${monthlyMinYear}: de DataLab-reeks voor 2019-2020 bestaat enkel op gewestniveau.`
       : `Kwartaal- en maanddata starten in ${monthlyMinYear}. Voor die fijnere uitsplitsing gebruikt de app de maandelijkse Statbel-reeks.`
-  }, [bundle, monthlyHasProvince, monthlyTimeRange])
+  }, [bundle, monthlyGeos, monthlyHasProvince, monthlyTimeRange, needsFlowArrondissements, arrondissementFlows.loading, arrondissementFlows.error])
 
   const enterpriseCoverageNote = React.useMemo(() => {
     const notes = enterpriseGeoNotes(
@@ -875,7 +900,7 @@ function InnerDashboard() {
       <div className="rounded-lg border bg-muted/30 p-4 text-sm text-muted-foreground">
         <p>
           De secties <strong>starters</strong> en <strong>stoppers</strong> combineren nu twee Statbel-reeksen: een jaarlijkse reeks per sector en gewest vanaf 2008, en een maandelijkse reeks vanaf 2019.
-          Meest recente maand: {latestMonthlyLabel ?? "onbekend"}. Per sectie kun je België, één of meerdere gewesten en provincies (Brussel enkel als gewest) en één of meerdere sectoren kiezen. Elke gekozen combinatie verschijnt als een aparte grafiekreeks en tabelkolom, ook bij overlappende gebieden. Ontbrekende brondata worden met een streepje weergegeven. Je kunt ook wisselen tussen jaar-, kwartaal- of maandniveau.
+          Meest recente maand: {latestMonthlyLabel ?? "onbekend"}. Per sectie kun je België, één of meerdere gewesten en provincies (Brussel enkel als gewest) en één of meerdere sectoren kiezen. Voor starters en stoppers zijn arrondissementen beschikbaar op jaarniveau; kiezen van een arrondissement schakelt naar jaarcijfers. Elke gekozen combinatie verschijnt als een aparte grafiekreeks en tabelkolom, ook bij overlappende gebieden. Ontbrekende brondata worden met een streepje weergegeven. Je kunt ook wisselen tussen jaar-, kwartaal- of maandniveau.
         </p>
         <p className="mt-2">
           De jaarreeks loopt momenteel tot en met {bundle.monthlySummary.yearlyMaxYear}. Voor 2019-2020 gebruikt Statbel in de maandreeks een DataLab-bron op T+30; vanaf 2021 is dit de offici&euml;le maandreeks op T+45.
@@ -895,6 +920,7 @@ function InnerDashboard() {
         onSelectSectors={setMonthlySectors}
         sectorOptions={monthlySectorOptions}
         coverageNote={monthlyCoverageNote}
+        arrondissementOptions={flowArrondissementOptions(bundle.arrondissementFlowLookups)}
         slug="starters-stoppers"
         sectionId="starters"
       />
@@ -911,6 +937,7 @@ function InnerDashboard() {
         onSelectSectors={setMonthlySectors}
         sectorOptions={monthlySectorOptions}
         coverageNote={monthlyCoverageNote}
+        arrondissementOptions={flowArrondissementOptions(bundle.arrondissementFlowLookups)}
         slug="starters-stoppers"
         sectionId="stoppers"
       />

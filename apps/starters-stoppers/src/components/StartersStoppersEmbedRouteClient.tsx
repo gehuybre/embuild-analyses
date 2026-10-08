@@ -28,12 +28,12 @@ export function StartersStoppersEmbedRouteClient({ section }: { section: string 
     const regionParam = prefixedParam(searchParams, "region")
     const migrationRegionList = normalizeMigrationRegions(parseList(regionParam))
     return {
-      // arrondissementen bestaan enkel voor de ondernemingstellingen
+      // Arrondissementen zijn beschikbaar voor ondernemingen en jaarlijkse starters/stoppers.
       geos: geoFromParams(
         regionParam,
         prefixedParam(searchParams, "province"),
         prefixedParam(searchParams, "arrondissement"),
-        section.startsWith("enterprises")
+        section.startsWith("enterprises") || section === "starters" || section === "stoppers"
       ),
       sectors: parseList(prefixedParam(searchParams, "sector")),
       workerClasses: parseList(prefixedParam(searchParams, "workerClass")),

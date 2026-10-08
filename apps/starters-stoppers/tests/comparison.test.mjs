@@ -30,7 +30,7 @@ registerHooks({
 })
 
 const { compareSelections, geoDimension, mergeComparisons, comparisonChartData, comparisonCells } = await import("../src/lib/comparison.ts")
-const { normalizeGeos, geoFromParams, geoEmbedParams, aggregateAnnualRows, filterEnterpriseRows, GEO_ARRONDISSEMENT_GROUPS, GEO_ARRONDISSEMENTS, GEO_PROVINCES } = await import("../src/lib/selection.ts")
+const { normalizeGeos, geoFromParams, geoEmbedParams, aggregateAnnualRows, filterEnterpriseRows, GEO_ARRONDISSEMENT_GROUPS, GEO_ARRONDISSEMENTS, GEO_PROVINCES, flowTimeRange, arrondissementFlowNotes } = await import("../src/lib/selection.ts")
 const { buildMigrationComparisonSeries, buildMigrationSeries, buildMigrationMatrix, normalizeMigrationRegions } = await import("../src/lib/migration.ts")
 const { aggregateBankruptcies, bankruptcyRatePerThousand } = await import("../src/lib/bankruptcy.ts")
 const point = (year, value) => ({ sortValue: year, label: String(year), periodCells: [year], value })
@@ -90,6 +90,35 @@ test("period union preserves zeros, missing data and provisional labels", () => 
   assert.deepEqual(comparisonCells(data[0], String), ["0", "—"])
   assert.equal(comparisonChartData(data)[0].comparison1, null)
   assert.equal(data[1].label, "2024*")
+})
+
+test("arrondissement flows are annual and missing source cells never become zero", () => {
+  assert.equal(flowTimeRange("monthly", ["24000", "2000"]), "yearly")
+  assert.equal(flowTimeRange("quarterly", ["20001"]), "quarterly")
+  assert.ok(arrondissementFlowNotes(["24000"])[0].includes("geen maand-"))
+  assert.equal(arrondissementFlowNotes(["51000"]).length, 2)
+  const rows = [
+    { y: 2024, g: "24000", n1: "F", fr: null, st: 12 },
+    { y: 2024, g: "24000", n1: "G", fr: 0, st: 0 },
+  ]
+  assert.deepEqual(aggregateAnnualRows(rows, "fr", ["24000"], ["F"]), [])
+  assert.equal(aggregateAnnualRows(rows, "st", ["24000"], ["F"])[0].value, 12)
+  assert.equal(aggregateAnnualRows(rows, "fr", ["24000"], ["G"])[0].value, 0)
+})
+
+test("official arrondissement series compare alongside their province without estimates", () => {
+  const rows = [...json("vat_yearly_flows_provinces"), ...json("vat_yearly_flows_arrondissements")]
+  for (const metric of ["fr", "st"]) {
+    const result = compareSelections([geoDimension(["20001", "23000", "24000"])],
+      ([geos]) => aggregateAnnualRows(rows, metric, geos, []))
+    const year = result.find((point) => point.sortValue === 2024)
+    const values = year.comparisons.map((comparison) => comparison.value)
+    assert.equal(values[0], values[1] + values[2])
+    const provisional = result.find((point) => point.sortValue === 2025)
+    if (provisional) assert.deepEqual(provisional.comparisons.slice(1).map((comparison) => comparison.value), [null, null])
+  }
+  const all = json("vat_yearly_flows_arrondissements")
+  assert.ok(all.every((row) => row.y <= 2024 && !row.p))
 })
 
 test("annual counts match the source separately for Vlaanderen, Wallonie and Vlaams-Brabant", () => {

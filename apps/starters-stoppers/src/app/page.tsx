@@ -30,6 +30,12 @@ const BANKRUPTCY_SOURCE = {
 }
 
 const additionalSources = [
+  {
+    label: "Starters en stoppers per arrondissement (jaarcijfers)",
+    provider: "Statbel",
+    title: "Jaarevolutie van de btw-plichtige ondernemingen, be.STAT",
+    url: "https://statbel.fgov.be/nl/themas/ondernemingen/btw-plichtige-ondernemingen/jaarevolutie-van-de-btw-plichtige-ondernemingen",
+  },
   { label: "Faillissementen (aantal, getroffen werknemers, leeftijd, werknemersklasse)", ...BANKRUPTCY_SOURCE },
   {
     label: "Faillissementen per 1.000 ondernemingen",

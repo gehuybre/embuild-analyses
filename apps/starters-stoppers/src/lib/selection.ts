@@ -51,6 +51,34 @@ export function isArrondissement(code: string): boolean {
   return GEO_ARRONDISSEMENTS.some((arrondissement) => arrondissement.code === code)
 }
 
+export type ArrondissementFlowLookups = {
+  years: number[]
+  arrondissements: Array<{ code: string; label: string; provinceCode: string }>
+  sourceUrls: string[]
+  notes: string[]
+}
+
+export function flowArrondissementOptions(lookups?: ArrondissementFlowLookups | null): Option[] {
+  return (lookups?.arrondissements ?? []).map((area) => ({
+    code: area.code,
+    label: `${area.label} (${GEO_PROVINCES.find((province) => province.code === area.provinceCode)?.label ?? area.provinceCode})`,
+  }))
+}
+
+export function flowTimeRange(timeRange: "yearly" | "quarterly" | "monthly", geos: string[]) {
+  return geos.some(isArrondissement) ? "yearly" : timeRange
+}
+
+export function arrondissementFlowNotes(geos: string[], lookups?: ArrondissementFlowLookups | null): string[] {
+  if (!geos.some(isArrondissement)) return []
+  const years = lookups?.years.length ? ` (${formatYearRanges(lookups.years)})` : ""
+  const notes = [`Arrondissementen hebben enkel officiële jaarcijfers${years}; geen maand- of kwartaalreeks en geen voorlopige schatting voor latere jaren.`]
+  if (geos.some((code) => REDRAWN_ARRONDISSEMENTS.includes(code))) {
+    notes.push("De Henegouwse arrondissementgrenzen wijzigen in 2018. Vergelijk deze reeksen niet over die grens; de provincie Henegouwen blijft vergelijkbaar.")
+  }
+  return notes
+}
+
 const REGION_CODES = GEO_REGIONS.map((region) => region.code)
 const GEO_LABELS = new Map<string, string>([
   [BELGIUM, "België"],
@@ -69,7 +97,7 @@ export function joinList(values: string[]): string | null {
 
 /**
  * Bewaart ook overlappende gebieden: elke locatie wordt een afzonderlijke vergelijkingsreeks.
- * Arrondissementen bestaan enkel voor de ondernemingstellingen.
+ * Arrondissementen zijn beschikbaar voor ondernemingstellingen en jaarlijkse starters/stoppers.
  */
 export function normalizeGeos(codes: string[], allowArrondissements = false): string[] {
   const unique = Array.from(new Set(codes.filter(Boolean)))
@@ -99,8 +127,8 @@ export function geoFromParams(region: string | null, province: string | null, ar
   return normalizeGeos([...parseList(region), ...parseList(province), ...parseList(arrondissement)], allowArrondissements)
 }
 
-export function geoLabels(geos: string[]): string[] {
-  return geos.length === 0 ? ["België"] : geos.map((code) => GEO_LABELS.get(code) ?? code)
+export function geoLabels(geos: string[], options: Option[] = []): string[] {
+  return geos.length === 0 ? ["België"] : geos.map((code) => options.find((option) => option.code === code)?.label ?? GEO_LABELS.get(code) ?? code)
 }
 
 /** Korte omschrijving voor titels: één of twee namen, anders het aantal. */
@@ -108,8 +136,8 @@ export function describeSelection(labels: string[], noun: string, max = 2): stri
   return labels.length <= max ? labels.join(", ") : `${labels.length} ${noun}`
 }
 
-export function describeGeos(geos: string[]): string {
-  return describeSelection(geoLabels(geos), "locaties")
+export function describeGeos(geos: string[], options: Option[] = []): string {
+  return describeSelection(geoLabels(geos, options), "locaties")
 }
 
 export function labelsFor(codes: string[], options: Option[]): string[] {
@@ -194,12 +222,12 @@ export type AnnualPoint = {
   provisional?: boolean
 }
 
-type AnnualRow = { y: number; g: string; n1: string; fr: number; st: number; p?: number }
+type AnnualRow = { y: number; g: string; n1: string; fr: number | null; st: number | null; p?: number }
 
 /** Telt de jaarcijfers van alle gekozen locaties en sectoren op. Een jaar is voorlopig (*) als de bron het zo markeert. */
 export function aggregateAnnualRows(rows: AnnualRow[], metric: "fr" | "st", geos: string[], sectors: string[]): AnnualPoint[] {
   const filtered = keepCompleteGroups(
-    filterGeoSectorRows(rows, geos, sectors),
+    filterGeoSectorRows(rows, geos, sectors).filter((row) => typeof row[metric] === "number"),
     (row) => String(row.y),
     (row) => `${row.g}|${row.n1}`,
     expectedCells(geos, sectors)
@@ -207,7 +235,9 @@ export function aggregateAnnualRows(rows: AnnualRow[], metric: "fr" | "st", geos
   const grouped = new Map<number, { value: number; provisional: boolean }>()
   for (const row of filtered) {
     const current = grouped.get(row.y) ?? { value: 0, provisional: false }
-    current.value += row[metric]
+    const value = row[metric]
+    if (value === null) continue
+    current.value += value
     current.provisional = current.provisional || row.p === 1
     grouped.set(row.y, current)
   }

@@ -19,6 +19,10 @@ import {
   enterpriseGeoNotes,
   formatYearRanges,
   isArrondissement,
+  ArrondissementFlowLookups,
+  arrondissementFlowNotes,
+  flowTimeRange,
+  flowArrondissementOptions,
 } from "@/lib/selection"
 import { useLazyJson } from "@/lib/use-lazy-json"
 import { EmbedFilters } from "@/components/EmbedFilters"
@@ -62,8 +66,8 @@ type AnnualFlowRow = {
   y: number
   g: string
   n1: string
-  fr: number
-  st: number
+  fr: number | null
+  st: number | null
   p?: number // 1 = voorlopig, geschat uit de maandcijfers
 }
 
@@ -240,13 +244,15 @@ export function StartersStoppersEmbed({
   geos = [],
   sectors = [],
   workerClasses = [],
-  timeRange = "yearly",
+  timeRange: requestedTimeRange = "yearly",
   migrationRegions = [],
   counterparts = [],
   migrationDim = "tot",
   categories = [],
   year = null,
 }: StartersStoppersEmbedProps) {
+  const isFlowSection = section === "starters" || section === "stoppers"
+  const timeRange = isFlowSection ? flowTimeRange(requestedTimeRange, geos) : requestedTimeRange
   const { data: bundle, loading, error } = useJsonBundle<{
     monthlyRaw: MonthlyFlowRow[]
     monthlyRegionalRaw: RegionalMonthlyFlowRow[]
@@ -261,6 +267,7 @@ export function StartersStoppersEmbed({
     migration: MigrationData
     monthlyLookups: { sectors: Array<{ code: string; nl: string }> }
     survivalLookups: { nace_lvl1?: Array<{ code: string; nl?: string | null; en?: string | null }> }
+    arrondissementFlowLookups: ArrondissementFlowLookups
   }>({
     monthlyRaw: "/data/vat_monthly_flows.json",
     monthlyRegionalRaw: "/data/vat_monthly_flows_regions.json",
@@ -275,6 +282,7 @@ export function StartersStoppersEmbed({
     migration: "/data/vat_migration.json",
     monthlyLookups: "/data/vat_monthly_lookups.json",
     survivalLookups: "/data/lookups.json",
+    arrondissementFlowLookups: "/data/vat_yearly_flows_arrondissements_lookups.json",
   })
 
   const monthlyRows = useMemo(() => bundle?.monthlyRaw ?? [], [bundle])
@@ -283,7 +291,12 @@ export function StartersStoppersEmbed({
     () => [...(bundle?.monthlyRegionalRaw ?? []), ...(bundle?.monthlyProvincialRaw ?? [])],
     [bundle]
   )
-  const yearlyRows = useMemo(() => [...(bundle?.yearlyRaw ?? []), ...(bundle?.yearlyProvincialRaw ?? [])], [bundle])
+  const arrondissementFlows = useLazyJson<AnnualFlowRow[]>(
+    "/data/vat_yearly_flows_arrondissements.json", isFlowSection && geos.some(isArrondissement)
+  )
+  const yearlyRows = useMemo(() => [
+    ...(bundle?.yearlyRaw ?? []), ...(bundle?.yearlyProvincialRaw ?? []), ...(arrondissementFlows.data ?? []),
+  ], [bundle, arrondissementFlows.data])
   const isEnterpriseSection = section === "enterprises" || section === "enterprises-no-staff"
   const arrondissementData = useLazyJson<EnterpriseWorkerClassRow[]>(
     "/data/vat_enterprises_worker_class_arrondissements.json",
@@ -301,7 +314,7 @@ export function StartersStoppersEmbed({
     const sectorOptions = section === "survival"
       ? (bundle?.survivalLookups?.nace_lvl1 ?? []).map((row) => ({ code: row.code, label: `${row.code} — ${row.nl ?? row.en ?? ""}` }))
       : (bundle?.monthlyLookups?.sectors ?? []).map((row) => ({ code: row.code, label: `${row.code} — ${row.nl}` }))
-    const dimensions = [geoDimension(geos), { selected: sectors, options: sectorOptions }]
+    const dimensions = [geoDimension(geos, isFlowSection ? flowArrondissementOptions(bundle?.arrondissementFlowLookups) : []), { selected: sectors, options: sectorOptions }]
     if (section === "enterprises") dimensions.push({
       selected: workerClasses,
       options: (bundle?.enterpriseLookups?.workerClasses ?? []).map((row) => ({ code: row.code, label: row.nl })),
@@ -330,9 +343,9 @@ export function StartersStoppersEmbed({
     }
     return aggregateSurvivalRateByYear(filterSurvivalRows(survivalRows, geos, sectors), horizon)
     })
-  }, [bundle, enterpriseRows, geos, horizon, monthlyRegionalRows, monthlyRows, sectors, section, survivalRows, timeRange, workerClasses, yearlyRows])
+  }, [bundle, enterpriseRows, geos, horizon, isFlowSection, monthlyRegionalRows, monthlyRows, sectors, section, survivalRows, timeRange, workerClasses, yearlyRows])
 
-  const geoSuffix = geos.length > 0 ? ` - ${describeGeos(geos)}` : ""
+  const geoSuffix = geos.length > 0 ? ` - ${describeGeos(geos, isFlowSection ? flowArrondissementOptions(bundle?.arrondissementFlowLookups) : [])}` : ""
   const title = useMemo(() => {
     if (section === "starters") return `Aantal starters${geoSuffix}`
     if (section === "stoppers") return `Aantal stoppers${geoSuffix}`
@@ -351,7 +364,7 @@ export function StartersStoppersEmbed({
         : (bundle?.monthlyLookups?.sectors ?? []).map((row) => ({ code: row.code, label: `${row.code} — ${row.nl}` }))
 
     const items: FilterItem[] = [
-      { label: "Locatie", value: geoLabels(geos).join(", ") },
+      { label: "Locatie", value: geoLabels(geos, isFlowSection ? flowArrondissementOptions(bundle?.arrondissementFlowLookups) : []).join(", ") },
       { label: "Sector", value: sectors.length > 0 ? labelsFor(sectors, sectorOptions).join(", ") : "Alle sectoren" },
     ]
     if (section === "starters" || section === "stoppers") {
@@ -367,9 +380,15 @@ export function StartersStoppersEmbed({
       items.push({ label: "Horizon", value: `na ${horizon} jaar` })
     }
     return items
-  }, [bundle, geos, horizon, sectors, section, timeRange, workerClassLabels, workerClasses])
+  }, [bundle, geos, horizon, isFlowSection, sectors, section, timeRange, workerClassLabels, workerClasses])
 
   const geoNotes = useMemo(() => {
+    if (isFlowSection) {
+      const notes = arrondissementFlowNotes(geos, bundle?.arrondissementFlowLookups)
+      if (arrondissementFlows.loading) notes.unshift("Arrondissementscijfers worden geladen...")
+      if (arrondissementFlows.error) notes.unshift(arrondissementFlows.error)
+      return notes
+    }
     if (!isEnterpriseSection) return []
     const notes = enterpriseGeoNotes(geos, enterpriseAvailableYears, [
       ...(bundle?.enterpriseLookups?.provinceYears ?? []).filter(
@@ -379,7 +398,7 @@ export function StartersStoppersEmbed({
     if (arrondissementData.loading) notes.unshift("Arrondissementsgegevens worden geladen...")
     if (arrondissementData.error) notes.unshift(arrondissementData.error)
     return notes
-  }, [arrondissementData.error, arrondissementData.loading, bundle, enterpriseAvailableYears, geos, isEnterpriseSection])
+  }, [arrondissementData.error, arrondissementData.loading, arrondissementFlows.error, arrondissementFlows.loading, bundle, enterpriseAvailableYears, geos, isEnterpriseSection, isFlowSection])
 
   if (loading) {
     return <div className="p-4">Data laden...</div>

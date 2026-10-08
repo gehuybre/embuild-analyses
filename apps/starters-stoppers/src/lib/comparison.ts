@@ -29,8 +29,8 @@ export function selectionCombinations(dimensions: ComparisonDimension[]) {
   )
 }
 
-export function geoDimension(geos: string[]): ComparisonDimension {
-  return { selected: geos, options: geos.map((code) => ({ code, label: geoLabels([code])[0] })) }
+export function geoDimension(geos: string[], options: Option[] = []): ComparisonDimension {
+  return { selected: geos, options: geos.map((code) => options.find((option) => option.code === code) ?? ({ code, label: geoLabels([code])[0] })) }
 }
 
 /** Align on the union of periods: missing source data is null, never a zero or an incomplete sum. */

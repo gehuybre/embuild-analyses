@@ -39,6 +39,9 @@ jobs:
       - name: Refresh monthly starters-stoppers data
         run: python "${APP_ROOT}/scripts/process_monthly_data.py"
 
+      - name: Refresh yearly starters-stoppers by arrondissement
+        run: python "${APP_ROOT}/scripts/process_arrondissement_flows.py"
+
       - name: Refresh enterprise counts by worker class
         run: python "${APP_ROOT}/scripts/process_enterprise_data.py"
 
@@ -60,6 +63,8 @@ jobs:
           test -f "${APP_ROOT}/public/data/vat_monthly_flows_regions.json"
           test -f "${APP_ROOT}/public/data/vat_monthly_lookups.json"
           test -f "${APP_ROOT}/public/data/vat_yearly_flows.json"
+          test -f "${APP_ROOT}/public/data/vat_yearly_flows_arrondissements.json"
+          test -f "${APP_ROOT}/public/data/vat_yearly_flows_arrondissements_lookups.json"
           test -f "${APP_ROOT}/public/data/vat_monthly_flows_provinces.json"
           test -f "${APP_ROOT}/public/data/vat_yearly_flows_provinces.json"
           test -f "${APP_ROOT}/public/data/vat_enterprises_worker_class_provinces.json"
