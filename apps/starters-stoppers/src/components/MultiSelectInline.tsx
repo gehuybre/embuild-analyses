@@ -14,7 +14,7 @@ import {
 } from "@embuild/shared/components/ui/command"
 import { Popover, PopoverContent, PopoverTrigger } from "@embuild/shared/components/ui/popover"
 import { cn } from "@embuild/shared/lib/utils"
-import { GEO_ARRONDISSEMENTS, GEO_PROVINCES, GEO_REGIONS, Option, normalizeGeos, describeSelection, labelsFor } from "@/lib/selection"
+import { GEO_ARRONDISSEMENT_GROUPS, GEO_PROVINCES, GEO_REGIONS, Option, normalizeGeos, describeSelection, labelsFor } from "@/lib/selection"
 
 export type OptionGroup = { heading: string; options: Option[] }
 
@@ -114,7 +114,7 @@ const GEO_GROUPS: OptionGroup[] = [
 
 const GEO_GROUPS_WITH_ARRONDISSEMENTEN: OptionGroup[] = [
   ...GEO_GROUPS,
-  { heading: "Arrondissement", options: GEO_ARRONDISSEMENTS.map(({ code, label }) => ({ code, label })) },
+  ...GEO_ARRONDISSEMENT_GROUPS,
 ]
 
 /**

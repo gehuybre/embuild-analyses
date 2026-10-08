@@ -30,11 +30,28 @@ registerHooks({
 })
 
 const { compareSelections, geoDimension, mergeComparisons, comparisonChartData, comparisonCells } = await import("../src/lib/comparison.ts")
-const { normalizeGeos, geoFromParams, geoEmbedParams, aggregateAnnualRows, filterEnterpriseRows } = await import("../src/lib/selection.ts")
+const { normalizeGeos, geoFromParams, geoEmbedParams, aggregateAnnualRows, filterEnterpriseRows, GEO_ARRONDISSEMENT_GROUPS, GEO_ARRONDISSEMENTS, GEO_PROVINCES } = await import("../src/lib/selection.ts")
 const { buildMigrationComparisonSeries, buildMigrationSeries, buildMigrationMatrix, normalizeMigrationRegions } = await import("../src/lib/migration.ts")
 const { aggregateBankruptcies, bankruptcyRatePerThousand } = await import("../src/lib/bankruptcy.ts")
 const point = (year, value) => ({ sortValue: year, label: String(year), periodCells: [year], value })
 const json = (name) => JSON.parse(readFileSync(new URL(`public/data/${name}.json`, app), "utf8"))
+
+test("arrondissement filters group all areas by province with alphabetical ordering", () => {
+  assert.deepEqual(GEO_ARRONDISSEMENT_GROUPS.map((group) => group.heading),
+    GEO_PROVINCES.map((province) => `Arrondissementen - ${province.label}`))
+  const codes = GEO_ARRONDISSEMENT_GROUPS.flatMap((group) => group.options.map((option) => option.code))
+  assert.equal(new Set(codes).size, GEO_ARRONDISSEMENTS.length)
+  assert.equal(codes.length, GEO_ARRONDISSEMENTS.length)
+  GEO_ARRONDISSEMENT_GROUPS.forEach((group, index) => {
+    assert.deepEqual(group.options.map((option) => option.label),
+      group.options.map((option) => option.label).sort((a, b) => a.localeCompare(b, "nl")))
+    for (const option of group.options) {
+      assert.equal(GEO_ARRONDISSEMENTS.find((area) => area.code === option.code).provinceCode, GEO_PROVINCES[index].code)
+    }
+  })
+  const brabant = GEO_ARRONDISSEMENT_GROUPS.find((group) => group.heading === "Arrondissementen - Vlaams-Brabant")
+  assert.deepEqual(brabant.options.map((option) => option.code), ["23000", "24000"])
+})
 
 test("overlapping geographies and all three regions survive filters and embed round trips", () => {
   const geos = ["2000", "3000", "20001", "23000"]

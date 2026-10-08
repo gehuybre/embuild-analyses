@@ -38,6 +38,12 @@ export const GEO_ARRONDISSEMENTS: GeoArrondissement[] = [...ARRONDISSEMENTS, ...
   })
   .sort((a, b) => a.label.localeCompare(b.label, "nl"))
 
+export const GEO_ARRONDISSEMENT_GROUPS: Array<{ heading: string; options: Option[] }> = GEO_PROVINCES.map((province) => ({
+  heading: `Arrondissementen - ${province.label}`,
+  options: GEO_ARRONDISSEMENTS.filter((arrondissement) => arrondissement.provinceCode === province.code)
+    .map(({ code, label }) => ({ code, label })),
+})).filter((group) => group.options.length > 0)
+
 /** Henegouwse arrondissementen waarvan de grenzen in 2018 herschikt werden: de reeksen zijn niet vergelijkbaar over die grens. */
 export const REDRAWN_ARRONDISSEMENTS = ["51000", "54000", "55000", "56000", "57000", "58000"]
 
