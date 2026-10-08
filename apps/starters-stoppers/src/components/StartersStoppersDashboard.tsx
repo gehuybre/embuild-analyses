@@ -645,6 +645,9 @@ function MonthlyMetricSection({
   const locationLabel = React.useMemo(() => formatGeoLabel(selectedRegion, selectedProvince), [selectedProvince, selectedRegion])
   const exportTitle = title + (selectedRegion !== "1000" ? ` - ${locationLabel}` : "")
   const periodHeader = timeRange === "yearly" ? "Jaar" : "Periode"
+  const timeRangeLabel = timeRange === "yearly" ? "Per jaar" : timeRange === "quarterly" ? "Per kwartaal" : "Per maand"
+  const sectorLabel = selectedSector ? sectorOptions.find((option) => option.code === selectedSector)?.label ?? selectedSector : "Alle sectoren"
+  const exportFullTitle = `${exportTitle} (Locatie: ${locationLabel}; Sector: ${sectorLabel}; Periode: ${timeRangeLabel})`
   const exportSource = timeRange === "yearly"
     ? {
         title: "Statbel - Jaarlijkse evolutie van de btw-plichtige ondernemingen",
@@ -666,7 +669,7 @@ function MonthlyMetricSection({
         <h2 className="text-2xl font-bold">{exportTitle}</h2>
         <ExportButtons
           data={exportData}
-          title={exportTitle}
+          title={exportFullTitle}
           slug={slug}
           sectionId={sectionId}
           viewType={currentView}
@@ -765,39 +768,50 @@ function EnterpriseCountSection({
   workerClassOptions: Array<{ code: string; label: string }>
   sourceUrl?: string
 }) {
-  const [currentView, setCurrentView] = React.useState<"chart" | "table">("chart")
   const locationLabel = React.useMemo(() => formatGeoLabel(selectedRegion, selectedProvince), [selectedProvince, selectedRegion])
   const title = "Aantal ondernemingen"
   const exportTitle = title + (selectedRegion !== "1000" ? ` - ${locationLabel}` : "")
+  const sectorLabel = selectedSector ? sectorOptions.find((option) => option.code === selectedSector)?.label ?? selectedSector : "Alle sectoren"
+  const workerClassLabel = selectedWorkerClass
+    ? workerClassOptions.find((option) => option.code === selectedWorkerClass)?.label ?? selectedWorkerClass
+    : "Alle grootteklassen"
+  const countFilters = `Locatie: ${locationLabel}; Sector: ${sectorLabel}; Werknemersklasse: ${workerClassLabel}`
+  const shareFilters = `Locatie: ${locationLabel}; Sector: ${sectorLabel}`
   const exportData = React.useMemo(
     () => data.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells })),
     [data]
+  )
+  const shareExportData = React.useMemo(
+    () => noEmployeeShareData.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells })),
+    [noEmployeeShareData]
+  )
+  const geoParams = {
+    region: selectedRegion !== "1000" ? selectedRegion : null,
+    province: selectedProvince,
+    sector: selectedSector,
+  }
+  const countButtons = (view: "chart" | "table") => (
+    <ExportButtons
+      data={exportData}
+      title={`${exportTitle} (${countFilters})`}
+      slug="starters-stoppers"
+      sectionId="enterprises"
+      viewType={view}
+      periodHeaders={["Jaar"]}
+      valueLabel="Aantal ondernemingen"
+      dataSource="Statbel - Ondernemingen volgens werknemersklasse"
+      dataSourceUrl={sourceUrl}
+      embedParams={{ ...geoParams, workerClass: selectedWorkerClass }}
+    />
   )
 
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between gap-3">
         <h2 className="text-2xl font-bold">{exportTitle}</h2>
-        <ExportButtons
-          data={exportData}
-          title={exportTitle}
-          slug="starters-stoppers"
-          sectionId="enterprises"
-          viewType={currentView}
-          periodHeaders={["Jaar"]}
-          valueLabel="Aantal ondernemingen"
-          dataSource="Statbel - Ondernemingen volgens werknemersklasse"
-          dataSourceUrl={sourceUrl}
-          embedParams={{
-            region: selectedRegion !== "1000" ? selectedRegion : null,
-            province: selectedProvince,
-            sector: selectedSector,
-            workerClass: selectedWorkerClass,
-          }}
-        />
       </div>
 
-      <Tabs defaultValue="chart" onValueChange={(value) => setCurrentView(value as "chart" | "table")}>
+      <Tabs defaultValue="chart">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
           <TabsList>
             <TabsTrigger value="chart">Grafiek</TabsTrigger>
@@ -820,8 +834,9 @@ function EnterpriseCountSection({
         <TabsContent value="chart">
           <div className="space-y-4">
             <Card>
-              <CardHeader>
+              <CardHeader className="flex flex-row items-center justify-between gap-3 space-y-0">
                 <CardTitle>Jaarlijkse evolutie</CardTitle>
+                {countButtons("chart")}
               </CardHeader>
               <CardContent>
                 <FilterableChart
@@ -837,8 +852,20 @@ function EnterpriseCountSection({
             </Card>
 
             <Card>
-              <CardHeader>
+              <CardHeader className="flex flex-row items-center justify-between gap-3 space-y-0">
                 <CardTitle>Aandeel ondernemingen zonder personeel</CardTitle>
+                <ExportButtons
+                  data={shareExportData}
+                  title={`Aandeel ondernemingen zonder personeel - ${locationLabel} (${shareFilters})`}
+                  slug="starters-stoppers"
+                  sectionId="enterprises-no-staff"
+                  viewType="chart"
+                  periodHeaders={["Jaar"]}
+                  valueLabel="Aandeel zonder personeel (%)"
+                  dataSource="Statbel - Ondernemingen volgens werknemersklasse"
+                  dataSourceUrl={sourceUrl}
+                  embedParams={geoParams}
+                />
               </CardHeader>
               <CardContent>
                 <FilterableChart
@@ -859,8 +886,9 @@ function EnterpriseCountSection({
 
         <TabsContent value="table">
           <Card>
-            <CardHeader>
+            <CardHeader className="flex flex-row items-center justify-between gap-3 space-y-0">
               <CardTitle>Data</CardTitle>
+              {countButtons("table")}
             </CardHeader>
             <CardContent>
               <FilterableTable data={data} label="Aantal ondernemingen" periodHeaders={["Jaar"]} />
@@ -908,7 +936,9 @@ function SurvivalSection({
         <h2 className="text-2xl font-bold">{`Overlevingskans na ${stopHorizon} jaar`}</h2>
         <ExportButtons
           data={exportData}
-          title={`Overlevingskans na ${stopHorizon} jaar`}
+          title={`Overlevingskans na ${stopHorizon} jaar (Locatie: ${formatGeoLabel(selectedRegion, selectedProvince)}; Sector: ${
+            selectedSector ? sectorOptions.find((option) => option.code === selectedSector)?.label ?? selectedSector : "Alle sectoren"
+          })`}
           slug="starters-stoppers"
           sectionId="survival"
           viewType={currentView}

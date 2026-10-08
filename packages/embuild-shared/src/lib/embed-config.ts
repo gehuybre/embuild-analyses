@@ -147,9 +147,24 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         component: "StartersStoppersEmbed",
         height: 720,
       },
+      "enterprises-no-staff": {
+        type: "custom",
+        title: "Aandeel ondernemingen zonder personeel",
+        component: "StartersStoppersEmbed",
+      },
       migration: {
         type: "custom",
         title: "Migratie van ondernemingen tussen gewesten",
+        component: "StartersStoppersEmbed",
+      },
+      "migration-balance": {
+        type: "custom",
+        title: "Saldo van migratie tussen gewesten",
+        component: "StartersStoppersEmbed",
+      },
+      "migration-matrix": {
+        type: "custom",
+        title: "Herkomst en bestemming van migrerende ondernemingen",
         component: "StartersStoppersEmbed",
       },
       survival: {

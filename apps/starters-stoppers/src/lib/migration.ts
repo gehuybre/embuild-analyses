@@ -101,3 +101,83 @@ export function migrationTitle(region: string, counterpart: string | null, categ
   }
   return categoryLabel ? `${title} - ${categoryLabel}` : title
 }
+
+export type MigrationMatrixRow = {
+  code: string
+  label: string
+  cells: Record<string, number | null> // per bestemming; null op de diagonaal
+  outflow: number | null
+}
+
+export type MigrationMatrix = {
+  rows: MigrationMatrixRow[]
+  inflow: Record<string, number>
+}
+
+/** Herkomst-bestemmingtabel voor één jaar. De rij "Onbekend" verschijnt enkel als er ondernemingen zonder gekend oorspronkelijk gewest zijn. */
+export function buildMigrationMatrix(
+  data: MigrationData,
+  options: { dim: MigrationDim; category: string | null; year: number }
+): MigrationMatrix {
+  const dim = options.dim === "tot" || !options.category ? "tot" : options.dim
+  const counts = new Map<string, number>()
+  for (const record of data.records) {
+    if (record.y !== options.year || record.dim !== dim) continue
+    if (dim !== "tot" && record.k !== options.category) continue
+    const key = `${record.o}|${record.d}`
+    counts.set(key, (counts.get(key) ?? 0) + record.n)
+  }
+
+  const destinations = MIGRATION_REGION_OPTIONS.map((option) => option.code)
+  const originCodes = [...destinations, "0000"]
+  const rows: MigrationMatrixRow[] = originCodes
+    .map((code) => {
+      const cells: Record<string, number | null> = {}
+      for (const destination of destinations) {
+        cells[destination] = code === destination ? null : counts.get(`${code}|${destination}`) ?? 0
+      }
+      const known = code !== "0000"
+      const outflow = known ? destinations.reduce((sum, destination) => sum + (cells[destination] ?? 0), 0) : null
+      const label = code === "0000" ? "Onbekend" : migrationRegionLabel(code)
+      return { code, label, cells, outflow }
+    })
+    .filter((row) => row.code !== "0000" || destinations.some((destination) => (row.cells[destination] ?? 0) > 0))
+
+  const inflow: Record<string, number> = {}
+  for (const destination of destinations) {
+    inflow[destination] = rows.reduce((sum, row) => sum + (row.cells[destination] ?? 0), 0)
+  }
+  return { rows, inflow }
+}
+
+export type FilterItem = { label: string; value: string }
+
+export function migrationFilterItems(
+  data: MigrationData,
+  options: {
+    region: string
+    counterpart: string | null
+    dim: MigrationDim
+    category: string | null
+    year?: number | null
+    omitRegion?: boolean // de herkomst-bestemmingtabel omvat alle gewesten
+  }
+): FilterItem[] {
+  const items: FilterItem[] = []
+  if (!options.omitRegion) {
+    items.push({ label: "Gewest", value: migrationRegionLabel(options.region) })
+    if (options.region !== MIGRATION_ALL) {
+      items.push({ label: "Tegenpartij", value: options.counterpart ? migrationRegionLabel(options.counterpart) : "Alle andere gewesten" })
+    }
+  }
+  const dimOption = MIGRATION_DIM_OPTIONS.find((option) => option.code === options.dim) ?? MIGRATION_DIM_OPTIONS[0]
+  items.push({ label: "Uitsplitsing", value: dimOption.label })
+  if (options.dim !== "tot") {
+    const categoryLabel = options.category
+      ? migrationCategoryOptions(data, options.dim).find((option) => option.code === options.category)?.label ?? options.category
+      : dimOption.allLabel
+    items.push({ label: dimOption.label, value: categoryLabel })
+  }
+  if (options.year) items.push({ label: "Jaar", value: String(options.year) })
+  return items
+}

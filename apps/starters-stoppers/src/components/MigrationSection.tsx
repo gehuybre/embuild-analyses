@@ -26,11 +26,14 @@ import {
   MIGRATION_REGION_OPTIONS,
   MigrationData,
   MigrationDim,
+  MigrationMatrix,
+  buildMigrationMatrix,
   buildMigrationSeries,
   migrationCategoryOptions,
-  migrationRegionLabel,
+  migrationFilterItems,
   migrationTitle,
 } from "@/lib/migration"
+import { EmbedFilters } from "@/components/EmbedFilters"
 
 const SOURCE_TITLE = "Statbel - Migratie van btw-plichtige ondernemingen"
 const NUMBER_FORMAT = new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 0 })
@@ -91,7 +94,12 @@ function SelectInline({
   )
 }
 
-function useMigrationState(data: MigrationData, initial?: Partial<{ region: string; counterpart: string | null; dim: MigrationDim; category: string | null }>) {
+export type MigrationVariant = "flows" | "balance" | "matrix"
+
+type Series = ReturnType<typeof buildMigrationSeries>
+type FilterState = { region: string; counterpart: string | null; dim: MigrationDim; category: string | null }
+
+function useMigrationState(data: MigrationData, initial?: Partial<FilterState>) {
   const [region, setRegion] = React.useState(initial?.region ?? "2000")
   const [counterpart, setCounterpart] = React.useState<string | null>(initial?.counterpart ?? null)
   const [dim, setDim] = React.useState<MigrationDim>(initial?.dim ?? "tot")
@@ -105,63 +113,53 @@ function useMigrationState(data: MigrationData, initial?: Partial<{ region: stri
   return { region, setRegion, counterpart, setCounterpart, dim, setDim, category, setCategory, series }
 }
 
-export function buildMigrationChartData(series: ReturnType<typeof buildMigrationSeries>) {
+export function buildMigrationChartData(series: Series) {
   return series.map((point) => ({ ...point, label: String(point.year) }))
 }
 
-export function MigrationEmbed({
-  data,
-  viewType,
-  region,
-  counterpart,
-  dim,
-  category,
-}: {
-  data: MigrationData
-  viewType: "chart" | "table"
-  region: string
-  counterpart: string | null
-  dim: MigrationDim
-  category: string | null
-}) {
-  const series = React.useMemo(
-    () => buildMigrationSeries(data, { dim, category, region, counterpart }),
-    [category, counterpart, data, dim, region]
-  )
-  const chartData = React.useMemo(() => buildMigrationChartData(series), [series])
-  const isAll = region === MIGRATION_ALL
-  const categoryLabel = category ? migrationCategoryOptions(data, dim).find((option) => option.code === category)?.label ?? null : null
+function filterText(items: Array<{ label: string; value: string }>) {
+  return items.map((item) => `${item.label}: ${item.value}`).join("; ")
+}
 
+function flowSeries(isAll: boolean) {
+  return isAll
+    ? [{ key: "total", label: "Verhuizingen", color: CHART_SERIES_COLORS[0] }]
+    : [
+        { key: "inflow", label: "Instroom", color: CHART_SERIES_COLORS[0] },
+        { key: "outflow", label: "Uitstroom", color: CHART_SERIES_COLORS[1] },
+      ]
+}
+
+function FlowsChart({ series, isAll }: { series: Series; isAll: boolean }) {
+  const chartData = React.useMemo(() => buildMigrationChartData(series), [series])
   return (
-    <div className="p-4">
-      <h2 className="mb-4 text-lg font-semibold">{migrationTitle(region, counterpart, categoryLabel)}</h2>
-      {viewType === "chart" ? (
-        <FilterableChart
-          data={chartData}
-          chartType="line"
-          showMovingAverage={false}
-          getLabel={(point) => (point as { label: string }).label}
-          series={
-            isAll
-              ? [{ key: "total", label: "Verhuizingen", color: CHART_SERIES_COLORS[0] }]
-              : [
-                  { key: "inflow", label: "Instroom", color: CHART_SERIES_COLORS[0] },
-                  { key: "outflow", label: "Uitstroom", color: CHART_SERIES_COLORS[1] },
-                ]
-          }
-          yAxisLabelAbove="Aantal ondernemingen"
-        />
-      ) : (
-        <MigrationTable series={series} isAll={isAll} />
-      )}
-      <div className="mt-4 text-center text-xs text-muted-foreground">
-        <span>Bron: Statbel</span>
-      </div>
-    </div>
+    <FilterableChart
+      data={chartData}
+      chartType="line"
+      showMovingAverage={false}
+      getLabel={(point) => (point as { label: string }).label}
+      series={flowSeries(isAll)}
+      yAxisLabelAbove="Aantal ondernemingen"
+    />
   )
 }
 
-function MigrationTable({ series, isAll }: { series: ReturnType<typeof buildMigrationSeries>; isAll: boolean }) {
+function BalanceChart({ series }: { series: Series }) {
+  const chartData = React.useMemo(() => buildMigrationChartData(series), [series])
+  return (
+    <FilterableChart
+      data={chartData}
+      chartType="bar"
+      showMovingAverage={false}
+      getLabel={(point) => (point as { label: string }).label}
+      getValue={(point) => (point as { net: number }).net}
+      getSortValue={(point) => (point as { sortValue: number }).sortValue}
+      yAxisLabelAbove="Saldo"
+    />
+  )
+}
+
+function MigrationTable({ series, isAll }: { series: Series; isAll: boolean }) {
   const rows = React.useMemo(
     () =>
       series.map((point) =>
@@ -185,84 +183,176 @@ function MigrationTable({ series, isAll }: { series: ReturnType<typeof buildMigr
   )
 }
 
-function OriginDestinationCard({
+function MigrationMatrixTable({ matrix }: { matrix: MigrationMatrix }) {
+  return (
+    <Table>
+      <TableHeader>
+        <TableRow>
+          <TableHead>Van \ naar</TableHead>
+          {MIGRATION_REGION_OPTIONS.map((option) => (
+            <TableHead key={option.code} className="text-right">
+              {option.label}
+            </TableHead>
+          ))}
+          <TableHead className="text-right">Uitstroom</TableHead>
+        </TableRow>
+      </TableHeader>
+      <TableBody>
+        {matrix.rows.map((row) => (
+          <TableRow key={row.code}>
+            <TableCell>{row.label}</TableCell>
+            {MIGRATION_REGION_OPTIONS.map((destination) => {
+              const cell = row.cells[destination.code]
+              return (
+                <TableCell key={destination.code} className="text-right">
+                  {cell === null ? "-" : NUMBER_FORMAT.format(cell)}
+                </TableCell>
+              )
+            })}
+            <TableCell className="text-right font-medium">{row.outflow === null ? "-" : NUMBER_FORMAT.format(row.outflow)}</TableCell>
+          </TableRow>
+        ))}
+        <TableRow>
+          <TableCell className="font-medium">Instroom</TableCell>
+          {MIGRATION_REGION_OPTIONS.map((destination) => (
+            <TableCell key={destination.code} className="text-right font-medium">
+              {NUMBER_FORMAT.format(matrix.inflow[destination.code] ?? 0)}
+            </TableCell>
+          ))}
+          <TableCell />
+        </TableRow>
+      </TableBody>
+    </Table>
+  )
+}
+
+/** CSV-rijen in lange vorm (van, naar, aantal): de diagonaal bestaat niet en kan dus niet als lege kolom mee. */
+function matrixExportRows(matrix: MigrationMatrix) {
+  return matrix.rows.flatMap((row) =>
+    MIGRATION_REGION_OPTIONS.filter((destination) => row.cells[destination.code] !== null).map((destination) => ({
+      label: `${row.label} naar ${destination.label}`,
+      value: row.cells[destination.code] ?? 0,
+      periodCells: [row.label, destination.label],
+    }))
+  )
+}
+
+function seriesExportRows(series: Series, isAll: boolean, kind: "flows" | "balance") {
+  if (isAll) return series.map((point) => ({ label: String(point.year), value: point.total, periodCells: [point.year] }))
+  if (kind === "balance") return series.map((point) => ({ label: String(point.year), value: point.net, periodCells: [point.year] }))
+  return series.map((point) => ({ label: String(point.year), value: point.net, periodCells: [point.year, point.inflow, point.outflow] }))
+}
+
+export function MigrationEmbed({
   data,
+  viewType,
+  variant = "flows",
+  region,
+  counterpart,
   dim,
   category,
+  year,
+}: FilterState & {
+  data: MigrationData
+  viewType: "chart" | "table"
+  variant?: MigrationVariant
+  year?: number | null
+}) {
+  const series = React.useMemo(
+    () => buildMigrationSeries(data, { dim, category, region, counterpart }),
+    [category, counterpart, data, dim, region]
+  )
+  const isAll = region === MIGRATION_ALL
+  const matrixYear = year && data.years.includes(year) ? year : data.latestYear
+  const matrix = React.useMemo(() => buildMigrationMatrix(data, { dim, category, year: matrixYear }), [category, data, dim, matrixYear])
+  const isMatrix = variant === "matrix"
+  const filters = migrationFilterItems(data, { region, counterpart, dim, category, year: isMatrix ? matrixYear : null, omitRegion: isMatrix })
+  const baseTitle = migrationTitle(region, counterpart)
+  const title =
+    variant === "balance"
+      ? `Saldo - ${baseTitle}`
+      : isMatrix
+        ? `Herkomst en bestemming ${matrixYear}`
+        : baseTitle
+
+  let content: React.ReactNode
+  if (isMatrix) {
+    content = <MigrationMatrixTable matrix={matrix} />
+  } else if (variant === "balance" && isAll) {
+    content = <p className="text-sm text-muted-foreground">Het saldo is enkel beschikbaar voor een afzonderlijk gewest.</p>
+  } else if (viewType === "table") {
+    content = <MigrationTable series={series} isAll={isAll} />
+  } else {
+    content = variant === "balance" ? <BalanceChart series={series} /> : <FlowsChart series={series} isAll={isAll} />
+  }
+
+  return (
+    <div className="p-4">
+      <h2 className="mb-2 text-lg font-semibold">{title}</h2>
+      <EmbedFilters items={filters} />
+      {content}
+      <div className="mt-4 text-center text-xs text-muted-foreground">
+        <span>Bron: Statbel</span>
+      </div>
+    </div>
+  )
+}
+
+function CardTitleWithExport({ title, children }: { title: string; children?: React.ReactNode }) {
+  return (
+    <CardHeader className="flex flex-row items-center justify-between gap-3 space-y-0">
+      <CardTitle>{title}</CardTitle>
+      {children}
+    </CardHeader>
+  )
+}
+
+function MigrationMatrixCard({
+  data,
+  filters,
+  exportTitle,
 }: {
   data: MigrationData
-  dim: MigrationDim
-  category: string | null
+  filters: FilterState
+  exportTitle: string
 }) {
   const [year, setYear] = React.useState(String(data.latestYear))
   const yearOptions = React.useMemo(
     () => [...data.years].sort((a, b) => b - a).map((item) => ({ code: String(item), label: String(item) })),
     [data.years]
   )
-
-  const matrix = React.useMemo(() => {
-    const activeDim = dim === "tot" || !category ? "tot" : dim
-    const result = new Map<string, number>()
-    for (const record of data.records) {
-      if (record.y !== Number(year) || record.dim !== activeDim) continue
-      if (activeDim !== "tot" && record.k !== category) continue
-      result.set(`${record.o}|${record.d}`, (result.get(`${record.o}|${record.d}`) ?? 0) + record.n)
-    }
-    return result
-  }, [category, data.records, dim, year])
-
-  const origins = [...MIGRATION_REGION_OPTIONS.map((option) => option.code), "0000"]
-  const originLabel = (code: string) => (code === "0000" ? "Onbekend" : migrationRegionLabel(code))
-  const value = (origin: string, destination: string) => (origin === destination ? null : matrix.get(`${origin}|${destination}`) ?? 0)
-  const rowTotal = (origin: string) => MIGRATION_REGION_OPTIONS.reduce((sum, option) => sum + (value(origin, option.code) ?? 0), 0)
-  const columnTotal = (destination: string) => origins.reduce((sum, origin) => sum + (value(origin, destination) ?? 0), 0)
-  const visibleOrigins = origins.filter((origin) => origin !== "0000" || rowTotal(origin) > 0)
+  const matrix = React.useMemo(
+    () => buildMigrationMatrix(data, { dim: filters.dim, category: filters.category, year: Number(year) }),
+    [data, filters.category, filters.dim, year]
+  )
+  const exportRows = React.useMemo(() => matrixExportRows(matrix), [matrix])
+  const title = `Herkomst en bestemming ${year}`
 
   return (
     <Card>
-      <CardHeader className="flex flex-row items-center justify-between gap-3 space-y-0">
-        <CardTitle>Herkomst en bestemming</CardTitle>
-        <SelectInline value={year} onChange={setYear} options={yearOptions} className="min-w-[90px]" />
-      </CardHeader>
+      <CardTitleWithExport title="Herkomst en bestemming">
+        <div className="flex items-center gap-2">
+          <SelectInline value={year} onChange={setYear} options={yearOptions} className="min-w-[90px]" />
+          <ExportButtons
+            data={exportRows}
+            title={`${title} (${exportTitle})`}
+            slug="starters-stoppers"
+            sectionId="migration-matrix"
+            viewType="table"
+            periodHeaders={["Van", "Naar"]}
+            valueLabel="Aantal ondernemingen"
+            dataSource={SOURCE_TITLE}
+            dataSourceUrl={data.sourceUrl}
+            embedParams={{
+              dim: filters.dim === "tot" ? null : filters.dim,
+              category: filters.category,
+              year,
+            }}
+          />
+        </div>
+      </CardTitleWithExport>
       <CardContent>
-        <Table>
-          <TableHeader>
-            <TableRow>
-              <TableHead>Van \ naar</TableHead>
-              {MIGRATION_REGION_OPTIONS.map((option) => (
-                <TableHead key={option.code} className="text-right">
-                  {option.label}
-                </TableHead>
-              ))}
-              <TableHead className="text-right">Uitstroom</TableHead>
-            </TableRow>
-          </TableHeader>
-          <TableBody>
-            {visibleOrigins.map((origin) => (
-              <TableRow key={origin}>
-                <TableCell>{originLabel(origin)}</TableCell>
-                {MIGRATION_REGION_OPTIONS.map((destination) => {
-                  const cell = value(origin, destination.code)
-                  return (
-                    <TableCell key={destination.code} className="text-right">
-                      {cell === null ? "-" : NUMBER_FORMAT.format(cell)}
-                    </TableCell>
-                  )
-                })}
-                <TableCell className="text-right font-medium">{origin === "0000" ? "-" : NUMBER_FORMAT.format(rowTotal(origin))}</TableCell>
-              </TableRow>
-            ))}
-            <TableRow>
-              <TableCell className="font-medium">Instroom</TableCell>
-              {MIGRATION_REGION_OPTIONS.map((destination) => (
-                <TableCell key={destination.code} className="text-right font-medium">
-                  {NUMBER_FORMAT.format(columnTotal(destination.code))}
-                </TableCell>
-              ))}
-              <TableCell />
-            </TableRow>
-          </TableBody>
-        </Table>
+        <MigrationMatrixTable matrix={matrix} />
       </CardContent>
     </Card>
   )
@@ -270,10 +360,7 @@ function OriginDestinationCard({
 
 export function MigrationSection({ data }: { data: MigrationData }) {
   const { region, setRegion, counterpart, setCounterpart, dim, setDim, category, setCategory, series } = useMigrationState(data)
-  const [currentView, setCurrentView] = React.useState<"chart" | "table">("chart")
-
   const isAll = region === MIGRATION_ALL
-  const chartData = React.useMemo(() => buildMigrationChartData(series), [series])
   const dimOption = MIGRATION_DIM_OPTIONS.find((option) => option.code === dim) ?? MIGRATION_DIM_OPTIONS[0]
   const categoryOptions = React.useMemo(() => migrationCategoryOptions(data, dim), [data, dim])
 
@@ -289,41 +376,41 @@ export function MigrationSection({ data }: { data: MigrationData }) {
   const categoryChoices: Option[] = [{ code: "", label: dimOption.allLabel }, ...categoryOptions]
   const categoryLabel = category ? categoryOptions.find((option) => option.code === category)?.label ?? null : null
   const title = migrationTitle(region, counterpart, categoryLabel)
+  const filters: FilterState = { region, counterpart, dim, category }
+  const exportTitle = filterText(migrationFilterItems(data, filters))
+  const baseParams = {
+    region,
+    counterpart,
+    dim: dim === "tot" ? null : dim,
+    category,
+  }
 
-  const exportData = React.useMemo(
-    () =>
-      series.map((point) =>
-        isAll
-          ? { label: String(point.year), value: point.total, periodCells: [point.year] }
-          : { label: String(point.year), value: point.net, periodCells: [point.year, point.inflow, point.outflow] }
-      ),
-    [isAll, series]
+  const flowHeaders = isAll ? ["Jaar"] : ["Jaar", "Instroom", "Uitstroom"]
+  const flowExport = React.useMemo(() => seriesExportRows(series, isAll, "flows"), [isAll, series])
+  const balanceExport = React.useMemo(() => seriesExportRows(series, isAll, "balance"), [isAll, series])
+
+  const flowButtons = (view: "chart" | "table") => (
+    <ExportButtons
+      data={flowExport}
+      title={`${title} (${exportTitle})`}
+      slug="starters-stoppers"
+      sectionId="migration"
+      viewType={view}
+      periodHeaders={flowHeaders}
+      valueLabel={isAll ? "Verhuizingen" : "Saldo"}
+      dataSource={SOURCE_TITLE}
+      dataSourceUrl={data.sourceUrl}
+      embedParams={baseParams}
+    />
   )
 
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between gap-3">
         <h2 className="text-2xl font-bold">{title}</h2>
-        <ExportButtons
-          data={exportData}
-          title={title}
-          slug="starters-stoppers"
-          sectionId="migration"
-          viewType={currentView}
-          periodHeaders={isAll ? ["Jaar"] : ["Jaar", "Instroom", "Uitstroom"]}
-          valueLabel={isAll ? "Verhuizingen" : "Saldo"}
-          dataSource={SOURCE_TITLE}
-          dataSourceUrl={data.sourceUrl}
-          embedParams={{
-            region,
-            counterpart,
-            dim: dim === "tot" ? null : dim,
-            category,
-          }}
-        />
       </div>
 
-      <Tabs defaultValue="chart" onValueChange={(value) => setCurrentView(value as "chart" | "table")}>
+      <Tabs defaultValue="chart">
         <div className="mb-4 flex flex-wrap items-center justify-between gap-3">
           <TabsList>
             <TabsTrigger value="chart">Grafiek</TabsTrigger>
@@ -363,62 +450,47 @@ export function MigrationSection({ data }: { data: MigrationData }) {
         <TabsContent value="chart">
           <div className="space-y-4">
             <Card>
-              <CardHeader>
-                <CardTitle>{isAll ? "Verhuizingen tussen gewesten" : "Instroom en uitstroom"}</CardTitle>
-              </CardHeader>
+              <CardTitleWithExport title={isAll ? "Verhuizingen tussen gewesten" : "Instroom en uitstroom"}>{flowButtons("chart")}</CardTitleWithExport>
               <CardContent>
-                <FilterableChart
-                  data={chartData}
-                  chartType="line"
-                  showMovingAverage={false}
-                  getLabel={(point) => (point as { label: string }).label}
-                  series={
-                    isAll
-                      ? [{ key: "total", label: "Verhuizingen", color: CHART_SERIES_COLORS[0] }]
-                      : [
-                          { key: "inflow", label: "Instroom", color: CHART_SERIES_COLORS[0] },
-                          { key: "outflow", label: "Uitstroom", color: CHART_SERIES_COLORS[1] },
-                        ]
-                  }
-                  yAxisLabelAbove="Aantal ondernemingen"
-                />
+                <FlowsChart series={series} isAll={isAll} />
               </CardContent>
             </Card>
 
             {!isAll ? (
               <Card>
-                <CardHeader>
-                  <CardTitle>Saldo (instroom min uitstroom)</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <FilterableChart
-                    data={chartData}
-                    chartType="bar"
-                    showMovingAverage={false}
-                    getLabel={(point) => (point as { label: string }).label}
-                    getValue={(point) => (point as { net: number }).net}
-                    getSortValue={(point) => (point as { sortValue: number }).sortValue}
-                    yAxisLabelAbove="Saldo"
+                <CardTitleWithExport title="Saldo (instroom min uitstroom)">
+                  <ExportButtons
+                    data={balanceExport}
+                    title={`Saldo - ${title} (${exportTitle})`}
+                    slug="starters-stoppers"
+                    sectionId="migration-balance"
+                    viewType="chart"
+                    periodHeaders={["Jaar"]}
+                    valueLabel="Saldo"
+                    dataSource={SOURCE_TITLE}
+                    dataSourceUrl={data.sourceUrl}
+                    embedParams={baseParams}
                   />
+                </CardTitleWithExport>
+                <CardContent>
+                  <BalanceChart series={series} />
                 </CardContent>
               </Card>
             ) : null}
 
-            <OriginDestinationCard data={data} dim={dim} category={category} />
+            <MigrationMatrixCard data={data} filters={filters} exportTitle={exportTitle} />
           </div>
         </TabsContent>
 
         <TabsContent value="table">
           <div className="space-y-4">
             <Card>
-              <CardHeader>
-                <CardTitle>Data</CardTitle>
-              </CardHeader>
+              <CardTitleWithExport title="Data">{flowButtons("table")}</CardTitleWithExport>
               <CardContent>
                 <MigrationTable series={series} isAll={isAll} />
               </CardContent>
             </Card>
-            <OriginDestinationCard data={data} dim={dim} category={category} />
+            <MigrationMatrixCard data={data} filters={filters} exportTitle={exportTitle} />
           </div>
         </TabsContent>
       </Tabs>

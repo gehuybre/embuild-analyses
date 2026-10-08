@@ -34,6 +34,7 @@ export function StartersStoppersEmbedRouteClient({ section }: { section: string 
       counterpart: prefixedParam(searchParams, "counterpart"),
       migrationDim: ((["cls", "nace", "type"] as const).find((value) => value === prefixedParam(searchParams, "dim")) ?? "tot") as MigrationDim,
       category: prefixedParam(searchParams, "category"),
+      year: Number(prefixedParam(searchParams, "year")) || null,
     }
   }, [searchParams])
 
@@ -50,6 +51,7 @@ export function StartersStoppersEmbedRouteClient({ section }: { section: string 
       counterpart={filters.counterpart}
       migrationDim={filters.migrationDim}
       category={filters.category}
+      year={filters.year}
     />
   )
 }

@@ -5,10 +5,19 @@ import { FilterableChart } from "@embuild/shared/components/shared/FilterableCha
 import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
 import { PROVINCES, ProvinceCode, REGIONS, RegionCode } from "@embuild/shared/lib/geo-utils"
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
-import { MigrationData, MigrationDim } from "@/lib/migration"
-import { MigrationEmbed } from "@/components/MigrationSection"
+import { FilterItem, MigrationData, MigrationDim } from "@/lib/migration"
+import { EmbedFilters } from "@/components/EmbedFilters"
+import { MigrationEmbed, MigrationVariant } from "@/components/MigrationSection"
 
-type SectionType = "starters" | "stoppers" | "survival" | "enterprises" | "migration"
+type SectionType =
+  | "starters"
+  | "stoppers"
+  | "survival"
+  | "enterprises"
+  | "enterprises-no-staff"
+  | "migration"
+  | "migration-balance"
+  | "migration-matrix"
 type ViewType = "chart" | "table"
 type TimeRange = "yearly" | "quarterly" | "monthly"
 type StopHorizon = 1 | 2 | 3 | 4 | 5
@@ -206,6 +215,30 @@ function aggregateEnterpriseCountsByYear(rows: EnterpriseWorkerClassRow[]): Char
     .sort((a, b) => a.sortValue - b.sortValue)
 }
 
+function aggregateEnterpriseNoEmployeeShareByYear(rows: EnterpriseWorkerClassRow[]): ChartPoint[] {
+  const grouped = new Map<number, { total: number; noEmployees: number }>()
+
+  for (const row of rows) {
+    const current = grouped.get(row.y) ?? { total: 0, noEmployees: 0 }
+    current.total += row.vat
+    if (row.w === "00") current.noEmployees += row.vat
+    grouped.set(row.y, current)
+  }
+
+  return Array.from(grouped.entries())
+    .map(([year, values]) => ({
+      sortValue: year,
+      periodCells: [year],
+      value: values.total > 0 ? Math.round((values.noEmployees / values.total) * 1000) / 10 : 0,
+      label: String(year),
+    }))
+    .sort((a, b) => a.sortValue - b.sortValue)
+}
+
+function formatPct(value: number) {
+  return new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 1 }).format(value) + "%"
+}
+
 function formatMonthlyRegionLabel(regionCode: RegionCode) {
   return MONTHLY_REGION_OPTIONS.find((option) => option.code === regionCode)?.label ?? "België"
 }
@@ -267,6 +300,7 @@ interface StartersStoppersEmbedProps {
   counterpart?: string | null
   migrationDim?: MigrationDim
   category?: string | null
+  year?: number | null
 }
 
 export function StartersStoppersEmbed({
@@ -281,6 +315,7 @@ export function StartersStoppersEmbed({
   counterpart = null,
   migrationDim = "tot",
   category = null,
+  year = null,
 }: StartersStoppersEmbedProps) {
   const { data: bundle, loading, error } = useJsonBundle<{
     monthlyRaw: MonthlyFlowRow[]
@@ -294,6 +329,8 @@ export function StartersStoppersEmbed({
     enterpriseLookups: EnterpriseLookups
     survivalRaw: VatSurvivalRow[]
     migration: MigrationData
+    monthlyLookups: { sectors: Array<{ code: string; nl: string }> }
+    survivalLookups: { nace_lvl1?: Array<{ code: string; nl?: string | null; en?: string | null }> }
   }>({
     monthlyRaw: "/data/vat_monthly_flows.json",
     monthlyRegionalRaw: "/data/vat_monthly_flows_regions.json",
@@ -306,6 +343,8 @@ export function StartersStoppersEmbed({
     enterpriseLookups: "/data/vat_enterprises_lookups.json",
     survivalRaw: "/data/vat_survivals.json",
     migration: "/data/vat_migration.json",
+    monthlyLookups: "/data/vat_monthly_lookups.json",
+    survivalLookups: "/data/lookups.json",
   })
 
   const monthlyRows = useMemo(() => bundle?.monthlyRaw ?? [], [bundle])
@@ -353,6 +392,9 @@ export function StartersStoppersEmbed({
     if (section === "enterprises") {
       return aggregateEnterpriseCountsByYear(filterEnterpriseRows(enterpriseRows, sector, selectedGeo, workerClass))
     }
+    if (section === "enterprises-no-staff") {
+      return aggregateEnterpriseNoEmployeeShareByYear(filterEnterpriseRows(enterpriseRows, sector, selectedGeo, null))
+    }
     return aggregateSurvivalRateByYear(
       filterSurvivalRowsByGeo(filterSurvivalRowsBySector(survivalRows, sector), region, province),
       horizon
@@ -365,6 +407,10 @@ export function StartersStoppersEmbed({
     }
     if (section === "stoppers") {
       return selectedRegion !== "1000" ? `Aantal stoppers - ${formatGeoLabel(selectedRegion, province)}` : "Aantal stoppers"
+    }
+    if (section === "enterprises-no-staff") {
+      const base = "Aandeel ondernemingen zonder personeel"
+      return selectedRegion !== "1000" ? `${base} - ${formatGeoLabel(selectedRegion, province)}` : base
     }
     if (section === "enterprises") {
       const yearSuffix = enterpriseAvailableYears.length > 0 ? ` (${formatYearRanges(enterpriseAvailableYears)})` : ""
@@ -386,6 +432,32 @@ export function StartersStoppersEmbed({
     return locationParts.length > 0 ? `${baseTitle} - ${locationParts.join(", ")}` : baseTitle
   }, [enterpriseAvailableYears, horizon, province, region, section, selectedRegion, workerClass, workerClassLabels])
 
+  const filterItems = useMemo<FilterItem[]>(() => {
+    const location = province || (region && region !== "1000") ? formatGeoLabel(selectedRegion, province) : "België"
+    const sectorCode = sector ?? null
+    const sectorName = sectorCode
+      ? section === "survival"
+        ? bundle?.survivalLookups?.nace_lvl1?.find((row) => String(row.code) === sectorCode)?.nl
+        : bundle?.monthlyLookups?.sectors?.find((row) => row.code === sectorCode)?.nl
+      : null
+    const sectorValue = sectorCode ? (sectorName ? `${sectorCode} — ${sectorName}` : sectorCode) : "Alle sectoren"
+
+    const items: FilterItem[] = [
+      { label: "Locatie", value: location },
+      { label: "Sector", value: sectorValue },
+    ]
+    if (section === "starters" || section === "stoppers") {
+      items.push({ label: "Periode", value: timeRange === "yearly" ? "Per jaar" : timeRange === "quarterly" ? "Per kwartaal" : "Per maand" })
+    }
+    if (section === "enterprises") {
+      items.push({ label: "Werknemersklasse", value: workerClass ? workerClassLabels.get(workerClass) ?? workerClass : "Alle grootteklassen" })
+    }
+    if (section === "survival") {
+      items.push({ label: "Horizon", value: `na ${horizon} jaar` })
+    }
+    return items
+  }, [bundle, horizon, province, region, sector, section, selectedRegion, timeRange, workerClass, workerClassLabels])
+
   if (loading) {
     return <div className="p-4">Data laden...</div>
   }
@@ -398,32 +470,39 @@ export function StartersStoppersEmbed({
     )
   }
 
-  if (section === "migration") {
+  if (section === "migration" || section === "migration-balance" || section === "migration-matrix") {
+    const variant: MigrationVariant = section === "migration-balance" ? "balance" : section === "migration-matrix" ? "matrix" : "flows"
     return (
       <MigrationEmbed
         data={bundle.migration}
         viewType={viewType}
+        variant={variant}
         region={region ?? "2000"}
         counterpart={counterpart}
         dim={migrationDim}
         category={category}
+        year={year}
       />
     )
   }
 
-  const label = section === "survival" ? "Overlevingskans" : section === "enterprises" ? "Aantal ondernemingen" : "Aantal"
-  const periodHeader = section === "survival" ? "Jaar" : timeRange === "yearly" || section === "enterprises" ? "Jaar" : "Periode"
+  const isShare = section === "enterprises-no-staff"
+  const label = section === "survival" ? "Overlevingskans" : isShare ? "Aandeel zonder personeel (%)" : section === "enterprises" ? "Aantal ondernemingen" : "Aantal"
+  const periodHeader = section === "survival" ? "Jaar" : timeRange === "yearly" || section === "enterprises" || isShare ? "Jaar" : "Periode"
 
   return (
     <div className="p-4">
-      <h2 className="mb-4 text-lg font-semibold">{title}</h2>
+      <h2 className="mb-2 text-lg font-semibold">{title}</h2>
+      <EmbedFilters items={filterItems} />
 
       {viewType === "chart" && (
         <FilterableChart
           data={data}
-          chartType={section === "enterprises" ? "line" : undefined}
-          showMovingAverage={section === "enterprises" ? false : undefined}
-          yAxisLabelAbove={section === "enterprises" ? "Aantal ondernemingen" : undefined}
+          chartType={section === "enterprises" || isShare ? "line" : undefined}
+          showMovingAverage={section === "enterprises" || isShare ? false : undefined}
+          yAxisLabelAbove={isShare ? "Aandeel zonder personeel" : section === "enterprises" ? "Aantal ondernemingen" : undefined}
+          yAxisFormatter={isShare ? formatPct : undefined}
+          tooltipUsesYAxisFormatter={isShare ? true : undefined}
           getLabel={(point) => (point as ChartPoint).label}
           getValue={(point) => (point as ChartPoint).value}
           getSortValue={(point) => (point as ChartPoint).sortValue}
