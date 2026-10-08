@@ -22,6 +22,8 @@ import { GeoProvider, useGeo } from "@embuild/shared/components/shared/GeoContex
 import { PROVINCES, ProvinceCode, REGIONS, RegionCode } from "@embuild/shared/lib/geo-utils"
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
 import { cn } from "@embuild/shared/lib/utils"
+import { MigrationData } from "@/lib/migration"
+import { MigrationSection } from "@/components/MigrationSection"
 
 type MonthlyFlowRow = {
   y: number
@@ -34,7 +36,7 @@ type MonthlyFlowRow = {
 }
 
 type RegionalMonthlyFlowRow = MonthlyFlowRow & {
-  g: RegionCode
+  g: string // gewestcode of provinciecode
 }
 
 type MonthlyLookups = {
@@ -47,6 +49,7 @@ type MonthlySummary = {
   latestPeriod: string
   monthlyMinYear: number
   monthlyMaxYear: number
+  provincialMonthlyMinYear?: number
   yearlyMinYear: number
   yearlyMaxYear: number
   enterpriseCounts?: {
@@ -61,7 +64,7 @@ type MonthlySummary = {
 
 type AnnualFlowRow = {
   y: number
-  g: RegionCode
+  g: string
   n1: string
   fr: number
   st: number
@@ -69,7 +72,7 @@ type AnnualFlowRow = {
 
 type EnterpriseWorkerClassRow = {
   y: number
-  g: RegionCode
+  g: string
   n1: string
   w: string
   vat: number
@@ -78,6 +81,7 @@ type EnterpriseWorkerClassRow = {
 type EnterpriseLookups = {
   latestYear: number
   years: number[]
+  provinceYears?: number[]
   sourceUrl?: string
   sourceUrls?: string[]
   sectors: Array<{ code: string; nl: string }>
@@ -118,6 +122,20 @@ const MONTHLY_REGION_OPTIONS: Array<{ code: RegionCode; label: string }> = [
   { code: "3000", label: "Wallonië" },
   { code: "4000", label: "Brussel" },
 ]
+
+const BRUSSELS_PROVINCE_CODE = "21000"
+
+// Brussel is zowel gewest als "provincie"; in de data bestaat het enkel als gewest.
+function resolveGeoCode(region: RegionCode, province: ProvinceCode | null): string {
+  return province && String(province) !== BRUSSELS_PROVINCE_CODE ? String(province) : region
+}
+
+function formatGeoLabel(region: RegionCode, province: ProvinceCode | null) {
+  if (province && String(province) !== BRUSSELS_PROVINCE_CODE) {
+    return PROVINCES.find((item) => String(item.code) === String(province))?.name ?? "Provincie"
+  }
+  return formatMonthlyRegionLabel(region)
+}
 
 function formatInt(value: number) {
   return new Intl.NumberFormat("nl-BE", { maximumFractionDigits: 0 }).format(value)
@@ -189,12 +207,12 @@ function filterMonthlyRows(rows: MonthlyFlowRow[], selectedSector: string | null
   return rows.filter((row) => row.n1 === code)
 }
 
-function filterRegionalMonthlyRows(rows: RegionalMonthlyFlowRow[], selectedSector: string | null, selectedRegion: RegionCode) {
+function filterRegionalMonthlyRows(rows: RegionalMonthlyFlowRow[], selectedSector: string | null, selectedRegion: string) {
   const code = selectedSector ?? "ALL"
   return rows.filter((row) => row.g === selectedRegion && row.n1 === code)
 }
 
-function filterAnnualRows(rows: AnnualFlowRow[], selectedSector: string | null, selectedRegion: RegionCode) {
+function filterAnnualRows(rows: AnnualFlowRow[], selectedSector: string | null, selectedRegion: string) {
   const code = selectedSector ?? "ALL"
   return rows.filter((row) => row.g === selectedRegion && row.n1 === code)
 }
@@ -249,12 +267,12 @@ function aggregateAnnualMetric(rows: AnnualFlowRow[], metric: "fr" | "st"): Char
     .sort((a, b) => a.sortValue - b.sortValue)
 }
 
-function filterEnterpriseRowsByContext(rows: EnterpriseWorkerClassRow[], selectedSector: string | null, selectedRegion: RegionCode) {
+function filterEnterpriseRowsByContext(rows: EnterpriseWorkerClassRow[], selectedSector: string | null, selectedRegion: string) {
   const code = selectedSector ?? "ALL"
   return rows.filter((row) => row.g === selectedRegion && row.n1 === code)
 }
 
-function filterEnterpriseRows(rows: EnterpriseWorkerClassRow[], selectedSector: string | null, selectedRegion: RegionCode, selectedWorkerClass: string | null) {
+function filterEnterpriseRows(rows: EnterpriseWorkerClassRow[], selectedSector: string | null, selectedRegion: string, selectedWorkerClass: string | null) {
   return filterEnterpriseRowsByContext(rows, selectedSector, selectedRegion).filter((row) => !selectedWorkerClass || row.w === selectedWorkerClass)
 }
 
@@ -371,49 +389,6 @@ function TimeRangeTabs({
   )
 }
 
-function RegionFilterInline({
-  selected,
-  onChange,
-}: {
-  selected: RegionCode
-  onChange: (value: RegionCode) => void
-}) {
-  const [open, setOpen] = React.useState(false)
-  const currentLabel = React.useMemo(() => formatMonthlyRegionLabel(selected), [selected])
-
-  return (
-    <Popover open={open} onOpenChange={setOpen}>
-      <PopoverTrigger asChild>
-        <Button variant="outline" size="sm" role="combobox" aria-expanded={open} className="h-9 gap-1 min-w-[130px]">
-          <span className="truncate max-w-[110px]">{currentLabel}</span>
-          <ChevronsUpDown className="h-3.5 w-3.5 shrink-0 opacity-50" />
-        </Button>
-      </PopoverTrigger>
-      <PopoverContent className="w-[220px] p-0" align="start">
-        <Command>
-          <CommandList>
-            <CommandGroup heading="Gewest">
-              {MONTHLY_REGION_OPTIONS.map((option) => (
-                <CommandItem
-                  key={option.code}
-                  value={option.label}
-                  onSelect={() => {
-                    onChange(option.code)
-                    setOpen(false)
-                  }}
-                >
-                  <Check className={cn("mr-2 h-4 w-4", selected === option.code ? "opacity-100" : "opacity-0")} />
-                  {option.label}
-                </CommandItem>
-              ))}
-            </CommandGroup>
-          </CommandList>
-        </Command>
-      </PopoverContent>
-    </Popover>
-  )
-}
-
 function GeoFilterInline({
   selectedRegion,
   selectedProvince,
@@ -428,7 +403,7 @@ function GeoFilterInline({
   const [open, setOpen] = React.useState(false)
 
   const currentLabel = React.useMemo(() => {
-    if (selectedProvince) {
+    if (selectedProvince && String(selectedProvince) !== BRUSSELS_PROVINCE_CODE) {
       return PROVINCES.find((province) => String(province.code) === String(selectedProvince))?.name ?? "Provincie"
     }
     if (selectedRegion !== "1000") {
@@ -438,7 +413,7 @@ function GeoFilterInline({
   }, [selectedProvince, selectedRegion])
 
   const sortedProvinces = React.useMemo(
-    () => [...PROVINCES].sort((a, b) => a.name.localeCompare(b.name)),
+    () => PROVINCES.filter((province) => province.code !== BRUSSELS_PROVINCE_CODE).sort((a, b) => a.name.localeCompare(b.name)),
     []
   )
 
@@ -640,7 +615,9 @@ function MonthlyMetricSection({
   timeRange,
   onTimeRangeChange,
   selectedRegion,
+  selectedProvince,
   onSelectRegion,
+  onSelectProvince,
   selectedSector,
   onSelectSector,
   sectorOptions,
@@ -654,7 +631,9 @@ function MonthlyMetricSection({
   timeRange: TimeRange
   onTimeRangeChange: (value: TimeRange) => void
   selectedRegion: RegionCode
+  selectedProvince: ProvinceCode | null
   onSelectRegion: (value: RegionCode) => void
+  onSelectProvince: (value: ProvinceCode | null) => void
   selectedSector: string | null
   onSelectSector: (value: string | null) => void
   sectorOptions: Array<{ code: string; label: string }>
@@ -663,7 +642,7 @@ function MonthlyMetricSection({
   sectionId: string
 }) {
   const [currentView, setCurrentView] = React.useState<"chart" | "table">("chart")
-  const locationLabel = React.useMemo(() => formatMonthlyRegionLabel(selectedRegion), [selectedRegion])
+  const locationLabel = React.useMemo(() => formatGeoLabel(selectedRegion, selectedProvince), [selectedProvince, selectedRegion])
   const exportTitle = title + (selectedRegion !== "1000" ? ` - ${locationLabel}` : "")
   const periodHeader = timeRange === "yearly" ? "Jaar" : "Periode"
   const exportSource = timeRange === "yearly"
@@ -698,6 +677,7 @@ function MonthlyMetricSection({
           embedParams={{
             timeRange,
             region: selectedRegion !== "1000" ? selectedRegion : null,
+            province: selectedProvince,
             sector: selectedSector,
           }}
         />
@@ -710,7 +690,12 @@ function MonthlyMetricSection({
             <TabsTrigger value="table">Tabel</TabsTrigger>
           </TabsList>
           <div className="flex flex-wrap items-center gap-2">
-            <RegionFilterInline selected={selectedRegion} onChange={onSelectRegion} />
+            <GeoFilterInline
+              selectedRegion={selectedRegion}
+              selectedProvince={selectedProvince}
+              onSelectRegion={onSelectRegion}
+              onSelectProvince={onSelectProvince}
+            />
             <SectorFilterInline selected={selectedSector} onChange={onSelectSector} options={sectorOptions} />
             <TimeRangeTabs value={timeRange} onChange={onTimeRangeChange} />
           </div>
@@ -753,7 +738,10 @@ function EnterpriseCountSection({
   data,
   noEmployeeShareData,
   selectedRegion,
+  selectedProvince,
   onSelectRegion,
+  onSelectProvince,
+  coverageNote,
   selectedSector,
   onSelectSector,
   selectedWorkerClass,
@@ -765,7 +753,10 @@ function EnterpriseCountSection({
   data: ChartPoint[]
   noEmployeeShareData: ChartPoint[]
   selectedRegion: RegionCode
+  selectedProvince: ProvinceCode | null
   onSelectRegion: (value: RegionCode) => void
+  onSelectProvince: (value: ProvinceCode | null) => void
+  coverageNote?: string | null
   selectedSector: string | null
   onSelectSector: (value: string | null) => void
   selectedWorkerClass: string | null
@@ -775,7 +766,7 @@ function EnterpriseCountSection({
   sourceUrl?: string
 }) {
   const [currentView, setCurrentView] = React.useState<"chart" | "table">("chart")
-  const locationLabel = React.useMemo(() => formatMonthlyRegionLabel(selectedRegion), [selectedRegion])
+  const locationLabel = React.useMemo(() => formatGeoLabel(selectedRegion, selectedProvince), [selectedProvince, selectedRegion])
   const title = "Aantal ondernemingen"
   const exportTitle = title + (selectedRegion !== "1000" ? ` - ${locationLabel}` : "")
   const exportData = React.useMemo(
@@ -799,6 +790,7 @@ function EnterpriseCountSection({
           dataSourceUrl={sourceUrl}
           embedParams={{
             region: selectedRegion !== "1000" ? selectedRegion : null,
+            province: selectedProvince,
             sector: selectedSector,
             workerClass: selectedWorkerClass,
           }}
@@ -812,11 +804,18 @@ function EnterpriseCountSection({
             <TabsTrigger value="table">Tabel</TabsTrigger>
           </TabsList>
           <div className="flex flex-wrap items-center gap-2">
-            <RegionFilterInline selected={selectedRegion} onChange={onSelectRegion} />
+            <GeoFilterInline
+              selectedRegion={selectedRegion}
+              selectedProvince={selectedProvince}
+              onSelectRegion={onSelectRegion}
+              onSelectProvince={onSelectProvince}
+            />
             <SectorFilterInline selected={selectedSector} onChange={onSelectSector} options={sectorOptions} />
             <WorkerClassFilterInline selected={selectedWorkerClass} onChange={onSelectWorkerClass} options={workerClassOptions} />
           </div>
         </div>
+
+        {coverageNote ? <p className="mb-4 text-sm text-muted-foreground">{coverageNote}</p> : null}
 
         <TabsContent value="chart">
           <div className="space-y-4">
@@ -986,6 +985,7 @@ function SurvivalSection({
 function InnerDashboard() {
   const { selectedRegion, setSelectedRegion, selectedProvince, setSelectedProvince, setSelectedMunicipality, setLevel } = useGeo()
   const [monthlyRegion, setMonthlyRegion] = React.useState<RegionCode>("1000")
+  const [monthlyProvince, setMonthlyProvince] = React.useState<ProvinceCode | null>(null)
   const [monthlySector, setMonthlySector] = React.useState<string | null>(null)
   const [monthlyTimeRange, setMonthlyTimeRange] = React.useState<TimeRange>("yearly")
   const [enterpriseWorkerClass, setEnterpriseWorkerClass] = React.useState<string | null>(null)
@@ -995,6 +995,9 @@ function InnerDashboard() {
   const { data: bundle, loading, error } = useJsonBundle<{
     monthlyRaw: MonthlyFlowRow[]
     monthlyRegionalRaw: RegionalMonthlyFlowRow[]
+    monthlyProvincialRaw: RegionalMonthlyFlowRow[]
+    yearlyProvincialRaw: AnnualFlowRow[]
+    enterpriseProvincialRaw: EnterpriseWorkerClassRow[]
     monthlyLookups: MonthlyLookups
     monthlySummary: MonthlySummary
     yearlyRaw: AnnualFlowRow[]
@@ -1002,9 +1005,13 @@ function InnerDashboard() {
     enterpriseLookups: EnterpriseLookups
     survivalRaw: VatSurvivalRow[]
     survivalLookups: any
+    migration: MigrationData
   }>({
     monthlyRaw: "/data/vat_monthly_flows.json",
     monthlyRegionalRaw: "/data/vat_monthly_flows_regions.json",
+    monthlyProvincialRaw: "/data/vat_monthly_flows_provinces.json",
+    yearlyProvincialRaw: "/data/vat_yearly_flows_provinces.json",
+    enterpriseProvincialRaw: "/data/vat_enterprises_worker_class_provinces.json",
     monthlyLookups: "/data/vat_monthly_lookups.json",
     monthlySummary: "/data/summary.json",
     yearlyRaw: "/data/vat_yearly_flows.json",
@@ -1012,12 +1019,24 @@ function InnerDashboard() {
     enterpriseLookups: "/data/vat_enterprises_lookups.json",
     survivalRaw: "/data/vat_survivals.json",
     survivalLookups: "/data/lookups.json",
+    migration: "/data/vat_migration.json",
   })
 
   const monthlyRows = React.useMemo(() => bundle?.monthlyRaw ?? [], [bundle])
-  const monthlyRegionalRows = React.useMemo(() => bundle?.monthlyRegionalRaw ?? [], [bundle])
-  const yearlyRows = React.useMemo(() => bundle?.yearlyRaw ?? [], [bundle])
-  const enterpriseRows = React.useMemo(() => bundle?.enterpriseRaw ?? [], [bundle])
+  // Provinciecodes botsen niet met gewestcodes, dus gewest- en provinciale rijen kunnen samen gefilterd worden op `g`.
+  const monthlyRegionalRows = React.useMemo(
+    () => [...(bundle?.monthlyRegionalRaw ?? []), ...(bundle?.monthlyProvincialRaw ?? [])],
+    [bundle]
+  )
+  const yearlyRows = React.useMemo(
+    () => [...(bundle?.yearlyRaw ?? []), ...(bundle?.yearlyProvincialRaw ?? [])],
+    [bundle]
+  )
+  const enterpriseRows = React.useMemo(
+    () => [...(bundle?.enterpriseRaw ?? []), ...(bundle?.enterpriseProvincialRaw ?? [])],
+    [bundle]
+  )
+  const monthlyGeo = resolveGeoCode(monthlyRegion, monthlyProvince)
   const survivalRows = React.useMemo(() => bundle?.survivalRaw ?? [], [bundle])
   const monthlySectorOptions = React.useMemo(() => buildMonthlySectorOptions(bundle?.monthlyLookups ?? null), [bundle])
   const enterpriseWorkerClassOptions = React.useMemo(() => buildWorkerClassOptions(bundle?.enterpriseLookups ?? null), [bundle])
@@ -1027,15 +1046,15 @@ function InnerDashboard() {
   const enterpriseSourceUrl = bundle?.monthlySummary?.enterpriseCounts?.sourceUrl ?? bundle?.enterpriseLookups?.sourceUrl
 
   const filteredMonthlyRows = React.useMemo(() => {
-    if (monthlyRegion === "1000") {
+    if (monthlyGeo === "1000") {
       return filterMonthlyRows(monthlyRows, monthlySector)
     }
-    return filterRegionalMonthlyRows(monthlyRegionalRows, monthlySector, monthlyRegion)
-  }, [monthlyRegion, monthlyRegionalRows, monthlyRows, monthlySector])
+    return filterRegionalMonthlyRows(monthlyRegionalRows, monthlySector, monthlyGeo)
+  }, [monthlyGeo, monthlyRegionalRows, monthlyRows, monthlySector])
 
   const filteredYearlyRows = React.useMemo(
-    () => filterAnnualRows(yearlyRows, monthlySector, monthlyRegion),
-    [monthlyRegion, monthlySector, yearlyRows]
+    () => filterAnnualRows(yearlyRows, monthlySector, monthlyGeo),
+    [monthlyGeo, monthlySector, yearlyRows]
   )
 
   const startersSeries = React.useMemo(
@@ -1055,13 +1074,13 @@ function InnerDashboard() {
   )
 
   const filteredEnterpriseRows = React.useMemo(
-    () => filterEnterpriseRows(enterpriseRows, monthlySector, monthlyRegion, enterpriseWorkerClass),
-    [enterpriseRows, enterpriseWorkerClass, monthlyRegion, monthlySector]
+    () => filterEnterpriseRows(enterpriseRows, monthlySector, monthlyGeo, enterpriseWorkerClass),
+    [enterpriseRows, enterpriseWorkerClass, monthlyGeo, monthlySector]
   )
 
   const enterpriseContextRows = React.useMemo(
-    () => filterEnterpriseRowsByContext(enterpriseRows, monthlySector, monthlyRegion),
-    [enterpriseRows, monthlyRegion, monthlySector]
+    () => filterEnterpriseRowsByContext(enterpriseRows, monthlySector, monthlyGeo),
+    [enterpriseRows, monthlyGeo, monthlySector]
   )
 
   const enterpriseSeries = React.useMemo(
@@ -1075,16 +1094,31 @@ function InnerDashboard() {
   )
 
   const monthlyCoverageNote = React.useMemo(() => {
-    const monthlyMinYear = bundle?.monthlySummary?.monthlyMinYear ?? 2019
+    const isProvince = monthlyGeo !== monthlyRegion
+    const monthlyMinYear = isProvince
+      ? bundle?.monthlySummary?.provincialMonthlyMinYear ?? 2021
+      : bundle?.monthlySummary?.monthlyMinYear ?? 2019
     const yearlyMinYear = bundle?.monthlySummary?.yearlyMinYear ?? 2008
     const yearlyMaxYear = bundle?.monthlySummary?.yearlyMaxYear ?? yearlyMinYear
+    const geoLevel = isProvince ? "gewest en provincie" : "gewest"
 
     if (monthlyTimeRange === "yearly") {
-      return `Jaarcijfers per sector en gewest lopen van ${yearlyMinYear} tot en met ${yearlyMaxYear}. Deze jaarlijkse starters en stoppers zijn Statbel-jaarfoto's op 31 december en verschillen dus van de som van maandcijfers.`
+      return `Jaarcijfers per sector en ${geoLevel} lopen van ${yearlyMinYear} tot en met ${yearlyMaxYear}. Deze jaarlijkse starters en stoppers zijn Statbel-jaarfoto's op 31 december en verschillen dus van de som van maandcijfers.`
     }
 
-    return `Kwartaal- en maanddata starten in ${monthlyMinYear}. Voor die fijnere uitsplitsing gebruikt de app de maandelijkse Statbel-reeks.`
-  }, [bundle, monthlyTimeRange])
+    return isProvince
+      ? `Kwartaal- en maanddata per provincie starten in ${monthlyMinYear}: de DataLab-reeks voor 2019-2020 bestaat enkel op gewestniveau.`
+      : `Kwartaal- en maanddata starten in ${monthlyMinYear}. Voor die fijnere uitsplitsing gebruikt de app de maandelijkse Statbel-reeks.`
+  }, [bundle, monthlyGeo, monthlyRegion, monthlyTimeRange])
+
+  const enterpriseCoverageNote = React.useMemo(() => {
+    if (monthlyGeo === monthlyRegion) return null
+    const provinceYears = bundle?.enterpriseLookups?.provinceYears
+    if (!provinceYears || provinceYears.length === 0) return null
+    const missingYears = enterpriseAvailableYears.filter((year) => !provinceYears.includes(year))
+    if (missingYears.length === 0) return null
+    return `Voor ${formatYearRanges(missingYears)} is er geen provinciaal Statbel-bronbestand beschikbaar; die jaren ontbreken daarom in de provinciale reeks.`
+  }, [bundle, enterpriseAvailableYears, monthlyGeo, monthlyRegion])
 
   const filteredSurvivalRows = React.useMemo(() => {
     const bySector = filterSurvivalRowsBySector(survivalRows, survivalSector)
@@ -1135,11 +1169,11 @@ function InnerDashboard() {
       <div className="rounded-lg border bg-muted/30 p-4 text-sm text-muted-foreground">
         <p>
           De secties <strong>starters</strong> en <strong>stoppers</strong> combineren nu twee Statbel-reeksen: een jaarlijkse reeks per sector en gewest vanaf 2008, en een maandelijkse reeks vanaf 2019.
-          Meest recente maand: {latestMonthlyLabel ?? "onbekend"}. Per sectie kun je wisselen tussen België en gewest, en tussen jaar-, kwartaal- of maandniveau.
+          Meest recente maand: {latestMonthlyLabel ?? "onbekend"}. Per sectie kun je wisselen tussen België, gewest en provincie (Brussel enkel als gewest), en tussen jaar-, kwartaal- of maandniveau.
         </p>
         <p className="mt-2">
           De jaarreeks loopt momenteel tot en met {bundle.monthlySummary.yearlyMaxYear}. Voor 2019-2020 gebruikt Statbel in de maandreeks een DataLab-bron op T+30; vanaf 2021 is dit de offici&euml;le maandreeks op T+45.
-          De sectie <strong>aantal ondernemingen</strong> toont een jaarreeks voor de beschikbare Statbel-jaren ({enterpriseAvailableYears.length > 0 ? formatYearRanges(enterpriseAvailableYears) : "geen data"}), plus een extra grafiek voor het aandeel ondernemingen zonder personeel. De overlevingskans hieronder blijft de jaarlijkse survivalreeks.
+          De sectie <strong>aantal ondernemingen</strong> toont een jaarreeks voor de beschikbare Statbel-jaren ({enterpriseAvailableYears.length > 0 ? formatYearRanges(enterpriseAvailableYears) : "geen data"}), plus een extra grafiek voor het aandeel ondernemingen zonder personeel. De sectie <strong>migratie</strong> toont de jaarlijkse verhuizingen van de maatschappelijke zetel tussen de gewesten, met een uitsplitsing naar werknemersklasse, sector en rechtsvorm. De overlevingskans hieronder blijft de jaarlijkse survivalreeks.
         </p>
       </div>
 
@@ -1150,7 +1184,9 @@ function InnerDashboard() {
         timeRange={monthlyTimeRange}
         onTimeRangeChange={setMonthlyTimeRange}
         selectedRegion={monthlyRegion}
+        selectedProvince={monthlyProvince}
         onSelectRegion={setMonthlyRegion}
+        onSelectProvince={setMonthlyProvince}
         selectedSector={monthlySector}
         onSelectSector={setMonthlySector}
         sectorOptions={monthlySectorOptions}
@@ -1166,7 +1202,9 @@ function InnerDashboard() {
         timeRange={monthlyTimeRange}
         onTimeRangeChange={setMonthlyTimeRange}
         selectedRegion={monthlyRegion}
+        selectedProvince={monthlyProvince}
         onSelectRegion={setMonthlyRegion}
+        onSelectProvince={setMonthlyProvince}
         selectedSector={monthlySector}
         onSelectSector={setMonthlySector}
         sectorOptions={monthlySectorOptions}
@@ -1178,8 +1216,11 @@ function InnerDashboard() {
       <EnterpriseCountSection
         data={enterpriseSeries}
         noEmployeeShareData={enterpriseNoEmployeeShareSeries}
+        coverageNote={enterpriseCoverageNote}
         selectedRegion={monthlyRegion}
+        selectedProvince={monthlyProvince}
         onSelectRegion={setMonthlyRegion}
+        onSelectProvince={setMonthlyProvince}
         selectedSector={monthlySector}
         onSelectSector={setMonthlySector}
         selectedWorkerClass={enterpriseWorkerClass}
@@ -1188,6 +1229,8 @@ function InnerDashboard() {
         workerClassOptions={enterpriseWorkerClassOptions}
         sourceUrl={enterpriseSourceUrl}
       />
+
+      {bundle.migration ? <MigrationSection data={bundle.migration} /> : null}
 
       <SurvivalSection
         data={survivalSeries}

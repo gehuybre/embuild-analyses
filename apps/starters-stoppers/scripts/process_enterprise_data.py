@@ -333,6 +333,80 @@ def build_enterprise_records(frame: pd.DataFrame, dataset_year: int) -> pd.DataF
     return pd.concat([regional, regional_totals, belgium, belgium_totals], ignore_index=True)
 
 
+def build_province_records(frame: pd.DataFrame) -> pd.DataFrame:
+    """Aantal ondernemingen per provincie (zonder Brussel), sector en werknemersklasse voor één jaarbestand."""
+    frame = frame.copy()
+    frame["arr"] = frame["CD_ADM_DSTR_REFNIS"].map(normalize_arrondissement)
+    frame["g"] = frame["arr"].map(arrondissement_to_province)
+    frame = frame[frame["g"].notna() & frame["g"].ne("21000")].copy()
+
+    frame["n1"] = frame["TX_NACE_NL_LVL1"].map(lambda value: parse_sector_label(value)[0])
+    frame["w"] = frame["CD_NIS_STAT_UNT_CLS"].astype(str).str.strip().str.zfill(2)
+    frame["vat"] = pd.to_numeric(frame["MS_NUM_VAT"], errors="coerce").fillna(0)
+    frame = frame[frame["n1"].notna() & frame["w"].ne("")]
+
+    by_sector = frame.groupby(["g", "n1", "w"], dropna=False)["vat"].sum().reset_index()
+    totals = frame.groupby(["g", "w"], dropna=False)["vat"].sum().reset_index()
+    totals["n1"] = "ALL"
+    combined = pd.concat([by_sector, totals], ignore_index=True)
+    combined["vat"] = combined["vat"].round().astype(int)
+    return combined
+
+
+def find_local_enterprise_source(year: int) -> Path | None:
+    year_dir = DATA_DIR / str(year)
+    if not year_dir.exists():
+        return None
+    for suffix in (".sqlite", ".txt", ".xlsx"):
+        matches = sorted(year_dir.glob(f"*{suffix}"))
+        if matches:
+            return matches[0]
+    return None
+
+
+def obtain_enterprise_source(year: int) -> Path | None:
+    local = find_local_enterprise_source(year)
+    if local:
+        return local
+    for candidate in candidate_urls_for_year(year):
+        if not url_exists(candidate):
+            continue
+        downloaded = download_input_file(candidate, DATA_DIR / Path(candidate).name)
+        if downloaded.suffix.lower() == ".zip":
+            try:
+                return extract_supported_member(downloaded, DATA_DIR / str(year))
+            except RuntimeError:
+                continue
+        return downloaded
+    return None
+
+
+def refresh_province_records(years: list[int]) -> list[int]:
+    """Vult het provinciale ondernemingsbestand aan met jaren die er nog niet in zitten; geeft de jaren met data terug."""
+    target = RESULTS_DIR / "vat_enterprises_worker_class_provinces.json"
+    existing: list[dict[str, Any]] = json.loads(target.read_text(encoding="utf-8")) if target.exists() else []
+    have_years = {int(row["y"]) for row in existing}
+
+    new_frames: list[pd.DataFrame] = []
+    for year in sorted(set(years) - have_years):
+        source = obtain_enterprise_source(year)
+        if source is None:
+            print(f"Geen provinciaal bronbestand beschikbaar voor {year}; jaar overgeslagen")
+            continue
+        frame = build_province_records(read_enterprise_source(source))
+        frame["y"] = year
+        new_frames.append(frame)
+
+    records = existing
+    if new_frames:
+        added = pd.concat(new_frames, ignore_index=True)[["y", "g", "n1", "w", "vat"]]
+        records = existing + json.loads(added.to_json(orient="records"))
+    records.sort(key=lambda row: (int(row["y"]), str(row["g"]), str(row["n1"]), str(row["w"])))
+
+    target.write_text(json.dumps(records, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    return sorted({int(row["y"]) for row in records})
+
+
 def read_enterprise_txt(path: Path) -> pd.DataFrame:
     for encoding in ("utf-8-sig", "latin-1"):
         try:
@@ -463,6 +537,9 @@ def process_data() -> None:
         "sectors": build_lookup(sector_lookup_frame, "n1", "n1_label"),
         "workerClasses": build_lookup(worker_lookup_frame, "w", "w_label"),
     }
+
+    province_years = refresh_province_records(available_years)
+    lookups["provinceYears"] = province_years
 
     (RESULTS_DIR / "vat_enterprises_worker_class.json").write_text(
         json.dumps(records, ensure_ascii=False, separators=(",", ":")),

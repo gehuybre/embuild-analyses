@@ -5,8 +5,10 @@ import { FilterableChart } from "@embuild/shared/components/shared/FilterableCha
 import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
 import { PROVINCES, ProvinceCode, REGIONS, RegionCode } from "@embuild/shared/lib/geo-utils"
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
+import { MigrationData, MigrationDim } from "@/lib/migration"
+import { MigrationEmbed } from "@/components/MigrationSection"
 
-type SectionType = "starters" | "stoppers" | "survival" | "enterprises"
+type SectionType = "starters" | "stoppers" | "survival" | "enterprises" | "migration"
 type ViewType = "chart" | "table"
 type TimeRange = "yearly" | "quarterly" | "monthly"
 type StopHorizon = 1 | 2 | 3 | 4 | 5
@@ -23,12 +25,12 @@ type MonthlyFlowRow = {
 }
 
 type RegionalMonthlyFlowRow = MonthlyFlowRow & {
-  g: RegionCode
+  g: string // gewestcode of provinciecode
 }
 
 type AnnualFlowRow = {
   y: number
-  g: RegionCode
+  g: string
   n1: string
   fr: number
   st: number
@@ -44,7 +46,7 @@ type MonthlySummary = {
 
 type EnterpriseWorkerClassRow = {
   y: number
-  g: RegionCode
+  g: string
   n1: string
   w: string
   vat: number
@@ -84,6 +86,13 @@ const MONTHLY_REGION_OPTIONS: Array<{ code: RegionCode; label: string }> = [
   { code: "4000", label: "Brussel" },
 ]
 
+const BRUSSELS_PROVINCE_CODE = "21000"
+
+// Brussel is zowel gewest als "provincie"; in de data bestaat het enkel als gewest.
+function resolveGeoCode(region: RegionCode, province: ProvinceCode | null): string {
+  return province && String(province) !== BRUSSELS_PROVINCE_CODE ? String(province) : region
+}
+
 function formatYearRanges(years: number[]) {
   if (years.length === 0) return ""
   const sorted = [...years].sort((a, b) => a - b)
@@ -115,12 +124,12 @@ function filterMonthlyRows(rows: MonthlyFlowRow[], sector: string | null) {
   return rows.filter((row) => row.n1 === code)
 }
 
-function filterRegionalMonthlyRows(rows: RegionalMonthlyFlowRow[], sector: string | null, region: RegionCode) {
+function filterRegionalMonthlyRows(rows: RegionalMonthlyFlowRow[], sector: string | null, region: string) {
   const code = sector ?? "ALL"
   return rows.filter((row) => row.g === region && row.n1 === code)
 }
 
-function filterAnnualRows(rows: AnnualFlowRow[], sector: string | null, region: RegionCode) {
+function filterAnnualRows(rows: AnnualFlowRow[], sector: string | null, region: string) {
   const code = sector ?? "ALL"
   return rows.filter((row) => row.g === region && row.n1 === code)
 }
@@ -175,7 +184,7 @@ function aggregateAnnualMetric(rows: AnnualFlowRow[], metric: "fr" | "st"): Char
     .sort((a, b) => a.sortValue - b.sortValue)
 }
 
-function filterEnterpriseRows(rows: EnterpriseWorkerClassRow[], sector: string | null, region: RegionCode, workerClass: string | null) {
+function filterEnterpriseRows(rows: EnterpriseWorkerClassRow[], sector: string | null, region: string, workerClass: string | null) {
   const code = sector ?? "ALL"
   return rows.filter((row) => row.g === region && row.n1 === code && (!workerClass || row.w === workerClass))
 }
@@ -199,6 +208,13 @@ function aggregateEnterpriseCountsByYear(rows: EnterpriseWorkerClassRow[]): Char
 
 function formatMonthlyRegionLabel(regionCode: RegionCode) {
   return MONTHLY_REGION_OPTIONS.find((option) => option.code === regionCode)?.label ?? "België"
+}
+
+function formatGeoLabel(region: RegionCode, province: ProvinceCode | null) {
+  if (province && String(province) !== BRUSSELS_PROVINCE_CODE) {
+    return PROVINCES.find((item) => String(item.code) === String(province))?.name ?? "Provincie"
+  }
+  return formatMonthlyRegionLabel(region)
 }
 
 function filterSurvivalRowsByGeo(rows: VatSurvivalRow[], region: RegionCode | null, province: ProvinceCode | null) {
@@ -248,6 +264,9 @@ interface StartersStoppersEmbedProps {
   sector?: string | null
   workerClass?: string | null
   timeRange?: TimeRange
+  counterpart?: string | null
+  migrationDim?: MigrationDim
+  category?: string | null
 }
 
 export function StartersStoppersEmbed({
@@ -259,80 +278,99 @@ export function StartersStoppersEmbed({
   sector = null,
   workerClass = null,
   timeRange = "yearly",
+  counterpart = null,
+  migrationDim = "tot",
+  category = null,
 }: StartersStoppersEmbedProps) {
   const { data: bundle, loading, error } = useJsonBundle<{
     monthlyRaw: MonthlyFlowRow[]
     monthlyRegionalRaw: RegionalMonthlyFlowRow[]
+    monthlyProvincialRaw: RegionalMonthlyFlowRow[]
+    yearlyProvincialRaw: AnnualFlowRow[]
+    enterpriseProvincialRaw: EnterpriseWorkerClassRow[]
     yearlyRaw: AnnualFlowRow[]
     monthlySummary: MonthlySummary
     enterpriseRaw: EnterpriseWorkerClassRow[]
     enterpriseLookups: EnterpriseLookups
     survivalRaw: VatSurvivalRow[]
+    migration: MigrationData
   }>({
     monthlyRaw: "/data/vat_monthly_flows.json",
     monthlyRegionalRaw: "/data/vat_monthly_flows_regions.json",
+    monthlyProvincialRaw: "/data/vat_monthly_flows_provinces.json",
+    yearlyProvincialRaw: "/data/vat_yearly_flows_provinces.json",
+    enterpriseProvincialRaw: "/data/vat_enterprises_worker_class_provinces.json",
     yearlyRaw: "/data/vat_yearly_flows.json",
     monthlySummary: "/data/summary.json",
     enterpriseRaw: "/data/vat_enterprises_worker_class.json",
     enterpriseLookups: "/data/vat_enterprises_lookups.json",
     survivalRaw: "/data/vat_survivals.json",
+    migration: "/data/vat_migration.json",
   })
 
   const monthlyRows = useMemo(() => bundle?.monthlyRaw ?? [], [bundle])
-  const monthlyRegionalRows = useMemo(() => bundle?.monthlyRegionalRaw ?? [], [bundle])
-  const yearlyRows = useMemo(() => bundle?.yearlyRaw ?? [], [bundle])
-  const enterpriseRows = useMemo(() => bundle?.enterpriseRaw ?? [], [bundle])
+  // Provinciecodes botsen niet met gewestcodes, dus gewest- en provinciale rijen kunnen samen gefilterd worden op `g`.
+  const monthlyRegionalRows = useMemo(
+    () => [...(bundle?.monthlyRegionalRaw ?? []), ...(bundle?.monthlyProvincialRaw ?? [])],
+    [bundle]
+  )
+  const yearlyRows = useMemo(() => [...(bundle?.yearlyRaw ?? []), ...(bundle?.yearlyProvincialRaw ?? [])], [bundle])
+  const enterpriseRows = useMemo(
+    () => [...(bundle?.enterpriseRaw ?? []), ...(bundle?.enterpriseProvincialRaw ?? [])],
+    [bundle]
+  )
   const survivalRows = useMemo(() => bundle?.survivalRaw ?? [], [bundle])
   const selectedRegion = region ?? "1000"
+  const selectedGeo = resolveGeoCode(selectedRegion, province)
   const enterpriseAvailableYears = bundle?.monthlySummary?.enterpriseCounts?.availableYears ?? bundle?.enterpriseLookups?.years ?? []
   const workerClassLabels = useMemo(() => new Map((bundle?.enterpriseLookups?.workerClasses ?? []).map((row) => [row.code, row.nl])), [bundle])
 
   const data = useMemo(() => {
     if (section === "starters") {
       if (timeRange === "yearly") {
-        return aggregateAnnualMetric(filterAnnualRows(yearlyRows, sector, selectedRegion), "fr")
+        return aggregateAnnualMetric(filterAnnualRows(yearlyRows, sector, selectedGeo), "fr")
       }
       return aggregateMonthlyMetric(
-        selectedRegion === "1000"
+        selectedGeo === "1000"
           ? filterMonthlyRows(monthlyRows, sector)
-          : filterRegionalMonthlyRows(monthlyRegionalRows, sector, selectedRegion),
+          : filterRegionalMonthlyRows(monthlyRegionalRows, sector, selectedGeo),
         "fr",
         timeRange
       )
     }
     if (section === "stoppers") {
       if (timeRange === "yearly") {
-        return aggregateAnnualMetric(filterAnnualRows(yearlyRows, sector, selectedRegion), "st")
+        return aggregateAnnualMetric(filterAnnualRows(yearlyRows, sector, selectedGeo), "st")
       }
       return aggregateMonthlyMetric(
-        selectedRegion === "1000"
+        selectedGeo === "1000"
           ? filterMonthlyRows(monthlyRows, sector)
-          : filterRegionalMonthlyRows(monthlyRegionalRows, sector, selectedRegion),
+          : filterRegionalMonthlyRows(monthlyRegionalRows, sector, selectedGeo),
         "st",
         timeRange
       )
     }
     if (section === "enterprises") {
-      return aggregateEnterpriseCountsByYear(filterEnterpriseRows(enterpriseRows, sector, selectedRegion, workerClass))
+      return aggregateEnterpriseCountsByYear(filterEnterpriseRows(enterpriseRows, sector, selectedGeo, workerClass))
     }
     return aggregateSurvivalRateByYear(
       filterSurvivalRowsByGeo(filterSurvivalRowsBySector(survivalRows, sector), region, province),
       horizon
     )
-  }, [enterpriseRows, horizon, monthlyRegionalRows, monthlyRows, province, region, sector, section, selectedRegion, survivalRows, timeRange, workerClass, yearlyRows])
+  }, [enterpriseRows, horizon, monthlyRegionalRows, monthlyRows, province, region, sector, section, selectedGeo, survivalRows, timeRange, workerClass, yearlyRows])
 
   const title = useMemo(() => {
     if (section === "starters") {
-      return selectedRegion !== "1000" ? `Aantal starters - ${formatMonthlyRegionLabel(selectedRegion)}` : "Aantal starters"
+      return selectedRegion !== "1000" ? `Aantal starters - ${formatGeoLabel(selectedRegion, province)}` : "Aantal starters"
     }
     if (section === "stoppers") {
-      return selectedRegion !== "1000" ? `Aantal stoppers - ${formatMonthlyRegionLabel(selectedRegion)}` : "Aantal stoppers"
+      return selectedRegion !== "1000" ? `Aantal stoppers - ${formatGeoLabel(selectedRegion, province)}` : "Aantal stoppers"
     }
     if (section === "enterprises") {
       const yearSuffix = enterpriseAvailableYears.length > 0 ? ` (${formatYearRanges(enterpriseAvailableYears)})` : ""
       const workerClassSuffix = workerClass ? ` - ${workerClassLabels.get(workerClass) ?? workerClass}` : ""
       const baseTitle = `Aantal ondernemingen${yearSuffix}${workerClassSuffix}`
-      return selectedRegion !== "1000" ? `${baseTitle} - ${formatMonthlyRegionLabel(selectedRegion)}` : baseTitle
+      return selectedRegion !== "1000" ? `${baseTitle} - ${formatGeoLabel(selectedRegion, province)}` : baseTitle
     }
 
     const locationParts: string[] = []
@@ -357,6 +395,19 @@ export function StartersStoppersEmbed({
       <div className="p-4 text-sm text-destructive">
         Fout bij het laden van data: {error ?? "Onbekende fout"}
       </div>
+    )
+  }
+
+  if (section === "migration") {
+    return (
+      <MigrationEmbed
+        data={bundle.migration}
+        viewType={viewType}
+        region={region ?? "2000"}
+        counterpart={counterpart}
+        dim={migrationDim}
+        category={category}
+      />
     )
   }
 

@@ -1,7 +1,8 @@
 {
-  "latestPeriod": "2026-01",
+  "latestPeriod": "2026-07",
   "monthlyMinYear": 2019,
   "monthlyMaxYear": 2026,
+  "provincialMonthlyMinYear": 2021,
   "yearlyMinYear": 2008,
   "yearlyMaxYear": 2024,
   "publicationPageUrl": "https://statbel.fgov.be/nl/themas/ondernemingen/btw-plichtige-ondernemingen/maandevolutie-van-de-btw-plichtige-ondernemingen",
@@ -37,7 +38,10 @@
     "De jaarreeks gebruikt de jaarlijkse Statbel-be.STAT-kubus per sector en gewest vanaf 2008.",
     "Jaarcijfers zijn geen som van de maandcijfers: Statbel baseert de jaarlijkse starters en stoppers op een 31/12-foto.",
     "De gewestuitsplitsing gebruikt de DataLab-reeks voor 2019-2020 en be.STAT-datasources vanaf 2021.",
-    "De sectie ondernemingen gebruikt het meest recente Statbel-jaarbestand per werknemersklasse dat via de maandelijkse GitHub Action wordt gecontroleerd."
+    "Provinciale maandcijfers komen uit de be.STAT-datasources en starten in 2021; provinciale jaarcijfers vanaf 2008.",
+    "Brussel heeft geen provincies en wordt enkel als gewest getoond.",
+    "De sectie ondernemingen gebruikt het meest recente Statbel-jaarbestand per werknemersklasse dat via de maandelijkse GitHub Action wordt gecontroleerd.",
+    "Migratie tussen de gewesten komt uit het jaarlijkse Statbel-bestand move_nl.xlsx: het bestand telt enkel verhuizingen van de maatschappelijke zetel tussen de gewesten, niet binnen een gewest."
   ],
   "enterpriseCounts": {
     "latestYear": 2024,
@@ -62,6 +66,29 @@
     ],
     "sourceUrl": "https://wiki.statbel.fgov.be/wiki/OpenData_Q21733_nl",
     "sourceUrls": [],
-    "updatedAt": "2026-04-20T08:25:25.306225+00:00"
+    "updatedAt": "2026-10-08T07:25:32.521685+00:00"
+  },
+  "migration": {
+    "latestYear": 2024,
+    "years": [
+      2009,
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "sourceUrl": "https://statbel.fgov.be/sites/default/files/files/documents/Ondernemingen/7.4%20BTW-plichtige%20ondernemers/7.4.1%20Jaarevolutie/Migratie/move_nl.xlsx",
+    "updatedAt": "2026-10-08T07:48:15.126933+00:00"
   }
 }

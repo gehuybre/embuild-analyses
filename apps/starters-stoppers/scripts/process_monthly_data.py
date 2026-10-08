@@ -55,6 +55,19 @@ REGION_FILTER_LABELS = {
     "3000": "Waals Gewest",
     "4000": "Brussels Hoofdstedelijk Gewest",
 }
+PROVINCE_FILTER_LABELS = {
+    "10000": "Provincie Antwerpen",
+    "20001": "Provincie Vlaams-Brabant",
+    "30000": "Provincie West-Vlaanderen",
+    "40000": "Provincie Oost-Vlaanderen",
+    "70000": "Provincie Limburg",
+    "20002": "Provincie Waals-Brabant",
+    "50000": "Provincie Henegouwen",
+    "60000": "Provincie Luik",
+    "80000": "Provincie Luxemburg",
+    "90000": "Provincie Namen",
+}
+BESTAT_ANNUAL_GEO_HIERARCHY = "root.Plaats Maatschappelijke Zetel"
 REGION_CODES_BY_DATALAB = {
     "02000": "2000",
     "03000": "3000",
@@ -549,7 +562,17 @@ def extract_bestat_filter_rowkeys(response_text: str) -> dict[str, str]:
     return keys
 
 
-def submit_bestat_tree_filter(session: requests.Session, viewstate: str, rowkey: str) -> str:
+def extract_bestat_selection_field(dialog_html: str) -> str | None:
+    match = re.search(r'name="(filter-dialog-form:[^"]*_selection)"', dialog_html)
+    return match.group(1) if match else None
+
+
+def submit_bestat_tree_filter(
+    session: requests.Session,
+    viewstate: str,
+    rowkey: str,
+    selection_field: str = "filter-dialog-form:j_id_4r_2_1_selection",
+) -> str:
     button_id = "filter-dialog-form:j_id_4t"
     payload = {
         "javax.faces.partial.ajax": "true",
@@ -559,7 +582,7 @@ def submit_bestat_tree_filter(session: requests.Session, viewstate: str, rowkey:
         button_id: button_id,
         "filter-dialog-form": "filter-dialog-form",
         "filter-dialog-form_SUBMIT": "1",
-        "filter-dialog-form:j_id_4r_2_1_selection": rowkey,
+        selection_field: rowkey,
         "javax.faces.ViewState": viewstate,
     }
     response = session.post(
@@ -663,20 +686,25 @@ def parse_bestat_monthly_table(html: str, region_code: str) -> list[dict[str, in
 
 
 def fetch_bestat_regional_records(datasource_id: str, region_code: str) -> list[dict[str, int | str]]:
+    """Maandcijfers voor een gewest ("1000" = geen geofilter) of een provinciecode."""
     page_url = f"{BESTAT_BASE_URL}?datasource={datasource_id}"
     session = requests.Session()
 
     html = session.get(page_url, timeout=180).text
     viewstate = extract_updated_viewstate(html, "")
 
-    _, viewstate = open_bestat_filter(session, page_url, viewstate, BESTAT_PERIOD_FILTER_BUTTON, "root.Periode")
-    viewstate = submit_bestat_period_filter(session, viewstate, BESTAT_MONTH_LOOKBACK)
+    dialog_html, viewstate = open_bestat_filter(session, page_url, viewstate, BESTAT_PERIOD_FILTER_BUTTON, "root.Periode")
+    # De NACE 2025-kubus bevat minder dan 60 maanden; een waarde boven het maximum levert maar één maand op.
+    max_months = extract_bestat_spinner_max(dialog_html)
+    months = min(BESTAT_MONTH_LOOKBACK, max_months) if max_months else BESTAT_MONTH_LOOKBACK
+    viewstate = submit_bestat_period_filter(session, viewstate, months)
     viewstate = trigger_bestat_layout_submit(session, page_url, viewstate)
 
     html = session.get(page_url, timeout=180).text
     viewstate = extract_updated_viewstate(html, viewstate)
 
-    if region_code in REGION_FILTER_LABELS:
+    geo_label = REGION_FILTER_LABELS.get(region_code) or PROVINCE_FILTER_LABELS.get(region_code)
+    if geo_label:
         dialog_html, viewstate = open_bestat_filter(
             session,
             page_url,
@@ -685,7 +713,7 @@ def fetch_bestat_regional_records(datasource_id: str, region_code: str) -> list[
             "root.Plaats maatschappelijke zetel",
         )
         rowkeys = extract_bestat_filter_rowkeys(dialog_html)
-        rowkey = rowkeys.get(REGION_FILTER_LABELS[region_code])
+        rowkey = rowkeys.get(geo_label)
         if not rowkey:
             raise ValueError(f"Could not resolve be.STAT rowkey for region {region_code}")
 
@@ -702,6 +730,17 @@ def load_bestat_regional_monthlies() -> list[dict[str, int | str]]:
         source_records: list[dict[str, int | str]] = []
         for region_code in REGION_FILTER_LABELS:
             source_records.extend(fetch_bestat_regional_records(datasource_id, region_code))
+        records_by_source.append(source_records)
+
+    return combine_geo_records(records_by_source)
+
+
+def load_bestat_provincial_monthlies() -> list[dict[str, int | str]]:
+    records_by_source: list[list[dict[str, int | str]]] = []
+    for datasource_id in [BESTAT_NACE_2008_DATASOURCE, BESTAT_NACE_2025_DATASOURCE]:
+        source_records: list[dict[str, int | str]] = []
+        for province_code in PROVINCE_FILTER_LABELS:
+            source_records.extend(fetch_bestat_regional_records(datasource_id, province_code))
         records_by_source.append(source_records)
 
     return combine_geo_records(records_by_source)
@@ -735,7 +774,12 @@ def combine_geo_year_records(records_by_source: list[list[dict[str, int | str]]]
     return sorted(combined.values(), key=sort_key)
 
 
-def parse_bestat_yearly_table(html: str, metric_key: str) -> tuple[list[dict[str, int | str]], dict[str, str]]:
+def parse_bestat_yearly_table(
+    html: str,
+    metric_key: str,
+    region_codes: list[str | None] | None = None,
+) -> tuple[list[dict[str, int | str]], dict[str, str]]:
+    region_codes = region_codes if region_codes is not None else ANNUAL_REGION_CODES
     soup = BeautifulSoup(html, "html.parser")
     table = soup.select_one("#pricePanel table.pvtTable")
     if table is None:
@@ -766,13 +810,13 @@ def parse_bestat_yearly_table(html: str, metric_key: str) -> tuple[list[dict[str
             labels[sector_code] = sector_label
 
         cells = row.find_all("td")
-        if len(cells) != len(years) * len(ANNUAL_REGION_CODES):
+        if len(cells) != len(years) * len(region_codes):
             continue
 
         for year_index, year in enumerate(years):
-            start = year_index * len(ANNUAL_REGION_CODES)
-            group = cells[start : start + len(ANNUAL_REGION_CODES)]
-            for region_code, cell in zip(ANNUAL_REGION_CODES, group):
+            start = year_index * len(region_codes)
+            group = cells[start : start + len(region_codes)]
+            for region_code, cell in zip(region_codes, group):
                 if not region_code:
                     continue
 
@@ -810,6 +854,45 @@ def fetch_bestat_annual_records(view_id: str, metric_key: str) -> tuple[list[dic
         "viewId": view_id,
     }
     return records, labels, metadata
+
+
+def fetch_bestat_annual_province_records(view_id: str, metric_key: str, province_code: str) -> list[dict[str, int | str]]:
+    """Jaarcijfers voor een provincie. Per jaar levert be.STAT twee kolommen: de provincie en het gewestsubtotaal."""
+    page_url = f"{BESTAT_BASE_URL}?view={view_id}"
+    session = requests.Session()
+
+    html = session.get(page_url, timeout=180).text
+    viewstate = extract_updated_viewstate(html, "")
+
+    dialog_html, viewstate = open_bestat_filter(session, page_url, viewstate, BESTAT_PERIOD_FILTER_BUTTON, "root.Jaar")
+    max_years = extract_bestat_spinner_max(dialog_html)
+    if not max_years:
+        raise ValueError("Could not resolve annual be.STAT year range")
+    viewstate = submit_bestat_year_filter(session, viewstate, max_years)
+    viewstate = trigger_bestat_layout_submit(session, page_url, viewstate)
+
+    dialog_html, viewstate = open_bestat_filter(
+        session, page_url, viewstate, BESTAT_GEO_FILTER_BUTTON, BESTAT_ANNUAL_GEO_HIERARCHY
+    )
+    rowkey = extract_bestat_filter_rowkeys(dialog_html).get(PROVINCE_FILTER_LABELS[province_code])
+    selection_field = extract_bestat_selection_field(dialog_html)
+    if not rowkey or not selection_field:
+        raise ValueError(f"Could not resolve be.STAT province filter for {province_code}")
+    viewstate = submit_bestat_tree_filter(session, viewstate, rowkey, selection_field)
+    viewstate = trigger_bestat_layout_submit(session, page_url, viewstate)
+
+    html = session.get(page_url, timeout=180).text
+    records, _ = parse_bestat_yearly_table(html, metric_key, [province_code, None])
+    return records
+
+
+def load_bestat_annual_province_flows() -> list[dict[str, int | str]]:
+    starters: list[dict[str, int | str]] = []
+    stoppers: list[dict[str, int | str]] = []
+    for province_code in PROVINCE_FILTER_LABELS:
+        starters.extend(fetch_bestat_annual_province_records(BESTAT_ANNUAL_STARTERS_VIEW, "fr", province_code))
+        stoppers.extend(fetch_bestat_annual_province_records(BESTAT_ANNUAL_STOPPERS_VIEW, "st", province_code))
+    return combine_geo_year_records([starters, stoppers])
 
 
 def load_bestat_annual_flows() -> tuple[list[dict[str, int | str]], dict[str, str], dict[str, object]]:
@@ -947,12 +1030,15 @@ def write_outputs(
     labels: dict[str, str],
     annual_records: list[dict[str, int | str]],
     annual_metadata: dict[str, object],
+    provincial_records: list[dict[str, int | str]],
+    annual_provincial_records: list[dict[str, int | str]],
 ) -> None:
     lookups = build_lookups(labels, records)
     summary = {
         "latestPeriod": lookups["latestPeriod"],
         "monthlyMinYear": min(lookups["years"]),
         "monthlyMaxYear": max(lookups["years"]),
+        "provincialMonthlyMinYear": min(int(item["y"]) for item in provincial_records),
         "yearlyMinYear": min(int(item["y"]) for item in annual_records),
         "yearlyMaxYear": max(int(item["y"]) for item in annual_records),
         "publicationPageUrl": PUBLICATION_PAGE_URL,
@@ -971,6 +1057,8 @@ def write_outputs(
             "De jaarreeks gebruikt de jaarlijkse Statbel-be.STAT-kubus per sector en gewest vanaf 2008.",
             "Jaarcijfers zijn geen som van de maandcijfers: Statbel baseert de jaarlijkse starters en stoppers op een 31/12-foto.",
             "De gewestuitsplitsing gebruikt de DataLab-reeks voor 2019-2020 en be.STAT-datasources vanaf 2021.",
+            "Provinciale maandcijfers komen uit de be.STAT-datasources en starten in 2021; provinciale jaarcijfers vanaf 2008.",
+            "Brussel heeft geen provincies en wordt enkel als gewest getoond.",
         ],
     }
 
@@ -984,6 +1072,14 @@ def write_outputs(
     )
     (RESULTS_DIR / "vat_monthly_flows_regions.json").write_text(
         json.dumps(regional_records, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    (RESULTS_DIR / "vat_monthly_flows_provinces.json").write_text(
+        json.dumps(provincial_records, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+    (RESULTS_DIR / "vat_yearly_flows_provinces.json").write_text(
+        json.dumps(annual_provincial_records, ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     (RESULTS_DIR / "vat_yearly_flows.json").write_text(
@@ -1036,7 +1132,17 @@ def main() -> None:
     combined_regional_records = combine_geo_records(regional_records_by_source)
     annual_records, annual_labels, annual_metadata = load_bestat_annual_flows()
     labels.update(annual_labels)
-    write_outputs(combined_records, combined_regional_records, labels, annual_records, annual_metadata)
+    provincial_records = load_bestat_provincial_monthlies()
+    annual_provincial_records = load_bestat_annual_province_flows()
+    write_outputs(
+        combined_records,
+        combined_regional_records,
+        labels,
+        annual_records,
+        annual_metadata,
+        provincial_records,
+        annual_provincial_records,
+    )
 
 
 if __name__ == "__main__":

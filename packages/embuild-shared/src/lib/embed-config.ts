@@ -147,6 +147,11 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         component: "StartersStoppersEmbed",
         height: 720,
       },
+      migration: {
+        type: "custom",
+        title: "Migratie van ondernemingen tussen gewesten",
+        component: "StartersStoppersEmbed",
+      },
       survival: {
         type: "custom",
         title: "Overlevingskans",

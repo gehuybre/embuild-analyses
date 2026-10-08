@@ -4,15 +4,15 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 
 const metadata = {
   title: "Starters en stoppers",
-  date: "2026-03-24",
+  date: "2026-10-08",
   summary: "Analyse van starters, stoppers, aantal ondernemingen en overlevingskansen van btw-plichtige ondernemingen, met jaarreeksen per sector en gewest vanaf 2008 en maandreeksen vanaf 2019.",
-  dataAvailabilityLabel: "januari 2026",
+  dataAvailabilityLabel: "juli 2026",
   tags: ["economie","ondernemerschap"],
   source: {
     provider: "Statbel",
     title: "Jaar- en maandevolutie van de btw-plichtige ondernemingen",
     url: "https://statbel.fgov.be/nl/themas/ondernemingen/btw-plichtige-ondernemingen/maandevolutie-van-de-btw-plichtige-ondernemingen",
-    publicationDate: "2026-03-24",
+    publicationDate: "2026-09-25",
   },
 }
 

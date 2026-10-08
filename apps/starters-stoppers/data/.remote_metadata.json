@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-20T08:24:52.198248+00:00",
-  "latest_period": "2026-01",
+  "updated_at": "2026-10-08T07:24:24.062567+00:00",
+  "latest_period": "2026-07",
   "sources": [
     {
       "key": "datalab_2019_2020",
@@ -50,6 +50,11 @@
     ],
     "source_url": "https://wiki.statbel.fgov.be/wiki/OpenData_Q21733_nl",
     "source_urls": [],
-    "updated_at": "2026-04-20T08:25:25.306461+00:00"
+    "updated_at": "2026-10-08T07:25:32.521870+00:00"
+  },
+  "migration": {
+    "latest_year": 2024,
+    "source_url": "https://statbel.fgov.be/sites/default/files/files/documents/Ondernemingen/7.4%20BTW-plichtige%20ondernemers/7.4.1%20Jaarevolutie/Migratie/move_nl.xlsx",
+    "updated_at": "2026-10-08T07:48:15.126933+00:00"
   }
 }
