@@ -43,6 +43,7 @@ type AnnualFlowRow = {
   n1: string
   fr: number
   st: number
+  p?: number // 1 = voorlopig, geschat uit de maandcijfers
 }
 
 type MonthlySummary = {
@@ -85,7 +86,11 @@ type ChartPoint = {
   periodCells: Array<string | number>
   value: number
   label: string
+  provisional?: boolean
 }
+
+const PROVISIONAL_NOTE =
+  "* Voorlopig: geschat uit de maandcijfers, gekalibreerd op het verschil tussen maand- en jaarreeks in de laatste drie jaren. Wordt vervangen zodra Statbel het jaarcijfer publiceert."
 
 const MONTH_NAMES_SHORT = ["jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"]
 const MONTHLY_REGION_OPTIONS: Array<{ code: RegionCode; label: string }> = [
@@ -184,12 +189,11 @@ function aggregateMonthlyMetric(rows: MonthlyFlowRow[], metric: "fr" | "st", tim
 
 function aggregateAnnualMetric(rows: AnnualFlowRow[], metric: "fr" | "st"): ChartPoint[] {
   return rows
-    .map((row) => ({
-      sortValue: row.y,
-      periodCells: [row.y],
-      value: row[metric],
-      label: String(row.y),
-    }))
+    .map((row) => {
+      const provisional = row.p === 1
+      const label = provisional ? `${row.y}*` : String(row.y)
+      return { sortValue: row.y, periodCells: [provisional ? label : row.y], value: row[metric], label, provisional }
+    })
     .sort((a, b) => a.sortValue - b.sortValue)
 }
 
@@ -516,6 +520,8 @@ export function StartersStoppersEmbed({
           periodHeaders={[periodHeader]}
         />
       )}
+
+      {data.some((point) => point.provisional) ? <p className="mt-3 text-xs text-muted-foreground">{PROVISIONAL_NOTE}</p> : null}
 
       <div className="mt-4 text-center text-xs text-muted-foreground">
         <span>Bron: Statbel</span>

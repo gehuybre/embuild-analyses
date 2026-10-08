@@ -49,6 +49,7 @@ type MonthlySummary = {
   latestPeriod: string
   monthlyMinYear: number
   monthlyMaxYear: number
+  provisionalYears?: number[]
   provincialMonthlyMinYear?: number
   yearlyMinYear: number
   yearlyMaxYear: number
@@ -68,6 +69,7 @@ type AnnualFlowRow = {
   n1: string
   fr: number
   st: number
+  p?: number // 1 = voorlopig, geschat uit de maandcijfers
 }
 
 type EnterpriseWorkerClassRow = {
@@ -110,7 +112,11 @@ type ChartPoint = {
   periodCells: Array<string | number>
   value: number
   label: string
+  provisional?: boolean
 }
+
+const PROVISIONAL_NOTE =
+  "* Voorlopig: geschat uit de maandcijfers, gekalibreerd op het verschil tussen maand- en jaarreeks in de laatste drie jaren. Wordt vervangen zodra Statbel het jaarcijfer publiceert."
 
 const MONTH_NAMES_SHORT = ["jan", "feb", "mrt", "apr", "mei", "jun", "jul", "aug", "sep", "okt", "nov", "dec"]
 const MONTH_NAMES_FULL = ["januari", "februari", "maart", "april", "mei", "juni", "juli", "augustus", "september", "oktober", "november", "december"]
@@ -258,12 +264,11 @@ function aggregateMonthlyMetric(rows: MonthlyFlowRow[], metric: "fr" | "st", tim
 
 function aggregateAnnualMetric(rows: AnnualFlowRow[], metric: "fr" | "st"): ChartPoint[] {
   return rows
-    .map((row) => ({
-      sortValue: row.y,
-      periodCells: [row.y],
-      value: row[metric],
-      label: String(row.y),
-    }))
+    .map((row) => {
+      const provisional = row.p === 1
+      const label = provisional ? `${row.y}*` : String(row.y)
+      return { sortValue: row.y, periodCells: [provisional ? label : row.y], value: row[metric], label, provisional }
+    })
     .sort((a, b) => a.sortValue - b.sortValue)
 }
 
@@ -647,7 +652,8 @@ function MonthlyMetricSection({
   const periodHeader = timeRange === "yearly" ? "Jaar" : "Periode"
   const timeRangeLabel = timeRange === "yearly" ? "Per jaar" : timeRange === "quarterly" ? "Per kwartaal" : "Per maand"
   const sectorLabel = selectedSector ? sectorOptions.find((option) => option.code === selectedSector)?.label ?? selectedSector : "Alle sectoren"
-  const exportFullTitle = `${exportTitle} (Locatie: ${locationLabel}; Sector: ${sectorLabel}; Periode: ${timeRangeLabel})`
+  const hasProvisional = data.some((point) => point.provisional)
+  const exportFullTitle = `${exportTitle} (Locatie: ${locationLabel}; Sector: ${sectorLabel}; Periode: ${timeRangeLabel})${hasProvisional ? " - * voorlopig, geschat uit de maandcijfers" : ""}`
   const exportSource = timeRange === "yearly"
     ? {
         title: "Statbel - Jaarlijkse evolutie van de btw-plichtige ondernemingen",
@@ -705,6 +711,7 @@ function MonthlyMetricSection({
         </div>
 
         <p className="mb-4 text-sm text-muted-foreground">{coverageNote}</p>
+        {hasProvisional ? <p className="mb-4 text-sm text-muted-foreground">{PROVISIONAL_NOTE}</p> : null}
 
         <TabsContent value="chart">
           <Card>

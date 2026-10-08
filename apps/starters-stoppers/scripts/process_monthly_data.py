@@ -408,6 +408,26 @@ def load_datalab_regional_workbook(path: Path) -> tuple[list[dict[str, int | str
     return records, labels
 
 
+# Sectorletters van NACE 2025 betekenen vanaf J iets anders dan in NACE 2008 (bv. K = telecom/IT in plaats van
+# financiële activiteiten). Alleen deze codes hebben in beide classificaties dezelfde inhoud.
+NACE_COMPARABLE_SECTORS = {"ALL", "A", "B", "C", "D", "E", "F", "G", "H", "I", "X"}
+
+
+def merge_nace_series(
+    nace_2008: list[dict[str, int | str]],
+    nace_2025: list[dict[str, int | str]],
+) -> list[dict[str, int | str]]:
+    """NACE 2008 blijft leidend voor elke maand die het dekt (de jaarreeks is ook NACE 2008).
+    Uit NACE 2025 komen enkel latere maanden, en enkel voor sectoren die vergelijkbaar blijven."""
+    covered = {(int(record["y"]), int(record["mo"])) for record in nace_2008}
+    extra = [
+        record
+        for record in nace_2025
+        if (int(record["y"]), int(record["mo"])) not in covered and str(record["n1"]) in NACE_COMPARABLE_SECTORS
+    ]
+    return [*nace_2008, *extra]
+
+
 def combine_records(records_by_source: list[list[dict[str, int | str]]]) -> list[dict[str, int | str]]:
     combined: dict[tuple[int, int, str], dict[str, int | str]] = {}
     for source_records in records_by_source:
@@ -725,25 +745,25 @@ def fetch_bestat_regional_records(datasource_id: str, region_code: str) -> list[
 
 
 def load_bestat_regional_monthlies() -> list[dict[str, int | str]]:
-    records_by_source: list[list[dict[str, int | str]]] = []
+    by_datasource: list[list[dict[str, int | str]]] = []
     for datasource_id in [BESTAT_NACE_2008_DATASOURCE, BESTAT_NACE_2025_DATASOURCE]:
         source_records: list[dict[str, int | str]] = []
         for region_code in REGION_FILTER_LABELS:
             source_records.extend(fetch_bestat_regional_records(datasource_id, region_code))
-        records_by_source.append(source_records)
+        by_datasource.append(source_records)
 
-    return combine_geo_records(records_by_source)
+    return combine_geo_records([merge_nace_series(by_datasource[0], by_datasource[1])])
 
 
 def load_bestat_provincial_monthlies() -> list[dict[str, int | str]]:
-    records_by_source: list[list[dict[str, int | str]]] = []
+    by_datasource: list[list[dict[str, int | str]]] = []
     for datasource_id in [BESTAT_NACE_2008_DATASOURCE, BESTAT_NACE_2025_DATASOURCE]:
         source_records: list[dict[str, int | str]] = []
         for province_code in PROVINCE_FILTER_LABELS:
             source_records.extend(fetch_bestat_regional_records(datasource_id, province_code))
-        records_by_source.append(source_records)
+        by_datasource.append(source_records)
 
-    return combine_geo_records(records_by_source)
+    return combine_geo_records([merge_nace_series(by_datasource[0], by_datasource[1])])
 
 
 def combine_geo_year_records(records_by_source: list[list[dict[str, int | str]]]) -> list[dict[str, int | str]]:
@@ -895,6 +915,77 @@ def load_bestat_annual_province_flows() -> list[dict[str, int | str]]:
     return combine_geo_year_records([starters, stoppers])
 
 
+PROVISIONAL_CALIBRATION_YEARS = 3
+PROVISIONAL_FIRST_CALIBRATION_YEAR = 2021  # eerste jaar van de officiële maandreeks
+PROVISIONAL_MIN_MONTHLY_SUM = 100
+
+
+def build_provisional_annual_records(
+    annual_records: list[dict[str, int | str]],
+    monthly_records: list[dict[str, int | str]],
+) -> list[dict[str, int | str]]:
+    """Voorlopige jaarcijfers voor jaren waarvoor Statbel nog geen jaarfoto (31/12) publiceerde maar de maandreeks volledig is.
+
+    De som van de maanden wijkt systematisch af van de jaarfoto (ca. -6% voor starters, +7% voor stoppers). Daarom
+    wordt de som per geo en sector vermenigvuldigd met de verhouding jaar/som over de laatste drie jaarreeksen.
+    Een back-test (2024 voorspeld met 2021-2023) gaf een fout van ca. 1% nationaal en 1-3% per gewest of provincie.
+    Cellen met weinig volume gebruiken de verhouding van "alle activiteiten" in dezelfde geo.
+    """
+    if not annual_records:
+        return []
+
+    latest_year = max(int(record["y"]) for record in annual_records)
+    annual = {(int(r["y"]), str(r["g"]), str(r["n1"])): r for r in annual_records}
+
+    monthly: dict[tuple[int, str, str], dict[str, Any]] = {}
+    for record in monthly_records:
+        key = (int(record["y"]), str(record["g"]), str(record["n1"]))
+        cell = monthly.setdefault(key, {"fr": 0, "st": 0, "months": set()})
+        cell["fr"] += int(record["fr"])
+        cell["st"] += int(record["st"])
+        cell["months"].add(int(record["mo"]))
+
+    def complete(key: tuple[int, str, str]) -> bool:
+        return key in monthly and len(monthly[key]["months"]) == 12
+
+    target_years: list[int] = []
+    year = latest_year + 1
+    while complete((year, "1000", "ALL")):
+        target_years.append(year)
+        year += 1
+    if not target_years:
+        return []
+
+    calibration_years = [
+        y
+        for y in range(latest_year - PROVISIONAL_CALIBRATION_YEARS + 1, latest_year + 1)
+        if y >= PROVISIONAL_FIRST_CALIBRATION_YEAR
+    ]
+
+    def ratio(geo: str, sector: str, metric: str) -> tuple[float | None, int]:
+        numerator = denominator = 0
+        for y in calibration_years:
+            key = (y, geo, sector)
+            if key in annual and complete(key):
+                numerator += int(annual[key][metric])
+                denominator += monthly[key][metric]
+        return (numerator / denominator if denominator > 0 else None), denominator
+
+    provisional: list[dict[str, int | str]] = []
+    for (y, geo, sector), cell in sorted(monthly.items()):
+        if y not in target_years or not complete((y, geo, sector)):
+            continue
+        record: dict[str, int | str] = {"y": y, "g": geo, "n1": sector}
+        for metric in ("fr", "st"):
+            factor, volume = ratio(geo, sector, metric)
+            if factor is None or volume < PROVISIONAL_MIN_MONTHLY_SUM:
+                factor = ratio(geo, "ALL", metric)[0] or 1.0
+            record[metric] = int(round(cell[metric] * factor))
+        record["p"] = 1
+        provisional.append(record)
+    return provisional
+
+
 def load_bestat_annual_flows() -> tuple[list[dict[str, int | str]], dict[str, str], dict[str, object]]:
     starters_records, starters_labels, starters_meta = fetch_bestat_annual_records(BESTAT_ANNUAL_STARTERS_VIEW, "fr")
     stoppers_records, stoppers_labels, stoppers_meta = fetch_bestat_annual_records(BESTAT_ANNUAL_STOPPERS_VIEW, "st")
@@ -1011,10 +1102,11 @@ def build_lookups(labels: dict[str, str], records: list[dict[str, int | str]]) -
     years = sorted({int(record["y"]) for record in records})
     latest_period = max(records, key=lambda item: (int(item["y"]), int(item["mo"])))
 
+    present = {str(record["n1"]) for record in records}
     sectors = [
         {"code": code, "nl": labels[code]}
         for code in sorted(labels)
-        if code != "ALL"
+        if code != "ALL" and code in present
     ]
 
     return {
@@ -1032,7 +1124,11 @@ def write_outputs(
     annual_metadata: dict[str, object],
     provincial_records: list[dict[str, int | str]],
     annual_provincial_records: list[dict[str, int | str]],
+    provisional_records: list[dict[str, int | str]],
 ) -> None:
+    provisional_years = sorted({int(item["y"]) for item in provisional_records})
+    provisional_provinces = [item for item in provisional_records if str(item["g"]) in PROVINCE_FILTER_LABELS]
+    provisional_national = [item for item in provisional_records if str(item["g"]) not in PROVINCE_FILTER_LABELS]
     lookups = build_lookups(labels, records)
     summary = {
         "latestPeriod": lookups["latestPeriod"],
@@ -1041,6 +1137,7 @@ def write_outputs(
         "provincialMonthlyMinYear": min(int(item["y"]) for item in provincial_records),
         "yearlyMinYear": min(int(item["y"]) for item in annual_records),
         "yearlyMaxYear": max(int(item["y"]) for item in annual_records),
+        "provisionalYears": provisional_years,
         "publicationPageUrl": PUBLICATION_PAGE_URL,
         "sources": [
             {
@@ -1059,6 +1156,15 @@ def write_outputs(
             "De gewestuitsplitsing gebruikt de DataLab-reeks voor 2019-2020 en be.STAT-datasources vanaf 2021.",
             "Provinciale maandcijfers komen uit de be.STAT-datasources en starten in 2021; provinciale jaarcijfers vanaf 2008.",
             "Brussel heeft geen provincies en wordt enkel als gewest getoond.",
+            "Sectorletters van NACE 2025 betekenen vanaf J iets anders dan in NACE 2008. Tot en met december 2025 gebruikt de app daarom NACE 2008; vanaf 2026 enkel 'alle activiteiten' en de ongewijzigde sectoren A t/m I en X.",
+            *(
+                [
+                    f"Het jaar {', '.join(str(y) for y in provisional_years)} is voorlopig (aangeduid met *): geschat uit de maandcijfers, "
+                    "gekalibreerd op het verschil tussen maand- en jaarreeks in de laatste drie jaarreeksen. Het wordt vervangen zodra Statbel de jaarfoto publiceert."
+                ]
+                if provisional_years
+                else []
+            ),
         ],
     }
 
@@ -1079,11 +1185,11 @@ def write_outputs(
         encoding="utf-8",
     )
     (RESULTS_DIR / "vat_yearly_flows_provinces.json").write_text(
-        json.dumps(annual_provincial_records, ensure_ascii=False, separators=(",", ":")),
+        json.dumps([*annual_provincial_records, *provisional_provinces], ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     (RESULTS_DIR / "vat_yearly_flows.json").write_text(
-        json.dumps(annual_records, ensure_ascii=False, separators=(",", ":")),
+        json.dumps([*annual_records, *provisional_national], ensure_ascii=False, separators=(",", ":")),
         encoding="utf-8",
     )
     (RESULTS_DIR / "summary.json").write_text(
@@ -1125,15 +1231,28 @@ def main() -> None:
             source_records, source_labels = load_official_workbook(path)
 
         records_by_source.append(source_records)
-        labels.update(source_labels)
+        if source.key.startswith("nace_2025"):
+            for code, label in source_labels.items():
+                labels.setdefault(code, label)  # NACE 2008-namen blijven staan voor dezelfde letter
+        else:
+            labels.update(source_labels)
 
-    combined_records = combine_records(records_by_source)
+    datalab_records, nace_2008_records, nace_2025_records = records_by_source
+    combined_records = combine_records([datalab_records, merge_nace_series(nace_2008_records, nace_2025_records)])
     regional_records_by_source.append(load_bestat_regional_monthlies())
     combined_regional_records = combine_geo_records(regional_records_by_source)
     annual_records, annual_labels, annual_metadata = load_bestat_annual_flows()
     labels.update(annual_labels)
     provincial_records = load_bestat_provincial_monthlies()
     annual_provincial_records = load_bestat_annual_province_flows()
+    provisional_records = build_provisional_annual_records(
+        [*annual_records, *annual_provincial_records],
+        [
+            *({**record, "g": "1000"} for record in combined_records),
+            *combined_regional_records,
+            *provincial_records,
+        ],
+    )
     write_outputs(
         combined_records,
         combined_regional_records,
@@ -1142,6 +1261,7 @@ def main() -> None:
         annual_metadata,
         provincial_records,
         annual_provincial_records,
+        provisional_records,
     )
 
 
