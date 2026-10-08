@@ -94,6 +94,8 @@ jobs:
 
       - name: Trigger deploy
         if: steps.commit_changes.outputs.changed == 'true'
-        run: gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}" -f apps="${ANALYSIS_SLUG}"
+        run: |
+          gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}" -f apps="${ANALYSIS_SLUG}"
+          gh workflow run deploy-starters-stoppers-public.yml --ref "${GITHUB_REF_NAME}"
         env:
           GH_TOKEN: ${{ github.token }}

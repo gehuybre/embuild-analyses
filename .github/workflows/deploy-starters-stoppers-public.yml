@@ -1,0 +1,128 @@
+name: Deploy starters-stoppers standalone site
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "apps/starters-stoppers/**"
+      - "packages/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+      - "turbo.json"
+      - "scripts/build-standalone-app.mjs"
+      - "scripts/check-standalone-sync.mjs"
+      - ".github/workflows/deploy-starters-stoppers-public.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  deployments: write
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
+concurrency:
+  group: cloudflare-deploy-starters-stoppers-public
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_DEPLOY_VERSION: ${{ github.sha }}
+      NODE_OPTIONS: "--max-old-space-size=4096"
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - name: Checkout
+        run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --depth=1 origin "${GITHUB_SHA}"
+          git checkout --force FETCH_HEAD
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@10.33.0 --activate
+
+      - name: Restore Next.js build cache
+        uses: actions/cache/restore@v4
+        with:
+          path: apps/**/.next/cache
+          key: standalone-starters-stoppers-next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: |
+            standalone-starters-stoppers-next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-
+            standalone-starters-stoppers-next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Bouwt site-versie (/analyses/starters-stoppers) en standalone versie uit dezelfde commit en
+      # controleert dat ze niet uit elkaar lopen. Laat dist-standalone/starters-stoppers achter.
+      - name: Build both versions and check they stay in sync
+        run: pnpm check:standalone -- starters-stoppers
+
+      - name: Save Next.js build cache
+        uses: actions/cache/save@v4
+        if: always()
+        with:
+          path: apps/**/.next/cache
+          key: standalone-starters-stoppers-next-cache-${{ runner.os }}-${{ hashFiles('pnpm-lock.yaml') }}-${{ github.ref_name }}-${{ github.sha }}
+
+      - name: Upload standalone dist
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-standalone-starters-stoppers
+          path: dist-standalone/starters-stoppers/
+          retention-days: 1
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate configuration
+        id: config
+        run: |
+          if [ -z "${{ vars.CLOUDFLARE_PAGES_PROJECT_STARTERS_STOPPERS }}" ]; then
+            echo "::notice::Skipping standalone starters-stoppers deploy because repository variable CLOUDFLARE_PAGES_PROJECT_STARTERS_STOPPERS is not set"
+            echo "deploy_enabled=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+
+          missing=0
+          if [ -z "${{ secrets.CLOUDFLARE_ACCOUNT_ID }}" ]; then
+            echo "::error::Missing secret CLOUDFLARE_ACCOUNT_ID"
+            missing=1
+          fi
+          if [ -z "${{ secrets.CLOUDFLARE_API_TOKEN }}" ]; then
+            echo "::error::Missing secret CLOUDFLARE_API_TOKEN"
+            missing=1
+          fi
+          if [ "$missing" -eq 1 ]; then
+            echo "::error::Set missing values at https://github.com/${{ github.repository }}/settings"
+            exit 1
+          fi
+          echo "deploy_enabled=true" >> "$GITHUB_OUTPUT"
+          echo "✓ All Cloudflare configuration present"
+
+      - name: Download standalone dist
+        if: steps.config.outputs.deploy_enabled == 'true'
+        uses: actions/download-artifact@v4
+        with:
+          name: dist-standalone-starters-stoppers
+          path: dist-standalone/starters-stoppers/
+
+      - name: Deploy to Cloudflare Pages
+        if: steps.config.outputs.deploy_enabled == 'true'
+        run: npx --yes wrangler@4.79.0 pages deploy dist-standalone/starters-stoppers --project-name="${{ vars.CLOUDFLARE_PAGES_PROJECT_STARTERS_STOPPERS }}" --branch="${{ github.ref_name }}"
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}

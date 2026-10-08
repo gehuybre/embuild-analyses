@@ -1,6 +1,9 @@
 import createMDX from '@next/mdx'
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/analyses/starters-stoppers';
+// Een lege NEXT_PUBLIC_BASE_PATH is geldig (standalone build). Daarom hasOwnProperty en geen `||`.
+const basePath = Object.prototype.hasOwnProperty.call(process.env, 'NEXT_PUBLIC_BASE_PATH')
+  ? process.env.NEXT_PUBLIC_BASE_PATH
+  : '/analyses/starters-stoppers';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
