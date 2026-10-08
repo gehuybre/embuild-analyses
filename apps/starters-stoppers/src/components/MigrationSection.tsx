@@ -15,9 +15,7 @@ import {
 import { Popover, PopoverContent, PopoverTrigger } from "@embuild/shared/components/ui/popover"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@embuild/shared/components/ui/table"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
-import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
-import { FilterableChart } from "@embuild/shared/components/shared/FilterableChart"
-import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
+import { ExportButtons, FilterableChart, FilterableTable } from "@/components/ComparisonViews"
 import { CHART_SERIES_COLORS } from "@embuild/shared/lib/chart-theme"
 import { cn } from "@embuild/shared/lib/utils"
 import {
@@ -29,6 +27,7 @@ import {
   MigrationSelection,
   buildMigrationMatrix,
   buildMigrationSeries,
+  buildMigrationComparisonSeries,
   migrationCategoryLabels,
   migrationCategoryOptions,
   migrationFilterItems,
@@ -136,7 +135,7 @@ function FlowsChart({ series, isAll }: { series: Series; isAll: boolean }) {
 }
 
 function BalanceChart({ series }: { series: Series }) {
-  const chartData = React.useMemo(() => buildMigrationChartData(series), [series])
+  const chartData = React.useMemo(() => buildMigrationChartData(series).map((point) => ({ ...point, comparisons: point.balanceComparisons })), [series])
   return (
     <FilterableChart
       data={chartData}
@@ -155,11 +154,12 @@ function MigrationTable({ series, isAll }: { series: Series; isAll: boolean }) {
     () =>
       series.map((point) =>
         isAll
-          ? { sortValue: point.sortValue, periodCells: [point.year], value: point.total }
+          ? { sortValue: point.sortValue, periodCells: [point.year], value: point.total, comparisons: point.tableComparisons }
           : {
               sortValue: point.sortValue,
               periodCells: [point.year, NUMBER_FORMAT.format(point.inflow), NUMBER_FORMAT.format(point.outflow)],
               value: SIGNED_FORMAT.format(point.net),
+              comparisons: point.tableComparisons,
             }
       ),
     [isAll, series]
@@ -175,6 +175,47 @@ function MigrationTable({ series, isAll }: { series: Series; isAll: boolean }) {
 }
 
 function MigrationMatrixTable({ matrix }: { matrix: MigrationMatrix }) {
+  if (matrix.comparisons) {
+    const comparisons = matrix.comparisons
+    const origins = Array.from(new Map(comparisons.flatMap(({ matrix }) => matrix.rows.map((row) => [row.code, row.label] as const))).entries())
+    return (
+      <div className="overflow-auto">
+        <Table>
+          <TableHeader>
+            <TableRow>
+              <TableHead>Van \ naar</TableHead>
+              {comparisons.flatMap(({ label }) => [...MIGRATION_REGION_OPTIONS.map((destination) =>
+                <TableHead key={`${label}-${destination.code}`} className="text-right">{label} · {destination.label}</TableHead>
+              ), <TableHead key={`${label}-outflow`} className="text-right">{label} · Uitstroom</TableHead>])}
+            </TableRow>
+          </TableHeader>
+          <TableBody>
+            {origins.map(([code, label]) => (
+              <TableRow key={code}>
+                <TableCell>{label}</TableCell>
+                {comparisons.flatMap((comparison) => {
+                  const row = comparison.matrix.rows.find((row) => row.code === code)
+                  return [
+                    ...MIGRATION_REGION_OPTIONS.map((destination) => <TableCell key={`${comparison.label}-${destination.code}`} className="text-right">
+                      {code === destination.code ? "—" : NUMBER_FORMAT.format(row?.cells[destination.code] ?? 0)}
+                    </TableCell>),
+                    <TableCell key={`${comparison.label}-outflow`} className="text-right">{code === "0000" ? "—" : NUMBER_FORMAT.format(row?.outflow ?? 0)}</TableCell>,
+                  ]
+                })}
+              </TableRow>
+            ))}
+            <TableRow>
+              <TableCell>Instroom</TableCell>
+              {comparisons.flatMap(({ label, matrix }) => [
+                ...MIGRATION_REGION_OPTIONS.map((destination) => <TableCell key={`${label}-${destination.code}`} className="text-right">{NUMBER_FORMAT.format(matrix.inflow[destination.code] ?? 0)}</TableCell>),
+                <TableCell key={`${label}-outflow`} />,
+              ])}
+            </TableRow>
+          </TableBody>
+        </Table>
+      </div>
+    )
+  }
   return (
     <Table>
       <TableHeader>
@@ -218,7 +259,12 @@ function MigrationMatrixTable({ matrix }: { matrix: MigrationMatrix }) {
 }
 
 /** CSV-rijen in lange vorm (van, naar, aantal): de diagonaal bestaat niet en kan dus niet als lege kolom mee. */
-function matrixExportRows(matrix: MigrationMatrix) {
+function matrixExportRows(matrix: MigrationMatrix): Array<{ label: string; value: number; periodCells: string[] }> {
+  if (matrix.comparisons) {
+    return matrix.comparisons.flatMap(({ label, matrix }) => matrixExportRows(matrix).map((row) => ({
+      ...row, periodCells: [label, ...row.periodCells],
+    })))
+  }
   return matrix.rows.flatMap((row) =>
     MIGRATION_REGION_OPTIONS.filter((destination) => row.cells[destination.code] !== null).map((destination) => ({
       label: `${row.label} naar ${destination.label}`,
@@ -229,9 +275,9 @@ function matrixExportRows(matrix: MigrationMatrix) {
 }
 
 function seriesExportRows(series: Series, isAll: boolean, kind: "flows" | "balance") {
-  if (isAll) return series.map((point) => ({ label: String(point.year), value: point.total, periodCells: [point.year] }))
-  if (kind === "balance") return series.map((point) => ({ label: String(point.year), value: point.net, periodCells: [point.year] }))
-  return series.map((point) => ({ label: String(point.year), value: point.net, periodCells: [point.year, point.inflow, point.outflow] }))
+  if (isAll) return series.map((point) => ({ label: String(point.year), value: point.total, periodCells: [point.year], comparisons: point.tableComparisons }))
+  if (kind === "balance") return series.map((point) => ({ label: String(point.year), value: point.net, periodCells: [point.year], comparisons: point.balanceComparisons }))
+  return series.map((point) => ({ label: String(point.year), value: point.net, periodCells: [point.year, point.inflow, point.outflow], comparisons: point.tableComparisons }))
 }
 
 export function MigrationEmbed({
@@ -250,7 +296,7 @@ export function MigrationEmbed({
   year?: number | null
 }) {
   const series = React.useMemo(
-    () => buildMigrationSeries(data, { dim, categories, regions, counterparts }),
+    () => buildMigrationComparisonSeries(data, { dim, categories, regions, counterparts }),
     [categories, counterparts, data, dim, regions]
   )
   const isAll = regions.length === 0
@@ -325,7 +371,7 @@ function MigrationMatrixCard({
             slug="starters-stoppers"
             sectionId="migration-matrix"
             viewType="table"
-            periodHeaders={["Van", "Naar"]}
+            periodHeaders={matrix.comparisons ? ["Categorie", "Van", "Naar"] : ["Van", "Naar"]}
             valueLabel="Aantal ondernemingen"
             dataSource={SOURCE_TITLE}
             dataSourceUrl={data.sourceUrl}
@@ -351,7 +397,7 @@ export function MigrationSection({ data }: { data: MigrationData }) {
   const [categories, setCategories] = React.useState<string[]>([])
 
   const series = React.useMemo(
-    () => buildMigrationSeries(data, { dim, categories, regions, counterparts }),
+    () => buildMigrationComparisonSeries(data, { dim, categories, regions, counterparts }),
     [categories, counterparts, data, dim, regions]
   )
   const isAll = regions.length === 0
@@ -364,7 +410,7 @@ export function MigrationSection({ data }: { data: MigrationData }) {
     setCounterparts((current) => normalizeCounterparts(current, normalized))
   }
 
-  const counterpartOptions = MIGRATION_REGION_OPTIONS.filter((option) => !regions.includes(option.code))
+  const counterpartOptions = MIGRATION_REGION_OPTIONS.filter((option) => !(regions.length === 1 && regions.includes(option.code)))
   const dimOptions: Option[] = MIGRATION_DIM_OPTIONS.map((option) => ({ code: option.code, label: option.label }))
   const categoryLabels = migrationCategoryLabels(data, dim, categories)
   const title = migrationTitle({ regions, counterparts }, dim === "tot" ? [] : categoryLabels)
@@ -448,7 +494,7 @@ export function MigrationSection({ data }: { data: MigrationData }) {
 
         <p className="mb-4 text-sm text-muted-foreground">
           Aantal btw-plichtige ondernemingen waarvan de maatschappelijke zetel van het ene gewest naar het andere verhuisde, per jaar vanaf {data.years[0]} tot en met {data.latestYear}.
-          Verhuizingen binnen een gewest zijn niet inbegrepen; bij meerdere gekozen gewesten tellen enkel verhuizingen over de grens van die groep. De uitsplitsingen naar werknemersklasse, sector en rechtsvorm zijn aparte Statbel-tabellen en kunnen dus niet gecombineerd worden.
+          Verhuizingen binnen een gewest zijn niet inbegrepen. Elk gekozen gewest, elke tegenpartij en elke categorie worden afzonderlijk vergeleken; instroom en uitstroom worden per gewest berekend, niet over de grens van een opgetelde groep. De uitsplitsingen naar werknemersklasse, sector en rechtsvorm zijn aparte Statbel-tabellen en kunnen dus niet gecombineerd worden.
         </p>
 
         <TabsContent value="chart">

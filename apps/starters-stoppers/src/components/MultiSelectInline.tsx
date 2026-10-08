@@ -118,8 +118,7 @@ const GEO_GROUPS_WITH_ARRONDISSEMENTEN: OptionGroup[] = [
 ]
 
 /**
- * Locatiefilter: gewesten, provincies en (optioneel) arrondissementen door elkaar. Een onderliggend niveau van een
- * gekozen gewest of provincie is niet meer selecteerbaar (dubbeltelling).
+ * Locatiefilter voor afzonderlijke reeksen, ook bij overlappende gebieden.
  */
 export function GeoMultiFilter({
   selected,
@@ -130,15 +129,6 @@ export function GeoMultiFilter({
   onChange: (next: string[]) => void
   allowArrondissements?: boolean
 }) {
-  const disabledCodes = React.useMemo(
-    () => [
-      ...GEO_PROVINCES.filter((province) => selected.includes(province.regionCode)).map((province) => province.code),
-      ...GEO_ARRONDISSEMENTS.filter(
-        (arrondissement) => selected.includes(arrondissement.regionCode) || selected.includes(arrondissement.provinceCode)
-      ).map((arrondissement) => arrondissement.code),
-    ],
-    [selected]
-  )
   return (
     <MultiSelectInline
       groups={allowArrondissements ? GEO_GROUPS_WITH_ARRONDISSEMENTEN : GEO_GROUPS}
@@ -147,7 +137,6 @@ export function GeoMultiFilter({
       allLabel="België"
       noun="locaties"
       searchable
-      disabledCodes={disabledCodes}
       className="min-w-[120px]"
     />
   )

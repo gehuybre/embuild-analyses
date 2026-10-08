@@ -1,5 +1,5 @@
 // Meerkeuzefilters voor starters-stoppers. Een lege selectie betekent "alles" (België, alle sectoren, alle werknemersklassen).
-// Bij meerdere waarden worden de cijfers opgeteld.
+// Gekozen waarden worden afzonderlijk vergeleken; aggregatie gebeurt enkel binnen een reeks.
 
 import { ARRONDISSEMENTS, PROVINCES } from "@embuild/shared/lib/geo-utils"
 
@@ -62,23 +62,17 @@ export function joinList(values: string[]): string | null {
 }
 
 /**
- * Ontdubbelt en haalt overlap weg: een provincie valt weg als haar gewest al geselecteerd is, een arrondissement als zijn
- * provincie of gewest geselecteerd is. Alle drie de gewesten = heel België. Arrondissementen bestaan enkel voor de
- * ondernemingstellingen en worden elders weggelaten (`allowArrondissements = false`).
+ * Bewaart ook overlappende gebieden: elke locatie wordt een afzonderlijke vergelijkingsreeks.
+ * Arrondissementen bestaan enkel voor de ondernemingstellingen.
  */
 export function normalizeGeos(codes: string[], allowArrondissements = false): string[] {
   const unique = Array.from(new Set(codes.filter(Boolean)))
   if (unique.includes(BELGIUM)) return []
-  const regions = new Set(unique.filter((code) => REGION_CODES.includes(code)))
-  if (regions.size === REGION_CODES.length) return []
-  const provinces = new Set(unique.filter((code) => GEO_PROVINCES.some((item) => item.code === code) && !regions.has(GEO_PROVINCES.find((item) => item.code === code)!.regionCode)))
-
-  return unique.filter((code) => {
-    if (regions.has(code)) return true
-    if (provinces.has(code)) return true
-    const arrondissement = allowArrondissements ? GEO_ARRONDISSEMENTS.find((item) => item.code === code) : undefined
-    return Boolean(arrondissement) && !regions.has(arrondissement!.regionCode) && !provinces.has(arrondissement!.provinceCode)
-  })
+  return unique.filter((code) =>
+    REGION_CODES.includes(code) ||
+    GEO_PROVINCES.some((item) => item.code === code) ||
+    (allowArrondissements && isArrondissement(code))
+  )
 }
 
 export function splitGeos(geos: string[]): { regions: string[]; provinces: string[]; arrondissements: string[] } {
@@ -105,7 +99,7 @@ export function geoLabels(geos: string[]): string[] {
 
 /** Korte omschrijving voor titels: één of twee namen, anders het aantal. */
 export function describeSelection(labels: string[], noun: string, max = 2): string {
-  return labels.length <= max ? labels.join(" + ") : `${labels.length} ${noun}`
+  return labels.length <= max ? labels.join(", ") : `${labels.length} ${noun}`
 }
 
 export function describeGeos(geos: string[]): string {
@@ -248,7 +242,7 @@ export function enterpriseGeoNotes(geos: string[], availableYears: number[], sub
   if (hasSubregion && subregionYears && subregionYears.length > 0) {
     const missing = availableYears.filter((year) => !subregionYears.includes(year))
     if (missing.length > 0) {
-      notes.push(`Voor ${formatYearRanges(missing)} is er geen Statbel-bronbestand op provincie- of arrondissementsniveau beschikbaar; die jaren ontbreken daarom.`)
+      notes.push(`Voor ${formatYearRanges(missing)} is er geen Statbel-bronbestand op provincie- of arrondissementsniveau beschikbaar; die waarden blijven leeg. Gewestreeksen blijven zichtbaar voor de jaren waarvoor ze data hebben.`)
     }
   }
   if (geos.some((code) => REDRAWN_ARRONDISSEMENTS.includes(code))) {

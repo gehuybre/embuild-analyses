@@ -15,9 +15,8 @@ import {
 } from "@embuild/shared/components/ui/command"
 import { Popover, PopoverContent, PopoverTrigger } from "@embuild/shared/components/ui/popover"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
-import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
-import { FilterableChart } from "@embuild/shared/components/shared/FilterableChart"
-import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
+import { ExportButtons, FilterableChart, FilterableTable } from "@/components/ComparisonViews"
+import { compareSelections, geoDimension, ComparisonPoint } from "@/lib/comparison"
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
 import { cn } from "@embuild/shared/lib/utils"
 import { MigrationData } from "@/lib/migration"
@@ -127,13 +126,7 @@ type TimeRange = "yearly" | "quarterly" | "monthly"
 type StopHorizon = 1 | 2 | 3 | 4 | 5
 type SurvivalKey = "s1" | "s2" | "s3" | "s4" | "s5"
 
-type ChartPoint = {
-  sortValue: number
-  periodCells: Array<string | number>
-  value: number
-  label: string
-  provisional?: boolean
-}
+type ChartPoint = ComparisonPoint
 
 const PROVISIONAL_NOTE =
   "* Voorlopig: geschat uit de maandcijfers, gekalibreerd op het verschil tussen maand- en jaarreeks in de laatste drie jaren. Wordt vervangen zodra Statbel het jaarcijfer publiceert."
@@ -393,7 +386,7 @@ function MonthlyMetricSection({
       }
 
   const exportData = React.useMemo(
-    () => data.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells })),
+    () => data.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells, comparisons: point.comparisons })),
     [data]
   )
 
@@ -502,11 +495,11 @@ function EnterpriseCountSection({
   const countFilters = `Locatie: ${geoLabelsText(selectedGeos)}; Sector: ${sectorLabel}; Werknemersklasse: ${workerClassLabel}`
   const shareFilters = `Locatie: ${geoLabelsText(selectedGeos)}; Sector: ${sectorLabel}`
   const exportData = React.useMemo(
-    () => data.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells })),
+    () => data.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells, comparisons: point.comparisons })),
     [data]
   )
   const shareExportData = React.useMemo(
-    () => noEmployeeShareData.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells })),
+    () => noEmployeeShareData.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells, comparisons: point.comparisons })),
     [noEmployeeShareData]
   )
   const geoParams = {
@@ -647,7 +640,7 @@ function SurvivalSection({
   const [currentView, setCurrentView] = React.useState<"chart" | "table">("chart")
 
   const exportData = React.useMemo(
-    () => data.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells })),
+    () => data.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells, comparisons: point.comparisons })),
     [data]
   )
 
@@ -718,7 +711,7 @@ function SurvivalSection({
               <CardTitle>Data</CardTitle>
             </CardHeader>
             <CardContent>
-              <FilterableTable data={data} label="Overlevingskans" periodHeaders={["Jaar"]} />
+              <FilterableTable data={data} label="Overlevingskans" periodHeaders={["Jaar"]} valueFormatter={formatPct} />
             </CardContent>
           </Card>
         </TabsContent>
@@ -797,53 +790,36 @@ function InnerDashboard() {
   const enterpriseAvailableYears = bundle?.monthlySummary?.enterpriseCounts?.availableYears ?? bundle?.enterpriseLookups?.years ?? []
   const enterpriseSourceUrl = bundle?.monthlySummary?.enterpriseCounts?.sourceUrl ?? bundle?.enterpriseLookups?.sourceUrl
 
-  const filteredMonthlyRows = React.useMemo(() => {
-    const rows =
-      monthlyGeos.length === 0
-        ? filterNationalSectorRows(monthlyRows, monthlySectors)
-        : filterGeoSectorRows(monthlyRegionalRows, monthlyGeos, monthlySectors)
-    return keepCompleteGroups(
-      rows,
-      (row) => row.period,
-      (row) => `${(row as Partial<RegionalMonthlyFlowRow>).g ?? "1000"}|${row.n1}`,
-      expectedCells(monthlyGeos, monthlySectors)
-    )
-  }, [monthlyGeos, monthlyRegionalRows, monthlyRows, monthlySectors])
-
-  const startersSeries = React.useMemo(
-    () =>
-      monthlyTimeRange === "yearly"
-        ? aggregateAnnualRows(yearlyRows, "fr", monthlyGeos, monthlySectors)
-        : aggregateMonthlyMetric(filteredMonthlyRows, "fr", monthlyTimeRange),
-    [filteredMonthlyRows, monthlyGeos, monthlySectors, monthlyTimeRange, yearlyRows]
-  )
-
-  const stoppersSeries = React.useMemo(
-    () =>
-      monthlyTimeRange === "yearly"
-        ? aggregateAnnualRows(yearlyRows, "st", monthlyGeos, monthlySectors)
-        : aggregateMonthlyMetric(filteredMonthlyRows, "st", monthlyTimeRange),
-    [filteredMonthlyRows, monthlyGeos, monthlySectors, monthlyTimeRange, yearlyRows]
-  )
-
-  const filteredEnterpriseRows = React.useMemo(
-    () => filterEnterpriseRows(enterpriseRows, enterpriseGeos, monthlySectors, enterpriseWorkerClasses),
-    [enterpriseGeos, enterpriseRows, enterpriseWorkerClasses, monthlySectors]
-  )
-
-  const enterpriseContextRows = React.useMemo(
-    () => filterEnterpriseRows(enterpriseRows, enterpriseGeos, monthlySectors, []),
-    [enterpriseGeos, enterpriseRows, monthlySectors]
-  )
+  const flowSeries = React.useMemo(() => {
+    const dimensions = [geoDimension(monthlyGeos), { selected: monthlySectors, options: monthlySectorOptions }]
+    const compute = (metric: "fr" | "st") => compareSelections(dimensions, ([geos, sectors]) => {
+      if (monthlyTimeRange === "yearly") return aggregateAnnualRows(yearlyRows, metric, geos, sectors)
+      const rows = geos.length === 0
+        ? filterNationalSectorRows(monthlyRows, sectors)
+        : filterGeoSectorRows(monthlyRegionalRows, geos, sectors)
+      const complete = keepCompleteGroups(rows, (row) => row.period,
+        (row) => `${(row as Partial<RegionalMonthlyFlowRow>).g ?? "1000"}|${row.n1}`, expectedCells(geos, sectors))
+      return aggregateMonthlyMetric(complete, metric, monthlyTimeRange)
+    })
+    return { starters: compute("fr"), stoppers: compute("st") }
+  }, [monthlyGeos, monthlySectors, monthlySectorOptions, monthlyTimeRange, yearlyRows, monthlyRows, monthlyRegionalRows])
+  const startersSeries = flowSeries.starters
+  const stoppersSeries = flowSeries.stoppers
 
   const enterpriseSeries = React.useMemo(
-    () => aggregateEnterpriseCountsByYear(filteredEnterpriseRows),
-    [filteredEnterpriseRows]
+    () => compareSelections([
+      geoDimension(enterpriseGeos),
+      { selected: monthlySectors, options: monthlySectorOptions },
+      { selected: enterpriseWorkerClasses, options: enterpriseWorkerClassOptions },
+    ], ([geos, sectors, classes]) => aggregateEnterpriseCountsByYear(filterEnterpriseRows(enterpriseRows, geos, sectors, classes))),
+    [enterpriseGeos, monthlySectors, monthlySectorOptions, enterpriseWorkerClasses, enterpriseWorkerClassOptions, enterpriseRows]
   )
 
   const enterpriseNoEmployeeShareSeries = React.useMemo(
-    () => aggregateEnterpriseNoEmployeeShareByYear(enterpriseContextRows),
-    [enterpriseContextRows]
+    () => compareSelections([
+      geoDimension(enterpriseGeos), { selected: monthlySectors, options: monthlySectorOptions },
+    ], ([geos, sectors]) => aggregateEnterpriseNoEmployeeShareByYear(filterEnterpriseRows(enterpriseRows, geos, sectors, []))),
+    [enterpriseGeos, monthlySectors, monthlySectorOptions, enterpriseRows]
   )
 
   const monthlyCoverageNote = React.useMemo(() => {
@@ -875,14 +851,11 @@ function InnerDashboard() {
     return notes.length > 0 ? notes.join(" ") : null
   }, [arrondissementData.error, arrondissementData.loading, bundle, enterpriseAvailableYears, enterpriseGeos, needsArrondissements])
 
-  const filteredSurvivalRows = React.useMemo(
-    () => filterSurvivalRows(survivalRows, survivalGeos, survivalSectors),
-    [survivalGeos, survivalRows, survivalSectors]
-  )
-
   const survivalSeries = React.useMemo(
-    () => aggregateSurvivalRateByYear(filteredSurvivalRows, survivalKeyForHorizon(stopHorizon)),
-    [filteredSurvivalRows, stopHorizon]
+    () => compareSelections([
+      geoDimension(survivalGeos), { selected: survivalSectors, options: survivalSectorOptions },
+    ], ([geos, sectors]) => aggregateSurvivalRateByYear(filterSurvivalRows(survivalRows, geos, sectors), survivalKeyForHorizon(stopHorizon))),
+    [survivalGeos, survivalSectors, survivalSectorOptions, survivalRows, stopHorizon]
   )
 
   if (loading) {
@@ -902,7 +875,7 @@ function InnerDashboard() {
       <div className="rounded-lg border bg-muted/30 p-4 text-sm text-muted-foreground">
         <p>
           De secties <strong>starters</strong> en <strong>stoppers</strong> combineren nu twee Statbel-reeksen: een jaarlijkse reeks per sector en gewest vanaf 2008, en een maandelijkse reeks vanaf 2019.
-          Meest recente maand: {latestMonthlyLabel ?? "onbekend"}. Per sectie kun je België, één of meerdere gewesten en provincies (Brussel enkel als gewest) en één of meerdere sectoren kiezen; de cijfers worden dan opgeteld. Je kunt ook wisselen tussen jaar-, kwartaal- of maandniveau.
+          Meest recente maand: {latestMonthlyLabel ?? "onbekend"}. Per sectie kun je België, één of meerdere gewesten en provincies (Brussel enkel als gewest) en één of meerdere sectoren kiezen. Elke gekozen combinatie verschijnt als een aparte grafiekreeks en tabelkolom, ook bij overlappende gebieden. Ontbrekende brondata worden met een streepje weergegeven. Je kunt ook wisselen tussen jaar-, kwartaal- of maandniveau.
         </p>
         <p className="mt-2">
           De jaarreeks loopt momenteel tot en met {bundle.monthlySummary.yearlyMaxYear}. Voor 2019-2020 gebruikt Statbel in de maandreeks een DataLab-bron op T+30; vanaf 2021 is dit de offici&euml;le maandreeks op T+45.

@@ -1,9 +1,10 @@
 // Migratie van btw-plichtige ondernemingen tussen de gewesten (Statbel move_nl.xlsx).
 // Eén record = aantal ondernemingen dat in jaar `y` met de maatschappelijke zetel van gewest `o` naar gewest `d` verhuisde.
 // De uitsplitsingen (`dim`) zijn aparte kruistabellen: ze kunnen niet met elkaar gecombineerd worden.
-// Meerdere gewesten of categorieën worden opgeteld; bij meerdere gewesten tellen enkel verhuizingen over de grens van de groep.
+// De vergelijkingsweergave berekent elke gekozen combinatie afzonderlijk.
 
 import { describeSelection } from "@/lib/selection"
+import { selectionCombinations, ComparisonValue } from "@/lib/comparison"
 
 export type MigrationDim = "tot" | "cls" | "nace" | "type"
 
@@ -33,6 +34,9 @@ export type MigrationPoint = {
   outflow: number
   net: number
   total: number
+  comparisons?: ComparisonValue[]
+  balanceComparisons?: ComparisonValue[]
+  tableComparisons?: ComparisonValue[]
 }
 
 export type FilterItem = { label: string; value: string }
@@ -63,15 +67,15 @@ export function migrationRegionLabel(code: string) {
 
 const REGION_CODES = MIGRATION_REGION_OPTIONS.map((option) => option.code)
 
-/** Alle drie de gewesten kiezen is hetzelfde als geen keuze (alle gewesten). */
+/** Bewaart elk gekozen gewest als afzonderlijke reeks. */
 export function normalizeMigrationRegions(regions: string[]): string[] {
   const unique = Array.from(new Set(regions.filter((code) => REGION_CODES.includes(code))))
-  return unique.length >= REGION_CODES.length ? [] : unique
+  return unique
 }
 
-/** Tegenpartijen mogen niet in de gekozen groep gewesten zelf zitten. */
+/** Bij een enkel gewest is dat gewest zelf geen geldige tegenpartij. */
 export function normalizeCounterparts(counterparts: string[], regions: string[]): string[] {
-  return Array.from(new Set(counterparts.filter((code) => REGION_CODES.includes(code) && !regions.includes(code))))
+  return Array.from(new Set(counterparts.filter((code) => REGION_CODES.includes(code) && !(regions.length === 1 && regions.includes(code)))))
 }
 
 export type MigrationSelection = {
@@ -113,6 +117,36 @@ export function buildMigrationSeries(data: MigrationData, options: MigrationSele
   return points
 }
 
+export function buildMigrationComparisonSeries(data: MigrationData, options: MigrationSelection): MigrationPoint[] {
+  const groups = selectionCombinations([
+    { selected: options.regions, options: MIGRATION_REGION_OPTIONS },
+    { selected: normalizeCounterparts(options.counterparts, options.regions), options: MIGRATION_REGION_OPTIONS.map((option) => ({ ...option, label: `met ${option.label}` })) },
+    { selected: options.dim === "tot" ? [] : options.categories, options: migrationCategoryOptions(data, options.dim) },
+  ]).filter(({ selections: [regions, counterparts] }) => !(regions.length === 1 && counterparts.length === 1 && regions[0] === counterparts[0]))
+    .map(({ label, selections: [regions, counterparts, categories] }) => ({
+      label,
+      points: buildMigrationSeries(data, { ...options, regions, counterparts, categories }),
+    }))
+  if (groups.length === 1) return groups[0].points
+  return groups[0].points.map((point, index) => ({
+    ...point,
+    comparisons: groups.flatMap((group) => options.regions.length === 0
+      ? [{ label: group.label, value: group.points[index].total }]
+      : [
+          { label: `${group.label} · Instroom`, value: group.points[index].inflow },
+          { label: `${group.label} · Uitstroom`, value: group.points[index].outflow },
+        ]),
+    tableComparisons: groups.flatMap((group) => options.regions.length === 0
+      ? [{ label: group.label, value: group.points[index].total }]
+      : [
+          { label: `${group.label} · Instroom`, value: group.points[index].inflow },
+          { label: `${group.label} · Uitstroom`, value: group.points[index].outflow },
+          { label: `${group.label} · Saldo`, value: group.points[index].net },
+        ]),
+    balanceComparisons: groups.map((group) => ({ label: group.label, value: group.points[index].net })),
+  }))
+}
+
 function regionNames(codes: string[]) {
   return codes.map(migrationRegionLabel)
 }
@@ -120,8 +154,8 @@ function regionNames(codes: string[]) {
 export function migrationTitle(selection: Pick<MigrationSelection, "regions" | "counterparts">, categoryLabels: string[] = []) {
   let title = "Migratie tussen de gewesten"
   if (selection.regions.length > 0) {
-    title = `Migratie van ondernemingen - ${regionNames(selection.regions).join(" + ")}`
-    if (selection.counterparts.length > 0) title += ` en ${regionNames(selection.counterparts).join(" + ")}`
+    title = `Migratie van ondernemingen - ${regionNames(selection.regions).join(", ")}`
+    if (selection.counterparts.length > 0) title += ` en ${regionNames(selection.counterparts).join(", ")}`
   }
   return categoryLabels.length > 0 ? `${title} - ${describeSelection(categoryLabels, "categorieën")}` : title
 }
@@ -136,6 +170,7 @@ export type MigrationMatrixRow = {
 export type MigrationMatrix = {
   rows: MigrationMatrixRow[]
   inflow: Record<string, number>
+  comparisons?: Array<{ label: string; matrix: MigrationMatrix }>
 }
 
 /** Herkomst-bestemmingtabel voor één jaar. De rij "Onbekend" verschijnt enkel als er ondernemingen zonder gekend oorspronkelijk gewest zijn. */
@@ -143,6 +178,13 @@ export function buildMigrationMatrix(
   data: MigrationData,
   options: { dim: MigrationDim; categories: string[]; year: number }
 ): MigrationMatrix {
+  if (options.dim !== "tot" && options.categories.length > 1) {
+    const comparisons = options.categories.map((category) => ({
+      label: migrationCategoryLabels(data, options.dim, [category])[0],
+      matrix: buildMigrationMatrix(data, { ...options, categories: [category] }),
+    }))
+    return { ...comparisons[0].matrix, comparisons }
+  }
   const dim = options.dim === "tot" || options.categories.length === 0 ? "tot" : options.dim
   const categories = dim === "tot" ? null : new Set(options.categories)
   const counts = new Map<string, number>()

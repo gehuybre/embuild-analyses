@@ -1,8 +1,8 @@
 "use client"
 
 import { useMemo } from "react"
-import { FilterableChart } from "@embuild/shared/components/shared/FilterableChart"
-import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
+import { FilterableChart, FilterableTable } from "@/components/ComparisonViews"
+import { compareSelections, geoDimension, ComparisonPoint } from "@/lib/comparison"
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
 import { FilterItem, MigrationData, MigrationDim } from "@/lib/migration"
 import {
@@ -104,13 +104,7 @@ type VatSurvivalRow = {
   s5: number | null
 }
 
-type ChartPoint = {
-  sortValue: number
-  periodCells: Array<string | number>
-  value: number
-  label: string
-  provisional?: boolean
-}
+type ChartPoint = ComparisonPoint
 
 const PROVISIONAL_NOTE =
   "* Voorlopig: geschat uit de maandcijfers, gekalibreerd op het verschil tussen maand- en jaarreeks in de laatste drie jaren. Wordt vervangen zodra Statbel het jaarcijfer publiceert."
@@ -304,6 +298,15 @@ export function StartersStoppersEmbed({
   const workerClassLabels = useMemo(() => new Map((bundle?.enterpriseLookups?.workerClasses ?? []).map((row) => [row.code, row.nl])), [bundle])
 
   const data = useMemo(() => {
+    const sectorOptions = section === "survival"
+      ? (bundle?.survivalLookups?.nace_lvl1 ?? []).map((row) => ({ code: row.code, label: `${row.code} — ${row.nl ?? row.en ?? ""}` }))
+      : (bundle?.monthlyLookups?.sectors ?? []).map((row) => ({ code: row.code, label: `${row.code} — ${row.nl}` }))
+    const dimensions = [geoDimension(geos), { selected: sectors, options: sectorOptions }]
+    if (section === "enterprises") dimensions.push({
+      selected: workerClasses,
+      options: (bundle?.enterpriseLookups?.workerClasses ?? []).map((row) => ({ code: row.code, label: row.nl })),
+    })
+    return compareSelections(dimensions, ([geos, sectors, selectedClasses = []]) => {
     if (section === "starters" || section === "stoppers") {
       const metric = section === "starters" ? "fr" : "st"
       if (timeRange === "yearly") return aggregateAnnualRows(yearlyRows, metric, geos, sectors)
@@ -320,13 +323,14 @@ export function StartersStoppersEmbed({
       return aggregateMonthlyMetric(complete, metric, timeRange)
     }
     if (section === "enterprises") {
-      return aggregateEnterpriseCountsByYear(filterEnterpriseRows(enterpriseRows, geos, sectors, workerClasses))
+      return aggregateEnterpriseCountsByYear(filterEnterpriseRows(enterpriseRows, geos, sectors, selectedClasses))
     }
     if (section === "enterprises-no-staff") {
       return aggregateEnterpriseNoEmployeeShareByYear(filterEnterpriseRows(enterpriseRows, geos, sectors, []))
     }
     return aggregateSurvivalRateByYear(filterSurvivalRows(survivalRows, geos, sectors), horizon)
-  }, [enterpriseRows, geos, horizon, monthlyRegionalRows, monthlyRows, sectors, section, survivalRows, timeRange, workerClasses, yearlyRows])
+    })
+  }, [bundle, enterpriseRows, geos, horizon, monthlyRegionalRows, monthlyRows, sectors, section, survivalRows, timeRange, workerClasses, yearlyRows])
 
   const geoSuffix = geos.length > 0 ? ` - ${describeGeos(geos)}` : ""
   const title = useMemo(() => {
@@ -455,6 +459,7 @@ export function StartersStoppersEmbed({
           data={data}
           label={label}
           periodHeaders={[periodHeader]}
+          valueFormatter={isShare || section === "survival" ? formatPct : undefined}
         />
       )}
 

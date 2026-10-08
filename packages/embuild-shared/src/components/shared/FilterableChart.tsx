@@ -49,6 +49,7 @@ interface FilterableChartProps<TData = UnknownRecord> {
     color?: string
   }>
   legendVisibleKeys?: string[]
+  showLegend?: boolean
   highlightSeriesKey?: string | null
   /**
    * Optional Y-axis formatter. If not provided and values are large (>10k),
@@ -99,6 +100,7 @@ export function FilterableChart<TData = UnknownRecord>({
   showMovingAverage = true,
   series,
   legendVisibleKeys,
+  showLegend: legendEnabled = true,
   highlightSeriesKey,
   yAxisFormatter,
   isCurrency = false,
@@ -280,7 +282,7 @@ export function FilterableChart<TData = UnknownRecord>({
     return lineSeries.filter((s) => allowed.has(String(s.key))).length
   }, [hasSeries, legendVisibleKeys, lineSeries])
 
-  const showLegend = visibleLegendItemCount > 1
+  const showLegend = legendEnabled && visibleLegendItemCount > 1
 
   const isHorizontalLayout = layout === "horizontal" && chartType === "bar" && !hasSeries
   const chartHeight = isHorizontalLayout

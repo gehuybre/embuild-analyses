@@ -3,9 +3,8 @@
 import * as React from "react"
 import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
-import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
-import { FilterableChart } from "@embuild/shared/components/shared/FilterableChart"
-import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
+import { ExportButtons, FilterableChart, FilterableTable } from "@/components/ComparisonViews"
+import { geoDimension, mergeComparisons, selectionCombinations, ComparisonPoint } from "@/lib/comparison"
 import { CHART_SERIES_COLORS } from "@embuild/shared/lib/chart-theme"
 import { EmbedFilters } from "@/components/EmbedFilters"
 import { GeoMultiFilter, MultiSelectInline } from "@/components/MultiSelectInline"
@@ -72,6 +71,7 @@ type Context = {
   sectors: string[]
   timeRange: TimeRange
   enterpriseRows: EnterpriseRow[]
+  sectorOptions: Option[]
 }
 
 function enterpriseTotalsByYear(rows: EnterpriseRow[], geos: string[], sectors: string[]) {
@@ -80,7 +80,7 @@ function enterpriseTotalsByYear(rows: EnterpriseRow[], geos: string[], sectors: 
   return Array.from(totals.entries()).map(([sortValue, value]) => ({ sortValue, value }))
 }
 
-function computeSeries(variant: BankruptcyVariant, ctx: Context): { points?: BankruptcyPoint[]; breakdown?: BreakdownPoint[] } {
+function computeSingleSeries(variant: BankruptcyVariant, ctx: Context): { points?: ComparisonPoint[]; breakdown?: BreakdownPoint[] } {
   const { lookups, monthly, breakdown, geos, sectors, timeRange } = ctx
   if (variant === "count" || variant === "workers") {
     return { points: aggregateBankruptcies(monthly ?? [], variant === "count" ? "n" : "w", timeRange, geos, sectors, lookups) }
@@ -93,15 +93,50 @@ function computeSeries(variant: BankruptcyVariant, ctx: Context): { points?: Ban
   return { breakdown: aggregateBreakdown(breakdown ?? [], dim, "n", geos, sectors, lookups) }
 }
 
+function computeSeries(variant: BankruptcyVariant, ctx: Context) {
+  const groups = selectionCombinations([geoDimension(ctx.geos), { selected: ctx.sectors, options: ctx.sectorOptions }])
+    .map(({ label, selections: [geos, sectors] }) => ({
+      label,
+      series: computeSingleSeries(variant, { ...ctx, geos, sectors }),
+    }))
+  if (variant !== "age" && variant !== "size") {
+    return { points: mergeComparisons(groups.map((group) => ({ label: group.label, points: group.series.points ?? [] }))) }
+  }
+  if (groups.length === 1) return groups[0].series
+  const dim = VARIANTS[variant].dim as BreakdownDim
+  const chartGroups = groups.flatMap((group) =>
+    BREAKDOWN_GROUPS[dim].map((category) => ({
+      label: `${group.label} · ${category.label}`,
+      points: groupBreakdown(group.series.breakdown ?? [], dim).map((point) => ({
+        sortValue: Number(point.sortValue), label: String(point.label), periodCells: [String(point.label)],
+        value: Number(point[category.key]),
+      })),
+    }))
+  )
+  const tableGroups = groups.flatMap((group) =>
+    categoryLabels(variant, ctx.lookups).map((category) => ({
+      label: `${group.label} · ${category.label}`,
+      points: (group.series.breakdown ?? []).map((point) => ({
+        sortValue: point.sortValue, label: point.label, periodCells: point.periodCells,
+        value: Number(point[breakdownKey(category.code)]),
+      })),
+    }))
+  )
+  return { comparisonChart: mergeComparisons(chartGroups), comparisonTable: mergeComparisons(tableGroups) }
+}
+
 function categoryLabels(variant: BankruptcyVariant, lookups: BankruptcyLookups) {
   if (variant === "age") return lookups.durations.map((item) => ({ code: item.code, label: DURATION_SHORT_LABELS[item.code] ?? item.nl }))
   return lookups.classes.map((item) => ({ code: item.code, label: item.nl }))
 }
 
 function PanelChart({ variant, series, lookups }: { variant: BankruptcyVariant; series: ReturnType<typeof computeSeries>; lookups: BankruptcyLookups }) {
+  if ("comparisonChart" in series && series.comparisonChart) {
+    return <FilterableChart data={series.comparisonChart} getLabel={(point) => point.label} yAxisLabelAbove="Aantal faillissementen" />
+  }
   if (variant === "age" || variant === "size") {
     const dim = VARIANTS[variant].dim as BreakdownDim
-    const data = groupBreakdown(series.breakdown ?? [], dim)
+    const data = groupBreakdown(("breakdown" in series ? series.breakdown : undefined) ?? [], dim)
     return (
       <FilterableChart
         data={data}
@@ -114,7 +149,7 @@ function PanelChart({ variant, series, lookups }: { variant: BankruptcyVariant; 
     )
   }
 
-  const points = series.points ?? []
+  const points = ("points" in series ? series.points : undefined) ?? []
   const isRate = variant === "rate"
   return (
     <FilterableChart
@@ -140,11 +175,14 @@ function breakdownTableRows(points: BreakdownPoint[], categories: Array<{ code: 
 }
 
 function PanelTable({ variant, series, lookups, timeRange }: { variant: BankruptcyVariant; series: ReturnType<typeof computeSeries>; lookups: BankruptcyLookups; timeRange: TimeRange }) {
+  if ("comparisonTable" in series && series.comparisonTable) {
+    return <FilterableTable data={series.comparisonTable} periodHeaders={["Jaar"]} />
+  }
   if (variant === "age" || variant === "size") {
     const categories = categoryLabels(variant, lookups)
     return (
       <FilterableTable
-        data={breakdownTableRows(series.breakdown ?? [], categories)}
+        data={breakdownTableRows(("breakdown" in series ? series.breakdown : undefined) ?? [], categories)}
         label="Totaal"
         periodHeaders={["Jaar", ...categories.map((category) => category.label)]}
       />
@@ -153,26 +191,30 @@ function PanelTable({ variant, series, lookups, timeRange }: { variant: Bankrupt
   const yearly = variant === "rate" || timeRange === "yearly"
   return (
     <FilterableTable
-      data={(series.points ?? []).map((point) => ({
+      data={(("points" in series ? series.points : undefined) ?? []).map((point) => ({
         ...point,
         formattedValue: variant === "rate" ? RATE_FORMAT.format(point.value) : NUMBER_FORMAT.format(point.value),
       }))}
       label={variant === "rate" ? "Per 1.000 ondernemingen" : variant === "workers" ? "Getroffen werknemers" : "Faillissementen"}
       periodHeaders={[yearly ? "Jaar" : "Periode"]}
+      valueFormatter={variant === "rate" ? (value) => RATE_FORMAT.format(value) : (value) => NUMBER_FORMAT.format(value)}
     />
   )
 }
 
 function exportRows(variant: BankruptcyVariant, series: ReturnType<typeof computeSeries>, lookups: BankruptcyLookups) {
+  if ("comparisonTable" in series && series.comparisonTable) {
+    return series.comparisonTable.map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells, comparisons: point.comparisons }))
+  }
   if (variant === "age" || variant === "size") {
     const categories = categoryLabels(variant, lookups)
-    return (series.breakdown ?? []).map((point) => ({
+    return (("breakdown" in series ? series.breakdown : undefined) ?? []).map((point) => ({
       label: point.label,
       value: point.value,
       periodCells: [point.label, ...categories.map((category) => point[breakdownKey(category.code)] as number)],
     }))
   }
-  return (series.points ?? []).map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells }))
+  return (("points" in series ? series.points : undefined) ?? []).map((point) => ({ label: point.label, value: point.value, periodCells: point.periodCells, comparisons: point.comparisons }))
 }
 
 function exportHeaders(variant: BankruptcyVariant, timeRange: TimeRange, lookups: BankruptcyLookups) {
@@ -230,9 +272,9 @@ export function BankruptcyEmbed({
   const series = React.useMemo(
     () =>
       data.ready && data.lookups
-        ? computeSeries(variant, { lookups: data.lookups, monthly: data.monthly, breakdown: data.breakdown, geos, sectors, timeRange, enterpriseRows })
+        ? computeSeries(variant, { lookups: data.lookups, monthly: data.monthly, breakdown: data.breakdown, geos, sectors, timeRange, enterpriseRows, sectorOptions })
         : null,
-    [data.breakdown, data.lookups, data.monthly, data.ready, enterpriseRows, geos, sectors, timeRange, variant]
+    [data.breakdown, data.lookups, data.monthly, data.ready, enterpriseRows, geos, sectors, sectorOptions, timeRange, variant]
   )
 
   return (
@@ -353,9 +395,9 @@ export function BankruptcySection({ enterpriseRows, sectorOptions }: { enterpris
   const ctx = React.useMemo<Context | null>(
     () =>
       data.ready && data.lookups
-        ? { lookups: data.lookups, monthly: data.monthly, breakdown: data.breakdown, geos, sectors, timeRange, enterpriseRows }
+        ? { lookups: data.lookups, monthly: data.monthly, breakdown: data.breakdown, geos, sectors, timeRange, enterpriseRows, sectorOptions }
         : null,
-    [data.breakdown, data.lookups, data.monthly, data.ready, enterpriseRows, geos, sectors, timeRange]
+    [data.breakdown, data.lookups, data.monthly, data.ready, enterpriseRows, geos, sectors, sectorOptions, timeRange]
   )
   const series = React.useMemo(
     () =>

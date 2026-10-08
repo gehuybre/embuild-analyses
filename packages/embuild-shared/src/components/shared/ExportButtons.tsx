@@ -15,7 +15,7 @@ import { useIsEmbedRoute } from "../../lib/use-is-embed-route"
 
 type ExportData = {
   label: string
-  value: number
+  value: number | null
   periodCells?: Array<string | number>
   [key: string]: string | number | Array<string | number> | null | undefined
 }
