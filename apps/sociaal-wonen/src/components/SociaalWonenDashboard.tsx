@@ -15,7 +15,7 @@ import type { AggFile, Gemeente, Horizon, MapData, Meta, ProjectFile, State, Tab
 import { DetailPanel } from "./DetailPanel"
 import { EmbedShare } from "./EmbedShare"
 import { FilterBar } from "./FilterBar"
-import { HorizonSwitch } from "./HorizonSwitch"
+import { PlanningContext } from "./PlanningContext"
 import { PlanningTable } from "./PlanningTable"
 import { ProjectTable } from "./ProjectTable"
 import { SummaryTiles } from "./SummaryTiles"
@@ -185,7 +185,6 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
   } else {
     const list = projF.data.projecten.filter((p) => {
       if (state.wm && p.wm !== state.wm) return false
-      if (state.provincie && p.provincie !== state.provincie) return false
       if (state.gemeente && p.nis !== state.gemeente) return false
       if (state.groep && p.groep !== state.groep) return false
       if (state.type && p.type !== state.type) return false
@@ -195,19 +194,21 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
     projecten = <ProjectTable projects={list} wms={wms} gemeenten={gemeenten} meta={m} pageSize={embed ? 25 : undefined} />
   }
 
+  const planningFilter = showFilters && (
+    <Segmented label="Planning" value={horizon} onChange={(h) => set({ horizon: h })} options={[{ v: "kt", l: "Korte termijn" }, { v: "lt", l: "Lange termijn" }]} />
+  )
+
   return (
     <div className="not-prose space-y-4 text-sm">
-      {showFilters && (
-        <div className="space-y-2">
-          <Segmented label="Planning" value={horizon} onChange={(h) => set({ horizon: h })} options={[{ v: "kt", l: "Korte termijn" }, { v: "lt", l: "Lange termijn" }]} />
-          <HorizonSwitch horizon={horizon} totals={totalsH} perGroep={perGroepH} meta={m} />
-        </div>
-      )}
+      {showFilters && <PlanningContext totals={totalsH} perGroep={perGroepH} meta={m} />}
       {showFilters && <FilterBar state={state} set={set} wms={wms} gemeenten={gemeenten} meta={m} procedures={procedures} />}
       <SummaryTiles totals={totals} perGroep={perGroep} wmCount={new Set(current.map((r) => r.wm)).size} gemeenteCount={new Set(current.filter((r) => r.nis).map((r) => r.nis)).size} zonderGemeente={zonderGemeente} />
 
       {embed ? (
-        <div>{tab === "kaart" ? kaart : tab === "tabel" ? tabel : projecten}</div>
+        <div className="space-y-3">
+          {planningFilter}
+          {tab === "kaart" ? kaart : tab === "tabel" ? tabel : projecten}
+        </div>
       ) : (
         <Tabs value={tab} onValueChange={(v) => set({ tab: v as Tab })}>
           <div className="flex flex-wrap items-center justify-between gap-2">
@@ -223,7 +224,10 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
               <EmbedShare state={state} section={tab} />
             </div>
           </div>
-          <div className="mt-3">{tab === "kaart" ? kaart : tab === "tabel" ? tabel : projecten}</div>
+          <div className="mt-3 space-y-3">
+            {planningFilter}
+            {tab === "kaart" ? kaart : tab === "tabel" ? tabel : projecten}
+          </div>
         </Tabs>
       )}
 

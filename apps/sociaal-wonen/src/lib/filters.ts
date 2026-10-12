@@ -3,7 +3,6 @@ import type { AggRow, Groep, State } from "./types"
 interface Filterable {
   wm: string
   nis: string | null
-  provincie: string
   groep: Groep
   type: string
   procedure: string | null
@@ -11,7 +10,6 @@ interface Filterable {
 
 export function matches(r: Filterable, st: State, opts: { ignoreGemeente?: boolean; ignoreWm?: boolean } = {}): boolean {
   if (!opts.ignoreWm && st.wm && r.wm !== st.wm) return false
-  if (st.provincie && r.provincie !== st.provincie) return false
   if (!opts.ignoreGemeente && st.gemeente && r.nis !== st.gemeente) return false
   if (st.groep && r.groep !== st.groep) return false
   if (st.type && r.type !== st.type) return false

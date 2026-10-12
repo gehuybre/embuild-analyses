@@ -1,4 +1,4 @@
-import { DEFAULT_STATE, PROVINCIES, TYPE_ORDER } from "./types"
+import { DEFAULT_STATE, TYPE_ORDER } from "./types"
 import type { Gemeente, Groep, Horizon, Metric, Modus, State, Tab, Woonmaatschappij } from "./types"
 
 export const SLUG = "sociaal-wonen"
@@ -15,7 +15,6 @@ export function parseState(search: string, forcedTab?: Tab): State {
   return {
     horizon: one<Horizon>(get("horizon")?.toLowerCase() ?? null, ["kt", "lt"], DEFAULT_STATE.horizon),
     wm: (get("wm") ?? "").toLowerCase().replace(/[^a-z0-9-]/g, ""),
-    provincie: one(upper(get("provincie")), PROVINCIES, "" as never) as string,
     gemeente: nis && /^\d{5}$/.test(nis) ? nis : "",
     groep: one<"" | Groep>(get("groep")?.toLowerCase() ?? null, ["nieuwbouw", "renovatie"], ""),
     type: one(upper(get("type")), TYPE_ORDER, "" as never) as string,
@@ -45,7 +44,6 @@ export function toQuery(st: State, opts: { section?: Tab; includeTab?: boolean }
   }
   set("horizon", st.horizon, DEFAULT_STATE.horizon)
   set("wm", st.wm, "")
-  set("provincie", st.provincie, "")
   set("gemeente", st.gemeente, "")
   set("groep", st.groep, "")
   set("type", st.type, "")

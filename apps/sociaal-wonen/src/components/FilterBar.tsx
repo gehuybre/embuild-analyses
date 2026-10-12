@@ -1,11 +1,10 @@
 "use client"
 
-import { useMemo } from "react"
 import { X } from "lucide-react"
 import { Button } from "@embuild/shared/components/ui/button"
 import { Input } from "@embuild/shared/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@embuild/shared/components/ui/select"
-import { PROVINCIES, PROVINCIE_LABEL, TYPE_ORDER } from "@/lib/types"
+import { TYPE_ORDER } from "@/lib/types"
 import type { Gemeente, Meta, State, Woonmaatschappij } from "@/lib/types"
 
 const ALL = "__all__"
@@ -29,12 +28,9 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
 }
 
 export function FilterBar({ state, set, wms, gemeenten, meta, procedures }: Props) {
-  const gemOptions = useMemo(
-    () => gemeenten.filter((g) => !state.provincie || g.provincie === state.provincie).sort((a, b) => a.naam.localeCompare(b.naam, "nl")),
-    [gemeenten, state.provincie]
-  )
+  const gemOptions = gemeenten.slice().sort((a, b) => a.naam.localeCompare(b.naam, "nl"))
   const gemName = gemeenten.find((g) => g.nis === state.gemeente)?.naam ?? ""
-  const active = state.wm || state.provincie || state.gemeente || state.groep || state.type || state.procedure
+  const active = state.wm || state.gemeente || state.groep || state.type || state.procedure
 
   return (
     <div className="space-y-2 rounded-lg border bg-card p-3">
@@ -45,15 +41,6 @@ export function FilterBar({ state, set, wms, gemeenten, meta, procedures }: Prop
             <SelectContent>
               <SelectItem value={ALL}>Alle woonmaatschappijen</SelectItem>
               {wms.map((w) => <SelectItem key={w.id} value={w.id}>{w.naam}</SelectItem>)}
-            </SelectContent>
-          </Select>
-        </Field>
-        <Field label="Provincie">
-          <Select value={state.provincie || ALL} onValueChange={(v) => set({ provincie: v === ALL ? "" : v, gemeente: "" })}>
-            <SelectTrigger className="w-full text-foreground"><SelectValue /></SelectTrigger>
-            <SelectContent>
-              <SelectItem value={ALL}>Alle provincies</SelectItem>
-              {PROVINCIES.map((p) => <SelectItem key={p} value={p}>{PROVINCIE_LABEL[p]}</SelectItem>)}
             </SelectContent>
           </Select>
         </Field>
@@ -79,8 +66,8 @@ export function FilterBar({ state, set, wms, gemeenten, meta, procedures }: Prop
             <SelectTrigger className="w-full text-foreground"><SelectValue /></SelectTrigger>
             <SelectContent>
               <SelectItem value={ALL}>Nieuwbouw en renovatie</SelectItem>
-              <SelectItem value="nieuwbouw">Nieuwbouw (blad FS4 Nieuwbouw)</SelectItem>
-              <SelectItem value="renovatie">Renovatie (blad FS4 Renovatie)</SelectItem>
+              <SelectItem value="nieuwbouw">Nieuwbouw</SelectItem>
+              <SelectItem value="renovatie">Renovatie</SelectItem>
             </SelectContent>
           </Select>
         </Field>
@@ -105,7 +92,7 @@ export function FilterBar({ state, set, wms, gemeenten, meta, procedures }: Prop
           </Select>
         </Field>
         <div className="flex items-end">
-          <Button type="button" variant="ghost" size="sm" disabled={!active} onClick={() => set({ wm: "", provincie: "", gemeente: "", groep: "", type: "", procedure: "" })}>
+          <Button type="button" variant="ghost" size="sm" disabled={!active} onClick={() => set({ wm: "", gemeente: "", groep: "", type: "", procedure: "" })}>
             <X className="mr-1 h-4 w-4" /> Filters wissen
           </Button>
         </div>

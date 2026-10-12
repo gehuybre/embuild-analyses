@@ -62,7 +62,6 @@ om de afleiding te overschrijven. Je keuze blijft behouden bij een volgende run.
 |---|---|
 | `horizon` | `kt` (standaard), `lt` |
 | `wm` | id van de woonmaatschappij (bv. `thuispunt-gent`) |
-| `provincie` | `ANTWERPEN`, `LIMBURG`, `OOST-VLAANDEREN`, `VLAAMS-BRABANT`, `WEST-VLAANDEREN` |
 | `gemeente` | NIS-code (5 cijfers) |
 | `groep` | `nieuwbouw`, `renovatie` |
 | `type` | `NB`, `VVP`, `RVP`, `GW`, `VEP`, `REP` |
@@ -71,6 +70,8 @@ om de afleiding te overschrijven. Je keuze blijft behouden bij een volgende run.
 | `filters` | `0` verbergt de filterbalk |
 
 Ongeldige of verouderde waarden vallen terug op de standaard. De knop "Insluiten" genereert de iframe-code met de actieve filters.
+De provinciefilter is verwijderd; oude `provincie`-parameters worden genegeerd.
+De keuze tussen korte en lange termijn staat boven de kaart of tabel. De toelichting bij beide termijnen verschijnt als gewone paragrafen.
 
 ## Site en standalone synchroon houden
 

@@ -99,7 +99,6 @@ export type Metric = "huur" | "kostprijs"
 export interface State {
   horizon: Horizon
   wm: string
-  provincie: string
   gemeente: string
   groep: "" | Groep
   type: string
@@ -113,7 +112,6 @@ export interface State {
 export const DEFAULT_STATE: State = {
   horizon: "kt",
   wm: "",
-  provincie: "",
   gemeente: "",
   groep: "",
   type: "",
@@ -124,12 +122,4 @@ export const DEFAULT_STATE: State = {
   filters: true,
 }
 
-export const PROVINCIES = ["ANTWERPEN", "LIMBURG", "OOST-VLAANDEREN", "VLAAMS-BRABANT", "WEST-VLAANDEREN"] as const
-export const PROVINCIE_LABEL: Record<string, string> = {
-  ANTWERPEN: "Antwerpen",
-  LIMBURG: "Limburg",
-  "OOST-VLAANDEREN": "Oost-Vlaanderen",
-  "VLAAMS-BRABANT": "Vlaams-Brabant",
-  "WEST-VLAANDEREN": "West-Vlaanderen",
-}
 export const TYPE_ORDER = ["NB", "VVP", "RVP", "GW", "VEP", "REP", "ONBEKEND"] as const
