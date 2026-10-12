@@ -19,21 +19,26 @@ const COPY: Record<Horizon, { titel: string; uitleg: string }> = {
 
 export function PlanningContext({ totals, perGroep, meta }: Props) {
   return (
-    <div className="space-y-2">
+    <div className="grid grid-cols-1 gap-6 py-2 md:grid-cols-2 md:gap-10">
       {(["kt", "lt"] as Horizon[]).map((h) => {
         const t = totals[h]
         return (
-          <p key={h} className="text-sm text-muted-foreground">
-            <strong className="text-foreground">{COPY[h].titel}</strong>
-            <br />
-            {meta.horizons[h].omschrijving}
-            <br />
-            <span className="tabular-nums">{fmtInt(t.huur)} huurwoningen · {fmtEurCompact(t.kostprijs)}</span>
-            <br />
-            <span className="tabular-nums">waarvan nieuwbouw {fmtInt(perGroep[h].nieuwbouw.huur)} · renovatie {fmtInt(perGroep[h].renovatie.huur)}</span>
-            <br />
-            {COPY[h].uitleg}
-          </p>
+          <section key={h} className="min-w-0 space-y-3">
+            <div className="space-y-1">
+              <h2 className="text-lg font-semibold tracking-tight text-foreground">{COPY[h].titel}</h2>
+              <p className="text-sm leading-relaxed text-muted-foreground">{meta.horizons[h].omschrijving}.</p>
+            </div>
+            <div className="space-y-1">
+              <p className="flex flex-wrap items-baseline gap-x-4 gap-y-1 text-sm tabular-nums text-foreground">
+                <span><strong className="text-lg font-semibold">{fmtInt(t.huur)}</strong> huurwoningen</span>
+                <span><strong className="text-lg font-semibold">{fmtEurCompact(t.kostprijs)}</strong> geraamde kostprijs</span>
+              </p>
+              <p className="text-sm leading-relaxed tabular-nums text-muted-foreground">
+                Waarvan {fmtInt(perGroep[h].nieuwbouw.huur)} nieuwbouw en {fmtInt(perGroep[h].renovatie.huur)} renovatie.
+              </p>
+            </div>
+            <p className="max-w-prose text-sm leading-relaxed text-muted-foreground">{COPY[h].uitleg}</p>
+          </section>
         )
       })}
     </div>

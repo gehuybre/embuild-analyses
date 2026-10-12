@@ -71,7 +71,8 @@ om de afleiding te overschrijven. Je keuze blijft behouden bij een volgende run.
 
 Ongeldige of verouderde waarden vallen terug op de standaard. De knop "Insluiten" genereert de iframe-code met de actieve filters.
 De provinciefilter is verwijderd; oude `provincie`-parameters worden genegeerd.
-De keuze tussen korte en lange termijn staat boven de kaart of tabel. De toelichting bij beide termijnen verschijnt als gewone paragrafen.
+De keuze tussen korte en lange termijn staat boven de kaart of tabel. De toelichting bij beide termijnen verschijnt als gewone tekst,
+naast elkaar vanaf tabletbreedte en onder elkaar op mobiel, met de totalen en uitsplitsing duidelijk gescheiden van de achtergronduitleg.
 
 ## Site en standalone synchroon houden
 
