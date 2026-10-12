@@ -200,7 +200,7 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
 
   return (
     <div className="not-prose space-y-4 text-sm">
-      {showFilters && <PlanningContext totals={totalsH} perGroep={perGroepH} meta={m} />}
+      {!embed && <PlanningContext totals={totalsH} perGroep={perGroepH} meta={m} />}
       {showFilters && <FilterBar state={state} set={set} wms={wms} gemeenten={gemeenten} meta={m} procedures={procedures} />}
       <SummaryTiles totals={totals} perGroep={perGroep} wmCount={new Set(current.map((r) => r.wm)).size} gemeenteCount={new Set(current.filter((r) => r.nis).map((r) => r.nis)).size} zonderGemeente={zonderGemeente} />
 

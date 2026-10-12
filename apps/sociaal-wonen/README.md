@@ -73,6 +73,7 @@ Ongeldige of verouderde waarden vallen terug op de standaard. De knop "Insluiten
 De provinciefilter is verwijderd; oude `provincie`-parameters worden genegeerd.
 De keuze tussen korte en lange termijn staat boven de kaart of tabel. De toelichting bij beide termijnen verschijnt als gewone tekst,
 naast elkaar vanaf tabletbreedte en onder elkaar op mobiel, met de totalen en uitsplitsing duidelijk gescheiden van de achtergronduitleg.
+Deze toelichting verschijnt alleen op de volledige pagina, nooit in embeds, ook niet wanneer de filters zichtbaar zijn.
 
 ## Site en standalone synchroon houden
 
