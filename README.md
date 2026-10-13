@@ -15,6 +15,46 @@ npx serve dist -p 5000         # local preview
 
 See [BUILD_COMMANDS.md](BUILD_COMMANDS.md) for more commands.
 
+## Convert municipal project updates
+
+From `analyses/`, using the Python environment with the existing `pandas` and
+`openpyxl` dependencies:
+
+```bash
+python apps/bouwprojecten-gemeenten/scripts/convert_project_update.py
+```
+
+The [converter](apps/bouwprojecten-gemeenten/scripts/convert_project_update.py)
+reads `data/update september 2026.xlsx` and writes
+`data/update september 2026.csv` in the same schema as `data/data.csv`
+(UTF-8, semicolon-separated, decimal commas, quoted multiline descriptions).
+It maps municipality names to NIS codes using `data/data.csv` and retains policy
+fields only for an unambiguous match on **NIS code + action code**. It never
+borrows classifications from a different municipality. Missing or conflicting
+classifications remain empty and are listed in
+`data/update september 2026_unclassified.csv`; the app will show these as
+`Overige` until reviewed. Retained classifications come from the previous export,
+not from the September workbook.
+
+Use `--reference PATH` and `--output PATH` for other reference/output CSV files,
+or pass another workbook as the positional argument. Existing outputs require
+`--overwrite`; input files cannot be overwritten. Unknown municipalities,
+invalid amounts/years, non-2026 reports, and duplicate municipality/action/year
+rows fail validation before output is written. Zero and negative amounts, and
+book years beyond 2031, are preserved as in the source.
+
+This command does **not** replace `data/data.csv`, regenerate public JSON, or
+publish the blog. Review the classification report before activating the update.
+The existing project pipeline may regenerate `data.csv` from `data-79.xlsx`
+based on file timestamps; an eventual activation must update that source-selection
+step as well.
+
+Run the focused regression tests with:
+
+```bash
+python -m unittest discover -s tests -p test_convert_project_update.py
+```
+
 ## Apps
 
 <!-- AUTO:apps-table -->
@@ -25,6 +65,7 @@ See [BUILD_COMMANDS.md](BUILD_COMMANDS.md) for more commands.
 | betaalbaar-arr | Betaalbaar wonen per arrondissement | 3044 | MDX |
 | bouwondernemers | Bouwondernemers | 3066 | MDX |
 | bouwprojecten-gemeenten | Gemeentelijke bouwprojecten Vlaanderen 2026-2031 | 3041 | MDX |
+| bouwprojecten-gemeenten-2026-09 | Gemeentelijke bouwprojecten Vlaanderen 2026-2031 | 3045 | MDX |
 | energiekaart-premies | Energiepremies Vlaanderen | 3053 | MDX |
 | epc-labelverdeling | EPC-labelverdeling in Vlaanderen | 3050 | MDX, Maps |
 | faillissementen | Faillissementen in de bouwsector | 3042 | MDX |

@@ -1,5 +1,64 @@
 [
   {
+    "slug": "bouwprojecten-gemeenten",
+    "title": "Gemeentelijke bouwprojecten Vlaanderen 2026-2031",
+    "date": "2026-10-13",
+    "summary": "Doorzoekbare database van 12.377 concrete investeringsprojecten uit meerjarenplannen van Vlaamse gemeenten. Versie september 2026.",
+    "tags": [
+      "gemeente",
+      "bouwprojecten",
+      "aannemers",
+      "investeringen",
+      "meerjarenplan"
+    ],
+    "url": "/analyses/bouwprojecten-gemeenten-2026-09/",
+    "defaultVersion": "bouwprojecten-gemeenten-2026-09",
+    "versions": [
+      {
+        "slug": "bouwprojecten-gemeenten-2026-09",
+        "label": "September 2026",
+        "date": "2026-10-13",
+        "summary": "Doorzoekbare database van 12.377 concrete investeringsprojecten uit meerjarenplannen van Vlaamse gemeenten. Versie september 2026.",
+        "url": "/analyses/bouwprojecten-gemeenten-2026-09/"
+      },
+      {
+        "slug": "bouwprojecten-gemeenten",
+        "label": "Vorige versie",
+        "date": "2026-01-09",
+        "summary": "Doorzoekbare database van 12.251 concrete investeringsprojecten uit meerjarenplannen van Vlaamse gemeenten.",
+        "url": "/analyses/bouwprojecten-gemeenten/",
+        "sourcePublicationDate": "2025-12-31"
+      }
+    ]
+  },
+  {
+    "slug": "nbb-rente",
+    "title": "Hypothecaire rente in België",
+    "date": "2026-10-11",
+    "summary": "Evolutie van de Belgische hypothecaire rente op nieuwe contracten met een initiële rentevaste periode van meer dan 10 jaar, aangevuld met recente inflatieprognoses van het Federaal Planbureau.",
+    "tags": [
+      "rente",
+      "hypotheken",
+      "inflatie",
+      "nbb",
+      "woningmarkt"
+    ],
+    "sourcePublicationDate": "2026-08-31",
+    "url": "/analyses/nbb-rente/"
+  },
+  {
+    "slug": "starters-stoppers",
+    "title": "Starters en stoppers",
+    "date": "2026-10-08",
+    "summary": "Analyse van starters, stoppers, aantal ondernemingen en overlevingskansen van btw-plichtige ondernemingen, met jaarreeksen per sector en gewest vanaf 2008 en maandreeksen vanaf 2019.",
+    "tags": [
+      "economie",
+      "ondernemerschap"
+    ],
+    "sourcePublicationDate": "2026-09-25",
+    "url": "/analyses/starters-stoppers/"
+  },
+  {
     "slug": "gemeentelijke-investeringen",
     "title": "Gemeentelijke investeringen in Vlaanderen",
     "date": "2026-10-06",
@@ -55,21 +114,6 @@
     ],
     "sourcePublicationDate": "2026-04-17",
     "url": "/analyses/faillissementen/"
-  },
-  {
-    "slug": "nbb-rente",
-    "title": "Hypothecaire rente in België",
-    "date": "2026-09-11",
-    "summary": "Evolutie van de Belgische hypothecaire rente op nieuwe contracten met een initiële rentevaste periode van meer dan 10 jaar, aangevuld met recente inflatieprognoses van het Federaal Planbureau.",
-    "tags": [
-      "rente",
-      "hypotheken",
-      "inflatie",
-      "nbb",
-      "woningmarkt"
-    ],
-    "sourcePublicationDate": "2026-07-31",
-    "url": "/analyses/nbb-rente/"
   },
   {
     "slug": "prijsherziening-index-i-2021",
@@ -149,18 +193,6 @@
       "NBB"
     ],
     "url": "/analyses/fin-indicatoren/"
-  },
-  {
-    "slug": "starters-stoppers",
-    "title": "Starters en stoppers",
-    "date": "2026-03-24",
-    "summary": "Analyse van starters, stoppers, aantal ondernemingen en overlevingskansen van btw-plichtige ondernemingen, met jaarreeksen per sector en gewest vanaf 2008 en maandreeksen vanaf 2019.",
-    "tags": [
-      "economie",
-      "ondernemerschap"
-    ],
-    "sourcePublicationDate": "2026-03-24",
-    "url": "/analyses/starters-stoppers/"
   },
   {
     "slug": "inschrijvingen-onderwijs",
@@ -252,21 +284,6 @@
     ],
     "sourcePublicationDate": "2025-01-01",
     "url": "/analyses/betaalbaar-arr/"
-  },
-  {
-    "slug": "bouwprojecten-gemeenten",
-    "title": "Gemeentelijke bouwprojecten Vlaanderen 2026-2031",
-    "date": "2026-01-09",
-    "summary": "Doorzoekbare database van 12.251 concrete investeringsprojecten uit meerjarenplannen van Vlaamse gemeenten.",
-    "tags": [
-      "gemeente",
-      "bouwprojecten",
-      "aannemers",
-      "investeringen",
-      "meerjarenplan"
-    ],
-    "sourcePublicationDate": "2025-12-31",
-    "url": "/analyses/bouwprojecten-gemeenten/"
   },
   {
     "slug": "energiekaart-premies",

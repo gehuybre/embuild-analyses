@@ -573,6 +573,17 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
     },
   },
   {
+    slug: "bouwprojecten-gemeenten-2026-09",
+    sections: {
+      projectbrowser: {
+        type: "custom",
+        title: "Projectbrowser - Gemeentelijke Investeringen (september 2026)",
+        component: "BouwprojectenEmbed",
+        height: 800,
+      },
+    },
+  },
+  {
     slug: "bouwprojecten-gemeenten",
     sections: {
       projectbrowser: {

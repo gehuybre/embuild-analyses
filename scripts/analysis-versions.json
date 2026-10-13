@@ -1,4 +1,11 @@
 {
+  "bouwprojecten-gemeenten": {
+    "default": "bouwprojecten-gemeenten-2026-09",
+    "versions": [
+      { "slug": "bouwprojecten-gemeenten-2026-09", "label": "September 2026" },
+      { "slug": "bouwprojecten-gemeenten", "label": "Vorige versie" }
+    ]
+  },
   "gemeentelijke-investeringen": {
     "default": "gemeentelijke-investeringen-2026-09",
     "versions": [

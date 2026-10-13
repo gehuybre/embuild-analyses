@@ -71,6 +71,7 @@ describe('getAnalysisDefaults', () => {
       'gemeentelijke-investeringen-2026-09',
       'gemeentelijke-investeringen-2026-02',
       'bouwprojecten-gemeenten',
+      'bouwprojecten-gemeenten-2026-09',
       'bouwondernemers',
       'betaalbaar-arr',
       'silc-energie-2023',

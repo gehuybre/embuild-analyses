@@ -303,6 +303,14 @@ const ANALYSIS_DEFAULTS = {
     currentView: 'table',
   },
 
+  'bouwprojecten-gemeenten-2026-09': {
+    selectedBudgetRange: null,
+    selectedProjectType: null,
+    selectedMunicipality: null,
+    sortBy: null,
+    currentView: 'table',
+  },
+
   /**
    * Bouwondernemers (Construction Contractors)
    *
