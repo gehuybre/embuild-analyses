@@ -33,7 +33,7 @@ INPUT_CPI = APP_DIR / 'data' / 'CPI All base years.txt'
 CPI_SOURCE_URL = 'https://statbel.fgov.be/sites/default/files/files/opendata/Consumptieprijsindex%20en%20gezondheidsindex/CPI%20All%20base%20years.zip'
 
 CPI_BASE_YEAR = 2025
-CPI_REFERENCE_PERIOD = (2026, 2)
+CPI_REFERENCE_PERIOD = (2026, 9)
 CPI_INDEX_PERIODS = {
     2014: (2017, 1),
     2020: (2023, 1),

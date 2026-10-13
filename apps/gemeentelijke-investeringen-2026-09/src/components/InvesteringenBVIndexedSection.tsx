@@ -279,7 +279,11 @@ export function InvesteringenBVIndexedSection({
                 metric: selectedMetric === 'Per_inwoner' ? 'per_capita' : 'total',
                 municipality: geoSelection.type === 'municipality' ? geoSelection.code : null,
               }}
-              data={tableData.map((row) => ({ label: row.municipality, value: row.total }))}
+              data={chartData.map((record) => ({
+                label: String(record.Rapportjaar),
+                value: record.value,
+              }))}
+              periodHeaders={["Rapportjaar"]}
               valueLabel={selectedMetric === 'Totaal' ? 'Geindexeerde totale uitgave' : 'Geindexeerde uitgave per inwoner'}
               dataSource="Statbel CPI + ABB meerjarenplannen"
               dataSourceUrl="https://statbel.fgov.be/sites/default/files/files/opendata/Consumptieprijsindex%20en%20gezondheidsindex/CPI%20All%20base%20years.zip"

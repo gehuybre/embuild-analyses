@@ -42,8 +42,8 @@ python3 scripts/compare_with_previous_version.py   # controle t.o.v. de vorige v
 ```
 
 `process_investments.py` sommeert over Niveau 8, laat cellen met netto uitgave van 0 of minder weg en past gemeentefusies
-toe (enkel rapportjaar 2026), met dezelfde semantiek als de vorige versie. De CPI-indexatie is ongewijzigd (prijspeil
-februari 2026).
+toe (enkel rapportjaar 2026), met dezelfde semantiek als de vorige versie. De bedragen zijn geindexeerd naar
+prijspeil september 2026.
 
 ## Verschillen met de vorige versie (controle)
 
