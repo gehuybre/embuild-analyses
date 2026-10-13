@@ -3,24 +3,24 @@ import type { Totals } from "@/lib/filters"
 
 interface Props {
   totals: Totals
-  /** Uitsplitsing naar soort werken, zodat renovatie-aantallen niet als nieuwbouw gelezen worden. */
-  perGroep: { nieuwbouw: Totals; renovatie: Totals }
+  /** Uitsplitsing waarbij beperkte renovatie apart blijft van gewone renovatie. */
+  perCategorie: { nieuwbouw: Totals; renovatie: Totals; "beperkte-renovatie": Totals }
   wmCount: number
   gemeenteCount: number
   zonderGemeente: number
 }
 
-export function SummaryTiles({ totals, perGroep, wmCount, gemeenteCount, zonderGemeente }: Props) {
+export function SummaryTiles({ totals, perCategorie, wmCount, gemeenteCount, zonderGemeente }: Props) {
   const tiles = [
     {
       label: "Huurwoningen",
       value: fmtInt(totals.huur),
-      sub: `nieuwbouw ${fmtInt(perGroep.nieuwbouw.huur)} · renovatie ${fmtInt(perGroep.renovatie.huur)}`,
+      sub: `nieuwbouw ${fmtInt(perCategorie.nieuwbouw.huur)} · renovatie ${fmtInt(perCategorie.renovatie.huur)} · beperkte renovatie ${fmtInt(perCategorie["beperkte-renovatie"].huur)}`,
     },
     {
       label: "Geraamde kostprijs",
       value: fmtEurCompact(totals.kostprijs),
-      sub: `nieuwbouw ${fmtEurCompact(perGroep.nieuwbouw.kostprijs)} · renovatie ${fmtEurCompact(perGroep.renovatie.kostprijs)}`,
+      sub: `nieuwbouw ${fmtEurCompact(perCategorie.nieuwbouw.kostprijs)} · renovatie ${fmtEurCompact(perCategorie.renovatie.kostprijs)} · beperkte renovatie ${fmtEurCompact(perCategorie["beperkte-renovatie"].kostprijs)}`,
     },
     { label: "Woonmaatschappijen", value: fmtInt(wmCount) },
     { label: "Gemeenten", value: fmtInt(gemeenteCount) },

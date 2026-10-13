@@ -8,6 +8,7 @@ import { Table, TableBody, TableCell, TableFooter, TableHeader, TableRow, TableH
 import { downloadCsv } from "@/lib/csv"
 import { sumRows } from "@/lib/filters"
 import { fmtEur, fmtInt, titleCaseProv } from "@/lib/format"
+import { CATEGORIE_LABELS } from "@/lib/types"
 import type { AggRow, Gemeente, Horizon, Meta, Woonmaatschappij } from "@/lib/types"
 import { SortableHead, compare, nextSort } from "./SortableHead"
 import type { Sort } from "./SortableHead"
@@ -65,10 +66,10 @@ export function PlanningTable({ rows, wms, gemeenten, horizon, meta, onSelectNis
         "Kostprijs = geraamde kostprijs van de werken; Maximumprijs VMSW = FS4-plafond; Bedrag UP = subsidiabel bedrag",
         `Gedownload op ${new Date().toLocaleDateString("nl-BE")}`,
       ],
-      ["Woonmaatschappij", "Website", "Provincie", "Gemeente", "NIS", "Type", "Procedure", "Aantal huurwoningen", "Kostprijs (EUR)", "Maximumprijs VMSW (EUR)", "Bedrag UP (EUR)", "Aantal verrichtingen"],
+      ["Woonmaatschappij", "Website", "Provincie", "Gemeente", "NIS", "Soort werken", "Type", "Procedure", "Aantal huurwoningen", "Kostprijs (EUR)", "Maximumprijs VMSW (EUR)", "Bedrag UP (EUR)", "Aantal verrichtingen"],
       sorted.map((r) => [
         wmById.get(r.wm)?.naam ?? r.wm, wmById.get(r.wm)?.url ?? "", titleCaseProv(r.provincie), gemName(r), r.nis ?? "",
-        r.type, r.procedure ?? "", r.huur, r.kostprijs, r.n_maximumprijs ? r.maximumprijs_vmsw : "", r.bedrag_up, r.n,
+        CATEGORIE_LABELS[r.categorie], r.type, r.procedure ?? "", r.huur, r.kostprijs, r.n_maximumprijs ? r.maximumprijs_vmsw : "", r.bedrag_up, r.n,
       ])
     )
   }
@@ -94,6 +95,7 @@ export function PlanningTable({ rows, wms, gemeenten, horizon, meta, onSelectNis
               <SortableHead label="Woonmaatschappij" k="wm" sort={sort} onSort={onSort} />
               <SortableHead label="Provincie" k="provincie" sort={sort} onSort={onSort} />
               <SortableHead label="Gemeente" k="gemeente" sort={sort} onSort={onSort} />
+              <TableHead>Soort werken</TableHead>
               <SortableHead label="Type" k="type" sort={sort} onSort={onSort} />
               <SortableHead label="Procedure" k="procedure" sort={sort} onSort={onSort} title="Kolom Extra info uit de bron: bv. CBO, D&B, raamcontract, beperkte renovatie" />
               <SortableHead label="Huurwoningen" k="huur" sort={sort} onSort={onSort} align="right" />
@@ -145,7 +147,7 @@ export function PlanningTable({ rows, wms, gemeenten, horizon, meta, onSelectNis
           </TableBody>
           <TableFooter>
             <TableRow>
-              <TableCell colSpan={5} className="font-semibold">Totaal ({horizon.toUpperCase()}, volgens filters)</TableCell>
+              <TableCell colSpan={6} className="font-semibold">Totaal ({horizon.toUpperCase()}, volgens filters)</TableCell>
               <TableCell className="text-right font-semibold tabular-nums">{fmtInt(totals.huur)}</TableCell>
               <TableCell className="text-right font-semibold tabular-nums whitespace-nowrap">{fmtEur(totals.kostprijs)}</TableCell>
               <TableCell className="text-right font-semibold tabular-nums whitespace-nowrap">{fmtEur(totals.maximumprijs_vmsw)}</TableCell>

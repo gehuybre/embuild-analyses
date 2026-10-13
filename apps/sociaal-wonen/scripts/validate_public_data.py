@@ -23,6 +23,12 @@ PROJECT_KEYS = {"projectomschrijving", "omschrijving", "projectnaam", "datum_bes
 # interne dossier-ID's mogen nergens gepubliceerd worden
 NEVER_KEYS = {"woonproject", "verrichting", "identificatie", "dossier", "dossiernummer"}
 FIELDS = ("huur", "kostprijs", "maximumprijs_vmsw", "bedrag_up")
+CATEGORIES = {"nieuwbouw", "renovatie", "beperkte-renovatie"}
+CATEGORY_LABELS = {
+    "nieuwbouw": "Nieuwbouw",
+    "renovatie": "Renovatie",
+    "beperkte-renovatie": "Beperkte renovatie",
+}
 
 errors: list[str] = []
 
@@ -95,12 +101,15 @@ def check_xlsx():
     bad = {h for h in header if h.strip().lower() in NEVER_KEYS}
     if bad:
         err(f"{XLSX_NAME}: verboden kolommen {sorted(bad)}")
-    for need in ("Planning", "Niveau", "Projectomschrijving", "Datum opname programmatie", "Huurwoningen", "Kostprijs (EUR)"):
+    for need in ("Planning", "Niveau", "Projectomschrijving", "Datum opname programmatie", "Soort werken", "Huurwoningen", "Kostprijs (EUR)"):
         if need not in header:
             err(f"{XLSX_NAME}: kolom {need} ontbreekt")
             return
     ix = {h: i for i, h in enumerate(header)}
     meta = json.loads((DATA / "meta.json").read_text(encoding="utf-8"))
+    if meta.get("categories") != CATEGORY_LABELS:
+        err(f"{XLSX_NAME}: meta.categories is niet gelijk aan de verwachte categorieën")
+    allowed_categories = set(meta.get("categories", {}).values())
     project_labels = {meta["horizons"][h]["label"] for h in meta["projectdetails_horizons"]}
     sums: dict[str, list[float]] = {}
     for r in rows[1:]:
@@ -110,6 +119,8 @@ def check_xlsx():
             err(f"{XLSX_NAME}: onverwacht niveau {cell(r, ix['Niveau'])!r} bij {planning}")
         if not project_level and (cell(r, ix["Projectomschrijving"]) or cell(r, ix["Datum opname programmatie"])):
             err(f"{XLSX_NAME}: {planning} bevat projectdetails")
+        if cell(r, ix["Soort werken"]) not in allowed_categories:
+            err(f"{XLSX_NAME}: onbekende categorie {cell(r, ix['Soort werken'])!r}")
         s = sums.setdefault(planning, [0, 0])
         s[0] += cell(r, ix["Huurwoningen"]) or 0
         s[1] += cell(r, ix["Kostprijs (EUR)"]) or 0
@@ -184,9 +195,23 @@ def main() -> int:
                 err(f"{label}: NIS {r['nis']} niet in geometrie")
             if not r["nis"] and not r["gemeente_label"]:
                 err(f"{label}: rij zonder NIS en zonder label ({r['wm']})")
+            expected_category = (
+                "beperkte-renovatie"
+                if r["groep"] == "renovatie" and "beperkte renovatie" in (r.get("procedure") or "").casefold()
+                else r["groep"]
+            )
+            if r.get("categorie") not in CATEGORIES or r.get("categorie") != expected_category:
+                err(f"{label}: onjuiste categorie {r.get('categorie')!r} voor {r['groep']}/{r.get('procedure')!r}")
     for p in ktp["projecten"]:
         if p["wm"] not in wm_ids or (p["nis"] and p["nis"] not in geo_nis):
             err(f"kt_projects: verwijzing niet in orde ({p['wm']}, {p['nis']})")
+        expected_category = (
+            "beperkte-renovatie"
+            if p["groep"] == "renovatie" and "beperkte renovatie" in (p.get("procedure") or "").casefold()
+            else p["groep"]
+        )
+        if p.get("categorie") not in CATEGORIES or p.get("categorie") != expected_category:
+            err(f"kt_projects: onjuiste categorie {p.get('categorie')!r} voor {p['groep']}/{p.get('procedure')!r}")
 
     # totalen
     ctrl = meta["controletotalen"]

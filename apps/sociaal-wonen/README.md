@@ -11,6 +11,8 @@ Site: `/analyses/sociaal-wonen/`. Standalone: dezelfde app, gebouwd met lege bas
 
 `data/` staat niet in git (`data/.gitignore`). Alleen de gegenereerde `public/data/*.json` en `reference/` worden bewaard.
 Enkel de bladen `FS4 Nieuwbouw` en `FS4 Renovatie` worden gebruikt. De SSI-bladen overlappen en zijn niet inbegrepen.
+Renovaties met `Beperkte renovatie` in de kolom Extra info vormen een aparte categorie; de huurwoningen worden tussen
+`Renovatie` en `Beperkte renovatie` verdeeld en niet dubbel geteld. Raamcontracten blijven opgenomen.
 
 ## Privacyregel
 
@@ -63,7 +65,7 @@ om de afleiding te overschrijven. Je keuze blijft behouden bij een volgende run.
 | `horizon` | `kt` (standaard), `lt` |
 | `wm` | id van de woonmaatschappij (bv. `thuispunt-gent`) |
 | `gemeente` | NIS-code (5 cijfers) |
-| `groep` | `nieuwbouw`, `renovatie` |
+| `groep` | `nieuwbouw`, `renovatie`, `beperkte-renovatie` |
 | `type` | `NB`, `VVP`, `RVP`, `GW`, `VEP`, `REP` |
 | `procedure` | waarde uit de kolom Extra info, bv. `D&B 2019` |
 | `modus`, `metric` | enkel kaart: `wm`/`gemeente`, `huur`/`kostprijs` |

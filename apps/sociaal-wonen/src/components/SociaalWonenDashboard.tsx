@@ -88,16 +88,18 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
   const derived = useMemo(() => {
     if (!data) return null
     const rowsF = {} as Record<Horizon, ReturnType<typeof filterRows<AggFile["rijen"][number]>>>
+    const rowsContext = {} as typeof rowsF
     const rowsMap = {} as typeof rowsF
     const rowsPanel = {} as typeof rowsF
     const byNis = {} as Record<Horizon, ReturnType<typeof byGemeente>>
     for (const h of ["kt", "lt"] as Horizon[]) {
       rowsF[h] = filterRows(data[h].rijen, state)
+      rowsContext[h] = filterRows(data[h].rijen, { ...state, groep: "" })
       rowsMap[h] = filterRows(data[h].rijen, state, { ignoreGemeente: true })
       rowsPanel[h] = filterRows(data[h].rijen, state, { ignoreGemeente: true, ignoreWm: true })
       byNis[h] = byGemeente(rowsMap[h])
     }
-    return { rowsF, rowsMap, rowsPanel, byNis }
+    return { rowsF, rowsContext, rowsMap, rowsPanel, byNis }
   }, [data, state])
 
   if (error) {
@@ -112,17 +114,18 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
   }
 
   const m = meta.data
-  const { rowsF, rowsMap, rowsPanel, byNis } = derived
+  const { rowsF, rowsContext, rowsMap, rowsPanel, byNis } = derived
   const horizon = state.horizon
   const current = rowsF[horizon]
-  const totalsH = { kt: sumRows(rowsF.kt), lt: sumRows(rowsF.lt) }
+  const totalsH = { kt: sumRows(rowsContext.kt), lt: sumRows(rowsContext.lt) }
   const totals = totalsH[horizon]
-  const groepen = (rows: typeof current) => ({
+  const categories = (rows: typeof current) => ({
     nieuwbouw: sumRows(rows.filter((r) => r.groep === "nieuwbouw")),
-    renovatie: sumRows(rows.filter((r) => r.groep === "renovatie")),
+    renovatie: sumRows(rows.filter((r) => r.categorie === "renovatie")),
+    "beperkte-renovatie": sumRows(rows.filter((r) => r.categorie === "beperkte-renovatie")),
   })
-  const perGroepH = { kt: groepen(rowsF.kt), lt: groepen(rowsF.lt) }
-  const perGroep = perGroepH[horizon]
+  const perCategorieH = { kt: categories(rowsContext.kt), lt: categories(rowsContext.lt) }
+  const perCategorie = perCategorieH[horizon]
   const zonderGemeente = current.filter((r) => !r.nis).reduce((s, r) => s + r.huur, 0)
   const tab: Tab = section ?? (state.tab === "projecten" && horizon === "lt" ? "tabel" : state.tab)
   const showFilters = !embed || state.filters
@@ -186,7 +189,7 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
     const list = projF.data.projecten.filter((p) => {
       if (state.wm && p.wm !== state.wm) return false
       if (state.gemeente && p.nis !== state.gemeente) return false
-      if (state.groep && p.groep !== state.groep) return false
+      if (state.groep && p.categorie !== state.groep) return false
       if (state.type && p.type !== state.type) return false
       if (state.procedure && p.procedure !== state.procedure) return false
       return true
@@ -200,9 +203,9 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
 
   return (
     <div className="not-prose space-y-4 text-sm">
-      {!embed && <PlanningContext totals={totalsH} perGroep={perGroepH} meta={m} />}
+      {!embed && <PlanningContext totals={totalsH} perCategorie={perCategorieH} meta={m} />}
       {showFilters && <FilterBar state={state} set={set} wms={wms} gemeenten={gemeenten} meta={m} procedures={procedures} />}
-      <SummaryTiles totals={totals} perGroep={perGroep} wmCount={new Set(current.map((r) => r.wm)).size} gemeenteCount={new Set(current.filter((r) => r.nis).map((r) => r.nis)).size} zonderGemeente={zonderGemeente} />
+      <SummaryTiles totals={totals} perCategorie={perCategorie} wmCount={new Set(current.map((r) => r.wm)).size} gemeenteCount={new Set(current.filter((r) => r.nis).map((r) => r.nis)).size} zonderGemeente={zonderGemeente} />
 
       {embed ? (
         <div className="space-y-3">
@@ -236,7 +239,7 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
           <summary className="cursor-pointer font-medium text-foreground">Over de cijfers</summary>
           <ul className="mt-2 list-disc space-y-1 pl-5">
             <li><strong>Korte termijn (KT):</strong> verrichtingen die klaar zijn voor aanbesteding. <strong>Lange termijn (LT):</strong> verrichtingen waarvoor een voorontwerp werd geadviseerd.</li>
-            <li><strong>Huurwoningen:</strong> aantal huurwoningen dat zal gerealiseerd worden. Bij renovatie gaat het om bestaande woningen waarvan de ingreep ook beperkt kan zijn (bv. raamcontracten of beperkte renovatie), dus het aantal woningen zegt daar weinig over de omvang van de werken. Vergelijk bedragen per woning daarom alleen binnen hetzelfde soort werken. <strong>Kostprijs:</strong> geraamde kostprijs van de werken. <strong>Max. prijs VMSW:</strong> FS4-plafond. <strong>Subsidiabel (UP):</strong> subsidiabel bedrag, berekend op basis van kostprijs en maximumprijs.</li>
+            <li><strong>Huurwoningen:</strong> aantal huurwoningen dat zal gerealiseerd worden. Renovaties omvatten ook raamcontracten voor onderhoud en kleine werken. Verrichtingen met &quot;Beperkte renovatie&quot; in de kolom Extra info staan apart en worden niet dubbel geteld. Het aantal woningen zegt bij deze categorieën weinig over de omvang van de ingreep. Vergelijk bedragen per woning daarom alleen binnen hetzelfde soort werken. <strong>Kostprijs:</strong> geraamde kostprijs van de werken. <strong>Max. prijs VMSW:</strong> FS4-plafond. <strong>Subsidiabel (UP):</strong> subsidiabel bedrag, berekend op basis van kostprijs en maximumprijs.</li>
             <li><strong>Types:</strong> {Object.entries(m.types).filter(([k]) => k !== "ONBEKEND").map(([k, v]) => `${k} = ${v.toLowerCase()}`).join("; ")}.</li>
             <li>De kaart toont het werkingsgebied van elke woonmaatschappij (stand januari 2025, afgeleid uit de kaart &quot;Woonmaatschappijen in kaart&quot;). De planning kan ook projecten buiten dat gebied bevatten. De tabel toont altijd de woonmaatschappij uit de planning.</li>
             <li>SSI-projecten (sociale initiatiefnemers) zijn niet inbegrepen, omdat ze overlappen met de gewone planning.</li>

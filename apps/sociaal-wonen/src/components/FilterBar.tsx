@@ -4,7 +4,7 @@ import { X } from "lucide-react"
 import { Button } from "@embuild/shared/components/ui/button"
 import { Input } from "@embuild/shared/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@embuild/shared/components/ui/select"
-import { TYPE_ORDER } from "@/lib/types"
+import { CATEGORIE_LABELS, TYPE_ORDER } from "@/lib/types"
 import type { Gemeente, Meta, State, Woonmaatschappij } from "@/lib/types"
 
 const ALL = "__all__"
@@ -65,9 +65,10 @@ export function FilterBar({ state, set, wms, gemeenten, meta, procedures }: Prop
           <Select value={state.groep || ALL} onValueChange={(v) => set({ groep: v === ALL ? "" : (v as State["groep"]), type: "" })}>
             <SelectTrigger className="w-full text-foreground"><SelectValue /></SelectTrigger>
             <SelectContent>
-              <SelectItem value={ALL}>Nieuwbouw en renovatie</SelectItem>
-              <SelectItem value="nieuwbouw">Nieuwbouw</SelectItem>
-              <SelectItem value="renovatie">Renovatie</SelectItem>
+              <SelectItem value={ALL}>Alle soorten werken</SelectItem>
+              {Object.entries(CATEGORIE_LABELS).map(([value, label]) => (
+                <SelectItem key={value} value={value}>{label}</SelectItem>
+              ))}
             </SelectContent>
           </Select>
         </Field>

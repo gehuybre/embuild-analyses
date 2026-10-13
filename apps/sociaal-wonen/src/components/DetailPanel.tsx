@@ -5,7 +5,7 @@ import { Button, buttonVariants } from "@embuild/shared/components/ui/button"
 import { cn } from "@embuild/shared/lib/utils"
 import { sumRows } from "@/lib/filters"
 import { fmtEurCompact, fmtInt, titleCaseProv } from "@/lib/format"
-import { TYPE_ORDER } from "@/lib/types"
+import { CATEGORIE_LABELS, TYPE_ORDER } from "@/lib/types"
 import type { AggRow, Gemeente, Horizon, Woonmaatschappij } from "@/lib/types"
 
 interface Props {
@@ -34,8 +34,6 @@ function WebsiteButton({ wm, primary }: { wm: Woonmaatschappij; primary?: boolea
     </a>
   )
 }
-
-const GROEP_LABEL: Record<string, string> = { nieuwbouw: "Nieuwbouw", renovatie: "Renovatie" }
 
 /** Verdeling van de geaggregeerde rijen over een dimensie (soort werken, type verrichting, procedure). */
 function Breakdown({ title, rows, keyOf, label, order }: { title: string; rows: AggRow[]; keyOf: (r: AggRow) => string; label: (k: string) => string; order?: (a: string, b: string) => number }) {
@@ -120,7 +118,7 @@ export function DetailPanel({ nis, wmId, gemeenten, wms, types, rows, onClear, o
                   <p className="text-xs tabular-nums text-muted-foreground">
                     Subsidiabel bedrag {fmtEurCompact(t.bedrag_up)} · {fmtInt(t.n)} {t.n === 1 ? "verrichting" : "verrichtingen"}
                   </p>
-                  <Breakdown title="Soort werken" rows={r} keyOf={(x) => x.groep} label={(k) => GROEP_LABEL[k] ?? k} />
+                  <Breakdown title="Soort werken" rows={r} keyOf={(x) => x.categorie} label={(k) => CATEGORIE_LABELS[k as keyof typeof CATEGORIE_LABELS] ?? k} />
                   <Breakdown
                     title="Type verrichting"
                     rows={r}

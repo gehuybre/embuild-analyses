@@ -1,9 +1,9 @@
-import type { AggRow, Groep, State } from "./types"
+import type { AggRow, Categorie, State } from "./types"
 
 interface Filterable {
   wm: string
   nis: string | null
-  groep: Groep
+  categorie: Categorie
   type: string
   procedure: string | null
 }
@@ -11,7 +11,7 @@ interface Filterable {
 export function matches(r: Filterable, st: State, opts: { ignoreGemeente?: boolean; ignoreWm?: boolean } = {}): boolean {
   if (!opts.ignoreWm && st.wm && r.wm !== st.wm) return false
   if (!opts.ignoreGemeente && st.gemeente && r.nis !== st.gemeente) return false
-  if (st.groep && r.groep !== st.groep) return false
+  if (st.groep && r.categorie !== st.groep) return false
   if (st.type && r.type !== st.type) return false
   if (st.procedure && r.procedure !== st.procedure) return false
   return true

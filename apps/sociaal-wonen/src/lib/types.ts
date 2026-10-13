@@ -1,5 +1,11 @@
 export type Horizon = "kt" | "lt"
 export type Groep = "nieuwbouw" | "renovatie"
+export type Categorie = Groep | "beperkte-renovatie"
+export const CATEGORIE_LABELS: Record<Categorie, string> = {
+  nieuwbouw: "Nieuwbouw",
+  renovatie: "Renovatie",
+  "beperkte-renovatie": "Beperkte renovatie",
+}
 
 export interface Woonmaatschappij {
   id: string
@@ -26,6 +32,7 @@ export interface AggRow {
   gemeente_label: string | null
   provincie: string
   groep: Groep
+  categorie: Categorie
   type: string
   /** Kolom "Extra info" uit de bron (bv. CBO 2024-1, D&B 2019, Raamcontract, Beperkte renovatie). */
   procedure: string | null
@@ -53,6 +60,7 @@ export interface Project {
   gemeente_label: string | null
   provincie: string
   groep: Groep
+  categorie: Categorie
   type: string
   huur: number | null
   kostprijs: number | null
@@ -89,6 +97,7 @@ export interface Meta {
   lastUpdated: string
   bron: string
   types: Record<string, string>
+  categories: Record<Categorie, string>
   horizons: Record<Horizon, { label: string; omschrijving: string }>
 }
 
@@ -100,7 +109,7 @@ export interface State {
   horizon: Horizon
   wm: string
   gemeente: string
-  groep: "" | Groep
+  groep: "" | Categorie
   type: string
   procedure: string
   modus: Modus

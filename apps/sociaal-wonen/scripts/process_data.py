@@ -72,6 +72,11 @@ TYPES = {
     "REP": "Renovatie eigen patrimonium",
     "ONBEKEND": "Type niet vermeld in de bron",
 }
+CATEGORIES = {
+    "nieuwbouw": "Nieuwbouw",
+    "renovatie": "Renovatie",
+    "beperkte-renovatie": "Beperkte renovatie",
+}
 PROVINCE_FIX = {"LIMBUG": "LIMBURG"}
 NO_MUNI = {"geen": "Gemeente niet gespecificeerd", "meerdere": "Meerdere gemeenten"}
 
@@ -94,6 +99,12 @@ def num(v, where: str) -> float | None:
 def read_csv(path: Path) -> list[dict]:
     with open(path, newline="", encoding="utf-8") as f:
         return list(csv.DictReader(f))
+
+
+def category_for(group: str, procedure: str | None) -> str:
+    if group == "renovatie" and procedure and "beperkte renovatie" in procedure.casefold():
+        return "beperkte-renovatie"
+    return group
 
 
 def strip_prefix(n: str) -> str:
@@ -187,14 +198,16 @@ def read_horizon(hz: str, legend, aliases, fixes, idx):
             if typ not in TYPES:
                 raise SystemExit(f"Onbekend type {typ!r} ({where})")
             d = r[7]
+            procedure = (r[9] or "").strip() or None if isinstance(r[9], str) else None
             records.append({
                 "horizon": hz, "groep": group, "wm": wm, "nis": nis, "status": status,
+                "categorie": category_for(group, procedure),
                 "gemeente_label": NO_MUNI.get(status) if status != "ok" else None,
                 "provincie": prov, "type": typ,
                 "huur": num(r[8], where), "kostprijs": num(r[11], where),
                 "maximumprijs_vmsw": num(r[12], where), "bedrag_up": num(r[13], where),
                 "datum": d.date().isoformat() if isinstance(d, datetime) else None,
-                "omschrijving": omschr, "procedure": (r[9] or "").strip() or None if isinstance(r[9], str) else None,
+                "omschrijving": omschr, "procedure": procedure,
                 "initiatiefnemer_bron": (r[2] or "").strip(),
             })
             if typ == "ONBEKEND":
@@ -212,7 +225,7 @@ def aggregate(records):
     agg = defaultdict(lambda: {"huur": 0.0, "kostprijs": 0.0, "maximumprijs_vmsw": 0.0, "bedrag_up": 0.0,
                                "n": 0, "n_maximumprijs": 0, "jaren": []})
     for r in records:
-        key = (r["wm"], r["nis"], r["status"], r["provincie"], r["groep"], r["type"], r["procedure"] or "")
+        key = (r["wm"], r["nis"], r["status"], r["provincie"], r["groep"], r["categorie"], r["type"], r["procedure"] or "")
         a = agg[key]
         a["huur"] += r["huur"] or 0
         a["kostprijs"] += r["kostprijs"] or 0
@@ -224,10 +237,10 @@ def aggregate(records):
         if r["datum"]:
             a["jaren"].append(int(r["datum"][:4]))
     rows = []
-    for (wm, nis, status, prov, groep, typ, proc), a in sorted(agg.items(), key=lambda kv: tuple(str(x) for x in kv[0])):
+    for (wm, nis, status, prov, groep, categorie, typ, proc), a in sorted(agg.items(), key=lambda kv: tuple(str(x) for x in kv[0])):
         rows.append({
             "wm": wm, "nis": nis, "gemeente_label": NO_MUNI.get(status) if status != "ok" else None,
-            "provincie": prov, "groep": groep, "type": typ, "procedure": proc or None,
+            "provincie": prov, "groep": groep, "categorie": categorie, "type": typ, "procedure": proc or None,
             "huur": round(a["huur"]), "kostprijs": round(a["kostprijs"]),
             "maximumprijs_vmsw": round(a["maximumprijs_vmsw"]), "bedrag_up": round(a["bedrag_up"]),
             "n": a["n"], "n_maximumprijs": a["n_maximumprijs"],
@@ -322,13 +335,13 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
             for r in sorted(recs, key=lambda r: (wm_name.get(r["wm"], r["wm"]), r["nis"] or "", r["omschrijving"] or "")):
                 rows.append([label, "Project", wm_name.get(r["wm"], r["wm"]), PROV_LABEL.get(r["provincie"], r["provincie"]),
                              r["nis"], gem_name.get(r["nis"]) if r["nis"] else NO_MUNI.get(r["status"]),
-                             r["groep"].capitalize(), r["type"], TYPES.get(r["type"], r["type"]), r["procedure"],
+                             CATEGORIES[r["categorie"]], r["type"], TYPES.get(r["type"], r["type"]), r["procedure"],
                              r["omschrijving"], date.fromisoformat(r["datum"]) if r["datum"] else None, 1, r["huur"], *(round(r[k], 2) if r[k] is not None else None for k in ("kostprijs", "maximumprijs_vmsw", "bedrag_up"))])
         else:
             for a in aggregate(recs):
                 rows.append([label, "Geaggregeerd", wm_name.get(a["wm"], a["wm"]), PROV_LABEL.get(a["provincie"], a["provincie"]),
                              a["nis"], gem_name.get(a["nis"]) if a["nis"] else a["gemeente_label"],
-                             a["groep"].capitalize(), a["type"], TYPES.get(a["type"], a["type"]), a["procedure"],
+                             CATEGORIES[a["categorie"]], a["type"], TYPES.get(a["type"], a["type"]), a["procedure"],
                              None, None, a["n"], a["huur"], a["kostprijs"], a["maximumprijs_vmsw"], a["bedrag_up"]])
 
     wb = openpyxl.Workbook()
@@ -375,7 +388,8 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
         ("Niveau Geaggregeerd (lange termijn): een rij per combinatie van woonmaatschappij, gemeente, soort werken, type en procedure. Projectdetails zijn voor de lange termijn niet beschikbaar.", None),
         ("", None),
         ("Kolommen", "kop"),
-        ("Huurwoningen: " + VELDOMSCHRIJVING["huur"] + ". Bij renovatie gaat het om bestaande woningen waarvan de ingreep beperkt kan zijn (bv. raamcontracten of beperkte renovatie). Vergelijk bedragen per woning daarom enkel binnen hetzelfde soort werken.", None),
+        ("Soort werken: renovaties met 'Beperkte renovatie' in de kolom Extra info worden als aparte categorie getoond. Raamcontracten blijven opgenomen; de categorie wordt niet dubbel geteld.", None),
+        ("Huurwoningen: " + VELDOMSCHRIJVING["huur"] + ". Bij renovatie gaat het om bestaande woningen. Het aantal zegt bij beperkte renovaties en raamcontracten weinig over de omvang van de ingreep. Vergelijk bedragen per woning daarom enkel binnen hetzelfde soort werken.", None),
         ("Kostprijs (EUR): " + VELDOMSCHRIJVING["kostprijs"] + ".", None),
         ("Maximumprijs VMSW (EUR): " + VELDOMSCHRIJVING["maximumprijs_vmsw"] + ". Niet voor elke rij ingevuld.", None),
         ("Bedrag UP (EUR): " + VELDOMSCHRIJVING["bedrag_up"] + ".", None),
@@ -500,7 +514,8 @@ def main():
     for hz in PROJECT_LEVEL_HORIZONS:
         projects = [{
             "projectomschrijving": r["omschrijving"], "wm": r["wm"], "nis": r["nis"],
-            "gemeente_label": r["gemeente_label"], "provincie": r["provincie"], "groep": r["groep"], "type": r["type"],
+            "gemeente_label": r["gemeente_label"], "provincie": r["provincie"], "groep": r["groep"],
+            "categorie": r["categorie"], "type": r["type"],
             "huur": r["huur"], "kostprijs": round(r["kostprijs"]) if r["kostprijs"] is not None else None,
             "maximumprijs_vmsw": round(r["maximumprijs_vmsw"]) if r["maximumprijs_vmsw"] is not None else None,
             "bedrag_up": round(r["bedrag_up"]) if r["bedrag_up"] is not None else None,
@@ -524,6 +539,7 @@ def main():
         "horizons": {k: {"label": v["label"], "omschrijving": v["omschrijving"], "peildatum": v["peildatum"]} for k, v in HORIZONS.items()},
         "projectdetails_horizons": sorted(PROJECT_LEVEL_HORIZONS),
         "types": TYPES,
+        "categories": CATEGORIES,
         "veldomschrijving": VELDOMSCHRIJVING,
         "controletotalen": control,
     })

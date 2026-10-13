@@ -7,8 +7,8 @@ import type { Horizon, Meta } from "@/lib/types"
 interface Props {
   /** Totalen per horizon met dezelfde filters. Naast elkaar getoond, nooit opgeteld. */
   totals: Record<Horizon, Totals>
-  /** Uitsplitsing naar soort werken: het grootste deel is renovatie, dat mag het totaal niet als nieuwbouw laten lezen. */
-  perGroep: Record<Horizon, { nieuwbouw: Totals; renovatie: Totals }>
+  /** Uitsplitsing waarbij beperkte renovatie niet in de gewone renovatiecategorie wordt meegeteld. */
+  perCategorie: Record<Horizon, { nieuwbouw: Totals; renovatie: Totals; "beperkte-renovatie": Totals }>
   meta: Meta
 }
 
@@ -17,9 +17,13 @@ const COPY: Record<Horizon, { titel: string; uitleg: string }> = {
   lt: { titel: "Lange termijn", uitleg: "Voorontwerp geadviseerd. Timing en bedragen nog minder zeker, enkel cijfers per gemeente." },
 }
 
-export function PlanningContext({ totals, perGroep, meta }: Props) {
+export function PlanningContext({ totals, perCategorie, meta }: Props) {
   return (
-    <div className="grid grid-cols-1 gap-6 py-2 md:grid-cols-2 md:gap-10">
+    <div className="space-y-1 py-2">
+      <p className="text-xs text-muted-foreground">
+        Dit overzicht toont alle soorten werken, ongeacht de filter &quot;Soort werken&quot;. De tegels, kaart en tabel volgen wel de actieve filters.
+      </p>
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-10">
       {(["kt", "lt"] as Horizon[]).map((h) => {
         const t = totals[h]
         return (
@@ -34,13 +38,14 @@ export function PlanningContext({ totals, perGroep, meta }: Props) {
                 <span><strong className="text-lg font-semibold">{fmtEurCompact(t.kostprijs)}</strong> geraamde kostprijs</span>
               </p>
               <p className="text-sm leading-relaxed tabular-nums text-muted-foreground">
-                Waarvan {fmtInt(perGroep[h].nieuwbouw.huur)} nieuwbouw en {fmtInt(perGroep[h].renovatie.huur)} renovatie.
+                Waarvan {fmtInt(perCategorie[h].nieuwbouw.huur)} nieuwbouw, {fmtInt(perCategorie[h].renovatie.huur)} renovatie en {fmtInt(perCategorie[h]["beperkte-renovatie"].huur)} beperkte renovatie.
               </p>
             </div>
             <p className="max-w-prose text-sm leading-relaxed text-muted-foreground">{COPY[h].uitleg}</p>
           </section>
         )
       })}
+      </div>
     </div>
   )
 }

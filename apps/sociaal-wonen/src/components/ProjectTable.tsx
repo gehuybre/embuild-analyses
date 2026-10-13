@@ -8,6 +8,7 @@ import { Input } from "@embuild/shared/components/ui/input"
 import { Table, TableBody, TableCell, TableHeader, TableRow, TableHead } from "@embuild/shared/components/ui/table"
 import { downloadCsv } from "@/lib/csv"
 import { fmtDate, fmtEur, fmtInt, titleCaseProv } from "@/lib/format"
+import { CATEGORIE_LABELS } from "@/lib/types"
 import type { Gemeente, Meta, Project, Woonmaatschappij } from "@/lib/types"
 import { SortableHead, compare, nextSort } from "./SortableHead"
 import type { Sort } from "./SortableHead"
@@ -66,10 +67,10 @@ export function ProjectTable({ projects, wms, gemeenten, meta, pageSize = DEFAUL
         "Datum = datum opname programmatie",
         `Gedownload op ${new Date().toLocaleDateString("nl-BE")}`,
       ],
-      ["Woonmaatschappij", "Website", "Provincie", "Gemeente", "Projectomschrijving", "Type", "Procedure", "Aantal huurwoningen", "Kostprijs (EUR)", "Maximumprijs VMSW (EUR)", "Bedrag UP (EUR)", "Datum opname programmatie"],
+      ["Woonmaatschappij", "Website", "Provincie", "Gemeente", "Projectomschrijving", "Soort werken", "Type", "Procedure", "Aantal huurwoningen", "Kostprijs (EUR)", "Maximumprijs VMSW (EUR)", "Bedrag UP (EUR)", "Datum opname programmatie"],
       list.map((p) => [
         wmById.get(p.wm)?.naam ?? p.wm, wmById.get(p.wm)?.url ?? "", titleCaseProv(p.provincie), gemName(p), p.projectomschrijving,
-        p.type, p.procedure ?? "", p.huur, p.kostprijs, p.maximumprijs_vmsw, p.bedrag_up, p.datum_beslissing,
+        CATEGORIE_LABELS[p.categorie], p.type, p.procedure ?? "", p.huur, p.kostprijs, p.maximumprijs_vmsw, p.bedrag_up, p.datum_beslissing,
       ])
     )
   }
@@ -95,6 +96,7 @@ export function ProjectTable({ projects, wms, gemeenten, meta, pageSize = DEFAUL
                 <SortableHead label="Woonmaatschappij" k="wm" sort={sort} onSort={onSort} />
                 <SortableHead label="Gemeente" k="gemeente" sort={sort} onSort={onSort} />
                 <SortableHead label="Project" k="omschrijving" sort={sort} onSort={onSort} />
+                <TableHead>Soort werken</TableHead>
                 <SortableHead label="Type" k="type" sort={sort} onSort={onSort} />
                 <SortableHead label="Procedure" k="procedure" sort={sort} onSort={onSort} />
                 <SortableHead label="Huurwoningen" k="huur" sort={sort} onSort={onSort} align="right" />
@@ -114,6 +116,7 @@ export function ProjectTable({ projects, wms, gemeenten, meta, pageSize = DEFAUL
                     <TableCell className="min-w-48 max-w-72 whitespace-normal">
                       {p.projectomschrijving || "–"}
                     </TableCell>
+                    <TableCell className="whitespace-nowrap">{CATEGORIE_LABELS[p.categorie]}</TableCell>
                     <TableCell><Badge variant="secondary" title={meta.types[p.type]}>{p.type === "ONBEKEND" ? "?" : p.type}</Badge></TableCell>
                     <TableCell className="whitespace-nowrap text-muted-foreground">{p.procedure ?? "–"}</TableCell>
                     <TableCell className="text-right tabular-nums">{fmtInt(p.huur)}</TableCell>
