@@ -32,7 +32,7 @@ type YearlyRow = {
   lvl: number
   nis: string
   type: string
-  n: number
+  n: number | null
   p50: number
   name: string
 }
@@ -43,7 +43,7 @@ type QuarterlyRow = {
   lvl: number
   nis: string
   type: string
-  n: number
+  n: number | null
   p50: number
   p25: number
   p75: number
@@ -72,7 +72,7 @@ type MunicipalityMetricRow = {
   name: string
   y: number
   type: string
-  n: number
+  n: number | null
   p50: number
 }
 
@@ -493,12 +493,15 @@ function aggregateMedianPriceByYear(rows: YearlyRow[]): YearPoint[] {
 
 function aggregateByQuarter(rows: QuarterlyRow[], metric: "n" | "p50"): YearPoint[] {
   return rows
-    .filter((r) => typeof r.y === "number" && typeof r.q === "number" && typeof r[metric] === "number")
-    .map((r) => ({
-      sortValue: r.y * 10 + r.q,
-      periodCells: [r.y, `Q${r.q}`],
-      value: r[metric],
-    }))
+    .flatMap((r) => {
+      const value = r[metric]
+      if (typeof r.y !== "number" || typeof r.q !== "number" || typeof value !== "number") return []
+      return [{
+        sortValue: r.y * 10 + r.q,
+        periodCells: [r.y, `Q${r.q}`],
+        value,
+      }]
+    })
     .sort((a, b) => a.sortValue - b.sortValue)
 }
 
@@ -529,7 +532,7 @@ function MetricSection({
   yearSeries: YearPoint[]
   mapData: MunicipalityMetricRow[]
   mapPeriods: number[]
-  getMapValue: (row: MunicipalityMetricRow) => number
+  getMapValue: (row: MunicipalityMetricRow) => number | null
   getMapPeriod: (row: MunicipalityMetricRow) => number
   formatValue: (v: number) => string
   geoLevel: "belgium" | "region" | "province" | "municipality"
@@ -693,7 +696,7 @@ function QuarterlyMetricSection({
   quarterlySeries: YearPoint[]
   mapData: QuarterlyRow[]
   mapPeriods: string[]
-  getMapValue: (row: QuarterlyRow) => number
+  getMapValue: (row: QuarterlyRow) => number | null
   getMapPeriod: (row: QuarterlyRow) => string
   formatValue: (v: number) => string
   geoLevel: "belgium" | "region" | "province" | "municipality"

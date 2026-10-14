@@ -605,7 +605,7 @@ def build_datasets(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.Dat
         yearly_df.groupby(["CD_YEAR", "CD_niveau_refnis", "CD_REFNIS", "property_type"], dropna=False)
         .agg(
             {
-                "MS_TOTAL_TRANSACTIONS": "sum",
+                "MS_TOTAL_TRANSACTIONS": lambda values: values.sum(min_count=1),
                 "MS_P_50_median": "mean",
                 "CD_REFNIS_NL": "first",
             }
@@ -635,7 +635,7 @@ def build_datasets(df: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame, pd.Dat
         quarterly_df.groupby(["CD_YEAR", "quarter", "CD_niveau_refnis", "CD_REFNIS", "property_type"], dropna=False)
         .agg(
             {
-                "MS_TOTAL_TRANSACTIONS": "sum",
+                "MS_TOTAL_TRANSACTIONS": lambda values: values.sum(min_count=1),
                 "MS_P_50_median": "mean",
                 "MS_P_25": "mean",
                 "MS_P_75": "mean",
@@ -731,6 +731,7 @@ def export_results(yearly_agg: pd.DataFrame, quarterly_agg: pd.DataFrame, munici
         reset_generated_dir(directory)
 
     years = sorted(int(year) for year in yearly_agg["y"].dropna().unique().tolist())
+    available_years = years + [int(year) for year in quarterly_agg["y"].dropna().unique()]
     chunks_metadata, records_per_chunk = chunk_quarterly_records(quarterly_records)
 
     metadata = {
@@ -743,7 +744,7 @@ def export_results(yearly_agg: pd.DataFrame, quarterly_agg: pd.DataFrame, munici
             for filename in STATBEL_DOCUMENT_EXPORT_FILENAMES
         ],
         "open_data_page_url": OPEN_DATA_PAGE_URL,
-        "latest_year": years[-1] if years else None,
+        "latest_year": max(available_years) if available_years else None,
         "latest_date": latest_date,
         "property_types": list(PROPERTY_TYPES.values()),
         "years": years,

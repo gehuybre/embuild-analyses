@@ -4,9 +4,9 @@ import { PressReferences } from "@embuild/shared/components/shared/PressReferenc
 
 const metadata = {
   title: "Verkoop van vastgoed in België",
-  date: "2026-05-07",
+  date: "2026-10-14",
   summary: "Analyse van vastgoedtransacties en prijzen per type woning, regio en provincie.",
-  dataAvailabilityLabel: "2025",
+  dataAvailabilityLabel: "2026",
   tags: ["vastgoed","woningmarkt","prijzen"],
   source: {
     provider: "Statbel",
