@@ -98,7 +98,10 @@ Publicatie van de standalone versie: `.github/workflows/deploy-sociaal-wonen-pub
 `package.json` bevat `"publishToSite": false`. De site-workflow (`deploy.yml`) bouwt de app dan niet, het portaal toont haar niet en
 `merge-outputs.mjs` voegt haar niet toe aan `dist/`. Zie `scripts/site-apps.mjs`. Om de app later op de site te zetten: de vlag verwijderen.
 
-De standalone versie wordt beveiligd met HTTP Basic Auth door `cloudflare/_worker.js`. De deploy-workflow kopieert dat bestand naar de
-dist-map (Pages "advanced mode"). Gebruikersnaam en wachtwoord staan niet in de code maar als secrets van het Pages-project
-(Production): `BASIC_AUTH_USER` en `BASIC_AUTH_PASSWORD`. Zonder die secrets geeft de site een 503 en blijft ze dicht.
-De beveiliging geldt voor alle bestanden, ook de download-zip en de JSON in `/data/`.
+De standalone versie wordt beveiligd door `cloudflare/_worker.js`. De deploy-workflow kopieert dat bestand naar de
+dist-map (Pages "advanced mode"). Gebruikersnaam, wachtwoord en sessiesleutel staan niet in de code maar als secrets van het
+Pages-project (Production): `BASIC_AUTH_USER`, `BASIC_AUTH_PASSWORD` en `BASIC_AUTH_SESSION_SECRET`. De sessiesleutel moet minstens
+32 bytes willekeurige data bevatten. De worker ondersteunt zowel de browserprompt (HTTP Basic Auth) als een eigen HTML-aanmeldformulier
+voor clients die die prompt niet tonen. Na aanmelden blijft de sessie 8 uur geldig via een `Secure`, `HttpOnly`-cookie.
+Zonder gebruikersnaam of wachtwoord geeft de site een 503 en blijft ze dicht. De beveiliging geldt voor alle bestanden, ook de
+download-xlsx en de JSON in `/data/`.
