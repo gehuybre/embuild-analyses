@@ -1,12 +1,11 @@
 "use client"
 
-import { useState } from "react"
+import { useId, useState } from "react"
 import Link from "next/link"
 import { format, parseISO } from "date-fns"
 import { nl } from "date-fns/locale"
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Badge } from "@embuild/shared/components/ui/badge"
-import { cn } from "@embuild/shared/lib/utils"
 
 export interface AnalysisVersion {
   slug: string
@@ -65,11 +64,12 @@ function SingleVersionCard({ analysis }: { analysis: Analysis }) {
 
 /**
  * Kaart met versiekiezer. De kaart zelf is klikbaar via een uitgerekte link op de titel, zodat de
- * versieknoppen (echte buttons) niet in een anchor hoeven te staan.
+ * versiekeuze niet in een anchor hoeft te staan.
  */
 function VersionedCard({ analysis, versions }: { analysis: Analysis; versions: AnalysisVersion[] }) {
   const initial = versions.find((version) => version.slug === analysis.defaultVersion) ?? versions[0]
   const [selectedSlug, setSelectedSlug] = useState(initial.slug)
+  const selectId = useId()
   const selected = versions.find((version) => version.slug === selectedSlug) ?? initial
 
   return (
@@ -84,27 +84,18 @@ function VersionedCard({ analysis, versions }: { analysis: Analysis; versions: A
       </CardHeader>
       <CardContent className="space-y-4">
         <p className="text-sm text-muted-foreground">{selected.summary}</p>
-        <div role="group" aria-label="Versie" className="relative z-10 flex flex-wrap items-center gap-2">
-          <span className="w-full text-xs text-muted-foreground">Versie</span>
-          {versions.map((version) => {
-            const isSelected = version.slug === selected.slug
-            return (
-              <button
-                key={version.slug}
-                type="button"
-                aria-pressed={isSelected}
-                onClick={() => setSelectedSlug(version.slug)}
-                className={cn(
-                  "rounded-md border px-3 py-1 text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring",
-                  isSelected
-                    ? "border-primary bg-primary text-primary-foreground"
-                    : "bg-background text-foreground hover:bg-accent hover:text-accent-foreground"
-                )}
-              >
-                {version.label}
-              </button>
-            )
-          })}
+        <div className="relative z-10 flex flex-wrap items-center gap-2">
+          <label htmlFor={selectId} className="w-full text-xs text-muted-foreground">Versie</label>
+          <select
+            id={selectId}
+            value={selected.slug}
+            onChange={(event) => setSelectedSlug(event.target.value)}
+            className="max-w-full rounded-md border bg-background px-3 py-2 text-sm text-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
+          >
+            {versions.map((version) => (
+              <option key={version.slug} value={version.slug}>{version.label}</option>
+            ))}
+          </select>
           {analysis.comparison && (
             <Link
               href={analysis.comparison.url}

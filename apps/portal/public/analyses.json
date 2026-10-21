@@ -1,5 +1,69 @@
 [
   {
+    "slug": "gemeentelijke-investeringen",
+    "title": "Gemeentelijke investeringen in Vlaanderen",
+    "date": "2026-10-21",
+    "summary": "Bouwinvesteringen per boekjaar: vergelijk de meest recente meerjarenplannen met de werkelijke uitgaven uit jaarrekeningen en het oorspronkelijke beginkrediet. Versie oktober 2026.",
+    "tags": [
+      "gemeente",
+      "investeringen",
+      "financiën",
+      "bouw",
+      "meerjarenplan",
+      "jaarrekening"
+    ],
+    "url": "/analyses/gemeentelijke-investeringen-2026-10/",
+    "defaultVersion": "gemeentelijke-investeringen-2026-10",
+    "comparison": {
+      "label": "Vergelijk de versies",
+      "url": "/analyses/gemeentelijke-investeringen-vergelijking/"
+    },
+    "versions": [
+      {
+        "slug": "gemeentelijke-investeringen-2026-10",
+        "label": "Oktober 2026",
+        "date": "2026-10-21",
+        "summary": "Bouwinvesteringen per boekjaar: vergelijk de meest recente meerjarenplannen met de werkelijke uitgaven uit jaarrekeningen en het oorspronkelijke beginkrediet. Versie oktober 2026.",
+        "url": "/analyses/gemeentelijke-investeringen-2026-10/"
+      },
+      {
+        "slug": "gemeentelijke-investeringen-2026-09",
+        "label": "September 2026",
+        "date": "2026-10-06",
+        "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033). Versie september 2026.",
+        "url": "/analyses/gemeentelijke-investeringen-2026-09/"
+      },
+      {
+        "slug": "gemeentelijke-investeringen",
+        "label": "Mei 2026",
+        "date": "2026-05-20",
+        "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033).",
+        "url": "/analyses/gemeentelijke-investeringen/",
+        "sourcePublicationDate": "2025-12-31"
+      },
+      {
+        "slug": "gemeentelijke-investeringen-2026-02",
+        "label": "Februari 2026",
+        "date": "2026-03-19",
+        "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (rapportjaren 2014, 2020 en 2026). Versie februari 2026.",
+        "url": "/analyses/gemeentelijke-investeringen-2026-02/"
+      }
+    ]
+  },
+  {
+    "slug": "vastgoed-verkopen",
+    "title": "Verkoop van vastgoed in België",
+    "date": "2026-10-14",
+    "summary": "Analyse van vastgoedtransacties en prijzen per type woning, regio en provincie.",
+    "tags": [
+      "vastgoed",
+      "woningmarkt",
+      "prijzen"
+    ],
+    "sourcePublicationDate": "2026-04-30",
+    "url": "/analyses/vastgoed-verkopen/"
+  },
+  {
     "slug": "bouwprojecten-gemeenten",
     "title": "Gemeentelijke bouwprojecten Vlaanderen 2026-2031",
     "date": "2026-10-13",
@@ -57,49 +121,6 @@
     ],
     "sourcePublicationDate": "2026-09-25",
     "url": "/analyses/starters-stoppers/"
-  },
-  {
-    "slug": "gemeentelijke-investeringen",
-    "title": "Gemeentelijke investeringen in Vlaanderen",
-    "date": "2026-10-06",
-    "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033). Versie september 2026.",
-    "tags": [
-      "gemeente",
-      "investeringen",
-      "financiën",
-      "beleidsdomein",
-      "meerjarenplan"
-    ],
-    "url": "/analyses/gemeentelijke-investeringen-2026-09/",
-    "defaultVersion": "gemeentelijke-investeringen-2026-09",
-    "comparison": {
-      "label": "Vergelijk de versies",
-      "url": "/analyses/gemeentelijke-investeringen-vergelijking/"
-    },
-    "versions": [
-      {
-        "slug": "gemeentelijke-investeringen-2026-09",
-        "label": "September 2026",
-        "date": "2026-10-06",
-        "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033). Versie september 2026.",
-        "url": "/analyses/gemeentelijke-investeringen-2026-09/"
-      },
-      {
-        "slug": "gemeentelijke-investeringen",
-        "label": "Mei 2026",
-        "date": "2026-05-20",
-        "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (2014-2033).",
-        "url": "/analyses/gemeentelijke-investeringen/",
-        "sourcePublicationDate": "2025-12-31"
-      },
-      {
-        "slug": "gemeentelijke-investeringen-2026-02",
-        "label": "Februari 2026",
-        "date": "2026-03-19",
-        "summary": "Analyse van geplande gemeentelijke investeringen in Vlaanderen per beleidsdomein en subdomein op basis van meerjarenplannen (rapportjaren 2014, 2020 en 2026). Versie februari 2026.",
-        "url": "/analyses/gemeentelijke-investeringen-2026-02/"
-      }
-    ]
   },
   {
     "slug": "faillissementen",
@@ -168,19 +189,6 @@
     ],
     "sourcePublicationDate": "2026-05-22",
     "url": "/analyses/gip-projecten/"
-  },
-  {
-    "slug": "vastgoed-verkopen",
-    "title": "Verkoop van vastgoed in België",
-    "date": "2026-05-07",
-    "summary": "Analyse van vastgoedtransacties en prijzen per type woning, regio en provincie.",
-    "tags": [
-      "vastgoed",
-      "woningmarkt",
-      "prijzen"
-    ],
-    "sourcePublicationDate": "2026-04-30",
-    "url": "/analyses/vastgoed-verkopen/"
   },
   {
     "slug": "fin-indicatoren",

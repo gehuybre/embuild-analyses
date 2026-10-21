@@ -2,6 +2,7 @@
 
 import { useMemo } from "react"
 import { useSearchParams } from "next/navigation"
+import { InvesteringenYearlySection } from "@embuild/shared/components/shared/InvesteringenYearlySection"
 import { InvesteringenEmbed } from "@/components/InvesteringenEmbed"
 import { InvesteringenBVIndexedSection } from "@/components/InvesteringenBVIndexedSection"
 import { InvesteringenBVDifferenceSection } from "@/components/InvesteringenBVDifferenceSection"
@@ -29,6 +30,10 @@ export function GemeentelijkeInvesteringenEmbedRouteClient({ section }: { sectio
   const viewType = useMemo(() => {
     return parseViewType(prefixedParam(searchParams, "view"))
   }, [searchParams])
+
+  if (section === "investments-bv-yearly") {
+    return <InvesteringenYearlySection slug={SLUG} viewType={viewType} />
+  }
 
   if (section === "investments-bv-indexed") {
     return <InvesteringenBVIndexedSection viewType={viewType} />

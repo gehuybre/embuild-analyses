@@ -85,6 +85,37 @@ python -m unittest discover -s tests -p test_convert_project_update.py
 | vergunningen-goedkeuringen | Vergunningen goedkeuringen | 3087 | MDX |
 <!-- /AUTO:apps-table -->
 
+## Gemeentelijke investeringen per boekjaar
+
+De [versie oktober 2026](apps/gemeentelijke-investeringen-2026-10/README.md)
+voegt vergelijkingen met jaarrekeningen en origineel beginkrediet toe, op basis
+van de volledige economische exports met dezelfde bouwscope. De nieuwe
+BV-export is afgekapt en niet op bouw te filteren; die wordt niet gebruikt.
+Het portaal toont de versies via een dropdown, met oktober als standaard.
+
+De apps `gemeentelijke-investeringen` (mei) en `gemeentelijke-investeringen-2026-09`
+(september) tonen elk een jaargrafiek voor heel Vlaanderen, met tabel, CSV-export
+en embed via `investments-bv-yearly`. De gedeelde component
+[InvesteringenYearlySection](packages/embuild-shared/src/components/shared/InvesteringenYearlySection.tsx)
+leest per app `public/data/bv_yearly_totals.json`.
+
+De bestaande `scripts/prepare_visualizations.py` van elke app genereert dat bestand
+uit de eigen `investments_bv.parquet`: som van `Totaal` over gemeenten en
+beleidsvelden, per `Boekjaar`. Alleen boekjaren binnen het bijbehorende rapportjaar
+tellen mee: 2014-2019 uit plan 2014, 2020-2025 uit plan 2020 en 2026-2031 uit
+plan 2026. Overlappende jaren uit andere plannen en boekjaren na 2031 worden dus
+niet opgeteld. Dit zijn geplande uitgaven binnen de bestaande BV-scope, geen
+gerealiseerde investeringen of bijkomend voor inflatie gecorrigeerde bedragen.
+De twee bronversies worden niet vermengd. Ontbrekende boekjaren geven een
+validatiefout in plaats van een misleidend nulbedrag.
+
+Validatie vanuit `analyses/`, met de bestaande pandas/parquet-omgeving:
+
+```bash
+python -m unittest discover -s tests -p test_investeringen_yearly.py
+pnpm --filter gemeentelijke-investeringen --filter gemeentelijke-investeringen-2026-09 typecheck
+```
+
 ## Shared package
 
 `@embuild/shared` (`packages/embuild-shared/`) exports UI primitives, analysis components, and utilities.

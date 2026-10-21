@@ -11,6 +11,7 @@ import { InvesteringenBVCategorySection } from "./InvesteringenBVCategorySection
 import { InvesteringenREKCategorySection } from "./InvesteringenREKCategorySection"
 import { DeferredSection } from "./DeferredSection"
 import { VersionNotice } from "./VersionNotice"
+import { InvesteringenYearlySection } from "@embuild/shared/components/shared/InvesteringenYearlySection"
 
 export function InvesteringenDashboard() {
   return (
@@ -43,6 +44,10 @@ export function InvesteringenDashboard() {
             <div className="text-2xl font-bold">BV & REK</div>
           </CardContent>
         </Card>
+      </div>
+
+      <div id="investments-bv-yearly" className="scroll-mt-20">
+        <InvesteringenYearlySection slug="gemeentelijke-investeringen" />
       </div>
 
       <div id="investments-bv" className="scroll-mt-20">

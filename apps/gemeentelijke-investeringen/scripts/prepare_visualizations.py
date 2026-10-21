@@ -380,6 +380,21 @@ def normalize_merged_nis_codes(df):
     normalized['NIS_code'] = normalized['NIS_code'].astype(str).replace(NIS_MERGERS_LOOKUP)
     return normalized
 
+def build_bv_yearly_totals(df):
+    """Sum planned BV expenditure per book year within its own six-year plan."""
+    yearly = (
+        aggregate_by_rapportjaar(df, ['Boekjaar'], value_cols=['Totaal'])
+        .groupby(['Rapportjaar', 'Boekjaar'])['Totaal']
+        .sum()
+        .reset_index()
+        .sort_values('Boekjaar')
+    )
+    if yearly['Boekjaar'].tolist() != list(range(2014, 2032)):
+        raise ValueError('BV yearly totals must cover every book year from 2014 to 2031')
+    if not np.isfinite(yearly['Totaal']).all():
+        raise ValueError('BV yearly totals contain non-finite amounts')
+    return yearly.to_dict('records')
+
 def build_rek_category_top_summary(df, metric):
     """
     Build top-9 + other summaries for the REK category breakdown.
@@ -565,6 +580,7 @@ def prepare_bv_data():
 
     return {
         'lookups': lookups,
+        'yearly_totals': build_bv_yearly_totals(df),
         'domain_all_summary': domain_all_summary,
         'municipality_data': muni_data,
         'domain_summary': domain_summary,
@@ -666,6 +682,7 @@ def main():
 
     # Prepare BV data
     bv_results = prepare_bv_data()
+    save_json(bv_results['yearly_totals'], 'bv_yearly_totals.json')
     save_json(bv_results['lookups'], 'bv_lookups.json')
     # Also save lookups to internal results dir for nisUtils.ts imports
     save_json(bv_results['lookups'], RESULTS_INTERNAL_DIR / 'bv_lookups.json')

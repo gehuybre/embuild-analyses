@@ -1,0 +1,237 @@
+{
+  "version": "oktober 2026",
+  "source_url": "https://lokaalbestuur.vlaanderen.be/financien/bbc-dr/gemeente-financien",
+  "unit": "euro",
+  "price_basis": "Bedragen uit de bron, zonder bijkomende inflatiecorrectie",
+  "scope": {
+    "I.1.B.1.a": "Terreinen en gebouwen",
+    "I.1.B.1.b": "Wegen en overige infrastructuur",
+    "I.1.B.1.e": "Erfgoed",
+    "I.1.B.2.a": "Onroerende goederen",
+    "I.1.D": "Toegestane investeringssubsidies"
+  },
+  "warnings": [
+    "De BV-exports zijn niet gebruikt: economische rekeningcodes ontbreken, zodat de bouwscope niet kan worden gefilterd. De recente BV-export is bovendien afgekapt op 150.000 rijen.",
+    "De meest recente plannen kunnen voor verstreken jaren al zijn aangepast aan de jaarrekening. De vergelijking is geen meting van de uitvoering van het oorspronkelijke plan.",
+    "Waarden van nul of lager per economische rekening worden weggelaten, conform de eerdere REK-verwerking. Dit is dus geen netto saldo inclusief negatieve boekingen.",
+    "Boekjaar 2019: verschillende of onvolledige gemeentelijke dekking (latest: 283, original: 285, actual: 284). Totalen zijn niet gecorrigeerd voor ontbrekende besturen."
+  ],
+  "rows": [
+    {
+      "Boekjaar": 2014,
+      "Rapportjaar": 2014,
+      "latest": 1584301038.13,
+      "original": 2992082691.91,
+      "actual": 1584506308.21,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2015,
+      "Rapportjaar": 2014,
+      "latest": 1595769475.45,
+      "original": 2351228517.67,
+      "actual": 1633944747.52,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2016,
+      "Rapportjaar": 2014,
+      "latest": 1518210012.84,
+      "original": 2037496452.67,
+      "actual": 1518239689.15,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2017,
+      "Rapportjaar": 2014,
+      "latest": 2490215839.51,
+      "original": 1561486277.35,
+      "actual": 1799935489.07,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2018,
+      "Rapportjaar": 2014,
+      "latest": 3656836414.95,
+      "original": 1192980159.15,
+      "actual": 2191632802.05,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2019,
+      "Rapportjaar": 2014,
+      "latest": 2836656503.96,
+      "original": 904474070.83,
+      "actual": 1998086537.74,
+      "municipalities": {
+        "latest": 283,
+        "original": 285,
+        "actual": 284
+      }
+    },
+    {
+      "Boekjaar": 2020,
+      "Rapportjaar": 2020,
+      "latest": 1790390961.66,
+      "original": 3279711025.76,
+      "actual": 1790390961.66,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2021,
+      "Rapportjaar": 2020,
+      "latest": 1849538425.47,
+      "original": 2665153605.06,
+      "actual": 1849538425.47,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2022,
+      "Rapportjaar": 2020,
+      "latest": 2089392779.44,
+      "original": 2321531760.97,
+      "actual": 2089392779.44,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2023,
+      "Rapportjaar": 2020,
+      "latest": 2409573761.3,
+      "original": 2005248722.11,
+      "actual": 2409523780.6,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2024,
+      "Rapportjaar": 2020,
+      "latest": 2931808809.65,
+      "original": 1579393101.7,
+      "actual": 2663240076.54,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2025,
+      "Rapportjaar": 2020,
+      "latest": 4936833190.67,
+      "original": 1201527580.54,
+      "actual": 2582489967.44,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": 285
+      }
+    },
+    {
+      "Boekjaar": 2026,
+      "Rapportjaar": 2026,
+      "latest": 4747800060.75,
+      "original": 3465525196.93,
+      "actual": null,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": null
+      }
+    },
+    {
+      "Boekjaar": 2027,
+      "Rapportjaar": 2026,
+      "latest": 3368467220.32,
+      "original": 3317124181.64,
+      "actual": null,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": null
+      }
+    },
+    {
+      "Boekjaar": 2028,
+      "Rapportjaar": 2026,
+      "latest": 2855144540.16,
+      "original": 2804167189.78,
+      "actual": null,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": null
+      }
+    },
+    {
+      "Boekjaar": 2029,
+      "Rapportjaar": 2026,
+      "latest": 2271271694.86,
+      "original": 2248563123.19,
+      "actual": null,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": null
+      }
+    },
+    {
+      "Boekjaar": 2030,
+      "Rapportjaar": 2026,
+      "latest": 1758429671.61,
+      "original": 1750216605.66,
+      "actual": null,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": null
+      }
+    },
+    {
+      "Boekjaar": 2031,
+      "Rapportjaar": 2026,
+      "latest": 1407695560.45,
+      "original": 1402436958.16,
+      "actual": null,
+      "municipalities": {
+        "latest": 285,
+        "original": 285,
+        "actual": null
+      }
+    }
+  ]
+}

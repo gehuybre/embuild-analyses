@@ -398,6 +398,12 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
   {
     slug: "gemeentelijke-investeringen",
     sections: {
+      "investments-bv-yearly": {
+        type: "custom",
+        title: "Geplande investeringen per boekjaar (2014-2031)",
+        component: "InvesteringenYearlySection",
+        height: 800,
+      },
       "investments-bv": {
         type: "custom",
         title: "Investeringen per beleidsdomein",
@@ -457,6 +463,12 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
   {
     slug: "gemeentelijke-investeringen-2026-09",
     sections: {
+      "investments-bv-yearly": {
+        type: "custom",
+        title: "Geplande investeringen per boekjaar (2014-2031)",
+        component: "InvesteringenYearlySection",
+        height: 800,
+      },
       "investments-bv": {
         type: "custom",
         title: "Investeringen per beleidsdomein",
@@ -510,6 +522,29 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         title: "Gemeentelijke Investeringen per Rekening - Verdeling",
         component: "InvesteringenREKScatterEmbed",
         height: 800,
+      },
+    },
+  },
+  {
+    slug: "gemeentelijke-investeringen-2026-10",
+    sections: {
+      "investments-yearly-actual": {
+        type: "custom",
+        title: "Geplande en werkelijke bouwinvesteringen per boekjaar",
+        component: "OctoberComparison",
+        height: 900,
+      },
+      "investments-yearly-original": {
+        type: "custom",
+        title: "Origineel beginkrediet per boekjaar",
+        component: "OctoberComparison",
+        height: 900,
+      },
+      "investments-yearly-latest": {
+        type: "custom",
+        title: "Meest recente plan per boekjaar",
+        component: "OctoberComparison",
+        height: 900,
       },
     },
   },

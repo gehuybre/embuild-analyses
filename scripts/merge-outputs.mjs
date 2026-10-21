@@ -39,6 +39,7 @@ const PORTAL_INPUTS = [
   PORTAL_ANALYSES_JSON,
   join(PORTAL_DIR, "src", "app", "page.tsx"),
   join(PORTAL_DIR, "src", "app", "layout.tsx"),
+  join(PORTAL_DIR, "src", "components", "AnalysisCard.tsx"),
 ]
 
 function run(command, args) {

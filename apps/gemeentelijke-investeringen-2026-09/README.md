@@ -1,12 +1,13 @@
 # Gemeentelijke investeringen, versie september 2026
 
-Aparte versie van [gemeentelijke-investeringen](../gemeentelijke-investeringen/) (versie mei 2026), die onaangeroerd blijft.
+Aparte bronversie van [gemeentelijke-investeringen](../gemeentelijke-investeringen/) (versie mei 2026).
+De brongegevens van beide versies blijven gescheiden; de jaargrafiek is in beide apps beschikbaar.
 Beide versies staan naast elkaar op de site en in het portaal (versiekiezer op de kaart, zie
 `scripts/analysis-versions.json`).
 
 - Pagina: `/analyses/gemeentelijke-investeringen-2026-09/`
 - Embeds: `/analyses/gemeentelijke-investeringen-2026-09/embed/gemeentelijke-investeringen-2026-09/<sectie>/`
-  (dezelfde negen secties als de vorige versie, geregistreerd in `embed-config.ts`)
+  (dezelfde tien secties als de vorige versie, geregistreerd in `embed-config.ts`)
 - Bestaande embeds van de vorige versie blijven ongewijzigd werken.
 
 ## Brongegevens
@@ -42,8 +43,16 @@ python3 scripts/compare_with_previous_version.py   # controle t.o.v. de vorige v
 ```
 
 `process_investments.py` sommeert over Niveau 8, laat cellen met netto uitgave van 0 of minder weg en past gemeentefusies
-toe (enkel rapportjaar 2026), met dezelfde semantiek als de vorige versie. De bedragen zijn geindexeerd naar
-prijspeil september 2026.
+toe (enkel rapportjaar 2026), met dezelfde semantiek als de vorige versie.
+De afzonderlijke grafiek met geindexeerde bedragen gebruikt prijspeil september 2026.
+
+De nieuwe sectie `investments-bv-yearly` toont de geplande BV-uitgaven per boekjaar
+2014-2031 voor heel Vlaanderen, zonder bijkomende inflatiecorrectie. De verwerking
+schrijft `public/data/bv_yearly_totals.json` uit dezelfde parquet, maar behoudt de
+boekjaren in plaats van ze op te tellen tot plantotalen. Elk boekjaar komt alleen
+uit het bijbehorende zesjarige plan; overlappende jaren en jaren na 2031 tellen
+niet mee. Grafiek, tabel, CSV en embed gebruiken dezelfde jaartotalen.
+Zie de [gedeelde documentatie en tests](../../README.md#gemeentelijke-investeringen-per-boekjaar).
 
 ## Verschillen met de vorige versie (controle)
 
