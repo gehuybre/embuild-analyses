@@ -3,9 +3,7 @@
 import * as React from "react"
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from "recharts"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
-import { Label } from "@embuild/shared/components/ui/label"
 import { Button } from "@embuild/shared/components/ui/button"
-import { Input } from "@embuild/shared/components/ui/input"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
 import {
   Command,
@@ -18,7 +16,8 @@ import {
 } from "@embuild/shared/components/ui/command"
 import { Popover, PopoverContent, PopoverTrigger } from "@embuild/shared/components/ui/popover"
 import { cn } from "@embuild/shared/lib/utils"
-import { Calculator, Check, ChevronsUpDown } from "lucide-react"
+import { Check, ChevronsUpDown } from "lucide-react"
+import { PriceRevisionCalculator } from "./PriceRevisionCalculator"
 import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
 import { CHART_SERIES_COLORS, CHART_THEME } from "@embuild/shared/lib/chart-theme"
 import { createYAxisLabelConfig } from "@embuild/shared/lib/number-formatters"
@@ -128,16 +127,6 @@ export function PrijsherzieningDashboard() {
 
   const [currentView, setCurrentView] = React.useState<"chart" | "table">("chart")
 
-  // Price revision calculator state
-  const [initialPrice, setInitialPrice] = React.useState<string>("100000")
-  const [initialLaborIndex, setInitialLaborIndex] = React.useState<string>("")
-  const [currentLaborIndex, setCurrentLaborIndex] = React.useState<string>("")
-  const [initialMaterialIndex, setInitialMaterialIndex] = React.useState<string>("")
-  const [currentMaterialIndex, setCurrentMaterialIndex] = React.useState<string>("")
-  const [laborShare, setLaborShare] = React.useState<string>("0.40")
-  const [materialShare, setMaterialShare] = React.useState<string>("0.40")
-  const [fixedShare, setFixedShare] = React.useState<string>("0.20")
-
   const toggleComponent = (component: string) => {
     setSelectedComponents((prev) => {
       const next = new Set(prev)
@@ -241,36 +230,6 @@ export function PrijsherzieningDashboard() {
 
     return latest
   }, [monthlyData])
-
-  // Calculate revised price
-  const calculateRevisedPrice = () => {
-    const P0 = parseFloat(initialPrice)
-    const S = parseFloat(initialLaborIndex)
-    const s = parseFloat(currentLaborIndex)
-    const I = parseFloat(initialMaterialIndex)
-    const i = parseFloat(currentMaterialIndex)
-    const lShare = parseFloat(laborShare)
-    const mShare = parseFloat(materialShare)
-    const fShare = parseFloat(fixedShare)
-
-    if (isNaN(P0) || isNaN(S) || isNaN(s) || isNaN(I) || isNaN(i) || isNaN(lShare) || isNaN(mShare) || isNaN(fShare)) {
-      return null
-    }
-
-    // P = P₀ × (lShare × s/S + mShare × i/I + fShare)
-    // Officiële formule met aparte indices voor lonen en materialen
-    const laborRatio = s / S
-    const materialRatio = i / I
-    const P = P0 * (lShare * laborRatio + mShare * materialRatio + fShare)
-
-    return {
-      revisedPrice: P,
-      increase: P - P0,
-      percentageIncrease: ((P - P0) / P0) * 100,
-    }
-  }
-
-  const revisedPriceResult = calculateRevisedPrice()
 
   // Calculate year-over-year changes for each component
   const componentChanges = React.useMemo(() => {
@@ -588,151 +547,7 @@ export function PrijsherzieningDashboard() {
         </Tabs>
       </div>
 
-      {/* Price revision calculator */}
-      <Card>
-        <CardHeader>
-          <CardTitle className="flex items-center gap-2">
-            <Calculator className="h-5 w-5" />
-            Prijsherzieningscalculator
-          </CardTitle>
-          <CardDescription>
-            Bereken de herziene contractprijs op basis van de prijsherzieningsformule
-          </CardDescription>
-        </CardHeader>
-        <CardContent>
-          <div className="space-y-4">
-            <div className="grid gap-4 md:grid-cols-1">
-              <div className="space-y-2">
-                <Label htmlFor="initialPrice">Initiële contractprijs (P₀)</Label>
-                <Input
-                  id="initialPrice"
-                  type="number"
-                  value={initialPrice}
-                  onChange={(e) => setInitialPrice(e.target.value)}
-                  placeholder="100000"
-                />
-              </div>
-            </div>
-
-            <div className="grid gap-4 md:grid-cols-2">
-              <div className="space-y-2">
-                <Label htmlFor="initialLaborIndex">Loonindex bij aanvang (S)</Label>
-                <Input
-                  id="initialLaborIndex"
-                  type="number"
-                  step="0.01"
-                  value={initialLaborIndex}
-                  onChange={(e) => setInitialLaborIndex(e.target.value)}
-                  placeholder="Bijv. 150.25"
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="currentLaborIndex">Huidige loonindex (s)</Label>
-                <Input
-                  id="currentLaborIndex"
-                  type="number"
-                  step="0.01"
-                  value={currentLaborIndex}
-                  onChange={(e) => setCurrentLaborIndex(e.target.value)}
-                  placeholder="Bijv. 165.80"
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="initialMaterialIndex">Materiaalprijsindex bij aanvang (I)</Label>
-                <Input
-                  id="initialMaterialIndex"
-                  type="number"
-                  step="0.01"
-                  value={initialMaterialIndex}
-                  onChange={(e) => setInitialMaterialIndex(e.target.value)}
-                  placeholder="Bijv. 142.50"
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="currentMaterialIndex">Huidige materiaalprijsindex (i)</Label>
-                <Input
-                  id="currentMaterialIndex"
-                  type="number"
-                  step="0.01"
-                  value={currentMaterialIndex}
-                  onChange={(e) => setCurrentMaterialIndex(e.target.value)}
-                  placeholder="Bijv. 158.30"
-                />
-              </div>
-            </div>
-
-            <div className="grid gap-4 md:grid-cols-3">
-              <div className="space-y-2">
-                <Label htmlFor="laborShare">Aandeel lonen</Label>
-                <Input
-                  id="laborShare"
-                  type="number"
-                  step="0.01"
-                  value={laborShare}
-                  onChange={(e) => setLaborShare(e.target.value)}
-                  placeholder="0.40"
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="materialShare">Aandeel materialen</Label>
-                <Input
-                  id="materialShare"
-                  type="number"
-                  step="0.01"
-                  value={materialShare}
-                  onChange={(e) => setMaterialShare(e.target.value)}
-                  placeholder="0.40"
-                />
-              </div>
-              <div className="space-y-2">
-                <Label htmlFor="fixedShare">Vast deel</Label>
-                <Input
-                  id="fixedShare"
-                  type="number"
-                  step="0.01"
-                  value={fixedShare}
-                  onChange={(e) => setFixedShare(e.target.value)}
-                  placeholder="0.20"
-                />
-              </div>
-            </div>
-
-            {revisedPriceResult && (
-              <div className="mt-6 p-4 bg-muted rounded-lg space-y-2">
-                <div className="flex justify-between items-center">
-                  <span className="font-medium">Herziene prijs (P):</span>
-                  <span className="text-2xl font-bold">
-                    € {revisedPriceResult.revisedPrice.toLocaleString("nl-BE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-                  </span>
-                </div>
-                <div className="flex justify-between items-center text-sm">
-                  <span className="text-muted-foreground">Verschil:</span>
-                  <span className={revisedPriceResult.increase >= 0 ? "text-red-600" : "text-green-600"}>
-                    {revisedPriceResult.increase >= 0 ? "+" : ""}€ {revisedPriceResult.increase.toLocaleString("nl-BE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-                    {" "}({revisedPriceResult.percentageIncrease >= 0 ? "+" : ""}{revisedPriceResult.percentageIncrease.toFixed(2)}%)
-                  </span>
-                </div>
-              </div>
-            )}
-
-            <div className="mt-4 p-4 bg-blue-50 border border-blue-200 rounded-lg text-sm">
-              <p className="font-medium mb-2">Formule:</p>
-              <p className="font-mono text-xs">
-                P = P₀ × ({laborShare} × s/S + {materialShare} × i/I + {fixedShare})
-              </p>
-              <p className="text-muted-foreground mt-2 text-xs">
-                Waarbij:
-              </p>
-              <ul className="text-muted-foreground text-xs list-disc list-inside mt-1 space-y-1">
-                <li><strong>s/S</strong> = verhouding loonindex (huidige/bij aanvang)</li>
-                <li><strong>i/I</strong> = verhouding materiaalprijsindex (huidige/bij aanvang)</li>
-                <li><strong>P₀</strong> = oorspronkelijke contractprijs</li>
-                <li><strong>P</strong> = herziene contractprijs</li>
-              </ul>
-            </div>
-          </div>
-        </CardContent>
-      </Card>
+      <PriceRevisionCalculator monthlyData={monthlyData} />
     </div>
   )
 }
