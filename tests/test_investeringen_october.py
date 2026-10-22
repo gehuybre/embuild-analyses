@@ -11,7 +11,7 @@ import pandas as pd
 from openpyxl import Workbook
 
 ROOT = Path(__file__).resolve().parents[1]
-APP = ROOT / "apps/gemeentelijke-investeringen-2026-10"
+APP = ROOT / "apps/gemeentelijke-investeringen/versions/2026-10"
 PUBLIC = APP / "public/data"
 SPEC = importlib.util.spec_from_file_location("october_data", APP / "scripts/build_october_data.py")
 PIPELINE = importlib.util.module_from_spec(SPEC)
@@ -186,7 +186,10 @@ class OctoberPublishedTests(unittest.TestCase):
 
     def test_october_default_and_portal_dropdown_wiring(self):
         groups = json.loads((ROOT / "scripts/analysis-versions.json").read_text())
-        self.assertEqual(groups["gemeentelijke-investeringen"]["default"], APP.name)
+        self.assertEqual(
+            groups["gemeentelijke-investeringen"]["default"],
+            "gemeentelijke-investeringen-2026-10",
+        )
         self.assertEqual(len(groups["gemeentelijke-investeringen"]["versions"]), 4)
         card = (ROOT / "apps/portal/src/components/AnalysisCard.tsx").read_text()
         self.assertIn("<select", card)

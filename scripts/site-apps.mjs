@@ -1,7 +1,6 @@
-import { existsSync, readFileSync } from "node:fs"
+import { readFileSync } from "node:fs"
 import { join } from "node:path"
-
-const APPS_DIR = join(import.meta.dirname, "..", "apps")
+import { resolveApp } from "./app-registry.mjs"
 
 /**
  * Apps met `"publishToSite": false` in hun package.json staan niet op de gedeelde Cloudflare-site
@@ -9,7 +8,8 @@ const APPS_DIR = join(import.meta.dirname, "..", "apps")
  * wel apart gepubliceerd worden.
  */
 export function isPublishedToSite(slug) {
-  const pkgPath = join(APPS_DIR, slug, "package.json")
-  if (!existsSync(pkgPath)) return true
+  const app = resolveApp(slug)
+  if (!app) return false
+  const pkgPath = join(app.dir, "package.json")
   return JSON.parse(readFileSync(pkgPath, "utf-8")).publishToSite !== false
 }

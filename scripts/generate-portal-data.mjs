@@ -12,8 +12,8 @@
 import { readdirSync, readFileSync, writeFileSync, existsSync } from "node:fs"
 import { join } from "node:path"
 import { isPublishedToSite } from "./site-apps.mjs"
+import { discoverAppPackages, ROOT } from "./app-registry.mjs"
 
-const ROOT = join(import.meta.dirname, "..")
 const APPS_DIR = join(ROOT, "apps")
 const OUTPUT = join(APPS_DIR, "portal", "public", "analyses.json")
 const VERSIONS_CONFIG = join(import.meta.dirname, "analysis-versions.json")
@@ -43,10 +43,10 @@ function extractSourcePublicationDate(source) {
 
 const entries = []
 
-for (const slug of readdirSync(APPS_DIR).sort()) {
+for (const { slug, dir } of discoverAppPackages()) {
   if (slug === "portal") continue
   if (!isPublishedToSite(slug)) continue
-  const pagePath = join(APPS_DIR, slug, "src", "app", "page.tsx")
+  const pagePath = join(dir, "src", "app", "page.tsx")
   if (!existsSync(pagePath)) continue
 
   const source = readFileSync(pagePath, "utf-8")

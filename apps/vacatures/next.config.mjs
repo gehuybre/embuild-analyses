@@ -1,4 +1,4 @@
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/analyses/vacatures';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '/analyses/vacatures';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

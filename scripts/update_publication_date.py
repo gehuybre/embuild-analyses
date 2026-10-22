@@ -2,6 +2,7 @@
 """Scrape publication date from Statbel pages and update analysis metadata files."""
 
 import argparse
+import json
 import re
 import sys
 from datetime import datetime
@@ -180,8 +181,28 @@ def main():
     # Find metadata files
     script_dir = Path(__file__).parent
     repo_root = script_dir.parent
-    mdx_path = repo_root / 'apps' / args.analysis_slug / 'content.mdx'
-    page_path = repo_root / 'apps' / args.analysis_slug / 'src' / 'app' / 'page.tsx'
+    apps_dir = repo_root / 'apps'
+    app_roots = []
+    for family_dir in apps_dir.iterdir():
+        if not family_dir.is_dir():
+            continue
+        app_roots.append(family_dir)
+        versions_dir = family_dir / 'versions'
+        if versions_dir.is_dir():
+            app_roots.extend(path for path in versions_dir.iterdir() if path.is_dir())
+    app_root = next(
+        (
+            root for root in app_roots
+            if (root / 'package.json').is_file()
+            and json.loads((root / 'package.json').read_text(encoding='utf-8')).get('name') == args.analysis_slug
+        ),
+        None,
+    )
+    if app_root is None:
+        print(f"No app package found for {args.analysis_slug}")
+        sys.exit(1)
+    mdx_path = app_root / 'content.mdx'
+    page_path = app_root / 'src' / 'app' / 'page.tsx'
 
     if not mdx_path.exists() and not page_path.exists():
         print(f"No metadata files found for {args.analysis_slug}")

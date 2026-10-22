@@ -12,10 +12,14 @@ on:
       - "pnpm-workspace.yaml"
       - "turbo.json"
       - "scripts/build-apps.mjs"
+      - "scripts/build-standalone-app.mjs"
+      - "scripts/build-standalone-apps.mjs"
+      - "scripts/app-registry.mjs"
       - "scripts/detect-changed-apps.mjs"
       - "scripts/merge-outputs.mjs"
       - "scripts/generate-portal-data.mjs"
       - "scripts/analysis-versions.json"
+      - "scripts/site-apps.mjs"
       - ".github/workflows/deploy.yml"
   workflow_dispatch:
     inputs:
@@ -37,8 +41,11 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       all_apps: ${{ steps.detect.outputs.all_apps }}
+      all_standalone_apps: ${{ steps.detect.outputs.all_standalone_apps }}
       changed_apps: ${{ steps.detect.outputs.changed_apps }}
+      changed_standalone_apps: ${{ steps.detect.outputs.changed_standalone_apps }}
       changed_count: ${{ steps.detect.outputs.changed_count }}
+      changed_standalone_count: ${{ steps.detect.outputs.changed_standalone_count }}
       reason: ${{ steps.detect.outputs.reason }}
     steps:
       - name: Checkout
@@ -111,6 +118,9 @@ jobs:
       - name: Merge outputs
         run: node scripts/merge-outputs.mjs
 
+      - name: Build standalone versions for changed analyses
+        run: node scripts/build-standalone-apps.mjs --apps-json '${{ needs.detect.outputs.changed_standalone_apps }}'
+
       - name: Remove files exceeding CF Pages 25MB limit
         run: |
           find dist -size +25M -print -delete
@@ -121,6 +131,13 @@ jobs:
           name: dist
           path: dist/
           retention-days: 1
+
+      - name: Upload standalone builds with Cloudflare README files
+        uses: actions/upload-artifact@v4
+        with:
+          name: dist-standalone
+          path: dist-standalone/
+          retention-days: 7
 
   deploy:
     needs: build

@@ -1,12 +1,9 @@
 #!/usr/bin/env node
 
-import { appendFileSync, existsSync, readdirSync } from "node:fs"
+import { appendFileSync } from "node:fs"
 import { spawnSync } from "node:child_process"
-import { join } from "node:path"
+import { appsForChangedPath, discoverAppPackages, ROOT } from "./app-registry.mjs"
 import { isPublishedToSite } from "./site-apps.mjs"
-
-const ROOT = join(import.meta.dirname, "..")
-const APPS_DIR = join(ROOT, "apps")
 const ZERO_SHA = "0000000000000000000000000000000000000000"
 const ROOT_WIDE_PATHS = new Set([
   "package.json",
@@ -34,9 +31,16 @@ function parseArgs(argv) {
 }
 
 function discoverApps() {
-  return readdirSync(APPS_DIR)
-    .filter((slug) => existsSync(join(APPS_DIR, slug, "package.json")))
+  return discoverAppPackages()
+    .map(({ slug }) => slug)
     .filter(isPublishedToSite)
+    .sort()
+}
+
+function discoverStandaloneApps() {
+  return discoverAppPackages()
+    .map(({ slug }) => slug)
+    .filter((slug) => slug !== "portal")
     .sort()
 }
 
@@ -105,8 +109,10 @@ function main() {
   const eventName = args["event-name"]?.trim() || ""
   const outputPath = args.output?.trim()
   const allApps = discoverApps()
+  const allStandaloneApps = discoverStandaloneApps()
   const requestedApps = parseRequestedApps(args.apps, allApps)
   const changedApps = new Set()
+  const changedStandaloneApps = new Set()
   let changedFiles = []
   let reason = ""
 
@@ -114,11 +120,8 @@ function main() {
     for (const slug of allApps) {
       changedApps.add(slug)
     }
-  }
-
-  const addSlug = (slug) => {
-    if (allApps.includes(slug)) {
-      changedApps.add(slug)
+    for (const slug of allStandaloneApps) {
+      changedStandaloneApps.add(slug)
     }
   }
 
@@ -126,6 +129,7 @@ function main() {
     reason = `Explicit app selection requested: ${requestedApps.join(", ")}.`
     for (const slug of requestedApps) {
       changedApps.add(slug)
+      if (allStandaloneApps.includes(slug)) changedStandaloneApps.add(slug)
     }
   } else if (eventName === "workflow_dispatch") {
     reason = "Manual dispatch rebuilds all apps."
@@ -146,18 +150,25 @@ function main() {
       }
 
       if (file.startsWith("apps/")) {
-        const [, slug] = file.split("/", 3)
-        addSlug(slug)
+        for (const slug of appsForChangedPath(file)) {
+          if (allApps.includes(slug)) changedApps.add(slug)
+          if (allStandaloneApps.includes(slug)) changedStandaloneApps.add(slug)
+        }
         continue
       }
 
       if (file === "scripts/generate-portal-data.mjs" || file === "scripts/analysis-versions.json") {
-        addSlug("portal")
+        if (allApps.includes("portal")) changedApps.add("portal")
         continue
       }
 
       if (file === "scripts/update_vergunningen_goedkeuringen_content.py") {
-        addSlug("vergunningen-goedkeuringen")
+        if (allApps.includes("vergunningen-goedkeuringen")) {
+          changedApps.add("vergunningen-goedkeuringen")
+        }
+        if (allStandaloneApps.includes("vergunningen-goedkeuringen")) {
+          changedStandaloneApps.add("vergunningen-goedkeuringen")
+        }
         continue
       }
 
@@ -176,15 +187,24 @@ function main() {
   }
 
   const changedAppsList = [...changedApps].sort()
+  const changedStandaloneAppsList = [...changedStandaloneApps].sort()
   const allAppsJson = JSON.stringify(allApps)
+  const allStandaloneAppsJson = JSON.stringify(allStandaloneApps)
   const changedAppsJson = JSON.stringify(changedAppsList)
+  const changedStandaloneAppsJson = JSON.stringify(changedStandaloneAppsList)
 
   console.log(reason)
   console.log(`All apps (${allApps.length}): ${allApps.join(", ")}`)
+  console.log(`Standalone-eligible apps (${allStandaloneApps.length}): ${allStandaloneApps.join(", ")}`)
   console.log(
     changedAppsList.length
       ? `Apps to build (${changedAppsList.length}): ${changedAppsList.join(", ")}`
       : "Apps to build: none"
+  )
+  console.log(
+    changedStandaloneAppsList.length
+      ? `Standalone apps to build (${changedStandaloneAppsList.length}): ${changedStandaloneAppsList.join(", ")}`
+      : "Standalone apps to build: none"
   )
 
   if (changedFiles.length) {
@@ -195,8 +215,11 @@ function main() {
   }
 
   writeOutput(outputPath, "all_apps", allAppsJson)
+  writeOutput(outputPath, "all_standalone_apps", allStandaloneAppsJson)
   writeOutput(outputPath, "changed_apps", changedAppsJson)
+  writeOutput(outputPath, "changed_standalone_apps", changedStandaloneAppsJson)
   writeOutput(outputPath, "changed_count", String(changedAppsList.length))
+  writeOutput(outputPath, "changed_standalone_count", String(changedStandaloneAppsList.length))
   writeOutput(outputPath, "reason", reason)
 }
 

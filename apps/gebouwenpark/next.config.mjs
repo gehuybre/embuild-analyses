@@ -1,6 +1,6 @@
 import createMDX from '@next/mdx'
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/analyses/gebouwenpark';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '/analyses/gebouwenpark';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

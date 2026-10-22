@@ -1,0 +1,36 @@
+{
+  "version": "2026-02",
+  "files": {
+    "BV januari 2026 (verwerkt, zoals gepubliceerd).parquet": {
+      "sha256": "f76d4df98cc49b1bcb251ac598f3750d5d61792221c4eb229be50dfb8704b51d",
+      "size_bytes": 752353
+    },
+    "CPI All base years.txt": {
+      "sha256": "5ffe703cb576f1abca4a9778ce4c6ad0acb276ad7a3deee3fd093f23a39cd12c",
+      "size_bytes": 647448
+    },
+    "MJP BV 2014 MVA.csv": {
+      "sha256": "72681614af613b6d58d2c915eac562436954750a8aca803821d75f4b0c0e909f",
+      "size_bytes": 933533
+    },
+    "MJP BV 2020 MVA.csv": {
+      "sha256": "6d6da6a0b50519814f17e84f26a98780b65eedb4ea68cbe73a9e97b3ad33a4c8",
+      "size_bytes": 941951
+    },
+    "MJP BV 2026 MVA.csv": {
+      "sha256": "81b4de244d2cc1b3419a3fcc8927392d72aa33ca7d579a3e70534031c8564021",
+      "size_bytes": 885915
+    },
+    "REK januari 2026 (verwerkt, 14 jan).parquet": {
+      "sha256": "30dceec21006c9a8da17b333e21ec2a864a6fb4f8f749b02a2eb9a214e4b534e",
+      "size_bytes": 809627
+    }
+  },
+  "archived_at_utc": "2026-10-22T06:49:37.268845+00:00",
+  "metadata": {
+    "export_date": null,
+    "source": null,
+    "filters": [],
+    "notes": null
+  }
+}

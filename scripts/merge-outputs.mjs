@@ -23,12 +23,12 @@
  *   node scripts/merge-outputs.mjs
  */
 
-import { readdirSync, cpSync, existsSync, rmSync, mkdirSync, statSync } from "node:fs"
+import { cpSync, existsSync, rmSync, mkdirSync, readdirSync, statSync } from "node:fs"
 import { spawnSync } from "node:child_process"
 import { join } from "node:path"
 import { isPublishedToSite } from "./site-apps.mjs"
+import { discoverAppPackages, resolveApp, ROOT } from "./app-registry.mjs"
 
-const ROOT = join(import.meta.dirname, "..")
 const APPS_DIR = join(ROOT, "apps")
 const DIST = join(ROOT, "dist")
 const PORTAL_DIR = join(APPS_DIR, "portal")
@@ -94,13 +94,14 @@ const analysesDir = join(DIST, "analyses")
 mkdirSync(analysesDir, { recursive: true })
 
 let count = 0
-for (const slug of readdirSync(APPS_DIR).sort()) {
+for (const { slug } of discoverAppPackages()) {
   if (slug === "portal") continue
   if (!isPublishedToSite(slug)) {
     console.log(`- ${slug} staat niet op de site (publishToSite: false) — skipping`)
     continue
   }
-  const appOut = join(APPS_DIR, slug, "out")
+  const app = resolveApp(slug)
+  const appOut = join(app.dir, "out")
   if (!existsSync(appOut)) {
     console.warn(`⚠ ${slug} has no out/ directory — skipping`)
     continue

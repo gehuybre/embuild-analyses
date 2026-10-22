@@ -1,6 +1,6 @@
 import createMDX from '@next/mdx'
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/analyses/prijsherziening-index-i-2021';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '/analyses/prijsherziening-index-i-2021';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

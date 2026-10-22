@@ -18,7 +18,8 @@ jobs:
     runs-on: ubuntu-latest
     env:
       ANALYSIS_SLUG: gemeentelijke-investeringen
-      APP_ROOT: apps/gemeentelijke-investeringen
+      APP_ROOT: apps/gemeentelijke-investeringen/versions/2026-05
+      SOURCE_ROOT: data/gemeentelijke-investeringen/versions/2026-05/raw
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -47,16 +48,16 @@ jobs:
             "mjp rek 2020.csv" \
             "mjp rek 2026.csv"
           do
-            if [ ! -f "${APP_ROOT}/data/${f}" ]; then
-              echo "::notice::Missing raw input: ${APP_ROOT}/data/${f}"
+            if [ ! -f "${SOURCE_ROOT}/${f}" ]; then
+              echo "::notice::Missing raw input: ${SOURCE_ROOT}/${f}"
               missing=1
             fi
           done
 
-          if [ ! -f "${APP_ROOT}/data/MJP BV 2026-05 MVA.csv" ] && \
-             [ ! -f "${APP_ROOT}/data/MJP BV 2026-05.xlsx" ] && \
-             [ ! -f "${APP_ROOT}/data/MJP BV 2026 MVA.csv" ]; then
-            echo "::notice::Missing raw input: ${APP_ROOT}/data/MJP BV 2026-05 MVA.csv, ${APP_ROOT}/data/MJP BV 2026-05.xlsx or ${APP_ROOT}/data/MJP BV 2026 MVA.csv"
+          if [ ! -f "${SOURCE_ROOT}/MJP BV 2026-05 MVA.csv" ] && \
+             [ ! -f "${SOURCE_ROOT}/MJP BV 2026-05.xlsx" ] && \
+             [ ! -f "${SOURCE_ROOT}/MJP BV 2026 MVA.csv" ]; then
+            echo "::notice::Missing raw input: ${SOURCE_ROOT}/MJP BV 2026-05 MVA.csv, ${SOURCE_ROOT}/MJP BV 2026-05.xlsx or ${SOURCE_ROOT}/MJP BV 2026 MVA.csv"
             missing=1
           fi
 

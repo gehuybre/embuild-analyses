@@ -5,7 +5,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 SLUG = "bouwprojecten-gemeenten-2026-09"
-APP = ROOT / "apps" / SLUG
+APP = ROOT / "apps/bouwprojecten-gemeenten/versions" / "2026-09"
 DATA = APP / "public/data"
 
 
@@ -75,7 +75,7 @@ class SeptemberProjectsTests(unittest.TestCase):
             self.assertRegex(entry["sha256"], r"^[a-f0-9]{64}$")
 
     def test_previous_version_retained_and_portal_grouped(self):
-        previous = read_json(ROOT / "apps/bouwprojecten-gemeenten/public/data/projects_metadata.json")
+        previous = read_json(ROOT / "apps/bouwprojecten-gemeenten/versions/previous/public/data/projects_metadata.json")
         self.assertEqual(previous["total_projects"], 12251)
         self.assertEqual(previous["total_amount"], Decimal("18124920412.87"))
         portal = read_json(ROOT / "apps/portal/public/analyses.json")

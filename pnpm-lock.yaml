@@ -235,11 +235,11 @@ importers:
         specifier: ^5
         version: 5.9.3
 
-  apps/bouwprojecten-gemeenten:
+  apps/bouwprojecten-gemeenten/versions/2026-09:
     dependencies:
       '@embuild/shared':
         specifier: workspace:*
-        version: link:../../packages/embuild-shared
+        version: link:../../../../packages/embuild-shared
       '@next/mdx':
         specifier: ^14.2.13
         version: 14.2.35(@mdx-js/loader@3.1.1)(@mdx-js/react@3.1.1(@types/react@18.3.28)(react@18.3.1))
@@ -290,11 +290,11 @@ importers:
         specifier: ^5
         version: 5.9.3
 
-  apps/bouwprojecten-gemeenten-2026-09:
+  apps/bouwprojecten-gemeenten/versions/previous:
     dependencies:
       '@embuild/shared':
         specifier: workspace:*
-        version: link:../../packages/embuild-shared
+        version: link:../../../../packages/embuild-shared
       '@next/mdx':
         specifier: ^14.2.13
         version: 14.2.35(@mdx-js/loader@3.1.1)(@mdx-js/react@3.1.1(@types/react@18.3.28)(react@18.3.1))
@@ -620,11 +620,11 @@ importers:
         specifier: ^5
         version: 5.9.3
 
-  apps/gemeentelijke-investeringen:
+  apps/gemeentelijke-investeringen/versions/2026-02:
     dependencies:
       '@embuild/shared':
         specifier: workspace:*
-        version: link:../../packages/embuild-shared
+        version: link:../../../../packages/embuild-shared
       '@next/mdx':
         specifier: ^14.2.13
         version: 14.2.35(@mdx-js/loader@3.1.1)(@mdx-js/react@3.1.1(@types/react@18.3.28)(react@18.3.1))
@@ -675,11 +675,11 @@ importers:
         specifier: ^5
         version: 5.9.3
 
-  apps/gemeentelijke-investeringen-2026-02:
+  apps/gemeentelijke-investeringen/versions/2026-05:
     dependencies:
       '@embuild/shared':
         specifier: workspace:*
-        version: link:../../packages/embuild-shared
+        version: link:../../../../packages/embuild-shared
       '@next/mdx':
         specifier: ^14.2.13
         version: 14.2.35(@mdx-js/loader@3.1.1)(@mdx-js/react@3.1.1(@types/react@18.3.28)(react@18.3.1))
@@ -730,11 +730,11 @@ importers:
         specifier: ^5
         version: 5.9.3
 
-  apps/gemeentelijke-investeringen-2026-09:
+  apps/gemeentelijke-investeringen/versions/2026-09:
     dependencies:
       '@embuild/shared':
         specifier: workspace:*
-        version: link:../../packages/embuild-shared
+        version: link:../../../../packages/embuild-shared
       '@next/mdx':
         specifier: ^14.2.13
         version: 14.2.35(@mdx-js/loader@3.1.1)(@mdx-js/react@3.1.1(@types/react@18.3.28)(react@18.3.1))
@@ -785,11 +785,11 @@ importers:
         specifier: ^5
         version: 5.9.3
 
-  apps/gemeentelijke-investeringen-2026-10:
+  apps/gemeentelijke-investeringen/versions/2026-10:
     dependencies:
       '@embuild/shared':
         specifier: workspace:*
-        version: link:../../packages/embuild-shared
+        version: link:../../../../packages/embuild-shared
       next:
         specifier: 14.2.13
         version: 14.2.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -822,11 +822,11 @@ importers:
         specifier: ^5
         version: 5.9.3
 
-  apps/gemeentelijke-investeringen-vergelijking:
+  apps/gemeentelijke-investeringen/versions/comparison:
     dependencies:
       '@embuild/shared':
         specifier: workspace:*
-        version: link:../../packages/embuild-shared
+        version: link:../../../../packages/embuild-shared
       next:
         specifier: 14.2.13
         version: 14.2.13(react-dom@18.3.1(react@18.3.1))(react@18.3.1)

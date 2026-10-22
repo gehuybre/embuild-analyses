@@ -3,8 +3,8 @@
 import { spawnSync } from "node:child_process"
 import { existsSync } from "node:fs"
 import { join } from "node:path"
+import { resolveApp, ROOT } from "./app-registry.mjs"
 
-const ROOT = join(import.meta.dirname, "..")
 const args = process.argv.slice(2).filter((arg) => arg !== "--")
 const slug = args[0]
 
@@ -13,8 +13,7 @@ if (!slug) {
   process.exit(1)
 }
 
-const appDir = join(ROOT, "apps", slug)
-if (!existsSync(appDir)) {
+if (!resolveApp(slug)) {
   console.error(`Unknown app slug: ${slug}`)
   process.exit(1)
 }

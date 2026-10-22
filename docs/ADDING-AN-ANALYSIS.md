@@ -75,18 +75,21 @@ The portal listing updates automatically — `generate-portal-data.mjs` runs dur
 
 ## 7. (Optional) Add a data-update workflow
 
-If the analysis has a refresh script, add a thin GitHub Actions workflow in `.github/workflows/update-my-new-analysis-data.yml` that calls `apps/{slug}/scripts/...` and commits files from `apps/{slug}/public/data/`. See the existing app-local workflows as templates.
+If the analysis has a refresh script, add a thin GitHub Actions workflow in `.github/workflows/update-my-new-analysis-data.yml` that calls the app's `scripts/...` and commits files from its `public/data/`. Existing apps may live directly in `apps/{slug}` or in `apps/{family}/versions/{version}`.
 
 ## 8. (Optional) Add a new version next to an existing analysis
 
-Copy the existing app to `apps/{slug}-{yyyy-mm}`, give it its own name, port, basePath, embed route directory
-(`src/app/embed/{new-slug}/`) and `slug="..."` props, register the new slug in `embed-config.ts` and `analysis-defaults.ts`,
-and list both apps in `scripts/analysis-versions.json` so the portal shows one card with a version selector.
-See [ARCHITECTURE.md](ARCHITECTURE.md#multiple-versions-of-one-analysis) and `apps/gemeentelijke-investeringen-2026-09/README.md`.
+Create or extend `apps/{family}/versions/{version}` and copy the existing app there. Give the new app a unique package name
+that remains its public URL slug (for example, `gemeentelijke-investeringen-2026-10`); keep the existing versions' slugs
+unchanged. Set its basePath to `/analyses/{package-name}` and update embed routes/configuration when applicable.
+The workspace and app registry discover nested version packages automatically. Add the version to
+`scripts/analysis-versions.json` so the portal shows one card with a version selector. CI also creates a standalone build
+with a README containing the proposed Cloudflare Pages URL. See [ARCHITECTURE.md](ARCHITECTURE.md#multiple-versions-of-one-analysis)
+and [the investment family README](../apps/gemeentelijke-investeringen/README.md).
 
 ## Checklist
 
-- [ ] `package.json` name matches directory name
+- [ ] `package.json` name is a unique, stable app slug
 - [ ] `next.config.mjs` basePath is `/analyses/{slug}`
 - [ ] `page.tsx` has `const metadata = { ... }` with title, date, summary, tags, source
 - [ ] `layout.tsx` imports `@embuild/shared/styles/globals.css`

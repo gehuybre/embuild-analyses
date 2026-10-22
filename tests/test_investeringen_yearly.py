@@ -6,11 +6,14 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-SLUGS = ("gemeentelijke-investeringen", "gemeentelijke-investeringen-2026-09")
+APP_PATHS = {
+    "gemeentelijke-investeringen": "gemeentelijke-investeringen/versions/2026-05",
+    "gemeentelijke-investeringen-2026-09": "gemeentelijke-investeringen/versions/2026-09",
+}
 
 
 def load_pipeline(slug):
-    path = ROOT / "apps" / slug / "scripts/prepare_visualizations.py"
+    path = ROOT / "apps" / APP_PATHS[slug] / "scripts/prepare_visualizations.py"
     spec = importlib.util.spec_from_file_location(slug, path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
@@ -29,7 +32,7 @@ def fixture():
 class YearlyInvestmentTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.pipelines = {slug: load_pipeline(slug) for slug in SLUGS}
+        cls.pipelines = {slug: load_pipeline(slug) for slug in APP_PATHS}
 
     def test_all_years_sum_municipalities_and_policy_fields(self):
         data = fixture()
@@ -71,7 +74,7 @@ class YearlyInvestmentTests(unittest.TestCase):
     def test_published_totals_match_parquet_and_existing_plan_totals(self):
         for slug, pipeline in self.pipelines.items():
             with self.subTest(slug=slug):
-                public = ROOT / "apps" / slug / "public/data"
+                public = ROOT / "apps" / APP_PATHS[slug] / "public/data"
                 rows = json.loads((public / "bv_yearly_totals.json").read_text())
                 source = pd.read_parquet(public / "investments_bv.parquet")
                 self.assertEqual(rows, pipeline.build_bv_yearly_totals(source))

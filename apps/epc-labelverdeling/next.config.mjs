@@ -1,6 +1,6 @@
 import createMDX from '@next/mdx'
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '/analyses/epc-labelverdeling';
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '/analyses/epc-labelverdeling';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

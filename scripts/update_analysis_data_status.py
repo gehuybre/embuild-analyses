@@ -192,7 +192,9 @@ def metadata_status(metadata_path: Path) -> DataStatus | None:
 
 
 def infer_status_for_slug(repo_root: Path, slug: str) -> DataStatus | None:
-    app_root = repo_root / "apps" / slug
+    app_root = find_app_dir(repo_root, slug)
+    if app_root is None:
+        return None
 
     if slug == "vergunningen-goedkeuringen":
         data_path = app_root / "public" / "data" / "data_monthly.json"
@@ -290,7 +292,9 @@ def update_content_body_date(content_path: Path, data_label: str, exact_through_
 
 def process_slug(repo_root: Path, slug: str, updated_date: str) -> int:
     status = get_status_for_slug(repo_root, slug)
-    app_root = repo_root / "apps" / slug
+    app_root = find_app_dir(repo_root, slug)
+    if app_root is None:
+        raise SystemExit(f"App package not found for slug: {slug}")
     page_path = app_root / "src" / "app" / "page.tsx"
     content_path = app_root / "content.mdx"
 
@@ -307,17 +311,46 @@ def process_slug(repo_root: Path, slug: str, updated_date: str) -> int:
     return 0
 
 
+def find_app_dir(repo_root: Path, slug: str) -> Path | None:
+    apps_dir = repo_root / "apps"
+    for family_dir in sorted(apps_dir.iterdir()):
+        if not family_dir.is_dir():
+            continue
+        candidates = [family_dir]
+        versions_dir = family_dir / "versions"
+        if versions_dir.is_dir():
+            candidates.extend(path for path in sorted(versions_dir.iterdir()) if path.is_dir())
+        for app_root in candidates:
+            package_path = app_root / "package.json"
+            if not package_path.is_file():
+                continue
+            if json.loads(package_path.read_text(encoding="utf-8")).get("name") == slug:
+                return app_root
+    return None
+
+
 def discover_supported_slugs(repo_root: Path) -> list[str]:
     apps_dir = repo_root / "apps"
     supported: list[str] = []
-    for app_root in sorted(apps_dir.iterdir()):
-        if not app_root.is_dir() or app_root.name == "portal":
+    for family_dir in sorted(apps_dir.iterdir()):
+        if not family_dir.is_dir():
             continue
-        page_path = app_root / "src" / "app" / "page.tsx"
-        if not page_path.exists():
-            continue
-        if infer_status_for_slug(repo_root, app_root.name):
-            supported.append(app_root.name)
+        app_roots = [family_dir]
+        versions_dir = family_dir / "versions"
+        if versions_dir.is_dir():
+            app_roots.extend(path for path in sorted(versions_dir.iterdir()) if path.is_dir())
+        for app_root in app_roots:
+            package_path = app_root / "package.json"
+            if not package_path.is_file():
+                continue
+            slug = json.loads(package_path.read_text(encoding="utf-8")).get("name")
+            if not slug or slug == "portal":
+                continue
+            page_path = app_root / "src" / "app" / "page.tsx"
+            if not page_path.exists():
+                continue
+            if infer_status_for_slug(repo_root, slug):
+                supported.append(slug)
     return supported
 
 

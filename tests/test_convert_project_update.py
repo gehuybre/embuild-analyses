@@ -7,7 +7,7 @@ from pathlib import Path
 
 from openpyxl import Workbook
 
-SCRIPTS = Path(__file__).resolve().parents[1] / "apps/bouwprojecten-gemeenten/scripts"
+SCRIPTS = Path(__file__).resolve().parents[1] / "apps/bouwprojecten-gemeenten/versions/previous/scripts"
 sys.path.insert(0, str(SCRIPTS))
 spec = importlib.util.spec_from_file_location("convert_project_update", SCRIPTS / "convert_project_update.py")
 assert spec is not None and spec.loader is not None

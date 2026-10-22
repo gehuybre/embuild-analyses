@@ -7,7 +7,7 @@
  * bouwt ze allebei en controleert de dingen die in de praktijk uit elkaar kunnen lopen.
  *
  * Gebruik: node scripts/check-standalone-sync.mjs <slug> [--no-build]
- *   --no-build  hergebruik apps/<slug>/out (site) en dist-standalone/<slug> (standalone)
+ *   --no-build  hergebruik de app-pad/out (site) en dist-standalone/<slug> (standalone)
  *
  * Controles:
  *  1. site-build en standalone build slagen
@@ -21,8 +21,8 @@ import { createHash } from "node:crypto"
 import { spawnSync } from "node:child_process"
 import { existsSync, readdirSync, readFileSync, statSync } from "node:fs"
 import { join, relative } from "node:path"
+import { resolveApp, ROOT } from "./app-registry.mjs"
 
-const ROOT = join(import.meta.dirname, "..")
 const args = process.argv.slice(2).filter((a) => a !== "--")
 const slug = args.find((a) => !a.startsWith("--"))
 const noBuild = args.includes("--no-build")
@@ -32,11 +32,12 @@ if (!slug) {
   process.exit(2)
 }
 
-const appDir = join(ROOT, "apps", slug)
-if (!existsSync(appDir)) {
+const app = resolveApp(slug)
+if (!app) {
   console.error(`Unknown app slug: ${slug}`)
   process.exit(2)
 }
+const appDir = app.dir
 
 function run(cmd, cmdArgs) {
   console.log(`\n$ ${cmd} ${cmdArgs.join(" ")}`)

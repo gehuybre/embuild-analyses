@@ -3,8 +3,7 @@
 import { existsSync } from "node:fs"
 import { spawn } from "node:child_process"
 import { join } from "node:path"
-
-const ROOT = join(import.meta.dirname, "..")
+import { resolveApp, ROOT } from "./app-registry.mjs"
 
 function parseArgs(argv) {
   const args = {}
@@ -101,7 +100,8 @@ async function main() {
 
   const queue = apps.filter((slug) => {
     if (!missingOutOnly) return true
-    return !existsSync(join(ROOT, "apps", slug, "out"))
+    const app = resolveApp(slug)
+    return !app || !existsSync(join(app.dir, "out"))
   })
 
   if (!queue.length) {

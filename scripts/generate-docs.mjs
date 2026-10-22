@@ -14,9 +14,8 @@
 
 import { readdirSync, readFileSync, writeFileSync, existsSync, statSync } from "node:fs"
 import { join, basename, extname, relative } from "node:path"
+import { discoverAppPackages, ROOT } from "./app-registry.mjs"
 
-const ROOT = join(import.meta.dirname, "..")
-const APPS_DIR = join(ROOT, "apps")
 const SHARED_DIR = join(ROOT, "packages", "embuild-shared", "src")
 const SCRIPTS_DIR = join(ROOT, "scripts")
 const CHECK_MODE = process.argv.includes("--check")
@@ -89,12 +88,8 @@ function listFiles(dir, exts) {
 
 function generateAppsTable() {
   const rows = []
-  for (const slug of readdirSync(APPS_DIR).sort()) {
-    const appDir = join(APPS_DIR, slug)
-    if (!statSync(appDir).isDirectory()) continue
-
+  for (const { slug, dir: appDir } of discoverAppPackages()) {
     const pkgPath = join(appDir, "package.json")
-    if (!existsSync(pkgPath)) continue
     const pkg = JSON.parse(readFileSync(pkgPath, "utf-8"))
 
     // Title: from page.tsx metadata or layout.tsx Metadata or package name
