@@ -124,8 +124,7 @@ function firstExisting(paths) {
   return paths.find((candidate) => fs.existsSync(candidate)) ?? null
 }
 
-function getRouteCandidates(slug, section) {
-  const appDir = path.join(ROOT, "apps", slug)
+function getRouteCandidates(appDir, slug, section) {
   return [
     path.join(appDir, "src", "app", "embed", slug, section, "page.tsx"),
     path.join(appDir, "src", "app", "embed", slug, section, "page.mdx"),
@@ -136,15 +135,16 @@ function getRouteCandidates(slug, section) {
   ]
 }
 
-function getBuiltCandidates(slug, section) {
+function getBuiltCandidates(appDir, slug, section) {
   return [
-    path.join(ROOT, "apps", slug, "out", "embed", slug, section, "index.html"),
+    path.join(appDir, "out", "embed", slug, section, "index.html"),
     path.join(ROOT, "dist", "analyses", slug, "embed", slug, section, "index.html"),
   ]
 }
 
-function main() {
+async function main() {
   const options = parseArgs(process.argv.slice(2))
+  const { resolveApp } = await import("./app-registry.mjs")
   const configs = parseEmbedConfig()
   const relevantConfigs = options.slug
     ? configs.filter((config) => config.slug === options.slug)
@@ -159,23 +159,24 @@ function main() {
   const ok = []
 
   for (const config of relevantConfigs) {
-    const appDir = path.join(ROOT, "apps", config.slug)
-    if (!fs.existsSync(appDir)) {
-      errors.push(`Missing app directory for slug '${config.slug}': ${path.relative(ROOT, appDir)}`)
+    const app = resolveApp(config.slug)
+    if (!app) {
+      errors.push(`Missing app directory for slug '${config.slug}'`)
       continue
     }
+    const appDir = app.dir
 
     for (const section of config.sections) {
-      const routePath = firstExisting(getRouteCandidates(config.slug, section))
+      const routePath = firstExisting(getRouteCandidates(appDir, config.slug, section))
       if (!routePath) {
         errors.push(
-          `Missing embed route for ${config.slug}/${section} (expected under apps/${config.slug}/src/app/embed/...)`
+          `Missing embed route for ${config.slug}/${section} (expected under ${path.relative(ROOT, appDir)}/src/app/embed/...)`
         )
         continue
       }
 
       if (options.built) {
-        const builtPath = firstExisting(getBuiltCandidates(config.slug, section))
+        const builtPath = firstExisting(getBuiltCandidates(appDir, config.slug, section))
         if (!builtPath) {
           errors.push(
             `Missing built embed output for ${config.slug}/${section} (expected under apps/${config.slug}/out or dist/analyses/${config.slug})`
@@ -202,4 +203,7 @@ function main() {
   console.log(`Embed consistency: OK (${ok.length} route(s) checked${options.built ? ", built output verified" : ""})`)
 }
 
-main()
+main().catch((error) => {
+  console.error(error)
+  process.exitCode = 1
+})
