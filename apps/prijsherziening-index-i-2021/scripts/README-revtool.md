@@ -154,6 +154,15 @@ Beide calculators delen de rekenmotor, maar hebben onafhankelijke datums,
 invoer en resultaten en unieke invoerveld-ID's. Een ongeldig mandje of een
 ontbrekende Revtool-momentopname blokkeert de standaardcalculator niet.
 
+Beide calculators tonen boven de invoer een blijvend zichtbare disclaimer:
+uitsluitend voor studie- en educatieve doeleinden, niet voor werkelijke
+projecten, offertes, contracten, facturen of afrekeningen. Er wordt geen
+garantie gegeven voor juistheid, volledigheid of actualiteit; aansprakelijkheid
+wordt afgewezen voor zover wettelijk toegestaan. De disclaimer verwijst naar
+de officiele FOD-bronnen, oorspronkelijke publicaties en contractbepalingen
+en maakt duidelijk dat de app geen officiele berekening of professioneel
+of juridisch advies vervangt.
+
 Beide tonen altijd een herkenbaar resultaatblok na het laden van de
 S/s-data. De datums zijn bij het openen bewust nog leeg: er wordt geen
 contractdatum verondersteld. Zolang invoer ontbreekt of ongeldig is, vermeldt

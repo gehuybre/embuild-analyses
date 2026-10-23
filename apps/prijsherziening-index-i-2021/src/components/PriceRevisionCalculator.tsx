@@ -178,6 +178,22 @@ function PriceRevisionForm({ monthlyData, custom = false, snapshot }: {
           : "Bereken met S/s en uitsluitend de officiële, vaste samenstelling van I-2021."}</CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
+        <aside aria-label="Disclaimer" className="rounded-md border border-amber-500/50 bg-amber-50 p-4 text-sm text-amber-950 dark:bg-amber-950/30 dark:text-amber-100 space-y-2">
+          <p className="font-semibold">Uitsluitend voor studiedoeleinden — niet voor werkelijke projecten</p>
+          <p>
+            Deze app, de gegevens en de berekeningsresultaten mogen uitsluitend voor studie- en educatieve doeleinden worden gebruikt.
+            Ze zijn niet geschikt voor toepassing op werkelijke projecten, offertes, contracten, facturen of afrekeningen.
+          </p>
+          <p>
+            Wij geven geen garantie voor de juistheid, volledigheid of actualiteit van de gegevens en resultaten en aanvaarden,
+            voor zover wettelijk toegestaan, geen aansprakelijkheid voor fouten, onjuistheden of schade door het gebruik ervan.
+          </p>
+          <p>
+            Raadpleeg en controleer altijd de <a className={linkClass} href={SOURCE} target="_blank" rel="noopener noreferrer">officiële bronnen van FOD Economie</a>,
+            de oorspronkelijke publicaties en de toepasselijke contractbepalingen. Deze app vervangt geen officiële berekening,
+            professioneel advies of juridisch advies.
+          </p>
+        </aside>
         <p className="text-sm text-muted-foreground">
           Alleen voor {REGIME}. Kies de aanvangsdatum, herzieningsdatum en aandelen zoals bepaald in uw contract.
           S/s omvat lonen, sociale lasten en verzekeringen.
