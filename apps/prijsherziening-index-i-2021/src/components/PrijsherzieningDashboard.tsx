@@ -18,6 +18,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@embuild/shared/compone
 import { cn } from "@embuild/shared/lib/utils"
 import { Check, ChevronsUpDown } from "lucide-react"
 import { PriceRevisionCalculator } from "./PriceRevisionCalculator"
+import { LaborIndexChart } from "./LaborIndexChart"
 import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
 import { CHART_SERIES_COLORS, CHART_THEME } from "@embuild/shared/lib/chart-theme"
 import { createYAxisLabelConfig } from "@embuild/shared/lib/number-formatters"
@@ -85,9 +86,7 @@ export function PrijsherzieningDashboard() {
   const componentsData = bundle?.components ?? []
 
   const defaultSelected = React.useMemo(() => {
-    const preferred = new Set(["Index I-2021", "Cement"])
-    const availablePreferred = componentsData.filter((c) => preferred.has(c.code)).map((c) => c.code)
-    return new Set(availablePreferred.length ? availablePreferred : componentsData.map((c) => c.code))
+    return new Set(componentsData.filter(c => c.code === "Index I-2021").map(c => c.code))
   }, [componentsData])
 
   // Component selection
@@ -547,6 +546,7 @@ export function PrijsherzieningDashboard() {
         </Tabs>
       </div>
 
+      <LaborIndexChart />
       <PriceRevisionCalculator monthlyData={monthlyData} />
     </div>
   )

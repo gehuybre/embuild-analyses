@@ -1,29 +1,25 @@
 "use client"
 
 import * as React from "react"
-import { Calculator } from "lucide-react"
+import { Calculator, Check, ChevronsUpDown, Plus, Trash2 } from "lucide-react"
+import { Button } from "@embuild/shared/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Input } from "@embuild/shared/components/ui/input"
 import { Label } from "@embuild/shared/components/ui/label"
+import { Popover, PopoverContent, PopoverTrigger } from "@embuild/shared/components/ui/popover"
+import { Command, CommandEmpty, CommandGroup, CommandInput, CommandItem, CommandList } from "@embuild/shared/components/ui/command"
 import { getLocalPublicPath } from "@embuild/shared/lib/path-utils"
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
-import { findLaborIndex, findMaterialIndex, laborStart, laborEnd, type LaborIndex, type MaterialIndex } from "@/lib/price-revision"
+import { CalculatorDateInput } from "./CalculatorDateInput"
+import {
+  calculateRevision, findLaborIndex, findMaterialObservation, laborStart, laborEnd,
+  liveMaterialSeries, previousMaterialMonth, type LaborIndex, type MaterialIndex,
+  type MaterialSeries, type MaterialSnapshot,
+  LABOR_REGIME as REGIME, LABOR_CATEGORIES as CATEGORIES, LABOR_SIZES as SIZES, matchesLaborSize,
+} from "@/lib/price-revision"
 
 const SOURCE = "https://economie.fgov.be/nl/themas/ondernemingen/specifieke-sectoren/bouw/prijsherzieningsindexen"
-const WORKBOOK = "https://economie.fgov.be/sites/default/files/Files/Entreprises/prix-construction-Indice-I-2021.xlsx"
 const HISTORY = "https://economie.fgov.be/sites/default/files/Files/Entreprises/prijzen-bouw-waarden-S-s-Historiek.pdf"
-const REGIME = "offerten vanaf 11/06/2007"
-const CATEGORIES = [
-  { code: "A", description: "Maritieme- en rivierwerken, grondwerken, wegenwerken en betonwerken, baggerwerken, asfalterings- en bitumenwerken", rsz: "24" },
-  { code: "B", description: "Dakbedekkingswerken en opvoegen van gevels", rsz: "54" },
-  { code: "C", description: "Bevloerings-, plafonnerings- en bepleisteringswerken", rsz: "44" },
-  { code: "D", description: "Andere werken", rsz: "26" },
-]
-const SIZES = [
-  { value: "<10 werklieden", label: "Minder dan 10 werknemers" },
-  { value: "10-20 werklieden", label: "10 tot en met 20 werknemers" },
-  { value: ">20 werklieden", label: "Meer dan 20 werknemers" },
-]
 const selectClass = "flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
 const linkClass = "underline underline-offset-2"
 
@@ -31,12 +27,52 @@ function dateLabel(value: string): string {
   return new Date(`${value.slice(0, 10)}T12:00:00`).toLocaleDateString("nl-BE")
 }
 
-function monthKey(row: MaterialIndex): string {
-  return `${row.year}-${String(row.month).padStart(2, "0")}`
+function monthLabel(value: string): string {
+  return new Date(`${value.slice(0, 7)}-01T12:00:00`).toLocaleDateString("nl-BE", { month: "long", year: "numeric" })
 }
 
-function monthLabel(row: MaterialIndex): string {
-  return new Date(row.year, row.month - 1, 1).toLocaleDateString("nl-BE", { month: "long", year: "numeric" })
+function numericInput(value: string): number {
+  return value.trim() ? Number(value) : NaN
+}
+
+function pct(value: number, digits = 2): string {
+  return value.toLocaleString("nl-BE", { minimumFractionDigits: digits, maximumFractionDigits: digits })
+}
+
+function MaterialPicker({ value, series, onChange, label }: {
+  value: string; series: MaterialSeries[]; onChange: (value: string) => void; label: string
+}) {
+  const [open, setOpen] = React.useState(false)
+  const selected = series.find(row => row.id === value)
+  return (
+    <Popover open={open} onOpenChange={setOpen}>
+      <PopoverTrigger asChild>
+        <Button type="button" variant="outline" role="combobox" aria-expanded={open} aria-label={label}
+          className="h-auto min-h-10 w-full justify-between whitespace-normal text-left">
+          <span>{selected?.label ?? "Kies een materiaal of index"}</span>
+          <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0" aria-hidden="true" />
+        </Button>
+      </PopoverTrigger>
+      <PopoverContent className="w-[min(90vw,32rem)] p-0">
+        <Command>
+          <CommandInput placeholder="Zoek cement, hout, staal, OW-code..." aria-label="Materiaal zoeken" />
+          <CommandList>
+            <CommandEmpty>Geen materiaal gevonden.</CommandEmpty>
+            {[...new Set(series.map(row => row.group))].map(group => (
+              <CommandGroup key={group} heading={group}>
+                {series.filter(row => row.group === group).map(row => (
+                  <CommandItem key={row.id} value={`${row.id} ${row.label}`} onSelect={() => { onChange(row.id); setOpen(false) }}>
+                    <Check className={`mr-2 h-4 w-4 shrink-0 ${value === row.id ? "opacity-100" : "opacity-0"}`} aria-hidden="true" />
+                    {row.label}
+                  </CommandItem>
+                ))}
+              </CommandGroup>
+            ))}
+          </CommandList>
+        </Command>
+      </PopoverContent>
+    </Popover>
+  )
 }
 
 function LaborSource({ row, initial }: { row: LaborIndex | undefined; initial: boolean }) {
@@ -61,60 +97,78 @@ function LaborSource({ row, initial }: { row: LaborIndex | undefined; initial: b
 
 export function PriceRevisionCalculator({ monthlyData }: { monthlyData: MaterialIndex[] }) {
   const { data, loading, error } = useJsonBundle<{ labor: LaborIndex[] }>({ labor: "/data/labor_indices.json" })
+  const snapshot = useJsonBundle<{ materials: MaterialSnapshot }>({ materials: "/data/revtool_materials.json" })
   const [size, setSize] = React.useState(SIZES[0].value)
   const [category, setCategory] = React.useState("D")
   const [initialDate, setInitialDate] = React.useState("")
   const [revisionDate, setRevisionDate] = React.useState("")
   const [price, setPrice] = React.useState("100000")
-  const [laborShare, setLaborShare] = React.useState("0.40")
-  const [materialShare, setMaterialShare] = React.useState("0.40")
-  const [fixedShare, setFixedShare] = React.useState("0.20")
+  const [laborShare, setLaborShare] = React.useState("40")
+  const [materialShare, setMaterialShare] = React.useState("40")
+  const [basket, setBasket] = React.useState([{ key: 0, id: "Index I-2021", weight: "100" }])
+  const nextKey = React.useRef(1)
 
   const laborRows = React.useMemo(
     () => (data?.labor ?? []).filter(row => row.regime === REGIME
-      && (row.employer_size === size || (size !== "<10 werklieden" && row.employer_size === ">=10 werklieden"))
+      && matchesLaborSize(row, size)
       && row.category === category)
       .sort((a, b) => a.effective_date.localeCompare(b.effective_date)),
     [data, size, category]
   )
-  const materialRows = React.useMemo(
-    () => monthlyData.filter(row => row.component === "Index I-2021")
-      .sort((a, b) => monthKey(a).localeCompare(monthKey(b))),
-    [monthlyData]
-  )
+  const materialSeries = React.useMemo(() => [
+    ...liveMaterialSeries(monthlyData), ...(snapshot.data?.materials.series ?? []),
+  ], [monthlyData, snapshot.data])
+  const initialMonth = previousMaterialMonth(initialDate)
+  const revisionMonth = previousMaterialMonth(revisionDate)
   const S = findLaborIndex(laborRows, initialDate, true)
   const s = findLaborIndex(laborRows, revisionDate, false)
-  const I = findMaterialIndex(materialRows, initialDate)
-  const i = findMaterialIndex(materialRows, revisionDate)
-  const P0 = Number(price)
-  const shares = [laborShare, materialShare, fixedShare].map(Number)
+  const P0 = numericInput(price)
+  const a = numericInput(laborShare) / 100
+  const b = numericInput(materialShare) / 100
+  const remainder = 1 - a - b
+  const fixedShare = Math.abs(remainder) < 1e-10 ? 0 : remainder
+  const selectedMaterials = basket.map(row => {
+    const series = materialSeries.find(item => item.id === row.id)
+    return {
+      ...row, series,
+      initial: series ? findMaterialObservation(series, initialMonth) : undefined,
+      revision: series ? findMaterialObservation(series, revisionMonth) : undefined,
+    }
+  })
+  const calculation = calculateRevision({
+    price: P0, laborShare: a, materialShare: b, initialLabor: S?.value, revisionLabor: s?.value,
+    materials: selectedMaterials.map(row => ({
+      id: row.id, label: row.series?.label ?? "Materiaal", weight: numericInput(row.weight) / 100,
+      initial: row.initial?.value, revision: row.revision?.value,
+    })),
+  })
   let validation = ""
   if (!initialDate || !revisionDate) validation = "Kies een aanvangsdatum en een herzieningsdatum om te berekenen."
   else if (initialDate < "2007-06-11") validation = "Deze calculator is alleen voor offerten vanaf 11/06/2007."
+  else if (!initialMonth || !revisionMonth) validation = "Vul twee geldige datums in."
   else if (revisionDate < initialDate) validation = "De herzieningsdatum mag niet vóór de aanvangsdatum liggen."
-  else if (!S || !s) validation = "Voor een gekozen datum is geen geldige S/s-waarde beschikbaar. Controleer de datums en de beschikbare bronperiodes."
-  else if (!I || !i) validation = "Voor een gekozen maand is I-2021 nog niet gepubliceerd of niet beschikbaar. Er wordt geen oudere maand als vervanging gebruikt."
-  else if (!price.trim() || !Number.isFinite(P0) || P0 <= 0) validation = "Vul een contractprijs groter dan nul in."
-  else if ([laborShare, materialShare, fixedShare].some(value => !value.trim()) || shares.some(value => !Number.isFinite(value) || value < 0 || value > 1)) validation = "Vul voor elk aandeel een getal tussen 0 en 1 in."
-  else if (Math.abs(shares.reduce((sum, value) => sum + value, 0) - 1) > 0.000001) validation = "De aandelen lonen, materialen en vast deel moeten samen 1 zijn."
-  else if ([S.value, s.value, I.value, i.value].some(value => !Number.isFinite(value) || value <= 0)) validation = "Een geselecteerde indexwaarde is ongeldig."
-  const computedPrice = !validation && S && s && I && i
-    ? P0 * (shares[0] * s.value / S.value + shares[1] * i.value / I.value + shares[2])
-    : null
-  if (computedPrice !== null && !Number.isFinite(computedPrice)) validation = "Het berekende bedrag is te groot. Controleer de contractprijs."
-  const revisedPrice = validation ? null : computedPrice
+  else if (b > 0 && selectedMaterials.some(row => !row.series)) validation = "Kies voor elke regel een beschikbare materiaalreeks of verwijder de regel."
+  else if (!calculation.ok) validation = calculation.error
+  const result = !validation && calculation.ok ? calculation : null
+  const basketTotal = basket.reduce((sum, row) => sum + numericInput(row.weight), 0)
+  const updateMaterial = (key: number, update: Partial<{ id: string; weight: string }>) =>
+    setBasket(rows => rows.map(row => row.key === key ? { ...row, ...update } : row))
 
   return (
     <Card>
       <CardHeader>
         <CardTitle className="flex items-center gap-2"><Calculator className="h-5 w-5" />Prijsherzieningscalculator</CardTitle>
-        <CardDescription>Bereken met de officiële S/s-waarden en de materiaalprijsindex I-2021 van FOD Economie.</CardDescription>
+        <CardDescription>Bereken met S/s en I-2021, of stel optioneel uw eigen materiaalmandje samen.</CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
         <p className="text-sm text-muted-foreground">
           Alleen voor {REGIME}. Kies de aanvangsdatum, herzieningsdatum en aandelen zoals bepaald in uw contract.
-          S/s omvat lonen, sociale lasten en verzekeringen; I/i gebruikt uitsluitend de reeks I-2021.
+          S/s omvat lonen, sociale lasten en verzekeringen. Standaard gebruiken we I-2021 voor materialen.
           {" "}<a className={linkClass} href={SOURCE} target="_blank" rel="noopener noreferrer">Meer informatie bij FOD Economie</a>.
+        </p>
+        <p className="rounded-md border p-3 text-sm">
+          Nieuw: de materiaalreferentie is automatisch de <strong>maand vóór de gekozen datum</strong>, zoals in Revtool.
+          Voorheen gebruikte deze calculator de gekozen kalendermaand. De S/s-regels uit de officiële PDF blijven behouden.
         </p>
         {loading ? <p role="status">S/s-waarden laden...</p> : error ? (
           <p role="alert" className="text-sm text-destructive">S/s-waarden konden niet worden geladen: {error}</p>
@@ -142,17 +196,14 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
             </details>
             <div className="space-y-2">
               <Label htmlFor="initialPrice">Initiële contractprijs (P₀)</Label>
-              <Input id="initialPrice" type="number" min="0" value={price} onChange={event => setPrice(event.target.value)} />
+              <Input id="initialPrice" type="number" min="0" step="0.01" value={price} onChange={event => setPrice(event.target.value)} />
             </div>
             <div className="grid gap-4 md:grid-cols-2">
               {[
-                { id: "initialDate", label: "Aanvangsdatum", value: initialDate, setValue: setInitialDate },
+                { id: "initialDate", label: "Aanbestedings- / contractdatum", value: initialDate, setValue: setInitialDate },
                 { id: "revisionDate", label: "Herzieningsdatum", value: revisionDate, setValue: setRevisionDate },
               ].map(field => (
-                <div key={field.id} className="space-y-2">
-                  <Label htmlFor={field.id}>{field.label}</Label>
-                  <Input id={field.id} type="date" min="2007-06-11" value={field.value} onChange={event => field.setValue(event.target.value)} />
-                </div>
+                <CalculatorDateInput key={field.id} label={field.label} value={field.value} onChange={field.setValue} />
               ))}
               {[
                 { label: "Loonwaarde bij aanvang (S)", row: S, initial: true, date: initialDate },
@@ -164,55 +215,124 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
                   <LaborSource row={field.row} initial={field.initial} />
                 </div>
               ))}
-              {[
-                { label: "Materiaalprijsindex bij aanvang (I)", row: I, date: initialDate },
-                { label: "Materiaalprijsindex bij herziening (i)", row: i, date: revisionDate },
-              ].map(field => (
-                <div key={field.label} className="space-y-2 rounded-md border p-3">
-                  <p className="text-sm font-medium">{field.label}</p>
-                  <p>{field.row ? `${field.row.value.toLocaleString("nl-BE", { minimumFractionDigits: 2 })} · ${monthLabel(field.row)}` : field.date ? "Geen I-2021 beschikbaar voor deze maand" : "Kies een datum"}</p>
-                  {field.row && <p className="text-xs text-muted-foreground">
-                    <a className={linkClass} href={WORKBOOK} target="_blank" rel="noopener noreferrer">Controleer I-2021 in het officiële Excelbestand</a> (tabblad I_2021 (Nl)).
-                  </p>}
-                </div>
-              ))}
             </div>
             <p className="text-xs text-muted-foreground">
               S/s: {laborRows.length ? `${dateLabel(laborRows[0].effective_date)} – ${dateLabel(laborRows[laborRows.length - 1].effective_date)}` : "geen waarden beschikbaar"}.
-              {" "}I-2021: {materialRows.length ? `${monthLabel(materialRows[0])} – ${monthLabel(materialRows[materialRows.length - 1])}` : "geen waarden beschikbaar"}.
-              {" "}De reeksen worden afzonderlijk gepubliceerd; een recentere S/s-waarde betekent niet dat I-2021 voor diezelfde maand al beschikbaar is.
-              {" "}De loonwaarde volgt de geldigheidsperiode uit de PDF; voor S geldt de afzonderlijke ingangsdatum voor aanbestedingen. I-2021 komt uit de maand van de gekozen datum.
+              {" "}S gebruikt de afzonderlijke ingangsdatum voor aanbestedingen; we trekken niet nogmaals tien dagen af.
               {size !== "<10 werklieden" && " Vóór 2011 gebruikt de bron één gezamenlijke klasse voor werkgevers met 10 of meer werklieden."}
             </p>
             <div className="grid gap-4 md:grid-cols-3">
               {[
-                { id: "laborShare", label: "Aandeel lonen", value: laborShare, setValue: setLaborShare },
-                { id: "materialShare", label: "Aandeel materialen", value: materialShare, setValue: setMaterialShare },
-                { id: "fixedShare", label: "Vast deel", value: fixedShare, setValue: setFixedShare },
+                { id: "laborShare", label: "Aandeel lonen (%)", value: laborShare, setValue: setLaborShare },
+                { id: "materialShare", label: "Aandeel materialen (%)", value: materialShare, setValue: setMaterialShare },
               ].map(field => (
                 <div key={field.id} className="space-y-2">
                   <Label htmlFor={field.id}>{field.label}</Label>
-                  <Input id={field.id} type="number" min="0" max="1" step="0.01" value={field.value} onChange={event => field.setValue(event.target.value)} />
+                  <Input id={field.id} type="number" min="0" max="100" step="0.01" value={field.value} onChange={event => field.setValue(event.target.value)} />
                 </div>
               ))}
+              <div className="space-y-2">
+                <Label htmlFor="fixedShare">Vast deel (%) — automatisch</Label>
+                <Input id="fixedShare" readOnly value={Number.isFinite(fixedShare) ? pct(100 * fixedShare) : ""} />
+              </div>
             </div>
+            <details className="rounded-md border p-3">
+              <summary className="cursor-pointer text-sm font-medium">
+                Materiaalsamenstelling aanpassen — {basket.length === 1 && basket[0].id === "Index I-2021" ? "standaard I-2021" : `${basket.length} materiaalreeksen`}
+              </summary>
+              <div className="mt-4 space-y-4">
+                <p className="text-xs text-muted-foreground">Verdeel alleen het materiaalaandeel over de onderstaande reeksen. De gewichten binnen dit mandje moeten samen 100% zijn. Er worden geen contractgewichten voorgeschreven.</p>
+                {snapshot.loading && <p role="status" className="text-sm">Extra materiaalreeksen laden...</p>}
+                {snapshot.error && <p role="alert" className="text-sm text-destructive">Extra materiaalreeksen konden niet worden geladen: {snapshot.error}. De FOD-reeksen blijven beschikbaar.</p>}
+                {basket.map((row, index) => (
+                  <div key={row.key} className="grid gap-2 rounded-md border p-3 sm:grid-cols-[minmax(0,1fr)_7rem_auto]">
+                    <div className="space-y-2">
+                      <p className="text-sm font-medium">Materiaal {index + 1}</p>
+                      <MaterialPicker value={row.id} series={materialSeries} label={`Materiaal ${index + 1}`} onChange={id => updateMaterial(row.key, { id })} />
+                    </div>
+                    <div className="space-y-2">
+                      <Label htmlFor={`weight-${row.key}`}>Gewicht (%)</Label>
+                      <Input id={`weight-${row.key}`} type="number" min="0" max="100" step="0.01" value={row.weight} onChange={event => updateMaterial(row.key, { weight: event.target.value })} />
+                    </div>
+                    <Button type="button" variant="ghost" className="self-end" disabled={basket.length === 1} aria-label={`Materiaal ${index + 1} verwijderen`}
+                      onClick={() => setBasket(rows => rows.filter(item => item.key !== row.key))}><Trash2 className="h-4 w-4" aria-hidden="true" /></Button>
+                  </div>
+                ))}
+                <div className="flex flex-wrap items-center gap-3">
+                  <Button type="button" variant="outline" onClick={() => {
+                    const material = { key: nextKey.current++, id: "", weight: "0" }
+                    setBasket(rows => [...rows, material])
+                  }}>
+                    <Plus className="mr-2 h-4 w-4" aria-hidden="true" />Materiaal toevoegen
+                  </Button>
+                  <Button type="button" variant="ghost" onClick={() => setBasket([{ key: nextKey.current++, id: "Index I-2021", weight: "100" }])}>Herstel I-2021</Button>
+                  <p className="text-sm" role="status">Totaal mandje: {Number.isFinite(basketTotal) ? pct(basketTotal) : "—"}%</p>
+                </div>
+                <p className="text-xs text-muted-foreground">
+                  O.W. en Grymafer zijn opgeslagen Revtool-waarden, geen live bron. O.W. is beperkt tot december 2023 en later wegens de publicatiewijziging.
+                  Weekreeksen, prognoses en sectorlonen zijn niet opgenomen.
+                </p>
+              </div>
+            </details>
+            <p className="text-sm">
+              Materiaalreferenties: {initialMonth ? monthLabel(initialMonth) : "kies een contractdatum"} → {revisionMonth ? monthLabel(revisionMonth) : "kies een herzieningsdatum"}.
+            </p>
             {validation && <p role="status" className="text-sm text-muted-foreground">{validation}</p>}
-            {revisedPrice !== null && (
+            {result && (
               <div aria-live="polite" className="rounded-lg bg-muted p-4 space-y-2">
                 <p className="flex justify-between items-center gap-2"><strong>Herziene prijs (P):</strong>
-                  <span className="text-2xl font-bold">€ {revisedPrice.toLocaleString("nl-BE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}</span>
+                  <span className="text-2xl font-bold">€ {pct(result.revisedPrice)}</span>
                 </p>
-                <p className="text-sm">Verschil: € {(revisedPrice - P0).toLocaleString("nl-BE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
-                  {" "}({((revisedPrice / P0 - 1) * 100).toLocaleString("nl-BE", { minimumFractionDigits: 2, maximumFractionDigits: 2 })}%)</p>
-                <p className="text-xs text-muted-foreground">Gebruikte waarden: S = {S?.value}; s = {s?.value}; I = {I?.value}; i = {i?.value}.</p>
+                <p className="text-sm">Verschil: € {pct(result.difference)} ({pct(100 * (result.factor - 1), 3)}%)</p>
               </div>
             )}
+            <details className="rounded-md border p-3">
+              <summary className="cursor-pointer text-sm font-medium">Berekening en bronnen</summary>
+              <div className="mt-3 space-y-3 text-sm">
+                <p>Materiaalreferenties gebruiken de voorafgaande maand. Geen interpolatie of vervanging door oudere maanden.</p>
+                <p>S = {S?.value.toLocaleString("nl-BE", { minimumFractionDigits: 3 }) ?? "niet beschikbaar"}; s = {s?.value.toLocaleString("nl-BE", { minimumFractionDigits: 3 }) ?? "niet beschikbaar"}. {a === 0 && "Lonen tellen niet mee (0%)."}</p>
+                <LaborSource row={S} initial /><LaborSource row={s} initial={false} />
+                {selectedMaterials.map(row => (
+                  <div key={row.key} className="space-y-1 border-t pt-2">
+                    <p className="font-medium">{row.series?.label ?? "Nog geen materiaal gekozen"}</p>
+                    <p>{initialMonth ? monthLabel(initialMonth) : "Aanvang"}: {row.initial?.value.toLocaleString("nl-BE", { maximumFractionDigits: 6 }) ?? "niet beschikbaar"}
+                      {" "}→ {revisionMonth ? monthLabel(revisionMonth) : "Herziening"}: {row.revision?.value.toLocaleString("nl-BE", { maximumFractionDigits: 6 }) ?? "niet beschikbaar"}.</p>
+                    {row.series && <>
+                      <p className="text-xs text-muted-foreground">{row.series.note}</p>
+                      <a className={linkClass} href={row.series.source_url} target="_blank" rel="noopener noreferrer">Controleer de bron</a>
+                      {row.series.sheet && <p className="text-xs text-muted-foreground">
+                        {snapshot.data?.materials.source_workbook} · werkblad {row.series.sheet} · tabel {row.series.table} · cellen {row.initial?.cell ?? "—"} / {row.revision?.cell ?? "—"}.
+                        {" "}Momentopname: {snapshot.data?.materials.snapshot_date}.
+                      </p>}
+                    </>}
+                  </div>
+                ))}
+                {result && (
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-left text-xs">
+                      <caption className="mb-2 text-left font-medium">Bijdrage aan de prijsherziening</caption>
+                      <thead><tr><th scope="col" className="p-2">Component</th><th scope="col" className="p-2">Aandeel totale prijs</th><th scope="col" className="p-2">Verandering</th><th scope="col" className="p-2">Bijdrage (procentpunt)</th></tr></thead>
+                      <tbody>{result.contributions.map(row => (
+                        <tr key={row.id}><th scope="row" className="p-2 font-normal">{row.label}</th><td className="p-2">{pct(100 * row.share)}%</td><td className="p-2">{pct(100 * row.change, 3)}%</td><td className="p-2">{pct(row.percentagePoints, 5)}</td></tr>
+                      ))}
+                        <tr><th scope="row" className="p-2 font-normal">Vast deel</th><td className="p-2">{pct(100 * result.fixedShare)}%</td><td className="p-2">0%</td><td className="p-2">0</td></tr>
+                        <tr><th scope="row" className="p-2 font-normal">Afronding resultaatfactor</th><td /><td /><td className="p-2">{pct(result.roundingPercentagePoints, 5)}</td></tr>
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+                <p className="text-xs text-muted-foreground">
+                  Zoals in Revtool: veranderingen per index en de resultaatfactor worden op vijf decimalen afgerond, het bedrag op twee.
+                  De som van aandelen lonen en materialen mag niet boven 100% uitkomen. De standaard 40/40/20 is een voorbeeld, geen contractadvies.
+                </p>
+              </div>
+            </details>
           </>
         )}
         <div className="rounded-lg border bg-muted p-4 text-sm space-y-2">
           <p className="font-medium">Formule</p>
-          <p className="font-mono text-xs">P = P₀ × ({laborShare} × s/S + {materialShare} × i/I + {fixedShare})</p>
-          <p className="text-xs text-muted-foreground">s/S = verhouding loonwaarden (herziening/aanvang); i/I = verhouding materiaalprijsindexen (herziening/aanvang). De aandelen 0,40 / 0,40 / 0,20 zijn een voorbeeld: neem de coëfficiënten en referentieperiodes uit uw contract over.</p>
+          <p className="font-mono text-xs">P = P₀ × (a × s/S + b × Σ(xⱼ × iⱼ/Iⱼ) + c)</p>
+          <p className="text-xs text-muted-foreground">a = loonaandeel; b = materiaalaandeel; xⱼ = gewicht binnen het materiaalmandje (samen 100%); c = 1 − a − b. Neem de aandelen, reeksen en toepassingsregels uit uw contract over. Dit is een rekenhulpmiddel, geen juridisch advies.</p>
         </div>
       </CardContent>
     </Card>
