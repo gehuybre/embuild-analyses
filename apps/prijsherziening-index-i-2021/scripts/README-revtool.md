@@ -142,10 +142,27 @@ versiekeuze, tabelgrenzen, verborgen werkbladen, formules zonder cache,
 fouten en ontbrekende waarden, statische VBA-/Power Query-extractie,
 bronintegriteit en de toepassingsperioden van de PDF-vergelijking.
 
-## Materiaalmandje in de calculator
+## Twee afzonderlijke calculators
 
-De calculator behoudt standaard I-2021 en biedt daarnaast een uitklapbaar
+De eerste calculator gebruikt uitsluitend de officiele, vaste
+materiaalsamenstelling van I-2021. De loon- en materiaalaandelen van de
+contractprijs blijven instelbaar, maar er is geen materiaalkeuze.
+
+De afzonderlijke calculator op maat biedt een direct zichtbaar
 materiaalmandje met een doorzoekbare reekskeuze en een gewicht per materiaal.
+Beide calculators delen de rekenmotor, maar hebben onafhankelijke datums,
+invoer en resultaten en unieke invoerveld-ID's. Een ongeldig mandje of een
+ontbrekende Revtool-momentopname blokkeert de standaardcalculator niet.
+
+Beide tonen altijd een herkenbaar resultaatblok na het laden van de
+S/s-data. De datums zijn bij het openen bewust nog leeg: er wordt geen
+contractdatum verondersteld. Zolang invoer ontbreekt of ongeldig is, vermeldt
+het blok de concrete reden in plaats van te verdwijnen. Bij geldige invoer
+worden de herziene prijs en het verschil automatisch getoond; er is geen
+aparte berekenknop nodig. De brongegevens vermelden de beschikbare
+materiaalmaanden. Buiten de beschikbare gegevens wordt geen waarde
+verzonnen of stilzwijgend vervangen.
+
 De bestaande PPI-componenten komen uit het actuele officiele I-2021-bestand.
 Een afzonderlijk, bewust uit te voeren exportcommando maakt de extra
 Revtool-materiaaldata beschikbaar:
@@ -259,3 +276,15 @@ Decimal-berekening. De openbare voorbeeldformule bevat een positief gewogen
 handmatige staalcomponent met nulwaarden die Excel als nul verandering
 behandelt. De calculator wijkt daar bewust van af en meldt ontbrekende of
 ongeldige invoer in plaats van een schijnbaar geldige prijs te tonen.
+
+Controleer bij interfacewijzigingen ook in de browser:
+
+- Bij openen hebben beide calculators een resultaatblok met de vraag om
+  twee datums; alleen de calculator op maat heeft een materiaalkeuze.
+- Met minder dan 10 werklieden, categorie A, contractdatum 01/06/2025,
+  herzieningsdatum 01/06/2026, prijs 100000 en loon-/materiaalaandelen
+  40%/40% tonen beide met I-2021 een herziene prijs van 103945.
+- Verander alleen het mandje van de calculator op maat: de standaardprijs
+  blijft ongewijzigd. Een ongeldig totaal toont de reden in het resultaatblok.
+- Controleer ook ontbrekende materiaalmaanden, onafhankelijke
+  datum-/prijsvelden, unieke ID's en de mobiele breedte.

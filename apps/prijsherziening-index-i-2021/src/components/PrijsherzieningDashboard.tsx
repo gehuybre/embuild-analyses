@@ -17,7 +17,7 @@ import {
 import { Popover, PopoverContent, PopoverTrigger } from "@embuild/shared/components/ui/popover"
 import { cn } from "@embuild/shared/lib/utils"
 import { Check, ChevronsUpDown } from "lucide-react"
-import { PriceRevisionCalculator } from "./PriceRevisionCalculator"
+import { PriceRevisionCalculator, CustomPriceRevisionCalculator } from "./PriceRevisionCalculator"
 import { LaborIndexChart } from "./LaborIndexChart"
 import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
 import { CHART_SERIES_COLORS, CHART_THEME } from "@embuild/shared/lib/chart-theme"
@@ -548,6 +548,7 @@ export function PrijsherzieningDashboard() {
 
       <LaborIndexChart />
       <PriceRevisionCalculator monthlyData={monthlyData} />
+      <CustomPriceRevisionCalculator monthlyData={monthlyData} />
     </div>
   )
 }

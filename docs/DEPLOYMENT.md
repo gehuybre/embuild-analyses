@@ -45,6 +45,32 @@ Steps:
 7. `node scripts/merge-outputs.mjs` (assembles `dist/`)
 8. Wrangler uploads `dist/` to Cloudflare Pages
 
+### Fast app-only rebuilds
+
+The workflow caches `apps/**/out` (including versioned app directories) per
+branch and commit using `actions/cache`. The accompanying
+`.app-outputs-revision` records the source commit represented by the cached
+outputs. Before reusing a cache, the build compares that revision with the
+current commit and rebuilds any additional affected published apps. This
+also covers commits missed by a failed/cancelled run or a manual selection.
+Shared-package or dependency changes still rebuild all affected apps.
+
+A change confined to one app normally rebuilds only that app, its standalone
+export, and the portal when its generated metadata needs updating. A manual
+run can request `apps: prijsherziening-index-i-2021`; changes since the cached
+revision are still included so unrelated updates cannot be lost.
+
+The first run, an evicted cache, or an unavailable cached revision requires
+a full rebuild to populate a complete cache. Newly added or otherwise missing
+outputs are backfilled before merging. A build cache is not a deployment
+record: failed uploads can safely reuse it because the next run checks its
+source revision again.
+
+Cloudflare Pages Direct Upload replaces the deployment as a whole. Always
+merge and upload the complete site; uploading only an app subdirectory to
+the main Pages project would remove the other apps. Reusing unchanged app
+outputs avoids rebuilding them without dropping them from the deployment.
+
 ## Data update workflows
 
 Five workflows auto-update analysis data on a schedule:

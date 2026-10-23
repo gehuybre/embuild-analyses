@@ -96,8 +96,23 @@ function LaborSource({ row, initial }: { row: LaborIndex | undefined; initial: b
 }
 
 export function PriceRevisionCalculator({ monthlyData }: { monthlyData: MaterialIndex[] }) {
-  const { data, loading, error } = useJsonBundle<{ labor: LaborIndex[] }>({ labor: "/data/labor_indices.json" })
+  return <PriceRevisionForm monthlyData={monthlyData} />
+}
+
+export function CustomPriceRevisionCalculator({ monthlyData }: { monthlyData: MaterialIndex[] }) {
   const snapshot = useJsonBundle<{ materials: MaterialSnapshot }>({ materials: "/data/revtool_materials.json" })
+  return <PriceRevisionForm monthlyData={monthlyData} custom snapshot={snapshot} />
+}
+
+function PriceRevisionForm({ monthlyData, custom = false, snapshot }: {
+  monthlyData: MaterialIndex[]
+  custom?: boolean
+  snapshot?: { data: { materials: MaterialSnapshot } | null; loading: boolean; error: string | null }
+}) {
+  const { data, loading, error } = useJsonBundle<{ labor: LaborIndex[] }>({ labor: "/data/labor_indices.json" })
+  const formId = React.useId()
+  const inputId = (name: string) => `${formId}-${name}`
+  const title = custom ? "Prijsherzieningscalculator op maat" : "Prijsherzieningscalculator — standaard I-2021"
   const [size, setSize] = React.useState(SIZES[0].value)
   const [category, setCategory] = React.useState("D")
   const [initialDate, setInitialDate] = React.useState("")
@@ -115,9 +130,9 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
       .sort((a, b) => a.effective_date.localeCompare(b.effective_date)),
     [data, size, category]
   )
-  const materialSeries = React.useMemo(() => [
-    ...liveMaterialSeries(monthlyData), ...(snapshot.data?.materials.series ?? []),
-  ], [monthlyData, snapshot.data])
+  const materialSeries = React.useMemo(() => custom ? [
+    ...liveMaterialSeries(monthlyData), ...(snapshot?.data?.materials.series ?? []),
+  ] : liveMaterialSeries(monthlyData).filter(row => row.id === "Index I-2021"), [monthlyData, custom, snapshot?.data])
   const initialMonth = previousMaterialMonth(initialDate)
   const revisionMonth = previousMaterialMonth(revisionDate)
   const S = findLaborIndex(laborRows, initialDate, true)
@@ -127,7 +142,7 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
   const b = numericInput(materialShare) / 100
   const remainder = 1 - a - b
   const fixedShare = Math.abs(remainder) < 1e-10 ? 0 : remainder
-  const selectedMaterials = basket.map(row => {
+  const selectedMaterials = (custom ? basket : [{ key: 0, id: "Index I-2021", weight: "100" }]).map(row => {
     const series = materialSeries.find(item => item.id === row.id)
     return {
       ...row, series,
@@ -155,20 +170,19 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
     setBasket(rows => rows.map(row => row.key === key ? { ...row, ...update } : row))
 
   return (
-    <Card>
+    <Card role="region" aria-label={title}>
       <CardHeader>
-        <CardTitle className="flex items-center gap-2"><Calculator className="h-5 w-5" />Prijsherzieningscalculator</CardTitle>
-        <CardDescription>Bereken met S/s en I-2021, of stel optioneel uw eigen materiaalmandje samen.</CardDescription>
+        <CardTitle className="flex items-center gap-2"><Calculator className="h-5 w-5 shrink-0" /><h2>{title}</h2></CardTitle>
+        <CardDescription>{custom
+          ? "Bereken met S/s en een eigen gewogen materiaalmandje. Deze calculator staat los van de standaardcalculator."
+          : "Bereken met S/s en uitsluitend de officiële, vaste samenstelling van I-2021."}</CardDescription>
       </CardHeader>
       <CardContent className="space-y-4">
         <p className="text-sm text-muted-foreground">
           Alleen voor {REGIME}. Kies de aanvangsdatum, herzieningsdatum en aandelen zoals bepaald in uw contract.
-          S/s omvat lonen, sociale lasten en verzekeringen. Standaard gebruiken we I-2021 voor materialen.
+          S/s omvat lonen, sociale lasten en verzekeringen.
+          {custom ? " Verdeel het materiaalaandeel volgens uw contract." : " De materiaalsamenstelling is hier niet aanpasbaar."}
           {" "}<a className={linkClass} href={SOURCE} target="_blank" rel="noopener noreferrer">Meer informatie bij FOD Economie</a>.
-        </p>
-        <p className="rounded-md border p-3 text-sm">
-          Nieuw: de materiaalreferentie is automatisch de <strong>maand vóór de gekozen datum</strong>, zoals in Revtool.
-          Voorheen gebruikte deze calculator de gekozen kalendermaand. De S/s-regels uit de officiële PDF blijven behouden.
         </p>
         {loading ? <p role="status">S/s-waarden laden...</p> : error ? (
           <p role="alert" className="text-sm text-destructive">S/s-waarden konden niet worden geladen: {error}</p>
@@ -176,14 +190,14 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
           <>
             <div className="grid gap-4 md:grid-cols-2">
               <div className="space-y-2">
-                <Label htmlFor="employerSize">Aantal werknemers (werklieden)</Label>
-                <select id="employerSize" className={selectClass} value={size} onChange={event => setSize(event.target.value)}>
+                <Label htmlFor={inputId("employerSize")}>Aantal werknemers (werklieden)</Label>
+                <select id={inputId("employerSize")} className={selectClass} value={size} onChange={event => setSize(event.target.value)}>
                   {SIZES.map(option => <option key={option.value} value={option.value}>{option.label}</option>)}
                 </select>
               </div>
               <div className="space-y-2">
-                <Label htmlFor="workCategory">Categorie</Label>
-                <select id="workCategory" className={selectClass} value={category} onChange={event => setCategory(event.target.value)}>
+                <Label htmlFor={inputId("workCategory")}>Categorie</Label>
+                <select id={inputId("workCategory")} className={selectClass} value={category} onChange={event => setCategory(event.target.value)}>
                   {CATEGORIES.map(option => <option key={option.code} value={option.code}>Categorie {option.code} (RSZ {option.rsz})</option>)}
                 </select>
               </div>
@@ -195,8 +209,8 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
               </ul>
             </details>
             <div className="space-y-2">
-              <Label htmlFor="initialPrice">Initiële contractprijs (P₀)</Label>
-              <Input id="initialPrice" type="number" min="0" step="0.01" value={price} onChange={event => setPrice(event.target.value)} />
+              <Label htmlFor={inputId("initialPrice")}>Initiële contractprijs (P₀)</Label>
+              <Input id={inputId("initialPrice")} type="number" min="0" step="0.01" value={price} onChange={event => setPrice(event.target.value)} />
             </div>
             <div className="grid gap-4 md:grid-cols-2">
               {[
@@ -227,23 +241,21 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
                 { id: "materialShare", label: "Aandeel materialen (%)", value: materialShare, setValue: setMaterialShare },
               ].map(field => (
                 <div key={field.id} className="space-y-2">
-                  <Label htmlFor={field.id}>{field.label}</Label>
-                  <Input id={field.id} type="number" min="0" max="100" step="0.01" value={field.value} onChange={event => field.setValue(event.target.value)} />
+                  <Label htmlFor={inputId(field.id)}>{field.label}</Label>
+                  <Input id={inputId(field.id)} type="number" min="0" max="100" step="0.01" value={field.value} onChange={event => field.setValue(event.target.value)} />
                 </div>
               ))}
               <div className="space-y-2">
-                <Label htmlFor="fixedShare">Vast deel (%) — automatisch</Label>
-                <Input id="fixedShare" readOnly value={Number.isFinite(fixedShare) ? pct(100 * fixedShare) : ""} />
+                <Label htmlFor={inputId("fixedShare")}>Vast deel (%) — automatisch</Label>
+                <Input id={inputId("fixedShare")} readOnly value={Number.isFinite(fixedShare) ? pct(100 * fixedShare) : ""} />
               </div>
             </div>
-            <details className="rounded-md border p-3">
-              <summary className="cursor-pointer text-sm font-medium">
-                Materiaalsamenstelling aanpassen — {basket.length === 1 && basket[0].id === "Index I-2021" ? "standaard I-2021" : `${basket.length} materiaalreeksen`}
-              </summary>
+            {custom && <section className="rounded-md border p-3" aria-label="Materiaalsamenstelling">
+              <h3 className="text-sm font-medium">Materiaalsamenstelling aanpassen</h3>
               <div className="mt-4 space-y-4">
                 <p className="text-xs text-muted-foreground">Verdeel alleen het materiaalaandeel over de onderstaande reeksen. De gewichten binnen dit mandje moeten samen 100% zijn. Er worden geen contractgewichten voorgeschreven.</p>
-                {snapshot.loading && <p role="status" className="text-sm">Extra materiaalreeksen laden...</p>}
-                {snapshot.error && <p role="alert" className="text-sm text-destructive">Extra materiaalreeksen konden niet worden geladen: {snapshot.error}. De FOD-reeksen blijven beschikbaar.</p>}
+                {snapshot?.loading && <p role="status" className="text-sm">Extra materiaalreeksen laden...</p>}
+                {snapshot?.error && <p role="alert" className="text-sm text-destructive">Extra materiaalreeksen konden niet worden geladen: {snapshot.error}. De FOD-reeksen blijven beschikbaar.</p>}
                 {basket.map((row, index) => (
                   <div key={row.key} className="grid gap-2 rounded-md border p-3 sm:grid-cols-[minmax(0,1fr)_7rem_auto]">
                     <div className="space-y-2">
@@ -251,8 +263,8 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
                       <MaterialPicker value={row.id} series={materialSeries} label={`Materiaal ${index + 1}`} onChange={id => updateMaterial(row.key, { id })} />
                     </div>
                     <div className="space-y-2">
-                      <Label htmlFor={`weight-${row.key}`}>Gewicht (%)</Label>
-                      <Input id={`weight-${row.key}`} type="number" min="0" max="100" step="0.01" value={row.weight} onChange={event => updateMaterial(row.key, { weight: event.target.value })} />
+                      <Label htmlFor={inputId(`weight-${row.key}`)}>Gewicht (%)</Label>
+                      <Input id={inputId(`weight-${row.key}`)} type="number" min="0" max="100" step="0.01" value={row.weight} onChange={event => updateMaterial(row.key, { weight: event.target.value })} />
                     </div>
                     <Button type="button" variant="ghost" className="self-end" disabled={basket.length === 1} aria-label={`Materiaal ${index + 1} verwijderen`}
                       onClick={() => setBasket(rows => rows.filter(item => item.key !== row.key))}><Trash2 className="h-4 w-4" aria-hidden="true" /></Button>
@@ -273,19 +285,23 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
                   Weekreeksen, prognoses en sectorlonen zijn niet opgenomen.
                 </p>
               </div>
-            </details>
+            </section>}
             <p className="text-sm">
               Materiaalreferenties: {initialMonth ? monthLabel(initialMonth) : "kies een contractdatum"} → {revisionMonth ? monthLabel(revisionMonth) : "kies een herzieningsdatum"}.
             </p>
-            {validation && <p role="status" className="text-sm text-muted-foreground">{validation}</p>}
-            {result && (
-              <div aria-live="polite" className="rounded-lg bg-muted p-4 space-y-2">
+            <section role="status" aria-label="Resultaat prijsherziening" className="rounded-lg border bg-muted p-4 space-y-2">
+              <h3 className="font-semibold">Resultaat prijsherziening</h3>
+              {result ? <>
                 <p className="flex justify-between items-center gap-2"><strong>Herziene prijs (P):</strong>
                   <span className="text-2xl font-bold">€ {pct(result.revisedPrice)}</span>
                 </p>
                 <p className="text-sm">Verschil: € {pct(result.difference)} ({pct(100 * (result.factor - 1), 3)}%)</p>
-              </div>
-            )}
+              </> : <>
+                <p className="text-sm font-medium">Nog geen resultaat beschikbaar</p>
+                <p className="text-sm">{validation}</p>
+              </>}
+              <p className="text-xs text-muted-foreground">Het resultaat wordt automatisch bijgewerkt zodra beide datums en alle invoer geldig zijn.</p>
+            </section>
             <details className="rounded-md border p-3">
               <summary className="cursor-pointer text-sm font-medium">Berekening en bronnen</summary>
               <div className="mt-3 space-y-3 text-sm">
@@ -299,10 +315,13 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
                       {" "}→ {revisionMonth ? monthLabel(revisionMonth) : "Herziening"}: {row.revision?.value.toLocaleString("nl-BE", { maximumFractionDigits: 6 }) ?? "niet beschikbaar"}.</p>
                     {row.series && <>
                       <p className="text-xs text-muted-foreground">{row.series.note}</p>
+                      <p className="text-xs text-muted-foreground">Beschikbare materiaalmaanden: {row.series.observations.length
+                        ? `${monthLabel(row.series.observations.reduce((first, item) => item.date < first ? item.date : first, row.series.observations[0].date))} – ${monthLabel(row.series.observations.reduce((last, item) => item.date > last ? item.date : last, row.series.observations[0].date))}`
+                        : "geen waarden"}.</p>
                       <a className={linkClass} href={row.series.source_url} target="_blank" rel="noopener noreferrer">Controleer de bron</a>
                       {row.series.sheet && <p className="text-xs text-muted-foreground">
-                        {snapshot.data?.materials.source_workbook} · werkblad {row.series.sheet} · tabel {row.series.table} · cellen {row.initial?.cell ?? "—"} / {row.revision?.cell ?? "—"}.
-                        {" "}Momentopname: {snapshot.data?.materials.snapshot_date}.
+                        {snapshot?.data?.materials.source_workbook} · werkblad {row.series.sheet} · tabel {row.series.table} · cellen {row.initial?.cell ?? "—"} / {row.revision?.cell ?? "—"}.
+                        {" "}Momentopname: {snapshot?.data?.materials.snapshot_date}.
                       </p>}
                     </>}
                   </div>
@@ -331,8 +350,8 @@ export function PriceRevisionCalculator({ monthlyData }: { monthlyData: Material
         )}
         <div className="rounded-lg border bg-muted p-4 text-sm space-y-2">
           <p className="font-medium">Formule</p>
-          <p className="font-mono text-xs">P = P₀ × (a × s/S + b × Σ(xⱼ × iⱼ/Iⱼ) + c)</p>
-          <p className="text-xs text-muted-foreground">a = loonaandeel; b = materiaalaandeel; xⱼ = gewicht binnen het materiaalmandje (samen 100%); c = 1 − a − b. Neem de aandelen, reeksen en toepassingsregels uit uw contract over. Dit is een rekenhulpmiddel, geen juridisch advies.</p>
+          <p className="font-mono text-xs">{custom ? "P = P₀ × (a × s/S + b × Σ(xⱼ × iⱼ/Iⱼ) + c)" : "P = P₀ × (a × s/S + b × i/I + c)"}</p>
+          <p className="text-xs text-muted-foreground">a = loonaandeel; b = materiaalaandeel; {custom ? "xⱼ = gewicht binnen het materiaalmandje (samen 100%);" : "i/I = verhouding van de standaardindex I-2021;"} c = 1 − a − b. Neem de aandelen, reeksen en toepassingsregels uit uw contract over. Dit is een rekenhulpmiddel, geen juridisch advies.</p>
         </div>
       </CardContent>
     </Card>

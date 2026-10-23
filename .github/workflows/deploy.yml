@@ -80,8 +80,8 @@ jobs:
           set -euo pipefail
           git init .
           git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
-          git fetch --depth=1 origin "${GITHUB_SHA}"
-          git checkout --force FETCH_HEAD
+          git fetch --prune --no-tags origin "+refs/heads/*:refs/remotes/origin/*"
+          git checkout --force "${GITHUB_SHA}"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -109,14 +109,62 @@ jobs:
           echo "${{ needs.detect.outputs.reason }}"
           echo "Changed apps: ${{ needs.detect.outputs.changed_apps }}"
 
+      - name: Restore previous app outputs
+        id: app_outputs
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            apps/**/out
+            .app-outputs-revision
+          key: app-outputs-v1-${{ runner.os }}-${{ github.ref_name }}-${{ github.sha }}
+          restore-keys: |
+            app-outputs-v1-${{ runner.os }}-${{ github.ref_name }}-
+
+      - name: Check changes since the cached build
+        id: cached_changes
+        run: |
+          set -euo pipefail
+          base=""
+          if [ -f .app-outputs-revision ]; then
+            base="$(cat .app-outputs-revision)"
+          fi
+          node scripts/detect-changed-apps.mjs \
+            --base "$base" \
+            --head "$GITHUB_SHA" \
+            --output "$RUNNER_TEMP/cached-changes"
+          cat "$RUNNER_TEMP/cached-changes" >> "$GITHUB_OUTPUT"
+
       - name: Build changed apps only
         run: node scripts/build-apps.mjs --apps-json '${{ needs.detect.outputs.changed_apps }}'
+
+      - name: Rebuild other apps changed since the cached build
+        env:
+          REQUESTED_APPS: ${{ needs.detect.outputs.changed_apps }}
+          CACHED_CHANGED_APPS: ${{ steps.cached_changes.outputs.changed_apps }}
+        run: |
+          apps="$(node --input-type=module -e '
+            const requested = new Set(JSON.parse(process.env.REQUESTED_APPS));
+            console.log(JSON.stringify(JSON.parse(process.env.CACHED_CHANGED_APPS).filter(app => !requested.has(app))));
+          ')"
+          node scripts/build-apps.mjs --apps-json "$apps"
 
       - name: Backfill missing app outputs from a cold cache
         run: node scripts/build-apps.mjs --apps-json '${{ needs.detect.outputs.all_apps }}' --missing-out-only
 
       - name: Merge outputs
         run: node scripts/merge-outputs.mjs
+
+      - name: Record app output revision
+        run: printf '%s\n' "$GITHUB_SHA" > .app-outputs-revision
+
+      - name: Save app outputs for the next deploy
+        if: steps.app_outputs.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            apps/**/out
+            .app-outputs-revision
+          key: ${{ steps.app_outputs.outputs.cache-primary-key }}
 
       - name: Build standalone versions for changed analyses
         run: node scripts/build-standalone-apps.mjs --apps-json '${{ needs.detect.outputs.changed_standalone_apps }}'
