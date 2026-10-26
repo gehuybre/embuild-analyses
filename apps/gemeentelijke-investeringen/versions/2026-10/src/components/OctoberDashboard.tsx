@@ -263,22 +263,6 @@ export function OctoberDashboard() {
           Financiële en immateriële vaste activa, roerende goederen en leasing zijn uitgesloten.
           De bron bevat gemeenten en OCMW&apos;s of districten.
         </p>
-        <ul className="list-disc pl-5 text-sm space-y-2">
-          {dataset.warnings.map((warning) => <li key={warning}>{warning}</li>)}
-        </ul>
-        <p className="text-sm">
-          De uitsplitsing per gemeente, beleidsdomein en rekening komt uit vijf volledige exports per planperiode
-          (jaarrekeningen 2014-2019 en 2020-2025, meest recente plannen 2014, 2020 en 2026) die zowel de economische
-          rekening als het beleidsveld bevatten. Dezelfde bouwscope en dezelfde regel voor positieve rekeningen zijn
-          toegepast; provincies en Vlaanderen zijn sommen van gemeenten. Per inwoner gebruikt de bevolking die in
-          dezelfde export achter de kolom &quot;Uitgave per inwoner&quot; zit. Verschillen met de BV-grafieken van september
-          komen onder meer doordat september alle materiële vaste activa telde en niet enkel de bouwscope.
-        </p>
-        <p className="text-sm">
-          De projectbrowser toont acties uit de meerjarenplannen 2026-2031 met hun volledige rekeninggroep
-          (bijvoorbeeld alle gemeenschapsgoederen, ook roerende goederen). Projectbedragen tellen daarom niet altijd
-          exact op tot de bouwinvesteringen in de grafiek.
-        </p>
         <p className="text-sm">
           Controlebestanden:
           {" "}<a className="underline" href={getPublicPath("/data/construction_latest.csv")}>meest recent plan</a>,
