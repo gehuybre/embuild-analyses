@@ -256,16 +256,12 @@ export function OctoberDashboard() {
       <BreakdownSection kind="rek" />
       <section className="rounded-lg border p-4 space-y-3" aria-labelledby="scope-title">
         <h2 id="scope-title" className="text-xl font-semibold">Afbakening en aandachtspunten</h2>
-        <p className="text-sm">
-          Dezelfde bouwscope als de vroegere BV-selectie, nu rechtstreeks op economische rekeningen gefilterd:
-        </p>
         <ul className="list-disc pl-5 text-sm space-y-1">
           {Object.entries(dataset.scope).map(([code, label]) => <li key={code}>{code}: {label}</li>)}
         </ul>
         <p className="text-sm">
           Financiële en immateriële vaste activa, roerende goederen en leasing zijn uitgesloten.
-          De bron bevat gemeenten en OCMW&apos;s of districten. De telling betreft besturen met bronregels,
-          ook als hun geselecteerde bouwuitgave nul is.
+          De bron bevat gemeenten en OCMW&apos;s of districten.
         </p>
         <ul className="list-disc pl-5 text-sm space-y-2">
           {dataset.warnings.map((warning) => <li key={warning}>{warning}</li>)}
