@@ -179,7 +179,12 @@ function main() {
         continue
       }
 
-      if (file === "scripts/merge-outputs.mjs" || file.startsWith(".github/workflows/")) {
+      if (
+        file === "scripts/merge-outputs.mjs" ||
+        file === "scripts/detect-changed-apps.mjs" ||
+        file === "scripts/shared-dependents.mjs" ||
+        file.startsWith(".github/workflows/")
+      ) {
         continue
       }
 
