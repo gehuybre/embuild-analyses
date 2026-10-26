@@ -4,6 +4,7 @@ import { appendFileSync } from "node:fs"
 import { spawnSync } from "node:child_process"
 import { appsForChangedPath, discoverAppPackages, ROOT } from "./app-registry.mjs"
 import { isPublishedToSite } from "./site-apps.mjs"
+import { appsAffectedBySharedFiles } from "./shared-dependents.mjs"
 const ZERO_SHA = "0000000000000000000000000000000000000000"
 const ROOT_WIDE_PATHS = new Set([
   "package.json",
@@ -143,9 +144,15 @@ function main() {
       .map((value) => value.trim())
       .filter(Boolean)
 
+    const sharedFiles = []
     for (const file of changedFiles) {
-      if (ROOT_WIDE_PATHS.has(file) || file.startsWith("packages/")) {
+      if (ROOT_WIDE_PATHS.has(file)) {
         markAllApps()
+        continue
+      }
+
+      if (file.startsWith("packages/")) {
+        sharedFiles.push(file)
         continue
       }
 
@@ -184,6 +191,20 @@ function main() {
     reason = changedFiles.length
       ? `Detected ${changedFiles.length} changed file(s) between ${base} and ${head}.`
       : `No file changes detected between ${base} and ${head}.`
+
+    if (sharedFiles.length) {
+      const affected = appsAffectedBySharedFiles(sharedFiles)
+      if (affected === null) {
+        reason += " Shared package changes cannot be attributed to specific apps, so all apps will rebuild."
+        markAllApps()
+      } else {
+        reason += ` Shared package changes affect ${affected.size} app(s) through their imports.`
+        for (const slug of affected) {
+          if (allApps.includes(slug)) changedApps.add(slug)
+          if (allStandaloneApps.includes(slug)) changedStandaloneApps.add(slug)
+        }
+      }
+    }
   }
 
   const changedAppsList = [...changedApps].sort()

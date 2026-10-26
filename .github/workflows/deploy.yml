@@ -16,6 +16,7 @@ on:
       - "scripts/build-standalone-apps.mjs"
       - "scripts/app-registry.mjs"
       - "scripts/detect-changed-apps.mjs"
+      - "scripts/shared-dependents.mjs"
       - "scripts/merge-outputs.mjs"
       - "scripts/generate-portal-data.mjs"
       - "scripts/analysis-versions.json"
@@ -166,9 +167,6 @@ jobs:
             .app-outputs-revision
           key: ${{ steps.app_outputs.outputs.cache-primary-key }}
 
-      - name: Build standalone versions for changed analyses
-        run: node scripts/build-standalone-apps.mjs --apps-json '${{ needs.detect.outputs.changed_standalone_apps }}'
-
       - name: Remove files exceeding CF Pages 25MB limit
         run: |
           find dist -size +25M -print -delete
@@ -179,6 +177,46 @@ jobs:
           name: dist
           path: dist/
           retention-days: 1
+
+  # Standalone builds are only published as an artifact, so they run in parallel
+  # with the site build and never delay the Cloudflare deploy.
+  standalone:
+    needs: detect
+    if: needs.detect.outputs.changed_standalone_count != '0'
+    runs-on: ubuntu-latest
+    env:
+      NEXT_PUBLIC_DEPLOY_VERSION: ${{ github.sha }}
+      NODE_OPTIONS: "--max-old-space-size=6144"
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - name: Checkout
+        run: |
+          set -euo pipefail
+          git init .
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git fetch --prune --no-tags origin "+refs/heads/*:refs/remotes/origin/*"
+          git checkout --force "${GITHUB_SHA}"
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Setup pnpm
+        run: |
+          corepack enable
+          corepack prepare pnpm@10.33.0 --activate
+
+      - name: Install Python data dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          python3 -m pip install pandas openpyxl
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build standalone versions for changed analyses
+        run: node scripts/build-standalone-apps.mjs --apps-json '${{ needs.detect.outputs.changed_standalone_apps }}'
 
       - name: Upload standalone builds with Cloudflare README files
         uses: actions/upload-artifact@v4
