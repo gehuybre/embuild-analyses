@@ -1,5 +1,7 @@
 "use client"
 
+import { AnalysisOnly } from "@embuild/shared/components/shared/AnalysisOnly"
+
 import React, { useMemo, useState, useEffect } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
@@ -206,9 +208,11 @@ export function InvesteringenBVDifferenceSection({ viewType = "chart" }: Investe
             data={chartData.map(d => ({ label: d.label, value: d.value }))}
           />
         </div>
-        <p className="text-sm text-muted-foreground">
-          Totale uitgave per domein: verschil tussen {START_YEAR} en {END_YEAR}.
-        </p>
+        <AnalysisOnly>
+          <p className="text-sm text-muted-foreground">
+            Totale uitgave per domein: verschil tussen {START_YEAR} en {END_YEAR}.
+          </p>
+        </AnalysisOnly>
       </CardHeader>
       <CardContent>
         {chartData.length === 0 ? (
@@ -256,9 +260,11 @@ export function InvesteringenBVDifferenceSection({ viewType = "chart" }: Investe
                   </ResponsiveContainer>
                 </div>
               </div>
-              <p className="text-sm text-muted-foreground mt-2">
-                Positief = stijging, negatief = daling.
-              </p>
+              <AnalysisOnly>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Positief = stijging, negatief = daling.
+                </p>
+              </AnalysisOnly>
             </TabsContent>
 
             <TabsContent value="table" className="mt-4">

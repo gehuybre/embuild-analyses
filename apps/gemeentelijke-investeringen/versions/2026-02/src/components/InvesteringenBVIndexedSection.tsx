@@ -1,5 +1,7 @@
 "use client"
 
+import { AnalysisOnly } from "@embuild/shared/components/shared/AnalysisOnly"
+
 import React, { useEffect, useMemo, useState } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
@@ -289,9 +291,11 @@ export function InvesteringenBVIndexedSection({
               dataSourceUrl="https://statbel.fgov.be/sites/default/files/files/opendata/Consumptieprijsindex%20en%20gezondheidsindex/CPI%20All%20base%20years.zip"
             />
           </div>
-          <p className="text-sm text-muted-foreground">
-            Totale investeringen voor Vlaamse gemeenten, zonder opsplitsing per beleidsdomein.
-          </p>
+          <AnalysisOnly>
+            <p className="text-sm text-muted-foreground">
+              Totale investeringen voor Vlaamse gemeenten, zonder opsplitsing per beleidsdomein.
+            </p>
+          </AnalysisOnly>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
@@ -320,10 +324,12 @@ export function InvesteringenBVIndexedSection({
               />
             </div>
 
-            <div className="bg-muted/50 p-3 rounded border text-sm space-y-1">
-              <p>{methodologyText}</p>
-              <p className="text-muted-foreground">{metadata.midpoint_note}</p>
-            </div>
+            <AnalysisOnly>
+              <div className="bg-muted/50 p-3 rounded border text-sm space-y-1">
+                <p>{methodologyText}</p>
+                <p className="text-muted-foreground">{metadata.midpoint_note}</p>
+              </div>
+            </AnalysisOnly>
 
             <Tabs value={currentView} onValueChange={(value) => setCurrentView(value as 'chart' | 'table')} className="w-full">
               <TabsList>

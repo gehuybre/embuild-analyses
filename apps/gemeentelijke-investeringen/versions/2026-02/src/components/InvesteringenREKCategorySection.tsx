@@ -1,5 +1,7 @@
 "use client"
 
+import { AnalysisOnly } from "@embuild/shared/components/shared/AnalysisOnly"
+
 import React, { useMemo, useState, useEffect } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Button } from "@embuild/shared/components/ui/button"
@@ -193,9 +195,11 @@ export function InvesteringenREKCategorySection() {
               />
             </div>
           </div>
-          <p className="text-sm text-muted-foreground">
-            Top 9 algemene rekeningen met hoogste investeringen + overige categorieën.
-          </p>
+          <AnalysisOnly>
+            <p className="text-sm text-muted-foreground">
+              Top 9 algemene rekeningen met hoogste investeringen + overige categorieën.
+            </p>
+          </AnalysisOnly>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">

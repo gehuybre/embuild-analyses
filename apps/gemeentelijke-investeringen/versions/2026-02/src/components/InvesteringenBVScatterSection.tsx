@@ -1,5 +1,7 @@
 "use client"
 
+import { AnalysisOnly } from "@embuild/shared/components/shared/AnalysisOnly"
+
 import React, { useMemo, useState, useEffect } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Button } from "@embuild/shared/components/ui/button"
@@ -267,9 +269,11 @@ export function InvesteringenBVScatterSection() {
             />
           </div>
         </div>
-        <p className="text-sm text-muted-foreground">
-          Dit histogram toont de verdeling van investeringen over alle Vlaamse gemeenten. Zoek een gemeente om haar positie in de verdeling te zien.
-        </p>
+        <AnalysisOnly>
+          <p className="text-sm text-muted-foreground">
+            Dit histogram toont de verdeling van investeringen over alle Vlaamse gemeenten. Zoek een gemeente om haar positie in de verdeling te zien.
+          </p>
+        </AnalysisOnly>
       </CardHeader>
       <CardContent>
         <div className="space-y-4">

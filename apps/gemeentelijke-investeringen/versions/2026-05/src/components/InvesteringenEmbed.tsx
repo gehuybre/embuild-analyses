@@ -1,5 +1,7 @@
 "use client"
 
+import { AnalysisOnly } from "@embuild/shared/components/shared/AnalysisOnly"
+
 import React, { useMemo, useState, useEffect, useRef } from 'react'
 import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
@@ -752,11 +754,13 @@ export function InvesteringenEmbed({
             </div>
 
             {perspective === "bv" && selectedDomain && selectedDomainSubdomains.length > 0 && (
-              <div className="bg-muted/50 p-3 rounded border text-sm">
-                <p>
-                  <span className="font-semibold">Dit domein bevat:</span> {selectedDomainSubdomains.join(", ")}
-                </p>
-              </div>
+              <AnalysisOnly>
+                <div className="bg-muted/50 p-3 rounded border text-sm">
+                  <p>
+                    <span className="font-semibold">Dit domein bevat:</span> {selectedDomainSubdomains.join(", ")}
+                  </p>
+                </div>
+              </AnalysisOnly>
             )}
 
             <Tabs value={currentView} onValueChange={(v) => setCurrentView(v as ViewType)} className="w-full">

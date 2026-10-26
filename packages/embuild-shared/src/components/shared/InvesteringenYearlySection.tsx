@@ -5,6 +5,7 @@ import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis
 import { Card, CardContent, CardHeader, CardTitle } from "../ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "../ui/tabs"
 import { ExportButtons } from "./ExportButtons"
+import { AnalysisOnly } from "./AnalysisOnly"
 import { CHART_SERIES_COLORS } from "../../lib/chart-theme"
 import { fetchInvesteringenJson } from "../../lib/investeringen-data"
 import { createAutoScaledFormatter } from "../../lib/number-formatters"
@@ -94,17 +95,21 @@ export function InvesteringenYearlySection({
             dataSourceUrl={SOURCE_URL}
           />
         </div>
-        <p className="text-sm text-muted-foreground">
-          Totale geplande investeringsuitgaven voor heel Vlaanderen, volgens de beleidsvelden (BV).
-          Dit zijn bedragen uit de meerjarenplannen, geen gerealiseerde investeringen uit de jaarrekeningen.
-        </p>
+        <AnalysisOnly>
+          <p className="text-sm text-muted-foreground">
+            Totale geplande investeringsuitgaven voor heel Vlaanderen, volgens de beleidsvelden (BV).
+            Dit zijn bedragen uit de meerjarenplannen, geen gerealiseerde investeringen uit de jaarrekeningen.
+          </p>
+        </AnalysisOnly>
       </CardHeader>
       <CardContent className="space-y-4">
-        <p className="text-sm text-muted-foreground">
-          Elk boekjaar telt alleen mee in het bijbehorende plan: 2014-2019 uit rapportjaar 2014,
-          2020-2025 uit rapportjaar 2020 en 2026-2031 uit rapportjaar 2026.
-          Bedragen zoals opgenomen in de bron, zonder bijkomende inflatiecorrectie.
-        </p>
+        <AnalysisOnly>
+          <p className="text-sm text-muted-foreground">
+            Elk boekjaar telt alleen mee in het bijbehorende plan: 2014-2019 uit rapportjaar 2014,
+            2020-2025 uit rapportjaar 2020 en 2026-2031 uit rapportjaar 2026.
+            Bedragen zoals opgenomen in de bron, zonder bijkomende inflatiecorrectie.
+          </p>
+        </AnalysisOnly>
         {error ? (
           <p role="alert" className="text-destructive">De jaartotalen konden niet worden geladen: {error}</p>
         ) : data.length === 0 ? (
@@ -175,7 +180,9 @@ export function InvesteringenYearlySection({
         )}
         <p className="text-sm text-muted-foreground">
           Bron: <a className="underline" href={SOURCE_URL}>Agentschap Binnenlands Bestuur, BBC-DR meerjarenplannen</a>.
-          Dezelfde investeringsscope en bronversie als de overige BV-grafieken op deze pagina.
+          <AnalysisOnly>
+              {" "}Dezelfde investeringsscope en bronversie als de overige BV-grafieken op deze pagina.
+          </AnalysisOnly>
         </p>
       </CardContent>
     </Card>

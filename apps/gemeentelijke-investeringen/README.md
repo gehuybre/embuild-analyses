@@ -19,3 +19,15 @@ Nieuwe bronbestanden gaan naar
 archiveer ze per datum voordat je de bijbehorende versie verwerkt. Elke
 standalone build krijgt in het workflowartifact een README met de voorgestelde
 Cloudflare-link.
+
+## Embeds
+
+Alle embedsecties van februari, mei, september en oktober tonen alleen de
+visualisatie of tabel, titels, filters, legenda's en bronvermeldingen.
+Inleidende uitleg, methodologische notities en aanvullende broncontrole staan
+alleen op de volledige analysepagina. Dit wordt gedeeld geregeld met
+`AnalysisOnly`, op basis van dezelfde embedroutedetectie als de exportknoppen.
+Laad-, fout- en lege-selectiemeldingen blijven ook in embeds zichtbaar.
+
+Regressietests: `node --test tests/test_investeringen_embeds.cjs` vanuit de
+repositoryroot.
