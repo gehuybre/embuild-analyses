@@ -737,11 +737,17 @@ def process_projects(df, nis_lookups, policy_lookup=None):
                 "ac_short": ac_data.get('short', ''),
                 "ac_long": ac_data.get('long', ''),
                 "categories": categories,
+                "accounts": [],
                 "total_amount": 0,
                 "amount_per_capita": 0,
                 "yearly_amounts": {str(y): 0 for y in range(2026, 2032)},
                 "yearly_per_capita": {str(y): 0 for y in range(2026, 2032)}
             }
+
+        # Niveau 4 economic account group (e.g. I.1.B.1), used for deep links from the investment charts.
+        account_group = clean_text_value(row.get('Niveau 4', '')).split(' ')[0]
+        if account_group and account_group not in projects_map[project_key]["accounts"]:
+            projects_map[project_key]["accounts"].append(account_group)
 
         # Accumulate amount
         projects_map[project_key]["total_amount"] += amount

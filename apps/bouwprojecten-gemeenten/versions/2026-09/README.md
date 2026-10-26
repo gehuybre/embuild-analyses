@@ -43,6 +43,17 @@ bevat ook andere investeringsuitgaven.
 Boekjaren 2032 en 2033 blijven behouden in de totalen, zoals in de oude versie.
 De projectbrowser toont afzonderlijke jaren 2026-2031.
 
+Elk project bevat `accounts`: de Niveau 4-rekeninggroepen (bv. `I.1.B.1`) van
+zijn uitgavenregels. De browser leest deze filters uit de URL, zodat de
+oktoberversie van gemeentelijke investeringen kan doorlinken:
+
+- `gemeente`: NIS-code;
+- `categorie`: categorie-id, bv. `02-mobiliteit`;
+- `jaar`: 2026-2031, toont projecten met een gepland bedrag in dat jaar, gesorteerd op dat bedrag;
+- `rekening`: Niveau 4-groep, bv. `I.1.B.1`.
+
+Een banner toont de jaar- en rekeningfilter en laat ze wissen.
+
 Bedragen per inwoner gebruiken de mediane bevolkingsverhouding uit de
 septemberversie van gemeentelijke investeringen (`Totaal / Per_inwoner`),
 bij voorkeur rapportjaar 2026. De plausibiliteitsgrens laat ook gemeenten

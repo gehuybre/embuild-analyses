@@ -11,10 +11,12 @@
     "I.1.D": "Toegestane investeringssubsidies"
   },
   "warnings": [
-    "De BV-exports zijn niet gebruikt: economische rekeningcodes ontbreken, zodat de bouwscope niet kan worden gefilterd. De recente BV-export is bovendien afgekapt op 150.000 rijen.",
+    "De twee oudere BV-exports zijn niet gebruikt: economische rekeningcodes ontbreken, zodat de bouwscope niet kan worden gefilterd. De recente BV-export is bovendien afgekapt op 150.000 rijen. De uitsplitsing per beleidsdomein komt uit afzonderlijke, volledige exports per planperiode met zowel rekening als beleidsveld.",
+    "Het origineel beginkrediet bestaat niet per beleidsveld; domein- en rekeningfilters gebruiken het meest recente plan of de jaarrekening.",
     "De meest recente plannen kunnen voor verstreken jaren al zijn aangepast aan de jaarrekening. De vergelijking is geen meting van de uitvoering van het oorspronkelijke plan.",
     "Waarden van nul of lager per economische rekening worden weggelaten, conform de eerdere REK-verwerking. Dit is dus geen netto saldo inclusief negatieve boekingen.",
-    "Boekjaar 2019: verschillende of onvolledige gemeentelijke dekking (latest: 283, original: 285, actual: 284). Totalen zijn niet gecorrigeerd voor ontbrekende besturen."
+    "Boekjaar 2019: verschillende of onvolledige gemeentelijke dekking (latest: 283, original: 285, actual: 284). Totalen zijn niet gecorrigeerd voor ontbrekende besturen.",
+    "De uitsplitsing per gemeente, beleidsdomein en rekening komt uit aparte exports per planperiode. Hun Vlaamse jaartotalen wijken hoogstens 1.0 miljoen euro af (boekjaar 2026) van de jaartotalen in de vergelijkingsgrafieken."
   ],
   "rows": [
     {

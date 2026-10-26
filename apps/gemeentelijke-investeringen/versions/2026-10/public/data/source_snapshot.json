@@ -76,6 +76,256 @@
       "reason": "No economic-account classification; not usable for construction filtering"
     }
   ],
+  "detail_sources": {
+    "JR 2014.xlsx": {
+      "source": "actual",
+      "raw_rows": 81310,
+      "source_filters": "Toegepaste filters: \n [RijhoofdingNaarKeuze] is NIS-code\n [Type bestuur] is Gemeente en OCMW of District\n [Boekjaar] is 2014, 2015, 2016, 2017, 2018 of 2019\n [Type boekhouding] is Budgettaire Boekhouding\n [Meest recente] is Ja\n [Opgenomen (1)] I Investeringsverrichtingen (Niveau 1) + I.1 Investeringsuitgaven (Niveau 2)\n [Type rapport] is Jaarrekening\n [Rapportjaar] is 2014, 2015, 2016, 2017, 2018 of 2019\n [Opgenomen (3)] 1) Rapport (Value4), 2) Econ. indeling (Value4), 3) Beleidsveld (BV) (Value4)\n [Uitgesloten (1)] 1) Rapport (Value4) + Status rapport (KolomhoofdingNaarKeuze)\n [Opgenomen (2)] 1) Budgettaire boekhouding (Value4) + Uitgave (WaardeNaarKeuze), 1) Budgettaire boekhouding (Value4) + Uitgave per inwoner (WaardeNaarKeuze)",
+      "filename": "JR 2014.xlsx",
+      "sha256": "e2fb14f540bd94a55ed96f7918557e29527a6a3602afde5f995a2735a89babe7"
+    },
+    "JR 2020.xlsx": {
+      "source": "actual",
+      "raw_rows": 83405,
+      "source_filters": "Toegepaste filters: \n [RijhoofdingNaarKeuze] is NIS-code\n [Type bestuur] is Gemeente en OCMW of District\n [Boekjaar] is 2020, 2021, 2022, 2023, 2024 of 2025\n [Type boekhouding] is Budgettaire Boekhouding\n [Meest recente] is Ja\n [Opgenomen (1)] I Investeringsverrichtingen (Niveau 1) + I.1 Investeringsuitgaven (Niveau 2)\n [Type rapport] is Jaarrekening\n [Rapportjaar] is 2020, 2021, 2022, 2023, 2024 of 2025\n [Opgenomen (3)] 1) Rapport (Value4), 2) Econ. indeling (Value4), 3) Beleidsveld (BV) (Value4)\n [Uitgesloten (1)] 1) Rapport (Value4) + Status rapport (KolomhoofdingNaarKeuze)\n [Opgenomen (2)] 1) Budgettaire boekhouding (Value4) + Uitgave (WaardeNaarKeuze), 1) Budgettaire boekhouding (Value4) + Uitgave per inwoner (WaardeNaarKeuze)",
+      "filename": "JR 2020.xlsx",
+      "sha256": "cca0291ea278d730f2dc248ba4b1fa6408ce12056395da76015abb903257eb86"
+    },
+    "MJP 2014.xlsx": {
+      "source": "latest",
+      "raw_rows": 111203,
+      "source_filters": "Toegepaste filters: \n [RijhoofdingNaarKeuze] is NIS-code\n [Type bestuur] is Gemeente en OCMW of District\n [Type boekhouding] is Budgettaire Boekhouding\n [Meest recente] is Ja\n [Opgenomen (1)] I Investeringsverrichtingen (Niveau 1) + I.1 Investeringsuitgaven (Niveau 2)\n [Type rapport] is Meerjarenplan\n [Rapportjaar] is 2014\n [Opgenomen (3)] 1) Rapport (Value4), 2) Econ. indeling (Value4), 3) Beleidsveld (BV) (Value4)\n [Uitgesloten (1)] 1) Rapport (Value4) + Status rapport (KolomhoofdingNaarKeuze)\n [Opgenomen (2)] 1) Budgettaire boekhouding (Value4) + Uitgave (WaardeNaarKeuze), 1) Budgettaire boekhouding (Value4) + Uitgave per inwoner (WaardeNaarKeuze)",
+      "filename": "MJP 2014.xlsx",
+      "sha256": "c6b76f02ba829a2b5b1c2758116f0a12acca9fdd680fbd06c84b6d5bef3bc3fa"
+    },
+    "MJP 2020.xlsx": {
+      "source": "latest",
+      "raw_rows": 125162,
+      "source_filters": "Toegepaste filters: \n [RijhoofdingNaarKeuze] is NIS-code\n [Type bestuur] is Gemeente en OCMW of District\n [Type boekhouding] is Budgettaire Boekhouding\n [Meest recente] is Ja\n [Opgenomen (1)] I Investeringsverrichtingen (Niveau 1) + I.1 Investeringsuitgaven (Niveau 2)\n [Type rapport] is Meerjarenplan\n [Rapportjaar] is 2020\n [Opgenomen (3)] 1) Rapport (Value4), 2) Econ. indeling (Value4), 3) Beleidsveld (BV) (Value4)\n [Uitgesloten (1)] 1) Rapport (Value4) + Status rapport (KolomhoofdingNaarKeuze)\n [Opgenomen (2)] 1) Budgettaire boekhouding (Value4) + Uitgave (WaardeNaarKeuze), 1) Budgettaire boekhouding (Value4) + Uitgave per inwoner (WaardeNaarKeuze)",
+      "filename": "MJP 2020.xlsx",
+      "sha256": "2bdaaee70e97941972f6d79d9838e79459a90ee0f74a9c28fc08b71b506a7483"
+    },
+    "MJP 2026.xlsx": {
+      "source": "latest",
+      "raw_rows": 87621,
+      "source_filters": "Toegepaste filters: \n [RijhoofdingNaarKeuze] is NIS-code\n [Type bestuur] is Gemeente en OCMW of District\n [Type boekhouding] is Budgettaire Boekhouding\n [Meest recente] is Ja\n [Opgenomen (1)] I Investeringsverrichtingen (Niveau 1) + I.1 Investeringsuitgaven (Niveau 2)\n [Type rapport] is Meerjarenplan\n [Rapportjaar] is 2026\n [Opgenomen (3)] 1) Rapport (Value4), 2) Econ. indeling (Value4), 3) Beleidsveld (BV) (Value4)\n [Uitgesloten (1)] 1) Rapport (Value4) + Status rapport (KolomhoofdingNaarKeuze)\n [Opgenomen (2)] 1) Budgettaire boekhouding (Value4) + Uitgave (WaardeNaarKeuze), 1) Budgettaire boekhouding (Value4) + Uitgave per inwoner (WaardeNaarKeuze)",
+      "filename": "MJP 2026.xlsx",
+      "sha256": "828cf5eb6b509d5b2920b17f4ee06a9b7a0e76d24ae81b1901c66c8f0df6c118"
+    }
+  },
+  "detail_reconciliation": [
+    {
+      "source": "latest",
+      "book_year": 2014,
+      "detail_total": 1584301038.13,
+      "yearly_total": 1584301038.13,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2015,
+      "detail_total": 1595769475.45,
+      "yearly_total": 1595769475.45,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2016,
+      "detail_total": 1518210012.84,
+      "yearly_total": 1518210012.84,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2017,
+      "detail_total": 2490215839.51,
+      "yearly_total": 2490215839.51,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2018,
+      "detail_total": 3656836414.95,
+      "yearly_total": 3656836414.95,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2019,
+      "detail_total": 2836656503.96,
+      "yearly_total": 2836656503.96,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2020,
+      "detail_total": 1790390961.66,
+      "yearly_total": 1790390961.66,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2021,
+      "detail_total": 1849538425.47,
+      "yearly_total": 1849538425.47,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2022,
+      "detail_total": 2089392779.44,
+      "yearly_total": 2089392779.44,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2023,
+      "detail_total": 2409573761.3,
+      "yearly_total": 2409573761.3,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2024,
+      "detail_total": 2931808809.65,
+      "yearly_total": 2931808809.65,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2025,
+      "detail_total": 4936833190.67,
+      "yearly_total": 4936833190.67,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2026,
+      "detail_total": 4746825899.98,
+      "yearly_total": 4747800060.75,
+      "difference": -974160.7700004578
+    },
+    {
+      "source": "latest",
+      "book_year": 2027,
+      "detail_total": 3368840570.32,
+      "yearly_total": 3368467220.32,
+      "difference": 373350.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2028,
+      "detail_total": 2854844540.16,
+      "yearly_total": 2855144540.16,
+      "difference": -300000.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2029,
+      "detail_total": 2271271694.86,
+      "yearly_total": 2271271694.86,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2030,
+      "detail_total": 1758429671.61,
+      "yearly_total": 1758429671.61,
+      "difference": 0.0
+    },
+    {
+      "source": "latest",
+      "book_year": 2031,
+      "detail_total": 1407695560.45,
+      "yearly_total": 1407695560.45,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2014,
+      "detail_total": 1584506308.21,
+      "yearly_total": 1584506308.21,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2015,
+      "detail_total": 1633944747.52,
+      "yearly_total": 1633944747.52,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2016,
+      "detail_total": 1518239689.15,
+      "yearly_total": 1518239689.15,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2017,
+      "detail_total": 1799935489.07,
+      "yearly_total": 1799935489.07,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2018,
+      "detail_total": 2191632802.05,
+      "yearly_total": 2191632802.05,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2019,
+      "detail_total": 1998086537.74,
+      "yearly_total": 1998086537.74,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2020,
+      "detail_total": 1790390961.66,
+      "yearly_total": 1790390961.66,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2021,
+      "detail_total": 1849538425.47,
+      "yearly_total": 1849538425.47,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2022,
+      "detail_total": 2089392779.44,
+      "yearly_total": 2089392779.44,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2023,
+      "detail_total": 2409523780.6,
+      "yearly_total": 2409523780.6,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2024,
+      "detail_total": 2663240076.54,
+      "yearly_total": 2663240076.54,
+      "difference": 0.0
+    },
+    {
+      "source": "actual",
+      "book_year": 2025,
+      "detail_total": 2582489967.44,
+      "yearly_total": 2582489967.44,
+      "difference": 0.0
+    }
+  ],
+  "detail_formula": "Per gemeente, boekjaar en rekening: rekeningen met een positieve som behouden, met al hun beleidsveldregels; provincie en Vlaanderen zijn sommen van gemeenten. Bevolking = Uitgave / Uitgave per inwoner uit dezelfde export.",
   "formula": "Som van positieve Uitgave per economische rekening na Niveau 5-bouwfilter; boekjaar binnen eigen zesjarig plan",
   "scope": {
     "I.1.B.1.a": "Terreinen en gebouwen",
@@ -85,10 +335,12 @@
     "I.1.D": "Toegestane investeringssubsidies"
   },
   "warnings": [
-    "De BV-exports zijn niet gebruikt: economische rekeningcodes ontbreken, zodat de bouwscope niet kan worden gefilterd. De recente BV-export is bovendien afgekapt op 150.000 rijen.",
+    "De twee oudere BV-exports zijn niet gebruikt: economische rekeningcodes ontbreken, zodat de bouwscope niet kan worden gefilterd. De recente BV-export is bovendien afgekapt op 150.000 rijen. De uitsplitsing per beleidsdomein komt uit afzonderlijke, volledige exports per planperiode met zowel rekening als beleidsveld.",
+    "Het origineel beginkrediet bestaat niet per beleidsveld; domein- en rekeningfilters gebruiken het meest recente plan of de jaarrekening.",
     "De meest recente plannen kunnen voor verstreken jaren al zijn aangepast aan de jaarrekening. De vergelijking is geen meting van de uitvoering van het oorspronkelijke plan.",
     "Waarden van nul of lager per economische rekening worden weggelaten, conform de eerdere REK-verwerking. Dit is dus geen netto saldo inclusief negatieve boekingen.",
-    "Boekjaar 2019: verschillende of onvolledige gemeentelijke dekking (latest: 283, original: 285, actual: 284). Totalen zijn niet gecorrigeerd voor ontbrekende besturen."
+    "Boekjaar 2019: verschillende of onvolledige gemeentelijke dekking (latest: 283, original: 285, actual: 284). Totalen zijn niet gecorrigeerd voor ontbrekende besturen.",
+    "De uitsplitsing per gemeente, beleidsdomein en rekening komt uit aparte exports per planperiode. Hun Vlaamse jaartotalen wijken hoogstens 1.0 miljoen euro af (boekjaar 2026) van de jaartotalen in de vergelijkingsgrafieken."
   ],
   "claims": [
     {

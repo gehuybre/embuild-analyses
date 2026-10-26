@@ -80,12 +80,34 @@ function normalizeProject(
     amount_per_capita: project.amount_per_capita || 0,
     yearly_amounts: normalizeYearlyAmounts(project.yearly_amounts),
     yearly_per_capita: normalizeYearlyAmounts(project.yearly_per_capita),
+    accounts: "accounts" in project ? project.accounts : undefined,
     categories: project.categories && project.categories.length > 0
       ? project.categories
       : categoryId
         ? [categoryId]
         : [],
   }
+}
+
+const PROJECT_YEARS = ["2026", "2027", "2028", "2029", "2030", "2031"] as const
+type ProjectYear = typeof PROJECT_YEARS[number]
+
+const isProjectYear = (value: string | undefined): value is ProjectYear =>
+  PROJECT_YEARS.includes(value as ProjectYear)
+
+/** Filters from links such as ?gemeente=44021&categorie=02-mobiliteit&jaar=2027&rekening=I.1.B.1 */
+export function parseProjectLinkFilters(search: string): ProjectFilters {
+  const params = new URLSearchParams(search)
+  const filters: ProjectFilters = {}
+  const nisCode = params.get("gemeente")
+  const category = params.get("categorie")
+  const year = params.get("jaar") ?? undefined
+  const account = params.get("rekening")
+  if (nisCode && /^\d{5}$/.test(nisCode)) filters.nis_code = nisCode
+  if (category && /^[a-z0-9-]+$/.test(category)) filters.categories = [category]
+  if (isProjectYear(year)) filters.year = year
+  if (account && /^I\.\d+\.[A-Z](\.\d+)?$/.test(account)) filters.account = account
+  return filters
 }
 
 function dedupeProjects(projects: Project[]) {
@@ -184,6 +206,10 @@ export function ProjectBrowser() {
     }
 
     setIsEmbeddedInIframe(window.parent !== window)
+    const linkFilters = parseProjectLinkFilters(window.location.search)
+    if (Object.keys(linkFilters).length > 0) {
+      setFilters(linkFilters)
+    }
   }, [])
 
   useEffect(() => {
@@ -395,6 +421,15 @@ export function ProjectBrowser() {
       )
     }
 
+    const year = isProjectYear(filters.year) ? filters.year : null
+    if (year) {
+      filtered = filtered.filter((project) => project.yearly_amounts[year] > 0)
+    }
+
+    if (filters.account) {
+      filtered = filtered.filter((project) => !project.accounts || project.accounts.includes(filters.account!))
+    }
+
     if (filters.searchQuery) {
       const query = filters.searchQuery.toLowerCase()
       filtered = filtered.filter((project) =>
@@ -404,12 +439,14 @@ export function ProjectBrowser() {
       )
     }
 
+    const sortAmount = (project: Project) => year ? project.yearly_amounts[year] : project.total_amount
+
     return [...filtered].sort((a, b) => {
       switch (sortOption) {
         case "amount-desc":
-          return b.total_amount - a.total_amount
+          return sortAmount(b) - sortAmount(a)
         case "amount-asc":
-          return a.total_amount - b.total_amount
+          return sortAmount(a) - sortAmount(b)
         case "municipality":
           return a.municipality.localeCompare(b.municipality)
         case "category":
@@ -452,6 +489,13 @@ export function ProjectBrowser() {
   const totalFilteredAmount = useMemo(
     () => filteredAndSortedProjects.reduce((sum, project) => sum + project.total_amount, 0),
     [filteredAndSortedProjects]
+  )
+  const selectedYear = isProjectYear(filters.year) ? filters.year : null
+  const yearFilteredAmount = useMemo(
+    () => selectedYear
+      ? filteredAndSortedProjects.reduce((sum, project) => sum + project.yearly_amounts[selectedYear], 0)
+      : 0,
+    [filteredAndSortedProjects, selectedYear]
   )
 
   const getEmbedCode = (): string => {
@@ -624,6 +668,25 @@ export function ProjectBrowser() {
         setSortOption={setSortOption}
       />
 
+      {(filters.year || filters.account) && (
+        <div className="rounded-lg border border-blue-200 bg-blue-50 p-4 flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+          <p className="text-sm text-blue-900">
+            Extra filter vanuit gemeentelijke investeringen:
+            {filters.year && <> projecten met een gepland bedrag in <strong>{filters.year}</strong></>}
+            {filters.year && filters.account && ","}
+            {filters.account && <> rekeninggroep <strong>{filters.account}</strong></>}
+            {filters.year ? ". Gesorteerd op het bedrag in dat jaar." : "."}
+          </p>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => setFilters((current) => ({ ...current, year: undefined, account: undefined }))}
+          >
+            Wis jaar- en rekeningfilter
+          </Button>
+        </div>
+      )}
+
       {!hasBrowseScope && (
         <div className="rounded-lg border border-blue-200 bg-blue-50 p-8 text-center">
           <p className="text-blue-900 font-medium mb-2">Kies eerst een gemeente of categorie</p>
@@ -659,6 +722,11 @@ export function ProjectBrowser() {
                 <p className="text-2xl font-bold">
                   €{(totalFilteredAmount / 1_000_000).toFixed(1)}M
                 </p>
+                {selectedYear && (
+                  <p className="text-sm text-muted-foreground mt-1">
+                    Waarvan gepland in {selectedYear}: €{(yearFilteredAmount / 1_000_000).toFixed(1)}M
+                  </p>
+                )}
                 {scopeState.isPartial && scopeState.totalScopeAmount > 0 && (
                   <p className="text-sm text-muted-foreground mt-1">
                     Volledige selectie: €{(scopeState.totalScopeAmount / 1_000_000).toFixed(1)}M

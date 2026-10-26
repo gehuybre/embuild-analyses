@@ -3,13 +3,19 @@
 import argparse
 import hashlib
 import json
+import sys
 from pathlib import Path
 
 import numpy as np
 import pandas as pd
 from openpyxl import load_workbook
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from build_october_geo import DETAIL_SOURCES, build_geo  # noqa: E402
+
 APP = Path(__file__).resolve().parents[1]
+# Current (post-2025 merger) municipality names, as published with the September version.
+NAMES_FILE = APP.parent / "2026-09/public/data/bv_lookups.json"
 REPO_ROOT = APP.parents[3]
 SOURCE_DIR = REPO_ROOT / "data/gemeentelijke-investeringen/versions/2026-10/raw"
 OUTPUT = APP / "public/data"
@@ -140,9 +146,20 @@ def filter_construction(frame, report_type):
     return totals.to_dict(), coverage, positive, audit
 
 
+def source_presence(frame, key, report_type):
+    """Municipality-years with any investment row in the source, also when the construction amount is zero."""
+    data = frame[["NIS-code", "Rapportjaar", "Boekjaar"]].copy()
+    data["NIS-code"] = data["NIS-code"].astype(str).str.strip()
+    data = data[data["NIS-code"].str[0].isin(list("12347"))]
+    plan, year = data.Rapportjaar.astype(int), data.Boekjaar.astype(int)
+    if report_type == "Meerjarenplan":
+        data = data[year.between(plan, plan + 5)]
+    return {(key, nis, int(boekjaar)) for nis, boekjaar in zip(data["NIS-code"], data.Boekjaar.astype(int))}
+
+
 def build(source_dir, output):
     output.mkdir(parents=True, exist_ok=True)
-    totals, coverages, source_audit, cell_data = {}, {}, {}, {}
+    totals, coverages, source_audit, cell_data, presence = {}, {}, {}, {}, set()
     for key, (filename, report_type) in SOURCES.items():
         path = source_dir / filename
         input_fingerprint = fingerprint(path)
@@ -152,6 +169,7 @@ def build(source_dir, output):
         if key != "original" and "[Meest recente] is Ja" not in filters:
             raise ValueError(f"{filename}: most-recent source filter missing")
         totals[key], coverages[key], positive, audit = filter_construction(frame, report_type)
+        presence.update(source_presence(frame, key, report_type))
         cell_data[key] = positive
         source_audit[key] = {
             **input_fingerprint, "raw_rows": len(frame), "source_filters": filters, **audit,
@@ -165,8 +183,11 @@ def build(source_dir, output):
             "municipalities": {key: coverages[key].get(year) for key in SOURCES},
         })
     warnings = [
-        "De BV-exports zijn niet gebruikt: economische rekeningcodes ontbreken, zodat de bouwscope niet kan worden gefilterd. "
-        "De recente BV-export is bovendien afgekapt op 150.000 rijen.",
+        "De twee oudere BV-exports zijn niet gebruikt: economische rekeningcodes ontbreken, zodat de bouwscope niet kan worden gefilterd. "
+        "De recente BV-export is bovendien afgekapt op 150.000 rijen. De uitsplitsing per beleidsdomein komt uit "
+        "afzonderlijke, volledige exports per planperiode met zowel rekening als beleidsveld.",
+        "Het origineel beginkrediet bestaat niet per beleidsveld; domein- en rekeningfilters gebruiken het meest recente plan "
+        "of de jaarrekening.",
         "De meest recente plannen kunnen voor verstreken jaren al zijn aangepast aan de jaarrekening. "
         "De vergelijking is geen meting van de uitvoering van het oorspronkelijke plan.",
         "Waarden van nul of lager per economische rekening worden weggelaten, conform de eerdere REK-verwerking. "
@@ -184,6 +205,21 @@ def build(source_dir, output):
     excluded = [inspect_bv_workbook(source_dir / filename) for filename in EXCLUDED_BV]
     if not excluded[0]["export_warnings"]:
         raise ValueError("The recent BV export has changed: review completeness and filtering before updating the warning")
+    names = json.loads(NAMES_FILE.read_text(encoding="utf-8"))["municipalities"]
+    detail_fingerprints = {filename: fingerprint(source_dir / filename) for filename in DETAIL_SOURCES}
+    geo_audit = build_geo(
+        source_dir, output, read_workbook, SCOPE, cell_data, presence,
+        {key: totals[key] for key in ("latest", "actual")}, names,
+    )
+    for filename, record in geo_audit["detail_sources"].items():
+        record.update(detail_fingerprints[filename])
+    largest_gap = max(geo_audit["detail_reconciliation"], key=lambda item: abs(item["difference"]))
+    if abs(largest_gap["difference"]) >= 1:
+        warnings.append(
+            "De uitsplitsing per gemeente, beleidsdomein en rekening komt uit aparte exports per planperiode. "
+            f"Hun Vlaamse jaartotalen wijken hoogstens {abs(largest_gap['difference']) / 1e6:.1f} miljoen euro af "
+            f"(boekjaar {largest_gap['book_year']}) van de jaartotalen in de vergelijkingsgrafieken."
+        )
     dataset = {
         "version": "oktober 2026",
         "source_url": SOURCE_URL,
@@ -200,6 +236,10 @@ def build(source_dir, output):
         "licence": "Niet vermeld in de aangeleverde exports",
         "sources": source_audit,
         "excluded_sources": excluded,
+        "detail_sources": geo_audit["detail_sources"],
+        "detail_reconciliation": geo_audit["detail_reconciliation"],
+        "detail_formula": "Per gemeente, boekjaar en rekening: rekeningen met een positieve som behouden, met al hun beleidsveldregels; "
+        "provincie en Vlaanderen zijn sommen van gemeenten. Bevolking = Uitgave / Uitgave per inwoner uit dezelfde export.",
         "formula": "Som van positieve Uitgave per economische rekening na Niveau 5-bouwfilter; boekjaar binnen eigen zesjarig plan",
         "scope": SCOPE,
         "warnings": warnings,

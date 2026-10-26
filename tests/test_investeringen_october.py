@@ -197,5 +197,64 @@ class OctoberPublishedTests(unittest.TestCase):
         self.assertNotIn("aria-pressed", card)
 
 
+class OctoberGeoOutputTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.geo = PUBLIC / "geo"
+        cls.index = json.loads((cls.geo / "index.json").read_text())
+        cls.dataset = json.loads((PUBLIC / "yearly_comparison.json").read_text())
+        cls.flanders = json.loads((cls.geo / "vlaanderen.json").read_text())
+
+    def load(self, code):
+        return json.loads((self.geo / f"{code}.json").read_text())
+
+    def test_every_region_has_a_file(self):
+        codes = {"vlaanderen", *self.index["provinces"], *(m["code"] for m in self.index["municipalities"])}
+        self.assertEqual(len(codes), 291)
+        self.assertEqual({path.stem for path in self.geo.glob("*.json")} - {"index"}, codes)
+
+    def test_flanders_series_equals_published_yearly_totals(self):
+        for row in self.dataset["rows"]:
+            for key in ("latest", "original", "actual"):
+                value = self.flanders["series"][key]["amounts"].get(str(row["Boekjaar"]))
+                self.assertAlmostEqual(value or 0, row[key] or 0, delta=0.01, msg=(key, row["Boekjaar"]))
+
+    def test_provinces_sum_to_flanders(self):
+        provinces = [self.load(code) for code in self.index["provinces"]]
+        self.assertEqual(sum(p["municipality_count"] for p in provinces), 285)
+        for key, series in self.flanders["series"].items():
+            for year, amount in series["amounts"].items():
+                total = sum(p["series"][key]["amounts"].get(year, 0) for p in provinces)
+                self.assertAlmostEqual(total, amount, delta=1, msg=(key, year))
+
+    def test_cube_reconciles_with_yearly_totals_within_one_million(self):
+        sources = self.index["cube_sources"]
+        totals = {}
+        for source, year, _subdomain, _account, amount in self.flanders["cube"]:
+            totals[(sources[source], year)] = totals.get((sources[source], year), 0) + amount
+        for row in self.dataset["rows"]:
+            for key in sources:
+                if row[key] is not None:
+                    self.assertLess(abs(totals[(key, row["Boekjaar"])] - row[key]), 1_100_000)
+
+    def test_domains_and_accounts_link_to_project_browser(self):
+        metadata = json.loads((ROOT / "apps/bouwprojecten-gemeenten/versions/2026-09/public/data/projects_metadata.json").read_text())
+        for domain in self.index["domains"]:
+            self.assertIn(domain["project_category"], metadata["categories"])
+        self.assertEqual({a["project_account"] for a in self.index["accounts"]}, {"I.1.B.1", "I.1.B.2", "I.1.D"})
+        municipalities = json.loads((ROOT / "apps/bouwprojecten-gemeenten/versions/2026-09/public/data/municipality_index.json").read_text())
+        self.assertEqual({m["nis_code"] for m in municipalities}, {m["code"] for m in self.index["municipalities"]})
+        sample = json.loads((ROOT / "apps/bouwprojecten-gemeenten/versions/2026-09/public/data" / municipalities[0]["file"]).read_text())
+        self.assertTrue(all(project["accounts"] for project in sample))
+
+    def test_population_is_plausible(self):
+        self.assertTrue(6_000_000 < self.flanders["population"]["2026"] < 7_500_000)
+        antwerp = self.load("11002")
+        self.assertTrue(450_000 < antwerp["population"]["2026"] < 600_000)
+
+    def test_detail_csv_fits_cloudflare_limit(self):
+        self.assertLess((PUBLIC / "construction_detail_bv.csv").stat().st_size, 25 * 1024 * 1024)
+
+
 if __name__ == "__main__":
     unittest.main()

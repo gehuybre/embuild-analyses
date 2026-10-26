@@ -33,6 +33,8 @@ export interface Project {
     "2031": number
   }
   categories: string[]
+  /** Niveau 4 economic account groups (e.g. "I.1.B.1"); absent in older exports. */
+  accounts?: string[]
 }
 
 export interface CategoryProjectPreview {
@@ -87,6 +89,10 @@ export interface ProjectFilters {
   nis_code?: string
   categories?: string[]
   searchQuery?: string
+  /** Fiscal year (2026-2031): keep projects with a planned amount in that year. */
+  year?: string
+  /** Niveau 4 economic account group, e.g. "I.1.B.1". */
+  account?: string
 }
 
 export type SortOption = "amount-desc" | "amount-asc" | "municipality" | "category"

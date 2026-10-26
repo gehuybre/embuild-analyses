@@ -1,0 +1,2157 @@
+{
+ "cube_sources": [
+  "latest",
+  "actual"
+ ],
+ "domains": [
+  {
+   "label": "0 Algemene financiering",
+   "name": "Algemene financiering",
+   "project_category": "00-algemene-financiering"
+  },
+  {
+   "label": "1 Algemeen bestuur",
+   "name": "Algemeen bestuur",
+   "project_category": "01-algemeen-bestuur"
+  },
+  {
+   "label": "2 Zich verplaatsen en mobiliteit",
+   "name": "Zich verplaatsen en mobiliteit",
+   "project_category": "02-mobiliteit"
+  },
+  {
+   "label": "3 Natuur en milieubeheer",
+   "name": "Natuur en milieubeheer",
+   "project_category": "03-natuur-milieu"
+  },
+  {
+   "label": "4 Veiligheidszorg",
+   "name": "Veiligheidszorg",
+   "project_category": "04-veiligheidszorg"
+  },
+  {
+   "label": "5 Ondernemen en werken",
+   "name": "Ondernemen en werken",
+   "project_category": "05-ondernemen-werken"
+  },
+  {
+   "label": "6 Wonen en ruimtelijke ordening",
+   "name": "Wonen en ruimtelijke ordening",
+   "project_category": "06-wonen-ruimte"
+  },
+  {
+   "label": "7 Cultuur en vrije tijd",
+   "name": "Cultuur en vrije tijd",
+   "project_category": "07-cultuur-vrije-tijd"
+  },
+  {
+   "label": "8 Leren en onderwijs",
+   "name": "Leren en onderwijs",
+   "project_category": "08-onderwijs"
+  },
+  {
+   "label": "9 Zorg en opvang",
+   "name": "Zorg en opvang",
+   "project_category": "09-zorg-opvang"
+  }
+ ],
+ "subdomains": [
+  {
+   "label": "00 Algemene financiering",
+   "name": "Algemene financiering",
+   "domain": 0
+  },
+  {
+   "label": "010 Politieke organen",
+   "name": "Politieke organen",
+   "domain": 1
+  },
+  {
+   "label": "011 Algemene diensten",
+   "name": "Algemene diensten",
+   "domain": 1
+  },
+  {
+   "label": "013 Administratieve dienstverlening",
+   "name": "Administratieve dienstverlening",
+   "domain": 1
+  },
+  {
+   "label": "015 Internationale samenwerking",
+   "name": "Internationale samenwerking",
+   "domain": 1
+  },
+  {
+   "label": "016 Hulp aan het buitenland",
+   "name": "Hulp aan het buitenland",
+   "domain": 1
+  },
+  {
+   "label": "017 Binnengemeentelijke decentralisatie",
+   "name": "Binnengemeentelijke decentralisatie",
+   "domain": 1
+  },
+  {
+   "label": "019 Overig algemeen bestuur",
+   "name": "Overig algemeen bestuur",
+   "domain": 1
+  },
+  {
+   "label": "02 Zich verplaatsen en mobiliteit",
+   "name": "Zich verplaatsen en mobiliteit",
+   "domain": 2
+  },
+  {
+   "label": "030 Afval- en materialenbeheer",
+   "name": "Afval- en materialenbeheer",
+   "domain": 3
+  },
+  {
+   "label": "031 Waterbeheer",
+   "name": "Waterbeheer",
+   "domain": 3
+  },
+  {
+   "label": "032 Vermindering van de milieuverontreiniging",
+   "name": "Vermindering van de milieuverontreiniging",
+   "domain": 3
+  },
+  {
+   "label": "034 Bescherming van biodiversiteit, landschappen en bodem",
+   "name": "Bescherming van biodiversiteit, landschappen en bodem",
+   "domain": 3
+  },
+  {
+   "label": "035 Klimaat en energie",
+   "name": "Klimaat en energie",
+   "domain": 3
+  },
+  {
+   "label": "038/9 Overige milieubescherming",
+   "name": "Overige milieubescherming",
+   "domain": 3
+  },
+  {
+   "label": "040 Politiediensten",
+   "name": "Politiediensten",
+   "domain": 4
+  },
+  {
+   "label": "041 Brandweer",
+   "name": "Brandweer",
+   "domain": 4
+  },
+  {
+   "label": "042/4 Overige hulpdiensten",
+   "name": "Overige hulpdiensten",
+   "domain": 4
+  },
+  {
+   "label": "045/9 Overige elementen van openbare orde en veiligheid",
+   "name": "Overige elementen van openbare orde en veiligheid",
+   "domain": 4
+  },
+  {
+   "label": "050 Handel en middenstand",
+   "name": "Handel en middenstand",
+   "domain": 5
+  },
+  {
+   "label": "051 Nijverheid",
+   "name": "Nijverheid",
+   "domain": 5
+  },
+  {
+   "label": "052 Toerisme",
+   "name": "Toerisme",
+   "domain": 5
+  },
+  {
+   "label": "053 Land-, tuin- en bosbouw",
+   "name": "Land-, tuin- en bosbouw",
+   "domain": 5
+  },
+  {
+   "label": "054 Visvangst",
+   "name": "Visvangst",
+   "domain": 5
+  },
+  {
+   "label": "055 Werkgelegenheid",
+   "name": "Werkgelegenheid",
+   "domain": 5
+  },
+  {
+   "label": "059 Overige economische zaken",
+   "name": "Overige economische zaken",
+   "domain": 5
+  },
+  {
+   "label": "060 Ruimtelijke planning",
+   "name": "Ruimtelijke planning",
+   "domain": 6
+  },
+  {
+   "label": "061 Gebiedsontwikkeling",
+   "name": "Gebiedsontwikkeling",
+   "domain": 6
+  },
+  {
+   "label": "062 Woonbeleid",
+   "name": "Woonbeleid",
+   "domain": 6
+  },
+  {
+   "label": "063 Watervoorziening",
+   "name": "Watervoorziening",
+   "domain": 6
+  },
+  {
+   "label": "064 Elektriciteitsvoorziening",
+   "name": "Elektriciteitsvoorziening",
+   "domain": 6
+  },
+  {
+   "label": "065 Gasvoorziening",
+   "name": "Gasvoorziening",
+   "domain": 6
+  },
+  {
+   "label": "066 Communicatievoorzieningen",
+   "name": "Communicatievoorzieningen",
+   "domain": 6
+  },
+  {
+   "label": "067 Straatverlichting",
+   "name": "Straatverlichting",
+   "domain": 6
+  },
+  {
+   "label": "068 Groene ruimte",
+   "name": "Groene ruimte",
+   "domain": 6
+  },
+  {
+   "label": "069 Overige nutsvoorzieningen",
+   "name": "Overige nutsvoorzieningen",
+   "domain": 6
+  },
+  {
+   "label": "070 Culturele instellingen",
+   "name": "Culturele instellingen",
+   "domain": 7
+  },
+  {
+   "label": "071 Evenementen",
+   "name": "Evenementen",
+   "domain": 7
+  },
+  {
+   "label": "072 Erfgoed",
+   "name": "Erfgoed",
+   "domain": 7
+  },
+  {
+   "label": "073 Overig kunst- en cultuurbeleid",
+   "name": "Overig kunst- en cultuurbeleid",
+   "domain": 7
+  },
+  {
+   "label": "074 Sport",
+   "name": "Sport",
+   "domain": 7
+  },
+  {
+   "label": "075 Jeugd",
+   "name": "Jeugd",
+   "domain": 7
+  },
+  {
+   "label": "079 Erediensten  en niet-confessionele levensbeschouwelijke gemeenschappen",
+   "name": "Erediensten  en niet-confessionele levensbeschouwelijke gemeenschappen",
+   "domain": 7
+  },
+  {
+   "label": "080 Basisonderwijs",
+   "name": "Basisonderwijs",
+   "domain": 8
+  },
+  {
+   "label": "081 Secundair onderwijs",
+   "name": "Secundair onderwijs",
+   "domain": 8
+  },
+  {
+   "label": "082 Deeltijds kunstonderwijs",
+   "name": "Deeltijds kunstonderwijs",
+   "domain": 8
+  },
+  {
+   "label": "083 Hoger en Volwassenenonderwijs",
+   "name": "Hoger en Volwassenenonderwijs",
+   "domain": 8
+  },
+  {
+   "label": "086 Ondersteunende diensten voor het onderwijs",
+   "name": "Ondersteunende diensten voor het onderwijs",
+   "domain": 8
+  },
+  {
+   "label": "087/8 Algemeen onderwijsbeleid",
+   "name": "Algemeen onderwijsbeleid",
+   "domain": 8
+  },
+  {
+   "label": "090 Sociaal beleid",
+   "name": "Sociaal beleid",
+   "domain": 9
+  },
+  {
+   "label": "091 Ziekte- en invaliditeit",
+   "name": "Ziekte- en invaliditeit",
+   "domain": 9
+  },
+  {
+   "label": "092 Werkloosheid",
+   "name": "Werkloosheid",
+   "domain": 9
+  },
+  {
+   "label": "093 Sociale huisvesting",
+   "name": "Sociale huisvesting",
+   "domain": 9
+  },
+  {
+   "label": "094 Gezin en kinderen",
+   "name": "Gezin en kinderen",
+   "domain": 9
+  },
+  {
+   "label": "095 Ouderen",
+   "name": "Ouderen",
+   "domain": 9
+  },
+  {
+   "label": "098 Dienstverlening inzake volksgezondheid",
+   "name": "Dienstverlening inzake volksgezondheid",
+   "domain": 9
+  },
+  {
+   "label": "099 Begraafplaatsen, crematoria en lijkbezorging",
+   "name": "Begraafplaatsen, crematoria en lijkbezorging",
+   "domain": 9
+  }
+ ],
+ "accounts": [
+  {
+   "label": "REK220-0 Terreinen - gemeenschapsgoederen - aanschaffingswaarde",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK220-7 Terreinen - gemeenschapsgoederen - activa in aanbouw",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK221-0 Gebouwen - gemeenschapsgoederen - aanschaffingswaarde",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK221-7 Gebouwen - gemeenschapsgoederen - activa in aanbouw",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK222-0 Bebouwde terreinen - gemeenschapsgoederen - aanschaffingswaarde",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK222-7 Bebouwde terreinen - gemeenschapsgoederen - activa in aanbouw",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK223-0 Andere zakelijke rechten op onroerende goederen - gemeenschapsgoederen - aanschaffingswaarde",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK223-7 Andere zakelijke rechten op onroerende goederen - gemeenschapsgoederen - activa in aanbouw",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK224-0 Wegen - aanschaffingswaarde",
+   "group": "I.1.B.1.b",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK224-7 Wegen - activa in aanbouw",
+   "group": "I.1.B.1.b",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK225-0 Andere infrastructuur betreffende de wegen - aanschaffingswaarde",
+   "group": "I.1.B.1.b",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK225-7 Andere infrastructuur betreffende de wegen - activa in aanbouw",
+   "group": "I.1.B.1.b",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK226-0 Waterlopen en waterbekkens - aanschaffingswaarde",
+   "group": "I.1.B.1.b",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK226-7 Waterlopen en waterbekkens - activa in aanbouw",
+   "group": "I.1.B.1.b",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK227-0 Rioleringen en afvalwaterzuivering - aanschaffingswaarde",
+   "group": "I.1.B.1.b",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK227-7 Rioleringen en afvalwaterzuivering - activa in aanbouw",
+   "group": "I.1.B.1.b",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK228-0 Andere onroerende infrastructuur - aanschaffingswaarde",
+   "group": "I.1.B.1.b",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK228-7 Andere onroerende infrastructuur - activa in aanbouw",
+   "group": "I.1.B.1.b",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK2290-0 Terreinen - bedrijfsmatige materiële vaste activa - aanschaffingswaarde",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK2290-7 Terreinen - bedrijfsmatige materiële vaste activa - activa in aanbouw",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK2291-0 Gebouwen - bedrijfsmatige materiële vaste activa - aanschaffingswaarde",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK2291-7 Gebouwen - bedrijfsmatige materiële vaste activa - activa in aanbouw",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK2292-0 Bebouwde terreinen - bedrijfsmatige materiële vaste activa - aanschaffingswaarde",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK2292-7 Bebouwde terreinen - bedrijfsmatige materiële vaste activa - activa in aanbouw",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK2293-0 Andere zakelijke rechten op onroerende goederen - bedrijfsmatige materiële vaste activa - aanschaffingswaarde",
+   "group": "I.1.B.1.a",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK260-0 Terreinen en gebouwen - andere materiële vaste activa - aanschaffingswaarde",
+   "group": "I.1.B.2.a",
+   "project_account": "I.1.B.2"
+  },
+  {
+   "label": "REK260-7 Terreinen en gebouwen - andere materiële vaste activa - activa in aanbouw",
+   "group": "I.1.B.2.a",
+   "project_account": "I.1.B.2"
+  },
+  {
+   "label": "REK261-0 Terreinen en gebouwen - andere materiële vaste activa - aanschaffingswaarde",
+   "group": "I.1.B.2.a",
+   "project_account": "I.1.B.2"
+  },
+  {
+   "label": "REK261-7 Terreinen en gebouwen - andere materiële vaste activa - activa in aanbouw",
+   "group": "I.1.B.2.a",
+   "project_account": "I.1.B.2"
+  },
+  {
+   "label": "REK262-0 Terreinen en gebouwen - andere materiële vaste activa - aanschaffingswaarde",
+   "group": "I.1.B.2.a",
+   "project_account": "I.1.B.2"
+  },
+  {
+   "label": "REK262-7 Terreinen en gebouwen - andere materiële vaste activa - activa in aanbouw",
+   "group": "I.1.B.2.a",
+   "project_account": "I.1.B.2"
+  },
+  {
+   "label": "REK263-0 Terreinen en gebouwen - andere materiële vaste activa - aanschaffingswaarde",
+   "group": "I.1.B.2.a",
+   "project_account": "I.1.B.2"
+  },
+  {
+   "label": "REK263-7 Terreinen en gebouwen - andere materiële vaste activa - activa in aanbouw",
+   "group": "I.1.B.2.a",
+   "project_account": "I.1.B.2"
+  },
+  {
+   "label": "REK264-0 Terreinen en gebouwen - andere materiële vaste activa - aanschaffingswaarde",
+   "group": "I.1.B.2.a",
+   "project_account": "I.1.B.2"
+  },
+  {
+   "label": "REK264-7 Terreinen en gebouwen - andere materiële vaste activa - activa in aanbouw",
+   "group": "I.1.B.2.a",
+   "project_account": "I.1.B.2"
+  },
+  {
+   "label": "REK270-0 Onroerend erfgoed - aanschaffingswaarde",
+   "group": "I.1.B.1.e",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK270-7 Onroerend erfgoed - activa in aanbouw",
+   "group": "I.1.B.1.e",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK271-0 Onroerend erfgoed - aanschaffingswaarde",
+   "group": "I.1.B.1.e",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK271-7 Onroerend erfgoed - activa in aanbouw",
+   "group": "I.1.B.1.e",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK272-0 Onroerend erfgoed - aanschaffingswaarde",
+   "group": "I.1.B.1.e",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK274-0 Onroerend erfgoed - aanschaffingswaarde",
+   "group": "I.1.B.1.e",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK275-0 Roerend erfgoed - aanschaffingswaarde",
+   "group": "I.1.B.1.e",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK275-7 Roerend erfgoed - activa in aanbouw",
+   "group": "I.1.B.1.e",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK276-0 Roerend erfgoed - aanschaffingswaarde",
+   "group": "I.1.B.1.e",
+   "project_account": "I.1.B.1"
+  },
+  {
+   "label": "REK664 Toegestane investeringssubsidies",
+   "group": "I.1.D",
+   "project_account": "I.1.D"
+  }
+ ],
+ "scope": {
+  "I.1.B.1.a": "Terreinen en gebouwen",
+  "I.1.B.1.b": "Wegen en overige infrastructuur",
+  "I.1.B.1.e": "Erfgoed",
+  "I.1.B.2.a": "Onroerende goederen",
+  "I.1.D": "Toegestane investeringssubsidies"
+ },
+ "policy_fields": {
+  "0010": "0010 Algemene overdrachten tussen de verschillende bestuurlijke niveaus",
+  "0020": "0020 Fiscale aangelegenheden",
+  "0030": "0030 Financiële aangelegenheden",
+  "0040": "0040 Transacties in verband met de openbare schuld",
+  "0050": "0050 Patrimonium zonder maatschappelijk doel",
+  "0090": "0090 Overige algemene financiering",
+  "0100": "0100 Politieke organen",
+  "0101": "0101 Officieel ceremonieel",
+  "0110": "0110 Secretariaat",
+  "0111": "0111 Fiscale en financiële diensten",
+  "0112": "0112 Personeelsdienst en vorming",
+  "0113": "0113 Archief",
+  "0114": "0114 Organisatiebeheersing",
+  "0115": "0115 Welzijn op het werk",
+  "0119": "0119 Overige algemene diensten",
+  "0130": "0130 Administratieve dienstverlening",
+  "0150": "0150 Internationale relaties",
+  "0160": "0160 Hulp aan het buitenland",
+  "0170": "0170 Binnengemeentelijke decentralisatie",
+  "0171": "0171 Gemeentelijk/stedelijk wijkoverleg",
+  "0190": "0190 Overig algemeen bestuur",
+  "0200": "0200 Wegen",
+  "0210": "0210 Openbaar vervoer",
+  "0220": "0220 Parkeren",
+  "0290": "0290 Overige mobiliteit en verkeer",
+  "0300": "0300 Ophalen en verwerken van huishoudelijk afval",
+  "0309": "0309 Overig afval- en materialenbeheer",
+  "0310": "0310 Beheer van regen- en afvalwater",
+  "0319": "0319 Overig waterbeheer",
+  "0320": "0320 Sanering van bodemverontreiniging",
+  "0329": "0329 Overige vermindering van milieuverontreiniging",
+  "0340": "0340 Aankoop, inrichting en beheer van natuur, groen en bos",
+  "0341": "0341 Erosiebestrijding",
+  "0349": "0349 Overige bescherming van biodiversiteit, landschappen en bodem",
+  "0350": "0350 Klimaat en energie",
+  "0380": "0380 Participatie en sensibilisatie",
+  "0381": "0381 Geïntegreerde milieuprojecten",
+  "0390": "0390 Overige milieubescherming",
+  "0400": "0400 Politiediensten",
+  "0410": "0410 Brandweer",
+  "0420": "0420 Dienst 100",
+  "0430": "0430 Civiele bescherming",
+  "0440": "0440 Overige hulpdiensten",
+  "0450": "0450 Rechtspleging",
+  "0470": "0470 Dierenbescherming",
+  "0480": "0480 Bestuurlijke preventie (incl. GAS)",
+  "0490": "0490 Overige elementen van openbare orde en veiligheid",
+  "0500": "0500 Handel en middenstand",
+  "0510": "0510 Nijverheid",
+  "0520": "0520 Toerisme - Onthaal en promotie",
+  "0521": "0521 Toerisme - Sectorondersteuning",
+  "0522": "0522 Toerisme - Infrastructuur",
+  "0529": "0529 Overige activiteiten inzake toerisme",
+  "0530": "0530 Land-, tuin- en bosbouw",
+  "0540": "0540 Visvangst",
+  "0550": "0550 Tewerkstelling en activering",
+  "0590": "0590 Overige economische zaken",
+  "0600": "0600 Ruimtelijke planning",
+  "0610": "0610 Gebiedsontwikkeling",
+  "0620": "0620 Grondbeleid voor wonen",
+  "0621": "0621 Bestrijding van krotwoningen",
+  "0622": "0622 Woonwagenterreinen",
+  "0629": "0629 Overig woonbeleid",
+  "0630": "0630 Watervoorziening",
+  "0640": "0640 Elektriciteitsvoorziening",
+  "0650": "0650 Gasvoorziening",
+  "0660": "0660 Communicatievoorzieningen",
+  "0670": "0670 Straatverlichting",
+  "0680": "0680 Groene ruimte",
+  "0690": "0690 Overige nutsvoorzieningen",
+  "0700": "0700 Musea",
+  "0701": "0701 Cultuurcentrum",
+  "0702": "0702 Schouwburg, concertgebouw, opera",
+  "0703": "0703 Openbare bibliotheken",
+  "0705": "0705 Gemeenschapscentrum",
+  "0709": "0709 Overige culturele instellingen",
+  "0710": "0710 Feesten en plechtigheden",
+  "0711": "0711 Openluchtrecreatie",
+  "0712": "0712 Festivals",
+  "0719": "0719 Overige evenementen",
+  "0720": "0720 Monumentenzorg",
+  "0721": "0721 Archeologie",
+  "0729": "0729 Overig beleid inzake het erfgoed",
+  "0739": "0739 Overig kunst- en cultuurbeleid",
+  "0740": "0740 Sportsector- en verenigingsondersteuning",
+  "0741": "0741 Sportpromotie en -evenementen",
+  "0742": "0742 Sportinfrastructuur",
+  "0749": "0749 Overig sportbeleid",
+  "0750": "0750 Jeugdsector- en verenigingsondersteuning",
+  "0751": "0751 Gemeentelijke dienstverlening gericht op kinderen & jongeren",
+  "0752": "0752 Infrastructuur en faciliteiten ten behoeve van kinderen en jongeren",
+  "0759": "0759 Overige activiteiten met betrekking tot jeugd",
+  "0790": "0790 Erediensten",
+  "0791": "0791 Niet-confessionele levensbeschouwelijke gemeenschappen",
+  "0800": "0800 Gewoon basisonderwijs",
+  "0801": "0801 Buitengewoon basisonderwijs",
+  "0810": "0810 Gewoon secundair onderwijs",
+  "0814": "0814 Leren en werken",
+  "0815": "0815 Buitengewoon secundair onderwijs",
+  "0820": "0820 Deeltijds kunstonderwijs",
+  "0830": "0830 Centra voor volwassenenonderwijs",
+  "0835": "0835 Hoger onderwijs",
+  "0860": "0860 Centra voor leerlingenbegeleiding",
+  "0862": "0862 Huisvesting voor schoolgaanden",
+  "0869": "0869 Overige ondersteunende diensten voor het onderwijs",
+  "0870": "0870 Sociale voordelen",
+  "0879": "0879 Andere voordelen",
+  "0889": "0889 Ondersteunende diensten voor het algemeen onderwijsbeleid",
+  "0900": "0900 Sociale bijstand",
+  "0902": "0902 Integratie van personen met vreemde herkomst",
+  "0903": "0903 Lokale opvanginitiatieven voor asielzoekers",
+  "0905": "0905 Dienst voor juridische informatie en advies",
+  "0909": "0909 Overige verrichtingen inzake sociaal beleid",
+  "0910": "0910 Woningen voor personen met een handicap",
+  "0911": "0911 Diensten en voorzieningen voor personen met een handicap",
+  "0919": "0919 Overige activiteiten inzake ziekte en invaliditeit",
+  "0920": "0920 Werkloosheid",
+  "0930": "0930 Sociale huisvesting",
+  "0940": "0940 Jeugdvoorzieningen",
+  "0941": "0941 Gezinsvervangende tehuizen",
+  "0943": "0943 Gezinshulp",
+  "0944": "0944 Preventieve gezinsondersteuning",
+  "0945": "0945 Kinderopvang",
+  "0946": "0946 Thuisbezorgde maaltijden",
+  "0947": "0947 Klusjesdienst",
+  "0949": "0949 Overige gezinshulp",
+  "0950": "0950 Ouderenwoningen",
+  "0951": "0951 Dienstencentra",
+  "0952": "0952 Assistentiewoningen",
+  "0953": "0953 Woon- en zorgcentra",
+  "0954": "0954 Dagzorgcentra",
+  "0959": "0959 Overige verrichtingen betreffende ouderen",
+  "0980": "0980 Sociale geneeskunde",
+  "0982": "0982 Ziekenhuizen",
+  "0983": "0983 Andere verpleeg- en verzorgingsinrichtingen",
+  "0984": "0984 Ontsmetting en openbare reiniging",
+  "0985": "0985 Gezondheidspromotie en ziektepreventie",
+  "0986": "0986 Eerstelijnsgezondheidszorg",
+  "0989": "0989 Overige dienstverlening inzake volksgezondheid",
+  "0990": "0990 Begraafplaatsen",
+  "0991": "0991 Crematoria",
+  "0992": "0992 Lijkbezorging"
+ },
+ "provinces": {
+  "10000": "Antwerpen",
+  "20001": "Vlaams-Brabant",
+  "30000": "West-Vlaanderen",
+  "40000": "Oost-Vlaanderen",
+  "70000": "Limburg"
+ },
+ "municipalities": [
+  {
+   "code": "41002",
+   "name": "Aalst",
+   "province": "40000"
+  },
+  {
+   "code": "44084",
+   "name": "Aalter",
+   "province": "40000"
+  },
+  {
+   "code": "24001",
+   "name": "Aarschot",
+   "province": "20001"
+  },
+  {
+   "code": "11001",
+   "name": "Aartselaar",
+   "province": "10000"
+  },
+  {
+   "code": "23105",
+   "name": "Affligem",
+   "province": "20001"
+  },
+  {
+   "code": "73001",
+   "name": "Alken",
+   "province": "70000"
+  },
+  {
+   "code": "38002",
+   "name": "Alveringem",
+   "province": "30000"
+  },
+  {
+   "code": "11002",
+   "name": "Antwerpen",
+   "province": "10000"
+  },
+  {
+   "code": "34002",
+   "name": "Anzegem",
+   "province": "30000"
+  },
+  {
+   "code": "37020",
+   "name": "Ardooie",
+   "province": "30000"
+  },
+  {
+   "code": "13001",
+   "name": "Arendonk",
+   "province": "10000"
+  },
+  {
+   "code": "71002",
+   "name": "As",
+   "province": "70000"
+  },
+  {
+   "code": "23002",
+   "name": "Asse",
+   "province": "20001"
+  },
+  {
+   "code": "43002",
+   "name": "Assenede",
+   "province": "40000"
+  },
+  {
+   "code": "34003",
+   "name": "Avelgem",
+   "province": "30000"
+  },
+  {
+   "code": "13002",
+   "name": "Baarle-Hertog",
+   "province": "10000"
+  },
+  {
+   "code": "13003",
+   "name": "Balen",
+   "province": "10000"
+  },
+  {
+   "code": "31003",
+   "name": "Beernem",
+   "province": "30000"
+  },
+  {
+   "code": "13004",
+   "name": "Beerse",
+   "province": "10000"
+  },
+  {
+   "code": "23003",
+   "name": "Beersel",
+   "province": "20001"
+  },
+  {
+   "code": "24007",
+   "name": "Begijnendijk",
+   "province": "20001"
+  },
+  {
+   "code": "24008",
+   "name": "Bekkevoort",
+   "province": "20001"
+  },
+  {
+   "code": "71004",
+   "name": "Beringen",
+   "province": "70000"
+  },
+  {
+   "code": "12002",
+   "name": "Berlaar",
+   "province": "10000"
+  },
+  {
+   "code": "42003",
+   "name": "Berlare",
+   "province": "40000"
+  },
+  {
+   "code": "24009",
+   "name": "Bertem",
+   "province": "20001"
+  },
+  {
+   "code": "23009",
+   "name": "Bever",
+   "province": "20001"
+  },
+  {
+   "code": "46030",
+   "name": "Beveren-Kruibeke-Zwijndrecht",
+   "province": "40000"
+  },
+  {
+   "code": "24011",
+   "name": "Bierbeek",
+   "province": "20001"
+  },
+  {
+   "code": "73110",
+   "name": "Bilzen-Hoeselt",
+   "province": "70000"
+  },
+  {
+   "code": "31004",
+   "name": "Blankenberge",
+   "province": "30000"
+  },
+  {
+   "code": "72003",
+   "name": "Bocholt",
+   "province": "70000"
+  },
+  {
+   "code": "11004",
+   "name": "Boechout",
+   "province": "10000"
+  },
+  {
+   "code": "12005",
+   "name": "Bonheiden",
+   "province": "10000"
+  },
+  {
+   "code": "11005",
+   "name": "Boom",
+   "province": "10000"
+  },
+  {
+   "code": "24014",
+   "name": "Boortmeerbeek",
+   "province": "20001"
+  },
+  {
+   "code": "12007",
+   "name": "Bornem",
+   "province": "10000"
+  },
+  {
+   "code": "24016",
+   "name": "Boutersem",
+   "province": "20001"
+  },
+  {
+   "code": "45059",
+   "name": "Brakel",
+   "province": "40000"
+  },
+  {
+   "code": "11008",
+   "name": "Brasschaat",
+   "province": "10000"
+  },
+  {
+   "code": "11009",
+   "name": "Brecht",
+   "province": "10000"
+  },
+  {
+   "code": "35002",
+   "name": "Bredene",
+   "province": "30000"
+  },
+  {
+   "code": "72004",
+   "name": "Bree",
+   "province": "70000"
+  },
+  {
+   "code": "31005",
+   "name": "Brugge",
+   "province": "30000"
+  },
+  {
+   "code": "42004",
+   "name": "Buggenhout",
+   "province": "40000"
+  },
+  {
+   "code": "31006",
+   "name": "Damme",
+   "province": "30000"
+  },
+  {
+   "code": "35029",
+   "name": "De Haan",
+   "province": "30000"
+  },
+  {
+   "code": "38008",
+   "name": "De Panne",
+   "province": "30000"
+  },
+  {
+   "code": "34009",
+   "name": "Deerlijk",
+   "province": "30000"
+  },
+  {
+   "code": "44083",
+   "name": "Deinze",
+   "province": "40000"
+  },
+  {
+   "code": "41011",
+   "name": "Denderleeuw",
+   "province": "40000"
+  },
+  {
+   "code": "42006",
+   "name": "Dendermonde",
+   "province": "40000"
+  },
+  {
+   "code": "37002",
+   "name": "Dentergem",
+   "province": "30000"
+  },
+  {
+   "code": "13006",
+   "name": "Dessel",
+   "province": "10000"
+  },
+  {
+   "code": "44013",
+   "name": "Destelbergen",
+   "province": "40000"
+  },
+  {
+   "code": "71011",
+   "name": "Diepenbeek",
+   "province": "70000"
+  },
+  {
+   "code": "24020",
+   "name": "Diest",
+   "province": "20001"
+  },
+  {
+   "code": "32003",
+   "name": "Diksmuide",
+   "province": "30000"
+  },
+  {
+   "code": "23016",
+   "name": "Dilbeek",
+   "province": "20001"
+  },
+  {
+   "code": "72041",
+   "name": "Dilsen-Stokkem",
+   "province": "70000"
+  },
+  {
+   "code": "23098",
+   "name": "Drogenbos",
+   "province": "20001"
+  },
+  {
+   "code": "12009",
+   "name": "Duffel",
+   "province": "10000"
+  },
+  {
+   "code": "11013",
+   "name": "Edegem",
+   "province": "10000"
+  },
+  {
+   "code": "43005",
+   "name": "Eeklo",
+   "province": "40000"
+  },
+  {
+   "code": "41082",
+   "name": "Erpe-Mere",
+   "province": "40000"
+  },
+  {
+   "code": "11016",
+   "name": "Essen",
+   "province": "10000"
+  },
+  {
+   "code": "44019",
+   "name": "Evergem",
+   "province": "40000"
+  },
+  {
+   "code": "44020",
+   "name": "Gavere",
+   "province": "40000"
+  },
+  {
+   "code": "13008",
+   "name": "Geel",
+   "province": "10000"
+  },
+  {
+   "code": "24028",
+   "name": "Geetbets",
+   "province": "20001"
+  },
+  {
+   "code": "71016",
+   "name": "Genk",
+   "province": "70000"
+  },
+  {
+   "code": "44021",
+   "name": "Gent",
+   "province": "40000"
+  },
+  {
+   "code": "41018",
+   "name": "Geraardsbergen",
+   "province": "40000"
+  },
+  {
+   "code": "71017",
+   "name": "Gingelom",
+   "province": "70000"
+  },
+  {
+   "code": "35005",
+   "name": "Gistel",
+   "province": "30000"
+  },
+  {
+   "code": "24137",
+   "name": "Glabbeek",
+   "province": "20001"
+  },
+  {
+   "code": "23025",
+   "name": "Grimbergen",
+   "province": "20001"
+  },
+  {
+   "code": "13010",
+   "name": "Grobbendonk",
+   "province": "10000"
+  },
+  {
+   "code": "24033",
+   "name": "Haacht",
+   "province": "20001"
+  },
+  {
+   "code": "41024",
+   "name": "Haaltert",
+   "province": "40000"
+  },
+  {
+   "code": "71020",
+   "name": "Halen",
+   "province": "70000"
+  },
+  {
+   "code": "23027",
+   "name": "Halle",
+   "province": "20001"
+  },
+  {
+   "code": "42008",
+   "name": "Hamme",
+   "province": "40000"
+  },
+  {
+   "code": "72037",
+   "name": "Hamont-Achel",
+   "province": "70000"
+  },
+  {
+   "code": "34013",
+   "name": "Harelbeke",
+   "province": "30000"
+  },
+  {
+   "code": "71072",
+   "name": "Hasselt",
+   "province": "70000"
+  },
+  {
+   "code": "72038",
+   "name": "Hechtel-Eksel",
+   "province": "70000"
+  },
+  {
+   "code": "73022",
+   "name": "Heers",
+   "province": "70000"
+  },
+  {
+   "code": "12014",
+   "name": "Heist-op-den-Berg",
+   "province": "10000"
+  },
+  {
+   "code": "11018",
+   "name": "Hemiksem",
+   "province": "10000"
+  },
+  {
+   "code": "24038",
+   "name": "Herent",
+   "province": "20001"
+  },
+  {
+   "code": "13011",
+   "name": "Herentals",
+   "province": "10000"
+  },
+  {
+   "code": "13012",
+   "name": "Herenthout",
+   "province": "10000"
+  },
+  {
+   "code": "71024",
+   "name": "Herk-de-Stad",
+   "province": "70000"
+  },
+  {
+   "code": "13013",
+   "name": "Herselt",
+   "province": "10000"
+  },
+  {
+   "code": "73028",
+   "name": "Herstappe",
+   "province": "70000"
+  },
+  {
+   "code": "41027",
+   "name": "Herzele",
+   "province": "40000"
+  },
+  {
+   "code": "71070",
+   "name": "Heusden-Zolder",
+   "province": "70000"
+  },
+  {
+   "code": "33039",
+   "name": "Heuvelland",
+   "province": "30000"
+  },
+  {
+   "code": "24041",
+   "name": "Hoegaarden",
+   "province": "20001"
+  },
+  {
+   "code": "23033",
+   "name": "Hoeilaart",
+   "province": "20001"
+  },
+  {
+   "code": "24043",
+   "name": "Holsbeek",
+   "province": "20001"
+  },
+  {
+   "code": "36006",
+   "name": "Hooglede",
+   "province": "30000"
+  },
+  {
+   "code": "13014",
+   "name": "Hoogstraten",
+   "province": "10000"
+  },
+  {
+   "code": "45062",
+   "name": "Horebeke",
+   "province": "40000"
+  },
+  {
+   "code": "72039",
+   "name": "Houthalen-Helchteren",
+   "province": "70000"
+  },
+  {
+   "code": "32006",
+   "name": "Houthulst",
+   "province": "30000"
+  },
+  {
+   "code": "11021",
+   "name": "Hove",
+   "province": "10000"
+  },
+  {
+   "code": "24045",
+   "name": "Huldenberg",
+   "province": "20001"
+  },
+  {
+   "code": "13016",
+   "name": "Hulshout",
+   "province": "10000"
+  },
+  {
+   "code": "35006",
+   "name": "Ichtegem",
+   "province": "30000"
+  },
+  {
+   "code": "33011",
+   "name": "Ieper",
+   "province": "30000"
+  },
+  {
+   "code": "36007",
+   "name": "Ingelmunster",
+   "province": "30000"
+  },
+  {
+   "code": "36008",
+   "name": "Izegem",
+   "province": "30000"
+  },
+  {
+   "code": "31012",
+   "name": "Jabbeke",
+   "province": "30000"
+  },
+  {
+   "code": "11022",
+   "name": "Kalmthout",
+   "province": "10000"
+  },
+  {
+   "code": "23038",
+   "name": "Kampenhout",
+   "province": "20001"
+  },
+  {
+   "code": "23039",
+   "name": "Kapelle-op-den-Bos",
+   "province": "20001"
+  },
+  {
+   "code": "11023",
+   "name": "Kapellen",
+   "province": "10000"
+  },
+  {
+   "code": "43007",
+   "name": "Kaprijke",
+   "province": "40000"
+  },
+  {
+   "code": "13017",
+   "name": "Kasterlee",
+   "province": "10000"
+  },
+  {
+   "code": "24048",
+   "name": "Keerbergen",
+   "province": "20001"
+  },
+  {
+   "code": "72018",
+   "name": "Kinrooi",
+   "province": "70000"
+  },
+  {
+   "code": "45060",
+   "name": "Kluisbergen",
+   "province": "40000"
+  },
+  {
+   "code": "31043",
+   "name": "Knokke-Heist",
+   "province": "30000"
+  },
+  {
+   "code": "32010",
+   "name": "Koekelare",
+   "province": "30000"
+  },
+  {
+   "code": "38014",
+   "name": "Koksijde",
+   "province": "30000"
+  },
+  {
+   "code": "11024",
+   "name": "Kontich",
+   "province": "10000"
+  },
+  {
+   "code": "32011",
+   "name": "Kortemark",
+   "province": "30000"
+  },
+  {
+   "code": "24054",
+   "name": "Kortenaken",
+   "province": "20001"
+  },
+  {
+   "code": "24055",
+   "name": "Kortenberg",
+   "province": "20001"
+  },
+  {
+   "code": "34022",
+   "name": "Kortrijk",
+   "province": "30000"
+  },
+  {
+   "code": "23099",
+   "name": "Kraainem",
+   "province": "20001"
+  },
+  {
+   "code": "45068",
+   "name": "Kruisem",
+   "province": "40000"
+  },
+  {
+   "code": "34023",
+   "name": "Kuurne",
+   "province": "30000"
+  },
+  {
+   "code": "13053",
+   "name": "Laakdal",
+   "province": "10000"
+  },
+  {
+   "code": "42010",
+   "name": "Laarne",
+   "province": "40000"
+  },
+  {
+   "code": "73042",
+   "name": "Lanaken",
+   "province": "70000"
+  },
+  {
+   "code": "24059",
+   "name": "Landen",
+   "province": "20001"
+  },
+  {
+   "code": "33040",
+   "name": "Langemark-Poelkapelle",
+   "province": "30000"
+  },
+  {
+   "code": "42011",
+   "name": "Lebbeke",
+   "province": "40000"
+  },
+  {
+   "code": "41034",
+   "name": "Lede",
+   "province": "40000"
+  },
+  {
+   "code": "36010",
+   "name": "Ledegem",
+   "province": "30000"
+  },
+  {
+   "code": "34025",
+   "name": "Lendelede",
+   "province": "30000"
+  },
+  {
+   "code": "23104",
+   "name": "Lennik",
+   "province": "20001"
+  },
+  {
+   "code": "71034",
+   "name": "Leopoldsburg",
+   "province": "70000"
+  },
+  {
+   "code": "24062",
+   "name": "Leuven",
+   "province": "20001"
+  },
+  {
+   "code": "36011",
+   "name": "Lichtervelde",
+   "province": "30000"
+  },
+  {
+   "code": "23044",
+   "name": "Liedekerke",
+   "province": "20001"
+  },
+  {
+   "code": "12021",
+   "name": "Lier",
+   "province": "10000"
+  },
+  {
+   "code": "45063",
+   "name": "Lierde",
+   "province": "40000"
+  },
+  {
+   "code": "44085",
+   "name": "Lievegem",
+   "province": "40000"
+  },
+  {
+   "code": "13019",
+   "name": "Lille",
+   "province": "10000"
+  },
+  {
+   "code": "23100",
+   "name": "Linkebeek",
+   "province": "20001"
+  },
+  {
+   "code": "11025",
+   "name": "Lint",
+   "province": "10000"
+  },
+  {
+   "code": "24133",
+   "name": "Linter",
+   "province": "20001"
+  },
+  {
+   "code": "32030",
+   "name": "Lo-Reninge",
+   "province": "30000"
+  },
+  {
+   "code": "44087",
+   "name": "Lochristi",
+   "province": "40000"
+  },
+  {
+   "code": "46029",
+   "name": "Lokeren",
+   "province": "40000"
+  },
+  {
+   "code": "72020",
+   "name": "Lommel",
+   "province": "70000"
+  },
+  {
+   "code": "23045",
+   "name": "Londerzeel",
+   "province": "20001"
+  },
+  {
+   "code": "24066",
+   "name": "Lubbeek",
+   "province": "20001"
+  },
+  {
+   "code": "71037",
+   "name": "Lummen",
+   "province": "70000"
+  },
+  {
+   "code": "45064",
+   "name": "Maarkedal",
+   "province": "40000"
+  },
+  {
+   "code": "72021",
+   "name": "Maaseik",
+   "province": "70000"
+  },
+  {
+   "code": "73107",
+   "name": "Maasmechelen",
+   "province": "70000"
+  },
+  {
+   "code": "23047",
+   "name": "Machelen",
+   "province": "20001"
+  },
+  {
+   "code": "43010",
+   "name": "Maldegem",
+   "province": "40000"
+  },
+  {
+   "code": "11057",
+   "name": "Malle",
+   "province": "10000"
+  },
+  {
+   "code": "12025",
+   "name": "Mechelen",
+   "province": "10000"
+  },
+  {
+   "code": "13021",
+   "name": "Meerhout",
+   "province": "10000"
+  },
+  {
+   "code": "23050",
+   "name": "Meise",
+   "province": "20001"
+  },
+  {
+   "code": "34027",
+   "name": "Menen",
+   "province": "30000"
+  },
+  {
+   "code": "23052",
+   "name": "Merchtem",
+   "province": "20001"
+  },
+  {
+   "code": "44088",
+   "name": "Merelbeke-Melle",
+   "province": "40000"
+  },
+  {
+   "code": "13023",
+   "name": "Merksplas",
+   "province": "10000"
+  },
+  {
+   "code": "33016",
+   "name": "Mesen",
+   "province": "30000"
+  },
+  {
+   "code": "35011",
+   "name": "Middelkerke",
+   "province": "30000"
+  },
+  {
+   "code": "13025",
+   "name": "Mol",
+   "province": "10000"
+  },
+  {
+   "code": "36012",
+   "name": "Moorslede",
+   "province": "30000"
+  },
+  {
+   "code": "11029",
+   "name": "Mortsel",
+   "province": "10000"
+  },
+  {
+   "code": "44086",
+   "name": "Nazareth-De Pinte",
+   "province": "40000"
+  },
+  {
+   "code": "11030",
+   "name": "Niel",
+   "province": "10000"
+  },
+  {
+   "code": "71045",
+   "name": "Nieuwerkerken",
+   "province": "70000"
+  },
+  {
+   "code": "38016",
+   "name": "Nieuwpoort",
+   "province": "30000"
+  },
+  {
+   "code": "12026",
+   "name": "Nijlen",
+   "province": "10000"
+  },
+  {
+   "code": "41048",
+   "name": "Ninove",
+   "province": "40000"
+  },
+  {
+   "code": "13029",
+   "name": "Olen",
+   "province": "10000"
+  },
+  {
+   "code": "35013",
+   "name": "Oostende",
+   "province": "30000"
+  },
+  {
+   "code": "44052",
+   "name": "Oosterzele",
+   "province": "40000"
+  },
+  {
+   "code": "31022",
+   "name": "Oostkamp",
+   "province": "30000"
+  },
+  {
+   "code": "37010",
+   "name": "Oostrozebeke",
+   "province": "30000"
+  },
+  {
+   "code": "23060",
+   "name": "Opwijk",
+   "province": "20001"
+  },
+  {
+   "code": "24086",
+   "name": "Oud-Heverlee",
+   "province": "20001"
+  },
+  {
+   "code": "13031",
+   "name": "Oud-Turnhout",
+   "province": "10000"
+  },
+  {
+   "code": "45035",
+   "name": "Oudenaarde",
+   "province": "40000"
+  },
+  {
+   "code": "35014",
+   "name": "Oudenburg",
+   "province": "30000"
+  },
+  {
+   "code": "72042",
+   "name": "Oudsbergen",
+   "province": "70000"
+  },
+  {
+   "code": "23062",
+   "name": "Overijse",
+   "province": "20001"
+  },
+  {
+   "code": "23106",
+   "name": "Pajottegem",
+   "province": "20001"
+  },
+  {
+   "code": "72030",
+   "name": "Peer",
+   "province": "70000"
+  },
+  {
+   "code": "72043",
+   "name": "Pelt",
+   "province": "70000"
+  },
+  {
+   "code": "23064",
+   "name": "Pepingen",
+   "province": "20001"
+  },
+  {
+   "code": "37011",
+   "name": "Pittem",
+   "province": "30000"
+  },
+  {
+   "code": "33021",
+   "name": "Poperinge",
+   "province": "30000"
+  },
+  {
+   "code": "12029",
+   "name": "Putte",
+   "province": "10000"
+  },
+  {
+   "code": "12041",
+   "name": "Puurs-Sint-Amands",
+   "province": "10000"
+  },
+  {
+   "code": "11035",
+   "name": "Ranst",
+   "province": "10000"
+  },
+  {
+   "code": "13035",
+   "name": "Ravels",
+   "province": "10000"
+  },
+  {
+   "code": "13036",
+   "name": "Retie",
+   "province": "10000"
+  },
+  {
+   "code": "73066",
+   "name": "Riemst",
+   "province": "70000"
+  },
+  {
+   "code": "13037",
+   "name": "Rijkevorsel",
+   "province": "10000"
+  },
+  {
+   "code": "36015",
+   "name": "Roeselare",
+   "province": "30000"
+  },
+  {
+   "code": "45041",
+   "name": "Ronse",
+   "province": "40000"
+  },
+  {
+   "code": "23097",
+   "name": "Roosdaal",
+   "province": "20001"
+  },
+  {
+   "code": "24094",
+   "name": "Rotselaar",
+   "province": "20001"
+  },
+  {
+   "code": "11037",
+   "name": "Rumst",
+   "province": "10000"
+  },
+  {
+   "code": "11038",
+   "name": "Schelle",
+   "province": "10000"
+  },
+  {
+   "code": "24134",
+   "name": "Scherpenheuvel-Zichem",
+   "province": "20001"
+  },
+  {
+   "code": "11039",
+   "name": "Schilde",
+   "province": "10000"
+  },
+  {
+   "code": "11040",
+   "name": "Schoten",
+   "province": "10000"
+  },
+  {
+   "code": "23101",
+   "name": "Sint-Genesius-Rode",
+   "province": "20001"
+  },
+  {
+   "code": "46020",
+   "name": "Sint-Gillis-Waas",
+   "province": "40000"
+  },
+  {
+   "code": "12035",
+   "name": "Sint-Katelijne-Waver",
+   "province": "10000"
+  },
+  {
+   "code": "43014",
+   "name": "Sint-Laureins",
+   "province": "40000"
+  },
+  {
+   "code": "41063",
+   "name": "Sint-Lievens-Houtem",
+   "province": "40000"
+  },
+  {
+   "code": "44064",
+   "name": "Sint-Martens-Latem",
+   "province": "40000"
+  },
+  {
+   "code": "46021",
+   "name": "Sint-Niklaas",
+   "province": "40000"
+  },
+  {
+   "code": "23077",
+   "name": "Sint-Pieters-Leeuw",
+   "province": "20001"
+  },
+  {
+   "code": "71053",
+   "name": "Sint-Truiden",
+   "province": "70000"
+  },
+  {
+   "code": "34043",
+   "name": "Spiere-Helkijn",
+   "province": "30000"
+  },
+  {
+   "code": "11044",
+   "name": "Stabroek",
+   "province": "10000"
+  },
+  {
+   "code": "36019",
+   "name": "Staden",
+   "province": "30000"
+  },
+  {
+   "code": "23081",
+   "name": "Steenokkerzeel",
+   "province": "20001"
+  },
+  {
+   "code": "46024",
+   "name": "Stekene",
+   "province": "40000"
+  },
+  {
+   "code": "46025",
+   "name": "Temse",
+   "province": "40000"
+  },
+  {
+   "code": "23086",
+   "name": "Ternat",
+   "province": "20001"
+  },
+  {
+   "code": "24104",
+   "name": "Tervuren",
+   "province": "20001"
+  },
+  {
+   "code": "71071",
+   "name": "Tessenderlo-Ham",
+   "province": "70000"
+  },
+  {
+   "code": "37022",
+   "name": "Tielt",
+   "province": "30000"
+  },
+  {
+   "code": "24135",
+   "name": "Tielt-Winge",
+   "province": "20001"
+  },
+  {
+   "code": "24107",
+   "name": "Tienen",
+   "province": "20001"
+  },
+  {
+   "code": "73111",
+   "name": "Tongeren-Borgloon",
+   "province": "70000"
+  },
+  {
+   "code": "31033",
+   "name": "Torhout",
+   "province": "30000"
+  },
+  {
+   "code": "24109",
+   "name": "Tremelo",
+   "province": "20001"
+  },
+  {
+   "code": "13040",
+   "name": "Turnhout",
+   "province": "10000"
+  },
+  {
+   "code": "38025",
+   "name": "Veurne",
+   "province": "30000"
+  },
+  {
+   "code": "23088",
+   "name": "Vilvoorde",
+   "province": "20001"
+  },
+  {
+   "code": "33041",
+   "name": "Vleteren",
+   "province": "30000"
+  },
+  {
+   "code": "73109",
+   "name": "Voeren",
+   "province": "70000"
+  },
+  {
+   "code": "13044",
+   "name": "Vorselaar",
+   "province": "10000"
+  },
+  {
+   "code": "13046",
+   "name": "Vosselaar",
+   "province": "10000"
+  },
+  {
+   "code": "42023",
+   "name": "Waasmunster",
+   "province": "40000"
+  },
+  {
+   "code": "34040",
+   "name": "Waregem",
+   "province": "30000"
+  },
+  {
+   "code": "73098",
+   "name": "Wellen",
+   "province": "70000"
+  },
+  {
+   "code": "23102",
+   "name": "Wemmel",
+   "province": "20001"
+  },
+  {
+   "code": "33029",
+   "name": "Wervik",
+   "province": "30000"
+  },
+  {
+   "code": "13049",
+   "name": "Westerlo",
+   "province": "10000"
+  },
+  {
+   "code": "42025",
+   "name": "Wetteren",
+   "province": "40000"
+  },
+  {
+   "code": "34041",
+   "name": "Wevelgem",
+   "province": "30000"
+  },
+  {
+   "code": "23103",
+   "name": "Wezembeek-Oppem",
+   "province": "20001"
+  },
+  {
+   "code": "42026",
+   "name": "Wichelen",
+   "province": "40000"
+  },
+  {
+   "code": "37017",
+   "name": "Wielsbeke",
+   "province": "30000"
+  },
+  {
+   "code": "11050",
+   "name": "Wijnegem",
+   "province": "10000"
+  },
+  {
+   "code": "12040",
+   "name": "Willebroek",
+   "province": "10000"
+  },
+  {
+   "code": "37021",
+   "name": "Wingene",
+   "province": "30000"
+  },
+  {
+   "code": "11052",
+   "name": "Wommelgem",
+   "province": "10000"
+  },
+  {
+   "code": "45061",
+   "name": "Wortegem-Petegem",
+   "province": "40000"
+  },
+  {
+   "code": "11053",
+   "name": "Wuustwezel",
+   "province": "10000"
+  },
+  {
+   "code": "11054",
+   "name": "Zandhoven",
+   "province": "10000"
+  },
+  {
+   "code": "23094",
+   "name": "Zaventem",
+   "province": "20001"
+  },
+  {
+   "code": "31040",
+   "name": "Zedelgem",
+   "province": "30000"
+  },
+  {
+   "code": "42028",
+   "name": "Zele",
+   "province": "40000"
+  },
+  {
+   "code": "43018",
+   "name": "Zelzate",
+   "province": "40000"
+  },
+  {
+   "code": "23096",
+   "name": "Zemst",
+   "province": "20001"
+  },
+  {
+   "code": "11055",
+   "name": "Zoersel",
+   "province": "10000"
+  },
+  {
+   "code": "71066",
+   "name": "Zonhoven",
+   "province": "70000"
+  },
+  {
+   "code": "33037",
+   "name": "Zonnebeke",
+   "province": "30000"
+  },
+  {
+   "code": "41081",
+   "name": "Zottegem",
+   "province": "40000"
+  },
+  {
+   "code": "24130",
+   "name": "Zoutleeuw",
+   "province": "20001"
+  },
+  {
+   "code": "31042",
+   "name": "Zuienkerke",
+   "province": "30000"
+  },
+  {
+   "code": "44081",
+   "name": "Zulte",
+   "province": "40000"
+  },
+  {
+   "code": "71067",
+   "name": "Zutendaal",
+   "province": "70000"
+  },
+  {
+   "code": "45065",
+   "name": "Zwalm",
+   "province": "40000"
+  },
+  {
+   "code": "34042",
+   "name": "Zwevegem",
+   "province": "30000"
+  }
+ ]
+}

@@ -1,18 +1,23 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useMemo, useState } from "react"
 import { Bar, BarChart, CartesianGrid, Cell, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
 import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
 import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
+import { AnalysisOnly } from "@embuild/shared/components/shared/AnalysisOnly"
 import { CHART_SERIES_COLORS } from "@embuild/shared/lib/chart-theme"
 import { createAutoScaledFormatter } from "@embuild/shared/lib/number-formatters"
 import { getPublicPath } from "@embuild/shared/lib/path-utils"
 import dataset from "../../public/data/yearly_comparison.json"
+import { SLUG, type ComparisonSection } from "@/lib/sections"
+import { FLANDERS, GeoFilter, geoName, niceStep, useGeoData, useGeoIndex } from "./geo"
+import { BreakdownSection } from "./BreakdownSection"
+import { PlannedYearlySection } from "./PlannedYearlySection"
 
-export const SLUG = "gemeentelijke-investeringen-2026-10"
-export const SECTIONS = ["investments-yearly-actual", "investments-yearly-latest", "investments-yearly-original"] as const
-export type Section = typeof SECTIONS[number]
+export { SLUG, SECTIONS, type Section } from "@/lib/sections"
+
+type Row = typeof dataset.rows[number]
 
 const currency = new Intl.NumberFormat("nl-BE", { style: "currency", currency: "EUR", maximumFractionDigits: 2 })
 const color = (plan: number) => CHART_SERIES_COLORS[(plan - 2014) / 6]
@@ -21,12 +26,40 @@ const formatAmount = (amount: number | null) => amount === null ? "Niet beschikb
 export function OctoberComparison({
   section,
   viewType = "chart",
+  initialGeo = FLANDERS,
 }: {
-  section: Section
+  section: ComparisonSection
   viewType?: "chart" | "table"
+  initialGeo?: string
 }) {
   const [view, setView] = useState<"chart" | "table">(viewType)
   useEffect(() => setView(viewType), [viewType])
+  const [geo, setGeo] = useState(initialGeo)
+  useEffect(() => setGeo(initialGeo), [initialGeo])
+  const { data: index } = useGeoIndex()
+  const { data: geoData, error: geoError } = useGeoData(geo === FLANDERS ? "" : geo)
+  const isFlanders = geo === FLANDERS
+  const expectedCount = isFlanders ? 285 : geoData?.municipality_count ?? 0
+  const rows: Row[] | null = useMemo(() => {
+    if (isFlanders) return dataset.rows
+    if (!geoData) return null
+    return dataset.rows.map((row) => {
+      const year = String(row.Boekjaar)
+      const value = (key: "latest" | "original" | "actual") => geoData.series[key].amounts[year] ?? null
+      const count = (key: "latest" | "original" | "actual") => geoData.series[key].municipalities[year] ?? null
+      return {
+        ...row,
+        latest: value("latest") as number,
+        original: value("original") as number,
+        actual: value("actual"),
+        municipalities: {
+          latest: count("latest") as number,
+          original: count("original") as number,
+          actual: count("actual"),
+        },
+      }
+    })
+  }, [isFlanders, geoData])
   const comparison = section === "investments-yearly-actual" ? "actual" : "original"
   const isComparison = section === "investments-yearly-actual"
   const primary = section === "investments-yearly-original" ? "original" : "latest"
@@ -35,24 +68,29 @@ export function OctoberComparison({
     ? [{ key: "latest", label: "Meest recent plan", opacity: 1 }, { key: "actual", label: "Jaarrekening (werkelijk)", opacity: 0.4 }]
     : [{ key: primary, label: primaryLabel, opacity: primary === "original" ? 0.4 : 1 }]
   const comparisonLabel = comparison === "actual" ? "Jaarrekening (werkelijk)" : "Origineel beginkrediet"
-  const unequalCoverageYears = dataset.rows
+  const visibleRows = rows ?? []
+  const unequalCoverageYears = visibleRows
     .filter((row) => isComparison
       ? row.municipalities.actual !== null && row.municipalities.latest !== row.municipalities.actual
-      : row.municipalities[primary] < 285)
+      : (row.municipalities[primary] ?? 0) < expectedCount)
     .map((row) => row.Boekjaar)
-  const title = comparison === "actual"
+  const place = geoName(index, geo)
+  const baseTitle = comparison === "actual"
     ? "Geplande en werkelijke bouwinvesteringen per boekjaar (2014-2031)"
     : primary === "original"
       ? "Origineel beginkrediet per boekjaar (2014-2031)"
       : "Meest recente plan per boekjaar (2014-2031)"
-  const axisMaximum = Math.ceil(Math.max(
-    ...dataset.rows.flatMap((row) => [row.latest, row[comparison]]).filter((value): value is number => value !== null)
-  ) / 1_000_000_000) * 1_000_000_000
-  const { formatter, scaleLabel } = createAutoScaledFormatter(
-    dataset.rows.flatMap((row) => [row.latest, row[comparison]]).filter((value): value is number => value !== null),
-    true
-  )
-  const csvData = dataset.rows.map((row) => ({
+  const title = isFlanders ? baseTitle : `${baseTitle} - ${place}`
+  // Both plan series share one axis so the separate plan charts stay comparable for the same area.
+  const scaleValues = visibleRows
+    .flatMap((row) => [row.latest, row[comparison]])
+    .filter((value): value is number => value !== null)
+  const largest = Math.max(0, ...scaleValues)
+  const step = isFlanders ? 1_000_000_000 : niceStep(largest)
+  const axisMaximum = Math.max(step, Math.ceil(largest / step) * step)
+  const ticks = Array.from({ length: Math.round(axisMaximum / step) + 1 }, (_, index) => index * step)
+  const { formatter, scaleLabel } = createAutoScaledFormatter(scaleValues, true)
+  const csvData = visibleRows.map((row) => ({
     label: String(row.Boekjaar),
     periodCells: [row.Boekjaar, row.Rapportjaar],
     value: row[primary],
@@ -78,35 +116,48 @@ export function OctoberComparison({
               valueLabel="Bouwinvesteringen (euro)"
               dataSource="ABB BBC-DR, bouwscope op economische rekeningen, oktober 2026"
               dataSourceUrl={dataset.source_url}
+              embedParams={{ geo: isFlanders ? null : geo }}
             />
           </div>
-          <p className="text-sm text-muted-foreground">
-            {isComparison
-              ? "Per boekjaar het meest recente meerjarenplan naast de werkelijke uitgaven volgens de jaarrekening. Jaarrekeningen zijn beschikbaar tot en met 2025; daarna ontbreekt de lichte balk."
-              : primary === "original"
-                ? "Geplande bouwinvesteringen volgens de eerste versie van het meerjarenplan (status Origineel of Origineel-Beginkrediet), geen realisaties."
-                : "Geplande bouwinvesteringen volgens de meest recente versie van het meerjarenplan, geen realisaties."}
-          </p>
+          <AnalysisOnly>
+            <p className="text-sm text-muted-foreground">
+              {isComparison
+                ? "Per boekjaar het meest recente meerjarenplan naast de werkelijke uitgaven volgens de jaarrekening. Jaarrekeningen zijn beschikbaar tot en met 2025; daarna ontbreekt de lichte balk."
+                : primary === "original"
+                  ? "Geplande bouwinvesteringen volgens de eerste versie van het meerjarenplan (status Origineel of Origineel-Beginkrediet), geen realisaties."
+                  : "Geplande bouwinvesteringen volgens de meest recente versie van het meerjarenplan, geen realisaties."}
+            </p>
+          </AnalysisOnly>
         </CardHeader>
         <CardContent className="space-y-4">
-          {unequalCoverageYears.length > 0 && (
-            <p role="note" className="rounded border bg-muted/40 p-3 text-sm">
-              Let op: in {unequalCoverageYears.join(", ")} {isComparison
-                ? "verschilt het aantal besturen tussen de twee bronnen."
-                : "bevat deze bron minder dan 285 besturen."}
-              De totalen zijn niet gecorrigeerd voor ontbrekende besturen; zie de dekking in de tabel.
+          {index && <GeoFilter index={index} value={geo} onChange={setGeo} />}
+          <AnalysisOnly>
+            {rows && unequalCoverageYears.length > 0 && (
+              <p role="note" className="rounded border bg-muted/40 p-3 text-sm">
+                Let op: in {unequalCoverageYears.join(", ")} {isComparison
+                  ? "verschilt het aantal besturen tussen de twee bronnen."
+                  : expectedCount === 1
+                    ? "ontbreekt deze gemeente in de bron."
+                    : `bevat deze bron minder dan ${expectedCount} besturen.`}
+                De totalen zijn niet gecorrigeerd voor ontbrekende besturen; zie de dekking in de tabel.
+              </p>
+            )}
+            <p className="text-sm text-muted-foreground">
+              {isFlanders ? "Heel Vlaanderen" : place}; {dataset.price_basis.toLowerCase()}. Elk boekjaar gebruikt zijn eigen zesjarige plan:
+              2014-2019, 2020-2025 of 2026-2031. Overlappende planjaren tellen niet dubbel mee.
             </p>
-          )}
-          <p className="text-sm text-muted-foreground">
-            Heel Vlaanderen; {dataset.price_basis.toLowerCase()}. Elk boekjaar gebruikt zijn eigen zesjarige plan:
-            2014-2019, 2020-2025 of 2026-2031. Overlappende planjaren tellen niet dubbel mee.
-          </p>
-          {!isComparison && <p className="text-sm text-muted-foreground">De twee afzonderlijke plangrafieken gebruiken dezelfde verticale schaal.</p>}
+            {!isComparison && <p className="text-sm text-muted-foreground">De twee afzonderlijke plangrafieken gebruiken dezelfde verticale schaal.</p>}
+          </AnalysisOnly>
           {isComparison && <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm" aria-label="Betekenis kleurtinten">
             <span className="flex items-center gap-2"><span className="h-3 w-4 bg-foreground" aria-hidden="true" />Volle tint: meest recent plan</span>
             <span className="flex items-center gap-2"><span className="h-3 w-4 bg-foreground opacity-40" aria-hidden="true" />Lichte tint: {comparisonLabel.toLowerCase()}</span>
           </div>}
-          <Tabs value={view} onValueChange={(value) => setView(value === "table" ? "table" : "chart")}>
+          {!rows && (
+            <p className="text-sm text-muted-foreground" role="status">
+              {geoError ? `Fout bij het laden van ${place}: ${geoError}` : `Gegevens voor ${place} laden...`}
+            </p>
+          )}
+          {rows && <Tabs value={view} onValueChange={(value) => setView(value === "table" ? "table" : "chart")}>
             <TabsList aria-label={`Weergave ${title}`}>
               <TabsTrigger value="chart">Grafiek</TabsTrigger>
               <TabsTrigger value="table">Tabel</TabsTrigger>
@@ -116,17 +167,17 @@ export function OctoberComparison({
               <div className="overflow-x-auto">
                 <div className="h-[420px] min-w-[760px]" aria-label={title}>
                   <ResponsiveContainer width="100%" height="100%" minWidth={0} initialDimension={{ width: 760, height: 420 }}>
-                    <BarChart data={dataset.rows} margin={{ top: 10, right: 20, left: 10, bottom: 20 }} accessibilityLayer>
+                    <BarChart data={visibleRows} margin={{ top: 10, right: 20, left: 10, bottom: 20 }} accessibilityLayer>
                       <CartesianGrid strokeDasharray="3 3" vertical={false} />
                       <XAxis dataKey="Boekjaar" interval={0} angle={-45} textAnchor="end" height={50} tick={{ fontSize: 12 }} />
-                      <YAxis tickFormatter={formatter} width={75} domain={[0, axisMaximum]} />
+                      <YAxis tickFormatter={formatter} width={75} domain={[0, axisMaximum]} ticks={ticks} />
                       <Tooltip
                         formatter={(value) => typeof value === "number" ? currency.format(value) : "Niet beschikbaar"}
                         labelFormatter={(label) => `Boekjaar ${label}`}
                       />
                       {series.map(({ key, label, opacity }) => (
                         <Bar key={key} dataKey={key} name={label} fillOpacity={opacity} isAnimationActive={false}>
-                          {dataset.rows.map((row) => <Cell key={row.Boekjaar} fill={color(row.Rapportjaar)} />)}
+                          {visibleRows.map((row) => <Cell key={row.Boekjaar} fill={color(row.Rapportjaar)} />)}
                         </Bar>
                       ))}
                     </BarChart>
@@ -155,13 +206,13 @@ export function OctoberComparison({
                     </tr>
                   </thead>
                   <tbody>
-                    {dataset.rows.map((row) => (
+                    {visibleRows.map((row) => (
                       <tr key={row.Boekjaar} className="border-t">
                         <th scope="row" className="p-2 text-left font-normal">{row.Boekjaar}</th>
                         <td className="p-2 text-right tabular-nums">{formatAmount(row[primary])}</td>
                         {isComparison && <td className="p-2 text-right tabular-nums">{formatAmount(row[comparison])}</td>}
                         <td className="p-2 text-right">
-                          {row.municipalities[primary]}
+                          {row.municipalities[primary] ?? "Niet beschikbaar"}
                           {isComparison && ` / ${row.municipalities[comparison] ?? "Niet beschikbaar"}`}
                         </td>
                       </tr>
@@ -170,12 +221,14 @@ export function OctoberComparison({
                 </table>
               </div>
             </TabsContent>
-          </Tabs>
+          </Tabs>}
           <p className="text-sm text-muted-foreground">
             Bron: <a className="underline" href={dataset.source_url}>ABB BBC-DR</a>.
             {" "}<a className="underline" href={getPublicPath("/data/yearly_comparison.json")}>Jaartotalen en definities</a>
-            {" | "}<a className="underline" href={getPublicPath("/data/source_snapshot.json")}>Broncontrole en SHA-256</a>.
-            Ontbrekende waarden zijn geen nulbedragen. De dekking per bron staat in de tabel en CSV.
+            <AnalysisOnly>
+              {" | "}<a className="underline" href={getPublicPath("/data/source_snapshot.json")}>Broncontrole en SHA-256</a>.
+              Ontbrekende waarden zijn geen nulbedragen. De dekking per bron staat in de tabel en CSV.
+            </AnalysisOnly>
           </p>
         </CardContent>
       </Card>
@@ -189,7 +242,7 @@ export function OctoberDashboard() {
       <aside className="rounded-lg border bg-muted/40 p-4 text-sm space-y-2" aria-label="Over deze versie">
         <p className="font-semibold">Versie oktober 2026 - bouwscope op economische rekeningen</p>
         <p>
-          Nieuwe vergelijkingen uit drie exports van oktober. De oudere bronversies blijven afzonderlijk beschikbaar:
+          Nieuwe vergelijkingen uit de exports van oktober, nu ook per provincie, gemeente, beleidsdomein en rekening. De oudere bronversies blijven afzonderlijk beschikbaar:
           {" "}<a className="underline" href="/analyses/gemeentelijke-investeringen-2026-09/">september 2026</a>,
           {" "}<a className="underline" href="/analyses/gemeentelijke-investeringen/">mei 2026</a> en
           {" "}<a className="underline" href="/analyses/gemeentelijke-investeringen-2026-02/">februari 2026</a>.
@@ -198,6 +251,9 @@ export function OctoberDashboard() {
       <OctoberComparison section="investments-yearly-actual" />
       <OctoberComparison section="investments-yearly-latest" />
       <OctoberComparison section="investments-yearly-original" />
+      <PlannedYearlySection />
+      <BreakdownSection kind="bv" />
+      <BreakdownSection kind="rek" />
       <section className="rounded-lg border p-4 space-y-3" aria-labelledby="scope-title">
         <h2 id="scope-title" className="text-xl font-semibold">Afbakening en aandachtspunten</h2>
         <p className="text-sm">
@@ -215,16 +271,25 @@ export function OctoberDashboard() {
           {dataset.warnings.map((warning) => <li key={warning}>{warning}</li>)}
         </ul>
         <p className="text-sm">
-          De oktoberexport laat geen betrouwbare bouwuitsplitsing per beleidsveld toe.
-          Daarom staan hier geen BV-grafieken met ongefilterde of overgenomen septembercijfers.
-          Verschillen met oudere BV-grafieken kunnen ook komen door positieve cellen per rekening
-          tegenover per beleidsveld; vergelijk deze totalen niet zonder meer als bronrevisies.
+          De uitsplitsing per gemeente, beleidsdomein en rekening komt uit vijf volledige exports per planperiode
+          (jaarrekeningen 2014-2019 en 2020-2025, meest recente plannen 2014, 2020 en 2026) die zowel de economische
+          rekening als het beleidsveld bevatten. Dezelfde bouwscope en dezelfde regel voor positieve rekeningen zijn
+          toegepast; provincies en Vlaanderen zijn sommen van gemeenten. Per inwoner gebruikt de bevolking die in
+          dezelfde export achter de kolom &quot;Uitgave per inwoner&quot; zit. Verschillen met de BV-grafieken van september
+          komen onder meer doordat september alle materiële vaste activa telde en niet enkel de bouwscope.
+        </p>
+        <p className="text-sm">
+          De projectbrowser toont acties uit de meerjarenplannen 2026-2031 met hun volledige rekeninggroep
+          (bijvoorbeeld alle gemeenschapsgoederen, ook roerende goederen). Projectbedragen tellen daarom niet altijd
+          exact op tot de bouwinvesteringen in de grafiek.
         </p>
         <p className="text-sm">
           Controlebestanden:
           {" "}<a className="underline" href={getPublicPath("/data/construction_latest.csv")}>meest recent plan</a>,
           {" "}<a className="underline" href={getPublicPath("/data/construction_actual.csv")}>jaarrekeningen</a>,
-          {" "}<a className="underline" href={getPublicPath("/data/construction_original.csv")}>origineel beginkrediet</a>.
+          {" "}<a className="underline" href={getPublicPath("/data/construction_original.csv")}>origineel beginkrediet</a>,
+          {" "}<a className="underline" href={getPublicPath("/data/construction_detail_bv.csv")}>uitsplitsing per beleidsveld en rekening</a>
+          {" "}(codes in <a className="underline" href={getPublicPath("/data/geo/index.json")}>index.json</a>).
         </p>
       </section>
     </div>

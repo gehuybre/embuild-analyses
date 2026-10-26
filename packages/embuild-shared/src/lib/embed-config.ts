@@ -546,6 +546,24 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         component: "OctoberComparison",
         height: 900,
       },
+      "investments-planned-2026-2031": {
+        type: "custom",
+        title: "Geplande bouwinvesteringen per jaar, 2026-2031",
+        component: "PlannedYearlySection",
+        height: 900,
+      },
+      "investments-bv-breakdown": {
+        type: "custom",
+        title: "Verdeling per beleidsdomein",
+        component: "BreakdownSection",
+        height: 900,
+      },
+      "investments-rek-breakdown": {
+        type: "custom",
+        title: "Verdeling per algemene rekening (REK)",
+        component: "BreakdownSection",
+        height: 900,
+      },
     },
   },
   {
