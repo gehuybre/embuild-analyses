@@ -12,6 +12,7 @@ import { isEmbeddable, getEmbedConfig } from "../../lib/embed-config"
 import { getBasePath } from "../../lib/path-utils"
 import { useEmbedFilters } from "../../lib/stores/embed-filters-store"
 import { useIsEmbedRoute } from "../../lib/use-is-embed-route"
+import { FullscreenEmbedButton } from "./FullscreenEmbedButton"
 
 type ExportData = {
   label: string
@@ -146,18 +147,7 @@ export function ExportButtons({
   const storeCurrentView = useEmbedFilters((state) => state.currentView)
   const storeAnalysisSlug = useEmbedFilters((state) => state.analysisSlug)
 
-  const getEmbedCode = useCallback((): string => {
-    // Type guard: validate that this section is embeddable
-    if (!isEmbeddable(slug, sectionId)) {
-      // Return an HTML comment instead of throwing to avoid breaking the UI
-      return `<!-- Embed not available for ${slug}/${sectionId} -->
-<!-- To make this section embeddable, add it to EMBED_CONFIGS in src/lib/embed-config.ts -->`
-    }
-
-    // Get embed config to access height setting
-    const config = getEmbedConfig(slug, sectionId)
-    const height = config?.height ?? 500 // Default to 500px if not configured
-
+  const getEmbedUrl = useCallback((): string => {
     // Get the base URL for embed routes
     // Use environment variable (set at build time) instead of inferring from current URL
     // This ensures embeds always work correctly on both localhost and production hosts
@@ -205,10 +195,25 @@ export function ExportButtons({
     const filterParams = params.toString()
 
     // Build embed URL with ALL current filters from store
-    const embedUrl = filterParams
+    return filterParams
       ? `${baseUrl}/embed/${encodedSlug}/${encodedSectionId}/?${filterParams}`
       : `${baseUrl}/embed/${encodedSlug}/${encodedSectionId}/`
+  }, [slug, sectionId, toQueryString, storeCurrentView, storeAnalysisSlug, embedParams, viewType])
 
+  const embeddable = isEmbeddable(slug, sectionId)
+
+  const getEmbedCode = useCallback((): string => {
+    // Type guard: validate that this section is embeddable
+    if (!embeddable) {
+      // Return an HTML comment instead of throwing to avoid breaking the UI
+      return `<!-- Embed not available for ${slug}/${sectionId} -->
+<!-- To make this section embeddable, add it to EMBED_CONFIGS in src/lib/embed-config.ts -->`
+    }
+
+    // Get embed config to access height setting
+    const config = getEmbedConfig(slug, sectionId)
+    const height = config?.height ?? 500 // Default to 500px if not configured
+    const embedUrl = getEmbedUrl()
     return `<iframe
   src="${embedUrl}"
   data-data-blog-embed="true"
@@ -247,7 +252,7 @@ export function ExportButtons({
   });
 })();
 </script>`
-  }, [slug, sectionId, title, toQueryString, storeCurrentView, storeAnalysisSlug, embedParams, viewType])
+  }, [embeddable, slug, sectionId, title, getEmbedUrl])
 
   const copyEmbedCode = useCallback(async () => {
     const code = getEmbedCode()
@@ -322,6 +327,8 @@ export function ExportButtons({
           </div>
         </PopoverContent>
       </Popover>
+
+      {embeddable && <FullscreenEmbedButton getUrl={getEmbedUrl} />}
     </div>
   )
 }

@@ -31,6 +31,7 @@ import {
 } from "lucide-react"
 import { Badge } from "@embuild/shared/components/ui/badge"
 import { Button } from "@embuild/shared/components/ui/button"
+import { FullscreenEmbedButton } from "@embuild/shared/components/shared/FullscreenEmbedButton"
 import { Card, CardContent, CardHeader, CardTitle } from "@embuild/shared/components/ui/card"
 import { Input } from "@embuild/shared/components/ui/input"
 import {
@@ -351,6 +352,22 @@ function tabLabel(tab: GipTab) {
   return "Grote projecten"
 }
 
+function gipEmbedUrl(
+  section: GipTab,
+  selectedVersion: GipVersion,
+  selectedProgram: string,
+  selectedBudgetKey: BudgetKey
+) {
+  const baseUrl = typeof window !== "undefined"
+    ? window.location.origin + getBasePath()
+    : ""
+  const params = new URLSearchParams()
+  params.set("version", selectedVersion)
+  params.set("program", selectedProgram)
+  params.set("budget", selectedBudgetKey)
+  return `${baseUrl}/embed/${GIP_SLUG}/${section}/?${params.toString()}`
+}
+
 function GipEmbedButton({
   section,
   selectedVersion,
@@ -364,17 +381,14 @@ function GipEmbedButton({
 }) {
   const [copied, setCopied] = useState(false)
 
-  const getEmbedCode = useCallback(() => {
-    const baseUrl = typeof window !== "undefined"
-      ? window.location.origin + getBasePath()
-      : ""
-    const params = new URLSearchParams()
-    params.set("version", selectedVersion)
-    params.set("program", selectedProgram)
-    params.set("budget", selectedBudgetKey)
+  const getEmbedUrl = useCallback(
+    () => gipEmbedUrl(section, selectedVersion, selectedProgram, selectedBudgetKey),
+    [section, selectedBudgetKey, selectedProgram, selectedVersion]
+  )
 
+  const getEmbedCode = useCallback(() => {
     const title = `GIP-projecten - ${tabLabel(section)}`
-    const embedUrl = `${baseUrl}/embed/${GIP_SLUG}/${section}/?${params.toString()}`
+    const embedUrl = getEmbedUrl()
     const height = section === "map" ? 920 : section === "reconciliation" ? 920 : section === "projects" ? 760 : 680
 
     return `<iframe
@@ -415,7 +429,7 @@ function GipEmbedButton({
   });
 })();
 </script>`
-  }, [section, selectedBudgetKey, selectedProgram, selectedVersion])
+  }, [section, getEmbedUrl])
 
   const copyEmbedCode = useCallback(async () => {
     const code = getEmbedCode()
@@ -506,6 +520,10 @@ function TabSectionHeader({
             selectedVersion={selectedVersion}
             selectedProgram={selectedProgram}
             selectedBudgetKey={selectedBudgetKey}
+          />
+          <FullscreenEmbedButton
+            className="shrink-0 gap-2"
+            getUrl={() => gipEmbedUrl(section, selectedVersion, selectedProgram, selectedBudgetKey)}
           />
         </div>
       )}

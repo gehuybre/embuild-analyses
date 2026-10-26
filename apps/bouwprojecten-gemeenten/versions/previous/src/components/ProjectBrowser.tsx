@@ -13,6 +13,7 @@ import { ProjectFiltersComponent } from "./ProjectFilters"
 import { ProjectList } from "./ProjectList"
 import { ProjectDetailModal } from "./ProjectDetailModal"
 import { Button } from "@embuild/shared/components/ui/button"
+import { FullscreenEmbedButton } from "@embuild/shared/components/shared/FullscreenEmbedButton"
 import {
   Popover,
   PopoverContent,
@@ -454,12 +455,15 @@ export function ProjectBrowser() {
     [filteredAndSortedProjects]
   )
 
-  const getEmbedCode = (): string => {
+  const getEmbedUrl = (): string => {
     const baseUrl = typeof window !== "undefined"
       ? window.location.origin + getBasePath()
       : ""
+    return `${baseUrl}/embed/bouwprojecten-gemeenten/projectbrowser/`
+  }
 
-    const embedUrl = `${baseUrl}/embed/bouwprojecten-gemeenten/projectbrowser/`
+  const getEmbedCode = (): string => {
+    const embedUrl = getEmbedUrl()
 
     return `<iframe
   src="${embedUrl}"
@@ -715,6 +719,7 @@ export function ProjectBrowser() {
                       </div>
                     </PopoverContent>
                   </Popover>
+                  <FullscreenEmbedButton getUrl={getEmbedUrl} />
                 </div>
               )}
             </div>
