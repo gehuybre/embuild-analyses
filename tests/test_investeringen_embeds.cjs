@@ -108,7 +108,9 @@ for (const section of COMPARISON_SECTIONS) {
       assert.match(analysis, /Ontbrekende waarden zijn geen nulbedragen/)
       assert.match(analysis, section === "investments-yearly-actual"
         ? /Per boekjaar het meest recente/
-        : /Geplande bouwinvesteringen volgens/)
+        : section === "investments-yearly-actual-real"
+          ? /omgerekend naar het prijspeil van februari 2026/
+          : /Geplande bouwinvesteringen volgens/)
     })
   }
 }

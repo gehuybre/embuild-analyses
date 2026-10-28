@@ -2,12 +2,15 @@ export const SLUG = "gemeentelijke-investeringen-2026-10"
 
 export const COMPARISON_SECTIONS = [
   "investments-yearly-actual",
+  "investments-yearly-actual-real",
   "investments-yearly-latest",
   "investments-yearly-original",
 ] as const
 
 export const SECTIONS = [
   ...COMPARISON_SECTIONS,
+  "investments-bv",
+  "investments-bv-indexed",
   "investments-bv-breakdown",
   "investments-rek-breakdown",
   "investments-planned-2026-2031",

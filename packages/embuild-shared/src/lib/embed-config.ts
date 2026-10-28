@@ -534,6 +534,12 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         component: "OctoberComparison",
         height: 900,
       },
+      "investments-yearly-actual-real": {
+        type: "custom",
+        title: "Geplande en werkelijke bouwinvesteringen per boekjaar, gecorrigeerd voor inflatie",
+        component: "OctoberComparison",
+        height: 900,
+      },
       "investments-yearly-original": {
         type: "custom",
         title: "Origineel beginkrediet per boekjaar",
@@ -550,6 +556,18 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         type: "custom",
         title: "Geplande bouwinvesteringen per jaar, 2026-2031",
         component: "PlannedYearlySection",
+        height: 900,
+      },
+      "investments-bv": {
+        type: "custom",
+        title: "Investeringen per beleidsdomein",
+        component: "DomainInvestmentsSection",
+        height: 900,
+      },
+      "investments-bv-indexed": {
+        type: "custom",
+        title: "Geïndexeerde investeringsbedragen",
+        component: "IndexedInvestmentsSection",
         height: 900,
       },
       "investments-bv-breakdown": {

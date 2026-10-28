@@ -7,11 +7,18 @@ en toont de vier versies via een dropdown.
 ## Grafieken
 
 - `investments-yearly-actual`: meest recent meerjarenplan tegenover jaarrekening.
+- `investments-yearly-actual-real`: zelfde vergelijking, gedeflateerd naar prijspeil februari 2026 met `public/data/inflation_factors.json` (gebouwd door `scripts/build_october_inflation.py`: Statbel tot de laatste maand, daarna Planbureau-prognose uit `apps/nbb-rente`, daarna constante inflatie = gemiddelde van de laatste vier prognosemaanden).
 - `investments-yearly-latest`: afzonderlijke grafiek van het meest recente plan.
 - `investments-yearly-original`: afzonderlijke grafiek van het originele beginkrediet.
 - `investments-planned-2026-2031`: geplande bouwinvesteringen per boekjaar 2026-2031
   (meest recent plan), gestapeld per beleidsdomein, met filters voor provincie,
   gemeente, beleidsdomein en algemene rekening (of rekeninggroep).
+- `investments-bv`: investeringen per beleidsdomein (meest recent plan), per planperiode 2014-2019,
+  2020-2025 en 2026-2031, met filter op domein, totaal of per inwoner, en tabel (top 20) en kaart
+  van de gemeenten voor 2026-2031. Overgenomen uit de septemberversie.
+- `investments-bv-indexed`: dezelfde opbouw zonder domeinfilter, gedeflateerd per boekjaar met
+  `inflation_factors.json` (prijspeil februari 2026) en daarna opgeteld per planperiode. Anders dan
+  september, dat de legislatuur-middelpunten januari 2017 en januari 2023 gebruikte.
 - `investments-bv-breakdown`: verdeling per beleidsdomein (uitklapbaar per subdomein),
   per planperiode, met meest recent plan of jaarrekening, totaal of per inwoner.
 - `investments-rek-breakdown`: verdeling per algemene rekening (top 9 + overige),
@@ -128,6 +135,8 @@ Gegenereerd in `public/data/`:
 - `geo/index.json` (domeinen, subdomeinen, rekeningen, provincies, gemeenten) en
   `geo/<vlaanderen|provinciecode|NIS>.json` (reeksen, bevolking en kubus
   `[bron, jaar, subdomein, rekening, bedrag]`);
+- `municipality_domain_year.json`: gemeente x domein x boekjaar (meest recent plan) en bevolking, gebouwd
+  door `scripts/build_october_domain_summary.py` uit `geo/` (opnieuw draaien na `build_october_data.py`);
 - `source_snapshot.json`: bronfilters, SHA-256 van alle bronbestanden (ook de detailexports), rijtellingen,
   uitgesloten cellen, aansluiting detail/jaartotalen, niet-gebruikte BV-bestanden en claimregister per bron/boekjaar.
 

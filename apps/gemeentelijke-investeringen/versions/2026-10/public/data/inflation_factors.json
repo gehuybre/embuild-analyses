@@ -1,0 +1,204 @@
+{
+  "cpi_base_year": 2025,
+  "price_level_period": "2026-02",
+  "price_level_label": "februari 2026",
+  "reference_cpi": 101.72,
+  "method": "Elk boekjaar wordt gedeflateerd met het gemiddelde van de twaalf maandelijkse consumptieprijsindexen van dat jaar, naar het prijspeil van februari 2026.",
+  "last_statbel_month": "2026-09",
+  "forecast_vintage": "2026-06",
+  "forecast_publication_date": "2026-06-02",
+  "forecast_horizon": "2027-12",
+  "forecast_source_url": "https://www.plan.be/nl/data/indexcijfer-der-consumptieprijzen",
+  "extrapolation": {
+    "from": "2027-12",
+    "months_averaged": [
+      "2027-09",
+      "2027-10",
+      "2027-11",
+      "2027-12"
+    ],
+    "annual_inflation": 0.023725
+  },
+  "years": {
+    "2014": {
+      "average_cpi": 74.1617,
+      "factor": 1.371598085264175,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2015": {
+      "average_cpi": 74.5783,
+      "factor": 1.363935012403066,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2016": {
+      "average_cpi": 76.0508,
+      "factor": 1.3375264351694591,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2017": {
+      "average_cpi": 77.6667,
+      "factor": 1.3096995708154506,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2018": {
+      "average_cpi": 79.2608,
+      "factor": 1.2833576903262434,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2019": {
+      "average_cpi": 80.4008,
+      "factor": 1.265161016158622,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2020": {
+      "average_cpi": 80.9933,
+      "factor": 1.255905835871265,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2021": {
+      "average_cpi": 82.9717,
+      "factor": 1.2259606693047829,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2022": {
+      "average_cpi": 90.935,
+      "factor": 1.1186011986583824,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2023": {
+      "average_cpi": 94.6167,
+      "factor": 1.0750748634842344,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2024": {
+      "average_cpi": 97.5917,
+      "factor": 1.0423021091281701,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2025": {
+      "average_cpi": 99.9983,
+      "factor": 1.0172169536158935,
+      "basis": "statbel",
+      "months": {
+        "statbel": 12,
+        "planbureau": 0,
+        "extrapolatie": 0
+      }
+    },
+    "2026": {
+      "average_cpi": 103.5481,
+      "factor": 0.9823457975019703,
+      "basis": "planbureau",
+      "months": {
+        "statbel": 9,
+        "planbureau": 3,
+        "extrapolatie": 0
+      }
+    },
+    "2027": {
+      "average_cpi": 106.996,
+      "factor": 0.9506899684558873,
+      "basis": "planbureau",
+      "months": {
+        "statbel": 0,
+        "planbureau": 12,
+        "extrapolatie": 0
+      }
+    },
+    "2028": {
+      "average_cpi": 109.5356,
+      "factor": 0.9286479156706624,
+      "basis": "extrapolatie",
+      "months": {
+        "statbel": 0,
+        "planbureau": 0,
+        "extrapolatie": 12
+      }
+    },
+    "2029": {
+      "average_cpi": 112.1343,
+      "factor": 0.9071263431787467,
+      "basis": "extrapolatie",
+      "months": {
+        "statbel": 0,
+        "planbureau": 0,
+        "extrapolatie": 12
+      }
+    },
+    "2030": {
+      "average_cpi": 114.7947,
+      "factor": 0.8861035367689047,
+      "basis": "extrapolatie",
+      "months": {
+        "statbel": 0,
+        "planbureau": 0,
+        "extrapolatie": 12
+      }
+    },
+    "2031": {
+      "average_cpi": 117.5182,
+      "factor": 0.8655679374528364,
+      "basis": "extrapolatie",
+      "months": {
+        "statbel": 0,
+        "planbureau": 0,
+        "extrapolatie": 12
+      }
+    }
+  }
+}

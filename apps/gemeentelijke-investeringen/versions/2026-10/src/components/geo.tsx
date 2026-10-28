@@ -50,7 +50,7 @@ function loadJson<T>(path: string): Promise<T> {
   return cache.get(path) as Promise<T>
 }
 
-function useJson<T>(path: string | null) {
+export function useJson<T>(path: string | null) {
   const [state, setState] = useState<{ path: string | null; data: T | null; error: string | null }>({
     path: null, data: null, error: null,
   })
@@ -72,6 +72,20 @@ export const useGeoIndex = () => useJson<GeoIndex>("/data/geo/index.json")
 
 export function useGeoData(code: string) {
   return useJson<GeoData>(/^(vlaanderen|\d{5})$/.test(code) ? `/data/geo/${code}.json` : null)
+}
+
+export interface DomainSummary {
+  source: "latest"
+  municipalities: Record<string, { population: Record<string, number>; domains: Record<string, Record<string, number>> }>
+}
+
+export const useDomainSummary = () => useJson<DomainSummary>("/data/municipality_domain_year.json")
+
+/** NIS codes of the municipalities inside a region, province or single municipality selection. */
+export function geoMembers(index: GeoIndex, code: string) {
+  if (code === FLANDERS) return index.municipalities.map((entry) => entry.code)
+  if (index.provinces[code]) return index.municipalities.filter((entry) => entry.province === code).map((entry) => entry.code)
+  return index.municipalities.some((entry) => entry.code === code) ? [code] : []
 }
 
 export function isMunicipality(index: GeoIndex | null, code: string) {

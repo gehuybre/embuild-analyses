@@ -10,18 +10,51 @@ import { CHART_SERIES_COLORS } from "@embuild/shared/lib/chart-theme"
 import { createAutoScaledFormatter } from "@embuild/shared/lib/number-formatters"
 import { getPublicPath } from "@embuild/shared/lib/path-utils"
 import dataset from "../../public/data/yearly_comparison.json"
+import inflation from "../../public/data/inflation_factors.json"
 import { SLUG, type ComparisonSection } from "@/lib/sections"
 import { FLANDERS, GeoFilter, geoName, niceStep, useGeoData, useGeoIndex } from "./geo"
 import { BreakdownSection } from "./BreakdownSection"
 import { PlannedYearlySection } from "./PlannedYearlySection"
+import { DomainInvestmentsSection, IndexedInvestmentsSection } from "./DomainSections"
 
 export { SLUG, SECTIONS, type Section } from "@/lib/sections"
 
-type Row = typeof dataset.rows[number]
+type Row = Omit<typeof dataset.rows[number], "actual" | "municipalities"> & {
+  actual: number | null
+  municipalities: { latest: number; original: number; actual: number | null }
+}
 
 const currency = new Intl.NumberFormat("nl-BE", { style: "currency", currency: "EUR", maximumFractionDigits: 2 })
 const color = (plan: number) => CHART_SERIES_COLORS[(plan - 2014) / 6]
 const formatAmount = (amount: number | null) => amount === null ? "Niet beschikbaar" : currency.format(amount)
+
+const percent = new Intl.NumberFormat("nl-BE", { minimumFractionDigits: 1, maximumFractionDigits: 1, style: "percent" })
+
+function InflationNote() {
+  const { extrapolation, last_statbel_month: lastMonth, forecast_vintage: vintage, forecast_horizon: horizon } = inflation
+  const label = (period: string) => new Date(`${period}-01`).toLocaleDateString("nl-BE", { month: "long", year: "numeric" })
+  return (
+    <div className="space-y-2 text-sm text-muted-foreground">
+      <p>
+        Elk boekjaar wordt gedeflateerd met het gemiddelde van de twaalf maandelijkse consumptieprijsindexen van dat jaar
+        (Statbel, basis {inflation.cpi_base_year}=100), omgerekend naar {inflation.price_level_label}
+        {" "}(index {inflation.reference_cpi.toFixed(2).replace(".", ",")}). De correctiefactor loopt van
+        {" "}{inflation.years["2014"].factor.toFixed(2).replace(".", ",")} voor 2014 tot
+        {" "}{inflation.years["2031"].factor.toFixed(2).replace(".", ",")} voor 2031.
+      </p>
+      <p>
+        Statbel-cijfers lopen tot {label(lastMonth)}. Daarna volgen we de inflatieprognose van het Federaal Planbureau
+        (editie {label(vintage)}, zie <a className="underline" href="/analyses/nbb-rente/">de analyse over de NBB-rente</a>)
+        tot {label(horizon)}. Voor de jaren daarna nemen we een constante inflatie van {percent.format(extrapolation.annual_inflation)} per jaar,
+        het gemiddelde van de jaar-op-jaarinflatie in de laatste vier prognosemaanden. Voor de maanden na {label(lastMonth)} is de correctie dus een
+        veronderstelling, geen waarneming.
+      </p>
+      <p>
+        Meerjarenplannen zijn opgesteld in nominale euro. Een plan met een vlakke nominale lijn toont in reële termen dus een dalende lijn.
+      </p>
+    </div>
+  )
+}
 
 export function OctoberComparison({
   section,
@@ -40,7 +73,8 @@ export function OctoberComparison({
   const { data: geoData, error: geoError } = useGeoData(geo === FLANDERS ? "" : geo)
   const isFlanders = geo === FLANDERS
   const expectedCount = isFlanders ? 285 : geoData?.municipality_count ?? 0
-  const rows: Row[] | null = useMemo(() => {
+  const isReal = section === "investments-yearly-actual-real"
+  const nominalRows: Row[] | null = useMemo(() => {
     if (isFlanders) return dataset.rows
     if (!geoData) return null
     return dataset.rows.map((row) => {
@@ -60,8 +94,18 @@ export function OctoberComparison({
       }
     })
   }, [isFlanders, geoData])
-  const comparison = section === "investments-yearly-actual" ? "actual" : "original"
-  const isComparison = section === "investments-yearly-actual"
+  const rows: Row[] | null = useMemo(() => {
+    if (!isReal || !nominalRows) return nominalRows
+    const deflate = (amount: number | null, year: number) => amount === null ? null : amount * inflation.years[String(year) as keyof typeof inflation.years].factor
+    return nominalRows.map((row) => ({
+      ...row,
+      latest: deflate(row.latest, row.Boekjaar) as number,
+      original: deflate(row.original, row.Boekjaar) as number,
+      actual: deflate(row.actual, row.Boekjaar),
+    }))
+  }, [isReal, nominalRows])
+  const isComparison = section === "investments-yearly-actual" || isReal
+  const comparison = isComparison ? "actual" : "original"
   const primary = section === "investments-yearly-original" ? "original" : "latest"
   const primaryLabel = primary === "original" ? "Origineel beginkrediet" : "Meest recent plan"
   const series: { key: "latest" | "original" | "actual"; label: string; opacity: number }[] = isComparison
@@ -75,7 +119,9 @@ export function OctoberComparison({
       : (row.municipalities[primary] ?? 0) < expectedCount)
     .map((row) => row.Boekjaar)
   const place = geoName(index, geo)
-  const baseTitle = comparison === "actual"
+  const baseTitle = isReal
+    ? "Geplande en werkelijke bouwinvesteringen per boekjaar (2014-2031), gecorrigeerd voor inflatie"
+    : comparison === "actual"
     ? "Geplande en werkelijke bouwinvesteringen per boekjaar (2014-2031)"
     : primary === "original"
       ? "Origineel beginkrediet per boekjaar (2014-2031)"
@@ -113,7 +159,7 @@ export function OctoberComparison({
               sectionId={section}
               viewType={view}
               periodHeaders={["Boekjaar", "Planrapportjaar"]}
-              valueLabel="Bouwinvesteringen (euro)"
+              valueLabel={isReal ? "Bouwinvesteringen (euro, prijspeil februari 2026)" : "Bouwinvesteringen (euro)"}
               dataSource="ABB BBC-DR, bouwscope op economische rekeningen, oktober 2026"
               dataSourceUrl={dataset.source_url}
               embedParams={{ geo: isFlanders ? null : geo }}
@@ -121,7 +167,9 @@ export function OctoberComparison({
           </div>
           <AnalysisOnly>
             <p className="text-sm text-muted-foreground">
-              {isComparison
+              {isReal
+                ? `Dezelfde vergelijking als hierboven, maar alle bedragen zijn omgerekend naar het prijspeil van ${inflation.price_level_label}. Zo zijn boekjaren onderling vergelijkbaar zonder het effect van de prijsstijging.`
+                : isComparison
                 ? "Per boekjaar het meest recente meerjarenplan naast de werkelijke uitgaven volgens de jaarrekening. Jaarrekeningen zijn beschikbaar tot en met 2025; daarna ontbreekt de lichte balk."
                 : primary === "original"
                   ? "Geplande bouwinvesteringen volgens de eerste versie van het meerjarenplan (status Origineel of Origineel-Beginkrediet), geen realisaties."
@@ -143,9 +191,10 @@ export function OctoberComparison({
               </p>
             )}
             <p className="text-sm text-muted-foreground">
-              {isFlanders ? "Heel Vlaanderen" : place}; {dataset.price_basis.toLowerCase()}. Elk boekjaar gebruikt zijn eigen zesjarige plan:
+              {isFlanders ? "Heel Vlaanderen" : place}; {isReal ? `bedragen in prijzen van ${inflation.price_level_label}` : dataset.price_basis.toLowerCase()}. Elk boekjaar gebruikt zijn eigen zesjarige plan:
               2014-2019, 2020-2025 of 2026-2031. Overlappende planjaren tellen niet dubbel mee.
             </p>
+            {isReal && <InflationNote />}
             {!isComparison && <p className="text-sm text-muted-foreground">De twee afzonderlijke plangrafieken gebruiken dezelfde verticale schaal.</p>}
           </AnalysisOnly>
           {isComparison && <div className="flex flex-wrap gap-x-6 gap-y-2 text-sm" aria-label="Betekenis kleurtinten">
@@ -249,9 +298,12 @@ export function OctoberDashboard() {
         </p>
       </aside>
       <OctoberComparison section="investments-yearly-actual" />
+      <OctoberComparison section="investments-yearly-actual-real" />
       <OctoberComparison section="investments-yearly-latest" />
       <OctoberComparison section="investments-yearly-original" />
       <PlannedYearlySection />
+      <DomainInvestmentsSection />
+      <IndexedInvestmentsSection />
       <BreakdownSection kind="bv" />
       <BreakdownSection kind="rek" />
       <section className="rounded-lg border p-4 space-y-3" aria-labelledby="scope-title">

@@ -5,6 +5,7 @@ import { COMPARISON_SECTIONS, SLUG, type Section } from "@/lib/sections"
 import { OctoberComparison } from "./OctoberDashboard"
 import { BreakdownSection } from "./BreakdownSection"
 import { PlannedYearlySection } from "./PlannedYearlySection"
+import { DomainInvestmentsSection, IndexedInvestmentsSection } from "./DomainSections"
 import { FLANDERS } from "./geo"
 
 export function OctoberEmbed({ section }: { section: Section }) {
@@ -24,6 +25,10 @@ export function OctoberEmbed({ section }: { section: Section }) {
       />
     )
   }
+  const view = param("view") === "table" ? "table" : param("view") === "map" ? "map" : "chart"
+  const metric = param("metric") === "capita" ? "capita" : "total"
+  if (section === "investments-bv") return <DomainInvestmentsSection viewType={view} initialGeo={geo} initialMetric={metric} initialDomain={param("domein") ?? ""} />
+  if (section === "investments-bv-indexed") return <IndexedInvestmentsSection viewType={view} initialGeo={geo} initialMetric={metric} />
   return (
     <BreakdownSection
       kind={section === "investments-bv-breakdown" ? "bv" : "rek"}
