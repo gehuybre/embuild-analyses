@@ -15,6 +15,7 @@ import { SLUG, type ComparisonSection } from "@/lib/sections"
 import { FLANDERS, GeoFilter, geoName, niceStep, useGeoData, useGeoIndex } from "./geo"
 import { BreakdownSection } from "./BreakdownSection"
 import { PlannedYearlySection } from "./PlannedYearlySection"
+import { ShareSection, YearlyShareSection } from "./ShareSection"
 import { DomainInvestmentsSection, IndexedInvestmentsSection } from "./DomainSections"
 
 export { SLUG, SECTIONS, type Section } from "@/lib/sections"
@@ -304,6 +305,8 @@ export function OctoberDashboard() {
       <PlannedYearlySection />
       <DomainInvestmentsSection />
       <IndexedInvestmentsSection />
+      <ShareSection />
+      <YearlyShareSection />
       <BreakdownSection kind="bv" />
       <BreakdownSection kind="rek" />
       <section className="rounded-lg border p-4 space-y-3" aria-labelledby="scope-title">

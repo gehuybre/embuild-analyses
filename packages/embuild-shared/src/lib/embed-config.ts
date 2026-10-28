@@ -570,6 +570,18 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         component: "IndexedInvestmentsSection",
         height: 900,
       },
+      "investments-share-yearly": {
+        type: "custom",
+        title: "Aandeel bouwinvesteringen in de totale uitgaven per boekjaar, jaarrekeningen",
+        component: "YearlyShareSection",
+        height: 900,
+      },
+      "investments-share-total": {
+        type: "custom",
+        title: "Aandeel bouwinvesteringen in de totale uitgaven per legislatuur",
+        component: "ShareSection",
+        height: 900,
+      },
       "investments-bv-breakdown": {
         type: "custom",
         title: "Verdeling per beleidsdomein",

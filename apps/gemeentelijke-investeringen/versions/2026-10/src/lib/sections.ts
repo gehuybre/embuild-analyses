@@ -11,6 +11,8 @@ export const SECTIONS = [
   ...COMPARISON_SECTIONS,
   "investments-bv",
   "investments-bv-indexed",
+  "investments-share-total",
+  "investments-share-yearly",
   "investments-bv-breakdown",
   "investments-rek-breakdown",
   "investments-planned-2026-2031",

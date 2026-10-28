@@ -19,6 +19,13 @@ en toont de vier versies via een dropdown.
 - `investments-bv-indexed`: dezelfde opbouw zonder domeinfilter, gedeflateerd per boekjaar met
   `inflation_factors.json` (prijspeil februari 2026) en daarna opgeteld per planperiode. Anders dan
   september, dat de legislatuur-middelpunten januari 2017 en januari 2023 gebruikte.
+- `investments-share-total`: aandeel van de geplande bouwinvesteringen in de geplande totale uitgaven
+  (investeringen, financiering en exploitatie) per legislatuur, met provincie- en gemeentefilter. Teller = bouwscope
+  uit `municipality_domain_year.json`, noemer uit `total_expenditure.json` (bron `data-13.xlsx`, gebouwd door
+  `scripts/build_october_total_expenditure.py`). De noemer omvat alle investeringsuitgaven, de teller enkel de bouwscope.
+- `investments-share-yearly`: hetzelfde aandeel per boekjaar 2014-2025 op basis van jaarrekeningen
+  (`total_expenditure_actual.json`, bron `data-14.xlsx`; teller = werkelijke bouwreeks uit `geo/`). Een gemeente zonder
+  bouwreeks in een jaar (Herstappe 73028, 2019) valt dat jaar uit teller en noemer.
 - `investments-bv-breakdown`: verdeling per beleidsdomein (uitklapbaar per subdomein),
   per planperiode, met meest recent plan of jaarrekening, totaal of per inwoner.
 - `investments-rek-breakdown`: verdeling per algemene rekening (top 9 + overige),
