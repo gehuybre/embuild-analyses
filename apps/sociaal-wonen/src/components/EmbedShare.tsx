@@ -8,9 +8,9 @@ import { embedCode } from "@/lib/embed-snippet"
 import type { State, Tab } from "@/lib/types"
 
 const TITLES: Record<Tab, string> = {
-  kaart: "Sociale huurplanning: kaart per woonmaatschappij",
-  tabel: "Sociale huurplanning: tabel per woonmaatschappij en gemeente",
-  projecten: "Sociale huurplanning: projecten korte termijn",
+  kaart: "Sociale woonprogrammatie: categorieën per gemeente",
+  tabel: "Sociale woonprogrammatie: verrichtingen per gemeente",
+  projecten: "Sociale woonprogrammatie: afzonderlijke verrichtingen",
 }
 
 export function EmbedShare({ state, section }: { state: State; section: Tab }) {

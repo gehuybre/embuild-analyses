@@ -16,8 +16,8 @@ const geistMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Sociale huurplanning per woonmaatschappij",
-  description: "Waar en voor welke bedragen plannen de Vlaamse woonmaatschappijen sociale huurwoningen? Overzicht voor bouwbedrijven.",
+  title: "Sociale woonprogrammatie per gemeente",
+  description: "Geanonimiseerde categorieën voor de programmatie van sociale woningen per gemeente.",
 };
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? "";

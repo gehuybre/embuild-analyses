@@ -2,9 +2,9 @@ import { AnalysisLayout } from "@embuild/shared/components/shared/AnalysisLayout
 import { SociaalWonenDashboard } from "@/components/SociaalWonenDashboard"
 
 const metadata = {
-  title: "Sociale huurplanning per woonmaatschappij",
+  title: "Sociale woonprogrammatie per gemeente",
   date: "2026-08-14",
-  summary: "Waar en voor welke bedragen plannen de Vlaamse woonmaatschappijen sociale huurwoningen?",
+  summary: "Overzicht van sociale woonprogrammatie per gemeente met categorieën voor woningen en kostprijs.",
   tags: ["sociaal wonen","woonmaatschappijen","aanbesteding","huurwoningen"],
   source: {
     provider: "VMSW",

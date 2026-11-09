@@ -1,27 +1,33 @@
 # sociaal-wonen
 
-Kaart en tabel van de geplande sociale huurwoningen per woonmaatschappij en gemeente, voor bouwbedrijven.
+Kaart en tabel van de sociale woonprogrammatie per woonmaatschappij en gemeente.
 Site: `/analyses/sociaal-wonen/`. Standalone: dezelfde app, gebouwd met lege basePath.
 
 ## Bronnen
 
 - `data/2026_08_14_KTP.xlsx`: korte termijn (KT), verrichtingen klaar voor aanbesteding.
-- `data/2026_08_14_MJP.xlsx`: lange termijn (LT), verrichtingen met geadviseerd voorontwerp.
+- `data/2026_08_14_MJP.xlsx`: meerjarenplanning (LT in de code), verrichtingen met geadviseerd voorontwerp.
 - `data/Woonmaatschappijen-in-kaart_A2_o0pp46.pdf`: werkingsgebieden van de 41 woonmaatschappijen (januari 2025) en hun websites.
 
-`data/` staat niet in git (`data/.gitignore`). Alleen de gegenereerde `public/data/*.json` en `reference/` worden bewaard.
-Enkel de bladen `FS4 Nieuwbouw` en `FS4 Renovatie` worden gebruikt. De SSI-bladen overlappen en zijn niet inbegrepen.
-Renovaties met `Beperkte renovatie` in de kolom Extra info vormen een aparte categorie; de huurwoningen worden tussen
-`Renovatie` en `Beperkte renovatie` verdeeld en niet dubbel geteld. Raamcontracten blijven opgenomen.
+`data/` staat niet in git (`data/.gitignore`). De bronbladen `FS4 Nieuwbouw`, `FS4 Renovatie`, `SSI KTP` en `SSI MJP` worden verwerkt.
+SSI betekent **Subsidie Sloop en Infrastructuur** en wordt als afzonderlijke categorie opgenomen. Voor SSI geldt de kolom SSI (KTP) of Bedrag UP (MJP) als kostprijs, enkel als klasse.
+
+De publicatie houdt elke verrichting als aparte, niet-identificeerbare rij. Projectomschrijvingen, datums, typecodes, procedures,
+exacte aantallen en exacte bedragen worden weggelaten. Woningenaantallen worden ingedeeld in `1–10`, `11–25`, `26–50` en `meer dan 50`;
+kostprijzen in `minder dan €1 mln`, `€1–5 mln`, `€5–10 mln` en `meer dan €10 mln`. Er worden geen algemene totalen getoond.
+Nieuwbouw, vervangingsbouw, overige renovatie en SSI zijn de werkcategorieën. Beperkte renovatie valt onder renovatie.
+`Aankoop goede woning` (GW) en raamcontracten zijn uitgesloten; CBO, D&B en RC-renovatie (enkel KTP) worden getoond.
+CBO en D&B zijn opgenomen en volledig gescheiden als plaatsingsprocedure (`Reguliere procedure`, `CBO`, `D&B`); jaarvarianten worden samengenomen.
+Het overzicht bovenaan toont een histogram van het aantal verrichtingen per woningen- en kostprijsklasse. De download staat per gemeente gesorteerd.
 
 ## Privacyregel
 
-**LT is enkel geaggregeerd. Projectdetails bestaan alleen voor KT.**
+**De openbare gegevens bevatten geen projectidentificatie of exacte waarden.**
 
-- `scripts/process_data.py`: `PROJECT_LEVEL_HORIZONS = {"kt"}`. Voor LT wordt nooit een projectveld weggeschreven.
-- Interne dossier-ID's (Woonproject, Verrichting, Identificatie) worden voor geen enkele horizon gepubliceerd.
-- De app laadt `kt_projects.json` alleen bij horizon KT en op de projectentab.
-- `scripts/validate_public_data.py` (draait als `prebuild`) faalt bij projectvelden buiten `kt_projects.json`.
+- `scripts/process_data.py` publiceert alleen woonmaatschappij en locatiegegevens plus werk-, woningenaantal- en kostprijscategorieën.
+- Interne dossier-ID's, projectomschrijvingen, datums en exacte bronbedragen/aantallen worden voor geen enkele horizon gepubliceerd.
+- De webapp en xlsx-download tonen de verrichtingen afzonderlijk, uitsluitend met categorische waarden.
+- `scripts/validate_public_data.py` (draait als `prebuild`) faalt bij identificerende velden, exacte waarden of onverwachte uitvoerbestanden.
 
 ## Data verversen (automatisch)
 
@@ -34,7 +40,7 @@ python3 scripts/process_data.py           # eenmalig: verwerken + valideren
 python3 scripts/process_data.py --watch   # blijft draaien en verwerkt elke nieuwe of gewijzigde xlsx/pdf vanzelf
 ```
 
-Verwerking = ETL, kaartgeometrie, download-xlsx, kwaliteitsrapport en validatie. Een nieuwe werkingsgebieden-PDF wordt automatisch opnieuw uitgelezen.
+Verwerking = ETL, kaartgeometrie, categorische download-xlsx, kwaliteitsrapport en validatie. Een nieuwe werkingsgebieden-PDF wordt automatisch opnieuw uitgelezen.
 Daarna: committen en pushen om de site en de standalone versie te publiceren.
 
 Het script stopt met een duidelijke melding (en gokt niet) bij een onbekende initiatiefnemer, gemeente of type, of als de totalen niet
@@ -42,13 +48,12 @@ overeenkomen met de totaalrijen van de bladen. Voeg dan een regel toe in `refere
 Naamvarianten zoals "Woonmaatschappij X" tegenover "WM X" worden automatisch herkend en gemeld.
 Zie `reference/kwaliteitsrapport.md` voor wat er is afgeleid of gecorrigeerd.
 
-### Download alle gegevens
+### Download categoriegegevens
 
-`public/data/sociaal-wonen-alle-gegevens.xlsx` wordt bij elke run opnieuw gemaakt uit de bronbestanden. Blad `Gegevens`: alle cijfers in
-tidy formaat (een rij per waarneming, als Excel-tabel, klaar voor draaitabellen). Kolom `Planning` (korte/lange termijn) en `Niveau`:
-KT staat op projectniveau, LT geaggregeerd (geen projectomschrijving, geen datum). Blad `Toelichting`: definities, kolomuitleg en types.
-Er staan geen dossiernummers (Woonproject, Verrichting) in en de SSI-bladen zijn niet inbegrepen. De validator controleert de bladen,
-de kolommen, het ontbreken van projectdetails bij LT en dat de totalen overeenkomen met de controletotalen.
+`public/data/sociaal-wonen-alle-gegevens.xlsx` wordt bij elke run opnieuw gemaakt uit de bronbestanden. Blad `Gegevens` bevat per
+verrichting alleen planning, woonmaatschappij, provincie, gemeente, werkcategorie en de categorieën voor woningen en kostprijs.
+Blad `Toelichting` beschrijft het programmatieproces en de gebruikte categorieën. De validator controleert de kolommen, categorische
+waarden en het ontbreken van projectdetails en exacte bedragen/aantallen.
 
 ### Werkingsgebied per gemeente
 
@@ -58,24 +63,21 @@ om de afleiding te overschrijven. Je keuze blijft behouden bij een volgende run.
 
 ## Embeds
 
-`/embed/sociaal-wonen/{kaart|tabel|projecten}/`, met optionele parameters (prefix `sociaal-wonen.` of kaal):
+`/embed/sociaal-wonen/{kaart|tabel}/`, met optionele parameters (prefix `sociaal-wonen.` of kaal):
 
 | Parameter | Waarden |
 |---|---|
 | `horizon` | `kt` (standaard), `lt` |
 | `wm` | id van de woonmaatschappij (bv. `thuispunt-gent`) |
 | `gemeente` | NIS-code (5 cijfers) |
-| `groep` | `nieuwbouw`, `renovatie`, `beperkte-renovatie` |
-| `type` | `NB`, `VVP`, `RVP`, `GW`, `VEP`, `REP` |
-| `procedure` | waarde uit de kolom Extra info, bv. `D&B 2019` |
-| `modus`, `metric` | enkel kaart: `wm`/`gemeente`, `huur`/`kostprijs` |
+| `groep` | `nieuwbouw`, `vervangingsbouw`, `renovatie`, `ssi` |
+| `plaatsing` | `Reguliere procedure`, `CBO`, `D&B` |
 | `filters` | `0` verbergt de filterbalk |
 
 Ongeldige of verouderde waarden vallen terug op de standaard. De knop "Insluiten" genereert de iframe-code met de actieve filters.
 De provinciefilter is verwijderd; oude `provincie`-parameters worden genegeerd.
-De keuze tussen korte en lange termijn staat boven de kaart of tabel. De toelichting bij beide termijnen verschijnt als gewone tekst,
-naast elkaar vanaf tabletbreedte en onder elkaar op mobiel, met de totalen en uitsplitsing duidelijk gescheiden van de achtergronduitleg.
-Deze toelichting verschijnt alleen op de volledige pagina, nooit in embeds, ook niet wanneer de filters zichtbaar zijn.
+De keuze tussen korte termijn en meerjarenplanning staat bovenaan en omvat alles eronder (histogram, filters, kaart en tabellen) of tabel. De volledige pagina legt ook de stappen van de programmatie uit;
+deze procesuitleg verschijnt niet in embeds.
 
 ## Site en standalone synchroon houden
 

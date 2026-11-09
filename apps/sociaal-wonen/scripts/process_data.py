@@ -1,14 +1,5 @@
 #!/usr/bin/env python3
-"""ETL sociaal-wonen: VMSW-planning (KTP en MJP, FS4-bladen) naar public/data/*.json.
-
-Privacyregel (structureel): projectdetails bestaan enkel voor de KT-horizon. Voor LT wordt nooit een
-projectveld weggeschreven. Zie PROJECT_LEVEL_HORIZONS en scripts/validate_public_data.py.
-
-Aanpak:
-- Leidende bron: de xlsx-bestanden in data/ (de CSV-exports daar worden genegeerd).
-- Enkel de FS4-bladen (Nieuwbouw, Renovatie). De SSI-bladen overlappen met FS4 en worden niet meegeteld.
-- Alles wat niet eenduidig te parsen of te koppelen is, laat het script falen of komt in het kwaliteitsrapport.
-"""
+"""Verwerk KTP-, MJP- en SSI-bronbladen naar geanonimiseerde categorieën."""
 from __future__ import annotations
 
 import csv
@@ -34,7 +25,7 @@ OUT = APP_DIR / "public/data"
 # Bronbestanden worden automatisch gevonden: de nieuwste `JJJJ_MM_DD_KTP.xlsx` en `JJJJ_MM_DD_MJP.xlsx` in data/.
 HORIZON_META = {
     "kt": {"pattern": "*_KTP.xlsx", "label": "Korte termijn", "omschrijving": "Verrichtingen die klaar zijn voor aanbesteding"},
-    "lt": {"pattern": "*_MJP.xlsx", "label": "Lange termijn", "omschrijving": "Verrichtingen waarvoor een voorontwerp werd geadviseerd"},
+    "lt": {"pattern": "*_MJP.xlsx", "label": "Meerjarenplanning", "omschrijving": "Verrichtingen waarvoor een voorontwerp werd geadviseerd"},
 }
 HORIZONS: dict[str, dict] = {}
 
@@ -57,12 +48,17 @@ def peildatum() -> str:
     return max(h["peildatum"] for h in HORIZONS.values())
 
 
-# Enkel deze horizons mogen projectdetails publiceren (beslissing Gert, 2026-10-01).
-PROJECT_LEVEL_HORIZONS = {"kt"}
-
 SHEETS = {"FS4 Nieuwbouw": "nieuwbouw", "FS4 Renovatie": "renovatie"}
+SSI_SHEETS = {"kt": "SSI KTP", "lt": "SSI MJP"}
 HEADER = ["Woonproject", "Verrichting", "Initiatiefnemers", None, "Provincie", "Gemeente", "Projectomschrijving",
           "Datum Beslissing", "Huur", "Extra info", "Type", "Kostprijs", "Maximumprijs VMSW", "Bedrag UP"]
+SSI_HEADER = ["Woonproject", "Identificatie", "Initiatiefnemers", None, "Provincie", "Gemeente",
+              "Projectomschrijving", "Datum Beslissing", "Huur", "Koop", "FS4", "SSI"]
+SSI_HEADERS = {
+    "kt": SSI_HEADER,
+    "lt": ["Woonproject", "Identificatie", "Initiatiefnemers", None, "Provincie", "Gemeente",
+           "Projectomschrijving", "Datum Beslissing", "Huur", "Koop", "Bedrag UP", None],
+}
 TYPES = {
     "NB": "Nieuwbouw",
     "VVP": "Vervangingsbouw verworven patrimonium",
@@ -74,9 +70,34 @@ TYPES = {
 }
 CATEGORIES = {
     "nieuwbouw": "Nieuwbouw",
+    "vervangingsbouw": "Vervangingsbouw",
     "renovatie": "Renovatie",
-    "beperkte-renovatie": "Beperkte renovatie",
+    "ssi": "SSI (Subsidie Sloop en Infrastructuur)",
 }
+COUNT_BANDS = [
+    (0, "Geen huurwoningen"),
+    (10, "1–10"),
+    (25, "11–25"),
+    (50, "26–50"),
+    (float("inf"), "Meer dan 50"),
+]
+COST_BANDS = [
+    (1_000_000, "Minder dan €1 mln"),
+    (5_000_000, "€1–5 mln"),
+    (10_000_000, "€5–10 mln"),
+    (float("inf"), "Meer dan €10 mln"),
+]
+EXCLUDED_PROCEDURES = ("raamcontract",)
+PLAATSINGEN = ["Reguliere procedure", "CBO", "D&B"]  # CBO en D&B blijven volledig gescheiden; varianten per jaar worden samengenomen
+
+
+def plaatsing_of(procedure: str | None) -> str:
+    p = (procedure or "").casefold()
+    if "cbo" in p:
+        return "CBO"
+    if "d&b" in p or "design & build" in p:
+        return "D&B"
+    return PLAATSINGEN[0]
 PROVINCE_FIX = {"LIMBUG": "LIMBURG"}
 NO_MUNI = {"geen": "Gemeente niet gespecificeerd", "meerdere": "Meerdere gemeenten"}
 
@@ -101,10 +122,65 @@ def read_csv(path: Path) -> list[dict]:
         return list(csv.DictReader(f))
 
 
-def category_for(group: str, procedure: str | None) -> str:
-    if group == "renovatie" and procedure and "beperkte renovatie" in procedure.casefold():
-        return "beperkte-renovatie"
+def work_category(group: str, typ: str) -> str:
+    if typ in {"VVP", "VEP"}:
+        return "vervangingsbouw"
+    if typ in {"RVP", "REP"}:
+        return "renovatie"
     return group
+
+
+def is_included(record: dict) -> bool:
+    if record["type"] == "GW":
+        return False
+    procedure = (record["procedure"] or "").casefold()
+    return not any(excluded in procedure for excluded in EXCLUDED_PROCEDURES)
+
+
+def count_band(value: float | None) -> str:
+    if value is None:
+        return "Niet vermeld"
+    if value <= 0:
+        return COUNT_BANDS[0][1]
+    return next(label for upper, label in COUNT_BANDS[1:] if value <= upper)
+
+
+def cost_band(value: float | None) -> str:
+    if value is None:
+        return "Niet beschikbaar in bron"
+    if value < COST_BANDS[0][0]:
+        return COST_BANDS[0][1]
+    return next(label for upper, label in COST_BANDS[1:] if value <= upper)
+
+
+def resolve_location(initiators: str, province: str, municipality: str | None, description: str,
+                     fixes: list[dict], aliases: dict, idx: dict, where: str,
+                     fallback_wm: str | None = None) -> tuple[str, str | None, str, str]:
+    wm = fallback_wm or wm_for(initiators, aliases, where)
+    fixed_reason = None
+    for fx in fixes:
+        if fx["initiatiefnemer"] and norm(fx["initiatiefnemer"]) in norm(initiators or "") \
+                and fx["omschrijving_bevat"].lower() in description.lower():
+            municipality, fixed_reason = fx["gemeente_correct"], fx["reden"]
+    if municipality is None:
+        status = "geen"
+        nis = None
+    elif "/" in municipality:
+        status = "meerdere"
+        nis = None
+    elif norm(municipality) in idx and len(idx[norm(municipality)]) == 1:
+        status = "ok"
+        nis = idx[norm(municipality)][0]["nis"]
+    else:
+        raise SystemExit(f"Gemeente {municipality!r} niet gevonden of dubbelzinnig ({where})")
+
+    province_src = PROVINCE_FIX.get((province or "").strip(), (province or "").strip())
+    prov = province_of(nis) if nis else province_src
+    if nis and province_src != prov and not fixed_reason:
+        report.append(f"- {where}: provincie afgeleid uit de gemeente.")
+    if fixed_reason:
+        report.append(f"- {where}: gemeente gecorrigeerd. {fixed_reason}")
+    return wm, nis, status, prov
 
 
 def strip_prefix(n: str) -> str:
@@ -163,36 +239,16 @@ def read_horizon(hz: str, legend, aliases, fixes, idx):
                         if v is not None:  # niet elk veld heeft een som in de totaalrij
                             totals[group][k] += v
                 continue
-            wm = wm_for(r[2], aliases, where)
+            initiators = (r[2] or "").strip()
             for k, c in (("huur", 8), ("kostprijs", 11), ("maximumprijs_vmsw", 12), ("bedrag_up", 13)):
                 if isinstance(r[c], str) and num(r[c], where) is not None:
                     text_adj[group][k] += num(r[c], where)
-                    report.append(f"- {where}: {k} staat als tekst in de bron ({r[c]!r}). De totaalrij van het blad telt die cel niet mee; wij wel.")
+                    report.append(f"- {where}: een financiële broncel staat als tekst; meegenomen in de broncontrole.")
             gem_raw = r[5].strip() if isinstance(r[5], str) else None
             omschr = (r[6] or "").strip()
-
-            # expliciete correcties (reference/gemeente_fixes.csv)
-            fixed_reason = None
-            for fx in fixes:
-                if fx["initiatiefnemer"] and norm(fx["initiatiefnemer"]) in norm(r[2] or "") \
-                        and fx["omschrijving_bevat"].lower() in omschr.lower():
-                    gem_raw, fixed_reason = fx["gemeente_correct"], fx["reden"]
-            nis, status = None, "ok"
-            if gem_raw is None:
-                status = "geen"
-            elif "/" in gem_raw:
-                status = "meerdere"
-            elif norm(gem_raw) in idx and len(idx[norm(gem_raw)]) == 1:
-                nis = idx[norm(gem_raw)][0]["nis"]
-            else:
-                raise SystemExit(f"Gemeente {gem_raw!r} niet gevonden of dubbelzinnig ({where})")
-
-            prov_src = PROVINCE_FIX.get((r[4] or "").strip(), (r[4] or "").strip())
-            prov = province_of(nis) if nis else prov_src
-            if nis and prov_src != prov and not fixed_reason:
-                report.append(f"- {where}: provincie in bron ({prov_src}) wijkt af van die van {gem_raw} ({prov}); provincie afgeleid uit de gemeente.")
-            if fixed_reason:
-                report.append(f"- {where}: gemeente gecorrigeerd naar {gem_raw}. {fixed_reason}")
+            wm, nis, status, prov = resolve_location(
+                initiators, r[4], gem_raw, omschr, fixes, aliases, idx, where
+            )
 
             typ = (r[10] or "").strip() or "ONBEKEND"
             if typ not in TYPES:
@@ -201,52 +257,119 @@ def read_horizon(hz: str, legend, aliases, fixes, idx):
             procedure = (r[9] or "").strip() or None if isinstance(r[9], str) else None
             records.append({
                 "horizon": hz, "groep": group, "wm": wm, "nis": nis, "status": status,
-                "categorie": category_for(group, procedure),
+                "categorie": work_category(group, typ),
                 "gemeente_label": NO_MUNI.get(status) if status != "ok" else None,
                 "provincie": prov, "type": typ,
                 "huur": num(r[8], where), "kostprijs": num(r[11], where),
                 "maximumprijs_vmsw": num(r[12], where), "bedrag_up": num(r[13], where),
                 "datum": d.date().isoformat() if isinstance(d, datetime) else None,
-                "omschrijving": omschr, "procedure": procedure,
-                "initiatiefnemer_bron": (r[2] or "").strip(),
+                "omschrijving": omschr, "procedure": procedure, "plaatsing": plaatsing_of(procedure),
+                "initiatiefnemer_bron": initiators,
             })
             if typ == "ONBEKEND":
-                report.append(f"- {where}: geen type in de bron ({r[2]}); getoond als 'Type niet vermeld'.")
+                report.append(f"- {where}: geen type in de bron; opgenomen onder de broncategorie.")
             if status != "ok":
-                report.append(f"- {where}: {NO_MUNI[status].lower()} ({r[2]}, bron: {r[5]!r}); telt mee in totalen en tabel, niet op de kaart.")
-            if "koop" in (r[2] or "").lower():
-                report.append(f"- {where}: initiatiefnemer '{r[2]}' vermeldt 'Koop'; Huur = {r[8]}. Telt mee zoals in de bron.")
+                report.append(f"- {where}: {NO_MUNI[status].lower()}; staat niet op de kaart.")
     # verwacht totaal = bladtotaal + tekstcellen die het blad zelf niet meetelt
     expected = {g: {k: v + text_adj[g].get(k, 0.0) for k, v in t.items()} for g, t in totals.items()}
     return records, expected
 
 
-def aggregate(records):
-    agg = defaultdict(lambda: {"huur": 0.0, "kostprijs": 0.0, "maximumprijs_vmsw": 0.0, "bedrag_up": 0.0,
-                               "n": 0, "n_maximumprijs": 0, "jaren": []})
-    for r in records:
-        key = (r["wm"], r["nis"], r["status"], r["provincie"], r["groep"], r["categorie"], r["type"], r["procedure"] or "")
-        a = agg[key]
-        a["huur"] += r["huur"] or 0
-        a["kostprijs"] += r["kostprijs"] or 0
-        a["bedrag_up"] += r["bedrag_up"] or 0
-        if r["maximumprijs_vmsw"]:
-            a["maximumprijs_vmsw"] += r["maximumprijs_vmsw"]
-            a["n_maximumprijs"] += 1
-        a["n"] += 1
-        if r["datum"]:
-            a["jaren"].append(int(r["datum"][:4]))
-    rows = []
-    for (wm, nis, status, prov, groep, categorie, typ, proc), a in sorted(agg.items(), key=lambda kv: tuple(str(x) for x in kv[0])):
-        rows.append({
-            "wm": wm, "nis": nis, "gemeente_label": NO_MUNI.get(status) if status != "ok" else None,
-            "provincie": prov, "groep": groep, "categorie": categorie, "type": typ, "procedure": proc or None,
-            "huur": round(a["huur"]), "kostprijs": round(a["kostprijs"]),
-            "maximumprijs_vmsw": round(a["maximumprijs_vmsw"]), "bedrag_up": round(a["bedrag_up"]),
-            "n": a["n"], "n_maximumprijs": a["n_maximumprijs"],
-            "jaar_min": min(a["jaren"]) if a["jaren"] else None, "jaar_max": max(a["jaren"]) if a["jaren"] else None,
+def read_ssi(hz: str, aliases: dict, fixes: list[dict], idx: dict) -> list[dict]:
+    wb = openpyxl.load_workbook(DATA / HORIZONS[hz]["file"], data_only=True)
+    sheet = SSI_SHEETS[hz]
+    if sheet not in wb.sheetnames:
+        raise SystemExit(f"{hz}: bronblad {sheet!r} ontbreekt")
+    ws = wb[sheet]
+    header = [c.value for c in ws[4]][:12]
+    if header != SSI_HEADERS[hz]:
+        raise SystemExit(f"{hz}/{sheet}: onverwachte kolomkoppen {header}")
+    records = []
+    for rown, r in enumerate(ws.iter_rows(min_row=5, max_col=12, values_only=True), start=5):
+        if not r[0] and not r[2]:
+            continue
+        where = f"{hz}/{sheet}/rij {rown}"
+        initiators = (r[2] or "").strip()
+        description = (r[6] or "").strip()
+        municipality = r[5].strip() if isinstance(r[5], str) else None
+        wm, nis, status, prov = resolve_location(
+            initiators, r[4], municipality, description, fixes, aliases, idx, where, fallback_wm="SSI"
+        )
+        records.append({
+            "horizon": hz, "groep": "ssi", "wm": wm, "nis": nis, "status": status,
+            "categorie": "ssi", "gemeente_label": NO_MUNI.get(status) if status != "ok" else None,
+            "provincie": prov, "type": "SSI",
+            "huur": num(r[8], where), "kostprijs": num(r[11] if hz == "kt" else r[10], where),
+            "maximumprijs_vmsw": None, "bedrag_up": None,
+            "datum": None, "omschrijving": "", "procedure": None, "plaatsing": PLAATSINGEN[0], "initiatiefnemer_bron": initiators,
         })
-    return rows
+        if status != "ok":
+            report.append(f"- {where}: {NO_MUNI[status].lower()}; staat niet op de kaart.")
+    wb.close()
+    return records
+
+
+def public_record(record: dict) -> dict:
+    return {
+        "wm": record["wm"],
+        "nis": record["nis"],
+        "gemeente_label": record["gemeente_label"],
+        "provincie": record["provincie"],
+        "categorie": record["categorie"],
+        "plaatsing": record["plaatsing"],
+        "huur_categorie": count_band(record["huur"]),
+        "kostprijs_categorie": cost_band(record["kostprijs"]),
+    }
+
+
+def aggregate_records(records: list[dict]) -> list[dict]:
+    grouped = defaultdict(lambda: {"huur": 0.0, "kostprijs": 0.0, "has_cost": False})
+    for record in records:
+        key = (
+            record["wm"], record["nis"], record["status"], record["provincie"],
+            record["categorie"], record["plaatsing"],
+        )
+        values = grouped[key]
+        values["huur"] += record["huur"] or 0
+        if record["kostprijs"] is not None:
+            values["kostprijs"] += record["kostprijs"]
+            values["has_cost"] = True
+    result = []
+    for key, values in sorted(grouped.items(), key=lambda item: tuple(str(v) for v in item[0])):
+        wm, nis, status, province, category, plaatsing = key
+        result.append(public_record({
+            "wm": wm,
+            "nis": nis,
+            "gemeente_label": NO_MUNI.get(status) if status != "ok" else None,
+            "provincie": province,
+            "categorie": category,
+            "plaatsing": plaatsing,
+            "huur": values["huur"],
+            "kostprijs": values["kostprijs"] if values["has_cost"] else None,
+        }))
+    return result
+
+
+def municipality_bands(records: list[dict], municipalities: list[dict]) -> list[dict]:
+    grouped = defaultdict(lambda: {"huur": 0.0, "kostprijs": 0.0, "has_cost": False})
+    for record in records:
+        if not record["nis"]:
+            continue
+        target = grouped[record["nis"]]
+        target["huur"] += record["huur"] or 0
+        if record["kostprijs"] is not None:
+            target["kostprijs"] += record["kostprijs"]
+            target["has_cost"] = True
+    names = {m["nis"]: m["naam"] for m in municipalities}
+    return [
+        {
+            "nis": nis,
+            "naam": names[nis],
+            "huur_categorie": count_band(values["huur"]),
+            "kostprijs_categorie": cost_band(values["kostprijs"] if values["has_cost"] else None),
+        }
+        for nis, values in sorted(grouped.items())
+    ]
 
 
 def check_totals(hz, records, totals):
@@ -306,22 +429,14 @@ def resolve_gemeente_wm(munis, legend, overrides, labels, data_by_nis):
 DOWNLOAD_NAME = "sociaal-wonen-alle-gegevens.xlsx"
 PROV_LABEL = {"ANTWERPEN": "Antwerpen", "LIMBURG": "Limburg", "OOST-VLAANDEREN": "Oost-Vlaanderen",
               "VLAAMS-BRABANT": "Vlaams-Brabant", "WEST-VLAANDEREN": "West-Vlaanderen"}
-VELDOMSCHRIJVING = {
-    "huur": "Aantal huurwoningen dat zal gerealiseerd worden",
-    "kostprijs": "Geraamde kostprijs van de werken",
-    "maximumprijs_vmsw": "FS4-plafond",
-    "bedrag_up": "Subsidiabel bedrag (berekend op basis van kostprijs en maximumprijs)",
-    "datum_beslissing": "Datum opname programmatie",
-}
-DOWNLOAD_COLUMNS = ["Planning", "Niveau", "Woonmaatschappij", "Provincie", "NIS-code", "Gemeente", "Soort werken", "Type (code)",
-                    "Type verrichting", "Procedure", "Projectomschrijving", "Datum opname programmatie", "Aantal verrichtingen",
-                    "Huurwoningen", "Kostprijs (EUR)", "Maximumprijs VMSW (EUR)", "Bedrag UP (EUR)"]
+DOWNLOAD_COLUMNS = [
+    "Planning", "Woonmaatschappij", "Provincie", "Gemeente", "Soort werken", "Plaatsingsprocedure",
+    "Huurwoningen (categorie)", "Kostprijs (categorie)",
+]
 
 
 def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[str]:
-    """Een xlsx met alle gegevens op een blad (tidy: een rij per waarneming) plus een blad Toelichting.
-
-    KT staat op projectniveau, LT geaggregeerd (zie PROJECT_LEVEL_HORIZONS). Geen dossier-ID's, ook niet voor KT."""
+    """Maak een download met afzonderlijke maar niet-identificeerbare categorierijen."""
     from openpyxl.styles import Alignment, Font, PatternFill
     from openpyxl.utils import get_column_letter
     from openpyxl.worksheet.table import Table, TableStyleInfo
@@ -331,19 +446,19 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
     rows = []
     for hz, recs in all_records.items():
         label = HORIZONS[hz]["label"]
-        if hz in PROJECT_LEVEL_HORIZONS:
-            for r in sorted(recs, key=lambda r: (wm_name.get(r["wm"], r["wm"]), r["nis"] or "", r["omschrijving"] or "")):
-                rows.append([label, "Project", wm_name.get(r["wm"], r["wm"]), PROV_LABEL.get(r["provincie"], r["provincie"]),
-                             r["nis"], gem_name.get(r["nis"]) if r["nis"] else NO_MUNI.get(r["status"]),
-                             CATEGORIES[r["categorie"]], r["type"], TYPES.get(r["type"], r["type"]), r["procedure"],
-                             r["omschrijving"], date.fromisoformat(r["datum"]) if r["datum"] else None, 1, r["huur"], *(round(r[k], 2) if r[k] is not None else None for k in ("kostprijs", "maximumprijs_vmsw", "bedrag_up"))])
-        else:
-            for a in aggregate(recs):
-                rows.append([label, "Geaggregeerd", wm_name.get(a["wm"], a["wm"]), PROV_LABEL.get(a["provincie"], a["provincie"]),
-                             a["nis"], gem_name.get(a["nis"]) if a["nis"] else a["gemeente_label"],
-                             CATEGORIES[a["categorie"]], a["type"], TYPES.get(a["type"], a["type"]), a["procedure"],
-                             None, None, a["n"], a["huur"], a["kostprijs"], a["maximumprijs_vmsw"], a["bedrag_up"]])
+        for r in recs:
+            rows.append([
+                label,
+                wm_name.get(r["wm"], r["wm"]),
+                PROV_LABEL.get(r["provincie"], r["provincie"]) or "Niet vermeld",
+                (gem_name.get(r["nis"]) if r["nis"] else r["gemeente_label"]) or "Gemeente niet vermeld",
+                CATEGORIES[r["categorie"]],
+                r["plaatsing"],
+                count_band(r["huur"]),
+                cost_band(r["kostprijs"]),
+            ])
 
+    rows.sort(key=lambda x: (str(x[3]).casefold(), x[0], x[1], x[4], x[5]))  # per gemeente
     wb = openpyxl.Workbook()
     wb.properties.creator = "Embuild Vlaanderen"
     wb.properties.created = wb.properties.modified = datetime.fromisoformat(peildatum())  # herhaalbare metadata
@@ -361,12 +476,6 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
         letter = get_column_letter(i)
         width = min(60, max(len(name), *(len(str(r[i - 1] or "")) for r in rows)) + 2) if rows else len(name) + 2
         ws.column_dimensions[letter].width = width
-        if name == "Datum opname programmatie":
-            for cell in ws[letter][1:]:
-                cell.number_format = "yyyy-mm-dd"
-        elif name in ("Huurwoningen", "Aantal verrichtingen") or name.endswith("(EUR)"):
-            for cell in ws[letter][1:]:
-                cell.number_format = "#,##0"
     ws.freeze_panes = "A2"
     ws.row_dimensions[1].height = 32
     tab = Table(displayName="Gegevens", ref=f"A1:{get_column_letter(len(DOWNLOAD_COLUMNS))}{max(last, 2)}")
@@ -375,31 +484,26 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
 
     t = wb.create_sheet("Toelichting")
     lines = [
-        ("Sociale huurplanning Vlaanderen: alle gegevens", "titel"),
-        (f"Bron: VMSW, korte termijnplanning (KTP) en meerjarenplanning (MJP) sociale huur, peildatum {date.fromisoformat(peildatum()).strftime('%d.%m.%Y')}.", None),
+        ("Sociale woonprogrammatie: categorieën per verrichting", "titel"),
+        (f"Bron: VMSW, KTP, MJP en SSI, peildatum {date.fromisoformat(peildatum()).strftime('%d.%m.%Y')}.", None),
         ("", None),
-        ("Planningen", "kop"),
-        *[(f"{h['label']}: {h['omschrijving']}.", None) for h in HORIZONS.values()],
-        ("KT en LT zijn twee afzonderlijke planningen. Tel ze niet bij elkaar op.", None),
+        ("Hoe verloopt de programmatie?", "kop"),
+        ("De initiatiefnemer bereidt een project voor. Na de vereiste beleidstoetsen komt het op de projectenlijst; daarin worden de afzonderlijke verrichtingen beoordeeld.", None),
+        ("Na advies over het voorontwerp kan een verrichting op de meerjarenplanning (MJP) komen. Die planning omvat verrichtingen waarvan uitvoering of plaatsingsprocedure binnen drie jaar kan starten.", None),
+        ("Een aanbestedingsklaar dossier en omgevingsvergunning zijn voorwaarden voor opname op de korte termijnplanning (KTP), waar de start binnen acht maanden wordt verwacht.", None),
+        ("Na de aanbesteding dient de woonmaatschappij een gunningsdossier in. Wonen in Vlaanderen kent vervolgens middelen uit het jaarbudget toe; de werken starten pas na die toewijzing.", None),
+        ("De beoordelingscommissie adviseert en beslist onder meer over schrappingen en opnames in de korte termijnplanning. Opnames op MJP en KTP gebeuren ook doorlopend door Wonen in Vlaanderen.", None),
+        ("SSI betekent Subsidie Sloop en Infrastructuur. De aparte SSI-tabbladen in de bron worden als eigen categorie verwerkt; als kostprijs geldt de kolom SSI uit het bronblad (voor de meerjarenplanning de enige bedragkolom, Bedrag UP).", None),
+        ("KTP en MJP zijn verschillende fasen van de programmatie en worden niet bij elkaar opgeteld.", None),
         ("", None),
-        ("Opbouw van het blad Gegevens", "kop"),
-        ("Een rij per waarneming. Kolom Planning onderscheidt korte en lange termijn, kolom Niveau zegt waarvoor een rij staat.", None),
-        ("Niveau Project (enkel korte termijn): een rij per verrichting, met projectomschrijving en datum opname programmatie.", None),
-        ("Niveau Geaggregeerd (lange termijn): een rij per combinatie van woonmaatschappij, gemeente, soort werken, type en procedure. Projectdetails zijn voor de lange termijn niet beschikbaar.", None),
-        ("", None),
-        ("Kolommen", "kop"),
-        ("Soort werken: renovaties met 'Beperkte renovatie' in de kolom Extra info worden als aparte categorie getoond. Raamcontracten blijven opgenomen; de categorie wordt niet dubbel geteld.", None),
-        ("Huurwoningen: " + VELDOMSCHRIJVING["huur"] + ". Bij renovatie gaat het om bestaande woningen. Het aantal zegt bij beperkte renovaties en raamcontracten weinig over de omvang van de ingreep. Vergelijk bedragen per woning daarom enkel binnen hetzelfde soort werken.", None),
-        ("Kostprijs (EUR): " + VELDOMSCHRIJVING["kostprijs"] + ".", None),
-        ("Maximumprijs VMSW (EUR): " + VELDOMSCHRIJVING["maximumprijs_vmsw"] + ". Niet voor elke rij ingevuld.", None),
-        ("Bedrag UP (EUR): " + VELDOMSCHRIJVING["bedrag_up"] + ".", None),
-        ("Datum opname programmatie: " + VELDOMSCHRIJVING["datum_beslissing"] + " (kolom Datum Beslissing in de bron).", None),
-        ("Procedure: de kolom Extra info uit de bron, bv. CBO, Modulair Wonen, Design & Build, raamcontract, beperkte renovatie. Leeg als niets vermeld is.", None),
-        ("Aantal verrichtingen: aantal verrichtingen achter de rij (1 bij niveau Project).", None),
-        ("Provincie en gemeente zijn afgeleid uit de NIS-code van de gemeente, niet uit de bronkolom. Rijen zonder eenduidige gemeente hebben geen NIS-code.", None),
-        ("", None),
-        ("Types verrichting", "kop"),
-        *[(f"{k}: {v}", None) for k, v in TYPES.items() if k != "ONBEKEND"],
+        ("Over deze gegevens", "kop"),
+        ("Elke rij staat voor een afzonderlijke verrichting. Projectomschrijvingen, exacte aantallen en exacte bedragen worden niet opgenomen.", None),
+        ("Soort werken: nieuwbouw, vervangingsbouw, renovatie (overige renovatie samengevoegd) of SSI. Aankoop goede woning en raamcontracten zijn niet opgenomen. CBO, D&B en RC-renovatie (enkel op de KTP) zijn wel opgenomen.", None),
+        ("Plaatsingsprocedure: reguliere procedure, CBO of D&B. CBO en D&B worden volledig gescheiden gehouden; varianten per jaar (bv. CBO 2024-1) zijn samengenomen.", None),
+        ("De rijen staan gesorteerd per gemeente, zodat alle verrichtingen van een gemeente bij elkaar staan.", None),
+        ("Huurwoningen (categorie): 1–10, 11–25, 26–50 of meer dan 50 woningen.", None),
+        ("Kostprijs (categorie): minder dan €1 mln, €1–5 mln, €5–10 mln of meer dan €10 mln. Andere kosten- en subsidiebedragen zijn niet opgenomen.", None),
+        ("Provincie en gemeente zijn afgeleid uit de bronlocatie. Rijen zonder eenduidige gemeente krijgen een algemene locatielabel.", None),
     ]
     t.column_dimensions["A"].width = 120
     for text, kind in lines:
@@ -415,7 +519,7 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
     old_zip = OUT / "sociaal-wonen-alle-gegevens.zip"
     if old_zip.exists():
         old_zip.unlink()  # vervangen door de xlsx
-    return [f"{DOWNLOAD_NAME}: {len(rows)} rijen"]
+    return [f"{DOWNLOAD_NAME} bijgewerkt met gecategoriseerde gegevens."]
 
 
 def write_json(name: str, obj):
@@ -447,17 +551,17 @@ def main():
     all_records: dict[str, list] = {}
     checks = []
     for hz in HORIZONS:
-        recs, totals = read_horizon(hz, legend, aliases, fixes, idx)
-        checks += check_totals(hz, recs, totals)
-        all_records[hz] = recs
-        print(f"{hz.upper()}: {len(recs)} rijen; huur {sum(r['huur'] or 0 for r in recs):,.0f}; "
-              f"kostprijs {sum(r['kostprijs'] or 0 for r in recs):,.0f}")
+        fs4_records, totals = read_horizon(hz, legend, aliases, fixes, idx)
+        checks += check_totals(hz, fs4_records, totals)
+        source_records = fs4_records + read_ssi(hz, aliases, fixes, idx)
+        all_records[hz] = [r for r in source_records if is_included(r)]
+        print(f"{hz.upper()}: bronbladen gecontroleerd; gecategoriseerde records voorbereid.")
 
     # data-WM's per gemeente (voor kruiscontrole)
     data_by_nis: dict[str, Counter] = defaultdict(Counter)
     for recs in all_records.values():
         for r in recs:
-            if r["nis"]:
+            if r["nis"] and r["categorie"] != "ssi":
                 data_by_nis[r["nis"]][r["wm"]] += r["huur"] or 1
     gemeenten, review = resolve_gemeente_wm(munis, legend, overrides, labels, data_by_nis)
 
@@ -468,7 +572,7 @@ def main():
         if r["nis"] in previous:
             r["definitief_wm"] = previous[r["nis"]].get("definitief_wm", "")
     with open(review_path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(review[0].keys()))
+        w = csv.DictWriter(f, fieldnames=list(review[0].keys()), lineterminator="\n")
         w.writeheader()
         w.writerows(review)
     # definitieve keuzes van Gert winnen
@@ -506,57 +610,66 @@ def main():
         geom = unary_union([m["geom"].buffer(0.00005) for m in munis if m["province"] == p])
         map_provs.append({"naam": p, "d": proj.path(geom, tolerance=0.002)})
     write_json("map.json", {"width": proj.width, "height": proj.height,
-                            "gemeenten": map_munis, "provincies": map_provs})
+                   "gemeenten": map_munis, "provincies": map_provs})
 
-    # planningsdata
+    # Publiceer alleen categorielabels; onderliggende bronwaarden blijven in deze ETL-stap.
     for hz, recs in all_records.items():
-        write_json(f"{hz}_aggregated.json", {"horizon": hz, "peildatum": HORIZONS[hz]["peildatum"], "rijen": aggregate(recs)})
-    for hz in PROJECT_LEVEL_HORIZONS:
-        projects = [{
-            "projectomschrijving": r["omschrijving"], "wm": r["wm"], "nis": r["nis"],
-            "gemeente_label": r["gemeente_label"], "provincie": r["provincie"], "groep": r["groep"],
-            "categorie": r["categorie"], "type": r["type"],
-            "huur": r["huur"], "kostprijs": round(r["kostprijs"]) if r["kostprijs"] is not None else None,
-            "maximumprijs_vmsw": round(r["maximumprijs_vmsw"]) if r["maximumprijs_vmsw"] is not None else None,
-            "bedrag_up": round(r["bedrag_up"]) if r["bedrag_up"] is not None else None,
-            "datum_beslissing": r["datum"], "procedure": r["procedure"],
-        } for r in all_records[hz]]
-        projects.sort(key=lambda p: (p["wm"], p["nis"] or "", p["projectomschrijving"]))
-        write_json(f"{hz}_projects.json", {"horizon": hz, "peildatum": HORIZONS[hz]["peildatum"], "projecten": projects})
+        write_json(f"{hz}_aggregated.json", {
+            "horizon": hz,
+            "peildatum": HORIZONS[hz]["peildatum"],
+            "rijen": aggregate_records(recs),
+        })
+        write_json(f"{hz}_verrichtingen.json", {
+            "horizon": hz,
+            "peildatum": HORIZONS[hz]["peildatum"],
+            "rijen": [public_record(r) for r in recs],
+        })
+        write_json(f"{hz}_municipalities.json", {
+            "horizon": hz,
+            "gemeenten": municipality_bands(recs, gemeenten),
+        })
+    for stale_name in ("kt_projects.json",):
+        stale_file = OUT / stale_name
+        if stale_file.exists():
+            stale_file.unlink()
 
     write_json("woonmaatschappijen.json", wms)
     write_json("gemeenten.json", gemeenten)
     print("Download:", build_download_xlsx(all_records, wms, gemeenten)[0])
 
-    control = {f"{hz}.{g}.{k}": round(sum((r[k] or 0) for r in recs if r["groep"] == g))
-               for hz, recs in all_records.items() for g in SHEETS.values()
-               for k in ("huur", "kostprijs", "maximumprijs_vmsw", "bedrag_up")}
     write_json("meta.json", {
         "peildatum": peildatum(),
         "lastUpdated": date.today().isoformat(),
-        "bron": f"VMSW, korte termijnplanning (KTP) en meerjarenplanning (MJP) sociale huur, {date.fromisoformat(peildatum()).strftime('%d.%m.%Y')}",
+        "bron": f"VMSW, KTP, MJP en SSI sociale woonprogrammatie, {date.fromisoformat(peildatum()).strftime('%d.%m.%Y')}",
         "werkingsgebieden": "Woonmaatschappijen in kaart, januari 2025 (kleurafleiding uit PDF, zie reference/)",
         "horizons": {k: {"label": v["label"], "omschrijving": v["omschrijving"], "peildatum": v["peildatum"]} for k, v in HORIZONS.items()},
-        "projectdetails_horizons": sorted(PROJECT_LEVEL_HORIZONS),
-        "types": TYPES,
         "categories": CATEGORIES,
-        "veldomschrijving": VELDOMSCHRIJVING,
-        "controletotalen": control,
+        "plaatsingen": PLAATSINGEN,
+        "count_bands": [label for _, label in COUNT_BANDS],
+        "cost_bands": [label for _, label in COST_BANDS] + ["Niet beschikbaar in bron"],
     })
 
     # kwaliteitsrapport
-    lines = ["# Kwaliteitsrapport sociaal-wonen", "", f"Gegenereerd door `scripts/process_data.py`. Bronbestanden: {", ".join(h["file"] for h in HORIZONS.values())}.", "",
-             "## Controle tegen de totaalrijen in de bladen", "",
-             "'Totaal in blad' = totaalrij uit het bronblad plus de bedragen die in de bron als tekst staan en door de SUM van het blad worden overgeslagen (zie rij-specifieke opmerkingen).", "",
-             "| Horizon | Blad | Veld | Totaal in blad | Ingelezen | OK |", "|---|---|---|---:|---:|---|"]
-    for hz, g, k, e, got, ok in checks:
-        lines.append(f"| {hz.upper()} | {g} | {k} | {e:,.0f} | {got:,.0f} | {'ja' if ok else 'NEE'} |")
-    lines += ["", "## Beslissingen en aandachtspunten", "",
-              "- SSI-bladen zijn niet inbegrepen (overlap met FS4).",
-              "- Huur wordt opgeteld zoals in de bron. Herhaalde huurwaarden binnen een verrichting zijn niet gecorrigeerd, zodat de totalen overeenkomen met de officiele totaalrij.",
-              "- Provincie is afgeleid uit de gemeente (NIS), niet uit de bronkolom.",
-              "- Projectdetails worden enkel voor KT gepubliceerd. Interne dossier-ID's (Woonproject, Verrichting) worden nooit gepubliceerd.",
-              "", "## Rij-specifieke opmerkingen", ""] + (sorted(set(report)) or ["- geen"])
+    lines = [
+        "# Kwaliteitsrapport sociaal-wonen",
+        "",
+        f"Gegenereerd door `scripts/process_data.py`. Bronbestanden: {', '.join(h['file'] for h in HORIZONS.values())}.",
+        "",
+        "## Broncontrole",
+        "",
+        "De FS4-bladen zijn gecontroleerd tegen hun somrijen. De SSI-bladen zijn als afzonderlijke broncategorie ingelezen.",
+        "",
+        "## Beslissingen en aandachtspunten",
+        "",
+        "- SSI staat voor Subsidie Sloop en Infrastructuur; de SSI-tabbladen worden apart opgenomen. De kostprijs komt uit de kolom SSI van het bronblad.",
+        "- Aankoop goede woning, CBO, D&B en raamcontracten zijn uitgesloten; RC-renovatie blijft opgenomen.",
+        "- Vervangingsbouw is een aparte categorie; overige renovatievormen zijn samengevoegd.",
+        "- Publieke uitvoer bevat geen projectomschrijving, exacte aantallen of exacte bedragen.",
+        "- Provincie is afgeleid uit de gemeente (NIS), niet uit de bronkolom.",
+        "",
+        "## Rij-specifieke opmerkingen",
+        "",
+    ] + (sorted(set(report)) or ["- geen"])
     (REF / "kwaliteitsrapport.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     if AUTO_MATCHED:

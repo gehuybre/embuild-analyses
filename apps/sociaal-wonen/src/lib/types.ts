@@ -1,10 +1,12 @@
 export type Horizon = "kt" | "lt"
-export type Groep = "nieuwbouw" | "renovatie"
-export type Categorie = Groep | "beperkte-renovatie"
+export type Categorie = "nieuwbouw" | "vervangingsbouw" | "renovatie" | "ssi"
+export type Plaatsing = "Reguliere procedure" | "CBO" | "D&B"
+export const PLAATSINGEN: Plaatsing[] = ["Reguliere procedure", "CBO", "D&B"]
 export const CATEGORIE_LABELS: Record<Categorie, string> = {
   nieuwbouw: "Nieuwbouw",
+  vervangingsbouw: "Vervangingsbouw",
   renovatie: "Renovatie",
-  "beperkte-renovatie": "Beperkte renovatie",
+  ssi: "SSI (Subsidie Sloop en Infrastructuur)",
 }
 
 export interface Woonmaatschappij {
@@ -25,25 +27,16 @@ export interface Gemeente {
   bron: string
 }
 
-/** Geaggregeerde rij: nooit projectvelden. */
+/** Eén geanonimiseerde bronregel; waarden zijn uitsluitend categorieën. */
 export interface AggRow {
   wm: string
   nis: string | null
   gemeente_label: string | null
   provincie: string
-  groep: Groep
   categorie: Categorie
-  type: string
-  /** Kolom "Extra info" uit de bron (bv. CBO 2024-1, D&B 2019, Raamcontract, Beperkte renovatie). */
-  procedure: string | null
-  huur: number
-  kostprijs: number
-  maximumprijs_vmsw: number
-  bedrag_up: number
-  n: number
-  n_maximumprijs: number
-  jaar_min: number | null
-  jaar_max: number | null
+  plaatsing: Plaatsing
+  huur_categorie: string
+  kostprijs_categorie: string
 }
 
 export interface AggFile {
@@ -52,28 +45,16 @@ export interface AggFile {
   rijen: AggRow[]
 }
 
-/** Projectrij: enkel beschikbaar voor KT. */
-export interface Project {
-  projectomschrijving: string
-  wm: string
+export interface MunicipalityBand {
   nis: string | null
-  gemeente_label: string | null
-  provincie: string
-  groep: Groep
-  categorie: Categorie
-  type: string
-  huur: number | null
-  kostprijs: number | null
-  maximumprijs_vmsw: number | null
-  bedrag_up: number | null
-  datum_beslissing: string | null
-  procedure: string | null
+  naam: string
+  huur_categorie: string
+  kostprijs_categorie: string
 }
 
-export interface ProjectFile {
+export interface MunicipalityFile {
   horizon: Horizon
-  peildatum: string
-  projecten: Project[]
+  gemeenten: MunicipalityBand[]
 }
 
 export interface MapGemeente {
@@ -96,13 +77,13 @@ export interface Meta {
   peildatum: string
   lastUpdated: string
   bron: string
-  types: Record<string, string>
   categories: Record<Categorie, string>
+  count_bands: string[]
+  cost_bands: string[]
   horizons: Record<Horizon, { label: string; omschrijving: string }>
 }
 
 export type Tab = "kaart" | "tabel" | "projecten"
-export type Modus = "wm" | "gemeente"
 export type Metric = "huur" | "kostprijs"
 
 export interface State {
@@ -110,10 +91,7 @@ export interface State {
   wm: string
   gemeente: string
   groep: "" | Categorie
-  type: string
-  procedure: string
-  modus: Modus
-  metric: Metric
+  plaatsing: "" | Plaatsing
   tab: Tab
   filters: boolean
 }
@@ -123,12 +101,7 @@ export const DEFAULT_STATE: State = {
   wm: "",
   gemeente: "",
   groep: "",
-  type: "",
-  procedure: "",
-  modus: "wm",
-  metric: "huur",
+  plaatsing: "",
   tab: "kaart",
   filters: true,
 }
-
-export const TYPE_ORDER = ["NB", "VVP", "RVP", "GW", "VEP", "REP", "ONBEKEND"] as const

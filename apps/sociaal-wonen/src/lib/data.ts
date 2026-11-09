@@ -25,7 +25,7 @@ export interface JsonState<T> {
   error: string | null
 }
 
-/** Laadt een JSON-bestand uit public/data. `file = null` laadt niets (bv. KT-projecten bij LT). */
+/** Laadt een JSON-bestand uit public/data. `file = null` slaat het laden over. */
 export function useJson<T>(file: string | null): JsonState<T> {
   const [state, setState] = useState<JsonState<T>>({ data: null, error: null })
   useEffect(() => {
