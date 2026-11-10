@@ -22,7 +22,7 @@ type Chapter = NbbChapter & {
 
 export type FinIndicatorenArticleData = {
   title: string
-  lead: string
+  lead?: string
   minYear: number
   latestYear: number
   sourceUrl: string
@@ -48,7 +48,6 @@ export function FinIndicatorenArticle({
   return (
     <div className="not-prose space-y-14">
       <section className="space-y-4">
-        <p className="max-w-4xl text-lg leading-8 text-muted-foreground">{article.lead}</p>
         {eurostat || marktwerking ? (
           <nav aria-label="Hoofdstukken" className="flex flex-wrap gap-2 text-sm">
             <a href="#nbb" className={linkClass}>

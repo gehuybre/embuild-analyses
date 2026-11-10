@@ -507,12 +507,6 @@ def build_article_payload(
 
     return {
         "title": "Financiële indicatoren in de bouwsector",
-        "lead": (
-            "Deze datablog bundelt twee bronnen over de gezondheid en structuur van de bouwsector: "
-            "de financiële ratio's van de Nationale Bank (CBRATIOSE) en de structurele bedrijfsstatistieken "
-            "van Eurostat. In beide hoofdstukken kies je één indicator en combineer je vrij de reeksen die "
-            "je wil vergelijken, telkens in grafiek of tabel."
-        ),
         "minYear": min_year,
         "latestYear": latest_year,
         "sourceUrl": SOURCE_URL,
