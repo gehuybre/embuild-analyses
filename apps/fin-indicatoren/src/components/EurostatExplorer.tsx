@@ -14,6 +14,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
 import { FilterableChart } from "@embuild/shared/components/shared/FilterableChart"
 import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
+import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
 import {
   FilterLabel,
   PresetChips,
@@ -50,6 +51,7 @@ export type EurostatData = {
   sourceUrl: string
   apiGuideUrl: string
   breakYear: number
+  datasets?: Record<string, string>
   excelDownload?: { href: string; filename: string }
   bouw: NationalSet
   sectors: NationalSet
@@ -108,9 +110,33 @@ function initialState(data: EurostatData): Record<View, ViewState> {
   }
 }
 
-export function EurostatExplorer({ data }: { data: EurostatData }) {
-  const [view, setView] = React.useState<View>("bouw")
-  const [states, setStates] = React.useState<Record<View, ViewState>>(() => initialState(data))
+export type EurostatInitialState = {
+  dataset?: string
+  indicator?: string
+  series?: string[]
+  mode?: string
+  nace?: string
+  tab?: "chart" | "table"
+}
+
+export function EurostatExplorer({ data, initial }: { data: EurostatData; initial?: EurostatInitialState }) {
+  const startView: View = initial?.dataset === "sectors" || initial?.dataset === "regional" ? initial.dataset : "bouw"
+  const [view, setView] = React.useState<View>(startView)
+  const [tab, setTab] = React.useState<"chart" | "table">(initial?.tab ?? "chart")
+  const [states, setStates] = React.useState<Record<View, ViewState>>(() => {
+    const base = initialState(data)
+    if (!initial) return base
+    const set = startView === "regional" ? data.regional : startView === "bouw" ? data.bouw : data.sectors
+    const known = new Set(set.series.map((item) => item.key))
+    const series = (initial.series ?? []).filter((key) => known.has(key))
+    base[startView] = {
+      indicator: set.indicators.some((item) => item.code === initial.indicator) ? (initial.indicator as string) : base[startView].indicator,
+      selected: series.length > 0 ? series : base[startView].selected,
+      mode: initial.mode === "index" ? "index" : initial.mode === "value" ? "value" : base[startView].mode,
+      nace: startView === "regional" && data.regional.nace.some((item) => item.key === initial.nace) ? (initial.nace as string) : base[startView].nace,
+    }
+    return base
+  })
   const state = states[view]
   const update = (patch: Partial<ViewState>) => setStates((prev) => ({ ...prev, [view]: { ...prev[view], ...patch } }))
 
@@ -235,6 +261,17 @@ export function EurostatExplorer({ data }: { data: EurostatData }) {
   const naceLabel = regional ? data.regional.nace.find((n) => n.key === state.nace)?.label : null
   const seriesHeader = regional ? "Regio" : view === "bouw" ? "Subsector" : "Sector"
 
+  const exportRows = selectedItems
+    .flatMap((item) => {
+      const values = valuesFor(item.key)
+      return years.map((year, i) => ({
+        label: item.label,
+        value: values[i],
+        periodCells: [item.label, year],
+      }))
+    })
+    .filter((row) => row.value !== null)
+
   return (
     <div className="space-y-5">
       <Segmented value={view} options={VIEW_OPTIONS} onChange={setView} ariaLabel="Soort vergelijking" />
@@ -324,11 +361,31 @@ export function EurostatExplorer({ data }: { data: EurostatData }) {
         </p>
       </div>
 
-      <Tabs defaultValue="chart" className="space-y-4">
-        <TabsList>
-          <TabsTrigger value="chart">Grafiek</TabsTrigger>
-          <TabsTrigger value="table">Tabel</TabsTrigger>
-        </TabsList>
+      <Tabs value={tab} onValueChange={(value) => setTab(value as "chart" | "table")} className="space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <TabsList>
+            <TabsTrigger value="chart">Grafiek</TabsTrigger>
+            <TabsTrigger value="table">Tabel</TabsTrigger>
+          </TabsList>
+          <ExportButtons
+            data={exportRows}
+            title={`Eurostat SBS: ${indicator.label}`}
+            slug="fin-indicatoren"
+            sectionId="eurostat"
+            viewType={tab}
+            periodHeaders={[seriesHeader, "Jaar"]}
+            valueLabel={`${indicator.label} (${unitLabel})`}
+            dataSource="Eurostat - Structural Business Statistics"
+            dataSourceUrl={data.sourceUrl}
+            embedParams={{
+              dataset: view,
+              indicator: indicator.code,
+              series: state.selected.join(","),
+              mode: state.mode,
+              nace: regional ? state.nace : null,
+            }}
+          />
+        </div>
         <TabsContent value="chart">
           <Card>
             <CardContent className="pt-6">

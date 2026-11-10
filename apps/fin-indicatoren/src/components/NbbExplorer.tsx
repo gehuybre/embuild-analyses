@@ -14,6 +14,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
 import { FilterableChart } from "@embuild/shared/components/shared/FilterableChart"
 import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
+import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
 import {
   FilterLabel,
   PresetChips,
@@ -74,18 +75,31 @@ function axisFormatterFor(kind: NbbIndicator["kind"]) {
   return undefined
 }
 
+export type NbbInitialState = { indicator?: string; series?: string[]; tab?: "chart" | "table" }
+
 export function NbbExplorer({
   chapters,
   guide,
   modelGuide,
+  initial,
+  sourceUrl,
 }: {
   chapters: NbbChapter[]
   guide: NbbGuideItem[]
   modelGuide?: NbbModelGuideItem[]
+  initial?: NbbInitialState
+  sourceUrl?: string
 }) {
   const indicatorCodes = chapters[0]?.indicators.map((item) => item.code) ?? []
-  const [indicatorCode, setIndicatorCode] = React.useState(indicatorCodes[0] ?? "")
-  const [selected, setSelected] = React.useState<string[]>(["PU300", "alle_T"])
+  const knownSeries = new Set(chapters.flatMap((chapter) => chapter.indicators[0]?.series.map((item) => item.key) ?? []))
+  const [indicatorCode, setIndicatorCode] = React.useState(
+    initial?.indicator && indicatorCodes.includes(initial.indicator) ? initial.indicator : (indicatorCodes[0] ?? "")
+  )
+  const [selected, setSelected] = React.useState<string[]>(() => {
+    const fromUrl = (initial?.series ?? []).filter((key) => knownSeries.has(key))
+    return fromUrl.length > 0 ? fromUrl : ["PU300", "alle_T"]
+  })
+  const [tab, setTab] = React.useState<"chart" | "table">(initial?.tab ?? "chart")
 
   // Alle reeksen uit de drie vergelijkingen, met groep en voorkeurskleur.
   const { groups, itemByKey, chapterOfKey } = React.useMemo(() => {
@@ -169,6 +183,18 @@ export function NbbExplorer({
     .filter(({ chapterKey }) => selected.some((key) => chapterOfKey.get(key) === chapterKey))
     .map(({ chapterKey, indicator }) => ({ chapterKey, text: indicator.summary }))
 
+  const exportRows = React.useMemo(
+    () =>
+      selectedItems.flatMap((item) =>
+        chartData.map((point) => ({
+          label: item.label,
+          value: typeof point[item.key] === "number" ? (point[item.key] as number) : null,
+          periodCells: [item.label, point.label],
+        }))
+      ).filter((row) => row.value !== null),
+    [selectedItems, chartData]
+  )
+
   if (!current) return null
 
   return (
@@ -225,11 +251,25 @@ export function NbbExplorer({
         ) : null}
       </div>
 
-      <Tabs defaultValue="chart" className="space-y-4">
-        <TabsList>
-          <TabsTrigger value="chart">Grafiek</TabsTrigger>
-          <TabsTrigger value="table">Tabel</TabsTrigger>
-        </TabsList>
+      <Tabs value={tab} onValueChange={(value) => setTab(value as "chart" | "table")} className="space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <TabsList>
+            <TabsTrigger value="chart">Grafiek</TabsTrigger>
+            <TabsTrigger value="table">Tabel</TabsTrigger>
+          </TabsList>
+          <ExportButtons
+            data={exportRows}
+            title={`NBB: ${current.label}`}
+            slug="fin-indicatoren"
+            sectionId="nbb"
+            viewType={tab}
+            periodHeaders={["Reeks", "Jaar"]}
+            valueLabel={current.label}
+            dataSource="Nationale Bank van België - CBRATIOSE"
+            dataSourceUrl={sourceUrl}
+            embedParams={{ dataset: "nbb", indicator: indicatorCode, series: selected.join(",") }}
+          />
+        </div>
         <TabsContent value="chart">
           <Card>
             <CardContent className="pt-6">

@@ -441,6 +441,10 @@ def main() -> int:
         print("Eurostat SBS: geen nieuwe update bij Eurostat, niets opnieuw opgehaald.")
         return 0
 
+    previous_excel = None
+    if JSON_PATH.exists():
+        previous_excel = json.loads(JSON_PATH.read_text(encoding="utf-8")).get("excelDownload")
+
     print("Eurostat SBS: nationale reeksen ophalen ...")
     bouw, sectors = collect_national()
     print("Eurostat SBS: regionale reeksen ophalen ...")
@@ -448,19 +452,24 @@ def main() -> int:
     write_outputs(bouw, sectors, regional, updated)
     write_raw()
 
+    payload = json.loads(JSON_PATH.read_text(encoding="utf-8"))
     if not args.no_excel:
         from scripts.build_eurostat_excel import build_eurostat_excel
 
         excel_name = build_eurostat_excel()
-        payload = json.loads(JSON_PATH.read_text(encoding="utf-8"))
         payload["excelDownload"] = {"href": "data/eurostat-sbs-data.xlsx", "filename": excel_name}
-        JSON_PATH.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    elif previous_excel:
+        payload["excelDownload"] = previous_excel  # de downloadknop mag nooit verdwijnen
+    JSON_PATH.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
 
     META_PATH.parent.mkdir(parents=True, exist_ok=True)
     META_PATH.write_text(
         json.dumps({"datasets": updated, "latestYear": int(sectors["year"].max())}, indent=2) + "\n",
         encoding="utf-8",
     )
+    from scripts.availability import refresh_availability_label
+
+    refresh_availability_label()
     print(f"Eurostat SBS: {len(bouw)} + {len(sectors)} + {len(regional)} waarnemingen geschreven.")
     return 0
 

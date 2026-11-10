@@ -91,3 +91,10 @@ jobs:
         run: gh workflow run deploy.yml --ref "${GITHUB_REF_NAME}" -f apps="${ANALYSIS_SLUG}"
         env:
           GH_TOKEN: ${{ github.token }}
+
+      # Een commit van de bot start geen push-workflows; daarom wordt ook de standalone site expliciet herbouwd.
+      - name: Trigger standalone deploy
+        if: steps.commit_changes.outputs.changed == 'true'
+        run: gh workflow run deploy-fin-indicatoren-public.yml --ref "${GITHUB_REF_NAME}"
+        env:
+          GH_TOKEN: ${{ github.token }}

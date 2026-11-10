@@ -564,6 +564,9 @@ def main() -> int:
         ARTICLE_PATH,
         article_payload,
     )
+    from scripts.availability import refresh_availability_label
+
+    refresh_availability_label()
     write_json(
         REMOTE_METADATA_PATH,
         {

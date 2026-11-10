@@ -777,6 +777,29 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
     },
   },
   {
+    slug: "fin-indicatoren",
+    sections: {
+      nbb: {
+        type: "custom",
+        title: "NBB: financiële ratio's in de bouw",
+        component: "FinIndicatorenEmbed",
+        height: 900,
+      },
+      eurostat: {
+        type: "custom",
+        title: "Eurostat: structurele bedrijfsstatistieken bouw",
+        component: "FinIndicatorenEmbed",
+        height: 900,
+      },
+      marktwerking: {
+        type: "custom",
+        title: "Marktwerking en marges in de bouw",
+        component: "FinIndicatorenEmbed",
+        height: 900,
+      },
+    },
+  },
+  {
     slug: "arbeiders-bedienden",
     sections: {
       "evolution-by-type": {

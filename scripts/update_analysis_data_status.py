@@ -134,6 +134,10 @@ def parse_dateish_string(value: str) -> datetime | None:
 def status_from_metadata_dict(metadata: dict[str, Any]) -> DataStatus | None:
     source_publication_date = metadata.get("sourcePublicationDate") or metadata.get("source_publication_date")
 
+    explicit_label = metadata.get("data_availability_label")
+    if isinstance(explicit_label, str) and explicit_label.strip():
+        return DataStatus(data_availability_label=explicit_label.strip(), source_publication_date=source_publication_date)
+
     latest_period = metadata.get("latestPeriod")
     if isinstance(latest_period, str) and re.fullmatch(r"\d{4}-\d{2}", latest_period):
         year_text, month_text = latest_period.split("-")

@@ -17,7 +17,7 @@ const geistMono = Roboto_Mono({
 
 export const metadata: Metadata = {
   title: "Financiële indicatoren in de bouwsector",
-  description: "Vergelijking van NBB-ratio's voor de bouwsector, alle sectoren en bouwsubsectoren.",
+  description: "NBB-ratio's, Eurostat-bedrijfsstatistieken en marktwerking van de bouwsector.",
 }
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? ""

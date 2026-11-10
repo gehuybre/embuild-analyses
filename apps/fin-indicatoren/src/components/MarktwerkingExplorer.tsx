@@ -15,6 +15,7 @@ import {
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@embuild/shared/components/ui/tabs"
 import { FilterableChart } from "@embuild/shared/components/shared/FilterableChart"
 import { FilterableTable } from "@embuild/shared/components/shared/FilterableTable"
+import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
 import { cn } from "@embuild/shared/lib/utils"
 import {
   FilterLabel,
@@ -59,6 +60,16 @@ export type MarktwerkingData = {
 type View = "screening" | "margins"
 type Show = "rank" | "value"
 type SortState = { column: string; dir: "asc" | "desc" }
+type Group = "Bouw" | "Bouwmaterialen (industrie)" | "all"
+
+export type MarktwerkingInitialState = {
+  part?: string
+  measure?: string
+  series?: string[]
+  group?: string
+  show?: string
+  tab?: "chart" | "table"
+}
 
 const PALETTE = [
   "#0f4c81", "#e07a5f", "#2a9d8f", "#8c6d31", "#6d597a", "#b56576", "#457b9d", "#6b8f71",
@@ -84,9 +95,11 @@ function heat(rank: number | undefined, total: number) {
   return `rgba(224, 122, 95, ${(0.08 + strength * 0.62).toFixed(2)})`
 }
 
-function ScreeningView({ data }: { data: MarktwerkingData }) {
-  const [group, setGroup] = React.useState<"Bouw" | "Bouwmaterialen (industrie)" | "all">("Bouw")
-  const [show, setShow] = React.useState<Show>("rank")
+function ScreeningView({ data, initial }: { data: MarktwerkingData; initial?: MarktwerkingInitialState }) {
+  const [group, setGroup] = React.useState<Group>(
+    initial?.group === "Bouwmaterialen (industrie)" || initial?.group === "all" ? initial.group : "Bouw"
+  )
+  const [show, setShow] = React.useState<Show>(initial?.show === "value" ? "value" : "rank")
   const [query, setQuery] = React.useState("")
   const [sort, setSort] = React.useState<SortState>({ column: "IC", dir: "asc" })
 
@@ -107,6 +120,20 @@ function ScreeningView({ data }: { data: MarktwerkingData }) {
     }
     return [...filtered].sort((a, b) => (sort.dir === "asc" ? 1 : -1) * (pickValue(a) - pickValue(b)))
   }, [data.screening, group, query, sort, show])
+
+  const exportRows = React.useMemo(
+    () =>
+      rows.flatMap((row) =>
+        data.indicators
+          .filter((i) => i.code !== "AB")
+          .map((i) => ({
+            label: row.label,
+            value: (show === "rank" ? row.ranks[i.code] : row.values[i.code]) ?? null,
+            periodCells: [row.nace, row.label, i.label],
+          }))
+      ).filter((row) => row.value !== null),
+    [rows, data.indicators, show]
+  )
 
   const toggleSort = (column: string) =>
     setSort((prev) => (prev.column === column ? { column, dir: prev.dir === "asc" ? "desc" : "asc" } : { column, dir: "asc" }))
@@ -160,10 +187,24 @@ function ScreeningView({ data }: { data: MarktwerkingData }) {
               <Input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="bv. dakwerk, cement of 4391" />
             </div>
           </div>
-          <p className="text-sm text-muted-foreground">
-            Klik op een kolomtitel om te sorteren. {nf(rows.length)} sectoren getoond. Omzet en aantal ondernemingen
-            zijn van {data.turnoverYear.screening}.
-          </p>
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <p className="text-sm text-muted-foreground">
+              Klik op een kolomtitel om te sorteren. {nf(rows.length)} sectoren getoond. Omzet en aantal ondernemingen
+              zijn van {data.turnoverYear.screening}.
+            </p>
+            <ExportButtons
+              data={exportRows}
+              title="Marktwerking: screening bouw"
+              slug="fin-indicatoren"
+              sectionId="marktwerking"
+              viewType="table"
+              periodHeaders={["NACE", "Omschrijving", "Indicator"]}
+              valueLabel={show === "rank" ? "Rang" : "Waarde"}
+              dataSource="FOD Economie - Horizontale screening van sectoren"
+              dataSourceUrl={data.sourceUrl}
+              embedParams={{ part: "screening", group, show }}
+            />
+          </div>
         </CardContent>
       </Card>
 
@@ -232,11 +273,18 @@ function ScreeningView({ data }: { data: MarktwerkingData }) {
   )
 }
 
-function MarginsView({ data }: { data: MarktwerkingData }) {
+function MarginsView({ data, initial }: { data: MarktwerkingData; initial?: MarktwerkingInitialState }) {
   const { measures, series, values } = data.margins
   const years = data.marginYears
-  const [measure, setMeasure] = React.useState(measures[0].code)
-  const [selected, setSelected] = React.useState<string[]>(["d2_41", "d2_42", "d2_43"])
+  const [measure, setMeasure] = React.useState(
+    measures.some((m) => m.code === initial?.measure) ? (initial?.measure as string) : measures[0].code
+  )
+  const knownKeys = React.useMemo(() => new Set(series.map((s) => s.key)), [series])
+  const [selected, setSelected] = React.useState<string[]>(() => {
+    const fromUrl = (initial?.series ?? []).filter((key) => knownKeys.has(key))
+    return fromUrl.length > 0 ? fromUrl : ["d2_41", "d2_42", "d2_43"]
+  })
+  const [tab, setTab] = React.useState<"chart" | "table">(initial?.tab ?? "chart")
 
   const groups: PickerGroup[] = React.useMemo(() => {
     const order = ["Bouw (NACE 2)", "Bouw (NACE 4)", "Diensten (NACE 2)", "Industrie (NACE 2)", "Diensten (NACE 4)"]
@@ -276,6 +324,16 @@ function MarginsView({ data }: { data: MarktwerkingData }) {
     return row
   })
 
+  const exportRows = selectedItems
+    .flatMap((item) =>
+      years.map((year, i) => ({
+        label: item.label,
+        value: values[measure]?.[item.key]?.[i] ?? null,
+        periodCells: [item.label, year],
+      }))
+    )
+    .filter((row) => row.value !== null)
+
   return (
     <div className="space-y-5">
       <Card>
@@ -311,11 +369,25 @@ function MarginsView({ data }: { data: MarktwerkingData }) {
         {current.label} <span className="font-normal text-muted-foreground">| {years[0]} t.e.m. {years[years.length - 1]}</span>
       </h3>
 
-      <Tabs defaultValue="chart" className="space-y-4">
-        <TabsList>
-          <TabsTrigger value="chart">Grafiek</TabsTrigger>
-          <TabsTrigger value="table">Tabel</TabsTrigger>
-        </TabsList>
+      <Tabs value={tab} onValueChange={(value) => setTab(value as "chart" | "table")} className="space-y-4">
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <TabsList>
+            <TabsTrigger value="chart">Grafiek</TabsTrigger>
+            <TabsTrigger value="table">Tabel</TabsTrigger>
+          </TabsList>
+          <ExportButtons
+            data={exportRows}
+            title={`Marktwerking: ${current.label}`}
+            slug="fin-indicatoren"
+            sectionId="marktwerking"
+            viewType={tab}
+            periodHeaders={["Sector", "Jaar"]}
+            valueLabel={`${current.label} (%)`}
+            dataSource="FOD Economie - Horizontale screening van sectoren"
+            dataSourceUrl={data.sourceUrl}
+            embedParams={{ part: "margins", measure, series: selected.join(",") }}
+          />
+        </div>
         <TabsContent value="chart">
           <Card>
             <CardContent className="pt-6">
@@ -355,20 +427,21 @@ function MarginsView({ data }: { data: MarktwerkingData }) {
   )
 }
 
-export function MarktwerkingExplorer({ data }: { data: MarktwerkingData }) {
-  const [view, setView] = React.useState<View>("screening")
+export function MarktwerkingExplorer({ data, initial }: { data: MarktwerkingData; initial?: MarktwerkingInitialState }) {
+  // Standaard de evolutie van de marges; de screening is een vervolgstap.
+  const [view, setView] = React.useState<View>(initial?.part === "screening" ? "screening" : "margins")
   return (
     <div className="space-y-5">
       <Segmented
         value={view}
         options={[
-          { value: "screening", label: "Screening marktwerking" },
           { value: "margins", label: "Evolutie van de marges" },
+          { value: "screening", label: "Screening marktwerking" },
         ]}
         onChange={setView}
         ariaLabel="Onderdeel"
       />
-      {view === "screening" ? <ScreeningView data={data} /> : <MarginsView data={data} />}
+      {view === "screening" ? <ScreeningView data={data} initial={initial} /> : <MarginsView data={data} initial={initial} />}
     </div>
   )
 }

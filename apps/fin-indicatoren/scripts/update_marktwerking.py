@@ -204,6 +204,10 @@ def main() -> int:
     screening_df.to_csv(CSV_DIR / "marktwerking_screening_bouw.csv", index=False)
     margins_long.to_csv(CSV_DIR / "marktwerking_marges.csv", index=False)
 
+    if args.no_excel and JSON_PATH.exists():
+        previous = json.loads(JSON_PATH.read_text(encoding="utf-8")).get("excelDownload")
+        if previous:
+            payload["excelDownload"] = previous  # de downloadknop mag nooit verdwijnen
     if not args.no_excel:
         from scripts.excel_common import build_workbook
 
@@ -231,6 +235,9 @@ def main() -> int:
             ),
         }
     JSON_PATH.write_text(json.dumps(payload, ensure_ascii=False, separators=(",", ":")) + "\n", encoding="utf-8")
+    from scripts.availability import refresh_availability_label
+
+    refresh_availability_label()
     print(f"Marktwerking: {len(screening)} sectoren in de screening, {len(series)} reeksen met marges.")
     return 0
 

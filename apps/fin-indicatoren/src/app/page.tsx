@@ -7,9 +7,9 @@ import type { MarktwerkingData } from "@/components/MarktwerkingExplorer"
 
 const metadata = {
   title: "Financiële indicatoren in de bouwsector",
-  date: "2026-04-15",
+  date: "2026-11-10",
   summary: "NBB-ratio's, Eurostat-bedrijfsstatistieken en de marktwerkingsscreening van FOD Economie voor de bouwsector.",
-  dataAvailabilityLabel: "2022",
+  dataAvailabilityLabel: "2024 voor Eurostat, 2023 voor FOD Economie en 2022 voor de NBB",
   tags: ["bouw", "financiën", "NBB", "Eurostat", "marktwerking"],
   source: {
     provider: "Nationale Bank van België",

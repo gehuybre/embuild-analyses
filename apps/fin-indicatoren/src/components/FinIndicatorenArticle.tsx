@@ -3,6 +3,7 @@
 import { Download } from "lucide-react"
 import { Button } from "@embuild/shared/components/ui/button"
 import { MarktwerkingDownload, MarktwerkingExplorer, type MarktwerkingData } from "./MarktwerkingExplorer"
+import { Databronnen } from "./Databronnen"
 import { EurostatDownload, EurostatExplorer, type EurostatData } from "./EurostatExplorer"
 import {
   NbbExplorer,
@@ -65,6 +66,12 @@ export function FinIndicatorenArticle({
                 </a>
               </>
             ) : null}
+            <span aria-hidden className="text-muted-foreground">
+              |
+            </span>
+            <a href="#databronnen" className={linkClass}>
+              Databronnen
+            </a>
           </nav>
         ) : null}
       </section>
@@ -97,7 +104,7 @@ export function FinIndicatorenArticle({
             </Button>
           ) : null}
         </div>
-        <NbbExplorer chapters={article.chapters} guide={article.indicatorGuide} modelGuide={modelGuide} />
+        <NbbExplorer chapters={article.chapters} guide={article.indicatorGuide} modelGuide={modelGuide} sourceUrl={article.sourceUrl} />
       </section>
 
       {eurostat ? (
@@ -147,6 +154,11 @@ export function FinIndicatorenArticle({
           <MarktwerkingExplorer data={marktwerking} />
         </section>
       ) : null}
+      <Databronnen
+        nbb={{ sourceUrl: article.sourceUrl, minYear: article.minYear, latestYear: article.latestYear, excel: article.excelDownload }}
+        eurostat={eurostat}
+        marktwerking={marktwerking}
+      />
     </div>
   )
 }
