@@ -2,14 +2,17 @@
 
 import { Download } from "lucide-react"
 import { Button } from "@embuild/shared/components/ui/button"
+import { MarktwerkingInfo } from "./MarktwerkingInfo"
 import { MarktwerkingDownload, MarktwerkingExplorer, type MarktwerkingData } from "./MarktwerkingExplorer"
 import { Databronnen } from "./Databronnen"
+import { EurostatInfo } from "./EurostatInfo"
 import { EurostatDownload, EurostatExplorer, type EurostatData } from "./EurostatExplorer"
 import {
   NbbExplorer,
   type NbbChapter,
   type NbbGuideItem,
   type NbbModelGuideItem,
+  type NbbSectorGuideGroup,
 } from "./NbbExplorer"
 
 type Chapter = NbbChapter & {
@@ -25,6 +28,7 @@ export type FinIndicatorenArticleData = {
   sourceUrl: string
   excelDownload?: { href: string; filename: string }
   indicatorGuide: NbbGuideItem[]
+  sectorGuide?: NbbSectorGuideGroup[]
   chapters: Chapter[]
 }
 
@@ -104,7 +108,7 @@ export function FinIndicatorenArticle({
             </Button>
           ) : null}
         </div>
-        <NbbExplorer chapters={article.chapters} guide={article.indicatorGuide} modelGuide={modelGuide} sourceUrl={article.sourceUrl} />
+        <NbbExplorer chapters={article.chapters} guide={article.indicatorGuide} modelGuide={modelGuide} sectorGuide={article.sectorGuide} sourceUrl={article.sourceUrl} />
       </section>
 
       {eurostat ? (
@@ -129,6 +133,7 @@ export function FinIndicatorenArticle({
             <EurostatDownload excel={eurostat.excelDownload} />
           </div>
           <EurostatExplorer data={eurostat} />
+          <EurostatInfo data={eurostat} />
         </section>
       ) : null}
       {marktwerking ? (
@@ -138,9 +143,11 @@ export function FinIndicatorenArticle({
               Marktwerking en marges in de bouw
             </h2>
             <p className="max-w-4xl text-base leading-7 text-muted-foreground">
-              De horizontale screening van FOD Economie toetst alle Belgische sectoren op tien indicatoren van
-              marktwerking, zoals concentratie, het aantal bedrijven en de prijs-kostmarge. Hier zie je hoe de
-              bouwsubsectoren en de bouwmaterialen scoren en hoe hun marges tussen 2018 en 2023 evolueerden.
+              De horizontale screening van FOD Economie toetst alle Belgische sectoren op zes indicatoren van
+              marktwerking, zoals concentratie, het aantal ondernemingen, de nettomarge en de dynamiek van marktaandelen.
+              Een samengestelde indicator rangschikt de sectoren naar het risico op marktverstoring. Hier zie je hoe de
+              marges en de concentratie van de bouwsubsectoren tussen 2014 en 2024 evolueerden en hoe de bouw en de
+              bouwmaterialen scoren in de screening.
             </p>
             <p className="text-sm text-muted-foreground">
               Editie {marktwerking.edition}. Bron:{" "}
@@ -152,6 +159,7 @@ export function FinIndicatorenArticle({
             <MarktwerkingDownload excel={marktwerking.excelDownload} />
           </div>
           <MarktwerkingExplorer data={marktwerking} />
+          <MarktwerkingInfo data={marktwerking} />
         </section>
       ) : null}
       <Databronnen

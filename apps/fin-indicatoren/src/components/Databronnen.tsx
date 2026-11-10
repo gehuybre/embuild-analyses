@@ -155,18 +155,29 @@ export function Databronnen({
             action={<ExcelButton excel={marktwerking.excelDownload} label="Download marktwerking-data in Excel" />}
           >
             <p>
-              Screening van alle Belgische sectoren op tien indicatoren van marktwerking, plus de evolutie van de netto
-              marges {marktwerking.marginYears[0]} t.e.m. {marktwerking.marginYears[marktwerking.marginYears.length - 1]}.
+              Screening van alle Belgische sectoren op zes indicatoren van marktwerking, plus de evolutie van de netto
+              marges en de concentratie (HHI) {marktwerking.marginYears[0]} t.e.m. {marktwerking.marginYears[marktwerking.marginYears.length - 1]}.
               Gebruikt in hoofdstuk 3, voor de bouwsubsectoren en de bouwmaterialen.
             </p>
             <p>
               Dit is een jaarlijkse studie die als Excel-bijlage verschijnt, zonder API. De cijfers worden daarom één keer
               per jaar manueel vernieuwd.{" "}
               <a href={marktwerking.sourceUrl} target="_blank" rel="noopener noreferrer" className={linkClass}>
-                Bekijk de publicatie en het methodologisch rapport
+                Bekijk de publicatiepagina
               </a>
               .
             </p>
+            {marktwerking.sourceFiles && marktwerking.sourceFiles.length > 0 ? (
+              <ul className="space-y-1">
+                {marktwerking.sourceFiles.map((file) => (
+                  <li key={file.url}>
+                    <a href={file.url} target="_blank" rel="noopener noreferrer" className={linkClass}>
+                      {file.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
           </Source>
         ) : null}
       </div>

@@ -205,10 +205,11 @@ def parse_jsonstat(payload: dict) -> pd.DataFrame:
     return frame
 
 
-def dataset_updated(dataset: str) -> str:
-    """Eurostat 'updated'-timestamp via een minimale aanvraag."""
-    probe = fetch(dataset, [("geo", "BE"), ("time", "2020")] if dataset in ("sbs_na_con_r2", "sbs_na_sca_r2", "sbs_r_nuts06_r2") else [("geo", "BE"), ("time", "2024")])
-    return str(probe.get("updated", ""))
+def dataset_meta(dataset: str) -> dict[str, str]:
+    """Eurostat 'updated'-timestamp en officiële titel via een minimale aanvraag."""
+    historical = dataset in ("sbs_na_con_r2", "sbs_na_sca_r2", "sbs_r_nuts06_r2")
+    probe = fetch(dataset, [("geo", "BE"), ("time", "2020" if historical else "2024")])
+    return {"updated": str(probe.get("updated", "")), "title": str(probe.get("label", ""))}
 
 
 RAW_FRAMES: dict[str, list[pd.DataFrame]] = {}
@@ -298,6 +299,82 @@ def collect_regional() -> pd.DataFrame:
         ],
         ignore_index=True,
     )
+
+
+# Waar elke dataset in de Eurostat-database staat en waarvoor wij ze gebruiken.
+DATASET_DOCS = {
+    "sbs_na_con_r2": {
+        "folder": "Structural business statistics > Historical data > SBS - industry and construction > Annual detailed enterprise statistics - industry and construction",
+        "use": "Bouw (F) en alle bouwsubsectoren op 2-, 3- en 4-cijferniveau tot en met 2020.",
+        "views": ["Bouw per subsector"],
+    },
+    "sbs_na_sca_r2": {
+        "folder": "Structural business statistics > Historical data > SBS main indicators - historical data",
+        "use": "Bouw naast de andere NACE-secties en het totaal van de marktgerichte economie tot en met 2020.",
+        "views": ["Bouw vs andere sectoren"],
+    },
+    "sbs_ovw_act": {
+        "folder": "Structural business statistics > Enterprise statistics on the whole business population (sbs_ovw)",
+        "use": "Bouw, bouwsubsectoren en alle andere sectoren vanaf 2021 (nieuwe EBS-reeks).",
+        "views": ["Bouw per subsector", "Bouw vs andere sectoren"],
+    },
+    "sbs_r_nuts06_r2": {
+        "folder": "Structural business statistics > Enterprise statistics - regional data (sbs_r)",
+        "use": "Vestigingen, tewerkstelling en lonen per gewest en provincie tot en met 2020.",
+        "views": ["Per gewest"],
+    },
+    "sbs_r_nuts2021": {
+        "folder": "Structural business statistics > Enterprise statistics - regional data (sbs_r)",
+        "use": "Vestigingen, tewerkstelling en lonen per gewest en provincie vanaf 2021.",
+        "views": ["Per gewest"],
+    },
+}
+NOT_USED = [
+    {"code": "sbs_sc_ovw", "title": "Enterprise statistics by size class and NACE Rev. 2 activity (from 2021 onwards)", "why": "Opsplitsing naar grootteklasse; mogelijke uitbreiding."},
+    {"code": "sbs_sc_con_r2", "title": "Construction by employment size class (NACE Rev. 2, F) (2005-2020)", "why": "Opsplitsing naar grootteklasse tot 2020; mogelijke uitbreiding."},
+    {"code": "sbs_ovw_iep", "title": "Investment, expenditure and purchases of enterprises by NACE Rev. 2 activity", "why": "Gedetailleerde investeringen en aankopen vanaf 2021."},
+    {"code": "sbs_part_con", "title": "Enterprises in construction (NACE Rev.2, F) - net turnover", "why": "Enkel 2023 en enkel omzet; te beperkt voor een reeks."},
+    {"code": "sbs_is_subc_r2", "title": "Multi-yearly enterprise statistics - subcontracting for industry and construction (NACE Rev. 2, B-F) (2008-2020)", "why": "Onderaanneming; stopt in 2020 en geen vervolgreeks."},
+]
+
+
+def build_dataset_info(meta: dict[str, dict[str, str]]) -> tuple[dict, list, list]:
+    """Per dataset: titel, laatste Eurostat-update, periode en aantal waarnemingen in onze selectie."""
+    info = {}
+    for code, doc in DATASET_DOCS.items():
+        frames = RAW_FRAMES.get(code, [])
+        raw = pd.concat(frames, ignore_index=True).drop_duplicates() if frames else pd.DataFrame(columns=["time", "value"])
+        values = raw[pd.to_numeric(raw["value"], errors="coerce").notna()] if len(raw) else raw
+        years = sorted(int(t) for t in values["time"].unique()) if len(values) else []
+        info[code] = {
+            **doc,
+            "title": meta.get(code, {}).get("title", ""),
+            "updated": meta.get(code, {}).get("updated", ""),
+            "firstYear": years[0] if years else None,
+            "lastYear": years[-1] if years else None,
+            "observations": int(len(values)),
+        }
+
+    def labels(datasets: tuple[str, ...], col: str) -> dict[str, str]:
+        out: dict[str, str] = {}
+        for name in datasets:
+            for frame in RAW_FRAMES.get(name, []):
+                out.update(dict(zip(frame[col], frame[f"{col}_label"])))
+        return out
+
+    old = labels(("sbs_na_con_r2", "sbs_na_sca_r2"), "indic_sb")
+    new = labels(("sbs_ovw_act",), "indic_sbs")
+    r_old = labels(("sbs_r_nuts06_r2",), "indic_sb")
+    r_new = labels(("sbs_r_nuts2021",), "indic_sbs")
+    rows = []
+    for scope, items, lo, ln in (("Nationaal", INDICATORS, old, new), ("Regionaal", REGIONAL_INDICATORS, r_old, r_new)):
+        for code, label, unit, _kind, old_code, new_code, _s in items:
+            rows.append({
+                "scope": scope, "code": code, "label": label, "unit": unit,
+                "oldCode": old_code, "oldLabel": lo.get(old_code, ""),
+                "newCode": new_code, "newLabel": ln.get(new_code, ""),
+            })
+    return info, rows, NOT_USED
 
 
 def label_for(code: str) -> str:
@@ -434,7 +511,8 @@ def main() -> int:
     args = parser.parse_args()
 
     datasets = ["sbs_na_con_r2", "sbs_na_sca_r2", "sbs_r_nuts06_r2", "sbs_ovw_act", "sbs_r_nuts2021"]
-    updated = {name: dataset_updated(name) for name in datasets}
+    meta = {name: dataset_meta(name) for name in datasets}
+    updated = {name: item["updated"] for name, item in meta.items()}
     previous = json.loads(META_PATH.read_text()) if META_PATH.exists() else {}
     outputs_exist = JSON_PATH.exists() and (CSV_DIR / "eurostat_sbs_gewesten.csv").exists() and RAW_DIR.exists()
     if not args.force and outputs_exist and previous.get("datasets") == updated:
@@ -453,6 +531,7 @@ def main() -> int:
     write_raw()
 
     payload = json.loads(JSON_PATH.read_text(encoding="utf-8"))
+    payload["datasetInfo"], payload["indicatorMap"], payload["notUsed"] = build_dataset_info(meta)
     if not args.no_excel:
         from scripts.build_eurostat_excel import build_eurostat_excel
 

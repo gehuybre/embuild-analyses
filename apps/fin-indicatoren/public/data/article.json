@@ -14926,5 +14926,114 @@
   "excelDownload": {
     "href": "data/fin-indicatoren-data.xlsx",
     "filename": "261110 - Embuild Vlaanderen - Financiële indicatoren bouwsector.xlsx"
-  }
+  },
+  "sectorGuide": [
+    {
+      "key": "subsectors",
+      "title": "Bouwsubsectoren",
+      "items": [
+        {
+          "code": "DE4521",
+          "label": "Burgerlijke en utiliteitsbouw",
+          "description": "Burgerlijke en utiliteitsbouw; constructie van bruggen en tunnels; civieltechnische werken ten behoeve van nutsbedirjven"
+        },
+        {
+          "code": "DE4522",
+          "label": "Dakbedekking",
+          "description": "Dakbedekking en bouw van dakconstructies"
+        },
+        {
+          "code": "DE4531",
+          "label": "Elektrische installatie",
+          "description": "Elektrische installatie"
+        },
+        {
+          "code": "DE4533",
+          "label": "Loodgieterswerk",
+          "description": "Loodgieterswerk"
+        },
+        {
+          "code": "DE4542",
+          "label": "Schrijnwerk",
+          "description": "Schrijnwerk"
+        },
+        {
+          "code": "DE4543",
+          "label": "Vloer- en wandafwerking",
+          "description": "Vloerafwerking en wandbekleding"
+        },
+        {
+          "code": "DE4544",
+          "label": "Schilderen en glaszetten",
+          "description": "Schilderen en glaszetten"
+        }
+      ]
+    },
+    {
+      "key": "peer-sectors",
+      "title": "Hoofdsectoren",
+      "items": [
+        {
+          "code": "PU210",
+          "label": "Landbouw",
+          "description": "Landbouw, jacht, bosbouw en visserij"
+        },
+        {
+          "code": "PU220",
+          "label": "Energie en water",
+          "description": "Energie- en waterhuishouding"
+        },
+        {
+          "code": "PU290",
+          "label": "Verwerkende industrie",
+          "description": "Geheel van de verwerkende industrie"
+        },
+        {
+          "code": "PU300",
+          "label": "Bouwnijverheid",
+          "description": "Bouwnijverheid"
+        },
+        {
+          "code": "PU310",
+          "label": "Handel en reparatie",
+          "description": "Handel en reparatie van auto's en consumptieartikelen"
+        },
+        {
+          "code": "PU320",
+          "label": "Horeca",
+          "description": "Verblijfsaccommodaties, restaurants en cafés"
+        },
+        {
+          "code": "PU330",
+          "label": "Vervoer en telecom",
+          "description": "Vervoer en telecommunicatie"
+        },
+        {
+          "code": "PU340",
+          "label": "Diensten",
+          "description": "Diensten aan ondernemingen en particulieren"
+        },
+        {
+          "code": "PU405",
+          "label": "Holdings",
+          "description": "Activiteiten van holdings"
+        },
+        {
+          "code": "PU409",
+          "label": "Kunst en recreatie",
+          "description": "Kunst, amusement en recreatie"
+        },
+        {
+          "code": "PU410",
+          "label": "Gezondheidszorg",
+          "description": "Gezondheidszorg en maatschappelijke dienstverlening"
+        },
+        {
+          "code": "PU450",
+          "label": "Alle sectoren",
+          "description": "Geheel van de sectoren (Stat. jaarrekeningen verenigingen)"
+        }
+      ]
+    }
+  ]
 }

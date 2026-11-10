@@ -183,44 +183,79 @@ def verify_marktwerking() -> bool:
         except (TypeError, ValueError):
             return None
 
-    # Vaste kolomposities in het bronbestand (zie de kopregels in de CSV's).
+    def code_of(v) -> str:
+        text = str(v).strip()
+        return text[:-2] if text.endswith(".0") else text
+
+    # Vaste kolomposities in de bijlage 2026 (zie de kopregels in de CSV's): waarden vanaf kolom 3, rangen daarna.
     layouts = {
-        "Bouw": ("Deel1_Diensten", "Bouw", 5, ["IC", "KI", "GOV", "HHI", "AB", "PCM", "OV", "TNF8", "VMA"], 14,
-                 ["IC", "KI", "GOV", "HHI", "PCM", "OV", "TNF8", "VMA"]),
-        "Bouwmaterialen (industrie)": ("Deel1_industrie", "Andere minerale producten", 6,
-                 ["IC", "KI", "GOV", "HHI", "IMP", "AB", "PCM", "OV", "TNF8", "VMA"], 16,
-                 ["IC", "KI", "GOV", "HHI", "IMP", "PCM", "OV", "TNF8", "VMA"]),
+        "Bouw": ("SI_Diensten", ("41", "42", "43"), ["SI", "AB", "HHI", "NM", "VOL", "STAB"], 3, 9),
+        "Bouwmaterialen (industrie)": ("SI_industrieën", ("23",), ["SI", "AB", "HHI", "IMP", "NM", "VOL", "STAB"], 3, 10),
     }
     shown, source = {}, {}
     for row in data["screening"]:
-        sheet, cat, rank0, rank_codes, val0, val_codes = layouts[row["group"]]
-        frame = sheets[sheet]
-        hit = frame[(frame[2] == cat) & (frame[0].astype(str).str.strip() == row["nace"])]
+        sheet, prefixes, codes, v0, r0 = layouts[row["group"]]
+        name = sheet
+        frame = sheets[name].iloc[4:]
+        hit = frame[frame[0].map(code_of) == row["nace"]]
         if hit.empty:
-            rep.problems.append(f"screening {row['nace']}: niet gevonden in bronblad {sheet}")
+            rep.problems.append(f"screening {row['nace']}: niet gevonden in bronblad {name}")
             continue
         r = hit.iloc[0]
-        for i, code in enumerate(rank_codes):
-            shown[("rang", row["group"], row["nace"], code)] = row["ranks"].get(code)
-            source[("rang", row["group"], row["nace"], code)] = num(r[rank0 + i])
-        for i, code in enumerate(val_codes):
+        # omzet kan om vertrouwelijkheid een bereik als tekst zijn ("250 tot 475")
+        if isinstance(row["turnover"], str):
+            rep.checked += 1
+            if row["turnover"] != str(r[2]).strip():
+                rep.problems.append(f"omzet {row['nace']}: dashboard={row['turnover']} bron={r[2]}")
+        else:
+            rep.compare(f"omzet {row['nace']}", row["turnover"], num(r[2]), 1e-9)
+        for i, code in enumerate(codes):
             shown[("waarde", row["group"], row["nace"], code)] = row["values"].get(code)
-            source[("waarde", row["group"], row["nace"], code)] = num(r[val0 + i])
+            source[("waarde", row["group"], row["nace"], code)] = num(r[v0 + i])
+            shown[("rang", row["group"], row["nace"], code)] = row["ranks"].get(code)
+            source[("rang", row["group"], row["nace"], code)] = num(r[r0 + i])
     rep.compare_sets("screening", shown, source, 1e-9)
+    # volledigheid: elke bouwrij en elke NACE 23-rij van de bron staat in het dashboard
+    expected = set()
+    for name, prefixes in (("SI_Diensten", ("41", "42", "43")), ("SI_industrieën", ("23",))):
+        for c in sheets[name].iloc[4:][0]:
+            if code_of(c).startswith(prefixes) and code_of(c) != "nan":
+                expected.add(code_of(c))
+    # risicorichting: rang 1 = hoogste risico. 'hoog' betekent: hoge waarde geeft lage rang (negatieve correlatie).
+    for ind in data["indicators"]:
+        for group in {r["group"] for r in data["screening"]}:
+            pts = [(r["values"][ind["code"]], r["ranks"][ind["code"]]) for r in data["screening"]
+                   if r["group"] == group and ind["code"] in r["values"] and ind["code"] in r["ranks"]]
+            if len(pts) < 8:
+                continue
+            corr = pd.Series([p[0] for p in pts]).rank().corr(pd.Series([p[1] for p in pts]).rank())
+            rep.checked += 1
+            expected_sign = -1 if ind["riskWhen"] == "hoog" else 1
+            if corr * expected_sign < 0.5:
+                rep.problems.append(f"risicorichting {ind['code']} ({group}): riskWhen='{ind['riskWhen']}' maar correlatie waarde/rang is {corr:.2f}")
+    rep.compare_sets("sectoren", {("n", r["nace"]): 1 for r in data["screening"]}, {("n", c): 1 for c in expected}, 1e-9)
 
-    sheet_for = {"d2": "Deel_2_Diensten__NACE_2", "d4": "Deel_2_Diensten__NACE_4", "i2": "Deel_2_Industrie__NACE_2"}
-    starts = {"NET_GLOB": 4, "NET_MED": 10, "LOSS": 16}
+    sheet_for = {"d2": "NettoMarge_Diensten_NACE_2", "d5": "NettoMarge_Diensten_NACE_5", "i2": "NettoMarge_Industrieën_NACE_2", "i5": "NettoMarge_Industrieën_NACE_5"}
+    hhi_for = {"d5": "HHI_Diensten", "i5": "HHI_Industrieën"}
+    starts = {"NET_GLOB": 2, "NET_MED": 13, "LOSS": 24}
     shown, source = {}, {}
     for s in data["margins"]["series"]:
         prefix = s["key"].split("_")[0]
-        frame = sheets[sheet_for[prefix]].iloc[3:]
-        hit = frame[frame[0].astype(str).str.strip() == s["nace"]]
+        frame = sheets[sheet_for[prefix]].iloc[4:]
+        hit = frame[frame[0].map(code_of) == s["nace"]]
         for measure, start in starts.items():
             for i, year in enumerate(data["marginYears"]):
                 shown[(measure, s["key"], year)] = data["margins"]["values"][measure][s["key"]][i]
                 v = num(hit.iloc[0][start + i]) if not hit.empty else None
                 source[(measure, s["key"], year)] = None if v is None else v * 100
-    rep.compare_sets("marges", shown, source, 1e-3)
+        if prefix in hhi_for:
+            hf = sheets[hhi_for[prefix]].iloc[4:]
+            hh = hf[hf[0].map(code_of) == s["nace"]]
+            series_values = data["margins"]["values"]["HHI"].get(s["key"])
+            for i, year in enumerate(data["marginYears"]):
+                shown[("HHI", s["key"], year)] = series_values[i] if series_values else None
+                source[("HHI", s["key"], year)] = num(hh.iloc[0][2 + i]) if not hh.empty else None
+    rep.compare_sets("evolutie", shown, source, 1e-3)
     return rep.done()
 
 

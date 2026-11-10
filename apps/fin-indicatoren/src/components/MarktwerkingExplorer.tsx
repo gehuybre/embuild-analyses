@@ -46,8 +46,10 @@ export type MarktwerkingData = {
   edition: number
   sourceUrl: string
   marginYears: number[]
-  turnoverYear: { screening: number; margins: number }
-  indicators: { code: string; label: string }[]
+  turnoverYear: { screening: number }
+  sourceFiles?: { label: string; url: string }[]
+  sheetInfo?: { sheet: string; use: string; used: number; total: number }[]
+  indicators: { code: string; label: string; description?: string; riskWhen?: string }[]
   screening: ScreeningRow[]
   margins: {
     measures: { code: string; label: string; unit: string }[]
@@ -101,7 +103,7 @@ function ScreeningView({ data, initial }: { data: MarktwerkingData; initial?: Ma
   )
   const [show, setShow] = React.useState<Show>(initial?.show === "value" ? "value" : "rank")
   const [query, setQuery] = React.useState("")
-  const [sort, setSort] = React.useState<SortState>({ column: "IC", dir: "asc" })
+  const [sort, setSort] = React.useState<SortState>({ column: "SI", dir: "asc" })
 
   const rows = React.useMemo(() => {
     const needle = query.trim().toLowerCase()
@@ -112,7 +114,6 @@ function ScreeningView({ data, initial }: { data: MarktwerkingData; initial?: Ma
     )
     const pickValue = (row: ScreeningRow): number => {
       if (sort.column === "turnover") return typeof row.turnover === "number" ? row.turnover : -1
-      if (sort.column === "firms") return row.firms ?? -1
       if (sort.column === "nace") return Number(row.nace)
       const source = show === "rank" ? row.ranks : row.values
       // Rang: relatief aan het aantal gescreende sectoren, zodat diensten (369) en industrie (223) vergelijkbaar blijven.
@@ -125,7 +126,6 @@ function ScreeningView({ data, initial }: { data: MarktwerkingData; initial?: Ma
     () =>
       rows.flatMap((row) =>
         data.indicators
-          .filter((i) => i.code !== "AB")
           .map((i) => ({
             label: row.label,
             value: (show === "rank" ? row.ranks[i.code] : row.values[i.code]) ?? null,
@@ -189,8 +189,8 @@ function ScreeningView({ data, initial }: { data: MarktwerkingData; initial?: Ma
           </div>
           <div className="flex flex-wrap items-center justify-between gap-3">
             <p className="text-sm text-muted-foreground">
-              Klik op een kolomtitel om te sorteren. {nf(rows.length)} sectoren getoond. Omzet en aantal ondernemingen
-              zijn van {data.turnoverYear.screening}.
+              Klik op een kolomtitel om te sorteren. {nf(rows.length)} sectoren getoond. De binnenlandse omzet is van{" "}
+              {data.turnoverYear.screening}.
             </p>
             <ExportButtons
               data={exportRows}
@@ -215,8 +215,7 @@ function ScreeningView({ data, initial }: { data: MarktwerkingData; initial?: Ma
               {head("nace", "NACE", "text-left")}
               <th scope="col" className="px-2 py-2 text-left font-medium">Omschrijving</th>
               {head("turnover", "Omzet (mln euro)")}
-              {head("firms", "Ondernemingen")}
-              {data.indicators.filter((i) => i.code !== "AB").map((i) => head(i.code, i.label))}
+              {data.indicators.map((i) => head(i.code, i.label))}
             </tr>
           </thead>
           <tbody>
@@ -228,8 +227,7 @@ function ScreeningView({ data, initial }: { data: MarktwerkingData; initial?: Ma
                   {group === "all" ? <span className="ml-1 text-xs text-muted-foreground">({row.group === "Bouw" ? "bouw" : "materialen"})</span> : null}
                 </td>
                 <td className="whitespace-nowrap px-2 py-1.5 text-right tabular-nums">{formatTurnover(row.turnover)}</td>
-                <td className="px-2 py-1.5 text-right tabular-nums">{row.firms === null ? "-" : nf(row.firms)}</td>
-                {data.indicators.filter((i) => i.code !== "AB").map((i) => {
+                {data.indicators.map((i) => {
                   const rank = row.ranks[i.code]
                   const value = row.values[i.code]
                   return (
@@ -255,18 +253,31 @@ function ScreeningView({ data, initial }: { data: MarktwerkingData; initial?: Ma
         <Info className="mt-1 h-4 w-4 shrink-0" />
         <div className="space-y-1">
           <p>
-            <strong className="font-semibold text-foreground">Zo lees je de rang.</strong> Rang 1 is de score die op de
-            minste concurrentiedruk wijst, een hoge rang op meer concurrentie. Bij concentratie (HHI) staat een hoge
-            concentratie dus bij een lage rang, net als weinig bedrijven of een hoge prijs-kostmarge. Hoe oranjer de cel,
-            hoe lager de rang. De rang is op 369 diensten- en 223 industriële sectoren; kleur en sortering houden daar rekening mee.
+            <strong className="font-semibold text-foreground">Zo lees je de rang.</strong> Rang 1 is de sector met het hoogste
+            risico op marktverstoring volgens die indicator, een hoge rang betekent een lager risico. Bij concentratie (HHI)
+            staat een hoge concentratie dus bij een lage rang, net als weinig ondernemingen of een hoge nettomarge. Hoe
+            oranjer de cel, hoe lager de rang. De rang is op 354 dienstensectoren en 190 industriële sectoren; kleur en
+            sortering houden daar rekening mee.
           </p>
           <p>
-            Voor de berekening van de indicatoren en de interpretatie: zie het{" "}
+            De samengestelde indicator (SI) is het eenvoudig gemiddelde van de genormaliseerde indicatoren. Importpenetratie
+            bestaat enkel voor industriële sectoren. Een hoog risico is een signaal om verder te onderzoeken, geen bewijs van
+            een concurrentieprobleem. Voor de berekening: zie het{" "}
             <a href={data.sourceUrl} target="_blank" rel="noopener noreferrer" className="font-medium text-primary underline-offset-4 hover:underline">
               methodologisch rapport van FOD Economie
             </a>
-            . Importpenetratie bestaat enkel voor industriële sectoren.
+            .
           </p>
+          <details className="pt-1">
+            <summary className="cursor-pointer font-medium text-foreground">Wat meet elke indicator?</summary>
+            <ul className="mt-2 space-y-2">
+              {data.indicators.map((i) => (
+                <li key={i.code}>
+                  <span className="font-semibold text-foreground">{i.label}.</span> {i.description}
+                </li>
+              ))}
+            </ul>
+          </details>
         </div>
       </div>
     </div>
@@ -286,29 +297,45 @@ function MarginsView({ data, initial }: { data: MarktwerkingData; initial?: Mark
   })
   const [tab, setTab] = React.useState<"chart" | "table">(initial?.tab ?? "chart")
 
+  // Alleen reeksen met cijfers voor de gekozen maat (HHI bestaat bijvoorbeeld enkel voor NACE 4/5-cijfers).
   const groups: PickerGroup[] = React.useMemo(() => {
-    const order = ["Bouw (NACE 2)", "Bouw (NACE 4)", "Diensten (NACE 2)", "Industrie (NACE 2)", "Diensten (NACE 4)"]
-    return order.map((name, gi) => ({
-      key: name,
-      label: name,
-      items: series
-        .filter((s) => s.group === name)
-        .map((s, i) => ({ key: s.key, label: s.label, color: PALETTE[(i + gi * 3) % PALETTE.length], hint: s.nace })),
-    }))
-  }, [series])
+    const order = ["Bouw (NACE 2)", "Bouw (NACE 4/5)", "Bouwmaterialen (NACE 4/5)", "Diensten (NACE 2)", "Industrie (NACE 2)", "Diensten (NACE 4/5)"]
+    return order
+      .map((name, gi) => ({
+        key: name,
+        label: name,
+        items: series
+          .filter((s) => s.group === name && values[measure]?.[s.key])
+          .map((s, i) => ({ key: s.key, label: s.label, color: PALETTE[(i + gi * 3) % PALETTE.length], hint: s.nace })),
+      }))
+      .filter((group) => group.items.length > 0)
+  }, [series, values, measure])
 
   const itemMap = React.useMemo(() => new Map(groups.flatMap((g) => g.items).map((i) => [i.key, i])), [groups])
   const keysOf = (name: string) => groups.find((g) => g.key === name)?.items.map((i) => i.key) ?? []
   const presets: Preset[] = [
     { key: "n2", label: "Bouw (NACE 2)", keys: keysOf("Bouw (NACE 2)") },
-    { key: "n4", label: "Alle bouwsubsectoren (NACE 4)", keys: keysOf("Bouw (NACE 4)") },
+    { key: "n4", label: "Alle bouwsubsectoren (NACE 4/5)", keys: keysOf("Bouw (NACE 4/5)") },
+    { key: "mat", label: "Bouwmaterialen", keys: keysOf("Bouwmaterialen (NACE 4/5)") },
     { key: "vs", label: "Bouw vs handel en industrie", keys: ["d2_41", "d2_42", "d2_43", "d2_45", "d2_46", "d2_47", "i2_23"].filter((k) => itemMap.has(k)) },
   ]
 
   const selectedItems = selected.map((k) => itemMap.get(k)).filter((i): i is PickerItem => Boolean(i))
   const colors = React.useMemo(() => assignColors(selectedItems), [selectedItems])
   const current = measures.find((m) => m.code === measure) ?? measures[0]
-  const fmt = (v: number) => `${nf(v, 1)}%`
+  const isPercent = current.unit === "%"
+  const fmt = (v: number) => (isPercent ? `${nf(v, 1)}%` : nf(v, 4))
+  const unitLabel = isPercent ? "%" : "index 0 tot 1"
+  const changeMeasure = (code: string) => {
+    setMeasure(code)
+    const target = measures.find((m) => m.code === code)
+    const hasData = (key: string) => Boolean(values[code]?.[key])
+    if (!selected.some(hasData)) {
+      // Geen enkele gekozen reeks heeft cijfers voor deze maat: kies een zinvolle standaard.
+      const fallback = series.filter((s) => s.group === "Bouw (NACE 4/5)" && hasData(s.key)).slice(0, 6).map((s) => s.key)
+      setSelected(target?.unit === "%" ? ["d2_41", "d2_42", "d2_43"] : fallback)
+    }
+  }
 
   const rows = years.map((year, i) => {
     const row: Record<string, string | number | null> = { label: String(year), sortValue: year }
@@ -345,7 +372,7 @@ function MarginsView({ data, initial }: { data: MarktwerkingData; initial?: Mark
           <div className="flex flex-wrap items-end gap-4">
             <div className="min-w-[280px]">
               <FilterLabel>Maat</FilterLabel>
-              <Select value={measure} onValueChange={setMeasure}>
+              <Select value={measure} onValueChange={changeMeasure}>
                 <SelectTrigger className="h-9 w-full min-w-[280px]" aria-label="Maat">
                   <SelectValue />
                 </SelectTrigger>
@@ -382,7 +409,7 @@ function MarginsView({ data, initial }: { data: MarktwerkingData; initial?: Mark
             sectionId="marktwerking"
             viewType={tab}
             periodHeaders={["Sector", "Jaar"]}
-            valueLabel={`${current.label} (%)`}
+            valueLabel={`${current.label} (${unitLabel})`}
             dataSource="FOD Economie - Horizontale screening van sectoren"
             dataSourceUrl={data.sourceUrl}
             embedParams={{ part: "margins", measure, series: selected.join(",") }}
@@ -392,7 +419,7 @@ function MarginsView({ data, initial }: { data: MarktwerkingData; initial?: Mark
           <Card>
             <CardContent className="pt-6">
               {selectedItems.length === 0 ? (
-                <p className="py-16 text-center text-sm text-muted-foreground">Geen sectoren geselecteerd. Kies een snelle selectie of voeg sectoren toe.</p>
+                <p className="py-16 text-center text-sm text-muted-foreground">Geen sectoren geselecteerd voor deze maat. Kies een snelle selectie of voeg sectoren toe.</p>
               ) : (
                 <FilterableChart
                   data={rows}
@@ -402,8 +429,8 @@ function MarginsView({ data, initial }: { data: MarktwerkingData; initial?: Mark
                   showMovingAverage={false}
                   getLabel={(p) => String(p.label)}
                   getSortValue={(p) => Number(p.sortValue)}
-                  yAxisLabelAbove={`${current.label} (%)`}
-                  yAxisFormatter={(v) => `${nf(v, 0)}%`}
+                  yAxisLabelAbove={`${current.label} (${unitLabel})`}
+                  yAxisFormatter={(v) => (isPercent ? `${nf(v, 0)}%` : nf(v, 3))}
                   tooltipUsesYAxisFormatter
                 />
               )}
@@ -419,9 +446,9 @@ function MarginsView({ data, initial }: { data: MarktwerkingData; initial?: Mark
         </TabsContent>
       </Tabs>
       <p className="max-w-4xl text-sm leading-6 text-muted-foreground">
-        Geglobaliseerd is het totaal over alle bedrijven van de sector, de mediaan het typische bedrijf. Zo kan een
-        sector met enkele grote spelers anders scoren dan de doorsnee onderneming. Omzet en aantal ondernemingen zijn
-        van {data.turnoverYear.margins}.
+        Geglobaliseerd is het totaal over alle bedrijven van de sector, de mediaan het typische bedrijf. Zo kan een sector met
+        enkele grote spelers anders scoren dan de doorsnee onderneming. De HHI (concentratie) bestaat enkel voor sectoren op
+        4- of 5-cijferniveau; een hogere waarde betekent meer concentratie.
       </p>
     </div>
   )

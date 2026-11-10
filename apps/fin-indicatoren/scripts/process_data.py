@@ -19,6 +19,7 @@ if str(APP_ROOT) not in sys.path:
 import render_bouwsector_cbratiose_report as report
 from scripts.build_excel import build_excel
 from scripts.raw_export import export_nbb_downloads
+from scripts.sector_guide import build_sector_guide
 
 PUBLIC_DATA_DIR = APP_ROOT / "public" / "data"
 METADATA_PATH = PUBLIC_DATA_DIR / "metadata.json"
@@ -516,6 +517,9 @@ def build_article_payload(
         "latestYear": latest_year,
         "sourceUrl": SOURCE_URL,
         "indicatorGuide": indicator_guide,
+        "sectorGuide": build_sector_guide(
+            APP_ROOT / "downloads" / "cbratiose_bouw_vs_alle_sectoren" / "CL_AA_SECTOR.csv", chapters
+        ),
         "chapters": chapters,
     }
 

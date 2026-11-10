@@ -53,6 +53,11 @@ export type NbbChapter = {
 }
 
 export type NbbGuideItem = { code: string; label: string; theme: string; formula: string; reading: string }
+export type NbbSectorGuideGroup = {
+  key: string
+  title: string
+  items: { code: string; label: string; description: string }[]
+}
 export type NbbModelGuideItem = { code: string; label: string; meaning: string; interpretation: string }
 
 const GROUP_LABELS: Record<string, string> = {
@@ -81,12 +86,14 @@ export function NbbExplorer({
   chapters,
   guide,
   modelGuide,
+  sectorGuide,
   initial,
   sourceUrl,
 }: {
   chapters: NbbChapter[]
   guide: NbbGuideItem[]
   modelGuide?: NbbModelGuideItem[]
+  sectorGuide?: NbbSectorGuideGroup[]
   initial?: NbbInitialState
   sourceUrl?: string
 }) {
@@ -313,7 +320,7 @@ export function NbbExplorer({
 
       <details className="rounded-lg border bg-card p-4">
         <summary className="cursor-pointer text-sm font-semibold text-foreground">
-          Indicatorengids en modellen van jaarrekening
+          Indicatorengids, sectorcodes en modellen van jaarrekening
         </summary>
         <div className="mt-4 space-y-5">
           <ul className="space-y-3 pl-5">
@@ -326,6 +333,27 @@ export function NbbExplorer({
               </li>
             ))}
           </ul>
+          {sectorGuide?.map((group) => (
+            <div key={group.key} className="space-y-3 border-t pt-4">
+              <p className="text-sm font-semibold text-foreground">{group.title}: NBB-sectorcodes</p>
+              <p className="text-xs text-muted-foreground">
+                Code en omschrijving zoals de Nationale Bank ze publiceert; tussen haakjes de naam die in de grafieken staat.
+              </p>
+              <ul className="space-y-2">
+                {group.items.map((item) => (
+                  <li key={item.code} className="text-sm leading-6">
+                    <span className="mr-2 inline-block rounded bg-muted px-1.5 py-0.5 font-mono text-xs text-foreground">
+                      {item.code}
+                    </span>
+                    <span className="text-muted-foreground">{item.description}</span>
+                    {item.label !== item.description ? (
+                      <span className="text-xs text-muted-foreground"> (grafiek: {item.label})</span>
+                    ) : null}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
           {modelGuide ? (
             <div className="space-y-3 border-t pt-4">
               <p className="text-sm font-semibold text-foreground">Modellen van jaarrekening</p>

@@ -52,6 +52,30 @@ export type EurostatData = {
   apiGuideUrl: string
   breakYear: number
   datasets?: Record<string, string>
+  datasetInfo?: Record<
+    string,
+    {
+      title: string
+      folder: string
+      use: string
+      views: string[]
+      updated: string
+      firstYear: number | null
+      lastYear: number | null
+      observations: number
+    }
+  >
+  indicatorMap?: {
+    scope: string
+    code: string
+    label: string
+    unit: string
+    oldCode: string
+    oldLabel: string
+    newCode: string
+    newLabel: string
+  }[]
+  notUsed?: { code: string; title: string; why: string }[]
   excelDownload?: { href: string; filename: string }
   bouw: NationalSet
   sectors: NationalSet

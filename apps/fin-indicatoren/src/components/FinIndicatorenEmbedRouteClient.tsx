@@ -31,6 +31,7 @@ export function FinIndicatorenEmbedRouteClient({
       <NbbExplorer
         chapters={article.chapters}
         guide={article.indicatorGuide}
+        sectorGuide={article.sectorGuide}
         sourceUrl={article.sourceUrl}
         initial={{ indicator: param("indicator") ?? undefined, series: list("series"), tab }}
       />

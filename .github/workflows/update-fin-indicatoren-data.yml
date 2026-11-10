@@ -47,6 +47,10 @@ jobs:
       - name: Verify column names, units and labels against source
         run: python "${APP_ROOT}/scripts/verify_labels.py" nbb eurostat
 
+      - name: Verify links and source references
+        continue-on-error: true
+        run: python "${APP_ROOT}/scripts/verify_links.py"
+
       - name: Verify generated outputs
         run: |
           set -euo pipefail

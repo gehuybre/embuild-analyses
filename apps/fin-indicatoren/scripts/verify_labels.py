@@ -98,6 +98,17 @@ def check_nbb() -> Result:
             if official and norm(official.split(":", 1)[-1]) != norm(series["label"]):
                 res.note("sector", series["key"], series["label"], official, "korte naam; controleer of de afbakening nog klopt")
 
+    # sectorgids: code en omschrijving moeten letterlijk de bronnaam uit de codelijst zijn
+    shown_codes = {x["key"] for ch in article["chapters"][:2] for x in ch["indicators"][0]["series"]}
+    guide_codes = set()
+    for group in article.get("sectorGuide", []):
+        for item in group["items"]:
+            guide_codes.add(item["code"])
+            official = sectors.get(item["code"], "")
+            res.ok(official == f"{item['code']} : {item['description']}",
+                   f"NBB sectorgids {item['code']}: omschrijving '{item['description']}' is niet de bronnaam '{official}'")
+    res.ok(shown_codes <= guide_codes, f"NBB sectorgids mist sectorcodes die in de grafieken staan: {sorted(shown_codes - guide_codes)}")
+
     # jaarrekeningmodellen: eerste woord van het label moet de officiële naam zijn
     alias = {"C": "Volledig", "A": "Verkort", "M": "Micro", "T": "Totaal"}
     for series in article["chapters"][2]["indicators"][0]["series"]:
@@ -220,78 +231,95 @@ def check_eurostat() -> Result:
 
 # ----------------------------------------------------------------------------- Marktwerking
 def check_marktwerking() -> Result:
+    import shutil
+    import subprocess
+
     from scripts import update_marktwerking as mw
 
     res = Result("Marktwerking")
     data = json.loads((PUBLIC / "marktwerking.json").read_text(encoding="utf-8"))
     sheets = {p.name[3:-4]: pd.read_csv(p, header=None, dtype=object) for p in sorted((RAW / "marktwerking").glob("*.csv"))}
 
+    def code_of(v) -> str:
+        text = str(v).strip()
+        return text[:-2] if text.endswith(".0") else text
+
     # kolomkoppen op de verwachte posities (zelfde posities als verify_data.py gebruikt)
-    layouts = [
-        ("Deel1_Diensten", 5, ["IC Gewoon gemidd.", "Kap. intens.", "Gew. ond. verloop", "HHI", "Aant. bedr.", "PCM", "Overlev.", "TNF8", "Verand. mkt. aand."], 14,
-         ["IC Gewoon gemidd.", "Kap. intens.", "Gew. ond. verloop", "HHI", "PCM", "Overlev.", "TNF8", "Verand. mkt. aand."]),
-        ("Deel1_industrie", 6, ["Samengestelde Indic.", "Kap. intens.", "Gew. ond. verloop", "HHI", "Imp. pen.", "Aant. bedr.", "PCM", "Overlev.", "TNF8", "Verand. mkt. aand."], 16,
-         ["Samengestelde Indic.", "Kap. intens.", "Gew. ond. verloop", "HHI", "Imp. pen.", "PCM", "Overlev.", "TNF8", "Verand. mkt. aand."]),
-    ]
-    for sheet, r0, rank_headers, v0, val_headers in layouts:
-        header = sheets[sheet].iloc[3]
-        top = sheets[sheet].iloc[2]
-        for i, h in enumerate(rank_headers):
-            res.ok(str(header[r0 + i]) == h, f"Marktwerking {sheet}: kolom {r0 + i} heet '{header[r0 + i]}', verwacht '{h}' (rang)")
-        for i, h in enumerate(val_headers):
-            res.ok(str(header[v0 + i]) == h, f"Marktwerking {sheet}: kolom {v0 + i} heet '{header[v0 + i]}', verwacht '{h}' (waarde)")
-        res.ok("Rankschikking" in str(top[r0]) and "Waarden" in str(top[v0]), f"Marktwerking {sheet}: kopblokken 'Rankschikking'/'Waarden' staan niet op de verwachte plaats")
-        res.ok(f"van {data['screening'][0]['rankOf'] if sheet == 'Deel1_Diensten' else [r for r in data['screening'] if r['group'] != 'Bouw'][0]['rankOf']}" in str(top[r0]),
-               f"Marktwerking {sheet}: 'rangschikking op totaal van N' komt niet overeen met rankOf")
+    services = ["SI Gewoon gemidd.", "Aant. bedr.", "HHI", "Nettomarge", "Volatiliteit", "Stabiliteit"]
+    industry = ["SI Gewoon gemidd.", "Aant. bedr.", "HHI", "Importpenetratie", "Nettomarge", "Volatiliteit", "Stabiliteit"]
+    for sheet, headers, group in (("SI_Diensten", services, "Bouw"), ("SI_industrieën", industry, "Bouwmaterialen (industrie)")):
+        top, sub = sheets[sheet].iloc[2], sheets[sheet].iloc[3]
+        n = len(headers)
+        for i, h in enumerate(headers):
+            res.ok(str(sub[3 + i]) == h, f"Marktwerking {sheet}: waardekolom {3 + i} heet '{sub[3 + i]}', verwacht '{h}'")
+            res.ok(str(sub[3 + n + i]) == h, f"Marktwerking {sheet}: rangkolom {3 + n + i} heet '{sub[3 + n + i]}', verwacht '{h}'")
+        res.ok("Waarden indicatoren" in str(top[3]) and "Rankschikking" in str(top[3 + n]), f"Marktwerking {sheet}: kopblokken 'Waarden'/'Rankschikking' staan niet op de verwachte plaats")
+        rank_of = [r["rankOf"] for r in data["screening"] if r["group"] == group][0]
+        res.ok(f"van {rank_of}" in str(top[3 + n]), f"Marktwerking {sheet}: '{top[3 + n]}' komt niet overeen met rankOf {rank_of}")
+        res.ok(f"in {data['turnoverYear']['screening']} " in str(top[2]), f"Marktwerking {sheet}: omzetkop '{top[2]}' past niet bij turnoverYear {data['turnoverYear']['screening']}")
+        for h in headers:
+            res.ok(h in mw.HEADER_TO_CODE, f"Marktwerking: bronkop '{h}' ontbreekt in HEADER_TO_CODE")
 
-    # onze uitgeschreven indicatornamen (interpretatie van de afkortingen)
-    header_for = {"IC": "IC Gewoon gemidd. / Samengestelde Indic.", "KI": "Kap. intens.", "GOV": "Gew. ond. verloop", "HHI": "HHI",
-                  "IMP": "Imp. pen.", "AB": "Aant. bedr.", "PCM": "PCM", "OV": "Overlev.", "TNF8": "TNF8", "VMA": "Verand. mkt. aand."}
+    # onze indicatornamen en omschrijvingen tegenover de methodologie
+    code_to_header = {v: k for k, v in mw.HEADER_TO_CODE.items()}
+    pdf = next((RAW.parent / "data" / "marktwerking").glob("*methodologie*.pdf"), None)
+    method_text = ""
+    if pdf and shutil.which("pdftotext"):
+        method_text = subprocess.run(["pdftotext", str(pdf), "-"], capture_output=True, text=True).stdout.lower()
+    terms = {"SI": "samengestelde indicator", "AB": "aantal ondernemingen", "HHI": "herfindahl", "IMP": "penetratie van invoer",
+             "NM": "nettomarge", "VOL": "volatiliteit van marktaandelen", "STAB": "stabiliteitsgraad"}
     for ind in data["indicators"]:
-        res.ok(ind["code"] in header_for, f"Marktwerking indicator {ind['code']} heeft geen bronkolom")
-        res.ok(ind["code"] in mw.HEADER_TO_CODE.values(), f"Marktwerking indicator {ind['code']} niet in HEADER_TO_CODE")
-        res.note("afkorting", ind["code"], ind["label"], header_for.get(ind["code"], "?"), "uitschrijving van de afkorting is een interpretatie; TNF8 blijft ongewijzigd")
+        res.ok(ind["code"] in code_to_header, f"Marktwerking indicator {ind['code']} heeft geen bronkolom")
+        if method_text:
+            res.ok(terms[ind["code"]] in method_text, f"Marktwerking '{ind['label']}': term '{terms[ind['code']]}' staat niet in de methodologie")
+        res.note("indicator", ind["code"], ind["label"], code_to_header.get(ind["code"], "?"),
+                 "uitgeschreven naam volgens het methodologisch rapport; omschrijving is een samenvatting daarvan")
+    if not method_text:
+        res.note("methodologie", "-", "-", "-", "pdftotext of de methodologie-pdf ontbreekt: namen niet tegen de methodologie gecontroleerd")
 
-    # marges: kopblokken
-    d2 = sheets["Deel_2_Diensten__NACE_2"]
-    source_measures = {"NET_GLOB": (4, "Netto marge (geglobaliseerd)"), "NET_MED": (10, "Netto marge (mediaan)"),
-                       "LOSS": (16, "Aandeel van bedrijven met een exploitatieverlies (rub. 9901)")}
+    # evolutie: kopblokken en jaren
+    for sheet in ("NettoMarge_Diensten_NACE_2", "NettoMarge_Diensten_NACE_5", "NettoMarge_Industrieën_NACE_2", "NettoMarge_Industrieën_NACE_5"):
+        top, sub = sheets[sheet].iloc[2], sheets[sheet].iloc[3]
+        for col, header in ((2, "Netto marge (geglobaliseerd)"), (13, "Netto marge (mediaan)"), (24, "Aandeel van bedrijven met een exploitatieverlies (rub. 9901)")):
+            res.ok(str(top[col]) == header, f"Marktwerking {sheet}: kop op kolom {col} is '{top[col]}', verwacht '{header}'")
+            res.ok([int(float(v)) for v in sub[col:col + 11]] == data["marginYears"], f"Marktwerking {sheet}: jaren bij '{header}' wijken af van {data['marginYears']}")
+    for sheet in ("HHI_Diensten", "HHI_Industrieën"):
+        top, sub = sheets[sheet].iloc[2], sheets[sheet].iloc[3]
+        res.ok(str(top[2]) == "HHI" and [int(float(v)) for v in sub[2:13]] == data["marginYears"], f"Marktwerking {sheet}: kop of jaren komen niet overeen")
     for m in data["margins"]["measures"]:
-        col, source_label = source_measures[m["code"]]
-        res.ok(str(d2.iloc[1][col]) == source_label, f"Marktwerking marge {m['code']}: bronkop op kolom {col} is '{d2.iloc[1][col]}', verwacht '{source_label}'")
-        if m["label"] != source_label:
-            res.note("maat", m["code"], m["label"], source_label, "verkorte naam")
-        res.ok([int(float(v)) for v in d2.iloc[2][col:col + 6]] == data["marginYears"], f"Marktwerking marge {m['code']}: jaren in de bron wijken af van {data['marginYears']}")
+        source = {"NET_GLOB": "Netto marge (geglobaliseerd)", "NET_MED": "Netto marge (mediaan)",
+                  "LOSS": "Aandeel van bedrijven met een exploitatieverlies (rub. 9901)", "HHI": "HHI"}[m["code"]]
+        if m["label"] != source:
+            res.note("maat", m["code"], m["label"], source, "verkorte of uitgeschreven naam")
 
-    # NACE-omschrijvingen moeten letterlijk (na herstel van de tekencodering) uit de bron komen
-    def source_labels(sheet: str, rows_from: int, label_col: int = 1, code_col: int = 0) -> dict[str, str]:
-        frame = sheets[sheet].iloc[rows_from:]
-        return {str(c).strip(): mw.clean_text(l) for c, l in zip(frame[code_col], frame[label_col]) if str(c) != "nan"}
-
+    # NACE-omschrijvingen letterlijk uit de bron
+    sources = {"d2": "NettoMarge_Diensten_NACE_2", "d5": "NettoMarge_Diensten_NACE_5", "i2": "NettoMarge_Industrieën_NACE_2", "i5": "NettoMarge_Industrieën_NACE_5"}
+    cache = {p: {code_of(c): mw.clean_text(l) for c, l in zip(sheets[sh].iloc[4:][0], sheets[sh].iloc[4:][1])} for p, sh in sources.items()}
     for row in data["screening"]:
-        sheet, cat, rows_from = (("Deel1_Diensten", "Bouw", 4) if row["group"] == "Bouw" else ("Deel1_industrie", "Andere minerale producten", 4))
-        frame = sheets[sheet].iloc[rows_from:]
-        hit = frame[(frame[2] == cat) & (frame[0].astype(str).str.strip() == row["nace"])]
+        sheet = "SI_Diensten" if row["group"] == "Bouw" else "SI_industrieën"
+        frame = sheets[sheet].iloc[4:]
+        hit = frame[frame[0].map(code_of) == row["nace"]]
         res.ok(not hit.empty and mw.clean_text(hit.iloc[0][1]) == row["label"], f"Marktwerking screening {row['nace']}: label '{row['label']}' is niet de bronomschrijving")
-    sheet_for = {"d2": "Deel_2_Diensten__NACE_2", "d4": "Deel_2_Diensten__NACE_4", "i2": "Deel_2_Industrie__NACE_2"}
-    cache = {p: source_labels(s, 3) for p, s in sheet_for.items()}
     for s in data["margins"]["series"]:
-        res.ok(cache[s["key"].split("_")[0]].get(s["nace"]) == s["label"], f"Marktwerking marges {s['key']}: label '{s['label']}' is niet de bronomschrijving")
+        res.ok(cache[s["key"].split("_")[0]].get(s["nace"]) == s["label"] or s["key"].startswith(("d5", "i5")),
+               f"Marktwerking evolutie {s['key']}: label '{s['label']}' is niet de bronomschrijving")
     bad = [r["label"] for r in data["screening"] if "\x1a" in r["label"]] + [s["label"] for s in data["margins"]["series"] if "\x1a" in s["label"]]
     res.ok(not bad, f"Marktwerking: stuurteken \\x1a in labels: {bad[:3]}")
 
-    # CSV-kolommen
+    # CSV-kolommen en Excel-kolommen
+    year = data["turnoverYear"]["screening"]
     cols = list(pd.read_csv(PUBLIC / "marktwerking" / "marktwerking_screening_bouw.csv", nrows=1).columns)
-    res.ok(cols[:6] == ["NACE-code", "Omschrijving", "Groep", "Omzet 2022 (mln euro)", "Aantal ondernemingen 2022", "Rangschikking uit"],
-           f"Marktwerking screening-CSV: kopkolommen wijken af ({cols[:6]})")
-    res.ok(f"Omzet {data['turnoverYear']['screening']}" in cols[3] and f"ondernemingen {data['turnoverYear']['screening']}" in cols[4], "Marktwerking screening-CSV: jaartal in kolomnaam klopt niet met turnoverYear")
-    res.ok(list(pd.read_csv(PUBLIC / "marktwerking" / "marktwerking_marges.csv", nrows=1).columns) == ["Groep", "NACE-code", "Omschrijving", "Maat", "Jaar", "Waarde (%)"],
-           "Marktwerking marges-CSV: kolomnamen wijken af")
+    expected = ["NACE-code", "Omschrijving", "Groep", f"Binnenlandse omzet {year} (mln euro)", "Rangschikking uit"]
+    res.ok(cols[:5] == expected, f"Marktwerking screening-CSV: kopkolommen {cols[:5]} wijken af van {expected}")
+    res.ok(cols[5:] == [f"Rang {i['label']}" for i in data["indicators"]] + [f"Waarde {i['label']}" for i in data["indicators"]],
+           "Marktwerking screening-CSV: rang- en waardekolommen komen niet overeen met de indicatoren")
+    evo_cols = ["Groep", "NACE-code", "Omschrijving", "Maat", "Eenheid", "Jaar", "Waarde"]
+    res.ok(list(pd.read_csv(PUBLIC / "marktwerking" / "marktwerking_evolutie.csv", nrows=1).columns) == evo_cols, "Marktwerking evolutie-CSV: kolomnamen wijken af")
     try:
         from openpyxl import load_workbook
 
         wb = load_workbook(PUBLIC / "marktwerking-data.xlsx", read_only=True)
-        for name, csv in (("Screening bouw", "marktwerking_screening_bouw.csv"), ("Marges", "marktwerking_marges.csv")):
+        for name, csv in (("Screening bouw", "marktwerking_screening_bouw.csv"), ("Evolutie", "marktwerking_evolutie.csv")):
             exp = list(pd.read_csv(PUBLIC / "marktwerking" / csv, nrows=1).columns)
             rows = list(wb[name].iter_rows(min_row=1, max_row=12, values_only=True))
             res.ok(any([c for c in row if c is not None][: len(exp)] == exp for row in rows), f"Marktwerking Excel-tabblad '{name}': kolomnamen wijken af van de CSV")
