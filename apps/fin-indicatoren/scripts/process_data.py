@@ -17,6 +17,8 @@ if str(APP_ROOT) not in sys.path:
     sys.path.insert(0, str(APP_ROOT))
 
 import render_bouwsector_cbratiose_report as report
+from scripts.build_excel import build_excel
+from scripts.raw_export import export_nbb_downloads
 
 PUBLIC_DATA_DIR = APP_ROOT / "public" / "data"
 METADATA_PATH = PUBLIC_DATA_DIR / "metadata.json"
@@ -505,9 +507,10 @@ def build_article_payload(
     return {
         "title": "Financiële indicatoren in de bouwsector",
         "lead": (
-            "Deze datablog toont dezelfde NBB CBRATIOSE-data als het bestaande rapport, "
-            "maar vertaalt die naar een interactieve blogstructuur. Per hoofdstuk kan je "
-            "tussen indicatoren schakelen en telkens kiezen tussen grafiek en tabel."
+            "Deze datablog bundelt twee bronnen over de gezondheid en structuur van de bouwsector: "
+            "de financiële ratio's van de Nationale Bank (CBRATIOSE) en de structurele bedrijfsstatistieken "
+            "van Eurostat. In beide hoofdstukken kies je één indicator en combineer je vrij de reeksen die "
+            "je wil vergelijken, telkens in grafiek of tabel."
         ),
         "minYear": min_year,
         "latestYear": latest_year,
@@ -523,6 +526,11 @@ def main() -> int:
 
     run_download_pipeline()
 
+    # De peer- en subsectorreeksen worden door het rapportmodule gecachet; verwijder de
+    # cache zodat elke update ze opnieuw rechtstreeks bij de NBB ophaalt.
+    PEER_CSV.unlink(missing_ok=True)
+    SUBSECTOR_CSV.unlink(missing_ok=True)
+
     frame = report.sanitize_main_frame(report.load_frame(COMPARISON_CSV))
     peer_frame = report.sanitize_series_frame(
         report.ensure_peer_sector_frame(APP_ROOT),
@@ -534,7 +542,15 @@ def main() -> int:
     )
     latest_year = int(frame["year"].max())
 
+    export_nbb_downloads(APP_ROOT / "downloads")
     copy_analysis_exports()
+    excel_filename = build_excel(latest_year)
+
+    article_payload = build_article_payload(frame, peer_frame, subsector_frame)
+    article_payload["excelDownload"] = {
+        "href": "data/fin-indicatoren-data.xlsx",
+        "filename": excel_filename,
+    }
 
     write_json(
         METADATA_PATH,
@@ -546,7 +562,7 @@ def main() -> int:
     )
     write_json(
         ARTICLE_PATH,
-        build_article_payload(frame, peer_frame, subsector_frame),
+        article_payload,
     )
     write_json(
         REMOTE_METADATA_PATH,
