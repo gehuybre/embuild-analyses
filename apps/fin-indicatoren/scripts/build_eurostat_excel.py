@@ -66,6 +66,7 @@ def build_eurostat_excel() -> str:
         "Elk tabblad is een Excel-tabel met filters: klik in de tabel en kies Invoegen > Draaitabel voor eigen analyses.",
         "Reeksbreuk: Eurostat publiceert 2005-2020 (SBS-verordening) en vanaf 2021 (EBS-verordening) apart. De kolom Bronreeks toont de herkomst; vergelijk niveaus over 2020-2021 heen met voorzichtigheid.",
         "Het totaal van de marktgerichte economie heeft vóór en vanaf 2021 een andere afbakening.",
+        "Enkele indicatoren heten anders in beide reeksen: omzet (Turnover) vs nettoomzet (Net turnover), productiewaarde vs waarde van de output, toegevoegde waarde tegen factorkost vs toegevoegde waarde, personeelskosten vs kosten van werknemersvergoedingen, en investeringen in materiële goederen vs materiële vaste activa. De ruwe bronbestanden in downloads/eurostat/ bevatten beide benamingen.",
         "Gewesten: de regionale cijfers gaan over vestigingen (lokale eenheden) en niet over ondernemingen. Brussel = NUTS1 BE1, Vlaanderen = BE2, Wallonië = BE3; provincies zijn NUTS2.",
         "Eurostat-vlag: b = reeksbreuk, c = vertrouwelijk, e = geschat, p = voorlopig, d = afwijkende definitie. Lege vlag = definitief.",
         "De cijfers worden rechtstreeks via de Eurostat-API opgehaald en onbewerkt weergegeven.",

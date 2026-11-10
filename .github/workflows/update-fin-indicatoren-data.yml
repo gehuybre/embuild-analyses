@@ -44,6 +44,9 @@ jobs:
       - name: Verify dashboard figures against raw source data
         run: python "${APP_ROOT}/scripts/verify_data.py" nbb eurostat
 
+      - name: Verify column names, units and labels against source
+        run: python "${APP_ROOT}/scripts/verify_labels.py" nbb eurostat
+
       - name: Verify generated outputs
         run: |
           set -euo pipefail

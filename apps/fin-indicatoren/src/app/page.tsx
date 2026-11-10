@@ -11,11 +11,6 @@ const metadata = {
   summary: "NBB-ratio's, Eurostat-bedrijfsstatistieken en de marktwerkingsscreening van FOD Economie voor de bouwsector.",
   dataAvailabilityLabel: "2024 voor Eurostat, 2023 voor FOD Economie en 2022 voor de NBB",
   tags: ["bouw", "financiën", "NBB", "Eurostat", "marktwerking"],
-  source: {
-    provider: "Nationale Bank van België",
-    title: "CBRATIOSE - Financiële ratio's van niet-financiële vennootschappen",
-    url: "https://dataviewer-stat.nbb.be/?chartId=a6e7262c-5128-4d39-8d36-dc3320f1ded8",
-  },
 }
 
 async function loadArticleData(): Promise<FinIndicatorenArticleData> {

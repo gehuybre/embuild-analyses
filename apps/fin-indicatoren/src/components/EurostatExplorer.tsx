@@ -427,7 +427,9 @@ export function EurostatExplorer({ data, initial }: { data: EurostatData; initia
           <p>
             <strong className="font-semibold text-foreground">Reeksbreuk {data.breakYear - 1}-{data.breakYear}.</strong>{" "}
             Eurostat publiceert tot en met 2020 (SBS) en vanaf 2021 (EBS) met een nieuwe methodologie en afbakening.
-            De lijn is daarom onderbroken: vergelijk niveaus over die grens heen met voorzichtigheid.
+            De lijn is daarom onderbroken: vergelijk niveaus over die grens heen met voorzichtigheid. Ook de benaming van
+            enkele indicatoren verschilt tussen beide reeksen, bijvoorbeeld toegevoegde waarde tegen factorkost (tot 2020) en
+            toegevoegde waarde (vanaf 2021), of omzet en nettoomzet.
           </p>
           {regional ? (
             <p>
