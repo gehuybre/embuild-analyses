@@ -1,275 +1,5 @@
 [
   {
-    "sheetName": "Oct 25",
-    "forecastMonth": "2025-10",
-    "forecastSortValue": 202510,
-    "forecastYear": 2025,
-    "forecastMonthNumber": 10,
-    "forecastLabel": "oktober 2025",
-    "sourcePublicationDate": "2025-10-07",
-    "title": "Consumer Price Index - Inflation forecasts - [07/10/2025]",
-    "cpiIndexLabel": "Index (2013=100)",
-    "healthIndexLabel": "Index (2013=100)",
-    "monthlyPoints": [
-      {
-        "period": "2025-01",
-        "sortValue": 202501,
-        "cpiIndex": 135.39,
-        "cpiGrowthRate": 4.08,
-        "healthIndex": 135.52,
-        "healthGrowthRate": 4.09,
-        "smoothedHealthIndex": 131.18,
-        "pivotalIndex": 130.67
-      },
-      {
-        "period": "2025-02",
-        "sortValue": 202502,
-        "cpiIndex": 135.66,
-        "cpiGrowthRate": 3.55,
-        "healthIndex": 135.79,
-        "healthGrowthRate": 3.7,
-        "smoothedHealthIndex": 131.87,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2025-03",
-        "sortValue": 202503,
-        "cpiIndex": 135.56,
-        "cpiGrowthRate": 2.91,
-        "healthIndex": 135.91,
-        "healthGrowthRate": 3.16,
-        "smoothedHealthIndex": 132.53,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2025-04",
-        "sortValue": 202504,
-        "cpiIndex": 134.44,
-        "cpiGrowthRate": 2.55,
-        "healthIndex": 134.77,
-        "healthGrowthRate": 3.0,
-        "smoothedHealthIndex": 132.79,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2025-05",
-        "sortValue": 202505,
-        "cpiIndex": 134.23,
-        "cpiGrowthRate": 2.01,
-        "healthIndex": 134.54,
-        "healthGrowthRate": 2.37,
-        "smoothedHealthIndex": 132.55,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2025-06",
-        "sortValue": 202506,
-        "cpiIndex": 134.7,
-        "cpiGrowthRate": 2.15,
-        "healthIndex": 135.04,
-        "healthGrowthRate": 2.37,
-        "smoothedHealthIndex": 132.36,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2025-07",
-        "sortValue": 202507,
-        "cpiIndex": 135.36,
-        "cpiGrowthRate": 1.92,
-        "healthIndex": 135.6,
-        "healthGrowthRate": 2.08,
-        "smoothedHealthIndex": 132.29,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2025-08",
-        "sortValue": 202508,
-        "cpiIndex": 135.35,
-        "cpiGrowthRate": 1.91,
-        "healthIndex": 135.64,
-        "healthGrowthRate": 2.03,
-        "smoothedHealthIndex": 132.5,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2025-09",
-        "sortValue": 202509,
-        "cpiIndex": 134.95,
-        "cpiGrowthRate": 2.12,
-        "healthIndex": 135.26,
-        "healthGrowthRate": 2.15,
-        "smoothedHealthIndex": 132.68,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2025-10",
-        "sortValue": 202510,
-        "cpiIndex": 135.6,
-        "cpiGrowthRate": 2.12,
-        "healthIndex": 135.95,
-        "healthGrowthRate": 2.25,
-        "smoothedHealthIndex": 132.9,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2025-11",
-        "sortValue": 202511,
-        "cpiIndex": 135.7,
-        "cpiGrowthRate": 2.02,
-        "healthIndex": 136.08,
-        "healthGrowthRate": 2.15,
-        "smoothedHealthIndex": 133.02,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2025-12",
-        "sortValue": 202512,
-        "cpiIndex": 135.88,
-        "cpiGrowthRate": 1.75,
-        "healthIndex": 136.28,
-        "healthGrowthRate": 1.91,
-        "smoothedHealthIndex": 133.17,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2026-01",
-        "sortValue": 202601,
-        "cpiIndex": 136.95,
-        "cpiGrowthRate": 1.15,
-        "healthIndex": 137.31,
-        "healthGrowthRate": 1.32,
-        "smoothedHealthIndex": 133.68,
-        "pivotalIndex": 133.28
-      },
-      {
-        "period": "2026-02",
-        "sortValue": 202602,
-        "cpiIndex": 137.07,
-        "cpiGrowthRate": 1.04,
-        "healthIndex": 137.5,
-        "healthGrowthRate": 1.26,
-        "smoothedHealthIndex": 134.06,
-        "pivotalIndex": 135.95
-      },
-      {
-        "period": "2026-03",
-        "sortValue": 202603,
-        "cpiIndex": 137.17,
-        "cpiGrowthRate": 1.19,
-        "healthIndex": 137.65,
-        "healthGrowthRate": 1.28,
-        "smoothedHealthIndex": 134.44,
-        "pivotalIndex": 135.95
-      },
-      {
-        "period": "2026-04",
-        "sortValue": 202604,
-        "cpiIndex": 136.78,
-        "cpiGrowthRate": 1.74,
-        "healthIndex": 137.26,
-        "healthGrowthRate": 1.85,
-        "smoothedHealthIndex": 134.68,
-        "pivotalIndex": 135.95
-      },
-      {
-        "period": "2026-05",
-        "sortValue": 202605,
-        "cpiIndex": 136.82,
-        "cpiGrowthRate": 1.93,
-        "healthIndex": 137.28,
-        "healthGrowthRate": 2.04,
-        "smoothedHealthIndex": 134.67,
-        "pivotalIndex": 135.95
-      },
-      {
-        "period": "2026-06",
-        "sortValue": 202606,
-        "cpiIndex": 136.95,
-        "cpiGrowthRate": 1.67,
-        "healthIndex": 137.43,
-        "healthGrowthRate": 1.77,
-        "smoothedHealthIndex": 134.66,
-        "pivotalIndex": 135.95
-      },
-      {
-        "period": "2026-07",
-        "sortValue": 202607,
-        "cpiIndex": 137.25,
-        "cpiGrowthRate": 1.4,
-        "healthIndex": 137.72,
-        "healthGrowthRate": 1.56,
-        "smoothedHealthIndex": 134.67,
-        "pivotalIndex": 135.95
-      },
-      {
-        "period": "2026-08",
-        "sortValue": 202608,
-        "cpiIndex": 137.28,
-        "cpiGrowthRate": 1.43,
-        "healthIndex": 137.77,
-        "healthGrowthRate": 1.57,
-        "smoothedHealthIndex": 134.8,
-        "pivotalIndex": 135.95
-      },
-      {
-        "period": "2026-09",
-        "sortValue": 202609,
-        "cpiIndex": 137.07,
-        "cpiGrowthRate": 1.57,
-        "healthIndex": 137.53,
-        "healthGrowthRate": 1.68,
-        "smoothedHealthIndex": 134.86,
-        "pivotalIndex": 135.95
-      },
-      {
-        "period": "2026-10",
-        "sortValue": 202610,
-        "cpiIndex": 137.62,
-        "cpiGrowthRate": 1.49,
-        "healthIndex": 138.11,
-        "healthGrowthRate": 1.59,
-        "smoothedHealthIndex": 135.03,
-        "pivotalIndex": 135.95
-      },
-      {
-        "period": "2026-11",
-        "sortValue": 202611,
-        "cpiIndex": 137.69,
-        "cpiGrowthRate": 1.47,
-        "healthIndex": 138.22,
-        "healthGrowthRate": 1.57,
-        "smoothedHealthIndex": 135.15,
-        "pivotalIndex": 135.95
-      },
-      {
-        "period": "2026-12",
-        "sortValue": 202612,
-        "cpiIndex": 137.89,
-        "cpiGrowthRate": 1.48,
-        "healthIndex": 138.42,
-        "healthGrowthRate": 1.57,
-        "smoothedHealthIndex": 135.31,
-        "pivotalIndex": 135.95
-      }
-    ],
-    "annualPoints": [
-      {
-        "year": 2025,
-        "cpiIndex": 135.235,
-        "cpiGrowthRate": 2.4197212965768156,
-        "healthIndex": 135.53166666666667,
-        "healthGrowthRate": 2.59907392220442
-      },
-      {
-        "year": 2026,
-        "cpiIndex": 137.21166666666667,
-        "cpiGrowthRate": 1.4616531716394876,
-        "healthIndex": 137.68333333333334,
-        "healthGrowthRate": 1.5875748595039374
-      }
-    ]
-  },
-  {
     "sheetName": "Nov 25",
     "forecastMonth": "2025-11",
     "forecastSortValue": 202511,
@@ -3236,6 +2966,276 @@
         "cpiGrowthRate": 3.7193303919441423,
         "healthIndex": 107.24416666666666,
         "healthGrowthRate": 3.809792691780256
+      }
+    ]
+  },
+  {
+    "sheetName": "Nov 26",
+    "forecastMonth": "2026-11",
+    "forecastSortValue": 202611,
+    "forecastYear": 2026,
+    "forecastMonthNumber": 11,
+    "forecastLabel": "november 2026",
+    "sourcePublicationDate": "2026-11-03",
+    "title": "Consumer Price Index - Inflation forecasts - [03/11/2026]",
+    "cpiIndexLabel": "Index (2025=100)",
+    "healthIndexLabel": "Index (2025=100)",
+    "monthlyPoints": [
+      {
+        "period": "2026-01",
+        "sortValue": 202601,
+        "cpiIndex": 101.17,
+        "cpiGrowthRate": 1.1,
+        "healthIndex": 101.33,
+        "healthGrowthRate": 1.37,
+        "smoothedHealthIndex": 98.73,
+        "pivotalIndex": 100.28
+      },
+      {
+        "period": "2026-02",
+        "sortValue": 202602,
+        "cpiIndex": 101.72,
+        "cpiGrowthRate": 1.45,
+        "healthIndex": 101.84,
+        "healthGrowthRate": 1.68,
+        "smoothedHealthIndex": 99.14,
+        "pivotalIndex": 100.28
+      },
+      {
+        "period": "2026-03",
+        "sortValue": 202603,
+        "cpiIndex": 101.84,
+        "cpiGrowthRate": 1.65,
+        "healthIndex": 101.63,
+        "healthGrowthRate": 1.38,
+        "smoothedHealthIndex": 99.38,
+        "pivotalIndex": 100.28
+      },
+      {
+        "period": "2026-04",
+        "sortValue": 202604,
+        "cpiIndex": 103.34,
+        "cpiGrowthRate": 4.01,
+        "healthIndex": 102.77,
+        "healthGrowthRate": 3.38,
+        "smoothedHealthIndex": 99.85,
+        "pivotalIndex": 100.28
+      },
+      {
+        "period": "2026-05",
+        "sortValue": 202605,
+        "cpiIndex": 103.26,
+        "cpiGrowthRate": 4.08,
+        "healthIndex": 102.69,
+        "healthGrowthRate": 3.48,
+        "smoothedHealthIndex": 100.19,
+        "pivotalIndex": 100.28
+      },
+      {
+        "period": "2026-06",
+        "sortValue": 202606,
+        "cpiIndex": 102.95,
+        "cpiGrowthRate": 3.4,
+        "healthIndex": 102.59,
+        "healthGrowthRate": 2.99,
+        "smoothedHealthIndex": 100.37,
+        "pivotalIndex": 100.28
+      },
+      {
+        "period": "2026-07",
+        "sortValue": 202607,
+        "cpiIndex": 103.6,
+        "cpiGrowthRate": 3.56,
+        "healthIndex": 103.24,
+        "healthGrowthRate": 3.22,
+        "smoothedHealthIndex": 100.77,
+        "pivotalIndex": 102.29
+      },
+      {
+        "period": "2026-08",
+        "sortValue": 202608,
+        "cpiIndex": 104.01,
+        "cpiGrowthRate": 3.97,
+        "healthIndex": 103.49,
+        "healthGrowthRate": 3.44,
+        "smoothedHealthIndex": 100.94,
+        "pivotalIndex": 102.29
+      },
+      {
+        "period": "2026-09",
+        "sortValue": 202609,
+        "cpiIndex": 104.42,
+        "cpiGrowthRate": 4.69,
+        "healthIndex": 103.76,
+        "healthGrowthRate": 4.0,
+        "smoothedHealthIndex": 101.2,
+        "pivotalIndex": 102.29
+      },
+      {
+        "period": "2026-10",
+        "sortValue": 202610,
+        "cpiIndex": 105.37,
+        "cpiGrowthRate": 5.26,
+        "healthIndex": 104.68,
+        "healthGrowthRate": 4.53,
+        "smoothedHealthIndex": 101.72,
+        "pivotalIndex": 102.29
+      },
+      {
+        "period": "2026-11",
+        "sortValue": 202611,
+        "cpiIndex": 106.28,
+        "cpiGrowthRate": 5.57,
+        "healthIndex": 105.69,
+        "healthGrowthRate": 4.98,
+        "smoothedHealthIndex": 102.32,
+        "pivotalIndex": 102.29
+      },
+      {
+        "period": "2026-12",
+        "sortValue": 202612,
+        "cpiIndex": 106.76,
+        "cpiGrowthRate": 5.99,
+        "healthIndex": 106.26,
+        "healthGrowthRate": 5.4,
+        "smoothedHealthIndex": 103.0,
+        "pivotalIndex": 104.34
+      },
+      {
+        "period": "2027-01",
+        "sortValue": 202701,
+        "cpiIndex": 107.43,
+        "cpiGrowthRate": 6.19,
+        "healthIndex": 106.95,
+        "healthGrowthRate": 5.55,
+        "smoothedHealthIndex": 103.78,
+        "pivotalIndex": 104.34
+      },
+      {
+        "period": "2027-02",
+        "sortValue": 202702,
+        "cpiIndex": 107.71,
+        "cpiGrowthRate": 5.89,
+        "healthIndex": 107.27,
+        "healthGrowthRate": 5.33,
+        "smoothedHealthIndex": 104.41,
+        "pivotalIndex": 104.34
+      },
+      {
+        "period": "2027-03",
+        "sortValue": 202703,
+        "cpiIndex": 107.64,
+        "cpiGrowthRate": 5.7,
+        "healthIndex": 107.31,
+        "healthGrowthRate": 5.59,
+        "smoothedHealthIndex": 104.81,
+        "pivotalIndex": 106.43
+      },
+      {
+        "period": "2027-04",
+        "sortValue": 202704,
+        "cpiIndex": 107.88,
+        "cpiGrowthRate": 4.39,
+        "healthIndex": 107.55,
+        "healthGrowthRate": 4.65,
+        "smoothedHealthIndex": 105.12,
+        "pivotalIndex": 106.43
+      },
+      {
+        "period": "2027-05",
+        "sortValue": 202705,
+        "cpiIndex": 108.08,
+        "cpiGrowthRate": 4.67,
+        "healthIndex": 107.78,
+        "healthGrowthRate": 4.96,
+        "smoothedHealthIndex": 105.33,
+        "pivotalIndex": 106.43
+      },
+      {
+        "period": "2027-06",
+        "sortValue": 202706,
+        "cpiIndex": 108.05,
+        "cpiGrowthRate": 4.95,
+        "healthIndex": 107.76,
+        "healthGrowthRate": 5.04,
+        "smoothedHealthIndex": 105.45,
+        "pivotalIndex": 106.43
+      },
+      {
+        "period": "2027-07",
+        "sortValue": 202707,
+        "cpiIndex": 108.48,
+        "cpiGrowthRate": 4.71,
+        "healthIndex": 108.25,
+        "healthGrowthRate": 4.85,
+        "smoothedHealthIndex": 105.68,
+        "pivotalIndex": 106.43
+      },
+      {
+        "period": "2027-08",
+        "sortValue": 202708,
+        "cpiIndex": 108.46,
+        "cpiGrowthRate": 4.28,
+        "healthIndex": 108.22,
+        "healthGrowthRate": 4.57,
+        "smoothedHealthIndex": 105.84,
+        "pivotalIndex": 106.43
+      },
+      {
+        "period": "2027-09",
+        "sortValue": 202709,
+        "cpiIndex": 108.34,
+        "cpiGrowthRate": 3.75,
+        "healthIndex": 108.19,
+        "healthGrowthRate": 4.27,
+        "smoothedHealthIndex": 105.94,
+        "pivotalIndex": 106.43
+      },
+      {
+        "period": "2027-10",
+        "sortValue": 202710,
+        "cpiIndex": 108.65,
+        "cpiGrowthRate": 3.11,
+        "healthIndex": 108.45,
+        "healthGrowthRate": 3.6,
+        "smoothedHealthIndex": 106.11,
+        "pivotalIndex": 106.43
+      },
+      {
+        "period": "2027-11",
+        "sortValue": 202711,
+        "cpiIndex": 109.1,
+        "cpiGrowthRate": 2.65,
+        "healthIndex": 108.93,
+        "healthGrowthRate": 3.07,
+        "smoothedHealthIndex": 106.28,
+        "pivotalIndex": 106.43
+      },
+      {
+        "period": "2027-12",
+        "sortValue": 202712,
+        "cpiIndex": 109.22,
+        "cpiGrowthRate": 2.3,
+        "healthIndex": 109.09,
+        "healthGrowthRate": 2.66,
+        "smoothedHealthIndex": 106.49,
+        "pivotalIndex": 106.43
+      }
+    ],
+    "annualPoints": [
+      {
+        "year": 2026,
+        "cpiIndex": 103.72666666666669,
+        "cpiGrowthRate": 3.728395473257917,
+        "healthIndex": 103.33083333333333,
+        "healthGrowthRate": 3.321362208464218
+      },
+      {
+        "year": 2027,
+        "cpiIndex": 108.25333333333334,
+        "cpiGrowthRate": 4.364033678256951,
+        "healthIndex": 107.97916666666667,
+        "healthGrowthRate": 4.498495931353186
       }
     ]
   }
