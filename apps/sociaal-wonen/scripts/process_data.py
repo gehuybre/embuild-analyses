@@ -72,7 +72,7 @@ CATEGORIES = {
     "nieuwbouw": "Nieuwbouw",
     "vervangingsbouw": "Vervangingsbouw",
     "renovatie": "Renovatie",
-    "ssi": "SSI (Subsidie Sloop en Infrastructuur)",
+    "ssi": "Sloop en Infrastructuur",
 }
 COUNT_BANDS = [
     (0, "Geen huurwoningen"),
@@ -293,7 +293,7 @@ def read_ssi(hz: str, aliases: dict, fixes: list[dict], idx: dict) -> list[dict]
         description = (r[6] or "").strip()
         municipality = r[5].strip() if isinstance(r[5], str) else None
         wm, nis, status, prov = resolve_location(
-            initiators, r[4], municipality, description, fixes, aliases, idx, where, fallback_wm="SSI"
+            initiators, r[4], municipality, description, fixes, aliases, idx, where
         )
         records.append({
             "horizon": hz, "groep": "ssi", "wm": wm, "nis": nis, "status": status,
@@ -431,7 +431,7 @@ PROV_LABEL = {"ANTWERPEN": "Antwerpen", "LIMBURG": "Limburg", "OOST-VLAANDEREN":
               "VLAAMS-BRABANT": "Vlaams-Brabant", "WEST-VLAANDEREN": "West-Vlaanderen"}
 DOWNLOAD_COLUMNS = [
     "Planning", "Woonmaatschappij", "Provincie", "Gemeente", "Soort werken", "Plaatsingsprocedure",
-    "Huurwoningen (categorie)", "Kostprijs (categorie)",
+    "Huurwoningen (categorie)", "Kostprijs (categorie)", "Website woonmaatschappij",
 ]
 
 
@@ -442,6 +442,7 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
     from openpyxl.worksheet.table import Table, TableStyleInfo
 
     wm_name = {w["id"]: w["naam"] for w in wms}
+    wm_url = {w["id"]: w.get("url") or "" for w in wms}
     gem_name = {g["nis"]: g["naam"] for g in gemeenten}
     rows = []
     for hz, recs in all_records.items():
@@ -456,6 +457,7 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
                 r["plaatsing"],
                 count_band(r["huur"]),
                 cost_band(r["kostprijs"]),
+                wm_url.get(r["wm"], ""),
             ])
 
     rows.sort(key=lambda x: (str(x[3]).casefold(), x[0], x[1], x[4], x[5]))  # per gemeente
@@ -465,8 +467,13 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
     ws = wb.active
     ws.title = "Gegevens"
     ws.append(DOWNLOAD_COLUMNS)
+    link_col = len(DOWNLOAD_COLUMNS)
     for r in rows:
         ws.append(r)
+        cell = ws.cell(row=ws.max_row, column=link_col)
+        if cell.value:
+            cell.hyperlink = cell.value
+            cell.font = Font(color="0563C1", underline="single")
     last = len(rows) + 1
     for c in ws[1]:
         c.font = Font(bold=True, color="FFFFFF")
@@ -485,7 +492,7 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
     t = wb.create_sheet("Toelichting")
     lines = [
         ("Sociale woonprogrammatie: categorieën per verrichting", "titel"),
-        (f"Bron: VMSW, KTP, MJP en SSI, peildatum {date.fromisoformat(peildatum()).strftime('%d.%m.%Y')}.", None),
+        (f"Bron: VMSW, KTP en MJP, peildatum {date.fromisoformat(peildatum()).strftime('%d.%m.%Y')}.", None),
         ("", None),
         ("Hoe verloopt de programmatie?", "kop"),
         ("De initiatiefnemer bereidt een project voor. Na de vereiste beleidstoetsen komt het op de projectenlijst; daarin worden de afzonderlijke verrichtingen beoordeeld.", None),
@@ -493,16 +500,17 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
         ("Een aanbestedingsklaar dossier en omgevingsvergunning zijn voorwaarden voor opname op de korte termijnplanning (KTP), waar de start binnen acht maanden wordt verwacht.", None),
         ("Na de aanbesteding dient de woonmaatschappij een gunningsdossier in. Wonen in Vlaanderen kent vervolgens middelen uit het jaarbudget toe; de werken starten pas na die toewijzing.", None),
         ("De beoordelingscommissie adviseert en beslist onder meer over schrappingen en opnames in de korte termijnplanning. Opnames op MJP en KTP gebeuren ook doorlopend door Wonen in Vlaanderen.", None),
-        ("SSI betekent Subsidie Sloop en Infrastructuur. De aparte SSI-tabbladen in de bron worden als eigen categorie verwerkt; als kostprijs geldt de kolom SSI uit het bronblad (voor de meerjarenplanning de enige bedragkolom, Bedrag UP).", None),
+        ("Sloop en Infrastructuur is een eigen soort werken naast nieuwbouw, vervangingsbouw en renovatie. De initiatiefnemer is steeds de woonmaatschappij uit de bron; als kostprijs geldt het bedrag uit de bron.", None),
         ("KTP en MJP zijn verschillende fasen van de programmatie en worden niet bij elkaar opgeteld.", None),
         ("", None),
         ("Over deze gegevens", "kop"),
         ("Elke rij staat voor een afzonderlijke verrichting. Projectomschrijvingen, exacte aantallen en exacte bedragen worden niet opgenomen.", None),
-        ("Soort werken: nieuwbouw, vervangingsbouw, renovatie (overige renovatie samengevoegd) of SSI. Aankoop goede woning en raamcontracten zijn niet opgenomen. CBO, D&B en RC-renovatie (enkel op de KTP) zijn wel opgenomen.", None),
+        ("Soort werken: nieuwbouw, vervangingsbouw, renovatie (overige renovatie samengevoegd) of sloop en infrastructuur. Aankoop goede woning en raamcontracten zijn niet opgenomen. CBO, D&B en RC-renovatie (enkel op de KTP) zijn wel opgenomen.", None),
         ("Plaatsingsprocedure: reguliere procedure, CBO of D&B. CBO en D&B worden volledig gescheiden gehouden; varianten per jaar (bv. CBO 2024-1) zijn samengenomen.", None),
         ("De rijen staan gesorteerd per gemeente, zodat alle verrichtingen van een gemeente bij elkaar staan.", None),
         ("Huurwoningen (categorie): 1–10, 11–25, 26–50 of meer dan 50 woningen.", None),
         ("Kostprijs (categorie): minder dan €1 mln, €1–5 mln, €5–10 mln of meer dan €10 mln. Andere kosten- en subsidiebedragen zijn niet opgenomen.", None),
+        ("Website woonmaatschappij: link naar de website van de woonmaatschappij op die rij.", None),
         ("Provincie en gemeente zijn afgeleid uit de bronlocatie. Rijen zonder eenduidige gemeente krijgen een algemene locatielabel.", None),
     ]
     t.column_dimensions["A"].width = 120
@@ -640,7 +648,7 @@ def main():
     write_json("meta.json", {
         "peildatum": peildatum(),
         "lastUpdated": date.today().isoformat(),
-        "bron": f"VMSW, KTP, MJP en SSI sociale woonprogrammatie, {date.fromisoformat(peildatum()).strftime('%d.%m.%Y')}",
+        "bron": f"VMSW, KTP en MJP sociale woonprogrammatie, {date.fromisoformat(peildatum()).strftime('%d.%m.%Y')}",
         "werkingsgebieden": "Woonmaatschappijen in kaart, januari 2025 (kleurafleiding uit PDF, zie reference/)",
         "horizons": {k: {"label": v["label"], "omschrijving": v["omschrijving"], "peildatum": v["peildatum"]} for k, v in HORIZONS.items()},
         "categories": CATEGORIES,

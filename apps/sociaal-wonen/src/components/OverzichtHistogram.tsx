@@ -12,7 +12,7 @@ const COLORS: Record<Categorie, string> = {
   ssi: "#94a3b8",
 }
 const ORDER: Categorie[] = ["nieuwbouw", "vervangingsbouw", "renovatie", "ssi"]
-const SHORT: Record<Categorie, string> = { nieuwbouw: "Nieuwbouw", vervangingsbouw: "Vervangingsbouw", renovatie: "Renovatie", ssi: "SSI" }
+const SHORT: Record<Categorie, string> = { nieuwbouw: "Nieuwbouw", vervangingsbouw: "Vervangingsbouw", renovatie: "Renovatie", ssi: "Sloop en Infrastructuur" }
 
 type Point = { klasse: string } & Partial<Record<Categorie, number>>
 
@@ -25,7 +25,7 @@ function histogram(rows: AggRow[], labels: string[], pick: (r: AggRow) => string
   return points.filter((p, i) => ORDER.some((c) => (p[c] ?? 0) > 0) || (i > 0 && i < labels.length - 1))
 }
 
-function Chart({ title, note, data }: { title: string; note: string; data: Point[] }) {
+function Chart({ title, data }: { title: string; data: Point[] }) {
   const used = ORDER.filter((c) => data.some((p) => (p[c] ?? 0) > 0))
   return (
     <figure className="min-w-0 space-y-1" aria-label={title}>
@@ -44,7 +44,6 @@ function Chart({ title, note, data }: { title: string; note: string; data: Point
           </BarChart>
         </ResponsiveContainer>
       </div>
-      <p className="text-xs text-muted-foreground">{note}</p>
     </figure>
   )
 }
@@ -58,13 +57,10 @@ export function OverzichtHistogram({ rows, meta, horizonLabel }: { rows: AggRow[
     <section className="space-y-3 rounded-lg border bg-card p-4" aria-label="Overzicht per grootteklasse">
       <div>
         <h2 className="text-lg font-semibold tracking-tight">Overzicht per grootteklasse ({horizonLabel === "Korte termijn" ? "korte termijn" : "meerjarenplanning"})</h2>
-        <p className="text-xs text-muted-foreground">
-          Elke verrichting valt in één klasse voor het aantal huurwoningen en in één klasse voor de kostprijs. De grafieken tonen hoeveel verrichtingen in elke klasse vallen, per soort werken.
-        </p>
       </div>
       <div className="grid gap-6 md:grid-cols-2">
-        <Chart title="Verrichtingen per aantal huurwoningen" note="Klassen volgens het aantal huurwoningen per verrichting." data={counts} />
-        <Chart title="Verrichtingen per kostprijs" note="Kostprijs is de enige kostenmaatstaf. Voor SSI is dat het bedrag uit de kolom SSI van de bron." data={costs} />
+        <Chart title="Verrichtingen per aantal huurwoningen" data={counts} />
+        <Chart title="Verrichtingen per kostprijs" data={costs} />
       </div>
     </section>
   )

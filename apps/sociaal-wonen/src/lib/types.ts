@@ -6,7 +6,7 @@ export const CATEGORIE_LABELS: Record<Categorie, string> = {
   nieuwbouw: "Nieuwbouw",
   vervangingsbouw: "Vervangingsbouw",
   renovatie: "Renovatie",
-  ssi: "SSI (Subsidie Sloop en Infrastructuur)",
+  ssi: "Sloop en Infrastructuur",
 }
 
 export interface Woonmaatschappij {

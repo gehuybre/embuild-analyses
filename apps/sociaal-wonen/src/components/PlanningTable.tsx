@@ -75,9 +75,7 @@ export function PlanningTable({ rows, wms, gemeenten, horizon, meta, pageSize = 
   return (
     <div className="space-y-2">
       <div className="flex flex-wrap items-center justify-between gap-2">
-        <p className="text-xs text-muted-foreground">
-          Deze tabel bundelt gegevens per woonmaatschappij, gemeente en werksoort. Algemene totalen en exacte aantallen en bedragen zijn weggelaten.
-        </p>
+        <span />
         <Button type="button" variant="outline" size="sm" onClick={exportCsv}>
           <Download className="mr-1.5 h-4 w-4" /> CSV
         </Button>

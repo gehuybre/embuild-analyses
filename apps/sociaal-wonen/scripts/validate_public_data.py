@@ -26,7 +26,7 @@ CATEGORIES = {
     "nieuwbouw": "Nieuwbouw",
     "vervangingsbouw": "Vervangingsbouw",
     "renovatie": "Renovatie",
-    "ssi": "SSI (Subsidie Sloop en Infrastructuur)",
+    "ssi": "Sloop en Infrastructuur",
 }
 PLAATSINGEN = ["Reguliere procedure", "CBO", "D&B"]
 FORBIDDEN_KEYS = {
@@ -36,7 +36,7 @@ FORBIDDEN_KEYS = {
 }
 XLSX_HEADERS = [
     "Planning", "Woonmaatschappij", "Provincie", "Gemeente", "Soort werken", "Plaatsingsprocedure",
-    "Huurwoningen (categorie)", "Kostprijs (categorie)",
+    "Huurwoningen (categorie)", "Kostprijs (categorie)", "Website woonmaatschappij",
 ]
 RECORD_KEYS = {
     "wm", "nis", "gemeente_label", "provincie", "categorie", "plaatsing",
