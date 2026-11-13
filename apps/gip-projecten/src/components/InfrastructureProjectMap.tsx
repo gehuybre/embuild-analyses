@@ -72,9 +72,9 @@ const MIN_ZOOM = 1
 const MAX_ZOOM = 8
 const MIN_PROVINCE_RING_LENGTH = 0.2
 const START_YEAR_COLORS: Record<InvestmentYear, string> = {
-  2025: "#7c3aed",
-  2026: "#16a34a",
-  2027: "#d97706",
+  2025: "#2F4F55",
+  2026: "#4F868F",
+  2027: "#9AA7AA",
 }
 
 function flattenCoordinatePairs(value: unknown): Array<[number, number]> {
