@@ -11,6 +11,7 @@ const TITLES: Record<Tab, string> = {
   kaart: "Sociale woonprogrammatie: categorieën per gemeente",
   tabel: "Sociale woonprogrammatie: verrichtingen per gemeente",
   projecten: "Sociale woonprogrammatie: afzonderlijke verrichtingen",
+  overzicht: "Sociale woonprogrammatie: overzicht per grootteklasse",
 }
 
 export function EmbedShare({ state, section }: { state: State; section: Tab }) {

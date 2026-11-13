@@ -856,21 +856,27 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
     sections: {
       kaart: {
         type: "custom",
-        title: "Sociale huurplanning: kaart per woonmaatschappij",
+        title: "Sociale woonprogrammatie: kaart per woonmaatschappij",
         component: "SociaalWonenEmbed",
         height: 700,
       },
       tabel: {
         type: "custom",
-        title: "Sociale huurplanning: tabel per woonmaatschappij en gemeente",
+        title: "Sociale woonprogrammatie: tabel per woonmaatschappij en gemeente",
         component: "SociaalWonenEmbed",
         height: 650,
       },
       projecten: {
         type: "custom",
-        title: "Sociale huurplanning: projecten korte termijn",
+        title: "Sociale woonprogrammatie: afzonderlijke verrichtingen",
         component: "SociaalWonenEmbed",
         height: 650,
+      },
+      overzicht: {
+        type: "custom",
+        title: "Sociale woonprogrammatie: overzicht per grootteklasse",
+        component: "SociaalWonenEmbed",
+        height: 560,
       },
     },
   },

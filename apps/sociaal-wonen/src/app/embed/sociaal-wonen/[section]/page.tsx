@@ -3,7 +3,7 @@ import { getValidSections } from "@embuild/shared/lib/embed-config"
 import { SociaalWonenEmbedRouteClient } from "@/components/SociaalWonenEmbedRouteClient"
 import type { Tab } from "@/lib/types"
 
-const SECTIONS: Tab[] = ["kaart", "tabel", "projecten"]
+const SECTIONS: Tab[] = ["kaart", "tabel", "projecten", "overzicht"]
 
 export function generateStaticParams() {
   // enkel secties die ook in EMBED_CONFIGS staan, zodat de validator en de routes gelijk blijven

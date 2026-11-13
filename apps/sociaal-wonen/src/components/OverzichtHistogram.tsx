@@ -1,6 +1,6 @@
 "use client"
 
-import { useMemo } from "react"
+import { useMemo, type ReactNode } from "react"
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts"
 import { CATEGORIE_LABELS } from "@/lib/types"
 import type { AggRow, Categorie, Meta } from "@/lib/types"
@@ -49,14 +49,15 @@ function Chart({ title, data }: { title: string; data: Point[] }) {
 }
 
 /** Histogram van het aantal verrichtingen per grootteklasse; toont enkel klassen, nooit exacte waarden. */
-export function OverzichtHistogram({ rows, meta, horizonLabel }: { rows: AggRow[]; meta: Meta; horizonLabel: string }) {
+export function OverzichtHistogram({ rows, meta, horizonLabel, action }: { rows: AggRow[]; meta: Meta; horizonLabel: string; action?: ReactNode }) {
   const counts = useMemo(() => histogram(rows, meta.count_bands.filter((l) => l !== "Geen huurwoningen"), (r) => r.huur_categorie), [rows, meta])
   const costs = useMemo(() => histogram(rows, meta.cost_bands, (r) => r.kostprijs_categorie), [rows, meta])
   if (rows.length === 0) return null
   return (
     <section className="space-y-3 rounded-lg border bg-card p-4" aria-label="Overzicht per grootteklasse">
-      <div>
+      <div className="flex flex-wrap items-center justify-between gap-2">
         <h2 className="text-lg font-semibold tracking-tight">Overzicht per grootteklasse ({horizonLabel === "Korte termijn" ? "korte termijn" : "meerjarenplanning"})</h2>
+        {action}
       </div>
       <div className="grid gap-6 md:grid-cols-2">
         <Chart title="Verrichtingen per aantal huurwoningen" data={counts} />

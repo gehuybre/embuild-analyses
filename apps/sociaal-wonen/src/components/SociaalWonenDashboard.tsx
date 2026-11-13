@@ -163,9 +163,16 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
   const horizonBlock = (
     <div className="space-y-4">
       {showFilters && <FilterBar state={state} set={set} wms={wms} gemeenten={gemeenten} />}
-      {!embed && <OverzichtHistogram rows={filterRows(records[horizon].rijen, state)} meta={m} horizonLabel={m.horizons[horizon].label} />}
+      {(!embed || tab === "overzicht") && (
+        <OverzichtHistogram
+          rows={filterRows(records[horizon].rijen, state)}
+          meta={m}
+          horizonLabel={m.horizons[horizon].label}
+          action={embed ? undefined : <EmbedShare state={state} section="overzicht" />}
+        />
+      )}
       {embed ? (
-        <div className="space-y-3">{tab === "kaart" ? kaart : tab === "projecten" ? projects : tabel}</div>
+        tab === "overzicht" ? null : <div className="space-y-3">{tab === "kaart" ? kaart : tab === "projecten" ? projects : tabel}</div>
       ) : (
         <Tabs value={tab} onValueChange={(v) => set({ tab: v as Tab })}>
           <div className="flex flex-wrap items-center justify-between gap-2">

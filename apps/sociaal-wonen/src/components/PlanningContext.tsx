@@ -43,8 +43,8 @@ export function PlanningContext() {
           <li key={s.nr} className="space-y-1 rounded-md border p-3">
             <p className="font-semibold">{s.nr}. {s.title}</p>
             <p className="text-xs text-muted-foreground">{s.who}</p>
-            <p><span className="font-medium">Voorwaarde:</span> {s.condition}</p>
-            <p><span className="font-medium">Resultaat:</span> {s.outcome}</p>
+            <p>{s.condition}</p>
+            <p>{s.outcome}</p>
           </li>
         ))}
       </ol>

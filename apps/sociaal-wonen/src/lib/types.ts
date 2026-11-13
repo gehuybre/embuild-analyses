@@ -83,7 +83,7 @@ export interface Meta {
   horizons: Record<Horizon, { label: string; omschrijving: string }>
 }
 
-export type Tab = "kaart" | "tabel" | "projecten"
+export type Tab = "kaart" | "tabel" | "projecten" | "overzicht"
 export type Metric = "huur" | "kostprijs"
 
 export interface State {
