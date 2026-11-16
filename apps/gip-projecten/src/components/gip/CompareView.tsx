@@ -61,11 +61,6 @@ function DifferenceBars({
           >
             <span className="min-w-0 text-sm font-medium leading-snug">
               {row.name}
-              {row.scopeChange && (
-                <span className="block text-xs font-normal text-muted-foreground">
-                  Uit de tabel gehaald (afbakening)
-                </span>
-              )}
             </span>
             <span className="relative order-last col-span-2 h-4 sm:order-none sm:col-span-1" aria-hidden>
               <span className="absolute inset-y-0 left-1/2 w-px bg-border" />
@@ -166,7 +161,7 @@ export function CompareView({
     <div className="space-y-8">
       <section className="space-y-4">
         <SectionHeading
-          title="Waar zit het verschil?"
+          title="Verschil versie 2026 en versie 2025"
           description="Budget 2026 per programma: nieuwe versie min de planning van juli 2025. Kies een programma om de projecten erachter te zien."
         />
         <Panel>
