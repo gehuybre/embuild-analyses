@@ -5,7 +5,7 @@ import { useSearchParams } from "next/navigation"
 import { NbbRenteEmbed } from "@/components/NbbRenteEmbed"
 
 const SLUG = "nbb-rente"
-const SECTIONS = ["hypothecaire-rente", "inflatieprognoses"] as const
+const SECTIONS = ["hypothecaire-rente", "inflatieprognoses", "reele-waarde"] as const
 
 type Section = (typeof SECTIONS)[number]
 
@@ -27,8 +27,14 @@ export function NbbRenteEmbedRouteClient({ section }: { section: string }) {
     return view === "table" ? "table" : "chart"
   }, [searchParams])
 
+  const startYear = useMemo(() => {
+    const value = Number(prefixedParam(searchParams, "startjaar"))
+    return Number.isInteger(value) && value > 0 ? value : null
+  }, [searchParams])
+
   return (
     <NbbRenteEmbed
+      startYear={startYear}
       section={parseSection(section)}
       viewType={viewType as "chart" | "table"}
     />

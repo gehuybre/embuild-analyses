@@ -2,8 +2,10 @@
 
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
 import { NbbInflatieSection } from "./NbbInflatieSection"
+import { NbbReeleWaardeSection } from "./NbbReeleWaardeSection"
 import { NbbRenteSection } from "./NbbRenteSection"
 import type {
+  CpiAnnual,
   InflationForecast,
   InflationForecastMetadata,
   NbbRenteMetadata,
@@ -11,8 +13,9 @@ import type {
 } from "./types"
 
 interface NbbRenteEmbedProps {
-  section: "hypothecaire-rente" | "inflatieprognoses"
+  section: "hypothecaire-rente" | "inflatieprognoses" | "reele-waarde"
   viewType?: "chart" | "table"
+  startYear?: number | null
 }
 
 const DATA_PATHS = {
@@ -20,17 +23,20 @@ const DATA_PATHS = {
   interestMetadata: "/data/metadata.json",
   inflationForecasts: "/data/inflation_forecasts.json",
   inflationMetadata: "/data/inflation_forecasts_metadata.json",
+  cpiAnnual: "/data/cpi_annual.json",
 } as const
 
 export function NbbRenteEmbed({
   section,
   viewType = "chart",
+  startYear = null,
 }: NbbRenteEmbedProps) {
   const { data: bundle, loading, error } = useJsonBundle<{
     interestSeries: NbbRentePoint[]
     interestMetadata: NbbRenteMetadata
     inflationForecasts: InflationForecast[]
     inflationMetadata: InflationForecastMetadata
+    cpiAnnual: CpiAnnual
   }>(DATA_PATHS)
 
   if (loading) {
@@ -47,7 +53,16 @@ export function NbbRenteEmbed({
 
   return (
     <div className="p-4">
-      {section === "inflatieprognoses" ? (
+      {section === "reele-waarde" ? (
+        <NbbReeleWaardeSection
+          cpi={bundle.cpiAnnual}
+          slug="nbb-rente"
+          sectionId={section}
+          title="Reële waarde van 1 miljoen euro sinds een gekozen startjaar"
+          initialStartYear={startYear}
+          defaultView={viewType}
+        />
+      ) : section === "inflatieprognoses" ? (
         <NbbInflatieSection
           forecasts={bundle.inflationForecasts}
           metadata={bundle.inflationMetadata}

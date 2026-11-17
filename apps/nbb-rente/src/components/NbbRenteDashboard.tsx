@@ -2,8 +2,10 @@
 
 import { useJsonBundle } from "@embuild/shared/lib/use-json-bundle"
 import { NbbInflatieSection } from "./NbbInflatieSection"
+import { NbbReeleWaardeSection } from "./NbbReeleWaardeSection"
 import { NbbRenteSection } from "./NbbRenteSection"
 import type {
+  CpiAnnual,
   InflationForecast,
   InflationForecastMetadata,
   NbbRenteMetadata,
@@ -15,6 +17,7 @@ const DATA_PATHS = {
   interestMetadata: "/data/metadata.json",
   inflationForecasts: "/data/inflation_forecasts.json",
   inflationMetadata: "/data/inflation_forecasts_metadata.json",
+  cpiAnnual: "/data/cpi_annual.json",
 } as const
 
 export function NbbRenteDashboard() {
@@ -23,6 +26,7 @@ export function NbbRenteDashboard() {
     interestMetadata: NbbRenteMetadata
     inflationForecasts: InflationForecast[]
     inflationMetadata: InflationForecastMetadata
+    cpiAnnual: CpiAnnual
   }>(DATA_PATHS)
 
   if (loading) {
@@ -53,6 +57,13 @@ export function NbbRenteDashboard() {
         slug="nbb-rente"
         sectionId="inflatieprognoses"
         title="Inflatieprognoses van het Federaal Planbureau"
+      />
+
+      <NbbReeleWaardeSection
+        cpi={bundle.cpiAnnual}
+        slug="nbb-rente"
+        sectionId="reele-waarde"
+        title="Reële waarde van 1 miljoen euro sinds een gekozen startjaar"
       />
     </div>
   )

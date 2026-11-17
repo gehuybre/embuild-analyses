@@ -97,3 +97,11 @@ export interface InflationForecastMetadata {
   description?: string
   sourcePage?: InflationSourcePage
 }
+
+export interface CpiAnnual {
+  source: string
+  sourceUrl: string
+  baseYear: number
+  lastMonth: string
+  years: Array<{ year: number; averageCpi: number; months: number }>
+}

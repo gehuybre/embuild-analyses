@@ -393,6 +393,12 @@ export const EMBED_CONFIGS: AnalysisEmbedConfig[] = [
         component: "NbbRenteEmbed",
         height: 760,
       },
+      "reele-waarde": {
+        type: "custom",
+        title: "Reële waarde van 1 miljoen euro sinds een gekozen startjaar",
+        component: "NbbRenteEmbed",
+        height: 760,
+      },
     },
   },
   {
