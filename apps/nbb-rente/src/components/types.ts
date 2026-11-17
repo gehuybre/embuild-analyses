@@ -103,5 +103,9 @@ export interface CpiAnnual {
   sourceUrl: string
   baseYear: number
   lastMonth: string
-  years: Array<{ year: number; averageCpi: number; months: number }>
+  forecastVintage: string
+  forecastLabel: string
+  forecastSourceUrl: string
+  forecastHorizon: string
+  years: Array<{ year: number; averageCpi: number; forecastMonths: number }>
 }

@@ -3,141 +3,150 @@
   "sourceUrl": "https://statbel.fgov.be/nl/themas/consumptieprijzen/consumptieprijsindex",
   "baseYear": 2025,
   "lastMonth": "2026-09",
+  "forecastVintage": "2026-11",
+  "forecastLabel": "november 2026",
+  "forecastSourceUrl": "https://www.plan.be/nl/data/indexcijfer-der-consumptieprijzen",
+  "forecastHorizon": "2027-12",
   "years": [
     {
       "year": 2000,
       "averageCpi": 55.8967,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2001,
       "averageCpi": 57.2775,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2002,
       "averageCpi": 58.2192,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2003,
       "averageCpi": 59.145,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2004,
       "averageCpi": 60.3858,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2005,
       "averageCpi": 62.0667,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2006,
       "averageCpi": 63.1742,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2007,
       "averageCpi": 64.3258,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2008,
       "averageCpi": 67.2117,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2009,
       "averageCpi": 67.1767,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2010,
       "averageCpi": 68.6475,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2011,
       "averageCpi": 71.0725,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2012,
       "averageCpi": 73.09,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2013,
       "averageCpi": 73.9033,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2014,
       "averageCpi": 74.1617,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2015,
       "averageCpi": 74.5783,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2016,
       "averageCpi": 76.0508,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2017,
       "averageCpi": 77.6667,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2018,
       "averageCpi": 79.2608,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2019,
       "averageCpi": 80.4008,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2020,
       "averageCpi": 80.9933,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2021,
       "averageCpi": 82.9717,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2022,
       "averageCpi": 90.935,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2023,
       "averageCpi": 94.6167,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2024,
       "averageCpi": 97.5917,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2025,
       "averageCpi": 99.9983,
-      "months": 12
+      "forecastMonths": 0
     },
     {
       "year": 2026,
-      "averageCpi": 102.9233,
-      "months": 9
+      "averageCpi": 103.7267,
+      "forecastMonths": 3
+    },
+    {
+      "year": 2027,
+      "averageCpi": 108.2533,
+      "forecastMonths": 12
     }
   ]
 }

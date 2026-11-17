@@ -71,7 +71,7 @@ export function NbbReeleWaardeSection({
   })
 
   const lastMonthIndex = Number(cpi.lastMonth.slice(5)) - 1
-  const lastPartial = lastEntry.months < 12
+  const hasForecast = lastEntry.forecastMonths > 0
   const lastMonthLabel = `${MONTHS_NL[lastMonthIndex]} ${cpi.lastMonth.slice(0, 4)}`
 
   const rows = useMemo(() => {
@@ -80,11 +80,21 @@ export function NbbReeleWaardeSection({
       .filter((entry) => entry.year >= startYear)
       .map((entry) => ({
         year: entry.year,
-        label: entry.year === lastYear && lastPartial ? `${entry.year}*` : String(entry.year),
+        label: entry.forecastMonths > 0 ? `${entry.year}*` : String(entry.year),
+        forecast: entry.forecastMonths > 0,
         value: (AMOUNT * base) / entry.averageCpi,
         cpi: entry.averageCpi,
       }))
-  }, [cpi.years, startYear, lastYear, lastPartial])
+      .map((row, index, all) => {
+        const next = all[index + 1]
+        return {
+          ...row,
+          actual: row.forecast ? null : row.value,
+          projected: row.forecast ? row.value : null,
+          connector: !row.forecast && next?.forecast ? row.value : row.forecast && all[index - 1] && !all[index - 1].forecast ? row.value : null,
+        }
+      })
+  }, [cpi.years, startYear])
 
   const latest = rows[rows.length - 1]
   const loss = AMOUNT - latest.value
@@ -126,7 +136,7 @@ export function NbbReeleWaardeSection({
       title={title}
       slug={slug}
       sectionId={sectionId}
-      dataSource={cpi.source}
+      dataSource={hasForecast ? `${cpi.source}; Federaal Planbureau (inflatieprognose)` : cpi.source}
       dataSourceUrl={cpi.sourceUrl}
       defaultView={defaultView}
       headerContent={
@@ -134,16 +144,16 @@ export function NbbReeleWaardeSection({
           <p className="text-sm text-muted-foreground">
             Wat is {formatCurrency(AMOUNT)} uit {startYear} nu nog waard? De bedragen zijn uitgedrukt in euro van{" "}
             {startYear}: de consumptieprijsindex (jaargemiddelde, Statbel) bepaalt hoeveel koopkracht een nominaal
-            constant bedrag verliest. Meest recente inflatiecijfer: {lastMonthLabel}.
-            {lastPartial
-              ? ` Voor ${lastYear} (*) is het gemiddelde van de ${lastEntry.months} reeds gepubliceerde maanden gebruikt.`
+            constant bedrag verliest. Meest recente gepubliceerde inflatiecijfer: {lastMonthLabel}.
+            {hasForecast
+              ? ` Jaren met een sterretje (*) en de gestippelde lijn zijn deels of volledig gebaseerd op de inflatieprognose van het Federaal Planbureau (${cpi.forecastLabel}), tot ${MONTHS_NL[Number(cpi.forecastHorizon.slice(5)) - 1]} ${cpi.forecastHorizon.slice(0, 4)}. De prognose is maand op maand aan het laatste gepubliceerde cijfer gekoppeld.`
               : ""}
           </p>
           {selector}
           <div className="grid grid-cols-2 gap-4 md:grid-cols-4">
             <Card>
               <CardContent className="pt-4">
-                <div className="text-sm text-muted-foreground">Reële waarde in {lastYear}</div>
+                <div className="text-sm text-muted-foreground">Reële waarde in {lastYear}{hasForecast ? " (prognose)" : ""}</div>
                 <div className="text-2xl font-bold">{formatCurrency(latest.value)}</div>
               </CardContent>
             </Card>
@@ -207,15 +217,37 @@ export function NbbReeleWaardeSection({
                       <Tooltip
                         contentStyle={CHART_THEME.tooltip}
                         cursor={{ stroke: "var(--muted)", strokeWidth: 1 }}
-                        formatter={(value) => [formatCurrency(Number(value ?? 0)), "Reële waarde"]}
+                        formatter={(value, name) => [formatCurrency(Number(value ?? 0)), String(name)]}
                         labelFormatter={(label) => `Jaar ${label}`}
                       />
                       <Line
                         type="monotone"
-                        dataKey="value"
+                        dataKey="connector"
+                        stroke={CHART_SERIES_COLORS[0]}
+                        strokeWidth={2}
+                        strokeDasharray="5 4"
+                        dot={false}
+                        activeDot={false}
+                        tooltipType="none"
+                        legendType="none"
+                        isAnimationActive={false}
+                      />
+                      <Line
+                        type="monotone"
+                        dataKey="actual"
                         name="Reële waarde"
                         stroke={CHART_SERIES_COLORS[0]}
                         strokeWidth={2}
+                        dot={rows.length <= 12}
+                        activeDot={{ r: 4 }}
+                      />
+                      <Line
+                        type="monotone"
+                        dataKey="projected"
+                        name="Reële waarde (prognose)"
+                        stroke={CHART_SERIES_COLORS[0]}
+                        strokeWidth={2}
+                        strokeDasharray="5 4"
                         dot={rows.length <= 12}
                         activeDot={{ r: 4 }}
                       />
