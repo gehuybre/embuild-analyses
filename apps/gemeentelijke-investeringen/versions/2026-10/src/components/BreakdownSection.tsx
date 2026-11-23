@@ -258,7 +258,7 @@ export function BreakdownSection({
                         {municipality && item.category && period === 2026 && (
                           <a
                             className="inline-block pt-1 font-medium underline"
-                            href={projectsLink({ nis: municipality, category: item.category })}
+                            href={projectsLink({ nis: municipality, category: item.category, embed: isEmbed })}
                             target={linkTarget}
                             rel={linkTarget ? "noopener" : undefined}
                           >

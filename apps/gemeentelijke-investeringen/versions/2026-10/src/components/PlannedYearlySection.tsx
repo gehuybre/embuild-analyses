@@ -106,6 +106,7 @@ export function PlannedYearlySection({
       category: index.domains[position].project_category,
       year,
       account: accountForProjects,
+      embed: isEmbed,
     })
     : null
   const openProjects = (year: number, position: number) => {

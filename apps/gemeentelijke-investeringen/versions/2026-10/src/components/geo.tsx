@@ -2,7 +2,7 @@
 
 import { useEffect, useId, useState, type ReactNode } from "react"
 import { getLocalPublicPath, withDeployVersion } from "@embuild/shared/lib/path-utils"
-import { PROJECTS_PATH } from "@/lib/sections"
+import { PROJECTS_EMBED_PATH, PROJECTS_PATH } from "@/lib/sections"
 
 export const FLANDERS = "vlaanderen"
 // Ten distinguishable colours, one per BV domain (0-9), shared by the domain charts.
@@ -117,17 +117,19 @@ export function perInhabitant(amountsByYear: Map<number, number>, population: Re
   return total
 }
 
-export function projectsLink({ nis, category, year, account }: {
+export function projectsLink({ nis, category, year, account, embed }: {
   nis: string
   category?: string
   year?: number
   account?: string
+  /** Vanuit een embed verwijzen naar de volledige-paginaversie (embed-route) van de projectbrowser. */
+  embed?: boolean
 }) {
   const params = new URLSearchParams({ gemeente: nis })
   if (category) params.set("categorie", category)
   if (year) params.set("jaar", String(year))
   if (account) params.set("rekening", account)
-  return `${PROJECTS_PATH}?${params.toString()}`
+  return `${embed ? PROJECTS_EMBED_PATH : PROJECTS_PATH}?${params.toString()}`
 }
 
 const selectClass = "h-9 rounded-md border bg-background px-2 text-sm"

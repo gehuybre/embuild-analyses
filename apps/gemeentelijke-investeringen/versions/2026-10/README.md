@@ -39,6 +39,8 @@ de gepubliceerde jaartotalen; provincies en gemeenten komen uit `public/data/geo
 Is een gemeente gekozen, dan opent een klik op een balk of tabelcel van
 `investments-planned-2026-2031` de projectbrowser
 `/analyses/bouwprojecten-gemeenten-2026-09/?gemeente=<NIS>&categorie=<domein>&jaar=<jaar>&rekening=<Niveau 4>`.
+Vanuit een embed verwijst de link naar de embed-route
+`/analyses/bouwprojecten-gemeenten-2026-09/embed/bouwprojecten-gemeenten-2026-09/projectbrowser/` met dezelfde parameters.
 Het beleidsdomein (`2 Zich verplaatsen en mobiliteit`) wordt categorie `02-mobiliteit`;
 de rekeninggroep wordt de Niveau 4-groep van de projectdata (`I.1.B.1.a/b/e` →
 `I.1.B.1`, `I.1.B.2.a` → `I.1.B.2`, `I.1.D` → `I.1.D`). In de BV-verdeling linkt

@@ -22,3 +22,4 @@ export type ComparisonSection = typeof COMPARISON_SECTIONS[number]
 export type Section = typeof SECTIONS[number]
 
 export const PROJECTS_PATH = "/analyses/bouwprojecten-gemeenten-2026-09/"
+export const PROJECTS_EMBED_PATH = "/analyses/bouwprojecten-gemeenten-2026-09/embed/bouwprojecten-gemeenten-2026-09/projectbrowser/"
