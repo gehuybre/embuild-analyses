@@ -7,7 +7,7 @@ en toont de vier versies via een dropdown.
 ## Grafieken
 
 - `investments-yearly-actual`: meest recent meerjarenplan tegenover jaarrekening.
-- `investments-yearly-actual-real`: zelfde vergelijking, gedeflateerd naar prijspeil februari 2026 met `public/data/inflation_factors.json` (gebouwd door `scripts/build_october_inflation.py`: Statbel tot de laatste maand, daarna Planbureau-prognose uit `apps/nbb-rente`, daarna constante inflatie = gemiddelde van de laatste vier prognosemaanden).
+- `investments-yearly-actual-real`: zelfde vergelijking, gedeflateerd naar prijspeil december 2027 met `public/data/inflation_factors.json` (gebouwd door `scripts/build_october_inflation.py`: Statbel tot de laatste maand, daarna Planbureau-prognose uit `apps/nbb-rente`, daarna constante inflatie = gemiddelde van de laatste vier prognosemaanden).
 - `investments-yearly-latest`: afzonderlijke grafiek van het meest recente plan.
 - `investments-yearly-original`: afzonderlijke grafiek van het originele beginkrediet.
 - `investments-planned-2026-2031`: geplande bouwinvesteringen per boekjaar 2026-2031
@@ -17,7 +17,7 @@ en toont de vier versies via een dropdown.
   2020-2025 en 2026-2031, met filter op domein, totaal of per inwoner, en tabel (top 20) en kaart
   van de gemeenten voor 2026-2031. Overgenomen uit de septemberversie.
 - `investments-bv-indexed`: dezelfde opbouw zonder domeinfilter, gedeflateerd per boekjaar met
-  `inflation_factors.json` (prijspeil februari 2026) en daarna opgeteld per planperiode. Anders dan
+  `inflation_factors.json` (prijspeil december 2027) en daarna opgeteld per planperiode. Anders dan
   september, dat de legislatuur-middelpunten januari 2017 en januari 2023 gebruikte.
 - `investments-share-total`: aandeel van de geplande bouwinvesteringen in de geplande totale uitgaven
   (investeringen, financiering en exploitatie) per legislatuur, met provincie- en gemeentefilter. Teller = bouwscope

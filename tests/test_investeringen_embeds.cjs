@@ -109,7 +109,7 @@ for (const section of COMPARISON_SECTIONS) {
       assert.match(analysis, section === "investments-yearly-actual"
         ? /Per boekjaar het meest recente/
         : section === "investments-yearly-actual-real"
-          ? /omgerekend naar het prijspeil van februari 2026/
+          ? /omgerekend naar het prijspeil van december 2027/
           : /Geplande bouwinvesteringen volgens/)
     })
   }

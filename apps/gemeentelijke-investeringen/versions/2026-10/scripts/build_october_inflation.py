@@ -1,4 +1,4 @@
-"""Build per-boekjaar deflators (prijspeil februari 2026) for the inflation-corrected investment chart.
+"""Build per-boekjaar deflators (prijspeil december 2027) for the inflation-corrected investment chart.
 
 Monthly CPI (base 2025=100) is assembled from three sources:
 1. Statbel actuals up to the last published month;
@@ -21,7 +21,7 @@ FORECASTS = REPO_ROOT / "apps/nbb-rente/results/inflation_forecasts.json"
 FORECASTS_METADATA = REPO_ROOT / "apps/nbb-rente/results/inflation_forecasts_metadata.json"
 OUTPUT = APP / "public/data/inflation_factors.json"
 CPI_BASE_YEAR = 2025
-REFERENCE_PERIOD = "2026-02"
+REFERENCE_PERIOD = "2027-12"
 FIRST_YEAR, LAST_YEAR = 2014, 2031
 EXTRAPOLATION_MONTHS = 4
 
@@ -93,9 +93,9 @@ def main():
     result = {
         "cpi_base_year": CPI_BASE_YEAR,
         "price_level_period": REFERENCE_PERIOD,
-        "price_level_label": "februari 2026",
+        "price_level_label": "december 2027",
         "reference_cpi": reference,
-        "method": "Elk boekjaar wordt gedeflateerd met het gemiddelde van de twaalf maandelijkse consumptieprijsindexen van dat jaar, naar het prijspeil van februari 2026.",
+        "method": "Elk boekjaar wordt gedeflateerd met het gemiddelde van de twaalf maandelijkse consumptieprijsindexen van dat jaar, naar het prijspeil van december 2027, het laatste maandcijfer van de Planbureau-prognose en benadering van het gemiddelde prijspeil van de legislatuur 2026-2031.",
         "last_statbel_month": last_actual,
         "forecast_vintage": latest["forecastMonth"],
         "forecast_publication_date": latest["sourcePublicationDate"],

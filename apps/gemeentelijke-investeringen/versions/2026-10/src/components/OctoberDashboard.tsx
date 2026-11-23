@@ -160,7 +160,7 @@ export function OctoberComparison({
               sectionId={section}
               viewType={view}
               periodHeaders={["Boekjaar", "Planrapportjaar"]}
-              valueLabel={isReal ? "Bouwinvesteringen (euro, prijspeil februari 2026)" : "Bouwinvesteringen (euro)"}
+              valueLabel={isReal ? "Bouwinvesteringen (euro, prijspeil december 2027)" : "Bouwinvesteringen (euro)"}
               dataSource="ABB BBC-DR, bouwscope op economische rekeningen, oktober 2026"
               dataSourceUrl={dataset.source_url}
               embedParams={{ geo: isFlanders ? null : geo }}
