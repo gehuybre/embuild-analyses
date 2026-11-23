@@ -151,11 +151,11 @@ function DomainCard({
   const [view, setView] = useState(viewType)
   const [geo, setGeo] = useState(initialGeo)
   const [metric, setMetric] = useState<Metric>(initialMetric)
-  const [domain, setDomain] = useState(indexed ? "" : initialDomain)
+  const [domain, setDomain] = useState(initialDomain)
   useEffect(() => setView(viewType), [viewType])
   useEffect(() => setGeo(initialGeo), [initialGeo])
   useEffect(() => setMetric(initialMetric), [initialMetric])
-  useEffect(() => setDomain(indexed ? "" : initialDomain), [indexed, initialDomain])
+  useEffect(() => setDomain(initialDomain), [initialDomain])
   const { data: index } = useGeoIndex()
   const { data: summary, error } = useDomainSummary()
   const domainIndexes = useMemo(
@@ -197,7 +197,7 @@ function DomainCard({
           <AnalysisOnly>
             <p className="text-sm text-muted-foreground">
               {indexed
-                ? "Geplande bouwinvesteringen per planperiode, omgerekend naar constante prijzen. Elk boekjaar wordt afzonderlijk gedeflateerd en daarna opgeteld over de zes jaar van het plan."
+                ? "Geplande bouwinvesteringen per planperiode, omgerekend naar constante prijzen en desgewenst gefilterd op beleidsdomein. Elk boekjaar wordt afzonderlijk gedeflateerd en daarna opgeteld over de zes jaar van het plan."
                 : "Geplande bouwinvesteringen per planperiode (meest recent plan), gefilterd op beleidsdomein. De tabel en kaart tonen de gemeenten voor 2026-2031."}
             </p>
           </AnalysisOnly>
@@ -206,7 +206,7 @@ function DomainCard({
           <div className="flex flex-wrap items-end gap-3">
             <MetricToggle value={metric} onChange={setMetric} />
             {index && <GeoFilter index={index} value={geo} onChange={setGeo} />}
-            {index && !indexed && (
+            {index && (
               <LabeledSelect label="Beleidsdomein" value={domain} onChange={setDomain}>
                 <option value="">Alle beleidsdomeinen</option>
                 {index.domains.map((entry, position) => <option key={entry.label} value={String(position)}>{entry.label}</option>)}
@@ -221,7 +221,7 @@ function DomainCard({
                 {" "}volgt de Planbureau-prognose en daarna een constante inflatie. Zie de inflatiegrafiek hierboven voor de volledige methode.
               </p>
             )}
-            {!indexed && domainName && index && (
+            {domainName && index && (
               <p className="rounded border bg-muted/40 p-3 text-sm">
                 <span className="font-semibold">Dit domein bevat:</span>{" "}
                 {index.subdomains.filter((entry) => entry.domain === Number(domain)).map((entry) => entry.name).join(", ")}
@@ -305,5 +305,5 @@ type DomainProps = { viewType?: "chart" | "table" | "map"; initialGeo?: string; 
 export const DomainInvestmentsSection = (props: DomainProps) =>
   <DomainCard indexed={false} viewType={props.viewType ?? "chart"} initialGeo={props.initialGeo ?? FLANDERS} initialMetric={props.initialMetric ?? "total"} initialDomain={props.initialDomain ?? ""} />
 
-export const IndexedInvestmentsSection = (props: Omit<DomainProps, "initialDomain">) =>
-  <DomainCard indexed viewType={props.viewType ?? "chart"} initialGeo={props.initialGeo ?? FLANDERS} initialMetric={props.initialMetric ?? "total"} initialDomain="" />
+export const IndexedInvestmentsSection = (props: DomainProps) =>
+  <DomainCard indexed viewType={props.viewType ?? "chart"} initialGeo={props.initialGeo ?? FLANDERS} initialMetric={props.initialMetric ?? "total"} initialDomain={props.initialDomain ?? ""} />
