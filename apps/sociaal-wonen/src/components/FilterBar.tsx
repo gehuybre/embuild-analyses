@@ -5,7 +5,7 @@ import { Button } from "@embuild/shared/components/ui/button"
 import { Input } from "@embuild/shared/components/ui/input"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@embuild/shared/components/ui/select"
 import { CATEGORIE_LABELS, PLAATSINGEN } from "@/lib/types"
-import type { Gemeente, State, Woonmaatschappij } from "@/lib/types"
+import type { Gemeente, Meta, State, Woonmaatschappij } from "@/lib/types"
 
 const ALL = "__all__"
 
@@ -14,6 +14,7 @@ interface Props {
   set: (patch: Partial<State>) => void
   wms: Woonmaatschappij[]
   gemeenten: Gemeente[]
+  meta: Meta
 }
 
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
@@ -25,10 +26,10 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
   )
 }
 
-export function FilterBar({ state, set, wms, gemeenten }: Props) {
+export function FilterBar({ state, set, wms, gemeenten, meta }: Props) {
   const gemOptions = gemeenten.slice().sort((a, b) => a.naam.localeCompare(b.naam, "nl"))
   const gemName = gemeenten.find((g) => g.nis === state.gemeente)?.naam ?? ""
-  const active = state.wm || state.gemeente || state.groep || state.plaatsing
+  const active = state.wm || state.gemeente || state.groep || state.plaatsing || state.huur || state.kostprijs
 
   return (
     <div className="space-y-2 rounded-lg border bg-card p-3">
@@ -79,8 +80,26 @@ export function FilterBar({ state, set, wms, gemeenten }: Props) {
             </SelectContent>
           </Select>
         </Field>
+        <Field label="Grootteklasse: aantal huurwoningen">
+          <Select value={state.huur || ALL} onValueChange={(v) => set({ huur: v === ALL ? "" : v })}>
+            <SelectTrigger className="w-full text-foreground"><SelectValue /></SelectTrigger>
+            <SelectContent>
+              <SelectItem value={ALL}>Alle klassen</SelectItem>
+              {meta.count_bands.map((b) => <SelectItem key={b} value={b}>{b}</SelectItem>)}
+            </SelectContent>
+          </Select>
+        </Field>
+        <Field label="Grootteklasse: kostprijs">
+          <Select value={state.kostprijs || ALL} onValueChange={(v) => set({ kostprijs: v === ALL ? "" : v })}>
+            <SelectTrigger className="w-full text-foreground"><SelectValue /></SelectTrigger>
+            <SelectContent>
+              <SelectItem value={ALL}>Alle klassen</SelectItem>
+              {meta.cost_bands.filter((b) => b !== "Niet beschikbaar in bron").map((b) => <SelectItem key={b} value={b}>{b}</SelectItem>)}
+            </SelectContent>
+          </Select>
+        </Field>
         <div className="flex items-end">
-          <Button type="button" variant="ghost" size="sm" disabled={!active} onClick={() => set({ wm: "", gemeente: "", groep: "", plaatsing: "" })}>
+          <Button type="button" variant="ghost" size="sm" disabled={!active} onClick={() => set({ wm: "", gemeente: "", groep: "", plaatsing: "", huur: "", kostprijs: "" })}>
             <X className="mr-1 h-4 w-4" /> Filters wissen
           </Button>
         </div>

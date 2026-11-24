@@ -5,6 +5,8 @@ export function matches(r: AggRow, st: State, opts: { ignoreGemeente?: boolean; 
   if (!opts.ignoreGemeente && st.gemeente && r.nis !== st.gemeente) return false
   if (st.groep && r.categorie !== st.groep) return false
   if (st.plaatsing && r.plaatsing !== st.plaatsing) return false
+  if (st.huur && r.huur_categorie !== st.huur) return false
+  if (st.kostprijs && r.kostprijs_categorie !== st.kostprijs) return false
   return true
 }
 

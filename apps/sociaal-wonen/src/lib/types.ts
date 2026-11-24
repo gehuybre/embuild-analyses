@@ -92,6 +92,10 @@ export interface State {
   gemeente: string
   groep: "" | Categorie
   plaatsing: "" | Plaatsing
+  /** Grootteklasse (categorie) van het aantal huurwoningen; leeg = alle klassen. */
+  huur: string
+  /** Grootteklasse (categorie) van de kostprijs; leeg = alle klassen. */
+  kostprijs: string
   tab: Tab
   filters: boolean
 }
@@ -102,6 +106,8 @@ export const DEFAULT_STATE: State = {
   gemeente: "",
   groep: "",
   plaatsing: "",
+  huur: "",
+  kostprijs: "",
   tab: "kaart",
   filters: true,
 }

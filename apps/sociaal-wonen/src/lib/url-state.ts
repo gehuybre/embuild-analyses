@@ -1,6 +1,6 @@
 import { DEFAULT_STATE } from "./types"
 import { PLAATSINGEN } from "./types"
-import type { Categorie, Plaatsing, Gemeente, Horizon, State, Tab, Woonmaatschappij } from "./types"
+import type { Categorie, Plaatsing, Gemeente, Horizon, Meta, State, Tab, Woonmaatschappij } from "./types"
 
 export const SLUG = "sociaal-wonen"
 
@@ -17,15 +17,19 @@ export function parseState(search: string, forcedTab?: Tab): State {
     gemeente: nis && /^\d{5}$/.test(nis) ? nis : "",
     groep: one<"" | Categorie>(get("groep")?.toLowerCase() ?? null, ["nieuwbouw", "vervangingsbouw", "renovatie", "ssi"], ""),
     plaatsing: one<"" | Plaatsing>(get("plaatsing"), ["", ...PLAATSINGEN], ""),
+    huur: (get("huur") ?? "").slice(0, 40),
+    kostprijs: (get("kostprijs") ?? "").slice(0, 40),
     tab: forcedTab ?? one<Tab>(get("tab"), ["kaart", "tabel", "projecten"], DEFAULT_STATE.tab),
     filters: get("filters") !== "0",
   }
 }
 
 /** Verwijst een filter naar iets dat niet bestaat (verouderde link), dan wordt het genegeerd. */
-export function normalizeAgainstData(st: State, wms: Woonmaatschappij[], gemeenten: Gemeente[]): State {
+export function normalizeAgainstData(st: State, wms: Woonmaatschappij[], gemeenten: Gemeente[], meta?: Meta): State {
   return {
     ...st,
+    huur: !meta || (st.huur && meta.count_bands.includes(st.huur)) ? st.huur : "",
+    kostprijs: !meta || (st.kostprijs && meta.cost_bands.includes(st.kostprijs)) ? st.kostprijs : "",
     wm: st.wm && wms.some((w) => w.id === st.wm) ? st.wm : "",
     gemeente: st.gemeente && gemeenten.some((g) => g.nis === st.gemeente) ? st.gemeente : "",
   }
@@ -42,6 +46,8 @@ export function toQuery(st: State, opts: { section?: Tab; includeTab?: boolean }
   set("gemeente", st.gemeente, "")
   set("groep", st.groep, "")
   set("plaatsing", st.plaatsing, "")
+  set("huur", st.huur, "")
+  set("kostprijs", st.kostprijs, "")
   if (opts.includeTab) set("tab", st.tab, DEFAULT_STATE.tab)
   if (!st.filters) q.set(`${SLUG}.filters`, "0")
   return q.toString()

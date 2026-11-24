@@ -25,16 +25,29 @@ function histogram(rows: AggRow[], labels: string[], pick: (r: AggRow) => string
   return points.filter((p, i) => ORDER.some((c) => (p[c] ?? 0) > 0) || (i > 0 && i < labels.length - 1))
 }
 
+/** Compacte aslabels, zodat de klassen naast elkaar passen. De volledige klassenaam staat in de tooltip. */
+const AXIS_LABELS: Record<string, string> = {
+  "Minder dan €100.000": "< €100k",
+  "€100.000–250.000": "€100–250k",
+  "€250.000–500.000": "€250–500k",
+  "€500.000–1 mln": "€0,5–1 mln",
+  "€1–5 mln": "€1–5 mln",
+  "€5–10 mln": "€5–10 mln",
+  "Meer dan €10 mln": "> €10 mln",
+  "Niet beschikbaar in bron": "n.b.",
+}
+const axisLabel = (v: string) => AXIS_LABELS[v] ?? v.replace("Minder dan ", "< ").replace("Meer dan ", "> ")
+
 function Chart({ title, data }: { title: string; data: Point[] }) {
   const used = ORDER.filter((c) => data.some((p) => (p[c] ?? 0) > 0))
   return (
     <figure className="min-w-0 space-y-1" aria-label={title}>
       <figcaption className="text-sm font-medium">{title}</figcaption>
-      <div className="h-56">
+      <div className={data.length > 5 ? "h-64" : "h-56"}>
         <ResponsiveContainer width="100%" height="100%">
           <BarChart data={data} margin={{ top: 8, right: 8, bottom: 0, left: -16 }}>
             <CartesianGrid vertical={false} strokeOpacity={0.3} />
-            <XAxis dataKey="klasse" tick={{ fontSize: 11 }} interval={0} tickFormatter={(v: string) => v.replace("Minder dan ", "< ").replace("Meer dan ", "> ").replace("Niet beschikbaar in bron", "n.b.")} />
+            <XAxis dataKey="klasse" tick={{ fontSize: 11 }} interval={0} tickFormatter={axisLabel} {...(data.length > 5 ? { angle: -40, textAnchor: "end" as const, height: 58 } : {})} />
             <YAxis allowDecimals={false} tick={{ fontSize: 11 }} />
             <Tooltip formatter={(v, name) => [`${v} verrichtingen`, name]} />
             <Legend wrapperStyle={{ fontSize: 11 }} />

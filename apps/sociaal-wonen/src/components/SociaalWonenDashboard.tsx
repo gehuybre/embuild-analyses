@@ -62,8 +62,8 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
   const wms = wmsF.data
   const gemeenten = gemF.data
   const state = useMemo(
-    () => (wms && gemeenten ? normalizeAgainstData(raw, wms, gemeenten) : raw),
-    [raw, wms, gemeenten]
+    () => (wms && gemeenten ? normalizeAgainstData(raw, wms, gemeenten, meta.data ?? undefined) : raw),
+    [raw, wms, gemeenten, meta.data]
   )
   const set = (patch: Partial<State>) => setRaw((s) => ({ ...s, ...patch }))
 
@@ -162,7 +162,7 @@ export function SociaalWonenDashboard({ section }: { section?: Tab }) {
 
   const horizonBlock = (
     <div className="space-y-4">
-      {showFilters && <FilterBar state={state} set={set} wms={wms} gemeenten={gemeenten} />}
+      {showFilters && <FilterBar state={state} set={set} wms={wms} gemeenten={gemeenten} meta={m} />}
       {(!embed || tab === "overzicht") && (
         <OverzichtHistogram
           rows={filterRows(records[horizon].rijen, state)}

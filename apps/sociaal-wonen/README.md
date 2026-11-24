@@ -72,6 +72,8 @@ om de afleiding te overschrijven. Je keuze blijft behouden bij een volgende run.
 | `gemeente` | NIS-code (5 cijfers) |
 | `groep` | `nieuwbouw`, `vervangingsbouw`, `renovatie`, `ssi` |
 | `plaatsing` | `Reguliere procedure`, `CBO`, `D&B` |
+| `huur` | grootteklasse van het aantal huurwoningen, bv. `11–25` |
+| `kostprijs` | grootteklasse van de kostprijs, bv. `€1–5 mln` |
 | `filters` | `0` verbergt de filterbalk |
 
 Ongeldige of verouderde waarden vallen terug op de standaard. De knop "Insluiten" genereert de iframe-code met de actieve filters.
