@@ -82,7 +82,10 @@ COUNT_BANDS = [
     (float("inf"), "Meer dan 50"),
 ]
 COST_BANDS = [
-    (1_000_000, "Minder dan €1 mln"),
+    (100_000, "Minder dan €100.000"),
+    (250_000, "€100.000–250.000"),
+    (500_000, "€250.000–500.000"),
+    (1_000_000, "€500.000–1 mln"),
     (5_000_000, "€1–5 mln"),
     (10_000_000, "€5–10 mln"),
     (float("inf"), "Meer dan €10 mln"),
@@ -148,9 +151,11 @@ def count_band(value: float | None) -> str:
 def cost_band(value: float | None) -> str:
     if value is None:
         return "Niet beschikbaar in bron"
-    if value < COST_BANDS[0][0]:
-        return COST_BANDS[0][1]
-    return next(label for upper, label in COST_BANDS[1:] if value <= upper)
+    # grenzen onder €1 mln zijn exclusief (bv. €250.000 hoort bij €250.000–500.000); vanaf €1 mln zijn ze inclusief
+    for upper, label in COST_BANDS:
+        if value < upper if upper <= 1_000_000 else value <= upper:
+            return label
+    return COST_BANDS[-1][1]
 
 
 def resolve_location(initiators: str, province: str, municipality: str | None, description: str,
@@ -510,7 +515,7 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
         ("Plaatsingsprocedure: reguliere procedure, CBO of D&B. CBO en D&B worden volledig gescheiden gehouden; varianten per jaar (bv. CBO 2024-1) zijn samengenomen.", None),
         ("De rijen staan gesorteerd per gemeente, zodat alle verrichtingen van een gemeente bij elkaar staan.", None),
         ("Huurwoningen (categorie): 1–10, 11–25, 26–50 of meer dan 50 woningen.", None),
-        ("Kostprijs (categorie): minder dan €1 mln, €1–5 mln, €5–10 mln of meer dan €10 mln. Andere kosten- en subsidiebedragen zijn niet opgenomen.", None),
+        ("Kostprijs (categorie): minder dan €100.000, €100.000–250.000, €250.000–500.000, €500.000–1 mln, €1–5 mln, €5–10 mln of meer dan €10 mln. Andere kosten- en subsidiebedragen zijn niet opgenomen.", None),
         ("Website woonmaatschappij: link naar de website van de woonmaatschappij op die rij.", None),
         ("Provincie en gemeente zijn afgeleid uit de bronlocatie. Rijen zonder eenduidige gemeente krijgen een algemene locatielabel.", None),
     ]

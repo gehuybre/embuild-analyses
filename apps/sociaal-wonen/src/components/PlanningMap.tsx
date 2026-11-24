@@ -21,6 +21,13 @@ interface Props {
 }
 
 const CLASS_COLORS = ["#dbeafe", "#93c5fd", "#60a5fa", "#2563eb", "#1e3a8a"]
+const CLASS_COLORS_FINE = ["#eff6ff", "#dbeafe", "#bfdbfe", "#93c5fd", "#60a5fa", "#3b82f6", "#2563eb", "#1e3a8a"]
+
+/** Kleur van een klasse; bij meer dan 5 klassen (kostprijs) wordt de fijnere reeks gebruikt. */
+function classColor(index: number, count: number): string {
+  const ramp = count > CLASS_COLORS.length ? CLASS_COLORS_FINE : CLASS_COLORS
+  return ramp[Math.min(ramp.length - 1, index)]
+}
 const NO_DATA = "#eceff3"
 type MapMode = "werkingsgebied" | "categorie"
 
@@ -64,7 +71,7 @@ export function PlanningMap({ map, rows, gemeenten, wms, horizon, metric, meta, 
     }
     const band = getBand(nis, horizon)
     const rank = band == null ? -1 : labels.indexOf(band)
-    return rank < 0 ? NO_DATA : CLASS_COLORS[Math.min(CLASS_COLORS.length - 1, rank)]
+    return rank < 0 ? NO_DATA : classColor(rank, labels.length)
   }
 
   function zoom(factor: number) {
@@ -217,7 +224,7 @@ export function PlanningMap({ map, rows, gemeenten, wms, horizon, metric, meta, 
           </span>
           {labels.map((label, index) => (
             <span key={label} className="inline-flex items-center gap-1">
-              <i className="inline-block h-3 w-4 rounded-sm" style={{ background: CLASS_COLORS[Math.min(CLASS_COLORS.length - 1, index)] }} />
+              <i className="inline-block h-3 w-4 rounded-sm" style={{ background: classColor(index, labels.length) }} />
               {label}
             </span>
           ))}

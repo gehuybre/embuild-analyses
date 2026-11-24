@@ -8,7 +8,7 @@ De FS4-bladen zijn gecontroleerd tegen hun somrijen. De SSI-bladen zijn als afzo
 
 ## Beslissingen en aandachtspunten
 
-- SSI staat voor Subsidie Sloop en Infrastructuur; de SSI-tabbladen worden apart opgenomen. De kostprijs komt uit de kolom SSI van het bronblad.
+- SSI staat voor Subsidie Sloop en Infrastructuur; de SSI-tabbladen worden apart opgenomen. De kostprijs komt uit de kolom SSI (KTP) of Bedrag UP (MJP) van het bronblad.
 - Aankoop goede woning, raamcontracten, RC beperkte renovatie en MW2023 zijn uitgesloten; CBO en D&B zijn opgenomen.
 - Bij SSI is het aantal huurwoningen de som van de bronkolommen Huur en Koop.
 - Vervangingsbouw is een aparte categorie; overige renovatievormen zijn samengevoegd.

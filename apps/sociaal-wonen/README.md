@@ -14,7 +14,7 @@ SSI betekent **Subsidie Sloop en Infrastructuur** en wordt als afzonderlijke cat
 
 De publicatie houdt elke verrichting als aparte, niet-identificeerbare rij. Projectomschrijvingen, datums, typecodes, procedures,
 exacte aantallen en exacte bedragen worden weggelaten. Woningenaantallen worden ingedeeld in `1–10`, `11–25`, `26–50` en `meer dan 50`;
-kostprijzen in `minder dan €1 mln`, `€1–5 mln`, `€5–10 mln` en `meer dan €10 mln`. Er worden geen algemene totalen getoond.
+kostprijzen in `minder dan €100.000`, `€100.000–250.000`, `€250.000–500.000`, `€500.000–1 mln`, `€1–5 mln`, `€5–10 mln` en `meer dan €10 mln`. Er worden geen algemene totalen getoond.
 Nieuwbouw, vervangingsbouw, overige renovatie en SSI zijn de werkcategorieën. Beperkte renovatie valt onder renovatie.
 `Aankoop goede woning` (GW) en raamcontracten zijn uitgesloten; CBO, D&B en RC-renovatie (enkel KTP) worden getoond.
 CBO en D&B zijn opgenomen en volledig gescheiden als plaatsingsprocedure (`Reguliere procedure`, `CBO`, `D&B`); jaarvarianten worden samengenomen.
