@@ -8,7 +8,7 @@ import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
 import { AnalysisOnly } from "@embuild/shared/components/shared/AnalysisOnly"
 import { createAutoScaledFormatter } from "@embuild/shared/lib/number-formatters"
 import { useIsEmbedRoute } from "@embuild/shared/lib/use-is-embed-route"
-import { SLUG } from "@/lib/sections"
+import { PROJECTS_EMBED_PATH, SLUG } from "@/lib/sections"
 import {
   CUBE_SOURCE, DOMAIN_COLORS, FLANDERS, GeoFilter, LabeledSelect, geoName, isMunicipality, projectsLink,
   useGeoData, useGeoIndex, type GeoIndex,
@@ -116,6 +116,15 @@ export function PlannedYearlySection({
     else window.location.assign(href)
   }
   const linkTarget = isEmbed ? "_blank" : undefined
+  // Knop in de embed: met gemeente naar de projecten van die gemeente (en gekozen domein), anders naar de algemene projectbrowser.
+  const browserHref = municipality && index
+    ? projectsLink({
+      nis: municipality,
+      category: domainIndex === null ? undefined : index.domains[domainIndex]?.project_category,
+      account: accountForProjects,
+      embed: true,
+    })
+    : PROJECTS_EMBED_PATH
   const csvData = rows.flatMap((row) => visibleDomains.map(({ name, position }) => ({
     label: String(row.year),
     periodCells: [row.year, name],
@@ -177,10 +186,22 @@ export function PlannedYearlySection({
             </p>
           ) : (
             <Tabs value={view} onValueChange={(value) => setView(value === "table" ? "table" : "chart")}>
-              <TabsList aria-label={`Weergave ${title}`}>
-                <TabsTrigger value="chart">Grafiek</TabsTrigger>
-                <TabsTrigger value="table">Tabel</TabsTrigger>
-              </TabsList>
+              <div className="flex flex-wrap items-center gap-3">
+                <TabsList aria-label={`Weergave ${title}`}>
+                  <TabsTrigger value="chart">Grafiek</TabsTrigger>
+                  <TabsTrigger value="table">Tabel</TabsTrigger>
+                </TabsList>
+                {isEmbed && (
+                  <a
+                    href={browserHref}
+                    target="_blank"
+                    rel="noopener"
+                    className="inline-flex h-9 items-center rounded-md border bg-background px-3 text-sm font-medium hover:bg-muted"
+                  >
+                    Klik om de concrete projecten te bekijken
+                  </a>
+                )}
+              </div>
               <TabsContent value="chart" className="space-y-3 mt-4">
                 <p className="text-sm font-medium">Geplande bouwinvesteringen (in {scaleLabel} euro)</p>
                 <div className="overflow-x-auto">
