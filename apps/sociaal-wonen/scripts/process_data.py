@@ -87,7 +87,7 @@ COST_BANDS = [
     (10_000_000, "€5–10 mln"),
     (float("inf"), "Meer dan €10 mln"),
 ]
-EXCLUDED_PROCEDURES = ("raamcontract",)
+EXCLUDED_PROCEDURES = ("raamcontract", "mw2023", "rc beperkte renovatie")  # tekstdelen in de bronkolom Extra info; hoofdletterongevoelig
 PLAATSINGEN = ["Reguliere procedure", "CBO", "D&B"]  # CBO en D&B blijven volledig gescheiden; varianten per jaar worden samengenomen
 
 
@@ -299,7 +299,8 @@ def read_ssi(hz: str, aliases: dict, fixes: list[dict], idx: dict) -> list[dict]
             "horizon": hz, "groep": "ssi", "wm": wm, "nis": nis, "status": status,
             "categorie": "ssi", "gemeente_label": NO_MUNI.get(status) if status != "ok" else None,
             "provincie": prov, "type": "SSI",
-            "huur": num(r[8], where), "kostprijs": num(r[11] if hz == "kt" else r[10], where),
+            "huur": (num(r[8], where) or 0) + (num(r[9], where) or 0),  # SSI: som van Huur en Koop
+            "kostprijs": num(r[11] if hz == "kt" else r[10], where),
             "maximumprijs_vmsw": None, "bedrag_up": None,
             "datum": None, "omschrijving": "", "procedure": None, "plaatsing": PLAATSINGEN[0], "initiatiefnemer_bron": initiators,
         })
@@ -505,7 +506,7 @@ def build_download_xlsx(all_records: dict, wms: list, gemeenten: list) -> list[s
         ("", None),
         ("Over deze gegevens", "kop"),
         ("Elke rij staat voor een afzonderlijke verrichting. Projectomschrijvingen, exacte aantallen en exacte bedragen worden niet opgenomen.", None),
-        ("Soort werken: nieuwbouw, vervangingsbouw, renovatie (overige renovatie samengevoegd) of sloop en infrastructuur. Aankoop goede woning en raamcontracten zijn niet opgenomen. CBO, D&B en RC-renovatie (enkel op de KTP) zijn wel opgenomen.", None),
+        ("Soort werken: nieuwbouw, vervangingsbouw, renovatie (overige renovatie samengevoegd) of sloop en infrastructuur. Aankoop goede woning, raamcontracten, RC beperkte renovatie en MW2023 zijn niet opgenomen. CBO en D&B zijn wel opgenomen.", None),
         ("Plaatsingsprocedure: reguliere procedure, CBO of D&B. CBO en D&B worden volledig gescheiden gehouden; varianten per jaar (bv. CBO 2024-1) zijn samengenomen.", None),
         ("De rijen staan gesorteerd per gemeente, zodat alle verrichtingen van een gemeente bij elkaar staan.", None),
         ("Huurwoningen (categorie): 1–10, 11–25, 26–50 of meer dan 50 woningen.", None),
@@ -669,8 +670,9 @@ def main():
         "",
         "## Beslissingen en aandachtspunten",
         "",
-        "- SSI staat voor Subsidie Sloop en Infrastructuur; de SSI-tabbladen worden apart opgenomen. De kostprijs komt uit de kolom SSI van het bronblad.",
-        "- Aankoop goede woning, CBO, D&B en raamcontracten zijn uitgesloten; RC-renovatie blijft opgenomen.",
+        "- SSI staat voor Subsidie Sloop en Infrastructuur; de SSI-tabbladen worden apart opgenomen. De kostprijs komt uit de kolom SSI (KTP) of Bedrag UP (MJP) van het bronblad.",
+        "- Aankoop goede woning, raamcontracten, RC beperkte renovatie en MW2023 zijn uitgesloten; CBO en D&B zijn opgenomen.",
+        "- Bij SSI is het aantal huurwoningen de som van de bronkolommen Huur en Koop.",
         "- Vervangingsbouw is een aparte categorie; overige renovatievormen zijn samengevoegd.",
         "- Publieke uitvoer bevat geen projectomschrijving, exacte aantallen of exacte bedragen.",
         "- Provincie is afgeleid uit de gemeente (NIS), niet uit de bronkolom.",
