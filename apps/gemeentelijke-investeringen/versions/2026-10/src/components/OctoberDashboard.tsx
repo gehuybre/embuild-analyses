@@ -8,6 +8,7 @@ import { ExportButtons } from "@embuild/shared/components/shared/ExportButtons"
 import { AnalysisOnly } from "@embuild/shared/components/shared/AnalysisOnly"
 import { CHART_SERIES_COLORS } from "@embuild/shared/lib/chart-theme"
 import { createAutoScaledFormatter } from "@embuild/shared/lib/number-formatters"
+import { useIsEmbedRoute } from "@embuild/shared/lib/use-is-embed-route"
 import { getPublicPath } from "@embuild/shared/lib/path-utils"
 import dataset from "../../public/data/yearly_comparison.json"
 import inflation from "../../public/data/inflation_factors.json"
@@ -106,6 +107,8 @@ export function OctoberComparison({
     }))
   }, [isReal, nominalRows])
   const isComparison = section === "investments-yearly-actual" || isReal
+  const isEmbed = useIsEmbedRoute()
+  const showCoverage = !(isEmbed && isComparison)
   const comparison = isComparison ? "actual" : "original"
   const primary = section === "investments-yearly-original" ? "original" : "latest"
   const primaryLabel = primary === "original" ? "Origineel beginkrediet" : "Meest recent plan"
@@ -252,7 +255,7 @@ export function OctoberComparison({
                       <th scope="col" className="p-2 text-left">Boekjaar</th>
                       <th scope="col" className="p-2 text-right">{primaryLabel}</th>
                       {isComparison && <th scope="col" className="p-2 text-right">{comparisonLabel}</th>}
-                      <th scope="col" className="p-2 text-right">{isComparison ? "Besturen recent / vergelijking" : "Besturen"}</th>
+                      {showCoverage && <th scope="col" className="p-2 text-right">{isComparison ? "Besturen recent / vergelijking" : "Besturen"}</th>}
                     </tr>
                   </thead>
                   <tbody>
@@ -261,10 +264,12 @@ export function OctoberComparison({
                         <th scope="row" className="p-2 text-left font-normal">{row.Boekjaar}</th>
                         <td className="p-2 text-right tabular-nums">{formatAmount(row[primary])}</td>
                         {isComparison && <td className="p-2 text-right tabular-nums">{formatAmount(row[comparison])}</td>}
-                        <td className="p-2 text-right">
-                          {row.municipalities[primary] ?? "Niet beschikbaar"}
-                          {isComparison && ` / ${row.municipalities[comparison] ?? "Niet beschikbaar"}`}
-                        </td>
+                        {showCoverage && (
+                          <td className="p-2 text-right">
+                            {row.municipalities[primary] ?? "Niet beschikbaar"}
+                            {isComparison && ` / ${row.municipalities[comparison] ?? "Niet beschikbaar"}`}
+                          </td>
+                        )}
                       </tr>
                     ))}
                   </tbody>
@@ -273,8 +278,12 @@ export function OctoberComparison({
             </TabsContent>
           </Tabs>}
           <p className="text-sm text-muted-foreground">
-            Bron: <a className="underline" href={dataset.source_url}>ABB BBC-DR</a>.
-            {" "}<a className="underline" href={getPublicPath("/data/yearly_comparison.json")}>Jaartotalen en definities</a>
+            {isEmbed ? "Bron: ABB BBC-DR." : (
+              <>
+                Bron: <a className="underline" href={dataset.source_url}>ABB BBC-DR</a>.
+                {" "}<a className="underline" href={getPublicPath("/data/yearly_comparison.json")}>Jaartotalen en definities</a>
+              </>
+            )}
             <AnalysisOnly>
               {" | "}<a className="underline" href={getPublicPath("/data/source_snapshot.json")}>Broncontrole en SHA-256</a>.
               Ontbrekende waarden zijn geen nulbedragen. De dekking per bron staat in de tabel en CSV.

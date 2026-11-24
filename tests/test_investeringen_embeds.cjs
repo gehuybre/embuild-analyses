@@ -95,7 +95,10 @@ for (const section of COMPARISON_SECTIONS) {
         assert.match(html, /Boekjaar/)
       }
       assert.match(html, /ABB BBC-DR/)
-      assert.match(html, /Jaartotalen en definities/)
+      assert.doesNotMatch(html, /<a |Jaartotalen en definities/)
+      if (section === "investments-yearly-actual" || section === "investments-yearly-actual-real") {
+        assert.doesNotMatch(html, /Besturen recent/)
+      }
       assert.doesNotMatch(html, /Per boekjaar het meest recente|Geplande bouwinvesteringen volgens/)
       assert.doesNotMatch(html, /Let op:|Heel Vlaanderen;|Overlappende planjaren/)
       assert.doesNotMatch(html, /dezelfde verticale schaal|Broncontrole en SHA-256|Ontbrekende waarden zijn geen/)
@@ -130,6 +133,7 @@ for (const [section, Component, props, narrative] of geoSections) {
     const html = renderToStaticMarkup(React.createElement(Component, props))
     assert.match(html, /<h2/)
     assert.match(html, /ABB BBC-DR/)
+    if (section === "investments-planned-2026-2031") assert.doesNotMatch(html, /<a |Rekening/)
     assert.doesNotMatch(html, narrative)
 
     pathname = "/analyses/gemeentelijke-investeringen-2026-10/"

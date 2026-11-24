@@ -22,4 +22,5 @@ export type ComparisonSection = typeof COMPARISON_SECTIONS[number]
 export type Section = typeof SECTIONS[number]
 
 export const PROJECTS_PATH = "/analyses/bouwprojecten-gemeenten-2026-09/"
-export const PROJECTS_EMBED_PATH = "/analyses/bouwprojecten-gemeenten-2026-09/embed/bouwprojecten-gemeenten-2026-09/projectbrowser/"
+/** Vanuit een embed: losse standalone projectbrowser (Cloudflare Pages), zonder link naar de volledige site. */
+export const PROJECTS_EMBED_PATH = "https://gemeenten-projectbrowser.pages.dev/embed/bouwprojecten-gemeenten-2026-09/projectbrowser/"

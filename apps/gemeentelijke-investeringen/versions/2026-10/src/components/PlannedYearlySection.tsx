@@ -115,12 +115,12 @@ export function PlannedYearlySection({
     if (isEmbed) window.open(href, "_blank", "noopener")
     else window.location.assign(href)
   }
+  const linkTarget = isEmbed ? "_blank" : undefined
   const csvData = rows.flatMap((row) => visibleDomains.map(({ name, position }) => ({
     label: String(row.year),
     periodCells: [row.year, name],
     value: Math.round(row[`d${position}`] * 100) / 100,
   })))
-  const linkTarget = isEmbed ? "_blank" : undefined
 
   return (
     <section id={SECTION} className="scroll-mt-8">
@@ -157,7 +157,7 @@ export function PlannedYearlySection({
                 {index.domains.map((entry, position) => <option key={entry.label} value={position}>{entry.name}</option>)}
               </LabeledSelect>
             )}
-            {index && (
+            {index && !isEmbed && (
               <LabeledSelect label="Rekening" value={account} onChange={setAccount}>
                 <option value="">Alle rekeningen in de bouwscope</option>
                 {Object.entries(index.scope).map(([group, label]) => (
@@ -268,7 +268,7 @@ export function PlannedYearlySection({
             </Tabs>
           )}
           <p className="text-sm text-muted-foreground">
-            Bron: <a className="underline" href={SOURCE_URL}>ABB BBC-DR</a>, meest recent meerjarenplan 2026-2031.
+            Bron: {isEmbed ? "ABB BBC-DR" : <a className="underline" href={SOURCE_URL}>ABB BBC-DR</a>}, meest recent meerjarenplan 2026-2031.
             <AnalysisOnly>
               {" "}Projecten in de projectbrowser omvatten de volledige rekeninggroep (bv. ook roerende goederen) en tellen
               daarom niet altijd exact op tot deze bouwbedragen.
