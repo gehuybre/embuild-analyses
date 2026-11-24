@@ -196,7 +196,7 @@ export function PlannedYearlySection({
                     href={browserHref}
                     target="_blank"
                     rel="noopener"
-                    className="inline-flex h-9 items-center rounded-md border bg-background px-3 text-sm font-medium hover:bg-muted"
+                    className="inline-flex h-9 items-center rounded-md bg-blue-600 px-3 text-sm font-medium text-white hover:bg-blue-700"
                   >
                     Klik om de concrete projecten te bekijken
                   </a>
