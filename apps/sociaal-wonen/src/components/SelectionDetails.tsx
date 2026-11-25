@@ -54,7 +54,7 @@ export function SelectionDetails({ nis, wmId, gemeenten, wms, rows, onClear, onS
         {selectedWm && <a className="inline-flex items-center gap-1 text-sm text-primary hover:underline" href={selectedWm.url} target="_blank" rel="noopener noreferrer">Website van {selectedWm.naam}<ExternalLink className="h-3.5 w-3.5" /></a>}
       </div>
 
-      <div className="grid gap-3 md:grid-cols-2">
+      <div className="grid grid-cols-1 gap-3">
         {(["kt", "lt"] as Horizon[]).map((horizon) => {
           const scoped = scopedRows(horizon)
           return (
