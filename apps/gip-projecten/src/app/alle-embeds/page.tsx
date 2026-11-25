@@ -1,8 +1,8 @@
 import { GIPDashboard } from "@/components/GIPDashboard"
 
-const SECTIONS = ["overview", "map", "projects", "reconciliation", "large"] as const
+const SECTIONS = ["overview", "projects", "map", "large"] as const
 
-/** Overzichtspagina: alle embeds onder elkaar, zonder begeleidende tekst. */
+/** Overzichtspagina: alle embeds onder elkaar, zonder begeleidende tekst. "reconciliation" geeft dezelfde weergave als "overview" en is weggelaten. */
 export default function Page() {
   return (
     <main className="mx-auto flex max-w-6xl flex-col gap-12 px-4 py-8">
